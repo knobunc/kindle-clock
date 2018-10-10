@@ -29,9 +29,12 @@ if [ -f /mnt/us/timelit/showsource ]; then
 	ThisMinuteImage=$(echo $ThisMinuteImage | sed 's/images/images\/metadata/')
 fi
 
-# clear the screen
-eips -c
+# Do a full repaint hourly
+clearFlag=""
+if echo $MinuteOTheDay | grep -q '^..00$'; then
+        clearFlag="-f"
+fi
 
 # show that image
-eips -g $ThisMinuteImage
+eips $clearFlag -g $ThisMinuteImage
 
