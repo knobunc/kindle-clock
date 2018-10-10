@@ -5,7 +5,7 @@ test -f /mnt/us/timelit/clockisticking || exit
 
 
 # find the current minute of the day
-MinuteOTheDay="$(env TZ=EST5EDT date -R +"%H%M")";
+MinuteOTheDay="$(env TZ='EST+5EDT,M3.2.0/2,M11.1.0/2' date -R +"%H%M")";
 
 # check if there is at least one image for this minute 
 lines="$(find /mnt/us/timelit/images/quote_$MinuteOTheDay* 2>/dev/null | wc -l)"
@@ -38,3 +38,7 @@ fi
 # show that image
 eips $clearFlag -g $ThisMinuteImage
 
+# Sync the clock over ntp daily
+if [ "$MinuteOTheDay" -eq '0000' ]; then
+    ntpdate pool.ntp.org
+fi
