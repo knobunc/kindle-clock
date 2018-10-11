@@ -29,9 +29,9 @@ if [ -f /mnt/us/timelit/showsource ]; then
 	ThisMinuteImage=$(echo $ThisMinuteImage | sed 's/images/images\/metadata/')
 fi
 
-# Do a full repaint hourly
+# Do a full repaint every 30 minutes
 clearFlag=""
-if echo $MinuteOTheDay | grep -q '^..00$'; then
+if echo $MinuteOTheDay | grep -q '^..[03]0$'; then
         clearFlag="-f"
 fi
 
