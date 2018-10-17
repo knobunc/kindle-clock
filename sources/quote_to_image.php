@@ -33,7 +33,7 @@ if (($handle = fopen("litclock_annotated.csv", "r")) !== FALSE) {
 
         // if ($row < 10)
         TurnQuoteIntoImage($time, $quote, $timestring, $title, $author);
-
+exit;
     }
     fclose($handle);
 }
