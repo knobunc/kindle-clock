@@ -11,18 +11,18 @@
 #   5 0 * * * sh /mnt/us/utils/update.sh
 
 RSYNC_SOURCE="fiji@limey.net:kindle/kindle-clock"
-RSYNC_OPTIONS="-rlptD --delay-updates"
+RSYNC_OPTIONS="-rlptD"
 
 cd /mnt/us
 
+# Update all of the files in util and completely replace them with the new stuff
+/usr/bin/rsync $RSYNC_OPTIONS --delay-update --delete-delay "${RSYNC_SOURCE}/utils/" utils
+
 # Update all of the files in timelit and completely replace them with the new stuff
-/usr/bin/rsync $RSYNC_OPTIONS --delete-delay "${RSYNC_SOURCE}/timelit/" timelit
+/usr/bin/rsync $RSYNC_OPTIONS "${RSYNC_SOURCE}/timelit/" timelit
 
 # Update the launchpad init file, but leave the rest of the directory alone
 /usr/bin/rsync $RSYNC_OPTIONS "${RSYNC_SOURCE}/launchpad/" launchpad
 
 # Restart launchpad
 /etc/init.d/launchpad restart
-
-# Update all of the files in util and completely replace them with the new stuff
-/usr/bin/rsync $RSYNC_OPTIONS --delete-delay "${RSYNC_SOURCE}/utils/" utils
