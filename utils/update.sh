@@ -6,9 +6,9 @@
 #
 # The expectation is that it will be run periodically from /etc/crontab/root:
 # e.g., for every 15 mins:
-#   */15 * * * * sh /mnt/us/utils/update.sh
+#   */15 * * * * sh /mnt/us/utils/update.sh > /mnt/us/updatelog 2>&1
 # or every day, 5 mins after midnight:
-#   5 0 * * * sh /mnt/us/utils/update.sh
+#   5 0 * * * sh /mnt/us/utils/update.sh > /mnt/us/updatelog 2>&1
 
 RSYNC_SOURCE="fiji@limey.net:kindle/kindle-clock"
 
