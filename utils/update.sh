@@ -11,7 +11,9 @@
 #   5 0 * * * sh /mnt/us/utils/update.sh
 
 RSYNC_SOURCE="fiji@limey.net:kindle/kindle-clock"
-RSYNC_OPTIONS="-rlptD"
+
+# The target filesystem doesn't allow modification of mtime, setting of user, or setting of permissions
+RSYNC_OPTIONS="-rltD --omit-dir-times"
 
 cd /mnt/us
 
