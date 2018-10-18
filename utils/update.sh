@@ -18,6 +18,8 @@ RSYNC_OPTIONS="-rltD --omit-dir-times"
 cd /mnt/us
 
 # Update all of the files in util and completely replace them with the new stuff
+# To do this manually:
+#  /usr/bin/rsync -rltD --omit-dir-times -delete-delay --delay-updates fiji@limey.net:kindle/kindle-clock/utils/ utils
 /usr/bin/rsync $RSYNC_OPTIONS --delete-delay --delay-updates "${RSYNC_SOURCE}/utils/" utils
 
 # Update all of the files in timelit and completely replace them with the new stuff
