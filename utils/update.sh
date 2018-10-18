@@ -21,7 +21,11 @@ cd /mnt/us
 /usr/bin/rsync $RSYNC_OPTIONS --delete-delay --delay-updates "${RSYNC_SOURCE}/utils/" utils
 
 # Update all of the files in timelit and completely replace them with the new stuff
-/usr/bin/rsync $RSYNC_OPTIONS --delete "${RSYNC_SOURCE}/timelit/" timelit
+# BUT ignore the images, we do that later
+/usr/bin/rsync $RSYNC_OPTIONS --delete --exclude /images "${RSYNC_SOURCE}/timelit/" timelit
+
+# Update the images, but we don't care about the times
+/usr/bin/rsync $RSYNC_OPTIONS --size-only --delete "${RSYNC_SOURCE}/timelit/images/" timelit/images
 
 # Update the launchpad init file, but leave the rest of the directory alone
 /usr/bin/rsync $RSYNC_OPTIONS "${RSYNC_SOURCE}/launchpad/" launchpad
