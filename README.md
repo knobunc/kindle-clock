@@ -30,7 +30,7 @@ EOF
 mntroot rw
 cp /mnt/us/utils/clean-clock /etc/init.d/
 cd /etc/rcS.d
-ln -s ../init.d/asdasd S77clean-clock
+ln -s ../init.d/clean-clock S77clean-clock
 mntroot ro
 ```
 7. Tell launchpad to reload its config:
