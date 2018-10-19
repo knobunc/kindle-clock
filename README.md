@@ -38,8 +38,19 @@ mntroot ro
 /etc/init.d/launchpad restart
 ```
 8. Type `shift c` to start the clock (and to end it).  You may need to
-wait a moment between the shift and the c for it to register
+wait a moment between the `shift` and the `c` for it to register
 correctly.
+
+
+## Usage
+
+Commands added to launchpad:
+* `shift c`: Starts or stops the clock
+* `shift n`: Starts or stops usbnet
+* `shift u`: Kicks off a manual update
+
+While the clock is running:
+* `next page` or `previous page`: Toggles display of the source of the quotes
 
 
 ## Links
