@@ -1,4 +1,6 @@
-# What is this?
+# Literary Clock Scripts
+
+## What is this?
 
 This is a repo to make installation and maintenance of the "literary
 clock" for the Kindle a little easier.  All credit to tjaap, you can
@@ -6,7 +8,7 @@ see his instructable at:
 https://www.instructables.com/id/Literary-Clock-Made-From-E-reader/
 
 
-# How to Install
+## How to Install
 
 1. Jailbreak your Kindle, install launchpad and usbnet.  Instructions
    are at step 2 of https://www.instructables.com/id/Literary-Clock-Made-From-E-reader/
@@ -40,20 +42,20 @@ wait a moment between the shift and the c for it to register
 correctly.
 
 
-# Links
+## Links
 
 * Main guide:
-** https://www.instructables.com/id/Literary-Clock-Made-From-E-reader/
+  * https://www.instructables.com/id/Literary-Clock-Made-From-E-reader/
 
 * Various details about kindle and hacking:
-** https://grenville.wordpress.com/2011/09/25/kindle-jailbreak-usb-networking/
-** https://www.turnkeylinux.org/blog/kindle-root
+  * https://grenville.wordpress.com/2011/09/25/kindle-jailbreak-usb-networking/
+  * https://www.turnkeylinux.org/blog/kindle-root
 
 * All k3w Kindle commands:
-** http://blog.diannegorman.net/2010/09/kindle-3-keyboard-shortcuts-et-al/
+  * http://blog.diannegorman.net/2010/09/kindle-3-keyboard-shortcuts-et-al/
 
 * A web version of the clock:
-**http://jenevoldsen.com/literature-clock/
+  * http://jenevoldsen.com/literature-clock/
 
 * My version of the quotes:
-** https://docs.google.com/spreadsheets/d/1Y6jlhHDkpwyFxv8mav74SQwXLYGfCX6AJ9-ZOyZAFig/edit#gid=402741642
+  * https://docs.google.com/spreadsheets/d/1Y6jlhHDkpwyFxv8mav74SQwXLYGfCX6AJ9-ZOyZAFig/edit#gid=402741642
