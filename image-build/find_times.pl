@@ -1,12 +1,13 @@
 #!/bin/env perl
 
-use strict;
-use warnings;
+use Modern::Perl '2017';
+
 use utf8;
 use open ':std', ':encoding(UTF-8)';
 
 use Archive::Zip;
 use Data::Dumper;
+use File::Spec;
 use XML::Entities;
 
 use lib '.';
@@ -28,8 +29,13 @@ sub main {
 sub search_zip {
     my ($file) = @_;
 
+    my $output_dump = 1;
+    my @res;
+
     my $zip = Archive::Zip->new($file)
         or die "Unable to read zipfile '$file': $!";
+
+    my (undef, undef, $basename) = File::Spec->splitpath($file);
 
     foreach my $member (sort {$a cmp $b} $zip->members()) {
         my $name = $member->fileName();
@@ -37,7 +43,7 @@ sub search_zip {
 
         my $contents = $member->contents();
         utf8::decode($contents);
-        my @lines = split /\n/, $contents;
+        my @lines = split m{</(?:p|div)>\R*}, $contents;
         foreach my $line (@lines) {
             ## First clean out html and turn to text
             $line =~ s{< /? [^>]+ >}{}gx;
@@ -45,10 +51,19 @@ sub search_zip {
 
             $line = do_match($line);
 
-            print $line, "\n\n"
-                if $line =~ /<</;
+            if ($line =~ /<</) {
+                my ($time_bit) = $line =~ m{<< ([^|>]+) [|] \d+ \w? (:\d)? >>}x;
+                push @res, [1, "$basename - $time_bit", $line];
+
+                print $line, "\n\n"
+                    unless $output_dump;
+            }
+
         }
     }
+
+    print Dumper \@res
+        if $output_dump;
 
     return;
 }
