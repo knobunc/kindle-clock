@@ -16,6 +16,9 @@ exit main(@ARGV);
 
 sub main {
     my ($string) = @_;
+    utf8::decode($string);
+
+    while ($string =~ s{<< ([^|>]+) [|] \d+ \w? (:\d)? >>}{$1}gx) { }
 
     say do_match($string);
 
