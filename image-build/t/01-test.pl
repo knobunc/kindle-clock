@@ -530,9 +530,9 @@ sub get_csv_tests {
             'A minute had passed, and the roller dropped a new leaf. <<12:57|2>>. 12 + 57 = 69; 6 + 9 = 15; 1 + 5 = 6. 712 + 5 = 717; 71 + 7 = 78; 7 + 8 = 15; 1 + 5 = 6 again.'
           ],
           [
-            1,
+            -1,
             'Timestr: almost at one in the morning',
-            'It was downright shameless on his part to come visiting them, especially at night, almost at <<one|9a>> in the morning, after all that had happened.'
+            'It was downright shameless on his part to come visiting them, especially at night, <<almost at one|9a>> in the morning, after all that had happened.'
           ],
           [
             1,
