@@ -68,8 +68,10 @@ my $ba_re = qr{ \b | (?= [.,:;?/"'‘’“”\s] ) | \z }xi;
 # This must have an anchor for the start before it, specifically \G
 # and it must be matched and included in the results
 # i.e.:  \G ( $not_in_match )
-my $not_in_match    = qr{ (?: [^<]*? (?: [-.,:;?/""''‘’“”\s([] ) | <[^<] | [^<]* << [^>]++ >> (*PRUNE) )*? }xi;
-my $not_in_match_sp = qr{ (?: [^<]*? (?: [""''‘’“”\s([]        ) | <[^<] | [^<]* << [^>]++ >> (*PRUNE) )*? }xi;
+#my $not_in_match    = qr{ (?: [^<]*? (?: [-.,:;?/""''‘’“”\s([] ) | <[^<] | [^<]* << [^>]++ >> (*PRUNE) )*? }xi;
+#my $not_in_match_sp = qr{ (?: [^<]*? (?: [""''‘’“”\s([]        ) | <[^<] | [^<]* << [^>]++ >> (*PRUNE) )*? }xi;
+my $not_in_match    = qr{ (?: [-.,:;?/""''‘’“”\s([] | \G ) }xi;
+my $not_in_match_sp = qr{ (?: [""''‘’“”\s([]        | \G ) }xi;
 
 # Relative words
 my $at_words     = qr{ until | at | before }xi;
@@ -152,7 +154,7 @@ sub do_match {
     # Times to/from hour
     # ten minutes past noon
     # three minutes till eight
-    push @r,qr{ \G ( $not_in_match )
+    push @r,qr{  ( $not_in_match )
                    ( (?: (?: $rel_words \s+ )?
                          (?: $min_word_re | \d{1,2} | a | a \s+ few ) (?: \s+ | - )
                          (?: minute s? \s+ )?
@@ -218,7 +220,7 @@ sub do_match {
               }xi;
 
     # on the 1237
-    push @r,qr{ \G ( $not_in_match
+    push @r,qr{  ( $not_in_match
                      (?: on \s+ the
                       |  here \s+ at
                      ) \s+ )
@@ -231,7 +233,7 @@ sub do_match {
 
     # O'Clocks
     # 1 o'clock, 1 oclock, 1 of the clock
-    push @r,qr{ ( \G $not_in_match_sp )
+    push @r,qr{ (  $not_in_match_sp )
                 ( (?: $rel_words \s+ )?
                   $hour24_re [?]? \s+ $oclock_re
                 )
@@ -280,7 +282,7 @@ sub do_match {
 
     # Separators are mandatory
     # 5.06 a.m.
-    push @r,qr{ \G ( $not_in_match )
+    push @r,qr{ ( $not_in_match )
                 ( (?: $rel_words \s+ )?
                   $hour12_dig_re [.:] $minsec_dig_re (?: [.:] $minsec_dig_re )?
                   (?: \s* $ampm_re )
@@ -291,7 +293,7 @@ sub do_match {
 
     # : Means it's a time
     # 12:37
-    push @r,qr{ \G ( $not_in_match )
+    push @r,qr{ ( $not_in_match )
                 ( (?: $rel_words \s+ )?
                   $hour_dig_re : $minsec_dig_re (?: : $minsec_dig_re )?
                   (?: \s* $ampm_re )?
@@ -324,7 +326,7 @@ sub do_match {
 
     # Word times (other word times come later)
     # eleven fifty-six am
-    push @r,qr{ \G ( $not_in_match )
+    push @r,qr{ ( $not_in_match )
                 ( (?: $rel_words \s+ )?
                   $hour_re
                   (?: [\s.-]+ $min_word_re )?
@@ -337,7 +339,7 @@ sub do_match {
 
     # PMs
     # 1 pm, one p.m.
-    push @r,qr{ \G ( $not_in_match )
+    push @r,qr{ ( $not_in_match )
                 ( $hour_re [?]? \s* $ampm_re )
                 () $ba_re
                 (?{ $branch = "7"})
@@ -357,7 +359,7 @@ sub do_match {
 
     # at 1237 when
     # by 8.45 on saturday
-    push @r,qr{ \G ( $not_in_match
+    push @r,qr{    ( $not_in_match
                      (?: at | it \s+ is | it \s+ was | twas | by | by \s+ the ) \s+ )
                    ( $hour_re [?]? [-.\s]? $min_re )
                    ( \s+ (?: (?: on | in)
@@ -437,7 +439,7 @@ sub do_match {
 
     # Strong word times
     # at eleven fifty-seven
-    push @r,qr{ \G ( $not_in_match
+    push @r,qr{    ( $not_in_match
                      (?: at | (?: it | time ) \s+ (?: is | was | will \s+ be ) | by
                       | ['‘’] (?: twill \s+ be | twas )
                       ) \s+
@@ -466,7 +468,7 @@ sub do_match {
                }xi;
 
     # at a four-thirty screening
-    push @r,qr{ \G ( $not_in_match
+    push @r,qr{    ( $not_in_match
                      (?: at \s+ a ) \s+
                     )
                 ( $hour24_word_re (?: \s+ | [-.] ) $min_word_re (?: \s* $ampm_re )? )
@@ -524,7 +526,7 @@ sub do_match {
 
     # Untrustworthy times... need an indication that it is a time, not just some number
     # at 1237, is 1237, was 1237, by 1237
-    push @r,qr{ \G ( $not_in_match
+    push @r,qr{    ( $not_in_match
                      (?: at (?: \s+ last )?
                       | it \s+ is | it \s+ was | twas | by ) \s+ )
                    ( (?: $rel_words \s+ )?
@@ -538,7 +540,7 @@ sub do_match {
               }xi;
 
     # eleven fifty-six
-    push @r,qr{ \G ( $not_in_match_sp )?
+    push @r,qr{ ( $not_in_match_sp )
                 ( (?: $rel_words \s+ )?
                   (?: $hour24_word_re (?: [-\s]+ | \s* (?: \Q...\E | … ) \s* ) $min_word_re
                    | $hour_dig_re [-.] $minsec0_dig_re
@@ -553,18 +555,30 @@ sub do_match {
               }xi;
 
     # Noon / midnight, but not in a << string
-    push @r,qr{ \G ( $not_in_match )
+    push @r,qr{ ( $not_in_match )
                 ( noon | noonday | midnight )
                 () $ba_re
                 (?{ $branch = "13"})
               }xi;
 
-    foreach my $r (@r) {
-        $line =~ s{$r}{$1<<$2|$branch>>$3}g;
-    }
-
     # Military times?
     #   Thirteen hundred hours; Zero five twenty-three; sixteen thirteen
+
+    my @parts = $line;
+    foreach my $r (@r) {
+        my @new;
+        foreach my $part (@parts) {
+            if ($part !~ m{^<<}) {
+                $part =~ s{$r}{$1<<$2|$branch>>$3}g;
+                push @new, split(qr{(<<[^>]+>>)}, $part);
+            }
+            else {
+                push @new, $part;
+            }
+        }
+        @parts = @new;
+    }
+    $line = join '', @parts;
 
     ## Fixups
     # Get absolute words out

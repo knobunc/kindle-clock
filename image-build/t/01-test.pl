@@ -3440,7 +3440,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr: 10.57',
-            'I run the tape back repeatedly, looking at the time indicator in the top left-hand corner of the screen, where the figures covering part of her forehead show the minutes and seconds, from 10.<<53 to 10|10>>.57.'
+            'I run the tape back repeatedly, looking at the time indicator in the top left-hand corner of the screen, where the figures covering part of her forehead show the minutes and seconds, from <<10.53|99>> to <<10.57|99>>.'
           ],
           [
             1,
@@ -6335,7 +6335,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr: 8.21',
-            'At <<8.21|3:1>, after a knock at the door, a constable said a military police vehicle had just driven into the courtyard, the driver asking for "Mr." Murray.'
+            'At <<8.21|9e>>, after a knock at the door, a constable said a military police vehicle had just driven into the courtyard, the driver asking for "Mr." Murray.'
           ],
           [
             1,
@@ -7205,7 +7205,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr: 11.42',
-            'At <<11.42|3:1 then the signal\'s nearly due And the passengers are frantic to a man- Then Skimble will appear and he\'ll saunter to the rear:'
+            'At <<11.42|9d>> then the signal\'s nearly due And the passengers are frantic to a man- Then Skimble will appear and he\'ll saunter to the rear:'
           ],
           [
             1,
