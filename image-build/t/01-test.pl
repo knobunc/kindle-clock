@@ -55,7 +55,7 @@ sub get_book_tests {
           [
             1,
             'Making Money - Terry Pratchett.epub - After nine',
-            '<<After nine|9:0>> seconds of industrious writing, Lord Vetinari looked up from his paperwork.'
+            'After nine seconds of industrious writing, Lord Vetinari looked up from his paperwork.'
           ],
           [
             1,
@@ -94,8 +94,8 @@ sub get_book_tests {
           ],
           [
             1,
-            'Making Money - Terry Pratchett.epub - <<midnight',
-            "Next evening, it turned out that the pecunious youth spent the evening in a bar and died outside in a drunken brawl around <<midnight|13>>, short of money and even shorter of breath. Heretofore\x{2019}s room was next to Cranberry\x{2019}s. On reflection, he\x{2019}d heard the man come in late that night."
+            'Making Money - Terry Pratchett.epub - around midnight',
+            "Next evening, it turned out that the pecunious youth spent the evening in a bar and died outside in a drunken brawl <<around midnight|13>>, short of money and even shorter of breath. Heretofore\x{2019}s room was next to Cranberry\x{2019}s. On reflection, he\x{2019}d heard the man come in late that night."
           ],
           [
             1,
@@ -128,9 +128,9 @@ sub get_book_tests {
             "\x{201c}I\x{2019}m not sure. In fact I\x{2019}d better go and check. Look, we\x{2019}ve both had a busy day. I\x{2019}ll send a cab at <<half past seven|10>>, all right?\x{201d}"
           ],
           [
-            1,
+            -1,
             'Making Money - Terry Pratchett.epub - six three',
-            "The Patrician shut his eyes, drummed his fingers on the desktop for a moment. \x{201c}Hmm\x{2026}nine <<six three|5a:0>> <<one seven|5a:0>> four\x{2014}\x{201d} Drumknott scribbled hastily as the numbers streamed, and Vetinari eventually concluded: \x{201c}\x{2014}eight <<four seven|5a:0>> three. And I\x{2019}m sure they used that one last month. On a Monday, I believe.\x{201d}"
+            "The Patrician shut his eyes, drummed his fingers on the desktop for a moment. \x{201c}Hmm\x{2026}nine six three one seven four\x{2014}\x{201d} Drumknott scribbled hastily as the numbers streamed, and Vetinari eventually concluded: \x{201c}\x{2014}eight four seven three. And I\x{2019}m sure they used that one last month. On a Monday, I believe.\x{201d}"
           ],
           [
             1,
@@ -872,7 +872,7 @@ sub get_csv_tests {
           [
             1,
             'Timestr: two-twenty',
-            'She turned abruptly to the nurse and asked the time. \'<<Two-twenty|9j>>\' \'Ah...Two-twenty!\' Genevieve repeated, as though there was something urgent to be done.'
+            'She turned abruptly to the nurse and asked the time. \'<<Two-twenty|9j>>\' \'Ah...<<Two-twenty|5a:0>>!\' Genevieve repeated, as though there was something urgent to be done.'
           ],
           [
             1,
@@ -2422,7 +2422,7 @@ sub get_csv_tests {
           [
             1,
             'Timestr: eight-one',
-            '<<Eight-one|5a:1>>, tick-tock, <<eight-one|5a:1>> o\'clock, off to school, off to work, run, run, <<eight-one|5a:1>>!'
+            '<<Eight-one|5a:1>>, tick-tock, <<eight-one o\'clock|6>>, off to school, off to work, run, run, <<eight-one|5a:1>>!'
           ],
           [
             1,
@@ -2655,7 +2655,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr: 8.47',
-            '"Just on my way to the cottage. It\'s, er, ..8.47. Bit misty on the roads....."'
+            '"Just on my way to the cottage. It\'s, er, ..<<8.47|5a:0>>. Bit misty on the roads....."'
           ],
           [
             1,
@@ -3440,7 +3440,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr: 10.57',
-            'I run the tape back repeatedly, looking at the time indicator in the top left-hand corner of the screen, where the figures covering part of her forehead show the minutes and seconds, from <<10.53|99>> to <<10.57|99>>.'
+            'I run the tape back repeatedly, looking at the time indicator in the top left-hand corner of the screen, where the figures covering part of her forehead show the minutes and seconds, from <<10.53|5a:0>> to <<10.57|5a:0>>.'
           ],
           [
             1,
@@ -3820,7 +3820,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr: around noon',
-            "A few minutes' light around <<noon|13>> is all that you need to discover the error, and re-set the clock \x{2013} provide that you bother to go up and make the observation."
+            "A few minutes' light <<around noon|13>> is all that you need to discover the error, and re-set the clock \x{2013} provide that you bother to go up and make the observation."
           ],
           [
             -1,
@@ -3865,22 +3865,22 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr: twelve o\'clock',
-            'It was precisely <<twelve o\'clock|6>>; twelve by Big Ben; whose stroke was wafted over the northern part of London; blent with that of other clocks, mixed in a thin ethereal way with the clouds and wisps of smoke and died up there among the seagulls, <<twelve o\'clock|6>> struck as Clarissa Dalloway laid her green dress on her bed and the Warren Smiths walked down Harley Street. Twelve was the hour of their appointment.'
+            'It was precisely <<twelve o\'clock|6>>; <<twelve|5g:1>> by Big Ben; whose stroke was wafted over the northern part of London; blent with that of other clocks, mixed in a thin ethereal way with the clouds and wisps of smoke and died up there among the seagulls, <<twelve o\'clock|6>> struck as Clarissa Dalloway laid her green dress on her bed and the Warren Smiths walked down Harley Street. Twelve was the hour of their appointment.'
           ],
           [
             1,
             'Timestr: twelve o\'clock',
-            'It was precisely <<twelve o\'clock|6>>; twelve by Big Ben; whose stroke was wafted over the northern part of London; blent with that of other clocks, mixed in a thin ethereal way wth the clouds and wisps of smoke and died up there among the seagulls - <<twelve o\'clock|6>> struck as Clarissa Dalloway laid her green dress on the bed, and the Warren Smiths walked down Harley Street.'
+            'It was precisely <<twelve o\'clock|6>>; <<twelve|5g:1>> by Big Ben; whose stroke was wafted over the northern part of London; blent with that of other clocks, mixed in a thin ethereal way wth the clouds and wisps of smoke and died up there among the seagulls - <<twelve o\'clock|6>> struck as Clarissa Dalloway laid her green dress on the bed, and the Warren Smiths walked down Harley Street.'
           ],
           [
             1,
             "Timestr: twelve o\x{2019}clock",
-            "It was precisely <<twelve o\x{2019}clock|6>>; twelve by Big Ben; whose stroke was wafted over the northern part of London; blent with that of other clocks, mixed in a thin ethereal way with the clouds and wisps of smoke and died up there among the seagulls\x{2014}twelve o\x{2019}clock struck as Clarissa Dalloway laid her green dress on her bed, and the Warren Smiths walked down Harley Street"
+            "It was precisely <<twelve o\x{2019}clock|6>>; <<twelve|5g:1>> by Big Ben; whose stroke was wafted over the northern part of London; blent with that of other clocks, mixed in a thin ethereal way with the clouds and wisps of smoke and died up there among the seagulls\x{2014}<<twelve o\x{2019}clock|6>> struck as Clarissa Dalloway laid her green dress on her bed, and the Warren Smiths walked down Harley Street"
           ],
           [
             1,
             "Timestr: twelve o\x{2019}clock",
-            "It was precisely <<twelve o\x{2019}clock|6>>; twelve by Big Ben; whose stroke was wafted over the northern part of London; blent with that of other clocks, mixed in a thin ethereal way with the clouds and wisps of smoke, and died up there among the seagulls."
+            "It was precisely <<twelve o\x{2019}clock|6>>; <<twelve|5g:1>> by Big Ben; whose stroke was wafted over the northern part of London; blent with that of other clocks, mixed in a thin ethereal way with the clouds and wisps of smoke, and died up there among the seagulls."
           ],
           [
             1,
@@ -3945,12 +3945,12 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr: around noon',
-            "A few minutes' light around <<noon|13>> is all that you need to discover the error, and re-set the clock \x{2013} provide that you bother to go up and make the observation."
+            "A few minutes' light <<around noon|13>> is all that you need to discover the error, and re-set the clock \x{2013} provide that you bother to go up and make the observation."
           ],
           [
             1,
             'Timestr: around noon',
-            "A few minutes' light around <<noon|13>> is all that you need to discover the error, and re-set the clock \x{2013} provide that you bother to go up and make the observation."
+            "A few minutes' light <<around noon|13>> is all that you need to discover the error, and re-set the clock \x{2013} provide that you bother to go up and make the observation."
           ],
           [
             1,
@@ -4005,7 +4005,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr: twelve-twenty',
-            "By <<twelve-twenty|8> in the afternoon, Vince was seated in a rattan chair with comfortable yellow and green cushions at a table by the windows in that same restaurant. He\x{2019}d spotted Haines on entering. The doctor was at another window table, three away from Vince, half-screened by a potted palm. Haines was eating shrimp and drinking margaritas with a stunning blonde. She was wearing white slacks and a gaily striped tube-top, and half the men in the place were staring at her."
+            "By <<twelve-twenty|8>> in the afternoon, Vince was seated in a rattan chair with comfortable yellow and green cushions at a table by the windows in that same restaurant. He\x{2019}d spotted Haines on entering. The doctor was at another window table, three away from Vince, half-screened by a potted palm. Haines was eating shrimp and drinking margaritas with a stunning blonde. She was wearing white slacks and a gaily striped tube-top, and half the men in the place were staring at her."
           ],
           [
             1,
