@@ -40,13 +40,15 @@ sub search_zip {
 
     foreach my $member (sort {$a cmp $b} $zip->members()) {
         my $name = $member->fileName();
-        next if $name !~ /\.[x]?html$/;
+        next if $name !~ /\.[x]?html?$/;
 
         my $contents = $member->contents();
         utf8::decode($contents);
         my @lines = split m{</(?:p|div)>\R*}, $contents;
         foreach my $line (@lines) {
             ## First clean out html and turn to text
+            $line =~ s{<sup [^>/]+>.*?</sup>}{}gx;
+            $line =~ s{<br [^>]+ /? >}{\n}gx;
             $line =~ s{< /? [^>]+ >}{}gx;
             $line = XML::Entities::decode('all', $line);
 

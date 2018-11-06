@@ -80,7 +80,7 @@ sub get_book_tests {
           [
             1,
             'Making Money - Terry Pratchett.epub - about five',
-            "Rightly or wrongly, Hubert is one of those names you put a shape to. There may well be tall, slim Huberts, Moist would be the first to agree, but this Hubert was shaped like a proper Hubert, which is to say, stubby and plump. He had red hair\x{2014}unusual, in Moist\x{2019}s experience, in the standard-model Hubert. It grew thickly, straight up from his head, like the bristles of a brush; <<about five|9:0>> inches up, someone had apparently cut it short with the aid of shears and a spirit level. You could have stood a cup and saucer on it."
+            "Rightly or wrongly, Hubert is one of those names you put a shape to. There may well be tall, slim Huberts, Moist would be the first to agree, but this Hubert was shaped like a proper Hubert, which is to say, stubby and plump. He had red hair\x{2014}unusual, in Moist\x{2019}s experience, in the standard-model Hubert. It grew thickly, straight up from his head, like the bristles of a brush; about five inches up, someone had apparently cut it short with the aid of shears and a spirit level. You could have stood a cup and saucer on it."
           ],
           [
             1,
@@ -177,7 +177,7 @@ sub get_csv_tests {
           [
             1,
             'Timestr: midnight',
-            '"<<Midnight|9j>>," you said. What is <<midnight|13>> to the young? And suddenly a festive blaze was flung Across five cedar trunks, snow patches showed, And a patrol car on our bumpy road Came to a crunching stop. Retake, retake!'
+            '"<<Midnight|13>>," you said. What is <<midnight|13>> to the young? And suddenly a festive blaze was flung Across five cedar trunks, snow patches showed, And a patrol car on our bumpy road Came to a crunching stop. Retake, retake!'
           ],
           [
             1,
@@ -287,7 +287,7 @@ sub get_csv_tests {
           [
             1,
             'Timestr: midnight',
-            'We have heard the chimes at <<midnight|9c:1>>.'
+            'We have heard the chimes at <<midnight|13>>.'
           ],
           [
             1,
@@ -762,7 +762,7 @@ sub get_csv_tests {
           [
             1,
             'Timestr: About two',
-            '"The middle of the night?" Alec asked sharply."Can you be more definite?" "<<About two|9j>>. Just past." Daisy noted that he expressed no concern for her safety.'
+            '"The middle of the night?" Alec asked sharply."Can you be more definite?" "<<About two|9:0>>. Just past." Daisy noted that he expressed no concern for her safety.'
           ],
           [
             1,
@@ -1022,7 +1022,7 @@ sub get_csv_tests {
           [
             1,
             'Timestr: three o\'clock',
-            'According to her watch it was shortly <<after three o\'clock|6>>, and according to everything else it was night-time.'
+            'According to her watch it was <<shortly after three o\'clock|6>>, and according to everything else it was night-time.'
           ],
           [
             1,
@@ -2042,12 +2042,12 @@ sub get_csv_tests {
           [
             1,
             'Timestr: one minute after the quarter to seven',
-            'At <<one|9d>> minute after the <<quarter to seven|10>> I heard the rattle of the cans outside. I opened the front door, and there was my man, singling out my cans from a bunch he carried and whistling through his teeth.'
+            'At <<one minute after the quarter to seven|10>> I heard the rattle of the cans outside. I opened the front door, and there was my man, singling out my cans from a bunch he carried and whistling through his teeth.'
           ],
           [
             1,
             'Timestr: one minute after the quarter to seven',
-            'Then I hung about in the hall waiting for the milkman. That was the worst part of the business, for I was fairly choking to get out of doors. <<Six-thirty|5a:1>> passed, then <<six-forty|5a:1>>, but still he did not come. The fool had chosen this day of all days to be late. At <<one|9d>> minute after the <<quarter to seven|10>> I heard the rattle of the cans outside. I opened the front door, and there was my man, singling out my cans from a bunch he carried and whistling through his teeth. He jumped a bit at the sight of me.'
+            'Then I hung about in the hall waiting for the milkman. That was the worst part of the business, for I was fairly choking to get out of doors. <<Six-thirty|5a:1>> passed, then <<six-forty|5a:1>>, but still he did not come. The fool had chosen this day of all days to be late. At <<one minute after the quarter to seven|10>> I heard the rattle of the cans outside. I opened the front door, and there was my man, singling out my cans from a bunch he carried and whistling through his teeth. He jumped a bit at the sight of me.'
           ],
           [
             1,
@@ -3185,7 +3185,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr: Ten-thirty',
-            'The pundit sighed. \'Only a fool like me would leave his door open when a riot can occur at any moment, and only a fool like me would say yes to you,\' he said. \'What time?\' Just his head was sticking out of the partially opened door. The money from blessing the ice-cream factory must have dulled his desire for work, I thought. \'<<Ten|9j>>.\' \'<<Ten-thirty|9j>>.\' Without another word, he closed the door.'
+            'The pundit sighed. \'Only a fool like me would leave his door open when a riot can occur at any moment, and only a fool like me would say yes to you,\' he said. \'What time?\' Just his head was sticking out of the partially opened door. The money from blessing the ice-cream factory must have dulled his desire for work, I thought. \'<<Ten|9k:0>>.\' \'<<Ten-thirty|9j>>.\' Without another word, he closed the door.'
           ],
           [
             1,
@@ -3355,7 +3355,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr: Just after half past ten.',
-            '"If you please. You went to bed at what time, Madame?" "Just <<after half past ten|10>>."'
+            '"If you please. You went to bed at what time, Madame?" "<<Just after half past ten|10>>."'
           ],
           [
             1,
@@ -3835,7 +3835,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr: Two minutes before the clock struck noon',
-            'Two minutes before the clock struck <<noon|11>>, the savage baron was on the platform to inspect the preparation for the frightful ceremony of mid-day. The block was laid forth-the hideous minister of vengeance, masked and in black, with the flaming glaive in his hand, was ready. The baron tried the edge of the blade with his finger, and asked the dreadful swordsman if his hand was sure? A nod was the reply of the man of blood. The weeping garrison and domestics shuddered and shrank from him. There was not one there but loved and pitied the gentle lady.'
+            '<<Two minutes before the clock struck noon|11a>>, the savage baron was on the platform to inspect the preparation for the frightful ceremony of <<mid-day|13>>. The block was laid forth-the hideous minister of vengeance, masked and in black, with the flaming glaive in his hand, was ready. The baron tried the edge of the blade with his finger, and asked the dreadful swordsman if his hand was sure? A nod was the reply of the man of blood. The weeping garrison and domestics shuddered and shrank from him. There was not one there but loved and pitied the gentle lady.'
           ],
           [
             -1,
@@ -3965,7 +3965,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr: noon, and ten minutes later',
-            'Madame Dumas arrived at <<noon|9c:1>>, and ten minutes later Trause handed her his ATM card and instructed her to go to the neighborhood Citibank near Sheridan Square and transfer forty thousand dollars from his savings account to his checking account.'
+            'Madame Dumas arrived at <<noon|13>>, and ten minutes later Trause handed her his ATM card and instructed her to go to the neighborhood Citibank near Sheridan Square and transfer forty thousand dollars from his savings account to his checking account.'
           ],
           [
             -1,
@@ -4760,7 +4760,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             "Timestr: three-o\x{2019}clock",
-            "Ladies bathed before <<noon|9c:1>>, after their three-o\x{2019}clock naps, and by nightfall were like soft teacakes with frostings of sweat and sweet talcum."
+            "Ladies bathed before <<noon|13>>, after their <<three-o\x{2019}clock|6>> naps, and by nightfall were like soft teacakes with frostings of sweat and sweet talcum."
           ],
           [
             1,
@@ -5110,7 +5110,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr: 1601',
-            'Light is coming in through the curtains. Suddenly the digits on the clock radio look like a year. <<1601|9j>>. I woke up a bit early, don\'t have to be born for another 400 years.'
+            'Light is coming in through the curtains. Suddenly the digits on the clock radio look like a year. <<1601|9l:1>>. I woke up a bit early, don\'t have to be born for another 400 years.'
           ],
           [
             1,
@@ -5335,7 +5335,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr: 1637.',
-            'She should have been home by now. <<1637|9j>>. Yes. It\'s as if I had the date of a year on my arm. Every day is a piece of world history.'
+            'She should have been home by now. <<1637|9l:0>>. Yes. It\'s as if I had the date of a year on my arm. Every day is a piece of world history.'
           ],
           [
             1,
@@ -6520,7 +6520,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr: nine o\'clock',
-            'Shortly <<after nine o\'clock|6>> that evening, Weyrother drove with his plans to Kutuzov\'s quarters where the council of war was to be held. All the commanders of columns were summoned to the commander in chief\'s and with the exception of Prince Bagration, who declined to come, were all there at the appointed time.'
+            '<<Shortly after nine o\'clock|6>> that evening, Weyrother drove with his plans to Kutuzov\'s quarters where the council of war was to be held. All the commanders of columns were summoned to the commander in chief\'s and with the exception of Prince Bagration, who declined to come, were all there at the appointed time.'
           ],
           [
             1,
@@ -6780,7 +6780,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr: after ten o\'clock',
-            'Of course, they had good reason to be fussy on such a night. And then it was long <<after ten o\'clock|6>> and yet there was no sign of Gabriel and his wife. Besides they were dreadfully afraid that Freddy Malins might turn up screwed.'
+            'Of course, they had good reason to be fussy on such a night. And then it was <<long after ten o\'clock|6>> and yet there was no sign of Gabriel and his wife. Besides they were dreadfully afraid that Freddy Malins might turn up screwed.'
           ],
           [
             1,
@@ -7305,7 +7305,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             -1,
             'Timestr: new day was still a minute away',
-            'Chigurgh rose and picked up the empty casing off the rug and blew into it and put it in his pocket and looked at his watch. The <<new day was still a minute away>>.'
+            'Chigurgh rose and picked up the empty casing off the rug and blew into it and put it in his pocket and looked at his watch. The <<new day was still a minute away|99>>.'
           ]
         ];
 
