@@ -133,6 +133,7 @@ my $never_follow_times_re =
       | thirds | halves | quarters
       | dollars | cents | pounds | shillings | pennies
       | kids | children | men | women | girls | boys
+      | rounds | turns
       }xi;
 
     # Set the branch state variable
@@ -144,6 +145,12 @@ sub do_match {
 
     #$line =~ s{ ( $not_in_match*? ) ((?:just)?) }{[$1]>$2<}gxi;
     #return $line;
+
+    ## Shortcircuit if it just has a number in the line
+    # e.g "Twenty-one" since these are probably chapters
+    if ($line =~ m{ \A [\n\s]* $min_word_re (?: [-\s]+ $low_num_re )? [\n\s]* \z }xi) {
+        return $line;
+    }
 
     ## Does this look like a "timey" paragraph
     my $is_timey = 0;
@@ -310,6 +317,7 @@ sub get_matches {
                    )
                    ( (?: $rel_words \s+ )?
                      $hour24_re (?: [-.:\s]* $min0_re )?
+                     (?! \s+ $never_follow_times_re \b )
                      (?: \s* $ampm_re )?
                    ) $ba_re
                    ()
@@ -473,7 +481,7 @@ sub get_matches {
                 ( (?: $rel_words \s+ )?
                   $hour_re [?]? (?: [-\s.]+ $min_re)? )
                 ( \s+ in \s+ the \s+
-                  (?: morning | afternoon | evening )
+                  (?: morn | morning | afternoon | evening )
                 )
                 $ba_re
                 (?{ $branch = "8"})
@@ -484,17 +492,26 @@ sub get_matches {
     push @r,qr{    ( $not_in_match
                      (?: at | it \s+ is | it \s+ was | twas | by | by \s+ the ) \s+ )
                    ( $hour_re [?]? [-.\s]? $min_re )
-                   ( \s+ (?: (?: on | in)
-                     \s+ (?: $weekday_re
-                          | the \s+ (?: morning | afternoon | evening ) )
+                   ( \s+ (?: (?: (?: on | in ) \s+ )? $weekday_re
                           | when
                           | today | tonight
-                          | (?: (?: this | that | one ) \s+
-                                (?: morning | afternoon | evening | night ) )
-                         )
+                          | (?: this | that | one | on \s+ the ) \s+
+                            (?: morning | morn | afternoon | evening | night )
+                          )
                    )
                    $ba_re
                 (?{ $branch = "3b"})
+              }xi;
+    # Three in the morning
+    push @r,qr{    ( $not_in_match
+                     (?: at | it \s+ is | it \s+ was | twas | by | by \s+ the ) \s+ )
+                   ( $hour_re [?]? [-.\s]? $min_re
+                     \s+ in
+                     \s+ (?: the \s+ (?: morn | morning | afternoon | evening ) )
+                   )
+                   ()
+                   $ba_re
+                (?{ $branch = "3d"})
               }xi;
 
     # Four, ...

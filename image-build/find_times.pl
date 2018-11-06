@@ -50,9 +50,9 @@ sub search_zip {
         my @lines = split m{</(?:p|div)>\R*}, $contents;
         foreach my $line (@lines) {
             ## First clean out html and turn to text
-            $line =~ s{<sup [^>/]+>.*?</sup>}{}gx;
-            $line =~ s{<br [^>]+ /? >}{\n}gx;
-            $line =~ s{< /? [^>]+ >}{}gx;
+            $line =~ s{<(sup|h1|h2|h3) [^>/]+>.*?</\g1>}{}sgix;
+            $line =~ s{<br [^>]+ /? >}{\n}sgix;
+            $line =~ s{< /? [^>]+ >}{}sgix;
             $line = XML::Entities::decode('all', $line);
 
             $line = do_match($line);

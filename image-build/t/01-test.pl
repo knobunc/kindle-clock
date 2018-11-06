@@ -1017,7 +1017,7 @@ sub get_csv_tests {
           [
             1,
             'Timestr: Three in the morn.',
-            "<<Three a.m.|5>> That\x{2019}s our reward. Three in the morn. The soul\x{2019}s <<midnight|13>>. The tide goes out, the soul ebbs. And a train arrives at an hour of despair. Why?"
+            "<<Three a.m.|5>> That\x{2019}s our reward. <<Three|8>> in the morn. The soul\x{2019}s <<midnight|13>>. The tide goes out, the soul ebbs. And a train arrives at an hour of despair. Why?"
           ],
           [
             1,
