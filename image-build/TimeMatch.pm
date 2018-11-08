@@ -74,7 +74,7 @@ my $oclock_re = qr{ o( ['‘’´] \s* | f \s+ the \s+ )?clock s? }xin;
 
 # Boundary before and after
 my $bb_re = qr{ (?<= [\[—\s"'(‘’“”] ) | \A }xin;
-my $ba_re = qr{ \b | (?= [—.…,:;?/"'‘’“”\s] ) | \z }xin;
+my $ba_re = qr{ \b | (?= [—/"'‘’“”\s.…,:;?] ) | \z }xin;
 
 # Match stuff from the start of the string to here.
 # This must have an anchor for the start before it, specifically \G
@@ -132,14 +132,15 @@ my $never_follow_times_re =
       | after | since
       | degrees
       | centimeters | cm | meters | kilometers | km
-      | inches | in | feet | ft | yards | yd | miles | mi
+      | inches | feet | ft | yards | yd | miles | mi
       | cubic | square
       | hundred | thousand | million | billion
       | ( \w+ \s+)? $time_periods_re
       | thirds | halves | quarters
-      | dollars | cents | pounds | shillings | pennies
-      | kids | children | men | women | girls | boys
-      | rounds | turns
+      | dollars | cents | pounds | shillings | pennies | yuan
+      | kids | children | men | women | girls | boys | families | people
+      | rounds | turns | lines
+      | books  | volumes
       }xin;
 
     # Set the branch state variable
@@ -229,6 +230,18 @@ sub get_masks {
     return(\@r)
         if @r;
 
+    # Take out compound numbers, dates never look like:
+    # 12,000
+    # 14.000
+    push @r,qr{ $bb_re
+                (?<t1> ( \d{1,3} ( [,] \d{3} )+
+                       | \d{1,3} ( [.] \d{3} )+
+                       )
+                )
+                $ba_re
+                (?{ $branch = "xx"; })
+              }xin;
+
     # odds of five to one
     push @r,qr{ (?<pr> \s+ odds \s+ of \s+ )
                 (?<t1> $min_re \s+ to \s+ $min_re )
@@ -236,10 +249,24 @@ sub get_masks {
                 (?{ $branch = "xx"; })
               }xin;
 
+    # one's
+    push @r,qr{ (?<t1> \b one ['‘’] s \b )
+                (?{ $branch = "xx"; })
+              }xin;
+
+    # I was one of twenty
+    push @r,qr{ (?<pr> \s+ )
+                (?<t1> one \s+ of \s+ $min_re )
+                \b
+                (?{ $branch = "xx"; })
+              }xin;
+
     # Bible quotes
     push @r,qr{ (?<pr> $bible_book_re \s+ )
-                (?<t1> \d+ : \d+
-                  ( - \d+ | - \d+ : \d+ )?
+                (?<t1>
+                     \d+ : \d+ ( - \d+ | - \d+ : \d+ )?
+                | \( \d+ : \d+ ( - \d+ | - \d+ : \d+ )? \)
+                | \[ \d+ : \d+ ( - \d+ | - \d+ : \d+ )? \]
                 )
                 (?{ $branch = "xx"; })
               }xin;
@@ -264,6 +291,32 @@ sub get_masks {
                 (?{ $branch = "xx"; })
               }xin;
 
+    # AD or BC or BCE
+    my $bcad_re = qr{ BC | BCE | B\.C\. | AD | A\.D\. }xin;
+    push @r,qr{ (?<t1>
+                  ( \b $bcad_re \s* \d+
+                  | \b \d+ \s* $bcad_re
+                  )
+                )
+                $ba_re
+                (?{ $branch = "xx"; })
+              }xin;
+
+    # Addresses
+    push @r,qr{ (?<t1>
+                  \b \d+ \s* ( \w | \# \d+ )? \s+
+                  ( \w+ \s+ )?
+                  ( road | rd
+                  | street | st
+                  | avenue | ave
+                  | crescent
+                  | boulevard | blvd | bvd
+                  )
+                )
+                $ba_re
+                (?{ $branch = "xx"; })
+              }xin;
+
     return(\@r);
 }
 
@@ -284,7 +337,6 @@ sub get_matches {
     # Ones with a phrase after to fix it better as a time
     push @r,qr{ \b (?<pr> ( at | it \s+ was | twas | till ) \s+ )
                    (?<t1> ( ( $rel_words | ( close \s+ )? upon ) \s+ )?
-                     ( \w+ \s+ )?
                      $hour_word_re
                    )
                    (?<po> ( \s+ ( at | in ) \s+ the
@@ -598,8 +650,6 @@ sub get_matches {
                 (?{ $branch = "9i:TIMEY" })
               }xin;
 
-    # Bad matches -- "4:50 from paddington" -- "Go to 126 Elvers Crescent"
-
     # The only time in a sentence
     push @r,qr{ (?<pr>
                   ( \A | ['"‘’“”] | [.…;:?!] \s+ | \s+ [-—]+ \s+ )
@@ -629,7 +679,7 @@ sub get_matches {
                 (?<po>
                   ( [-] $minsec_dig_re )?
                   ( \s+ ( now | precisely | exactly ) )?
-                  ( \z | [.…;:?!,]? ['"‘’“”] | [.…;:?!] \s+ | \s+ [-—]+ \s+) )
+                  ( \z | [.…;:?!,]? ['"‘’“”] | [.…;:?!] ( \s+ | \z ) | \s+ [-—]+ \s+) )
                 (?{ $branch = "9l:TIMEY"})
               }xin;
 
@@ -649,12 +699,25 @@ sub get_matches {
               }xin;
     push @r,qr{ (?<pr>
                   ( \A | ['"‘’“”] | [.…;:?!] \s+ )
-                  ( it \s+ was | twas | it \s+ is | at ) \s+
+                  ( it \s+ was | twas | it \s+ is ) \s+
                 )
-                (?<t1> $hour_re ( ( [-:.] | \s+ )? $min0_re )? )
-                (?! [-\s]+ $never_follow_times_re \b )
+                (?<t1>
+                  $hour_re ( [-:.] | \s+ )? $min0_re
+                | $low_num_re \s* (*SKIP)(*FAIL)
+                | $hour_re
+                )
+                ( [-\s]+ $never_follow_times_re \b (*SKIP)(*FAIL) )?
                 $ba_re
                 (?{ $branch = "9d"})
+              }xin;
+    push @r,qr{ (?<pr>
+                  ( \A | ['"‘’“”] | [.…;:?!] \s+ )
+                  ( at ) \s+
+                )
+                (?<t1> $hour_re ( ( [-:.] | \s+ )? $min0_re )? )
+                ( [-\s]+ $never_follow_times_re \b (*SKIP)(*FAIL) )?
+                $ba_re
+                (?{ $branch = "9m"})
               }xin;
     push @r,qr{ (?<pr>
                   ( \A | ['"‘’“”] | [.…;:?!,] \s+ )
@@ -662,9 +725,12 @@ sub get_matches {
                 )
                 (?<t1>
                   ( $rel_at_words | ( close \s+ )? upon | till | by ) \s+
-                  $hour24_re ( ( [-:.] | \s+ )? $min0_re )?
+                  ( $hour24_re ( [-:.] | \s+ )? $min0_re
+                  | One \s* (*SKIP)(*FAIL)
+                  | $hour24_re
+                  )
                 )
-                (?! [-\s]* $never_follow_times_re \b )
+                ( [-\s]* $never_follow_times_re \b (*SKIP)(*FAIL) )?
                 $ba_re
                 (?{ $branch = "9:TIMEY"})
               }xin;
@@ -681,6 +747,7 @@ sub get_matches {
                   $hour24_word_re ( [\s\.]+ | [-] ) $min_word_re
                   ( \s* ... \s* $low_num_re )? ( ,? \s* $ampm_re )?
                 )
+                ( [-\s]* $never_follow_times_re \b (*SKIP)(*FAIL) )?
                 $ba_re
                 (?{ $branch = "5b"})
               }xin;

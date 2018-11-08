@@ -197,6 +197,571 @@ It was <<six a.m.|5>>, and the fog seemed glued to the windows, so thick that it
             "\x{201c}Oh, yes. Two, five, and ten dollars to start with. And the fives and tens will talk.\x{201d}"
           ],
 
+
+            ## Paul Theroux - The Old Patagonian Express
+          [
+            1,
+            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - five',
+            'It took an hour for the Lakes of the South Express to disentangle itself from the city. We had left at <<five|9c:1>>, on a sunny afternoon, but when we began speeding across the pampas, a cool immense pasture, it was growing dark. Then the afterglow of sunset was gone, and in the half-dark the grass was grey, the trees black; some cattle were as reposeful as boulders and in one field five white cows were as luminous as laundry.'
+          ],
+          [
+            1,
+            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - Just after eleven',
+            "<<Just after eleven|10>> that morning we came to the town of Carmen de Patagones, on the north bank of the Rio Negro. At the other end of the bridge was Viedma. This river I took to be the true dividing line between the fertile part of Argentina and the dusty Patagonian plateau. Hudson begins his book on Patagonia with a description of this river valley, and the inaccuracy of its name was consistent with all the misnamed landscape features I had seen since Mexico. \x{2018}The river was certainly miscalled Cusar-leof\x{fa}, or Black River, by the aborigines,\x{2019} says Hudson, \x{2018}unless the epithet referred only to its swiftness and dangerous character; for it is not black at all in appearance \x{2026} The water, which flows from the Andes across a continent of stone and gravel, is wonderfully pure, in colour a clear sea-green.\x{2019} We remained on the north bank, at a station on the bluff. A lady in a shed was selling stacks of bright red apples, five at a time. She looked like the sort of brisk enterprising woman you see on a fall day in a country town in Vermont \x{2013} her hair in a bun, rosy cheeks, a brown sweater and heavy skirt. I bought some apples and asked if they were Patagonian. Yes, she said, they were grown right here. And then, \x{2018}Isn\x{2019}t it a beautiful day!\x{2019}"
+          ],
+          [
+            1,
+            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - one-thirty',
+            "It was sunny, with a stiff breeze riffling the Lombardy poplars. We were delayed for about an hour, but I didn\x{2019}t mind. In fact, the longer we were delayed the better, since I was scheduled to get off the train at Jacobacci at the inconvenient hour of <<one-thirty|8>> in the morning. The connecting train to Esquel was not leaving until <<six AM|5>>, so it hardly mattered what time I got to Jacobacci."
+          ],
+          [
+            1,
+            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - About two',
+            "\x{2018}<<About two|9e>>, tomorrow morning.\x{2019}"
+          ],
+          [
+            1,
+            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - five-thirty',
+            "\x{2018}Wait,\x{2019} he said. \x{2018}The train to Esquel does not leave until <<five-thirty|9c:0>>.\x{2019}"
+          ],
+          [
+            1,
+            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - seven',
+            "I had arrived in Veracruz at <<seven|9a>> in the morning, found a hotel in the pretty Plaza Constitucion and gone for a walk. I had absolutely nothing to do: I did not know a soul in Veracruz, and the train to the Guatemalan border was not leaving for two days. Still, this did not seem a bad place. There are few tourist attractions in Veracruz; there is an old fort and, about two miles south, a beach. The guidebooks are circumspect about des-scribing this fairly ugly city: one calls it \x{2018}exuberant\x{2019}, another \x{2018}picturesque\x{2019}. It is a faded seaport, with slums and tacky modernity crowding the quaintly ruined buildings at its heart. Unlike any other Mexican city, it has pavement caf\x{e9}s, where forlorn children beg and marimba players complete the damage to your eardrums that was started on the descent from the heights of Orizaba. Mexicans treat stray children the way other people treat stray cats (Mexicans treat stray cats like vermin), taking them on their laps and buying them ice cream, all the while shouting to be heard over the noise of the marimbas."
+          ],
+          [
+            1,
+            "The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - eleven o\x{2019}clock",
+            "
+\x{2018}Pomp and Circumstance\x{2019}? In Veracruz? At <<eleven o\x{2019}clock|6>> at night?"
+          ],
+          [
+            1,
+            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - twenty-five',
+            "I turned to the man. Now, facing him, I could see that he was no more than <<twenty-five|5a:0>>. \x{2018}The lady wants you to go away.\x{2019}"
+          ],
+          [
+            1,
+            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - midnight',
+            "But he had boarded the plane and vanished. In nine days of searching, Nicky had not been able to find a trace of him. Perhaps it was the effect of the Dashiell Hammett novel I had just read, but I found myself examining her situation with a detective\x{2019}s scepticism. Nothing could have been more melodramatic, or more like a Bogart film: near <<midnight|13>> in Veracruz, the band playing ironical love songs, the plaza crowded with friendly whores, the woman in the white suit describing the disappearance of her Mexican husband. It is possible that this sort of movie-fantasy, which is available to the solitary traveller, is one of the chief reasons for travel. She had cast herself in the role of leading lady in her search drama, and I gladly played my part. We were far from home: we could be anyone we wished. Travel offers a great occasion to the amateur actor."
+          ],
+          [
+            1,
+            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - twenty-eight',
+            "\x{2018}I own slums,\x{2019} she said. \x{2018}Fifty-seven of them \x{2013} I mean, fifty-seven units. I used to own a hundred and <<twenty-eight|5a:0>> units. But these fifty-seven are in eighteen different locations. God, it\x{2019}s a problem \x{2013} people always want paint, things fixed, a new roof.\x{2019}"
+          ],
+          [
+            1,
+            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - seven',
+            "The Rimac river flowed past the railway station. At <<seven|9a>> in the morning it was black; it became grey as the sun moved above the foothills of the Andes. The sandy mountains at the city\x{2019}s edge give Lima the feel of a desert city hemmed-in on one side by hot plateaux. It is only a few miles from the Pacific Ocean, but the land is too flat to permit a view of the sea, and there are no sea breezes in the day-time. It seldom rains in Lima. If it did, the huts \x{2013} several thousand of them \x{2013} in the shanty town on the bank of the Rimac would need roofs. The slum is odd in another way; besides being entirely roofless, the huts in this (to use the Peruvian euphemism) \x{2018}young village\x{2019} are woven from straw and split bamboo and cane. They are small frail baskets, open to the stars and sun, and planted beside the river which, some miles from the station, is cocoa-coloured. The people wash in this river water; they drink it and cook with it; and when their dogs die, or there are chickens\x{2019} entrails to be disposed of, the river receives this refuse."
+          ],
+          [
+            1,
+            "The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - four o\x{2019}clock",
+            "We entered the valley and zig-zagged on the walls. It was hardly a valley. It was a cut in the rock, a slash so narrow that the diesel\x{2019}s hooter hardly echoed: the walls were too close to sustain an answering sound. We were due at Huancayo at <<four o\x{2019}clock|6>>; by mid-morning I thought we might arrive early, but at <<noon|13>> our progress had been so slow I wondered whether we would get to Huancayo that day. And long before Ticlio I had intimations of altitude sickness. I was not alone; a number of other passengers, some of them Indians, looked distinctly ghastly."
+          ],
+          [
+            1,
+            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - 15',
+            "We entered a tunnel. We had been through other tunnels, but this one was long, and it had a certain distinction: it was, at 15,848 feet, the highest railway tunnel in the world. The train was loud \x{2013} deafening, in fact, and I don\x{2019}t think I had ever felt sicker in my life. I sprayed the last of my balloon gas into my mouth, swallowed, and got another one. \x{2018}I feel like throwing up,\x{2019} said the fellow from Minnesota. In the weak yellow light, with his cowboy hat over his eyes, he looked limp and fatally stricken. I did not feel so well myself, but when we emerged from the Galera Tunnel I knew we were past the highest point, and having survived that I was sure I would make it to Huancayo."
+          ],
+          [
+            1,
+            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - six',
+            "
+
+
+    The Old Patagonian Express
+
+
+
+
+
+
+
+It was a brutal city, but at <<six|9a>> in the morning a froth of fog endowed it with a secrecy and gave it the simplicity of a mountain-top. Before the sun rose to burn it away, the fog dissolved the dull straight lines of its streets, and whitened its low houses and made its sombre people ghostly as they appeared for moments before being lifted away, like revengers glimpsed in their hauntings. Then Guatemala City, such a grim thing, became a tracing, a sketch without substance, and the poor Indians and peasants \x{2013} who had no power \x{2013} looked blue and bold and watchful. They possessed it at this hour. There was no wind; the fog hung in fine grey clouds, a foot from the ground. Even the railway station, no more than a brick shed, took on the character of a great terminus: there was no way of verifying that it did not rise up for five stories in a clock tower crowned by pigeons and iron-work, so well hidden was its small tin roof by the fog the volcanoes had trapped. There were about twenty people standing near the ticket window of the station \x{2013} in rags; but their rags seemed just another deception of the fog."
+          ],
+          [
+            1,
+            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - ten',
+            "I did have one fear: that the train would stop, just like that, no warning, no station; that the engine would seize up in the heat and that we would be stuck here. It had happened on what was regarded as a fine railway a hundred miles out of Veracruz, and the Mexicans had no explanation. This railway was clearly much older, the engine more of a gasper. And suppose it does, I thought, suppose it just stops here and can\x{2019}t start? It was <<ten|9a>> in the morning, the open cars were full of people, the train carried no water, there was no road for miles, nor was there any shade. How long did it take to die? I guessed it would not take long in this boundless desert."
+          ],
+          [
+            1,
+            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - six-thirty',
+            "\x{2018}Yes, there is a train to Metapan in two days \x{2013} on Wednesday. At <<six-thirty|8>> in the morning. Do you want a ticket?\x{2019}"
+          ],
+          [
+            1,
+            "The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - past one o\x{2019}clock",
+            "\x{2018}Golly,\x{2019} he said, looking at his own. \x{2018}It\x{2019}s <<past one o\x{2019}clock|6>>. I don\x{2019}t know about you, but I\x{2019}m real hungry.\x{2019}"
+          ],
+          [
+            1,
+            "The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - ten o\x{2019}clock",
+            "I had not been inside an American high school for twenty years; how strange it was that the monkey house from which I had graduated had been reassembled, down to its last brick and home-room bell and swatch of ivy, here in Central America. And I knew in my bones what my reaction would have been at Medford High if it had been announced that, instead of Latin at <<ten o\x{2019}clock|6>>, there would be an assembly: a chance to fart around!"
+          ],
+          [
+            1,
+            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - twenty-four',
+            "The Indians said the blacks were violent; the blacks said the Indians were thieves. But the blacks did not deny that some blacks were thieves. They blamed the young, the Rastas, the unemployed. Everyone in Col\x{f3}n looks unemployed, even the shopkeepers: not a customer in sight. But if business is slack \x{2013} and it certainly seemed slack to me \x{2013} it might be understandable. Look at the merchandise: Japanese pipes that look as if they\x{2019}re for blowing soap-bubbles; computerized radios and ridiculously complicated cameras; dinner services for <<twenty-four|5a:0>> and purple sofas; leather neckties, plastic kimonos, switchblades and bowie knives; and stuffed alligators in eight sizes, the smallest for \$2, the largest \x{2013} four feet long \x{2013} for \$65; stuffed armadilloes for \$35, and even a stuffed toad, like a cricket ball with legs, for a dollar. And junk: letter-openers, onyx eggs, flimsy baskets, and pokerwork mats turned out by the thousand by the derelict Cu\x{f1}a Indians. Who needs this stuff?"
+          ],
+          [
+            1,
+            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - 5:15',
+            "If I was to stay in Col\x{f3}n I would have to choose between the chaos and violence of the native quarter or the colonial antisepsis of the Zone. I took the easy way out, bought a ticket back to Panama City and boarded the <<5:15|2>>. As soon as we pulled out of the station, the skies darkened and it began to rain. This was the Caribbean: it might rain anytime here. Fifty miles away, on the Pacific, it was the Dry Season; it was not due to rain for six weeks. The Isthmus may be narrow, but the coasts are as distinct as if a great continent lay between them. The rain came down hard and swept across the fields; it blackened the canal and wrinkled it with wind; and it splashed the sides of the coach and ran down the windows. With the first drops the passengers had shut the windows and now we sat perspiring, as if soaked by the downpour."
+          ],
+          [
+            1,
+            "The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - seven o\x{2019}clock",
+            "All over the Zone it was Club-going Hour. At the officer\x{2019}s mess and the VFW, the American Legion and the Elks, at the Church of God Servicemen\x{2019}s Center, the Shriners Club, the Masons, the golf clubs, the Star of Eden Lodge No. 9, of the Ancient and Illustrious Star of Bethlehem, the Buffaloes, and the Moose, and at the Lord Kitchener Lodge No. 25, and the Company cafeteria in Balboa the day\x{2019}s work was done and clubby colonials of the Zone were talking. There was only one subject, the treaty. It was <<seven o\x{2019}clock|6>> in the Zone, but the year \x{2013} who could tell? It was not the present. It was the past that mattered to the Zonian; the present was what most Zonians objected to, and they had succeeded so far in stopping the clock, even as they kept the canal running."
+          ],
+          [
+            1,
+            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - midnight',
+            "At Balboa High some students were waiting for it to grow dark enough so that in stealth they could drive nails again into the locks, and jam them, and prevent school from opening. At <<midnight|9m>> the arts teacher suddenly remembered that she had left a kiln on and was afraid the school would burn down. She phoned the principal and he changed out of his pyjamas and checked. But there was no danger: the kiln had been left unplugged. Nor were the locks successfully jammed. The next day, school opened as usual, and all was well in the Zone. I was asked to stay longer, to go to a party, to discuss the treaty, to see the Indians. But my time was getting short; already it was March, and I had not yet set foot in South America. In a few days, there was a national election in Colombia, \x{2018}and they\x{2019}re expecting trouble,\x{2019} said Miss McKinven at the Embassy. These considerations, as Gulliver wrote, moved me to hasten my departure sooner than I intended."
+          ],
+          [
+            1,
+            "The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - just after nine o\x{2019}clock",
+            "
+
+
+    The Old Patagonian Express
+
+
+
+
+
+
+
+I had been on the train for twelve hours. There was something wrong with this train; a whole day of travelling and we had gone only a hundred miles or so, mostly through swamps. The heat had made me nauseous, and the noise of the banging doors, the anvil clang of the coupling, had given me a headache. Now it was night, still noisy, but very cold. The coach was open \x{2013} most of the eighty seats were occupied, nearly all the windows were broken, or jammed open. The bulbs on the ceiling were too dim to read by, too bright to allow me to sleep. The rest of the passengers slept, and one across the aisle was snoring loudly. The man behind me who, all day, had sighed and cursed and kicked the back of my seat in exasperation, had made a pillow of his fist and gone to sleep. The spiders and ants I had noticed during the day crawling in and out of the horsehair of the burst cushions had begun biting me. Or was it mosquitoes? My ankles itched and stung. It was <<just after nine o\x{2019}clock|10>>. I held a copy of Pudd\x{2019}nhead Wilson. I had given up trying to read it."
+          ],
+          [
+            1,
+            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - six',
+            'At <<six|9a>> that morning, I blinked at my watch. The lights in the car had fused: it was pitch dark. Moments later, it was dawn. No bulb of sun, but a seepage of light that dissolved the darkness and rose on all sides bringing a bluer ozone-scented softness to a sky which became gigantic. With it was a warm buoyancy of air, and scale was restored to the landscape, and the car was sweetened with the odour of desert dew. I had never seen dawn break so swiftly, but I had never slept that way. The windows were open, there were no shades: it was like sleeping on a park bench.'
+          ],
+          [
+            1,
+            "The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - eleven o\x{2019}clock",
+            "The mountain range \x{2013} now like a fortress, now like a cathedral (it was yet another protectively maternal strip of the Sierra Madre) \x{2013} stayed with us the whole day. But we never climbed it. We moved south along the hot lowland, and the more southerly we penetrated the more primitive and tiny became the Indian villages, the more emblematic the people: naked child, woman with basket, man on horseback, posed in the shattering sunlight before a poor mud hut. As the morning wore on the people withdrew and by <<eleven o\x{2019}clock|6>> we were watched from the windows of huts which had grown much smaller. Shade was scarce: skinny village dogs slept under the bellies of cows which were themselves transfixed by hanks of course grass."
+          ],
+          [
+            1,
+            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - just after midnight',
+            '
+
+
+    The Old Patagonian Express
+
+
+
+
+
+
+
+It was not necessary for Otto to wake me up; the dust did that. It filled my compartment, and as the Lakes of the South Express hurried across the plateau where it seldom rains (what good were leakproof shoes here?), the dust was raised, and our speed forced it through the rattling windows and the jiggling door. I woke feeling suffocated and made a face mask of my bed sheet in order to breathe. When I opened the door a cloud of dust blew against me. It was no ordinary dust storm, more like a disaster in a mine shaft: the noise of the train, the darkness, the dust, the cold. There was no danger of my sleeping through Ingeniero Jacobacci. I was fully awake <<just after midnight|10>>. I gritted my teeth and sand grains crunched in my molars.'
+          ],
+          [
+            1,
+            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - two',
+            "That express train \x{2013} and how I yearned to be back on it \x{2013} had blurred distance and altitude. The statistics were given at Jacobacci. We were over a thousand miles from Buenos Aires, and since Carmen de Patagones, which was at sea-level, we had climbed to over 3,000 feet, on a plateau that did not descend again until the Straits of Magellan. In this wind, at this altitude, at this time of night \x{2013} <<two|8>> in the morning \x{2013} it was very cold in Jacobacci. No one stops at Jacobacci, people had said. I could disprove that. Passengers had got off the train. I assumed that, like me, they would be waiting for the train to Esquel. I looked around for them. They were gone."
+          ],
+          [
+            1,
+            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - nearly three',
+            'If only he had said, Want to hear something strange? He was old enough to know a good story. But he was half asleep, and it was cold, and <<nearly three|9h>> in the morning. So I left him alone and went outside. I walked up the tracks, away from the lights of the station. The wind in the thorn bushes rasped like sand in a chute. The air smelled of dust. The moon on the bushes shone blue across the bumpy monotony of Patagonia.'
+          ],
+          [
+            1,
+            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - five',
+            'I had arrived at Ingeniero Jacobacci in darkness. It was still dark when I boarded the train. The station master gave me more tea and said I could get into the coach. It was as small as I had been warned it would be, and it was filled with dust that had blown through the windows. But at least I had a seat. At <<five|9e>>, people started to gather. Incredibly, at this hour, they were seeing friends and family off. I had noticed this custom all over Bolivia and Argentina, this send-off, lots of kisses, hugs, and waves, and at the larger stations weeping men parting from their wives and children. I found it touching, and at odds with their ridiculously masculine self-appraisal.'
+          ],
+          [
+            1,
+            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - just before six',
+            "There was a whistle, a steam-whistle \x{2013} a shrill fluting pipe. The station bell was rung. Well-wishers scrambled from the train, passengers boarded; and, <<just before six|10>>, we were off."
+          ],
+          [
+            1,
+            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - 8.30',
+            "We were. The hills and dales of Patagonia which I had welcomed for their variation and their undeniable beauty were the cause of our slow progress. On a straight track this trip would not have taken more than three hours, but we were not due to arrive in Esquel until <<8.30|5a:1>> \x{2013} nearly a fourteen-hour ride. The hills were not so much hills as they were failed souffl\x{e9}s."
+          ],
+          [
+            1,
+            "The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - after eight o\x{2019}clock",
+            "It was <<after eight o\x{2019}clock|6>> when I saw the lights. I looked for more. There were no more. There was nothing to these places, I thought, until you were on top of them. I did not know at that moment that we were on top of Esquel. I had expected more \x{2013} an oasis, perhaps taller poplars, the sight of a few friendly bars, a crowded restaurant, a flood-lit church, anything to signify my arrival. Or less: like one of the tiny stations along the line; like Jacobacci, a few sheds, a few dogs, a bell. The train emptied quickly."
+          ],
+          [
+            1,
+            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - twenty-four',
+            "But, so far, what had I seen? Only this small stretch of coast. I decided to move on; I might, I thought, find something different. I began to seek information about the train and I rediscovered, after that pleasant train-ride in Panama, the difficulties of train travel in Latin America. It was never simple. And it was not the poor service or the bad trains, but rather the fact that no one knew anything about them. The general routes are well-known from Mexico to South America; many people travel from capital to capital. But they fly, and the poorer travellers take the bus. Few people seem to know that the railways exist, and those who claim to know have never taken them. One person says it takes twelve hours from Santa Marta to Bogot\x{e1}, another swears it is twenty-four hours; I was told there was no sleeper, but the Cook\x{2019}s Timetable listed one. Was there a diner, did I need a sleeping bag, was it air-conditioned? \x{2018}Do yourself a favour,\x{2019} I was told. \x{2018}Take the plane. That\x{2019}s what Colombians do.\x{2019}"
+          ],
+          [
+            1,
+            "The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - nine o\x{2019}clock",
+            "At <<nine o\x{2019}clock|6>>, or just after, we passed Aracataca. The novelist Gabriel Garcia Marquez was born here; this was the Macondo of Leaf-Storm and One Hundred Years of Solitude. In the light of fires and lanterns I could see mud huts, the silhouettes of palms and banana trees, and glow-worms in the tall grass. It was not late, but there were few people awake; glassy-eyed youths who had stayed up watched the train go by. \x{2018}It\x{2019}s coming,\x{2019} says a woman in Marquez\x{2019}s Macondo, when she sees the first train approach the little town. \x{2018}Something frightful, like a kitchen dragging a village behind it.\x{2019}"
+          ],
+          [
+            1,
+            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - midnight',
+            "I made myself a baloney sandwich, drank two of the beers I had bought in Santa Marta and went to sleep. The noise, the rhythm of the clicking on the rails, was a soporific; it was silence and a stillness in the car that woke me. At <<midnight|9e>>, I came awake: the train had stopped. I did not know where we were, but it must have been a fairly large place because most of the people in the car \x{2013} including the man next to me \x{2013} got off. But an equal number boarded here, so we were no less crowded. Children woke and cried, and people pushed and fought for the empty seats. An Indian girl sat next to me; her plump profile, outlined by the station lights, was unmistakable. She wore a baseball cap and a jersey and slacks, and her luggage was three cardboard boxes and an empty oil-drum. When the train started, she snuggled up to me and went to sleep. My shirt was damp with sweat, but the humid breeze was no help; and I knew we would not be out of this swamp until late the next day. I fell asleep, but when I woke again at another lonely station \x{2013} a low building, a man, a lantern \x{2013} I saw that the girl had moved across the aisle and was snuggling against a murmuring man."
+          ],
+          [
+            1,
+            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - Five',
+            "\x{2018}Five months I have been travelling! <<Five|9k:0>>. I left Paris in October. I spent one month in New York City.\x{2019}"
+          ],
+          [
+            1,
+            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - noon',
+            "Nor is the landscape remarkable enough to intrude. Costa Rica\x{2019}s south-west is very different from the north-east. The land seems to slope away to the Pacific coast, from the coffee bushes in the high suburbs, to areas of light industry, the cement factories and timber yards that supply material for the country\x{2019}s growth. By the time we left these industrial suburbs it was not yet <<noon|13>>; but it was lunch-time, not only for the factory hands, but for office workers and managers too. Costa Rica has a large middle-class, but they go to bed early and rise at dawn; everyone \x{2013} student, labourer, businessman, estate manager, politician \x{2013} keeps farmer\x{2019}s hours."
+          ],
+          [
+            1,
+            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - Twenty-five',
+            '... we had a full view of her decks. Shall I ever forget the triple horror of that spectacle? <<Twenty-five|5a:0>> or thirty human bodies, among whom were several females, lay scattered about between the counter and the galley in the last and most loathsome state of putrefaction. We plainly saw that not a soul lived in that fated vessel. Yet we could not help shouting to the dead for help!'
+          ],
+          [
+            1,
+            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - about eleven',
+            "There was more. A young girl, <<about eleven|9:0>> \x{2013} perhaps another daughter \x{2013} rushed forward with a bottle of Coke. She shook the bottle and sprayed foam into the boy\x{2019}s face. Still, the two girls said nothing. The boy pulled a hanky out of his pocket and, wiping his face, made a pleading explanation: \x{2018}They said the seat was not occupied \x{2026} they said I could sit down \x{2026} ask them, go ahead, they\x{2019}ll tell you \x{2026}\x{2019}"
+          ],
+          [
+            1,
+            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - 13:3',
+            "In the Italian-style, Jesuit church, called La Compa\x{f1}ia, there was a painting of Hell. From a little distance this mural seemed to me an accurate representation of a night-time football game in El Salvador, but on closer inspection it was pure Bosch, Hell\x{2019}s great amphitheatre depicted in detail. Schoolchildren in Quito are brought to the church and shown this mural, so that suitably terrified they will stay on the straight and narrow. Each sin is labelled and the sinners receive appropriate punishment: the shrieking adulteress is being eaten by a wild hog; the impure man is having fire poured through a funnel in his mouth, and a fire-breathing dog is scorching his genitals with flames; the vain woman wears a necklace of scorpions, the drunkard is made to guzzle boiling oil, the tongue of the gossip is bitten by a snake, a giant scorpion smothers the unjust man; money-lenders, with unmistakably Semitic faces, are made into mincemeat, embezzlers chopped into bits, gluttons choking on garbage, liars stretched on the rack. Lettered in gold across the top of the mural was a quotation from Luke (13:3) in Spanish: Unless you repent, you will all likewise perish."
+          ],
+          [
+            1,
+            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - twenty-seven',
+            "In his third-floor office, which was penetrated with the smell of chocolate biscuits, we had a family reunion. Domingo, a tall, thin, rather English-looking fellow, remembered my grandmother\x{2019}s visit to Italy. His grandfather had started the factory in Guayaquil, and on the death of this pioneer the business had passed to Vicente, Domingo\x{2019}s father. Ill-health, and an interest in Inca history, caused Vicente to retire; now he added to his already large collection of Pre-Colombian art and he wrote historical monographs on the subject \x{2013} he had recently published, in Italian, Pre-Colombian Ecuador, a history. Domingo, only <<twenty-seven|5a:0>>, had married at nineteen; his wife was blonde and bird-like, their two children as handsome as princelings. His yacht, the Vayra, was moored on the River Guayas, his Chevy Impala was parked at the factory, his jeep and his Mercedes were at his villa in the outskirts of town. But he was, for all his wealth, a modest person, if a bit rueful that the running of the entire business had fallen to him."
+          ],
+          [
+            1,
+            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - nearly midnight',
+            "He wanted to take me to what he said was the only good brothel in San Jos\x{e9}. It was too late, I said, <<nearly midnight|9:1>>. He said <<midnight|13>> was the best time \x{2013} the hookers were just waking up. \x{2018}How about tomorrow?\x{2019} I said, knowing that tomorrow I would be in Lim\x{f3}n. \x{2018}You\x{2019}re a chicken,\x{2019} he said, and I could hear him laughing as I descended the stairs to the street."
+          ],
+          [
+            1,
+            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - noon',
+            "A Lim\x{f3}n train leaves the Atlantic station every day at <<noon|13>>. It is not a great train, but by Central American standards it is the Brighton Belle. There are five passenger coaches, two classes, no freight cars. I had been eager to take this train, for the route has the reputation of being one of the most beautiful in the world, from the temperate capital in the mountains, through the deep valleys on the north-east, to the tropical coast which, because of its richly lush jungle, Columbus named Costa Rica when he touched there on his fourth voyage in 1502. He believed that he had arrived at the green splendour of Asia. (Columbus tacked up and down the coast and was ill for four months in Panama; cruelly, no one told him that there was another vast ocean on the other side of the mountains \x{2013} the local Indians were deaf to his appeal for this information.)"
+          ],
+          [
+            1,
+            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - towards midnight',
+            "The most scenic of Central American routes; but I had another good reason for wanting to take this train out of San Jos\x{e9}. Since arriving in Costa Rica I had spent much of my time in the company of hard-drinking American refugees \x{2013} Andy Ruggles and the diabolical Dibbs were but two. I was glad of their company; El Salvador hadn\x{2019}t been much fun. But now I was ready to set off alone. Travel is at its best a solitary enterprise: to see, to examine, to assess, you have to be alone and unencumbered. Other people can mislead you; they crowd your meandering impressions with their own; if they are companionable they obstruct your view, and if they are boring they corrupt the silence with non-sequiturs, shattering your concentration with Oh, look, it\x{2019}s raining and You see a lot of trees here. Travelling on your own can be terribly lonely (and it is not understood by Japanese who, coming across you smiling wistfully at an acre of Mexican buttercups, tend to say things like Where is the rest of your team?). I think of evening in the hotel room in the strange city; my diary has been brought up to date; I hanker for company: what do I do? I don\x{2019}t know anyone here, so I go out and walk and discover the three streets of the town and rather envy the strolling couples and the people with children. The museums and churches are closed, and <<towards midnight|13>> the streets are empty. Don\x{2019}t carry anything valuable, I was warned; it\x{2019}ll just get stolen. If I am mugged I will have to apologize in my politest Spanish: I am sorry, sir, but I have nothing valuable on my person. Is there a surer way of enraging a thief and driving him to violence? Walking these dark streets is dangerous, but the bars are open. Ruggles and Dibbs await. They take the curse off my boredom, but I have a nagging suspicion that if I had stayed home and lingered in downtown Boston until <<midnight|13>> I would have met Ruggles and Dibbs in the <<Two O\x{2019}Clock|6>> Lounge (\x{2018}20 Completely Nude College Girls!!!\x{2019}). I did not have to take the train to Costa Rica for that."
+          ],
+          [
+            1,
+            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - six',
+            "He had missed his tour. It would have been all-inclusive, the train to Lim\x{f3}n, a boat-trip up the coast, a chef travelling with the party, some wonderful meals. He would have seen monkeys and parrots. Back to Lim\x{f3}n: some swimming, a four-star hotel, then a bus to the airport and a plane to San Jos\x{e9}. That was the tour. But (the river was dashing an old canoe to pieces, and those little boys \x{2013} surely they were fishing?) the hotel manager had gotten the time wrong and the tour had left at <<six|9c:0>>, not nine, so on the spur of the moment, and with nothing else to do in San Jos\x{e9}, the old man asked about the train and hopped on, just like that, and you never knew, maybe he\x{2019}d catch up with the rest of them; after all, he had paid his three hundred dollars and here was his receipt and his booklet of coupons."
+          ],
+          [
+            -1,
+            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - After three',
+            "I walked to savour my freedom and stretch my legs. <<After three|9:0>> blocks the town didn\x{2019}t look any better, and wasn\x{2019}t that a rat nibbling near the tipped-over barrel of scraps? It\x{2019}s a white country, a man had told me in San Jos\x{e9}. But this was a black town, a beach-head of steaming trees and sea-stinks. I tried several hotels. They were wormy staircases with sweating people minding tables on the second-floor landings. No, they said, they had no rooms. And I was glad, because they looked so disgustingly dirty and the people were so rude; so I walked a few more blocks. I\x{2019}d find a better hotel. But they were smaller and smellier, and they too were full. At one, as I stood panting \x{2013} the staircase had left me breathless \x{2013} a pair of cockroaches scuttled down the wall and hurried unimpeded across the floor. Cockroaches, I said. The man said, What do you want here? He too was full. I had been stopping at every second hotel. Now I stopped at each one. They were not hotels. They were nests of foul bedclothes, a few rooms and a portion of verandah. I should have known they were full: I met harassed families making their way down the stairs, the women and children carrying suitcases, the father sucking his teeth in dismay and muttering, \x{2018}We\x{2019}ll have to look somewhere else.\x{2019} It was necessary for me to back down the narrow stairs to let these families pass."
+          ],
+          [
+            1,
+            "The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - Nine o\x{2019}clock",
+            "\x{2018}I\x{2019}m sick of thinking about it.\x{2019} He looked at his watch. \x{2018}<<Nine o\x{2019}clock|6>>. I\x{2019}m bushed. Shall we call it a day?\x{2019}"
+          ],
+          [
+            1,
+            "The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - nine o\x{2019}clock",
+            "I said, \x{2018}I don\x{2019}t normally go to bed at <<nine o\x{2019}clock|6>>.\x{2019}"
+          ],
+          [
+            1,
+            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - one-thirty',
+            "We reached the lagoon at <<one-thirty|5b>>, and moored the boat there because the black pilot feared that the tides at the estuary might drag us into the sea. We walked to the beach of grey lava. I swam. The black pilot screamed in Spanish for me to leave the water. There were sharks in the water, he said \x{2013} the hungriest, the fiercest of sharks. I asked him whether he had seen any sharks. No, he said, but he knew they were there. I plunged back into the water."
+          ],
+          [
+            1,
+            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - five',
+            "The train had left, too, at <<five|9a>> that morning. I said, \x{2018}We can take a taxi.\x{2019}"
+          ],
+          [
+            1,
+            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - seven-thirty',
+            "\x{2018}Come tomorrow night,\x{2019} said Borges. \x{2018}Come at <<seven-thirty|5b>>. You can read me some chapters of Pym and then we\x{2019}ll have dinner.\x{2019}"
+          ],
+          [
+            1,
+            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - Nine-thirty',
+            "\x{2018}How sad that is,\x{2019} said Borges. \x{2018}It is terrible. The man can do nothing. But notice how Kipling repeats the same lines. It has no plot at all, but it is lovely.\x{2019} He touched \x{2018}his suit jacket. \x{2018}What time is it?\x{2019} He drew out his pocket watch and touched the hands. \x{2018}<<Nine-thirty|5a:1>> \x{2013} we should eat.\x{2019}"
+          ],
+          [
+            1,
+            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - 4:00 AM',
+            "
+
+
+    The Old Patagonian Express
+
+
+
+
+
+
+
+Peru is the poorest country in South America. Peru is also the country most visited by tourists. The two facts are related; even the dimmest tourist can count in Spanish \x{2013} low numbers especially trip off his tongue \x{2013} and he knows that Peru\x{2019}s gigantic ruins and threadbare currency are a bargain. The student I had met in Huancayo was right: there were some Quechua Indians on the plane to Cuzco, but the others were all tourists. They had arrived in Lima the day before and had been whisked around the city. In their hotel was a schedule: \x{2018}<<4:00 AM|2a>> \x{2013} Wake-Up Call! <<4:45 AM|2a>> \x{2013} Luggage in Corridor! <<5:00|2>> \x{2013} Breakfast! <<5:30|2>> \x{2013} Meet in Lobby!\x{2026}\x{2019} At <<eight|9a>> in the morning, some men with shaving cream still stuck to their earlobes, they arrived in Cuzco and fought their way past the Indians (who carried tin pots and greasy bundles of food and lanterns, much as they had on the train) to a waiting bus, congratulating themselves on the cheapness of the place. They are unaware that it is almost axiomatic that air travel has wished tourists on only the most moth-eaten countries in the world: tourism, never more energetically pursued than in static societies, is usually the mobile rich making a blind blundering visitation on the inert poor."
+          ],
+          [
+            1,
+            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - four',
+            "The visitors wore badges, Samba South America; the badges also served as name-tags. At this early hour in the thin grey air and high altitude drizzle, the haggard faces did not match the tittupping names: Hildy Wicker, Bert and Elvera Howie, Charles P. Clapp, Morrie Upbraid, the Prells, the Goodchucks, Bernie Khoosh, the Avatarians, Jack Hammerman, Nick and Lurleen Poznan, Harold and Winnie Casey, the Lewgards, Wally Clemons, and little old Merry Mackworth. They were a certain age; they had humps and braces and wooden legs and two walked with crutches \x{2013} amazing to see this performance in the high Andes \x{2013} and none looked well. What with the heat in Lima and the cold here, the delays, the shuffling up and down stairs \x{2013} and they had yet to climb the vertical Inca staircases (\x{2018}I don\x{2019}t know which is worse, going up or going down\x{2019}) \x{2013} they were suffering. You had to admire them, because in two days they would be on the same plane flying back to Lima, waking again at <<four|9a>> in the morning, and that day arriving in another godawful place like Guayaquil or Cali."
+          ],
+          [
+            1,
+            "The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - four o\x{2019}clock",
+            "
+At <<four o\x{2019}clock|6>> every weekday morning the Cuzco church bells ring. They ring again at <<4:15|2>> and <<4:30|2>>. Because there are so many churches, and the valley is walled-in by mountains, the tolling of church bells, from <<four to five|10>> in the morning, has a celebratory sound. They summon all people to mass, but only Indians respond. They flock to <<five o\x{2019}clock|6>> mass in the Cathedral, and <<just before six|10>> the great doors of the Cathedral open on the cold cloudy mountain dawn and hundreds of Indians pour into the plaza, so many of them in bright red ponchos that the visual effect is of a fiesta about to begin. They look happy; they have performed a sacrament. All Catholics leave mass feeling light-hearted, and though these Indians are habitually dour \x{2013} their faces wrinkled into frowns \x{2013} at this early hour after mass most of them are smiling."
+          ],
+          [
+            1,
+            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - six',
+            "The tourists wake with the Indians, but the tourists head for Santa Ana Station to catch the train to Machu Picchu. They carry packed lunches, umbrellas, raincoats and cameras. They are disgusted, and they have every right to be so. They were led to believe that if they got to the station at <<six|9c:1>>, they would have a seat on the <<seven o\x{2019}clock|6>> train. But now it was <<seven|9f>> and the station doors had not opened. A light rain had started and the crowd of tourists numbered two hundred or more. There is no order at the station."
+          ],
+          [
+            1,
+            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - 1911',
+            "Ahead, through a black gateway of pinnacles, was a wide flat valley filled with sunlight; birds were slanted in the sky and on ledges like the diacritical marks on vowels, and there were green streaks, wind-flattened bushes, on the steep mountains beyond. In the centre of the valley, coursing beside fuchsias and white orchids, was a turbulent brown river. This was the Vilcanota River, running north to Machu Picchu, where it becomes the Urubamba and continues north-east to join a tributary of the Amazon. The river flowed from Sicuani, past the glaciers above the crumbling town of Pisaq, and here, where our train was tooting, had formed the Sacred Valley of the Incas. The shape of this valley \x{2013} so flat and green and hidden \x{2013} in such a towering place, had attracted the Incas. Many had been here before the Spaniards entered Cuzco, and here others fled, fighting a rearguard action after Cuzco fell. The valley became an Inca stronghold, and long after the Spaniards believed they had wiped out or subdued this pious and highly civilized empire, the Incas continued to live on in the fastnesses of these canyons. In 1570, a pair of Augustinian missionaries \x{2013} the friars Marcos and Diego \x{2013} had the fanatical faith to take them over the mountains and through this valley. The friars led a motley band of Indian converts who carried torches and set fire to the shrines at which Incas were still worshipping. Their triumph was at Chuquipalta, near Vitcos, where for the greater glory of God (the Devil had made appearances here, so the Incas said) they put their torches to the House of the Sun. Some missions were established along the river (Marcos eventually suffered a horrendous martyrdom), but farther on, where the mountains and sky seemed scarcely distinguishable, the ruins were not re-entered. The valleys slept. They were not penetrated again until <<1911|9c:0>>, when the Yale man, Hiram Bingham, with the words of Kipling\x{2019}s \x{2018}Explorer\x{2019} running through his head (\x{2018}Something hidden. Go and find it. Go and look behind the Ranges \x{2013} / Something lost behind the ranges. Lost and waiting for you. Go!\x{2019}) found the vast mountain-top city he named Machu Picchu. He believed he had found the lost city of the Incas, but John Hemming writes in The Conquest of the Incas that an even more remote place to the west, Espiritu Pampa, has the greater claim to the title."
+          ],
+          [
+            1,
+            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - 13',
+            'Chased by rabid dogs, the train picked up speed and crossed the grey plain to the first station, Illimani, at 13,500 feet. There were sheep on the tracks and Indian women selling oranges for a penny each. I bought six oranges and boarded quickly as the train began to move. After the slow climb to this station it was surprising for the train to pick up speed and begin racing across the high plains.'
+          ],
+          [
+            1,
+            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - one',
+            "\x{2018}Only <<one|9k:0>>?\x{2019} I asked."
+          ],
+          [
+            1,
+            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - about midnight',
+            "While we were eating, I got a severe stomach cramp. I excused myself and went back to my compartment. The train had stopped. This was Oruro, a fairly large city, mostly Indian, near Lake Uru Uru. The rain had intensified; it beat against the window in a torrent made silver by the arc-lamps of the station. I got into bed and turned off the light and curled up to ease my cramp. I woke at <<about midnight|13>>. It was very cold in the compartment and so dusty \x{2013} the dust seemed an effect of the train\x{2019}s rapid motion \x{2013} I could barely breathe. I tried the lights, but they didn\x{2019}t work. I struggled to open the door \x{2013} it seemed locked from the outside. I was choking, freezing and doubled up with stomach pains. I had no choice but to remain calm. I took four swigs of my stomach cement, and then buried my face in my blanket and waited for the morphine to work."
+          ],
+          [
+            1,
+            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - one',
+            "The town was not a town. It was a few buildings necessitated by the frontier post. It was one street, unpaved, of low hut-like stores. They were all shut. Near the small railway station, about twenty women had set up square home-made umbrellas and were selling fruit and bread and shoelaces. On arriving at the station, the mob of Indians had descended from the train, and there had been something like excitement; but the people were now gone, the train was gone. The market women had no customers and nothing moved but the flies above the mud puddles. It made me gasp to walk the length of the platform, but perhaps I had walked too fast \x{2013} at the far end an old crazy Indian woman was screaming and crying beside a tree stump. No one took any notice of her. I bought half a pound of peanuts and sat on a station bench, shelling them. \x{2018}Are you in that sleeping car?\x{2019} asked a man hurrying towards me. He was shabbily dressed and indignant."
+          ],
+          [
+            1,
+            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - past midnight',
+            'We were taken across the border to the Argentine station over the hill. Then the sleeping car was detached and we were again left on a siding. Three hours passed. There was no food at the station, but I found an Indian woman who was watching a teapot boil over a fire. She was surprised that I should ask her to sell me a cup, and she took the money with elaborate grace. It was <<past midnight|9f>>, and at the station there were people huddled in blankets and sitting on their luggage and holding children in their arms. Now it started to rain, but just as I began to be exasperated I remembered that these people were the Second Class passengers, and it was their cruel fate to have to sit at the dead centre of this continent waiting for the train to arrive. I was much luckier than they. I had a berth and a First Class ticket. And there was nothing to be done about the delay.'
+          ],
+          [
+            1,
+            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - six',
+            'I slept for twelve hours. I woke again at <<six|9a>> in the morning, and saw that we had come to a station. There were three poplars outside the window. In the early afternoon I woke again. The three poplars were still outside the window. We had not moved.'
+          ],
+          [
+            1,
+            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - nine-fifteen',
+            "
+\x{2018}Romance!\x{2019} the season-tickets mourn,
+
+\x{a0}\x{a0} \x{a0} \x{2018}He never ran to catch his train,
+
+But passed with coach and guard and horn \x{2013}
+
+\x{a0}\x{a0} \x{a0} \x{2018}And left the local \x{2013} late again!\x{2019}
+
+Confound Romance \x{2026} And all unseen
+
+Romance brought up the <<nine-fifteen|5a:0>>."
+          ],
+          [
+            1,
+            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - Four',
+            "Hog, sow, piglet, swine. I said, \x{2018}<<Four|9k:0>>.\x{2019}"
+          ],
+          [
+            1,
+            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - Four',
+            "Puppy, mutt, mongrel, cur. \x{2018}<<Four|9k:0>>,\x{2019} I said. \x{2018}That is more than you have.\x{2019}"
+          ],
+          [
+            1,
+            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - about three-thirty',
+            'At <<about three-thirty|5a:0>> we came to the town of Quetzaltepeque. Seeing a church, Mario and Alfredo made the sign of the cross. The women in the railcar did the same. Some men removed their hats as well.'
+          ],
+          [
+            1,
+            "The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - nine o\x{2019}clock",
+            "The San Salvador railway station was at the end of a torn-up section of road in a grim precinct of the city. My ticket was collected by a man in a pork-pie hat and sports shirt, who wore an old-fashioned revolver on his hip. The station was no more than a series of cargo sheds, where very poor people were camped, waiting for the morning train to Cutuco: the elderly and the very young \x{2013} it seemed to be the pattern of victims in Central American poverty. Alfredo had given me the name of a hotel and said he would meet me there an hour before kick-off, which was <<nine o\x{2019}clock|6>>. The games were played late, he said, because by then it wasn\x{2019}t so hot. But it was now after dark and the humid heat was choking me. I began to wish that I had not left Santa Ana. San Salvador, prone to earthquakes, was not a pretty place; it sprawled, it was noisy, its buildings were charmless, and in the glare of headlights were buoyant particles of dust. Why would anyone come here? \x{2018}Don\x{2019}t knock it,\x{2019} an American in San Salvador told me. \x{2018}You haven\x{2019}t seen Nicaragua yet!\x{2019}"
+          ],
+          [
+            1,
+            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - towards midnight',
+            "In all, five balls were lost this way. The fourth landed not far from where I sat, and I could see that real punches were being thrown, real blood spurting from Salvadorean noses, and the broken bottles and the struggle for the ball made it a contest all its own, more savage than the one on the field, played out with the kind of mindless ferocity you read about in books on gory medieval sports. The announcer\x{2019}s warning was merely ritual threat; the police did not intervene \x{2013} they stayed on the field and let the spectators settle their own scores. The players grew bored: they ran in place, they did push-ups. When play resumed and Mexico gained possession of the ball it deftly moved down the field and invariably made a goal. But this play, these goals \x{2013} they were no more than interludes in a much bloodier sport which, <<towards midnight|9:1>> (and the game was still not over!), was varied by Suns throwing firecrackers at each other and onto the field."
+          ],
+          [
+            1,
+            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - six to one',
+            "Mexico won the game, <<six to one|10>>. Alfredo said that El Salvador\x{2019}s goal was the best one of the game, a header from thirty yards. So he managed to rescue a shred of pride. But people had been leaving all through the second half, and the rest hardly seemed to notice or to care that the game had ended. Just before we left the stadium I looked up at the ant-hill. It was a hill once again; there were no people on it, and depopulated, it seemed very small."
+          ],
+          [
+            1,
+            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - after midnight',
+            "Outside, on the stadium slopes, the scene was like one of those lurid murals of Hell you see in Latin American churches. The colour was infernal, yellow dust sifted and whirled among crater-like pits, small cars with demonic headlights moved slowly from hole to hole like mechanical devils. And where, on the mural, you see the sins printed and dramatized, the gold lettering saying Lust, Anger, Avarice, Drunkenness, Gluttony, Theft, Pride, Jealousy, Usury, Gambling, and so on, here <<after midnight|9b>> were groups of boys lewdly snatching at girls, and knots of people fighting, counting the money they had won, staggering and swigging from bottles, shrieking obscenities against Mexico, thumping the hoods of cars or duelling with the branches they had yanked from trees and the radio aerials they had twisted from cars. They trampled the dust and howled. The car horns were like harsh moos of pain \x{2013} and one car was being overturned by a gang of shirtless, sweating youths. Many people were running to get free of the mob, holding handkerchiefs over their faces. But there were tens of thousands of people here, and animals, too, maimed dogs snarling and cowering as in a classic vision of Hell. And it was hot: dark grimy air that was hard to breathe, and freighted with the stinks of sweat; it was so thick it muted the light. It tasted of stale fire and ashes. The mob did not disperse; it was too angry to go home, too insulted by defeat to ignore its hurt. It was loud and it moved as if thwarted and pushed; it danced madly in what seemed a deep hole."
+          ],
+          [
+            1,
+            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - midnight',
+            'Armenia, Antioquia, and not far away the town of Circasia. The names were Asiatic and baffling, but I was too tired to wonder at them. The bus rumbled through town, and though it was dark I saw a large hotel in the middle of a block. I asked the driver to stop, then walked back to that hotel and checked in. I thought that working on my diary until <<midnight|13>> would put me to sleep, but the altitude and the cold made me wakeful. I decided to go for a walk and see a bit of Armenia.'
+          ],
+          [
+            1,
+            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - past midnight',
+            "It was <<past midnight|9f>>, but their replies were prompt; their intelligence was obvious and, for moments, it was possible to forget that they were small children. They were street-wise and as alert as adults; but there was nothing in this doorway they inhabited but that piece of cardboard. I had seen children begging in India, the mechanical request for a rupee, the rehearsed story; they were as poor and as lost. But the Indian beggar is unapproachable; he is fearful and cringing, and there is the language barrier. My Spanish was adequate for me to inquire about the lives of these little boys and every reply broke my heart. Though they spoke about themselves with an air of independence, they could not know how they looked, so sad and waif-like. What hope could they possibly have, living outside on this street? Of course, they would die; and anyone who used their small corpses to illustrate his outrage would be accused of having Bolshevik sympathies. This was a democracy, was it not? The election was last week; and there was no shortage of Colombians in Bogot\x{e1} to tell me what a rich and pleasant country this was if you were careful and steered clear of muggers and gamins. What utter crap that was, and how monstrous that children should be killed this way."
+          ],
+          [
+            1,
+            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - six',
+            "There were thieves, people told me, at the railway stations, at the bus stations, in the markets, the parks, on the hill paths, on the back streets, on the main streets. When I asked directions to a particular part of town, no directions were given. \x{2018}Do not go,\x{2019} they said. On the Expreso de Sol, I was told Bogot\x{e1} was dangerous. In Bogot\x{e1} I said I was going to Armenia. \x{2018}Do not go \x{2013} it is dangerous.\x{2019} The railway station? \x{2018}Dangerous.\x{2019} But the train was leaving at <<six|9a>> in the morning. \x{2018}That is the worst time \x{2013} the thieves will rob you in the dark.\x{2019} How, then, should I get to Cali? \x{2018}Do not go to Cali \x{2013} Cali is more dangerous than Armenia.\x{2019}"
+          ],
+          [
+            1,
+            "The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - four o\x{2019}clock",
+            "After forty miles the hills became wilder still, and at sixty the climate had changed utterly. Now the hills were brown and over-grazed, and all the landscape sun-scorched, and no green thing anywhere. The bald hills, stripped of all foliage, were rounded on their slopes and had little wave-like shapes beating across them. It was a brown sea of hills, as if a tide of mud had been agitated and left to dry in plump peaks; this was the moment before they crumbled into cakes and dunes and dust slides. Glimmering beyond them was pastel flatness of diluted green \x{2013} the cane fields which lie between the two cordilleras. From here to Cali, the cane fields widened, and at level crossings there were cane-cutters standing \x{2013} there were too many of them to sit down \x{2013} on the backs of articulated trucks, like convict labour. They had been up before dawn. It was <<four o\x{2019}clock|6>>, and they were being taken home, through the fields they had cleared"
+          ],
+          [
+            1,
+            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - about twenty-five',
+            "Most of the compartments were empty. Walking through the cars just before the whistle blew, I saw a Mexican family, some children travelling with their mother, a pair of worried-looking American tourists, and a winking middle-aged lady in a fake leopard-skin coat. In the bedroom across the corridor from mine there was an old woman and her pretty companion, a girl of <<about twenty-five|5a:0>>. The old woman was flirtatious with me and sharp with the girl, who I supposed was her daughter. The girl was desperately shy, and her drab clothes (the old woman wore a mink around her neck) and her lovely face with its sallow English sadness, gave her expression a sort of passionate purity. All the way to Mexico City I tried to talk to this girl, but each time the old woman interrupted with cackling questions and never allowed the girl to reply. I decided that the girl\x{2019}s submissiveness was more than daughterly obedience: she was a servant, maintaining an anxious silence. Her eyes were green, and I think that even that aged woman\x{2019}s vanity could not have prevented her from knowing how attractive this girl was, or the true motive for my questions. There was something Russian and old-fashioned and impenetrable about this pair."
+          ],
+          [
+            1,
+            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - midnight',
+            "We had left Nuevo Laredo at twilight. The few stations we stopped at later in the evening were so poorly lighted I could not make out their names on the signboards. I stayed up late reading The Thin Man, which I had put aside in Texas. I had lost the plot entirely, but the drinking still interested me. All the characters drank \x{2013} they met for cocktails, they conspired in speakeasies, they talked about drinking, and they were often drunk. Nick Charles, Hammett\x{2019}s detective, drank the most. He complained about his hangovers, and then drank to cure his hangover. He drank before breakfast, and all day, and the last thing he did at night was have a drink. One morning he feels especially rotten; he says complainingly, \x{2018}I must have gone to bed sober,\x{2019} and then pours himself a stiff drink. The drinking distracted me from the clues in the way President Banda\x{2019}s facial tic prevented me from ever hearing anything he said. But why so much alcohol in this whodunnit? Because it was set \x{2013} and written \x{2013} during Prohibition. Evelyn Waugh once commented that the reason Brideshead Revisited had so many sumptuous meals in it was because it was written during a period of war-time rationing, when the talk was of all the wonderful things you could do with soya beans. By <<midnight|9e>>, I had finished The Thin Man and a bottle of tequila."
+          ],
+          [
+            1,
+            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - towards noon',
+            "Back in Texas, with a sweep of his hand, taking in Main Street and the new shopping centre and a score of finance companies, the Texan says, \x{2018}All this was nothing but desert a few years ago.\x{2019} The Mexican pursues a different line. He urges you to ignore the squalor of the present and reflect on the glories of the past. As we entered San Luis Potosi <<towards noon|13>> on the day that had started cold and was now cloudless in a parching heat, I noticed the naked children and the lamed dogs and the settlement in the train-yard, which was fifty boxcars. By curtaining the door with faded laundry, and adding a chicken coop and children, and turning up the volume on his radio, the Mexican makes a bungalow of his boxcar and pretends it is home. It is a frightful slum, and stinks of excrement, but the Mexican man standing at the door of the Aztec Eagle with me was smiling. \x{2018}Many years ago,\x{2019} he said, \x{2018}this was a silver mine.\x{2019}"
+          ],
+          [
+            1,
+            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - towards noon',
+            'It was <<towards noon|9:1>> on March 1, 1898, that I first found myself entering the narrow and somewhat dangerous harbour of Mombasa, on the east coast of Africa. (The Man-Eaters of Tsavo, by Lt Col J. H. Patterson)'
+          ],
+          [
+            1,
+            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - midnight',
+            "There was snow and ice outside. Each street-light illuminated its own post and, just in front, a round patch of snow \x{2013} nothing more. At <<midnight|9e>>, watching from my compartment, I saw a white house on a hill. In every window of this house there was a lighted lamp, and these bright windows seemed to enlarge the house and at the same time betray its emptiness."
+          ],
+          [
+            1,
+            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - two',
+            "At <<two|9a>> the next morning we passed Syracuse. I was asleep or I would have been assailed by memories. But the city\x{2019}s name on the Amtrak timetable at breakfast brought forth Syracuse\x{2019}s relentless rain, a chance meeting at the Orange Bar with the by then derelict poet Delmore Schwartz, the classroom (it was Peace Corps training, I was learning Chinyanja) in which I heard the news of Kennedy\x{2019}s assassination, and the troubling recollection of a lady anthropologist who, unpersuaded by my ardour, had later \x{2013} though not as a consequence of this \x{2013} met a violent death when a tree toppled onto her car in a western state and killed her and her lover, a lady gym teacher with whom she had formed a Sapphic attachment."
+          ],
+          [
+            1,
+            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - four-thirty',
+            "\x{2018}I have to catch a train at <<four-thirty|5b>> in Chicago.\x{2019}"
+          ],
+          [
+            1,
+            "The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - nine o\x{2019}clock",
+            "\x{2018}We may not be there until <<nine o\x{2019}clock|6>>.\x{2019}"
+          ],
+          [
+            1,
+            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - ten to nine',
+            "The conductor woke me at <<ten to nine|10>>. \x{2018}Chicago!\x{2019} I jumped up and grabbed my suitcase. As I hurried down the platform, through the billows of steam from the train\x{2019}s underside, which gave to my arrival that old-movie aura of mystery and glory, ice needles crystalized on the lenses of my glasses and I could hardly see."
+          ],
+          [
+            1,
+            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - midnight',
+            "Days were given to the study of the water level, the numbers of fish, the evidence of tremors. If the signs were still bad the \x{2018}wizards\x{2019} acted. They took a girl of from six to nine years old, decked her with flowers and \x{2018}at <<midnight|9m>> the wizards took her to the middle of the lake and cast her in, bound hand and foot, with a stone fast to her neck. The next day, if the child appeared upon the surface and the tremors continued, another victim was cast into the lake with the same ceremonies."
+          ],
+          [
+            1,
+            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - two',
+            "It was not solemn music. It was two electric guitars, a clarinet, maracas and a full set of drums \x{2013} as soon as it had started to blurt I shifted my seat for a look at the musicians. It was the harsh wail of tuneless pop music that I had been avoiding for weeks, the squawk and crash that I had first heard issuing from Mexico as I stood on the high riverbank at Laredo. I had, since then, only rarely been out of earshot of it. How to describe it? With the guitar whine was an irregular beat, and each beat like a set of crockery dropped on the floor; a girl and boy shook maracas and sang \x{2013} this was a cat\x{2019}s yowl attempt at harmonizing, but off-key it did not even have the melodiousness of a set of madly scraping locusts."
+          ],
+          [
+            1,
+            "The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - nine o\x{2019}clock",
+            "I turned my attention to the three people at the next table, who were drawling away happily. A middle-aged couple had discovered that the stranger who had seated himself at their table was also a Texan. He was dressed in black and yet looked raffish, like one of those adulterous preachers who occur from time to time in worthy novels set in this neck of the woods \x{2013} it was <<nine o\x{2019}clock|6>>, we were in Fort Madison, Iowa, on the west bank of the Mississippi."
+          ],
+          [
+            1,
+            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - one',
+            "He was mistaken about that, for one thing. There was a crowd of people at the station early the following morning. They were undersized \x{2013} farmers in slouch hats and straw sombreros, Indian women with papooses and pigtails, barefoot children. Each person had a large bundle, a basket tied with vines or a home\x{2013}made suitcase. I concluded that this was the reason they had chosen to take the train \x{2013} their belongings would have been unwelcome on a bus. The train also took a different route from any of the buses, and the train-fare from Tec\x{fa}n Um\x{e1}n to Guatemala City was less than two dollars. Until ten minutes before the train was to leave, a policeman kept us away from the platform barrier, and we stood clutching our tickets \x{2013} strips of paper with all the intermediate stations listed: one\x{2019}s ticket was guillotined at the station where one was to disembark."
+          ],
+          [
+            1,
+            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - about twenty',
+            "We travelled parallel to a road, and crossed it occasionally, but for most of the time we were not near to places that were very densely inhabited. The towns were small and tumbledown and in this busriding country most of the people lived on the main roads. After a few stops I could see that this was regarded as a local train \x{2013} no one was going any great distance. Passengers who had got on at Tec\x{fa}n Um\x{e1}n were going to the market at Coatepeque, which was on a road, or to Retalhuleu to get to the coast, about twenty-five miles away. By <<noon|9:1>> we were at La Democracia. At the time I had concluded that this was an ironical name, but perhaps it was a fitting name for a place with a sweet-sour smell, and huts made out of sticks and cardboard and hammered-out tins, and howling radios and clamouring people \x{2013} some boarding buses, some selling fruit, but the majority merely standing wrapped in blankets and looking darkly at the train. And tired children were hunkered down in the mud. Here was a fancy car among the jalopies, and there a pretty house among the huts. Democracy is a messy system of government, and there was a helter-skelter appropriateness in the name of this disordered town. But how much democracy was there here?"
+          ],
+          [
+            1,
+            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - 3:20',
+            "It helps to take the train if one wishes to understand. Understanding was like a guarantee of depression, but it was an approach to the truth. For most tourists, Guatemala is a four-day affair with quaintness and ruins: veneration at the capital\x{2019}s churches, a day sniffing nosegays at Antigua, another at the colourful Indian market at Chichicastenango, a picnic at the Mayan temples of Tikal. I think I would have found this itinerary more depressing, and less rewarding, than my own meandering from the Mexican border through the coastal departments. The train creaked and whimpered but, incredibly, it kept to its schedule: at <<3:20|2>> we were at Santa Maria \x{2013} as promised in Cook\x{2019}s International Timetable \x{2013} and, eating my fifth banana of the day, I studied our progress on our climb to Escuintla and the greater heights of Guatemala City."
+          ],
+          [
+            1,
+            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - seven-thirty',
+            "
+
+
+    The Old Patagonian Express
+
+
+
+
+
+
+
+Necessity kissed me with luck. There was no better way to leave the high plains \x{2013} that world of kitty litter \x{2013} than to slip across Argentina\x{2019}s simple frontier at night, make the acquaintance of its empty quarter the next day and, the following morning, arrive at a large provincial capital and to walk its streets while the city slept. It was only <<seven-thirty|9c:1>>; not even the coffee shops were open. The royal palms and the dark green araucarias dripped in the mist. The day was mine; if nothing in the city of Tucuman persuaded me to stay, I could board the North Star that evening on a sleeper and wake up in Buenos Aires. There was a risk on this route. In my notebook, I had a clipping which I had cut out of a Bogot\x{e1} newspaper. Railway Catastrophe in Argentina: 50 Dead, ran the Spanish headline. \x{2018}The train \x{201c}The North Star\x{201d}, said the police, was leaving the province of Tucuman when it charged a heavy truck at a level crossing.\x{2019} The incident, which was reported with all the enthusiasm Latin Americans have for disasters, had happened only a month before. \x{2018}You will have no difficulty getting a berth on that train,\x{2019} a station porter told me in Tucuman. \x{2018}Ever since it crashed, people have been frightened to take it.\x{2019}"
+          ],
+          [
+            1,
+            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - four',
+            "After the barrel-chested Indians living among wind-haunted rocks in the high plains, and the farmers in the tumbledown villages near the border, and the yawning cracked-open river valleys of the north, I was prepared for anything but Tucuman. It was gloomy, but gloom was part of the Argentine temper; it was not a dramatic blackness, but rather a dampness of soul, the hang-dog melancholy immigrants feel on rainy afternoons far from home. There was no desolation, and if there were barbarities they remained dark secrets and were enacted in the torture chambers of the police stations or in the cramped workers\x{2019} quarters of the sugar planations. It was <<four|9a>> in the afternoon before I found a bar \x{2013} Tucuman was that proper."
+          ],
+          [
+            1,
+            "The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - ten o\x{2019}clock",
+            "Dinner was served at <<ten o\x{2019}clock|6>> \x{2013} four courses, including a fat steak, for two dollars. It was the sort of dining car where the waiters and stewards were dressed more formally than the people eating. All the tables were full, a well-fed noisy crowd of mock-Europeans. Two men had joined Oswaldo and me, and after a decent pause and some wine, one of them began talking about his reason for going to Buenos Aires: his father had just had a heart attack."
+          ],
+          [
+            1,
+            "The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - three o\x{2019}clock",
+            "There was a hint of this cultural overlay in the composition of the city. The pink-flowered \x{2018}drunken branch\x{2019} trees of the pampas grew in the parks, but the parks were English and Italian, and this told in their names, Britannia Park, Palermo Park. The downtown section was architecturally French, the industrial parts German, the harbour Italian. Only the scale of the city was American; its dimensions, its sense of space, gave it a familiarity. It was a clean city. No one slept in its doorways or parks \x{2013} this, in a South American context, is almost shocking to behold. I found the city safe to walk in at all hours and at <<three o\x{2019}clock|6>> in the morning there were still crowds in the streets. Because of the day-time humidity, groups of boys played football in the floodlit parks until <<well after midnight|13>>. It was a city without significant Indian population \x{2013} few, it seemed, strayed south of Tucuman, and what Indians existed came from Paraguay, or just across the Rio de la Plata in Uruguay. They worked as domestics, they lived in outlying slums, they were given little encouragement to stay."
+          ],
+          [
+            1,
+            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - two',
+            "That night I went to a party with the man who had translated my books into Spanish for the Argentine editions. He had earned my admiration by finding the source of a quotation I had mischievously left unattributed in the text of one. It was two lines from Thomas Moore\x{2019}s Intercepted Letters. But, then, Rolando Costa Picazo had taught in Ohio and Michigan, where such things were common knowledge. He too urged me to meet Borges."
+          ],
+          [
+            1,
+            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - 7:30',
+            '6 The <<7:30|2>> to Guatemala City'
+          ],
+          [
+            1,
+            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - 7:00',
+            '7 The <<7:00|2>> to Zacapa'
+          ],
+          [
+            1,
+            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - 12:00',
+            "10 The Atlantic Railway: the <<12:00|2>> to Lim\x{f3}n"
+          ],
+          [
+            1,
+            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - 10:00',
+            '11 The Pacific Railway: the <<10:00|2>> to Puntarenas'
+          ]
         ];
 }
 
@@ -234,7 +799,7 @@ sub get_csv_tests {
           [
             1,
             'Timestr: midnight',
-            'At <<midnight|9d>> his wife and daughter might still be bustling about, preparing holiday delicacies in the kitchen, straightening up the house, or perhaps getting their kimonos ready or arranging flowers. Oki would sit in the living room and listen to the radio. As the bells rang he would look back at the departing year. He always found it a moving experience.'
+            'At <<midnight|9m>> his wife and daughter might still be bustling about, preparing holiday delicacies in the kitchen, straightening up the house, or perhaps getting their kimonos ready or arranging flowers. Oki would sit in the living room and listen to the radio. As the bells rang he would look back at the departing year. He always found it a moving experience.'
           ],
           [
             1,
@@ -414,12 +979,12 @@ sub get_csv_tests {
           [
             1,
             'Timestr: twelve-fifteen',
-            'At <<twelve-fifteen|9d>> he got out of the van. He tucked the pistol under the waistband of his trousers and crossed the silent, deserted street to the Hudston house.'
+            'At <<twelve-fifteen|9m>> he got out of the van. He tucked the pistol under the waistband of his trousers and crossed the silent, deserted street to the Hudston house.'
           ],
           [
             1,
             'Timestr: twelve-fifteen',
-            'At <<twelve-fifteen|9d>> he got out of the van. He tucked the pistol under the waistband of his trousers and crossed the silent, deserted street to the Hudston house. He let himself through an unlocked wooden gate onto a side patio brightened only by moonlight filtered through the leafy branches of an enormous sheltering coral tree. He paused to pull on a pair of supple leather gloves.'
+            'At <<twelve-fifteen|9m>> he got out of the van. He tucked the pistol under the waistband of his trousers and crossed the silent, deserted street to the Hudston house. He let himself through an unlocked wooden gate onto a side patio brightened only by moonlight filtered through the leafy branches of an enormous sheltering coral tree. He paused to pull on a pair of supple leather gloves.'
           ],
           [
             1,
@@ -844,7 +1409,7 @@ sub get_csv_tests {
           [
             1,
             'Timestr: 2.05',
-            'At <<2.05|9d>> the fizzy tights came crackling off.'
+            'At <<2.05|9m>> the fizzy tights came crackling off.'
           ],
           [
             1,
@@ -999,7 +1564,7 @@ sub get_csv_tests {
           [
             1,
             'Timestr: about 2.36am',
-            'It was <<about 2.36am|2a>> when a provost colonel arrived to arrest me. At <<2.36|9d>> 1/2 I remembered the big insulating gauntlets. But even had I remembered before, what could I have done?'
+            'It was <<about 2.36am|2a>> when a provost colonel arrived to arrest me. At <<2.36|9m>> 1/2 I remembered the big insulating gauntlets. But even had I remembered before, what could I have done?'
           ],
           [
             1,
@@ -1904,7 +2469,7 @@ sub get_csv_tests {
           [
             1,
             'Timestr: 6.02',
-            'Bimingham New Street <<5.25|5a:0>>. Walsall <<5.55|5a:0>>. This train does not stop at Birchills, for reasons George has never been able to ascertain. Then it is Bloxwich <<6.02|5a:0>>, Wyrley & Churchbridge <<6.09|5a:0>>. At <<6.10|9d>> he nods to Mr Merriman the stationmaster.'
+            'Bimingham New Street <<5.25|5a:0>>. Walsall <<5.55|5a:0>>. This train does not stop at Birchills, for reasons George has never been able to ascertain. Then it is Bloxwich <<6.02|5a:0>>, Wyrley & Churchbridge <<6.09|5a:0>>. At <<6.10|9m>> he nods to Mr Merriman the stationmaster.'
           ],
           [
             1,
@@ -2209,7 +2774,7 @@ sub get_csv_tests {
           [
             1,
             'Timestr: 7.14',
-            'At <<7.14|9d>> Harry knew he was alive. He knew that because the pain could be felt in every nerve fibre.'
+            'At <<7.14|9m>> Harry knew he was alive. He knew that because the pain could be felt in every nerve fibre.'
           ],
           [
             1,
@@ -2602,7 +3167,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr: 8.29',
-            'At <<8.29|9d>> I punched the front doorbell in Elgin Crescent. It was opened by a small oriental woman in a white apron. She showed me into a large, empty sitting room with an open fire and a couple of huge oil paintings.'
+            'At <<8.29|9m>> I punched the front doorbell in Elgin Crescent. It was opened by a small oriental woman in a white apron. She showed me into a large, empty sitting room with an open fire and a couple of huge oil paintings.'
           ],
           [
             1,
@@ -2827,7 +3392,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr: nine',
-            'Opening his window, Aschenbach thought he could smell the foul stench of the lagoon. A sudden despondency came over him. He considered leaving then and there. Once, years before, after weeks of a beautiful spring, he had been visited by this sort of weather and it so affected his health he had been obliged to flee. Was not the same listless fever setting in? The pressure in the temples, the heavy eyelids? Changing hotels again would be a nuisance, but if the wind failed to shift he could not possibly remain here. To be on the safe side, he did not unpack everything. At <<nine|9d>> he went to breakfast in the specially designated buffet between the lobby and the dining room.'
+            'Opening his window, Aschenbach thought he could smell the foul stench of the lagoon. A sudden despondency came over him. He considered leaving then and there. Once, years before, after weeks of a beautiful spring, he had been visited by this sort of weather and it so affected his health he had been obliged to flee. Was not the same listless fever setting in? The pressure in the temples, the heavy eyelids? Changing hotels again would be a nuisance, but if the wind failed to shift he could not possibly remain here. To be on the safe side, he did not unpack everything. At <<nine|9m>> he went to breakfast in the specially designated buffet between the lobby and the dining room.'
           ],
           [
             1,
@@ -3017,7 +3582,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr: nine twenty-two',
-            'No more throwing stones at him, and I\'ll see you back here exactly one week from now. She looked at her watch. \'At <<nine twenty-two|9d>> next Wednesday.\''
+            'No more throwing stones at him, and I\'ll see you back here exactly one week from now. She looked at her watch. \'At <<nine twenty-two|9m>> next Wednesday.\''
           ],
           [
             1,
@@ -3312,7 +3877,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr: 10.15',
-            'At <<10.15|9d>> Arlena departed from her rondezvous, a minute or two later Patrick Redfern came down and registered surprise, annoyance, etc. Christine\'s task was easy enough. Keeping her own watch concealed she asked she asked Linda at <<twenty-five past eleven|10>> what time it was. Linda looked at her watch and replied that it was a <<quarter to twelve|10>>.'
+            'At <<10.15|9m>> Arlena departed from her rondezvous, a minute or two later Patrick Redfern came down and registered surprise, annoyance, etc. Christine\'s task was easy enough. Keeping her own watch concealed she asked she asked Linda at <<twenty-five past eleven|10>> what time it was. Linda looked at her watch and replied that it was a <<quarter to twelve|10>>.'
           ],
           [
             1,
@@ -3392,7 +3957,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr: ten-thirty',
-            'At <<ten-thirty|9d>> I\'m cleaned up, shaved and dressed in my Easter best - a two-piece seersucker Palm Beach I\'ve had since college.'
+            'At <<ten-thirty|9m>> I\'m cleaned up, shaved and dressed in my Easter best - a two-piece seersucker Palm Beach I\'ve had since college.'
           ],
           [
             1,
@@ -3687,7 +4252,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr: twenty-five past eleven',
-            'At <<10.15|9d>> Arlena departed from her rondezvous, a minute or two later Patrick Redfern came down and registered surprise, annoyance, etc. Christine\'s task was easy enough. Keeping her own watch concealed she asked Linda at <<twenty-five past eleven|10>> what time it was. Linda looked at her watch and replied that it was a <<quarter to twelve|10>>.'
+            'At <<10.15|9m>> Arlena departed from her rondezvous, a minute or two later Patrick Redfern came down and registered surprise, annoyance, etc. Christine\'s task was easy enough. Keeping her own watch concealed she asked Linda at <<twenty-five past eleven|10>> what time it was. Linda looked at her watch and replied that it was a <<quarter to twelve|10>>.'
           ],
           [
             1,
@@ -3747,7 +4312,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr: 11.35',
-            'At <<11.35|9d>> the Colonel came out; he looked hot and angry as he strode towards the lift. There goes a hanging judge, thought Wormold.'
+            'At <<11.35|9m>> the Colonel came out; he looked hot and angry as he strode towards the lift. There goes a hanging judge, thought Wormold.'
           ],
           [
             1,
@@ -3782,7 +4347,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr: quarter to twelve',
-            'At <<10.15|9d>> Arlena departed from her rondezvous, a minute or two later Patrick Redfern came down and registered surprise, annoyance, etc. Christine\'s task was easy enough. Keeping her own watch concealed she asked Linda at <<twenty-five past eleven|10>> what time it was. Linda looked at her watch and replied that it was a <<quarter to twelve|10>>.'
+            'At <<10.15|9m>> Arlena departed from her rondezvous, a minute or two later Patrick Redfern came down and registered surprise, annoyance, etc. Christine\'s task was easy enough. Keeping her own watch concealed she asked Linda at <<twenty-five past eleven|10>> what time it was. Linda looked at her watch and replied that it was a <<quarter to twelve|10>>.'
           ],
           [
             1,
@@ -3812,7 +4377,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr: quarter to twelve',
-            'At <<10.15|9d>> Arlena departed from her rondezvous, a minute or two later Patrick Redfern came down and registered surprise, annoyance, etc. Christine\'s task was easy enough. Keeping her own watch concealed she asked Linda at <<twenty-five past eleven|10>> what time it was. Linda looked at her watch and replied that it was a <<quarter to twelve|10>>.'
+            'At <<10.15|9m>> Arlena departed from her rondezvous, a minute or two later Patrick Redfern came down and registered surprise, annoyance, etc. Christine\'s task was easy enough. Keeping her own watch concealed she asked Linda at <<twenty-five past eleven|10>> what time it was. Linda looked at her watch and replied that it was a <<quarter to twelve|10>>.'
           ],
           [
             1,
@@ -3977,7 +4542,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr: 12.03',
-            'At <<12.03|9d>> the sun has already punched its ticket. Sinking, it stains the cobbles and stucco of the platz in a violin-coloured throb of light that you would have to be a stone not to find poignant.'
+            'At <<12.03|9m>> the sun has already punched its ticket. Sinking, it stains the cobbles and stucco of the platz in a violin-coloured throb of light that you would have to be a stone not to find poignant.'
           ],
           [
             1,
@@ -4772,7 +5337,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr: three',
-            'At <<three|9d>> on the Wednesday afternoon, that bit of the painting was completed.'
+            'At <<three|9m>> on the Wednesday afternoon, that bit of the painting was completed.'
           ],
           [
             1,
@@ -4982,7 +5547,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr: three-forty',
-            "At <<three-forty|9d>>, Cliff called to report that Dilworth and his lady friend were sitting on the deck of the Amazing Grace, eating fruit and sipping wine, reminiscing a lot, laughing a little. \x{201c}From what we can pick up with directional microphones and from what we can see, I\x{2019}d say they don\x{2019}t have any intention of going anywhere. Except maybe to bed. They sure do seem to be a randy old pair.\x{201d} \x{201c}Stay with them,\x{201d} Lem said. \x{201c}I don\x{2019}t trust him.\x{201d}"
+            "At <<three-forty|9m>>, Cliff called to report that Dilworth and his lady friend were sitting on the deck of the Amazing Grace, eating fruit and sipping wine, reminiscing a lot, laughing a little. \x{201c}From what we can pick up with directional microphones and from what we can see, I\x{2019}d say they don\x{2019}t have any intention of going anywhere. Except maybe to bed. They sure do seem to be a randy old pair.\x{201d} \x{201c}Stay with them,\x{201d} Lem said. \x{201c}I don\x{2019}t trust him.\x{201d}"
           ],
           [
             1,
@@ -5392,7 +5957,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr: four-forty-five',
-            'At <<four-forty-five|9d>> Miss Haddon went to tea with the Principal, who explained why she desired all the pupils to learn the same duet. It was part of her new co-ordinative system.'
+            'At <<four-forty-five|9m>> Miss Haddon went to tea with the Principal, who explained why she desired all the pupils to learn the same duet. It was part of her new co-ordinative system.'
           ],
           [
             1,
@@ -5827,7 +6392,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr: six-thirty',
-            'At <<six-thirty|9d>> I left the bar and walked outside. It was getting dark and the big Avenida looked cool and graceful. On the other side were homes that once looked out on the beach. Now they looked out on hotels and most of them had retreated behind tall hedges and walls that cut them off from the street.'
+            'At <<six-thirty|9m>> I left the bar and walked outside. It was getting dark and the big Avenida looked cool and graceful. On the other side were homes that once looked out on the beach. Now they looked out on hotels and most of them had retreated behind tall hedges and walls that cut them off from the street.'
           ],
           [
             1,
@@ -6032,7 +6597,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr: seven-ten',
-            'The party was to begin at <<seven|9f>>. The invitations gave the hour as <<six-thirty|5a:1>> because the family knew everyone would come a little late, so as not to be the first to arrive. At <<seven-ten|9d>> not a soul had come; somewhat acrimoniously, the family discussed the advantages and disadvantages of tardiness'
+            'The party was to begin at <<seven|9f>>. The invitations gave the hour as <<six-thirty|5a:1>> because the family knew everyone would come a little late, so as not to be the first to arrive. At <<seven-ten|9m>> not a soul had come; somewhat acrimoniously, the family discussed the advantages and disadvantages of tardiness'
           ],
           [
             1,
@@ -6362,7 +6927,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr: 20.20',
-            'At <<20.20|9d>> all ships had completed oiling. Hove to, they had had the utmost difficulty in keeping position in that great wind; but they were infinitely safer than in the open sea'
+            'At <<20.20|9m>> all ships had completed oiling. Hove to, they had had the utmost difficulty in keeping position in that great wind; but they were infinitely safer than in the open sea'
           ],
           [
             1,
@@ -6542,7 +7107,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr: 2100',
-            'At <<2100|9d>> at night it\'s cold out.'
+            'At <<2100|9m>> at night it\'s cold out.'
           ],
           [
             1,
@@ -6717,7 +7282,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr: nine thirty-eight',
-            'At <<nine thirty-eight|9d>> the waiter came back and offered us a second helping of cheese,salami and sardines, and Mr Yoshogi who had been converting sterling into yen looked extremely puzzled and said he had no idea that British Honduras had so large an export trade'
+            'At <<nine thirty-eight|9m>> the waiter came back and offered us a second helping of cheese,salami and sardines, and Mr Yoshogi who had been converting sterling into yen looked extremely puzzled and said he had no idea that British Honduras had so large an export trade'
           ],
           [
             1,
@@ -7132,7 +7697,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr: eleven-twenty',
-            'From Balboa Island, he drove south to Laguna Beach. At <<eleven-twenty|9d>>, he parked his van across the street from the Hudston house.'
+            'From Balboa Island, he drove south to Laguna Beach. At <<eleven-twenty|9m>>, he parked his van across the street from the Hudston house.'
           ],
           [
             1,
@@ -7142,7 +7707,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr: 11.22',
-            'At <<11.22|9d>> he handed his ticket to a yawning guard and walked down a long flight of wooden steps to the car-park. A breeze lifted and dropped the leaves of a tree, and he thought of the girl with the blonde hair. His bicycle lay where he had left it.'
+            'At <<11.22|9m>> he handed his ticket to a yawning guard and walked down a long flight of wooden steps to the car-park. A breeze lifted and dropped the leaves of a tree, and he thought of the girl with the blonde hair. His bicycle lay where he had left it.'
           ],
           [
             1,
@@ -7242,7 +7807,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr: 11.42',
-            'At <<11.42|9d>> then the signal\'s nearly due And the passengers are frantic to a man- Then Skimble will appear and he\'ll saunter to the rear:'
+            'At <<11.42|9m>> then the signal\'s nearly due And the passengers are frantic to a man- Then Skimble will appear and he\'ll saunter to the rear:'
           ],
           [
             1,

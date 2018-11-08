@@ -43,10 +43,16 @@ sub search_zip {
 
     foreach my $member (sort {$a cmp $b} $zip->members()) {
         my $name = $member->fileName();
-        next if $name !~ /\.[x]?html?$/;
+        next if $name !~ /\.([x]?html?|xml)$/;
 
         my $contents = $member->contents();
         utf8::decode($contents);
+
+        next unless $contents =~ m{\A \Q<?xml \E [^>]+ [?]> \r?\n
+                                   \Q<html \E
+                                  }x;
+        next unless $contents =~ m{content="text/html};
+
         my @lines = split m{</(?:p|div)>\R*}, $contents;
         foreach my $line (@lines) {
             ## First clean out html and turn to text
