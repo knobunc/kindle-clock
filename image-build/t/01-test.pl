@@ -11,7 +11,7 @@ use TimeMatch;
 compare_strings(get_book_tests(), "book tests");
 compare_strings(get_csv_tests(),  "csv tests");
 
-check_substring(get_csv_tests());
+#check_substring(get_csv_tests());
 
 done_testing;
 
