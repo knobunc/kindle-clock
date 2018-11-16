@@ -41,6 +41,7 @@ sub search_zip {
 
     my (undef, undef, $basename) = File::Spec->splitpath($file);
 
+    my $members_seen = 0;
     foreach my $member (sort {$a cmp $b} $zip->members()) {
         my $name = $member->fileName();
         next if $name !~ /\.([x]?html?|xml)$/;
@@ -65,7 +66,7 @@ sub search_zip {
 
             if ($line =~ /<</) {
                 my ($time_bit) = $line =~ m{<< ([^|>]+) [|] \d+ \w? (:\d)? >>}x;
-                push @res, [1, "$basename - $time_bit", $line];
+                push @res, [1, "$basename ($name) - $time_bit", $line];
 
                 print $line, "\n\n"
                     unless $output_dump;
@@ -73,6 +74,9 @@ sub search_zip {
 
         }
     }
+
+    die "No members in '$file'"
+        unless $members_seen;
 
     print Dumper \@res
         if $output_dump;

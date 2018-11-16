@@ -18,10 +18,9 @@ sub main {
     my ($string) = @_;
     utf8::decode($string);
 
-    while ($string =~ s{<< ([^|>]+) [|] \d+ \w? (:\d)? >>}{$1}gx) { }
-    $string =~ s{<<(.*?)>>}{$1}g;
+    my @times = extract_times($string);
 
-    say do_match($string);
+    say Dumper(\@times);
 
     return 0;
 }

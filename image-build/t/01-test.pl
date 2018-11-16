@@ -7,11 +7,19 @@ use Test::Modern;
 use lib '.';
 use TimeMatch;
 
+# prove t/01-test.pl |& egrep -E '^|<<[^>]+(>>|$)|^[^<>]+>>'
 
-compare_strings(get_book_tests(), "book tests");
-compare_strings(get_csv_tests(),  "csv tests");
+if (0) {
+    compare_strings(get_book_tests(), "book tests");
+    compare_strings(get_csv_tests(),  "csv tests");
 
-#check_substring(get_csv_tests());
+    check_substring(get_csv_tests());
+
+    check_extract(get_book_tests(), "book tests");
+}
+else {
+    check_extract(get_csv_tests(),  "csv tests");
+}
 
 done_testing;
 
@@ -21,7 +29,7 @@ exit;
 sub compare_strings {
     my ($tests, $type) = @_;
 
-    subtest $type => sub {
+    subtest "Compare $type" => sub {
         foreach my $t (@$tests) {
             my ($match, $name, $expected) = @$t;
 
@@ -55,7 +63,7 @@ sub compare_strings {
 sub check_substring {
     my ($tests) = @_;
 
-    subtest "Substring test" => sub {
+    subtest "Extraction test" => sub {
         foreach my $t (@$tests) {
             my ($match, $name, $expected) = @$t;
 
@@ -89,6 +97,23 @@ sub check_substring {
         }
     };
 }
+
+sub check_extract {
+    my ($tests, $type) = @_;
+
+    subtest "Extract $type" => sub {
+        foreach my $t (@$tests) {
+            my ($match, $name, $string) = @$t;
+
+            my @times = extract_times($string);
+            my @matches = $string =~ m{<< ([^|>]+) [|] \d+ \w? (?: :\d)? >>}xg;
+
+            is(int(@times), int(@matches), "Extract: ". join(", ", map {"'$_'"} @matches));
+
+        }
+    };
+}
+
 
 sub get_book_tests {
     return [[1, "Trainspotting", "— Well, ah’m at <<one|9c:0>>. Ah’ll see ye back here at <<two|9b>>. Ah’ll gie ye ma tie tae pit oan, n some speed. Buck ye up a bit, let ye sell yirsel, ken? So let’s get tae work oan they appos."],
@@ -243,7 +268,7 @@ It was <<six a.m.|5>>, and the fog seemed glued to the windows, so thick that it
           [
             1,
             'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - midnight',
-            "But he had boarded the plane and vanished. In nine days of searching, Nicky had not been able to find a trace of him. Perhaps it was the effect of the Dashiell Hammett novel I had just read, but I found myself examining her situation with a detective\x{2019}s scepticism. Nothing could have been more melodramatic, or more like a Bogart film: near <<midnight|13>> in Veracruz, the band playing ironical love songs, the plaza crowded with friendly whores, the woman in the white suit describing the disappearance of her Mexican husband. It is possible that this sort of movie-fantasy, which is available to the solitary traveller, is one of the chief reasons for travel. She had cast herself in the role of leading lady in her search drama, and I gladly played my part. We were far from home: we could be anyone we wished. Travel offers a great occasion to the amateur actor."
+            "But he had boarded the plane and vanished. In nine days of searching, Nicky had not been able to find a trace of him. Perhaps it was the effect of the Dashiell Hammett novel I had just read, but I found myself examining her situation with a detective\x{2019}s scepticism. Nothing could have been more melodramatic, or more like a Bogart film: <<near midnight|13>> in Veracruz, the band playing ironical love songs, the plaza crowded with friendly whores, the woman in the white suit describing the disappearance of her Mexican husband. It is possible that this sort of movie-fantasy, which is available to the solitary traveller, is one of the chief reasons for travel. She had cast herself in the role of leading lady in her search drama, and I gladly played my part. We were far from home: we could be anyone we wished. Travel offers a great occasion to the amateur actor."
           ],
           [
             1,
@@ -441,7 +466,7 @@ It was not necessary for Otto to wake me up; the dust did that. It filled my com
           [
             1,
             'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - nearly midnight',
-            "He wanted to take me to what he said was the only good brothel in San Jos\x{e9}. It was too late, I said, <<nearly midnight|9:1>>. He said <<midnight|13>> was the best time \x{2013} the hookers were just waking up. \x{2018}How about tomorrow?\x{2019} I said, knowing that tomorrow I would be in Lim\x{f3}n. \x{2018}You\x{2019}re a chicken,\x{2019} he said, and I could hear him laughing as I descended the stairs to the street."
+            "He wanted to take me to what he said was the only good brothel in San Jos\x{e9}. It was too late, I said, <<nearly midnight|13>>. He said <<midnight|13>> was the best time \x{2013} the hookers were just waking up. \x{2018}How about tomorrow?\x{2019} I said, knowing that tomorrow I would be in Lim\x{f3}n. \x{2018}You\x{2019}re a chicken,\x{2019} he said, and I could hear him laughing as I descended the stairs to the street."
           ],
           [
             1,
@@ -599,7 +624,7 @@ Romance brought up the <<nine-fifteen|5a:0>>."
           [
             1,
             'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - towards midnight',
-            "In all, five balls were lost this way. The fourth landed not far from where I sat, and I could see that real punches were being thrown, real blood spurting from Salvadorean noses, and the broken bottles and the struggle for the ball made it a contest all its own, more savage than the one on the field, played out with the kind of mindless ferocity you read about in books on gory medieval sports. The announcer\x{2019}s warning was merely ritual threat; the police did not intervene \x{2013} they stayed on the field and let the spectators settle their own scores. The players grew bored: they ran in place, they did push-ups. When play resumed and Mexico gained possession of the ball it deftly moved down the field and invariably made a goal. But this play, these goals \x{2013} they were no more than interludes in a much bloodier sport which, <<towards midnight|9:1>> (and the game was still not over!), was varied by Suns throwing firecrackers at each other and onto the field."
+            "In all, five balls were lost this way. The fourth landed not far from where I sat, and I could see that real punches were being thrown, real blood spurting from Salvadorean noses, and the broken bottles and the struggle for the ball made it a contest all its own, more savage than the one on the field, played out with the kind of mindless ferocity you read about in books on gory medieval sports. The announcer\x{2019}s warning was merely ritual threat; the police did not intervene \x{2013} they stayed on the field and let the spectators settle their own scores. The players grew bored: they ran in place, they did push-ups. When play resumed and Mexico gained possession of the ball it deftly moved down the field and invariably made a goal. But this play, these goals \x{2013} they were no more than interludes in a much bloodier sport which, <<towards midnight|13>> (and the game was still not over!), was varied by Suns throwing firecrackers at each other and onto the field."
           ],
           [
             1,
@@ -649,7 +674,7 @@ Romance brought up the <<nine-fifteen|5a:0>>."
           [
             1,
             'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - towards noon',
-            'It was <<towards noon|9:1>> on March 1, 1898, that I first found myself entering the narrow and somewhat dangerous harbour of Mombasa, on the east coast of Africa. (The Man-Eaters of Tsavo, by Lt Col J. H. Patterson)'
+            'It was <<towards noon|13>> on March 1, 1898, that I first found myself entering the narrow and somewhat dangerous harbour of Mombasa, on the east coast of Africa. (The Man-Eaters of Tsavo, by Lt Col J. H. Patterson)'
           ],
           [
             1,
@@ -699,7 +724,7 @@ Romance brought up the <<nine-fifteen|5a:0>>."
           [
             1,
             'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - about twenty',
-            "We travelled parallel to a road, and crossed it occasionally, but for most of the time we were not near to places that were very densely inhabited. The towns were small and tumbledown and in this busriding country most of the people lived on the main roads. After a few stops I could see that this was regarded as a local train \x{2013} no one was going any great distance. Passengers who had got on at Tec\x{fa}n Um\x{e1}n were going to the market at Coatepeque, which was on a road, or to Retalhuleu to get to the coast, about twenty-five miles away. By <<noon|9:1>> we were at La Democracia. At the time I had concluded that this was an ironical name, but perhaps it was a fitting name for a place with a sweet-sour smell, and huts made out of sticks and cardboard and hammered-out tins, and howling radios and clamouring people \x{2013} some boarding buses, some selling fruit, but the majority merely standing wrapped in blankets and looking darkly at the train. And tired children were hunkered down in the mud. Here was a fancy car among the jalopies, and there a pretty house among the huts. Democracy is a messy system of government, and there was a helter-skelter appropriateness in the name of this disordered town. But how much democracy was there here?"
+            "We travelled parallel to a road, and crossed it occasionally, but for most of the time we were not near to places that were very densely inhabited. The towns were small and tumbledown and in this busriding country most of the people lived on the main roads. After a few stops I could see that this was regarded as a local train \x{2013} no one was going any great distance. Passengers who had got on at Tec\x{fa}n Um\x{e1}n were going to the market at Coatepeque, which was on a road, or to Retalhuleu to get to the coast, about twenty-five miles away. By <<noon|13>> we were at La Democracia. At the time I had concluded that this was an ironical name, but perhaps it was a fitting name for a place with a sweet-sour smell, and huts made out of sticks and cardboard and hammered-out tins, and howling radios and clamouring people \x{2013} some boarding buses, some selling fruit, but the majority merely standing wrapped in blankets and looking darkly at the train. And tired children were hunkered down in the mud. Here was a fancy car among the jalopies, and there a pretty house among the huts. Democracy is a messy system of government, and there was a helter-skelter appropriateness in the name of this disordered town. But how much democracy was there here?"
           ],
           [
             1,
@@ -829,7 +854,7 @@ sub get_csv_tests {
           [
             -1,
             'Timestr: twelve',
-            'Hamlet: What hour now? Horatio: I think it lacks of <<twelve>>. Marcellus: No, it is struck.'
+            'Hamlet: What hour now? Horatio: I think it lacks of <<twelve|99>>. Marcellus: No, it is struck.'
           ],
           [
             1,
@@ -1209,7 +1234,7 @@ sub get_csv_tests {
           [
             -1,
             'Timestr: nearer to one than half past',
-            'Declares one of the waiters was the worse for liquor, and that he was giving him a dressing down. Also that it was <<nearer to one than half past>>.'
+            'Declares one of the waiters was the worse for liquor, and that he was giving him a dressing down. Also that it was <<nearer to one than half past|99>>.'
           ],
           [
             1,
@@ -1694,7 +1719,7 @@ sub get_csv_tests {
           [
             -1,
             'Timestr: three',
-            'What\'s the time?" said the man, eyeing George up and down with evident suspicion; "why, if you listen you will hear it strike." George listened, and a neighbouring clock immediately obliged. "But it\'s only gone <<three>>!" said George in an injured tone, when it had finished.'
+            'What\'s the time?" said the man, eyeing George up and down with evident suspicion; "why, if you listen you will hear it strike." George listened, and a neighbouring clock immediately obliged. "But it\'s only gone <<three|99>>!" said George in an injured tone, when it had finished.'
           ],
           [
             1,
@@ -2199,7 +2224,7 @@ sub get_csv_tests {
           [
             -1,
             'Timestr: five',
-            'The cold eye of the Duke was dazzled by the gleaming of a thousand jewels that sparkled on the table. His ears were filled with chiming as the clocks began to strike. "One!" said Hark. "Two!" cried Zorn of Zorna. "Three!" the Duke\'s voice almost whispered. \'Four!" sighed Saralinda. "<<Five>>!" the Golux crowed, and pointed at the table. "The task is done, the terms are met," he said.'
+            'The cold eye of the Duke was dazzled by the gleaming of a thousand jewels that sparkled on the table. His ears were filled with chiming as the clocks began to strike. "One!" said Hark. "Two!" cried Zorn of Zorna. "Three!" the Duke\'s voice almost whispered. \'Four!" sighed Saralinda. "<<Five|99>>!" the Golux crowed, and pointed at the table. "The task is done, the terms are met," he said.'
           ],
           [
             1,
@@ -2809,7 +2834,7 @@ sub get_csv_tests {
           [
             1,
             'Timestr: seven-twenty',
-            'He who had been a boy very credulous of life was no longer greatly interested in the possible and improbable adventures of each new day. He escaped from reality till the alarm-clock rang, at <<seven-twenty|9:1>>.'
+            'He who had been a boy very credulous of life was no longer greatly interested in the possible and improbable adventures of each new day. He escaped from reality till the alarm-clock rang, at <<seven-twenty|5b>>.'
           ],
           [
             1,
@@ -3009,7 +3034,7 @@ sub get_csv_tests {
           [
             -1,
             'Timestr: oh eight oh oh hours',
-            'The next morning I woke up at <<oh eight oh oh hours>>, my brothers, and as I still felt shagged and fagged and fashed and bashed and as my glazzies were stuck together real horrorshow with sleepglue, I thought I would not go to school .'
+            'The next morning I woke up at <<oh eight oh oh hours|99>>, my brothers, and as I still felt shagged and fagged and fashed and bashed and as my glazzies were stuck together real horrorshow with sleepglue, I thought I would not go to school .'
           ],
           [
             1,
@@ -3362,7 +3387,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             -1,
             'Timestr: nine',
-            "A fly buzzed, the wall clock began to strike. After the <<nine>> golden strokes faded, the district captain began. \"How is Herr Colonel Marek?\" \"Thank you, Pap\x{e1}, he's fine.\" \"Still weak in geometry?\" \"Thank you, Pap\x{e1}, a little better.\" \"Read any books?\" \"Yessir, Pap\x{e1}.\""
+            "A fly buzzed, the wall clock began to strike. After the <<nine|99>> golden strokes faded, the district captain began. \"How is Herr Colonel Marek?\" \"Thank you, Pap\x{e1}, he's fine.\" \"Still weak in geometry?\" \"Thank you, Pap\x{e1}, a little better.\" \"Read any books?\" \"Yessir, Pap\x{e1}.\""
           ],
           [
             1,
@@ -4432,7 +4457,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             -1,
             'Timestr: can\'t be far-off twelve',
-            'I wondered what the time is?\' said the latter after a pause\'. \'I don\'t know exactly\', replied Easton, \'but it <<can\'t be far-off twelve>>.\''
+            'I wondered what the time is?\' said the latter after a pause\'. \'I don\'t know exactly\', replied Easton, \'but it <<can\'t be far-off twelve|99>>.\''
           ],
           [
             -1,
@@ -4445,9 +4470,9 @@ This last observation applied to the dark gallery, and was indicated by the comp
             '<<Two minutes before the clock struck noon|11a>>, the savage baron was on the platform to inspect the preparation for the frightful ceremony of <<mid-day|13>>. The block was laid forth-the hideous minister of vengeance, masked and in black, with the flaming glaive in his hand, was ready. The baron tried the edge of the blade with his finger, and asked the dreadful swordsman if his hand was sure? A nod was the reply of the man of blood. The weeping garrison and domestics shuddered and shrank from him. There was not one there but loved and pitied the gentle lady.'
           ],
           [
-            -1,
+            1,
             'Timestr: near to twelve',
-            'There is a big grandfather clock there, and as the hands drew <<near to twelve>> I don\'t mind confessing I was as nervous as a cat.'
+            'There is a big grandfather clock there, and as the hands drew <<near to twelve|11>> I don\'t mind confessing I was as nervous as a cat.'
           ],
           [
             1,
@@ -6527,7 +6552,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             -1,
             'Timestr: three minutes to the hour; which was seven',
-            "Folded in this triple melody, the audience sat gazing; and beheld gently and approvingly without interrogation, for it seemed inevitable, a box tree in a green tub take the place of the ladies\x{2019} dressing-room; while on what seemed to be a wall, was hung a great clock face; the hands pointing to <<three minutes to the hour; which was seven>>.'"
+            "Folded in this triple melody, the audience sat gazing; and beheld gently and approvingly without interrogation, for it seemed inevitable, a box tree in a green tub take the place of the ladies\x{2019} dressing-room; while on what seemed to be a wall, was hung a great clock face; the hands pointing to <<three minutes to the hour; which was seven|99>>.'"
           ],
           [
             1,
@@ -6627,7 +6652,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr: seven-fifteen',
-            'The party was to begin at <<seven|9f>>. The invitations gave the hour as <<six-thirty|5a:1>> because the famly knew everyone would come a little late, so as not to be the first to arrive. .. By <<seven-fifteen|9:1>> not another soul could squeeze into the house.'
+            'The party was to begin at <<seven|9f>>. The invitations gave the hour as <<six-thirty|5a:1>> because the famly knew everyone would come a little late, so as not to be the first to arrive. .. By <<seven-fifteen|5b>> not another soul could squeeze into the house.'
           ],
           [
             1,
@@ -7757,7 +7782,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             -1,
             'Timestr: In about twenty-eight minutes it will be midnight.',
-            "\"This is the evening. This is the night. It is New Year\x{b4}s Eve. <<In about twenty-eight minutes it will be midnight|99>>. I still have twenty-eight minutes left. I have to recollect my thoughts. At <<twelve o\x{b4}clock|>>, I should be done thinking.\" He looked at his father. \"Help those that are depressed and consider themselves lost in this world,\" he thought. \"Old fart.\""
+            "\"This is the evening. This is the night. It is New Year\x{b4}s Eve. <<In about twenty-eight minutes it will be midnight|99>>. I still have twenty-eight minutes left. I have to recollect my thoughts. At <<twelve o\x{b4}clock|99>>, I should be done thinking.\" He looked at his father. \"Help those that are depressed and consider themselves lost in this world,\" he thought. \"Old fart.\""
           ],
           [
             1,

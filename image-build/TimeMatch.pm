@@ -5,7 +5,7 @@ use Modern::Perl '2017';
 use utf8;
 
 use Exporter::Easy (
-  EXPORT => [ 'do_match' ],
+  EXPORT => [ qw( do_match extract_times ) ],
 );
 
 
@@ -33,6 +33,14 @@ my $hour24_word_re = qr{ $hour_word_re | thirteen | fourteen | fifteen
                        | sixteen | seventeen | eighteen | nineteen
                        | twenty ( - ( one | two | three | four ) )?
                        }xin;
+
+my $fraction_re = qr{ quarter | 1/4
+                    | third   | 1/3
+                    | half    | 1/2
+                    | third \s+ quarter | three \s+ quarters | 3/4
+                    }xin;
+
+my $till_re = qr{ before | to | of | after | past | till | ['‘’]til | short \s+ of }xin;
 
 # The minutes
 my $min_word_re =
@@ -91,7 +99,7 @@ my $rel_words    = qr{ ( shortly | just | well | long | a \s+ little ) \s+ ( bef
                      | approximately
                      | around
                      | nearly
-                     | near \s+ on
+                     | near ( \s+ on )?
                      | past
                      | towards
                      }xin;
@@ -140,7 +148,7 @@ my $never_follow_times_re =
       | dollars | cents | pounds | shillings | pennies | yuan
       | kids | children | men | women | girls | boys | families | people
       | rounds | turns | lines
-      | books  | volumes
+      | books  | volumes | plates | illustrations
       }xin;
 
     # Set the branch state variable
@@ -364,21 +372,13 @@ sub get_matches {
                       ( and ( \s+ | [-] )
                               ( a \s+ half | 1/2 | a \s+ quarter | 1/4 | twenty
                                 | $sec_re \s+ second s? )? \s+
-                       | ( after | before ) \s+ ( the \s+ )?
-                         ( ( quarter | 1/4
-                              | half | 1/2
-                              | third \s+ quarter | three \s+ quarters | 3/4
-                          ) ( \s+ | [-] ) )
+                       | ( after | before ) \s+ ( the \s+ )? $fraction_re ( \s+ | [-] )
                       )?
                       ( minute s? \s+ )?
-                    | ( $rel_words \s+ ( a \s+ )? )?
-                      ( ( quarter | 1/4
-                           | half | 1/2
-                           | third \s+ quarter | three \s+ quarters | 3/4
-                          ) ( \s+ | [-] ) )
+                    | ( $rel_words \s+ ( a \s+ )? )? $fraction_re ( \s+ | [-] )
                     | ( just | nearly ) \s+
                   )
-                  ( before | to | of | after | past | till | ['‘’]til | short \s+ of ) [-—\s]+
+                  $till_re [-—\s]+
                   $hour24_re ( \s+ $oclock_re )? ( ,? \s* $ampm_re )?
                   (?! \s+ ( possibilities | $time_periods_re )
                    | :\d | [-] )
@@ -473,7 +473,7 @@ sub get_matches {
                 (?<po>
                   ,? ( \s+ and )?
                   ( \s+ $sec_re    \s+ ( seconds | sec | s)           s?
-                   | ( \s+ a )? \s+ ( quarter | third | half | three [-\s]+ quarters )
+                   | ( \s+ a )? \s+ $fraction_re
                   )?
                   (?! [-\s]+ $never_follow_times_re \b )
                 )
@@ -578,7 +578,7 @@ sub get_matches {
     # one hour and a quarter
     push @r,qr{ $bb_re
                 (?<t1> $hour24_re \s+ hour s? ,? \s+ and \s+
-                  a \s+ ( half | quarter )
+                  a \s+ $fraction_re
                 )
                 $ba_re
                 (?{ $branch = "14a:TIMEY"})
@@ -719,21 +719,6 @@ sub get_matches {
                 $ba_re
                 (?{ $branch = "9m"})
               }xin;
-    push @r,qr{ (?<pr>
-                  ( \A | ['"‘’“”] | [.…;:?!,] \s+ )
-                  ( ( it \s+ was | twas | because ) \s+)?
-                )
-                (?<t1>
-                  ( $rel_at_words | ( close \s+ )? upon | till | by ) \s+
-                  ( $hour24_re ( [-:.] | \s+ )? $min0_re
-                  | One \s* (*SKIP)(*FAIL)
-                  | $hour24_re
-                  )
-                )
-                ( [-\s]* $never_follow_times_re \b (*SKIP)(*FAIL) )?
-                $ba_re
-                (?{ $branch = "9:TIMEY"})
-              }xin;
 
     # Strong word times
     # at eleven fifty-seven
@@ -803,12 +788,14 @@ sub get_matches {
                   | beat    | beats   | beating
                   | said    | says    | showed | shows
                   | read    | reads   | reading
+                  | drew
                   | ( point | pointed | pointing ) \s+ to
                   ) \s+
                 )
                 (?<t1>
                   ( ( a | $min_re ) \s+ minute s? \s+
-                    ( before | after | short \s+ of ) \s+
+                    ( before | after | short \s+ of | near \s+ to ) \s+
+                  | near \s+ to \s+
                   )?
                   $hour24_re ( [-.\s]+ $min0_re )?
                 )
@@ -830,6 +817,22 @@ sub get_matches {
                 )
                 $ba_re
                 (?{ $branch = "13"})
+              }xin;
+
+    push @r,qr{ (?<pr>
+                  ( \A | ['"‘’“”] | [.…;:?!,] \s+ )
+                  ( ( it \s+ was | twas | because ) \s+)?
+                )
+                (?<t1>
+                  ( $rel_at_words | ( close \s+ )? upon | till | by ) \s+
+                  ( $hour24_re ( [-:.] | \s+ )? $min0_re
+                  | One \s* (*SKIP)(*FAIL)
+                  | $hour24_re
+                  )
+                )
+                ( [-\s]* $never_follow_times_re \b (*SKIP)(*FAIL) )?
+                $ba_re
+                (?{ $branch = "9:TIMEY"})
               }xin;
 
     # More at the end of a phrase
@@ -932,4 +935,85 @@ sub get_matches {
     #   Thirteen hundred hours; Zero five twenty-three; sixteen thirteen
 
     return(\@r);
+}
+
+sub extract_times {
+    my ($string) = @_;
+
+    my @times;
+    while ($string =~ m{<< ([^|>]+) [|] \d+ \w? (:\d)? >>}gx) {
+        my $str = $1;
+
+        my $time;
+        if ($str =~
+            m{\A
+              ( # Exact time
+                ( (?<rl> $rel_words ) \s+ )?
+                  (?<hr> $hour24_re ) [-\s.:]*
+                ( (?<mn> $min_re    ) \s* )?
+                ( (?<am> $ampm_re   ) \s* )?
+              | # Bare hour
+                ( (?<rl> $rel_words ) \s+ )?
+                  (?<hr> $hour_re )
+              | # 0000h
+                ( (?<rl> $rel_words ) \s+ )?
+                  (?<hr> \d\d ) [-\s.:]*
+                ( (?<mn> \d\d ) \s* )?
+                ( h | hrs | hours )
+              | # twenty minutes past eight
+                ( (?<rl> $rel_words ) \s+ )?
+                  (?<mn> $min_re | a | a \s+ few ) [-\s]+
+                  ( and ( \s+ | [-] )
+                    ( a \s+ half | 1/2 | a \s+ quarter | 1/4 | twenty
+                    | $sec_re \s+ second s?
+                    ) \s+
+                  )?
+                  ( minutes? \s+ )?
+                  (?<dir> $till_re ) \s+
+                  (?<hr> $hour_re )
+                ( \s+ $oclock_re )?
+                ( \s+ (?<am> $ampm_re   ) \s* )?
+              | # seven-and-twenty minutes past eight
+                ( (?<rl> $rel_words ) \s+ )?
+                  (?<mn> $min_re [-\s+] and [-\s+] $min_re ) \s+
+                  ( and ( \s+ | [-] )
+                    ( a \s+ half | 1/2 | a \s+ quarter | 1/4 | twenty
+                    | $sec_re \s+ second s?
+                    ) \s+
+                  )?
+                  ( minutes? \s+ )?
+                  (?<dir> $till_re ) \s+
+                  (?<hr> $hour_re )
+                ( \s+ $oclock_re )?
+                ( \s+ (?<am> $ampm_re ) )?
+              | # three quarters past eleven
+                ( (?<rl> $rel_words ) \s+ ( a \s+ )? )?
+                  (?<mn> $fraction_re ) [-\s]+
+                  (?<dir> $till_re ) \s+
+                  (?<hr> $hour_re )
+                ( \s+ $oclock_re )?
+                ( \s+ (?<am> $ampm_re ) )?
+              | # three o'clock
+                ( (?<rl> $rel_words ) \s+ )?
+                  (?<hr> $hour_re ) \??
+                  \s+ $oclock_re
+                ( \s+ (?<am> $ampm_re ) )?
+                ( \s+ and \s+
+                  (?<mn> $min_re | $fraction_re ) \s*
+                  minutes?
+                )?
+              )
+              \z}xin)
+        {
+            $time =
+                join(" ",
+                     map { defined ? $_ : () }
+                     $+{rl}, $+{hr}, $+{mn}, $+{am}, $+{dir});
+        }
+
+        push @times, $time
+            if defined $time;
+    }
+
+    return @times;
 }
