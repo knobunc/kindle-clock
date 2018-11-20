@@ -9,17 +9,13 @@ use TimeMatch;
 
 # prove t/01-test.pl |& egrep -E '^|<<[^>]+(>>|$)|^[^<>]+>>'
 
-if (0) {
-    compare_strings(get_book_tests(), "book tests");
-    compare_strings(get_csv_tests(),  "csv tests");
+compare_strings(get_book_tests(), "book tests");
+compare_strings(get_csv_tests(),  "csv tests");
 
-    check_substring(get_csv_tests());
+check_substring(get_csv_tests());
 
-    check_extract(get_book_tests(), "book tests");
-}
-else {
-    check_extract(get_csv_tests(),  "csv tests");
-}
+check_extract(get_book_tests(), "book tests");
+check_extract(get_csv_tests(),  "csv tests");
 
 done_testing;
 
