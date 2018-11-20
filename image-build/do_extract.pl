@@ -15,10 +15,13 @@ exit main(@ARGV);
 
 
 sub main {
-    my ($string) = @_;
+    my ($string, $permute) = @_;
     utf8::decode($string);
 
-    my @times = extract_times($string);
+    $string = "<<$string|99>>"
+        if $string !~ /<</;
+
+    my @times = extract_times($string, $permute);
 
     say Dumper(\@times);
 

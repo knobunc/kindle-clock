@@ -8,18 +8,23 @@ use Exporter::Easy (
   EXPORT => [ qw( do_match extract_times ) ],
 );
 
+use Carp;
+use Data::Dumper;
+use Lingua::EN::Words2Nums;
+
 
 # Special named times
-my $midnight_noon_re =
-    qr{ ( high \s+ )? noon | noonday | mid[-\s]*day | noontime | noontide
-      | midnight (?! \s+ oil )
-      # Ecclesiastical times -- https://en.wikipedia.org/wiki/Liturgy_of_the_Hours
-      | matins | lauds | terce | sext | vespers | compline | vigils | nocturns
+my $noon_re     = qr{ ( high \s+ )? noon | noonday | mid[-\s]*day | noontime | noontide }xin;
+my $midnight_re = qr{ midnight (?! \s+ oil ) }xin;
+my $ecclesiastical_re =
+    qr{ # Ecclesiastical times -- https://en.wikipedia.org/wiki/Liturgy_of_the_Hours
+        matins | lauds | terce | sext | vespers | compline | vigils | nocturns
       | night \s+ office
       | ( dawn | early \s+ morning | mid-morning | mid-?day | mid-afternoon | evening | night )
         \s+ prayer
       # Missing Prime and None
       }xin;
+my $midnight_noon_re = qr{ $noon_re | $midnight_re | $ecclesiastical_re }xin;
 
 # Numbers 1-9 as words
 my $low_num_re = qr{ one | two | three | four | five | six | seven | eight | nine }xi;
@@ -40,7 +45,9 @@ my $fraction_re = qr{ quarter | 1/4
                     | third \s+ quarter | three \s+ quarters | 3/4
                     }xin;
 
-my $till_re = qr{ before | to | of | after | past | till | ['‘’]til | short \s+ of }xin;
+my $before_re = qr{ before | to | of | till | ['‘’]til | short \s+ of }xin;
+my $after_re  = qr{ after | past }xin;
+my $till_re   = qr{ $before_re | $after_re }xin;
 
 # The minutes
 my $min_word_re =
@@ -91,18 +98,31 @@ my $ba_re = qr{ \b | (?= [—/"'‘’“”\s.…,:;?] ) | \z }xin;
 my $not_in_match    = qr{ [—…,:;?/""''‘’“”\s([] | \G [-.]? | [^\d\w] [-.] }xin;
 
 # Relative words
+my $far_re          = qr{ well    | long                }xin;
+my $short_re        = qr{ shortly | just | a \s+ little }xin;
+
+my $far_before_re   = qr{   $far_re   \s+    before     }xin;
+my $short_before_re = qr{   $short_re \s+    before
+                        |   nearly
+                        |   near ( \s+ on )?
+                        |   towards
+                        }xin;
+my $around_re       = qr{ ( ( just )  \s+ )? about
+                        | almost
+                        | approximately
+                        | around
+                        }xin;
+my $short_after_re  = qr{ ( $short_re \s+ )? after
+                        | past
+                        }xin;
+my $far_after_re    = qr{   $far_re   \s+    after      }xin;
+
+my $rel_words       = qr{ $far_before_re | $short_before_re
+                        | $around_re
+                        | $far_after_re  | $short_after_re
+                        }xin;
+
 my $at_words     = qr{ until | at | before }xin;
-my $rel_words    = qr{ ( shortly | just | well | long | a \s+ little ) \s+ ( before | after )
-                     | ( ( just ) \s+ )? about
-                     | after
-                     | almost
-                     | approximately
-                     | around
-                     | nearly
-                     | near ( \s+ on )?
-                     | past
-                     | towards
-                     }xin;
 my $rel_at_words = qr{ $at_words | $rel_words }xin;
 
 # Weekdays
@@ -342,22 +362,6 @@ sub get_matches {
     # lo - Lead-out: Stuff after the match that we don't mask out
 
 
-    # Ones with a phrase after to fix it better as a time
-    push @r,qr{ \b (?<pr> ( at | it \s+ was | twas | till ) \s+ )
-                   (?<t1> ( ( $rel_words | ( close \s+ )? upon ) \s+ )?
-                     $hour_word_re
-                   )
-                   (?<po> ( \s+ ( at | in ) \s+ the
-                      |  \s+ the  \s+ ( next | following ) \s+ $timeday_re
-                      |  \s+ for  \s+ ( breakfast | lunch | dinner | luncheon | tea )
-                      |  \s+ on   \s+ ( the \s+ )? $weekday_re
-                      |  \s+ that \s+ $timeday_re
-                      |  \s+ ( tonight | today | tomorrow )
-                     )
-                   ) $ba_re
-                   (?{ $branch = "9a"; })
-              }xin;
-
     # Times to/from hour
     # ten minutes past noon
     # three minutes till eight
@@ -423,6 +427,22 @@ sub get_matches {
                    )
                    $ba_re
                  (?{ $branch = "9h"})
+              }xin;
+
+    # Ones with a phrase after to fix it better as a time
+    push @r,qr{ \b (?<pr> ( at | it \s+ was | twas | till ) \s+ )
+                   (?<t1> ( ( $rel_words ( \s+ at )? | ( close \s+ )? upon ) \s+ )?
+                     $hour_word_re
+                   )
+                   (?<po> ( \s+ ( at | in ) \s+ the
+                      |  \s+ the  \s+ ( next | following ) \s+ $timeday_re
+                      |  \s+ for  \s+ ( breakfast | lunch | dinner | luncheon | tea )
+                      |  \s+ on   \s+ ( the \s+ )? $weekday_re
+                      |  \s+ that \s+ $timeday_re
+                      |  \s+ ( tonight | today | tomorrow )
+                     )
+                   ) $ba_re
+                   (?{ $branch = "9a"; })
               }xin;
 
     # ... meet me ... at ten forty-five.
@@ -938,58 +958,63 @@ sub get_matches {
 }
 
 sub extract_times {
-    my ($string) = @_;
+    my ($string, $permute) = @_;
 
     my @times;
     while ($string =~ m{<< ([^|>]+) [|] \d+ \w? (:\d)? >>}gx) {
         my $str = $1;
 
-        my $time;
+        my $branch;
         if ($str =~
             m{\A
               ( # Exact time
-                ( (?<rl> $rel_words ) \s+ )?
+                ( (?<rl> $rel_at_words ) \s+ )?
                   (?<hr> $hour24_re ) [-\s.:]*
                 ( (?<mn> $min_re    ) \s* )?
                 ( (?<am> $ampm_re   ) )?
+                (?{ $branch = "1"})
               | # Bare hour
-                ( (?<rl> $rel_words ) \s+
+                ( (?<rl> $rel_at_words ) \s+
                   ( ( at | to ) \s+ )?
-                | close \s+ upon \s+
+                | (?<rl> close \s+ upon ) \s+
                 )?
                   (?<hr> $hour_re )
+                (?{ $branch = "2"})
               | # 0000h
-                ( (?<rl> $rel_words ) \s+ )?
+                ( (?<rl> $rel_at_words ) \s+ )?
                   (?<hr> $hour_dig_re    ) [-\s.:]*
                 ( (?<mn> $minsec0_dig_re ) \s* )?
                 ( h | hrs | hours )
+                (?{ $branch = "3"})
               | # 11h20m, 11h20, 3 hr 8 m p.m.
-                ( (?<rl> $rel_words ) \s+ )?
+                ( (?<rl> $rel_at_words ) \s+ )?
                   (?<hr> $hour_dig_re   ) \s* ( h | hr    | hours? )  \s*
                 ( \s+ and \s+ | , \s+ )?
                   (?<mn> $minsec_dig_re ) \s* ( m | mins? | minutes?  )?
                 ( ,? \s+ (?<am> $ampm_re ) )?
+                (?{ $branch = "4"})
               | # twenty minutes past eight
-                ( (?<rl> $rel_words ) \s+
-                | (?<rl> ( $rel_words \s+ )? $min_re \s+ or ) \s+
+                ( (?<rl> $rel_at_words | a \s+ few | just ) \s+
+                | (?<rl> ( $rel_at_words \s+ )? $min_re \s+ or ) \s+
                 )?
-                  (?<mn> $min_re | a | a \s+ few | just ) [-\s]+
+                ( (?<mn> $min_re | a ) [-\s]+ )?
                 ( and ( \s+ | [-] )
-                  ( a \s+ half | 1/2 | a \s+ quarter | 1/4 | twenty ) \s+
+                  ( a \s+ half | 1/2 | a \s+ quarter | 1/4 ) \s+
                 )?
                   ( minutes? \s+ )?
-                ( and ( \s+ | [-] ) $sec_re \s+ seconds? \s+ )?
+                ( and ( \s+ | [-] ) (?<sec> $sec_re ) \s+ seconds? \s+ )?
                   (?<dir> $till_re ) \s+
                   (?<hr> $hour_re )
-                ( [-\s]+ (?<m2> $min_re ) )?
+                ( [-\s]+ (?<m3> $min_re ) )?
                 ( \s+ $oclock_re )?
                 ( ,? \s* (?<am> $ampm_re ) )?
+                (?{ $branch = "5"})
               | # seven-and-twenty minutes past eight
-                ( (?<rl> $rel_words | between ) \s+ )?
+                ( (?<rl> $rel_at_words | between ) \s+ )?
                   (?<mn> $min_re [-\s+] and [-\s+] $min_re ) \s+
                   ( and ( \s+ | [-] )
-                    ( a \s+ half | 1/2 | a \s+ quarter | 1/4 | twenty
-                    | $sec_re \s+ second s?
+                    (?<sec> a \s+ half | 1/2 | a \s+ quarter | 1/4 | twenty
+                    | (?<sec> $sec_re ) \s+ second s?
                     ) \s+
                   )?
                   ( minutes? \s+ )?
@@ -997,9 +1022,10 @@ sub extract_times {
                   (?<hr> $hour_re )
                 ( \s+ $oclock_re )?
                 ( ,? \s* (?<am> $ampm_re ) )?
+                (?{ $branch = "6"})
               | # three quarters past eleven
                 ( ( (?<m2> $min_re ) \s+ minutes? \s+ )?
-                  (?<rl> $rel_words ) \s+ ( a \s+ )?
+                  (?<rl> $rel_at_words ) \s+ ( a \s+ )?
                   ( the \s+ )?
                 )?
                   (?<mn> $fraction_re ) [-\s]+
@@ -1007,8 +1033,9 @@ sub extract_times {
                   (?<hr> $hour_re )
                 ( \s+ $oclock_re )?
                 ( ,? \s+ (?<am> $ampm_re ) )?
+                (?{ $branch = "7"})
               | # three o'clock
-                ( (?<rl> $rel_words ) \s+ )?
+                ( (?<rl> $rel_at_words ) \s+ )?
                   (?<hr> $hour_re ) \??
                   [-\s]+ $oclock_re
                 ( ,? \s+ (?<am> $ampm_re ) )?
@@ -1016,18 +1043,21 @@ sub extract_times {
                   (?<mn> $min_re | $fraction_re ) \s*
                   minutes?
                 )?
+                (?{ $branch = "8"})
               | # One hour and a quarter
-                ( (?<rl> $rel_words ) \s+ )?
+                ( (?<rl> $rel_at_words ) \s+ )?
                   (?<hr> $hour_re ) \s+ hours? \s+ and \s+ a \s+
                   (?<mn> $fraction_re )
                 ( ,? \s+ (?<am> $ampm_re ) )?
+                (?{ $branch = "9"})
               | # one ... thirty ... four
-                ( (?<rl> $rel_words ) \s+ )?
+                ( (?<rl> $rel_at_words ) \s+ )?
                   (?<hr> $hour24_word_re ) ( [\s\.]+ | [-] )
                   (?<mn> $min_word_re )
-                ( \s* ... \s* (?<m2> $low_num_re ) )?
+                ( \s* ... \s* (?<m3> $low_num_re ) )?
                 ( \s+ $oclock_re )?
                 ( ,? \s+ (?<am> $ampm_re ) )?
+                (?{ $branch = "10"})
               | # Two minutes before the clock struck noon
                   (?<mn> $min_word_re ) \s+ minutes? \s+
                   (?<dir> $till_re ) \s+
@@ -1035,18 +1065,221 @@ sub extract_times {
                   (?<hr> $hour24_re )
                 ( \s+ $oclock_re )?
                 ( ,? \s+ (?<am> $ampm_re ) )?
+                (?{ $branch = "11"})
               )
               \z}xin)
         {
-            $time =
-                join(" ",
-                     map { defined ? $_ : () }
-                     $+{rl}, $+{hr}, $+{mn}, $+{m2}, $+{am}, $+{dir});
-        }
+            # Save the captured values
+            my @k = qw{ rl mn m2 m3 dir hr am sec branch };
+            my %c; @c{@k} = @+{@k};
+            $c{branch} = $branch;
 
-        push @times, $time
-            if defined $time;
+
+            my $min  = $c{mn}  // 0;
+            my $m2   = $c{m2}  // 0;
+            my $m3   = $c{m3}  // 0;
+            my $sec  = defined $c{sec} ? 1 : 0;
+            my $hour = $c{hr}  // 0;
+            my $rel  = $c{rl}  // '';
+            my $ampm = $c{am};
+            my $dir  = $c{dir} // '';
+
+            # Turn the hours into numbers
+            if ($hour !~ /^\d+$/) {
+                $hour = 12 if $hour =~ $noon_re;
+                $hour = 00 if $hour =~ $midnight_re;
+                $hour = words2nums($hour) // $hour
+                    // confess "Can't parse hour '$min'";
+            }
+
+            # Turn the minutes into numbers
+            if ($min !~ /^\d+$/) {
+                $min =~ s{ \A (.*) \s+ and \s+ .* \z }{$1}xi
+                    if $rel eq 'between';
+                $min = min2num($min);
+            }
+            if ($m2 !~ /^\d+$/) {
+                $min += min2num($m2);
+            }
+
+            # If we got am or pm we can set the hour absolutely
+            my $abs_hour = 0;
+            if (defined $ampm and $ampm =~ /^p/i) {
+                $abs_hour = 1;
+                $hour += 12
+                    if $hour != 12;
+
+                # But 12:00 am/pm is ambiguous let it be both
+                if ($hour == 12 and $min == 00) {
+                    $hour = 0;
+                    $abs_hour = 0;
+                }
+            }
+            elsif ($hour > 12 or $hour == 0) {
+                # Otherwise, depending on the hour, there can only be one choice
+                $abs_hour = 1;
+            }
+            elsif ($hour == 12) {
+                # 12:20 could be either am or pm, so set it low so we get both
+                $hour = 0;
+            }
+
+            # Look at the direction and see if we need to subtract the minutes rather than add
+            if ($dir =~ $before_re) {
+                my $m = $min;
+                $min = 60 - $m;
+                $min -= 1 if $sec;
+                $hour -= 1;
+            }
+
+            # Always add in the m3, it's never negative
+            if ($m3 !~ /^\d+$/) {
+                $min += min2num($m3);
+            }
+
+            # If the hour rolled, then we need to set it back
+            $hour %= 24;
+
+            my @hours = $hour;
+            my @mins  = $min;
+            if ($permute) {
+                # Handle the 12 hour clock ambiguity
+                push @hours, $hour+12
+                    unless $abs_hour;
+
+                # Handle relative times by spreading the range
+                my ($low, $high) = get_spread($rel, $dir, $c{mn});
+                @mins = ();
+                for my $d ($low .. $high) {
+                    push @mins, $min + $d;
+                }
+            }
+
+            foreach my $h (@hours) {
+                foreach my $m (@mins) {
+                    my ($hour, $min) = fix_time($h, $m);
+                    my $t = sprintf("%02d:%02d", $hour, $min);
+
+                    my $time = "$t: " . join(" ",  map { defined $c{$_} ? "$_<$c{$_}>" : () } @k );
+
+                    push @times, $time;
+                }
+            }
+        }
     }
 
     return @times;
+}
+
+sub fix_time {
+    my ($h, $m) = @_;
+
+    if ($m < 0) {
+        $h -= 1;
+        $m += 60;
+    }
+    elsif ($m > 59) {
+        $h += 1;
+        $m -= 60;
+    }
+
+    $h %= 24;
+
+    return ($h, $m);
+}
+
+sub min2num {
+    my ($min) = @_;
+    confess "Missing arg min"
+        unless defined $min;
+
+    # Fixed numbers
+    return 1  if $min =~ m{\A ( a ) \z}xin;
+
+    # Fractions
+    return 15 if $min =~ m{\A ( quarter | 1/4 ) \z}xin;
+    return 20 if $min =~ m{\A ( third   | 1/3 ) \z}xin;
+    return 30 if $min =~ m{\A ( half    | 1/2 ) \z}xin;
+    return 45 if $min =~ m{\A ( three [-\s]+ quarters
+                              | third \s+ quarter
+                              | 3/4
+                              ) \z}xin;
+
+    # Lose the leading oh-
+    $min =~ s{\A ( oh [-\s]+ ) }{}xin;
+
+    $min = words2nums($min)
+        // confess "Can't parse minute '$min'";
+
+    return $min;
+}
+
+sub get_spread {
+    my ($rel, $dir, $min) = @_;
+
+    if ($rel eq '' and defined $dir and $dir ne '' and not defined $min) {
+        return (-9, -1)  if $dir =~ $before_re;
+        return ( 1,  9)  if $dir =~ $after_re;
+    }
+
+    return (  0,  0)  if $rel eq '';
+    return (-15, -5)  if $rel =~ m{\A $far_before_re   \s* \z}xin;
+    return ( -9, -1)  if $rel =~ m{\A ( $short_before_re
+                                      | close ( \s+ upon )?
+                                      ) \s* \z}xin;
+    return ( -6,  6)  if $rel =~ m{\A $around_re       \s* \z}xin;
+    return (  1,  9)  if $rel =~ m{\A $short_after_re  \s* \z}xin;
+    return (  5, 15)  if $rel =~ m{\A $far_after_re    \s* \z}xin;
+
+    if (defined $dir and $dir ne '') {
+        if ($rel =~ m{\A ( (?<m> $min_re ) \s+ or
+                     | (?<r> a \s+ few | just )
+                     )
+                     \s* \z}xin)
+        {
+            my $rmin = defined $+{m} ? min2num($+{m}) : 5;
+            if (defined $min and $min ne '') {
+                # We already used the min to set the time, so take that away from the spread
+                $rmin -= min2num($min);
+            }
+
+            if ($dir =~ $before_re) {
+                return (-$rmin, 0);
+            }
+            return (0, $rmin);
+        }
+        elsif ($rel =~ m{\A between \s* \z}xin and
+               $min =~ m{\A (?<a> $min_re) \s+ ( and | or ) \s+ (?<b> $min_re) \s* }xin)
+        {
+            my $a = min2num($+{a});
+            my $b = min2num($+{b});
+
+            # Since we've already consumed the first number as minutes, we need to adjust by that
+            $b -= $a;
+            $a  = 0;
+
+            if ($dir =~ $before_re) {
+                return (-$b, 0);
+            }
+            return (0, $b);
+        }
+    }
+    else {
+        return ( 0,  0)  if $rel =~ m{\A ( until | at ) \s* \z}xin;
+        return (-5, -1)  if $rel =~ m{\A ( before ) \s* \z}xin;
+    }
+
+    confess "Can't parse rel '$rel'";
+}
+
+sub DEBUG_MSG {
+    my @dump = @_;
+
+    my ($package, $filename, $line) = caller;
+
+    local $Data::Dumper::Indent = 1;
+    local $Data::Dumper::Sortkeys = 1;
+    print STDERR "Debug at $filename:$line:\n", Dumper(@dump);
+
+    return;
 }

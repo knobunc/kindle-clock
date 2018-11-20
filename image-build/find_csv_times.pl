@@ -28,7 +28,7 @@ sub main {
 sub search_csv {
     my ($file) = @_;
 
-    my $output_dump = 0;
+    my $output_dump = 1;
     my @res;
 
     my $csv = Text::CSV->new ( { binary => 1, sep_char => '|', strict => 1 } )
@@ -41,11 +41,24 @@ sub search_csv {
 
         $line = do_match($line);
 
-        my $m = 1;
-        $m =~ -1 if $line =~ s{ \b (\d?\d\.?\d\d) \b }{<<$1>>}xgi;
-        push @res, [$m, "Timestr: $timestr", $line];
+        # Clean up the time string
+        $timestr =~ s{\s+$}{};
+        $timestr =~ s{\.$}{}
+            if $timestr !~ m{[ap]\.\s*m\.$}i;
 
-        print "$timestr -- $line\n\n"
+        my $m = 1;
+        $m = -1 if $line =~ s{\G ( [^<]+ (?: << [^>] >> )? )+
+                                 \b ((?: 0)?) (\Q$timestr\E)
+                             }{$1$2<<$3|99>>}xi;
+        $m = -2 if $line !~ m{<< ([^|>]+) [|] \d+ \w? (:\d)? >>}x;
+
+        if ($m == -1 and $line =~ s{\b0<<}{<<0}) {
+            $timestr = 0 . $timestr;
+        }
+
+        push @res, [$m, "Timestr [$time]: $timestr", $line];
+
+        print "$timestr [$time] -- $line\n\n"
             if $line !~ /<</ and not $output_dump;
     }
 
