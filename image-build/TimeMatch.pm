@@ -951,30 +951,41 @@ sub extract_times {
                 ( (?<rl> $rel_words ) \s+ )?
                   (?<hr> $hour24_re ) [-\s.:]*
                 ( (?<mn> $min_re    ) \s* )?
-                ( (?<am> $ampm_re   ) \s* )?
+                ( (?<am> $ampm_re   ) )?
               | # Bare hour
-                ( (?<rl> $rel_words ) \s+ )?
+                ( (?<rl> $rel_words ) \s+
+                  ( ( at | to ) \s+ )?
+                | close \s+ upon \s+
+                )?
                   (?<hr> $hour_re )
               | # 0000h
                 ( (?<rl> $rel_words ) \s+ )?
-                  (?<hr> \d\d ) [-\s.:]*
-                ( (?<mn> \d\d ) \s* )?
+                  (?<hr> $hour_dig_re    ) [-\s.:]*
+                ( (?<mn> $minsec0_dig_re ) \s* )?
                 ( h | hrs | hours )
-              | # twenty minutes past eight
+              | # 11h20m, 11h20, 3 hr 8 m p.m.
                 ( (?<rl> $rel_words ) \s+ )?
-                  (?<mn> $min_re | a | a \s+ few ) [-\s]+
-                  ( and ( \s+ | [-] )
-                    ( a \s+ half | 1/2 | a \s+ quarter | 1/4 | twenty
-                    | $sec_re \s+ second s?
-                    ) \s+
-                  )?
+                  (?<hr> $hour_dig_re   ) \s* ( h | hr    | hours? )  \s*
+                ( \s+ and \s+ | , \s+ )?
+                  (?<mn> $minsec_dig_re ) \s* ( m | mins? | minutes?  )?
+                ( ,? \s+ (?<am> $ampm_re ) )?
+              | # twenty minutes past eight
+                ( (?<rl> $rel_words ) \s+
+                | (?<rl> ( $rel_words \s+ )? $min_re \s+ or ) \s+
+                )?
+                  (?<mn> $min_re | a | a \s+ few | just ) [-\s]+
+                ( and ( \s+ | [-] )
+                  ( a \s+ half | 1/2 | a \s+ quarter | 1/4 | twenty ) \s+
+                )?
                   ( minutes? \s+ )?
+                ( and ( \s+ | [-] ) $sec_re \s+ seconds? \s+ )?
                   (?<dir> $till_re ) \s+
                   (?<hr> $hour_re )
+                ( [-\s]+ (?<m2> $min_re ) )?
                 ( \s+ $oclock_re )?
-                ( \s+ (?<am> $ampm_re   ) \s* )?
+                ( ,? \s* (?<am> $ampm_re ) )?
               | # seven-and-twenty minutes past eight
-                ( (?<rl> $rel_words ) \s+ )?
+                ( (?<rl> $rel_words | between ) \s+ )?
                   (?<mn> $min_re [-\s+] and [-\s+] $min_re ) \s+
                   ( and ( \s+ | [-] )
                     ( a \s+ half | 1/2 | a \s+ quarter | 1/4 | twenty
@@ -985,30 +996,52 @@ sub extract_times {
                   (?<dir> $till_re ) \s+
                   (?<hr> $hour_re )
                 ( \s+ $oclock_re )?
-                ( \s+ (?<am> $ampm_re ) )?
+                ( ,? \s* (?<am> $ampm_re ) )?
               | # three quarters past eleven
-                ( (?<rl> $rel_words ) \s+ ( a \s+ )? )?
+                ( ( (?<m2> $min_re ) \s+ minutes? \s+ )?
+                  (?<rl> $rel_words ) \s+ ( a \s+ )?
+                  ( the \s+ )?
+                )?
                   (?<mn> $fraction_re ) [-\s]+
                   (?<dir> $till_re ) \s+
                   (?<hr> $hour_re )
                 ( \s+ $oclock_re )?
-                ( \s+ (?<am> $ampm_re ) )?
+                ( ,? \s+ (?<am> $ampm_re ) )?
               | # three o'clock
                 ( (?<rl> $rel_words ) \s+ )?
                   (?<hr> $hour_re ) \??
-                  \s+ $oclock_re
-                ( \s+ (?<am> $ampm_re ) )?
-                ( \s+ and \s+
+                  [-\s]+ $oclock_re
+                ( ,? \s+ (?<am> $ampm_re ) )?
+                ( \s+ ( and \s+ )?
                   (?<mn> $min_re | $fraction_re ) \s*
                   minutes?
                 )?
+              | # One hour and a quarter
+                ( (?<rl> $rel_words ) \s+ )?
+                  (?<hr> $hour_re ) \s+ hours? \s+ and \s+ a \s+
+                  (?<mn> $fraction_re )
+                ( ,? \s+ (?<am> $ampm_re ) )?
+              | # one ... thirty ... four
+                ( (?<rl> $rel_words ) \s+ )?
+                  (?<hr> $hour24_word_re ) ( [\s\.]+ | [-] )
+                  (?<mn> $min_word_re )
+                ( \s* ... \s* (?<m2> $low_num_re ) )?
+                ( \s+ $oclock_re )?
+                ( ,? \s+ (?<am> $ampm_re ) )?
+              | # Two minutes before the clock struck noon
+                  (?<mn> $min_word_re ) \s+ minutes? \s+
+                  (?<dir> $till_re ) \s+
+                ( the \s+ clock \s+ struck \s+ )?
+                  (?<hr> $hour24_re )
+                ( \s+ $oclock_re )?
+                ( ,? \s+ (?<am> $ampm_re ) )?
               )
               \z}xin)
         {
             $time =
                 join(" ",
                      map { defined ? $_ : () }
-                     $+{rl}, $+{hr}, $+{mn}, $+{am}, $+{dir});
+                     $+{rl}, $+{hr}, $+{mn}, $+{m2}, $+{am}, $+{dir});
         }
 
         push @times, $time

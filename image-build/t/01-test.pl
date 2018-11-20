@@ -108,8 +108,13 @@ sub check_extract {
             my @times = extract_times($string);
             my @matches = $string =~ m{<< ([^|>]+) [|] \d+ \w? (?: :\d)? >>}xg;
 
-            is(int(@times), int(@matches), "Extract: ". join(", ", map {"'$_'"} @matches));
-
+            if ($match == 1) {
+                is(int(@times), int(@matches), "Extract: ". join(", ", map {"'$_'"} @matches));
+            }
+            elsif ($match == -1) {
+                local $TODO = "should work";
+                is(int(@times), int(@matches), "Extract: ". join(", ", map {"'$_'"} @matches));
+            }
         }
     };
 }
