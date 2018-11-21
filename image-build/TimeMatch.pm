@@ -82,7 +82,13 @@ my $hour12_re = qr{ $hour12_dig_re | $hour12_word_re }xin;
 my $hour24_re = qr{ $hour24_dig_re | $hour24_word_re }xin;
 
 # The am / pm permutations
-my $ampm_re = qr{ [ap]m \b | [ap][.] \s* m[.]? | pee \s+ em }xin;
+my $in_the_re = qr{ ( in \s+ the \s+ ( (?! same) \w+ \s+ ){0,4}?
+                      ( morning | mornin['‘’]? | morn | afternoon | evening | eve | day )
+                    | at \s+ ( dawn | dusk | night | sunset | sunrise )
+                    )
+                  }xin;
+my $ampm_only_re = qr{ [ap]m \b | [ap][.] \s* m[.]? | pee \s+ em | $in_the_re }xin;
+my $ampm_re = qr{ $ampm_only_re | $in_the_re }xin;
 
 # Oclocks
 my $oclock_re = qr{ o( ['‘’´] \s* | f \s+ the \s+ )?clock s? }xin;
@@ -273,6 +279,7 @@ sub get_masks {
     # odds of five to one
     push @r,qr{ (?<pr> \s+ odds \s+ of \s+ )
                 (?<t1> $min_re \s+ to \s+ $min_re )
+                (?! ,? \s* $ampm_re)
                 \b
                 (?{ $branch = "xx"; })
               }xin;
@@ -285,6 +292,7 @@ sub get_masks {
     # I was one of twenty
     push @r,qr{ (?<pr> \s+ )
                 (?<t1> one \s+ of \s+ $min_re )
+                (?! ,? \s* $ampm_re)
                 \b
                 (?{ $branch = "xx"; })
               }xin;
@@ -415,15 +423,15 @@ sub get_matches {
                      ( \w+ \s+ )?
                      $hour_word_re
                    )
-                   (?<po>
-                         ( \s+ ( at | in ) \s+ the
-                      |  ,? \s* $ampm_re
-                      |  \s+ the  \s+ ( next | following ) \s+ $timeday_re
-                      |  \s+ for  \s+ ( breakfast | lunch | dinner | luncheon | tea )
-                      |  \s+ on   \s+ ( the \s+ )? $weekday_re
-                      |  \s+ that \s+ $timeday_re
-                      |  \s+ ( tonight | today | tomorrow )
-                     )
+                    ( (?<t2> \s+ $in_the_re ) \b
+                    | (?<t2> ,? \s* $ampm_re )
+                    | (?<po>
+                        \s+ the  \s+ ( next | following ) \s+ $timeday_re
+                      | \s+ for  \s+ ( breakfast | lunch | dinner | luncheon | tea )
+                      | \s+ on   \s+ ( the \s+ )? $weekday_re
+                      | \s+ that \s+ $timeday_re
+                      | \s+ ( tonight | today | tomorrow )
+                      )
                    )
                    $ba_re
                  (?{ $branch = "9h"})
@@ -434,13 +442,14 @@ sub get_matches {
                    (?<t1> ( ( $rel_words ( \s+ at )? | ( close \s+ )? upon ) \s+ )?
                      $hour_word_re
                    )
-                   (?<po> ( \s+ ( at | in ) \s+ the
-                      |  \s+ the  \s+ ( next | following ) \s+ $timeday_re
-                      |  \s+ for  \s+ ( breakfast | lunch | dinner | luncheon | tea )
-                      |  \s+ on   \s+ ( the \s+ )? $weekday_re
-                      |  \s+ that \s+ $timeday_re
-                      |  \s+ ( tonight | today | tomorrow )
-                     )
+                   ( (?<t2> \s+ $in_the_re ) \b
+                   | (?<po>
+                        \s+ the  \s+ ( next | following ) \s+ $timeday_re
+                      | \s+ for  \s+ ( breakfast | lunch | dinner | luncheon | tea )
+                      | \s+ on   \s+ ( the \s+ )? $weekday_re
+                      | \s+ that \s+ $timeday_re
+                      | \s+ ( tonight | today | tomorrow )
+                      )
                    ) $ba_re
                    (?{ $branch = "9a"; })
               }xin;
@@ -520,8 +529,10 @@ sub get_matches {
     push @r,qr{ $bb_re
                 (?<pr>
                   ( waited | arrive s? | called | expired
-                  | it \s+ ( is | was ) | twas | it['‘’]s | begin | end ) \s+
-                    ( ( exactly | precisely ) \s+ )?
+                  | it \s+ ( is | was ) | twas | it['‘’]s | begin | end
+                  | ( come | turn ) \s+ on
+                  ) \s+
+                  ( ( exactly | precisely ) \s+ )?
                   ( ( at | upon | till | until ) \s+ )?
                 )
                 (?<t1> ( $rel_words \s+ )?
@@ -606,6 +617,8 @@ sub get_matches {
 
     # Word times (other word times come later)
     # eleven fifty-six am
+    # three in the morning
+    # 1 pm, one p.m.
     push @r,qr{ (?<li> $not_in_match )
                 (?<t1> ( $rel_words \s+ )?
                   $hour_re
@@ -615,25 +628,6 @@ sub get_matches {
                 )
                 $ba_re
                 (?{ $branch = "5"})
-              }xin;
-
-    # PMs
-    # 1 pm, one p.m.
-    push @r,qr{ (?<li> $not_in_match )
-                (?<t1> $hour_re [?]? ,? \s* $ampm_re )
-                $ba_re
-                (?{ $branch = "7"})
-              }xin;
-
-    # three in the morning
-    push @r,qr{ $bb_re
-                (?<t1> ( $rel_words \s+ )?
-                  $hour_re [?]? ( [-\s.]+ $min_re)? )
-                (?<po> \s+ in \s+ the \s+
-                  ( morn | morning | afternoon | evening )
-                )
-                $ba_re
-                (?{ $branch = "8"})
               }xin;
 
     # at 1237 when
@@ -734,7 +728,7 @@ sub get_matches {
                   ( \A | ['"‘’“”] | [.…;:?!] \s+ )
                   ( at ) \s+
                 )
-                (?<t1> $hour_re ( ( [-:.] | \s+ )? $min0_re )? )
+                (?<t1> $hour_re ( ( [-:.] | \s+ )? $min0_re )? ( ,? \s* $ampm_re )? )
                 ( [-\s]+ $never_follow_times_re \b (*SKIP)(*FAIL) )?
                 $ba_re
                 (?{ $branch = "9m"})
@@ -979,6 +973,7 @@ sub extract_times {
                 | (?<rl> close \s+ upon ) \s+
                 )?
                   (?<hr> $hour_re )
+                ( ,? \s+ (?<am> $ampm_re ) )?
                 (?{ $branch = "2"})
               | # 0000h
                 ( (?<rl> $rel_at_words ) \s+ )?
@@ -1104,15 +1099,52 @@ sub extract_times {
 
             # If we got am or pm we can set the hour absolutely
             my $abs_hour = 0;
-            if (defined $ampm and $ampm =~ /^p/i) {
+            if (defined $ampm) {
                 $abs_hour = 1;
-                $hour += 12
-                    if $hour != 12;
+                my $pm = undef;
 
-                # But 12:00 am/pm is ambiguous let it be both
-                if ($hour == 12 and $min == 00) {
-                    $hour = 0;
-                    $abs_hour = 0;
+                if ($ampm =~ m{\A $in_the_re \z}xin) {
+                    # Work out the time
+                    if ($ampm =~ m{ morning | mornin['‘’]? | morn | dawn | sunrise }xi) {
+                        $pm = 0;
+                    } elsif ($ampm =~ m{ afternoon | evening | eve | dusk | sunset }xi) {
+                        $pm = 1;
+                    }
+                    elsif ($ampm =~ m{ day }xi) {
+                        # Day means 6AM to 6PM
+                        $hour += 12 if $hour <= 5;
+                    }
+                    elsif ($ampm =~ m{ night }xi) {
+                        # Night means 0-6AM and 6-12PM
+                        $hour += 12 if $hour >= 5 and $hour <= 12;
+                    }
+                    else {
+                        confess "Can't parse ampm '$ampm'";
+                    }
+                }
+                elsif ($ampm =~ m{\A $ampm_only_re \z}xin) {
+                    $pm = $ampm =~ /^p/i ? 1 : 0;
+                }
+                else {
+                    confess "Can't parse ampm '$ampm'";
+                }
+
+                if (defined $pm) {
+                    if ($hour == 12 and $min == 00) {
+                        # 12:00 am/pm is ambiguous let it be both
+                        $hour = 0;
+                        $abs_hour = 0;
+                    }
+                    elsif ($pm) {
+                        # PM
+                        $hour += 12
+                            if $hour != 12;
+                    } else {
+                        # AM
+                        if ($hour == 12) {
+                            $hour = 0;
+                        }
+                    }
                 }
             }
             elsif ($hour > 12 or $hour == 0) {
@@ -1136,6 +1168,9 @@ sub extract_times {
             if ($m3 !~ /^\d+$/) {
                 $min += min2num($m3);
             }
+
+            # If we are in the afternoon then we are absolute
+            $abs_hour = 1 if $hour > 12;
 
             # If the hour rolled, then we need to set it back
             $hour %= 24;

@@ -9,7 +9,6 @@ use TimeMatch;
 
 # prove t/01-test.pl |& egrep -E '^|<<[^>]+(>>|$)|^[^<>]+>>'
 
-if (0) {
 compare_strings(get_book_tests(), "book tests");
 compare_strings(get_csv_tests(),  "csv tests");
 
@@ -17,10 +16,8 @@ check_substring(get_csv_tests());
 
 check_extract(get_book_tests(), "book tests");
 check_extract(get_csv_tests(),  "csv tests");
-}
-else {
+
 check_extract_times(get_csv_tests());
-}
 
 done_testing;
 
@@ -270,8 +267,8 @@ It was <<six a.m.|5>>, and the fog seemed glued to the windows, so thick that it
           ],
           [
             1,
-            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - one-thirty',
-            "It was sunny, with a stiff breeze riffling the Lombardy poplars. We were delayed for about an hour, but I didn\x{2019}t mind. In fact, the longer we were delayed the better, since I was scheduled to get off the train at Jacobacci at the inconvenient hour of <<one-thirty|8>> in the morning. The connecting train to Esquel was not leaving until <<six AM|5>>, so it hardly mattered what time I got to Jacobacci."
+            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - one-thirty in the morning',
+            "It was sunny, with a stiff breeze riffling the Lombardy poplars. We were delayed for about an hour, but I didn\x{2019}t mind. In fact, the longer we were delayed the better, since I was scheduled to get off the train at Jacobacci at the inconvenient hour of <<one-thirty in the morning|5>>. The connecting train to Esquel was not leaving until <<six AM|5>>, so it hardly mattered what time I got to Jacobacci."
           ],
           [
             1,
@@ -285,14 +282,14 @@ It was <<six a.m.|5>>, and the fog seemed glued to the windows, so thick that it
           ],
           [
             1,
-            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - seven',
-            "I had arrived in Veracruz at <<seven|9a>> in the morning, found a hotel in the pretty Plaza Constitucion and gone for a walk. I had absolutely nothing to do: I did not know a soul in Veracruz, and the train to the Guatemalan border was not leaving for two days. Still, this did not seem a bad place. There are few tourist attractions in Veracruz; there is an old fort and, about two miles south, a beach. The guidebooks are circumspect about des-scribing this fairly ugly city: one calls it \x{2018}exuberant\x{2019}, another \x{2018}picturesque\x{2019}. It is a faded seaport, with slums and tacky modernity crowding the quaintly ruined buildings at its heart. Unlike any other Mexican city, it has pavement caf\x{e9}s, where forlorn children beg and marimba players complete the damage to your eardrums that was started on the descent from the heights of Orizaba. Mexicans treat stray children the way other people treat stray cats (Mexicans treat stray cats like vermin), taking them on their laps and buying them ice cream, all the while shouting to be heard over the noise of the marimbas."
+            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - seven in the morning',
+            "I had arrived in Veracruz at <<seven in the morning|9a>>, found a hotel in the pretty Plaza Constitucion and gone for a walk. I had absolutely nothing to do: I did not know a soul in Veracruz, and the train to the Guatemalan border was not leaving for two days. Still, this did not seem a bad place. There are few tourist attractions in Veracruz; there is an old fort and, about two miles south, a beach. The guidebooks are circumspect about des-scribing this fairly ugly city: one calls it \x{2018}exuberant\x{2019}, another \x{2018}picturesque\x{2019}. It is a faded seaport, with slums and tacky modernity crowding the quaintly ruined buildings at its heart. Unlike any other Mexican city, it has pavement caf\x{e9}s, where forlorn children beg and marimba players complete the damage to your eardrums that was started on the descent from the heights of Orizaba. Mexicans treat stray children the way other people treat stray cats (Mexicans treat stray cats like vermin), taking them on their laps and buying them ice cream, all the while shouting to be heard over the noise of the marimbas."
           ],
           [
             1,
             "The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - eleven o\x{2019}clock",
             "
-\x{2018}Pomp and Circumstance\x{2019}? In Veracruz? At <<eleven o\x{2019}clock|6>> at night?"
+\x{2018}Pomp and Circumstance\x{2019}? In Veracruz? At <<eleven o\x{2019}clock at night|6>>?"
           ],
           [
             1,
@@ -311,8 +308,8 @@ It was <<six a.m.|5>>, and the fog seemed glued to the windows, so thick that it
           ],
           [
             1,
-            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - seven',
-            "The Rimac river flowed past the railway station. At <<seven|9a>> in the morning it was black; it became grey as the sun moved above the foothills of the Andes. The sandy mountains at the city\x{2019}s edge give Lima the feel of a desert city hemmed-in on one side by hot plateaux. It is only a few miles from the Pacific Ocean, but the land is too flat to permit a view of the sea, and there are no sea breezes in the day-time. It seldom rains in Lima. If it did, the huts \x{2013} several thousand of them \x{2013} in the shanty town on the bank of the Rimac would need roofs. The slum is odd in another way; besides being entirely roofless, the huts in this (to use the Peruvian euphemism) \x{2018}young village\x{2019} are woven from straw and split bamboo and cane. They are small frail baskets, open to the stars and sun, and planted beside the river which, some miles from the station, is cocoa-coloured. The people wash in this river water; they drink it and cook with it; and when their dogs die, or there are chickens\x{2019} entrails to be disposed of, the river receives this refuse."
+            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - seven in the morning',
+            "The Rimac river flowed past the railway station. At <<seven in the morning|9a>> it was black; it became grey as the sun moved above the foothills of the Andes. The sandy mountains at the city\x{2019}s edge give Lima the feel of a desert city hemmed-in on one side by hot plateaux. It is only a few miles from the Pacific Ocean, but the land is too flat to permit a view of the sea, and there are no sea breezes in the day-time. It seldom rains in Lima. If it did, the huts \x{2013} several thousand of them \x{2013} in the shanty town on the bank of the Rimac would need roofs. The slum is odd in another way; besides being entirely roofless, the huts in this (to use the Peruvian euphemism) \x{2018}young village\x{2019} are woven from straw and split bamboo and cane. They are small frail baskets, open to the stars and sun, and planted beside the river which, some miles from the station, is cocoa-coloured. The people wash in this river water; they drink it and cook with it; and when their dogs die, or there are chickens\x{2019} entrails to be disposed of, the river receives this refuse."
           ],
           [
             1,
@@ -326,7 +323,7 @@ It was <<six a.m.|5>>, and the fog seemed glued to the windows, so thick that it
           ],
           [
             1,
-            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - six',
+            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - six in the morning',
             "
 
 
@@ -338,17 +335,17 @@ It was <<six a.m.|5>>, and the fog seemed glued to the windows, so thick that it
 
 
 
-It was a brutal city, but at <<six|9a>> in the morning a froth of fog endowed it with a secrecy and gave it the simplicity of a mountain-top. Before the sun rose to burn it away, the fog dissolved the dull straight lines of its streets, and whitened its low houses and made its sombre people ghostly as they appeared for moments before being lifted away, like revengers glimpsed in their hauntings. Then Guatemala City, such a grim thing, became a tracing, a sketch without substance, and the poor Indians and peasants \x{2013} who had no power \x{2013} looked blue and bold and watchful. They possessed it at this hour. There was no wind; the fog hung in fine grey clouds, a foot from the ground. Even the railway station, no more than a brick shed, took on the character of a great terminus: there was no way of verifying that it did not rise up for five stories in a clock tower crowned by pigeons and iron-work, so well hidden was its small tin roof by the fog the volcanoes had trapped. There were about twenty people standing near the ticket window of the station \x{2013} in rags; but their rags seemed just another deception of the fog."
+It was a brutal city, but at <<six in the morning|9a>> a froth of fog endowed it with a secrecy and gave it the simplicity of a mountain-top. Before the sun rose to burn it away, the fog dissolved the dull straight lines of its streets, and whitened its low houses and made its sombre people ghostly as they appeared for moments before being lifted away, like revengers glimpsed in their hauntings. Then Guatemala City, such a grim thing, became a tracing, a sketch without substance, and the poor Indians and peasants \x{2013} who had no power \x{2013} looked blue and bold and watchful. They possessed it at this hour. There was no wind; the fog hung in fine grey clouds, a foot from the ground. Even the railway station, no more than a brick shed, took on the character of a great terminus: there was no way of verifying that it did not rise up for five stories in a clock tower crowned by pigeons and iron-work, so well hidden was its small tin roof by the fog the volcanoes had trapped. There were about twenty people standing near the ticket window of the station \x{2013} in rags; but their rags seemed just another deception of the fog."
           ],
           [
             1,
-            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - ten',
-            "I did have one fear: that the train would stop, just like that, no warning, no station; that the engine would seize up in the heat and that we would be stuck here. It had happened on what was regarded as a fine railway a hundred miles out of Veracruz, and the Mexicans had no explanation. This railway was clearly much older, the engine more of a gasper. And suppose it does, I thought, suppose it just stops here and can\x{2019}t start? It was <<ten|9a>> in the morning, the open cars were full of people, the train carried no water, there was no road for miles, nor was there any shade. How long did it take to die? I guessed it would not take long in this boundless desert."
+            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - ten in the morning',
+            "I did have one fear: that the train would stop, just like that, no warning, no station; that the engine would seize up in the heat and that we would be stuck here. It had happened on what was regarded as a fine railway a hundred miles out of Veracruz, and the Mexicans had no explanation. This railway was clearly much older, the engine more of a gasper. And suppose it does, I thought, suppose it just stops here and can\x{2019}t start? It was <<ten in the morning|9a>>, the open cars were full of people, the train carried no water, there was no road for miles, nor was there any shade. How long did it take to die? I guessed it would not take long in this boundless desert."
           ],
           [
             1,
-            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - six-thirty',
-            "\x{2018}Yes, there is a train to Metapan in two days \x{2013} on Wednesday. At <<six-thirty|8>> in the morning. Do you want a ticket?\x{2019}"
+            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - six-thirty in the morning',
+            "\x{2018}Yes, there is a train to Metapan in two days \x{2013} on Wednesday. At <<six-thirty in the morning|5>>. Do you want a ticket?\x{2019}"
           ],
           [
             1,
@@ -425,12 +422,12 @@ It was not necessary for Otto to wake me up; the dust did that. It filled my com
           [
             1,
             'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - two',
-            "That express train \x{2013} and how I yearned to be back on it \x{2013} had blurred distance and altitude. The statistics were given at Jacobacci. We were over a thousand miles from Buenos Aires, and since Carmen de Patagones, which was at sea-level, we had climbed to over 3,000 feet, on a plateau that did not descend again until the Straits of Magellan. In this wind, at this altitude, at this time of night \x{2013} <<two|8>> in the morning \x{2013} it was very cold in Jacobacci. No one stops at Jacobacci, people had said. I could disprove that. Passengers had got off the train. I assumed that, like me, they would be waiting for the train to Esquel. I looked around for them. They were gone."
+            "That express train \x{2013} and how I yearned to be back on it \x{2013} had blurred distance and altitude. The statistics were given at Jacobacci. We were over a thousand miles from Buenos Aires, and since Carmen de Patagones, which was at sea-level, we had climbed to over 3,000 feet, on a plateau that did not descend again until the Straits of Magellan. In this wind, at this altitude, at this time of night \x{2013} <<two in the morning|5>> \x{2013} it was very cold in Jacobacci. No one stops at Jacobacci, people had said. I could disprove that. Passengers had got off the train. I assumed that, like me, they would be waiting for the train to Esquel. I looked around for them. They were gone."
           ],
           [
             1,
             'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - nearly three',
-            'If only he had said, Want to hear something strange? He was old enough to know a good story. But he was half asleep, and it was cold, and <<nearly three|9h>> in the morning. So I left him alone and went outside. I walked up the tracks, away from the lights of the station. The wind in the thorn bushes rasped like sand in a chute. The air smelled of dust. The moon on the bushes shone blue across the bumpy monotony of Patagonia.'
+            'If only he had said, Want to hear something strange? He was old enough to know a good story. But he was half asleep, and it was cold, and <<nearly three in the morning|9h>>. So I left him alone and went outside. I walked up the tracks, away from the lights of the station. The wind in the thorn bushes rasped like sand in a chute. The air smelled of dust. The moon on the bushes shone blue across the bumpy monotony of Patagonia.'
           ],
           [
             1,
@@ -566,18 +563,18 @@ It was not necessary for Otto to wake me up; the dust did that. It filled my com
 
 
 
-Peru is the poorest country in South America. Peru is also the country most visited by tourists. The two facts are related; even the dimmest tourist can count in Spanish \x{2013} low numbers especially trip off his tongue \x{2013} and he knows that Peru\x{2019}s gigantic ruins and threadbare currency are a bargain. The student I had met in Huancayo was right: there were some Quechua Indians on the plane to Cuzco, but the others were all tourists. They had arrived in Lima the day before and had been whisked around the city. In their hotel was a schedule: \x{2018}<<4:00 AM|2a>> \x{2013} Wake-Up Call! <<4:45 AM|2a>> \x{2013} Luggage in Corridor! <<5:00|2>> \x{2013} Breakfast! <<5:30|2>> \x{2013} Meet in Lobby!\x{2026}\x{2019} At <<eight|9a>> in the morning, some men with shaving cream still stuck to their earlobes, they arrived in Cuzco and fought their way past the Indians (who carried tin pots and greasy bundles of food and lanterns, much as they had on the train) to a waiting bus, congratulating themselves on the cheapness of the place. They are unaware that it is almost axiomatic that air travel has wished tourists on only the most moth-eaten countries in the world: tourism, never more energetically pursued than in static societies, is usually the mobile rich making a blind blundering visitation on the inert poor."
+Peru is the poorest country in South America. Peru is also the country most visited by tourists. The two facts are related; even the dimmest tourist can count in Spanish \x{2013} low numbers especially trip off his tongue \x{2013} and he knows that Peru\x{2019}s gigantic ruins and threadbare currency are a bargain. The student I had met in Huancayo was right: there were some Quechua Indians on the plane to Cuzco, but the others were all tourists. They had arrived in Lima the day before and had been whisked around the city. In their hotel was a schedule: \x{2018}<<4:00 AM|2a>> \x{2013} Wake-Up Call! <<4:45 AM|2a>> \x{2013} Luggage in Corridor! <<5:00|2>> \x{2013} Breakfast! <<5:30|2>> \x{2013} Meet in Lobby!\x{2026}\x{2019} At <<eight in the morning|9a>>, some men with shaving cream still stuck to their earlobes, they arrived in Cuzco and fought their way past the Indians (who carried tin pots and greasy bundles of food and lanterns, much as they had on the train) to a waiting bus, congratulating themselves on the cheapness of the place. They are unaware that it is almost axiomatic that air travel has wished tourists on only the most moth-eaten countries in the world: tourism, never more energetically pursued than in static societies, is usually the mobile rich making a blind blundering visitation on the inert poor."
           ],
           [
             1,
             'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - four',
-            "The visitors wore badges, Samba South America; the badges also served as name-tags. At this early hour in the thin grey air and high altitude drizzle, the haggard faces did not match the tittupping names: Hildy Wicker, Bert and Elvera Howie, Charles P. Clapp, Morrie Upbraid, the Prells, the Goodchucks, Bernie Khoosh, the Avatarians, Jack Hammerman, Nick and Lurleen Poznan, Harold and Winnie Casey, the Lewgards, Wally Clemons, and little old Merry Mackworth. They were a certain age; they had humps and braces and wooden legs and two walked with crutches \x{2013} amazing to see this performance in the high Andes \x{2013} and none looked well. What with the heat in Lima and the cold here, the delays, the shuffling up and down stairs \x{2013} and they had yet to climb the vertical Inca staircases (\x{2018}I don\x{2019}t know which is worse, going up or going down\x{2019}) \x{2013} they were suffering. You had to admire them, because in two days they would be on the same plane flying back to Lima, waking again at <<four|9a>> in the morning, and that day arriving in another godawful place like Guayaquil or Cali."
+            "The visitors wore badges, Samba South America; the badges also served as name-tags. At this early hour in the thin grey air and high altitude drizzle, the haggard faces did not match the tittupping names: Hildy Wicker, Bert and Elvera Howie, Charles P. Clapp, Morrie Upbraid, the Prells, the Goodchucks, Bernie Khoosh, the Avatarians, Jack Hammerman, Nick and Lurleen Poznan, Harold and Winnie Casey, the Lewgards, Wally Clemons, and little old Merry Mackworth. They were a certain age; they had humps and braces and wooden legs and two walked with crutches \x{2013} amazing to see this performance in the high Andes \x{2013} and none looked well. What with the heat in Lima and the cold here, the delays, the shuffling up and down stairs \x{2013} and they had yet to climb the vertical Inca staircases (\x{2018}I don\x{2019}t know which is worse, going up or going down\x{2019}) \x{2013} they were suffering. You had to admire them, because in two days they would be on the same plane flying back to Lima, waking again at <<four in the morning|9a>>, and that day arriving in another godawful place like Guayaquil or Cali."
           ],
           [
             1,
             "The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - four o\x{2019}clock",
             "
-At <<four o\x{2019}clock|6>> every weekday morning the Cuzco church bells ring. They ring again at <<4:15|2>> and <<4:30|2>>. Because there are so many churches, and the valley is walled-in by mountains, the tolling of church bells, from <<four to five|10>> in the morning, has a celebratory sound. They summon all people to mass, but only Indians respond. They flock to <<five o\x{2019}clock|6>> mass in the Cathedral, and <<just before six|10>> the great doors of the Cathedral open on the cold cloudy mountain dawn and hundreds of Indians pour into the plaza, so many of them in bright red ponchos that the visual effect is of a fiesta about to begin. They look happy; they have performed a sacrament. All Catholics leave mass feeling light-hearted, and though these Indians are habitually dour \x{2013} their faces wrinkled into frowns \x{2013} at this early hour after mass most of them are smiling."
+At <<four o\x{2019}clock|6>> every weekday morning the Cuzco church bells ring. They ring again at <<4:15|2>> and <<4:30|2>>. Because there are so many churches, and the valley is walled-in by mountains, the tolling of church bells, from <<four to five in the morning|10>>, has a celebratory sound. They summon all people to mass, but only Indians respond. They flock to <<five o\x{2019}clock|6>> mass in the Cathedral, and <<just before six|10>> the great doors of the Cathedral open on the cold cloudy mountain dawn and hundreds of Indians pour into the plaza, so many of them in bright red ponchos that the visual effect is of a fiesta about to begin. They look happy; they have performed a sacrament. All Catholics leave mass feeling light-hearted, and though these Indians are habitually dour \x{2013} their faces wrinkled into frowns \x{2013} at this early hour after mass most of them are smiling."
           ],
           [
             1,
@@ -617,7 +614,7 @@ At <<four o\x{2019}clock|6>> every weekday morning the Cuzco church bells ring. 
           [
             1,
             'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - six',
-            'I slept for twelve hours. I woke again at <<six|9a>> in the morning, and saw that we had come to a station. There were three poplars outside the window. In the early afternoon I woke again. The three poplars were still outside the window. We had not moved.'
+            'I slept for twelve hours. I woke again at <<six in the morning|9a>>, and saw that we had come to a station. There were three poplars outside the window. In the early afternoon I woke again. The three poplars were still outside the window. We had not moved.'
           ],
           [
             1,
@@ -683,7 +680,7 @@ Romance brought up the <<nine-fifteen|5a:0>>."
           [
             1,
             'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - six',
-            "There were thieves, people told me, at the railway stations, at the bus stations, in the markets, the parks, on the hill paths, on the back streets, on the main streets. When I asked directions to a particular part of town, no directions were given. \x{2018}Do not go,\x{2019} they said. On the Expreso de Sol, I was told Bogot\x{e1} was dangerous. In Bogot\x{e1} I said I was going to Armenia. \x{2018}Do not go \x{2013} it is dangerous.\x{2019} The railway station? \x{2018}Dangerous.\x{2019} But the train was leaving at <<six|9a>> in the morning. \x{2018}That is the worst time \x{2013} the thieves will rob you in the dark.\x{2019} How, then, should I get to Cali? \x{2018}Do not go to Cali \x{2013} Cali is more dangerous than Armenia.\x{2019}"
+            "There were thieves, people told me, at the railway stations, at the bus stations, in the markets, the parks, on the hill paths, on the back streets, on the main streets. When I asked directions to a particular part of town, no directions were given. \x{2018}Do not go,\x{2019} they said. On the Expreso de Sol, I was told Bogot\x{e1} was dangerous. In Bogot\x{e1} I said I was going to Armenia. \x{2018}Do not go \x{2013} it is dangerous.\x{2019} The railway station? \x{2018}Dangerous.\x{2019} But the train was leaving at <<six in the morning|9a>>. \x{2018}That is the worst time \x{2013} the thieves will rob you in the dark.\x{2019} How, then, should I get to Cali? \x{2018}Do not go to Cali \x{2013} Cali is more dangerous than Armenia.\x{2019}"
           ],
           [
             1,
@@ -784,7 +781,7 @@ Necessity kissed me with luck. There was no better way to leave the high plains 
           [
             1,
             'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - four',
-            "After the barrel-chested Indians living among wind-haunted rocks in the high plains, and the farmers in the tumbledown villages near the border, and the yawning cracked-open river valleys of the north, I was prepared for anything but Tucuman. It was gloomy, but gloom was part of the Argentine temper; it was not a dramatic blackness, but rather a dampness of soul, the hang-dog melancholy immigrants feel on rainy afternoons far from home. There was no desolation, and if there were barbarities they remained dark secrets and were enacted in the torture chambers of the police stations or in the cramped workers\x{2019} quarters of the sugar planations. It was <<four|9a>> in the afternoon before I found a bar \x{2013} Tucuman was that proper."
+            "After the barrel-chested Indians living among wind-haunted rocks in the high plains, and the farmers in the tumbledown villages near the border, and the yawning cracked-open river valleys of the north, I was prepared for anything but Tucuman. It was gloomy, but gloom was part of the Argentine temper; it was not a dramatic blackness, but rather a dampness of soul, the hang-dog melancholy immigrants feel on rainy afternoons far from home. There was no desolation, and if there were barbarities they remained dark secrets and were enacted in the torture chambers of the police stations or in the cramped workers\x{2019} quarters of the sugar planations. It was <<four in the afternoon|9a>> before I found a bar \x{2013} Tucuman was that proper."
           ],
           [
             1,
@@ -794,7 +791,7 @@ Necessity kissed me with luck. There was no better way to leave the high plains 
           [
             1,
             "The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - three o\x{2019}clock",
-            "There was a hint of this cultural overlay in the composition of the city. The pink-flowered \x{2018}drunken branch\x{2019} trees of the pampas grew in the parks, but the parks were English and Italian, and this told in their names, Britannia Park, Palermo Park. The downtown section was architecturally French, the industrial parts German, the harbour Italian. Only the scale of the city was American; its dimensions, its sense of space, gave it a familiarity. It was a clean city. No one slept in its doorways or parks \x{2013} this, in a South American context, is almost shocking to behold. I found the city safe to walk in at all hours and at <<three o\x{2019}clock|6>> in the morning there were still crowds in the streets. Because of the day-time humidity, groups of boys played football in the floodlit parks until <<well after midnight|13>>. It was a city without significant Indian population \x{2013} few, it seemed, strayed south of Tucuman, and what Indians existed came from Paraguay, or just across the Rio de la Plata in Uruguay. They worked as domestics, they lived in outlying slums, they were given little encouragement to stay."
+            "There was a hint of this cultural overlay in the composition of the city. The pink-flowered \x{2018}drunken branch\x{2019} trees of the pampas grew in the parks, but the parks were English and Italian, and this told in their names, Britannia Park, Palermo Park. The downtown section was architecturally French, the industrial parts German, the harbour Italian. Only the scale of the city was American; its dimensions, its sense of space, gave it a familiarity. It was a clean city. No one slept in its doorways or parks \x{2013} this, in a South American context, is almost shocking to behold. I found the city safe to walk in at all hours and at <<three o\x{2019}clock in the morning|6>> there were still crowds in the streets. Because of the day-time humidity, groups of boys played football in the floodlit parks until <<well after midnight|13>>. It was a city without significant Indian population \x{2013} few, it seemed, strayed south of Tucuman, and what Indians existed came from Paraguay, or just across the Rio de la Plata in Uruguay. They worked as domestics, they lived in outlying slums, they were given little encouragement to stay."
           ],
           [
             1,
@@ -947,8 +944,8 @@ sub get_csv_tests {
           ],
           [
             1,
-            'Timestr [00:00]: twelve o\'clock',
-            'To begin my life with the beginning of my life, I record that I was born (as I have been informed an believe) on a Friday, at <<twelve o\'clock|6>> at night. It was remarked that the clock began to strike, and I began to cry, simultaneously.'
+            'Timestr [00:00]: twelve o\'clock at night',
+            'To begin my life with the beginning of my life, I record that I was born (as I have been informed an believe) on a Friday, at <<twelve o\'clock at night|6>>. It was remarked that the clock began to strike, and I began to cry, simultaneously.'
           ],
           [
             1,
@@ -1177,8 +1174,8 @@ sub get_csv_tests {
           ],
           [
             1,
-            'Timestr [00:55]: five to one',
-            'He rolled one way, rolled the other, listened to the loud tick of the clock, and was asleep a minute later. <<Five to one|10>> in the morning. Fifty-one hours to go.'
+            'Timestr [00:55]: five to one in the morning',
+            'He rolled one way, rolled the other, listened to the loud tick of the clock, and was asleep a minute later. <<Five to one in the morning|10>>. Fifty-one hours to go.'
           ],
           [
             1,
@@ -1197,8 +1194,8 @@ sub get_csv_tests {
           ],
           [
             1,
-            'Timestr [00:58]: almost at one',
-            'It was downright shameless on his part to come visiting them, especially at night, <<almost at one|9h>> in the morning, after all that had happened.'
+            'Timestr [00:58]: almost at one in the morning',
+            'It was downright shameless on his part to come visiting them, especially at night, <<almost at one in the morning|9h>>, after all that had happened.'
           ],
           [
             1,
@@ -1222,8 +1219,8 @@ sub get_csv_tests {
           ],
           [
             1,
-            'Timestr [01:00]: one',
-            'I\'m the only one awake in this house on this night before the day that will change all our lives. Though it\'s already that day: the little luminous hands on my alarm clock (which I haven\'t set) show just gone <<one|8>> in the morning.'
+            'Timestr [01:00]: one in the morning',
+            'I\'m the only one awake in this house on this night before the day that will change all our lives. Though it\'s already that day: the little luminous hands on my alarm clock (which I haven\'t set) show just gone <<one in the morning|5>>.'
           ],
           [
             1,
@@ -1237,8 +1234,8 @@ sub get_csv_tests {
           ],
           [
             1,
-            'Timestr [01:00]: one o\'clock',
-            'The station was more crowded than he had expected to find it at - what was it? he looked up at the clock - <<one o\'clock|6>> in the morning. What in the name of God was he doing on King\'s Cross station at <<one o\'clock|6>> in the morning, with no cigarette and no home that he could reasonably expect to get into without being hacked to death by a homicidal bird?'
+            'Timestr [01:00]: one o\'clock in the morning',
+            'The station was more crowded than he had expected to find it at - what was it? he looked up at the clock - <<one o\'clock in the morning|6>>. What in the name of God was he doing on King\'s Cross station at <<one o\'clock in the morning|6>>, with no cigarette and no home that he could reasonably expect to get into without being hacked to death by a homicidal bird?'
           ],
           [
             1,
@@ -1257,8 +1254,8 @@ sub get_csv_tests {
           ],
           [
             1,
-            'Timestr [01:09]: nine minutes past one o\'clock',
-            'They made an unostentatious exit from their coach, finding themselves, when the express had rolled on into the west, upon a station platform in a foreign city at <<nine minutes past one o\'clock|10>> in the morning - but at length without their shadow.'
+            'Timestr [01:09]: nine minutes past one o\'clock in the morning',
+            'They made an unostentatious exit from their coach, finding themselves, when the express had rolled on into the west, upon a station platform in a foreign city at <<nine minutes past one o\'clock in the morning|10>> - but at length without their shadow.'
           ],
           [
             1,
@@ -1277,8 +1274,8 @@ sub get_csv_tests {
           ],
           [
             1,
-            'Timestr [01:15]: about a quarter past one o\'clock',
-            'I am sorry, therefore, as I have said, that I ever paid any attention to the footsteps. They began <<about a quarter past one o\'clock|10>> in the morning, a rhythmic, quick-cadenced walking around the dining-room table.'
+            'Timestr [01:15]: about a quarter past one o\'clock in the morning',
+            'I am sorry, therefore, as I have said, that I ever paid any attention to the footsteps. They began <<about a quarter past one o\'clock in the morning|10>>, a rhythmic, quick-cadenced walking around the dining-room table.'
           ],
           [
             1,
@@ -1287,8 +1284,8 @@ sub get_csv_tests {
           ],
           [
             1,
-            'Timestr [01:15]: about a quarter past one o\'clock',
-            'The ghost that got into our house on the night of November 17, 1915, raised such a hullabaloo of misunderstandings that I am sorry I didn\'t just let it keep on walking, and go to bed. Its advent caused my mother to throw a shoe through a window of the house next door and ended up with my grandfather shooting a patrolman. I am sorry, therefore, as I have said, that I ever paid any attention to the footsteps. They began <<about a quarter past one o\'clock|10>> in the morning, a rhythmic, quick-cadenced walking around the dining-room table.'
+            'Timestr [01:15]: about a quarter past one o\'clock in the morning',
+            'The ghost that got into our house on the night of November 17, 1915, raised such a hullabaloo of misunderstandings that I am sorry I didn\'t just let it keep on walking, and go to bed. Its advent caused my mother to throw a shoe through a window of the house next door and ended up with my grandfather shooting a patrolman. I am sorry, therefore, as I have said, that I ever paid any attention to the footsteps. They began <<about a quarter past one o\'clock in the morning|10>>, a rhythmic, quick-cadenced walking around the dining-room table.'
           ],
           [
             1,
@@ -1302,8 +1299,8 @@ sub get_csv_tests {
           ],
           [
             1,
-            'Timestr [01:17]: seventeen minutes past one',
-            'At that moment (it was <<seventeen minutes past one|10>> in the morning) Lieutenant Bronsfield was preparing to leave the watch and return to his cabin, when his attention was attracted by a distant hissing noise.'
+            'Timestr [01:17]: seventeen minutes past one in the morning',
+            'At that moment (it was <<seventeen minutes past one in the morning|10>>) Lieutenant Bronsfield was preparing to leave the watch and return to his cabin, when his attention was attracted by a distant hissing noise.'
           ],
           [
             1,
@@ -1312,8 +1309,8 @@ sub get_csv_tests {
           ],
           [
             1,
-            'Timestr [01:20]: twenty minutes past one o\'clock',
-            '"Well!" she said, looking like a minor female prophet about to curse the sins of the people. "May I trespass on your valuable time long enough to ask what in the name of everything bloodsome you think you\'re playing at, young piefaced Bertie? It is now some <<twenty minutes past one o\'clock|10>> in the morning, and not a spot of action on your part."'
+            'Timestr [01:20]: twenty minutes past one o\'clock in the morning',
+            '"Well!" she said, looking like a minor female prophet about to curse the sins of the people. "May I trespass on your valuable time long enough to ask what in the name of everything bloodsome you think you\'re playing at, young piefaced Bertie? It is now some <<twenty minutes past one o\'clock in the morning|10>>, and not a spot of action on your part."'
           ],
           [
             1,
@@ -1372,8 +1369,8 @@ sub get_csv_tests {
           ],
           [
             1,
-            'Timestr [01:30]: one thirty',
-            'The late hour helped. It simplified things. It categorized the population. Innocent bystanders were mostly home in bed. I walked for half an hour, but nothing happened. Until <<one thirty|8>> in the morning. Until I looped around to 22nd and Broadway.'
+            'Timestr [01:30]: one thirty in the morning',
+            'The late hour helped. It simplified things. It categorized the population. Innocent bystanders were mostly home in bed. I walked for half an hour, but nothing happened. Until <<one thirty in the morning|5>>. Until I looped around to 22nd and Broadway.'
           ],
           [
             1,
@@ -1537,8 +1534,8 @@ sub get_csv_tests {
           ],
           [
             1,
-            'Timestr [02:18]: 2:18',
-            'It was <<2:18|2>> in the morning, and Donna could see no one else in any other office working so late.'
+            'Timestr [02:18]: 2:18 in the morning',
+            'It was <<2:18 in the morning|2a>>, and Donna could see no one else in any other office working so late.'
           ],
           [
             1,
@@ -1637,8 +1634,8 @@ sub get_csv_tests {
           ],
           [
             1,
-            'Timestr [02:37]: thirty-seven minutes past two',
-            'June 13, 1990. <<Thirty-seven minutes past two|10>> in the morning. And sixteen seconds.'
+            'Timestr [02:37]: thirty-seven minutes past two in the morning',
+            'June 13, 1990. <<Thirty-seven minutes past two in the morning|10>>. And sixteen seconds.'
           ],
           [
             1,
@@ -1692,8 +1689,8 @@ sub get_csv_tests {
           ],
           [
             1,
-            'Timestr [03:00]: Three',
-            "<<Three a.m.|5>> That\x{2019}s our reward. <<Three|8>> in the morn. The soul\x{2019}s <<midnight|13>>. The tide goes out, the soul ebbs. And a train arrives at an hour of despair. Why?"
+            'Timestr [03:00]: Three in the morn',
+            "<<Three a.m.|5>> That\x{2019}s our reward. <<Three in the morn|5>>. The soul\x{2019}s <<midnight|13>>. The tide goes out, the soul ebbs. And a train arrives at an hour of despair. Why?"
           ],
           [
             1,
@@ -1707,18 +1704,18 @@ sub get_csv_tests {
           ],
           [
             1,
-            'Timestr [03:00]: three o\' clock',
-            'At <<three o\' clock|6>> in the morning Eurydice is bound to come into it. After all, why did I sit here like a telegrapher at a lost outpost if not to receive messages from everywhere about the lost Eurydice who was never mine to begin with but whom I lamented and sought continually both professionally and amateurishly. This is not a digression. Where I am at <<three o\' clock|6>> in the morning - and by now every hour is <<three o\' clock|6>> in the morning - there are no digressions, it\'s all one thing.'
+            'Timestr [03:00]: three o\' clock in the morning',
+            'At <<three o\' clock in the morning|6>> Eurydice is bound to come into it. After all, why did I sit here like a telegrapher at a lost outpost if not to receive messages from everywhere about the lost Eurydice who was never mine to begin with but whom I lamented and sought continually both professionally and amateurishly. This is not a digression. Where I am at <<three o\' clock in the morning|6>> - and by now every hour is <<three o\' clock in the morning|6>> - there are no digressions, it\'s all one thing.'
           ],
           [
             1,
-            "Timestr [03:00]: three o\x{2019}clock",
-            "But at <<three o\x{2019}clock|6>> in the morning, a forgotten package has the same tragic importance as a death sentence, and the cure doesn\x{2019}t work -- and in a real dark night of the soul it is always <<three o\x{2019}clock|6>> in the morning, day after day."
+            "Timestr [03:00]: three o\x{2019}clock in the morning",
+            "But at <<three o\x{2019}clock in the morning|6>>, a forgotten package has the same tragic importance as a death sentence, and the cure doesn\x{2019}t work -- and in a real dark night of the soul it is always <<three o\x{2019}clock in the morning|6>>, day after day."
           ],
           [
             1,
-            'Timestr [03:00]: three o\'clock',
-            'Early mornings, my mother is about, drifting in her pale nightie, making herself a cup of tea in the kitchen. Water begins to boil in the kettle; it starts as a private, secluded sound, pure as rain, and grows to a steady, solipsistic bubbling. Not till she has had one cup of tea, so weak that it has a colour accidentally golden, can she begin her day. She is an insomniac. Her nights are wide-eyed and excited with worry. Even at <<three o\'clock|6>> in the morning one might hear her eating a Bain Marie biscuit in the kitchen.'
+            'Timestr [03:00]: three o\'clock in the morning',
+            'Early mornings, my mother is about, drifting in her pale nightie, making herself a cup of tea in the kitchen. Water begins to boil in the kettle; it starts as a private, secluded sound, pure as rain, and grows to a steady, solipsistic bubbling. Not till she has had one cup of tea, so weak that it has a colour accidentally golden, can she begin her day. She is an insomniac. Her nights are wide-eyed and excited with worry. Even at <<three o\'clock in the morning|6>> one might hear her eating a Bain Marie biscuit in the kitchen.'
           ],
           [
             1,
@@ -1727,8 +1724,8 @@ sub get_csv_tests {
           ],
           [
             1,
-            'Timestr [03:00]: 3 o\'clock',
-            'In a real dark night of the soul it is always <<3 o\'clock|6>> in the morning.'
+            'Timestr [03:00]: 3 o\'clock in the morning',
+            'In a real dark night of the soul it is always <<3 o\'clock in the morning|6>>.'
           ],
           [
             1,
@@ -1737,13 +1734,13 @@ sub get_csv_tests {
           ],
           [
             1,
-            'Timestr [03:00]: three',
-            'It was <<three|9a>> in the morning when his taxi stopped by giant mounds of snow outside his hotel. He had not eaten in hours.'
+            'Timestr [03:00]: three in the morning',
+            'It was <<three in the morning|9a>> when his taxi stopped by giant mounds of snow outside his hotel. He had not eaten in hours.'
           ],
           [
             1,
-            'Timestr [03:00]: three o\'clock',
-            'Once I saw a figure I shall never forget. It was <<three o\'clock|6>> at night, as I was going home from Blacky as usual; it was a short-cut for me, and there would be nobody in the street at this time of night, I thought, especially not in this frightful cold.'
+            'Timestr [03:00]: three o\'clock at night',
+            'Once I saw a figure I shall never forget. It was <<three o\'clock at night|6>>, as I was going home from Blacky as usual; it was a short-cut for me, and there would be nobody in the street at this time of night, I thought, especially not in this frightful cold.'
           ],
           [
             1,
@@ -1757,8 +1754,8 @@ sub get_csv_tests {
           ],
           [
             1,
-            'Timestr [03:00]: Three',
-            "<<Three|8>> in the morning, thought Charles Halloway, seated on the edge of his bed. Why did the train come at that hour? For, he thought, it\x{2019}s a special hour. Women never wake then, do they? They sleep the sleep of babes and children. But men in middle age? They know that hour well."
+            'Timestr [03:00]: Three in the morning',
+            "<<Three in the morning|5>>, thought Charles Halloway, seated on the edge of his bed. Why did the train come at that hour? For, he thought, it\x{2019}s a special hour. Women never wake then, do they? They sleep the sleep of babes and children. But men in middle age? They know that hour well."
           ],
           [
             -1,
@@ -1772,13 +1769,13 @@ sub get_csv_tests {
           ],
           [
             1,
-            "Timestr [03:00]: three o\x{2019}clock",
-            "You hearken, Missy. It\x{2019}s <<three o\x{2019}clock|6>> in the morning and I\x{2019}ve got all my faculties as well as ever I had in my life. I know all my property and where the money\x{2019}s put out. And I\x{2019}ve made everything ready to change my mind, and do as I like at the last. Do you hear, Missy? I\x{2019}ve got my faculties.\x{201d}"
+            "Timestr [03:00]: three o\x{2019}clock in the morning",
+            "You hearken, Missy. It\x{2019}s <<three o\x{2019}clock in the morning|6>> and I\x{2019}ve got all my faculties as well as ever I had in my life. I know all my property and where the money\x{2019}s put out. And I\x{2019}ve made everything ready to change my mind, and do as I like at the last. Do you hear, Missy? I\x{2019}ve got my faculties.\x{201d}"
           ],
           [
             1,
-            'Timestr [03:01]: about three o\'clock',
-            'It was now <<about three o\'clock|6>> in the morning and Francis Macomber, who had been asleep a little while after he had stopped thinking about the lion, wakened and then slept again.'
+            'Timestr [03:01]: about three o\'clock in the morning',
+            'It was now <<about three o\'clock in the morning|6>> and Francis Macomber, who had been asleep a little while after he had stopped thinking about the lion, wakened and then slept again.'
           ],
           [
             1,
@@ -1817,8 +1814,8 @@ sub get_csv_tests {
           ],
           [
             1,
-            'Timestr [03:17]: 3:17',
-            "The two of us sat there, listening\x{2014}Boris more intently than me. \x{201c}Who\x{2019}s that with him then?\x{201d} I said. \x{201c}Some whore.\x{201d} He listened for a moment, brow furrowed, his profile sharp in the moonlight, and then lay back down. \x{201c}Two of them.\x{201d} I rolled over, and checked my iPod. It was <<3:17|2>> in the morning."
+            'Timestr [03:17]: 3:17 in the morning',
+            "The two of us sat there, listening\x{2014}Boris more intently than me. \x{201c}Who\x{2019}s that with him then?\x{201d} I said. \x{201c}Some whore.\x{201d} He listened for a moment, brow furrowed, his profile sharp in the moonlight, and then lay back down. \x{201c}Two of them.\x{201d} I rolled over, and checked my iPod. It was <<3:17 in the morning|2a>>."
           ],
           [
             1,
@@ -1872,8 +1869,8 @@ sub get_csv_tests {
           ],
           [
             1,
-            'Timestr [03:30]: three thirty',
-            'Now, look. I am not going to call Dr. McGrath at <<three thirty|8>> in the morning to ask if it\'s all right for my son to eat worms. That\'s flat.'
+            'Timestr [03:30]: three thirty in the morning',
+            'Now, look. I am not going to call Dr. McGrath at <<three thirty in the morning|5>> to ask if it\'s all right for my son to eat worms. That\'s flat.'
           ],
           [
             1,
@@ -1938,7 +1935,7 @@ sub get_csv_tests {
           [
             1,
             'Timestr [03:45]: quarter to four',
-            'LORD CAVERSHAM: Well, sir! what are you doing here? Wasting your life as usual! You should be in bed, sir. You keep too late hours! I heard of you the other night at Lady Rufford\'s dancing till <<four o\' clock|6>> in the morning! LORD GORING: Only a <<quarter to four|10>>, father.'
+            'LORD CAVERSHAM: Well, sir! what are you doing here? Wasting your life as usual! You should be in bed, sir. You keep too late hours! I heard of you the other night at Lady Rufford\'s dancing till <<four o\' clock in the morning|6>>! LORD GORING: Only a <<quarter to four|10>>, father.'
           ],
           [
             1,
@@ -1952,8 +1949,8 @@ sub get_csv_tests {
           ],
           [
             1,
-            'Timestr [03:50]: ten or five to four',
-            'She had used her cell phone to leave several messages on the answering machine in Sao Paulo of the young dentist of the previous evening, whose name was Fernando. The first was recorded at <<ten or five to four|10>> in the morning. I\'m never going to forget you ... I\'m sure we\'ll meet again somewhere.'
+            'Timestr [03:50]: ten or five to four in the morning',
+            'She had used her cell phone to leave several messages on the answering machine in Sao Paulo of the young dentist of the previous evening, whose name was Fernando. The first was recorded at <<ten or five to four in the morning|10>>. I\'m never going to forget you ... I\'m sure we\'ll meet again somewhere.'
           ],
           [
             1,
@@ -2017,8 +2014,8 @@ sub get_csv_tests {
           ],
           [
             1,
-            'Timestr [04:00]: four',
-            'The night before Albert Kessler arrived in Santa Teresa, at <<four|9a>> in the morning, Sergio Gonzalez Rodriguez got a call from Azucena Esquivel Plata, reporter and PRI congresswoman.'
+            'Timestr [04:00]: four in the morning',
+            'The night before Albert Kessler arrived in Santa Teresa, at <<four in the morning|9a>>, Sergio Gonzalez Rodriguez got a call from Azucena Esquivel Plata, reporter and PRI congresswoman.'
           ],
           [
             1,
@@ -2027,8 +2024,8 @@ sub get_csv_tests {
           ],
           [
             1,
-            'Timestr [04:00]: four',
-            'When he noticed that the chefs from the grand hotels and restaurants - a picky, impatient bunch - tended to move around from seller to seller, buying apples here and broccoli there, he asked if he could have tea available for them. Tommy agreed, and the chefs, grateful for a hot drink at <<four|9a>> in the morning, lingered and bought.'
+            'Timestr [04:00]: four in the morning',
+            'When he noticed that the chefs from the grand hotels and restaurants - a picky, impatient bunch - tended to move around from seller to seller, buying apples here and broccoli there, he asked if he could have tea available for them. Tommy agreed, and the chefs, grateful for a hot drink at <<four in the morning|9a>>, lingered and bought.'
           ],
           [
             1,
@@ -2077,8 +2074,8 @@ sub get_csv_tests {
           ],
           [
             1,
-            'Timestr [04:12]: four-twelve',
-            'Finally, she signalled with her light that she\'d made it to the top. I signalled back, then shined the light downward to see how far the water had risen. I couldn\'t make out a thing. My watch read <<four-twelve|8>> in the morning. Not yet dawn. The morning papers still not delivered, trains not yet running, citizens of the surface world fast asleep, oblivious to all this. I pulled the rope taut with both hands, took a deep breath, then slowly began my climb.'
+            'Timestr [04:12]: four-twelve in the morning',
+            'Finally, she signalled with her light that she\'d made it to the top. I signalled back, then shined the light downward to see how far the water had risen. I couldn\'t make out a thing. My watch read <<four-twelve in the morning|5>>. Not yet dawn. The morning papers still not delivered, trains not yet running, citizens of the surface world fast asleep, oblivious to all this. I pulled the rope taut with both hands, took a deep breath, then slowly began my climb.'
           ],
           [
             1,
@@ -2142,8 +2139,8 @@ sub get_csv_tests {
           ],
           [
             1,
-            'Timestr [04:30]: four thirty',
-            'At the end of a relationship, it is the one who is not in love who makes the tender speeches. I was overwhelmed by a sense of betrayal, betrayal because a union in which I had invested so much had been declared bankrupt without my feeling it to be so. Chloe had not given it a chance, I argued with myself, knowing the hopelessness of these inner courts announcing hollow verdicts at <<four thirty|8>> in the morning.'
+            'Timestr [04:30]: four thirty in the morning',
+            'At the end of a relationship, it is the one who is not in love who makes the tender speeches. I was overwhelmed by a sense of betrayal, betrayal because a union in which I had invested so much had been declared bankrupt without my feeling it to be so. Chloe had not given it a chance, I argued with myself, knowing the hopelessness of these inner courts announcing hollow verdicts at <<four thirty in the morning|5>>.'
           ],
           [
             -1,
@@ -2192,8 +2189,8 @@ sub get_csv_tests {
           ],
           [
             1,
-            'Timestr [04:43]: four forty-three',
-            'The time is <<four forty-three|5b>> in the mornin an it\'s almost light oot there.'
+            'Timestr [04:43]: four forty-three in the mornin',
+            'The time is <<four forty-three in the mornin|5>> an it\'s almost light oot there.'
           ],
           [
             1,
@@ -2282,8 +2279,8 @@ sub get_csv_tests {
           ],
           [
             1,
-            'Timestr [05:00]: five o\'clock',
-            'What causes young people to "come out," but the noble ambition of matrimony? What sends them trooping to watering-places? What keeps them dancing till <<five o\'clock|6>> in the morning through a whole mortal season?'
+            'Timestr [05:00]: five o\'clock in the morning',
+            'What causes young people to "come out," but the noble ambition of matrimony? What sends them trooping to watering-places? What keeps them dancing till <<five o\'clock in the morning|6>> through a whole mortal season?'
           ],
           [
             1,
@@ -2322,8 +2319,8 @@ sub get_csv_tests {
           ],
           [
             1,
-            'Timestr [05:05]: five past five',
-            'The baby, a boy, is born at <<five past five|10>> in the morning.'
+            'Timestr [05:05]: five past five in the morning',
+            'The baby, a boy, is born at <<five past five in the morning|10>>.'
           ],
           [
             1,
@@ -2427,8 +2424,8 @@ sub get_csv_tests {
           ],
           [
             1,
-            'Timestr [05:30]: half-past five',
-            'Gideon has been most unlike Gideon. As Walter Eastman is preoccupied himself, he has not had time, or more to the point, inclination, to notice aberrant behaviour. For instance, it is <<half-past five|10>> in the summer morning. Young Chase\'s narrow bachelor bed has evidently been slept in, for it is rumpled in that barely disturbed way which can never be counterfeited. His jug\'s empty and there\'s grey water in the basin, cleanly boy. The window is open, admitting the salubrious sea-breeze. He doesn\'t smoke anyway. What an innocent room it is.'
+            'Timestr [05:30]: half-past five in the summer morning',
+            'Gideon has been most unlike Gideon. As Walter Eastman is preoccupied himself, he has not had time, or more to the point, inclination, to notice aberrant behaviour. For instance, it is <<half-past five in the summer morning|10>>. Young Chase\'s narrow bachelor bed has evidently been slept in, for it is rumpled in that barely disturbed way which can never be counterfeited. His jug\'s empty and there\'s grey water in the basin, cleanly boy. The window is open, admitting the salubrious sea-breeze. He doesn\'t smoke anyway. What an innocent room it is.'
           ],
           [
             1,
@@ -2437,8 +2434,8 @@ sub get_csv_tests {
           ],
           [
             1,
-            'Timestr [05:30]: five-thirty',
-            'On the day they were going to kill him, Santiago Nasar got up at <<five-thirty|8>> in the morning to wait for the boat the bishop was coming on.'
+            'Timestr [05:30]: five-thirty in the morning',
+            'On the day they were going to kill him, Santiago Nasar got up at <<five-thirty in the morning|5>> to wait for the boat the bishop was coming on.'
           ],
           [
             1,
@@ -2527,8 +2524,8 @@ sub get_csv_tests {
           ],
           [
             1,
-            'Timestr [06:00]: about six o\'clock',
-            'On the 15th of September 1840, <<about six o\'clock|6>> in the morning, the Ville-de-Montereau, ready to depart, pouring out great whirls of smoke by the quai Saint-Bernard.'
+            'Timestr [06:00]: about six o\'clock in the morning',
+            'On the 15th of September 1840, <<about six o\'clock in the morning|6>>, the Ville-de-Montereau, ready to depart, pouring out great whirls of smoke by the quai Saint-Bernard.'
           ],
           [
             1,
@@ -2537,8 +2534,8 @@ sub get_csv_tests {
           ],
           [
             1,
-            'Timestr [06:00]: six',
-            'The ball went on for a long time, until <<six|8>> in the morning; all were exhausted and wishing they had been in bed for at least three hours; but to leave early was like proclaiming the party a failure and offending the host and hostess who had taken such a lot of trouble, poor dears.'
+            'Timestr [06:00]: six in the morning',
+            'The ball went on for a long time, until <<six in the morning|5>>; all were exhausted and wishing they had been in bed for at least three hours; but to leave early was like proclaiming the party a failure and offending the host and hostess who had taken such a lot of trouble, poor dears.'
           ],
           [
             1,
@@ -2662,8 +2659,8 @@ sub get_csv_tests {
           ],
           [
             1,
-            'Timestr [06:30]: 6.30',
-            'Sometimes they were hooded carts, sometimes they were just open carts, with planks for seats, on which sat twelve cloaked and bonneted women, six a side, squeezed together, for the interminable journey. As late as 1914 I knew the carrier of Croydon-cum-Clopton, twelve miles from Cambridge; his cart started at <<6.30|8>> in the morning and got back at about ten at night. Though he was not old, he could neither read nor write; but he took commissions all along the road - a packet of needles for Mrs. This, and a new teapot for Mrs. That - and delivered them all correctly on the way back.'
+            'Timestr [06:30]: 6.30 in the morning',
+            'Sometimes they were hooded carts, sometimes they were just open carts, with planks for seats, on which sat twelve cloaked and bonneted women, six a side, squeezed together, for the interminable journey. As late as 1914 I knew the carrier of Croydon-cum-Clopton, twelve miles from Cambridge; his cart started at <<6.30 in the morning|2a>> and got back at <<about ten at night|9h>>. Though he was not old, he could neither read nor write; but he took commissions all along the road - a packet of needles for Mrs. This, and a new teapot for Mrs. That - and delivered them all correctly on the way back.'
           ],
           [
             1,
@@ -2698,7 +2695,7 @@ sub get_csv_tests {
           [
             1,
             'Timestr [06:40]: twenty to seven',
-            'At <<eleven o\'clock|6>> the phone rang, and still the figure did not respond, any more than it has responded when the phone had rung at <<twenty-five to seven|10>> in the morning, and again at <<twenty to seven|10>>'
+            'At <<eleven o\'clock|6>> the phone rang, and still the figure did not respond, any more than it has responded when the phone had rung at <<twenty-five to seven in the morning|10>>, and again at <<twenty to seven|10>>'
           ],
           [
             1,
@@ -2757,8 +2754,8 @@ sub get_csv_tests {
           ],
           [
             1,
-            "Timestr [07:00]: seven o\x{2019}clock",
-            "At <<seven o\x{2019}clock|6>> in the morning, Rubashov was awakened by a bugle, but he did not get up. Soon he heard sounds in the corridor. He imagined that someone was to be tortured, and he dreaded hearing the first screams of pain. When the footsteps reached his own section, he saw through the eye hole that guards were serving breakfast. Rubashov did not receive any breakfast because he had reported himself ill. He began to pace up and down the cell, six and a half steps to the window, six and a half steps back."
+            "Timestr [07:00]: seven o\x{2019}clock in the morning",
+            "At <<seven o\x{2019}clock in the morning|6>>, Rubashov was awakened by a bugle, but he did not get up. Soon he heard sounds in the corridor. He imagined that someone was to be tortured, and he dreaded hearing the first screams of pain. When the footsteps reached his own section, he saw through the eye hole that guards were serving breakfast. Rubashov did not receive any breakfast because he had reported himself ill. He began to pace up and down the cell, six and a half steps to the window, six and a half steps back."
           ],
           [
             1,
@@ -2832,8 +2829,8 @@ sub get_csv_tests {
           ],
           [
             1,
-            'Timestr [07:10]: 7:10',
-            'There were many others waiting to execute the same operation, so she would have to move fast, elbow her way to the front so that she emerged first. The time was <<7:10|2>> in the morning. The manoeuvre would start at <<7:12|9g>>. She looked apprehensively at the giant clock at the railway station.'
+            'Timestr [07:10]: 7:10 in the morning',
+            'There were many others waiting to execute the same operation, so she would have to move fast, elbow her way to the front so that she emerged first. The time was <<7:10 in the morning|2a>>. The manoeuvre would start at <<7:12|9g>>. She looked apprehensively at the giant clock at the railway station.'
           ],
           [
             1,
@@ -2902,8 +2899,8 @@ sub get_csv_tests {
           ],
           [
             1,
-            'Timestr [07:29]: 7.29',
-            'At <<7.29|8>> in the morning of 1 July, the cinematographer finds himself filming silence itself.'
+            'Timestr [07:29]: 7.29 in the morning',
+            'At <<7.29 in the morning|2a>> of 1 July, the cinematographer finds himself filming silence itself.'
           ],
           [
             1,
@@ -3012,8 +3009,8 @@ sub get_csv_tests {
           ],
           [
             1,
-            'Timestr [07:59]: 7.59',
-            'I\'d spent fifty two days in 1958, but here it was <<7.59|8>> in the morning.'
+            'Timestr [07:59]: 7.59 in the morning',
+            'I\'d spent fifty two days in 1958, but here it was <<7.59 in the morning|2a>>.'
           ],
           [
             1,
@@ -3062,8 +3059,8 @@ sub get_csv_tests {
           ],
           [
             1,
-            'Timestr [08:00]: eight o\'clock',
-            'It was dated from Rosings, at <<eight o\'clock|6>> in the morning, and was as follows: - "Be not alarmed, madam, on receiving this letter, by the apprehension of its containing any repetition of those sentiments or renewal of those offerings which were last night so disgusting to you.'
+            'Timestr [08:00]: eight o\'clock in the morning',
+            'It was dated from Rosings, at <<eight o\'clock in the morning|6>>, and was as follows: - "Be not alarmed, madam, on receiving this letter, by the apprehension of its containing any repetition of those sentiments or renewal of those offerings which were last night so disgusting to you.'
           ],
           [
             1,
@@ -3092,8 +3089,8 @@ sub get_csv_tests {
           ],
           [
             1,
-            'Timestr [08:00]: eight o\'clock',
-            'Three days after the quarrel, Prince Stepan Arkadyevitch Oblonsky--Stiva, as he was called in the fashionable world-- woke up at his usual hour, that is, at <<eight o\'clock|6>> in the morning, not in his wife\'s bedroom, but on the leather-covered sofa in his study.'
+            'Timestr [08:00]: eight o\'clock in the morning',
+            'Three days after the quarrel, Prince Stepan Arkadyevitch Oblonsky--Stiva, as he was called in the fashionable world-- woke up at his usual hour, that is, at <<eight o\'clock in the morning|6>>, not in his wife\'s bedroom, but on the leather-covered sofa in his study.'
           ],
           [
             1,
@@ -3320,8 +3317,8 @@ This last observation applied to the dark gallery, and was indicated by the comp
           ],
           [
             1,
-            'Timestr [08:43]: eight forty-three',
-            '"You understand this tape recorder is on?" "Uh huh" "And it\'s Wednesday, May 15, at <<eight forty-three|5b>> in the mornin\'." "If you say so"'
+            "Timestr [08:43]: eight forty-three in the mornin\'",
+            '"You understand this tape recorder is on?" "Uh huh" "And it\'s Wednesday, May 15, at <<eight forty-three in the mornin\'|5>>." "If you say so"'
           ],
           [
             1,
@@ -3360,8 +3357,8 @@ This last observation applied to the dark gallery, and was indicated by the comp
           ],
           [
             1,
-            'Timestr [08:50]: 8:50',
-            'It was <<8:50|2>> in the morning and Bernie and I were alone on an Astoria side street, not far from a sandwich shop that sold a sopressatta sub called "The Bypass". I used to eat that sandwich weekly, wash it down with espresso soda, smoke a cigarette, go for a jog. Now I was too near the joke to order the sandwich, and my son\'s preschool in the throes of doctrinal schism.'
+            'Timestr [08:50]: 8:50 in the morning',
+            'It was <<8:50 in the morning|2a>> and Bernie and I were alone on an Astoria side street, not far from a sandwich shop that sold a sopressatta sub called "The Bypass". I used to eat that sandwich weekly, wash it down with espresso soda, smoke a cigarette, go for a jog. Now I was too near the joke to order the sandwich, and my son\'s preschool in the throes of doctrinal schism.'
           ],
           [
             1,
@@ -3460,8 +3457,8 @@ This last observation applied to the dark gallery, and was indicated by the comp
           ],
           [
             1,
-            'Timestr [09:00]: nine o\'clock',
-            'He won\'t stand beating. Now, if you only kept on good terms with him, he\'d do almost anything you liked with the clock. For instance, suppose it were <<nine o\'clock|6>> in the morning, just time to begin lessons: you\'d only have to whisper a hint to Time, and round goes the clock in a twinkling! <<Half-past one|10>>, time for dinner!'
+            'Timestr [09:00]: nine o\'clock in the morning',
+            'He won\'t stand beating. Now, if you only kept on good terms with him, he\'d do almost anything you liked with the clock. For instance, suppose it were <<nine o\'clock in the morning|6>>, just time to begin lessons: you\'d only have to whisper a hint to Time, and round goes the clock in a twinkling! <<Half-past one|10>>, time for dinner!'
           ],
           [
             1,
@@ -3751,12 +3748,12 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [09:37]: thirty-seven minutes past nine',
-            'It comprised all that was required of the servant, from <<eight|8>> in the morning, exactly at which hour Phileas Fogg rose, till <<half-past eleven|10>>, when he left the house for the Reform Club - all the details of service, the tea and toast at <<twenty-three minutes past eight|10>>, the shaving-water at <<thirty-seven minutes past nine|10>>, and the toilet at <<twenty minutes before ten|10>>.'
+            'It comprised all that was required of the servant, from <<eight in the morning|5>>, exactly at which hour Phileas Fogg rose, till <<half-past eleven|10>>, when he left the house for the Reform Club - all the details of service, the tea and toast at <<twenty-three minutes past eight|10>>, the shaving-water at <<thirty-seven minutes past nine|10>>, and the toilet at <<twenty minutes before ten|10>>.'
           ],
           [
             1,
             'Timestr [09:40]: twenty minutes before ten',
-            "It comprised all that was required of the servant, from <<eight|8>> in the morning, exactly at which hour Phileas Fogg rose, till <<half-past eleven|10>>, when he left the house for the Reform Club\x{2014}all the details of service, the tea and toast at <<twenty-three minutes past eight|10>>, the shaving-water at <<thirty-seven minutes past nine|10>>, and the toilet at <<twenty minutes before ten|10>>."
+            "It comprised all that was required of the servant, from <<eight in the morning|5>>, exactly at which hour Phileas Fogg rose, till <<half-past eleven|10>>, when he left the house for the Reform Club\x{2014}all the details of service, the tea and toast at <<twenty-three minutes past eight|10>>, the shaving-water at <<thirty-seven minutes past nine|10>>, and the toilet at <<twenty minutes before ten|10>>."
           ],
           [
             1,
@@ -3836,7 +3833,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             -1,
             'Timestr [10:00]: ten',
-            'For some seconds the light went on becoming brighter and brighter, and she saw everything more and more clearly and the clock ticked louder and louder until there was a terrific explosion right in her ear. Orlando leapt as if she had been violently struck on the head. <<Ten|99>> times she was struck. In fact it was <<ten o\'clock|6>> in the morning. It was the eleventh of October. It was <<1928|9d>>. It was the present moment.'
+            'For some seconds the light went on becoming brighter and brighter, and she saw everything more and more clearly and the clock ticked louder and louder until there was a terrific explosion right in her ear. Orlando leapt as if she had been violently struck on the head. <<Ten|99>> times she was struck. In fact it was <<ten o\'clock in the morning|6>>. It was the eleventh of October. It was <<1928|9d>>. It was the present moment.'
           ],
           [
             1,
@@ -3850,13 +3847,13 @@ This last observation applied to the dark gallery, and was indicated by the comp
           ],
           [
             1,
-            'Timestr [10:00]: about ten o\'clock',
-            'At <<about ten o\'clock|6>> in the morning the sun threw a bright dust-laden bar through one of the side windows, and in and out of the beam flies shot like rushing stars.'
+            'Timestr [10:00]: about ten o\'clock in the morning',
+            'At <<about ten o\'clock in the morning|6>> the sun threw a bright dust-laden bar through one of the side windows, and in and out of the beam flies shot like rushing stars.'
           ],
           [
             1,
-            'Timestr [10:00]: ten o\' clock',
-            'I went to bed and the next thing I knew I was awake again and it was getting on for <<ten o\' clock|6>> in the morning. Ring, ring, said the telephone, ring, ring.'
+            'Timestr [10:00]: ten o\' clock in the morning',
+            'I went to bed and the next thing I knew I was awake again and it was getting on for <<ten o\' clock in the morning|6>>. Ring, ring, said the telephone, ring, ring.'
           ],
           [
             1,
@@ -3890,8 +3887,8 @@ This last observation applied to the dark gallery, and was indicated by the comp
           ],
           [
             1,
-            'Timestr [10:00]: ten',
-            'The summer holidays were near at hand when I made up my mind to break out of the weariness of school-life for one day at least. With Leo Dillon and a boy named Mahoney I planned a day\'s mitching. Each of us saved up sixpence. We were to meet at <<ten|9g>> in the morning on the Canal Bridge.'
+            'Timestr [10:00]: ten in the morning',
+            'The summer holidays were near at hand when I made up my mind to break out of the weariness of school-life for one day at least. With Leo Dillon and a boy named Mahoney I planned a day\'s mitching. Each of us saved up sixpence. We were to meet at <<ten in the morning|9g>> on the Canal Bridge.'
           ],
           [
             1,
@@ -3900,8 +3897,8 @@ This last observation applied to the dark gallery, and was indicated by the comp
           ],
           [
             1,
-            'Timestr [10:01]: about ten o\'clock',
-            'At <<about ten o\'clock|6>> in the morning the sun threw a bright dust-laden bar through one of the side windows, and in and out of the beam flies shot like rushing stars.\''
+            'Timestr [10:01]: about ten o\'clock in the morning',
+            'At <<about ten o\'clock in the morning|6>> the sun threw a bright dust-laden bar through one of the side windows, and in and out of the beam flies shot like rushing stars.\''
           ],
           [
             1,
@@ -4170,8 +4167,8 @@ This last observation applied to the dark gallery, and was indicated by the comp
           ],
           [
             1,
-            'Timestr [11:00]: eleven',
-            'He was rather a long time, and I began to feel muffled, weighed down by thick stuffs and silence. I thought: He\'ll never come back; and when he did his figure seemed to come at me from very far away, dream-like and dwindled, making his way back along a tunnel...I dare say it was champagne at <<eleven|9a>> in the morning.'
+            'Timestr [11:00]: eleven in the morning',
+            'He was rather a long time, and I began to feel muffled, weighed down by thick stuffs and silence. I thought: He\'ll never come back; and when he did his figure seemed to come at me from very far away, dream-like and dwindled, making his way back along a tunnel...I dare say it was champagne at <<eleven in the morning|9a>>.'
           ],
           [
             1,
@@ -4185,8 +4182,8 @@ This last observation applied to the dark gallery, and was indicated by the comp
           ],
           [
             1,
-            'Timestr [11:00]: eleven o\'clock',
-            'At <<eleven o\'clock|6>> in the morning, large flakes had appeared from a colourless sky and invaded the fields, gardens and lawns of Romerike like an armada from outer space.'
+            'Timestr [11:00]: eleven o\'clock in the morning',
+            'At <<eleven o\'clock in the morning|6>>, large flakes had appeared from a colourless sky and invaded the fields, gardens and lawns of Romerike like an armada from outer space.'
           ],
           [
             1,
@@ -4200,8 +4197,8 @@ This last observation applied to the dark gallery, and was indicated by the comp
           ],
           [
             1,
-            'Timestr [11:00]: about eleven o\'clock',
-            'It was <<about eleven o\'clock|6>> in the morning, mid October, with the sun not shining and a look of hard wet rain in the clearness of the foothills. I was wearing my powder-blue suit, with dark blue shirt, tie and display handkerchief, black brogues, black wool socks with dark blue clocks on them. I was neat, clean, shaved and sober, and I didn\'t care who knew it. I was everything the well-dressed private detective ought to be. I was calling on four millon dollars.'
+            'Timestr [11:00]: about eleven o\'clock in the morning',
+            'It was <<about eleven o\'clock in the morning|6>>, mid October, with the sun not shining and a look of hard wet rain in the clearness of the foothills. I was wearing my powder-blue suit, with dark blue shirt, tie and display handkerchief, black brogues, black wool socks with dark blue clocks on them. I was neat, clean, shaved and sober, and I didn\'t care who knew it. I was everything the well-dressed private detective ought to be. I was calling on four millon dollars.'
           ],
           [
             1,
@@ -4215,8 +4212,8 @@ This last observation applied to the dark gallery, and was indicated by the comp
           ],
           [
             1,
-            'Timestr [11:00]: eleven o\'clock',
-            'Quiet as I am, I become at <<Eleven o\'Clock|6>> in the Morning on every day of the week save Sunday a raving, ranting maniac -- a dangerous lunatic, panting with insane desires to do, not only myself but other people, a mischief, and possessed less by hallucination than by rabies.'
+            'Timestr [11:00]: Eleven o\'Clock in the Morning',
+            'Quiet as I am, I become at <<Eleven o\'Clock in the Morning|6>> on every day of the week save Sunday a raving, ranting maniac -- a dangerous lunatic, panting with insane desires to do, not only myself but other people, a mischief, and possessed less by hallucination than by rabies.'
           ],
           [
             1,
@@ -4360,8 +4357,8 @@ This last observation applied to the dark gallery, and was indicated by the comp
           ],
           [
             1,
-            'Timestr [11:27]: 11.27',
-            'It\'s from one of the more recent plates the tree has scanned: <<11.27|8>> in the morning of 4 April 1175'
+            'Timestr [11:27]: 11.27 in the morning',
+            'It\'s from one of the more recent plates the tree has scanned: <<11.27 in the morning|2a>> of 4 April 1175'
           ],
           [
             1,
@@ -4715,8 +4712,8 @@ This last observation applied to the dark gallery, and was indicated by the comp
           ],
           [
             1,
-            'Timestr [12:20]: twelve-twenty',
-            "By <<twelve-twenty|8>> in the afternoon, Vince was seated in a rattan chair with comfortable yellow and green cushions at a table by the windows in that same restaurant. He\x{2019}d spotted Haines on entering. The doctor was at another window table, three away from Vince, half-screened by a potted palm. Haines was eating shrimp and drinking margaritas with a stunning blonde. She was wearing white slacks and a gaily striped tube-top, and half the men in the place were staring at her."
+            'Timestr [12:20]: twelve-twenty in the afternoon',
+            "By <<twelve-twenty in the afternoon|5>>, Vince was seated in a rattan chair with comfortable yellow and green cushions at a table by the windows in that same restaurant. He\x{2019}d spotted Haines on entering. The doctor was at another window table, three away from Vince, half-screened by a potted palm. Haines was eating shrimp and drinking margaritas with a stunning blonde. She was wearing white slacks and a gaily striped tube-top, and half the men in the place were staring at her."
           ],
           [
             1,
@@ -5130,8 +5127,8 @@ This last observation applied to the dark gallery, and was indicated by the comp
           ],
           [
             1,
-            'Timestr [13:48]: twelve minutes to two',
-            'It was <<twelve minutes to two|10>> in the afternoon when Claude Moreau and his most-trusted field officer, Jacques Bergeron, arrived at the Georges Cinq station of the Paris Metro. They walked, separately, to the rear of the platform, each carrying a handheld radio, the frequencies calibrated to each other.'
+            'Timestr [13:48]: twelve minutes to two in the afternoon',
+            'It was <<twelve minutes to two in the afternoon|10>> when Claude Moreau and his most-trusted field officer, Jacques Bergeron, arrived at the Georges Cinq station of the Paris Metro. They walked, separately, to the rear of the platform, each carrying a handheld radio, the frequencies calibrated to each other.'
           ],
           [
             1,
@@ -5235,8 +5232,8 @@ This last observation applied to the dark gallery, and was indicated by the comp
           ],
           [
             1,
-            'Timestr [14:06]: six minutes past two',
-            'A man driving a tractor saw her, four hundred yards from her house, <<six minutes past two|10>> in the afternoon.'
+            'Timestr [14:06]: six minutes past two in the afternoon',
+            'A man driving a tractor saw her, four hundred yards from her house, <<six minutes past two in the afternoon|10>>.'
           ],
           [
             1,
@@ -5325,8 +5322,8 @@ This last observation applied to the dark gallery, and was indicated by the comp
           ],
           [
             1,
-            'Timestr [14:30]: half-past two',
-            'It was <<half-past two|10>> in the afternoon. The sun hung in the faded blue sky like a burning mirror, and away beyond the paddocks the blue mountains quivered and leapt like sea. Sid wouldn\'t be back until <<half-past ten|10>>. He had ridden over to the township with four of the boys to help hunt down the young fellow who\'d murdered Mr. Williamson. Such a dreadful thing!'
+            'Timestr [14:30]: half-past two in the afternoon',
+            'It was <<half-past two in the afternoon|10>>. The sun hung in the faded blue sky like a burning mirror, and away beyond the paddocks the blue mountains quivered and leapt like sea. Sid wouldn\'t be back until <<half-past ten|10>>. He had ridden over to the township with four of the boys to help hunt down the young fellow who\'d murdered Mr. Williamson. Such a dreadful thing!'
           ],
           [
             1,
@@ -5450,8 +5447,8 @@ This last observation applied to the dark gallery, and was indicated by the comp
           ],
           [
             1,
-            'Timestr [15:00]: three',
-            'Ditched by the woman I loved, I exalted my suffering into a sign of greatness (lying collapsed on a bed at <<three|9a>> in the afternoon), and hence protected myself from experiencing my grief as the outcome of what was at best a mundane romantic break-up. Chloe\'s departure may have killed me, but it had at least left me in glorious possession of the moral high ground. I was a martyr.'
+            'Timestr [15:00]: three in the afternoon',
+            'Ditched by the woman I loved, I exalted my suffering into a sign of greatness (lying collapsed on a bed at <<three in the afternoon|9a>>), and hence protected myself from experiencing my grief as the outcome of what was at best a mundane romantic break-up. Chloe\'s departure may have killed me, but it had at least left me in glorious possession of the moral high ground. I was a martyr.'
           ],
           [
             1,
@@ -5465,8 +5462,8 @@ This last observation applied to the dark gallery, and was indicated by the comp
           ],
           [
             1,
-            'Timestr [15:00]: three o\'clock',
-            'It was <<three o\'clock|6>> in the beautiful breezy autumn day when Mr. Casaubon drove off to his Rectory at Lowick, only five miles from Tipton; and Dorothea, who had on her bonnet and shawl, hurried along the shrubbery and across the park that she might wander through the bordering wood with no other visible companionship than that of Monk, the Great St. Bernard dog, who always took care of the young ladies in their walks'
+            'Timestr [15:00]: three o\'clock in the beautiful breezy autumn day',
+            'It was <<three o\'clock in the beautiful breezy autumn day|6>> when Mr. Casaubon drove off to his Rectory at Lowick, only five miles from Tipton; and Dorothea, who had on her bonnet and shawl, hurried along the shrubbery and across the park that she might wander through the bordering wood with no other visible companionship than that of Monk, the Great St. Bernard dog, who always took care of the young ladies in their walks'
           ],
           [
             1,
@@ -5485,8 +5482,8 @@ This last observation applied to the dark gallery, and was indicated by the comp
           ],
           [
             1,
-            'Timestr [15:00]: three',
-            'The scent and smoke and sweat of a casino are nauseating at <<three|9a>> in the morning. Then the soul-erosion produced by high gambling - a compost of greed and fear and nervous tension - becomes unbearable and the senses awake and revolt from it.'
+            'Timestr [03:00]: three in the morning',
+            'The scent and smoke and sweat of a casino are nauseating at <<three in the morning|9a>>. Then the soul-erosion produced by high gambling - a compost of greed and fear and nervous tension - becomes unbearable and the senses awake and revolt from it.'
           ],
           [
             1,
@@ -5505,8 +5502,8 @@ This last observation applied to the dark gallery, and was indicated by the comp
           ],
           [
             1,
-            'Timestr [15:01]: about three',
-            'The sun was now setting. It was <<about three|9h>> in the afternoon when Alisande had begun to tell me who the cowboys were; so she had made pretty good progress with it - for her. She would arrive some time or other, no doubt, but she was not a person who could be hurried.'
+            'Timestr [15:01]: about three in the afternoon',
+            'The sun was now setting. It was <<about three in the afternoon|9h>> when Alisande had begun to tell me who the cowboys were; so she had made pretty good progress with it - for her. She would arrive some time or other, no doubt, but she was not a person who could be hurried.'
           ],
           [
             1,
@@ -5650,8 +5647,8 @@ This last observation applied to the dark gallery, and was indicated by the comp
           ],
           [
             1,
-            'Timestr [15:39]: three thirty-nine',
-            'I lived two lives in late 1965 and early 1963, one in Dallas and one in Jodie. They came together at <<three thirty-nine|8>> in the afternoon of April 10.'
+            'Timestr [15:39]: three thirty-nine in the afternoon',
+            'I lived two lives in late 1965 and early 1963, one in Dallas and one in Jodie. They came together at <<three thirty-nine in the afternoon|5>> of April 10.'
           ],
           [
             1,
@@ -5736,7 +5733,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [16:00]: four',
-            '"What else can I answer, When the lights come on at <<four|9a>> At the end of another year"'
+            '"What else can I answer, When the lights come on at <<four|9f>>. At the end of another year"'
           ],
           [
             1,
@@ -5780,13 +5777,13 @@ This last observation applied to the dark gallery, and was indicated by the comp
           ],
           [
             1,
-            'Timestr [16:00]: four o\'clock',
-            'He played for twenty-two days, just as he said he would. Every day at <<four o\'clock|6>> in the afternoon, regardless of how much fighting was going on around him.'
+            'Timestr [16:00]: four o\'clock in the afternoon',
+            'He played for twenty-two days, just as he said he would. Every day at <<four o\'clock in the afternoon|6>>, regardless of how much fighting was going on around him.'
           ],
           [
             1,
-            "Timestr [16:00]: four o\x{2019}clock",
-            "Her eyes caught the kryptonite glow of the digital clock on the front of the microwave. Honest and true, the numbers spelled out the time although she, for a moment, found its calculation to be somehow erroneous. It was <<four o\x{2019}clock|6>> in the afternoon."
+            "Timestr [16:00]: four o\x{2019}clock in the afternoon",
+            "Her eyes caught the kryptonite glow of the digital clock on the front of the microwave. Honest and true, the numbers spelled out the time although she, for a moment, found its calculation to be somehow erroneous. It was <<four o\x{2019}clock in the afternoon|6>>."
           ],
           [
             1,
@@ -5925,8 +5922,8 @@ This last observation applied to the dark gallery, and was indicated by the comp
           ],
           [
             1,
-            'Timestr [16:15]: quarter past four',
-            'On the tenth day of October at <<quarter past four|10>> in the afternoon with a dry hot wind blowing through the passed Maria found herself in Baker. She had never meant to go as far as Baker, had started out that day as every day, her only destination the freeway. But she had driven out of San Bernadino and up the Barstow and instead of turning back at Barstow (she had been out that far before but never that late in the day, it was past time to navigate back, she was out too far too late, the rhythm was lost ) she kept driving.'
+            'Timestr [16:15]: quarter past four in the afternoon',
+            'On the tenth day of October at <<quarter past four in the afternoon|10>> with a dry hot wind blowing through the passed Maria found herself in Baker. She had never meant to go as far as Baker, had started out that day as every day, her only destination the freeway. But she had driven out of San Bernadino and up the Barstow and instead of turning back at Barstow (she had been out that far before but never that late in the day, it was past time to navigate back, she was out too far too late, the rhythm was lost ) she kept driving.'
           ],
           [
             1,
@@ -6090,7 +6087,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           ],
           [
             1,
-            'Timestr [16:48]: 4:48 a.m.',
+            'Timestr [04:48]: 4:48 a.m.',
             'Thinking about the card warms me to the idea of walking under the arched doorway of the Newtons\' home, but when I arrive at their house, the plan seems ridiculous. What am I doing? It\'s <<4:48 a.m.|2a>>, and I\'m parked outside their darkened house.'
           ],
           [
@@ -6150,8 +6147,8 @@ This last observation applied to the dark gallery, and was indicated by the comp
           ],
           [
             1,
-            'Timestr [16:57]: nearly five',
-            'It was <<nearly five|9h>> in the evening when the cook came aboard. He did not have the cabbages.'
+            'Timestr [16:57]: nearly five in the evening',
+            'It was <<nearly five in the evening|9h>> when the cook came aboard. He did not have the cabbages.'
           ],
           [
             1,
@@ -6190,8 +6187,8 @@ This last observation applied to the dark gallery, and was indicated by the comp
           ],
           [
             1,
-            'Timestr [17:00]: five o\'clock',
-            'But I took the mixture at <<five o\'clock|6>> in the afternoon. I run my tongue over my dry mouth. I feel dizzy. I know this dizziness: it\'s because I haven\'t had a cigarette for hours.'
+            'Timestr [17:00]: five o\'clock in the afternoon',
+            'But I took the mixture at <<five o\'clock in the afternoon|6>>. I run my tongue over my dry mouth. I feel dizzy. I know this dizziness: it\'s because I haven\'t had a cigarette for hours.'
           ],
           [
             1,
@@ -6231,7 +6228,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [17:02]: two minutes past five',
-            'She stood up, shook her hair into place, smoothed her skirt and turned on the light. It was <<two minutes past five|10>>. She would have thought it <<midnight|13>> or <<five|8>> in the morning.'
+            'She stood up, shook her hair into place, smoothed her skirt and turned on the light. It was <<two minutes past five|10>>. She would have thought it <<midnight|13>> or <<five in the morning|5>>.'
           ],
           [
             1,
@@ -6390,8 +6387,8 @@ This last observation applied to the dark gallery, and was indicated by the comp
           ],
           [
             1,
-            'Timestr [17:58]: nearly six o\'clock',
-            'It was <<nearly six o\'clock|6>> in the evening, and the absurd bell in the six-foot tin steeple of the church went clank-clank, clank- clank! as old Mattu pulled the rope within.\''
+            'Timestr [17:58]: nearly six o\'clock in the evening',
+            'It was <<nearly six o\'clock in the evening|6>>, and the absurd bell in the six-foot tin steeple of the church went clank-clank, clank- clank! as old Mattu pulled the rope within.\''
           ],
           [
             1,
@@ -6450,8 +6447,8 @@ This last observation applied to the dark gallery, and was indicated by the comp
           ],
           [
             1,
-            'Timestr [18:04]: Four minutes after six',
-            "\"We will make record of it, my Rosannah; every year, as this dear hour chimes from the clock, we will celebrate it with thanksgivings, all the years of our life.\" \"We will, we will, Alonzo!\" \"<<Four minutes after six|10>>, in the evening, my Rosannah...\x{201d}"
+            'Timestr [18:04]: Four minutes after six, in the evening',
+            "\"We will make record of it, my Rosannah; every year, as this dear hour chimes from the clock, we will celebrate it with thanksgivings, all the years of our life.\" \"We will, we will, Alonzo!\" \"<<Four minutes after six, in the evening|10>>, my Rosannah...\x{201d}"
           ],
           [
             1,
@@ -6510,8 +6507,8 @@ This last observation applied to the dark gallery, and was indicated by the comp
           ],
           [
             1,
-            'Timestr [18:26]: around half past six',
-            'It is <<around half past six|10>> in the evening. Dusk is gathering in the living room, an early dusk due to the fog which has rolled in from the Sound and is like a white curtain drawn down outside the windows.'
+            'Timestr [18:26]: around half past six in the evening',
+            'It is <<around half past six in the evening|10>>. Dusk is gathering in the living room, an early dusk due to the fog which has rolled in from the Sound and is like a white curtain drawn down outside the windows.'
           ],
           [
             1,
@@ -6550,8 +6547,8 @@ This last observation applied to the dark gallery, and was indicated by the comp
           ],
           [
             1,
-            'Timestr [18:32]: around half past six',
-            'It is <<around half past six|10>> in the evening. Dusk is gathering in the living room, an early dusk due to the fog which has rolled in from the Sound and is like a white curtain drawn down outside the windows.'
+            'Timestr [18:32]: around half past six in the evening',
+            'It is <<around half past six in the evening|10>>. Dusk is gathering in the living room, an early dusk due to the fog which has rolled in from the Sound and is like a white curtain drawn down outside the windows.'
           ],
           [
             1,
@@ -6560,8 +6557,8 @@ This last observation applied to the dark gallery, and was indicated by the comp
           ],
           [
             1,
-            'Timestr [18:34]: around half past six',
-            'It is <<around half past six|10>> in the evening. Dusk is gathering in the living room, an early dusk due to the fog which has rolled in from the Sound and is like a white curtain drawn down outside the windows.'
+            'Timestr [18:34]: around half past six in the evening',
+            'It is <<around half past six in the evening|10>>. Dusk is gathering in the living room, an early dusk due to the fog which has rolled in from the Sound and is like a white curtain drawn down outside the windows.'
           ],
           [
             1,
@@ -6665,13 +6662,13 @@ This last observation applied to the dark gallery, and was indicated by the comp
           ],
           [
             1,
-            "Timestr [18:59]: About seven o\x{2019}clock",
-            "<<About seven o\x{2019}clock|6>> in the evening she had died, and her frantic husband had made a frightful scene in his efforts to kill West, whom he wildly blamed for not saving her life. Friends had held him when he drew a stiletto, but West departed amidst his inhuman shrieks, curses, and oaths of vengeance."
+            "Timestr [18:59]: About seven o\x{2019}clock in the evening",
+            "<<About seven o\x{2019}clock in the evening|6>> she had died, and her frantic husband had made a frightful scene in his efforts to kill West, whom he wildly blamed for not saving her life. Friends had held him when he drew a stiletto, but West departed amidst his inhuman shrieks, curses, and oaths of vengeance."
           ],
           [
             1,
-            'Timestr [19:00]: seven o\'clock',
-            "\x{2026} in a word, seen always at the same evening hour, isolated from all its possible surroundings, detached and solitary against its shadowy background, the bare minimum of scenery necessary .. to the drama of my undressing, as though all Combray had consisted of but two floors joined by a slender staircase, and as though there had been no time there but <<seven o'clock|6>> at night."
+            'Timestr [19:00]: seven o\'clock at night',
+            "\x{2026} in a word, seen always at the same evening hour, isolated from all its possible surroundings, detached and solitary against its shadowy background, the bare minimum of scenery necessary .. to the drama of my undressing, as though all Combray had consisted of but two floors joined by a slender staircase, and as though there had been no time there but <<seven o'clock at night|6>>."
           ],
           [
             1,
@@ -6710,8 +6707,8 @@ This last observation applied to the dark gallery, and was indicated by the comp
           ],
           [
             1,
-            'Timestr [19:02]: about seven o\'clock',
-            'Twas <<about seven o\'clock|6>> at night, And the wind it blew with all its might, And the rain came pouring down, And the dark clouds seem\'d to frown,'
+            'Timestr [19:02]: about seven o\'clock at night',
+            'Twas <<about seven o\'clock at night|6>>, And the wind it blew with all its might, And the rain came pouring down, And the dark clouds seem\'d to frown,'
           ],
           [
             1,
@@ -6945,8 +6942,8 @@ This last observation applied to the dark gallery, and was indicated by the comp
           ],
           [
             1,
-            'Timestr [20:00]: eight o\'clock',
-            'It\'s the twenty-third of June nineteen seventy-five, and it is <<eight o\'clock|6>> in the evening, seated at his jigsaw puzzle, Bartlebooth has just died.'
+            'Timestr [20:00]: eight o\'clock in the evening',
+            'It\'s the twenty-third of June nineteen seventy-five, and it is <<eight o\'clock in the evening|6>>, seated at his jigsaw puzzle, Bartlebooth has just died.'
           ],
           [
             1,
@@ -6955,8 +6952,8 @@ This last observation applied to the dark gallery, and was indicated by the comp
           ],
           [
             1,
-            'Timestr [20:00]: eight',
-            'That day he forgot to go to dinner; he noticed the fact at <<eight|9a>> in the evening, and as it was too late to go to the Rue St Jaques, he ate a lump of bread.'
+            'Timestr [20:00]: eight in the evening',
+            'That day he forgot to go to dinner; he noticed the fact at <<eight in the evening|9a>>, and as it was too late to go to the Rue St Jaques, he ate a lump of bread.'
           ],
           [
             1,
@@ -7235,13 +7232,13 @@ This last observation applied to the dark gallery, and was indicated by the comp
           ],
           [
             1,
-            'Timestr [21:00]: 2100',
-            'At <<2100|9m>> at night it\'s cold out.'
+            'Timestr [21:00]: 2100 at night',
+            'At <<2100 at night|9m>> it\'s cold out.'
           ],
           [
             1,
-            'Timestr [21:00]: nine o\'clock',
-            "It was <<nine o'clock|6>> at night upon the second of August\x{2014}the most terrible August in the history of the world. One might have thought already that God's curse hung heavy over a degenerate world, for there was an awesome hush and a feeling of vague expectancy in the sultry and stagnant air"
+            'Timestr [21:00]: nine o\'clock at night',
+            "It was <<nine o'clock at night|6>> upon the second of August\x{2014}the most terrible August in the history of the world. One might have thought already that God's curse hung heavy over a degenerate world, for there was an awesome hush and a feeling of vague expectancy in the sultry and stagnant air"
           ],
           [
             1,
@@ -7275,8 +7272,8 @@ This last observation applied to the dark gallery, and was indicated by the comp
           ],
           [
             1,
-            'Timestr [21:00]: nine o\'clock',
-            'This time, the putting on of her best hat at <<nine o\'clock|6>> at night with the idea of sallying forth from the castle, down the long drive and then northwards along the acacia avenue, had been enough to send her to her own doorway as though she suspected someone might be there, someone who was listening to her thoughts.'
+            'Timestr [21:00]: nine o\'clock at night',
+            'This time, the putting on of her best hat at <<nine o\'clock at night|6>> with the idea of sallying forth from the castle, down the long drive and then northwards along the acacia avenue, had been enough to send her to her own doorway as though she suspected someone might be there, someone who was listening to her thoughts.'
           ],
           [
             1,
@@ -7290,8 +7287,8 @@ This last observation applied to the dark gallery, and was indicated by the comp
           ],
           [
             1,
-            "Timestr [21:03]: about nine o\x{2019}clock",
-            "Billy Weaver had travelled down from London on the slow afternoon train, with a change at Swindon on the way, and by the time he got to Bath it was <<about nine o\x{2019}clock|6>> in the evening and the moon was coming up out of a clear starry sky over the houses opposite the station entrance. But the air was deadly cold and the wind was like a flat blade of ice on his cheeks."
+            "Timestr [21:03]: about nine o\x{2019}clock in the evening",
+            "Billy Weaver had travelled down from London on the slow afternoon train, with a change at Swindon on the way, and by the time he got to Bath it was <<about nine o\x{2019}clock in the evening|6>> and the moon was coming up out of a clear starry sky over the houses opposite the station entrance. But the air was deadly cold and the wind was like a flat blade of ice on his cheeks."
           ],
           [
             1,
@@ -7360,8 +7357,8 @@ This last observation applied to the dark gallery, and was indicated by the comp
           ],
           [
             1,
-            'Timestr [21:28]: 9:28',
-            'From that moment on--<<9:28|2>> in the evening, June 18, 1941--everything was different.'
+            'Timestr [21:28]: 9:28 in the evening',
+            'From that moment on--<<9:28 in the evening|2a>>, June 18, 1941--everything was different.'
           ],
           [
             1,
@@ -7530,8 +7527,8 @@ This last observation applied to the dark gallery, and was indicated by the comp
           ],
           [
             1,
-            'Timestr [22:11]: eleven minutes past ten',
-            'Therefore a sergeant called Trifonov had been on post all day or all week and then he had left at <<eleven minutes past ten|10>> in the evening.'
+            'Timestr [22:11]: eleven minutes past ten in the evening',
+            'Therefore a sergeant called Trifonov had been on post all day or all week and then he had left at <<eleven minutes past ten in the evening|10>>.'
           ],
           [
             1,
@@ -7616,7 +7613,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [22:30]: ten-thirty',
-            'The time was <<ten-thirty|5b>> but it could have been <<three|8>> in the morning, because along its borders, West Berlin goes to bed with the dark'
+            'The time was <<ten-thirty|5b>> but it could have been <<three in the morning|5>>, because along its borders, West Berlin goes to bed with the dark'
           ],
           [
             1,
