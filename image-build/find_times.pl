@@ -42,8 +42,10 @@ sub search_zip {
     my (undef, undef, $basename) = File::Spec->splitpath($file);
 
     my $members_seen = 0;
+    my @members;
     foreach my $member (sort {$a cmp $b} $zip->members()) {
         my $name = $member->fileName();
+        push @members, $name;
         next if $name !~ /\.([x]?html?|xml)$/;
 
         my $contents = $member->contents();
@@ -53,6 +55,7 @@ sub search_zip {
                                    \Q<html \E
                                   }x;
         next unless $contents =~ m{content="text/html};
+        $members_seen = 1;
 
         my @lines = split m{</(?:p|div)>\R*}, $contents;
         foreach my $line (@lines) {
@@ -75,7 +78,7 @@ sub search_zip {
         }
     }
 
-    die "No members in '$file'"
+    die "No members in '$file'.  Saw: " . Dumper(\@members)
         unless $members_seen;
 
     print Dumper \@res

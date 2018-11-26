@@ -294,7 +294,7 @@ It was <<six a.m.|5>>, and the fog seemed glued to the windows, so thick that it
           [
             1,
             'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - twenty-five',
-            "I turned to the man. Now, facing him, I could see that he was no more than <<twenty-five|5a:0>>. \x{2018}The lady wants you to go away.\x{2019}"
+            "I turned to the man. Now, facing him, I could see that he was no more than twenty-five. \x{2018}The lady wants you to go away.\x{2019}"
           ],
           [
             1,
@@ -304,7 +304,7 @@ It was <<six a.m.|5>>, and the fog seemed glued to the windows, so thick that it
           [
             1,
             'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - twenty-eight',
-            "\x{2018}I own slums,\x{2019} she said. \x{2018}Fifty-seven of them \x{2013} I mean, fifty-seven units. I used to own a hundred and <<twenty-eight|5a:0>> units. But these fifty-seven are in eighteen different locations. God, it\x{2019}s a problem \x{2013} people always want paint, things fixed, a new roof.\x{2019}"
+            "\x{2018}I own slums,\x{2019} she said. \x{2018}Fifty-seven of them \x{2013} I mean, fifty-seven units. I used to own a hundred and twenty-eight units. But these fifty-seven are in eighteen different locations. God, it\x{2019}s a problem \x{2013} people always want paint, things fixed, a new roof.\x{2019}"
           ],
           [
             1,
@@ -360,7 +360,7 @@ It was a brutal city, but at <<six in the morning|9a>> a froth of fog endowed it
           [
             1,
             'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - twenty-four',
-            "The Indians said the blacks were violent; the blacks said the Indians were thieves. But the blacks did not deny that some blacks were thieves. They blamed the young, the Rastas, the unemployed. Everyone in Col\x{f3}n looks unemployed, even the shopkeepers: not a customer in sight. But if business is slack \x{2013} and it certainly seemed slack to me \x{2013} it might be understandable. Look at the merchandise: Japanese pipes that look as if they\x{2019}re for blowing soap-bubbles; computerized radios and ridiculously complicated cameras; dinner services for <<twenty-four|5a:0>> and purple sofas; leather neckties, plastic kimonos, switchblades and bowie knives; and stuffed alligators in eight sizes, the smallest for \$2, the largest \x{2013} four feet long \x{2013} for \$65; stuffed armadilloes for \$35, and even a stuffed toad, like a cricket ball with legs, for a dollar. And junk: letter-openers, onyx eggs, flimsy baskets, and pokerwork mats turned out by the thousand by the derelict Cu\x{f1}a Indians. Who needs this stuff?"
+            "The Indians said the blacks were violent; the blacks said the Indians were thieves. But the blacks did not deny that some blacks were thieves. They blamed the young, the Rastas, the unemployed. Everyone in Col\x{f3}n looks unemployed, even the shopkeepers: not a customer in sight. But if business is slack \x{2013} and it certainly seemed slack to me \x{2013} it might be understandable. Look at the merchandise: Japanese pipes that look as if they\x{2019}re for blowing soap-bubbles; computerized radios and ridiculously complicated cameras; dinner services for twenty-four and purple sofas; leather neckties, plastic kimonos, switchblades and bowie knives; and stuffed alligators in eight sizes, the smallest for \$2, the largest \x{2013} four feet long \x{2013} for \$65; stuffed armadilloes for \$35, and even a stuffed toad, like a cricket ball with legs, for a dollar. And junk: letter-openers, onyx eggs, flimsy baskets, and pokerwork mats turned out by the thousand by the derelict Cu\x{f1}a Indians. Who needs this stuff?"
           ],
           [
             1,
@@ -477,7 +477,7 @@ It was not necessary for Otto to wake me up; the dust did that. It filled my com
           [
             1,
             'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - Twenty-five',
-            '... we had a full view of her decks. Shall I ever forget the triple horror of that spectacle? <<Twenty-five|5a:0>> or thirty human bodies, among whom were several females, lay scattered about between the counter and the galley in the last and most loathsome state of putrefaction. We plainly saw that not a soul lived in that fated vessel. Yet we could not help shouting to the dead for help!'
+            '... we had a full view of her decks. Shall I ever forget the triple horror of that spectacle? Twenty-five or thirty human bodies, among whom were several females, lay scattered about between the counter and the galley in the last and most loathsome state of putrefaction. We plainly saw that not a soul lived in that fated vessel. Yet we could not help shouting to the dead for help!'
           ],
           [
             1,
@@ -492,7 +492,7 @@ It was not necessary for Otto to wake me up; the dust did that. It filled my com
           [
             1,
             'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - twenty-seven',
-            "In his third-floor office, which was penetrated with the smell of chocolate biscuits, we had a family reunion. Domingo, a tall, thin, rather English-looking fellow, remembered my grandmother\x{2019}s visit to Italy. His grandfather had started the factory in Guayaquil, and on the death of this pioneer the business had passed to Vicente, Domingo\x{2019}s father. Ill-health, and an interest in Inca history, caused Vicente to retire; now he added to his already large collection of Pre-Colombian art and he wrote historical monographs on the subject \x{2013} he had recently published, in Italian, Pre-Colombian Ecuador, a history. Domingo, only <<twenty-seven|5a:0>>, had married at nineteen; his wife was blonde and bird-like, their two children as handsome as princelings. His yacht, the Vayra, was moored on the River Guayas, his Chevy Impala was parked at the factory, his jeep and his Mercedes were at his villa in the outskirts of town. But he was, for all his wealth, a modest person, if a bit rueful that the running of the entire business had fallen to him."
+            "In his third-floor office, which was penetrated with the smell of chocolate biscuits, we had a family reunion. Domingo, a tall, thin, rather English-looking fellow, remembered my grandmother\x{2019}s visit to Italy. His grandfather had started the factory in Guayaquil, and on the death of this pioneer the business had passed to Vicente, Domingo\x{2019}s father. Ill-health, and an interest in Inca history, caused Vicente to retire; now he added to his already large collection of Pre-Colombian art and he wrote historical monographs on the subject \x{2013} he had recently published, in Italian, Pre-Colombian Ecuador, a history. Domingo, only twenty-seven, had married at nineteen; his wife was blonde and bird-like, their two children as handsome as princelings. His yacht, the Vayra, was moored on the River Guayas, his Chevy Impala was parked at the factory, his jeep and his Mercedes were at his villa in the outskirts of town. But he was, for all his wealth, a modest person, if a bit rueful that the running of the entire business had fallen to him."
           ],
           [
             1,
@@ -690,7 +690,7 @@ Romance brought up the <<nine-fifteen|5a:0>>."
           [
             1,
             'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - about twenty-five',
-            "Most of the compartments were empty. Walking through the cars just before the whistle blew, I saw a Mexican family, some children travelling with their mother, a pair of worried-looking American tourists, and a winking middle-aged lady in a fake leopard-skin coat. In the bedroom across the corridor from mine there was an old woman and her pretty companion, a girl of <<about twenty-five|5a:0>>. The old woman was flirtatious with me and sharp with the girl, who I supposed was her daughter. The girl was desperately shy, and her drab clothes (the old woman wore a mink around her neck) and her lovely face with its sallow English sadness, gave her expression a sort of passionate purity. All the way to Mexico City I tried to talk to this girl, but each time the old woman interrupted with cackling questions and never allowed the girl to reply. I decided that the girl\x{2019}s submissiveness was more than daughterly obedience: she was a servant, maintaining an anxious silence. Her eyes were green, and I think that even that aged woman\x{2019}s vanity could not have prevented her from knowing how attractive this girl was, or the true motive for my questions. There was something Russian and old-fashioned and impenetrable about this pair."
+            "Most of the compartments were empty. Walking through the cars just before the whistle blew, I saw a Mexican family, some children travelling with their mother, a pair of worried-looking American tourists, and a winking middle-aged lady in a fake leopard-skin coat. In the bedroom across the corridor from mine there was an old woman and her pretty companion, a girl of about twenty-five. The old woman was flirtatious with me and sharp with the girl, who I supposed was her daughter. The girl was desperately shy, and her drab clothes (the old woman wore a mink around her neck) and her lovely face with its sallow English sadness, gave her expression a sort of passionate purity. All the way to Mexico City I tried to talk to this girl, but each time the old woman interrupted with cackling questions and never allowed the girl to reply. I decided that the girl\x{2019}s submissiveness was more than daughterly obedience: she was a servant, maintaining an anxious silence. Her eyes were green, and I think that even that aged woman\x{2019}s vanity could not have prevented her from knowing how attractive this girl was, or the true motive for my questions. There was something Russian and old-fashioned and impenetrable about this pair."
           ],
           [
             1,

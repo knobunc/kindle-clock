@@ -171,7 +171,7 @@ my $never_follow_times_re =
       | hundred | thousand | million | billion
       | ( \w+ \s+)? $time_periods_re
       | thirds | halves | quarters
-      | dollars | cents | pounds | shillings | pennies | yuan
+      | dollars | cents | pounds | shillings | guineas | pennies | yuan
       | kids | children | men | women | girls | boys | families | people
       | rounds | turns | lines
       | books  | volumes | plates | illustrations
@@ -922,7 +922,8 @@ sub get_matches {
     push @r,qr{ (?<li> $not_in_match )
                 (?<t1>
                   ( $rel_words \s+ )?
-                  ( $hour24_word_re ( [-\s]+ | \s* ( \Q...\E | … ) \s* ) $min_word_re
+                  ( $hour24_word_re ( \s+ | \s* ( \Q...\E | … ) \s* ) $min_word_re
+                  | $hour_word_re ( [-\s]+ | \s* ( \Q...\E | … ) \s* ) $min_word_re
                   | $hour_dig_re [-.] $minsec0_dig_re
                   )
                   ( ,? \s* $ampm_re )? )
@@ -1177,16 +1178,24 @@ sub extract_times {
 
             my @hours = $hour;
             my @mins  = $min;
+            my ($low, $high, $exp) = get_spread($rel, $dir, $c{mn});
             if ($permute) {
+                # If we are permuting, we don't need the relative expression
+                $exp = '';
+
                 # Handle the 12 hour clock ambiguity
                 push @hours, $hour+12
                     unless $abs_hour;
 
                 # Handle relative times by spreading the range
-                my ($low, $high) = get_spread($rel, $dir, $c{mn});
                 @mins = ();
                 for my $d ($low .. $high) {
                     push @mins, $min + $d;
+                }
+            }
+            else {
+                if (not $abs_hour) {
+                    $exp = $exp eq '' ? 'ap' : "ap $exp";
                 }
             }
 
@@ -1195,7 +1204,10 @@ sub extract_times {
                     my ($hour, $min) = fix_time($h, $m);
                     my $t = sprintf("%02d:%02d", $hour, $min);
 
-                    my $time = "$t: " . join(" ",  map { defined $c{$_} ? "$_<$c{$_}>" : () } @k );
+                    $exp = $exp . ' '
+                        if $exp ne '';
+
+                    my $time = "$exp$t: " . join(" ",  map { defined $c{$_} ? "$_<$c{$_}>" : () } @k );
 
                     push @times, $time;
                 }
@@ -1253,18 +1265,18 @@ sub get_spread {
     my ($rel, $dir, $min) = @_;
 
     if ($rel eq '' and defined $dir and $dir ne '' and not defined $min) {
-        return (-9, -1)  if $dir =~ $before_re;
-        return ( 1,  9)  if $dir =~ $after_re;
+        return (-9, -1, '<')  if $dir =~ $before_re;
+        return ( 1,  9, '>')  if $dir =~ $after_re;
     }
 
-    return (  0,  0)  if $rel eq '';
-    return (-15, -5)  if $rel =~ m{\A $far_before_re   \s* \z}xin;
-    return ( -9, -1)  if $rel =~ m{\A ( $short_before_re
+    return (  0,  0, ''  )  if $rel eq '';
+    return (-15, -5, '<<')  if $rel =~ m{\A $far_before_re   \s* \z}xin;
+    return ( -9, -1, '<' )  if $rel =~ m{\A ( $short_before_re
                                       | close ( \s+ upon )?
                                       ) \s* \z}xin;
-    return ( -6,  6)  if $rel =~ m{\A $around_re       \s* \z}xin;
-    return (  1,  9)  if $rel =~ m{\A $short_after_re  \s* \z}xin;
-    return (  5, 15)  if $rel =~ m{\A $far_after_re    \s* \z}xin;
+    return ( -6,  6, '~' )  if $rel =~ m{\A $around_re       \s* \z}xin;
+    return (  1,  9, '>' )  if $rel =~ m{\A $short_after_re  \s* \z}xin;
+    return (  5, 15, '>>')  if $rel =~ m{\A $far_after_re    \s* \z}xin;
 
     if (defined $dir and $dir ne '') {
         if ($rel =~ m{\A ( (?<m> $min_re ) \s+ or
@@ -1279,9 +1291,9 @@ sub get_spread {
             }
 
             if ($dir =~ $before_re) {
-                return (-$rmin, 0);
+                return (-$rmin, 0, '<');
             }
-            return (0, $rmin);
+            return (0, $rmin, '>');
         }
         elsif ($rel =~ m{\A between \s* \z}xin and
                $min =~ m{\A (?<a> $min_re) \s+ ( and | or ) \s+ (?<b> $min_re) \s* }xin)
@@ -1294,14 +1306,14 @@ sub get_spread {
             $a  = 0;
 
             if ($dir =~ $before_re) {
-                return (-$b, 0);
+                return (-$b, 0, '-');
             }
-            return (0, $b);
+            return (0, $b, '-');
         }
     }
     else {
-        return ( 0,  0)  if $rel =~ m{\A ( until | at ) \s* \z}xin;
-        return (-5, -1)  if $rel =~ m{\A ( before ) \s* \z}xin;
+        return ( 0,  0, '' )  if $rel =~ m{\A ( until | at ) \s* \z}xin;
+        return (-5, -1, '<')  if $rel =~ m{\A ( before ) \s* \z}xin;
     }
 
     confess "Can't parse rel '$rel'";
