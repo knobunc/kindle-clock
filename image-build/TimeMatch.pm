@@ -158,23 +158,28 @@ my $month_re = qr{ January | February | March | April | May | June
 my $special_day_re = qr{ Christmas | Easter | New \s+ Year s? }xin;
 
 # Time periods
-my $time_periods_re = qr{ ( year | week | day | hour | half | minute | second ) s? }xin;
+my $time_periods_re = qr{ ( year | month | week | day | hour | half | minute | second ) s? }xin;
 
 # Things that never follow times
 my $never_follow_times_re =
-    qr{ with | that | which | point | time | stage | of | who
-      | after | since
-      | degrees
-      | centimeters | cm | meters | kilometers | km
-      | inches | feet | ft | yards | yd | miles | mi
-      | cubic | square
-      | hundred | thousand | million | billion
-      | ( \w+ \s+)? $time_periods_re
-      | thirds | halves | quarters
-      | dollars | cents | pounds | shillings | guineas | pennies | yuan
-      | kids | children | men | women | girls | boys | families | people
-      | rounds | turns | lines
-      | books  | volumes | plates | illustrations
+    qr{ ( with | that | which | point | time | stage | of | who
+        | after | since
+        | degrees
+        | centimeter | cm | meter | kilometer | km
+        | inch | inches | foot | feet | ft | yard | yd | miles | mi
+        | cubic | square
+        | hundred | thousand | million | billion
+        | ( \w+ \s+)? $time_periods_re
+        | third | half | halve | quarter
+        | dollar | cent | pound | shilling | guinea | penny | pennies | yuan
+        | and \s+ sixpence
+        | kid | children | man | men | woman | women | girl | boy
+        | family | families | person | people
+        | round | turn   | line
+        | book  | volume | plate | illustration
+        | side  | edge   | corner | face
+        )
+        s?
       }xin;
 
     # Set the branch state variable
@@ -203,7 +208,7 @@ sub do_match {
                    clock    |
                    watch    |
                    $midnight_noon_re |
-                   train \s+ time s? |
+                   train |
                    time \s+ are \s+ you \s+ meeting |
                    ( return | returned | back ) \s* $rel_at_words |
                    reported
@@ -277,7 +282,11 @@ sub get_masks {
               }xin;
 
     # odds of five to one
-    push @r,qr{ (?<pr> \s+ odds \s+ of \s+ )
+    push @r,qr{ (?<pr> \s+
+                 ( ( odds | betting ) \s+ ( of | being | at )
+                   | got | get
+                 ) \s+
+                )
                 (?<t1> $min_re \s+ to \s+ $min_re )
                 (?! ,? \s* $ampm_re)
                 \b
@@ -392,7 +401,11 @@ sub get_matches {
                   )
                   $till_re [-—\s]+
                   $hour24_re ( \s+ $oclock_re )? ( ,? \s* $ampm_re )?
-                  (?! \s+ ( possibilities | $time_periods_re )
+                  (?! \s+ ( possibilities
+                          | against
+                          | on \s+ the \s+ field
+                          | $time_periods_re
+                          )
                    | :\d | [-] )
                 )
                 $ba_re
@@ -404,7 +417,7 @@ sub get_matches {
     push @r,qr{ \b (?<pr> ( meet  | meeting  | meets
                       |  start | starting | starts
                      ) \s+
-                     ( ( tonight | today | tomorrow | $weekday_re | this ) \s+
+                     ( ( tonight | today | to-?morrow | $weekday_re | this ) \s+
                       ( ( morning | afternoon | evening ) \s+ )?
                      )?
                      at \s+
@@ -430,7 +443,7 @@ sub get_matches {
                       | \s+ for  \s+ ( breakfast | lunch | dinner | luncheon | tea )
                       | \s+ on   \s+ ( the \s+ )? $weekday_re
                       | \s+ that \s+ $timeday_re
-                      | \s+ ( tonight | today | tomorrow )
+                      | \s+ ( tonight | today | to-?morrow )
                       )
                    )
                    $ba_re
@@ -438,7 +451,7 @@ sub get_matches {
               }xin;
 
     # Ones with a phrase after to fix it better as a time
-    push @r,qr{ \b (?<pr> ( at | it \s+ was | twas | till ) \s+ )
+    push @r,qr{ \b (?<pr> ( at | it \s+ ( is | was ) | twas | it['‘’]s | till ) \s+ )
                    (?<t1> ( ( $rel_words ( \s+ at )? | ( close \s+ )? upon ) \s+ )?
                      $hour_word_re
                    )
@@ -448,7 +461,7 @@ sub get_matches {
                       | \s+ for  \s+ ( breakfast | lunch | dinner | luncheon | tea )
                       | \s+ on   \s+ ( the \s+ )? $weekday_re
                       | \s+ that \s+ $timeday_re
-                      | \s+ ( tonight | today | tomorrow )
+                      | \s+ ( tonight | today | to-?morrow )
                       )
                    ) $ba_re
                    (?{ $branch = "9a"; })
@@ -456,8 +469,10 @@ sub get_matches {
 
     # ... meet me ... at ten forty-five.
     push @r,qr{ $bb_re
-                (?<pr> meet \s+ me \b [^.!?]* \s+ at \s+ )
-                (?<t1> $hour24_re [-\s.]+ $min_word_re ( ,? \s* $ampm_re )? )
+                (?<li> meet \s+ me \b [^.!?]* \s+ at \s+
+                |      start \s+ by \s+ ( the \s+ )?
+                )
+                (?<t1> $hour24_re [-\s.]+ $min_re ( ,? \s* $ampm_re )? )
                 $ba_re
                 (?{ $branch = "5c"})
               }xin;
@@ -633,12 +648,12 @@ sub get_matches {
     # at 1237 when
     # by 8.45 on saturday
     push @r,qr{ (?<li> $not_in_match )
-                (?<pr> ( at | it \s+ is | it \s+ was | twas | by | by \s+ the ) \s+ )
+                (?<pr> ( at | it \s+ ( is | was ) | twas | it['‘’]s | by | by \s+ the ) \s+ )
                 (?<t1> $hour_re [?]? [-.\s]? $min_re )
                 (?<po>
                  \s+ ( ( ( on | in ) \s+ )? $weekday_re
                        | when
-                       | today | tonight
+                       | today | tonight | to-?morrow
                        | ( this | that | one | on \s+ the ) \s+
                          ( morning | morn | afternoon | evening | night )
                        )
@@ -648,7 +663,7 @@ sub get_matches {
               }xin;
     # Three in the morning
     push @r,qr{ (?<li> $not_in_match )
-                (?<pr> ( at | it \s+ is | it \s+ was | twas | by | by \s+ the ) \s+ )
+                (?<pr> ( at | it \s+ ( is | was ) | twas | it['‘’]s | by | by \s+ the ) \s+ )
                 (?<t1> $hour_re [?]? [-.\s]? $min_re
                   \s+ in
                   \s+ ( the \s+ ( morn | morning | afternoon | evening ) )
@@ -701,7 +716,7 @@ sub get_matches {
     # At ten, ...
     push @r,qr{ (?<pr>
                   ( \A | ['"‘’“”] | [.…;:?!,] \s+ )
-                  ( ( it \s+ was | twas | which \s+ was | and ) \s+ )?
+                  ( ( it \s+ ( is | was ) | twas | it['‘’]s | which \s+ was | and ) \s+ )?
                 )
                 (?<t1>
                   ( $rel_at_words | ( close \s+ )? upon | till | by ) \s+
@@ -713,7 +728,7 @@ sub get_matches {
               }xin;
     push @r,qr{ (?<pr>
                   ( \A | ['"‘’“”] | [.…;:?!] \s+ )
-                  ( it \s+ was | twas | it \s+ is ) \s+
+                  ( it \s+ ( is | was ) | twas | it['‘’]s ) \s+
                 )
                 (?<t1>
                   $hour_re ( [-:.] | \s+ )? $min0_re
@@ -755,7 +770,7 @@ sub get_matches {
     # here at nine ...
     push @r,qr{ (?<pr> \b
                   ( here | there
-                   | today | tonight | night
+                   | today | tonight | night | to-?morrow
                    | gets \s+ up | woke | rose | waking
                    | happened \s+ at
                    | news ) \s+
@@ -772,8 +787,10 @@ sub get_matches {
     push @r,qr{ (?<li> $not_in_match )
                 (?<pr> ( at \s+ a ) \s+ )
                 (?<t1> $hour24_word_re ( \s+ | [-.] ) $min_word_re ( ,? \s* $ampm_re )? )
-                (?<po> \s+ ( screening | viewing | performance | departure | arrival
-                       | game | play | movie | flight | train | ship )
+                (?<po> \s+
+                  ( screening | viewing | performance | departure | arrival
+                  | game | play | movie | flight | train | ship
+                  )
                 )
                 $ba_re
                 (?{ $branch = "5f"})
@@ -833,9 +850,35 @@ sub get_matches {
                 (?{ $branch = "13"})
               }xin;
 
+    # More at the end of a phrase
+    # ... tomorrow at one.
+    # ... to-morrow, at ten.
+    # ... monday, at twelve.
+    push @r,qr{ $bb_re
+                (?<pr>
+                  ( tonight | today | to-?morrow | $weekday_re ) ,? \s+
+                  at \s+
+                )
+                (?<t1>
+                  ( $rel_words \s+ )?
+                  ( near \s+ ( on \s+ )? )?
+                  $hour_re ( ( [-:.] | \s+ )? $min0_re )?
+                )
+                (?! [''‘’]s )
+                ( [-\s]* $never_follow_times_re \b (*SKIP)(*FAIL) )?
+                (?<po>
+                  ( \s+ or \s+ so )?
+                  ( [""''‘’“”]
+                   | [.…;:?!,] ( [""''‘’“”\s] | \z )
+                   | \s+ ( and | till | before | [-—] ) \s+
+                  )
+                )
+                (?{ $branch = "9o"})
+              }xin;
+
     push @r,qr{ (?<pr>
                   ( \A | ['"‘’“”] | [.…;:?!,] \s+ )
-                  ( ( it \s+ was | twas | because ) \s+)?
+                  ( ( | it \s+ ( is | was ) | twas | it['‘’]s | because ) \s+)?
                 )
                 (?<t1>
                   ( $rel_at_words | ( close \s+ )? upon | till | by ) \s+
@@ -867,6 +910,7 @@ sub get_matches {
                   $hour_re ( ( [-:.] | \s+ )? $min0_re )?
                 )
                 (?! [''‘’]s )
+                ( [-\s]* $never_follow_times_re \b (*SKIP)(*FAIL) )?
                 (?<po>
                   ( \s+ or \s+ so )?
                   ( [""''‘’“”]
@@ -905,7 +949,7 @@ sub get_matches {
     push @r,qr{ (?<li> $not_in_match )
                 (?<pr>
                   ( at ( \s+ last )?
-                  | it \s+ is | it \s+ was | twas | by
+                  | it \s+ ( is | was ) | twas | it['‘’]s | by
                   ) \s+
                 )
                 (?<t1>
@@ -1045,7 +1089,7 @@ sub extract_times {
                   (?<hr> $hour_re ) \s+ hours? \s+ and \s+ a \s+
                   (?<mn> $fraction_re )
                 ( ,? \s+ (?<am> $ampm_re ) )?
-                (?{ $branch = "9"})
+                (?{ $branch = "9n"})
               | # one ... thirty ... four
                 ( (?<rl> $rel_at_words ) \s+ )?
                   (?<hr> $hour24_word_re ) ( [\s\.]+ | [-] )
