@@ -14,11 +14,12 @@ use lib '.';
 
 use TimeMatch;
 
+$Data::Dumper::Trailingcomma = 1;
+
 exit main(@ARGV);
 
 # For highlighting:
 #  ./find_times.pl ~/Calibre\ Library/James\ Joyce/Dubliners\ \(3196\)/*epub | egrep -E '^|<<[^>]+(>>|$)|^[^<>]+>>'
-
 
 
 sub main {
@@ -69,7 +70,12 @@ sub search_zip {
 
             if ($line =~ /<</) {
                 my ($time_bit) = $line =~ m{<< ([^|>]+) [|] \d+ \w? (:\d)? >>}x;
-                push @res, [1, "$basename ($name) - $time_bit", $line];
+                my @times = extract_times("<<$time_bit|88>>")
+                    or die "Unable to extract time from '$time_bit': $line";
+
+                my ($t) = split /: /, $times[0];
+
+                push @res, [1, "[$t] $basename ($name) - $time_bit", $line];
 
                 print $line, "\n\n"
                     unless $output_dump;

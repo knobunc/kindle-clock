@@ -20,7 +20,7 @@ exit main(@ARGV);
 sub main {
     my ($re_str, @files) = @_;
 
-    my $re = qr{$re_str};
+    my $re = qr{$re_str}i;
 
     foreach my $file (@files) {
         search_zip($re, $file);

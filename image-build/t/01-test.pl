@@ -17,7 +17,8 @@ check_substring(get_csv_tests());
 check_extract(get_book_tests(), "book tests");
 check_extract(get_csv_tests(),  "csv tests");
 
-check_extract_times(get_csv_tests());
+check_extract_times(get_book_tests(), "book tests");
+check_extract_times(get_csv_tests(),  "csv tests");
 
 done_testing;
 
@@ -107,11 +108,11 @@ sub check_extract {
             my @matches = $string =~ m{<< ([^|>]+) [|] \d+ \w? (?: :\d)? >>}xg;
 
             if ($match == 1) {
-                is(int(@times), int(@matches), "Extract: ". join(", ", map {"'$_'"} @matches));
+                is(int(@times), int(@matches), "Extract '$string': ". join(", ", map {"'$_'"} @matches));
             }
             elsif ($match == -1) {
                 local $TODO = "should work";
-                is(int(@times), int(@matches), "Extract: ". join(", ", map {"'$_'"} @matches));
+                is(int(@times), int(@matches), "Extract: '$string'". join(", ", map {"'$_'"} @matches));
             }
         }
     };
@@ -119,27 +120,50 @@ sub check_extract {
 
 
 sub check_extract_times {
-    my ($tests) = @_;
+    my ($tests, $type) = @_;
 
-    subtest "Extract time" => sub {
+    subtest "Extract time $type" => sub {
         foreach my $t (@$tests) {
             my ($match, $name, $string) = @$t;
 
-            my ($time, $timestr) = $name =~ m{^ Timestr \s \[ ( \d\d:\d\d ) \] : \s (.+)}xi
-                or die "Bad name '$name'";
+            if ($type eq 'csv tests') {
+                # CSV tests
+                my ($time, $timestr) = $name =~ m{^ Timestr \s \[ ( \d\d:\d\d ) \] : \s (.+)}xi
+                    or die "Bad name '$name'";
 
-            my @times = extract_times($string, 1);
-            my @matches = $string =~ m{<< ([^|>]+) [|] \d+ \w? (?: :\d)? >>}xg;
+                my @times = extract_times($string, 1);
+                my @matches = $string =~ m{<< ([^|>]+) [|] \d+ \w? (?: :\d)? >>}xg;
 
-            if ($match == 1 or $match == -1) {
-                local $TODO = "should work"
-                    if $match == -1;
+                if ($match == 1 or $match == -1) {
+                    local $TODO = "should work"
+                        if $match == -1;
 
-                ok(grep({ m{^\Q$time\E:} } @times),
-                   "Match time $time: "
-                   . join(", ", map {"'$_'"} @matches)
-                   . "; got: ". join(", ", map {"'$_'"} @times)
-                   );
+                    ok(grep({ m{^\Q$time\E:} } @times),
+                       "Match time $time: "
+                       . join(", ", map {"'$_'"} @matches)
+                       . "; got: ". join(", ", map {"'$_'"} @times)
+                        );
+                }
+            }
+            else {
+                # Book tests
+                my ($time) = $name =~
+                    m{^ \[ (?<time> ( ap \s )? ( ( ~ | < | > | << | >> )  \s )? \d\d:\d\d ) \] \s }xin
+                    or die "Bad name '$name'";
+
+                my @times = extract_times($string, 0);
+                my @matches = $string =~ m{<< ([^|>]+) [|] \d+ \w? (?: :\d)? >>}xg;
+
+                if ($match == 1 or $match == -1) {
+                    local $TODO = "should work"
+                        if $match == -1;
+
+                    ok(grep({ m{^\Q$time\E:} } @times),
+                       "Match time $time: "
+                       . join(", ", map {"'$_'"} @matches)
+                       . "; got: ". join(", ", map {"'$_'"} @times)
+                        );
+                }
             }
         }
     };
@@ -147,624 +171,162 @@ sub check_extract_times {
 
 
 sub get_book_tests {
-    return [[1, "Trainspotting", "— Well, ah’m at <<one|9c:0>>. Ah’ll see ye back here at <<two|9b>>. Ah’ll gie ye ma tie tae pit oan, n some speed. Buck ye up a bit, let ye sell yirsel, ken? So let’s get tae work oan they appos."],
+    return [[1, "[ap 01:00] Trainspotting", "— Well, ah’m at <<one|9c:0>>. Ah’ll see ye back here at <<two|9b>>. Ah’ll gie ye ma tie tae pit oan, n some speed. Buck ye up a bit, let ye sell yirsel, ken? So let’s get tae work oan they appos."],
 
             ## Terry Pratchett/Making Money
           [
             1,
-            'Making Money - Terry Pratchett.epub - After nine',
-            'After nine seconds of industrious writing, Lord Vetinari looked up from his paperwork.'
-          ],
-          [
-            1,
-            'Making Money - Terry Pratchett.epub - eight',
+            '[ap 08:00] Making Money - Terry Pratchett.epub (Making_Money_split_004.html) - eight',
             "\x{201c}No, not at all. You have become an exemplary citizen, Mr. Lipwig,\x{201d} said Vetinari, carefully stamping a V into the cooling wax. \x{201c}You rise each morning at <<eight|9c:0>>, you are at your desk at thirty minutes past. You have turned the Post Office from a calamity into a smoothly running machine. You pay your taxes and a little bird tells me that you are tipped to be next year\x{2019}s chairman of the Merchants\x{2019} Guild. Well done, Mr. Lipwig!\x{201d}"
           ],
           [
             1,
-            'Making Money - Terry Pratchett.epub - twenty-nine minutes past eleven',
+            '[ap 11:29] Making Money - Terry Pratchett.epub (Making_Money_split_004.html) - twenty-nine minutes past eleven',
             "At <<twenty-nine minutes past eleven|10>> the alarm on his desk clock went bing. Moist got up, put his chair under the desk, walked to the door, counted to three, opened it, said \x{201c}Hello, Tiddles\x{201d} as the Post Office\x{2019}s antique cat padded in, counted to nineteen as the cat did its circuit of the room, said \x{201c}Good-bye, Tiddles\x{201d} as it plodded back into the corridor, shut the door, and went back to his desk."
           ],
           [
             1,
-            'Making Money - Terry Pratchett.epub - twenty-seven minutes and thirty-six seconds past one',
+            '[ap 01:27] Making Money - Terry Pratchett.epub (Making_Money_split_005.html) - twenty-seven minutes and thirty-six seconds past one',
             "\x{201c}You jest, Mr. Lipwig, but there may be a grain of truth there.\x{201d} Bent sighed. \x{201c}I can see you have a lot to learn, and at least you\x{2019}ll have me to teach you. And now, I think, you would like to see the Mint. People always like to see the Mint. It\x{2019}s <<twenty-seven minutes and thirty-six seconds past one|10>>, so they should have finished their lunch hour.\x{201d}"
           ],
           [
             1,
-            'Making Money - Terry Pratchett.epub - one one',
-            "\x{201c}I\x{2019}m glad you asked me that, sir. Fine work, sir, tots up to seven and one one-sixteenth pence. And, yes, there\x{2019}s one-sixteenth of a penny, sir, the elim.\x{201d}"
-          ],
-          [
-            1,
-            'Making Money - Terry Pratchett.epub - about five',
-            "Rightly or wrongly, Hubert is one of those names you put a shape to. There may well be tall, slim Huberts, Moist would be the first to agree, but this Hubert was shaped like a proper Hubert, which is to say, stubby and plump. He had red hair\x{2014}unusual, in Moist\x{2019}s experience, in the standard-model Hubert. It grew thickly, straight up from his head, like the bristles of a brush; about five inches up, someone had apparently cut it short with the aid of shears and a spirit level. You could have stood a cup and saucer on it."
-          ],
-          [
-            1,
-            'Making Money - Terry Pratchett.epub - two',
+            '[ap 02:00] Making Money - Terry Pratchett.epub (Making_Money_split_006.html) - two',
             "\x{201c}So if I save ninety-three-point-forty-seven dollars a year for seven years at <<two|9c:0>> and a quarter percent, compound, how\x{2014}\x{201d}"
           ],
           [
             1,
-            'Making Money - Terry Pratchett.epub - noon',
+            '[12:00] Making Money - Terry Pratchett.epub (Making_Money_split_006.html) - midday',
+            "Lunchtime arrived, and with it a plate of one-foot-wide cheese sandwiches delivered by Gladys, along with the <<midday|13>> copy of the Times\x{2014}"
+          ],
+          [
+            1,
+            '[12:00] Making Money - Terry Pratchett.epub (Making_Money_split_007.html) - noon',
             "\x{201c}She died sitting at her desk, Master,\x{201d} said Bent soothingly, as he untied the string on the big round box. \x{201c}We have replaced the chair. By the way, she is to be buried tomorrow. Small Gods, at <<noon|9e>>, family members only, by request.\x{201d}"
           ],
           [
             1,
-            'Making Money - Terry Pratchett.epub - around midnight',
+            '[~ 00:00] Making Money - Terry Pratchett.epub (Making_Money_split_007.html) - around midnight',
             "Next evening, it turned out that the pecunious youth spent the evening in a bar and died outside in a drunken brawl <<around midnight|13>>, short of money and even shorter of breath. Heretofore\x{2019}s room was next to Cranberry\x{2019}s. On reflection, he\x{2019}d heard the man come in late that night."
           ],
           [
             1,
-            'Making Money - Terry Pratchett.epub - two',
+            '[< 20:00] Making Money - Terry Pratchett.epub (Making_Money_split_008.html) - Nearly twenty',
+            "\x{201c}<<Nearly twenty|9:0>>!\x{201d}"
+          ],
+          [
+            1,
+            '[ap ~ 02:00] Making Money - Terry Pratchett.epub (Making_Money_split_008.html) - About two',
+            "\x{201c}<<About two|9:0>> or three hundred, but\x{2014}\x{201d}"
+          ],
+          [
+            1,
+            '[ap 02:00] Making Money - Terry Pratchett.epub (Making_Money_split_008.html) - two',
             "\x{201c}Do you mean \x{2018}borrow at one-half, lend at <<two|9c:0>>, go home at <<three|9c:0>>\x{2019}?\x{201d} said Bent."
           ],
           [
             1,
-            'Making Money - Terry Pratchett.epub - midnight',
+            '[ap ~ 00:00] Making Money - Terry Pratchett.epub (Making_Money_split_008.html) - About twelve',
+            "\x{201c}<<About twelve|9:0>>,\x{201d} said Moist."
+          ],
+          [
+            1,
+            '[ap 05:00] Making Money - Terry Pratchett.epub (Making_Money_split_008.html) - Five',
+            "\x{201c}<<Five|9k:0>>? It says it\x{2019}s worth one!\x{201d} said Pucci, aghast."
+          ],
+          [
+            1,
+            '[17:00] Making Money - Terry Pratchett.epub (Making_Money_split_008.html) - Seventeen',
+            "\x{201c}<<Seventeen|9k:0>>,\x{201d} said Moist."
+          ],
+          [
+            1,
+            '[00:00] Making Money - Terry Pratchett.epub (Making_Money_split_009.html) - midnight',
             "The guard who finally turned up to see who was struggling to unlock the front door gave him a bit of trouble until a second guard, who was capable of modest intelligence, pointed out that if the chairman wanted to get into the bank at <<midnight|13>> then that was fine. He was the damn boss, wasn\x{2019}t he? Don\x{2019}t you read the papers? See gold suit? And he had a key! So what if he had a big fat bag? He was coming in with it, right? If he was leaving with it, might be a different matter, ho ho, just my little joke, sir, sorry about that sir\x{2026}"
           ],
           [
             1,
-            'Making Money - Terry Pratchett.epub - two a.m.',
+            '[02:00] Making Money - Terry Pratchett.epub (Making_Money_split_009.html) - two a.m.',
             "The man would be miles away by now, and not even a vampire or a werewolf could smell him on a wet and windy night like this. They couldn\x{2019}t pin anything on Moist, but in the cold, wet light of <<two a.m.|5>>, he could imagine bloody Commander Vimes worrying at this, picking away at it in that thick-headed way of his."
           ],
           [
             1,
-            "Making Money - Terry Pratchett.epub - four o\x{2019}clock",
+            "[ap ~ 04:00] Making Money - Terry Pratchett.epub (Making_Money_split_009.html) - about four o\x{2019}clock",
             "It must be <<about four o\x{2019}clock|6>>, thought Moist. <<Four o\x{2019}clock|6>>! I hate it when there are two <<four o\x{2019}clocks|6>> in the same day\x{2026}"
           ],
           [
             1,
-            "Making Money - Terry Pratchett.epub - three o\x{2019}clock",
+            '[00:13] Making Money - Terry Pratchett.epub (Making_Money_split_009.html) - 0.13',
+            "\x{201c}Ah, yes, in the third iteration,\x{201d} said Ponder. \x{201c}They couldn\x{2019}t get much further than that in those days. Now, of course, we\x{2019}ve got controlled recursion and aim-driven folding that effectively reduces collateral boxing to <<0.13|5a:0>> percent, a twelvefold improvement in the last year alone!\x{201d}"
+          ],
+          [
+            1,
+            "[ap 03:00] Making Money - Terry Pratchett.epub (Making_Money_split_009.html) - three o\x{2019}clock",
             "\x{201c}I said the Department of Postmortem Communications,\x{201d} said Ponder very firmly. \x{201c}I suggest you come back at <<three o\x{2019}clock|6>>.\x{201d}"
           ],
           [
             1,
-            'Making Money - Terry Pratchett.epub - half past seven',
-            "\x{201c}I\x{2019}m not sure. In fact I\x{2019}d better go and check. Look, we\x{2019}ve both had a busy day. I\x{2019}ll send a cab at <<half past seven|10>>, all right?\x{201d}"
-          ],
-          [
-            -1,
-            'Making Money - Terry Pratchett.epub - six three',
-            "The Patrician shut his eyes, drummed his fingers on the desktop for a moment. \x{201c}Hmm\x{2026}nine six three one seven four\x{2014}\x{201d} Drumknott scribbled hastily as the numbers streamed, and Vetinari eventually concluded: \x{201c}\x{2014}eight four seven three. And I\x{2019}m sure they used that one last month. On a Monday, I believe.\x{201d}"
+            '[ap 04:00] Making Money - Terry Pratchett.epub (Making_Money_split_010.html) - Four',
+            "\x{201c}I told you. <<Four|9k:0>>.\x{201d}"
           ],
           [
             1,
-            "Making Money - Terry Pratchett.epub - nine o\x{2019}clock",
+            '[ap 07:30] Making Money - Terry Pratchett.epub (Making_Money_split_010.html) - half past seven',
+            "\x{201c}I\x{2019}m not sure. In fact I\x{2019}d better go and check. Look, we\x{2019}ve both had a busy day. I\x{2019}ll send a cab at <<half past seven|10>>, all right?\x{201d}"
+          ],
+          [
+            1,
+            '[ap 09:06] Making Money - Terry Pratchett.epub (Making_Money_split_011.html) - nine six',
+            "The Patrician shut his eyes, drummed his fingers on the desktop for a moment. \x{201c}Hmm\x{2026}<<nine six|5a:0>> <<three one|5a:0>> seven four\x{2014}\x{201d} Drumknott scribbled hastily as the numbers streamed, and Vetinari eventually concluded: \x{201c}\x{2014}<<eight four|5a:0>> <<seven three|5a:0>>. And I\x{2019}m sure they used that one last month. On a Monday, I believe.\x{201d}"
+          ],
+          [
+            1,
+            "[ap 09:00] Making Money - Terry Pratchett.epub (Making_Money_split_012.html) - nine o\x{2019}clock",
             "
 \x{201c}I\x{2019}M AFRAID I have to close the office now, Reverend,\x{201d} the voice of Ms. Houser broke into Cribbins\x{2019}s dreams. \x{201c}We open up again at <<nine o\x{2019}clock|6>> tomorrow,\x{201d} it added hopefully."
           ],
           [
             1,
-            'Making Money - Terry Pratchett.epub - Four fifteen',
+            '[ap 03:00] Making Money - Terry Pratchett.epub (Making_Money_split_012.html) - three',
+            "\x{201c}\x{2014}and so you have two, and soon it\x{2019}s <<three|9f>>, and eventually there\x{2019}s more horseradish than beef, and then one day you realize the beef fell out and you didn\x{2019}t notice.\x{201d}"
+          ],
+          [
+            1,
+            '[ap 04:15] Making Money - Terry Pratchett.epub (Making_Money_split_012.html) - Four fifteen',
             "He looked at his watch. <<Four fifteen|5a:1>>, and no one about but the guards. There were watchmen on the main doors. He was indeed not under arrest, but this was one of those civilized little arrangements: he was not under arrest, provided that he didn\x{2019}t try to act like a man who was not under arrest."
           ],
           [
             1,
-            'Making Money - Terry Pratchett.epub - six a.m.',
+            '[13:00] Making Money - Terry Pratchett.epub (Making_Money_split_012.html) - Thirteen',
+            "\x{201c}<<Thirteen|9k:0>>?\x{201d} he quavered."
+          ],
+          [
+            1,
+            "[ap 09:00] Making Money - Terry Pratchett.epub (Making_Money_split_014.html) - Nine o\x{2019}clock",
+            "\x{201c}<<Nine o\x{2019}clock|6>> tomorrow, in the Great Hall,\x{201d} said Vetinari. \x{201c}I invite all interested parties to attend. We shall get to the bottom of this.\x{201d} He raised his voice. \x{201c}Are there any directors of the Royal Bank here? Ah, Mr. Lavish. Are you well?\x{201d}"
+          ],
+          [
+            1,
+            '[ap 05:00] Making Money - Terry Pratchett.epub (Making_Money_split_015.html) - five',
+            "In fact, it stomped after the coach all the way to the palace. There were a lot of watchmen lining the route and there seemed to be a black-clad figure on every rooftop. It looked as though Vetinari was not taking any chances on him escaping. There were more guards waiting in the back courtyard\x{2014}more than was efficient, Moist could tell, since it can be easier for a swift-thinking man to get away from twenty men than from <<five|9c:0>>. But somebody was Making A Statement. It didn\x{2019}t matter what it was, so long as it looked impressive."
+          ],
+          [
+            1,
+            '[06:00] Making Money - Terry Pratchett.epub (Making_Money_split_016.html) - six a.m.',
             '
 It was <<six a.m.|5>>, and the fog seemed glued to the windows, so thick that it should have contained croutons. But he liked these moments, before the fragments of yesterday reassembled themselves.'
           ],
           [
-            -1,
-            'Making Money - Terry Pratchett.epub - Two',
-            "\x{201c}Oh, yes. Two, five, and ten dollars to start with. And the fives and tens will talk.\x{201d}"
+            1,
+            '[ap 02:00] Making Money - Terry Pratchett.epub (Making_Money_split_016.html) - Two',
+            "\x{201c}Oh, yes. <<Two|9i:0>>, <<five|9i:0>>, and ten dollars to start with. And the fives and tens will talk.\x{201d}"
           ],
 
 
             ## Paul Theroux - The Old Patagonian Express
           [
             1,
-            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - five',
-            'It took an hour for the Lakes of the South Express to disentangle itself from the city. We had left at <<five|9c:1>>, on a sunny afternoon, but when we began speeding across the pampas, a cool immense pasture, it was growing dark. Then the afterglow of sunset was gone, and in the half-dark the grass was grey, the trees black; some cattle were as reposeful as boulders and in one field five white cows were as luminous as laundry.'
-          ],
-          [
-            1,
-            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - Just after eleven',
-            "<<Just after eleven|10>> that morning we came to the town of Carmen de Patagones, on the north bank of the Rio Negro. At the other end of the bridge was Viedma. This river I took to be the true dividing line between the fertile part of Argentina and the dusty Patagonian plateau. Hudson begins his book on Patagonia with a description of this river valley, and the inaccuracy of its name was consistent with all the misnamed landscape features I had seen since Mexico. \x{2018}The river was certainly miscalled Cusar-leof\x{fa}, or Black River, by the aborigines,\x{2019} says Hudson, \x{2018}unless the epithet referred only to its swiftness and dangerous character; for it is not black at all in appearance \x{2026} The water, which flows from the Andes across a continent of stone and gravel, is wonderfully pure, in colour a clear sea-green.\x{2019} We remained on the north bank, at a station on the bluff. A lady in a shed was selling stacks of bright red apples, five at a time. She looked like the sort of brisk enterprising woman you see on a fall day in a country town in Vermont \x{2013} her hair in a bun, rosy cheeks, a brown sweater and heavy skirt. I bought some apples and asked if they were Patagonian. Yes, she said, they were grown right here. And then, \x{2018}Isn\x{2019}t it a beautiful day!\x{2019}"
-          ],
-          [
-            1,
-            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - one-thirty in the morning',
-            "It was sunny, with a stiff breeze riffling the Lombardy poplars. We were delayed for about an hour, but I didn\x{2019}t mind. In fact, the longer we were delayed the better, since I was scheduled to get off the train at Jacobacci at the inconvenient hour of <<one-thirty in the morning|5>>. The connecting train to Esquel was not leaving until <<six AM|5>>, so it hardly mattered what time I got to Jacobacci."
-          ],
-          [
-            1,
-            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - About two',
-            "\x{2018}<<About two|9e>>, tomorrow morning.\x{2019}"
-          ],
-          [
-            1,
-            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - five-thirty',
-            "\x{2018}Wait,\x{2019} he said. \x{2018}The train to Esquel does not leave until <<five-thirty|9c:1>>.\x{2019}"
-          ],
-          [
-            1,
-            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - seven in the morning',
-            "I had arrived in Veracruz at <<seven in the morning|9a>>, found a hotel in the pretty Plaza Constitucion and gone for a walk. I had absolutely nothing to do: I did not know a soul in Veracruz, and the train to the Guatemalan border was not leaving for two days. Still, this did not seem a bad place. There are few tourist attractions in Veracruz; there is an old fort and, about two miles south, a beach. The guidebooks are circumspect about des-scribing this fairly ugly city: one calls it \x{2018}exuberant\x{2019}, another \x{2018}picturesque\x{2019}. It is a faded seaport, with slums and tacky modernity crowding the quaintly ruined buildings at its heart. Unlike any other Mexican city, it has pavement caf\x{e9}s, where forlorn children beg and marimba players complete the damage to your eardrums that was started on the descent from the heights of Orizaba. Mexicans treat stray children the way other people treat stray cats (Mexicans treat stray cats like vermin), taking them on their laps and buying them ice cream, all the while shouting to be heard over the noise of the marimbas."
-          ],
-          [
-            1,
-            "The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - eleven o\x{2019}clock",
-            "
-\x{2018}Pomp and Circumstance\x{2019}? In Veracruz? At <<eleven o\x{2019}clock at night|6>>?"
-          ],
-          [
-            1,
-            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - twenty-five',
-            "I turned to the man. Now, facing him, I could see that he was no more than twenty-five. \x{2018}The lady wants you to go away.\x{2019}"
-          ],
-          [
-            1,
-            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - midnight',
-            "But he had boarded the plane and vanished. In nine days of searching, Nicky had not been able to find a trace of him. Perhaps it was the effect of the Dashiell Hammett novel I had just read, but I found myself examining her situation with a detective\x{2019}s scepticism. Nothing could have been more melodramatic, or more like a Bogart film: <<near midnight|13>> in Veracruz, the band playing ironical love songs, the plaza crowded with friendly whores, the woman in the white suit describing the disappearance of her Mexican husband. It is possible that this sort of movie-fantasy, which is available to the solitary traveller, is one of the chief reasons for travel. She had cast herself in the role of leading lady in her search drama, and I gladly played my part. We were far from home: we could be anyone we wished. Travel offers a great occasion to the amateur actor."
-          ],
-          [
-            1,
-            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - twenty-eight',
-            "\x{2018}I own slums,\x{2019} she said. \x{2018}Fifty-seven of them \x{2013} I mean, fifty-seven units. I used to own a hundred and twenty-eight units. But these fifty-seven are in eighteen different locations. God, it\x{2019}s a problem \x{2013} people always want paint, things fixed, a new roof.\x{2019}"
-          ],
-          [
-            1,
-            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - seven in the morning',
-            "The Rimac river flowed past the railway station. At <<seven in the morning|9a>> it was black; it became grey as the sun moved above the foothills of the Andes. The sandy mountains at the city\x{2019}s edge give Lima the feel of a desert city hemmed-in on one side by hot plateaux. It is only a few miles from the Pacific Ocean, but the land is too flat to permit a view of the sea, and there are no sea breezes in the day-time. It seldom rains in Lima. If it did, the huts \x{2013} several thousand of them \x{2013} in the shanty town on the bank of the Rimac would need roofs. The slum is odd in another way; besides being entirely roofless, the huts in this (to use the Peruvian euphemism) \x{2018}young village\x{2019} are woven from straw and split bamboo and cane. They are small frail baskets, open to the stars and sun, and planted beside the river which, some miles from the station, is cocoa-coloured. The people wash in this river water; they drink it and cook with it; and when their dogs die, or there are chickens\x{2019} entrails to be disposed of, the river receives this refuse."
-          ],
-          [
-            1,
-            "The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - four o\x{2019}clock",
-            "We entered the valley and zig-zagged on the walls. It was hardly a valley. It was a cut in the rock, a slash so narrow that the diesel\x{2019}s hooter hardly echoed: the walls were too close to sustain an answering sound. We were due at Huancayo at <<four o\x{2019}clock|6>>; by mid-morning I thought we might arrive early, but at <<noon|13>> our progress had been so slow I wondered whether we would get to Huancayo that day. And long before Ticlio I had intimations of altitude sickness. I was not alone; a number of other passengers, some of them Indians, looked distinctly ghastly."
-          ],
-          [
-            1,
-            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - 15',
-            "We entered a tunnel. We had been through other tunnels, but this one was long, and it had a certain distinction: it was, at 15,848 feet, the highest railway tunnel in the world. The train was loud \x{2013} deafening, in fact, and I don\x{2019}t think I had ever felt sicker in my life. I sprayed the last of my balloon gas into my mouth, swallowed, and got another one. \x{2018}I feel like throwing up,\x{2019} said the fellow from Minnesota. In the weak yellow light, with his cowboy hat over his eyes, he looked limp and fatally stricken. I did not feel so well myself, but when we emerged from the Galera Tunnel I knew we were past the highest point, and having survived that I was sure I would make it to Huancayo."
-          ],
-          [
-            1,
-            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - six in the morning',
-            "
-
-
-    The Old Patagonian Express
-
-
-
-
-
-
-
-It was a brutal city, but at <<six in the morning|9a>> a froth of fog endowed it with a secrecy and gave it the simplicity of a mountain-top. Before the sun rose to burn it away, the fog dissolved the dull straight lines of its streets, and whitened its low houses and made its sombre people ghostly as they appeared for moments before being lifted away, like revengers glimpsed in their hauntings. Then Guatemala City, such a grim thing, became a tracing, a sketch without substance, and the poor Indians and peasants \x{2013} who had no power \x{2013} looked blue and bold and watchful. They possessed it at this hour. There was no wind; the fog hung in fine grey clouds, a foot from the ground. Even the railway station, no more than a brick shed, took on the character of a great terminus: there was no way of verifying that it did not rise up for five stories in a clock tower crowned by pigeons and iron-work, so well hidden was its small tin roof by the fog the volcanoes had trapped. There were about twenty people standing near the ticket window of the station \x{2013} in rags; but their rags seemed just another deception of the fog."
-          ],
-          [
-            1,
-            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - ten in the morning',
-            "I did have one fear: that the train would stop, just like that, no warning, no station; that the engine would seize up in the heat and that we would be stuck here. It had happened on what was regarded as a fine railway a hundred miles out of Veracruz, and the Mexicans had no explanation. This railway was clearly much older, the engine more of a gasper. And suppose it does, I thought, suppose it just stops here and can\x{2019}t start? It was <<ten in the morning|9a>>, the open cars were full of people, the train carried no water, there was no road for miles, nor was there any shade. How long did it take to die? I guessed it would not take long in this boundless desert."
-          ],
-          [
-            1,
-            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - six-thirty in the morning',
-            "\x{2018}Yes, there is a train to Metapan in two days \x{2013} on Wednesday. At <<six-thirty in the morning|5>>. Do you want a ticket?\x{2019}"
-          ],
-          [
-            1,
-            "The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - past one o\x{2019}clock",
-            "\x{2018}Golly,\x{2019} he said, looking at his own. \x{2018}It\x{2019}s <<past one o\x{2019}clock|6>>. I don\x{2019}t know about you, but I\x{2019}m real hungry.\x{2019}"
-          ],
-          [
-            1,
-            "The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - ten o\x{2019}clock",
-            "I had not been inside an American high school for twenty years; how strange it was that the monkey house from which I had graduated had been reassembled, down to its last brick and home-room bell and swatch of ivy, here in Central America. And I knew in my bones what my reaction would have been at Medford High if it had been announced that, instead of Latin at <<ten o\x{2019}clock|6>>, there would be an assembly: a chance to fart around!"
-          ],
-          [
-            1,
-            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - twenty-four',
-            "The Indians said the blacks were violent; the blacks said the Indians were thieves. But the blacks did not deny that some blacks were thieves. They blamed the young, the Rastas, the unemployed. Everyone in Col\x{f3}n looks unemployed, even the shopkeepers: not a customer in sight. But if business is slack \x{2013} and it certainly seemed slack to me \x{2013} it might be understandable. Look at the merchandise: Japanese pipes that look as if they\x{2019}re for blowing soap-bubbles; computerized radios and ridiculously complicated cameras; dinner services for twenty-four and purple sofas; leather neckties, plastic kimonos, switchblades and bowie knives; and stuffed alligators in eight sizes, the smallest for \$2, the largest \x{2013} four feet long \x{2013} for \$65; stuffed armadilloes for \$35, and even a stuffed toad, like a cricket ball with legs, for a dollar. And junk: letter-openers, onyx eggs, flimsy baskets, and pokerwork mats turned out by the thousand by the derelict Cu\x{f1}a Indians. Who needs this stuff?"
-          ],
-          [
-            1,
-            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - 5:15',
-            "If I was to stay in Col\x{f3}n I would have to choose between the chaos and violence of the native quarter or the colonial antisepsis of the Zone. I took the easy way out, bought a ticket back to Panama City and boarded the <<5:15|2>>. As soon as we pulled out of the station, the skies darkened and it began to rain. This was the Caribbean: it might rain anytime here. Fifty miles away, on the Pacific, it was the Dry Season; it was not due to rain for six weeks. The Isthmus may be narrow, but the coasts are as distinct as if a great continent lay between them. The rain came down hard and swept across the fields; it blackened the canal and wrinkled it with wind; and it splashed the sides of the coach and ran down the windows. With the first drops the passengers had shut the windows and now we sat perspiring, as if soaked by the downpour."
-          ],
-          [
-            1,
-            "The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - seven o\x{2019}clock",
-            "All over the Zone it was Club-going Hour. At the officer\x{2019}s mess and the VFW, the American Legion and the Elks, at the Church of God Servicemen\x{2019}s Center, the Shriners Club, the Masons, the golf clubs, the Star of Eden Lodge No. 9, of the Ancient and Illustrious Star of Bethlehem, the Buffaloes, and the Moose, and at the Lord Kitchener Lodge No. 25, and the Company cafeteria in Balboa the day\x{2019}s work was done and clubby colonials of the Zone were talking. There was only one subject, the treaty. It was <<seven o\x{2019}clock|6>> in the Zone, but the year \x{2013} who could tell? It was not the present. It was the past that mattered to the Zonian; the present was what most Zonians objected to, and they had succeeded so far in stopping the clock, even as they kept the canal running."
-          ],
-          [
-            1,
-            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - midnight',
-            "At Balboa High some students were waiting for it to grow dark enough so that in stealth they could drive nails again into the locks, and jam them, and prevent school from opening. At <<midnight|9m>> the arts teacher suddenly remembered that she had left a kiln on and was afraid the school would burn down. She phoned the principal and he changed out of his pyjamas and checked. But there was no danger: the kiln had been left unplugged. Nor were the locks successfully jammed. The next day, school opened as usual, and all was well in the Zone. I was asked to stay longer, to go to a party, to discuss the treaty, to see the Indians. But my time was getting short; already it was March, and I had not yet set foot in South America. In a few days, there was a national election in Colombia, \x{2018}and they\x{2019}re expecting trouble,\x{2019} said Miss McKinven at the Embassy. These considerations, as Gulliver wrote, moved me to hasten my departure sooner than I intended."
-          ],
-          [
-            1,
-            "The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - just after nine o\x{2019}clock",
-            "
-
-
-    The Old Patagonian Express
-
-
-
-
-
-
-
-I had been on the train for twelve hours. There was something wrong with this train; a whole day of travelling and we had gone only a hundred miles or so, mostly through swamps. The heat had made me nauseous, and the noise of the banging doors, the anvil clang of the coupling, had given me a headache. Now it was night, still noisy, but very cold. The coach was open \x{2013} most of the eighty seats were occupied, nearly all the windows were broken, or jammed open. The bulbs on the ceiling were too dim to read by, too bright to allow me to sleep. The rest of the passengers slept, and one across the aisle was snoring loudly. The man behind me who, all day, had sighed and cursed and kicked the back of my seat in exasperation, had made a pillow of his fist and gone to sleep. The spiders and ants I had noticed during the day crawling in and out of the horsehair of the burst cushions had begun biting me. Or was it mosquitoes? My ankles itched and stung. It was <<just after nine o\x{2019}clock|10>>. I held a copy of Pudd\x{2019}nhead Wilson. I had given up trying to read it."
-          ],
-          [
-            1,
-            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - six',
-            'At <<six|9a>> that morning, I blinked at my watch. The lights in the car had fused: it was pitch dark. Moments later, it was dawn. No bulb of sun, but a seepage of light that dissolved the darkness and rose on all sides bringing a bluer ozone-scented softness to a sky which became gigantic. With it was a warm buoyancy of air, and scale was restored to the landscape, and the car was sweetened with the odour of desert dew. I had never seen dawn break so swiftly, but I had never slept that way. The windows were open, there were no shades: it was like sleeping on a park bench.'
-          ],
-          [
-            1,
-            "The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - eleven o\x{2019}clock",
-            "The mountain range \x{2013} now like a fortress, now like a cathedral (it was yet another protectively maternal strip of the Sierra Madre) \x{2013} stayed with us the whole day. But we never climbed it. We moved south along the hot lowland, and the more southerly we penetrated the more primitive and tiny became the Indian villages, the more emblematic the people: naked child, woman with basket, man on horseback, posed in the shattering sunlight before a poor mud hut. As the morning wore on the people withdrew and by <<eleven o\x{2019}clock|6>> we were watched from the windows of huts which had grown much smaller. Shade was scarce: skinny village dogs slept under the bellies of cows which were themselves transfixed by hanks of course grass."
-          ],
-          [
-            1,
-            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - just after midnight',
-            '
-
-
-    The Old Patagonian Express
-
-
-
-
-
-
-
-It was not necessary for Otto to wake me up; the dust did that. It filled my compartment, and as the Lakes of the South Express hurried across the plateau where it seldom rains (what good were leakproof shoes here?), the dust was raised, and our speed forced it through the rattling windows and the jiggling door. I woke feeling suffocated and made a face mask of my bed sheet in order to breathe. When I opened the door a cloud of dust blew against me. It was no ordinary dust storm, more like a disaster in a mine shaft: the noise of the train, the darkness, the dust, the cold. There was no danger of my sleeping through Ingeniero Jacobacci. I was fully awake <<just after midnight|10>>. I gritted my teeth and sand grains crunched in my molars.'
-          ],
-          [
-            1,
-            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - two',
-            "That express train \x{2013} and how I yearned to be back on it \x{2013} had blurred distance and altitude. The statistics were given at Jacobacci. We were over a thousand miles from Buenos Aires, and since Carmen de Patagones, which was at sea-level, we had climbed to over 3,000 feet, on a plateau that did not descend again until the Straits of Magellan. In this wind, at this altitude, at this time of night \x{2013} <<two in the morning|5>> \x{2013} it was very cold in Jacobacci. No one stops at Jacobacci, people had said. I could disprove that. Passengers had got off the train. I assumed that, like me, they would be waiting for the train to Esquel. I looked around for them. They were gone."
-          ],
-          [
-            1,
-            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - nearly three',
-            'If only he had said, Want to hear something strange? He was old enough to know a good story. But he was half asleep, and it was cold, and <<nearly three in the morning|9h>>. So I left him alone and went outside. I walked up the tracks, away from the lights of the station. The wind in the thorn bushes rasped like sand in a chute. The air smelled of dust. The moon on the bushes shone blue across the bumpy monotony of Patagonia.'
-          ],
-          [
-            1,
-            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - five',
-            'I had arrived at Ingeniero Jacobacci in darkness. It was still dark when I boarded the train. The station master gave me more tea and said I could get into the coach. It was as small as I had been warned it would be, and it was filled with dust that had blown through the windows. But at least I had a seat. At <<five|9e>>, people started to gather. Incredibly, at this hour, they were seeing friends and family off. I had noticed this custom all over Bolivia and Argentina, this send-off, lots of kisses, hugs, and waves, and at the larger stations weeping men parting from their wives and children. I found it touching, and at odds with their ridiculously masculine self-appraisal.'
-          ],
-          [
-            1,
-            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - just before six',
-            "There was a whistle, a steam-whistle \x{2013} a shrill fluting pipe. The station bell was rung. Well-wishers scrambled from the train, passengers boarded; and, <<just before six|10>>, we were off."
-          ],
-          [
-            1,
-            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - 8.30',
-            "We were. The hills and dales of Patagonia which I had welcomed for their variation and their undeniable beauty were the cause of our slow progress. On a straight track this trip would not have taken more than three hours, but we were not due to arrive in Esquel until <<8.30|5a:1>> \x{2013} nearly a fourteen-hour ride. The hills were not so much hills as they were failed souffl\x{e9}s."
-          ],
-          [
-            1,
-            "The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - after eight o\x{2019}clock",
-            "It was <<after eight o\x{2019}clock|6>> when I saw the lights. I looked for more. There were no more. There was nothing to these places, I thought, until you were on top of them. I did not know at that moment that we were on top of Esquel. I had expected more \x{2013} an oasis, perhaps taller poplars, the sight of a few friendly bars, a crowded restaurant, a flood-lit church, anything to signify my arrival. Or less: like one of the tiny stations along the line; like Jacobacci, a few sheds, a few dogs, a bell. The train emptied quickly."
-          ],
-          [
-            1,
-            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - twenty-four',
-            "But, so far, what had I seen? Only this small stretch of coast. I decided to move on; I might, I thought, find something different. I began to seek information about the train and I rediscovered, after that pleasant train-ride in Panama, the difficulties of train travel in Latin America. It was never simple. And it was not the poor service or the bad trains, but rather the fact that no one knew anything about them. The general routes are well-known from Mexico to South America; many people travel from capital to capital. But they fly, and the poorer travellers take the bus. Few people seem to know that the railways exist, and those who claim to know have never taken them. One person says it takes twelve hours from Santa Marta to Bogot\x{e1}, another swears it is twenty-four hours; I was told there was no sleeper, but the Cook\x{2019}s Timetable listed one. Was there a diner, did I need a sleeping bag, was it air-conditioned? \x{2018}Do yourself a favour,\x{2019} I was told. \x{2018}Take the plane. That\x{2019}s what Colombians do.\x{2019}"
-          ],
-          [
-            1,
-            "The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - nine o\x{2019}clock",
-            "At <<nine o\x{2019}clock|6>>, or just after, we passed Aracataca. The novelist Gabriel Garcia Marquez was born here; this was the Macondo of Leaf-Storm and One Hundred Years of Solitude. In the light of fires and lanterns I could see mud huts, the silhouettes of palms and banana trees, and glow-worms in the tall grass. It was not late, but there were few people awake; glassy-eyed youths who had stayed up watched the train go by. \x{2018}It\x{2019}s coming,\x{2019} says a woman in Marquez\x{2019}s Macondo, when she sees the first train approach the little town. \x{2018}Something frightful, like a kitchen dragging a village behind it.\x{2019}"
-          ],
-          [
-            1,
-            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - midnight',
-            "I made myself a baloney sandwich, drank two of the beers I had bought in Santa Marta and went to sleep. The noise, the rhythm of the clicking on the rails, was a soporific; it was silence and a stillness in the car that woke me. At <<midnight|9e>>, I came awake: the train had stopped. I did not know where we were, but it must have been a fairly large place because most of the people in the car \x{2013} including the man next to me \x{2013} got off. But an equal number boarded here, so we were no less crowded. Children woke and cried, and people pushed and fought for the empty seats. An Indian girl sat next to me; her plump profile, outlined by the station lights, was unmistakable. She wore a baseball cap and a jersey and slacks, and her luggage was three cardboard boxes and an empty oil-drum. When the train started, she snuggled up to me and went to sleep. My shirt was damp with sweat, but the humid breeze was no help; and I knew we would not be out of this swamp until late the next day. I fell asleep, but when I woke again at another lonely station \x{2013} a low building, a man, a lantern \x{2013} I saw that the girl had moved across the aisle and was snuggling against a murmuring man."
-          ],
-          [
-            1,
-            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - Five',
-            "\x{2018}Five months I have been travelling! <<Five|9k:0>>. I left Paris in October. I spent one month in New York City.\x{2019}"
-          ],
-          [
-            1,
-            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - noon',
-            "Nor is the landscape remarkable enough to intrude. Costa Rica\x{2019}s south-west is very different from the north-east. The land seems to slope away to the Pacific coast, from the coffee bushes in the high suburbs, to areas of light industry, the cement factories and timber yards that supply material for the country\x{2019}s growth. By the time we left these industrial suburbs it was not yet <<noon|13>>; but it was lunch-time, not only for the factory hands, but for office workers and managers too. Costa Rica has a large middle-class, but they go to bed early and rise at dawn; everyone \x{2013} student, labourer, businessman, estate manager, politician \x{2013} keeps farmer\x{2019}s hours."
-          ],
-          [
-            1,
-            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - Twenty-five',
-            '... we had a full view of her decks. Shall I ever forget the triple horror of that spectacle? Twenty-five or thirty human bodies, among whom were several females, lay scattered about between the counter and the galley in the last and most loathsome state of putrefaction. We plainly saw that not a soul lived in that fated vessel. Yet we could not help shouting to the dead for help!'
-          ],
-          [
-            1,
-            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - about eleven',
-            "There was more. A young girl, <<about eleven|9:0>> \x{2013} perhaps another daughter \x{2013} rushed forward with a bottle of Coke. She shook the bottle and sprayed foam into the boy\x{2019}s face. Still, the two girls said nothing. The boy pulled a hanky out of his pocket and, wiping his face, made a pleading explanation: \x{2018}They said the seat was not occupied \x{2026} they said I could sit down \x{2026} ask them, go ahead, they\x{2019}ll tell you \x{2026}\x{2019}"
-          ],
-          [
-            1,
-            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - 13:3',
-            "In the Italian-style, Jesuit church, called La Compa\x{f1}ia, there was a painting of Hell. From a little distance this mural seemed to me an accurate representation of a night-time football game in El Salvador, but on closer inspection it was pure Bosch, Hell\x{2019}s great amphitheatre depicted in detail. Schoolchildren in Quito are brought to the church and shown this mural, so that suitably terrified they will stay on the straight and narrow. Each sin is labelled and the sinners receive appropriate punishment: the shrieking adulteress is being eaten by a wild hog; the impure man is having fire poured through a funnel in his mouth, and a fire-breathing dog is scorching his genitals with flames; the vain woman wears a necklace of scorpions, the drunkard is made to guzzle boiling oil, the tongue of the gossip is bitten by a snake, a giant scorpion smothers the unjust man; money-lenders, with unmistakably Semitic faces, are made into mincemeat, embezzlers chopped into bits, gluttons choking on garbage, liars stretched on the rack. Lettered in gold across the top of the mural was a quotation from Luke (13:3) in Spanish: Unless you repent, you will all likewise perish."
-          ],
-          [
-            1,
-            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - twenty-seven',
-            "In his third-floor office, which was penetrated with the smell of chocolate biscuits, we had a family reunion. Domingo, a tall, thin, rather English-looking fellow, remembered my grandmother\x{2019}s visit to Italy. His grandfather had started the factory in Guayaquil, and on the death of this pioneer the business had passed to Vicente, Domingo\x{2019}s father. Ill-health, and an interest in Inca history, caused Vicente to retire; now he added to his already large collection of Pre-Colombian art and he wrote historical monographs on the subject \x{2013} he had recently published, in Italian, Pre-Colombian Ecuador, a history. Domingo, only twenty-seven, had married at nineteen; his wife was blonde and bird-like, their two children as handsome as princelings. His yacht, the Vayra, was moored on the River Guayas, his Chevy Impala was parked at the factory, his jeep and his Mercedes were at his villa in the outskirts of town. But he was, for all his wealth, a modest person, if a bit rueful that the running of the entire business had fallen to him."
-          ],
-          [
-            1,
-            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - nearly midnight',
-            "He wanted to take me to what he said was the only good brothel in San Jos\x{e9}. It was too late, I said, <<nearly midnight|13>>. He said <<midnight|13>> was the best time \x{2013} the hookers were just waking up. \x{2018}How about tomorrow?\x{2019} I said, knowing that tomorrow I would be in Lim\x{f3}n. \x{2018}You\x{2019}re a chicken,\x{2019} he said, and I could hear him laughing as I descended the stairs to the street."
-          ],
-          [
-            1,
-            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - noon',
-            "A Lim\x{f3}n train leaves the Atlantic station every day at <<noon|13>>. It is not a great train, but by Central American standards it is the Brighton Belle. There are five passenger coaches, two classes, no freight cars. I had been eager to take this train, for the route has the reputation of being one of the most beautiful in the world, from the temperate capital in the mountains, through the deep valleys on the north-east, to the tropical coast which, because of its richly lush jungle, Columbus named Costa Rica when he touched there on his fourth voyage in 1502. He believed that he had arrived at the green splendour of Asia. (Columbus tacked up and down the coast and was ill for four months in Panama; cruelly, no one told him that there was another vast ocean on the other side of the mountains \x{2013} the local Indians were deaf to his appeal for this information.)"
-          ],
-          [
-            1,
-            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - towards midnight',
-            "The most scenic of Central American routes; but I had another good reason for wanting to take this train out of San Jos\x{e9}. Since arriving in Costa Rica I had spent much of my time in the company of hard-drinking American refugees \x{2013} Andy Ruggles and the diabolical Dibbs were but two. I was glad of their company; El Salvador hadn\x{2019}t been much fun. But now I was ready to set off alone. Travel is at its best a solitary enterprise: to see, to examine, to assess, you have to be alone and unencumbered. Other people can mislead you; they crowd your meandering impressions with their own; if they are companionable they obstruct your view, and if they are boring they corrupt the silence with non-sequiturs, shattering your concentration with Oh, look, it\x{2019}s raining and You see a lot of trees here. Travelling on your own can be terribly lonely (and it is not understood by Japanese who, coming across you smiling wistfully at an acre of Mexican buttercups, tend to say things like Where is the rest of your team?). I think of evening in the hotel room in the strange city; my diary has been brought up to date; I hanker for company: what do I do? I don\x{2019}t know anyone here, so I go out and walk and discover the three streets of the town and rather envy the strolling couples and the people with children. The museums and churches are closed, and <<towards midnight|13>> the streets are empty. Don\x{2019}t carry anything valuable, I was warned; it\x{2019}ll just get stolen. If I am mugged I will have to apologize in my politest Spanish: I am sorry, sir, but I have nothing valuable on my person. Is there a surer way of enraging a thief and driving him to violence? Walking these dark streets is dangerous, but the bars are open. Ruggles and Dibbs await. They take the curse off my boredom, but I have a nagging suspicion that if I had stayed home and lingered in downtown Boston until <<midnight|13>> I would have met Ruggles and Dibbs in the <<Two O\x{2019}Clock|6>> Lounge (\x{2018}20 Completely Nude College Girls!!!\x{2019}). I did not have to take the train to Costa Rica for that."
-          ],
-          [
-            1,
-            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - six',
-            "He had missed his tour. It would have been all-inclusive, the train to Lim\x{f3}n, a boat-trip up the coast, a chef travelling with the party, some wonderful meals. He would have seen monkeys and parrots. Back to Lim\x{f3}n: some swimming, a four-star hotel, then a bus to the airport and a plane to San Jos\x{e9}. That was the tour. But (the river was dashing an old canoe to pieces, and those little boys \x{2013} surely they were fishing?) the hotel manager had gotten the time wrong and the tour had left at <<six|9c:1>>, not nine, so on the spur of the moment, and with nothing else to do in San Jos\x{e9}, the old man asked about the train and hopped on, just like that, and you never knew, maybe he\x{2019}d catch up with the rest of them; after all, he had paid his three hundred dollars and here was his receipt and his booklet of coupons."
-          ],
-          [
-            -1,
-            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - After three',
-            "I walked to savour my freedom and stretch my legs. <<After three|9:0>> blocks the town didn\x{2019}t look any better, and wasn\x{2019}t that a rat nibbling near the tipped-over barrel of scraps? It\x{2019}s a white country, a man had told me in San Jos\x{e9}. But this was a black town, a beach-head of steaming trees and sea-stinks. I tried several hotels. They were wormy staircases with sweating people minding tables on the second-floor landings. No, they said, they had no rooms. And I was glad, because they looked so disgustingly dirty and the people were so rude; so I walked a few more blocks. I\x{2019}d find a better hotel. But they were smaller and smellier, and they too were full. At one, as I stood panting \x{2013} the staircase had left me breathless \x{2013} a pair of cockroaches scuttled down the wall and hurried unimpeded across the floor. Cockroaches, I said. The man said, What do you want here? He too was full. I had been stopping at every second hotel. Now I stopped at each one. They were not hotels. They were nests of foul bedclothes, a few rooms and a portion of verandah. I should have known they were full: I met harassed families making their way down the stairs, the women and children carrying suitcases, the father sucking his teeth in dismay and muttering, \x{2018}We\x{2019}ll have to look somewhere else.\x{2019} It was necessary for me to back down the narrow stairs to let these families pass."
-          ],
-          [
-            1,
-            "The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - Nine o\x{2019}clock",
-            "\x{2018}I\x{2019}m sick of thinking about it.\x{2019} He looked at his watch. \x{2018}<<Nine o\x{2019}clock|6>>. I\x{2019}m bushed. Shall we call it a day?\x{2019}"
-          ],
-          [
-            1,
-            "The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - nine o\x{2019}clock",
-            "I said, \x{2018}I don\x{2019}t normally go to bed at <<nine o\x{2019}clock|6>>.\x{2019}"
-          ],
-          [
-            1,
-            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - one-thirty',
-            "We reached the lagoon at <<one-thirty|5b>>, and moored the boat there because the black pilot feared that the tides at the estuary might drag us into the sea. We walked to the beach of grey lava. I swam. The black pilot screamed in Spanish for me to leave the water. There were sharks in the water, he said \x{2013} the hungriest, the fiercest of sharks. I asked him whether he had seen any sharks. No, he said, but he knew they were there. I plunged back into the water."
-          ],
-          [
-            1,
-            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - five',
-            "The train had left, too, at <<five|9a>> that morning. I said, \x{2018}We can take a taxi.\x{2019}"
-          ],
-          [
-            1,
-            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - seven-thirty',
-            "\x{2018}Come tomorrow night,\x{2019} said Borges. \x{2018}Come at <<seven-thirty|5b>>. You can read me some chapters of Pym and then we\x{2019}ll have dinner.\x{2019}"
-          ],
-          [
-            1,
-            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - Nine-thirty',
-            "\x{2018}How sad that is,\x{2019} said Borges. \x{2018}It is terrible. The man can do nothing. But notice how Kipling repeats the same lines. It has no plot at all, but it is lovely.\x{2019} He touched \x{2018}his suit jacket. \x{2018}What time is it?\x{2019} He drew out his pocket watch and touched the hands. \x{2018}<<Nine-thirty|5a:1>> \x{2013} we should eat.\x{2019}"
-          ],
-          [
-            1,
-            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - 4:00 AM',
-            "
-
-
-    The Old Patagonian Express
-
-
-
-
-
-
-
-Peru is the poorest country in South America. Peru is also the country most visited by tourists. The two facts are related; even the dimmest tourist can count in Spanish \x{2013} low numbers especially trip off his tongue \x{2013} and he knows that Peru\x{2019}s gigantic ruins and threadbare currency are a bargain. The student I had met in Huancayo was right: there were some Quechua Indians on the plane to Cuzco, but the others were all tourists. They had arrived in Lima the day before and had been whisked around the city. In their hotel was a schedule: \x{2018}<<4:00 AM|2a>> \x{2013} Wake-Up Call! <<4:45 AM|2a>> \x{2013} Luggage in Corridor! <<5:00|2>> \x{2013} Breakfast! <<5:30|2>> \x{2013} Meet in Lobby!\x{2026}\x{2019} At <<eight in the morning|9a>>, some men with shaving cream still stuck to their earlobes, they arrived in Cuzco and fought their way past the Indians (who carried tin pots and greasy bundles of food and lanterns, much as they had on the train) to a waiting bus, congratulating themselves on the cheapness of the place. They are unaware that it is almost axiomatic that air travel has wished tourists on only the most moth-eaten countries in the world: tourism, never more energetically pursued than in static societies, is usually the mobile rich making a blind blundering visitation on the inert poor."
-          ],
-          [
-            1,
-            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - four',
-            "The visitors wore badges, Samba South America; the badges also served as name-tags. At this early hour in the thin grey air and high altitude drizzle, the haggard faces did not match the tittupping names: Hildy Wicker, Bert and Elvera Howie, Charles P. Clapp, Morrie Upbraid, the Prells, the Goodchucks, Bernie Khoosh, the Avatarians, Jack Hammerman, Nick and Lurleen Poznan, Harold and Winnie Casey, the Lewgards, Wally Clemons, and little old Merry Mackworth. They were a certain age; they had humps and braces and wooden legs and two walked with crutches \x{2013} amazing to see this performance in the high Andes \x{2013} and none looked well. What with the heat in Lima and the cold here, the delays, the shuffling up and down stairs \x{2013} and they had yet to climb the vertical Inca staircases (\x{2018}I don\x{2019}t know which is worse, going up or going down\x{2019}) \x{2013} they were suffering. You had to admire them, because in two days they would be on the same plane flying back to Lima, waking again at <<four in the morning|9a>>, and that day arriving in another godawful place like Guayaquil or Cali."
-          ],
-          [
-            1,
-            "The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - four o\x{2019}clock",
-            "
-At <<four o\x{2019}clock|6>> every weekday morning the Cuzco church bells ring. They ring again at <<4:15|2>> and <<4:30|2>>. Because there are so many churches, and the valley is walled-in by mountains, the tolling of church bells, from <<four to five in the morning|10>>, has a celebratory sound. They summon all people to mass, but only Indians respond. They flock to <<five o\x{2019}clock|6>> mass in the Cathedral, and <<just before six|10>> the great doors of the Cathedral open on the cold cloudy mountain dawn and hundreds of Indians pour into the plaza, so many of them in bright red ponchos that the visual effect is of a fiesta about to begin. They look happy; they have performed a sacrament. All Catholics leave mass feeling light-hearted, and though these Indians are habitually dour \x{2013} their faces wrinkled into frowns \x{2013} at this early hour after mass most of them are smiling."
-          ],
-          [
-            1,
-            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - six',
-            "The tourists wake with the Indians, but the tourists head for Santa Ana Station to catch the train to Machu Picchu. They carry packed lunches, umbrellas, raincoats and cameras. They are disgusted, and they have every right to be so. They were led to believe that if they got to the station at <<six|9c:1>>, they would have a seat on the <<seven o\x{2019}clock|6>> train. But now it was <<seven|9f>> and the station doors had not opened. A light rain had started and the crowd of tourists numbered two hundred or more. There is no order at the station."
-          ],
-          [
-            -1,
-            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - 1911',
-            "Ahead, through a black gateway of pinnacles, was a wide flat valley filled with sunlight; birds were slanted in the sky and on ledges like the diacritical marks on vowels, and there were green streaks, wind-flattened bushes, on the steep mountains beyond. In the centre of the valley, coursing beside fuchsias and white orchids, was a turbulent brown river. This was the Vilcanota River, running north to Machu Picchu, where it becomes the Urubamba and continues north-east to join a tributary of the Amazon. The river flowed from Sicuani, past the glaciers above the crumbling town of Pisaq, and here, where our train was tooting, had formed the Sacred Valley of the Incas. The shape of this valley \x{2013} so flat and green and hidden \x{2013} in such a towering place, had attracted the Incas. Many had been here before the Spaniards entered Cuzco, and here others fled, fighting a rearguard action after Cuzco fell. The valley became an Inca stronghold, and long after the Spaniards believed they had wiped out or subdued this pious and highly civilized empire, the Incas continued to live on in the fastnesses of these canyons. In 1570, a pair of Augustinian missionaries \x{2013} the friars Marcos and Diego \x{2013} had the fanatical faith to take them over the mountains and through this valley. The friars led a motley band of Indian converts who carried torches and set fire to the shrines at which Incas were still worshipping. Their triumph was at Chuquipalta, near Vitcos, where for the greater glory of God (the Devil had made appearances here, so the Incas said) they put their torches to the House of the Sun. Some missions were established along the river (Marcos eventually suffered a horrendous martyrdom), but farther on, where the mountains and sky seemed scarcely distinguishable, the ruins were not re-entered. The valleys slept. They were not penetrated again until <<1911|9c:0>>, when the Yale man, Hiram Bingham, with the words of Kipling\x{2019}s \x{2018}Explorer\x{2019} running through his head (\x{2018}Something hidden. Go and find it. Go and look behind the Ranges \x{2013} / Something lost behind the ranges. Lost and waiting for you. Go!\x{2019}) found the vast mountain-top city he named Machu Picchu. He believed he had found the lost city of the Incas, but John Hemming writes in The Conquest of the Incas that an even more remote place to the west, Espiritu Pampa, has the greater claim to the title."
-          ],
-          [
-            1,
-            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - 13',
-            'Chased by rabid dogs, the train picked up speed and crossed the grey plain to the first station, Illimani, at 13,500 feet. There were sheep on the tracks and Indian women selling oranges for a penny each. I bought six oranges and boarded quickly as the train began to move. After the slow climb to this station it was surprising for the train to pick up speed and begin racing across the high plains.'
-          ],
-          [
-            1,
-            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - one',
-            "\x{2018}Only <<one|9k:0>>?\x{2019} I asked."
-          ],
-          [
-            1,
-            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - about midnight',
-            "While we were eating, I got a severe stomach cramp. I excused myself and went back to my compartment. The train had stopped. This was Oruro, a fairly large city, mostly Indian, near Lake Uru Uru. The rain had intensified; it beat against the window in a torrent made silver by the arc-lamps of the station. I got into bed and turned off the light and curled up to ease my cramp. I woke at <<about midnight|13>>. It was very cold in the compartment and so dusty \x{2013} the dust seemed an effect of the train\x{2019}s rapid motion \x{2013} I could barely breathe. I tried the lights, but they didn\x{2019}t work. I struggled to open the door \x{2013} it seemed locked from the outside. I was choking, freezing and doubled up with stomach pains. I had no choice but to remain calm. I took four swigs of my stomach cement, and then buried my face in my blanket and waited for the morphine to work."
-          ],
-          [
-            1,
-            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - one',
-            "The town was not a town. It was a few buildings necessitated by the frontier post. It was one street, unpaved, of low hut-like stores. They were all shut. Near the small railway station, about twenty women had set up square home-made umbrellas and were selling fruit and bread and shoelaces. On arriving at the station, the mob of Indians had descended from the train, and there had been something like excitement; but the people were now gone, the train was gone. The market women had no customers and nothing moved but the flies above the mud puddles. It made me gasp to walk the length of the platform, but perhaps I had walked too fast \x{2013} at the far end an old crazy Indian woman was screaming and crying beside a tree stump. No one took any notice of her. I bought half a pound of peanuts and sat on a station bench, shelling them. \x{2018}Are you in that sleeping car?\x{2019} asked a man hurrying towards me. He was shabbily dressed and indignant."
-          ],
-          [
-            1,
-            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - past midnight',
-            'We were taken across the border to the Argentine station over the hill. Then the sleeping car was detached and we were again left on a siding. Three hours passed. There was no food at the station, but I found an Indian woman who was watching a teapot boil over a fire. She was surprised that I should ask her to sell me a cup, and she took the money with elaborate grace. It was <<past midnight|9f>>, and at the station there were people huddled in blankets and sitting on their luggage and holding children in their arms. Now it started to rain, but just as I began to be exasperated I remembered that these people were the Second Class passengers, and it was their cruel fate to have to sit at the dead centre of this continent waiting for the train to arrive. I was much luckier than they. I had a berth and a First Class ticket. And there was nothing to be done about the delay.'
-          ],
-          [
-            1,
-            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - six',
-            'I slept for twelve hours. I woke again at <<six in the morning|9a>>, and saw that we had come to a station. There were three poplars outside the window. In the early afternoon I woke again. The three poplars were still outside the window. We had not moved.'
-          ],
-          [
-            1,
-            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - nine-fifteen',
-            "
-\x{2018}Romance!\x{2019} the season-tickets mourn,
-
-\x{a0}\x{a0} \x{a0} \x{2018}He never ran to catch his train,
-
-But passed with coach and guard and horn \x{2013}
-
-\x{a0}\x{a0} \x{a0} \x{2018}And left the local \x{2013} late again!\x{2019}
-
-Confound Romance \x{2026} And all unseen
-
-Romance brought up the <<nine-fifteen|5a:1>>."
-          ],
-          [
-            1,
-            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - Four',
-            "Hog, sow, piglet, swine. I said, \x{2018}<<Four|9k:0>>.\x{2019}"
-          ],
-          [
-            1,
-            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - Four',
-            "Puppy, mutt, mongrel, cur. \x{2018}<<Four|9k:0>>,\x{2019} I said. \x{2018}That is more than you have.\x{2019}"
-          ],
-          [
-            1,
-            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - about three-thirty',
-            'At <<about three-thirty|5a:0>> we came to the town of Quetzaltepeque. Seeing a church, Mario and Alfredo made the sign of the cross. The women in the railcar did the same. Some men removed their hats as well.'
-          ],
-          [
-            1,
-            "The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - nine o\x{2019}clock",
-            "The San Salvador railway station was at the end of a torn-up section of road in a grim precinct of the city. My ticket was collected by a man in a pork-pie hat and sports shirt, who wore an old-fashioned revolver on his hip. The station was no more than a series of cargo sheds, where very poor people were camped, waiting for the morning train to Cutuco: the elderly and the very young \x{2013} it seemed to be the pattern of victims in Central American poverty. Alfredo had given me the name of a hotel and said he would meet me there an hour before kick-off, which was <<nine o\x{2019}clock|6>>. The games were played late, he said, because by then it wasn\x{2019}t so hot. But it was now after dark and the humid heat was choking me. I began to wish that I had not left Santa Ana. San Salvador, prone to earthquakes, was not a pretty place; it sprawled, it was noisy, its buildings were charmless, and in the glare of headlights were buoyant particles of dust. Why would anyone come here? \x{2018}Don\x{2019}t knock it,\x{2019} an American in San Salvador told me. \x{2018}You haven\x{2019}t seen Nicaragua yet!\x{2019}"
-          ],
-          [
-            1,
-            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - towards midnight',
-            "In all, five balls were lost this way. The fourth landed not far from where I sat, and I could see that real punches were being thrown, real blood spurting from Salvadorean noses, and the broken bottles and the struggle for the ball made it a contest all its own, more savage than the one on the field, played out with the kind of mindless ferocity you read about in books on gory medieval sports. The announcer\x{2019}s warning was merely ritual threat; the police did not intervene \x{2013} they stayed on the field and let the spectators settle their own scores. The players grew bored: they ran in place, they did push-ups. When play resumed and Mexico gained possession of the ball it deftly moved down the field and invariably made a goal. But this play, these goals \x{2013} they were no more than interludes in a much bloodier sport which, <<towards midnight|13>> (and the game was still not over!), was varied by Suns throwing firecrackers at each other and onto the field."
-          ],
-          [
-            1,
-            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - six to one',
-            "Mexico won the game, <<six to one|10>>. Alfredo said that El Salvador\x{2019}s goal was the best one of the game, a header from thirty yards. So he managed to rescue a shred of pride. But people had been leaving all through the second half, and the rest hardly seemed to notice or to care that the game had ended. Just before we left the stadium I looked up at the ant-hill. It was a hill once again; there were no people on it, and depopulated, it seemed very small."
-          ],
-          [
-            1,
-            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - after midnight',
-            "Outside, on the stadium slopes, the scene was like one of those lurid murals of Hell you see in Latin American churches. The colour was infernal, yellow dust sifted and whirled among crater-like pits, small cars with demonic headlights moved slowly from hole to hole like mechanical devils. And where, on the mural, you see the sins printed and dramatized, the gold lettering saying Lust, Anger, Avarice, Drunkenness, Gluttony, Theft, Pride, Jealousy, Usury, Gambling, and so on, here <<after midnight|9b>> were groups of boys lewdly snatching at girls, and knots of people fighting, counting the money they had won, staggering and swigging from bottles, shrieking obscenities against Mexico, thumping the hoods of cars or duelling with the branches they had yanked from trees and the radio aerials they had twisted from cars. They trampled the dust and howled. The car horns were like harsh moos of pain \x{2013} and one car was being overturned by a gang of shirtless, sweating youths. Many people were running to get free of the mob, holding handkerchiefs over their faces. But there were tens of thousands of people here, and animals, too, maimed dogs snarling and cowering as in a classic vision of Hell. And it was hot: dark grimy air that was hard to breathe, and freighted with the stinks of sweat; it was so thick it muted the light. It tasted of stale fire and ashes. The mob did not disperse; it was too angry to go home, too insulted by defeat to ignore its hurt. It was loud and it moved as if thwarted and pushed; it danced madly in what seemed a deep hole."
-          ],
-          [
-            1,
-            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - midnight',
-            'Armenia, Antioquia, and not far away the town of Circasia. The names were Asiatic and baffling, but I was too tired to wonder at them. The bus rumbled through town, and though it was dark I saw a large hotel in the middle of a block. I asked the driver to stop, then walked back to that hotel and checked in. I thought that working on my diary until <<midnight|13>> would put me to sleep, but the altitude and the cold made me wakeful. I decided to go for a walk and see a bit of Armenia.'
-          ],
-          [
-            1,
-            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - past midnight',
-            "It was <<past midnight|9f>>, but their replies were prompt; their intelligence was obvious and, for moments, it was possible to forget that they were small children. They were street-wise and as alert as adults; but there was nothing in this doorway they inhabited but that piece of cardboard. I had seen children begging in India, the mechanical request for a rupee, the rehearsed story; they were as poor and as lost. But the Indian beggar is unapproachable; he is fearful and cringing, and there is the language barrier. My Spanish was adequate for me to inquire about the lives of these little boys and every reply broke my heart. Though they spoke about themselves with an air of independence, they could not know how they looked, so sad and waif-like. What hope could they possibly have, living outside on this street? Of course, they would die; and anyone who used their small corpses to illustrate his outrage would be accused of having Bolshevik sympathies. This was a democracy, was it not? The election was last week; and there was no shortage of Colombians in Bogot\x{e1} to tell me what a rich and pleasant country this was if you were careful and steered clear of muggers and gamins. What utter crap that was, and how monstrous that children should be killed this way."
-          ],
-          [
-            1,
-            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - six',
-            "There were thieves, people told me, at the railway stations, at the bus stations, in the markets, the parks, on the hill paths, on the back streets, on the main streets. When I asked directions to a particular part of town, no directions were given. \x{2018}Do not go,\x{2019} they said. On the Expreso de Sol, I was told Bogot\x{e1} was dangerous. In Bogot\x{e1} I said I was going to Armenia. \x{2018}Do not go \x{2013} it is dangerous.\x{2019} The railway station? \x{2018}Dangerous.\x{2019} But the train was leaving at <<six in the morning|9a>>. \x{2018}That is the worst time \x{2013} the thieves will rob you in the dark.\x{2019} How, then, should I get to Cali? \x{2018}Do not go to Cali \x{2013} Cali is more dangerous than Armenia.\x{2019}"
-          ],
-          [
-            1,
-            "The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - four o\x{2019}clock",
-            "After forty miles the hills became wilder still, and at sixty the climate had changed utterly. Now the hills were brown and over-grazed, and all the landscape sun-scorched, and no green thing anywhere. The bald hills, stripped of all foliage, were rounded on their slopes and had little wave-like shapes beating across them. It was a brown sea of hills, as if a tide of mud had been agitated and left to dry in plump peaks; this was the moment before they crumbled into cakes and dunes and dust slides. Glimmering beyond them was pastel flatness of diluted green \x{2013} the cane fields which lie between the two cordilleras. From here to Cali, the cane fields widened, and at level crossings there were cane-cutters standing \x{2013} there were too many of them to sit down \x{2013} on the backs of articulated trucks, like convict labour. They had been up before dawn. It was <<four o\x{2019}clock|6>>, and they were being taken home, through the fields they had cleared"
-          ],
-          [
-            1,
-            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - about twenty-five',
-            "Most of the compartments were empty. Walking through the cars just before the whistle blew, I saw a Mexican family, some children travelling with their mother, a pair of worried-looking American tourists, and a winking middle-aged lady in a fake leopard-skin coat. In the bedroom across the corridor from mine there was an old woman and her pretty companion, a girl of about twenty-five. The old woman was flirtatious with me and sharp with the girl, who I supposed was her daughter. The girl was desperately shy, and her drab clothes (the old woman wore a mink around her neck) and her lovely face with its sallow English sadness, gave her expression a sort of passionate purity. All the way to Mexico City I tried to talk to this girl, but each time the old woman interrupted with cackling questions and never allowed the girl to reply. I decided that the girl\x{2019}s submissiveness was more than daughterly obedience: she was a servant, maintaining an anxious silence. Her eyes were green, and I think that even that aged woman\x{2019}s vanity could not have prevented her from knowing how attractive this girl was, or the true motive for my questions. There was something Russian and old-fashioned and impenetrable about this pair."
-          ],
-          [
-            1,
-            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - midnight',
-            "We had left Nuevo Laredo at twilight. The few stations we stopped at later in the evening were so poorly lighted I could not make out their names on the signboards. I stayed up late reading The Thin Man, which I had put aside in Texas. I had lost the plot entirely, but the drinking still interested me. All the characters drank \x{2013} they met for cocktails, they conspired in speakeasies, they talked about drinking, and they were often drunk. Nick Charles, Hammett\x{2019}s detective, drank the most. He complained about his hangovers, and then drank to cure his hangover. He drank before breakfast, and all day, and the last thing he did at night was have a drink. One morning he feels especially rotten; he says complainingly, \x{2018}I must have gone to bed sober,\x{2019} and then pours himself a stiff drink. The drinking distracted me from the clues in the way President Banda\x{2019}s facial tic prevented me from ever hearing anything he said. But why so much alcohol in this whodunnit? Because it was set \x{2013} and written \x{2013} during Prohibition. Evelyn Waugh once commented that the reason Brideshead Revisited had so many sumptuous meals in it was because it was written during a period of war-time rationing, when the talk was of all the wonderful things you could do with soya beans. By <<midnight|9e>>, I had finished The Thin Man and a bottle of tequila."
-          ],
-          [
-            1,
-            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - towards noon',
-            "Back in Texas, with a sweep of his hand, taking in Main Street and the new shopping centre and a score of finance companies, the Texan says, \x{2018}All this was nothing but desert a few years ago.\x{2019} The Mexican pursues a different line. He urges you to ignore the squalor of the present and reflect on the glories of the past. As we entered San Luis Potosi <<towards noon|13>> on the day that had started cold and was now cloudless in a parching heat, I noticed the naked children and the lamed dogs and the settlement in the train-yard, which was fifty boxcars. By curtaining the door with faded laundry, and adding a chicken coop and children, and turning up the volume on his radio, the Mexican makes a bungalow of his boxcar and pretends it is home. It is a frightful slum, and stinks of excrement, but the Mexican man standing at the door of the Aztec Eagle with me was smiling. \x{2018}Many years ago,\x{2019} he said, \x{2018}this was a silver mine.\x{2019}"
-          ],
-          [
-            1,
-            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - towards noon',
-            'It was <<towards noon|13>> on March 1, 1898, that I first found myself entering the narrow and somewhat dangerous harbour of Mombasa, on the east coast of Africa. (The Man-Eaters of Tsavo, by Lt Col J. H. Patterson)'
-          ],
-          [
-            1,
-            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - midnight',
-            "There was snow and ice outside. Each street-light illuminated its own post and, just in front, a round patch of snow \x{2013} nothing more. At <<midnight|9e>>, watching from my compartment, I saw a white house on a hill. In every window of this house there was a lighted lamp, and these bright windows seemed to enlarge the house and at the same time betray its emptiness."
-          ],
-          [
-            1,
-            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - two',
-            "At <<two|9a>> the next morning we passed Syracuse. I was asleep or I would have been assailed by memories. But the city\x{2019}s name on the Amtrak timetable at breakfast brought forth Syracuse\x{2019}s relentless rain, a chance meeting at the Orange Bar with the by then derelict poet Delmore Schwartz, the classroom (it was Peace Corps training, I was learning Chinyanja) in which I heard the news of Kennedy\x{2019}s assassination, and the troubling recollection of a lady anthropologist who, unpersuaded by my ardour, had later \x{2013} though not as a consequence of this \x{2013} met a violent death when a tree toppled onto her car in a western state and killed her and her lover, a lady gym teacher with whom she had formed a Sapphic attachment."
-          ],
-          [
-            1,
-            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - four-thirty',
-            "\x{2018}I have to catch a train at <<four-thirty|5b>> in Chicago.\x{2019}"
-          ],
-          [
-            1,
-            "The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - nine o\x{2019}clock",
-            "\x{2018}We may not be there until <<nine o\x{2019}clock|6>>.\x{2019}"
-          ],
-          [
-            1,
-            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - ten to nine',
-            "The conductor woke me at <<ten to nine|10>>. \x{2018}Chicago!\x{2019} I jumped up and grabbed my suitcase. As I hurried down the platform, through the billows of steam from the train\x{2019}s underside, which gave to my arrival that old-movie aura of mystery and glory, ice needles crystalized on the lenses of my glasses and I could hardly see."
-          ],
-          [
-            1,
-            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - midnight',
-            "Days were given to the study of the water level, the numbers of fish, the evidence of tremors. If the signs were still bad the \x{2018}wizards\x{2019} acted. They took a girl of from six to nine years old, decked her with flowers and \x{2018}at <<midnight|9m>> the wizards took her to the middle of the lake and cast her in, bound hand and foot, with a stone fast to her neck. The next day, if the child appeared upon the surface and the tremors continued, another victim was cast into the lake with the same ceremonies."
-          ],
-          [
-            1,
-            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - two',
-            "It was not solemn music. It was two electric guitars, a clarinet, maracas and a full set of drums \x{2013} as soon as it had started to blurt I shifted my seat for a look at the musicians. It was the harsh wail of tuneless pop music that I had been avoiding for weeks, the squawk and crash that I had first heard issuing from Mexico as I stood on the high riverbank at Laredo. I had, since then, only rarely been out of earshot of it. How to describe it? With the guitar whine was an irregular beat, and each beat like a set of crockery dropped on the floor; a girl and boy shook maracas and sang \x{2013} this was a cat\x{2019}s yowl attempt at harmonizing, but off-key it did not even have the melodiousness of a set of madly scraping locusts."
-          ],
-          [
-            1,
-            "The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - nine o\x{2019}clock",
-            "I turned my attention to the three people at the next table, who were drawling away happily. A middle-aged couple had discovered that the stranger who had seated himself at their table was also a Texan. He was dressed in black and yet looked raffish, like one of those adulterous preachers who occur from time to time in worthy novels set in this neck of the woods \x{2013} it was <<nine o\x{2019}clock|6>>, we were in Fort Madison, Iowa, on the west bank of the Mississippi."
-          ],
-          [
-            1,
-            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - one',
-            "He was mistaken about that, for one thing. There was a crowd of people at the station early the following morning. They were undersized \x{2013} farmers in slouch hats and straw sombreros, Indian women with papooses and pigtails, barefoot children. Each person had a large bundle, a basket tied with vines or a home\x{2013}made suitcase. I concluded that this was the reason they had chosen to take the train \x{2013} their belongings would have been unwelcome on a bus. The train also took a different route from any of the buses, and the train-fare from Tec\x{fa}n Um\x{e1}n to Guatemala City was less than two dollars. Until ten minutes before the train was to leave, a policeman kept us away from the platform barrier, and we stood clutching our tickets \x{2013} strips of paper with all the intermediate stations listed: one\x{2019}s ticket was guillotined at the station where one was to disembark."
-          ],
-          [
-            1,
-            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - about twenty',
-            "We travelled parallel to a road, and crossed it occasionally, but for most of the time we were not near to places that were very densely inhabited. The towns were small and tumbledown and in this busriding country most of the people lived on the main roads. After a few stops I could see that this was regarded as a local train \x{2013} no one was going any great distance. Passengers who had got on at Tec\x{fa}n Um\x{e1}n were going to the market at Coatepeque, which was on a road, or to Retalhuleu to get to the coast, about twenty-five miles away. By <<noon|13>> we were at La Democracia. At the time I had concluded that this was an ironical name, but perhaps it was a fitting name for a place with a sweet-sour smell, and huts made out of sticks and cardboard and hammered-out tins, and howling radios and clamouring people \x{2013} some boarding buses, some selling fruit, but the majority merely standing wrapped in blankets and looking darkly at the train. And tired children were hunkered down in the mud. Here was a fancy car among the jalopies, and there a pretty house among the huts. Democracy is a messy system of government, and there was a helter-skelter appropriateness in the name of this disordered town. But how much democracy was there here?"
-          ],
-          [
-            1,
-            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - 3:20',
-            "It helps to take the train if one wishes to understand. Understanding was like a guarantee of depression, but it was an approach to the truth. For most tourists, Guatemala is a four-day affair with quaintness and ruins: veneration at the capital\x{2019}s churches, a day sniffing nosegays at Antigua, another at the colourful Indian market at Chichicastenango, a picnic at the Mayan temples of Tikal. I think I would have found this itinerary more depressing, and less rewarding, than my own meandering from the Mexican border through the coastal departments. The train creaked and whimpered but, incredibly, it kept to its schedule: at <<3:20|2>> we were at Santa Maria \x{2013} as promised in Cook\x{2019}s International Timetable \x{2013} and, eating my fifth banana of the day, I studied our progress on our climb to Escuintla and the greater heights of Guatemala City."
-          ],
-          [
-            1,
-            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - seven-thirty',
+            '[ap 07:30] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter019.html) - seven-thirty',
             "
 
 
@@ -780,321 +342,1581 @@ Necessity kissed me with luck. There was no better way to leave the high plains 
           ],
           [
             1,
-            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - four',
+            '[16:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter019.html) - four in the afternoon',
             "After the barrel-chested Indians living among wind-haunted rocks in the high plains, and the farmers in the tumbledown villages near the border, and the yawning cracked-open river valleys of the north, I was prepared for anything but Tucuman. It was gloomy, but gloom was part of the Argentine temper; it was not a dramatic blackness, but rather a dampness of soul, the hang-dog melancholy immigrants feel on rainy afternoons far from home. There was no desolation, and if there were barbarities they remained dark secrets and were enacted in the torture chambers of the police stations or in the cramped workers\x{2019} quarters of the sugar planations. It was <<four in the afternoon|9a>> before I found a bar \x{2013} Tucuman was that proper."
           ],
           [
             1,
-            "The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - ten o\x{2019}clock",
+            "[ap 10:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter019.html) - ten o\x{2019}clock",
             "Dinner was served at <<ten o\x{2019}clock|6>> \x{2013} four courses, including a fat steak, for two dollars. It was the sort of dining car where the waiters and stewards were dressed more formally than the people eating. All the tables were full, a well-fed noisy crowd of mock-Europeans. Two men had joined Oswaldo and me, and after a decent pause and some wine, one of them began talking about his reason for going to Buenos Aires: his father had just had a heart attack."
           ],
           [
             1,
-            "The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - three o\x{2019}clock",
+            "[03:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter019.html) - three o\x{2019}clock in the morning",
             "There was a hint of this cultural overlay in the composition of the city. The pink-flowered \x{2018}drunken branch\x{2019} trees of the pampas grew in the parks, but the parks were English and Italian, and this told in their names, Britannia Park, Palermo Park. The downtown section was architecturally French, the industrial parts German, the harbour Italian. Only the scale of the city was American; its dimensions, its sense of space, gave it a familiarity. It was a clean city. No one slept in its doorways or parks \x{2013} this, in a South American context, is almost shocking to behold. I found the city safe to walk in at all hours and at <<three o\x{2019}clock in the morning|6>> there were still crowds in the streets. Because of the day-time humidity, groups of boys played football in the floodlit parks until <<well after midnight|13>>. It was a city without significant Indian population \x{2013} few, it seemed, strayed south of Tucuman, and what Indians existed came from Paraguay, or just across the Rio de la Plata in Uruguay. They worked as domestics, they lived in outlying slums, they were given little encouragement to stay."
           ],
           [
             1,
-            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - two',
-            "That night I went to a party with the man who had translated my books into Spanish for the Argentine editions. He had earned my admiration by finding the source of a quotation I had mischievously left unattributed in the text of one. It was two lines from Thomas Moore\x{2019}s Intercepted Letters. But, then, Rolando Costa Picazo had taught in Ohio and Michigan, where such things were common knowledge. He too urged me to meet Borges."
+            '[ap 05:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter021.html) - five',
+            'It took an hour for the Lakes of the South Express to disentangle itself from the city. We had left at <<five|9c:1>>, on a sunny afternoon, but when we began speeding across the pampas, a cool immense pasture, it was growing dark. Then the afterglow of sunset was gone, and in the half-dark the grass was grey, the trees black; some cattle were as reposeful as boulders and in one field five white cows were as luminous as laundry.'
           ],
           [
             1,
-            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - 7:30',
+            '[ap > 11:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter021.html) - Just after eleven',
+            "<<Just after eleven|10>> that morning we came to the town of Carmen de Patagones, on the north bank of the Rio Negro. At the other end of the bridge was Viedma. This river I took to be the true dividing line between the fertile part of Argentina and the dusty Patagonian plateau. Hudson begins his book on Patagonia with a description of this river valley, and the inaccuracy of its name was consistent with all the misnamed landscape features I had seen since Mexico. \x{2018}The river was certainly miscalled Cusar-leof\x{fa}, or Black River, by the aborigines,\x{2019} says Hudson, \x{2018}unless the epithet referred only to its swiftness and dangerous character; for it is not black at all in appearance \x{2026} The water, which flows from the Andes across a continent of stone and gravel, is wonderfully pure, in colour a clear sea-green.\x{2019} We remained on the north bank, at a station on the bluff. A lady in a shed was selling stacks of bright red apples, five at a time. She looked like the sort of brisk enterprising woman you see on a fall day in a country town in Vermont \x{2013} her hair in a bun, rosy cheeks, a brown sweater and heavy skirt. I bought some apples and asked if they were Patagonian. Yes, she said, they were grown right here. And then, \x{2018}Isn\x{2019}t it a beautiful day!\x{2019}"
+          ],
+          [
+            1,
+            '[01:30] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter021.html) - one-thirty in the morning',
+            "It was sunny, with a stiff breeze riffling the Lombardy poplars. We were delayed for about an hour, but I didn\x{2019}t mind. In fact, the longer we were delayed the better, since I was scheduled to get off the train at Jacobacci at the inconvenient hour of <<one-thirty in the morning|5>>. The connecting train to Esquel was not leaving until <<six AM|5>>, so it hardly mattered what time I got to Jacobacci."
+          ],
+          [
+            1,
+            '[ap ~ 02:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter021.html) - About two',
+            "\x{2018}<<About two|9e>>, tomorrow morning.\x{2019}"
+          ],
+          [
+            1,
+            '[ap 05:30] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter021.html) - five-thirty',
+            "\x{2018}Wait,\x{2019} he said. \x{2018}The train to Esquel does not leave until <<five-thirty|9c:1>>.\x{2019}"
+          ],
+          [
+            1,
+            '[07:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter004.html) - seven in the morning',
+            "I had arrived in Veracruz at <<seven in the morning|9a>>, found a hotel in the pretty Plaza Constitucion and gone for a walk. I had absolutely nothing to do: I did not know a soul in Veracruz, and the train to the Guatemalan border was not leaving for two days. Still, this did not seem a bad place. There are few tourist attractions in Veracruz; there is an old fort and, about two miles south, a beach. The guidebooks are circumspect about des-scribing this fairly ugly city: one calls it \x{2018}exuberant\x{2019}, another \x{2018}picturesque\x{2019}. It is a faded seaport, with slums and tacky modernity crowding the quaintly ruined buildings at its heart. Unlike any other Mexican city, it has pavement caf\x{e9}s, where forlorn children beg and marimba players complete the damage to your eardrums that was started on the descent from the heights of Orizaba. Mexicans treat stray children the way other people treat stray cats (Mexicans treat stray cats like vermin), taking them on their laps and buying them ice cream, all the while shouting to be heard over the noise of the marimbas."
+          ],
+          [
+            1,
+            "[23:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter004.html) - eleven o\x{2019}clock at night",
+            "
+\x{2018}Pomp and Circumstance\x{2019}? In Veracruz? At <<eleven o\x{2019}clock at night|6>>?"
+          ],
+          [
+            1,
+            '[< 00:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter004.html) - near midnight',
+            "But he had boarded the plane and vanished. In nine days of searching, Nicky had not been able to find a trace of him. Perhaps it was the effect of the Dashiell Hammett novel I had just read, but I found myself examining her situation with a detective\x{2019}s scepticism. Nothing could have been more melodramatic, or more like a Bogart film: <<near midnight|13>> in Veracruz, the band playing ironical love songs, the plaza crowded with friendly whores, the woman in the white suit describing the disappearance of her Mexican husband. It is possible that this sort of movie-fantasy, which is available to the solitary traveller, is one of the chief reasons for travel. She had cast herself in the role of leading lady in her search drama, and I gladly played my part. We were far from home: we could be anyone we wished. Travel offers a great occasion to the amateur actor."
+          ],
+          [
+            1,
+            '[07:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter016.html) - seven in the morning',
+            "The Rimac river flowed past the railway station. At <<seven in the morning|9a>> it was black; it became grey as the sun moved above the foothills of the Andes. The sandy mountains at the city\x{2019}s edge give Lima the feel of a desert city hemmed-in on one side by hot plateaux. It is only a few miles from the Pacific Ocean, but the land is too flat to permit a view of the sea, and there are no sea breezes in the day-time. It seldom rains in Lima. If it did, the huts \x{2013} several thousand of them \x{2013} in the shanty town on the bank of the Rimac would need roofs. The slum is odd in another way; besides being entirely roofless, the huts in this (to use the Peruvian euphemism) \x{2018}young village\x{2019} are woven from straw and split bamboo and cane. They are small frail baskets, open to the stars and sun, and planted beside the river which, some miles from the station, is cocoa-coloured. The people wash in this river water; they drink it and cook with it; and when their dogs die, or there are chickens\x{2019} entrails to be disposed of, the river receives this refuse."
+          ],
+          [
+            1,
+            "[ap 04:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter016.html) - four o\x{2019}clock",
+            "We entered the valley and zig-zagged on the walls. It was hardly a valley. It was a cut in the rock, a slash so narrow that the diesel\x{2019}s hooter hardly echoed: the walls were too close to sustain an answering sound. We were due at Huancayo at <<four o\x{2019}clock|6>>; by mid-morning I thought we might arrive early, but at <<noon|13>> our progress had been so slow I wondered whether we would get to Huancayo that day. And long before Ticlio I had intimations of altitude sickness. I was not alone; a number of other passengers, some of them Indians, looked distinctly ghastly."
+          ],
+          [
+            1,
+            '[06:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter007.html) - six in the morning',
+            "
+
+
+    The Old Patagonian Express
+
+
+
+
+
+
+
+It was a brutal city, but at <<six in the morning|9a>> a froth of fog endowed it with a secrecy and gave it the simplicity of a mountain-top. Before the sun rose to burn it away, the fog dissolved the dull straight lines of its streets, and whitened its low houses and made its sombre people ghostly as they appeared for moments before being lifted away, like revengers glimpsed in their hauntings. Then Guatemala City, such a grim thing, became a tracing, a sketch without substance, and the poor Indians and peasants \x{2013} who had no power \x{2013} looked blue and bold and watchful. They possessed it at this hour. There was no wind; the fog hung in fine grey clouds, a foot from the ground. Even the railway station, no more than a brick shed, took on the character of a great terminus: there was no way of verifying that it did not rise up for five stories in a clock tower crowned by pigeons and iron-work, so well hidden was its small tin roof by the fog the volcanoes had trapped. There were about twenty people standing near the ticket window of the station \x{2013} in rags; but their rags seemed just another deception of the fog."
+          ],
+          [
+            1,
+            '[10:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter007.html) - ten in the morning',
+            "I did have one fear: that the train would stop, just like that, no warning, no station; that the engine would seize up in the heat and that we would be stuck here. It had happened on what was regarded as a fine railway a hundred miles out of Veracruz, and the Mexicans had no explanation. This railway was clearly much older, the engine more of a gasper. And suppose it does, I thought, suppose it just stops here and can\x{2019}t start? It was <<ten in the morning|9a>>, the open cars were full of people, the train carried no water, there was no road for miles, nor was there any shade. How long did it take to die? I guessed it would not take long in this boundless desert."
+          ],
+          [
+            1,
+            '[06:30] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter007.html) - six-thirty in the morning',
+            "\x{2018}Yes, there is a train to Metapan in two days \x{2013} on Wednesday. At <<six-thirty in the morning|5>>. Do you want a ticket?\x{2019}"
+          ],
+          [
+            1,
+            "[ap > 01:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter012.html) - past one o\x{2019}clock",
+            "\x{2018}Golly,\x{2019} he said, looking at his own. \x{2018}It\x{2019}s <<past one o\x{2019}clock|6>>. I don\x{2019}t know about you, but I\x{2019}m real hungry.\x{2019}"
+          ],
+          [
+            1,
+            "[ap 10:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter012.html) - ten o\x{2019}clock",
+            "I had not been inside an American high school for twenty years; how strange it was that the monkey house from which I had graduated had been reassembled, down to its last brick and home-room bell and swatch of ivy, here in Central America. And I knew in my bones what my reaction would have been at Medford High if it had been announced that, instead of Latin at <<ten o\x{2019}clock|6>>, there would be an assembly: a chance to fart around!"
+          ],
+          [
+            1,
+            '[ap 05:15] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter012.html) - 5:15',
+            "If I was to stay in Col\x{f3}n I would have to choose between the chaos and violence of the native quarter or the colonial antisepsis of the Zone. I took the easy way out, bought a ticket back to Panama City and boarded the <<5:15|2>>. As soon as we pulled out of the station, the skies darkened and it began to rain. This was the Caribbean: it might rain anytime here. Fifty miles away, on the Pacific, it was the Dry Season; it was not due to rain for six weeks. The Isthmus may be narrow, but the coasts are as distinct as if a great continent lay between them. The rain came down hard and swept across the fields; it blackened the canal and wrinkled it with wind; and it splashed the sides of the coach and ran down the windows. With the first drops the passengers had shut the windows and now we sat perspiring, as if soaked by the downpour."
+          ],
+          [
+            1,
+            "[ap 07:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter012.html) - seven o\x{2019}clock",
+            "All over the Zone it was Club-going Hour. At the officer\x{2019}s mess and the VFW, the American Legion and the Elks, at the Church of God Servicemen\x{2019}s Center, the Shriners Club, the Masons, the golf clubs, the Star of Eden Lodge No. 9, of the Ancient and Illustrious Star of Bethlehem, the Buffaloes, and the Moose, and at the Lord Kitchener Lodge No. 25, and the Company cafeteria in Balboa the day\x{2019}s work was done and clubby colonials of the Zone were talking. There was only one subject, the treaty. It was <<seven o\x{2019}clock|6>> in the Zone, but the year \x{2013} who could tell? It was not the present. It was the past that mattered to the Zonian; the present was what most Zonians objected to, and they had succeeded so far in stopping the clock, even as they kept the canal running."
+          ],
+          [
+            1,
+            '[00:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter012.html) - midnight',
+            "At Balboa High some students were waiting for it to grow dark enough so that in stealth they could drive nails again into the locks, and jam them, and prevent school from opening. At <<midnight|9m>> the arts teacher suddenly remembered that she had left a kiln on and was afraid the school would burn down. She phoned the principal and he changed out of his pyjamas and checked. But there was no danger: the kiln had been left unplugged. Nor were the locks successfully jammed. The next day, school opened as usual, and all was well in the Zone. I was asked to stay longer, to go to a party, to discuss the treaty, to see the Indians. But my time was getting short; already it was March, and I had not yet set foot in South America. In a few days, there was a national election in Colombia, \x{2018}and they\x{2019}re expecting trouble,\x{2019} said Miss McKinven at the Embassy. These considerations, as Gulliver wrote, moved me to hasten my departure sooner than I intended."
+          ],
+          [
+            1,
+            "[ap > 09:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter005.html) - just after nine o\x{2019}clock",
+            "
+
+
+    The Old Patagonian Express
+
+
+
+
+
+
+
+I had been on the train for twelve hours. There was something wrong with this train; a whole day of travelling and we had gone only a hundred miles or so, mostly through swamps. The heat had made me nauseous, and the noise of the banging doors, the anvil clang of the coupling, had given me a headache. Now it was night, still noisy, but very cold. The coach was open \x{2013} most of the eighty seats were occupied, nearly all the windows were broken, or jammed open. The bulbs on the ceiling were too dim to read by, too bright to allow me to sleep. The rest of the passengers slept, and one across the aisle was snoring loudly. The man behind me who, all day, had sighed and cursed and kicked the back of my seat in exasperation, had made a pillow of his fist and gone to sleep. The spiders and ants I had noticed during the day crawling in and out of the horsehair of the burst cushions had begun biting me. Or was it mosquitoes? My ankles itched and stung. It was <<just after nine o\x{2019}clock|10>>. I held a copy of Pudd\x{2019}nhead Wilson. I had given up trying to read it."
+          ],
+          [
+            1,
+            '[ap 01:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter005.html) - one',
+            "At <<one|9m>> stop \x{2013} a station, not a breakdown \x{2013} a boy got on and stood at the front of the coach. He sang in a very sweet voice. At first the passengers were embarrassed, but with the second and third songs, they applauded. The boy was encouraged. He sang a fourth. The whistle blew. He walked to the back of the coach, collecting money from the people. What impressed me as much as his voice was his age \x{2013} he was about twenty, old enough to be a cane-cutter or a farm labourer (but farm labourers in Mexico work on average only 135 days a year). This singing seemed an unlikely occupation, but perhaps he only performed when the train passed through his village."
+          ],
+          [
+            1,
+            '[ap 01:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter005.html) - one',
+            "There were few stops \x{2013} some villages, some settlements that were less than villages. I saw doorways flickering in candlelight and hut interiors whitened by lanterns. At <<one|9m>> doorway the highly erotic sight of a girl or woman, leaning against the jamb, canted forward, her legs apart, her arms upraised, and the light behind her showing the slimness of the body beneath her gauzy dress \x{2013} this lovely shape in a lighted rectangle surrounded by the featureless Mexican night. It left me flustered and a bit anxious."
+          ],
+          [
+            1,
+            '[ap 01:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter005.html) - one',
+            "At <<one|9m>> town, a boy leaned out of the train and called to a girl selling corn. He said, \x{2018}Where are we?\x{2019}"
+          ],
+          [
+            1,
+            '[ap 06:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter005.html) - six',
+            'At <<six|9a>> that morning, I blinked at my watch. The lights in the car had fused: it was pitch dark. Moments later, it was dawn. No bulb of sun, but a seepage of light that dissolved the darkness and rose on all sides bringing a bluer ozone-scented softness to a sky which became gigantic. With it was a warm buoyancy of air, and scale was restored to the landscape, and the car was sweetened with the odour of desert dew. I had never seen dawn break so swiftly, but I had never slept that way. The windows were open, there were no shades: it was like sleeping on a park bench.'
+          ],
+          [
+            1,
+            "[ap 11:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter005.html) - eleven o\x{2019}clock",
+            "The mountain range \x{2013} now like a fortress, now like a cathedral (it was yet another protectively maternal strip of the Sierra Madre) \x{2013} stayed with us the whole day. But we never climbed it. We moved south along the hot lowland, and the more southerly we penetrated the more primitive and tiny became the Indian villages, the more emblematic the people: naked child, woman with basket, man on horseback, posed in the shattering sunlight before a poor mud hut. As the morning wore on the people withdrew and by <<eleven o\x{2019}clock|6>> we were watched from the windows of huts which had grown much smaller. Shade was scarce: skinny village dogs slept under the bellies of cows which were themselves transfixed by hanks of course grass."
+          ],
+          [
+            1,
+            '[> 00:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter022.html) - just after midnight',
+            '
+
+
+    The Old Patagonian Express
+
+
+
+
+
+
+
+It was not necessary for Otto to wake me up; the dust did that. It filled my compartment, and as the Lakes of the South Express hurried across the plateau where it seldom rains (what good were leakproof shoes here?), the dust was raised, and our speed forced it through the rattling windows and the jiggling door. I woke feeling suffocated and made a face mask of my bed sheet in order to breathe. When I opened the door a cloud of dust blew against me. It was no ordinary dust storm, more like a disaster in a mine shaft: the noise of the train, the darkness, the dust, the cold. There was no danger of my sleeping through Ingeniero Jacobacci. I was fully awake <<just after midnight|10>>. I gritted my teeth and sand grains crunched in my molars.'
+          ],
+          [
+            1,
+            '[02:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter022.html) - two in the morning',
+            "That express train \x{2013} and how I yearned to be back on it \x{2013} had blurred distance and altitude. The statistics were given at Jacobacci. We were over a thousand miles from Buenos Aires, and since Carmen de Patagones, which was at sea-level, we had climbed to over 3,000 feet, on a plateau that did not descend again until the Straits of Magellan. In this wind, at this altitude, at this time of night \x{2013} <<two in the morning|5>> \x{2013} it was very cold in Jacobacci. No one stops at Jacobacci, people had said. I could disprove that. Passengers had got off the train. I assumed that, like me, they would be waiting for the train to Esquel. I looked around for them. They were gone."
+          ],
+          [
+            1,
+            '[< 03:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter022.html) - nearly three in the morning',
+            'If only he had said, Want to hear something strange? He was old enough to know a good story. But he was half asleep, and it was cold, and <<nearly three in the morning|9h>>. So I left him alone and went outside. I walked up the tracks, away from the lights of the station. The wind in the thorn bushes rasped like sand in a chute. The air smelled of dust. The moon on the bushes shone blue across the bumpy monotony of Patagonia.'
+          ],
+          [
+            1,
+            '[ap 05:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter022.html) - five',
+            'I had arrived at Ingeniero Jacobacci in darkness. It was still dark when I boarded the train. The station master gave me more tea and said I could get into the coach. It was as small as I had been warned it would be, and it was filled with dust that had blown through the windows. But at least I had a seat. At <<five|9e>>, people started to gather. Incredibly, at this hour, they were seeing friends and family off. I had noticed this custom all over Bolivia and Argentina, this send-off, lots of kisses, hugs, and waves, and at the larger stations weeping men parting from their wives and children. I found it touching, and at odds with their ridiculously masculine self-appraisal.'
+          ],
+          [
+            1,
+            '[ap < 06:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter022.html) - just before six',
+            "There was a whistle, a steam-whistle \x{2013} a shrill fluting pipe. The station bell was rung. Well-wishers scrambled from the train, passengers boarded; and, <<just before six|10>>, we were off."
+          ],
+          [
+            1,
+            '[ap 08:30] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter022.html) - 8.30',
+            "We were. The hills and dales of Patagonia which I had welcomed for their variation and their undeniable beauty were the cause of our slow progress. On a straight track this trip would not have taken more than three hours, but we were not due to arrive in Esquel until <<8.30|5a:1>> \x{2013} nearly a fourteen-hour ride. The hills were not so much hills as they were failed souffl\x{e9}s."
+          ],
+          [
+            1,
+            "[ap > 08:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter022.html) - after eight o\x{2019}clock",
+            "It was <<after eight o\x{2019}clock|6>> when I saw the lights. I looked for more. There were no more. There was nothing to these places, I thought, until you were on top of them. I did not know at that moment that we were on top of Esquel. I had expected more \x{2013} an oasis, perhaps taller poplars, the sight of a few friendly bars, a crowded restaurant, a flood-lit church, anything to signify my arrival. Or less: like one of the tiny stations along the line; like Jacobacci, a few sheds, a few dogs, a bell. The train emptied quickly."
+          ],
+          [
+            1,
+            "[ap 09:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter013.html) - nine o\x{2019}clock",
+            "At <<nine o\x{2019}clock|6>>, or just after, we passed Aracataca. The novelist Gabriel Garcia Marquez was born here; this was the Macondo of Leaf-Storm and One Hundred Years of Solitude. In the light of fires and lanterns I could see mud huts, the silhouettes of palms and banana trees, and glow-worms in the tall grass. It was not late, but there were few people awake; glassy-eyed youths who had stayed up watched the train go by. \x{2018}It\x{2019}s coming,\x{2019} says a woman in Marquez\x{2019}s Macondo, when she sees the first train approach the little town. \x{2018}Something frightful, like a kitchen dragging a village behind it.\x{2019}"
+          ],
+          [
+            1,
+            '[00:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter013.html) - midnight',
+            "I made myself a baloney sandwich, drank two of the beers I had bought in Santa Marta and went to sleep. The noise, the rhythm of the clicking on the rails, was a soporific; it was silence and a stillness in the car that woke me. At <<midnight|9e>>, I came awake: the train had stopped. I did not know where we were, but it must have been a fairly large place because most of the people in the car \x{2013} including the man next to me \x{2013} got off. But an equal number boarded here, so we were no less crowded. Children woke and cried, and people pushed and fought for the empty seats. An Indian girl sat next to me; her plump profile, outlined by the station lights, was unmistakable. She wore a baseball cap and a jersey and slacks, and her luggage was three cardboard boxes and an empty oil-drum. When the train started, she snuggled up to me and went to sleep. My shirt was damp with sweat, but the humid breeze was no help; and I knew we would not be out of this swamp until late the next day. I fell asleep, but when I woke again at another lonely station \x{2013} a low building, a man, a lantern \x{2013} I saw that the girl had moved across the aisle and was snuggling against a murmuring man."
+          ],
+          [
+            1,
+            '[ap 05:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter013.html) - Five',
+            "\x{2018}Five months I have been travelling! <<Five|9k:0>>. I left Paris in October. I spent one month in New York City.\x{2019}"
+          ],
+          [
+            1,
+            '[ap 01:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter013.html) - one',
+            "At <<one|9m>> town there was a bar; it was called \x{2018}The Blue Danube\x{2019} in Spanish, this bar near the much-mightier Magdalena. Outside it was a hitching post, with three saddled horses tied to it; the riders were at the window, drinking beer. It was an appropriate wild-west scene in this poor empty land, the settlers\x{2019} shacks and the pig-pens and the rumours of emeralds. It was no better in the train. The passengers were either asleep or sitting silently, traumatized by the heat. Half of them were flat-faced Indians in shawls or felt hats."
+          ],
+          [
+            1,
+            '[12:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter011.html) - noon',
+            "Nor is the landscape remarkable enough to intrude. Costa Rica\x{2019}s south-west is very different from the north-east. The land seems to slope away to the Pacific coast, from the coffee bushes in the high suburbs, to areas of light industry, the cement factories and timber yards that supply material for the country\x{2019}s growth. By the time we left these industrial suburbs it was not yet <<noon|13>>; but it was lunch-time, not only for the factory hands, but for office workers and managers too. Costa Rica has a large middle-class, but they go to bed early and rise at dawn; everyone \x{2013} student, labourer, businessman, estate manager, politician \x{2013} keeps farmer\x{2019}s hours."
+          ],
+          [
+            1,
+            '[ap ~ 11:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter011.html) - about eleven',
+            "There was more. A young girl, <<about eleven|9:0>> \x{2013} perhaps another daughter \x{2013} rushed forward with a bottle of Coke. She shook the bottle and sprayed foam into the boy\x{2019}s face. Still, the two girls said nothing. The boy pulled a hanky out of his pocket and, wiping his face, made a pleading explanation: \x{2018}They said the seat was not occupied \x{2026} they said I could sit down \x{2026} ask them, go ahead, they\x{2019}ll tell you \x{2026}\x{2019}"
+          ],
+          [
+            1,
+            '[< 00:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter010.html) - nearly midnight',
+            "He wanted to take me to what he said was the only good brothel in San Jos\x{e9}. It was too late, I said, <<nearly midnight|13>>. He said <<midnight|13>> was the best time \x{2013} the hookers were just waking up. \x{2018}How about tomorrow?\x{2019} I said, knowing that tomorrow I would be in Lim\x{f3}n. \x{2018}You\x{2019}re a chicken,\x{2019} he said, and I could hear him laughing as I descended the stairs to the street."
+          ],
+          [
+            1,
+            '[12:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter010.html) - noon',
+            "A Lim\x{f3}n train leaves the Atlantic station every day at <<noon|13>>. It is not a great train, but by Central American standards it is the Brighton Belle. There are five passenger coaches, two classes, no freight cars. I had been eager to take this train, for the route has the reputation of being one of the most beautiful in the world, from the temperate capital in the mountains, through the deep valleys on the north-east, to the tropical coast which, because of its richly lush jungle, Columbus named Costa Rica when he touched there on his fourth voyage in 1502. He believed that he had arrived at the green splendour of Asia. (Columbus tacked up and down the coast and was ill for four months in Panama; cruelly, no one told him that there was another vast ocean on the other side of the mountains \x{2013} the local Indians were deaf to his appeal for this information.)"
+          ],
+          [
+            1,
+            '[< 00:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter010.html) - towards midnight',
+            "The most scenic of Central American routes; but I had another good reason for wanting to take this train out of San Jos\x{e9}. Since arriving in Costa Rica I had spent much of my time in the company of hard-drinking American refugees \x{2013} Andy Ruggles and the diabolical Dibbs were but two. I was glad of their company; El Salvador hadn\x{2019}t been much fun. But now I was ready to set off alone. Travel is at its best a solitary enterprise: to see, to examine, to assess, you have to be alone and unencumbered. Other people can mislead you; they crowd your meandering impressions with their own; if they are companionable they obstruct your view, and if they are boring they corrupt the silence with non-sequiturs, shattering your concentration with Oh, look, it\x{2019}s raining and You see a lot of trees here. Travelling on your own can be terribly lonely (and it is not understood by Japanese who, coming across you smiling wistfully at an acre of Mexican buttercups, tend to say things like Where is the rest of your team?). I think of evening in the hotel room in the strange city; my diary has been brought up to date; I hanker for company: what do I do? I don\x{2019}t know anyone here, so I go out and walk and discover the three streets of the town and rather envy the strolling couples and the people with children. The museums and churches are closed, and <<towards midnight|13>> the streets are empty. Don\x{2019}t carry anything valuable, I was warned; it\x{2019}ll just get stolen. If I am mugged I will have to apologize in my politest Spanish: I am sorry, sir, but I have nothing valuable on my person. Is there a surer way of enraging a thief and driving him to violence? Walking these dark streets is dangerous, but the bars are open. Ruggles and Dibbs await. They take the curse off my boredom, but I have a nagging suspicion that if I had stayed home and lingered in downtown Boston until <<midnight|13>> I would have met Ruggles and Dibbs in the <<Two O\x{2019}Clock|6>> Lounge (\x{2018}20 Completely Nude College Girls!!!\x{2019}). I did not have to take the train to Costa Rica for that."
+          ],
+          [
+            1,
+            '[ap 06:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter010.html) - six',
+            "He had missed his tour. It would have been all-inclusive, the train to Lim\x{f3}n, a boat-trip up the coast, a chef travelling with the party, some wonderful meals. He would have seen monkeys and parrots. Back to Lim\x{f3}n: some swimming, a four-star hotel, then a bus to the airport and a plane to San Jos\x{e9}. That was the tour. But (the river was dashing an old canoe to pieces, and those little boys \x{2013} surely they were fishing?) the hotel manager had gotten the time wrong and the tour had left at <<six|9c:1>>, not nine, so on the spur of the moment, and with nothing else to do in San Jos\x{e9}, the old man asked about the train and hopped on, just like that, and you never knew, maybe he\x{2019}d catch up with the rest of them; after all, he had paid his three hundred dollars and here was his receipt and his booklet of coupons."
+          ],
+          [
+            1,
+            '[ap > 03:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter010.html) - After three',
+            "I walked to savour my freedom and stretch my legs. <<After three|9:0>> blocks the town didn\x{2019}t look any better, and wasn\x{2019}t that a rat nibbling near the tipped-over barrel of scraps? It\x{2019}s a white country, a man had told me in San Jos\x{e9}. But this was a black town, a beach-head of steaming trees and sea-stinks. I tried several hotels. They were wormy staircases with sweating people minding tables on the second-floor landings. No, they said, they had no rooms. And I was glad, because they looked so disgustingly dirty and the people were so rude; so I walked a few more blocks. I\x{2019}d find a better hotel. But they were smaller and smellier, and they too were full. At <<one|9e>>, as I stood panting \x{2013} the staircase had left me breathless \x{2013} a pair of cockroaches scuttled down the wall and hurried unimpeded across the floor. Cockroaches, I said. The man said, What do you want here? He too was full. I had been stopping at every second hotel. Now I stopped at each one. They were not hotels. They were nests of foul bedclothes, a few rooms and a portion of verandah. I should have known they were full: I met harassed families making their way down the stairs, the women and children carrying suitcases, the father sucking his teeth in dismay and muttering, \x{2018}We\x{2019}ll have to look somewhere else.\x{2019} It was necessary for me to back down the narrow stairs to let these families pass."
+          ],
+          [
+            1,
+            "[ap 09:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter010.html) - Nine o\x{2019}clock",
+            "\x{2018}I\x{2019}m sick of thinking about it.\x{2019} He looked at his watch. \x{2018}<<Nine o\x{2019}clock|6>>. I\x{2019}m bushed. Shall we call it a day?\x{2019}"
+          ],
+          [
+            1,
+            "[ap 09:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter010.html) - nine o\x{2019}clock",
+            "I said, \x{2018}I don\x{2019}t normally go to bed at <<nine o\x{2019}clock|6>>.\x{2019}"
+          ],
+          [
+            1,
+            '[ap 01:30] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter010.html) - one-thirty',
+            "We reached the lagoon at <<one-thirty|5b>>, and moored the boat there because the black pilot feared that the tides at the estuary might drag us into the sea. We walked to the beach of grey lava. I swam. The black pilot screamed in Spanish for me to leave the water. There were sharks in the water, he said \x{2013} the hungriest, the fiercest of sharks. I asked him whether he had seen any sharks. No, he said, but he knew they were there. I plunged back into the water."
+          ],
+          [
+            1,
+            '[ap 05:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter010.html) - five',
+            "The train had left, too, at <<five|9a>> that morning. I said, \x{2018}We can take a taxi.\x{2019}"
+          ],
+          [
+            1,
+            '[ap 07:30] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter020.html) - seven-thirty',
+            "\x{2018}Come tomorrow night,\x{2019} said Borges. \x{2018}Come at <<seven-thirty|5b>>. You can read me some chapters of Pym and then we\x{2019}ll have dinner.\x{2019}"
+          ],
+          [
+            1,
+            '[ap 09:30] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter020.html) - Nine-thirty',
+            "\x{2018}How sad that is,\x{2019} said Borges. \x{2018}It is terrible. The man can do nothing. But notice how Kipling repeats the same lines. It has no plot at all, but it is lovely.\x{2019} He touched \x{2018}his suit jacket. \x{2018}What time is it?\x{2019} He drew out his pocket watch and touched the hands. \x{2018}<<Nine-thirty|5a:1>> \x{2013} we should eat.\x{2019}"
+          ],
+          [
+            1,
+            '[04:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter017.html) - 4:00 AM',
+            "
+
+
+    The Old Patagonian Express
+
+
+
+
+
+
+
+Peru is the poorest country in South America. Peru is also the country most visited by tourists. The two facts are related; even the dimmest tourist can count in Spanish \x{2013} low numbers especially trip off his tongue \x{2013} and he knows that Peru\x{2019}s gigantic ruins and threadbare currency are a bargain. The student I had met in Huancayo was right: there were some Quechua Indians on the plane to Cuzco, but the others were all tourists. They had arrived in Lima the day before and had been whisked around the city. In their hotel was a schedule: \x{2018}<<4:00 AM|2a>> \x{2013} Wake-Up Call! <<4:45 AM|2a>> \x{2013} Luggage in Corridor! <<5:00|2>> \x{2013} Breakfast! <<5:30|2>> \x{2013} Meet in Lobby!\x{2026}\x{2019} At <<eight in the morning|9a>>, some men with shaving cream still stuck to their earlobes, they arrived in Cuzco and fought their way past the Indians (who carried tin pots and greasy bundles of food and lanterns, much as they had on the train) to a waiting bus, congratulating themselves on the cheapness of the place. They are unaware that it is almost axiomatic that air travel has wished tourists on only the most moth-eaten countries in the world: tourism, never more energetically pursued than in static societies, is usually the mobile rich making a blind blundering visitation on the inert poor."
+          ],
+          [
+            1,
+            '[04:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter017.html) - four in the morning',
+            "The visitors wore badges, Samba South America; the badges also served as name-tags. At this early hour in the thin grey air and high altitude drizzle, the haggard faces did not match the tittupping names: Hildy Wicker, Bert and Elvera Howie, Charles P. Clapp, Morrie Upbraid, the Prells, the Goodchucks, Bernie Khoosh, the Avatarians, Jack Hammerman, Nick and Lurleen Poznan, Harold and Winnie Casey, the Lewgards, Wally Clemons, and little old Merry Mackworth. They were a certain age; they had humps and braces and wooden legs and two walked with crutches \x{2013} amazing to see this performance in the high Andes \x{2013} and none looked well. What with the heat in Lima and the cold here, the delays, the shuffling up and down stairs \x{2013} and they had yet to climb the vertical Inca staircases (\x{2018}I don\x{2019}t know which is worse, going up or going down\x{2019}) \x{2013} they were suffering. You had to admire them, because in two days they would be on the same plane flying back to Lima, waking again at <<four in the morning|9a>>, and that day arriving in another godawful place like Guayaquil or Cali."
+          ],
+          [
+            1,
+            '[ap 01:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter017.html) - one',
+            "Off they went, the three Mexicans. I entered the bar, and I understood their hurry. The bar was almost underground; it had a low ceiling and was lighted by six sooty lanterns. In this lantern light I could see ragged Indians, grinning drunkenly and guzzling maize beer from dented tankards. The bar was shaped like a trough. At <<one|9m>> end an old man and a very small boy were playing stringed instruments; the boy was singing sweetly in Quechua. At the other end of the trough, a fat Indian woman was frying meat over a log fire \x{2013} the smoke circled in the room. She cooked with her hands, throwing the meat in, turning it with her hands, picking it up to examine it, then taking a cooked hunk in each hand and carrying it to a plate. An infant crawled near the fire; it was nearly naked, not more than six months old, and like a soft toy. I had had my look, but before I could leave I noticed three men beckoning to me."
+          ],
+          [
+            1,
+            "[ap 04:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter017.html) - four o\x{2019}clock",
+            "
+At <<four o\x{2019}clock|6>> every weekday morning the Cuzco church bells ring. They ring again at <<4:15|2>> and <<4:30|2>>. Because there are so many churches, and the valley is walled-in by mountains, the tolling of church bells, from <<four to five in the morning|10>>, has a celebratory sound. They summon all people to mass, but only Indians respond. They flock to <<five o\x{2019}clock|6>> mass in the Cathedral, and <<just before six|10>> the great doors of the Cathedral open on the cold cloudy mountain dawn and hundreds of Indians pour into the plaza, so many of them in bright red ponchos that the visual effect is of a fiesta about to begin. They look happy; they have performed a sacrament. All Catholics leave mass feeling light-hearted, and though these Indians are habitually dour \x{2013} their faces wrinkled into frowns \x{2013} at this early hour after mass most of them are smiling."
+          ],
+          [
+            1,
+            '[ap 06:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter017.html) - six',
+            "The tourists wake with the Indians, but the tourists head for Santa Ana Station to catch the train to Machu Picchu. They carry packed lunches, umbrellas, raincoats and cameras. They are disgusted, and they have every right to be so. They were led to believe that if they got to the station at <<six|9c:1>>, they would have a seat on the <<seven o\x{2019}clock|6>> train. But now it was <<seven|9f>> and the station doors had not opened. A light rain had started and the crowd of tourists numbered two hundred or more. There is no order at the station."
+          ],
+          [
+            1,
+            '[19:11] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter017.html) - 1911',
+            "Ahead, through a black gateway of pinnacles, was a wide flat valley filled with sunlight; birds were slanted in the sky and on ledges like the diacritical marks on vowels, and there were green streaks, wind-flattened bushes, on the steep mountains beyond. In the centre of the valley, coursing beside fuchsias and white orchids, was a turbulent brown river. This was the Vilcanota River, running north to Machu Picchu, where it becomes the Urubamba and continues north-east to join a tributary of the Amazon. The river flowed from Sicuani, past the glaciers above the crumbling town of Pisaq, and here, where our train was tooting, had formed the Sacred Valley of the Incas. The shape of this valley \x{2013} so flat and green and hidden \x{2013} in such a towering place, had attracted the Incas. Many had been here before the Spaniards entered Cuzco, and here others fled, fighting a rearguard action after Cuzco fell. The valley became an Inca stronghold, and long after the Spaniards believed they had wiped out or subdued this pious and highly civilized empire, the Incas continued to live on in the fastnesses of these canyons. In 1570, a pair of Augustinian missionaries \x{2013} the friars Marcos and Diego \x{2013} had the fanatical faith to take them over the mountains and through this valley. The friars led a motley band of Indian converts who carried torches and set fire to the shrines at which Incas were still worshipping. Their triumph was at Chuquipalta, near Vitcos, where for the greater glory of God (the Devil had made appearances here, so the Incas said) they put their torches to the House of the Sun. Some missions were established along the river (Marcos eventually suffered a horrendous martyrdom), but farther on, where the mountains and sky seemed scarcely distinguishable, the ruins were not re-entered. The valleys slept. They were not penetrated again until <<1911|9c:1>>, when the Yale man, Hiram Bingham, with the words of Kipling\x{2019}s \x{2018}Explorer\x{2019} running through his head (\x{2018}Something hidden. Go and find it. Go and look behind the Ranges \x{2013} / Something lost behind the ranges. Lost and waiting for you. Go!\x{2019}) found the vast mountain-top city he named Machu Picchu. He believed he had found the lost city of the Incas, but John Hemming writes in The Conquest of the Incas that an even more remote place to the west, Espiritu Pampa, has the greater claim to the title."
+          ],
+          [
+            1,
+            '[ap 01:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter018.html) - one',
+            "\x{2018}Only <<one|9k:0>>?\x{2019} I asked."
+          ],
+          [
+            1,
+            '[~ 00:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter018.html) - about midnight',
+            "While we were eating, I got a severe stomach cramp. I excused myself and went back to my compartment. The train had stopped. This was Oruro, a fairly large city, mostly Indian, near Lake Uru Uru. The rain had intensified; it beat against the window in a torrent made silver by the arc-lamps of the station. I got into bed and turned off the light and curled up to ease my cramp. I woke at <<about midnight|13>>. It was very cold in the compartment and so dusty \x{2013} the dust seemed an effect of the train\x{2019}s rapid motion \x{2013} I could barely breathe. I tried the lights, but they didn\x{2019}t work. I struggled to open the door \x{2013} it seemed locked from the outside. I was choking, freezing and doubled up with stomach pains. I had no choice but to remain calm. I took four swigs of my stomach cement, and then buried my face in my blanket and waited for the morphine to work."
+          ],
+          [
+            1,
+            '[> 00:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter018.html) - past midnight',
+            'We were taken across the border to the Argentine station over the hill. Then the sleeping car was detached and we were again left on a siding. Three hours passed. There was no food at the station, but I found an Indian woman who was watching a teapot boil over a fire. She was surprised that I should ask her to sell me a cup, and she took the money with elaborate grace. It was <<past midnight|9f>>, and at the station there were people huddled in blankets and sitting on their luggage and holding children in their arms. Now it started to rain, but just as I began to be exasperated I remembered that these people were the Second Class passengers, and it was their cruel fate to have to sit at the dead centre of this continent waiting for the train to arrive. I was much luckier than they. I had a berth and a First Class ticket. And there was nothing to be done about the delay.'
+          ],
+          [
+            1,
+            '[06:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter018.html) - six in the morning',
+            'I slept for twelve hours. I woke again at <<six in the morning|9a>>, and saw that we had come to a station. There were three poplars outside the window. In the early afternoon I woke again. The three poplars were still outside the window. We had not moved.'
+          ],
+          [
+            1,
+            '[ap 09:15] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/preface003.html) - nine-fifteen',
+            "
+\x{2018}Romance!\x{2019} the season-tickets mourn,
+
+\x{a0}\x{a0} \x{a0} \x{2018}He never ran to catch his train,
+
+But passed with coach and guard and horn \x{2013}
+
+\x{a0}\x{a0} \x{a0} \x{2018}And left the local \x{2013} late again!\x{2019}
+
+Confound Romance \x{2026} And all unseen
+
+Romance brought up the <<nine-fifteen|5a:1>>."
+          ],
+          [
+            1,
+            '[ap 04:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter008.html) - Four',
+            "Hog, sow, piglet, swine. I said, \x{2018}<<Four|9k:0>>.\x{2019}"
+          ],
+          [
+            1,
+            '[ap 04:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter008.html) - Four',
+            "Puppy, mutt, mongrel, cur. \x{2018}<<Four|9k:0>>,\x{2019} I said. \x{2018}That is more than you have.\x{2019}"
+          ],
+          [
+            1,
+            '[ap ~ 03:30] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter008.html) - about three-thirty',
+            'At <<about three-thirty|5a:0>> we came to the town of Quetzaltepeque. Seeing a church, Mario and Alfredo made the sign of the cross. The women in the railcar did the same. Some men removed their hats as well.'
+          ],
+          [
+            1,
+            "[ap 09:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter008.html) - nine o\x{2019}clock",
+            "The San Salvador railway station was at the end of a torn-up section of road in a grim precinct of the city. My ticket was collected by a man in a pork-pie hat and sports shirt, who wore an old-fashioned revolver on his hip. The station was no more than a series of cargo sheds, where very poor people were camped, waiting for the morning train to Cutuco: the elderly and the very young \x{2013} it seemed to be the pattern of victims in Central American poverty. Alfredo had given me the name of a hotel and said he would meet me there an hour before kick-off, which was <<nine o\x{2019}clock|6>>. The games were played late, he said, because by then it wasn\x{2019}t so hot. But it was now after dark and the humid heat was choking me. I began to wish that I had not left Santa Ana. San Salvador, prone to earthquakes, was not a pretty place; it sprawled, it was noisy, its buildings were charmless, and in the glare of headlights were buoyant particles of dust. Why would anyone come here? \x{2018}Don\x{2019}t knock it,\x{2019} an American in San Salvador told me. \x{2018}You haven\x{2019}t seen Nicaragua yet!\x{2019}"
+          ],
+          [
+            1,
+            '[< 00:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter008.html) - towards midnight',
+            "In all, five balls were lost this way. The fourth landed not far from where I sat, and I could see that real punches were being thrown, real blood spurting from Salvadorean noses, and the broken bottles and the struggle for the ball made it a contest all its own, more savage than the one on the field, played out with the kind of mindless ferocity you read about in books on gory medieval sports. The announcer\x{2019}s warning was merely ritual threat; the police did not intervene \x{2013} they stayed on the field and let the spectators settle their own scores. The players grew bored: they ran in place, they did push-ups. When play resumed and Mexico gained possession of the ball it deftly moved down the field and invariably made a goal. But this play, these goals \x{2013} they were no more than interludes in a much bloodier sport which, <<towards midnight|13>> (and the game was still not over!), was varied by Suns throwing firecrackers at each other and onto the field."
+          ],
+          [
+            1,
+            '[ap 00:54] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter008.html) - six to one',
+            "Mexico won the game, <<six to one|10>>. Alfredo said that El Salvador\x{2019}s goal was the best one of the game, a header from thirty yards. So he managed to rescue a shred of pride. But people had been leaving all through the second half, and the rest hardly seemed to notice or to care that the game had ended. Just before we left the stadium I looked up at the ant-hill. It was a hill once again; there were no people on it, and depopulated, it seemed very small."
+          ],
+          [
+            1,
+            '[> 00:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter008.html) - after midnight',
+            "Outside, on the stadium slopes, the scene was like one of those lurid murals of Hell you see in Latin American churches. The colour was infernal, yellow dust sifted and whirled among crater-like pits, small cars with demonic headlights moved slowly from hole to hole like mechanical devils. And where, on the mural, you see the sins printed and dramatized, the gold lettering saying Lust, Anger, Avarice, Drunkenness, Gluttony, Theft, Pride, Jealousy, Usury, Gambling, and so on, here <<after midnight|9b>> were groups of boys lewdly snatching at girls, and knots of people fighting, counting the money they had won, staggering and swigging from bottles, shrieking obscenities against Mexico, thumping the hoods of cars or duelling with the branches they had yanked from trees and the radio aerials they had twisted from cars. They trampled the dust and howled. The car horns were like harsh moos of pain \x{2013} and one car was being overturned by a gang of shirtless, sweating youths. Many people were running to get free of the mob, holding handkerchiefs over their faces. But there were tens of thousands of people here, and animals, too, maimed dogs snarling and cowering as in a classic vision of Hell. And it was hot: dark grimy air that was hard to breathe, and freighted with the stinks of sweat; it was so thick it muted the light. It tasted of stale fire and ashes. The mob did not disperse; it was too angry to go home, too insulted by defeat to ignore its hurt. It was loud and it moved as if thwarted and pushed; it danced madly in what seemed a deep hole."
+          ],
+          [
+            1,
+            '[00:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter014.html) - midnight',
+            'Armenia, Antioquia, and not far away the town of Circasia. The names were Asiatic and baffling, but I was too tired to wonder at them. The bus rumbled through town, and though it was dark I saw a large hotel in the middle of a block. I asked the driver to stop, then walked back to that hotel and checked in. I thought that working on my diary until <<midnight|13>> would put me to sleep, but the altitude and the cold made me wakeful. I decided to go for a walk and see a bit of Armenia.'
+          ],
+          [
+            1,
+            '[> 00:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter014.html) - past midnight',
+            "It was <<past midnight|9f>>, but their replies were prompt; their intelligence was obvious and, for moments, it was possible to forget that they were small children. They were street-wise and as alert as adults; but there was nothing in this doorway they inhabited but that piece of cardboard. I had seen children begging in India, the mechanical request for a rupee, the rehearsed story; they were as poor and as lost. But the Indian beggar is unapproachable; he is fearful and cringing, and there is the language barrier. My Spanish was adequate for me to inquire about the lives of these little boys and every reply broke my heart. Though they spoke about themselves with an air of independence, they could not know how they looked, so sad and waif-like. What hope could they possibly have, living outside on this street? Of course, they would die; and anyone who used their small corpses to illustrate his outrage would be accused of having Bolshevik sympathies. This was a democracy, was it not? The election was last week; and there was no shortage of Colombians in Bogot\x{e1} to tell me what a rich and pleasant country this was if you were careful and steered clear of muggers and gamins. What utter crap that was, and how monstrous that children should be killed this way."
+          ],
+          [
+            1,
+            '[06:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter014.html) - six in the morning',
+            "There were thieves, people told me, at the railway stations, at the bus stations, in the markets, the parks, on the hill paths, on the back streets, on the main streets. When I asked directions to a particular part of town, no directions were given. \x{2018}Do not go,\x{2019} they said. On the Expreso de Sol, I was told Bogot\x{e1} was dangerous. In Bogot\x{e1} I said I was going to Armenia. \x{2018}Do not go \x{2013} it is dangerous.\x{2019} The railway station? \x{2018}Dangerous.\x{2019} But the train was leaving at <<six in the morning|9a>>. \x{2018}That is the worst time \x{2013} the thieves will rob you in the dark.\x{2019} How, then, should I get to Cali? \x{2018}Do not go to Cali \x{2013} Cali is more dangerous than Armenia.\x{2019}"
+          ],
+          [
+            1,
+            "[ap 04:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter014.html) - four o\x{2019}clock",
+            "After forty miles the hills became wilder still, and at sixty the climate had changed utterly. Now the hills were brown and over-grazed, and all the landscape sun-scorched, and no green thing anywhere. The bald hills, stripped of all foliage, were rounded on their slopes and had little wave-like shapes beating across them. It was a brown sea of hills, as if a tide of mud had been agitated and left to dry in plump peaks; this was the moment before they crumbled into cakes and dunes and dust slides. Glimmering beyond them was pastel flatness of diluted green \x{2013} the cane fields which lie between the two cordilleras. From here to Cali, the cane fields widened, and at level crossings there were cane-cutters standing \x{2013} there were too many of them to sit down \x{2013} on the backs of articulated trucks, like convict labour. They had been up before dawn. It was <<four o\x{2019}clock|6>>, and they were being taken home, through the fields they had cleared"
+          ],
+          [
+            1,
+            '[00:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter003.html) - midnight',
+            "We had left Nuevo Laredo at twilight. The few stations we stopped at later in the evening were so poorly lighted I could not make out their names on the signboards. I stayed up late reading The Thin Man, which I had put aside in Texas. I had lost the plot entirely, but the drinking still interested me. All the characters drank \x{2013} they met for cocktails, they conspired in speakeasies, they talked about drinking, and they were often drunk. Nick Charles, Hammett\x{2019}s detective, drank the most. He complained about his hangovers, and then drank to cure his hangover. He drank before breakfast, and all day, and the last thing he did at night was have a drink. One morning he feels especially rotten; he says complainingly, \x{2018}I must have gone to bed sober,\x{2019} and then pours himself a stiff drink. The drinking distracted me from the clues in the way President Banda\x{2019}s facial tic prevented me from ever hearing anything he said. But why so much alcohol in this whodunnit? Because it was set \x{2013} and written \x{2013} during Prohibition. Evelyn Waugh once commented that the reason Brideshead Revisited had so many sumptuous meals in it was because it was written during a period of war-time rationing, when the talk was of all the wonderful things you could do with soya beans. By <<midnight|9e>>, I had finished The Thin Man and a bottle of tequila."
+          ],
+          [
+            1,
+            '[< 12:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter003.html) - towards noon',
+            "Back in Texas, with a sweep of his hand, taking in Main Street and the new shopping centre and a score of finance companies, the Texan says, \x{2018}All this was nothing but desert a few years ago.\x{2019} The Mexican pursues a different line. He urges you to ignore the squalor of the present and reflect on the glories of the past. As we entered San Luis Potosi <<towards noon|13>> on the day that had started cold and was now cloudless in a parching heat, I noticed the naked children and the lamed dogs and the settlement in the train-yard, which was fifty boxcars. By curtaining the door with faded laundry, and adding a chicken coop and children, and turning up the volume on his radio, the Mexican makes a bungalow of his boxcar and pretends it is home. It is a frightful slum, and stinks of excrement, but the Mexican man standing at the door of the Aztec Eagle with me was smiling. \x{2018}Many years ago,\x{2019} he said, \x{2018}this was a silver mine.\x{2019}"
+          ],
+          [
+            1,
+            '[< 12:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter001.html) - towards noon',
+            'It was <<towards noon|13>> on March 1, 1898, that I first found myself entering the narrow and somewhat dangerous harbour of Mombasa, on the east coast of Africa. (The Man-Eaters of Tsavo, by Lt Col J. H. Patterson)'
+          ],
+          [
+            1,
+            '[00:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter001.html) - midnight',
+            "There was snow and ice outside. Each street-light illuminated its own post and, just in front, a round patch of snow \x{2013} nothing more. At <<midnight|9e>>, watching from my compartment, I saw a white house on a hill. In every window of this house there was a lighted lamp, and these bright windows seemed to enlarge the house and at the same time betray its emptiness."
+          ],
+          [
+            1,
+            '[ap 02:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter001.html) - two',
+            "At <<two|9a>> the next morning we passed Syracuse. I was asleep or I would have been assailed by memories. But the city\x{2019}s name on the Amtrak timetable at breakfast brought forth Syracuse\x{2019}s relentless rain, a chance meeting at the Orange Bar with the by then derelict poet Delmore Schwartz, the classroom (it was Peace Corps training, I was learning Chinyanja) in which I heard the news of Kennedy\x{2019}s assassination, and the troubling recollection of a lady anthropologist who, unpersuaded by my ardour, had later \x{2013} though not as a consequence of this \x{2013} met a violent death when a tree toppled onto her car in a western state and killed her and her lover, a lady gym teacher with whom she had formed a Sapphic attachment."
+          ],
+          [
+            1,
+            '[ap 04:30] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter001.html) - four-thirty',
+            "\x{2018}I have to catch a train at <<four-thirty|5b>> in Chicago.\x{2019}"
+          ],
+          [
+            1,
+            "[ap 09:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter001.html) - nine o\x{2019}clock",
+            "\x{2018}We may not be there until <<nine o\x{2019}clock|6>>.\x{2019}"
+          ],
+          [
+            1,
+            '[ap 08:50] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter001.html) - ten to nine',
+            "The conductor woke me at <<ten to nine|10>>. \x{2018}Chicago!\x{2019} I jumped up and grabbed my suitcase. As I hurried down the platform, through the billows of steam from the train\x{2019}s underside, which gave to my arrival that old-movie aura of mystery and glory, ice needles crystalized on the lenses of my glasses and I could hardly see."
+          ],
+          [
+            1,
+            '[00:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter009.html) - midnight',
+            "Days were given to the study of the water level, the numbers of fish, the evidence of tremors. If the signs were still bad the \x{2018}wizards\x{2019} acted. They took a girl of from six to nine years old, decked her with flowers and \x{2018}at <<midnight|9m>> the wizards took her to the middle of the lake and cast her in, bound hand and foot, with a stone fast to her neck. The next day, if the child appeared upon the surface and the tremors continued, another victim was cast into the lake with the same ceremonies."
+          ],
+          [
+            1,
+            "[ap 09:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter002.html) - nine o\x{2019}clock",
+            "I turned my attention to the three people at the next table, who were drawling away happily. A middle-aged couple had discovered that the stranger who had seated himself at their table was also a Texan. He was dressed in black and yet looked raffish, like one of those adulterous preachers who occur from time to time in worthy novels set in this neck of the woods \x{2013} it was <<nine o\x{2019}clock|6>>, we were in Fort Madison, Iowa, on the west bank of the Mississippi."
+          ],
+          [
+            1,
+            '[12:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter006.html) - noon',
+            "We travelled parallel to a road, and crossed it occasionally, but for most of the time we were not near to places that were very densely inhabited. The towns were small and tumbledown and in this busriding country most of the people lived on the main roads. After a few stops I could see that this was regarded as a local train \x{2013} no one was going any great distance. Passengers who had got on at Tec\x{fa}n Um\x{e1}n were going to the market at Coatepeque, which was on a road, or to Retalhuleu to get to the coast, about twenty-five miles away. By <<noon|13>> we were at La Democracia. At the time I had concluded that this was an ironical name, but perhaps it was a fitting name for a place with a sweet-sour smell, and huts made out of sticks and cardboard and hammered-out tins, and howling radios and clamouring people \x{2013} some boarding buses, some selling fruit, but the majority merely standing wrapped in blankets and looking darkly at the train. And tired children were hunkered down in the mud. Here was a fancy car among the jalopies, and there a pretty house among the huts. Democracy is a messy system of government, and there was a helter-skelter appropriateness in the name of this disordered town. But how much democracy was there here?"
+          ],
+          [
+            1,
+            '[ap 03:20] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter006.html) - 3:20',
+            "It helps to take the train if one wishes to understand. Understanding was like a guarantee of depression, but it was an approach to the truth. For most tourists, Guatemala is a four-day affair with quaintness and ruins: veneration at the capital\x{2019}s churches, a day sniffing nosegays at Antigua, another at the colourful Indian market at Chichicastenango, a picnic at the Mayan temples of Tikal. I think I would have found this itinerary more depressing, and less rewarding, than my own meandering from the Mexican border through the coastal departments. The train creaked and whimpered but, incredibly, it kept to its schedule: at <<3:20|2>> we were at Santa Maria \x{2013} as promised in Cook\x{2019}s International Timetable \x{2013} and, eating my fifth banana of the day, I studied our progress on our climb to Escuintla and the greater heights of Guatemala City."
+          ],
+          [
+            1,
+            '[ap 07:30] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/toc.html) - 7:30',
             '6 The <<7:30|2>> to Guatemala City'
           ],
           [
             1,
-            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - 7:00',
+            '[ap 07:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/toc.html) - 7:00',
             '7 The <<7:00|2>> to Zacapa'
           ],
           [
             1,
-            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - 12:00',
+            '[ap 00:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/toc.html) - 12:00',
             "10 The Atlantic Railway: the <<12:00|2>> to Lim\x{f3}n"
           ],
           [
             1,
-            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub - 10:00',
+            '[ap 10:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/toc.html) - 10:00',
             '11 The Pacific Railway: the <<10:00|2>> to Puntarenas'
           ],
+
+          ## The Memoirs of Sherlock Holmes - Arthur Conan Doyle
           [
             1,
-            'The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_001.html) - nine o\'clock',
-            '"On that evening the horses had been exercised and watered as usual, and the stables were locked up at <<nine o\'clock|6>>. Two of the lads walked up to the trainer\'s house, where they had supper in the kitchen, while the third, Ned Hunter, remained on guard. At <<a few minutes after nine|10>> the maid, Edith Baxter, carried down to the stables his supper, which consisted of a dish of curried mutton. She took no liquid, as there was a water-tap in the stables, and it was the rule that the lad on duty should drink nothing else. The maid carried a lantern with her, as it was very dark and the path ran across the open moor.'
+            '[ap 09:00] The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_001.html) - nine o\'clock',
+            '"On that evening the horses had been exercised and watered as usual, and the stables were locked up at <<nine o\'clock|6>>. Two of the lads walked up to the trainer\'s house, where they had supper in the kitchen, while the third, Ned Hunter, remained on guard. At <<a few minutes after nine|10>> the maid, Edith Baxter, carried down to the stables his supper, which consisted of a dish of curried mutton. She took no liquid, as there was a water-tap in the stables, and it was the rule that the lad on duty should drink nothing else. The maid carried a lantern with her, as it was very dark and the path ran across the open moor.',
           ],
           [
             1,
-            'The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_001.html) - one in the morning',
-            '"Hunter waited until his fellow-grooms had returned, when he sent a message to the trainer and told him what had occurred. Straker was excited at hearing the account, although he does not seem to have quite realized its true significance. It left him, however, vaguely uneasy, and Mrs. Straker, waking at <<one in the morning|9a>>, found that he was dressing. In reply to her inquiries, he said that he could not sleep on account of his anxiety about the horses, and that he intended to walk down to the stables to see that all was well. She begged him to remain at home, as she could hear the rain pattering against the window, but in spite of her entreaties he pulled on his large mackintosh and left the house.'
+            '[01:00] The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_001.html) - one in the morning',
+            '"Hunter waited until his fellow-grooms had returned, when he sent a message to the trainer and told him what had occurred. Straker was excited at hearing the account, although he does not seem to have quite realized its true significance. It left him, however, vaguely uneasy, and Mrs. Straker, waking at <<one in the morning|9a>>, found that he was dressing. In reply to her inquiries, he said that he could not sleep on account of his anxiety about the horses, and that he intended to walk down to the stables to see that all was well. She begged him to remain at home, as she could hear the rain pattering against the window, but in spite of her entreaties he pulled on his large mackintosh and left the house.',
           ],
           [
             1,
-            'The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_001.html) - seven in the morning',
-            '"Mrs. Straker awoke at <<seven in the morning|9a>>, to find that her husband had not yet returned. She dressed herself hastily, called the maid, and set off for the stables. The door was open; inside, huddled together upon a chair, Hunter was sunk in a state of absolute stupor, the favorite\'s stall was empty, and there were no signs of his trainer.'
+            '[07:00] The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_001.html) - seven in the morning',
+            '"Mrs. Straker awoke at <<seven in the morning|9a>>, to find that her husband had not yet returned. She dressed herself hastily, called the maid, and set off for the stables. The door was open; inside, huddled together upon a chair, Hunter was sunk in a state of absolute stupor, the favorite\'s stall was empty, and there were no signs of his trainer.',
           ],
           [
             1,
-            'The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_001.html) - five o\'clock',
-            '"I only wished to ask a question," said Holmes, with his finger and thumb in his waistcoat pocket. "Should I be too early to see your master, Mr. Silas Brown, if I were to call at <<five o\'clock|6>> to-morrow morning?"'
+            '[ap 05:00] The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_001.html) - five o\'clock',
+            '"I only wished to ask a question," said Holmes, with his finger and thumb in his waistcoat pocket. "Should I be too early to see your master, Mr. Silas Brown, if I were to call at <<five o\'clock|6>> to-morrow morning?"',
           ],
           [
             1,
-            'The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_001.html) - midnight',
-            '"Before deciding that question I had grasped the significance of the silence of the dog, for one true inference invariably suggests others. The Simpson incident had shown me that a dog was kept in the stables, and yet, though some one had been in and had fetched out a horse, he had not barked enough to arouse the two lads in the loft. Obviously the <<midnight|13>> visitor was some one whom the dog knew well.'
+            '[00:00] The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_001.html) - midnight',
+            '"Before deciding that question I had grasped the significance of the silence of the dog, for one true inference invariably suggests others. The Simpson incident had shown me that a dog was kept in the stables, and yet, though some one had been in and had fetched out a horse, he had not barked enough to arouse the two lads in the loft. Obviously the <<midnight|13>> visitor was some one whom the dog knew well.',
           ],
           [
             1,
-            'The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_001.html) - nearly five',
-            'One day in early spring he had so far relaxed as to go for a walk with me in the Park, where the first faint shoots of green were breaking out upon the elms, and the sticky spear-heads of the chestnuts were just beginning to burst into their five-fold leaves. For two hours we rambled about together, in silence for the most part, as befits two men who know each other intimately. It was <<nearly five|9:0>> before we were back in Baker Street once more.'
+            '[ap < 05:00] The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_001.html) - nearly five',
+            'One day in early spring he had so far relaxed as to go for a walk with me in the Park, where the first faint shoots of green were breaking out upon the elms, and the sticky spear-heads of the chestnuts were just beginning to burst into their five-fold leaves. For two hours we rambled about together, in silence for the most part, as befits two men who know each other intimately. It was <<nearly five|9:0>> before we were back in Baker Street once more.',
           ],
           [
             1,
-            'The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_001.html) - three in the morning',
-            '"I am usually an extremely sound sleeper. It has been a standing jest in the family that nothing could ever wake me during the night. And yet somehow on that particular night, whether it may have been the slight excitement produced by my little adventure or not I know not, but I slept much more lightly than usual. Half in my dreams I was dimly conscious that something was going on in the room, and gradually became aware that my wife had dressed herself and was slipping on her mantle and her bonnet. My lips were parted to murmur out some sleepy words of surprise or remonstrance at this untimely preparation, when suddenly my half-opened eyes fell upon her face, illuminated by the candle-light, and astonishment held me dumb. She wore an expression such as I had never seen before--such as I should have thought her incapable of assuming. She was deadly pale and breathing fast, glancing furtively towards the bed as she fastened her mantle, to see if she had disturbed me. Then, thinking that I was still asleep, she slipped noiselessly from the room, and an instant later I heard a sharp creaking which could only come from the hinges of the front door. I sat up in bed and rapped my knuckles against the rail to make certain that I was truly awake. Then I took my watch from under the pillow. It was <<three in the morning|9a>>. What on this earth could my wife be doing out on the country road at <<three in the morning|9a>>?'
+            '[03:00] The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_001.html) - three in the morning',
+            '"I am usually an extremely sound sleeper. It has been a standing jest in the family that nothing could ever wake me during the night. And yet somehow on that particular night, whether it may have been the slight excitement produced by my little adventure or not I know not, but I slept much more lightly than usual. Half in my dreams I was dimly conscious that something was going on in the room, and gradually became aware that my wife had dressed herself and was slipping on her mantle and her bonnet. My lips were parted to murmur out some sleepy words of surprise or remonstrance at this untimely preparation, when suddenly my half-opened eyes fell upon her face, illuminated by the candle-light, and astonishment held me dumb. She wore an expression such as I had never seen before--such as I should have thought her incapable of assuming. She was deadly pale and breathing fast, glancing furtively towards the bed as she fastened her mantle, to see if she had disturbed me. Then, thinking that I was still asleep, she slipped noiselessly from the room, and an instant later I heard a sharp creaking which could only come from the hinges of the front door. I sat up in bed and rapped my knuckles against the rail to make certain that I was truly awake. Then I took my watch from under the pillow. It was <<three in the morning|9a>>. What on this earth could my wife be doing out on the country road at <<three in the morning|9a>>?',
           ],
           [
             1,
-            'The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_001.html) - one o\'clock',
-            '"I went as far as the Crystal Palace, spent an hour in the grounds, and was back in Norbury by <<one o\'clock|6>>. It happened that my way took me past the cottage, and I stopped for an instant to look at the windows, and to see if I could catch a glimpse of the strange face which had looked out at me on the day before. As I stood there, imagine my surprise, Mr. Holmes, when the door suddenly opened and my wife walked out.'
+            '[ap 01:00] The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_001.html) - one o\'clock',
+            '"I went as far as the Crystal Palace, spent an hour in the grounds, and was back in Norbury by <<one o\'clock|6>>. It happened that my way took me past the cottage, and I stopped for an instant to look at the windows, and to see if I could catch a glimpse of the strange face which had looked out at me on the day before. As I stood there, imagine my surprise, Mr. Holmes, when the door suddenly opened and my wife walked out.',
           ],
           [
             1,
-            'The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_001.html) - 2.40',
-            '"I had gone into town on that day, but I returned by the <<2.40|5a:1>> instead of the <<3.36|5a:1>>, which is my usual train. As I entered the house the maid ran into the hall with a startled face.'
+            '[ap 02:40] The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_001.html) - 2.40',
+            '"I had gone into town on that day, but I returned by the <<2.40|5a:1>> instead of the <<3.36|5a:1>>, which is my usual train. As I entered the house the maid ran into the hall with a startled face.',
           ],
           [
             1,
-            'The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_001.html) - seven o\'clock',
-            'But we had not a very long time to wait for that. It came just as we had finished our tea. "The cottage is still tenanted," it said. "Have seen the face again at the window. Will meet the <<seven o\'clock|6>> train, and will take no steps until you arrive."'
+            '[ap 07:00] The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_001.html) - seven o\'clock',
+            'But we had not a very long time to wait for that. It came just as we had finished our tea. "The cottage is still tenanted," it said. "Have seen the face again at the window. Will meet the <<seven o\'clock|6>> train, and will take no steps until you arrive."',
           ],
           [
             1,
-            'The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_001.html) - one',
-            '"\'Be in Birmingham to-morrow at <<one|9b>>,\' said he. \'I have a note in my pocket here which you will take to my brother. You will find him at 126b Corporation Street, where the temporary offices of the company are situated. Of course he must confirm your engagement, but between ourselves it will be all right.\''
+            '[ap 01:00] The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_001.html) - one',
+            '"\'Be in Birmingham to-morrow at <<one|9b>>,\' said he. \'I have a note in my pocket here which you will take to my brother. You will find him at 126b Corporation Street, where the temporary offices of the company are situated. Of course he must confirm your engagement, but between ourselves it will be all right.\'',
           ],
           [
             1,
-            'The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_001.html) - one o\'clock',
-            '"\'Good! That\'s a promise,\' said he, rising from his chair. \'Well, I\'m delighted to have got so good a man for my brother. Here\'s your advance of a hundred pounds, and here is the letter. Make a note of the address, 126b Corporation Street, and remember that <<one o\'clock|6>> to-morrow is your appointment. Good-night; and may you have all the fortune that you deserve!\''
+            '[ap 01:00] The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_001.html) - one o\'clock',
+            '"\'Good! That\'s a promise,\' said he, rising from his chair. \'Well, I\'m delighted to have got so good a man for my brother. Here\'s your advance of a hundred pounds, and here is the letter. Make a note of the address, 126b Corporation Street, and remember that <<one o\'clock|6>> to-morrow is your appointment. Good-night; and may you have all the fortune that you deserve!\'',
           ],
           [
             1,
-            'The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_001.html) - twelve',
-            '"\'Not reliable ones. Their system is different from ours. Stick at it, and let me have the lists by Monday, at <<twelve|9o>>. Good-day, Mr. Pycroft. If you continue to show zeal and intelligence you will find the company a good master.\''
+            '[ap 00:00] The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_001.html) - twelve',
+            '"\'Not reliable ones. Their system is different from ours. Stick at it, and let me have the lists by Monday, at <<twelve|9o>>. Good-day, Mr. Pycroft. If you continue to show zeal and intelligence you will find the company a good master.\'',
           ],
           [
             1,
-            'The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_001.html) - seven',
-            '"\'And you can come up to-morrow evening, at <<seven|9e>>, and let me know how you are getting on. Don\'t overwork yourself. A couple of hours at Day\'s Music Hall in the evening would do you no harm after your labors.\' He laughed as he spoke, and I saw with a thrill that his second tooth upon the left-hand side had been very badly stuffed with gold."'
+            '[ap 07:00] The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_001.html) - seven',
+            '"\'And you can come up to-morrow evening, at <<seven|9e>>, and let me know how you are getting on. Don\'t overwork yourself. A couple of hours at Day\'s Music Hall in the evening would do you no harm after your labors.\' He laughed as he spoke, and I saw with a thrill that his second tooth upon the left-hand side had been very badly stuffed with gold."',
           ],
           [
             1,
-            'The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_001.html) - seven o\'clock',
-            'At <<seven o\'clock|6>> that evening we were walking, the three of us, down Corporation Street to the company\'s offices.'
+            '[ap 07:00] The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_001.html) - seven o\'clock',
+            'At <<seven o\'clock|6>> that evening we were walking, the three of us, down Corporation Street to the company\'s offices.',
           ],
           [
             1,
-            'The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_001.html) - midday',
-            '"It is customary at Mawson\'s for the clerks to leave at <<midday|9a>> on Saturday. Sergeant Tuson, of the City Police, was somewhat surprised, therefore to see a gentleman with a carpet bag come down the steps at <<twenty minutes past one|10>>. His suspicions being aroused, the sergeant followed the man, and with the aid of Constable Pollock succeeded, after a most desperate resistance, in arresting him. It was at once clear that a daring and gigantic robbery had been committed. Nearly a hundred thousand pounds\' worth of American railway bonds, with a large amount of scrip in mines and other companies, was discovered in the bag. On examining the premises the body of the unfortunate watchman was found doubled up and thrust into the largest of the safes, where it would not have been discovered until Monday morning had it not been for the prompt action of Sergeant Tuson. The man\'s skull had been shattered by a blow from a poker delivered from behind. There could be no doubt that Beddington had obtained entrance by pretending that he had left something behind him, and having murdered the watchman, rapidly rifled the large safe, and then made off with his booty. His brother, who usually works with him, has not appeared in this job as far as can at present be ascertained, although the police are making energetic inquiries as to his whereabouts."'
+            '[12:00] The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_001.html) - midday',
+            '"It is customary at Mawson\'s for the clerks to leave at <<midday|9a>> on Saturday. Sergeant Tuson, of the City Police, was somewhat surprised, therefore to see a gentleman with a carpet bag come down the steps at <<twenty minutes past one|10>>. His suspicions being aroused, the sergeant followed the man, and with the aid of Constable Pollock succeeded, after a most desperate resistance, in arresting him. It was at once clear that a daring and gigantic robbery had been committed. Nearly a hundred thousand pounds\' worth of American railway bonds, with a large amount of scrip in mines and other companies, was discovered in the bag. On examining the premises the body of the unfortunate watchman was found doubled up and thrust into the largest of the safes, where it would not have been discovered until Monday morning had it not been for the prompt action of Sergeant Tuson. The man\'s skull had been shattered by a blow from a poker delivered from behind. There could be no doubt that Beddington had obtained entrance by pretending that he had left something behind him, and having murdered the watchman, rapidly rifled the large safe, and then made off with his booty. His brother, who usually works with him, has not appeared in this job as far as can at present be ascertained, although the police are making energetic inquiries as to his whereabouts."',
           ],
           [
             1,
-            'The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_001.html) - two in the morning',
-            "\"'I have said that the house is a rambling one. One day last week--on Thursday night, to be more exact--I found that I could not sleep, having foolishly taken a cup of strong caf\x{e9} noir after my dinner. After struggling against it until <<two in the morning|5>>, I felt that it was quite hopeless, so I rose and lit the candle with the intention of continuing a novel which I was reading. The book, however, had been left in the billiard-room, so I pulled on my dressing-gown and started off to get it."
+            '[02:00] The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_001.html) - two in the morning',
+            "\"'I have said that the house is a rambling one. One day last week--on Thursday night, to be more exact--I found that I could not sleep, having foolishly taken a cup of strong caf\x{e9} noir after my dinner. After struggling against it until <<two in the morning|5>>, I felt that it was quite hopeless, so I rose and lit the candle with the intention of continuing a novel which I was reading. The book, however, had been left in the billiard-room, so I pulled on my dressing-gown and started off to get it.",
           ],
           [
             1,
-            'The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_001.html) - midnight',
-            '"And now how was I to proceed to reconstruct this <<midnight|13>> drama? Clearly, only one could fit into the hole, and that one was Brunton. The girl must have waited above. Brunton then unlocked the box, handed up the contents presumably--since they were not to be found--and then--and then what happened?'
+            '[00:00] The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_001.html) - midnight',
+            '"And now how was I to proceed to reconstruct this <<midnight|13>> drama? Clearly, only one could fit into the hole, and that one was Brunton. The girl must have waited above. Brunton then unlocked the box, handed up the contents presumably--since they were not to be found--and then--and then what happened?',
           ],
           [
             1,
-            'The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_002.html) - quarter to twelve',
-            '"Yes, sir. But he was off like a deer after the shot that killed poor William Kirwan was fired. Mr. Cunningham saw him from the bedroom window, and Mr. Alec Cunningham saw him from the back passage. It was <<quarter to twelve|10>> when the alarm broke out. Mr. Cunningham had just got into bed, and Mr. Alec was smoking a pipe in his dressing-gown. They both heard William the coachman calling for help, and Mr. Alec ran down to see what was the matter. The back door was open, and as he came to the foot of the stairs he saw two men wrestling together outside. One of them fired a shot, the other dropped, and the murderer rushed across the garden and over the hedge. Mr. Cunningham, looking out of his bedroom, saw the fellow as he gained the road, but lost sight of him at once. Mr. Alec stopped to see if he could help the dying man, and so the villain got clean away. Beyond the fact that he was a middle-sized man and dressed in some dark stuff, we have no personal clue; but we are making energetic inquiries, and if he is a stranger we shall soon find him out."'
+            '[~ 12:00] The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_003.html) - about mid-day',
+            '"My dear Watson, Professor Moriarty is not a man who lets the grass grow under his feet. I went out <<about mid-day|13>> to transact some business in Oxford Street. As I passed the corner which leads from Bentinck Street on to the Welbeck Street crossing a two-horse van furiously driven whizzed round and was on me like a flash. I sprang for the foot-path and saved myself by the fraction of a second. The van dashed round by Marylebone Lane and was gone in an instant. I kept to the pavement after that, Watson, but as I walked down Vere Street a brick came down from the roof of one of the houses, and was shattered to fragments at my feet. I called the police and had the place examined. There were slates and bricks piled up on the roof preparatory to some repairs, and they would have me believe that the wind had toppled over one of these. Of course I knew better, but I could prove nothing. I took a cab after that and reached my brother\'s rooms in Pall Mall, where I spent the day. Now I have come round to you, and on my way I was attacked by a rough with a bludgeon. I knocked him down, and the police have him in custody; but I can tell you with the most absolute confidence that no possible connection will ever be traced between the gentleman upon whose front teeth I have barked my knuckles and the retiring mathematical coach, who is, I dare say, working out problems upon a black-board ten miles away. You will not wonder, Watson, that my first act on entering your rooms was to close your shutters, and that I have been compelled to ask your permission to leave the house by some less conspicuous exit than the front door."',
           ],
           [
             1,
-            'The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_002.html) - quarter to twelve',
-            'd at <<quarter to twelve|10>> learn what maybe'
+            '[ap 09:15] The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_003.html) - quarter-past nine',
+            '"Oh yes, it is most necessary. Then these are your instructions, and I beg, my dear Watson, that you will obey them to the letter, for you are now playing a double-handed game with me against the cleverest rogue and the most powerful syndicate of criminals in Europe. Now listen! You will dispatch whatever luggage you intend to take by a trusty messenger unaddressed to Victoria to-night. In the morning you will send for a hansom, desiring your man to take neither the first nor the second which may present itself. Into this hansom you will jump, and you will drive to the Strand end of the Lowther Arcade, handing the address to the cabman upon a slip of paper, with a request that he will not throw it away. Have your fare ready, and the instant that your cab stops, dash through the Arcade, timing yourself to reach the other side at a <<quarter-past nine|10>>. You will find a small brougham waiting close to the curb, driven by a fellow with a heavy black cloak tipped at the collar with red. Into this you will step, and you will reach Victoria in time for the Continental express."',
           ],
           [
             1,
-            'The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_002.html) - about a quarter to one',
-            '"You see you begin, \'Whereas, at <<about a quarter to one|10>> on Tuesday morning an attempt was made,\' and so on. It was at a <<quarter to twelve|10>>, as a matter of fact."'
+            '[ap 08:09] The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_003.html) - 809',
+            'The Foundation\'s principal office is located at 4557 Melan Dr. S. Fairbanks, AK, 99712., but its volunteers and employees are scattered throughout numerous locations. Its business office is located at <<809|3:0>> North 1500 West, Salt Lake City, UT 84116, (801) 596-1887, email business@pglaf.org. Email contact links and up to date contact information can be found at the Foundation\'s web site and official page at http://pglaf.org',
           ],
           [
             1,
-            'The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_002.html) - About ten',
-            '"<<About ten|9:0>>."'
+            '[ap 23:45] The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_002.html) - quarter to twelve',
+            '"Yes, sir. But he was off like a deer after the shot that killed poor William Kirwan was fired. Mr. Cunningham saw him from the bedroom window, and Mr. Alec Cunningham saw him from the back passage. It was <<quarter to twelve|10>> when the alarm broke out. Mr. Cunningham had just got into bed, and Mr. Alec was smoking a pipe in his dressing-gown. They both heard William the coachman calling for help, and Mr. Alec ran down to see what was the matter. The back door was open, and as he came to the foot of the stairs he saw two men wrestling together outside. One of them fired a shot, the other dropped, and the murderer rushed across the garden and over the hedge. Mr. Cunningham, looking out of his bedroom, saw the fellow as he gained the road, but lost sight of him at once. Mr. Alec stopped to see if he could help the dying man, and so the villain got clean away. Beyond the fact that he was a middle-sized man and dressed in some dark stuff, we have no personal clue; but we are making energetic inquiries, and if he is a stranger we shall soon find him out."',
           ],
           [
             1,
-            'The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_002.html) - about one o\'clock',
-            'Sherlock Holmes was as good as his word, for <<about one o\'clock|6>> he rejoined us in the Colonel\'s smoking-room. He was accompanied by a little elderly gentleman, who was introduced to me as the Mr. Acton whose house had been the scene of the original burglary.'
+            '[ap 23:45] The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_002.html) - quarter to twelve',
+            'd at <<quarter to twelve|10>> learn what maybe',
           ],
           [
             1,
-            'The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_002.html) - twelve',
-            '"My dear sir," cried Holmes, "there cannot be the least doubt in the world that it has been written by two persons doing alternate words. When I draw your attention to the strong t\'s of \'at\' and \'to\', and ask you to compare them with the weak ones of \'quarter\' and \'<<twelve|9k:0>>,\' you will instantly recognize the fact. A very brief analysis of these four words would enable you to say with the utmost confidence that the \'learn\' and the \'maybe\' are written in the stronger hand, and the \'what\' in the weaker."'
+            '[ap ~ 00:45] The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_002.html) - about a quarter to one',
+            '"You see you begin, \'Whereas, at <<about a quarter to one|10>> on Tuesday morning an attempt was made,\' and so on. It was at a <<quarter to twelve|10>>, as a matter of fact."',
           ],
           [
             1,
-            'The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_002.html) - twelve',
-            '"It is an art which is often useful," said he. "When I recovered I managed, by a device which had perhaps some little merit of ingenuity, to get old Cunningham to write the word \'<<twelve|9k:0>>,\' so that I might compare it with the \'<<twelve|9k:0>>\' upon the paper."'
+            '[ap ~ 10:00] The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_002.html) - About ten',
+            '"<<About ten|9:0>>."',
           ],
           [
             1,
-            'The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_002.html) - quarter to twelve',
-            'I looked at the clock. It was a <<quarter to twelve|10>>. This could not be a visitor at so late an hour. A patient, evidently, and possibly an all-night sitting. With a wry face I went out into the hall and opened the door. To my astonishment it was Sherlock Holmes who stood upon my step.'
+            '[ap ~ 01:00] The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_002.html) - about one o\'clock',
+            'Sherlock Holmes was as good as his word, for <<about one o\'clock|6>> he rejoined us in the Colonel\'s smoking-room. He was accompanied by a little elderly gentleman, who was introduced to me as the Mr. Acton whose house had been the scene of the original burglary.',
           ],
           [
             1,
-            'The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_002.html) - 11.10',
-            '"Very good. I want to start by the <<11.10|5c>> from Waterloo."'
+            '[ap 00:00] The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_002.html) - twelve',
+            '"My dear sir," cried Holmes, "there cannot be the least doubt in the world that it has been written by two persons doing alternate words. When I draw your attention to the strong t\'s of \'at\' and \'to\', and ask you to compare them with the weak ones of \'quarter\' and \'<<twelve|9k:0>>,\' you will instantly recognize the fact. A very brief analysis of these four words would enable you to say with the utmost confidence that the \'learn\' and the \'maybe\' are written in the stronger hand, and the \'what\' in the weaker."',
           ],
           [
             1,
-            'The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_002.html) - eight',
-            '"Mrs. Barclay was, it appears, a member of the Roman Catholic Church, and had interested herself very much in the establishment of the Guild of St. George, which was formed in connection with the Watt Street Chapel for the purpose of supplying the poor with cast-off clothing. A meeting of the Guild had been held that evening at <<eight|9c:1>>, and Mrs. Barclay had hurried over her dinner in order to be present at it. When leaving the house she was heard by the coachman to make some commonplace remark to her husband, and to assure him that she would be back before very long. She then called for Miss Morrison, a young lady who lives in the next villa, and the two went off together to their meeting. It lasted forty minutes, and at a <<quarter-past nine|10>> Mrs. Barclay returned home, having left Miss Morrison at her door as she passed.'
+            '[ap 00:00] The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_002.html) - twelve',
+            '"It is an art which is often useful," said he. "When I recovered I managed, by a device which had perhaps some little merit of ingenuity, to get old Cunningham to write the word \'<<twelve|9k:0>>,\' so that I might compare it with the \'<<twelve|9k:0>>\' upon the paper."',
           ],
           [
             1,
-            'The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_002.html) - half-past seven',
-            '"It is quite certain that when Mrs. Barclay left the house at <<half-past seven|10>> she was on good terms with her husband. She was never, as I think I have said, ostentatiously affectionate, but she was heard by the coachman chatting with the Colonel in a friendly fashion. Now, it was equally certain that, immediately on her return, she had gone to the room in which she was least likely to see her husband, had flown to tea as an agitated woman will, and finally, on his coming in to her, had broken into violent recriminations. Therefore something had occurred between <<seven-thirty|5a:1>> and <<nine o\'clock|6>> which had completely altered her feelings towards him. But Miss Morrison had been with her during the whole of that hour and a half. It was absolutely certain, therefore, in spite of her denial, that she must know something of the matter.'
+            '[ap 23:45] The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_002.html) - quarter to twelve',
+            'I looked at the clock. It was a <<quarter to twelve|10>>. This could not be a visitor at so late an hour. A patient, evidently, and possibly an all-night sitting. With a wry face I went out into the hall and opened the door. To my astonishment it was Sherlock Holmes who stood upon my step.',
           ],
           [
             1,
-            'The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_002.html) - about a quarter to nine o\'clock',
-            '"\'We were returning from the Watt Street Mission <<about a quarter to nine o\'clock|10>>. On our way we had to pass through Hudson Street, which is a very quiet thoroughfare. There is only one lamp in it, upon the left-hand side, and as we approached this lamp I saw a man coming towards us with his back very bent, and something like a box slung over one of his shoulders. He appeared to be deformed, for he carried his head low and walked with his knees bent. We were passing him when he raised his face to look at us in the circle of light thrown by the lamp, and as he did so he stopped and screamed out in a dreadful voice, "My God, it\'s Nancy!" Mrs. Barclay turned as white as death, and would have fallen down had the dreadful-looking creature not caught hold of her. I was going to call for the police, but she, to my surprise, spoke quite civilly to the fellow.'
+            '[ap 11:10] The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_002.html) - 11.10',
+            '"Very good. I want to start by the <<11.10|5c>> from Waterloo."',
           ],
           [
             1,
-            'The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_002.html) - midday',
-            'It was <<midday|9d>> when we found ourselves at the scene of the tragedy, and, under my companion\'s guidance, we made our way at once to Hudson Street. In spite of his capacity for concealing his emotions, I could easily see that Holmes was in a state of suppressed excitement, while I was myself tingling with that half-sporting, half-intellectual pleasure which I invariably experienced when I associated myself with him in his investigations.'
+            '[ap 08:00] The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_002.html) - eight',
+            '"Mrs. Barclay was, it appears, a member of the Roman Catholic Church, and had interested herself very much in the establishment of the Guild of St. George, which was formed in connection with the Watt Street Chapel for the purpose of supplying the poor with cast-off clothing. A meeting of the Guild had been held that evening at <<eight|9c:1>>, and Mrs. Barclay had hurried over her dinner in order to be present at it. When leaving the house she was heard by the coachman to make some commonplace remark to her husband, and to assure him that she would be back before very long. She then called for Miss Morrison, a young lady who lives in the next villa, and the two went off together to their meeting. It lasted forty minutes, and at a <<quarter-past nine|10>> Mrs. Barclay returned home, having left Miss Morrison at her door as she passed.',
           ],
           [
             1,
-            'The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_002.html) - ten o\'clock',
-            '"We were shut up in Bhurtee, the regiment of us with half a battery of artillery, a company of Sikhs, and a lot of civilians and women-folk. There were ten thousand rebels round us, and they were as keen as a set of terriers round a rat-cage. About the second week of it our water gave out, and it was a question whether we could communicate with General Neill\'s column, which was moving up country. It was our only chance, for we could not hope to fight our way out with all the women and children, so I volunteered to go out and to warn General Neill of our danger. My offer was accepted, and I talked it over with Sergeant Barclay, who was supposed to know the ground better than any other man, and who drew up a route by which I might get through the rebel lines. At <<ten o\'clock|6>> the same night I started off upon my journey. There were a thousand lives to save, but it was of only one that I was thinking when I dropped over the wall that night.'
+            '[ap 07:30] The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_002.html) - half-past seven',
+            '"It is quite certain that when Mrs. Barclay left the house at <<half-past seven|10>> she was on good terms with her husband. She was never, as I think I have said, ostentatiously affectionate, but she was heard by the coachman chatting with the Colonel in a friendly fashion. Now, it was equally certain that, immediately on her return, she had gone to the room in which she was least likely to see her husband, had flown to tea as an agitated woman will, and finally, on his coming in to her, had broken into violent recriminations. Therefore something had occurred between <<seven-thirty|5a:1>> and <<nine o\'clock|6>> which had completely altered her feelings towards him. But Miss Morrison had been with her during the whole of that hour and a half. It was absolutely certain, therefore, in spite of her denial, that she must know something of the matter.',
           ],
           [
             1,
-            'The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_002.html) - ten o\'clock',
-            'I was weary of our little sitting-room and gladly acquiesced. For three hours we strolled about together, watching the ever-changing kaleidoscope of life as it ebbs and flows through Fleet Street and the Strand. His characteristic talk, with its keen observance of detail and subtle power of inference held me amused and enthralled. It was <<ten o\'clock|6>> before we reached Baker Street again. A brougham was waiting at our door.'
+            '[ap ~ 08:45] The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_002.html) - about a quarter to nine o\'clock',
+            '"\'We were returning from the Watt Street Mission <<about a quarter to nine o\'clock|10>>. On our way we had to pass through Hudson Street, which is a very quiet thoroughfare. There is only one lamp in it, upon the left-hand side, and as we approached this lamp I saw a man coming towards us with his back very bent, and something like a box slung over one of his shoulders. He appeared to be deformed, for he carried his head low and walked with his knees bent. We were passing him when he raised his face to look at us in the circle of light thrown by the lamp, and as he did so he stopped and screamed out in a dreadful voice, "My God, it\'s Nancy!" Mrs. Barclay turned as white as death, and would have fallen down had the dreadful-looking creature not caught hold of her. I was going to call for the police, but she, to my surprise, spoke quite civilly to the fellow.',
           ],
           [
             1,
-            'The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_002.html) - about quarter past six',
-            '"\'A Russian nobleman who is now resident in England,\' it runs, \'would be glad to avail himself of the professional assistance of Dr. Percy Trevelyan. He has been for some years a victim to cataleptic attacks, on which, as is well known, Dr. Trevelyan is an authority. He proposes to call at <<about quarter past six|10>> to-morrow evening, if Dr. Trevelyan will make it convenient to be at home.\''
+            '[12:00] The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_002.html) - midday',
+            'It was <<midday|9d>> when we found ourselves at the scene of the tragedy, and, under my companion\'s guidance, we made our way at once to Hudson Street. In spite of his capacity for concealing his emotions, I could easily see that Holmes was in a state of suppressed excitement, while I was myself tingling with that half-sporting, half-intellectual pleasure which I invariably experienced when I associated myself with him in his investigations.',
           ],
           [
             1,
-            'The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_002.html) - half-past seven',
-            'Sherlock Holmes\'s prophecy was soon fulfilled, and in a dramatic fashion. At <<half-past seven|10>> next morning, in the first glimmer of daylight, I found him standing by my bedside in his dressing-gown.'
+            '[ap 10:00] The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_002.html) - ten o\'clock',
+            '"We were shut up in Bhurtee, the regiment of us with half a battery of artillery, a company of Sikhs, and a lot of civilians and women-folk. There were ten thousand rebels round us, and they were as keen as a set of terriers round a rat-cage. About the second week of it our water gave out, and it was a question whether we could communicate with General Neill\'s column, which was moving up country. It was our only chance, for we could not hope to fight our way out with all the women and children, so I volunteered to go out and to warn General Neill of our danger. My offer was accepted, and I talked it over with Sergeant Barclay, who was supposed to know the ground better than any other man, and who drew up a route by which I might get through the rebel lines. At <<ten o\'clock|6>> the same night I started off upon my journey. There were a thousand lives to save, but it was of only one that I was thinking when I dropped over the wall that night.',
           ],
           [
             1,
-            'The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_002.html) - about seven',
-            '"He has a cup of tea taken in to him early every morning. When the maid entered, <<about seven|9e>>, there the unfortunate fellow was hanging in the middle of the room. He had tied his cord to the hook on which the heavy lamp used to hang, and he had jumped off from the top of the very box that he showed us yesterday."'
+            '[ap 10:00] The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_002.html) - ten o\'clock',
+            'I was weary of our little sitting-room and gladly acquiesced. For three hours we strolled about together, watching the ever-changing kaleidoscope of life as it ebbs and flows through Fleet Street and the Strand. His characteristic talk, with its keen observance of detail and subtle power of inference held me amused and enthralled. It was <<ten o\'clock|6>> before we reached Baker Street again. A brougham was waiting at our door.',
           ],
           [
             1,
-            'The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_002.html) - about five in the morning',
-            '"As far as I can see, the man has been driven out of his senses by fright. The bed has been well slept in, you see. There\'s his impression deep enough. It\'s <<about five in the morning|9h>>, you know, that suicides are most common. That would be about his time for hanging himself. It seems to have been a very deliberate affair."'
+            '[ap ~ 06:15] The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_002.html) - about quarter past six',
+            '"\'A Russian nobleman who is now resident in England,\' it runs, \'would be glad to avail himself of the professional assistance of Dr. Percy Trevelyan. He has been for some years a victim to cataleptic attacks, on which, as is well known, Dr. Trevelyan is an authority. He proposes to call at <<about quarter past six|10>> to-morrow evening, if Dr. Trevelyan will make it convenient to be at home.\'',
           ],
           [
             1,
-            'The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_002.html) - quarter to four',
-            'Our visitors arrived at the appointed time, but it was a <<quarter to four|10>> before my friend put in an appearance. From his expression as he entered, however, I could see that all had gone well with him.'
+            '[ap 07:30] The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_002.html) - half-past seven',
+            'Sherlock Holmes\'s prophecy was soon fulfilled, and in a dramatic fashion. At <<half-past seven|10>> next morning, in the first glimmer of daylight, I found him standing by my bedside in his dressing-gown.',
           ],
           [
             1,
-            'The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_002.html) - quarter to five',
-            '"The Diogenes Club is the queerest club in London, and Mycroft one of the queerest men. He\'s always there from <<quarter to five|10>> to <<twenty to eight|10>>. It\'s six now, so if you care for a stroll this beautiful evening I shall be very happy to introduce you to two curiosities."'
+            '[ap ~ 07:00] The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_002.html) - about seven',
+            '"He has a cup of tea taken in to him early every morning. When the maid entered, <<about seven|9e>>, there the unfortunate fellow was hanging in the middle of the room. He had tied his cord to the hook on which the heavy lamp used to hang, and he had jumped off from the top of the very box that he showed us yesterday."',
           ],
           [
             1,
-            'The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_002.html) - quarter-past seven',
-            '"For nearly two hours we drove without my having the least clue as to where we were going. Sometimes the rattle of the stones told of a paved causeway, and at others our smooth, silent course suggested asphalt; but, save by this variation in sound, there was nothing at all which could in the remotest way help me to form a guess as to where we were. The paper over each window was impenetrable to light, and a blue curtain was drawn across the glass work in front. It was a <<quarter-past seven|10>> when we left Pall Mall, and my watch showed me that it was <<ten minutes to nine|10>> when we at last came to a standstill. My companion let down the window, and I caught a glimpse of a low, arched doorway with a lamp burning above it. As I was hurried from the carriage it swung open, and I found myself inside the house, with a vague impression of a lawn and trees on each side of me as I entered. Whether these were private grounds, however, or bona-fide country was more than I could possibly venture to say.'
+            '[~ 05:00] The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_002.html) - about five in the morning',
+            '"As far as I can see, the man has been driven out of his senses by fright. The bed has been well slept in, you see. There\'s his impression deep enough. It\'s <<about five in the morning|9h>>, you know, that suicides are most common. That would be about his time for hanging himself. It seems to have been a very deliberate affair."',
           ],
           [
             1,
-            'The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_002.html) - just after midnight',
-            '"I was hurried through the hall and into the vehicle, again obtaining that momentary glimpse of trees and a garden. Mr. Latimer followed closely at my heels, and took his place opposite to me without a word. In silence we again drove for an interminable distance with the windows raised, until at last, <<just after midnight|10>>, the carriage pulled up.'
+            '[ap 03:45] The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_002.html) - quarter to four',
+            'Our visitors arrived at the appointed time, but it was a <<quarter to four|10>> before my friend put in an appearance. From his expression as he entered, however, I could see that all had gone well with him.',
           ],
           [
             1,
-            'The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_002.html) - quarter to ten',
-            'Our hope was that, by taking train, we might get to Beckenham as soon or sooner than the carriage. On reaching Scotland Yard, however, it was more than an hour before we could get Inspector Gregson and comply with the legal formalities which would enable us to enter the house. It was a <<quarter to ten|10>> before we reached London Bridge, and half past before the four of us alighted on the Beckenham platform. A drive of half a mile brought us to The Myrtles--a large, dark house standing back from the road in its own grounds. Here we dismissed our cab, and made our way up the drive together.'
+            '[ap 04:45] The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_002.html) - quarter to five',
+            '"The Diogenes Club is the queerest club in London, and Mycroft one of the queerest men. He\'s always there from <<quarter to five|10>> to <<twenty to eight|10>>. It\'s six now, so if you care for a stroll this beautiful evening I shall be very happy to introduce you to two curiosities."',
           ],
           [
             1,
-            'The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_002.html) - eleven-o\'clock',
-            '"I did exactly what he indicated, and waited until the other clerks had departed. One of them in my room, Charles Gorot, had some arrears of work to make up, so I left him there and went out to dine. When I returned he was gone. I was anxious to hurry my work, for I knew that Joseph--the Mr. Harrison whom you saw just now--was in town, and that he would travel down to Woking by the <<eleven-o\'clock|6>> train, and I wanted if possible to catch it.'
+            '[ap 07:15] The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_002.html) - quarter-past seven',
+            '"For nearly two hours we drove without my having the least clue as to where we were going. Sometimes the rattle of the stones told of a paved causeway, and at others our smooth, silent course suggested asphalt; but, save by this variation in sound, there was nothing at all which could in the remotest way help me to form a guess as to where we were. The paper over each window was impenetrable to light, and a blue curtain was drawn across the glass work in front. It was a <<quarter-past seven|10>> when we left Pall Mall, and my watch showed me that it was <<ten minutes to nine|10>> when we at last came to a standstill. My companion let down the window, and I caught a glimpse of a low, arched doorway with a lamp burning above it. As I was hurried from the carriage it swung open, and I found myself inside the house, with a vague impression of a lawn and trees on each side of me as I entered. Whether these were private grounds, however, or bona-fide country was more than I could possibly venture to say.',
           ],
           [
             1,
-            'The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_002.html) - nine o\'clock',
-            '"It was a long document, written in the French language, and containing twenty-six separate articles. I copied as quickly as I could, but at <<nine o\'clock|6>> I had only done nine articles, and it seemed hopeless for me to attempt to catch my train. I was feeling drowsy and stupid, partly from my dinner and also from the effects of a long day\'s work. A cup of coffee would clear my brain. A commissionnaire remains all night in a little lodge at the foot of the stairs, and is in the habit of making coffee at his spirit-lamp for any of the officials who may be working over time. I rang the bell, therefore, to summon him.'
+            '[> 00:00] The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_002.html) - just after midnight',
+            '"I was hurried through the hall and into the vehicle, again obtaining that momentary glimpse of trees and a garden. Mr. Latimer followed closely at my heels, and took his place opposite to me without a word. In silence we again drove for an interminable distance with the windows raised, until at last, <<just after midnight|10>>, the carriage pulled up.',
           ],
           [
             1,
-            'The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_002.html) - quarter to ten',
-            '"The commissionnaire, seeing by my pale face that something was to be feared, had followed me upstairs. Now we both rushed along the corridor and down the steep steps which led to Charles Street. The door at the bottom was closed, but unlocked. We flung it open and rushed out. I can distinctly remember that as we did so there came three chimes from a neighboring clock. It was <<quarter to ten|10>>."'
+            '[ap 09:45] The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_002.html) - quarter to ten',
+            'Our hope was that, by taking train, we might get to Beckenham as soon or sooner than the carriage. On reaching Scotland Yard, however, it was more than an hour before we could get Inspector Gregson and comply with the legal formalities which would enable us to enter the house. It was a <<quarter to ten|10>> before we reached London Bridge, and half past before the four of us alighted on the Beckenham platform. A drive of half a mile brought us to The Myrtles--a large, dark house standing back from the road in its own grounds. Here we dismissed our cab, and made our way up the drive together.',
           ],
           [
             1,
-            'The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_002.html) - quarter to ten in the evening',
-            'He handed over a sheet torn from a note-book. On it was scribbled in pencil: "L10 reward. The number of the cab which dropped a fare at or about the door of the Foreign Office in Charles Street at <<quarter to ten in the evening|10>> of May 23d. Apply 221 B, Baker Street."'
+            '[ap 11:00] The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_002.html) - eleven-o\'clock',
+            '"I did exactly what he indicated, and waited until the other clerks had departed. One of them in my room, Charles Gorot, had some arrears of work to make up, so I left him there and went out to dine. When I returned he was gone. I was anxious to hurry my work, for I knew that Joseph--the Mr. Harrison whom you saw just now--was in town, and that he would travel down to Woking by the <<eleven-o\'clock|6>> train, and I wanted if possible to catch it.',
           ],
           [
             1,
-            'The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_002.html) - twenty past three',
-            'It was <<twenty past three|10>> when we reached our terminus, and after a hasty luncheon at the buffet we pushed on at once to Scotland Yard. Holmes had already wired to Forbes, and we found him waiting to receive us--a small, foxy man with a sharp but by no means amiable expression. He was decidedly frigid in his manner to us, especially when he heard the errand upon which we had come.'
+            '[ap 09:00] The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_002.html) - nine o\'clock',
+            '"It was a long document, written in the French language, and containing twenty-six separate articles. I copied as quickly as I could, but at <<nine o\'clock|6>> I had only done nine articles, and it seemed hopeless for me to attempt to catch my train. I was feeling drowsy and stupid, partly from my dinner and also from the effects of a long day\'s work. A cup of coffee would clear my brain. A commissionnaire remains all night in a little lodge at the foot of the stairs, and is in the habit of making coffee at his spirit-lamp for any of the officials who may be working over time. I rang the bell, therefore, to summon him.',
           ],
           [
             1,
-            'The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_002.html) - about two in the morning',
-            '"You must know that last night was the very first night that I have ever slept without a nurse in the room. I was so much better that I thought I could dispense with one. I had a night-light burning, however. Well, <<about two in the morning|9h>> I had sunk into a light sleep when I was suddenly aroused by a slight noise. It was like the sound which a mouse makes when it is gnawing a plank, and I lay listening to it for some time under the impression that it must come from that cause. Then it grew louder, and suddenly there came from the window a sharp metallic snick. I sat up in amazement. There could be no doubt what the sounds were now. The first ones had been caused by some one forcing an instrument through the slit between the sashes, and the second by the catch being pressed back.'
+            '[ap 09:45] The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_002.html) - quarter to ten',
+            '"The commissionnaire, seeing by my pale face that something was to be feared, had followed me upstairs. Now we both rushed along the corridor and down the steep steps which led to Charles Street. The door at the bottom was closed, but unlocked. We flung it open and rushed out. I can distinctly remember that as we did so there came three chimes from a neighboring clock. It was <<quarter to ten|10>>."',
           ],
           [
             1,
-            'The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_002.html) - eight',
-            '"There are one or two small points which I should desire to clear up before I go," said he. "Your absence, Mr. Phelps, will in some ways rather assist me. Watson, when you reach London you would oblige me by driving at once to Baker Street with our friend here, and remaining with him until I see you again. It is fortunate that you are old school-fellows, as you must have much to talk over. Mr. Phelps can have the spare bedroom to-night, and I will be with you in time for breakfast, for there is a train which will take me into Waterloo at <<eight|9c:1>>."'
+            '[21:45] The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_002.html) - quarter to ten in the evening',
+            'He handed over a sheet torn from a note-book. On it was scribbled in pencil: "L10 reward. The number of the cab which dropped a fare at or about the door of the Foreign Office in Charles Street at <<quarter to ten in the evening|10>> of May 23d. Apply 221 B, Baker Street."',
           ],
           [
             1,
-            'The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_002.html) - seven o\'clock',
-            'It was <<seven o\'clock|6>> when I awoke, and I set off at once for Phelps\'s room, to find him haggard and spent after a sleepless night. His first question was whether Holmes had arrived yet.'
+            '[ap 03:20] The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_002.html) - twenty past three',
+            'It was <<twenty past three|10>> when we reached our terminus, and after a hasty luncheon at the buffet we pushed on at once to Scotland Yard. Holmes had already wired to Forbes, and we found him waiting to receive us--a small, foxy man with a sharp but by no means amiable expression. He was decidedly frigid in his manner to us, especially when he heard the errand upon which we had come.',
           ],
           [
             1,
-            'The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_002.html) - quarter-past ten',
-            '"The blind was not down in your room, and I could see Miss Harrison sitting there reading by the table. It was <<quarter-past ten|10>> when she closed her book, fastened the shutters, and retired.'
+            '[~ 02:00] The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_002.html) - about two in the morning',
+            '"You must know that last night was the very first night that I have ever slept without a nurse in the room. I was so much better that I thought I could dispense with one. I had a night-light burning, however. Well, <<about two in the morning|9h>> I had sunk into a light sleep when I was suddenly aroused by a slight noise. It was like the sound which a mouse makes when it is gnawing a plank, and I lay listening to it for some time under the impression that it must come from that cause. Then it grew louder, and suddenly there came from the window a sharp metallic snick. I sat up in amazement. There could be no doubt what the sounds were now. The first ones had been caused by some one forcing an instrument through the slit between the sashes, and the second by the catch being pressed back.',
           ],
           [
             1,
-            'The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_002.html) - about two in the morning',
-            '"The night was fine, but still it was a very weary vigil. Of course it has the sort of excitement about it that the sportsman feels when he lies beside the water-course and waits for the big game. It was very long, though--almost as long, Watson, as when you and I waited in that deadly room when we looked into the little problem of the Speckled Band. There was a church-clock down at Woking which struck the quarters, and I thought more than once that it had stopped. At last however <<about two in the morning|9h>>, I suddenly heard the gentle sound of a bolt being pushed back and the creaking of a key. A moment later the servants\' door was opened, and Mr. Joseph Harrison stepped out into the moonlight."'
+            '[ap 08:00] The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_002.html) - eight',
+            '"There are one or two small points which I should desire to clear up before I go," said he. "Your absence, Mr. Phelps, will in some ways rather assist me. Watson, when you reach London you would oblige me by driving at once to Baker Street with our friend here, and remaining with him until I see you again. It is fortunate that you are old school-fellows, as you must have much to talk over. Mr. Phelps can have the spare bedroom to-night, and I will be with you in time for breakfast, for there is a train which will take me into Waterloo at <<eight|9c:1>>."',
           ],
           [
             1,
-            'The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_003.html) - about mid-day',
-            '"My dear Watson, Professor Moriarty is not a man who lets the grass grow under his feet. I went out <<about mid-day|13>> to transact some business in Oxford Street. As I passed the corner which leads from Bentinck Street on to the Welbeck Street crossing a two-horse van furiously driven whizzed round and was on me like a flash. I sprang for the foot-path and saved myself by the fraction of a second. The van dashed round by Marylebone Lane and was gone in an instant. I kept to the pavement after that, Watson, but as I walked down Vere Street a brick came down from the roof of one of the houses, and was shattered to fragments at my feet. I called the police and had the place examined. There were slates and bricks piled up on the roof preparatory to some repairs, and they would have me believe that the wind had toppled over one of these. Of course I knew better, but I could prove nothing. I took a cab after that and reached my brother\'s rooms in Pall Mall, where I spent the day. Now I have come round to you, and on my way I was attacked by a rough with a bludgeon. I knocked him down, and the police have him in custody; but I can tell you with the most absolute confidence that no possible connection will ever be traced between the gentleman upon whose front teeth I have barked my knuckles and the retiring mathematical coach, who is, I dare say, working out problems upon a black-board ten miles away. You will not wonder, Watson, that my first act on entering your rooms was to close your shutters, and that I have been compelled to ask your permission to leave the house by some less conspicuous exit than the front door."'
+            '[ap 07:00] The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_002.html) - seven o\'clock',
+            'It was <<seven o\'clock|6>> when I awoke, and I set off at once for Phelps\'s room, to find him haggard and spent after a sleepless night. His first question was whether Holmes had arrived yet.',
           ],
           [
             1,
-            'The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_003.html) - quarter-past nine',
-            '"Oh yes, it is most necessary. Then these are your instructions, and I beg, my dear Watson, that you will obey them to the letter, for you are now playing a double-handed game with me against the cleverest rogue and the most powerful syndicate of criminals in Europe. Now listen! You will dispatch whatever luggage you intend to take by a trusty messenger unaddressed to Victoria to-night. In the morning you will send for a hansom, desiring your man to take neither the first nor the second which may present itself. Into this hansom you will jump, and you will drive to the Strand end of the Lowther Arcade, handing the address to the cabman upon a slip of paper, with a request that he will not throw it away. Have your fare ready, and the instant that your cab stops, dash through the Arcade, timing yourself to reach the other side at a <<quarter-past nine|10>>. You will find a small brougham waiting close to the curb, driven by a fellow with a heavy black cloak tipped at the collar with red. Into this you will step, and you will reach Victoria in time for the Continental express."'
+            '[ap 10:15] The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_002.html) - quarter-past ten',
+            '"The blind was not down in your room, and I could see Miss Harrison sitting there reading by the table. It was <<quarter-past ten|10>> when she closed her book, fastened the shutters, and retired.',
           ],
           [
             1,
-            'The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_003.html) - 809',
-            'The Foundation\'s principal office is located at 4557 Melan Dr. S. Fairbanks, AK, 99712., but its volunteers and employees are scattered throughout numerous locations. Its business office is located at <<809|3:0>> North 1500 West, Salt Lake City, UT 84116, (801) 596-1887, email business@pglaf.org. Email contact links and up to date contact information can be found at the Foundation\'s web site and official page at http://pglaf.org'
-          ]
+            '[~ 02:00] The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_002.html) - about two in the morning',
+            '"The night was fine, but still it was a very weary vigil. Of course it has the sort of excitement about it that the sportsman feels when he lies beside the water-course and waits for the big game. It was very long, though--almost as long, Watson, as when you and I waited in that deadly room when we looked into the little problem of the Speckled Band. There was a church-clock down at Woking which struck the quarters, and I thought more than once that it had stopped. At last however <<about two in the morning|9h>>, I suddenly heard the gentle sound of a bolt being pushed back and the creaking of a key. A moment later the servants\' door was opened, and Mr. Joseph Harrison stepped out into the moonlight."',
+          ],
+
+            ## The Name of the Rose - Umberto Eco
+          [
+            1,
+            '[12:00] The Name of the Rose - Umberto Eco.epub (index_split_032.html) - noontime',
+            "\x{201c}Yes, I was asking you about how they live in the valley, because today in the library I was meditating on the sermons to women by Humbert of Romans, and in particular on that chapter \x{2018}Ad mulieres pauperes in villulis,\x{2019} in which he says that they, more than others, are tempted to sins of the flesh because of their poverty, and wisely he says that they commit mortal sin when they sin with a layman, but the mortality of the sin becomes greater when it is committed with a priest, and greatest of all when the sin is with a monk, who is dead to the world. You know better than I that even in holy places such as abbeys the temptations of the <<noontime|13>> Devil are never wanting. I was wondering whether in our contacts with the people of the village you had heard that some monks, God forbid, had induced maidens into fornication.\x{201d}",
+          ],
+          [
+            1,
+            '[> 18:00] The Name of the Rose - Umberto Eco.epub (index_split_032.html) - after compline',
+            "\x{201c}I\x{2019}ll tell you. That night, an hour <<after compline|13>>, I went into the kitchen. ...\x{201d}",
+          ],
+          [
+            1,
+            '[02:30] The Name of the Rose - Umberto Eco.epub (index_split_032.html) - matins',
+            'In any case, we could learn no more for the moment. Having glanced at the corpse, terrified, Remigio asked himself what he should do and decided he would do nothing. If he sought help, he would have to admit he had been wandering around the Aedificium at night, nor would it do his now lost brother any good. Therefore, he resolved to leave things as they were, waiting for someone else to discover the body in the morning, when the doors were opened. He rushed to head off Salvatore, who was already bringing the girl into the abbey, then he and his accomplice went off to sleep, if their agitated vigil till <<matins|13>> could be called that. And at <<matins|9e>>, when the swineherds brought the news to the abbot, Remigio believed the body had been discovered where he had left it, and was aghast to find it in the jar. Who had spirited the corpse out of the kitchen? For this Remigio had no explanation.',
+          ],
+          [
+            1,
+            '[~ 09:00] The Name of the Rose - Umberto Eco.epub (index_split_032.html) - Terce',
+            "<<Terce|13>> was ringing and I went to the choir, to recite with the others the hymn, the psalms, the verses, and the \x{201c}Kyrie.\x{201d} The others were praying for the soul of the dead Berengar. I was thanking God for having allowed us to find not one but two pairs of lenses.",
+          ],
+          [
+            1,
+            '[02:30] The Name of the Rose - Umberto Eco.epub (index_split_016.html) - MATINS',
+            '<<MATINS|13>>',
+          ],
+          [
+            1,
+            '[02:30] The Name of the Rose - Umberto Eco.epub (index_split_016.html) - matins',
+            '
+Symbol sometimes of the Devil, sometimes of the Risen Christ, no animal is more untrustworthy than the cock. Our order knew some slothful ones who never crowed at sunrise. On the other hand, especially in winter, the office of <<matins|13>> takes place when night is still total and all nature is asleep, for the monk must rise in darkness and pray at length in darkness, waiting for day and illuminating the shadows with the flame of devotion. Therefore, custom wisely provided for some wakers, who were not to go to bed when their brothers did, but would spend the night reciting in cadence the exact number of psalms that would allow them to measure the time passed, so that, at the conclusion of the hours of sleep granted the others, they would give the signal to wake.',
+          ],
+          [
+            1,
+            '[ap > 06:00] The Name of the Rose - Umberto Eco.epub (index_split_016.html) - After six',
+            "<<After six|9:0>> psalms, the reading of Holy Scripture began. Some monks were nodding with sleepiness, and one of the night wakers wandered among the stalls with a little lamp to wake any who had dozed off again. If a monk succumbed to drowsiness, as penance he would take the lamp and continue the round. The chanting of another six psalms continued. Then the abbot gave his benediction, the hebdomadary said the prayers, all bowed toward the altar in a moment of meditation whose sweetness no-one can comprehend who has not experienced those hours of mystic ardor and intense inner peace. Finally, cowls again over their faces, all sat and solemnly intoned the \x{201c}Te Deum.\x{201d} I, too, praised the Lord because He had released me from my doubts and freed me from the feeling of uneasiness with which my first day at the abbey had filled me. We are fragile creatures, I said to myself; even among these learned and devout monks the Evil One spreads petty envies, foments subtle hostilities, but all these are as smoke then dispersed by the strong wind of faith, the moment all gather in the name of the Father, and Christ descends into their midst.",
+          ],
+          [
+            1,
+            '[02:30] The Name of the Rose - Umberto Eco.epub (index_split_016.html) - matins',
+            '
+Between <<matins|13>> and <<lauds|13>> the monk does not return to his cell, even if the night is still dark. The novices followed their master into the chapter house to study the psalms; some of the monks remained in church to tend to the church ornaments, but the majority strolled in the cloister in silent meditation, as did William and I. The servants were asleep and they went on sleeping when, the sky still dark, we returned to the choir for <<lauds|13>>.',
+          ],
+          [
+            1,
+            '[~ 07:30] The Name of the Rose - Umberto Eco.epub (index_split_016.html) - Prime',
+            "The chanting of the psalms resumed, and one in particular, among those prescribed for Mondays, plunged me again into my earlier fears: \x{201c}The transgression of the wicked saith within my heart, that there is no fear of God before his eyes. The words of his mouth are iniquity.\x{201d} It seemed to me an ill omen that the Rule should have set for that very day such a terrible admonition. Nor were my pangs of uneasiness eased, after the psalms of praise, by the usual reading of the Apocalypse; the figures of the doorway returned to my mind, the carvings that had so overwhelmed my heart and eyes the day before. But after the responsory, the hymn, and the versicle, as the chanting of the Gospel began, I glimpsed just above the altar, beyond the windows of the choir, a pale glow that was already making the panes shine in their various colors, subdued till then by the darkness. It was not yet dawn, which would triumph during <<Prime|16>>, just as we would be singing \x{201c}Deus qui est sanctorum splendor mirabilis\x{201d} and \x{201c}Iam lucis orto sidere.\x{201d} It was barely the first faint herald of a winter daybreak, but it was enough, and the dim penumbra now replacing the night\x{2019}s darkness in the nave was enough to relieve my heart.",
+          ],
+          [
+            1,
+            '[~ 09:00] The Name of the Rose - Umberto Eco.epub (index_split_025.html) - TERCE',
+            '
+
+
+    The Name of the Rose
+
+
+
+
+
+
+<<TERCE|13>>',
+          ],
+          [
+            1,
+            '[> 18:00] The Name of the Rose - Umberto Eco.epub (index_split_038.html) - AFTER COMPLINE',
+            '
+
+
+    The Name of the Rose
+
+
+
+
+
+
+<<AFTER COMPLINE|9b>>',
+          ],
+          [
+            1,
+            '[05:00] The Name of the Rose - Umberto Eco.epub (index_split_024.html) - LAUDS',
+            'FROM <<LAUDS|13>> TO PRIME',
+          ],
+          [
+            1,
+            '[> 03:00] The Name of the Rose - Umberto Eco.epub (index_split_024.html) - After matins',
+            "
+In setting down these words, I feel weary, as I felt that night\x{2014}or, rather, that morning. What can be said? <<After matins|13>> the abbot sent most of the monks, now in a state of alarm, to seek everywhere; but without any result.",
+          ],
+          [
+            1,
+            '[< 05:00] The Name of the Rose - Umberto Eco.epub (index_split_024.html) - lauds',
+            "<<Toward lauds|9e>>, searching Berengar\x{2019}s cell, a monk found under the pallet a white cloth stained with blood. He showed it to the abbot, who drew the direst omens from it. Jorge was present, and as soon as he was informed, he said, \x{201c}Blood?\x{201d} as if the thing seemed improbable to him. They told Alinardo, who shook his head and said, \x{201c}No, no, at the third trumpet death comes by water. ...\x{201d}",
+          ],
+          [
+            1,
+            '[~ 09:00] The Name of the Rose - Umberto Eco.epub (index_split_024.html) - terce',
+            '<<Toward prime|16>>, when the sun was already up, servants were sent to explore the toot of the cliff, all around the walls. They came back at <<terce|13>>, having found nothing.',
+          ],
+          [
+            1,
+            '[~ 16:30] The Name of the Rose - Umberto Eco.epub (index_split_053.html) - VESPERS',
+            '
+
+
+    The Name of the Rose
+
+
+
+
+
+
+BETWEEN <<VESPERS|13>> AND <<COMPLINE|13>>',
+          ],
+          [
+            1,
+            '[~ 16:30] The Name of the Rose - Umberto Eco.epub (index_split_053.html) - vespers',
+            '
+It is difficult for me to narrate what happened in the hours that followed, between <<vespers|13>> and <<compline|13>>.',
+          ],
+          [
+            1,
+            '[~ 16:30] The Name of the Rose - Umberto Eco.epub (index_split_053.html) - vespers',
+            'The novices were bewildered; with their innocent, boyish sensitivity they felt the tension reigning in choir, as I felt it. Long moments of silence and embarrassment ensued. The abbot ordered some psalms to be recited and he picked at random three that were not prescribed for <<vespers|13>> by the Rule. All looked at one another, then began praying in low voices. The novice master came back, followed by Benno, who took his seat, his head bowed. Jorge was not in the scriptorium or in his cell. The abbot commanded that the office begin.',
+          ],
+          [
+            1,
+            '[~ 16:30] The Name of the Rose - Umberto Eco.epub (index_split_053.html) - vespers',
+            'At the door of the refectory we saw Nicholas, who a few hours earlier had been accompanying Jorge. William asked him whether the old man had gone in immediately to see the abbot. Nicholas said Jorge had had to wait a long time outside the door, because Alinardo and Aymaro of Alessandria were in the hall. After Jorge was received, he remained inside for some time, while Nicholas waited for him. Then he came out and asked Nicholas to accompany him to the church, still deserted an hour before <<vespers|13>>.',
+          ],
+          [
+            1,
+            '[~ 18:00] The Name of the Rose - Umberto Eco.epub (index_split_053.html) - compline',
+            'The supper was more silent than usual, and sad. The abbot ate listlessly, oppressed by grim thoughts. At the end he told the monks to hurry to <<compline|13>>.',
+          ],
+          [
+            1,
+            '[~ 09:00] The Name of the Rose - Umberto Eco.epub (index_split_018.html) - TERCE',
+            '
+
+
+    The Name of the Rose
+
+
+
+
+
+
+<<TERCE|13>>',
+          ],
+          [
+            1,
+            '[~ 09:00] The Name of the Rose - Umberto Eco.epub (index_split_010.html) - TERCE',
+            '
+
+
+    The Name of the Rose
+
+
+
+
+
+
+<<TERCE|13>>',
+          ],
+          [
+            1,
+            '[~ 18:00] The Name of the Rose - Umberto Eco.epub (index_split_010.html) - compline',
+            'I felt the abbot was pleased to be able to conclude that discussion and return to his problem. He then began telling, with very careful choice of words and with long paraphrases, about an unusual event that had taken place a few days before and had left in its wake great distress among the monks. He was speaking of the matter with William, he said, because, since William had great knowledge both of the human spirit and of the wiles of the Evil One, Abo hoped his guest would be able to devote a part of his valuable time to shedding light on a painful enigma. What had happened, then, was this: Adelmo of Otranto, a monk still young though already famous as a master illuminator, who had been decorating the manuscripts of the library with the most beautiful images, had been found one morning by a goatherd at the bottom of the cliff below the Aedificium. Since he had been seen by other monks in choir during <<compline|13>> but had not reappeared at <<matins|13>>, he had probably fallen there during the darkest hours of the night. The night of a great snowstorm, in which flakes as sharp as blades fell, almost like hail, driven by a furious south wind. Soaked by that snow, which had first melted and then frozen into shards of ice, the body had been discovered at the foot of the sheer drop, torn by the rocks it had struck on the way down. Poor, fragile, mortal thing, God have mercy on him. Thanks to the battering the body had suffered in its broken fall, determining from which precise spot it had fallen was not easy: certainly from one of the windows that opened in rows on the three stories on the three sides of the tower exposed to the abyss.',
+          ],
+          [
+            1,
+            '[12:00] The Name of the Rose - Umberto Eco.epub (index_split_010.html) - midday',
+            "The abbot asked him whether he wanted to join the community for the <<midday|13>> refection, <<after sext|13>>. William said he had only just eaten\x{2014}very well, too\x{2014}and he would prefer to see Ubertino at once. The abbot took his leave.",
+          ],
+          [
+            1,
+            '[ap 01:00] The Name of the Rose - Umberto Eco.epub (index_split_043.html) - one',
+            'I looked at the cellarer. Remigio was in wretched shape. He looked around like a frightened animal, as if he recognized the movements and gestures of a liturgy he feared. Now I know he was afraid for two reasons, equally terrifying: <<one|9i:0>>, that he had been caught, to all appearances, in flagrant crime; the other, that the day before, when Bernard had begun his inquiry, collecting rumors and insinuations, Remigio had already been afraid his past would come to light; and his alarm had grown when he saw them arrest Salvatore.',
+          ],
+          [
+            1,
+            '[20:05] The Name of the Rose - Umberto Eco.epub (index_split_043.html) - twenty-five',
+            "William returned his gaze. \x{201c}He did misunderstand me, in fact. We were referring to a copy of the treatise on canine hydrophobia by Ayyub al-Ruhawi, a remarkably erudite book that you must surely know of by reputation, and which must often have been of great use to you. Hydrophobia, Ayyub says, may be recognized by <<twenty-five|5b>> evident signs. ...\x{201d}",
+          ],
+          [
+            1,
+            '[00:00] The Name of the Rose - Umberto Eco.epub (index_split_043.html) - midnight',
+            "\x{201c}You yourself know: it is impossible to traffic for so many years with the possessed and not wear their habit! You yourself know, butcher of apostles! You take a black cat\x{2014}isn\x{2019}t that it?\x{2014}that does not have even one white hair (you know this), and you bind his four paws, and then you take him at <<midnight|13>> to a crossroads and you cry in a loud voice: O great Lucifer, Emperor of Hell, I call you and I introduce you into the body of my enemy just as I now hold prisoner this cat, and if you will bring my enemy to death, then the following night at <<midnight|9b>>, in this same place, I will offer you this cat in sacrifice, and you will do what I command of you by the powers of the magic I now exercise according to the secret book of Saint Cyprian, in the name of all the captains of the great legions of hell, Adramelch, Alastor, and Azazel, to whom now I pray, with all their brothers. ...\x{201d} His lip trembled, his eyes seemed to bulge from their sockets, and he began to pray\x{2014}or, rather, he seemed to be praying, but he addressed his implorations to all the chiefs of the infernal legions: \x{201c}Abigor, pecca pro nobis ... Amon, miserere nobis ... Samael, libera nos a bono \x{2026} Belial eleison ... Focalor, in corruptionem meam intende ... Haborym, damnamus dominum \x{2026} Zaebos, anum meum aperies ... Leonard, asperge me spermate tuo et inquinabor. \x{2026}\x{201d}",
+          ],
+          [
+            1,
+            '[~ 18:00] The Name of the Rose - Umberto Eco.epub (index_split_022.html) - COMPLINE',
+            '
+
+
+    The Name of the Rose
+
+
+
+
+
+
+<<COMPLINE|13>>',
+          ],
+          [
+            1,
+            '[~ 18:00] The Name of the Rose - Umberto Eco.epub (index_split_022.html) - compline',
+            "
+The supper was joyless and silent. It had been just over twelve ours since the discovery of Venantius\x{2019}s co r se. All the others stole glimpses at his empty place at table. When it was the hour for <<compline|13>>, the procession that marched into the choir seemed a funeral cort\x{e8}ge. We followed the office standing in the nave and keeping an eye on the third chapel. The light was scant, and when we saw Malachi emerge from the darkness to reach his stall, we could not tell exactly where he had come from. We moved into the shadows, hiding in the side nave, so that no one would see us stay behind when the office was over. Under my scapular I had the lamp I had purloined in the kitchen during supper. We would light it later at the great bronze tripod that burned all night. I had procured a new wick and ample oil. We would have light for a long time.",
+          ],
+          [
+            1,
+            '[12:00] The Name of the Rose - Umberto Eco.epub (index_split_026.html) - SEXT',
+            '
+
+
+    The Name of the Rose
+
+
+
+
+
+
+<<SEXT|13>>',
+          ],
+          [
+            1,
+            '[02:30] The Name of the Rose - Umberto Eco.epub (index_split_040.html) - matins',
+            "\x{201c}Clare gave off the odor of sanctity, but you were sniffing another odor when you sang <<matins|13>> to the nuns!\x{201d}",
+          ],
+          [
+            1,
+            '[> 18:00] The Name of the Rose - Umberto Eco.epub (index_split_054.html) - AFTER COMPLINE',
+            '
+
+
+    The Name of the Rose
+
+
+
+
+
+
+<<AFTER COMPLINE|9b>>',
+          ],
+          [
+            1,
+            '[~ 16:30] The Name of the Rose - Umberto Eco.epub (index_split_054.html) - vespers',
+            "We did not discover what he did. An hour went by and he still had not reappeared. He\x{2019}s gone into the finis Africae, I said. Perhaps, William answered. Eager to formulate more hypotheses, I added: Perhaps he came out again through the refectory and has gone to look for Jorge. And William answered: That is also possible. Perhaps Jorge is already dead, I imagined further. Perhaps he is to the Aedificium and is killing the abbot. Perhaps they are both in some other place and some other person is lying in wait for them. What did \x{201c}the Italians\x{201d} want? And why was Benno so frightened? Was it perhaps only a mask he had assumed, to mislead us? Why had he lingered in the scriptorium during <<vespers|13>>, if he didn\x{2019}t know how to close the scriptorium or how to get out? Did he want to essay the passages of the labyrinth?",
+          ],
+          [
+            1,
+            '[ap 04:00] The Name of the Rose - Umberto Eco.epub (index_split_054.html) - four',
+            "\x{201c}Adso,\x{201d} he said to me, \x{201c} \x{2018}primum et septimum de quatuor\x{2019} does not mean the first and seventh of four, but of the four, the word \x{2018}<<four|9k:0>>\x{2019}!\x{201d} For a moment I still did not understand, but then I was enlightened: \x{201c}Super thronos viginti quatuor! The writing! The verse! The words are carved over the mirror!\x{201d}",
+          ],
+          [
+            1,
+            '[> 18:00] The Name of the Rose - Umberto Eco.epub (index_split_054.html) - after compline',
+            'Two hours <<after compline|13>>, at the end of the sixth day, in the heart of the night that was giving birth to the seventh day, we entered the finis Africae.',
+          ],
+          [
+            1,
+            '[> 06:00] The Name of the Rose - Umberto Eco.epub (index_split_009.html) - after lauds',
+            '
+It was a beautiful morning at the end of November. During the night it had snowed, but only a little, and the earth was covered with a cool blanket no more than three fingers high. In the darkness, immediately <<after lauds|13>>, we heard Mass in a village in the valley. Then we set off toward the mountain, as the sun first appeared.',
+          ],
+          [
+            1,
+            '[ap 08:00] The Name of the Rose - Umberto Eco.epub (index_split_009.html) - Eight',
+            "While we toiled up the steep path that wound around the mountain, I saw the abbey. I was amazed, not by the walls that girded it on every side, similar to others to be seen in all the Christian world, but by the bulk of what I later learned was the Aedificium. This was an octagonal construction that from a distance seemed a tetragon (a perfect form, which expresses the sturdiness and impregnability of the City of God), whose southern sides stood on the plateau of the abbey, while the northern ones seemed to grow from the steep side of the mountain, a sheer drop, to which they were bound. I might say that from below, at certain points, the cliff seemed to extend, reaching up toward the heavens, with the rock\x{2019}s same colors and material, which at a certain point became keep and tower (work of giants who had great familiarity with earth and sky). Three rows of windows proclaimed the triune rhythm of its elevation, so that what was physically squared on the earth was spiritually triangular in the sky. As we came closer, we realized that the quadrangular form included, at each of its corners, a heptagonal tower, five sides of which were visible on the outside\x{2014}four of the eight sides, then, of the greater octagon producing four minor heptagons, which from the outside appeared as pentagons. And thus anyone can see the admirable concord of so many holy numbers, each revealing a subtle spiritual significance. <<Eight|9i:0>>, the number of perfection for every tetragon; <<four|9i:0>>, the number of the Gospels; <<five|9i:0>>, the number of the zones of the world; <<seven|9i:0>>, the number of the gifts of the Holy Ghost. In its bulk and in its form, the Aedificium resembled Castel Ursino or Castel del Monte, which I was to see later in the south of the Italian peninsula, but its inaccessible position made it more awesome than those, and capable of inspiring fear in the traveler who approached it gradually. And it was fortunate that, since it was a very clear winter morning, I did not first see the building as it appears on stormy days.",
+          ],
+          [
+            1,
+            '[~ 16:30] The Name of the Rose - Umberto Eco.epub (index_split_044.html) - VESPERS',
+            '
+
+
+    The Name of the Rose
+
+
+
+
+
+
+<<VESPERS|13>>',
+          ],
+          [
+            1,
+            '[~ 18:00] The Name of the Rose - Umberto Eco.epub (index_split_044.html) - compline',
+            "\x{201c}The good of a book lies in its being read. A book is made up of signs that speak of other signs, which in their turn speak of things. Without an eye to read them, a book contains signs that produce no concepts; therefore it is dumb. This library was perhaps born to save the books it houses, but now it lives to bury them. This is why it has become a sink of iniquity. The cellarer says he betrayed. So has Benno. He has betrayed. Oh, what a nasty day, my good Adso! Full of blood and ruination. I have had enough of this day. Let us also go to <<compline|13>>, and then to bed.\x{201d}",
+          ],
+          [
+            1,
+            '[02:30] The Name of the Rose - Umberto Eco.epub (index_split_005.html) - Matins',
+            "
+<<Matins|13>>\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0} (which Adso sometimes refers to by the older expression \x{201c}Vigiliae\x{201d}) Between <<2:30|2>> and <<3:00 in the morning|2a>>.",
+          ],
+          [
+            1,
+            '[05:00] The Name of the Rose - Umberto Eco.epub (index_split_005.html) - Lauds',
+            "<<Lauds|13>>\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0} (which in the most ancient tradition were called \x{201c}Matutini\x{201d} or \x{201c}<<Matins|13>>\x{201d}) Between <<5:00|2>> and <<6:00 in the morning|2a>>, in order to end at dawn.",
+          ],
+          [
+            1,
+            '[12:00] The Name of the Rose - Umberto Eco.epub (index_split_005.html) - Sext',
+            "<<Sext|13>>\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0} <<Noon|13>> (in a monastery where the monks did not work in the fields, it was also the hour of the <<midday|13>> meal in winter).",
+          ],
+          [
+            1,
+            '[~ 16:30] The Name of the Rose - Umberto Eco.epub (index_split_005.html) - Vespers',
+            "<<Vespers|13>>\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0} <<Around 4:30, at sunset|2a>> (the Rule prescribes eating supper before dark).",
+          ],
+          [
+            1,
+            '[~ 18:00] The Name of the Rose - Umberto Eco.epub (index_split_005.html) - Compline',
+            "<<Compline|13>>\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0} <<Around 6:00|2>> (before <<7:00|2>>, the monks go to bed).",
+          ],
+          [
+            1,
+            '[~ 07:30] The Name of the Rose - Umberto Eco.epub (index_split_005.html) - around 7:30 A.M.',
+            '
+The calculation is based on the fact that in northern Italy at the end of November, the sun rises <<around 7:30 A.M.|2a>> and sets <<around 4:40 P.M.|2a>> ',
+          ],
+          [
+            1,
+            '[12:00] The Name of the Rose - Umberto Eco.epub (index_split_019.html) - SEXT',
+            '
+
+
+    The Name of the Rose
+
+
+
+
+
+
+<<SEXT|13>>',
+          ],
+          [
+            1,
+            '[12:00] The Name of the Rose - Umberto Eco.epub (index_split_019.html) - noonday',
+            "Berengar was consumed, as many of the monks now knew, by an insane passion for Adelmo, the same passion whose evils divine wrath had castigated in Sodom and Gomorrah. So Benno expressed himself, perhaps out of regard for my tender years. But anyone who has spent his adolescence in a monastery, even if he has kept himself chaste, often hears talk of such passions, and at times he has to protect himself from the snares of those enslaved by them. Little novice that I was, had I not already received from an aged monk, at Melk, scrolls with verses that as a rule a layman devotes to a woman? The monkish vows keep us far from that sink of vice that is the female body, but often they bring us close to other errors. Can I finally hide from myself the fact that even today my old age is still stirred by the <<noonday|13>> demon when my eyes, in choir, happen to linger on the beardless face of a novice, pure and fresh as a maiden\x{2019}s?",
+          ],
+          [
+            1,
+            '[> 18:00] The Name of the Rose - Umberto Eco.epub (index_split_019.html) - after compline',
+            "Benno admitted that his enthusiasm had carried him away, and he resumed his story. The night before Adelmo\x{2019}s death, Benno followed the pair, driven by curiosity, and he saw them, <<after compline|9e>>, go off together to the dormitory. He waited a long time, holding ajar the door of his cell, not far from theirs, and when silence had fallen over the sleep of the monks, he clearly saw Adelmo slip into Berengar\x{2019}s cell. Benno remained awake, unable to fall asleep, until he heard Berengar\x{2019}s door open again and Adelmo flee, almost running, as his friend tried to hold him back. Berengar followed Adelmo down to the floor below. Cautiously Benno went after them, and at the mouth of the lower corridor he saw Berengar, trembling, huddled in a corner, staring at the door of Jorge\x{2019}s cell. Benno guessed that Adelmo had flung himself at the feet of the venerable brother to confess his sin. And Berengar was trembling, knowing his secret was being revealed, even if under the seal of the sacrament.",
+          ],
+          [
+            1,
+            '[~ 16:30] The Name of the Rose - Umberto Eco.epub (index_split_036.html) - VESPERS',
+            '
+
+
+    The Name of the Rose
+
+
+
+
+
+
+<<VESPERS|13>>',
+          ],
+          [
+            1,
+            '[> 16:30] The Name of the Rose - Umberto Eco.epub (index_split_021.html) - AFTER VESPERS',
+            '
+
+
+    The Name of the Rose
+
+
+
+
+
+
+<<AFTER VESPERS|9b>>',
+          ],
+          [
+            1,
+            '[~ 09:00] The Name of the Rose - Umberto Eco.epub (index_split_033.html) - TERCE',
+            '
+
+
+    The Name of the Rose
+
+
+
+
+
+
+<<TERCE|13>>',
+          ],
+          [
+            1,
+            '[12:00] The Name of the Rose - Umberto Eco.epub (index_split_033.html) - noontime',
+            'Now I know, as the doctor says, that love can harm the lover when it is excessive. And mine was excessive. I have tried to explain what I felt then, not in the least to justify what I felt. I am speaking of what were my sinful ardors of youth. They were bad, but truth obliges me to say that at the time I felt them to be extremely good. And let this serve to instruct anyone who may fall, as I did, into the nets of temptation. Today, an old man, I would know a thousand ways of evading such seductions. And I wonder how proud of them I should be, since I am free of the temptations of the <<noontime|13>> Devil; but not free from others, so that I ask myself whether what I am now doing is not a sinful succumbing to the terrestrial passion of recollection, a foolish attempt to elude the flow of time, and death.',
+          ],
+          [
+            1,
+            '[~ 18:00] The Name of the Rose - Umberto Eco.epub (index_split_015.html) - COMPLINE',
+            '
+
+
+    The Name of the Rose
+
+
+
+
+
+
+<<COMPLINE|13>>',
+          ],
+          [
+            1,
+            '[~ 18:00] The Name of the Rose - Umberto Eco.epub (index_split_015.html) - compline',
+            'Supper over, the monks prepared to go off to the choir for the office of <<compline|13>>. They again lowered their cowls over their faces and formed a line at the door. Then they moved in a long file, crossing the cemetery and entering the choir through the north doorway.',
+          ],
+          [
+            1,
+            '[~ 16:30] The Name of the Rose - Umberto Eco.epub (index_split_055.html) - vespers',
+            "\x{201c}Is that you, William of Baskerville?\x{201d} he asked. \x{201c}I have been waiting for you since this afternoon before <<vespers|13>>, when I came and closed myself in here. I knew you would arrive.\x{201d}",
+          ],
+          [
+            1,
+            '[02:30] The Name of the Rose - Umberto Eco.epub (index_split_046.html) - MATINS',
+            '<<MATINS|13>>',
+          ],
+          [
+            1,
+            '[02:30] The Name of the Rose - Umberto Eco.epub (index_split_046.html) - matins',
+            '
+We went down to <<matins|13>>. That last part of the night, virtually the first part of the imminent new day, was still foggy. As I crossed the cloister the dampness penetrated to my bones, aching after my uneasy sleep. Although the church was cold, I knelt under those vaults with a sigh of relief, sheltered from the elements, comforted by the warmth of other bodies, and by prayer.',
+          ],
+          [
+            1,
+            '[05:00] The Name of the Rose - Umberto Eco.epub (index_split_046.html) - lauds',
+            'When we reached the end of the office, the abbot reminded monks and novices that it was necessary to prepare for the Christmas High Mass; therefore, as was the custom, the time before <<lauds|13>> would be spent assaying the accord of the whole community in the performance of some chants prescribed for the occasion. That assembly of devout men was in effect trained as a single body, a single harmonious voice; through a process that had gone on for years, they acknowledged their unification, into a single soul, in their singing.',
+          ],
+          [
+            1,
+            '[05:00] The Name of the Rose - Umberto Eco.epub (index_split_047.html) - LAUDS',
+            '
+
+
+    The Name of the Rose
+
+
+
+
+
+
+<<LAUDS|13>>',
+          ],
+          [
+            1,
+            '[05:00] The Name of the Rose - Umberto Eco.epub (index_split_047.html) - lauds',
+            "
+Was it time for <<lauds|13>> already? Was it earlier or later? From that point on I lost all temporal sense. Perhaps hours went by, perhaps less, in which Malachi\x{2019}s body was laid out in church on a catafalque, while the brothers formed a semicircle around it. The abbot issued instructions for a prompt funeral. I heard him summon Benno and Nicholas of Morimondo. In less than a day, he said, the abbey had been deprived of its librarian and its cellarer. \x{201c}You,\x{201d} he said to Nicholas, \x{201c}will take over the duties of Remigio. You know the jobs of many, here in the abbey. Name someone to take your place in charge of the forges, and provide for today\x{2019}s immediate necessities in the kitchen, the refectory. You are excused from offices. Go.\x{201d} Then to Benno he said, \x{201c}Only yesterday evening you were named Malachi\x{2019}s assistant. Provide for the opening of the scriptorium and make sure no one goes up into the library alone.\x{201d} Shyly, Benno pointed out that he had not yet been initiated into the secrets of that place. The abbot glared at him sternly. \x{201c}No one has said you will be. You see that work goes on and is offered as a prayer for our dead brothers ... and for those who will yet die. Each monk will work only on the books already given him. Those who wish may consult the catalogue. Nothing else. You are excused from <<vespers|13>>, because at that hour you will lock up everything.\x{201d}",
+          ],
+          [
+            1,
+            '[12:00] The Name of the Rose - Umberto Eco.epub (index_split_034.html) - SEXT',
+            '
+
+
+    The Name of the Rose
+
+
+
+
+
+
+<<SEXT|13>>',
+          ],
+          [
+            1,
+            '[> 18:00] The Name of the Rose - Umberto Eco.epub (index_split_023.html) - after compline',
+            "\x{201c}We were pursuing a trail ...\x{201d} William said vaguely, with visible embarrassment. The abbot gave him a long look, then said in a slow and severe voice, \x{201c}I looked for you immediately <<after compline|13>>. Berengar was not in choir.\x{201d}",
+          ],
+          [
+            1,
+            '[~ 18:00] The Name of the Rose - Umberto Eco.epub (index_split_023.html) - compline',
+            "\x{201c}He was not in choir at <<compline|13>>,\x{201d} the abbot repeated, and has not come back to his cell. <<Matins|13>> are about to ring, and we will now see if he reappears. Otherwise I fear some new calamity.\x{201d}",
+          ],
+          [
+            1,
+            '[02:30] The Name of the Rose - Umberto Eco.epub (index_split_023.html) - matins',
+            'At <<matins|9m>> Berengar was absent.',
+          ],
+          [
+            1,
+            '[~ 16:30] The Name of the Rose - Umberto Eco.epub (index_split_028.html) - VESPERS',
+            '
+
+
+    The Name of the Rose
+
+
+
+
+
+
+<<VESPERS|13>>',
+          ],
+          [
+            1,
+            '[~ 16:30] The Name of the Rose - Umberto Eco.epub (index_split_028.html) - vespers',
+            'At that moment Nicholas of Morimondo came running toward us, bearer of very bad tidings. While he was trying to grind more finely the best lens, the one on which William had based such hope, it had broken. And another, which could perhaps have replaced it, had cracked as he was trying to insert it into the fork. Nicholas, disconsolately, pointed to the sky. It was already the hour of <<vespers|13>>, and darkness was falling. For that day no more work could be done. Another day lost, William acknowledged bitterly, suppressing (as he confessed to me afterward) the temptation to strangle the master glazier, though Nicholas was already sufficiently humiliated.',
+          ],
+          [
+            1,
+            '[ap > 02:00] The Name of the Rose - Umberto Eco.epub (index_split_028.html) - after two',
+            "\x{201c}At this point it isn\x{2019}t difficult. With the map you\x{2019}ve drawn, which should more or less correspond to the plan of the library, as soon as we are m the first heptagonal room we will move immediately to reach one of the blind rooms. Then, always turning right, <<after two|9:0>> or three rooms we should again be in a tower, which can only be the north tower, until we come to another blind room, on the left, which will confine with the heptagonal room, and on the right will allow us to rediscover a route similar to what I have just described, until we arrive at the west tower.\x{201d}",
+          ],
+          [
+            1,
+            '[~ 18:00] The Name of the Rose - Umberto Eco.epub (index_split_028.html) - compline',
+            "\x{201c}Ah, of course, supper. The hour has passed by now. The monks are already at <<compline|13>>. But perhaps the kitchen is still open. Go look for something.\x{201d}",
+          ],
+          [
+            1,
+            '[~ 18:00] The Name of the Rose - Umberto Eco.epub (index_split_037.html) - COMPLINE',
+            '
+
+
+    The Name of the Rose
+
+
+
+
+
+
+<<COMPLINE|13>>',
+          ],
+          [
+            1,
+            '[~ 18:00] The Name of the Rose - Umberto Eco.epub (index_split_037.html) - compline',
+            'In the end, all rose very happy, some mentioning vague ailments as an excuse not to go down to <<compline|13>>. But the abbot did not take offense. Not all have the privilege and the obligations we assume on being consecrated in our order.',
+          ],
+          [
+            1,
+            '[~ 18:00] The Name of the Rose - Umberto Eco.epub (index_split_037.html) - compline',
+            'I joined William and we did what was to be done. That is, we prepared to follow <<compline|13>> at the rear of the nave, so that when the office ended we would be ready to undertake our second (for me, third) journey into the bowels of the labyrinth.',
+          ],
+          [
+            1,
+            '[~ 18:00] The Name of the Rose - Umberto Eco.epub (index_split_045.html) - COMPLINE',
+            '
+
+
+    The Name of the Rose
+
+
+
+
+
+
+<<COMPLINE|13>>',
+          ],
+          [
+            1,
+            '[~ 16:30] The Name of the Rose - Umberto Eco.epub (index_split_045.html) - Vespers',
+            "
+<<Vespers|13>> had been sung in a confused fashion while the interrogation of the cellarer was still under way, with the curious novices escaping their master\x{2019}s control to observe through windows and cracks what was going on in the chapter hall. Now the whole community was to pray for the good soul of Severinus. Everyone expected the abbot to speak, and wondered what he would say. But instead, after the ritual homily of Saint Gregory, the responsory, and the three prescribed psalms, the abbot did step into the pulpit, but only to say he would remain silent this evening. Too many calamities had befallen the abbey, he said, to allow even the spiritual father to speak in a tone of reproach and admonition. Everyone, with no exceptions, should now make a strict examination of conscience. But since it was necessary for someone to speak, he suggested the admonition should come from the oldest of their number, now close to death, the brother who was the least involved of all in the terrestrial passions that had generated so many evils. By right of age Alinardo of Grottaferrata should speak, but all knew the fragile condition of the venerable brother\x{2019}s health. Immediately after Alinardo, in the order established by the inevitable progress of time, came Jorge. And the abbot now called upon him.",
+          ],
+          [
+            1,
+            '[02:30] The Name of the Rose - Umberto Eco.epub (index_split_045.html) - matins',
+            "\x{201c}To bed, Adso,\x{201d} William said to me, climbing the stairs of the pilgrims\x{2019} hospice. \x{201c}This is not a night for roaming about. Bernard Gui might have the idea of heralding the end of the world by beginning with our carcasses. Tomorrow we must try to be present at <<matins|13>>, because immediately afterward Michael and the other Minorites will leave.\x{201d}",
+          ],
+          [
+            1,
+            '[12:00] The Name of the Rose - Umberto Eco.epub (index_split_020.html) - noon',
+            "
+We found the abbot in church, at the main altar. He was following the work of some novices who had brought forth from a secret place a number of sacred vessels, chalices, patens, and monstrances, and a crucifix I had not seen during the morning function. I could not repress a cry of wonder at the dazzling beauty of those holy objects. It was <<noon|9f>> and the light came in bursts through the choir windows, and even more through those of the fa\x{e7}ade, creating white cascades that, like mystic streams of divine substance, intersected at various points of the church, engulfing the altar itself.",
+          ],
+          [
+            1,
+            '[ap 01:00] The Name of the Rose - Umberto Eco.epub (index_split_020.html) - one',
+            "\x{201c}Abo,\x{201d} William said, \x{201c}you live in the isolation of this splendid and holy abbey, far from the wickedness of the world. Life in the cities is far more complex than you believe, and there are degrees, you know, also in error and in evil. Lot was much less a sinner than his fellow citizens who conceived foul thoughts also about the angels sent by God, and the betrayal of Peter was nothing compared with the betrayal of Judas: <<one|9i:0>>, indeed, was forgiven, the other not. You cannot consider Patarines and Catharists the same thing. The Patarines were a movement to reform behavior within the laws of Holy Mother Church. They wanted always to improve the ecclesiastics\x{2019} behavior.\x{201d}",
+          ],
+          [
+            1,
+            '[~ 16:30] The Name of the Rose - Umberto Eco.epub (index_split_014.html) - VESPERS',
+            '
+
+
+    The Name of the Rose
+
+
+
+
+
+
+<<VESPERS|13>>',
+          ],
+          [
+            1,
+            '[~ 16:30] The Name of the Rose - Umberto Eco.epub (index_split_014.html) - vespers',
+            '
+At that point the bell rang for <<vespers|13>> and the monks prepared to leave their desks. Malachi made it clear to us that we, too, should leave. He would remain with his assistant, Berengar, to put things back in order (those were his words) and arrange the library for the night. William asked him whether he would be locking the doors.',
+          ],
+          [
+            1,
+            '[~ 18:00] The Name of the Rose - Umberto Eco.epub (index_split_014.html) - compline',
+            "\x{201c}There are no doors that forbid access to the scriptorium from the kitchen and the refectory, or to the library from the scriptorium. Stronger than any door must be the abbot\x{2019}s prohibition. And the monks need both the kitchen and the refectory until <<compline|13>>. At that point, to prevent entry into the Aedificium by outsiders or animals, for whom the interdiction is not valid, I myself lock the outside doors, which open into the kitchen and the refectory, and from that hour on the Aedificium remains isolated.\x{201d}",
+          ],
+          [
+            1,
+            '[~ 16:30] The Name of the Rose - Umberto Eco.epub (index_split_014.html) - Vespers',
+            "Nicholas remained puzzled and uneasy. \x{201c}I hadn\x{2019}t thought of that. Perhaps. God protect us. It\x{2019}s late. <<Vespers|13>> have already begun. Farewell.\x{201d} And he headed for the church.",
+          ],
+          [
+            1,
+            '[~ 16:30] The Name of the Rose - Umberto Eco.epub (index_split_014.html) - vespers',
+            'While we were talking in this fashion, the office of <<vespers|13>> ended. The servants were going back to their tasks before retiring for supper, the monks were heading for the refectory. The sky was now dark and it was beginning to snow. A light snow, in soft little flakes, which must have continued, I believe, for most of the night, because the next morning all the grounds were covered with a white blanket, as I shall tell.',
+          ],
+          [
+            1,
+            '[05:00] The Name of the Rose - Umberto Eco.epub (index_split_031.html) - LAUDS',
+            '<<LAUDS|13>>',
+          ],
+          [
+            1,
+            '[12:00] The Name of the Rose - Umberto Eco.epub (index_split_011.html) - SEXT',
+            '
+
+
+    The Name of the Rose
+
+
+
+
+
+
+<<SEXT|13>>',
+          ],
+          [
+            1,
+            '[ap 01:00] The Name of the Rose - Umberto Eco.epub (index_split_011.html) - one',
+            "As this story continues, I shall have to speak again, and at length, of this creature and record his speech. I confess I find it very difficult to do so because I could not say now, as I could never understand then, what language he spoke. It was not Latin, in which the lettered men of the monastery expressed themselves, it was not the vulgar tongue of those parts, or any other I had ever heard. I believe I have given a faint idea of his manner of speech, reporting just now (as I remember them) the first words of his I heard. When I learned later about his adventurous life and about the various places where he had lived, putting down roots in none of them, I realized Salvatore spoke all languages, and no language. Or, rather, he had invented for himself a language which used the sinews of the languages to which he had been exposed\x{2014}and once I thought that his was, not the Adamic language that a happy mankind had spoken, all united by a single tongue from the origin of the world to the Tower of Babel, or one of the languages that arose after the dire event of their division, but precisely the Babelish language of the first day after the divine chastisement, the language of primeval confusion. Nor, for that matter, could I call Salvatore\x{2019}s speech a language, because in every human language there are rules and every term signifies ad placitum a thing, according to a law that does not change, for man cannot call the dog once dog and once cat, or utter sounds to which a consensus of people has not assigned a definite meaning, as would happen if someone said the word \x{201c}blitiri\x{201d} And yet, one way or another, I did understand what Salvatore meant, and so did the others. Proof that he spoke not one, but all languages, none correctly, taking words sometimes from <<one|9c:0>> and sometimes from another. I also noticed afterward that he might refer to something first in Latin and later in Proven\x{e7}al, and I realized that he was not so much inventing his own sentences as using the disiecta membra of other sentences, heard some time in the past, according to the present situation and the things he wanted to say, as if he could speak of a food, for instance, only with the words of the people among whom he had eaten that food, and express his joy only with sentences that he had heard uttered by joyful people the day when he had similarly experienced joy. His speech was somehow like his face, put together with pieces from other people\x{2019}s faces, or like some precious reliquaries I have seen (si licet magnis componere parva, if I may link diabolical things with the divine), fabricated from the shards of other holy objects. At that moment, when I met him for the first time, Salvatore seemed to me, because of both his face and his way of speaking, a creature not unlike the hairy and hoofed hybrids I had just seen under the portal. Later I realized that the man was probably good-hearted and humorous. Later still ... But we must not get ahead of our story. Particularly since, the moment he had spoken, my master questioned him with great curiosity.",
+          ],
+          [
+            1,
+            '[12:00] The Name of the Rose - Umberto Eco.epub (index_split_051.html) - SEXT',
+            '
+
+
+    The Name of the Rose
+
+
+
+
+
+
+<<SEXT|13>>',
+          ],
+          [
+            1,
+            '[> 09:00] The Name of the Rose - Umberto Eco.epub (index_split_050.html) - AFTER TERCE',
+            '
+
+
+    The Name of the Rose
+
+
+
+
+
+
+<<AFTER TERCE|9b>>',
+          ],
+          [
+            1,
+            '[~ 09:00] The Name of the Rose - Umberto Eco.epub (index_split_041.html) - TERCE',
+            '
+
+
+    The Name of the Rose
+
+
+
+
+
+
+<<TERCE|13>>',
+          ],
+          [
+            1,
+            '[02:30] The Name of the Rose - Umberto Eco.epub (index_split_030.html) - matins',
+            "\x{201c}And now we should go to bed, because in an hour it is <<matins|9f>>. But I see you are still agitated, my poor Adso, still fearful because of your sin. ... There is nothing like a good spell in church to calm the spirit. I have absolved you, but one never knows. Go and ask the Lord\x{2019}s confirmation.\x{201d} And he gave me a rather brisk slap on the head, perhaps as a show of paternal and virile affection, perhaps as an indulgent penance. Or perhaps (as I culpably thought at that moment) in a sort of good-natured envy, since he was a man who so thirsted for new and vital experiences.",
+          ],
+          [
+            1,
+            '[> 18:00] The Name of the Rose - Umberto Eco.epub (index_split_029.html) - AFTER COMPLINE',
+            '
+
+
+    The Name of the Rose
+
+
+
+
+
+
+<<AFTER COMPLINE|9b>>',
+          ],
+          [
+            1,
+            '[12:00] The Name of the Rose - Umberto Eco.epub (index_split_029.html) - noontime',
+            "O Lord, when the soul is transported, the only virtue lies in loving what you see (is that not true?), the supreme happiness in having what you have; there blissful life is drunk at its source (has this not been said?), there you savor the true life that we will live after this mortal life among the angels for all eternity. ... This is what I was thinking and it seemed to me the prophecies were being fulfilled at last, as the girl lavished indescribable sweetness on me, and it was as if my whole body were an eye, before and behind, and I could suddenly see all surrounding things. And I understood that from it, from love, unity and tenderness are created together, as are good and kiss and fulfillment, as I had already heard, believing I was being told about something else. And only for an instant, as my joy was about to reach its zenith, did I remember that perhaps I was experiencing, and at night, the possession of the <<noontime|13>> Devil, who was condemned finally to reveal himself in his true, diabolical nature to the soul that in ecstasy asks \x{201c}Who are you?,\x{201d} who knows how to grip the soul and delude the body. But I was immediately convinced that my scruples were indeed devilish, for nothing could be more right and good and holy than what I was experiencing, the sweetness of which grew with every moment. As a little drop of water added to a quantity of wine is completely dispersed and takes on the color and taste of wine, as red-hot iron becomes like molten fire losing its original form, as air when it is inundated with the sun\x{2019}s light is transformed into total splendor and clarity so that it no longer seems illuminated but, rather, seems to be light itself, so I felt myself die of tender liquefaction, and I had only the strength left to murmur the words of the psalm: \x{201c}Behold my bosom is like new wine, sealed, which bursts new vessels,\x{201d} and suddenly I saw a brilliant light and in it a saffron-colored form which flamed up in a sweet and shining fire, and that splendid light spread through all the shining fire, and this shining fire through that golden form and that brilliant light and that shining fire through the whole form.",
+          ],
+          [
+            1,
+            '[> 16:30] The Name of the Rose - Umberto Eco.epub (index_split_017.html) - after vespers',
+            "Berengar staggered, as if he were about to fall in a faint. \x{201c}I?\x{201d} he asked in a weak voice. William had dropped his question as if by chance, perhaps because Benno had told him of seeing the two conferring in the cloister <<after vespers|13>>. But it must have struck home, and clearly Berengar was thinking of another, really final meeting, because he began to speak in a halting voice.",
+          ],
+          [
+            1,
+            '[~ 18:00] The Name of the Rose - Umberto Eco.epub (index_split_017.html) - compline',
+            "\x{201c} \x{2018}I am damned!\x{2019} That is what he said to me. \x{2018}As you see me here, you see one returned from hell, and to hell I must go back.\x{2019} So he said to me. And I cried to him, \x{2018}Adelmo, have you really come from hell? What are the pains of hell like?\x{2019} And I was trembling, because I had just left the office of <<compline|13>> where I had heard read the terrible pages on the wrath of the Lord. And he said to me, \x{2018}The pains of hell are infinitely greater than our tongue can say. You see,\x{2019} he said, \x{2018}this cape of sophisms in which I have been dressed till today? It oppresses me and weighs on me as if I had the highest tower of Paris or the mountain of the world on my back, and nevermore shall I be able to set it down. And this pain was given me by divine justice for my vainglory, for having believed my body a place of pleasures, and for having thought to know more than others, and for having enjoyed monstrous things, which, cherished in my imagination, have produced far more monstrous things within my soul\x{2014}and now I must live with them in eternity. You see the lining of this cloak? It is as if it were all coals and ardent fire, and it is the fire that burns my body, and this punishment is given me for the dishonest sin of the flesh, whose vice I knew and cultivated, and this fire now unceasingly blazes and burns me! Give me your hand, my beautiful master,\x{2019} he said to me further, \x{2018}that my meeting with you may be a useful lesson, in exchange for many of the lessons you gave me. Your hand, my beautiful master!\x{2019} And he shook the finger of his burning hand, and on my hand there fell a little drop of his sweat and it seemed to pierce my hand. For many days I bore the sign, only I hid it from all. Then he disappeared among the graves, and the next morning I learned that his body, which had so terrified me, was now dead at the foot of the cliff.\x{201d}",
+          ],
+          [
+            1,
+            '[> 18:00] The Name of the Rose - Umberto Eco.epub (index_split_017.html) - after compline',
+            "\x{201c}It was <<after compline|9f>>, immediately <<after compline|13>>, it was not snowing yet, the snow began later. ... I remember that the first flurries began as I was fleeing. toward the dormitory. I was fleeing toward the dormitory as the ghost went in the opposite direction. ... And after that I know nothing more; please, question me no further, if you will not confess me.\x{201d}",
+          ],
+          [
+            1,
+            '[05:00] The Name of the Rose - Umberto Eco.epub (index_split_017.html) - lauds',
+            "\x{201c}Because someone said words of desperation to him. As I said, a page of a modern preacher must have prompted someone to repeat the words that frightened Adelmo and with which Adelmo frightened Berengar. In these last few years, as never before, to stimulate piety and terror and fervor in the populace, and obedience to human and divine law, preachers have used distressing words, macabre threats. Never before, as in our days, amid processions of flagellants, were sacred <<lauds|13>> heard inspired by the sorrows of Christ and of the Virgin, never has there been such insistence as there is today on strengthening the faith of the simple through the depiction of infernal torments.\x{201d}",
+          ],
+          [
+            1,
+            '[12:00] The Name of the Rose - Umberto Eco.epub (index_split_042.html) - SEXT',
+            '
+
+
+    The Name of the Rose
+
+
+
+
+
+
+<<SEXT|13>>',
+          ],
+          [
+            1,
+            '[ap 04:00] The Name of the Rose - Umberto Eco.epub (index_split_027.html) - four',
+            "\x{201c}I know. First of all we have to know what Venantius meant by \x{2018}idolum.\x{2019} An image, a ghost, a figure? And then what can this \x{2018}<<four|9k:0>>\x{2019} be that has a \x{2018}first\x{2019} and a \x{2018}seventh\x{2019}? And what is to be done with them? Move them, push them, pull them?\x{201d}",
+          ],
+          [
+            1,
+            '[~ 09:00] The Name of the Rose - Umberto Eco.epub (index_split_049.html) - TERCE',
+            '
+
+
+    The Name of the Rose
+
+
+
+
+
+
+<<TERCE|13>>',
+          ],
+          [
+            1,
+            '[> 15:00] The Name of the Rose - Umberto Eco.epub (index_split_013.html) - AFTER NONES',
+            '
+
+
+    The Name of the Rose
+
+
+
+
+
+
+<<AFTER NONES|16>>',
+          ],
+          [
+            1,
+            '[~ 09:00] The Name of the Rose - Umberto Eco.epub (index_split_013.html) - terce',
+            'As it appeared to my eyes, at that afternoon hour, it seemed to me a joyous workshop of learning. I saw later at St. Gall a scriptorium of similar proportions, also separated from the library (in other convents the monks worked in the same place where the books were kept), but not so beautifully arranged as this one. Antiquarians, librarians, rubricators, and scholars were seated, each at his own desk, and there was a desk under each of the windows. And since there were forty windows (a number truly perfect, derived from the decupling of the quadragon, as if the Ten Commandments had been multiplied by the four cardinal virtues), forty monks could work at the same time, though at that moment there were perhaps thirty. Severinus explained to us that monks working in the scriptorium were exempted from the offices of <<terce|13>>, <<sext|13>>, and nones so they would not have to leave their work during the hours of daylight, and they stopped their activity only at sunset, for <<vespers|13>>.',
+          ],
+          [
+            1,
+            '[> 18:00] The Name of the Rose - Umberto Eco.epub (index_split_008.html) - after compline',
+            'During our time together we did not have occasion to lead a very regular life: even at the abbey we remained up at night and collapsed wearily during the day, nor did we take part regularly in the holy offices. On our journey, however, he seldom stayed awake <<after compline|13>>, and his habits were frugal. Sometimes, also at the abbey, he would spend the whole day walking in the vegetable garden, examining the plants as if they were chrysoprases or emeralds; and I saw him roaming about the treasure crypt, looking at a coffer studded with emeralds and chrysoprases as if it were a clump of thorn apple. At other times he would pass an entire day in the great hall of the library, leafing through manuscripts as if seeking nothing but his own enjoyment (while, around us, the corpses of monks, horribly murdered, were multiplying). One day I found him strolling in the flower garden without any apparent aim, as if he did not have to account to God for his works. In my order they had taught me quite a different way of expending my time, and I said so to him. And he answered that the beauty of the cosmos derives not only from unity in variety, but also from variety in unity. This seemed to me an answer dictated by crude common sense, but I learned subsequently that the men of his land often define things in ways in which it seems that the enlightening power of reason has scant function.',
+          ],
         ];
 
+    ## End
 }
 
 

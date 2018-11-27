@@ -18,12 +18,14 @@ my $noon_re     = qr{ ( high \s+ )? noon | noonday | mid[-\s]*day | noontime | n
 my $midnight_re = qr{ midnight (?! \s+ oil ) }xin;
 my $ecclesiastical_re =
     qr{ # Ecclesiastical times -- https://en.wikipedia.org/wiki/Liturgy_of_the_Hours
-        matins | lauds | terce | sext | vespers | compline | vigils | nocturns
+        # Prime and Nones are handled specially
+        matins  | lauds    | terce      | sext
+      | vespers | compline | vigils     | nocturns
       | night \s+ office
       | ( dawn | early \s+ morning | mid-morning | mid-?day | mid-afternoon | evening | night )
         \s+ prayer
-      # Missing Prime and None
       }xin;
+my $all_ecclesiastical = qr{ $ecclesiastical_re | prime | nones }xin;
 my $midnight_noon_re = qr{ $noon_re | $midnight_re | $ecclesiastical_re }xin;
 
 # Numbers 1-9 as words
@@ -111,7 +113,7 @@ my $far_before_re   = qr{   $far_re   \s+    before     }xin;
 my $short_before_re = qr{   $short_re \s+    before
                         |   nearly
                         |   near ( \s+ on )?
-                        |   towards
+                        |   towards?
                         }xin;
 my $around_re       = qr{ ( ( just )  \s+ )? about
                         | almost
@@ -152,6 +154,70 @@ my $bible_book_re = qr{ Acts | Amos | Baruch | [12] \s+ Chronicles | Colossians
                       | Titus | Tobit | Wisdom | Zechariah | Zephaniah
                       }xin;
 
+# The states, short and long
+my $state_re = qr{
+                   Alabama            | AL
+                 | Alaska             | AK
+                 | Arizona            | AZ
+                 | Arkansas           | AR
+                 | California         | CA
+                 | Colorado           | CO
+                 | Connecticut        | CT
+                 | Delaware           | DE
+                 | Florida            | FL
+                 | Georgia            | GA
+                 | Hawaii             | HI
+                 | Idaho              | ID
+                 | Illinois           | IL
+                 | Indiana            | IN
+                 | Iowa               | IA
+                 | Kansas             | KS
+                 | Kentucky           | KY
+                 | Louisiana          | LA
+                 | Maine              | ME
+                 | Maryland           | MD
+                 | Massachusetts      | MA
+                 | Michigan           | MI
+                 | Minnesota          | MN
+                 | Mississippi        | MS
+                 | Missouri           | MO
+                 | Montana            | MT
+                 | Nebraska           | NE
+                 | Nevada             | NV
+                 | New \s+ Hampshire  | NH | N\. \s* H\.
+                 | New \s+ Jersey     | NJ | N\. \s* J\.
+                 | New \s+ Mexico     | NM | N\. \s* M\.
+                 | New \s+ York       | NY | N\. \s* Y\.
+                 | North \s+ Carolina | NC | N\. \s* C\.
+                 | North \s+ Dakota   | ND | N\. \s* D\.
+                 | Ohio               | OH
+                 | Oklahoma           | OK
+                 | Oregon             | OR
+                 | Pennsylvania       | PA
+                 | Rhode \s+ Island   | RI | R\. \s* I\.
+                 | South \s+ Carolina | SC | S\. \s* C\.
+                 | South \s+ Dakota   | SD | S\. \s* D\.
+                 | Tennessee          | TN
+                 | Texas              | TX
+                 | Utah               | UT
+                 | Vermont            | VT
+                 | Virginia           | VA
+                 | Washington         | WA
+                 | West \s+ Virginia  | WV | W\. \s* V\.
+                 | Wisconsin          | WI
+                 | Wyoming            | WY
+                   # Commonwealth and Territories
+                 | American \s+ Samoa                         | AS | A\. \s* S\.
+                 | District \s+ of \s+ Columbia               | DC | D\. \s* C\.
+                 | Federated \s+ States \s+ of \s+ Micronesia | FM
+                 | Guam                                       | GU
+                 | Marshall \s+ Islands                       | MH | M. \s* I\.
+                 | Northern \s+ Mariana \s+ Islands           | MP
+                 | Palau                                      | PW
+                 | Puerto \s+ Rico                            | PR | P\. \s* R\.
+                 | Virgin \s+ Islands                         | VI | V\. \s* I\.
+}xin;
+
 # The months
 my $month_re = qr{ January | February | March | April | May | June
                  | July | August | September | October | November | December }xin;
@@ -165,8 +231,8 @@ my $never_follow_times_re =
     qr{ ( with | that | which | point | time | stage | of | who
         | after | since
         | degrees
-        | centimeter | cm | meter | kilometer | km
-        | inch | inches | foot | feet | ft | yard | yd | miles | mi
+        | centimeter | cm | meter | kilometer | km | klick
+        | inch | inches | foot | feet | ft | yard | yd | mile | mi
         | cubic | square
         | hundred | thousand | million | billion
         | ( \w+ \s+)? $time_periods_re
@@ -178,6 +244,7 @@ my $never_follow_times_re =
         | round | turn   | line
         | book  | volume | plate | illustration
         | side  | edge   | corner | face
+        | Minister
         )
         s?
       }xin;
@@ -259,7 +326,7 @@ sub do_match {
     $line =~ s{<< ( ( at | by ) \s )}{$1<<}xgi;
 
     # Undo the masks
-    $line =~ s{<< ( [^>]+ ) \|xx >>}{$1}xgi;
+    $line =~ s{<< ( [^>]+ ) \|x\d+ >>}{$1}xgi;
 
     return $line;
 }
@@ -278,7 +345,7 @@ sub get_masks {
                        )
                 )
                 $ba_re
-                (?{ $branch = "xx"; })
+                (?{ $branch = "x1"; })
               }xin;
 
     # odds of five to one
@@ -290,12 +357,12 @@ sub get_masks {
                 (?<t1> $min_re \s+ to \s+ $min_re )
                 (?! ,? \s* $ampm_re)
                 \b
-                (?{ $branch = "xx"; })
+                (?{ $branch = "x2"; })
               }xin;
 
     # one's
     push @r,qr{ (?<t1> \b one ['‘’] s \b )
-                (?{ $branch = "xx"; })
+                (?{ $branch = "x3"; })
               }xin;
 
     # I was one of twenty
@@ -303,7 +370,7 @@ sub get_masks {
                 (?<t1> one \s+ of \s+ $min_re )
                 (?! ,? \s* $ampm_re)
                 \b
-                (?{ $branch = "xx"; })
+                (?{ $branch = "x4"; })
               }xin;
 
     # Bible quotes
@@ -313,7 +380,7 @@ sub get_masks {
                 | \( \d+ : \d+ ( - \d+ | - \d+ : \d+ )? \)
                 | \[ \d+ : \d+ ( - \d+ | - \d+ : \d+ )? \]
                 )
-                (?{ $branch = "xx"; })
+                (?{ $branch = "x5"; })
               }xin;
 
     # age of twenty-four, aged twenty-four
@@ -325,7 +392,7 @@ sub get_masks {
                   )?
                 )
                 \b
-                (?{ $branch = "xx"; })
+                (?{ $branch = "x6"; })
               }xin;
 
     # months or special days followed by years
@@ -333,7 +400,7 @@ sub get_masks {
                 (?<t1> \d{4} )
                 (?! ,? \s* $ampm_re)
                 \b
-                (?{ $branch = "xx"; })
+                (?{ $branch = "x7"; })
               }xin;
 
     # AD or BC or BCE
@@ -344,7 +411,7 @@ sub get_masks {
                   )
                 )
                 $ba_re
-                (?{ $branch = "xx"; })
+                (?{ $branch = "x8"; })
               }xin;
 
     # Addresses
@@ -359,7 +426,16 @@ sub get_masks {
                   )
                 )
                 $ba_re
-                (?{ $branch = "xx"; })
+                (?{ $branch = "x9"; })
+              }xin;
+
+    # Zip codes
+    push @r,qr{ (?<t1>
+                  \b $state_re [.,\s]+
+                  \d{5}
+                )
+                $ba_re
+                (?{ $branch = "x10"; })
               }xin;
 
     return(\@r);
@@ -846,6 +922,7 @@ sub get_matches {
                 (?<t1> ( $rel_words \s+ )?
                   $midnight_noon_re
                 )
+                ( [-\s]+ $never_follow_times_re \b (*SKIP)(*FAIL) )?
                 $ba_re
                 (?{ $branch = "13"})
               }xin;
@@ -990,27 +1067,37 @@ sub get_matches {
                 (?{ $branch = "5g:TIMEY"})
               }xin;
 
-    # Military times?
+    # Other ecclesiastical times that conflict
+    push @r,qr{ \b
+                ( (?<pr> ( when | during ) \s+ )
+                | (?<t1> $rel_words \s+ )
+                )
+                (?<t2> prime | nones )
+                $ba_re
+                (?{ $branch = "16"})
+              }xin;
+
+    # TODO: Military times?
     #   Thirteen hundred hours; Zero five twenty-three; sixteen thirteen
 
     return(\@r);
 }
 
 sub extract_times {
-    my ($string, $permute) = @_;
+    my ($string, $permute, $adj) = @_;
 
     my @times;
+  MATCH_LOOP:
     while ($string =~ m{<< ([^|>]+) [|] \d+ \w? (:\d)? >>}gx) {
         my $str = $1;
-
         my $branch;
         if ($str =~
             m{\A
               ( # Exact time
                 ( (?<rl> $rel_at_words ) \s+ )?
-                  (?<hr> $hour24_re ) [-\s.:]*
+                  (?<hr> $hour24_re | $all_ecclesiastical ) [-\s.:]*
                 ( (?<mn> $min_re    ) \s* )?
-                ( (?<am> $ampm_re   ) )?
+                ( [,]? \s* (?<am> $ampm_re   ) )?
                 (?{ $branch = "1"})
               | # Bare hour
                 ( (?<rl> $rel_at_words ) \s+
@@ -1106,6 +1193,7 @@ sub extract_times {
                 ( \s+ $oclock_re )?
                 ( ,? \s+ (?<am> $ampm_re ) )?
                 (?{ $branch = "11"})
+              | # Noon
               )
               \z}xin)
         {
@@ -1114,22 +1202,87 @@ sub extract_times {
             my %c; @c{@k} = @+{@k};
             $c{branch} = $branch;
 
+            my $min  = $c{mn}  // 0;   # The base minutes
+            my $m2   = $c{m2}  // 0;   # Additional minutes elsewhere in the string
+            my $m3   = $c{m3}  // 0;   # Further minutes elsewhere in the string
+            my $sec  = defined $c{sec} ? 1 : 0;  # Seconds present?
+            my $hour = $c{hr}  // 0;   # The base hour
+            my $rel  = $c{rl}  // '';  # The relative phrase
+            my $ampm = $c{am};         # AM or PM?
+            my $dir  = $c{dir} // '';  # Whether the time is before or after the base hour
 
-            my $min  = $c{mn}  // 0;
-            my $m2   = $c{m2}  // 0;
-            my $m3   = $c{m3}  // 0;
-            my $sec  = defined $c{sec} ? 1 : 0;
-            my $hour = $c{hr}  // 0;
-            my $rel  = $c{rl}  // '';
-            my $ampm = $c{am};
-            my $dir  = $c{dir} // '';
+            my $abs_hour = 0;
 
             # Turn the hours into numbers
             if ($hour !~ /^\d+$/) {
-                $hour = 12 if $hour =~ $noon_re;
-                $hour = 00 if $hour =~ $midnight_re;
-                $hour = words2nums($hour) // $hour
-                    // confess "Can't parse hour '$min'";
+                if ($hour =~ $all_ecclesiastical) {
+                    # Handle special named times
+
+                    # Ecclesiastical times
+                    #  Per Eco in "The Name of the Rose"
+                    #  See also: https://en.wikipedia.org/wiki/Liturgy_of_the_Hours
+                    my %time_strs =
+                        ('matins'   => ["02:30 AM",       "03:00 AM", 30], # Between 2:30 and 3:00 AM
+                         'vigils'   => ["02:30 AM",       "03:00 AM", 30], # Between 2:30 and 3:00 AM
+                         'nocturns' => ["02:30 AM",       "03:00 AM", 30], # Between 2:30 and 3:00 AM
+                         'lauds'    => ["05:00 AM",       "06:00 AM", 00], # Between 5:00 and 6:00 AM
+                         'prime'    => ["around 7:30 AM", undef,      00],
+                         'terce'    => ["around 9:00 AM", undef,      00],
+                         'sext'     => ["noon",           undef,      00],
+                         'nones'    => ["02:00 PM",       "03:00 PM", 60], # Between 2:00 and 3:00 PM
+                         'vespers'  => ["around 4:30 PM", undef,      00],
+                         'compline' => ["around 6:00 PM", undef,      00],
+                        );
+                    my $tr = $time_strs{lc($hour)}
+                      or die "Unable to work out a time for '$hour'";
+
+                    # Handle times relative to this. i.e. just before matins
+                    my ($start_str, $end_str, $adj) = @$tr;
+                    $end_str //= $start_str;
+                    my ($rs, $ts, $as) = ('', $start_str, $adj);
+
+                    if ($rel ne '') {
+                        if ($rel =~ m{\A ( $far_before_re
+                                         | $short_before_re
+                                         | close ( \s+ upon )?
+                                         ) \z}xin
+                            )
+                        {
+                            ($rs, $ts, $as) = ($rel, $start_str, 0);
+                        }
+                        elsif ($rel =~ m{\A $around_re \z}xin) {
+                            if (not $as) {
+                                ($rs, $ts, $as) = ($rel, $start_str, 0);
+                            }
+                        }
+                        elsif ($rel =~ m{\A ( $short_after_re | $far_after_re ) \z}xin) {
+                            ($rs, $ts, $as) = ($rel, $end_str, 0);
+                        }
+                        else {
+                            confess "Can't parse '$rel'";
+                        }
+
+                        $rs .= " ";
+                        $ts =~ s{\A around \s }{}xin;
+                    }
+
+                    push @times, extract_times("<<$rs$ts|88>>", $permute, $as);
+                    next MATCH_LOOP;
+                }
+
+                # Handle normal times
+                if ($hour =~ $noon_re) {
+                    $hour = 12;
+                    $abs_hour = 1;
+                }
+                elsif ($hour =~ $midnight_re) {
+                    $hour = 00;
+                    $abs_hour = 1;
+                }
+                else {
+                    $hour = words2nums($hour) // $hour
+                        // confess "Can't parse hour '$min'";
+                }
             }
 
             # Turn the minutes into numbers
@@ -1138,12 +1291,9 @@ sub extract_times {
                     if $rel eq 'between';
                 $min = min2num($min);
             }
-            if ($m2 !~ /^\d+$/) {
-                $min += min2num($m2);
-            }
+            $min += min2num($m2);
 
             # If we got am or pm we can set the hour absolutely
-            my $abs_hour = 0;
             if (defined $ampm) {
                 $abs_hour = 1;
                 my $pm = undef;
@@ -1192,13 +1342,15 @@ sub extract_times {
                     }
                 }
             }
-            elsif ($hour > 12 or $hour == 0) {
-                # Otherwise, depending on the hour, there can only be one choice
-                $abs_hour = 1;
-            }
-            elsif ($hour == 12) {
-                # 12:20 could be either am or pm, so set it low so we get both
-                $hour = 0;
+            elsif (not $abs_hour) {
+                if ($hour > 12 or $hour == 0) {
+                    # Otherwise, depending on the hour, there can only be one choice
+                    $abs_hour = 1;
+                }
+                elsif ($hour == 12) {
+                    # 12:20 could be either am or pm, so set it low so we get both
+                    $hour = 0;
+                }
             }
 
             # Look at the direction and see if we need to subtract the minutes rather than add
@@ -1210,9 +1362,7 @@ sub extract_times {
             }
 
             # Always add in the m3, it's never negative
-            if ($m3 !~ /^\d+$/) {
-                $min += min2num($m3);
-            }
+            $min += min2num($m3);
 
             # If we are in the afternoon then we are absolute
             $abs_hour = 1 if $hour > 12;
@@ -1223,6 +1373,8 @@ sub extract_times {
             my @hours = $hour;
             my @mins  = $min;
             my ($low, $high, $exp) = get_spread($rel, $dir, $c{mn});
+
+            $high += ( $adj || 0 );
             if ($permute) {
                 # If we are permuting, we don't need the relative expression
                 $exp = '';
@@ -1284,6 +1436,9 @@ sub min2num {
     confess "Missing arg min"
         unless defined $min;
 
+    # Digits
+    return $min if $min =~ m{\A \d+ \z}xin;
+
     # Fixed numbers
     return 1  if $min =~ m{\A ( a ) \z}xin;
 
@@ -1314,19 +1469,19 @@ sub get_spread {
     }
 
     return (  0,  0, ''  )  if $rel eq '';
-    return (-15, -5, '<<')  if $rel =~ m{\A $far_before_re   \s* \z}xin;
+    return (-15, -5, '<<')  if $rel =~ m{\A $far_before_re   \z}xin;
     return ( -9, -1, '<' )  if $rel =~ m{\A ( $short_before_re
                                       | close ( \s+ upon )?
-                                      ) \s* \z}xin;
-    return ( -6,  6, '~' )  if $rel =~ m{\A $around_re       \s* \z}xin;
-    return (  1,  9, '>' )  if $rel =~ m{\A $short_after_re  \s* \z}xin;
-    return (  5, 15, '>>')  if $rel =~ m{\A $far_after_re    \s* \z}xin;
+                                      ) \z}xin;
+    return ( -6,  6, '~' )  if $rel =~ m{\A $around_re       \z}xin;
+    return (  1,  9, '>' )  if $rel =~ m{\A $short_after_re  \z}xin;
+    return (  5, 15, '>>')  if $rel =~ m{\A $far_after_re    \z}xin;
 
     if (defined $dir and $dir ne '') {
         if ($rel =~ m{\A ( (?<m> $min_re ) \s+ or
                      | (?<r> a \s+ few | just )
                      )
-                     \s* \z}xin)
+                     \z}xin)
         {
             my $rmin = defined $+{m} ? min2num($+{m}) : 5;
             if (defined $min and $min ne '') {
@@ -1339,8 +1494,8 @@ sub get_spread {
             }
             return (0, $rmin, '>');
         }
-        elsif ($rel =~ m{\A between \s* \z}xin and
-               $min =~ m{\A (?<a> $min_re) \s+ ( and | or ) \s+ (?<b> $min_re) \s* }xin)
+        elsif ($rel =~ m{\A between \z}xin and
+               $min =~ m{\A (?<a> $min_re) \s+ ( and | or ) \s+ (?<b> $min_re) \z }xin)
         {
             my $a = min2num($+{a});
             my $b = min2num($+{b});
@@ -1356,8 +1511,8 @@ sub get_spread {
         }
     }
     else {
-        return ( 0,  0, '' )  if $rel =~ m{\A ( until | at ) \s* \z}xin;
-        return (-5, -1, '<')  if $rel =~ m{\A ( before ) \s* \z}xin;
+        return ( 0,  0, '' )  if $rel =~ m{\A ( until | at ) \z}xin;
+        return (-5, -1, '<')  if $rel =~ m{\A ( before ) \z}xin;
     }
 
     confess "Can't parse rel '$rel'";
