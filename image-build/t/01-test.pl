@@ -148,8 +148,8 @@ sub check_extract_times {
             else {
                 # Book tests
                 my ($time) = $name =~
-                    m{^ \[ (?<time> ( ap \s )? ( ( ~ | < | > | << | >> )  \s )? \d\d:\d\d ) \] \s }xin
-                    or die "Bad name '$name'";
+                    m{^ \[ (?<time> ( ap \s )? ( ( ~ | < | > | << | >> )  \s )? \d\d:\d\d ) \] \s }xin;
+                $time ||= '';
 
                 my @times = extract_times($string, 0);
                 my @matches = $string =~ m{<< ([^|>]+) [|] \d+ \w? (?: :\d)? >>}xg;
@@ -158,7 +158,7 @@ sub check_extract_times {
                     local $TODO = "should work"
                         if $match == -1;
 
-                    ok(grep({ m{^\Q$time\E:} } @times),
+                    ok(grep({ m{^\Q$time\E:} } @times) || ($time eq '' and @times == 0),
                        "Match time $time: "
                        . join(", ", map {"'$_'"} @matches)
                        . "; got: ". join(", ", map {"'$_'"} @times)
@@ -362,8 +362,8 @@ Necessity kissed me with luck. There was no better way to leave the high plains 
           ],
           [
             1,
-            '[ap > 11:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter021.html) - Just after eleven',
-            "<<Just after eleven|10>> that morning we came to the town of Carmen de Patagones, on the north bank of the Rio Negro. At the other end of the bridge was Viedma. This river I took to be the true dividing line between the fertile part of Argentina and the dusty Patagonian plateau. Hudson begins his book on Patagonia with a description of this river valley, and the inaccuracy of its name was consistent with all the misnamed landscape features I had seen since Mexico. \x{2018}The river was certainly miscalled Cusar-leof\x{fa}, or Black River, by the aborigines,\x{2019} says Hudson, \x{2018}unless the epithet referred only to its swiftness and dangerous character; for it is not black at all in appearance \x{2026} The water, which flows from the Andes across a continent of stone and gravel, is wonderfully pure, in colour a clear sea-green.\x{2019} We remained on the north bank, at a station on the bluff. A lady in a shed was selling stacks of bright red apples, five at a time. She looked like the sort of brisk enterprising woman you see on a fall day in a country town in Vermont \x{2013} her hair in a bun, rosy cheeks, a brown sweater and heavy skirt. I bought some apples and asked if they were Patagonian. Yes, she said, they were grown right here. And then, \x{2018}Isn\x{2019}t it a beautiful day!\x{2019}"
+            '[> 11:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter021.html) - Just after eleven',
+            "<<Just after eleven that morning|10>> we came to the town of Carmen de Patagones, on the north bank of the Rio Negro. At the other end of the bridge was Viedma. This river I took to be the true dividing line between the fertile part of Argentina and the dusty Patagonian plateau. Hudson begins his book on Patagonia with a description of this river valley, and the inaccuracy of its name was consistent with all the misnamed landscape features I had seen since Mexico. \x{2018}The river was certainly miscalled Cusar-leof\x{fa}, or Black River, by the aborigines,\x{2019} says Hudson, \x{2018}unless the epithet referred only to its swiftness and dangerous character; for it is not black at all in appearance \x{2026} The water, which flows from the Andes across a continent of stone and gravel, is wonderfully pure, in colour a clear sea-green.\x{2019} We remained on the north bank, at a station on the bluff. A lady in a shed was selling stacks of bright red apples, five at a time. She looked like the sort of brisk enterprising woman you see on a fall day in a country town in Vermont \x{2013} her hair in a bun, rosy cheeks, a brown sweater and heavy skirt. I bought some apples and asked if they were Patagonian. Yes, she said, they were grown right here. And then, \x{2018}Isn\x{2019}t it a beautiful day!\x{2019}"
           ],
           [
             1,
@@ -490,8 +490,8 @@ I had been on the train for twelve hours. There was something wrong with this tr
           ],
           [
             1,
-            '[ap 06:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter005.html) - six',
-            'At <<six|9a>> that morning, I blinked at my watch. The lights in the car had fused: it was pitch dark. Moments later, it was dawn. No bulb of sun, but a seepage of light that dissolved the darkness and rose on all sides bringing a bluer ozone-scented softness to a sky which became gigantic. With it was a warm buoyancy of air, and scale was restored to the landscape, and the car was sweetened with the odour of desert dew. I had never seen dawn break so swiftly, but I had never slept that way. The windows were open, there were no shades: it was like sleeping on a park bench.'
+            '[06:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter005.html) - six',
+            'At <<six that morning|9a>>, I blinked at my watch. The lights in the car had fused: it was pitch dark. Moments later, it was dawn. No bulb of sun, but a seepage of light that dissolved the darkness and rose on all sides bringing a bluer ozone-scented softness to a sky which became gigantic. With it was a warm buoyancy of air, and scale was restored to the landscape, and the car was sweetened with the odour of desert dew. I had never seen dawn break so swiftly, but I had never slept that way. The windows were open, there were no shades: it was like sleeping on a park bench.'
           ],
           [
             1,
@@ -616,8 +616,8 @@ It was not necessary for Otto to wake me up; the dust did that. It filled my com
           ],
           [
             1,
-            '[ap 05:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter010.html) - five',
-            "The train had left, too, at <<five|9a>> that morning. I said, \x{2018}We can take a taxi.\x{2019}"
+            '[05:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter010.html) - five',
+            "The train had left, too, at <<five that morning|9a>>. I said, \x{2018}We can take a taxi.\x{2019}"
           ],
           [
             1,
@@ -652,8 +652,8 @@ Peru is the poorest country in South America. Peru is also the country most visi
           ],
           [
             1,
-            '[ap 01:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter017.html) - one',
-            "Off they went, the three Mexicans. I entered the bar, and I understood their hurry. The bar was almost underground; it had a low ceiling and was lighted by six sooty lanterns. In this lantern light I could see ragged Indians, grinning drunkenly and guzzling maize beer from dented tankards. The bar was shaped like a trough. At <<one|9m>> end an old man and a very small boy were playing stringed instruments; the boy was singing sweetly in Quechua. At the other end of the trough, a fat Indian woman was frying meat over a log fire \x{2013} the smoke circled in the room. She cooked with her hands, throwing the meat in, turning it with her hands, picking it up to examine it, then taking a cooked hunk in each hand and carrying it to a plate. An infant crawled near the fire; it was nearly naked, not more than six months old, and like a soft toy. I had had my look, but before I could leave I noticed three men beckoning to me."
+            'The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter017.html) - one',
+            "Off they went, the three Mexicans. I entered the bar, and I understood their hurry. The bar was almost underground; it had a low ceiling and was lighted by six sooty lanterns. In this lantern light I could see ragged Indians, grinning drunkenly and guzzling maize beer from dented tankards. The bar was shaped like a trough. At one end an old man and a very small boy were playing stringed instruments; the boy was singing sweetly in Quechua. At the other end of the trough, a fat Indian woman was frying meat over a log fire \x{2013} the smoke circled in the room. She cooked with her hands, throwing the meat in, turning it with her hands, picking it up to examine it, then taking a cooked hunk in each hand and carrying it to a plate. An infant crawled near the fire; it was nearly naked, not more than six months old, and like a soft toy. I had had my look, but before I could leave I noticed three men beckoning to me."
           ],
           [
             1,
@@ -916,8 +916,8 @@ Romance brought up the <<nine-fifteen|5a:1>>."
           ],
           [
             1,
-            '[ap 07:00] The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_001.html) - seven o\'clock',
-            'At <<seven o\'clock|6>> that evening we were walking, the three of us, down Corporation Street to the company\'s offices.',
+            '[19:00] The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_001.html) - seven o\'clock',
+            'At <<seven o\'clock that evening|6>> we were walking, the three of us, down Corporation Street to the company\'s offices.',
           ],
           [
             1,
@@ -3267,8 +3267,8 @@ sub get_csv_tests {
           ],
           [
             1,
-            'Timestr [04:36]: 4:36',
-            'At <<4:36|2>> that morning, alone in my hotel room, it had been a much better scene. Spencer had blanched, confounded by the inescapable logic of my accusation. A few drops of perspiration had formed on his upper lip. A tiny vein had started to throb in his temple.'
+            'Timestr [04:36]: 4:36 that morning',
+            'At <<4:36 that morning|2a>>, alone in my hotel room, it had been a much better scene. Spencer had blanched, confounded by the inescapable logic of my accusation. A few drops of perspiration had formed on his upper lip. A tiny vein had started to throb in his temple.'
           ],
           [
             1,
@@ -4356,7 +4356,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [08:30]: 8:30 a.m.',
-            'On July 25th, <<8:30 a.m.|2a>> the bitch Novaya dies whelping. At <<10 o\'clock|6>> she is lowered into her cool grave, at <<7:30|2>> that same evening we see our first floes and greet them wishing they were the last.'
+            'On July 25th, <<8:30 a.m.|2a>> the bitch Novaya dies whelping. At <<10 o\'clock|6>> she is lowered into her cool grave, at <<7:30 that same evening|2a>> we see our first floes and greet them wishing they were the last.'
           ],
           [
             1,
@@ -4971,7 +4971,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [10:00]: 10 o\'clock',
-            'On July 25th, <<8:30 a.m.|2a>> the bitch Novaya dies whelping. At <<10 o\'clock|6>> she is lowered into her cool grave, at <<7:30|2>> that same evening we see our first floes and greet them wishing they were the last.'
+            'On July 25th, <<8:30 a.m.|2a>> the bitch Novaya dies whelping. At <<10 o\'clock|6>> she is lowered into her cool grave, at <<7:30 that same evening|2a>> we see our first floes and greet them wishing they were the last.'
           ],
           [
             1,
@@ -6615,8 +6615,8 @@ This last observation applied to the dark gallery, and was indicated by the comp
           ],
           [
             1,
-            'Timestr [15:05]: five minutes past three',
-            'Ultimately, at <<five minutes past three|10>> that afternoon, Smith admitted the falsity of the Fort Scott tale. "That was only something Dick told his family. So he could stay out overnight. Do some drinking."'
+            'Timestr [15:05]: five minutes past three that afternoon',
+            'Ultimately, at <<five minutes past three that afternoon|10>>, Smith admitted the falsity of the Fort Scott tale. "That was only something Dick told his family. So he could stay out overnight. Do some drinking."'
           ],
           [
             1,
@@ -7105,8 +7105,8 @@ This last observation applied to the dark gallery, and was indicated by the comp
           ],
           [
             1,
-            'Timestr [16:30]: four-thirty',
-            'At <<four-thirty|3b>> that afternoon in late January when I stepped into the parlour with Boo, my dog, Hutch was in his favourite armchair, scowling at the television, which he had muted.'
+            'Timestr [16:30]: four-thirty that afternoon',
+            'At <<four-thirty that afternoon|5>> in late January when I stepped into the parlour with Boo, my dog, Hutch was in his favourite armchair, scowling at the television, which he had muted.'
           ],
           [
             1,
@@ -7275,8 +7275,8 @@ This last observation applied to the dark gallery, and was indicated by the comp
           ],
           [
             1,
-            'Timestr [17:00]: five o\'clock',
-            'At <<five o\'clock|6>> that afternoon, while Barbara waited in a taxi, Harold went into the convent in Auteuil and explained to the nun who sat in the concierge\'s glass cage that Mme. Straus-Muguet was expecting them. He assumed that men were not permitted any further, and that they would all three go out for tea.'
+            'Timestr [17:00]: five o\'clock that afternoon',
+            'At <<five o\'clock that afternoon|6>>, while Barbara waited in a taxi, Harold went into the convent in Auteuil and explained to the nun who sat in the concierge\'s glass cage that Mme. Straus-Muguet was expecting them. He assumed that men were not permitted any further, and that they would all three go out for tea.'
           ],
           [
             1,
@@ -7910,8 +7910,8 @@ This last observation applied to the dark gallery, and was indicated by the comp
           ],
           [
             1,
-            'Timestr [19:30]: 7:30',
-            'On July 25th, <<8:30 a.m.|2a>> the bitch Novaya dies whelping. At <<10 o\'clock|6>> she is lowered into her cool grave, at <<7:30|2>> that same evening we see our first floes and greet them wishing they were the last.'
+            'Timestr [19:30]: 7:30 that same evening',
+            'On July 25th, <<8:30 a.m.|2a>> the bitch Novaya dies whelping. At <<10 o\'clock|6>> she is lowered into her cool grave, at <<7:30 that same evening|2a>> we see our first floes and greet them wishing they were the last.'
           ],
           [
             1,
@@ -8025,8 +8025,8 @@ This last observation applied to the dark gallery, and was indicated by the comp
           ],
           [
             1,
-            'Timestr [20:00]: eight o\'clock',
-            'At <<eight o\'clock|6>> that evening, a Saturday, Pamela Chamcha stood with Jumpy Joshi - who had refused to let her go unaccompanied - next to the Photo-Me machine in a corner of the main concourse of Euston station, feeling ridiculously conspiratorial.'
+            'Timestr [20:00]: eight o\'clock that evening',
+            'At <<eight o\'clock that evening|6>>, a Saturday, Pamela Chamcha stood with Jumpy Joshi - who had refused to let her go unaccompanied - next to the Photo-Me machine in a corner of the main concourse of Euston station, feeling ridiculously conspiratorial.'
           ],
           [
             1,
@@ -8350,8 +8350,8 @@ This last observation applied to the dark gallery, and was indicated by the comp
           ],
           [
             1,
-            'Timestr [21:01]: Shortly after nine o\'clock',
-            '<<Shortly after nine o\'clock|6>> that evening, Weyrother drove with his plans to Kutuzov\'s quarters where the council of war was to be held. All the commanders of columns were summoned to the commander in chief\'s and with the exception of Prince Bagration, who declined to come, were all there at the appointed time.'
+            'Timestr [21:01]: Shortly after nine o\'clock that evening',
+            '<<Shortly after nine o\'clock that evening|6>>, Weyrother drove with his plans to Kutuzov\'s quarters where the council of war was to be held. All the commanders of columns were summoned to the commander in chief\'s and with the exception of Prince Bagration, who declined to come, were all there at the appointed time.'
           ],
           [
             1,
@@ -8815,8 +8815,8 @@ This last observation applied to the dark gallery, and was indicated by the comp
           ],
           [
             1,
-            'Timestr [23:00]: eleven o\'clock',
-            'At <<eleven o\'clock|6>> that night, having secured a bed at one of the hotels and telegraphed his address to his father immediately on his arrival, he walked out into the streets of Sandbourne.'
+            'Timestr [23:00]: eleven o\'clock that night',
+            'At <<eleven o\'clock that night|6>>, having secured a bed at one of the hotels and telegraphed his address to his father immediately on his arrival, he walked out into the streets of Sandbourne.'
           ],
           [
             1,
@@ -8840,8 +8840,8 @@ This last observation applied to the dark gallery, and was indicated by the comp
           ],
           [
             1,
-            'Timestr [23:00]: eleven',
-            'The train arrived in New York at <<eleven|9a>> that night.'
+            'Timestr [23:00]: eleven that night',
+            'The train arrived in New York at <<eleven that night|9a>>.'
           ],
           [
             1,

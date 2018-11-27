@@ -84,8 +84,10 @@ my $hour12_re = qr{ $hour12_dig_re | $hour12_word_re }xin;
 my $hour24_re = qr{ $hour24_dig_re | $hour24_word_re }xin;
 
 # The am / pm permutations
-my $in_the_re = qr{ ( in \s+ the \s+ ( (?! same) \w+ \s+ ){0,4}?
-                      ( morning | mornin['‘’]? | morn | afternoon | evening | eve | day )
+my $in_the_re = qr{ ( ( in \s+ the \s+ ( (?! same) \w+ \s+ ){0,4}?
+                      | that \s+ ( \w+ \s+ ){0,2}?
+                      )
+                      ( morning | mornin['‘’]? | morn | afternoon | evening | eve | day | night)
                     | at \s+ ( dawn | dusk | night | sunset | sunrise )
                     )
                   }xin;
@@ -224,11 +226,11 @@ my $month_re = qr{ January | February | March | April | May | June
 my $special_day_re = qr{ Christmas | Easter | New \s+ Year s? }xin;
 
 # Time periods
-my $time_periods_re = qr{ ( year | month | week | day | hour | half | minute | second ) s? }xin;
+my $time_periods_re = qr{ ( year | month | week | day | hour | half | minute ) s? }xin;
 
 # Things that never follow times
 my $never_follow_times_re =
-    qr{ ( with | that | which | point | time | stage | of | who
+    qr{ ( with | which | point | time | end | stage | of | who
         | after | since
         | degrees
         | centimeter | cm | meter | kilometer | km | klick
@@ -237,12 +239,12 @@ my $never_follow_times_re =
         | hundred | thousand | million | billion
         | ( \w+ \s+)? $time_periods_re
         | third | half | halve | quarter
-        | dollar | cent | pound | shilling | guinea | penny | pennies | yuan
+        | dollar | cent | pound | shilling | guinea | penny | pennies | yuan | galleon | crown
         | and \s+ sixpence
         | kid | children | man | men | woman | women | girl | boy
         | family | families | person | people
         | round | turn   | line
-        | book  | volume | plate | illustration
+        | book  | volume | plate | illustration | page
         | side  | edge   | corner | face
         | Minister
         )
@@ -349,9 +351,10 @@ sub get_masks {
               }xin;
 
     # odds of five to one
-    push @r,qr{ (?<pr> \s+
+    push @r,qr{ $bb_re
+                (?<pr>
                  ( ( odds | betting ) \s+ ( of | being | at )
-                   | got | get
+                   | got | get | numbers?
                  ) \s+
                 )
                 (?<t1> $min_re \s+ to \s+ $min_re )
@@ -476,13 +479,18 @@ sub get_matches {
                     | ( just | nearly ) \s+
                   )
                   $till_re [-—\s]+
-                  $hour24_re ( \s+ $oclock_re )? ( ,? \s* $ampm_re )?
-                  (?! \s+ ( possibilities
-                          | against
-                          | on \s+ the \s+ field
-                          | $time_periods_re
-                          )
-                   | :\d | [-] )
+                  $hour24_re ( \s+ $oclock_re )?
+                  ( ,? \s* $ampm_re
+                  | (?! \s+ ( possibilities
+                            | against
+                            | on \s+ the \s+ field
+                            | $time_periods_re
+                            | $never_follow_times_re
+                            )
+                     | :\d
+                     | [-]
+                     )
+                  )
                 )
                 $ba_re
                 (?{ $branch = "10"})
@@ -1095,7 +1103,7 @@ sub extract_times {
             m{\A
               ( # Exact time
                 ( (?<rl> $rel_at_words ) \s+ )?
-                  (?<hr> $hour24_re | $all_ecclesiastical ) [-\s.:]*
+                  (?<hr> $hour24_re | $all_ecclesiastical ) [-\s.:…]*
                 ( (?<mn> $min_re    ) \s* )?
                 ( [,]? \s* (?<am> $ampm_re   ) )?
                 (?{ $branch = "1"})
@@ -1115,9 +1123,9 @@ sub extract_times {
                 (?{ $branch = "3"})
               | # 11h20m, 11h20, 3 hr 8 m p.m.
                 ( (?<rl> $rel_at_words ) \s+ )?
-                  (?<hr> $hour_dig_re   ) \s* ( h | hr    | hours? )  \s*
+                  (?<hr> $hour_dig_re | $hour24_re ) \s* ( h | hr    | hours? )  \s*
                 ( \s+ and \s+ | , \s+ )?
-                  (?<mn> $minsec_dig_re ) \s* ( m | mins? | minutes?  )?
+                  (?<mn> $minsec_dig_re | $min_re ) \s* ( m | mins? | minutes?  )?
                 ( ,? \s+ (?<am> $ampm_re ) )?
                 (?{ $branch = "4"})
               | # twenty minutes past eight
@@ -1130,7 +1138,7 @@ sub extract_times {
                 )?
                   ( minutes? \s+ )?
                 ( and ( \s+ | [-] ) (?<sec> $sec_re ) \s+ seconds? \s+ )?
-                  (?<dir> $till_re ) \s+
+                  (?<dir> $till_re ) [-\s]+
                   (?<hr> $hour_re )
                 ( [-\s]+ (?<m3> $min_re ) )?
                 ( \s+ $oclock_re )?
@@ -1163,7 +1171,7 @@ sub extract_times {
                 (?{ $branch = "7"})
               | # three o'clock
                 ( (?<rl> $rel_at_words ) \s+ )?
-                  (?<hr> $hour_re ) \??
+                  (?<hr> $hour24_re ) \??
                   [-\s]+ $oclock_re
                 ( ,? \s+ (?<am> $ampm_re ) )?
                 ( \s+ ( and \s+ )?
@@ -1222,16 +1230,17 @@ sub extract_times {
                     #  Per Eco in "The Name of the Rose"
                     #  See also: https://en.wikipedia.org/wiki/Liturgy_of_the_Hours
                     my %time_strs =
-                        ('matins'   => ["02:30 AM",       "03:00 AM", 30], # Between 2:30 and 3:00 AM
-                         'vigils'   => ["02:30 AM",       "03:00 AM", 30], # Between 2:30 and 3:00 AM
-                         'nocturns' => ["02:30 AM",       "03:00 AM", 30], # Between 2:30 and 3:00 AM
-                         'lauds'    => ["05:00 AM",       "06:00 AM", 00], # Between 5:00 and 6:00 AM
-                         'prime'    => ["around 7:30 AM", undef,      00],
-                         'terce'    => ["around 9:00 AM", undef,      00],
-                         'sext'     => ["noon",           undef,      00],
-                         'nones'    => ["02:00 PM",       "03:00 PM", 60], # Between 2:00 and 3:00 PM
-                         'vespers'  => ["around 4:30 PM", undef,      00],
-                         'compline' => ["around 6:00 PM", undef,      00],
+                        ('matins'       => ["02:30 AM",       "03:00 AM", 30], # Between 2:30 & 3:00 AM
+                         'vigils'       => ["02:30 AM",       "03:00 AM", 30], # Between 2:30 & 3:00 AM
+                         'nocturns'     => ["02:30 AM",       "03:00 AM", 30], # Between 2:30 & 3:00 AM
+                         'night office' => ["02:30 AM",       "03:00 AM", 30], # Between 2:30 & 3:00 AM
+                         'lauds'        => ["05:00 AM",       "06:00 AM", 00], # Between 5:00 & 6:00 AM
+                         'prime'        => ["around 7:30 AM", undef,      00],
+                         'terce'        => ["around 9:00 AM", undef,      00],
+                         'sext'         => ["noon",           undef,      00],
+                         'nones'        => ["02:00 PM",       "03:00 PM", 60], # Between 2:00 & 3:00 PM
+                         'vespers'      => ["around 4:30 PM", undef,      00],
+                         'compline'     => ["around 6:00 PM", undef,      00],
                         );
                     my $tr = $time_strs{lc($hour)}
                       or die "Unable to work out a time for '$hour'";
