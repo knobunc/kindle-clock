@@ -384,7 +384,7 @@ sub get_masks {
               }xin;
 
     # Bible quotes
-    push @r,qr{ (?<pr> $bible_book_re \s+ )
+    push @r,qr{ (?<pr> $bible_book_re ,? \s+ )
                 (?<t1>
                      \d+ : \d+ ( - \d+ | - \d+ : \d+ )?
                 | \( \d+ : \d+ ( - \d+ | - \d+ : \d+ )? \)
@@ -457,6 +457,13 @@ sub get_masks {
                 (?{ $branch = "x11"})
               }xin;
 
+    # Page numbers
+    push @r,qr{ (?<li> $not_in_match )
+                (?<t1> pp?\. \s+ \d+ )
+                $ba_re
+                (?{ $branch = "x12"})
+              }xin;
+
     return(\@r);
 }
 
@@ -515,7 +522,7 @@ sub get_matches {
                     my $pre = ${^PREMATCH} . $+{li};
                     my $post = ${^POSTMATCH};
 
-                    if ($t1 =~ m{\A $min_word_re \s+ to \s+ $hour24_re \z}xin) {
+                    if ($t1 =~ m{\A $min_word_re [-\s]+ to [-\s]+ $hour24_re \z}xin) {
                         $branch = "10a:TIMEY";
                         if ($pre =~ m{ \s of \s+ \z}xin) {
                             $branch = "y10";
@@ -681,24 +688,29 @@ sub get_matches {
 
     # Simple times
     # 2300h, 23.00h, 2300 hrs
+    my $lnr = qr{ $low_num_re | zero | oh }xin;
     push @r,qr{ $bb_re
                 (?<t1> ( $rel_words \s+ )?
-                  $hour_dig_re [.:]? $minsec_dig_re
+                  ( $hour_dig_re [.:]? $minsec_dig_re
+                    ( [.:]? $minsec_dig_re ( - $minsec_dig_re )? )?
+                  | ( $lnr \s+ ){3} $lnr
+                  )
                   ( h | \s* ( hrs | hours ) )
                 )
                 $ba_re
                 (?{ $branch = "1"})
               }xin;
+
     # 2300 GMT, 2300z
+    # Sounded out digits
+    #  zero eight zero zero
+    #  oh eight oh oh
     push @r,qr{ $bb_re
                 (?<t1> ( $rel_words \s+ )?
-                  $hour_dig_re [.:]? $minsec0_dig_re
+                 ( $hour_dig_re [.:]? $minsec0_dig_re )
                 )
                 (?<po> ( [.:]? $minsec_dig_re ( - $minsec_dig_re )? )?
-                  ( ( h | \s* ( hrs | hours ) )
-                   | z
-                   | \s* ( gmt | zulu )
-                  )
+                  ( z | \s* ( gmt | zulu ) )
                 )
                 $ba_re
                 (?{ $branch = "1a"})
@@ -1136,6 +1148,8 @@ sub extract_times {
     while ($string =~ m{<< ([^|>]+) [|] \d+ \w? (:\d)? >>}gx) {
         my $str = $1;
         my $branch;
+
+        my $lnr = qr{ $low_num_re | zero | oh }xin;
         if ($str =~
             m{\A
               ( # Exact time
@@ -1145,6 +1159,7 @@ sub extract_times {
                 ( \s+ $oclock_re )?
                 ( [,]? \s* (?<am> $ampm_re   ) )?
                 (?{ $branch = "1"})
+
               | # Bare hour
                 ( (?<rl> $rel_at_words ) \s+
                   ( ( at | to ) \s+ )?
@@ -1153,12 +1168,20 @@ sub extract_times {
                   (?<hr> $hour_re )
                 ( ,? \s+ (?<am> $ampm_re ) )?
                 (?{ $branch = "2"})
+
               | # 0000h
                 ( (?<rl> $rel_at_words ) \s+ )?
-                  (?<hr> $hour_dig_re    ) [-\s.:]*
-                ( (?<mn> $minsec0_dig_re ) \s* )?
-                ( h | hrs | hours )
+                  (?<hr> $hour_dig_re
+                  | $lnr ( \s+ $lnr )?
+                  ) [-\s.:]*
+                ( (?<mn> $minsec0_dig_re
+                  | $lnr \s+ $lnr
+                  ) \s*
+                )?
+                ( (?<sec> [:.] $minsec_dig_re ( [-.] $minsec_dig_re )? ) \s* )?
+                (?<am> h | hrs | hours )
                 (?{ $branch = "3"})
+
               | # 11h20m, 11h20, 3 hr 8 m p.m.
                 ( (?<rl> $rel_at_words ) \s+ )?
                   (?<hr> $hour_dig_re | $hour24_re ) \s* ( h | hr    | hours? )  \s*
@@ -1166,6 +1189,7 @@ sub extract_times {
                   (?<mn> $minsec_dig_re | $min_re ) \s* ( m | mins? | minutes?  )?
                 ( ,? \s+ (?<am> $ampm_re ) )?
                 (?{ $branch = "4"})
+
               | # twenty minutes past eight
                 ( (?<rl> $rel_at_words | a \s+ few | just ) \s+
                 | (?<rl> ( $rel_at_words \s+ )? $min_re \s+ or ) \s+
@@ -1182,6 +1206,7 @@ sub extract_times {
                 ( \s+ $oclock_re )?
                 ( ,? \s* (?<am> $ampm_re ) )?
                 (?{ $branch = "5"})
+
               | # seven-and-twenty minutes past eight
                 ( (?<rl> $rel_at_words | between ) \s+ )?
                   (?<mn> $min_re [-\s+] and [-\s+] $min_re ) \s+
@@ -1196,6 +1221,7 @@ sub extract_times {
                 ( \s+ $oclock_re )?
                 ( ,? \s* (?<am> $ampm_re ) )?
                 (?{ $branch = "6"})
+
               | # three quarters past eleven
                 ( ( (?<m2> $min_re ) \s+ minutes? \s+ )?
                   (?<rl> $rel_at_words ) \s+ ( a \s+ )?
@@ -1207,6 +1233,7 @@ sub extract_times {
                 ( \s+ $oclock_re )?
                 ( ,? \s+ (?<am> $ampm_re ) )?
                 (?{ $branch = "7"})
+
               | # three o'clock
                 ( (?<rl> $rel_at_words ) \s+ )?
                   (?<hr> $hour24_re ) \??
@@ -1217,12 +1244,14 @@ sub extract_times {
                   minutes?
                 )?
                 (?{ $branch = "8"})
+
               | # One hour and a quarter
                 ( (?<rl> $rel_at_words ) \s+ )?
                   (?<hr> $hour_re ) \s+ hours? \s+ and \s+ a \s+
                   (?<mn> $fraction_re )
                 ( ,? \s+ (?<am> $ampm_re ) )?
                 (?{ $branch = "9n"})
+
               | # one ... thirty ... four
                 ( (?<rl> $rel_at_words ) \s+ )?
                   (?<hr> $hour24_word_re ) ( [\s\.]+ | [-] )
@@ -1231,6 +1260,7 @@ sub extract_times {
                 ( \s+ $oclock_re )?
                 ( ,? \s+ (?<am> $ampm_re ) )?
                 (?{ $branch = "10"})
+
               | # Two minutes before the clock struck noon
                   (?<mn> $min_word_re ) \s+ minutes? \s+
                   (?<dir> $till_re ) \s+
@@ -1239,6 +1269,7 @@ sub extract_times {
                 ( \s+ $oclock_re )?
                 ( ,? \s+ (?<am> $ampm_re ) )?
                 (?{ $branch = "11"})
+
               | # 4.15 o'clock
                 ( (?<rl> $rel_at_words ) \s+ )?
                   (?<hr> $hour24_re ) [.:\s]+
@@ -1335,8 +1366,7 @@ sub extract_times {
                     $abs_hour = 1;
                 }
                 else {
-                    $hour = words2nums($hour) // $hour
-                        // confess "Can't parse hour '$min'";
+                    $hour = min2num($hour);
                 }
             }
 
@@ -1374,6 +1404,9 @@ sub extract_times {
                 }
                 elsif ($ampm =~ m{\A $ampm_only_re \z}xin) {
                     $pm = $ampm =~ /^p/i ? 1 : 0;
+                }
+                elsif ($ampm =~ m{\A (h | hrs | hours) \z}xin) {
+                    # Military times
                 }
                 else {
                     confess "Can't parse ampm '$ampm'";
@@ -1495,6 +1528,7 @@ sub min2num {
     return $min if $min =~ m{\A \d+ \z}xin;
 
     # Fixed numbers
+    return 0  if $min =~ m{\A ( oh \s* )+ \z}xin;
     return 1  if $min =~ m{\A ( a ) \z}xin;
 
     # Fractions

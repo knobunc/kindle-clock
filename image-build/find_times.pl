@@ -55,7 +55,7 @@ sub search_zip {
         next unless $contents =~ m{\A \Q<?xml \E [^>]+ [?]> \r?\n
                                    \Q<html \E
                                   }x;
-        next unless $contents =~ m{content="text/html};
+        next unless $contents =~ m{content="(text/html|http://www.w3.org/1999/xhtml)};
         $members_seen = 1;
 
         my @lines = split m{</(?:p|div)>\R*}, $contents;
