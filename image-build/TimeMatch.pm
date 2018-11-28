@@ -119,6 +119,7 @@ my $short_before_re = qr{   $short_re \s+    before
                         |   nearly
                         |   near ( \s+ on )?
                         |   towards?
+                        |   lacks \s+ of
                         }xin;
 my $around_re       = qr{ ( ( just )  \s+ )? about
                         | almost

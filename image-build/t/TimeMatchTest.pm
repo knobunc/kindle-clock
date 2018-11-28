@@ -8,13 +8,20 @@ use open ':std', ':encoding(UTF-8)';
 use Test::Modern;
 use TimeMatch;
 
+use constant {
+    T_ALL  => 2**0,
+    T_STR  => 2**1,
+    T_EXT  => 2**2,
+};
+
 use Exporter::Easy (
   EXPORT => [ qw( get_book_tests   get_csv_tests
                   compare_strings  check_substring
                   check_extract    check_extract_times
+
+                  T_ALL  T_STR  T_EXT
                 ) ],
 );
-
 
 sub compare_strings {
     my ($tests, $type) = @_;
@@ -30,23 +37,11 @@ sub compare_strings {
         $string =~ s{<<(.*?)>>}{$1}g;
 
         my $result = do_match($string);
-        if ($match == 1) {
-            is($result, $expected, $name);
-        }
-        elsif ($match == 0) {
-            isnt($result, $expected, $name);
-        }
-        elsif ($match == -1) {
-            local $TODO = "should work";
-            is($result, $expected, $name);
-        }
-        elsif ($match == -2) {
-            local $TODO = "shouldn't work";
-            isnt($result, $expected, $name);
-        }
-        else {
-            die;
-        }
+
+        local $TODO = "should match"
+            if ($match & T_STR) != 0;
+
+        is($result, $expected, $name);
     }
 }
 
@@ -68,23 +63,10 @@ sub check_substring {
         my ($time, $timestr) = $name =~ m{^ Timestr \s \[ ( \d\d:\d\d ) \] : \s (.+)}xi
             or die "Bad name '$name'";
 
-        if ($match == 1) {
-            like($result, qr{<< (?^i:\Q$timestr\E) [|] \d+ \w? (:\d)? >>}x, $name);
-        }
-        elsif ($match == 0) {
-            like($result, qr{<< (?^i:\Q$timestr\E) [|] \d+ \w? (:\d)? >>}x, $name);
-        }
-        elsif ($match == -1) {
-            local $TODO = "should work";
-            like($result, qr{<< (?^i:\Q$timestr\E) [|] \d+ \w? (:\d)? >>}x, $name);
-        }
-        elsif ($match == -2) {
-            local $TODO = "shouldn't work";
-            like($result, qr{<< (?^i:\Q$timestr\E) [|] \d+ \w? (:\d)? >>}x, $name);
-        }
-        else {
-            die;
-        }
+        local $TODO = "should exist"
+            if ($match & T_STR) != 0;
+
+        like($result, qr{<< (?^i:\Q$timestr\E) [|] \d+ \w? (:\d)? >>}x, $name);
     }
 }
 
@@ -99,13 +81,10 @@ sub check_extract {
         my @times = extract_times($string);
         my @matches = $string =~ m{<< ([^|>]+) [|] \d+ \w? (?: :\d)? >>}xg;
 
-        if ($match == 1) {
-            is(int(@times), int(@matches), "Extract '$string': ". join(", ", map {"'$_'"} @matches));
-        }
-        elsif ($match == -1) {
-            local $TODO = "should work";
-            is(int(@times), int(@matches), "Extract: '$string'". join(", ", map {"'$_'"} @matches));
-        }
+        local $TODO = "should work"
+            if ($match & T_EXT) != 0;
+
+        is(int(@times), int(@matches), "Extract: '$string'". join(", ", map {"'$_'"} @matches));
     }
 }
 
@@ -118,6 +97,9 @@ sub check_extract_times {
     foreach my $t (@$tests) {
         my ($match, $name, $string) = @$t;
 
+        local $TODO = "should work"
+            if ($match & T_EXT) != 0;
+
         if ($type eq 'csv tests') {
             # CSV tests
             my ($time, $timestr) = $name =~ m{^ Timestr \s \[ ( \d\d:\d\d ) \] : \s (.+)}xi
@@ -126,16 +108,11 @@ sub check_extract_times {
             my @times = extract_times($string, 1);
             my @matches = $string =~ m{<< ([^|>]+) [|] \d+ \w? (?: :\d)? >>}xg;
 
-            if ($match == 1 or $match == -1) {
-                local $TODO = "should work"
-                    if $match == -1;
-
-                ok(grep({ m{^\Q$time\E:} } @times),
-                   "Match time $time: "
-                   . join(", ", map {"'$_'"} @matches)
-                   . "; got: ". join(", ", map {"'$_'"} @times)
-                    );
-            }
+            ok(grep({ m{^\Q$time\E:} } @times),
+               "Match time $time: "
+               . join(", ", map {"'$_'"} @matches)
+               . "; got: ". join(", ", map {"'$_'"} @times)
+                );
         }
         else {
             # Book tests
@@ -146,16 +123,11 @@ sub check_extract_times {
             my @times = extract_times($string, 0);
             my @matches = $string =~ m{<< ([^|>]+) [|] \d+ \w? (?: :\d)? >>}xg;
 
-            if ($match == 1 or $match == -1) {
-                local $TODO = "should work"
-                    if $match == -1;
-
-                ok(grep({ m{^\Q$time\E:} } @times) || ($time eq '' and @times == 0),
-                   "Match time $time: "
-                   . join(", ", map {"'$_'"} @matches)
-                   . "; got: ". join(", ", map {"'$_'"} @times)
-                    );
-            }
+            ok(grep({ m{^\Q$time\E:} } @times) || ($time eq '' and @times == 0),
+               "Match time $time: "
+               . join(", ", map {"'$_'"} @matches)
+               . "; got: ". join(", ", map {"'$_'"} @times)
+                );
         }
     }
 }
@@ -1972,7 +1944,7 @@ sub get_csv_tests {
             'Gately can hear the horns and raised voices and u-turn squeals way down below on Wash. That indicate it\'s <<around 0000h|1>>., the switching hour.'
           ],
           [
-            -1,
+            T_STR,
             'Timestr [00:00]: twelve',
             'Hamlet: What hour now? Horatio: I think it lacks of <<twelve|99>>. Marcellus: No, it is struck.'
           ],
@@ -2352,7 +2324,7 @@ sub get_csv_tests {
             'February 26, Saturday - Richards went out <<1.10am|2a>> and found it clearing a bit, so we got under way as soon as possible, which was <<2:10a.m.|2a>>'
           ],
           [
-            -1,
+            T_STR | T_EXT,
             'Timestr [01:11]: nearer to one than half past',
             'Declares one of the waiters was the worse for liquor, and that he was giving him a dressing down. Also that it was <<nearer to one than half past|99>>.'
           ],
@@ -2682,7 +2654,7 @@ sub get_csv_tests {
             'At <<about half past two|10>> she had been woken by the creak of footsteps out on the stairs. At first she had been frightened.'
           ],
           [
-            -1,
+            T_STR,
             'Timestr [02:30]: 0230',
             "Inc, I tried to pull her off about <<0230|99>>, and there was this fucking\x{2026} sound."
           ],
@@ -2837,7 +2809,7 @@ sub get_csv_tests {
             'Roused from her sleep, Freya Gaines groped for the switch of the vidphone; groggily she found it and snapped it on. \'Lo,\' she mumbled, wondering what time it was. She made out the luminous dial of the clock beside the bed. <<Three AM|5>>. Good grief.'
           ],
           [
-            -1,
+            T_STR,
             'Timestr [03:00]: 0300',
             'Schact clears his mouth and swallows mightily. \'Tavis can\'t even regrout tile in the locker room without calling a Community meeting or appointing a committee. The Regrouting Committee\'s been dragging along since may. Suddenly they\'re pulling secret <<0300|99>> milk-switches? It doesn\'t ring true, Jim.'
           ],
@@ -2847,7 +2819,7 @@ sub get_csv_tests {
             "<<Three in the morning|5>>, thought Charles Halloway, seated on the edge of his bed. Why did the train come at that hour? For, he thought, it\x{2019}s a special hour. Women never wake then, do they? They sleep the sleep of babes and children. But men in middle age? They know that hour well."
           ],
           [
-            -1,
+            T_STR,
             'Timestr [03:00]: three',
             'What\'s the time?" said the man, eyeing George up and down with evident suspicion; "why, if you listen you will hear it strike." George listened, and a neighbouring clock immediately obliged. "But it\'s only gone <<three|99>>!" said George in an injured tone, when it had finished.'
           ],
@@ -3232,12 +3204,12 @@ sub get_csv_tests {
             'At the end of a relationship, it is the one who is not in love who makes the tender speeches. I was overwhelmed by a sense of betrayal, betrayal because a union in which I had invested so much had been declared bankrupt without my feeling it to be so. Chloe had not given it a chance, I argued with myself, knowing the hopelessness of these inner courts announcing hollow verdicts at <<four thirty in the morning|5>>.'
           ],
           [
-            -1,
+            T_STR,
             'Timestr [04:30]: 0430',
             'Hester Thrale undulates in in a false fox jacket at 2330 as usual even though she has to be up at like <<0430|99>> for the breakfast shift at the Provident Nursing Home and sometimes eats breakfast with Gately, both their faces nodding perilously close to their Frosted Flakes.'
           ],
           [
-            -1,
+            T_STR,
             'Timestr [04:30]: 0430',
             'Tonight Clenette H. and the deeply whacked out Yolanda W. come back in from Footprints around 2315 in purple skirts and purple lipstick and ironed hair, tottering on heels and telling each other what a wicked time they just had. Hester Thrale undulates in in a false fox jacket at 2330 as usual even though she has to be up at like <<0430|99>> for the breakfast shift at the Provident Nursing Home and sometimes eats breakfast with Gately, both their faces nodding perilously close to their Frosted Flakes.'
           ],
@@ -3657,7 +3629,7 @@ sub get_csv_tests {
             'It\'s <<06:13|2>> .........Ma says I ought to be wrapped up in Rug already, Old Nick might possibly come.'
           ],
           [
-            -1,
+            T_STR,
             'Timestr [06:15]: 6.15',
             'Dumbbell exercise and wall-scaling ..... . <<6.15|99>>-6.30'
           ],
@@ -4172,7 +4144,7 @@ sub get_csv_tests {
             'Someone must have been telling lies about Joseph K. for without having done anything wrong he was arrested one fine morning. His landlady\'s cook, who always brought him breakfast at <<eight o\'clock|6>>, failed to appear on this occasion.'
           ],
           [
-            -1,
+            T_STR | T_EXT,
             'Timestr [08:00]: oh eight oh oh hours',
             'The next morning I woke up at <<oh eight oh oh hours|99>>, my brothers, and as I still felt shagged and fagged and fashed and bashed and as my glazzies were stuck together real horrorshow with sleepglue, I thought I would not go to school .'
           ],
@@ -4360,7 +4332,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
             'When he woke, at <<eight-thirty|5b>>, he was alone in the bedroom. He put on his dressing gown and put in his hearing aid and went into the living room.'
           ],
           [
-            -1,
+            T_STR,
             'Timestr [08:32]: 0832',
             '\'Does anybody know the time a little more exactly is what I\'m wondering, Don, since Day doesn\'t.\' Gately checks his cheap digital, head still hung over the sofa\'s arm. \'I got <<0832|99>>:14, 15, 16, Randy.\' \'\'ks a lot, D.G. man.\''
           ],
@@ -4525,7 +4497,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
             '<<9.00 a.m.|2a>> School assembly'
           ],
           [
-            -1,
+            T_STR,
             'Timestr [09:00]: nine',
             "A fly buzzed, the wall clock began to strike. After the <<nine|99>> golden strokes faded, the district captain began. \"How is Herr Colonel Marek?\" \"Thank you, Pap\x{e1}, he's fine.\" \"Still weak in geometry?\" \"Thank you, Pap\x{e1}, a little better.\" \"Read any books?\" \"Yessir, Pap\x{e1}.\""
           ],
@@ -4915,12 +4887,12 @@ This last observation applied to the dark gallery, and was indicated by the comp
             "\x{2013}\x{2013}In assaying to put on his regimental coat and waistcoat, my uncle Toby found the same objection in his wig, \x{2013}\x{2013}so that went off too: \x{2013}\x{2013}So that with one thing and what with another, as always falls out when a man is in the most haste, \x{2013}\x{2013}'twas <<ten o'clock|6>>, which was half an hour later than his usual time before my uncle Toby sallied out."
           ],
           [
-            -1,
+            T_STR | T_EXT,
             'Timestr [10:00]: an hour ago since it was nine',
             "\x{2019}Tis but <<an hour ago since it was nine|99>>, And after one hour more \x{2018}twill be <<eleven|9c:1>>."
           ],
           [
-            -1,
+            T_STR,
             'Timestr [10:00]: ten',
             'For some seconds the light went on becoming brighter and brighter, and she saw everything more and more clearly and the clock ticked louder and louder until there was a terrific explosion right in her ear. Orlando leapt as if she had been violently struck on the head. <<Ten|99>> times she was struck. In fact it was <<ten o\'clock in the morning|6>>. It was the eleventh of October. It was <<1928|9d>>. It was the present moment.'
           ],
@@ -5615,12 +5587,12 @@ This last observation applied to the dark gallery, and was indicated by the comp
             "A few minutes' light <<around noon|13>> is all that you need to discover the error, and re-set the clock \x{2013} provide that you bother to go up and make the observation."
           ],
           [
-            -1,
+            T_STR | T_EXT,
             'Timestr [11:56]: can\'t be far-off twelve',
             'I wondered what the time is?\' said the latter after a pause\'. \'I don\'t know exactly\', replied Easton, \'but it <<can\'t be far-off twelve|99>>.\''
           ],
           [
-            -1,
+            T_STR | T_EXT,
             'Timestr [11:57]: can\'t be far-off twelve',
             'I wondered what the time is?\' said the latter after a pause\'. \'I don\'t know exactly\', replied Easton, \'but it <<can\'t be far-off twelve|99>>.\''
           ],
@@ -6010,7 +5982,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
             'The day-room floor gets cleared of tables and at <<one o\'clock|6>> the doctor comes out of his office down the hall, nods once at the nurse as he goes past where he\'s watching out of her window, sits in his chair just to the left of the door.'
           ],
           [
-            -1,
+            T_STR,
             'Timestr [13:01]: about one',
             'There\'s five fathoms out there, he said. It\'ll be swept up that way when the tide comes in <<about one|99>>. It\'s nine days today.'
           ],
@@ -6590,7 +6562,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
             'I check Shingi\'s mobile phone - it says it\'s <<3.03pm|2a>>. I get out of bed, open my suitcase to take clean socks out and the smell of Mother hit my nose and make me feel dizzy.'
           ],
           [
-            -1,
+            T_STR,
             'Timestr [15:04]: 1504',
             'Woken at <<1504|99>> by Michelangelo hammering away with his chisel.'
           ],
@@ -6685,7 +6657,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
             '"Good heavens!" she said, "it\'s <<nearly half-past three|10>>. I must fly. Don\'t forget about the funeral service," she added, as she put on her coat. "The tapers, the black coffin in the middle of the aisle, the nuns in their white-winged coifs, the gloomy chanting, and the poor cowering creature without any teeth, her face all caved in like an old woman\'s, wondering whether she wasn\'t really and in fact dead - wondering whether she wasn\'t already in hell. Goodbye."'
           ],
           [
-            -1,
+            T_STR | T_EXT,
             'Timestr [15:30]: half-past thrrree',
             '"Before I am rrroasting the alarm-clock, I am setting it to go off, not at <<nine o\'clock|6>> the next morning, but at half-past thrrree the next afternoon. Vhich means <<half-past thrrree|99>> this afternoon. And that", she said, glancing at her wrist-watch, "is in prrree-cisely seven minutes\' time!"'
           ],
@@ -7730,7 +7702,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
             '"I feel a little awkward," Kay Randall said on the phone, "asking a man to do these errands ... but that\'s my problem, not yours. Just bring the supplies and try to be at the church meeting room <<a few minutes before seven|10>>."'
           ],
           [
-            -1,
+            T_STR | T_EXT,
             'Timestr [18:57]: three minutes to the hour; which was seven',
             "Folded in this triple melody, the audience sat gazing; and beheld gently and approvingly without interrogation, for it seemed inevitable, a box tree in a green tub take the place of the ladies\x{2019} dressing-room; while on what seemed to be a wall, was hung a great clock face; the hands pointing to <<three minutes to the hour; which was seven|99>>.'"
           ],
@@ -7795,7 +7767,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
             'It was <<eight minutes past seven|10>> and still no girl. I waited impatiently. I watched another crowd surge through the barriers and move quickly down the steps. My eyes were alert for the faintest recognition.'
           ],
           [
-            -1,
+            T_STR | T_EXT,
             'Timestr [19:10]: in five minutes it would be a quarter past seven',
             "He had already got to the point where, by rocking more strongly, he maintained his equilibrium with difficulty, and very soon he would finally have to make a final decision, for <<in five minutes it would be a quarter past seven|99>>. Then there was a ring at the door of the apartment. \x{201c}That\x{2019}s someone from the office,\x{201d} he told himself, and he almost froze, while his small limbs only danced around all the faster. For one moment everything remained still. \x{201c}They aren\x{2019}t opening,\x{201d} Gregor said to himself, caught up in some absurd hope."
           ],
@@ -8270,7 +8242,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
             'He glanced at the bracket-clock on the mantelpiece, but as this had stopped, drew out his watch. \'It is already too late,\' he said. \'It wants only <<ten minutes to nine|10>>.\' \'Good God!\' she exclaimed, turning quite pale. \'What am I to do?\''
           ],
           [
-            -1,
+            T_STR,
             'Timestr [20:50]: 2050',
             'He was, yes, always home from work by <<2050|99>> on Thursdays.'
           ],
@@ -8360,7 +8332,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
             'On the evening before K.\'s thirty-first birthday - it was <<about nine o\'clock|6>>, when there is a lull in the streets - two gentlemen came to his apartment.'
           ],
           [
-            -1,
+            T_STR,
             'Timestr [21:02]: after nine',
             'The good Brants did not allow the boys to play out <<after nine|99>> in summer evenings; they were sent to bed at that hour; Eddie honorably remained, but Georgie usually slipped out of the window toward ten, and enjoyed himself until <<midnight|13>>.'
           ],
@@ -8775,7 +8747,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
             'It\'s <<well after 2245h|1>>. The dog\'s leash slides hissing to the end of the Day-Glo line and stops the dog a couple of paces from the inside of the gate, where Lenz is standing, inclined in the slight forward way of somebody who\'s talking baby-talk to a dog.'
           ],
           [
-            -1,
+            T_STR | T_EXT,
             'Timestr [22:55]: Eleven o\'clock, all but five minutes',
             '"It is <<eleven o\'clock|6>>! <<Eleven o\'clock, all but five minutes|99>>!" "But which <<eleven o\'clock|6>>?" "The <<eleven o\'clock|6>> that is to decide life or death!...He told me so just before he went....He is terrible....He is quite mad: he tore off his mask and his yellow eyes shot flames!..."'
           ],
@@ -8940,7 +8912,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
             'He tells his old friend the train times and they settle on the <<19.45|3c>> arriving at <<23.27|9c:1>>. "I\'ll book us into the ultra-luxurious Francis Drake Lodge. Running water in several rooms. Have you got a mobile?"'
           ],
           [
-            -1,
+            T_STR,
             'Timestr [23:30]: 2330',
             'He loaded the player and turned on the viewer, his knees popping again as he squatted to set the cue to <<2330|99>>.'
           ],
@@ -8965,7 +8937,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
             'It is <<twenty-nine minutes to midnight|10>>. Dr Narlikar\'s Nursing Home is running on a skeleton staff; there are many absentees, many employees who have preferred to celebrate the imminent birth of the nation, and will not assist tonight at the births of children.'
           ],
           [
-            -1,
+            T_STR | T_EXT,
             'Timestr [23:32]: In about twenty-eight minutes it will be midnight',
             "\"This is the evening. This is the night. It is New Year\x{b4}s Eve. In about twenty-eight minutes it will be <<midnight|13>>. I still have twenty-eight minutes left. I have to recollect my thoughts. At <<twelve o\x{b4}clock|6>>, I should be done thinking.\" He looked at his father. \"Help those that are depressed and consider themselves lost in this world,\" he thought. \"Old fart.\""
           ],
@@ -9115,7 +9087,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
             'At <<a minute to midnight|10>>, Roquenton was holding his wife\'s hand and giving her some last words of advice. On the stroke of <<midnight|12>>, she felt her companion\'s hand melt away inside her own.'
           ],
           [
-            -1,
+            T_STR | T_EXT,
             'Timestr [23:59]: new day was still a minute away',
             'Chigurgh rose and picked up the empty casing off the rug and blew into it and put it in his pocket and looked at his watch. The <<new day was still a minute away|99>>.'
           ]
