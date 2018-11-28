@@ -1,173 +1,163 @@
+package TimeMatchTest;
+
 use Modern::Perl '2017';
 
 use utf8;
 use open ':std', ':encoding(UTF-8)';
-use Test::Modern;
 
-use lib '.';
+use Test::Modern;
 use TimeMatch;
 
-# prove t/01-test.pl |& egrep -E '^|<<[^>]+(>>|$)|^[^<>]+>>'
-
-compare_strings(get_book_tests(), "book tests");
-compare_strings(get_csv_tests(),  "csv tests");
-
-if (0) {
-check_substring(get_csv_tests());
-
-check_extract(get_book_tests(), "book tests");
-check_extract(get_csv_tests(),  "csv tests");
-
-check_extract_times(get_book_tests(), "book tests");
-check_extract_times(get_csv_tests(),  "csv tests");
-}
-done_testing;
-
-exit;
+use Exporter::Easy (
+  EXPORT => [ qw( get_book_tests   get_csv_tests
+                  compare_strings  check_substring
+                  check_extract    check_extract_times
+                ) ],
+);
 
 
 sub compare_strings {
     my ($tests, $type) = @_;
 
-    subtest "Compare $type" => sub {
-        foreach my $t (@$tests) {
-            my ($match, $name, $expected) = @$t;
+    plan(tests => int(@$tests) + 1);
 
-            my $string = $expected;
-            while ($string =~ s{<< ([^|>]+) [|] \d+ \w? (:\d)? >>}{$1}gx) { }
+    foreach my $t (@$tests) {
+        my ($match, $name, $expected) = @$t;
 
-            $string =~ s{<<(.*?)>>}{$1}g;
+        my $string = $expected;
+        while ($string =~ s{<< ([^|>]+) [|] \d+ \w? (:\d)? >>}{$1}gx) { }
 
-            my $result = do_match($string);
-            if ($match == 1) {
-                is($result, $expected, $name);
-            }
-            elsif ($match == 0) {
-                isnt($result, $expected, $name);
-            }
-            elsif ($match == -1) {
-                local $TODO = "should work";
-                is($result, $expected, $name);
-            }
-            elsif ($match == -2) {
-                local $TODO = "shouldn't work";
-                isnt($result, $expected, $name);
-            }
-            else {
-                die;
-            }
+        $string =~ s{<<(.*?)>>}{$1}g;
+
+        my $result = do_match($string);
+        if ($match == 1) {
+            is($result, $expected, $name);
         }
-    };
+        elsif ($match == 0) {
+            isnt($result, $expected, $name);
+        }
+        elsif ($match == -1) {
+            local $TODO = "should work";
+            is($result, $expected, $name);
+        }
+        elsif ($match == -2) {
+            local $TODO = "shouldn't work";
+            isnt($result, $expected, $name);
+        }
+        else {
+            die;
+        }
+    }
 }
 
 sub check_substring {
     my ($tests) = @_;
 
-    subtest "Extraction test" => sub {
-        foreach my $t (@$tests) {
-            my ($match, $name, $expected) = @$t;
+    plan(tests => int(@$tests) + 1);
 
-            my $string = $expected;
-            while ($string =~ s{<< ([^|>]+) [|] \d+ \w? (:\d)? >>}{$1}gx) { }
+    foreach my $t (@$tests) {
+        my ($match, $name, $expected) = @$t;
 
-            $string =~ s{<<(.*?)>>}{$1}g;
+        my $string = $expected;
+        while ($string =~ s{<< ([^|>]+) [|] \d+ \w? (:\d)? >>}{$1}gx) { }
 
-            my $result = do_match($string);
+        $string =~ s{<<(.*?)>>}{$1}g;
 
-            my ($time, $timestr) = $name =~ m{^ Timestr \s \[ ( \d\d:\d\d ) \] : \s (.+)}xi
-                or die "Bad name '$name'";
+        my $result = do_match($string);
 
-            if ($match == 1) {
-                like($result, qr{<< (?^i:\Q$timestr\E) [|] \d+ \w? (:\d)? >>}x, $name);
-            }
-            elsif ($match == 0) {
-                like($result, qr{<< (?^i:\Q$timestr\E) [|] \d+ \w? (:\d)? >>}x, $name);
-            }
-            elsif ($match == -1) {
-                local $TODO = "should work";
-                like($result, qr{<< (?^i:\Q$timestr\E) [|] \d+ \w? (:\d)? >>}x, $name);
-            }
-            elsif ($match == -2) {
-                local $TODO = "shouldn't work";
-                like($result, qr{<< (?^i:\Q$timestr\E) [|] \d+ \w? (:\d)? >>}x, $name);
-            }
-            else {
-                die;
-            }
+        my ($time, $timestr) = $name =~ m{^ Timestr \s \[ ( \d\d:\d\d ) \] : \s (.+)}xi
+            or die "Bad name '$name'";
+
+        if ($match == 1) {
+            like($result, qr{<< (?^i:\Q$timestr\E) [|] \d+ \w? (:\d)? >>}x, $name);
         }
-    };
+        elsif ($match == 0) {
+            like($result, qr{<< (?^i:\Q$timestr\E) [|] \d+ \w? (:\d)? >>}x, $name);
+        }
+        elsif ($match == -1) {
+            local $TODO = "should work";
+            like($result, qr{<< (?^i:\Q$timestr\E) [|] \d+ \w? (:\d)? >>}x, $name);
+        }
+        elsif ($match == -2) {
+            local $TODO = "shouldn't work";
+            like($result, qr{<< (?^i:\Q$timestr\E) [|] \d+ \w? (:\d)? >>}x, $name);
+        }
+        else {
+            die;
+        }
+    }
 }
 
 sub check_extract {
     my ($tests, $type) = @_;
 
-    subtest "Extract $type" => sub {
-        foreach my $t (@$tests) {
-            my ($match, $name, $string) = @$t;
+    plan(tests => int(@$tests) + 1);
 
-            my @times = extract_times($string);
-            my @matches = $string =~ m{<< ([^|>]+) [|] \d+ \w? (?: :\d)? >>}xg;
+    foreach my $t (@$tests) {
+        my ($match, $name, $string) = @$t;
 
-            if ($match == 1) {
-                is(int(@times), int(@matches), "Extract '$string': ". join(", ", map {"'$_'"} @matches));
-            }
-            elsif ($match == -1) {
-                local $TODO = "should work";
-                is(int(@times), int(@matches), "Extract: '$string'". join(", ", map {"'$_'"} @matches));
-            }
+        my @times = extract_times($string);
+        my @matches = $string =~ m{<< ([^|>]+) [|] \d+ \w? (?: :\d)? >>}xg;
+
+        if ($match == 1) {
+            is(int(@times), int(@matches), "Extract '$string': ". join(", ", map {"'$_'"} @matches));
         }
-    };
+        elsif ($match == -1) {
+            local $TODO = "should work";
+            is(int(@times), int(@matches), "Extract: '$string'". join(", ", map {"'$_'"} @matches));
+        }
+    }
 }
 
 
 sub check_extract_times {
     my ($tests, $type) = @_;
 
-    subtest "Extract time $type" => sub {
-        foreach my $t (@$tests) {
-            my ($match, $name, $string) = @$t;
+    plan(tests => int(@$tests) + 1);
 
-            if ($type eq 'csv tests') {
-                # CSV tests
-                my ($time, $timestr) = $name =~ m{^ Timestr \s \[ ( \d\d:\d\d ) \] : \s (.+)}xi
-                    or die "Bad name '$name'";
+    foreach my $t (@$tests) {
+        my ($match, $name, $string) = @$t;
 
-                my @times = extract_times($string, 1);
-                my @matches = $string =~ m{<< ([^|>]+) [|] \d+ \w? (?: :\d)? >>}xg;
+        if ($type eq 'csv tests') {
+            # CSV tests
+            my ($time, $timestr) = $name =~ m{^ Timestr \s \[ ( \d\d:\d\d ) \] : \s (.+)}xi
+                or die "Bad name '$name'";
 
-                if ($match == 1 or $match == -1) {
-                    local $TODO = "should work"
-                        if $match == -1;
+            my @times = extract_times($string, 1);
+            my @matches = $string =~ m{<< ([^|>]+) [|] \d+ \w? (?: :\d)? >>}xg;
 
-                    ok(grep({ m{^\Q$time\E:} } @times),
-                       "Match time $time: "
-                       . join(", ", map {"'$_'"} @matches)
-                       . "; got: ". join(", ", map {"'$_'"} @times)
-                        );
-                }
-            }
-            else {
-                # Book tests
-                my ($time) = $name =~
-                    m{^ \[ (?<time> ( ap \s )? ( ( ~ | < | > | << | >> )  \s )? \d\d:\d\d ) \] \s }xin;
-                $time ||= '';
+            if ($match == 1 or $match == -1) {
+                local $TODO = "should work"
+                    if $match == -1;
 
-                my @times = extract_times($string, 0);
-                my @matches = $string =~ m{<< ([^|>]+) [|] \d+ \w? (?: :\d)? >>}xg;
-
-                if ($match == 1 or $match == -1) {
-                    local $TODO = "should work"
-                        if $match == -1;
-
-                    ok(grep({ m{^\Q$time\E:} } @times) || ($time eq '' and @times == 0),
-                       "Match time $time: "
-                       . join(", ", map {"'$_'"} @matches)
-                       . "; got: ". join(", ", map {"'$_'"} @times)
-                        );
-                }
+                ok(grep({ m{^\Q$time\E:} } @times),
+                   "Match time $time: "
+                   . join(", ", map {"'$_'"} @matches)
+                   . "; got: ". join(", ", map {"'$_'"} @times)
+                    );
             }
         }
-    };
+        else {
+            # Book tests
+            my ($time) = $name =~
+                m{^ \[ (?<time> ( ap \s )? ( ( ~ | < | > | << | >> )  \s )? \d\d:\d\d ) \] \s }xin;
+            $time ||= '';
+
+            my @times = extract_times($string, 0);
+            my @matches = $string =~ m{<< ([^|>]+) [|] \d+ \w? (?: :\d)? >>}xg;
+
+            if ($match == 1 or $match == -1) {
+                local $TODO = "should work"
+                    if $match == -1;
+
+                ok(grep({ m{^\Q$time\E:} } @times) || ($time eq '' and @times == 0),
+                   "Match time $time: "
+                   . join(", ", map {"'$_'"} @matches)
+                   . "; got: ". join(", ", map {"'$_'"} @times)
+                    );
+            }
+        }
+    }
 }
 
 
@@ -5840,16 +5830,6 @@ This last observation applied to the dark gallery, and was indicated by the comp
             'Boys, do it now. God\'s time is <<12.25|9c:0>>.'
           ],
           [
-            -1,
-            'Timestr [12:26]: 26',
-            '<<12.25pm|2a>>. 26. 27. Every time Billy saved a shot he looked heartbroken'
-          ],
-          [
-            -1,
-            'Timestr [12:27]: 27',
-            '<<12.25pm|2a>>. 26. 27. Every time Billy saved a shot he looked heartbroken'
-          ],
-          [
             1,
             'Timestr [12:28]: 12.28',
             'The DRINK CHEER-UP COFFEE wall clock read <<12.28|11>>.'
@@ -9141,3 +9121,6 @@ This last observation applied to the dark gallery, and was indicated by the comp
           ]
         ];
 }
+
+1;
+

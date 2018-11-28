@@ -233,7 +233,8 @@ my $time_periods_re = qr{ ( year | month | week | day | hour | half | minute ) s
 
 # Things that never follow times
 my $never_follow_times_re =
-    qr{ ( with | which | point | time | moment | instant | end | stage | of | who
+    qr{ ( or \s+ $min_re )?
+        ( with | which | point | time | moment | instant | end | stage | of | who
         | after | since
         | degrees
         | centimeter | cm | meter | kilometer | km | klick
