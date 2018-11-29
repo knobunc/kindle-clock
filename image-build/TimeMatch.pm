@@ -1158,6 +1158,17 @@ sub get_matches {
                 (?{ $branch = "5a:TIMEY"})
               }xin;
 
+    # after eleven in summer evenings ...
+    push @r,qr{ (?<li> $not_in_match )
+                (?<t1>
+                  $rel_words \s+
+                  $hour24_word_re
+                  ( ,? \s* $ampm_re )? )
+                (?<po> \s+ in \s+ \w+ \s+ ( morn | morning | afternoon | evening ) s? )
+                $ba_re
+                (?{ $branch = "5h:TIMEY"})
+              }xin;
+
     # Hours by, at start of phrase
     # ; eleven by big ben ...
     push @r,qr{ (?<pr> ( \A | ['"‘’“”] | [.…;:?!,] \s+ ) )

@@ -6609,9 +6609,9 @@ This last observation applied to the dark gallery, and was indicated by the comp
             'On the evening before K.\'s thirty-first birthday - it was <<about nine o\'clock|6>>, when there is a lull in the streets - two gentlemen came to his apartment.'
           ],
           [
-            T_STR,
+            1,
             'Timestr [21:02]: after nine',
-            'The good Brants did not allow the boys to play out <<after nine|99>> in summer evenings; they were sent to bed at that hour; Eddie honorably remained, but Georgie usually slipped out of the window toward ten, and enjoyed himself until <<midnight|13>>.'
+            'The good Brants did not allow the boys to play out <<after nine|5h:1>> in summer evenings; they were sent to bed at that hour; Eddie honorably remained, but Georgie usually slipped out of the window toward ten, and enjoyed himself until <<midnight|13>>.'
           ],
           [
             1,
