@@ -6519,9 +6519,9 @@ This last observation applied to the dark gallery, and was indicated by the comp
             'He glanced at the bracket-clock on the mantelpiece, but as this had stopped, drew out his watch. \'It is already too late,\' he said. \'It wants only <<ten minutes to nine|10>>.\' \'Good God!\' she exclaimed, turning quite pale. \'What am I to do?\''
           ],
           [
-            T_STR,
+            1,
             'Timestr [20:50]: 2050',
-            'He was, yes, always home from work by <<2050|99>> on Thursdays.'
+            'He was, yes, always home from work by <<2050|3a:0>> on Thursdays.'
           ],
           [
             1,
@@ -7024,9 +7024,9 @@ This last observation applied to the dark gallery, and was indicated by the comp
             'It\'s <<well after 2245h|1>>. The dog\'s leash slides hissing to the end of the Day-Glo line and stops the dog a couple of paces from the inside of the gate, where Lenz is standing, inclined in the slight forward way of somebody who\'s talking baby-talk to a dog.'
           ],
           [
-            T_STR | T_EXT,
+            1,
             'Timestr [22:55]: Eleven o\'clock, all but five minutes',
-            '"It is <<eleven o\'clock|6>>! <<Eleven o\'clock, all but five minutes|99>>!" "But which <<eleven o\'clock|6>>?" "The <<eleven o\'clock|6>> that is to decide life or death!...He told me so just before he went....He is terrible....He is quite mad: he tore off his mask and his yellow eyes shot flames!..."'
+            '"It is <<eleven o\'clock|6>>! <<Eleven o\'clock, all but five minutes|6>>!" "But which <<eleven o\'clock|6>>?" "The <<eleven o\'clock|6>> that is to decide life or death!...He told me so just before he went....He is terrible....He is quite mad: he tore off his mask and his yellow eyes shot flames!..."'
           ],
           [
             1,
@@ -7214,9 +7214,9 @@ This last observation applied to the dark gallery, and was indicated by the comp
             'It is <<twenty-nine minutes to midnight|10>>. Dr Narlikar\'s Nursing Home is running on a skeleton staff; there are many absentees, many employees who have preferred to celebrate the imminent birth of the nation, and will not assist tonight at the births of children.'
           ],
           [
-            T_STR | T_EXT,
+            1,
             'Timestr [23:32]: In about twenty-eight minutes it will be midnight',
-            "\"This is the evening. This is the night. It is New Year\x{b4}s Eve. <<In about twenty-eight minutes it will be midnight|99>>. I still have twenty-eight minutes left. I have to recollect my thoughts. At <<twelve o\x{b4}clock|6>>, I should be done thinking.\" He looked at his father. \"Help those that are depressed and consider themselves lost in this world,\" he thought. \"Old fart.\""
+            "\"This is the evening. This is the night. It is New Year\x{b4}s Eve. <<In about twenty-eight minutes it will be midnight|5i>>. I still have twenty-eight minutes left. I have to recollect my thoughts. At <<twelve o\x{b4}clock|6>>, I should be done thinking.\" He looked at his father. \"Help those that are depressed and consider themselves lost in this world,\" he thought. \"Old fart.\""
           ],
           [
             1,
