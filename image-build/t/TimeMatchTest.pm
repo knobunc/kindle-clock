@@ -7364,9 +7364,9 @@ This last observation applied to the dark gallery, and was indicated by the comp
             'At <<a minute to midnight|10>>, Roquenton was holding his wife\'s hand and giving her some last words of advice. On the stroke of <<midnight|12>>, she felt her companion\'s hand melt away inside her own.'
           ],
           [
-            T_STR | T_EXT,
+            1,
             'Timestr [23:59]: new day was still a minute away',
-            'Chigurgh rose and picked up the empty casing off the rug and blew into it and put it in his pocket and looked at his watch. The <<new day was still a minute away|99>>.'
+            'Chigurgh rose and picked up the empty casing off the rug and blew into it and put it in his pocket and looked at his watch. The <<new day was still a minute away|19>>.'
           ]
         ];
 }

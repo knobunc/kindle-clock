@@ -1238,6 +1238,19 @@ sub get_matches {
                 (?{ $branch = "18:TIMEY"})
               }xin;
 
+    # The new day was still a minute away
+    push @r,qr{ (?<li> $not_in_match )
+                (?<pr> the \s+ )
+                (?<t1>
+                  ( new | next ) \s+ day \s+
+                  was \s+ ( ( still | just | $rel_words ) \s+ )?
+                  ( ( a | $min_re ) \s+ )?
+                  ( ( minute | hour | second ) s? \s+)? away
+                )
+                $ba_re
+                (?{ $branch = "19"})
+              }xin;
+
     # TODO: Military times?
     #   Thirteen hundred hours; Zero five twenty-three; sixteen thirteen
 
@@ -1394,6 +1407,14 @@ sub extract_times {
                   (?<mn> $fraction_re ) [-\s]+ past
                 ( ,? \s+ (?<am> $ampm_re ) )?
                 (?{ $branch = "12"})
+
+              | # nearer to one than half past
+                  ( new | next ) \s+ (?<hr> day) \s+
+                  was \s+ ( ( still | just | $rel_words ) \s+ )?
+                  ( (?<n1> a | $min_re ) \s+ )?
+                  ( (?<un> minute | hour | second ) s? \s+)? away
+                (?{ $branch = "13"})
+
               )
               \z}xin)
         {
@@ -1402,15 +1423,16 @@ sub extract_times {
             my %c; @c{@k} = @+{@k};
             $c{branch} = $branch;
 
-            my $min  = $c{mn}  // 0;   # The base minutes
-            my $m2   = $c{m2}  // 0;   # Additional minutes elsewhere in the string
-            my $m3   = $c{m3}  // 0;   # Further minutes elsewhere in the string
-            my $n3   = $c{n1}  // 0;   # Negative minutes in the string
+            my $min  = $c{mn}  // 0;             # The base minutes
+            my $m2   = $c{m2}  // 0;             # Additional minutes elsewhere in the string
+            my $m3   = $c{m3}  // 0;             # Further minutes elsewhere in the string
+            my $n3   = $c{n1}  // 0;             # Negative value in the string
+            my $un   = $c{un}  // 'minutes';     # The units of the negative value
             my $sec  = defined $c{sec} ? 1 : 0;  # Seconds present?
-            my $hour = $c{hr}  // 0;   # The base hour
-            my $rel  = $c{rl}  // '';  # The relative phrase
-            my $ampm = $c{am};         # AM or PM?
-            my $dir  = $c{dir} // '';  # Whether the time is before or after the base hour
+            my $hour = $c{hr}  // 0;             # The base hour
+            my $rel  = $c{rl}  // '';            # The relative phrase
+            my $ampm = $c{am};                   # AM or PM?
+            my $dir  = $c{dir} // '';            # Whether the time is before or after the base hour
 
             my $abs_hour = 0;
 
@@ -1477,7 +1499,7 @@ sub extract_times {
                     $hour = 12;
                     $abs_hour = 1;
                 }
-                elsif ($hour =~ $midnight_re) {
+                elsif ($hour =~ $midnight_re or $hour =~ /day/i) {
                     $hour = 00;
                     $abs_hour = 1;
                 }
@@ -1566,17 +1588,23 @@ sub extract_times {
 
             # Look at the direction and see if we need to subtract the minutes rather than add
             if ($dir =~ $before_re) {
-                my $m = $min;
-                $min = 60 - $m;
+                $min = - $min;
                 $min -= 1 if $sec;
-                $hour -= 1;
             }
 
             # Always add in the m3, it's never negative
             $min += min2num($m3);
 
             # Always subtract the n1, it's always negative
-            $min -= min2num($n3);
+            if ($un =~ /hour/i) {
+                $hour -= min2num($n3);
+            }
+            elsif ($un =~ /second/i) {
+                $min -= 1;
+            }
+            else {
+                $min -= min2num($n3);
+            }
 
             # If we are in the afternoon then we are absolute
             $abs_hour = 1 if $hour > 12;
