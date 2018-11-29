@@ -115,7 +115,9 @@ my $not_in_match    = qr{ [—…,:;?/""''‘’“”\s([] | \G [-.]? | [^\d\w]
 my $far_re          = qr{ well    | long                }xin;
 my $short_re        = qr{ shortly | just | a \s+ little }xin;
 
-my $far_before_re   = qr{   $far_re   \s+    before     }xin;
+my $far_before_re   = qr{   $far_re   \s+    before
+                        |   far [-\s]+ ( from | off )
+                        }xin;
 my $short_before_re = qr{   $short_re \s+    before
                         |   nearly
                         |   near ( \s+ on )?
@@ -123,14 +125,17 @@ my $short_before_re = qr{   $short_re \s+    before
                         |   lacks \s+ of
                         |   almost ( \s ( gone | at ) )?
                         |   just \s+ about
+                        |   can['‘’]t \s+ be \s+ $far_before_re
                         }xin;
 my $around_re       = qr{ about
                         | approximately
                         | around
                         }xin;
 my $on_or_after_re  = qr{ ( $short_re \s+ )? gone }xin;
-my $short_after_re  = qr{ ( $short_re \s+ )? ( after | past ) }xin;
 my $far_after_re    = qr{   $far_re   \s+    after      }xin;
+my $short_after_re  = qr{ ( $short_re \s+ )? ( after | past )
+                        | can['‘’]t \s+ be \s+ $far_after_re
+                        }xin;
 
 my $rel_words       = qr{ $far_before_re | $short_before_re
                         | $around_re
@@ -492,22 +497,27 @@ sub get_matches {
                   }xin;
     push @r,qr{ (?<li> $not_in_match )
                 (?<t1>
-                    ( ( $rel_words \s+
-                      | between \s+ $min_word_re \s+ and \s+
-                      | $min_word_re \s+ or \s+
-                      )?
-                      ( $min_word_re | \d{1,2} | a | a \s+ few ) ( \s+ | [-] )
-                      ( minute s? \s+ )?
-                      ( and ( \s+ | [-] )
-                              ( a \s+ half | 1/2 | a \s+ quarter | 1/4 | twenty
-                                | $sec_re \s+ second s? )? \s+
-                       | ( after | before ) \s+ ( the \s+ )? $fraction_re ( \s+ | [-] )
-                      )?
-                      ( minute s? \s+ )?
-                    | ( $rel_words \s+ ( a \s+ )? )? $fraction_re ( \s+ | [-] )
-                    | ( just | nearly ) \s+
+                  ( ( $rel_words \s+
+                    | between \s+ $min_word_re \s+ and \s+
+                    | $min_word_re \s+ or \s+
+                    )?
+                    ( $min_word_re | \d{1,2} | a | a \s+ few ) ( \s+ | [-] )
+                    ( minute s? \s+ )?
+                    ( and ( \s+ | [-] )
+                            ( a \s+ half | 1/2 | a \s+ quarter | 1/4 | twenty
+                            | $sec_re \s+ second s?
+                            )? \s+
+                    | ( after | before ) \s+ ( the \s+ )? $fraction_re ( \s+ | [-] )
+                    )?
+                    ( minute s? \s+ )?
+                  | ( $rel_words \s+ ( a \s+ )? )? $fraction_re ( \s+ | [-] )
+                  | ( just | nearly ) \s+
+                  | in \s+ $min_word_re \s+ ( minute s? \s+ )?
+                    it \s+ (would | will) \s+ be \s+ (a \s+)?
+                    $fraction_re ( \s+ | [-] )
                   )
                   $till_re [-—\s]+
+                  ( the \s+ hour [,;]? \s+ which \s+ was \s+ )?
                   $hour24_re
                   ( \s+ $oclock_re ( ,? \s* $ampm_re )?
                   |                  ,? \s* $ampm_re
@@ -1006,8 +1016,8 @@ sub get_matches {
     # ... monday, at twelve.
     push @r,qr{ $bb_re
                 (?<pr>
-                  ( tonight | today | to-?morrow | $weekday_re ) ,? \s+
-                  at \s+
+                  ( tonight | today | to-?morrow | $weekday_re | comes ) ,? \s+
+                  ( in | at ) \s+
                 )
                 (?<t1>
                   ( $rel_words \s+ )?
@@ -1095,7 +1105,8 @@ sub get_matches {
               }xin;
 
     # Untrustworthy times... need an indication that it is a time, not just some number
-    # at 1237, is 1237, was 1237, by 1237
+    # Hours 1-12 only
+    #  at 1237, is 1237, was 1237, by 1237
     push @r,qr{ (?<li> $not_in_match )
                 (?<pr>
                   ( at ( \s+ last )?
@@ -1106,10 +1117,28 @@ sub get_matches {
                   ( $rel_words \s+ )?
                   ( $hour12_dig_re [.]? | $hour24_dig_re [.] )
                     $minsec0_dig_re
-                  )
+                )
                 (?! \s+ $never_follow_times_re \b )
                 $ba_re
                 (?{ $branch = "3:TIMEY"})
+              }xin;
+
+    # Untrustworthy times... need an indication that it is a time, not just some number
+    # All 24 hours
+    #  by 2037 on ...
+    push @r,qr{ (?<li> $not_in_match )
+                (?<pr>
+                  ( at ( \s+ last )?
+                  | it \s+ ( is | was ) | twas | it['‘’]?s | by
+                  ) \s+
+                )
+                (?<t1>
+                  ( $rel_words \s+ )?
+                  $hour_dig_re
+                  $minsec0_dig_re
+                )
+                (?<po> \s+ on \s+ )
+                (?{ $branch = "3a:TIMEY"})
               }xin;
 
     # eleven fifty-six
@@ -1244,6 +1273,7 @@ sub extract_times {
                   ( minutes? \s+ )?
                 ( and ( \s+ | [-] ) (?<sec> $sec_re ) \s+ seconds? \s+ )?
                   (?<dir> $till_re ) [-\s]+
+                  ( the \s+ hour [,;]? \s+ which \s+ was \s+ )?
                   (?<hr> $hour24_re )
                 ( [-\s]+ (?<m3> $min_re ) )?
                 ( \s+ $oclock_re )?
@@ -1266,6 +1296,9 @@ sub extract_times {
                 (?{ $branch = "6"})
 
               | # three quarters past eleven
+                ( in \s+ (?<n1> $min_re ) \s+ ( minutes? \s+ )?
+                  it \s+ (would | will) \s+ be \s+ (a \s+)?
+                )?
                 ( ( (?<m2> $min_re ) \s+ minutes? \s+ )?
                   (?<rl> $rel_at_words ) \s+ ( a \s+ )?
                   ( the \s+ )?
@@ -1334,13 +1367,14 @@ sub extract_times {
               \z}xin)
         {
             # Save the captured values
-            my @k = qw{ rl mn m2 m3 dir hr am sec branch };
+            my @k = qw{ rl mn m2 m3 n1 dir hr am sec branch };
             my %c; @c{@k} = @+{@k};
             $c{branch} = $branch;
 
             my $min  = $c{mn}  // 0;   # The base minutes
             my $m2   = $c{m2}  // 0;   # Additional minutes elsewhere in the string
             my $m3   = $c{m3}  // 0;   # Further minutes elsewhere in the string
+            my $n3   = $c{n1}  // 0;   # Negative minutes in the string
             my $sec  = defined $c{sec} ? 1 : 0;  # Seconds present?
             my $hour = $c{hr}  // 0;   # The base hour
             my $rel  = $c{rl}  // '';  # The relative phrase
@@ -1509,6 +1543,9 @@ sub extract_times {
 
             # Always add in the m3, it's never negative
             $min += min2num($m3);
+
+            # Always subtract the n1, it's always negative
+            $min -= min2num($n3);
 
             # If we are in the afternoon then we are absolute
             $abs_hour = 1 if $hour > 12;

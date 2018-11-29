@@ -3104,7 +3104,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
             'I grab a pen and the pad of paper by the phone and start scribbling a list for the day. I have an image of myself moving smoothly from task to task, brush in one hand, duster in the other, bringing order to everything. Like Mary Poppins. <<9:30|2>>-<<9:36|2>> Make Geigers\' bed <<9:36|2>>-<<9:42|2>> Take laundry out of machine and put in dryer <<9:42|2>>-<<10:00|2>> Clean bathrooms I get to the end and read it over with a fresh surge of optimism. At this rate I should be done easily by lunchtime. <<9:36|2>> Fuck. I cannot make this bed. Why won\'t this sheet lie flat? <<9:42|2>> And why do they make mattresses so heavy?'
           ],
           [
-            T_STR,
+            1,
             'Timestr [09:45]: 9.45',
             '<<9.15|9p>>, <<9.30|9p>>, <<9.45|9p>>, 10! Bond felt the excitement ball up inside him like cat\'s fur.'
           ],
@@ -3169,9 +3169,9 @@ This last observation applied to the dark gallery, and was indicated by the comp
             "\x{2019}Tis but <<an hour ago since it was nine|99>>, And after one hour more \x{2018}twill be <<eleven|9c:1>>."
           ],
           [
-            T_STR,
-            'Timestr [10:00]: ten',
-            'For some seconds the light went on becoming brighter and brighter, and she saw everything more and more clearly and the clock ticked louder and louder until there was a terrific explosion right in her ear. Orlando leapt as if she had been violently struck on the head. <<Ten|99>> times she was struck. In fact it was <<ten o\'clock in the morning|6>>. It was the eleventh of October. It was <<1928|9d>>. It was the present moment.'
+            1,
+            'Timestr [10:00]: ten o\'clock in the morning',
+            'For some seconds the light went on becoming brighter and brighter, and she saw everything more and more clearly and the clock ticked louder and louder until there was a terrific explosion right in her ear. Orlando leapt as if she had been violently struck on the head. Ten times she was struck. In fact it was <<ten o\'clock in the morning|6>>. It was the eleventh of October. It was <<1928|9d>>. It was the present moment.'
           ],
           [
             1,
@@ -3864,14 +3864,14 @@ This last observation applied to the dark gallery, and was indicated by the comp
             "A few minutes' light <<around noon|13>> is all that you need to discover the error, and re-set the clock \x{2013} provide that you bother to go up and make the observation."
           ],
           [
-            T_STR | T_EXT,
+            1,
             'Timestr [11:56]: can\'t be far-off twelve',
-            'I wondered what the time is?\' said the latter after a pause\'. \'I don\'t know exactly\', replied Easton, \'but it <<can\'t be far-off twelve|99>>.\''
+            'I wondered what the time is?\' said the latter after a pause\'. \'I don\'t know exactly\', replied Easton, \'but it <<can\'t be far-off twelve|9f>>.\''
           ],
           [
-            T_STR | T_EXT,
+            1,
             'Timestr [11:57]: can\'t be far-off twelve',
-            'I wondered what the time is?\' said the latter after a pause\'. \'I don\'t know exactly\', replied Easton, \'but it <<can\'t be far-off twelve|99>>.\''
+            'I wondered what the time is?\' said the latter after a pause\'. \'I don\'t know exactly\', replied Easton, \'but it <<can\'t be far-off twelve|9f>>.\''
           ],
           [
             1,
@@ -4259,9 +4259,9 @@ This last observation applied to the dark gallery, and was indicated by the comp
             'The day-room floor gets cleared of tables and at <<one o\'clock|6>> the doctor comes out of his office down the hall, nods once at the nurse as he goes past where he\'s watching out of her window, sits in his chair just to the left of the door.'
           ],
           [
-            T_STR,
+            1,
             'Timestr [13:01]: about one',
-            'There\'s five fathoms out there, he said. It\'ll be swept up that way when the tide comes in <<about one|99>>. It\'s nine days today.'
+            'There\'s five fathoms out there, he said. It\'ll be swept up that way when the tide comes in <<about one|9o>>. It\'s nine days today.'
           ],
           [
             1,
@@ -5979,9 +5979,9 @@ This last observation applied to the dark gallery, and was indicated by the comp
             '"I feel a little awkward," Kay Randall said on the phone, "asking a man to do these errands ... but that\'s my problem, not yours. Just bring the supplies and try to be at the church meeting room <<a few minutes before seven|10>>."'
           ],
           [
-            T_STR | T_EXT,
+            1,
             'Timestr [18:57]: three minutes to the hour; which was seven',
-            "Folded in this triple melody, the audience sat gazing; and beheld gently and approvingly without interrogation, for it seemed inevitable, a box tree in a green tub take the place of the ladies\x{2019} dressing-room; while on what seemed to be a wall, was hung a great clock face; the hands pointing to <<three minutes to the hour; which was seven|99>>.'"
+            "Folded in this triple melody, the audience sat gazing; and beheld gently and approvingly without interrogation, for it seemed inevitable, a box tree in a green tub take the place of the ladies\x{2019} dressing-room; while on what seemed to be a wall, was hung a great clock face; the hands pointing to <<three minutes to the hour; which was seven|10>>.'"
           ],
           [
             1,
@@ -6044,9 +6044,9 @@ This last observation applied to the dark gallery, and was indicated by the comp
             'It was <<eight minutes past seven|10>> and still no girl. I waited impatiently. I watched another crowd surge through the barriers and move quickly down the steps. My eyes were alert for the faintest recognition.'
           ],
           [
-            T_STR | T_EXT,
+            1,
             'Timestr [19:10]: in five minutes it would be a quarter past seven',
-            "He had already got to the point where, by rocking more strongly, he maintained his equilibrium with difficulty, and very soon he would finally have to make a final decision, for <<in five minutes it would be a quarter past seven|99>>. Then there was a ring at the door of the apartment. \x{201c}That\x{2019}s someone from the office,\x{201d} he told himself, and he almost froze, while his small limbs only danced around all the faster. For one moment everything remained still. \x{201c}They aren\x{2019}t opening,\x{201d} Gregor said to himself, caught up in some absurd hope."
+            "He had already got to the point where, by rocking more strongly, he maintained his equilibrium with difficulty, and very soon he would finally have to make a final decision, for <<in five minutes it would be a quarter past seven|10>>. Then there was a ring at the door of the apartment. \x{201c}That\x{2019}s someone from the office,\x{201d} he told himself, and he almost froze, while his small limbs only danced around all the faster. For one moment everything remained still. \x{201c}They aren\x{2019}t opening,\x{201d} Gregor said to himself, caught up in some absurd hope."
           ],
           [
             1,
