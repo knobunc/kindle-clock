@@ -20,7 +20,7 @@ use Exporter::Easy (
                   compare_strings  check_substring
                   check_extract    check_extract_times
 
-                  T_ALL  T_STR  T_EXT
+                  T_ALL  T_STR  T_SUB  T_EXT
                 ) ],
 );
 
@@ -39,10 +39,17 @@ sub compare_strings {
 
         my $result = do_match($string);
 
-        local $TODO = "should match"
-            if ($match & T_STR) != 0;
+        if ( ($match & T_STR) != 0 ) {
+            local $TODO = "should match";
 
-        is($result, $expected, $name);
+            # The match numbers probably don't match, but check the strings otherwise
+            (my $rs = $result)   =~ s{<<(.*?)\|\d+\w?(:\d)?>>}{<<$1>>}g;
+            (my $es = $expected) =~ s{<<(.*?)\|\d+\w?(:\d)?>>}{<<$1>>}g;
+            is($rs, $es, $name);
+        }
+        else {
+            is($result, $expected, $name);
+        }
     }
 }
 
@@ -7209,7 +7216,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             T_STR | T_EXT,
             'Timestr [23:32]: In about twenty-eight minutes it will be midnight',
-            "\"This is the evening. This is the night. It is New Year\x{b4}s Eve. In about twenty-eight minutes it will be <<midnight|13>>. I still have twenty-eight minutes left. I have to recollect my thoughts. At <<twelve o\x{b4}clock|6>>, I should be done thinking.\" He looked at his father. \"Help those that are depressed and consider themselves lost in this world,\" he thought. \"Old fart.\""
+            "\"This is the evening. This is the night. It is New Year\x{b4}s Eve. <<In about twenty-eight minutes it will be midnight|99>>. I still have twenty-eight minutes left. I have to recollect my thoughts. At <<twelve o\x{b4}clock|6>>, I should be done thinking.\" He looked at his father. \"Help those that are depressed and consider themselves lost in this world,\" he thought. \"Old fart.\""
           ],
           [
             1,

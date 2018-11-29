@@ -670,7 +670,7 @@ sub get_matches {
     push @r,qr{ $bb_re
                 (?<pr>
                   ( waited | arrive s? | called | expired
-                  | it \s+ ( is | was ) | twas | it['‘’]?s | begin | end
+                  | it \s+ ( is | was ) | twas | it['‘’]?s | begin | end | it
                   | ( come | turn ) \s+ on
                   ) \s+
                   ( ( exactly | precisely ) \s+ )?
