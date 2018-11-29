@@ -5096,12 +5096,12 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             "Timestr [16:00]: Four o\x{2019}clock",
-            "<<Four o\x{2019}clock|6>> has just struck. Good! Arrangement, revision, reading from <<four to five|10>>. Short snooze of restoration for myself, from <<five to six|10>>. Affair of agent and sealed letter from <<seven to eight|10>>. At <<eight|9e>>, en route."
+            "<<Four o\x{2019}clock|6>> has just struck. Good! Arrangement, revision, reading from <<four to five|10a:1>>. Short snooze of restoration for myself, from <<five to six|10a:1>>. Affair of agent and sealed letter from <<seven to eight|10a:1>>. At <<eight|9e>>, en route."
           ],
           [
             1,
             "Timestr [16:00]: four o\x{2019}clock",
-            "<<Four o\x{2019}clock|6>> has just struck. Good! Arrangement, revision, reading from <<four to five|10>>. Short snooze of restoration for myself, from <<five to six|10>>. Affair of agent and sealed letter from <<seven to eight|10>>. At <<eight|9e>>, en route."
+            "<<Four o\x{2019}clock|6>> has just struck. Good! Arrangement, revision, reading from <<four to five|10a:1>>. Short snooze of restoration for myself, from <<five to six|10a:1>>. Affair of agent and sealed letter from <<seven to eight|10a:1>>. At <<eight|9e>>, en route."
           ],
           [
             1,

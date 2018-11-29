@@ -259,7 +259,7 @@ my $never_follow_times_re =
         | book  | volume | plate | illustration | page
         | side  | edge   | corner | face
         | Minister
-        | possibilities  | against
+        | possibilities  | against | vote | machine | box
         | on \s+ the \s+ field
         )
         s?
@@ -352,7 +352,7 @@ sub get_masks {
     return(\@r)
         if @r;
 
-    # Take out compound numbers, dates never look like:
+    # Take out compound numbers, times never look like:
     # 12,000
     # 14.000
     push @r,qr{ $bb_re
@@ -367,7 +367,7 @@ sub get_masks {
     # odds of five to one
     push @r,qr{ $bb_re
                 (?<pr>
-                 ( ( odds | betting ) \s+ ( of | being | at )
+                 ( ( odds | betting ) \s+ ( of | being | at ) ( $rel_words \s+ )?
                    | got | get | numbers?
                  ) \s+
                 )
@@ -471,6 +471,13 @@ sub get_masks {
                 (?{ $branch = "x12"})
               }xin;
 
+    # Dates
+    push @r,qr{ (?<li> $not_in_match )
+                (?<t1> \d\d? \. \d\d? \. \d\d? )
+                $ba_re
+                (?{ $branch = "x13"})
+              }xin;
+
     return(\@r);
 }
 
@@ -540,7 +547,7 @@ sub get_matches {
                             $branch = "y10";
                         }
                         elsif ($pre =~ m{ (\A | \s )
-                                          ( at | it \s+ ( is | was ) | twas | it['‘’]?s | till | from )
+                                          ( at | it \s+ ( is | was ) | twas | it['‘’]?s | till )
                                           \s+ \z
                                         }xin)
                         {
@@ -756,10 +763,11 @@ sub get_matches {
     push @r,qr{ (?<li> $not_in_match )
                 (?<t1>
                  ( $rel_words \s+ )?
-                 $hour_dig_re : $minsec_dig_re
+                 $hour_dig_re : $minsec0_dig_re
                 )
                 ( (?<t2> ,? \s* $ampm_re )
-                | (?<po> ( : $minsec_dig_re )? ,? \s* $ampm_re )
+                | (?<po> ( : $minsec_dig_re )?
+                  ,? \s* $ampm_re )
                 )?
                 $ba_re
                 (?{ $branch = "2"})
@@ -1173,7 +1181,6 @@ sub get_matches {
                   ( ,? \s* $ampm_re )? )
                 (?! \s+ $never_follow_times_re \b
                 |  [-—]
-                |  \. \d+  # Skip dates 19.10.39, Churchill, Gathering Storm
                 )
                 $ba_re
                 (?{ $branch = "5a:TIMEY"})
