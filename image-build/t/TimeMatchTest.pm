@@ -221,9 +221,9 @@ sub get_csv_tests {
             'Gately can hear the horns and raised voices and u-turn squeals way down below on Wash. That indicate it\'s <<around 0000h|1>>., the switching hour.'
           ],
           [
-            T_STR,
-            'Timestr [00:00]: twelve',
-            'Hamlet: What hour now? Horatio: I think it lacks of <<twelve|99>>. Marcellus: No, it is struck.'
+            1,
+            'Timestr [23:59]: lacks of twelve',
+            'Hamlet: What hour now? Horatio: I think it <<lacks of twelve|9f>>. Marcellus: No, it is struck.'
           ],
           [
             1,
@@ -557,8 +557,8 @@ sub get_csv_tests {
           ],
           [
             1,
-            'Timestr [01:00]: one in the morning',
-            'I\'m the only one awake in this house on this night before the day that will change all our lives. Though it\'s already that day: the little luminous hands on my alarm clock (which I haven\'t set) show just gone <<one in the morning|5>>.'
+            'Timestr [01:00]: just gone one in the morning',
+            'I\'m the only one awake in this house on this night before the day that will change all our lives. Though it\'s already that day: the little luminous hands on my alarm clock (which I haven\'t set) show <<just gone one in the morning|9h>>.'
           ],
           [
             1,
@@ -601,9 +601,9 @@ sub get_csv_tests {
             'February 26, Saturday - Richards went out <<1.10am|2a>> and found it clearing a bit, so we got under way as soon as possible, which was <<2:10a.m.|2a>>'
           ],
           [
-            T_STR | T_EXT,
+            1,
             'Timestr [01:11]: nearer to one than half past',
-            'Declares one of the waiters was the worse for liquor, and that he was giving him a dressing down. Also that it was <<nearer to one than half past|99>>.'
+            'Declares one of the waiters was the worse for liquor, and that he was giving him a dressing down. Also that it was <<nearer to one than half past|17>>.'
           ],
           [
             1,
@@ -802,7 +802,7 @@ sub get_csv_tests {
           ],
           [
             1,
-            'Timestr [02:04]: almost 2:04',
+            'Timestr [02:03]: almost 2:04',
             "\"Wake up.\" \"Having the worst dream.\" \"I should certainly say you were.\" \"It was awful. It just went on and on.\" \"I shook you and shook you and.\" \"Time is it.\" \"It's nearly - <<almost 2:04|2>>.\x{201d}"
           ],
           [
@@ -931,9 +931,9 @@ sub get_csv_tests {
             'At <<about half past two|10>> she had been woken by the creak of footsteps out on the stairs. At first she had been frightened.'
           ],
           [
-            T_STR,
-            'Timestr [02:30]: 0230',
-            "Inc, I tried to pull her off about <<0230|99>>, and there was this fucking\x{2026} sound."
+            1,
+            'Timestr [02:30]: about 0230',
+            "Inc, I tried to pull her off <<about 0230|18:0>>, and there was this fucking\x{2026} sound."
           ],
           [
             1,
@@ -1086,9 +1086,9 @@ sub get_csv_tests {
             'Roused from her sleep, Freya Gaines groped for the switch of the vidphone; groggily she found it and snapped it on. \'Lo,\' she mumbled, wondering what time it was. She made out the luminous dial of the clock beside the bed. <<Three AM|5>>. Good grief.'
           ],
           [
-            T_STR,
+            1,
             'Timestr [03:00]: 0300',
-            'Schact clears his mouth and swallows mightily. \'Tavis can\'t even regrout tile in the locker room without calling a Community meeting or appointing a committee. The Regrouting Committee\'s been dragging along since may. Suddenly they\'re pulling secret <<0300|99>> milk-switches? It doesn\'t ring true, Jim.'
+            'Schact clears his mouth and swallows mightily. \'Tavis can\'t even regrout tile in the locker room without calling a Community meeting or appointing a committee. The Regrouting Committee\'s been dragging along since may. Suddenly they\'re pulling secret <<0300|18:0>> milk-switches? It doesn\'t ring true, Jim.'
           ],
           [
             1,
@@ -1096,9 +1096,9 @@ sub get_csv_tests {
             "<<Three in the morning|5>>, thought Charles Halloway, seated on the edge of his bed. Why did the train come at that hour? For, he thought, it\x{2019}s a special hour. Women never wake then, do they? They sleep the sleep of babes and children. But men in middle age? They know that hour well."
           ],
           [
-            T_STR,
-            'Timestr [03:00]: three',
-            'What\'s the time?" said the man, eyeing George up and down with evident suspicion; "why, if you listen you will hear it strike." George listened, and a neighbouring clock immediately obliged. "But it\'s only gone <<three|99>>!" said George in an injured tone, when it had finished.'
+            1,
+            'Timestr [03:00]: gone three',
+            'What\'s the time?" said the man, eyeing George up and down with evident suspicion; "why, if you listen you will hear it strike." George listened, and a neighbouring clock immediately obliged. "But it\'s only <<gone three|9f>>!" said George in an injured tone, when it had finished.'
           ],
           [
             1,
@@ -1183,7 +1183,7 @@ sub get_csv_tests {
           [
             1,
             'Timestr [03:28]: 3.28',
-            'Now somebody was running past his room. A door slammed. That foreign language again. What the devil was going on? he switched on his light and peered at his watch. <<3.28|9j>>. He got out of bed.'
+            'Now somebody was running past his room. A door slammed. That foreign language again. What the devil was going on? he switched on his light and peered at his watch. <<3.28|9p>>. He got out of bed.'
           ],
           [
             1,
@@ -1481,14 +1481,14 @@ sub get_csv_tests {
             'At the end of a relationship, it is the one who is not in love who makes the tender speeches. I was overwhelmed by a sense of betrayal, betrayal because a union in which I had invested so much had been declared bankrupt without my feeling it to be so. Chloe had not given it a chance, I argued with myself, knowing the hopelessness of these inner courts announcing hollow verdicts at <<four thirty in the morning|5>>.'
           ],
           [
-            T_STR,
+            1,
             'Timestr [04:30]: 0430',
-            'Hester Thrale undulates in in a false fox jacket at 2330 as usual even though she has to be up at like <<0430|99>> for the breakfast shift at the Provident Nursing Home and sometimes eats breakfast with Gately, both their faces nodding perilously close to their Frosted Flakes.'
+            'Hester Thrale undulates in in a false fox jacket at <<2330|18:0>> as usual even though she has to be up at like <<0430|18:0>> for the breakfast shift at the Provident Nursing Home and sometimes eats breakfast with Gately, both their faces nodding perilously close to their Frosted Flakes.'
           ],
           [
-            T_STR,
+            1,
             'Timestr [04:30]: 0430',
-            'Tonight Clenette H. and the deeply whacked out Yolanda W. come back in from Footprints around 2315 in purple skirts and purple lipstick and ironed hair, tottering on heels and telling each other what a wicked time they just had. Hester Thrale undulates in in a false fox jacket at 2330 as usual even though she has to be up at like <<0430|99>> for the breakfast shift at the Provident Nursing Home and sometimes eats breakfast with Gately, both their faces nodding perilously close to their Frosted Flakes.'
+            'Tonight Clenette H. and the deeply whacked out Yolanda W. come back in from Footprints <<around 2315|18:0>> in purple skirts and purple lipstick and ironed hair, tottering on heels and telling each other what a wicked time they just had. Hester Thrale undulates in in a false fox jacket at <<2330|18:0>> as usual even though she has to be up at like <<0430|18:0>> for the breakfast shift at the Provident Nursing Home and sometimes eats breakfast with Gately, both their faces nodding perilously close to their Frosted Flakes.'
           ],
           [
             1,
@@ -1813,7 +1813,7 @@ sub get_csv_tests {
           [
             1,
             'Timestr [05:43]: 5.43',
-            '<<5.43|9j>> - Mank on phone to \'Mary\' in Washington; \'It now appears quite clear that we\'ll lead the state - without the 21st.\''
+            '<<5.43|9p>> - Mank on phone to \'Mary\' in Washington; \'It now appears quite clear that we\'ll lead the state - without the 21st.\''
           ],
           [
             1,
@@ -1906,9 +1906,9 @@ sub get_csv_tests {
             'It\'s <<06:13|2>> .........Ma says I ought to be wrapped up in Rug already, Old Nick might possibly come.'
           ],
           [
-            T_STR,
+            1,
             'Timestr [06:15]: 6.15',
-            'Dumbbell exercise and wall-scaling ..... . <<6.15|99>>-6.30'
+            'Dumbbell exercise and wall-scaling ..... . <<6.15|9p>>-<<6.30|9p>>'
           ],
           [
             1,
@@ -1973,7 +1973,7 @@ sub get_csv_tests {
           [
             1,
             'Timestr [06:30]: six-thirty',
-            'Daniel and the FBI men listened to the sounds of his mother waking up his father. Daniel still held the door-knob. He was ready to close the door the second he was told to."What time is it?" said his father in a drugged voice. "Oh my God, it\'s <<six-thirty|5a:1>>," his mother said.'
+            'Daniel and the FBI men listened to the sounds of his mother waking up his father. Daniel still held the door-knob. He was ready to close the door the second he was told to."What time is it?" said his father in a drugged voice. "Oh my God, it\'s <<six-thirty|9f>>," his mother said.'
           ],
           [
             1,
@@ -2278,7 +2278,7 @@ sub get_csv_tests {
           [
             1,
             'Timestr [07:39]: 7.39',
-            'Now, at the station, do you recall speaking to Mr Joseph Markew?\' \'Yes, indeed. I was standing on the platform waiting for my usual train - the <<7.39|9j>> - when he accosted me.\''
+            'Now, at the station, do you recall speaking to Mr Joseph Markew?\' \'Yes, indeed. I was standing on the platform waiting for my usual train - the <<7.39|9p>> - when he accosted me.\''
           ],
           [
             1,
@@ -2338,7 +2338,7 @@ sub get_csv_tests {
           [
             1,
             'Timestr [07:56]: seven fifty-six',
-            'I sit by the window, crunching toast, sipping coffee, and leafing through the paper in a leisurely way. At last, after devouring three slices, two cups of coffee, and all the Saturday sections, I stretch my arms in a big yawn and glance at the clock. I don\'t believe it. It\'s only <<seven fifty-six|5a:1>>.'
+            'I sit by the window, crunching toast, sipping coffee, and leafing through the paper in a leisurely way. At last, after devouring three slices, two cups of coffee, and all the Saturday sections, I stretch my arms in a big yawn and glance at the clock. I don\'t believe it. It\'s only <<seven fifty-six|9f>>.'
           ],
           [
             1,
@@ -2523,7 +2523,7 @@ sub get_csv_tests {
           [
             1,
             'Timestr [08:16]: eight sixteen',
-            'I walk through the fruit trees toward a huge, square, brown patch of earth with vegetation growing in serried rows. These must be the vegetables. I prod one of them cautiously with my foot. It could be a cabbage or a lettuce. Or the leaves of something growing underground, maybe. To be honest, it could be an alien. I have no idea. I sit down on a mossy wooden bench and look at a nearby bush covered in white flowers. Mm. Pretty. Now what? What do people do in their gardens? I feel I should have something to read. Or someone to call. My fingers are itching to move. I look at my watch. Still only <<eight sixteen|5a:1>>. Oh God.'
+            'I walk through the fruit trees toward a huge, square, brown patch of earth with vegetation growing in serried rows. These must be the vegetables. I prod one of them cautiously with my foot. It could be a cabbage or a lettuce. Or the leaves of something growing underground, maybe. To be honest, it could be an alien. I have no idea. I sit down on a mossy wooden bench and look at a nearby bush covered in white flowers. Mm. Pretty. Now what? What do people do in their gardens? I feel I should have something to read. Or someone to call. My fingers are itching to move. I look at my watch. Still only <<eight sixteen|9f>>. Oh God.'
           ],
           [
             1,
@@ -2600,7 +2600,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           ],
           [
             1,
-            'Timestr [08:30]: almost eight-thirty',
+            'Timestr [08:29]: almost eight-thirty',
             'The lecture was to be given tomorrow, and it was now <<almost eight-thirty|5a:0>>.'
           ],
           [
@@ -2609,9 +2609,9 @@ This last observation applied to the dark gallery, and was indicated by the comp
             'When he woke, at <<eight-thirty|5b>>, he was alone in the bedroom. He put on his dressing gown and put in his hearing aid and went into the living room.'
           ],
           [
-            T_STR,
+            1,
             'Timestr [08:32]: 0832',
-            '\'Does anybody know the time a little more exactly is what I\'m wondering, Don, since Day doesn\'t.\' Gately checks his cheap digital, head still hung over the sofa\'s arm. \'I got <<0832|99>>:14, 15, 16, Randy.\' \'\'ks a lot, D.G. man.\''
+            '\'Does anybody know the time a little more exactly is what I\'m wondering, Don, since Day doesn\'t.\' Gately checks his cheap digital, head still hung over the sofa\'s arm. \'I got <<0832|18:0>>:14, 15, 16, Randy.\' \'\'ks a lot, D.G. man.\''
           ],
           [
             1,
@@ -2676,12 +2676,12 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [08:47]: 8.47',
-            '"Just on my way to the cottage. It\'s, er, ..<<8.47|5a:0>>. Bit misty on the roads....."'
+            '"Just on my way to the cottage. It\'s, er, ..<<8.47|9p>>. Bit misty on the roads....."'
           ],
           [
             1,
             'Timestr [08:47]: 8.47',
-            '<<8.47|9j>>. Bit misty on the roads'
+            '<<8.47|9p>>. Bit misty on the roads'
           ],
           [
             1,
@@ -3001,7 +3001,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [09:23]: 9.23',
-            '<<9.23|9j>>. What possessed me to buy this comb?'
+            '<<9.23|9p>>. What possessed me to buy this comb?'
           ],
           [
             1,
@@ -3104,9 +3104,9 @@ This last observation applied to the dark gallery, and was indicated by the comp
             'I grab a pen and the pad of paper by the phone and start scribbling a list for the day. I have an image of myself moving smoothly from task to task, brush in one hand, duster in the other, bringing order to everything. Like Mary Poppins. <<9:30|2>>-<<9:36|2>> Make Geigers\' bed <<9:36|2>>-<<9:42|2>> Take laundry out of machine and put in dryer <<9:42|2>>-<<10:00|2>> Clean bathrooms I get to the end and read it over with a fresh surge of optimism. At this rate I should be done easily by lunchtime. <<9:36|2>> Fuck. I cannot make this bed. Why won\'t this sheet lie flat? <<9:42|2>> And why do they make mattresses so heavy?'
           ],
           [
-            1,
+            T_STR,
             'Timestr [09:45]: 9.45',
-            '<<9.15|9j>>, <<9.30|9j>>, <<9.45|9j>>, 10! Bond felt the excitement ball up inside him like cat\'s fur.'
+            '<<9.15|9p>>, <<9.30|9p>>, <<9.45|9p>>, 10! Bond felt the excitement ball up inside him like cat\'s fur.'
           ],
           [
             1,
@@ -4706,7 +4706,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [14:45]: two forty-five',
-            'Pull the other one, and tell it to the marines, and don\'t make me laugh, and fuck off out of it, and all that, but the fact remained that it was still only <<two forty-five|5a:0>>\'.'
+            'Pull the other one, and tell it to the marines, and don\'t make me laugh, and fuck off out of it, and all that, but the fact remained that it was still only <<two forty-five|9f>>\'.'
           ],
           [
             1,
@@ -4839,9 +4839,9 @@ This last observation applied to the dark gallery, and was indicated by the comp
             'I check Shingi\'s mobile phone - it says it\'s <<3.03pm|2a>>. I get out of bed, open my suitcase to take clean socks out and the smell of Mother hit my nose and make me feel dizzy.'
           ],
           [
-            T_STR,
+            1,
             'Timestr [15:04]: 1504',
-            'Woken at <<1504|99>> by Michelangelo hammering away with his chisel.'
+            'Woken at <<1504|18:0>> by Michelangelo hammering away with his chisel.'
           ],
           [
             1,
@@ -5161,7 +5161,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [16:03]: 16.03',
-            'She read the page carefully and then said, \'<<16.03|9j>> - cat goes to the toilet in front garden.\''
+            'She read the page carefully and then said, \'<<16.03|9p>> - cat goes to the toilet in front garden.\''
           ],
           [
             1,
@@ -6125,12 +6125,12 @@ This last observation applied to the dark gallery, and was indicated by the comp
           ],
           [
             1,
-            'Timestr [19:24]: almost twenty-five after seven',
+            'Timestr [19:23]: almost twenty-five after seven',
             'He picked up his hat and coat and Clarice said hello to him and he said hello and looked at the clock and it was <<almost twenty-five after seven|10>>.'
           ],
           [
             1,
-            'Timestr [19:25]: almost twenty-five after seven',
+            'Timestr [19:24]: almost twenty-five after seven',
             'He picked up his hat and coat and Clarice said hello to him and he said hello and looked at the clock and it was <<almost twenty-five after seven|10>>.'
           ],
           [
@@ -6155,8 +6155,8 @@ This last observation applied to the dark gallery, and was indicated by the comp
           ],
           [
             1,
-            'Timestr [19:35]: 7.35',
-            '<<7.35|9j>>-40. Yseut arrives at \'M. and S.\', puts through phone call.'
+            'Timestr [19:35]: 7.35-40',
+            '<<7.35-40|9p>>. Yseut arrives at \'M. and S.\', puts through phone call.'
           ],
           [
             1,
@@ -6396,12 +6396,12 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [20:23]: 20.23',
-            '<<20.23|9j>>. In a few minutes she would go down.She could have borrowed some mascara from her daughter Sally, but it was too late. She could have rung her mother in Northam, but it was too late. Seven minutes of solitude she had, and then she would descend.'
+            '<<20.23|9p>>. In a few minutes she would go down.She could have borrowed some mascara from her daughter Sally, but it was too late. She could have rung her mother in Northam, but it was too late. Seven minutes of solitude she had, and then she would descend.'
           ],
           [
             1,
             'Timestr [20:24]: 8.24',
-            'Peach checked his watch. <<8.24|9j>>. If he wasn\'t in a taxi in twenty minutes he\'d be done for.'
+            'Peach checked his watch. <<8.24|9p>>. If he wasn\'t in a taxi in twenty minutes he\'d be done for.'
           ],
           [
             1,
@@ -6476,12 +6476,12 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [20:43]: 8.43',
-            '\'<<8.43|9j>>,\' said Thomas Flanagan, as he cut the cards placed before him by Gauthier Ralph. There was a moment\'s pause, during which the spacious room was perfectly silent.'
+            '\'<<8.43|9p>>,\' said Thomas Flanagan, as he cut the cards placed before him by Gauthier Ralph. There was a moment\'s pause, during which the spacious room was perfectly silent.'
           ],
           [
             1,
             'Timestr [20:44]: 8.44',
-            'The clock\'s pendulum beat every second with mathematical regularity, and each player could count every sixtieth of a minute as it struck his ear."<<8.44|9j>>!" said John Sullivan, in a voice that betrayed his emotion.Only one minute more and the wager would be won.'
+            'The clock\'s pendulum beat every second with mathematical regularity, and each player could count every sixtieth of a minute as it struck his ear."<<8.44|9p>>!" said John Sullivan, in a voice that betrayed his emotion.Only one minute more and the wager would be won.'
           ],
           [
             1,
@@ -6501,7 +6501,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [20:49]: 8.49',
-            '<<8.49|9j>>. I took the phone, cleared my throat, and dialled the keep, the packs stronghold on the outskirts of Atlanta. Just keep it professional. Less pathetic that way.'
+            '<<8.49|9p>>. I took the phone, cleared my throat, and dialled the keep, the packs stronghold on the outskirts of Atlanta. Just keep it professional. Less pathetic that way.'
           ],
           [
             1,
@@ -6531,7 +6531,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [20:53]: eight fifty-three',
-            'Only <<eight fifty-three|9j>>. The partners\' decision meeting starts in seven minutes. I\'m not sure I can bear this.'
+            'Only <<eight fifty-three|9f>>. The partners\' decision meeting starts in seven minutes. I\'m not sure I can bear this.'
           ],
           [
             1,
@@ -6631,7 +6631,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [21:09]: 9.09',
-            '<<9.09|9j>>. Too late to turn around and go back. Too late, too dangerous.'
+            '<<9.09|9p>>. Too late to turn around and go back. Too late, too dangerous.'
           ],
           [
             1,
@@ -6646,7 +6646,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [21:15]: 9.15',
-            '<<9.15|9j>>. Did Roberts pay you yet?'
+            '<<9.15|9p>>. Did Roberts pay you yet?'
           ],
           [
             1,
@@ -6976,7 +6976,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [22:41]: 10:41',
-            'He climbed into the front seat and started the car. It started with a merry powerful hum, ready to go. "There, the bastards", said Julian, and smashed the clock with the bottom of the bottle, to give them an approximate time. It was <<10:41|2>>'
+            'He climbed into the front seat and started the car. It started with a merry powerful hum, ready to go. "There, the bastards", said Julian, and smashed the clock with the bottom of the bottle, to give them an approximate time. It was <<10:41|9f>>'
           ],
           [
             1,

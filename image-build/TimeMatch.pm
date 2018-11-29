@@ -65,10 +65,11 @@ my $min_word_re =
 my $sec_word_re = $min_word_re;
 
 # Hour digits
-my $hour_dig_re     = qr{ [01]?\d | 2[0-4] }xin;       # 00-24
+my $hour_dig_re     = qr{ [01]?\d | 2[0-4] }xin;       # 0 or 00-24
+my $hour0_dig_re    = qr{ [01]?\d | 2[0-4] }xin;       # 00-24
 my $hour12_dig_re   = qr{ [1-9] | 1[0-2] }xin;         # 1-12
-my $hour24nz_dig_re = qr{ 0?[1-9] | 1\d | 2[0-4] }xin; # 01-24
-my $hour_h_dig_re   = qr{ 1[3-9] | 2[0-4] }xin;       # 13-24
+my $hour24nz_dig_re = qr{ 0?[1-9] | 1\d | 2[0-4] }xin; # 1 or 01-24
+my $hour_h_dig_re   = qr{ 1[3-9] | 2[0-4] }xin;        # 13-24
 my $hour24_dig_re   = $hour_dig_re;
 
 # Min / sec digits
@@ -120,19 +121,20 @@ my $short_before_re = qr{   $short_re \s+    before
                         |   near ( \s+ on )?
                         |   towards?
                         |   lacks \s+ of
+                        |   almost ( \s ( gone | at ) )?
+                        |   just \s+ about
                         }xin;
-my $around_re       = qr{ ( ( just )  \s+ )? about
-                        | almost
+my $around_re       = qr{ about
                         | approximately
                         | around
                         }xin;
-my $short_after_re  = qr{ ( $short_re \s+ )? after
-                        | past
-                        }xin;
+my $on_or_after_re  = qr{ ( $short_re \s+ )? gone }xin;
+my $short_after_re  = qr{ ( $short_re \s+ )? ( after | past ) }xin;
 my $far_after_re    = qr{   $far_re   \s+    after      }xin;
 
 my $rel_words       = qr{ $far_before_re | $short_before_re
                         | $around_re
+                        | $on_or_after_re
                         | $far_after_re  | $short_after_re
                         }xin;
 
@@ -670,7 +672,7 @@ sub get_matches {
     push @r,qr{ $bb_re
                 (?<pr>
                   ( waited | arrive s? | called | expired
-                  | it \s+ ( is | was ) | twas | it['‘’]?s | begin | end | it
+                  | only | it \s+ ( is | was ) | twas | it['‘’]?s | begin | end | it
                   | ( come | turn ) \s+ on
                   ) \s+
                   ( ( exactly | precisely ) \s+ )?
@@ -680,7 +682,7 @@ sub get_matches {
                   $hour12_re ( ( [-:.] | \s+ )? $min0_re )?
                 )
                 (?<po>
-                  [.…;:?!""''‘’,“”] ( \s | \z )
+                  ( \z | [.…;:?!,]? ['"‘’“”] | [.…;:?!,] ( \s+ | \z ) | \s+ [-—]+ \s+)
                 | \s+ ( and | [-—] ) \s+
                 )
                 (?{ $branch = "9f"})
@@ -811,22 +813,37 @@ sub get_matches {
               }xin;
 
     # The only time in a sentence
-    # See also 9l and 9k
+    # See also 9l, 9p, and 9k
     push @r,qr{ (?<pr>
                   ( \A | ['"‘’“”] | [.…;:?!] \s+ | \s+ [-—]+ \s+ )
                   ( ( only | just | it['‘’]?s | it \s+ is | the ) \s+ )?
                 )
                 (?<t1>
                   ( $rel_words \s+ )?
-                  ( $hour_dig_re [.:] $minsec0_dig_re ( [.:] $minsec0_dig_re )?
-                  | $hour24_word_re ( \s+ | [-] ) $min_word_re ( ,? \s* $ampm_re )?
-                  )
+                  $hour24_word_re ( \s+ | [-] ) $min_word_re ( ,? \s* $ampm_re )?
                 )
                 (?<po>
                   ( [-] $minsec_dig_re )?
                   ( \s+ ( now | precisely | exactly ) )?
                   ( \z | [.…;:?!,]? ['"‘’“”] | [.…;:?!,] ( \s+ | \z ) | \s+ [-—]+ \s+) )
                 (?{ $branch = "9j"})
+              }xin;
+    # Handle the 6.15 differently so the - doesn't require spaces around it
+    # And so that the leading puctuation can be adjacent
+    push @r,qr{ (?<pr>
+                  ( \A | ['"‘’“”] | [.…;:?!] \s* | \s* [-—]+ \s* )
+                  ( ( only | just | it['‘’]?s | it \s+ is | the ) \s+ )?
+                )
+                (?<t1>
+                  ( $rel_words \s+ )?
+                  $hour_dig_re [.:] $minsec0_dig_re ( [.:] $minsec0_dig_re )?
+                  ( - $minsec0_dig_re )?
+                )
+                (?<po>
+                  ( [-] $minsec_dig_re )?
+                  ( \s+ ( now | precisely | exactly ) )?
+                  ( \z | [.…;:?!,]? ['"‘’“”] | [.…;:?!,] ( \s+ | \z ) | \s* [-—]+ \s*) )
+                (?{ $branch = "9p"})
               }xin;
     # The only time, but as digits with no separators... but often comes up as years
     push @r,qr{ (?<pr>
@@ -835,7 +852,7 @@ sub get_matches {
                 )
                 (?<t1>
                   ( $rel_words \s+ )?
-                  ( $hour_dig_re $minsec0_dig_re ( $minsec0_dig_re )? )
+                  $hour_dig_re $minsec0_dig_re ( $minsec0_dig_re )?
                 )
                 (?<po>
                   ( [-] $minsec_dig_re )?
@@ -1011,7 +1028,7 @@ sub get_matches {
 
     push @r,qr{ (?<pr>
                   ( \A | ['"‘’“”] | [.…;:?!,] \s+ )
-                  ( ( | it \s+ ( is | was ) | twas | it['‘’]?s | because ) \s+)?
+                  ( ( only | it \s+ ( is | was ) | twas | it['‘’]?s | because ) \s+)?
                 )
                 (?<t1>
                   ( $rel_at_words | ( close \s+ )? upon | till | by ) \s+
@@ -1134,6 +1151,32 @@ sub get_matches {
                 (?{ $branch = "16"})
               }xin;
 
+    # Nearer to one than half past
+    push @r,qr{ \b
+                (?<t1> nearer \s+ to \s+
+                       $hour_re \s+
+                       ( $oclock_re \s+ )? than \s+
+                       $fraction_re [-\s]+ past
+                )
+                $ba_re
+                (?{ $branch = "17"})
+              }xin;
+
+    # I tried to pull her off about 0230, and there ...
+    push @r,qr{ (?<li> $not_in_match )
+                (?<t1>
+                  ( ( $rel_at_words \s+ )? 0\d           $minsec0_dig_re
+                  |   $rel_at_words \s+    $hour0_dig_re $minsec0_dig_re
+                  )
+                  ( ,? \s* $ampm_re )? )
+                (?! \s+ $never_follow_times_re \b
+                |  [-—]
+                |  \. \d+  # Skip dates 19.10.39, Churchill, Gathering Storm
+                )
+                $ba_re
+                (?{ $branch = "18:TIMEY"})
+              }xin;
+
     # TODO: Military times?
     #   Thirteen hundred hours; Zero five twenty-three; sixteen thirteen
 
@@ -1155,7 +1198,7 @@ sub extract_times {
               ( # Exact time
                 ( (?<rl> $rel_at_words ) \s+ )?
                   (?<hr> $hour24_re | $all_ecclesiastical ) [-\s.:…]*
-                ( (?<mn> $min_re    ) \s* )?
+                ( (?<mn> $min_re ( (?<rl> - ) $min_re )? ) \s* )?
                 ( \s+ $oclock_re )?
                 ( [,]? \s* (?<am> $ampm_re   ) )?
                 (?{ $branch = "1"})
@@ -1279,6 +1322,14 @@ sub extract_times {
                 ( \s+ $oclock_re )?
                 ( ,? \s+ (?<am> $ampm_re ) )?
                 (?{ $branch = "12"})
+
+              | # nearer to one than half past
+                  (?<rl> nearer \s+ to ) \s+
+                  (?<hr> $hour24_re ) \s+
+                  ( $oclock_re \s+ )? than \s+
+                  (?<mn> $fraction_re ) [-\s]+ past
+                ( ,? \s+ (?<am> $ampm_re ) )?
+                (?{ $branch = "12"})
               )
               \z}xin)
         {
@@ -1372,9 +1423,16 @@ sub extract_times {
 
             # Turn the minutes into numbers
             if ($min !~ /^\d+$/) {
-                $min =~ s{ \A (.*) \s+ and \s+ .* \z }{$1}xi
-                    if $rel eq 'between';
+                if ($rel eq 'between') {
+                    $min =~ s{ \A (.*?) \s+ and \s+ .* \z }{$1}xi;
+                }
+                elsif ($rel eq '-') {
+                    $min =~ s{ \A (.*) - .* \z }{$1}xi;
+                    $dir = 'after';
+                }
                 $min = min2num($min);
+
+                $min -= 30 if $rel =~ m{\A nearer \s+ to \z}xin and $min == 30;
             }
             $min += min2num($m2);
 
@@ -1563,6 +1621,7 @@ sub get_spread {
                                       | close ( \s+ upon )?
                                       ) \z}xin;
     return ( -6,  6, '~' )  if $rel =~ m{\A $around_re       \z}xin;
+    return (  0,  6, '~' )  if $rel =~ m{\A $on_or_after_re  \z}xin;
     return (  1,  9, '>' )  if $rel =~ m{\A $short_after_re  \z}xin;
     return (  5, 15, '>>')  if $rel =~ m{\A $far_after_re    \z}xin;
 
@@ -1583,8 +1642,13 @@ sub get_spread {
             }
             return (0, $rmin, '>');
         }
-        elsif ($rel =~ m{\A between \z}xin and
-               $min =~ m{\A (?<a> $min_re) \s+ ( and | or ) \s+ (?<b> $min_re) \z }xin)
+        elsif ($rel =~ m{\A ( between | - ) \z}xin and
+               $min =~ m{\A (?<a> $min_re)
+                            ( \s+ ( and | or ) \s+
+                            | -
+                            )
+                            (?<b> $min_re) \z
+                        }xin)
         {
             my $a = min2num($+{a});
             my $b = min2num($+{b});
@@ -1602,6 +1666,8 @@ sub get_spread {
     else {
         return ( 0,  0, '' )  if $rel =~ m{\A ( until | at ) \z}xin;
         return (-5, -1, '<')  if $rel =~ m{\A ( before ) \z}xin;
+
+        return ( 1, 15, '+') if "$rel $min" =~ m{\A nearer \s+ to \s+ half \z}xin;
     }
 
     confess "Can't parse rel '$rel'";
