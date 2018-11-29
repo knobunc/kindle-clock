@@ -44,7 +44,7 @@ sub search_zip {
 
     my $members_seen = 0;
     my @members;
-    foreach my $member (sort {$a cmp $b} $zip->members()) {
+    foreach my $member (sort {$a->fileName() cmp $b->fileName()} $zip->members()) {
         my $name = $member->fileName();
         push @members, $name;
         next if $name !~ /\.([x]?html?|xml)$/;
