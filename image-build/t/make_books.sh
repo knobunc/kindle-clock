@@ -15,3 +15,9 @@
 ./find_times.pl ~/Calibre\ Library/Winston\ S.\ Churchill/The\ Gathering\ Storm\ \(2058\)/*epub > t/books/"Winston S. Churchill - The Gathering Storm.dmp"
 
 ./find_times.pl ~/Calibre\ Library/Anthony\ Burgess/A\ Clockwork\ Orange\ \(55\)/*epub > t/books/"Anthony Burgess - A Clockwork Orange.dmp"
+
+./find_times.pl ~/Calibre\ Library/William\ Gibson/Neuromancer\ \(466\)/*epub > t/books/"William Gibson - Neuromancer.dmp"
+
+./find_times.pl ~/Calibre\ Library/Neal\ Stephenson/Cryptonomicon\ \(297\)/*epub > t/books/"Neal Stephenson - Cryptonomicon.dmp"
+
+./find_times.pl ~/Calibre\ Library/Clifford\ Stoll/The\ Cuckoo\'s\ Egg_\ Tracking\ a\ Spy\ Through\ the\ Maze\ of\ Computer\ Espionage\ \(1443\)/*epub > t/books/"Clifford Stoll - The Cuckoo's Egg.dmp"

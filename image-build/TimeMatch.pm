@@ -246,7 +246,7 @@ my $never_follow_times_re =
         | after | since
         | degrees
         | centimeter | cm | meter | kilometer | km | klick
-        | inch | inches | foot | feet | ft | yard | yd | mile | mi
+        | inch | inches | foot | feet | ft | yard | yd | mile | mi | knot | kt
         | cubic | square
         | hundred | thousand | million | billion
         | ( \w+ \s+)? $time_periods_re
@@ -259,8 +259,9 @@ my $never_follow_times_re =
         | book  | volume | plate | illustration | page
         | side  | edge   | corner | face
         | Minister
-        | possibilities  | against | vote | machine | box
+        | possibilities  | percent | against | vote | machine | box
         | on \s+ the \s+ field
+        | ( tb | gb | mb | kb ) (ps)?
         )
         s?
       }xin;
@@ -341,7 +342,7 @@ sub do_match {
     # Get absolute words out
     $line =~ s{<< ( ( at | by ) \s )}{$1<<}xgi;
 
-    # Undo the masks
+    # Undo the masks (unmask)
     $line =~ s{<< ( [^>]+ ) \| [yx]\d+\w? >>}{$1}xgi;
 
     return $line;
@@ -377,8 +378,8 @@ sub get_masks {
                 (?{ $branch = "x2"; })
               }xin;
 
-    # one's
-    push @r,qr{ (?<t1> \b one ['‘’] s \b )
+    # one's, the only one
+    push @r,qr{ (?<t1> \b one ['‘’] s \b | \b the \s+ only \s+ one \b )
                 (?{ $branch = "x3"; })
               }xin;
 
@@ -412,7 +413,16 @@ sub get_masks {
                 (?{ $branch = "x6"; })
               }xin;
 
-    # months or special days followed by years
+    # months or special days followed by years, dates
+    push @r,qr{ (?<li> $not_in_match )
+                (?<t1> \d\d? \. \d\d? \. \d\d?
+                | \d+ \s+ $month_re ( \s+ \d+ (, \s+ \d+)? )?
+                | $month_re \s+ \d+ (, \s+ \d+)?
+                )
+                (?! [:.-] \d )
+                $ba_re
+                (?{ $branch = "x7a"})
+              }xin;
     push @r,qr{ (?<pr> ( $month_re | $special_day_re )[,]? \s+ )
                 (?<t1> \d{4} )
                 (?! ,? \s* $ampm_re)
@@ -461,22 +471,22 @@ sub get_masks {
                 (?<t1> $min_word_re \s+ to \s+ $hour_h_re )
                 $ba_re
                 (?! \s+ to )
-                (?{ $branch = "x11"})
+                (?{ $branch = "x11"; })
               }xin;
 
-    # Page numbers
+    # Numbers
     push @r,qr{ (?<li> $not_in_match )
-                (?<t1> pp?\. \s+ \d+ )
+                (?<t1>
+                  ( pp?\.   # Page numbers
+                  | no\.?
+                  | number
+                  ) \s+
+                  \d+
+                )
                 $ba_re
-                (?{ $branch = "x12"})
+                (?{ $branch = "x12"; })
               }xin;
 
-    # Dates
-    push @r,qr{ (?<li> $not_in_match )
-                (?<t1> \d\d? \. \d\d? \. \d\d? )
-                $ba_re
-                (?{ $branch = "x13"})
-              }xin;
 
     return(\@r);
 }
@@ -711,8 +721,10 @@ sub get_matches {
     my $lnr = qr{ $low_num_re | zero | oh }xin;
     push @r,qr{ $bb_re
                 (?<t1> ( $rel_words \s+ )?
-                  ( $hour_dig_re [.:]? $minsec_dig_re
-                    ( [.:]? $minsec_dig_re ( - $minsec_dig_re )? )?
+                  ( $hour_dig_re [.:] $minsec_dig_re
+                    ( [.:] $minsec_dig_re ( - $minsec_dig_re )? )?
+                  | $hour_dig_re $minsec0_dig_re
+                    ( ( [.:] $minsec_dig_re | $minsec0_dig_re ) ( - $minsec_dig_re )? )?
                   | ( $lnr \s+ ){3} $lnr
                   )
                   ( h | \s* ( hrs | hours ) )
@@ -1111,8 +1123,8 @@ sub get_matches {
               }xin;
 
     push @r,qr{ \b
-                (?<pr> \b $hour24_re )
-                (?<t1> \s+ strokes )
+                (?<t1> \b $hour24_re )
+                (?<po> \s+ strokes )
                 $ba_re
                 (?{ $branch = "15:TIMEY"})
               }xin;
