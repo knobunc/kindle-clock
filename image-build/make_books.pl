@@ -9,6 +9,7 @@ my @sources =
     (
      "Anthony Burgess/A Clockwork Orange",
      "Arthur Conan Doyle/The Memoirs of Sherlock Holmes",
+     "Charles Stross/The Apocalypse Codex",
      "Clifford Stoll/The Cuckoo's Egg_ Tracking a Spy Through the Maze of Computer Espionage",
      "David Brin/Earth",
      "Frank Herbert/Dune",
