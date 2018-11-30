@@ -429,7 +429,7 @@ sub get_masks {
 
     # months or special days followed by years, dates
     push @r,qr{ \b
-                (?<t1> \d\d? \. \d\d? \. \d\d?
+                (?<t1> \d+ ( \. \d+ ){2,}+
                 | \d+ \s+ $month_re ( \s+ \d+ (, \s+ \d+)? )? (?! [:.-] \d )
                 | $month_re \s+ \d+           (, \s+ \d+)?    (?! [:.-] \d )
                 )
@@ -487,10 +487,11 @@ sub get_masks {
                 (?{ $branch = "x11"; })
               }xin;
 
-    # Numbers
+    # Numbers, page number
+    # number 9, pp 9
     push @r,qr{ (?<li> $not_in_match )
                 (?<t1>
-                  ( pp?\.   # Page numbers
+                  ( pp?\.
                   | no\.?
                   | number
                   ) \s+
@@ -498,6 +499,17 @@ sub get_masks {
                 )
                 $ba_re
                 (?{ $branch = "x12"; })
+              }xin;
+
+    # Numbers after punctuation at the end of a line with no trailing punctuation
+    # These seem to be footnotes or page numbers mis-scanned
+    push @r,qr{ (?<li> [.?!] \s+ )
+                (?<t1>
+                  \d+
+                )
+                (?<lo> \s* )
+                \z
+                (?{ $branch = "x13"; })
               }xin;
 
 
@@ -1490,6 +1502,25 @@ sub extract_times {
             # Turn the hours into numbers
             if ($hour !~ /^\d+$/) {
                 if ($hour =~ $all_named_times) {
+                    # Transform the hour into something we can look up
+                    my $h = lc($hour);
+                    $h =~ s{\-}{};
+                    $h =~ s{\s+}{ };
+
+                    # Translate the prayer times
+                    if ($h =~ s{ prayer}{}) {
+                        my %pts = (
+                            'dawn'          => 'lauds',
+                            'early morning' => 'prime',
+                            'midmorning'    => 'terce',
+                            'midday'        => 'sext',
+                            'midafternoon'  => 'none',
+                            'evening'       => 'vespers',
+                            'night'         => 'compline',
+                            );
+                        $h = $pts{$h};
+                    }
+
                     # Handle special named times
                     my %time_strs =
                         (
@@ -1508,8 +1539,8 @@ sub extract_times {
                          'vespers'      => ["around 4:30 PM", undef,      00],
                          'compline'     => ["around 6:00 PM", undef,      00],
                         );
-                    my $tr = $time_strs{lc($hour)}
-                      or die "Unable to work out a time for '$hour'";
+                    my $tr = $time_strs{$h}
+                      or die "Unable to work out a time for '$hour' ($h)";
 
                     # Handle times relative to this. i.e. just before matins
                     my ($start_str, $end_str, $adj) = @$tr;
