@@ -93,30 +93,6 @@ With the full moon, I expected more hacking and planned on sleeping under the de
           ],
           [
             1,
-            '[00:51] The Cuckoo\'s Egg_ Tracking a Spy Through t - Clifford Stoll.epub (Stoll, Clifford - The Cuckoo\'s Egg_split_13.htm) - 0.51',
-            '
-LBL> telnet NIC.ARPA     The hacker asks for the Network Information Center
-Trying ...
-Connected to 10.0.<<0.51|9p>>.
-Escape character is \'"]\'.
-+-----------DDN Network Information Center---------------------
-|
-| For user and host Information, type: WHOIS <carriage return>
-| For NIC Information, type: NIC <carriage return>
-|
-+--------------------------------------------------------------
-@ whois wsmr             He searches for WSMR
-White Sands Missile Range   WSMR-NET-GW.ARMY.MIL   26.7.0.74
-White Sands Missile Range   WSMR-TRAPS.ARMY.MIL    192.36.99.2
-White Sands Missile Range   WSMR-AIMS.ARMY.MIL     128.44.8.1
-White Sands Missile Range   WSMR-ARMTE-GWARMY.MIL  128.44.4.1
-White Sands Missile Range   WSMR-NELARMY.MIL       128.44.11.3
-
-
-WSMR? White Sands Missile Range. With two commands and twenty seconds, he found five computers at White Sands.',
-          ],
-          [
-            1,
             '[14:30] The Cuckoo\'s Egg_ Tracking a Spy Through t - Clifford Stoll.epub (Stoll, Clifford - The Cuckoo\'s Egg_split_14.htm) - 2:30 in the afternoon',
             'Sure enough, at <<2:30 in the afternoon|2a>>, the printer advanced a page, and the hacker logged in. Although this time he used the stolen account, Goran, I didn\'t doubt that it was the hacker: he immediately checked who was on the computer. Finding no operator present, he searched out the Gnu-Emacs security hole, and started his delicate minuet to become super-user.',
           ],
@@ -129,32 +105,6 @@ WSMR? White Sands Missile Range. With two commands and twenty seconds, he found 
             1,
             '[ap 11:00] The Cuckoo\'s Egg_ Tracking a Spy Through t - Clifford Stoll.epub (Stoll, Clifford - The Cuckoo\'s Egg_split_14.htm) - 1060',
             'The woman\'s voice came on. "It\'s <<1060|9f>>, all right. That\'s all, boys. I\'ll shuffle some tissues and ship it on upstairs."',
-          ],
-          [
-            1,
-            '[00:51] The Cuckoo\'s Egg_ Tracking a Spy Through t - Clifford Stoll.epub (Stoll, Clifford - The Cuckoo\'s Egg_split_15.htm) - 0.51',
-            '
-LBL>telnet Nic.arpa
-Trying...
-Connected to 10.0.<<0.51|9p>>.
-+-------------DDN Network    Information    Center--------------|
-| For TAG news, type:                  TACNEW8 <carriage return>
-| For user and host Information, type: WHOIS <carriage return>
-| For NIC Information, type:           NIC <carriage return>
-+---------------------------------------------------------------|
-SBI-NIC, TOPS-20 Monitor 6.1(7341)-4
-@Whois cia
-Central Intelligence Agency (CIA)
-  Office of Data Processing
-  Washington, DC 20505
-  These are 4 known members:
-Plschoff, J. (JF27)       FISHOFF@A.ISI.EDU (703) 351-3305
-Gresham, D. L (DLG33)     GRESHAM@A.ISI.EDU (703) 351-8957
-Manning, Edward J. (EM44) MANNDfG@BBN.ARPA  (703) 281-6161
-Ziegler, Mary (MZ9)       MARY@NNS.ARPA     (703) 351-8249
-
-
-He had asked for the pathway into the CIA. But instead of their computer, he found four people who worked at the CIA.',
           ],
           [
             1,
@@ -645,16 +595,6 @@ Shazam: the door had swung wide open. He\'d logged in as Field Service. Not just
           ],
           [
             1,
-            '[ap 00:00] The Cuckoo\'s Egg_ Tracking a Spy Through t - Clifford Stoll.epub (Stoll, Clifford - The Cuckoo\'s Egg_split_4.htm) - 1200',
-            "1200 baud, huh? That says something. The baud rate measures the speed that data flows through a line. And 1200 baud means 120 characters per second\x{2014}a few pages of text every minute. Dial-up modems over telephone lines run at <<1200|3:1>> baud. Any lab employee here on the hill would run at high speed: 9600 or 19,200 baud. Only someone calling through a modem would let their data dribble out a 1200-baud soda straw. And the anonymity and convenience of these dial-in lines are most inviting to strangers. So pieces were beginning to fit together. I couldn't prove that we had a hacker in the system, but someone dialed into our lab and used Sventek's account.",
-          ],
-          [
-            1,
-            '[ap 00:00] The Cuckoo\'s Egg_ Tracking a Spy Through t - Clifford Stoll.epub (Stoll, Clifford - The Cuckoo\'s Egg_split_4.htm) - 1200',
-            'But the high-speed lines come from people at LBL. We\'d already traced one suspicious connection to a 1200-baud line. There are fewer of them (we can\'t afford too many incoming phone lines), and they\'re slower. Fifty lines at <<1200|3:1>> baud might generate a hundred pages a minute, still far too fast to watch on the screen of my terminal. I might not be able to watch fifty people running at once, but maybe I could print out all their interactive sessions, and read the piles of paper at my leisure. A paper printout would provide hard proof of someone messing around; if we found nothing suspicious, we could drop the whole project.',
-          ],
-          [
-            1,
             '[03:00] The Cuckoo\'s Egg_ Tracking a Spy Through t - Clifford Stoll.epub (Stoll, Clifford - The Cuckoo\'s Egg_split_40.htm) - 3 a.m.',
             'Afterwards, Steve White filled me in on the details. Wolfgang Hoffman, awakened at <<3 a.m.|5>>, started tracing that line from Frankfurt. But the telephone engineer assigned to the Hannover exchange had already gone home for the night. Close, but no cigar.',
           ],
@@ -755,7 +695,7 @@ Shazam: the door had swung wide open. He\'d logged in as Field Service. Not just
           ],
           [
             1,
-            '[ap 00:00] The Cuckoo\'s Egg_ Tracking a Spy Through t - Clifford Stoll.epub (Stoll, Clifford - The Cuckoo\'s Egg_split_47.htm) - 120',
+            '[ap 01:20] The Cuckoo\'s Egg_ Tracking a Spy Through t - Clifford Stoll.epub (Stoll, Clifford - The Cuckoo\'s Egg_split_47.htm) - 120',
             'So I popped my sneakers into Claudia\'s microwave, and pressed a few buttons. The display read "<<120|9l:0>>." I wondered whether that meant 120 seconds, 120 watts, 120 degrees, or 120 light-years. I dunno.',
           ],
           [

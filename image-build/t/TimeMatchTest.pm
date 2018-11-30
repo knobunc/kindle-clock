@@ -92,7 +92,7 @@ sub check_extract {
         local $TODO = "should work"
             if ($match & T_EXT) != 0;
 
-        is(int(@times), int(@matches), "Extract: '$string'". join(", ", map {"'$_'"} @matches));
+        is(int(@times), int(@matches), "Extract $name: '$string'". join(", ", map {"'$_'"} @matches));
     }
 }
 
@@ -117,9 +117,9 @@ sub check_extract_times {
             my @matches = $string =~ m{<< ([^|>]+) [|] \d+ \w? (?: :\d)? >>}xg;
 
             ok(grep({ m{^\Q$time\E:} } @times),
-               "Match time $time: "
-               . join(", ", map {"'$_'"} @matches)
-               . "; got: ". join(", ", map {"'$_'"} @times)
+               "Match time $name: "
+               . join(", ", map {"[$_]"} @matches)
+               . "; got: ". join(", ", map {"[$_]"} @times)
                 );
         }
         else {
@@ -132,9 +132,9 @@ sub check_extract_times {
             my @matches = $string =~ m{<< ([^|>]+) [|] \d+ \w? (?: :\d)? >>}xg;
 
             ok(grep({ m{^\Q$time\E:} } @times) || ($time eq '' and @times == 0),
-               "Match time $time: "
-               . join(", ", map {"'$_'"} @matches)
-               . "; got: ". join(", ", map {"'$_'"} @times)
+               "Match time $name: "
+               . join(", ", map {"[$_]"} @matches)
+               . "; got: ". join(", ", map {"[$_]"} @times)
                 );
         }
     }

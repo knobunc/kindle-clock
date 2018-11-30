@@ -21,3 +21,10 @@
 ./find_times.pl ~/Calibre\ Library/Neal\ Stephenson/Cryptonomicon\ \(297\)/*epub > t/books/"Neal Stephenson - Cryptonomicon.dmp"
 
 ./find_times.pl ~/Calibre\ Library/Clifford\ Stoll/The\ Cuckoo\'s\ Egg_\ Tracking\ a\ Spy\ Through\ the\ Maze\ of\ Computer\ Espionage\ \(1443\)/*epub > t/books/"Clifford Stoll - The Cuckoo's Egg.dmp"
+
+./find_times.pl ~/Calibre\ Library/David\ Brin/Earth\ \(139\)/*epub > t/books/"David Brin - Earth.dmp"
+
+./find_times.pl ~/Calibre\ Library/Roger\ Zelazny/Nine\ Princes\ in\ Amber\ \(339\)/*epub > t/books/"Roger Zelazny - Nine Princes in Amber.dmp"
+
+./find_times.pl ~/Calibre\ Library/J.\ R.\ R.\ Tolkien/The\ Fellowship\ of\ the\ Ring\ \(491\)/*epub > t/books/"J. R. R. Tolkien - The Fellowship of the Ring.dmp"
+

@@ -25,7 +25,16 @@ my $ecclesiastical_re =
       | ( dawn | early \s+ morning | mid-morning | mid-?day | mid-afternoon | evening | night )
         \s+ prayer
       }xin;
-my $all_ecclesiastical = qr{ $ecclesiastical_re | prime | nones }xin;
+my $meal_times = qr{ breakfast
+                   | second \s+ breakfast
+                   | lunch
+                   | afternoon \s+ tea
+                   | dinner
+                   | supper
+                   };
+my $all_named_times = qr{ $ecclesiastical_re | prime | nones
+                        | $meal_times
+                        }xin;
 my $midnight_noon_re = qr{ $noon_re | $midnight_re | $ecclesiastical_re }xin;
 
 # Numbers 1-9 as words
@@ -261,16 +270,17 @@ my $never_follow_times_re =
         | Minister
         | possibilities  | percent | against | vote | machine | box
         | on \s+ the \s+ field
-        | ( tb | gb | mb | kb ) (ps)?
+        | ( tb | gb | mb | kb ) (p)? | baud
         )
         s?
+      | [.,] \d
       }xin;
 
 # Set the branch state variable
 my $branch = "x";
 
 sub do_match {
-    my ($line) = @_;
+    my ($line, $raw) = @_;
 
     #$line =~ s{ ( $not_in_match*? ) ((just)?) }{[$1]>$2<}gxi;
     #return $line;
@@ -343,7 +353,8 @@ sub do_match {
     $line =~ s{<< ( ( at | by ) \s )}{$1<<}xgi;
 
     # Undo the masks (unmask)
-    $line =~ s{<< ( [^>]+ ) \| [yx]\d+\w? >>}{$1}xgi;
+    $line =~ s{<< ( [^>]+ ) \| [yx]\d+\w? >>}{$1}xgi
+        unless $raw;
 
     return $line;
 }
@@ -414,12 +425,11 @@ sub get_masks {
               }xin;
 
     # months or special days followed by years, dates
-    push @r,qr{ (?<li> $not_in_match )
+    push @r,qr{ \b
                 (?<t1> \d\d? \. \d\d? \. \d\d?
-                | \d+ \s+ $month_re ( \s+ \d+ (, \s+ \d+)? )?
-                | $month_re \s+ \d+ (, \s+ \d+)?
+                | \d+ \s+ $month_re ( \s+ \d+ (, \s+ \d+)? )? (?! [:.-] \d )
+                | $month_re \s+ \d+           (, \s+ \d+)?    (?! [:.-] \d )
                 )
-                (?! [:.-] \d )
                 $ba_re
                 (?{ $branch = "x7a"})
               }xin;
@@ -642,7 +652,7 @@ sub get_matches {
     # Due ... at eleven-fifty-one
     # Knocks ... at 2336
     push @r,qr{ $bb_re
-                (?<pr> ( due | knocks ) \s+ [\w\s]* at \s+ )
+                (?<pr> ( due | knocks ) \s+ (\w+ \s+){0,5} at \s+ )
                 (?<t1> $hour24_re [-\s.:]* $min_re ( ,? \s* $ampm_re )?)
                 $ba_re
                 (?{ $branch = "5d"})
@@ -1251,7 +1261,6 @@ sub get_matches {
                   ( ,? \s* $ampm_re )? )
                 (?! \s+ $never_follow_times_re \b
                 |  [-—]
-                |  \. \d+  # Skip dates 19.10.39, Churchill, Gathering Storm
                 )
                 $ba_re
                 (?{ $branch = "18:TIMEY"})
@@ -1288,7 +1297,16 @@ sub extract_times {
         my $lnr = qr{ $low_num_re | zero | oh }xin;
         if ($str =~
             m{\A
-              ( # Exact time
+              ( # one ... thirty ... four
+                ( (?<rl> $rel_at_words ) \s+ )?
+                                         (?<hr> $hour24_word_re )
+                  \s+ ( \Q...\E | … )\s* (?<mn> $min_word_re )
+                ( \s* ( \Q...\E | … )\s* (?<m3> $low_num_re ) )?
+                ( \s+ $oclock_re )?
+                ( ,? \s+ (?<am> $ampm_re ) )?
+                (?{ $branch = "9"})
+
+              | # Exact time
                 ( (?<rl> $rel_at_words ) \s+
                   ( ( at | to ) \s+ )?
                 | in \s+ ( (?<rl> $rel_at_words ) \s+ )?
@@ -1296,8 +1314,13 @@ sub extract_times {
                   it \s+ (would | will) \s+ be \s+ (a \s+)?
                 | (?<rl> close \s+ upon ) \s+
                 )?
-                  (?<hr> $hour24_re | $all_ecclesiastical ) [-\s.:…]*
-                ( (?<mn> $min_re ( (?<rl> - ) $min_re )? ) \s* )?
+                (             (?<hr>  $hour24_re | $all_named_times ) \s*
+                  ( [-\s.:…]+ (?<mn>  $min_re ( (?<rl> - ) $min_re )? ) \s* )?
+                  ( [-\s.:…]+ (?<sec> $sec_re ( (?<rl> - ) $min_re )? ) \s* )?
+                |   (?<hr>  $hour24_dig_re  )
+                  ( (?<mn>  $minsec0_dig_re ) )?
+                  ( (?<sec> $minsec0_dig_re ) )?
+                )
                 ( \s+ $oclock_re )?
                 ( [,]? \s* (?<am> $ampm_re   ) )?
                 ( ,? \s+ all \s+ but \s+ (?<n1> $min_re ) (\s+ minutes?)? )?
@@ -1391,15 +1414,6 @@ sub extract_times {
                 ( ,? \s+ (?<am> $ampm_re ) )?
                 (?{ $branch = "8"})
 
-              | # one ... thirty ... four
-                ( (?<rl> $rel_at_words ) \s+ )?
-                  (?<hr> $hour24_word_re ) ( [\s\.]+ | [-] )
-                  (?<mn> $min_word_re )
-                ( \s* ... \s* (?<m3> $low_num_re ) )?
-                ( \s+ $oclock_re )?
-                ( ,? \s+ (?<am> $ampm_re ) )?
-                (?{ $branch = "9"})
-
               | # Two minutes before the clock struck noon
                   (?<mn> $min_word_re ) \s+ minutes? \s+
                   (?<dir> $till_re ) \s+
@@ -1438,7 +1452,7 @@ sub extract_times {
               \z}xin)
         {
             # Save the captured values
-            my @k = qw{ rl mn m2 m3 n1 dir hr am sec branch };
+            my @k = qw{ rl hr mn m2 m3 n1 sec dir am branch };
             my %c; @c{@k} = @+{@k};
             $c{branch} = $branch;
 
@@ -1457,14 +1471,14 @@ sub extract_times {
 
             # Turn the hours into numbers
             if ($hour !~ /^\d+$/) {
-                if ($hour =~ $all_ecclesiastical) {
+                if ($hour =~ $all_named_times) {
                     # Handle special named times
-
-                    # Ecclesiastical times
-                    #  Per Eco in "The Name of the Rose"
-                    #  See also: https://en.wikipedia.org/wiki/Liturgy_of_the_Hours
                     my %time_strs =
-                        ('matins'       => ["02:30 AM",       "03:00 AM", 30], # Between 2:30 & 3:00 AM
+                        (
+                         # Ecclesiastical times
+                         #  Per Eco in "The Name of the Rose"
+                         #  See also: https://en.wikipedia.org/wiki/Liturgy_of_the_Hours
+                         'matins'       => ["02:30 AM",       "03:00 AM", 30], # Between 2:30 & 3:00 AM
                          'vigils'       => ["02:30 AM",       "03:00 AM", 30], # Between 2:30 & 3:00 AM
                          'nocturns'     => ["02:30 AM",       "03:00 AM", 30], # Between 2:30 & 3:00 AM
                          'night office' => ["02:30 AM",       "03:00 AM", 30], # Between 2:30 & 3:00 AM
