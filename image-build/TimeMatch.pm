@@ -411,6 +411,7 @@ sub get_masks {
                      \d+ : \d+ ( - \d+ | - \d+ : \d+ )?
                 | \( \d+ : \d+ ( - \d+ | - \d+ : \d+ )? \)
                 | \[ \d+ : \d+ ( - \d+ | - \d+ : \d+ )? \]
+                | $min_word_re [-\s]+ $min_word_re
                 )
                 (?{ $branch = "x5"; })
               }xin;
