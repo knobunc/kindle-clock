@@ -710,10 +710,11 @@ sub get_matches {
     push @r,qr{ $bb_re
                 (?<pr>
                   ( waited | arrive s? | called | expired
-                  | only | it \s+ ( is | was ) | twas | it['‘’]?s | begin | end | it
+                  | it \s+ ( is | was ) | twas | it['‘’]?s | begin | end | it
                   | ( come | turn ) \s+ on
+#                  | still
                   ) \s+
-                  ( ( exactly | precisely ) \s+ )?
+                  ( ( exactly | precisely | only ) \s+ )?
                   ( ( at | upon | till | until ) \s+ )?
                 )
                 (?<t1> ( $rel_words \s+ )?
