@@ -2463,7 +2463,7 @@ sub get_csv_tests {
           [
             1,
             'Timestr [08:04]: 8:04',
-            '... every clerk had his particular schedule of hours, which coincided with a single pair of tram runs coming from the city: A had to come in at <<8|9c:0>>, B at <<8:04|2>>, C at <<8:08|2>> and so on, and the same for quitting times, in such a manner that never would two colleagues have the opportunity to travel in the same tramcar.'
+            '... every clerk had his particular schedule of hours, which coincided with a single pair of tram runs coming from the city: A had to come in at <<8|9c:1>>, B at <<8:04|2>>, C at <<8:08|2>> and so on, and the same for quitting times, in such a manner that never would two colleagues have the opportunity to travel in the same tramcar.'
           ],
           [
             1,
@@ -2473,7 +2473,7 @@ sub get_csv_tests {
           [
             1,
             'Timestr [08:08]: 8:08',
-            '... every clerk had his particular schedule of hours, which coincided with a single pair of tram runs coming from the city: A had to come in at <<8|9c:0>>, B at <<8:04|2>>, C at <<8:08|2>> and so on, and the same for quitting times, in such a manner that never would two colleagues have the opportunity to travel in the same tramcar.'
+            '... every clerk had his particular schedule of hours, which coincided with a single pair of tram runs coming from the city: A had to come in at <<8|9c:1>>, B at <<8:04|2>>, C at <<8:08|2>> and so on, and the same for quitting times, in such a manner that never would two colleagues have the opportunity to travel in the same tramcar.'
           ],
           [
             1,
@@ -3216,7 +3216,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [10:00]: Ten-thirty',
-            'The pundit sighed. \'Only a fool like me would leave his door open when a riot can occur at any moment, and only a fool like me would say yes to you,\' he said. \'What time?\' Just his head was sticking out of the partially opened door. The money from blessing the ice-cream factory must have dulled his desire for work, I thought. \'<<Ten|9k:1>>.\' \'<<Ten-thirty|9j>>.\' Without another word, he closed the door.'
+            'The pundit sighed. \'Only a fool like me would leave his door open when a riot can occur at any moment, and only a fool like me would say yes to you,\' he said. \'What time?\' Just his head was sticking out of the partially opened door. The money from blessing the ice-cream factory must have dulled his desire for work, I thought. \'<<Ten|9k:0>>.\' \'<<Ten-thirty|9j>>.\' Without another word, he closed the door.'
           ],
           [
             1,
@@ -3301,7 +3301,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [10:14]: ten fourteen',
-            "\x{201c}Okay. <<Ten fourteen|9j>>: Mrs. Narada reports that her cat has been attacked by a large dog. Now I send all the boys out looking, but they don't find anything until <<eleven|9c:0>>. Then one of them calls in that a big dog has just bitten holes in the tires on his golf cart and run off. <<Eleven thirty|9j>>: Dr. Epstein makes his first lost-nap call: dog howling. <<Eleven thirty-five|9j>>: Mrs. Norcross is putting the kids out on the deck for some burgers when a big dog jumps over the rail, eats the burgers, growls at the kids, runs off. First mention of lawsuit.\x{201d}"
+            "\x{201c}Okay. <<Ten fourteen|9j>>: Mrs. Narada reports that her cat has been attacked by a large dog. Now I send all the boys out looking, but they don't find anything until <<eleven|9c:1>>. Then one of them calls in that a big dog has just bitten holes in the tires on his golf cart and run off. <<Eleven thirty|9j>>: Dr. Epstein makes his first lost-nap call: dog howling. <<Eleven thirty-five|9j>>: Mrs. Norcross is putting the kids out on the deck for some burgers when a big dog jumps over the rail, eats the burgers, growls at the kids, runs off. First mention of lawsuit.\x{201d}"
           ],
           [
             1,
@@ -3481,7 +3481,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [10:57]: 10.57',
-            'I run the tape back repeatedly, looking at the time indicator in the top left-hand corner of the screen, where the figures covering part of her forehead show the minutes and seconds, from <<10.53|5a:0>> to <<10.57|5a:0>>.'
+            'I run the tape back repeatedly, looking at the time indicator in the top left-hand corner of the screen, where the figures covering part of her forehead show the minutes and seconds, from <<10.53|5a:1>> to <<10.57|5a:1>>.'
           ],
           [
             1,
@@ -4491,7 +4491,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             "Timestr [13:59]: One ... fifty-nine",
-            "For twenty minutes he sat and watched as the gap between the ship and Epun closed, as the ship's computer teased and kneaded the numbers that would bring it into a loop around the little moon, and close the loop and keep it there, orbiting in perpetual obscurity. '<<One ... fifty-nine|5a:0>> \x{2026}'\""
+            "For twenty minutes he sat and watched as the gap between the ship and Epun closed, as the ship's computer teased and kneaded the numbers that would bring it into a loop around the little moon, and close the loop and keep it there, orbiting in perpetual obscurity. '<<One ... fifty-nine|5a:1>> \x{2026}'\""
           ],
           [
             1,
@@ -5986,7 +5986,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [18:58]: two minutes to seven',
-            "\"Walk fast,\" says Perry, \"it's <<two minutes to seven|10>>, and I got to be home by\x{2014}' \"Oh, shut up,\" says I. \"I had an appointment as chief performer at an inquest at <<seven|9c:0>>, and I'm not kicking about not keeping it.\""
+            "\"Walk fast,\" says Perry, \"it's <<two minutes to seven|10>>, and I got to be home by\x{2014}' \"Oh, shut up,\" says I. \"I had an appointment as chief performer at an inquest at <<seven|9c:1>>, and I'm not kicking about not keeping it.\""
           ],
           [
             1,
@@ -6366,7 +6366,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [20:17]: 20.17',
-            '<<20.17|5a:0>> A red warning light failed to go on in the Drive Room, beginning a chain of events which would lead, in a further twenty-three minutes, to the total annihilation of the entire crew of Red Dwarf.'
+            '<<20.17|5a:1>> A red warning light failed to go on in the Drive Room, beginning a chain of events which would lead, in a further twenty-three minutes, to the total annihilation of the entire crew of Red Dwarf.'
           ],
           [
             1,
@@ -7281,7 +7281,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [23:45]: three quarters past eleven',
-            'The church clocks chimed <<three quarters past eleven|10>>, as two figures emerged on London Bridge. <<One|9i:0>>, which advanced with a swift and rapid step, was that of a woman who looked eagerly about her as though in quest of some expected object; the other figure was that of a man...'
+            'The church clocks chimed <<three quarters past eleven|10>>, as two figures emerged on London Bridge. <<One|9k:0>>, which advanced with a swift and rapid step, was that of a woman who looked eagerly about her as though in quest of some expected object; the other figure was that of a man...'
           ],
           [
             1,

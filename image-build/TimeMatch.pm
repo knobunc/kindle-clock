@@ -265,7 +265,7 @@ my $never_follow_times_re =
         | kid | children | man | men | woman | women | girl | boy
         | family | families | person | people
         | round | turn   | line
-        | book  | volume | plate | illustration | page
+        | book  | volume | plate | illustration | page | chapter | verse | psalm
         | side  | edge   | corner | face
         | Minister
         | possibilities  | percent | against | vote | machine | box
@@ -276,8 +276,9 @@ my $never_follow_times_re =
       | [.,] \d
       }xin;
 
-# Set the branch state variable
-my $branch = "x";
+# Set the variables used in the regexes
+my $branch   = "x";
+my $is_timey = 0;
 
 sub do_match {
     my ($line, $raw) = @_;
@@ -292,21 +293,20 @@ sub do_match {
     }
 
     ## Does this look like a "timey" paragraph
-    my $is_timey = 0;
+    $is_timey = 0;
     $is_timey = 1
         if $line =~
-            m{ \b (struck   |
-                   hour     |
-                   minute   |
-                   clock    |
-                   watch    |
-                   $midnight_noon_re |
-                   train |
-                   what \s+ time |
-                   ( there | here ) \s+ from |
-                   ( return | returned | back ) \s* $rel_at_words |
-                   reported
-                   ) \b
+            m{ \b ( struck   | strikes | striking | striketh
+                  | ( hour   | minute
+                    | clock  | watch
+                    | train
+                    ) s?
+                  | $midnight_noon_re
+                  | ( it \s+ ( is | was ) | twas | it['‘’]?s | ['‘’]?tis | what ) \s+ time
+                  | ( there | here ) \s+ from
+                  | ( return | returned | back ) \s* $rel_at_words
+                  | reported | reports
+                  ) \b
              }xin;
 
     ## Mask out some patterns and apply them first
@@ -323,7 +323,7 @@ sub do_match {
                 while ($part ne '') {
                     if ($part =~ m{$r}p) {
                         my $match =
-                            sprintf("%s<<%s%s|%s>>%s",
+                                sprintf("%s<<%s%s|%s>>%s",
                                     map { defined ? $_ : "" }
                                     $+{pr}, $+{t1}, $+{t2}, $branch, $+{po});
                         my ($leadin, $leadout) = map { defined ? $_ : "" } ($+{li}, $+{lo});
@@ -395,8 +395,11 @@ sub get_masks {
               }xin;
 
     # I was one of twenty
+    # two by two
     push @r,qr{ (?<pr> \s+ )
-                (?<t1> one \s+ of \s+ $min_re )
+                (?<t1> one \s+ of \s+ $min_re
+                |      $min_re ,? \s+ by \s+ $min_re
+                )
                 (?! ,? \s* $ampm_re)
                 \b
                 (?{ $branch = "x4"; })
@@ -847,10 +850,10 @@ sub get_matches {
                 (?{ $branch = "3d"})
               }xin;
 
-    # Four, ...
-    push @r,qr{ (?<pr> \A | ['"‘’“”] | [.…;:?!] \s+ )
+    # Hour\? ... Three
+    push @r,qr{ (?<pr> \b hour \? \s+ )
                 (?<t1> $hour_word_re )
-                (?<po> [,] \s+ )
+                $ba_re
                 (?{ $branch = "9i:TIMEY" })
               }xin;
 
@@ -1006,7 +1009,7 @@ sub get_matches {
     push @r,qr{ \b
                 (?<t1>
                   $min_re \s+ minutes \s+ ( before | after ) \s+ the \s+
-                  ( clock | bell | watch | it | now | hands ) s? \s+
+                  ( clock | bell | watch | it | now | hands | alarm ) s? \s+
                   ( struck | strikes | striking | strike | striketh
                   | beat    | beats   | beating
                   | said    | says    | showed | shows
@@ -1152,8 +1155,22 @@ sub get_matches {
                 (?<po>
                   ( [-] $minsec_dig_re )?
                   ( \s+ ( now | precisely | exactly ) )?
-                  ( \z | [.…;:?!,]? ['"‘’“”] | [.…;:?!,] ( \s+ | \z ) | \s+ [-—]+ \s+) )
-                (?{ $branch = "9k:TIMEY"; $branch = "9k:1" if $+{po} =~ /now/; })
+                  ( \z | [.…;:?!,]? ['"‘’“”] | [.…;:?!,] ( \s+ | \z ) | \s+ [-—]+ \s+)
+                )
+                    (?{ $branch = "9k:0";
+                        if ( ( $+{po} || '' ) =~ /now/i ) {
+                            $branch = "9q";
+                        }
+                        elsif ($+{t1} =~ /$rel_words/i) {
+                            $branch = "9k:TIMEY";
+                        }
+                        elsif ($is_timey) {
+                            $branch = "9k:0";
+                        }
+                        else {
+                            $branch = "x9k";
+                        }
+                   })
               }xin;
 
     # Untrustworthy times... need an indication that it is a time, not just some number
@@ -1379,7 +1396,7 @@ sub extract_times {
                   (?<hr> $hour_re )
                 ( \s+ $oclock_re )?
                 ( ,? \s* (?<am> $ampm_re ) )?
-                (?{ $branch = "5"})
+                (?{ $branch = "5j"})
 
               | # three quarters past eleven
                 ( in \s+ ( (?<rl> $rel_at_words ) \s+ )?

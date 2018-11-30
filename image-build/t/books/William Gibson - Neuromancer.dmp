@@ -1,12 +1,6 @@
 $VAR1 = [
           [
             1,
-            '[ap 01:00] Neuromancer - William Gibson.epub (OEBPS/Neuromancer_TOCREF-14.html) - One',
-            "         
-         \x{201c}Breathe in. Count. <<One|9i:0>>, <<two|9i:0>>, <<three|9i:0>>, <<four|9k:0>>. Hold it. Now out. Count.\x{201d}",
-          ],
-          [
-            1,
             '[00:00] Neuromancer - William Gibson.epub (OEBPS/Neuromancer_TOCREF-15.html) - Midnight',
             '         
          <<Midnight|13>>.',
@@ -48,14 +42,6 @@ $VAR1 = [
             tube with one hand, the pyramid between her other thumb and forefinger, and pulled. Three oiled, telescoping segments of tightly wound coilspring
             slid out and locked. \x{201c}Cobra,\x{201d} she said.
          ",
-          ],
-          [
-            1,
-            '[ap 01:00] Neuromancer - William Gibson.epub (OEBPS/Neuromancer_TOCREF-2.html) - One',
-            '         
-         Passing his closed door. Pausing for the space of three rapid beats of his heart.
-            And returning. <<One|9i:0>>, <<two|9i:0>>, <<three|9k:0>>. A bootheel scraped the matting.
-         ',
           ],
           [
             1,
@@ -139,19 +125,6 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 04:00] Neuromancer - William Gibson.epub (OEBPS/Neuromancer_TOCREF-27.html) - Four',
-            "         
-         \x{201c}<<Four|9i:0>>, three\x{a0}.\x{a0}.\x{a0}.\x{201d}",
-          ],
-          [
-            1,
-            '[ap 02:00] Neuromancer - William Gibson.epub (OEBPS/Neuromancer_TOCREF-27.html) - Two',
-            "         
-         \x{201c}<<Two|9i:0>>, an\x{2019} kick ass\x{2014}\x{201d}
-         ",
-          ],
-          [
-            1,
             '[ap 02:43] Neuromancer - William Gibson.epub (OEBPS/Neuromancer_TOCREF-3.html) - 2:43',
             "         
          \x{201c}That\x{2019}s where they replaced your fluid. Changed your blood, too. Blood \x{2019}cause you
@@ -166,7 +139,7 @@ $VAR1 = [
             '[ap 05:00] Neuromancer - William Gibson.epub (OEBPS/Neuromancer_TOCREF-3.html) - Five',
             "         
          \x{201c}I got people in Singapore, Tokyo connections in Shinjuku and Asakuza, and they\x{2019}ll
-            go down, understand?\x{201d} he lied, his hand on the shoulder of her black jacket. \x{201c}<<Five|9k:1>>. Five
+            go down, understand?\x{201d} he lied, his hand on the shoulder of her black jacket. \x{201c}<<Five|9k:0>>. Five
             minutes. By your clock, okay?\x{201d}
          ",
           ],
@@ -197,17 +170,6 @@ $VAR1 = [
             to tune out; as in a Soviet hotel room, the radio is impossible to turn all the way
             off. Gibson\x{2019}s characters (I call them us) know this to be the case as often as you
             do.
-         ",
-          ],
-          [
-            1,
-            '[ap 02:00] Neuromancer - William Gibson.epub (OEBPS/Neuromancer_TOCREF-6.html) - Two',
-            "         
-         Case gulped the last of his coffee, settled the trodes in place, and scratched his
-            chest beneath his black t-shirt. He had only a vague idea of what the Panther Moderns
-            planned as a diversion for the Sense/Net security people. His job was to make sure
-            the intrusion program he\x{2019}d written would link with the Sense/Net systems when Molly
-            needed it to. He watched the countdown in the corner of the screen. <<Two|9k:0>>. <<One|9k:0>>.
          ",
           ],
           [

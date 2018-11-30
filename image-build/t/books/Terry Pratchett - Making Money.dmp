@@ -7,7 +7,7 @@ $VAR1 = [
           [
             1,
             '[ap 08:00] Making Money - Terry Pratchett.epub (Making_Money_split_004.html) - eight',
-            "\x{201c}No, not at all. You have become an exemplary citizen, Mr. Lipwig,\x{201d} said Vetinari, carefully stamping a V into the cooling wax. \x{201c}You rise each morning at <<eight|9c:0>>, you are at your desk at thirty minutes past. You have turned the Post Office from a calamity into a smoothly running machine. You pay your taxes and a little bird tells me that you are tipped to be next year\x{2019}s chairman of the Merchants\x{2019} Guild. Well done, Mr. Lipwig!\x{201d}",
+            "\x{201c}No, not at all. You have become an exemplary citizen, Mr. Lipwig,\x{201d} said Vetinari, carefully stamping a V into the cooling wax. \x{201c}You rise each morning at <<eight|9c:1>>, you are at your desk at thirty minutes past. You have turned the Post Office from a calamity into a smoothly running machine. You pay your taxes and a little bird tells me that you are tipped to be next year\x{2019}s chairman of the Merchants\x{2019} Guild. Well done, Mr. Lipwig!\x{201d}",
           ],
           [
             1,
@@ -61,16 +61,6 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 05:00] Making Money - Terry Pratchett.epub (Making_Money_split_008.html) - Five',
-            "\x{201c}<<Five|9k:0>>? It says it\x{2019}s worth one!\x{201d} said Pucci, aghast.",
-          ],
-          [
-            1,
-            '[17:00] Making Money - Terry Pratchett.epub (Making_Money_split_008.html) - Seventeen',
-            "\x{201c}<<Seventeen|9k:0>>,\x{201d} said Moist.",
-          ],
-          [
-            1,
             '[00:00] Making Money - Terry Pratchett.epub (Making_Money_split_009.html) - midnight',
             "The guard who finally turned up to see who was struggling to unlock the front door gave him a bit of trouble until a second guard, who was capable of modest intelligence, pointed out that if the chairman wanted to get into the bank at <<midnight|13>> then that was fine. He was the damn boss, wasn\x{2019}t he? Don\x{2019}t you read the papers? See gold suit? And he had a key! So what if he had a big fat bag? He was coming in with it, right? If he was leaving with it, might be a different matter, ho ho, just my little joke, sir, sorry about that sir\x{2026}",
           ],
@@ -88,11 +78,6 @@ $VAR1 = [
             1,
             "[ap 03:00] Making Money - Terry Pratchett.epub (Making_Money_split_009.html) - three o\x{2019}clock",
             "\x{201c}I said the Department of Postmortem Communications,\x{201d} said Ponder very firmly. \x{201c}I suggest you come back at <<three o\x{2019}clock|6>>.\x{201d}",
-          ],
-          [
-            1,
-            '[ap 04:00] Making Money - Terry Pratchett.epub (Making_Money_split_010.html) - Four',
-            "\x{201c}I told you. <<Four|9k:0>>.\x{201d}",
           ],
           [
             1,
@@ -122,11 +107,6 @@ $VAR1 = [
           ],
           [
             1,
-            '[13:00] Making Money - Terry Pratchett.epub (Making_Money_split_012.html) - Thirteen',
-            "\x{201c}<<Thirteen|9k:0>>?\x{201d} he quavered.",
-          ],
-          [
-            1,
             "[ap 09:00] Making Money - Terry Pratchett.epub (Making_Money_split_014.html) - Nine o\x{2019}clock",
             "\x{201c}<<Nine o\x{2019}clock|6>> tomorrow, in the Great Hall,\x{201d} said Vetinari. \x{201c}I invite all interested parties to attend. We shall get to the bottom of this.\x{201d} He raised his voice. \x{201c}Are there any directors of the Royal Bank here? Ah, Mr. Lavish. Are you well?\x{201d}",
           ],
@@ -140,10 +120,5 @@ $VAR1 = [
             '[06:00] Making Money - Terry Pratchett.epub (Making_Money_split_016.html) - six a.m.',
             '
 It was <<six a.m.|5>>, and the fog seemed glued to the windows, so thick that it should have contained croutons. But he liked these moments, before the fragments of yesterday reassembled themselves.',
-          ],
-          [
-            1,
-            '[ap 02:00] Making Money - Terry Pratchett.epub (Making_Money_split_016.html) - Two',
-            "\x{201c}Oh, yes. <<Two|9i:0>>, <<five|9i:0>>, and ten dollars to start with. And the fives and tens will talk.\x{201d}",
           ],
         ];

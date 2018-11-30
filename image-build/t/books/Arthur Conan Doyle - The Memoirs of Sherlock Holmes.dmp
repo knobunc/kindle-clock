@@ -27,7 +27,7 @@ $VAR1 = [
           [
             1,
             '[ap < 05:00] The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_001.html) - nearly five',
-            'One day in early spring he had so far relaxed as to go for a walk with me in the Park, where the first faint shoots of green were breaking out upon the elms, and the sticky spear-heads of the chestnuts were just beginning to burst into their five-fold leaves. For two hours we rambled about together, in silence for the most part, as befits two men who know each other intimately. It was <<nearly five|9:0>> before we were back in Baker Street once more.',
+            'One day in early spring he had so far relaxed as to go for a walk with me in the Park, where the first faint shoots of green were breaking out upon the elms, and the sticky spear-heads of the chestnuts were just beginning to burst into their five-fold leaves. For two hours we rambled about together, in silence for the most part, as befits two men who know each other intimately. It was <<nearly five|9:1>> before we were back in Baker Street once more.',
           ],
           [
             1,
@@ -116,16 +116,6 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 00:00] The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_002.html) - twelve',
-            '"My dear sir," cried Holmes, "there cannot be the least doubt in the world that it has been written by two persons doing alternate words. When I draw your attention to the strong t\'s of \'at\' and \'to\', and ask you to compare them with the weak ones of \'quarter\' and \'<<twelve|9k:0>>,\' you will instantly recognize the fact. A very brief analysis of these four words would enable you to say with the utmost confidence that the \'learn\' and the \'maybe\' are written in the stronger hand, and the \'what\' in the weaker."',
-          ],
-          [
-            1,
-            '[ap 00:00] The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_002.html) - twelve',
-            '"It is an art which is often useful," said he. "When I recovered I managed, by a device which had perhaps some little merit of ingenuity, to get old Cunningham to write the word \'<<twelve|9k:0>>,\' so that I might compare it with the \'<<twelve|9k:0>>\' upon the paper."',
-          ],
-          [
-            1,
             '[ap 23:45] The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_002.html) - quarter to twelve',
             'I looked at the clock. It was a <<quarter to twelve|10>>. This could not be a visitor at so late an hour. A patient, evidently, and possibly an all-night sitting. With a wry face I went out into the hall and opened the door. To my astonishment it was Sherlock Holmes who stood upon my step.',
           ],
@@ -192,7 +182,7 @@ $VAR1 = [
           [
             1,
             '[ap 04:45] The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_002.html) - quarter to five',
-            '"The Diogenes Club is the queerest club in London, and Mycroft one of the queerest men. He\'s always there from <<quarter to five|10>> to <<twenty to eight|10a:1>>. It\'s <<six|9k:1>> now, so if you care for a stroll this beautiful evening I shall be very happy to introduce you to two curiosities."',
+            '"The Diogenes Club is the queerest club in London, and Mycroft one of the queerest men. He\'s always there from <<quarter to five|10>> to <<twenty to eight|10a:1>>. It\'s <<six|9q>> now, so if you care for a stroll this beautiful evening I shall be very happy to introduce you to two curiosities."',
           ],
           [
             1,

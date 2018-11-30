@@ -11,6 +11,8 @@ my @sources =
      "Arthur Conan Doyle/The Memoirs of Sherlock Holmes",
      "Clifford Stoll/The Cuckoo's Egg_ Tracking a Spy Through the Maze of Computer Espionage",
      "David Brin/Earth",
+     "Frank Herbert/Dune",
+     "Graham Greene/The Quiet American",
      "Irvine Welsh/Trainspotting",
      "J. R. R. Tolkien/The Fellowship of the Ring",
      "James Joyce/Ulysses",
