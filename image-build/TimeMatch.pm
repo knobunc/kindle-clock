@@ -377,13 +377,14 @@ sub get_masks {
               }xin;
 
     # odds of five to one
+    # the three of one
     push @r,qr{ $bb_re
                 (?<pr>
                  ( ( odds | betting ) \s+ ( of | being | at ) ( $rel_words \s+ )?
-                   | got | get | numbers?
+                   | got | get | numbers? | the
                  ) \s+
                 )
-                (?<t1> $min_re \s+ to \s+ $min_re )
+                (?<t1> $min_re \s+ ( to | of )\s+ $min_re )
                 (?! ,? \s* $ampm_re)
                 \b
                 (?{ $branch = "x2"; })
