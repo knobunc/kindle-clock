@@ -111,7 +111,7 @@ foreach my $s (@sources) {
         = @{$i}{qw{ do_skip author book ob }};
 
     my $what = $do_skip ? "Skipping" : "Processing";
-    printf "%10.10s: %20.20s - %-50.50s ...", $what, $author, $ob;
+    printf "%10.10s: %20.20s - %-50.50s  ...", $what, $author, $ob;
     STDOUT->flush();
 
     $i = wait_for_task($s)
