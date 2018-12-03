@@ -929,7 +929,8 @@ sub get_matches {
                   ( \z | [.…;:?!,]? ['"‘’“”] | [.…;:?!,] ( \s+ | \z ) | \s* [-—]+ \s*) )
                 (?{ $branch = "9p"})
               }xin;
-    # The only time, but as digits with no separators... but often comes up as years
+    # The only time, but as digits with no separators... only if it says "looks like a year"
+    # or something like that elsewhere in the phrase
     push @r,qr{ (?<pr>
                   ( \A | ['"‘’“”] | [.…;:?!] \s+ | \s+ [-—]+ \s+ )
                   ( ( only | just | it['‘’]?s | it \s+ is | the ) \s+ )?
@@ -942,8 +943,18 @@ sub get_matches {
                   ( [-] $minsec_dig_re )?
                   ( \s+ ( now | precisely | exactly ) )?
                   ( \z | [.…;:?!,]? ['"‘’“”] | [.…;:?!,] ( \s+ | \z ) | \s+ [-—]+ \s+) )
-                (?{ $branch = "9l:TIMEY"})
-              }xin;
+                (?{ $branch = "x9l";
+                    my ($pre, $post) = (${^PREMATCH}, ${^POSTMATCH});
+                    if ("$pre <<>> $post" =~
+                            m{ ( look | seem) ( | s | ed ) \s+
+                               like \s+ a \s+ (year | date)
+                             | ( have | had ) \s+ the \s+ ( date | year )
+                             }xin)
+                    {
+                        $branch = "9l";
+                    }
+                  })
+              }xinp;
 
     # Times at the start of a sentence
     # At ten, ...

@@ -5151,7 +5151,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [16:01]: 1601',
-            'Light is coming in through the curtains. Suddenly the digits on the clock radio look like a year. <<1601|9l:1>>. I woke up a bit early, don\'t have to be born for another 400 years.'
+            'Light is coming in through the curtains. Suddenly the digits on the clock radio look like a year. <<1601|9l>>. I woke up a bit early, don\'t have to be born for another 400 years.'
           ],
           [
             1,
@@ -5376,7 +5376,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [16:37]: 1637',
-            'She should have been home by now. <<1637|9l:0>>. Yes. It\'s as if I had the date of a year on my arm. Every day is a piece of world history.'
+            'She should have been home by now. <<1637|9l>>. Yes. It\'s as if I had the date of a year on my arm. Every day is a piece of world history.'
           ],
           [
             1,
