@@ -2,7 +2,9 @@ $VAR1 = [
           [
             1,
             '[ap > 11:00] A Tale of Two Cities - Charles Dickens.epub (CR!6K6F3FXQ6D3WS6H6JFZXPRC83G5Q_split_008.html) - past eleven',
-            "\x{201c}Ten minutes, good, <<past eleven|9:1>>.\x{201d}",
+            "\x{201c}What o\x{2019}clock do you make it, Joe?\x{201d}
+\x{201c}Ten minutes, good, <<past eleven|9:1>>.\x{201d}
+\x{201c}My blood!\x{201d} ejaculated the vexed coachman, \x{201c}and not atop of Shooter\x{2019}s yet! Tst! Yah! Get on with you!\x{201d}",
           ],
           [
             1,
@@ -27,7 +29,9 @@ $VAR1 = [
           [
             1,
             '[> 00:00] A Tale of Two Cities - Charles Dickens.epub (CR!6K6F3FXQ6D3WS6H6JFZXPRC83G5Q_split_016.html) - a little after midnight',
-            "\x{201c}At <<a little after midnight|13>>.\x{201d}",
+            "\x{201c}At what hour did he come on board?\x{201d}
+\x{201c}At <<a little after midnight|13>>.\x{201d}
+\x{201c}In the dead of the night. Was he the only passenger who came on board at that untimely hour?\x{201d}",
           ],
           [
             1,
@@ -42,12 +46,16 @@ $VAR1 = [
           [
             1,
             "[ap 10:00] A Tale of Two Cities - Charles Dickens.epub (CR!6K6F3FXQ6D3WS6H6JFZXPRC83G5Q_split_018.html) - Ten o\x{2019}clock",
-            "\x{201c}<<Ten o\x{2019}clock|6>>, sir.\x{201d}",
+            "\x{201c}What\x{2019}s the matter?\x{201d}
+\x{201c}<<Ten o\x{2019}clock|6>>, sir.\x{201d}
+\x{201c}What do you mean? Ten o\x{2019}clock at night?\x{201d}",
           ],
           [
             1,
             "[22:00] A Tale of Two Cities - Charles Dickens.epub (CR!6K6F3FXQ6D3WS6H6JFZXPRC83G5Q_split_018.html) - Ten o\x{2019}clock at night",
-            "\x{201c}What do you mean? <<Ten o\x{2019}clock at night|6>>?\x{201d}",
+            "\x{201c}Ten o\x{2019}clock, sir.\x{201d}
+\x{201c}What do you mean? <<Ten o\x{2019}clock at night|6>>?\x{201d}
+\x{201c}Yes, sir. Your honour told me to call you.\x{201d}",
           ],
           [
             1,
@@ -112,7 +120,9 @@ $VAR1 = [
           [
             1,
             '[ap 08:00] A Tale of Two Cities - Charles Dickens.epub (CR!6K6F3FXQ6D3WS6H6JFZXPRC83G5Q_split_037.html) - eight',
-            "\x{201c}From here, at <<eight|9:0>>.\x{201d}",
+            "\x{201c}I will do so. Do you start for Paris from here?\x{201d}
+\x{201c}From here, at <<eight|9:0>>.\x{201d}
+\x{201c}I will come back, to see you off.\x{201d}",
           ],
           [
             1,
@@ -152,7 +162,9 @@ $VAR1 = [
           [
             1,
             "[ap 00:00] A Tale of Two Cities - Charles Dickens.epub (CR!6K6F3FXQ6D3WS6H6JFZXPRC83G5Q_split_048.html) - twelve o\x{2019}clock",
-            "\x{201c}The younger brother impatiently rejoined, \x{2018}With <<twelve o\x{2019}clock|6>>?\x{2019}",
+            "\x{201c}\x{2018}She has some recent association with the number twelve?\x{2019}
+\x{201c}The younger brother impatiently rejoined, \x{2018}With <<twelve o\x{2019}clock|6>>?\x{2019}
+\x{201c}\x{2018}See, gentlemen,\x{2019} said I, still keeping my hands upon her breast, \x{2018}how useless I am, as you have brought me! If I had known what I was coming to see, I could have come provided. As it is, time must be lost. There are no medicines to be obtained in this lonely place.\x{2019}",
           ],
           [
             1,

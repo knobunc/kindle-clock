@@ -72,10 +72,7 @@ $VAR1 = [
           [
             1,
             '[ap < 05:00] The Grapes of Wrath - John Steinbeck.epub (OEBPS/html/chapter24.html) - Before five',
-            '
-
-  
-    Chapter 24
+            'Chapter 24
     
     
     
@@ -113,12 +110,16 @@ On Saturday morning the wash tubs were crowded. The women washed dresses, pink g
           [
             1,
             '[20:05] The Grapes of Wrath - John Steinbeck.epub (OEBPS/html/chapter26.html) - Twenty-five',
-            "\x{201c}<<Twenty-five|9j>>, you say?\x{201d}",
+            "\x{201c}Look. I didn\x{2019} set the price. I\x{2019}m just checking you in. If you want it, take it. If you don\x{2019}t, turn right around and go along.\x{201d}
+\x{201c}<<Twenty-five|9j>>, you say?\x{201d}
+\x{201c}Yes, twenty-five.\x{201d}",
           ],
           [
             1,
             '[ap < 08:00] The Grapes of Wrath - John Steinbeck.epub (OEBPS/html/chapter26.html) - till eight',
-            "\x{201c}Yeah, <<till eight|9:0>>.\x{201d}",
+            "\x{201c}I didn\x{2019} see nothin\x{2019},\x{201d} said Al. \x{201c}Is the gas pump open?\x{201d}
+\x{201c}Yeah, <<till eight|9:0>>.\x{201d}
+\x{201c}Git in,\x{201d} Al cried. \x{201c}If we\x{2019}re gonna get to Weedpatch \x{2019}fore mornin\x{2019} we gotta ram on. Gettin\x{2019} in front, Ma?\x{201d}",
           ],
           [
             1,
@@ -128,7 +129,9 @@ On Saturday morning the wash tubs were crowded. The women washed dresses, pink g
           [
             1,
             '[12:00] The Grapes of Wrath - John Steinbeck.epub (OEBPS/html/chapter28.html) - noon',
-            "\x{201c}Give it to me. I ain\x{2019}t had any sence <<noon|13>>.\x{201d}",
+            "\x{201c}Yeah. Right here.\x{201d}
+\x{201c}Give it to me. I ain\x{2019}t had any sence <<noon|13>>.\x{201d}
+\x{201c}She thinks it\x{2019}s like medicine.\x{201d}",
           ],
           [
             1,
@@ -158,10 +161,7 @@ On Saturday morning the wash tubs were crowded. The women washed dresses, pink g
           [
             1,
             '[12:00] The Grapes of Wrath - John Steinbeck.epub (OEBPS/html/chapter29.html) - midday',
-            '
-
-  
-    Chapter 29
+            'Chapter 29
     
     
     

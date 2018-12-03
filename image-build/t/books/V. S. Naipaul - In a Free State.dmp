@@ -57,7 +57,9 @@ $VAR1 = [
           [
             1,
             '[ap 00:00] In a Free State - V. S. Naipaul.epub (OEBPS/Naip_9780307789327_epub_c03_r1.htm) - twelve',
-            "\x{2018}We start at <<twelve|9g>>.\x{2019}",
+            "\x{2018}Can we have lunch for three?\x{2019}
+\x{2018}We start at <<twelve|9g>>.\x{2019}
+And then, as though not wishing to show too much interest in Bobby while the smiling African looked on, she returned to her writing.",
           ],
           [
             1,
@@ -82,7 +84,9 @@ $VAR1 = [
           [
             1,
             '[ap 08:30] In a Free State - V. S. Naipaul.epub (OEBPS/Naip_9780307789327_epub_c03a_r1.htm) - half-past eight',
-            'It was not quite <<half-past eight|10>>.',
+            "Timothy, moving with a new, almost playful, looseness, swiftly gathered up tablecloths. He made large and rapid gestures; he took long, stretching strides, each ending with a little skid, as though he was demonstrating his great height and reach. His smell swirled about the room.
+It was not quite <<half-past eight|10>>.
+\x{2018}I\x{2019}m beginning to feel there\x{2019}s something to be said for the Belgians,\x{2019} Linda said. \x{2018}Never eat before ten.\x{2019}",
           ],
           [
             1,
@@ -97,17 +101,23 @@ $VAR1 = [
           [
             1,
             "[ap 10:00] In a Free State - V. S. Naipaul.epub (OEBPS/Naip_9780307789327_epub_c03a_r1.htm) - ten o\x{2019}clock",
-            "\x{2018}Bar close <<ten o\x{2019}clock|6>>,\x{2019} the boy said.",
+            "The boy went coy. He hung his head low over the disintegrating Irish book, so that Bobby saw the top of his head: particles of fluff trapped between the springs.
+\x{2018}Bar close <<ten o\x{2019}clock|6>>,\x{2019} the boy said.
+\x{2018}You bring me tea ten o\x{2019}clock.\x{2019}",
           ],
           [
             1,
             "[ap 10:00] In a Free State - V. S. Naipaul.epub (OEBPS/Naip_9780307789327_epub_c03a_r1.htm) - ten o\x{2019}clock",
-            "\x{2018}You bring me tea <<ten o\x{2019}clock|6>>.\x{2019}",
+            "\x{2018}Bar close ten o\x{2019}clock,\x{2019} the boy said.
+\x{2018}You bring me tea <<ten o\x{2019}clock|6>>.\x{2019}
+The boy hung his head lower. \x{2018}Kitchen close.\x{2019}",
           ],
           [
             1,
             "[ap 04:00] In a Free State - V. S. Naipaul.epub (OEBPS/Naip_9780307789327_epub_c03a_r1.htm) - Four o\x{2019}clock",
-            "\x{2018}<<Four o\x{2019}clock|6>>. We\x{2019}ll get you off in good time.\x{2019}",
+            "\x{2018}So that\x{2019}s official, the curfew?\x{2019}
+\x{2018}<<Four o\x{2019}clock|6>>. We\x{2019}ll get you off in good time.\x{2019}
+*",
           ],
           [
             1,
@@ -122,12 +132,16 @@ $VAR1 = [
           [
             1,
             "[ap 05:00] In a Free State - V. S. Naipaul.epub (OEBPS/Naip_9780307789327_epub_c03a_r1.htm) - Five o\x{2019}clock",
-            "\x{2018}<<Five o\x{2019}clock|6>>,\x{2019} the fat soldier said. \x{2018}<<Six o\x{2019}clock|6>>.\x{2019}",
+            "\x{2018}What time you have car-few? Four o\x{2019}clock, five o\x{2019}clock, six o\x{2019}clock?\x{2019}
+\x{2018}<<Five o\x{2019}clock|6>>,\x{2019} the fat soldier said. \x{2018}<<Six o\x{2019}clock|6>>.\x{2019}
+Bobby held out his wrist and pointed to his watch. \x{2018}Four? Five? Six?\x{2019}",
           ],
           [
             1,
             '[ap 04:00] In a Free State - V. S. Naipaul.epub (OEBPS/Naip_9780307789327_epub_c03a_r1.htm) - Four',
-            "Bobby held out his wrist and pointed to his watch. \x{2018}<<Four|9k:0>>? <<Five|9k:0>>? <<Six|9k:0>>?\x{2019}",
+            "\x{2018}Five o\x{2019}clock,\x{2019} the fat soldier said. \x{2018}Six o\x{2019}clock.\x{2019}
+Bobby held out his wrist and pointed to his watch. \x{2018}<<Four|9k:0>>? <<Five|9k:0>>? <<Six|9k:0>>?\x{2019}
+\x{2018}You give me?\x{2019} the fat soldier said, and held Bobby\x{2019}s wrist.",
           ],
           [
             1,

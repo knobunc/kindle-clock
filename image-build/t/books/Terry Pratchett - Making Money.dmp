@@ -42,12 +42,16 @@ $VAR1 = [
           [
             1,
             '[< 20:00] Making Money - Terry Pratchett.epub (Making_Money_split_008.html) - Nearly twenty',
-            "\x{201c}<<Nearly twenty|9:0>>!\x{201d}",
+            "\x{201c}How many people want to withdraw their money?\x{201d} said Moist.
+\x{201c}<<Nearly twenty|9:0>>!\x{201d}
+\x{201c}Then they are making a lot of noise, aren\x{2019}t they?\x{201d}",
           ],
           [
             1,
             '[ap ~ 02:00] Making Money - Terry Pratchett.epub (Making_Money_split_008.html) - About two',
-            "\x{201c}<<About two|9:0>> or three hundred, but\x{2014}\x{201d}",
+            "\x{201c}How many?\x{201d}
+\x{201c}<<About two|9:0>> or three hundred, but\x{2014}\x{201d}
+\x{201c}Opening accounts, you say?\x{201d} said Moist. Mr. Bent was squirming.",
           ],
           [
             1,
@@ -57,7 +61,9 @@ $VAR1 = [
           [
             1,
             '[ap ~ 00:00] Making Money - Terry Pratchett.epub (Making_Money_split_008.html) - About twelve',
-            "\x{201c}<<About twelve|9:0>>,\x{201d} said Moist.",
+            "\x{201c}How many of them are there, then?\x{201d} said the inquiring man.
+\x{201c}<<About twelve|9:0>>,\x{201d} said Moist.
+The man turned to Pucci. \x{201c}I\x{2019}ll give you five dollars for it, how about that?\x{201d}",
           ],
           [
             1,
@@ -92,8 +98,7 @@ $VAR1 = [
           [
             1,
             "[ap 09:00] Making Money - Terry Pratchett.epub (Making_Money_split_012.html) - nine o\x{2019}clock",
-            "
-\x{201c}I\x{2019}M AFRAID I have to close the office now, Reverend,\x{201d} the voice of Ms. Houser broke into Cribbins\x{2019}s dreams. \x{201c}We open up again at <<nine o\x{2019}clock|6>> tomorrow,\x{201d} it added hopefully.",
+            "\x{201c}I\x{2019}M AFRAID I have to close the office now, Reverend,\x{201d} the voice of Ms. Houser broke into Cribbins\x{2019}s dreams. \x{201c}We open up again at <<nine o\x{2019}clock|6>> tomorrow,\x{201d} it added hopefully.",
           ],
           [
             1,
@@ -118,7 +123,6 @@ $VAR1 = [
           [
             1,
             '[06:00] Making Money - Terry Pratchett.epub (Making_Money_split_016.html) - six a.m.',
-            '
-It was <<six a.m.|5>>, and the fog seemed glued to the windows, so thick that it should have contained croutons. But he liked these moments, before the fragments of yesterday reassembled themselves.',
+            'It was <<six a.m.|5>>, and the fog seemed glued to the windows, so thick that it should have contained croutons. But he liked these moments, before the fragments of yesterday reassembled themselves.',
           ],
         ];

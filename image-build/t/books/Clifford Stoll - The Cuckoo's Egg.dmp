@@ -42,11 +42,7 @@ $VAR1 = [
           [
             1,
             '[ap ~ 07:00] The Cuckoo\'s Egg_ Tracking a Spy Through t - Clifford Stoll.epub (Stoll, Clifford - The Cuckoo\'s Egg_split_13.htm) - Around seven',
-            '
-
-  
-    
-    THE CUCKOO\'S EGG
+            'THE CUCKOO\'S EGG
     
     
     
@@ -119,11 +115,7 @@ With the full moon, I expected more hacking and planned on sleeping under the de
           [
             1,
             '[ap 09:10] The Cuckoo\'s Egg_ Tracking a Spy Through t - Clifford Stoll.epub (Stoll, Clifford - The Cuckoo\'s Egg_split_17.htm) - 9:10',
-            '
-
-  
-    
-    THE CUCKOO\'S EGG
+            'THE CUCKOO\'S EGG
     
     
     
@@ -266,7 +258,9 @@ It would have been a fun show for the spooks if the hacker appeared while they w
           [
             1,
             '[11:35] The Cuckoo\'s Egg_ Tracking a Spy Through t - Clifford Stoll.epub (Stoll, Clifford - The Cuckoo\'s Egg_split_26.htm) - 11:35 a.m.',
-            '<<11:35 a.m.|2a>> Disconnect from Mitre and update logbook.',
+            'Conclusion: someone\'s been tampering with Mitre\'s software, successfully stealing passwords.
+<<11:35 a.m.|2a>> Disconnect from Mitre and update logbook.
+Today, reading my logbook, I remember an hour of poking around Mitre\'s internal network. At once it felt exciting and forbidden. Any minute, I expected someone to send a message on my computer screen, "We caught you. Come out with your hands up."',
           ],
           [
             1,
@@ -371,7 +365,9 @@ It would have been a fun show for the spooks if the hacker appeared while they w
           [
             1,
             '[02:00] The Cuckoo\'s Egg_ Tracking a Spy Through t - Clifford Stoll.epub (Stoll, Clifford - The Cuckoo\'s Egg_split_32.htm) - 2 a.m.',
-            'I didn\'t return home until <<2 a.m.|5>> Martha waited up, piecing a quilt.',
+            'Elementary, my dear Watson. Elementary, and tediously dull.
+I didn\'t return home until <<2 a.m.|5>> Martha waited up, piecing a quilt.
+"Out with a hussy?"',
           ],
           [
             1,
@@ -411,8 +407,7 @@ It would have been a fun show for the spooks if the hacker appeared while they w
           [
             1,
             '[13:31] The Cuckoo\'s Egg_ Tracking a Spy Through t - Clifford Stoll.epub (Stoll, Clifford - The Cuckoo\'s Egg_split_37.htm) - 13:31',
-            '
-4.2 BSD UNIX (Ibl-ux4)
+            '4.2 BSD UNIX (Ibl-ux4)
 login: Sventek           The hacker logs in as Sventek
 Password: Lblhack        and gives his current password
 Last login: Mon Dec 29 <<13:31|2>>:43 on ttyi7
@@ -466,11 +461,7 @@ Whee! The hacker had entered an Army database and searched for secret Air Force 
           [
             1,
             '[~ 12:00] The Cuckoo\'s Egg_ Tracking a Spy Through t - Clifford Stoll.epub (Stoll, Clifford - The Cuckoo\'s Egg_split_38.htm) - Around noon',
-            '
-
-  
-    
-    THE CUCKOO\'S EGG
+            'THE CUCKOO\'S EGG
     
     
     
@@ -513,8 +504,7 @@ Whee! The hacker had entered an Army database and searched for secret Air Force 
           [
             1,
             '[19:11] The Cuckoo\'s Egg_ Tracking a Spy Through t - Clifford Stoll.epub (Stoll, Clifford - The Cuckoo\'s Egg_split_38.htm) - 19:11',
-            '
-Username: FIELD
+            'Username: FIELD
 Password: SERVICE
 WELCOME TO THE AIR FORCE SYSTEM COMMAND-SPACE DIVISION 
 VAX/VMS 4.4
@@ -651,7 +641,9 @@ Shazam: the door had swung wide open. He\'d logged in as Field Service. Not just
           [
             1,
             '[~ 15:00] The Cuckoo\'s Egg_ Tracking a Spy Through t - Clifford Stoll.epub (Stoll, Clifford - The Cuckoo\'s Egg_split_44.htm) - around 3 P.M.',
-            'By chance, <<around 3 P.M.|5>> Teejay called from the CIA. "What\'s new?"',
+            '"I don\'t know. But when it happens, I\'ll tell you. Shouldn\'t be long now."
+By chance, <<around 3 P.M.|5>> Teejay called from the CIA. "What\'s new?"
+"We completed the trace over the weekend."',
           ],
           [
             1,
@@ -731,7 +723,9 @@ Shazam: the door had swung wide open. He\'d logged in as Field Service. Not just
           [
             1,
             '[10:00] The Cuckoo\'s Egg_ Tracking a Spy Through t - Clifford Stoll.epub (Stoll, Clifford - The Cuckoo\'s Egg_split_53.htm) - 10 A.M.',
-            '"Arrest warrants were issued this morning at <<10 A.M.|5>>"',
+            '"What\'s happened?"
+"Arrest warrants were issued this morning at <<10 A.M.|5>>"
+"But I didn\'t see anyone on my system then."',
           ],
           [
             1,
@@ -806,8 +800,7 @@ Shazam: the door had swung wide open. He\'d logged in as Field Service. Not just
           [
             1,
             '[00:25] The Cuckoo\'s Egg_ Tracking a Spy Through t - Clifford Stoll.epub (Stoll, Clifford - The Cuckoo\'s Egg_split_58.htm) - twenty-five minutes after midnight',
-            "
-Login name: rtm         In real life: Robert T. Morris
+            "Login name: rtm         In real life: Robert T. Morris
 Phone: 617/498-8847
 Last login Thu Nov 3 00:85 on ttyp2 from 128.84.264.126
 
@@ -852,11 +845,7 @@ Well\x{2014}the last time that Robert Morris used the Harvard computer was <<twe
           [
             1,
             '[07:51] The Cuckoo\'s Egg_ Tracking a Spy Through t - Clifford Stoll.epub (Stoll, Clifford - The Cuckoo\'s Egg_split_9.htm) - 7:51 a.m.',
-            '
-
-  
-    
-    THE CUCKOO\'S EGG
+            'THE CUCKOO\'S EGG
     
     
     

@@ -97,7 +97,9 @@ $VAR1 = [
           [
             1,
             '[ap 23:45] The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_002.html) - quarter to twelve',
-            'd at <<quarter to twelve|10>> learn what maybe',
+            'Holmes took up the scrap of paper, a fac-simile of which is here reproduced.
+d at <<quarter to twelve|10>> learn what maybe
+"Presuming that it is an appointment," continued the Inspector, "it is of course a conceivable theory that this William Kirwan--though he had the reputation of being an honest man, may have been in league with the thief. He may have met him there, may even have helped him to break in the door, and then they may have fallen out between themselves."',
           ],
           [
             1,
@@ -107,7 +109,9 @@ $VAR1 = [
           [
             1,
             '[ap ~ 10:00] The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_002.html) - About ten',
-            '"<<About ten|9:0>>."',
+            '"When do the servants go to bed?"
+"<<About ten|9:0>>."
+"I understand that William was usually in bed also at that hour."',
           ],
           [
             1,
@@ -122,7 +126,9 @@ $VAR1 = [
           [
             1,
             '[ap 11:10] The Memoirs of Sherlock Holmes - Arthur Conan Doyle.epub (The_Memoirs_of_Sherlock_Holmes_split_002.html) - 11.10',
-            '"Very good. I want to start by the <<11.10|5c>> from Waterloo."',
+            '"I have no doubt Jackson would take my practice."
+"Very good. I want to start by the <<11.10|5c>> from Waterloo."
+"That would give me time."',
           ],
           [
             1,

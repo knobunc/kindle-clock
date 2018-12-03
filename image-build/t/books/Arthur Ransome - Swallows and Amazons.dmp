@@ -37,7 +37,9 @@ $VAR1 = [
           [
             1,
             '[ap 07:30] Swallows and Amazons - Arthur Ransome.epub (index_split_023.html) - half-past seven',
-            "\x{201c}Peggy said they had supper at <<half-past seven|10>>,\x{201d} said Susan.",
+            "\x{201c}I don\x{2019}t want to get there too soon,\x{201d} said John, \x{201c}but I do want to get into the river while it\x{2019}s still light enough to see but late enough for the pirates to be off their guard and feasting in their stronghold.\x{201d}
+\x{201c}Peggy said they had supper at <<half-past seven|10>>,\x{201d} said Susan.
+\x{201c}Well it\x{2019}s ages after that now,\x{201d} said John. \x{201c}I should think we are all right.\x{201d}",
           ],
           [
             1,
@@ -92,6 +94,8 @@ $VAR1 = [
           [
             1,
             '[ap < 05:00] Swallows and Amazons - Arthur Ransome.epub (index_split_034.html) - nearly five',
-            "\x{201c}It\x{2019}s <<nearly five|9f>>,\x{201d} said John.",
+            "\x{201c}What\x{2019}s the time now?\x{201d} said Peggy. \x{201c}Susan says it\x{2019}s only about three.\x{201d}
+\x{201c}It\x{2019}s <<nearly five|9f>>,\x{201d} said John.
+*",
           ],
         ];

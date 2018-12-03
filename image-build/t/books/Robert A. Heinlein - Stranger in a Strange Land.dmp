@@ -52,7 +52,9 @@ $VAR1 = [
           [
             1,
             '[ap 00:50] Stranger in a Strange Land - Robert A. Heinlein.epub (OEBPS/part02_01.xhtml) - ten-to-one',
-            "\x{201c}Okay.\x{201d} Duke spooled back, then announced, \x{201c}This is <<ten-to-one|10a:0>>.\x{201d}",
+            "Jubal watched the box being thrown at his head, saw it wink out in midair. \x{201c}That\x{2019}s enough,\x{201d} he said. \x{201c}Anne will be pleased to know that the cameras back her up. Duke, let\x{2019}s repeat that last bit in slow motion.\x{201d}
+\x{201c}Okay.\x{201d} Duke spooled back, then announced, \x{201c}This is <<ten-to-one|10a:0>>.\x{201d}
+The scene was the same but the slowed-down sound was useless; Duke switched it off. The box floated slowly from Jill\x{2019}s hands toward Jubal\x{2019}s head, then quite suddenly ceased to be. But it did not simply wink out; under slow-motion projection it could be seen shrinking, smaller and smaller until it was no longer there.",
           ],
           [
             1,
@@ -87,7 +89,9 @@ $VAR1 = [
           [
             1,
             '[ap 10:00] Stranger in a Strange Land - Robert A. Heinlein.epub (OEBPS/part02_02.xhtml) - ten',
-            "\x{201c}Shall we say tomorrow at <<ten|9b>>? Here.\x{201d}",
+            "\x{201c}Agreed. When?\x{201d}
+\x{201c}Shall we say tomorrow at <<ten|9b>>? Here.\x{201d}
+\x{201c}\x{2018}\x{2019}Twere best done quickly.\x{2019} Agreed.\x{201d}",
           ],
           [
             1,
@@ -102,7 +106,9 @@ $VAR1 = [
           [
             1,
             '[23:00] Stranger in a Strange Land - Robert A. Heinlein.epub (OEBPS/part02_02.xhtml) - Twenty-three',
-            "\x{201c}<<Twenty-three|9j>>.\x{201d}",
+            "\x{201c}When I do, please shoot me. Captain, how many men did you leave on Mars?\x{201d}
+\x{201c}<<Twenty-three|9j>>.\x{201d}
+\x{201c}And what is their status, under the Larkin Decision?\x{201d}",
           ],
           [
             1,
@@ -127,7 +133,9 @@ $VAR1 = [
           [
             1,
             '[ap 09:30] Stranger in a Strange Land - Robert A. Heinlein.epub (OEBPS/part03_02.xhtml) - nine-thirty',
-            "\x{201c}Why? The show doesn\x{2019}t roll until <<nine-thirty|9c:0>>.\x{201d}",
+            "\x{201c}Oh, dear! I should be back this blessed minute!\x{201d}
+\x{201c}Why? The show doesn\x{2019}t roll until <<nine-thirty|9c:0>>.\x{201d}
+\x{201c}Well\x{a0}.\x{a0}.\x{a0}. Honey Bun misses me\x{a0}.\x{a0}.\x{a0}. and she\x{2019}s jealous if I stay out late.\x{201d}",
           ],
           [
             1,

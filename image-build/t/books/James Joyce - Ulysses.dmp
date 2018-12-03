@@ -7,7 +7,9 @@ $VAR1 = [
           [
             1,
             '[ap 10:00] Ulysses - James Joyce.epub (OPS/xhtml/9780141182803_Ulysses_003.html) - ten',
-            "\x{2014}Yes, sir. Hockey at <<ten|9c:0>>, sir.",
+            "\x{2014}Have I heard all? Stephen asked.
+\x{2014}Yes, sir. Hockey at <<ten|9c:0>>, sir.
+\x{2014}Half day, sir. Thursday.",
           ],
           [
             1,
@@ -27,7 +29,9 @@ Togo to heaven.',
           [
             1,
             '[ap 03:12] Ulysses - James Joyce.epub (OPS/xhtml/9780141182803_Ulysses_003.html) - Three twelve',
-            "\x{2014}<<Three twelve|5a:0>>, he said. I think you\x{2019}ll find that\x{2019}s right.",
+            "He shot from it two crowns and two shillings.
+\x{2014}<<Three twelve|5a:0>>, he said. I think you\x{2019}ll find that\x{2019}s right.
+\x{2014}Thank you, sir, Stephen said, gathering the money together with shy haste and putting it all in a pocket of his trousers.",
           ],
           [
             1,
@@ -97,7 +101,9 @@ Togo to heaven.',
           [
             1,
             '[20:08] Ulysses - James Joyce.epub (OPS/xhtml/9780141182803_Ulysses_005.html) - Twenty eight',
-            "\x{2014}<<Twenty eight|5a:0>> \x{2026} No, twenty \x{2026} Double four \x{2026} Yes.",
+            "The telephone whirred inside.
+\x{2014}<<Twenty eight|5a:0>> \x{2026} No, twenty \x{2026} Double four \x{2026} Yes.
+Lenehan came out of the inner office with Sports tissues.",
           ],
           [
             1,
@@ -127,7 +133,9 @@ Togo to heaven.',
           [
             1,
             '[ap > 02:00] Ulysses - James Joyce.epub (OPS/xhtml/9780141182803_Ulysses_005.html) - After two',
-            "No, didn\x{2019}t see me. <<After two|9:0>>. Just at the gate.",
+            "The flutter of his breath came forth in short sighs. Quick. Cold statues: quiet there. Safe in a minute.
+No, didn\x{2019}t see me. <<After two|9:0>>. Just at the gate.
+My heart!",
           ],
           [
             1,
@@ -137,15 +145,14 @@ Togo to heaven.',
           [
             1,
             '[ap 11:00] Ulysses - James Joyce.epub (OPS/xhtml/9780141182803_Ulysses_005.html) - eleven',
-            "Swill till <<eleven|9c:0>>. Irish nights\x{2019} entertainment.",
+            "Laughing he \x{2026}
+Swill till <<eleven|9c:0>>. Irish nights\x{2019} entertainment.
+Lubber \x{2026}",
           ],
           [
             1,
             '[ap 02:55] Ulysses - James Joyce.epub (OPS/xhtml/9780141182803_Ulysses_006.html) - Five to three',
-            "
-
-  
-    ULYSSES
+            "ULYSSES
     
     
     
@@ -197,12 +204,16 @@ THE superior, the very reverend John Conmee S. J., reset his smooth watch in his
           [
             1,
             '[ap 04:00] Ulysses - James Joyce.epub (OPS/xhtml/9780141182803_Ulysses_006.html) - four',
-            'Not yet. At <<four|9m>> he. All said four.',
+            "\x{2014}What\x{2019}s your cry? Glass of bitter? Glass of bitter, please, and a sloegin for me. Wire in yet?
+Not yet. At <<four|9m>> he. All said four.
+Cowley\x{2019}s red lugs and Adam\x{2019}s apple in the door of the sheriff\x{2019}s office. Avoid. Goulding a chance. What is he doing in the Ormond? Car waiting. Wait.",
           ],
           [
             1,
             '[ap 04:00] Ulysses - James Joyce.epub (OPS/xhtml/9780141182803_Ulysses_006.html) - Four',
-            "\x{2014}What time is that? asked Blazes Boylan. <<Four|9k:0>>?",
+            "Miss Douce took Boylan\x{2019}s coin, struck boldly the cashregister. It clanged. Clock clacked. Fair one of Egypt teased and sorted in the till and hummed and handed coins in change. Look to the west. A clack. For me.
+\x{2014}What time is that? asked Blazes Boylan. <<Four|9k:0>>?
+O\x{2019}clock.",
           ],
           [
             1,
@@ -327,7 +338,9 @@ THE superior, the very reverend John Conmee S. J., reset his smooth watch in his
           [
             1,
             '[00:00] Ulysses - James Joyce.epub (OPS/xhtml/9780141182803_Ulysses_009.html) - Midnight',
-            '(<<Midnight|13>> chimes from distant steeples)',
+            "BLOOM: (In workman\x{2019}s corduroy overalls, black gansy with red floating tie and apache cap) Mankind is incorrigible. Sir Walter Raleigh brought from the new world that potato and that weed, the one a killer of pestilence by absorption, the other a poisoner of the ear, eye, heart, memory, will, understanding, all. That is to say, he brought the poison a hundred years before another person whose name I forget brought the food. Suicide. Lies. All our habits. Why, look at our public life!
+(<<Midnight|13>> chimes from distant steeples)
+THE CHIMES: Turn again, Leopold! Lord mayor of Dublin!",
           ],
           [
             1,
@@ -396,8 +409,7 @@ I\x{2019}ll give <<ten to one|10a:0>>!
           [
             1,
             '[12:00] Ulysses - James Joyce.epub (OPS/xhtml/9780141182803_Ulysses_010.html) - noon',
-            '
-(From a corner the morning hours run out, goldhaired, slim, in girlish blue, waspwaisted, with innocent hands. Nimbly they dance, twirling their skipping ropes. The hours of <<noon|13>> follow in amber gold. Laughing linked, high hair combs flashing, they catch the sun in mocking mirrors, lifting their arms!)',
+            '(From a corner the morning hours run out, goldhaired, slim, in girlish blue, waspwaisted, with innocent hands. Nimbly they dance, twirling their skipping ropes. The hours of <<noon|13>> follow in amber gold. Laughing linked, high hair combs flashing, they catch the sun in mocking mirrors, lifting their arms!)',
           ],
           [
             1,
@@ -417,7 +429,9 @@ I\x{2019}ll give <<ten to one|10a:0>>!
           [
             1,
             '[ap 00:40] Ulysses - James Joyce.epub (OPS/xhtml/9780141182803_Ulysses_010.html) - Twenty to one',
-            'Gold cup. Throwaway. (He laughs) <<Twenty to one|10a:0>>. Do you follow me?',
+            "CORNY KELLEHER: (TO the watch, with drawling eye) That\x{2019}s all right. I know him. Won a bit on the races.
+Gold cup. Throwaway. (He laughs) <<Twenty to one|10a:0>>. Do you follow me?
+FIRST WATCH: (Turns to the crowd) Here, what are you all gaping at? Move on out of that. (The crowd disperses slowly, muttering, down the lane.)",
           ],
           [
             1,

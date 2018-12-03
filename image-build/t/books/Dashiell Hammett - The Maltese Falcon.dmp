@@ -2,7 +2,9 @@ $VAR1 = [
           [
             1,
             "[ap > 08:00] The Maltese Falcon - Dashiell Hammett.epub (OEBPS/Hamm_9780307767516_epub_c01_r1.htm) - After eight o\x{2019}clock",
-            "\x{201c}<<After eight o\x{2019}clock|6>>.\x{201d}",
+            "\x{201c}What time is he coming to see you?\x{201d}
+\x{201c}<<After eight o\x{2019}clock|6>>.\x{201d}
+\x{201c}All right, Miss Wonderly, we\x{2019}ll have a man there. It\x{2019}ll help if\x{2014}\x{201d}",
           ],
           [
             1,
@@ -17,7 +19,9 @@ $VAR1 = [
           [
             1,
             '[ap 03:40] The Maltese Falcon - Dashiell Hammett.epub (OEBPS/Hamm_9780307767516_epub_c02_r1.htm) - Twenty minutes to four',
-            "\x{201c}<<Twenty minutes to four|10>>. I walked around thinking things over.\x{201d}",
+            "\x{201c}You knew what you knew,\x{201d} Dundy replied stubbornly. \x{201c}What time did you get home?\x{201d}
+\x{201c}<<Twenty minutes to four|10>>. I walked around thinking things over.\x{201d}
+The Lieutenant wagged his round head up and down. \x{201c}We knew you weren\x{2019}t home at three-thirty. We tried to get you on the phone. Where\x{2019}d you do your walking?\x{201d}",
           ],
           [
             1,
@@ -27,10 +31,7 @@ $VAR1 = [
           [
             1,
             "[ap 10:00] The Maltese Falcon - Dashiell Hammett.epub (OEBPS/Hamm_9780307767516_epub_c03_r1.htm) - ten o\x{2019}clock",
-            "
-
-  
-    The Maltese Falcon
+            "The Maltese Falcon
     
     
     
@@ -56,7 +57,9 @@ When Spade reached his office at <<ten o\x{2019}clock|6>> the following morning 
           [
             1,
             "[ap 04:00] The Maltese Falcon - Dashiell Hammett.epub (OEBPS/Hamm_9780307767516_epub_c03_r1.htm) - four o\x{2019}clock",
-            "\x{201c}Uh-huh. He and Tom Polhaus dropped in for a drink at <<four o\x{2019}clock|6>>.\x{201d}",
+            "\x{201c}Has Dundy been after you?\x{201d}
+\x{201c}Uh-huh. He and Tom Polhaus dropped in for a drink at <<four o\x{2019}clock|6>>.\x{201d}
+\x{201c}Do they really think you shot this what\x{2019}s-his-name?\x{201d}",
           ],
           [
             1,
@@ -156,7 +159,9 @@ When Spade reached his office at <<ten o\x{2019}clock|6>> the following morning 
           [
             1,
             '[ap 10:30] The Maltese Falcon - Dashiell Hammett.epub (OEBPS/Hamm_9780307767516_epub_c12_r1.htm) - ten-thirty',
-            "Spade frowned. \x{201c}She went to a movie at <<ten-thirty|5b>>?\x{201d}",
+            "\x{201c}Yes. She drove around for half an hour or so and then tried again. That would make it, say, ten-thirty. You were still out, so she drove back downtown and went to a movie to kill time until after midnight, when she thought she\x{2019}d be more likely to find you in.\x{201d}
+Spade frowned. \x{201c}She went to a movie at <<ten-thirty|5b>>?\x{201d}
+\x{201c}So she says\x{2014}the one on Powell Street that stays open till one in the morning. She didn\x{2019}t want to go home, she said, because she didn\x{2019}t want to be there when Miles came. That always made him mad, it seems, especially if it was around midnight. She stayed in the movie till it closed.\x{201d} Wise\x{2019}s words came out slower now and there was a sardonic glint in his eye. \x{201c}She says she had decided by then not to go back to your place again. She says she didn\x{2019}t know whether you\x{2019}d like having her drop in that late. So she went to Tait\x{2019}s\x{2014}the one on Ellis Street\x{2014}had something to eat and then went home\x{2014}alone.\x{201d} Wise rocked back in his chair and waited for Spade to speak.",
           ],
           [
             1,
@@ -196,10 +201,7 @@ When Spade reached his office at <<ten o\x{2019}clock|6>> the following morning 
           [
             1,
             '[> 06:00] The Maltese Falcon - Dashiell Hammett.epub (OEBPS/Hamm_9780307767516_epub_c14_r1.htm) - a few minutes past six in the morning',
-            '
-
-  
-    The Maltese Falcon
+            'The Maltese Falcon
     
     
     
@@ -215,7 +217,9 @@ Spade, coming around the corner from the elevator at <<a few minutes past six in
           [
             1,
             "[ap 06:00] The Maltese Falcon - Dashiell Hammett.epub (OEBPS/Hamm_9780307767516_epub_c14_r1.htm) - Six o\x{2019}clock",
-            "\x{201c}<<Six o\x{2019}clock|6>>. What are you doing here?\x{201d}",
+            "She stirred, raised her head drowsily, and her eyelids fluttered. Suddenly she sat up straight, opening her eyes wide. She saw Spade, smiled, leaned back in her chair, and rubbed her eyes with her fingers. \x{201c}So you finally got back?\x{201d} she said. \x{201c}What time is it?\x{201d}
+\x{201c}<<Six o\x{2019}clock|6>>. What are you doing here?\x{201d}
+She shivered, drew Spade\x{2019}s overcoat closer around her, and yawned. \x{201c}You told me to stay till you got back or phoned.\x{201d}",
           ],
           [
             1,
@@ -230,48 +234,65 @@ Spade, coming around the corner from the elevator at <<a few minutes past six in
           [
             1,
             '[00:20] The Maltese Falcon - Dashiell Hammett.epub (OEBPS/Hamm_9780307767516_epub_c14_r1.htm) - 12:20 A.M.',
-            "<<12:20 A.M.|2a>>\x{2014}Capac from Astoria.",
+            "Immediately above the tear was a small caption Arrived Today followed by:
+<<12:20 A.M.|2a>>\x{2014}Capac from Astoria.
+5:05 A.M.\x{2014}Helen P. Drew from Greenwood.",
           ],
           [
             1,
             '[05:05] The Maltese Falcon - Dashiell Hammett.epub (OEBPS/Hamm_9780307767516_epub_c14_r1.htm) - 5:05 A.M.',
-            "<<5:05 A.M.|2a>>\x{2014}Helen P. Drew from Greenwood.",
+            "12:20 A.M.\x{2014}Capac from Astoria.
+<<5:05 A.M.|2a>>\x{2014}Helen P. Drew from Greenwood.
+5:06 A.M.\x{2014}Albarado from Bandon.",
           ],
           [
             1,
             '[05:06] The Maltese Falcon - Dashiell Hammett.epub (OEBPS/Hamm_9780307767516_epub_c14_r1.htm) - 5:06 A.M.',
-            "<<5:06 A.M.|2a>>\x{2014}Albarado from Bandon.",
+            "5:05 A.M.\x{2014}Helen P. Drew from Greenwood.
+<<5:06 A.M.|2a>>\x{2014}Albarado from Bandon.
+The tear passed through the next line, leaving only enough of its letters to make from Sydney inferable.",
           ],
           [
             1,
             '[05:17] The Maltese Falcon - Dashiell Hammett.epub (OEBPS/Hamm_9780307767516_epub_c14_r1.htm) - 5:17 A.M.',
-            "
-<<5:17 A.M.|2a>>\x{2014}Tahiti from Sydney and Papeete.",
+            "Spade went to the Business Office of the Call, bought a copy of the previous day\x{2019}s issue, opened it to the shipping-news-page, and compared it with the page taken from Cairo\x{2019}s wastebasket. The missing portion had read:
+<<5:17 A.M.|2a>>\x{2014}Tahiti from Sydney and Papeete.
+6:05 A.M.\x{2014}Admiral Peoples from Astoria.",
           ],
           [
             1,
             '[06:05] The Maltese Falcon - Dashiell Hammett.epub (OEBPS/Hamm_9780307767516_epub_c14_r1.htm) - 6:05 A.M.',
-            "<<6:05 A.M.|2a>>\x{2014}Admiral Peoples from Astoria.",
+            "5:17 A.M.\x{2014}Tahiti from Sydney and Papeete.
+<<6:05 A.M.|2a>>\x{2014}Admiral Peoples from Astoria.
+8:07 A.M.\x{2014}Caddopeak from San Pedro.",
           ],
           [
             1,
             '[08:07] The Maltese Falcon - Dashiell Hammett.epub (OEBPS/Hamm_9780307767516_epub_c14_r1.htm) - 8:07 A.M.',
-            "<<8:07 A.M.|2a>>\x{2014}Caddopeak from San Pedro.",
+            "6:05 A.M.\x{2014}Admiral Peoples from Astoria.
+<<8:07 A.M.|2a>>\x{2014}Caddopeak from San Pedro.
+8:17 A.M.\x{2014}Silverado from San Pedro.",
           ],
           [
             1,
             '[08:17] The Maltese Falcon - Dashiell Hammett.epub (OEBPS/Hamm_9780307767516_epub_c14_r1.htm) - 8:17 A.M.',
-            "<<8:17 A.M.|2a>>\x{2014}Silverado from San Pedro.",
+            "8:07 A.M.\x{2014}Caddopeak from San Pedro.
+<<8:17 A.M.|2a>>\x{2014}Silverado from San Pedro.
+8:05 A.M.\x{2014}La Paloma from Hongkong.",
           ],
           [
             1,
             '[08:05] The Maltese Falcon - Dashiell Hammett.epub (OEBPS/Hamm_9780307767516_epub_c14_r1.htm) - 8:05 A.M.',
-            "<<8:05 A.M.|2a>>\x{2014}La Paloma from Hongkong.",
+            "8:17 A.M.\x{2014}Silverado from San Pedro.
+<<8:05 A.M.|2a>>\x{2014}La Paloma from Hongkong.
+9:03 A.M.\x{2014}Daisy Gray from Seattle.",
           ],
           [
             1,
             '[09:03] The Maltese Falcon - Dashiell Hammett.epub (OEBPS/Hamm_9780307767516_epub_c14_r1.htm) - 9:03 A.M.',
-            "<<9:03 A.M.|2a>>\x{2014}Daisy Gray from Seattle.",
+            "8:05 A.M.\x{2014}La Paloma from Hongkong.
+<<9:03 A.M.|2a>>\x{2014}Daisy Gray from Seattle.
+",
           ],
           [
             1,

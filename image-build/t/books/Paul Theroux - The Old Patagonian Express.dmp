@@ -17,12 +17,16 @@ $VAR1 = [
           [
             1,
             '[ap 04:30] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter001.html) - four-thirty',
-            "\x{2018}I have to catch a train at <<four-thirty|5b>> in Chicago.\x{2019}",
+            "\x{2018}Way off. Didn\x{2019}t you know we\x{2019}re running four hours late? Frozen switch back in Erie held us up.\x{2019}
+\x{2018}I have to catch a train at <<four-thirty|5b>> in Chicago.\x{2019}
+\x{2018}You\x{2019}ll never make it.\x{2019}",
           ],
           [
             1,
             "[ap 09:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter001.html) - nine o\x{2019}clock",
-            "\x{2018}We may not be there until <<nine o\x{2019}clock|6>>.\x{2019}",
+            "They were, all of them, frightfully happy. They were glad about the delay, delighted with the snow (it had begun to fall again) and they rejoiced at the promises made by the lady from Flagstaff about a night \x{2013} or maybe two \x{2013} at the Holiday Inn. I did not share their joy or feel very kindly towards any of them, and when I discovered that the car to be detached lay between the \x{2018}Silver Orchid\x{2019} and this mob I told the conductor I was going back to bed: \x{2018}Wake me up when we get to Chicago.\x{2019}
+\x{2018}We may not be there until <<nine o\x{2019}clock|6>>.\x{2019}
+\x{2018}Wonderful,\x{2019} I said. I fell asleep with The Wild Palms over my face.",
           ],
           [
             1,
@@ -37,7 +41,9 @@ $VAR1 = [
           [
             1,
             '[ap 05:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter003.html) - five',
-            "\x{2018}Let\x{2019}s call it <<five|9f>>,\x{2019} I said. \x{2018}Or we can ask the girl. Where is she?\x{2019}",
+            "\x{2018}She writes in Chinese,\x{2019} said the girl. She scratched her stomach and smiled at the paper. \x{2018}What does that say \x{2013} fifty or five?\x{2019}
+\x{2018}Let\x{2019}s call it <<five|9f>>,\x{2019} I said. \x{2018}Or we can ask the girl. Where is she?\x{2019}
+\x{2018}Chee\x{2019} \x{2013} now the cross-eyed man was speaking in English \x{2013} \x{2018}chee go to the veech!\x{2019}",
           ],
           [
             1,
@@ -57,8 +63,13 @@ $VAR1 = [
           [
             1,
             "[23:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter004.html) - eleven o\x{2019}clock at night",
-            "
-\x{2018}Pomp and Circumstance\x{2019}? In Veracruz? At <<eleven o\x{2019}clock at night|6>>?",
+            "Land of Hope and Glory, Mother of the Free,
+
+How shall we extol thee, who are born of thee?
+\x{2018}Pomp and Circumstance\x{2019}? In Veracruz? At <<eleven o\x{2019}clock at night|6>>?
+Wider still and wider shall thy bounds be set;
+
+God who made thee mighty, make thee mightier yet.",
           ],
           [
             1,
@@ -68,10 +79,7 @@ $VAR1 = [
           [
             1,
             "[ap > 09:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter005.html) - just after nine o\x{2019}clock",
-            "
-
-  
-    The Old Patagonian Express
+            "The Old Patagonian Express
     
     
     
@@ -124,10 +132,7 @@ I had been on the train for twelve hours. There was something wrong with this tr
           [
             1,
             '[06:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter007.html) - six in the morning',
-            "
-
-  
-    The Old Patagonian Express
+            "The Old Patagonian Express
     
     
     
@@ -210,7 +215,9 @@ It was a brutal city, but at <<six in the morning|9a>> a froth of fog endowed it
           [
             1,
             "[ap 09:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter010.html) - nine o\x{2019}clock",
-            "I said, \x{2018}I don\x{2019}t normally go to bed at <<nine o\x{2019}clock|6>>.\x{2019}",
+            "\x{2018}I\x{2019}m sick of thinking about it.\x{2019} He looked at his watch. \x{2018}Nine o\x{2019}clock. I\x{2019}m bushed. Shall we call it a day?\x{2019}
+I said, \x{2018}I don\x{2019}t normally go to bed at <<nine o\x{2019}clock|6>>.\x{2019}
+Mr Thornberry said, \x{2018}I always do.\x{2019}",
           ],
           [
             1,
@@ -310,10 +317,7 @@ It was a brutal city, but at <<six in the morning|9a>> a froth of fog endowed it
           [
             1,
             '[04:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter017.html) - 4:00 AM',
-            "
-
-  
-    The Old Patagonian Express
+            "The Old Patagonian Express
     
     
     
@@ -331,8 +335,7 @@ Peru is the poorest country in South America. Peru is also the country most visi
           [
             1,
             "[ap 04:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter017.html) - four o\x{2019}clock",
-            "
-At <<four o\x{2019}clock|6>> every weekday morning the Cuzco church bells ring. They ring again at <<4:15|2>> and <<4:30|2>>. Because there are so many churches, and the valley is walled-in by mountains, the tolling of church bells, from <<four to five in the morning|10>>, has a celebratory sound. They summon all people to mass, but only Indians respond. They flock to <<five o\x{2019}clock|6>> mass in the Cathedral, and <<just before six|10>> the great doors of the Cathedral open on the cold cloudy mountain dawn and hundreds of Indians pour into the plaza, so many of them in bright red ponchos that the visual effect is of a fiesta about to begin. They look happy; they have performed a sacrament. All Catholics leave mass feeling light-hearted, and though these Indians are habitually dour \x{2013} their faces wrinkled into frowns \x{2013} at this early hour after mass most of them are smiling.",
+            "At <<four o\x{2019}clock|6>> every weekday morning the Cuzco church bells ring. They ring again at <<4:15|2>> and <<4:30|2>>. Because there are so many churches, and the valley is walled-in by mountains, the tolling of church bells, from <<four to five in the morning|10>>, has a celebratory sound. They summon all people to mass, but only Indians respond. They flock to <<five o\x{2019}clock|6>> mass in the Cathedral, and <<just before six|10>> the great doors of the Cathedral open on the cold cloudy mountain dawn and hundreds of Indians pour into the plaza, so many of them in bright red ponchos that the visual effect is of a fiesta about to begin. They look happy; they have performed a sacrament. All Catholics leave mass feeling light-hearted, and though these Indians are habitually dour \x{2013} their faces wrinkled into frowns \x{2013} at this early hour after mass most of them are smiling.",
           ],
           [
             1,
@@ -362,10 +365,7 @@ At <<four o\x{2019}clock|6>> every weekday morning the Cuzco church bells ring. 
           [
             1,
             '[ap 07:30] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter019.html) - seven-thirty',
-            "
-
-  
-    The Old Patagonian Express
+            "The Old Patagonian Express
     
     
     
@@ -418,7 +418,9 @@ Necessity kissed me with luck. There was no better way to leave the high plains 
           [
             1,
             '[ap ~ 02:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter021.html) - About two',
-            "\x{2018}<<About two|9e>>, tomorrow morning.\x{2019}",
+            "\x{2018}Yes. What time do we arrive?\x{2019}
+\x{2018}<<About two|9e>>, tomorrow morning.\x{2019}
+\x{2018}What do I do at Jacobacci?\x{2019}",
           ],
           [
             1,
@@ -428,10 +430,7 @@ Necessity kissed me with luck. There was no better way to leave the high plains 
           [
             1,
             '[> 00:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/chapter022.html) - just after midnight',
-            '
-
-  
-    The Old Patagonian Express
+            'The Old Patagonian Express
     
     
     
@@ -495,8 +494,7 @@ Penguin Books (South Africa) (Pty) Ltd, 24 Sturdee Avenue, Rosebank, Johannesbur
           [
             1,
             '[ap 09:15] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/preface003.html) - nine-fifteen',
-            "
-\x{2018}Romance!\x{2019} the season-tickets mourn,
+            "\x{2018}Romance!\x{2019} the season-tickets mourn,
 
 \x{a0}\x{a0} \x{a0} \x{2018}He never ran to catch his train,
 
@@ -511,21 +509,29 @@ Romance brought up the <<nine-fifteen|5a:1>>.",
           [
             1,
             '[ap 07:30] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/toc.html) - 7:30',
-            '6 The <<7:30|2>> to Guatemala City',
+            '5 The Passenger Train to Tapachula
+6 The <<7:30|2>> to Guatemala City
+7 The 7:00 to Zacapa',
           ],
           [
             1,
             '[ap 07:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/toc.html) - 7:00',
-            '7 The <<7:00|2>> to Zacapa',
+            '6 The 7:30 to Guatemala City
+7 The <<7:00|2>> to Zacapa
+8 The Railcar to San Salvador',
           ],
           [
             1,
             '[ap 00:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/toc.html) - 12:00',
-            "10 The Atlantic Railway: the <<12:00|2>> to Lim\x{f3}n",
+            "9 The Local to Cutuco
+10 The Atlantic Railway: the <<12:00|2>> to Lim\x{f3}n
+11 The Pacific Railway: the 10:00 to Puntarenas",
           ],
           [
             1,
             '[ap 10:00] The Old Patagonian Express_ By Train Throu - Paul Theroux.epub (OPS/xhtml/toc.html) - 10:00',
-            '11 The Pacific Railway: the <<10:00|2>> to Puntarenas',
+            "10 The Atlantic Railway: the 12:00 to Lim\x{f3}n
+11 The Pacific Railway: the <<10:00|2>> to Puntarenas
+12 The Balboa Bullet to Col\x{f3}n",
           ],
         ];

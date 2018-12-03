@@ -2,8 +2,7 @@ $VAR1 = [
           [
             1,
             '[02:30] The Name of the Rose - Umberto Eco.epub (index_split_005.html) - Matins',
-            "
-<<Matins|13>>\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0} (which Adso sometimes refers to by the older expression \x{201c}Vigiliae\x{201d}) Between <<2:30|2>> and <<3:00 in the morning|2a>>.",
+            "<<Matins|13>>\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0} (which Adso sometimes refers to by the older expression \x{201c}Vigiliae\x{201d}) Between <<2:30|2>> and <<3:00 in the morning|2a>>.",
           ],
           [
             1,
@@ -23,7 +22,9 @@ $VAR1 = [
           [
             1,
             '[ap 02:00] The Name of the Rose - Umberto Eco.epub (index_split_005.html) - 2:00',
-            "Nones\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0} Between <<2:00|2>> and <<3:00 in the afternoon|2a>>.",
+            "Sext\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0} Noon (in a monastery where the monks did not work in the fields, it was also the hour of the midday meal in winter).
+Nones\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0} Between <<2:00|2>> and <<3:00 in the afternoon|2a>>.
+Vespers\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0} Around 4:30, at sunset (the Rule prescribes eating supper before dark).",
           ],
           [
             1,
@@ -33,13 +34,14 @@ $VAR1 = [
           [
             1,
             '[~ 18:00] The Name of the Rose - Umberto Eco.epub (index_split_005.html) - Compline',
-            "<<Compline|13>>\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0} <<Around 6:00|2>> (before <<7:00|2>>, the monks go to bed).",
+            "Vespers\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0} Around 4:30, at sunset (the Rule prescribes eating supper before dark).
+<<Compline|13>>\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0} <<Around 6:00|2>> (before <<7:00|2>>, the monks go to bed).
+The calculation is based on the fact that in northern Italy at the end of November, the sun rises around 7:30 A.M. and sets around 4:40 P.M.",
           ],
           [
             1,
             '[~ 07:30] The Name of the Rose - Umberto Eco.epub (index_split_005.html) - around 7:30 A.M.',
-            '
-The calculation is based on the fact that in northern Italy at the end of November, the sun rises <<around 7:30 A.M.|2a>> and sets <<around 4:40 P.M.|2a>> ',
+            'The calculation is based on the fact that in northern Italy at the end of November, the sun rises <<around 7:30 A.M.|2a>> and sets <<around 4:40 P.M.|2a>>',
           ],
           [
             1,
@@ -49,23 +51,20 @@ The calculation is based on the fact that in northern Italy at the end of Novemb
           [
             1,
             '[> 06:00] The Name of the Rose - Umberto Eco.epub (index_split_009.html) - after lauds',
-            '
-It was a beautiful morning at the end of November. During the night it had snowed, but only a little, and the earth was covered with a cool blanket no more than three fingers high. In the darkness, immediately <<after lauds|13>>, we heard Mass in a village in the valley. Then we set off toward the mountain, as the sun first appeared.',
+            'It was a beautiful morning at the end of November. During the night it had snowed, but only a little, and the earth was covered with a cool blanket no more than three fingers high. In the darkness, immediately <<after lauds|13>>, we heard Mass in a village in the valley. Then we set off toward the mountain, as the sun first appeared.',
           ],
           [
             1,
             '[~ 09:00] The Name of the Rose - Umberto Eco.epub (index_split_010.html) - TERCE',
-            '
-
-  
-    The Name of the Rose
+            'The Name of the Rose
     
     
     
   
   
 
-<<TERCE|13>>',
+<<TERCE|13>>
+In which William has an instructive conversation with the abbot.',
           ],
           [
             1,
@@ -80,17 +79,15 @@ It was a beautiful morning at the end of November. During the night it had snowe
           [
             1,
             '[12:00] The Name of the Rose - Umberto Eco.epub (index_split_011.html) - SEXT',
-            '
-
-  
-    The Name of the Rose
+            'The Name of the Rose
     
     
     
   
   
 
-<<SEXT|13>>',
+<<SEXT|13>>
+In which Adso admires the door of the church, and William meets Ubertino of Casale again.',
           ],
           [
             1,
@@ -100,32 +97,28 @@ It was a beautiful morning at the end of November. During the night it had snowe
           [
             1,
             '[< 14:00] The Name of the Rose - Umberto Eco.epub (index_split_012.html) - TOWARD NONES',
-            '
-
-  
-    The Name of the Rose
+            'The Name of the Rose
     
     
     
   
   
 
-<<TOWARD NONES|16>>',
+<<TOWARD NONES|16>>
+In which William has a very erudite conversation with Severinus the herbalist.',
           ],
           [
             1,
             '[> 15:00] The Name of the Rose - Umberto Eco.epub (index_split_013.html) - AFTER NONES',
-            '
-
-  
-    The Name of the Rose
+            'The Name of the Rose
     
     
     
   
   
 
-<<AFTER NONES|16>>',
+<<AFTER NONES|16>>
+In which there is a visit to the scriptorium, and a meeting with many scholars, copyists, and rubricators, as well as an old blind man who is expecting the Antichrist.',
           ],
           [
             1,
@@ -135,23 +128,20 @@ It was a beautiful morning at the end of November. During the night it had snowe
           [
             1,
             '[~ 16:30] The Name of the Rose - Umberto Eco.epub (index_split_014.html) - VESPERS',
-            '
-
-  
-    The Name of the Rose
+            "The Name of the Rose
     
     
     
   
   
 
-<<VESPERS|13>>',
+<<VESPERS|13>>
+In which the rest of the abbey is visited, William comes to some conclusions about Adelmo\x{2019}s death, there is a conversation with the brother glazier about glasses for reading and about phantoms for those who seek to read too much.",
           ],
           [
             1,
             '[~ 16:30] The Name of the Rose - Umberto Eco.epub (index_split_014.html) - vespers',
-            '
-At that point the bell rang for <<vespers|13>> and the monks prepared to leave their desks. Malachi made it clear to us that we, too, should leave. He would remain with his assistant, Berengar, to put things back in order (those were his words) and arrange the library for the night. William asked him whether he would be locking the doors.',
+            'At that point the bell rang for <<vespers|13>> and the monks prepared to leave their desks. Malachi made it clear to us that we, too, should leave. He would remain with his assistant, Berengar, to put things back in order (those were his words) and arrange the library for the night. William asked him whether he would be locking the doors.',
           ],
           [
             1,
@@ -171,17 +161,15 @@ At that point the bell rang for <<vespers|13>> and the monks prepared to leave t
           [
             1,
             '[~ 18:00] The Name of the Rose - Umberto Eco.epub (index_split_015.html) - COMPLINE',
-            '
-
-  
-    The Name of the Rose
+            'The Name of the Rose
     
     
     
   
   
 
-<<COMPLINE|13>>',
+<<COMPLINE|13>>
+In which William and Adso enjoy the jolly hospitality of the abbot and the angry conversation of Jorge.',
           ],
           [
             1,
@@ -191,19 +179,26 @@ At that point the bell rang for <<vespers|13>> and the monks prepared to leave t
           [
             1,
             '[02:30] The Name of the Rose - Umberto Eco.epub (index_split_016.html) - MATINS',
-            '<<MATINS|13>>',
+            'The Name of the Rose
+    
+    
+    
+  
+  
+
+SECOND DAY
+<<MATINS|13>>
+In which a few hours of mystic happiness are interrupted by a most bloody occurrence.',
           ],
           [
             1,
             '[02:30] The Name of the Rose - Umberto Eco.epub (index_split_016.html) - matins',
-            '
-Symbol sometimes of the Devil, sometimes of the Risen Christ, no animal is more untrustworthy than the cock. Our order knew some slothful ones who never crowed at sunrise. On the other hand, especially in winter, the office of <<matins|13>> takes place when night is still total and all nature is asleep, for the monk must rise in darkness and pray at length in darkness, waiting for day and illuminating the shadows with the flame of devotion. Therefore, custom wisely provided for some wakers, who were not to go to bed when their brothers did, but would spend the night reciting in cadence the exact number of psalms that would allow them to measure the time passed, so that, at the conclusion of the hours of sleep granted the others, they would give the signal to wake.',
+            'Symbol sometimes of the Devil, sometimes of the Risen Christ, no animal is more untrustworthy than the cock. Our order knew some slothful ones who never crowed at sunrise. On the other hand, especially in winter, the office of <<matins|13>> takes place when night is still total and all nature is asleep, for the monk must rise in darkness and pray at length in darkness, waiting for day and illuminating the shadows with the flame of devotion. Therefore, custom wisely provided for some wakers, who were not to go to bed when their brothers did, but would spend the night reciting in cadence the exact number of psalms that would allow them to measure the time passed, so that, at the conclusion of the hours of sleep granted the others, they would give the signal to wake.',
           ],
           [
             1,
             '[02:30] The Name of the Rose - Umberto Eco.epub (index_split_016.html) - matins',
-            '
-Between <<matins|13>> and <<lauds|13>> the monk does not return to his cell, even if the night is still dark. The novices followed their master into the chapter house to study the psalms; some of the monks remained in church to tend to the church ornaments, but the majority strolled in the cloister in silent meditation, as did William and I. The servants were asleep and they went on sleeping when, the sky still dark, we returned to the choir for <<lauds|13>>.',
+            'Between <<matins|13>> and <<lauds|13>> the monk does not return to his cell, even if the night is still dark. The novices followed their master into the chapter house to study the psalms; some of the monks remained in church to tend to the church ornaments, but the majority strolled in the cloister in silent meditation, as did William and I. The servants were asleep and they went on sleeping when, the sky still dark, we returned to the choir for <<lauds|13>>.',
           ],
           [
             1,
@@ -233,32 +228,28 @@ Between <<matins|13>> and <<lauds|13>> the monk does not return to his cell, eve
           [
             1,
             '[~ 09:00] The Name of the Rose - Umberto Eco.epub (index_split_018.html) - TERCE',
-            '
-
-  
-    The Name of the Rose
+            'The Name of the Rose
     
     
     
   
   
 
-<<TERCE|13>>',
+<<TERCE|13>>
+In which the visitors witness a brawl among vulgar persons, Aymaro of Alessandria makes some allusions, and Adso meditates on saintliness and on the dung of the Devil. Subsequently William and Adso go back to the scriptorium, William sees something interesting, has a third conversation on the licitness of laughter, but in the end is unable to look where he wishes.',
           ],
           [
             1,
             '[12:00] The Name of the Rose - Umberto Eco.epub (index_split_019.html) - SEXT',
-            '
-
-  
-    The Name of the Rose
+            'The Name of the Rose
     
     
     
   
   
 
-<<SEXT|13>>',
+<<SEXT|13>>
+In which Benno tells a strange tale from which unedifying things about the life of the abbey are learned.',
           ],
           [
             1,
@@ -273,44 +264,38 @@ Between <<matins|13>> and <<lauds|13>> the monk does not return to his cell, eve
           [
             1,
             '[12:00] The Name of the Rose - Umberto Eco.epub (index_split_020.html) - noon',
-            "
-We found the abbot in church, at the main altar. He was following the work of some novices who had brought forth from a secret place a number of sacred vessels, chalices, patens, and monstrances, and a crucifix I had not seen during the morning function. I could not repress a cry of wonder at the dazzling beauty of those holy objects. It was <<noon|9f>> and the light came in bursts through the choir windows, and even more through those of the fa\x{e7}ade, creating white cascades that, like mystic streams of divine substance, intersected at various points of the church, engulfing the altar itself.",
+            "We found the abbot in church, at the main altar. He was following the work of some novices who had brought forth from a secret place a number of sacred vessels, chalices, patens, and monstrances, and a crucifix I had not seen during the morning function. I could not repress a cry of wonder at the dazzling beauty of those holy objects. It was <<noon|9f>> and the light came in bursts through the choir windows, and even more through those of the fa\x{e7}ade, creating white cascades that, like mystic streams of divine substance, intersected at various points of the church, engulfing the altar itself.",
           ],
           [
             1,
             '[> 16:30] The Name of the Rose - Umberto Eco.epub (index_split_021.html) - AFTER VESPERS',
-            '
-
-  
-    The Name of the Rose
+            'The Name of the Rose
     
     
     
   
   
 
-<<AFTER VESPERS|9b>>',
+<<AFTER VESPERS|9b>>
+In which, though the chapter is short, old Alinardo says very interesting things about the labyrinth and about the way to enter it.',
           ],
           [
             1,
             '[~ 18:00] The Name of the Rose - Umberto Eco.epub (index_split_022.html) - COMPLINE',
-            '
-
-  
-    The Name of the Rose
+            "The Name of the Rose
     
     
     
   
   
 
-<<COMPLINE|13>>',
+<<COMPLINE|13>>
+In which the Aedificium is entered, a mysterious visitor is discovered, a secret message with necromantic signs is found, and also a book is found, but then promptly vanishes, to be sought through many subsequent chapters; nor is the theft of William\x{2019}s precious lenses the last of the vicissitudes.",
           ],
           [
             1,
             '[~ 18:00] The Name of the Rose - Umberto Eco.epub (index_split_022.html) - compline',
-            "
-The supper was joyless and silent. It had been just over twelve ours since the discovery of Venantius\x{2019}s co r se. All the others stole glimpses at his empty place at table. When it was the hour for <<compline|13>>, the procession that marched into the choir seemed a funeral cort\x{e8}ge. We followed the office standing in the nave and keeping an eye on the third chapel. The light was scant, and when we saw Malachi emerge from the darkness to reach his stall, we could not tell exactly where he had come from. We moved into the shadows, hiding in the side nave, so that no one would see us stay behind when the office was over. Under my scapular I had the lamp I had purloined in the kitchen during supper. We would light it later at the great bronze tripod that burned all night. I had procured a new wick and ample oil. We would have light for a long time.",
+            "The supper was joyless and silent. It had been just over twelve ours since the discovery of Venantius\x{2019}s co r se. All the others stole glimpses at his empty place at table. When it was the hour for <<compline|13>>, the procession that marched into the choir seemed a funeral cort\x{e8}ge. We followed the office standing in the nave and keeping an eye on the third chapel. The light was scant, and when we saw Malachi emerge from the darkness to reach his stall, we could not tell exactly where he had come from. We moved into the shadows, hiding in the side nave, so that no one would see us stay behind when the office was over. Under my scapular I had the lamp I had purloined in the kitchen during supper. We would light it later at the great bronze tripod that burned all night. I had procured a new wick and ample oil. We would have light for a long time.",
           ],
           [
             1,
@@ -325,18 +310,28 @@ The supper was joyless and silent. It had been just over twelve ours since the d
           [
             1,
             '[02:30] The Name of the Rose - Umberto Eco.epub (index_split_023.html) - matins',
-            'At <<matins|9m>> Berengar was absent.',
+            "\x{201c}He was not in choir at compline,\x{201d} the abbot repeated, and has not come back to his cell. Matins are about to ring, and we will now see if he reappears. Otherwise I fear some new calamity.\x{201d}
+At <<matins|9m>> Berengar was absent.
+",
           ],
           [
             1,
             '[05:00] The Name of the Rose - Umberto Eco.epub (index_split_024.html) - LAUDS',
-            'FROM <<LAUDS|13>> TO PRIME',
+            'The Name of the Rose
+    
+    
+    
+  
+  
+
+THIRD DAY
+FROM <<LAUDS|13>> TO PRIME
+In which a bloodstained cloth is found in the cell of Berengar, who has disappeared; and that is all.',
           ],
           [
             1,
             '[> 03:00] The Name of the Rose - Umberto Eco.epub (index_split_024.html) - After matins',
-            "
-In setting down these words, I feel weary, as I felt that night\x{2014}or, rather, that morning. What can be said? <<After matins|13>> the abbot sent most of the monks, now in a state of alarm, to seek everywhere; but without any result.",
+            "In setting down these words, I feel weary, as I felt that night\x{2014}or, rather, that morning. What can be said? <<After matins|13>> the abbot sent most of the monks, now in a state of alarm, to seek everywhere; but without any result.",
           ],
           [
             1,
@@ -351,47 +346,41 @@ In setting down these words, I feel weary, as I felt that night\x{2014}or, rathe
           [
             1,
             '[~ 09:00] The Name of the Rose - Umberto Eco.epub (index_split_025.html) - TERCE',
-            '
-
-  
-    The Name of the Rose
+            'The Name of the Rose
     
     
     
   
   
 
-<<TERCE|13>>',
+<<TERCE|13>>
+In which Adso, in the scriptorium, reflects on the history of his order and on the destiny of books.',
           ],
           [
             1,
             '[12:00] The Name of the Rose - Umberto Eco.epub (index_split_026.html) - SEXT',
-            '
-
-  
-    The Name of the Rose
+            'The Name of the Rose
     
     
     
   
   
 
-<<SEXT|13>>',
+<<SEXT|13>>
+In which Adso receives the confidences of Salvatore, which cannot be summarized in a few words, but which cause him long and concerned meditation.',
           ],
           [
             1,
             '[~ 16:30] The Name of the Rose - Umberto Eco.epub (index_split_028.html) - VESPERS',
-            '
-
-  
-    The Name of the Rose
+            'The Name of the Rose
     
     
     
   
   
 
-<<VESPERS|13>>',
+<<VESPERS|13>>
+In which the abbot speaks again with the visitors, and William has some astounding ideas for deciphering the riddle of the labyrinth and succeeds in the most rational way. Then William and Adso eat cheese in batter.',
           ],
           [
             1,
@@ -411,17 +400,15 @@ In setting down these words, I feel weary, as I felt that night\x{2014}or, rathe
           [
             1,
             '[> 18:00] The Name of the Rose - Umberto Eco.epub (index_split_029.html) - AFTER COMPLINE',
-            '
-
-  
-    The Name of the Rose
+            'The Name of the Rose
     
     
     
   
   
 
-<<AFTER COMPLINE|9b>>',
+<<AFTER COMPLINE|9b>>
+In which Ubertino tells Adso the story of Fra Dolcino, after which Adso recalls other stories or reads them on his own in the library, and then he has an encounter with a maiden, beautiful and terrible as an army arrayed for battle.',
           ],
           [
             1,
@@ -436,7 +423,16 @@ In setting down these words, I feel weary, as I felt that night\x{2014}or, rathe
           [
             1,
             '[05:00] The Name of the Rose - Umberto Eco.epub (index_split_031.html) - LAUDS',
-            '<<LAUDS|13>>',
+            "The Name of the Rose
+    
+    
+    
+  
+  
+
+FOURTH DAY
+<<LAUDS|13>>
+In which William and Severinus examine Berengar\x{2019}s corpse and discover that the tongue is black, unusual in a drowned man. Then they discuss most painful poisons and a past theft.",
           ],
           [
             1,
@@ -461,17 +457,15 @@ In setting down these words, I feel weary, as I felt that night\x{2014}or, rathe
           [
             1,
             '[~ 09:00] The Name of the Rose - Umberto Eco.epub (index_split_033.html) - TERCE',
-            '
-
-  
-    The Name of the Rose
+            "The Name of the Rose
     
     
     
   
   
 
-<<TERCE|13>>',
+<<TERCE|13>>
+In which Adso writhes in the torments of love, then William arrives with Venantius\x{2019}s text, which remains undecipherable even after it has been deciphered.",
           ],
           [
             1,
@@ -486,47 +480,41 @@ In setting down these words, I feel weary, as I felt that night\x{2014}or, rathe
           [
             1,
             '[12:00] The Name of the Rose - Umberto Eco.epub (index_split_034.html) - SEXT',
-            '
-
-  
-    The Name of the Rose
+            'The Name of the Rose
     
     
     
   
   
 
-<<SEXT|13>>',
+<<SEXT|13>>
+In which Adso goes hunting for truffles and sees the Minorites arriving they confer at length with William and Ubertino, and very sad things are learned about John XXII.',
           ],
           [
             1,
             '[~ 16:30] The Name of the Rose - Umberto Eco.epub (index_split_036.html) - VESPERS',
-            '
-
-  
-    The Name of the Rose
+            'The Name of the Rose
     
     
     
   
   
 
-<<VESPERS|13>>',
+<<VESPERS|13>>
+In which Alinardo seems to give valuable information, and William reveals his method of arriving at a probable truth through a series of unquestionable errors.',
           ],
           [
             1,
             '[~ 18:00] The Name of the Rose - Umberto Eco.epub (index_split_037.html) - COMPLINE',
-            '
-
-  
-    The Name of the Rose
+            'The Name of the Rose
     
     
     
   
   
 
-<<COMPLINE|13>>',
+<<COMPLINE|13>>
+In which Salvatore tells of a prodigious spell.',
           ],
           [
             1,
@@ -541,23 +529,20 @@ In setting down these words, I feel weary, as I felt that night\x{2014}or, rathe
           [
             1,
             '[> 18:00] The Name of the Rose - Umberto Eco.epub (index_split_038.html) - AFTER COMPLINE',
-            '
-
-  
-    The Name of the Rose
+            'The Name of the Rose
     
     
     
   
   
 
-<<AFTER COMPLINE|9b>>',
+<<AFTER COMPLINE|9b>>
+In which they visit the labyrinth again, reach the threshold of the finis Africae, but cannot enter because they do not know what the first and seventh of the four are, and, finally, Adso has a recurrence, though a very erudite one, of his love malady.',
           ],
           [
             1,
             '[~ 07:30] The Name of the Rose - Umberto Eco.epub (index_split_040.html) - prime',
-            '
-My heart racked by a thousand anxieties after the scene of the night, I woke on the morning of the fifth day when <<prime|16>> was already ringing, as William shook me roughly, warning me that the two legations would be meeting shortly. I looked out of the cell window and saw nothing. The fog of the previous day was now a milky blanket that totally covered the high plain.',
+            'My heart racked by a thousand anxieties after the scene of the night, I woke on the morning of the fifth day when <<prime|16>> was already ringing, as William shook me roughly, warning me that the two legations would be meeting shortly. I looked out of the cell window and saw nothing. The fog of the previous day was now a milky blanket that totally covered the high plain.',
           ],
           [
             1,
@@ -567,32 +552,28 @@ My heart racked by a thousand anxieties after the scene of the night, I woke on 
           [
             1,
             '[~ 09:00] The Name of the Rose - Umberto Eco.epub (index_split_041.html) - TERCE',
-            '
-
-  
-    The Name of the Rose
+            'The Name of the Rose
     
     
     
   
   
 
-<<TERCE|13>>',
+<<TERCE|13>>
+In which Severinus speaks to William of a strange book, and William speaks to the envoys of a strange concept of temporal government.',
           ],
           [
             1,
             '[12:00] The Name of the Rose - Umberto Eco.epub (index_split_042.html) - SEXT',
-            '
-
-  
-    The Name of the Rose
+            'The Name of the Rose
     
     
     
   
   
 
-<<SEXT|13>>',
+<<SEXT|13>>
+In which Severinus is found murdered but the book that he had found is to be found no longer.',
           ],
           [
             1,
@@ -607,17 +588,15 @@ My heart racked by a thousand anxieties after the scene of the night, I woke on 
           [
             1,
             '[~ 16:30] The Name of the Rose - Umberto Eco.epub (index_split_044.html) - VESPERS',
-            '
-
-  
-    The Name of the Rose
+            'The Name of the Rose
     
     
     
   
   
 
-<<VESPERS|13>>',
+<<VESPERS|13>>
+In which Ubertino takes flight, Benno begins to observe the laws, and William makes some reflections on the various types of lust encountered that day.',
           ],
           [
             1,
@@ -627,23 +606,20 @@ My heart racked by a thousand anxieties after the scene of the night, I woke on 
           [
             1,
             '[~ 18:00] The Name of the Rose - Umberto Eco.epub (index_split_045.html) - COMPLINE',
-            '
-
-  
-    The Name of the Rose
+            'The Name of the Rose
     
     
     
   
   
 
-<<COMPLINE|13>>',
+<<COMPLINE|13>>
+In which a sermon is heard about the coming of the Antichrist, and Adso discovers the power of proper names.',
           ],
           [
             1,
             '[~ 16:30] The Name of the Rose - Umberto Eco.epub (index_split_045.html) - Vespers',
-            "
-<<Vespers|13>> had been sung in a confused fashion while the interrogation of the cellarer was still under way, with the curious novices escaping their master\x{2019}s control to observe through windows and cracks what was going on in the chapter hall. Now the whole community was to pray for the good soul of Severinus. Everyone expected the abbot to speak, and wondered what he would say. But instead, after the ritual homily of Saint Gregory, the responsory, and the three prescribed psalms, the abbot did step into the pulpit, but only to say he would remain silent this evening. Too many calamities had befallen the abbey, he said, to allow even the spiritual father to speak in a tone of reproach and admonition. Everyone, with no exceptions, should now make a strict examination of conscience. But since it was necessary for someone to speak, he suggested the admonition should come from the oldest of their number, now close to death, the brother who was the least involved of all in the terrestrial passions that had generated so many evils. By right of age Alinardo of Grottaferrata should speak, but all knew the fragile condition of the venerable brother\x{2019}s health. Immediately after Alinardo, in the order established by the inevitable progress of time, came Jorge. And the abbot now called upon him.",
+            "<<Vespers|13>> had been sung in a confused fashion while the interrogation of the cellarer was still under way, with the curious novices escaping their master\x{2019}s control to observe through windows and cracks what was going on in the chapter hall. Now the whole community was to pray for the good soul of Severinus. Everyone expected the abbot to speak, and wondered what he would say. But instead, after the ritual homily of Saint Gregory, the responsory, and the three prescribed psalms, the abbot did step into the pulpit, but only to say he would remain silent this evening. Too many calamities had befallen the abbey, he said, to allow even the spiritual father to speak in a tone of reproach and admonition. Everyone, with no exceptions, should now make a strict examination of conscience. But since it was necessary for someone to speak, he suggested the admonition should come from the oldest of their number, now close to death, the brother who was the least involved of all in the terrestrial passions that had generated so many evils. By right of age Alinardo of Grottaferrata should speak, but all knew the fragile condition of the venerable brother\x{2019}s health. Immediately after Alinardo, in the order established by the inevitable progress of time, came Jorge. And the abbot now called upon him.",
           ],
           [
             1,
@@ -653,13 +629,21 @@ My heart racked by a thousand anxieties after the scene of the night, I woke on 
           [
             1,
             '[02:30] The Name of the Rose - Umberto Eco.epub (index_split_046.html) - MATINS',
-            '<<MATINS|13>>',
+            'The Name of the Rose
+    
+    
+    
+  
+  
+
+SIXTH DAY
+<<MATINS|13>>
+In which the princes sederunt, and Malachi slumps to the ground.',
           ],
           [
             1,
             '[02:30] The Name of the Rose - Umberto Eco.epub (index_split_046.html) - matins',
-            '
-We went down to <<matins|13>>. That last part of the night, virtually the first part of the imminent new day, was still foggy. As I crossed the cloister the dampness penetrated to my bones, aching after my uneasy sleep. Although the church was cold, I knelt under those vaults with a sigh of relief, sheltered from the elements, comforted by the warmth of other bodies, and by prayer.',
+            'We went down to <<matins|13>>. That last part of the night, virtually the first part of the imminent new day, was still foggy. As I crossed the cloister the dampness penetrated to my bones, aching after my uneasy sleep. Although the church was cold, I knelt under those vaults with a sigh of relief, sheltered from the elements, comforted by the warmth of other bodies, and by prayer.',
           ],
           [
             1,
@@ -669,68 +653,59 @@ We went down to <<matins|13>>. That last part of the night, virtually the first 
           [
             1,
             '[05:00] The Name of the Rose - Umberto Eco.epub (index_split_047.html) - LAUDS',
-            '
-
-  
-    The Name of the Rose
+            'The Name of the Rose
     
     
     
   
   
 
-<<LAUDS|13>>',
+<<LAUDS|13>>
+In which a new cellarer is chosen, but not a new librarian.',
           ],
           [
             1,
             '[05:00] The Name of the Rose - Umberto Eco.epub (index_split_047.html) - lauds',
-            "
-Was it time for <<lauds|13>> already? Was it earlier or later? From that point on I lost all temporal sense. Perhaps hours went by, perhaps less, in which Malachi\x{2019}s body was laid out in church on a catafalque, while the brothers formed a semicircle around it. The abbot issued instructions for a prompt funeral. I heard him summon Benno and Nicholas of Morimondo. In less than a day, he said, the abbey had been deprived of its librarian and its cellarer. \x{201c}You,\x{201d} he said to Nicholas, \x{201c}will take over the duties of Remigio. You know the jobs of many, here in the abbey. Name someone to take your place in charge of the forges, and provide for today\x{2019}s immediate necessities in the kitchen, the refectory. You are excused from offices. Go.\x{201d} Then to Benno he said, \x{201c}Only yesterday evening you were named Malachi\x{2019}s assistant. Provide for the opening of the scriptorium and make sure no one goes up into the library alone.\x{201d} Shyly, Benno pointed out that he had not yet been initiated into the secrets of that place. The abbot glared at him sternly. \x{201c}No one has said you will be. You see that work goes on and is offered as a prayer for our dead brothers ... and for those who will yet die. Each monk will work only on the books already given him. Those who wish may consult the catalogue. Nothing else. You are excused from <<vespers|13>>, because at that hour you will lock up everything.\x{201d}",
+            "Was it time for <<lauds|13>> already? Was it earlier or later? From that point on I lost all temporal sense. Perhaps hours went by, perhaps less, in which Malachi\x{2019}s body was laid out in church on a catafalque, while the brothers formed a semicircle around it. The abbot issued instructions for a prompt funeral. I heard him summon Benno and Nicholas of Morimondo. In less than a day, he said, the abbey had been deprived of its librarian and its cellarer. \x{201c}You,\x{201d} he said to Nicholas, \x{201c}will take over the duties of Remigio. You know the jobs of many, here in the abbey. Name someone to take your place in charge of the forges, and provide for today\x{2019}s immediate necessities in the kitchen, the refectory. You are excused from offices. Go.\x{201d} Then to Benno he said, \x{201c}Only yesterday evening you were named Malachi\x{2019}s assistant. Provide for the opening of the scriptorium and make sure no one goes up into the library alone.\x{201d} Shyly, Benno pointed out that he had not yet been initiated into the secrets of that place. The abbot glared at him sternly. \x{201c}No one has said you will be. You see that work goes on and is offered as a prayer for our dead brothers ... and for those who will yet die. Each monk will work only on the books already given him. Those who wish may consult the catalogue. Nothing else. You are excused from <<vespers|13>>, because at that hour you will lock up everything.\x{201d}",
           ],
           [
             1,
             '[~ 09:00] The Name of the Rose - Umberto Eco.epub (index_split_049.html) - TERCE',
-            '
-
-  
-    The Name of the Rose
+            "The Name of the Rose
     
     
     
   
   
 
-<<TERCE|13>>',
+<<TERCE|13>>
+In which Adso, listening to the \x{201c}Dies irae,\x{201d} has a dream, or vision, howsoever you may choose to define it.",
           ],
           [
             1,
             '[> 09:00] The Name of the Rose - Umberto Eco.epub (index_split_050.html) - AFTER TERCE',
-            '
-
-  
-    The Name of the Rose
+            "The Name of the Rose
     
     
     
   
   
 
-<<AFTER TERCE|9b>>',
+<<AFTER TERCE|9b>>
+In which William explains Adso\x{2019}s dream to him.",
           ],
           [
             1,
             '[12:00] The Name of the Rose - Umberto Eco.epub (index_split_051.html) - SEXT',
-            '
-
-  
-    The Name of the Rose
+            'The Name of the Rose
     
     
     
   
   
 
-<<SEXT|13>>',
+<<SEXT|13>>
+In which the succession of librarians is reconstructed, and there is further information about the mysterious book.',
           ],
           [
             1,
@@ -740,10 +715,7 @@ Was it time for <<lauds|13>> already? Was it earlier or later? From that point o
           [
             1,
             '[~ 16:30] The Name of the Rose - Umberto Eco.epub (index_split_053.html) - VESPERS',
-            '
-
-  
-    The Name of the Rose
+            'The Name of the Rose
     
     
     
@@ -755,8 +727,7 @@ BETWEEN <<VESPERS|13>> AND <<COMPLINE|13>>',
           [
             1,
             '[~ 16:30] The Name of the Rose - Umberto Eco.epub (index_split_053.html) - vespers',
-            '
-It is difficult for me to narrate what happened in the hours that followed, between <<vespers|13>> and <<compline|13>>.',
+            'It is difficult for me to narrate what happened in the hours that followed, between <<vespers|13>> and <<compline|13>>.',
           ],
           [
             1,
@@ -776,17 +747,15 @@ It is difficult for me to narrate what happened in the hours that followed, betw
           [
             1,
             '[> 18:00] The Name of the Rose - Umberto Eco.epub (index_split_054.html) - AFTER COMPLINE',
-            '
-
-  
-    The Name of the Rose
+            'The Name of the Rose
     
     
     
   
   
 
-<<AFTER COMPLINE|9b>>',
+<<AFTER COMPLINE|9b>>
+In which, almost by chance, William discovers the secret of entering the finis Africae.',
           ],
           [
             1,

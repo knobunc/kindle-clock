@@ -5,6 +5,9 @@ use Modern::Perl '2017';
 use utf8;
 use open ':std', ':encoding(UTF-8)';
 
+# If the line is shorter than this, add surrounding lines
+use constant SHORT_LINE_LENGTH => 70;
+
 use Archive::Zip;
 use Data::Dumper;
 use File::Spec;
@@ -62,13 +65,24 @@ sub search_zip {
                                   }x;
         $members_seen = 1;
 
-        my @lines = split m{</(?:p|div)>\R*}, $contents;
-        foreach my $line (@lines) {
+        my @raw_lines = split m{</(?:p|div)>\R*}, $contents;
+        my @lines;
+        foreach my $line (@raw_lines) {
             ## First clean out html and turn to text
             $line =~ s{<(sup|h1|h2|h3) [^>/]+>.*?</\g1>}{}sgix;
             $line =~ s{<br [^>]+ /? >}{\n}sgix;
             $line =~ s{< /? [^>]+ >}{}sgix;
             $line = XML::Entities::decode('all', $line);
+
+            # Clean the start and end of whitespace
+            $line =~ s{\A \s+   }{}x;
+            $line =~ s{   \s+ \z}{}x;
+
+            push @lines, $line;
+        }
+
+        for (my $i = 0; $i < @lines; $i++) {
+            my $line = $lines[$i];
 
             $line = do_match($line);
 
@@ -78,6 +92,12 @@ sub search_zip {
                     or die "Unable to extract time from '$time_bit': $line";
 
                 my ($t) = split /: /, $times[0];
+
+                # If the line is short, add in the surrounding lines
+                if (length($lines[$i]) < SHORT_LINE_LENGTH) {
+                    $line = $lines[$i-1] . "\n$line" if $i > 0;
+                    $line = "$line\n" . $lines[$i+1] if $i < $#lines;
+                }
 
                 push @res, [1, "[$t] $basename ($name) - $time_bit", $line];
 
