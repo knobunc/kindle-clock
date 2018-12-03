@@ -570,7 +570,7 @@ sub get_matches {
                     | $min_word_re \s+ or \s+
                     )?
                     ( $min_word_re | \d{1,2} | a | a \s+ few ) ( \s+ | [-] )
-                    ( minute s? \s+ )?
+                    ( minute s? ,? \s+ )? ( good ,? \s+ )?
                     ( and ( \s+ | [-] )
                             ( a \s+ half | 1/2 | a \s+ quarter | 1/4 | twenty
                             | $sec_re \s+ second s?
@@ -1423,7 +1423,7 @@ sub extract_times {
                 ( and ( \s+ | [-] )
                   ( a \s+ half | 1/2 | a \s+ quarter | 1/4 ) \s+
                 )?
-                  ( minutes? \s+ )?
+                  ( minutes? ,? \s+ )? ( good ,? \s+ )?
                 ( and ( \s+ | [-] ) (?<sec> $sec_re ) \s+ seconds? \s+ )?
                   (?<dir> $till_re ) [-\s]+
                   ( the \s+ hour [,;]? \s+ which \s+ was \s+ )?

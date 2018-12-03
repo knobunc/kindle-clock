@@ -1,16 +1,16 @@
 $VAR1 = [
           [
             1,
-            '[ap > 11:00] A Tale of Two Cities - Charles Dickens.epub (CR!6K6F3FXQ6D3WS6H6JFZXPRC83G5Q_split_008.html) - past eleven',
+            '[ap 11:10] A Tale of Two Cities - Charles Dickens.epub (CR!6K6F3FXQ6D3WS6H6JFZXPRC83G5Q_split_008.html) - Ten minutes, good, past eleven',
             "\x{201c}Halloa!\x{201d} the guard replied.
 \x{201c}What o\x{2019}clock do you make it, Joe?\x{201d}
-\x{201c}Ten minutes, good, <<past eleven|9:1>>.\x{201d}",
+\x{201c}<<Ten minutes, good, past eleven|10>>.\x{201d}",
           ],
           [
             1,
-            '[ap > 11:00] A Tale of Two Cities - Charles Dickens.epub (CR!6K6F3FXQ6D3WS6H6JFZXPRC83G5Q_split_008.html) - past eleven',
+            '[ap 11:10] A Tale of Two Cities - Charles Dickens.epub (CR!6K6F3FXQ6D3WS6H6JFZXPRC83G5Q_split_008.html) - Ten minutes, good, past eleven',
             "\x{201c}What o\x{2019}clock do you make it, Joe?\x{201d}
-\x{201c}Ten minutes, good, <<past eleven|9:1>>.\x{201d}
+\x{201c}<<Ten minutes, good, past eleven|10>>.\x{201d}
 \x{201c}My blood!\x{201d} ejaculated the vexed coachman, \x{201c}and not atop of Shooter\x{2019}s yet! Tst! Yah! Get on with you!\x{201d}",
           ],
           [
