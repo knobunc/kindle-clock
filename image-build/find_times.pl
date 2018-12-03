@@ -52,10 +52,14 @@ sub search_zip {
         my $contents = $member->contents();
         utf8::decode($contents);
 
-        next unless $contents =~ m{\A \Q<?xml \E [^>]+ [?]> \r?\n
-                                   \Q<html \E
+        next unless $contents =~ m{( \A \Q<?xml \E [^>]+ [?]> \r?\n
+                                     \Q<html \E
+                                   | \Q<html xmlns="http://www.w3.org/1999/xhtml"\E
+                                   )
                                   }x;
-        next unless $contents =~ m{content="(text/html|http://www.w3.org/1999/xhtml)};
+        next unless $contents =~ m{ content="(text/html|\Qhttp://www.w3.org/1999/xhtml\E)
+                                  | \Q<meta content="application/xhtml+xml\E
+                                  }x;
         $members_seen = 1;
 
         my @lines = split m{</(?:p|div)>\R*}, $contents;
