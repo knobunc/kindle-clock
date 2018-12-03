@@ -154,6 +154,20 @@ $VAR1 = [
           ],
           [
             1,
+            '[ap < 10:00] A Clockwork Orange - Anthony Burgess.epub (OPS/xhtml/chapter019.xhtml) - nearly ten',
+            "\x{2018}You\x{2019}ve slept long,\x{2019}
+                he said, ladling out boiled eggs and pulling black toast from under the grill.
+                \x{2018}It\x{2019}s <<nearly ten|9:1>> already. I\x{2019}ve been up hours, working.\x{2019}
+\x{2018}Writing another book, sir?\x{2019}
+                I said.
+\x{2018}No no, not that now,\x{2019} he
+                said, and we sat down nice and droogy to the old crack crack crack of eggs and
+                crackle crunch crunch of this black toast, very milky chai standing by in bolshy
+                great morning mugs. \x{2018}No, I\x{2019}ve been on the phone to various
+                people.\x{2019}",
+          ],
+          [
+            1,
             '[ap 00:40] A Clockwork Orange - Anthony Burgess.epub (OPS/xhtml/chapter021.xhtml) - twenty-to-one',
             "There was me, Your Humble Narrator, and
                 my three droogs, that is Len, Rick, and Bully, Bully being called Bully because of
@@ -225,6 +239,20 @@ $VAR1 = [
           [
             1,
             '[ap 02:03] A Clockwork Orange - Anthony Burgess.epub (OPS/xhtml/chapter030.xhtml) - two three',
+            "Then we tripped him so he laid down
+                    flat and heavy and a bucket-load of beer-vomit came whooshing out. That was
+                    disgusting so we gave him the boot, one go each, and then it was blood, not song
+                    nor vomit, that came out of his filthy old rot. Then we went on our way.
+[\x{2026}]
+And, my brothers, it was real
+                    satisfaction to me to waltz \x{2013} left <<two three|5a:0>>, right <<two three|5a:0>> \x{2013} and carve left
+                    cheeky and right cheeky, so that like two curtains of blood seemed to pour out
+                    at the same time, one on either side of his fat filthy oily snout in the winter
+                    starlight.",
+          ],
+          [
+            1,
+            '[ap 02:03] A Clockwork Orange - Anthony Burgess.epub (OPS/xhtml/chapter030.xhtml) - two three',
             "And, my brothers, it was real
                     satisfaction to me to waltz \x{2013} left <<two three|5a:0>>, right <<two three|5a:0>> \x{2013} and carve left
                     cheeky and right cheeky, so that like two curtains of blood seemed to pour out
@@ -267,11 +295,30 @@ Penguin Books (South
           [
             1,
             '[ap 00:40] A Clockwork Orange - Anthony Burgess.epub (OPS/xhtml/glossary.xhtml) - twenty-to-one',
+            'to tolchock: to
+                hit
+toofles:
+                slippers
+<<twenty-to-one|10a:0>>:
+                fun, i.e. gang violence',
+          ],
+          [
+            1,
+            '[ap 00:40] A Clockwork Orange - Anthony Burgess.epub (OPS/xhtml/glossary.xhtml) - twenty-to-one',
             'toofles:
                 slippers
 <<twenty-to-one|10a:0>>:
                 fun, i.e. gang violence
 ',
+          ],
+          [
+            1,
+            '[ap 00:40] A Clockwork Orange - Anthony Burgess.epub (OPS/xhtml/glossary.xhtml) - twenty-to-one',
+            '<<twenty-to-one|10a:0>>:
+                fun, i.e. gang violence
+
+vareet: to cook
+                up',
           ],
           [
             1,

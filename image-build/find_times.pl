@@ -84,6 +84,12 @@ sub search_zip {
         for (my $i = 0; $i < @lines; $i++) {
             my $line = $lines[$i];
 
+            # If the line is short, add in the surrounding lines
+            if (length($lines[$i]) < SHORT_LINE_LENGTH) {
+                $line = $lines[$i-1] . "\n$line" if $i > 0;
+                $line = "$line\n" . $lines[$i+1] if $i < $#lines;
+            }
+
             $line = do_match($line);
 
             if ($line =~ /<</) {
@@ -92,12 +98,6 @@ sub search_zip {
                     or die "Unable to extract time from '$time_bit': $line";
 
                 my ($t) = split /: /, $times[0];
-
-                # If the line is short, add in the surrounding lines
-                if (length($lines[$i]) < SHORT_LINE_LENGTH) {
-                    $line = $lines[$i-1] . "\n$line" if $i > 0;
-                    $line = "$line\n" . $lines[$i+1] if $i < $#lines;
-                }
 
                 push @res, [1, "[$t] $basename ($name) - $time_bit", $line];
 

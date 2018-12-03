@@ -18,6 +18,15 @@ $VAR1 = [
           ],
           [
             1,
+            '[~ 17:00] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/9780061792571_Chapter_101.xhtml) - about five in the evening',
+            "Indeed, a lieutenant from the Intercept section comes in at <<about five in the evening|9h>>,
+               looking triumphant.
+\x{201c}You got an Arethusa message?\x{201d}
+\x{201c}Two of them,\x{201d} the lieutenant says, holding up two separate sheets with grids of letters
+               on them. \x{201c}A collision!\x{201d}",
+          ],
+          [
+            1,
             '[17:46] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/9780061792571_Chapter_102.xhtml) - 1746 hours',
             "The needle on the dial is moving now, passing down through twenty-five meters. The
                deck twists under Bischoff\x{2019}s feet as she recoils from another depth charge. But he
@@ -54,7 +63,33 @@ $VAR1 = [
           [
             1,
             '[ap 01:52] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/9780061792571_Chapter_108.xhtml) - 1-52',
+            "Cryptonomicon
+    
+    
+    
+  
+  
+      
+      
+         
+         SAMPLE OUTPUT
+         
+         Here\x{2019}s some sample data to practice your Solitaire skills with:
+
+Sample 1: Start with an unkeyed deck: A\x{2663} through K\x{2663}, A\x{2665} through K\x{2665}, A\x{2666} through K\x{2666}, A\x{2660} through K\x{2660}, A joker, B joker (you can think of this as <<1-52|5a:0>>, A, B). The first ten outputs are:",
+          ],
+          [
+            1,
+            '[ap 01:52] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/9780061792571_Chapter_108.xhtml) - 1-52',
             "Sample 1: Start with an unkeyed deck: A\x{2663} through K\x{2663}, A\x{2665} through K\x{2665}, A\x{2666} through K\x{2666}, A\x{2660} through K\x{2660}, A joker, B joker (you can think of this as <<1-52|5a:0>>, A, B). The first ten outputs are:",
+          ],
+          [
+            1,
+            '[ap 01:52] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/9780061792571_Chapter_108.xhtml) - 1-52',
+            "Sample 1: Start with an unkeyed deck: A\x{2663} through K\x{2663}, A\x{2665} through K\x{2665}, A\x{2666} through K\x{2666}, A\x{2660} through K\x{2660}, A joker, B joker (you can think of this as <<1-52|5a:0>>, A, B). The first ten outputs are:
+4 49 10 (53) 24 8 51 44 6 33
+The 53 is skipped, of course. I just put it there for demonstration. If the plain
+               text is:",
           ],
           [
             1,
@@ -77,6 +112,19 @@ $VAR1 = [
           ],
           [
             1,
+            '[05:00] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/9780061792571_Chapter_113a.xhtml) - five in the morning',
+            "No visit to Egypt is complete without a stop in Cairo, but that city, the pinnacle
+               of every normal tourist\x{2019}s traveling career, is strangely empty from a hacker tourist
+               point of view. Its prime attraction, of course, is the pyramids. We visited them at
+               <<five in the morning|9a>> during a long and ultimately futile wait for the Egyptian military
+               to give us permission to rendezvous with FLAG\x{2019}s cable-laying ship in the Gulf of Suez.
+               To the hacker, the most interesting thing about the Pyramids is their business plan,
+               which is the simplest and most effective ever devised:
+(1) Put a rock on top of another rock.
+(2) Repeat (1) until gawkers arrive.",
+          ],
+          [
+            1,
             '[12:00] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/9780061792571_Chapter_113a.xhtml) - high noon',
             'Whether or not the two libraries ever existed at the same time, the fact remains that
                between about 300 BC and AD 400, Alexandria was by far the world capital of high-quality
@@ -89,7 +137,21 @@ $VAR1 = [
           [
             1,
             '[ap 04:12] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/9780061792571_Chapter_113a.xhtml) - 4.12',
+            '~
+
+Live as of May 2003: http://www.wired.com/wired/archive/<<4.12|5a:0>>/ffglass.html',
+          ],
+          [
+            1,
+            '[ap 04:12] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/9780061792571_Chapter_113a.xhtml) - 4.12',
             'Live as of May 2003: http://www.wired.com/wired/archive/<<4.12|5a:0>>/ffglass.html',
+          ],
+          [
+            1,
+            '[ap 04:12] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/9780061792571_Chapter_113a.xhtml) - 4.12',
+            'Live as of May 2003: http://www.wired.com/wired/archive/<<4.12|5a:0>>/ffglass.html
+
+',
           ],
           [
             1,
@@ -114,7 +176,22 @@ $VAR1 = [
           [
             1,
             '[ap 04:12] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/9780061792571_Chapter_113a.xhtml) - 4.12',
+            "\x{201c}Cryptonomicon Cypher-FAQ\x{201d} by Neal Stephenson: http://www.well.com/user/neal/cypherFAQ.html
+
+\x{201c}Mother Earth Motherboard\x{201d} by Neal Stephenson: Wired, Issue <<4.12|5a:0>>, December 1996; http://www.wired.com/wired/archive/<<4.12|5a:0>>/ffglass.html",
+          ],
+          [
+            1,
+            '[ap 04:12] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/9780061792571_Chapter_113a.xhtml) - 4.12',
             "\x{201c}Mother Earth Motherboard\x{201d} by Neal Stephenson: Wired, Issue <<4.12|5a:0>>, December 1996; http://www.wired.com/wired/archive/<<4.12|5a:0>>/ffglass.html",
+          ],
+          [
+            1,
+            '[ap 04:12] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/9780061792571_Chapter_113a.xhtml) - 4.12',
+            "\x{201c}Mother Earth Motherboard\x{201d} by Neal Stephenson: Wired, Issue <<4.12|5a:0>>, December 1996; http://www.wired.com/wired/archive/<<4.12|5a:0>>/ffglass.html
+
+\x{201c}Press Conference\x{201d} (NB, reporters are named and interview dates are included if cited by the publication
+               itself at the URL listed):",
           ],
           [
             1,
@@ -129,11 +206,47 @@ $VAR1 = [
           ],
           [
             1,
+            '[ap ~ 00:00] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/9780061792571_Chapter_13.xhtml) - about twelve',
+            "The curbs are sharp and perpendicular, not like the American smoothly molded sigmoid-cross-section
+               curves. The transition between the sidewalk and the street is a crisp vertical. If
+               you put a green lightbulb on Waterhouse\x{2019}s head and watched him from the side during
+               the blackout, his trajectory would look just like a square wave traced out on the
+               face of a single-beam oscilloscope: up, down, up, down. If he were doing this at home,
+               the curbs would be evenly spaced, <<about twelve|9:0>> to the mile, because his home town
+               is neatly laid out on a grid.
+
+Here in London, the street pattern is irregular and so the transitions in the square
+               wave come at random-seeming times, sometimes very close together, sometimes very far
+               apart.",
+          ],
+          [
+            1,
             '[ap 04:20] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/9780061792571_Chapter_13.xhtml) - 420',
             "\x{201c}Miss Stanhope, coffee for Captain Woe To Hice,\x{201d} says the Main Guy into an electrical
                intercom. It is one of only half a dozen office intercoms in the British Empire. However,
                it is cast in a solid ingot from a hundred pounds of iron and fed by <<420|3:0>>-volt cables
                as thick as Waterhouse\x{2019}s index finger. \x{201c}And if you would be so good as to bring tea.\x{201d}",
+          ],
+          [
+            1,
+            '[~ 15:00] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/9780061792571_Chapter_15.xhtml) - about three in the afternoon',
+            'The RAF men with the Sten guns, standing watch by each door of that train, checking
+               papers and passes, will not let him aboard. Waterhouse looks through the yellowing
+               influence of the windows at the Bletchley girls in the train, facing each other in
+               klatsches of four and five, getting their knitting out of their bags, turning balls
+               of Scottish wool into balaclavas and mittens for convoy crews in the North Atlantic,
+               writing letters to their brothers in the service and their mums and dads at home.
+               The RAF gunmen remain by the doors until all of them are closed and the train has
+               begun to move out of the station. As it builds speed, the rows and rows of girls,
+               knitting and writing and chatting, blur together into something that probably looks
+               a good deal like what sailors and soldiers the world over are commonly seeing in their
+               dreams. Waterhouse will never be one of those soldiers, out on the front line, out
+               in contact with the enemy. He has tasted the apple of forbidden knowledge. He is forbidden
+               to go anywhere in the world where he might be captured by the enemy.
+
+The train climbs up out of the night and into a red-brick arroyo, headed northwards
+               out of the city. It is <<about three in the afternoon|9h>>; that special BP train must have
+               been carrying swing shift gals.',
           ],
           [
             1,
@@ -158,10 +271,36 @@ $VAR1 = [
           [
             1,
             '[20:06] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/9780061792571_Chapter_16.xhtml) - Twenty-six',
+            "\x{201c}Sir! It is general issue military stencils, Sir!\x{201d}
+\x{201c}Sergeant! How many letters are there in the alphabet?\x{201d}
+\x{201c}<<Twenty-six|9j>>, sir!\x{201d} responds Shaftoe crisply.",
+          ],
+          [
+            1,
+            '[20:06] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/9780061792571_Chapter_16.xhtml) - Twenty-six',
             "\x{201c}Sergeant! How many letters are there in the alphabet?\x{201d}
 \x{201c}<<Twenty-six|9j>>, sir!\x{201d} responds Shaftoe crisply.
 Privates Daniels, Nathan, and Branph whistle coolly at each other\x{2014}this Sergeant Shaftoe
                is sharp as a tack.",
+          ],
+          [
+            1,
+            '[ap 01:30] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/9780061792571_Chapter_16.xhtml) - one-thirty',
+            "\x{201c}Nice,\x{201d} Shaftoe says, \x{201c}but it doesn\x{2019}t tell time too good.\x{201d}
+\x{201c}In the time zone where we are going,\x{201d} Ethridge says, \x{201c}it does.\x{201d}
+The chastened Shaftoe sets about his work. Meanwhile, Lieutenants Ethridge and Root
+               are making themselves useful. They carry the crudely sawed remains of Frosty the Pig
+               into the butcher shop and throw them on a gigantic scale. They add up to some thirty
+               kilograms, whatever the fuck that means. Enoch Root, showing an appetite for physical labor that is duly and silently
+               noted by the men, hauls in another pig carcass, stiff as a Radio Flyer, and dumps
+               it onto the scale, bringing the total up to seventy. Ethridge does the breaststroke
+               through clouds of flies to gather up all the cuts of meat that were on the chopping
+               blocks when the place was evacuated. He throws them on the scale and the needle swings
+               up to near the one-hundred mark. From that point they are able to bring it up to <<one-thirty|5a:0>>
+               by ferrying hams and roasts in from the freezer one at a time. Enoch Root\x{2014}who seems
+               to be conversant with exotic systems of measurement\x{2014}has made a calculation, and checked
+               it twice, establishing that the weight of Gerald Hott, converted into kilograms, is
+               one hundred and thirty.",
           ],
           [
             1,
@@ -192,6 +331,33 @@ Privates Daniels, Nathan, and Branph whistle coolly at each other\x{2014}this Se
           ],
           [
             1,
+            '[00:00] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/9780061792571_Chapter_17.xhtml) - 0',
+            "What of the chain? Its position, defined by C, begins at <<0|9c:1>> and reaches 1 when its next link moves forward to the fatal position,
+               then 2 and so on. The chain must move in synch with the teeth on the sprocket at the
+               center of the rear wheel, and that sprocket has n teeth, and so after a complete revolution of the rear wheel, when \x{3b8} = 0 again, C = n. After a second complete revolution of the rear wheel, once again \x{3b8} = 0 but now C = 2n. The next time it\x{2019}s C = 3n and so on. But remember that the chain is not an infinite linear thing, but a loop
+               having only l positions; at C = l it loops back around to C = 0 and repeats the cycle. So when calculating the value of C it is necessary to do modular arithmetic\x{2014}that is, if the chain has a hundred links
+               (l = 100) and the total number of links that have moved by is 135, then the value of
+               C is not 135 but 35. Whenever you get a number greater than or equal to l you just repeatedly subtract l until you get a number less than l. This operation is written, by mathematicians, as mod l. So the successive values of C, each time the rear wheel spins around to \x{3b8} = 0, are
+
+Ci = n mod l, 2n mod l,
+
+            3n mod l, .\x{a0}.\x{a0}. , in mod l",
+          ],
+          [
+            1,
+            '[03:00] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/9780061792571_Chapter_2.xhtml) - three in the morning',
+            "
+where s is a complex number.
+Lawrence found this zeta function to be no more and no less interesting than any other
+               math problem until his new friend assured him that it was frightfully important, and
+               that some of the best mathematicians in the world had been gnawing on it for decades.
+               The two of them ended up staying awake until <<three in the morning|5>> working out the
+               solution to Lawrence\x{2019}s sprocket problem. Lawrence presented the results proudly to
+               his engineering professor, who snidely rejected it, on grounds of practicality, and
+               gave him a poor grade for his troubles.",
+          ],
+          [
+            1,
             '[03:00] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/9780061792571_Chapter_2.xhtml) - three in the morning',
             "Lawrence found this zeta function to be no more and no less interesting than any other
                math problem until his new friend assured him that it was frightfully important, and
@@ -209,15 +375,58 @@ Privates Daniels, Nathan, and Branph whistle coolly at each other\x{2014}this Se
           ],
           [
             1,
+            '[ap 01:02] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/9780061792571_Chapter_2.xhtml) - One-two',
+            "Alan picked up two bottlecaps and set them down on the ground. \x{201c}Two. <<One-two|9j>>. Plus\x{2014}\x{201d}
+               He set down two more. \x{201c}Another two. <<One-two|9j>>. Equals four. One-two-three-four.\x{201d}
+\x{201c}What\x{2019}s so bad about that?\x{201d} Lawrence said.
+\x{201c}But Lawrence\x{2014}when you really do math, in an abstract way, you\x{2019}re not counting bottlecaps, are you?\x{201d}",
+          ],
+          [
+            1,
+            '[ap 01:04] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/9780061792571_Chapter_2.xhtml) - one four',
+            "\x{201c}Russell and Whitehead broke all mathematical concepts down into brutally simple things
+               like sets. From there they got to integers, and so on.\x{201d}
+\x{201c}But how can you break something like pi down into a set?\x{201d}
+\x{201c}You can\x{2019}t,\x{201d} Alan said, \x{201c}but you can express it as a long string of digits. Three
+               point <<one four|5a:0>> <<one five|5a:0>> nine, and so on.\x{201d}",
+          ],
+          [
+            1,
             '[ap 01:04] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/9780061792571_Chapter_2.xhtml) - one four',
             "\x{201c}You can\x{2019}t,\x{201d} Alan said, \x{201c}but you can express it as a long string of digits. Three
                point <<one four|5a:0>> <<one five|5a:0>> nine, and so on.\x{201d}",
           ],
           [
             1,
+            '[ap 01:04] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/9780061792571_Chapter_2.xhtml) - one four',
+            "\x{201c}You can\x{2019}t,\x{201d} Alan said, \x{201c}but you can express it as a long string of digits. Three
+               point <<one four|5a:0>> <<one five|5a:0>> nine, and so on.\x{201d}
+\x{201c}And digits are integers,\x{201d} Rudy said.
+\x{201c}But no fair! Pi itself is not an integer!\x{201d}",
+          ],
+          [
+            1,
+            '[ap 05:38] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/9780061792571_Chapter_2.xhtml) - 538',
+            "\x{201c}Can we move on? G\x{f6}del said, just a few years ago, \x{2018}Say! If you buy into this business
+               about mathematics being just strings of symbols, guess what?\x{2019} And he pointed out that
+               any string of symbols\x{2014}such as this very formula, here\x{2014}can be translated into integers.\x{201d}
+\x{201c}How?\x{201d}
+\x{201c}Nothing fancy, Lawrence\x{2014}it\x{2019}s just simple encryption. Arbitrary. The number \x{2018}<<538|9l:0>>\x{2019}
+               might be written down instead of this great ugly \x{2211}, and so on.\x{201d}",
+          ],
+          [
+            1,
             '[ap 05:38] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/9780061792571_Chapter_2.xhtml) - 538',
             "\x{201c}Nothing fancy, Lawrence\x{2014}it\x{2019}s just simple encryption. Arbitrary. The number \x{2018}<<538|9l:0>>\x{2019}
                might be written down instead of this great ugly \x{2211}, and so on.\x{201d}",
+          ],
+          [
+            1,
+            '[ap 05:38] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/9780061792571_Chapter_2.xhtml) - 538',
+            "\x{201c}Nothing fancy, Lawrence\x{2014}it\x{2019}s just simple encryption. Arbitrary. The number \x{2018}<<538|9l:0>>\x{2019}
+               might be written down instead of this great ugly \x{2211}, and so on.\x{201d}
+\x{201c}Seems pretty close to wanking, now.\x{201d}
+\x{201c}No, no. Because then G\x{f6}del sprang the trap! Formulas can act on numbers, right?\x{201d}",
           ],
           [
             1,
@@ -231,6 +440,20 @@ Privates Daniels, Nathan, and Branph whistle coolly at each other\x{2014}this Se
           ],
           [
             1,
+            '[00:00] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/9780061792571_Chapter_20.xhtml) - midnight',
+            "Packard smiles in agreement. \x{201c}At <<midnight|9m>>. If you stay here\x{2014}\x{201d} he checks his watch
+               \x{201c}\x{2014}for another four hours, you will see fresh intercepts coming in from the Y Service
+               that will produce utter gibberish when we run them through the Typex, because the
+               Jerries will have changed all their codes on the stroke of <<midnight|12>>. Rather like Cinderella\x{2019}s
+               magic carriage turning back into a pumpkin. We must then analyze the new intercepts
+               using the bombes, and figure out the day\x{2019}s new codes.\x{201d}
+\x{201c}How long does that take?\x{201d}
+\x{201c}Sometimes we are lucky and have broken the day\x{2019}s codes by two or <<three o\x{2019}clock in
+               the morning|6>>. Typically it does not happen until afternoon or evening. Sometimes we
+               do not succeed at all.\x{201d}",
+          ],
+          [
+            1,
             "[03:00] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/9780061792571_Chapter_20.xhtml) - three o\x{2019}clock in
                the morning",
             "\x{201c}Sometimes we are lucky and have broken the day\x{2019}s codes by two or <<three o\x{2019}clock in
@@ -240,8 +463,43 @@ Privates Daniels, Nathan, and Branph whistle coolly at each other\x{2014}this Se
           [
             1,
             '[> 00:00] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/9780061792571_Chapter_20.xhtml) - after midnight',
+            "\x{201c}Where are they located?\x{201d}
+\x{201c}Hut 11. But they won\x{2019}t be running just now.\x{201d}
+\x{201c}Right,\x{201d} Waterhouse says, \x{201c}not until <<after midnight|13>> when the carriage turns back into
+               a pumpkin, and you need to break tomorrow\x{2019}s Enigma settings.\x{201d}",
+          ],
+          [
+            1,
+            '[> 00:00] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/9780061792571_Chapter_20.xhtml) - after midnight',
             "\x{201c}Right,\x{201d} Waterhouse says, \x{201c}not until <<after midnight|13>> when the carriage turns back into
                a pumpkin, and you need to break tomorrow\x{2019}s Enigma settings.\x{201d}",
+          ],
+          [
+            1,
+            '[> 00:00] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/9780061792571_Chapter_20.xhtml) - after midnight',
+            "\x{201c}Right,\x{201d} Waterhouse says, \x{201c}not until <<after midnight|13>> when the carriage turns back into
+               a pumpkin, and you need to break tomorrow\x{2019}s Enigma settings.\x{201d}
+\x{201c}Precisely.\x{201d}
+Packard steps over to a small wooden hatch set low into one of the hut\x{2019}s exterior
+               walls. Next to it sits an office tray with a cup hook screwed into each end, and a
+               string tied to each cup hook. One of the strings is piled up loose on the floor. The
+               wall hatch has been slid shut on the other string. Packard puts the message slip on
+               top of a pile of similar ones that has accumulated in the tray, then slides the hatch
+               open, revealing a narrow tunnel leading away from the hut.",
+          ],
+          [
+            1,
+            '[02:00] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/9780061792571_Chapter_25.xhtml) - two in the morning',
+            "XYHEL ANAOG GFQPL TWPKI AOEUT
+and so on and so forth, for pages and pages.
+The next morning they dig a latrine and then proceed to fill it halfway with a couple
+               of barrels of genuine U.S. Mil. Spec. General Issue 100% pure certified Shit. As per
+               Chattan\x{2019}s instructions, they pour the shit in a dollop at a time, throwing in handfuls
+               of crumpled Italian newspapers after each dollop to make it look like it got there
+               naturally. With the possible exception of being interviewed by Lieutenant Reagan,
+               this is the worst nonviolent job Shaftoe has ever had to do in the service of his
+               country. He gives everyone the rest of the day off, except for Corporal Benjamin,
+               who  stays up until <<two in the morning|5>> banging out random gibberish.",
           ],
           [
             1,
@@ -273,6 +531,37 @@ Privates Daniels, Nathan, and Branph whistle coolly at each other\x{2014}this Se
                idea where I am: I am in the Hotel Foote Mansion in the Sultanate of Kinakuta\x{2014}please
                consult a quality atlas.  It is <<four o\x{2019}clock in the afternoon|6>>, Thursday March twenty-first. I\x{2019}m probably down
                in the Bomb and Grapnel.\x{201d}",
+          ],
+          [
+            1,
+            "[16:00] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/9780061792571_Chapter_27.xhtml) - four o\x{2019}clock in the afternoon",
+            "\x{201c}This is John Cantrell of Novus Ordo Seclorum and Epiphyte Corporations. For those
+               of you who have reached me using my universal phone number and consequently have no
+               idea where I am: I am in the Hotel Foote Mansion in the Sultanate of Kinakuta\x{2014}please
+               consult a quality atlas.  It is <<four o\x{2019}clock in the afternoon|6>>, Thursday March twenty-first. I\x{2019}m probably down
+               in the Bomb and Grapnel.\x{201d}
+
+The Bomb and Grapnel is the pirate-themed hotel bar, which is not as cheesy as it
+               sounds. It is decorated with (among other museum-grade memorabilia) several brass
+               cannons that seem authentic. John Cantrell is seated at a corner table, looking as
+               at home here as a man in a black cowboy hat possibly can. His laptop is open on the
+               table next to a rum drink that has been served up in a soup tureen. A two-foot-long
+               straw connects it to Cantrell\x{2019}s mouth. He sucks and types. Watching incredulously
+               is a cadre of tough-looking Chinese businessmen sitting at the bar; when they see
+               Randy coming in, carrying his own laptop, they buzz up. Now there\x{2019}s two of them!",
+          ],
+          [
+            1,
+            '[~ 15:00] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/9780061792571_Chapter_29.xhtml) - About fifteen',
+            "This is an excellent time to stoke the chapel\x{2019}s pathetic iron stove. He puts in a
+               few scoops of precious coal, his worksheet, and the page from the one-time pad that
+               he has just used to do the encryption. \x{201c}Should warm up now,\x{201d} he says.
+\x{201c}Oh, lovely,\x{201d} Margaret says, \x{201c}I\x{2019}m all shivery.\x{201d}
+Lawrence recognizes this as his cue to initiate a rescue operation. <<About fifteen|9:0>>
+               seconds later, he is up there in the hammock with Margaret. To the great surprise
+               of neither one of them, the quarters are awkward and tight. There is some flopping
+               around which ends with Lawrence on his back and Margaret on top of him, her thigh
+               between his.",
           ],
           [
             1,
@@ -358,6 +647,25 @@ Privates Daniels, Nathan, and Branph whistle coolly at each other\x{2014}this Se
           [
             1,
             '[06:00] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/9780061792571_Chapter_42.xhtml) - six in the morning',
+            "Cryptonomicon
+
+THE DENTIST IS GONE, THE DOOR LOCKED, THE phone unplugged. Randall Lawrence Waterhouse lies naked on the starched, turned-down
+               sheets of his king-sized bed. His head is propped up on a pillow so that he can peer
+               through the vee of his feet at a BBC World Service newscast on the television. A ten-dollar
+               minibar beer is near at hand. It\x{2019}s <<six in the morning|9a>> in America and so rather than
+               a pro basketball game, he has to settle for this BBC newscast, which is strongly geared
+               to South Asian happenings. A long and very sober story about a plague of locusts on
+               the India/Pakistan border follows a piece on a typhoon about  to nail Hong Kong. The king of Thailand is calling in some of his government\x{2019}s more
+               corrupt officials to literally prostrate themselves before him. Asian news always
+               has this edge of the fantastic to it, but it\x{2019}s all dead serious, no nods or winks
+               anywhere. Now he\x{2019}s watching a story about a nervous system disease that people in
+               New Guinea come down with as a consequence of eating other people\x{2019}s brains. Just your
+               basic cannibal story. No wonder so many Americans come here on business and never
+               really go home again\x{2014}it\x{2019}s like stepping into the pages of Classics Comics.",
+          ],
+          [
+            1,
+            '[06:00] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/9780061792571_Chapter_42.xhtml) - six in the morning',
             "THE DENTIST IS GONE, THE DOOR LOCKED, THE phone unplugged. Randall Lawrence Waterhouse lies naked on the starched, turned-down
                sheets of his king-sized bed. His head is propped up on a pillow so that he can peer
                through the vee of his feet at a BBC World Service newscast on the television. A ten-dollar
@@ -388,6 +696,30 @@ Privates Daniels, Nathan, and Branph whistle coolly at each other\x{2014}this Se
           [
             1,
             '[00:01] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/9780061792571_Chapter_42.xhtml) - 0001',
+            "Click.
+
+A bit-pattern designator is a random series of bits used to uniquely identify a RIST. For example, the organism traditionally designated as Earth (Terra, Gaia) has been
+               assigned the designator 0577. This Web site is maintained by 11A4 which is a hive
+               mind. RIST 11A4 assigns bit-pattern designators with a pseudo-random number generator. This departs
+               from the practice used by that soi-disant \x{201c}hive mind\x{201d} known to itself as the East Bay Area Hive Mind Project but designated
+               (in the system of RIST 11A4) as RIST E772. This \x{201c}hive mind\x{201d} resulted from the division
+               of \x{201c}Hive Mind One\x{201d} (designated in the system of RIST 11A4 as RIST 4032) into several
+               smaller \x{201c}hive minds\x{201d} (the East Bay Area Hive Mind Project, the San Francisco Hive
+               Mind, Hive Mind 1A, the Reorganized San Francisco Hive Mind, and the Universal Hive
+               Mind) as the result of an irreconcilable contradiction between several different semantic
+               memes that competed for mind-share. One of these semantic memes asserted that bit-pattern
+               designators should be assigned in numerical order, so that (for example) Hive Mind
+               One would be designated RIST <<0001|18:0>> and so on. Another meme asserted that numbers should
+                be organized in order of importance, so that (for example) the RIST conventionally
+               known as the planet Earth would be RIST <<0001|18:0>>. Another semantic meme agreed with this
+               one but disagreed as to whether the counting should begin with <<0000|18:0>> or <<0001|18:0>>. Within
+               both the <<0000|18:0>> and <<0001|18:0>> camps, there was disagreement about what RIST should be assigned the first number: some asserted that Earth was the first and most
+               important RIST, others that some larger system (the solar system, the Universe, God) was in some
+               sense more inclusive and fundamental.",
+          ],
+          [
+            1,
+            '[00:01] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/9780061792571_Chapter_42.xhtml) - 0001',
             "A bit-pattern designator is a random series of bits used to uniquely identify a RIST. For example, the organism traditionally designated as Earth (Terra, Gaia) has been
                assigned the designator 0577. This Web site is maintained by 11A4 which is a hive
                mind. RIST 11A4 assigns bit-pattern designators with a pseudo-random number generator. This departs
@@ -406,6 +738,30 @@ Privates Daniels, Nathan, and Branph whistle coolly at each other\x{2014}this Se
                both the <<0000|18:0>> and <<0001|18:0>> camps, there was disagreement about what RIST should be assigned the first number: some asserted that Earth was the first and most
                important RIST, others that some larger system (the solar system, the Universe, God) was in some
                sense more inclusive and fundamental.",
+          ],
+          [
+            1,
+            '[00:01] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/9780061792571_Chapter_42.xhtml) - 0001',
+            "A bit-pattern designator is a random series of bits used to uniquely identify a RIST. For example, the organism traditionally designated as Earth (Terra, Gaia) has been
+               assigned the designator 0577. This Web site is maintained by 11A4 which is a hive
+               mind. RIST 11A4 assigns bit-pattern designators with a pseudo-random number generator. This departs
+               from the practice used by that soi-disant \x{201c}hive mind\x{201d} known to itself as the East Bay Area Hive Mind Project but designated
+               (in the system of RIST 11A4) as RIST E772. This \x{201c}hive mind\x{201d} resulted from the division
+               of \x{201c}Hive Mind One\x{201d} (designated in the system of RIST 11A4 as RIST 4032) into several
+               smaller \x{201c}hive minds\x{201d} (the East Bay Area Hive Mind Project, the San Francisco Hive
+               Mind, Hive Mind 1A, the Reorganized San Francisco Hive Mind, and the Universal Hive
+               Mind) as the result of an irreconcilable contradiction between several different semantic
+               memes that competed for mind-share. One of these semantic memes asserted that bit-pattern
+               designators should be assigned in numerical order, so that (for example) Hive Mind
+               One would be designated RIST <<0001|18:0>> and so on. Another meme asserted that numbers should
+                be organized in order of importance, so that (for example) the RIST conventionally
+               known as the planet Earth would be RIST <<0001|18:0>>. Another semantic meme agreed with this
+               one but disagreed as to whether the counting should begin with <<0000|18:0>> or <<0001|18:0>>. Within
+               both the <<0000|18:0>> and <<0001|18:0>> camps, there was disagreement about what RIST should be assigned the first number: some asserted that Earth was the first and most
+               important RIST, others that some larger system (the solar system, the Universe, God) was in some
+               sense more inclusive and fundamental.
+
+This machine has an e-mail interface. Randy uses it.",
           ],
           [
             1,
@@ -439,6 +795,21 @@ Privates Daniels, Nathan, and Branph whistle coolly at each other\x{2014}this Se
           [
             1,
             '[~ 08:00] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/9780061792571_Chapter_45.xhtml) - about eight in the morning',
+            "Cryptonomicon
+
+AS THE VANS, TAXIS, AND LIMOUSINES PULL INTO THE parking lot at the Ministry of Information site, the members of Epiphyte Corp. are
+               greeted by smiling and bowing Nipponese virgins wearing, and bearing, gleaming white
+               Goto Engineering helmets. The time is <<about eight in the morning|9h>>, and up here on the
+               mountain the temperature is still tolerable, though humid. Everyone mills around before
+               the cavern\x{2019}s maw, carrying their hardhats in their hands, as no one wants to be the
+               first to put his on and look stupid. Some of the younger Nipponese executives are
+               mugging hilariously with theirs. Dr. Mohammed Pragasu circulates. He has an authentically
+               used and battered hardhat which he whirls absentmindedly around one finger as he strolls
+               from group to group.",
+          ],
+          [
+            1,
+            '[~ 08:00] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/9780061792571_Chapter_45.xhtml) - about eight in the morning',
             "AS THE VANS, TAXIS, AND LIMOUSINES PULL INTO THE parking lot at the Ministry of Information site, the members of Epiphyte Corp. are
                greeted by smiling and bowing Nipponese virgins wearing, and bearing, gleaming white
                Goto Engineering helmets. The time is <<about eight in the morning|9h>>, and up here on the
@@ -452,9 +823,27 @@ Privates Daniels, Nathan, and Branph whistle coolly at each other\x{2014}this Se
           [
             1,
             '[19:00] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/9780061792571_Chapter_45.xhtml) - seven P.M.',
+            "\x{201c}Just got a call from Annie-in-San-Francisco,\x{201d} he says.
+Annie-in-San-Francisco is their lawyer.
+\x{201c}It\x{2019}s, uh .\x{a0}.\x{a0}. <<seven P.M.|5>> there right now. Seems that just before the close of business, a courier walked into
+               her office, fresh off the plane from LA, and handed her a letter from the Dentist\x{2019}s
+               office.\x{201d}",
+          ],
+          [
+            1,
+            '[19:00] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/9780061792571_Chapter_45.xhtml) - seven P.M.',
             "\x{201c}It\x{2019}s, uh .\x{a0}.\x{a0}. <<seven P.M.|5>> there right now. Seems that just before the close of business, a courier walked into
                her office, fresh off the plane from LA, and handed her a letter from the Dentist\x{2019}s
                office.\x{201d}",
+          ],
+          [
+            1,
+            '[19:00] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/9780061792571_Chapter_45.xhtml) - seven P.M.',
+            "\x{201c}It\x{2019}s, uh .\x{a0}.\x{a0}. <<seven P.M.|5>> there right now. Seems that just before the close of business, a courier walked into
+               her office, fresh off the plane from LA, and handed her a letter from the Dentist\x{2019}s
+               office.\x{201d}
+\x{201c}He\x{2019}s suing us for something,\x{201d} Beryl says.
+\x{201c}He\x{2019}s this far away from suing us.\x{201d}",
           ],
           [
             1,
@@ -501,6 +890,26 @@ Privates Daniels, Nathan, and Branph whistle coolly at each other\x{2014}this Se
           [
             1,
             '[02:00] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/9780061792571_Chapter_5.xhtml) - two in the morning',
+            "He knew the whole poster saga was going to be a disaster from early on. He kept warning
+               Charlene and the others. They listened coolly, clinically, as if Randy were a test
+               subject on the wrong side of a one-way mirror.
+
+Randy forces himself to stay awake long enough for it to get dark. Then he lies in
+               bed for a few hours trying to sleep. The container port is just north of the hotel,
+               and all night long, Rizal Boulevard, along the base of the old Spanish wall, is jammed
+               from one end to the other with container-carrying semis. The whole city is a cauldron
+               of internal combustion. Manila seems to have more pistons and exhaust pipes than the
+               rest of the world combined. Even at <<two in the morning|9a>> the hotel\x{2019}s seemingly unshakable
+               mass hums and rattles from the seismic energy pouring from all of those motors. The
+               noise detonates car alarms down in the hotel\x{2019}s lot. The noise of one alarm triggers
+               others, and so on. It is not the noise that keeps Randy awake so much as the insane
+               stupidity of this chain reaction. It is an object lesson: the kind of nightmarish,
+               snowballing technological fuck-up that keeps hackers awake at night even when they
+               can\x{2019}t hear the results.",
+          ],
+          [
+            1,
+            '[02:00] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/9780061792571_Chapter_5.xhtml) - two in the morning',
             "Randy forces himself to stay awake long enough for it to get dark. Then he lies in
                bed for a few hours trying to sleep. The container port is just north of the hotel,
                and all night long, Rizal Boulevard, along the base of the old Spanish wall, is jammed
@@ -536,7 +945,27 @@ Privates Daniels, Nathan, and Branph whistle coolly at each other\x{2014}this Se
           [
             1,
             '[15:00] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/9780061792571_Chapter_50.xhtml) - three in the afternoon',
+            "They crouch beneath the canopy. Doug turns on a small Sony portable television, a
+               ruggedized waterproof model encased in yellow plastic, and patches its input cable
+               into a spare output jack on the back of Amy\x{2019}s rig. He turns it on and they begin to
+               see a bit of what Amy is seeing. They do not have the benefit of the dark cowl that
+               Amy is using, and so the glare of the sun washes out everything but a straight white
+               line emerging from the dark center of the picture and expanding towards the edge.
+               It is moving.
+\x{201c}I am following the buoy line down,\x{201d} she explains. \x{201c}Kind of boring.\x{201d}
+Randy\x{2019}s calculator watch beeps twice. He checks the time; it is <<three in the afternoon|9a>>.",
+          ],
+          [
+            1,
+            '[15:00] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/9780061792571_Chapter_50.xhtml) - three in the afternoon',
             "Randy\x{2019}s calculator watch beeps twice. He checks the time; it is <<three in the afternoon|9a>>.",
+          ],
+          [
+            1,
+            '[15:00] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/9780061792571_Chapter_50.xhtml) - three in the afternoon',
+            "Randy\x{2019}s calculator watch beeps twice. He checks the time; it is <<three in the afternoon|9a>>.
+\x{201c}Randy?\x{201d} Amy says, in a velvet voice.
+\x{201c}Yes?\x{201d}",
           ],
           [
             1,
@@ -561,9 +990,34 @@ Privates Daniels, Nathan, and Branph whistle coolly at each other\x{2014}this Se
           [
             1,
             '[ap 03:02] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/9780061792571_Chapter_57.xhtml) - three two',
+            "The lady will not be denied; she has a script and she\x{2019}s sticking to it. \x{201c}I have a
+               math problem for you,\x{201d} the lady says.
+\x{201c}Shoot.\x{201d}
+\x{201c}What is the value of the following information: fifteen degrees, seventeen minutes,
+               forty-one point <<three two|5a:1>> seconds north, and a hundred and twenty-one degrees, fifty-seven
+               minutes, zero point <<five five|5a:1>> seconds east?\x{201d}",
+          ],
+          [
+            1,
+            '[ap 03:02] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/9780061792571_Chapter_57.xhtml) - three two',
             "\x{201c}What is the value of the following information: fifteen degrees, seventeen minutes,
                forty-one point <<three two|5a:1>> seconds north, and a hundred and twenty-one degrees, fifty-seven
                minutes, zero point <<five five|5a:1>> seconds east?\x{201d}",
+          ],
+          [
+            1,
+            "[04:00] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/9780061792571_Chapter_59.xhtml) - four o\x{2019}clock in the morning",
+            "\x{201c}I made them aware of absolutely nothing,\x{201d} von Hacklheber snarls, \x{201c}because by this
+               time I had long since fallen into a snare of Reichsmarschall Hermann G\x{f6}ring. I had
+               become his pawn, his slave, and had ceased to feel any loyalty whatsoever towards
+               the Reich.\x{201d}
+
+The knock on Rudolf von Hacklheber\x{2019}s door had come at <<four o\x{2019}clock in the morning|6>>,
+               a time exploited by the Gestapo for its psychological effect. Rudy is wide awake.
+               Even if bombers had not been pounding Berlin all night long, he would have been awake,
+               because he has neither seen nor heard from Angelo in three days. He throws a dressing
+               gown over his pajamas, steps into slippers, and  opens the door of his flat to reveal, predictably, a small, prematurely withered
+               man backed up by a couple of classic Gestapo killers in long black leather coats.",
           ],
           [
             1,
@@ -574,6 +1028,18 @@ Privates Daniels, Nathan, and Branph whistle coolly at each other\x{2014}this Se
                because he has neither seen nor heard from Angelo in three days. He throws a dressing
                gown over his pajamas, steps into slippers, and  opens the door of his flat to reveal, predictably, a small, prematurely withered
                man backed up by a couple of classic Gestapo killers in long black leather coats.",
+          ],
+          [
+            1,
+            "[04:00] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/9780061792571_Chapter_59.xhtml) - four o\x{2019}clock in the morning",
+            "The knock on Rudolf von Hacklheber\x{2019}s door had come at <<four o\x{2019}clock in the morning|6>>,
+               a time exploited by the Gestapo for its psychological effect. Rudy is wide awake.
+               Even if bombers had not been pounding Berlin all night long, he would have been awake,
+               because he has neither seen nor heard from Angelo in three days. He throws a dressing
+               gown over his pajamas, steps into slippers, and  opens the door of his flat to reveal, predictably, a small, prematurely withered
+               man backed up by a couple of classic Gestapo killers in long black leather coats.
+\x{201c}May I proffer an observation?\x{201d} says Rudy von Hacklheber.
+\x{201c}But of course, Herr Doktor Professor. As long as it is not a state secret, of course.\x{201d}",
           ],
           [
             1,
@@ -680,6 +1146,38 @@ Privates Daniels, Nathan, and Branph whistle coolly at each other\x{2014}this Se
             "This is the first time it dawns on any of the Shaftoes that as of <<2:16 P.M.|2a>>. yesterday afternoon, in an instant, Randy\x{2019}s net worth dropped by something like
                three hundred thousand dollars. They skulk away from him and leave him alone for a
                while, taking pictures to document the loss.",
+          ],
+          [
+            1,
+            '[14:16] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/9780061792571_Chapter_66.xhtml) - 2:16 P.M.',
+            "This is the first time it dawns on any of the Shaftoes that as of <<2:16 P.M.|2a>>. yesterday afternoon, in an instant, Randy\x{2019}s net worth dropped by something like
+               three hundred thousand dollars. They skulk away from him and leave him alone for a
+               while, taking pictures to document the loss.
+Amy comes over. \x{201c}Oatmeal\x{2019}s ready,\x{201d} she says.
+\x{201c}Okay.\x{201d}",
+          ],
+          [
+            1,
+            '[> 12:00] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/9780061792571_Chapter_66.xhtml) - a little after noon',
+            "\x{201c}Because that\x{2019}s what it\x{2019}s all about. That\x{2019}s the name of the game, Randy boy,\x{201d} she
+               says, pulling abreast of him and whacking him between the shoulder blades in a gesture
+               inherited from her dad. \x{201c}Mmm, that oatmeal does smell good.\x{201d}
+
+The caravan pulls out of town <<a little after noon|13>>: Randy leading the way in his damaged
+               Acura, Amy sitting in the passenger seat with her bare, tanned feet up on the dashboard,
+               spoked with white lines from the straps of her high-tech sandals, oblivious to the
+               danger (alluded to by Randy) of her legs being snapped by an air bag deployment. The
+               souped-up Impala is driven by its owner of record and chief engineer, Marcus Aurelius
+               Shaftoe. Bringing up the rear, the almost totally empty U-Haul truck, driven by Robin
+               Shaftoe. Randy has that moving-through-syrup feeling he gets when enacting some emotionally
+               huge transition in his life. He puts Samuel Barber\x{2019}s Adagio for Strings on the Acura\x{2019}s stereo and drives very slowly down the main street of the town, looking
+               all around at the remains of the coffeehouses, bars, pizza places, and Thai restaurants
+               where, for many years, he prosecuted his social life. He should have performed this
+               little ceremony before he first left for Manila, a year and a half ago. But then he
+               fled as if from the scene of a crime, or, at least, a grotesque personal embarrassment.
+               He only had a day or two before he got on the plane, and he spent most of it on the
+               floor of Avi\x{2019}s basement, dictating whole swathes of the business plan into a microcassette
+               recorder, as opposed to typing them, because his hands had gone carpal.",
           ],
           [
             1,
@@ -828,10 +1326,47 @@ Privates Daniels, Nathan, and Branph whistle coolly at each other\x{2014}this Se
           ],
           [
             1,
+            '[06:00] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/9780061792571_Chapter_79.xhtml) - six A.M.',
+            "As is his nerdly custom, Randy actually reads the informational cards that are stuffed
+               in among the in-flight magazines and vomit-sacs. One of these extols the fact that
+               Sultan-Class passengers (as first-class passengers are called) can not only make outgoing
+               phone calls from their seats but can also receive incoming ones. So Randy dials the
+               number for Douglas MacArthur Shaftoe\x{2019}s GSM telephone. It\x{2019}s an  Australian phone number, but it\x{2019}ll ring anywhere on the planet. Right now it\x{2019}s something
+               like <<six A.M.|5>> in the Philippines, but Doug is bound to be awake, and indeed he answers his phone
+               on the second ring. Randy can tell from the sound of horns and diesels that he is
+               stuck in Manila traffic, probably in the back of a taxi.
+\x{201c}It\x{2019}s Randy. On a plane,\x{201d} says Randy. \x{201c}An Air Kinakuta plane.\x{201d}
+\x{201c}Randy! Well I\x{2019}ve just been watching you on television,\x{201d} Doug says.",
+          ],
+          [
+            1,
+            '[~ 20:00] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/9780061792571_Chapter_79.xhtml) - about 1960',
+            "\x{201c}No, no! I mean, yes. Earl Comstock was largely responsible for our Vietnam policy. And Doug Shaftoe did get his  fifteen minutes of fame by throwing him off a ski lift in, I believe, 1979. But all
+               of that Vietnam nonsense was just a coda to his real career.\x{201d}
+\x{201c}Which was?\x{201d}
+\x{201c}Earl Comstock, to whom your grandfather reported in Brisbane during World War II,
+               was one of the founders of the NSA. And he was my boss from 1949 through <<about 1960|18:1>>.
+               He was obsessed with Arethusa.\x{201d}",
+          ],
+          [
+            1,
             '[~ 20:00] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/9780061792571_Chapter_79.xhtml) - about 1960',
             "\x{201c}Earl Comstock, to whom your grandfather reported in Brisbane during World War II,
                was one of the founders of the NSA. And he was my boss from 1949 through <<about 1960|18:1>>.
                He was obsessed with Arethusa.\x{201d}",
+          ],
+          [
+            1,
+            '[~ 20:00] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/9780061792571_Chapter_79.xhtml) - about 1960',
+            "\x{201c}Earl Comstock, to whom your grandfather reported in Brisbane during World War II,
+               was one of the founders of the NSA. And he was my boss from 1949 through <<about 1960|18:1>>.
+               He was obsessed with Arethusa.\x{201d}
+\x{201c}Why?\x{201d}
+\x{201c}He was convinced it was a Communist cipher. That if we could break it, we could then
+               exploit that break to get into some later Soviet codes that were giving us difficulty.
+               Which was ridiculous. But he believed it\x{2014}or claimed to\x{2014}and so we battered our heads
+               against Arethusa for years. Strong men had nervous breakdowns. Brilliant men concluded
+               that they were stupid. In the end it turned out to be a joke.\x{201d}",
           ],
           [
             1,
@@ -931,6 +1466,15 @@ Privates Daniels, Nathan, and Branph whistle coolly at each other\x{2014}this Se
           ],
           [
             1,
+            "[ap 08:00] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/9780061792571_Chapter_84.xhtml) - eight o\x{2019}clock",
+            "He sits up, peers at it, gradually getting an idea of scale. The ragged trail of yellow
+               light extends from the boat\x{2019}s <<eight o\x{2019}clock|6>>, all the way around past the bow, to <<about
+               one o\x{2019}clock|6>>. Maybe it is some incredibly weird sunrise phenomenon.
+\x{201c}Myneela,\x{201d} says a voice behind him.
+\x{201c}Huh?\x{201d}",
+          ],
+          [
+            1,
             '[~ 04:00] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/9780061792571_Chapter_84.xhtml) - about four in the morning',
             "They hole up in a half-burned apartment building around sunset, and take turns getting
                a couple of hours\x{2019} sleep. Then they push on through the night, when the artillery
@@ -953,8 +1497,24 @@ Privates Daniels, Nathan, and Branph whistle coolly at each other\x{2014}this Se
           [
             1,
             '[ap 01:02] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/9780061792571_Chapter_91.xhtml) - ONE TWO',
+            "
+COORDINATES OF PRIMARY STORAGE LOCATIONS
+SITE BUNDOK: LATITUDE NORTH FOURTEEN DEGREES THIRTY-TWO MINUTES .\x{a0}.\x{a0}. LONGITUDE EAST
+                  <<ONE TWO|5a:1>> ZERO DEGREES FIFTY-SIX MINUTES .\x{a0}.\x{a0}.",
+          ],
+          [
+            1,
+            '[ap 01:02] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/9780061792571_Chapter_91.xhtml) - ONE TWO',
             "SITE BUNDOK: LATITUDE NORTH FOURTEEN DEGREES THIRTY-TWO MINUTES .\x{a0}.\x{a0}. LONGITUDE EAST
                   <<ONE TWO|5a:1>> ZERO DEGREES FIFTY-SIX MINUTES .\x{a0}.\x{a0}.",
+          ],
+          [
+            1,
+            '[ap 01:02] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/9780061792571_Chapter_91.xhtml) - ONE TWO',
+            "SITE BUNDOK: LATITUDE NORTH FOURTEEN DEGREES THIRTY-TWO MINUTES .\x{a0}.\x{a0}. LONGITUDE EAST
+                  <<ONE TWO|5a:1>> ZERO DEGREES FIFTY-SIX MINUTES .\x{a0}.\x{a0}.
+SITE MAKATI: (etc.)
+SITE ELDORADO: (etc.)",
           ],
           [
             1,
@@ -1044,6 +1604,25 @@ Privates Daniels, Nathan, and Branph whistle coolly at each other\x{2014}this Se
           ],
           [
             1,
+            '[10:30] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/9780061792571_Chapter_99.xhtml) - TEN THIRTY AM',
+            "Even with this gift thrown into his lap, it took him two and a half days of nonstop
+               work to decrypt the message. The first one, transmitted from Manila, went: OUR FRIEND\x{2019}S FUNERAL SATURDAY <<TEN THIRTY AM|5>> US MILITARY CEMETERY MAKATI.
+The response from the submarine: WILL BE THERE SUGGEST YOU INFORM GD.
+He aims the spyglass at Goto Dengo again. The Nipponese engineer is standing with
+               his head bowed and his eyes tightly shut. Perhaps his shoulders are heaving, perhaps
+               it\x{2019}s just the heat waves that make it seem so.",
+          ],
+          [
+            1,
+            '[ap 05:03] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/9780061792571_Excerpt_Chapter_1.xhtml) - 05:03',
+            'Cryptonomicon
+
+THE MOON BLEW UP WITHOUT WARNING AND FOR NO APPARENT reason. It was waxing, only one
+         day short of full. The time was <<05:03|2>>:12 UTC. Later it would be designated A+0.0.0,
+         or simply Zero.',
+          ],
+          [
+            1,
             '[ap 05:03] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/9780061792571_Excerpt_Chapter_1.xhtml) - 05:03',
             'THE MOON BLEW UP WITHOUT WARNING AND FOR NO APPARENT reason. It was waxing, only one
          day short of full. The time was <<05:03|2>>:12 UTC. Later it would be designated A+0.0.0,
@@ -1052,8 +1631,22 @@ Privates Daniels, Nathan, and Branph whistle coolly at each other\x{2014}this Se
           [
             1,
             '[ap 06:32] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/About_the_Publisher.xhtml) - 0632',
+            'HarperCollins Publishers New Zealand
+Unit D1, 63 Apollo Drive
+Rosedale <<0632|18:0>>',
+          ],
+          [
+            1,
+            '[ap 06:32] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/About_the_Publisher.xhtml) - 0632',
             'Unit D1, 63 Apollo Drive
 Rosedale <<0632|18:0>>
 Auckland, New Zealand',
+          ],
+          [
+            1,
+            '[ap 06:32] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/About_the_Publisher.xhtml) - 0632',
+            'Rosedale <<0632|18:0>>
+Auckland, New Zealand
+www.harpercollins.co.nz',
           ],
         ];

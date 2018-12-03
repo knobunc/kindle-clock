@@ -18,6 +18,7 @@ my @sources =
      "Clifford Stoll/The Cuckoo's Egg_ Tracking a Spy Through the Maze of Computer Espionage",
      "Dashiell Hammett/The Maltese Falcon",
      "David Brin/Earth",
+     "Douglas Adams/Dirk Gently's Holistic Detective Agency",
      "Evelyn Waugh/Brideshead Revisited",
      "Frank Herbert/Dune",
      "Graham Greene/The Quiet American",
