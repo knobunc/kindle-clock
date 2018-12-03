@@ -4771,7 +4771,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [15:00]: three',
-            'At <<three|9m>> on the Wednesday afternoon, that bit of the painting was completed.'
+            'At <<three|3d>> on the Wednesday afternoon, that bit of the painting was completed.'
           ],
           [
             1,

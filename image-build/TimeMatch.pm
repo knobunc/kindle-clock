@@ -152,8 +152,8 @@ my $rel_words       = qr{ $far_before_re | $short_before_re
                         | $far_after_re  | $short_after_re
                         }xin;
 
-my $at_words     = qr{ until | at | before }xin;
-my $rel_at_words = qr{ $at_words | $rel_words }xin;
+my $at_words        = qr{ until | at | before }xin;
+my $rel_at_words    = qr{ $at_words | $rel_words }xin;
 
 # Weekdays
 my $weekday_re = qr{ monday | tuesday | wendesday | thursday | friday | saturday | sunday }xin;
@@ -356,6 +356,13 @@ sub do_match {
     $line =~ s{<< ( [^>]+ ) \| [yx]\d+\w? >>}{$1}xgi
         unless $raw;
 
+    ## Relative matches
+    # These are relative to other time strings
+    $line =~ s{\b (?<pr> ( from | between ) \s+ )
+                  (?<t1> $hour_re ( \s+ $min_re )? )?
+                  (?<po> \s+ and \s+ << )
+              }{$+{pr}<<$+{t1}|20>>$+{po}}xing;
+
     return $line;
 }
 
@@ -496,6 +503,7 @@ sub get_masks {
                   ( pp?\.
                   | no\.?
                   | number
+                  | chapter | line | paragraph
                   ) \s+
                   \d+
                 )
@@ -519,8 +527,15 @@ sub get_masks {
                 (?<t1>
                   \d+ ( \. \d+ )?
                 )
-                $bb_re
+                $ba_re
                 (?{ $branch = "x14"; })
+              }xin;
+
+    # 135 over 90
+    push @r,qr{ \b
+                (?<t1> ( \d+ | $min_re ) \s+ over \s+ (\d+ | $min_re ) )
+                $ba_re
+                (?{ $branch = "x15"; })
               }xin;
 
 
@@ -864,10 +879,11 @@ sub get_matches {
               }xin;
     # Three in the morning
     push @r,qr{ (?<li> $not_in_match )
-                (?<pr> ( at | it \s+ ( is | was ) | twas | it['‘’]?s | by | by \s+ the ) \s+ )
-                (?<t1> $hour_re [?]? [-.\s]? $min_re
-                  \s+ in
-                  \s+ ( the \s+ ( morn | morning | afternoon | evening ) )
+                (?<t1> ( $rel_words \s+ )? $hour_re )
+                (?<po> \s+
+                       ( in | on | that | this | the ) \s+
+                       (\w+ \s+){0,3}
+                       ( morn | morning | afternoon | evening | night )
                 )
                 $ba_re
                 (?{ $branch = "3d"})
