@@ -1492,8 +1492,8 @@ sub get_csv_tests {
           ],
           [
             1,
-            'Timestr [04:31]: 4:31',
-            'An earthquake hit Los Angeles at <<4:31|2>> this morning and the images began arriving via CNN right away.'
+            'Timestr [04:31]: 4:31 this morning',
+            'An earthquake hit Los Angeles at <<4:31 this morning|2a>> and the images began arriving via CNN right away.'
           ],
           [
             1,
@@ -1692,8 +1692,8 @@ sub get_csv_tests {
           ],
           [
             1,
-            'Timestr [05:11]: eleven minutes past five',
-            'Today was Tuesday, the fifteenth of August; the sun had risen at <<eleven minutes past five|10>> this morning and would set at <<two minutes before seven|10>> this evening.'
+            'Timestr [05:11]: eleven minutes past five this morning',
+            'Today was Tuesday, the fifteenth of August; the sun had risen at <<eleven minutes past five this morning|10>> and would set at <<two minutes before seven this evening|10>>.'
           ],
           [
             1,
@@ -2332,8 +2332,8 @@ sub get_csv_tests {
           ],
           [
             1,
-            'Timestr [07:55]: 7.55',
-            'at <<7.55|3b>> this morning the circus ran away to join me.'
+            'Timestr [07:55]: 7.55 this morning',
+            'at <<7.55 this morning|2a>> the circus ran away to join me.'
           ],
           [
             1,
@@ -3040,8 +3040,8 @@ This last observation applied to the dark gallery, and was indicated by the comp
           ],
           [
             1,
-            'Timestr [09:30]: nine-thirty',
-            'The body came in at <<nine-thirty|3b>> this morning. One of Holding\'s men went to the house and collected it. There was nothing particularly unusual about the death. The man had had a fear of hospitals and had died at home, being cared for more than adequately by his devoted wife.'
+            'Timestr [09:30]: nine-thirty this morning',
+            'The body came in at <<nine-thirty this morning|5>>. One of Holding\'s men went to the house and collected it. There was nothing particularly unusual about the death. The man had had a fear of hospitals and had died at home, being cared for more than adequately by his devoted wife.'
           ],
           [
             1,
@@ -4590,8 +4590,8 @@ This last observation applied to the dark gallery, and was indicated by the comp
           ],
           [
             1,
-            'Timestr [14:16]: 2.16',
-            'Oh, good evening. I think you were on the barrier when I came in at <<2.16|3b>> this afternoon. Now, do you know that you let me get past without giving up my ticket? Yes, yes he-he! I really think you ought to be more careful'
+            'Timestr [14:16]: 2.16 this afternoon',
+            'Oh, good evening. I think you were on the barrier when I came in at <<2.16 this afternoon|2a>>. Now, do you know that you let me get past without giving up my ticket? Yes, yes he-he! I really think you ought to be more careful'
           ],
           [
             1,
@@ -4935,8 +4935,8 @@ This last observation applied to the dark gallery, and was indicated by the comp
           ],
           [
             T_STR | T_EXT,
-            'Timestr [15:30]: half-past thrrree',
-            '"Before I am rrroasting the alarm-clock, I am setting it to go off, not at <<nine o\'clock|6>> the next morning, but at half-past thrrree the next afternoon. Vhich means <<half-past thrrree|99>> this afternoon. And that", she said, glancing at her wrist-watch, "is in prrree-cisely seven minutes\' time!"'
+            'Timestr [15:30]: half-past thrrree this afternoon',
+            '"Before I am rrroasting the alarm-clock, I am setting it to go off, not at <<nine o\'clock|6>> the next morning, but at half-past thrrree the next afternoon. Vhich means <<half-past thrrree this afternoon|99>>. And that", she said, glancing at her wrist-watch, "is in prrree-cisely seven minutes\' time!"'
           ],
           [
             1,

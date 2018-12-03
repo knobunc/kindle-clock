@@ -98,7 +98,7 @@ my $hour_h_re = qr{ $hour_h_dig_re | $hour_h_word_re }xin; # The high hours 13-2
 
 # The am / pm permutations
 my $in_the_re = qr{ ( ( in \s+ the \s+ ( (?! same) \w+ \s+ ){0,4}?
-                      | that \s+ ( \w+ \s+ ){0,2}?
+                      | ( this | that ) \s+ ( \w+ \s+ ){0,2}?
                       )
                       ( morning | mornin['‘’]? | morn | afternoon | evening | eve | day | night)
                     | at \s+ ( dawn | dusk | night | sunset | sunrise )
@@ -512,6 +512,15 @@ sub get_masks {
                 (?<lo> \s* )
                 \z
                 (?{ $branch = "x13"; })
+              }xin;
+
+    # Prices
+    push @r,qr{ (?<li> [\$£€] \s+ )
+                (?<t1>
+                  \d+ ( \. \d+ )?
+                )
+                $bb_re
+                (?{ $branch = "x14"; })
               }xin;
 
 
