@@ -254,7 +254,8 @@ my $never_follow_times_re =
           | to \s+ the
           ) \s+
         )?
-        ( $min_re - )?   # Things like six-inch
+        ( $min_re - )?                                    # Things like six-inch
+        ( and \s+ a \s+ (half | quarter | third) \s+ )?   # Two and a half centuries
         ( with | which | point | time | moment | instant | end | stage | of | who
         | after | since
         | degrees | °
@@ -265,6 +266,7 @@ my $never_follow_times_re =
         | cubic | square
         | hundred | thousand | million | billion | dozen | score | gross | grand
         | ( \w+ \s+)? $time_periods_re
+        | century | centuries | decade | millenium | millenia
         | third | half | halve | quarter
         | dollar | cent | pound | shilling | guinea | penny | pennies | yuan | galleon | crown
         | and \s+ sixpence
@@ -578,6 +580,17 @@ sub get_masks {
                 )
                 $ba_re
                 (?{ $branch = "x17"; })
+              }xin;
+
+    # Time periods
+    push @r,qr{ $bb_re
+                (?<t1>
+                  $min_re \s+ days?    ,? \s+ ( and \s+ )?
+                  $min_re \s+ hours?   ,? \s+ ( and \s+ )?
+                  $min_re \s+ minutes?
+                )
+                $ba_re
+                (?{ $branch = "x18"; })
               }xin;
 
     return(\@r);
