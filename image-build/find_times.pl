@@ -84,15 +84,21 @@ sub search_zip {
         for (my $i = 0; $i < @lines; $i++) {
             my $line = $lines[$i];
 
-            # If the line is short, add in the surrounding lines
-            if (length($lines[$i]) < SHORT_LINE_LENGTH) {
-                $line = $lines[$i-1] . "\n$line" if $i > 0;
-                $line = "$line\n" . $lines[$i+1] if $i < $#lines;
-            }
-
             $line = do_match($line);
 
             if ($line =~ /<</) {
+                # We had a match
+
+                if (length($lines[$i]) < SHORT_LINE_LENGTH) {
+                    # If the line is short, add in the surrounding lines
+                    # And re-do the match
+                    $line = $lines[$i];
+                    $line = $lines[$i-1] . "\n$line" if $i > 0;
+                    $line = "$line\n" . $lines[$i+1] if $i < $#lines;
+
+                    $line = do_match($line);
+                }
+
                 my ($time_bit) = $line =~ m{<< ([^|>]+) [|] \d+ \w? (:\d)? >>}x;
                 my @times = extract_times("<<$time_bit|88>>")
                     or die "Unable to extract time from '$time_bit': $line";

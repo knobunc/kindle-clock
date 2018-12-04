@@ -82,7 +82,8 @@ foreach my $s (@sources) {
         " > t/books/\Q$author - $ob.dmp";
 
     my $do_skip = 0;
-    if (-f "t/books/$author - $ob.dmp" and not $force and
+    my $file = "t/books/$author - $ob.dmp";
+    if (-f $file and not -z $file and not $force and
         ( not $which or "$author - $ob" !~ /$which/i)
       )
     {

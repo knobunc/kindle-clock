@@ -2,23 +2,9 @@ $VAR1 = [
           [
             1,
             '[ap 11:10] A Tale of Two Cities - Charles Dickens.epub (CR!6K6F3FXQ6D3WS6H6JFZXPRC83G5Q_split_008.html) - Ten minutes, good, past eleven',
-            "\x{201c}Halloa!\x{201d} the guard replied.
-\x{201c}What o\x{2019}clock do you make it, Joe?\x{201d}
-\x{201c}<<Ten minutes, good, past eleven|10>>.\x{201d}",
-          ],
-          [
-            1,
-            '[ap 11:10] A Tale of Two Cities - Charles Dickens.epub (CR!6K6F3FXQ6D3WS6H6JFZXPRC83G5Q_split_008.html) - Ten minutes, good, past eleven',
             "\x{201c}What o\x{2019}clock do you make it, Joe?\x{201d}
 \x{201c}<<Ten minutes, good, past eleven|10>>.\x{201d}
 \x{201c}My blood!\x{201d} ejaculated the vexed coachman, \x{201c}and not atop of Shooter\x{2019}s yet! Tst! Yah! Get on with you!\x{201d}",
-          ],
-          [
-            1,
-            '[~ 14:00] A Tale of Two Cities - Charles Dickens.epub (CR!6K6F3FXQ6D3WS6H6JFZXPRC83G5Q_split_010.html) - about two in the afternoon',
-            "By that time, there was only one adventurous traveller left to be congratulated: for the two others had been set down at their respective roadside destinations. The mildewy inside of the coach, with its damp and dirty straw, its disagreeable smell, and its obscurity, was rather like a larger dog-kennel. Mr. Lorry, the passenger, shaking himself out of it in chains of straw, a tangle of shaggy wrapper, flapping hat, and muddy legs, was rather like a larger sort of dog.
-\x{201c}There will be a packet to Calais, tomorrow, drawer?\x{201d}
-\x{201c}Yes, sir, if the weather holds and the wind sets tolerable fair. The tide will serve pretty nicely at <<about two in the afternoon|9h>>, sir. Bed, sir?\x{201d}",
           ],
           [
             1,
@@ -38,21 +24,7 @@ $VAR1 = [
           [
             1,
             '[ap 08:45] A Tale of Two Cities - Charles Dickens.epub (CR!6K6F3FXQ6D3WS6H6JFZXPRC83G5Q_split_014.html) - quarter before nine',
-            "It could scarcely be called a trade, in spite of his favourite description of himself as \x{201c}a honest tradesman.\x{201d} His stock consisted of a wooden stool, made out of a broken-backed chair cut down, which stool, young Jerry, walking at his father\x{2019}s side, carried every morning to beneath the banking-house window that was nearest Temple Bar: where, with the addition of the first handful of straw that could be gleaned from any passing vehicle to keep the cold and wet from the odd-job-man\x{2019}s feet, it formed the encampment for the day. On this post of his, Mr. Cruncher was as well known to Fleet-street and the Temple, as the Bar itself,\x{2014}and was almost as in-looking.
-
-Encamped at a <<quarter before nine|10>>, in good time to touch his three-cornered hat to the oldest of men as they passed in to Tellson\x{2019}s, Jerry took up his station on this windy March morning, with young Jerry standing by him, when not engaged in making forays through the Bar, to inflict bodily and mental injuries of an acute description on passing boys who were small enough for his amiable purpose. Father and son, extremely like each other, looking silently on at the morning traffic in Fleet-street, with their two heads as near to one another as the two eyes of each were, bore a considerable resemblance to a pair of monkeys. The resemblance was not lessened by the accidental circumstance, that the mature Jerry bit and spat out straw, while the twinkling eyes of the youthful Jerry were as restlessly watchful of him as of everything else in Fleet-street.",
-          ],
-          [
-            1,
-            '[ap 08:45] A Tale of Two Cities - Charles Dickens.epub (CR!6K6F3FXQ6D3WS6H6JFZXPRC83G5Q_split_014.html) - quarter before nine',
             "Encamped at a <<quarter before nine|10>>, in good time to touch his three-cornered hat to the oldest of men as they passed in to Tellson\x{2019}s, Jerry took up his station on this windy March morning, with young Jerry standing by him, when not engaged in making forays through the Bar, to inflict bodily and mental injuries of an acute description on passing boys who were small enough for his amiable purpose. Father and son, extremely like each other, looking silently on at the morning traffic in Fleet-street, with their two heads as near to one another as the two eyes of each were, bore a considerable resemblance to a pair of monkeys. The resemblance was not lessened by the accidental circumstance, that the mature Jerry bit and spat out straw, while the twinkling eyes of the youthful Jerry were as restlessly watchful of him as of everything else in Fleet-street.",
-          ],
-          [
-            1,
-            '[> 00:00] A Tale of Two Cities - Charles Dickens.epub (CR!6K6F3FXQ6D3WS6H6JFZXPRC83G5Q_split_016.html) - a little after midnight',
-            "\x{201c}I was returning from France a few days afterwards, and, at Calais, the prisoner came on board the packet-ship in which I returned, and made the voyage with me.\x{201d}
-\x{201c}At what hour did he come on board?\x{201d}
-\x{201c}At <<a little after midnight|13>>.\x{201d}",
           ],
           [
             1,
@@ -74,13 +46,6 @@ Encamped at a <<quarter before nine|10>>, in good time to touch his three-corner
           [
             1,
             "[ap 10:00] A Tale of Two Cities - Charles Dickens.epub (CR!6K6F3FXQ6D3WS6H6JFZXPRC83G5Q_split_018.html) - Ten o\x{2019}clock",
-            "\x{201c}<<Ten o\x{2019}clock|6>>, sir,\x{201d} said the man at the tavern, whom he had charged to wake him\x{2014}\x{201c}<<ten o\x{2019}clock|6>>, sir.\x{201d}
-\x{201c}What\x{2019}s the matter?\x{201d}
-\x{201c}<<Ten o\x{2019}clock|6>>, sir.\x{201d}",
-          ],
-          [
-            1,
-            "[ap 10:00] A Tale of Two Cities - Charles Dickens.epub (CR!6K6F3FXQ6D3WS6H6JFZXPRC83G5Q_split_018.html) - Ten o\x{2019}clock",
             "\x{201c}What\x{2019}s the matter?\x{201d}
 \x{201c}<<Ten o\x{2019}clock|6>>, sir.\x{201d}
 \x{201c}What do you mean? <<Ten o\x{2019}clock at night|6>>?\x{201d}",
@@ -94,20 +59,6 @@ Encamped at a <<quarter before nine|10>>, in good time to touch his three-corner
           ],
           [
             1,
-            "[22:00] A Tale of Two Cities - Charles Dickens.epub (CR!6K6F3FXQ6D3WS6H6JFZXPRC83G5Q_split_018.html) - Ten o\x{2019}clock at night",
-            "\x{201c}What do you mean? <<Ten o\x{2019}clock at night|6>>?\x{201d}
-\x{201c}Yes, sir. Your honour told me to call you.\x{201d}
-\x{201c}Oh! I remember. Very well, very well.\x{201d}",
-          ],
-          [
-            1,
-            '[03:00] A Tale of Two Cities - Charles Dickens.epub (CR!6K6F3FXQ6D3WS6H6JFZXPRC83G5Q_split_018.html) - three in the morning',
-            "The lion then composed himself on his back on a sofa on one side of the drinking-table, while the jackal sat at his own paper-bestrewn table proper, on the other side of it, with the bottles and glasses ready to his hand. Both resorted to the drinking-table without stint, but each in a different way; the lion for the most part reclining with his hands in his waistband, looking at the fire, or occasionally flirting with some lighter document; the jackal, with knitted brows and intent face, so deep in his task, that his eyes did not even follow the hand he stretched out for his glass\x{2014}which often groped about, for a minute or more, before it found the glass for his lips. Two or three times, the matter in hand became so knotty, that the jackal found it imperative on him to get up, and steep his towels anew. From these pilgrimages to the jug and basin, he returned with such eccentricities of damp headgear as no words can describe; which were made the more ludicrous by his anxious gravity.
-
-At length the jackal had got together a compact repast for the lion, and proceeded to offer it to him. The lion took it with care and caution, made his selections from it, and his remarks upon it, and the jackal assisted both. When the repast was fully discussed, the lion put his hands in his waistband again, and lay down to meditate. The jackal then invigorated himself with a bumper for his throttle, and a fresh application to his head, and applied himself to the collection of a second meal; this was administered to the lion in the same manner, and was not disposed of until the clocks struck <<three in the morning|5>>.",
-          ],
-          [
-            1,
             '[03:00] A Tale of Two Cities - Charles Dickens.epub (CR!6K6F3FXQ6D3WS6H6JFZXPRC83G5Q_split_018.html) - three in the morning',
             'At length the jackal had got together a compact repast for the lion, and proceeded to offer it to him. The lion took it with care and caution, made his selections from it, and his remarks upon it, and the jackal assisted both. When the repast was fully discussed, the lion put his hands in his waistband again, and lay down to meditate. The jackal then invigorated himself with a bumper for his throttle, and a fresh application to his head, and applied himself to the collection of a second meal; this was administered to the lion in the same manner, and was not disposed of until the clocks struck <<three in the morning|5>>.',
           ],
@@ -115,13 +66,6 @@ At length the jackal had got together a compact repast for the lion, and proceed
             1,
             '[00:00] A Tale of Two Cities - Charles Dickens.epub (CR!6K6F3FXQ6D3WS6H6JFZXPRC83G5Q_split_019.html) - midnight',
             "It was the rush and roar of rain that he typified, and it stopped him, for no voice could be heard in it. A memorable storm of thunder and lightning broke with that sweep of water, and there was not a moment\x{2019}s interval in crash, and fire, and rain, until after the moon rose at <<midnight|9b>>.",
-          ],
-          [
-            1,
-            "[05:00] A Tale of Two Cities - Charles Dickens.epub (CR!6K6F3FXQ6D3WS6H6JFZXPRC83G5Q_split_024.html) - five o\x{2019}clock in the morning",
-            "\x{201c}Do I know her?\x{201d}
-\x{201c}Guess.\x{201d}
-\x{201c}I am not going to guess, at <<five o\x{2019}clock in the morning|6>>, with my brains frying and sputtering in my head. If you want me to guess, you must ask me to dinner.\x{201d}",
           ],
           [
             1,
@@ -141,32 +85,12 @@ At length the jackal had got together a compact repast for the lion, and proceed
           [
             1,
             "[06:00] A Tale of Two Cities - Charles Dickens.epub (CR!6K6F3FXQ6D3WS6H6JFZXPRC83G5Q_split_028.html) - six o\x{2019}clock in the morning",
-            "A Tale of Two Cities
-    
-    
-    
-  
-  
-C H A P T E R \x{a0} X V
-Knitting
-THERE HAD BEEN earlier drinking than usual in the wine-shop of Monsieur Defarge. As early as <<six o\x{2019}clock in the morning|6>>, sallow faces peeping through its barred windows had descried other faces within, bending over measures of wine. Monsieur Defarge sold a very thin wine at the best of times, but it would seem to have been an unusually thin wine that he sold at this time. A sour wine, moreover, or a souring, for its influence on the mood of those who drank it was to make them gloomy. No vivacious Bacchanalian flame leaped out of the pressed grape of Monsieur Defarge: but, a smouldering fire that burnt in the dark, lay hidden in the dregs of it.",
-          ],
-          [
-            1,
-            "[06:00] A Tale of Two Cities - Charles Dickens.epub (CR!6K6F3FXQ6D3WS6H6JFZXPRC83G5Q_split_028.html) - six o\x{2019}clock in the morning",
             "THERE HAD BEEN earlier drinking than usual in the wine-shop of Monsieur Defarge. As early as <<six o\x{2019}clock in the morning|6>>, sallow faces peeping through its barred windows had descried other faces within, bending over measures of wine. Monsieur Defarge sold a very thin wine at the best of times, but it would seem to have been an unusually thin wine that he sold at this time. A sour wine, moreover, or a souring, for its influence on the mood of those who drank it was to make them gloomy. No vivacious Bacchanalian flame leaped out of the pressed grape of Monsieur Defarge: but, a smouldering fire that burnt in the dark, lay hidden in the dregs of it.",
           ],
           [
             1,
             '[12:00] A Tale of Two Cities - Charles Dickens.epub (CR!6K6F3FXQ6D3WS6H6JFZXPRC83G5Q_split_028.html) - midday',
             'Thus, Saint Antoine in this vinous feature of his, until <<midday|13>>. It was high <<noontide|13>>, when two dusty men passed through his streets and under his swinging lamps: of whom, one was Monsieur Defarge: the other a mender of roads in a blue cap. All adust and athirst, the two entered the wine-shop. Their arrival had lighted a kind of fire in the breast of Saint Antoine, fast spreading as they came along, which stirred and flickered in flames of faces at most doors and windows. Yet, no one had followed them, and no man spoke when they entered the wine-shop, though the eyes of every man there were turned upon them.',
-          ],
-          [
-            1,
-            '[12:00] A Tale of Two Cities - Charles Dickens.epub (CR!6K6F3FXQ6D3WS6H6JFZXPRC83G5Q_split_028.html) - midday',
-            "Thus, Saint Antoine in this vinous feature of his, until <<midday|13>>. It was high <<noontide|13>>, when two dusty men passed through his streets and under his swinging lamps: of whom, one was Monsieur Defarge: the other a mender of roads in a blue cap. All adust and athirst, the two entered the wine-shop. Their arrival had lighted a kind of fire in the breast of Saint Antoine, fast spreading as they came along, which stirred and flickered in flames of faces at most doors and windows. Yet, no one had followed them, and no man spoke when they entered the wine-shop, though the eyes of every man there were turned upon them.
-\x{201c}Good day, gentlemen!\x{201d} said Monsieur Defarge.
-It may have been a signal for loosening the general tongue. It elicited an answering chorus of \x{201c}Good day!\x{201d}",
           ],
           [
             1,
@@ -195,20 +119,6 @@ It may have been a signal for loosening the general tongue. It elicited an answe
           ],
           [
             1,
-            '[ap ~ 02:00] A Tale of Two Cities - Charles Dickens.epub (CR!6K6F3FXQ6D3WS6H6JFZXPRC83G5Q_split_036.html) - About two',
-            "\x{201c}Well! <<About two|9:0>> leagues beyond the summit of that hill above the village.\x{201d}
-\x{201c}Good. When do you cease to work?\x{201d}
-\x{201c}At sunset.\x{201d}",
-          ],
-          [
-            1,
-            '[ap 08:00] A Tale of Two Cities - Charles Dickens.epub (CR!6K6F3FXQ6D3WS6H6JFZXPRC83G5Q_split_037.html) - eight',
-            "\x{201c}Will you undertake to explain, that we suppose it to have been addressed here, on the chance of our knowing where to forward it, and that it has been here some time?\x{201d}
-\x{201c}I will do so. Do you start for Paris from here?\x{201d}
-\x{201c}From here, at <<eight|9:0>>.\x{201d}",
-          ],
-          [
-            1,
             '[ap 08:00] A Tale of Two Cities - Charles Dickens.epub (CR!6K6F3FXQ6D3WS6H6JFZXPRC83G5Q_split_037.html) - eight',
             "\x{201c}I will do so. Do you start for Paris from here?\x{201d}
 \x{201c}From here, at <<eight|9:0>>.\x{201d}
@@ -216,21 +126,8 @@ It may have been a signal for loosening the general tongue. It elicited an answe
           ],
           [
             1,
-            '[ap 08:00] A Tale of Two Cities - Charles Dickens.epub (CR!6K6F3FXQ6D3WS6H6JFZXPRC83G5Q_split_037.html) - eight',
-            "\x{201c}From here, at <<eight|9:0>>.\x{201d}
-\x{201c}I will come back, to see you off.\x{201d}
-Very ill at ease with himself, and with Stryver and most other men, Darnay made the best of his way into the quiet of the Temple, opened the letter, and read it. These were its contents:",
-          ],
-          [
-            1,
             '[00:00] A Tale of Two Cities - Charles Dickens.epub (CR!6K6F3FXQ6D3WS6H6JFZXPRC83G5Q_split_037.html) - midnight',
             "The unseen force was drawing him fast to itself, now, and all the tides and winds were setting straight and strong towards it. He left his two letters with a trusty porter, to be delivered half an hour before <<midnight|13>>, and no sooner; took horse for Dover; and began his journey. \x{201c}For the love of Heaven, of justice, of generosity, of the honour of your noble name!\x{201d} was the poor prisoner\x{2019}s cry with which he strengthened his sinking heart, as he left all that was dear on earth behind him, and floated away for the Loadstone Rock.",
-          ],
-          [
-            1,
-            '[00:00] A Tale of Two Cities - Charles Dickens.epub (CR!6K6F3FXQ6D3WS6H6JFZXPRC83G5Q_split_037.html) - midnight',
-            "The unseen force was drawing him fast to itself, now, and all the tides and winds were setting straight and strong towards it. He left his two letters with a trusty porter, to be delivered half an hour before <<midnight|13>>, and no sooner; took horse for Dover; and began his journey. \x{201c}For the love of Heaven, of justice, of generosity, of the honour of your noble name!\x{201d} was the poor prisoner\x{2019}s cry with which he strengthened his sinking heart, as he left all that was dear on earth behind him, and floated away for the Loadstone Rock.
-",
           ],
           [
             1,
@@ -249,13 +146,6 @@ Very ill at ease with himself, and with Stryver and most other men, Darnay made 
           ],
           [
             1,
-            '[15:00] A Tale of Two Cities - Charles Dickens.epub (CR!6K6F3FXQ6D3WS6H6JFZXPRC83G5Q_split_043.html) - three in the afternoon',
-            "\x{201c}My dear, there is an upper window in the prison, to which Charles can sometimes gain access at <<three in the afternoon|9a>>. When he can get to it\x{2014}which depends on many uncertainties and incidents\x{2014}he might see you in the street, he thinks, if you stood in a certain place that I can show you. But you will not be able to see him, my poor child, and even if you could, it would be unsafe for you to make a sign of recognition.\x{201d}
-\x{201c}O show me the place, my father, and I will go there every day.\x{201d}
-From that time, in all weathers, she waited there two hours. As the clock struck <<two|11>>, she was there, and at four she turned resignedly away. When it was not too wet or inclement for her child to be with her, they went together; at other times she was alone; but, she never missed a single day.",
-          ],
-          [
-            1,
             '[ap 02:00] A Tale of Two Cities - Charles Dickens.epub (CR!6K6F3FXQ6D3WS6H6JFZXPRC83G5Q_split_043.html) - two',
             'From that time, in all weathers, she waited there two hours. As the clock struck <<two|11>>, she was there, and at four she turned resignedly away. When it was not too wet or inclement for her child to be with her, they went together; at other times she was alone; but, she never missed a single day.',
           ],
@@ -266,22 +156,8 @@ From that time, in all weathers, she waited there two hours. As the clock struck
           ],
           [
             1,
-            '[00:00] A Tale of Two Cities - Charles Dickens.epub (CR!6K6F3FXQ6D3WS6H6JFZXPRC83G5Q_split_045.html) - Midnight',
-            "\x{201c}Ha!\x{201d} said Miss Pross, \x{201c}it doesn\x{2019}t need an interpreter to explain the meaning of these creatures. They have but one, and it\x{2019}s <<Midnight|13>> Murder, and Mischief.\x{201d}
-\x{201c}Hush, dear! Pray, pray, be cautious!\x{201d} cried Lucie.
-\x{201c}Yes, yes, yes, I\x{2019}ll be cautious,\x{201d} said Miss Pross; \x{201c}but I may say among ourselves, that I do hope there will be no oniony and tobaccoey smotherings in the form of embracings all round, going on in the streets. Now, Ladybird, never you stir from that fire till I come back! Take care of the dear husband you have recovered, and don\x{2019}t move your pretty head from his shoulder as you have it now, till you see me again! May I ask a question, Doctor Manette, before I go?\x{201d}",
-          ],
-          [
-            1,
             "[22:00] A Tale of Two Cities - Charles Dickens.epub (CR!6K6F3FXQ6D3WS6H6JFZXPRC83G5Q_split_047.html) - ten o\x{2019}clock at night",
             "It was <<ten o\x{2019}clock at night|6>> when he stood before the prison of La Force, where she had stood hundreds of times. A little wood-sawyer, having closed his shop, was smoking his pipe at his shop-door.",
-          ],
-          [
-            1,
-            "[ap 00:00] A Tale of Two Cities - Charles Dickens.epub (CR!6K6F3FXQ6D3WS6H6JFZXPRC83G5Q_split_048.html) - twelve o\x{2019}clock",
-            "\x{201c}He answered with great contempt, \x{2018}No.\x{2019}
-\x{201c}\x{2018}She has some recent association with the number twelve?\x{2019}
-\x{201c}The younger brother impatiently rejoined, \x{2018}With <<twelve o\x{2019}clock|6>>?\x{2019}",
           ],
           [
             1,
@@ -312,26 +188,6 @@ From that time, in all weathers, she waited there two hours. As the clock struck
           ],
           [
             1,
-            '[ap 09:00] A Tale of Two Cities - Charles Dickens.epub (CR!6K6F3FXQ6D3WS6H6JFZXPRC83G5Q_split_049.html) - nine',
-            "\x{201c}It will be dark soon after four. Let us stretch the hour or two. If I go to Mr. Lorry\x{2019}s at <<nine|9c:1>>, shall I hear what you have done, either from our friend or from yourself?\x{201d}
-\x{201c}Yes.\x{201d}
-\x{201c}May you prosper!\x{201d}",
-          ],
-          [
-            1,
-            '[ap 09:00] A Tale of Two Cities - Charles Dickens.epub (CR!6K6F3FXQ6D3WS6H6JFZXPRC83G5Q_split_050.html) - nine',
-            "A Tale of Two Cities
-    
-    
-    
-  
-  
-C H A P T E R \x{a0} X I I
-Darkness
-SYDNEY CARTON PAUSED in the street, not quite decided where to go. \x{201c}At Tellson\x{2019}s banking-house at <<nine|9c:0>>,\x{201d} he said, with a musing face. \x{201c}Shall I do well, in the mean time, to show myself? I think so. It is best that these people should know there is such a man as I here; it is a sound precaution, and may be a necessary preparation. But care, care, care! Let me think it out!\x{201d}",
-          ],
-          [
-            1,
             '[ap 09:00] A Tale of Two Cities - Charles Dickens.epub (CR!6K6F3FXQ6D3WS6H6JFZXPRC83G5Q_split_050.html) - nine',
             "SYDNEY CARTON PAUSED in the street, not quite decided where to go. \x{201c}At Tellson\x{2019}s banking-house at <<nine|9c:0>>,\x{201d} he said, with a musing face. \x{201c}Shall I do well, in the mean time, to show myself? I think so. It is best that these people should know there is such a man as I here; it is a sound precaution, and may be a necessary preparation. But care, care, care! Let me think it out!\x{201d}",
           ],
@@ -359,20 +215,6 @@ SYDNEY CARTON PAUSED in the street, not quite decided where to go. \x{201c}At Te
             1,
             "[14:00] A Tale of Two Cities - Charles Dickens.epub (CR!6K6F3FXQ6D3WS6H6JFZXPRC83G5Q_split_050.html) - two o\x{2019}clock in the afternoon",
             "\x{201c}You have money, and can buy the means of travelling to the seacoast as quickly as the journey can be made. Your preparations have been completed for some days, to return to England. Early to-morrow have your horses ready, so that they may be in starting trim at <<two o\x{2019}clock in the afternoon|6>>.\x{201d}",
-          ],
-          [
-            1,
-            "[14:00] A Tale of Two Cities - Charles Dickens.epub (CR!6K6F3FXQ6D3WS6H6JFZXPRC83G5Q_split_050.html) - two o\x{2019}clock in the afternoon",
-            "\x{201c}You have money, and can buy the means of travelling to the seacoast as quickly as the journey can be made. Your preparations have been completed for some days, to return to England. Early to-morrow have your horses ready, so that they may be in starting trim at <<two o\x{2019}clock in the afternoon|6>>.\x{201d}
-\x{201c}It shall be done!\x{201d}
-His manner was so fervent and inspiring, that Mr. Lorry caught the flame, and was as quick as youth.",
-          ],
-          [
-            1,
-            '[ap 02:00] A Tale of Two Cities - Charles Dickens.epub (CR!6K6F3FXQ6D3WS6H6JFZXPRC83G5Q_split_051.html) - Two',
-            "\x{201c}I know it well,\x{201d} answered Carton. \x{201c}Be careful of my friend, I entreat you, and leave me.\x{201d}
-\x{201c}Come, then, my children,\x{201d} said Barsad. \x{201c}Lift him, and come away!\x{201d}
-The door closed, and Carton was left alone. Straining his powers of listening to the utmost, he listened for any sound that might denote suspicion or alarm. There was none. Keys turned, doors clashed, footsteps passed along distant passages: no cry was raised, or hurry made, that seemed unusual. Breathing more freely in a little while, he sat down at the table, and listened again until the clock struck <<Two|11>>.",
           ],
           [
             1,
