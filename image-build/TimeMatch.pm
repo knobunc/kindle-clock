@@ -492,6 +492,7 @@ sub get_masks {
                   | avenue | ave
                   | crescent
                   | boulevard | blvd | bvd
+                  | north | south | east | west
                   )
                 )
                 $ba_re
@@ -1229,13 +1230,6 @@ sub get_matches {
                   )
                 )
                 (?{ $branch = "9c:TIMEY"})
-              }xin;
-
-    push @r,qr{ \b
-                (?<t1> \b $hour24_re )
-                (?<po> \s+ strokes )
-                $ba_re
-                (?{ $branch = "15:TIMEY"})
               }xin;
 
     # The only time, but as a single hour (these are less reliable)
