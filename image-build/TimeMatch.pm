@@ -272,14 +272,16 @@ my $never_follow_times_re =
         | possibilities  | percent | against | vote | machine | box
         | on \s+ the \s+ field
         | ( tb | gb | mb | kb ) (p)? | baud
+        | odds
         )
         s?
       | [.,] \d
       }xin;
 
 # Set the variables used in the regexes
-my $branch   = "x";
-my $is_timey = 0;
+my $branch    = "x";
+my $is_timey  = 0;
+my $is_racing = 0;
 
 sub do_match {
     my ($line, $raw) = @_;
@@ -307,6 +309,16 @@ sub do_match {
                   | ( there | here ) \s+ from
                   | ( return | returned | back ) \s* $rel_at_words
                   | reported | reports
+                  ) \b
+             }xin;
+
+    ## Does this look like a "racing" paragraph?  If so, then times of the form "ten to one"
+    # are probably not times
+    $is_racing = 0;
+    $is_racing = 1
+        if $line =~
+            m{ \b ( colts? | filly | fillies | stallions?
+                  | odds \s+ (at | of) | betting
                   ) \b
              }xin;
 
@@ -386,13 +398,14 @@ sub get_masks {
 
     # odds of five to one
     # the three of one
+    # add 1 to 19
     push @r,qr{ $bb_re
                 (?<pr>
-                 ( ( odds | betting ) \s+ ( of | being | at ) ( $rel_words \s+ )?
-                   | got | get | numbers? | the
+                 ( ( odds | betting | bets? ) ( \s+ ( of | being | at ) )? ( \s+ $rel_words )?
+                 | got | get | numbers? | the | offered | add
                  ) \s+
                 )
-                (?<t1> $min_re \s+ ( to | of )\s+ $min_re )
+                (?<t1> $min_re \s+ ( to | of ) \s+ $min_re )
                 (?! ,? \s* $ampm_re)
                 \b
                 (?{ $branch = "x2"; })
@@ -603,9 +616,9 @@ sub get_matches {
                     my $pre = ${^PREMATCH} . $+{li};
                     my $post = ${^POSTMATCH};
 
-                    if ($t1 =~ m{\A $min_word_re [-\s]+ to [-\s]+ $hour24_re \z}xin) {
+                    if ($t1 =~ m{\A $min_re [-\s]+ to [-\s]+ $hour24_re \z}xin) {
                         $branch = "10a:TIMEY";
-                        if ($pre =~ m{ \s of \s+ \z}xin) {
+                        if ($is_racing or $pre =~ m{ \s of \s+ \z}xin) {
                             $branch = "y10";
                         }
                         elsif ($pre =~ m{ (\A | \s )
