@@ -424,9 +424,11 @@ sub get_masks {
 
     # I was one of twenty
     # two by two
-    push @r,qr{ (?<pr> \s+ )
+    # 1, for one, am sick of it.
+    push @r,qr{ (?<pr> \A | \s+ )
                 (?<t1> one \s+ of \s+ $min_re
                 |      $min_re ,? \s+ by \s+ $min_re
+                |      I ,? \s+ for \s+ one ,? \s+ am
                 )
                 (?! ,? \s* $ampm_re)
                 \b
