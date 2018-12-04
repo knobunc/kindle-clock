@@ -522,7 +522,7 @@ sub get_masks {
                   ( pp?\.
                   | no\.?
                   | number
-                  | chapter | line | paragraph
+                  | chapter | line | paragraph | page | issue | volume
                   ) \s+
                   \d+
                 )
@@ -557,6 +557,24 @@ sub get_masks {
                 (?{ $branch = "x15"; })
               }xin;
 
+
+    # Phone number things
+    push @r,qr{ $bb_re
+                (?<t1>
+                  ( \( \d{3} \) | \d{3} ) [-/\s]* \d{3} [-/\s]* \d{4}
+                )
+                $ba_re
+                (?{ $branch = "x16"; })
+              }xin;
+
+    # URLs
+    push @r,qr{ $bb_re
+                (?<t1>
+                  http:// \S+
+                )
+                $ba_re
+                (?{ $branch = "x17"; })
+              }xin;
 
     return(\@r);
 }
