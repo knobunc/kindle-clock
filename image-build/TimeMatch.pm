@@ -324,6 +324,7 @@ sub do_match {
         if $line =~
             m{ \b ( colts? | filly | fillies | stallions?
                   | odds \s+ (at | of) | betting
+                  | interest | ratio | advantage | superiority
                   ) \b
              }xin;
 
