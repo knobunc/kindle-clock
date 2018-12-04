@@ -14,7 +14,7 @@ use Lingua::EN::Words2Nums;
 
 
 # Special named times
-my $noon_re     = qr{ ( high \s+ )? noon | noonday | mid[-\s]*day | noontime | noontide }xin;
+my $noon_re     = qr{ ( high \s+ )? noon (-? (day | time | tide) )? | mid[-\s]*day }xin;
 my $midnight_re = qr{ midnight (?! \s+ oil ) }xin;
 my $ecclesiastical_re =
     qr{ # Ecclesiastical times -- https://en.wikipedia.org/wiki/Liturgy_of_the_Hours
@@ -250,15 +250,20 @@ my $time_periods_re = qr{ ( year | month | week | day | hour | half | minute ) s
 
 # Things that never follow times
 my $never_follow_times_re =
-    qr{ ( or \s+ $min_re )?
+    qr{ ( ( or \s+ $min_re
+          | to \s+ the
+          ) \s+
+        )?
+        ( $min_re - )?   # Things like six-inch
         ( with | which | point | time | moment | instant | end | stage | of | who
         | after | since
-        | degrees
+        | degrees | °
+        | percent | %
         | centimeter | cm | meter | kilometer | km | klick
-        | inch | inches | foot | feet | ft | yard | yd | mile | mi | knot | kt
+        | inch | inches | foot | feet | ft | yard | yd | mile | mi | knot | kt | block
         | pound | lb | kilogram | kg | ton | tonne
         | cubic | square
-        | hundred | thousand | million | billion
+        | hundred | thousand | million | billion | dozen | score | gross | grand
         | ( \w+ \s+)? $time_periods_re
         | third | half | halve | quarter
         | dollar | cent | pound | shilling | guinea | penny | pennies | yuan | galleon | crown
@@ -272,7 +277,7 @@ my $never_follow_times_re =
         | possibilities  | percent | against | vote | machine | box
         | on \s+ the \s+ field
         | ( tb | gb | mb | kb ) (p)? | baud
-        | odds
+        | odds | more
         )
         s?
       | [.,] \d
@@ -572,7 +577,7 @@ sub get_matches {
     # Times to/from hour
     # ten minutes past noon
     # three minutes till eight
-    my $nf_re = qr{(?! \s+ $never_follow_times_re
+    my $nf_re = qr{(?! [-\s]* $never_follow_times_re
                      | :\d
                      | [-]
                      )
@@ -644,7 +649,7 @@ sub get_matches {
                    )
                    (?<t1> ( $rel_words \s+ )?
                      $hour24_re ( [-.:\s]* $min0_re )?
-                     (?! \s+ $never_follow_times_re \b )
+                     (?! [-\s]* $never_follow_times_re $ba_re )
                      ( ,? \s* $ampm_re )?
                    )
                    $ba_re
@@ -722,7 +727,7 @@ sub get_matches {
                 (?<t1> ( $hour12_dig_re [.]? | $hour24_dig_re [.] )
                        $minsec0_dig_re
                 )
-                (?! [-.] | [-\s]+ $never_follow_times_re \b )
+                (?! [-.] | [-\s]* $never_follow_times_re $ba_re )
                 $ba_re
                 (?{ $branch = "3c"})
               }xin;
@@ -740,7 +745,7 @@ sub get_matches {
                   ( \s+ $sec_re    \s+ ( seconds | sec | s)           s?
                    | ( \s+ a )? \s+ $fraction_re
                   )?
-                  (?! [-\s]+ $never_follow_times_re \b )
+                  (?! [-\s]* $never_follow_times_re $ba_re )
                 )
                 $ba_re
                 (?{ $branch = "14"})
@@ -994,7 +999,7 @@ sub get_matches {
                 | $low_num_re \s* (*SKIP)(*FAIL)
                 | $hour_re
                 )
-                ( [-\s]+ $never_follow_times_re \b (*SKIP)(*FAIL) )?
+                ( [-\s]* $never_follow_times_re $ba_re (*SKIP)(*FAIL) )?
                 $ba_re
                 (?{ $branch = "9d"})
               }xin;
@@ -1003,7 +1008,7 @@ sub get_matches {
                   ( at ) \s+
                 )
                 (?<t1> $hour_re ( ( [-:.] | \s+ )? $min0_re )? ( ,? \s* $ampm_re )? )
-                ( [-\s]+ $never_follow_times_re \b (*SKIP)(*FAIL) )?
+                ( [-\s]* $never_follow_times_re $ba_re (*SKIP)(*FAIL) )?
                 $ba_re
                 (?{ $branch = "9m"})
               }xin;
@@ -1020,7 +1025,7 @@ sub get_matches {
                   $hour_word_re ( [\s\.]+ | [-] ) $min_word_re
                   ( \s* ... \s* $low_num_re )? ( ,? \s* $ampm_re )?
                 )
-                ( [-\s]* $never_follow_times_re \b (*SKIP)(*FAIL) )?
+                ( [-\s]* $never_follow_times_re $ba_re (*SKIP)(*FAIL) )?
                 $ba_re
                 (?{ $branch = "5b"})
               }xin;
@@ -1035,7 +1040,7 @@ sub get_matches {
                   ( ,? \s* $ampm_re )?
                   ( \s+ $oclock_re )?
                 )
-                ( [-\s]* $never_follow_times_re \b (*SKIP)(*FAIL) )?
+                ( [-\s]* $never_follow_times_re $ba_re (*SKIP)(*FAIL) )?
                 $ba_re
                 (?{ $branch = "5i"})
               }xin;
@@ -1125,7 +1130,7 @@ sub get_matches {
                   )?
                   $midnight_noon_re
                 )
-                ( [-\s]+ $never_follow_times_re \b (*SKIP)(*FAIL) )?
+                ( [-\s]* $never_follow_times_re $ba_re (*SKIP)(*FAIL) )?
                 $ba_re
                 (?{ $branch = "13"})
               }xin;
@@ -1145,7 +1150,7 @@ sub get_matches {
                   $hour_re ( ( [-:.] | \s+ )? $min0_re )?
                 )
                 (?! [''‘’]s )
-                ( [-\s]* $never_follow_times_re \b (*SKIP)(*FAIL) )?
+                ( [-\s]* $never_follow_times_re $ba_re (*SKIP)(*FAIL) )?
                 (?<po>
                   ( \s+ or \s+ so )?
                   ( [""''‘’“”]
@@ -1162,14 +1167,20 @@ sub get_matches {
                 )
                 (?<t1>
                   ( $rel_at_words | ( close \s+ )? upon | till | by ) \s+
-                  ( $hour24_re ( [-:.] | \s+ )? $min0_re
+                  ( (?<xx> $hour24_re ( [-:.] | \s+ )? $min0_re )
                   | One \s* (*SKIP)(*FAIL)
                   | $hour_re
                   )
                 )
-                ( [-\s]* $never_follow_times_re \b (*SKIP)(*FAIL) )?
+                ( [-\s]* $never_follow_times_re $ba_re (*SKIP)(*FAIL) )?
                 $ba_re
-                (?{ $branch = "9:TIMEY"})
+                (?{ $branch = "9:TIMEY";
+                    my $xx = $+{xx};
+                    if ( defined $xx and $xx =~ m{\A \d{3,4} \z}xi and $xx !~ m{\A 0 }xi) {
+                        # It looks like a year
+                        $branch = "9n:TIMEY";
+                    }
+                  })
               }xin;
 
     # More at the end of a phrase
@@ -1190,7 +1201,7 @@ sub get_matches {
                   $hour_re ( ( [-:.] | \s+ )? $min0_re )?
                 )
                 (?! [''‘’]s )
-                ( [-\s]* $never_follow_times_re \b (*SKIP)(*FAIL) )?
+                ( [-\s]* $never_follow_times_re $ba_re (*SKIP)(*FAIL) )?
                 (?<po>
                   ( \s+ or \s+ so )?
                   ( [""''‘’“”]
@@ -1252,7 +1263,7 @@ sub get_matches {
                   ( $hour12_dig_re [.]? | $hour24_dig_re [.] )
                     $minsec0_dig_re
                 )
-                (?! \s+ $never_follow_times_re \b )
+                (?! [-\s]* $never_follow_times_re $ba_re )
                 $ba_re
                 (?{ $branch = "3:TIMEY"})
               }xin;
@@ -1284,7 +1295,7 @@ sub get_matches {
                   | $hour_dig_re [-.] $minsec0_dig_re
                   )
                   ( ,? \s* $ampm_re )? )
-                (?! \s+ $never_follow_times_re \b
+                (?! [-\s]* $never_follow_times_re $ba_re
                 |  [-—]
                 )
                 $ba_re
@@ -1342,7 +1353,7 @@ sub get_matches {
                   |   $rel_at_words \s+    $hour0_dig_re $minsec0_dig_re
                   )
                   ( ,? \s* $ampm_re )? )
-                (?! \s+ $never_follow_times_re \b
+                (?! [-\s]* $never_follow_times_re $ba_re
                 |  [-—]
                 )
                 $ba_re
