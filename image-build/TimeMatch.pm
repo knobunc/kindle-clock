@@ -1320,7 +1320,7 @@ sub get_matches {
                   ( $rel_words \s+ )?
                   ( $hour24_word_re ( \s+ | \s* ( \Q...\E | … ) \s* ) $min_word_re
                   | $hour_word_re ( [-\s]+ | \s* ( \Q...\E | … ) \s* ) $min_word_re
-                  | $hour_dig_re [-.] $minsec0_dig_re
+                  | ( $hour24nz_dig_re | 00 ) [-.] $minsec0_dig_re
                   )
                   ( ,? \s* $ampm_re )? )
                 (?! [-\s]* $never_follow_times_re $ba_re
