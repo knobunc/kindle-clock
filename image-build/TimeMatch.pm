@@ -256,6 +256,7 @@ my $never_follow_times_re =
         | degrees
         | centimeter | cm | meter | kilometer | km | klick
         | inch | inches | foot | feet | ft | yard | yd | mile | mi | knot | kt
+        | pound | lb | kilogram | kg | ton | tonne
         | cubic | square
         | hundred | thousand | million | billion
         | ( \w+ \s+)? $time_periods_re
@@ -302,7 +303,7 @@ sub do_match {
                     | train
                     ) s?
                   | $midnight_noon_re
-                  | ( it \s+ ( is | was ) | twas | it['‘’]?s | ['‘’]?tis | what ) \s+ time
+                  | ( it \s+ ( is | was ) | twas | it['‘’]s | ['‘’]?tis | what ) \s+ time
                   | ( there | here ) \s+ from
                   | ( return | returned | back ) \s* $rel_at_words
                   | reported | reports
@@ -608,7 +609,7 @@ sub get_matches {
                             $branch = "y10";
                         }
                         elsif ($pre =~ m{ (\A | \s )
-                                          ( at | it \s+ ( is | was ) | twas | it['‘’]?s | till )
+                                          ( at | it \s+ ( is | was ) | twas | it['‘’]s | till )
                                           \s+ \z
                                         }xin)
                         {
@@ -657,7 +658,7 @@ sub get_matches {
               }xin;
 
     # Ones with a phrase after to fix it better as a time
-    push @r,qr{ \b (?<pr> ( at | it \s+ ( is | was ) | twas | it['‘’]?s | till ) \s+ )
+    push @r,qr{ \b (?<pr> ( at | it \s+ ( is | was ) | twas | it['‘’]s | till ) \s+ )
                    (?<t1> ( ( $rel_words ( \s+ at )? | ( close \s+ )? upon ) \s+ )?
                      $hour_word_re
                    )
@@ -752,7 +753,7 @@ sub get_matches {
     push @r,qr{ $bb_re
                 (?<pr>
                   ( waited | arrive s? | called | expired
-                  | it \s+ ( is | was ) | twas | it['‘’]?s | begin | end | it
+                  | it \s+ ( is | was ) | twas | it['‘’]s | begin | end | it
                   | ( come | turn ) \s+ on
 #                  | still
                   ) \s+
@@ -865,7 +866,7 @@ sub get_matches {
     # at 1237 when
     # by 8.45 on saturday
     push @r,qr{ (?<li> $not_in_match )
-                (?<pr> ( at | it \s+ ( is | was ) | twas | it['‘’]?s | by | by \s+ the ) \s+ )
+                (?<pr> ( at | it \s+ ( is | was ) | twas | it['‘’]s | by | by \s+ the ) \s+ )
                 (?<t1> $hour_re [?]? [-.\s]? $min_re )
                 (?<po>
                  \s+ ( ( ( on | in ) \s+ )? $weekday_re
@@ -901,7 +902,7 @@ sub get_matches {
     # See also 9l, 9p, and 9k
     push @r,qr{ (?<pr>
                   ( \A | ['"‘’“”] | [.…;:?!] \s+ | \s+ [-—]+ \s+ )
-                  ( ( only | just | it['‘’]?s | it \s+ is | the ) \s+ )?
+                  ( ( only | just | it['‘’]s | it \s+ is | the ) \s+ )?
                 )
                 (?<t1>
                   ( $rel_words \s+ )?
@@ -917,7 +918,7 @@ sub get_matches {
     # And so that the leading puctuation can be adjacent
     push @r,qr{ (?<pr>
                   ( \A | ['"‘’“”] | [.…;:?!] \s* | \s* [-—]+ \s* )
-                  ( ( only | just | it['‘’]?s | it \s+ is | the ) \s+ )?
+                  ( ( only | just | it['‘’]s | it \s+ is | the ) \s+ )?
                 )
                 (?<t1>
                   ( $rel_words \s+ )?
@@ -934,7 +935,7 @@ sub get_matches {
     # or something like that elsewhere in the phrase
     push @r,qr{ (?<pr>
                   ( \A | ['"‘’“”] | [.…;:?!] \s+ | \s+ [-—]+ \s+ )
-                  ( ( only | just | it['‘’]?s | it \s+ is | the ) \s+ )?
+                  ( ( only | just | it['‘’]s | it \s+ is | the ) \s+ )?
                 )
                 (?<t1>
                   ( $rel_words \s+ )?
@@ -961,11 +962,11 @@ sub get_matches {
     # At ten, ...
     push @r,qr{ (?<pr>
                   ( \A | ['"‘’“”] | [.…;:?!,] \s+ )
-                  ( ( it \s+ ( is | was ) | twas | it['‘’]?s | which \s+ was | and ) \s+ )?
+                  ( ( it \s+ ( is | was ) | twas | it['‘’]s | which \s+ was | and ) \s+ )?
                 )
                 (?<t1>
                   ( $rel_at_words | ( close \s+ )? upon | till | by ) \s+
-                  $hour24_re ( [.\s]+ $min0_re )?
+                  $hour_re ( [.\s]+ $min0_re )?
                   (?= \s+ ( last | yesterday | $weekday_re ) | \s* [-—,] \s+ )
                 )
                 $ba_re
@@ -973,7 +974,7 @@ sub get_matches {
               }xin;
     push @r,qr{ (?<pr>
                   ( \A | ['"‘’“”] | [.…;:?!] \s+ )
-                  ( it \s+ ( is | was ) | twas | it['‘’]?s ) \s+
+                  ( it \s+ ( is | was ) | twas | it['‘’]s ) \s+
                 )
                 (?<t1>
                   $hour_re ( [-:.] | \s+ )? $min0_re
@@ -1003,7 +1004,7 @@ sub get_matches {
                   ) \s+
                 )
                 (?<t1>
-                  $hour24_word_re ( [\s\.]+ | [-] ) $min_word_re
+                  $hour_word_re ( [\s\.]+ | [-] ) $min_word_re
                   ( \s* ... \s* $low_num_re )? ( ,? \s* $ampm_re )?
                 )
                 ( [-\s]* $never_follow_times_re \b (*SKIP)(*FAIL) )?
@@ -1144,13 +1145,13 @@ sub get_matches {
 
     push @r,qr{ (?<pr>
                   ( \A | ['"‘’“”] | [.…;:?!,] \s+ )
-                  ( ( only | it \s+ ( is | was ) | twas | it['‘’]?s | because ) \s+)?
+                  ( ( only | it \s+ ( is | was ) | twas | it['‘’]s | because ) \s+)?
                 )
                 (?<t1>
                   ( $rel_at_words | ( close \s+ )? upon | till | by ) \s+
                   ( $hour24_re ( [-:.] | \s+ )? $min0_re
                   | One \s* (*SKIP)(*FAIL)
-                  | $hour24_re
+                  | $hour_re
                   )
                 )
                 ( [-\s]* $never_follow_times_re \b (*SKIP)(*FAIL) )?
@@ -1197,7 +1198,7 @@ sub get_matches {
     # The only time, but as a single hour (these are less reliable)
     push @r,qr{ (?<pr>
                   ( \A | ['"‘’“”] | [.…;:?!] \s+ | \s+ [-—]+ \s+ )
-                  ( ( only | just | it['‘’]?s | it \s+ is | the ) \s+ )?
+                  ( ( only | just | it['‘’]s | it \s+ is | the ) \s+ )?
                 )
                 (?<t1>
                   ( $rel_words \s+ )?
@@ -1230,7 +1231,7 @@ sub get_matches {
     push @r,qr{ (?<li> $not_in_match )
                 (?<pr>
                   ( at ( \s+ last )?
-                  | it \s+ ( is | was ) | twas | it['‘’]?s | by
+                  | it \s+ ( is | was ) | twas | it['‘’]s | by
                   ) \s+
                 )
                 (?<t1>
@@ -1249,7 +1250,7 @@ sub get_matches {
     push @r,qr{ (?<li> $not_in_match )
                 (?<pr>
                   ( at ( \s+ last )?
-                  | it \s+ ( is | was ) | twas | it['‘’]?s | by
+                  | it \s+ ( is | was ) | twas | it['‘’]s | by
                   ) \s+
                 )
                 (?<t1>
