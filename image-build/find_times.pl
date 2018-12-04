@@ -65,6 +65,13 @@ sub search_zip {
                                   }x;
         $members_seen = 1;
 
+        # We only want the body
+        if ($contents =~ m{<body(?:\s+[^>]+)?>(.+)</body>}s) {
+            $contents = $1;
+        } else {
+            die "Unable to extract the body from '$name'";
+        }
+
         my @raw_lines = split m{</(?:p|div)>\R*}, $contents;
         my @lines;
         foreach my $line (@raw_lines) {
