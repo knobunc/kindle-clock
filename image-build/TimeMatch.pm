@@ -708,6 +708,7 @@ sub get_matches {
                 (?<t1> ( $hour12_dig_re [.]? | $hour24_dig_re [.] )
                        $minsec0_dig_re
                 )
+                (?! [-.] | [-\s]+ $never_follow_times_re \b )
                 $ba_re
                 (?{ $branch = "3c"})
               }xin;
