@@ -29,6 +29,7 @@ my @sources =
      "J. R. R. Tolkien/The Fellowship of the Ring",
      "James Joyce/Ulysses",
      "John Steinbeck/The Grapes of Wrath",
+     "Jules Verne/Around the World in Eighty Days",
      "Mark Haddon/The Curious Incident of the Dog in the Night-Time",
      "Michael Ondaatje/The English Patient",
      "Neal Stephenson/Cryptonomicon",
