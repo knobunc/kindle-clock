@@ -69,13 +69,13 @@ $VAR1 = [
           [
             1,
             '[12:00] The Catcher in the Rye - J. D. Salinger.epub (index_split_000.html) - noon',
-            '"Uh huh. Well, how \'bout it? Y\'innarested? Five bucks a throw. Fifteen bucks the whole night." He looked at his wrist watch. "Till <<noon|13>>. Five bucks a throw, fifteen bucks till <<noon|13>>."',
+            '"Uh huh. Well, how \'bout it? Y\'innarested? Five bucks a throw. Fifteen bucks the whole night." He looked at his wrist watch. "Till <<noon|9f>>. Five bucks a throw, fifteen bucks till <<noon|9f>>."',
           ],
           [
             1,
             '[12:00] The Catcher in the Rye - J. D. Salinger.epub (index_split_000.html) - noon',
             '"Okay," I said. It was against my principles and all, but I was feeling so depressed I didn\'t even think. That\'s the whole trouble. When you\'re feeling very depressed, you can\'t even think.
-"Okay what? A throw, or till <<noon|13>>? I gotta know."
+"Okay what? A throw, or till <<noon|9f>>? I gotta know."
 "Just a throw."',
           ],
           [
@@ -91,12 +91,12 @@ $VAR1 = [
           [
             1,
             '[ap 10:00] The Catcher in the Rye - J. D. Salinger.epub (index_split_000.html) - ten',
-            '"It\'s <<ten|9d>> bucks, chief. I tole ya that. Ten bucks for a throw, fifteen bucks till <<noon|13>>. I tole ya that."',
+            '"It\'s <<ten|9d>> bucks, chief. I tole ya that. Ten bucks for a throw, fifteen bucks till <<noon|9f>>. I tole ya that."',
           ],
           [
             1,
             '[12:00] The Catcher in the Rye - J. D. Salinger.epub (index_split_000.html) - noon',
-            '"You did not tell me that. You said five bucks a throw. You said fifteen bucks till <<noon|13>>, all right, but I distinctly heard you--"',
+            '"You did not tell me that. You said five bucks a throw. You said fifteen bucks till <<noon|9f>>, all right, but I distinctly heard you--"',
           ],
           [
             1,

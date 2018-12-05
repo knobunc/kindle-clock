@@ -96,9 +96,9 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap < 08:00] The Grapes of Wrath - John Steinbeck.epub (OEBPS/html/chapter26.html) - till eight',
+            '[ap 08:00] The Grapes of Wrath - John Steinbeck.epub (OEBPS/html/chapter26.html) - eight',
             "\x{201c}I didn\x{2019} see nothin\x{2019},\x{201d} said Al. \x{201c}Is the gas pump open?\x{201d}
-\x{201c}Yeah, <<till eight|9:0>>.\x{201d}
+\x{201c}Yeah, till <<eight|9f>>.\x{201d}
 \x{201c}Git in,\x{201d} Al cried. \x{201c}If we\x{2019}re gonna get to Weedpatch \x{2019}fore mornin\x{2019} we gotta ram on. Gettin\x{2019} in front, Ma?\x{201d}",
           ],
           [
@@ -131,7 +131,7 @@ $VAR1 = [
           [
             1,
             '[12:00] The Grapes of Wrath - John Steinbeck.epub (OEBPS/html/chapter28.html) - noon',
-            "The people moved quickly out into the cotton field and took their rows. They tied the bags to their waists and they slapped their hands together to warm stiff fingers that had to be nimble. The dawn colored over the eastern hills, and the wide line moved over the rows. And from the highway the cars still moved in and parked in the barnyard until it was full, and they parked along the road on both sides. The wind blew briskly across the field. \x{201c}I don\x{2019}t know how you all found out,\x{201d} the owner said. \x{201c}There must be a hell of a grapevine. The twenty won\x{2019}t last till <<noon|13>>. What name? Hume? How many?\x{201d}",
+            "The people moved quickly out into the cotton field and took their rows. They tied the bags to their waists and they slapped their hands together to warm stiff fingers that had to be nimble. The dawn colored over the eastern hills, and the wide line moved over the rows. And from the highway the cars still moved in and parked in the barnyard until it was full, and they parked along the road on both sides. The wind blew briskly across the field. \x{201c}I don\x{2019}t know how you all found out,\x{201d} the owner said. \x{201c}There must be a hell of a grapevine. The twenty won\x{2019}t last till <<noon|9f>>. What name? Hume? How many?\x{201d}",
           ],
           [
             1,

@@ -7161,7 +7161,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [23:20]: twenty past eleven',
-            'Harvey looked at the clock, which marked <<twenty past eleven|10>>. "Then I\'ll sleep here till <<three|9c:1>> and catch the <<four o\'clock|6>> freight. They let us men from the Fleet ride free as a rule."'
+            'Harvey looked at the clock, which marked <<twenty past eleven|10>>. "Then I\'ll sleep here till <<three|9f>> and catch the <<four o\'clock|6>> freight. They let us men from the Fleet ride free as a rule."'
           ],
           [
             1,

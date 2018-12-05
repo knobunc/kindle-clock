@@ -69,6 +69,8 @@ my $before_re = qr{ before | to | of | till | $sq til | short \s+ of }xin;
 my $after_re  = qr{ after | past }xin;
 my $till_re   = qr{ $before_re | $after_re }xin;
 
+my $twas_re = qr{ it \s+ ( is | was ) | $sq? ( twas | tis | till ) | it $sq s }xin;
+
 # The minutes
 my $min_word_re =
     qr{ # 1-9
@@ -321,7 +323,7 @@ sub do_match {
                     | train
                     ) s?
                   | $midnight_noon_re
-                  | ( it \s+ ( is | was ) | twas | it $sq s |  $sq? tis | what ) \s+ time
+                  | ( $twas_re | at | what ) \s+ time
                   | ( there | here ) \s+ from
                   | ( return | returned | back ) \s* $rel_at_words
                   | reported | reports
@@ -675,10 +677,7 @@ sub get_matches {
                         if ($is_racing or $pre =~ m{ \s of \s+ \z}xin) {
                             $branch = "y10";
                         }
-                        elsif ($pre =~ m{ (\A | \s )
-                                          ( at | it \s+ ( is | was ) | twas | it $sq s | till )
-                                          \s+ \z
-                                        }xin)
+                        elsif ($pre =~ m{ (\A | \s ) ( $twas_re | at ) \s+ \z }xin)
                         {
                             $branch = "10";
                         }
@@ -725,7 +724,7 @@ sub get_matches {
               }xin;
 
     # Ones with a phrase after to fix it better as a time
-    push @r,qr{ \b (?<pr> ( at | it \s+ ( is | was ) | twas | it $sq s | till ) \s+ )
+    push @r,qr{ \b (?<pr> ( $twas_re | at )\s+ )
                    (?<t1> ( ( $rel_words ( \s+ at )? | ( close \s+ )? upon ) \s+ )?
                      $hour_word_re
                    )
@@ -820,7 +819,8 @@ sub get_matches {
     push @r,qr{ $bb_re
                 (?<pr>
                   ( waited | arrive s? | called | expired
-                  | it \s+ ( is | was ) | twas | it $sq s | begin | end | it
+                  | $twas_re
+                  | begin | end | it
                   | ( come | turn ) \s+ on
 #                  | still
                   ) \s+
