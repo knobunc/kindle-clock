@@ -2153,12 +2153,12 @@ sub get_csv_tests {
           [
             1,
             'Timestr [07:09]: seven-nine',
-            'In the living room the voice-clock sang, Tick-tock, <<seven o\'clock|6>>, time to get up, time to get up, seven o \'clock! as if it were afraid that nobody would. The morning house lay empty. The clock ticked on, repeating and repeating its sounds into the emptiness. <<Seven-nine|9j>>, breakfast time, <<seven-nine|5l:1>>!'
+            'In the living room the voice-clock sang, Tick-tock, <<seven o\'clock|6>>, time to get up, time to get up, seven o \'clock! as if it were afraid that nobody would. The morning house lay empty. The clock ticked on, repeating and repeating its sounds into the emptiness. <<Seven-nine|9j>>, breakfast time, <<seven-nine|9j>>!'
           ],
           [
             1,
             'Timestr [07:09]: seven-nine',
-            '<<Seven-nine|9j>>, breakfast time, <<seven-nine|5l:0>>!'
+            '<<Seven-nine|9j>>, breakfast time, <<seven-nine|9j>>!'
           ],
           [
             1,
@@ -2443,7 +2443,7 @@ sub get_csv_tests {
           [
             1,
             'Timestr [08:01]: eight-one',
-            '<<Eight-one|9j>>, tick-tock, <<eight-one o\'clock|6>>, off to school, off to work, run, run, <<eight-one|5l:1>>!'
+            '<<Eight-one|9j>>, tick-tock, <<eight-one o\'clock|6>>, off to school, off to work, run, run, <<eight-one|9j>>!'
           ],
           [
             1,

@@ -959,23 +959,25 @@ sub get_matches {
     # The only time in a sentence
     # See also 9l, 9p, and 9k
     push @r,qr{ (?<pr>
-                  ( \A | ['"‘’“”] | [.…;:?!] \s+ | \s+ [-—]+ \s+ )
+                  ( \A | ['"‘’“”] | [.…;:?!,] \s+ | \s+ [-—]+ \s+ )
                   ( ( only | just | it['‘’]s | it \s+ is | the ) \s+ )?
                 )
                 (?<t1>
                   ( $rel_words \s+ )?
-                  $hour24_word_re ( \s+ | [-] ) $min_word_re ( ,? \s* $ampm_re )?
+                  $hour_word_re ( \s+ | [-] ) $min_word_re ( ,? \s* $ampm_re )?
                 )
                 (?<po>
                   ( [-] $minsec_dig_re )?
                   ( \s+ ( now | precisely | exactly ) )?
                   ( \z | [.…;:?!,]? ['"‘’“”] | [.…;:?!,] ( \s+ | \z ) | \s+ [-—]+ \s+) )
-                (?{ $branch = "9j"; })
+                (?{ $branch = "9j";
+                    # This needs more indication that it is timey
+                  })
               }xin;
     # Handle the 6.15 differently so the - doesn't require spaces around it
     # And so that the leading puctuation can be adjacent
     push @r,qr{ (?<pr>
-                  ( \A | ['"‘’“”] | [.…;:?!] \s* | \s* [-—]+ \s* )
+                  ( \A | ['"‘’“”] | [.…;:?!,] \s* | \s* [-—]+ \s* )
                   ( ( only | just | it['‘’]s | it \s+ is | the ) \s+ )?
                 )
                 (?<t1>
@@ -992,24 +994,26 @@ sub get_matches {
     # The only time, but as digits with no separators... only if it says "looks like a year"
     # or something like that elsewhere in the phrase
     push @r,qr{ (?<pr>
-                  ( \A | ['"‘’“”] | [.…;:?!] \s+ | \s+ [-—]+ \s+ )
+                  ( \A | ['"‘’“”] | [.…;:?!,] \s+ | \s+ [-—]+ \s+ )
                   ( ( only | just | it['‘’]s | it \s+ is | the ) \s+ )?
                 )
                 (?<t1>
                   ( $rel_words \s+ )?
-                  $hour_dig_re $minsec0_dig_re ( $minsec0_dig_re )?
+                  (?<hr> $hour_dig_re ) $minsec0_dig_re ( $minsec0_dig_re )?
                 )
                 (?<po>
                   ( [-] $minsec_dig_re )?
                   ( \s+ ( now | precisely | exactly ) )?
                   ( \z | [.…;:?!,]? ['"‘’“”] | [.…;:?!,] ( \s+ | \z ) | \s+ [-—]+ \s+) )
                 (?{ $branch = "x9l";
-                    my ($pre, $post) = (${^PREMATCH}, ${^POSTMATCH});
+                    my ($pre, $post, $hr) = (${^PREMATCH}, ${^POSTMATCH}, $+{hr});
                     if ("$pre <<>> $post" =~
                             m{ ( look | seem) ( | s | ed ) \s+
                                like \s+ a \s+ (year | date)
                              | ( have | had ) \s+ the \s+ ( date | year )
-                             }xin)
+                             }xin or
+                        $hr =~ /\A 0\d /x
+                       )
                     {
                         $branch = "9l";
                     }
