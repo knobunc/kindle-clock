@@ -13,6 +13,14 @@ use Data::Dumper;
 use Lingua::EN::Words2Nums;
 
 
+# Punctuation
+my $phrase_punc    = qr{ [.…;:?!,]    }xin; # Phrase delimiter
+my $phrase_punc_nc = qr{ [.…;:?!]     }xin; # Same, but with no comma
+my $sq             = qr{ ['‘’´]       }xin; # Single quote
+my $aq             = qr{ ['"‘’“”]     }xin; # All quotes
+my $hyph           = qr{ [-—]         }xin; # Hyphens
+my $ellips         = qr{ … | [.]{3,6} }xin; # Ellipsis
+
 # Special named times
 my $noon_re     = qr{ ( high \s+ )? noon (-? (day | time | tide) )? | mid[-\s]*day }xin;
 my $midnight_re = qr{ midnight (?! \s+ oil ) }xin;
@@ -57,7 +65,7 @@ my $fraction_re = qr{ quarter | 1/4
                     | third \s+ quarter | three \s+ quarters | 3/4
                     }xin;
 
-my $before_re = qr{ before | to | of | till | ['‘’]til | short \s+ of }xin;
+my $before_re = qr{ before | to | of | till | $sq til | short \s+ of }xin;
 my $after_re  = qr{ after | past }xin;
 my $till_re   = qr{ $before_re | $after_re }xin;
 
@@ -100,7 +108,7 @@ my $hour_h_re = qr{ $hour_h_dig_re | $hour_h_word_re }xin; # The high hours 13-2
 my $in_the_re = qr{ ( ( in \s+ the \s+ ( (?! same) \w+ \s+ ){0,4}?
                       | ( this | that ) \s+ ( \w+ \s+ ){0,2}?
                       )
-                      ( morning | mornin['‘’]? | morn | afternoon | evening | eve | day | night)
+                      ( morning | mornin $sq? | morn | afternoon | evening | eve | day | night)
                     | at \s+ ( dawn | dusk | night | sunset | sunrise )
                     )
                   }xin;
@@ -108,7 +116,7 @@ my $ampm_only_re = qr{ [ap]m \b | [ap][.] \s* m[.]? | pee \s+ em | $in_the_re }x
 my $ampm_re = qr{ $ampm_only_re | $in_the_re }xin;
 
 # Oclocks
-my $oclock_re = qr{ o( ['‘’´] \s* | f \s+ the \s+ )?clock s? }xin;
+my $oclock_re = qr{ o( $sq \s* | f \s+ the \s+ )?clock s? }xin;
 
 # Boundary before and after
 my $bb_re = qr{ (?<= [\[—\s"'(‘’“”] ) | \A }xin;
@@ -134,7 +142,7 @@ my $short_before_re = qr{   $short_re \s+    before
                         |   lacks \s+ of
                         |   almost ( \s ( gone | at ) )?
                         |   just \s+ about
-                        |   can['‘’]t \s+ be \s+ $far_before_re
+                        |   can $sq t \s+ be \s+ $far_before_re
                         }xin;
 my $around_re       = qr{ about
                         | approximately
@@ -143,7 +151,7 @@ my $around_re       = qr{ about
 my $on_or_after_re  = qr{ ( $short_re \s+ )? gone }xin;
 my $far_after_re    = qr{   $far_re   \s+    after      }xin;
 my $short_after_re  = qr{ ( $short_re \s+ )? ( after | past )
-                        | can['‘’]t \s+ be \s+ $far_after_re
+                        | can $sq t \s+ be \s+ $far_after_re
                         }xin;
 
 my $rel_words       = qr{ $far_before_re | $short_before_re
@@ -249,7 +257,7 @@ my $special_day_re = qr{ Christmas | Easter | New \s+ Year s? }xin;
 my $time_periods_re = qr{ ( year | month | week | day | hour | half | minute ) s? }xin;
 
 # Things that never follow times
-my $never_follow_times_re =
+my $never_follow_times_exp_re =
     qr{ ( ( or \s+ $min_re
           | to \s+ the
           ) \s+
@@ -284,6 +292,7 @@ my $never_follow_times_re =
         s?
       | [.,] \d
       }xin;
+my $never_follow_times_re = qr{ [-\s]* $never_follow_times_exp_re $ba_re }xin;
 
 # Set the variables used in the regexes
 my $branch    = "x";
@@ -312,7 +321,7 @@ sub do_match {
                     | train
                     ) s?
                   | $midnight_noon_re
-                  | ( it \s+ ( is | was ) | twas | it['‘’]s | ['‘’]?tis | what ) \s+ time
+                  | ( it \s+ ( is | was ) | twas | it $sq s |  $sq? tis | what ) \s+ time
                   | ( there | here ) \s+ from
                   | ( return | returned | back ) \s* $rel_at_words
                   | reported | reports
@@ -420,7 +429,7 @@ sub get_masks {
               }xin;
 
     # one's, the only one
-    push @r,qr{ (?<t1> \b one ['‘’] s \b | \b the \s+ only \s+ one \b )
+    push @r,qr{ (?<t1> \b one $sq s \b | \b the \s+ only \s+ one \b )
                 (?{ $branch = "x3"; })
               }xin;
 
@@ -617,7 +626,7 @@ sub get_matches {
     # Times to/from hour
     # ten minutes past noon
     # three minutes till eight
-    my $nf_re = qr{(?! [-\s]* $never_follow_times_re
+    my $nf_re = qr{(?! $never_follow_times_re
                      | :\d
                      | [-]
                      )
@@ -643,7 +652,7 @@ sub get_matches {
                     it \s+ (would | will) \s+ be \s+ (a \s+)?
                     $fraction_re ( \s+ | [-] )
                   )
-                  $till_re [-—\s]+
+                  $till_re ( $hyph | \s )+
                   ( the \s+ hour [,;]? \s+ which \s+ was \s+ )?
                   $hour24_re
                   ( \s+ $oclock_re ( ,? \s* $ampm_re )?
@@ -667,7 +676,7 @@ sub get_matches {
                             $branch = "y10";
                         }
                         elsif ($pre =~ m{ (\A | \s )
-                                          ( at | it \s+ ( is | was ) | twas | it['‘’]s | till )
+                                          ( at | it \s+ ( is | was ) | twas | it $sq s | till )
                                           \s+ \z
                                         }xin)
                         {
@@ -689,7 +698,7 @@ sub get_matches {
                    )
                    (?<t1> ( $rel_words \s+ )?
                      $hour24_re ( [-.:\s]* $min0_re )?
-                     (?! [-\s]* $never_follow_times_re $ba_re )
+                     (?! $never_follow_times_re )
                      ( ,? \s* $ampm_re )?
                    )
                    $ba_re
@@ -716,7 +725,7 @@ sub get_matches {
               }xin;
 
     # Ones with a phrase after to fix it better as a time
-    push @r,qr{ \b (?<pr> ( at | it \s+ ( is | was ) | twas | it['‘’]s | till ) \s+ )
+    push @r,qr{ \b (?<pr> ( at | it \s+ ( is | was ) | twas | it $sq s | till ) \s+ )
                    (?<t1> ( ( $rel_words ( \s+ at )? | ( close \s+ )? upon ) \s+ )?
                      $hour_word_re
                    )
@@ -767,7 +776,7 @@ sub get_matches {
                 (?<t1> ( $hour12_dig_re [.]? | $hour24_dig_re [.] )
                        $minsec0_dig_re
                 )
-                (?! [-.] | [-\s]* $never_follow_times_re $ba_re )
+                (?! [-.] | $never_follow_times_re )
                 $ba_re
                 (?{ $branch = "3c"; })
               }xin;
@@ -785,7 +794,7 @@ sub get_matches {
                   ( \s+ $sec_re    \s+ ( seconds | sec | s)           s?
                    | ( \s+ a )? \s+ $fraction_re
                   )?
-                  (?! [-\s]* $never_follow_times_re $ba_re )
+                  (?! $never_follow_times_re )
                 )
                 $ba_re
                 (?{ $branch = "14"; })
@@ -811,7 +820,7 @@ sub get_matches {
     push @r,qr{ $bb_re
                 (?<pr>
                   ( waited | arrive s? | called | expired
-                  | it \s+ ( is | was ) | twas | it['‘’]s | begin | end | it
+                  | it \s+ ( is | was ) | twas | it $sq s | begin | end | it
                   | ( come | turn ) \s+ on
 #                  | still
                   ) \s+
@@ -822,8 +831,8 @@ sub get_matches {
                   $hour12_re ( ( [-:.] | \s+ )? $min0_re )?
                 )
                 (?<po>
-                  ( \z | [.…;:?!,]? ['"‘’“”] | [.…;:?!,] ( \s+ | \z ) | \s+ [-—]+ \s+)
-                | \s+ ( and | [-—] ) \s+
+                  ( \z | $phrase_punc? $aq | $phrase_punc ( \s+ | \z ) | \s+ $hyph+ \s+)
+                | \s+ ( and | $hyph+ ) \s+
                 )
                 (?{ $branch = "9f"; })
               }xin;
@@ -924,7 +933,7 @@ sub get_matches {
     # at 1237 when
     # by 8.45 on saturday
     push @r,qr{ (?<li> $not_in_match )
-                (?<pr> ( at | it \s+ ( is | was ) | twas | it['‘’]s | by | by \s+ the ) \s+ )
+                (?<pr> ( at | it \s+ ( is | was ) | twas | it $sq s | by | by \s+ the ) \s+ )
                 (?<t1> $hour_re [?]? [-.\s]? $min_re )
                 (?<po>
                  \s+ ( ( ( on | in ) \s+ )? $weekday_re
@@ -959,8 +968,8 @@ sub get_matches {
     # The only time in a sentence
     # See also 9l, 9p, and 9k
     push @r,qr{ (?<pr>
-                  ( \A | ['"‘’“”] | [.…;:?!,] \s+ | \s+ [-—]+ \s+ )
-                  ( ( only | just | it['‘’]s | it \s+ is | the ) \s+ )?
+                  ( \A | $aq | $phrase_punc \s+ | \s+ $hyph+ \s+ )
+                  ( ( only | just | it $sq s | it \s+ is | the ) \s+ )?
                 )
                 (?<t1>
                   ( $rel_words \s+ )?
@@ -969,7 +978,7 @@ sub get_matches {
                 (?<po>
                   ( [-] $minsec_dig_re )?
                   ( \s+ ( now | precisely | exactly ) )?
-                  ( \z | [.…;:?!,]? ['"‘’“”] | [.…;:?!,] ( \s+ | \z ) | \s+ [-—]+ \s+) )
+                  ( \z | $phrase_punc? $aq | $phrase_punc ( \s+ | \z ) | \s+ $hyph+ \s+) )
                 (?{ $branch = "9j";
                     # This needs more indication that it is timey
                   })
@@ -977,8 +986,8 @@ sub get_matches {
     # Handle the 6.15 differently so the - doesn't require spaces around it
     # And so that the leading puctuation can be adjacent
     push @r,qr{ (?<pr>
-                  ( \A | ['"‘’“”] | [.…;:?!,] \s* | \s* [-—]+ \s* )
-                  ( ( only | just | it['‘’]s | it \s+ is | the ) \s+ )?
+                  ( \A | $aq | $phrase_punc \s* | \s* $hyph+ \s* )
+                  ( ( only | just | it $sq s | it \s+ is | the ) \s+ )?
                 )
                 (?<t1>
                   ( $rel_words \s+ )?
@@ -988,14 +997,14 @@ sub get_matches {
                 (?<po>
                   ( [-] $minsec_dig_re )?
                   ( \s+ ( now | precisely | exactly ) )?
-                  ( \z | [.…;:?!,]? ['"‘’“”] | [.…;:?!,] ( \s+ | \z ) | \s* [-—]+ \s*) )
+                  ( \z | $phrase_punc? $aq | $phrase_punc ( \s+ | \z ) | \s* $hyph+ \s*) )
                 (?{ $branch = "9p"; })
               }xin;
     # The only time, but as digits with no separators... only if it says "looks like a year"
     # or something like that elsewhere in the phrase
     push @r,qr{ (?<pr>
-                  ( \A | ['"‘’“”] | [.…;:?!,] \s+ | \s+ [-—]+ \s+ )
-                  ( ( only | just | it['‘’]s | it \s+ is | the ) \s+ )?
+                  ( \A | $aq | $phrase_punc \s+ | \s+ $hyph+ \s+ )
+                  ( ( only | just | it $sq s | it \s+ is | the ) \s+ )?
                 )
                 (?<t1>
                   ( $rel_words \s+ )?
@@ -1004,7 +1013,7 @@ sub get_matches {
                 (?<po>
                   ( [-] $minsec_dig_re )?
                   ( \s+ ( now | precisely | exactly ) )?
-                  ( \z | [.…;:?!,]? ['"‘’“”] | [.…;:?!,] ( \s+ | \z ) | \s+ [-—]+ \s+) )
+                  ( \z | $phrase_punc? $aq | $phrase_punc ( \s+ | \z ) | \s+ $hyph+ \s+) )
                 (?{ $branch = "x9l";
                     my ($pre, $post, $hr) = (${^PREMATCH}, ${^POSTMATCH}, $+{hr});
                     if ("$pre <<>> $post" =~
@@ -1023,36 +1032,36 @@ sub get_matches {
     # Times at the start of a sentence
     # At ten, ...
     push @r,qr{ (?<pr>
-                  ( \A | ['"‘’“”] | [.…;:?!,] \s+ )
-                  ( ( it \s+ ( is | was ) | twas | it['‘’]s | which \s+ was | and ) \s+ )?
+                  ( \A | $aq | $phrase_punc \s+ )
+                  ( ( it \s+ ( is | was ) | twas | it $sq s | which \s+ was | and ) \s+ )?
                 )
                 (?<t1>
                   ( $rel_at_words | ( close \s+ )? upon | till | by ) \s+
                   $hour_re ( [.\s]+ $min0_re )?
-                  (?= \s+ ( last | yesterday | $weekday_re ) | \s* [-—,] \s+ )
+                  (?= \s+ ( last | yesterday | $weekday_re ) |  \s* $hyph+ \s+ | , \s+ )
                 )
                 $ba_re
                 (?{ $branch = "9e"; })
               }xin;
     push @r,qr{ (?<pr>
-                  ( \A | ['"‘’“”] | [.…;:?!,] \s+ )
-                  ( it \s+ ( is | was ) | twas | it['‘’]s ) \s+
+                  ( \A | $aq | $phrase_punc \s+ )
+                  ( it \s+ ( is | was ) | twas | it $sq s ) \s+
                 )
                 (?<t1>
                   $hour_re ( [-:.] | \s+ )? $min0_re
                 | $low_num_re \s* (*SKIP)(*FAIL)
                 | $hour_re
                 )
-                ( [-\s]* $never_follow_times_re $ba_re (*SKIP)(*FAIL) )?
+                ( $never_follow_times_re (*SKIP)(*FAIL) )?
                 $ba_re
                 (?{ $branch = "9d"; })
               }xin;
     push @r,qr{ (?<pr>
-                  ( \A | ['"‘’“”] | [.…;:?!] \s+ ) # No comma
+                  ( \A | $aq | $phrase_punc_nc \s+ ) # No comma
                   ( at ) \s+
                 )
                 (?<t1> $hour_re ( ( [-:.] | \s+ )? $min0_re )? ( ,? \s* $ampm_re )? )
-                ( [-\s]* $never_follow_times_re $ba_re (*SKIP)(*FAIL) )?
+                ( $never_follow_times_re (*SKIP)(*FAIL) )?
                 $ba_re
                 (?{ $branch = "9m"; })
               }xin;
@@ -1062,14 +1071,14 @@ sub get_matches {
     push @r,qr{ (?<li> $not_in_match )
                 (?<pr>
                   ( at | ( it | time ) \s+ ( is | was | will \s+ be ) | by
-                  | ['‘’] ( twill \s+ be | twas )
+                  |  $sq ( twill \s+ be | twas )
                   ) \s+
                 )
                 (?<t1>
                   $hour_word_re ( [\s\.]+ | [-] ) $min_word_re
                   ( \s* ... \s* $low_num_re )? ( ,? \s* $ampm_re )?
                 )
-                ( [-\s]* $never_follow_times_re $ba_re (*SKIP)(*FAIL) )?
+                ( $never_follow_times_re (*SKIP)(*FAIL) )?
                 $ba_re
                 (?{ $branch = "5b"; })
               }xin;
@@ -1084,7 +1093,7 @@ sub get_matches {
                   ( ,? \s* $ampm_re )?
                   ( \s+ $oclock_re )?
                 )
-                ( [-\s]* $never_follow_times_re $ba_re (*SKIP)(*FAIL) )?
+                ( $never_follow_times_re (*SKIP)(*FAIL) )?
                 $ba_re
                 (?{ $branch = "5i"; })
               }xin;
@@ -1174,7 +1183,7 @@ sub get_matches {
                   )?
                   $midnight_noon_re
                 )
-                ( [-\s]* $never_follow_times_re $ba_re (*SKIP)(*FAIL) )?
+                ( $never_follow_times_re (*SKIP)(*FAIL) )?
                 $ba_re
                 (?{ $branch = "13"; })
               }xin;
@@ -1193,21 +1202,21 @@ sub get_matches {
                   ( near \s+ ( on \s+ )? )?
                   $hour_re ( ( [-:.] | \s+ )? $min0_re )?
                 )
-                (?! [''‘’]s )
-                ( [-\s]* $never_follow_times_re $ba_re (*SKIP)(*FAIL) )?
+                (?! $sq s )
+                ( $never_follow_times_re (*SKIP)(*FAIL) )?
                 (?<po>
                   ( \s+ or \s+ so )?
-                  ( [""''‘’“”]
-                   | [.…;:?!,] ( [""''‘’“”\s] | \z )
-                   | \s+ ( and | till | before | [-—] ) \s+
+                  ( $aq
+                   | $phrase_punc ( $aq | \s | \z )
+                   | \s+ ( and | till | before | $hyph+ ) \s+
                   )
                 )
                 (?{ $branch = "9o"; })
               }xin;
 
     push @r,qr{ (?<pr>
-                  ( \A | ['"‘’“”] | [.…;:?!,] \s+ )
-                  ( ( only | it \s+ ( is | was ) | twas | it['‘’]s | because ) \s+)?
+                  ( \A | $aq | $phrase_punc \s+ )
+                  ( ( only | it \s+ ( is | was ) | twas | it $sq s | because ) \s+)?
                 )
                 (?<t1>
                   ( $rel_at_words | ( close \s+ )? upon | till | by ) \s+
@@ -1216,7 +1225,7 @@ sub get_matches {
                   | $hour_re
                   )
                 )
-                ( [-\s]* $never_follow_times_re $ba_re (*SKIP)(*FAIL) )?
+                ( $never_follow_times_re (*SKIP)(*FAIL) )?
                 $ba_re
                 (?{ $branch = "9:TIMEY";
                     my $xx = $+{xx};
@@ -1235,7 +1244,7 @@ sub get_matches {
                 (?<pr>
                   ( $at_words | upon | till | from
                    | ( it | time ) \s+ ( is | was | will \s+ be )
-                   | ['‘’] ( twill \s+ be | twas )
+                   |  $sq ( twill \s+ be | twas )
                   ) \s+
                   ( only \s+ )?
                 )
@@ -1244,13 +1253,13 @@ sub get_matches {
                   ( near \s+ ( on \s+ )? )?
                   $hour_re ( ( [-:.] | \s+ )? $min0_re )?
                 )
-                (?! [''‘’]s )
-                ( [-\s]* $never_follow_times_re $ba_re (*SKIP)(*FAIL) )?
+                (?! $sq s )
+                ( $never_follow_times_re (*SKIP)(*FAIL) )?
                 (?<po>
                   ( \s+ or \s+ so )?
-                  ( [""''‘’“”]
-                   | [.…;:?!,] ( [""''‘’“”\s] | \z )
-                   | \s+ ( and | till | before | [-—] ) \s+
+                  ( $aq
+                  | $phrase_punc ( $aq | \s | \z )
+                  | \s+ ( and | till | before | $hyph+ ) \s+
                   )
                 )
                 (?{ $branch = "9c:TIMEY"; })
@@ -1258,8 +1267,8 @@ sub get_matches {
 
     # The only time, but as a single hour (these are less reliable)
     push @r,qr{ (?<pr>
-                  ( \A | ['"‘’“”] | [.…;:?!] \s+ | \s+ [-—]+ \s+ ) # No comma
-                  ( ( only | just | it['‘’]s | it \s+ is | the ) \s+ )?
+                  ( \A | $aq | $phrase_punc_nc \s+ | \s+ $hyph+ \s+ ) # No comma
+                  ( ( only | just | it $sq s | it \s+ is | the ) \s+ )?
                 )
                 (?<t1>
                   ( $rel_words \s+ )?
@@ -1268,7 +1277,7 @@ sub get_matches {
                 (?<po>
                   ( [-] $minsec_dig_re )?
                   ( \s+ ( now | precisely | exactly ) )?
-                  ( \z | [.…;:?!,]? ['"‘’“”] | [.…;:?!,] ( \s+ | \z ) | \s+ [-—]+ \s+)
+                  ( \z | $phrase_punc? $aq | $phrase_punc ( \s+ | \z ) | \s+ $hyph+ \s+)
                 )
                     (?{ $branch = "9k:0";
                         if ( ( $+{po} || '' ) =~ /now/i ) {
@@ -1292,7 +1301,7 @@ sub get_matches {
     push @r,qr{ (?<li> $not_in_match )
                 (?<pr>
                   ( at ( \s+ last )?
-                  | it \s+ ( is | was ) | twas | it['‘’]s | by
+                  | it \s+ ( is | was ) | twas | it $sq s | by
                   ) \s+
                 )
                 (?<t1>
@@ -1300,7 +1309,7 @@ sub get_matches {
                   ( $hour12_dig_re [.]? | $hour24_dig_re [.] )
                     $minsec0_dig_re
                 )
-                (?! [-\s]* $never_follow_times_re $ba_re )
+                (?! $never_follow_times_re )
                 $ba_re
                 (?{ $branch = "3:TIMEY"; })
               }xin;
@@ -1311,7 +1320,7 @@ sub get_matches {
     push @r,qr{ (?<li> $not_in_match )
                 (?<pr>
                   ( at ( \s+ last )?
-                  | it \s+ ( is | was ) | twas | it['‘’]s | by
+                  | it \s+ ( is | was ) | twas | it $sq s | by
                   ) \s+
                 )
                 (?<t1>
@@ -1327,13 +1336,13 @@ sub get_matches {
     push @r,qr{ (?<li> $not_in_match )
                 (?<t1>
                   ( $rel_words \s+ )?
-                  ( $hour24_word_re (   \s+  | \s* ( \Q...\E | … ) \s* )
-                  | $hour_word_re   ( [-\s]+ | \s* ( \Q...\E | … ) \s* )
+                  ( $hour24_word_re (   \s+  | \s* $ellips \s* )
+                  | $hour_word_re   ( [-\s]+ | \s* $ellips \s* )
                   )
                   (?<mn> $min_word_re )
                   ( ,? \s* $ampm_re )? )
-                (?! [-\s]* $never_follow_times_re $ba_re
-                |  [-—]
+                (?! $never_follow_times_re
+                |  $hyph+
                 )
                 $ba_re
                 (?{ $branch = "5k:TIMEY";
@@ -1350,8 +1359,8 @@ sub get_matches {
                   ( $rel_words \s+ )?
                   ( $hour24nz_dig_re | 00 ) [-.] $minsec0_dig_re
                   ( ,? \s* $ampm_re )? )
-                (?! [-\s]* $never_follow_times_re $ba_re
-                |  [-—]
+                (?! $never_follow_times_re
+                |  $hyph+
                 )
                 $ba_re
                 (?{ $branch = "5a:TIMEY"; })
@@ -1370,7 +1379,7 @@ sub get_matches {
 
     # Hours by, at start of phrase
     # ; eleven by big ben ...
-    push @r,qr{ (?<pr> ( \A | ['"‘’“”] | [.…;:?!,] \s+ ) )
+    push @r,qr{ (?<pr> ( \A | $aq | $phrase_punc \s+ ) )
                 (?<t1> $hour24_re ( [.\s]+ $min0_re )? )
                 (?<po>
                   \s+ ( by ) \s+
@@ -1408,8 +1417,8 @@ sub get_matches {
                   |   $rel_at_words \s+    $hour0_dig_re $minsec0_dig_re
                   )
                   ( ,? \s* $ampm_re )? )
-                (?! [-\s]* $never_follow_times_re $ba_re
-                |  [-—]
+                (?! $never_follow_times_re
+                |  $hyph+
                 )
                 $ba_re
                 (?{ $branch = "18:TIMEY"; })
@@ -1449,8 +1458,8 @@ sub extract_times {
               ( # one ... thirty ... four
                 ( (?<rl> $rel_at_words ) \s+ )?
                                          (?<hr> $hour24_word_re )
-                  \s+ ( \Q...\E | … )\s* (?<mn> $min_word_re )
-                ( \s* ( \Q...\E | … )\s* (?<m3> $low_num_re ) )?
+                  \s+ $ellips \s* (?<mn> $min_word_re )
+                ( \s* $ellips \s* (?<m3> $low_num_re ) )?
                 ( \s+ $oclock_re )?
                 ( ,? \s+ (?<am> $ampm_re ) )?
                 (?{ $branch = "9"; })
@@ -1464,8 +1473,8 @@ sub extract_times {
                 | (?<rl> close \s+ upon ) \s+
                 )?
                 (             (?<hr>  $hour24_re | $all_named_times ) \s*
-                  ( [-\s.:…]+ (?<mn>  $min_re ( (?<rl> - ) $min_re )? ) \s* )?
-                  ( [-\s.:…]+ (?<sec> $sec_re ( (?<rl> - ) $min_re )? ) \s* )?
+                  ( ( [-\s.:] | $ellips )+ (?<mn>  $min_re ( (?<rl> - ) $min_re )? ) \s* )?
+                  ( ( [-\s.:] | $ellips )+ (?<sec> $sec_re ( (?<rl> - ) $min_re )? ) \s* )?
                 |   (?<hr>  $hour24_dig_re  )
                   ( (?<mn>  $minsec0_dig_re ) )?
                   ( (?<sec> $minsec0_dig_re ) )?
@@ -1731,7 +1740,7 @@ sub extract_times {
 
                 if ($ampm =~ m{\A $in_the_re \z}xin) {
                     # Work out the time
-                    if ($ampm =~ m{ morning | mornin['‘’]? | morn | dawn | sunrise }xi) {
+                    if ($ampm =~ m{ morning | mornin $sq? | morn | dawn | sunrise }xi) {
                         $pm = 0;
                     } elsif ($ampm =~ m{ afternoon | evening | eve | dusk | sunset }xi) {
                         $pm = 1;
