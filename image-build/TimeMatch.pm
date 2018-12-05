@@ -69,7 +69,7 @@ my $before_re = qr{ before | to | of | till | $sq til | short \s+ of }xin;
 my $after_re  = qr{ after | past }xin;
 my $till_re   = qr{ $before_re | $after_re }xin;
 
-my $twas_re = qr{ it \s+ ( is | was ) | $sq? ( twas | tis | till ) | it $sq s }xin;
+my $twas_re = qr{ it \s+ ( is | was | will \s+ be ) | $sq? ( twas | tis | till ) | it $sq s }xin;
 
 # The minutes
 my $min_word_re =
@@ -162,8 +162,8 @@ my $rel_words       = qr{ $far_before_re | $short_before_re
                         | $far_after_re  | $short_after_re
                         }xin;
 
-my $at_words        = qr{ until | at (\s+ last)? | before }xin;
-my $rel_at_words    = qr{ $at_words | $rel_words }xin;
+my $at_words        = qr{ until | at (\s+ last)? }xin;
+my $rel_at_words    = qr{ $at_words | $rel_words | before }xin;
 
 # Weekdays
 my $weekday_re = qr{ monday | tuesday | wendesday | thursday | friday | saturday | sunday }xin;
@@ -278,7 +278,8 @@ my $never_follow_times_exp_re =
         | ( \w+ \s+)? $time_periods_re
         | century | centuries | decade | millenium | millenia
         | third | half | halve | quarter
-        | dollar | cent | pound | shilling | guinea | penny | pennies | yuan | galleon | crown
+        | dollar | buck | cent | pound | quid
+        | shilling | guinea | penny | pennies | yuan | galleon | crown
         | and \s+ sixpence
         | kid | children | man | men | woman | women | girl | boy
         | family | families | person | people
@@ -813,30 +814,6 @@ sub get_matches {
                 (?{ $branch = "6"; })
               }xin;
 
-    # Times at the end of a phrase
-    # These are guaranteed times:
-    #   waited until eight, ...
-    push @r,qr{ $bb_re
-                (?<pr>
-                  ( waited | arrive s? | called | expired
-                  | $twas_re
-                  | begin | end | it
-                  | ( come | turn ) \s+ on
-#                  | still
-                  ) \s+
-                  ( ( exactly | precisely | only ) \s+ )?
-                  ( ( at | upon | till | until ) \s+ )?
-                )
-                (?<t1> ( $rel_words \s+ )?
-                  $hour12_re ( ( [-:.] | \s+ )? $min0_re )?
-                )
-                (?<po>
-                  ( \z | $phrase_punc? $aq | $phrase_punc ( \s+ | \z ) | \s+ $hyph+ \s+)
-                | \s+ ( and | $hyph+ ) \s+
-                )
-                (?{ $branch = "9f"; })
-              }xin;
-
     # Simple times
     # 2300h, 23.00h, 2300 hrs
     my $lnr = qr{ $low_num_re | zero | oh }xin;
@@ -1000,71 +977,6 @@ sub get_matches {
                   ( \z | $phrase_punc? $aq | $phrase_punc ( \s+ | \z ) | \s* $hyph+ \s*) )
                 (?{ $branch = "9p"; })
               }xin;
-    # The only time, but as digits with no separators... only if it says "looks like a year"
-    # or something like that elsewhere in the phrase
-    push @r,qr{ (?<pr>
-                  ( \A | $aq | $phrase_punc \s+ | \s+ $hyph+ \s+ )
-                  ( ( only | just | it $sq s | it \s+ is | the ) \s+ )?
-                )
-                (?<t1>
-                  ( $rel_words \s+ )?
-                  (?<hr> $hour_dig_re ) $minsec0_dig_re ( $minsec0_dig_re )?
-                )
-                (?<po>
-                  ( [-] $minsec_dig_re )?
-                  ( \s+ ( now | precisely | exactly ) )?
-                  ( \z | $phrase_punc? $aq | $phrase_punc ( \s+ | \z ) | \s+ $hyph+ \s+) )
-                (?{ $branch = "x9l";
-                    my ($pre, $post, $hr) = (${^PREMATCH}, ${^POSTMATCH}, $+{hr});
-                    if ("$pre <<>> $post" =~
-                            m{ ( look | seem) ( | s | ed ) \s+
-                               like \s+ a \s+ (year | date)
-                             | ( have | had ) \s+ the \s+ ( date | year )
-                             }xin or
-                        $hr =~ /\A 0\d /x
-                       )
-                    {
-                        $branch = "9l";
-                    }
-                  })
-              }xinp;
-
-    # Times at the start of a sentence
-    # At ten, ...
-    push @r,qr{ (?<pr>
-                  ( \A | $aq | $phrase_punc \s+ )
-                  ( ( it \s+ ( is | was ) | twas | it $sq s | which \s+ was | and ) \s+ )?
-                )
-                (?<t1>
-                  ( $rel_at_words | ( close \s+ )? upon | till | by ) \s+
-                  $hour_re ( [.\s]+ $min0_re )?
-                  (?= \s+ ( last | yesterday | $weekday_re ) |  \s* $hyph+ \s+ | , \s+ )
-                )
-                $ba_re
-                (?{ $branch = "9e"; })
-              }xin;
-    push @r,qr{ (?<pr>
-                  ( \A | $aq | $phrase_punc \s+ )
-                  ( it \s+ ( is | was ) | twas | it $sq s ) \s+
-                )
-                (?<t1>
-                  $hour_re ( [-:.] | \s+ )? $min0_re
-                | $low_num_re \s* (*SKIP)(*FAIL)
-                | $hour_re
-                )
-                ( $never_follow_times_re (*SKIP)(*FAIL) )?
-                $ba_re
-                (?{ $branch = "9d"; })
-              }xin;
-    push @r,qr{ (?<pr>
-                  ( \A | $aq | $phrase_punc_nc \s+ ) # No comma
-                  ( at ) \s+
-                )
-                (?<t1> $hour_re ( ( [-:.] | \s+ )? $min0_re )? ( ,? \s* $ampm_re )? )
-                ( $never_follow_times_re (*SKIP)(*FAIL) )?
-                $ba_re
-                (?{ $branch = "9m"; })
-              }xin;
 
     # Strong word times
     # at eleven fifty-seven
@@ -1188,6 +1100,30 @@ sub get_matches {
                 (?{ $branch = "13"; })
               }xin;
 
+    # Times at the end of a phrase
+    # These are guaranteed times:
+    #   waited until eight, ...
+    push @r,qr{ $bb_re
+                (?<pr>
+                  ( waited | arrive s? | called | expired
+                  | $twas_re
+                  | begin | end | it
+                  | ( come | turn ) \s+ on
+#                  | still
+                  ) \s+
+                  ( ( exactly | precisely | only ) \s+ )?
+                  ( ( at | upon | till | until ) \s+ )?
+                )
+                (?<t1> ( $rel_words \s+ )?
+                  $hour12_re ( ( [-:.] | \s+ )? $min0_re )?
+                )
+                (?<po>
+                  ( \z | $phrase_punc? $aq | $phrase_punc ( \s+ | \z ) | \s+ $hyph+ \s+)
+                | \s+ ( and | $hyph+ ) \s+
+                )
+                (?{ $branch = "9f"; })
+              }xin;
+
     # More at the end of a phrase
     # ... tomorrow at one.
     # ... to-morrow, at ten.
@@ -1212,6 +1148,73 @@ sub get_matches {
                   )
                 )
                 (?{ $branch = "9o"; })
+              }xin;
+
+    # The only time, but as digits with no separators... only if it says "looks like a year"
+    # or something like that elsewhere in the phrase
+    push @r,qr{ (?<pr>
+                  ( \A | $aq | $phrase_punc \s+ | \s+ $hyph+ \s+ )
+                  ( ( only | just | it $sq s | it \s+ is | the ) \s+ )?
+                )
+                (?<t1>
+                  ( $rel_words \s+ )?
+                  (?<hr> $hour_dig_re ) $minsec0_dig_re ( $minsec0_dig_re )?
+                )
+                (?<po>
+                  ( [-] $minsec_dig_re )?
+                  ( \s+ ( now | precisely | exactly ) )?
+                  ( \z | $phrase_punc? $aq | $phrase_punc ( \s+ | \z ) | \s+ $hyph+ \s+) )
+                (?{ $branch = "x9l";
+                    my ($pre, $post, $hr) = (${^PREMATCH}, ${^POSTMATCH}, $+{hr});
+                    if ("$pre <<>> $post" =~
+                            m{ ( look | seem) ( | s | ed ) \s+
+                               like \s+ a \s+ (year | date)
+                             | ( have | had ) \s+ the \s+ ( date | year )
+                             }xin or
+                        $hr =~ /\A 0\d /x
+                       )
+                    {
+                        $branch = "9l";
+                    }
+                  })
+              }xinp;
+
+
+    # Times at the start of a sentence
+    # At ten, ...
+    push @r,qr{ (?<pr>
+                  ( \A | $aq | $phrase_punc \s+ )
+                  ( ( it \s+ ( is | was ) | twas | it $sq s | which \s+ was | and ) \s+ )?
+                )
+                (?<t1>
+                  ( $rel_at_words | ( close \s+ )? upon | till | by ) \s+
+                  $hour_re ( [.\s]+ $min0_re )?
+                  (?= \s+ ( last | yesterday | $weekday_re ) |  \s* $hyph+ \s+ | , \s+ )
+                )
+                $ba_re
+                (?{ $branch = "9e"; })
+              }xin;
+    push @r,qr{ (?<pr>
+                  ( \A | $aq | $phrase_punc \s+ )
+                  ( it \s+ ( is | was ) | twas | it $sq s ) \s+
+                )
+                (?<t1>
+                  $hour_re ( [-:.] | \s+ )? $min0_re
+                | $low_num_re \s* (*SKIP)(*FAIL)
+                | $hour_re
+                )
+                ( $never_follow_times_re (*SKIP)(*FAIL) )?
+                $ba_re
+                (?{ $branch = "9d"; })
+              }xin;
+    push @r,qr{ (?<pr>
+                  ( \A | $aq | $phrase_punc_nc \s+ ) # No comma
+                  ( at ) \s+
+                )
+                (?<t1> $hour_re ( ( [-:.] | \s+ )? $min0_re )? ( ,? \s* $ampm_re )? )
+                ( $never_follow_times_re (*SKIP)(*FAIL) )?
+                $ba_re
+                (?{ $branch = "9m"; })
               }xin;
 
     push @r,qr{ (?<pr>
@@ -1242,7 +1245,7 @@ sub get_matches {
     #   ... starts opening at eight and ...
     push @r,qr{ $bb_re
                 (?<pr>
-                  ( $at_words | upon | till | from
+                  ( $at_words | before | upon | till | from
                    | ( it | time ) \s+ ( is | was | will \s+ be )
                    |  $sq ( twill \s+ be | twas )
                   ) \s+
@@ -1300,7 +1303,7 @@ sub get_matches {
     #  at 1237, is 1237, was 1237, by 1237
     push @r,qr{ (?<li> $not_in_match )
                 (?<pr>
-                  ( $at_words
+                  ( $at_words | before
                   | it \s+ ( is | was ) | twas | it $sq s | by
                   ) \s+
                 )
@@ -1319,7 +1322,7 @@ sub get_matches {
     #  by 2037 on ...
     push @r,qr{ (?<li> $not_in_match )
                 (?<pr>
-                  ( $at_words
+                  ( $at_words | before
                   | it \s+ ( is | was ) | twas | it $sq s | by
                   ) \s+
                 )

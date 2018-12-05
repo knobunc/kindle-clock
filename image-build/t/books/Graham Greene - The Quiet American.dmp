@@ -22,7 +22,7 @@ $VAR1 = [
           [
             1,
             '[ap 06:00] The Quiet American - Graham Greene.epub (OEBPS/Text/chapter001.xhtml) - six',
-            "\x{2018}I had a drink at the Continental at <<six|9c:1>>. The waiters will remember. At <<six forty-five|9m>> I walked down to the quay to watch the American planes unloaded. I saw Wilkins of the Associated News by the door of the Majestic. Then I went into the cinema next door. They\x{2019}ll probably remember\x{2014}they had to get me change. From there I took a trishaw to the Vieux Moulin\x{2014}I suppose I arrived about eight thirty\x{2014}and had dinner by myself. Granger was there\x{2014}you can ask him. Then I took a trishaw back <<about a quarter to ten|10>>. You could probably find the driver. I was expecting Pyle at <<ten|9c:1>>, but he didn\x{2019}t turn up.\x{2019}",
+            "\x{2018}I had a drink at the Continental at <<six|9c:1>>. The waiters will remember. At <<six forty-five|5b>> I walked down to the quay to watch the American planes unloaded. I saw Wilkins of the Associated News by the door of the Majestic. Then I went into the cinema next door. They\x{2019}ll probably remember\x{2014}they had to get me change. From there I took a trishaw to the Vieux Moulin\x{2014}I suppose I arrived about eight thirty\x{2014}and had dinner by myself. Granger was there\x{2014}you can ask him. Then I took a trishaw back <<about a quarter to ten|10>>. You could probably find the driver. I was expecting Pyle at <<ten|9c:1>>, but he didn\x{2019}t turn up.\x{2019}",
           ],
           [
             1,
@@ -180,7 +180,7 @@ I told her, \x{2018}Pyle\x{2019}s coming at <<six|9c:0>>.\x{2019}
           [
             1,
             '[ap 11:30] The Quiet American - Graham Greene.epub (OEBPS/Text/chapter010.xhtml) - eleven thirty',
-            "\x{2018}Pyle, she is. She always goes there. At <<eleven thirty|9m>>. We\x{2019}ve got to find her.\x{2019}",
+            "\x{2018}Pyle, she is. She always goes there. At <<eleven thirty|5b>>. We\x{2019}ve got to find her.\x{2019}",
           ],
           [
             1,
@@ -263,6 +263,6 @@ I interrupted him. \x{2018}The Vieux Moulin? Between <<nine|20>> and <<nine thir
           [
             1,
             '[00:00] The Quiet American - Graham Greene.epub (OEBPS/Text/chapter012.xhtml) - midnight',
-            'Was I so different from Pyle, I wondered? Must I too have my foot thrust in the mess of life before I saw the pain? Granger went inside and I could hear the voices rising to greet him. I found a trishaw and was pedalled home. There was nobody there, and I sat and waited till <<midnight|9f>>. Then I went down into the street without hope and found Phuong there.',
+            'Was I so different from Pyle, I wondered? Must I too have my foot thrust in the mess of life before I saw the pain? Granger went inside and I could hear the voices rising to greet him. I found a trishaw and was pedalled home. There was nobody there, and I sat and waited till <<midnight|13>>. Then I went down into the street without hope and found Phuong there.',
           ],
         ];

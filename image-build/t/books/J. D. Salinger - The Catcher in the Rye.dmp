@@ -69,13 +69,13 @@ $VAR1 = [
           [
             1,
             '[12:00] The Catcher in the Rye - J. D. Salinger.epub (index_split_000.html) - noon',
-            '"Uh huh. Well, how \'bout it? Y\'innarested? Five bucks a throw. Fifteen bucks the whole night." He looked at his wrist watch. "Till <<noon|9f>>. Five bucks a throw, fifteen bucks till <<noon|9f>>."',
+            '"Uh huh. Well, how \'bout it? Y\'innarested? Five bucks a throw. Fifteen bucks the whole night." He looked at his wrist watch. "Till <<noon|13>>. Five bucks a throw, fifteen bucks till <<noon|13>>."',
           ],
           [
             1,
             '[12:00] The Catcher in the Rye - J. D. Salinger.epub (index_split_000.html) - noon',
             '"Okay," I said. It was against my principles and all, but I was feeling so depressed I didn\'t even think. That\'s the whole trouble. When you\'re feeling very depressed, you can\'t even think.
-"Okay what? A throw, or till <<noon|9f>>? I gotta know."
+"Okay what? A throw, or till <<noon|13>>? I gotta know."
 "Just a throw."',
           ],
           [
@@ -90,13 +90,13 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 10:00] The Catcher in the Rye - J. D. Salinger.epub (index_split_000.html) - ten',
-            '"It\'s <<ten|9d>> bucks, chief. I tole ya that. Ten bucks for a throw, fifteen bucks till <<noon|9f>>. I tole ya that."',
+            '[12:00] The Catcher in the Rye - J. D. Salinger.epub (index_split_000.html) - noon',
+            '"It\'s ten bucks, chief. I tole ya that. Ten bucks for a throw, fifteen bucks till <<noon|13>>. I tole ya that."',
           ],
           [
             1,
             '[12:00] The Catcher in the Rye - J. D. Salinger.epub (index_split_000.html) - noon',
-            '"You did not tell me that. You said five bucks a throw. You said fifteen bucks till <<noon|9f>>, all right, but I distinctly heard you--"',
+            '"You did not tell me that. You said five bucks a throw. You said fifteen bucks till <<noon|13>>, all right, but I distinctly heard you--"',
           ],
           [
             1,
@@ -111,7 +111,7 @@ $VAR1 = [
           [
             1,
             '[~ 12:00] The Catcher in the Rye - J. D. Salinger.epub (index_split_001.html) - around noon',
-            'After I had my breakfast, it was only <<around noon|9f>>, and I wasn\'t meeting old Sally till <<two o\'clock|6>>, so I started taking this long walk. I couldn\'t stop thinking about those two nuns. I kept thinking about that beatup old straw basket they went around collecting money with when they weren\'t teaching school. I kept trying to picture my mother or somebody, or my aunt, or Sally Hayes\'s crazy mother, standing outside some department store and collecting dough for poor people in a beat-up old straw basket. It was hard to picture. Not so much my mother, but those other two. My aunt\'s pretty charitable--she does a lot of Red Cross work and all--but she\'s very well-dressed and all, and when she does anything charitable she\'s always very well-dressed and has lipstick on and all that crap. I couldn\'t picture her doing anything for charity if she had to wear black clothes and no lipstick while she was doing it. And old Sally Hayes\'s mother. Jesus Christ. The only way she could go around with a basket collecting dough would be if everybody kissed her ass for her when they made a contribution. If they just dropped their dough in her basket, then walked away without saying anything to her, ignoring her and all, she\'d quit in about an hour. She\'d get bored. She\'d hand in her basket and then go someplace swanky for lunch. That\'s what I liked about those nuns. You could tell, for one thing, that they never went anywhere swanky for lunch. It made me so damn sad when I thought about it, their never going anywhere swanky for lunch or anything. I knew it wasn\'t too important, but it made me sad anyway.',
+            'After I had my breakfast, it was only <<around noon|13>>, and I wasn\'t meeting old Sally till <<two o\'clock|6>>, so I started taking this long walk. I couldn\'t stop thinking about those two nuns. I kept thinking about that beatup old straw basket they went around collecting money with when they weren\'t teaching school. I kept trying to picture my mother or somebody, or my aunt, or Sally Hayes\'s crazy mother, standing outside some department store and collecting dough for poor people in a beat-up old straw basket. It was hard to picture. Not so much my mother, but those other two. My aunt\'s pretty charitable--she does a lot of Red Cross work and all--but she\'s very well-dressed and all, and when she does anything charitable she\'s always very well-dressed and has lipstick on and all that crap. I couldn\'t picture her doing anything for charity if she had to wear black clothes and no lipstick while she was doing it. And old Sally Hayes\'s mother. Jesus Christ. The only way she could go around with a basket collecting dough would be if everybody kissed her ass for her when they made a contribution. If they just dropped their dough in her basket, then walked away without saying anything to her, ignoring her and all, she\'d quit in about an hour. She\'d get bored. She\'d hand in her basket and then go someplace swanky for lunch. That\'s what I liked about those nuns. You could tell, for one thing, that they never went anywhere swanky for lunch. It made me so damn sad when I thought about it, their never going anywhere swanky for lunch or anything. I knew it wasn\'t too important, but it made me sad anyway.',
           ],
           [
             1,

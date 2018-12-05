@@ -11,7 +11,7 @@ use TimeMatchTest;
 
 # prove t/01-test.pl |& egrep -E '^|<<[^>]+(>>|$)|^[^<>]+>>'
 
-compare_strings(get_csv_tests(),  "csv tests");
+compare_strings(get_csv_tests(),  "csv tests", 0);
 
 done_testing;
 
