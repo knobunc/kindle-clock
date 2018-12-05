@@ -1035,7 +1035,7 @@ sub get_matches {
                 (?{ $branch = "9e"; })
               }xin;
     push @r,qr{ (?<pr>
-                  ( \A | ['"‘’“”] | [.…;:?!] \s+ )
+                  ( \A | ['"‘’“”] | [.…;:?!,] \s+ )
                   ( it \s+ ( is | was ) | twas | it['‘’]s ) \s+
                 )
                 (?<t1>
@@ -1048,7 +1048,7 @@ sub get_matches {
                 (?{ $branch = "9d"; })
               }xin;
     push @r,qr{ (?<pr>
-                  ( \A | ['"‘’“”] | [.…;:?!] \s+ )
+                  ( \A | ['"‘’“”] | [.…;:?!] \s+ ) # No comma
                   ( at ) \s+
                 )
                 (?<t1> $hour_re ( ( [-:.] | \s+ )? $min0_re )? ( ,? \s* $ampm_re )? )
@@ -1258,7 +1258,7 @@ sub get_matches {
 
     # The only time, but as a single hour (these are less reliable)
     push @r,qr{ (?<pr>
-                  ( \A | ['"‘’“”] | [.…;:?!] \s+ | \s+ [-—]+ \s+ )
+                  ( \A | ['"‘’“”] | [.…;:?!] \s+ | \s+ [-—]+ \s+ ) # No comma
                   ( ( only | just | it['‘’]s | it \s+ is | the ) \s+ )?
                 )
                 (?<t1>
