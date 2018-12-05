@@ -69,7 +69,10 @@ my $before_re = qr{ before | to | of | till | $sq til | short \s+ of }xin;
 my $after_re  = qr{ after | past }xin;
 my $till_re   = qr{ $before_re | $after_re }xin;
 
-my $twas_re = qr{ it \s+ ( is | was | will \s+ be ) | $sq? ( twas | tis | till ) | it $sq s }xin;
+my $twas_re = qr{ ( it | time ) \s+ ( is | was | will \s+ be )
+                | $sq? ( twas | tis | till | twill \s+ be )
+                | it $sq s
+                }xin;
 
 # The minutes
 my $min_word_re =
@@ -656,7 +659,7 @@ sub get_matches {
                     $fraction_re ( \s+ | [-] )
                   )
                   $till_re ( $hyph | \s )+
-                  ( the \s+ hour [,;]? \s+ which \s+ was \s+ )?
+                  ( the \s+ hour [,;]? \s+ which \s+ ( is | was ) \s+ )?
                   $hour24_re
                   ( \s+ $oclock_re ( ,? \s* $ampm_re )?
                   |                  ,? \s* $ampm_re
@@ -910,7 +913,7 @@ sub get_matches {
     # at 1237 when
     # by 8.45 on saturday
     push @r,qr{ (?<li> $not_in_match )
-                (?<pr> ( at | it \s+ ( is | was ) | twas | it $sq s | by | by \s+ the ) \s+ )
+                (?<pr> ( at | $twas_re | by | by \s+ the ) \s+ )
                 (?<t1> $hour_re [?]? [-.\s]? $min_re )
                 (?<po>
                  \s+ ( ( ( on | in ) \s+ )? $weekday_re
@@ -981,11 +984,7 @@ sub get_matches {
     # Strong word times
     # at eleven fifty-seven
     push @r,qr{ (?<li> $not_in_match )
-                (?<pr>
-                  ( at | ( it | time ) \s+ ( is | was | will \s+ be ) | by
-                  |  $sq ( twill \s+ be | twas )
-                  ) \s+
-                )
+                (?<pr> ( $twas_re | at | by ) \s+ )
                 (?<t1>
                   $hour_word_re ( [\s\.]+ | [-] ) $min_word_re
                   ( \s* ... \s* $low_num_re )? ( ,? \s* $ampm_re )?

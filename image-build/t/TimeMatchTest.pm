@@ -3687,7 +3687,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [11:20]: 11.20',
-            'Sweeney pointed to the clock above the bar, held in the massive and indifferent jaws of a stuffed alligator head. The time was <<11.20|9c:1>>.'
+            'Sweeney pointed to the clock above the bar, held in the massive and indifferent jaws of a stuffed alligator head. The time was <<11.20|9f>>.'
           ],
           [
             1,
@@ -4082,7 +4082,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [12:25]: 12.25',
-            'Boys, do it now. God\'s time is <<12.25|9c:0>>.'
+            'Boys, do it now. God\'s time is <<12.25|9f>>.'
           ],
           [
             1,
@@ -6657,7 +6657,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [21:15]: nine-fifteen',
-            'What are we going to do? Should we try to walk to Clapham High Street? But it\'s bloody miles away. I glance at my watch and am shocked to see that it\'s <<nine-fifteen|9f>>. We\'ve spent over an hour faffing about and we haven\'t even had a drink. And it\'s all my fault. I can\'t even organize one simple evening without its going catastrophically wrong.'
+            'What are we going to do? Should we try to walk to Clapham High Street? But it\'s bloody miles away. I glance at my watch and am shocked to see that it\'s <<nine-fifteen|5b>>. We\'ve spent over an hour faffing about and we haven\'t even had a drink. And it\'s all my fault. I can\'t even organize one simple evening without its going catastrophically wrong.'
           ],
           [
             1,
