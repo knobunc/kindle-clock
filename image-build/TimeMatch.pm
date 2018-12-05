@@ -160,7 +160,7 @@ my $rel_words       = qr{ $far_before_re | $short_before_re
                         | $far_after_re  | $short_after_re
                         }xin;
 
-my $at_words        = qr{ until | at | before }xin;
+my $at_words        = qr{ until | at (\s+ last)? | before }xin;
 my $rel_at_words    = qr{ $at_words | $rel_words }xin;
 
 # Weekdays
@@ -1300,7 +1300,7 @@ sub get_matches {
     #  at 1237, is 1237, was 1237, by 1237
     push @r,qr{ (?<li> $not_in_match )
                 (?<pr>
-                  ( at ( \s+ last )?
+                  ( $at_words
                   | it \s+ ( is | was ) | twas | it $sq s | by
                   ) \s+
                 )
@@ -1319,7 +1319,7 @@ sub get_matches {
     #  by 2037 on ...
     push @r,qr{ (?<li> $not_in_match )
                 (?<pr>
-                  ( at ( \s+ last )?
+                  ( $at_words
                   | it \s+ ( is | was ) | twas | it $sq s | by
                   ) \s+
                 )
