@@ -33,13 +33,12 @@ my $ecclesiastical_re =
       | ( dawn | early \s+ morning | mid-morning | mid-?day | mid-afternoon | evening | night )
         \s+ prayer
       }xin;
-my $meal_times = qr{ breakfast
-                   | second \s+ breakfast
-                   | lunch
-                   | afternoon \s+ tea
+my $meal_times = qr{ ( second \s+ )? breakfast
+                   | luncheon | lunch
+                   | ( ( afternoon | high ) \s+ )? tea
                    | dinner
                    | supper
-                   };
+                   }xin;
 my $all_named_times = qr{ $ecclesiastical_re | prime | nones
                         | $meal_times
                         }xin;
@@ -69,7 +68,8 @@ my $before_re = qr{ before | to | of | till | $sq til | short \s+ of }xin;
 my $after_re  = qr{ after | past }xin;
 my $till_re   = qr{ $before_re | $after_re }xin;
 
-my $twas_re = qr{ ( it | time ) \s+ ( is | was | will \s+ be )
+# TODO Add 'only', 'just' to twas_re?
+my $twas_re = qr{ ( it | time | which ) \s+ ( is | was | will \s+ be )
                 | $sq? ( twas | tis | till | twill \s+ be )
                 | it $sq s
                 }xin;
@@ -717,7 +717,7 @@ sub get_matches {
                     | (?<t2> ,? \s* $ampm_re )
                     | (?<po>
                         \s+ the  \s+ ( next | following ) \s+ $timeday_re
-                      | \s+ for  \s+ ( breakfast | lunch | dinner | luncheon | tea )
+                      | \s+ for  \s+ $meal_times
                       | \s+ on   \s+ ( the \s+ )? $weekday_re
                       | \s+ that \s+ $timeday_re
                       | \s+ ( tonight | today | to-?morrow )
@@ -735,7 +735,7 @@ sub get_matches {
                    ( (?<t2> \s+ $in_the_re ) \b
                    | (?<po>
                         \s+ the  \s+ ( next | following ) \s+ $timeday_re
-                      | \s+ for  \s+ ( breakfast | lunch | dinner | luncheon | tea )
+                      | \s+ for  \s+ $meal_times
                       | \s+ on   \s+ ( the \s+ )? $weekday_re
                       | \s+ that \s+ $timeday_re
                       | \s+ ( tonight | today | to-?morrow )
@@ -1183,7 +1183,7 @@ sub get_matches {
     # At ten, ...
     push @r,qr{ (?<pr>
                   ( \A | $aq | $phrase_punc \s+ )
-                  ( ( it \s+ ( is | was ) | twas | it $sq s | which \s+ was | and ) \s+ )?
+                  ( ( $twas_re | and ) \s+ )?
                 )
                 (?<t1>
                   ( $rel_at_words | ( close \s+ )? upon | till | by ) \s+
@@ -1195,7 +1195,7 @@ sub get_matches {
               }xin;
     push @r,qr{ (?<pr>
                   ( \A | $aq | $phrase_punc \s+ )
-                  ( it \s+ ( is | was ) | twas | it $sq s ) \s+
+                  $twas_re \s+
                 )
                 (?<t1>
                   $hour_re ( [-:.] | \s+ )? $min0_re
@@ -1218,7 +1218,7 @@ sub get_matches {
 
     push @r,qr{ (?<pr>
                   ( \A | $aq | $phrase_punc \s+ )
-                  ( ( only | it \s+ ( is | was ) | twas | it $sq s | because ) \s+)?
+                  ( ( $twas_re | only | because ) \s+)?
                 )
                 (?<t1>
                   ( $rel_at_words | ( close \s+ )? upon | till | by ) \s+
@@ -1245,10 +1245,9 @@ sub get_matches {
     push @r,qr{ $bb_re
                 (?<pr>
                   ( $at_words | before | upon | till | from
-                   | ( it | time ) \s+ ( is | was | will \s+ be )
-                   |  $sq ( twill \s+ be | twas )
+                   | $twas_re
                   ) \s+
-                  ( only \s+ )?
+                  ( only \s+ )?  # Generalize?
                 )
                 (?<t1>
                   ( $rel_words \s+ )?
@@ -1270,7 +1269,7 @@ sub get_matches {
     # The only time, but as a single hour (these are less reliable)
     push @r,qr{ (?<pr>
                   ( \A | $aq | $phrase_punc_nc \s+ | \s+ $hyph+ \s+ ) # No comma
-                  ( ( only | just | it $sq s | it \s+ is | the ) \s+ )?
+                  ( ( $twas_re | only | just | the ) \s+ )?
                 )
                 (?<t1>
                   ( $rel_words \s+ )?
@@ -1302,8 +1301,8 @@ sub get_matches {
     #  at 1237, is 1237, was 1237, by 1237
     push @r,qr{ (?<li> $not_in_match )
                 (?<pr>
-                  ( $at_words | before
-                  | it \s+ ( is | was ) | twas | it $sq s | by
+                  ( $at_words | before | by
+                  | $twas_re
                   ) \s+
                 )
                 (?<t1>
@@ -1321,8 +1320,8 @@ sub get_matches {
     #  by 2037 on ...
     push @r,qr{ (?<li> $not_in_match )
                 (?<pr>
-                  ( $at_words | before
-                  | it \s+ ( is | was ) | twas | it $sq s | by
+                  ( $at_words | before | by
+                  | $twas_re
                   ) \s+
                 )
                 (?<t1>

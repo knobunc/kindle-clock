@@ -284,7 +284,7 @@ sub get_csv_tests {
           [
             1,
             'Timestr [00:00]: midnight',
-            'The first night, as soon as the corporal had conducted my uncle Toby up stairs, which was <<about 10|9e>> - Mrs. Wadman threw herself into her arm chair, and crossing her left knee with her right, which formed a resting-place for her elbow, she reclin\'d her cheek upon the palm of her hand, and leaning forwards, ruminated until <<midnight|13>> upon both sides of the question.\''
+            'The first night, as soon as the corporal had conducted my uncle Toby up stairs, which was <<about 10|9f>> - Mrs. Wadman threw herself into her arm chair, and crossing her left knee with her right, which formed a resting-place for her elbow, she reclin\'d her cheek upon the palm of her hand, and leaning forwards, ruminated until <<midnight|13>> upon both sides of the question.\''
           ],
           [
             1,
@@ -6782,7 +6782,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [21:59]: About 10',
-            'The first night, as soon as the corporal had conducted my uncle Toby upstairs, which was <<about 10|9e>> - Mrs. Wadman threw herself into her arm chair'
+            'The first night, as soon as the corporal had conducted my uncle Toby upstairs, which was <<about 10|9f>> - Mrs. Wadman threw herself into her arm chair'
           ],
           [
             1,
