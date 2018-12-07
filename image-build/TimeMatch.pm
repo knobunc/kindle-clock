@@ -76,6 +76,17 @@ my $twas_re = qr{ ( it | time | which ) \s+ ( is | was | will \s+ be )
 
 my $today_re = qr{ to-?night | to-?day | to-?morrow }xin;
 
+my $clock_re  = qr{ ( clock | bell | watch | it | now | hands | alarm ) s? }xin;
+my $strike_re = qr{ struck  | strikes | striking | strike | striketh
+                  | beat    | beats   | beating
+                  | said    | says    | showed | shows
+                  | read    | reads   | reading
+                  | drew
+                  | ( point | pointed | pointing ) \s+ to
+                  }xin;
+
+
+
 # The minutes
 my $min_word_re =
     qr{ # 1-9
@@ -512,7 +523,7 @@ sub get_masks {
                   | ( $min_word_re [-\s]+ )+   # Street words
                     ( ( \w | \# \d+ ) \s+ )?   # Apartment number / letter
                   )
-                  ( \w+ \s+ ){0,2}             # Filler words
+                  ( \w+ \s+ ){0,2}?            # Filler words
                   ( road | rd
                   | street | st
                   | avenue | ave
@@ -766,7 +777,7 @@ sub get_matches {
     # Due ... at eleven-fifty-one
     # Knocks ... at 2336
     push @r,qr{ $bb_re
-                (?<pr> ( due | knocks ) \s+ (\w+ \s+){0,5} at \s+ )
+                (?<pr> ( due | knocks ) \s+ (\w+ \s+){0,5}? at \s+ )
                 (?<t1> $hour24_re [-\s.:]* $min_re ( ,? \s* $ampm_re )?)
                 $ba_re
                 (?{ $branch = "5d"; })
@@ -933,7 +944,7 @@ sub get_matches {
                 (?<t1> ( $rel_words \s+ )? $hour_re )
                 (?<po> \s+
                        ( in | on | that | this | the ) \s+
-                       (\w+ \s+){0,3}
+                       (\w+ \s+){0,3}?
                        ( morn | morning | afternoon | evening | night )
                 )
                 $ba_re
@@ -1016,8 +1027,7 @@ sub get_matches {
     push @r,qr{ (?<pr> \b
                   ( here | there
                   | $today_re
-                  | ( through \s+ the | following ) \s+ ( night | day )
-                  | at \s+ night
+                  | ( through \s+ the | following | that | at ) \s+ ( night | day )
                   | gets \s+ up | woke | rose | waking
                   | happened \s+ at
                   | news
@@ -1048,13 +1058,8 @@ sub get_matches {
     push @r,qr{ \b
                 (?<t1>
                   $min_re \s+ minutes \s+ ( before | after ) \s+ the \s+
-                  ( clock | bell | watch | it | now | hands | alarm ) s? \s+
-                  ( struck | strikes | striking | strike | striketh
-                  | beat    | beats   | beating
-                  | said    | says    | showed | shows
-                  | read    | reads   | reading
-                  | ( point | pointed | pointing ) \s+ to
-                  ) \s+
+                  $clock_re \s+
+                  $strike_re \s+
                   $hour24_re ( [-.\s]+ $min0_re )?
                 )
                 $ba_re
@@ -1062,14 +1067,9 @@ sub get_matches {
               }xin;
     push @r,qr{ \b
                 (?<pr>
-                  ( clock | bell | watch | it | now | hands ) s? \s+ [\w\s]*?
-                  ( struck | strikes | striking | strike | striketh
-                  | beat    | beats   | beating
-                  | said    | says    | showed | shows
-                  | read    | reads   | reading
-                  | drew
-                  | ( point | pointed | pointing ) \s+ to
-                  ) \s+
+                  $clock_re \s+
+                  ( \w+ \s+ )*?
+                  $strike_re \s+
                 )
                 (?<t1>
                   ( ( a | $min_re ) \s+ minute s? \s+
@@ -1380,8 +1380,8 @@ sub get_matches {
                   $hour24_word_re
                   ( ,? \s* $ampm_re )? )
                 (?<po>
-                  \s+ in \s+ ( \w+ \s+ ){0,3} ( morn | morning | afternoon | evening ) s?
-                | \s+ or \s+ ( \w+ \s+ ){0,3} ( earlier | later )
+                  \s+ in \s+ ( \w+ \s+ ){0,3}? ( morn | morning | afternoon | evening ) s?
+                | \s+ or \s+ ( \w+ \s+ ){0,3}? ( earlier | later )
                 )
                 $ba_re
                 (?{ $branch = "5h:TIMEY"; })
