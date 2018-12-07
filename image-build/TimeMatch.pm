@@ -74,6 +74,8 @@ my $twas_re = qr{ ( it | time | which ) \s+ ( is | was | will \s+ be )
                 | it $sq s
                 }xin;
 
+my $today_re = qr{ to-?night | to-?day | to-?morrow }xin;
+
 # The minutes
 my $min_word_re =
     qr{ # 1-9
@@ -694,7 +696,7 @@ sub get_matches {
     push @r,qr{ \b (?<pr> ( meet  | meeting  | meets
                       |  start | starting | starts
                      ) \s+
-                     ( ( tonight | today | to-?morrow | $weekday_re | this ) \s+
+                     ( ( $today_re | $weekday_re | this ) \s+
                       ( ( morning | afternoon | evening ) \s+ )?
                      )?
                      at \s+
@@ -720,7 +722,7 @@ sub get_matches {
                       | \s+ for  \s+ $meal_times
                       | \s+ on   \s+ ( the \s+ )? $weekday_re
                       | \s+ that \s+ $timeday_re
-                      | \s+ ( tonight | today | to-?morrow )
+                      | \s+ $today_re
                       )
                    )
                    $ba_re
@@ -738,7 +740,7 @@ sub get_matches {
                       | \s+ for  \s+ $meal_times
                       | \s+ on   \s+ ( the \s+ )? $weekday_re
                       | \s+ that \s+ $timeday_re
-                      | \s+ ( tonight | today | to-?morrow )
+                      | \s+ $today_re
                       )
                    ) $ba_re
                    (?{ $branch = "9a"; })
@@ -918,7 +920,7 @@ sub get_matches {
                 (?<po>
                  \s+ ( ( ( on | in ) \s+ )? $weekday_re
                        | when
-                       | today | tonight | to-?morrow
+                       | $today_re
                        | ( this | that | one | on \s+ the ) \s+
                          ( morning | morn | afternoon | evening | night )
                        )
@@ -1013,10 +1015,13 @@ sub get_matches {
     # here at nine ...
     push @r,qr{ (?<pr> \b
                   ( here | there
-                   | today | tonight | night | to-?morrow
-                   | gets \s+ up | woke | rose | waking
-                   | happened \s+ at
-                   | news ) \s+
+                  | $today_re
+                  | ( through \s+ the | following ) \s+ ( night | day )
+                  | at \s+ night
+                  | gets \s+ up | woke | rose | waking
+                  | happened \s+ at
+                  | news
+                  ) \s+
                 )
                 (?<t1> $rel_at_words \s+
                   $hour_word_re
@@ -1129,7 +1134,7 @@ sub get_matches {
     # ... monday, at twelve.
     push @r,qr{ $bb_re
                 (?<pr>
-                  ( tonight | today | to-?morrow | $weekday_re | comes ) ,? \s+
+                  ( $today_re | $weekday_re | comes ) ,? \s+
                   ( in | at ) \s+
                 )
                 (?<t1>
@@ -1368,12 +1373,16 @@ sub get_matches {
               }xin;
 
     # after eleven in summer evenings ...
+    # until two or even later
     push @r,qr{ (?<li> $not_in_match )
                 (?<t1>
                   $rel_words \s+
                   $hour24_word_re
                   ( ,? \s* $ampm_re )? )
-                (?<po> \s+ in \s+ \w+ \s+ ( morn | morning | afternoon | evening ) s? )
+                (?<po>
+                  \s+ in \s+ ( \w+ \s+ ){0,3} ( morn | morning | afternoon | evening ) s?
+                | \s+ or \s+ ( \w+ \s+ ){0,3} ( earlier | later )
+                )
                 $ba_re
                 (?{ $branch = "5h:TIMEY"; })
               }xin;
