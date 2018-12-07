@@ -21,6 +21,10 @@ my $aq             = qr{ ['"‘’“”]     }xin; # All quotes
 my $hyph           = qr{ [-—]         }xin; # Hyphens
 my $ellips         = qr{ … | [.]{3,6} }xin; # Ellipsis
 
+# Times of day
+my $morn_re    = qr{ morn(ing)? | mornin $sq? | after[-\s]?noon | eve(ning)? }xin;
+my $timeday_re = qr{ $morn_re | day | night }xin;
+
 # Special named times
 my $noon_re     = qr{ ( high \s+ )? noon (-? (day | time | tide) )? | mid[-\s]*day }xin;
 my $midnight_re = qr{ midnight (?! \s+ oil ) }xin;
@@ -70,19 +74,22 @@ my $till_re   = qr{ $before_re | $after_re }xin;
 
 # TODO Add 'only', 'just' to twas_re?
 my $twas_re = qr{ ( it | time | which ) \s+ ( is | was | will \s+ be )
-                | $sq? ( twas | tis | till | twill \s+ be )
-                | it $sq s
+                | $sq? ( twas | tis ( \s+ now )? | till | twill \s+ be )
+                | it $sq s ( \s+ now )?
                 }xin;
 
 my $today_re = qr{ to-?night | to-?day | to-?morrow }xin;
 
-my $clock_re  = qr{ ( clock | bell | watch | it | now | hands | alarm ) s? }xin;
+my $clock_re  = qr{ ( clock | bell | watch | hands | alarm ) s? }xin;
 my $strike_re = qr{ struck  | strikes | striking | strike | striketh
+                  | chimed  | chimes  | chiming
+                  | rung    | rings   | ringing
                   | beat    | beats   | beating
-                  | said    | says    | showed | shows
+                  }xin;
+my $points_re = qr{ said    | says    | showed | shows
                   | read    | reads   | reading
                   | drew
-                  | ( point | pointed | pointing ) \s+ to
+                  | ( point s? | pointed | pointing ) \s+ to
                   }xin;
 
 
@@ -126,7 +133,7 @@ my $hour_h_re = qr{ $hour_h_dig_re | $hour_h_word_re }xin; # The high hours 13-2
 my $in_the_re = qr{ ( ( in \s+ the \s+ ( (?! same) \w+ \s+ ){0,4}?
                       | ( this | that ) \s+ ( \w+ \s+ ){0,2}?
                       )
-                      ( morning | mornin $sq? | morn | afternoon | evening | eve | day | night)
+                      $timeday_re
                     | at \s+ ( dawn | dusk | night | sunset | sunrise )
                     )
                   }xin;
@@ -183,9 +190,6 @@ my $rel_at_words    = qr{ $at_words | $rel_words | before }xin;
 
 # Weekdays
 my $weekday_re = qr{ monday | tuesday | wendesday | thursday | friday | saturday | sunday }xin;
-
-# Times of day
-my $timeday_re = qr{ day | morning | night }xin;
 
 # Bible books
 my $bible_book_re = qr{ Acts | Amos | Baruch | [12] \s+ Chronicles | Colossians
@@ -336,7 +340,7 @@ sub do_match {
         if $line =~
             m{ \b ( struck   | strikes | striking | striketh
                   | ( hour   | minute
-                    | clock  | watch
+                    | clock | watch
                     | train
                     ) s?
                   | $midnight_noon_re
@@ -460,7 +464,9 @@ sub get_masks {
                 |      $min_re ,? \s+ by \s+ $min_re
                 |      I ,? \s+ for \s+ one ,? \s+ am
                 )
-                (?! ,? \s* $ampm_re)
+                (?! ,? \s* $ampm_re
+                |      \s* $oclock_re
+                )
                 \b
                 (?{ $branch = "x4"; })
               }xin;
@@ -708,7 +714,7 @@ sub get_matches {
                       |  start | starting | starts
                      ) \s+
                      ( ( $today_re | $weekday_re | this ) \s+
-                      ( ( morning | afternoon | evening ) \s+ )?
+                      ( $morn_re \s+ )?
                      )?
                      at \s+
                    )
@@ -933,7 +939,7 @@ sub get_matches {
                        | when
                        | $today_re
                        | ( this | that | one | on \s+ the ) \s+
-                         ( morning | morn | afternoon | evening | night )
+                         $timeday_re
                        )
                 )
                 $ba_re
@@ -945,7 +951,7 @@ sub get_matches {
                 (?<po> \s+
                        ( in | on | that | this | the ) \s+
                        (\w+ \s+){0,3}?
-                       ( morn | morning | afternoon | evening | night )
+                       ( $morn_re | night )
                 )
                 $ba_re
                 (?{ $branch = "3d"; })
@@ -1058,8 +1064,8 @@ sub get_matches {
     push @r,qr{ \b
                 (?<t1>
                   $min_re \s+ minutes \s+ ( before | after ) \s+ the \s+
-                  $clock_re \s+
-                  $strike_re \s+
+                  ( $clock_re | it | now ) \s+
+                  ( $strike_re | $points_re ) \s+
                   $hour24_re ( [-.\s]+ $min0_re )?
                 )
                 $ba_re
@@ -1067,9 +1073,9 @@ sub get_matches {
               }xin;
     push @r,qr{ \b
                 (?<pr>
-                  $clock_re \s+
+                  (?<cl> $clock_re | ( it (\s is)? | $sq? tis ) ( \s+ now )? ) \s+
                   ( \w+ \s+ )*?
-                  $strike_re \s+
+                  ( $strike_re | $points_re ) \s+
                 )
                 (?<t1>
                   ( ( a | $min_re ) \s+ minute s? \s+
@@ -1080,7 +1086,11 @@ sub get_matches {
                 )
                 (?! \s+ ( faces | another ) )
                 $ba_re
-                (?{ $branch = "11"; })
+                (?{ $branch = "11";
+                    if ($+{cl} =~ m{\A it \z}xin and not $is_timey) {
+                        $branch = "11b:TIMEY";
+                    }
+                  })
               }xin;
     push @r,qr{ \b
                 (?<pr> stroke \s+ of \s+ )
@@ -1380,7 +1390,7 @@ sub get_matches {
                   $hour24_word_re
                   ( ,? \s* $ampm_re )? )
                 (?<po>
-                  \s+ in \s+ ( \w+ \s+ ){0,3}? ( morn | morning | afternoon | evening ) s?
+                  \s+ in \s+ ( \w+ \s+ ){0,3}? $morn_re s?
                 | \s+ or \s+ ( \w+ \s+ ){0,3}? ( earlier | later )
                 )
                 $ba_re
@@ -1585,7 +1595,7 @@ sub extract_times {
               | # Two minutes before the clock struck noon
                   (?<mn> $min_word_re ) \s+ minutes? \s+
                   (?<dir> $till_re ) \s+
-                ( the \s+ clock \s+ struck \s+ )?
+                ( the \s+ ( clock | bell ) \s+ ( rang | struck ) \s+ )?
                   (?<hr> $hour24_re )
                 ( \s+ $oclock_re )?
                 ( ,? \s+ (?<am> $ampm_re ) )?
@@ -1596,7 +1606,7 @@ sub extract_times {
                   (?<hr> $hour24_re ) [.:\s]+
                   (?<mn> $min_re )
                   (?<dir> $till_re ) \s+
-                ( the \s+ clock \s+ struck \s+ )?
+                ( the \s+ ( clock | bell ) \s+ ( rang | struck ) \s+ )?
                 ( \s+ $oclock_re )?
                 ( ,? \s+ (?<am> $ampm_re ) )?
                 (?{ $branch = "11"; })
@@ -1750,9 +1760,9 @@ sub extract_times {
 
                 if ($ampm =~ m{\A $in_the_re \z}xin) {
                     # Work out the time
-                    if ($ampm =~ m{ morning | mornin $sq? | morn | dawn | sunrise }xi) {
+                    if ($ampm =~ m{ morn(ing)? | mornin $sq? | dawn | sunrise }xi) {
                         $pm = 0;
-                    } elsif ($ampm =~ m{ afternoon | evening | eve | dusk | sunset }xi) {
+                    } elsif ($ampm =~ m{ after[-\s]?noon | evening | eve | dusk | sunset }xi) {
                         $pm = 1;
                     }
                     elsif ($ampm =~ m{ day }xi) {

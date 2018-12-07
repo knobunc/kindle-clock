@@ -22,7 +22,8 @@ $Data::Dumper::Trailingcomma = 1;
 exit main(@ARGV);
 
 # For highlighting:
-#  ./find_times.pl ~/Calibre\ Library/James\ Joyce/Dubliners\ \(3196\)/*epub | egrep -E '^|<<[^>]+(>>|$)|^[^<>]+>>'
+#  alias hl="egrep -E '^|<<[^>]+(>>|$)|^[^<>]+>>'"
+#  ./find_times.pl ~/Calibre\ Library/James\ Joyce/Dubliners\ \(3196\)/*epub | hl
 
 
 sub main {
