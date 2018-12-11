@@ -5,7 +5,7 @@ use Modern::Perl '2017';
 use utf8;
 
 use Exporter::Easy (
-  EXPORT => [ qw( do_match extract_times ) ],
+  EXPORT => [ qw( do_match extract_times DEBUG_MSG ) ],
 );
 
 use Carp;
@@ -362,6 +362,8 @@ sub do_match {
             m{ \b ( colts? | filly | fillies | stallions?
                   | odds \s+ (at | of) | betting
                   | interest | ratio | advantage | superiority | proportion
+                  | back \s (him | her | it)
+                  | give \s (you | odds)
                   ) \b
              }xin;
 
