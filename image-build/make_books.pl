@@ -10,6 +10,7 @@ use open ':std', ':encoding(UTF-8)';
 
 my @sources =
     (
+     "A. S. Byatt/Possession",
      "Anthony Burgess/A Clockwork Orange",
      "Arthur Conan Doyle/The Memoirs of Sherlock Holmes",
      "Arthur Ransome/Swallows and Amazons",

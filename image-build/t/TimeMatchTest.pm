@@ -1954,7 +1954,7 @@ sub get_csv_tests {
           [
             1,
             'Timestr [06:25]: six-twenty-five',
-            'Still, it\'s your consciousness that\'s created it. Not somethin\' just anyone could do. Others could be wanderin\' around forever in who-knows-what contradictory chaos of a world. You\'re different. You seem t\'be the immortal type." "When\'s the turnover into that world going to take place?" asked the chubby girl. The Professor looked at his watch. I looked at my watch. <<Six-twenty-five|9j>>. Well past daybreak. Morning papers delivered. "According t\'my estimates, in another twenty-nine hours and thirty-five minutes," said the Professor. "Plus or minus forty-five minutes. I set it at twelve <<noon|13>> for easy reference. <<Noon|13>> tomorrow.'
+            'Still, it\'s your consciousness that\'s created it. Not somethin\' just anyone could do. Others could be wanderin\' around forever in who-knows-what contradictory chaos of a world. You\'re different. You seem t\'be the immortal type." "When\'s the turnover into that world going to take place?" asked the chubby girl. The Professor looked at his watch. I looked at my watch. <<Six-twenty-five|9j>>. Well past daybreak. Morning papers delivered. "According t\'my estimates, in another twenty-nine hours and thirty-five minutes," said the Professor. "Plus or minus forty-five minutes. I set it at <<twelve noon|13>> for easy reference. <<Noon|13>> tomorrow.'
           ],
           [
             1,
@@ -1999,7 +1999,7 @@ sub get_csv_tests {
           [
             1,
             'Timestr [06:30]: six-thirty',
-            '<<Six-thirty|5k:1>> was clearly a preposterous time and he, the client, obviously hadn\'t meant it seriously. A civilised <<six-thirty|5k:1>> for twelve <<noon|13>> was almost certainly what he had in mind, and if he wanted to cut up rough about it, Dirk would have no option but to start handing out some serious statistics. Nobody got murdered before lunch. But nobody. People weren\'t up to it. You needed a good lunch to get both the blood-sugar and blood-lust levels up. Dirk had the figures to prove it.'
+            '<<Six-thirty|5k:1>> was clearly a preposterous time and he, the client, obviously hadn\'t meant it seriously. A civilised <<six-thirty|5k:1>> for <<twelve noon|13>> was almost certainly what he had in mind, and if he wanted to cut up rough about it, Dirk would have no option but to start handing out some serious statistics. Nobody got murdered before lunch. But nobody. People weren\'t up to it. You needed a good lunch to get both the blood-sugar and blood-lust levels up. Dirk had the figures to prove it.'
           ],
           [
             1,

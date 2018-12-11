@@ -110,16 +110,18 @@ sub search_zip {
                     $line = do_match($line);
                 }
 
-                my ($time_bit) = $line =~ m{<< ([^|>]+) [|] \d+ \w? (:\d)? >>}x;
-                my @times = extract_times("<<$time_bit|88>>")
-                    or die "Unable to extract time from '$time_bit': $line";
+                if (my ($time_bit) = $line =~ m{<< ([^|>]+) [|] \d+ \w? (:\d)? >>}x) {
+                    # We can lose the match when we add context
+                    my @times = extract_times("<<$time_bit|88>>")
+                        or die "Unable to extract time from '$file' '$time_bit': $line";
 
-                my ($t) = split /: /, $times[0];
+                    my ($t) = split /: /, $times[0];
 
-                push @res, [1, "[$t] $basename ($name) - $time_bit", $line];
+                    push @res, [1, "[$t] $basename ($name) - $time_bit", $line];
 
-                print $line, "\n\n"
-                    unless $output_dump;
+                    print $line, "\n\n"
+                        unless $output_dump;
+                }
             }
 
         }

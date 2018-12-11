@@ -26,7 +26,9 @@ my $morn_re    = qr{ morn(ing)? | mornin $sq? | after[-\s]?noon | eve(ning)? }xi
 my $timeday_re = qr{ $morn_re | day | night }xin;
 
 # Special named times
-my $noon_re     = qr{ ( high \s+ )? noon (-? (day | time | tide) )? | mid[-\s]*day }xin;
+my $noon_re     = qr{ ( ( twelve | 12 | high ) \s+ )? noon (-? (day | time | tide) )?
+                    | mid[-\s]*day
+                    }xin;
 my $midnight_re = qr{ midnight (?! \s+ oil ) }xin;
 my $ecclesiastical_re =
     qr{ # Ecclesiastical times -- https://en.wikipedia.org/wiki/Liturgy_of_the_Hours
@@ -358,7 +360,7 @@ sub do_match {
         if $line =~
             m{ \b ( colts? | filly | fillies | stallions?
                   | odds \s+ (at | of) | betting
-                  | interest | ratio | advantage | superiority
+                  | interest | ratio | advantage | superiority | proportion
                   ) \b
              }xin;
 
@@ -662,7 +664,7 @@ sub get_matches {
                     | between \s+ $min_word_re \s+ and \s+
                     | ( $min_word_re | a ) \s+ (minute s? \s+)? or \s+
                     )?
-                    ( $min_word_re | \d{1,2} | a | a \s+ few ) ( \s+ | [-] )
+                    ( $min_re | a | a \s+ few ) ( \s+ | [-] )
                     ( minute s? ,? \s+ )? ( good ,? \s+ )?
                     ( and ( \s+ | [-] )
                             ( a \s+ half | 1/2 | a \s+ quarter | 1/4 | twenty
@@ -732,15 +734,15 @@ sub get_matches {
                      ( \w+ \s+ )?
                      $hour_word_re
                    )
-                    ( (?<t2> \s+ $in_the_re ) \b
-                    | (?<t2> ,? \s* $ampm_re )
-                    | (?<po>
-                        \s+ the  \s+ ( next | following ) \s+ $timeday_re
-                      | \s+ for  \s+ $meal_times
-                      | \s+ on   \s+ ( the \s+ )? $weekday_re
-                      | \s+ that \s+ $timeday_re
-                      | \s+ $today_re
-                      )
+                   ( (?<t2> \s+ $in_the_re ) \b
+                   | (?<t2> ,? \s* $ampm_re )
+                   | (?<po>
+                       \s+ the  \s+ ( next | following ) \s+ $timeday_re
+                     | \s+ for  \s+ $meal_times
+                     | \s+ on   \s+ ( the \s+ )? $weekday_re
+                     | \s+ that \s+ $timeday_re
+                     | \s+ $today_re
+                     )
                    )
                    $ba_re
                  (?{ $branch = "9h"; })
@@ -1492,12 +1494,14 @@ sub extract_times {
                   it \s+ (would | will) \s+ be \s+ (a \s+)?
                 | (?<rl> close \s+ upon ) \s+
                 )?
-                (             (?<hr>  $hour24_re | $all_named_times ) \s*
+                (                          (?<hr>  $hour24_re | $all_named_times   ) \s*
                   ( ( [-\s.:] | $ellips )+ (?<mn>  $min_re ( (?<rl> - ) $min_re )? ) \s* )?
                   ( ( [-\s.:] | $ellips )+ (?<sec> $sec_re ( (?<rl> - ) $min_re )? ) \s* )?
                 |   (?<hr>  $hour24_dig_re  )
                   ( (?<mn>  $minsec0_dig_re ) )?
                   ( (?<sec> $minsec0_dig_re ) )?
+                | (?<hr>  $hour24_word_re ) \s*
+                  (?<mn>  $min_word_re    ) \s*
                 )
                 ( \s+ $oclock_re )?
                 ( [,]? \s* (?<am> $ampm_re   ) )?
@@ -1592,7 +1596,7 @@ sub extract_times {
 
               | # One hour and a quarter
                 ( (?<rl> $rel_at_words ) \s+ )?
-                  (?<hr> $hour_re ) \s+ hours? \s+ and \s+ a \s+
+                  (?<hr> $hour24_re ) \s+ hours? \s+ and \s+ a \s+
                   (?<mn> $fraction_re )
                 ( ,? \s+ (?<am> $ampm_re ) )?
                 (?{ $branch = "8"; })
