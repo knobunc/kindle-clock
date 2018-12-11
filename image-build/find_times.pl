@@ -56,13 +56,16 @@ sub search_zip {
         my $contents = $member->contents();
         utf8::decode($contents);
 
-        next unless $contents =~ m{( \A \Q<?xml \E [^>]+ [?]> \r?\n
+        next unless $contents =~ m{( \A \Q<?xml \E [^>]+ [?]> \R+
+                                     ( <!DOCTYPE \s+ html \s+ [^>]+> \R+ )?
                                      \Q<html \E
                                    | \Q<html xmlns="http://www.w3.org/1999/xhtml"\E
                                    )
                                   }x;
         next unless $contents =~ m{ content="(text/html|\Qhttp://www.w3.org/1999/xhtml\E)
                                   | \Q<meta content="application/xhtml+xml\E
+                                  | <!DOCTYPE \s+ html \s+ PUBLIC
+                                  | \Q<html \E
                                   }x;
         $members_seen = 1;
 
@@ -94,7 +97,7 @@ sub search_zip {
 
             $line = do_match($line);
 
-            if ($line =~ /<</) {
+            if ($line =~ m{<< ([^|>]+) [|] \d+ \w? (:\d)? >>}x) {
                 # We had a match
 
                 if (length($lines[$i]) < SHORT_LINE_LENGTH) {

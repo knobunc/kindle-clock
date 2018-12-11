@@ -660,7 +660,7 @@ sub get_matches {
                 (?<t1>
                   ( ( $rel_words \s+
                     | between \s+ $min_word_re \s+ and \s+
-                    | $min_word_re \s+ or \s+
+                    | ( $min_word_re | a ) \s+ (minute s? \s+)? or \s+
                     )?
                     ( $min_word_re | \d{1,2} | a | a \s+ few ) ( \s+ | [-] )
                     ( minute s? ,? \s+ )? ( good ,? \s+ )?
@@ -768,14 +768,14 @@ sub get_matches {
                 (?<li> meet \s+ me \b [^.!?]* \s+ at \s+
                 |      start \s+ by \s+ ( the \s+ )?
                 )
-                (?<t1> $hour24_re [-\s.]+ $min_re ( ,? \s* $ampm_re )? )
+                (?<t1> $hour24_re ( - | \s+ | [.] ) $min_re ( ,? \s* $ampm_re )? )
                 $ba_re
                 (?{ $branch = "5c"; })
               }xin;
     # here at seven thirty, be at six forty-five
     push @r,qr{ $bb_re
                 (?<pr> ( here | be ) \s+ at \s+ )
-                (?<t1> $hour24_re [-\s.]+ $min_word_re ( ,? \s* $ampm_re )?)
+                (?<t1> $hour24_re ( - | \s+ | [.] ) $min_word_re ( ,? \s* $ampm_re )?)
                 $ba_re
                 (?{ $branch = "5e"; })
               }xin;
@@ -921,8 +921,8 @@ sub get_matches {
     push @r,qr{ (?<li> $not_in_match )
                 (?<t1> ( $rel_words \s+ )?
                   $hour_re
-                  ( [-\s.]+ $min_word_re )?
-                  ( [-\s.]+ $sec_word_re )?
+                  ( ( - | \s+ | [.] ) $min_word_re )?
+                  ( ( - | \s+ | [.] ) $sec_word_re )?
                   ,? \s* $ampm_re
                 )
                 $ba_re
@@ -1005,8 +1005,8 @@ sub get_matches {
     push @r,qr{ (?<li> $not_in_match )
                 (?<pr> ( $twas_re | at | by ) \s+ )
                 (?<t1>
-                  $hour_word_re ( [\s\.]+ | [-] ) $min_word_re
-                  ( \s* ... \s* $low_num_re )? ( ,? \s* $ampm_re )?
+                  $hour_word_re ( \s+ | \s* $ellips \s* | [-] ) $min_word_re
+                  ( \s* $ellips \s* $low_num_re )? ( ,? \s* $ampm_re )?
                 )
                 ( $never_follow_times_re (*SKIP)(*FAIL) )?
                 $ba_re
@@ -1018,8 +1018,8 @@ sub get_matches {
                 (?<t1>
                   in \s+ ( $rel_words \s+ )? $min_re \s+ ( minutes? \s+ )?
                   it \s+ (would | will) \s+ be \s+ (a \s+)?
-                  $hour24_word_re ( ( [\s\.]+ | [-] ) $min_word_re )?
-                  ( \s* ... \s* $low_num_re )?
+                  $hour24_word_re ( ( \s+ | \s* $ellips \s* | [-] ) $min_word_re )?
+                  ( \s* $ellips \s* $low_num_re )?
                   ( ,? \s* $ampm_re )?
                   ( \s+ $oclock_re )?
                 )
@@ -1563,12 +1563,17 @@ sub extract_times {
                   (?<n1> $min_re ) \s+ ( minutes? \s+ )?
                   it \s+ (would | will) \s+ be \s+ (a \s+)?
                 )?
-                ( ( (?<m2> $min_re ) \s+ minutes? \s+ )?
-                  (?<rl> $rel_at_words ) \s+ ( a \s+ )?
+                ( ( (?<rl2>
+                      ( $min_re | a (\s+ few)? | just (\s+ a)? ) \s+ ( minute s? \s+ )?
+                      ( or \s+ $min_re \s+ )?
+                      (before | after)
+                    ) \s+
+                  | (?<rl> $rel_at_words ) \s+ ( a \s+ )?
+                  )?
                   ( the \s+ )?
                 )?
                   (?<mn> $fraction_re ) [-\s]+
-                  (?<dir> $till_re ) \s+
+                  (?<dir> $till_re ) [-\s]+
                   (?<hr> $hour_re )
                 ( \s+ $oclock_re )?
                 ( ,? \s+ (?<am> $ampm_re ) )?
@@ -1630,7 +1635,7 @@ sub extract_times {
               \z}xin)
         {
             # Save the captured values
-            my @k = qw{ rl hr mn m2 m3 n1 sec dir am branch };
+            my @k = qw{ rl hr mn m2 rl2 m3 n1 sec dir am branch };
             my %c; @c{@k} = @+{@k};
             $c{branch} = $branch;
 
@@ -1642,6 +1647,7 @@ sub extract_times {
             my $sec  = defined $c{sec} ? 1 : 0;  # Seconds present?
             my $hour = $c{hr}  // 0;             # The base hour
             my $rel  = $c{rl}  // '';            # The relative phrase
+            my $rel2 = $c{rl2} // '';            # A second relative phrase (or two)
             my $ampm = $c{am};                   # AM or PM?
             my $dir  = $c{dir} // '';            # Whether the time is before or after the base hour
 
@@ -1836,6 +1842,23 @@ sub extract_times {
                 $min -= min2num($n3);
             }
 
+            # Handle the rel2 phrase "a minute or two before"
+            if ($rel2 =~ m{\A (?<a> $min_re | a (\s+ few)? | just (\s+ a)? ) \s+ ( minute s? \s+ )?
+                              ( or \s+ (?<b> $min_re) \s+ )?
+                              (?<r> before | after )
+                           \z}xin)
+            {
+                my $a = min2num($+{a});
+                my $b = min2num($+{b} // 0);
+                my $r = $+{r};
+                if ($r =~ $before_re) {
+                    $min -= $a;
+                }
+                else {
+                    $min += $a;
+                }
+            }
+
             # If we are in the afternoon then we are absolute
             $abs_hour = 1 if $hour > 12;
 
@@ -1844,7 +1867,8 @@ sub extract_times {
 
             my @hours = $hour;
             my @mins  = $min;
-            my ($low, $high, $exp) = get_spread($rel, $dir, $c{mn});
+            my ($low, $high, $exp) =
+                get_spread(make_c_str(\%c, \@k), $rel, $dir, $c{mn}, $c{m2}, $c{rl2});
 
             $high += ( $adj || 0 );
             if ($permute) {
@@ -1875,7 +1899,7 @@ sub extract_times {
                     $exp = $exp . ' '
                         if $exp ne '';
 
-                    my $time = "$exp$t: " . join(" ",  map { defined $c{$_} ? "$_<$c{$_}>" : () } @k );
+                    my $time = "$exp$t: " . make_c_str(\%c, \@k);
 
                     push @times, $time;
                 }
@@ -1884,6 +1908,11 @@ sub extract_times {
     }
 
     return @times;
+}
+
+sub make_c_str {
+    my ($c, $k) = @_;
+    return join(" ",  map { defined $c->{$_} ? "$_<$c->{$_}>" : () } @$k );
 }
 
 sub fix_time {
@@ -1915,6 +1944,10 @@ sub min2num {
     return 0  if $min =~ m{\A ( oh \s* )+ \z}xin;
     return 1  if $min =~ m{\A ( a ) \z}xin;
 
+    # Approximate times
+    return 3  if $min =~ m{\A ( a \s+ few ) \z}xin;
+    return 1  if $min =~ m{\A ( just (\s+ a)? ) \z}xin;
+
     # Fractions
     return 15 if $min =~ m{\A ( quarter | 1/4 ) \z}xin;
     return 20 if $min =~ m{\A ( third   | 1/3 ) \z}xin;
@@ -1922,7 +1955,7 @@ sub min2num {
     return 45 if $min =~ m{\A ( three [-\s]+ quarters
                               | third \s+ quarter
                               | 3/4
-                              ) \z}xin;
+                               ) \z}xin;
 
     # Lose the leading oh-
     $min =~ s{\A ( oh [-\s]+ ) }{}xin;
@@ -1934,26 +1967,28 @@ sub min2num {
 }
 
 sub get_spread {
-    my ($rel, $dir, $min) = @_;
+    my ($c, $rel, $dir, $min, $m2, $rl2) = @_;
 
     if ($rel eq '' and defined $dir and $dir ne '' and not defined $min) {
         return (-9, -1, '<')  if $dir =~ $before_re;
         return ( 1,  9, '>')  if $dir =~ $after_re;
     }
 
-    return (  0,  0, ''  )  if $rel eq '';
-    return (-15, -5, '<<')  if $rel =~ m{\A $far_before_re   \z}xin;
-    return ( -9, -1, '<' )  if $rel =~ m{\A ( $short_before_re
-                                      | close ( \s+ upon )?
-                                      ) \z}xin;
-    return ( -6,  6, '~' )  if $rel =~ m{\A $around_re       \z}xin;
-    return (  0,  6, '~' )  if $rel =~ m{\A $on_or_after_re  \z}xin;
-    return (  1,  9, '>' )  if $rel =~ m{\A $short_after_re  \z}xin;
-    return (  5, 15, '>>')  if $rel =~ m{\A $far_after_re    \z}xin;
+    if (not $rl2) {
+        return (  0,  0, ''  )  if $rel eq '';
+        return (-15, -5, '<<')  if $rel =~ m{\A $far_before_re   \z}xin;
+        return ( -9, -1, '<' )  if $rel =~ m{\A ( $short_before_re
+                                                | close ( \s+ upon )?
+                                                ) \z}xin;
+        return ( -6,  6, '~' )  if $rel =~ m{\A $around_re       \z}xin;
+        return (  0,  6, '~' )  if $rel =~ m{\A $on_or_after_re  \z}xin;
+        return (  1,  9, '>' )  if $rel =~ m{\A $short_after_re  \z}xin;
+        return (  5, 15, '>>')  if $rel =~ m{\A $far_after_re    \z}xin;
+    }
 
     if (defined $dir and $dir ne '') {
         if ($rel =~ m{\A ( (?<m> $min_re ) \s+ or
-                     | (?<r> a \s+ few | just )
+                     | (?<r> a \s+ few | just (\s+ a)? )
                      )
                      \z}xin)
         {
@@ -1981,9 +2016,41 @@ sub get_spread {
 
             # Since we've already consumed the first number as minutes, we need to adjust by that
             $b -= $a;
-            $a  = 0;
 
             if ($dir =~ $before_re) {
+                return (-$b, 0, '-');
+            }
+            return (0, $b, '-');
+        }
+        elsif ($rl2 and
+               $rl2 =~ m{\A (?<a> $min_re | a (\s+ few)? | just (\s+ a)? ) \s+ ( minute s? \s+ )?
+                            ( or \s+ (?<b> $min_re) \s+ )?
+                            (?<r> before | after )
+                         \z}xin)
+        {
+            my ($a, $b, $r) = @+{qw{ a b r }};
+            if ($a =~ m{\A a \s+ few \z}xin) {
+                return (-2, 2, '-');
+            }
+            elsif ($a =~ m{\A just \z}xin) {
+                if ($r =~ $before_re) {
+                    return (-3, 0, '-');
+                }
+                else {
+                    return (0, 3, '-');
+                }
+            }
+            elsif ($a =~ m{\A just \s+ a \z}xin or not defined $b) {
+                return (0, 0, '');
+            }
+
+            $a = min2num($a);
+            $b = min2num($b);
+
+            # Since we've already consumed the first number as minutes, we need to adjust by that
+            $b -= $a;
+
+            if ($r =~ $before_re) {
                 return (-$b, 0, '-');
             }
             return (0, $b, '-');
