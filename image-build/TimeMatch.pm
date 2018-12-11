@@ -405,7 +405,7 @@ sub do_match {
     $line =~ s{<< ([^|>]+) [|] (\d+ \w?) :TIMEY >>}{<<$1|$2:$is_timey>>}xg;
 
     # Get absolute words out
-    $line =~ s{<< ( ( at | by ) \s+ )}{$1<<}xgi;
+    $line =~ s{<< ( ( at | by | until ) \s+ )}{$1<<}xgi;
 
     # Undo the masks (unmask)
     $line =~ s{<< ( [^>]+ ) \| [yx]\d+\w? >>}{$1}xgi
@@ -1728,6 +1728,7 @@ sub extract_times {
                         if ($rel =~ m{\A ( $far_before_re
                                          | $short_before_re
                                          | close ( \s+ upon )?
+                                         | before
                                          ) \z}xin
                             )
                         {
@@ -1745,7 +1746,7 @@ sub extract_times {
                             confess "Can't parse '$rel'";
                         }
 
-                        $rs .= " ";
+                        $rs .= " " if $rs ne '';
                         $ts =~ s{\A around \s }{}xin;
                     }
 
