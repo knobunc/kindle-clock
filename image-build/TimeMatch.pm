@@ -731,7 +731,7 @@ sub get_matches {
               }xin;
 
     # after eleven the next day
-    push @r,qr{ \b (?<t1> ( $rel_words | ( close \s+ )? upon ) \s+
+    push @r,qr{ \b (?<t1> ( $rel_words | (?<! turned \s) ( close \s+ )? upon ) \s+
                      $hour_word_re
                    )
                    ( (?<t2> \s+ $in_the_re ) \b
@@ -1542,9 +1542,9 @@ sub extract_times {
 
               | # 11h20m, 11h20, 3 hr 8 m p.m.
                 ( (?<rl> $rel_at_words ) \s+ )?
-                  (?<hr> $hour_dig_re | $hour24_re ) \s* ( h | hr    | hours? )  \s*
+                  (?<hr> $hour_dig_re   | $hour24_re ) \s* ( h | hrs?  | hours?   ) \s*
                 ( \s+ and \s+ | , \s+ )?
-                  (?<mn> $minsec_dig_re | $min_re ) \s* ( m | mins? | minutes?  )?
+                  (?<mn> $minsec_dig_re | $min_re    ) \s* ( m | mins? | minutes? )?
                 ( ,? \s+ (?<am> $ampm_re ) )?
                 (?{ $branch = "3"; })
 
@@ -1606,11 +1606,11 @@ sub extract_times {
                 ( (?<rl> $rel_at_words ) \s+ )?
                   (?<hr> $hour24_re ) \??
                   [-\s]+ $oclock_re
-                ( ,? \s+ (?<am> $ampm_re ) )?
                 ( \s+ ( and \s+ )?
                   (?<mn> $min_re | $fraction_re ) \s*
                   minutes?
                 )?
+                ( ,? \s+ (?<am> $ampm_re ) )?
                 (?{ $branch = "7"; })
 
               | # One hour and a quarter
