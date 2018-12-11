@@ -14,15 +14,17 @@ use Lingua::EN::Words2Nums;
 
 
 # Punctuation
-my $phrase_punc    = qr{ [.…;:?!,]    }xin; # Phrase delimiter
-my $phrase_punc_nc = qr{ [.…;:?!]     }xin; # Same, but with no comma
-my $sq             = qr{ ['‘’´]       }xin; # Single quote
-my $aq             = qr{ ['"‘’“”]     }xin; # All quotes
-my $hyph           = qr{ [-—]         }xin; # Hyphens
-my $ellips         = qr{ … | [.]{3,6} }xin; # Ellipsis
+my $ellips         = qr{ … | ((\x{a0}|\x{200b})[.]){3} | [.]{3,6} }xin; # Ellipsis
+my $phrase_punc    = qr{ [.;:?!,] | $ellips   }xin; # Phrase delimiter
+my $phrase_punc_nc = qr{ [.;:?!]  | $ellips   }xin; # Same, but with no comma
+my $sq             = qr{ ['‘’´]               }xin; # Single quote
+my $aq             = qr{ ['"‘’“”]             }xin; # All quotes
+my $hyph           = qr{ [-—]                 }xin; # Hyphens
 
 # Times of day
-my $morn_re    = qr{ morn(ing)? | mornin $sq? | after[-\s]?noon | eve(ning)? }xin;
+my $morn_re    = qr{ ( (late | early) \s+)?
+                     ( morn(ing)? | mornin $sq? | after[-\s]?noon | eve(ning)? )
+                   }xin;
 my $timeday_re = qr{ $morn_re | day | night }xin;
 
 # Special named times
@@ -134,6 +136,7 @@ my $hour_h_re = qr{ $hour_h_dig_re | $hour_h_word_re }xin; # The high hours 13-2
 # The am / pm permutations
 my $in_the_re = qr{ ( ( in \s+ the \s+ ( (?! same) \w+ \s+ ){0,4}?
                       | ( this | that ) \s+ ( \w+ \s+ ){0,2}?
+                      | $hyph \s* (?!day)                          # Don't match five-day
                       )
                       $timeday_re
                     | at \s+ ( dawn | dusk | night | sunset | sunrise )
@@ -293,6 +296,7 @@ my $never_follow_times_exp_re =
         | degrees | °
         | percent | %
         | centimeter | cm | meter | kilometer | km | klick
+        | centimetre | metre | kilometre
         | inch | inches | foot | feet | ft | yard | yd | mile | mi | knot | kt | block
         | pound | lb | kilogram | kg | ton | tonne | kiloton
         | cubic | square
@@ -363,8 +367,9 @@ sub do_match {
             m{ \b ( colts? | filly | fillies | stallions?
                   | odds \s+ (at | of) | betting
                   | interest | ratio | advantage | superiority | proportion
-                  | back \s (him | her | it)
-                  | give \s (you | odds)
+                  | back \s+ (him | her | it)
+                  | give \s+ (you | odds)
+                  | (good | bad | the) \s+ odds
                   ) \b
              }xin;
 

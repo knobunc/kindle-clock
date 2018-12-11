@@ -5577,7 +5577,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [17:05]: approximately 5:05 p.m.',
-            'At <<approximately 5:05 p.m.|2a>> Joe became aware of a man standing close to the table, <<about two|9:0>> metres away, talking in Mandarin into a mobile phone. He was a middle-aged Han wearing cheap leather slip-on shoes, high-waisted black trousers and a white short-sleeved shirt.'
+            'At <<approximately 5:05 p.m.|2a>> Joe became aware of a man standing close to the table, about two metres away, talking in Mandarin into a mobile phone. He was a middle-aged Han wearing cheap leather slip-on shoes, high-waisted black trousers and a white short-sleeved shirt.'
           ],
           [
             1,
