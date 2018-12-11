@@ -35,8 +35,8 @@ my $midnight_re = qr{ midnight (?! \s+ oil ) }xin;
 my $ecclesiastical_re =
     qr{ # Ecclesiastical times -- https://en.wikipedia.org/wiki/Liturgy_of_the_Hours
         # Prime and Nones are handled specially
-        matins  | lauds    | terce      | sext
-      | vespers | compline | vigils     | nocturns
+        matins  | lauds    | terce    | sext
+      | vespers | evensong | compline | vigils     | nocturns
       | night \s+ office
       | ( dawn | early \s+ morning | mid-morning | mid-?day | mid-afternoon | evening | night )
         \s+ prayer
@@ -298,16 +298,18 @@ my $never_follow_times_exp_re =
         | centimeter | cm | meter | kilometer | km | klick
         | centimetre | metre | kilometre
         | inch | inches | foot | feet | ft | yard | yd | mile | mi | knot | kt | block
+        | g $sq? s
         | pound | lb | kilogram | kg | ton | tonne | kiloton
         | cubic | square
-        | hundred | thousand | million | billion | dozen | score | gross | grand
+        | ( hundred | thousand | million | billion ) (th)?
+        | dozen | score | gross | grand
         | ( \w+ \s+)? $time_periods_re
         | century | centuries | decade | millenium | millenia
-        | third | half | halve | quarter
+        | third | half | halve | quarter | fifth | sixth | seventh | eighth | nineth | tenth
         | dollar | buck | cent | pound | quid
         | shilling | guinea | penny | pennies | yuan | galleon | crown
         | and \s+ sixpence
-        | kid | children | man | men | woman | women | girl | boy
+        | kid | children | man | men | woman | women | girl | boy | male | female
         | family | families | person | people
         | round | turn   | line
         | book  | volume | plate | illustration | page | chapter | verse | psalm
@@ -473,7 +475,11 @@ sub get_masks {
               }xin;
 
     # one's, the only one
-    push @r,qr{ (?<t1> \b one $sq s \b | \b the \s+ only \s+ one \b )
+    push @r,qr{ (?<t1> \b one $sq s \b
+                | \b the \s+ only \s+ one \b
+                | \b saw \s+ one \b
+                | \b fallen \s+ one \b
+                )
                 (?{ $branch = "x3"; })
               }xin;
 
@@ -1737,6 +1743,7 @@ sub extract_times {
                          'sext'         => ["noon",           undef,      00],
                          'nones'        => ["02:00 PM",       "03:00 PM", 60], # Between 2:00 & 3:00 PM
                          'vespers'      => ["around 4:30 PM", undef,      00],
+                         'evensong'     => ["around 4:30 PM", undef,      00],
                          'compline'     => ["around 6:00 PM", undef,      00],
                         );
                     my $tr = $time_strs{$h}
