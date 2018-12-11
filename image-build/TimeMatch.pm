@@ -294,7 +294,7 @@ my $never_follow_times_exp_re =
         | percent | %
         | centimeter | cm | meter | kilometer | km | klick
         | inch | inches | foot | feet | ft | yard | yd | mile | mi | knot | kt | block
-        | pound | lb | kilogram | kg | ton | tonne
+        | pound | lb | kilogram | kg | ton | tonne | kiloton
         | cubic | square
         | hundred | thousand | million | billion | dozen | score | gross | grand
         | ( \w+ \s+)? $time_periods_re
@@ -324,6 +324,7 @@ my $never_follow_times_re = qr{ [-\s]* $never_follow_times_exp_re $ba_re }xin;
 my $branch    = "x";
 my $is_timey  = 0;
 my $is_racing = 0;
+my $is_trainy = 0;
 
 sub do_match {
     my ($line, $raw) = @_;
@@ -364,6 +365,16 @@ sub do_match {
                   | interest | ratio | advantage | superiority | proportion
                   | back \s (him | her | it)
                   | give \s (you | odds)
+                  ) \b
+             }xin;
+
+    ## Does this look like a train paragraph?  If so, then times of the form 'eleven-five'
+    # are okay
+    $is_trainy = 0;
+    $is_trainy = 1
+        if $line =~
+            m{ \b ( train | station
+                  | Waterloo
                   ) \b
              }xin;
 
@@ -1368,7 +1379,12 @@ sub get_matches {
                 (?{ $branch = "5k:TIMEY";
                     my $mn = $+{mn};
                     if ($mn =~ m{\A $low_num_re \z}xin) {
-                        $branch = "5l:TIMEY";
+                        if ($is_trainy) {
+                            $branch = "5l:TIMEY";
+                        }
+                        else {
+                            $branch = "x5l";
+                        }
                     }
                   })
               }xin;
