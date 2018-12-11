@@ -5677,12 +5677,12 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [17:42]: around 5.45',
-            'Janice is not waiting for him in the lounge or beside the pool when at last <<around 5.45|3:0>> they come home from playing the par-5 eighteenth. Instead one of the girls in their green and white uniforms comes over and tells him that his wife wants him to call home.'
+            'Janice is not waiting for him in the lounge or beside the pool when at last <<around 5.45|5m>> they come home from playing the par-5 eighteenth. Instead one of the girls in their green and white uniforms comes over and tells him that his wife wants him to call home.'
           ],
           [
             1,
             'Timestr [17:45]: around 5.45',
-            'Janice is not waiting for him in the lounge or beside the pool when at last <<around 5.45|3:0>> they come home from playing the par-5 eighteenth. Instead one of the girls in their green and white uniforms comes over and tells him that his wife wants him to call home.'
+            'Janice is not waiting for him in the lounge or beside the pool when at last <<around 5.45|5m>> they come home from playing the par-5 eighteenth. Instead one of the girls in their green and white uniforms comes over and tells him that his wife wants him to call home.'
           ],
           [
             1,

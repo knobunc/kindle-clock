@@ -171,7 +171,7 @@ my $short_before_re = qr{   $short_re \s+    before
                         |   just \s+ about
                         |   can $sq t \s+ be \s+ $far_before_re
                         }xin;
-my $around_re       = qr{ about
+my $around_re       = qr{ ( near \s+ )? about
                         | approximately
                         | around
                         }xin;
@@ -187,7 +187,7 @@ my $rel_words       = qr{ $far_before_re | $short_before_re
                         | $far_after_re  | $short_after_re
                         }xin;
 
-my $at_words        = qr{ until | at (\s+ last)? }xin;
+my $at_words        = qr{ until | at }xin;
 my $rel_at_words    = qr{ $at_words | $rel_words | before }xin;
 
 # Weekdays
@@ -405,7 +405,7 @@ sub do_match {
     $line =~ s{<< ([^|>]+) [|] (\d+ \w?) :TIMEY >>}{<<$1|$2:$is_timey>>}xg;
 
     # Get absolute words out
-    $line =~ s{<< ( ( at | by ) \s )}{$1<<}xgi;
+    $line =~ s{<< ( ( at | by ) \s+ )}{$1<<}xgi;
 
     # Undo the masks (unmask)
     $line =~ s{<< ( [^>]+ ) \| [yx]\d+\w? >>}{$1}xgi
@@ -1238,7 +1238,7 @@ sub get_matches {
                   ( ( $twas_re | only | because ) \s+)?
                 )
                 (?<t1>
-                  ( $rel_at_words | ( close \s+ )? upon | till | by ) \s+
+                  ( $rel_at_words | close \s+ upon | till | by ) \s+
                   ( (?<xx> $hour24_re ( [-:.] | \s+ )? $min0_re )
                   | One \s* (*SKIP)(*FAIL)
                   | $hour_re
@@ -1369,6 +1369,23 @@ sub get_matches {
                         $branch = "5l:TIMEY";
                     }
                   })
+              }xin;
+
+    # when at last around 5.45
+    push @r,qr{ (?<li>
+                  $not_in_match
+                  when \s+
+                  ( at \s+ (last \s+)? )?
+                )
+                (?<t1>
+                  $rel_words \s+
+                  ( $hour24nz_dig_re | 00 ) [-.] $minsec0_dig_re
+                  ( ,? \s* $ampm_re )? )
+                (?! $never_follow_times_re
+                |  $hyph+
+                )
+                $ba_re
+                (?{ $branch = "5m"; })
               }xin;
 
     # 3.00
