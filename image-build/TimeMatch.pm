@@ -1517,7 +1517,9 @@ sub extract_times {
                   | $lnr \s+ $lnr
                   ) \s*
                 )?
-                ( (?<sec> [:.] $minsec_dig_re ( [-.] $minsec_dig_re )? ) \s* )?
+                (?<sec> [:.] $minsec_dig_re ( [-.] $minsec_dig_re )?
+                |            $minsec0_dig_re
+                )? \s*
                 (?<am> h | hrs | hours )
                 (?{ $branch = "2"; })
 
@@ -1578,7 +1580,7 @@ sub extract_times {
                 )?
                   (?<mn> $fraction_re ) [-\s]+
                   (?<dir> $till_re ) [-\s]+
-                  (?<hr> $hour_re )
+                  (?<hr> $hour24_re )
                 ( \s+ $oclock_re )?
                 ( ,? \s+ (?<am> $ampm_re ) )?
                 (?{ $branch = "6"; })
