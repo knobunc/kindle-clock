@@ -3717,7 +3717,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [11:30]: 11.30',
-            '\'It is now <<11.30|5a:0>>. The door to this room is shut, and will remain shut, barring emergencies, <<until 12.00|9:0>>. I am authorised to inform you that we are now under battle orders.'
+            '\'It is now <<11.30|5a:0>>. The door to this room is shut, and will remain shut, barring emergencies, until <<12.00|9:0>>. I am authorised to inform you that we are now under battle orders.'
           ],
           [
             1,

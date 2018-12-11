@@ -313,6 +313,7 @@ my $never_follow_times_exp_re =
         | on \s+ the \s+ field
         | ( tb | gb | mb | kb ) (p)? | baud
         | odds | more
+        | AD | CE | BC | BCE | A\.D\. | C\.E\. | B\.C\. | B\.C\.E\.
         )
         s?
       | [.,] \d
@@ -731,7 +732,6 @@ sub get_matches {
 
     # after eleven the next day
     push @r,qr{ \b (?<t1> ( $rel_words | ( close \s+ )? upon ) \s+
-                     ( \w+ \s+ )?
                      $hour_word_re
                    )
                    ( (?<t2> \s+ $in_the_re ) \b
