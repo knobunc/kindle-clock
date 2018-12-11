@@ -1,0 +1,405 @@
+$VAR1 = [
+          [
+            1,
+            '[ap 03:11] Higher-Order Perl_ Transforming Programs W - Mark Jason Dominus.epub (OEBPS/Text/Section0003.html) - 3.11',
+            "All of the foregoing discussion was by way of explaining just why our memoize function worked. While it\x{2019}s tempting to dismiss this as a triviality \x{2014} \x{201c}Of course it worked!\x{201d} \x{2014} it\x{2019}s worth noticing that in many languages it won\x{2019}t work and can\x{2019}t be made to work. Several important and complex features had to operate together: delayed garbage collection, bindings, generation of anonymous subroutines, and lexical closure. If you tried to implement a function like memoize in C, for example, you would get stuck, because C doesn\x{2019}t have any of those features. (See Section <<3.11|5a:0>>.)",
+          ],
+          [
+            1,
+            '[ap 09:59] Higher-Order Perl_ Transforming Programs W - Mark Jason Dominus.epub (OEBPS/Text/Section0003.html) - 1 to 10',
+            "use Memoize;
+sub iota {
+  my \$n = shift;
+  return [1 .. \$n];
+}
+memoize 'iota';
+
+\$i10 = iota(10);
+\$j10 = iota(10);
+pop \@\$i10;
+print \@\$j10;
+    The first call to iota(10) generates a new, fresh anonymous array of the numbers from <<1 to 10|10a:0>>, and returns a reference to this array. This reference is automatically placed in the cache, and is also stored into \$i10. The second call to iota(10) fetches the same reference from the cache and stores it into \$j10. Both \$i10 and \$j10 now refer to the same array \x{2014} we say that they are aliases for the array.",
+          ],
+          [
+            1,
+            '[03:00] Higher-Order Perl_ Transforming Programs W - Mark Jason Dominus.epub (OEBPS/Text/Section0003.html) - 3 AM',
+            "Let\x{2019}s consider a long-running network server program whose job is to sell some product, such as pizzas or weapons-grade plutonium. The cost of a pizza or a canister of plutonium includes the cost of delivery, which in turn depends on the current hour of the day and day of the week. Delivery late at night and on weekends is more expensive because fewer delivery persons are available and nobody likes to work at <<3 AM|5>>. The server might contain a function something like this:",
+          ],
+          [
+            1,
+            '[ap 01:40] Higher-Order Perl_ Transforming Programs W - Mark Jason Dominus.epub (OEBPS/Text/Section0003.html) - 1.40',
+            "Length
+          # calls
+          calls / element
+        
+      
+      
+        
+          5
+          7
+          <<1.40|5a:0>>
+        
+        
+          10
+          26
+          <<2.60|5a:0>>
+        
+        
+          20
+          60
+          <<3.00|5a:0>>
+        
+        
+          40
+          195
+          4.87
+        
+        
+          80
+          417
+          <<5.21|5a:0>>
+        
+        
+          100
+          569
+          5.69
+        
+        
+          1000
+          9502
+          <<9.50|5a:0>>
+        
+        
+          10000
+          139136
+          13.91
+        
+      
+    
+    I got the \x{201c}# calls\x{201d} column by generating a list of random numbers of the indicated length and sorting it with a comparator function that incremented a counter each time it was called. The number of calls will vary depending on the list and on the comparator function, but these values are typical.",
+          ],
+          [
+            1,
+            '[ap 10:21] Higher-Order Perl_ Transforming Programs W - Mark Jason Dominus.epub (OEBPS/Text/Section0003.html) - 10.21',
+            'Function
+          # calls
+          Elapsed
+        
+      
+      
+        
+          printout
+          1
+          <<10.21|5a:0>>
+        
+        
+          searchfor
+          1
+          0.34
+        
+        
+          page
+          1
+          0.06
+        
+        
+          check_file
+          18
+          0.01
+        
+      
+    
+    This is output from the perldoc program that comes standard with Perl. From this output, we can see that most of the execution time is occurring in the printout function; if we want to make perldoc faster, this is the function we should concentrate on.',
+          ],
+          [
+            1,
+            '[ap 00:34] Higher-Order Perl_ Transforming Programs W - Mark Jason Dominus.epub (OEBPS/Text/Section0004.html) - 12:34',
+            "\@matches = (\"<<12:34|2>>:56\" =\x{2dc} m/(\\d+)/g);
+    Here \@matches contains (\"12\", \"34\", \"56\"). In scalar context, m//g becomes the NEXTVAL operation for an iterator inside the regex, producing a different match each time:",
+          ],
+          [
+            1,
+            '[ap 00:34] Higher-Order Perl_ Transforming Programs W - Mark Jason Dominus.epub (OEBPS/Text/Section0004.html) - 12:34',
+            "while (\"<<12:34|2>>:56\" =\x{2dc} m/(\\d+)/g) {
+  # do something with \$1
+}
+		We will see this useful and little-known feature in more detail in Chapter 8. Now we\x{2019}ll see how we can build our own iterators.",
+          ],
+          [
+            1,
+            '[ap 09:00] Higher-Order Perl_ Transforming Programs W - Mark Jason Dominus.epub (OEBPS/Text/Section0004.html) - 0 to 9',
+            'The elements of the permutation pattern are like the wheels of an imaginary odometer. But where each wheel on a real odometer is the same size, and carries numbers from <<0 to 9|10a:0>> (or <<0 to 1|10a:0>> on planets where the odometer reads out in base 2), each wheel in the permutation odometer is a different size. The last one just hasa0onit; the next has just a 0 and a 1, and so on. But like a real odometer, each wheel turns one notch when the wheel to its right has completed a whole revolution.',
+          ],
+          [
+            1,
+            '[ap 08:14] Higher-Order Perl_ Transforming Programs W - Mark Jason Dominus.epub (OEBPS/Text/Section0004.html) - 08:14',
+            "208.190.220.160 - - [04/Aug/2001:<<08:14|2>>:29 -<<0400|18:0>>]
+ \"GET /\x{2dc}mjd/pictures/new.gif HTTP/1.1\" 200 95
+ \"http://perl.plover.com/\"
+ \"Mozilla/5.0 (Macintosh; U; PPC; en-US; rv:0.9.2) Gecko/20010629\"
+195.3.19.207 - - [04/Aug/2001:<<13:39|2>>:11 -<<0400|18:0>>]
+ \"GET /pics/small-sigils.gif HTTP/1.1\" 200 1586
+ \"http://perl.plover.com/\"
+ \"Mozilla/4.0 (compatible; MSIE <<5.01|5a:0>>; Windows NT 5.0; DigExt)\"
+192.94.94.33 - - [07/Aug/2001:<<12:06|2>>:34 -<<0400|18:0>>]
+ \"GET /yak/Identity/slide005.html HTTP/1.0\" 200 821
+ \"http://perl.plover.com/yak/Identity/slide004.html\"
+ \"Mozilla/4.6 [en] (X11; I; SunOS 5.8 sun4u)\"
+199.93.193.10 - - [13/Aug/2001:<<13:04|2>>:39 -<<0400|18:0>>]
+ \"GET /yak/dirty/miller_glenn_r.jpg HTTP/1.0\" 200 4376
+ \"http://perl.plover.com/yak/dirty/slide009.html\"
+ \"Mozilla/4.77 [en] (X11; U; SunOS 5.6 sun4u)\"
+216.175.77.248 - - [15/Aug/2001:<<14:25|2>>:20 -<<0400|18:0>>]
+ \"GET /yak/handson/examples/wordsort.pl HTTP/1.0\" 200 125
+ \"http://perl.plover.com:80/yak/handson/examples/\"
+ \"Wget/1.5.3\"
+194.39.218.254 - - [16/Aug/2001:<<07:44|2>>:02 -<<0400|18:0>>]
+ \"GET /pics/medium-sigils.gif HTTP/1.0\" 304
+ \"http://perl.plover.com/local.html\"
+ \"Mozilla/4.0 (compatible; MSIE <<5.01|5a:0>>; Windows NT 5.0)\"
+210.239.93.70 - msdw [22/Aug/2001:<<01:29|2>>:28 -<<0400|18:0>>]
+ \"GET /class/msdw-tokyo/ HTTP/1.0\" 401 469
+ \"http://perl.plover.com/class/\"
+ \"Mozilla/4.0 (compatible; MSIE 5.5; Windows NT 4.0)\"
+151.204.38.119 - - [25/Aug/2001:<<13:48|2>>:01 -<<0400|18:0>>]
+ \"GET /yak/path/hanoi06.gif HTTP/1.0\" 200 239
+ \"http://perl.plover.com/yak/path/\"
+ \"Mozilla/4.77 [en] (WinNT; U)\"
+    One of the common tasks of system administrators is to search through the log files looking for certain matching records; for example, the last time a certain user visited, or the last time a certain page was fetched. In fact, Perl itself first rose to prominence as a tool for helping system administrators answer exactly these sorts of questions. A typical query will look something like this:",
+          ],
+          [
+            1,
+            '[00:32] Higher-Order Perl_ Transforming Programs W - Mark Jason Dominus.epub (OEBPS/Text/Section0005.html) - 0032',
+            "perl  Perl  pErl  peRl
+perL  PErl  PeRl  PerL
+pERl  pErL  peRL  PERl
+PErL  PeRL  pERL  PERL
+    we choose \x{201c}perl\x{201d} as the canonical representative. Choosing the all-uppercase member of each group would work as well, of course, as would any other method that chooses exactly one representative from every equivalence class. Another familiar example is numerals: We might consider the numerals \x{201c}<<0032|18:0>>.50,\x{201d} \x{201c}32.5,\x{201d} and \x{201c}325e-01\x{201d} to be equivalent; when Perl converts these strings to an internal floating-point format, it is converting them to a canonical representation so that equivalent numerals have the same representation.",
+          ],
+          [
+            1,
+            '[00:00] Higher-Order Perl_ Transforming Programs W - Mark Jason Dominus.epub (OEBPS/Text/Section0005.html) - 0',
+            "Similarly, \$BRANCH will record where in the function we left off to make a recursive call. This is another thing Perl normally tracks internally. Initially, it\x{2019}s <<0|9d>>, indicating that we want to start at the top of the body. When we simulate a return from a recursive call, it will be <<1|9d>> or 2, telling us to pick up later on in the body where we left off:",
+          ],
+          [
+            1,
+            '[ap 01:00] Higher-Order Perl_ Transforming Programs W - Mark Jason Dominus.epub (OEBPS/Text/Section0006.html) - 1',
+            '1 Doubling 1
+2 Doubling 1
+Doubling 2
+4 Doubling 1
+Doubling 2
+Doubling 4
+8 Doubling 1
+Doubling 2
+Doubling 4
+Doubling 8
+16 Doubling 1
+...
+    The show() method starts by printing the head of the stream, which is <<1|9f>>. Then it goes to get the tail, using the tail() method:',
+          ],
+          [
+            1,
+            '[ap 01:00] Higher-Order Perl_ Transforming Programs W - Mark Jason Dominus.epub (OEBPS/Text/Section0006.html) - 1',
+            'sub tail {
+  my ($s) = @_;
+  if (is_promise($s->[1])) {
+    return $s->[1]->();
+  }
+  $s->[1];
+}
+    Since the tail is a promise, this forces the promise, which calls transform {...} $powers_of_2. transform() gets the head of $powers_of_2, which is <<1|9f>>, and doubles it, yielding a stream whose head is 2 and whose tail is a promise to double the rest of the elements of $powers_of_2. This stream is the tail of $powers_of_2, and show() prints its head, which is <<2|9f>>.',
+          ],
+          [
+            1,
+            '[ap 01:00] Higher-Order Perl_ Transforming Programs W - Mark Jason Dominus.epub (OEBPS/Text/Section0006.html) - 1',
+            "Each element of the stream depends on calculating the tail of the original stream, and every time we look at a new element, we calculate the tail of \$powers_of_2, including the act of doubling the first element. We\x{2019}re essentially computing each element from scratch by building it up from <<1|9c:0>>, and what we should be doing is building each element on the previous element. Our basic problem is that we\x{2019}re forcing the same promises over and over. But by now we have a convenient solution to problems that involve repeating the same work over and over: memoization. We should remember the result whenever we force a promise, and then if we need the same result again, instead of calling the promise function, we\x{2019}ll get it from the cache.",
+          ],
+          [
+            1,
+            '[14:18] Higher-Order Perl_ Transforming Programs W - Mark Jason Dominus.epub (OEBPS/Text/Section0006.html) - 14:18',
+            '706430 29/Jan/2003:<<14:18|2>>:30 29/Jan/2003:<<14:18|2>>:32 <boehm5@email.com> 1 1 0 0
+    This records the message ID number, the times at which the message was inserted into and removed from the queue, the sender, the total number of delivery attempts, and the number of attempts that were respectively successful, permanent failures, and temporary failures.',
+          ],
+          [
+            1,
+            '[ap 00:10] Higher-Order Perl_ Transforming Programs W - Mark Jason Dominus.epub (OEBPS/Text/Section0006.html) - 12:10',
+            "...
+707045 28/Jan/2003:<<12:10|2>>:03 28/Jan/2003:<<12:10|2>>:03 <Paulmc\@371.net> 1 1 0 0
+707292 28/Jan/2003:<<12:10|2>>:03 28/Jan/2003:<<12:10|2>>:06 <Paulmc\@371.net> 1 1 0 0
+707046 28/Jan/2003:<<12:10|2>>:06 28/Jan/2003:<<12:10|2>>:07 <Paulmc\@371.net> 4 3 1 0
+707293 28/Jan/2003:<<12:10|2>>:07 28/Jan/2003:<<12:10|2>>:07 <guido\@odiug.zope.com> 1 1 0 0
+707670 28/Jan/2003:<<12:10|2>>:06 28/Jan/2003:<<12:10|2>>:08 <spam-return-133409-\@plover.com-\@[]> 2 2 0 0
+707045 28/Jan/2003:<<12:10|2>>:07 28/Jan/2003:<<12:10|2>>:11 <guido\@odiug.zope.com> 1 1 0 0
+707294 28/Jan/2003:<<12:10|2>>:11 28/Jan/2003:<<12:10|2>>:11 <guido\@odiug.zope.com> 1 1 0 0
+707047 28/Jan/2003:<<12:10|2>>:22 28/Jan/2003:<<12:10|2>>:23 <ezmlm-return-10817-mjd-ezmlm=plover.com\@list.cr.yp.to> 1 1 0 0
+707048 28/Jan/2003:<<12:11|2>>:02 28/Jan/2003:<<12:11|2>>:02 <perl5-porters-return-71265-mjd-p5p2=plover.com\@perl.org> 1 1 0 0
+707503 24/Jan/2003:<<11:29|2>>:49 28/Jan/2003:<<12:11|2>>:35 <perl-qotw-discuss-return-1200-\@plover.com-\@[]> 388 322 2 64
+707049 28/Jan/2003:<<12:11|2>>:35 28/Jan/2003:<<12:11|2>>:45 <> 1 1 0 0
+707295 28/Jan/2003:<<12:11|2>>:41 28/Jan/2003:<<12:11|2>>:46 <perl6-internals-return-14784-mjd-perl6-internals=plover.com\@perl.org> 1 1 0 0
+...
+    That was all a lot of work, and at this point it\x{2019}s probably not clear why the stream method has any advantage over the more usual method of reading the file one record at a time, tracking the same data structures, and printing output records as we go, something like this:",
+          ],
+          [
+            1,
+            '[ap 00:11] Higher-Order Perl_ Transforming Programs W - Mark Jason Dominus.epub (OEBPS/Text/Section0006.html) - 12:11',
+            'A bigger advantage of the stream approach comes if we want to reorder the output records. As written, the output stream contains message records in the order in which the messages were removed from the queue; that is, the output is sorted by the third field. Suppose we want to see the messages sorted by the second field, the time at which each message was first sent. In the preceding example output, notice the line for message 707503. Although the time at which it was removed from the queue (<<12:11|2>>:35 on 28 January) is in line with the surrounding messages, the time it was sent (<<11:29|2>>:49 on 24 January) is quite different. Most messages are delivered almost immediately, but this one took more than four days to complete. It represents a message that was sent to a mailing list with 324 subscribers. Two of the subscribers had full mailboxes, causing their mail systems to temporarily refuse new message for these subscribers. After four days, the mail system finally gave up and removed the message from the queue. Similarly, message 707670 arrived a second earlier but was delivered (to India) a second later than message 707293, which was delivered (locally) immediately after it arrived.',
+          ],
+          [
+            1,
+            '[ap 11:29] Higher-Order Perl_ Transforming Programs W - Mark Jason Dominus.epub (OEBPS/Text/Section0006.html) - 11:29',
+            '...
+707503 24/Jan/2003:<<11:29|2>>:49 28/Jan/2003:<<12:11|2>>:35 <perl-qotw-discuss-return-1200-@plover.com-@[]> 388 322 2 64
+
+... (many records omitted) ...
+
+707045 28/Jan/2003:<<12:10|2>>:03 28/Jan/2003:<<12:10|2>>:03 <Paulmc@371.net> 1 1 0 0
+707292 28/Jan/2003:<<12:10|2>>:03 28/Jan/2003:<<12:10|2>>:06 <Paulmc@371.net> 1 1 0 0
+707046 28/Jan/2003:<<12:10|2>>:06 28/Jan/2003:<<12:10|2>>:07 <Paulmc@371.net> 4 3 1 0
+707670 28/Jan/2003:<<12:10|2>>:06 28/Jan/2003:<<12:10|2>>:08 <spam-return-133409-@plover.com-@[]> 2 2 0 0
+707293 28/Jan/2003:<<12:10|2>>:07 28/Jan/2003:<<12:10|2>>:07 <guido@odiug.zope.com> 1 1 0 0
+707045 28/Jan/2003:<<12:10|2>>:07 28/Jan/2003:<<12:10|2>>:11 <guido@odiug.zope.com> 1 1 0 0
+...
+    Even on a finite segment of the log file, cutsorting offers advantages over a regular sort. To use regular sort, the program must first read the entire log file into memory. With cutsorting, the program can begin producing output after only $QUEUE_LIFETIME days worth of records have been read in.',
+          ],
+          [
+            1,
+            '[ap 04:25] Higher-Order Perl_ Transforming Programs W - Mark Jason Dominus.epub (OEBPS/Text/Section0006.html) - 4.25',
+            "To get a better approximation, we repeat the process. The tangent line to the parabola at the point (1.5, 0.25) has the equation y = 3x \x{2212} <<4.25|5a:0>>. This line intersects the x-axis at 1.41667, which is correct to two decimal places.",
+          ],
+          [
+            1,
+            '[ap 02:55] Higher-Order Perl_ Transforming Programs W - Mark Jason Dominus.epub (OEBPS/Text/Section0008.html) - 2.55',
+            "Delivered-To: mjd-filter-deliver2\@plover.com
+Received: from localhost [127.0.0.1] by plover.com
+        with SpamAssassin (<<2.55|5a:0>> 1.174.<<2.19|9p>>-2003-05-19-exp);
+        Mon, 11 Aug 2003 <<16:22|2>>:12 -<<0400|18:0>>
+From: \"Doris Bower\" <yij447mrx\@yahoo.com.hk>
+To: webmaster\@plover.com
+Subject: LoseWeight Now with Pphentermine,Aadipex,Bontriil,PrescribedOnline,shipped
+  to Your Door fltynzlfoybv kie
+    There are five fields here; the second one, with the Received tag, consists of three physical lines. Lines that begin with whitespace are continuations of the previous line. So if the records we want are email header fields, the terminator pattern is /\\n(?!\\s)/. That is, it\x{2019}s a newline that is not followed by a whitespace.",
+          ],
+          [
+            1,
+            '[ap 02:12] Higher-Order Perl_ Transforming Programs W - Mark Jason Dominus.epub (OEBPS/Text/Section0009.html) - 212',
+            'The change on wire i wakes up the attached -node, which notices that both of its input wires now have values: Wire i has the value 212 and wire j has the value 32. The -node performs subtraction; it subtracts 32 from <<212|9c:0>> and sets its output wire k to the difference, 180.',
+          ],
+          [
+            1,
+            '[23:59] Higher-Order Perl_ Transforming Programs W - Mark Jason Dominus.epub (OEBPS/Text/Section0009.html) - one to 0',
+            "sub qualified_intrinsic_constraints {
+  \$_[0]->intrinsic_constraints->qualify(\$_[1]);
+}
+    As usual, the synthetic constraints for a type are rather more interesting. In the absence of any other information, an expression like P is interpreted as the constraint P = 0. Later, the P = 0 might be combined with a Q = 0 to produce P + Q = 0 or P \x{2212} Q = 0, and we\x{2019}ll see that we can treat P = Q as if it were P \x{2212} Q = 0. So figuring out the synthetic constraints for a type like point involves locating all the scalar type subfeatures of point, and then setting each <<one to 0|10a:0>>.",
+          ],
+          [
+            1,
+            '[17:36] Higher-Order Perl_ Transforming Programs W - Mark Jason Dominus.epub (OEBPS/Text/footnotes.html) - 1736',
+            "1
+      This notation was introduced in Perl 5.004; users of 5.003 or earlier will have to use a much uglier notation instead: &{\$code_reference}(arguments...);. When the \$code_reference expression is a simple variable, as in the example, the curly braces may be omitted. (back)
+      2
+      This feature was introduced in Perl 5.6.0. Users of earlier Perl versions will have to use the IO::Handle module to explicitly manufacture a dirhandle: my \$dir = IO::Handle->new; opendir \$dir, \$top;. (back)
+      3
+      Some people find this unpersuasive, so perhaps I should point out that if we make ourselves useful to other people, they will love and admire us, and they might even pay us more. (back)
+      4
+      One of the technical reviewers objected that this was an exaggeration, and it is. But I estimate that calculating fib(100) by this method would take about 2,241,937 billion billion years, which is close enough. (back)
+      5
+      In fact, each increase of 2 in the argument increases the running time by a factor of about 2.62. (back)
+    
+    
+    
+      1
+      \x{201c}K\x{201d} is for \x{201c}black\x{201d}; the printers don\x{2019}t use \x{201c}B\x{201d} because \x{201c}B\x{201d} is for \x{201c}blue.\x{201d} (back)
+      2
+      Data marshalling is so named because it was first studied in 1962 by Edward Waite Marshall, then with the General Electric corporation. (back)
+      3
+      The term memoization was coined in 1968 by Donald Michie. (back)
+      4
+      This is not precisely accurate. In imperative languages like Perl, a variable is an association between a name and the part of the computer\x{2019}s memory in which the value will be stored. For purposes of our discussion, this distinction is unimportant. (back)
+      5
+      I sometimes enjoy the mind-bending exercise of imagining the result of memoizing the Unix fork() function. (back)
+      6
+      To see this, just realize that there must be some difference in the way the two structures are represented in memory, and that the computer\x{2019}s memory is itself nothing more than a very long string. (back)
+      7
+      Most plutonium is ordered late at night in spite of the extra costs. (back)
+      8
+      Subtraction would work equally well here; <=> is used in comparators instead of plain subtraction because of its documentative value. (back)
+      9
+      This comes as a surprise to many people, especially C programmers who expect sprintf to be slow. While sprintf is slow, so is Perl, so that dispatching a bunch of extra <=> and || operations takes a long time compared to sprintf. This is just another example of why the benchmark really is necessary. (back)
+      10
+      Joseph Hall, author of Effective Perl Programming, is responsible for this name. (back)
+      11
+      \"0e0\" is hardly unique; \"00\" will also work, as will any string that begins with a 0 followed by a non-numeral character, such as \"0!!!!\". Strings like \"0!!!!\", however, will generate an \x{201c}Argument isn\x{2019}t numeric\x{201d} warning if warnings are enabled. One string commonly used when a zero-but-true value is desired is \"0 but true\". Perl\x{2019}s warning system has a special case in it that suppresses the usual \x{201c}isn\x{2019}t numeric\x{201d} warning for this string. (back)
+    
+    
+    
+      1
+      The Perl Journal, Vol 1, #2 (Summer 1996) pp. 5\x{2013}9. (back)
+      2
+      The Art of Computer Programming, Volume II: Seminumerical Algorithms, Donald E. Knuth, Addison\x{2013}Wesley. (back)
+      3
+      There are, unfortunately, very few good robots. (back)
+    
+    
+    
+      1
+      Stay away from the windows if you\x{2019}re ever in Prague; the city is famous for its defenestrations. Probably the most important was on 23 March, 1618, when Bohemian nobles \x{fb02}ung two imperial governors out the window into a ditch, touching off the Thirty Years\x{2019} War. Other notable defenestrations have occurred in 1419 and 1948. (back)
+      2
+      Agenda is the Latin word for \x{201c}to-do list.\x{201d} (back)
+      3
+      If anyone complains about this abuse of terminology, I will just point out that Edsger Dijkstra, a computer scientist famous for precision, did the same thing. See page 3 of An Introductory Example, http://www.cs.utexas.edu/users/EWD/ewd10xx/EWD1063.PDF. (back)
+      4
+      With ordinary lexical sorting, we have to worry about cases where one value is a prefix of another, such as \x{201c}fan\x{201d} and \x{201c}fandango\x{201d}. In such a case, we do fall off the end. But that can\x{2019}t happen with partitions, because two such sequences of positive numbers can\x{2019}t possibly add up to the same thing. (back)
+      5
+      This example is taken from Orwant, Hietaniemi, and Macdonald, Mastering Algorithms with Perl, pp. 237\x{2013}238. O\x{2019}Reilly and Associates, 1999. (back)
+    
+    
+    
+      1
+      Named for Richard W. Hamming, who also invented Hamming codes. (back)
+      2
+      The * operator is officially called the closure operator, and the set of strings that match /A*/ is the closure of the set of those that match /A/. This has nothing to do with anonymous function closures. (back)
+      3
+      Perhaps I should have included a longer explanation of this point, since I seem to be the only person in the world who is bothered by the phrase \x{201c}Your call will be answered in the order it was received.\x{201d} It always seems to me that my call could not have an order. (back)
+      4
+      /\x{2c6}(?{local\$d=0})(?:\\((?{\$d++})|\\)(?{\$d--})(?(?{\$d<0})(?!))|(?>[\x{2c6}()]*))*(?(?{\$d!=0})(?!))\$/. (back)
+      5
+      Isaac Newton discovered and wrote about the method first, but his write-up wasn\x{2019}t published until <<1736|9c:0>>. Joseph Raphson discovered the technique independently and published it in 1671. (back)
+      6
+      Actually they\x{2019}re alternating between 1.414213562373094923430016933708 and 1.414213562373095145474621858739, but who\x{2019}s counting? (back)
+      7
+      It may not be obvious that the hare will necessarily catch the tortoise, but it is true. For details, see Donald Knuth, The Art of Computer Programming: Volume 2, Seminumerical Algorithms, exercise 3.1.6. (back)
+      8
+      It also requires a bit of a trick. Say S = 1 + k + k2 + \x{b7}\x{b7}\x{b7} + kn \x{2212} 1. Multiplying both sides by k gives Sk = k + k2 + \x{b7}\x{b7}\x{b7} + kn \x{2212} 1 + kn. These two equations are almost the same, and if we subtract one from the other almost everything cancels out, leaving only Sk \x{2212} S = kn \x{2212} 1 and so S = (kn \x{2212} 1) / (k \x{2212} 1). (back)
+      9
+      I\x{2019}m afraid I am out of tricks. (back)
+      10
+      These series are often called Taylor series or Maclaurin series after English mathematicians Brook Taylor and Colin Maclaurin who popularized them. The general technique for constructing these series was discovered much earlier by several people, including James Gregory and Johann Bernoulli. (back)
+      11
+      This shouldn\x{2019}t be obvious, since there are an infinite number of terms in the rest of the stream, and in general the infinite tail of a stream may make a significant contribution to the total. However, in a power series, the additional terms do get small so quickly that they can be disregarded, at least for sufficiently small values of x. For details, consult a textbook on numerical analysis or basic calculus. (back)
+      12
+      Jan J. Tuma, McGraw-Hill, 1970. (back)
+    
+    
+    
+      1
+      Currying is so-named because it was popularized by Haskell B. Curry in 1930, although it had been discovered by Gottlob Frege in 1893 and rediscovered by Moses Sch\x{f6}nfinkel in 1924. (back)
+    
+    
+    
+      1
+      Someone looking for a fun project to garner fame and renown in the Perl world would do well to consider replacing the debugger. (back)
+      2
+      In most modern languages, including Perl and C, statements may have a simpler structure, typically not much different than an expression. For example, in Perl, print \$x and \$x = \$y are both expressions, the former returning true or false to indicate success or failure of printing, and the latter returning the value of \$y. If we do this, we get the opportunity to do things like \$result = print \$x and \$x = \$y = \$z, which the calculator won\x{2019}t allow. It would have been both simpler and more useful to write the calculator this way, and I introduced the special statement forms solely for variety. (back)
+      3
+      One of the technical reviewers ridiculed me extensively for this decision, since the performance difference is negligible. But it wasn\x{2019}t for performance reasons that I disliked the idea of manufacturing six times as many functions as I needed. It was because I\x{2019}m compulsive. (back)
+      4
+      It would be nice to get rid of the parentheses as well, but we can\x{2019}t, because _ \$x - \$y means _ (\$x \$y), rather than _(\$x) - \$y as we\x{2019}d like. (back)
+    
+    
+    
+      1
+      In an earlier version of this program, the environment parameter was more interesting. Features could contain local variables that didn\x{2019}t participate in the constraint solving (and which therefore didn\x{2019}t have to be linear) and parameters passed in from the containing feature. In the interests of clear exposition, I trimmed these features out. (back)",
+          ],
+        ];

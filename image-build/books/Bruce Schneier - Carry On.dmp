@@ -1,0 +1,67 @@
+$VAR1 = [
+          [
+            1,
+            '[20:00] Carry On_ Sound Advice From Schneier on Se - Bruce Schneier.epub (text/part0001_split_019.html) - 2000',
+            "All of these agencies have long had to wrestle with the choice of whether to use newly discovered vulnerabilities to protect or to attack. Inside the NSA, this was traditionally known as the \x{201c}equities issue,\x{201d} and the debate was between the COMSEC (communications security) side of the NSA and the SIGINT (signals intelligence) side. If they found a flaw in a popular cryptographic algorithm, they could either use that knowledge to fix the algorithm and make everyone's communications more secure, or they could exploit the flaw to eavesdrop on others\x{2014}while at the same time allowing even the people they wanted to protect to remain vulnerable. This debate raged through the decades inside the NSA. From what I've heard, by <<2000|9n:0>>, the COMSEC side had largely won, but things flipped completely around after 9/11.",
+          ],
+          [
+            1,
+            '[ap > 02:00] Carry On_ Sound Advice From Schneier on Se - Bruce Schneier.epub (text/part0002_split_004.html) - After two',
+            "Zfone, a secure VoIP system, protects against MITM attacks with a short authentication string. <<After two|9:0>> Zfone terminals exchange keys, both computers display a four-character string. The users are supposed to manually verify that both strings are the same\x{2014}\x{201d}my screen says 5C19; what does yours say?\x{201d}\x{2014}to ensure that the phones are communicating directly with each other and not with an MITM. The AT&T TSD-3600 worked similarly.",
+          ],
+          [
+            1,
+            '[10:30] Carry On_ Sound Advice From Schneier on Se - Bruce Schneier.epub (text/part0003_split_014.html) - 10:30 this morning',
+            "If I had to count, I'd guess I easily had to trust a hundred thousand people\x{2014}and that was all before <<10:30 this morning|2a>>.",
+          ],
+          [
+            1,
+            '[20:02] Carry On_ Sound Advice From Schneier on Se - Bruce Schneier.epub (text/part0004_split_014.html) - 2002',
+            'There\'s much more we don\'t know, and often what we know is obsolete. We know quite a bit about the NSA\'s ECHELON program from a 2000 European investigation, and about the DHS\'s plans for Total Information Awareness from <<2002|9c:0>>, but much less about how these programs have evolved. We can make inferences about the NSA\'s Utah facility based on the theoretical amount of data from various sources, the cost of computation, and the power requirements from the facility, but those are rough guesses at best. For a lot of this, we\'re completely in the dark.',
+          ],
+          [
+            1,
+            '[ap ~ 02:00] Carry On_ Sound Advice From Schneier on Se - Bruce Schneier.epub (text/part0005_split_004.html) - About 2',
+            'The first of April passed without incident, but Conficker is no less dangerous today. <<About 2|9:0>>.2m computers worldwide are still infected with Conficker.A and B, and about 1.3m more are infected with the nastier Conficker.C. It\'s true that on 1 April Conficker.C tried a new trick to update itself, but its authors could have updated the worm using another mechanism any day. In fact, they updated it on 8 April, and can do so again.',
+          ],
+          [
+            1,
+            '[ap 04:57] Carry On_ Sound Advice From Schneier on Se - Bruce Schneier.epub (text/part0005_split_007.html) - three to five',
+            "The smallest, <<three to five|10a:0>>, is a \x{201c}clique\x{201d}: the number of people from whom you would seek help in times of severe emotional distress. The twelve to 20 group is the \x{201c}sympathy group\x{201d}: people with which you have special ties. After that, 30 to 50 is the typical size of hunter-gatherer overnight camps, generally drawn from the same pool of 150 people. No matter what size company you work for, there are only about 150 people you consider to be \x{201c}co-workers.\x{201d} (In small companies, Alice and Bob handle accounting. In larger companies, it's the accounting department\x{2014}and maybe you know someone there personally.) The 500-person group is the \x{201c}megaband,\x{201d} and the 1,500-person group is the \x{201c}tribe.\x{201d} Fifteen hundred is roughly the number of faces we can put names to, and the typical size of a hunter-gatherer society.",
+          ],
+          [
+            1,
+            '[ap ~ 01:50] Carry On_ Sound Advice From Schneier on Se - Bruce Schneier.epub (text/part0005_split_007.html) - about 150',
+            "Coherence can become a real problem once organizations get above <<about 150|18:0>> in size. So as group sizes grow across these boundaries, they have more externally imposed infrastructure\x{2014}and more formalized security systems. In intimate groups, pretty much all security is ad hoc. Companies smaller than 150 don't bother with name badges; companies greater than 500 hire a guard to sit in the lobby and check badges. The military have had centuries of experience with this under rather trying circumstances, but even there the real commitment and bonding invariably occurs at the company level. Above that you need to have rank imposed by discipline.",
+          ],
+          [
+            1,
+            '[ap ~ 01:00] Carry On_ Sound Advice From Schneier on Se - Bruce Schneier.epub (text/part0006_split_007.html) - about 100',
+            "A typical password consists of a root plus an appendage. The root isn't necessarily a dictionary word, but it's something pronounceable. An appendage is either a suffix (90% of the time) or a prefix (10% of the time). One guesser I studied starts with a dictionary of about 1,000 common passwords, things like \x{201c}letmein,\x{201d} \x{201c}temp,\x{201d} \x{201c}123456,\x{201d} and so on. Then it tests them each with <<about 100|18:0>> common suffix appendages: \x{201c}1,\x{201d} \x{201c}4u,\x{201d} \x{201c}69,\x{201d} \x{201c}abc,\x{201d} \x{201c}!\x{201d} and so on. It recovers about 24% of all passwords with just these 100,000 combinations.",
+          ],
+          [
+            1,
+            '[ap ~ 02:56] Carry On_ Sound Advice From Schneier on Se - Bruce Schneier.epub (text/part0006_split_008.html) - about 256',
+            "The deadline was October 31, and NIST received 64 submissions. This isn't surprising\x{2014}I predicted 80\x{2014}as most of the 15 AES submitters were professors, whose students at the time have become professors themselves, with their own students. (If NIST does a stream cipher competition in another ten years, they should expect <<about 256|18:0>> submissions.) These submissions came from academia, from industry, and from hobbyists. CIO magazine recently interviewed one of the submitters, who is 15. Twenty-eight submissions have been made public by the submitters, and six of those have been broken.",
+          ],
+          [
+            1,
+            '[ap ~ 02:00] Carry On_ Sound Advice From Schneier on Se - Bruce Schneier.epub (text/part0006_split_010.html) - about 200',
+            "Passwords are the most common authentication system. They're easy to implement and use, which is why they're so popular. But, as computers have become faster, password-guessing has become easier. Most people don't choose complicated enough passwords to remain secure against modern password-guessing attacks. Conficker.B is even less clever\x{2014}it just tries a list of <<about 200|18:0>> common passwords.",
+          ],
+          [
+            1,
+            '[ap > 09:00] Carry On_ Sound Advice From Schneier on Se - Bruce Schneier.epub (text/part0006_split_012.html) - After 9',
+            'These risks are not theoretical. <<After 9|9:0>>/11, the National Security Agency built a surveillance infrastructure to eavesdrop on telephone calls and e-mails within the United States.',
+          ],
+          [
+            1,
+            '[ap > 09:00] Carry On_ Sound Advice From Schneier on Se - Bruce Schneier.epub (text/part0008_split_016.html) - After 9',
+            'These risks are not theoretical. <<After 9|9:0>>/11, the National Security Agency built a surveillance infrastructure to eavesdrop on telephone calls and e-mails within the United States. Although procedural rules stated that only non-Americans and international phone calls were to be listened to, actual practice didn\'t always match those rules. NSA analysts collected more data than they were authorized to and used the system to spy on wives, girlfriends and famous people like former President Bill Clinton.',
+          ],
+          [
+            1,
+            '[ap < 05:00] Carry On_ Sound Advice From Schneier on Se - Bruce Schneier.epub (text/part0013.html) - almost 500',
+            "Still, writing is something I'm good at and something I do a lot of. Since 1992, I have written <<almost 500|18:0>> essays, op-eds, and articles for a wide variety of publications. They're all on my website\x{2014}www.schneier.com, if you don't already know\x{2014}and a selection of them has been collected into two books. The first collection, Schneier on Security, covered essays from April 2002 to February 2008. This volume covers essays from March 2008 to June 2013.",
+          ],
+        ];

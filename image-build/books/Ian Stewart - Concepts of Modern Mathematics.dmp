@@ -1,0 +1,143 @@
+$VAR1 = [
+          [
+            1,
+            '[~ 12:00] Concepts of Modern Mathematics - Ian Stewart.epub (OEBPS/e9780486134956_app01.html) - about 1200 hours',
+            "In Chapter 11 we had a four-colour problem and a five-colour theorem. On 22 July 1972 two mathematicians at the University of Illinois, Kenneth Appel and Wolfgang Haken, announced a proof1 that every map on the plane can be coloured with four colours, resolving the long-standing question. The snag with their proof is that it involves an immense amount of computing time - they used <<about 1200 hours|1>>, but a check might be performed in 300 on a big machine - and a single error might destroy the proof completely. Contrary to popular opinion, computers do make errors even when their programmers do not. The problems raised by this are as much philosophical as technical (is a proof checked by a human any more likely to be accurate than one checked by computer?) and look like causing some problems in future. At the present moment, the Appel\x{2014}Haken proof has not been fully checked by an independent program, although those parts that have been checked appear to be error-free. Philosophy apart, most mathematicians would probably agree that the theorem is proved provided such a check is carried out in full. The philosophical problem is an interesting one, however, because it involves the difference between a logical proof and a satisfactory one. I shall return to this once we\x{2019}ve seen how it goes.",
+          ],
+          [
+            1,
+            '[ap > 01:14] Concepts of Modern Mathematics - Ian Stewart.epub (OEBPS/e9780486134956_app01.html) - after 114',
+            "This is the famed exponential growth often observed in populations (from bacteria to humans). In all cases it becomes unrealistic for large T: the universe isn\x{2019}t big enough. For our rabbits, for example, a rough estimate4 shows that <<after 114|18:0>> generations the total volume of rabbit exceeds that of the observable universe. Of course the formula breaks down far sooner: the number of rabbits begins to outstrip the food supply and the birthrate drops.",
+          ],
+          [
+            1,
+            '[19:10] Concepts of Modern Mathematics - Ian Stewart.epub (OEBPS/e9780486134956_bm02.html) - 1910',
+            "STICKLEY CRAFTSMAN FURNITURE CATALOGS, Gustav Stickley and L. & J. G. Stickley. Beautiful, functional furniture in two authentic catalogs from <<1910|9c:0>>. 594 illustrations, including 277 photos, show settles, rockers, armchairs, reclining chairs, bookcases, desks, tables. 183pp. 6\x{bd} x 9\x{bc}.",
+          ],
+          [
+            1,
+            '[~ 19:00] Concepts of Modern Mathematics - Ian Stewart.epub (OEBPS/e9780486134956_bm02.html) - around 1900',
+            "HOW THE OTHER HALF LIVES, Jacob Riis. Famous journalistic record, exposing poverty and degradation of New York slums <<around 1900|18:1>>, by major social reformer. 100 striking and influential photographs. 233pp. 10 x 7\x{215e}.",
+          ],
+          [
+            1,
+            '[ap < 03:00] Concepts of Modern Mathematics - Ian Stewart.epub (OEBPS/e9780486134956_bm02.html) - Nearly 300',
+            "THE WORLD\x{2019}S GREAT SPEECHES (Fourth Enlarged Edition), Lewis Copeland, Lawrence W. Lamm, and Stephen J. McKenna. <<Nearly 300|9n:0>> speeches provide public speakers with a wealth of updated quotes and inspiration\x{2014}from Pericles\x{2019} funeral oration and William Jennings Bryan\x{2019}s \x{201c}Cross of Gold Speech\x{201d} to Malcolm X\x{2019}s powerful words on the Black Revolution and Earl of Spenser\x{2019}s tribute to his sister, Diana, Princess of Wales. 944pp. 5\x{215c} x 8\x{215c}.",
+          ],
+          [
+            1,
+            '[ap 01:02] Concepts of Modern Mathematics - Ian Stewart.epub (OEBPS/e9780486134956_bm02.html) - ONE TWO',
+            "<<ONE TWO|5l:0>> THREE . . . INFINITY: Facts and Speculations of Science, George Gamow. Great physicist\x{2019}s fascinating, readable overview of contemporary science: number theory, relativity, fourth dimension, entropy, genes, atomic structure, much more. 128 illustrations. Index. 352pp. 5\x{215c} x 8\x{bd}.",
+          ],
+          [
+            1,
+            '[ap 06:00] Concepts of Modern Mathematics - Ian Stewart.epub (OEBPS/e9780486134956_c03.html) - 0 to 6',
+            'Suppose we number the days of the week from <<0 to 6|10a:0>>, starting at Sunday, as in Figure 17.',
+          ],
+          [
+            1,
+            '[ap 04:00] Concepts of Modern Mathematics - Ian Stewart.epub (OEBPS/e9780486134956_c03.html) - 4',
+            "By writing out multiplication tables to the moduli 2, 3, 4, 5, . . . it becomes apparent that division (except by zero) is always possible if the modulus is 2, 3, 5, 7, 11, 13, 17, . . . and is not always possible if it is <<4|9f>>, 6, 8, 9, 10, 12, 14, 15, 16, . . . It doesn\x{2019}t take a genius to recognize the pattern. The first list of numbers looks like the sequence of prime numbers (with no divisors other than themselves and 1); the second seems to be the composite numbers (which can be expressed as a product of two smaller ones).",
+          ],
+          [
+            1,
+            '[ap 06:41] Concepts of Modern Mathematics - Ian Stewart.epub (OEBPS/e9780486134956_c03.html) - 641',
+            "are prime, but remarked that he could not prove this. The first few are 3, 5, 17, 257, and 65 537, which are prime. Euler, in 1732, showed that Fermat was wrong; the next number in the sequence is 232 + 1, and this is divisible by <<641|3:0>>. Euler found this by explicit calculation. But once we know what the answer is, there\x{2019}s an easier way.",
+          ],
+          [
+            1,
+            '[ap 05:27] Concepts of Modern Mathematics - Ian Stewart.epub (OEBPS/e9780486134956_c03.html) - 5.27',
+            'Observe that 641 is prime, and that 641 = 24 + 54 = 1 + <<5.27|5a:0>>. Working to the modulus 641 we have:',
+          ],
+          [
+            1,
+            '[ap 06:41] Concepts of Modern Mathematics - Ian Stewart.epub (OEBPS/e9780486134956_c03.html) - 641',
+            '(using the first equality above for 641). Therefore 232+1 is divisible by <<641|3:0>>.',
+          ],
+          [
+            1,
+            '[20:00] Concepts of Modern Mathematics - Ian Stewart.epub (OEBPS/e9780486134956_c03.html) - 20',
+            'However, even for a relatively small number like 17 we have to work out 1.2 . . . 16+1, which is <<20|9d>> 922 789 888 001, and divide by 17. The test is not a practical one, even on a fast computer.',
+          ],
+          [
+            1,
+            '[ap 00:59] Concepts of Modern Mathematics - Ian Stewart.epub (OEBPS/e9780486134956_c05.html) - one-to-one',
+            'Functions which can be turned round in this way will play a prominent part in some of our later investigations. They are known as bijections, or as <<one-to-one|10a:0>> correspondences.',
+          ],
+          [
+            1,
+            '[ap 00:59] Concepts of Modern Mathematics - Ian Stewart.epub (OEBPS/e9780486134956_c05.html) - one-to-one',
+            'Bijections, or <<one-to-one|10a:0>> correspondences, are exactly those functions which have inverse functions.',
+          ],
+          [
+            1,
+            '[ap 00:59] Concepts of Modern Mathematics - Ian Stewart.epub (OEBPS/e9780486134956_c09.html) - one-to-one',
+            "(i) Each person sits in exactly one seat.
+(ii) Each seat contains exactly one person.
+If we let S be the set of seats and P the set of people, then for each person p \x{2208} P we can define f(p) \x{2208} S to be the seat in which he is sitting. And then \x{192}: P \x{2192} S is a bijection (<<one-to-one|10a:0>> correspondence). Firstly, \x{192} fits our definition of a function: its domain is P, its target S. The rule assigning f(P) to p is unambiguous, by (i) above. And \x{192} is a surjection, because by (ii) each seat contains a person, and an injection, since by (ii) again it contains only one person.",
+          ],
+          [
+            1,
+            '[00:00] Concepts of Modern Mathematics - Ian Stewart.epub (OEBPS/e9780486134956_c09.html) - 0',
+            'Now imagine a spiral path through the array, starting at <<0|9g>>/1 (Figure 71).',
+          ],
+          [
+            1,
+            '[ap 02:00] Concepts of Modern Mathematics - Ian Stewart.epub (OEBPS/e9780486134956_c12.html) - 2',
+            "In the same way that we calculated the Euler characteristic of the standard surfaces (but in reverse) we see that every surgery increases the Euler characteristic; by <<2|9:0>> if we had a cylinder, by <<1|9:0>> if we had a M\x{f6}ibus strip. We now appeal to the",
+          ],
+          [
+            1,
+            '[22:39] Concepts of Modern Mathematics - Ian Stewart.epub (OEBPS/e9780486134956_c15.html) - 21 to 23',
+            'contradicting the fourth equation. If we change <<21 to 23|10a:0>> in the original system we get essentially 3 equations in 4 unknowns, which turn out to have infinitely many solutions.',
+          ],
+          [
+            1,
+            '[ap > 02:00] Concepts of Modern Mathematics - Ian Stewart.epub (OEBPS/e9780486134956_c16.html) - after two',
+            "Its essence is the \x{2018}. . .\x{2019}, which seems to ask us to continue adding terms infinitely often. It is well to view such an expression with scepticism, for it appears to be asking us to carry out an impossible process: there is no man alive, no computer, however fast, that can do infinitely many additions in a finite time. One is reminded of paradoxical questions about light switches that are switched on after one second, off half a second later, on after a quarter of a second, off after an eighth, . . . ; <<after two|9:0>> seconds, is the switch on or off?",
+          ],
+          [
+            1,
+            '[ap 01:00] Concepts of Modern Mathematics - Ian Stewart.epub (OEBPS/e9780486134956_c16.html) - 0 to 1',
+            "which take alternately the values 0 and 1. As n gets larger and larger these do not settle down to some kind of \x{2018}limit\x{2019}; they just hop happily from <<0 to 1|10a:0>> and back again.",
+          ],
+          [
+            1,
+            '[ap 02:00] Concepts of Modern Mathematics - Ian Stewart.epub (OEBPS/e9780486134956_c16.html) - 2',
+            'Functions can be continuous at some points and discontinuous at others. The postal-charge function is discontinuous at <<2|9c:0>>, 4, 6, 8, 10, 12, 14, 16, 24, and 32 oz., but continuous everywhere else in the range 0 to 32 oz.',
+          ],
+          [
+            1,
+            "[ap 09:00] Concepts of Modern Mathematics - Ian Stewart.epub (OEBPS/e9780486134956_c16.html) - 9 o\x{2019}clock",
+            "A puzzle which was current not long ago concerns a man walking up a mountain. At exactly <<9 o\x{2019}clock|6>> on Monday morning he sets off up the mountain, arriving at <<6 o\x{2019}clock in the evening|6>> at a mountain hut, where he stays the night. At <<9 o\x{2019}clock|6>> the next morning he descends by the same route, arriving at the point from which he set out at <<6 o\x{2019}clock in the evening|6>>. Prove that at some time he is at the same place on both days.",
+          ],
+          [
+            1,
+            '[ap 02:00] Concepts of Modern Mathematics - Ian Stewart.epub (OEBPS/e9780486134956_c17.html) - 2',
+            'If B is thrown in competition with C it will win when C shows <<2|11b:0>>, lose when C shows 7. So',
+          ],
+          [
+            1,
+            '[ap 01:00] Concepts of Modern Mathematics - Ian Stewart.epub (OEBPS/e9780486134956_c18.html) - 0 to 1',
+            'If we imagine the ball-bearings added one by one, from right to left, we can follow the steps of the calculation. There is no ball-bearing in the first slot. The one in the second slot changes <<0 to 1|10a:0>> and is output as waste, leaving the machine in states',
+          ],
+          [
+            1,
+            '[ap 01:00] Concepts of Modern Mathematics - Ian Stewart.epub (OEBPS/e9780486134956_c18.html) - 0 to 1',
+            '
+Then it passes through again, changing <<0 to 1|10a:0>> and emerging as waste:
+0 1 1 1 0 1 1 1 0.',
+          ],
+          [
+            1,
+            '[~ 07:30] Concepts of Modern Mathematics - Ian Stewart.epub (OEBPS/e9780486134956_c19.html) - about prime',
+            "Although I have talked in terms of divisions of mathematics into various branches - algebra, topology, analysis, logic, geometry, number theory, probability \x{2014} it must be realized that no exact boundaries can be drawn, and that the divisions themselves are somewhat arbitrary. When Descartes first discovered connections between geometry and algebra it was a surprise. When Galois applied the theory of groups to polynomial equations it was a surprise. When Hadamard and de la Vall\x{e9}e Poussin proved an important conjecture <<about prime|16>> numbers using analysis it was a surprise. Today mathematicians are no longer surprised by such occurrences. In fact they tend to go out looking for them. It is quite commonplace to start with a problem in analysis, turn it into topology, reduce it to algebra, and solve it by number theory.",
+          ],
+          [
+            1,
+            '[ap 00:59] Concepts of Modern Mathematics - Ian Stewart.epub (OEBPS/e9780486134956_ind01.html) - One-to-one',
+            'Omega-minus
+<<One-to-one|10a:0>> correspondence
+Onto',
+          ],
+        ];

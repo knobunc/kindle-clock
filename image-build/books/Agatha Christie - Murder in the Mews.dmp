@@ -1,0 +1,298 @@
+$VAR1 = [
+          [
+            1,
+            '[05:00] Murder in the Mews - Agatha Christie.epub (OEBPS/Text/9780061763366_Dead_Mans_Mirror_eleven.xhtml) - five in the morning',
+            "\x{201c}I haven\x{2019}t been to sleep really properly. I was just getting that desperate feeling that one does get at <<five in the morning|9a>>.\x{201d}",
+          ],
+          [
+            1,
+            "[ap < 08:00] Murder in the Mews - Agatha Christie.epub (OEBPS/Text/9780061763366_Dead_Mans_Mirror_five.xhtml) - Just before eight o\x{2019}clock",
+            "\x{201c}<<Just before eight o\x{2019}clock|10>>. It might have been as much as <<five minutes before eight|10>>.\x{201d}",
+          ],
+          [
+            1,
+            '[ap 08:08] Murder in the Mews - Agatha Christie.epub (OEBPS/Text/9780061763366_Dead_Mans_Mirror_five.xhtml) - eight minutes past eight',
+            "\x{201c}What time was that?\x{201d}
+\x{201c}It was exactly <<eight minutes past eight|10>>, sir.\x{201d}
+The chief constable said sharply:",
+          ],
+          [
+            1,
+            '[ap 08:15] Murder in the Mews - Agatha Christie.epub (OEBPS/Text/9780061763366_Dead_Mans_Mirror_five.xhtml) - quarter past eight',
+            "\x{201c}I see,\x{201d} said Riddle. \x{201c}So, dinner being at a <<quarter past eight|10>>, you sounded the first gong at eight minutes past as usual?\x{201d}",
+          ],
+          [
+            1,
+            '[ap 08:00] Murder in the Mews - Agatha Christie.epub (OEBPS/Text/9780061763366_Dead_Mans_Mirror_five.xhtml) - eight',
+            "\x{201c}That is so, sir\x{2014}but it wasn\x{2019}t as usual. Dinner was usually at <<eight|9c:1>>. Sir Gervase gave orders that dinner was to be a quarter of an hour later this evening, as he was expecting a gentleman by the late train.\x{201d}",
+          ],
+          [
+            1,
+            '[ap 08:08] Murder in the Mews - Agatha Christie.epub (OEBPS/Text/9780061763366_Dead_Mans_Mirror_five.xhtml) - eight minutes past eight',
+            "\x{201c}I could not say, sir. I went to the butler\x{2019}s pantry after that, and was there until I sounded the first gong at <<eight minutes past eight|10>>.\x{201d}",
+          ],
+          [
+            1,
+            '[ap 08:08] Murder in the Mews - Agatha Christie.epub (OEBPS/Text/9780061763366_Dead_Mans_Mirror_five.xhtml) - eight minutes past eight',
+            "\x{201c}My dear friend, you do not suggest that with any conviction. In fact, you know it is nonsense. At <<eight minutes past eight|10>> it was dark, and in any case the curtains are drawn. No, there must be some other explanation. . . .\x{201d}",
+          ],
+          [
+            1,
+            "[ap < 03:00] Murder in the Mews - Agatha Christie.epub (OEBPS/Text/9780061763366_Dead_Mans_Mirror_four.xhtml) - just before three o\x{2019}clock",
+            "\x{201c}This afternoon, <<just before three o\x{2019}clock|10>>. There were some accounts to be checked, and the question of a new tenant for one of the farms.\x{201d}",
+          ],
+          [
+            1,
+            '[ap ~ 07:05] Murder in the Mews - Agatha Christie.epub (OEBPS/Text/9780061763366_Dead_Mans_Mirror_seven.xhtml) - About five minutes past seven',
+            "\x{201c}What time was it when you went up to dress for dinner?\x{201d}
+\x{201c}<<About five minutes past seven|10>>.\x{201d}
+\x{201c}What did Sir Gervase do?\x{201d}",
+          ],
+          [
+            1,
+            '[ap 08:15] Murder in the Mews - Agatha Christie.epub (OEBPS/Text/9780061763366_Dead_Mans_Mirror_seven.xhtml) - quarter past eight',
+            "\x{201c}Then, if dinner was at a <<quarter past eight|10>>, he would probably have gone up at <<half past seven|10>> at the latest?\x{201d}",
+          ],
+          [
+            1,
+            '[ap 04:57] Murder in the Mews - Agatha Christie.epub (OEBPS/Text/9780061763366_Dead_Mans_Mirror_seven.xhtml) - three to five',
+            "\x{201c}One moment. Pardon. When was this?\x{201d}
+\x{201c}This afternoon. We usually worked from <<three to five|10a:0>>.\x{201d}
+\x{201c}Pray go on.\x{201d}",
+          ],
+          [
+            1,
+            '[ap 08:15] Murder in the Mews - Agatha Christie.epub (OEBPS/Text/9780061763366_Dead_Mans_Mirror_seven.xhtml) - eight-fifteen',
+            "\x{201c}That is what he said. Of course, I didn\x{2019}t ask any questions. I just said, \x{2018}I am sorry to hear it, Sir Gervase.\x{2019} And then he asked me to tell Snell that M. Poirot would be arriving and to put off dinner until <<eight-fifteen|9c:1>>, and send the car to meet the <<seven-fifty|5k:1>> train.\x{201d}",
+          ],
+          [
+            1,
+            '[ap 07:50] Murder in the Mews - Agatha Christie.epub (OEBPS/Text/9780061763366_Dead_Mans_Mirror_seven.xhtml) - seven-fifty',
+            "\x{201c}Certainly not, M. Poirot. I told Snell about dinner and to send the chauffeur to meet the <<seven-fifty|5k:0>> as a gentleman was arriving by it.\x{201d}",
+          ],
+          [
+            1,
+            "[ap 07:00] Murder in the Mews - Agatha Christie.epub (OEBPS/Text/9780061763366_Dead_Mans_Mirror_seven.xhtml) - seven o\x{2019}clock",
+            "\x{201c}Yes. I went to the small morning room where I worked, and typed a chapter of the book from the notes I had gone over with Sir Gervase, until <<seven o\x{2019}clock|6>>, when I went upstairs to rest and dress for dinner.\x{201d}",
+          ],
+          [
+            1,
+            '[ap 02:30] Murder in the Mews - Agatha Christie.epub (OEBPS/Text/9780061763366_Dead_Mans_Mirror_seven.xhtml) - half past two',
+            "\x{201c}We begin,\x{201d} he said, \x{201c}to reconstruct the afternoon. It is interesting. At <<half past two|10>> Sir Gervase goes over accounts with Captain Lake. He is slightly preoccupied. At <<three|9e>>, he discusses the book he is writing with Miss\x{a0}Lingard. He is in great distress of mind. Miss\x{a0}Lingard associates that distress of mind with Hugo Trent on the strength of a chance remark. At teatime his behaviour is normal. After tea, Godfrey Burrows tells us he was in good spirits over something. At <<five minutes to eight|10>> he comes downstairs, goes to his study, scrawls \x{2018}Sorry\x{2019} on a sheet of paper, and shoots himself!\x{201d}",
+          ],
+          [
+            1,
+            '[20:08] Murder in the Mews - Agatha Christie.epub (OEBPS/Text/9780061763366_Dead_Mans_Mirror_ten.xhtml) - eight minutes past eight this evening',
+            "\x{201c}Yes, I have already told you so.\x{201d}
+\x{201c}Where were you at <<eight minutes past eight this evening|10>>?\x{201d}
+\x{201c}Where was I? In my house. At the end of the village, about half a mile away.\x{201d}",
+          ],
+          [
+            1,
+            '[ap ~ 08:10] Murder in the Mews - Agatha Christie.epub (OEBPS/Text/9780061763366_Dead_Mans_Mirror_three.xhtml) - about ten past eight',
+            "\x{201c}When was this?\x{201d}
+\x{201c}Oh, <<about ten past eight|10>>. Snell had just sounded the first gong.\x{201d}
+\x{201c}And where were you when you heard it?\x{201d}",
+          ],
+          [
+            1,
+            "[ap ~ 07:00] Murder in the Mews - Agatha Christie.epub (OEBPS/Text/9780061763366_Dead_Mans_Mirror_twelve.xhtml) - about seven o\x{2019}clock",
+            "\x{201c}The first time I was picking michaelmas daisies. That was <<about seven o\x{2019}clock|6>>.\x{201d}",
+          ],
+          [
+            1,
+            '[ap < 07:00] Murder in the Mews - Agatha Christie.epub (OEBPS/Text/9780061763366_Dead_Mans_Mirror_twelve.xhtml) - just before seven',
+            "\x{201c}Yes. So I went out <<just before seven|10>>. I took them from that part of the border because hardly anyone goes round there, and so it didn\x{2019}t matter spoiling the effect.\x{201d}",
+          ],
+          [
+            1,
+            '[ap ~ 08:05] Murder in the Mews - Agatha Christie.epub (OEBPS/Text/9780061763366_Dead_Mans_Mirror_twelve.xhtml) - about five minutes past eight',
+            "\x{201c}I can\x{2019}t say exactly,\x{201d} she said at last. \x{201c}It must have been\x{2014}oh, of course\x{2014}it must have been <<about five minutes past eight|10>>. It was when I was on my way back round the house that I heard the gong go, and then that funny bang. I was hurrying because I thought it was the second gong and not the first.\x{201d}",
+          ],
+          [
+            1,
+            "[ap 10:00] Murder in the Mews - Agatha Christie.epub (OEBPS/Text/9780061763366_Dead_Mans_Mirror_twelve.xhtml) - ten o\x{2019}clock",
+            "\x{201c}After breakfast,\x{201d} he said. \x{201c}I will explain. I should like everyone to assemble in Sir Gervase\x{2019}s study at <<ten o\x{2019}clock|6>>.\x{201d}",
+          ],
+          [
+            1,
+            '[ap 09:55] Murder in the Mews - Agatha Christie.epub (OEBPS/Text/9780061763366_Dead_Mans_Mirror_twelve.xhtml) - five minutes to ten',
+            "When he had finished his breakfast, Poirot rose and walked to the door. He turned and drew out a large old-fashioned watch.
+\x{201c}It is <<five minutes to ten|10>>. In five minutes\x{2014}in the study.\x{201d}
+II",
+          ],
+          [
+            1,
+            '[ap > 08:00] Murder in the Mews - Agatha Christie.epub (OEBPS/Text/9780061763366_Dead_Mans_Mirror_twelve.xhtml) - just after eight',
+            "\x{201c}I shot him. I admit it! I had my reason. I\x{2014}I\x{2019}ve been waiting for some time. M. Poirot is quite right. I followed him in here. I had taken the pistol out of the drawer earlier. I stood beside him talking about the book\x{2014}and I shot him. That was <<just after eight|10>>. The bullet struck the gong. I never dreamt it would pass right through his head like that. There wasn\x{2019}t time to go out and look for it. I locked the door and put the key in his pocket. Then I swung the chair round, smashed the mirror, and, after scrawling \x{201c}Sorry\x{201d} on a piece of paper, I went out through the window and shut it the way M. Poirot showed you. I stepped in the flower bed, but I smoothed out the footprints with a little rake I had put there ready. Then I went round to the drawing room. I had left the window open. I didn\x{2019}t know Ruth had gone out through it. She must have come round the front of the house while I went round the back. I had to put the rake away, you see, in a shed. I waited in the drawing room till I heard someone coming downstairs and Snell going to the gong, and then\x{2014}\x{201d}",
+          ],
+          [
+            1,
+            '[ap 07:50] Murder in the Mews - Agatha Christie.epub (OEBPS/Text/9780061763366_Dead_Mans_Mirror_two.xhtml) - 7:50',
+            "The train was due to arrive at <<7:50|5d>>, but it was exactly <<two minutes past eight|10>> when Hercule Poirot descended on to the platform of the little country station and pressed the expected half crown into the attentive guard\x{2019}s hand.",
+          ],
+          [
+            1,
+            '[ap 07:55] Murder in the Mews - Agatha Christie.epub (OEBPS/Text/9780061763366_Dead_Mans_Mirror_two.xhtml) - five minutes to eight',
+            "\x{201c}Sir Gervase came downstairs at <<five minutes to eight|10>>, m\x{2019}lady, and went straight to the study.\x{201d}",
+          ],
+          [
+            1,
+            '[ap ~ 09:30] Murder in the Mews - Agatha Christie.epub (OEBPS/Text/9780061763366_Murder_in_the_Mews_eight.xhtml) - about half past nine',
+            "\x{201c}That was at what time?\x{201d}
+\x{201c}At <<about half past nine|10>>, I should say. We sat and talked. . . .\x{201d}
+\x{201c}And smoked?\x{201d}",
+          ],
+          [
+            1,
+            '[ap < 10:30] Murder in the Mews - Agatha Christie.epub (OEBPS/Text/9780061763366_Murder_in_the_Mews_eight.xhtml) - a little before half past ten',
+            "\x{201c}In the sitting room. Left of the door as you go in. We talked together quite amicably, as I say. I left <<a little before half past ten|10>>. I stayed for a minute on the doorstep for a few last words. . . .\x{201d}",
+          ],
+          [
+            1,
+            '[ap 10:35] Murder in the Mews - Agatha Christie.epub (OEBPS/Text/9780061763366_Murder_in_the_Mews_eight.xhtml) - five and twenty to eleven',
+            "\x{201c}I don\x{2019}t care if you are the Achilles statue. As I say, Barbara and I parted quite amicably. I drove straight to the Far East Club. Got there at <<five and twenty to eleven|10>> and went straight up to the card-room. Stayed there playing bridge until <<one-thirty|9c:0>>. Now then, put that in your pipe and smoke it.\x{201d}",
+          ],
+          [
+            1,
+            '[ap 10:20] Murder in the Mews - Agatha Christie.epub (OEBPS/Text/9780061763366_Murder_in_the_Mews_five.xhtml) - ten-twenty',
+            "\x{201c}No, sir. Nor likely to with fireworks popping off here, there and everywhere and my Eddie with his eyebrows singed off as near as nothing.\x{201d}
+\x{201c}This man left at <<ten-twenty|5b>>\x{2014}that\x{2019}s right, is it?\x{201d}
+\x{201c}It might be, sir. I couldn\x{2019}t say myself. But Hogg says so and he\x{2019}s a very reliable, steady man.\x{201d}",
+          ],
+          [
+            1,
+            "[ap ~ 05:00] Murder in the Mews - Agatha Christie.epub (OEBPS/Text/9780061763366_Murder_in_the_Mews_four.xhtml) - about five o\x{2019}clock",
+            "\x{201c}Mrs.\x{a0}Allen was at home most of yesterday afternoon and evening. Came in <<about five o\x{2019}clock|6>>. Then she went out again about six but only to the postbox at the end of the mews. At <<about nine-thirty|5k:1>> a car drove up\x{2014}Standard Swallow saloon\x{2014}and a man got out. Description about forty-five, well set up military-looking gent, dark blue overcoat, bowler hat, toothbrush moustache. James Hogg, chauffeur from No. 18 says he\x{2019}s seen him calling on Mrs.\x{a0}Allen before.\x{201d}",
+          ],
+          [
+            1,
+            '[ap ~ 10:20] Murder in the Mews - Agatha Christie.epub (OEBPS/Text/9780061763366_Murder_in_the_Mews_four.xhtml) - about ten-twenty',
+            "\x{201c}This man, whoever he was, stayed here for just under an hour. Left at <<about ten-twenty|9c:1>>. Stopped in the doorway to speak to Mrs.\x{a0}Allen. Small boy, Frederick Hogg, was hanging about quite near and heard what he said.\x{201d}",
+          ],
+          [
+            1,
+            '[ap 10:20] Murder in the Mews - Agatha Christie.epub (OEBPS/Text/9780061763366_Murder_in_the_Mews_four.xhtml) - ten-twenty',
+            "\x{201c} \x{2018}Well, think it over and let me know.\x{2019} And then she said something and he answered: \x{2018}All right. So long.\x{2019} After that he got in his car and drove away.\x{201d}
+\x{201c}That was at <<ten-twenty|5b>>,\x{201d} said Poirot thoughtfully.
+Japp rubbed his nose.",
+          ],
+          [
+            1,
+            '[ap 10:20] Murder in the Mews - Agatha Christie.epub (OEBPS/Text/9780061763366_Murder_in_the_Mews_four.xhtml) - ten-twenty',
+            "\x{201c}Then at <<ten-twenty|5b>> Mrs.\x{a0}Allen was still alive,\x{201d} he said. \x{201c}What next?\x{201d}",
+          ],
+          [
+            1,
+            '[ap 10:30] Murder in the Mews - Agatha Christie.epub (OEBPS/Text/9780061763366_Murder_in_the_Mews_four.xhtml) - half-past ten',
+            "\x{201c}Nothing more, sir, as far as I can learn. The chauffeur at No. 22 got in at <<half-past ten|10>> and he\x{2019}d promised his kids to let off some fireworks for them. They\x{2019}d been waiting for him\x{2014}and all the other kids in the mews too. He let \x{2019}em off and everybody around about was busy watching them. After that everyone went to bed.\x{201d}",
+          ],
+          [
+            1,
+            "[ap 04:00] Murder in the Mews - Agatha Christie.epub (OEBPS/Text/9780061763366_Murder_in_the_Mews_nine.xhtml) - four o\x{2019}clock",
+            "\x{201c}It is not yet <<four o\x{2019}clock|6>>. We could get to Wentworth, I think, before it is dark.\x{201d}",
+          ],
+          [
+            1,
+            '[ap > 04:30] Murder in the Mews - Agatha Christie.epub (OEBPS/Text/9780061763366_Murder_in_the_Mews_nine.xhtml) - a little after half past four',
+            'The car was a fast one. They arrived at Wentworth Golf Club <<a little after half past four|10>>. There was no great congestion there on a week day.',
+          ],
+          [
+            1,
+            '[ap 11:30] Murder in the Mews - Agatha Christie.epub (OEBPS/Text/9780061763366_Murder_in_the_Mews_one.xhtml) - half past eleven',
+            "At <<half past eleven|10>> the following morning, Hercule Poirot\x{2019}s telephone rang.",
+          ],
+          [
+            1,
+            "[ap 09:00] Murder in the Mews - Agatha Christie.epub (OEBPS/Text/9780061763366_Murder_in_the_Mews_one.xhtml) - nine o\x{2019}clock",
+            "\x{201c}Deceased\x{2019}s a Mrs.\x{a0}Allen, sir. Lived here with a friend\x{2014}a Miss\x{a0}Plenderleith. Miss\x{a0}Plenderleith was away staying in the country and returned this morning. She let herself in with her key, was surprised to find no one about. A woman usually comes in at <<nine o\x{2019}clock|6>> to do for them. She went upstairs first into her own room (that\x{2019}s this room) then across the landing to her friend\x{2019}s room. Door was locked on the inside. She rattled the handle, knocked and called, but couldn\x{2019}t get any answer. In the end getting alarmed she rang up the police station. That was at <<ten forty-five|5b>>. We came along at once and forced the door open. Mrs.\x{a0}Allen was lying in a heap on the ground shot through the head. There was an automatic in her hand\x{2014}a Webley .25\x{2014}and it looked a clear case of suicide.\x{201d}",
+          ],
+          [
+            1,
+            '[ap 11:33] Murder in the Mews - Agatha Christie.epub (OEBPS/Text/9780061763366_Murder_in_the_Mews_one.xhtml) - eleven thirty-three',
+            "\x{201c}She was killed at <<eleven thirty-three|5b>> yesterday evening,\x{201d} said Brett promptly.",
+          ],
+          [
+            1,
+            '[ap 04:15] Murder in the Mews - Agatha Christie.epub (OEBPS/Text/9780061763366_Murder_in_the_Mews_one.xhtml) - quarter past four',
+            "\x{201c}Oh, I thought the wristwatch might have stopped\x{2014}or something.\x{201d}
+\x{201c}It\x{2019}s stopped all right, but it\x{2019}s stopped at a <<quarter past four|10>>.\x{201d}
+\x{201c}And I suppose she couldn\x{2019}t have been killed possibly at a <<quarter past four|10>>.\x{201d}",
+          ],
+          [
+            1,
+            '[ap 04:15] Murder in the Mews - Agatha Christie.epub (OEBPS/Text/9780061763366_Murder_in_the_Mews_one.xhtml) - quarter past four',
+            "\x{201c}And I suppose she couldn\x{2019}t have been killed possibly at a <<quarter past four|10>>.\x{201d}",
+          ],
+          [
+            1,
+            '[00:00] Murder in the Mews - Agatha Christie.epub (OEBPS/Text/9780061763366_Murder_in_the_Mews_seven.xhtml) - midnight',
+            "\x{201c}Plenderleith. Was playing bridge up to <<midnight|13>>. Host, hostess, naval commander guest and two servants can all swear to that. No doubt about it, we\x{2019}ve got to give up any idea of her being concerned in the business. All the same, I\x{2019}d like to know why she went all hot and bothered about that little attach\x{e9} case under the stairs. That\x{2019}s something in your line, Poirot. You like solving the kind of triviality that leads nowhere. The Mystery of the Small Attach\x{e9} Case. Sounds quite promising!\x{201d}",
+          ],
+          [
+            1,
+            '[ap 11:30] Murder in the Mews - Agatha Christie.epub (OEBPS/Text/9780061763366_Murder_in_the_Mews_seven.xhtml) - half past eleven',
+            "At <<half past eleven|10>>, Charles Laverton-West was ushered into Chief Inspector Japp\x{2019}s room. Japp rose and shook hands.",
+          ],
+          [
+            1,
+            '[ap 10:30] Murder in the Mews - Agatha Christie.epub (OEBPS/Text/9780061763366_Murder_in_the_Mews_seven.xhtml) - half past ten',
+            "\x{201c}I was\x{2014}now let me see . . . Ah, yes. I was at the House. Left at <<half past ten|10>>. Went for a walk along the Embankment. Watched some of the fireworks.\x{201d}",
+          ],
+          [
+            1,
+            '[ap 10:20] Murder in the Mews - Agatha Christie.epub (OEBPS/Text/9780061763366_Murder_in_the_Mews_six.xhtml) - ten-twenty',
+            "\x{201c}Major Eustace (if it was him) left here last night at <<ten-twenty|5b>> and said goodbye to Mrs.\x{a0}Allen on the doorstep.\x{201d}",
+          ],
+          [
+            1,
+            '[ap < 10:30] Murder in the Mews - Agatha Christie.epub (OEBPS/Text/9780061763366_Murder_in_the_Mews_two.xhtml) - just before half past ten',
+            "\x{201c}I think it was <<just before half past ten|10>>. Mrs.\x{a0}Pierce, the old liar, wasn\x{2019}t here, I found\x{2014}\x{201d}",
+          ],
+          [
+            1,
+            '[ap 09:00] Murder in the Mews - Agatha Christie.epub (OEBPS/Text/9780061763366_Murder_in_the_Mews_two.xhtml) - nine',
+            "\x{201c}About twice a week she turns up at twelve\x{2014}or not at all. She\x{2019}s supposed to come at <<nine|9c:0>>. Actually, as I say, twice a week she either \x{2018}comes over queer,\x{2019} or else some member of her family is overtaken by sickness. All these daily women are like that\x{2014}fail you now and again. She\x{2019}s not bad as they go.\x{201d}",
+          ],
+          [
+            1,
+            '[ap 04:50] Murder in the Mews - Agatha Christie.epub (OEBPS/Text/9780061763366_Other_Works.xhtml) - 4:50',
+            "A Pocket Full of Rye
+<<4:50|2>> from Paddington
+The Mirror Crack\x{2019}d from Side to Side",
+          ],
+          [
+            1,
+            '[02:30] Murder in the Mews - Agatha Christie.epub (OEBPS/Text/9780061763366_The_Incredible_Theft_four.xhtml) - half past two in the morning',
+            "It was <<half past two in the morning|10>>. He had been roused from sleep and rushed down through the darkness in a big Rolls Royce. Now he had just finished hearing what the two men had to tell\x{a0}him.",
+          ],
+          [
+            1,
+            '[03:00] Murder in the Mews - Agatha Christie.epub (OEBPS/Text/9780061763366_The_Incredible_Theft_four.xhtml) - three in the morning',
+            "\x{201c}Cause too much comment,\x{201d} he said, \x{201c}if we dragged everybody out of their beds at <<three in the morning|9a>>. In any case you\x{2019}ll have to proceed with a good deal of camouflage, M. Poirot. This matter has got to be kept dark.\x{201d}",
+          ],
+          [
+            1,
+            '[ap < 11:00] Murder in the Mews - Agatha Christie.epub (OEBPS/Text/9780061763366_The_Incredible_Theft_six.xhtml) - just before eleven',
+            "A few brief questions had elicited the information that Mrs.\x{a0}Macatta had gone up to bed <<just before eleven|10>>, and had heard or seen nothing helpful.",
+          ],
+          [
+            1,
+            '[12:00] Murder in the Mews - Agatha Christie.epub (OEBPS/Text/9780061763366_The_Incredible_Theft_six.xhtml) - noon',
+            "\x{201c}Much too good in my opinion,\x{201d} said Mrs.\x{a0}Macatta. \x{201c}It\x{2019}s almost a profession with her. She plays morning, <<noon|13>>, and night.\x{201d}",
+          ],
+          [
+            1,
+            '[ap < 11:00] Murder in the Mews - Agatha Christie.epub (OEBPS/Text/9780061763366_The_Incredible_Theft_six.xhtml) - Just before eleven',
+            "\x{201c}That was at what time?\x{201d}
+\x{201c}<<Just before eleven|10>>. I suppose the robbery took place after that?\x{201d}
+\x{201c}Yes, after that. You did not hear or see anything?\x{201d}",
+          ],
+          [
+            1,
+            '[ap 10:45] Murder in the Mews - Agatha Christie.epub (OEBPS/Text/9780061763366_The_Incredible_Theft_two.xhtml) - quarter to eleven',
+            "His wife looked annoyed.
+\x{201c}It\x{2019}s only a <<quarter to eleven|10>>. A short one.\x{201d}
+\x{201c}They never are, my dear,\x{201d} said Sir George good-temperedly. \x{201c}Anyway, Charles and I have some work to do.\x{201d}",
+          ],
+        ];

@@ -1,0 +1,77 @@
+$VAR1 = [
+          [
+            1,
+            '[20:00] Click Here to Kill Everybody_ Security and - Bruce Schneier.epub (OEBPS/xhtml/Chapter01.xhtml) - 2000',
+            "Yes, computers are so hard to secure that every security researcher has his own pithy saying about it. Here\x{2019}s mine from <<2000|9c:0>>: \x{201c}Security is a process, not a product.\x{201d}",
+          ],
+          [
+            1,
+            '[> 20:02] Click Here to Kill Everybody_ Security and - Bruce Schneier.epub (OEBPS/xhtml/Chapter01.xhtml) - after 2002',
+            "Of course, not all software development processes are created equal. Microsoft spent the decade <<after 2002|18:0>> improving its software development process to minimize the number of security vulnerabilities in shipped software. Its products are by no means perfect\x{2014}that\x{2019}s beyond the capabilities of the technologies right now\x{2014}but they\x{2019}re a lot better than average. Apple is known for its quality software. So is Google. Some very small and critical pieces of software are high quality. Aircraft avionics software is written to a much more rigorous quality standard than just about everything else. And NASA had a famous quality control process for its space shuttle software.",
+          ],
+          [
+            1,
+            '[~ 14:40] Click Here to Kill Everybody_ Security and - Bruce Schneier.epub (OEBPS/xhtml/Chapter01.xhtml) - around 1440',
+            "Similarly, in the centuries after Johannes Gutenberg invented the printing press <<around 1440|18:0>>, the technology improved considerably, but it was still basically the same mechanical\x{2014}and then electromechanical\x{2014}device. Throughout those centuries, a printing press was only ever a printing press. No matter how hard its operator tried, it couldn\x{2019}t be made to perform calculus or play music or weigh fish. Your old thermostat was an electromechanical device that sensed the temperature, and turned a circuit on and off in response. That circuit was connected to your furnace, which gave the thermostat the ability to turn your heat on and off. That\x{2019}s all it could do. And your old camera could only take pictures.",
+          ],
+          [
+            1,
+            '[20:10] Click Here to Kill Everybody_ Security and - Bruce Schneier.epub (OEBPS/xhtml/Chapter04.xhtml) - 2010',
+            "The risks of nation-state cyberattack are increasing, and governments are taking notice. Every year, the US director of national intelligence submits a Worldwide Threat Assessment document to the Senate and House select committees on intelligence. It\x{2019}s a good guide to what we\x{2019}re concerned about. The 2007 document didn\x{2019}t mention cyber threats at all. Even in the 2009 report, \x{201c}the growing cyber and organized crime threat\x{201d} was discussed only at the end of the document, where it felt like an afterthought. By <<2010|9n:0>>, cyber threats were the first threat listed in the annual report; and since then, they\x{2019}ve been painted in increasingly dire terms. From the 2017 report:",
+          ],
+          [
+            1,
+            '[20:11] Click Here to Kill Everybody_ Security and - Bruce Schneier.epub (OEBPS/xhtml/Chapter04.xhtml) - 2011',
+            "Similarly, the Munich Security Conference\x{2014}the most important international security policy conference in the world\x{2014}didn\x{2019}t have a panel on cybersecurity until <<2011|9c:0>>. Now, cybersecurity has its own separate event.",
+          ],
+          [
+            1,
+            '[20:17] Click Here to Kill Everybody_ Security and - Bruce Schneier.epub (OEBPS/xhtml/Chapter05.xhtml) - 2017',
+            'Here are more examples from <<2017|9c:0>>. Hackers linked to China compromised the legitimate download site for a popular Windows tool called CCleaner, resulting in millions of users unsuspectingly downloading a malware-infected version of the software. Unknown hackers corrupted the legitimate software update mechanism for a piece of Ukrainian accounting software to spread NotPetya malware throughout the country. Another group used fake antivirus updates to spread malware. Researchers demonstrated how to hack an iPhone by infecting a third-party replacement screen. And there are enough similar attacks that some people are warning not to buy any used IoT devices from sites like eBay.',
+          ],
+          [
+            1,
+            '[20:14] Click Here to Kill Everybody_ Security and - Bruce Schneier.epub (OEBPS/xhtml/Chapter09.xhtml) - 2014',
+            "It\x{2019}s basically the NOBUS argument. When the cell phone network was designed, putting up a cell tower was an incredibly difficult technical exercise, and it was reasonable to assume that only legitimate cell providers would do it. With time, the technology became cheaper and easier. What was once a secret NSA interception program and a secretive FBI investigative tool became usable by less-capable governments, cybercriminals, and even hobbyists. In 2010, hackers were demonstrating their home-built IMSI-catchers at conferences. By <<2014|9n:0>>, dozens of IMSI-catchers had been discovered in the Washington, DC, area, collecting information on who knows whom, and run by who knows which government or criminal organization. Now, you can browse the Chinese e-commerce website Alibaba.com and buy your own IMSI-catcher for under \$2,000. You can also download public-domain software that will turn your laptop into one with the right peripherals.",
+          ],
+          [
+            1,
+            '[20:15] Click Here to Kill Everybody_ Security and - Bruce Schneier.epub (OEBPS/xhtml/Chapter11.xhtml) - 2015',
+            "Mass surveillance isn\x{2019}t limited to totalitarian countries. The US government collected phone call metadata on most Americans until <<2015|9c:0>>, and still has access to this information on demand. Many local governments keep comprehensive data about people\x{2019}s movements, collected from license plate scanners mounted on street poles and mobile vans. And, of course, many corporations have us all under surveillance through a variety of mechanisms. Governments regularly demand access to that data in ways that don\x{2019}t require a warrant, such as subpoenas and national security letters.",
+          ],
+          [
+            1,
+            '[20:00] Click Here to Kill Everybody_ Security and - Bruce Schneier.epub (OEBPS/xhtml/Conclusion.xhtml) - 2000',
+            'A good model can be found in public-interest law. In the early 1970s, there was really no such thing. But after the Ford Foundation and other philanthropies decided to support fledgling public-interest law firms, the number of attorneys in the field exploded. In the late 1960s, there were 92 public-interest law centers in the US; by <<2000|9n:0>>, there were over a thousand. Today, 20% of the graduating class of Harvard Law School go directly into public-interest law, rather than starting at a law firm or a corporation. That experience is valued and serves these lawyers well in their careers, wherever they end up next.',
+          ],
+          [
+            1,
+            '[20:20] Click Here to Kill Everybody_ Security and - Bruce Schneier.epub (OEBPS/xhtml/Introduction.xhtml) - 2020',
+            "The magnitude of this change is staggering. In 2017, there were 8.4 billion things attached to the Internet\x{2014}primarily computers and phones\x{2014}an increase by a third over the previous year. By <<2020|9n:0>>, there are likely to be somewhere between 20 and 75 billion, depending on whose estimates you believe.",
+          ],
+          [
+            1,
+            '[20:16] Click Here to Kill Everybody_ Security and - Bruce Schneier.epub (OEBPS/xhtml/Notes.xhtml) - 2016',
+            "5\x{a0}\x{a0}\x{a0}In 2017, there were 8.4 billion things: Gartner (7 Feb 2017), \x{201c}Gartner says 8.4 billion connected \x{2018}things\x{2019} will be in use in 2017, up 31 percent from <<2016|9c:0>>,\x{201d} https://www.gartner.com/newsroom/id/3598917.",
+          ],
+          [
+            1,
+            '[ap 05:00] Click Here to Kill Everybody_ Security and - Bruce Schneier.epub (OEBPS/xhtml/Notes.xhtml) - 5',
+            "<<5|5g:0>>\x{a0}\x{a0}\x{a0}By 2020, there are likely to be: Tony Danova (2 Oct 2013), \x{201c}Morgan Stanley: 75 billion devices will be connected to the Internet of Things by 2020,\x{201d} Business Insider, http://www.businessinsider.com/75-billion-devices-will-be-connected-to-the-internet-by-2020-2013-10. Peter Brown (25 Jan 2017), \x{201c}20 billion connected Internet of Things devices in 2017, IHS Markit says,\x{201d} Electronics 360, http://electronics360.globalspec.com/article/8032/20-billion-connected-internet-of-things-devices-in-2017-ihs-markit-says. Julia Boorstin (1 Feb 2016), \x{201c}An Internet of Things that will number ten billions,\x{201d} CNBC, https://www.cnbc.com/2016/02/01/an-internet-of-things-that-will-number-ten-billions.html. Statista (2018), \x{201c}Internet of Things (IoT) connected devices installed base worldwide from 2015 to 2025 (in billions),\x{201d} https://www.statista.com/statistics/471264/iot-number-of-connected-devices-worldwide.",
+          ],
+          [
+            1,
+            '[> 20:02] Click Here to Kill Everybody_ Security and - Bruce Schneier.epub (OEBPS/xhtml/Notes.xhtml) - after 2002',
+            "20\x{a0}\x{a0}\x{a0}Microsoft spent the decade <<after 2002|18:0>>: In 2002, Bill Gates sent his landmark \x{201c}trustworthy computing\x{201d} memo to all employees. In that same year, Windows development shut down completely so that every employee could take security training. The company\x{2019}s first Security Development Lifecycle security tools appeared in 2004. Abhishek Baxi (10 Mar 2014), \x{201c}From a Bill Gates memo to an industry practice: The story of Security Development Lifecycle,\x{201d} Windows Central, https://www.windowscentral.com/bill-gates-memo-industry-practice-story-security-development-cycle.",
+          ],
+          [
+            1,
+            '[20:18] Click Here to Kill Everybody_ Security and - Bruce Schneier.epub (OEBPS/xhtml/Notes.xhtml) - 2018',
+            "47\x{a0}\x{a0}\x{a0}Sticky-note passwords regularly show up: Here\x{2019}s one example from <<2018|9c:0>>: Kif Leswing (16 Jan 2018), \x{201c}A password for the Hawaii emergency agency was hiding in a public photo, written on a Post-it note,\x{201d} Business Insider, http://www.businessinsider.com/hawaii-emergency-agency-password-discovered-in-photo-sparks-security-criticism-2018-1.",
+          ],
+          [
+            1,
+            '[02:44] Click Here to Kill Everybody_ Security and - Bruce Schneier.epub (OEBPS/xhtml/Notes.xhtml) - 244 hours',
+            "134\x{a0}\x{a0}\x{a0}There is nothing like this today: One study estimated it would take average consumers <<244 hours|1>>/year to read all of the privacy policies they agree to. Aleecia M. McDonald and Lorrie Faith Cranor (1 Oct 2008), \x{201c}The cost of reading privacy policies,\x{201d} I/S: A Journal of Law and Policy for the Information Society, 2008 Privacy Year in Review issue, http://lorrie.cranor.org/pubs/readingPolicyCost-authorDraft.pdf.",
+          ],
+        ];

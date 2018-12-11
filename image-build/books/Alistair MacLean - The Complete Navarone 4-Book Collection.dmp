@@ -1,0 +1,891 @@
+$VAR1 = [
+          [
+            1,
+            '[ap 01:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/004-toc.html) - 0100',
+            "MAP
+ONE: Prelude: Sunday <<0100|18:0>>\x{2013}0900
+TWO: Sunday Night 1900\x{2013}0200",
+          ],
+          [
+            1,
+            '[ap 07:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/004-toc.html) - 0700',
+            "TWO: Sunday Night 1900\x{2013}0200
+THREE: Monday <<0700|18:0>>\x{2013}1700
+FOUR: Monday Evening 1700\x{2013}2330",
+          ],
+          [
+            1,
+            '[ap 01:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/004-toc.html) - 0100',
+            "FOUR: Monday Evening 1700\x{2013}2330
+FIVE: Monday Night <<0100|18:0>>\x{2013}0200
+SIX: Monday Night <<0200|18:0>>\x{2013}0600",
+          ],
+          [
+            1,
+            '[ap 01:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/004-toc.html) - 0100',
+            "FIVE: Monday Night <<0100|18:0>>\x{2013}0200
+SIX: Monday Night <<0200|18:0>>\x{2013}0600
+SEVEN: Tuesday 1500\x{2013}1900",
+          ],
+          [
+            1,
+            '[00:15] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/004-toc.html) - 0015',
+            "EIGHT: Tuesday 1900\x{2013}0015
+NINE: Tuesday Night <<0015|18:0>>\x{2013}0200
+TEN: Tuesday Night <<0400|18:0>>\x{2013}0600",
+          ],
+          [
+            1,
+            '[00:15] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/004-toc.html) - 0015',
+            "NINE: Tuesday Night <<0015|18:0>>\x{2013}0200
+TEN: Tuesday Night <<0400|18:0>>\x{2013}0600
+ELEVEN: Wednesday 1400\x{2013}1600",
+          ],
+          [
+            1,
+            '[16:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/004-toc.html) - SIXTEEN',
+            "<<SIXTEEN|9k:0>>: Wednesday Night 2115\x{2013}2345
+SEVENTEEN: Wednesday Night <<Midnight|13>>
+Force 10 from Navarone",
+          ],
+          [
+            1,
+            '[00:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/004-toc.html) - 0000',
+            "MAP
+ONE: Prelude: Thursday <<0000|18:0>>\x{2013}0600
+TWO: Thursday 1400\x{2013}2330",
+          ],
+          [
+            1,
+            '[00:30] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/004-toc.html) - 0030',
+            "TWO: Thursday 1400\x{2013}2330
+THREE: Friday <<0030|18:0>>\x{2013}0200
+FOUR: Friday <<0200|18:0>>\x{2013}0330",
+          ],
+          [
+            1,
+            '[00:30] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/004-toc.html) - 0030',
+            "THREE: Friday <<0030|18:0>>\x{2013}0200
+FOUR: Friday <<0200|18:0>>\x{2013}0330
+FIVE: Friday <<0330|18:0>>\x{2013}0500",
+          ],
+          [
+            1,
+            '[ap 02:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/004-toc.html) - 0200',
+            "FOUR: Friday <<0200|18:0>>\x{2013}0330
+FIVE: Friday <<0330|18:0>>\x{2013}0500
+SIX: Friday <<0800|18:0>>\x{2013}1000",
+          ],
+          [
+            1,
+            '[ap 03:30] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/004-toc.html) - 0330',
+            "FIVE: Friday <<0330|18:0>>\x{2013}0500
+SIX: Friday <<0800|18:0>>\x{2013}1000
+SEVEN: Friday 1000\x{2013}1200",
+          ],
+          [
+            1,
+            '[00:40] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/004-toc.html) - 0040',
+            "EIGHT: Friday 1500\x{2013}2115
+NINE: Friday 2115\x{2013}Saturday <<0040|18:0>>
+TEN: Saturday <<0040|18:0>>\x{2013}0120",
+          ],
+          [
+            1,
+            '[00:40] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/004-toc.html) - 0040',
+            "NINE: Friday 2115\x{2013}Saturday <<0040|18:0>>
+TEN: Saturday <<0040|18:0>>\x{2013}0120
+ELEVEN: Saturday <<0120|18:0>>\x{2013}0135",
+          ],
+          [
+            1,
+            '[00:40] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/004-toc.html) - 0040',
+            "TEN: Saturday <<0040|18:0>>\x{2013}0120
+ELEVEN: Saturday <<0120|18:0>>\x{2013}0135
+TWELVE: Saturday <<0135|18:0>>\x{2013}0200",
+          ],
+          [
+            1,
+            '[ap 01:20] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/004-toc.html) - 0120',
+            "ELEVEN: Saturday <<0120|18:0>>\x{2013}0135
+TWELVE: Saturday <<0135|18:0>>\x{2013}0200
+THIRTEEN: Saturday <<0200|18:0>>\x{2013}0215",
+          ],
+          [
+            1,
+            '[ap 01:35] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/004-toc.html) - 0135',
+            "TWELVE: Saturday <<0135|18:0>>\x{2013}0200
+THIRTEEN: Saturday <<0200|18:0>>\x{2013}0215
+EPILOGUE",
+          ],
+          [
+            1,
+            '[ap 09:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/004-toc.html) - 0900',
+            "ONE: Sunday 1000\x{2013}1900
+TWO: Sunday 1900\x{2013}Monday <<0900|18:0>>
+THREE: Monday <<0900|18:0>>\x{2013}1900",
+          ],
+          [
+            1,
+            '[ap 09:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/004-toc.html) - 0900',
+            "TWO: Sunday 1900\x{2013}Monday <<0900|18:0>>
+THREE: Monday <<0900|18:0>>\x{2013}1900
+FOUR: Monday 1900\x{2013}Tuesday <<0500|18:0>>",
+          ],
+          [
+            1,
+            '[ap 09:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/004-toc.html) - 0900',
+            "THREE: Monday <<0900|18:0>>\x{2013}1900
+FOUR: Monday 1900\x{2013}Tuesday <<0500|18:0>>
+FIVE: Tuesday <<0500|18:0>>\x{2013}2300",
+          ],
+          [
+            1,
+            '[ap 05:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/004-toc.html) - 0500',
+            "FOUR: Monday 1900\x{2013}Tuesday <<0500|18:0>>
+FIVE: Tuesday <<0500|18:0>>\x{2013}2300
+SIX: Tuesday 2300\x{2013}Wednesday <<0400|18:0>>",
+          ],
+          [
+            1,
+            '[ap 05:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/004-toc.html) - 0500',
+            "FIVE: Tuesday <<0500|18:0>>\x{2013}2300
+SIX: Tuesday 2300\x{2013}Wednesday <<0400|18:0>>
+SEVEN: Wednesday <<0400|18:0>>\x{2013}0500",
+          ],
+          [
+            1,
+            '[ap 04:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/004-toc.html) - 0400',
+            "SIX: Tuesday 2300\x{2013}Wednesday <<0400|18:0>>
+SEVEN: Wednesday <<0400|18:0>>\x{2013}0500
+EPILOGUE: Wednesday 1400",
+          ],
+          [
+            1,
+            '[ap 02:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/004-toc.html) - 0200',
+            "ONE: Monday 1800\x{2013}Tuesday 1000
+TWO: Tuesday 1000\x{2013}Wednesday <<0200|18:0>>
+THREE: Wednesday <<0200|18:0>>\x{2013}0600",
+          ],
+          [
+            1,
+            '[ap 02:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/004-toc.html) - 0200',
+            "TWO: Tuesday 1000\x{2013}Wednesday <<0200|18:0>>
+THREE: Wednesday <<0200|18:0>>\x{2013}0600
+FOUR: Wednesday <<0600|18:0>>\x{2013}1800",
+          ],
+          [
+            1,
+            '[ap 02:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/004-toc.html) - 0200',
+            "THREE: Wednesday <<0200|18:0>>\x{2013}0600
+FOUR: Wednesday <<0600|18:0>>\x{2013}1800
+FIVE: Wednesday 1800\x{2013}Thursday <<0300|18:0>>",
+          ],
+          [
+            1,
+            '[ap 06:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/004-toc.html) - 0600',
+            "FOUR: Wednesday <<0600|18:0>>\x{2013}1800
+FIVE: Wednesday 1800\x{2013}Thursday <<0300|18:0>>
+SIX: Thursday <<0300|18:0>>\x{2013}1200",
+          ],
+          [
+            1,
+            '[ap 03:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/004-toc.html) - 0300',
+            "FIVE: Wednesday 1800\x{2013}Thursday <<0300|18:0>>
+SIX: Thursday <<0300|18:0>>\x{2013}1200
+SEVEN: Thursday 1200\x{2013}2000",
+          ],
+          [
+            1,
+            '[ap 03:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/004-toc.html) - 0300',
+            "EIGHT: Thursday 2000\x{2013}2300
+NINE: Thursday 2300\x{2013}Friday <<0300|18:0>>
+TEN: Friday <<0300|18:0>>\x{2013}Saturday <<0030|18:0>>",
+          ],
+          [
+            1,
+            '[ap 03:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/004-toc.html) - 0300',
+            "NINE: Thursday 2300\x{2013}Friday <<0300|18:0>>
+TEN: Friday <<0300|18:0>>\x{2013}Saturday <<0030|18:0>>
+EPILOGUE",
+          ],
+          [
+            1,
+            '[00:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/009-chapter1.html) - midnight',
+            "\x{2018}No leave,\x{2019} Mallory said bitterly. \x{2018}Not even a night\x{2019}s sleep. Just hours and hours in the SOE Headquarters, answering a lot of silly, damn-fool questions about climbing in the Southern Alps. Then hauled out of bed at <<midnight|13>>, told I was to meet you, and then driven for hours across the blasted desert by a mad Scotsman who sang drunken songs and asked hundreds of even more silly, damnfool questions!\x{2019}",
+          ],
+          [
+            1,
+            '[ap 10:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/009-chapter1.html) - ten',
+            "\x{2018}Yeah. Clear weather. It was <<ten|9d>>-tenths over the target,\x{2019} Torrance said bitterly. \x{2018}We had to go down to fifteen hundred. Not that it made any difference. We would have to have gone down lower than that anyway \x{2013} about three thousand feet below sea-level then fly up the way: that cliff overhang shuts the target clean off. Might as well have dropped a shower of leaflets asking them to spike their own bloody guns \x{2026} Then they\x{2019}ve got every second AA gun in the south of Europe concentrated along this narrow 50-degree vector \x{2013} the only way you can approach the target, or anywhere near the target. Russ and Conroy were belted good and proper on the way in. Didn\x{2019}t even get half-way towards the harbour \x{2026} They never had a chance.\x{2019}",
+          ],
+          [
+            1,
+            "[ap 07:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/010-chapter2.html) - Seven o\x{2019}clock",
+            "Mallory stirred and groaned and fought his way up from the depths of exhausted sleep. Painfully he eased himself back on the metal-framed bucket-seat, wondering peevishly when the Air Force was going to get round to upholstering these fiendish contraptions. Then he was fully awake, tired, heavy eyes automatically focusing on the luminous dial of his wrist-watch. <<Seven o\x{2019}clock|6>>. Just <<seven o\x{2019}clock|6>> \x{2013} he\x{2019}d been asleep barely a couple of hours. Why hadn\x{2019}t they let him sleep on?",
+          ],
+          [
+            1,
+            "[ap 08:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/010-chapter2.html) - eight o\x{2019}clock",
+            "It was <<eight o\x{2019}clock|6>> and almost totally dark inside the plane when Mallory rose and made his way for\x{2019}ard to the control cabin. The captain, face wreathed in tobacco smoke, was drinking coffee: the co-pilot waved a languid hand at his approach and resumed a bored scanning of the scene ahead.",
+          ],
+          [
+            1,
+            "[ap 11:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/010-chapter2.html) - eleven o\x{2019}clock",
+            "Mallory\x{2019}s watch showed exactly <<eleven o\x{2019}clock|6>> when he finally sat back, folded away the map and chart. He looked quizzically at the four thoughtful faces round the table.",
+          ],
+          [
+            1,
+            '[14:30] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/011-chapter3.html) - half-past two in the afternoon',
+            'At <<half-past two in the afternoon|10>> the engine stopped. There had been no warning coughs or splutters or missed strokes. One moment the regular, reassuring thump-thump: the next, sudden, completely unexpected silence, oppressive and foreboding in its absoluteness.',
+          ],
+          [
+            1,
+            "[ap < 04:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/011-chapter3.html) - Almost four o\x{2019}clock",
+            "\x{2018}Anybody else hurt?\x{2019} Mallory\x{2019}s voice was deliberately brisk, cheerful. \x{2018}Nobody? Good! Right, let\x{2019}s get under way as fast as possible. The farther and the faster we leave this place behind, the better for all of us.\x{2019} He looked at his watch. \x{2018}<<Almost four o\x{2019}clock|6>> \x{2013} time for our routine check with Cairo. Just leave that scrap-yard of yours for a couple of minutes, Chief. See if you can pick them up.\x{2019} He looked at the sky to the east, a sky now purply livid and threatening, and shook his head. \x{2018}Could be that the weather forecast might be worth hearing.\x{2019}",
+          ],
+          [
+            1,
+            '[ap 10:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/012-chapter4.html) - Ten',
+            "\x{2018}No, not a chance. Seven miles as the crow flies. <<Ten|9k:0>>, maybe twelve miles over rough hill and forest tracks \x{2013} and in pitch darkness. They wouldn\x{2019}t think of it.\x{2019} He waved his bottle in the direction of the watch-tower. \x{2018}Tonight\x{2019}s their big night.\x{2019}",
+          ],
+          [
+            1,
+            '[ap 00:57] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/012-chapter4.html) - three to one',
+            "\x{2018}I don\x{2019}t like it, boss,\x{2019} he muttered unhappily. \x{2018}I don\x{2019}t like the set-up one little bit. You shoulda let me go with Andrea. It\x{2019}s <<three to one|10>> up there, and they\x{2019}re waiting and ready.\x{2019} He looked accusingly at Mallory. \x{2018}Dammit to hell, boss, you\x{2019}re always telling us how desperately important this mission is!\x{2019}",
+          ],
+          [
+            1,
+            '[00:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/012-chapter4.html) - midnight',
+            'Five minutes passed, perhaps ten, but nobody broke the silence. Occasionally, for the benefit of any watchers, they went through the motions of drinking; but even the half-light was fading now and Mallory knew they could only be half-seen blurs, shadowy and indistinct, from the heights of the watch-tower. The caique was beginning to rock in the surge from the open sea round the bluff. The tall, reaching pines, black now as <<midnight|13>> cypress and looming impossibly high against the star-dusted cloud wrack that scudded palely overhead, were closing in on them from either side, sombre, watchful and vaguely threatening, the wind moaning in lost and mournful requiem through their swaying topmost branches. A bad night, an eerie and an ominous night, pregnant with that indefinable foreboding that reaches down and touches the well-springs of the nameless fears, the dim and haunting memories of a million years ago, the ancient racial superstitions of mankind: a night that sloughed off the tissue veneer of civilisation and the shivering man complains that someone is walking over his grave.',
+          ],
+          [
+            1,
+            '[ap 00:50] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/013-chapter5.html) - ten to one',
+            "For the first two or three seconds Mallory had lain rigid and unmoving, temporarily paralysed in mind and body: already the guard had advanced four or five steps, carbine held in readiness before him, head turned sideways as he listened into the high, thin whine of the wind and the deep and distant booming of the surf below, trying to isolate the sound that had aroused his suspicions. But now the first shock was over and Mallory\x{2019}s mind was working again. To go up on to the top of the cliff would be suicidal: <<ten to one|10a:0>> the guard would hear him scrambling over the edge and shoot him out of hand: and if he did get up he had neither the weapons nor, after the exhausting climb, the strength to tackle an armed, fresh man. He would have to go back down. But he would have to slide down slowly, an inch at a time. At night, Mallory knew, side vision is even more acute than direct, and the guard might catch a sudden movement out of the corner of his eye. And then he would only have to turn his head and that would be the end: even in that darkness, Mallory realised, there could be no mistaking the bulk of his silhouette against the sharp line of the edge of the cliff.",
+          ],
+          [
+            1,
+            '[ap ~ 01:40] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/014-chapter6.html) - about 140',
+            "\x{2018}We gotta get a fire, dry clothing, for that kid,\x{2019} Miller said urgently. \x{2018}His pulse is <<about 140|18:0>>, temperature 103. He\x{2019}s runnin\x{2019} a fever, and he\x{2019}s losin\x{2019} ground all the time.\x{2019}",
+          ],
+          [
+            1,
+            '[~ 05:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/014-chapter6.html) - About five in the morning',
+            "<<About five in the morning|9h>>, as they were climbing up the steep valley head above the gorge, a treacherous, slippery slope with only a few stunted carob trees for anchor in the sliding scree, Mallory decided that they must rope up for safety\x{2019}s sake. In single file they scrambled and struggled up the ever-steepening slope for the next twenty minutes: Mallory, in the lead, did not even dare to think how Andrea was getting on behind him. Suddenly the slope eased, flattened out completely, and almost before they realised what was happening they had crossed the high divide, still roped together and in driving, blinding snow with zero visibility, and were sliding down the valley on the other side.",
+          ],
+          [
+            1,
+            "[ap 04:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/015-chapter7.html) - four o\x{2019}clock",
+            "\x{2018}Plenty,\x{2019} Mallory assured him. \x{2018}Search party moving this way. We\x{2019}ll have to pull out inside half an hour.\x{2019} He looked at his watch. \x{2018}Just on <<four o\x{2019}clock|6>>. Do you think you could raise Cairo on the set?\x{2019}",
+          ],
+          [
+            1,
+            "[ap 07:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/015-chapter7.html) - seven o\x{2019}clock",
+            "\x{2018}Of course, of course. We must do what we can.\x{2019} Andrea\x{2019}s face was grave, his voice only a murmur. \x{2018}As long as we can. He is only a boy, a child almost \x{2026} Perhaps it will not be long.\x{2019} He pulled back the curtain, looked out at the evening sky. \x{2018}I will be back by <<seven o\x{2019}clock|6>>.\x{2019}",
+          ],
+          [
+            1,
+            "[ap 07:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/015-chapter7.html) - Seven o\x{2019}clock",
+            "\x{2018}<<Seven o\x{2019}clock|6>>,\x{2019} Mallory repeated. The sky, he could see, was darkening already, darkening with the gloom of coming snow, and the lifting wind was beginning to puff little clouds of air-spun, flossy white into the little gully. Mallory shivered and caught hold of the massive arm. \x{2018}For God\x{2019}s sake, Andrea,\x{2019} he urged quietly, \x{2018}look after yourself!\x{2019}",
+          ],
+          [
+            1,
+            '[23:45] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/016-chapter8.html) - fifteen minutes to midnight',
+            'Casey Brown washed down the last few crumbs of bread with a mouthful of wine, rose stiffly to his feet, pulled the screen aside and peered out mournfully at the falling snow. He shuddered, let the canvas fall, lifted up his transmitter and shrugged into the shoulder straps, gathered up a coil of rope, a torch and a groundsheet. Mallory looked at his watch: it was <<fifteen minutes to midnight|10>>. The routine call from Cairo was almost due.',
+          ],
+          [
+            1,
+            '[00:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/016-chapter8.html) - midnight',
+            "\x{2018}Well, if Brown can do it \x{2026}\x{2019} Mallory was on his feet now, pulling his snow-smock over his head. \x{2018}Fuel, gentlemen \x{2013} old Leri\x{2019}s hut. Who\x{2019}s for a <<midnight|13>> stroll?\x{2019}",
+          ],
+          [
+            1,
+            '[00:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/016-chapter8.html) - midnight',
+            'Mallory stooped, blew out the candle. For an instant the flame flared then died and every feature, every person in the cave was swallowed up in the thick darkness of a winter <<midnight|13>>. Abruptly Mallory turned on his heel and pushed out through the canvas into the drifting, windblown snow already filling up the floor of the gully, Andrea and Louki close behind.',
+          ],
+          [
+            1,
+            "[~ 04:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/017-chapter9.html) - About four o\x{2019}clock this morning",
+            "\x{2018}With all respects, sir, that\x{2019}s not funny,\x{2019} Brown said morosely. \x{2018}Their invasion fleet \x{2013} mainly caiques and E-boats \x{2013} sailed this morning from the Piraeus,\x{2019} he went on. \x{2018}<<About four o\x{2019}clock this morning|6>>. Cairo expects they\x{2019}ll be holing up in the Cyclades somewhere tonight.\x{2019}",
+          ],
+          [
+            1,
+            '[ap 05:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/017-chapter9.html) - five',
+            "\x{2018}A singularly apt lodging, the way things are going,\x{2019} Mallory said dryly. \x{2018}We\x{2019}ll hope for the best. We\x{2019}re leaving before <<five|9c:0>>.\x{2019} He watched Brown lie down beside Stevens and transferred his attention to Louki. The little man was seated on a box on the opposite side of the fire, occasionally turning a heavy stone to be wrapped in cloth and put to Stevens\x{2019}s numbed feet, and blissfully hugging the flames. By and by he became aware of Mallory\x{2019}s close scrutiny and looked up.",
+          ],
+          [
+            1,
+            "[ap 01:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/017-chapter9.html) - One o\x{2019}clock",
+            "Mallory looked at his watch. <<One o\x{2019}clock|6>> exactly. Miller and Panayis should be back soon, he thought. The wind had passed its peak and the snow was almost gone: the going would be all that easier, but there would be tracks in the snow. Awkward, these tracks, but not fatal \x{2013} they themselves would be gone before light, cutting straight downhill for the foot of the valley. The snow wouldn\x{2019}t lie there \x{2013} and even if there were patches they could take to the stream that wound through the valley, leaving no trace behind.",
+          ],
+          [
+            1,
+            "[ap ~ 04:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/017-chapter9.html) - about four o\x{2019}clock",
+            "\x{2018}Matter enough, Major.\x{2019} Louki tugged ferociously at the end of his moustache. \x{2018}We will have to be leaving soon \x{2013} Panayis wants to go right away. He has heard that the German garrison is going to make a house-to-house check in our village during the night \x{2013} <<about four o\x{2019}clock|6>>, Panayis was told.\x{2019}",
+          ],
+          [
+            1,
+            '[ap 06:30] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/017-chapter9.html) - half-past six',
+            "\x{2018}Right, away you go. Damned sorry you\x{2019}ve got yourselves mixed up in all this \x{2013} but now that you are, a thousand thanks for all you\x{2019}ve done. See you at <<half-past six|10>>.\x{2019}",
+          ],
+          [
+            1,
+            '[ap 06:30] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/017-chapter9.html) - Half-past six',
+            "\x{2018}<<Half-past six|10>>,\x{2019} Louki echoed. \x{2018}The olive grove on the bank of the stream, south of the village. We will be waiting there.\x{2019}",
+          ],
+          [
+            1,
+            "[> 04:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/018-chapter10.html) - just after four o\x{2019}clock in the morning",
+            "The Germans took them <<just after four o\x{2019}clock in the morning|10>>, while they were still asleep. Bonetired and deep-drugged with this sleep as they were, they had no chance, not the slightest hope of offering any resistance. The conception, timing and execution of the coup were immaculate. Surprise was complete.",
+          ],
+          [
+            1,
+            '[12:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/018-chapter10.html) - midday',
+            'The snow had stopped altogether, Mallory saw, and stars were beginning to twinkle in the clearing sky. The wind, too, had fallen away and was perceptibly warmer. Most of the snow would be gone by <<midday|13>>, Mallory guessed.',
+          ],
+          [
+            1,
+            "[ap 06:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/018-chapter10.html) - six o\x{2019}clock",
+            "Hauptmann Skoda was a small, thin man in his late thirties, neat, dapper, debonair and wholly evil. There was something innately evil about the long, corded neck that stretched up scrawnily above his padded shoulders, something repellent about the incongruously small bullet head perched above. When the thin, bloodless lips parted in a smile, which was often, they revealed a perfect set of teeth: far from lighting his face, the smile only emphasised the sallow skin stretched abnormally taut across the sharp nose and high cheekbones, puckered up the sabre scar that bisected the left cheek from eyebrow to chin: and whether he smiled or not, the pupils of the deep-set eyes remained always the same, still and black and empty. Even at that early hour \x{2013} it was not yet <<six o\x{2019}clock|6>> \x{2013} he was immaculately dressed, freshly shaven, the wetly gleaming hair \x{2013} thin, dark, heavily indented above the temples \x{2013} brushed straight back across his head. Seated behind a flat-topped table, the sole article of furniture in the bench-lined guardroom, only the upper half of his body was visible: even so, one instinctively knew that the crease of the trousers, the polish of the jack-boots, would be beyond reproach.",
+          ],
+          [
+            1,
+            "[ap > 02:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/019-chapter11.html) - just after two o\x{2019}clock",
+            "It was a breath-taking panorama, a heart-catching beauty sweeping majestically through a great semicircle over the sunlit sea. But Mallory had no eyes for it, had spared it only a passing glance when he had come on guard less than half an hour previously, <<just after two o\x{2019}clock|10>>. He had dismissed it with one quick glance, settled by the bole of a tree, gazed for endless minutes, gazed until his eyes ached with strain at what he had so long waited to see. Had waited to see and come to destroy \x{2013} the guns of the fortress of Navarone.",
+          ],
+          [
+            1,
+            '[ap 02:30] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/019-chapter11.html) - Half-past two',
+            "\x{2018}<<Half-past two|10>>, or thereabouts.\x{2019} Mallory lifted an interrogatory eyebrow. \x{2018}You are concerned, Panayis. Why?\x{2019}",
+          ],
+          [
+            1,
+            '[ap < 03:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/020-chapter12.html) - Almost three',
+            "His last words were caught up and drowned in the tearing, rapid-fire crash of the automatic carbines. With four machine-guns in their hands \x{2013} two Brens and two 9 mm Schmeissers \x{2013} it was no war, as he had said, but sheer, pitiful massacre, with the defenceless figures on the slope below, figures still stunned and uncomprehending, jerking, spinning round and collapsing like marionettes in the hands of a mad puppeteer, some to lie where they fell, others to roll down the steep slope, legs and arms flailing in the grotesque disjointedness of death. Only a couple stood still where they had been hit, vacant surprise mirrored in their lifeless faces, then slipped down tiredly to the stony ground at their feet. <<Almost three|9:0>> seconds had passed before the handful of those who still lived \x{2013} about a quarter of the way in from either end of the line where the converging streams of fire had not yet met \x{2013} realised what was happening and flung themselves desperately to the ground in search of the cover that didn\x{2019}t exist.",
+          ],
+          [
+            1,
+            '[ap 08:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/020-chapter12.html) - Eight',
+            "\x{2018}It would be all of that.\x{2019} He risked a quick peep round one of the boulders, eased himself back again. \x{2018}<<Eight|9k:0>>, mebbe ten of them still down there, boss,\x{2019} he reported. \x{2018}The poor bastards are like ostriches \x{2013} trying to take cover behind stones the size of an orange \x{2026} We leave them be?\x{2019}",
+          ],
+          [
+            1,
+            '[ap 03:36] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/020-chapter12.html) - three thirty-six',
+            "\x{2018}Thank you, sir.\x{2019} Stevens was smiling in satisfaction. \x{2018}Thank you very much indeed. There\x{2019}s no need to point out all the advantages of my staying here.\x{2019} There was an assurance in his voice no one had ever heard before, the unthinking authority of a man completely in charge of a situation. \x{2018}Time I did something for my living anyway. No fond farewells, please. Just leave me a couple of boxes of ammo, two or <<three thirty-six|5k:0>> grenades and away you go.\x{2019}",
+          ],
+          [
+            1,
+            '[ap 02:03] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/022-chapter14.html) - Two-three',
+            "\x{2018}No, boss, not really.\x{2019} The drawl was very pronounced. \x{2018}Just a low-down trick to get us inside. <<Two-three|5l:0>> very special things I want to show you.\x{2019}",
+          ],
+          [
+            1,
+            '[ap 00:50] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/022-chapter14.html) - Ten to one',
+            "\x{2018}He probably was,\x{2019} Miller interrupted. \x{2018}But he was misinformed. I think Louki\x{2019}s unhurt. I think Junior here talked Louki into letting him stay in his place \x{2013} Louki was always a bit scared of him \x{2013} then he strolled across to his pals at the gate, told \x{2019}em to send a strong-arm squad out to Vygos to pick up the others, asked them to fire a few shots \x{2013} he was very strong on local colour, was our loyal little pal \x{2013} then strolls back across the square, hoists himself up on the roof and waits to tip off his pals as soon as we came in the back door. But Louki forgot to tell him just one thing \x{2013} that we were goin\x{2019} to rendezvous on the roof of the house, not inside. So the boy-friend here lurks away for all he\x{2019}s worth up top, waiting to signal his friends. <<Ten to one|10a:0>> that he\x{2019}s got a torch in his pocket.\x{2019}",
+          ],
+          [
+            1,
+            '[00:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/022-chapter14.html) - midnight',
+            "\x{2018}That\x{2019}s all, sir. That\x{2019}s all there is. The destroyers are coming through the Straits at <<midnight|13>>.\x{2019} Brown looked down at his luminous watch. \x{2018}<<Midnight|13>>. Four hours to go.\x{2019}",
+          ],
+          [
+            1,
+            '[00:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/022-chapter14.html) - Midnight',
+            "\x{2018}Oh, God! <<Midnight|13>>!\x{2019} Mallory was stricken, his eyes for the moment unseeing, ivory-knuckled hands clenched in futility and despair. \x{2018}They\x{2019}re coming through at <<midnight|13>>! God help them! God help them all now!\x{2019}",
+          ],
+          [
+            1,
+            '[ap 08:30] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/023-chapter15.html) - Eight-thirty',
+            "<<Eight-thirty|9j>>, his watch said. <<Eight-thirty|9j>>. Exactly half an hour to curfew. Mallory flattened himself on the roof, pressed himself as closely as possible against the low retaining wall that almost touched the great, sheering sides of the fortress, swore softly to himself. It only required one man with a torch in his hand to look over the top of the fortress wall \x{2013} a cat-walk ran the whole length of the inside of the wall, four feet from the top \x{2013} and it would be the end of them all. The wandering beam of a torch and they were bound to be seen, it was impossible not to be seen: he and Dusty Miller \x{2013} the American was stretched out behind him and clutching the big truck battery in his arms \x{2013} were wide open to the view of anyone who happened to glance down that way. Perhaps they should have stayed with the others a couple of roofs away, with Casey and Louki, the one busy tying spaced knots in a rope, the other busy splicing a bent wire hook on to a long bamboo they had torn from a bamboo hedge just outside the town, where they had hurriedly taken shelter as a convoy of three trucks had roared past them heading for the castle Vygos.",
+          ],
+          [
+            1,
+            '[ap 08:32] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/023-chapter15.html) - Eight thirty-two',
+            "<<Eight thirty-two|9j>>. What the devil was Andrea doing down there, Mallory wondered irritably and at once regretted his irritation. Andrea wouldn\x{2019}t waste an unnecessary second. Speed was vital, haste fatal. It seemed unlikely that there would be any officers inside \x{2013} from what they had seen, practically half the garrison were combing either the town or the countryside out in the direction of Vygos \x{2013} but if there were and even one gave a cry it would be the end.",
+          ],
+          [
+            1,
+            '[ap 08:37] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/023-chapter15.html) - Twenty-three minutes to nine',
+            "Mallory turned to Andrea. \x{2018}I make it twenty-three minutes.\x{2019}
+\x{2018}I, too. <<Twenty-three minutes to nine|10>>.\x{2019}
+\x{2018}Good luck,\x{2019} Mallory murmured. He grinned at Miller. \x{2018}Come on, Dusty. Opening time.\x{2019}",
+          ],
+          [
+            1,
+            '[ap 11:20] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/024-chapter16.html) - Twenty past eleven',
+            "\x{2018}<<Twenty past eleven|10>>, Casey,\x{2019} he murmured. \x{2018}If these destroyers come through early we\x{2019}re apt to have a thousand tons of rock falling on our heads.\x{2019}",
+          ],
+          [
+            1,
+            '[17:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/025-chapter17.html) - Five p.m.',
+            "\x{2018}A fair question,\x{2019} Ryan admitted. \x{2018}<<Five p.m.|5>> on the London Underground will be nothing compared to this little lot. But we\x{2019}ll pack them in somehow.\x{2019}",
+          ],
+          [
+            1,
+            '[ap 01:20] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/031-chapter20.html) - One-twenty',
+            "\x{2018}Climbing now, sir. There\x{2019}s some pretty lofty stuff ahead. We should pick up the Partisan landing lights in about half an hour.\x{2019}
+\x{2018}Thirty-three minutes,\x{2019} Groves said. \x{2018}<<One-twenty|9j>>, near enough.\x{2019}
+For almost half an hour Mallory remained on a jump-seat in the flight-deck, just looking ahead. After a few minutes Andrea disappeared and did not reappear. Miller did not return. Groves navigated, Reynolds flew, Saunders listened in to his portable transceiver and nobody talked at all. At <<one-fifteen|5b>> Mallory rose, touched Saunders on the shoulders, told him to pack up his gear and headed aft. He found Andrea and a thoroughly miserable-looking Miller with their parachute snap-catches already clipped on to the jumping wire. Andrea had the door pulled back and was throwing out tiny pieces of shredded paper which swirled away in the slipstream. Mallory shivered in the suddenly intense cold. Andrea grinned, beckoned him to the open doorway and pointed downwards. He yelled in Mallory\x{2019}s ear: \x{2018}There\x{2019}s a lot of snow down there.\x{2019}",
+          ],
+          [
+            1,
+            '[ap 01:15] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/031-chapter20.html) - one-fifteen',
+            "For almost half an hour Mallory remained on a jump-seat in the flight-deck, just looking ahead. After a few minutes Andrea disappeared and did not reappear. Miller did not return. Groves navigated, Reynolds flew, Saunders listened in to his portable transceiver and nobody talked at all. At <<one-fifteen|5b>> Mallory rose, touched Saunders on the shoulders, told him to pack up his gear and headed aft. He found Andrea and a thoroughly miserable-looking Miller with their parachute snap-catches already clipped on to the jumping wire. Andrea had the door pulled back and was throwing out tiny pieces of shredded paper which swirled away in the slipstream. Mallory shivered in the suddenly intense cold. Andrea grinned, beckoned him to the open doorway and pointed downwards. He yelled in Mallory\x{2019}s ear: \x{2018}There\x{2019}s a lot of snow down there.\x{2019}",
+          ],
+          [
+            1,
+            '[ap 01:16] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/031-chapter20.html) - One-sixteen',
+            "There was indeed a lot of snow down there. Mallory understood now Jensen\x{2019}s insistence on not landing a plane in those parts. The terrain below was rugged in the extreme, consisting almost entirely of a succession of deep and winding valleys and steep-sided mountains. Maybe half of the landscape below was covered in dense forests of pine trees: all of it was covered in what appeared to be a very heavy blanket of snow. Mallory drew back into the comparative shelter of the Wellington\x{2019}s fuselage and glanced at his watch.
+\x{2018}<<One-sixteen|9j>>.\x{2019} Like Andrea, he had to shout.
+\x{2018}Your watch is a little fast, maybe?\x{2019} Miller bawled unhappily. Mallory shook his head, Miller shook his. A bell rang and Mallory made his way to the flight-deck, passing Saunders going the other way. As Mallory entered, Reynolds looked briefly over his shoulder, then pointed directly ahead. Mallory bent over his shoulder and peered forwards and downwards. He nodded.",
+          ],
+          [
+            1,
+            '[12:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/032-chapter21.html) - noon',
+            "\x{2018}Ten kilometres? I\x{2019}ll take my chance on asphyxiation.\x{2019} Miller climbed in, followed by the others, till only Neufeld and Droshny remained outside.
+Neufeld said: \x{2018}I shall expect you back before <<noon|13>>.\x{2019}
+\x{2018}If we ever come back,\x{2019} Mallory said. \x{2018}If a radio message has come through \x{2013}\x{2019}",
+          ],
+          [
+            1,
+            '[12:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/034-chapter23.html) - high noon',
+            "Crowning the tops of the towering pines, the dense, interlocking snow-laden branches formed an almost impenetrable canopy that effectively screened Major Broznik\x{2019}s camp, huddled at the foot of the jamba, from all but the most fleeting glimpses of the sky above. Even at <<high noon|13>> on a summer\x{2019}s day, it was never more than a twilit dusk down below: on a morning such as this, an hour after dawn with snow falling gently from an overcast sky, the quality of light was such as to be hardly distinguishable from a starlit <<midnight|13>>. The interior of the dining hut, where Mallory and his company were at breakfast with Major Broznik, was gloomy in the extreme, the darkness emphasized rather than alleviated by the two smoking oil lamps which formed the only primitive means of illumination.",
+          ],
+          [
+            1,
+            "[ap 09:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/034-chapter23.html) - nine o\x{2019}clock",
+            "\x{2018}Flying. Not ten kilometres from here is a high \x{2013} a very high mountain plateau, mostly in Partisan hands. There\x{2019}ll be a plane there at <<nine o\x{2019}clock|6>> tonight.\x{2019}",
+          ],
+          [
+            1,
+            "[ap 09:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/034-chapter23.html) - nine o\x{2019}clock",
+            "In the fashion of people who have failed to grasp something they have just heard, Groves repeated the statement in the form of a question. \x{2018}There\x{2019}ll be a plane there at <<nine o\x{2019}clock|6>> tonight? You\x{2019}ve just arranged this?\x{2019}",
+          ],
+          [
+            1,
+            "[ap 09:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/034-chapter23.html) - nine o\x{2019}clock",
+            "Reynolds\x{2019}s distrustful face splendidly complemented the scepticism in his voice. \x{2018}But how can you be sure \x{2013} well, at <<nine o\x{2019}clock|6>>?\x{2019}",
+          ],
+          [
+            1,
+            '[ap 06:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/034-chapter23.html) - six',
+            "\x{2018}Because, starting at <<six|9g>> o\x{2019}clock this evening, there\x{2019}ll be a Wellington bomber over the airstrip every three hours for the next week if necessary.\x{2019}",
+          ],
+          [
+            1,
+            '[04:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/035-chapter24.html) - four a.m.',
+            "Jensen lifted his shoulders in a gesture of helplessness. \x{2018}It was arranged for a radio rendezvous every two hours from <<four a.m.|5>> \x{2013}\x{2019}",
+          ],
+          [
+            1,
+            '[ap 04:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/035-chapter24.html) - four',
+            "\x{2018}We\x{2019}ve decided on a ski-plane to fly you out \x{2013} they\x{2019}re the only planes that can land in those damned mountains. You\x{2019}ll have time for a few hours\x{2019} sleep \x{2013} we don\x{2019}t leave till <<four|9f>>. Any questions?\x{2019}",
+          ],
+          [
+            1,
+            '[ap 04:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/036-chapter25.html) - four',
+            "\x{2018}We\x{2019}re due to leave at <<four|9c:0>>. It\x{2019}s now <<three|9f>>. With any luck we\x{2019}ll catch them napping. Is everything clear?\x{2019}",
+          ],
+          [
+            1,
+            "[ap 04:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/036-chapter25.html) - Four o\x{2019}clock",
+            "They entered Neufeld\x{2019}s hut without benefit of knocking. Neufeld, sitting behind his desk with Droshny by his side, looked up in irritated surprise and glanced at his watch.
+He said curtly: \x{2018}<<Four o\x{2019}clock|6>>, I said, not three.\x{2019}
+\x{2018}Our mistake,\x{2019} Mallory apologized. He closed the door. \x{2018}Please do not be foolish.\x{2019}",
+          ],
+          [
+            1,
+            '[02:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/036-chapter25.html) - two a.m.',
+            "\x{2018}Just this. It wasn\x{2019}t, I\x{2019}m afraid, quite accurate. Vukalovic expects the attack from the north, through the Zenica Gap, not across the bridge at Neretva from the south. There are, we know, close on two hundred of your tanks massed in the woods just to the north of the Zenica Gap \x{2013} but there won\x{2019}t be at <<two a.m.|5>> this morning when your attack is due to start. Not after I\x{2019}ve got through to our Lancaster squadrons in Italy. Think of it, think of the target. Two hundred tanks bunched in a tiny trap a hundred and fifty yards wide and not more than three hundred yards long. The RAF will be there at <<1.30|9c:0>>. By <<two this morning|5>> there won\x{2019}t be a single tank left in commission.\x{2019}",
+          ],
+          [
+            1,
+            '[20:40] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/036-chapter25.html) - twenty minutes to nine in the evening',
+            'It was this scene which, at <<twenty minutes to nine in the evening|10>>, confronted Mallory and his men when they topped the brow of a hill and reined in their ponies just short of the edge of the precipice which abutted on the western edge of the Ivenici plateau. For at least two minutes they sat there on their ponies, not moving, not speaking, mesmerized by the other-world quality of a thousand men with bowed heads and bowed shoulders, shuffling exhaustedly across the level floor of the plain beneath, mesmerized because they all knew they were gazing at a unique spectacle which none of them had ever seen before and would never see again. Mallory finally broke free from the trance-like condition, looked at Miller and Andrea, and slowly shook his head in an expression of profound wonder conveying his disbelief, his refusal to accept the reality of what his own eyes told him was real and actual beyond dispute. Miller and Andrea returned his look with almost identical negative motions of their own heads. Mallory wheeled his pony to the right and led the way along the cliff-face to the point where the cliff ran into the rising ground below.',
+          ],
+          [
+            1,
+            '[01:30] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/036-chapter25.html) - 1.30 a.m.',
+            "\x{2018}You have mistaken your profession, Herr General. Everything has happened exactly as you forecast. You will be interested to know, sir, that the Royal Air Force is launching a saturation bombing attack on the Zenica Gap at precisely <<1.30 a.m.|2a>> this morning.\x{2019}",
+          ],
+          [
+            1,
+            '[00:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/036-chapter25.html) - midnight',
+            "\x{2018}We\x{2019}ll think of something. The night is young. Two last things, Colonel Vis. There\x{2019}ll be another Wellington in at <<midnight|13>> and a second at <<three a.m.|5>> Let them both go. The next in, at <<six a.m.|5>>, hold it against our arrival. Well, our possible arrival. With any luck we\x{2019}ll be flying out before dawn.\x{2019}",
+          ],
+          [
+            1,
+            "[01:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/036-chapter25.html) - one o\x{2019}clock in the morning",
+            "\x{2018}And radio General Vukalovic, will you? Tell him what I\x{2019}ve told you, the exact situation. And tell him to begin intensive small-arms fire at <<one o\x{2019}clock in the morning|6>>.\x{2019}",
+          ],
+          [
+            1,
+            '[> 01:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/036-chapter25.html) - after 1 a.m.',
+            "\x{2018}Anyway, many thanks, Colonel Vis. So the Neretva bridge it is. And you think it will be unhealthy for us to remain in the immediate vicinity of this area <<after 1 a.m.|5>> Don\x{2019}t worry, we won\x{2019}t be here.\x{2019} Vukalovic removed the head-phones and turned to Janzy. \x{2018}We pull out, quietly, at <<midnight|13>>. We leave a few men to make a lot of noise.\x{2019}",
+          ],
+          [
+            1,
+            "[ap 11:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/037-chapter26.html) - eleven o\x{2019}clock",
+            "Mallory turned his pony again and said, almost wearily: \x{2018}It\x{2019}s already <<eleven o\x{2019}clock|6>>, boy, and almost already too late for what we have to do.\x{2019}",
+          ],
+          [
+            1,
+            '[ap 00:30] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/037-chapter26.html) - Twelve-thirty',
+            "\x{2018}<<Twelve-thirty|9j>>. The first infantry battalions start moving across in fifteen minutes, and spread out along the north bank. The tanks at <<two o\x{2019}clock|6>>.\x{2019}",
+          ],
+          [
+            1,
+            '[ap 01:05] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/038-chapter27.html) - five past one',
+            "Mallory glanced at his watch and said irritably: \x{2018}Why the hell don\x{2019}t they start firing? It\x{2019}s <<five past one|10>>.\x{2019}",
+          ],
+          [
+            1,
+            '[ap 01:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/038-chapter27.html) - one',
+            "\x{2018}You heard. You were there. I asked Vis to ask Vukalovic to give us sound cover at <<one|9c:1>>. Up by the Zenica Gap there, less than a mile away. Well, we can\x{2019}t wait any longer. It\x{2019}ll take \x{2013}\x{2019} He broke off and listened to the sudden outburst of rifle fire, startlingly loud even at that comparatively close distance, and smiled. \x{2018}Well, what\x{2019}s five minutes here or there. Come on. I have the feeling that Andrea must be getting a little anxious about us.\x{2019}",
+          ],
+          [
+            1,
+            '[02:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/038-chapter27.html) - two a.m.',
+            "\x{2018}You\x{2019}ve been very patient, Sergeant \x{2013} and I\x{2019}m grateful. You know, of course, that there is a Yugoslav division trapped in the Zenica Cage \x{2013} that\x{2019}s just behind the mountains to our left, here. You know, too, that the Germans are going to launch two armoured divisions across the Neretva bridge at <<two a.m.|5>> this morning and that if once they do get across \x{2013} and normally there would be nothing to stop them \x{2013} the Yugoslavs, armed with their pop-guns and with hardly any ammunition left, would be cut to pieces. You know the only way to stop them is to destroy the Neretva bridge? You know that this counter-espionage and rescue mission was only a cover for the real thing?\x{2019}",
+          ],
+          [
+            1,
+            '[ap < 03:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/039-chapter28.html) - Almost three',
+            'Groves steadied his Luger against both his left arm and the side of the ladder, sighted unhurriedly along the barrel and squeezed the trigger. The guard with the Schmeisser dropped the weapon, swayed briefly on his feet and started to fall outwards. <<Almost three|9:0>> seconds passed before the other guard, startled and momentarily quite uncomprehending, reached out to grab his companion, but he was far too late, he never even succeeded in touching him. The dead man, moving in an almost grotesquely slow-motion fashion, toppled wearily over the edge of the parapet and tumbled head over heels into the depths of the gorge beneath.',
+          ],
+          [
+            1,
+            "[ap 02:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/040-chapter29.html) - Two o\x{2019}clock",
+            "Andrea shrugged. \x{2018}Just returning a favour, my boy. Maybe I\x{2019}ve been wrong about you, too.\x{2019} He glanced at his watch. \x{2018}<<Two o\x{2019}clock|6>>! <<Two o\x{2019}clock|6>>! Where are the others?\x{2019}",
+          ],
+          [
+            1,
+            "[ap 02:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/040-chapter29.html) - Two o\x{2019}clock",
+            "\x{2018}<<Two o\x{2019}clock|6>>,\x{2019} Zimmerman said, his tone almost conversational. He brought his right hand down in a cutting gesture. A whistle shrilled and at once tank engines roared and treads clattered as the spearhead of Zimmermann\x{2019}s first armoured division began to cross the bridge at Neretva.",
+          ],
+          [
+            1,
+            '[12:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/046-chapter31.html) - noon',
+            "\x{2018}They were reckoned to be in no state to dive, so they were presumed sunk. Then there was a message picked up \x{2013} doesn\x{2019}t matter what sort of message, doesn\x{2019}t matter where, but take it from me, it was a reliable message \x{2013} to say that the Werwolf pack was refitting after damage caused by enemy action. Said refit to be complete by <<noon|13>> Wednesday of the second week in May.\x{2019}",
+          ],
+          [
+            1,
+            '[12:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/046-chapter31.html) - noon',
+            "The three pairs of eyes watched him in silence. Finally, Mallory spoke. \x{2018}So we\x{2019}ve got until Wednesday <<noon|13>> to find some submarines and destroy them. The only difficulty is that we don\x{2019}t know where they are. And, come to that, we don\x{2019}t actually know if they exist.\x{2019}",
+          ],
+          [
+            1,
+            '[19:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/046-chapter31.html) - 1900',
+            "Jensen frowned. \x{2018}Good question. Two things. One, you heard that idiot Killigrew. They may have been penetrated. And two, it may be that these U-boats are tucked up somewhere the RAF won\x{2019}t be able to get at them.\x{2019} He grinned. \x{2018}I told Mr Churchill this morning that as far as I was concerned, you lot were equivalent to a bomber wing. He agreed.\x{2019} He stood up. \x{2018}I\x{2019}m very grateful to you. You\x{2019}ve done two jolly good operations for me. Let\x{2019}s make this a third. Detailed briefing at the airfield later. There\x{2019}s an Albemarle coming in this afternoon for you. Takeoff at <<1900|9c:0>>.\x{2019} He looked down at the faces: Mallory, weary but hatchet-sharp; Andrea, solid behind his vast black moustache; and Dusty Miller, scratching his crewcut in a manner prejudicial to discipline. It did not occur to Jensen to worry that in the past fourteen days they had taken a fearsome battering on scarcely any sleep. They were the tool for the job, and that was that.",
+          ],
+          [
+            1,
+            '[> 00:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/047-chapter32.html) - Just after midnight',
+            'Mallory looked at his watch. Raindrops blurred the glass. <<Just after midnight|10>>. Monday already. And they were being told to wait on a mountain top in the rain, and the Werwolf pack was leaving at <<noon|13>> on Wednesday.',
+          ],
+          [
+            1,
+            '[01:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/047-chapter32.html) - one in the morning',
+            "There had been times in Mallory\x{2019}s life when he would have enjoyed a good crack at a limestone cliff in the dark. On a cold morning, perhaps, in a gorge in the Southern Alps, when you had got up at <<one in the morning|9a>>, the stars floating silver and unwinking between the ice-white peaks of the range.",
+          ],
+          [
+            1,
+            '[02:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/047-chapter32.html) - 0200 hours',
+            "Mallory said nothing. It was possible to admire this woman\x{2019}s spirit. It was less possible to admire the speed at which she moved. Too slow, thought Mallory. It was all getting too slow, and there was a hell of a distance to travel before they even got to the start line.
+His watch said it was <<0200 hours|1>>. He said to Jaime, \x{2018}How long?\x{2019}
+\x{2018}Two hours. All downhill. The slope is not so bad now.\x{2019}",
+          ],
+          [
+            1,
+            '[04:30] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/047-chapter32.html) - four-thirty in the morning',
+            'The trees had stopped. They were crossing open meadows scattered with small, earth-coloured cottages. Ahead was a huddle of houses, and the arched campanile of a church. Nothing was moving; it was <<four-thirty in the morning|5>>. But Mallory did not like it.',
+          ],
+          [
+            1,
+            '[12:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/048-chapter33.html) - noon',
+            "\x{2018}It\x{2019}s thirty miles by road. The submarines sail the day after tomorrow, at <<noon|13>>. It\x{2019}s too tight to march.\x{2019}",
+          ],
+          [
+            1,
+            '[12:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/048-chapter33.html) - noon',
+            "By <<noon|13>> it was cold and spitting with rain. Another front was coming in from the Atlantic. Mallory said, \x{2018}How far to the top?\x{2019}",
+          ],
+          [
+            1,
+            "[ap 05:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/048-chapter33.html) - five o\x{2019}clock",
+            "With the last of his strength, he writhed like an eel. And suddenly, whatever it was that was holding his right shoulder had given way, and he was through, out, beyond it all, flat on his back in a cheery little brook that was gurgling down a wooded valley under the <<five o\x{2019}clock|6>> sky, from which a little snow was falling, but only a little.",
+          ],
+          [
+            1,
+            '[ap 04:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/049-chapter34.html) - four',
+            'He had woken at <<four|9c:0>>, and gone out. The sky had been clear, the peak of Mount Capps a peaceful pyramid of pink-tinged sugar icing over whose slopes Venus hung like a silver ball. It was a beautiful morning.',
+          ],
+          [
+            1,
+            "[04:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/049-chapter34.html) - four o\x{2019}clock that December morning",
+            "Mallory had thought at <<four o\x{2019}clock that December morning|6>>, nine thousand feet above sea level: Beryl and George and the rest of the team are counting on you. It is not just your life. You have responsibilities. So you get killed going up. On this mountain you are just as likely to get killed going down. Three hours to the summit, then nine hours to base camp.",
+          ],
+          [
+            1,
+            "[ap 04:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/049-chapter34.html) - four o\x{2019}clock",
+            "Guy was not an impressionable man. But he found himself thinking, thank God this one is not my enemy. \x{2018}There will be water in the harbour at <<four o\x{2019}clock|6>>,\x{2019} he said. \x{2018}The sentries do not pay big attention then. The hour will be too early, the port too small. They will be half-asleep. Be in hiding near the quay. When it is time for you to come aboard, I will show lights for five seconds, by accident.\x{2019}",
+          ],
+          [
+            1,
+            '[ap 04:30] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/049-chapter34.html) - four-thirty',
+            "Guy said, \x{2018}I could be alongside in half an hour. There will not be much water. But maybe there will be enough.\x{2019} He pulled a large, tarnished watch from the pocket of his greasy waistcoat. \x{2018}At <<four-thirty|5b>>.\x{2019} He cleared his throat. \x{2018}As I said, it will be important for you to be discreet.\x{2019}",
+          ],
+          [
+            1,
+            '[ap 02:30] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/049-chapter34.html) - half-past two',
+            "Mallory looked at his watch. It was <<half-past two|10>>. Once again he was in a room, with his back to the sea, relying on other people to get him out of trouble. He hoped it would be the last time. He said to Andrea, \x{2018}Bring Wallace. We\x{2019}ll get out of here.\x{2019}",
+          ],
+          [
+            1,
+            '[ap 03:40] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/049-chapter34.html) - twenty to four',
+            "It was <<twenty to four|10>> by the time Miller got back to Guy\x{2019}s house. There was one dirty glass and one plate on the table. There was no sign that seven men and a woman had spent part of the night there. Mallory was waiting, pack on back, Schmeisser in hand. Miller shouldered his boxes. The Storm Force filed out of the back door, across the garden walls, until they came out onto the field at the top of the cliff from which Andrea had watched the sentries. The wind had dropped flat. The water was smooth as satin, the swells slopping against the jetty with a small roar. One of the rowing boats was gone from the outhaul. From out of the hazy darkness of the bay there came the pop and thump of ancient diesels as the fishing fleet got ready for the tide. Of the sentries there was no sign.",
+          ],
+          [
+            1,
+            '[ap 03:55] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/049-chapter34.html) - 0355',
+            "Mallory said to Andrea, \x{2018}We\x{2019}ll wait till the sentries give their all-clear at <<0355|9c:1>>. Then we\x{2019}ll take care of them. That\x{2019}ll give us half an hour to get clear.\x{2019}",
+          ],
+          [
+            1,
+            '[ap 03:55] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/049-chapter34.html) - 0355',
+            "The Commandant became still. Down on the rain-blackened quay, a figure was marching slowly: one of the German sentries. The other sentry would be in the command post, standing by the field telephone for the <<0355|18:0>> report. The Commandant said, \x{2018}A rearguard action, hein? Under the command of a lieutenant? I must say \x{2013}\x{2019}",
+          ],
+          [
+            1,
+            '[ap 02:55] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/049-chapter34.html) - five to three',
+            "He looked at his watch. The hands were at <<five to three|10>>. The wires would be humming with the sentries\x{2019} yelps: we are under fire, send reinforcements. The Commandant could not have chosen a worse moment if he had tried.",
+          ],
+          [
+            1,
+            "[ap 04:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/049-chapter34.html) - four o\x{2019}clock",
+            "It was <<four o\x{2019}clock|6>> by the time they got the burning truck out of the lane and moved on down to the quay. This time, nobody was taking any chances.",
+          ],
+          [
+            1,
+            '[~ 21:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/050-chapter35.html) - about 2100 hours',
+            "\x{2018}Sometimes.\x{2019}
+\x{2018}During the bottom half of the tide. Till <<about 2100 hours|1>> tonight.\x{2019}
+Andrea said, \x{2018}It\x{2019}s not full dark at <<2100|9c:1>>.\x{2019}",
+          ],
+          [
+            1,
+            '[~ 21:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/050-chapter35.html) - about 2100 hours',
+            "\x{2018}During the bottom half of the tide. Till <<about 2100 hours|1>> tonight.\x{2019}
+Andrea said, \x{2018}It\x{2019}s not full dark at <<2100|9c:1>>.\x{2019}
+\x{2018}It is at <<2130|9n:1>>.\x{2019}",
+          ],
+          [
+            1,
+            '[21:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/050-chapter35.html) - 2100',
+            "Andrea said, \x{2018}It\x{2019}s not full dark at <<2100|9c:0>>.\x{2019}
+\x{2018}It is at <<2130|9n:0>>.\x{2019}
+Miller said, \x{2018}But what if the waves are breaking clear over that wreck at <<2130|9c:0>>?\x{2019}",
+          ],
+          [
+            1,
+            '[21:30] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/050-chapter35.html) - 2130',
+            "Miller said, \x{2018}But what if the waves are breaking clear over that wreck at <<2130|9c:0>>?\x{2019}",
+          ],
+          [
+            1,
+            '[12:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/050-chapter35.html) - noon',
+            'Mallory thought about waking him, then decided against it. If the Werwolf pack was sailing tomorrow at <<noon|9b>>, would they not already have loaded the torpedoes? And what was so interesting about hydrogen peroxide?',
+          ],
+          [
+            1,
+            '[< 15:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/050-chapter35.html) - before 1500',
+            "Mallory said, \x{2018}We\x{2019}ll manage.\x{2019} At this stage in the expedition, there was no sense in telling anyone on the Stella Maris any more than he needed to know. He looked at his watch. It said 2015. \x{2018}We\x{2019}ll get to you <<before 1500|18:1>> tomorrow. Be alongside the fish quay. We\x{2019}ll sail immediately we\x{2019}re on board.\x{2019}",
+          ],
+          [
+            1,
+            '[12:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/050-chapter35.html) - noon',
+            'Mallory froze, clinging to the face of the cliff. Far below, he saw white surf and the wreck of the fishing boat sheltering its tiny eddy of black water. He could distinctly see shattered wreckage from the dinghy spinning in the vortex. This was bad. Potentially, this was very bad. All it needed was a casual glance down the moonlit cliff. The Storm Force would be pinned down, brushed off the rock face like flies. And the Werwolf pack would sail at <<noon|9a>> tomorrow, unmolested.',
+          ],
+          [
+            1,
+            '[00:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/050-chapter35.html) - midnight',
+            "Mallory looked at his watch. The radium-bright hands said 2215. He said, \x{2018}I\x{2019}ll meet you by the generators at <<midnight|13>>. Check the sentries on the repair sheds. Look at rotas, timings. And Dusty. Your department. Bangs and so on.\x{2019}",
+          ],
+          [
+            1,
+            '[00:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/050-chapter35.html) - midnight',
+            "Mallory laughed quietly. \x{2018}See you at <<midnight|13>>,\x{2019} he said. He stepped lightly onto the parapet of the demilune, reached out a hand and a foot, and stepped onto the naked cliff.",
+          ],
+          [
+            1,
+            '[00:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/050-chapter35.html) - midnight',
+            "\x{2018}There\x{2019}s over an hour to <<midnight|13>>,\x{2019} said one of the shadows. \x{2018}Befehl ist Befehl.\x{2019}",
+          ],
+          [
+            1,
+            '[ap 11:30] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/051-chapter36.html) - eleven-thirty',
+            'The hands on his watch ticked along to <<eleven-thirty|5k:1>>. At <<eleventhirty-one|9m>>, a key clashed in the door, and five men came in.',
+          ],
+          [
+            1,
+            '[ap 03:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/051-chapter36.html) - three',
+            'Worrying about Miller and Andrea was a waste of time. He kept his mind on the operation. One man needed to operate differently from <<three|9c:0>>. Time spent on reconnaissance was time wasted now. He needed to penetrate the Cabo. He needed a weak spot.',
+          ],
+          [
+            1,
+            '[12:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/051-chapter36.html) - noon',
+            'Beneath the guardroom was another door. From behind it came voices, and the clatter of Morse keys. Radio room. A new noise was coming from below, a busy, many-voiced buzz of ringing telephones and scurrying feet and shouted instructions; the noise of a human anthill, bustling. If the submarines were moving out at <<noon|13>>, this would be the sound of last-minute arrangements being made, repairs finished, evacuations planned. Mallory permitted himself a small, grim smile. It was the kind of bustle that could with a little thought be turned into confusion, and taken advantage of.',
+          ],
+          [
+            1,
+            '[ap 05:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/051-chapter36.html) - 0500',
+            "\x{2018}Of course.\x{2019} The SS man sounded flustered. \x{2018}My apologies. <<0500|9l>>, Herr General.\x{2019}",
+          ],
+          [
+            1,
+            "[ap 05:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/051-chapter36.html) - Five o\x{2019}clock",
+            "<<Five o\x{2019}clock|6>>. The U-boats were sailing seven hours early. And the Storm Force had not even begun.",
+          ],
+          [
+            1,
+            '[00:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/051-chapter36.html) - Midnight',
+            'The cell had not changed. It was still cold, and it still stank, and it was still dark, dark with the absolute blackness of a pocket hewn from living rock. <<Midnight|13>> in the goddamn dungeons, thought Miller. Ghosts would be walking, witches doing whatever the hell witches do when it rains. As far as Miller was concerned, the ghosts and the witches could get on with it. Right here, <<midnight|13>> meant time for a cigarette.',
+          ],
+          [
+            1,
+            '[ap 00:05] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/051-chapter36.html) - Five past twelve',
+            "He looked at the radium-bright hands of his watch. \x{2018}<<Five past twelve|10>>,\x{2019} he said.",
+          ],
+          [
+            1,
+            '[ap 03:45] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/051-chapter36.html) - three forty-five',
+            "It was a big magazine. It stretched away in front of them, lit harshly by white bulkhead lights, a devil\x{2019}s wine cellar of grey concrete compartments, bins for shells, and bays for the trolleys that would roll the torpedoes down to the quays where the submarines waited, black and evil, crouching in the cold Atlantic.
+Mallory looked at his watch. It was <<three forty-five|5b>>.
+Christ.",
+          ],
+          [
+            1,
+            '[ap 04:05] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/052-chapter37.html) - 0405',
+            'Mallory checked his watch. It said <<0405|18:1>>. In fifty-five minutes the submarines were due to sail.',
+          ],
+          [
+            1,
+            '[ap 04:57] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/052-chapter37.html) - three minutes to five',
+            "He looked at his watch. It was <<three minutes to five|10>>. Early, he thought. They\x{2019}re leaving early.",
+          ],
+          [
+            1,
+            '[ap 10:54] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/056-prologue.html) - ten fifty-four',
+            "Kapit\x{e4}n Helmholz looked at his watch. It was <<ten fifty-four|5b>> and thirty-three seconds. Twenty-seven seconds until coffee time on the bridge of the armed merchantman Kormoran. At Kapit\x{e4}n Helmholz\x{2019}s insistence, coffee time was <<ten fifty-five|5b>> precisely. A precise man, Helmholz, which was perhaps why he had been appointed to the command that had put him here in this steel room with big windows, below the red and black Kriegsmarine ensign with its iron cross and swastika board-stiff in the meltemi, the afternoon wind of the Aegean. Outside the windows were numbers one and two hatches, and under the hatches the cargo, and forward of the hatches the bow gun on the fo\x{2019}c\x{2019}sle and the bow itself, kicking through the short, steep chop. Beyond the rusty iron bow the sea sparkled, a dazzling sheet of sapphire all the way to the horizon. Beyond the horizon lay his destination, hanging like a cloud: a solid cloud \x{2013} the mountains of Kynthos, blue with distance. It was all going well; neat, tidy, perfectly on schedule. Helmholz looked at his watch again.",
+          ],
+          [
+            1,
+            '[ap 06:10] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/057-chapter38.html) - ten minutes past six',
+            "Andrea smiled, a pure, innocent smile of great sweetness. \x{2018}Captain Jensen takes cocktails in the mess at <<ten minutes past six|10>>. The mess is in the basement of this hotel. It is now five past.\x{2019}",
+          ],
+          [
+            1,
+            '[ap 06:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/057-chapter38.html) - six',
+            "At <<six|9e>>, the usual crowd were in: seven-eighths male, eight-eighths in uniform, talking in low voices from faces haggard with overwork and lack of exercise. At <<five|9m>> past, Captain Jensen walked to his usual table: a small man in naval uniform with a captain\x{2019}s gold rings on the sleeve, a sardonic smile, and eyes of an astonishing mildness, except when no one was looking, at which point they might have belonged to one of the hungrier species of shark. With him was a stout man with a florid face and the heavy braid of an admiral.",
+          ],
+          [
+            1,
+            '[23:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/057-chapter38.html) - 2300 hours',
+            "Into Admiral Dixon\x{2019}s brain there had sunk the idea that something untoward was happening. He did not expect his evenings to be interrupted by soldiers, particularly soldiers as scruffy and badgeless as this lot. He was further amazed when he heard Captain Jensen say, \x{2018}Oh, well. While you\x{2019}re here, I can tell you we\x{2019}ve got the snapshots. Total success. Well done. Briefing scheduled for <<2300 hours|1>>.\x{2019}",
+          ],
+          [
+            1,
+            '[23:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/057-chapter38.html) - 2300 hours',
+            "\x{2018}Walls have ears,\x{2019} said Jensen smoothly. \x{2018}You have called a briefing for <<2300 hours|1>>. That will be the moment to discuss this. Now, gentlemen. Refreshment?\x{2019}",
+          ],
+          [
+            1,
+            '[22:45] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/057-chapter38.html) - 2245 hours',
+            "\x{2018}Well, gentlemen,\x{2019} said Jensen. \x{2018}We\x{2019}re very pleased with you; most of us, anyway.\x{2019} He smiled, that gleaming, carnivorous smile. \x{2018}You will be collected at <<2245 hours|1>>. Till then, I bid you sweet dreams.\x{2019}",
+          ],
+          [
+            1,
+            '[22:45] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/057-chapter38.html) - 2245 hours',
+            "\x{2018}Well, gentlemen,\x{2019} said Jensen. \x{2018}We\x{2019}re very pleased with you; most of us, anyway.\x{2019} He smiled, that gleaming, carnivorous smile. \x{2018}You will be collected at <<2245 hours|1>>. Till then, I bid you sweet dreams.\x{2019}
+\x{2018}Dreams?\x{2019} said Miller. It was not yet <<seven o\x{2019}clock|6>>.
+\x{2018}I always think a little nap can be most refreshing before a lot of hard work.\x{2019}",
+          ],
+          [
+            1,
+            '[02:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/057-chapter38.html) - 0200 hours',
+            "Blood swelled the Admiral\x{2019}s neck. \x{2018}You\x{2019}re out of here on a Liberator at <<0200 hours|1>>. You will transfer to an MTB near Benghazi. You\x{2019}ll be ashore and operating by <<0300|3b>> tomorrow. There will be no training.\x{2019}",
+          ],
+          [
+            1,
+            '[ap 03:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/057-chapter38.html) - three',
+            "Robinson stood up, spectacles gleaming. \x{2018}There is Resistance activity on the island,\x{2019} he said. \x{2018}But we want your operation kept separate. Civilian reprisals, er, do not help anyone.\x{2019} Andrea\x{2019}s face was dark as a thundercloud. He had found the bodies of his parents on a sandbank in the River Drava. They had been lashed together and thrown in to drown. He knew about reprisals: and so did the Germans who had done the deed, once he had finished with them. Robinson continued, \x{2018}We will be landing you in Parmatia. There is a gentleman called Achilles at <<three|9c:1>>, Mavrocordato Street in Parmatia. He will provide you with motor transport up the island to the Acropolis. We\x{2019}ll have a submarine standing by at a position you will be given at <<midnight|9a>> on Thursday, Friday and Saturday. If you\x{2019}re there, hang up a yellow fishing lantern as a signal. If not \x{2026} well, he\x{2019}ll wait until <<0030|3a:1>> on Saturday, then you\x{2019}re on your own. Got it?\x{2019}",
+          ],
+          [
+            1,
+            '[ap 01:55] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/058-chapter39.html) - 0155',
+            "For two endless hours, the oars dipped, and the pump panted, and the black mass of Kynthos crawled slowly up the stars. At <<0155|9m>>, Wills, who had been sitting slumped on the side, suddenly raised his head. \x{2018}Port twenty,\x{2019} he said, in a weird, cracked voice.",
+          ],
+          [
+            1,
+            "[ap 02:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/059-chapter40.html) - Two o\x{2019}clock",
+            "Private Gottfried Schenck was not in favour of Greek islands. The beer was terrible, the food oily and the women hostile, particularly in the last couple of days. Still, it was better than the Russian Front, he supposed. He had thought it a place completely without danger, until the unpleasantness on Saturday. Tonight he had seen the flick of tracer and the flash of a big explosion out at sea. It looked as if things were getting worse. He had commandeered a bottle of wine from a peasant he had met with a flock of goats; vile stuff, tasted like disinfectant, but at least it stopped the jitters. He looked at his watch. <<Two o\x{2019}clock|6>>. Four hours till his relief at dawn. Time to have a look in the next cove, perhaps have a crafty fag with his mate Willi.",
+          ],
+          [
+            1,
+            "[ap > 06:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/060-chapter41.html) - Just after six o\x{2019}clock",
+            "<<Just after six o\x{2019}clock|10>>, the sun hauled itself over the mountain. \x{2018}Stop now,\x{2019} said Clytemnestra. \x{2018}We eat.\x{2019}",
+          ],
+          [
+            1,
+            "[ap 11:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/060-chapter41.html) - eleven o\x{2019}clock",
+            "All morning they climbed, at first on steep sea-cliffs, and then in a tangle of ridges and small valleys grown with scrub. By <<eleven o\x{2019}clock|6>> they were five thousand feet above sea level, in a little valley of juniper and holm oak. Goats wandered among the boulders, their bells clonking mournfully. The men walked heavily, mouths parched, tormented by the small gurgle of the stream in the valley\x{2019}s bed. Too hot,\x{2019} said Clytemnestra, wiping sweat from her forehead. \x{2018}We\x{2019}ll rest here three hours.\x{2019} She led them on to a ledge overlooking the valley, and pushed aside a huge old rosemary bush. Behind the bush was the dark entrance of a cave.",
+          ],
+          [
+            1,
+            '[ap 04:31] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/060-chapter41.html) - four thirty-one',
+            'At <<four thirty-one|5b>>, there was a pause in the firing on the ridge opposite the cave. Mallory and Andrea were only ten yards apart. They looked at each other, then at the ridge opposite. Nothing moved. For a moment, birds sang, and the breeze blew, and there might have been no war at all. Then something a long way away made a small, flat explosion, and Mallory and Andrea grovelled on the ground, because they knew what that meant.',
+          ],
+          [
+            1,
+            "[ap 06:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/061-chapter42.html) - six o\x{2019}clock",
+            "After the field of stones, the path led on and up. It was not much of a path: more a strip of bare mountainside, marked with stones placed one on another like the little men children put up on beaches to knock down with more stones. As they passed the markers, Mallory kicked them down. It was <<six o\x{2019}clock|6>>, and the sun was heading for the rock-masses of the western horizon when they reached the top of the slope and found themselves at the base of a cliff.",
+          ],
+          [
+            1,
+            '[> 00:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/062-chapter43.html) - after midnight',
+            'Miller woke Mallory three hours <<after midnight|13>>. He tumbled out thumping-headed, dry-mouthed, to stand his guard. It came hard to some soldiers, this wakefulness in the dead time before dawn, when the metabolism was at its slowest. But Mallory was used to early mornings. He had spent his life in mountains where you could not climb <<after eleven a.m.|9h>> because of the deadly rain of rock let go by melting ice fields. So he lay a second, his eyes wide open. Then he put his hand to where he knew his weapon would be, swung on his pack and went out into the air.',
+          ],
+          [
+            1,
+            '[00:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/062-chapter43.html) - midnight',
+            "\x{2018}The men of the island. The Germans make them work in their factory.\x{2019}
+\x{2018}Well, well,\x{2019} said Mallory. \x{2018}We rendezvous there at <<midnight|9b>>.\x{2019}
+\x{2018}Where?\x{2019}",
+          ],
+          [
+            1,
+            '[00:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/062-chapter43.html) - midnight',
+            "\x{2018}It is. But we are Greeks. We will wait from <<midnight|13>> here.\x{2019} She pointed to a spot on the map in her hand. \x{2018}Then if you have not found us we will come to find you at dawn.\x{2019}",
+          ],
+          [
+            1,
+            '[12:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/063-chapter44.html) - noonday',
+            "The path came out on the ledge. Cicadas trilled in the <<noonday|13>> sun, and the air was heavy with the whiff of thyme and rue. Priem cast a scornful eye over the ruined buildings. How could you believe in the glories of Greek culture when the people lived in such hovels? Degenerate scum. No better than animals. Of course, nobody had been here for years \x{2026}",
+          ],
+          [
+            1,
+            '[12:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/063-chapter44.html) - noonday',
+            "Marsdorff did not agree. This damned animal had dragged him and Schmidt and Kohl up a cliff in the <<noonday|13>> sun. It had relieved itself on a handhold, which he had then put his hand on, and of course everyone had found that very amusing. Marsdorff was a pudgy, maggot-coloured man, who owed his place in the Sonderkommando more to a lack of scruple than to any positive military talent. Basically, Marsdorff was very good at hanging people, an accomplished hand with a red-hot iron and a pair of pliers, and no beginner when it came to the process of gang rape \x{2013} a business that in Marsdorff\x{2019}s view was often approached crudely and without thought. A really well-handled woman could keep a squad amused for some days \x{2013}",
+          ],
+          [
+            1,
+            '[12:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/066-chapter47.html) - noonday',
+            'The whole island was suddenly lit by a gigantic white flash. It illuminated with a pale and deadly light the twisted fence. It flung the shadows of the platoon on the shore up the scorched black berm of the fuel dump, and brought the glare of <<noonday|13>> to the black sheet of the water and the sugar-white houses of the Acropolis.',
+          ],
+          [
+            1,
+            '[12:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/067-epilogue.html) - noonday',
+            'The sun was shining brilliantly on an emerald-green lawn, laid out for croquet. At the end of the lawn stood a small figure in an impeccable tropical uniform: Captain Jensen, a captain no longer, his sleeves and cap incandescent with bullion in the bright <<noonday|13>>. With him were Andrea, Mallory, Miller, and Wills; Wills looking faintly shifty in the presence of so much scrambled egg, the rest gaunt and hollow-eyed, and apprehensive, as if they were waiting for something.',
+          ],
+        ];

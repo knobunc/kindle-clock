@@ -1,0 +1,673 @@
+$VAR1 = [
+          [
+            1,
+            '[ap ~ 03:00] The Martian - Andy Weir.epub (text/part0001.html) - about 3',
+            "Ares 4 will be landing at the Schiaparelli Crater, which is <<about 3|9:0>>,200km away from my location here in the Acidalia Planitia. No way for me to get there on my own. But if I could communicate, I might be able to get a rescue. Not sure how they\x{2019}d manage that with the resources on hand, but NASA has a lot of smart people.",
+          ],
+          [
+            1,
+            '[~ 15:00] The Martian - Andy Weir.epub (text/part0001.html) - about 1500 hours',
+            "I need to ration my EVAs as well as food. The CO2 filters are not cleanable. Once they\x{2019}re saturated, they\x{2019}re done. The mission accounted for a 4-hour EVA per crewmember per day. Fortunately, CO2 filters are light and small so NASA had the luxury of sending more than we needed. All told, I have <<about 1500 hours|1>> worth of CO2 filters. After that, any EVAs I do will have to be managed with bloodletting the air.",
+          ],
+          [
+            1,
+            '[15:00] The Martian - Andy Weir.epub (text/part0001.html) - 1500 hours',
+            "<<1500 hours|1>> may sound like a lot, but I\x{2019}m faced with spending at least 4 years here if I\x{2019}m going to have any hope of rescue, with a minimum of several hours per week dedicated to sweeping off the solar array. Anyway. No needless EVAs.",
+          ],
+          [
+            1,
+            '[ap ~ 02:00] The Martian - Andy Weir.epub (text/part0001.html) - About 2',
+            "Looks like I won\x{2019}t be able to cover the whole surface of the Hab with fertile soil. I\x{2019}m willing to dedicate all but an emergency 50 liters to the cause. That means I can feed 62.5 square meters at a depth of 10cm. <<About 2|9:0>>/3 of the Hab\x{2019}s floor. It\x{2019}ll have to do. Anyway, I\x{2019}ve only got a paltry 5 square meters covered at the moment.",
+          ],
+          [
+            1,
+            '[ap ~ 01:00] The Martian - Andy Weir.epub (text/part0002.html) - About 1',
+            "One problem: The atmosphere is very thin. <<About 1|9:0>>/90th the pressure on Earth. So it\x{2019}s hard to collect. Getting air from outside to inside is nearly impossible. The whole purpose of the Hab is to keep that sort of thing from happening. The tiny amount of Martian atmosphere that enters when I use an airlock is laughable.",
+          ],
+          [
+            1,
+            '[ap 01:00] The Martian - Andy Weir.epub (text/part0003.html) - 1',
+            "But I can\x{2019}t create it very quickly. At <<1|9m>>/2L of CO2 per hour, it will take 25 days to make the oxygen I need. That\x{2019}s longer than I\x{2019}d like.",
+          ],
+          [
+            1,
+            '[ap > 04:00] The Martian - Andy Weir.epub (text/part0004.html) - After four',
+            'I slept in late today. I deserved it. <<After four|9:0>> nights of awful sleep in the rover, my bunk felt like the softest, most profoundly beautiful featherbed ever made.',
+          ],
+          [
+            1,
+            '[03:00] The Martian - Andy Weir.epub (text/part0005.html) - 3am',
+            'Mindy stared at the ceiling. She had little else to do. The <<3am|5>> shift was pretty dull. Only a constant stream of coffee kept her awake.',
+          ],
+          [
+            1,
+            '[17:00] The Martian - Andy Weir.epub (text/part0005.html) - 17',
+            "\x{201c}No it\x{2019}s <<17|9c:0>>. You forgot the amperage minimum for the heaters to keep the-\x{201c}",
+          ],
+          [
+            1,
+            '[ap 04:00] The Martian - Andy Weir.epub (text/part0005.html) - four',
+            "\x{201c}Three,\x{201d} Morris said.
+\x{201c}No, it\x{2019}s <<four|9f>>,\x{201d} Chuck corrected.
+\x{201c}He said back-up systems,\x{201d} Morris insisted. \x{201c}That means not including the primary system.\x{201d}",
+          ],
+          [
+            1,
+            '[19:56] The Martian - Andy Weir.epub (text/part0006.html) - 4 to 20',
+            "It takes 18 months for the MAV to make its fuel, so it\x{2019}s the first thing NASA sends along. Sending it 48 months early gives it plenty of extra time in case fuel reactions go slower than expected. But much more importantly, it means a precision soft-landing can be done remotely by a pilot in orbit. Direct remote operation from Houston isn\x{2019}t an option; they\x{2019}re anywhere from <<4 to 20|10a:1>> light-minutes away.",
+          ],
+          [
+            1,
+            '[12:00] The Martian - Andy Weir.epub (text/part0006.html) - noon',
+            "I stood back and admired my work. Hey, I earned it. It wasn\x{2019}t even <<noon|13>> and I was done.",
+          ],
+          [
+            1,
+            '[< 15:00] The Martian - Andy Weir.epub (text/part0006.html) - almost 1500',
+            'The prospect of scrubbing a mission because a solar cell got dirty was unacceptable. They needed a more reliable source of power. So the MAV comes equipped with an RTG. It has 2.6kg of Plutonium-238, which makes <<almost 1500|18:0>> Watts of heat. It can turn that in to 100 Watts of electricity. The MAV runs on that until the crew arrive.',
+          ],
+          [
+            1,
+            '[ap 03:27] The Martian - Andy Weir.epub (text/part0006.html) - 3 hours and 27 minutes',
+            'I set out at first light and drove laps around the Hab, trying to stay on untouched ground. The first battery lasted just under two hours. After a quick EVA to switch the cables, I got back to driving. When all was said and done, I had driven 81km in <<3 hours and 27 minutes|14>>.',
+          ],
+          [
+            1,
+            '[ap 01:00] The Martian - Andy Weir.epub (text/part0006.html) - 100',
+            "The RTG is a generator. It\x{2019}s a paltry amount of power, compared to what the rover consumes, but it\x{2019}s not nothing. It\x{2019}s <<100|9d>> Watts. It\x{2019}ll cut an hour off my total recharge time. Why not use it?",
+          ],
+          [
+            1,
+            '[15:00] The Martian - Andy Weir.epub (text/part0006.html) - 1500 hours',
+            "CO2 isn\x{2019}t a problem. I started this grand adventure with <<1500 hours|1>> of CO2 filters, plus another 720 for emergency use. All systems use standard filters (Apollo 13 taught us important lessons). Since then, I\x{2019}ve used <<131 hours|1>> of filter on various EVAs. I have 2089 left. 87 days worth. Plenty.",
+          ],
+          [
+            1,
+            '[21:00] The Martian - Andy Weir.epub (text/part0007.html) - 9pm',
+            "Venkat sipped his coffee and frowned at his computer. A month ago it would have been unthinkable to drink coffee at <<9pm|5>>. Now it was necessary fuel. Shift schedules, fund allocations, project juggling, out and out looting of other projects\x{2026} he\x{2019}d never pulled so many stunts in his life.",
+          ],
+          [
+            1,
+            '[ap > 02:00] The Martian - Andy Weir.epub (text/part0008.html) - After two',
+            "But today, my luck finally changed. <<After two|9:0>> sols wandering the desert, I found something to navigate by. It was a 5km crater, so small it didn\x{2019}t even have a listed name. But to me, it was the Lighthouse of Alexandria. Once I had it in sight, I knew exactly where I was.",
+          ],
+          [
+            1,
+            '[00:00] The Martian - Andy Weir.epub (text/part0009.html) - 00:00',
+            'BOOT SEQUENCE INITIATED
+TIME <<00:00|2>>:00
+LOSS OF POWER DETECTED, TIME/DATE UNRELIABLE',
+          ],
+          [
+            1,
+            '[> 03:00] The Martian - Andy Weir.epub (text/part0010.html) - just past 3am',
+            "\x{201c}Yes it will,\x{201d} Venkat confirmed. \x{201c}It\x{2019}s early morning in Acidalia Planitia right now, and <<just past 3am|10>> here in Pasadena. We\x{2019}ll be here all night, and that\x{2019}s just for a start. No more questions for now, the panorama is due back in a few minutes. We\x{2019}ll keep you posted.\x{201d}",
+          ],
+          [
+            1,
+            '[ap 11:00] The Martian - Andy Weir.epub (text/part0010.html) - 11:00',
+            'Spell with ASCII. Numbers 0-F at 21 degree increments. Will watch camera starting <<11:00|2>> my time. When message done, return to this position. Wait 20 minutes after completion to take picture (So I can write and post reply). Repeat process at top of every hour.',
+          ],
+          [
+            1,
+            '[ap 08:00] The Martian - Andy Weir.epub (text/part0010.html) - 08:00',
+            "Earth is about to set. Resume <<08:00|2>> my time tomorrow morning. Tell family I\x{2019}m fine. Give crew my best. Tell Commander Lewis disco sucks.",
+          ],
+          [
+            1,
+            '[ap 08:00] The Martian - Andy Weir.epub (text/part0010.html) - 08:00',
+            'Today I got up hours earlier than I needed to. It was like Christmas morning! I could hardly wait for <<08:00|2>> to roll around. I had breakfast, did some unnecessary checks on Hab equipment, and read some Poirot. Finally the time came!',
+          ],
+          [
+            1,
+            '[ap 11:18] The Martian - Andy Weir.epub (text/part0010.html) - 11:18',
+            "[<<11:18|2>>]JPL: Mark, this is Venkat Kapoor. We\x{2019}ve been watching you since Sol 49. The whole world\x{2019}s been rooting for you. Amazing job, getting Pathfinder. We\x{2019}re working on rescue plans. JPL is adjusting Ares 4\x{2019}s MDV to do a short overland flight. They\x{2019}ll pick you up, then take you with them to Schiaparelli. We\x{2019}re putting together a supply mission to keep you fed till Ares 4 arrives.",
+          ],
+          [
+            1,
+            '[ap 11:29] The Martian - Andy Weir.epub (text/part0010.html) - 11:29',
+            "[<<11:29|2>>]WATNEY: Glad to hear it. Really looking forward to not dying. I want to make it clear it wasn\x{2019}t the crew\x{2019}s fault. Side question: What did they say when they found out I was alive? Also, \x{201c}Hi, mom!\x{201d}",
+          ],
+          [
+            1,
+            '[ap 11:41] The Martian - Andy Weir.epub (text/part0010.html) - 11:41',
+            "[<<11:41|2>>]JPL: Tell us about your \x{201c}crops\x{201d}. We estimated your food packs would last until Sol 400 at 3/4 ration per meal. Will your crops affect that number? As to your question: We haven\x{2019}t told the crew you\x{2019}re alive yet. We wanted them to concentrate on their own mission.",
+          ],
+          [
+            1,
+            '[ap 11:52] The Martian - Andy Weir.epub (text/part0010.html) - 11:52',
+            "[<<11:52|2>>]WATNEY: The crops are potatoes, grown from the ones we were supposed to prepare on Thanksgiving. They\x{2019}re doing great, but the available farmland isn\x{2019}t enough for sustainability. I\x{2019}ll run out food around Sol 900. Also: Tell the crew I\x{2019}m alive! What the fuck is wrong with you?",
+          ],
+          [
+            1,
+            '[ap 00:04] The Martian - Andy Weir.epub (text/part0010.html) - 12:04',
+            "[<<12:04|2>>]JPL: We\x{2019}ll get botanists in to ask detailed questions and double-check your work. Your life is at stake, so we want to be sure. Sol 900 is great news. It\x{2019}ll give us a lot more time to get the supply mission together. Also, please watch your language. Everything you type is being broadcast live all over the world.",
+          ],
+          [
+            1,
+            '[ap 00:04] The Martian - Andy Weir.epub (text/part0010.html) - 12:04',
+            "[<<12:04|2>>]JPL: We\x{2019}ll get botanists in to ask detailed questions and double-check your work. Your life is at stake, so we want to be sure. Sol 900 is great news. It\x{2019}ll give us a lot more time to get the supply mission together. Also, please watch your language. Everything you type is being broadcast live all over the world.
+[<<12:15|2>>]WATNEY: Look! A pair of boobs! -> (.Y.)
+",
+          ],
+          [
+            1,
+            '[ap 01:50] The Martian - Andy Weir.epub (text/part0013.html) - 150',
+            "The rations will last me till Sol 400. I can\x{2019}t say for sure how long the potatoes will last until I see how many I got. But I can estimate. I had 400 plants, probably averaging 5 potatoes each: 2000 taters. At <<150|9m>> calories each, I\x{2019}ll need to eat 10 per sol to survive. That means they\x{2019}ll last me 200 sols. Grand total: I have enough food to last till Sol 600.",
+          ],
+          [
+            1,
+            '[ap 08:12] The Martian - Andy Weir.epub (text/part0014.html) - 08:12',
+            "
+[<<08:12|2>>]WATNEY: Test.
+[<<08:25|2>>]JPL: Received! You gave us quite a scare there. Thanks for the \x{201c}A-OK\x{201d} message. Our analysis of satellite imagery shows a complete detachment of Airlock 1. Is that correct? What\x{2019}s your status? Include your personal health and Hab equipment.",
+          ],
+          [
+            1,
+            '[ap 08:25] The Martian - Andy Weir.epub (text/part0014.html) - 08:25',
+            "[<<08:25|2>>]JPL: Received! You gave us quite a scare there. Thanks for the \x{201c}A-OK\x{201d} message. Our analysis of satellite imagery shows a complete detachment of Airlock 1. Is that correct? What\x{2019}s your status? Include your personal health and Hab equipment.",
+          ],
+          [
+            1,
+            '[ap 08:39] The Martian - Andy Weir.epub (text/part0014.html) - 08:39',
+            "[<<08:39|2>>]WATNEY: If by \x{201c}detachment\x{201d} you mean \x{201c}shot me out like a cannon\x{201d} then yeah. Minor cut on my forehead. Had some issues with my EVA suit (I\x{2019}ll explain later). I patched up the Hab and repressurized it (main air tanks were intact). I just got power back online. Primary air and water tanks were unharmed. The rover, solar array, and Pathfinder were out of blast range. I\x{2019}ll run diagnostics on the Hab\x{2019}s systems while I wait for your next reply. By the way, who am I talking to?",
+          ],
+          [
+            1,
+            '[ap 08:52] The Martian - Andy Weir.epub (text/part0014.html) - 08:52',
+            "[<<08:52|2>>]JPL: Venkat Kapoor, in Houston. Pasadena relays my messages. I'm going to handle all direct communication with you from now on. Check the Oxygenator and Water Reclaimer first. They\x{2019}re the most important.",
+          ],
+          [
+            1,
+            '[ap 09:05] The Martian - Andy Weir.epub (text/part0014.html) - 09:05',
+            "[<<09:05|2>>]WATNEY: Duh. Oxygenator functioning perfectly. Water Reclaimer is completely offline. Best guess is water froze up inside and burst some tubing. I\x{2019}m sure I can fix it. Hab\x{2019}s main computer also functioning without any problems. Any idea what caused the Hab to blow up?",
+          ],
+          [
+            1,
+            '[ap 09:18] The Martian - Andy Weir.epub (text/part0014.html) - 09:18',
+            "[<<09:18|2>>]JPL: Best guess is fatigue on the canvas near Airlock 1. The pressurization cycle stressed it until it failed. From now on, alternate Airlock 2 and 3 for all EVAs. Also, we\x{2019}ll be getting you a checklist and procedures for a full canvas exam.",
+          ],
+          [
+            1,
+            '[ap 09:31] The Martian - Andy Weir.epub (text/part0014.html) - 09:31',
+            "[<<09:31|2>>]WATNEY: Yay, I get to stare at a wall for several hours! By the way, the farm is dead. I\x{2019}ve recovered as many potatoes as I could and stored them outside. I count 1841. That will last me 184 days. Including the remaining mission rations, I\x{2019}ll start starving on Sol 584.",
+          ],
+          [
+            1,
+            '[ap 09:31] The Martian - Andy Weir.epub (text/part0014.html) - 09:31',
+            "[<<09:31|2>>]WATNEY: Yay, I get to stare at a wall for several hours! By the way, the farm is dead. I\x{2019}ve recovered as many potatoes as I could and stored them outside. I count 1841. That will last me 184 days. Including the remaining mission rations, I\x{2019}ll start starving on Sol 584.
+[<<09:44|2>>]JPL: Yeah, we figured. Working on it.
+",
+          ],
+          [
+            1,
+            '[ap 08:02] The Martian - Andy Weir.epub (text/part0014.html) - 08:02',
+            '[<<08:02|2>>]JPL: We\'ve spun up a project to get you food. It\'s been in progress for a week or so. We can get it to you before you starve, but it\'ll be tight. It\'ll just be food and a radio. We can\'t send an Oxygenator, Water Reclaimer, or any of that other stuff without powered descent.',
+          ],
+          [
+            1,
+            '[ap 08:16] The Martian - Andy Weir.epub (text/part0014.html) - 08:16',
+            '[<<08:16|2>>]WATNEY: No complaints here! You get me the food, I\'ll be a happy camper. I\'ve got all Hab systems up and running again. The Water Reclaimer is working fine now that I replaced the burst hoses. As for water supply, I have 620L remaining. I started with 900L (300 to start with, 600 more from reducing hydrazine). So I lost almost 300L to sublimation. Still, with the Water Reclaimer operational again, it\'s plenty.',
+          ],
+          [
+            1,
+            '[ap 08:31] The Martian - Andy Weir.epub (text/part0014.html) - 08:31',
+            "[<<08:31|2>>]JPL: Good, keep us posted on any mechanical or electronic problems. By the way, the name of the probe we're sending is \x{201c}Iris\x{201d}. Named after the Greek goddess who traveled the heavens with the speed of wind. She's also the goddess of rainbows.",
+          ],
+          [
+            1,
+            '[ap 08:31] The Martian - Andy Weir.epub (text/part0014.html) - 08:31',
+            "[<<08:31|2>>]JPL: Good, keep us posted on any mechanical or electronic problems. By the way, the name of the probe we're sending is \x{201c}Iris\x{201d}. Named after the Greek goddess who traveled the heavens with the speed of wind. She's also the goddess of rainbows.
+[<<08:47|2>>]WATNEY: Gay probe coming to save me. Got it.
+",
+          ],
+          [
+            1,
+            '[03:42] The Martian - Andy Weir.epub (text/part0014.html) - 3:42am',
+            'With a relieved sigh, he sank back in his chair. Checking the clock on his computer, he shook his head. <<3:42am|2a>>.',
+          ],
+          [
+            1,
+            '[ap 08:01] The Martian - Andy Weir.epub (text/part0014.html) - 08:01',
+            '
+[<<08:01|2>>]WATNEY: How\'s my care package coming along?
+[<<08:16|2>>]JPL: A little behind schedule, but we\'ll get it done. In the mean time, we want you to get back to work. We\'re satisfied the Hab\'s is in good condition. Maintenance only takes you 12 hours per week. We\'re going to pack the rest of your time with research and experiments.',
+          ],
+          [
+            1,
+            '[ap 08:16] The Martian - Andy Weir.epub (text/part0014.html) - 08:16',
+            '[<<08:16|2>>]JPL: A little behind schedule, but we\'ll get it done. In the mean time, we want you to get back to work. We\'re satisfied the Hab\'s is in good condition. Maintenance only takes you 12 hours per week. We\'re going to pack the rest of your time with research and experiments.',
+          ],
+          [
+            1,
+            '[ap 08:31] The Martian - Andy Weir.epub (text/part0014.html) - 08:31',
+            '[<<08:31|2>>]WATNEY: Great! I\'m sick of sitting on my ass. I\'m going to be here for years. You may as well make use of me.',
+          ],
+          [
+            1,
+            '[ap 08:47] The Martian - Andy Weir.epub (text/part0014.html) - 08:47',
+            "[<<08:47|2>>]JPL: That's what we're thinking. We'll get you a schedule as soon as the science team puts it together. It'll be mostly of EVAs, geological samples, soil tests, and weekly self-administered medical tests. Honestly, this is the best \x{201c}bonus Mars time\x{201d} we've had since the Opportunity lander.",
+          ],
+          [
+            1,
+            '[ap 08:47] The Martian - Andy Weir.epub (text/part0014.html) - 08:47',
+            "[<<08:47|2>>]JPL: That's what we're thinking. We'll get you a schedule as soon as the science team puts it together. It'll be mostly of EVAs, geological samples, soil tests, and weekly self-administered medical tests. Honestly, this is the best \x{201c}bonus Mars time\x{201d} we've had since the Opportunity lander.
+[<<09:02|2>>]WATNEY: Opportunity never went back to Earth.
+[<<09:17|2>>]JPL: Sorry. Bad analogy.",
+          ],
+          [
+            1,
+            '[ap 09:02] The Martian - Andy Weir.epub (text/part0014.html) - 09:02',
+            '[<<09:02|2>>]WATNEY: Opportunity never went back to Earth.
+[<<09:17|2>>]JPL: Sorry. Bad analogy.
+',
+          ],
+          [
+            1,
+            '[09:14] The Martian - Andy Weir.epub (text/part0014.html) - 9:14am',
+            "\x{201c}The launch preparations are complete,\x{201d} Annie Montrose said to the press room. \x{201c}Iris is ready to go. The scheduled launch is <<9:14am|2a>>.",
+          ],
+          [
+            1,
+            '[06:13] The Martian - Andy Weir.epub (text/part0014.html) - 6:13am',
+            'Bruce Ng sat in the JPL cafeteria along with hundreds of engineers who had given everything they had to Iris. They watched the large TV with rapt attention. It was <<6:13am|2a>> in Pasadena, yet every single employee was present.',
+          ],
+          [
+            1,
+            '[00:00] The Martian - Andy Weir.epub (text/part0014.html) - 00:00',
+            "Once the clock reached -<<00:00|2>>:15, the television networks got what they were waiting for. The Timer Controller began the verbal countdown. \x{201c}15,\x{201d} She said. \x{201c}14... 13... 12... 11...\x{201d}",
+          ],
+          [
+            1,
+            '[16:03] The Martian - Andy Weir.epub (text/part0014.html) - 16:03',
+            '
+[<<16:03|2>>]WATNEY: How\'d the launch go?
+',
+          ],
+          [
+            1,
+            '[20:08] The Martian - Andy Weir.epub (text/part0015.html) - twenty eight',
+            "\x{201c}We made history when we finished Iris in sixty three days. Now we have to do it in <<twenty eight|5l:0>>.\x{201d}",
+          ],
+          [
+            1,
+            '[01:00] The Martian - Andy Weir.epub (text/part0015.html) - 1am',
+            'Brendan was in charge of Mission Control from <<1am|5>> to <<9am|5>> every night. Continued excellent performance in this role would certainly net him a promotion. It was already announced he\'d be back-up Flight Controller for Ares-4, and he had a good shot at the top job for Ares-5.',
+          ],
+          [
+            1,
+            '[ap 04:49] The Martian - Andy Weir.epub (text/part0016.html) - 449',
+            'The flyby is on Sol 549, so I\'ll need to leave by <<449|3:0>>. That gives me 257 sols to get my shit in gear.',
+          ],
+          [
+            1,
+            '[14:38] The Martian - Andy Weir.epub (text/part0016.html) - 14:38',
+            '
+[<<14:38|2>>]JPL: I\'m sure you\'re wondering how to cut a hole in the rover.
+Our experiments show a rock sample drill can get through the hull. Wear and tear on the bit is minimal (rocks are harder than carbon composite). You can cut holes in a line, then chisel out the remaining chunks between them.',
+          ],
+          [
+            1,
+            '[12:00] The Martian - Andy Weir.epub (text/part0016.html) - midday',
+            'Worked like a charm! The drill whirled away with happy abandon. Somehow, I had managed to do everything right the first try. Deep down, I thought I\'d fry the drill for sure.
+It wasn\'t even <<midday|13>> yet. I figured why not get a jump on drilling?
+',
+          ],
+          [
+            1,
+            '[ap 10:07] The Martian - Andy Weir.epub (text/part0016.html) - 10:07',
+            '[<<10:07|2>>] Watney: Power line modifications complete. Hooked it up to a drill, and it works great. Plenty of daylight left. Send me a description of that hole you want me to cut.',
+          ],
+          [
+            1,
+            '[ap 10:25] The Martian - Andy Weir.epub (text/part0016.html) - 10:25',
+            "[<<10:25|2>>] JPL: Glad to hear it. Starting on the cut sounds great. Just to be clear, these are modifications to Rover 1, which we've been calling \x{201c}the trailer.\x{201d} Rover 2 (the one with your modifications for the trip to Pathfinder) should remain as-is for now.",
+          ],
+          [
+            1,
+            '[ap 10:43] The Martian - Andy Weir.epub (text/part0016.html) - 10:43',
+            '[<<10:43|2>>] Watney: Roger. Take a pic at <<11:30|2>> if you haven\'t heard from me by then.',
+          ],
+          [
+            1,
+            '[ap 11:49] The Martian - Andy Weir.epub (text/part0016.html) - 11:49',
+            '[<<11:49|2>>] JPL: What we can see of your planned cut looks good. We\'re assuming the other side is identical. You\'re cleared to start drilling.',
+          ],
+          [
+            1,
+            '[ap 11:49] The Martian - Andy Weir.epub (text/part0016.html) - 11:49',
+            '[<<11:49|2>>] JPL: What we can see of your planned cut looks good. We\'re assuming the other side is identical. You\'re cleared to start drilling.
+[<<12:07|2>>] Watney: That\'s what she said.
+[<<12:25|2>>] JPL: Seriously, Mark? Seriously?',
+          ],
+          [
+            1,
+            '[ap 00:07] The Martian - Andy Weir.epub (text/part0016.html) - 12:07',
+            '[<<12:07|2>>] Watney: That\'s what she said.
+[<<12:25|2>>] JPL: Seriously, Mark? Seriously?
+',
+          ],
+          [
+            1,
+            '[17:00] The Martian - Andy Weir.epub (text/part0016.html) - 17:00',
+            'By <<17:00|2>>, when the sun began to set, I had drilled 75 holes. A good start, but there\'s still tons to do. Eventually (probably tomorrow) I\'ll have to start drilling holes that I can\'t reach from the ground. For that I\'ll need something to stand on.',
+          ],
+          [
+            1,
+            '[17:12] The Martian - Andy Weir.epub (text/part0016.html) - 17:12',
+            '
+[<<17:12|2>>] Watney: 145 holes today. 357 total.
+[<<17:31|2>>] JPL: We thought you\'d have more done by now.',
+          ],
+          [
+            1,
+            '[17:12] The Martian - Andy Weir.epub (text/part0016.html) - 17:12',
+            '[<<17:12|2>>] Watney: 145 holes today. 357 total.
+[<<17:31|2>>] JPL: We thought you\'d have more done by now.
+',
+          ],
+          [
+            1,
+            '[ap ~ 08:45] The Martian - Andy Weir.epub (text/part0016.html) - around 08:45',
+            'I started my EVA <<around 08:45|2>>, same as always. I got my hammer and screwdriver and started chipping the trailer\'s hull. It\'s a pain in the ass to make a chip before each drilling, so I make all the day\'s chips in a single go.',
+          ],
+          [
+            1,
+            '[ap 00:00] The Martian - Andy Weir.epub (text/part0016.html) - 12:00',
+            'At <<12:00|2>>, I took a break. Back in the Hab, I enjoyed a nice lunch and played some chess against the computer (it kicked my ass). Then back out for the day\'s second EVA.',
+          ],
+          [
+            1,
+            '[13:30] The Martian - Andy Weir.epub (text/part0016.html) - 13:30',
+            'At <<13:30|2>> my ruination occurred, though I didn\'t realize it at the time.',
+          ],
+          [
+            1,
+            '[17:00] The Martian - Andy Weir.epub (text/part0016.html) - 17:00',
+            'I finished my day at <<17:00|2>> after drilling 131 holes. Not as good as yesterday, but I lost some time to the drill malfunction.',
+          ],
+          [
+            1,
+            '[17:08] The Martian - Andy Weir.epub (text/part0016.html) - 17:08',
+            '[<<17:08|2>>] Watney: 131 holes today. 488 total. Minor drill issue; it tripped the breakers. There may be an intermittent short in the drill, probably in the attachment point of the power line. Might need to redo it.',
+          ],
+          [
+            1,
+            '[17:38] The Martian - Andy Weir.epub (text/part0016.html) - 17:38',
+            '[<<17:38|2>>] Watney: Have received no reply. Last message sent 30 minutes ago. Please acknowledge.',
+          ],
+          [
+            1,
+            '[18:09] The Martian - Andy Weir.epub (text/part0016.html) - 18:09',
+            '
+[<<18:09|2>>] Watney: system_command: STATUS
+[<<18:09|2>>] SYSTEM: Last message sent <<00h31m|1b>> ago. Last message received 26h17m ago. Last ping reply from probe received <<04h24m|1b>> ago. WARNING: 52 unanswered pings.',
+          ],
+          [
+            1,
+            '[18:09] The Martian - Andy Weir.epub (text/part0016.html) - 18:09',
+            '[<<18:09|2>>] SYSTEM: Last message sent <<00h31m|1b>> ago. Last message received 26h17m ago. Last ping reply from probe received <<04h24m|1b>> ago. WARNING: 52 unanswered pings.',
+          ],
+          [
+            1,
+            '[ap 04:24] The Martian - Andy Weir.epub (text/part0016.html) - 4 hours and 24 minutes',
+            'Pathfinder was no longer talking to the rover. It had stopped answering pings <<4 hours and 24 minutes|14>> ago. Some quick math told me that was <<around 13:30|2>> today.',
+          ],
+          [
+            1,
+            '[13:30] The Martian - Andy Weir.epub (text/part0016.html) - 13:30',
+            'At <<13:30|2>>, I leaned the drill against the workbench. The drill\'s cowling was off to make room for the power line. The workbench is metal. If the drill leaned against the workbench just right, it could make a metal-to-metal connection.',
+          ],
+          [
+            1,
+            '[ap 07:35] The Martian - Andy Weir.epub (text/part0017.html) - 7.35',
+            'The spec said 44.1pn, but all this time it\'s only been using <<7.35|5a:0>> because of the reduced load. Now we\'re getting somewhere!',
+          ],
+          [
+            1,
+            '[ap 02:58] The Martian - Andy Weir.epub (text/part0017.html) - two to three',
+            'Every now and then, I\'ll need to break for a day and let the Oxygenator use all the power. How often? After a bunch of math I worked out that my 18pn budget can power the Oxygenator enough to make 2.5 sols of O2. I\'d have to stop every <<two to three|10a:0>> sols to reclaim oxygen. My 65 sol trip would become 91!',
+          ],
+          [
+            1,
+            '[ap 07:49] The Martian - Andy Weir.epub (text/part0019.html) - 749',
+            'First I had to finish drilling holes with the Pathfinder-murderin\' drill. Then I chiseled out a billion little chunks between the holes. Ok, it was <<749|9d>> but it felt like a billion.',
+          ],
+          [
+            1,
+            '[22:00] The Martian - Andy Weir.epub (text/part0019.html) - 22',
+            'Rim shot!
+Seriously though, it sucked. It was <<22|9d>> sols of abject misery.
+I plan to leave for Schiaparelli 100 sols before my rescue (or death), and I swear to fucking God I\'ll rip my own face off if I have to live in the rover for that long.',
+          ],
+          [
+            1,
+            '[ap > 02:00] The Martian - Andy Weir.epub (text/part0019.html) - After two',
+            '<<After two|9:0>> cups of Martian Coffee, I woke up a little. I won\'t be taking another one of those pills. It\'s not like I have to go to work in the morning.',
+          ],
+          [
+            1,
+            '[04:18] The Martian - Andy Weir.epub (text/part0019.html) - 418 hours',
+            'Life Support: Oxygenator and Atmospheric Regulator. <<418 hours|1>> of use-and-discard CO2 filters for emergencies.',
+          ],
+          [
+            1,
+            '[~ 09:00] The Martian - Andy Weir.epub (text/part0020.html) - around 9am',
+            "\x{201c}Uh, yeah,\x{201d} Mindy said, typing on her keyboard. \x{201c}I noticed things would always change <<around 9am|5>> local time. People usually keep the same patterns so I figured he likes to start work around then. I did some minor realignment to get seventeen pics between <<9:00|2>> and <<9:10|2>>. He showed up in one of them.\x{201d}",
+          ],
+          [
+            1,
+            '[ap ~ 01:20] The Martian - Andy Weir.epub (text/part0020.html) - about 120',
+            'The Hab\'s internal volume is <<about 120|18:0>>,000L. Breathing normally, it would take me over two days to bring the CO2 level up to 1% (and I wouldn\'t even dent in the O2 level). So it\'s safe to move the Regulator and Oxygenator over for a while.',
+          ],
+          [
+            1,
+            '[12:00] The Martian - Andy Weir.epub (text/part0021.html) - noon',
+            'The bedroom was inflated. Checking the timestamp on the image, it was from <<noon|13>> local time. She quickly found the status report; Watney always placed it close to the rover when rocks were in abundance, usually to the north.',
+          ],
+          [
+            1,
+            '[14:10] The Martian - Andy Weir.epub (text/part0021.html) - 2:10pm',
+            'Mindy trudged to her computer. Today\'s shift began at <<2:10pm|2a>>. Her schedule matched Watney\'s every day. She slept when he slept. Watney simply slept at night on Mars, while Mindy had to drift 40 minutes forward every day, taping aluminum foil to her windows to get any sleep at all.',
+          ],
+          [
+            1,
+            '[12:00] The Martian - Andy Weir.epub (text/part0021.html) - midday',
+            'She brought up the most recent satellite images. She cocked an eyebrow. He had not broken camp yet. Usually he drove in the early morning, as soon as it was light enough to navigate. Then he capitalized on the <<midday|13>> sun to maximize recharging.',
+          ],
+          [
+            1,
+            '[12:00] The Martian - Andy Weir.epub (text/part0022.html) - noon',
+            'Both loggers worked they way I\'d hoped. I downloaded each of their video recordings to a laptop and advanced them to <<noon|13>>. Finally I had solar efficiency readings from three locations along an 80km line, all from the same time of day.',
+          ],
+          [
+            1,
+            '[12:00] The Martian - Andy Weir.epub (text/part0022.html) - noon',
+            'As of <<noon|13>> yesterday, the northern-most logger showed 12.3% efficiency loss, the middle one was a 9.5% loss, and the rover recorded a 6.4% loss at its southernmost location. It paints a pretty clear picture: the storm front runs northwest to southeast. And I already worked out it\'s traveling west.',
+          ],
+          [
+            1,
+            '[12:00] The Martian - Andy Weir.epub (text/part0022.html) - noon',
+            'Having traveled along Mars Highway 1 all day, I\'m back at my campsite from yesterday. Tomorrow, I\'ll finally make real headway again. I was done driving and had the camp set up by <<noon|13>>. The efficiency loss here is 15.6%. Compared to the 17% loss at yesterday\'s camp, this means I can outrun the storm as long as I keep heading south.',
+          ],
+          [
+            1,
+            '[03:12] The Martian - Andy Weir.epub (text/part0023.html) - 312 hours',
+            'I\'ve got 20L of oxygen (enough to keep me breathing for 40 days) but without the Regulator (which is in the trailer) I\'m back to chemical CO2 absorption. I have <<312 hours|1>> of filters left. Plus I have another 171 hours of EVA suit CO2 filters as well. All told, they\'ll last 483 hours, which is close to 20 sols. So I have time to get things working again.',
+          ],
+          [
+            1,
+            '[~ 12:00] The Martian - Andy Weir.epub (text/part0023.html) - around noon',
+            "\x{201c}At his usual rate of 90km per sol,\x{201d} Mindy said, \x{201c}he should get there on Sol 504. Sol 505 if he takes his time. He always drives in the early morning, finishing <<around noon|13>>.\x{201d} She checked an application on her laptop. \x{201c}<<Noon|13>> on Sol 504 will be <<11:41am|2a>> this Wednesday here in Houston. <<Noon|13>> on Sol 505 will be <<12:21pm|2a>> on Thursday.\x{201d}",
+          ],
+          [
+            1,
+            '[ap 10:00] The Martian - Andy Weir.epub (text/part0023.html) - 10',
+            'Seriously. He drove like he was taking a driver\'s test. Never exceeded the speed limit, always had his hands at <<10|9c:0>> and 2, adjusted mirrors before each outing, you name it.',
+          ],
+          [
+            1,
+            '[12:00] The Martian - Andy Weir.epub (text/part0023.html) - midday',
+            'The MAV waited in southwestern Schiaparelli. It stood an impressive 27 meters tall, its conical body gleaming in the <<midday|13>> sun.',
+          ],
+          [
+            1,
+            '[13:07] The Martian - Andy Weir.epub (text/part0024.html) - 13:07',
+            '[<<13:07|2>>]HOUSTON: Congratulations from all of us here at Mission Control! Well done! What\'s your status?',
+          ],
+          [
+            1,
+            '[13:21] The Martian - Andy Weir.epub (text/part0024.html) - 13:21',
+            '[<<13:21|2>>]MAV: Thanks! No health or physical problems. The rover and trailer are getting pretty worn out, but still functional. Oxygenator and Regulator both working fine. I didn\'t bring the Water Reclaimer. Just brought the water. Plenty of potatoes left. I\'m good to last till <<549|9f>>.',
+          ],
+          [
+            1,
+            '[13:36] The Martian - Andy Weir.epub (text/part0024.html) - 13:36',
+            '[<<13:36|2>>]HOUSTON: Glad to hear it. Hermes is still on track for a Sol 549 flyby. As you know, the MAV will need to lose some weight to make the intercept. We\'re going to get you those procedures within the day. How much water do you have? What did you do with urine?',
+          ],
+          [
+            1,
+            '[13:50] The Martian - Andy Weir.epub (text/part0024.html) - 13:50',
+            '[<<13:50|2>>]MAV: I have 550L of remaining water. I\'ve been dumping urine outside along the way.',
+          ],
+          [
+            1,
+            '[14:05] The Martian - Andy Weir.epub (text/part0024.html) - 14:05',
+            '[<<14:05|2>>]HOUSTON: Preserve all water. Don\'t do any more urine dumps. Store it somewhere. Turn the rover\'s radio on and leave it on. We can contact it through MAV.',
+          ],
+          [
+            1,
+            '[ap 04:00] The Martian - Andy Weir.epub (text/part0024.html) - 4',
+            "Bruce slid the booklet across the desk to Venkat. \x{201c}The problem is the intercept velocity. The MAV is designed to get to Low Mars Orbit, which is <<4|9d>>.1kps. But the Hermes flyby will be 5.8kps.\x{201d}",
+          ],
+          [
+            1,
+            '[ap 08:41] The Martian - Andy Weir.epub (text/part0024.html) - 08:41',
+            '
+[<<08:41|2>>]MAV: You fucking kidding me?
+[<<09:55|2>>]HOUSTON: Admittedly, they are very invasive modifications, but they have to be done. The procedure doc we sent has instructions for each of these steps with tools you have on hand. Also, you\'ll need to start electrolyzing water to get the hydrogen for the fuel plant. We\'ll send you procedures for that shortly.',
+          ],
+          [
+            1,
+            '[ap 09:55] The Martian - Andy Weir.epub (text/part0024.html) - 09:55',
+            '[<<09:55|2>>]HOUSTON: Admittedly, they are very invasive modifications, but they have to be done. The procedure doc we sent has instructions for each of these steps with tools you have on hand. Also, you\'ll need to start electrolyzing water to get the hydrogen for the fuel plant. We\'ll send you procedures for that shortly.',
+          ],
+          [
+            1,
+            '[ap 09:55] The Martian - Andy Weir.epub (text/part0024.html) - 09:55',
+            '[<<09:55|2>>]HOUSTON: Admittedly, they are very invasive modifications, but they have to be done. The procedure doc we sent has instructions for each of these steps with tools you have on hand. Also, you\'ll need to start electrolyzing water to get the hydrogen for the fuel plant. We\'ll send you procedures for that shortly.
+[<<09:09|2>>]MAV: You\'re sending me into space in a convertible.
+[<<09:24|2>>]HOUSTON: There will be Hab canvas covering the holes. It will provide enough aerodynamics in Mars\'s atmosphere.',
+          ],
+          [
+            1,
+            '[ap 09:24] The Martian - Andy Weir.epub (text/part0024.html) - 09:24',
+            '[<<09:24|2>>]HOUSTON: There will be Hab canvas covering the holes. It will provide enough aerodynamics in Mars\'s atmosphere.',
+          ],
+          [
+            1,
+            '[ap 09:24] The Martian - Andy Weir.epub (text/part0024.html) - 09:24',
+            '[<<09:24|2>>]HOUSTON: There will be Hab canvas covering the holes. It will provide enough aerodynamics in Mars\'s atmosphere.
+[<<09:38|2>>]MAV: So it\'s a ragtop. Much better.
+',
+          ],
+          [
+            1,
+            '[19:22] The Martian - Andy Weir.epub (text/part0024.html) - 19:22',
+            '
+[<<19:22|2>>]JOHANSSEN: Hello, Mark.
+[<<19:23|2>>]MAV: Johanssen!? Holy crap! They finally letting you talk to me directly?',
+          ],
+          [
+            1,
+            '[19:23] The Martian - Andy Weir.epub (text/part0024.html) - 19:23',
+            '[<<19:23|2>>]MAV: Johanssen!? Holy crap! They finally letting you talk to me directly?',
+          ],
+          [
+            1,
+            '[19:24] The Martian - Andy Weir.epub (text/part0024.html) - 19:24',
+            '[<<19:24|2>>]JOHANSSEN: Yes, NASA gave the OK for direct communication an hour ago. We\'re only 35 light-seconds apart, so we can talk in near-realtime. I just set up the system and I\'m testing it out.',
+          ],
+          [
+            1,
+            '[19:24] The Martian - Andy Weir.epub (text/part0024.html) - 19:24',
+            '[<<19:24|2>>]JOHANSSEN: Yes, NASA gave the OK for direct communication an hour ago. We\'re only 35 light-seconds apart, so we can talk in near-realtime. I just set up the system and I\'m testing it out.
+[<<19:24|2>>]MAV: What took them so long to let us talk?
+[<<19:25|2>>]JOHANSSEN: The psych team was worried about personality conflicts.',
+          ],
+          [
+            1,
+            '[19:25] The Martian - Andy Weir.epub (text/part0024.html) - 19:25',
+            '[<<19:25|2>>]JOHANSSEN: The psych team was worried about personality conflicts.',
+          ],
+          [
+            1,
+            '[19:25] The Martian - Andy Weir.epub (text/part0024.html) - 19:25',
+            '[<<19:25|2>>]MAV: What? Just cause you guys abandoned me on a godforsaken planet with no chance of survival?',
+          ],
+          [
+            1,
+            '[19:25] The Martian - Andy Weir.epub (text/part0024.html) - 19:25',
+            '[<<19:25|2>>]MAV: What? Just cause you guys abandoned me on a godforsaken planet with no chance of survival?
+[<<19:26|2>>]JOHANSSEN: Funny. Don\'t make that kind of joke with Lewis.
+[<<19:27|2>>]MAV: Roger. So uh... thanks for coming back to get me.',
+          ],
+          [
+            1,
+            '[19:26] The Martian - Andy Weir.epub (text/part0024.html) - 19:26',
+            '[<<19:26|2>>]JOHANSSEN: Funny. Don\'t make that kind of joke with Lewis.
+[<<19:27|2>>]MAV: Roger. So uh... thanks for coming back to get me.
+[<<19:27|2>>]JOHANSSEN: It\'s the least we could do. How is the MAV retrofit going?',
+          ],
+          [
+            1,
+            '[19:27] The Martian - Andy Weir.epub (text/part0024.html) - 19:27',
+            '[<<19:27|2>>]JOHANSSEN: It\'s the least we could do. How is the MAV retrofit going?',
+          ],
+          [
+            1,
+            '[19:28] The Martian - Andy Weir.epub (text/part0024.html) - 19:28',
+            '[<<19:28|2>>]MAV: So far, so good. NASA put a lot of thought into the procedures. They work. That\'s not to say they\'re easy. I spent the last 3 days removing Hull Panel 19 and the front window. Even in Mars-G they\'re heavy motherfuckers.',
+          ],
+          [
+            1,
+            '[19:29] The Martian - Andy Weir.epub (text/part0024.html) - 19:29',
+            '[<<19:29|2>>]JOHANSSEN: When we pick you up, I will make wild, passionate love to you. Prepare your body.',
+          ],
+          [
+            1,
+            '[19:29] The Martian - Andy Weir.epub (text/part0024.html) - 19:29',
+            '[<<19:29|2>>]JOHANSSEN: I didn\'t type that! That was Martinez! I stepped away from the console for like 10 seconds!',
+          ],
+          [
+            1,
+            '[19:29] The Martian - Andy Weir.epub (text/part0024.html) - 19:29',
+            '[<<19:29|2>>]JOHANSSEN: I didn\'t type that! That was Martinez! I stepped away from the console for like 10 seconds!
+[<<19:29|2>>]MAV: I\'ve really missed you guys.
+',
+          ],
+          [
+            1,
+            '[16:09] The Martian - Andy Weir.epub (text/part0024.html) - 16 hours, 9 minutes',
+            "\x{201c}Time until MAV launch?\x{201d}
+\x{201c}<<16 hours, 9 minutes|14>>, 40 seconds... mark.\x{201d}
+\x{201c}Copy that. All stations: Flight Director shift change.\x{201d} He took his headset off and rubbed his eyes.",
+          ],
+          [
+            1,
+            '[ap ~ 05:00] The Martian - Andy Weir.epub (text/part0025.html) - About 5',
+            "\x{201c}7...6...5...mooring clamps released...\x{201d}
+\x{201c}<<About 5|9:0>> seconds, Watney,\x{201d} Lewis said to her headset. \x{201c}Hang on.\x{201d}
+\x{201c}See you in a few, Commander,\x{201d} Watney radioed back.",
+          ],
+          [
+            1,
+            '[ap 01:03] The Martian - Andy Weir.epub (text/part0025.html) - 1.03',
+            "\x{201c}Copy,\x{201d} Johanssen said. Unstowing the emergency seal, she plugged the entrance to the bridge. With a few turns of the crank, the job was done. She returned to her station and ran a quick test. \x{201c}Increasing Bridge pressure to <<1.03|5a:0>> atmospheres... pressure is steady we have a good seal.\x{201d}",
+          ],
+          [
+            1,
+            '[ap > 04:00] The Martian - Andy Weir.epub (text/part0025.html) - After four',
+            '<<After four|9:0>> seconds, the shaking died down and the ship returned to weightlessness.',
+          ],
+        ];

@@ -1,0 +1,713 @@
+$VAR1 = [
+          [
+            1,
+            '[19:34] Handbook of Programming Languages Volume 4 - Peter H. Salus.epub (013-016.html) - 19.34',
+            '2.5.1. An Example of a Search Within a Buffer
+This section describes an example of a function definition that is not interactive; it comes from the source code for GNU Emacs version <<19.34|5a:0>>. You can find the function in the file texnfo-upd.el. (In Emacs you can use the find-tag command to find the source of a function.)',
+          ],
+          [
+            1,
+            '[ap 06:55] Handbook of Programming Languages Volume 4 - Peter H. Salus.epub (016-018.html) - 5 to 7',
+            'We can change the value of foo from <<5 to 7|10a:0>> by evaluating this expression:',
+          ],
+          [
+            1,
+            '[ap 02:15] Handbook of Programming Languages Volume 4 - Peter H. Salus.epub (018-022.html) - 2.15',
+            "\x{2022}\x{a0}\x{a0}The first drawer has in it a piece of paper with the name of the symbol written on it; this is its printed representation.
+\x{2022}\x{a0}\x{a0}The second drawer has in it the definition of the symbol as a function, which is what is created with defun.
+\x{2022}\x{a0}\x{a0}The third drawer has in it the value of the symbol as a variable, which is what setq sets.
+\x{2022}\x{a0}\x{a0}The fourth drawer has in it a property list, a component we have not yet described. (See section <<2.15|5a:0>>.)
+
+A single symbol can have any or all of these components. Almost always, it has its name (otherwise you cannot read it), and either a function definition or a value or both, and often a property list.",
+          ],
+          [
+            1,
+            '[ap 02:15] Handbook of Programming Languages Volume 4 - Peter H. Salus.epub (018-022.html) - 2.15',
+            'The fourth drawer in our example is empty; it could contain a property list, which is described in section <<2.15|5a:0>>.',
+          ],
+          [
+            1,
+            '[00:00] Handbook of Programming Languages Volume 4 - Peter H. Salus.epub (078-082.html) - 0',
+            "(define-class (counter)
+     (instance-vars (count 0))
+     (method (next)
+       (set! count (+ count 1))
+       count))
+
+   > (define c1 (instantiate counter))
+   > (define c2 (instantiate counter))
+
+   > (ask c1 \x{2018}next)
+   1
+
+   > (ask c1 \x{2018}next)
+   2
+
+   > (ask c1 \x{2018}next)
+   3
+
+   > (ask c2 \x{2018}next)
+   1
+
+   > (ask c1 \x{2018}next)
+   4
+
+   > (ask c2 \x{2018}next)
+   2
+
+
+This example has one class counter and two instances c1 and c2. A counter accepts only one message, next. Each counter has a local state variable count, whose value starts at <<0|9g>> and is increased by one for each next message that the counter receives.",
+          ],
+          [
+            1,
+            '[20:00] Handbook of Programming Languages Volume 4 - Peter H. Salus.epub (about_split_001.html) - 1960',
+            'Just over 40 years ago there were no programming languages. In 1954 programming was still a function of hardware. Fortran was invented in 1957. It was soon being taught. By <<1960|9n:0>>, not only had COBOL and Lisp joined the roster, but so had others, many now thankfully forgotten. Over the past 40 years, nearly 4,000 computer languages have been produced. Only a tithe of these are in use today, but the growth and development of them has been progressive and organic.',
+          ],
+          [
+            1,
+            '[ap 11:12] Handbook of Programming Languages Volume 4 - Peter H. Salus.epub (book-index_split_001.html) - 11-12',
+            'dashes (-), using in Prolog predicates/clauses, 220
+data types, 111
+
+Guile, adding, 96-98
+Prolog, lack of, 165
+Scheme, 61-62
+
+DCGs (Definite Clause Grammars), Prolog
+
+arguments, 204
+Prolog, 202, 205-206
+rules, 203
+writing, 202-203
+
+debuggers
+
+GNU Emacs, 5
+Prolog, 198-202
+
+breakpoints, 201-202
+commands, 200-201
+
+see also debugging
+
+debugging
+
+Emacs Lisp, 48-51
+programs in Prolog, 183, 198-202
+
+declaring operators (Prolog), 209, 211
+defconst special form (Emacs Lisp), 26
+defining
+
+classes (CLOS), 111
+Emacs Lisp functions, <<11-12|5a:0>>
+functions
+
+generic (CLOS), 152
+Prolog, 165
+
+global variables
+
+conditionally, 26
+unconditionally, 26
+
+macros (Emacs Lisp), 41-42
+methods (CLOS), 154
+predicates (Prolog), 169, 184
+slots (CLOS), 111
+
+Definite Clause Grammars, 202
+defmacro function (Emacs Lisp), 41-42
+defun special form (Emacs Lisp), 11
+defvar special form (Emacs Lisp), 26
+delete predicate (Prolog), 186
+dependency tracking (CLOS), 138
+
+applied to immediate update, 139-143
+applied to lazy evaluation, 144-148
+
+direct superclasses (CLOS), 113
+domain-specific languages, 90-93
+dynamic predicate (Prolog), 207-208
+
+E',
+          ],
+          [
+            1,
+            '[ap 11:12] Handbook of Programming Languages Volume 4 - Peter H. Salus.epub (book-index_split_001.html) - 11-12',
+            "Edebug (Emacs Lisp debugger), 49-50
+editing Emacs Lisp, 7, 46
+Edwards, Daniel, 3
+Emacs Lisp, 5
+
+.emacs initialization file, 52-53
+antecedents, 5
+auto-saving, 51
+backup files, 51
+byte compilation, 52
+characteristics of, 5
+commands, 22
+
+find-tag, 13
+M-x load-file, 51
+
+comments, 12
+debugging, 48-51
+documentation on, 6
+editing, 46
+editing terminology, 7
+expressions
+
+and, 33-36
+evaluating repeatedly, 36
+evaluating sequentially, 31
+let, 28-29
+not, 33-36
+or, 33-36
+
+fill-prefixes, 33
+functions, 9, 22
+
+macroexpand, 42
+quote, 9
+built-in, 22
+car, 37
+cdr, 37
+cons, 37
+defining, <<11-12|5a:0>>
+defmacro, 41-42
+documentation, 12
+evaluating, 12
+finding source for, 13
+forward-line, 15
+interactive, 12, <<16-17|5a:0>>
+lambda, 20
+list, 42-43
+non-interactive, 14
+passing arguments to, 28
+recursive, 40
+save-excursion, 14
+setq, 18, 27
+
+Help, 47
+keymaps, 44-46
+lists, 8
+
+atoms, 8
+components, 8
+evaluating, 10
+nested, 8
+running, 9
+
+loading whole file, 51
+macros, 22
+
+backquoted lists, 43
+defining, 41-42
+
+Mark, 14
+mechanics of, 10
+point, 12
+running in batch mode, 7
+side effects, <<22-25|5a:0>>
+source, accessing, 47
+special forms, 10
+
+conditional, 31-32
+defconst, 26
+defun, 11
+defvar, 26
+progn, 31
+while, 36-40
+
+symbols
+
+components, 18
+evaluating, <<18-19|5a:0>>, 21
+property lists, 44
+
+variables, <<17-18|5a:0>>, 25
+
+buffer-local variables, 29-31
+global, 26-27
+setting, 27
+setting with let expression, 28-29
+values, <<17-18|5a:0>>
+
+
+empty lists
+
+Emacs Lisp, 8
+Prolog, 174
+
+encapsulation, CLOS slots, 117-119
+equality (Prolog)
+
+goals, 173
+predicates, 172
+properties, 173
+variables, 173
+
+Eratosthene\x{2019}s sieve, Prolog program, 224
+evaluating
+
+Emacs Lisp
+
+expressions, 31, 36
+files, 51
+functions, 12
+lists, <<9-10|5a:0>>
+symbols, <<18-19|5a:0>>, 21
+
+expressions with Lisp interpreter, 10
+
+events, Prolog predicates, 199
+execution model (Prolog), 178-183
+exit events (Prolog predicates), 199
+expressions
+
+Emacs Lisp
+
+and, 33-36
+let, 28-29
+not, 33-36
+or, 33-36
+
+evaluating, 10, 31, 36
+Scheme, 59, 84
+
+extending CLOS, 137-148
+
+F",
+          ],
+          [
+            1,
+            '[13:15] Handbook of Programming Languages Volume 4 - Peter H. Salus.epub (book-index_split_001.html) - 13-15',
+            'facts (Prolog), 169, 172
+
+asserting, 206
+retracting, 207
+
+fail
+
+events, Prolog predicates, 199
+operator (Prolog), 195
+
+fill-prefixes, Emacs Lisp, 33
+find-tag command (Emacs Lisp), 13
+findall predicate (Prolog), 196-197
+finding text file nodes, <<13-15|5a:0>>
+first argument indexing, Prolog clauses, 218-219
+first-class data (Scheme), 65-67
+flow control (Prolog), 195-196
+forms, 9
+forward-line function (Emacs Lisp), 15
+four-port debugger, Prolog, 198-202
+Free Software Foundation, Inc., 6
+functions, 176
+
+C++, member, 116
+CLOS
+
+generic functions, 129-132
+specification, 118, 141
+
+Emacs Lisp, 9, 22
+
+macroexpand, 42
+quote, 9
+built-in, 22
+car, 37
+cdr, 37
+cons, 37
+defining, <<11-12|5a:0>>
+defmacro, 41-42
+documentation, 12
+evaluating, 12
+finding source for, 13
+forward-line, 15
+interactive, 12, <<16-17|5a:0>>
+lambda, 20
+list, 42-43
+non-interactive, 14
+passing arguments to, 28
+recursive, 40
+save-excursion, 14
+setq, 18, 27
+
+generic functions (CLOS), 114-116
+Guile, adding, 94-96
+libraries, 26
+Prolog
+
+defining, 165
+solve clause(), 179
+solve eq(), 180
+symbols, 190-191, 209
+
+Scheme, programming, 77-79
+see also commands
+
+
+G',
+          ],
+          [
+            1,
+            '[16:17] Handbook of Programming Languages Volume 4 - Peter H. Salus.epub (book-index_split_001.html) - 16-17',
+            'I/O (Prolog)
+
+predicates, 192
+source files, 195
+streams, 195
+terms, 192
+
+identifiers (Prolog), 172
+if special form (Emacs Lisp), 31-32
+if-then-else operator (Prolog), 195
+infinite terms (Prolog), 216
+inheritance
+
+CLOS classes, 112, 114
+
+multiple inheritance, 125
+order of precedence, 127-128
+slots, 128-129
+
+Smalltalk classes, 113
+variables (Scheme), 64-65
+
+initializing slots (CLOS), 155
+instances
+
+CLOS classes, 111-112, 120, 140
+
+changing, 135, 137, 150
+reinitializing after updates, 156-157
+returning, 155
+
+Smalltalk classes, 112
+
+instantiation, Prolog variables, 182, 197
+interactive function (Emacs Lisp), 12, <<16-17|5a:0>>
+interfaces (CLOS objects), 109
+interpreters
+
+GNU Emacs, 7
+Guile, 87-88
+Lisp
+
+Prolog program, 229
+Prolog-based, 164
+
+Prolog, 164, 208
+Python, 103
+Tcl, 103
+
+is predicate (Prolog), 189
+
+K',
+          ],
+          [
+            1,
+            '[13:15] Handbook of Programming Languages Volume 4 - Peter H. Salus.epub (book-index_split_001.html) - 13-15',
+            'name predicate (Prolog), 191
+named slots (CLOS), 111
+naming
+
+constants (Prolog), 169
+predicates (Prolog), 169, 172, 212-213
+
+neats (Artificial Intelligence programming), 162
+negations, Prolog, 184
+
+computing, 184
+logical soundness of, 185-186
+
+nested lists (Emacs Lisp), 8
+new flavors, 108
+nil, empty lists, 9
+Nl predicate (Prolog), 183
+nodes, finding text files, <<13-15|5a:0>>
+non-interactive functions (Emacs Lisp), 14
+notation
+
+CLOS (Common List Object System), 150
+programs, 90
+Prolog, 165, 174
+
+numeric terms (Prolog), 188
+
+O',
+          ],
+          [
+            1,
+            '[18:19] Handbook of Programming Languages Volume 4 - Peter H. Salus.epub (book-index_split_001.html) - 18-19',
+            'S-expressions, 3, 9
+
+processing, 3
+recursive functions, 3
+
+save-excursion function (Emacs Lisp), 14
+Scheme, 87
+
+call-with-current- continuation, 71
+characteristics of, 57
+coexistence with C, 98-100
+constructors, troubleshooting, 84
+continuation passing style, 69, 71, 74
+data types, 61-62
+expressions, 59, 84
+first-class data, 65-67
+functional programming, 77-79
+interaction with C, 94
+interaction with SCWM, 92
+internal definitions, 63-64
+lexical scope, 64-65
+Lisp relationship, 59
+macros, hygienic, 76-77
+memory allocation management, 60
+OOP, 80-81
+prefix notation, 60
+printing, troubleshooting, 83
+recursion, troubleshooting, 84
+relationship to Algol, 63
+syntax, troubleshooting, 81-82
+syntax construction, 60
+tail call elimination, 68
+users, 58
+variables, 62-63
+
+inheritance, 64-65
+troubleshooting, 83
+
+
+scruffies (Artificial Intelligence programming), 162
+SCWM (scheme window manager), 88, 91, 93
+
+interaction with Guile, 91
+interaction with Scheme, 92
+online resources, 103
+origin of, 93
+procedure efficiency, 92
+robustness, 93
+
+seeing (X) predicate (Prolog), 194
+setof predicate (Prolog), 197-198
+setq function (Emacs Lisp), 18, 27
+setting
+
+Emacs Lisp variables, 27-29
+keymaps (Emacs Lisp), 45
+
+shared slots (CLOS), 112, 123
+singleton variables (Prolog), 175, 214-215
+slots (CLOS)
+
+accessing, 117-119, 123-125
+customizing behavior of, 121
+defining, 111
+immediate updates, 144
+inheritance characteristics, 128-129
+initializing, 155
+local, 112, 123
+named, 111
+options, 111
+recalculating based on dependency changes, 146
+recursion, 147
+returning values of, 156
+setting values for, 118
+shared, 112, 123
+updating
+
+during class redefinition, 135-136
+during instance redefinition, 137
+
+using names as variables, 157
+
+Smalltalk, classes
+
+inheritance, 113
+instances, 112
+
+smobs (Guile), 96-98
+solutions prompt (Prolog), 170
+solve clause() function (Prolog), 179
+solve eq () function (Prolog), 180
+solve (G) function (Prolog), 179
+source files (Prolog), 167, 195
+special forms (Emacs Lisp), 10
+
+conditional, 31-32
+defconst, 26
+defun, 11
+defvar, 26
+progn, 31
+while, 36-40
+
+Stallman, Richard, 6
+standard method combination (CLOS), 120, 132
+standards
+
+Lisp, 108
+Prolog, 164
+
+streams (Prolog), I/O, 195
+strings (Prolog), 191-192
+subclasses (CLOS), 112
+superclasses (CLOS), 112
+symbols
+
+Prolog, 209
+Emacs Lisp
+
+components, 18
+evaluating, <<18-19|5a:0>>, 21
+property lists, 44
+
+
+syntax
+
+Prolog, uniformity of, 212
+Scheme, 60, 81-82
+
+
+T',
+          ],
+          [
+            1,
+            '[13:15] Handbook of Programming Languages Volume 4 - Peter H. Salus.epub (book-index_split_001.html) - 13-15',
+            'tail call elimination (Scheme), 68
+tail recursion optimization, Prolog clauses, 217
+Tcl, 103-104
+tell predicate (Prolog), 195
+terms (Prolog), 172, 211-212
+
+I/O, 192
+infinite terms, 216
+numeric, 188
+unification, 182
+
+Texinfo markup language, 13
+texnfo-upd.el files, 13
+txt files, finding nodes, <<13-15|5a:0>>
+toggling window properties, 92
+told predicate (Prolog), 195
+transitive closure, Prolog clauses, 216-217
+troubleshooting
+
+Scheme
+
+constructors, 84
+expressions, 84
+printing, 83
+recursion, 84
+syntax, 81-82
+variables, 83
+
+Prolog
+
+true operator, 195
+Turbo Prolog, 163
+
+
+
+U',
+          ],
+          [
+            1,
+            '[17:19] Handbook of Programming Languages Volume 4 - Peter H. Salus.epub (book-index_split_001.html) - 17-19',
+            'values, Emacs Lisp variables, <<17-19|5a:0>>
+variables (Emacs Lisp), <<17-18|5a:0>>, 25-29
+
+buffer-local variables, 29-31
+global, 26-27
+Prolog, 172
+
+anonymous variables, 214-215
+equality predicates, 173
+instantiation, 182, 197
+local, 171
+singleton variables, 175, 214-215
+value substitution, 182
+
+Scheme, 62-63
+
+inheritance, 64-65
+troubleshooting, 83
+
+
+Veitch, Jim, 107
+
+W',
+          ],
+          [
+            1,
+            '[ap 02:10] Handbook of Programming Languages Volume 4 - Peter H. Salus.epub (ewtoc.html) - 2.10',
+            "Foreword to the Handbook of Programming Languages
+About the Authors
+
+
+
+
+Part 1\x{2014}Lisp
+
+Chapter 1\x{2014}The LISP Language
+Chapter 2\x{2014}Emacs Lisp: A Short Description
+
+
+2.1. GNU Emacs and Emacs Lisp
+2.2. Lisp Lists
+
+2.2.1. Parts of Lisp
+
+2.3. Example: Two Plus Two
+2.4. Evaluation
+2.5. A Function Definition
+
+2.5.1. An Example of a Search Within a Buffer
+2.5.2. An Example: multiply-by-seven
+
+2.6. Variables
+2.7. A Chest of Drawers
+2.8. Functions
+2.9. The read-eval-print Loop and Side Effects
+<<2.10|5a:0>>. Types of Variables
+
+2.10.1. defvar and defconst
+2.10.2. setq
+2.10.3. Passing an Argument
+2.10.4. A let Expression
+2.10.5. Buffer-Local Variables
+
+<<2.11|5a:0>>. Sequencing
+<<2.12|5a:0>>. Conditionals
+
+2.12.1. and, or, and not
+
+<<2.13|5a:0>>. while Loops and Recursion
+
+2.13.1. while
+2.13.2. car, cdr, cons: Fundamental Functions
+2.13.3. while, Continued
+2.13.4. Recursion
+
+<<2.14|5a:0>>. Macros
+
+2.14.1. The list Built-in Function
+2.14.2. Backquote
+
+<<2.15|5a:0>>. Property Lists
+<<2.16|5a:0>>. Keymaps
+<<2.17|5a:0>>. Editing Lisp
+<<2.18|5a:0>>. Help
+<<2.19|5a:0>>. Debugging
+
+2.19.1. The Built-in Debugger
+2.19.2. Edebug
+
+<<2.20|5a:0>>. Backups and Auto-Saving
+<<2.21|5a:0>>. Evaluating or Loading a Whole File
+<<2.22|5a:0>>. Byte Compilation
+<<2.23|5a:0>>. Your .emacs Initialization File",
+          ],
+        ];

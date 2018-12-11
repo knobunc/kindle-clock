@@ -1,0 +1,286 @@
+$VAR1 = [
+          [
+            1,
+            '[~ 07:30] The Music of the Primes_ Searching to Solv - Marcus du Sautoy.epub (OPS/xhtml/9780007375875_epub_bm_r1.html) - about prime',
+            'http://www.utm.edu/research/primes/
+A good resource for information <<about prime|16>> numbers.
+http://www.naturalsciences.be/expo/ishango/en/index.html',
+          ],
+          [
+            1,
+            '[ap 06:02] The Music of the Primes_ Searching to Solv - Marcus du Sautoy.epub (OPS/xhtml/9780007375875_epub_c01_r1.html) - 6.02',
+            "Some philosophers might take issue with such a Platonist view of the world \x{2013} this belief in an absolute and eternal reality beyond human existence \x{2013} but to my mind that is what makes them philosophers and not mathematicians. There is a fascinating dialogue between Alain Connes, the mathematician who featured in Bombieri\x{2019}s email, and the neurobiologist Jean-Pierre Changeux in Conversations on Mind, Matter and Mathematics. The tension in this book is palpable as the mathematician argues for the existence of mathematics outside the mind, and the neurologist is determined to refute any such idea: \x{2018}Why wouldn\x{2019}t we see \x{201c}\x{3c0} = 3.1416\x{201d} written in gold letters in the sky or \x{201c}<<6.02|5a:0>> \x{d7} 10\x{201d} appear in the reflections of a crystal ball?\x{2019} Changeux declares his frustration at Connes\x{2019}s insistence that \x{2018}there exists, independently of the human mind, a raw and immutable mathematical reality\x{2019} and at the heart of that world we find the unchanging list of primes. Mathematics, Connes declares, \x{2018}is unquestionably the only universal language\x{2019}. One can imagine a different chemistry or biology on the other side of the universe, but prime numbers will remain prime whichever galaxy you are counting in.",
+          ],
+          [
+            1,
+            '[~ 07:30] The Music of the Primes_ Searching to Solv - Marcus du Sautoy.epub (OPS/xhtml/9780007375875_epub_c01_r1.html) - about prime',
+            "The extraordinary thing is that although the construction of this code depends on discoveries about primes made by Fermat over three hundred years ago, to break this code depends on a problem that we still can\x{2019}t answer. The security of RSA depends on our inability to answer basic questions <<about prime|16>> numbers. Mathematicians know enough about the primes to build these Internet codes, but not enough to break them. We can understand one half of the equation but not the other. The more we demystify the primes, however, the less secure these Internet codes are becoming. These numbers are the keys to the locks that protect the world\x{2019}s electronic secrets. This is why companies such as AT&T and Hewlett-Packard are ploughing money into endeavours to understand the subtleties of prime numbers and the Riemann Hypothesis. The insights gained could help to break these prime number codes, and all companies with an Internet presence want to be the first to know when their codes become insecure. And this is the reason why number theory and business have become such strange bedfellows. Business and security agencies are keeping a watchful eye on the blackboards of the pure mathematicians.",
+          ],
+          [
+            1,
+            '[00:00] The Music of the Primes_ Searching to Solv - Marcus du Sautoy.epub (OPS/xhtml/9780007375875_epub_c01_r1.html) - midnight',
+            "Clay\x{2019}s seven million dollars is not the first time that money has been offered for solutions to mathematical problems. In 1997 Wiles picked up 75,000 Deutschmarks for his proof of Fermat\x{2019}s Last Theorem, thanks to a prize offered in 1908 by Paul Wolfskehl. The story of the Wolfskehl Prize is what had brought Fermat to Wiles\x{2019}s attention at the impressionable age of ten. Clay believes that if he can do the same for the Riemann Hypothesis, it will be a million dollars well spent. More recently, two publishing houses, Faber & Faber in the UK and Bloomsbury in the USA, offered a million dollars for a proof of Goldbach\x{2019}s Conjecture as a publicity stunt to launch their publication of Apostolos Doxiadis\x{2019}s novel Uncle Petros and Goldbach\x{2019}s Conjecture. To earn the money you had to explain why every even number can be written as the sum of two prime numbers. However, the publishers didn\x{2019}t give you much time to crack it. The solution had to be submitted before <<midnight|13>> on March 15, 2002, and was bizarrely open only to US and UK residents.",
+          ],
+          [
+            1,
+            "[ap 09:00] The Music of the Primes_ Searching to Solv - Marcus du Sautoy.epub (OPS/xhtml/9780007375875_epub_c02_r1.html) - 9 o\x{2019}clock",
+            "One of Gauss\x{2019}s greatest early contributions was the invention of the clock calculator. This was an idea, rather than a physical machine, that unleashed the possibility of doing arithmetic with numbers that had previously been considered too unwieldy. The clock calculator works on exactly the same principle as a conventional clock. If your clock says it\x{2019}s <<9 o\x{2019}clock|6>>, and you add 4 hours, the hour hand moves round to <<1 o\x{2019}clock|6>>. Gauss\x{2019}s clock calculator would therefore return the answer 1 rather than 13. If Gauss wants to do a more complicated calculation such as 7 \x{d7} 7, the clock calculator would come up with the remainder that is left after dividing 49 = 7 \x{d7} 7 by 12. The result would again be <<1 o\x{2019}clock|6>>.",
+          ],
+          [
+            1,
+            "[ap 03:00] The Music of the Primes_ Searching to Solv - Marcus du Sautoy.epub (OPS/xhtml/9780007375875_epub_c02_r1.html) - 3 o\x{2019}clock",
+            "Gauss saw that there was nothing special about clocks with 12 hours on their face. He introduced the idea of doing clock arithmetic, sometimes called modular arithmetic, with any number of hours on the clock face. So, for example, if you enter 11 into a clock calculator divided into 4 hours, the answer is <<3 o\x{2019}clock|6>> since 11 leaves remainder 3 on division by 4. Gauss\x{2019}s account of this new sort of arithmetic revolutionised mathematics at the turn of the nineteenth century. Just as the telescope had allowed astronomers to see new worlds, the development of the clock calculator helped mathematicians to discover in the universe of numbers new patterns which had been hidden from view for generations. Even today, Gauss\x{2019}s clocks are central to the security of the Internet, which utilises calculators whose clock faces bear more hours than there are atoms in the observable universe.",
+          ],
+          [
+            1,
+            '[ap ~ 01:00] The Music of the Primes_ Searching to Solv - Marcus du Sautoy.epub (OPS/xhtml/9780007375875_epub_c02_r1.html) - about 100',
+            "Rather than tackling the problem head on, Gauss had thought laterally. He argued that the best way to discover how many beans there were in a triangle with 100 rows was to take a second similar triangle of beans which could be placed upside down on top of the first triangle. Now Gauss had a rectangle with 101 rows each containing 100 beans. Calculating the total number of beans in this rectangle built from the two triangles was easy: there are in total 101 \x{d7} 100 = 10,100 beans. So one triangle must contain half this number, namely . There is nothing special here <<about 100|18:0>>. Replace it by N and you get the formula .",
+          ],
+          [
+            1,
+            '[~ 07:30] The Music of the Primes_ Searching to Solv - Marcus du Sautoy.epub (OPS/xhtml/9780007375875_epub_c02_r1.html) - about prime',
+            'It is not just Fibonacci numbers that one finds in Nature. The animal kingdom also knows <<about prime|16>> numbers. There are two species of cicada called Magicicada septendecim and Magicicada tredecim which often live in the same environment. They have a life cycle of exactly 17 and 13 years, respectively. For all but their last year they remain in the ground feeding on the sap of tree roots. Then, in their last year, they metamorphose from nymphs into fully formed adults and emerge en masse from the ground. It is an extraordinary event as, every 17 years, Magicicada septendecim takes over the forest in a single night. They sing loudly, mate, eat, lay eggs, then die six weeks later. The forest goes quiet for another 17 years. But why has each species chosen a prime number of years as the length of their life cycle?',
+          ],
+          [
+            1,
+            '[03:41] The Music of the Primes_ Searching to Solv - Marcus du Sautoy.epub (OPS/xhtml/9780007375875_epub_c02_r1.html) - 341 hours',
+            "Gauss\x{2019}s schoolroom episode encapsulates the movement from guess via proof to theorem. Gauss had produced a formula which he predicted would produce any number you wanted on the list of triangular numbers. How could he guarantee that it would work every time? He certainly couldn\x{2019}t test every number on the list to see whether his formula gave the correct answer, since the list is infinitely long. Instead, he resorted to the powerful weapon of mathematical proof. His method of combining two triangles to make a rectangle guaranteed, without the need for an infinite number of calculations, that the formula would always work. In contrast, the seventeenth-century prime number test based on 2 was finally thrown out of the mathematical court in 1819. The test works correctly for all numbers up to 340, but then declares that 341 is prime. This is where the test fails, since 341 = 11 \x{d7} 31. This exception wasn\x{2019}t discovered until Gauss\x{2019}s clock calculator with <<341 hours|1>> on the clock face could be used to simplify the analysis of a number like 2, which on a conventional calculator stretches to over a hundred digits.",
+          ],
+          [
+            1,
+            '[~ 07:30] The Music of the Primes_ Searching to Solv - Marcus du Sautoy.epub (OPS/xhtml/9780007375875_epub_c02_r1.html) - about prime',
+            "Most mathematicians would quiver at the thought of such heresy. As the French mathematician Andr\x{e9} Weil expressed it, \x{2018}Rigour is to the mathematician what morality is to men.\x{2019} Part of the reason is that evidence is often quite hard to assess in mathematics. More than any other part of mathematics, the primes take a long time to reveal their true colours. Even Gauss was taken in by overwhelming data in support of a hunch he had <<about prime|16>> numbers, but theoretical analysis later revealed that he had been duped. This is why a proof is essential: first appearances can be deceptive. While the ethos of every other science is that experimental evidence is all that you can truly rely on, mathematicians have learnt never to trust numerical data without proof.",
+          ],
+          [
+            1,
+            '[~ 07:30] The Music of the Primes_ Searching to Solv - Marcus du Sautoy.epub (OPS/xhtml/9780007375875_epub_c02_r1.html) - about prime',
+            "Unlike the other sciences, in which models of the world can crumble between one generation and the next, proof in mathematics allows us to establish with 100 per cent certainty that facts <<about prime|16>> numbers will not change in the light of future discoveries. Mathematics is a pyramid where each generation builds on the achievements of the last without fear of any collapse. This durability is what is so addictive about being a mathematician. For no science other than mathematics can we say that what the ancient Greeks established in their subject holds true today. We may scoff now at the Greeks\x{2019} belief that matter was made from fire, air, water and earth. Will future generations look back on the list of 109 atoms that make up Mendeleev\x{2019}s Periodic Table of elements with as much disdain as we view the Greek model of the chemical world? In contrast, all mathematicians begin their mathematical education by learning what the ancient Greeks proved <<about prime|16>> numbers.",
+          ],
+          [
+            1,
+            '[~ 07:30] The Music of the Primes_ Searching to Solv - Marcus du Sautoy.epub (OPS/xhtml/9780007375875_epub_c02_r1.html) - about prime',
+            "The middle part of Euclid\x{2019}s Elements deals with the properties of numbers, and it is here that we find what many regard as the first truly brilliant piece of mathematical reasoning. In Proposition 20, Euclid explains a simple but fundamental truth <<about prime|16>> numbers: there are infinitely many of them. He begins with the fact that every number can be built by multiplying prime numbers together. On top of this he constructs his next proof. If these prime numbers are the building blocks of all numbers, is it possible, he asks himself, for there to be only a finite number of these building blocks? The Periodic Table of the chemical elements was constructed by Mendeleev, and in its present form it classifies 109 different atoms from which we can build all matter. Could the same be true for prime numbers? What if a mathematical Mendeleev presented Euclid with a list of 109 primes and challenged Euclid to prove that some primes were missing from the list?",
+          ],
+          [
+            1,
+            '[ap 02:00] The Music of the Primes_ Searching to Solv - Marcus du Sautoy.epub (OPS/xhtml/9780007375875_epub_c02_r1.html) - 2',
+            "Why, for example, can\x{2019}t all numbers be built simply by multiplying together different combinations of the primes 2, 3, 5 and 7? Euclid thought about how you might look for numbers that aren\x{2019}t built from any of these primes. You might say, \x{2018}Well that\x{2019}s easy \x{2013} just take the next prime, 11.\x{2019} This certainly can\x{2019}t be built from <<2|9c:0>>, 3, 5 and 7. But sooner or later this strategy is going to fail precisely because, even today, we have no clue about how to guarantee finding where the next prime will be. And because of this unpredictability, Euclid had to try a different tack in his search for a method that would work, regardless of how long the list of primes was.",
+          ],
+          [
+            1,
+            '[ap ~ 02:11] The Music of the Primes_ Searching to Solv - Marcus du Sautoy.epub (OPS/xhtml/9780007375875_epub_c02_r1.html) - about 211',
+            "Now, Euclid knew that all numbers were built by multiplying together primes. So what <<about 211|18:0>>? Since it can\x{2019}t be divided by 2, 3, 5 or 7, there had to be some other primes not on the list that built the number 211. In this particular example, 211 is itself a prime. Euclid was not claiming that the number he built would always be prime \x{2013} only that it was a number that was built out of primes that were not on the list that our mathematical Mendeleev was offering us.",
+          ],
+          [
+            1,
+            '[~ 07:30] The Music of the Primes_ Searching to Solv - Marcus du Sautoy.epub (OPS/xhtml/9780007375875_epub_c02_r1.html) - about prime',
+            "Generations have striven without success to improve on Euclid\x{2019}s understanding of the primes, and there have been many intriguing speculations. But as Cambridge don Hardy liked to say, \x{2018}Every fool can ask questions <<about prime|16>> numbers that the wisest man cannot answer.\x{2019} The Twin Primes Conjecture, for example, asks whether there are infinitely many primes p such that the number p + 2 is also prime. An example of such a pair is 1,000,037 and 1,000,039. (Note that this is the closest that two primes numbers can be, since N and N + 1 cannot both be prime \x{2013} except when N = 2 \x{2013} because at least one of these numbers is divisible by 2.) Might Sacks\x{2019}s autistic-savant twins have had an extra facility for finding these twin primes? Euclid proved two millennia ago that there are infinitely many primes, but no one knows whether there might be some number beyond which there are no longer such close primes. We believe that there are infinitely many twin primes. Guesses are one thing, but proof remains the ultimate goal.",
+          ],
+          [
+            1,
+            '[ap 06:41] The Music of the Primes_ Searching to Solv - Marcus du Sautoy.epub (OPS/xhtml/9780007375875_epub_c02_r1.html) - 641',
+            "Mathematicians tried, with varying degrees of success, to come up with formulas that, even if they don\x{2019}t generate all prime numbers, do produce a list of primes. Fermat thought he had one. He guessed that if you raise 2 to the power 2 and add 1, the resulting number  is a prime. This number is called the Nth Fermat number. For example, taking N = 2 and raising 2 to the power 2 = 4, you get 16. Add 1 and you get the prime number 17, the second Fermat number. Fermat thought that his formula would always give him a prime number, but it turned out to be one of the few guesses that he got wrong. The Fermat numbers get very large very quickly. Even the fifth Fermat number has 10 digits, and was out of Fermat\x{2019}s computational reach. It is the first Fermat number which is not prime, being divisible by <<641|3:0>>.",
+          ],
+          [
+            1,
+            '[23:00] The Music of the Primes_ Searching to Solv - Marcus du Sautoy.epub (OPS/xhtml/9780007375875_epub_c02_r1.html) - 23',
+            "Mersenne quickly discovered that his formula wasn\x{2019}t going to yield a prime every time. For example, 2 \x{2212} 1 = 15. Mersenne realised that if n was not prime then there was no chance that 2 \x{2212} 1 was going to be prime. But now he boldly claimed that, for n up to 257, 2 \x{2212} 1 would be prime precisely if n was one of the following numbers: 2, 3, 5, 7, 13, 19, 31, 67, 127, 257. He had discovered that even if n was prime, it still annoyingly didn\x{2019}t guarantee that his number 2 \x{2212} 1 would be prime. He could calculate 2 \x{2212} 1 by hand and get 2,047, which is <<23|9d>> \x{d7} 89. Generations of mathematicians marvelled at Mersenne\x{2019}s ability to assert that a number as large as 2 \x{2212} 1 was prime. This number has 77 digits. Did the monk have access to some mystical arithmetic formula that told him why this number, beyond any human computational abilities, was prime?",
+          ],
+          [
+            1,
+            '[18:49] The Music of the Primes_ Searching to Solv - Marcus du Sautoy.epub (OPS/xhtml/9780007375875_epub_c02_r1.html) - until 1849',
+            "In his lifetime, Gauss was too proud to get involved in open battles of priority. When Gauss\x{2019}s papers and correspondence were examined after his death, it became clear that due credit invariably went to Gauss. It wasn\x{2019}t <<until 1849|18:0>> that the world learnt that Gauss had beaten Legendre to the connection between primes and logarithms, which Gauss disclosed in a letter to a fellow mathematician and astronomer, Johann Encke, written on Christmas Eve of that year.",
+          ],
+          [
+            1,
+            '[ap ~ 01:00] The Music of the Primes_ Searching to Solv - Marcus du Sautoy.epub (OPS/xhtml/9780007375875_epub_c02_r1.html) - about 1',
+            "So Gauss formed a picture in his mind of how Nature might have decided which numbers were going to be prime and which were not. Since their distribution looked so random, might tossing a coin not be a good model for choosing primes? Did Nature toss a coin \x{2013} heads it\x{2019}s prime, tails it\x{2019}s not? Now, thought Gauss, the coin could be weighted so that instead of landing heads half the time, it lands heads with probability 1/log(N). So the probability that the number 1,000,000 is prime should be interpreted as l/log(1,000,000), which is <<about 1|9:0>>/15. The chances that each number N is a prime gets smaller as N gets bigger because the probability 1/log(N) of coming up heads is getting smaller.",
+          ],
+          [
+            1,
+            '[~ 07:30] The Music of the Primes_ Searching to Solv - Marcus du Sautoy.epub (OPS/xhtml/9780007375875_epub_c03_r1.html) - about prime',
+            "Riemann made his move in 1847 and remained in Berlin for two years. While there, he was able to get his hands on papers by Gauss which he had not been able to prise from the reticent master in G\x{f6}ttingen. He attended lectures by Dirichlet, who was later to play a part in Riemann\x{2019}s dramatic discoveries <<about prime|16>> numbers. By all accounts, Dirichlet was an inspiring lecturer. One mathematician who attended his lectures put it thus:",
+          ],
+          [
+            1,
+            '[ap 02:58] The Music of the Primes_ Searching to Solv - Marcus du Sautoy.epub (OPS/xhtml/9780007375875_epub_c03_r1.html) - two to three',
+            "A function is like a computer program in which you input one number, a calculation is made, and another number is output. The function might be defined by some simple equation like x + 1. When you input a number, for example 2, the function calculates 2 + 1 and outputs 5. Other functions are more complicated. Gauss was interested in the function that counted the number of primes. You input a number x, and the function tells you how many primes there are up to x. Gauss had denoted this function by \x{3c0}(x). The graph of this function is a climbing staircase, as shown on p. 50. Every time the input encounters a prime number, the output jumps another step. As x goes from 4.9 to 5.1, the number of primes increases from <<two to three|10a:0>> to register the new prime, 5.",
+          ],
+          [
+            1,
+            "[ap 01:00] The Music of the Primes_ Searching to Solv - Marcus du Sautoy.epub (OPS/xhtml/9780007375875_epub_c03_r1.html) - one o\x{2019}clock",
+            "Dirichlet was especially interested in Gauss\x{2019}s clock calculator. In particular, he was intrigued by a conjecture that went back to a pattern spotted by Fermat. If you took a clock calculator with N hours on it and you fed in the primes, then, Fermat conjectured, infinitely often the clock would hit <<one o\x{2019}clock|6>>. So, for example, if you take a clock with 4 hours there are infinitely many primes which Fermat predicted would leave remainder 1 on division by 4. The list begins 5, 13, 17, 29, \x{2026}",
+          ],
+          [
+            1,
+            "[ap 01:00] The Music of the Primes_ Searching to Solv - Marcus du Sautoy.epub (OPS/xhtml/9780007375875_epub_c03_r1.html) - one o\x{2019}clock",
+            "Sometimes it helps to express familiar things in a new language. Euler\x{2019}s reformulation inspired Dirichlet to use the zeta function to prove Fermat\x{2019}s prediction that infinitely many primes would strike 1 on a clock calculator. Euclid\x{2019}s ideas had been no help in confirming Fermat\x{2019}s hunch. Euler\x{2019}s proof, on the other hand, provided Dirichlet with the flexibility to count only the primes that would hit <<one o\x{2019}clock|6>>. It worked. Dirichlet was the first to use Euler\x{2019}s ideas specifically to find out something new about the primes. It was a big step in the understanding of these unique numbers, but still a long way from the Holy Grail.",
+          ],
+          [
+            1,
+            '[ap 09:50] The Music of the Primes_ Searching to Solv - Marcus du Sautoy.epub (OPS/xhtml/9780007375875_epub_c04_r1.html) - 10 to 10',
+            "The table overleaf shows how much more accurate Riemann\x{2019}s new function is at guessing the number of primes up to N for values of N from <<10 to 10|10a:0>>.",
+          ],
+          [
+            1,
+            '[~ 07:30] The Music of the Primes_ Searching to Solv - Marcus du Sautoy.epub (OPS/xhtml/9780007375875_epub_c04_r1.html) - about prime',
+            "What is so extraordinary about the events surrounding Riemann\x{2019}s major discovery is that his calculations of the locations of the first few zeros did not appear anywhere in the dense paper <<about prime|16>> numbers he wrote for the Berlin Academy. In fact, one is hard pushed to find any statement of this discovery in his published paper. He writes that many of the zeros appear on this straight line, and that it is \x{2018}very likely\x{2019} that all of them do. But Riemann admits in this paper that he didn\x{2019}t try too hard to prove his Hypothesis.",
+          ],
+          [
+            1,
+            '[19:14] The Music of the Primes_ Searching to Solv - Marcus du Sautoy.epub (OPS/xhtml/9780007375875_epub_c05_r1.html) - 1914',
+            "By <<1914|9n:0>> Landau and Bohr had completed their work showing that most zeros were, at least, bunched up against Riemann\x{2019}s critical line. But how far had mathematicians got in charting the zeros that were on the line? Out of the infinite number of points at sea level that mathematicians knew were there, only seventy-one had so far been identified as lining up along Riemann\x{2019}s critical line.",
+          ],
+          [
+            1,
+            '[~ 07:30] The Music of the Primes_ Searching to Solv - Marcus du Sautoy.epub (OPS/xhtml/9780007375875_epub_c05_r1.html) - about prime',
+            "Littlewood battled all the summer, wrestling with the innocent-looking problem that Barnes had given him. Although he had no luck finding the locations of the zeros, he was very pleased with something else he came across. Just as Riemann had discovered some fifty years before, Littlewood realised that these zeros could tell you something <<about prime|16>> numbers. Although this had been known on the Continent since Riemann\x{2019}s time, in England the connection between the zeta function and the primes was still unappreciated. Littlewood was thrilled by what he thought was a new link and in September 1907 he wrote it up for his dissertation in support of a research fellowship at Trinity. That Littlewood thought his discovery was original is further confirmation of how isolated British mathematics had become.",
+          ],
+          [
+            1,
+            '[~ 07:30] The Music of the Primes_ Searching to Solv - Marcus du Sautoy.epub (OPS/xhtml/9780007375875_epub_c05_r1.html) - about prime',
+            "The great collaboration between Hardy and Littlewood was fuelled by the timely arrival from G\x{f6}ttingen of a book by Landau <<about prime|16>> numbers. The publication in 1909 of his two-volume work Handbuch der Lehre von der Verteilung der Primzahlen (\x{2018}Handbook of the Theory of the Distribution of Prime Numbers\x{2019}) proselytised the wonders of the connections between primes and the Riemann zeta function. Before Landau\x{2019}s book, the story of Riemann and the primes was largely unknown in the broader mathematical community. As Hardy acknowledged in his obituary of Landau (jointly written with Hans Heilbronn), \x{2018}The book transformed the subject, hitherto the hunting ground of a few adventurous heroes, into one of the most fruitful fields in the last thirty years.\x{2019} It would be Landau\x{2019}s book that would in 1914 inspire Hardy to prove that infinitely many zeros sat on Riemann\x{2019}s critical line. Fired up by the experiences of wrestling with the zeta function as a student, Littlewood too was encouraged to make the first of his great contributions to the subject.",
+          ],
+          [
+            1,
+            '[19:10] The Music of the Primes_ Searching to Solv - Marcus du Sautoy.epub (OPS/xhtml/9780007375875_epub_c06_r1.html) - 1910',
+            "By <<1910|9n:1>> Ramanujan was keen to have his ideas recognised somehow. He was particularly excited by his discovery of a formula that appeared to count the primes with extraordinary accuracy. At first he had experienced the frustration that most people feel when they try to tame this wild sequence of numbers. But Ramanujan knew how fundamental the primes were to mathematics and did not give up on his belief that there should be some mathematical formula which would explain them. He still innocently believed that all mathematics and its patterns could be expressed precisely by the power of equations and formulas. As Littlewood later explained, \x{2018}How great a mathematician might Ramanujan have been 100 or 150 years ago; what would have happened if he had come into touch with Euler at the right moment? \x{2026} But the great day of formulae seems to be over.\x{2019} Ramanujan, however, had not been subjected to the nineteenth- and twentieth-century shift induced by Riemann. He was out to find a formula that produces the primes. Having spent hours calculating tables of primes, he saw a pattern emerge. He was keen to explain his tentative findings to someone who might appreciate his ideas.",
+          ],
+          [
+            1,
+            '[00:00] The Music of the Primes_ Searching to Solv - Marcus du Sautoy.epub (OPS/xhtml/9780007375875_epub_c06_r1.html) - midnight',
+            "According to C.P. Snow, Hardy, having quickly looked over Ramanujan\x{2019}s work, \x{2018}was not only bored, but irritated. It seemed like a curious kind of fraud.\x{2019} But by the evening the wild theorems were beginning to work their magic, and Hardy summoned Littlewood for after-dinner discussions. By <<midnight|13>> they had cracked it. Hardy and Littlewood, equipped with the knowledge to decode Ramanujan\x{2019}s unorthodox language, could now see that these were not the outpourings of a crank but the works of a genius \x{2013} untrained, but brilliant.",
+          ],
+          [
+            1,
+            '[ap > 03:00] The Music of the Primes_ Searching to Solv - Marcus du Sautoy.epub (OPS/xhtml/9780007375875_epub_c06_r1.html) - After three',
+            "They determined to do whatever it would take to get Ramanujan to Cambridge. They dispatched E.H. Neville, a Fellow of Trinity, to persuade Ramanujan to join them. At first, Ramanujan was reluctant to leave India because as a strict Brahmin he believed that crossing the seas would make him an outcaste. A friend, Narayana Iyer, could see how Ramanujan was longing to go to Cambridge and devised a plan. Iyer was convinced that Ramanujan\x{2019}s devotion to mathematics and to his goddess Namagiri could together produce a revelation which would persuade Ramanujan that he could leave for Cambridge. He took Ramanujan off to Namagiri\x{2019}s temple to seek divine inspiration. <<After three|9:0>> nights sleeping on the stone floor, Ramanujan woke with a start. He quickly shook his friend awake. \x{2018}I have seen in a flash of brilliant light Namagiri commanding me to cross the sea.\x{2019} Iyer smiled. His plan had worked.",
+          ],
+          [
+            1,
+            '[19:14] The Music of the Primes_ Searching to Solv - Marcus du Sautoy.epub (OPS/xhtml/9780007375875_epub_c06_r1.html) - 1914',
+            "By <<1914|9n:0>> Ramanujan was in Cambridge, and so began one of the great collaborations in the history of mathematics. Hardy always spoke passionately about his time working with Ramanujan. They revelled in each other\x{2019}s mathematical ideas, happy to have found a kindred spirit in their love of numbers. Hardy would later reflect on those years with Ramanujan as some of the happiest of his life, and referred to their relationship poignantly as \x{2018}the one romantic incident in my life\x{2019}.",
+          ],
+          [
+            1,
+            '[14:59] The Music of the Primes_ Searching to Solv - Marcus du Sautoy.epub (OPS/xhtml/9780007375875_epub_c06_r1.html) - 1 to 15',
+            'These are called the partitions of the number 5. As this illustration shows, there are seven possible partitions of 5.
+Here are the number of partitions of the numbers from <<1 to 15|10a:0>>:
+',
+          ],
+          [
+            1,
+            '[19:17] The Music of the Primes_ Searching to Solv - Marcus du Sautoy.epub (OPS/xhtml/9780007375875_epub_c06_r1.html) - 1917',
+            "Ramanujan had helped develop this technique but sadly never lived to witness the stunning role it played in mathematics. By <<1917|9n:0>> Ramanujan was becoming increasingly depressed. Britain was gripped by the horrors of the First World War. Trinity had just failed to elect Ramanujan to a fellowship. Russell\x{2019}s fellowship had just been terminated because of his anti-war sentiments, and the College was not disposed to tolerate Ramanujan\x{2019}s own pacifist stance. He may have finally learned how to squeeze his feet into western shoes and to sport a mortarboard and gown, but his soul remained in Southern India.",
+          ],
+          [
+            1,
+            '[19:17] The Music of the Primes_ Searching to Solv - Marcus du Sautoy.epub (OPS/xhtml/9780007375875_epub_c07_r1.html) - 1917',
+            "By <<1917|9n:0>>, the war inevitably encroached on Siegel\x{2019}s life, and when he refused to serve in the army he was confined to a mental institution as punishment. Landau\x{2019}s father intervened to get him released. \x{2018}If it had not been for Landau I would have died,\x{2019} Siegel later admitted. In 1919 the young man, still recovering from the ordeal, joined his mathematical idol Landau at G\x{f6}ttingen, where his mathematical talents were to flower.",
+          ],
+          [
+            1,
+            '[19:33] The Music of the Primes_ Searching to Solv - Marcus du Sautoy.epub (OPS/xhtml/9780007375875_epub_c07_r1.html) - 1933',
+            "By <<1933|9n:0>>, mathematicians across Germany were finding it increasingly difficult to concentrate on mathematics. The swastika was flying over the library in G\x{f6}ttingen. The faculty was home to many Jewish and left-wing mathematicians. Street campaigns at the time specifically focused on the mathematics department as a \x{2018}fortress of Marxism\x{2019} and by the mid-thirties most of the faculty lost their jobs in Hitler\x{2019}s purge of the universities. Many of them sought refuge overseas. Landau, although he was Jewish, was allowed to stay because he had been appointed before the outbreak of the First World War. The non-Aryan clause in the civil-service law of April 1933 did not apply to long-serving professors or those who had fought in the war.",
+          ],
+          [
+            1,
+            '[ap ~ 09:55] The Music of the Primes_ Searching to Solv - Marcus du Sautoy.epub (OPS/xhtml/9780007375875_epub_c07_r1.html) - about 5 to 10',
+            "But Selberg was not as pessimistic as Hardy and Littlewood. He thought there was still some mileage to be had from their ideas. \x{2018}I was looking at that passage in Hardy and Littlewood\x{2019}s original paper where they explain at the end why their method would not give more than they could prove. I read that and I thought about it. And then I realised that what they had there was complete nonsense.\x{2019} Selberg\x{2019}s hunch that he could go further than Hardy and Littlewood proved right. Although he still could not prove that all the zeros were on the line, he was able to show that the percentage captured by his method would not tail off to zero as he counted farther north. He wasn\x{2019}t too sure what fraction of the total number of zeros he had caught, but this was the first substantial bite out of the pie which left some tooth marks. In retrospect, it looks as if he managed to prove that <<about 5 to 10|10>> per cent of the zeros were on the line. As you counted north, then, at least this proportion of zeros obeyed the Riemann Hypothesis.",
+          ],
+          [
+            1,
+            '[ap 01:01] The Music of the Primes_ Searching to Solv - Marcus du Sautoy.epub (OPS/xhtml/9780007375875_epub_c07_r1.html) - 101',
+            "Erdos\x{2019}s interest was piqued. How long would he have to count from <<101|9c:0>>! or some other number before he was guaranteed to find a prime number? Euclid had made sure there must be a prime somewhere, but would you have to wait an arbitrarily long time before finding the next prime? After all, if primes were being selected by the tossing of Nature\x{2019}s coin, there\x{2019}s no knowing how long it will be from one \x{2018}heads\x{2019} to another. Of course, getting 1,000 tails in a row is very unlikely \x{2013} but not impossible. As Erdos explored further, he learnt that in this respect the primes were not like the tossing of a coin. They may look a chaotic bunch of numbers, but their behaviour isn\x{2019}t completely random.",
+          ],
+          [
+            1,
+            "[ap 01:00] The Music of the Primes_ Searching to Solv - Marcus du Sautoy.epub (OPS/xhtml/9780007375875_epub_c07_r1.html) - one o\x{2019}clock",
+            "The first to wield the sophisticated tool of the zeta function was Dirichlet, who used it to confirm one of Fermat\x{2019}s hunches. Dirichlet proved that if you take a clock calculator with N hours on the clock face, and you feed in the primes, the calculator will hit <<one o\x{2019}clock|6>> infinitely often. In other words, there are infinitely many primes that have remainder 1 after dividing by N. Dirichlet\x{2019}s proof had relied on the sophisticated use of the zeta function. His proof was the catalyst for Riemann\x{2019}s great discoveries.",
+          ],
+          [
+            1,
+            '[ap 01:01] The Music of the Primes_ Searching to Solv - Marcus du Sautoy.epub (OPS/xhtml/9780007375875_epub_c07_r1.html) - 1.01',
+            "During the lecture Turu\x{e1}n mentioned a rather extraordinary formula Selberg had proved, one not directly related to the proof of Dirichlet\x{2019}s Theorem. Erdos was in the audience and saw that this formula was just what he needed to improve on Bertrand\x{2019}s Postulate, that there will always be a prime between N and 2N. What Erdos was trying to do was to see whether you needed to go as far as 2 times N. For example, could you always find a prime between N and 1.01 times N? He realised that this wouldn\x{2019}t work for every N. After all, if N is 100, there are no whole numbers, let alone prime numbers, between 100 and 101 (which is 100 times <<1.01|5a:0>>). But Erdos believed that once N was big enough, then, in the spirit of Bertrand\x{2019}s Postulate, there would be a prime between N and 1.01N. There was nothing special <<about 1.01|5a:0>>. Erdos believed this would work for any choice of number between 1 and 2. Having listened to Tur\x{e1}n\x{2019}s lecture, Erdos could see that Selberg\x{2019}s formula provided the missing link in his proof.",
+          ],
+          [
+            1,
+            '[ap ~ 04:00] The Music of the Primes_ Searching to Solv - Marcus du Sautoy.epub (OPS/xhtml/9780007375875_epub_c07_r1.html) - around 4',
+            'When I arrived there in the late afternoon, <<around 4|9:0>> or 5, the room was packed. So I went up and I went through the argument and then I asked Erdos to go through his part. Then I went through the rest that was needed to complete the proof. So the first proof was obtained by using this intermediary result that he had got.',
+          ],
+          [
+            1,
+            '[19:47] The Music of the Primes_ Searching to Solv - Marcus du Sautoy.epub (OPS/xhtml/9780007375875_epub_c07_r1.html) - 1947',
+            "After this refusal, as Selberg admits, \x{2018}things got out of hand\x{2019}. By <<1947|9n:0>> Erdos had built up an extensive network of collaborators and correspondents. He would keep them up to date with his mathematical progress by firing off postcards. The story goes that the nail in the coffin for Selberg was being greeted on his arrival in Syracuse by a faculty member who asked, \x{2018}Have you heard the news? Erdos and some Scandinavian mathematician have produced an elementary proof of the Prime Number Theorem.\x{2019} By then Selberg had found an alternative argument that avoided the need for the intermediary step that Erdos had provided him. Selberg went ahead and published alone. His paper appeared in the Annals of Mathematics, the Princeton-based publication generally regarded as one of the three leading mathematical journals in the world, and where Andrew Wiles eventually published his proof of Fermat\x{2019}s Last Theorem.",
+          ],
+          [
+            1,
+            '[19:37] The Music of the Primes_ Searching to Solv - Marcus du Sautoy.epub (OPS/xhtml/9780007375875_epub_c08_r1.html) - 1937',
+            "By <<1937|9n:0>> Hardy was getting more pessimistic about the validity of the Riemann Hypothesis. He\x{2019}d spent so long trying to prove it, only to keep failing, that he was beginning to think it might actually be false. Turing, influenced by Hardy\x{2019}s mood in Princeton, believed he could build a machine to prove that Riemann was wrong. He had also heard about Siegel\x{2019}s discovery of Riemann\x{2019}s fantastic method for calculating zeros. The formula that Siegel had discovered had made clever use of adding up sines and cosines to efficiently estimate the height of the Riemann landscape. In Cambridge, Turing\x{2019}s approach to Hilbert\x{2019}s Decision Problem was regarded as positively industrial in its proposal to create a machine to solve the problem. But Turing realised that machines might also shed light on Riemann\x{2019}s secret formula. He recognised that there were strong similarities between Riemann\x{2019}s formula and the ones that were used to predict periodic physical phenomena such as the orbits of planets. In 1936, Ted Titchmarsh, an Oxford mathematician, had already adapted a machine, built originally to calculate celestial motions, to prove that the first 1,041 zeros in the zeta landscape were indeed on Riemann\x{2019}s ley line. But Turing had seen an even more sophisticated piece of machinery for predicting another periodic natural phenomenon: the tides.",
+          ],
+          [
+            1,
+            '[18:23] The Music of the Primes_ Searching to Solv - Marcus du Sautoy.epub (OPS/xhtml/9780007375875_epub_c08_r1.html) - until 1823',
+            "It was not <<until 1823|18:0>> that Babbage was able to begin to realise his dream of building his \x{2018}Difference Engine\x{2019}. But the project foundered in 1833 when he fell out with his chief engineer over money. Part of the machine was eventually completed, but it took until 1991, the bicentenary of Babbage\x{2019}s birth, for his vision to be fully realised. That was when, at a cost of \x{a3}300,000, a Difference Engine was constructed at the Science Museum in London, where it is still on display.",
+          ],
+          [
+            1,
+            '[20:02] The Music of the Primes_ Searching to Solv - Marcus du Sautoy.epub (OPS/xhtml/9780007375875_epub_c09_r1.html) - 2002',
+            "By <<2002|9n:1>> there have been five lucky winners in the search for Mersenne primes. The Paris find was followed by one in England and a third in California. But it was Nayan Hajratwala from Plymouth, Michigan who truly struck gold in June 1999. His prime, 2 \x{2212} 1, contains 2,098,960 digits and was the first to pass the one-million-digit milestone. A symbolic prize in itself, this achievement also won him a cash prize of \$50,000 from the Electronic Frontier Foundation. This Californian organisation is the self-styled protector of the civil liberties of Netizens \x{2013} those who use the Internet. If your appetite has been whetted by Hajratwala\x{2019}s success, the Foundation still has half a million dollars in prize money to reward the discoverers of more big primes, with the next milestone set at 10 million digits. Hajratwala\x{2019}s prime was beaten in November 2001 by Canadian student Michael Cameron, who used his PC to prove the primality of 2 \x{2212} 1, a number with over 4 million digits. Mathematicians believe that there are infinitely many of these special Mersenne primes waiting to be discovered.",
+          ],
+          [
+            1,
+            '[19:56] The Music of the Primes_ Searching to Solv - Marcus du Sautoy.epub (OPS/xhtml/9780007375875_epub_c09_r1.html) - 1956',
+            "So Zagier offered the following. Although Turing\x{2019}s machine had broken down after calculating the first 1,104 zeros, by <<1956|9n:0>> Derrick Lehmer had been more successful. He had got his machines in California to check that the first 25,000 zeros were on the line. By the beginning of the 1970s, a famous calculation confirmed that the first three and a half million zeros were indeed on the line. The proof was a fantastic tour de force which exploited some brilliant theoretical techniques to push the computation to the absolute limits of the computer technology available at the time. As Zagier explains:",
+          ],
+          [
+            1,
+            '[20:01] The Music of the Primes_ Searching to Solv - Marcus du Sautoy.epub (OPS/xhtml/9780007375875_epub_c09_r1.html) - until 2001',
+            "The head of the research laboratory <<until 2001|18:0>> was Andrew Odlyzko. Originally from Poland, Odlyzko still retains a strong but gentle eastern European accent. His time in the commercial sector has made him a very good communicator of difficult mathematical ideas. He has an engaging, inclusive attitude which encourages you to join him on his mathematical journey. Nevertheless he is very precise and always the consummate mathematician: each step must leave no room for ambiguity. Odlyzko\x{2019}s interest in the zeta function had been sparked during his doctorate under the supervision of Harold Stark at MIT. One of the problems he had been looking at required him to know as accurately as possible the location of the first few zeros in the zeta landscape.",
+          ],
+          [
+            1,
+            '[00:00] The Music of the Primes_ Searching to Solv - Marcus du Sautoy.epub (OPS/xhtml/9780007375875_epub_c10_r1.html) - midnight',
+            "The breakthrough came one evening when all three had been invited to dine at a graduate\x{2019}s house to celebrate the first night of Passover. Adleman doesn\x{2019}t drink, but he remembers Rivest knocking back the Seder wine. Adleman got home at <<midnight|13>>. Soon after, the phone rang. It was Rivest. \x{2018}I\x{2019}ve got another idea \x{2026}\x{2019} Adleman listened carefully. \x{2018}Ron, I think this time you\x{2019}ve got it. This one sounds right to me.\x{2019} They had been thinking for a while about the difficult problem of factorising numbers. There had been no clever proposals for programs which could crack numbers into their prime building blocks. This problem had the right flavour to it. Under the influence of the Seder wine, Rivest had seen how to program this problem into his new code. Rivest recalls, \x{2018}It had a good feel to it at first. But we knew from experience that things that have a good feel initially can still fall apart. So I put it aside till the morning.\x{2019}",
+          ],
+          [
+            1,
+            "[ap > 09:00] The Music of the Primes_ Searching to Solv - Marcus du Sautoy.epub (OPS/xhtml/9780007375875_epub_c10_r1.html) - after 9 o\x{2019}clock",
+            "Addition on Gauss\x{2019}s clock calculators is something we are all familiar with when working with the time on a 12-hour clock. We know that 4 hours <<after 9 o\x{2019}clock|6>> it will be <<1 o\x{2019}clock|6>>. This is the principle of addition on the clock calculator: add the numbers together and work out the remainder after division by 12. We write this, as Gauss did some two hundred years ago, as",
+          ],
+          [
+            1,
+            "[ap 02:00] The Music of the Primes_ Searching to Solv - Marcus du Sautoy.epub (OPS/xhtml/9780007375875_epub_c10_r1.html) - 2 o\x{2019}clock",
+            "Gauss had realised that one didn\x{2019}t need to stick to clocks with the conventional 12 hours on them. Even before Gauss had explicitly formulated the concept of his clock arithmetic, Fermat had made a fundamental discovery, his so-called Little Theorem, about a clock calculator with a prime number of hours, say p, on it. If one takes a number on this calculator and raises it to the power p, one always gets the number one started with. For example, on a clock with 5 hours, multiply 2 together 5 times gives you 32, which indeed is <<2 o\x{2019}clock|6>> on the calculator with 5 hours. What seemed to be happening was that each time Fermat multiplied by 2, the arm on the clock would map out a pattern. <<After 5|9:1>> moves the arm had returned to its original position ready to repeat the pattern.",
+          ],
+          [
+            1,
+            '[ap 03:00] The Music of the Primes_ Searching to Solv - Marcus du Sautoy.epub (OPS/xhtml/9780007375875_epub_c10_r1.html) - 3',
+            "If we take a clock with 13 hours, and go through the process with powers of 3 from <<3|9c:1>>, 3, \x{2026} up to 3, we get",
+          ],
+          [
+            1,
+            "[ap 03:00] The Music of the Primes_ Searching to Solv - Marcus du Sautoy.epub (OPS/xhtml/9780007375875_epub_c10_r1.html) - 3 o\x{2019}clock",
+            "This time the hand doesn\x{2019}t visit all the hours on the clock face, but it still makes a repeating pattern which brings it back to <<3 o\x{2019}clock|6>> after multiplying 3 together 13 times. Whatever value Fermat chose for the prime p, the same magic seemed to happen. Written in Gauss\x{2019}s notation for clock or modular arithmetic. Fermat had discovered that for any prime number p and any time x on the clock with p hours,",
+          ],
+          [
+            1,
+            '[~ 07:30] The Music of the Primes_ Searching to Solv - Marcus du Sautoy.epub (OPS/xhtml/9780007375875_epub_c10_r1.html) - about prime',
+            "Fermat\x{2019}s discovery is the sort of thing that gets a mathematician\x{2019}s blood racing. What is it <<about prime|16>> numbers that makes this kind of magic? Not content with experimental observation, Fermat wanted a proof that, whatever prime number clock he chose, the primes wouldn\x{2019}t let him down.",
+          ],
+          [
+            1,
+            "[ap 04:00] The Music of the Primes_ Searching to Solv - Marcus du Sautoy.epub (OPS/xhtml/9780007375875_epub_c10_r1.html) - 4 o\x{2019}clock",
+            "The origin of this test is Fermat\x{2019}s Little Theorem, which Rivest had exploited that night after the Passover wine when he had discovered RSA. Fermat found that if he took a number on a clock calculator with a prime number of hours, p, and raised it to the power p, he always got the number he started with. Euler realised that Fermat\x{2019}s Little Theorem could be used to prove that a number isn\x{2019}t prime. For example, on a clock with 6 hours, multiplying 2 together 6 times lands us at <<4 o\x{2019}clock|6>>. If 6 were prime, we would have arrived back at 2 again. So Fermat\x{2019}s Little Theorem tells us that 6 can\x{2019}t be a prime number \x{2013} else it would be a counter-example to the theorem.",
+          ],
+          [
+            1,
+            '[ap ~ 10:00] The Music of the Primes_ Searching to Solv - Marcus du Sautoy.epub (OPS/xhtml/9780007375875_epub_c11_r1.html) - about 10',
+            "Diaconis was particularly intrigued when number theorists started to broadcast Montgomery and Odlyzko\x{2019}s claims that the zeros in Riemann\x{2019}s landscape looked like the frequencies of some random drum. If anyone was equipped to sniff out a rat, it was him. \x{2018}So I called Andrew and I said I wanted some zeros. So he gave me about 50,000 zeros of my very own, starting at <<about 10|9g>>.\x{2019} Then he tried a new test he\x{2019}d discovered when he was at AT&T working on encrypting telephone calls. \x{2018}I tested the hell out of it, and they matched the predictions perfectly,\x{2019} he says. Here was further evidence that the zeros are from the beats of a random mathematical drum whose frequencies behave like the energy levels of quantum physics. For Diaconis, the connections between primes and energy levels is not Nature practising some malicious deceit, but genuine magic.",
+          ],
+          [
+            1,
+            "[ap 01:00] The Music of the Primes_ Searching to Solv - Marcus du Sautoy.epub (OPS/xhtml/9780007375875_epub_c12_r1.html) - 1 o\x{2019}clock",
+            "It was while exploring some of these related landscapes that Weil discovered a method that would explain why points at sea level in them like to be in a straight line. The landscapes where Weil was successful did not have to do with prime numbers, but held the key to counting how many solutions an equation such as y = x \x{2013} x will have if you are working on one of Gauss\x{2019}s clock calculators. For example, take the above equation and a five-hour calculator. If we put x equal to 2 on the right-hand side of the equation, we get 2 \x{2212} 2 = 8 \x{2212} 2 = 6, which is <<1 o\x{2019}clock|6>> on the five-hour clock calculator. Similarly, taking y equal to 4 on the other side gives us 16, which is also <<1 o\x{2019}clock|6>> on the five-hour clock calculator. This result, which we can write as (x, y) = (2, 4), is called a solution of the equation because both sides of the equation match up when calculated on the five-hour clock calculator. There are in fact seven different choices for the pair of numbers (x, y) which make the equation true:",
+          ],
+        ];

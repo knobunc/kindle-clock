@@ -1,0 +1,683 @@
+$VAR1 = [
+          [
+            1,
+            '[ap 03:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_09_ch2.html) - three',
+            "In some of these early civilizations a few steps in mathematics were taken. In prehistoric times, which means roughly before 4000 B.C., several civilizations at least learned to think about numbers as abstract concepts. That is, they recognized that three sheep and three arrows have something in common, a quantity called <<three|9f>>, which can be thought about independently of any physical objects. Each of us in his own schooling goes through this same process of divorcing numbers from physical objects. The appreciation of \x{201c}number\x{201d} as an abstract idea is a great, and perhaps the first, step in the founding of mathematics.",
+          ],
+          [
+            1,
+            '[ap 03:16] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_09_ch2.html) - 3.16',
+            "Our knowledge of the Egyptian and Babylonian civilizations goes back to about 4000 B.C. The Egyptians occupied approximately the same region that now constitutes modern Egypt and had a continuous, stable civilization from ancient times until about 300 B.C. The term \x{201c}Babylonian\x{201d} includes a succession of civilizations which occupied the region of modern Iraq. Both of these peoples possessed whole numbers and fractions, a fair amount of arithmetic, some algebra, and a number of simple rules for finding the areas and volumes of geometrical figures. These rules were but the incidental accumulations of experience, much as people learned through experience what foods to eat. Many of the rules were in fact incorrect but good enough for the simple applications made then. For example, the Egyptian rule for finding the area of a circle amounts to using 3.16 times the square of the radius; that is, their value of \x{3c0} was <<3.16|5a:0>>. This value, though not accurate, was even better than the several values the Babylonians used, one of these being 3, the value found in the Bible.",
+          ],
+          [
+            1,
+            '[ap ~ 08:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_09_ch2.html) - about 800',
+            "The Arabs, who suddenly appeared on the scene of history in the role of destroyers, had been a nomadic people. They were unified under the leadership of the prophet Mohammed and began an attempt to convert the world to Mohammedanism, using the sword as their most decisive argument. They conquered all the land around the Mediterranean Sea. In the Near East they took over Persia and penetrated as far as India. In southern Europe they occupied Spain, southern France, where they were stopped by Charles Martel, southern Italy and Sicily. Only the Byzantine or Eastern Roman Empire was not subdued and remained an isolated center of Greek and Roman learning. In rather surprisingly quick time as the history of nations goes, the Arabs settled down and built a civilization and culture which maintained a high level from <<about 800|18:0>> to 1200 A.D. Their chief centers were Bagdad in what is now Iraq, and Cordova in Spain. Realizing that the Greeks had created wonderful works in many fields, the Arabs proceeded to gather up and study what they could still find in the lands they controlled. They translated the works of Aristotle, Euclid, Apollonius, Archimedes, and Ptolemy into Arabic. In fact, Ptolemy\x{2019}s chief work, whose title in Greek meant \x{201c}Mathematical Collection,\x{201d} was called the Almagest (The Greatest Work) by the Arabs and is still known by this name. Incidentally, other Arabic words which are now common mathematical terms are algebra, taken from the title of a book written by Al-Khowarizmi, a ninth-century Arabian mathematician, and algorithm, now meaning a process of calculation, which is a corruption of the man\x{2019}s name.",
+          ],
+          [
+            1,
+            '[ap 08:59] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_09_ch2.html) - 1 to 9',
+            'We are indebted to the Arabs not only for their resuscitation of the Greek works but for picking up some simple but useful ideas from India, their neighbor on the East. The Indians, too, had built up some elementary mathematics comparable in extent and spirit with the Egyptian and Babylonian developments. However, after about 200 A.D., mathematical activity in India became more appreciable, probably as a result of contacts with the Alexandrian Greek civilization. The Hindus made a few contributions of their own, such as the use of special number symbols from <<1 to 9|10a:0>>, the introduction of 0, and the use of positional notation with base ten, that is, our modern method of writing numbers. They also created negative numbers. These ideas were taken over by the Arabs and incorporated in their mathematical works.',
+          ],
+          [
+            1,
+            '[~ 16:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_09_ch2.html) - about 1600',
+            'This brief sketch of the mathematics which will fall within our purview may make it clear that mathematics is not a closed book written in Greek times. It is rather a living plant that has flourished and languished with the rise and fall of civilizations. Since <<about 1600|18:0>> it has been a continuing development which has become steadily vaster, richer, and more profound. The character of mathematics has been aptly, if somewhat floridly, described by the nineteenth-century English mathematician James Joseph Sylvester.',
+          ],
+          [
+            1,
+            '[21:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_09_ch2.html) - 21',
+            "The lives and activities of the men themselves are also fascinating. While mathematicians produce formulas, no formula produces mathematicians. They have come from all levels of society. The special talent, if there is such, which makes mathematicians has been found in Casanovas and ascetics, among business men and philosophers, among atheists and the profoundly religious, among the retiring and the worldly. Some, like Blaise Pascal and Gauss, were precocious; \x{c9}variste Galois was dead at <<21|9c:0>>, and Niels Hendrik Abel at 27. Others, like Karl Weierstrass and Henri Poincar\x{e9}, matured more normally and were productive throughout their lives. Many were modest; others extremely egotistical and vain beyond toleration. One finds scoundrels, such as Cardan, and models of rectitude. Some were generous in their recognition of other great minds; others were resentful and jealous and even stole ideas to boost their own reputations. Disputes about priority of discovery abound.",
+          ],
+          [
+            1,
+            '[00:25] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_10_ch3.html) - 0.25',
+            "2.\x{a0}\x{a0}If the product of 25\x{a2} and 25\x{a2} is obtained by multiplying 0.25 by <<0.25|3:0>> the result is 0.0625 or 6 \x{a2}. Does it pay to multiply money?",
+          ],
+          [
+            1,
+            '[ap 02:52] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_11_ch4.html) - 252',
+            'With the availability of zero, mathematicians were finally able to develop our present method of writing whole numbers. First of all we count in units and represent large quantities in tens, tens of tens, tens of tens of tens, etc. Thus we represent two hundred and fifty-two by <<252|3:0>>. The left-hand 2 means, of course, two tens of tens; the 5 means 5 times 10; and the right-hand 2 means 2 units. The concept of zero makes such a system of writing quantities practical since it enables us to distinguish 22 and 202. Because ten plays such a fundamental role, our number system is called the decimal system, and ten is called the base. The use of ten resulted most likely from the fact that man counted on his fingers and, when he had used the fingers on his two hands, considered the number arrived at as a larger unit.',
+          ],
+          [
+            1,
+            '[ap 01:41] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_11_ch4.html) - 1.41',
+            "If these irrational numbers are really so common and represent lengths of sides of triangles and circumferences of circles in terms of the diameters, why weren\x{2019}t they encountered before? Didn\x{2019}t the Babylonians and Egyptians run across them? They did. But since they were concerned only with having numbers serve their practical purposes, they used convenient approximations. Thus, when they encountered a length such as , they were content to use a value such as 1.4 or <<1.41|5a:0>>. For \x{3c0}, as we noted in an earlier chapter, they used values even as crude as 3. Not only did these peoples use such approximations, but they never realized that the most complicated fraction or decimal could never represent an irrational number exactly. The Egyptians and Babylonians treated irrational numbers and their mathematics in general rather lightheart-edly. We may hail their blithe spirits, but mathematicians they never were.",
+          ],
+          [
+            1,
+            '[ap 01:41] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_11_ch4.html) - 1.41',
+            "In applications we often approximate irrational numbers by fractions or decimals because actual physical objects cannot be constructed exactly anyway. Thus if we had to construct a length which strictly should be , we would approximate . Since (1.4)2 = 1.96 and 1.96 is nearly 2, we could approximate  by 1.4. If we desired a more accurate approximation, we might determine to the nearest hundredth the number whose square approximates 2. Thus, since
+(<<1.41|5a:0>>)2 = 1.988\x{a0}\x{a0}\x{a0}\x{a0}and\x{a0}\x{a0}\x{a0}\x{a0}(<<1.42|5a:0>>)2 = 2.016,
+we see that <<1.41|5a:0>> is a good two-decimal approximation of . We could, of course, improve still more on the accuracy of the approximation. We should, however, realize that no matter how many decimal places we employed, we would never obtain a number which is exactly  because any decimal with a finite number of digits or a whole number plus such a decimal is just another way of writing a fraction, whereas , as the above proof showed, can never equal a quotient of two whole numbers.",
+          ],
+          [
+            1,
+            '[ap 01:41] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_11_ch4.html) - 1.41',
+            'we see that <<1.41|5a:0>> is a good two-decimal approximation of . We could, of course, improve still more on the accuracy of the approximation. We should, however, realize that no matter how many decimal places we employed, we would never obtain a number which is exactly  because any decimal with a finite number of digits or a whole number plus such a decimal is just another way of writing a fraction, whereas , as the above proof showed, can never equal a quotient of two whole numbers.',
+          ],
+          [
+            1,
+            '[ap 01:41] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_11_ch4.html) - 1.41',
+            "The fact that we often approximate an irrational number when we wish to construct something raises a question which merits an answer. The question is, Why don\x{2019}t we approximate irrational numbers wherever they arise and forget about operations with irrationals as such? For example, to calculate , we could approximate  by, say <<1.41|5a:0>>, approximate  by 1.73, and then multiply <<1.41|5a:0>> by 1.73. The answer is <<2.44|5a:0>>, and since (<<2.44|5a:0>>)2 is 5.95, we see that we have a good approximation to . If we wanted a more accurate answer, we could approximate  and  more closely and then multiply. One reason we do not approximate in mathematics proper is that mathematics is an exact science. It insists on reasoning as rigorous as human beings can perform. We pay a price for this rigor by expending more thought and effort, but we shall see that mathematics has made its contributions just because it insists on exactness.",
+          ],
+          [
+            1,
+            '[ap 08:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_11_ch4.html) - 8',
+            "To derive more use from the concept of negative numbers it must be possible to operate with them just as we operate with positive numbers. The operations with negative numbers and with negative and positive numbers together are easy to understand if one keeps in mind the physical significance of these operations. For example, suppose a man has assets of 3 dollars and debts of 8 dollars. What is his net wealth? Clearly the man is 5 dollars in debt. The same calculation is represented in terms of positive and negative numbers by stating that the amount 8 dollars must be taken from 3 dollars, that is, 3 \x{2212} 8, or that a debt of 8 dollars must be added to assets of 3 dollars, that is, + 3 + (\x{2212} 8). The answer is obtained by subtracting the smaller numerical value (that is, the smaller number without regard to sign) from the larger numerical value and giving the answer the sign attached to the larger numerical value. That is, we subtract 3 from <<8|9c:0>> and call the answer negative because the larger numerical value, namely 8, has the minus sign attached to it.",
+          ],
+          [
+            1,
+            '[ap 09:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_11_ch4.html) - 0 to 9',
+            "We can perform the usual arithmetic operations in base six. However, we would have to learn new addition and multiplication tables. For example, in base ten we write 5 + 3 = 8, whereas in base six, eight must be written 12. Hence our addition table would have to state that 5 + 3 = 12. Likewise, our new multiplication table would have to list 3 \x{b7} 5 = 23, because fifteen is 2 \x{b7} 6 + 3 or, in base six, 23. When we learned to use base ten, we had to memorize the result of adding each number from <<0 to 9|10a:0>> to every number from <<0 to 9|10a:0>>, and the result of multiplying each number from 0 to 9 with every number from <<0 to 9|10a:0>>. For base six we would have to learn to add (and multiply) only numbers from <<0 to 5|10a:0>> to (or with) the numbers of this set. Thus our addition and multiplication tables would be shorter, and we would learn arithmetic sooner as youngsters. We might even pass the hurdle of arithmetic so easily that we might get to like mathematics. The only disadvantage of base six would be that to represent large quantities we would have to use more digits. For example, the quantity fifty-four, written as 54 in base ten, must be written as 130 in base six, because fifty-four equals 1 \x{b7} 62 + 3 \x{b7} 6 + 0.",
+          ],
+          [
+            1,
+            '[20:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_11_ch4.html) - 0 to 20',
+            "There are people who campaign for the adoption of base twelve, because it offers special advantages. For one thing, more fractions can be written as finite decimals in base twelve. Thus  must be written as the unending decimal 0.333 . . . in base ten, but can be written as 0.4 in base twelve, since in this base 0.4 means . Also, since the English system of denoting length calls for 12 inches in one foot, we could, for example, express 3 feet and 6 inches as 36 inches in base twelve, whereas to express this number of inches in base ten, we must first calculate 3 \x{b7} 12 + 6 and then write 42 in base ten. To a limited extent we could use base twelve in our method of recording time. In the United States the day has two sets of twelve hours, and in base twelve the hours of the day would run from <<0 to 20|10a:1>>. Whereas determining what 7 hours <<after 6 o\x{2019}clock|6>> will be requires at present some computation, under the addition table for base twelve we would state at once that 7 + 6 = 11. However, base ten is now so widely used that a change to another base for ordinary daily use or commerce is hardly likely.",
+          ],
+          [
+            1,
+            '[ap 01:02] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_11_ch4.html) - One Two',
+            'GAMOW, GEORGE: <<One Two|5l:0>> Three . . . Infinity, Chap. 9, The New American Library, New York, 1953.',
+          ],
+          [
+            1,
+            '[ap 01:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_12_ch5.html) - 100',
+            'Since fractions are also annoying, let us multiply both sides by <<100|3:0>>. We choose 100 because both 25 and 4 divide evenly into 100. Thus',
+          ],
+          [
+            1,
+            '[19:05] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_12_ch5.html) - 19.05',
+            "Let us accept both of these for the moment and dispose first of a purely arithmetical question. How much is  Well, we can divide 21 into 400 and obtain <<19.05|5a:0>> to two decimal places. We must now find  There is an arithmetic process for finding the square root of a number, but for our purposes it will be sufficient to estimate the answer. Clearly 4 is too small and 5 is too large. By sheer trial we find that (4.3)2 = <<18.49|5a:0>> and (4.4)2 = <<19.36|5a:0>>. Hence the correct value lies between 4.3 and 4.4. If we wished to have a more accurate answer, we could now try <<4.31|5a:0>>, <<4.32|9p>>, and so on, until we found a result which came as close to <<19.05|5a:0>> as possible, and so obtain an answer to the nearest hundredths\x{2019} place. We shall accept 4.4 as good enough for our purposes and thus we may say that",
+          ],
+          [
+            1,
+            '[~ 15:50] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_12_ch5.html) - about 1550',
+            "The use of letters such as p and q, which has made an enormous difference in the effectiveness of mathematics, seems like a small idea once understood, and yet it is a rather recent development. From the time of the Babylonians and Egyptians to <<about 1550|18:0>>, all the equations solved had numerical coefficients. Although many algebraists realized that the method they used for one set of numerical coefficients would work for any other, they had no general proof. The idea of employing general coefficients in algebraic equations, an idea which, as we shall see, was taken over into other domains of mathematics, is due to Fran\x{e7}ois Vieta (1540\x{2013}1603), a great French mathematician. The remarkable fact about Vieta is that he was a lawyer who worked for the kings of France. Mathematics was just a hobby to him, but one at which he \x{201c}worked\x{201d} extensively. Vieta was fully conscious of what he had done by introducing literal coefficients. He said that he was introducing a new kind of algebra which he called logistica speciosa, that is calculation with whole species, as opposed to the numerical work of his predecessors which he called logistica numerosa.",
+          ],
+          [
+            1,
+            '[ap 06:32] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_13_ch6.html) - 6-32',
+            '
+Fig. <<6-32|5a:0>>
+',
+          ],
+          [
+            1,
+            '[ap 06:33] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_13_ch6.html) - 6-33',
+            "
+Fig. <<6-33|5a:0>>
+Now draw DE, BE, and DC. Complete the proof by first proving that BE = DC and then that \x{2220} CBD = \x{2220} BCE.",
+          ],
+          [
+            1,
+            '[ap 06:34] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_13_ch6.html) - 6-34',
+            '
+Fig. <<6-34|5a:0>>
+',
+          ],
+          [
+            1,
+            '[ap 06:35] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_13_ch6.html) - 6-35',
+            "
+Fig. <<6-35|5a:0>>
+4.\x{a0}\x{a0}A ship must pass between the guns of a fort at A (Fig. 6\x{2013}35) and equally powerful guns along the shore m. What path should it take to be as safe as possible from all the guns?",
+          ],
+          [
+            1,
+            '[ap 06:36] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_13_ch6.html) - 6-36',
+            "
+Fig. <<6-36|5a:0>>
+5.\x{a0}\x{a0}Let C and D be two fixed circles (Fig. 6\x{2013}36) with radii c and d, respectively, and c > d. Moreover D and C are tangent internally at P. Now let T be a third circle which is tangent externally to D and internally to C. Show that the positions of the centers of all possible circles T is an ellipse whose foci are the centers of C and D.",
+          ],
+          [
+            1,
+            '[ap ~ 10:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_14_ch7.html) - about 1000',
+            "The work in geography and astronomy, continued by such famous men as Strabo (ca.63 B.C.\x{2013}ca.15 B.C.), Poseidonius (first century B.C.), and many others, was crowned by the achievements of two of the greatest men of the Alexandrian world, Hipparchus and Ptolemy. Hipparchus (second century B.C.), about whom we know rather little, lived at Rhodes, but was in close touch with the developments in Alexandria. After criticizing Eratosthenes\x{2019} Geographica, he refined the method of locating places on the earth by systematically employing latitude and longitude. He improved astronomical instruments, measured irregularities in the moon\x{2019}s motion, catalogued <<about 1000|18:1>> stars, and estimated the length of the solar year as 365 days, <<5 hours, and 55 minutes|14>>, i.e., he overestimated by about 6 minutes. One of his notable astronomical discoveries was the precession of the equinoxes, a slow change in the time of occurrence of the spring and fall equinoxes. Hipparchus is the creator of the most famous and most useful astronomical theory of antiquity, about which we shall learn more later.",
+          ],
+          [
+            1,
+            '[ap ~ 01:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_14_ch7.html) - about 100',
+            "The work of Hipparchus is known to us largely through the writings of the mathematician, astronomer, geographer, and cartographer Claudius Ptolemy. Ptolemy, who is believed to be Egyptian\x{2014}he was no relation to the Greek rulers of Egypt\x{2014}lived from <<about 100|18:0>> to 178 A.D. One of his influential achievements was his Guide to Geography, or Geographica, the most comprehensive work of antiquity on this subject. This book, which contains the latitude and longitude of 8000 places, almost every place on the earth then known, estimates of the size and extent of the habitable world, and methods of map-making, summarized the geographical knowledge of the ancient world and became the standard atlas for over a thousand years. Better known is Ptolemy\x{2019}s great work on astronomy, the Mathematical Syntaxis or The Mathematical Collection, which the Arabs called Al Megiste (an Arabic and Greek combination meaning \x{201c}the greatest\x{201d})\x{2014}later Anglicized as The Almagest. This book contains the full development of Hipparchus\x{2019} and Ptolemy\x{2019}s astronomical theory, generally known as Ptolemaic theory, which dominated astronomy until about 1600 A.D. when it was superseded by the work of Copernicus and Kepler.",
+          ],
+          [
+            1,
+            '[ap 01:50] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_14_ch7.html) - 150',
+            'This equation involves numbers, and we can therefore apply the axiom that equals multiplied by equals give equals, to justify multiplying both sides by <<150|3:0>>. We obtain',
+          ],
+          [
+            1,
+            '[12:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_14_ch7.html) - noon',
+            "We have described what is meant by the latitude and longitude of any point on the earth\x{2019}s surface, but how do we determine the latitude and longitude for any given point P? (After all, we cannot penetrate to the center of the earth to measure the angles POV and VOW.) There are numerous methods available. We shall describe a simple one just to see that the latitude and longitude of places on the earth can be determined. Suppose we seek the latitude of some point P (Fig. 7\x{2013}15). On the day of the spring equinox, that is about March 21, the sun is in the plane of the equator and, at <<noon|13>> on that day, it is also in the plane of the meridian of longitude. For a person at P, the overhead direction is PA, and the direction to the sun is PZ\x{2032}. Now the sun is so far away that PZ\x{2032} and VZ can be taken to be parallel lines. Then angle 2 equals the angle of latitude POV because they are alternate interior angles of parallel lines. But angle 1 equals angle 2 because they are verticle angles. Hence angle 1 equals the latitude of P. But angle 1 can be measured. It is the angle between the direction of the sun and the overhead direction at P. Thus the latitude of P can be determined.",
+          ],
+          [
+            1,
+            '[ap 03:14] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_14_ch7.html) - 3.14',
+            "
+Using the approximate value of <<3.14|5a:0>> for \x{3c0}, we find that
+PQ = 3897.",
+          ],
+          [
+            1,
+            '[~ 14:50] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_16_ch9.html) - about 1450',
+            'The invention of printing (<<about 1450|18:0>>) was immensely important in helping to spread Greek knowledge across Europe. Another invention, paper made of cotton and later of rags, which replaced costly parchment, also helped to make books plentiful and cheap. Many editions and translations of Greek works were printed in the century following these inventions. They helped to bridge the gulf between the learned and the untutored just at the time when great numbers were seeking to obtain knowledge.',
+          ],
+          [
+            1,
+            '[ap 01:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_16_ch9.html) - one',
+            'The decisions to study nature, to apply reason, and to seek the mathematical design of nature led to a revival of mathematical activity and to the emergence of great mathematicians. But the thinking of these men took a turn which is of interest because it shows <<one|11b:0>> of the strong motivations for mathematical activity over a couple of centuries and because it played a role in the subsequent cultural history.',
+          ],
+          [
+            1,
+            '[ap 23:54] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_16_ch9.html) - 6 to 12',
+            'Recommended Reading
+BALL, W. W. ROUSE: A Short Account of the History of Mathematics, 4th ed., Chaps. <<6 to 12|10a:0>>, Dover Publications, Inc., New York, 1960.',
+          ],
+          [
+            1,
+            '[ap 04:59] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_16_ch9.html) - 1 to 5',
+            'CROMBIE, A. C: Augustine to Galileo, Chaps. <<1 to 5|10a:0>>, Falcon Press, London, 1952. Also published in paperback under the title Medieval and Early Modern Science, 2 vols., Doubleday and Co. Anchor Books, New York, 1959.',
+          ],
+          [
+            1,
+            '[~ 13:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_17_ch10.html) - about 1300',
+            'Before we examine just how Renaissance painters employed mathematics and thereby revolutionized the art of painting, let us see what had been going on in this field. Rather early in the medieval period painting became an extensive activity. Kings, princes, and church leaders commissioned works of art to enhance buildings. The system which the medieval painters used until <<about 1300|18:0>> was conceptual. Their objective was to portray and embellish the central themes in the Christian drama. Since the intent was to stir up religious feelings rather than to present real scenes, people and objects were drawn in accordance with conventions which had acquired symbolic meaning. Thus people were placed in unnatural, stylized positions; the general impression was one of flatness; and the entire painting had a two-dimensional effect. The backgrounds were usually solid gold to suggest that the action or people existed in some supra-earthly region.',
+          ],
+          [
+            1,
+            '[~ 14:25] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_17_ch10.html) - about 1425',
+            "The mathematical system of perspective which the Renaissance painters created and which is known as the system of focused perspective was founded <<about 1425|18:0>> by the architect and sculptor Brunelleschi (1377\x{2013}1446). His ideas were furthered and written down by the architect and painter Leone Battista Alberti (1404\x{2013}1472). It is not Alberti\x{2019}s artistic work which entitles him to fame but his technical knowledge. He studied architecture, painting, perspective, and sculpture, wrote several books explaining theoretical matters to artists, and exercised enormous influence. In his Della Pittura (1435) Alberti says that learning is essential to the artist. The arts are learned by reason and method; they are mastered by practice. He says further that the first necessity of a painter is to know geometry and that painting by incorporating and revealing the mathematical structure of nature can even improve on nature.",
+          ],
+          [
+            1,
+            '[~ 14:30] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_17_ch10.html) - about 1430',
+            'Renaissance painters achieved their goal of devising a mathematical system which permitted the realistic representation of actual scenes and joyously hastened to employ it. Realistic paintings constructed in accordance with the focused scheme of perspective begin to appear <<about 1430|18:0>>.',
+          ],
+          [
+            1,
+            '[~ 16:26] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_18_ch11.html) - about 1626',
+            "Desargues began by organizing numerous theorems and published one book on the construction of sundials and another on the application of his own geometric theories to stone-cutting and masonry. He lectured in Paris <<about 1626|18:0>>, and wrote a pamphlet on perspective ten years later. Desargues\x{2019} chief contribution, a book on projective geometry, appeared in 1639.",
+          ],
+          [
+            1,
+            '[< 18:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_18_ch11.html) - almost 1800',
+            "It would be pleasant to relate that the innovations of Desargues and Pascal were immediately appreciated by their fellow mathematicians and that the potentialities in their methods and ideas were eagerly seized upon and further developed. Actually this pleasure is denied to us. Perhaps Desargues\x{2019} novel terminology baffled his contemporaries just as many people today are baffled and repulsed by the language of mathematics. At any rate, except for Descartes, Pascal, and Fermat, Desargues\x{2019} colleagues exhibited the usual reactions to radical ideas: they dismissed them, called Desargues crazy, and forgot projective geometry. Desargues himself became discouraged and returned to the practice of architecture and engineering. Every printed copy of Desargues\x{2019} book, originally published in 1639, was lost. Pascal\x{2019}s work on conics and his other studies on projective geometry, though published in 1640, also remained unknown until <<almost 1800|9c:0>>. Fortunately, a pupil of Desargues, Philippe de La Hire, made a manuscript copy of Desargues\x{2019} book which was accidentally picked up in a bookshop by the nineteenth-century geometer Michel Chasles, and thus the world finally learned the full extent of Desargues\x{2019} major work. Apart from some results which La Hire used and which were incorrectly credited to him for 150 years, Desargues\x{2019} and Pascal\x{2019}s discoveries had to be remade one by one by the nineteenth-century geometers.",
+          ],
+          [
+            1,
+            '[05:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_19_ch12.html) - 5 a.m.',
+            'His retirement from the world was broken by an invitation to serve as a tutor to Queen Christina of Sweden. Reluctant as he was to leave his comfortable home, he could not resist the attraction of royalty and so moved to Stockholm. The queen preferred to begin her day at <<5 a.m.|5>> by studying in an icy library, and her tutor was obliged to meet her at that hour. This regimen was too much for the frail Descartes. His flesh was weak, and his spirit unwilling. He caught cold and died in the year 1650.',
+          ],
+          [
+            1,
+            '[ap 05:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_19_ch12.html) - 5',
+            "The next step was to express this information in arithmetical terms. The position of Q1, for example, could be specified by stating its distance from a fixed point O, called the origin, on the horizontal line. The length Q1P1 could certainly be specified by a number. Thus the position of P1 would be determined by two numbers, the length OQ1 and the length Q1P1. The length OQ1 which is 3 in Fig. 12\x{2013}1, is called the abscissa of P1, and the length P1Q1, which is <<5|9d>> in Fig. 12\x{2013}1, is called the ordinate. The line OX is called the X-axis, and the line OY, which is perpendicular to OX and which shows the direction in which Q1P1 is taken, is called the Y-axis.",
+          ],
+          [
+            1,
+            '[ap 00:18] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_19_ch12.html) - 12-18',
+            "
+Fig. <<12-18|5a:0>>
+then the sets of coordinates (\x{2013}a, b), (a, \x{2013}b), and (\x{2013}a, \x{2013}b) will also satisfy the equation, because the substitution of any one of these latter three pairs of coordinates will yield the same equation as (20). Figure 12\x{2013}18 shows where the various points (a, b), (\x{2013}a, b), (a, \x{2013}b), and (\x{2013}a, \x{2013}b) lie in relation to the axes. We see, for example, that (a, b) and (\x{2013}a, b) are symmetrically placed with respect to the Y-axis. What we have learned so far is that if the ellipse contains a point (a, b) which lies in the first quadrant, it contains the point (\x{2013}a, b) which is symmetrically situated with respect to the Y-axis; it contains the point (a, \x{2013}b) which is symmetrically situated with respect to the X-axis; and it contains the point (\x{2013}a, \x{2013}b) which is symmetric to (\x{2013}a, b) with respect to the X-axis. Hence, if we can determine which points lie on the ellipse in the first quadrant, we can, by symmetry, decide what the ellipse looks like in the other three quadrants.",
+          ],
+          [
+            1,
+            '[ap 05:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_20_ch13.html) - 0 to 5',
+            "The algebraic expression of a functional relationship is called a formula. Several facts about formulas are important for their proper understanding and use. In the present case, for example, we must be sure to note that the letters d and t represent not just one particular value of distance and time but whole ranges of values. Thus, if the ball falls for 5 seconds, the variable t can represent any number from <<0 to 5|10a:0>>. The variable d can represent any distance which the ball may have fallen during the 5 seconds. Of course, the values of d are not independent of the values of t. In fact, the whole point of the formula is to tell us precisely what d is for a given t. Thus when t is 2, for example, d is 16 \x{b7} 22, or 64. That is, by substituting a particular value of t in the formula, we can calculate the distance d that an object has fallen in that number of seconds chosen for t. The values of d depend upon the values of t and, for this reason, t is called the independent variable and d, the dependent variable. One also says that the formula expresses d as a function of t. Since we can calculate d for millions of values of t, the formula is indeed a compact representation of millions of bits of information.",
+          ],
+          [
+            1,
+            '[16:36] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_20_ch13.html) - 16.36',
+            "Suppose that the dropped ball falls for just 5 seconds. It then hits the ground and remains at rest. However, the formula d = 16t2 does not \x{201c}stop\x{201d} at the end of 5 seconds. We could substitute 6 for t and find that d is <<16.36|5a:0>>, or 576. Likewise, we could substitute 7, or , or even \x{2013}2 for t and in each case calculate the correponding value of d. Thus, the mathematical formula has meaning for all positive and negative values of t. However, if the ball falls for only 5 seconds, the formula represents the physical situation only for values of t from <<0 to 5|10a:0>>. In other words, the mathematical formula is more extensive than the physical situation.",
+          ],
+          [
+            1,
+            '[ap 06:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_20_ch13.html) - 0 to 6',
+            'We note that 96 is the speed the object attains when t = 3, because if we substitute 3 for t in (2) we get v = 96. Now it seems significant that the average speed occurs halfway through the time interval from <<0 to 6|10a:0>>. This probably is the case because the speed at each instant before t = 3 and the speed at some corresponding instant after t = 3 average to 96. Indeed, if we examine the speeds in (3) we see that 0 and 192, 16 and 176, 32 and 160, and so on, each averages to 96. In other words, if for each instant before t = 3, for example, , and for the instant as far beyond t = 3, in our example , the average speed is 96, then the average for all the instants will be 96. Just to check once more, at  the speed is 48 and at  the speed is 144. The average of 48 and 144 is 96.',
+          ],
+          [
+            1,
+            '[ap 03:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_21_ch14.html) - 300',
+            "c)\x{a0}\x{a0}Suppose the airplane flies at <<300|3:0>> mph instead of 240. How long will it take the bomb to strike the ground?",
+          ],
+          [
+            1,
+            '[ap 02:40] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_21_ch14.html) - 240',
+            "d)\x{a0}\x{a0}Suppose the airplane is 2 mi above the ground and flies at <<240|3:0>> mph. How long will it take the bomb to reach the ground?",
+          ],
+          [
+            1,
+            '[15:12] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_22_ch15.html) - until 1512',
+            "The author of the next great celestial drama was Nicolaus Copernicus, who lived about 1400 years after Ptolemy. Copernicus was born in Poland in 1473 and, after studying mathematics and science at the University of Cracow, decided to go to Italy, the center of the revived Greek learning. At the University of Bologna, which he entered in 1497, he studied astronomy. Then for ten years he studied medicine and law and secured a doctor\x{2019}s degree in both fields. He also became learned in Greek and mathematics. In 1500 Copernicus was appointed a canon of the Cathedral of Frauenberg in East Prussia, but he did not assume his duties <<until 1512|18:0>> when he had finished his studies in Italy. The job, which entailed mainly the management of estates owned by the Cathedral, left Copernicus with plenty of time to make astronomical observations and to think about the relevant theory. After years of reflection and observation Copernicus finally evolved a new theory of planetary motions which he incorporated in a classic work, On the Revolutions of the Heavenly Spheres. This appeared in 1543, the year in which Copernicus died.",
+          ],
+          [
+            1,
+            '[16:05] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_22_ch15.html) - 1605',
+            "All of Galileo\x{2019}s observations were made with a telescope of such limited power that, as has been said, it is remarkable he could find Jupiter, let alone the moons of Jupiter. Many of his discoveries were in direct support of a heliocentric theory; others served primarily to challenge current beliefs and to at least prepare some minds for a more objective examination of the new theory. Galileo, himself, though he lectured on Ptolemaic theory until <<1605|9c:0>>, had been converted to Copernicanism by a work of Kepler. In 1611 he openly declared for Copernicanism. His own observations convinced him that the Copernican system was correct, and in the classic Dialogue on the Great World Systems he defended it strongly. By the middle of the seventeenth century the scientific world was willing to proceed on a heliocentric basis.",
+          ],
+          [
+            1,
+            '[ap ~ 04:54] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_22_ch15.html) - approximately 454',
+            'We shall not present physical methods of measuring mass. It suffices to know that by adopting a unit of mass, just as we adopt a unit of length, we can compare all other masses with this unit and so determine exactly how much mass there is in any individual piece of matter. Mass is measured in pounds or grams, the pound being <<approximately 454|18:0>> grams.',
+          ],
+          [
+            1,
+            '[ap 01:07] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_22_ch15.html) - 1.07',
+            'we see that every quantity in (9) is given except G, so that we have a simple algebraic equation for G. The actual experiments which have been made to measure G are a little more complicated because the force F is small for ordinary masses. However, the experiments have been performed, and the value of G turns out to be <<1.07|5a:0>>/109. The notation 109 is scientific shorthand for the product in which 10 occurs as a factor 9 times, i.e., one billion. This value of G presupposes that masses are measured in pounds, distances in feet, and forces in poundals (practical English system). (In the centimer-gram-sec-ond (cgs) system of units, G is 6.67/108.)',
+          ],
+          [
+            1,
+            '[ap 04:41] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_22_ch15.html) - 441',
+            "Multiplying both sides of this equation by <<441|3:0>> \x{b7} 1021 and dividing both sides by <<1.07|3:0>>, we obtain",
+          ],
+          [
+            1,
+            '[ap 03:14] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_22_ch15.html) - 3.14',
+            "We shall approximate 2112 by 21 \x{b7} 102 and use the value of <<3.14|5a:0>> for \x{3c0}. Then",
+          ],
+          [
+            1,
+            '[ap 01:07] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_22_ch15.html) - 1.07',
+            "In Section 15\x{2013}10 we learned that G = <<1.07|5a:0>>/109. Thus, using these values of r, v2, and G in (25), we have",
+          ],
+          [
+            1,
+            '[ap 04:40] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_22_ch15.html) - 4.40',
+            "Hence the mass of the sun is <<4.40|5a:0>> \x{b7} 1030 pounds. Since- the earth\x{2019}s mass was previously found to be <<1.31|5a:0>> - 1025 pounds, we see that the mass of the sun is <<3.36|5a:0>> \x{b7} 105 or 336,000 times the mass of the earth.",
+          ],
+          [
+            1,
+            '[ap 02:28] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_22_ch15.html) - 2.28',
+            "We can determine the mass per cubic foot of the sun in the same manner as we calculated the mass per cubic foot of the earth. The mass of the sun is now known, and the radius, computed in Chapter 7, is 432,000 miles, or <<2.28|5a:0>> \x{b7} 109 feet. We shall not reproduce the calculations, but state the result: the mass per cubic foot proves to be 90 pounds. Since a cubic foot of water has a mass of 62.5 pounds, we see that the mass per cubic foot of the sun is about  that of water; that is, the density of the sun is about .",
+          ],
+          [
+            1,
+            '[ap 04:40] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_22_ch15.html) - 4.40',
+            "6.\x{a0}\x{a0}The mass of the sun is <<4.40|5a:0>> \x{b7} 1030 lb. Use the data of Exercise 5 to compute the mass of the sun in grams.
+In the following exercises you may use the fact that when M is the mass of the earth, GM = 32 \x{b7} (4000)2(5280)2.",
+          ],
+          [
+            1,
+            '[20:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_23_ch16.html) - 0 to 20',
+            'There are two mathematical and physical facts involved in this event which require some elaboration. First of all there is the matter of time. As the person travels, time elapses. Mathematically this time is represented by a variable, t, say, and the values of t increase continually as the trip goes on. If time is measured from the instant at which the man starts out and if he has been traveling for 20 minutes, say, then t varies from <<0 to 20|10a:1>>. We also speak of the 20 minutes as an interval of time or an amount of time. We have, of course, referred to and used this mathematical representation of time right along. It is important now, however, to recognize that the collision of automobile and tree does not last an interval of time but occurs in what is called an instant. Many other events take place at an instant or are instantaneous. A lightning flash is instantaneous or at least happens so fast that we describe it as happening at an instant. The clock strikes at an instant. A bullet strikes a target at an instant.',
+          ],
+          [
+            1,
+            '[15:21] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_23_ch16.html) - 15.21',
+            'As we have already stated, the average speed during the fourth second is not the speed at t = 4 itself, for during the fourth second the speed of the body keeps changing. Hence the quantity 112 can be no more than an approximation to the instantaneous speed. We may, however, improve the approximation by calculating the average speed in the interval of time from 3.9 to 4 seconds, for during this interval the average speed can, on physical grounds, be expected to approximate more closely the speed actually possessed by the body at t = 4. We therefore repeat the procedure of the preceding paragraph, this time using the values 3.9 and 4 for t. Thus for t = 3.9,
+d = 16(3.9)2 = 16(<<15.21|5a:0>>) = 243.36;
+and for t = 4,',
+          ],
+          [
+            1,
+            '[00:01] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_23_ch16.html) - 0.01',
+            'In our case the average speeds over the intervals of time 1, 0.1, <<0.01|9p>>, and 0.001 proved to be 112, 126.4, 127.84, and 127.989. These numbers seem to be approaching, or getting closer to, the fixed number 128. Hence we take 128 to be the speed of the falling body at t = 4. This number is called the limit of the set of average speeds. We should note that the instantaneous speed is not defined as the quotient of distance and time. Rather it is the limit approached by average speeds as the intervals over which these average speeds are computed approach zero.',
+          ],
+          [
+            1,
+            '[ap 03:56] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_23_ch16.html) - 4 to 4',
+            'We shall first calculate the average speed in the interval <<4 to 4|10a:0>> + h seconds. To do this, we must find the distance traveled in this interval of time. We therefore substitute 4 + h for t in (1) and obtain the distance fallen by the body in 4 + h seconds. This distance will be denoted by d4 + k. Here d4 is the distance the body falls in four seconds, and k is the additional distance fallen, or the increment in distance, in the interval of h seconds. Thus',
+          ],
+          [
+            1,
+            '[12:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_25_ch18.html) - midday',
+            "In the seventeenth century one of the most pressing problems of the times was time itself. The increasing scientific activity, particularly in an age which had decided to measure and to seek quantitative laws, created the need for convenient, accurate methods of measuring time. Moreover, as we have already had occasion to mention in other connections, the seventeenth and eighteenth centuries were concerned with the very practical problem of improving the method by which ships determined their longitude at sea. Here a good clock is the simplest answer. Suppose that the longitude of a given place on land is known and that a ship has on board a clock set to agree with the time prevailing at that given locality. Since the earth turns through 360\x{b0} of longitude in one day, it turns through 15\x{b0} in each hour. Hence for each 15\x{b0} that a ship is west, say, of the fixed locale, <<midday|13>> occurs one hour later compared to the time at the fixed position on land. If a ship\x{2019}s officer notes (by means of the sun\x{2019}s position) when <<midday|13>> occurs at his position at sea and finds, for example, that his clock reads <<3 o\x{2019}clock|6>> whereas it should, of course, read <<12 o\x{2019}clock|6>>, he knows that the longitude of his position is 45\x{b0} west of the given reference locality on land. We can see then why scientists decided to search for a reliable and accurate clock.",
+          ],
+          [
+            1,
+            '[ap ~ 01:57] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_25_ch18.html) - about 1.57',
+            "Suppose that we agree to use the arc length traversed by P as a measure of A. How do we express in this new unit an angle of 90\x{b0}, for example? When A is 90\x{b0}, P has traversed one-quarter of the entire circumference. But the entire circumference of a circle of unit radius is 2\x{3c0}. Then the size of A in the new unit is \x{3c0}/2, that is <<about 1.57|5a:0>>. We call this new unit radians. Thus an angle of 90\x{b0} is also one of \x{3c0}/2 or <<1.57|5a:0>> radians.",
+          ],
+          [
+            1,
+            '[ap 01:57] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_25_ch18.html) - 1.57',
+            "The advantage of radians over degrees is simply that it is a more convenient unit. Since an angle of 90\x{b0} is of the same size as an angle of <<1.57|5a:0>> radians, we now have to deal only with <<1.57|5a:0>> instead of 90 units. The point involved here is no different from measuring a mile in yards instead of inches. If yards are just as good on other grounds, then it is far more convenient to speak of 1760 yards than 63,360 inches.",
+          ],
+          [
+            1,
+            '[ap 01:42] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_25_ch18.html) - 1.42',
+            "The function y = sin A has a maximum value of +1 and a minimum value of \x{2212}1. The maximum y-value, incidentally, is called the amplitude of the function. Such a function, even if it were suitable in all other respects, could not represent the motion of a bob whose maximum displacement is 2 or 3, say. This difficulty is easily obviated. Now that we have y = sin A, we can readily manufacture hundreds of new functions whose amplitudes are whatever we choose to make them. Consider, for example, y = 2 sin A. How does this function behave compared to y = sin A? The answer is immediate. For any value of A, y = 2 sin A is twice as much as y = sin A. Thus when A = \x{3c0}/4 or 45\x{b0}, sin A = 0.71, and 2 sin A is <<1.42|5a:0>>. Figure 18\x{2013}10 shows how y = 2 sin A looks compared to y = sin A. If we want a sine function with amplitudes 3, , or any other number, we can write one down immediately. As is evident from the nature of the function y = 2 sin A, the function",
+          ],
+          [
+            1,
+            '[ap 01:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_25_ch18.html) - 0 to 1',
+            "This function requires some study. Suppose the point P makes one revolution per second. Then f = l. The function (6) then is y = sin 2\x{3c0}t. As t increases from <<0 to 1|10a:0>>, the quantity 2\x{3c0}t will increase from 0 to 2\x{3c0}. We must now ask, How will sin 2\x{3c0}t vary as 2\x{3c0}t varies from 0 to 2\x{3c0}? Since the angle which 2\x{3c0}t describes now varies from 0 to 2\x{3c0}, the function will go through the entire cycle of sine values. However, if we now label our horizontal axis with time values, we obtain the graph shown in Fig. 18\x{2013}11.",
+          ],
+          [
+            1,
+            '[ap 01:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_25_ch18.html) - 0 to 1',
+            "Next let us consider a slightly more difficult case. Suppose the point P makes 2 revolutions per second so that f = 2. As t increases from 0 to , 2\x{3c0} \x{b7} 2t will increase from 0 to 2\x{3c0} and sin 2\x{3c0} \x{b7} 2t will go through the entire cycle of sine values. As t increases from  to 1, 2\x{3c0} \x{b7} 2t increases from 2\x{3c0} to 4\x{3c0}. Then sin 2\x{3c0} \x{b7} 2t takes on the values corresponding to angles from 2\x{3c0} to 4\x{3c0}. But in this range the sine function takes on the same values as it does in the range from 0 to 2\x{3c0}. Hence in the entire interval <<0 to 1|10a:0>> for t, the graph will be as shown in Fig. 18\x{2013}12. The conclusion, which emerges clearly from the graph, is that",
+          ],
+          [
+            1,
+            '[ap 01:59] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_25_ch18.html) - 1 to 2',
+            "5.\x{a0}\x{a0}What is the shape of the graph of y = sin 2\x{3c0} \x{b7} 2t as t varies from <<1 to 2|10a:0>>?",
+          ],
+          [
+            1,
+            '[ap 01:59] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_25_ch18.html) - 1 to 2',
+            "5.\x{a0}\x{a0}What is the shape of the graph of y = sin 2\x{3c0} \x{b7} 2t as t varies from <<1 to 2|10a:0>>?
+6.\x{a0}\x{a0}Graph the function y = sin 2\x{3c0} \x{b7} 3t as \x{a3} varies from <<0 to 1|10a:0>>.
+7.\x{a0}\x{a0}Graph the function y = 2 sin 2\x{3c0} \x{b7} 2t as t varies from <<0 to 1|10a:0>>.",
+          ],
+          [
+            1,
+            '[ap 01:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_25_ch18.html) - 0 to 1',
+            "6.\x{a0}\x{a0}Graph the function y = sin 2\x{3c0} \x{b7} 3t as \x{a3} varies from <<0 to 1|10a:0>>.
+7.\x{a0}\x{a0}Graph the function y = 2 sin 2\x{3c0} \x{b7} 2t as t varies from <<0 to 1|10a:0>>.
+8.\x{a0}\x{a0}What is the frequency (in one second) of y = sin 2\x{3c0} \x{b7} 10t?",
+          ],
+          [
+            1,
+            '[ap 00:58] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_26_ch19.html) - 2 to 1',
+            'The mathematical study of musical sounds did not start with the application of trigonometric functions. Indeed, it goes back to the very first emergence of any real mathematics and science, namely the beginning of the classical Greek period. For example, the Pythagoreans discovered that the lengths of two equally taut plucked strings whose sounds harmonize are related by simple numerical ratios such as <<2 to 1|10a:0>>, <<4 to 3|10a:0>>, and <<3 to 2|10a:0>>. The lower note in each case originates with the longer string. They also designed musical scales whose notes, as measured quantitatively by the lengths of the vibrating strings, possessed precise numerical values. From Pythagorean times onward, mathematicians and scientists were convinced that musical sounds had important mathematical properties, and music, along with arithmetic, geometry, and astronomy, became part of the quadrivium. These four subjects were studied together right through the medieval period. Although Greek, Arab, and medieval mathematicians continued to investigate musical sounds and wrote books on music, their work was essentially limited to the construction of new systems of scales for instrumental and vocal music.',
+          ],
+          [
+            1,
+            '[ap 01:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_26_ch19.html) - 0 to 1',
+            "How far need we carry this process of determining y-values corresponding to various t-values? We note that the function y1 = sin 2\x{3c0}t repeats itself when t becomes larger than 1. The function y2 = sin 4\x{3c0}t goes through two full cycles in the interval from t = 0 to t = 1 and begins its third cycle of sine values as soon as t increases beyond 1. Thus at t = 1 both functions begin to repeat the values which they had taken on at t = 0 and, in the interval from t = 1 to t = 2, both functions will repeat the behavior exhibited in the interval from t = 0 to t = 1. Since y1 and y2 repeat their former behavior, it follows that y, which is the sum of y1 and y2, will also repeat its former behavior. In other words, in the interval from t = 1 to t = 2, y will behave precisely as it did in the interval from t = 0 to t = 1. And in each succeeding unit interval of t-values, the function will repeat the behavior exhibited in the interval from t = 0 to t = 1. If we therefore determine the behavior of y in the interval from <<0 to 1|10a:0>>, we know how it behaves for all larger values of t.",
+          ],
+          [
+            1,
+            '[ap 05:12] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_26_ch19.html) - 512',
+            'We should note that the frequencies are all multiples of the lowest one, which is <<512|9f>>. The formula representing this sound is then',
+          ],
+          [
+            1,
+            '[22:39] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_26_ch19.html) - 21 to 23',
+            'SEARS, FRANCIS W. and MARK W. ZEMANSKY: University Physics,3rd ed., Chaps. <<21 to 23|10a:0>>, Addison-Wesley Publishing Co., Inc., Reading, Mass., 1964.',
+          ],
+          [
+            1,
+            '[22:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_27_ch20.html) - 22',
+            "The first to draw the conclusion which Saccheri should have drawn was Karl Friedrich Gauss (1777\x{2013}1855). Gauss was one of the greatest mathematicians of all times. His father was a bricklayer who expected his son to adopt the same trade. However, Gauss showed his precocity in elementary school, and his teachers saw to it that he received a good education. At the University of G\x{f6}ttingen his teachers were hard put to keep up with him. At <<22|9m>> Gauss submitted his doctoral thesis to the University of Helmstedt. In this thesis he proved what is often called the fundamental theorem of algebra, namely, that every algebraic equation of any degree has at least one root. At the age of 30 he was appointed professor of astronomy at the University of G\x{f6}ttingen. He discouraged students from attending his lectures.",
+          ],
+          [
+            1,
+            '[18:23] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_27_ch20.html) - 1823',
+            "The men who usually receive credit for creating non-Euclidean geometry because they published their results are Nicholas I. Lobachevsky (1793\x{2013}1856) and John Bolyai (1802\x{2013}1860). Lobachevsky, born to a poor family and displaying brightness even as a youngster, attended the University of Kazan in Russia. One of his teachers was the German mathematician J. M. C. Bartels, a friend of Gauss, and it is very likely that the problem of the parallel axiom was called to Lobachevsky\x{2019}s attention by Bartels. Lobachevsky became a professor at Kazan at the age of 23 and continued to work on the problem. By <<1823|9n:0>> he realized that there can be other geometries and that Euclidean geometry need not be the correct description of physical space. He said later that two thousand years of fruitless attempts to put the parallel axiom on an unquestionable basis had led him to suspect that it could not be done. From 1829 on Lobachevsky published books and papers in which he expounded the theorems that hold in his non-Euclidean geometry. Despite valuable services to mathematics, his university, and the Russian government, he was dismissed in 1846, but continued to work in his field until his death.",
+          ],
+          [
+            1,
+            '[01:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_27_ch20.html) - 1 am',
+            'If I commenced by saying that <<1 am|5>> unable to praise this work, you would certainly be surprised for a moment. But 1 cannot say otherwise. To praise it would be to praise myself. Indeed, the whole contents of the work, the path taken by your son, the results to which he is led, coincide almost entirely with my meditations, which have occupied my mind partly for the last thirty or thirty-five years.',
+          ],
+          [
+            1,
+            '[ap 01:02] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_27_ch20.html) - One Two',
+            'GAMOW, GEORGE: <<One Two|5l:0>> Three. . . Infinity, Chaps. 4 and 5, The New American Library, Mentor Books, New York, 1947.',
+          ],
+          [
+            1,
+            '[ap 04:57] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_27_ch20.html) - 3 to 5',
+            "POINCAR\x{c9}, HENRI: Science and Hypothesis, Chaps. <<3 to 5|10a:0>>, Dover Publications, Inc., New York, 1952.",
+          ],
+          [
+            1,
+            "[ap > 10:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_28_ch21.html) - after 10 o\x{2019}clock",
+            "An entirely different arithmetic from the normal one or the arithmetic of baseball is suggested by our system of recording the time of the day. Six hours <<after 10 o\x{2019}clock|6>> is not <<16 o\x{2019}clock|6>> but <<4 o\x{2019}clock|6>>; that is, in this system,",
+          ],
+          [
+            1,
+            "[ap 03:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_28_ch21.html) - 3 o\x{2019}clock",
+            "10 + 6 = 4.
+Similarly, 6 hours before <<3 o\x{2019}clock|6>> is <<9 o\x{2019}clock|6>>; that is,
+3 \x{2212} 6 = 9.",
+          ],
+          [
+            1,
+            '[ap 11:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_28_ch21.html) - 0 to 11',
+            "Similarly, any negative number is congruent to some positive number less than 12. For example, \x{2212}25 \x{2261} 11 because 11 \x{2212} (\x{2212}25) = 3\x{b7}12, or if one prefers, \x{2212}25 \x{2212} 11 = \x{2212}3\x{b7}12. Thus in the arithmetic modulo 12 we need deal only with positive integers from <<0 to 11|10a:0>>. We also regard any positive integer less than 12 to be congruent to itself because the difference of the two integers is zero times 12. Thus",
+          ],
+          [
+            1,
+            '[ap 11:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_28_ch21.html) - 0 to 11',
+            'We see that addition and multiplication are possible in this arithmetic modulo 12. It is mathematically significant to ask, Do the inverse operations exist? That is, can one subtract any number from another or divide one number by another in this arithmetic? In discussing the answers to these questions let us keep in mind that the only numbers we need to consider are from <<0 to 11|10a:0>>.',
+          ],
+          [
+            1,
+            '[ap 11:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_28_ch21.html) - 0 to 11',
+            'The possible values of x are <<0 to 11|10a:0>>, and trial of all these values shows that not one will satisfy the equation. Thus we cannot divide 1 by 3.',
+          ],
+          [
+            1,
+            '[ap 11:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_28_ch21.html) - 0 to 11',
+            'In the system of arithmetic modulo 12, it was necessary to consider only the numbers from <<0 to 11|10a:0>>. Analogously, in the system modulo 7 it is necessary to consider only the numbers from <<0 to 6|10a:0>>. The properties of this latter system are very similar to those of the former but they differ in one essential respect. It was not possible to divide any specific number by any other given number in the modulo 12 system and where division was possible the answer was in some cases not unique. It is possible to divide any number from <<0 to 6|10a:0>> by any other from <<1 to 6|10a:0>> (division by 0 is excluded) in the modulo 7 system and the answer is unique. Thus 2 divided by 5 is 6 because',
+          ],
+          [
+            1,
+            '[ap 06:59] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_28_ch21.html) - 1 to 7',
+            'BOOLE, GEORGE: An Investigation of the Laws of Thought, Chaps. <<1 to 7|10a:0>>, Dover Publications, Inc., New York, 1951.',
+          ],
+          [
+            1,
+            '[~ 18:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_29_ch22.html) - about 1800',
+            "The graph in Fig. 22\x{2013}2 has been well known to physical scientists since <<about 1800|18:0>> because it is obtained from almost all measurements of physical quantities. The measurements cluster about one central value, just as the shots of a rifleman at a target will, if he is a marksman, cluster about the bull\x{2019}s-eye. The similarity of the two situations, the measurement of a length and shots at a target, suggests that the exact length should be the central value. The other lengths apparently represent random or accidental variations from the true length just as the shots near, but not on, the bull\x{2019}s-eye represent accidental errors in marksmanship. Because the shape of the graph in Fig. 22\x{2013}2 occurs repeatedly in connection with errors of measurement, it has come to be known as the error curve or the normal frequency curve. Its very existence affirms the seemingly paradoxical but nonetheless true conclusion that accidental errors in measurements do not follow any chance pattern, but always follow the error curve. Humans may not even err at will.",
+          ],
+          [
+            1,
+            '[~ 18:33] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_29_ch22.html) - About 1833',
+            "<<About 1833|9n:0>> Quetelet decided to study the distribution of human traits and abilities in the light of the normal frequency curve. He took many of his data, incidentally, from the thousands of anatomical measurements made by the Renaissance artists, Alberti, Leonardo, Ghiberti, D\x{fc}rer, Michelangelo, and others. He found what hundreds of successors have since confirmed. All mental and physical characteristics of human beings follow the normal frequency distribution. Height, the size of any one limb, head size, body weight, brain weight, intelligence (as measured by intelligence tests), the sensitivity of the eye to the various frequencies of the visible portion of the electromagnetic spectrum, all these properties are normally distributed within one genus, which may be race or nationality. The same is true of animals and plants. The sizes and weights of grapefruits of any one variety, the lengths of the ears of corn of any one species, the weights of dogs of any one breed, and so forth, are normally distributed.",
+          ],
+          [
+            1,
+            '[19:50] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_29_ch22.html) - 1950',
+            "To simplify the graphing and calculation, let us count years from <<1950|9c:0>> and population in hundreds. Thus 1951 will be regarded as the year 1 and the population for that year as 30. The graph of the data is shown in Fig. 22\x{2013}6. A straightedge placed along the plotted points shows that they lie on a straight line. We know from our work on coordinate geometry (see Exercise 13, Section 12\x{2013}3) that the formula or equation of a linear graph is of the form",
+          ],
+          [
+            1,
+            '[> 19:57] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_29_ch22.html) - after 1957',
+            'The formula predicts that the population in 1970 will be 68, that is, 6800 people. Of course, we are assuming that the factors which led to the increase in population from 1951 to 1957 will not only continue to operate, but will operate on the same level. Here we encounter one of the serious limitations in the use of statistics for social and economic phenomena. Since we do not know the fundamental forces which control such phenomena (although we may have some qualitative information), we cannot be at all certain that the population will continue to increase <<after 1957|18:0>> in the same way as it did before. In fact, we can be fairly sure that it will not. Local, national, or global events slow down or accelerate the growth of a population. For example, during a financial depression young people cannot afford to marry and have children. By contrast, the study of physical phenomena reveals that the forces operating in nature are invariable.',
+          ],
+          [
+            1,
+            '[> 19:50] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_29_ch22.html) - after 1950',
+            "To find a formula fitting these data, we first plot the data. Let us record years <<after 1950|18:0>> as abscissas and profits as ordinates. Figure 22\x{2013}7 shows the graph.",
+          ],
+          [
+            1,
+            '[ap 03:59] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_29_ch22.html) - 1 to 4',
+            'Recommended Reading
+ALDER, HENRY L. and EDWARD B. ROESSLER: Introduction to Probability and Statistics, Chaps. <<1 to 4|10a:0>>, W. H. Freeman & Co., San Francisco, 1960.',
+          ],
+          [
+            1,
+            '[ap 01:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_30_ch23.html) - 0 to 1',
+            'From this general definition of probability it follows that if no possible outcomes were favorable, that is, if the event were impossible, the probability of the event would be 0/n, or 0. If all n possible outcomes were favorable, that is, if the event were certain, the probability would be n/n, or 1. Hence the numerical measure of probability can range from <<0 to 1|10a:0>>, from impossibility to certainty.',
+          ],
+          [
+            1,
+            '[20:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_30_ch23.html) - 0 to 20',
+            "The possible outcomes, that is, the possible numbers of those remaining alive without treatment among 20 afflicted people, are precisely the same as the possible outcomes in a throw of 20 coins. Just as the number of heads which may show up can vary from <<0 to 20|10a:0>>, so among the 20 people, none may live beyond the specified period, one may, and so on up to 20. Since the probability that any one person will remain alive is the same as that of tossing a head on a single throw, the probabilities of the various outcomes will be the same in the two situations. Hence the mean number of those remaining alive is () \x{b7} 20, or 10. The standard deviation of this distribution is . In our case,",
+          ],
+          [
+            1,
+            '[ap 01:02] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_30_ch23.html) - One Two',
+            'GAMOW, GEORGE: <<One Two|5l:0>> Three. . . Infinity, Chaps. 8 and 9, The New American Library Mentor Books, New York, 1947.',
+          ],
+          [
+            1,
+            '[ap ~ 05:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_31_ch24.html) - about 500',
+            "The fruit of mathematical activity consists of the theorems deduced from a set of axioms. The theorems offer new knowledge by no means immediately discernible in the axioms. Whether or not the reader may prize the knowledge, he learns by pursuing the implications of the Euclidean axioms that the sum of the angles of a triangle is 180\x{b0} and that the area of a circle is \x{3c0} times the square of the radius. The amount of information that can be deduced from some sets of axioms is almost incredible. Euclid deduced <<about 500|18:0>> theorems from his set. The axioms of number give rise to the results of algebra, properties of functions, the theorems of the calculus, the solutions of various types of differential equations, and many other results we have not surveyed.",
+          ],
+          [
+            1,
+            '[ap 02:59] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_31_ch24.html) - 1 to 3',
+            "POINCAR\x{c9}, HENRI: The Value of Science, Chaps. <<1 to 3|10a:0>>, Dover Publications, Inc., New York, 1958.",
+          ],
+          [
+            1,
+            '[ap 02:59] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_31_ch24.html) - 1 to 3',
+            "POINCAR\x{c9}, HENRI: Science and Method, Chaps. <<1 to 3|10a:0>>, Dover Publications, Inc., New York, 1952.",
+          ],
+          [
+            1,
+            '[ap 02:59] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_31_ch24.html) - 1 to 3',
+            'SAWYER, W. W.: Prelude to Mathematics, Chaps. <<1 to 3|10a:0>>, Penguin Books Ltd., Harmondsworth, England, 1955.',
+          ],
+          [
+            1,
+            '[ap 01:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_33_ans.html) - 100',
+            "2.\x{a0}\x{a0}418,500 mi
+3.\x{a0}\x{a0}100 by <<100|3:0>>
+4.\x{a0}\x{a0} by",
+          ],
+          [
+            1,
+            '[23:59] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_33_ans.html) - 1 to 0',
+            "Section 7\x{2013}2
+3.\x{a0}\x{a0}<<1 to 0|10a:0>>
+4.\x{a0}\x{a0}0 to un limited ly larger and larger values",
+          ],
+          [
+            1,
+            '[ap 06:34] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_33_ans.html) - 6.34',
+            "(b)\x{a0}\x{a0}5.879 \x{b7} 104
+(c)\x{a0}\x{a0}<<6.34|5a:0>> \x{b7} 104
+(e)\x{a0}\x{a0}5/102",
+          ],
+          [
+            1,
+            '[ap 01:57] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_33_ans.html) - 1.57',
+            "1.\x{a0}\x{a0}\x{3c0}/2 or <<1.57|5a:0>>, approximately; \x{3c0}/6 or 0.52, approximately; \x{3c0}, 3\x{3c0}/2, 2\x{3c0}, 8\x{3c0}/3",
+          ],
+          [
+            1,
+            '[ap 03:24] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_33_ans.html) - 3.24',
+            "Section 22\x{2013}4
+1.\x{a0}\x{a0}<<3.24|5a:0>>
+2.\x{a0}\x{a0}3",
+          ],
+          [
+            1,
+            '[ap 00:59] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_33_ans.html) - 1 to 1',
+            "13.
+17.\x{a0}\x{a0}<<1 to 1|10a:0>>
+18.\x{a0}\x{a0}<<3 to 1|10a:0>>",
+          ],
+          [
+            1,
+            '[ap 00:59] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_33_ans.html) - 1 to 1',
+            "17.\x{a0}\x{a0}<<1 to 1|10a:0>>
+18.\x{a0}\x{a0}<<3 to 1|10a:0>>
+Section 23\x{2013}3",
+          ],
+          [
+            1,
+            '[15:10] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_34_add.html) - 15-10',
+            'Chapter 15
+through Section <<15-10|5a:0>>, on the further use of functions in science,
+Chapter 20',
+          ],
+          [
+            1,
+            '[~ 14:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_34_add.html) - about 1400',
+            'Though, as already noted, this chapter too may serve to encourage the student that he can master mathematics because he finds that he can read the material, there is more positive content to be advanced than in Chapter 1. The student should learn that mathematics was not created once and for all in some ancient time but that there have been successive periods of development and these have been tied to and stimulated by problems and movements of various civilizations. The civilizations which should be discussed are the Egyptian and Babylonian, the classical Greek, the Alexandrian Greek, the Roman, the Hindu and Arabic, the medieval, and Western European since <<about 1400|18:0>>. The Roman and medieval civilizations are singular because despite achievements in other areas, they were nonproductive in mathematics. These exceptional cases could provoke a discussion of what factors in a civilization promote mathematical activity. The question cannot be answered at this stage but students might be asked to keep this in mind and to note that the answer is important because it would tell us what we must do in our civilization to foster mathematics.',
+          ],
+          [
+            1,
+            '[00:25] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_34_add.html) - 0.25',
+            "2.\x{a0}\x{a0}One cannot multiply a number of pennies by a number of pennies whether in the form of 25\x{a2} or 0.25 dollar. One can multiply 25 by 25 or 0.25 by <<0.25|3:0>>. Whether the answer makes physical sense depends on whether there is any physical sense in the original problem. There is no physical point to 25C by 25\x{a2}. There is physical point in asking, for example, how much money will 25 times 25\x{a2} amount to. This problem cannot be reformulated as 0.25 times 0.25 because the first 25 is a number of times and not 0.25 dollar.",
+          ],
+          [
+            1,
+            '[ap 01:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_34_add.html) - 100',
+            "5.\x{a0}\x{a0}As in Exercise 2, one cannot multiply dollars by dollars or cents by cents. One can multiply 6 by 1 or 600 by <<100|3:0>>. The correct mathematics in this situation is 6 times 1 where physically the 6 means 6 repetitions and the 1 means 1 dollar. For this physical interpretation the 6 cannot be replaced by <<600|3:0>>.",
+          ],
+          [
+            1,
+            '[ap 04:59] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_34_add.html) - 1 to 5',
+            '3. The argument is false. It is true that no irrational can be expressed with a finite number of decimal places. But there may be and there are other numbers which cannot be expressed with a finite number of decimal places.
+<<1 to 5|10a:0>>. The answers are given in the answer section of the textbook.
+1. The only basis for belief other than actual calculation in this case is that the principle holds for small numbers where actual calculation shows it is correct.',
+          ],
+          [
+            1,
+            '[ap 01:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_34_add.html) - 100',
+            '3. By the argument in the text the rectangle of maximum area should be a square. Hence the dimensions are 100 by <<100|3:0>>.',
+          ],
+          [
+            1,
+            '[23:59] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_34_add.html) - 1 to 0',
+            "(f)\x{a0}\x{a0}\x{a0}tan 80\x{b0} = 5.6713
+3. cos A varies from <<1 to 0|10a:0>>.
+4. tan A varies from 0 to unlimitedly large values.",
+          ],
+          [
+            1,
+            '[ap 06:57] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_34_add.html) - 3 to 7',
+            "14. There are no values of x and y which belong to both equations. Hence it is meaningless to subtract one equation from the other. The x\x{2032}s and y\x{2032}s of one are not the same as the x\x{2032}s and y\x{2032}s of the other.
+Exercises <<3 to 7|10a:0>> are answered in the answer section of the textbook.
+2. Write the given equation as y + 25 = (x \x{2212} 5)2 and introduce x\x{2032} and y\x{2032} such that x\x{2032} = x \x{2212} 5 and y\x{2032} = y + 25. Follow the text procedure on pp. 269\x{2013}270.",
+          ],
+          [
+            1,
+            '[00:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_34_add.html) - 0',
+            '18. We have d = v2/22. This is the distance traveled when the velocity starts from <<0|9c:0>> and the acceleration is 11 ft/sec2. When v = 88, d = 352. If the object starts with 88 ft/sec and decelerates at 11 ft/sec2, it will travel 352 ft before reaching 0 velocity. In one second the automobile travels 88 ft.',
+          ],
+          [
+            1,
+            '[ap 04:40] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_34_add.html) - 4.40',
+            "5.\x{a0}\x{a0}The mass of the sun is <<4.40|5a:0>> \x{b7} 1030 lb. The volume of the sun is (4/3)(432,000 \x{b7} 5280)3. The ratio of mass to volume is about 90.",
+          ],
+          [
+            1,
+            '[ap > 04:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_34_add.html) - After 4',
+            "4.\x{a0}\x{a0}The distance fallen in 5 seconds is 16 \x{b7} 52 or 400 ft. The average speed is 400/5 or 80 ft/sec. <<After 4|9:0>> sec the body falls 16 \x{b7} 42 or 256 ft. Hence during the fifth second the body falls 400 \x{2212} 256 or 144 ft. The average speed during this second is 144/1 ft/sec.",
+          ],
+          [
+            1,
+            '[01:28] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_34_add.html) - 128h',
+            "6.\x{a0}\x{a0}At t = 3, d3 = 128 \x{b7} 3 \x{2212} 16 \x{b7} 32. At t = 3 + h, d3 + k = 128(3 + h) \x{2212} 16(3 + h)2 = 128 \x{b7} 3 + <<128h|1>> \x{2212} 16 \x{b7} 9 \x{2212} 16 \x{b7} 6h \x{2212} 16h2. Then k = <<128h|1>> \x{2212} 96h \x{2212} 16h2. k/h = 32 \x{2212} 16h. As h approaches 0, k/h approaches 32.",
+          ],
+          [
+            1,
+            '[00:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_34_add.html) - 0',
+            "7.\x{a0}\x{a0}It starts from <<0|9c:0>>, rises to 1 at 90\x{b0}, falls to 0 at 180\x{b0}, falls farther to \x{2212}1 at 270\x{b0} and then rises to 0 at 360\x{b0}. Thereafter it repeats this behavior every 360\x{b0}.",
+          ],
+          [
+            1,
+            '[ap 01:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_34_add.html) - 0 to 1',
+            "9.\x{a0}\x{a0}The period is 360\x{b0}. The cycle refers to the set of y-values going from <<0 to 1|10a:0>> to \x{2212}1 to 0.",
+          ],
+          [
+            1,
+            '[ap 01:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_34_add.html) - 0 to 1',
+            "5.\x{a0}\x{a0}The shape is the same as when t varies from <<0 to 1|10a:0>>. See Fig. <<18-12|5a:0>>.",
+          ],
+          [
+            1,
+            '[18:12] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_34_add.html) - 18-12',
+            "6.\x{a0}\x{a0}The shape is similar to that of Fig. <<18-12|5a:0>> except that there are 3 full cycles of y-values in the interval from t = 0 to t = 1.",
+          ],
+          [
+            1,
+            '[18:12] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_34_add.html) - 18-12',
+            "7.\x{a0}\x{a0}The shape is that of Fig. <<18-12|5a:0>> except that all y-values are twice as large (or as small when y is negative).",
+          ],
+          [
+            1,
+            '[ap > 01:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_34_add.html) - after 1',
+            "(d)\x{a0}\x{a0}The respective frequencies of the three terms are 100, 200, and 300. The entire function repeats when the first one does, that is, <<after 1|9:0>>/100 of a second. The frequency of the entire function is 100.",
+          ],
+          [
+            1,
+            '[ap > 01:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_34_add.html) - after 1',
+            "(d)\x{a0}\x{a0}The respective frequencies of the three terms are 100, 200, and 300. The entire function repeats when the first one does, that is, <<after 1|9:0>>/100 of a second. The frequency of the entire function is 100.
+1.\x{a0}\x{a0}See p. 446, lines <<11 to 13|10a:0>>.
+2.\x{a0}\x{a0}The frequency of the entire sound is 240. The amplitude of the third harmonic is 0.01.",
+          ],
+          [
+            1,
+            '[ap 03:24] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_34_add.html) - 3.24',
+            "6.\x{a0}\x{a0}No, because the depth may be 10 ft in one area and still there may be a mean depth of 4 ft.
+1.\x{a0}\x{a0}<<3.24|5a:0>>
+2.\x{a0}\x{a0}3",
+          ],
+          [
+            1,
+            '[ap 08:05] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_34_add.html) - 8:05',
+            "16.\x{a0}\x{a0}During the five-minute interval from 8 to <<8:05|2>>, say, there are four minutes for which the first train will be southbound and only one minute for which the first train will be northbound. If the young man enters the station at any time during the five-minute interval he will be 4 times as likely to get there between <<8|20>> and <<8:04|2>> as between <<8:04|2>> and <<8:05|2>>. Hence the probability of getting a southbound train is 4/5.",
+          ],
+        ];

@@ -1,0 +1,169 @@
+$VAR1 = [
+          [
+            1,
+            '[20:13] Beyond Infinity_ An Expedition to the Oute - Eugenia Cheng.epub (OEBPS/Text/chapter001.xhtml) - 2013',
+            "So much for glimpses of infinity, like ripples in the waters of Loch Ness that may or may not have been caused by a giant, ancient, mysterious monster. What is this monster we call infinity? What do we mean when we throw around the innocuous-sounding word \x{201c}forever\x{201d}? In our modern impatient world, people are prone to using it rather hyperbolically, exclaiming \x{201c}I\x{2019}ve been on hold forever!\x{201d} after two minutes, or \x{201c}This web page is taking forever to load!\x{201d} if it takes more than about three seconds. I\x{2019}m told by Basque writer Amaia Gabantxo that in Basque the word for eleven is hamaika, but it also means infinity. This is borne out by another friend of mine who did an audit of homemade jam in the cupboard and declared there were \x{201c}four jars from <<2013|9c:1>>, ten from <<2014|9c:1>>, and lots from <<2015|9c:1>>.\x{201d} Apparently more than ten might as well be infinity. My research field is higher-dimensional category theory, and there \x{201c}higher\x{201d} usually means three dimensions or more, including infinity \x{2013} everything from just three to infinity turns out to be about the same.",
+          ],
+          [
+            1,
+            '[ap 01:00] Beyond Infinity_ An Expedition to the Oute - Eugenia Cheng.epub (OEBPS/Text/chapter003.xhtml) - 1',
+            "So instead of saying \x{201c}counting\x{201d} we say \x{201c}adding 1.\x{201d} The natural numbers are what we get if we keep adding 1 to things. But where do we start? We have to start somewhere, otherwise we\x{2019}ll never get anywhere. And we start at <<1|9g>>.",
+          ],
+          [
+            1,
+            '[ap 01:00] Beyond Infinity_ An Expedition to the Oute - Eugenia Cheng.epub (OEBPS/Text/chapter003.xhtml) - 1',
+            "The natural numbers are what we get if we start at <<1|9g>> and keep adding 1. In fact there is some argument about whether 0 counts as a natural number, but it doesn\x{2019}t make much difference \x{2013} we could just as well start at <<0|9g>> and keep adding 1.",
+          ],
+          [
+            1,
+            '[ap 01:00] Beyond Infinity_ An Expedition to the Oute - Eugenia Cheng.epub (OEBPS/Text/chapter003.xhtml) - 1',
+            "If we decide that the natural numbers are \x{201c}what we get if we start at <<1|9g>> and keep adding 1,\x{201d} then really they are these things:",
+          ],
+          [
+            1,
+            '[ap 11:00] Beyond Infinity_ An Expedition to the Oute - Eugenia Cheng.epub (OEBPS/Text/chapter003.xhtml) - eleven',
+            "When you start a new job someone might give you a handy list of all the acronyms you need to get used to. Alas, we can\x{2019}t list shorthand names for every single possible number, but we can develop a principle for building up new names from old ones. You might be able to remember this from learning a foreign language. You usually have to learn the numbers one to ten by rote, and then somewhere between ten and twenty a logical pattern starts to develop. In English this happens after fifteen, as we get sixteen, seventeen, eightteen (aside from the extra t there), nineteen. (You could argue that thirteen, fourteen, and fifteen all fit this pattern but with strange spelling.) In Spanish you also get a pattern from sixteen onward, but in French you have to wait until seventeen. In German you only have to wait until thirteen, and in Cantonese it happens right at <<eleven|9c:0>>, as the numbers are then said as \x{201c}<<ten-one|9j>>, <<ten-two|9j>>, <<ten-three|9j>>, <<ten-four|9j>>, \x{2026}\x{201d}",
+          ],
+          [
+            1,
+            '[ap 02:10] Beyond Infinity_ An Expedition to the Oute - Eugenia Cheng.epub (OEBPS/Text/chapter003.xhtml) - two-ten',
+            "Cantonese is, again, more straightforward, as 20, 30, 40, and so on are simply \x{201c}<<two-ten|9j>>, <<three-ten|9j>>, <<four-ten|9j>>.\x{201d} I learned from Hindi lecturer Jason Grunebaum that in Hindi there are actually completely separate words for all the numbers from 1 up to 100. He offers bonus credit to any student who can recite them all.",
+          ],
+          [
+            1,
+            '[ap 03:14] Beyond Infinity_ An Expedition to the Oute - Eugenia Cheng.epub (OEBPS/Text/chapter004.xhtml) - 3.14',
+            "You might want to object at the moment and claim that \x{3c0} = 22/7. However, this famous fraction is only an approximation to \x{3c0} and was handy in the days before there were calculators, let alone calculators on phones with a \x{3c0} button. \x{3c0} and 22/7 only agree in the first two decimal places, <<3.14|9p>>. This is perfectly good enough for whenever I need \x{3c0} in my daily life (which mostly involves scaling cake recipes up or down), but it\x{2019}s very far from being mathematically equal. Actually, when I\x{2019}m scaling a cake recipe I use 3 as a good enough approximation to \x{3c0}.",
+          ],
+          [
+            1,
+            '[ap 01:00] Beyond Infinity_ An Expedition to the Oute - Eugenia Cheng.epub (OEBPS/Text/chapter006.xhtml) - 0 to 1',
+            "Let\x{2019}s put this question another way. We\x{2019}re going to think about evacuating huge hotels again. In Chapter 2 we mentioned the idea of the real-number hotel, where there is a room for every real number. We\x{2019}re now going to do something more modest: a hotel that \x{201c}just\x{201d} has a room for every real number from <<0 to 1|10a:0>>. I say \x{201c}just,\x{201d} but this is still a super-giant hotel, and it\x{2019}s the first one we will show cannot be evacuated into the ordinary Hilbert Hotel.",
+          ],
+          [
+            1,
+            '[ap 01:00] Beyond Infinity_ An Expedition to the Oute - Eugenia Cheng.epub (OEBPS/Text/chapter006.xhtml) - 0 to 1',
+            "It\x{2019}s convenient only to think about the numbers between 0 and 1 because it saves us worrying about the part of the number before the decimal point: every room has a different decimal expansion that starts 0.something and goes on forever. (Let\x{2019}s not think about how long it would take you to ask for your key.) Now imagine trying to evacuate this hotel: this is the question of finding a perfect pairing between the real numbers (from <<0 to 1|10a:0>>) and the natural numbers, which is what we mean by \x{201c}countable.\x{201d}",
+          ],
+          [
+            1,
+            '[ap 08:00] Beyond Infinity_ An Expedition to the Oute - Eugenia Cheng.epub (OEBPS/Text/chapter006.xhtml) - 8',
+            "Here\x{2019}s how it works. You go to room 1 and knock on that person\x{2019}s door. You ask them what their old decimal room number was. Actually, you don\x{2019}t ask them for the whole expansion, you just ask them for the first digit, like when you\x{2019}re logging on to online banking and they just ask you for the third and seventh letters of your password. Anyway, after they tell you their digit, you add 1 to it and write it down. So if their old first digit was 3, you write down 4. If it was <<8|9f>>, you write down 9. If it was <<9|9f>>, you don\x{2019}t write down 10 (because that\x{2019}s not a digit), but you write down 0. This sounds mysterious, but bear with me.",
+          ],
+          [
+            1,
+            '[ap 01:04] Beyond Infinity_ An Expedition to the Oute - Eugenia Cheng.epub (OEBPS/Text/chapter007.xhtml) - 104',
+            "In decimal, a four-digit number can express anything up to 9999, which is <<104|9d>> \x{2212} 1. Whereas in binary, a four-digit number can only express things up to 24 \x{2212} 1 = 15",
+          ],
+          [
+            1,
+            '[ap 01:00] Beyond Infinity_ An Expedition to the Oute - Eugenia Cheng.epub (OEBPS/Text/chapter007.xhtml) - 0 to 1',
+            "Just as ordinary binary numbers can represent all the numbers that the normal decimal system can do (just using more digits than usual), binary fractions can represent all possible decimal fractions, also using more digits. So the paths through the infinite tree correspond to all the \x{201c}decimal numbers that go on forever,\x{201d} that is, all the real numbers. Or at least, the real numbers from <<0 to 1|10a:0>>. We now can now make the following leap of faith:",
+          ],
+          [
+            1,
+            '[ap 01:00] Beyond Infinity_ An Expedition to the Oute - Eugenia Cheng.epub (OEBPS/Text/chapter008.xhtml) - 0 to 1',
+            "A geometrical way to see this is that if we ignore the whole-number part, we are only counting the real numbers between 0 and 1. If we look at this portion of the line of real numbers, how many times do we have to stick this together to make the whole line? We have to stick one on for every natural number, so there are \x{2135}0
+copies of this portion. Moreover, we can restrict our attention to any portion of the real numbers, no matter how tiny, and still get the same total count of numbers in there. One way to see this is to make a bijection, that is, a precise pairing between the numbers in the tiny portion and the numbers from <<0 to 1|10a:0>>. For example, suppose we want to look at just the real numbers from <<0 to 1|10a:0>>/100. We want to pair all these numbers up with the real numbers from <<0 to 1|10a:0>>. All we have to do is multiply them all by <<100|3:0>> and pair them up with the answer. This is like scaling the small piece of number line up to the bigger piece.",
+          ],
+          [
+            1,
+            '[ap 01:00] Beyond Infinity_ An Expedition to the Oute - Eugenia Cheng.epub (OEBPS/Text/chapter008.xhtml) - 0 to 1',
+            "This argument would work for any size of interval, from any real number to any other real number. To scale the portion from <<0 to 1|10a:0>> up to the whole of the reals, we have to do something more sneaky as we can\x{2019}t just \x{201c}multiply everything by infinity.\x{201d} We could get all the positive real numbers like this: Start with your x taken from between 0 and 1. Then calculate 1/x, which will give us something between 1 and infinity. Then subtract 1. This will give us a pairing of the real numbers between 0 and 1 with all the real numbers between 0 and infinity.",
+          ],
+          [
+            1,
+            '[06:00] Beyond Infinity_ An Expedition to the Oute - Eugenia Cheng.epub (OEBPS/Text/chapter009.xhtml) - 6 a.m.',
+            "This reminds me of the times I have stood in the queue at the Royal Albert Hall to go to the Proms, a series of concerts. When you arrive, you\x{2019}re given a raffle ticket telling you your place in the queue. I once arrived at <<6 a.m.|5>> to queue to see the amazing Sim\x{f3}n Bolivar Orchestra conducted by Gustavo Dudamel, playing Mahler\x{2019}s Second Symphony, one of my favorites. I was very excited to be number 6 in the queue, and after spending all day as number 6 I had become quite good friends with number 5. (Numbers 7 and 8 were my parents.) In this case it really matters what order everyone arrives in. I arrived that early because I really wanted to be at the very front, and after queueing for thirteen hours, I didn\x{2019}t really want anyone to push in front of me. Numbers 1, 2, and 3 had camped out overnight to get their places.",
+          ],
+          [
+            1,
+            '[ap 05:00] Beyond Infinity_ An Expedition to the Oute - Eugenia Cheng.epub (OEBPS/Text/chapter009.xhtml) - 5',
+            "Instead we have to go back to the way you do subtraction when you\x{2019}re little and you don\x{2019}t know how to count backward yet. Let\x{2019}s think about 5 \x{2212} 3. We all know the answer is 2, because we can count backward from <<5|9c:0>>, or because we can put up five fingers and then put two of them down and count the rest. Or just because we know. However, if you only know how to count up and not down, you can do this by starting at <<3|9g>> and seeing how many steps it takes to count up to 5. When children do this, they are answering the question \x{201c}What do I have to add to 3 to make 5?\x{201d} We could get a bit fancy and write that as an equation:",
+          ],
+          [
+            1,
+            '[ap ~ 10:00] Beyond Infinity_ An Expedition to the Oute - Eugenia Cheng.epub (OEBPS/Text/chapter011.xhtml) - about 1000',
+            "This has 16 zeros on the end. The number of grains we had was 18,446,744,073,709,551,615, which is approximately 2 with 19 zeros on the end: that\x{2019}s 3 more zeros, a factor of <<about 1000|18:0>>. So it looks like we could feed the world\x{2019}s population for around 1000 years. (Not taking into account the fact that, the way we\x{2019}re going at the moment, the world\x{2019}s population is growing a lot each year.)",
+          ],
+          [
+            1,
+            '[ap 02:58] Beyond Infinity_ An Expedition to the Oute - Eugenia Cheng.epub (OEBPS/Text/chapter012.xhtml) - two to three',
+            "One way to think about four dimensions is as a generalization of three dimensions. To understand how this generalization works, it\x{2019}s helpful to take a few more steps back so that we can get a bit of a running start. If we see how to go from one dimension to two, and then from <<two to three|10a:0>>, it helps us to see how to go from <<three to four|10a:0>>, and then from <<four to five|10a:0>>, and then from any n to any n + 1, just like the child climbing up stairs or us climbing the ladder of infinities. Then maybe if we never stop, we\x{2019}ll get an infinite number of dimensions. (Sometimes I think this idea of generalizing forever is a form of mathematical optimism.)",
+          ],
+          [
+            1,
+            '[ap 01:00] Beyond Infinity_ An Expedition to the Oute - Eugenia Cheng.epub (OEBPS/Text/chapter012.xhtml) - 1',
+            "You can tell if a world is two-dimensional because you\x{2019}ll need two coordinates to say where you are: you need to specify how far \x{201c}along\x{201d} you are, but also how far \x{201c}across.\x{201d} This is why theater seats and plane seats have a row number and also a seat number. (In theory, because the number of seats is finite, you could just number them all starting from <<1|9c:0>> and going up, but it would make it much harder to find your seat.)",
+          ],
+          [
+            1,
+            '[ap 00:59] Beyond Infinity_ An Expedition to the Oute - Eugenia Cheng.epub (OEBPS/Text/chapter012.xhtml) - one-to-one',
+            "A slightly more subtle (and I would say sneaky) way we often reduce the number of dimensions is by conflating two dimensions into one rather than just forgetting one. This happens all the time in questionnaires when they ask you questions like \x{201c}I prefer socializing in large groups rather than <<one-to-one|10a:0>>\x{201d} and then you have to say if you agree or disagree on a scale like this:",
+          ],
+          [
+            1,
+            '[ap 00:59] Beyond Infinity_ An Expedition to the Oute - Eugenia Cheng.epub (OEBPS/Text/chapter012.xhtml) - one-to-one',
+            "This is supposedly more nuanced than just saying yes or no, because instead of things being black or white, we\x{2019}ve allowed for gray areas in between. However, these sorts of questions frustrate me because I often find myself strongly agreeing and strongly disagreeing in equal measure. It seems that I\x{2019}m supposed to select \x{201c}neither,\x{201d} but that doesn\x{2019}t feel right because \x{201c}neither\x{201d} sounds like I don\x{2019}t really care either way, whereas actually on some days I really want to be in a big group and on other days I really want to be in a <<one-to-one|10a:0>> situation. This is because it\x{2019}s really a two-dimensional question: How much do you like socializing in large groups, and how much do you like socializing <<one-to-one|10a:0>>? This gives us two variables, and we could plot it on a graph like this:",
+          ],
+          [
+            1,
+            '[ap 05:57] Beyond Infinity_ An Expedition to the Oute - Eugenia Cheng.epub (OEBPS/Text/chapter014.xhtml) - 3 to 6',
+            "Remember when we thought about trying to define subtraction involving infinity, we had to go back to thinking about things like 6 \x{2212} 3 as \x{201c}how far do I have to count up to get from <<3 to 6|10a:0>>?\x{201d} That is, we thought about solving equations like this:",
+          ],
+          [
+            1,
+            '[ap 02:58] Beyond Infinity_ An Expedition to the Oute - Eugenia Cheng.epub (OEBPS/Text/chapter015.xhtml) - 2 to 3',
+            "I said the gap is in the parabola, but maybe it\x{2019}s in the straight line? Actually it\x{2019}s in both, and it\x{2019}s not just at that point. The gaps are everywhere, so there are all sorts of places where a straight line would cross the parabola without meeting it. Moving the line from <<2 to 3|10a:0>> will give another place. This is one of the things that really lead us to want to fill those gaps in. We want to be able to know that if we draw two lines and they cross, they really actually intersect somewhere. This is the intermediate value theorem. It\x{2019}s called that because in its most basic form it says that if you grow continuously from height A to height B, then you have to achieve every intermediate height at some point. Anyone who is currently six feet tall must at some point in the past have been five feet tall. Carrots must at one point have been baby carrots.",
+          ],
+          [
+            1,
+            '[00:01] Beyond Infinity_ An Expedition to the Oute - Eugenia Cheng.epub (OEBPS/Text/chapter015.xhtml) - 0.01',
+            "Our tenth attempt is 1/10, which is <<0.01|9d>>. This one will sort of ricochet off the side of the target. Our first one that will definitely hit the target is the next one, 1/11. From this point on we\x{2019}re fine \x{2013} all subsequent attempts will be smaller than that, so they will all hit the target.",
+          ],
+          [
+            1,
+            '[ap 01:00] Beyond Infinity_ An Expedition to the Oute - Eugenia Cheng.epub (OEBPS/Text/chapter015.xhtml) - 1',
+            "We can now give the target-test treatment to recurring decimals as well. Let\x{2019}s think about that most confounding one, 0.99999999\x{a0}\x{b7}\x{a0}\x{b7}\x{a0}\x{b7}, which is also written as , and you might have been told at some point in your life that this \x{201c}equals 1.\x{201d} What does this actually mean? We tend to think of this recurring decimal as \x{201c}0.999\x{a0}\x{b7}\x{a0}\x{b7}\x{a0}\x{b7} with the 9\x{2019}s going on forever,\x{201d} but now we know how to deal with it in a rigorous mathematical way. It\x{2019}s just like eating the cake. We gradually proceed down the decimal places. After the first decimal place we have 0.9. After the second decimal place we have 0.99. After the third we have 0.999. And so on. The definition of  is that it is the limit of this process. So when we are saying  = 1 all we are claiming is that the limit of this process is 1. It doesn\x{2019}t mean we actually ever reach 1. It means that if an evil opponent comes along and sets up a target for us with a bull\x{2019}s-eye at <<1|9c:0>>, we can pass the target test no matter how small they make the target.",
+          ],
+          [
+            1,
+            '[00:00] Beyond Infinity_ An Expedition to the Oute - Eugenia Cheng.epub (OEBPS/Text/chapter015.xhtml) - 0',
+            'Here, as a sort of technicality, we start n at <<0|9c:0>> and define 0! to be 1.',
+          ],
+          [
+            1,
+            '[ap 01:00] Beyond Infinity_ An Expedition to the Oute - Eugenia Cheng.epub (OEBPS/Text/chapter015.xhtml) - 1',
+            '
+The number e is then the y value (and gradient) at <<1|9c:0>>.
+',
+          ],
+          [
+            1,
+            '[ap > 01:00] Beyond Infinity_ An Expedition to the Oute - Eugenia Cheng.epub (OEBPS/Text/chapter016.xhtml) - past 1',
+            "Here\x{2019}s what happens if we try to win the target test. Even if we hit the target for a while, we\x{2019}ll eventually start missing again: as we add more fractions on, the total keeps growing enough that we\x{2019}ll eventually fall off the other end of the target. It heads toward infinity, despite the fact that the amount we\x{2019}re adding on each time seems to become negligible. Note that the fact that the total keeps growing doesn\x{2019}t automatically mean we\x{2019}ll fail the target test. After all, when we add 1/2
+and then 1/4 and then 1/8 and so on, the total is also growing. It\x{2019}s just growing slowly enough that we never make it <<past 1|9f>>. Whereas with the harmonic series, it\x{2019}s still growing slowly, but fast enough that no matter what boundary we try to impose, we will always end up going past that boundary.",
+          ],
+          [
+            1,
+            '[ap > 01:00] Beyond Infinity_ An Expedition to the Oute - Eugenia Cheng.epub (OEBPS/Text/chapter016.xhtml) - past 1',
+            "Let\x{2019}s see if we can make it <<past 1|9f>>, unlike the cake example when we eat half the leftovers each time and never quite make it to eating the whole cake until \x{201c}forever,\x{201d} when we just about get there. So we\x{2019}re trying to see if we can add up enough of the fractions in the harmonic series and get something bigger than 1. And we can:",
+          ],
+          [
+            1,
+            '[ap > 02:00] Beyond Infinity_ An Expedition to the Oute - Eugenia Cheng.epub (OEBPS/Text/chapter016.xhtml) - past 2',
+            "Let\x{2019}s see if we can make it <<past 2|9f>>. At this point I admit to resorting to a spreadsheet to work this out. My spreadsheet tells me that once I get to 1/11 I\x{2019}ll be past 2, that is,",
+          ],
+          [
+            1,
+            '[ap 01:00] Beyond Infinity_ An Expedition to the Oute - Eugenia Cheng.epub (OEBPS/Text/chapter016.xhtml) - 1',
+            "Here each bar has width 1, so the area of each rectangle is the width times the height, which is <<1|9d>>/n
+for each n. So the total area of all those bars is the same as the thing we were just trying to do, adding up all the terms in the harmonic series. This means that the area represented here is \x{201c}infinite.\x{201d} What this really means is that no matter how big a number we think of, if we go far enough down the graph (bigger and bigger n), we can find a place where the area up to that point is definitely bigger than the number we thought of. This means that as we include bigger and bigger n, the area approaches infinity, in the sense of Chapter 11.",
+          ],
+          [
+            1,
+            '[ap 01:00] Beyond Infinity_ An Expedition to the Oute - Eugenia Cheng.epub (OEBPS/Text/chapter016.xhtml) - 1',
+            "
+and comparing it with the area of the big square, which is <<1|9f>>.
+We can start by putting a 1/2 \x{d7} 1/2 square in the corner of the 1 \x{d7} 1 square, say like this:",
+          ],
+        ];

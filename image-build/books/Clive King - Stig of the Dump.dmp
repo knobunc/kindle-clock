@@ -1,0 +1,29 @@
+$VAR1 = [
+          [
+            1,
+            "[ap > 10:00] Stig of the Dump - Clive King.epub (ops/xhtml/chapter008.html) - after ten o\x{2019}clock",
+            "He had asked his Grandmother why he couldn\x{2019}t stay up until it was dark and she had explained that today was the longest day and tonight was the shortest night, and that it wouldn\x{2019}t get dark until <<after ten o\x{2019}clock|6>>, far too late for a boy of eight to stay up. All right, he thought, if it was the shortest night he wouldn\x{2019}t go to sleep at all. He would see what it was like not to sleep.",
+          ],
+          [
+            1,
+            '[ap ~ 08:00] Stig of the Dump - Clive King.epub (ops/xhtml/chapter008.html) - About eight',
+            "Barney thought of Stig. I bet he doesn\x{2019}t go to sleep when it\x{2019}s daylight, he thought. And he\x{2019}s \x{2013} how old? How old was Stig? <<About eight|9:0>>? Eighty? Eight hundred? Eight thousand?",
+          ],
+          [
+            1,
+            '[ap 01:00] Stig of the Dump - Clive King.epub (ops/xhtml/chapter008.html) - One',
+            'It was so quiet that they could hear the chiming of a church clock from a long way away. <<One|9k:0>>, <<two|9k:0>>, <<three|9k:0>>, <<four|9k:0>>, <<five|9k:0>>, <<six|9k:0>>, <<seven|9k:0>>, <<eight|9k:0>>, <<nine|9k:0>>, <<ten|9k:0>>, <<eleven|9k:0>>, <<twelve|9k:0>>.',
+          ],
+          [
+            1,
+            '[ap 01:00] Stig of the Dump - Clive King.epub (ops/xhtml/chapter008.html) - One',
+            "It was so quiet that they could hear the chiming of a church clock from a long way away. <<One|9k:0>>, <<two|9k:0>>, <<three|9k:0>>, <<four|9k:0>>, <<five|9k:0>>, <<six|9k:0>>, <<seven|9k:0>>, <<eight|9k:0>>, <<nine|9k:0>>, <<ten|9k:0>>, <<eleven|9k:0>>, <<twelve|9k:0>>.
+\x{2018}<<Midnight|13>>!\x{2019} breathed Lou.
+They walked to the edge of the dark wood together. Then they stopped.",
+          ],
+          [
+            1,
+            '[ap 06:32] Stig of the Dump - Clive King.epub (ops/xhtml/copyright.html) - 0632',
+            'Penguin Group (NZ), 67 Apollo Drive, Rosedale, North Shore <<0632|18:0>>, New Zealand  (a division of Pearson New Zealand Ltd)',
+          ],
+        ];

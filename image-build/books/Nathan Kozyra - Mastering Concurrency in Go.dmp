@@ -1,0 +1,190 @@
+$VAR1 = [
+          [
+            1,
+            '[ap 02:00] Mastering Concurrency in Go - Nathan Kozyra.epub (text/part0014_split_002.html) - two',
+            'The Add() method specifies how many Done messages goGroup should receive before satisfying its wait. Here, we specified 2 because we have two functions running asynchronously. If you had three goroutine members and still called <<two|9f>>, you may see the output of the third. If you added a value more than two to goGroup, for example, goGroup.Add(3), then WaitGroup would wait forever and deadlock.',
+          ],
+          [
+            1,
+            '[ap 06:44] Mastering Concurrency in Go - Nathan Kozyra.epub (text/part0015_split_001.html) - 0644',
+            'package main
+
+import (
+  "fmt"
+  "time"
+  "io/ioutil"
+)
+
+
+
+type Job struct {
+  i int
+  max int
+  text string
+}
+
+func outputText(j *Job) {
+  fileName := j.text + ".txt"
+  fileContents := ""
+  for j.i < j.max {
+    time.Sleep(1 * time.Millisecond)
+    fileContents += j.text
+    fmt.Println(j.text)
+    j.i++
+  }
+  err := ioutil.WriteFile(fileName, []byte(fileContents), <<0644|18:0>>)
+  if (err != nil) {
+    panic("Something went awry")
+  }
+
+}
+
+func main() {
+
+  hello := new(Job)
+  hello.text = "hello"
+  hello.i = 0
+  hello.max = 3
+
+  world := new(Job)
+  world.text = "world"
+  world.i = 0
+  world.max = 5
+
+
+  go outputText(hello)
+  go outputText(world)
+
+}',
+          ],
+          [
+            1,
+            '[20:59] Mastering Concurrency in Go - Nathan Kozyra.epub (text/part0033_split_000.html) - 20:59',
+            'Message: 2014/01/21 <<20:59|2>>:11 /var/go/log.go:12: This is a message from the application!',
+          ],
+          [
+            1,
+            '[09:00] Mastering Concurrency in Go - Nathan Kozyra.epub (text/part0034.html) - 9 a.m.',
+            'With these in mind, we\'ll attempt to handle some rudimentary human scheduling by designing an appointment calendar that can handle any number of people with one hour timeslots between <<9 a.m.|5>> and <<5 p.m.|5>>',
+          ],
+          [
+            1,
+            '[09:00] Mastering Concurrency in Go - Nathan Kozyra.epub (text/part0035_split_002.html) - 9 a.m.',
+            'In fact, as we have literal hour blocks from <<9 a.m.|5>> to <<5 p.m.|5>>, we just set these to the 24-hour time values of <<9-17|5a:1>>, and invoke a function to translate them into linguistic dates.',
+          ],
+          [
+            1,
+            '[17:00] Mastering Concurrency in Go - Nathan Kozyra.epub (text/part0036.html) - 5 p.m.',
+            'The previous screenshot is our initial view that shows us available users and their available time slots. By selecting a timeslot for a user, we\'ll attempt to book them for that particular time. We\'ll start with Nathan at <<5 p.m.|5>>',
+          ],
+          [
+            1,
+            '[17:00] Mastering Concurrency in Go - Nathan Kozyra.epub (text/part0036.html) - 5 p.m',
+            'However, if we attempt to book again (even simultaneously), we\'ll be greeted with a sad message that Nathan cannot see us at <<5 p.m|5>>, as shown in the following screenshot:',
+          ],
+          [
+            1,
+            '[ap 00:59] Mastering Concurrency in Go - Nathan Kozyra.epub (text/part0043_split_002.html) - one-to-one',
+            'Also remember that you\'ll frequently have to handle type conversions between C and Go that don\'t have <<one-to-one|10a:0>> analogs. For example, C does not have a built-in string type (you can, of course, include additional libraries for types), so you may need to convert between strings and char arrays. Similarly, int and int64 might need some nonimplicit conversion, and again, you may not get the debugging feedback that you might expect when compiling these.',
+          ],
+          [
+            1,
+            '[ap ~ 08:00] Mastering Concurrency in Go - Nathan Kozyra.epub (text/part0055_split_001.html) - around 800',
+            'Ouch! Not even close. There are things we can do to tune the connections available (and respective threads/workers) within Apache, but this is not really our goal. Mostly, we want to know what happens with an out-of-the-box Apache server. In these benchmarks, we start to drop or refuse connections at <<around 800|3:0>> concurrent connections.',
+          ],
+          [
+            1,
+            '[ap 04:11] Mastering Concurrency in Go - Nathan Kozyra.epub (text/part0055_split_002.html) - 411',
+            'The results are certainly encouraging as compared to Apache. Neither of our test systems were tweaked much (Apache as installed and basic FileServer in Go), but Go\'s FileServer handles 1,000 concurrent connections without so much as a blip, with the slowest clocking in at <<411|3:0>> ms.',
+          ],
+          [
+            1,
+            '[ap 07:55] Mastering Concurrency in Go - Nathan Kozyra.epub (text/part0078_split_005.html) - 0755',
+            'package main
+
+import (
+  "log"
+  "os"
+)
+
+func main() {
+  logFile, _ := os.OpenFile("/var/www/test.log", os.O_RDWR, <<0755|18:0>>)
+
+  log.SetOutput(logFile)
+  log.Println("Sending an entry to log!")
+
+  logFile.Close()
+}',
+          ],
+          [
+            1,
+            '[ap 07:55] Mastering Concurrency in Go - Nathan Kozyra.epub (text/part0078_split_005.html) - 0755',
+            'for i:=0; i< totalGoroutines; i++ {
+
+    myWorker := Worker{}
+    myWorker.Name = "Goroutine " + strconv.FormatInt(int64(i),10) 
+      + ""
+    myWorker.FileName = "/var/www/"+strconv.FormatInt(int64(i),10) 
+      + ".log"
+    tmpFile,_ :=   os.OpenFile(myWorker.FileName, os.O_CREATE, 
+      <<0755|18:0>>)
+    myWorker.File = tmpFile
+    myWorker.wLog = log.New(myWorker.File, myWorker.Name, 1)
+    go func(w *Worker) {
+
+        w.wLog.Print("Hmm")
+
+        done <- true
+    }(&myWorker)
+  }',
+          ],
+          [
+            1,
+            '[ap 00:00] Mastering Concurrency in Go - Nathan Kozyra.epub (text/part0078_split_006.html) - 12:00am',
+            'var currentGoroutine int
+
+func (li LogItem) logRequest(bucket *couchbase.Bucket) {
+
+  hash := md5.New()
+  io.WriteString(hash,li.ServerID+li.Page+li.Timestamp.Format("Jan 
+    1, 2014 <<12:00am|2a>>"))
+  hashString := hex.EncodeToString(hash.Sum(nil))
+  bucket.Set(hashString,0,li)
+  currentGoroutine = 0
+}',
+          ],
+          [
+            1,
+            '[ap 10:46] Mastering Concurrency in Go - Nathan Kozyra.epub (text/part0079_split_000.html) - 10:46',
+            '04/13/14 <<10:46|2>> - Page found%!(EXTRA string=/valid) (main.pageHandler:24)',
+          ],
+          [
+            1,
+            '[23:25] Mastering Concurrency in Go - Nathan Kozyra.epub (text/part0080.html) - 23:25',
+            '04/16/14 <<23:25|2>> - Goroutine from + /var/log/go/ch9_11_stacktrace.goch9_11_stacktrace.go stack:goroutine 4 [running]:
+main.goDetails(0xc08400b300)
+  /var/log/go/ch9_11_stacktrace.goch9_11_stacktrace.go:41 +0x8e
+created by main.main
+  /var/log/go/ch9_11_stacktrace.goch9_11_stacktrace.go:69 +0x4c
+  
+  /var/log/go/ch9_11_stacktrace.goch9_11_stacktrace.go14 goroutines active (main.saveLogs:31)',
+          ],
+          [
+            1,
+            '[00:00] Mastering Concurrency in Go - Nathan Kozyra.epub (text/part0083.html) - 00:00',
+            'Checking Server Google
+        Server was OK on last check at 0001-01-01 <<00:00|2>>:00 +0000 UTC
+        200 OK
+        Will check server again
+Checking Server Yahoo
+        Server was OK on last check at 0001-01-01 <<00:00|2>>:00 +0000 UTC
+        200 OK
+        Will check server again
+Checking Server Amazon
+        Server was OK on last check at 0001-01-01 <<00:00|2>>:00 +0000 UTC
+        Error:  Get http://amazon.zom: dial tcp: GetAddrInfoW: No such host is known.
+        Will check server again
+Checking Server Google
+        Server was OK on last check at 2014-04-23 <<12:49|2>>:45.6575639 -<<0400|18:0>> EDT',
+          ],
+        ];

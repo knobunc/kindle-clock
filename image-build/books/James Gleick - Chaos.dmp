@@ -1,0 +1,73 @@
+$VAR1 = [
+          [
+            1,
+            '[12:00] Chaos_ Making a New Science - James Gleick.epub (index_split_007.html) - midday',
+            "THE SUN BEAT DOWN through a sky that had never seen clouds. The winds swept across an earth as smooth as glass. Night never came, and autumn never gave way to winter. It never rained. The simulated weather in Edward Lorenz\x{2019}s new electronic computer changed slowly but certainly, drifting through a permanent dry <<midday|13>> midseason, as if the world had turned into Camelot, or some particularly bland version of southern California.",
+          ],
+          [
+            1,
+            '[12:00] Chaos_ Making a New Science - James Gleick.epub (index_split_007.html) - noon',
+            "The modern weather models work with a grid of points on the order of sixty miles apart, and even so, some starting data has to be guessed, since ground stations and satellites cannot see everywhere. But suppose the earth could be covered with sensors spaced one foot apart, rising at one-foot intervals all the way to the top of the atmosphere. Suppose every sensor gives perfectly accurate readings of temperature, pressure, humidity, and any other quantity a meteorologist would want. Precisely at <<noon|13>> an infinitely powerful computer takes all the data and calculates what will happen at each point at <<12:01|2>>, then <<12:02|2>>, then <<12:03|2>>\x{2026}",
+          ],
+          [
+            1,
+            '[12:00] Chaos_ Making a New Science - James Gleick.epub (index_split_007.html) - noon',
+            'The computer will still be unable to predict whether Princeton, New Jersey, will have sun or rain on a day one month away. At <<noon|13>> the spaces between the sensors will hide fluctuations that the computer will not know about, tiny deviations from the average. By <<12:01|2>>, those fluctuations will already have created small errors one foot away. Soon the errors will have multiplied to the ten-foot scale, and so on up to the size of the globe.',
+          ],
+          [
+            1,
+            '[00:02] Chaos_ Making a New Science - James Gleick.epub (index_split_011.html) - 0.02',
+            "So begin: Choose an arbitrary value for r, say, 2.7, and a starting population of .02. One minus .02 is .98. Multiply by <<0.02|3:0>> and you get .0196. Multiply that by 2.7 and you get .<<0529|18:0>>. The very small starting population has more than doubled. Repeat the process, using the new population as the seed, and you get .1353. With a cheap programmable calculator, this iteration is just a matter of pushing one button over and over again. The population rises to .3159, then .5835, then .6562\x{2014}the rate of increase is slowing. Then, as starvation overtakes reproduction, .6092. Then .6428, then .6199, then .6362, then .6249. The numbers seem to be bouncing back and forth, but closing in on a fixed number: .6328, .6273, .6312, .6285, .6304, .6291, .6300, .6294, .6299, .6295, .6297, .6296, .6297, .6296, .6296, .6296, .6296, .6296, .6296, .6296. Success!",
+          ],
+          [
+            1,
+            '[ap 04:00] Chaos_ Making a New Science - James Gleick.epub (index_split_017.html) - 0 to 4',
+            "For an ecologist, the most obvious sort of function for population growth is linear\x{2014}the Malthusian scenario of steady, limitless growth by a fixed percentage each year (left). More realistic functions formed an arch, sending the population back downward when it became too high. Illustrated is the \x{201c}logistic map,\x{201d} a perfect parabola, defined by the function y = rx(1\x{2013}x), where the value of r, from <<0 to 4|10a:0>>, determines the parabola\x{2019}s steepness. But Feigenbaum discovered that it did not matter precisely what sort of arch he used; the details of the equation were beside the point. What mattered was that the function should have a \x{201c}hump.\x{201d}",
+          ],
+          [
+            1,
+            '[~ 16:00] Chaos_ Making a New Science - James Gleick.epub (index_split_017.html) - around 1600',
+            "\x{201c}In a way, art is a theory about the way the world looks to human beings. It\x{2019}s abundantly obvious that one doesn\x{2019}t know the world around us in detail. What artists have accomplished is realizing that there\x{2019}s only a small amount of stuff that\x{2019}s important, and then seeing what it was. So they can do some of my research for me. When you look at early stuff of Van Gogh there are zillions of details that are put into it, there\x{2019}s always an immense amount of information in his paintings. It obviously occurred to him, what is the irreducible amount of this stuff that you have to put in. Or you can study the horizons in Dutch ink drawings from <<around 1600|9c:0>>, with tiny trees and cows that look very real. If you look closely, the trees have sort of leafy boundaries, but it doesn\x{2019}t work if that\x{2019}s all it is\x{2014}there are also, sticking in it, little pieces of twiglike stuff. There\x{2019}s a definite interplay between the softer textures and the things with more definite lines. Somehow the combination gives the correct perception. With Ruysdael and Turner, if you look at the way they construct complicated water, it is clearly done in an iterative way. There\x{2019}s some level of stuff, and then stuff painted on top of that, and then corrections to that.
+Turbulent fluids for those painters is always something with a scale idea in it.",
+          ],
+          [
+            1,
+            "[ap 03:00] Chaos_ Making a New Science - James Gleick.epub (index_split_021.html) - three o\x{2019}clock",
+            "Now, in spite of himself, Hubbard began using a computer to do what the orthodox techniques had not done. The computer would prove nothing. But at least it might unveil the truth so that a mathematician could know what it was he should try to prove. So Hubbard began to experiment. He treated Newton\x{2019}s method not as a way of solving problems but as a problem in itself. Hubbard considered the simplest example of a degree-three polynomial, the equation x\x{2013} 1 =0. That is, find the cube root of 1. In real numbers, of course, there is just the trivial solution: 1. But the polynomial also has two complex solutions: \x{2013}\x{bd} + i\x{221a}3/2, and \x{2013}\x{bd} \x{2013} i\x{221a}3/2. Plotted in the complex plane, these three roots mark an equilateral triangle, with one point at <<three o\x{2019}clock|6>>, one at <<seven o\x{2019}clock|6>>, and one at <<eleven o\x{2019}clock|6>>. Given any complex number as a starting point, the question was to see which of the three solutions Newton\x{2019}s method would lead to. It was as if Newton\x{2019}s method were a dynamical system and the three solutions were three attractors. Or it was as if the complex plane were a smooth surface sloping down toward three deep valleys. A marble starting from anywhere on the plane should roll into one of the valleys\x{2014}but which?",
+          ],
+          [
+            1,
+            '[ap 01:00] Chaos_ Making a New Science - James Gleick.epub (index_split_021.html) - 0 to 1',
+            "This business of repeating a process indefinitely and asking whether the result is infinite resembles feedback processes in the everyday world. Imagine that you are setting up a microphone, amplifier, and speakers in an auditorium. You are worried about the squeal of sonic feedback. If the microphone picks up a loud enough noise, the amplified sound from the speakers will feed back into the microphone in an endless, ever louder loop. On the other hand, if the sound is small enough, it will just die away to nothing. To model this feedback process with numbers, you might take a starting number, multiply it by itself, multiply the result by itself, and so on. You would discover that large numbers lead quickly to infinity: 10, 100, 10,000\x{2026}. But small numbers lead to zero: \x{bd}, \x{bc} 1/16\x{2026}. To make a geometric picture, you define a collection of all the points that, when fed into this equation, do not run away to infinity. Consider the points on a line from zero upward. If a point produces a squeal of feedback, color it white. Otherwise color it black. Soon enough, you will have a shape that consists of a black line from <<0 to 1|10a:0>>.",
+          ],
+          [
+            1,
+            "[01:00] Chaos_ Making a New Science - James Gleick.epub (index_split_023.html) - one o\x{2019}clock in the morning",
+            "WILLIAM BURKE, A SANTA CRUZ COSMOLOGIST and relativist, ran into his friend Edward A. Spiegel, an astrophysicist, at <<one o\x{2019}clock in the morning|6>> in the lobby of a Boston hotel, where they were attending a conference on general relativity. \x{201c}Hey, I\x{2019}ve just been listening to the Lorenz attractor,\x{201d} Spiegel said. Spiegel had transmuted this emblem of chaos, using some impromptu circuitry connected to a hi-fi set, into a looping slide-whistle antimelody. He brought Burke into the bar for a drink and explained.",
+          ],
+          [
+            1,
+            '[ap 01:00] Chaos_ Making a New Science - James Gleick.epub (index_split_023.html) - 0100',
+            "Beyond its technical aptness to the beginning of the computer era, Shannon information theory gained a modest philosophical stature, and a surprising part of the theory\x{2019}s appeal to people beyond Shannon\x{2019}s field could be attributed to the choice of a single word: entropy. As Warren Weaver put it in a classic exposition of information theory, \x{201c}When one meets the concept of entropy in communication theory, he has a right to be rather excited\x{2014}a right to suspect that one has hold of something that may turn out to be basic and important.\x{201d} The concept of entropy comes from thermodynamics, where it serves as an adjunct of the Second Law, the inexorable tendency of the universe, and any isolated system in it, to slide toward a state of increasing disorder. Divide a swimming pool in half with some barrier; fill one half with water and one with ink; wait for all to be still; lift the barrier; simply through the random motion of molecules, eventually the ink and water will mix. The mixing never reverses itself, even if you wait till the end of the universe, which is why the Second Law is so often said to be the part of physics that makes time a one-way street. Entropy is the name for the quality of systems that increases under the Second Law\x{2014}mixing, disorder, randomness. The concept is easier to grasp intuitively than to measure in any real-life situation. What would be a reliable test for the level of mixing of two substances? One could imagine counting the molecules of each in some sample. But what if they were arranged yes-no\x{2013}yes-no\x{2013}yes-no\x{2013}yes-no? Entropy could hardly be described as high. One could count just the even molecules, but what if the arrangement were yes-no\x{2013}no-yes\x{2013}yes-no\x{2013}no-yes? Order intrudes in ways that defy any straightforward counting algorithm. And in information theory, issues of meaning and representation present extra complications. A sequence like 01 <<0100|18:0>> <<0100|18:0>> <<0010|18:0>> 111 010 11 00 000 <<0010|18:0>> 111 010 11 <<0100|18:0>> 0 000 000\x{2026}might seem orderly only to an observer familiar with Morse code and Shakespeare. And what about the topologically perverse patterns of a strange attractor?",
+          ],
+          [
+            1,
+            '[ap 01:50] Chaos_ Making a New Science - James Gleick.epub (index_split_023.html) - 150',
+            "As the flow rate was increased, the system would go through a period-doubling bifurcation. Drops would fall in pairs. One interval might be 150 milliseconds, and the next might be 80. So the graph would show two fuzzy blobs, one centered at <<150|3:0>>\x{2013}80 and the other at 80\x{2013}150. The real test came when the pattern became chaotic. If it were truly random, points would be scattered all over the graph. There would be no relation to be found between one interval and the next. But if a strange attractor were hidden in the data, it might reveal itself as a coalescence of fuzziness into distinguishable structures.",
+          ],
+          [
+            1,
+            '[00:00] Chaos_ Making a New Science - James Gleick.epub (index_split_025.html) - midnight',
+            "The prediction was surprising, but Winfree\x{2019}s experiments bore it out. \x{201c}You go to a mosquito at <<midnight|13>> and give him a certain number of photons, and that particularly well-timed jolt turns off the mosquito\x{2019}s clock. He\x{2019}s an insomniac after that\x{2014}he\x{2019}ll doze, buzz for a while, all at random, and he\x{2019}ll continue doing that for as long as you care to watch, or until you come along with another jolt. You\x{2019}ve given him perpetual jet lag.\x{201d} In the early seventies Winfree\x{2019}s mathematical approach to circadian rhythms stirred little general interest, and it was hard to extend the laboratory technique to species that would object to sitting in little cages for months at a time.",
+          ],
+          [
+            1,
+            "[~ 18:00] Chaos_ Making a New Science - James Gleick.epub (index_split_025.html) - about six o\x{2019}clock that evening",
+            "\x{201c}When Mines decided it was time to begin work with human beings, he chose the most readily available experimental subject: himself,\x{201d} Winfree wrote. \x{201c}At <<about six o\x{2019}clock that evening|6>>, a janitor, thinking it was unusually quiet in the laboratory, entered the room. Mines was lying under the laboratory bench surrounded by twisted electrical equipment. A broken mechanism was attached to his chest over the heart and a piece of apparatus nearby was still recording the faltering heartbeat. He died without recovering consciousness.\x{201d}",
+          ],
+          [
+            1,
+            '[ap 04:16] Chaos_ Making a New Science - James Gleick.epub (index_split_029.html) - 4:16',
+            "WHEN E. I. DUPONT Barnaby J. Feder, \x{201c}The Army May Have Matched the Goose,\x{201d} The New York Times, 30 November 1986, <<4:16|2>>.",
+          ],
+        ];

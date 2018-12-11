@@ -1,0 +1,68 @@
+$VAR1 = [
+          [
+            1,
+            "[ap 08:00] The Mirror Crack'd - Agatha Christie.epub (OEBPS/011_chapter06.html) - eight o\x{2019}clock",
+            "\x{201c}Half an hour ago,\x{201d} said Miss Marple, thoughtfully, \x{201c}that would have been\x{2014}let me see\x{2014}<<eight o\x{2019}clock|6>>.\x{201d}",
+          ],
+          [
+            1,
+            '[ap 03:00] The Mirror Crack\'d - Agatha Christie.epub (OEBPS/012_chapter07.html) - three',
+            "\x{201c}Oh, no. Only since we came here.\x{201d}
+\x{201c}You\x{2019}ve been here two years, I believe, or is it <<three|9f>>?\x{201d}
+\x{201c}<<Just about three|9:0>> now,\x{201d} said Arthur. \x{201c}Mrs. Bain only got here six months ago,\x{201d} he explained. \x{201c}Her son works near here and so, after her husband\x{2019}s death, she came down to live here and he boards with her.\x{201d}",
+          ],
+          [
+            1,
+            '[ap < 03:00] The Mirror Crack\'d - Agatha Christie.epub (OEBPS/012_chapter07.html) - Just about three',
+            "\x{201c}<<Just about three|9:0>> now,\x{201d} said Arthur. \x{201c}Mrs. Bain only got here six months ago,\x{201d} he explained. \x{201c}Her son works near here and so, after her husband\x{2019}s death, she came down to live here and he boards with her.\x{201d}",
+          ],
+          [
+            1,
+            '[ap 23:50] The Mirror Crack\'d - Agatha Christie.epub (OEBPS/014_chapter09.html) - Ten to twelve',
+            "\x{201c}No idea. She\x{2019}s got a son working near here who lives with her. She seems a quiet, respectable woman. All the same, I\x{2019}ve a feeling I\x{2019}ve seen her before.\x{201d} He looked at his watch. \x{201c}<<Ten to twelve|10a:1>>. I\x{2019}ve made an appointment for you at Gossington Hall at <<twelve o\x{2019}clock|6>>. We\x{2019}d best be going.\x{201d}",
+          ],
+          [
+            1,
+            '[ap 10:40] The Mirror Crack\'d - Agatha Christie.epub (OEBPS/021_chapter16.html) - twenty to eleven',
+            "\x{201c}That\x{2019}s the loud one with the battle, isn\x{2019}t it?\x{201d} said Cherry. She made a face. \x{201c}Our Mrs. Hartwell won\x{2019}t half like that! Neighbours! I\x{2019}m fed up with neighbours. Always grousing and complaining. I don\x{2019}t know which is the worst. The Hartwells or the Barnabys. The Hartwells start rapping on the wall as early as <<twenty to eleven|10a:0>> sometimes. It\x{2019}s a bit thick! After all even the telly and the BBC go on later than that. Why shouldn\x{2019}t we have a bit of music if we like? And always asking us to turn it down low.\x{201d}",
+          ],
+          [
+            1,
+            '[> 00:00] The Mirror Crack\'d - Agatha Christie.epub (OEBPS/023_chapter18.html) - past midnight',
+            'It was <<past midnight|13>> when Giuseppe returned to Gossington. He took a taxi from Much Benham, as the last train on the branch line to St. Mary Mead had gone.',
+          ],
+          [
+            1,
+            '[ap 07:30] The Mirror Crack\'d - Agatha Christie.epub (OEBPS/025_chapter20.html) - half past seven',
+            "\x{201c}Mum\x{2019}s out at work. She won\x{2019}t be in until <<half past seven|10>>. But she can\x{2019}t tell you anymore than I can. Gladys has gone off for a holiday.\x{201d}",
+          ],
+          [
+            1,
+            '[11:30] The Mirror Crack\'d - Agatha Christie.epub (OEBPS/026_chapter21.html) - eleven-thirty in the morning',
+            "\x{201c}He arrived in London at <<eleven-thirty in the morning|5>>,\x{201d} said Craddock, \x{201c}and what he did in London nobody knows until a <<quarter to two|10>> he visited his bank and made a deposit of five hundred pounds in cash. I may say that there was no confirmation of his story that he went to London to visit an ill relative or a relative who had got into trouble. None of his relatives there had seen him.\x{201d}",
+          ],
+          [
+            1,
+            '[ap 01:49] The Mirror Crack\'d - Agatha Christie.epub (OEBPS/026_chapter21.html) - eleven and a quarter to two',
+            "\x{201c}Exactly. We have in London Ardwyck Fenn, Lola Brewster and Margot Bence. All three were present at the party. All three of them could have met Giuseppe at an arranged meeting place somewhere in London between the hours of <<eleven and a quarter to two|10>>. Ardwyck Fenn was out of his office during those hours. Lola Brewster had left her suite to go shopping. Margot Bence was not in her studio. By the way\x{2014}\x{201d}",
+          ],
+          [
+            1,
+            '[ap 09:52] The Mirror Crack\'d - Agatha Christie.epub (OEBPS/027_chapter22.html) - Eight to ten',
+            "\x{201c}Well,\x{201d} he said. \x{201c}No good my stopping here. You look as fit as a fiddle. I shan\x{2019}t waste time taking your blood pressure or feeling your pulse or asking you questions. You\x{2019}re thriving on all this local excitement, even if you can\x{2019}t get about to poke your nose in as much as you\x{2019}d like to do. Goodbye, I\x{2019}ve got to go now and do some real doctoring. <<Eight to ten|10a:0>> cases of German measles, half a dozen whooping coughs, and a suspected scarlet fever as well as my regulars!\x{201d}",
+          ],
+          [
+            1,
+            '[ap 04:50] The Mirror Crack\'d - Agatha Christie.epub (OEBPS/030_backmatterpage02.html) - 4:50',
+            "A Pocket Full of Rye
+<<4:50|2>> From Paddington
+The Mirror Crack\x{2019}d from Side to Side",
+          ],
+          [
+            1,
+            '[ap 04:50] The Mirror Crack\'d - Agatha Christie.epub (OEBPS/034_adcardpage.html) - 4:50',
+            "A Pocket Full of Rye
+<<4:50|2>> from Paddington
+The Mirror Crack\x{2019}d from Side to Side",
+          ],
+        ];

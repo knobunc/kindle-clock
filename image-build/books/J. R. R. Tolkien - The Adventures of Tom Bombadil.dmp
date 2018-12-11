@@ -1,0 +1,48 @@
+$VAR1 = [
+          [
+            1,
+            '[ap > 03:00] The Adventures of Tom Bombadil - J. R. R. Tolkien.epub (OEBPS/Text/chapter007.html) - after three',
+            "While the landlord shook the Man in the Moon:
+\x{2018}It\x{2019}s <<after three|9f>>!\x{2019} he said.
+They rolled the Man slowly up the hill",
+          ],
+          [
+            1,
+            "[ap 03:00] The Adventures of Tom Bombadil - J. R. R. Tolkien.epub (OEBPS/Text/chapter018.html) - three o\x{2019}clock",
+            "F\x{ed}riel looked out at <<three o\x{2019}clock|6>>:
+the grey night was going;",
+          ],
+          [
+            1,
+            '[ap < 05:00] The Adventures of Tom Bombadil - J. R. R. Tolkien.epub (OEBPS/Text/chapter025.html) - nearly five',
+            "While the landlord shook the Man-in-the-Moon,
+And cried \x{2018}\x{2019}tis <<nearly five|9f>>!\x{2019}
+They rolled him slowly up the hill",
+          ],
+          [
+            1,
+            '[19:23] The Adventures of Tom Bombadil - J. R. R. Tolkien.epub (OEBPS/Text/chapter034.html) - 1923',
+            "And yet, in \x{2018}The Silmarillion\x{2019} as it stood in 1937 but not in the Oxford Magazine poem of that year (carried forward in 1962), the main labours of the Ainur took place long before the creation of the moon and sun; and it also must be said that \x{2018}When the moon was new and the sun young\x{2019} is very much of a kind with \x{2018}once upon a time, long ago\x{2019} as a traditional way to begin a story, whether or not it refers to an earlier conception. The I\x{fa}monna Gold Galdre Bewunden of 1923, though with no reference to \x{2018}gods\x{2019}, also includes \x{2018}Silmarillion\x{2019} echoes, for instance that the Elves sang under green hills (in Elfinesse, an earlier equivalent of Elvenhome) before \x{2018}dwarves were spawned in dungeons rude\x{2019} (primitive). It is conceivable that the mythology \x{2013} always a \x{2018}dominant construction\x{2019} in Tolkien\x{2019}s thoughts (Letters, p. 346) \x{2013} had an influence on the earlier poem\x{2019}s composition; but it need not have done. Literary treatments of hoards were abundant before <<1923|9c:0>>, if any were needed for inspiration, and the subjects of greed and power run like a thread through Tolkien\x{2019}s fiction, most significantly in The Hobbit with its \x{2018}dragon-sickness\x{2019}, The Lord of the Rings with its overmastering Ring, and the story of F\x{eb}anor and the Silmarils in \x{2018}The Silmarillion\x{2019}.",
+          ],
+          [
+            1,
+            "[ap 03:00] The Adventures of Tom Bombadil - J. R. R. Tolkien.epub (OEBPS/Text/chapter036.html) - three o\x{2019}clock",
+            "The precursor to The Last Ship was the poem Firiel, published in the Chronicle of the Convents of the Sacred Heart, no. 4 (1934):
+Firiel looked out at <<three o\x{2019}clock|6>>:
+the grey night was going;",
+          ],
+          [
+            1,
+            "[ap 08:00] The Adventures of Tom Bombadil - J. R. R. Tolkien.epub (OEBPS/Text/chapter036.html) - eight o\x{2019}clock",
+            "earth\x{2019}s fair daughter.
+At <<eight o\x{2019}clock|6>> in green and white,
+with long hair braided,",
+          ],
+          [
+            1,
+            '[12:00] The Adventures of Tom Bombadil - J. R. R. Tolkien.epub (OEBPS/Text/chapter040.html) - noon',
+            'This essence of the plenilune,
+Thirsty, perchance, from dancing all the <<noon|13>>.
+',
+          ],
+        ];

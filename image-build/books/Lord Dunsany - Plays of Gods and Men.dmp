@@ -1,0 +1,30 @@
+$VAR1 = [
+          [
+            1,
+            '[< 12:00] Plays of Gods and Men - Lord Dunsany.epub (Lord Dunsany - Plays Of Gods And Men_split_000.htm) - nearly noon',
+            "King:
+It is <<nearly noon|13>>.\x{a0} It is <<nearly noon|13>>.\x{a0} It is <<nearly
+noon|13>>.",
+          ],
+          [
+            1,
+            '[< 12:00] Plays of Gods and Men - Lord Dunsany.epub (Lord Dunsany - Plays Of Gods And Men_split_000.htm) - nearly noon',
+            "It is <<nearly noon|13>>.\x{a0} It is <<nearly noon|13>>.\x{a0} It is <<nearly
+noon|13>>.
+",
+          ],
+          [
+            1,
+            '[12:00] Plays of Gods and Men - Lord Dunsany.epub (Lord Dunsany - Plays Of Gods And Men_split_000.htm) - noon',
+            "Zabra:
+But it is <<noon|13>> now.\x{a0} Our fatness has left us.\x{a0} Our
+enemies mock at us.\x{a0} If he do not come God has",
+          ],
+          [
+            1,
+            '[> 12:00] Plays of Gods and Men - Lord Dunsany.epub (Lord Dunsany - Plays Of Gods And Men_split_000.htm) - past noon',
+            'Zabra:
+I fear that it is <<past noon|13>>.
+',
+          ],
+        ];

@@ -1,0 +1,29 @@
+$VAR1 = [
+          [
+            1,
+            '[12:00] Well-Tempered Clavicle - Piers Anthony.epub (OEBPS/xhtml/chapter10.html) - noon',
+            'By <<noon|13>> they had gone over all the upper sections, admiring the well-kept chambers, but finding no Box.',
+          ],
+          [
+            1,
+            '[> 00:00] Well-Tempered Clavicle - Piers Anthony.epub (OEBPS/xhtml/chapter20.html) - after midnight',
+            "\x{201c}That\x{2019}s right! It should renew <<after midnight|13>>. That\x{2019}s only a couple hours away. Picka, I\x{2019}m not going to sleep now; I\x{2019}ll wait for it.\x{201d}",
+          ],
+          [
+            1,
+            '[00:00] Well-Tempered Clavicle - Piers Anthony.epub (OEBPS/xhtml/chapter20.html) - Midnight',
+            "\x{201c}But\x{2014}\x{201d}
+A clock bonged in the castle. \x{201c}<<Midnight|13>>. Invoke the spell, Picka.\x{201d}
+\x{201c}But\x{2014}\x{201d}",
+          ],
+          [
+            1,
+            '[12:00] Well-Tempered Clavicle - Piers Anthony.epub (OEBPS/xhtml/chapter4.html) - noon',
+            "By <<noon|13>> they reached the great Gap Chasm. Picka and Joy\x{2019}nt had seen it before, but it remained impressive. It was a huge crack in the ground, so deep that a few small clouds were floating in it below the normal ground level. Deep within it, they knew, ran the dreaded Gap Dragon, Stanley Steamer. Except that he wasn\x{2019}t dread to Dawn or the skeletons, who knew him from way back.",
+          ],
+          [
+            1,
+            '[ap 02:03] Well-Tempered Clavicle - Piers Anthony.epub (OEBPS/xhtml/chapter8.html) - two three',
+            "Then they heard something. It sounded like a troop of men marching. \x{201c}Hup <<two three|5l:0>> four! Hup <<two three|5l:0>> four!\x{201d}",
+          ],
+        ];

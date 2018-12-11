@@ -1,0 +1,129 @@
+$VAR1 = [
+          [
+            1,
+            '[21:35] Design Patterns_ Elements of Reusable Obje - Erich Gamma.epub (OEBPS/html/bib.html) - 21-35',
+            'Andreas Birrer and Thomas Eggenschwiler. Frameworks in the financial engineering domain: An experience report. In European Conference on Object-Oriented Programming, pages <<21-35|5a:0>>, Kaiserslautern, Germany, July 1993. Springer-Verlag.',
+          ],
+          [
+            1,
+            '[ap 01:11] Design Patterns_ Elements of Reusable Obje - Erich Gamma.epub (OEBPS/html/bib.html) - 1-11',
+            'Grady Booch and Michael Vilot. The design of the C++ Booch components. In Object-Oriented Programming Systems, Languages, and Applications Conference Proceedings, pages <<1-11|5a:0>>, Ottawa, Canada, October 1990. ACM Press.',
+          ],
+          [
+            1,
+            '[ap 01:15] Design Patterns_ Elements of Reusable Obje - Erich Gamma.epub (OEBPS/html/bib.html) - 1-15',
+            'William R. Cook. Interfaces and specifications for the Smalltalk-80 collection classes. In Object-Oriented Programming Systems, Languages, and Applications Conference Proceedings, pages <<1-15|5a:0>>, Vancouver, British Columbia, Canada, October 1992. ACM Press.',
+          ],
+          [
+            1,
+            '[ap 01:19] Design Patterns_ Elements of Reusable Obje - Erich Gamma.epub (OEBPS/html/bib.html) - 1-19',
+            "D. R. Edelson. Smart pointers: They\x{2019}re smart, but they\x{2019}re not pointers. In Proceedings of the 1992 USENIX C++ Conference, pages <<1-19|5a:0>>, Portland, OR, August 1992. USENIX Association.",
+          ],
+          [
+            1,
+            '[19:21] Design Patterns_ Elements of Reusable Obje - Erich Gamma.epub (OEBPS/html/bib.html) - 19-21',
+            'M. Graham and E. Mettala. The Domain-Specific Software Architecture Program. In Proceedings of DARPA Software Technology Conference, 1992, pages 204-210, April 1992. Also published in CrossTalk, The Journal of Defense Software Engineering, pages <<19-21|5a:0>>,32, October 1992.',
+          ],
+          [
+            1,
+            '[ap 01:22] Design Patterns_ Elements of Reusable Obje - Erich Gamma.epub (OEBPS/html/bib.html) - 1-22',
+            'Richard Helm, Tien Huynh, Kim Marriott, and John Vlissides. An object-oriented architecture for constraint-based graphical editing. In Proceedings of the Third Eurographics Workshop on Object-Oriented Graphics, pages <<1-22|5a:0>>, Champéry, Switzerland, October 1992. Also available as IBM Research Division Technical Report RC 18524 (79392).',
+          ],
+          [
+            1,
+            '[22:35] Design Patterns_ Elements of Reusable Obje - Erich Gamma.epub (OEBPS/html/bib.html) - 22-35',
+            'Ralph E. Johnson and Brian Foote. Designing reusable classes. Journal of Object-Oriented Programming, 1(2):<<22-35|5a:0>>, June/July 1988.',
+          ],
+          [
+            1,
+            '[22:35] Design Patterns_ Elements of Reusable Obje - Erich Gamma.epub (OEBPS/html/bib.html) - 22-35',
+            'Ralph E. Johnson and Jonathan Zweig. Delegation in C++. Journal of Object-Oriented Programming, 4(11):<<22-35|5a:0>>, November 1991.',
+          ],
+          [
+            1,
+            '[ap 08:22] Design Patterns_ Elements of Reusable Obje - Erich Gamma.epub (OEBPS/html/bib.html) - 8-22',
+            'Mark A. Linton, John M. Vlissides, and Paul R. Calder. Composing user interfaces with Interviews. Computer, 22(2):<<8-22|5a:0>>, February 1989.',
+          ],
+          [
+            1,
+            '[ap 09:21] Design Patterns_ Elements of Reusable Obje - Erich Gamma.epub (OEBPS/html/bib.html) - 9-21',
+            'Andrew J. Palay et al. The Andrew Toolkit: An overview. In Proceedings of the 1988 Winter USENIX Technical Conference, pages <<9-21|5a:0>>, Dallas, TX, February 1988. USENIX Association.',
+          ],
+          [
+            1,
+            '[00:32] Design Patterns_ Elements of Reusable Obje - Erich Gamma.epub (OEBPS/html/bib.html) - 24-32',
+            'James Rumbaugh. The life of an object model: How the object model changes during development. Journal of Object-Oriented Programming, 7(1):<<24-32|5a:0>>, March/April 1994.',
+          ],
+          [
+            1,
+            '[ap 02:10] Design Patterns_ Elements of Reusable Obje - Erich Gamma.epub (OEBPS/html/ch02.html) - 2.10',
+            'We say that factories create product objects. Moreover, the products that a factory produces are related to one another; in this case, the products are all widgets for the same look and feel. Figure <<2.10|5a:0>> shows some of the product classes needed to make factories work for widget glyphs.',
+          ],
+          [
+            1,
+            '[ap 02:10] Design Patterns_ Elements of Reusable Obje - Erich Gamma.epub (OEBPS/html/ch02.html) - 2.10',
+            'We say that factories create product objects. Moreover, the products that a factory produces are related to one another; in this case, the products are all widgets for the same look and feel. Figure <<2.10|5a:0>> shows some of the product classes needed to make factories work for widget glyphs.
+Figure <<2.10|5a:0>>: Abstract product classes and concrete subclasses
+',
+          ],
+          [
+            1,
+            '[ap 02:11] Design Patterns_ Elements of Reusable Obje - Erich Gamma.epub (OEBPS/html/ch02.html) - 2.11',
+            "Command Class and Subclasses
+First we define a Command abstract class to provide an interface for issuing a request. The basic interface consists of a single abstract operation called \x{201c}Execute.\x{201d} Subclasses of Command implement Execute in different ways to fulfill different requests. Some subclasses may delegate part or all of the work to other objects. Other subclasses may be in a position to fulfill the request entirely on their own (see Figure <<2.11|5a:0>>). To the requester, however, a Command object is a Command object\x{2014}they are treated uniformly.",
+          ],
+          [
+            1,
+            '[ap 02:11] Design Patterns_ Elements of Reusable Obje - Erich Gamma.epub (OEBPS/html/ch02.html) - 2.11',
+            "Command Class and Subclasses
+First we define a Command abstract class to provide an interface for issuing a request. The basic interface consists of a single abstract operation called \x{201c}Execute.\x{201d} Subclasses of Command implement Execute in different ways to fulfill different requests. Some subclasses may delegate part or all of the work to other objects. Other subclasses may be in a position to fulfill the request entirely on their own (see Figure <<2.11|5a:0>>). To the requester, however, a Command object is a Command object\x{2014}they are treated uniformly.
+Figure <<2.11|5a:0>>: Partial Command class hierarchy
+",
+          ],
+          [
+            1,
+            '[ap 02:12] Design Patterns_ Elements of Reusable Obje - Erich Gamma.epub (OEBPS/html/ch02.html) - 2.12',
+            "Now MenuItem can store a Command object that encapsulates a request (Figure <<2.12|5a:0>>). We give each menu item object an instance of the Command subclass that\x{2019}s suitable for that menu item, just as we specify the text to appear in the menu item. When a user chooses a particular menu item, the MenuItem simply calls Execute on its Command object to carry out the request. Note that buttons and other widgets can use commands in the same way menu items do.",
+          ],
+          [
+            1,
+            '[ap 02:12] Design Patterns_ Elements of Reusable Obje - Erich Gamma.epub (OEBPS/html/ch02.html) - 2.12',
+            "Now MenuItem can store a Command object that encapsulates a request (Figure <<2.12|5a:0>>). We give each menu item object an instance of the Command subclass that\x{2019}s suitable for that menu item, just as we specify the text to appear in the menu item. When a user chooses a particular menu item, the MenuItem simply calls Execute on its Command object to carry out the request. Note that buttons and other widgets can use commands in the same way menu items do.
+Figure <<2.12|5a:0>>: MenuItem-Command relationship
+",
+          ],
+          [
+            1,
+            '[ap 02:13] Design Patterns_ Elements of Reusable Obje - Erich Gamma.epub (OEBPS/html/ch02.html) - 2.13',
+            "Iterator Class and Subclasses
+We\x{2019}ll use an abstract class called Iterator to define a general interface for access and traversal. Concrete subclasses like ArrayIterator and ListIterator implement the interface to provide access to arrays and lists, while PreorderIterator, PostorderIterator, and the like implement different traversals on specific structures. Each Iterator subclass has a reference to the structure it traverses. Subclass instances are initialized with this reference when they are created. Figure <<2.13|5a:0>> illustrates the Iterator class along with several subclasses. Notice that we\x{2019}ve added a CreateIterator abstract operation to the Glyph class interface to support iterators.",
+          ],
+          [
+            1,
+            '[ap 02:13] Design Patterns_ Elements of Reusable Obje - Erich Gamma.epub (OEBPS/html/ch02.html) - 2.13',
+            "Iterator Class and Subclasses
+We\x{2019}ll use an abstract class called Iterator to define a general interface for access and traversal. Concrete subclasses like ArrayIterator and ListIterator implement the interface to provide access to arrays and lists, while PreorderIterator, PostorderIterator, and the like implement different traversals on specific structures. Each Iterator subclass has a reference to the structure it traverses. Subclass instances are initialized with this reference when they are created. Figure <<2.13|5a:0>> illustrates the Iterator class along with several subclasses. Notice that we\x{2019}ve added a CreateIterator abstract operation to the Glyph class interface to support iterators.
+Figure <<2.13|5a:0>>: Iterator class and subclasses
+",
+          ],
+          [
+            1,
+            '[00:00] Design Patterns_ Elements of Reusable Obje - Erich Gamma.epub (OEBPS/html/ch03.html) - 0',
+            "Clients access the singleton exclusively through the Instance member function. The variable _instance is initialized to 0, and the static member function Instance returns its value, initializing it with the unique instance if it is <<0|9c:0>>. Instance uses lazy initialization; the value it returns isn\x{2019}t created and stored until it\x{2019}s first accessed.",
+          ],
+          [
+            1,
+            '[ap 00:59] Design Patterns_ Elements of Reusable Obje - Erich Gamma.epub (OEBPS/html/ch04.html) - one-to-one',
+            "1. Only one Implementor. In situations where there\x{2019}s only one implementation, creating an abstract Implementor class isn\x{2019}t necessary. This is a degenerate case of the Bridge pattern; there\x{2019}s a <<one-to-one|10a:0>> relationship between Abstraction and Implementor. Nevertheless, this separation is still useful when a change in the implementation of a class must not affect its existing clients\x{2014}that is, they shouldn\x{2019}t have to be recompiled, just relinked.",
+          ],
+          [
+            1,
+            '[ap 01:00] Design Patterns_ Elements of Reusable Obje - Erich Gamma.epub (OEBPS/html/ch05.html) - one',
+            '1. How intelligent should a command be? A command can have a wide range of abilities. At <<one|9m>> extreme it merely defines a binding between a receiver and the actions that carry out the request. At the other extreme it implements everything itself without delegating to a receiver at all. The latter extreme is useful when you want to define commands that are independent of existing classes, when no suitable receiver exists, or when a command knows its receiver implicitly. For example, a command that creates another application window may be just as capable of creating the window as any other object. Somewhere in between these extremes are commands that have enough knowledge to find their receiver dynamically.',
+          ],
+          [
+            1,
+            '[ap 01:00] Design Patterns_ Elements of Reusable Obje - Erich Gamma.epub (OEBPS/html/ch05.html) - one',
+            'At <<one|9m>> extreme, which we call the push model, the subject sends observers detailed information about the change, whether they want it or not. At the other extreme is the pull model; the subject sends nothing but the most minimal notification, and observers ask for details explicitly thereafter.',
+          ],
+        ];

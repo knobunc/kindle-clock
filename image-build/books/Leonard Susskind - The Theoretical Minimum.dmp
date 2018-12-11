@@ -1,0 +1,12 @@
+$VAR1 = [
+          [
+            1,
+            '[ap 02:00] The Theoretical Minimum_ What You Need to - Leonard Susskind.epub (text/part0007.html) - 2',
+            "Not all laws are logically the same. Consider, for example, the law shown in Figure 7. Dynamical Law 3 has two cycles. If you start on one of them, you can\x{2019}t get to the other. Nevertheless, this law is completely deterministic. Wherever you start, the future is determined. For example, if you start at <<2|9g>>, the history will be 2, 6, 1, 2, 6, 1, . . . and you will never get to 5. If you start at <<5|9g>> the history is 5, 3, 4, 5, 3, 4, . . . and you will never get to 6.",
+          ],
+          [
+            1,
+            '[ap 01:00] The Theoretical Minimum_ What You Need to - Leonard Susskind.epub (text/part0007.html) - 1',
+            'The law of Figure 9 does tell you, wherever you are, where to go next. If you are at <<1|9c:0>>, go to 2. If at <<2|9c:0>>, go to 3. If at <<3|9c:0>>, go to 2. There is no ambiguity about the future. But the past is a different matter. Suppose you are at <<2|9c:0>>. Where were you just before that? You could have come from 3 or from <<1|9c:0>>. The diagram just does not tell you. Even worse, in terms of reversibility, there is no state that leads to 1; state 1 has no past. The law of Figure 9 is irreversible. It illustrates just the kind of situation that is prohibited by the principles of classical physics.',
+          ],
+        ];

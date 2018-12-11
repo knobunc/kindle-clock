@@ -1,0 +1,26 @@
+$VAR1 = [
+          [
+            1,
+            '[12:00] The Naked Sun - Isaac Asimov.epub (OEBPS/part10.xhtml) - noon',
+            "\x{201c}Lunch!\x{201d} said Baley sharply. \x{201c}Don\x{2019}t be ridiculous. It\x{2019}s not <<noon|13>> by two hours.\x{201d}",
+          ],
+          [
+            1,
+            '[ap ~ 02:00] The Naked Sun - Isaac Asimov.epub (OEBPS/part11.xhtml) - about two',
+            "\x{201c}It is close to Solaria, only <<about two|9:0>> parsecs away. In fact, Solaria and Nexon represent the closest pair of inhabited worlds in the Galaxy. Solaria, even when uninhabited by man, was life bearing and eminently suited for human occupation. It represented an obvious attraction to the well-to-do of Nexon, who found it difficult to maintain a proper standard of living as their own planet filled up.\x{201d}",
+          ],
+          [
+            1,
+            '[ap ~ 06:30] The Naked Sun - Isaac Asimov.epub (OEBPS/part11.xhtml) - About 0630',
+            "As the robot turned to go, Baley called after it, \x{201c}Wait! What time is it at the Delmarre work place?\x{201d}
+\x{201c}<<About 0630|9l>>, master.\x{201d}
+\x{201c}In the morning?\x{201d}",
+          ],
+          [
+            1,
+            '[12:00] The Naked Sun - Isaac Asimov.epub (OEBPS/part15.xhtml) - midday',
+            "Baley advanced slowly. \x{201c}Does it get this low every day?\x{201d} and at once he was sorry he asked. If the planet rotated, the sun must be
+
+low in the sky both mornings and afternoons. Only at <<midday|13>> could it be high.",
+          ],
+        ];

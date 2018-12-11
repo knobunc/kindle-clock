@@ -1,0 +1,1787 @@
+$VAR1 = [
+          [
+            1,
+            '[ap 05:10] The Go Programming Language - Alan A. A. Donovan.epub (text/part0004.html) - 5.10',
+            '5.9. Panic
+<<5.10|5a:0>>. Recover
+6. Methods',
+          ],
+          [
+            1,
+            '[ap 07:10] The Go Programming Language - Alan A. A. Donovan.epub (text/part0004.html) - 7.10',
+            '7.9. Example: Expression Evaluator
+<<7.10|5a:0>>. Type Assertions
+<<7.11|5a:0>>. Discriminating Errors with Type Assertions',
+          ],
+          [
+            1,
+            '[ap 07:10] The Go Programming Language - Alan A. A. Donovan.epub (text/part0004.html) - 7.10',
+            '<<7.10|9p>>. Type Assertions
+<<7.11|5a:0>>. Discriminating Errors with Type Assertions
+<<7.12|5a:0>>. Querying Behaviors with Interface Type Assertions',
+          ],
+          [
+            1,
+            '[ap 07:11] The Go Programming Language - Alan A. A. Donovan.epub (text/part0004.html) - 7.11',
+            '<<7.11|9p>>. Discriminating Errors with Type Assertions
+<<7.12|5a:0>>. Querying Behaviors with Interface Type Assertions
+<<7.13|5a:0>>. Type Switches',
+          ],
+          [
+            1,
+            '[ap 07:12] The Go Programming Language - Alan A. A. Donovan.epub (text/part0004.html) - 7.12',
+            '<<7.12|9p>>. Querying Behaviors with Interface Type Assertions
+<<7.13|5a:0>>. Type Switches
+<<7.14|5a:0>>. Example: Token-Based XML Decoding',
+          ],
+          [
+            1,
+            '[ap 07:13] The Go Programming Language - Alan A. A. Donovan.epub (text/part0004.html) - 7.13',
+            '<<7.13|9p>>. Type Switches
+<<7.14|5a:0>>. Example: Token-Based XML Decoding
+<<7.15|5a:0>>. A Few Words of Advice',
+          ],
+          [
+            1,
+            '[ap 07:14] The Go Programming Language - Alan A. A. Donovan.epub (text/part0004.html) - 7.14',
+            '<<7.14|9p>>. Example: Token-Based XML Decoding
+<<7.15|5a:0>>. A Few Words of Advice
+8. Goroutines and Channels',
+          ],
+          [
+            1,
+            '[ap 08:10] The Go Programming Language - Alan A. A. Donovan.epub (text/part0004.html) - 8.10',
+            '8.9. Cancellation
+<<8.10|5a:0>>. Example: Chat Server
+9. Concurrency with Shared Variables',
+          ],
+          [
+            1,
+            '[00:00] The Go Programming Language - Alan A. A. Donovan.epub (text/part0013.html) - 0',
+            "The var declaration declares two variables s and sep, of type
+string.  A variable can be initialized as part of its declaration.
+
+If it is not explicitly initialized, it is implicitly
+initialized to the zero value for its type, which is <<0|9d>> for numeric
+
+
+types and the empty string \"\" for strings.
+
+Thus in this example, the declaration implicitly initializes s and sep to empty
+strings.
+We\x{2019}ll have more to say
+
+about variables and declarations in Chapter\x{a0}2.",
+          ],
+          [
+            1,
+            '[00:00] The Go Programming Language - Alan A. A. Donovan.epub (text/part0014.html) - 0',
+            "line := input.Text()
+counts[line] = counts[line] + 1
+
+
+It\x{2019}s not a problem if the map doesn\x{2019}t yet contain that key.
+The first time a new line is seen, the expression counts[line]
+on the right-hand side evaluates to the zero value for its type, which
+is <<0|9d>> for int.",
+          ],
+          [
+            1,
+            '[ap 01:10] The Go Programming Language - Alan A. A. Donovan.epub (text/part0017.html) - 1.10',
+            "Exercise\x{a0}<<1.10|5a:1>>: 
+Find a web site that produces a large amount of data.  Investigate
+caching by running
+fetchall twice in succession to see whether the reported time
+changes much.  Do you get the same content each time?  Modify
+fetchall to print its output to a file so it can be examined.",
+          ],
+          [
+            1,
+            '[ap 01:11] The Go Programming Language - Alan A. A. Donovan.epub (text/part0017.html) - 1.11',
+            "Exercise\x{a0}<<1.11|5a:0>>: 
+Try fetchall with longer argument lists, such as samples
+from the top million web sites available at alexa.com.  How
+does the program behave if a web site just doesn\x{2019}t respond?
+(Section\x{a0}8.9 describes mechanisms for coping
+in such cases.)",
+          ],
+          [
+            1,
+            '[ap 01:12] The Go Programming Language - Alan A. A. Donovan.epub (text/part0018.html) - 1.12',
+            "Exercise\x{a0}<<1.12|5a:0>>: 
+Modify the Lissajous server to read parameter values from the URL.
+For example, you might arrange it so that a URL like
+http://localhost:8000/?cycles=20
+sets the number of cycles to 20 instead of the default 5.
+
+Use the strconv.Atoi function to convert the string
+parameter into an integer.
+
+
+
+You can see its documentation with go doc strconv.Atoi.",
+          ],
+          [
+            1,
+            '[00:00] The Go Programming Language - Alan A. A. Donovan.epub (text/part0023.html) - 0',
+            'var name type = expression
+
+
+Either the type or the = expression part may be omitted, but
+not both.
+
+If the type is omitted, it is determined by the initializer
+expression.
+
+If the expression is omitted, the initial value is the zero value
+
+
+
+for the type, which is <<0|9d>> for numbers, false for booleans,
+"" for strings, and nil for interfaces and reference
+types (slice, pointer, map, channel, function).
+
+The zero value of an aggregate type like an array or a struct has the
+zero value of all of its elements or fields.',
+          ],
+          [
+            1,
+            '[ap 02:00] The Go Programming Language - Alan A. A. Donovan.epub (text/part0029.html) - 0 to 2',
+            "Signed numbers are represented in 2\x{2019}s-complement form, in which the
+
+
+high-order bit is reserved for the sign of the number and the range of
+values of an n-bit number is from \x{2212}2 to 2\x{2212}1.
+Unsigned integers use the full range of bits for non-negative values and
+thus have the range <<0 to 2|10a:0>>\x{2212}1.
+For instance, the range of int8 is \x{2212}128 to
+127, whereas the range of uint8 is 0 to 255.",
+          ],
+          [
+            1,
+            '[ap 01:25] The Go Programming Language - Alan A. A. Donovan.epub (text/part0029.html) - 1.25',
+            'The integer arithmetic operators +, -,
+*, and / may be applied to integer, floating-point, and complex numbers,
+but the remainder operator % applies only to integers.
+
+
+The behavior of % for negative numbers varies across
+programming languages.  In Go, the
+sign of the remainder is always the same as the sign of the dividend,
+so -5%3 and -5%-3 are both -2.
+
+The behavior of / depends on whether its operands are integers,
+so 5.0/4.0 is <<1.25|5a:0>>, but 5/4 is 1 because
+integer division truncates the result toward zero.',
+          ],
+          [
+            1,
+            '[ap 03:10] The Go Programming Language - Alan A. A. Donovan.epub (text/part0033.html) - 3.10',
+            "Exercise\x{a0}<<3.10|5a:0>>: 
+Write a non-recursive version of comma, using bytes.Buffer
+instead of string concatenation.",
+          ],
+          [
+            1,
+            '[ap 03:11] The Go Programming Language - Alan A. A. Donovan.epub (text/part0033.html) - 3.11',
+            "Exercise\x{a0}<<3.11|5a:0>>: 
+Enhance comma so that it deals correctly with floating-point
+numbers and an optional sign.",
+          ],
+          [
+            1,
+            '[ap 03:12] The Go Programming Language - Alan A. A. Donovan.epub (text/part0033.html) - 3.12',
+            "Exercise\x{a0}<<3.12|5a:1>>: 
+Write a function that reports whether two strings are anagrams of each
+other, that is, they contain the same letters in a different order.",
+          ],
+          [
+            1,
+            '[ap 03:13] The Go Programming Language - Alan A. A. Donovan.epub (text/part0034.html) - 3.13',
+            "Exercise\x{a0}<<3.13|5a:0>>: 
+Write const declarations for KB, MB, up through YB as compactly
+as you can.",
+          ],
+          [
+            1,
+            '[00:00] The Go Programming Language - Alan A. A. Donovan.epub (text/part0036.html) - 0',
+            'var a [3]int             // array of 3 integers
+fmt.Println(a[0])        // print the first element
+fmt.Println(a[len(a)-1]) // print the last element, a[2]
+
+// Print the indices and elements.
+for i, v := range a {
+    fmt.Printf("%d %d\\n", i, v)
+}
+
+// Print the elements only.
+for _, v := range a {
+    fmt.Printf("%d\\n", v)
+}
+
+
+By default, the elements of a new array variable are initially set to
+the zero value for the element type, which is <<0|9d>> for numbers.
+
+
+We can use an
+array literal to initialize an array with a list of values:',
+          ],
+          [
+            1,
+            '[ap 01:00] The Go Programming Language - Alan A. A. Donovan.epub (text/part0037.html) - 1',
+            'so January is months[1] and December is months[12].
+Ordinarily, the array element at index 0 would contain the first
+value, but because months are always numbered from <<1|9c:0>>, we can leave it
+out of the declaration and it will be initialized to an empty string.',
+          ],
+          [
+            1,
+            '[00:00] The Go Programming Language - Alan A. A. Donovan.epub (text/part0037.html) - 0',
+            "The slice operator s[i:j],
+where 0 \x{2264} i \x{2264} j \x{2264} cap(s),
+creates a
+
+new slice that refers to elements i through j-1 of the sequence s,
+which may be an array variable, a pointer to an array, or another
+slice.  The resulting slice has j-i elements.
+If i is omitted, it\x{2019}s <<0|9d>>, and if j is omitted, it\x{2019}s
+len(s).
+Thus the slice months[<<1:13|2>>] refers to the whole range of valid months, as does
+the slice months[1:]; the slice months[:] refers to the whole array.
+
+Let\x{2019}s define overlapping slices for the second quarter and the
+northern summer:",
+          ],
+          [
+            1,
+            '[ap 04:10] The Go Programming Language - Alan A. A. Donovan.epub (text/part0040.html) - 4.10',
+            "Exercise\x{a0}<<4.10|5a:0>>: 
+Modify issues to report the results in age categories,
+say less than a month old, less than a year old, and more
+than a year old.",
+          ],
+          [
+            1,
+            '[ap 04:11] The Go Programming Language - Alan A. A. Donovan.epub (text/part0040.html) - 4.11',
+            "Exercise\x{a0}<<4.11|5a:0>>: 
+Build a tool that lets users create, read, update, and delete GitHub
+issues from the command line, invoking their preferred text editor
+when substantial text input is required.",
+          ],
+          [
+            1,
+            '[ap 04:12] The Go Programming Language - Alan A. A. Donovan.epub (text/part0040.html) - 4.12',
+            "Exercise\x{a0}<<4.12|5a:0>>: 
+The popular web comic xkcd has a JSON interface.
+
+
+
+For example, a request to https://xkcd.com/571/info.0.json
+produces a detailed description of comic 571, one of many favorites.
+
+Download each URL (once!) and build an offline index.
+
+Write a tool xkcd that, using this index, prints the URL and
+transcript of each comic that matches a search term provided on the
+command line.",
+          ],
+          [
+            1,
+            '[ap 04:13] The Go Programming Language - Alan A. A. Donovan.epub (text/part0040.html) - 4.13',
+            "Exercise\x{a0}<<4.13|5a:0>>: 
+The JSON-based web service of the Open Movie Database
+lets you search https://omdbapi.com/ for a movie by name and
+download its poster image.
+
+
+Write a tool poster that downloads the poster image for the
+movie named on the command line.",
+          ],
+          [
+            1,
+            '[ap 04:14] The Go Programming Language - Alan A. A. Donovan.epub (text/part0041.html) - 4.14',
+            "\$ go doc text/template
+\$ go doc html/template
+Exercise\x{a0}<<4.14|5a:1>>: 
+Create a web server that queries GitHub once and then allows
+navigation of the list of bug reports, milestones, and users.",
+          ],
+          [
+            1,
+            '[15:04] The Go Programming Language - Alan A. A. Donovan.epub (text/part0046.html) - 15:04',
+            '2006/01/02 <<15:04|2>>:05 Site is down: no such domain: bad.gopl.io
+
+
+For a more attractive output, we can set the prefix used by the
+log package to the name of the command, and suppress the
+display of the date and time:',
+          ],
+          [
+            1,
+            '[ap 07:11] The Go Programming Language - Alan A. A. Donovan.epub (text/part0046.html) - 7.11',
+            "in := bufio.NewReader(os.Stdin)
+for {
+    r, _, err := in.ReadRune()
+    if err == io.EOF {
+        break // finished reading
+    }
+    if err != nil {
+        return fmt.Errorf(\"read failed: %v\", err)
+    }
+    // ...use r...
+}
+
+
+Since in an end-of-file condition there is no information to report
+besides the fact of it, io.EOF has a fixed error message,
+\"EOF\".
+
+For other errors, we may need to report both the quality and quantity
+of the error, so to speak, so a fixed error value will not do.
+
+In Section\x{a0}<<7.11|5a:0>>, we\x{2019}ll present a more systematic
+way to distinguish certain error values from others.",
+          ],
+          [
+            1,
+            '[ap 05:10] The Go Programming Language - Alan A. A. Donovan.epub (text/part0048.html) - 5.10',
+            "Exercise\x{a0}<<5.10|5a:0>>: 
+Rewrite topoSort to use maps instead of slices and eliminate the
+initial sort.
+
+Verify that the results, though nondeterministic, are valid
+topological orderings.",
+          ],
+          [
+            1,
+            '[ap 05:11] The Go Programming Language - Alan A. A. Donovan.epub (text/part0048.html) - 5.11',
+            "Exercise\x{a0}<<5.11|5a:0>>: 
+The instructor of the linear algebra course decides that calculus is now a
+prerequisite.  Extend the topoSort function to report cycles.",
+          ],
+          [
+            1,
+            '[ap 05:12] The Go Programming Language - Alan A. A. Donovan.epub (text/part0048.html) - 5.12',
+            "Exercise\x{a0}<<5.12|5a:0>>: 
+The startElement and endElement functions in
+gopl.io/ch5/outline2 (\x{a7}5.5)
+share a global variable, depth.
+
+Turn them into anonymous functions that share a variable local to the
+outline function.",
+          ],
+          [
+            1,
+            '[ap 05:13] The Go Programming Language - Alan A. A. Donovan.epub (text/part0048.html) - 5.13',
+            "Exercise\x{a0}<<5.13|5a:0>>: 
+Modify crawl to make local copies of the pages it finds,
+creating directories as necessary.
+
+Don\x{2019}t make copies of pages that come from a different domain.  For
+example, if the original page comes from golang.org, save all files from
+there, but exclude ones from vimeo.com.",
+          ],
+          [
+            1,
+            '[ap 05:14] The Go Programming Language - Alan A. A. Donovan.epub (text/part0048.html) - 5.14',
+            "Exercise\x{a0}<<5.14|5a:0>>: 
+Use the breadthFirst function to explore a different structure.
+
+For example, you could use the course dependencies from the
+topoSort example (a directed graph), the file system hierarchy
+on your computer (a tree), or a list of bus or subway routes
+downloaded from your city government\x{2019}s web site (an undirected graph).",
+          ],
+          [
+            1,
+            '[ap 07:55] The Go Programming Language - Alan A. A. Donovan.epub (text/part0048.html) - 0755',
+            'var rmdirs []func()
+for _, d := range tempDirs() {
+    dir := d               // NOTE: necessary!
+    os.MkdirAll(dir, <<0755|18:0>>) // creates parent directories too
+    rmdirs = append(rmdirs, func() {
+        os.RemoveAll(dir)
+    })
+}
+
+// ...do some work...
+
+for _, rmdir := range rmdirs {
+    rmdir() // clean up
+}
+
+
+You may be wondering why we assigned the loop variable d to a new
+local variable dir within the loop body, instead of just naming the
+
+loop variable dir as in this subtly incorrect variant:',
+          ],
+          [
+            1,
+            '[ap 07:55] The Go Programming Language - Alan A. A. Donovan.epub (text/part0048.html) - 0755',
+            "var rmdirs []func()
+for _, dir := range tempDirs() {
+    os.MkdirAll(dir, <<0755|18:0>>)
+    rmdirs = append(rmdirs, func() {
+        os.RemoveAll(dir) // NOTE: incorrect!
+    })
+}
+
+
+The reason is a consequence of the
+scope rules for loop variables.
+
+
+In the program immediately above, the for loop introduces a new lexical block
+
+in which the variable dir is
+declared.
+
+All
+function values created by this loop \x{201c}capture\x{201d} and share the same
+
+variable\x{2014}an addressable storage location, not its value at that
+particular moment.
+
+The value of dir is updated in successive iterations,
+so by the time the cleanup functions are called, the
+dir variable has been updated several times by the now-completed
+for loop.  Thus dir holds the value from the final iteration, and
+consequently all calls to os.RemoveAll will attempt to remove the
+same directory.",
+          ],
+          [
+            1,
+            '[ap 07:55] The Go Programming Language - Alan A. A. Donovan.epub (text/part0048.html) - 0755',
+            "var rmdirs []func()
+dirs := tempDirs()
+for i := 0; i < len(dirs); i++ {
+    os.MkdirAll(dirs[i], <<0755|18:0>>) // OK
+    rmdirs = append(rmdirs, func() {
+        os.RemoveAll(dirs[i]) // NOTE: incorrect!
+    })
+}
+
+
+The problem of iteration variable capture is most often encountered
+when using the go
+statement (Chapter\x{a0}8) or with defer (which we
+will see in a moment) since both may delay the execution of a
+function value until after the loop has finished.
+
+But the problem is not inherent to go or defer.",
+          ],
+          [
+            1,
+            '[ap 05:15] The Go Programming Language - Alan A. A. Donovan.epub (text/part0049.html) - 5.15',
+            "Exercise\x{a0}<<5.15|5a:0>>: 
+Write variadic functions max and min, analogous to
+sum.
+What should these functions do when called with no arguments?
+Write variants that require at least one argument.",
+          ],
+          [
+            1,
+            '[ap 05:15] The Go Programming Language - Alan A. A. Donovan.epub (text/part0049.html) - 5.15',
+            "Exercise\x{a0}<<5.15|5a:0>>: 
+Write variadic functions max and min, analogous to
+sum.
+What should these functions do when called with no arguments?
+Write variants that require at least one argument.
+Exercise\x{a0}<<5.16|5a:0>>: 
+Write a variadic version of strings.Join.
+Exercise\x{a0}<<5.17|5a:0>>: 
+Write a variadic function ElementsByTagName that, given an HTML
+node tree and zero or more names, returns all the elements that
+match one of those names.  Here are two example calls:",
+          ],
+          [
+            1,
+            '[ap 05:17] The Go Programming Language - Alan A. A. Donovan.epub (text/part0049.html) - 5.17',
+            "Exercise\x{a0}<<5.17|5a:0>>: 
+Write a variadic function ElementsByTagName that, given an HTML
+node tree and zero or more names, returns all the elements that
+match one of those names.  Here are two example calls:",
+          ],
+          [
+            1,
+            '[ap 09:53] The Go Programming Language - Alan A. A. Donovan.epub (text/part0050.html) - 09:53',
+            "\$ go build gopl.io/ch5/trace
+\$ ./trace
+2015/11/18 <<09:53|2>>:26 enter bigSlowOperation
+2015/11/18 <<09:53|2>>:36 exit bigSlowOperation (10.000589217s)
+
+
+
+Deferred functions run after return statements have
+updated the function\x{2019}s result variables.
+
+Because an anonymous function can access its enclosing function\x{2019}s
+variables, including named results, a deferred anonymous function can
+observe the function\x{2019}s results.",
+          ],
+          [
+            1,
+            '[ap 05:18] The Go Programming Language - Alan A. A. Donovan.epub (text/part0050.html) - 5.18',
+            "Exercise\x{a0}<<5.18|5a:0>>: 
+Without changing its behavior, rewrite the fetch function to use
+defer to close the writable file.",
+          ],
+          [
+            1,
+            '[ap 05:19] The Go Programming Language - Alan A. A. Donovan.epub (text/part0052.html) - 5.19',
+            "Exercise\x{a0}<<5.19|5a:0>>: 
+Use panic and recover to write a function that contains
+  no return statement yet returns a non-zero value.",
+          ],
+          [
+            1,
+            '[ap 07:10] The Go Programming Language - Alan A. A. Donovan.epub (text/part0061.html) - 7.10',
+            "package fmt
+
+// The String method is used to print values passed
+// as an operand to any format that accepts a string
+// or to an unformatted printer such as Print.
+type Stringer interface {
+    String() string
+}
+
+
+We\x{2019}ll explain how the fmt package discovers which values satisfy this
+interface in Section\x{a0}<<7.10|5a:0>>.",
+          ],
+          [
+            1,
+            '[ap 00:34] The Go Programming Language - Alan A. A. Donovan.epub (text/part0063.html) - 12.34',
+            "var any interface{}
+any = true
+any = <<12.34|5a:0>>
+any = \"hello\"
+any = map[string]int{\"one\": 1}
+any = new(bytes.Buffer)
+
+
+Although it wasn\x{2019}t obvious, we\x{2019}ve been using the empty interface type
+since the very first example in this book, because it is what allows
+functions like fmt.Println, or errorf in Section\x{a0}5.7, to accept arguments of any type.",
+          ],
+          [
+            1,
+            '[ap 07:10] The Go Programming Language - Alan A. A. Donovan.epub (text/part0063.html) - 7.10',
+            "Of course, having created an interface{} value containing a
+boolean, float, string, map, pointer, or any other type, we can do nothing
+directly to the value it holds since the interface has no methods.
+
+We need a way to get the value back out again.
+
+We\x{2019}ll see how to do that using a type assertion in Section\x{a0}<<7.10|5a:0>>.",
+          ],
+          [
+            1,
+            '[01:00] The Go Programming Language - Alan A. A. Donovan.epub (text/part0064.html) - 1.5h',
+            "\$ ./sleep -period 50ms
+Sleeping for 50ms...
+\$ ./sleep -period 2m30s
+Sleeping for 2m30s...
+\$ ./sleep -period <<1.5h|1>>
+Sleeping for 1h30m0s...
+\$ ./sleep -period \"1 day\"
+invalid value \"1 day\" for flag -period: time: invalid duration 1 day
+
+
+Because duration-valued flags are so useful, this feature is
+built into the flag package, but it\x{2019}s easy to define new
+flag notations for our own data types.
+
+We need only define a type that satisfies the flag.Value
+interface, whose declaration is below:",
+          ],
+          [
+            1,
+            '[ap 07:10] The Go Programming Language - Alan A. A. Donovan.epub (text/part0066.html) - 7.10',
+            "Exercise\x{a0}<<7.10|5a:1>>: 
+The sort.Interface type can be adapted to other uses.
+Write a function
+
+IsPalindrome(s sort.Interface) bool that reports whether
+the sequence s is a palindrome, in other words, reversing the
+sequence would not change it.
+
+Assume that the elements at indices i and j are
+equal if !s.Less(i, j) && !s.Less(j, i).",
+          ],
+          [
+            1,
+            '[ap 07:11] The Go Programming Language - Alan A. A. Donovan.epub (text/part0067.html) - 7.11',
+            "Exercise\x{a0}<<7.11|5a:0>>: 
+Add additional handlers so that clients can create, read, update, and
+delete database entries.
+
+For example, a request of the form
+/update?item=socks&price=6 will update the price of an item
+in the inventory and report an error if the item does not exist or if
+the price is invalid.
+
+(Warning: this change introduces concurrent variable updates.)",
+          ],
+          [
+            1,
+            '[ap 07:12] The Go Programming Language - Alan A. A. Donovan.epub (text/part0067.html) - 7.12',
+            "Exercise\x{a0}<<7.12|5a:0>>: 
+Change the handler for /list to print its output as an HTML
+table, not text.
+
+You may find the html/template package (\x{a7}4.6) useful.",
+          ],
+          [
+            1,
+            '[ap 07:11] The Go Programming Language - Alan A. A. Donovan.epub (text/part0068.html) - 7.11',
+            "Errno is an efficient representation of system call
+errors drawn from a finite set, and it satisfies the standard
+error interface.
+
+We\x{2019}ll see other types that satisfy this interface in Section\x{a0}<<7.11|5a:0>>.",
+          ],
+          [
+            1,
+            '[ap 07:13] The Go Programming Language - Alan A. A. Donovan.epub (text/part0069.html) - 7.13',
+            "Exercise\x{a0}<<7.13|5a:0>>: 
+Add a String method to Expr to pretty-print the syntax
+tree.
+
+Check that the results, when parsed again, yield an equivalent tree.",
+          ],
+          [
+            1,
+            '[ap 07:14] The Go Programming Language - Alan A. A. Donovan.epub (text/part0069.html) - 7.14',
+            "Exercise\x{a0}<<7.14|5a:0>>: 
+Define a new concrete type that satisfies the Expr interface
+and provides a new operation such as computing the minimum value of
+its operands.
+
+Since the Parse function does not create instances of this new
+type, to use it you will need to construct a syntax tree directly (or
+extend the parser).",
+          ],
+          [
+            1,
+            '[ap 07:15] The Go Programming Language - Alan A. A. Donovan.epub (text/part0069.html) - 7.15',
+            "Exercise\x{a0}<<7.15|5a:0>>: 
+Write a program that reads a single expression from the standard
+input, prompts the user to provide values for any variables, then
+evaluates the expression in the resulting environment.
+
+Handle all errors gracefully.",
+          ],
+          [
+            1,
+            '[ap 07:15] The Go Programming Language - Alan A. A. Donovan.epub (text/part0069.html) - 7.15',
+            "Exercise\x{a0}<<7.15|5a:0>>: 
+Write a program that reads a single expression from the standard
+input, prompts the user to provide values for any variables, then
+evaluates the expression in the resulting environment.
+
+Handle all errors gracefully.
+Exercise\x{a0}<<7.16|5a:0>>: 
+Write a web-based calculator program.",
+          ],
+          [
+            1,
+            '[ap 07:17] The Go Programming Language - Alan A. A. Donovan.epub (text/part0074.html) - 7.17',
+            "\$ go build gopl.io/ch1/fetch
+\$ ./fetch http://www.w3.org/TR/2006/REC-xml11-20060816 |
+    ./xmlselect div div h2
+html body div div h2: 1 Introduction
+html body div div h2: 2 Documents
+html body div div h2: 3 Logical Structures
+html body div div h2: 4 Physical Structures
+html body div div h2: 5 Conformance
+html body div div h2: 6 Notation
+html body div div h2: A References
+html body div div h2: B Definitions for Character Normalization
+...
+Exercise\x{a0}<<7.17|5a:0>>: 
+Extend xmlselect so that elements may be selected not just by
+name, but by their attributes too, in the manner of CSS, so that, for
+instance, an element like <div id=\"page\" class=\"wide\">
+could be selected by a matching id or class as well
+as its name.",
+          ],
+          [
+            1,
+            '[ap 07:18] The Go Programming Language - Alan A. A. Donovan.epub (text/part0074.html) - 7.18',
+            "Exercise\x{a0}<<7.18|5a:0>>: 
+
+Using the token-based decoder API, write a program that will
+read an arbitrary XML document and construct a
+tree of generic nodes that represents it.
+
+Nodes are of two kinds: CharData nodes represent text
+strings, and Element nodes represent named elements and their
+attributes.
+
+Each element node has a slice of child nodes.",
+          ],
+          [
+            1,
+            '[15:04] The Go Programming Language - Alan A. A. Donovan.epub (text/part0078.html) - 15:04',
+            '// Clock1 is a TCP server that periodically writes the time.
+package main
+
+import (
+    "io"
+    "log"
+    "net"
+    "time"
+)
+
+func main() {
+    listener, err := net.Listen("tcp", "localhost:8000")
+    if err != nil {
+        log.Fatal(err)
+    }
+    for {
+        conn, err := listener.Accept()
+        if err != nil {
+            log.Print(err) // e.g., connection aborted
+            continue
+        }
+        handleConn(conn) // handle one connection at a time
+    }
+}
+
+func handleConn(c net.Conn) {
+    defer c.Close()
+    for {
+        _, err := io.WriteString(c, time.Now().Format("<<15:04|2>>:05\\n"))
+        if err != nil {
+            return // e.g., client disconnected
+        }
+        time.Sleep(1 * time.Second)
+    }
+}',
+          ],
+          [
+            1,
+            '[ap 03:04] The Go Programming Language - Alan A. A. Donovan.epub (text/part0078.html) - 03:04',
+            'The time.Time.Format method provides a way to format
+date and time information by example.
+
+Its argument is a template indicating how to format a reference time,
+specifically Mon Jan 2 <<03:04|2>>:05PM 2006 UTC-0700.
+
+The reference time has eight components (day of the week, month, day of
+the month, and so on).  Any collection of them can appear in the
+Format string in any order and in a number of formats; the
+selected components of the
+date and time will be displayed in the selected formats.
+
+Here we are just using the hour, minute, and second of the time.
+
+The time package defines templates for many standard
+time formats, such as time.RFC1123.
+
+
+The same mechanism is used in reverse when parsing a time using
+time.Parse.',
+          ],
+          [
+            1,
+            '[13:58] The Go Programming Language - Alan A. A. Donovan.epub (text/part0078.html) - 13:58',
+            '$ go build gopl.io/ch8/clock1
+$ ./clock1 &
+$ nc localhost 8000
+<<13:58|2>>:54
+<<13:58|2>>:55
+<<13:58|2>>:56
+<<13:58|2>>:57
+^C
+
+
+The client displays the time sent by the server each second
+until we interrupt the client with Control-C,
+which on Unix systems is echoed as ^C
+by the shell.
+
+If nc or netcat is not installed on your system,
+you can use telnet or this simple Go version of netcat that
+uses net.Dial to connect to a TCP server:',
+          ],
+          [
+            1,
+            '[13:58] The Go Programming Language - Alan A. A. Donovan.epub (text/part0078.html) - 13:58',
+            '$ go build gopl.io/ch8/netcat1
+$ ./netcat1
+<<13:58|2>>:54                               $ ./netcat1
+<<13:58|2>>:55
+<<13:58|2>>:56
+^C
+                                       <<13:58|2>>:57
+                                       <<13:58|2>>:58
+                                       <<13:58|2>>:59
+                                       ^C
+$ killall clock1
+
+
+The killall command is a Unix utility that
+kills all processes with the given name.',
+          ],
+          [
+            1,
+            '[14:02] The Go Programming Language - Alan A. A. Donovan.epub (text/part0078.html) - 14:02',
+            "\$ go build gopl.io/ch8/clock2
+\$ ./clock2 &
+\$ go build gopl.io/ch8/netcat1
+\$ ./netcat1
+<<14:02|2>>:54                               \$ ./netcat1
+<<14:02|2>>:55                               <<14:02|2>>:55
+<<14:02|2>>:56                               <<14:02|2>>:56
+<<14:02|2>>:57                               ^C
+<<14:02|2>>:58
+<<14:02|2>>:59                               \$ ./netcat1
+<<14:03|2>>:00                               <<14:03|2>>:00
+<<14:03|2>>:01                               <<14:03|2>>:01
+^C                                     <<14:03|2>>:02
+                                       ^C
+\$ killall clock2
+Exercise\x{a0}8.1: 
+Modify clock2 to accept a port number, and
+write a program, clockwall, that acts as a client of several
+clock servers at once, reading the times from each one and displaying
+the results in a table, akin to the wall of clocks seen in some
+business offices.
+
+If you have access to geographically distributed computers, run
+instances remotely; otherwise run local instances on different ports
+with fake time zones.",
+          ],
+          [
+            1,
+            '[ap > 01:00] The Go Programming Language - Alan A. A. Donovan.epub (text/part0080.html) - after 100',
+            'In the pipeline below, when the counter goroutine finishes its loop
+<<after 100|18:0>> elements, it closes the naturals channel, causing the
+squarer to finish its loop and close the squares channel.
+
+(In a more complex program, it might make sense for the counter and
+squarer functions to defer the calls to close at the outset.)
+
+Finally, the main goroutine finishes its loop and the program exits.',
+          ],
+          [
+            1,
+            '[18:22] The Go Programming Language - Alan A. A. Donovan.epub (text/part0082.html) - 18:22',
+            '$ go build gopl.io/ch8/crawl1
+$ ./crawl1 http://gopl.io/
+http://gopl.io/
+https://golang.org/help/
+
+https://golang.org/doc/
+https://golang.org/blog/
+...
+2015/07/15 <<18:22|2>>:12 Get ...: dial tcp: lookup blog.golang.org: no such host
+2015/07/15 <<18:22|2>>:12 Get ...: dial tcp 23.21.222.120:443: socket:
+                                                        too many open files
+...
+
+
+The initial error message is a surprising report of a DNS lookup
+failure for a reliable domain.
+
+The subsequent error message reveals the cause: the program created so
+many network connections at once that it exceeded the per-process
+limit on the number of open files, causing operations such as DNS
+lookups and calls to net.Dial to start failing.',
+          ],
+          [
+            1,
+            '[ap 08:10] The Go Programming Language - Alan A. A. Donovan.epub (text/part0085.html) - 8.10',
+            "Exercise\x{a0}<<8.10|5a:0>>: 
+HTTP requests may be cancelled by closing the optional Cancel
+channel in the http.Request struct.
+
+
+
+Modify the web crawler of Section\x{a0}8.6 to
+support cancellation.",
+          ],
+          [
+            1,
+            '[ap 08:11] The Go Programming Language - Alan A. A. Donovan.epub (text/part0085.html) - 8.11',
+            "Exercise\x{a0}<<8.11|5a:0>>: 
+Following the approach of mirroredQuery in Section\x{a0}8.4.4, implement a variant of fetch that
+requests several URLs concurrently.
+
+As soon as the first response arrives, cancel the other requests.",
+          ],
+          [
+            1,
+            '[ap 08:12] The Go Programming Language - Alan A. A. Donovan.epub (text/part0086.html) - 8.12',
+            "Exercise\x{a0}<<8.12|5a:0>>: 
+Make the broadcaster announce the current set of clients to each new
+arrival.
+
+This requires that the clients set and the entering and
+leaving channels record the client name too.",
+          ],
+          [
+            1,
+            '[ap 08:13] The Go Programming Language - Alan A. A. Donovan.epub (text/part0086.html) - 8.13',
+            "Exercise\x{a0}<<8.13|5a:1>>: 
+Make the chat server disconnect idle clients, such as those that have
+sent no messages in the last five minutes.
+
+Hint: calling conn.Close() in another goroutine unblocks active
+Read calls such as the one done by input.Scan().",
+          ],
+          [
+            1,
+            '[ap 08:14] The Go Programming Language - Alan A. A. Donovan.epub (text/part0086.html) - 8.14',
+            "Exercise\x{a0}<<8.14|5a:0>>: 
+Change the chat server\x{2019}s network protocol so that each client provides
+its name on entering.
+
+Use that name instead of the network address when prefixing each message
+with its sender\x{2019}s identity.",
+          ],
+          [
+            1,
+            '[ap 08:15] The Go Programming Language - Alan A. A. Donovan.epub (text/part0086.html) - 8.15',
+            "Exercise\x{a0}<<8.15|5a:0>>: 
+Failure of any client program to read data in a timely manner
+ultimately causes all clients to get stuck.
+
+Modify the broadcaster to skip a message rather than wait if a client
+writer is not ready to accept it.
+
+Alternatively, add buffering to each client\x{2019}s outgoing message channel
+so that most messages are not dropped; the broadcaster should use a
+non-blocking send to this channel.",
+          ],
+          [
+            1,
+            '[ap 02:03] The Go Programming Language - Alan A. A. Donovan.epub (text/part0103.html) - two three',
+            "\$ cat quoteargs.go
+package main
+
+import (
+    \"fmt\"
+    \"os\"
+)
+
+func main() {
+    fmt.Printf(\"%q\\n\", os.Args[1:])
+}
+\$ go build quoteargs.go
+\$ ./quoteargs one \"<<two three|9j>>\" four\\ five
+[\"one\" \"<<two three|9j>>\" \"<<four five|9j>>\"]
+
+
+Particularly for throwaway programs like this one, we want to run
+the executable as soon as we\x{2019}ve built it.  The go run command
+combines these two steps:",
+          ],
+          [
+            1,
+            '[ap 02:03] The Go Programming Language - Alan A. A. Donovan.epub (text/part0103.html) - two three',
+            "\$ go run quoteargs.go one \"<<two three|9j>>\" four\\ five
+[\"one\" \"<<two three|9j>>\" \"<<four five|9j>>\"]
+
+
+The first argument that doesn\x{2019}t end in .go is assumed to be the
+beginning of the list of arguments to the Go executable.",
+          ],
+          [
+            1,
+            '[ap 00:10] The Go Programming Language - Alan A. A. Donovan.epub (text/part0117.html) - 12.10',
+            "Exercise\x{a0}<<12.10|5a:0>>: 
+Extend sexpr.Unmarshal to handle the booleans, floating-point
+numbers, and interfaces encoded by your solution to Exercise\x{a0}12.3.
+
+(Hint: to decode interfaces, you will need a mapping from the name of
+each supported type to its reflect.Type.)",
+          ],
+          [
+            1,
+            '[ap 00:11] The Go Programming Language - Alan A. A. Donovan.epub (text/part0118.html) - 12.11',
+            "\$ go build gopl.io/ch12/search
+\$ ./search &
+\$ ./fetch 'http://localhost:12345/search'
+Search: {Labels:[] MaxResults:10 Exact:false}
+\$ ./fetch 'http://localhost:12345/search?l=golang&l=programming'
+Search: {Labels:[golang programming] MaxResults:10 Exact:false}
+\$ ./fetch 'http://localhost:12345/search?l=golang&l=programming&max=100'
+Search: {Labels:[golang programming] MaxResults:100 Exact:false}
+\$ ./fetch 'http://localhost:12345/search?x=true&l=golang&l=programming'
+Search: {Labels:[golang programming] MaxResults:10 Exact:true}
+\$ ./fetch 'http://localhost:12345/search?q=hello&x=123'
+x: strconv.ParseBool: parsing \"123\": invalid syntax
+\$ ./fetch 'http://localhost:12345/search?q=hello&max=lots'
+max: strconv.ParseInt: parsing \"lots\": invalid syntax
+Exercise\x{a0}<<12.11|5a:0>>: 
+Write the corresponding Pack function.
+
+Given a struct value, Pack should return a URL incorporating
+the parameter values from the struct.",
+          ],
+          [
+            1,
+            '[ap 00:12] The Go Programming Language - Alan A. A. Donovan.epub (text/part0118.html) - 12.12',
+            "Exercise\x{a0}<<12.12|5a:0>>: 
+Extend the field tag notation to express parameter validity requirements.
+
+For example, a string might need to be a valid email
+address or credit-card number, and an integer might need to
+be a valid US ZIP code.
+
+
+Modify Unpack to check these requirements.",
+          ],
+          [
+            1,
+            '[ap 00:13] The Go Programming Language - Alan A. A. Donovan.epub (text/part0118.html) - 12.13',
+            "Exercise\x{a0}<<12.13|5a:0>>: 
+Modify the S-expression encoder (\x{a7}12.4)
+and decoder (\x{a7}12.6) so that they honor
+the sexpr:\"...\" field tag in a similar manner to
+encoding/json (\x{a7}4.5).",
+          ],
+          [
+            1,
+            '[ap 07:15] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_000.html) - 7.15',
+            "abstract type, 1.8, 7.1
+abstraction, premature, <<7.15|9p>>, 11.2.5, 11.2.5
+ad\x{a0}hoc polymorphism, <<7.13|9p>>",
+          ],
+          [
+            1,
+            '[ap 07:15] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_000.html) - 7.15',
+            "abstraction, premature, <<7.15|9p>>, 11.2.5, 11.2.5
+ad\x{a0}hoc polymorphism, <<7.13|5a:0>>
+address\x{a0}of local\x{a0}variable, 2.3.2, 2.3.4",
+          ],
+          [
+            1,
+            '[ap 07:12] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_000.html) - 7.12',
+            'allocation, heap, 2.3.4
+allocation, memory, 2.3.4, 2.3.4, 3.5.4, 4.2.1, 6.6, <<7.12|9p>>, 11.4
+allocation, stack, 2.3.4',
+          ],
+          [
+            1,
+            '[ap 07:14] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_000.html) - 7.14',
+            'anonymous struct field, 4.4.3, 4.4.3, 4.4.3, 6.3
+API, encoding, <<7.14|9p>>, 12.4
+API, error, 5.4, <<5.10|9p>>',
+          ],
+          [
+            1,
+            '[ap 07:14] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_000.html) - 7.14',
+            'API, encoding, <<7.14|9p>>, 12.4
+API, error, 5.4, <<5.10|5a:0>>
+API, package, 10.1, 10.7.4, 11.2.3, 12.3, 12.9',
+          ],
+          [
+            1,
+            '[ap 07:13] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_000.html) - 7.13',
+            "API, runtime, 11.5
+API, SQL, <<7.13|5a:0>>
+API, system\x{a0}call, 7.8",
+          ],
+          [
+            1,
+            '[ap 07:14] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_000.html) - 7.14',
+            "API, template, 4.6
+API, token-based decoder, <<7.14|9p>>, <<7.14|9p>>, 12.6
+APL programming\x{a0}language, Preface",
+          ],
+          [
+            1,
+            '[ap 07:12] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_000.html) - 7.12',
+            'assertion function, 11.2.5
+assertion, interface type, <<7.12|9p>>, <<7.12|5a:0>>
+assertion, test, 11.2',
+          ],
+          [
+            1,
+            '[ap 07:10] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_000.html) - 7.10',
+            'assertion, test, 11.2
+assertion, type, <<7.10|9p>>, <<7.13|5a:0>>
+assignability, 2.4.2, 2.4.2, 7.3',
+          ],
+          [
+            1,
+            '[ap 07:13] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_000.html) - 7.13',
+            'attack, HTML injection, 4.6
+attack, SQL injection, <<7.13|5a:0>>
+autoescape example, 4.6',
+          ],
+          [
+            1,
+            '[ap 08:10] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_000.html) - 8.10',
+            "brittle test, 11.2.6
+broadcast, 8.9, <<8.10|9p>>, 9.7
+Brooks,\x{a0}Fred, Preface",
+          ],
+          [
+            1,
+            '[ap 05:10] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_000.html) - 5.10',
+            'built-in function, real, 3.3
+built-in function, recover, <<5.10|5a:0>>
+built-in interface, error, 7.8, 7.8',
+          ],
+          [
+            1,
+            '[ap 07:13] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_000.html) - 7.13',
+            "capturing loop\x{a0}variable, 5.6.1, 8.5, 8.6
+case \x{a0}in type\x{a0} switch, <<7.13|5a:0>>
+case, select, 8.7",
+          ],
+          [
+            1,
+            '[ap 08:10] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_000.html) - 8.10',
+            'charcount example, 4.3
+chat example, <<8.10|5a:0>>
+chat server, <<8.10|9p>>',
+          ],
+          [
+            1,
+            '[ap 08:10] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_000.html) - 8.10',
+            'chat example, <<8.10|5a:0>>
+chat server, <<8.10|5a:0>>
+CheckQuota function, 11.2.3, 11.2.3',
+          ],
+          [
+            1,
+            '[ap 07:13] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_000.html) - 7.13',
+            "conceptual\x{a0}integrity, Preface
+concrete type, 1.8, 7.1, <<7.13|9p>>, <<7.14|5a:0>>
+concurrency, 1.6, 8, 9",
+          ],
+          [
+            1,
+            '[ap 08:10] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_000.html) - 8.10',
+            "concurrency\x{a0}safe, 9.7
+concurrency\x{a0}safety, <<8.10|9p>>, 9.1, 9.7, 13.4
+concurrency\x{a0}with shared\x{a0}variables, 9",
+          ],
+          [
+            1,
+            '[ap 07:12] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_000.html) - 7.12',
+            'conversion operation, 2.5, 3.1, 3.1, 3.1, 3.4, 3.5.3, 3.6.2, 3.6.2, 7.1, 7.6, 7.7, <<7.12|9p>>, 8.4.3, 13, 13.2',
+          ],
+          [
+            1,
+            '[ap 07:13] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_000.html) - 7.13',
+            "database\x{a0}driver, MySQL, 10.2
+database/sql package, <<7.13|9p>>, 10.5
+daysAgo function, 4.6",
+          ],
+          [
+            1,
+            '[ap 07:10] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_000.html) - 7.10',
+            "declaration scope, 2.7, 5.6
+declaration, shadowing, 2.7, 2.7, <<7.10|9p>>, <<7.13|5a:0>>
+declaration, short\x{a0}variable, 1.2, 1.2, 2.3.1, 2.3.1",
+          ],
+          [
+            1,
+            '[ap 07:14] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_000.html) - 7.14',
+            'decode example, S-expression, 12.6
+decoder API, token-based, <<7.14|9p>>, <<7.14|9p>>, 12.6
+decoding, S-expression, 12.6',
+          ],
+          [
+            1,
+            '[ap 07:14] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_000.html) - 7.14',
+            'decoding, S-expression, 12.6
+decoding, XML, <<7.14|5a:0>>
+decrement statement --, 1.2, 2.4',
+          ],
+          [
+            1,
+            '[ap 07:13] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_000.html) - 7.13',
+            "default \x{a0}case\x{a0}in switch, 1.8
+default \x{a0}case\x{a0}in type\x{a0} switch, <<7.13|5a:0>>
+defer anonymous\x{a0}function, 5.8",
+          ],
+          [
+            1,
+            '[ap 07:13] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_000.html) - 7.13',
+            "directory\x{a0}traversal, concurrent, 8.8
+discriminated union, <<7.13|9p>>, <<7.13|9p>>, <<7.14|5a:0>>
+display example, 12.3",
+          ],
+          [
+            1,
+            '[ap 07:14] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_000.html) - 7.14',
+            'encapsulation, 6.6, 10.1
+encoding API, <<7.14|9p>>, 12.4
+encoding, S-expression, 12.4, 12.4',
+          ],
+          [
+            1,
+            '[ap 05:10] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_000.html) - 5.10',
+            'equivalence, deep, 4.2, 11.2.5, 13.3
+error API, 5.4, <<5.10|5a:0>>
+error built-in interface, 7.8, 7.8',
+          ],
+          [
+            1,
+            '[ap 05:10] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_000.html) - 5.10',
+            'errorf function, 5.7
+error-handling strategies, 5.4.1, <<5.10|9p>>, 11.2.2, 11.2.5
+errors package, 7.8',
+          ],
+          [
+            1,
+            '[ap 08:10] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_000.html) - 8.10',
+            'example, charcount, 4.3
+example, chat, <<8.10|5a:1>>
+example, clock, 8.2, 8.2',
+          ],
+          [
+            1,
+            '[ap 05:10] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_000.html) - 5.10',
+            'example, params, 12.7
+example, Parse, <<5.10|5a:0>>
+example, pipeline, 8.4.2, 8.4.2, 8.4.3',
+          ],
+          [
+            1,
+            '[ap 05:10] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_000.html) - 5.10',
+            'example, thumbnail, 8.5, 8.5, 8.5
+example, title, <<5.10|5a:0>>
+example, topoSort, 5.6',
+          ],
+          [
+            1,
+            '[ap 07:14] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_000.html) - 7.14',
+            'example, word, 11.2, 11.2, 11.2.1
+example, xmlselect, <<7.14|5a:0>>
+exception, 5.4, 5.9',
+          ],
+          [
+            1,
+            '[ap 07:13] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_000.html) - 7.13',
+            "failure\x{a0}message, test, 11.2
+fallthrough statement, 1.8, <<7.13|5a:0>>
+false boolean constant, 3.4",
+          ],
+          [
+            1,
+            '[ap 07:12] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_000.html) - 7.12',
+            'fmt.Sscanf function, 7.4
+fmt.Stringer interface, 7.4, <<7.12|5a:0>>
+for scope, 2.7',
+          ],
+          [
+            1,
+            '[ap 05:10] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_000.html) - 5.10',
+            'function, gcd, 2.4.1
+function, handler, 1.7, 1.7, <<5.10|9p>>, 7.7, 7.7, 7.7, 12.7
+function, html.Parse, 5.2, 5.3',
+          ],
+          [
+            1,
+            '[ap 07:12] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_000.html) - 7.12',
+            'function, ioutil.ReadFile, 1.3, 5.8
+function, io.WriteString, <<7.12|5a:0>>
+function, itob, 3.4',
+          ],
+          [
+            1,
+            '[ap 07:11] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_000.html) - 7.11',
+            'function, os.Getwd, 2.7
+function, os.IsExist, <<7.11|5a:0>>
+function, os.IsNotExist, <<7.11|9p>>',
+          ],
+          [
+            1,
+            '[ap 07:11] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_000.html) - 7.11',
+            'function, os.IsExist, <<7.11|5a:0>>
+function, os.IsNotExist, <<7.11|5a:0>>
+function, os.IsPermission, <<7.11|9p>>',
+          ],
+          [
+            1,
+            '[ap 07:11] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_000.html) - 7.11',
+            'function, os.IsNotExist, <<7.11|5a:0>>
+function, os.IsPermission, <<7.11|5a:0>>
+function, os.Open, 1.3',
+          ],
+          [
+            1,
+            '[ap 05:10] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_000.html) - 5.10',
+            'function, real built-in, 3.3
+function, recover built-in, <<5.10|5a:0>>
+function, recursive anonymous, 5.6',
+          ],
+          [
+            1,
+            '[ap 07:13] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_000.html) - 7.13',
+            'function, Sprint, 12.1
+function, sqlQuote, <<7.13|9p>>, <<7.13|5a:0>>
+function, strconv.Atoi, 1.7, 3.5.5',
+          ],
+          [
+            1,
+            '[ap 05:10] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_000.html) - 5.10',
+            "half-open\x{a0}interval, 1.2
+handler function, 1.7, 1.7, <<5.10|9p>>, 7.7, 7.7, 7.7, 12.7
+\x{201c}happens\x{a0}before\x{201d} relation, 8.4.1, 9.1, 9.1, 9.7",
+          ],
+          [
+            1,
+            '[ap 07:10] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_000.html) - 7.10',
+            "IEEE\x{a0}754 standard, 3.2, 3.2
+if, initialization\x{a0}statement\x{a0}in, 1.7, <<7.10|5a:0>>
+if-else scope, 2.7",
+          ],
+          [
+            1,
+            '[ap 07:14] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_000.html) - 7.14',
+            "immutability, string, 3.5, 3.5.4
+implementation\x{a0}with\x{a0}slice, stack, 4.2.2, <<7.14|5a:0>>
+implicit &, 6.2, 6.5",
+          ],
+          [
+            1,
+            '[ap 07:10] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_000.html) - 7.10',
+            "initialization, package, 2.6.2
+initialization\x{a0}statement\x{a0}in if, 1.7, <<7.10|5a:0>>
+initialization\x{a0}statement\x{a0}in switch, 1.8",
+          ],
+          [
+            1,
+            '[ap 07:13] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_000.html) - 7.13',
+            'injection attack, HTML, 4.6
+injection attack, SQL, <<7.13|5a:0>>
+in-place slice techniques, 4.2.2',
+          ],
+          [
+            1,
+            '[ap 07:12] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_000.html) - 7.12',
+            'interface, flag.Value, 7.4, 7.4
+interface, fmt.Stringer, 7.4, <<7.12|5a:0>>
+interface, http.Handler, 7.7, 7.7',
+          ],
+          [
+            1,
+            '[ap 07:12] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_000.html) - 7.12',
+            'interface, io.Reader, 7.2
+interface, io.Writer, 1.4, 1.7, 7.1, 7.2, 7.5.1, <<7.12|9p>>, <<7.12|9p>>, 11.2.2
+interface, JSON, 4.5',
+          ],
+          [
+            1,
+            '[ap 07:12] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_000.html) - 7.12',
+            'interface{} type, 7.3, 12.2, 12.2
+interface type assertion, <<7.12|9p>>, <<7.12|5a:0>>
+interface type, empty, 7.3',
+          ],
+          [
+            1,
+            '[ap 07:12] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_000.html) - 7.12',
+            'ioutil.ReadFile function, 1.3, 5.8
+io.Writer interface, 1.4, 1.7, 7.1, 7.2, 7.5.1, <<7.12|9p>>, <<7.12|9p>>, 11.2.2
+io.WriteString function, <<7.12|9p>>',
+          ],
+          [
+            1,
+            '[ap 07:12] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_000.html) - 7.12',
+            "io.Writer interface, 1.4, 1.7, 7.1, 7.2, 7.5.1, <<7.12|9p>>, <<7.12|9p>>, 11.2.2
+io.WriteString function, <<7.12|5a:0>>
+\x{201c}is\x{a0}a\x{201d} relationship, 6.3, 7.3",
+          ],
+          [
+            1,
+            '[ap 07:13] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_000.html) - 7.13',
+            "K
+keyword, type, <<7.13|5a:0>>
+keywords, table\x{a0}of, 2.1",
+          ],
+          [
+            1,
+            '[ap 07:13] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_001.html) - 7.13',
+            'len built-in function, 1.2, 3.1, 3.5, 3.5, 4.1, 4.2, 8.4.4
+lexical block, 2.7, 5.1, 5.6, 5.6.1, <<7.13|5a:0>>
+lexical closure, 5.6',
+          ],
+          [
+            1,
+            '[ap 07:12] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_001.html) - 7.12',
+            'memoization, 9.7
+memory allocation, 2.3.4, 2.3.4, 3.5.4, 4.2.1, 6.6, <<7.12|9p>>, 11.4
+memory layout, 13, 13.1, 13.1',
+          ],
+          [
+            1,
+            '[ap 07:14] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_001.html) - 7.14',
+            'method value, 6.4
+method, (*xml.Decoder).Token, <<7.14|5a:0>>
+methods example, 12.8',
+          ],
+          [
+            1,
+            '[ap 08:10] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_001.html) - 8.10',
+            'mustCopy function, 8.2
+mutex, 5.8, 6.3, <<8.10|9p>>, 9.5
+mutex, guarding, 9.2',
+          ],
+          [
+            1,
+            '[ap 07:10] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_001.html) - 7.10',
+            "ok \x{a0}value\x{a0}from map lookup, 4.3
+ok \x{a0}value\x{a0}from type\x{a0}assertion, <<7.10|5a:0>>
+omitempty field\x{a0}tag, 4.5",
+          ],
+          [
+            1,
+            '[ap 07:12] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_001.html) - 7.12',
+            'operation, conversion, 2.5, 3.1, 3.1, 3.1, 3.4, 3.5.3, 3.6.2, 3.6.2, 7.1, 7.6, 7.7, <<7.12|9p>>, 8.4.3, 13, 13.2',
+          ],
+          [
+            1,
+            '[ap 07:11] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_001.html) - 7.11',
+            "organization, workspace, 10.7.1
+os package, 1.2, <<7.11|5a:0>>
+OS\x{a0}thread\x{a0}vs.\x{a0}goroutine, 9.8",
+          ],
+          [
+            1,
+            '[ap 07:11] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_001.html) - 7.11',
+            'os.Getwd function, 2.7
+os.IsExist function, <<7.11|5a:0>>
+os.IsNotExist function, <<7.11|9p>>',
+          ],
+          [
+            1,
+            '[ap 07:11] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_001.html) - 7.11',
+            'os.IsExist function, <<7.11|5a:0>>
+os.IsNotExist function, <<7.11|5a:0>>
+os.IsPermission function, <<7.11|9p>>',
+          ],
+          [
+            1,
+            '[ap 07:11] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_001.html) - 7.11',
+            'os.IsNotExist function, <<7.11|5a:0>>
+os.IsPermission function, <<7.11|5a:0>>
+os.LinkError type, <<7.11|9p>>',
+          ],
+          [
+            1,
+            '[ap 07:11] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_001.html) - 7.11',
+            'os.IsPermission function, <<7.11|5a:0>>
+os.LinkError type, <<7.11|5a:0>>
+os.Open function, 1.3',
+          ],
+          [
+            1,
+            '[ap 07:11] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_001.html) - 7.11',
+            'os.Open function, 1.3
+os.PathError type, <<7.11|5a:0>>
+os.Stat function, 8.8',
+          ],
+          [
+            1,
+            '[ap 07:13] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_001.html) - 7.13',
+            'package, crypto/sha256, 4.1
+package, database/sql, <<7.13|9p>>, 10.5
+package declaration, 1.1, 2.2, 2.6, 10.3',
+          ],
+          [
+            1,
+            '[ap 07:14] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_001.html) - 7.14',
+            'package, encoding/json, 4.5
+package, encoding/xml, 4.5, <<7.14|5a:0>>
+package, errors, 7.8',
+          ],
+          [
+            1,
+            '[ap 07:11] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_001.html) - 7.11',
+            'package, non-standard, 5.2
+package, os, 1.2, <<7.11|5a:0>>
+package, params example, 12.7',
+          ],
+          [
+            1,
+            '[ap 07:11] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_001.html) - 7.11',
+            'package, sync, 8.5, 9.2
+package, syscall, 7.8, <<7.11|5a:0>>
+package, tempconv example, 2.6',
+          ],
+          [
+            1,
+            '[ap 05:10] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_001.html) - 5.10',
+            'palindrome example, 11.2, 11.2, 11.2.1
+panic, 3.5, <<5.10|9p>>, 8.9
+panic built-in function, 5.9, 5.9',
+          ],
+          [
+            1,
+            '[ap 05:10] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_001.html) - 5.10',
+            'parentheses, 1.2, 1.2, 1.3, 3.1, 3.4, 5.1, 5.8, 6.2, 10.4, 12.3, 12.6
+Parse example, <<5.10|5a:0>>
+parser, HTML, 5.2',
+          ],
+          [
+            1,
+            '[ap 07:13] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_001.html) - 7.13',
+            "polling channel, 8.7
+polymorphism, ad\x{a0}hoc, <<7.13|5a:0>>
+polymorphism, subtype, <<7.13|9p>>",
+          ],
+          [
+            1,
+            '[ap 07:13] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_001.html) - 7.13',
+            "polymorphism, ad\x{a0}hoc, <<7.13|5a:0>>
+polymorphism, subtype, <<7.13|5a:0>>
+PopCount function, 2.6.2",
+          ],
+          [
+            1,
+            '[ap 07:15] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_001.html) - 7.15',
+            "predeclared\x{a0}names, table\x{a0}of, 2.1
+premature abstraction, <<7.15|9p>>, 11.2.5, 11.2.5
+premature optimization, 11.5",
+          ],
+          [
+            1,
+            '[ap 07:11] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_001.html) - 7.11',
+            'Printf %v, 1.3, 1.3
+Printf %#v, 4.4.3, <<7.11|5a:0>>
+Printf %x, 1.3, 3.1',
+          ],
+          [
+            1,
+            '[ap 05:10] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_001.html) - 5.10',
+            'receiver type, method, 6.1
+recover built-in function, <<5.10|5a:0>>
+recursion, 5.2, 5.2, 8.8, 12.3, 12.4, 12.6, 13.3',
+          ],
+          [
+            1,
+            '[ap 05:10] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_001.html) - 5.10',
+            "select{} statement, 8.7
+selective\x{a0}recovery, <<5.10|5a:0>>
+selector, field, 6.1",
+          ],
+          [
+            1,
+            '[ap 08:10] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_001.html) - 8.10',
+            "serial confinement, 9.1
+server, chat, <<8.10|5a:1>>
+server,\x{a0}concurrent\x{a0}clock, 8.2",
+          ],
+          [
+            1,
+            '[ap 07:10] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_001.html) - 7.10',
+            "SHA256\x{a0}message\x{a0}digest, 4.1
+shadowing declaration, 2.7, 2.7, <<7.10|9p>>, <<7.13|5a:0>>
+shared lock, 9.3",
+          ],
+          [
+            1,
+            '[ap 07:13] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_001.html) - 7.13',
+            'Sprint function, 12.1
+SQL API, <<7.13|5a:0>>
+SQL injection attack, <<7.13|9p>>',
+          ],
+          [
+            1,
+            '[ap 07:13] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_001.html) - 7.13',
+            'SQL API, <<7.13|5a:0>>
+SQL injection attack, <<7.13|5a:0>>
+sqlQuote function, <<7.13|9p>>, <<7.13|9p>>',
+          ],
+          [
+            1,
+            '[ap 07:13] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_001.html) - 7.13',
+            'SQL injection attack, <<7.13|5a:0>>
+sqlQuote function, <<7.13|9p>>, 7.13
+squares example, 5.6',
+          ],
+          [
+            1,
+            '[ap 07:14] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_001.html) - 7.14',
+            "stack growth, 5.2, 9.8.1, 13.2
+stack implementation\x{a0}with\x{a0}slice, 4.2.2, <<7.14|5a:0>>
+stack overflow, 5.2",
+          ],
+          [
+            1,
+            '[ap 07:13] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_001.html) - 7.13',
+            'statement, defer, 5.8, 5.9, 9.2
+statement, fallthrough, 1.8, <<7.13|5a:0>>
+statement, for, 1.2',
+          ],
+          [
+            1,
+            '[ap 07:13] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_001.html) - 7.13',
+            'statement, tagless switch, 1.8
+statement, type switch, <<7.13|9p>>, <<7.13|9p>>, <<7.14|9p>>, 12.1
+statement, unreachable, 5.1',
+          ],
+          [
+            1,
+            '[ap 05:10] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_001.html) - 5.10',
+            'Strangelove, Dr., 12.3
+strategies, error-handling, 5.4.1, <<5.10|9p>>, 11.2.2, 11.2.5
+strconv package, 1.7, 3.5.4, 3.5.5',
+          ],
+          [
+            1,
+            '[ap 07:13] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_001.html) - 7.13',
+            'substring operator s[i:j], 3.5, 4.2
+subtype polymorphism, <<7.13|5a:0>>
+sum example, 5.7',
+          ],
+          [
+            1,
+            '[ap 07:13] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_001.html) - 7.13',
+            "Swiss\x{a0}army\x{a0}knife, 10.7
+switch, case \x{a0}in type\x{a0}, <<7.13|5a:0>>
+switch, context, 9.8.2",
+          ],
+          [
+            1,
+            '[ap 07:13] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_001.html) - 7.13',
+            "switch, default \x{a0}case\x{a0}in, 1.8
+switch, default \x{a0}case\x{a0}in type\x{a0}, <<7.13|5a:0>>
+switch, initialization\x{a0}statement\x{a0}in, 1.8",
+          ],
+          [
+            1,
+            '[ap 07:13] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_001.html) - 7.13',
+            'switch statement, tagless, 1.8
+switch statement, type, <<7.13|9p>>, <<7.13|9p>>, <<7.14|9p>>, 12.1
+sync package, 8.5, 9.2',
+          ],
+          [
+            1,
+            '[ap 07:11] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_001.html) - 7.11',
+            '(*sync.WaitGroup).Done method, 8.5
+syscall package, 7.8, <<7.11|5a:0>>
+syscall.Errno type, 7.8, 7.8',
+          ],
+          [
+            1,
+            '[ap 05:10] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_001.html) - 5.10',
+            'time.Time.Format method, 8.2
+title example, <<5.10|5a:0>>
+title function, 5.8, 5.8',
+          ],
+          [
+            1,
+            '[ap 07:14] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_001.html) - 7.14',
+            "title function, 5.8, 5.8
+token-based decoder API, <<7.14|9p>>, <<7.14|9p>>, 12.6
+token-based\x{a0}XML\x{a0}decoding, <<7.14|9p>>",
+          ],
+          [
+            1,
+            '[ap 07:14] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_001.html) - 7.14',
+            "token-based decoder API, <<7.14|9p>>, <<7.14|9p>>, 12.6
+token-based\x{a0}XML\x{a0}decoding, <<7.14|5a:0>>
+tool, cgo, 13.4, 13.4",
+          ],
+          [
+            1,
+            '[ap 07:13] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_001.html) - 7.13',
+            "type\x{a0} chan<- T, send-only channel, 8.4.3
+type\x{a0} switch, case \x{a0}in, <<7.13|5a:0>>
+type\x{a0} switch, default \x{a0}case\x{a0}in, <<7.13|9p>>",
+          ],
+          [
+            1,
+            '[ap 07:13] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_001.html) - 7.13',
+            "type\x{a0} switch, case \x{a0}in, <<7.13|5a:0>>
+type\x{a0} switch, default \x{a0}case\x{a0}in, <<7.13|5a:0>>
+type, abstract, 1.8, 7.1",
+          ],
+          [
+            1,
+            '[ap 07:10] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_001.html) - 7.10',
+            'type, array, 4.1
+type assertion, <<7.10|9p>>, <<7.13|5a:0>>
+type assertion, interface, <<7.12|9p>>, <<7.12|9p>>',
+          ],
+          [
+            1,
+            '[ap 07:10] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_001.html) - 7.10',
+            "type assertion, <<7.10|9p>>, <<7.13|5a:0>>
+type assertion, interface, <<7.12|9p>>, <<7.12|5a:0>>
+type\x{a0}assertion, ok \x{a0}value\x{a0}from, <<7.10|9p>>",
+          ],
+          [
+            1,
+            '[ap 07:12] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_001.html) - 7.12',
+            "type assertion, interface, <<7.12|9p>>, <<7.12|5a:0>>
+type\x{a0}assertion, ok \x{a0}value\x{a0}from, <<7.10|5a:0>>
+type, bool, 3.4",
+          ],
+          [
+            1,
+            '[ap 07:13] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_001.html) - 7.13',
+            'type composition, Preface, 4.4.3, 6.3, 7.6
+type, concrete, 1.8, 7.1, <<7.13|9p>>, <<7.14|5a:0>>
+type declaration, 2.5',
+          ],
+          [
+            1,
+            '[ap 07:13] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_001.html) - 7.13',
+            'type, json.Encoder, 4.5
+type keyword, <<7.13|5a:0>>
+type, map, 1.3, 4.3',
+          ],
+          [
+            1,
+            '[ap 07:11] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_001.html) - 7.11',
+            'type, os.FileInfo, 8.8
+type, os.LinkError, <<7.11|5a:0>>
+type, os.PathError, <<7.11|9p>>',
+          ],
+          [
+            1,
+            '[ap 07:11] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_001.html) - 7.11',
+            'type, os.LinkError, <<7.11|5a:0>>
+type, os.PathError, <<7.11|5a:0>>
+type, recursive, 2.7',
+          ],
+          [
+            1,
+            '[ap 07:13] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_001.html) - 7.13',
+            'type, struct{}, 8.4.1, 8.6, 8.8
+type switch statement, <<7.13|9p>>, <<7.13|9p>>, <<7.14|9p>>, 12.1
+type, sync.Mutex, 9.2, 9.5',
+          ],
+          [
+            1,
+            '[ap 07:13] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_001.html) - 7.13',
+            'unidirectional channel type, 8.4.3, 8.4.3, 8.4.3
+union, discriminated, <<7.13|9p>>, <<7.13|9p>>, <<7.14|5a:0>>
+universe block, 2.7',
+          ],
+          [
+            1,
+            '[ap 07:14] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_001.html) - 7.14',
+            "xkcd JSON\x{a0}interface, 4.5
+XML decoding, <<7.14|5a:0>>
+XML\x{a0}(Extensible\x{a0}Markup\x{a0}Language), 4.5",
+          ],
+          [
+            1,
+            '[ap 07:14] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_001.html) - 7.14',
+            "XML\x{a0}(Extensible\x{a0}Markup\x{a0}Language), 4.5
+(*xml.Decoder).Token method, <<7.14|5a:0>>
+xmlselect example, <<7.14|9p>>",
+          ],
+          [
+            1,
+            '[ap 07:14] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_001.html) - 7.14',
+            '(*xml.Decoder).Token method, <<7.14|5a:0>>
+xmlselect example, <<7.14|5a:0>>
+',
+          ],
+        ];

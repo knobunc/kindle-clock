@@ -1,0 +1,19 @@
+$VAR1 = [
+          [
+            1,
+            '[12:00] Count Brass - Michael Moorcock.epub (index_split_000.xhtml) - noon',
+            '\'I shall come back to the marsh at <<noon|9a>> tomorrow,\' said Hawkmoon. \'Where shall we meet?\'',
+          ],
+          [
+            1,
+            '[12:00] Count Brass - Michael Moorcock.epub (index_split_000.xhtml) - noon',
+            '\'I shall come back to the marsh at <<noon|9a>> tomorrow,\' said Hawkmoon. \'Where shall we meet?\'
+\'<<Noon|13>>? There is no <<noon|13>> here. No sun at all!\'
+\'In this you do lie,\' Hawkmoon laughed. \'In a few hours it will be morning here.\'',
+          ],
+          [
+            1,
+            '[~ 12:00] Count Brass - Michael Moorcock.epub (index_split_000.xhtml) - about noon',
+            "It was <<about noon|13>> on the next day, when a wind had still not materialised, that Hawkmoon and the others heard a commotion above their heads\x{2014}shouts and oaths and a running of booted and bare feet to and fro.",
+          ],
+        ];

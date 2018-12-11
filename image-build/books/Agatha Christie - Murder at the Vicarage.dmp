@@ -1,0 +1,634 @@
+$VAR1 = [
+          [
+            1,
+            '[ap 04:30] Murder at the Vicarage - Agatha Christie.epub (OEBPS/005_chapter01.html) - four thirty',
+            "\x{201c}My duty,\x{201d} said Griselda. \x{201c}My duty as the Vicaress. Tea and scandal at <<four thirty|5b>>.\x{201d}",
+          ],
+          [
+            1,
+            '[ap 11:00] Murder at the Vicarage - Agatha Christie.epub (OEBPS/006_chapter02.html) - eleven',
+            "\x{201c}How tiresome. I know I\x{2019}ve left them somewhere. And I\x{2019}ve lost the dog. And my wristwatch is somewhere, only it doesn\x{2019}t much matter because it won\x{2019}t go. Oh! dear, I am so sleepy. I can\x{2019}t think why, because I didn\x{2019}t get up till <<eleven|9f>>. But life\x{2019}s very shattering, don\x{2019}t you think? Oh! dear, I must go. I\x{2019}m going to see Dr. Stone\x{2019}s barrow at <<three o\x{2019}clock|6>>.\x{201d}",
+          ],
+          [
+            1,
+            '[ap 03:35] Murder at the Vicarage - Agatha Christie.epub (OEBPS/006_chapter02.html) - five-and-twenty to four',
+            'I glanced at the clock and remarked that it was now <<five-and-twenty to four|10>>.',
+          ],
+          [
+            1,
+            '[ap 04:45] Murder at the Vicarage - Agatha Christie.epub (OEBPS/006_chapter02.html) - quarter to five',
+            'With a sigh, I realized that the hands of the clock on my writing table pointed to a <<quarter to five|10>>, a sign that it was really <<half past four|10>>, and I made my way to the drawing room.',
+          ],
+          [
+            1,
+            "[15:00] Murder at the Vicarage - Agatha Christie.epub (OEBPS/006_chapter02.html) - three o\x{2019}clock this afternoon",
+            "\x{201c}It must have been very sudden, if so,\x{201d} said Miss Hartnell. \x{201c}For I saw her walking round her garden at <<three o\x{2019}clock this afternoon|6>>, and she seemed in perfect health.\x{201d}",
+          ],
+          [
+            1,
+            '[ap 08:15] Murder at the Vicarage - Agatha Christie.epub (OEBPS/008_chapter04.html) - quarter past eight',
+            "\x{201c}Miss Wetherby\x{2019}s just rung up,\x{201d} she said. \x{201c}Mrs. Lestrange went out at a <<quarter past eight|10>> and hasn\x{2019}t come in yet. Nobody knows where she\x{2019}s gone.\x{201d}",
+          ],
+          [
+            1,
+            '[ap 06:15] Murder at the Vicarage - Agatha Christie.epub (OEBPS/008_chapter04.html) - quarter past six',
+            "\x{201c}Pah! What we need is a little militant Christianity. I\x{2019}ve always done my duty, I hope. Well, no more of that. I\x{2019}ll be along this evening, as I said. We\x{2019}ll make it a <<quarter past six|10>> instead of six, if you don\x{2019}t mind. I\x{2019}ve got to see a man in the village.\x{201d}",
+          ],
+          [
+            1,
+            '[ap 05:30] Murder at the Vicarage - Agatha Christie.epub (OEBPS/008_chapter04.html) - half past five',
+            'I had rather an unpalatable cup of tea, cold and black, and at <<half past five|10>> the telephone rang. I was informed that Mr. Abbott of Lower Farm was dying and would I please come at once.',
+          ],
+          [
+            1,
+            '[ap 06:15] Murder at the Vicarage - Agatha Christie.epub (OEBPS/008_chapter04.html) - six fifteen',
+            'I rang up Old Hall immediately, for Lower Farm was nearly two miles away and I could not possibly get back by <<six fifteen|5b>>. I have never succeeded in learning to ride a bicycle.',
+          ],
+          [
+            1,
+            '[ap 06:30] Murder at the Vicarage - Agatha Christie.epub (OEBPS/008_chapter04.html) - six thirty',
+            'I was told, however, that Colonel Protheroe had just started out in the car, so I departed, leaving word with Mary that I had been called away, but would try to be back by <<six thirty|5b>> or soon after.',
+          ],
+          [
+            1,
+            '[ap 06:30] Murder at the Vicarage - Agatha Christie.epub (OEBPS/009_chapter05.html) - half past six',
+            'It was nearer seven than <<half past six|10>> when I approached the Vicarage gate on my return. Before I reached it, it swung open and Lawrence Redding came out. He stopped dead on seeing me, and I was immediately struck by his appearance. He looked like a man who was on the point of going mad. His eyes stared in a peculiar manner, he was deathly white, and he was shaking and twitching all over.',
+          ],
+          [
+            1,
+            '[ap 06:15] Murder at the Vicarage - Agatha Christie.epub (OEBPS/009_chapter05.html) - quarter past six',
+            "\x{201c}Is Colonel Protheroe here?\x{201d} I asked.
+\x{201c}In the study. Been here since a <<quarter past six|10>>.\x{201d}
+\x{201c}And Mr. Redding\x{2019}s been here?\x{201d}",
+          ],
+          [
+            1,
+            '[ap 06:22] Murder at the Vicarage - Agatha Christie.epub (OEBPS/009_chapter05.html) - Twenty-two minutes past six',
+            "\x{201c}Ah!\x{201d} he said in a tone of triumph. \x{201c}Here\x{2019}s what we want. Clock overturned when he fell forward. That\x{2019}ll give us the time of the crime. <<Twenty-two minutes past six|10>>. What time did you say death occurred, doctor?\x{201d}",
+          ],
+          [
+            1,
+            '[ap 07:05] Murder at the Vicarage - Agatha Christie.epub (OEBPS/009_chapter05.html) - Five minutes past seven',
+            "\x{201c}<<Five minutes past seven|10>>. I got word about ten minutes ago, at <<five minutes to seven|10>>. Discovery of the body was at <<about a quarter to seven|10>>. I understand you were fetched immediately. Say you examined it at ten minutes to\x{2014}Why, that brings it to the identical second almost!\x{201d}",
+          ],
+          [
+            1,
+            '[ap 06:20] Murder at the Vicarage - Agatha Christie.epub (OEBPS/009_chapter05.html) - 6:20',
+            'It was a piece of Vicarage notepaper, and it was headed at the top <<6:20|2>>.',
+          ],
+          [
+            1,
+            '[ap 07:15] Murder at the Vicarage - Agatha Christie.epub (OEBPS/009_chapter05.html) - quarter past seven',
+            "We permitted ourselves to be shooed out like children.
+Hours seemed to have passed\x{2014}yet it was only a <<quarter past seven|10>>.
+\x{201c}Well,\x{201d} said Haydock. \x{201c}That\x{2019}s that. When that conceited ass wants me, you can send him over to the surgery. So long.\x{201d}",
+          ],
+          [
+            1,
+            '[ap 06:20] Murder at the Vicarage - Agatha Christie.epub (OEBPS/009_chapter05.html) - 6:20',
+            "\x{201c}The letter is headed <<6:20|2>>,\x{201d} I ended. \x{201c}And the clock fell over and has stopped at <<6:22|2>>.\x{201d}",
+          ],
+          [
+            1,
+            '[ap 06:20] Murder at the Vicarage - Agatha Christie.epub (OEBPS/009_chapter05.html) - twenty past six',
+            "\x{201c}But, Len,\x{201d} she said, \x{201c}that makes the whole thing perfectly extraordinary. Because when that clock said <<twenty past six|10>> it was really only five minutes past, and at five minutes past I don\x{2019}t suppose Colonel Protheroe had even arrived at the house.\x{201d}",
+          ],
+          [
+            1,
+            '[ap 07:45] Murder at the Vicarage - Agatha Christie.epub (OEBPS/010_chapter06.html) - 7:45',
+            'I now proceeded to ring up the Sunday School teachers, who were coming at <<7:45|2>> for their weekly preparation class. I thought that under the circumstances it would be better to put them off.',
+          ],
+          [
+            1,
+            '[ap ~ 05:45] Murder at the Vicarage - Agatha Christie.epub (OEBPS/010_chapter06.html) - about a quarter to six',
+            'On hearing that Mrs. Protheroe had last seen her husband in the village <<about a quarter to six|10>>, and that she had no light of any kind to throw upon the matter, he had taken his departure, explaining that he would return on the morrow for a fuller interview.',
+          ],
+          [
+            1,
+            '[ap 06:20] Murder at the Vicarage - Agatha Christie.epub (OEBPS/010_chapter06.html) - 6:20',
+            "\x{201c}There\x{2019}s the clock, too,\x{201d} I said. \x{201c}This explains the clock. Lawrence must have put it back to <<6:20|2>> with the idea of making an alibi for himself. Look how Inspector Slack fell into the trap.\x{201d}",
+          ],
+          [
+            1,
+            '[ap 06:22] Murder at the Vicarage - Agatha Christie.epub (OEBPS/010_chapter06.html) - 6:22',
+            "\x{201c}You\x{2019}re wrong, Len. Lawrence knew about that clock being fast. \x{2018}Keeping the Vicar up to time!\x{2019} he used to say. Lawrence would never have made the mistake of putting it back to <<6:22|2>>. He\x{2019}d have put the hands somewhere possible\x{2014}like a <<quarter to seven|10>>.\x{201d}",
+          ],
+          [
+            1,
+            '[ap 06:20] Murder at the Vicarage - Agatha Christie.epub (OEBPS/010_chapter06.html) - 6:20',
+            "\x{201c}Quite true,\x{201d} said Griselda. \x{201c}He seems to have been writing a note to say he couldn\x{2019}t wait any longer. The note was dated <<6:20|2>>, and the clock on the table was overturned and had stopped at <<6:22|2>>, and that\x{2019}s just what has been puzzling Len and myself so frightfully.\x{201d}",
+          ],
+          [
+            1,
+            "[ap ~ 10:00] Murder at the Vicarage - Agatha Christie.epub (OEBPS/011_chapter07.html) - About ten o\x{2019}clock",
+            "\x{201c}Last night. <<About ten o\x{2019}clock|6>>. Fellow rolls in, throws down a pistol, and says: \x{2018}Here I am. I did it.\x{2019} Just like that.\x{201d}",
+          ],
+          [
+            1,
+            '[ap 02:05] Murder at the Vicarage - Agatha Christie.epub (OEBPS/011_chapter07.html) - two five',
+            "He shoved a little box along the table. Melchett examined it.
+\x{201c}Point <<two five|5l:0>>?\x{201d}
+Haydock nodded.",
+          ],
+          [
+            1,
+            '[ap 06:20] Murder at the Vicarage - Agatha Christie.epub (OEBPS/011_chapter07.html) - 6:20',
+            "\x{201c}Anyway, there wouldn\x{2019}t have been time for a quarrel,\x{201d} I said, remembering Miss Marple\x{2019}s words. \x{201c}To creep up, shoot him, alter the clock hands back to <<6:20|2>>, and leave again would have taken him all his time. I shall never forget his face when I met him outside the gate, or the way he said, \x{2018}You want to see Protheroe\x{2014}oh, you\x{2019}ll see him all right!\x{2019} That in itself ought to have made me suspicious of what had just taken place a few minutes before.\x{201d}",
+          ],
+          [
+            1,
+            '[ap 06:45] Murder at the Vicarage - Agatha Christie.epub (OEBPS/011_chapter07.html) - quarter to seven',
+            "\x{201c}But, look here, Haydock.\x{201d} The Colonel found his voice. \x{201c}If Redding admits shooting him at a <<quarter to seven|10>>\x{2014}\x{201d}",
+          ],
+          [
+            1,
+            '[ap 06:45] Murder at the Vicarage - Agatha Christie.epub (OEBPS/011_chapter07.html) - quarter to seven',
+            "\x{201c}I tell you it\x{2019}s impossible,\x{201d} he roared. \x{201c}If Redding says he killed Protheroe at a <<quarter to seven|10>>, then Redding lies. Hang it all, I tell you I\x{2019}m a doctor, and I know. The blood had begun to congeal.\x{201d}",
+          ],
+          [
+            1,
+            '[ap ~ 06:45] Murder at the Vicarage - Agatha Christie.epub (OEBPS/012_chapter08.html) - approximately a quarter to seven',
+            "\x{201c}Look here, Redding,\x{201d} he said, \x{201c}I understand you made a statement to Inspector Slack here. You state you went to the Vicarage at <<approximately a quarter to seven|10>>, found Protheroe there, quarrelled with him, shot him, and came away. I\x{2019}m not reading it over to you, but that\x{2019}s the gist of it.\x{201d}",
+          ],
+          [
+            1,
+            '[ap 06:22] Murder at the Vicarage - Agatha Christie.epub (OEBPS/012_chapter08.html) - 6:22',
+            "\x{201c}The clock?\x{201d} He seemed puzzled.
+\x{201c}Yes, the hands pointed to <<6:22|2>>.\x{201d}
+A look of fear sprang up in his face.",
+          ],
+          [
+            1,
+            '[ap 04:30] Murder at the Vicarage - Agatha Christie.epub (OEBPS/012_chapter08.html) - four thirty',
+            "\x{201c}After luncheon Mrs. Protheroe went to lie down and the Colonel went to his study. Miss Lettice went out to a tennis party in the two-seater. Colonel and Mrs. Protheroe had tea at <<four thirty|5b>>, in the drawing room. The car was ordered for <<five-thirty|5k:0>> to take them to the village. Immediately after they had left Mr. Clement rang up\x{201d}\x{2014}he bowed to me\x{2014}\x{201c}I told him they had started.\x{201d}",
+          ],
+          [
+            1,
+            "[ap 05:00] Murder at the Vicarage - Agatha Christie.epub (OEBPS/013_chapter09.html) - five o\x{2019}clock",
+            "\x{201c}As a matter of fact, I was in my little garden from <<five o\x{2019}clock|6>> onwards yesterday, and, of course, from there\x{2014}well, one simply cannot help seeing anything that is going on next door.\x{201d}",
+          ],
+          [
+            1,
+            '[ap > 06:15] Murder at the Vicarage - Agatha Christie.epub (OEBPS/013_chapter09.html) - after a quarter past six',
+            "\x{201c}I should say it was just a minute or two <<after a quarter past six|10>>. Yes, that\x{2019}s right. The church clock had just chimed the quarter.\x{201d}",
+          ],
+          [
+            1,
+            '[ap 06:20] Murder at the Vicarage - Agatha Christie.epub (OEBPS/013_chapter09.html) - twenty minutes past six',
+            "\x{201c}Well, I rather thought it might happen,\x{201d} said Miss Marple. \x{201c}I think dear Lettice thought so, too. She\x{2019}s really a very sharp girl. Not always very scrupulous, I\x{2019}m afraid. So Anne Protheroe says she killed her husband. Well, well. I don\x{2019}t think it\x{2019}s true. No, I\x{2019}m almost sure it isn\x{2019}t true. Not with a woman like Anne Protheroe. Although one never can be quite sure about anyone, can one? At least that\x{2019}s what I\x{2019}ve found. When does she say she shot him?\x{201d}
+\x{201c}At <<twenty minutes past six|10>>. Just after speaking to you.\x{201d}
+Miss Marple shook her head slowly and pityingly. The pity was, I think, for two full-grown men being so foolish as to believe such a story. At least that is what we felt like.",
+          ],
+          [
+            1,
+            '[ap 06:22] Murder at the Vicarage - Agatha Christie.epub (OEBPS/013_chapter09.html) - 6:22',
+            "\x{201c}You must admit that it all fits in,\x{201d} he said. \x{201c}The time, the overturned clock pointing to <<6:22|2>>\x{2014}\x{201d}",
+          ],
+          [
+            1,
+            '[ap 06:30] Murder at the Vicarage - Agatha Christie.epub (OEBPS/015_chapter11.html) - six thirty',
+            "\x{201c}That\x{2019}s different. She\x{2019}s a woman, and women act in that silly way. I\x{2019}m not saying she did it for a moment. She heard he was accused and she trumped up a story. I\x{2019}m used to that sort of game. You wouldn\x{2019}t believe the fool things I\x{2019}ve known women do. But Redding\x{2019}s different. He\x{2019}s got his head screwed on all right. And if he admits he did it, well, I say he did do it. It\x{2019}s his pistol\x{2014}you can\x{2019}t get away from that. And thanks to this business of Mrs. Protheroe, we know the motive. That was the weak point before, but now we know it\x{2014}why, the whole thing\x{2019}s plain sailing.\x{201d}
+\x{201c}You think he can have shot him earlier? At <<six thirty|5b>>, say?\x{201d}
+\x{201c}He can\x{2019}t have done that.\x{201d}",
+          ],
+          [
+            1,
+            '[ap 06:10] Murder at the Vicarage - Agatha Christie.epub (OEBPS/015_chapter11.html) - ten past six',
+            "\x{201c}He was in the village near the Blue Boar at <<ten past six|10>>. From there he came along the back lane where you say the old lady next door saw him\x{2014}she doesn\x{2019}t miss much, I should say\x{2014}and kept his appointment with Mrs. Protheroe in the studio in the garden. They left there together <<just after six|10>> thirty, and went along the lane to the village, being joined by Dr. Stone. He corroborates that all right\x{2014}I\x{2019}ve seen him. They all stood talking just by the post office for a few minutes, then Mrs. Protheroe went into Miss Hartnell\x{2019}s to borrow a gardening magazine. That\x{2019}s all right too. I\x{2019}ve seen Miss Hartnell. Mrs. Protheroe remained there talking to her till just on <<seven o\x{2019}clock|6>> when she exclaimed at the lateness of the hour and said she must get home.\x{201d}",
+          ],
+          [
+            1,
+            '[ap 06:40] Murder at the Vicarage - Agatha Christie.epub (OEBPS/015_chapter11.html) - twenty minutes to seven',
+            "\x{201c}Redding, he went with Dr. Stone to the Blue Boar and they had a drink together. He left there at <<twenty minutes to seven|10>>, went rapidly along the village street and down the road to the Vicarage. Lots of people saw him.\x{201d}",
+          ],
+          [
+            1,
+            '[ap 06:30] Murder at the Vicarage - Agatha Christie.epub (OEBPS/015_chapter11.html) - six thirty',
+            "\x{201c}There\x{2019}s the doctor\x{2019}s evidence. You can\x{2019}t get away from that. Protheroe was shot not later than <<six thirty|5k:0>>.\x{201d}",
+          ],
+          [
+            1,
+            '[ap 06:20] Murder at the Vicarage - Agatha Christie.epub (OEBPS/015_chapter11.html) - twenty minutes past six',
+            "\x{201c}At <<twenty minutes past six|10>>?\x{201d} said Miss Marple. \x{201c}Your maid, Mary, had already told him that you wouldn\x{2019}t be in till <<half past six|10>> at the earliest, and he appeared to be quite willing to wait until then. And yet at <<twenty past six|10>> he sits down and says he \x{2018}can\x{2019}t wait any longer.\x{2019}\x{201d}",
+          ],
+          [
+            1,
+            '[ap 06:20] Murder at the Vicarage - Agatha Christie.epub (OEBPS/015_chapter11.html) - 6:20',
+            'I cast my mind back, trying to recall that sheet of notepaper and the blurred scrawl, and at the top that neatly printed <<6:20|2>>. Surely these figures were on a different scale to the rest of the letter. I gave a gasp.',
+          ],
+          [
+            1,
+            '[ap ~ 06:30] Murder at the Vicarage - Agatha Christie.epub (OEBPS/015_chapter11.html) - about 6:30',
+            "\x{201c}Supposing,\x{201d} I said, \x{201c}it wasn\x{2019}t dated. Supposing that round <<about 6:30|2>> Colonel Protheroe got impatient and sat down to say he couldn\x{2019}t wait any longer. And as he was sitting there writing, someone came in through the window\x{2014}\x{201d}",
+          ],
+          [
+            1,
+            '[ap 06:20] Murder at the Vicarage - Agatha Christie.epub (OEBPS/015_chapter11.html) - 6:20',
+            "\x{201c}Yes, that\x{2019}s true. He wouldn\x{2019}t hear it. Whichever way the murderer came, he stole up behind the Colonel and shot him. Then he saw the note and the clock and the idea came to him. He put <<6:20|2>> at the top of the letter and he altered the clock to <<6:22|2>>. It was a clever idea. It gave him, or so he would think, a perfect alibi.\x{201d}",
+          ],
+          [
+            1,
+            '[ap 06:20] Murder at the Vicarage - Agatha Christie.epub (OEBPS/015_chapter11.html) - 6:20',
+            "\x{201c}And what we want to find,\x{201d} said Griselda, \x{201c}is someone who has a cast-iron alibi for <<6:20|2>>, but no alibi at all for\x{2014}well, that isn\x{2019}t so easy. One can\x{2019}t fix the time.\x{201d}",
+          ],
+          [
+            1,
+            '[ap 06:30] Murder at the Vicarage - Agatha Christie.epub (OEBPS/015_chapter11.html) - 6:30',
+            "\x{201c}We can fix it within very narrow limits,\x{201d} I said. \x{201c}Haydock places <<6:30|2>> as the outside limit of time. I suppose one could perhaps shift it to <<6:35|2>> from the reasoning we have just been following out, it seems clear that Protheroe would not have got impatient before <<6:30|2>>. I think we can say we do know pretty well.\x{201d}",
+          ],
+          [
+            1,
+            '[ap 06:20] Murder at the Vicarage - Agatha Christie.epub (OEBPS/015_chapter11.html) - 6:20',
+            "\x{201c}Yes. Don\x{2019}t you see? There\x{2019}s no real evidence against Lawrence\x{2014}all the evidence against him is what you might call accidental. He just happens to take it into his head to come here. If he hadn\x{2019}t\x{2014}well, no one would have thought of connecting him with the crime. But Anne is different. Suppose someone knew that she was here at exactly <<6:20|2>>\x{2014}the clock and the time on the letter\x{2014}everything pointing to her. I don\x{2019}t think it was only because of an alibi it was moved to that exact time\x{2014}I think there was more in it than that\x{2014}a direct attempt to fasten the business on her. If it hadn\x{2019}t been for Miss Marple saying she hadn\x{2019}t got the pistol with her and noticing that she was only a moment before going down to the studio\x{2014}Yes, if it hadn\x{2019}t been for that \x{2026}\x{201d} She shivered again. \x{201c}Len, I feel that someone hated Anne Protheroe very much. I\x{2014}I don\x{2019}t like it.\x{201d}",
+          ],
+          [
+            1,
+            '[ap 06:15] Murder at the Vicarage - Agatha Christie.epub (OEBPS/016_chapter12.html) - quarter past six',
+            "\x{201c}Very well, then. I expect you are right. I had promised the Vicar here (he glanced at me) to\x{2014}to go right away. I met Mrs. Protheroe that evening in the studio at a <<quarter past six|10>>. I told her of what I had decided. She, too, agreed that it was the only thing to do. We\x{2014}we said good-bye to each other.",
+          ],
+          [
+            1,
+            '[ap 06:15] Murder at the Vicarage - Agatha Christie.epub (OEBPS/016_chapter12.html) - quarter past six',
+            "\x{201c}I was to meet Lawrence\x{2014}Mr. Redding\x{2014}that evening at the studio. At a <<quarter past six|10>>. My husband and I drove into the village together. I had some shopping to do. As we parted he mentioned casually that he was going to see the Vicar. I couldn\x{2019}t get word to Lawrence, and I was rather uneasy. I\x{2014}well, it was awkward meeting him in the Vicarage garden whilst my husband was at the Vicarage.\x{201d}",
+          ],
+          [
+            1,
+            '[ap 06:30] Murder at the Vicarage - Agatha Christie.epub (OEBPS/016_chapter12.html) - half past six',
+            "\x{201c}But I pinned her down all right. She heard one shot\x{2014}and one shot only. And it was a good long time after Colonel Protheroe came. I couldn\x{2019}t get her to name a time, but we fixed it at last by means of the fish. The fish was late, and she blew the boy up when he came, and he said it was barely <<half past six|10>> anyway, and it was just after that she heard the shot. Of course, that\x{2019}s not accurate, so to speak, but it gives us an idea.\x{201d}",
+          ],
+          [
+            1,
+            '[ap ~ 06:30] Murder at the Vicarage - Agatha Christie.epub (OEBPS/017_chapter13.html) - About half past six',
+            "\x{201c}Yesterday afternoon\x{2014}evening to be exact. <<About half past six|10>>. I went to the telephone, suspecting nothing. Immediately I was foully attacked, threatened\x{2014}\x{201d}",
+          ],
+          [
+            1,
+            '[ap ~ 06:30] Murder at the Vicarage - Agatha Christie.epub (OEBPS/017_chapter13.html) - About half past six',
+            "\x{201c}Of course. Of course. And what time was all this? To help us in tracing the telephone call, you know.\x{201d}
+\x{201c}<<About half past six|10>>.\x{201d}
+\x{201c}You can\x{2019}t give it us more exactly than that?\x{201d}",
+          ],
+          [
+            1,
+            '[ap 10:00] Murder at the Vicarage - Agatha Christie.epub (OEBPS/017_chapter13.html) - ten',
+            "\x{201c}Well, you see, the little clock on my mantelpiece had just chimed the half hour, and I said, \x{2018}Surely that clock is fast.\x{2019} (It does gain, that clock.) And I compared it with the watch I was wearing and that only said <<ten|11>> minutes past, but then I put it to my ear and found it had stopped. So I thought: \x{2018}Well, if that clock is fast, I shall hear the church tower in a moment or two.\x{2019} And then, of course, the telephone bell rang, and I forgot all about it.\x{201d} She paused breathless.",
+          ],
+          [
+            1,
+            '[ap ~ 05:30] Murder at the Vicarage - Agatha Christie.epub (OEBPS/017_chapter13.html) - about half past five',
+            "\x{201c}I believe in hard work. We\x{2019}ll begin by just noting down your own movements, Mr. Clement.\x{201d}
+\x{201c}Willingly. The telephone call came through <<about half past five|10>>.\x{201d}
+\x{201c}A man\x{2019}s voice, or a woman\x{2019}s?\x{201d}",
+          ],
+          [
+            1,
+            '[ap 06:50] Murder at the Vicarage - Agatha Christie.epub (OEBPS/017_chapter13.html) - 6:50',
+            "\x{201c}And Mrs. Clement?\x{201d}
+\x{201c}My wife was in London. She arrived back by the <<6:50|2>> train.\x{201d}
+\x{201c}Right. The maid I\x{2019}ve seen. That finishes with the Vicarage. I\x{2019}ll be off to Old Hall next. And then I want an interview with Mrs. Lestrange. Queer, her going to see Protheroe the night before he was killed. A lot of queer things about this case.\x{201d}",
+          ],
+          [
+            1,
+            '[19:00] Murder at the Vicarage - Agatha Christie.epub (OEBPS/019_chapter15.html) - 7 p.m.',
+            "\x{201c}Just as a matter of form, I\x{2019}m asking every one just where they were yesterday evening between the hours of 6 and <<7 p.m.|5>> Just as a matter of form, you understand.\x{201d}",
+          ],
+          [
+            1,
+            "[ap 05:00] Murder at the Vicarage - Agatha Christie.epub (OEBPS/019_chapter15.html) - five o\x{2019}clock",
+            "\x{201c}You said between six and seven, Inspector. I was out for a walk early in the afternoon. I returned some time before <<five o\x{2019}clock|6>>.\x{201d}",
+          ],
+          [
+            1,
+            "[ap ~ 06:00] Murder at the Vicarage - Agatha Christie.epub (OEBPS/019_chapter15.html) - about six o\x{2019}clock",
+            "\x{201c}Then if a lady\x{2014}Miss Hartnell, for instance\x{2014}were to declare that she came here <<about six o\x{2019}clock|6>>, rang the bell, but could make no one hear and was compelled to go away again\x{2014}you\x{2019}d say she was mistaken, eh?\x{201d}",
+          ],
+          [
+            1,
+            '[ap 05:30] Murder at the Vicarage - Agatha Christie.epub (OEBPS/020_chapter16.html) - Five thirty',
+            "\x{201c}What time was that?\x{201d}
+\x{201c}<<Five thirty|9j>>.\x{201d}
+\x{201c}Mrs. Protheroe went too?\x{201d}",
+          ],
+          [
+            1,
+            '[ap 06:15] Murder at the Vicarage - Agatha Christie.epub (OEBPS/020_chapter16.html) - quarter past six',
+            "\x{201c}What time was that?\x{201d}
+\x{201c}A <<quarter past six|10>>, sir. A quarter past exactly.\x{201d}
+\x{201c}Where did you leave her?\x{201d}",
+          ],
+          [
+            1,
+            '[ap ~ 07:30] Murder at the Vicarage - Agatha Christie.epub (OEBPS/020_chapter16.html) - about seven thirty',
+            "\x{201c}I don\x{2019}t know. I tell you I never know these things.\x{201d}
+\x{201c}You returned,\x{201d} I said, \x{201c}<<about seven thirty|9j>>.\x{201d}
+\x{201c}That\x{2019}s right,\x{201d} said Lettice. \x{201c}In the middle of the shemozzle. Anne having fits and Griselda supporting her.\x{201d}",
+          ],
+          [
+            1,
+            '[ap 06:20] Murder at the Vicarage - Agatha Christie.epub (OEBPS/020_chapter16.html) - 6:20',
+            "\x{201c}They have reason to believe that the shot was fired later.\x{201d}
+\x{201c}But the <<6:20|2>> on the note?\x{201d}
+\x{201c}Was possibly added by a different hand\x{2014}the murderer\x{2019}s.\x{201d}",
+          ],
+          [
+            1,
+            "[ap > 02:00] Murder at the Vicarage - Agatha Christie.epub (OEBPS/020_chapter16.html) - a little after two o\x{2019}clock",
+            "\x{201c}Oh, yes, quite a number of people. Dr. Stone and Miss Cram went that way\x{2014}it\x{2019}s the nearest way to the barrow for them. That was <<a little after two o\x{2019}clock|6>>. And Dr. Stone returned that way\x{2014}as you know, Mr. Redding, since he joined you and Mrs. Protheroe.\x{201d}",
+          ],
+          [
+            1,
+            '[ap 05:30] Murder at the Vicarage - Agatha Christie.epub (OEBPS/021_chapter17.html) - five thirty',
+            "\x{201c}It also shows that the murderer was well acquainted with Old Hall and its surroundings. It wasn\x{2019}t Mrs. Protheroe who put that call through. I\x{2019}ve accounted for every moment of her time that afternoon. There are half a dozen other servants who can swear that she was at home till <<five thirty|5b>>. Then the car came round and drove Colonel Protheroe and her to the village. The Colonel went to see Quinton, the vet, about one of the horses. Mrs. Protheroe did some ordering at the grocers and at the fish shop, and from there came straight down the back lane where Miss Marple saw her. All the shops agree she carried no handbag with her. The old lady was right.\x{201d}",
+          ],
+          [
+            1,
+            '[ap 05:30] Murder at the Vicarage - Agatha Christie.epub (OEBPS/021_chapter17.html) - 5:30',
+            "\x{201c}She usually is,\x{201d} I said mildly.
+\x{201c}And Miss Protheroe was over at Much Benham at <<5:30|2>>.\x{201d}
+\x{201c}Quite so,\x{201d} I said. \x{201c}My nephew was there too.\x{201d}",
+          ],
+          [
+            1,
+            '[ap 06:30] Murder at the Vicarage - Agatha Christie.epub (OEBPS/021_chapter17.html) - 6:30',
+            "\x{201c}Yes. A bit odd, isn\x{2019}t it? Mr. Redding had nothing to do with it. At that time, <<6:30|2>>, he was on his way to the Blue Boar with Dr. Stone in full view of the village. But there it is. Suggestive, eh? Someone walked into that empty cottage and used the telephone, who was it? That\x{2019}s two queer telephone calls in one day. Makes you think there\x{2019}s some connection between them. I\x{2019}ll eat my hat if they weren\x{2019}t both put through by the same person.\x{201d}",
+          ],
+          [
+            1,
+            '[ap ~ 02:30] Murder at the Vicarage - Agatha Christie.epub (OEBPS/021_chapter17.html) - about half past two',
+            "\x{201c}Just as a matter of form, I went round and saw Dr. Stone,\x{201d} he went on. \x{201c}I must say he was pleasant as could be about it. He and Miss Cram went up to that mound\x{2014}or barrow\x{2014}or whatever you call it, <<about half past two|10>> yesterday, and stayed there all the afternoon. Dr. Stone came back alone, and she came later. He says he didn\x{2019}t hear any shot, but admits he\x{2019}s absentminded. But it all bears out what we think.\x{201d}",
+          ],
+          [
+            1,
+            "[11:00] Murder at the Vicarage - Agatha Christie.epub (OEBPS/021_chapter17.html) - Eleven o\x{2019}clock in the morning",
+            "Unblushingly, I suggested a glass of old port. I have some very fine old vintage port. <<Eleven o\x{2019}clock in the morning|6>> is not the usual time for drinking port, but I did not think that mattered with Inspector Slack. It was, of course, cruel abuse of the vintage port, but one must not be squeamish about such things.",
+          ],
+          [
+            1,
+            '[ap 01:00] Murder at the Vicarage - Agatha Christie.epub (OEBPS/021_chapter17.html) - one',
+            "\x{201c}But, of course, she can\x{2019}t have been telephoning to the old lady next door and shooting Colonel Protheroe at <<one|9c:0>> and the same time,\x{201d} continued the Inspector.",
+          ],
+          [
+            1,
+            "[00:00] Murder at the Vicarage - Agatha Christie.epub (OEBPS/021_chapter17.html) - twelve o\x{2019}clock at night",
+            "\x{201c}Isn\x{2019}t it extraordinary? What should she want with a suitcase in the wood at <<twelve o\x{2019}clock at night|6>>?",
+          ],
+          [
+            1,
+            "[ap 02:00] Murder at the Vicarage - Agatha Christie.epub (OEBPS/022_chapter18.html) - two o\x{2019}clock",
+            "The inquest was held that afternoon (Saturday) at <<two o\x{2019}clock|6>> at the Blue Boar. The local excitement was, I need hardly say, tremendous. There had been no murder in St. Mary Mead for at least fifteen years. And to have someone like Colonel Protheroe murdered actually in the Vicarage study is such a feast of sensation as rarely falls to the lot of a village population.",
+          ],
+          [
+            1,
+            '[ap ~ 05:45] Murder at the Vicarage - Agatha Christie.epub (OEBPS/022_chapter18.html) - about a quarter to six',
+            'Mrs. Protheroe gave evidence that she had last seen her husband at <<about a quarter to six|10>> when they separated in the village street. She agreed to call for him at the Vicarage later. She had gone to the Vicarage <<about a quarter past six|10>>, by way of the back lane and the garden gate. She had heard no voices in the study and had imagined that the room was empty, but her husband might have been sitting at the writing table, in which case she would not have seen him. As far as she knew, he had been in his usual health and spirits. She knew of no enemy who might have had a grudge against him.',
+          ],
+          [
+            1,
+            '[ap ~ 06:20] Murder at the Vicarage - Agatha Christie.epub (OEBPS/022_chapter18.html) - approximately 6:20',
+            "Haydock followed. He was an important witness. He described carefully and technically the appearance of the body and the exact injuries. It was his opinion that the deceased had been shot at <<approximately 6:20|2>> to <<6:30|2>>\x{2014}certainly not later than <<6:35|2>>. That was the outside limit. He was positive and emphatic on that point. There was no question of suicide, the wound could not have been self-inflicted.",
+          ],
+          [
+            1,
+            '[ap 06:20] Murder at the Vicarage - Agatha Christie.epub (OEBPS/022_chapter18.html) - 6:20',
+            "Inspector Slack\x{2019}s evidence was discreet and abridged. He described his summons and the circumstances under which he had found the body. The unfinished letter was produced and the time on it\x{2014}<<6:20|2>>\x{2014}noted. Also the clock. It was tacitly assumed that the time of death was <<6:22|2>>. The police were giving nothing away. Anne Protheroe told me afterwards that she had been told to suggest a slightly earlier period of time than <<6:20|2>> for her visit.",
+          ],
+          [
+            1,
+            '[ap 06:15] Murder at the Vicarage - Agatha Christie.epub (OEBPS/022_chapter18.html) - quarter past six',
+            "Our maid, Mary, was the next witness, and proved a somewhat truculent one. She hadn\x{2019}t heard anything, and didn\x{2019}t want to hear anything. It wasn\x{2019}t as though gentlemen who came to see the Vicar usually got shot. They didn\x{2019}t. She\x{2019}d got her own jobs to look after. Colonel Protheroe had arrived at a <<quarter past six|10>> exactly. No, she didn\x{2019}t look at the clock. She heard the church chime after she had shown him into the study. She didn\x{2019}t hear any shot. If there had been a shot she\x{2019}d have heard it. Well, of course, she knew there must have been a shot, since the gentleman was found shot\x{2014}but there it was. She hadn\x{2019}t heard it.",
+          ],
+          [
+            1,
+            '[ap 00:45] Murder at the Vicarage - Agatha Christie.epub (OEBPS/022_chapter18.html) - quarter to one',
+            "Mrs. Archer was shown the pistol and recognized it as the one she had seen in Mr. Redding\x{2019}s sitting room \x{201c}over against the bookcase, he kept it, lying about.\x{201d} She had last seen it on the day of the murder. Yes\x{2014}in answer to a further question\x{2014}she was quite sure it was there at lunchtime on Thursday\x{2014}<<quarter to one|10>> when she left.",
+          ],
+          [
+            1,
+            '[ap 06:50] Murder at the Vicarage - Agatha Christie.epub (OEBPS/022_chapter18.html) - 6:50',
+            "\x{201c}Lucky not to miss the train. Not that you ever know on this line. I tell you, Mr. Clement, it\x{2019}s a crying shame. Disgraceful, that\x{2019}s what I call it. Train I came down by was ten minutes late. And that on a Saturday with no traffic to speak of. And on Wednesday\x{2014}no, Thursday\x{2014}yes, Thursday it was\x{2014}I remember it was the day of the murder because I meant to write a strongly-worded complaint to the company\x{2014}and the murder put it out of my head\x{2014}yes, last Thursday. I had been to a meeting of the Pharmaceutical Society. How late do you think the <<6:50|2>> was? Half an hour. Half an hour exactly! What do you think of that? Ten minutes I don\x{2019}t mind. But if the train doesn\x{2019}t get in till <<twenty past seven|10>>, well, you can\x{2019}t get home before half past. What I say is, why call it the <<6:50|2>>?\x{201d}",
+          ],
+          [
+            1,
+            '[12:00] Murder at the Vicarage - Agatha Christie.epub (OEBPS/023_chapter19.html) - midday',
+            "\x{201c}That\x{2019}s merely the camouflage of the poor,\x{201d} I explained. \x{201c}They take refuge behind a mask of stupidity. You\x{2019}ll probably find that the old lady has all her wits about her. By the way, she seems very certain now that the pistol was in its proper place <<midday|13>> Thursday. What\x{2019}s made her so positive all of a sudden?\x{201d}",
+          ],
+          [
+            1,
+            "[ap 08:00] Murder at the Vicarage - Agatha Christie.epub (OEBPS/026_chapter22.html) - eight o\x{2019}clock",
+            "I took the <<eight o\x{2019}clock|6>> service the following morning and when I returned found Griselda sitting at the breakfast table with an open note in her hand. It was from Anne Protheroe.",
+          ],
+          [
+            1,
+            "[ap ~ 03:00] Murder at the Vicarage - Agatha Christie.epub (OEBPS/026_chapter22.html) - about three o\x{2019}clock",
+            "\x{201c}First of all, I must explain. I am sleeping very lightly just now. Last night\x{2014}or rather this morning <<about three o\x{2019}clock|6>>, I was convinced that I heard someone moving about the house. I listened for some time, and at last got up and came out to see. Out on the landing I realized that the sounds came, not from down below, but from up above. I came along to the foot of these stairs. Again I thought I heard a sound. I called up, \x{2018}Is anybody there?\x{2019} But there was no answer, and I heard nothing more, so I assumed that my nerves had been playing tricks on me, and went back to bed.",
+          ],
+          [
+            1,
+            '[ap 00:50] Murder at the Vicarage - Agatha Christie.epub (OEBPS/029_chapter25.html) - ten to one',
+            "\x{201c}Well, it appears he was with a couple of pals all the afternoon. Not, as I say, that that counts much. Men like Archer and his pals would swear to anything. There\x{2019}s no believing a word they say. We know that. But the public doesn\x{2019}t, and the jury\x{2019}s taken from the public, more\x{2019}s the pity. They know nothing, and <<ten to one|10a:0>> believe everything that\x{2019}s said in the witness box, no matter who it is that says it. And of course Archer himself will swear till he\x{2019}s black in the face that he didn\x{2019}t do it.\x{201d}",
+          ],
+          [
+            1,
+            "[ap 06:00] Murder at the Vicarage - Agatha Christie.epub (OEBPS/029_chapter25.html) - six o\x{2019}clock",
+            "\x{201c}As far as I can remember,\x{201d} said Miss Hartnell, \x{201c}it must have been close on <<six o\x{2019}clock|6>>. I went straight home afterwards, and I got in <<about ten past six|10>>, and Mrs. Protheroe came in somewhere round about the half hour, leaving Dr. Stone and Mr. Redding outside, and we talked about bulbs. And all the time the poor Colonel lying murdered. It\x{2019}s a sad world.\x{201d}",
+          ],
+          [
+            1,
+            "[ap < 06:00] Murder at the Vicarage - Agatha Christie.epub (OEBPS/029_chapter25.html) - just before six o\x{2019}clock",
+            "\x{201c}And the time,\x{201d} continued Miss Wetherby, leaning forward mysteriously, \x{201c}was <<just before six o\x{2019}clock|10>>.\x{201d}",
+          ],
+          [
+            1,
+            '[ap 06:30] Murder at the Vicarage - Agatha Christie.epub (OEBPS/029_chapter25.html) - half past six',
+            "Nothing about a crime is ever ordinary. The shot was not an ordinary kind of shot. The sneeze was not a usual kind of sneeze. It was, I presume, a special murderer\x{2019}s sneeze. I asked the girl what time this had been, but she was very vague, some time between a quarter and <<half past six|10>> she thought. Anyway, \x{201c}it was before the mistress had the telephone call and was took bad.\x{201d}",
+          ],
+          [
+            1,
+            '[ap 06:54] Murder at the Vicarage - Agatha Christie.epub (OEBPS/029_chapter25.html) - Six to seven',
+            "\x{201c}I didn\x{2019}t want to create talk. <<Six to seven|10a:0>> isn\x{2019}t my time for seeing patients, and everyone knows that. But you can take my word for it that she was here.\x{201d}",
+          ],
+          [
+            1,
+            '[ap ~ 09:30] Murder at the Vicarage - Agatha Christie.epub (OEBPS/030_chapter26.html) - about half past nine',
+            "\x{201c}Dear Mr. Clement,\x{2014}I should so much like to have a little chat with you about one or two things that have occurred to me. I feel we should all try and help in elucidating this sad mystery. I will come over <<about half past nine|10>> if I may, and tap on your study window. Perhaps dear Griselda would be so very kind as to run over here and cheer up my nephew. And Mr. Dennis too, of course, if he cares to come. If I do not hear, I will expect them and will come over myself at the time I have stated.",
+          ],
+          [
+            1,
+            '[ap > 09:00] Murder at the Vicarage - Agatha Christie.epub (OEBPS/030_chapter26.html) - a little after nine',
+            'What Griselda called the Nephew Amusing Party started off at <<a little after nine|9c:0>>, and whilst I was waiting for Miss Marple to arrive I amused myself by drawing up a kind of schedule of the facts connected with the crime. I arranged them so far as possible in chronological order. I am not a punctual person, but I am a neat one, and I like things jotted down in a methodical fashion.',
+          ],
+          [
+            1,
+            '[ap 09:30] Murder at the Vicarage - Agatha Christie.epub (OEBPS/030_chapter26.html) - half past nine',
+            'At <<half past nine|10>> punctually, there was a little tap on the window, and I rose and admitted Miss Marple.',
+          ],
+          [
+            1,
+            '[12:30] Murder at the Vicarage - Agatha Christie.epub (OEBPS/030_chapter26.html) - 12:30 p.m.',
+            "<<12:30 p.m.|2a>>\x{2014}Colonel Protheroe alters his appointment from <<six to six|10a:0>> fifteen. Overheard by half village very probably.",
+          ],
+          [
+            1,
+            '[ap 00:45] Murder at the Vicarage - Agatha Christie.epub (OEBPS/030_chapter26.html) - 12:45',
+            "<<12:45|2>>\x{2014}Pistol last seen in its proper place. (But this is doubtful, as Mrs. Archer had previously said she could not remember.)",
+          ],
+          [
+            1,
+            '[ap 05:30] Murder at the Vicarage - Agatha Christie.epub (OEBPS/030_chapter26.html) - 5:30',
+            "<<5:30|2>> (approx.)\x{2014}Colonel and Mrs. Protheroe leave Old Hall for village in car.",
+          ],
+          [
+            1,
+            '[ap 05:30] Murder at the Vicarage - Agatha Christie.epub (OEBPS/030_chapter26.html) - 5:30',
+            "<<5:30|2>> (approx.)\x{2014}Colonel and Mrs. Protheroe leave Old Hall for village in car.
+<<5:30|2>> Fake call put through to me from the North Lodge, Old Hall.
+<<6:15|2>> (or a minute or two earlier)\x{2014}Colonel Protheroe arrives at Vicarage. Is shown into study by Mary.",
+          ],
+          [
+            1,
+            '[ap 06:15] Murder at the Vicarage - Agatha Christie.epub (OEBPS/030_chapter26.html) - 6:15',
+            "<<6:15|2>> (or a minute or two earlier)\x{2014}Colonel Protheroe arrives at Vicarage. Is shown into study by Mary.",
+          ],
+          [
+            1,
+            '[ap 06:20] Murder at the Vicarage - Agatha Christie.epub (OEBPS/030_chapter26.html) - 6:20',
+            "<<6:20|2>>\x{2014}Mrs. Protheroe comes along back lane and across garden to study window. Colonel Protheroe not visible.",
+          ],
+          [
+            1,
+            '[ap 06:29] Murder at the Vicarage - Agatha Christie.epub (OEBPS/030_chapter26.html) - 6:29',
+            "<<6:29|2>>\x{2014}Call from Lawrence Redding\x{2019}s cottage put through to Mrs. Price Ridley (according to Exchange).",
+          ],
+          [
+            1,
+            '[ap 06:30] Murder at the Vicarage - Agatha Christie.epub (OEBPS/030_chapter26.html) - 6:30',
+            "<<6:30|2>>\x{2013}6:35\x{2014}Shot heard. (Accepting telephone call time as correct.) Lawrence Redding, Anne Protheroe and Dr. Stone\x{2019}s evidence seem to point to its being earlier, but Mrs. P.R. probably right.",
+          ],
+          [
+            1,
+            '[ap 06:30] Murder at the Vicarage - Agatha Christie.epub (OEBPS/030_chapter26.html) - 6:30',
+            "<<6:30|2>>\x{2013}6:35\x{2014}Shot heard. (Accepting telephone call time as correct.) Lawrence Redding, Anne Protheroe and Dr. Stone\x{2019}s evidence seem to point to its being earlier, but Mrs. P.R. probably right.
+<<6:45|2>>\x{2014}Lawrence Redding arrives Vicarage and finds the body.
+<<6:48|2>>\x{2014}I meet Lawrence Redding.",
+          ],
+          [
+            1,
+            '[ap 06:45] Murder at the Vicarage - Agatha Christie.epub (OEBPS/030_chapter26.html) - 6:45',
+            "<<6:45|2>>\x{2014}Lawrence Redding arrives Vicarage and finds the body.
+<<6:48|2>>\x{2014}I meet Lawrence Redding.
+<<6:49|2>>\x{2014}Body discovered by me.",
+          ],
+          [
+            1,
+            '[ap 06:48] Murder at the Vicarage - Agatha Christie.epub (OEBPS/030_chapter26.html) - 6:48',
+            "<<6:48|2>>\x{2014}I meet Lawrence Redding.
+<<6:49|2>>\x{2014}Body discovered by me.
+<<6:55|2>>\x{2014}Haydock examines body.",
+          ],
+          [
+            1,
+            '[ap 06:49] Murder at the Vicarage - Agatha Christie.epub (OEBPS/030_chapter26.html) - 6:49',
+            "<<6:49|2>>\x{2014}Body discovered by me.
+<<6:55|2>>\x{2014}Haydock examines body.
+",
+          ],
+          [
+            1,
+            '[ap 06:30] Murder at the Vicarage - Agatha Christie.epub (OEBPS/030_chapter26.html) - 6:30',
+            "NOTE.\x{2014}The only two people who have no kind of alibi for <<6:30|2>>\x{2013}6:35 are Miss Cram and Mrs. Lestrange. Miss Cram says she was at the barrow, but no confirmation. It seems reasonable, however, to dismiss her from case as there seems nothing to connect her with it. Mrs. Lestrange left Dr. Haydock\x{2019}s house some time after six to keep an appointment. Where was the appointment, and with whom? It could hardly have been with Colonel Protheroe, as he expected to be engaged with me. It is true that Mrs. Lestrange was near the spot at the time the crime was committed, but it seems doubtful what motive she could have had for murdering him. She did not gain by his death, and the Inspector\x{2019}s theory of blackmail I cannot accept. Mrs. Lestrange is not that kind of woman. Also it seems unlikely that she should have got hold of Lawrence Redding\x{2019}s pistol.",
+          ],
+          [
+            1,
+            '[ap 06:35] Murder at the Vicarage - Agatha Christie.epub (OEBPS/030_chapter26.html) - six thirty five',
+            "\x{201c}Surely,\x{201d} I said, \x{201c}that is explained now. It was written at <<six thirty five|5b>> and another hand\x{2014}the murderer\x{2019}s\x{2014}put the misleading <<6:20|2>> at the top. I think that is clearly established.\x{201d}",
+          ],
+          [
+            1,
+            '[ap 06:20] Murder at the Vicarage - Agatha Christie.epub (OEBPS/030_chapter26.html) - twenty past six',
+            "\x{201c}And that\x{2019}s what\x{2019}s all wrong. That was at <<twenty past six|10>>. We agreed that he wouldn\x{2019}t sit down to say he couldn\x{2019}t wait any longer until <<after half past six|10>>\x{2014}so, why was he sitting at the writing table then?\x{201d}",
+          ],
+          [
+            1,
+            '[ap 06:20] Murder at the Vicarage - Agatha Christie.epub (OEBPS/031_chapter27.html) - 6:20',
+            "\x{201c}We got an expert on it\x{2014}to say whether the <<6:20|2>> was added by a different hand. Naturally we sent up samples of Protheroe\x{2019}s handwriting. And do you know the verdict? That letter was never written by Protheroe at all.\x{201d}",
+          ],
+          [
+            1,
+            '[ap 06:20] Murder at the Vicarage - Agatha Christie.epub (OEBPS/031_chapter27.html) - 6:20',
+            "\x{201c}It\x{2019}s a forgery. The <<6:20|2>> they think is written in a different hand again\x{2014}but they\x{2019}re not sure about that. The heading is in a different ink, but the letter itself is a forgery. Protheroe never wrote it.\x{201d}",
+          ],
+          [
+            1,
+            "[ap 11:00] Murder at the Vicarage - Agatha Christie.epub (OEBPS/032_chapter28.html) - eleven o\x{2019}clock",
+            "I hurried down the village street. It was <<eleven o\x{2019}clock|6>>, and at <<eleven o\x{2019}clock|6>> on a Sunday night the whole village of St. Mary Mead might be dead. I saw, however, a light in a first floor window as I passed, and, realizing that Hawes was still up, I stopped and rang the doorbell.",
+          ],
+          [
+            1,
+            '[ap 03:05] Murder at the Vicarage - Agatha Christie.epub (OEBPS/033_chapter29.html) - three five',
+            "\x{201c}The telephone,\x{201d} explained Miss Marple. \x{201c}So careless with their wrong numbers, aren\x{2019}t they? You spoke to me first, thinking I was Dr. Haydock. My number is <<three five|5l:0>>.\x{201d}",
+          ],
+          [
+            1,
+            '[ap 06:50] Murder at the Vicarage - Agatha Christie.epub (OEBPS/034_chapter30.html) - 6:50',
+            "\x{201c}Absolute nonsense\x{2014}the whole thing! Redding\x{2019}s time is fully accounted for up to <<6:50|2>> and Haydock says positively Protheroe couldn\x{2019}t have been shot then. I suppose you think you know better than a doctor. Or do you suggest that Haydock is deliberately lying\x{2014}the Lord knows why?\x{201d}",
+          ],
+          [
+            1,
+            '[ap 06:50] Murder at the Vicarage - Agatha Christie.epub (OEBPS/034_chapter30.html) - 6:50',
+            "\x{201c}But Mrs. Clement was completely out of it,\x{201d} interrupted Melchett. \x{201c}She returned by the <<6:50|2>> train.\x{201d}",
+          ],
+          [
+            1,
+            '[ap 06:50] Murder at the Vicarage - Agatha Christie.epub (OEBPS/034_chapter30.html) - 6:50',
+            "\x{201c}That\x{2019}s what she said,\x{201d} retorted Miss Marple. \x{201c}One should never go by what people say. The <<6:50|2>> was half an hour late that night. But at a <<quarter past seven|10>> I saw her with my own eyes starting for Old Hall. So it followed that she must have come by the earlier train. Indeed she was seen; but perhaps you know that?\x{201d}",
+          ],
+          [
+            1,
+            '[ap 06:20] Murder at the Vicarage - Agatha Christie.epub (OEBPS/034_chapter30.html) - twenty past six',
+            "Some magnetism in her glance impelled me to hold out the last anonymous letter, the one I had opened so short a time ago. It set out in detail that Griselda had been seen leaving Lawrence Redding\x{2019}s cottage by the back window at <<twenty past six|10>> on the fatal day.",
+          ],
+          [
+            1,
+            '[12:00] Murder at the Vicarage - Agatha Christie.epub (OEBPS/034_chapter30.html) - midday',
+            "\x{201c}That\x{2019}s been all over the village,\x{201d} she said. \x{201c}And it did look rather suspicious, didn\x{2019}t it? Especially with Mrs. Archer swearing at the inquest that the pistol was still in the cottage when she left at <<midday|13>>.\x{201d}",
+          ],
+          [
+            1,
+            '[ap 05:30] Murder at the Vicarage - Agatha Christie.epub (OEBPS/034_chapter30.html) - five thirty',
+            "\x{201c}That is my own explanation of the facts. By Thursday afternoon the crime had been fully planned down to the smallest detail. Lawrence Redding first called on the Vicar, knowing him to be out. He had with him the pistol which he concealed in that pot in the stand by the window. When the Vicar came in, Lawrence explained his visit by a statement that he had made up his mind to go away. At <<five thirty|5b>>, Lawrence Redding telephoned from the North Lodge to the Vicar, adopting a woman\x{2019}s voice (you remember what a good amateur actor he was).",
+          ],
+          [
+            1,
+            '[ap < 06:20] Murder at the Vicarage - Agatha Christie.epub (OEBPS/034_chapter30.html) - Just before twenty past six',
+            "\x{201c}Mrs. Protheroe and her husband had just started for the village. And\x{2014}a very curious thing (though no one happened to think of it that way)\x{2014}Mrs. Protheroe took no handbag with her. Really a most unusual thing for a woman to do. <<Just before twenty past six|10>> she passes my garden and stops and speaks, so as to give me every opportunity of noticing that she has no weapon with her and also that she is quite her normal self. They realized, you see, that I am a noticing kind of person. She disappears round the corner of the house to the study window. The poor Colonel is sitting at the desk writing his letter to you. He is deaf, as we all know. She takes the pistol from the bowl where it is waiting for her, comes up behind him and shoots him through the head, throws down the pistol and is out again like a flash, and going down the garden to the studio. Nearly anyone would swear that there couldn\x{2019}t have been time!\x{201d}",
+          ],
+          [
+            1,
+            '[ap ~ 06:30] Murder at the Vicarage - Agatha Christie.epub (OEBPS/034_chapter30.html) - about 6:30',
+            "\x{201c}Oh, dear, no!\x{201d} Miss Marple shook her head briskly. \x{201c}That wasn\x{2019}t a coincidence\x{2014}very far from it. It was absolutely necessary that a shot should be heard\x{2014}otherwise suspicion of Mrs. Protheroe might have continued. How Mr. Redding arranged it, I don\x{2019}t quite know. But I understand that picric acid explodes if you drop a weight on it, and you will remember, dear Vicar, that you met Mr. Redding carrying a large stone just in the part of the wood where you picked up that crystal later. Gentlemen are so clever at arranging things\x{2014}the stone suspended above the crystals and then a time fuse\x{2014}or do I mean a slow match? Something that would take about twenty minutes to burn through\x{2014}so that the explosion would come <<about 6:30|2>> when he and Mrs. Protheroe had come out of the studio and were in full view. A very safe device because what would there be to find afterwards\x{2014}only a big stone! But even that he tried to remove\x{2014}when you came upon him.\x{201d}",
+          ],
+          [
+            1,
+            "[ap > 00:00] Murder at the Vicarage - Agatha Christie.epub (OEBPS/035_chapter31.html) - past twelve o\x{2019}clock",
+            "\x{201c}It is most kind of you, Mr. Clement,\x{201d} said Miss Marple, as we walked down the deserted street. \x{201c}Dear me, <<past twelve o\x{2019}clock|6>>. I hope Raymond has gone to bed and not waited up.\x{201d}",
+          ],
+          [
+            1,
+            '[ap 06:15] Murder at the Vicarage - Agatha Christie.epub (OEBPS/036_chapter32.html) - quarter past six',
+            "\x{201c}But mother is not the sort to give in. She thought it only decent to go to father first, but when he turned her down so brutally she sent a note to me, and I arranged to leave the tennis party early and meet her at the end of the footpath at a <<quarter past six|10>>. We just had a hurried meeting and arranged when to meet again. We left each other before <<half past six|10>>. Afterwards I was terrified that she would be suspected of having killed father. After all, she had got a grudge against him. That\x{2019}s why I got hold of that old picture of her up in the attic and slashed it about. I was afraid the police might go nosing about and get hold of it and recognize it. Dr. Haydock was frightened too. Sometimes, I believe, he really thought she had done it! Mother is rather a\x{2014}desperate kind of person. She doesn\x{2019}t count consequences.\x{201d}",
+          ],
+          [
+            1,
+            '[ap 04:50] Murder at the Vicarage - Agatha Christie.epub (OEBPS/038_backmatterpage02.html) - 4:50',
+            "A Pocket Full of Rye
+<<4:50|2>> From Paddington
+The Mirror Crack\x{2019}d from Side to Side",
+          ],
+          [
+            1,
+            '[ap 04:50] Murder at the Vicarage - Agatha Christie.epub (OEBPS/042_adcardpage.html) - 4:50',
+            "A Pocket Full of Rye
+<<4:50|2>> from Paddington
+The Mirror Crack\x{2019}d from Side to Side",
+          ],
+        ];

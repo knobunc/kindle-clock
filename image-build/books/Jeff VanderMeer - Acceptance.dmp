@@ -1,0 +1,419 @@
+$VAR1 = [
+          [
+            1,
+            '[00:01] Acceptance - Jeff VanderMeer.epub (index_split_003.html) - 0001',
+            'Part I: Range Light
+<<0001|18:0>>: The Lighthouse Keeper
+<<0002|18:0>>: Ghost Bird',
+          ],
+          [
+            1,
+            '[00:01] Acceptance - Jeff VanderMeer.epub (index_split_003.html) - 0001',
+            '<<0001|9l>>: The Lighthouse Keeper
+<<0002|18:0>>: Ghost Bird
+<<0003|18:0>>: The Director',
+          ],
+          [
+            1,
+            '[00:02] Acceptance - Jeff VanderMeer.epub (index_split_003.html) - 0002',
+            '<<0002|9l>>: Ghost Bird
+<<0003|18:0>>: The Director
+<<0004|18:0>>: The Lighthouse Keeper',
+          ],
+          [
+            1,
+            '[00:03] Acceptance - Jeff VanderMeer.epub (index_split_003.html) - 0003',
+            '<<0003|9l>>: The Director
+<<0004|18:0>>: The Lighthouse Keeper
+<<0005|18:0>>: Control',
+          ],
+          [
+            1,
+            '[00:04] Acceptance - Jeff VanderMeer.epub (index_split_003.html) - 0004',
+            '<<0004|9l>>: The Lighthouse Keeper
+<<0005|18:0>>: Control
+<<0006|18:0>>: The Director',
+          ],
+          [
+            1,
+            '[00:05] Acceptance - Jeff VanderMeer.epub (index_split_003.html) - 0005',
+            '<<0005|9l>>: Control
+<<0006|18:0>>: The Director
+<<0007|18:0>>: The Lighthouse Keeper',
+          ],
+          [
+            1,
+            '[00:06] Acceptance - Jeff VanderMeer.epub (index_split_003.html) - 0006',
+            '<<0006|9l>>: The Director
+<<0007|18:0>>: The Lighthouse Keeper
+<<0008|18:0>>: Ghost Bird',
+          ],
+          [
+            1,
+            '[00:07] Acceptance - Jeff VanderMeer.epub (index_split_003.html) - 0007',
+            '<<0007|9l>>: The Lighthouse Keeper
+<<0008|18:0>>: Ghost Bird
+<<0009|18:0>>: The Director',
+          ],
+          [
+            1,
+            '[00:08] Acceptance - Jeff VanderMeer.epub (index_split_003.html) - 0008',
+            '<<0008|9l>>: Ghost Bird
+<<0009|18:0>>: The Director
+<<0010|18:0>>: Control',
+          ],
+          [
+            1,
+            '[00:09] Acceptance - Jeff VanderMeer.epub (index_split_003.html) - 0009',
+            '<<0009|9l>>: The Director
+<<0010|18:0>>: Control
+Part II: Fixed Light',
+          ],
+          [
+            1,
+            '[00:11] Acceptance - Jeff VanderMeer.epub (index_split_003.html) - 0011',
+            'Part III: Occulting Light
+<<0011|18:0>>: Ghost Bird
+<<0012|18:0>>: The Lighthouse Keeper',
+          ],
+          [
+            1,
+            '[00:11] Acceptance - Jeff VanderMeer.epub (index_split_003.html) - 0011',
+            '<<0011|9l>>: Ghost Bird
+<<0012|18:0>>: The Lighthouse Keeper
+<<0013|18:0>>: Control',
+          ],
+          [
+            1,
+            '[00:12] Acceptance - Jeff VanderMeer.epub (index_split_003.html) - 0012',
+            '<<0012|9l>>: The Lighthouse Keeper
+<<0013|18:0>>: Control
+<<0014|18:0>>: The Director',
+          ],
+          [
+            1,
+            '[00:13] Acceptance - Jeff VanderMeer.epub (index_split_003.html) - 0013',
+            '<<0013|9l>>: Control
+<<0014|18:0>>: The Director
+<<0015|18:0>>: The Lighthouse Keeper',
+          ],
+          [
+            1,
+            '[00:14] Acceptance - Jeff VanderMeer.epub (index_split_003.html) - 0014',
+            '<<0014|9l>>: The Director
+<<0015|18:0>>: The Lighthouse Keeper
+<<0016|18:0>>: Ghost Bird',
+          ],
+          [
+            1,
+            '[00:15] Acceptance - Jeff VanderMeer.epub (index_split_003.html) - 0015',
+            '<<0015|9l>>: The Lighthouse Keeper
+<<0016|18:0>>: Ghost Bird
+<<0017|18:0>>: The Director',
+          ],
+          [
+            1,
+            '[00:16] Acceptance - Jeff VanderMeer.epub (index_split_003.html) - 0016',
+            '<<0016|9l>>: Ghost Bird
+<<0017|18:0>>: The Director
+<<0018|18:0>>: The Lighthouse Keeper',
+          ],
+          [
+            1,
+            '[00:17] Acceptance - Jeff VanderMeer.epub (index_split_003.html) - 0017',
+            '<<0017|9l>>: The Director
+<<0018|18:0>>: The Lighthouse Keeper
+<<0019|18:0>>: Control',
+          ],
+          [
+            1,
+            '[00:18] Acceptance - Jeff VanderMeer.epub (index_split_003.html) - 0018',
+            '<<0018|9l>>: The Lighthouse Keeper
+<<0019|18:0>>: Control
+<<0020|18:0>>: The Director',
+          ],
+          [
+            1,
+            '[00:19] Acceptance - Jeff VanderMeer.epub (index_split_003.html) - 0019',
+            '<<0019|9l>>: Control
+<<0020|18:0>>: The Director
+<<0021|18:0>>: The Lighthouse Keeper',
+          ],
+          [
+            1,
+            '[00:20] Acceptance - Jeff VanderMeer.epub (index_split_003.html) - 0020',
+            '<<0020|9l>>: The Director
+<<0021|18:0>>: The Lighthouse Keeper
+<<0022|18:0>>: Ghost Bird',
+          ],
+          [
+            1,
+            '[00:21] Acceptance - Jeff VanderMeer.epub (index_split_003.html) - 0021',
+            '<<0021|9l>>: The Lighthouse Keeper
+<<0022|18:0>>: Ghost Bird
+<<0023|18:0>>: The Director',
+          ],
+          [
+            1,
+            '[00:22] Acceptance - Jeff VanderMeer.epub (index_split_003.html) - 0022',
+            '<<0022|9l>>: Ghost Bird
+<<0023|18:0>>: The Director
+<<0024|18:0>>: The Lighthouse Keeper',
+          ],
+          [
+            1,
+            '[00:23] Acceptance - Jeff VanderMeer.epub (index_split_003.html) - 0023',
+            '<<0023|9l>>: The Director
+<<0024|18:0>>: The Lighthouse Keeper
+<<0025|18:0>>: Control',
+          ],
+          [
+            1,
+            '[00:24] Acceptance - Jeff VanderMeer.epub (index_split_003.html) - 0024',
+            '<<0024|9l>>: The Lighthouse Keeper
+<<0025|18:0>>: Control
+<<0026|18:0>>: The Director',
+          ],
+          [
+            1,
+            '[00:25] Acceptance - Jeff VanderMeer.epub (index_split_003.html) - 0025',
+            '<<0025|9l>>: Control
+<<0026|18:0>>: The Director
+<<0027|18:0>>: The Lighthouse Keeper',
+          ],
+          [
+            1,
+            '[00:26] Acceptance - Jeff VanderMeer.epub (index_split_003.html) - 0026',
+            '<<0026|9l>>: The Director
+<<0027|18:0>>: The Lighthouse Keeper
+<<0028|18:0>>: Ghost Bird',
+          ],
+          [
+            1,
+            '[00:27] Acceptance - Jeff VanderMeer.epub (index_split_003.html) - 0027',
+            '<<0027|9l>>: The Lighthouse Keeper
+<<0028|18:0>>: Ghost Bird
+000X: The Director',
+          ],
+          [
+            1,
+            '[00:01] Acceptance - Jeff VanderMeer.epub (index_split_006.html) - 0001',
+            "
+<<0001|18:0>>: THE LIGHTHOUSE KEEPER
+Overhauled the lens machinery and cleaned the lens. Fixed the water pipe in the garden. Small repair to the gate. Organized the tools and shovels etc. in the shed. S&SB visit. Need to requisition paint for daymark\x{2014}black eroded on seaward side. Also need nails and to check the western siren again. Sighted: pelicans, moorhens, some kind of warbler, blackbirds beyond number, sanderlings, a royal tern, an osprey, flickers, cormorants, bluebirds, pigmy rattlesnake (at the fence\x{2014}remember), rabbit or two, white-tailed deer, and near dawn, on the trail, many an armadillo.That winter morning, the wind was cold against the collar of Saul Evans\x{2019}s coat as he trudged down the trail toward the lighthouse. There had been a storm the night before, and down and to his left, the ocean lay gray and roiling against the dull blue of the sky, seen through the rustle and sway of the sea oats. Driftwood and bottles and faded white buoys and a dead hammerhead shark had washed up in the aftermath, tangled among snarls of seaweed, but no real damage either here or in the village.",
+          ],
+          [
+            1,
+            '[00:02] Acceptance - Jeff VanderMeer.epub (index_split_007.html) - 0002',
+            '
+<<0002|18:0>>: GHOST BIRD
+On the third day in Area X, with Control as her sullen companion, Ghost Bird found a skeleton in the reeds. It was winter in Area X now, and this had become more apparent once the trail meandered away from the sea that had been their entry point. The wind was cold and pushed against their faces, their jackets, the sky a watchful gray-blue that held back some essential secret. The alligators and the otters and the muskrats had retreated into the mud, ghosts somewhere beneath the dull slap and gurgle of water.',
+          ],
+          [
+            1,
+            '[00:03] Acceptance - Jeff VanderMeer.epub (index_split_008.html) - 0003',
+            "
+<<0003|18:1>>: THE DIRECTOR
+On the weekends, your refuge is Chipper\x{2019}s Star Lanes, where you\x{2019}re not the director of the Southern Reach but just another customer at the bar. Chipper\x{2019}s lies off the highway well out of Bleakersville, one step up from being at the end of a dirt road. Jim Lowry\x{2019}s people back at Central might know the place, might be watching and listening, but you\x{2019}ve never met anyone from the Southern Reach there. Even Grace Stevenson, your second-in-command, doesn\x{2019}t know about it. For a disguise, you wear a T-shirt for a local construction company or a charity event like a chili cook-off and an old pair of jeans from the last time you were fat, sometimes topped off with a baseball cap advertising your favorite barbecue joint.",
+          ],
+          [
+            1,
+            '[00:04] Acceptance - Jeff VanderMeer.epub (index_split_009.html) - 0004',
+            "
+<<0004|18:1>>: THE LIGHTHOUSE KEEPER
+Armadillos ruining the garden, but don\x{2019}t really want to put out poison. Sea grape bushes must be pruned back. Will make a list of maintenance issues by tomorrow. Fire on Failure Island, but already reported and not major. Sighted: albatross, unidentified terns, bobcat (peering out of the palmetto grove to the east, staring at a hiker who didn\x{2019}t see him), flycatcher of some kind, pod of dolphins headed east in a frenzy as they chased a school of mullet through the sea grass in the shallows.Bodies could be beacons, too, Saul knew. A lighthouse was a fixed beacon for a fixed purpose; a person was a moving one. But people still emanated light in their way, still shone across the miles as a warning, an invitation, or even just a static signal. People opened up so they became a brightness, or they went dark. They turned their light inward sometimes, so you couldn\x{2019}t see it, because they had no other choice.",
+          ],
+          [
+            1,
+            '[00:05] Acceptance - Jeff VanderMeer.epub (index_split_010.html) - 0005',
+            "
+<<0005|18:0>>: CONTROL
+They had exploded through and up out of that terrible corridor between the world and Area X into a lack of air that had shocked Control, until the solid push of Ghost Bird\x{2019}s body against his, the weight of his backpack pulling him down, forced him to fight against the slapping pressure of what his burning eyes, strangled throat, told him was salt water. He had managed to shut his mouth against his surprise, to ignore the rush of bubbles pushing up and around the top of his head. Managed to clamp down on both his panic and his scream, to adjust as well to the ripping feel of a thousand rough-smooth surfaces against him, too much like the door that had become a wall cutting through his fingers, slashing against his arms, his legs, sure he had materialized into the middle of a tornado of shining knives\x{2014}Whitby and Lowry and Grace and his mother the spy, the whole damned congregation of the Southern Reach calling out the word Jump! through those thousand silvery reflections. Even as his lungs flooded with water. Even as he struggled to lose the treacherous knapsack but still hold on to Whitby\x{2019}s document inside it, grappling, flailing for the pages, some of which exploded out into the water, the rest plummeting into the murk below with the knapsack: a slab of pulp, a soggy tombstone.",
+          ],
+          [
+            1,
+            '[00:06] Acceptance - Jeff VanderMeer.epub (index_split_011.html) - 0006',
+            "
+<<0006|18:0>>: THE DIRECTOR
+There\x{2019}s a place that as a kid you called the farthestmost point\x{2014}the most distant you could get, the place that when you stood there you could pretend you were the only person in the world. Being there made you wary, but it also put a kind of peace into you, a sense of security. Beyond that point, in either direction, you were always returning, and are returning still. But for that moment, even now with Whitby by your side, you\x{2019}re so remote that there\x{2019}s nothing for miles\x{2014}and you feel that. You feel it strongly. You\x{2019}ve gone from being a little on edge to being a little tired, and you\x{2019}ve come out on this perfectly still scene where the scrublands turn to wetlands, with a freshwater canal serving as a buffer to the salt marsh and, ultimately, the sea. Where once you saw otters, heard the call of curlews. You take a deep breath and relax into the landscape, walk along the shore of this lower heaven rejuvenated by its perfect stillness. Your legs are for a time no longer tired and you are afraid of nothing, not even Area X, and you have no room for memory or thought or anything except this moment, and this one, and the next.",
+          ],
+          [
+            1,
+            '[00:00] Acceptance - Jeff VanderMeer.epub (index_split_011.html) - midnight',
+            "Sitting there at the Star Lanes Lounge, scribbling, you found the cottage coming back to you at odd moments, along with the lighthouse. Always that riptide compulsion dragging you down into the water, that need to know overriding the fear. The sound of the <<midnight|13>> waves at high tide, how from the window of your room in your mother\x{2019}s bungalow back then you could see the surf under the moonlight as a series of metallic-blue lines, dark water squeezed between them. Sometimes those lines had been broken by her figure as she walked the beach late at night, kept awake by thoughts she never shared, her face turned away from you. As if searching even then for the answer you seek now.",
+          ],
+          [
+            1,
+            '[00:07] Acceptance - Jeff VanderMeer.epub (index_split_012.html) - 0007',
+            "
+<<0007|18:0>>: THE LIGHTHOUSE KEEPER
+Two freighters and a coast guard vessel sighted last night. Something bigger out on horizon\x{2014}oil tanker? \x{201c}There is the sea, vast and spacious, and there the ships go to and fro.\x{201d} Western siren still not right\x{2014}loose wire? Feeling a little sick, so visited doctor. Went on a hike late in the day. Sighted: a horned owl atop a tortoise, trying to eat it. Didn\x{2019}t know what I was seeing. Disturbed me at first. Thought it was something odd with a feathery body and an armored stump. The owl looked up at me and just stared, didn\x{2019}t fly away until I shooed it off the tortoise.Acts of loving-kindness. The uselessness of guilt.",
+          ],
+          [
+            1,
+            '[00:08] Acceptance - Jeff VanderMeer.epub (index_split_013.html) - 0008',
+            '
+<<0008|18:0>>: GHOST BIRD
+Soon after the storm, the trail they followed wound back to the sea along a slope of staggered hills running parallel to the water. The wet ground, the memory of those dark rivulets, made the newly seeded soil seem almost mirthful. Ahead lay the green outline of the island, illumined by the dark gold light of late afternoon. Nothing had returned to haunt the sky, but now they walked through a world of broken things, of half-destroyed silhouettes against that gleaming horizon.',
+          ],
+          [
+            1,
+            '[00:09] Acceptance - Jeff VanderMeer.epub (index_split_014.html) - 0009',
+            "
+<<0009|18:0>>: THE DIRECTOR
+Lowry\x{2019}s secret facility, on a dreary part of the east coast, with gravel beaches and stark yellowing grass, has been set up on the bones of an old military base. Here, Lowry has been perfecting his neurology and conditioning techniques\x{2014}some would say brainwashing. From atop a mossy hill hollowed out for his command and control, he rules a strange world of decommissioned silver harbor mines lolling on the lawn below and rusting gun emplacements from wars fought seventy years ago. Lowry has had a replica of Area X\x{2019}s lighthouse built and a replica of the expedition base camp, and even a hole in the ground meant to approximate the little known about the \x{201c}topographical anomaly.\x{201d} You knew this before you were summoned, and in your imagination this false lighthouse and false base camp were foreboding and almost supernatural in their effect. But, in truth, standing there with Lowry, looking out across his domain through a long plate of tinted glass, you feel more as if you\x{2019}re staring at a movie set: a collection of objects that without the animation of Lowry\x{2019}s paranoia and fear, his projection of a story upon them, are inert and pathetic. No, not even a movie set, you realize. More like a seaside carnival in the winter, in the off-season, when even the beach is a poem about loneliness. How lonely is Lowry out here, surrounded by all of this?",
+          ],
+          [
+            1,
+            '[ap 02:00] Acceptance - Jeff VanderMeer.epub (index_split_014.html) - Until two',
+            '<<Until two|9:0>> pale hands reach out to choke one pale throat, and two faces stare at each other, inches apart, the face above deformed by a paroxysm of rage while the face below remains calm, so calm, surrounded by the ripped and crumpled journals. The white paper with the red line of the margin, the blue lines to write on. The pages and pages of sometimes incomprehensible handwritten text. All of those journals without names but only functions noted, and sometimes not even that, as if Area X has snuck in its own accounts. Are they shifting and settling as if something huge sleeps beneath them, breathing in and out?',
+          ],
+          [
+            1,
+            '[00:10] Acceptance - Jeff VanderMeer.epub (index_split_015.html) - 0010',
+            '
+<<0010|18:0>>: CONTROL
+Control woke to a boot and a foot, just six inches from where he lay on his side under some blankets. The black tread of the army-issue boot was worn down in tired ridges like the map of a slope of hills. Dried mud and sand commingled there and in the sporadic black studs meant to provide a better grip. A dragonfly wing had been broken along the axis of that tread, pulverized into rounded panes and an emerald glitter. Smudges of grass, a smear of seaweed that had dried on the side of the boot.',
+          ],
+          [
+            1,
+            '[12:00] Acceptance - Jeff VanderMeer.epub (index_split_015.html) - noon',
+            'He twisted onto his back, sat up, and shoved up against the wall catty-corner to her, the window between them. The raucous birds that had briefly woken him at dawn were quiet now, probably out foraging or doing whatever birds did. Could it be as late as <<noon|13>>? Ghost Bird lay curled up in a camo-patterned sleeping bag, had throughout the night made little jerking motions and sounds that reminded Control of his cat in the grip of some vision.',
+          ],
+          [
+            1,
+            "[ap 05:00] Acceptance - Jeff VanderMeer.epub (index_split_015.html) - five o\x{2019}clock",
+            "Raw hurt, an intensity to all of it, everything she had told him in such a calm voice. He focused on the bottom of her boot. The disembodied thorax of a velvet ant lay somewhere south of <<five o\x{2019}clock|6>>.",
+          ],
+          [
+            1,
+            '[00:11] Acceptance - Jeff VanderMeer.epub (index_split_025.html) - 0011',
+            "
+<<0011|18:0>>: GHOST BIRD
+What kind of life was this, where you could read a letter from your own haunted twin? That you could live within the memories of another and think of them as real, a second skin, and yet so utterly false. This is who she had been. This is what she had thought, and how she had lived. Should that now be Ghost Bird\x{2019}s life, too, her thoughts? Anger and awe warred within\x{2014}and no one to push either emotion onto, except herself. She had to let them battle like a second heartbeat and trust that her reaction was not just the mirror reflecting what it saw. That even if she was a mistake, she had become a viable mistake\x{2014}a mutation, not an anomaly like the moaning creature. Long-moldering bones trapped in the marshes.",
+          ],
+          [
+            1,
+            '[00:12] Acceptance - Jeff VanderMeer.epub (index_split_026.html) - 0012',
+            '
+<<0012|18:0>>: THE LIGHTHOUSE KEEPER
+Repainted black daymark, seaward side; ladder may need to be replaced, rickety. Tended to the garden most of the day, ran errands. Went on a hike late in the day. Sighted: a muskrat, possum, raccoons, red foxes up a tree at dusk, resting in crooks like crooks. Downy woodpecker. Redheaded woodpecker.A thousand lighthouses burned to columns of ash along the coastline of an endless island. A thousand blackened candles trailing white smoke from atop the broad, broken head of a monster rising from the sea. A thousand dark cormorants, wings awash in crimson flames, taking flight from the waves, eyes reflecting the wrath of their own extinction. Who maketh his angels spirits; his ministers a flaming fire.',
+          ],
+          [
+            1,
+            '[00:13] Acceptance - Jeff VanderMeer.epub (index_split_027.html) - 0013',
+            "
+<<0013|18:0>>: CONTROL
+Half the wall exploded and a thousand eyes peered in as Control sprawled from the impact in the dust and debris. His head throbbed and there was pain in his side and his left leg, but he forced himself to lie still. He was playing dead just to keep his head. He was playing dead to keep his head. A line from a book about monsters his father had read to him as a child. Rising out of a place long forgotten like a flare shot into the sky. Knocked into his brain, it kept looping. Playing dead to keep his head. The brick dust settling now, those eyes still an awful pressure. Even as the crunch of glass\x{2014}the obliterating sound of that, the questing horror of that\x{2014}sounded near his ear, and then the weight shifting near his legs. He fought the impulse to open his eyes, because he had to play dead to keep his head. Somewhere to his right, the knife he\x{2019}d dropped, and his father\x{2019}s carving falling out of his pocket. Even sprawled as he was sprawled, seeking it with a trembling hand, reflexively. He was shivering, he was shaking, the reverberations of the creature\x{2019}s passage creating a pain like cracks and fissures in his bones, the brightness trying to escape, the part of him that was lonely, that wanted to reach out. Playing dead. To keep his head.",
+          ],
+          [
+            1,
+            '[00:14] Acceptance - Jeff VanderMeer.epub (index_split_028.html) - 0014',
+            "
+<<0014|18:0>>: THE DIRECTOR
+When, eventually, you return to the Southern Reach, you find a gift waiting for you: a framed black-and-white photograph of the lighthouse keeper, his assistant, and a little girl playing on the rocks\x{2014}head down, jacket hood disguising her features. The blood rushes to your head, and you almost black out, seeing that this photo you didn\x{2019}t know still existed.",
+          ],
+          [
+            1,
+            '[00:15] Acceptance - Jeff VanderMeer.epub (index_split_029.html) - 0015',
+            "
+<<0015|18:0>>: THE LIGHTHOUSE KEEPER
+Western siren finally fixed; touched up the white part of the daymark, seaward side; fixed the ladder, too, but still feels rickety, unsafe. Something knocked down a foot of fence and got into the garden, but couldn\x{2019}t tell what. No deer tracks, but likely culprit. S&SB? The shadows of the abyss are like the petals of a monstrous flower. Didn\x{2019}t feel up to a hike, but seen from lighthouse grounds, of note: flycatcher (not sure what kind), frigate birds, least terns, cormorants, black-throated stilt (!), a couple of yellowthroats. On the beach, found a large pipefish had washed up, a few sail jellyfish rotting in the sand.There came an incandescent light. There came a star in motion, the sun plummeting to Earth. There fell from the heavens a huge burning torch, thick flames dripping out behind it. And this light, this star, shook the sky and the beach where he had walked a second ago under a clear blue sky. The scorched intensity of the sudden object hurtling down toward him battered his senses, sent him sprawling to his knees as he tried to run, and then dove face-first into the sand. He screamed as the rays, the sparks, sprayed out all around, and the core of the light hit somewhere in front of him, his teeth smashed in his mouth, his bones turned to powder. The reverberation lived within him as he tried to regain his footing, even as the impact conjured up an enormous tidal wave like a living creature, aimed at the beach. When it fell upon him the weight, the immensity, destroyed him once more and washed away anything he could have recognized, could have known. He gasped and thrashed and hurt, dug his tortured hands into the shocking cold sand. The sand had a different texture, and the tiny creatures living there were different. He didn\x{2019}t want to look up, take in his surroundings, frightened that the landscape, too, might have changed, might be so different he would not recognize it.",
+          ],
+          [
+            1,
+            '[00:16] Acceptance - Jeff VanderMeer.epub (index_split_030.html) - 0016',
+            "
+<<0016|18:0>>: GHOST BIRD
+The lighthouse rose from fog and reflections like a mirror of itself, the beach gray and cold, the sand rasping against the hull of the boat as they abandoned it in the shallows. The waves came in small and half curling like the froth of malformed questions. The lighthouse did not resemble Ghost Bird\x{2019}s memory of it, for its sides had been scoured by fire. Discoloration extended all the way to the top, where the lens, the light within, lay extinguished. The fire had erupted from the landing windows as well, and in combination with the bits of broken glass, and all of the other talismans human beings had rendered up to it over the years, gave the lighthouse the appearance of something shamanistic. Reduced now to a daymark for their boat, the simplest of its functions, the one task that, unperformed, made a lighthouse no longer of use to anyone. Made it into a narrow, haunted redoubt.",
+          ],
+          [
+            1,
+            '[00:17] Acceptance - Jeff VanderMeer.epub (index_split_031.html) - 0017',
+            "
+<<0017|18:0>>: THE DIRECTOR
+One spring day at the Southern Reach, you\x{2019}re taking a break, pacing across the courtyard tiles as you worry at a problem in your head, and you see something strange out by the swamp lake. At the edge of the black water, a figure squats, hunched over, hands you cannot see busy at some mysterious task. Your first impulse is to call security, but then you recognize the slight frame, the tuft of dark hair: It\x{2019}s Whitby, in his brown blazer, his navy slacks, his dress shoes.",
+          ],
+          [
+            1,
+            '[00:18] Acceptance - Jeff VanderMeer.epub (index_split_032.html) - 0018',
+            "
+<<0018|18:0>>: THE LIGHTHOUSE KEEPER
+Secured the lighthouse. Worked on the [illegible]. Fixed things. And shall cast them into a furnace of fire: there shall be wailing and gnashing of teeth. Came then the crying call of a curlew, and at dawn, too, I heard the hooting of an owl, the yap of foxes. Just a little ways up from the lighthouse, where I strayed for a bit, a bear cub poked its head out of the underbrush, looking around like any child might. And the hand of the sinner shall rejoice, for there is no sin in shadow or in light that the seeds of the dead cannot forgive.By the time Saul made it to the village bar, everyone had already crammed inside, anticipating music by a few locals who called themselves the Monkey\x{2019}s Elbow. The deck, with its great view of the darkening ocean, was empty\x{2014}it was too cold, for one thing\x{2014}and he hurried inside with anticipation. He\x{2019}d felt better with each day since the hallucination on the beach, and no one from the Light Brigade had returned to plague him. His temperature had receded, along with the pressure in his head, and with it the urge to burden Charlie with his problems. He hadn\x{2019}t dreamed for three nights. Even his hearing was fine, the moment his ears had popped like getting a jolt to his system: more energetic in every way. So everything seemed normal, as if he\x{2019}d worried over nothing\x{2014}and all he missed was the familiar sight of Gloria coming down the beach toward the lighthouse, or climbing on the rocks, or loitering near the shed.",
+          ],
+          [
+            1,
+            '[00:19] Acceptance - Jeff VanderMeer.epub (index_split_033.html) - 0019',
+            "
+<<0019|18:0>>: CONTROL
+The night was full of white rabbits streaking across the sky, instead of the stars, the moon\x{2014}and Control knew that was wrong in some fevered part of his mind, some compartment holding out against the inquisitive brightness. Were they white rabbits or were they smudges of black motion rendered as photo negatives impeding his vision? Because he didn\x{2019}t want to see what was there. Because the biologist had unlocked something inside of him, and he returned now sometimes to the phantasmagorical art in Whitby\x{2019}s strange room in the Southern Reach, and then to his theory that to disappear into the border was to enter some purgatory where you would find every lost and forgotten thing: all of the rabbits herded across that invisible barrier, every beached destroyer and truck from the night Area X had been created. The missing in action from the expeditions. The thought a kind of annihilating abyss. Yet there was also the light blossoming from the place below the Crawler, detailed in the biologist\x{2019}s journal account. Where led that light?",
+          ],
+          [
+            1,
+            '[00:20] Acceptance - Jeff VanderMeer.epub (index_split_034.html) - 0020',
+            "
+<<0020|18:0>>: THE DIRECTOR
+Whitby\x{2019}s worthless report on the blossom is on your desk by the time you go off to another pre-expedition interview of the biologist, the possible candidates for the twelfth whittled down to ten, and you and Grace, you and Lowry, pushing for your favorites, with members of the science department shadowboxing in the background as they whisper their own choices at you. Severance seems terminally uninterested in the question.",
+          ],
+          [
+            1,
+            '[00:21] Acceptance - Jeff VanderMeer.epub (index_split_035.html) - 0021',
+            "
+<<0021|18:0>>: THE LIGHTHOUSE KEEPER
+\x{2026} went back to the garden, [illegible], and kept the ax with me just in case. Unlikely, with black bears, but not unknown. Scrub jay, catbird, house sparrow, most humble of God\x{2019}s creatures. I sat there and fed it bread crumbs, for it was a scrawny thing and in need. I shall bring them forth, they said\x{a0}\x{2026}Saul stayed on to the bitter end at the village bar, not sure if it was because he wanted to test Brad\x{2019}s resolve or because he didn\x{2019}t want to walk outside only to encounter Henry. Or because he was sad Charlie\x{2019}d had to leave.",
+          ],
+          [
+            1,
+            '[00:22] Acceptance - Jeff VanderMeer.epub (index_split_036.html) - 0022',
+            "
+<<0022|18:0>>: GHOST BIRD
+During much of the descent, the strong feeling of a return to what was already known came to Ghost Bird, even if experienced by another\x{2014}a memory of drowning, of endless drowning and, at the remove of those unreliable words from the biologist\x{2019}s journal, the end of what she had encountered, what she had suffered, what she had recovered. And Ghost Bird wanted none of it\x{2014}didn\x{2019}t want Control, either, following behind. He wasn\x{2019}t suited for this, had not been meant to experience this. You couldn\x{2019}t martyr yourself to Area X; you could only disappear trying, and not even be sure of that.",
+          ],
+          [
+            1,
+            '[ap 23:50] Acceptance - Jeff VanderMeer.epub (index_split_036.html) - ten to twelve',
+            'But the third ring, the halolike ring above the Crawler, did not reassure her at all. The swift-moving globes of gold numbered <<ten to twelve|10a:0>>, appeared to be both lighter than air and yet heavier, too. They spun with a ferocious velocity, so that at first she almost could not tell what they were. But she knew that they were dangerous, that words like defense and aggression might apply.',
+          ],
+          [
+            1,
+            '[00:23] Acceptance - Jeff VanderMeer.epub (index_split_037.html) - 0023',
+            "
+<<0023|18:0>>: THE DIRECTOR
+You return to what you knew, or thought you knew: the lighthouse and the S\x{e9}ance & Science Brigade, reinvigorated due to the line item linking the S&SB and Jack Severance. You comb through every file three or four times, force yourself to once again review the history of the lighthouse and its ruined sister on the island.",
+          ],
+          [
+            1,
+            '[00:24] Acceptance - Jeff VanderMeer.epub (index_split_038.html) - 0024',
+            "
+<<0024|18:0>>: THE LIGHTHOUSE KEEPER
+\x{2026} bring forth the seeds of the dead to share with the worms that gather in the darkness\x{a0}\x{2026} Heard during the night: screech owl, nighthawk, a few foxes. A blessing. A relief.At the lighthouse, the beacon was dark. The beacon was dark, and something was trying to spill out of him, or course through him on its way to somewhere else. The shadows of the abyss are like the petals of a monstrous flower that shall blossom within the skull and expand the mind beyond what any man can bear, but whether it decays under the earth or above on green fields, or out to sea or in the very air, all shall come to revelation, and to revel, in the knowledge of the strangling fruit.",
+          ],
+          [
+            1,
+            '[00:25] Acceptance - Jeff VanderMeer.epub (index_split_039.html) - 0025',
+            "
+<<0025|18:0>>: CONTROL
+There came to Control in that moment of extremity\x{2014}almost unable to move, unable to speak\x{2014}an overwhelming feeling of connection, that nothing was truly apart in the same way that he had found even the most random scrawl in the director\x{2019}s notes joined some greater pattern. And although the pressure was increasing and he was in a great deal of pain, the kind of pain that would not leave him soon, if ever, there arose a powerful music within him that he did not fully understand as he slipped and slid down the curving stairs, pulling himself at times, his left arm useless by his side, his father\x{2019}s carving clenched in a fist he could no longer feel, the brightness welling up through his mouth, his eyes, and filling him at the same time, as if the Crawler had accelerated the process. He was slipping in part because he was changing, he knew that, could tell that he was no longer entirely human.",
+          ],
+          [
+            1,
+            '[00:26] Acceptance - Jeff VanderMeer.epub (index_split_040.html) - 0026',
+            "
+<<0026|18:0>>: THE DIRECTOR
+Two weeks before the twelfth expedition, the old battered cell phone comes home with you. You don\x{2019}t remember bringing it. You don\x{2019}t know why security didn\x{2019}t question it. It\x{2019}s just there, in your purse, and then on the kitchen counter. The usual suspects occur to you. Maybe Whitby\x{2019}s even stranger than you think or Lowry\x{2019}s having a laugh at your expense. But what does it matter? You\x{2019}ll just bring it back in the morning.",
+          ],
+          [
+            1,
+            '[00:27] Acceptance - Jeff VanderMeer.epub (index_split_041.html) - 0027',
+            "
+<<0027|18:0>>: THE LIGHTHOUSE KEEPER
+Saul woke on his back beneath the lighthouse, covered in sand, Henry crumpled beside him. It was still night, the sky a deep, rich blue bleeding into black, but full of stars against that vast expanse. He must be dying, he knew, must be broken in a hundred places, but he didn\x{2019}t feel broken. Instead, all he felt was a kind of restlessness, growing a hundredfold now and nothing else behind it. No agony from the fall, from the searing pain of what must be several broken bones. None of that. Was he in shock?",
+          ],
+          [
+            1,
+            '[00:28] Acceptance - Jeff VanderMeer.epub (index_split_042.html) - 0028',
+            '
+<<0028|18:0>>: GHOST BIRD
+The Crawler was behind them. The words were behind them. It was just a submerged tunnel on a warm day. It was just a forest. It was just a place they were walking out of.',
+          ],
+        ];

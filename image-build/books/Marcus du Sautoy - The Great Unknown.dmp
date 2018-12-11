@@ -1,0 +1,91 @@
+$VAR1 = [
+          [
+            1,
+            '[ap 00:34] The Great Unknown_ Seven Journeys to the F - Marcus du Sautoy.epub (OEBPS/xhtml/10_Chapter_1.xhtml) - 26 to 1',
+            "The triangle is constructed in such a way that each number is the sum of the two numbers immediately above it. The numbers you get are key to dividing the spoils in any interrupted game of points. For example, if Fermat needs two points for a win while Pascal needs four, then you consult the 2 + 4 = 6th row of the triangle and add the first four numbers together and the last two. This is the proportion in which you should divide the spoils. In this case it\x{2019}s a 1 + 5 + 10 + 10 = <<26 to 1|10a:0>> + 5 = 6 division. So Fermat gets 26/32 \x{d7} 64 = \x{20a3}52 and Pascal gets 6/32 \x{d7} 64 = \x{20a3}12. In general, a game where Fermat needs n points to Pascal\x{2019}s m points can be decided by consulting the (n + m)th row of Pascal\x{2019}s triangle.",
+          ],
+          [
+            1,
+            '[ap 10:50] The Great Unknown_ Seven Journeys to the F - Marcus du Sautoy.epub (OEBPS/xhtml/10_Chapter_1.xhtml) - ten to eleven',
+            "Suppose that a car starts from a stationary position. When the stopwatch starts, the driver slams his foot on the accelerator. Suppose that we record that after t seconds the driver has covered t x t meters. How fast is the car going after ten seconds? We get an approximation of the speed by looking at how far the car has traveled in the period from <<ten to eleven|10a:0>> seconds. The average speed during this time is (11 x 11 \x{2212} 10 x 10)/1 = 21 meters per second.",
+          ],
+          [
+            1,
+            '[ap 10:25] The Great Unknown_ Seven Journeys to the F - Marcus du Sautoy.epub (OEBPS/xhtml/10_Chapter_1.xhtml) - 10.25',
+            "Slightly slower, of course, because the car is accelerating, so on average it is going faster in the second half second. But what if we take an even smaller snapshot. What about halving the window of time again:
+(<<10.25|5a:0>> x <<10.25|5a:0>> \x{2212} 10 x 10)/0.25 = 20.25 meters per second.
+I hope the mathematician in you has spotted the pattern. If I take a window of time that is x seconds, the average speed over this time will be 20 + x meters per second. The speed as I take smaller and smaller windows of time is getting closer and closer to twenty meters per second. So, although to calculate the speed at 10 seconds looks like I have to figure out the calculation 0/0, the calculus makes sense of what this should mean.",
+          ],
+          [
+            1,
+            '[18:25] The Great Unknown_ Seven Journeys to the F - Marcus du Sautoy.epub (OEBPS/xhtml/19_Chapter_7.xhtml) - 1825',
+            "A new trajectory was published in 1791, but by 1800 Uranus was out of line again. By <<1825|9n:0>>, it was way ahead of its predicted position, but then it started to slow down, and by 1832 it had fallen behind the point where scientists had predicted it should be. Was there some mysterious substance out there causing resistance? Did Newton\x{2019}s laws of gravitation break down at such a great distance from the sun? Some suggested that just as Jupiter and Saturn were exerting a gravitational pull on Uranus, perhaps there was another planet out there pushing and pulling it around. But if another planet existed, where was it?",
+          ],
+          [
+            1,
+            '[ap 01:00] The Great Unknown_ Seven Journeys to the F - Marcus du Sautoy.epub (OEBPS/xhtml/20_Chapter_8.xhtml) - 1',
+            'There are some subtleties here, so let me add a condition to help us get a grip on what is happening. The rubber band gets stretched only after each second, and it will be an instantaneous stretch. So after one second the ant has traveled one centimeter, which is <<1|9d>>/100,000 of the total distance. Then the band expands. The point to note is that although the distance that the ant needs to travel has increased, it has at least still covered 1/100,000 of the distance between the star and Earth, because the stretch has also helped push the ant on a little from its starting position.',
+          ],
+          [
+            1,
+            '[00:00] The Great Unknown_ Seven Journeys to the F - Marcus du Sautoy.epub (OEBPS/xhtml/22_Chapter_9.xhtml) - Midnight',
+            "No people who have the same word for yesterday and tomorrow can be said to have a firm grip on time.
+\x{2014}Salman Rushdie, <<Midnight|13>>\x{2019}s Children
+IT\x{2019}S <<8:50|2>>\x{a0}.\x{a0}.\x{a0}. ROUGHLY\x{a0}.\x{a0}.\x{a0}. or so my wristwatch tells me. The weak February sun is trying to climb above the rooftops of the houses opposite. The radio is on, the coffee is brewed. The beginning of another day. But the pulse of Prokofiev\x{2019}s Cinderella vibrating the speakers alarmingly reminds me that time is pressing on. The chimes are telling Cinderella that her time at the ball is up. And here I am procrastinating on the Internet. I\x{2019}ve just put my birthday into Wolfram Alpha and it\x{2019}s telling me that I\x{2019}ve been alive for 18,075 days. But when I ask it how many more I have left, it says it doesn\x{2019}t understand my query. Probably just as well. I\x{2019}m not sure I want to know how many more times the hands on my watch will go around before the pulse beneath stops.",
+          ],
+          [
+            1,
+            '[ap 08:50] The Great Unknown_ Seven Journeys to the F - Marcus du Sautoy.epub (OEBPS/xhtml/22_Chapter_9.xhtml) - 8:50',
+            "IT\x{2019}S <<8:50|2>>\x{a0}.\x{a0}.\x{a0}. ROUGHLY\x{a0}.\x{a0}.\x{a0}. or so my wristwatch tells me. The weak February sun is trying to climb above the rooftops of the houses opposite. The radio is on, the coffee is brewed. The beginning of another day. But the pulse of Prokofiev\x{2019}s Cinderella vibrating the speakers alarmingly reminds me that time is pressing on. The chimes are telling Cinderella that her time at the ball is up. And here I am procrastinating on the Internet. I\x{2019}ve just put my birthday into Wolfram Alpha and it\x{2019}s telling me that I\x{2019}ve been alive for 18,075 days. But when I ask it how many more I have left, it says it doesn\x{2019}t understand my query. Probably just as well. I\x{2019}m not sure I want to know how many more times the hands on my watch will go around before the pulse beneath stops.",
+          ],
+          [
+            1,
+            '[ap 09:15] The Great Unknown_ Seven Journeys to the F - Marcus du Sautoy.epub (OEBPS/xhtml/22_Chapter_9.xhtml) - 9:15',
+            "As I stare at my watch I can\x{2019}t actually see the hands moving, but if I look away and then look back again after some time has passed, the hands have moved on. It\x{2019}s saying <<9:15|2>> now\x{a0}.\x{a0}.\x{a0}. or thereabouts. Tiny cogs inside the watch are driven by a tiny electric motor that in turn is driven by one-second pulses that have their origin in the oscillations of a tiny quartz crystal. The battery that sits inside the watch sets up a voltage across the crystal that makes it vibrate like a bell with a frequency tuned to 32,768 vibrations per second. This number is chosen for its mathematical properties. It is <<2|9d>> to the power of 15. Digital technology likes powers of 2 because computer circuitry can quickly convert this into a mechanical pulse to drive the cogs every second. Importantly, this frequency is not greatly affected by the surrounding temperature, air pressure, or altitude (factors that affect a pendulum, for example). And this vibrating, the repetition of motion, is key to marking the passage of time. But is this sufficient to describe the idea of time?",
+          ],
+          [
+            1,
+            '[00:00] The Great Unknown_ Seven Journeys to the F - Marcus du Sautoy.epub (OEBPS/xhtml/22_Chapter_9.xhtml) - Midnight',
+            "In Hindi and Urdu the word kal is used to mean both yesterday and tomorrow. In the quote from <<Midnight|13>>\x{2019}s Children at the head of this chapter, Salman Rushdie joked that people who have the same word for yesterday and tomorrow cannot be said to have a firm grip on time. But could they be on to something? The idea of \x{201c}before\x{201d} or \x{201c}after\x{201d} is not as clear as some languages imply.",
+          ],
+          [
+            1,
+            '[> 22:00] The Great Unknown_ Seven Journeys to the F - Marcus du Sautoy.epub (OEBPS/xhtml/23_Chapter_10.xhtml) - a little past ten in the evening',
+            "There are those who would have us do away with the need to talk of time at all. My watch has been ticking away. It says it is <<a little past ten in the evening|9h>>. But what does that mean? Put another watch with the same time in a spaceship, and when it returns it won\x{2019}t match my watch.",
+          ],
+          [
+            1,
+            '[ap 11:55] The Great Unknown_ Seven Journeys to the F - Marcus du Sautoy.epub (OEBPS/xhtml/23_Chapter_10.xhtml) - 11:55',
+            "That\x{2019}s not to say these things aren\x{2019}t real. Hotness, wetness, time ticking by. I look at my watch. Staring me in the face is <<11:55|2>>. Another day drawing to a close. <<Midnight|13>> is about to strike, heralding the end of the party, and the feeling that I am one day closer to the moment when I won\x{2019}t be sentient anymore. But why do I feel anything\x{2014}the passage of time, the pain of a stubbed toe, the pleasurable taste of a fine wine, the excitement of listening to Prokofiev? These things are at the heart of one of the biggest unsolved and possibly unanswerable questions on the scientific books, as we will discover in the next Edge.",
+          ],
+          [
+            1,
+            '[ap 03:59] The Great Unknown_ Seven Journeys to the F - Marcus du Sautoy.epub (OEBPS/xhtml/25_Chapter_11.xhtml) - one to four',
+            "The slowest are delta waves, at <<one to four|10>> hertz, associated with deep, unconscious, dreamless sleep.
+				Theta waves are next at <<four to eight|10>> hertz, associated with light sleep or meditation.
+				Faster than alpha waves are the beta waves at thirteen to thirty hertz, which the brain hits when it is wide awake.
+				Then come the fast gamma waves at thirty to seventy hertz, which are believed to be most important for the brain\x{2019}s ability to create consciousness. Gamma waves are associated with the formation of ideas, language and memory processing, and with various types of learning.",
+          ],
+          [
+            1,
+            '[ap ~ 10:11] The Great Unknown_ Seven Journeys to the F - Marcus du Sautoy.epub (OEBPS/xhtml/26_Chapter_12.xhtml) - about 1011',
+            "If consciousness is about the connectivity of the network, what other networks might already be conscious? The total number of transistors that are connected via the Internet is of the order of 1018, while the brain has <<about 1011|18:0>> neurons. The difference lies in the way they are connected. A neuron is typically linked to tens of thousands of other neurons, which allows for a high degree of information integration. In contrast, transistors inside a computer are not highly connected. On Tononi\x{2019}s measure it is unlikely that the Internet is conscious\x{a0}.\x{a0}.\x{a0}. yet.",
+          ],
+          [
+            1,
+            '[~ 07:30] The Great Unknown_ Seven Journeys to the F - Marcus du Sautoy.epub (OEBPS/xhtml/29_Chapter_14.xhtml) - about prime',
+            "You have to be careful when making choices or hypotheses under which to operate. You can\x{2019}t just assume that something you don\x{2019}t know can be true or false. You have to prove first that both possibilities are consistent. For example, I don\x{2019}t know whether the Riemann hypothesis <<about prime|16>> numbers is true or false, but only one of these is consistent with our theory of numbers. If it turns out to be unprovable within the current axioms of number theory, this would actually imply that it was true. If it is false, we know that it is provably false because we will be able to find a counterexample with a finite systematic search. If it is false, you can\x{2019}t work within a model of numbers where you assume it is true because you\x{2019}ll generate contradictions. This is the amazing thing about the continuum hypothesis\x{2014}either it or its negation can be incorporated into a consistent theory without creating contradictions.",
+          ],
+          [
+            1,
+            "[ap 02:00] The Great Unknown_ Seven Journeys to the F - Marcus du Sautoy.epub (OEBPS/xhtml/30_BEYOND_THE_EDGE.xhtml) - two o\x{2019}clock",
+            "The classic example proposed by Bertrand Russell tells the story of a woman who looks at a clock that says <<two o\x{2019}clock|6>>. She believes therefore that it is <<two o\x{2019}clock|6>>. She seems justified in her belief because the clock says so. And it does indeed happen to be <<two o\x{2019}clock|6>>. Yet actually the clock stopped twelve hours ago, and it\x{2019}s just a coincidence that she happened to look at the clock exactly twelve hours later.",
+          ],
+          [
+            1,
+            '[00:00] The Great Unknown_ Seven Journeys to the F - Marcus du Sautoy.epub (OEBPS/xhtml/33_Index.xhtml) - Midnight',
+            "microscopes, 76\x{2013}77, 90, 303
+<<Midnight|13>>\x{2019}s Children (Rushdie), 239, 257
+Milky Way, 194\x{2013}95",
+          ],
+        ];

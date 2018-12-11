@@ -1,0 +1,364 @@
+$VAR1 = [
+          [
+            1,
+            "[ap 08:00] Evil Under the Sun - Agatha Christie.epub (OEBPS/009_chapter04.html) - eight o\x{2019}clock",
+            "It was <<eight o\x{2019}clock|6>> when Linda, sitting at her dressing table, turned a little thick calf-bound volume face downwards, sprawling it open and looked at her own face in the mirror.",
+          ],
+          [
+            1,
+            '[ap 00:00] Evil Under the Sun - Agatha Christie.epub (OEBPS/009_chapter04.html) - twelve',
+            "\x{201c}I\x{2019}m playing tennis at <<twelve|9c:0>>, so we\x{2019}d better start fairly early. <<Half past ten|10>>?\x{201d}",
+          ],
+          [
+            1,
+            '[ap 10:30] Evil Under the Sun - Agatha Christie.epub (OEBPS/009_chapter04.html) - half past ten',
+            "\x{201c}I know. I\x{2019}m going with Mrs. Redfern to Gull Cove. I said I\x{2019}d meet her at <<half past ten|10>>. I thought I was late.\x{201d}",
+          ],
+          [
+            1,
+            "[ap 10:00] Evil Under the Sun - Agatha Christie.epub (OEBPS/009_chapter04.html) - ten o\x{2019}clock",
+            "The beauty of the morning, however, tempted him to leave the hotel earlier than usual. It was <<ten o\x{2019}clock|6>>, at least half an hour before his usual appearance, when he descended to the bathing beach. The beach itself was empty save for one person.",
+          ],
+          [
+            1,
+            '[ap 11:30] Evil Under the Sun - Agatha Christie.epub (OEBPS/009_chapter04.html) - half past eleven',
+            "\x{201c}Shall we have time? Oh yes, it\x{2019}s not <<half past eleven|10>> yet. Come on, then, let\x{2019}s start.\x{201d}",
+          ],
+          [
+            1,
+            '[ap 01:00] Evil Under the Sun - Agatha Christie.epub (OEBPS/009_chapter04.html) - one',
+            "\x{201c}Any <<one|3d>> on Sunny Ledge this morning? Yes, there\x{2019}s a sunshade. Who is it, I wonder?\x{201d}",
+          ],
+          [
+            1,
+            '[ap 00:45] Evil Under the Sun - Agatha Christie.epub (OEBPS/010_chapter05.html) - quarter to one',
+            "\x{201c}Can\x{2019}t say definitely without knowing more about her. Lots of factors to take into account. Let\x{2019}s see, it\x{2019}s <<quarter to one|10>> now. What time was it when you found her?\x{201d}",
+          ],
+          [
+            1,
+            '[ap 00:00] Evil Under the Sun - Agatha Christie.epub (OEBPS/010_chapter05.html) - twelve',
+            "Patrick Redfern, to whom the question was addressed, said vaguely:
+\x{201c}Some time before <<twelve|9c:0>>. I don\x{2019}t know exactly.\x{201d}
+Emily Brewster said:",
+          ],
+          [
+            1,
+            '[ap 23:45] Evil Under the Sun - Agatha Christie.epub (OEBPS/010_chapter05.html) - quarter to twelve',
+            "Emily Brewster said:
+\x{201c}It was exactly a <<quarter to twelve|10>> when we found she was dead.\x{201d}
+\x{201c}Ah, and you came here in the boat. What time was it when you caught sight of her lying here?\x{201d}",
+          ],
+          [
+            1,
+            '[ap ~ 05:00] Evil Under the Sun - Agatha Christie.epub (OEBPS/010_chapter05.html) - about five',
+            "\x{201c}I should say we rounded the point <<about five|5h:1>> or six minutes earlier.\x{201d} She turned to Redfern. \x{201c}Do you agree?\x{201d}",
+          ],
+          [
+            1,
+            '[ap 23:40] Evil Under the Sun - Agatha Christie.epub (OEBPS/010_chapter05.html) - twenty minutes to twelve',
+            "\x{201c}Let\x{2019}s put it at <<twenty minutes to twelve|10>>. She cannot have been killed very long before that. Say between then and eleven\x{2014}<<quarter to eleven|10>> at the earliest outside limit.\x{201d}",
+          ],
+          [
+            1,
+            '[ap 09:00] Evil Under the Sun - Agatha Christie.epub (OEBPS/010_chapter05.html) - nine',
+            "\x{201c}First of all,\x{201d} said Weston, \x{201c}we\x{2019}ve got to find out who last saw the dead woman alive. Chambermaid took her her breakfast at <<nine|9c:0>>. Girl in the bureau downstairs saw her pass through the lounge and go out about ten.\x{201d}",
+          ],
+          [
+            1,
+            '[ap 10:05] Evil Under the Sun - Agatha Christie.epub (OEBPS/010_chapter05.html) - five minutes past ten',
+            "\x{201c}At <<five minutes past ten|10>>. I assisted her to launch her float from the bathing beach.\x{201d}",
+          ],
+          [
+            1,
+            '[ap 10:15] Evil Under the Sun - Agatha Christie.epub (OEBPS/010_chapter05.html) - quarter past ten',
+            "\x{201c}And the time then was\x{2014}?\x{201d}
+\x{201c}I should say she actually left the beach at a <<quarter past ten|10>>.\x{201d}
+Weston considered.",
+          ],
+          [
+            1,
+            '[ap 10:45] Evil Under the Sun - Agatha Christie.epub (OEBPS/010_chapter05.html) - quarter to eleven',
+            "\x{201c}That\x{2019}s about what I think,\x{201d} said the Colonel. \x{201c}She wouldn\x{2019}t be hurrying, I presume. Well, if she arrived there at a <<quarter to eleven|10>>, that fits in well enough.\x{201d}",
+          ],
+          [
+            1,
+            '[ap 10:45] Evil Under the Sun - Agatha Christie.epub (OEBPS/010_chapter05.html) - quarter to eleven',
+            "\x{201c}Oh, Neasden doesn\x{2019}t commit himself. He\x{2019}s a cautious chap. A <<quarter to eleven|10>> is his earliest outside limit.\x{201d}",
+          ],
+          [
+            1,
+            "[ap ~ 09:00] Evil Under the Sun - Agatha Christie.epub (OEBPS/010_chapter05.html) - about nine o\x{2019}clock",
+            "\x{201c}And what time was that?\x{201d}
+\x{201c}It must have been <<about nine o\x{2019}clock|6>>.\x{201d}
+\x{201c}What was she doing?\x{201d}",
+          ],
+          [
+            1,
+            "[ap 10:00] Evil Under the Sun - Agatha Christie.epub (OEBPS/010_chapter05.html) - ten o\x{2019}clock",
+            "\x{201c}If she was to descend at <<ten o\x{2019}clock|6>> exactly, that would be rather surprising?\x{201d}",
+          ],
+          [
+            1,
+            "[ap ~ 09:00] Evil Under the Sun - Agatha Christie.epub (OEBPS/010_chapter05.html) - about nine o\x{2019}clock",
+            "\x{201c}I breakfasted downstairs <<about nine o\x{2019}clock|6>> as usual and read the paper. As I told you I went up to my wife\x{2019}s room afterwards and found she had gone out. I came down to the beach, saw M. Poirot and asked if he had seen her. Then I had a quick bathe and went up to the hotel again. It was then, let me see, <<about twenty to eleven|10>>\x{2014}yes, just about that. I saw the clock in the lounge. It was just after twenty minutes to. I went up to my room, but the chambermaid hadn\x{2019}t quite finished it. I asked her to finish as quickly as she could. I had some letters to type which I wanted to get off by the post. I went downstairs again and had a word or two with Henry in the bar. I went up again to my room at <<ten minutes to eleven|10>>. There I typed my letters. I typed until <<ten minutes to twelve|10>>. I then changed into tennis kit as I had a date to play tennis at <<twelve|9c:1>>. We\x{2019}d booked the court the day before.\x{201d}",
+          ],
+          [
+            1,
+            "[ap 00:00] Evil Under the Sun - Agatha Christie.epub (OEBPS/010_chapter05.html) - twelve o\x{2019}clock",
+            "\x{201c}Mrs. Redfern, Miss Darnley, Mr. Gardener and myself. I came down at <<twelve o\x{2019}clock|6>> and went up to the court. Miss Darnley was there and Mr. Gardener. Mrs. Redfern arrived a few minutes later. We played tennis for an hour. Just as we came into the hotel afterwards I\x{2014}I\x{2014}got the news.\x{201d}",
+          ],
+          [
+            1,
+            '[ap 10:50] Evil Under the Sun - Agatha Christie.epub (OEBPS/010_chapter05.html) - ten minutes to eleven',
+            "\x{201c}Thank you, Captain Marshall. Just as a matter of form, is there anyone who can corroborate the fact that you were typing in your room between\x{2014}er\x{2014}<<ten minutes to eleven|10>> and <<ten minutes to twelve|10>>?\x{201d}",
+          ],
+          [
+            1,
+            '[ap 10:45] Evil Under the Sun - Agatha Christie.epub (OEBPS/010_chapter05.html) - quarter to eleven',
+            "\x{201c}It is no question of suspicion. Everyone on the island will be asked to account for his or her movements between a <<quarter to eleven|10>> and <<twenty minutes to twelve this morning|10>>.\x{201d}",
+          ],
+          [
+            1,
+            "[ap > 09:00] Evil Under the Sun - Agatha Christie.epub (OEBPS/011_chapter06.html) - just after nine o\x{2019}clock",
+            "\x{201c}I think, sir, that we can wash out the first two entries. Mrs. Castle tells me that the Mastermans and the Cowans come here regularly every summer with their children. This morning they went off on an all-day excursion sailing, taking lunch with them. They left <<just after nine o\x{2019}clock|10>>. A man called Andrew Baston took them. We can check up from him, but I think we can put them right out of it.\x{201d}",
+          ],
+          [
+            1,
+            '[ap 10:30] Evil Under the Sun - Agatha Christie.epub (OEBPS/011_chapter06.html) - half-past ten',
+            "\x{201c}She said she\x{2019}d be waiting for me in the hall at <<half-past ten|10>>. I was afraid I was going to be late, but it was all right. We started off at about three minutes to the half hour.\x{201d}",
+          ],
+          [
+            1,
+            '[ap 23:45] Evil Under the Sun - Agatha Christie.epub (OEBPS/011_chapter06.html) - Quarter to twelve',
+            "\x{201c}Do you remember what time that was?\x{201d}
+\x{201c}When Mrs. Redfern went back to the hotel? <<Quarter to twelve|10>>.\x{201d}
+\x{201c}Sure of that time\x{2014}<<quarter to twelve|10>>?\x{201d}",
+          ],
+          [
+            1,
+            '[ap 23:45] Evil Under the Sun - Agatha Christie.epub (OEBPS/011_chapter06.html) - Quarter to twelve',
+            "\x{201c}When Mrs. Redfern went back to the hotel? <<Quarter to twelve|10>>.\x{201d}
+\x{201c}Sure of that time\x{2014}<<quarter to twelve|10>>?\x{201d}
+Linda, opening her eyes wide, said:",
+          ],
+          [
+            1,
+            "[ap < 01:00] Evil Under the Sun - Agatha Christie.epub (OEBPS/011_chapter06.html) - Just about one o\x{2019}clock",
+            "\x{201c}And you got back to the hotel\x{2014}when?\x{201d}
+\x{201c}<<Just about one o\x{2019}clock|6>>. And\x{2014}and then\x{2014}I heard\x{2014}about Arlena\x{2026}.\x{201d}
+Her voice changed.",
+          ],
+          [
+            1,
+            '[ap 10:30] Evil Under the Sun - Agatha Christie.epub (OEBPS/011_chapter06.html) - half past ten',
+            "\x{201c}On the whole we got very little useful stuff out of her. Except a more or less complete alibi for the Redfern woman. If they were together from <<half past ten|10>> to a <<quarter to twelve|10>> that lets Christine Redfern out of it. Exit the jealous wife suspect.\x{201d}",
+          ],
+          [
+            1,
+            '[ap 10:30] Evil Under the Sun - Agatha Christie.epub (OEBPS/011_chapter06.html) - half past ten',
+            "\x{201c}Let me see. On my way down to breakfast I went into Linda Marshall\x{2019}s room and fixed up with her to go to Gull Cove this morning. We agreed to meet in the lounge at <<half past ten|10>>.\x{201d}",
+          ],
+          [
+            1,
+            '[ap 08:30] Evil Under the Sun - Agatha Christie.epub (OEBPS/011_chapter06.html) - half past eight',
+            "\x{201c}Pardon, Madame, I interrupted you. You were saying that you went to Miss Linda Marshall\x{2019}s room. What time was that?\x{201d}
+\x{201c}Let me see\x{2014}<<half past eight|10>>\x{2014}no, a little later.\x{201d}
+\x{201c}And was Miss Marshall up then?\x{201d}",
+          ],
+          [
+            1,
+            '[ap 10:30] Evil Under the Sun - Agatha Christie.epub (OEBPS/011_chapter06.html) - half past ten',
+            "\x{201c}What time was that?\x{201d}
+\x{201c}I think it was just on <<half past ten|10>>.\x{201d}
+\x{201c}And what did you do?\x{201d}",
+          ],
+          [
+            1,
+            '[ap 23:45] Evil Under the Sun - Agatha Christie.epub (OEBPS/011_chapter06.html) - quarter to twelve',
+            "\x{201c}At a <<quarter to twelve|10>>. I was playing tennis at <<twelve|9c:0>> and had to change.\x{201d}",
+          ],
+          [
+            1,
+            "[10:00] Evil Under the Sun - Agatha Christie.epub (OEBPS/012_chapter07.html) - ten o\x{2019}clock this morning",
+            "\x{201c}Major Barry went out at <<ten o\x{2019}clock this morning|6>>. He returned at <<one thirty|5b>>. Mr. Lane was earlier still. He breakfasted at <<eight|9c:1>>. Said he was going for a tramp. Mr. Blatt went off for a sail at <<nine thirty|5b>> same as he does most days. Neither of them are back yet.\x{201d}",
+          ],
+          [
+            1,
+            '[ap ~ 11:30] Evil Under the Sun - Agatha Christie.epub (OEBPS/012_chapter07.html) - about half past eleven',
+            "\x{201c}Of course there are a good many charabancs here today. Fine day. They start arriving round <<about half past eleven|10>>. High tide was at <<seven|9c:1>>. Low tide would be <<about one o\x{2019}clock|6>>. People would be spread out over the sands and the causeway.\x{201d}",
+          ],
+          [
+            1,
+            '[ap ~ 09:30] Evil Under the Sun - Agatha Christie.epub (OEBPS/012_chapter07.html) - about nine thirty',
+            "\x{201c}I had breakfast <<about nine thirty|5k:1>>. Then I went up to my room and collected some books and my sunshade and went out to Sunny Ledge. That must have been <<about twenty-five past ten|10>>. I came back to the hotel <<about ten minutes to twelve|10>>, went up and got my tennis racquet and went out to the tennis courts, where I played tennis until lunchtime.\x{201d}",
+          ],
+          [
+            1,
+            '[ap ~ 10:30] Evil Under the Sun - Agatha Christie.epub (OEBPS/012_chapter07.html) - about half past ten',
+            "\x{201c}You were in the cliff recess, called by the hotel Sunny Ledge, from <<about half past ten|10>> until <<ten minutes to twelve|10>>?\x{201d}",
+          ],
+          [
+            1,
+            '[ap >> 10:30] Evil Under the Sun - Agatha Christie.epub (OEBPS/013_chapter08.html) - long after ten-thirty',
+            "Captain Marshall had come up to his room not <<long after ten-thirty|5k:1>>. She was then finishing the room. He had asked her to be as quick as possible. She had not seen him come back but she had heard the sound of the typewriter a little later. She put it at <<about five minutes to eleven|10>>. She was then in Mr. and Mrs. Redfern\x{2019}s room. After she had done that she moved on to Miss Darnley\x{2019}s room at the end of the corridor. She could not hear the typewriter from there. She went to Miss Darnley\x{2019}s room, as near as she could say, at <<just after eleven o\x{2019}clock|10>>. She remembered hearing Leathercombe Church strike the hour as she went in. At a <<quarter past eleven|10>> she had gone downstairs for her <<eleven o\x{2019}clock|6>> cup of tea and \x{201c}snack.\x{201d} Afterwards she had gone to do the rooms in the other wing of the hotel. In answer to the Chief Constable\x{2019}s question she explained that she had done the rooms in this corridor in the following order:",
+          ],
+          [
+            1,
+            '[ap > 10:00] Evil Under the Sun - Agatha Christie.epub (OEBPS/013_chapter08.html) - just after ten',
+            "No, Mrs. Marshall wasn\x{2019}t one for rising early as a rule. She, Gladys Narracott, had been surprised to find the door open and Mrs. Marshall gone down at <<just after ten|10>>. Something quite unusual, that was.",
+          ],
+          [
+            1,
+            '[ap ~ 09:15] Evil Under the Sun - Agatha Christie.epub (OEBPS/013_chapter08.html) - About a quarter past nine',
+            "\x{201c}What time did you do her room?\x{201d}
+\x{201c}<<About a quarter past nine|10>>, sir, when she\x{2019}d gone down to breakfast.\x{201d}
+\x{201c}Did she come up to her room after breakfast, do you know?\x{201d}",
+          ],
+          [
+            1,
+            '[ap ~ 09:45] Evil Under the Sun - Agatha Christie.epub (OEBPS/013_chapter08.html) - about a quarter to ten',
+            "\x{201c}Did she come up to her room after breakfast, do you know?\x{201d}
+\x{201c}Yes, sir. She came up <<about a quarter to ten|10>>.\x{201d}
+\x{201c}Did she stay in her room?\x{201d}",
+          ],
+          [
+            1,
+            '[ap < 10:30] Evil Under the Sun - Agatha Christie.epub (OEBPS/013_chapter08.html) - just before half past ten',
+            "\x{201c}I think so, sir. She came out, hurrying rather, <<just before half past ten|10>>.\x{201d}",
+          ],
+          [
+            1,
+            "[ap ~ 00:00] Evil Under the Sun - Agatha Christie.epub (OEBPS/013_chapter08.html) - about twelve o\x{2019}clock",
+            "\x{201c}It was nothing really. Just a bath being run. And I did pass the remark to Elsie, downstairs, that it was funny somebody having a bath round <<about twelve o\x{2019}clock|6>>.\x{201d}",
+          ],
+          [
+            1,
+            '[ap ~ 11:15] Evil Under the Sun - Agatha Christie.epub (OEBPS/013_chapter08.html) - about a quarter past eleven',
+            "\x{201c}What time was that, Miss Darnley?\x{201d}
+\x{201c}It must have been <<about a quarter past eleven|10>>.\x{201d}
+\x{201c}You went back to the hotel, you said?\x{201d}",
+          ],
+          [
+            1,
+            '[ap < 11:20] Evil Under the Sun - Agatha Christie.epub (OEBPS/013_chapter08.html) - Just about twenty past eleven',
+            "\x{201c}<<Just about twenty past eleven|10>>. I noticed the clock in the hall as I went out again.\x{201d}",
+          ],
+          [
+            1,
+            '[ap 10:55] Evil Under the Sun - Agatha Christie.epub (OEBPS/013_chapter08.html) - five minutes to eleven',
+            "\x{201c}And that puts the lid on it finally,\x{201d} said Inspector Colgate. \x{201c}The chambermaid heard him typing up till <<five minutes to eleven|10>>. Miss Darnley saw him at twenty minutes past, and the woman was dead at a <<quarter to twelve|10>>. He says he spent that hour typing in his room, and it seems quite clear that he was typing in his room. That washes Captain Marshall right out.\x{201d}",
+          ],
+          [
+            1,
+            "[ap ~ 01:00] Evil Under the Sun - Agatha Christie.epub (OEBPS/013_chapter08.html) - about one o\x{2019}clock",
+            "\x{201c}It is only that there was a lady and gentleman here <<about one o\x{2019}clock|6>>. Came over from the mainland. For luncheon. They were informed that there had been an accident and that under the circumstances no luncheons could be served.\x{201d}",
+          ],
+          [
+            1,
+            '[ap 10:45] Evil Under the Sun - Agatha Christie.epub (OEBPS/014_chapter09.html) - 10:45',
+            "\x{201c}Place where the float was drawn up agrees with putting the time she arrived here at <<10:45|2>>. That\x{2019}s going by the tide. It\x{2019}s turned now.\x{201d}",
+          ],
+          [
+            1,
+            '[ap 09:45] Evil Under the Sun - Agatha Christie.epub (OEBPS/014_chapter09.html) - quarter to ten',
+            "\x{201c}You went out sailing this morning. At what time?\x{201d}
+\x{201c}Left here at a <<quarter to ten|10>>.\x{201d}
+\x{201c}Was any one with you?\x{201d}",
+          ],
+          [
+            1,
+            '[ap 10:50] Evil Under the Sun - Agatha Christie.epub (OEBPS/014_chapter09.html) - ten to eleven',
+            "\x{201c}I\x{2019}ve checked up on the staff. They all seem quite O.K. Henry, in the bar, checks Marshall\x{2019}s statement about seeing him at <<ten to eleven|10>>. William, the beach attendant, was down repairing the ladder on the rocks by the hotel most of the morning. He seems all right. George marked the tennis court and then bedded out some plants round by the dining room. Neither of them would have seen anyone who came across the causeway to the island.\x{201d}",
+          ],
+          [
+            1,
+            '[ap ~ 09:30] Evil Under the Sun - Agatha Christie.epub (OEBPS/014_chapter09.html) - about 9:30',
+            "\x{201c}When was the causeway uncovered?\x{201d}
+\x{201c}Round <<about 9:30|2>>, sir.\x{201d}
+Weston pulled at his moustache.",
+          ],
+          [
+            1,
+            '[ap 10:55] Evil Under the Sun - Agatha Christie.epub (OEBPS/014_chapter09.html) - five minutes to eleven',
+            "\x{201c}Yes, Captain Marshall, I think we can give you a clean bill of health. Those sheets take fully an hour to type. Moreover you were heard typing them by the chambermaid up till <<five minutes to eleven|10>> and you were seen by another witness at twenty minutes past.\x{201d}",
+          ],
+          [
+            1,
+            '[ap 11:20] Evil Under the Sun - Agatha Christie.epub (OEBPS/014_chapter09.html) - twenty minutes past eleven',
+            "\x{201c}Yes. Miss Darnley came to your room at <<twenty minutes past eleven|10>>. You were so busy typing that you did not observe her entry.\x{201d}",
+          ],
+          [
+            1,
+            '[ap 05:45] Evil Under the Sun - Agatha Christie.epub (OEBPS/016_chapter11.html) - 5:45',
+            "\x{201c}But when it came down to brass tacks the husband was washed right out of the picture. The body was discovered by one of these women hikers\x{2014}hefty young women in shorts. She was an absolutely competent and reliable witness\x{2014}games mistress at a school in Lancashire. She noted the time when she found the body\x{2014}it was exactly four-fifteen\x{2014}and gave it as her opinion that the woman had been dead quite a short time\x{2014}not more than ten minutes. That fitted in well enough with the police surgeon\x{2019}s view when he examined the body at <<5:45|2>>. She left everything as it was and tramped across country to Bagshot police station where she reported the death. Now from <<three o\x{2019}clock|6>> to <<four-ten|5k:1>>, Edward Corrigan was in the train coming down from London where he\x{2019}d gone up for the day on business. Four other people were in the carriage with him. From the station he took the local bus, two of his fellow passengers travelling by it also. He got off at the Pine Ridge Caf\x{e9} where he\x{2019}d arranged to meet his wife for tea. Time then was <<four twenty-five|5k:1>>. He ordered tea for them both, but said not to bring it till she came. Then he walked about outside waiting for her. When, by <<five o\x{2019}clock|6>> she hadn\x{2019}t turned up, he was getting alarmed\x{2014}thought she might have sprained her ankle. The arrangement was that she was to walk across the moors from the village where they were staying to the Pine Ridge Caf\x{e9} and go home by bus. Caesar\x{2019}s Grove is not far from the caf\x{e9}, and it\x{2019}s thought that as she was ahead of time she sat down there to admire the view for a bit before going on, and that some tramp or madman came upon her there and caught her unawares. Once the husband was proved to be out of it, naturally they connected up her death with that of Nellie Parsons\x{2014}that rather flighty servant girl who was found strangled in Marley Copse. They decided that the same man was responsible for both crimes, but they never caught him\x{2014}and what\x{2019}s more they never came near to catching him! Drew a blank everywhere.\x{201d}",
+          ],
+          [
+            1,
+            '[ap 01:30] Evil Under the Sun - Agatha Christie.epub (OEBPS/016_chapter11.html) - half past one',
+            "\x{201c}Yes, yes, at <<half past one|10>>. The hour of the British lunch when everyone is quite sure to be in the dining room. The island is private. It is not a place where outsiders come for picnics. People take their tea sometimes from the hotel to Pixy Cove in the afternoon when the sun is on it, or if they want a picnic they would go somewhere far afield, many miles away.\x{201d}",
+          ],
+          [
+            1,
+            '[ap 01:50] Evil Under the Sun - Agatha Christie.epub (OEBPS/016_chapter11.html) - ten minutes to two',
+            "\x{201c}There was a couple, you remember, who came to the island for lunch on the day of the murder? That would be a way of getting the stuff. Some summer visitors from a hotel on the Moor or at St. Loo come over to Smugglers\x{2019} Island. They announce that they will have lunch. They walk round the island first. How easy to descend to the beach, pick up the sandwich box, place it, no doubt, in Madame\x{2019}s bathing bag which she carries\x{2014}and return for lunch to the hotel\x{2014}a little late, perhaps, say at <<ten minutes to two|10>>, having enjoyed their walk whilst everyone else was in the dining room.\x{201d}",
+          ],
+          [
+            1,
+            "[ap 10:00] Evil Under the Sun - Agatha Christie.epub (OEBPS/017_chapter12.html) - ten o\x{2019}clock",
+            "The party assembled at <<ten o\x{2019}clock|6>>. Three cars had been ordered. Mr. Blatt was loud and cheerful, imitating a tourist guide.",
+          ],
+          [
+            1,
+            '[ap 23:45] Evil Under the Sun - Agatha Christie.epub (OEBPS/017_chapter12.html) - quarter to twelve',
+            "\x{201c}But I was with her, M. Poirot. I was with her up to a <<quarter to twelve|10>>. I told the police so.\x{201d}",
+          ],
+          [
+            1,
+            '[ap 23:45] Evil Under the Sun - Agatha Christie.epub (OEBPS/017_chapter12.html) - quarter to twelve',
+            "\x{201c}Your evidence gave her an alibi\x{2014}yes. But what was your evidence based on? It was based on Linda Marshall\x{2019}s own wristwatch. You do not know of your own knowledge that it was a <<quarter to twelve|10>> when you left her\x{2014}you only know that she told you so. You said yourself the time seemed to have gone very fast.\x{201d}",
+          ],
+          [
+            1,
+            '[ap 11:10] Evil Under the Sun - Agatha Christie.epub (OEBPS/017_chapter12.html) - ten minutes past eleven',
+            "\x{201c}Miss Darnley states that she left Sunny Ledge at <<ten minutes past eleven|10>> and saw you typing in your room. But just about that time Mr. Gardener went up to the hotel to fetch a skein of wool for his wife. He did not meet Miss Darnley or see her. That is rather remarkable. It looks as though either Miss Darnley never left Sunny Ledge, or else she had left it much earlier and was in your room typing industriously. Another point, you stated that when Miss Darnley looked into your room at a <<quarter past eleven|10>> you saw her in the mirror. But on the day of the murder your typewriter and papers were all on the writing desk across the corner of the room, whereas the mirror was between the windows. So that statement was a deliberate lie. Later, you moved your typewriter to the table under the mirror so as to substantiate your story\x{2014}but it was too late. I was aware that both you and Miss Darnley had lied.\x{201d}",
+          ],
+          [
+            1,
+            '[ap 10:15] Evil Under the Sun - Agatha Christie.epub (OEBPS/018_chapter13.html) - 10:15',
+            "\x{201c}At <<10:15|2>> Arlena departed for her rendezvous, a minute or two later Patrick Redfern came down and registered surprise, annoyance etc. Christine\x{2019}s task was easy enough. Keeping her own watch concealed she asked Linda at <<twenty-five past eleven|10>> what time it was. Linda looked at her watch and replied that it was a <<quarter to twelve|10>>. She then starts down to the sea and Christine packs up her sketching things. As soon as Linda\x{2019}s back is turned Christine picks up the girl\x{2019}s watch which she has necessarily discarded before going into the sea and alters it back to the correct time. Then she hurries up the cliff path, runs across the narrow neck of land to the top of the ladder, strips off her pyjamas and shoves them and her sketching box behind a rock and swarms rapidly down the ladder in her best gymnastic fashion.",
+          ],
+          [
+            1,
+            '[ap > 23:45] Evil Under the Sun - Agatha Christie.epub (OEBPS/018_chapter13.html) - after a quarter to twelve',
+            "\x{201c}When Emily Brewster went off in the boat, Patrick had the beach to himself and full opportunity to commit the crime. Arlena Marshall was killed <<after a quarter to twelve|10>>, but the medical evidence was only concerned with the earliest possible time the crime could have been committed. That Arlena was dead at a <<quarter to twelve|10>> was what was told to the doctor, not what he told the police.",
+          ],
+          [
+            1,
+            '[ap 10:25] Evil Under the Sun - Agatha Christie.epub (OEBPS/018_chapter13.html) - twenty-five past ten',
+            "\x{201c}Two more points had to be settled. Linda Marshall\x{2019}s evidence gave Christine Redfern an alibi. Yes, but that evidence depended on Linda Marshall\x{2019}s wristwatch. All that was needed was to prove that Christine had had two opportunities of tampering with the watch. I found those easily enough. She had been alone in Linda\x{2019}s room that morning\x{2014}and there was an indirect proof. Linda was heard to say that she was \x{2018}afraid she was going to be late,\x{2019} but when she got down it was only <<twenty-five past ten|10>> by the lounge clock. The second opportunity was easy\x{2014}she could alter the watch back again as soon as Linda turned her back and went down to bathe.",
+          ],
+          [
+            1,
+            '[ap 04:15] Evil Under the Sun - Agatha Christie.epub (OEBPS/018_chapter13.html) - quarter past four',
+            "\x{201c}It was then that an idea came to me. There was an assurance\x{2014}a slickness about the crime. I had no doubt that in the future Patrick Redfern would repeat his crime. What about the past? It was remotely possible that this was not his first killing. The method employed, strangulation, was in harmony with his nature\x{2014}a killer for pleasure as well as for profit. If he was already a murderer I was sure that he would have used the same means. I asked Inspector Colgate for a list of women victims of strangulation. The result filled me with joy. The death of Nellie Parson found strangled in a lonely copse might or might not be Patrick Redfern\x{2019}s work\x{2014}it might merely have suggested choice of locality to him, but in Alice Corrigan\x{2019}s death I found exactly what I was looking for. In essence the same method. Juggling with time\x{2014}a murder committed not, as is the usual way, before it is supposed to have happened, but afterwards. A body supposedly discovered at a <<quarter past four|10>>. A husband with an alibi up to <<twenty-five past four|10>>.",
+          ],
+          [
+            1,
+            '[ap 05:45] Evil Under the Sun - Agatha Christie.epub (OEBPS/018_chapter13.html) - quarter to six',
+            "\x{201c}What really happened? It was said that Edward Corrigan arrived at the Pine Ridge, found his wife not there, and went out and walked up and down. Actually, of course, he ran full speed to the rendezvous, Caesar\x{2019}s Grove (which you will remember was quite nearby), killed her and returned to the caf\x{e9}. The girl hiker who reported the crime was a most respectable young lady, games mistress in a well-known girls\x{2019} school. Apparently she had no connection with Edward Corrigan. She had to walk some way to report the death. The police surgeon only examined the body at a <<quarter to six|10>>. As in this case the time of death was accepted without question.",
+          ],
+          [
+            1,
+            '[ap 04:50] Evil Under the Sun - Agatha Christie.epub (OEBPS/020_backmatterpage02.html) - 4:50',
+            "A Pocket Full of Rye
+<<4:50|2>> From Paddington
+The Mirror Crack\x{2019}d from Side to Side",
+          ],
+          [
+            1,
+            '[ap 04:50] Evil Under the Sun - Agatha Christie.epub (OEBPS/024_adcardpage.html) - 4:50',
+            "A Pocket Full of Rye
+<<4:50|2>> from Paddington
+The Mirror Crack\x{2019}d from Side to Side",
+          ],
+        ];

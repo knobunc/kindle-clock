@@ -1,0 +1,91 @@
+$VAR1 = [
+          [
+            1,
+            '[ap 00:34] What We Cannot Know - Marcus du Sautoy.epub (OPS/html/chapter001.html) - 26 to 1',
+            "The triangle is constructed in such a way that each number is the sum of the two numbers immediately above it. The numbers you get are key to dividing the spoils in any interrupted game of points. For example, if Fermat needs 2 points for a win while Pascal needs 4, then you consult the 2 + 4 = 6th row of the triangle and add the first four numbers together and the last two. This is the proportion in which you should divide the spoils. In this case it\x{2019}s a 1 + 5 + 10 + 10 = <<26 to 1|10a:0>> + 5 = 6 division. So Fermat gets 26\x{2044}32 \x{d7} 64 = \x{a3}52 and Pascal gets 6\x{2044}32 \x{d7} 64 = \x{a3}12. In general, a game where Fermat needs n points to Pascal\x{2019}s m points can be decided by consulting the (n + m)th row of Pascal\x{2019}s triangle.",
+          ],
+          [
+            1,
+            '[ap 10:50] What We Cannot Know - Marcus du Sautoy.epub (OPS/html/chapter001.html) - 10 to 11',
+            "Calculus: making sense of zero divided by zero
+Suppose that a car starts from a stationary position. When the stopwatch starts, the driver slams his foot on the accelerator. Suppose that we record that after t seconds the driver has covered t \x{d7} t metres. How fast is the car going after 10 seconds? We get an approximation of the speed by looking at how far the car has travelled in the period from <<10 to 11|10a:0>> seconds. The average speed during this second is (11 \x{d7} 11 \x{2013} 10 \x{d7} 10)/1 = 21 metres per second.",
+          ],
+          [
+            1,
+            '[ap 10:25] What We Cannot Know - Marcus du Sautoy.epub (OPS/html/chapter001.html) - 10.25',
+            "Slightly slower, of course, because the car is accelerating, so on average it is going faster in the second half second from 10 seconds to 11 seconds. But now we take an even smaller snapshot. What about halving the window of time again:
+(<<10.25|5a:0>> \x{d7} <<10.25|5a:0>> \x{2013} 10 \x{d7} 10)/0.25 = <<20.25|5a:0>> metres per second.
+Hopefully the mathematician in you has spotted the pattern. If I take a window of time which is x seconds, the average speed over this time will be 20 + x metres per second. The speed as I take smaller and smaller windows of time is getting closer and closer to 20 metres per second. So, although to calculate the speed at 10 seconds looks like I have to figure out the calculation 0\x{2044}0, the calculus makes sense of what this should mean.",
+          ],
+          [
+            1,
+            '[18:25] What We Cannot Know - Marcus du Sautoy.epub (OPS/html/chapter007.html) - 1825',
+            "A new trajectory was published in 1791, but by 1800 it was out again. By <<1825|9n:0>> it was way ahead of its predicted position, but then started to slow down, and by 1832 it had fallen behind where the maths was predicting it should be. Was there some mysterious substance out there causing resistance? Did Newton\x{2019}s laws of gravitation break down at such great distances from the Sun? Some suggested that, just as Jupiter and Saturn were exerting a gravitational pull on Uranus, perhaps there was another planet out there pushing and pulling it around. But if it existed, where was it?",
+          ],
+          [
+            1,
+            '[ap 01:00] What We Cannot Know - Marcus du Sautoy.epub (OPS/html/chapter008.html) - 1',
+            "There are some subtleties here, so let me add a condition to help us get a grip on what is happening: the rubber band gets stretched only after each second and it will be an instantaneous stretch. So after 1 second the ant has travelled 1 centimetre, which is <<1|9d>>\x{2044}100,000 of the total distance. Then the band expands. The point to note is that although the distance that the ant needs to travel has increased, it has at least still covered 1\x{2044}100,000 of the distance between the star and Earth, because the stretch has also helped push the ant on a little from its starting position.",
+          ],
+          [
+            1,
+            '[00:00] What We Cannot Know - Marcus du Sautoy.epub (OPS/html/chapter009.html) - Midnight',
+            "No people who have the same word for yesterday and tomorrow can be said to have a firm grip on time.
+Salman Rushdie, <<Midnight|13>>\x{2019}s Children
+It\x{2019}s <<8:50|2>> \x{2026} roughly \x{2026} or so my wristwatch tells me. The weak February sun is trying to climb above the rooftops of the houses opposite. The radio is on, the coffee is brewed. The beginning of another day. But the pulse of Prokofiev\x{2019}s Cinderella vibrating the speakers in my radio alarmingly reminds me that time is pressing on. The chimes for <<twelve o\x{2019}clock|6>> are telling Cinderella that her time at the ball is up. And here I am procrastinating on the Internet. I\x{2019}ve just put my birthday into Wolfram Alpha and it\x{2019}s telling me that I\x{2019}ve been alive for 18,075 days. But when I ask it how many more I have left, it says it doesn\x{2019}t understand my query. Probably just as well. I\x{2019}m not sure I want to know how many more times the hands on my watch will go round before the pulse beneath stops.",
+          ],
+          [
+            1,
+            '[ap 08:50] What We Cannot Know - Marcus du Sautoy.epub (OPS/html/chapter009.html) - 8:50',
+            "It\x{2019}s <<8:50|2>> \x{2026} roughly \x{2026} or so my wristwatch tells me. The weak February sun is trying to climb above the rooftops of the houses opposite. The radio is on, the coffee is brewed. The beginning of another day. But the pulse of Prokofiev\x{2019}s Cinderella vibrating the speakers in my radio alarmingly reminds me that time is pressing on. The chimes for <<twelve o\x{2019}clock|6>> are telling Cinderella that her time at the ball is up. And here I am procrastinating on the Internet. I\x{2019}ve just put my birthday into Wolfram Alpha and it\x{2019}s telling me that I\x{2019}ve been alive for 18,075 days. But when I ask it how many more I have left, it says it doesn\x{2019}t understand my query. Probably just as well. I\x{2019}m not sure I want to know how many more times the hands on my watch will go round before the pulse beneath stops.",
+          ],
+          [
+            1,
+            '[ap 09:15] What We Cannot Know - Marcus du Sautoy.epub (OPS/html/chapter009.html) - 9:15',
+            "As I stare at my watch I can\x{2019}t actually see the hands moving, but if I look away and then look back again after some time has passed, the hands have moved on. It\x{2019}s saying <<9:15|2>> now \x{2026} or thereabouts. Tiny cogs inside the watch are driven by a tiny electric motor that in turn is driven by 1-second pulses that have their origin in the oscillations of a tiny quartz crystal. The battery that sits inside the watch sets up a voltage across the crystal that makes it vibrate like a bell with a frequency tuned to 32,768 vibrations a second. This number is chosen for its mathematical properties. It is <<2|9d>> to the power 15. Digital technology likes powers of 2 because computer circuitry can quickly convert this into a mechanical pulse to drive the cogs every second. Importantly, this frequency is not greatly affected by the surrounding temperature, air pressure or altitude (factors which affect a pendulum, for example). And it is this vibrating, the repetition of motion, that is key to marking the passage of time. But is this sufficient to describe the idea of time?",
+          ],
+          [
+            1,
+            '[00:00] What We Cannot Know - Marcus du Sautoy.epub (OPS/html/chapter009.html) - Midnight',
+            "In Hindi and Urdu the word kal is used to mean both yesterday and tomorrow. In the quote from <<Midnight|13>>\x{2019}s Children at the head of this chapter, Salman Rushdie joked that people who have the same word for yesterday and tomorrow cannot be said to have a firm grip on time. But could they in fact be on to something? The idea of \x{2018}before\x{2019} or \x{2018}after\x{2019} is not as clear as some languages imply.",
+          ],
+          [
+            1,
+            "[> 22:00] What We Cannot Know - Marcus du Sautoy.epub (OPS/html/chapter010.html) - a little past ten o\x{2019}clock in the evening",
+            "There are those who would have us do away with the need to talk of time at all. My watch has been ticking away. It says it is <<a little past ten o\x{2019}clock in the evening|6>>. But what does that mean? Put another watch telling the same time in a spaceship, and when it returns it won\x{2019}t match my watch.",
+          ],
+          [
+            1,
+            '[23:55] What We Cannot Know - Marcus du Sautoy.epub (OPS/html/chapter010.html) - 23:55',
+            "That\x{2019}s not to say these things aren\x{2019}t real. Hotness, wetness, time ticking by. I look at my watch. Staring me in the face is <<23:55|2>>. Another day drawing to a close. <<Midnight|13>> is about to strike, heralding the end of the party, and the feeling that I am one day closer to the moment when I won\x{2019}t be able to know anymore. But why do I feel anything: the passage of time, the pain of a stubbed toe, the pleasurable taste of a fine wine, the excitement of listening to Prokofiev? These things are at the heart of one of the biggest unsolved and possibly unanswerable questions on the scientific books, as I will discover in the next Edge.",
+          ],
+          [
+            1,
+            '[ap ~ 10:11] What We Cannot Know - Marcus du Sautoy.epub (OPS/html/chapter012.html) - about 1011',
+            "If consciousness is about the connectivity of the network, what other networks might already be conscious? The total number of transistors that are connected via the Internet is of the order of 1018, while the brain has <<about 1011|18:0>> neurons. The difference lies in the way they are connected. A neuron is typically linked to tens of thousands of other neurons, which allows for a high degree of information integration. In contrast, transistors inside a computer are not highly connected. On Tononi\x{2019}s measure it is unlikely that the Internet is conscious \x{2026} yet.",
+          ],
+          [
+            1,
+            '[~ 07:30] What We Cannot Know - Marcus du Sautoy.epub (OPS/html/chapter014.html) - about prime',
+            "You have to be careful when making choices or hypotheses under which to operate. You can\x{2019}t just assume that something you don\x{2019}t know can be true or false. You have to prove first that both possibilities are consistent. For example, I don\x{2019}t know whether the Riemann hypothesis <<about prime|16>> numbers is true or false, but only one of these is consistent with our theory of numbers. If it turns out to be unprovable within the current axioms of number theory, this would actually imply that it was true. If it is false, we know that it is provably false because we will be able to find a counterexample with a finite systematic search. If it is false, you can\x{2019}t work within a model of numbers where you assume it is true because you\x{2019}ll generate contradictions. This is the amazing thing about the continuum hypothesis: either it or its negation can be incorporated into a consistent theory without creating contradictions.",
+          ],
+          [
+            1,
+            "[ap 02:00] What We Cannot Know - Marcus du Sautoy.epub (OPS/html/chapter014.html) - two o\x{2019}clock",
+            "The classic example proposed by Bertrand Russell tells the story of a woman who looks at a clock which says <<two o\x{2019}clock|6>>. She believes therefore that it is <<two o\x{2019}clock|6>>. She seems justified in her belief because the clock says so. And it does indeed happen to be <<two o\x{2019}clock|6>>. Yet actually the clock stopped 12 hours ago, and it\x{2019}s just coincidence that she happened to look at the clock exactly 12 hours later.",
+          ],
+          [
+            1,
+            '[ap 02:00] What We Cannot Know - Marcus du Sautoy.epub (OPS/html/index.html) - 2',
+            "entropy of a system 285\x{2013}7, 288, 290, 293
+environment, man\x{2019}s effect upon <<2|9c:0>>, 6, 53
+epileptic seizures 309, 323\x{2013}4, 326",
+          ],
+          [
+            1,
+            '[00:00] What We Cannot Know - Marcus du Sautoy.epub (OPS/html/index.html) - Midnight',
+            "Rumsfeld, Donald 11
+Rushdie, Salman: <<Midnight|13>>\x{2019}s Children 247, 264
+Russell, Bertrand 380\x{2013}1, 412",
+          ],
+        ];
