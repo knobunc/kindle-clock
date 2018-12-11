@@ -475,11 +475,15 @@ sub get_masks {
               }xin;
 
     # one's, the only one
-    push @r,qr{ (?<t1> \b one $sq s \b
-                | \b the \s+ only \s+ one \b
-                | \b saw \s+ one \b
-                | \b fallen \s+ one \b
+    push @r,qr{ \b
+                (?<t1>
+                  one $sq s
+                | the \s+ only \s+ one
+                | saw \s+ one
+                | fallen \s+ one
+                | was \s+ at \s+ one
                 )
+                \b
                 (?{ $branch = "x3"; })
               }xin;
 
@@ -1228,11 +1232,15 @@ sub get_matches {
                 )
                 (?<t1>
                   ( $rel_at_words | ( close \s+ )? upon | till | by ) \s+
-                  $hour_re ( [.\s]+ $min0_re )?
+                  (?<x> $hour_re ( [.\s]+ $min0_re )? )
                   (?= \s+ ( last | yesterday | $weekday_re ) |  \s* $hyph+ \s+ | , \s+ )
                 )
                 $ba_re
-                (?{ $branch = "9e"; })
+                (?{ $branch = "9e";
+                    if ($+{x} =~ m{\A one \z}xin) {
+                        $branch = "9e:TIMEY";
+                    }
+                  })
               }xin;
     push @r,qr{ (?<pr>
                   ( \A | $aq | $phrase_punc \s+ )
