@@ -9,12 +9,12 @@ $VAR1 = [
             '[ap ~ 00:00] Winnie-The-Pooh (US) - A. A. Milne.epub (OEBPS/winniethepooh_ch03.html) - About twelve',
             "\x{201c}It isn\x{2019}t the sort of thing you can do in the afternoon,\x{201d} said Piglet quickly. \x{201c}It\x{2019}s a very particular morning thing, that has to be done in the morning, and, if possible, between the hours of\x{2014}What would you say the time was?\x{201d}
 \x{201c}<<About twelve|9:1>>,\x{201d} said Winnie-the-Pooh, looking at the sun.
-\x{201c}Between, as I was saying, the hours of twelve and <<twelve five|5l:1>>. So, really, dear old Pooh, if you\x{2019}ll excuse me\x{2014}What\x{2019}s that?\x{201d}",
+\x{201c}Between, as I was saying, the hours of <<twelve|20>> and <<twelve five|20a>>. So, really, dear old Pooh, if you\x{2019}ll excuse me\x{2014}What\x{2019}s that?\x{201d}",
           ],
           [
             1,
-            '[ap 00:05] Winnie-The-Pooh (US) - A. A. Milne.epub (OEBPS/winniethepooh_ch03.html) - twelve five',
-            "\x{201c}Between, as I was saying, the hours of twelve and <<twelve five|5l:1>>. So, really, dear old Pooh, if you\x{2019}ll excuse me\x{2014}What\x{2019}s that?\x{201d}",
+            '[ap 00:00] Winnie-The-Pooh (US) - A. A. Milne.epub (OEBPS/winniethepooh_ch03.html) - twelve',
+            "\x{201c}Between, as I was saying, the hours of <<twelve|20>> and <<twelve five|20a>>. So, really, dear old Pooh, if you\x{2019}ll excuse me\x{2014}What\x{2019}s that?\x{201d}",
           ],
           [
             1,
