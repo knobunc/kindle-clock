@@ -327,10 +327,11 @@ my $never_follow_times_exp_re =
 my $never_follow_times_re = qr{ [-\s]* $never_follow_times_exp_re $ba_re }xin;
 
 # Set the variables used in the regexes
-my $branch    = "x";
-my $is_timey  = 0;
-my $is_racing = 0;
-my $is_trainy = 0;
+my $branch      = "x";
+my $is_timey    = 0;
+my $is_racing   = 0;
+my $is_trainy   = 0;
+my $last_masked = 0;
 
 sub do_match {
     my ($line, $raw) = @_;
@@ -391,12 +392,18 @@ sub do_match {
     ## Get the matches and apply them
     my ($r) = get_matches();
 
+    # The masked regex
+    my $masked_re = qr{<< ( [^>]+ ) \| [yx]\d+\w? >>}xi;
+
     my @parts = $line;
     foreach my $r (@$masks, @$r) {
         my @new;
         foreach my $part (@parts) {
             if ($part !~ m{<<}) {
                 while ($part ne '') {
+                    # Work out if we are following on from a masked >>
+                    $last_masked = ( $new[-1] // '' ) =~ $masked_re ? 1 : 0;
+
                     if ($part =~ m{$r}p) {
                         my $match =
                                 sprintf("%s<<%s%s|%s>>%s",
@@ -414,6 +421,7 @@ sub do_match {
                 }
             }
             else {
+                # We have a <<>> in this part, no need to match
                 push @new, $part;
             }
         }
@@ -429,7 +437,7 @@ sub do_match {
     $line =~ s{<< ( ( at | by | until ) \s+ )}{$1<<}xgi;
 
     # Undo the masks (unmask)
-    $line =~ s{<< ( [^>]+ ) \| [yx]\d+\w? >>}{$1}xgi
+    $line =~ s{$masked_re}{$1}g
         unless $raw;
 
     ## Relative matches
@@ -1382,6 +1390,31 @@ sub get_matches {
                 (?{ $branch = "3a:TIMEY"; })
               }xin;
 
+    # Between, as I was saying, the hours of twelve and twelve five
+    # hour of twelve
+    push @r,qr{ (?<li> $not_in_match )
+                (?<pr> hours? \s+ of \s+ )
+                (?<t1>
+                  ( $rel_words \s+ )?
+                  $hour_re
+                  ( [-\s]+ $min_re )?
+                )
+                $ba_re
+                (?{ $branch = "20"; })
+              }xin;
+    # ^ and twelve five
+    push @r,qr{ \A
+                (?<pr> \s+ and \s+ )
+                (?<t1>
+                  ( $rel_words \s+ )?
+                  $hour_re
+                  ( [-\s]+ $min_re )?
+                )
+                (?! $never_follow_times_re )
+                $ba_re
+                (?{ $branch = $last_masked ? "x20a" : "20a"; })
+              }xin;
+
     # eleven fifty-six
     push @r,qr{ (?<li> $not_in_match )
                 (?<t1>
@@ -1587,7 +1620,7 @@ sub extract_times {
 
               | # twenty minutes past eight
                 ( (?<rl> $rel_at_words | a \s+ few | just ) \s+
-                | (?<rl> ( $rel_at_words \s+ )? $min_re \s+ or ) \s+
+                | (?<rl> ( $rel_at_words \s+ )? (a | $min_re) \s+ (minutes? \s+)? or ) \s+
                 )?
                 ( (?<mn> $min_re | a ) [-\s]+ )?
                 ( and ( \s+ | [-] )
@@ -2049,21 +2082,24 @@ sub get_spread {
     }
 
     if (defined $dir and $dir ne '') {
-        if ($rel =~ m{\A ( (?<m> $min_re ) \s+ or
+        if ($rel =~ m{\A ( (?<m> $min_re | a) \s+ (minutes? \s+)? or
                      | (?<r> a \s+ few | just (\s+ a)? )
                      )
                      \z}xin)
         {
+            my $r    = $+{r};
             my $rmin = defined $+{m} ? min2num($+{m}) : 5;
             if (defined $min and $min ne '') {
                 # We already used the min to set the time, so take that away from the spread
                 $rmin -= min2num($min);
             }
 
-            if ($dir =~ $before_re) {
-                return (-$rmin, 0, '<');
-            }
-            return (0, $rmin, '>');
+            my $m = '-';
+            $m = $dir =~ $before_re ? '<' : '>'
+                if defined $r;
+
+            $rmin = -$rmin if $dir =~ $before_re;
+            return $rmin < 0 ? ($rmin, 0, $m) : (0, $rmin, $m);
         }
         elsif ($rel =~ m{\A ( between | - ) \z}xin and
                $min =~ m{\A (?<a> $min_re)
@@ -2073,16 +2109,11 @@ sub get_spread {
                             (?<b> $min_re) \z
                         }xin)
         {
-            my $a = min2num($+{a});
-            my $b = min2num($+{b});
-
             # Since we've already consumed the first number as minutes, we need to adjust by that
-            $b -= $a;
+            my $rmin = min2num($+{b}) - min2num($+{a});
 
-            if ($dir =~ $before_re) {
-                return (-$b, 0, '-');
-            }
-            return (0, $b, '-');
+            $rmin = -$rmin if $dir =~ $before_re;
+            return $rmin < 0 ? ($rmin, 0, '-') : (0, $rmin, '-');
         }
         elsif ($rl2 and
                $rl2 =~ m{\A (?<a> $min_re | a (\s+ few)? | just (\s+ a)? ) \s+ ( minute s? \s+ )?
@@ -2106,16 +2137,11 @@ sub get_spread {
                 return (0, 0, '');
             }
 
-            $a = min2num($a);
-            $b = min2num($b);
-
             # Since we've already consumed the first number as minutes, we need to adjust by that
-            $b -= $a;
+            my $rmin = min2num($b) - min2num($a);
 
-            if ($r =~ $before_re) {
-                return (-$b, 0, '-');
-            }
-            return (0, $b, '-');
+            $rmin = -$rmin if $dir =~ $before_re;
+            return $rmin < 0 ? ($rmin, 0, '-') : (0, $rmin, '-');
         }
     }
     else {
