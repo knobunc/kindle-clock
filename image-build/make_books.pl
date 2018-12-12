@@ -57,6 +57,7 @@ if ($force and $force !~ /^\d+$/) {
 }
 
 my %tasks;
+my $printed = 0;
 
 my $pm = Parallel::ForkManager->new(get_num_tasks());
 $pm->run_on_finish(
@@ -98,7 +99,7 @@ foreach my $s (@sources) {
          book     => $book,
          ob       => $ob,
          dur      => $do_skip ? 0    : undef,
-         start    => $do_skip ? time : undef,
+         started  => 0,
          cmd      => $cmd,
         };
 
@@ -117,25 +118,23 @@ foreach my $s (@sources) {
         = @{$i}{qw{ do_skip author book ob }};
 
     my $what = $do_skip ? "Skipping" : "Processing";
-    printf "%10.10s: %20.20s - %-50.50s  ...", $what, $author, $ob;
+    printf "%10.10s: %20.20s - %-45.45s  ", $what, $author, $ob;
     STDOUT->flush();
 
     $i = wait_for_task($s)
         or die "No task info for '$s'";
     my $dur = $i->{dur};
 
-    printf "\b\b\bDone [%3d secs]\n", $dur
+    clear_status();
+
+    printf "Done [%3d secs]\n", $dur
         unless $do_skip;
 
-    print "\b\b\b   \n"
+    print "\n"
         if $do_skip;
 }
 
 exit;
-
-sub do_status {
-    print "Done %3d   Running %3d   Waiting %3d\n";
-}
 
 sub start_jobs {
     # No args
@@ -148,6 +147,8 @@ sub start_jobs {
 
 sub start_job {
     my ($s) = @_;
+
+    $tasks{$s}{started} = 1;
 
     $pm->start($s)
         and return;
@@ -178,10 +179,50 @@ sub wait_for_task {
         last WAIT_LOOP
             if defined $t->{dur};
 
+         # Update the status line
+         print_status($s);
+
          sleep 0.1;
     }
 
     return $t;
+}
+
+sub clear_status {
+    print "\b"x$printed;
+    print  " "x$printed;
+    print "\b"x$printed;
+
+    $printed = 0;
+
+    return;
+}
+
+sub print_status {
+    my ($cur_task) = @_;
+
+    my $str = "";
+    foreach my $s (sort keys %tasks) {
+        next unless $s ge $cur_task;
+        my $t = $tasks{$s};
+
+        # Ignore ones we are skipping
+        next if $t->{do_skip};
+
+        # Ignore ones we haven't started
+        next if not $t->{started};
+
+        # Add an o for running and a . for done
+        $str .= defined $t->{dur} ? '.' : 'o';
+    }
+
+    clear_status();
+    print $str;
+    STDOUT->flush();
+
+    $printed = length($str);
+
+    return;
 }
 
 sub get_num_tasks {
