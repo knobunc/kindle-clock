@@ -37,7 +37,7 @@ $VAR1 = [
           [
             1,
             '[ap 06:55] Murder on the Orient Express - Agatha Christie.epub (OEBPS/006_chapter01.html) - 6:55',
-            "\x{201c}But we can\x{2019}t afford delay! The train is due in at <<6:55|5d>> and one has to cross the Bosphorus and catch the Simplon Orient Express the other side at <<nine o\x{2019}clock|6>>. If there is an hour or two of delay we shall miss the connection.\x{201d}",
+            "\x{201c}But we can\x{2019}t afford delay! The train is due in at <<6:55|5d>> and <<one|20a>> has to cross the Bosphorus and catch the Simplon Orient Express the other side at <<nine o\x{2019}clock|6>>. If there is an hour or two of delay we shall miss the connection.\x{201d}",
           ],
           [
             1,
@@ -283,8 +283,8 @@ At a <<quarter to ten|10>>, neat, spruce, and dandified as ever, he made his way
           ],
           [
             1,
-            '[ap ~ 00:45] Murder on the Orient Express - Agatha Christie.epub (OEBPS/020_chapter14.html) - about a quarter to one',
-            "\x{201c}Willingly. I directed the conductor to make up my bed whilst I was in the dining car. I retired to bed immediately after dinner. I read until the hour of eleven, when I turned out my light. I was unable to sleep owing to certain rheumatic pains from which I suffer. At <<about a quarter to one|10>> I rang for my maid. She massaged me and then read aloud till I felt sleepy. I cannot say exactly when she left me. It may have been half an hour, it may have been later.\x{201d}",
+            '[ap 11:00] Murder on the Orient Express - Agatha Christie.epub (OEBPS/020_chapter14.html) - eleven',
+            "\x{201c}Willingly. I directed the conductor to make up my bed whilst I was in the dining car. I retired to bed immediately after dinner. I read until the hour of <<eleven|20>>, when I turned out my light. I was unable to sleep owing to certain rheumatic pains from which I suffer. At <<about a quarter to one|10>> I rang for my maid. She massaged me and then read aloud till I felt sleepy. I cannot say exactly when she left me. It may have been half an hour, it may have been later.\x{201d}",
           ],
           [
             1,
@@ -328,7 +328,7 @@ At a <<quarter to ten|10>>, neat, spruce, and dandified as ever, he made his way
           ],
           [
             1,
-            '[ap > 10:30] Murder on the Orient Express - Agatha Christie.epub (OEBPS/025_chapter19.html) - Just after half-past ten',
+            '[ap > 10:31] Murder on the Orient Express - Agatha Christie.epub (OEBPS/025_chapter19.html) - Just after half-past ten',
             "\x{201c}What time was it that she went to fetch the aspirin from Mrs. Hubbard?\x{201d}
 \x{201c}<<Just after half-past ten|10>>.\x{201d}
 \x{201c}She was away\x{2014}how long?\x{201d}",

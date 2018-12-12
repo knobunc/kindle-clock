@@ -49,7 +49,7 @@ $VAR1 = [
           [
             1,
             '[ap 08:30] Mrs. McGinty\'s Dead - Agatha Christie.epub (OEBPS/chapter18.xhtml) - half-past eight',
-            "\x{2018}I don\x{2019}t know exactly,\x{2019} said Deirdre. \x{2018}Between <<half-past eight|10>> and nine, I suppose. Probably nearly nine. After dinner, anyway. You see, she telephoned to me.\x{2019}",
+            "\x{2018}I don\x{2019}t know exactly,\x{2019} said Deirdre. \x{2018}Between <<half-past eight|10>> and <<nine|20a>>, I suppose. Probably <<nearly nine|9k:0>>. After dinner, anyway. You see, she telephoned to me.\x{2019}",
           ],
           [
             1,
@@ -75,7 +75,7 @@ $VAR1 = [
             1,
             "[ap 09:00] Mrs. McGinty's Dead - Agatha Christie.epub (OEBPS/chapter19.xhtml) - nine o\x{2019}clock",
             "\x{2018}It wasn\x{2019}t <<nine o\x{2019}clock|6>>. I\x{2019}d have heard the church. And it was <<after half-past eight|10>>.\x{2019}
-\x{2018}Between <<half-past eight|10>> and nine. How long did she stop?\x{2019}
+\x{2018}Between <<half-past eight|10>> and <<nine|20a>>. How long did she stop?\x{2019}
 \x{2018}I dunno, sir. Because I didn\x{2019}t wait no longer. And I didn\x{2019}t hear nothing. No groans or cries or nothing like that.\x{2019}",
           ],
           [

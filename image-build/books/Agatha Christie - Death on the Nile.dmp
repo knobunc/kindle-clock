@@ -82,14 +82,14 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap < 00:30] Death on the Nile - Agatha Christie.epub (OEBPS/018_chapter13.html) - just before half-past twelve',
+            '[ap < 00:29] Death on the Nile - Agatha Christie.epub (OEBPS/018_chapter13.html) - just before half-past twelve',
             "\x{201c}Pr\x{e9}cis\x{e9}ment. I seek only to be very exact, you comprehend. Then we arrive at this point. When Mademoiselle de Bellefort leaves the saloon the pistol is under the settee, and, since Mademoiselle de Bellefort is not left alone\x{2014}Monsieur Fanthorp, Mademoiselle Robson or Mademoiselle Bowers being with her\x{2014}she has no opportunity to get back the pistol after she left the saloon. What time was it, Monsieur Fanthorp, when you went back to look for it?\x{201d}
 \x{201c}It must have been <<just before half-past twelve|10>>.\x{201d}
 \x{201c}And how long would have elapsed between the time you and Dr. Bessner carried Monsieur Doyle out of the saloon until you returned to look for the pistol?\x{201d}",
           ],
           [
             1,
-            '[ap > 00:30] Death on the Nile - Agatha Christie.epub (OEBPS/018_chapter13.html) - Just after half-past twelve',
+            '[ap > 00:31] Death on the Nile - Agatha Christie.epub (OEBPS/018_chapter13.html) - Just after half-past twelve',
             "\x{201c}That was at\x{2014}?\x{201d}
 \x{201c}<<Just after half-past twelve|10>>.\x{201d}
 \x{201c}Your cabin is number twenty-two on the starboard side\x{2014}the one nearest the saloon.\x{201d}",
@@ -103,7 +103,14 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap > 10:30] Death on the Nile - Agatha Christie.epub (OEBPS/020_chapter15.html) - Just after half past ten',
+            '[ap 00:00] Death on the Nile - Agatha Christie.epub (OEBPS/020_chapter15.html) - twelve',
+            "He stopped. The sweat was rolling down his face.
+\x{201c}Where were you last night between the hours of <<twelve|20>> and <<two|20a>>?\x{201d}
+\x{201c}In my bunk asleep\x{2014}and my mate will tell you so.\x{201d}",
+          ],
+          [
+            1,
+            '[ap > 10:31] Death on the Nile - Agatha Christie.epub (OEBPS/020_chapter15.html) - Just after half past ten',
             "\x{201c}If you please. You went to bed at what time, Madame?\x{201d}
 \x{201c}<<Just after half past ten|10>>.\x{201d}
 \x{201c}And you went to sleep at once?\x{201d}",

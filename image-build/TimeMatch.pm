@@ -136,7 +136,7 @@ my $hour_h_re = qr{ $hour_h_dig_re | $hour_h_word_re }xin; # The high hours 13-2
 # The am / pm permutations
 my $in_the_re = qr{ ( ( in \s+ the \s+ ( (?! same) \w+ \s+ ){0,4}?
                       | ( this | that ) \s+ ( \w+ \s+ ){0,2}?
-                      | $hyph \s* (?!day)                          # Don't match five-day
+                      | $hyph \s* (?!day|night)                         # Don't match five-day
                       )
                       $timeday_re
                     | at \s+ ( dawn | dusk | night | sunset | sunrise )
@@ -442,9 +442,9 @@ sub do_match {
 
     ## Relative matches
     # These are relative to other time strings
-    $line =~ s{\b (?<pr> ( from | between ) \s+ )
+    $line =~ s{\b (?<pr> ( from | between | at ) \s+ )
                   (?<t1> $hour_re ( \s+ $min_re )? )?
-                  (?<po> \s+ and \s+ << )
+                  (?<po> \s+ ( or | and ) \s+ << )
               }{$+{pr}<<$+{t1}|20>>$+{po}}xing;
 
     return $line;
@@ -669,6 +669,16 @@ sub get_masks {
                 )
                 $ba_re
                 (?{ $branch = "x18"; })
+              }xin;
+
+    # height five-eleven
+    # weight one-thirty
+    push @r,qr{ (?<pr> (height | weight | length | width | depth) [:,]? \s+
+                       ( (of | at) \s+ )?
+                       ( $rel_words \s+ )?
+                )
+                (?<t1> $min_word_re [-\s]+ $min_word_re )
+                (?{ $branch = "x19"; })
               }xin;
 
     return(\@r);
@@ -1079,6 +1089,7 @@ sub get_matches {
                 )
                 (?<t1> $rel_at_words \s+
                   $hour_word_re
+                  ( ( \s+ | - ) $min_word_re )?
                 )
                 (?! \s+ $time_periods_re )
                 $ba_re
@@ -1326,7 +1337,7 @@ sub get_matches {
     # The only time, but as a single hour (these are less reliable)
     push @r,qr{ (?<pr>
                   ( \A | $aq | $phrase_punc_nc \s+ | \s+ $hyph+ \s+ ) # No comma
-                  ( ( $twas_re | only | just | the ) \s+ )?
+                  ( ( $twas_re | only | just | the | probably ) \s+ )?
                 )
                 (?<t1>
                   ( $rel_words \s+ )?
@@ -1404,7 +1415,7 @@ sub get_matches {
               }xin;
     # ^ and twelve five
     push @r,qr{ \A
-                (?<pr> \s+ and \s+ )
+                (?<pr> ,? \s+ and \s+ )
                 (?<t1>
                   ( $rel_words \s+ )?
                   $hour_re
@@ -2122,16 +2133,9 @@ sub get_spread {
                          \z}xin)
         {
             my ($a, $b, $r) = @+{qw{ a b r }};
-            if ($a =~ m{\A a \s+ few \z}xin) {
-                return (-2, 2, '-');
-            }
-            elsif ($a =~ m{\A just \z}xin) {
-                if ($r =~ $before_re) {
-                    return (-3, 0, '-');
-                }
-                else {
-                    return (0, 3, '-');
-                }
+            if ($a =~ m{\A a \s+ few \z}xin or $a =~ m{\A just \z}xin) {
+                my $t = $a =~ m{\A just \z}xin ? 2 : 4;
+                return $r =~ $before_re ? (-$t, 0, '<') : (0, $t, '>');
             }
             elsif ($a =~ m{\A just \s+ a \z}xin or not defined $b) {
                 return (0, 0, '');

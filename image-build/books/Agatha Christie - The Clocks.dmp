@@ -97,7 +97,7 @@ $VAR1 = [
           [
             1,
             "[ap 10:00] The Clocks - Agatha Christie.epub (text/part0006.html) - ten o\x{2019}clock",
-            "\x{201c}Yes. I went at <<ten o\x{2019}clock|6>> as usual to the Aaronberg Institute. I have classes there <<until twelve|9b>> fifteen. I returned here at <<about quarter to one|10>>, made myself some scrambled eggs in the kitchen and a cup of tea and went out again, as I have said, at <<half past one|10>>. I ate my meal in the kitchen, by the way, and did not come into this room.\x{201d}",
+            "\x{201c}Yes. I went at <<ten o\x{2019}clock|6>> as usual to the Aaronberg Institute. I have classes there until <<twelve fifteen|9b>>. I returned here at <<about quarter to one|10>>, made myself some scrambled eggs in the kitchen and a cup of tea and went out again, as I have said, at <<half past one|10>>. I ate my meal in the kitchen, by the way, and did not come into this room.\x{201d}",
           ],
           [
             1,
@@ -441,8 +441,8 @@ Bland shook his head. \x{201c}I wouldn\x{2019}t have seen much then. I was here.
           ],
           [
             1,
-            '[ap 04:01] The Clocks - Agatha Christie.epub (text/part0023.html) - four one',
-            "\x{201c}Remember\x{2014}<<four one|5l:0>> three\x{2014}or <<four thirteen|5k:0>>,\x{201d} he repeated. \x{201c}Yes\x{2014}it is the same pattern.\x{201d}",
+            '[ap 04:13] The Clocks - Agatha Christie.epub (text/part0023.html) - four thirteen',
+            "\x{201c}Remember\x{2014}four one three\x{2014}or <<four thirteen|5k:0>>,\x{201d} he repeated. \x{201c}Yes\x{2014}it is the same pattern.\x{201d}",
           ],
           [
             1,
@@ -478,13 +478,18 @@ About a week, she thought. She hadn\x{2019}t bothered much, because the clock wa
           ],
           [
             1,
-            '[12:00] The Clocks - Agatha Christie.epub (text/part0027.html) - midday',
-            "There were few people about, a couple of boys on bicycles passed me, two women with shopping bags. The houses themselves might have been embalmed like mummies for all the signs of life there were in them. I knew why that was. It was already, or close upon, the sacred hour of one, an hour sanctified by English traditions to the consuming of a <<midday|13>> meal. In one or two houses I could see through the uncurtained windows a group of one or two people round a dining table, but even that was exceedingly rare. Either the windows were discreetly screened with nylon netting, as opposed to the once popular Nottingham lace, or\x{2014}which was far more probable\x{2014}anyone who was at home was eating in the \x{201c}modern\x{201d} kitchen, according to the custom of the 1960\x{2019}s.",
+            '[ap 01:00] The Clocks - Agatha Christie.epub (text/part0027.html) - one',
+            "There were few people about, a couple of boys on bicycles passed me, two women with shopping bags. The houses themselves might have been embalmed like mummies for all the signs of life there were in them. I knew why that was. It was already, or close upon, the sacred hour of <<one|20>>, an hour sanctified by English traditions to the consuming of a <<midday|13>> meal. In one or two houses I could see through the uncurtained windows a group of one or two people round a dining table, but even that was exceedingly rare. Either the windows were discreetly screened with nylon netting, as opposed to the once popular Nottingham lace, or\x{2014}which was far more probable\x{2014}anyone who was at home was eating in the \x{201c}modern\x{201d} kitchen, according to the custom of the 1960\x{2019}s.",
           ],
           [
             1,
             '[12:00] The Clocks - Agatha Christie.epub (text/part0027.html) - midday',
             'There was a child at the window. I could see a long plait of hair lying over one shoulder. She had a pair of small opera glasses and she was studying me with what might have been flattering attention. As there was nothing else for her to look at, however, it might not be as flattering as it seemed. At that moment, however, there was another <<midday|13>> distraction in Wilbraham Crescent.',
+          ],
+          [
+            1,
+            '[ap 01:00] The Clocks - Agatha Christie.epub (text/part0027.html) - one',
+            'At most times of the day I should think there was a porter here, but between the sacred hour of <<one|20>> and <<two|20a>> the entrance hall was empty. There was a bell with a large sign above it, saying PORTER, but I did not ring it. There was an automatic lift and I went to it and pressed a button for the third floor. After that I had to check things pretty carefully.',
           ],
           [
             1,
