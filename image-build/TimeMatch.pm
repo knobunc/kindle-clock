@@ -374,7 +374,6 @@ sub do_match {
                   | give \s+ (you | odds)
                   | (good | bad | the) \s+ odds
                   | on \s+ the \s+ field
-                  | against
                   ) \b
              }xin;
 
@@ -481,7 +480,17 @@ sub get_masks {
                 (?<t1> $min_re \s+ ( to | of ) \s+ $min_re )
                 (?! ,? \s* $ampm_re)
                 \b
-                (?{ $branch = "x2"; })
+                (?{ $branch = "x2"; $is_racing = 1; })
+              }xin;
+
+    # five to one against
+    push @r,qr{ $bb_re
+                (?<t1> $min_re \s+ ( to | of ) \s+ $min_re )
+                (?<po>
+                 \s+ ( against )
+                )
+                \b
+                (?{ $branch = "x02"; $is_racing = 1; })
               }xin;
 
     # one's, the only one
@@ -492,6 +501,7 @@ sub get_masks {
                 | saw \s+ one
                 | fallen \s+ one
                 | was \s+ at \s+ one
+                | one [-\s]+ to [-\s]+ one
                 )
                 \b
                 (?{ $branch = "x3"; })
