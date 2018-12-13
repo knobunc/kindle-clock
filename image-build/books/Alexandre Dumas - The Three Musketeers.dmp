@@ -88,8 +88,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[~ 22:00] The Three Musketeers - Alexandre Dumas.epub (OEBPS/ch15.xhtml) - gone at ten in the evening',
-            "He added that he knew neither Monsieur nor Madame Bonacieux and had never spoken with either. He\x{2019}d <<gone at ten in the evening|9h>> to pay a visit to his friend Monsieur d\x{2019}Artagnan, but before that hour he\x{2019}d been dining at Monsieur de Tr\x{e9}ville\x{2019}s; twenty witnesses could attest to this fact, and he named several distinguished gentlemen, including the Duc de La Tr\x{e9}mouille.",
+            '[22:00] The Three Musketeers - Alexandre Dumas.epub (OEBPS/ch15.xhtml) - ten in the evening',
+            "He added that he knew neither Monsieur nor Madame Bonacieux and had never spoken with either. He\x{2019}d gone at <<ten in the evening|9a>> to pay a visit to his friend Monsieur d\x{2019}Artagnan, but before that hour he\x{2019}d been dining at Monsieur de Tr\x{e9}ville\x{2019}s; twenty witnesses could attest to this fact, and he named several distinguished gentlemen, including the Duc de La Tr\x{e9}mouille.",
           ],
           [
             1,
@@ -627,8 +627,8 @@ Then, at <<half past seven|10>>, the drums beat the retreat.
           ],
           [
             1,
-            '[12:00] The Three Musketeers - Alexandre Dumas.epub (OEBPS/ch5.xhtml) - noon',
-            "The Carmes-Deschaux,22 as it was then called, was a windowless building standing in an empty field adjacent to the meadow of Pr\x{e9}aux-Clercs. It often served as a nearby rendezvous for antagonists with no time to waste. When d\x{2019}Artagnan came in sight of the open ground at the foot of the convent, Athos had been waiting for only five minutes, and the bell in the tower was tolling twelve <<noon|13>>. Thus d\x{2019}Artagnan was as punctual as the Samaritaine,23 and the most rigorous interpreter of the code duello24 could have no complaint.",
+            '[12:00] The Three Musketeers - Alexandre Dumas.epub (OEBPS/ch5.xhtml) - twelve noon',
+            "The Carmes-Deschaux,22 as it was then called, was a windowless building standing in an empty field adjacent to the meadow of Pr\x{e9}aux-Clercs. It often served as a nearby rendezvous for antagonists with no time to waste. When d\x{2019}Artagnan came in sight of the open ground at the foot of the convent, Athos had been waiting for only five minutes, and the bell in the tower was tolling <<twelve noon|13>>. Thus d\x{2019}Artagnan was as punctual as the Samaritaine,23 and the most rigorous interpreter of the code duello24 could have no complaint.",
           ],
           [
             1,
@@ -919,8 +919,8 @@ Milady had moved up her departure by an hour and a half. As soon as she\x{2019}d
           ],
           [
             1,
-            '[16:33] The Three Musketeers - Alexandre Dumas.epub (OEBPS/dramatis.xhtml) - until 1633',
-            "S\x{c9}GUIER: Pierre S\x{e9}guier, Keeper of the Seals (1588\x{2013}1672). S\x{e9}guier didn\x{2019}t become Keeper of the Seals <<until 1633|18:0>> (and then Chancellor in 1635), but Dumas moved his service to 1626 so he could recount some juicy (though probably unreliable) anecdotes about the man he found in Tallemant des R\x{e9}aux\x{2019}s Historiettes.",
+            '[16:33] The Three Musketeers - Alexandre Dumas.epub (OEBPS/dramatis.xhtml) - 1633',
+            "S\x{c9}GUIER: Pierre S\x{e9}guier, Keeper of the Seals (1588\x{2013}1672). S\x{e9}guier didn\x{2019}t become Keeper of the Seals until <<1633|18:0>> (and then Chancellor in 1635), but Dumas moved his service to 1626 so he could recount some juicy (though probably unreliable) anecdotes about the man he found in Tallemant des R\x{e9}aux\x{2019}s Historiettes.",
           ],
           [
             1,
