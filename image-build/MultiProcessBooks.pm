@@ -72,7 +72,11 @@ sub get_num_tasks {
     my $info = Sys::Info->new;
     my $cpu  = $info->device('CPU');
 
-    return $cpu->count();
+    my $num = $cpu->count();
+
+    $num = 1 if $num < 1;
+
+    return $num;
 }
 
 sub get_task {

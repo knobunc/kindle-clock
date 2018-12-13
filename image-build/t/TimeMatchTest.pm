@@ -4802,7 +4802,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             "Timestr [15:00]: three-o\x{2019}clock",
-            "Ladies bathed before <<noon|13>>, after their <<three-o\x{2019}clock|6>> naps, and by nightfall were like soft teacakes with frostings of sweat and sweet talcum."
+            "Ladies bathed <<before noon|13>>, after their <<three-o\x{2019}clock|6>> naps, and by nightfall were like soft teacakes with frostings of sweat and sweet talcum."
           ],
           [
             1,

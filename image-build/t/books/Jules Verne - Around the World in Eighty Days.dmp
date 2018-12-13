@@ -309,7 +309,7 @@ It was then <<four o\x{2019}clock|6>>.
           [
             1,
             '[< 12:00] Around the World in Eighty Days - Jules Verne.epub (OEBPS/Text/e9781466803558_c13.html) - before noon',
-            "\x{201c}Stop,\x{201d} said Fogg. \x{201c}I am only due at Allahabad to-morrow <<before noon|9b>>.\x{201d}",
+            "\x{201c}Stop,\x{201d} said Fogg. \x{201c}I am only due at Allahabad to-morrow <<before noon|13>>.\x{201d}",
           ],
           [
             1,
@@ -349,12 +349,12 @@ It was then <<four o\x{2019}clock|6>>.
             '[12:00] Around the World in Eighty Days - Jules Verne.epub (OEBPS/Text/e9781466803558_c15.html) - noon',
             "\x{201c}But the steamer leaves at <<noon|13>>!\x{201d} observed Passepartout, nervously.
 \x{201c}We shall be on board by <<noon|13>>,\x{201d} replied his master, placidly.
-It was said so positively, that Passepartout could not help muttering to himself, \x{201c}Parbleu, that\x{2019}s certain! Before <<noon|13>> we shall be on board.\x{201d} But he was by no means reassured.",
+It was said so positively, that Passepartout could not help muttering to himself, \x{201c}Parbleu, that\x{2019}s certain! <<Before noon|13>> we shall be on board.\x{201d} But he was by no means reassured.",
           ],
           [
             1,
-            '[12:00] Around the World in Eighty Days - Jules Verne.epub (OEBPS/Text/e9781466803558_c15.html) - noon',
-            "It was said so positively, that Passepartout could not help muttering to himself, \x{201c}Parbleu, that\x{2019}s certain! Before <<noon|13>> we shall be on board.\x{201d} But he was by no means reassured.",
+            '[< 12:00] Around the World in Eighty Days - Jules Verne.epub (OEBPS/Text/e9781466803558_c15.html) - Before noon',
+            "It was said so positively, that Passepartout could not help muttering to himself, \x{201c}Parbleu, that\x{2019}s certain! <<Before noon|13>> we shall be on board.\x{201d} But he was by no means reassured.",
           ],
           [
             1,

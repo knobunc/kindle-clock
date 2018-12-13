@@ -373,6 +373,7 @@ sub do_match {
                   | back \s+ (him | her | it)
                   | give \s+ (you | odds)
                   | (good | bad | the) \s+ odds
+                  | on \s+ the \s+ field
                   ) \b
              }xin;
 
@@ -1065,78 +1066,6 @@ sub get_matches {
                 (?{ $branch = "21"; })
               }xin;
 
-    # Noon / midnight
-    push @r,qr{ (?<li> $not_in_match )
-                (?<t1>
-                  ( ( $rel_words | before ) \s+ ) ?
-                  $midnight_noon_re
-                )
-                ( $never_follow_times_re (*SKIP)(*FAIL) )?
-                $ba_re
-                (?{ $branch = "13"; })
-              }xin;
-
-    # Strong word times
-    # at eleven fifty-seven
-    push @r,qr{ (?<li> $not_in_match )
-                (?<pr> ( $twas_re | at | by ) \s+ )
-                (?<t1>
-                  $hour_word_re ( \s+ | \s* $ellips \s* | [-] ) $min_word_re
-                  ( \s* $ellips \s* $low_num_re )? ( ,? \s* $ampm_re )?
-                )
-                ( $never_follow_times_re (*SKIP)(*FAIL) )?
-                $ba_re
-                (?{ $branch = "5b"; })
-              }xin;
-
-    # In about twenty-eight minutes it will be midnight.
-    push @r,qr{ (?<li> $not_in_match )
-                (?<t1>
-                  in \s+ ( $rel_words \s+ )? $min_re \s+ ( minutes? \s+ )?
-                  it \s+ (would | will) \s+ be \s+ (a \s+)?
-                  $hour24_word_re ( ( \s+ | \s* $ellips \s* | [-] ) $min_word_re )?
-                  ( \s* $ellips \s* $low_num_re )?
-                  ( ,? \s* $ampm_re )?
-                  ( \s+ $oclock_re )?
-                )
-                ( $never_follow_times_re (*SKIP)(*FAIL) )?
-                $ba_re
-                (?{ $branch = "5i"; })
-              }xin;
-
-    # Other weird cases
-    # here at nine ...
-    push @r,qr{ (?<pr> \b
-                  ( here | there
-                  | $today_re
-                  | ( through \s+ the | following | that | at ) \s+ ( night | day )
-                  | gets \s+ up | woke | rose | waking
-                  | happened \s+ at
-                  | news
-                  ) \s+
-                )
-                (?<t1> $rel_at_words \s+
-                  $hour_word_re
-                  ( ( \s+ | - ) $min_word_re )?
-                )
-                (?! \s+ $time_periods_re )
-                $ba_re
-                (?{ $branch = "9b"; })
-               }xin;
-
-    # at a four-thirty screening
-    push @r,qr{ (?<li> $not_in_match )
-                (?<pr> ( at \s+ a ) \s+ )
-                (?<t1> $hour24_word_re ( \s+ | [-.] ) $min_word_re ( ,? \s* $ampm_re )? )
-                (?<po> \s+
-                  ( screening | viewing | performance | departure | arrival
-                  | game | play | movie | flight | train | ship
-                  )
-                )
-                $ba_re
-                (?{ $branch = "5f"; })
-              }xin;
-
     # Struck / strikes
     push @r,qr{ \b
                 (?<t1>
@@ -1174,6 +1103,78 @@ sub get_matches {
                 (?<t1> $hour24_re ( [-.\s]+ $min0_re )? )
                 $ba_re
                 (?{ $branch = "12"; })
+              }xin;
+
+    # In about twenty-eight minutes it will be midnight.
+    push @r,qr{ (?<li> $not_in_match )
+                (?<t1>
+                  in \s+ ( $rel_words \s+ )? $min_re \s+ ( minutes? \s+ )?
+                  it \s+ (would | will) \s+ be \s+ (a \s+)?
+                  $hour24_word_re ( ( \s+ | \s* $ellips \s* | [-] ) $min_word_re )?
+                  ( \s* $ellips \s* $low_num_re )?
+                  ( ,? \s* $ampm_re )?
+                  ( \s+ $oclock_re )?
+                )
+                ( $never_follow_times_re (*SKIP)(*FAIL) )?
+                $ba_re
+                (?{ $branch = "5i"; })
+              }xin;
+
+    # Noon / midnight
+    push @r,qr{ (?<li> $not_in_match )
+                (?<t1>
+                  ( ( $rel_words | before ) \s+ ) ?
+                  $midnight_noon_re
+                )
+                ( $never_follow_times_re (*SKIP)(*FAIL) )?
+                $ba_re
+                (?{ $branch = "13"; })
+              }xin;
+
+    # Strong word times
+    # at eleven fifty-seven
+    push @r,qr{ (?<li> $not_in_match )
+                (?<pr> ( $twas_re | at | by ) \s+ )
+                (?<t1>
+                  $hour_word_re ( \s+ | \s* $ellips \s* | [-] ) $min_word_re
+                  ( \s* $ellips \s* $low_num_re )? ( ,? \s* $ampm_re )?
+                )
+                ( $never_follow_times_re (*SKIP)(*FAIL) )?
+                $ba_re
+                (?{ $branch = "5b"; })
+              }xin;
+
+    # Other weird cases
+    # here at nine ...
+    push @r,qr{ (?<pr> \b
+                  ( here | there
+                  | $today_re
+                  | ( through \s+ the | following | that | at ) \s+ ( night | day )
+                  | gets \s+ up | woke | rose | waking
+                  | happened \s+ at
+                  | news
+                  ) \s+
+                )
+                (?<t1> $rel_at_words \s+
+                  $hour_word_re
+                  ( ( \s+ | - ) $min_word_re )?
+                )
+                (?! \s+ $time_periods_re )
+                $ba_re
+                (?{ $branch = "9b"; })
+               }xin;
+
+    # at a four-thirty screening
+    push @r,qr{ (?<li> $not_in_match )
+                (?<pr> ( at \s+ a ) \s+ )
+                (?<t1> $hour24_word_re ( \s+ | [-.] ) $min_word_re ( ,? \s* $ampm_re )? )
+                (?<po> \s+
+                  ( screening | viewing | performance | departure | arrival
+                  | game | play | movie | flight | train | ship
+                  )
+                )
+                $ba_re
+                (?{ $branch = "5f"; })
               }xin;
 
     # Times at the end of a phrase
