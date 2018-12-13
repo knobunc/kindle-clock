@@ -41,8 +41,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 05:30] Foreign Affairs - Alison Lurie.epub (OEBPS/chapter003.xhtml) - Until five-thirty',
-            "\x{201c}<<Until five-thirty|9:0>>,\x{201d} Vinnie confirms, glad for once of the licensing laws. She doesn\x{2019}t care for city pubs, and would especially not care to be seen drinking in one with someone dressed like Mumpson. \x{201c}There\x{2019}s a tearoom here in the store, but it\x{2019}s awfully expensive.\x{201d}",
+            '[ap 05:30] Foreign Affairs - Alison Lurie.epub (OEBPS/chapter003.xhtml) - five-thirty',
+            "\x{201c}Until <<five-thirty|9:0>>,\x{201d} Vinnie confirms, glad for once of the licensing laws. She doesn\x{2019}t care for city pubs, and would especially not care to be seen drinking in one with someone dressed like Mumpson. \x{201c}There\x{2019}s a tearoom here in the store, but it\x{2019}s awfully expensive.\x{201d}",
           ],
           [
             1,

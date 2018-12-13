@@ -374,6 +374,7 @@ sub do_match {
                   | give \s+ (you | odds)
                   | (good | bad | the) \s+ odds
                   | on \s+ the \s+ field
+                  | against
                   ) \b
              }xin;
 
