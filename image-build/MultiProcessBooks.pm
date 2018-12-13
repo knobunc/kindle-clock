@@ -16,7 +16,7 @@ use Sys::Info;
 use String::Elide::Parts qw(elide);
 use Term::ANSIColor qw( color colorstrip );
 use Term::Size;
-
+use Time::HiRes qw( time );
 
 sub new {
     my ($class, %args) = @_;
@@ -32,7 +32,7 @@ sub new {
          display    => { what   => 10,
                          author => 20,
                          book   => 0,   # Set later
-                         status => 15,
+                         status => 20,
                          FIXED  => 8,   # The number of fixed chars in the string
                        },
         };
@@ -200,6 +200,26 @@ sub print_task_end {
     return;
 }
 
+sub get_icon {
+    my ($dur, $done) = @_;
+
+    my @blocks = (qw( _ ▁ ▂ ▃ ▄ ▅ ▆ ▇ ▉ ! ));
+    my $bl = @blocks - 1;
+
+    my $l = int($dur / 10);
+    $l = $bl if $l > $bl;
+
+    my $color;
+    if ($done) {
+        $color = "green";
+    }
+    else {
+        $color = "bold red";
+    }
+
+    return color($color).$blocks[$l].color('reset');
+}
+
 sub print_status {
     my ($self, $cur_task) = @_;
 
@@ -224,24 +244,24 @@ sub print_status {
         my $start = $t->{started};
         next if not defined $start;
 
-        # Add a . for done, o for short running, and 0 for long, and ! for very long
+        # Add a . for done, or a number indicating tens of seconds of runtime, or ! if > 100s
+        my ($dur, $done);
         if (defined $t->{dur}) {
+            $done = 1;
+            $dur = $t->{dur};
             $done_count++;
-            push @tasks, color('bold green').".".color('reset');
-        }
-        elsif (time - $start < 30) {
-            $short_count++;
-            push @tasks, color('bold red').  "o".color('reset');
         }
         else {
-            $long_count++;
-            if (time - $start < 60) {
-                push @tasks, color('bold red').  "0".color('reset');
+            $done = 0;
+            $dur = time - $start;
+            if ($dur < 30) {
+                $short_count++;
             }
             else {
-                push @tasks, color('bold red').  "!".color('reset');
+                $long_count++;
             }
         }
+        push @tasks, get_icon($dur, $done);
     }
 
     my $len = $self->{display}{status} - 2;
