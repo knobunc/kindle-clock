@@ -10,7 +10,7 @@ use Exporter::Easy (
 
 use Carp;
 use Data::Dumper;
-use List::Util qw( sum );
+use List::Util qw( sum min max );
 use Parallel::ForkManager;
 use Sys::Info;
 use String::Elide::Parts qw(elide);
@@ -29,6 +29,7 @@ sub new {
          task_order => [],
          queue      => [],
          printed    => 0,
+         run_start  => undef,
          display    => { what   => 10,
                          author => 20,
                          book   => 0,   # Set later
@@ -204,6 +205,14 @@ sub print_task_end {
     return;
 }
 
+sub set_title {
+    my ($title) = @_;
+
+    printf("\033]0;%s\007", $title);
+
+    return;
+}
+
 sub get_icon {
     my ($dur, $done) = @_;
 
@@ -231,6 +240,9 @@ sub print_status {
     my $long_count  = 0;
     my $done_count  = 0;
 
+    my $done_time = 0;
+    my @run_times;
+
     my $time = time;
 
     my $found = 0;
@@ -254,6 +266,7 @@ sub print_status {
             $done = 1;
             $dur = $t->{dur};
             $done_count++;
+            $done_time += $dur;
         }
         else {
             $done = 0;
@@ -264,6 +277,8 @@ sub print_status {
             else {
                 $long_count++;
             }
+
+            push @run_times, $dur;
         }
         push @tasks, get_icon($dur, $done);
     }
@@ -293,11 +308,60 @@ sub print_status {
     my $status = sprintf("%s[%s%s%s]%s", @bc, $str, @bc);
     $self->_print_status($status);
 
+    ### Update the title
+    my $run   = $short_count + $long_count;
+    my $rem   = int(@{ $self->{queue} });
+    my $done  = $done_count;
+    my $tasks = $self->{num_tasks};
+
+    ## Compute the ETA
+    # Compute the average done time, or estimate if we don't have enough data yet
+    my $guess_time   = 45;
+    my $guess_weight = $tasks * 2 - $done;
+    my $avg_done = $guess_weight > 0
+        ? ($done_time + $guess_time*$guess_weight) / ($done + $guess_weight)
+        :  $done_time / $done;
+
+    # For the running tasks, we want to include them in the time estimates
+    # but we need to weight them to guess how long they will take
+    my $est_run_time = sum( map { max($avg_done, $_*2) } @run_times) || 0;
+    my $run_time     = sum( @run_times) || 0;
+
+    # Work out the average per-task time
+    my $avg_task_time = ($done_time + $est_run_time) / ($done + $run);
+
+    # Use the per-task time to estimate the remaining time (minus the time the current tasks have run)
+    my $est_time = max( $avg_task_time * ($run + $rem) - $run_time, 5); # Can't be less than 5 seconds
+    $est_time  /= min( ($run + $rem),  $tasks)
+        if $run + $rem;
+
+    # Smooth the total
+    my $lapsed   = time - $self->{run_start};
+    my $tot_time = $lapsed + $est_time;
+    our @trailing = ($tot_time)x10;
+    push @trailing, $tot_time;
+    shift @trailing if @trailing > 10;
+    my $avg_time = max(sum(@trailing) / @trailing, $lapsed + 5);
+
+    set_title(sprintf("%d done, %d running, %d remaining.  ETA %s / %s",
+                      $done, $run, $rem, fmt_min($lapsed), fmt_min($avg_time)));
+
     return;
+}
+
+sub fmt_min {
+    my ($sec) = @_;
+
+    my $min = int($sec) / 60;
+    $sec   %= 60;
+    return sprintf("%d:%02d", $min, $sec);
 }
 
 sub run_jobs {
     my ($self) = @_;
+
+    # Log the start time so we can calculate an ETA
+    $self->{run_start} = time;
 
     $self->start_jobs();
 

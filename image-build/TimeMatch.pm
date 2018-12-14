@@ -170,7 +170,7 @@ my $short_before_re = qr{   $short_re \s+    before
                         |   near ( \s+ on )?
                         |   towards?
                         |   lacks \s+ of
-                        |   almost ( \s ( gone | at ) )?
+                        |   almost ( \s ( gone | at | to ) )?
                         |   just \s+ about
                         |   can $sq t \s+ be \s+ $far_before_re
                         }xin;
@@ -1435,8 +1435,11 @@ sub get_matches {
                   $hour_re
                   ( [-\s]+ $min_re )?
                 )
+                (?! $never_follow_times_re
+                |   \s+ ( another ) \b
+                )
                 $ba_re
-                (?{ $branch = "20"; })
+                (?{$branch = "20"; })
               }xin;
     # ^ and twelve five
     push @r,qr{ \A
@@ -1768,6 +1771,7 @@ sub extract_times {
                   )?
                   (?<dir> $till_re ) \s+
                   (?<hr> $hour24_re )
+                ( \s+ $oclock_re )?
                 ( ,? \s+ (?<am> $ampm_re ) )?
                 (?{ $branch = "14"; })
 
