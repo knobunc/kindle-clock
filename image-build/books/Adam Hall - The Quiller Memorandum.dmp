@@ -1,8 +1,8 @@
 $VAR1 = [
           [
             1,
-            '[12:00] The Quiller Memorandum - Adam Hall.epub (index_split_000.html) - noon',
-            "\x{201c}I was flown out from London this morning with orders to make contact in strict hush. I wasn\x{2019}t allowed to go to your hotel or meet you anywhere in public, so that local Control had a difficult task. Your phone was tapped at some time before <<noon|13>> in the hope that we could find out your programme for the day and somehow provide contact for me, and it was most fortunate that we heard you telephone for a box at the Neukomodietheater.\x{201d}",
+            '[< 12:00] The Quiller Memorandum - Adam Hall.epub (index_split_000.html) - before noon',
+            "\x{201c}I was flown out from London this morning with orders to make contact in strict hush. I wasn\x{2019}t allowed to go to your hotel or meet you anywhere in public, so that local Control had a difficult task. Your phone was tapped at some time <<before noon|13>> in the hope that we could find out your programme for the day and somehow provide contact for me, and it was most fortunate that we heard you telephone for a box at the Neukomodietheater.\x{201d}",
           ],
           [
             1,
@@ -108,8 +108,8 @@ I left my room and went along the corridor until I found a door open. The room w
           ],
           [
             1,
-            '[00:00] The Quiller Memorandum - Adam Hall.epub (index_split_002.html) - midnight',
-            'The line was clear of tapping. There was indeed a message for Herr Quiller: would I please ring Wilmersdorf 38.39.01 before <<midnight|13>>?',
+            '[< 00:00] The Quiller Memorandum - Adam Hall.epub (index_split_002.html) - before midnight',
+            'The line was clear of tapping. There was indeed a message for Herr Quiller: would I please ring Wilmersdorf 38.39.01 <<before midnight|13>>?',
           ],
           [
             1,
@@ -202,7 +202,7 @@ I said: \x{201c}Give me till <<noon|13>>. Then you can go in.\x{201d}
           [
             1,
             '[12:00] The Quiller Memorandum - Adam Hall.epub (index_split_002.html) - noon',
-            "\x{201c}We shall be here until <<noon|9b>>, of course.\x{201d} He almost said \x{2018}at our posts.\x{2019} I knew he would keep the rest of them here too, to help him sweat it out. All the time I was on the loose there was the danger of being picked up and made to talk. They had lived with this over their heads ever since Pol had given me the Q memorandum, but now it was worse for them because time was running short. They didn\x{2019}t want to be sitting here like so many ducks when Phoenix sent a party up here in the lift, or opened fire from the windows across the street with a battery of submachine-guns. They didn\x{2019}t want to be picked off one by one as they left the passage by the hat shop, dropping cold on to the pavement before they could warn the next man out.",
+            "\x{201c}We shall be here until <<noon|13>>, of course.\x{201d} He almost said \x{2018}at our posts.\x{2019} I knew he would keep the rest of them here too, to help him sweat it out. All the time I was on the loose there was the danger of being picked up and made to talk. They had lived with this over their heads ever since Pol had given me the Q memorandum, but now it was worse for them because time was running short. They didn\x{2019}t want to be sitting here like so many ducks when Phoenix sent a party up here in the lift, or opened fire from the windows across the street with a battery of submachine-guns. They didn\x{2019}t want to be picked off one by one as they left the passage by the hat shop, dropping cold on to the pavement before they could warn the next man out.",
           ],
           [
             1,

@@ -112,8 +112,8 @@ At a <<quarter to ten|10>>, neat, spruce, and dandified as ever, he made his way
           ],
           [
             1,
-            '[> 00:00] Murder on the Orient Express - Agatha Christie.epub (OEBPS/010_chapter05.html) - after midnight',
-            "\x{201c}At half an hour <<after midnight|13>> we ran into the snowdrift. No one can have left the train since then.\x{201d}",
+            '[00:30] Murder on the Orient Express - Agatha Christie.epub (OEBPS/010_chapter05.html) - half an hour after midnight',
+            "\x{201c}At <<half an hour after midnight|10>> we ran into the snowdrift. No one can have left the train since then.\x{201d}",
           ],
           [
             1,
@@ -505,7 +505,7 @@ What other explanation of his wounds can there be?
           [
             1,
             '[ap 00:37] Murder on the Orient Express - Agatha Christie.epub (OEBPS/039_chapter32.html) - 12:37',
-            "\x{201c}Now you all know the facts of the case. Mr. Ratchett was found stabbed this morning. He was last known to be alive at <<12:37|2>> last night, when he spoke to the Wagon Lit conductor through the door. A watch in his pyjama pocket was found to be badly dented and it had stopped at a <<quarter past one|10>>. Dr. Constantine, who examined the body when found, puts the time of death as having occurred between <<midnight|13>> and <<two in the morning|5>>. At half an hour <<after midnight|13>>, as you all know, the train ran into a snowdrift. After that time it was impossible for anyone to leave the train.",
+            "\x{201c}Now you all know the facts of the case. Mr. Ratchett was found stabbed this morning. He was last known to be alive at <<12:37|2>> last night, when he spoke to the Wagon Lit conductor through the door. A watch in his pyjama pocket was found to be badly dented and it had stopped at a <<quarter past one|10>>. Dr. Constantine, who examined the body when found, puts the time of death as having occurred between <<midnight|13>> and <<two in the morning|5>>. At <<half an hour after midnight|10>>, as you all know, the train ran into a snowdrift. After that time it was impossible for anyone to leave the train.",
           ],
           [
             1,

@@ -361,8 +361,8 @@ Now d\x{2019}Artagnan really began to fear that something had happened to Madame
           ],
           [
             1,
-            '[00:00] The Three Musketeers - Alexandre Dumas.epub (OEBPS/ch33.xhtml) - midnight',
-            "\x{201c}It\x{2019}s mine, Monsieur le Chevalier. It communicates with my mistress\x{2019}s bedchamber by that door. But don\x{2019}t worry, she won\x{2019}t hear what we say. She never comes in to bed before <<midnight|13>>.\x{201d}",
+            '[< 00:00] The Three Musketeers - Alexandre Dumas.epub (OEBPS/ch33.xhtml) - before midnight',
+            "\x{201c}It\x{2019}s mine, Monsieur le Chevalier. It communicates with my mistress\x{2019}s bedchamber by that door. But don\x{2019}t worry, she won\x{2019}t hear what we say. She never comes in to bed <<before midnight|13>>.\x{201d}",
           ],
           [
             1,
@@ -503,13 +503,13 @@ A quarter of an hour later, Porthos appeared at the end of the Rue F\x{e9}rou on
             '[~ 12:00] The Three Musketeers - Alexandre Dumas.epub (OEBPS/ch4.xhtml) - About noon',
             "\x{201c}Time?\x{201d}
 \x{201c}<<About noon|13>>.\x{201d}
-\x{201c}Very well, I\x{2019}ll be there <<about noon|9b>>!\x{201d}",
+\x{201c}Very well, I\x{2019}ll be there <<about noon|13>>!\x{201d}",
           ],
           [
             1,
             '[~ 12:00] The Three Musketeers - Alexandre Dumas.epub (OEBPS/ch4.xhtml) - About noon',
             "\x{201c}<<About noon|13>>.\x{201d}
-\x{201c}Very well, I\x{2019}ll be there <<about noon|9b>>!\x{201d}
+\x{201c}Very well, I\x{2019}ll be there <<about noon|13>>!\x{201d}
 \x{201c}Don\x{2019}t keep me waiting, for I warn you, at a <<quarter past twelve|10>> I\x{2019}ll be running after you, and I\x{2019}ll cut off your ears on my way.\x{201d}",
           ],
           [
@@ -623,7 +623,7 @@ Then, at <<half past seven|10>>, the drums beat the retreat.
           [
             1,
             "[ap 08:00] The Three Musketeers - Alexandre Dumas.epub (OEBPS/ch48.xhtml) - eight o\x{2019}clock",
-            "\x{201c}Well, of course it\x{2019}s Planchet,\x{201d} said Athos. \x{201c}What\x{2019}s so astounding about that? He promised to be back by <<eight o\x{2019}clock|6>>, and eight is just striking now. Bravo, Planchet! You\x{2019}re a man of your word, and if you ever leave your master, there will always be a place for you in my service.\x{201d}",
+            "\x{201c}Well, of course it\x{2019}s Planchet,\x{201d} said Athos. \x{201c}What\x{2019}s so astounding about that? He promised to be back by <<eight o\x{2019}clock|6>>, and <<eight|20a>> is just striking now. Bravo, Planchet! You\x{2019}re a man of your word, and if you ever leave your master, there will always be a place for you in my service.\x{201d}",
           ],
           [
             1,
@@ -767,7 +767,7 @@ Milady had moved up her departure by an hour and a half. As soon as she\x{2019}d
             1,
             '[12:00] The Three Musketeers - Alexandre Dumas.epub (OEBPS/ch6.xhtml) - noon',
             "\x{201c}When would Your Majesty deign to receive him?\x{201d}
-\x{201c}Tomorrow at <<noon|9b>>, Tr\x{e9}ville.\x{201d}
+\x{201c}Tomorrow at <<noon|13>>, Tr\x{e9}ville.\x{201d}
 \x{201c}Shall I bring only him?\x{201d}",
           ],
           [

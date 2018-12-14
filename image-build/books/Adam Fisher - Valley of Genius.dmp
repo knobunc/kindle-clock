@@ -56,8 +56,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[12:00] Valley of Genius_ The Uncensored History o - Adam Fisher.epub (OEBPS/chapter013.xhtml) - noon',
-            "Tony Fadell: Just then the boss, Nagasawa-san, comes into the room and sees this activity. And as this happens, the loudspeaker goes, \x{201c}Beep beep beep,\x{201d} and we are like, \x{201c}What is that?\x{201d} And somebody says, \x{201c}Oh, there is a typhoon warning. We all need to leave before <<noon|13>>, because we need to get home because the typhoon is coming.\x{201d} I go, \x{201c}Really?\x{201d} and they go, \x{201c}Yeah, but we are going to keep working.\x{201d}",
+            '[< 12:00] Valley of Genius_ The Uncensored History o - Adam Fisher.epub (OEBPS/chapter013.xhtml) - before noon',
+            "Tony Fadell: Just then the boss, Nagasawa-san, comes into the room and sees this activity. And as this happens, the loudspeaker goes, \x{201c}Beep beep beep,\x{201d} and we are like, \x{201c}What is that?\x{201d} And somebody says, \x{201c}Oh, there is a typhoon warning. We all need to leave <<before noon|13>>, because we need to get home because the typhoon is coming.\x{201d} I go, \x{201c}Really?\x{201d} and they go, \x{201c}Yeah, but we are going to keep working.\x{201d}",
           ],
           [
             1,
@@ -141,8 +141,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[03:00] Valley of Genius_ The Uncensored History o - Adam Fisher.epub (OEBPS/chapter023.xhtml) - three in the morning',
-            'Michael Dhuey: He hardly ever slept. He would send e-mails at two or <<three in the morning|5>>. It gave the appearance that he was a vampire.',
+            '[ap 02:00] Valley of Genius_ The Uncensored History o - Adam Fisher.epub (OEBPS/chapter023.xhtml) - two',
+            'Michael Dhuey: He hardly ever slept. He would send e-mails at <<two|20>> or <<three in the morning|5>>. It gave the appearance that he was a vampire.',
           ],
           [
             1,
@@ -157,7 +157,7 @@ $VAR1 = [
           [
             1,
             '[09:00] Valley of Genius_ The Uncensored History o - Adam Fisher.epub (OEBPS/chapter025.xhtml) - nine a.m.',
-            "Ezra Callahan: When we first moved in, the office door had this lock we couldn\x{2019}t figure out, but the door would automatically unlock at <<nine a.m.|5>> every morning. I was the guy that had to get to the office by nine to make sure nobody walked in and just stole everything, because no one else was going to get there <<before noon|9b>>. All the Facebook guys are basically nocturnal.",
+            "Ezra Callahan: When we first moved in, the office door had this lock we couldn\x{2019}t figure out, but the door would automatically unlock at <<nine a.m.|5>> every morning. I was the guy that had to get to the office by nine to make sure nobody walked in and just stole everything, because no one else was going to get there <<before noon|13>>. All the Facebook guys are basically nocturnal.",
           ],
           [
             1,

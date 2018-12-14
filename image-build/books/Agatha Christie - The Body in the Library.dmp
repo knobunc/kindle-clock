@@ -122,9 +122,9 @@ $VAR1 = [
           ],
           [
             1,
-            '[00:00] The Body in the Library - Agatha Christie.epub (OEBPS/016_chapter11.html) - midnight',
+            '[< 00:00] The Body in the Library - Agatha Christie.epub (OEBPS/016_chapter11.html) - before midnight',
             "Superintendent Harper said:
-\x{201c}That is, assuming the girl was killed before <<midnight|13>>.\x{201d}
+\x{201c}That is, assuming the girl was killed <<before midnight|13>>.\x{201d}
 \x{201c}Haydock said she was. He\x{2019}s a very sound fellow in police work. If he says a thing, it\x{2019}s so.\x{201d}",
           ],
           [
@@ -151,8 +151,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[00:00] The Body in the Library - Agatha Christie.epub (OEBPS/016_chapter11.html) - midnight',
-            "\x{201c}No, you couldn\x{2019}t stretch it. When I say she was killed before <<midnight|13>> I mean before <<midnight|13>>, and don\x{2019}t try to tamper with the medical evidence.\x{201d}",
+            '[< 00:00] The Body in the Library - Agatha Christie.epub (OEBPS/016_chapter11.html) - before midnight',
+            "\x{201c}No, you couldn\x{2019}t stretch it. When I say she was killed <<before midnight|13>> I mean <<before midnight|13>>, and don\x{2019}t try to tamper with the medical evidence.\x{201d}",
           ],
           [
             1,
