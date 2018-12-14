@@ -31,7 +31,7 @@ my $timeday_re = qr{ $morn_re | day | night }xin;
 my $noon_re     = qr{ ( ( twelve | 12 | high ) \s+ )? noon (-? (day | time | tide) )?
                     | mid[-\s]*day
                     }xin;
-my $midnight_re = qr{ midnight (?! \s+ oil ) }xin;
+my $midnight_re = qr{ ( (twelve | 12 ) \s+ )? midnight (?! \s+ oil ) }xin;
 my $ecclesiastical_re =
     qr{ # Ecclesiastical times -- https://en.wikipedia.org/wiki/Liturgy_of_the_Hours
         # Prime and Nones are handled specially
@@ -304,6 +304,7 @@ my $never_follow_times_exp_re =
         | ( hundred | thousand | million | billion ) (th)?
         | dozen | score | gross | grand
         | ( \w+ \s+)? $time_periods_re
+        | seconds
         | century | centuries | decade | millenium | millenia
         | third | half | halve | quarter | fifth | sixth | seventh | eighth | nineth | tenth
         | dollar | buck | cent | pound | quid
@@ -369,7 +370,7 @@ sub do_match {
         if $line =~
             m{ \b ( colts? | filly | fillies | stallions?
                   | odds \s+ (at | of) | betting
-                  | interest | ratio | advantage | superiority | proportion
+                  | interest | ratio | advantage | superiority | proportion | outnumbered
                   | back \s+ (him | her | it)
                   | give \s+ (you | odds)
                   | (good | bad | the) \s+ odds
@@ -485,7 +486,7 @@ sub get_masks {
 
     # five to one against
     push @r,qr{ $bb_re
-                (?<t1> $min_re \s+ ( to | of ) \s+ $min_re )
+                (?<t1> $min_re [-\s]+ ( to | of ) [-\s]+ $min_re )
                 (?<po>
                  \s+ ( against )
                 )
@@ -1457,7 +1458,7 @@ sub get_matches {
     # eleven fifty-six
     push @r,qr{ (?<li> $not_in_match )
                 (?<t1>
-                  ( $rel_words \s+ )?
+                  (?<rl> $rel_words \s+ )?
                   ( $hour24_word_re (   \s+  | \s* $ellips \s* )
                   | $hour_word_re   ( [-\s]+ | \s* $ellips \s* )
                   )
@@ -1468,7 +1469,7 @@ sub get_matches {
                 )
                 $ba_re
                 (?{ $branch = "5k:TIMEY";
-                    my $mn = $+{mn};
+                    my ($rl, $mn) = ($+{rl}, $+{mn});
                     if ($mn =~ m{\A $low_num_re \z}xin) {
                         if ($is_trainy) {
                             $branch = "5l:TIMEY";
