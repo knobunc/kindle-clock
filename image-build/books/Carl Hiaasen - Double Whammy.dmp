@@ -106,8 +106,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 01:00] Double Whammy - Carl Hiaasen.epub (OEBPS/hiaa_9781101436646_oeb_c15_r1.xhtml) - until one',
-            'For two million dollars he had purchased a small UHF operation whose programming consisted entirely of game shows, Atlanta Braves baseball, and The Best of Hee-Haw. Nothing changed for four months, <<until one|9e>> Sunday morning a man with straw-blond hair and messianic eyebrows stood behind a cardboard pulpit and introduced himself as the Most Holy Reverend Charles Weeb. From now on, he said, WEEB-TV would be the voice of Jesus Christ.',
+            '[ap 01:00] Double Whammy - Carl Hiaasen.epub (OEBPS/hiaa_9781101436646_oeb_c15_r1.xhtml) - one',
+            'For two million dollars he had purchased a small UHF operation whose programming consisted entirely of game shows, Atlanta Braves baseball, and The Best of Hee-Haw. Nothing changed for four months, until <<one|9e:0>> Sunday morning a man with straw-blond hair and messianic eyebrows stood behind a cardboard pulpit and introduced himself as the Most Holy Reverend Charles Weeb. From now on, he said, WEEB-TV would be the voice of Jesus Christ.',
           ],
           [
             1,
@@ -222,13 +222,6 @@ Shawn Curl said, \x{201c}Not for you. For you, half-price.\x{201d}",
             1,
             '[03:00] Double Whammy - Carl Hiaasen.epub (OEBPS/hiaa_9781101436646_oeb_c29_r1.xhtml) - three in the morning',
             "To get on the dike, Eddie Spurling had to drive to the west end of Road 84, then zig north up U.S. 27 to the Sawgrass Fish Camp. Here the dike was accessible, but wide enough for only one vehicle; at <<three in the morning|9a>> Eddie didn\x{2019}t anticipate oncoming traffic. He drove the Wagoneer at a crawl through a crystal darkness, insects whorling out of the swamp to cloud the headlights. Every so often he had to brake as the high-beams froze some animal, ruby-eyed, on the rutted track\x{2014}rabbits, raccoons, foxes, bobcats, even a fat old female otter. Eddie marveled at so much wildlife, so close to the big city.",
-          ],
-          [
-            1,
-            '[ap 11:08] Double Whammy - Carl Hiaasen.epub (OEBPS/hiaa_9781101436646_oeb_c29_r1.xhtml) - eleven-eight',
-            "Eddie Spurling said, \x{201c}Well, I\x{2019}m glad you did.\x{201d}
-\x{201c}Three hawgsters. One must\x{2019}ve gone at least <<eleven-eight|5l:0>>.\x{201d}
-\x{201c}Well,\x{201d} said Eddie, \x{201c}maybe I\x{2019}ll catch him someday, when he\x{2019}s bigger.\x{201d}",
           ],
           [
             1,

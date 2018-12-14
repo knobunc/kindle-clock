@@ -32,17 +32,17 @@ $VAR1 = [
           [
             1,
             '[ap 09:02] Singularity Sky - Charles Stross.epub (OEBPS/Text/Section0007.xhtml) - nine-two',
-            "\"Ping at <<nine-two|5b>>-<<six-four|5l:0>>!\" crowed Radar Two. \"Range four-point-nine M-klicks, bearing one by sevenfive by <<three-three|5b>>-two. Lots of hot one-point-four MeV gammas\x{2014}they're cooking on antimatter!\"",
+            "\"Ping at <<nine-two|5b>>-six-four!\" crowed Radar Two. \"Range four-point-nine M-klicks, bearing one by sevenfive by <<three-three|5b>>-two. Lots of hot one-point-four MeV gammas\x{2014}they're cooking on antimatter!\"",
           ],
           [
             1,
             '[ap 09:02] Singularity Sky - Charles Stross.epub (OEBPS/Text/Section0007.xhtml) - nine-two',
-            '"Second burst at <<nine-two|5b>>-<<six-four|5l:0>>," called Radar One. "Same emission profile. Looks like we scared up a swarm!"',
+            '"Second burst at <<nine-two|5b>>-six-four," called Radar One. "Same emission profile. Looks like we scared up a swarm!"',
           ],
           [
             1,
             '[ap 01:04] Singularity Sky - Charles Stross.epub (OEBPS/Text/Section0007.xhtml) - one-four',
-            '"Gamma burst!" called Radar Two. "Burst at <<one-four|5b>>-<<seven-one|5l:0>>. Range one-one point-two M-klicks, bearing one by seven-five by <<three-three|5b>>-two. Looks like shooting, sir!"',
+            '"Gamma burst!" called Radar Two. "Burst at <<one-four|5b>>-seven-one. Range one-one point-two M-klicks, bearing one by seven-five by <<three-three|5b>>-two. Looks like shooting, sir!"',
           ],
           [
             1,
@@ -51,79 +51,13 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 03:02] Singularity Sky - Charles Stross.epub (OEBPS/Text/Section0007.xhtml) - three-two',
-            '\'Too late," said Helsingus. "We\'ll have \'em in <<three-two|5l:0>> seconds. They\'ll be inside the burst radius."',
-          ],
-          [
-            1,
-            '[ap 02:01] Singularity Sky - Charles Stross.epub (OEBPS/Text/Section0010.xhtml) - Two-one',
-            "\"Aye aye, sir, bringing course to plus one-zero minus four-zero. <<Two-one|5l:0>> one gees coming up in five\x{2026} three\x{2026} now.\" Like most regional powers, the New Republican Navy had adopted the Terran standard gee\x{2014}ten meters per second squared. At full military power, Lord Vanek could go from a standing start to planetary escape velocity in less than sixty seconds; without a delicate balancing act, trading off the drive kernel's spin against the curvature of space around the ship, the crew would be squashed flat and broken on the floor. But carrying a drive kernel had its price\x{2014}a non-FTL, fission-powered missile could, at short range, outrun or out-turn a warship hobbled by the mass of a mountain.",
-          ],
-          [
-            1,
             '[ap 02:05] Singularity Sky - Charles Stross.epub (OEBPS/Text/Section0010.xhtml) - two-five',
             "\"They're\x{2014}too close! Sir, they're very faint. Took a few seconds for the analysis grid to resolve them, in fact. They've got to be black body emitters with stealth characteristics. Range nine-zero K, one-pointthree M, seven M, another at <<two-five|5b>>-zero K\x{2026} we're in the middle of it!\"",
           ],
           [
             1,
-            '[ap 05:05] Singularity Sky - Charles Stross.epub (OEBPS/Text/Section0010.xhtml) - five-five',
-            'Radar Two interrupted her reverie: \'Target! Range six-point-nine M-klicks, big emission profile. Course minus <<five-five|5l:0>>, plus two-zero."',
-          ],
-          [
-            1,
-            '[ap 04:07] Singularity Sky - Charles Stross.epub (OEBPS/Text/Section0010.xhtml) - four-seven',
-            '"Second trace!" called Radar One. "Another live bird moving out. Range on this one is <<four-seven|5l:0>> Mklicks, vector toward lidar source three, the Suvaroffi"',
-          ],
-          [
-            1,
-            '[ap 01:05] Singularity Sky - Charles Stross.epub (OEBPS/Text/Section0010.xhtml) - one-five',
-            '"Checking, sir." Navigation. "Sir, they can\'t nail us before we take out that command post, unless target alpha also has a speed demon or two up his sleeve. But they\'ll get us <<one-five|5l:0>> seconds later."',
-          ],
-          [
-            1,
-            '[ap 06:02] Singularity Sky - Charles Stross.epub (OEBPS/Text/Section0010.xhtml) - six-two',
-            "\"Light particles!\" yelled Radar One. \"Big explosion off six M-klicks, bearing <<six-two|5l:0>> by <<five-nine|5b>>! Looks like\x{2014}damn, one of the cruisers bought it. I'm getting a particle stream from astern! Bearing oneseven-seven by five, sidescatter, no range yet\x{2014}\"",
-          ],
-          [
-            1,
-            '[ap 05:02] Singularity Sky - Charles Stross.epub (OEBPS/Text/Section0010.xhtml) - five-two',
-            "\"Radar One, I have a lidar lock! ECM engaged from directly astern! Someone's painting us. I have a range\x{2014}<<five-two|5l:0>> K\x{2014}and\x{2014}\"",
-          ],
-          [
-            1,
-            '[ap 04:05] Singularity Sky - Charles Stross.epub (OEBPS/Text/Section0010.xhtml) - four-five',
-            "\"Radar Two, we have a seeker on our tail. Range <<four-five|5l:0>> K, closing at\x{2014}Holy Mother of God, I don't believe it!\"",
-          ],
-          [
-            1,
-            '[ap 01:05] Singularity Sky - Charles Stross.epub (OEBPS/Text/Section0010.xhtml) - one-five',
-            '"I\'ve pumped the forward birds right up, sir, maximum acceleration the warheads will take. MECO is in <<one-five|5l:0>> seconds. Soon as that happens I\'ll divert power to our trailers. Ah, bird one burnout in one-zero seconds."',
-          ],
-          [
-            1,
-            '[ap 01:05] Singularity Sky - Charles Stross.epub (OEBPS/Text/Section0010.xhtml) - one-five',
-            '"Bird one burnout. Boosting bird four. Bird two, bird three, burnout. I\'m diverting all propulsion beam power to the second salvo. Salvo time to target, <<one-five|5l:0>> seconds. Ah, we have <<one-seven|5l:0>> inbound aggressors. Three outbound antimissiles."',
-          ],
-          [
-            1,
-            '[ap 01:09] Singularity Sky - Charles Stross.epub (OEBPS/Text/Section0010.xhtml) - one-nine',
-            "
-\"One-eight-point-nine K\x{2014}no, <<one-nine|5l:0>> K beamriders incoming!\"
-",
-          ],
-          [
-            1,
-            '[ap 01:02] Singularity Sky - Charles Stross.epub (OEBPS/Text/Section0010.xhtml) - one-two',
-            "
-\"Incoming number one, range <<one-two|5l:0>> K and closing\x{2014}\"
-",
-          ],
-          [
-            1,
-            '[ap 03:02] Singularity Sky - Charles Stross.epub (OEBPS/Text/Section0010.xhtml) - Three-two',
-            "
-\"<<Three-two|5l:0>> K incoming hostiles! No, <<three-two|5l:0>> and\x{2014}\"
-",
+            '[ap 05:09] Singularity Sky - Charles Stross.epub (OEBPS/Text/Section0010.xhtml) - five-nine',
+            "\"Light particles!\" yelled Radar One. \"Big explosion off six M-klicks, bearing six-two by <<five-nine|5b>>! Looks like\x{2014}damn, one of the cruisers bought it. I'm getting a particle stream from astern! Bearing oneseven-seven by five, sidescatter, no range yet\x{2014}\"",
           ],
           [
             1,
@@ -177,28 +111,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 03:02] Singularity Sky - Charles Stross.epub (OEBPS/Text/Section0015.xhtml) - three-two',
-            'Mirsky raised a warning hand. "Just do it. Helm, option <<three-two|5l:0>>. Signal all ships." Once again, he picked up the phone to the Commodore\'s battle room to confer with his flag officer.',
-          ],
-          [
-            1,
-            '[ap 09:06] Singularity Sky - Charles Stross.epub (OEBPS/Text/Section0015.xhtml) - nine-six',
-            '"Fish are both running, sir. Ours are making <<nine-six|5l:0>> and one-one-two gees respectively; general squadron broadside averages ninety-eight. They should burn out and switch to sus-tainer in one-zerozero seconds and intersect bogeys one and two if they stay on current course in about one-five-zero seconds. Guidance pack degradation should still be under control by then, we should be able to do terminal targeting control."',
-          ],
-          [
-            1,
             '[ap < 02:00] Singularity Sky - Charles Stross.epub (OEBPS/Text/Section0015.xhtml) - nearly two',
             "A fundamental problem with combat in space was that if things began to go wrong, they could do so with dizzying speed\x{2014}and to make matters worse, catastrophe would only become visible to a ship that was so deep into the enemy's powered-missile envelope that escape was nearly impossible. Mirsky had gamed this situation repeatedly with Bauer and the other fleet captains; plan bugout was the result. It was a lousy plan, the only thing to commend it being the fact that all the alternatives were worse. Something had just reached out across ninety thousand kilometers and bushwhacked a battlecruiser. This wasn't entirely unexpected; they were here to fight, after all. But they hadn't seen any missiles, only their own birds and the debris from the blow-out drifting in ahead of them, and the fine drizzle of organic \"dandruff' from the enemy ships\x{2014}and in active mode, the Lord Vanek's lidar could pin down a missile at almost a light-second, three hundred thousand kilometers. If the enemy had a beam weapon of some kind that was capable of trashing a capital ship at that range, <<nearly two|9:0>> orders of magnitude greater than their own point-defense energy weapons, they were already too damned close. All they could do was turn side-on and go to emergency thrust, generating a vector away from the enemy before they could respond.",
-          ],
-          [
-            1,
-            '[ap 01:05] Singularity Sky - Charles Stross.epub (OEBPS/Text/Section0015.xhtml) - one-five',
-            'Radar One: \'Torpedo intercept in <<one-five|5l:0>> seconds. Bogey holding course, due to pass inside our',
-          ],
-          [
-            1,
-            '[ap 01:06] Singularity Sky - Charles Stross.epub (OEBPS/Text/Section0015.xhtml) - one-six',
-            '"Got it already, sir. I\'ve got some kind of contamination, source inside life support one: weird organic molecules, low concentration. Also, er, localized outbreaks of fire. It\'s mostly around A deck. The lidar grid damage is localized, around where the debris strike happened. Ah, I have <<one-six|5l:0>> crew marked down on the status board. A deck segment two is open to space, and they were all inside at the time."',
           ],
           [
             1,

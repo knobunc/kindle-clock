@@ -26,7 +26,7 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap - 05:33] Rebecca - Daphne Du Maurier.epub (OEBPS/chapter004.xhtml) - a few minutes after half past five',
+            '[ap > 05:33] Rebecca - Daphne Du Maurier.epub (OEBPS/chapter004.xhtml) - a few minutes after half past five',
             'The waiter appeared bored; seeing me alone there was no need for him to press, and anyway it was that dragging time of day, <<a few minutes after half past five|10>>, when the normal tea is finished and the hour for drinks remote.',
           ],
           [
@@ -42,7 +42,7 @@ $VAR1 = [
           [
             1,
             '[ap ~ 09:30] Rebecca - Daphne Du Maurier.epub (OEBPS/chapter006.xhtml) - about half past nine',
-            "The day was spent in packing, and in the evening people came to say good-bye. We dined in the sitting room, and she went to bed directly afterwards. Still I had not seen him. I went down to the lounge <<about half past nine|10>> on the pretext of getting luggage labels and he was not there. The odious reception clerk smiled when he saw me. \x{201c}If you are looking for Mr. de Winter we had a message from Cannes to say he would not be back before <<midnight|13>>.\x{201d}",
+            "The day was spent in packing, and in the evening people came to say good-bye. We dined in the sitting room, and she went to bed directly afterwards. Still I had not seen him. I went down to the lounge <<about half past nine|10>> on the pretext of getting luggage labels and he was not there. The odious reception clerk smiled when he saw me. \x{201c}If you are looking for Mr. de Winter we had a message from Cannes to say he would not be back <<before midnight|13>>.\x{201d}",
           ],
           [
             1,

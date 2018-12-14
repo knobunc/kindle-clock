@@ -150,13 +150,13 @@ He looked at his watch. \x{201c}Half an hour. <<Twelve|9k:0>>.\x{201d}
             '[ap 10:00] Forever Peace - Joe Haldeman.epub (OEBPS/xhtml/chapter001.xhtml) - ten',
             "\x{201c}I suppose.\x{201d}
 \x{201c}Free at <<ten|9a>> tomorrow?\x{201d}
-\x{201c}Yeah, <<until two|9:0>>.\x{201d}",
+\x{201c}Yeah, until <<two|9:0>>.\x{201d}",
           ],
           [
             1,
             '[ap 10:00] Forever Peace - Joe Haldeman.epub (OEBPS/xhtml/chapter001.xhtml) - ten',
             "\x{201c}Free at <<ten|9a>> tomorrow?\x{201d}
-\x{201c}Yeah, <<until two|9:0>>.\x{201d}
+\x{201c}Yeah, until <<two|9:0>>.\x{201d}
 \x{201c}Come by my place. I need your input.\x{201d}",
           ],
           [
@@ -230,11 +230,6 @@ Marty will meet you and Blaze at <<1915|18:0>> in the mess hall. Bring this.
             1,
             '[ap 01:00] Forever Peace - Joe Haldeman.epub (OEBPS/xhtml/chapter001.xhtml) - one',
             "Marty looked at his watch. \x{201c}I\x{2019}m due in surgery in twenty minutes. Be doing jacks until <<one|9c:1>>. Julian, you want to track him down?\x{201d}",
-          ],
-          [
-            1,
-            '[20:01] Forever Peace - Joe Haldeman.epub (OEBPS/xhtml/chapter001.xhtml) - Twenty one',
-            'It did simplify the humanization schedule. We had been set up to use the <<Twenty one|5l:0>> at a time, by way of the secure phone line at the Guadalajara clinic. Once they were physically inside Building 31, we could use them four at a time, in rotation.',
           ],
           [
             1,

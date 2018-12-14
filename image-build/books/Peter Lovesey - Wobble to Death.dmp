@@ -21,8 +21,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[12:00] Wobble to Death - Peter Lovesey.epub (OEBPS/chap10_wobblede_9781569477892_epub_part10.html) - noon',
-            "\x{2018}Can\x{2019}t leave him on his own,\x{2019} whispered Reid. \x{2018}Might walk off. There ain\x{2019}t no rest scheduled before <<noon|13>>.\x{2019}",
+            '[< 12:00] Wobble to Death - Peter Lovesey.epub (OEBPS/chap10_wobblede_9781569477892_epub_part10.html) - before noon',
+            "\x{2018}Can\x{2019}t leave him on his own,\x{2019} whispered Reid. \x{2018}Might walk off. There ain\x{2019}t no rest scheduled <<before noon|13>>.\x{2019}",
           ],
           [
             1,
@@ -36,8 +36,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[00:00] Wobble to Death - Peter Lovesey.epub (OEBPS/chap11_wobblede_9781569477892_epub_part11.html) - midnight',
-            "SOLOMON HERRIOTT SLUMPED into a seat in the judges\x{2019} stand and produced a flask of brandy from his jacket. This was the first rest he had allowed his feet since before <<midnight|13>>. They could not have ached more if he had been lapping the track himself. But there was encouragement in the day\x{2019}s events. These marathon contests were traditionally slow to  attract interest from Press and public, yet the duel between Darrell and Chadwick was already drawing spectators, and the news of Chadwick\x{2019}s dramatic rejection of heel-and-toe would make sensational reading in the sporting Press. He lit a cigar and dreamily followed the movement of the runners\x{2014} if they could be so described\x{2014}distorted by the smoke. In a few minutes he replaced the flask in an inner pocket, raised him-self, and strolled over to his manager, Jacobson.",
+            '[< 00:00] Wobble to Death - Peter Lovesey.epub (OEBPS/chap11_wobblede_9781569477892_epub_part11.html) - before midnight',
+            "SOLOMON HERRIOTT SLUMPED into a seat in the judges\x{2019} stand and produced a flask of brandy from his jacket. This was the first rest he had allowed his feet since <<before midnight|13>>. They could not have ached more if he had been lapping the track himself. But there was encouragement in the day\x{2019}s events. These marathon contests were traditionally slow to  attract interest from Press and public, yet the duel between Darrell and Chadwick was already drawing spectators, and the news of Chadwick\x{2019}s dramatic rejection of heel-and-toe would make sensational reading in the sporting Press. He lit a cigar and dreamily followed the movement of the runners\x{2014} if they could be so described\x{2014}distorted by the smoke. In a few minutes he replaced the flask in an inner pocket, raised him-self, and strolled over to his manager, Jacobson.",
           ],
           [
             1,
@@ -47,7 +47,7 @@ $VAR1 = [
           [
             1,
             '[> 19:00] Wobble to Death - Peter Lovesey.epub (OEBPS/chap11_wobblede_9781569477892_epub_part11.html) - shortly after 7 p.m.',
-            "Although the atmosphere in the area of the huts was wors-ening, conditions on the track had improved during the day. The gas was now on again, and much of the fog had receded. Officials still stamped their feet and complained of the cold, and the runners were still mostly well-covered in layers of clothes. But the presence of two thousand or more shilling spectators injected some warmth of spirit into the occasion. Knots of enthusiasts roared encouragement and abuse at the contestants, occasionally inspiring or goading one to  complete a quicker circuit. Betting was heavy, chiefly on the two \x{2018}inside\x{2019} men, and Chadwick was firmly reinstated as favourite. He completed his ninetieth mile <<shortly after 7 p.m.|5>>, only twenty minutes behind his rival, Darrell. Three-quarters of an hour later O\x{2019}Flaherty and Williams followed. Chalk and Reid passed the same point <<shortly before 8.30 p.m.|2a>>, and seven stragglers followed during the next two hours. Mostyn-Smith strolled serenely on, scheduled to reach this landmark at <<1 a.m.|5>> on the following morning.",
+            "Although the atmosphere in the area of the huts was wors-ening, conditions on the track had improved during the day. The gas was now on again, and much of the fog had receded. Officials still stamped their feet and complained of the cold, and the runners were still mostly well-covered in layers of clothes. But the presence of two thousand or more shilling spectators injected some warmth of spirit into the occasion. Knots of enthusiasts roared encouragement and abuse at the contestants, occasionally inspiring or goading one to  complete a quicker circuit. Betting was heavy, chiefly on the two \x{2018}inside\x{2019} men, and Chadwick was firmly reinstated as favourite. He completed his ninetieth mile <<shortly after 7 p.m.|5>>, only twenty minutes behind his rival, Darrell. Three-quarters of an hour later O\x{2019}Flaherty and Williams followed. Chalk and Reid passed the same point <<shortly before 8.30 p.m.|2a>>, and <<seven|20a>> stragglers followed during the next two hours. Mostyn-Smith strolled serenely on, scheduled to reach this landmark at <<1 a.m.|5>> on the following morning.",
           ],
           [
             1,
@@ -211,8 +211,8 @@ Darrell moaned and lay inert.",
           ],
           [
             1,
-            '[ap > 10:00] Wobble to Death - Peter Lovesey.epub (OEBPS/chap22_wobblede_9781569477892_epub_part22.html) - after ten',
-            "\x{2018}Him, then. And this doctor bloke\x{2014}Mostyn-Smith. I can\x{2019}t make out what he\x{2019}s doing in this affair. I suppose, if you look at it logical, anyone here <<after ten|9b>>-thirty last night could have fixed Monk. Then we\x{2019}ve got to find which of  them had a motive for killing Darrell. Perhaps we ought to know more about him, Sarge.\x{2019}",
+            '[ap > 10:30] Wobble to Death - Peter Lovesey.epub (OEBPS/chap22_wobblede_9781569477892_epub_part22.html) - after ten-thirty',
+            "\x{2018}Him, then. And this doctor bloke\x{2014}Mostyn-Smith. I can\x{2019}t make out what he\x{2019}s doing in this affair. I suppose, if you look at it logical, anyone here <<after ten-thirty|9b>> last night could have fixed Monk. Then we\x{2019}ve got to find which of  them had a motive for killing Darrell. Perhaps we ought to know more about him, Sarge.\x{2019}",
           ],
           [
             1,
@@ -228,16 +228,16 @@ Darrell moaned and lay inert.",
           ],
           [
             1,
-            '[00:00] Wobble to Death - Peter Lovesey.epub (OEBPS/chap23_wobblede_9781569477892_epub_part23.html) - midnight',
+            '[< 00:00] Wobble to Death - Peter Lovesey.epub (OEBPS/chap23_wobblede_9781569477892_epub_part23.html) - before midnight',
             "\x{2018}Well, it weren\x{2019}t her husband,\x{2019} Taylor said with emphasis. Cribb pressed her.
-\x{2018}When you came back\x{2014}before <<midnight|13>>\x{2014}she was home, then?\x{2019}
+\x{2018}When you came back\x{2014}<<before midnight|13>>\x{2014}she was home, then?\x{2019}
 \x{2018}She was.\x{2019} The hint of a smile was still there.",
           ],
           [
             1,
             '[ap > 01:00] Wobble to Death - Peter Lovesey.epub (OEBPS/chap23_wobblede_9781569477892_epub_part23.html) - after one',
             "\x{2018}The early morning? What time?\x{2019}
-\x{2018}Oh, <<after one|9e>>, I\x{2019}d say. Maybe nearer two.\x{2019}
+\x{2018}Oh, <<after one|9e:1>>, I\x{2019}d say. Maybe nearer two.\x{2019}
 \x{2018}Who opened the door?\x{2019}",
           ],
           [
@@ -427,8 +427,8 @@ It was <<nearly two o\x{2019}clock|6>>, so they had the room almost to themselve
           ],
           [
             1,
-            '[00:00] Wobble to Death - Peter Lovesey.epub (OEBPS/chap31_wobblede_9781569477892_epub_part31.html) - midnight',
-            "\x{2018}Come on Thackeray,\x{2019} said Cribb. \x{2018}We\x{2019}ll get him down to the local station. He needs a rest\x{2014}even if it is in a cell. What\x{2019}s the time? Before <<midnight|13>> is it? Just made it in the six days.\x{2019}",
+            '[< 00:00] Wobble to Death - Peter Lovesey.epub (OEBPS/chap31_wobblede_9781569477892_epub_part31.html) - Before midnight',
+            "\x{2018}Come on Thackeray,\x{2019} said Cribb. \x{2018}We\x{2019}ll get him down to the local station. He needs a rest\x{2014}even if it is in a cell. What\x{2019}s the time? <<Before midnight|13>> is it? Just made it in the six days.\x{2019}",
           ],
           [
             1,

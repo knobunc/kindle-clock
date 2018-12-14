@@ -143,8 +143,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[00:00] The Dreadful Lemon Sky_ A Travis McGee Nov - John D. MacDonald.epub (OEBPS/MacD_9780307826770_epub_c08_r1.htm) - midnight',
-            "\x{201c}No! No, I was trying to remember exactly. A Tuesday night. That would make it May fourteenth. Yes. I can\x{2019}t remember the exact time, but it was before <<midnight|13>>.\x{201d}",
+            '[< 00:00] The Dreadful Lemon Sky_ A Travis McGee Nov - John D. MacDonald.epub (OEBPS/MacD_9780307826770_epub_c08_r1.htm) - before midnight',
+            "\x{201c}No! No, I was trying to remember exactly. A Tuesday night. That would make it May fourteenth. Yes. I can\x{2019}t remember the exact time, but it was <<before midnight|13>>.\x{201d}",
           ],
           [
             1,
@@ -218,8 +218,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[12:00] The Dreadful Lemon Sky_ A Travis McGee Nov - John D. MacDonald.epub (OEBPS/MacD_9780307826770_epub_c15_r1.htm) - noon',
-            "In such a situation it is difficult to believe it is completely serious. A yellow jeep is a jolly vehicle. Pastureland is not menacing. The hour before <<noon|13>> is not a likely time for dying. It was some odd game of tag, and when it ended the eventual loser would congratulate the winner. Let\x{2019}s try it again someday, pal.",
+            '[< 12:00] The Dreadful Lemon Sky_ A Travis McGee Nov - John D. MacDonald.epub (OEBPS/MacD_9780307826770_epub_c15_r1.htm) - before noon',
+            "In such a situation it is difficult to believe it is completely serious. A yellow jeep is a jolly vehicle. Pastureland is not menacing. The hour <<before noon|13>> is not a likely time for dying. It was some odd game of tag, and when it ended the eventual loser would congratulate the winner. Let\x{2019}s try it again someday, pal.",
           ],
           [
             1,
@@ -238,8 +238,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[12:00] The Dreadful Lemon Sky_ A Travis McGee Nov - John D. MacDonald.epub (OEBPS/MacD_9780307826770_epub_c17_r1.htm) - noon',
-            "Scorf got his left hand up to ward off the big slow slug. He was reaching for the belly gun with his right hand. The big slug went through the palm of his left hand and hit the shelf of brow over the left eye. The resistance of the thick ridge of bone snapped his head back and broke his neck. The white hat went sailing over the hood of the car. The relentless chunk of lead plowed through the brain tissues and took off a hunk of the back of the skull as big as an apple. It was all very immediate and messy. It splattered blood and tissue over the front half of the Cougar. I saw it all in slow motion. It was in the hard and vivid light of the hour before <<noon|13>>. It was a day of almost stagnant air. The wind had been moving steadily from north to south, bringing to Florida\x{2019}s east coast all the stained and corrosive crud of Birmingham and the rest of the industrial South. The horizons were whiskey-stained, and the sky above was a pallid saffron instead of blue. The bleared sun made harsh studio lighting on the parking lot scene. And Harry Hascomb saw Captain Scorf\x{2019}s horrid death under the dreadful lemon sky.",
+            '[< 12:00] The Dreadful Lemon Sky_ A Travis McGee Nov - John D. MacDonald.epub (OEBPS/MacD_9780307826770_epub_c17_r1.htm) - before noon',
+            "Scorf got his left hand up to ward off the big slow slug. He was reaching for the belly gun with his right hand. The big slug went through the palm of his left hand and hit the shelf of brow over the left eye. The resistance of the thick ridge of bone snapped his head back and broke his neck. The white hat went sailing over the hood of the car. The relentless chunk of lead plowed through the brain tissues and took off a hunk of the back of the skull as big as an apple. It was all very immediate and messy. It splattered blood and tissue over the front half of the Cougar. I saw it all in slow motion. It was in the hard and vivid light of the hour <<before noon|13>>. It was a day of almost stagnant air. The wind had been moving steadily from north to south, bringing to Florida\x{2019}s east coast all the stained and corrosive crud of Birmingham and the rest of the industrial South. The horizons were whiskey-stained, and the sky above was a pallid saffron instead of blue. The bleared sun made harsh studio lighting on the parking lot scene. And Harry Hascomb saw Captain Scorf\x{2019}s horrid death under the dreadful lemon sky.",
           ],
           [
             1,

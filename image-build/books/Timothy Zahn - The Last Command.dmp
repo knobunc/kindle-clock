@@ -1,18 +1,8 @@
 $VAR1 = [
           [
             1,
-            "[ap 03:02] The Last Command - Timothy Zahn.epub (index_split_005.html) - Three\x{a0}\x{2026}\x{a0}two",
-            "\x{201c}Be sure that you are,\x{201d} Thrawn said, quietly threatening. \x{201c}Unless the timing is absolutely perfect, this entire show will be worse than useless. Turbolaser battery three: stand by firing sequence one on my mark. <<Three\x{a0}\x{2026}\x{a0}two|5l:0>>\x{a0}\x{2026}\x{a0}one\x{a0}\x{2026}\x{a0}fire.\x{201d}",
-          ],
-          [
-            1,
-            "[ap 03:02] The Last Command - Timothy Zahn.epub (index_split_005.html) - Three\x{a0}\x{2026}\x{a0}two",
-            "\x{201c}Turbolaser battery two: stand by firing sequence two on my mark. <<Three\x{a0}\x{2026}\x{a0}two|5l:0>>\x{a0}\x{2026}\x{a0}one\x{a0}\x{2026}\x{a0}fire.\x{201d}",
-          ],
-          [
-            1,
-            '[> 00:00] The Last Command - Timothy Zahn.epub (index_split_012.html) - past midnight',
-            "Half an hour <<past midnight|13>>. Lost in her thoughts, Mara hadn\x{2019}t realized it had gotten that late. And all of this wasn\x{2019}t accomplishing anything, anyway. She might as well go to bed and try to put the whole thing out of her mind long enough to get some sleep. With a sigh, she pushed away from the window\x{2014}",
+            '[00:30] The Last Command - Timothy Zahn.epub (index_split_012.html) - Half an hour past midnight',
+            "<<Half an hour past midnight|10>>. Lost in her thoughts, Mara hadn\x{2019}t realized it had gotten that late. And all of this wasn\x{2019}t accomplishing anything, anyway. She might as well go to bed and try to put the whole thing out of her mind long enough to get some sleep. With a sigh, she pushed away from the window\x{2014}",
           ],
           [
             1,
@@ -33,10 +23,5 @@ $VAR1 = [
             1,
             '[09:15] The Last Command - Timothy Zahn.epub (index_split_021.html) - Nine-fifteen in the morning',
             "Winter shook her head. \x{201c}No. One of his aides was present, but only for one of these conversations. More importantly, Councilor Tevv was present for two conversations the day before yesterday that Delta Source didn\x{2019}t transmit. <<Nine-fifteen in the morning|5>> and <<two-forty-eight in the afternoon|5>>.\x{201d}",
-          ],
-          [
-            1,
-            '[ap 09:03] The Last Command - Timothy Zahn.epub (index_split_021.html) - nine-three',
-            "\x{201c}Coming in very strong, sir,\x{201d} the officer at the sensor console reported. \x{201c}Between point <<nine-three|5l:1>> and <<nine-eight|5l:1>> reflection on all bands.\x{201d}",
           ],
         ];

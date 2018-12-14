@@ -37,7 +37,7 @@ $VAR1 = [
           [
             1,
             '[12:00] Helliconia - Brian W. Aldiss.epub (dummy_split_032.html) - noon',
-            "\x{2018}You think things are going badly. I must warn you that more challenges are to come. I tell you this with the full weight of the academy behind me. Tomorrow, tomorrow at <<noon|9b>>, the third and worst of the Twenty Blindnesses is due. Nothing can stop it. Mankind has no power over the skies. What will you do then? Will you run madly through the streets, cutting throats, smashing things, firing what your betters built \x{2013} as if you were worse than phagors? Decide now how filthy, how low, you will be tomorrow!\x{2019}",
+            "\x{2018}You think things are going badly. I must warn you that more challenges are to come. I tell you this with the full weight of the academy behind me. Tomorrow, tomorrow at <<noon|13>>, the third and worst of the Twenty Blindnesses is due. Nothing can stop it. Mankind has no power over the skies. What will you do then? Will you run madly through the streets, cutting throats, smashing things, firing what your betters built \x{2013} as if you were worse than phagors? Decide now how filthy, how low, you will be tomorrow!\x{2019}",
           ],
           [
             1,
@@ -93,8 +93,8 @@ She always knew when he was at a loss. He chewed his knuckle like a child.",
           ],
           [
             1,
-            '[12:00] Helliconia - Brian W. Aldiss.epub (dummy_split_047.html) - noon',
-            "\x{2018}Good, let\x{2019}s go down, then, and never mind hanging about for Akhanaba to appear. Let\x{2019}s get some food and sleep, and we will be off promptly in the morning, before <<noon|13>>.\x{2019}",
+            '[< 12:00] Helliconia - Brian W. Aldiss.epub (dummy_split_047.html) - before noon',
+            "\x{2018}Good, let\x{2019}s go down, then, and never mind hanging about for Akhanaba to appear. Let\x{2019}s get some food and sleep, and we will be off promptly in the morning, <<before noon|13>>.\x{2019}",
           ],
           [
             1,
@@ -135,6 +135,11 @@ She always knew when he was at a loss. He chewed his knuckle like a child.",
           ],
           [
             1,
+            '[~ 16:30] Helliconia - Brian W. Aldiss.epub (dummy_split_063.html) - evensong',
+            "In the church, lights burned. A congregation cried its <<evensong|13>>. Since the church had a slightly bohemian reputation, Odim never came here. Outside its walls, tall man-high stones stood in rows, more correct than soldiers, commemorating those whose days beneath the sky were done. The furtive lovers picked their way among the memorials and hid against a shadowy sheltered wall. Besi put her arms round the captain\x{2019}s neck.",
+          ],
+          [
+            1,
             '[03:00] Helliconia - Brian W. Aldiss.epub (dummy_split_064.html) - three in the morning',
             'At the chime of <<three in the morning|5>>, Major Gardeterark stood in his leather trousers, keeping a watchful eye on his reflection in the mirror while he shaved.',
           ],
@@ -165,16 +170,6 @@ She always knew when he was at a loss. He chewed his knuckle like a child.",
           ],
           [
             1,
-            '[13:19] Helliconia - Brian W. Aldiss.epub (dummy_split_075.html) - 13.19',
-            "The height of the Wheel was a uniform 6.6 metres, or twelve times 55, the northern latitude of the Wheel itself. Counting its base, its thickness was <<13.19|5a:0>> metres, 1319 being the year of Freyr-set, or Myrkwyr, at latitude 55\x{b0}N, dating the years from the nadir year of apastron. The diameter of the Wheel was 1825 metres, the number of small years in one Great Year. And 1825 was the number of cells set in the outer circumference of the Wheel.",
-          ],
-          [
-            1,
-            '[ap 01:19] Helliconia - Brian W. Aldiss.epub (dummy_split_075.html) - 119',
-            "Then the day\x{2019}s trumpets echoed, and he scrambled up, ran to the outer wall of his cell, and grasped the nearest chain. Heaving the Wheel through the rock had become the only meaningful activity left. By <<119|9n:0>> centimetres a day, the machine progressed each of its occupants through the darkness.",
-          ],
-          [
-            1,
             '[ap 02:40] Helliconia - Brian W. Aldiss.epub (dummy_split_076.html) - 240',
             "Before the work period ceased, all of the slit was contained within his outer wall space. It was <<240|9d>> millimetres wide \x{2013} and there was now half a small year to go before Luterin had hauled his cell once more to the exit under Bambekk Monastery. Concisely engraved lettering in the granite read: YE HAVE BUT HALF A YEAR LEFT AWAY FROM THE WORLD: SEE YE BENEFIT FROM IT.",
           ],
@@ -186,7 +181,7 @@ She always knew when he was at a loss. He chewed his knuckle like a child.",
           [
             1,
             '[00:00] Helliconia - Brian W. Aldiss.epub (dummy_split_077.html) - midnight',
-            "SartoriIrvrash woke and stretched, yawning as he did so. He sat up on his bunk and scratched his white head. It was his habit to sleep for the second half of the day, waking at <<midnight|9b>>, thinking through the dark hours, when his spirit could commune with the travelling Earth, and teaching from dawn onwards. He was Trockern\x{2019}s teacher. He had named himself after a dangerous old sage who once lived on Helliconia, whose gossie he had met empathically.",
+            "SartoriIrvrash woke and stretched, yawning as he did so. He sat up on his bunk and scratched his white head. It was his habit to sleep for the second half of the day, waking at <<midnight|13>>, thinking through the dark hours, when his spirit could commune with the travelling Earth, and teaching from dawn onwards. He was Trockern\x{2019}s teacher. He had named himself after a dangerous old sage who once lived on Helliconia, whose gossie he had met empathically.",
           ],
           [
             1,

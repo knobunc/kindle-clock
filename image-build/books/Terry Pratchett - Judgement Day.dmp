@@ -6,8 +6,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[20:12] Judgement Day - Terry Pratchett.epub (OPS/xhtml/chapter_002.html) - until 2012',
-            'Assuming, of course, that the fabled Higgs (as it is colloquially called) actually existed. Which, <<until 2012|9n:0>>, was moot.',
+            '[20:12] Judgement Day - Terry Pratchett.epub (OPS/xhtml/chapter_002.html) - 2012',
+            'Assuming, of course, that the fabled Higgs (as it is colloquially called) actually existed. Which, until <<2012|9n:0>>, was moot.',
           ],
           [
             1,
@@ -36,15 +36,10 @@ $VAR1 = [
           ],
           [
             1,
-            '[20:03] Judgement Day - Terry Pratchett.epub (OPS/xhtml/chapter_010.html) - Until 2003',
+            '[20:03] Judgement Day - Terry Pratchett.epub (OPS/xhtml/chapter_010.html) - 2003',
             'From 1996 onward, physicists added bells and whistles to this theory, predicting the energy spectrum of the gamma rays. Data from CGRO fitted these predictions, and confirmed that the rays originated at very high altitudes. It all looked pretty good.
-<<Until 2003|9n:0>>.
+Until <<2003|9n:0>>.
 That year, Joseph Dwyer was in Florida, on the ground, measuring x-rays from lightning, and he observed a huge burst of gamma rays from the storm clouds overhead. The burst had exactly the same energy spectrum as those that were thought to come from much higher. Even so, no one really imagined that the rays that CGRO was detecting came from thunderclouds: they were much too energetic. The energy needed to propel the rays through an atmosphere was too large to be credible.',
-          ],
-          [
-            1,
-            '[~ 15:25] Judgement Day - Terry Pratchett.epub (OPS/xhtml/chapter_010.html) - about 15-25',
-            "In 2002 NASA had launched a satellite called RHESSI (Reuven Ramaty High Energy Solar Spectroscopic Imager) to observe gamma rays from the Sun. David Smith hired a student, Liliana Lopez, to look through the data for evidence of gamma rays from the Earth. There was a burst every few days, far more often than CGRO was detecting. This new instrument provided far better information about the energy spectrum, and it showed that these gamma rays had traversed a lot of atmosphere. In fact, they originated at altitudes of <<about 15-25|5a:0>> kilometres \x{2013} the tops of typical thunderclouds. As new evidence piled up, it became ever harder to deny that thunderstorms generate gamma rays in huge quantities. Sprites, on the other hand, do not.",
           ],
           [
             1,
@@ -53,8 +48,8 @@ That year, Joseph Dwyer was in Florida, on the ground, measuring x-rays from lig
           ],
           [
             1,
-            '[20:12] Judgement Day - Terry Pratchett.epub (OPS/xhtml/chapter_010.html) - until 2012',
-            "The proposal that was accepted <<until 2012|18:0>> was: Theia\x{2019}s composition must have been very similar to that of the former Earth\x{2019}s mantle.",
+            '[20:12] Judgement Day - Terry Pratchett.epub (OPS/xhtml/chapter_010.html) - 2012',
+            "The proposal that was accepted until <<2012|18:0>> was: Theia\x{2019}s composition must have been very similar to that of the former Earth\x{2019}s mantle.",
           ],
           [
             1,

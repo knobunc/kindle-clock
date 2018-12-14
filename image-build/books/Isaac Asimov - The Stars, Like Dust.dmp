@@ -27,16 +27,11 @@ $VAR1 = [
           [
             1,
             '[20:00] The Stars, Like Dust - Isaac Asimov.epub (OEBPS/Text/9780765319142_epub_c03_r1.htm) - twenty',
-            "It seemed a long while before a crisp announcement filled the air momentarily: \x{201c}The Jump will take place in exactly one minute.\x{201d} And then the same voice counted the seconds backwards: \x{201c}Fifty\x{2026} forty\x{2026} thirty\x{2026} <<twenty|9k:0>>\x{2026} <<ten|9k:0>>\x{2026} <<five \x{2026} three|5l:1>> \x{2026} <<two|9k:0>>\x{2026} <<one|9k:0>>\x{2026}\x{201d}",
+            "It seemed a long while before a crisp announcement filled the air momentarily: \x{201c}The Jump will take place in exactly one minute.\x{201d} And then the same voice counted the seconds backwards: \x{201c}Fifty\x{2026} forty\x{2026} thirty\x{2026} <<twenty|9k:0>>\x{2026} <<ten|9k:0>>\x{2026} five \x{2026} three \x{2026} <<two|9k:0>>\x{2026} <<one|9k:0>>\x{2026}\x{201d}",
           ],
           [
             1,
             '[ap 01:00] The Stars, Like Dust - Isaac Asimov.epub (OEBPS/Text/9780765319142_epub_c13_r1.htm) - one',
             "Gillbret made incoherent sounds in his throat, but Biron pushed him aside roughly and faced the seated Autarch. \x{201c}You made one mistake, Jonti. Just <<one|9k:0>>. You couldn\x{2019}t tell in advance that when I got out of my dormitory room back on Earth I would leave my wrist watch inside. You see, my wrist-watch strap happened to be a radiation indicator.\x{201d}",
-          ],
-          [
-            1,
-            '[ap 08:20] The Stars, Like Dust - Isaac Asimov.epub (OEBPS/Text/9780765319142_epub_c17_r1.htm) - eight twenty',
-            "Gillbret went on, \x{201c}That means that the chances of finding three stars at random without a single planet\x{2014}without one single planet\x{2014}is two thirds cubed, which is <<eight twenty|5b>>-sevenths, or less than one in three.\x{201d}",
           ],
         ];

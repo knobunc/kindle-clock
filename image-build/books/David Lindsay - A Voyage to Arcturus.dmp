@@ -35,7 +35,7 @@ $VAR1 = [
             1,
             '[< 12:00] A Voyage to Arcturus - David Lindsay.epub (OEBPS/Text/000000-1-58515-_split_008.html) - before midday',
             'She pressed his arm, while a score of unpaintable, delicate hues stained her cheeks in rapid transition. " Please don\'t say any more about it, Maskull. It makes me feel unpleasant. "
-" Very well. But can we possibly get there <<before midday|9b>>? "
+" Very well. But can we possibly get there <<before midday|13>>? "
 " Oh, yes. And you mustn\'t be frightened at the distance. We think nothing of long distances here - we have so much to think about and feel. Time goes all too quickly. "',
           ],
           [
@@ -60,7 +60,7 @@ $VAR1 = [
           ],
           [
             1,
-            '[12:00] A Voyage to Arcturus - David Lindsay.epub (OEBPS/Text/000000-1-58515-_split_022.html) - noon',
-            '" Come, get on, get on! " said Krag, laughing uncouthly. " The morning\'s wearing away, and you have to die before <<noon|13>>. We are going to the Ocean. "',
+            '[< 12:00] A Voyage to Arcturus - David Lindsay.epub (OEBPS/Text/000000-1-58515-_split_022.html) - before noon',
+            '" Come, get on, get on! " said Krag, laughing uncouthly. " The morning\'s wearing away, and you have to die <<before noon|13>>. We are going to the Ocean. "',
           ],
         ];

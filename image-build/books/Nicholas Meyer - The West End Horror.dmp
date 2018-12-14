@@ -63,8 +63,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[12:00] The West End Horror_ A Posthumous Memoir o - Nicholas Meyer.epub (OEBPS/ch8.xhtml) - noon',
-            "\x{201c}Good morning!\x{201d} she called cheerily, noticing us. \x{2018}Tickets do not go on sale before <<noon|13>>, you know\x{2014}though you are quite right to be here early; they\x{2019}ve been going like hot cakes all week!\x{201d}",
+            '[< 12:00] The West End Horror_ A Posthumous Memoir o - Nicholas Meyer.epub (OEBPS/ch8.xhtml) - before noon',
+            "\x{201c}Good morning!\x{201d} she called cheerily, noticing us. \x{2018}Tickets do not go on sale <<before noon|13>>, you know\x{2014}though you are quite right to be here early; they\x{2019}ve been going like hot cakes all week!\x{201d}",
           ],
           [
             1,

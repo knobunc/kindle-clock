@@ -84,11 +84,6 @@ func main() {
           ],
           [
             1,
-            '[ap 00:59] Mastering Concurrency in Go - Nathan Kozyra.epub (text/part0043_split_002.html) - one-to-one',
-            'Also remember that you\'ll frequently have to handle type conversions between C and Go that don\'t have <<one-to-one|10a:0>> analogs. For example, C does not have a built-in string type (you can, of course, include additional libraries for types), so you may need to convert between strings and char arrays. Similarly, int and int64 might need some nonimplicit conversion, and again, you may not get the debugging feedback that you might expect when compiling these.',
-          ],
-          [
-            1,
             '[ap ~ 08:00] Mastering Concurrency in Go - Nathan Kozyra.epub (text/part0055_split_001.html) - around 800',
             'Ouch! Not even close. There are things we can do to tune the connections available (and respective threads/workers) within Apache, but this is not really our goal. Mostly, we want to know what happens with an out-of-the-box Apache server. In these benchmarks, we start to drop or refuse connections at <<around 800|3:0>> concurrent connections.',
           ],

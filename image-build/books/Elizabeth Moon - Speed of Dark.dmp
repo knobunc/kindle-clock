@@ -140,9 +140,9 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 09:00] Speed of Dark - Elizabeth Moon.epub (index_split_013.html) - Until nine',
+            '[ap 09:00] Speed of Dark - Elizabeth Moon.epub (index_split_013.html) - nine',
             "\x{201c}Come back later,\x{201d} I say. \x{201c}How late are you open?\x{201d}
-\x{201c}<<Until nine|9:0>>. Or you could come tomorrow.\x{201d}
+\x{201c}Until <<nine|9:0>>. Or you could come tomorrow.\x{201d}
 \x{201c}I will come before <<nine|9c:0>>,\x{201d} I say. She runs my bankcard through the machine and marks the order slip \x{201c}Paid in Advance.\x{201d}",
           ],
           [
@@ -179,8 +179,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[00:00] Speed of Dark - Elizabeth Moon.epub (index_split_016.html) - midnight',
-            'When I start the first chapter, it makes sense, though some of it is different than I remember. I expect that. It does not bother me. I finish the book before <<midnight|13>>.',
+            '[< 00:00] Speed of Dark - Elizabeth Moon.epub (index_split_016.html) - before midnight',
+            'When I start the first chapter, it makes sense, though some of it is different than I remember. I expect that. It does not bother me. I finish the book <<before midnight|13>>.',
           ],
           [
             1,
@@ -263,10 +263,5 @@ $VAR1 = [
             1,
             '[ap 09:29] Speed of Dark - Elizabeth Moon.epub (index_split_025.html) - NINE TWENTY-NINE',
             'MONDAY. <<NINE TWENTY-NINE|9j>>. I AM IN THE CLINICAL RESEARCH , facility on the far side of the campus from Section A. I am sitting in a row of chairs between Dale and Bailey.',
-          ],
-          [
-            1,
-            '[ap 01:02] Speed of Dark - Elizabeth Moon.epub (index_split_026.html) - one two',
-            "People more than one. People is names. Use names is good for you, happy voice, shiny pretty, even sweet. One is Jim, good morning time to get up and get dressed. Jim is dark face, shiny on top head, warm hands, loud talking. More than <<one two|5l:0>> is Sally, now here\x{2019}s breakfast you can do it isn\x{2019}t it good? Sally is pale face, white hair on top head, not loud talking. Amber is pale face, dark hair on top head, not loud as Jim louder than Sally.",
           ],
         ];

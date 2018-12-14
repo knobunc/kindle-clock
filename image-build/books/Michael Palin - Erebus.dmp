@@ -1,8 +1,8 @@
 $VAR1 = [
           [
             1,
-            '[18:48] Erebus_ One Ship, Two Epic Voyages, and th - Michael Palin.epub (OEBPS/Pali_9780735274280_epub3_app_r1.xhtml) - until 1848',
-            "Erebus \x{2018}beset\x{2019} in the ice off King William Island (12 September). The crew remain with the ship <<until 1848|18:0>>",
+            '[18:48] Erebus_ One Ship, Two Epic Voyages, and th - Michael Palin.epub (OEBPS/Pali_9780735274280_epub3_app_r1.xhtml) - 1848',
+            "Erebus \x{2018}beset\x{2019} in the ice off King William Island (12 September). The crew remain with the ship until <<1848|18:0>>",
           ],
           [
             1,
@@ -22,7 +22,7 @@ $VAR1 = [
           [
             1,
             '[12:00] Erebus_ One Ship, Two Epic Voyages, and th - Michael Palin.epub (OEBPS/Pali_9780735274280_epub3_c04_r1.xhtml) - midday',
-            "Life on board ship settled into a time-honoured pattern. The day was divided into four-hour watches marked by the ringing of the ship\x{2019}s bell. Eight bells would be rung at <<midday|13>>, followed by one bell at half-past, two bells at <<one o\x{2019}clock|6>>, three bells at <<half-past one|10>>, and so on, <<until eight|9:1>> bells were reached again at <<four o\x{2019}clock|6>>, when the whole process would begin again. The crew would work four hours on and four hours off, through day and night. The boatswain would stand at the hatches, calling \x{2018}All Hands!\x{2019} as the watches changed, and the men would muster on deck before going off to their various stations.",
+            "Life on board ship settled into a time-honoured pattern. The day was divided into four-hour watches marked by the ringing of the ship\x{2019}s bell. Eight bells would be rung at <<midday|13>>, followed by one bell at half-past, two bells at <<one o\x{2019}clock|6>>, three bells at <<half-past one|10>>, and so on, until <<eight|9:1>> bells were reached again at <<four o\x{2019}clock|6>>, when the whole process would begin again. The crew would work four hours on and four hours off, through day and night. The boatswain would stand at the hatches, calling \x{2018}All Hands!\x{2019} as the watches changed, and the men would muster on deck before going off to their various stations.",
           ],
           [
             1,
@@ -106,8 +106,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[00:00] Erebus_ One Ship, Two Epic Voyages, and th - Michael Palin.epub (OEBPS/Pali_9780735274280_epub3_c06_r1.xhtml) - midnight',
-            "The realisation must have come as a relief to Ross, but it must also have been the cause for some quiet self-satisfaction. When he came to write about it, he generously surmised that Lieutenant Wilkes must have \x{2018}mistaken for land some of the dense well-defined clouds which so continually hang over extensive packs of ice \x{2013} a mistake which we had ourselves, on many occasions, to guard against\x{2019}. But even the phlegmatic Ross must surely have had the hint of a smile as he wrote about their next move: \x{2018}Before <<midnight|13>> [we] gained the position of the eastern point of the supposed land, and shaped our course\x{2026}under moderate sail, along the mountain range.\x{2019}",
+            '[< 00:00] Erebus_ One Ship, Two Epic Voyages, and th - Michael Palin.epub (OEBPS/Pali_9780735274280_epub3_c06_r1.xhtml) - Before midnight',
+            "The realisation must have come as a relief to Ross, but it must also have been the cause for some quiet self-satisfaction. When he came to write about it, he generously surmised that Lieutenant Wilkes must have \x{2018}mistaken for land some of the dense well-defined clouds which so continually hang over extensive packs of ice \x{2013} a mistake which we had ourselves, on many occasions, to guard against\x{2019}. But even the phlegmatic Ross must surely have had the hint of a smile as he wrote about their next move: \x{2018}<<Before midnight|13>> [we] gained the position of the eastern point of the supposed land, and shaped our course\x{2026}under moderate sail, along the mountain range.\x{2019}",
           ],
           [
             1,

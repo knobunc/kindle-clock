@@ -46,8 +46,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[00:00] The Enemy Papers - Barry B. Longyear.epub (OEBPS/Text/TheLastEnemy_10.xhtml) - midnight',
-            'We reach the end of the hall and I follow the Jetah into a car where we continue to stand as the doors close and the vehicle accelerates and shoots deep beneath the street level of the city. Jetah Ru looks at me and demands, "Where have you been? The locator has been out since before <<midnight|13>>."',
+            '[< 00:00] The Enemy Papers - Barry B. Longyear.epub (OEBPS/Text/TheLastEnemy_10.xhtml) - before midnight',
+            'We reach the end of the hall and I follow the Jetah into a car where we continue to stand as the doors close and the vehicle accelerates and shoots deep beneath the street level of the city. Jetah Ru looks at me and demands, "Where have you been? The locator has been out since <<before midnight|13>>."',
           ],
           [
             1,
@@ -57,12 +57,7 @@ $VAR1 = [
           [
             1,
             '[ap > 01:00] The Enemy Papers - Barry B. Longyear.epub (OEBPS/Text/TheLastEnemy_22.xhtml) - after one',
-            'Once in the slot, as our pilot put it, the jump behind us, the pods are locked and the cooling fields engaged. The fluid entering my body through the needle in my leg is supposed to protect me from the cold, but I begin feeling the cold and, <<after one|9e>> last look at Falna, I remember just in time to close my eyes.',
-          ],
-          [
-            1,
-            '[ap 02:59] The Enemy Papers - Barry B. Longyear.epub (OEBPS/Text/TheLastEnemy_23.xhtml) - one to three',
-            'Timans live in nests of genetically related groups of thirty to forty containing <<one to three|10a:0>> females whose only functions, and abilities it appears, are to eat and make little Timans. The organization of the home nest has been carried into all social institutions. Timan males are obsessed with puzzles, which is reflected in their games, their art, their music, and their behavior in business, government, and diplomacy.',
+            'Once in the slot, as our pilot put it, the jump behind us, the pods are locked and the cooling fields engaged. The fluid entering my body through the needle in my leg is supposed to protect me from the cold, but I begin feeling the cold and, <<after one|9e:0>> last look at Falna, I remember just in time to close my eyes.',
           ],
           [
             1,

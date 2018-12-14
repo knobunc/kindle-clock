@@ -47,17 +47,7 @@ $VAR1 = [
           [
             1,
             '[ap 02:00] 2001_ A Space Odyssey - Arthur C. Clarke.epub (Arthur_C_Clarke_split_026.html) - two',
-            "\x{201c}Mission Control, this is X-ray-Delta-One. At <<two|9m>>-zero-four-five, on-board fault prediction center in our niner-triple-zero computer showed Alpha Echo <<three five|5l:1>> unit as probable failure within seventy-two hours. Request check your telemetry monitoring and suggest you review unit in your ship systems simulator. Also, confirm your approval our plan to go EVA and replace Alpha Echo <<three five|5l:1>> unit prior to failure. Mission Control, this is X-ray-Delta-One, two-one-zero-three transmission concluded.\x{201d}",
-          ],
-          [
-            1,
-            '[ap 03:05] 2001_ A Space Odyssey - Arthur C. Clarke.epub (Arthur_C_Clarke_split_026.html) - three-five',
-            "\x{201c}Roger your plan to go EVA and replace Alpha-Echo <<three-five|5l:0>> unit prior to possible failure. We are working on test procedures for you to apply to faulty unit.\x{201d}",
-          ],
-          [
-            1,
-            '[ap 03:05] 2001_ A Space Odyssey - Arthur C. Clarke.epub (Arthur_C_Clarke_split_028.html) - three five',
-            "\x{201c}Your report that there is nothing wrong with the Alpha Echo <<three five|5l:0>> unit agrees with our diagnosis. The fault could lie in the associated antenna circuits, but if so that should be apparent from other tests.",
+            "\x{201c}Mission Control, this is X-ray-Delta-One. At <<two|9m>>-zero-four-five, on-board fault prediction center in our niner-triple-zero computer showed Alpha Echo three five unit as probable failure within seventy-two hours. Request check your telemetry monitoring and suggest you review unit in your ship systems simulator. Also, confirm your approval our plan to go EVA and replace Alpha Echo three five unit prior to failure. Mission Control, this is X-ray-Delta-One, two-one-zero-three transmission concluded.\x{201d}",
           ],
           [
             1,

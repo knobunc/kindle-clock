@@ -17,17 +17,17 @@ $VAR1 = [
           [
             1,
             '[~ 18:00] The Leper of Saint Giles - Ellis Peters.epub (OEBPS/Text/008.html) - Compline',
-            "\x{201c}I cry your pardon,\x{201d} said Cadfael placidly. \x{201c}I did not know I had patients waiting. Brother Infirmarer will have recommended you to me, I take it. He knew I should be working here until <<Compline|9b>>.\x{201d}",
+            "\x{201c}I cry your pardon,\x{201d} said Cadfael placidly. \x{201c}I did not know I had patients waiting. Brother Infirmarer will have recommended you to me, I take it. He knew I should be working here until <<Compline|13>>.\x{201d}",
           ],
           [
             1,
-            '[~ 18:00] The Leper of Saint Giles - Ellis Peters.epub (OEBPS/Text/008.html) - Compline',
-            "\x{201c}I had seen you both before,\x{201d} Cadfael corrected him. He began to measure his various pectoral herbs into a mortar, and took a small bellows to rouse the brazier from its quiescent state. \x{201c}I have a linctus to make before <<Compline|13>>. You\x{2019}ll not mind if I start work.\x{201d}",
+            '[< 18:00] The Leper of Saint Giles - Ellis Peters.epub (OEBPS/Text/008.html) - before Compline',
+            "\x{201c}I had seen you both before,\x{201d} Cadfael corrected him. He began to measure his various pectoral herbs into a mortar, and took a small bellows to rouse the brazier from its quiescent state. \x{201c}I have a linctus to make <<before Compline|13>>. You\x{2019}ll not mind if I start work.\x{201d}",
           ],
           [
             1,
-            '[~ 18:00] The Leper of Saint Giles - Ellis Peters.epub (OEBPS/Text/008.html) - Compline',
-            "\x{201c}What was the name of her father?\x{201d} he asked, stirring his thickening brew. Before <<Compline|13>> he would be able to set it aside to cool gradually.",
+            '[< 18:00] The Leper of Saint Giles - Ellis Peters.epub (OEBPS/Text/008.html) - Before Compline',
+            "\x{201c}What was the name of her father?\x{201d} he asked, stirring his thickening brew. <<Before Compline|13>> he would be able to set it aside to cool gradually.",
           ],
           [
             1,
@@ -81,13 +81,18 @@ $VAR1 = [
           ],
           [
             1,
+            '[ap 10:00] The Leper of Saint Giles - Ellis Peters.epub (OEBPS/Text/011.html) - ten',
+            "At the hour of <<ten|20>>, on other days earmarked for High Mass, her attendants formed at her back, and she was led forth into the main porch of the guest-hall on Picard\x{2019}s arm, ready to go forth to meet her bridegroom when he came.",
+          ],
+          [
+            1,
             '[> 07:30] The Leper of Saint Giles - Ellis Peters.epub (OEBPS/Text/011.html) - past Prime',
             "\x{201c}Last night, when we left here to return home\x{2014}I do his bidding, I do not question, how could I? He said to me that he had a fancy to ride a while, and I should go in, and bid the household go to bed, for he wanted no service that night, nor until he should say the word this morning. And so I did! What else? I thought he would be there asleep this morn, when his chamberlain looked in on him. I slept late myself. They shook me awake a good half-hour <<past Prime|16>>, and said he was not in his bed\x{2014}nor had been, all night long, for the bed was not pressed.\x{201d} The young man\x{2019}s voice had risen, all those crowding in could hear. They were silent enough, all intent on that knot of consternation in the midst.",
           ],
           [
             1,
-            '[~ 16:30] The Leper of Saint Giles - Ellis Peters.epub (OEBPS/Text/011.html) - Vespers',
-            "\x{201c}She should be left alone in quietness,\x{201d} he advised when he took his leave, minded to procure for her, if he could, the solitude she needed, deliverance from the company of people whose very presence was oppression. \x{201c}She will sleep. Such seizures are as exhausting as great exertion. If Father Abbot permits, I will look in on her before <<Vespers|13>>, and bring her a syrup that will ensure her a peaceful night.\x{201d}",
+            '[< 16:30] The Leper of Saint Giles - Ellis Peters.epub (OEBPS/Text/011.html) - before Vespers',
+            "\x{201c}She should be left alone in quietness,\x{201d} he advised when he took his leave, minded to procure for her, if he could, the solitude she needed, deliverance from the company of people whose very presence was oppression. \x{201c}She will sleep. Such seizures are as exhausting as great exertion. If Father Abbot permits, I will look in on her <<before Vespers|13>>, and bring her a syrup that will ensure her a peaceful night.\x{201d}",
           ],
           [
             1,
@@ -96,8 +101,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[~ 16:30] The Leper of Saint Giles - Ellis Peters.epub (OEBPS/Text/012.html) - Vespers',
-            "He asked no permission, preferring to consider that the morning\x{2019}s leave to join in the search might reasonably be extended to cover a further stage in the same quest. There was still time before <<Vespers|13>> if he hurried, and the place was marked with their improvised cross.",
+            '[< 16:30] The Leper of Saint Giles - Ellis Peters.epub (OEBPS/Text/012.html) - before Vespers',
+            "He asked no permission, preferring to consider that the morning\x{2019}s leave to join in the search might reasonably be extended to cover a further stage in the same quest. There was still time <<before Vespers|13>> if he hurried, and the place was marked with their improvised cross.",
           ],
           [
             1,
@@ -111,8 +116,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[12:00] The Leper of Saint Giles - Ellis Peters.epub (OEBPS/Text/012.html) - noon',
-            "He knew, of course, that the sheriffs men were beating the wood and gardens between Saint Giles and the town, and before <<noon|13>> the news of Huon de Domville\x{2019}s death had reached him. The isolation of the outcasts here never kept out the news. Whatever happened in town or abbey was known at once in the hospice, down to the very manner of the baron\x{2019}s death, and the outcry raised against the escaped squire as his murderer. But Brother Mark had work to do, and had not thought much about the rumors. There were all his morning medical duties first, and not until the last dressing was renewed and the last sore anointed did he give much consideration to the discrepancy that was troubling him. Even then there were other matters to be attended to, recording gifts made to the hospital, arranging for a party of the able-bodied to go gleaning for the winter wood-pile in the manor of Sutton, a right granted them by the late lord and continued by his son, helping to prepare the <<midday|13>> meal, checking the superior\x{2019}s accounts, and a dozen other things. Only in the afternoon was he at leisure to pursue some of the duties he had appropriated to himself of his own will, such as reading the office privately to one old man who was too ill to leave his bed, and giving a lesson to the boy Bran. Very easy lessons they usually turned out to be, more than half play, but for all that, the child was thirsty for letters, and drew in learning like mother\x{2019}s milk, as naturally as breathing.",
+            '[< 12:00] The Leper of Saint Giles - Ellis Peters.epub (OEBPS/Text/012.html) - before noon',
+            "He knew, of course, that the sheriffs men were beating the wood and gardens between Saint Giles and the town, and <<before noon|13>> the news of Huon de Domville\x{2019}s death had reached him. The isolation of the outcasts here never kept out the news. Whatever happened in town or abbey was known at once in the hospice, down to the very manner of the baron\x{2019}s death, and the outcry raised against the escaped squire as his murderer. But Brother Mark had work to do, and had not thought much about the rumors. There were all his morning medical duties first, and not until the last dressing was renewed and the last sore anointed did he give much consideration to the discrepancy that was troubling him. Even then there were other matters to be attended to, recording gifts made to the hospital, arranging for a party of the able-bodied to go gleaning for the winter wood-pile in the manor of Sutton, a right granted them by the late lord and continued by his son, helping to prepare the <<midday|13>> meal, checking the superior\x{2019}s accounts, and a dozen other things. Only in the afternoon was he at leisure to pursue some of the duties he had appropriated to himself of his own will, such as reading the office privately to one old man who was too ill to leave his bed, and giving a lesson to the boy Bran. Very easy lessons they usually turned out to be, more than half play, but for all that, the child was thirsty for letters, and drew in learning like mother\x{2019}s milk, as naturally as breathing.",
           ],
           [
             1,
@@ -166,8 +171,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[~ 16:30] The Leper of Saint Giles - Ellis Peters.epub (OEBPS/Text/015.html) - Vespers',
-            "\x{201c}The looks he gave me when he turned me out of Iveta\x{2019}s room,\x{201d} admitted Simon ruefully, \x{201c}you could be right! I\x{2019}ll keep an eye on him, and be faster in the draw than he. We\x{2019}re to make our own way back as we please, when the light goes. I\x{2019}ll ensure I\x{2019}m far enough ahead of him to keep clear of his blade. In any case,\x{201d} he said, with a swift private smile, \x{201c}I have something important to see to before <<Vespers|13>>. I\x{2019}ll make certain he\x{2019}s not there to put a bolt through that.\x{201d} He sat back from the table, satisfied. \x{201c}Where are you drawn, this time?\x{201d}",
+            '[< 16:30] The Leper of Saint Giles - Ellis Peters.epub (OEBPS/Text/015.html) - before Vespers',
+            "\x{201c}The looks he gave me when he turned me out of Iveta\x{2019}s room,\x{201d} admitted Simon ruefully, \x{201c}you could be right! I\x{2019}ll keep an eye on him, and be faster in the draw than he. We\x{2019}re to make our own way back as we please, when the light goes. I\x{2019}ll ensure I\x{2019}m far enough ahead of him to keep clear of his blade. In any case,\x{201d} he said, with a swift private smile, \x{201c}I have something important to see to <<before Vespers|13>>. I\x{2019}ll make certain he\x{2019}s not there to put a bolt through that.\x{201d} He sat back from the table, satisfied. \x{201c}Where are you drawn, this time?\x{201d}",
           ],
           [
             1,
@@ -211,8 +216,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[~ 18:00] The Leper of Saint Giles - Ellis Peters.epub (OEBPS/Text/017.html) - Compline',
-            "The sheriff and his party brought back Godfrid Picard\x{2019}s body to the abbey before <<Compline|13>>. In the mortuary chapel they laid him straight, and brought candles to examine his injuries. His unblooded dagger, found some yards aside in the grass, where Cadfael had discovered and left it, they slid back into its sheath as they unbuckled his sword-belt, but it cannot be said that much thought had been given to the curious circumstance of its lying thus naked and discarded in the glade.",
+            '[< 18:00] The Leper of Saint Giles - Ellis Peters.epub (OEBPS/Text/017.html) - before Compline',
+            "The sheriff and his party brought back Godfrid Picard\x{2019}s body to the abbey <<before Compline|13>>. In the mortuary chapel they laid him straight, and brought candles to examine his injuries. His unblooded dagger, found some yards aside in the grass, where Cadfael had discovered and left it, they slid back into its sheath as they unbuckled his sword-belt, but it cannot be said that much thought had been given to the curious circumstance of its lying thus naked and discarded in the glade.",
           ],
           [
             1,

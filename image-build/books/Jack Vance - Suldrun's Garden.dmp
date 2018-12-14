@@ -57,12 +57,12 @@ $VAR1 = [
           [
             1,
             '[12:00] Suldrun\'s Garden - Jack Vance.epub (OEBPS/page-1.html) - noon',
-            "King Casmir brought the full impact of his round-eyed blue gaze to bear on Suldrun. \x{201c}This is niminy-piminy petulance; I will not hear of it. Carfilhiot is a noble and handsome man! Your qualms are over-nice. Tomorrow at <<noon|9b>> you will pledge troth with Carfilhiot. In three months you shall marry. There is no more to be said.\x{201d}",
+            "King Casmir brought the full impact of his round-eyed blue gaze to bear on Suldrun. \x{201c}This is niminy-piminy petulance; I will not hear of it. Carfilhiot is a noble and handsome man! Your qualms are over-nice. Tomorrow at <<noon|13>> you will pledge troth with Carfilhiot. In three months you shall marry. There is no more to be said.\x{201d}",
           ],
           [
             1,
             '[< 12:00] Suldrun\'s Garden - Jack Vance.epub (OEBPS/page-1.html) - toward noon',
-            'As the sun rose <<toward noon|9b>>, dignitaries began to appear, wearing ceremonial robes and ancient emblems.',
+            'As the sun rose <<toward noon|13>>, dignitaries began to appear, wearing ceremonial robes and ancient emblems.',
           ],
           [
             1,
@@ -146,8 +146,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[00:00] Suldrun\'s Garden - Jack Vance.epub (OEBPS/page-1.html) - midnight',
-            'Finally, an hour before <<midnight|13>>, all stretched out and slept: all except Nerulf, who sat another two hours scowling into the dying embers.',
+            '[< 23:00] Suldrun\'s Garden - Jack Vance.epub (OEBPS/page-1.html) - an hour before midnight',
+            'Finally, <<an hour before midnight|10>>, all stretched out and slept: all except Nerulf, who sat another two hours scowling into the dying embers.',
           ],
           [
             1,
@@ -248,8 +248,8 @@ Cargus stood only an inch taller than Yane but where Yane was built half-askew f
           ],
           [
             1,
-            '[> 12:00] Suldrun\'s Garden - Jack Vance.epub (OEBPS/page-1.html) - after noon',
-            'The wagon rolled south, and an hour <<after noon|13>> arrived at the market-town Honriot, where Carfilhiot bought bread, cheese, apples and a jug of wine.',
+            '[> 13:00] Suldrun\'s Garden - Jack Vance.epub (OEBPS/page-1.html) - an hour after noon',
+            'The wagon rolled south, and <<an hour after noon|10>> arrived at the market-town Honriot, where Carfilhiot bought bread, cheese, apples and a jug of wine.',
           ],
           [
             1,
@@ -263,8 +263,8 @@ Cargus stood only an inch taller than Yane but where Yane was built half-askew f
           ],
           [
             1,
-            '[00:00] Suldrun\'s Garden - Jack Vance.epub (OEBPS/page-1.html) - midnight',
-            'Without noteworthy incident the Sweet Lupus made a brisk crossing of the Lir and put into Shircliff, halfway along the Troice coast, two hours before <<midnight|13>>, with lights still showing in the dockside taverns.',
+            '[< 22:00] Suldrun\'s Garden - Jack Vance.epub (OEBPS/page-1.html) - two hours before midnight',
+            'Without noteworthy incident the Sweet Lupus made a brisk crossing of the Lir and put into Shircliff, halfway along the Troice coast, <<two hours before midnight|10>>, with lights still showing in the dockside taverns.',
           ],
           [
             1,
@@ -273,8 +273,8 @@ Cargus stood only an inch taller than Yane but where Yane was built half-askew f
           ],
           [
             1,
-            '[12:00] Suldrun\'s Garden - Jack Vance.epub (OEBPS/page-1.html) - noon',
-            "Shimrod paid over his price and the ostler retired. Aillas told his fellows, \x{201c}At this moment I am King of Troicinet. If we arrive at Domreis before <<noon|13>> I will be king tomorrow.\x{201d}",
+            '[< 12:00] Suldrun\'s Garden - Jack Vance.epub (OEBPS/page-1.html) - before noon',
+            "Shimrod paid over his price and the ostler retired. Aillas told his fellows, \x{201c}At this moment I am King of Troicinet. If we arrive at Domreis <<before noon|13>> I will be king tomorrow.\x{201d}",
           ],
           [
             1,

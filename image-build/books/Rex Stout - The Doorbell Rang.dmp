@@ -1,7 +1,7 @@
 $VAR1 = [
           [
             1,
-            '[00:00] The Doorbell Rang - Rex Stout.epub (OEBPS/Stou_9780307755896_epub_adc_r1.htm) - Midnight',
+            '[< 00:00] The Doorbell Rang - Rex Stout.epub (OEBPS/Stou_9780307755896_epub_adc_r1.htm) - Before Midnight',
             "Fer-de-Lance
 The League of Frightened Men
 The Rubber Band
@@ -26,7 +26,7 @@ Triple Jeopardy
 The Golden Spiders
 The Black Mountain
 Three Men Out
-Before <<Midnight|13>>
+<<Before Midnight|13>>
 Might As Well Be Dead
 Three Witnesses
 If Death Ever Slept
@@ -199,13 +199,6 @@ Death Times Three",
           ],
           [
             1,
-            '[ap 00:50] The Doorbell Rang - Rex Stout.epub (OEBPS/Stou_9780307755896_epub_c07_r1.htm) - Ten to one',
-            "\x{201c}That\x{2019}s better. Just so, our best efforts. The strongest obligation possible for a man with self-esteem, and we both have our full share of that. One point is vital. No matter which alternative circumstances compel us to accept, Mr. Wragg must believe, or at least suspect, that one of his men killed Morris Althaus. I can contrive no maneuver by us that would contribute to that; I was trying to when you returned. Can you?\x{201d}
-\x{201c}No. He either believes it or he doesn\x{2019}t. <<Ten to one|10a:0>> he does.\x{201d}
-\x{201c}At least we have the odds. Now. I need suggestions regarding the arrangement I intend to make with Mr. Hewitt tomorrow. It will take time, and I\x{2019}m dry. Fritz?\x{201d}",
-          ],
-          [
-            1,
             '[>> 00:00] The Doorbell Rang - Rex Stout.epub (OEBPS/Stou_9780307755896_epub_c07_r1.htm) - well after midnight',
             'It was <<well after midnight|13>> when he went to the elevator and I went to get the sheets and blankets and pillow for my second night on the couch.',
           ],
@@ -241,8 +234,8 @@ Death Times Three",
           ],
           [
             1,
-            '[ap < 06:00] The Doorbell Rang - Rex Stout.epub (OEBPS/Stou_9780307755896_epub_c08_r1.htm) - before six',
-            "\x{201c}Yes and no,\x{201d} I said, \x{201c}but more yes than no. I\x{2019}m at Rusterman\x{2019}s. Mrs. Bruner and I had lunch here. If you get here <<before six|9b>>-thirty I can report before dinner. We might as well eat here because someone is coming at <<nine o\x{2019}clock|6>> to discuss things.\x{201d}",
+            '[ap < 06:30] The Doorbell Rang - Rex Stout.epub (OEBPS/Stou_9780307755896_epub_c08_r1.htm) - before six-thirty',
+            "\x{201c}Yes and no,\x{201d} I said, \x{201c}but more yes than no. I\x{2019}m at Rusterman\x{2019}s. Mrs. Bruner and I had lunch here. If you get here <<before six-thirty|9b>> I can report before dinner. We might as well eat here because someone is coming at <<nine o\x{2019}clock|6>> to discuss things.\x{201d}",
           ],
           [
             1,

@@ -66,8 +66,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[> 12:00] A Fable - William Faulkner.epub (OEBPS/Faul_9780307792136_epub_c03_r1.htm) - after noon',
-            "It was an hour <<after noon|13>> before he finally found a face: that of a corporal standing before a cafe in a village street\x{2014}a face which had been in the anteroom of the old battalion when he was an officer in it: and slowed the machine in and stopped, still straddling it; it was the first time.",
+            '[> 13:00] A Fable - William Faulkner.epub (OEBPS/Faul_9780307792136_epub_c03_r1.htm) - an hour after noon',
+            "It was <<an hour after noon|10>> before he finally found a face: that of a corporal standing before a cafe in a village street\x{2014}a face which had been in the anteroom of the old battalion when he was an officer in it: and slowed the machine in and stopped, still straddling it; it was the first time.",
           ],
           [
             1,
@@ -86,8 +86,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[> 00:00] A Fable - William Faulkner.epub (OEBPS/Faul_9780307792136_epub_c03_r1.htm) - after midnight',
-            "Three hours <<after midnight|13>> he was sitting on the firestep where the sentry leaned at the aperture while the spaced starshells sniffed and plopped and whispered down the greasy dark and the remote gun winked and thudded and after a while winked and thudded again. He was talking in a voice which, whatever else it contained, it was not exhaustion\x{2014}a voice dreamy and glib, apparently not only inattentive to itself but seemingly incapable of compelling attention anywhere. Yet each time he spoke, the sentry without even removing his face from the aperture would give a start, a motion convulsive and intolerable, like someone goaded almost beyond endurance.",
+            '[> 03:00] A Fable - William Faulkner.epub (OEBPS/Faul_9780307792136_epub_c03_r1.htm) - Three hours after midnight',
+            "<<Three hours after midnight|10>> he was sitting on the firestep where the sentry leaned at the aperture while the spaced starshells sniffed and plopped and whispered down the greasy dark and the remote gun winked and thudded and after a while winked and thudded again. He was talking in a voice which, whatever else it contained, it was not exhaustion\x{2014}a voice dreamy and glib, apparently not only inattentive to itself but seemingly incapable of compelling attention anywhere. Yet each time he spoke, the sentry without even removing his face from the aperture would give a start, a motion convulsive and intolerable, like someone goaded almost beyond endurance.",
           ],
           [
             1,
@@ -123,18 +123,6 @@ $VAR1 = [
             1,
             '[ap 02:08] A Fable - William Faulkner.epub (OEBPS/Faul_9780307792136_epub_c03_r1.htm) - Two-eight',
             "\x{2018}As you were,\x{2019} the officer said, jerking the blood from his mouth, onto his wrist and flinging it away. \x{2018}Hold him.\x{2019} He spoke without turning his head, toward the corner of the down traverse, raising his voice a little: \x{2018}<<Two-eight|9j>>. Pass the word for corporal.\x{2019}",
-          ],
-          [
-            1,
-            '[ap 02:07] A Fable - William Faulkner.epub (OEBPS/Faul_9780307792136_epub_c03_r1.htm) - Two-seven',
-            "\x{2018}<<Two-seven|5l:0>> .\x{2026} for corporal,\x{2019} a voice beyond the down traverse said; then fainter, beyond that, another:",
-          ],
-          [
-            1,
-            '[ap 02:07] A Fable - William Faulkner.epub (OEBPS/Faul_9780307792136_epub_c03_r1.htm) - Two-seven',
-            "\x{2018}<<Two-seven|5l:0>> .\x{2026} for corporal,\x{2019} a voice beyond the down traverse said; then fainter, beyond that, another:
-\x{2018}<<Two-six|5l:0>>\x{a0}\x{2026}.\x{a0}corporal.\x{2019}
-\x{2018}Use yer boot,\x{2019} the sergeant muttered. \x{2018}Kick his .\x{2026} ing teeth in.\x{2019}",
           ],
           [
             1,
@@ -213,11 +201,6 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 01:09] A Fable - William Faulkner.epub (OEBPS/Faul_9780307792136_epub_c06_r1.htm) - One Nine',
-            'The runner took the money, the francs. He spent them, this time, seeing for the first time, thinking, how finance was like poetry, demanding, requiring a giver and a taker too in order to endure; singer and listener, banker and borrower, buyer and seller, both ethical, unimpugnable, immaculate in devotion and faith; thinking I was the one who failed; I was the debaser, the betrayer, spending the money this time, usually at one blow, in modest orgies of food and drink for whoever would share it with him, fulfilling his sixpence-by-sixpence contract, then borrowing the ten shillings again, with the single-mindedness of a Roman Catholic at his devotions or expiating a penance: through that fall, that winter; it would be spring soon and now his leave would be coming up again and he thought, quietly, without grief, without regret: Of course I could go back home, back to London. Because what else can you do to a cashiered subaltern in this year of Our Lord <<One Nine|5l:0>> <<One Seven|5l:0>> but give him a rifle and a bayonet and I already have those; when, suddenly and peacefully, he knew what he would do with that freedom, that liberty which he no longer had any use for because there was no more any place for it on the earth; and this time he would ask not for shillings but pounds, setting its valuation not in shillings but in pounds, not only on his pilgrimage back to when and where the lost free spirit of man once existed, but on that which made the pilgrimage possible, asking for ten of them and himself setting the rate and interest at ten shillings a day for thirty days.',
-          ],
-          [
-            1,
             '[19:12] A Fable - William Faulkner.epub (OEBPS/Faul_9780307792136_epub_c06_r1.htm) - 1912',
             'It was <<1912|9d>>, two years before the war; the horse was a three-year-old running horse, but such a horse that even the price which the Argentine hide-and-wheat prince paid for it at the Newmarket sale, although an exceptional one, was not an outrageous one. Its groom was the sentry, the man with the ledger and the money-belt. He went out to America with it, whereupon within the next twenty-four months three things happened to him which changed completely not only his life but his character too, so that when late in 1914 he returned to England to enlist, it was as though somewhere behind the Mississippi Valley hinterland where within the first three months he had vanished, a new man had been born, without past, without griefs, without recollections.',
           ],
@@ -260,11 +243,6 @@ $VAR1 = [
             1,
             '[ap 09:00] A Fable - William Faulkner.epub (OEBPS/Faul_9780307792136_epub_c07_r1.htm) - nine',
             "\x{2018}But not I. The doom might have been his, but the curse to hurry it, consummate it, at least was mine; I was the one now wearing the secret talisman, token, not to remember, cherish: no tender memento of devoted troth nor plighted desertion either: but lying instead against my flesh beneath my dress like a brand a fever a coal a goad driving me (I was his mother now; the doom that moved him would have to move me first; already at <<nine|9c:1>> and ten and eleven I was the mother of two\x{2014}the infant brother and the idiot sister two years my senior too\x{2014}until at Beirut I found a father for them both) toward the day the hour the moment the instant when with his same blood he would discharge the one and expiate the other. Yes, the doom was his but at least I was its handmaiden: to bring you this, I must bring you the reason for its need too; to bring you this I must bring with me into your orbit the very object which would constitute and make imperative that need. Worse: by bringing it into your orbit I myself created the need which the token, the last desperate cast remaining to me, would be incapable of discharging.",
-          ],
-          [
-            1,
-            '[ap 04:01] A Fable - William Faulkner.epub (OEBPS/Faul_9780307792136_epub_c07_r1.htm) - four one',
-            "\x{2018}So I didn\x{2019}t even need to forgive you either: we were all <<four one|5l:1>> now in that workable mutual neither compassionate nor uncompassionate armistice and none of us neither needed or had the time to waste forgiving or reproaching one another because we would all be busy enough in supporting, balancing that condition of your expiation and our\x{2014}his\x{2014}reparations whose instrument you had been. Nor had I ever seen your face to remember either and now I began to believe that I never would, never would have to: that even when\x{2014}if\x{2014}the moment ever came when you would have, could no longer evade having, to face one another he alone would be enough and he would not require my ratification or support. No, it was the past itself which I had forgiven, could at last forgive now: swapped all that bitter and outraged impotence for the home\x{2014}harbor\x{2014}haven which was within the range of his capacities, which he was fitted and equipped for\x{2014}more: would have chosen himself if he had had the choice\x{2014}whose instrument you in your anonymity had been whether you actually intended for it to be in France or not, where, since he was free of you, the two others of us could be also. Then his military class was called. He went almost eagerly\x{2014}not that he could have done else as I know, but then so do you know that there are ways and still ways of accepting what you have no choice of refusing. But he went almost eagerly and served his tour\x{2014}I almost said time but didn\x{2019}t I just say he went almost eagerly?\x{2014}and came back home and then I believed that he was free of you\x{2014}that you and he also had struck a balance, an armistice in liability and threat; he was a French citizen and a Frenchman now not only legally but morally too since the date of his birth proved his right to the one and he had just doffed the uniform in which he himself had proved his right and worthiness to the other; not only was he free of you but each of you were free now of the other: you absolved of the liability since, having given him life, you had now created for him security and dignity in which to end it and so you owed him nothing; he absolved of threat since you no longer harmed him now and so you didn\x{2019}t need to fear him anymore.",
           ],
           [
             1,

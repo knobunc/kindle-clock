@@ -405,8 +405,8 @@ If, at that supreme hour, the wedded pair, bewildered with pleasure, and believi
           ],
           [
             1,
-            '[> 12:00] Les Miserables (Abridged) - Victor Hugo.epub (OEBPS/bano_9781411432550_oeb_c235_r1.html) - after noon',
-            "\x{201c}It is you, father!\x{201d} exclaimed he on perceiving Jean Valjean, \x{201c}that idiot of a Basque with his mysterious air! But you come too early. It is only half an hour <<after noon|13>> yet. Cosette is asleep.\x{201d}",
+            '[12:30] Les Miserables (Abridged) - Victor Hugo.epub (OEBPS/bano_9781411432550_oeb_c235_r1.html) - half an hour after noon',
+            "\x{201c}It is you, father!\x{201d} exclaimed he on perceiving Jean Valjean, \x{201c}that idiot of a Basque with his mysterious air! But you come too early. It is only <<half an hour after noon|10>> yet. Cosette is asleep.\x{201d}",
           ],
           [
             1,
@@ -522,8 +522,8 @@ If, at that supreme hour, the wedded pair, bewildered with pleasure, and believi
           ],
           [
             1,
-            '[00:00] Les Miserables (Abridged) - Victor Hugo.epub (OEBPS/bano_9781411432550_oeb_c48_r1.html) - midnight',
-            "He approached several groups and listened to their talk. The calendar of the term being very heavy, the judge had set down two short, simple cases for that day. They had begun with the infanticide, and now were on the convict, the recidivist, the \x{201c}habitual offender.\x{201d} This man had stolen some apples, but that did not appear to be very well proven; what was proven, was that he had been in the galleys at Toulon. This was what ruined his case. The examination of the man had been finished, and the testimony of the witnesses had been taken; but there yet remained the argument of the counsel, and the summing up of his prosecuting attorney; it would hardly be finished before <<midnight|13>>. The man would probably be condemned; the prosecuting attorney was very good, and never failed with his prisoners; he was a fellow of talent, who wrote poetry.",
+            '[< 00:00] Les Miserables (Abridged) - Victor Hugo.epub (OEBPS/bano_9781411432550_oeb_c48_r1.html) - before midnight',
+            "He approached several groups and listened to their talk. The calendar of the term being very heavy, the judge had set down two short, simple cases for that day. They had begun with the infanticide, and now were on the convict, the recidivist, the \x{201c}habitual offender.\x{201d} This man had stolen some apples, but that did not appear to be very well proven; what was proven, was that he had been in the galleys at Toulon. This was what ruined his case. The examination of the man had been finished, and the testimony of the witnesses had been taken; but there yet remained the argument of the counsel, and the summing up of his prosecuting attorney; it would hardly be finished <<before midnight|13>>. The man would probably be condemned; the prosecuting attorney was very good, and never failed with his prisoners; he was a fellow of talent, who wrote poetry.",
           ],
           [
             1,
@@ -622,9 +622,9 @@ If, at that supreme hour, the wedded pair, bewildered with pleasure, and believi
           ],
           [
             1,
-            '[00:00] Les Miserables (Abridged) - Victor Hugo.epub (OEBPS/bano_9781411432550_oeb_c90_r1.html) - midnight',
+            '[~ 23:15] Les Miserables (Abridged) - Victor Hugo.epub (OEBPS/bano_9781411432550_oeb_c90_r1.html) - About three-quarters of an hour before midnight',
             "\x{201c}Where there are gratings there are always iron bars. I have my heap of old iron at the back of the garden.\x{201d}
-\x{201c}About three-quarters of an hour before <<midnight|13>>; do not forget.\x{201d}
+\x{201c}<<About three-quarters of an hour before midnight|10>>; do not forget.\x{201d}
 \x{201c}Reverend mother?\x{201d}",
           ],
           [

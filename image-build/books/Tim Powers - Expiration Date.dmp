@@ -17,7 +17,7 @@ $VAR1 = [
           [
             1,
             '[08:00] Expiration Date - Tim Powers.epub (OEBPS/12-page.xhtml) - eight this morning',
-            "\x{201c}God, you\x{2019}re an idiot sometimes. I\x{2019}m saying that\x{2019}s what happened. She\x{2019}s right to believe it, she did eat a bunch of ghosts. Didn\x{2019}t she change, visibly, between <<eight this morning|5>> and nine tonight?\x{201d}",
+            "\x{201c}God, you\x{2019}re an idiot sometimes. I\x{2019}m saying that\x{2019}s what happened. She\x{2019}s right to believe it, she did eat a bunch of ghosts. Didn\x{2019}t she change, visibly, between <<eight this morning|5>> and <<nine|20a>> tonight?\x{201d}",
           ],
           [
             1,
@@ -98,8 +98,8 @@ Good Lord, he thought, that\x{2019}s new. \x{201c}Could I talk to Loretta deLara
           ],
           [
             1,
-            '[> 12:00] Expiration Date - Tim Powers.epub (OEBPS/27-page.xhtml) - past noon',
-            'To his right, across the street, the elevated pools around the Metropolitan Water District building reflected the watery blue sky. Oaks calculated that the time could hardly be even an hour <<past noon|13>>, but the pale sun had already begun to recede, having come as far up above the southern horizon as it cared to in this season. North was behind him, and the thought prompted him to sneak a glance down at the pommel of the survival knife he wore inside his pants.',
+            '[> 13:00] Expiration Date - Tim Powers.epub (OEBPS/27-page.xhtml) - an hour past noon',
+            'To his right, across the street, the elevated pools around the Metropolitan Water District building reflected the watery blue sky. Oaks calculated that the time could hardly be even <<an hour past noon|10>>, but the pale sun had already begun to recede, having come as far up above the southern horizon as it cared to in this season. North was behind him, and the thought prompted him to sneak a glance down at the pommel of the survival knife he wore inside his pants.',
           ],
           [
             1,
@@ -195,8 +195,8 @@ She turned her plodding steps across the sand toward the steel stairs that led u
           ],
           [
             1,
-            '[00:00] Expiration Date - Tim Powers.epub (OEBPS/46-page.xhtml) - midnight',
-            "\x{201c}What did you have in mind?\x{201d} asked Kootie, who was sitting crouched like a bird up on the back of the old couch. \x{201c}Let\x{2019}s be speedy, it\x{2019}s less than twelve hours to <<midnight|13>>, and I want to be clathrated damn deep, out of range of any magnets, when church bells are ringing the first strokes of Halloween.\x{201d}",
+            '[< 12:00] Expiration Date - Tim Powers.epub (OEBPS/46-page.xhtml) - twelve hours to midnight',
+            "\x{201c}What did you have in mind?\x{201d} asked Kootie, who was sitting crouched like a bird up on the back of the old couch. \x{201c}Let\x{2019}s be speedy, it\x{2019}s less than <<twelve hours to midnight|10>>, and I want to be clathrated damn deep, out of range of any magnets, when church bells are ringing the first strokes of Halloween.\x{201d}",
           ],
           [
             1,

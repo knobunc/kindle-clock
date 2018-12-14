@@ -194,7 +194,7 @@ Dalgliesh switched his questioning. \x{201c}You saw Nurse Pearce die, of course.
           [
             1,
             '[ap 07:30] Shroud for a Nightingale - P. D. James.epub (OEBPS/Jame_9780307399991_epub_c22_r1.htm) - seven thirty',
-            "\x{201c}In that deplorably designed new building near the outpatients\x{2019} department. They serve breakfast at the ungodly hour of <<seven thirty|5k:1>>.\x{201d}",
+            "\x{201c}In that deplorably designed new building near the outpatients\x{2019} department. They serve breakfast at the ungodly hour of <<seven thirty|20>>.\x{201d}",
           ],
           [
             1,
@@ -233,18 +233,18 @@ Dalgliesh switched his questioning. \x{201c}You saw Nurse Pearce die, of course.
           ],
           [
             1,
-            '[ap - 04:29] Shroud for a Nightingale - P. D. James.epub (OEBPS/Jame_9780307399991_epub_c29_r1.htm) - Just before half past four',
+            '[ap < 04:29] Shroud for a Nightingale - P. D. James.epub (OEBPS/Jame_9780307399991_epub_c29_r1.htm) - Just before half past four',
             "<<Just before half past four|10>> Dalgliesh, in defiance of convention and prudence, took tea alone with Sister Gearing in her bed-sitting-room. She had met him casually passing across the ground-floor hall as the students were filing out of the lecture room after the last seminar of the day. She had given the invitation spontaneously and without coyness, although Dalgliesh noted that Sergeant Masterson was not included. He would have accepted the invitation even had it been delivered on highly scented and pink writing-paper and accompanied by the most blatant of sexual innuendoes. What he wanted after the formal interrogation of the morning was to sit in comfort and listen to a flow of artless, candid and slightly malicious gossip; to listen with the surface of his mind soothed, uninvolved, even a little cynically amused, but with the sharp claws of the intelligence sharpened for their pickings. He had learned more about the Nightingale House Sisters from their conversation at luncheon than he had in all his formal interviews, but he couldn\x{2019}t spend all his time tagging along behind the nursing staff, picking up scraps of gossip like so many dropped handkerchiefs. He wondered whether Sister Gearing had something to tell or something to ask. Either way he didn\x{2019}t expect an hour in her company to be wasted.",
           ],
           [
             1,
-            '[ap - 11:31] Shroud for a Nightingale - P. D. James.epub (OEBPS/Jame_9780307399991_epub_c30_r1.htm) - just after half past eleven',
+            '[ap > 11:31] Shroud for a Nightingale - P. D. James.epub (OEBPS/Jame_9780307399991_epub_c30_r1.htm) - just after half past eleven',
             "Nurse Goodale stood silently, her hands folded composedly as if in prayer over the white stiffness of her apron. He did not hurry her. She gazed fixedly ahead and then turned her eyes to the bed and said quietly: \x{201c}I know now. I saw her reading a library book. It was the night when Jo was taken ill, the night before Pearce herself died. I went into her bedroom <<just after half past eleven|10>> to ask her to go and look after Jo while I fetched Sister. She was sitting up in bed with her hair in two plaits and she was reading. I remember now. It was a large book, bound in a dark colour, dark blue I think, and with a reference number stamped in gold at the foot of the spine. It looked an old and rather heavy book. I don\x{2019}t think it was fiction. She was holding it propped up against her knees I remember. When I appeared she closed it quickly and slipped it under her pillow. It was a strange thing to do but it didn\x{2019}t mean anything to me at the time. Pearce was always oddly secretive. Besides, I was too concerned about Jo. But I remember it now.\x{201d}",
           ],
           [
             1,
             '[ap > 11:30] Shroud for a Nightingale - P. D. James.epub (OEBPS/Jame_9780307399991_epub_c30_r1.htm) - shortly after eleven thirty',
-            "Dalgliesh asked: \x{201c}What exactly happened that night? You said you went in to Nurse Fallon <<shortly after eleven thirty|5k:1>>. I thought she didn\x{2019}t go to bed before <<midnight|13>>.\x{201d}",
+            "Dalgliesh asked: \x{201c}What exactly happened that night? You said you went in to Nurse Fallon <<shortly after eleven thirty|5k:1>>. I thought she didn\x{2019}t go to bed <<before midnight|13>>.\x{201d}",
           ],
           [
             1,
@@ -274,7 +274,7 @@ Dalgliesh switched his questioning. \x{201c}You saw Nurse Pearce die, of course.
           [
             1,
             '[00:00] Shroud for a Nightingale - P. D. James.epub (OEBPS/Jame_9780307399991_epub_c32_r1.htm) - midnight',
-            "As Mavis Gearing would no doubt have known. So they had, after all, had a chance to consult each other, to decide on their story. But if they were concocting an alibi, why fix it for <<midnight|13>>? Because they knew for the best or worst of reasons that Fallon had died at that hour? Or because, knowing her habits, they judged that <<midnight|13>> was the most likely time? Only the killer, and perhaps not even he, could know precisely when Fallon had died. It could have been before <<midnight|13>>. It could have been as late as <<two-thirty|5k:1>>. Even Miles Honeyman with his thirty years\x{2019} experience couldn\x{2019}t time the death precisely from clinical signs alone. The only certain thing was that Fallon was dead and that she had died almost immediately after drinking her whisky. But when exactly had that been? It was her usual habit to prepare her late night drink as soon as she went upstairs to bed. But no one admitted to having seen her after she left the nurses\x{2019} sitting-room. Fallon could, just possibly, have been alive when Sister Brumfett and the Burt twins saw her light shining through the keyhole <<just after two a.m.|10>> And if she had been alive then what had she been doing between <<midnight|13>> and <<two o\x{2019}clock|6>>? Dalgliesh had been concentrating on those people who had access to the school. But suppose Fallon had left Nightingale House that night, perhaps to keep an assignation. Or suppose she had deferred making her nightly drink of whisky and lemon because she was expecting a visitor. The front and back doors of Nightingale House had been found bolted in the morning, but Fallon could have let her visitor out any time during the night and bolted the door behind him.",
+            "As Mavis Gearing would no doubt have known. So they had, after all, had a chance to consult each other, to decide on their story. But if they were concocting an alibi, why fix it for <<midnight|13>>? Because they knew for the best or worst of reasons that Fallon had died at that hour? Or because, knowing her habits, they judged that <<midnight|13>> was the most likely time? Only the killer, and perhaps not even he, could know precisely when Fallon had died. It could have been <<before midnight|13>>. It could have been as late as <<two-thirty|5k:1>>. Even Miles Honeyman with his thirty years\x{2019} experience couldn\x{2019}t time the death precisely from clinical signs alone. The only certain thing was that Fallon was dead and that she had died almost immediately after drinking her whisky. But when exactly had that been? It was her usual habit to prepare her late night drink as soon as she went upstairs to bed. But no one admitted to having seen her after she left the nurses\x{2019} sitting-room. Fallon could, just possibly, have been alive when Sister Brumfett and the Burt twins saw her light shining through the keyhole <<just after two a.m.|10>> And if she had been alive then what had she been doing between <<midnight|13>> and <<two o\x{2019}clock|6>>? Dalgliesh had been concentrating on those people who had access to the school. But suppose Fallon had left Nightingale House that night, perhaps to keep an assignation. Or suppose she had deferred making her nightly drink of whisky and lemon because she was expecting a visitor. The front and back doors of Nightingale House had been found bolted in the morning, but Fallon could have let her visitor out any time during the night and bolted the door behind him.",
           ],
           [
             1,
@@ -378,8 +378,8 @@ Dalgliesh switched his questioning. \x{201c}You saw Nurse Pearce die, of course.
           ],
           [
             1,
-            '[00:00] Shroud for a Nightingale - P. D. James.epub (OEBPS/Jame_9780307399991_epub_c40_r1.htm) - midnight',
-            'And so it had gone on. It had been tedious and exhausting and, in the end, almost frightening. The triumphant glow of getting what he wanted had faded before <<midnight|13>> and he was aware of hatred and disgust. While he listened to her babblings he toyed with imagined violence. It was easy to see how these things happened. A handy poker. The silly face smashed into pulp. Blow on blow on blow. The bones splintering. A gush of blood. An orgasm of hatred. Imagining it, he found it hard to keep his breathing even. He took her hand gently.',
+            '[< 00:00] Shroud for a Nightingale - P. D. James.epub (OEBPS/Jame_9780307399991_epub_c40_r1.htm) - before midnight',
+            'And so it had gone on. It had been tedious and exhausting and, in the end, almost frightening. The triumphant glow of getting what he wanted had faded <<before midnight|13>> and he was aware of hatred and disgust. While he listened to her babblings he toyed with imagined violence. It was easy to see how these things happened. A handy poker. The silly face smashed into pulp. Blow on blow on blow. The bones splintering. A gush of blood. An orgasm of hatred. Imagining it, he found it hard to keep his breathing even. He took her hand gently.',
           ],
           [
             1,

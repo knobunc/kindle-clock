@@ -74,7 +74,7 @@ $VAR1 = [
           [
             1,
             '[ap 02:58] Shogun - James Clavell.epub (OEBPS/Clav_9780307490896_epub_c12_r1.htm) - two to three',
-            'Toranaga was livid. Thus far he had manipulated the Council so that voting was always split <<two to three|10a:0>>. He had never been able to win a four-to-one against Ishido, but neither had Ishido against him. <<Four to one|10a:0>> meant isolation and disaster. Why had Onoshi defected? And Kiyama? Both implacable enemies even before they had converted to the foreign religion. And what hold had Ishido now over them?',
+            'Toranaga was livid. Thus far he had manipulated the Council so that voting was always split <<two to three|10a:0>>. He had never been able to win a <<four-to-one|10a:0>> against Ishido, but neither had Ishido against him. <<Four to one|10a:0>> meant isolation and disaster. Why had Onoshi defected? And Kiyama? Both implacable enemies even before they had converted to the foreign religion. And what hold had Ishido now over them?',
           ],
           [
             1,
@@ -234,7 +234,7 @@ $VAR1 = [
           [
             1,
             '[00:00] Shogun - James Clavell.epub (OEBPS/Clav_9780307490896_epub_c49_r1.htm) - midnight',
-            "\x{201c}Wait! Then summon my Council, Yabu and all\x{2014}and all senior generals. They\x{2019}re to be here at <<midnight|9b>>. And clear this floor. All guards! You come back with Sudara!\x{201d}",
+            "\x{201c}Wait! Then summon my Council, Yabu and all\x{2014}and all senior generals. They\x{2019}re to be here at <<midnight|13>>. And clear this floor. All guards! You come back with Sudara!\x{201d}",
           ],
           [
             1,
@@ -319,11 +319,6 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 00:59] Shogun - James Clavell.epub (OEBPS/Clav_9780307490896_epub_c55_r1.htm) - one to one',
-            'Immediately one Brown leaped forward, and the others followed and the killing became swift and cruel. Each time a Gray fell, another would calmly walk out of the waiting pack to join his comrades in the killing. It was always fair, always evenly matched, man to man, now fifteen against fifteen, now eight against eight, a few wounded Grays thrashing in the dirt, now three Browns against two Grays and another Gray strode out, and soon it was <<one to one|10>>, the last Brown, blood-stained and wounded, already victor of four duels. The last Gray dispatched him easily and stood alone among the bodies and looked at Miyai Kazuko.',
-          ],
-          [
-            1,
             '[12:00] Shogun - James Clavell.epub (OEBPS/Clav_9780307490896_epub_c56_r1.htm) - noon',
             "\x{201c}Afterward we\x{2019}ll man the walls and then open the gates at dawn. We\x{2019}ll fight till <<noon|13>>. That\x{2019}ll be enough. Then those who are left will come back inside and set fire to this part of the castle. If I\x{2019}m alive then I\x{2019}d be honored if you\x{2019}d be my second.\x{201d}",
           ],
@@ -341,16 +336,6 @@ $VAR1 = [
             1,
             '[00:00] Shogun - James Clavell.epub (OEBPS/Clav_9780307490896_epub_c57_r1.htm) - midnight',
             "\x{201c}He was awake the last time I checked. That was at <<midnight|13>>. He asked me not to check again until just before dawn\x{2014}something about his customs. I didn\x{2019}t understand clearly everything he said, but there\x{2019}s no harm, there\x{2019}s very tight security everywhere, neh? Kiritsubo-san and the other ladies are quiet, though she\x{2019}s been up, Kiritsubo-san, most of the night.\x{201d}",
-          ],
-          [
-            1,
-            "[ap 01:02] Shogun - James Clavell.epub (OEBPS/Clav_9780307490896_epub_c57_r1.htm) - One\x{a0}\x{2026}\x{a0}two",
-            "The leader did not watch them go, but kept his eyes on Yabu and began a slow finger count with his left hand. \x{201c}<<One\x{a0}\x{2026}\x{a0}two|5l:1>>\x{a0}\x{2026}\x{a0}three\x{a0}\x{2026}\x{201d} Yabu felt many men watching him from the passage beyond the door. He could see no one.",
-          ],
-          [
-            1,
-            "[ap 01:02] Shogun - James Clavell.epub (OEBPS/Clav_9780307490896_epub_c57_r1.htm) - One\x{a0}\x{2026}\x{a0}two",
-            "Below in the cellar, the leader\x{2019}s fingers still continued in tempo, ticking off the moments, his eyes never wavering from Yabu. Yabu was watching and waiting, the smell of his own fear-sweat dank in his nostrils. The fingers stopped and the leader\x{2019}s fist closed up sharply. He pointed down the corridor. Yabu nodded and turned and went back the way he had come, walking slowly. Behind him the inexorable count began again. \x{201c}<<One\x{a0}\x{2026}\x{a0}two|5l:0>>\x{a0}\x{2026}\x{a0}three\x{a0}\x{2026}\x{201d}",
           ],
           [
             1,
@@ -384,8 +369,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[12:00] Shogun - James Clavell.epub (OEBPS/Clav_9780307490896_epub_c61_r1.htm) - noon',
-            "Toranaga said, \x{201c}But I think you did, so all your lands are forfeit. Please slit your belly today. Before <<noon|13>>.\x{201d}",
+            '[< 12:00] Shogun - James Clavell.epub (OEBPS/Clav_9780307490896_epub_c61_r1.htm) - Before noon',
+            "Toranaga said, \x{201c}But I think you did, so all your lands are forfeit. Please slit your belly today. <<Before noon|13>>.\x{201d}",
           ],
           [
             1,

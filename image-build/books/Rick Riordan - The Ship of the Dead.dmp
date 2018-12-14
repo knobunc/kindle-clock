@@ -26,8 +26,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[12:00] The Ship of the Dead - Rick Riordan.epub (OEBPS/9781484758601_epub_c38_r1.xhtml) - midday',
-            "Skadi smiled. \x{201c}Fear not, Blitzen, son of Freya. My skis will look good on you. You will have to reach the ship before <<midday|13>> tomorrow. By then, the ice blocking the bay will be sufficiently melted for Loki to sail into open waters. If that happens, nothing will be able to stop Ragnarok.\x{201d}",
+            '[< 12:00] The Ship of the Dead - Rick Riordan.epub (OEBPS/9781484758601_epub_c38_r1.xhtml) - before midday',
+            "Skadi smiled. \x{201c}Fear not, Blitzen, son of Freya. My skis will look good on you. You will have to reach the ship <<before midday|13>> tomorrow. By then, the ice blocking the bay will be sufficiently melted for Loki to sail into open waters. If that happens, nothing will be able to stop Ragnarok.\x{201d}",
           ],
           [
             1,

@@ -3,7 +3,7 @@ $VAR1 = [
             1,
             '[01:00] God Save the Mark - Donald E. Westlake.epub (0795304404_split_059.html) - One this morning',
             "Reilly sighed and said, \x{201c}What have they done to you this time, Fred?\x{201d}
-\x{201c}Two things,\x{201d} I said. \x{201c}<<One this morning|5>> and one just now.\x{201d}
+\x{201c}Two things,\x{201d} I said. \x{201c}<<One this morning|5>> and <<one|20a>> just now.\x{201d}
 \x{201c}Better watch yourself, then. My grandma always said troubles come in threes.\x{201d}",
           ],
           [
@@ -77,11 +77,6 @@ $VAR1 = [
             1,
             '[ap ~ 07:15] God Save the Mark - Donald E. Westlake.epub (0795304404_split_073.html) - about seven-fifteen',
             "Until, at <<about seven-fifteen|9c:0>>, Gertie appeared before me with her black jacket on and her patent-leather purse dangling from her left forearm. \x{201c}Put yourself out a little,\x{201d} she said. \x{201c}Walk me to the subway.\x{201d}",
-          ],
-          [
-            1,
-            '[ap 05:09] God Save the Mark - Donald E. Westlake.epub (0795304404_split_073.html) - five nine',
-            "I smoothed the gum wrapper out on the cab roof, and copied down Gertie\x{2019}s number as she reeled it off to me with all the care of instructions being given to a retarded child: \x{201c}University five\x{2014}that\x{2019}s U N, you know\x{2014}University <<five nine|5l:0>> <<nine seven|5l:0>> oh. You got it?\x{201d}",
           ],
           [
             1,
@@ -167,13 +162,8 @@ I remembered having seen some bills tucked away in a change purse in a bureau dr
           ],
           [
             1,
-            '[ap 07:06] God Save the Mark - Donald E. Westlake.epub (0795304404_split_091.html) - seven six',
-            "\x{201c}I\x{2019}m fine. My account number is <<seven six|5l:0>> oh, dash, <<five nine|5l:0>> two, space, <<six two|5l:0>> <<two nine|5l:0>> three, space, eight. Have you got that?\x{201d}",
-          ],
-          [
-            1,
             "[ap 09:00] God Save the Mark - Donald E. Westlake.epub (0795304404_split_093.html) - nine o\x{2019}clock",
-            "I SET MY ALARM for <<nine o\x{2019}clock|6>>, but the telephone woke me at <<twenty past eight|10>>. I was almost groggy enough to answer it, but woke up slowly as I staggered into the living room, and came to consciousness just as my fingers touched the receiver. I jerked my hand back as though the plastic were hot, and stood weaving there <<until one|9b>> of the silences between rings stretched and stretched and stretched and changed key and became the silence of an apartment in which no telephone is ringing.",
+            "I SET MY ALARM for <<nine o\x{2019}clock|6>>, but the telephone woke me at <<twenty past eight|10>>. I was almost groggy enough to answer it, but woke up slowly as I staggered into the living room, and came to consciousness just as my fingers touched the receiver. I jerked my hand back as though the plastic were hot, and stood weaving there until <<one|9b>> of the silences between rings stretched and stretched and stretched and changed key and became the silence of an apartment in which no telephone is ringing.",
           ],
           [
             1,

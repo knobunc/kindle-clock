@@ -93,8 +93,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[12:00] Son of a Witch - Gregory Maguire.epub (OEBPS/ch09.xhtml) - noon',
-            "\x{201c}Neither of us may make it, you know,\x{201d} said Trism. \x{201c}Before <<noon|13>> tomorrow we may both be dead.\x{201d}",
+            '[< 12:00] Son of a Witch - Gregory Maguire.epub (OEBPS/ch09.xhtml) - Before noon',
+            "\x{201c}Neither of us may make it, you know,\x{201d} said Trism. \x{201c}<<Before noon|13>> tomorrow we may both be dead.\x{201d}",
           ],
           [
             1,

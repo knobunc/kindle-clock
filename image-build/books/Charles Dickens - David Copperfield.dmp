@@ -93,8 +93,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[12:00] David Copperfield - Charles Dickens.epub (index_split_014.xhtml) - noon',
-            "At last Mr. Micawber's difficulties came to a crisis, and he was arrested early one morning, and carried over to the King's Bench Prison in the Borough. He told me, as he went out of the house, that the God of day had now gone down upon him \x{2014} and I really thought his heart was broken and mine too. But I heard, afterwards, that he was seen to play a lively game at skittles, before <<noon|13>>.",
+            '[< 12:00] David Copperfield - Charles Dickens.epub (index_split_014.xhtml) - before noon',
+            "At last Mr. Micawber's difficulties came to a crisis, and he was arrested early one morning, and carried over to the King's Bench Prison in the Borough. He told me, as he went out of the house, that the God of day had now gone down upon him \x{2014} and I really thought his heart was broken and mine too. But I heard, afterwards, that he was seen to play a lively game at skittles, <<before noon|13>>.",
           ],
           [
             1,
@@ -324,7 +324,7 @@ $VAR1 = [
           [
             1,
             '[05:00] David Copperfield - Charles Dickens.epub (index_split_039.xhtml) - five in the morning',
-            'I was pretty busy now; up at <<five in the morning|9a>>, and home at nine or <<ten at night|5>>. But I had infinite satisfaction in being so closely engaged, and never walked slowly on any account, and felt enthusiastically that the more I tired myself, the more I was doing to deserve Dora. I had not revealed myself in my altered character to Dora yet, because she was coming to see Miss Mills in a few days, and I deferred all I had to tell her until then; merely informing her in my letters (all our communications were secretly forwarded through Miss Mills), that I had much to tell her. In the meantime, I put myself on a short allowance of bear\'s grease, wholly abandoned scented soap and lavender water, and sold off three waistcoats at a prodigious sacrifice, as being too luxurious for my stern career.',
+            'I was pretty busy now; up at <<five in the morning|9a>>, and home at <<nine|20>> or <<ten at night|5>>. But I had infinite satisfaction in being so closely engaged, and never walked slowly on any account, and felt enthusiastically that the more I tired myself, the more I was doing to deserve Dora. I had not revealed myself in my altered character to Dora yet, because she was coming to see Miss Mills in a few days, and I deferred all I had to tell her until then; merely informing her in my letters (all our communications were secretly forwarded through Miss Mills), that I had much to tell her. In the meantime, I put myself on a short allowance of bear\'s grease, wholly abandoned scented soap and lavender water, and sold off three waistcoats at a prodigious sacrifice, as being too luxurious for my stern career.',
           ],
           [
             1,
@@ -387,8 +387,8 @@ Dora glanced wistfully at the clock, and hinted that she thought it was too fast
           ],
           [
             1,
-            '[> 00:00] David Copperfield - Charles Dickens.epub (index_split_047.xhtml) - past midnight',
-            'It was two or three hours <<past midnight|13>> when I got home. I found my aunt, in our house, sitting up for me.',
+            '[> 03:00] David Copperfield - Charles Dickens.epub (index_split_047.xhtml) - three hours past midnight',
+            'It was two or <<three hours past midnight|10>> when I got home. I found my aunt, in our house, sitting up for me.',
           ],
           [
             1,
@@ -421,16 +421,6 @@ Dora glanced wistfully at the clock, and hinted that she thought it was too fast
             1,
             '[ap 09:30] David Copperfield - Charles Dickens.epub (index_split_055.xhtml) - half past nine o\'clock',
             'We all became very anxious and impatient, when we sat down to breakfast. As it approached nearer and nearer to <<half past nine o\'clock|10>>, our restless expectation of Mr. Micawber increased. At last we made no more pretence of attending to the meal, which, except with Mr. Dick, had been a mere form from the first; but my aunt walked up and down the room, Traddles sat upon the sofa affecting to read the paper with his eyes on the ceiling; and I looked out of the window to give early notice of Mr. Micawber\'s coming. Nor had I long to watch, for, at the first chime of the half hour, he appeared in the street.',
-          ],
-          [
-            1,
-            '[ap 00:06] David Copperfield - Charles Dickens.epub (index_split_055.xhtml) - twelve six',
-            "'\"First,\"' said Mr. Micawber, '\"When Mr. W.'s faculties and memory for business became, through causes into which it is not necessary or expedient for me to enter, weakened and confused, \x{2014} HEEP \x{2014} designedly perplexed and complicated the whole of the official transactions. When Mr. W. was least fit to enter on business, \x{2014} HEEP was always at hand to force him to enter on it. He obtained Mr. W.'s signature under such circumstances to documents of importance, representing them to be other documents of no importance. He induced Mr. W. to empower him to draw out, thus, one particular sum of trust-money, amounting to <<twelve six|5l:0>> fourteen, two and nine, and employed it to meet pretended business charges and deficiencies which were either already provided for, or had never really existed. He gave this proceeding, throughout, the appearance of having originated in Mr. W.'s own dishonest intention, and of having been accomplished by Mr. W.'s own dishonest act; and has used it, ever since, to torture and constrain him.\"'",
-          ],
-          [
-            1,
-            '[ap 00:06] David Copperfield - Charles Dickens.epub (index_split_055.xhtml) - twelve six',
-            "Mr. Micawber read on, almost smacking his lips: '\"To wit, in manner following, that is to say. Mr. W. being infirm, and it being within the bounds of probability that his decease might lead to some discoveries, and to the downfall of \x{2014} HEEP'S \x{2014} power over the W. family, \x{2014} as I, Wilkins Micawber, the undersigned, assume \x{2014} unless the filial affection of his daughter could be secretly influenced from allowing any investigation of the partnership affairs to be ever made, the said \x{2014} HEEP \x{2014} deemed it expedient to have a bond ready by him, as from Mr. W., for the before-mentioned sum of <<twelve six|5l:0>> fourteen, two and nine, with interest, stated therein to have been advanced by \x{2014} HEEP \x{2014} to Mr.",
           ],
           [
             1,
@@ -488,108 +478,5 @@ At <<nine|9c:0>>, accordingly, we went out in a little chariot, and drove to Lon
             1,
             '[00:00] David Copperfield - Charles Dickens.epub (index_split_062.xhtml) - midnight',
             "Thoroughly tired, I went to bed too, at <<midnight|13>>; passed the next day on the Dover coach; burst safe and sound into my aunt's old parlour while she was at tea (she wore spectacles now); and was received by her, and Mr. Dick, and dear old Peggotty, who acted as housekeeper, with open arms and tears of joy. My aunt was mightily amused, when we began to talk composedly, by my account of my meeting with Mr. Chillip, and of his holding her in such dread remembrance; and both she and Peggotty had a great deal to say about my poor mother's second husband, and 'that murdering woman of a sister', \x{2014} on whom I think no pain or penalty would have induced my aunt to bestow any Christian or Proper Name, or any other designation.",
-          ],
-          [
-            1,
-            '[20:07] David Copperfield - Charles Dickens.epub (index_split_064.xhtml) - Twenty Seven',
-            'However, I heard so repeatedly, in the course of our goings to and fro, of a certain Number <<Twenty Seven|5l:0>>, who was the Favourite, and who really appeared to be a Model Prisoner, that I resolved to suspend my judgement until I should see <<Twenty Seven|5l:0>>. Twenty Eight, I understood, was also a bright particular star; but it was his misfortune to have his glory a little dimmed by the extraordinary lustre of <<Twenty Seven|5l:0>>. I heard so much of <<Twenty Seven|5l:0>>, of his pious admonitions to everybody around him, and of the beautiful letters he constantly wrote to his mother (whom he seemed to consider in a very bad way), that I became quite impatient to see him.',
-          ],
-          [
-            1,
-            '[20:07] David Copperfield - Charles Dickens.epub (index_split_064.xhtml) - Twenty Seven',
-            'I had to restrain my impatience for some time, on account of <<Twenty Seven|5l:1>> being reserved for a concluding effect. But, at last, we came to the door of his cell; and Mr. Creakle, looking through a little hole in it, reported to us, in a state of the greatest admiration, that he was reading a Hymn Book.',
-          ],
-          [
-            1,
-            '[20:07] David Copperfield - Charles Dickens.epub (index_split_064.xhtml) - Twenty Seven',
-            'There was such a rush of heads immediately, to see Number <<Twenty Seven|5l:0>> reading his Hymn Book, that the little hole was blocked up, six or seven heads deep. To remedy this inconvenience, and give us an opportunity of conversing with <<Twenty Seven|5l:0>> in all his purity, Mr. Creakle directed the door of the cell to be unlocked, and <<Twenty Seven|5l:0>> to be invited out into the passage. This was done; and whom should Traddles and I then behold, to our amazement, in this converted Number <<Twenty Seven|5l:0>>, but Uriah Heep!',
-          ],
-          [
-            1,
-            '[20:07] David Copperfield - Charles Dickens.epub (index_split_064.xhtml) - Twenty Seven',
-            'This recognition caused a general admiration in the party. I rather thought that everyone was struck by his not being proud, and taking notice of us.
-\'Well, <<Twenty Seven|5l:1>>,\' said Mr. Creakle, mournfully admiring him.
-\'How do you find yourself today?\'',
-          ],
-          [
-            1,
-            '[20:07] David Copperfield - Charles Dickens.epub (index_split_064.xhtml) - Twenty Seven',
-            '\'I am very umble, sir!\' replied Uriah Heep.
-\'You are always so, <<Twenty Seven|5l:0>>,\' said Mr. Creakle.
-Here, another gentleman asked, with extreme anxiety: \'Are you quite comfortable?\'',
-          ],
-          [
-            1,
-            '[20:07] David Copperfield - Charles Dickens.epub (index_split_064.xhtml) - Twenty Seven',
-            'A murmur, partly of gratification at <<Twenty Seven|5l:0>>\'s celestial state of mind, and partly of indignation against the Contractor who had given him any cause of complaint (a note of which was immediately made by Mr. Creakle), having subsided, <<Twenty Seven|5l:0>> stood in the midst of us, as if he felt himself the principal object of merit in a highly meritorious museum. That we, the neophytes, might have an excess of light shining upon us all at once, orders were given to let out <<Twenty Eight|5l:0>>.',
-          ],
-          [
-            1,
-            '[20:07] David Copperfield - Charles Dickens.epub (index_split_064.xhtml) - Twenty Seven',
-            'It appeared to me that the gentleman in spectacles backed his Twenty Eight against Mr. Creakle\'s <<Twenty Seven|5l:0>>, for each of them took his own man in hand.',
-          ],
-          [
-            1,
-            '[20:08] David Copperfield - Charles Dickens.epub (index_split_064.xhtml) - Twenty Eight',
-            '\'What is your state of mind, <<Twenty Eight|5l:0>>?\' said the questioner in spectacles.',
-          ],
-          [
-            1,
-            '[20:08] David Copperfield - Charles Dickens.epub (index_split_064.xhtml) - Twenty Eight',
-            '\'Is there anything at all on your mind now?\' said the questioner.
-\'If so, mention it, <<Twenty Eight|5l:0>>.\'
-\'Sir,\' said Mr. Littimer, without looking up, \'if my eyes have not deceived me, there is a gentleman present who was acquainted with me in my former life. It may be profitable to that gentleman to know, sir, that I attribute my past follies, entirely to having lived a thoughtless life in the service of young men; and to having allowed myself to be led by them into weaknesses, which I had not the strength to resist. I hope that gentleman will take warning, sir, and will not be offended at my freedom. It is for his good.',
-          ],
-          [
-            1,
-            '[20:08] David Copperfield - Charles Dickens.epub (index_split_064.xhtml) - Twenty Eight',
-            '\'This does you credit, <<Twenty Eight|5l:0>>,\' returned the questioner. \'I should have expected it of you. Is there anything else?\'',
-          ],
-          [
-            1,
-            '[20:08] David Copperfield - Charles Dickens.epub (index_split_064.xhtml) - Twenty Eight',
-            "'I have no doubt, <<Twenty Eight|5l:0>>,' returned the questioner, 'that the gentleman you refer to feels very strongly \x{2014} as we all must \x{2014} what you have so properly said. We will not detain you.'",
-          ],
-          [
-            1,
-            '[20:08] David Copperfield - Charles Dickens.epub (index_split_064.xhtml) - Twenty Eight',
-            'With this, Number <<Twenty Eight|5l:0>> retired, after a glance between him and Uriah; as if they were not altogether unknown to each other, through some medium of communication; and a murmur went round the group, as his door shut upon him, that he was a most respectable man, and a beautiful case.',
-          ],
-          [
-            1,
-            '[20:07] David Copperfield - Charles Dickens.epub (index_split_064.xhtml) - Twenty Seven',
-            '\'Now, <<Twenty Seven|5l:0>>,\' said Mr. Creakle, entering on a clear stage with his man, \'is there anything that anyone can do for you? If so, mention it.\'',
-          ],
-          [
-            1,
-            '[20:07] David Copperfield - Charles Dickens.epub (index_split_064.xhtml) - Twenty Seven',
-            '\'Well!\' said Mr. Creakle, \'this is very gratifying. You have addressed Mr. Copperfield, <<Twenty Seven|5l:0>>. Do you wish to say anything further to him?\'',
-          ],
-          [
-            1,
-            '[20:07] David Copperfield - Charles Dickens.epub (index_split_064.xhtml) - Twenty Seven',
-            '\'Do you know,\' said I, as we walked along the passage, \'what felony was Number <<Twenty Seven|5l:0>>\'s last "folly"?\'',
-          ],
-          [
-            1,
-            '[20:07] David Copperfield - Charles Dickens.epub (index_split_064.xhtml) - Twenty Seven',
-            "Sentence, transportation for life. <<Twenty Seven|5l:0>> was the knowingest bird of the lot, and had very nearly kept himself safe; but not quite. The Bank was just able to put salt upon his tail \x{2014} and only just.'",
-          ],
-          [
-            1,
-            '[20:07] David Copperfield - Charles Dickens.epub (index_split_064.xhtml) - Twenty Seven',
-            "Sentence, transportation for life. <<Twenty Seven|5l:0>> was the knowingest bird of the lot, and had very nearly kept himself safe; but not quite. The Bank was just able to put salt upon his tail \x{2014} and only just.'
-'Do you know <<Twenty Eight|5l:0>>'s offence?'
-'Twenty Eight,' returned my informant, speaking throughout in a low tone, and looking over his shoulder as we walked along the passage, to guard himself from being overheard, in such an unlawful reference to these Immaculates, by Creakle and the rest; '<<Twenty Eight|5l:0>> (also transportation) got a place, and robbed a young master of a matter of two hundred and fifty pounds in money and valuables, the night before they were going abroad. I particularly recollect his case, from his being took by a dwarf.'",
-          ],
-          [
-            1,
-            '[20:08] David Copperfield - Charles Dickens.epub (index_split_064.xhtml) - Twenty Eight',
-            '\'Twenty Eight,\' returned my informant, speaking throughout in a low tone, and looking over his shoulder as we walked along the passage, to guard himself from being overheard, in such an unlawful reference to these Immaculates, by Creakle and the rest; \'<<Twenty Eight|5l:0>> (also transportation) got a place, and robbed a young master of a matter of two hundred and fifty pounds in money and valuables, the night before they were going abroad. I particularly recollect his case, from his being took by a dwarf.\'',
-          ],
-          [
-            1,
-            '[20:07] David Copperfield - Charles Dickens.epub (index_split_064.xhtml) - Twenty Seven',
-            'We had now seen all there was to see. It would have been in vain to represent to such a man as the Worshipful Mr. Creakle, that <<Twenty Seven|5l:0>> and <<Twenty Eight|5l:0>> were perfectly consistent and unchanged; that exactly what they were then, they had always been; that the hypocritical knaves were just the subjects to make that sort of profession in such a place; that they knew its market-value at least as well as we did, in the immediate service it would do them when they were expatriated; in a word, that it was a rotten, hollow, painfully suggestive piece of business altogether. We left them to their system and themselves, and went home wondering.',
           ],
         ];

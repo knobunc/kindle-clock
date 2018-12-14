@@ -6,8 +6,8 @@ $VAR1 = [
           ],
           [
             1,
-            "[ap 01:02] Harry Potter and the Deathly Hallows - J. K. Rowling.epub (index_split_007.html) - One \x{2026} two",
-            "\x{201c}Good luck, everyone,\x{201d} shouted Moody. \x{201c}See you all in about an hour at the Burrow. On the count of three. <<One \x{2026} two|5l:1>> \x{2026} <<THREE|9k:0>>.\x{201d}",
+            '[ap 03:00] Harry Potter and the Deathly Hallows - J. K. Rowling.epub (index_split_007.html) - THREE',
+            "\x{201c}Good luck, everyone,\x{201d} shouted Moody. \x{201c}See you all in about an hour at the Burrow. On the count of three. One \x{2026} two \x{2026} <<THREE|9k:0>>.\x{201d}",
           ],
           [
             1,
@@ -18,11 +18,6 @@ $VAR1 = [
             1,
             "[ap 11:00] Harry Potter and the Deathly Hallows - J. K. Rowling.epub (index_split_009.html) - eleven o\x{2019}clock",
             "The Delacours arrived the following morning at <<eleven o\x{2019}clock|6>>. Harry, Ron, Hermione, and Ginny were feeling quite resentful toward Fleur\x{2019}s family by this time, and it was with ill grace that Ron stumped back upstairs to put on matching socks, and Harry attempted to flatten his hair. Once they had all been deemed smart enough, they trooped out into the sunny backyard to await the visitors.",
-          ],
-          [
-            1,
-            '[ap 00:59] Harry Potter and the Deathly Hallows - J. K. Rowling.epub (index_split_010.html) - one-to-one',
-            "Ginny did not seek another <<one-to-one|10a:0>> meeting with Harry for the rest of the day, nor by any look or gesture did she show that they had shared more than polite conversation in her room. Nevertheless, Charlie\x{2019}s arrival came as a relief to Harry. It provided a distraction, watching Mrs. Weasley force Charlie into a chair, raise her wand threateningly, and announce that he was about to get a proper haircut.",
           ],
           [
             1,
@@ -58,13 +53,6 @@ $VAR1 = [
             1,
             '[ap > 02:00] Harry Potter and the Deathly Hallows - J. K. Rowling.epub (index_split_022.html) - After two',
             "<<After two|9:1>> nights of little sleep, Harry\x{2019}s senses seemed more alert than usual. Their escape from Godric\x{2019}s Hollow had been so narrow that Voldemort seemed somehow closer than before, more threatening. As darkness drew in again Harry refused Hermione\x{2019}s offer to keep watch and told her to go to bed.",
-          ],
-          [
-            1,
-            "[ap 01:02] Harry Potter and the Deathly Hallows - J. K. Rowling.epub (index_split_022.html) - One \x{2026} two",
-            "\x{201c}On three,\x{201d} said Harry, looking back down at the locket and narrowing his eyes, concentrating on the letter S, imagining a serpent, while the contents of the locket rattled like a trapped cockroach. It would have been easy to pity it, except that the cut around Harry\x{2019}s neck still burned.
-\x{201c}<<One \x{2026} two|5l:0>> \x{2026} three \x{2026} open.\x{201d}
-The last word came as a hiss and a snarl and the golden doors of the locket swung wide with a little click.",
           ],
           [
             1,
@@ -133,7 +121,7 @@ The silence swallowed them all again. Every head turned, every eye in the place 
           [
             1,
             '[ap > 01:00] Harry Potter and the Deathly Hallows - J. K. Rowling.epub (index_split_036.html) - After one',
-            "But the lie did not convince Lily: <<After one|9e>> last burning look, she ran from the little thicket, off after her sister, and Snape looked miserable and confused. \x{2026}",
+            "But the lie did not convince Lily: <<After one|9e:0>> last burning look, she ran from the little thicket, off after her sister, and Snape looked miserable and confused. \x{2026}",
           ],
           [
             1,

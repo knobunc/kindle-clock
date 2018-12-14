@@ -16,8 +16,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[12:00] A Confederacy of Dunces - John Kennedy Toole.epub (index_split_006.html) - noon',
-            "\x{201c}Go back and work on your figures,\x{201d} Mr. Gonzalez told her. \x{201c}We have to send that statement to the bank before <<noon|13>>.\x{201d}",
+            '[< 12:00] A Confederacy of Dunces - John Kennedy Toole.epub (index_split_006.html) - before noon',
+            "\x{201c}Go back and work on your figures,\x{201d} Mr. Gonzalez told her. \x{201c}We have to send that statement to the bank <<before noon|13>>.\x{201d}",
           ],
           [
             1,

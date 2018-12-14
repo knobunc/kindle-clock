@@ -11,8 +11,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[00:00] The Annotated Emma - Jane Austen.epub (OEBPS/Aust_9780307950246_epub_c15_r1.htm) - midnight',
-            "\x{201c}I admired your resolution very much, sir,\x{201d} said he, \x{201c}in venturing out in such weather, for of course you saw there would be snow very soon. Every body must have seen the snow coming on. I admired your spirit; and I dare say we shall get home very well. Another hour or two\x{2019}s snow can hardly make the road impassable; and we are two carriages; if one is blown over in the bleak part of the common field there will be the other at hand. I dare say we shall be all safe at Hartfield before <<midnight|13>>.\x{201d}",
+            '[< 00:00] The Annotated Emma - Jane Austen.epub (OEBPS/Aust_9780307950246_epub_c15_r1.htm) - before midnight',
+            "\x{201c}I admired your resolution very much, sir,\x{201d} said he, \x{201c}in venturing out in such weather, for of course you saw there would be snow very soon. Every body must have seen the snow coming on. I admired your spirit; and I dare say we shall get home very well. Another hour or two\x{2019}s snow can hardly make the road impassable; and we are two carriages; if one is blown over in the bleak part of the common field there will be the other at hand. I dare say we shall be all safe at Hartfield <<before midnight|13>>.\x{201d}",
           ],
           [
             1,
@@ -116,8 +116,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[00:00] The Annotated Emma - Jane Austen.epub (OEBPS/Aust_9780307950246_epub_ntsa_r1.htm) - midnight',
-            '12. At this point, since dinner is an early meal and they have not been finished with it that long, it is many hours before <<midnight|13>>, and they are only three-quarters of a mile from home.',
+            '[< 00:00] The Annotated Emma - Jane Austen.epub (OEBPS/Aust_9780307950246_epub_ntsa_r1.htm) - before midnight',
+            '12. At this point, since dinner is an early meal and they have not been finished with it that long, it is many hours <<before midnight|13>>, and they are only three-quarters of a mile from home.',
           ],
           [
             1,

@@ -81,8 +81,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[00:00] Blackout - Connie Willis.epub (index_split_003.html) - midnight',
-            "She nodded, and Colin took off at a run. Michael came back, shaking his head. \x{201c}He won\x{2019}t be back before <<midnight|13>> at the earliest. He went to see some temporal theorist named Ishiwaka. And here I wasted an entire afternoon\x{2014}no offense,\x{201d} he said. \x{201c}It\x{2019}s just that I didn\x{2019}t have enough time to get ready for this drop as it is, and now\x{2014}\x{201d}",
+            '[< 00:00] Blackout - Connie Willis.epub (index_split_003.html) - before midnight',
+            "She nodded, and Colin took off at a run. Michael came back, shaking his head. \x{201c}He won\x{2019}t be back <<before midnight|13>> at the earliest. He went to see some temporal theorist named Ishiwaka. And here I wasted an entire afternoon\x{2014}no offense,\x{201d} he said. \x{201c}It\x{2019}s just that I didn\x{2019}t have enough time to get ready for this drop as it is, and now\x{2014}\x{201d}",
           ],
           [
             1,
@@ -352,8 +352,8 @@ They\x{2019}d make a beautiful target, wouldn\x{2019}t they?",
           ],
           [
             1,
-            '[00:00] Blackout - Connie Willis.epub (index_split_009.html) - midnight',
-            "The rector stepped back from the opened door to let them through, but no one moved, not even Nelson, who\x{2019}d been cooped up since before <<midnight|13>>.",
+            '[< 00:00] Blackout - Connie Willis.epub (index_split_009.html) - before midnight',
+            "The rector stepped back from the opened door to let them through, but no one moved, not even Nelson, who\x{2019}d been cooped up since <<before midnight|13>>.",
           ],
           [
             1,

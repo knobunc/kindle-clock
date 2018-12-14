@@ -32,12 +32,7 @@ $VAR1 = [
           [
             1,
             '[> 12:00] Cities in Flight - James Blish.epub (OEBPS/Text/Section0020.xhtml) - past noon',
-            'The other man, now clearly in charge, laughed scornfully. "You scared? He\'s a kid, isn\'t\' he? Come on, Red, I got no time to argue. You\'re here <<past noon|9b>>, we got a legal right to impress you."',
-          ],
-          [
-            1,
-            '[ap 01:05] Cities in Flight - James Blish.epub (OEBPS/Text/Section0021.xhtml) - One five',
-            '"<<One five|5l:0>> <<six one|5l:0>> one dash zero <<nine seven|5l:0>> five dash zero <<six nine|5l:0>> <<eight two|5l:0>> <<one seven|5l:0>>."',
+            'The other man, now clearly in charge, laughed scornfully. "You scared? He\'s a kid, isn\'t\' he? Come on, Red, I got no time to argue. You\'re here <<past noon|13>>, we got a legal right to impress you."',
           ],
           [
             1,
@@ -71,13 +66,13 @@ $VAR1 = [
           ],
           [
             1,
-            '[12:00] Cities in Flight - James Blish.epub (OEBPS/Text/Section0034.xhtml) - noon',
-            '"You nearly didn\'t make it," Amalfi said, feeling a sudden influx of energy. "Is it still night here? Yes. The big blowup isn\'t due much before <<noon|13>>, otherwise I wouldn\'t have been asleep. After that, you\'d have found no city here."',
+            '[< 12:00] Cities in Flight - James Blish.epub (OEBPS/Text/Section0034.xhtml) - before noon',
+            '"You nearly didn\'t make it," Amalfi said, feeling a sudden influx of energy. "Is it still night here? Yes. The big blowup isn\'t due much <<before noon|13>>, otherwise I wouldn\'t have been asleep. After that, you\'d have found no city here."',
           ],
           [
             1,
-            '[12:00] Cities in Flight - James Blish.epub (OEBPS/Text/Section0034.xhtml) - noon',
-            '"Before <<noon|13>>? That isn\'t according to the timetable. But that can wait. Get up, boss, there\'s work waiting."',
+            '[< 12:00] Cities in Flight - James Blish.epub (OEBPS/Text/Section0034.xhtml) - Before noon',
+            '"<<Before noon|13>>? That isn\'t according to the timetable. But that can wait. Get up, boss, there\'s work waiting."',
           ],
           [
             1,
@@ -94,12 +89,12 @@ Amalfi grinned. He realized with a subdued shock that he felt good. Getting Hazl
           [
             1,
             '[12:00] Cities in Flight - James Blish.epub (OEBPS/Text/Section0034.xhtml) - noon',
-            '"It goes like this. Carrel sold the Hruntans on building a master friction-field generator for the whole planet-said it would make their machines consume less power, or some such nonsense. The plans he gave them call for a generator at least twice as powerful as the Hruntans think it is, and with nearly all the controls left off. It will run only one way: full positive. Tomorrow at <<noon|9b>> they\'re scheduled to give it a trial run.',
+            '"It goes like this. Carrel sold the Hruntans on building a master friction-field generator for the whole planet-said it would make their machines consume less power, or some such nonsense. The plans he gave them call for a generator at least twice as powerful as the Hruntans think it is, and with nearly all the controls left off. It will run only one way: full positive. Tomorrow at <<noon|13>> they\'re scheduled to give it a trial run.',
           ],
           [
             1,
-            '[12:00] Cities in Flight - James Blish.epub (OEBPS/Text/Section0034.xhtml) - noon',
-            '"Perhaps so," Amalfi said. "In that case I\'d better tackle Graf Nandor right away with a fistful of accusations and complaints. The more confusion, the more delay-and it\'s less than four hours to <<noon|13>> now. In the meantime, we\'ll have to hide Schloss as best we can, before he\'s spotted by one of Hazca\'s guards here. That invisibility machine in the old West Side subway tunnel seems like the best place ... do you remember the one? The Lyrans sold it to us, and it just whirled and blinked and buzzed and didn\'t do a thing."',
+            '[< 08:00] Cities in Flight - James Blish.epub (OEBPS/Text/Section0034.xhtml) - four hours to noon',
+            '"Perhaps so," Amalfi said. "In that case I\'d better tackle Graf Nandor right away with a fistful of accusations and complaints. The more confusion, the more delay-and it\'s less than <<four hours to noon|10>> now. In the meantime, we\'ll have to hide Schloss as best we can, before he\'s spotted by one of Hazca\'s guards here. That invisibility machine in the old West Side subway tunnel seems like the best place ... do you remember the one? The Lyrans sold it to us, and it just whirled and blinked and buzzed and didn\'t do a thing."',
           ],
           [
             1,
@@ -113,8 +108,8 @@ Amalfi grinned. He realized with a subdued shock that he felt good. Getting Hazl
           ],
           [
             1,
-            '[> 00:00] Cities in Flight - James Blish.epub (OEBPS/Text/Section0036.xhtml) - past midnight',
-            'About an hour <<past midnight|13>>, at the height of the heaviest air raid yet, he felt a touch at his elbow.',
+            '[> 01:00] Cities in Flight - James Blish.epub (OEBPS/Text/Section0036.xhtml) - an hour past midnight',
+            'About <<an hour past midnight|10>>, at the height of the heaviest air raid yet, he felt a touch at his elbow.',
           ],
           [
             1,
@@ -129,7 +124,7 @@ Amalfi grinned. He realized with a subdued shock that he felt good. Getting Hazl
           [
             1,
             '[12:00] Cities in Flight - James Blish.epub (OEBPS/Text/Section0037.xhtml) - noon',
-            '"Very late," Heldon said. He was not disguising his expression now. He was openly crowing. "The contract between your city and mine expired at <<noon|9a>> today. It is now nearly an hour <<after noon|13>>; we have been here all night and morning. And your city is still on our soil, in violation of the contract, Mayor Amalfi."',
+            '"Very late," Heldon said. He was not disguising his expression now. He was openly crowing. "The contract between your city and mine expired at <<noon|9a>> today. It is now nearly <<an hour after noon|10>>; we have been here all night and morning. And your city is still on our soil, in violation of the contract, Mayor Amalfi."',
           ],
           [
             1,

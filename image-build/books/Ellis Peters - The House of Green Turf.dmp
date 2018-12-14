@@ -17,7 +17,7 @@ $VAR1 = [
           [
             1,
             '[ap 10:10] The House of Green Turf - Ellis Peters.epub (Ops/007.html) - 10.10',
-            "\x{2018}Lots... <<10.10|9p>>, <<10.50|9p>>, <<14.10|5a:0>>... and tourist night flights, of course...\x{2019}",
+            "\x{2018}Lots... <<10.10|9p>>, <<10.50|9p>>, <<14.10|9p>>... and tourist night flights, of course...\x{2019}",
           ],
           [
             1,
@@ -43,11 +43,6 @@ $VAR1 = [
             1,
             "[ap 10:00] The House of Green Turf - Ellis Peters.epub (Ops/010.html) - ten o\x{2019}clock",
             "He parked the Dodge in the square and set about locating whatever monumental masons the town might hold. It was already evening, he had lost more time than he had bargained for in reaching this place. He bought some cigarettes at a solid family shop which was still open, and probably would continue so until <<ten o\x{2019}clock|6>> provided one of the family happened to be spending the evening at home. The woman who served him was elderly and at leisure, and looked as if she and her forebears had been there since Regenheim\x{2019}s free-city days. If anyone knew where to put a finger on every tradesman in the town, she would.",
-          ],
-          [
-            1,
-            '[ap ~ 05:00] The House of Green Turf - Ellis Peters.epub (Ops/010.html) - about five',
-            "\x{2018}I am sorry, Mr. Klostermann is at his married daughter\x{2019}s house for the evening. I can tell you how to reach him there, if you care to go? It is a farm, <<about five|9:0>> kilometres from here. You take the road from the square towards Kempten, then two kilometres on you come to a right-hand fork, the signpost says Maienbach. Follow that road for two kilometres, and on the left is a cart road to the farm. It is not hard to find. I should go and speak with Herr Klostermann there. He will not need records to know his own work.\x{2019}",
           ],
           [
             1,

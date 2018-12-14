@@ -23,13 +23,18 @@ $VAR1 = [
           ],
           [
             1,
-            '[~ 16:30] Belle Sauvage - Philip Pullman.epub (OEBPS/Text/part0012.html) - Vespers',
-            "\x{201c}I\x{2019}m sure you\x{2019}re right,\x{201d} she said, \x{201c}but that\x{2019}s the way it was. Her parents are important people, mind you. That had something to do with it. And I hope you haven\x{2019}t been talking about it. It\x{2019}s supposed to be confidential. It\x{2019}s certainly private. Now, Malcolm, I really must get these accounts in order before <<Vespers|13>>. Off you go. We\x{2019}ll talk another day.\x{201d}",
+            '[< 16:30] Belle Sauvage - Philip Pullman.epub (OEBPS/Text/part0012.html) - before Vespers',
+            "\x{201c}I\x{2019}m sure you\x{2019}re right,\x{201d} she said, \x{201c}but that\x{2019}s the way it was. Her parents are important people, mind you. That had something to do with it. And I hope you haven\x{2019}t been talking about it. It\x{2019}s supposed to be confidential. It\x{2019}s certainly private. Now, Malcolm, I really must get these accounts in order <<before Vespers|13>>. Off you go. We\x{2019}ll talk another day.\x{201d}",
           ],
           [
             1,
             '[ap 09:20] Belle Sauvage - Philip Pullman.epub (OEBPS/Text/part0012.html) - twenty past nine',
             'At <<twenty past nine|10>>, there was a knock at the door, and she opened it at once and let in the man who was waiting outside in the rain.',
+          ],
+          [
+            1,
+            '[~ 16:30] Belle Sauvage - Philip Pullman.epub (OEBPS/Text/part0012.html) - Evensong',
+            "\x{201c}No, thank you. Don\x{2019}t call me again like this. The porter at Jordan is a gossip. If you want to contact me, put a card on the notice board outside the History Faculty Library, saying simply \x{2018}Candle.\x{2019} That will be a signal to go to the next <<Evensong|13>> at Wykeham. I shall be sitting alone. You will sit next to me and we can talk quietly under the music.\x{201d}",
           ],
           [
             1,

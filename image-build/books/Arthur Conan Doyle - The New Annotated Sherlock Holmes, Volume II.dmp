@@ -2,7 +2,7 @@ $VAR1 = [
           [
             1,
             '[ap 04:27] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0003.html) - 427',
-            "The Honourable Ronald Adair was the second son of the Earl of Maynooth, at that time Governor of one of the Australian Colonies. Adair\x{2019}s mother had returned from Australia to undergo the operation for cataract, and she, her son Ronald, and her daughter Hilda were living together at <<427|3:1>> Park Lane. The youth moved in the best society, had, so far as was known, no enemies, and no particular vices. He had been engaged to Miss Edith Woodley, of Carstairs, but the engagement had been broken off by mutual consent some months before, and there was no sign that it had left any very profound feeling behind it. For the rest, the man\x{2019}s life moved in a narrow and conventional circle, for his habits were quiet and his nature unemotional. Yet it was upon this easy-going young aristocrat that death came, in most strange and unexpected form, between the hours of ten and <<eleven-twenty|5k:1>> on the night of March 30, 1894.",
+            "The Honourable Ronald Adair was the second son of the Earl of Maynooth, at that time Governor of one of the Australian Colonies. Adair\x{2019}s mother had returned from Australia to undergo the operation for cataract, and she, her son Ronald, and her daughter Hilda were living together at <<427|3:1>> Park Lane. The youth moved in the best society, had, so far as was known, no enemies, and no particular vices. He had been engaged to Miss Edith Woodley, of Carstairs, but the engagement had been broken off by mutual consent some months before, and there was no sign that it had left any very profound feeling behind it. For the rest, the man\x{2019}s life moved in a narrow and conventional circle, for his habits were quiet and his nature unemotional. Yet it was upon this easy-going young aristocrat that death came, in most strange and unexpected form, between the hours of <<ten|20>> and <<eleven-twenty|20a>> on the night of March 30, 1894.",
           ],
           [
             1,
@@ -102,8 +102,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 11:20] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0003.html) - eleven-twenty',
-            "57 Park Lane fronts on Hyde Park for its entire length. From where, then, did the colonel fire? Percival Wilde, in \x{201c}The Bust in the Window,\x{201d} suggests a location inside the park near the Marble Arch entrance, though he would have faced the difficult task of escaping attention from the scores of people who frequented the park \x{201c}between the hours of ten and <<eleven-twenty|5k:1>>\x{201d} at night. Edgar W. Smith also nominates a position within the park, but in considering the difficulties of firing accurately while aiming upward toward a target two flights above ground level, he posits that Moran must have climbed \x{201c}a strategically placed tree\x{201d} to reach the appropriate level. Nicholas Utechin, disregarding the height issue as well as that of any bystanders, argues that the Colonel shot Adair while standing on the pavement on the Hyde Park side of Park Lane.",
+            '[ap 10:00] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0003.html) - ten',
+            "57 Park Lane fronts on Hyde Park for its entire length. From where, then, did the colonel fire? Percival Wilde, in \x{201c}The Bust in the Window,\x{201d} suggests a location inside the park near the Marble Arch entrance, though he would have faced the difficult task of escaping attention from the scores of people who frequented the park \x{201c}between the hours of <<ten|20>> and <<eleven-twenty|20a>>\x{201d} at night. Edgar W. Smith also nominates a position within the park, but in considering the difficulties of firing accurately while aiming upward toward a target two flights above ground level, he posits that Moran must have climbed \x{201c}a strategically placed tree\x{201d} to reach the appropriate level. Nicholas Utechin, disregarding the height issue as well as that of any bystanders, argues that the Colonel shot Adair while standing on the pavement on the Hyde Park side of Park Lane.",
           ],
           [
             1,
@@ -221,8 +221,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[19:57] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0007.html) - until 1957',
-            "42 Most American statutes and, <<until 1957|9n:0>>, British law proscribed \x{201c}felony murder,\x{201d} a killing committed while a felony or \x{201c}serious crime of violence\x{201d} is being perpetrated. Because Wilder was clearly an accessory to the felony, he would be guilty of the murder as well.",
+            '[19:57] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0007.html) - 1957',
+            "42 Most American statutes and, until <<1957|9n:0>>, British law proscribed \x{201c}felony murder,\x{201d} a killing committed while a felony or \x{201c}serious crime of violence\x{201d} is being perpetrated. Because Wilder was clearly an accessory to the felony, he would be guilty of the murder as well.",
           ],
           [
             1,
@@ -284,7 +284,7 @@ $VAR1 = [
           [
             1,
             '[ap 09:30] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0009.html) - nine-thirty',
-            "\x{201c}I can see that you have a strong natural turn for this sort of thing. Very good; do you make the masks. We shall have some cold supper before we start. It is now <<nine-thirty|5k:1>>. At <<eleven|9m>> we shall drive as far as Church Row. It is a quarter of an hour\x{2019}s walk from there to Appledore Towers. We shall be at work before <<midnight|13>>. Milverton is a heavy sleeper, and retires punctually at <<ten-thirty|5b>>. With any luck we should be back here by two, with the Lady Eva\x{2019}s letters in my pocket.\x{201d}",
+            "\x{201c}I can see that you have a strong natural turn for this sort of thing. Very good; do you make the masks. We shall have some cold supper before we start. It is now <<nine-thirty|5k:1>>. At <<eleven|9m>> we shall drive as far as Church Row. It is a quarter of an hour\x{2019}s walk from there to Appledore Towers. We shall be at work <<before midnight|13>>. Milverton is a heavy sleeper, and retires punctually at <<ten-thirty|5b>>. With any luck we should be back here by two, with the Lady Eva\x{2019}s letters in my pocket.\x{201d}",
           ],
           [
             1,
@@ -338,13 +338,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 00:57] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0010.html) - three to one',
-            "31 Watson originally miscounted the busts and made the odds \x{201c}<<three to one|10a:0>>\x{201d} in the manuscript.",
-          ],
-          [
-            1,
-            '[ap 00:57] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0010.html) - three to one',
-            "31 Watson originally miscounted the busts and made the odds \x{201c}<<three to one|10a:1>>\x{201d} in the manuscript.
+            '[00:00] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0010.html) - midnight',
+            "31 Watson originally miscounted the busts and made the odds \x{201c}three to one\x{201d} in the manuscript.
 32 Originally \x{201c}<<midnight|13>>\x{201d} in the manuscript.
 33 A special messenger who would convey a letter at a pre-paid or partly pre-paid rate. The Express Delivery Service was established by the post office in 1891. It was not until the queen\x{2019}s Diamond Jubilee in 1897 that the post office established free postal service for all households in England.",
           ],
@@ -377,6 +372,11 @@ $VAR1 = [
           ],
           [
             1,
+            '[ap 06:00] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0011.html) - six',
+            "\x{201c}Aha! It is not for nothing that I have turned myself out of bed at the untimely hour of <<six|20>>. I have put in two hours\x{2019} hard work and covered at least five miles, with something to show for it. Look at that!\x{201d}",
+          ],
+          [
+            1,
             '[05:00] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0011.html) - lauds',
             "WATSON\x{2019}S casual remark that Holmes was conducting research into early English charters may be a significant clue in the controversy over whether Holmes attended Oxford or Cambridge\x{2014}or at least several scholars seize upon it as such. The first to lean heavily on this point is T. S. Blakeney, who declares in \x{201c}The Location of \x{2018}The Three Students\x{2019} \x{201d} that Holmes\x{2019}s research must have been conducted at Oxford. As proof, he <<lauds|13>> Oxford\x{2019}s history department, claiming that its status was unparalleled in England at this time. In part, the department owed its lofty reputation to the eminent William Stubbs, regius professor of history (as well as bishop respectively of Chester and Oxford), whose published works include the three-volume The Constitutional History of England in Its Origin and Development (1873\x{2013}78), Select Charters and Other Illustrations of English Constitutional History from the Earliest Times to the Reign of Edward the First (1870) and nineteen volumes of medieval English chronicles that he edited for the government\x{2019}s ambitious Rolls series. In addition, Blakeney notes, William H. Turner\x{2019}s Calendar of Charters and Rolls was published by Oxford in 1878 and housed in Oxford\x{2019}s Bodleian Library. Turner\x{2019}s work was \x{201c}just the sort of volume that an amateur historian, as Holmes was, would find invaluable. Against this solidly enthroned tradition of the Oxford Medieval History School, what had Cambridge to offer?\x{201d}",
           ],
@@ -392,8 +392,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[12:00] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0012.html) - midday',
-            "\x{201c}Now I will give you the evidence of Susan Tarlton, who is the only person who can say anything positive about the matter. It was in the forenoon, between eleven and twelve. She was engaged at the moment in hanging some curtains in the upstairs front bedroom. Professor Coram was still in bed, for when the weather is bad he seldom rises before <<midday|13>>. The housekeeper was busied with some work in the back of the house. Willoughby Smith had been in his bedroom, which he uses as a sitting-room; but the maid heard him at that moment pass along the passage and descend to the study immediately below her. She did not see him, but she says that she could not be mistaken in his quick, firm tread. She did not hear the study door close, but a minute or so later there was a dreadful cry in the room below. It was a wild, hoarse scream, so strange and unnatural that it might have come either from a man or a woman. At the same instant there was a heavy thud, which shook the whole house, and then all was silence. The maid stood petrified for a moment, and then, recovering her courage, she ran downstairs. The study door was shut, and she opened it. Inside, young Mr. Willoughby Smith was stretched upon the floor. At first she could see no injury, but as she tried to raise him she saw that blood was pouring from the under side of his neck. It was pierced by a very small but very deep wound, which had divided the carotid artery. The instrument with which the injury had been inflicted lay upon the carpet beside him. It was one of those small sealing-wax knives to be found on old-fashioned writing-tables, with an ivory handle and a stiff blade. It was part of the fittings of the professor\x{2019}s own desk.",
+            '[< 12:00] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0012.html) - before midday',
+            "\x{201c}Now I will give you the evidence of Susan Tarlton, who is the only person who can say anything positive about the matter. It was in the forenoon, between eleven and twelve. She was engaged at the moment in hanging some curtains in the upstairs front bedroom. Professor Coram was still in bed, for when the weather is bad he seldom rises <<before midday|13>>. The housekeeper was busied with some work in the back of the house. Willoughby Smith had been in his bedroom, which he uses as a sitting-room; but the maid heard him at that moment pass along the passage and descend to the study immediately below her. She did not see him, but she says that she could not be mistaken in his quick, firm tread. She did not hear the study door close, but a minute or so later there was a dreadful cry in the room below. It was a wild, hoarse scream, so strange and unnatural that it might have come either from a man or a woman. At the same instant there was a heavy thud, which shook the whole house, and then all was silence. The maid stood petrified for a moment, and then, recovering her courage, she ran downstairs. The study door was shut, and she opened it. Inside, young Mr. Willoughby Smith was stretched upon the floor. At first she could see no injury, but as she tried to raise him she saw that blood was pouring from the under side of his neck. It was pierced by a very small but very deep wound, which had divided the carotid artery. The instrument with which the injury had been inflicted lay upon the carpet beside him. It was one of those small sealing-wax knives to be found on old-fashioned writing-tables, with an ivory handle and a stiff blade. It was part of the fittings of the professor\x{2019}s own desk.",
           ],
           [
             1,
@@ -502,8 +502,8 @@ MY DEAR MR. HOLMES\x{2014}I should be very glad of your immediate assistance in 
           ],
           [
             1,
-            '[19:08] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0015.html) - until 1908',
-            "In \x{201c}The Naval Treaty,\x{201d} Dr. Watson mentions \x{201c}The Adventure of the Second Stain\x{201d} as a case involving \x{201c}interests of such importance and implicat[ing] so many of the first families in the kingdom that for many years it will be impossible to make it public.\x{201d} That case is definitely not this case. (For one thing, one may search in vain for mention of Fritz von Waldbaum or Monsieur Dubuque.) Yet this \x{201c}Second Stain\x{201d} is also a case of great international importance and one of the few reported matters to involve Holmes with political crimes, the others being \x{201c}The Naval Treaty\x{201d} and \x{201c}The Bruce-Partington Plans.\x{201d} The events that take place are reminiscent of those in Edgar Allan Poe\x{2019}s \x{201c}Purloined Letter,\x{201d} and it becomes clear that Holmes\x{2014}who, in A Study in Scarlet, decries C. Auguste Dupin, the detective of the \x{201c}Purloined Letter,\x{201d} as \x{201c}a very inferior fellow\x{201d}\x{2014}is not above copying the tactics of the era\x{2019}s other famous detective. \x{201c}The Second Stain\x{201d} is also noteworthy as the last case reported by Watson before his announcement of Holmes\x{2019}s retirement. The news of Holmes\x{2019}s retirement closed the series of stories known as The Return of Sherlock Holmes, and the public had to wait <<until 1908|18:1>> for any further tales of the detective.",
+            '[19:08] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0015.html) - 1908',
+            "In \x{201c}The Naval Treaty,\x{201d} Dr. Watson mentions \x{201c}The Adventure of the Second Stain\x{201d} as a case involving \x{201c}interests of such importance and implicat[ing] so many of the first families in the kingdom that for many years it will be impossible to make it public.\x{201d} That case is definitely not this case. (For one thing, one may search in vain for mention of Fritz von Waldbaum or Monsieur Dubuque.) Yet this \x{201c}Second Stain\x{201d} is also a case of great international importance and one of the few reported matters to involve Holmes with political crimes, the others being \x{201c}The Naval Treaty\x{201d} and \x{201c}The Bruce-Partington Plans.\x{201d} The events that take place are reminiscent of those in Edgar Allan Poe\x{2019}s \x{201c}Purloined Letter,\x{201d} and it becomes clear that Holmes\x{2014}who, in A Study in Scarlet, decries C. Auguste Dupin, the detective of the \x{201c}Purloined Letter,\x{201d} as \x{201c}a very inferior fellow\x{201d}\x{2014}is not above copying the tactics of the era\x{2019}s other famous detective. \x{201c}The Second Stain\x{201d} is also noteworthy as the last case reported by Watson before his announcement of Holmes\x{2019}s retirement. The news of Holmes\x{2019}s retirement closed the series of stories known as The Return of Sherlock Holmes, and the public had to wait until <<1908|18:1>> for any further tales of the detective.",
           ],
           [
             1,
@@ -623,7 +623,7 @@ Holmes glanced at his watch.",
             1,
             '[ap ~ 01:00] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0019.html) - About one',
             "\x{201c}Excellent!\x{201d} said Holmes. \x{201c}When does he lunch?\x{201d}
-\x{201c}<<About one|9e>>, sir.\x{201d}
+\x{201c}<<About one|9e:0>>, sir.\x{201d}
 \x{201c}Then Dr. Watson and I will come round in time. For the present, Mrs. Warren, good-bye.\x{201d}",
           ],
           [
@@ -716,7 +716,7 @@ Holmes glanced at his watch.",
           [
             1,
             '[19:11] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0020.html) - 1911',
-            "France and the United States had become innovators in the field of submarine development, and technology was progressing even further still. By <<1911|9n:0>>, the Encyclop\x{e6}dia Britannica (11th Ed.) acknowledged, \x{201c}By far the greater number of submarine boats in existence in 1910 were developments through a process of continuous experiment and improvement of the Gymnote and of the early Holland boats, although the process of evolution had been so rapid and extensive that the parentage of these modern boats is barely recognizable. . . .\x{201d} The British navy, however, declined to participate in the race for invention, choosing to commission five Holland-design submarines in 1901. The first was completed in 1903. Germany did not build its first submarine, the U-1, <<until 1905|9n:0>>.",
+            "France and the United States had become innovators in the field of submarine development, and technology was progressing even further still. By <<1911|9n:0>>, the Encyclop\x{e6}dia Britannica (11th Ed.) acknowledged, \x{201c}By far the greater number of submarine boats in existence in 1910 were developments through a process of continuous experiment and improvement of the Gymnote and of the early Holland boats, although the process of evolution had been so rapid and extensive that the parentage of these modern boats is barely recognizable. . . .\x{201d} The British navy, however, declined to participate in the race for invention, choosing to commission five Holland-design submarines in 1901. The first was completed in 1903. Germany did not build its first submarine, the U-1, until <<1905|9n:0>>.",
           ],
           [
             1,
@@ -1146,7 +1146,7 @@ G. DUNBAR.",
           [
             1,
             '[12:00] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0035.html) - midday',
-            "\x{201c}No, no, you won\x{2019}t draw me until I am ready,\x{201d} said I with a smile. \x{201c}Now, Inspector, we each have our own work to do. Perhaps if you were to meet me here at <<midday|9b>>\x{2014}\x{201d}",
+            "\x{201c}No, no, you won\x{2019}t draw me until I am ready,\x{201d} said I with a smile. \x{201c}Now, Inspector, we each have our own work to do. Perhaps if you were to meet me here at <<midday|13>>\x{2014}\x{201d}",
           ],
           [
             1,
@@ -1160,8 +1160,8 @@ G. DUNBAR.",
           ],
           [
             1,
-            '[19:19] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0035.html) - until 1919',
-            "46 The perpetually dubious D. Martin Dakin concludes that \x{201c}The Lion\x{2019}s Mane\x{201d} is a pseudonymous story: a tale of \x{201c}pure invention\x{201d} not intended for publication, written at Holmes\x{2019}s request and with the use of his notes. O. F. Grazebrook uses harsher language, labelling it an \x{201c}impudent forgery.\x{201d} But Tom Alessandri urges the reader to remember that Holmes did not write \x{201c}The Lion\x{2019}s Mane\x{201d} <<until 1919|18:0>> or 1920, when he would have been sixty-five or sixty-six. The story therefore presents a fascinating look \x{201c}as to how a genius reviews and attempts to revitalize a past career\x{201d} and permits us to view \x{201c}a lonely bee-keeper who seems sincerely to miss his old friend.\x{201d}",
+            '[19:19] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0035.html) - 1919',
+            "46 The perpetually dubious D. Martin Dakin concludes that \x{201c}The Lion\x{2019}s Mane\x{201d} is a pseudonymous story: a tale of \x{201c}pure invention\x{201d} not intended for publication, written at Holmes\x{2019}s request and with the use of his notes. O. F. Grazebrook uses harsher language, labelling it an \x{201c}impudent forgery.\x{201d} But Tom Alessandri urges the reader to remember that Holmes did not write \x{201c}The Lion\x{2019}s Mane\x{201d} until <<1919|18:0>> or 1920, when he would have been sixty-five or sixty-six. The story therefore presents a fascinating look \x{201c}as to how a genius reviews and attempts to revitalize a past career\x{201d} and permits us to view \x{201c}a lonely bee-keeper who seems sincerely to miss his old friend.\x{201d}",
           ],
           [
             1,

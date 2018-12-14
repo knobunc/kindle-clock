@@ -66,11 +66,6 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 00:52] Thinking, Fast and Slow - Daniel Kahneman.epub (CR!TA0Q4JDFX96QN90P9V64BBTEV4QG_split_053.html) - 8 to 1',
-            "In this problem, the correct posterior odds are <<8 to 1|10a:0>> for the 4:1 sample and <<16 to 1|10a:0>> for the 12:8 sample, assuming equal prior probabilities. However, most people feel that the first sample provides much stronger evidence for the hypothesis that the urn is predominantly red, because the proportion of red balls is larger in the first than in the second sample. Here again, intuitive judgments are dominated by the sample proportion and are essentially unaffected by the size of the sample, which plays a crucial role in the determination of the actual posterior odds. In addition, intuitive estimates of posterior odds are far less extreme than the correct values. The underestimation of the impact of evidence has been observed repeatedly in problems of this type. It has been labeled \x{201c}conservatism.\x{201d}",
-          ],
-          [
-            1,
             '[23:58] Thinking, Fast and Slow - Daniel Kahneman.epub (CR!TA0Q4JDFX96QN90P9V64BBTEV4QG_split_055.html) - 2 to 0',
             "A closely related phenomenon can be demonstrated at the low end of the probability range. Suppose you are undecided whether or not to purchase earthquake insurance because the premium is quite high. As you hesitate, your friendly insurance agent comes forth with an alternative offer: \x{201c}For half the regular premium you can be fully covered if the quake occurs on an odd day of the month. This is a good deal because for half the price you are covered for more than half the days.\x{201d} Why do most people find such probabilistic insurance distinctly unattractive? Figure 2 suggests an answer. Starting anywhere in the region of low probabilities, the impact on the decision weight of a reduction of probability from p to p/2 is considerably smaller than the effect of a reduction from p/<<2 to 0|10a:0>>. Reducing the risk by half, then, is not worth half the premium.",
           ],
@@ -87,6 +82,6 @@ $VAR1 = [
           [
             1,
             '[12:00] Thinking, Fast and Slow - Daniel Kahneman.epub (CR!TA0Q4JDFX96QN90P9V64BBTEV4QG_split_058.html) - noon',
-            "focal event and its: Judgments of the probabilities of an event and its complement do not always add up to 100%. When people are asked about a topic they know very little about (\x{201c}What is your probability that the temperature in Bangkok will exceed 100\x{b0} tomorrow at <<noon|9b>>?\x{201d}), the judged probabilities of the event and its complement add up to less than 100%.",
+            "focal event and its: Judgments of the probabilities of an event and its complement do not always add up to 100%. When people are asked about a topic they know very little about (\x{201c}What is your probability that the temperature in Bangkok will exceed 100\x{b0} tomorrow at <<noon|13>>?\x{201d}), the judged probabilities of the event and its complement add up to less than 100%.",
           ],
         ];

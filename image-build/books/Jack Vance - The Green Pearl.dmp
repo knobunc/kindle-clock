@@ -41,8 +41,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[00:00] The Green Pearl - Jack Vance.epub (OEBPS/page-1.html) - midnight',
-            "The maid hesitated. \x{201c}Perhaps I should not say this, but tonight is the night of the half-moon waning, and when the weather is fine Lady Melancthe leaves the house an hour before <<midnight|13>>, and returns somewhat later; after moondown. Truly, I fear for her, since this is not altogether a kind coast.\x{201d}",
+            '[< 23:00] The Green Pearl - Jack Vance.epub (OEBPS/page-1.html) - an hour before midnight',
+            "The maid hesitated. \x{201c}Perhaps I should not say this, but tonight is the night of the half-moon waning, and when the weather is fine Lady Melancthe leaves the house <<an hour before midnight|10>>, and returns somewhat later; after moondown. Truly, I fear for her, since this is not altogether a kind coast.\x{201d}",
           ],
           [
             1,
@@ -91,8 +91,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[12:06] The Green Pearl - Jack Vance.epub (OEBPS/page-1.html) - noon six',
-            "\x{201c}Alas!\x{201d} sighed Dildahl. \x{201c}At <<noon six|5b>> druids arrived and each ate lamb shanks with both cheeks, so that tonight the kitchen boy ate the remaining scraps for his supper. But no matter; I can offer a succulent pie of crayfish tails, or a brace of fine brown trout, at their prime, sizzling in butter and vinegar.\x{201d}",
+            '[12:00] The Green Pearl - Jack Vance.epub (OEBPS/page-1.html) - noon',
+            "\x{201c}Alas!\x{201d} sighed Dildahl. \x{201c}At <<noon|13>> six druids arrived and each ate lamb shanks with both cheeks, so that tonight the kitchen boy ate the remaining scraps for his supper. But no matter; I can offer a succulent pie of crayfish tails, or a brace of fine brown trout, at their prime, sizzling in butter and vinegar.\x{201d}",
           ],
           [
             1,

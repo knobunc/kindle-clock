@@ -6,8 +6,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[> 12:00] Little Dorrit - Charles Dickens.epub (index_split_006.html) - after mid-day',
-            '\'There!\' said the jailer, turning his basket upside down to beat the crumbs out, \'I have expended all the money I received; here is the note of it, and that\'s a thing accomplished. Monsieur Rigaud, as I expected yesterday, the President will look for the pleasure of your society at an hour <<after mid-day|13>>, to-day.\'',
+            '[> 13:00] Little Dorrit - Charles Dickens.epub (index_split_006.html) - an hour after mid-day',
+            '\'There!\' said the jailer, turning his basket upside down to beat the crumbs out, \'I have expended all the money I received; here is the note of it, and that\'s a thing accomplished. Monsieur Rigaud, as I expected yesterday, the President will look for the pleasure of your society at <<an hour after mid-day|10>>, to-day.\'',
           ],
           [
             1,
@@ -100,7 +100,7 @@ $VAR1 = [
             1,
             '[00:00] Little Dorrit - Charles Dickens.epub (index_split_019.html) - midnight',
             '
-\'My poor child! Here at <<midnight|9b>>?\'
+\'My poor child! Here at <<midnight|13>>?\'
 ',
           ],
           [
@@ -170,13 +170,13 @@ $VAR1 = [
           ],
           [
             1,
-            '[17:00] Little Dorrit - Charles Dickens.epub (index_split_038.html) - five o\'clock in the afternoon',
-            'The conference was held at four or <<five o\'clock in the afternoon|6>>, when all the region of Harley Street, Cavendish Square, was resonant of carriage-wheels and double-knocks. It had reached this point when Mr Merdle came home from his daily occupation of causing the British name to be more and more respected in all parts of the civilised globe capable of the appreciation of world-wide commercial enterprise and gigantic combinations of skill and capital. For, though nobody knew with the least precision what Mr Merdle\'s business was, except that it was to coin money, these were the terms in which everybody defined it on all ceremonious occasions, and which it was the last new polite reading of the parable of the camel and the needle\'s eye to accept without inquiry.',
+            '[ap 04:00] Little Dorrit - Charles Dickens.epub (index_split_038.html) - four',
+            'The conference was held at <<four|20>> or <<five o\'clock in the afternoon|6>>, when all the region of Harley Street, Cavendish Square, was resonant of carriage-wheels and double-knocks. It had reached this point when Mr Merdle came home from his daily occupation of causing the British name to be more and more respected in all parts of the civilised globe capable of the appreciation of world-wide commercial enterprise and gigantic combinations of skill and capital. For, though nobody knew with the least precision what Mr Merdle\'s business was, except that it was to coin money, these were the terms in which everybody defined it on all ceremonious occasions, and which it was the last new polite reading of the parable of the camel and the needle\'s eye to accept without inquiry.',
           ],
           [
             1,
-            '[> 00:00] Little Dorrit - Charles Dickens.epub (index_split_038.html) - after midnight',
-            'At last he met the chief butler, the sight of which splendid retainer always finished him. Extinguished by this great creature, he sneaked to his dressing-room, and there remained shut up until he rode out to dinner, with Mrs Merdle, in her own handsome chariot. At dinner, he was envied and flattered as a being of might, was Treasuried, Barred, and Bishoped, as much as he would; and an hour <<after midnight|13>> came home alone, and being instantly put out again in his own hall, like a rushlight, by the chief butler, went sighing to bed.',
+            '[> 01:00] Little Dorrit - Charles Dickens.epub (index_split_038.html) - an hour after midnight',
+            'At last he met the chief butler, the sight of which splendid retainer always finished him. Extinguished by this great creature, he sneaked to his dressing-room, and there remained shut up until he rode out to dinner, with Mrs Merdle, in her own handsome chariot. At dinner, he was envied and flattered as a being of might, was Treasuried, Barred, and Bishoped, as much as he would; and <<an hour after midnight|10>> came home alone, and being instantly put out again in his own hall, like a rushlight, by the chief butler, went sighing to bed.',
           ],
           [
             1,
@@ -240,8 +240,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[00:00] Little Dorrit - Charles Dickens.epub (index_split_060.html) - midnight',
-            'It happened, fortunately for the elucidation of any intelligible result, that Mr Dorrit had heard or read nothing about the matter. This caused Mrs Finching, with many apologies for being in great practical difficulties as to finding the way to her pocket among the stripes of her dress at length to produce a police handbill, setting forth that a foreign gentleman of the name of Blandois, last from Venice, had unaccountably disappeared on such a night in such a part of the city of London; that he was known to have entered such a house, at such an hour; that he was stated by the inmates of that house to have left it, about so many minutes before <<midnight|13>>; and that he had never been beheld since. This, with exact particulars of time and locality, and with a good detailed description of the foreign gentleman who had so mysteriously vanished, Mr Dorrit read at large.',
+            '[< 00:00] Little Dorrit - Charles Dickens.epub (index_split_060.html) - before midnight',
+            'It happened, fortunately for the elucidation of any intelligible result, that Mr Dorrit had heard or read nothing about the matter. This caused Mrs Finching, with many apologies for being in great practical difficulties as to finding the way to her pocket among the stripes of her dress at length to produce a police handbill, setting forth that a foreign gentleman of the name of Blandois, last from Venice, had unaccountably disappeared on such a night in such a part of the city of London; that he was known to have entered such a house, at such an hour; that he was stated by the inmates of that house to have left it, about so many minutes <<before midnight|13>>; and that he had never been beheld since. This, with exact particulars of time and locality, and with a good detailed description of the foreign gentleman who had so mysteriously vanished, Mr Dorrit read at large.',
           ],
           [
             1,
@@ -295,8 +295,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 01:00] Little Dorrit - Charles Dickens.epub (index_split_072.html) - one o\'clock',
-            'Night after night he had risen from his bed of wretchedness at twelve or <<one o\'clock|6>>, and had sat at his window watching the sickly lamps in the yard, and looking upward for the first wan trace of day, hours before it was possible that the sky could show it to him. Now when the night came, he could not even persuade himself to undress.',
+            '[ap 00:00] Little Dorrit - Charles Dickens.epub (index_split_072.html) - twelve',
+            'Night after night he had risen from his bed of wretchedness at <<twelve|20>> or <<one o\'clock|6>>, and had sat at his window watching the sickly lamps in the yard, and looking upward for the first wan trace of day, hours before it was possible that the sky could show it to him. Now when the night came, he could not even persuade himself to undress.',
           ],
           [
             1,

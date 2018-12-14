@@ -1,9 +1,9 @@
 $VAR1 = [
           [
             1,
-            '[> 00:00] Something Wicked This Way Comes - Ray Bradbury.epub (Something_Wicked_This_Way_Comes_split_005.html) - after midnight',
+            '[> 03:00] Something Wicked This Way Comes - Ray Bradbury.epub (Something_Wicked_This_Way_Comes_split_005.html) - three hours after midnight',
             'But one strange wild dark long year, Hallowe\'en came early.
-One year Hallowe\'en came on October 24, three hours <<after midnight|13>>.
+One year Hallowe\'en came on October 24, <<three hours after midnight|10>>.
 At that time, James Nightshade of 97 Oak Street was thirteen years, eleven months, twenty-three days old. Next door, William Halloway was thirteen years, eleven months and twenty-four days old. Both touched toward fourteen; it almost trembled in their hands.',
           ],
           [
@@ -165,13 +165,6 @@ He heard, or thought he heard, Jim out in the starlight leaping way up and comin
             1,
             '[00:00] Something Wicked This Way Comes - Ray Bradbury.epub (Something_Wicked_This_Way_Comes_split_030.html) - midnight',
             'But now in the swift <<midnight|13>> shuttering, the Electric Chair was a hearth and on it the old man blazed like a blue autumn tree.',
-          ],
-          [
-            1,
-            "[ap 01:02] Something Wicked This Way Comes - Ray Bradbury.epub (Something_Wicked_This_Way_Comes_split_030.html) - one\x{2026}two",
-            "The old old man's lips trembled.
-'\x{2026}heart beat\x{2026}<<one\x{2026}two|5l:0>>\x{2026}so\x{2026}so\x{2026}'
-The Witch again? Will feared to look.",
           ],
           [
             1,

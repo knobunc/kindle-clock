@@ -642,8 +642,8 @@ CLARE: The children have run around and eaten too much party food and now they a
           ],
           [
             1,
-            '[00:00] The Time Traveler\'s Wife - Audrey Niffenegger.epub (OEBPS/Text/Part_2b.xhtml) - midnight',
-            "\x{201c}Sure you don\x{2019}t want to sleep for a while? I\x{2019}ll wake you up right before <<midnight|13>>.\x{201d}",
+            '[< 00:00] The Time Traveler\'s Wife - Audrey Niffenegger.epub (OEBPS/Text/Part_2b.xhtml) - before midnight',
+            "\x{201c}Sure you don\x{2019}t want to sleep for a while? I\x{2019}ll wake you up right <<before midnight|13>>.\x{201d}",
           ],
           [
             1,

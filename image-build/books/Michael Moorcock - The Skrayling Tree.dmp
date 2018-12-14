@@ -6,8 +6,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 04:00] The Skrayling Tree_ The Albino in America - Michael Moorcock.epub (OEBPS/SkraylingTree_appe-3.html) - Until four',
-            "\x{201c}Your children and their governesses. <<Until four|9:0>>. At <<five|9e>>, a ceremony in the Audience Chamber.\x{201d}",
+            '[ap 04:00] The Skrayling Tree_ The Albino in America - Michael Moorcock.epub (OEBPS/SkraylingTree_appe-3.html) - four',
+            "\x{201c}Your children and their governesses. Until <<four|9:0>>. At <<five|9e>>, a ceremony in the Audience Chamber.\x{201d}",
           ],
           [
             1,
@@ -34,8 +34,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[12:00] The Skrayling Tree_ The Albino in America - Michael Moorcock.epub (OEBPS/SkraylingTree_chap-17.html) - noon',
-            'The wind came back before <<noon|13>> and blustered at us from every angle, as if trying to uproot us from our uneasy balance on
+            '[< 12:00] The Skrayling Tree_ The Albino in America - Michael Moorcock.epub (OEBPS/SkraylingTree_chap-17.html) - before noon',
+            'The wind came back <<before noon|13>> and blustered at us from every angle, as if trying to uproot us from our uneasy balance on
          the mountain face and hurl us into valleys now entirely obscured by thick, pale cloud. We kept our gloved fingers tight in
          the cracks of the rock face and took no chances, advancing step by careful step.',
           ],
@@ -43,7 +43,7 @@ $VAR1 = [
             1,
             '[ap > 01:00] The Skrayling Tree_ The Albino in America - Michael Moorcock.epub (OEBPS/SkraylingTree_chap-18.html) - After one',
             'More miniature arrows zipped past me like bees. They were not deliberately trying to miss me. I was amazed at their bad marksmanship,
-         as I was not, after all, a small target. They were clearly terrified. <<After one|9e>> last attempt to persuade them to see reason,
+         as I was not, after all, a small target. They were clearly terrified. <<After one|9e:0>> last attempt to persuade them to see reason,
          I acted without thinking, without any hesitation, and with a growing frisson of relished destruction.',
           ],
           [

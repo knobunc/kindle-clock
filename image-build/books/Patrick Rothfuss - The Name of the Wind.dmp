@@ -22,7 +22,7 @@ $VAR1 = [
           [
             1,
             '[00:00] The Name of the Wind - Patrick Rothfuss.epub (index_split_026.html) - midnight',
-            'I woke at <<midnight|9b>> when all the bells in the city started ringing. People ran and shouted in the streets. The seven days of High Mourning were behind us. Midwinter was past. A new year had begun.',
+            'I woke at <<midnight|13>> when all the bells in the city started ringing. People ran and shouted in the streets. The seven days of High Mourning were behind us. Midwinter was past. A new year had begun.',
           ],
           [
             1,
@@ -36,9 +36,9 @@ $VAR1 = [
           ],
           [
             1,
-            '[12:00] The Name of the Wind - Patrick Rothfuss.epub (index_split_036.html) - noon',
+            '[< 11:00] The Name of the Wind - Patrick Rothfuss.epub (index_split_036.html) - AN hour before noon',
             'Coppers, Cobblers and Crowds
-IT WAS ABOUT AN hour before <<noon|13>> when I stepped out onto the street.
+IT WAS ABOUT <<AN hour before noon|10>> when I stepped out onto the street.
 The sun was out and the cobblestones were warm beneath my feet. As the noise of the market rose to an irregular hum around me, I tried to enjoy the pleasant sensation of having a full belly and a clean body.',
           ],
           [
@@ -122,23 +122,13 @@ Elodin rapped on the thick timber door with a knuckle, and the man scrambled to 
           ],
           [
             1,
-            '[ap 00:57] The Name of the Wind - Patrick Rothfuss.epub (index_split_056.html) - three to one',
-            "Sovoy began to rummage around in a drawer, bringing out sympathy wax, twine, and a few pieces of metal. \x{201c}I don\x{2019}t know how well I\x{2019}ll be able to do for you. The odds are getting bad. I\x{2019}m guessing <<three to one|10a:0>> is the best you\x{2019}ll get today. You still interested if it gets that low?\x{201d}",
-          ],
-          [
-            1,
-            '[ap 00:58] The Name of the Wind - Patrick Rothfuss.epub (index_split_056.html) - two to one',
-            "I sighed. The odds were the down side to my undefeated rank. Yesterday they had been <<two to one|10a:0>>, meaning I would have had to risk two pennies for the chance to win one. \x{201c}I\x{2019}ve got a little something planned,\x{201d} I said. \x{201c}Don\x{2019}t bet until we\x{2019}ve set terms. You should get at least three to one against me.\x{201d}",
-          ],
-          [
-            1,
             '[12:00] The Name of the Wind - Patrick Rothfuss.epub (index_split_064.html) - Noon',
             "\x{201c}Kvothe, Arliden\x{2019}s son,\x{201d} I said when I finally arrived at the front of the line. The bored looking woman marked my name and I drew a tile out of the black velvet bag. It read \x{201c}Hepten: <<Noon|13>>.\x{201d} Five days from now, plenty of time to prepare.",
           ],
           [
             1,
-            '[12:00] The Name of the Wind - Patrick Rothfuss.epub (index_split_065.html) - noon',
-            "The next day one of Jamison\x{2019}s errand boys woke me out of a sound sleep in my vast bed at the Horse and Four. He informed me that I was due on the horns at a quarter hour before <<noon|13>>. I was being charged with Conduct Unbecoming a Member of the Arcanum. Ambrose had finally caught wind of my song.",
+            '[< 12:00] The Name of the Wind - Patrick Rothfuss.epub (index_split_065.html) - before noon',
+            "The next day one of Jamison\x{2019}s errand boys woke me out of a sound sleep in my vast bed at the Horse and Four. He informed me that I was due on the horns at a quarter hour <<before noon|13>>. I was being charged with Conduct Unbecoming a Member of the Arcanum. Ambrose had finally caught wind of my song.",
           ],
           [
             1,
@@ -160,7 +150,7 @@ Elodin rapped on the thick timber door with a knuckle, and the man scrambled to 
           [
             1,
             '[12:00] The Name of the Wind - Patrick Rothfuss.epub (index_split_069.html) - noon',
-            "But even better than that was the fact that my days of fruitlessly searching for Denna were at an end. Tomorrow at <<noon|9b>> in the Eolian: \x{201c}lunch and talking and walking\x{201d} as she had phrased it. The thought filled me with a giddy excitement.",
+            "But even better than that was the fact that my days of fruitlessly searching for Denna were at an end. Tomorrow at <<noon|13>> in the Eolian: \x{201c}lunch and talking and walking\x{201d} as she had phrased it. The thought filled me with a giddy excitement.",
           ],
           [
             1,
@@ -186,8 +176,8 @@ I slumped back against the bed. I was supposed to have met with Denna at the Eol
           ],
           [
             1,
-            '[> 12:00] The Name of the Wind - Patrick Rothfuss.epub (index_split_075.html) - after noon',
-            "I looked in the direction he gestured and saw chimney smoke rising from behind the hill. A great wave of relief washed over me. I\x{2019}d made it, and it was barely an hour <<after noon|13>>.",
+            '[> 13:00] The Name of the Wind - Patrick Rothfuss.epub (index_split_075.html) - an hour after noon',
+            "I looked in the direction he gestured and saw chimney smoke rising from behind the hill. A great wave of relief washed over me. I\x{2019}d made it, and it was barely <<an hour after noon|10>>.",
           ],
           [
             1,

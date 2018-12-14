@@ -38,18 +38,13 @@ $VAR1 = [
           ],
           [
             1,
-            '[> 12:00] The Forest House - Marion Zimmer Bradley.epub (OEBPS/page-1.html) - after noon',
-            '"Why not?" Cynric grinned. "I\'ve never seen any reason to keep the priestesses all penned up. That\'s like something you Romans would do. Dieda won\'t see or speak to me since she went in there, but my foster sister is not a prisoner. I will see what I can arrange for you." He drained his wine cup. "Be at the edge of the path leading to the Forest House three days from now, an hour <<after noon|13>>."',
+            '[> 13:00] The Forest House - Marion Zimmer Bradley.epub (OEBPS/page-1.html) - an hour after noon',
+            '"Why not?" Cynric grinned. "I\'ve never seen any reason to keep the priestesses all penned up. That\'s like something you Romans would do. Dieda won\'t see or speak to me since she went in there, but my foster sister is not a prisoner. I will see what I can arrange for you." He drained his wine cup. "Be at the edge of the path leading to the Forest House three days from now, <<an hour after noon|10>>."',
           ],
           [
             1,
             '[00:00] The Forest House - Marion Zimmer Bradley.epub (OEBPS/page-1.html) - midnight',
             'The last image was of a hill of knobbed granite where the purple heather grew. Chill winds swept eastward from the sea, scouring the rolling fields. In this windswept place real trees grew only along the strait where the island fronted the grim bulk of the mainland. Even as she realized that she was seeing Mona, the scene changed, and Eilan saw men of her own race clad in white, and women in robes of <<midnight|13>> blue, their faces grim as they piled wood into great pyres.',
-          ],
-          [
-            1,
-            '[ap 02:01] The Forest House - Marion Zimmer Bradley.epub (OEBPS/page-1.html) - two one',
-            "\"I know now what Ardanos wanted when he bade me choose you, child, and instead the gods brought Dieda into my hand. He was wrong about you, and yet he did the Lady's will all the same!\" Her lips twisted with what Eilan realized was laughter. \"Remember \x{2014} it is important! Perhaps even the Goddess Herself could not tell you <<two one|5l:0>> from the other. Nor the Romans \x{2014} I see now \x{2014}\" and she was silent again. Eilan looked down at her, unable to move.",
           ],
           [
             1,
@@ -83,8 +78,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[12:00] The Forest House - Marion Zimmer Bradley.epub (OEBPS/page-1.html) - noon',
-            '"Your father said you would probably arrive before <<noon|13>>," said the soldier. "You\'ll find him with the Legate in the Praetorium."',
+            '[< 12:00] The Forest House - Marion Zimmer Bradley.epub (OEBPS/page-1.html) - before noon',
+            '"Your father said you would probably arrive <<before noon|13>>," said the soldier. "You\'ll find him with the Legate in the Praetorium."',
           ],
           [
             1,

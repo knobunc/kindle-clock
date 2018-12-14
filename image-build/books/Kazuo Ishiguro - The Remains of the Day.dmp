@@ -1,6 +1,13 @@
 $VAR1 = [
           [
             1,
+            '[13:00] The Remains of the Day - Kazuo Ishiguro.epub (index_split_000.html) - One - Evening',
+            '
+Day <<One - Evening|5>>
+Salisbury',
+          ],
+          [
+            1,
             '[ap << 08:00] The Remains of the Day - Kazuo Ishiguro.epub (index_split_000.html) - well before eight o\'clock',
             'TONIGHT,  I  find  myself  here in a  guest house  in  the  city  of  Salisbury.  The  first day of my trip is now completed, and all in all, I must say I am quite satisfied. This expedition began this morning almost an hour later than I had planned, despite my having  completed  my  packing  and  loaded  the  Ford  with  all  necessary  items  <<well before eight o\'clock|6>>. What with Mrs Clements and the girls also gone for the week, I  suppose  I  was  very  conscious  of  the  fact  that  once  I  departed,  Darlington  Hall would  stand  empty  for  probably  the  first  time  this  century  -  perhaps  for  the  first time since the day it was built. It was an odd feeling and perhaps accounts for why I  delayed  my  departure  so  long,  wandering  around  the  house  many  times  over, checking one last time that all was in order.',
           ],
@@ -16,6 +23,13 @@ $VAR1 = [
           ],
           [
             1,
+            '[02:00] The Remains of the Day - Kazuo Ishiguro.epub (index_split_000.html) - Two - Morning',
+            '
+Day <<Two - Morning|5>>
+Salisbury',
+          ],
+          [
+            1,
             '[ap 07:30] The Remains of the Day - Kazuo Ishiguro.epub (index_split_000.html) - seven thirty',
             'When  I  parted  them  just  a  moment  ago,  the  light  outside  was  still  very  pale  and something  of  a  mist  was  affecting  my  view  of  the  baker\'s  shop  and  chemist\'s opposite. Indeed, following the street further along to where it runs over the little round-backed  bridge,  I  could  see  the  mist  rising  from  the  river,  obscuring  almost entirely one of the bridge-posts. There was not a soul to be seen, and apart from a hammering noise echoing from somewhere distant, and an occasional coughing in a room to the back of the house, there is still no sound to be heard. The landlady is clearly  not  yet  up  and  about,  suggesting  there  is  little  chance  of  her  serving breakfast earlier than her declared time of <<seven thirty|5k:0>>.',
           ],
@@ -28,6 +42,20 @@ $VAR1 = [
             1,
             '[ap > 06:00] The Remains of the Day - Kazuo Ishiguro.epub (index_split_000.html) - just  after  six  o\'clock',
             '"The  situation  is  rather  volatile.  It  is  <<just  after  six  o\'clock|10>>,  so  Father  can  well imagine the atmosphere in the kitchen at this moment."',
+          ],
+          [
+            1,
+            '[14:00] The Remains of the Day - Kazuo Ishiguro.epub (index_split_000.html) - Two - Afternoon',
+            '
+Day <<Two - Afternoon|5>>
+Mortimer\'s Pond, Dorset',
+          ],
+          [
+            1,
+            '[03:00] The Remains of the Day - Kazuo Ishiguro.epub (index_split_000.html) - Three - Morning',
+            '
+Day <<Three - Morning|5>>
+Taunton, Somerset',
           ],
           [
             1,
@@ -73,6 +101,13 @@ $VAR1 = [
           ],
           [
             1,
+            '[16:00] The Remains of the Day - Kazuo Ishiguro.epub (index_split_001.html) - Four - Afternoon',
+            '
+Day <<Four - Afternoon|5>>
+Little Compton, Cornwall',
+          ],
+          [
+            1,
             '[ap 03:00] The Remains of the Day - Kazuo Ishiguro.epub (index_split_001.html) - three o\'clock',
             'My own table is on the village square side of the room and I have thus spent much of the past hour watching the rain falling on the square, and upon the Ford and one or two other vehicles stationed outside. The rain has now steadied somewhat, but it is still sufficiently hard as to discourage one from going out and wandering around the village. Of course, the possibility has occurred to me that I might set off now to meet Miss Kenton; but then in my letter, I informed her I would be calling at <<three o\'clock|6>>, and I do not think it wise to surprise her by arriving any earlier. It would seem  quite  likely  then,  if  the  rain  does  not  cease  very  shortly,  that  I  will  remain here drinking tea until the proper time comes for me to set off. I have ascertained from the young woman who served me lunch that the address where Miss Kenton is  presently  residing  is  some  fifteen  minutes\'  walk  away,  which  implies  I  have  at least another forty minutes to wait.',
           ],
@@ -90,5 +125,12 @@ $VAR1 = [
             1,
             '[ap 08:30] The Remains of the Day - Kazuo Ishiguro.epub (index_split_001.html) - eight thirty',
             '"Now remember, my boy. I\'m trusting you." To which Mr Cardinal muttered with irritation:  "Yes,  yes,  you  have  my  word."  Then  their  footsteps  separated,  his lordship\'s going towards his study, Mr Cardinal\'s towards the library. At almost precisely <<eight thirty|5k:1>>, there came the sound of motor cars pulling up in the courtyard. I opened the door to a chauffeur, and past his shoulder I could see some  police  constables  dispersing  to  various  points  of  the  grounds.  The  next moment, I was showing in two very distinguished gentlemen, who were met by his lordship in the hall and ushered quickly into the drawing room. Ten minutes or so later came the sound of another car and I opened the door to Herr Ribbentrop, the German Ambassador, by now no stranger to Darlington Hall. His lordship emerged to meet him and the two gentlemen appeared to exchange complicit glances before disappearing  together  into  the  drawing  room.  When  a  few  minutes  later  I  was called in to provide refreshments, the four gentlemen were discussing the relative merits of different sorts of sausage,  and the  atmosphere  seemed  on  the surface at least quite convivial.',
+          ],
+          [
+            1,
+            '[18:00] The Remains of the Day - Kazuo Ishiguro.epub (index_split_001.html) - Six - Evening',
+            '
+Day <<Six - Evening|5>>
+Weymouth',
           ],
         ];

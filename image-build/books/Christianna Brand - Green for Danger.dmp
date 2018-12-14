@@ -78,8 +78,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[00:00] Green for Danger - Christianna Brand.epub (OPS/xhtml/chapter06.html) - midnight',
-            "\x{201c}And that was before <<midnight|13>>, and before <<midnight|13>> definitely only Major Moon, and us three, Esther and Woody and I, and Gervase and Bates could have known about Higgins having been brought in.\x{201d}",
+            '[< 00:00] Green for Danger - Christianna Brand.epub (OPS/xhtml/chapter06.html) - before midnight',
+            "\x{201c}And that was <<before midnight|13>>, and <<before midnight|13>> definitely only Major Moon, and us three, Esther and Woody and I, and Gervase and Bates could have known about Higgins having been brought in.\x{201d}",
           ],
           [
             1,

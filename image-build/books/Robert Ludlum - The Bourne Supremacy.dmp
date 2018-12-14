@@ -61,20 +61,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 03:04] The Bourne Supremacy - Robert Ludlum.epub (index_split_001.html) - three-four',
-            '"No, no!" The Chinese shook his head. "It can\'t be! I don\'t know anyone, only the number! It is a deserted office in the New World Centre, a temporary telephone installed. Please! The number is <<three-four|5l:0>>, four, zero, one! Do not kill me, Mr Bourne! For the love of our Christian God, do not do it!"',
-          ],
-          [
-            1,
             '[ap 03:04] The Bourne Supremacy - Robert Ludlum.epub (index_split_001.html) - Three-four',
             '"If I thought the trap was for me, there\'d be blood all over your throat, not your chin... <<Three-four|9j>>, four, zero, one?"',
-          ],
-          [
-            1,
-            '[ap 05:02] The Bourne Supremacy - Robert Ludlum.epub (index_split_001.html) - five-two',
-            '"Your fifteen minutes are over," said Webb, sitting on the edge of the bed, trying to control his heartbeat, wondering if the rapid echo could be heard as he heard it, hoping it caused no tremor in his voice.
-"Call <<five-two|5l:1>>, six, five, three."
-"<<Five|9k:0>>?" David recognized the exchange. "She\'s over in Hong Kong, not Kowloon."',
           ],
           [
             1,
@@ -316,8 +304,8 @@ They could hear the strains of Oriental music from behind the door. The radio wa
           ],
           [
             1,
-            '[12:00] The Bourne Supremacy - Robert Ludlum.epub (index_split_004.html) - noon',
-            '"They\'re harmless enough. I was to be picked up some time around twelve <<noon|13>>, and as it\'s now <<after three|9f>>, one can assume that the People\'s government is not run by the clock any more than its airline."',
+            '[~ 12:00] The Bourne Supremacy - Robert Ludlum.epub (index_split_004.html) - around twelve noon',
+            '"They\'re harmless enough. I was to be picked up some time <<around twelve noon|13>>, and as it\'s now <<after three|9f>>, one can assume that the People\'s government is not run by the clock any more than its airline."',
           ],
           [
             1,
@@ -327,7 +315,7 @@ They could hear the strains of Oriental music from behind the door. The radio wa
           [
             1,
             '[ap 07:04] The Bourne Supremacy - Robert Ludlum.epub (index_split_004.html) - seven-four',
-            '"I don\'t know. I know only the number on the front of the bus. It is <<seven-four|5b>>-<<two-one|5l:0>>."',
+            '"I don\'t know. I know only the number on the front of the bus. It is <<seven-four|5b>>-two-one."',
           ],
           [
             1,
@@ -413,12 +401,5 @@ They could hear the strains of Oriental music from behind the door. The radio wa
             1,
             '[ap 08:55] The Bourne Supremacy - Robert Ludlum.epub (index_split_007.html) - 8:55',
             'On such considerations, thought Bourne, were the tightest borders in the world patrolled. They were directed by Wong to enter the last gate on the right at precisely <<8:55|2>>; he would cross separately a few minutes later. Their red-striped passports were studied, sent to an inside office and amid many abrupt smiles on the part of a cousin, the honoured diplomats were rapidly passed through. They were instantly welcomed to China by the prefect of the Zhuhai Shi-Guangdong Province Control who returned their passports. She was a short, broad-shouldered, muscular woman. Her English was obscured by a thick accent but was understandable.',
-          ],
-          [
-            1,
-            '[ap > 07:00] The Bourne Supremacy - Robert Ludlum.epub (index_split_007.html) - After seven',
-            '"I will meet you at the base of the first hill beyond the high grass. Do you remember it? "It\'d be hard to forget. I nearly bought a grave in China there."
-"<<After seven|9:0>> kilometres, head into forest towards the fields."
-"I intend to. You taught me. Have a good hunt, Wong."',
           ],
         ];

@@ -36,8 +36,13 @@ $VAR1 = [
           ],
           [
             1,
-            '[00:00] The First Sir Percy - Emmuska Orczy.epub (firstperc_split_003.htm) - midnight',
-            "\"And you'll not be afraid?\" he insisted. \"It will be dark \x{2014} and cold. We could not reach Rotterdam before <<midnight|13>>.\"",
+            '[< 00:00] The First Sir Percy - Emmuska Orczy.epub (firstperc_split_003.htm) - before midnight',
+            "\"And you'll not be afraid?\" he insisted. \"It will be dark \x{2014} and cold. We could not reach Rotterdam <<before midnight|13>>.\"",
+          ],
+          [
+            1,
+            '[ap 07:00] The First Sir Percy - Emmuska Orczy.epub (firstperc_split_003.htm) - seven',
+            'Diogenes said nothing more, and silence fell upon the stately chamber, the sombre panelling and heavy tapestries of which effectually deadened every sound that came from the outside. Only the monumental clock up against the wall ticked in a loud monotone. The sick man, wearied with so much talking, fell back against the pillows. The shades of evening were quickly gathering in now; the corners of the room were indistinguishable in the gloom. Only the bed-clothes still gleamed white in the uncertain light. From the distant tower of St. Maria Kerk a bell chimed the hour of <<seven|20>>. A few minutes went by. Anon there came a scratching at the door.',
           ],
           [
             1,
@@ -56,8 +61,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[12:00] The First Sir Percy - Emmuska Orczy.epub (firstperc_split_006.htm) - noon',
-            'It was then half an hour before <<noon|13>>. The city by this time was in the throes of a complete upheaval. The noise in the streets had become incessant and deafening. Church bells tolling, town-criers bawling, the clang of the halberds of the city guards mingling with the rattle of cart-wheels upon the cobble-stones, with the tramping of hundreds of feet and stamping of innumerable horses\' hoofs. The air was resonant with shrieks and cries, with the grating and jarring of metal, with peal of bells and the hubbub of a throng on the move. Gilda, when she reached the foot of the stairs, found herself facing the wide-open doorway, and through it saw the quay alive with people running, with horses and driven cattle, with crowds scrambling into the boats down below, with carts and dogs and children and barrows piled up with furniture and luggage hastily tied together.',
+            '[11:30] The First Sir Percy - Emmuska Orczy.epub (firstperc_split_006.htm) - half an hour before noon',
+            'It was then <<half an hour before noon|10>>. The city by this time was in the throes of a complete upheaval. The noise in the streets had become incessant and deafening. Church bells tolling, town-criers bawling, the clang of the halberds of the city guards mingling with the rattle of cart-wheels upon the cobble-stones, with the tramping of hundreds of feet and stamping of innumerable horses\' hoofs. The air was resonant with shrieks and cries, with the grating and jarring of metal, with peal of bells and the hubbub of a throng on the move. Gilda, when she reached the foot of the stairs, found herself facing the wide-open doorway, and through it saw the quay alive with people running, with horses and driven cattle, with crowds scrambling into the boats down below, with carts and dogs and children and barrows piled up with furniture and luggage hastily tied together.',
           ],
           [
             1,
@@ -76,9 +81,9 @@ $VAR1 = [
           ],
           [
             1,
-            '[> 00:00] The First Sir Percy - Emmuska Orczy.epub (firstperc_split_014.htm) - after midnight',
+            '[00:30] The First Sir Percy - Emmuska Orczy.epub (firstperc_split_014.htm) - Half an hour after midnight',
             'Alone, the blind man appeared perfectly serene. After that brief moment of comparative lucidity, he had relapsed into somnolence. Occasional loud snores testified that he was once more wandering in the Elysian fields of unconsciousness.
-Half an hour <<after midnight|13>> Jan returned.
+<<Half an hour after midnight|10>> Jan returned.
 "There is no doubt about it," were the first words he spoke. "An attack on Ede appears to be in progress, and the Stadtholder left his camp at Utrecht a couple of hours ago with a force of four thousand men."',
           ],
           [

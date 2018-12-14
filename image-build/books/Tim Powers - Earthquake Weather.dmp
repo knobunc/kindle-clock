@@ -67,7 +67,7 @@ $VAR1 = [
           [
             1,
             '[ap 10:00] Earthquake Weather - Tim Powers.epub (OEBPS/20-page.xhtml) - ten',
-            "\x{201c}The Jenkins woman\x{2019}s not gonna be cancelling her credit cards till <<ten|9f>>,\x{201d} Plumtree went on now, \x{201c}at the earliest. Hell, the way she was knocking back the margaritas, she probably won\x{2019}t get up before <<noon|13>>.\x{201d}",
+            "\x{201c}The Jenkins woman\x{2019}s not gonna be cancelling her credit cards till <<ten|9f>>,\x{201d} Plumtree went on now, \x{201c}at the earliest. Hell, the way she was knocking back the margaritas, she probably won\x{2019}t get up <<before noon|13>>.\x{201d}",
           ],
           [
             1,
@@ -171,8 +171,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[19:38] Earthquake Weather - Tim Powers.epub (OEBPS/40-page.xhtml) - until 1938',
-            "Colma was the town to which all the graves of San Francisco had been transplanted; <<until 1938|9n:0>>, nearly a third of the Richmond district of San Francisco, from Golden Gate Park north to Geary and from Park Presidio east to Masonic Avenue, was still occupied by cemeteries, as the whole of the district had been before <<1900|9c:0>>. Colma, six miles to the south, had taken the evicted dead, and on the day Cochran and Nina had gone to buy the plots, Nina had remarked that the town\x{2019}s dead residents outnumbered the living ones seven hundred to one.",
+            '[19:38] Earthquake Weather - Tim Powers.epub (OEBPS/40-page.xhtml) - 1938',
+            "Colma was the town to which all the graves of San Francisco had been transplanted; until <<1938|9n:0>>, nearly a third of the Richmond district of San Francisco, from Golden Gate Park north to Geary and from Park Presidio east to Masonic Avenue, was still occupied by cemeteries, as the whole of the district had been before <<1900|9c:0>>. Colma, six miles to the south, had taken the evicted dead, and on the day Cochran and Nina had gone to buy the plots, Nina had remarked that the town\x{2019}s dead residents outnumbered the living ones seven hundred to one.",
           ],
           [
             1,

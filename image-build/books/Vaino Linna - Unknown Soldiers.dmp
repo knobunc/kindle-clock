@@ -116,8 +116,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[00:00] Unknown Soldiers - Vaino Linna.epub (OPS/xhtml/chapter005.xhtml) - midnight',
-            "Sometime before <<midnight|13>>, Rokka, who\x{2019}d been
+            '[< 00:00] Unknown Soldiers - Vaino Linna.epub (OPS/xhtml/chapter005.xhtml) - before midnight',
+            "Sometime <<before midnight|13>>, Rokka, who\x{2019}d been
 				wandering off somewhere unknown to them for quite some while, arrived, announcing,
 				\x{2018}They\x{2019}re gonna make amphibians out of us this time, fellas! They\x{2019}re
 				haulin\x{2019} pontoons and storm boats over there.\x{2019}",
@@ -150,14 +150,6 @@ $VAR1 = [
 				cigarette. As they neared their lodgings, they heard strains of an <<evening prayer|13>> service
 				underway. Strains of the company\x{2019}s hymns echoed through the dark city: \x{2018}\x{2026}
 					miiiighty fo-o-ortress is our God \x{2026} A buuulwark never faa-a-ailing \x{2026}\x{2019}",
-          ],
-          [
-            1,
-            "[ap 01:02] Unknown Soldiers - Vaino Linna.epub (OPS/xhtml/chapter008.xhtml) - One \x{2026} two",
-            "\x{2018}<<One \x{2026} two|5l:0>> \x{2026} <<three \x{2026} four|5l:0>> \x{2026}\x{2019} The men
-				counted off lethargically, as if expressing their opinion of the exercise by making their voices
-				even more apathetic than usual. When the count-off was over, nobody called out any absences,
-				though Sinkkonen could obviously see that neither the third nor fourth row was complete.",
           ],
           [
             1,

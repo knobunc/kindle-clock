@@ -2442,7 +2442,7 @@ Solution: This one is entirely different from the preceding exercises. This solu
     i := seq() & (|i \\ i)
 
 
-38.\x{a0}\x{a0}A sequence consisting of strings representing the times in minutes in the 24-hour day, starting at <<midnight|9g>> and ending at the minute before <<midnight|13>>: \x{201c}<<00:00|2>>\x{201d}, \x{201c}<<00:01|2>>\x{201d}, \x{2026} \x{201c}<<00:59|2>>\x{201d}, \x{201c}<<01:00|2>>\x{201d}, \x{2026} \x{201c}<<23:59|2>>\x{201d}.
+38.\x{a0}\x{a0}A sequence consisting of strings representing the times in minutes in the 24-hour day, starting at <<midnight|9g>> and ending at the minute <<before midnight|13>>: \x{201c}<<00:00|2>>\x{201d}, \x{201c}<<00:01|2>>\x{201d}, \x{2026} \x{201c}<<00:59|2>>\x{201d}, \x{201c}<<01:00|2>>\x{201d}, \x{2026} \x{201c}<<23:59|2>>\x{201d}.
 
 Solution: The solution to this problem has two components: a generator for the hours and a generator for the minutes. <<0 to 23|10a:1>> generates the hours, and 0 to 59 generates the minutes, but the values need to be padded with zeros:
 

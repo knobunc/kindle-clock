@@ -21,20 +21,15 @@ $VAR1 = [
           ],
           [
             1,
-            '[12:00] Hannibal - Thomas Harris.epub (OEBPS/Harr_9780440339243_epub_c103_r1.htm) - noon',
-            'Morale is high among the servants in this house, but there is an iron discipline among them. They are forbidden to enter the top floor of the mansion before <<noon|13>>. Or after service of the first course at dinner.',
+            '[< 12:00] Hannibal - Thomas Harris.epub (OEBPS/Harr_9780440339243_epub_c103_r1.htm) - before noon',
+            'Morale is high among the servants in this house, but there is an iron discipline among them. They are forbidden to enter the top floor of the mansion <<before noon|13>>. Or after service of the first course at dinner.',
           ],
           [
             1,
             '[ap ~ 10:00] Hannibal - Thomas Harris.epub (OEBPS/Harr_9780440339243_epub_c12_r1.htm) - Around ten',
             "\x{201c}Excuse me?\x{201d} Starling said, \x{201c}I couldn\x{2019}t hear what you said for the racket in here. I found out last night that Dr. Lecter\x{2019}s annotated and signed copy of Alexandre Dumas\x{2019} Dictionary of Cuisine came up at a private auction in New York two years ago. It went to a private collector for sixteen thousand dollars. The seller\x{2019}s affidavit of ownership was signed \x{2018}Cary Phlox.\x{2019} You know \x{2018}Cary Phlox,\x{2019} Barney? I hope you do because he did the handwriting on your employment application at the hospital where you\x{2019}re working but he signed it \x{2018}Barney.\x{2019} Made out your tax return too. Sorry I missed what you were saying before. Want to start over? What did you get for the book, Barney?\x{201d}
 \x{201c}<<Around ten|9:0>>,\x{201d} Barney said, looking straight at her.
-Starling nodded. \x{201c}The receipt says <<ten-five|5l:0>>. What did you get for that interview with the Tattler after Dr. Lecter escaped?\x{201d}",
-          ],
-          [
-            1,
-            '[ap 10:05] Hannibal - Thomas Harris.epub (OEBPS/Harr_9780440339243_epub_c12_r1.htm) - ten-five',
-            "Starling nodded. \x{201c}The receipt says <<ten-five|5l:0>>. What did you get for that interview with the Tattler after Dr. Lecter escaped?\x{201d}",
+Starling nodded. \x{201c}The receipt says ten-five. What did you get for that interview with the Tattler after Dr. Lecter escaped?\x{201d}",
           ],
           [
             1,

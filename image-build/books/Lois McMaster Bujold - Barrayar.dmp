@@ -36,18 +36,18 @@ $VAR1 = [
           ],
           [
             1,
-            '[> 00:00] Barrayar - Lois McMaster Bujold.epub (B_split_010.html) - after midnight',
-            '"Yes, sir. Well, sir, they were coming back, I was told, about an hour <<after midnight|13>>, when they were set on by a gang of area toughs. Evidently Lieutenant Koudelka was too well dressed, and besides there\'s that walk of his, and the stick . . . anyway, he attracted attention. I don\'t know the details, sir, but there were four deaths and <<three in the hospital this morning|5>>, in addition to the ones that got away."',
+            '[> 01:00] Barrayar - Lois McMaster Bujold.epub (B_split_010.html) - an hour after midnight',
+            '"Yes, sir. Well, sir, they were coming back, I was told, about <<an hour after midnight|10>>, when they were set on by a gang of area toughs. Evidently Lieutenant Koudelka was too well dressed, and besides there\'s that walk of his, and the stick . . . anyway, he attracted attention. I don\'t know the details, sir, but there were four deaths and <<three in the hospital this morning|5>>, in addition to the ones that got away."',
           ],
           [
             1,
-            '[> 00:00] Barrayar - Lois McMaster Bujold.epub (B_split_010.html) - after midnight',
-            '"Well, they left the place about an hour <<after midnight|13>>, on foot, and took a wrong turn somewhere. Bothari\'s pretty upset about that. Thinks it\'s his fault, for getting so drunk. Bothari and Koudelka both say they saw movements in the shadows for about ten minutes before the attack. So they were stalked, apparently, until they were manuevered into a high walled alley, and found themselves with six in front and six behind.',
+            '[> 01:00] Barrayar - Lois McMaster Bujold.epub (B_split_010.html) - an hour after midnight',
+            '"Well, they left the place about <<an hour after midnight|10>>, on foot, and took a wrong turn somewhere. Bothari\'s pretty upset about that. Thinks it\'s his fault, for getting so drunk. Bothari and Koudelka both say they saw movements in the shadows for about ten minutes before the attack. So they were stalked, apparently, until they were manuevered into a high walled alley, and found themselves with six in front and six behind.',
           ],
           [
             1,
-            '[00:00] Barrayar - Lois McMaster Bujold.epub (B_split_010.html) - midnight',
-            "\"I have to jump back a bit now. My man who was assigned to Kou followed them down into that warren by himself. He wasn't one of the men who are familiar with the place, supposedly, and he wasn't dressed for it\x{2014}Kou had two reservations for some live musical performance last night, and until three hours before <<midnight|13>> that's where we thought he was going. My man went in there and vanished, between the first and second hourly checks. That's what has me going this morning. Was he murdered? Or kidnapped? Rolled and raped? Or was he a plant, a setup, a double agent? We won't know till we find the body, or whatever.",
+            '[< 21:00] Barrayar - Lois McMaster Bujold.epub (B_split_010.html) - three hours before midnight',
+            "\"I have to jump back a bit now. My man who was assigned to Kou followed them down into that warren by himself. He wasn't one of the men who are familiar with the place, supposedly, and he wasn't dressed for it\x{2014}Kou had two reservations for some live musical performance last night, and until <<three hours before midnight|10>> that's where we thought he was going. My man went in there and vanished, between the first and second hourly checks. That's what has me going this morning. Was he murdered? Or kidnapped? Rolled and raped? Or was he a plant, a setup, a double agent? We won't know till we find the body, or whatever.",
           ],
           [
             1,
@@ -71,8 +71,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[12:00] Barrayar - Lois McMaster Bujold.epub (B_split_015.html) - noon',
-            '"Yo. I left the lake day-before-yesterday morning. Missed all the excitement. I expect the news will catch up with me before <<noon|13>>."',
+            '[< 12:00] Barrayar - Lois McMaster Bujold.epub (B_split_015.html) - before noon',
+            '"Yo. I left the lake day-before-yesterday morning. Missed all the excitement. I expect the news will catch up with me <<before noon|13>>."',
           ],
           [
             1,

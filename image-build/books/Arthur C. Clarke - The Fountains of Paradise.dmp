@@ -61,8 +61,8 @@ The hypothesis you refer to as God, though not disprovable by logic alone, is un
           ],
           [
             1,
-            '[12:00] The Fountains of Paradise - Arthur C. Clarke.epub (OEBPS/part20.xhtml) - noon',
-            "\x{201c}We do not eat before <<noon|13>>. The mind functions more clearly in the morning hours, and so should not be distracted by material things.\x{201d}",
+            '[< 12:00] The Fountains of Paradise - Arthur C. Clarke.epub (OEBPS/part20.xhtml) - before noon',
+            "\x{201c}We do not eat <<before noon|13>>. The mind functions more clearly in the morning hours, and so should not be distracted by material things.\x{201d}",
           ],
           [
             1,
@@ -86,55 +86,8 @@ The hypothesis you refer to as God, though not disprovable by logic alone, is un
           ],
           [
             1,
-            '[ap 02:05] The Fountains of Paradise - Arthur C. Clarke.epub (OEBPS/part32.xhtml) - two five',
-            "\x{201c}Altitude <<two five|5l:1>> zero,\x{201d} said a calm, impersonal voice from the control hut. \x{201c}Probe velocity <<one one|5l:1>> six zero metres per second. Wire tension ninety percent nominal. Parachute deploys in two minutes.\x{201d}",
-          ],
-          [
-            1,
-            '[ap 01:01] The Fountains of Paradise - Arthur C. Clarke.epub (OEBPS/part32.xhtml) - one one',
-            "\x{201c}Altitude two zero zero. Probe velocity <<one one|5l:0>> five metres a second. Tension ninety-five percent nominal.\x{201d}",
-          ],
-          [
-            1,
-            '[ap 01:09] The Fountains of Paradise - Arthur C. Clarke.epub (OEBPS/part32.xhtml) - one nine',
-            "\x{201c}Altitude <<one nine|5l:0>> zero. Velocity <<one one|5l:0>> zero zero. Tension one hundred five percent. First parachute deployment - NOW!\x{201d}",
-          ],
-          [
-            1,
-            '[ap 01:05] The Fountains of Paradise - Arthur C. Clarke.epub (OEBPS/part33.xhtml) - one five',
-            "\x{201c}Altitude <<one five|5l:0>> zero, velocity ninety-five - repeat, ninety-five. Heat shield jettisoned.\x{201d}",
-          ],
-          [
-            1,
-            '[ap 01:02] The Fountains of Paradise - Arthur C. Clarke.epub (OEBPS/part33.xhtml) - one two',
-            "So the probe had safely entered the atmosphere, and got rid of its excess speed. But it was far too soon to start cheering. Not only were there a hundred and fifty vertical kilometres still to go, but three hundred horizontal ones - with a howling gale to complicate matters. Though the probe still carried a small amount of propellent, its freedom to manoeuvre was very limited. If the operator missed the mountain on the first approach, he could not go round and try again.
-\x{201c}Altitude <<one two|5l:0>> zero. No atmospheric effects yet.\x{201d}
-The little probe was spinning itself down from the sky, like a spider descending its silken ladder. I hope, Duval thought to herself, that they have enough wire: how infuriating if they run out, only a few kilometres from the target! Just such tragedies had occurred with some of the first submarines cables, three hundred years ago.",
-          ],
-          [
-            1,
-            '[ap 05:05] The Fountains of Paradise - Arthur C. Clarke.epub (OEBPS/part33.xhtml) - five five',
-            "Still well within limits, thought Duval - but things were starting to happen up there on the other side of the stratosphere. Surely, Morgan had the probe in sight now - \x{201c}Altitude <<five five|5l:0>> - giving two-second impulse correction.\x{201d} \x{201c}Got it!\x{201d} exclaimed Morgan. \x{201c}I can see the jet!\x{201d} \x{201c}Altitude five zero. Tension one hundred five percent. Hard to keep on course - some buffeting.\x{201d}",
-          ],
-          [
-            1,
-            '[ap 04:05] The Fountains of Paradise - Arthur C. Clarke.epub (OEBPS/part33.xhtml) - four five',
-            "\x{201c}Altitude <<four five|5l:0>>. Strong sheer wind. Going off course again. Three second impulse.\x{201d}",
-          ],
-          [
-            1,
             '[ap 01:50] The Fountains of Paradise - Arthur C. Clarke.epub (OEBPS/part33.xhtml) - one fifty',
             "\x{201c}Altitude four zero. Buffeting badly. Tension peaking at <<one fifty|5b>> - I repeat, one fifty percent.\x{201d}",
-          ],
-          [
-            1,
-            '[ap 03:05] The Fountains of Paradise - Arthur C. Clarke.epub (OEBPS/part33.xhtml) - three five',
-            "\x{201c}Altitude <<three five|5l:0>>. Wind getting worse. One second impulse. Propellent reserve almost gone. Tension still peaking - up to one seventy.\x{201d}",
-          ],
-          [
-            1,
-            '[ap 02:05] The Fountains of Paradise - Arthur C. Clarke.epub (OEBPS/part33.xhtml) - two five',
-            "\x{201c}Range <<two five|5l:0>>. Not enough propellent to get back on course. Estimate we\x{2019}ll miss by three kilometres.\x{201d}",
           ],
           [
             1,
@@ -150,21 +103,6 @@ The little probe was spinning itself down from the sky, like a spider descending
             1,
             '[> 00:00] The Fountains of Paradise - Arthur C. Clarke.epub (OEBPS/part54.xhtml) - after midnight',
             'Soon <<after midnight|13>>, when it was obvious that the auroral display had passed its climax, Rajasinghe had been carried back into his bedroom. As he always did when he had said goodnight to his household staff, he relaxed with a glass of hot toddy and switched on the late news summary. The only item that really interested him was the progress that Morgan was making; by this time he should be approaching the base of the Tower.',
-          ],
-          [
-            1,
-            '[ap 05:50] The Fountains of Paradise - Arthur C. Clarke.epub (OEBPS/part59.xhtml) - five-fifty',
-            'The first sign of trouble came at <<five-fifty|5b>> kilometres. By now the rate of ascent should have been over two hundred klicks; it was only <<one nine|5l:0>> eight. Slight though the discrepancy was - and it would make no appreciable difference to his arrival time - it worried Morgan.',
-          ],
-          [
-            1,
-            '[ap 10:00] The Fountains of Paradise - Arthur C. Clarke.epub (OEBPS/part59.xhtml) - ten',
-            'At <<ten|9m>> kilometres there was a distinct change of pitch from the drive motor; Morgan had been expecting this, and reacted to it at once. Without waiting for advice from the ground, he cut speed back to fifty klicks. At this rate he still had twelve minutes to go, and he began to wonder despairingly if he was involved in an asymptotic approach. This was a variant of the race between Achilles and the tortoise; if he halved his speed every time he halved the distance, would he reach the Tower in a finite time? Once he would have known the answer instantly; now he felt too tired to work it out.',
-          ],
-          [
-            1,
-            '[ap 05:00] The Fountains of Paradise - Arthur C. Clarke.epub (OEBPS/part59.xhtml) - five',
-            'At <<five|9m>> kilometres he could see the constructional details of the Tower - the catwalk and protective rails, the futile safety net provided as a sop to public opinion. Although he strained his eyes he could not yet make out the airlock towards which he was now crawling with such agonising slowness.',
           ],
           [
             1,

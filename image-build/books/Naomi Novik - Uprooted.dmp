@@ -16,8 +16,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[12:00] Uprooted - Naomi Novik.epub (index_split_011.html) - noon',
-            "Some women were already hacking at the ground, mostly bare of snow here near the pens, raking away the dead matted grass. Danka was overseeing the work; she waved my father over, our horses whuffling uneasily as they drew nearer and smelled the corruption on the wind. \x{201c}All right,\x{201d} she said. \x{201c}We\x{2019}ll be ready before <<noon|13>>. We\x{2019}ll heave wood and hay over, in among them, and then light torches with the potion and throw them in. Save as much of it as you can, in case we have to try a second time,\x{201d} she added to me. I nodded.",
+            '[< 12:00] Uprooted - Naomi Novik.epub (index_split_011.html) - before noon',
+            "Some women were already hacking at the ground, mostly bare of snow here near the pens, raking away the dead matted grass. Danka was overseeing the work; she waved my father over, our horses whuffling uneasily as they drew nearer and smelled the corruption on the wind. \x{201c}All right,\x{201d} she said. \x{201c}We\x{2019}ll be ready <<before noon|13>>. We\x{2019}ll heave wood and hay over, in among them, and then light torches with the potion and throw them in. Save as much of it as you can, in case we have to try a second time,\x{201d} she added to me. I nodded.",
           ],
           [
             1,
@@ -53,10 +53,5 @@ $VAR1 = [
             1,
             '[> 12:00] Uprooted - Naomi Novik.epub (index_split_038.html) - past noon',
             "I put the rest of my gathered fruit into the hollow and went inside for a moment. The house didn\x{2019}t need tidying: the floor was soft moss and the grass coverlet turned itself back over the bed without my help after I climbed out in the mornings. I did need tidying, badly, but I\x{2019}d wasted too much time wandering grey and tired this morning. The sun was climbing <<past noon|13>>, and I didn\x{2019}t want to be late. I only picked up my reply for Kasia and the corked jug of Spindle-water, and put them in my basket, so I could give them to Danka to post for me.",
-          ],
-          [
-            1,
-            '[ap 04:05] Uprooted - Naomi Novik.epub (index_split_039.html) - four five',
-            "NAOMI NOVIK was born in New York in 1973, a first-generation American, and raised on Polish fairy tales, Baba Yaga, and Tolkien. Her first novel, His Majesty\x{2019}s Dragon, the opening volume of the Temeraire series, was published in 2006 and has been translated into twenty-three languages and optioned by Peter Jackson, the Academy Award\x{2013}winning director of the Lord of the Rings trilogy.She has won the John W. Campbell Award for Best New Writer, the Compton Crook Award for Best First Novel, and the Locus Award for Best First Novel. She is one of the founding board members of the Organization for Transformative Works, a nonprofit dedicated to protecting the fair-use rights of fan creators, and is herself a fanfic writer and fan vidder, as well as one of the architects of the open-source Archive of Our Own.Novik lives in New York City with her husband, Edgar Award\x{2013}winning mystery novelist Charles Ardai, their shiny new daughter, Evidence, and a recently and ruthlessly winnowed set of <<four five|5l:0>> computers.You can find out more at her website (http://naomi novik.com) and follow her as naominovik on Livejournal, Twitter, and Facebook.",
           ],
         ];

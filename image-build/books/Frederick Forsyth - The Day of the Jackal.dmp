@@ -405,8 +405,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 07:30] The Day of the Jackal - Frederick Forsyth.epub (OEBPS/chapter14.xhtml) - 7.30',
-            "The Jackal rose at his habitual hour of <<7.30|5a:1>>, drank the tea placed by his bedside, washed, showered and shaved. Once dressed, he took the wad of one thousand pounds from inside the lining of his suitcase, slipped it into his breast pocket and went down for breakfast. At <<nine o\x{2019}clock|6>> he was on the pavement of the Via Manzoni outside the hotel, and striding down the road looking for banks. For two hours he went from one to another, changing the English pounds. Two hundred were changed into Italian lire and the remaining eight hundred into French francs.",
+            '[ap 07:00] The Day of the Jackal - Frederick Forsyth.epub (OEBPS/chapter14.xhtml) - 7',
+            "The Jackal rose at his habitual hour of <<7|20>>.30, drank the tea placed by his bedside, washed, showered and shaved. Once dressed, he took the wad of one thousand pounds from inside the lining of his suitcase, slipped it into his breast pocket and went down for breakfast. At <<nine o\x{2019}clock|6>> he was on the pavement of the Via Manzoni outside the hotel, and striding down the road looking for banks. For two hours he went from one to another, changing the English pounds. Two hundred were changed into Italian lire and the remaining eight hundred into French francs.",
           ],
           [
             1,
@@ -420,8 +420,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[00:00] The Day of the Jackal - Frederick Forsyth.epub (OEBPS/chapter14.xhtml) - midnight',
-            "\x{2018}True, true. But I notice his request was also complied with before <<midnight|13>>. Now can you tell me why that was?\x{2019}",
+            '[< 00:00] The Day of the Jackal - Frederick Forsyth.epub (OEBPS/chapter14.xhtml) - before midnight',
+            "\x{2018}True, true. But I notice his request was also complied with <<before midnight|13>>. Now can you tell me why that was?\x{2019}",
           ],
           [
             1,
@@ -664,13 +664,13 @@ The taxi arrived at <<7.30|9c:1>>, an old rattletrap Renault.
           ],
           [
             1,
-            '[00:00] The Day of the Jackal - Frederick Forsyth.epub (OEBPS/chapter17.xhtml) - midnight',
-            'There was one other factor that he could not have explained to Paris over the phone, and which he dreaded having to explain to Lebel face to face. Unbeknown to him, some of his men came across this factor before <<midnight|13>>. A group of them were interviewing a farmer in his cottage two miles from the spot where the car was found.',
+            '[< 00:00] The Day of the Jackal - Frederick Forsyth.epub (OEBPS/chapter17.xhtml) - before midnight',
+            'There was one other factor that he could not have explained to Paris over the phone, and which he dreaded having to explain to Lebel face to face. Unbeknown to him, some of his men came across this factor <<before midnight|13>>. A group of them were interviewing a farmer in his cottage two miles from the spot where the car was found.',
           ],
           [
             1,
-            '[12:00] The Day of the Jackal - Frederick Forsyth.epub (OEBPS/chapter17.xhtml) - noon',
-            "\x{2018}Two things, Monsieur le Ministre. We know he must have bought paint to transform the car, and I suspect enquiries will show that if the car was driven through the night from Thursday into Friday morning from Gap to Ussel, that it was already transformed. In that case, and enquiries along these lines are proceeding, it would appear he bought the paint in Gap. If that is so, then he was tipped off. Either somebody rang him, or he rang somebody, either here or in London, who told him of the discovery of his pseudonym of Duggan. From that he could work out that we would be on to him before <<noon|13>>, and on to his car. So he got out, and fast.\x{2019}",
+            '[< 12:00] The Day of the Jackal - Frederick Forsyth.epub (OEBPS/chapter17.xhtml) - before noon',
+            "\x{2018}Two things, Monsieur le Ministre. We know he must have bought paint to transform the car, and I suspect enquiries will show that if the car was driven through the night from Thursday into Friday morning from Gap to Ussel, that it was already transformed. In that case, and enquiries along these lines are proceeding, it would appear he bought the paint in Gap. If that is so, then he was tipped off. Either somebody rang him, or he rang somebody, either here or in London, who told him of the discovery of his pseudonym of Duggan. From that he could work out that we would be on to him <<before noon|13>>, and on to his car. So he got out, and fast.\x{2019}",
           ],
           [
             1,
@@ -838,8 +838,8 @@ Claude Lebel rang Commissaire Valentin from Paris at <<six-thirty|5b>>.
           ],
           [
             1,
-            '[00:00] The Day of the Jackal - Frederick Forsyth.epub (OEBPS/chapter20.xhtml) - midnight',
-            'The Jackal entered the bar an hour before <<midnight|13>>. It was dark and for several seconds he could hardly make out the shape of the room. There was a long bar running down the left-hand wall, with an illuminated row of mirrors and bottles behind it. The barman stared at him as the door swung closed with unveiled curiosity.',
+            '[< 23:00] The Day of the Jackal - Frederick Forsyth.epub (OEBPS/chapter20.xhtml) - an hour before midnight',
+            'The Jackal entered the bar <<an hour before midnight|10>>. It was dark and for several seconds he could hardly make out the shape of the room. There was a long bar running down the left-hand wall, with an illuminated row of mirrors and bottles behind it. The barman stared at him as the door swung closed with unveiled curiosity.',
           ],
           [
             1,
@@ -905,7 +905,7 @@ Claude Lebel rang Commissaire Valentin from Paris at <<six-thirty|5b>>.
           ],
           [
             1,
-            '[ap 03:00] The Day of the Jackal - Frederick Forsyth.epub (OEBPS/chapter21.xhtml) - until three',
-            'But in fact it was Calthrop who did the explaining. They held him for twenty-four hours, <<until three|9:1>> separate confirmations came through from Paris that the Jackal was dead, and five landlords of isolated taverns in the far north of Sutherland County, Scotland, had testified that Charles Calthrop had indeed spent the previous three weeks indulging his passion for climbing and fishing, and had stayed at their establishments.',
+            '[ap 03:00] The Day of the Jackal - Frederick Forsyth.epub (OEBPS/chapter21.xhtml) - three',
+            'But in fact it was Calthrop who did the explaining. They held him for twenty-four hours, until <<three|9:1>> separate confirmations came through from Paris that the Jackal was dead, and five landlords of isolated taverns in the far north of Sutherland County, Scotland, had testified that Charles Calthrop had indeed spent the previous three weeks indulging his passion for climbing and fishing, and had stayed at their establishments.',
           ],
         ];

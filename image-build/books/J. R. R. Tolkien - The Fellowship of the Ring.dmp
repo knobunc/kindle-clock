@@ -166,18 +166,13 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 01:03] The Fellowship of the Ring - J. R. R. Tolkien.epub (index_split_005.html) - one - three',
-            'At last Gandalf looked up. \'It seems to be a record of the fortunes of Balin\'s folk,\' he said. `I guess that it began with their coming to Dimrill Dale nigh on thirty years ago: the pages seem to have numbers referring to the years after their arrival. The top page is marked <<one - three|5l:0>> , so at least two are missing from the beginning. Listen to this!',
+            '[> 13:00] The Fellowship of the Ring - J. R. R. Tolkien.epub (index_split_005.html) - one hour after noon',
+            'They did not halt until they were out of bowshot from the walls. Dimrill Dale lay about them. The shadow of the Misty Mountains lay upon it, but eastwards there was a golden light on the land. It was but <<one hour after noon|10>>. The sun was shining; the clouds were white and high.',
           ],
           [
             1,
-            '[> 12:00] The Fellowship of the Ring - J. R. R. Tolkien.epub (index_split_005.html) - after noon',
-            'They did not halt until they were out of bowshot from the walls. Dimrill Dale lay about them. The shadow of the Misty Mountains lay upon it, but eastwards there was a golden light on the land. It was but one hour <<after noon|13>>. The sun was shining; the clouds were white and high.',
-          ],
-          [
-            1,
-            '[> 12:00] The Fellowship of the Ring - J. R. R. Tolkien.epub (index_split_005.html) - after noon',
-            'Soon afterwards they came upon another stream that ran down from the west, and joined its bubbling water with the hurrying Silverlode. Together they plunged over a fall of green-hued stone, and foamed down into a dell. About it stood fir-trees, short and bent, and its sides were steep and clothed with harts-tongue and shrubs of whortle-berry. At the bottom there was a level space through which the stream flowed noisily over shining pebbles. Here they rested. It was now nearly three hours <<after noon|13>>, and they had come only a few miles from the Gates. Already the sun was westering.',
+            '[> 15:00] The Fellowship of the Ring - J. R. R. Tolkien.epub (index_split_005.html) - three hours after noon',
+            'Soon afterwards they came upon another stream that ran down from the west, and joined its bubbling water with the hurrying Silverlode. Together they plunged over a fall of green-hued stone, and foamed down into a dell. About it stood fir-trees, short and bent, and its sides were steep and clothed with harts-tongue and shrubs of whortle-berry. At the bottom there was a level space through which the stream flowed noisily over shining pebbles. Here they rested. It was now nearly <<three hours after noon|10>>, and they had come only a few miles from the Gates. Already the sun was westering.',
           ],
           [
             1,
@@ -186,8 +181,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[12:00] The Fellowship of the Ring - J. R. R. Tolkien.epub (index_split_006.html) - noon',
-            '`All shall be prepared for you and await you at the haven before <<noon|13>> tomorrow,\' said Celeborn. \'I will send my people to you in the morning to help you make ready for the journey. Now we will wish you all a fair night and untroubled sleep.\'',
+            '[< 12:00] The Fellowship of the Ring - J. R. R. Tolkien.epub (index_split_006.html) - before noon',
+            '`All shall be prepared for you and await you at the haven <<before noon|13>> tomorrow,\' said Celeborn. \'I will send my people to you in the morning to help you make ready for the journey. Now we will wish you all a fair night and untroubled sleep.\'',
           ],
           [
             1,

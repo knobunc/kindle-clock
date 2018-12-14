@@ -31,8 +31,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[~ 18:00] A Rare Benedictine - Ellis Peters.epub (index_split_005.html) - Compline',
-            'Cadfael was in the warming-house with the rest of the brothers, about a quarter of an hour before <<Compline|13>>, when a lay brother from the guest-hall came enquiring for him.',
+            '[~ 17:45] A Rare Benedictine - Ellis Peters.epub (index_split_005.html) - about a quarter of an hour before Compline',
+            'Cadfael was in the warming-house with the rest of the brothers, <<about a quarter of an hour before Compline|10>>, when a lay brother from the guest-hall came enquiring for him.',
           ],
           [
             1,
@@ -51,8 +51,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[00:00] A Rare Benedictine - Ellis Peters.epub (index_split_005.html) - midnight',
-            "Cadfael went to bed, and slept without dreams, and rose at the Matin bell, some minutes before <<midnight|13>>. The procession of the brothers wound its way down the night stairs into the church, and into the soft, full glow of the lights before St Mary\x{2019}s altar.",
+            '[< 00:00] A Rare Benedictine - Ellis Peters.epub (index_split_005.html) - before midnight',
+            "Cadfael went to bed, and slept without dreams, and rose at the Matin bell, some minutes <<before midnight|13>>. The procession of the brothers wound its way down the night stairs into the church, and into the soft, full glow of the lights before St Mary\x{2019}s altar.",
           ],
           [
             1,
@@ -66,8 +66,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[~ 16:30] A Rare Benedictine - Ellis Peters.epub (index_split_005.html) - Vespers',
-            'It was well that he had moved it, for the searchers, driven by an increasingly angry Hamo, reached his hut before <<Vespers|13>>, examined everything within it, while he stood by to prevent actual damage to his medicines, and went away satisfied that what they were seeking was not there. They had not, in fact, been very thorough about the sack of lavender, the candlesticks might well have escaped notice even if he had left them there. It did not occur to anyone to tear the hedges apart, luckily. When they were gone, to probe all the fodder and grain in the barns, Cadfael restored the silver to its original place. Let the bait lie safe in the trap until the quarry came to claim it, as he surely would, once relieved of the fear that the hunters might find it first.',
+            '[< 16:30] A Rare Benedictine - Ellis Peters.epub (index_split_005.html) - before Vespers',
+            'It was well that he had moved it, for the searchers, driven by an increasingly angry Hamo, reached his hut <<before Vespers|13>>, examined everything within it, while he stood by to prevent actual damage to his medicines, and went away satisfied that what they were seeking was not there. They had not, in fact, been very thorough about the sack of lavender, the candlesticks might well have escaped notice even if he had left them there. It did not occur to anyone to tear the hedges apart, luckily. When they were gone, to probe all the fodder and grain in the barns, Cadfael restored the silver to its original place. Let the bait lie safe in the trap until the quarry came to claim it, as he surely would, once relieved of the fear that the hunters might find it first.',
           ],
           [
             1,
@@ -76,8 +76,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[02:30] A Rare Benedictine - Ellis Peters.epub (index_split_005.html) - Matins',
-            "She bound up her pale, bright hair and covered her head, wrapping the cloak about her, and was again the maidservant in homespun. She obeyed without question his every word, moved silently at his back round the great court by way of the shadows, halting when he halted, and so he brought her to the church, and let her out by the parish door into the public street, still a good hour before <<Matins|13>>. At the last moment she said, close at his shoulder within the half-open door. \x{201c}I shall be grateful always. Some day I shall send you word.\x{201d}",
+            '[< 02:30] A Rare Benedictine - Ellis Peters.epub (index_split_005.html) - before Matins',
+            "She bound up her pale, bright hair and covered her head, wrapping the cloak about her, and was again the maidservant in homespun. She obeyed without question his every word, moved silently at his back round the great court by way of the shadows, halting when he halted, and so he brought her to the church, and let her out by the parish door into the public street, still a good hour <<before Matins|13>>. At the last moment she said, close at his shoulder within the half-open door. \x{201c}I shall be grateful always. Some day I shall send you word.\x{201d}",
           ],
           [
             1,
@@ -111,8 +111,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[00:00] A Rare Benedictine - Ellis Peters.epub (index_split_006.html) - midnight',
-            "Before <<midnight|13>> there was another visitor enquiring. The porter opened the door softly and came in to whisper that Master William\x{2019}s son was here, asking after his father and wanting to come in and see him. Since the sergeant, departing when it seemed certain his vigil was fruitless until morning, had pledged himself to go and reassure Mistress Rede that her man was alive, well cared for, and certain to make a good recovery, Cadfael might well have gone out to bid the young man go home and take care of his mother rather than waste his time here, if the young man had not forestalled him by making a silent and determined entry on his herald\x{2019}s heels. A tall, shock-headed, dark-eyed youth, hunched of shoulder just now, and grim of face, but admittedly very quiet in movement, and low-voiced. His look was by no means tender or solicitous. His eyes went at once to the figure in the bed, sweaty-browed now, and breathing somewhat more easily and naturally. He brooded, glaring, and wasting no time on question or explanation, said in a level whisper: \x{201c}I will stay.\x{201d} And with aggressive composure stayed, settling himself on the bench beside his father\x{2019}s bed, his two long, muscular hands gripped tightly between his knees.",
+            '[< 00:00] A Rare Benedictine - Ellis Peters.epub (index_split_006.html) - Before midnight',
+            "<<Before midnight|13>> there was another visitor enquiring. The porter opened the door softly and came in to whisper that Master William\x{2019}s son was here, asking after his father and wanting to come in and see him. Since the sergeant, departing when it seemed certain his vigil was fruitless until morning, had pledged himself to go and reassure Mistress Rede that her man was alive, well cared for, and certain to make a good recovery, Cadfael might well have gone out to bid the young man go home and take care of his mother rather than waste his time here, if the young man had not forestalled him by making a silent and determined entry on his herald\x{2019}s heels. A tall, shock-headed, dark-eyed youth, hunched of shoulder just now, and grim of face, but admittedly very quiet in movement, and low-voiced. His look was by no means tender or solicitous. His eyes went at once to the figure in the bed, sweaty-browed now, and breathing somewhat more easily and naturally. He brooded, glaring, and wasting no time on question or explanation, said in a level whisper: \x{201c}I will stay.\x{201d} And with aggressive composure stayed, settling himself on the bench beside his father\x{2019}s bed, his two long, muscular hands gripped tightly between his knees.",
           ],
           [
             1,
@@ -121,8 +121,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[~ 16:30] A Rare Benedictine - Ellis Peters.epub (index_split_006.html) - Vespers',
-            "Cadfael went into the town before <<Vespers|13>>, to call upon Mistress Rede, and take her the latest good word of her man. It was by chance that he met the sergeant at the High Cross, and stopped to exchange news. It had been a routine precaution to round up a few of the best-known rogues in Shrewsbury, and make them account for their movements the previous day, but that had yielded nothing. Eddi\x{2019}s fellow-marksmen at the butts under the town wall had sworn to his story willingly, but seeing they were all his cronies from boyhood, that meant little enough. The one new thing, and it marked the exact spot of the attack past question, was the discovery in the passage above the water-gate of the one loop of leather from Master William\x{2019}s pouch, the one which had been sliced clean through and left lying in the thief\x{2019}s haste, and the dim light under the high walls.",
+            '[< 16:30] A Rare Benedictine - Ellis Peters.epub (index_split_006.html) - before Vespers',
+            "Cadfael went into the town <<before Vespers|13>>, to call upon Mistress Rede, and take her the latest good word of her man. It was by chance that he met the sergeant at the High Cross, and stopped to exchange news. It had been a routine precaution to round up a few of the best-known rogues in Shrewsbury, and make them account for their movements the previous day, but that had yielded nothing. Eddi\x{2019}s fellow-marksmen at the butts under the town wall had sworn to his story willingly, but seeing they were all his cronies from boyhood, that meant little enough. The one new thing, and it marked the exact spot of the attack past question, was the discovery in the passage above the water-gate of the one loop of leather from Master William\x{2019}s pouch, the one which had been sliced clean through and left lying in the thief\x{2019}s haste, and the dim light under the high walls.",
           ],
           [
             1,

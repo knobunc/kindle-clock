@@ -16,8 +16,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[12:00] Oryx and Crake - Margaret Atwood.epub (OEBPS/Atwo_9781400078981_epub_c04_r1.htm) - noon',
-            "At lunch hour Jimmy collected Crake and the two of them grabbed some food \x{2013} Crake put down two giant soy-sausage dogs and a big slab of coconut-style layer cake, so maybe he was trying to bulk up \x{2013} and then they trudged up and down the halls and in and out of the classrooms and labs, with Jimmy giving the running commentary. Here\x{2019}s the gym, here\x{2019}s the library, those are the readers, you have to sign up for them before <<noon|13>>, in there\x{2019}s the girls\x{2019} shower room, there\x{2019}s supposed to be a hole drilled through the wall but I\x{2019}ve never found it. If you want to smoke dope don\x{2019}t use the can, they\x{2019}ve got it bugged; there\x{2019}s a microlens for Security in that air vent, don\x{2019}t stare at it or they\x{2019}ll know you know.",
+            '[< 12:00] Oryx and Crake - Margaret Atwood.epub (OEBPS/Atwo_9781400078981_epub_c04_r1.htm) - before noon',
+            "At lunch hour Jimmy collected Crake and the two of them grabbed some food \x{2013} Crake put down two giant soy-sausage dogs and a big slab of coconut-style layer cake, so maybe he was trying to bulk up \x{2013} and then they trudged up and down the halls and in and out of the classrooms and labs, with Jimmy giving the running commentary. Here\x{2019}s the gym, here\x{2019}s the library, those are the readers, you have to sign up for them <<before noon|13>>, in there\x{2019}s the girls\x{2019} shower room, there\x{2019}s supposed to be a hole drilled through the wall but I\x{2019}ve never found it. If you want to smoke dope don\x{2019}t use the can, they\x{2019}ve got it bugged; there\x{2019}s a microlens for Security in that air vent, don\x{2019}t stare at it or they\x{2019}ll know you know.",
           ],
           [
             1,
@@ -51,8 +51,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[12:00] Oryx and Crake - Margaret Atwood.epub (OEBPS/Atwo_9781400078981_epub_c09_r1.htm) - noon',
-            "But this is the dangerous part. Up to here he\x{2019}s always had something he could climb or scramble up or dodge around in case of a flank attack, but now comes an open space with no shelter and few verticals. He pulls the sheet up over his baseball cap to protect himself from the sun\x{2019}s glare, shrouding himself like an Arab, and plods on, picking up the pace as much as he can. He knows he\x{2019}ll burn some even through the sheet if he stays out here long enough: his best hope is speed. He\x{2019}ll need to get to shelter before <<noon|13>>, when the asphalt will be too hot to walk on.",
+            '[< 12:00] Oryx and Crake - Margaret Atwood.epub (OEBPS/Atwo_9781400078981_epub_c09_r1.htm) - before noon',
+            "But this is the dangerous part. Up to here he\x{2019}s always had something he could climb or scramble up or dodge around in case of a flank attack, but now comes an open space with no shelter and few verticals. He pulls the sheet up over his baseball cap to protect himself from the sun\x{2019}s glare, shrouding himself like an Arab, and plods on, picking up the pace as much as he can. He knows he\x{2019}ll burn some even through the sheet if he stays out here long enough: his best hope is speed. He\x{2019}ll need to get to shelter <<before noon|13>>, when the asphalt will be too hot to walk on.",
           ],
           [
             1,
@@ -105,7 +105,7 @@ Oh Jimmy, you were so funny, said another.",
           ],
           [
             1,
-            '[12:00] Oryx and Crake - Margaret Atwood.epub (OEBPS/Atwo_9781400078981_epub_c14_r1.htm) - noon',
-            "An hour before <<noon|13>> he climbs a tree, conceals himself in the shade of the leaves. There he eats a tin of SoyOBoy wieners and finishes the first bottle of water. Once he stops walking, his foot asserts itself: there\x{2019}s a regular throbbing, it feels hot and tight, as if it\x{2019}s crammed into a tiny shoe. He rubs some antibiotic gel into the cut, but without much faith: the microbes infecting him have doubtless already mounted their resistance and are simmering away in there, turning his flesh to porridge.",
+            '[< 11:00] Oryx and Crake - Margaret Atwood.epub (OEBPS/Atwo_9781400078981_epub_c14_r1.htm) - An hour before noon',
+            "<<An hour before noon|10>> he climbs a tree, conceals himself in the shade of the leaves. There he eats a tin of SoyOBoy wieners and finishes the first bottle of water. Once he stops walking, his foot asserts itself: there\x{2019}s a regular throbbing, it feels hot and tight, as if it\x{2019}s crammed into a tiny shoe. He rubs some antibiotic gel into the cut, but without much faith: the microbes infecting him have doubtless already mounted their resistance and are simmering away in there, turning his flesh to porridge.",
           ],
         ];

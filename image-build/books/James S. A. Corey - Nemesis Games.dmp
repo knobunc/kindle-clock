@@ -7,7 +7,7 @@ $VAR1 = [
           [
             1,
             '[ap > 01:00] Nemesis Games - James S. A. Corey.epub (OEBPS/Text/ch06.html) - After one',
-            '<<After one|9e>> last tight squeeze, she picked up her bag and walked to the door.',
+            '<<After one|9e:0>> last tight squeeze, she picked up her bag and walked to the door.',
           ],
           [
             1,
@@ -33,11 +33,6 @@ $VAR1 = [
             1,
             '[ap 04:34] Nemesis Games - James S. A. Corey.epub (OEBPS/Text/ch16.html) - 434',
             "\x{201c}So, I\x{2019}ve been looking into this thing with missing ships? And there\x{2019}s a suspicious hit out at <<434|3:0>> Hungaria. Any chance you have access to a ship? If you need to rent one, feel free to pull the funds from my account. I\x{2019}d like you to go see if a ship named the Pau Kant is sitting out there parked and dark. Specs on the transponder code attached to this message.\x{201d}",
-          ],
-          [
-            1,
-            '[ap 07:05] Nemesis Games - James S. A. Corey.epub (OEBPS/Text/ch23.html) - seven five',
-            "Reports at this hour are that a massive asteroid has impacted northern Africa. The Oxford Center in Rabat, five hundred kilometers west of the event, is estimating eight point <<seven five|5l:1>> on the Richter scale at the epicenter.\x{201d}",
           ],
           [
             1,

@@ -29,8 +29,8 @@ Genre: Adventure',
           ],
           [
             1,
-            '[00:00] Swords of Mars - Edgar Rice Burroughs.epub (OEBPS/part24_split_001.xhtml) - midnight',
-            "\x{201c}Whenever you can bring them without danger of detection, but certainly before <<midnight|13>> tonight.\x{201d}",
+            '[< 00:00] Swords of Mars - Edgar Rice Burroughs.epub (OEBPS/part24_split_001.xhtml) - before midnight',
+            "\x{201c}Whenever you can bring them without danger of detection, but certainly <<before midnight|13>> tonight.\x{201d}",
           ],
           [
             1,

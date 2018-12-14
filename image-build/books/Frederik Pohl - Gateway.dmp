@@ -1,23 +1,8 @@
 $VAR1 = [
           [
             1,
-            '[ap ~ 00:30] Gateway - Frederik Pohl.epub (OEBPS/Text/Bonus.html) - About a half of one',
-            "\x{201c}Sure. <<About a half of one|10>> per cent. And better than ninety-five per cent carbon dioxide. Somehow they managed to get that <<half of one|10>> per cent out of the mixture cheaply and easily\x{2014}remember those extra tunnels they filled\x{2014}along with enough nitrogen or some other inert gas to make a breathing mixture. If there\x{2019}s a machine that did it I\x{2019}d like to find that machine. Next item: aircraft. The Heechee flew around the surface of Venus at will.\x{201d}",
-          ],
-          [
-            1,
             '[ap 01:03] Gateway - Frederik Pohl.epub (OEBPS/Text/Bonus.html) - one three',
-            "The radio buzzed and then blared: \x{201c}Unidentified vessel at <<one three|5b>> five, zero seven, <<four eight|5l:0>> and <<seven two|5l:0>>, <<five one|9j>>, <<five four|9j>>. Please identify yourself and state your purpose.\x{201d}",
-          ],
-          [
-            1,
-            '[ap 09:01] Gateway - Frederik Pohl.epub (OEBPS/Text/Bonus.html) - Nine One',
-            "\x{201c}This is Pilot Audee Walthers, airbody Poppa Tare <<Nine One|5l:0>>, out of the Spindle. We are licensed and have filed approved flight plans. I have two Terry tourists aboard\x{2014}purpose, recreational exploration.\x{201d}",
-          ],
-          [
-            1,
-            '[ap 01:08] Gateway - Frederik Pohl.epub (OEBPS/Text/Bonus.html) - one eight',
-            "In a moment the Defense communicator came back, loud as ever. \x{201c}You are eleven point four kilometers bearing <<one eight|5l:0>> three degrees from terminator of a restricted area. Proceed with caution. Under Military Regulations <<One Seven|5l:0>> and <<One Eight|5l:0>>, Sections\x{2014}\x{201d}",
+            "The radio buzzed and then blared: \x{201c}Unidentified vessel at <<one three|5b>> five, zero seven, four eight and seven two, <<five one|9j>>, <<five four|9j>>. Please identify yourself and state your purpose.\x{201d}",
           ],
           [
             1,
@@ -73,11 +58,6 @@ Transit time out 19 days 4 hours. Position uncertain, vicinity (\x{b1}2 l.y.) Ze
           ],
           [
             1,
-            '[ap 06:06] Gateway - Frederik Pohl.epub (OEBPS/Text/Chapter_19.html) - six six',
-            "\x{201c}Pay attention, Sigfrid, this is an override command: \x{2018}Category Alpha Alpha Margaret Truman Daniel Mercury Venus Mars Earth <<six six|5l:0>> oh six.\x{2019} You are commanded to assume passive display mode.\x{201d}",
-          ],
-          [
-            1,
             '[ap 10:30] Gateway - Frederik Pohl.epub (OEBPS/Text/Chapter_20.html) - 10:30',
             'The Gateway Anglican
 
@@ -85,7 +65,7 @@ Transit time out 19 days 4 hours. Position uncertain, vicinity (\x{b1}2 l.y.) Ze
 
     Parish Communion <<10:30|2>> Sundays
 
-    Evensong by Arrangement',
+    <<Evensong|13>> by Arrangement',
           ],
           [
             1,

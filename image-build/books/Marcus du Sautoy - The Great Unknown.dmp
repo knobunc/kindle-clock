@@ -1,11 +1,6 @@
 $VAR1 = [
           [
             1,
-            '[ap 00:34] The Great Unknown_ Seven Journeys to the F - Marcus du Sautoy.epub (OEBPS/xhtml/10_Chapter_1.xhtml) - 26 to 1',
-            "The triangle is constructed in such a way that each number is the sum of the two numbers immediately above it. The numbers you get are key to dividing the spoils in any interrupted game of points. For example, if Fermat needs two points for a win while Pascal needs four, then you consult the 2 + 4 = 6th row of the triangle and add the first four numbers together and the last two. This is the proportion in which you should divide the spoils. In this case it\x{2019}s a 1 + 5 + 10 + 10 = <<26 to 1|10a:0>> + 5 = 6 division. So Fermat gets 26/32 \x{d7} 64 = \x{20a3}52 and Pascal gets 6/32 \x{d7} 64 = \x{20a3}12. In general, a game where Fermat needs n points to Pascal\x{2019}s m points can be decided by consulting the (n + m)th row of Pascal\x{2019}s triangle.",
-          ],
-          [
-            1,
             '[ap 10:50] The Great Unknown_ Seven Journeys to the F - Marcus du Sautoy.epub (OEBPS/xhtml/10_Chapter_1.xhtml) - ten to eleven',
             "Suppose that a car starts from a stationary position. When the stopwatch starts, the driver slams his foot on the accelerator. Suppose that we record that after t seconds the driver has covered t x t meters. How fast is the car going after ten seconds? We get an approximation of the speed by looking at how far the car has traveled in the period from <<ten to eleven|10a:0>> seconds. The average speed during this time is (11 x 11 \x{2212} 10 x 10)/1 = 21 meters per second.",
           ],

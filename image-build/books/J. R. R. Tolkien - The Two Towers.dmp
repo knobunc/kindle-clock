@@ -1,8 +1,8 @@
 $VAR1 = [
           [
             1,
-            '[> 00:00] The Two Towers - J. R. R. Tolkien.epub (OEBPS/TwoTowers_chap-13.html) - after midnight',
-            'About an hour <<after midnight|13>> the fear fell on them a third time, but it now seemed more remote, as if it were passing far above the clouds, rushing with terrible speed into the West.
+            '[> 01:00] The Two Towers - J. R. R. Tolkien.epub (OEBPS/TwoTowers_chap-13.html) - an hour after midnight',
+            'About <<an hour after midnight|10>> the fear fell on them a third time, but it now seemed more remote, as if it were passing far above the clouds, rushing with terrible speed into the West.
          Gollum, however, was helpless with terror, and was convinced that they were being hunted, that their approach was known.',
           ],
           [
@@ -73,8 +73,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[12:00] The Two Towers - J. R. R. Tolkien.epub (OEBPS/TwoTowers_chap-2.html) - noon',
-            'The others sprang up, and almost at once they set off again. Slowly the downs drew near. It was still an hour before <<noon|13>>
+            '[< 11:00] The Two Towers - J. R. R. Tolkien.epub (OEBPS/TwoTowers_chap-2.html) - an hour before noon',
+            'The others sprang up, and almost at once they set off again. Slowly the downs drew near. It was still <<an hour before noon|10>>
          when they reached them: green slopes rising to bare ridges that ran in a line straight towards the North. At their feet the
          ground was dry and the turf short, but a long strip of sunken land, some ten miles wide, lay between them and the river wandering deep in dim thickets of reed and rush. Just
          to the West of the southernmost slope there was a great ring, where the turf had been torn and beaten by many trampling feet.
@@ -85,7 +85,7 @@ $VAR1 = [
             1,
             '[< 12:00] The Two Towers - J. R. R. Tolkien.epub (OEBPS/TwoTowers_chap-4.html) - before noon',
             "\x{2018}Hoo, eh? Entmoot?\x{2019} said Treebeard, turning round. \x{2018}It is not a place, it is a gathering of Ents \x{2013} which does not often happen
-nowadays. But I have managed to make a fair number promise to come. We shall meet in the place where we have always met: Derndingle Men call it. It is away south from here. We must be there <<before noon|9b>>.\x{2019}",
+nowadays. But I have managed to make a fair number promise to come. We shall meet in the place where we have always met: Derndingle Men call it. It is away south from here. We must be there <<before noon|13>>.\x{2019}",
           ],
           [
             1,

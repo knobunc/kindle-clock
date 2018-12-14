@@ -7,7 +7,7 @@ $VAR1 = [
           [
             1,
             '[12:00] The Father Brown Omnibus - G. K. Chesterton.epub (Father_Brown_Omnibus_split_006.html) - noon',
-            'Gentlemen, upon your honour, you will none of you leave the house till tomorrow at <<noon|9b>>; there are bedrooms for all. Simon, I think you know where to find my man, Ivan, in the front hall; he is a confidential man. Tell him to leave another servant on guard and come to me at once. Lord Galloway, you are certainly the best person to tell the ladies what has happened, and prevent a panic.',
+            'Gentlemen, upon your honour, you will none of you leave the house till tomorrow at <<noon|13>>; there are bedrooms for all. Simon, I think you know where to find my man, Ivan, in the front hall; he is a confidential man. Tell him to leave another servant on guard and come to me at once. Lord Galloway, you are certainly the best person to tell the ladies what has happened, and prevent a panic.',
           ],
           [
             1,
@@ -21,8 +21,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[00:00] The Father Brown Omnibus - G. K. Chesterton.epub (Father_Brown_Omnibus_split_013.html) - midnight',
-            '"There are two men standing outside this shop," went on the blacksmith with ponderous lucidity, "good tradesmen in Greenford whom you all know, who will swear that they saw me from before <<midnight|13>> till daybreak and long after in the committee room of our Revival Mission, which sits all night, we save souls so fast. In Greenford itself twenty people could swear to me for all that time. If I were a heathen, Mr. Inspector, I would let you walk on to your downfall. But as a Christian man I feel bound to give you your chance, and ask you whether you will hear my alibi now or in court."',
+            '[< 00:00] The Father Brown Omnibus - G. K. Chesterton.epub (Father_Brown_Omnibus_split_013.html) - before midnight',
+            '"There are two men standing outside this shop," went on the blacksmith with ponderous lucidity, "good tradesmen in Greenford whom you all know, who will swear that they saw me from <<before midnight|13>> till daybreak and long after in the committee room of our Revival Mission, which sits all night, we save souls so fast. In Greenford itself twenty people could swear to me for all that time. If I were a heathen, Mr. Inspector, I would let you walk on to your downfall. But as a Christian man I feel bound to give you your chance, and ask you whether you will hear my alibi now or in court."',
           ],
           [
             1,
@@ -116,8 +116,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[12:00] The Father Brown Omnibus - G. K. Chesterton.epub (Father_Brown_Omnibus_split_040.html) - noon',
-            '\'Thank you, Mr Byrne,\' said Stein, folding up his eyeglasses. \'It only remains to say that everything is ready; on that point I quite agree with Mr Elias. Tomorrow, before <<noon|13>>, the police will have arrested Mr Elias, on evidence I shall by then have put before them, and those three at least will be in jail before night. As you know, I attempted to avoid this course. I think that is all, gentlemen.\'',
+            '[< 12:00] The Father Brown Omnibus - G. K. Chesterton.epub (Father_Brown_Omnibus_split_040.html) - before noon',
+            '\'Thank you, Mr Byrne,\' said Stein, folding up his eyeglasses. \'It only remains to say that everything is ready; on that point I quite agree with Mr Elias. Tomorrow, <<before noon|13>>, the police will have arrested Mr Elias, on evidence I shall by then have put before them, and those three at least will be in jail before night. As you know, I attempted to avoid this course. I think that is all, gentlemen.\'',
           ],
           [
             1,

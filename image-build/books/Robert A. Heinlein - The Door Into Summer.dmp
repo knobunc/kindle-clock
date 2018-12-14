@@ -27,7 +27,7 @@ $VAR1 = [
           [
             1,
             '[12:00] The Door Into Summer - Robert A. Heinlein.epub (OEBPS/Text/Chapter_04.xhtml) - noon',
-            "Miles looked at the clock. \x{201c}He said that doctor wanted him there at <<noon|9b>>.\x{201d}",
+            "Miles looked at the clock. \x{201c}He said that doctor wanted him there at <<noon|13>>.\x{201d}",
           ],
           [
             1,
@@ -73,11 +73,6 @@ $VAR1 = [
             1,
             "[ap 10:00] The Door Into Summer - Robert A. Heinlein.epub (OEBPS/Text/Chapter_09.xhtml) - ten o\x{2019}clock",
             "\x{201c}Hank, you\x{2019}re being fussy. You men like rules just for the sake of rules. If he\x{2019}s in a hurry to see her, he could be in Brawley by <<ten o\x{2019}clock|6>>.\x{201d} She turned to me. \x{201c}You come back at <<eight|9c:1>>. That\x{2019}s best. My husband and I can\x{2019}t really tell you anything anyhow.\x{201d}",
-          ],
-          [
-            1,
-            "[ap 05:04] The Door Into Summer - Robert A. Heinlein.epub (OEBPS/Text/Chapter_09.xhtml) - Five\x{2026}four",
-            "I looked at my watch. Dr. Twitchell said, \x{201c}<<Five\x{2026}four|5l:1>>\x{2026}<<three\x{2026}two|5l:1>>\x{2026}one\x{2026}now!\x{201d}",
           ],
           [
             1,

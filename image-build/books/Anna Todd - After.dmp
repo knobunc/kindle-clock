@@ -1,8 +1,8 @@
 $VAR1 = [
           [
             1,
-            '[00:00] After - Anna Todd.epub (text/part0019.html) - midnight',
-            "\x{201c}Fine,\x{201d} I say, and she jumps up and down, clapping her hands. \x{201c}But we\x{2019}re leaving before <<midnight|13>>.\x{201d}",
+            '[< 00:00] After - Anna Todd.epub (text/part0019.html) - before midnight',
+            "\x{201c}Fine,\x{201d} I say, and she jumps up and down, clapping her hands. \x{201c}But we\x{2019}re leaving <<before midnight|13>>.\x{201d}",
           ],
           [
             1,
@@ -181,12 +181,12 @@ We spend the rest of the evening watching random television shows before Hardin 
             '[ap 06:30] After - Anna Todd.epub (text/part0080.html) - six thirty',
             "\x{201c}What time is it?\x{201d} he groans.
 \x{201c}It\x{2019}s <<six thirty|9j>>. I have to blow-dry my hair.\x{201d}
-\x{201c}<<Six thirty|9j>>? You don\x{2019}t have to be there <<until nine|9b>>; come back to bed.\x{201d}",
+\x{201c}<<Six thirty|9j>>? You don\x{2019}t have to be there until <<nine|9b>>; come back to bed.\x{201d}",
           ],
           [
             1,
             '[ap 06:30] After - Anna Todd.epub (text/part0080.html) - Six thirty',
-            "\x{201c}<<Six thirty|9j>>? You don\x{2019}t have to be there <<until nine|9b>>; come back to bed.\x{201d}",
+            "\x{201c}<<Six thirty|9j>>? You don\x{2019}t have to be there until <<nine|9b>>; come back to bed.\x{201d}",
           ],
           [
             1,

@@ -120,8 +120,8 @@ they wounded other passing sore; and then when it was come
           [
             1,
             '[> 12:00] A Connecticut Yankee in King Arthur\'s Cour - Mark Twain.epub (OPS/main16.xml) - past noon',
-            "\x{2014}\x{ad}\x{201c}and waxed <<past noon|13>> and drew toward
-evensong.\x{a0} Sir Gawaine\x{2019}s strength feebled and waxed passing
+            "\x{2014}\x{ad}\x{201c}and waxed <<past noon|13>> and drew <<toward
+evensong|13>>.\x{a0} Sir Gawaine\x{2019}s strength feebled and waxed passing
 faint, that unnethes he might dure any longer, and Sir
 Marhaus was then bigger and bigger\x{2014}\x{ad}\x{201d}",
           ],
@@ -220,7 +220,7 @@ chapel, locked up the place, and went home to bed.",
             '[12:00] A Connecticut Yankee in King Arthur\'s Cour - Mark Twain.epub (OPS/main24.xml) - noon',
             "Before the <<noon|13>> mass was over, we were at the
 well again; for there was a deal to do yet, and I was determined to
-spring the miracle before <<midnight|13>>, for business reasons:\x{a0} for
+spring the miracle <<before midnight|13>>, for business reasons:\x{a0} for
 whereas a miracle worked for the Church on a week-day is worth a
 good deal, it is worth six times as much if you get it in on a
 Sunday.\x{a0} In nine hours the water had risen to its customary
@@ -303,7 +303,7 @@ indicate a town of goodly size.\x{201d}",
             "\x{201c}They sleep now, as I said; but on the morrow
 they will ride, for they go a journey toward the sea.\x{201d}
 \x{201c}And where will they be the day after to-morrow
-at <<vespers|9b>>?\x{201d}
+at <<vespers|13>>?\x{201d}
 \x{201c}Far to the north of Camelot, and half their
 journey will be done.\x{201d}",
           ],
@@ -549,6 +549,19 @@ ladies.\x{a0} We recognized a good many of them.",
           ],
           [
             1,
+            '[~ 16:30] A Connecticut Yankee in King Arthur\'s Cour - Mark Twain.epub (OPS/main4.xml) - evensong',
+            "\x{201c}Merlin, the mighty liar and magician, perdition
+singe him for the weariness he worketh with his one tale!\x{a0} But
+that men fear him for that he hath the storms and the lightnings
+and all the devils that be in hell at his beck and call, they would
+have dug his entrails out these many years ago to get at that tale
+and squelch it.\x{a0} He telleth it always in the third person,
+making believe he is too modest to glorify
+himself\x{2014}\x{ad}mal\x{e9}dictions light upon him, misfortune be his
+dole!\x{a0} Good friend, prithee call me for <<evensong|13>>.\x{201d}",
+          ],
+          [
+            1,
             "[ap 10:00] A Connecticut Yankee in King Arthur's Cour - Mark Twain.epub (OPS/main40.xml) - ten o\x{2019}clock",
             "Vast as the show-grounds were, there were no
 vacant spaces in them outside of the lists, at <<ten o\x{2019}clock|6>> on the
@@ -616,9 +629,9 @@ our fortress now when we want to blow up our civilization.\x{201d}",
           ],
           [
             1,
-            '[12:00] A Connecticut Yankee in King Arthur\'s Cour - Mark Twain.epub (OPS/main43.xml) - noon',
+            '[< 12:00] A Connecticut Yankee in King Arthur\'s Cour - Mark Twain.epub (OPS/main43.xml) - before noon',
             "\x{201c}It will make them buzz, I tell you!\x{a0}
-England will be a hornets\x{2019} nest before <<noon|13>> to-morrow, if the
+England will be a hornets\x{2019} nest <<before noon|13>> to-morrow, if the
 Church\x{2019}s hand hasn\x{2019}t lost its cunning\x{2014}\x{ad}and we know it hasn\x{2019}t.\x{a0}
 Now you write and I\x{2019}ll dictate thus:",
           ],

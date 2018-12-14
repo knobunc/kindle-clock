@@ -35,9 +35,9 @@ $VAR1 = [
           ],
           [
             1,
-            '[17:00] The 39 Steps - John Buchan.epub (OPS/xhtml/bm.html) - five in the afternoon',
+            '[ap 04:00] The 39 Steps - John Buchan.epub (OPS/xhtml/bm.html) - four',
             'supper NOUN supper was a light meal taken late in the evening. The main meal was dinner which
-               was eaten at four or <<five in the afternoon|5>>  and the supper table was all set out (Emma by Jane Austen)',
+               was eaten at <<four|20>> or <<five in the afternoon|5>>  and the supper table was all set out (Emma by Jane Austen)',
           ],
           [
             1,
@@ -168,10 +168,21 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap > 06:44] The 39 Steps - John Buchan.epub (OPS/xhtml/c02.html) - one minute after the quarter to seven',
+            '[ap 06:46] The 39 Steps - John Buchan.epub (OPS/xhtml/c02.html) - one minute after the quarter to seven',
             'At <<one minute after the quarter to seven|10>> I heard the rattle of the cans outside. I
             opened the front door, and there was my man, singling out my cans from a bunch he
             carried and whistling through his teeth. He jumped a bit at the sight of me.',
+          ],
+          [
+            1,
+            '[ap 07:00] The 39 Steps - John Buchan.epub (OPS/xhtml/c02.html) - seven',
+            'I crossed the street, whistling gaily and imitating the jaunty swing of the milkman.
+            Then I took the first side street, and went up a left-hand turning which led past
+            a bit of vacant ground. There was no one in the little street, so I dropped the milk-cans
+            inside the hoarding and sent the cap and overall after them. I had only just put on
+            my cloth cap when a postman came round the corner. I gave him good morning and he
+            answered me unsuspiciously. At the moment the clock of a neighbouring church struck
+            the hour of <<seven|20>>.',
           ],
           [
             1,
@@ -394,8 +405,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[12:00] The 39 Steps - John Buchan.epub (OPS/xhtml/c07.html) - midday',
-            'It was as well, for the weather changed before <<midday|13>> to a thick drizzle of rain.
+            '[< 12:00] The 39 Steps - John Buchan.epub (OPS/xhtml/c07.html) - before midday',
+            'It was as well, for the weather changed <<before midday|13>> to a thick drizzle of rain.
             I found shelter below an overhanging rock in the crook of a burn, where a drift of
             dead brackens made a tolerable bed. There I managed to sleep till nightfall, waking
             very cramped and wretched, with my shoulder gnawing like a toothache. I ate the oatcake

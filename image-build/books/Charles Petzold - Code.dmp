@@ -11,18 +11,13 @@ $VAR1 = [
           ],
           [
             1,
-            '[18:43] Code - Charles Petzold.epub (OEBPS/ch06.html) - until 1843',
-            'Although Samuel Morse notified the patent office in 1836 that he had invented a successful telegraph, it wasn\'t <<until 1843|18:0>> that he was able to persuade Congress to fund a public demonstration of the device. The historic day was May 24, 1844, when a telegraph line rigged between Washington, D.C., and Baltimore, Maryland, successfully carried the biblical message: "What hath God wrought!"',
+            '[18:43] Code - Charles Petzold.epub (OEBPS/ch06.html) - 1843',
+            'Although Samuel Morse notified the patent office in 1836 that he had invented a successful telegraph, it wasn\'t until <<1843|18:0>> that he was able to persuade Congress to fund a public demonstration of the device. The historic day was May 24, 1844, when a telegraph line rigged between Washington, D.C., and Baltimore, Maryland, successfully carried the biblical message: "What hath God wrought!"',
           ],
           [
             1,
             '[ap 02:05] Code - Charles Petzold.epub (OEBPS/ch07.html) - 205',
             'Yes, the zero. The lowly zero is without a doubt one of the most important inventions in the history of numbers and mathematics. It supports positional notation because it allows differentiation of 25 from <<205|9c:0>> and 250. The zero also eases many mathematical operations that are awkward in nonpositional systems, particularly multiplication and division.',
-          ],
-          [
-            1,
-            '[ap 01:03] Code - Charles Petzold.epub (OEBPS/ch08.html) - one three',
-            'When you\'re working with number systems other than decimal, you can avoid some confusion if you pronounce a number like 10 as one zero. Similarly, 13 is pronounced <<one three|5l:0>> and 20 is pronounced two zero. To really avoid confusion, we can say two zero base eight or two zero octal.',
           ],
           [
             1,
@@ -777,11 +772,6 @@ STO [<<1003h|1>>],ANotice that the destination (a memory location for the Store 
           ],
           [
             1,
-            '[ap ~ 00:00] Code - Charles Petzold.epub (OEBPS/ch18.html) - around 1200',
-            'Although commonly associated with Asian cultures, the abacus seems to have been introduced to China by traders <<around 1200|18:0>> CE.',
-          ],
-          [
-            1,
             '[~ 16:20] Code - Charles Petzold.epub (OEBPS/ch18.html) - around 1620',
             "Napier also invented another multiplication aid, which is composed of strips of numbers usually inscribed on bone, horn, or ivory and hence referred to as Napier's Bones. The earliest mechanical calculator was a somewhat automated version of Napier's bones built <<around 1620|18:0>> by Wilhelm Schickard (1592\x{2013}1635). Other calculators based on interlocking wheels, gears, and levers are almost as old. Two of the more significant builders of mechanical calculators were the mathematicians and philosophers Blaise Pascal (1623\x{2013}1662) and Gottfried Wilhelm von Leibniz (1646\x{2013}1716).",
           ],
@@ -812,8 +802,8 @@ STO [<<1003h|1>>],ANotice that the destination (a memory location for the Store 
           ],
           [
             1,
-            '[19:56] Code - Charles Petzold.epub (OEBPS/ch18.html) - until 1956',
-            'The transistor didn\'t come out of the blue. Eight years earlier, on December 29, 1939, Shockley had written in his notebook, "It has today occurred to me that an amplifier using semiconductors rather than vacuum is in principle possible." And after that first transistor was demonstrated, many years followed in perfecting it. It wasn\'t <<until 1956|18:0>> that Shockley, Bardeen, and Brattain were awarded the Nobel Prize in physics "for their researches on semiconductors and their discovery of the transistor effect."',
+            '[19:56] Code - Charles Petzold.epub (OEBPS/ch18.html) - 1956',
+            'The transistor didn\'t come out of the blue. Eight years earlier, on December 29, 1939, Shockley had written in his notebook, "It has today occurred to me that an amplifier using semiconductors rather than vacuum is in principle possible." And after that first transistor was demonstrated, many years followed in perfecting it. It wasn\'t until <<1956|18:0>> that Shockley, Bardeen, and Brattain were awarded the Nobel Prize in physics "for their researches on semiconductors and their discovery of the transistor effect."',
           ],
           [
             1,
@@ -1183,18 +1173,8 @@ Text: DB \'Hello!$\'
           ],
           [
             1,
-            '[ap 00:59] Code - Charles Petzold.epub (OEBPS/ch24.html) - one-to-one',
-            "What an assembler such as ASM.COM does is read an assembly-language program (often called a source-code file) and write out a file containing machine code\x{2014}an executable file. In the grand scheme of things, assemblers are fairly simple programs because there's a <<one-to-one|10a:0>> correspondence between the assembly-language mnemonics and machine code. The assembler works by separating each line of text into mnemonics and arguments and then comparing these small words and letters with a list that the assembler contains of all the possible mnemonics and arguments. These comparisons reveal which machine-code instructions correspond to each statement.",
-          ],
-          [
-            1,
             '[01:09] Code - Charles Petzold.epub (OEBPS/ch24.html) - 0109h',
             'Notice how the assembler figures out that the LXI instruction must set the register pair DE to the address <<0109h|1>>. If the LXI instruction itself is located at <<0100h|1>> (as it is when CP/M loads the program into memory to run), address <<0109h|1>> is where the text string begins. Generally a programmer using an assembler doesn\'t need to worry about the specific addresses associated with different parts of the program.',
-          ],
-          [
-            1,
-            '[ap 00:59] Code - Charles Petzold.epub (OEBPS/ch24.html) - one-to-one',
-            'Of course, it\'s not enough to simply define a high-level language (which involves developing a syntax to express all the things you want to do with the language); you must also write a compiler, which is the program that converts the statements of your high-level language to machine code. Like an assembler, a compiler must read through a source-code file character by character and break it down into short words and symbols and numbers. A compiler, however, is much more complex than an assembler. An assembler is simplified somewhat because of the <<one-to-one|10a:0>> correspondence between assembly-language statements and machine code. A compiler usually must translate a single statement of a high-level language into many machine-code instructions. Compilers aren\'t easy to write. Whole books are devoted to their design and construction.',
           ],
           [
             1,

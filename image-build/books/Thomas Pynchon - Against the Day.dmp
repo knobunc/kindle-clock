@@ -113,8 +113,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[12:00] Against the Day - Thomas Pynchon.epub (OPS/xhtml/chapter022.html) - noon',
-            "\x{201c}Don\x{2019}t be in a rush, boys, grocery wagon\x{2019}s due in before <<noon|13>>, bound to be something on it you can eat.\x{201d}",
+            '[< 12:00] Against the Day - Thomas Pynchon.epub (OPS/xhtml/chapter022.html) - before noon',
+            "\x{201c}Don\x{2019}t be in a rush, boys, grocery wagon\x{2019}s due in <<before noon|13>>, bound to be something on it you can eat.\x{201d}",
           ],
           [
             1,
@@ -154,7 +154,7 @@ $VAR1 = [
           [
             1,
             '[12:00] Against the Day - Thomas Pynchon.epub (OPS/xhtml/chapter029.html) - noon',
-            "\x{201c}What\x{2014}\x{201d} Ewball started to ask, but the rurales were making lip-buttoning gestures, and Frank remembered it was a Catholic practice to stay dummied up on Good Friday between <<noon|13>> and three, these being the hours Christ had hung on the cross. In devout silence they took away Frank\x{2019}s revolver and Ewball\x{2019}s German self-loader, and conducted them amid impenetrable sanctity to the juzgado, just off Calle Ju\x{e1}rez, where they were thrown together into a cell deep below ground level, hewn out of the primordial rock. Water dripped and rats took their time crossing open areas.",
+            "\x{201c}What\x{2014}\x{201d} Ewball started to ask, but the rurales were making lip-buttoning gestures, and Frank remembered it was a Catholic practice to stay dummied up on Good Friday between <<noon|13>> and <<three|20a>>, these being the hours Christ had hung on the cross. In devout silence they took away Frank\x{2019}s revolver and Ewball\x{2019}s German self-loader, and conducted them amid impenetrable sanctity to the juzgado, just off Calle Ju\x{e1}rez, where they were thrown together into a cell deep below ground level, hewn out of the primordial rock. Water dripped and rats took their time crossing open areas.",
           ],
           [
             1,
@@ -371,7 +371,7 @@ $VAR1 = [
           [
             1,
             '[00:00] Against the Day - Thomas Pynchon.epub (OPS/xhtml/chapter060.html) - midnight',
-            'On one of the outer islands in the Lagoon, which had belonged to the Spongiatosta family for centuries, over an hour away even by motor craft, stood a slowly drowning palazzo. Here at <<midnight|9b>> between Holy Saturday and Easter Sunday began the secret counter-Carnevale known as Carnesalve, not a farewell but an enthusiastic welcome to flesh in all its promise. As object of desire, as food, as temple, as gateway to conditions beyond immediate knowledge.',
+            'On one of the outer islands in the Lagoon, which had belonged to the Spongiatosta family for centuries, over an hour away even by motor craft, stood a slowly drowning palazzo. Here at <<midnight|13>> between Holy Saturday and Easter Sunday began the secret counter-Carnevale known as Carnesalve, not a farewell but an enthusiastic welcome to flesh in all its promise. As object of desire, as food, as temple, as gateway to conditions beyond immediate knowledge.',
           ],
           [
             1,

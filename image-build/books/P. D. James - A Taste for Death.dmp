@@ -31,8 +31,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[00:00] A Taste for Death - P. D. James.epub (OEBPS/Jame_9780307758989_epub_c06_r1.htm) - midnight',
-            "\x{201c}I suppose he was away about an hour, perhaps less. Then he returned the key. He said he would like to sleep that night in the Little Vestry. Of course he didn\x{2019}t know it was called that. He said in the small room with the bed. The bed has been there since Father Collins\x{2019}s time, in the war. He used to sleep in the church during air raids so that he could put out the fire bombs. We\x{2019}ve never taken it away. It\x{2019}s useful if people feel ill during services or if I want to rest before <<midnight|13>> Mass. It doesn\x{2019}t take up much room. It\x{2019}s only a narrow collapsible bed. Well, you\x{2019}ve seen it.\x{201d}",
+            '[< 00:00] A Taste for Death - P. D. James.epub (OEBPS/Jame_9780307758989_epub_c06_r1.htm) - before midnight',
+            "\x{201c}I suppose he was away about an hour, perhaps less. Then he returned the key. He said he would like to sleep that night in the Little Vestry. Of course he didn\x{2019}t know it was called that. He said in the small room with the bed. The bed has been there since Father Collins\x{2019}s time, in the war. He used to sleep in the church during air raids so that he could put out the fire bombs. We\x{2019}ve never taken it away. It\x{2019}s useful if people feel ill during services or if I want to rest <<before midnight|13>> Mass. It doesn\x{2019}t take up much room. It\x{2019}s only a narrow collapsible bed. Well, you\x{2019}ve seen it.\x{201d}",
           ],
           [
             1,
@@ -62,7 +62,7 @@ $VAR1 = [
           [
             1,
             '[ap 04:30] A Taste for Death - P. D. James.epub (OEBPS/Jame_9780307758989_epub_c06_r1.htm) - four thirty',
-            "\x{201c}From <<four thirty|9c:0>> till <<about quarter past five|10>>, when I read Evensong in the Lady Chapel.\x{201d}",
+            "\x{201c}From <<four thirty|9c:1>> till <<about quarter past five|10>>, when I read <<Evensong|13>> in the Lady Chapel.\x{201d}",
           ],
           [
             1,
@@ -71,8 +71,18 @@ $VAR1 = [
           ],
           [
             1,
+            '[~ 16:30] A Taste for Death - P. D. James.epub (OEBPS/Jame_9780307758989_epub_c06_r1.htm) - Evensong',
+            "\x{201c}Could anyone have got in during <<Evensong|13>>? Perhaps while you were praying? Were you alone in the Lady Chapel?\x{201d}",
+          ],
+          [
+            1,
+            '[~ 16:30] A Taste for Death - P. D. James.epub (OEBPS/Jame_9780307758989_epub_c06_r1.htm) - Evensong',
+            "\x{201c}Yes. I came in by the south door as usual and locked both it and the door in the grille after me. Then I unlocked the main door. That would be the natural way in for any stranger wanting to attend a service. My people know that I always unlock the main door for <<Evensong|13>> and it\x{2019}s very heavy. It squeaks dreadfully. We\x{2019}re always meaning to oil it. I don\x{2019}t think anyone could have entered without my hearing.\x{201d}",
+          ],
+          [
+            1,
             '[ap 05:30] A Taste for Death - P. D. James.epub (OEBPS/Jame_9780307758989_epub_c06_r1.htm) - five thirty',
-            "Dalgliesh went on to question him about the blotter and the spent match. Father Barnes said that the Little Vestry had last been used two days ago, on Monday the sixteenth, when the Parochial Church Council had met as usual at <<five thirty|5b>>, immediately after Evensong. He had presided, sitting at the desk, but hadn\x{2019}t used the blotter. He always wrote with a Biro. He hadn\x{2019}t been aware of any recent marks, but then, he wasn\x{2019}t very clever at noticing that kind of detail. He was sure that the match couldn\x{2019}t have been left there by anyone in the PCC. Only George Capstick smoked and he used a pipe, which he lit with a lighter. But he hadn\x{2019}t been at the PCC because of recovering, still, from the flu. People had remarked how pleasant it was not to be enveloped in smoke.",
+            "Dalgliesh went on to question him about the blotter and the spent match. Father Barnes said that the Little Vestry had last been used two days ago, on Monday the sixteenth, when the Parochial Church Council had met as usual at <<five thirty|5b>>, immediately <<after Evensong|13>>. He had presided, sitting at the desk, but hadn\x{2019}t used the blotter. He always wrote with a Biro. He hadn\x{2019}t been aware of any recent marks, but then, he wasn\x{2019}t very clever at noticing that kind of detail. He was sure that the match couldn\x{2019}t have been left there by anyone in the PCC. Only George Capstick smoked and he used a pipe, which he lit with a lighter. But he hadn\x{2019}t been at the PCC because of recovering, still, from the flu. People had remarked how pleasant it was not to be enveloped in smoke.",
           ],
           [
             1,
@@ -301,7 +311,7 @@ $VAR1 = [
           [
             1,
             '[19:00] A Taste for Death - P. D. James.epub (OEBPS/Jame_9780307758989_epub_c16_r1.htm) - seven at night',
-            "\x{201c}Maybe, but she didn\x{2019}t get pregnant in this flat, nor in the house, for all I know. There\x{2019}s no law which says you can only have sex between <<seven at night|5>> and seven next morning.\x{201d}",
+            "\x{201c}Maybe, but she didn\x{2019}t get pregnant in this flat, nor in the house, for all I know. There\x{2019}s no law which says you can only have sex between <<seven at night|5>> and <<seven|20a>> next morning.\x{201d}",
           ],
           [
             1,
@@ -644,7 +654,7 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap < 05:58] A Taste for Death - P. D. James.epub (OEBPS/Jame_9780307758989_epub_c37_r1.htm) - four or two of six',
+            '[ap - 05:58] A Taste for Death - P. D. James.epub (OEBPS/Jame_9780307758989_epub_c37_r1.htm) - four or two of six',
             'Dalgliesh thought that the number also had a certain operational logic. Garrod could organize three groups of <<four or two of six|10>> for field work and still free himself as coordinator, director, recognized leader. Duxbury went on:',
           ],
           [
@@ -686,6 +696,11 @@ $VAR1 = [
             1,
             "[ap ~ 08:00] A Taste for Death - P. D. James.epub (OEBPS/Jame_9780307758989_epub_c41_r1.htm) - about eight o\x{2019}clock",
             "\x{201c}I\x{2019}ve already told you, Commander. I spoke to him at <<about eight o\x{2019}clock|6>> and then at <<nine fifteen|5b>>. That must have been about forty-five minutes before he left for Suffolk. And I think you can safely assume that, if anyone had taken the Rover, Halliwell would have known. Anything else?\x{201d}",
+          ],
+          [
+            1,
+            '[> 16:30] A Taste for Death - P. D. James.epub (OEBPS/Jame_9780307758989_epub_c42_r1.htm) - after Evensong',
+            "\x{201c}Berowne gave Harry part of his supper, wholemeal bread, Roquefort cheese, an apple. It\x{2019}s on the file. You aren\x{2019}t suggesting that Harry Mack bought his own Roquefort? He couldn\x{2019}t have surprised Berowne. He\x{2019}d been in the church for some time before Berowne died. He was bedded down in the larger vestry. There\x{2019}s physical evidence, hair, fibres from his coat, apart from the crumbs of food. And he wasn\x{2019}t in the vestry or in the church when Father Barnes locked up <<after Evensong|13>>.\x{201d}",
           ],
           [
             1,
@@ -751,6 +766,11 @@ $VAR1 = [
           ],
           [
             1,
+            '[~ 16:30] A Taste for Death - P. D. James.epub (OEBPS/Jame_9780307758989_epub_c47_r1.htm) - Evensong',
+            'There was no answer at the vicarage and all the windows were dark, and then he remembered from his first visit to the church that the noticeboard had shown <<Evensong|13>> at four on Thursdays. Father Barnes would presumably be in church. And so it proved. The great north door was unbolted, and when he turned the heavy iron handle and pushed it open he was met by the expected waft of incense and saw that the lights were on in the Lady Chapel and that Father Barnes, robed only in his surplice and stole, was leading the responses. The congregation was larger than Dalgliesh had expected and the mutter of voices came to him clearly in a gentle, disjointed murmur. He seated himself in the front row just inside the door and sat to listen in patience to <<Evensong|13>>, that most neglected and aesthetically satisfying portion of the Anglican liturgy. For the first time since he had known it, the church was being used for the purpose for which it had been built. But it seemed to him subtly changed. In the branched candleholder where, only last Wednesday, his single light had burned there was now a double row of candles, some newly lit, others flickering with their last tremulous flame. He felt no impulse to add to the glitter. In their light the Pre-Raphaelite face of the Madonna with her flare of crimped and yellow hair under the high crown shone glossily as if newly painted and the distant voices came to him like the ominous premonitory mutterings of success.',
+          ],
+          [
+            1,
             '[ap > 03:00] A Taste for Death - P. D. James.epub (OEBPS/Jame_9780307758989_epub_c49_r1.htm) - just after three',
             "He was on the canal path too early, <<just after three|10>> thirty, but it wasn\x{2019}t because he was anxious. He knew that the boy would come. Since the meeting with Miss Wharton, he had had the sensation of being carried along by events, not a mere passenger of fate, but triumphantly borne forward on a crest of luck and euphoria. He had never felt stronger, more confident, more in control. He knew that the boy would come, just as he knew that the meeting would be important in ways that he couldn\x{2019}t at present begin to guess.",
           ],
@@ -798,5 +818,10 @@ $VAR1 = [
             1,
             '[ap 08:00] A Taste for Death - P. D. James.epub (OEBPS/Jame_9780307758989_epub_c53_r1.htm) - eight',
             "\x{201c}Look, there\x{2019}s something I must do. I\x{2019}ve got to ring my boyfriend. He\x{2019}s coming to supper at <<eight|9c:0>>.\x{201d}",
+          ],
+          [
+            1,
+            '[~ 16:30] A Taste for Death - P. D. James.epub (OEBPS/Jame_9780307758989_epub_c56_r1.htm) - Evensong',
+            "She took the bus to the Harrow Road and walked to the church. There was plenty for her to do. Father Barnes, refusing a period of convalescence, had been back only two days, but the number of services, and the size of the congregations, had increased since that article in the paper about a miracle, and there would be a long line of penitents waiting for confession after this afternoon\x{2019}s <<Evensong|13>>. St. Matthew\x{2019}s would never be the same again. She wondered how long there would be a place in it for her.",
           ],
         ];

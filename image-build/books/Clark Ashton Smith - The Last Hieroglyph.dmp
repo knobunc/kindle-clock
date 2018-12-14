@@ -136,8 +136,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[12:00] The Last Hieroglyph - Clark Ashton Smith.epub (The_Last_Hieroglyph_split_022.html) - noon',
-            "\x{201c}The present should be a favorable time,\x{201d} said S\x{e9}phora. \x{201c}It is now within an hour of <<noon|13>>; and Malachie often hunts at this time. If you should find him in his den, or he should return while you are there, you can say that you came in response to his invitation.\x{201d}",
+            '[< 11:00] The Last Hieroglyph - Clark Ashton Smith.epub (The_Last_Hieroglyph_split_022.html) - an hour of noon',
+            "\x{201c}The present should be a favorable time,\x{201d} said S\x{e9}phora. \x{201c}It is now within <<an hour of noon|10>>; and Malachie often hunts at this time. If you should find him in his den, or he should return while you are there, you can say that you came in response to his invitation.\x{201d}",
           ],
           [
             1,

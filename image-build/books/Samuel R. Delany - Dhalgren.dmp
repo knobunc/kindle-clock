@@ -43,8 +43,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[00:00] Dhalgren - Samuel R. Delany.epub (OEBPS/Text/chapter1_3.xhtml) - midnight',
-            '"You do?" She touched the lion\'s cheek, not leaning. "Well, I think of myself as a psychologist on vacation right now." Mocking him a little: "I only give advice between the hours of ten and <<midnight|13>>, down at Teddy\'s. That\'s if you\'ll have a drink with me." But that mocking was friendly.',
+            '[ap 10:00] Dhalgren - Samuel R. Delany.epub (OEBPS/Text/chapter1_3.xhtml) - ten',
+            '"You do?" She touched the lion\'s cheek, not leaning. "Well, I think of myself as a psychologist on vacation right now." Mocking him a little: "I only give advice between the hours of <<ten|20>> and <<midnight|13>>, down at Teddy\'s. That\'s if you\'ll have a drink with me." But that mocking was friendly.',
           ],
           [
             1,
@@ -256,7 +256,7 @@ The man with the gun said: "<<About seven|9:0>>."
           [
             1,
             '[ap ~ 01:00] Dhalgren - Samuel R. Delany.epub (OEBPS/Text/chapter6_6.xhtml) - Around one',
-            'His hands went out against her hips: <<Around one|9e>>, blue puddled, around the other, green.',
+            'His hands went out against her hips: <<Around one|9e:0>>, blue puddled, around the other, green.',
           ],
           [
             1,

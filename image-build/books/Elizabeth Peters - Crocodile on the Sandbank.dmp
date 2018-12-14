@@ -1,13 +1,6 @@
 $VAR1 = [
           [
             1,
-            '[12:00] Crocodile on the Sandbank - Elizabeth Peters.epub (OEBPS/html/003_also.html) - Noon',
-            'Fifth Amelia Peabody mystery
-The Last Camel Died at <<Noon|13>>
-Sixth Amelia Peabody mystery',
-          ],
-          [
-            1,
             '[12:00] Crocodile on the Sandbank - Elizabeth Peters.epub (OEBPS/html/015_body.html) - noon',
             "\x{2018}If you venture out into that sun tomorrow, you will be back in bed by <<noon|13>>,\x{2019} I said firmly. \x{2018}Perhaps I can have a look round myself. But I hate to neglect my pavement, even for a day.\x{2019}",
           ],
@@ -23,8 +16,8 @@ Sixth Amelia Peabody mystery',
           ],
           [
             1,
-            '[00:00] Crocodile on the Sandbank - Elizabeth Peters.epub (OEBPS/html/016_body.html) - midnight',
-            "Walter and Abdullah were to watch the village, with special attention to the mayor\x{2019}s house. Like all primitive groups, the village retired as soon as the sun went down. We did not expect any activity much before <<midnight|13>>, but the watchers were to take their places as soon as it was completely dark. Should Mohammed emerge, they were to follow him. He probably did not keep his mummy disguise in the house; Emerson felt sure that his father was not one of the plotters. The old man\x{2019}s fear had seemed genuine. Mohammed, then, would go to the spot \x{2013} of which there were many in the crumbling cliffs \x{2013} where he had concealed his costume, and assume it there. The watchers were not to interfere with him until they saw him actually in his disguise. They would then apprehend him; one would hold him captive while the other ran to give us the news. In a body bag we would haul the miscreant back to the village and expose his trickery.",
+            '[< 00:00] Crocodile on the Sandbank - Elizabeth Peters.epub (OEBPS/html/016_body.html) - before midnight',
+            "Walter and Abdullah were to watch the village, with special attention to the mayor\x{2019}s house. Like all primitive groups, the village retired as soon as the sun went down. We did not expect any activity much <<before midnight|13>>, but the watchers were to take their places as soon as it was completely dark. Should Mohammed emerge, they were to follow him. He probably did not keep his mummy disguise in the house; Emerson felt sure that his father was not one of the plotters. The old man\x{2019}s fear had seemed genuine. Mohammed, then, would go to the spot \x{2013} of which there were many in the crumbling cliffs \x{2013} where he had concealed his costume, and assume it there. The watchers were not to interfere with him until they saw him actually in his disguise. They would then apprehend him; one would hold him captive while the other ran to give us the news. In a body bag we would haul the miscreant back to the village and expose his trickery.",
           ],
           [
             1,

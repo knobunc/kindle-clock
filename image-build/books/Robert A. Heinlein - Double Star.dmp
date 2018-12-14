@@ -1,6 +1,11 @@
 $VAR1 = [
           [
             1,
+            '[13:00] Double Star - Robert A. Heinlein.epub (OEBPS/Text/Chapter_01.xhtml) - one-evening',
+            "\x{201c}My minimum fee for a <<one-evening|5>> date is one hundred Imperials.\x{201d} This was simple truth. Oh, I have been coerced at times into paying some scandalous kickbacks, but the voucher never read less than my proper fee. A man has his standards. I\x{2019}d rather starve.",
+          ],
+          [
+            1,
             '[ap 02:50] Double Star - Robert A. Heinlein.epub (OEBPS/Text/Chapter_01.xhtml) - two fifty',
             "\x{201c}Eh?\x{201d} I realized with sudden dismay that I could as easily have said two hundred, or even <<two fifty|5k:0>>. \x{201c}But I have not agreed to accept the engagement.\x{201d}",
           ],

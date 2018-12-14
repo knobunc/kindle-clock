@@ -17,7 +17,7 @@ $VAR1 = [
           [
             1,
             '[ap > 01:00] Tales of the Dying Earth - Jack Vance.epub (OEBPS/Text/Section0003_0001_0002.xhtml) - After one',
-            'Cugel cautiously raised the line on which his food was hoisted; doubled, redoubled and redoubled it again and so produced a cable amply strong to support him. He tied a loop on one end, and made the other fast to the pulley. <<After one|9e>> last look around the horizon, he lowered himself over the side. He descended to the end of the cable, thrust himself into the loop and sat swaying some four hundred feet above the plaza. To one end of his twenty-foot rope he tied his shoe for a weight, and after several casts, flung a loop around the stem of the column, and pulled himself close. With infinite caution he slipped himself free and, using the loop around the column as a brake, slid slowly to the ground. He took himself quickly into the shadows and donned his shoes. Just as he rose to his feet the door to the tavern swung opea and out reeled Hylam Wiskode, much the worse for drink. Cugel grinned unpleasantly and followed the staggering hetman into a side-street.',
+            'Cugel cautiously raised the line on which his food was hoisted; doubled, redoubled and redoubled it again and so produced a cable amply strong to support him. He tied a loop on one end, and made the other fast to the pulley. <<After one|9e:0>> last look around the horizon, he lowered himself over the side. He descended to the end of the cable, thrust himself into the loop and sat swaying some four hundred feet above the plaza. To one end of his twenty-foot rope he tied his shoe for a weight, and after several casts, flung a loop around the stem of the column, and pulled himself close. With infinite caution he slipped himself free and, using the loop around the column as a brake, slid slowly to the ground. He took himself quickly into the shadows and donned his shoes. Just as he rose to his feet the door to the tavern swung opea and out reeled Hylam Wiskode, much the worse for drink. Cugel grinned unpleasantly and followed the staggering hetman into a side-street.',
           ],
           [
             1,
@@ -112,7 +112,7 @@ $VAR1 = [
           [
             1,
             '[12:00] Tales of the Dying Earth - Jack Vance.epub (OEBPS/Text/Section0006_0002.xhtml) - noon',
-            'Bunderwal cleared his throat to speak, but Soldinck held up his hands. "Gentlemen, I have heard enough! I will discuss your qualifications with Mercantides, who may well wish to interview you both. Tomorrow at <<noon|9b>> I will have further news for you."',
+            'Bunderwal cleared his throat to speak, but Soldinck held up his hands. "Gentlemen, I have heard enough! I will discuss your qualifications with Mercantides, who may well wish to interview you both. Tomorrow at <<noon|13>> I will have further news for you."',
           ],
           [
             1,
@@ -132,7 +132,7 @@ $VAR1 = [
           [
             1,
             '[12:00] Tales of the Dying Earth - Jack Vance.epub (OEBPS/Text/Section0006_0002.xhtml) - noon',
-            '"The deed has been done, and well," said Bunderwal generously. "The victory is yours! Tomorrow at <<noon|9b>> we shall go together to the offices of Soldinck and Mercantides, where I will recommend you for the post of supercargo."',
+            '"The deed has been done, and well," said Bunderwal generously. "The victory is yours! Tomorrow at <<noon|13>> we shall go together to the offices of Soldinck and Mercantides, where I will recommend you for the post of supercargo."',
           ],
           [
             1,
@@ -146,8 +146,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[> 00:00] Tales of the Dying Earth - Jack Vance.epub (OEBPS/Text/Section0006_0004.xhtml) - after midnight',
-            'Captain Baunt had ordered the sail set, hoping to catch a waft of favorable air. Two hours <<after midnight|13>> a cross-wind arose, causing the sail to flap against the mast, creating a dismal sound which aroused Captain Baunt from his slumber. Baunt lurched out on deck. "Where is the watch? Hoy! Worminger! You there! Is no one about?"',
+            '[> 02:00] Tales of the Dying Earth - Jack Vance.epub (OEBPS/Text/Section0006_0004.xhtml) - Two hours after midnight',
+            'Captain Baunt had ordered the sail set, hoping to catch a waft of favorable air. <<Two hours after midnight|10>> a cross-wind arose, causing the sail to flap against the mast, creating a dismal sound which aroused Captain Baunt from his slumber. Baunt lurched out on deck. "Where is the watch? Hoy! Worminger! You there! Is no one about?"',
           ],
           [
             1,
@@ -163,11 +163,6 @@ $VAR1 = [
             1,
             '[ap 03:00] Tales of the Dying Earth - Jack Vance.epub (OEBPS/Text/Section0006_0008.xhtml) - Three',
             'One day a young woman came to confer with Nisbet. "I am Dame Mupo; I have been wed only a week, but it is time to start a column for Mupo, who is somewhat delicate and in need of upper level flux. I have inspected the area and selected a site, but as I walked among the columns I noted an odd circumstance. The bottom segments are numbered \'<<Three|9k:0>>\' rather than \'<<One|9k:0>>\', which would seem to be more usual. What is the reason for this?"',
-          ],
-          [
-            1,
-            '[20:03] Tales of the Dying Earth - Jack Vance.epub (OEBPS/Text/Section0006_0008.xhtml) - twenty three',
-            'Nisbet started to stammer, and Cugel quickly entered the conversation. "This is an innovation designed to help young families such as your own. For instance, Viberl enjoys pure and undiluted radiance on his \'Twenty four\'. By starring you off" with a \'Three\' instead of a \'One\', you are only twenty one blocks below him, rather than <<twenty three|5l:0>>."',
           ],
           [
             1,
@@ -266,8 +261,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[12:00] Tales of the Dying Earth - Jack Vance.epub (OEBPS/Text/Section0008_0020.xhtml) - noon',
-            'Somewhat before <<noon|13>> Rhialto noticed unusual conduct on the part of Osherl, and instantly made inquiry: "Well then, Osherl: what now?"',
+            '[< 12:00] Tales of the Dying Earth - Jack Vance.epub (OEBPS/Text/Section0008_0020.xhtml) - before noon',
+            'Somewhat <<before noon|13>> Rhialto noticed unusual conduct on the part of Osherl, and instantly made inquiry: "Well then, Osherl: what now?"',
           ],
           [
             1,

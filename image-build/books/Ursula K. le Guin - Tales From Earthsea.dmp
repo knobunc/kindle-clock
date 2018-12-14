@@ -43,8 +43,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[12:00] Tales From Earthsea - Ursula K. le Guin.epub (OEBPS/Text/Story_03.html) - midday',
-            "The rain had ceased, though mist still hid the peak and shreds of cloud drifted through the high forests. Though not a tireless walker like Silence, who would have spent his life wandering in the forests of Gont Mountain if he could, Dulse had been born in Re Albi and knew the roads and ways around it as part of himself. He took the shortcut at Rissi\x{2019}s well and came out before <<midday|13>> on Semere\x{2019}s high pasture, a level step on the mountainside. A mile below it, all in sunlight now, the farm buildings stood in the lee of a hill across which a flock of sheep moved like a cloud-shadow. Gont Port and its bay were hidden under the steep, knotted hills that stood inland above the city.",
+            '[< 12:00] Tales From Earthsea - Ursula K. le Guin.epub (OEBPS/Text/Story_03.html) - before midday',
+            "The rain had ceased, though mist still hid the peak and shreds of cloud drifted through the high forests. Though not a tireless walker like Silence, who would have spent his life wandering in the forests of Gont Mountain if he could, Dulse had been born in Re Albi and knew the roads and ways around it as part of himself. He took the shortcut at Rissi\x{2019}s well and came out <<before midday|13>> on Semere\x{2019}s high pasture, a level step on the mountainside. A mile below it, all in sunlight now, the farm buildings stood in the lee of a hill across which a flock of sheep moved like a cloud-shadow. Gont Port and its bay were hidden under the steep, knotted hills that stood inland above the city.",
           ],
           [
             1,
@@ -53,7 +53,7 @@ $VAR1 = [
           ],
           [
             1,
-            '[12:00] Tales From Earthsea - Ursula K. le Guin.epub (OEBPS/Text/Story_05.html) - noon',
-            'The Patterner never came to her much before <<noon|13>>, so she had the mornings free. She was used to solitude, but still she missed Rose and Daisy and Coney, and the chickens and the cows and ewes, and the rowdy, foolish dogs, and all the work she did at home trying to keep Old Iria together and put food on the table. So she worked away unhurriedly every morning till she saw the mage come out from the trees with his sunlight-colored hair shining in the sunlight.',
+            '[< 12:00] Tales From Earthsea - Ursula K. le Guin.epub (OEBPS/Text/Story_05.html) - before noon',
+            'The Patterner never came to her much <<before noon|13>>, so she had the mornings free. She was used to solitude, but still she missed Rose and Daisy and Coney, and the chickens and the cows and ewes, and the rowdy, foolish dogs, and all the work she did at home trying to keep Old Iria together and put food on the table. So she worked away unhurriedly every morning till she saw the mage come out from the trees with his sunlight-colored hair shining in the sunlight.',
           ],
         ];

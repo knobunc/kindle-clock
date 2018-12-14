@@ -345,11 +345,6 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 05:04] Executive Orders - Tom Clancy.epub (OEBPS/part28.xhtml) - five four',
-            "\x{201c}Somewhere in his fifties, but young looking for his age, ten kilos overweight, <<five four|5l:1>> or so, medium everything, so says our friend,\x{201d} Dan Murray reported from his written notes. \x{201c}Quiet and thoughtful, and he stiffed Yamata.\x{201d}",
-          ],
-          [
-            1,
             '[ap 01:00] Executive Orders - Tom Clancy.epub (OEBPS/part28.xhtml) - one',
             "Uh-\x{200b}oh
     
@@ -1378,8 +1373,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[> 00:00] Executive Orders - Tom Clancy.epub (OEBPS/part54.xhtml) - after midnight',
-            "\x{201c}Then let's go see him, Frank.\x{201d} Clark checked his watch, did the calculations, and decided that it was two hours <<after midnight|13>>. He grunted. Yeah, that was about right. First stop was the embassy, where they changed clothes. American military uniforms weren't all that welcome here. In fact, the station chief warned, few things American were. Chavez noted that a car followed them in from the airport.",
+            '[> 02:00] Executive Orders - Tom Clancy.epub (OEBPS/part54.xhtml) - two hours after midnight',
+            "\x{201c}Then let's go see him, Frank.\x{201d} Clark checked his watch, did the calculations, and decided that it was <<two hours after midnight|10>>. He grunted. Yeah, that was about right. First stop was the embassy, where they changed clothes. American military uniforms weren't all that welcome here. In fact, the station chief warned, few things American were. Chavez noted that a car followed them in from the airport.",
           ],
           [
             1,
@@ -1528,10 +1523,10 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 00:00] Executive Orders - Tom Clancy.epub (OEBPS/part60.xhtml) - until twelve',
+            '[ap 00:00] Executive Orders - Tom Clancy.epub (OEBPS/part60.xhtml) - twelve',
             "R
     AMAN HAD TO
-     stop at the Maryland-\x{200b}Pennsylvania line. A good twenty or so trucks were waiting for clearance from the Maryland State Police, with the National Guard in close attendance, and they lined up two by two, completely blocking the road at this point. Ten angry minutes later, he showed his ID. The cop waved him through without a word. Raman turned his light back on and sped off. He turned on the radio, caught an all-\x{200b}news AM station, but missed the top-\x{200b}of-\x{200b}the-\x{200b}hour news summary and had to suffer through all the rest, largely the same thing he'd been hearing all week, <<until twelve|9:1>>-\x{200b}thirty, when the network news service announced a reported air battle in the Persian Gulf. Neither the White House nor the Pentagon had commented on the alleged incident. Iran claimed to have sunk two American ships and shot down four fighters.",
+     stop at the Maryland-\x{200b}Pennsylvania line. A good twenty or so trucks were waiting for clearance from the Maryland State Police, with the National Guard in close attendance, and they lined up two by two, completely blocking the road at this point. Ten angry minutes later, he showed his ID. The cop waved him through without a word. Raman turned his light back on and sped off. He turned on the radio, caught an all-\x{200b}news AM station, but missed the top-\x{200b}of-\x{200b}the-\x{200b}hour news summary and had to suffer through all the rest, largely the same thing he'd been hearing all week, until <<twelve|9:1>>-\x{200b}thirty, when the network news service announced a reported air battle in the Persian Gulf. Neither the White House nor the Pentagon had commented on the alleged incident. Iran claimed to have sunk two American ships and shot down four fighters.",
           ],
           [
             1,
@@ -1607,13 +1602,6 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 01:06] Executive Orders - Tom Clancy.epub (OEBPS/part64.xhtml) - one six',
-            "T
-    HE GENERAL HEARD
-     the shouted warning from a thousand meters away. Only one of the radar vehicles was actually transmitting, and that intermittently as an electronic-\x{200b}security measure. It was radiating now, and caught the inbound missile. One of the launcher trucks rotated its four-\x{200b}tube mount and fired, but the Crotale lost lock when the Hellfire angled down and went harmlessly ballistic. The radar vehicle blew apart a moment later, and the second <<one six|5l:0>> seconds after that. The commanding general of the Army of God stopped talking then, and ignored the incoming conversation from Tehran. There was quite literally nothing for him to do but crouch down, which his bodyguards made him do.",
-          ],
-          [
-            1,
             '[ap ~ 05:00] Executive Orders - Tom Clancy.epub (OEBPS/part64.xhtml) - about five',
             "A
     LL FOUR APACHES
@@ -1647,8 +1635,8 @@ Loader: \x{201c}Up!\x{201d}",
           ],
           [
             1,
-            '[12:00] Executive Orders - Tom Clancy.epub (OEBPS/part65.xhtml) - noon',
-            "Over III Corps, with the SAMs taken out, attention turned to more structured murder. There were over six hundred tanks on the ground, another eight hundred infantry carriers, more than two hundred pieces of towed and self-\x{200b}propelled artillery, several thousand trucks, and thirty thousand men, all of them well inside a foreign nation and trying to escape. The F-15E Strike Eagles circled at about 15,000 feet, almost loitering on low power settings, while the weapons-\x{200b}systems operators selected targets one by one for laser-\x{200b}guided bombs. The air was clear, the sun was bright, and the battlefield was flat. It was far easier than any exercise in the Nellis bombing range. Lower down in different hunting patches, F-16s joined in with Maverick and conventional bombs. Before <<noon|13>>, III Corps's three-\x{200b}star commander, correctly thinking himself the senior ground officer, ordered a general retreat, gathered up the support trucks laagered in KKMC, and tried to get his units out in something resembling order. Bombs falling on him from above, the Saudi 5th Brigade approaching from the east, and an American force closing on his rear, he turned northwest, hoping to cross back into friendly territory at the same point he had entered. On the ground, his vehicles used smoke to obscure themselves as best they could, which somewhat frustrated the allied aviators, who did not, however, come down low to press their attacks, since the UIR forces might have shot back with some effect. That gave the commander hope that he might make it back with something like two-\x{200b}thirds of his strength. Fuel was not a concern. The combined fuel trucks for the entire Army of God were with his corps now.",
+            '[< 12:00] Executive Orders - Tom Clancy.epub (OEBPS/part65.xhtml) - Before noon',
+            "Over III Corps, with the SAMs taken out, attention turned to more structured murder. There were over six hundred tanks on the ground, another eight hundred infantry carriers, more than two hundred pieces of towed and self-\x{200b}propelled artillery, several thousand trucks, and thirty thousand men, all of them well inside a foreign nation and trying to escape. The F-15E Strike Eagles circled at about 15,000 feet, almost loitering on low power settings, while the weapons-\x{200b}systems operators selected targets one by one for laser-\x{200b}guided bombs. The air was clear, the sun was bright, and the battlefield was flat. It was far easier than any exercise in the Nellis bombing range. Lower down in different hunting patches, F-16s joined in with Maverick and conventional bombs. <<Before noon|13>>, III Corps's three-\x{200b}star commander, correctly thinking himself the senior ground officer, ordered a general retreat, gathered up the support trucks laagered in KKMC, and tried to get his units out in something resembling order. Bombs falling on him from above, the Saudi 5th Brigade approaching from the east, and an American force closing on his rear, he turned northwest, hoping to cross back into friendly territory at the same point he had entered. On the ground, his vehicles used smoke to obscure themselves as best they could, which somewhat frustrated the allied aviators, who did not, however, come down low to press their attacks, since the UIR forces might have shot back with some effect. That gave the commander hope that he might make it back with something like two-\x{200b}thirds of his strength. Fuel was not a concern. The combined fuel trucks for the entire Army of God were with his corps now.",
           ],
           [
             1,

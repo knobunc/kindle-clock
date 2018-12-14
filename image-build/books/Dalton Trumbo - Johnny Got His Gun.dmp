@@ -6,13 +6,6 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 01:02] Johnny Got His Gun - Dalton Trumbo.epub (OEBPS/Text/Book_1.html) - one two',
-            "\x{201c}You.\x{201d}
-\x{201c}I\x{2019}ll count\x{2014}<<one two|5l:0>> three.\x{201d}
-They jumped out of bed. It was chilly. They shivered and laughed at each other and almost never got dressed for wanting to stop and kiss.",
-          ],
-          [
-            1,
             "[ap 10:00] Johnny Got His Gun - Dalton Trumbo.epub (OEBPS/Text/Book_1.html) - ten o\x{2019}clock",
             "It was Howie shaking him.
 \x{201c}Wake up. It\x{2019}s <<ten o\x{2019}clock|6>>.\x{201d}
@@ -70,18 +63,13 @@ He didn\x{2019}t know whether it was night or whether his eye sockets had just b
           ],
           [
             1,
-            '[ap 05:30] Johnny Got His Gun - Dalton Trumbo.epub (OEBPS/Text/Book_1.html) - five-thirty',
-            "All the way to the tent walking under pine trees and over soft needle carpets and hearing the sound of the streams rushing down the mountain and seeing the stars in the sky he thought about his father. His father and mother never had much money but they seemed to get along all right. They had a little house set far back on a long wide lot near the edge of town. In front of the house there was a space of lawn and between the lawn and the sidewalk his father had a lot of room for gardening. People would come from all over town to admire his father\x{2019}s garden. His father would get up at five or <<five-thirty|5k:0>> in the mornings to go out and irrigate the garden. He would come home from work in the evenings eager to return to it. The garden in a way was his father\x{2019}s escape from bills and success stories and the job at the store. It was his father\x{2019}s way of creating something. It was his father\x{2019}s way of being an artist.",
-          ],
-          [
-            1,
-            '[ap 01:02] Johnny Got His Gun - Dalton Trumbo.epub (OEBPS/Text/Book_2.html) - One two',
-            "There are eight planets. They are Earth Venus Jupiter Mars Mercury. <<One two|5l:0>> <<three four|5l:0>> five. Three more. He didn\x{2019}t know. A star flickers and a planet has steady light. He couldn\x{2019}t remember. Thou shall not have any other gods before me. Thou shalt not kill. Thou shalt honor thy father and mother. Thou shalt not covet thy neighbor\x{2019}s ox nor his ass nor his manservant nor his maidservant. Thou shalt not steal. Thou shalt not commit adultery. Not enough. Blessed are the meek for they shall inherit the earth. Blessed are the poor for they shall see god. Blessed are they who hunger and thirst after righteousness sake for they shall do something or other he couldn\x{2019}t remember. The Lord is my shepherd I shall not want. He leadeth me beside the green pastures. He leadeth me beside the cool waters. He anointeth my head with oil. My cup runneth over. Yea though I walk through the valley of death I shall fear no evil for thy rod and thy buckler they comfort me. Surely goodness and mercy will follow me all the days of my life and I will dwell in the house of the Lord forever. That was pretty good. That was the best yet.",
+            '[ap 05:00] Johnny Got His Gun - Dalton Trumbo.epub (OEBPS/Text/Book_1.html) - five',
+            "All the way to the tent walking under pine trees and over soft needle carpets and hearing the sound of the streams rushing down the mountain and seeing the stars in the sky he thought about his father. His father and mother never had much money but they seemed to get along all right. They had a little house set far back on a long wide lot near the edge of town. In front of the house there was a space of lawn and between the lawn and the sidewalk his father had a lot of room for gardening. People would come from all over town to admire his father\x{2019}s garden. His father would get up at <<five|20>> or <<five-thirty|5k:0>> in the mornings to go out and irrigate the garden. He would come home from work in the evenings eager to return to it. The garden in a way was his father\x{2019}s escape from bills and success stories and the job at the store. It was his father\x{2019}s way of creating something. It was his father\x{2019}s way of being an artist.",
           ],
           [
             1,
             '[ap 08:12] Johnny Got His Gun - Dalton Trumbo.epub (OEBPS/Text/Book_2.html) - eight twelve',
-            "Now he had to begin assuming again. You would think in a hospital like this that your bedding would be changed at least every other day. Maybe it was once a day but he didn\x{2019}t think so because at the rate of one change in every twelve visits that would make the nurse visit him every two hours and there was so little to do he couldn\x{2019}t see why her trips should be that often. So he would figure that every two days she bathed him and changed his bedclothes and that she did this in the morning. If this was true then she came into his room six times in a day and night. That would make it every four hours. The simplest schedule for her to follow would be to come in at <<eight twelve|5b>> <<four eight|5l:1>> <<twelve four|5l:1>> and so on. She would probably change the bedding as early as possible in the morning so that would be at <<eight o\x{2019}clock|6>>.",
+            "Now he had to begin assuming again. You would think in a hospital like this that your bedding would be changed at least every other day. Maybe it was once a day but he didn\x{2019}t think so because at the rate of one change in every twelve visits that would make the nurse visit him every two hours and there was so little to do he couldn\x{2019}t see why her trips should be that often. So he would figure that every two days she bathed him and changed his bedclothes and that she did this in the morning. If this was true then she came into his room six times in a day and night. That would make it every four hours. The simplest schedule for her to follow would be to come in at <<eight twelve|5b>> four eight twelve four and so on. She would probably change the bedding as early as possible in the morning so that would be at <<eight o\x{2019}clock|6>>.",
           ],
           [
             1,

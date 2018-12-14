@@ -16,8 +16,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[16:48] The Big Oyster - Mark Kurlansky.epub (OEBPS/Kurl_9781588365910_epub_c02_r1.htm) - until 1648',
-            'The interests of the company were in making a profit, but beyond that, the Dutch government that chartered the company had a political objective. In 1562, the Dutch had begun a fight for independence from the Spanish, who had ruled them for a century. In 1618, the year the contracts of the New Netherlands Company had been set to expire, the Dutch began the final phase of their independence struggle, what was called the Thirty Years War, which lasted, as the name implies, <<until 1648|9n:0>>.',
+            '[16:48] The Big Oyster - Mark Kurlansky.epub (OEBPS/Kurl_9781588365910_epub_c02_r1.htm) - 1648',
+            'The interests of the company were in making a profit, but beyond that, the Dutch government that chartered the company had a political objective. In 1562, the Dutch had begun a fight for independence from the Spanish, who had ruled them for a century. In 1618, the year the contracts of the New Netherlands Company had been set to expire, the Dutch began the final phase of their independence struggle, what was called the Thirty Years War, which lasted, as the name implies, until <<1648|9n:0>>.',
           ],
           [
             1,
@@ -56,8 +56,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[17:48] The Big Oyster - Mark Kurlansky.epub (OEBPS/Kurl_9781588365910_epub_c04_r1.htm) - Until 1748',
-            "In the city to the south, Peter Kalm, a botanist at the University of Abbo in Swedish Finland, who was sent to America by the Swedish Academy in 1747, reported that the townspeople got so bitten up by mosquitoes at night that they would be \x{201c}ashamed\x{201d} to show their swollen faces. He also found New Yorkers suffering from what he called \x{201c}fever and ague.\x{201d} This was probably malaria. <<Until 1748|9n:1>>, it was not known that malaria was spread by mosquitoes. And even what medical knowledge existed at the time was seldom available in New York. After the small Dutch hospital was abandoned in 1674, New York City had no hospital until 1776, not even during the smallpox epidemic of 1727 that killed five hundred people in less than a month.",
+            '[17:48] The Big Oyster - Mark Kurlansky.epub (OEBPS/Kurl_9781588365910_epub_c04_r1.htm) - 1748',
+            "In the city to the south, Peter Kalm, a botanist at the University of Abbo in Swedish Finland, who was sent to America by the Swedish Academy in 1747, reported that the townspeople got so bitten up by mosquitoes at night that they would be \x{201c}ashamed\x{201d} to show their swollen faces. He also found New Yorkers suffering from what he called \x{201c}fever and ague.\x{201d} This was probably malaria. Until <<1748|9n:1>>, it was not known that malaria was spread by mosquitoes. And even what medical knowledge existed at the time was seldom available in New York. After the small Dutch hospital was abandoned in 1674, New York City had no hospital until 1776, not even during the smallpox epidemic of 1727 that killed five hundred people in less than a month.",
           ],
           [
             1,
@@ -81,8 +81,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[18:25] The Big Oyster - Mark Kurlansky.epub (OEBPS/Kurl_9781588365910_epub_c05_r1.htm) - until 1825',
-            "But not everyone was enthusiastic about the canal idea. New York City was still agricultural, even Manhattan was still two-thirds farmland, and Manhattan farmers did not want to compete with the goods that could be brought in from upstate. Many New York City merchants initially opposed the canal because they believed that it would devalue New York products. New York City\x{2019}s most influential politician, Governor DeWitt Clinton, from a famous and well-connected family\x{2014}his father James was a Revolutionary War hero and his uncle George served as vice president under both Jefferson and Madison while the canal project was looking for sponsors\x{2014}was the canal\x{2019}s greatest champion. Work began in 1817 and was not completed <<until 1825|18:0>> at an estimated cost of five dollars per inhabitant of New York State.",
+            '[18:25] The Big Oyster - Mark Kurlansky.epub (OEBPS/Kurl_9781588365910_epub_c05_r1.htm) - 1825',
+            "But not everyone was enthusiastic about the canal idea. New York City was still agricultural, even Manhattan was still two-thirds farmland, and Manhattan farmers did not want to compete with the goods that could be brought in from upstate. Many New York City merchants initially opposed the canal because they believed that it would devalue New York products. New York City\x{2019}s most influential politician, Governor DeWitt Clinton, from a famous and well-connected family\x{2014}his father James was a Revolutionary War hero and his uncle George served as vice president under both Jefferson and Madison while the canal project was looking for sponsors\x{2014}was the canal\x{2019}s greatest champion. Work began in 1817 and was not completed until <<1825|18:0>> at an estimated cost of five dollars per inhabitant of New York State.",
           ],
           [
             1,
@@ -136,8 +136,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 00:00] The Big Oyster - Mark Kurlansky.epub (OEBPS/Kurl_9781588365910_epub_c07_r1.htm) - until twelve',
-            "To rise early in the morning, to get breakfast, to go down to the counting house of the firm, to open and read letters\x{2014}to go out and do some business, either at the Custom house, bank or elsewhere, <<until twelve|9e>>, then to take lunch and a glass of wine at Delmonico\x{2019}s; or a few raw oysters at Downing\x{2019}s, to sign checks . . .",
+            '[ap 00:00] The Big Oyster - Mark Kurlansky.epub (OEBPS/Kurl_9781588365910_epub_c07_r1.htm) - twelve',
+            "To rise early in the morning, to get breakfast, to go down to the counting house of the firm, to open and read letters\x{2014}to go out and do some business, either at the Custom house, bank or elsewhere, until <<twelve|9e>>, then to take lunch and a glass of wine at Delmonico\x{2019}s; or a few raw oysters at Downing\x{2019}s, to sign checks . . .",
           ],
           [
             1,
@@ -188,11 +188,6 @@ $VAR1 = [
             1,
             '[> 00:00] The Big Oyster - Mark Kurlansky.epub (OEBPS/Kurl_9781588365910_epub_c08_r1.htm) - after midnight',
             "The market favored by the city\x{2019}s poor was along the East River at Catherine Street, which, though shabby, was in better condition than the Washington Market. It was a much quieter market, with only eighty vendors who called out to passersby, hoping to get some needed business. They serviced mostly the residents of nearby tenements, who ate very little most of the week. But the poor had a tradition of feasting one day a week and on Saturdays the Catherine Market was overflowing with retail shoppers. The emphasis in the Catherine Market was on low prices and the shoppers would barter with the vendors. The Catherine Market vendors reflected the ethnic diversity that was characteristic of New York, with Jewish, Irish, and Chinese salespeople. This market died down <<after midnight|13>>, when the city\x{2019}s poorest would quietly arrive, hoping for affordable final prices for whatever had not sold. Other markets included the sizable Center Market, with 161 stands, and Clinton, with 158, and the smaller 78-stand Tompkins, 70-stand Jefferson, 66-stand Essex, and even a little 37-stand Union Market.",
-          ],
-          [
-            1,
-            '[ap 01:05] The Big Oyster - Mark Kurlansky.epub (OEBPS/Kurl_9781588365910_epub_c09_r1.htm) - one Five',
-            'In the end, of 161 Five Pointers conscripted, 59 received exemptions, 11 hired substitutes, two paid the $300 fee, and 88 simply failed to report. Only <<one Five|5l:0>> Pointer draftee served, Hugh Boyle, who went in at the end of 1864, served in the war until it ended five months later, and then, on his way to join occupation forces in Texas, deserted.',
           ],
           [
             1,

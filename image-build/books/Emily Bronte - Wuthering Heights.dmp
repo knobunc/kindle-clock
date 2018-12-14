@@ -99,7 +99,7 @@ $VAR1 = [
           [
             1,
             '[ap 08:00] Wuthering Heights - Emily Bronte.epub (OEBPS/html/9780141439556_WutheringHeights_013.html) - eight',
-            'I sat and thought a doleful time; the clock struck <<eight|11>>, and nine, and still my companion paced to and fro, his head bent on his breast, and perfectly silent, unless a groan, or a bitter ejaculation forced itself out at intervals.',
+            'I sat and thought a doleful time; the clock struck <<eight|11>>, and <<nine|20a>>, and still my companion paced to and fro, his head bent on his breast, and perfectly silent, unless a groan, or a bitter ejaculation forced itself out at intervals.',
           ],
           [
             1,
@@ -118,8 +118,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[12:00] Wuthering Heights - Emily Bronte.epub (OEBPS/html/9780141439556_WutheringHeights_017.html) - noon',
-            "\x{2018}This morning, when I came down, about half-an-hour before <<noon|13>>, Mr Earnshaw was sitting by the fire, deadly sick; his evil genius, almost as gaunt and ghastly, leant against the chimney. Neither appeared inclined to dine; and having waited till all was cold on the table, I commenced alone.",
+            '[< 12:00] Wuthering Heights - Emily Bronte.epub (OEBPS/html/9780141439556_WutheringHeights_017.html) - before noon',
+            "\x{2018}This morning, when I came down, about half-an-hour <<before noon|13>>, Mr Earnshaw was sitting by the fire, deadly sick; his evil genius, almost as gaunt and ghastly, leant against the chimney. Neither appeared inclined to dine; and having waited till all was cold on the table, I commenced alone.",
           ],
           [
             1,

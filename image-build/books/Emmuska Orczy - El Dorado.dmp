@@ -67,7 +67,7 @@ $VAR1 = [
           [
             1,
             '[ap ~ 10:00] El Dorado_ Further Adventures of the Scarl - Emmuska Orczy.epub (index_split_016.html) - about ten',
-            '"Yes. One of you will have two horses on the lead, the other one. Pack some fodder on the empty saddles and start at <<about ten|9g>> o\'clock. Ride straight along the main road, as if you were making back for Paris, until you come to four cross-roads with a sign-post pointing to Courbevoie. Turn down there and go along the road until you meet a close spinney of fir-trees on your right. Make for the interior of that. It gives splendid shelter, and you can dismount there and give the horses a feed. We\'ll join you one hour <<after midnight|13>>. The night will be dark, I hope, and the moon anyhow will be on the wane."',
+            '"Yes. One of you will have two horses on the lead, the other one. Pack some fodder on the empty saddles and start at <<about ten|9g>> o\'clock. Ride straight along the main road, as if you were making back for Paris, until you come to four cross-roads with a sign-post pointing to Courbevoie. Turn down there and go along the road until you meet a close spinney of fir-trees on your right. Make for the interior of that. It gives splendid shelter, and you can dismount there and give the horses a feed. We\'ll join you <<one hour after midnight|10>>. The night will be dark, I hope, and the moon anyhow will be on the wane."',
           ],
           [
             1,
@@ -101,6 +101,11 @@ $VAR1 = [
           ],
           [
             1,
+            '[ap 06:00] El Dorado_ Further Adventures of the Scarl - Emmuska Orczy.epub (index_split_020.html) - six',
+            'Resolution was not slow in coming. A tower clock inside the city struck the hour of <<six|20>>, and still no sign of Percy.',
+          ],
+          [
+            1,
             '[ap 10:00] El Dorado_ Further Adventures of the Scarl - Emmuska Orczy.epub (index_split_021.html) - ten',
             "He knew that his best way to the prison would be through the halls and corridors of the Tribunal, to which the public had access whenever the court was sitting. The sittings began at <<ten|9c:1>>, and already the usual crowd of idlers were assembling\x{2014}men and women who apparently had no other occupation save to come day after day to this theatre of horrors and watch the different acts of the heartrending dramas that were enacted here with a kind of awful monotony.",
           ],
@@ -111,8 +116,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[19:00] El Dorado_ Further Adventures of the Scarl - Emmuska Orczy.epub (index_split_021.html) - seven in the evening',
-            'It apparently was not the hour when the prison registers were placed at the disposal of the public. After much fruitless inquiry, Armand at last was informed by a bon bourgeois, who was wandering about the house of Justice and who seemed to know its multifarious rules, that the prison registers all over Paris could only be consulted by the public between the hours of six and <<seven in the evening|5>>.',
+            '[ap 06:00] El Dorado_ Further Adventures of the Scarl - Emmuska Orczy.epub (index_split_021.html) - six',
+            'It apparently was not the hour when the prison registers were placed at the disposal of the public. After much fruitless inquiry, Armand at last was informed by a bon bourgeois, who was wandering about the house of Justice and who seemed to know its multifarious rules, that the prison registers all over Paris could only be consulted by the public between the hours of <<six|20>> and <<seven in the evening|5>>.',
           ],
           [
             1,
@@ -163,6 +168,11 @@ $VAR1 = [
             1,
             '[ap 06:00] El Dorado_ Further Adventures of the Scarl - Emmuska Orczy.epub (index_split_027.html) - six o\'clock',
             'His next objective, then, was Armand\'s former lodging, and from <<six o\'clock|6>> until close upon eight Sir Percy haunted the slopes of Montmartre, and more especially the neighbourhood of the Rue de la Croix Blanche, where Armand had lodged these former days. At the house itself he could not inquire as yet; obviously it would not have been safe; tomorrow, perhaps, when he knew more, but not tonight. His keen eyes had already spied at least two figures clothed in the rags of out-of-work labourers like himself, who had hung with suspicious persistence in this same neighbourhood, and who during the two hours that he had been in observation had never strayed out of sight of the house in the Rue de la Croix Blanche.',
+          ],
+          [
+            1,
+            '[ap 08:00] El Dorado_ Further Adventures of the Scarl - Emmuska Orczy.epub (index_split_027.html) - eight',
+            'Then, as from the Tour des Dames close by the clock solemnly struck the hour of <<eight|20>>, and Blakeney prepared to wend his way back to another part of the city, he suddenly saw Armand walking slowly up the street.',
           ],
           [
             1,
@@ -231,6 +241,11 @@ $VAR1 = [
           ],
           [
             1,
+            '[ap 10:00] El Dorado_ Further Adventures of the Scarl - Emmuska Orczy.epub (index_split_036.html) - ten',
+            'Mechanically she followed Chauvelin down the corridor and along the passages which she had traversed a brief half-hour ago. From some distant church tower a clock tolled the hour of <<ten|20>>. It had then really only been little more than thirty brief minutes since first she had entered this grim building, which seemed less stony than the monsters who held authority within it; to her it seemed that centuries had gone over her head during that time. She felt like an old woman, unable to straighten her back or to steady her limbs; she could only dimly see some few paces ahead the trim figure of Chauvelin walking with measured steps, his hands held behind his back, his head thrown up with what looked like triumphant defiance.',
+          ],
+          [
+            1,
             '[05:00] El Dorado_ Further Adventures of the Scarl - Emmuska Orczy.epub (index_split_036.html) - five in the morning',
             '"Yes. You would like to see Sir Percy again to-morrow, would you not? I myself would gladly pay him a visit from time to time, but he does not care for my company. My colleague, citizen Heron, on the other hand, calls on him four times in every twenty-four hours; he does so a few moments before the changing of the guard, and stays chatting with Sir Percy until after the guard is changed, when he inspects the men and satisfies himself that no traitor has crept in among them. All the men are personally known to him, you see. These hours are at <<five in the morning|9a>> and again at <<eleven|9c:1>>, and then again at <<five|9c:1>> and <<eleven in the evening|5>>. My friend Heron, as you see, is zealous and assiduous, and, strangely enough, Sir Percy does not seem to view his visit with any displeasure. Now at any other hour of the day, Lady Blakeney, I pray you command me and I will arrange that citizen Heron grant you a second interview with the prisoner."',
           ],
@@ -246,8 +261,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[> 00:00] El Dorado_ Further Adventures of the Scarl - Emmuska Orczy.epub (index_split_045.html) - after midnight',
-            'Chroniclers intimate with the inner history of those infamous days have told us how the chief agent of the Committee of General Security gave orders one hour <<after midnight|13>> that hot soup, white bread and wine be served to the prisoner, who for close on fourteen days previously had been kept on short rations of black bread and water; the sergeant in charge of the guard-room watch for the night also received strict orders that that same prisoner was on no account to be disturbed until the hour of <<six in the morning|5>>, when he was to be served with anything in the way of breakfast that he might fancy.',
+            '[> 01:00] El Dorado_ Further Adventures of the Scarl - Emmuska Orczy.epub (index_split_045.html) - one hour after midnight',
+            'Chroniclers intimate with the inner history of those infamous days have told us how the chief agent of the Committee of General Security gave orders <<one hour after midnight|10>> that hot soup, white bread and wine be served to the prisoner, who for close on fourteen days previously had been kept on short rations of black bread and water; the sergeant in charge of the guard-room watch for the night also received strict orders that that same prisoner was on no account to be disturbed until the hour of <<six in the morning|5>>, when he was to be served with anything in the way of breakfast that he might fancy.',
           ],
           [
             1,
@@ -256,8 +271,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[> 00:00] El Dorado_ Further Adventures of the Scarl - Emmuska Orczy.epub (index_split_046.html) - after midnight',
-            'Two hours <<after midnight|13>> Armand St. Just was wakened from sleep by a peremptory pull at his bell. In these days in Paris but one meaning could as a rule be attached to such a summons at this hour of the night, and Armand, though possessed of an unconditional certificate of safety, sat up in bed, quite convinced that for some reason which would presently be explained to him he had once more been placed on the list of the "suspect," and that his trial and condemnation on a trumped-up charge would follow in due course.',
+            '[> 02:00] El Dorado_ Further Adventures of the Scarl - Emmuska Orczy.epub (index_split_046.html) - Two hours after midnight',
+            '<<Two hours after midnight|10>> Armand St. Just was wakened from sleep by a peremptory pull at his bell. In these days in Paris but one meaning could as a rule be attached to such a summons at this hour of the night, and Armand, though possessed of an unconditional certificate of safety, sat up in bed, quite convinced that for some reason which would presently be explained to him he had once more been placed on the list of the "suspect," and that his trial and condemnation on a trumped-up charge would follow in due course.',
           ],
           [
             1,
@@ -276,8 +291,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[12:00] El Dorado_ Further Adventures of the Scarl - Emmuska Orczy.epub (index_split_048.html) - noon',
-            '"Ah, there I am completely at sea! But I\'ll deliver it, and at once too, only I don\'t like to leave you. Will you let me get you out of Paris first? I think just before dawn it could be done. We can get the cart from Lucas, and if we could reach St. Germain before <<noon|13>>, I could come straight back then and deliver the letter to de Batz. This, I feel, I ought to do myself; but at Achard\'s farm I would know that you were safe for a few hours."',
+            '[< 12:00] El Dorado_ Further Adventures of the Scarl - Emmuska Orczy.epub (index_split_048.html) - before noon',
+            '"Ah, there I am completely at sea! But I\'ll deliver it, and at once too, only I don\'t like to leave you. Will you let me get you out of Paris first? I think just before dawn it could be done. We can get the cart from Lucas, and if we could reach St. Germain <<before noon|13>>, I could come straight back then and deliver the letter to de Batz. This, I feel, I ought to do myself; but at Achard\'s farm I would know that you were safe for a few hours."',
           ],
           [
             1,
@@ -301,8 +316,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[> 00:00] El Dorado_ Further Adventures of the Scarl - Emmuska Orczy.epub (index_split_054.html) - after midnight',
-            '"We may not reach Crecy until two hours <<after midnight|13>>, but directly I arrive I will send citizen Chauvelin further reinforcements, which, however, I hope may not necessary, but which will reach him in the early morning. Even if he is seriously attacked, he can, with fourteen men he will have with him, hold out inside the castle through the night. Tell him also that at dawn two prisoners who will be with me will be shot in the courtyard of the guard-house at Crecy, but that whether he has got hold of Capet or not he had best pick up the Englishman in the chapel in the morning and bring him straight to Crecy, where I shall be awaiting him ready to return to Paris. You understand?"',
+            '[> 02:00] El Dorado_ Further Adventures of the Scarl - Emmuska Orczy.epub (index_split_054.html) - two hours after midnight',
+            '"We may not reach Crecy until <<two hours after midnight|10>>, but directly I arrive I will send citizen Chauvelin further reinforcements, which, however, I hope may not necessary, but which will reach him in the early morning. Even if he is seriously attacked, he can, with fourteen men he will have with him, hold out inside the castle through the night. Tell him also that at dawn two prisoners who will be with me will be shot in the courtyard of the guard-house at Crecy, but that whether he has got hold of Capet or not he had best pick up the Englishman in the chapel in the morning and bring him straight to Crecy, where I shall be awaiting him ready to return to Paris. You understand?"',
           ],
           [
             1,
@@ -311,7 +326,7 @@ $VAR1 = [
           ],
           [
             1,
-            '[> 00:00] El Dorado_ Further Adventures of the Scarl - Emmuska Orczy.epub (index_split_056.html) - after midnight',
-            "It was one hour <<after midnight|13>> when\x{2014}refreshed with food and rest\x{2014}Marguerite, Armand and Sir Percy left the half-way house. Marguerite was standing in the doorway ready to go. Percy and Armand had gone ahead to bring the coach along.",
+            '[> 01:00] El Dorado_ Further Adventures of the Scarl - Emmuska Orczy.epub (index_split_056.html) - one hour after midnight',
+            "It was <<one hour after midnight|10>> when\x{2014}refreshed with food and rest\x{2014}Marguerite, Armand and Sir Percy left the half-way house. Marguerite was standing in the doorway ready to go. Percy and Armand had gone ahead to bring the coach along.",
           ],
         ];

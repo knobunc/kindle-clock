@@ -2,7 +2,7 @@ $VAR1 = [
           [
             1,
             "[ap > 09:00] The League of the Scarlet Pimpernel - Emmuska Orczy.epub (index_split_002.html) - after nine o\x{2019}clock",
-            "\x{201c}You had best go after dark,\x{201d} the other rejoined after awhile. \x{201c}Come back to me <<after nine o\x{2019}clock|6>>. It is not far to the Chemin de Pantin\x{2014} just where it intersects the Route de Meaux. You can get there and back before <<midnight|13>>. The people will admit you. I will give you a ring\x{2014}the only thing I possess\x{2026}. It has little or no value,\x{201d} he added with a harsh, grating laugh. \x{201c}It will not be worth your while to steal it. You will have to see a brat and report to me on his condition\x{2014}his appearance, what? \x{2026} Talk to him a bit\x{2026}. See what he says and let me know. It is not difficult.\x{201d}",
+            "\x{201c}You had best go after dark,\x{201d} the other rejoined after awhile. \x{201c}Come back to me <<after nine o\x{2019}clock|6>>. It is not far to the Chemin de Pantin\x{2014} just where it intersects the Route de Meaux. You can get there and back <<before midnight|13>>. The people will admit you. I will give you a ring\x{2014}the only thing I possess\x{2026}. It has little or no value,\x{201d} he added with a harsh, grating laugh. \x{201c}It will not be worth your while to steal it. You will have to see a brat and report to me on his condition\x{2014}his appearance, what? \x{2026} Talk to him a bit\x{2026}. See what he says and let me know. It is not difficult.\x{201d}",
           ],
           [
             1,
@@ -36,8 +36,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[12:00] The League of the Scarlet Pimpernel - Emmuska Orczy.epub (index_split_015.html) - noon',
-            "It was half-an-hour before <<noon|13>>, and citizen-deputy Heriot was preparing to go out to the small tavern round the corner where he habitually took his dejeuner. Citizen Rondeau, who for the consideration of ten sous a day looked after Heriot\x{2019}s paltry creature-comforts, was busy tidying up the squalid apartment which the latter occupied on the top floor of a lodging-house in the Rue Cocatrice. This apartment consisted of three rooms leading out of one another; firstly there was a dark and narrow antichambre wherein slept the aforesaid citizen-servant; then came a sitting-room sparsely furnished with a few chairs, a centre table and an iron stove, and finally there was the bedroom wherein the most conspicuous object was a large oak chest clamped with wide iron hinges and a massive writing-desk; the bed and a very primitive washstand were in an alcove at the farther end of the room and partially hidden by a tapestry curtain.",
+            '[< 12:00] The League of the Scarlet Pimpernel - Emmuska Orczy.epub (index_split_015.html) - before noon',
+            "It was half-an-hour <<before noon|13>>, and citizen-deputy Heriot was preparing to go out to the small tavern round the corner where he habitually took his dejeuner. Citizen Rondeau, who for the consideration of ten sous a day looked after Heriot\x{2019}s paltry creature-comforts, was busy tidying up the squalid apartment which the latter occupied on the top floor of a lodging-house in the Rue Cocatrice. This apartment consisted of three rooms leading out of one another; firstly there was a dark and narrow antichambre wherein slept the aforesaid citizen-servant; then came a sitting-room sparsely furnished with a few chairs, a centre table and an iron stove, and finally there was the bedroom wherein the most conspicuous object was a large oak chest clamped with wide iron hinges and a massive writing-desk; the bed and a very primitive washstand were in an alcove at the farther end of the room and partially hidden by a tapestry curtain.",
           ],
           [
             1,
@@ -101,8 +101,18 @@ $VAR1 = [
           ],
           [
             1,
+            '[ap 06:00] The League of the Scarlet Pimpernel - Emmuska Orczy.epub (index_split_029.html) - six',
+            'From the towers of Notre Dame the big bell struck the hour of <<six|20>>, as thirty men in ragged shirts and torn breeches, shivering beneath a cold November drizzle, began slowly to wend their way towards the Rue Berthier.',
+          ],
+          [
+            1,
             '[ap 00:30] The League of the Scarlet Pimpernel - Emmuska Orczy.epub (index_split_030.html) - thirty to one',
             'The Scarlet Pimpernel, who had tricked them, mocked them, fooled them so often, was there, not two hundred metres away; and they were <<thirty to one|10a:0>>, and all determined and desperate.',
+          ],
+          [
+            1,
+            '[ap 10:00] The League of the Scarlet Pimpernel - Emmuska Orczy.epub (index_split_030.html) - ten',
+            "Once\x{2014}when a distant bell tolled the hour of <<ten|20>>\x{2014}a loud prolonged laugh, almost impudent in its suggestion of merry insouciance, echoed through the weird silence of the night.",
           ],
           [
             1,
@@ -123,6 +133,11 @@ $VAR1 = [
             1,
             "[ap 09:00] The League of the Scarlet Pimpernel - Emmuska Orczy.epub (index_split_044.html) - nine o\x{2019}clock",
             "Henri de Montorgueil chose a peculiarly dark night in mid-September for one of his periodical visits to the hollow-tree. It was close on <<nine o\x{2019}clock|6>> when he passed stealthily down the lane, keeping close to the park wall. A soft rain was falling, the first since the prolonged drought, and though it made the road heavy and slippery in places, it helped to deaden the sound of the young man\x{2019}s furtive footsteps. The air, except for the patter of the rain, was absolutely still. Henri de Montorgueil paused from time to time, with neck craned forward, every sense on the alert, listening, like any poor, hunted beast, for the slightest sound which might betray the approach of danger.",
+          ],
+          [
+            1,
+            '[ap 10:00] The League of the Scarlet Pimpernel - Emmuska Orczy.epub (index_split_044.html) - ten',
+            'A quarter of an hour later Henri de Montorgueil was wending his way back to the hiding place which had sheltered him and his father for so long. Silence and darkness then held undisputed sway once more around the hollow tree. Even the rain had ceased its gentle pattering. Anon from far away came the sound of a church bell striking the hour of <<ten|20>>. Then nothing more.',
           ],
           [
             1,

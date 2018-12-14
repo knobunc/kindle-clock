@@ -26,9 +26,9 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 09:42] The Restaurant at the End of the Universe - Douglas Adams.epub (OEBPS/Text/The_Restaura-f_the_Universe_split_041.html) - nine. Forty-two',
+            '[ap 06:00] The Restaurant at the End of the Universe - Douglas Adams.epub (OEBPS/Text/The_Restaura-f_the_Universe_split_041.html) - Six',
             "\x{201c}That\x{2019}s it.\x{201d}
-\x{201c}Six by <<nine. Forty-two|5b>>.\x{201d}
+\x{201c}<<Six|5g:0>> by nine. Forty-two.\x{201d}
 \x{201c}That\x{2019}s it. That\x{2019}s all there is.\x{201d}",
           ],
         ];

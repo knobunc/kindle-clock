@@ -33,13 +33,13 @@ $VAR1 = [
           ],
           [
             1,
-            '[12:00] The Last of the Winnebagos - Connie Willis.epub (index_split_001.html) - noon',
-            '"I was in a hurry," I said. "I had two assignments to cover before <<noon|13>>, the second out in Scottsdale."',
+            '[< 12:00] The Last of the Winnebagos - Connie Willis.epub (index_split_001.html) - before noon',
+            '"I was in a hurry," I said. "I had two assignments to cover <<before noon|13>>, the second out in Scottsdale."',
           ],
           [
             1,
             '[ap 01:00] The Last of the Winnebagos - Connie Willis.epub (index_split_001.html) - one',
-            '"We\'ll let you know if we find out who\'s responsible," Hunter said, and they left. On the way out to the street the uniform tried to tell him what he\'d found, but Hunter cut him off. The suspect has a house full of photographs of dogs, therefore he didn\'t run over a poor facsimile of <<one|3d>> on Van Buren this morning. Case closed. I went back over to the developer and fed the eisenstadt film in. "Positives, <<one two|5l:0>> three order, five seconds," I said, and watched as the pictures came up on the developer\'s screen. Ramirez had said the eisenstadt automatically turned on whenever it was set upright on a level surface. She was right. It had taken a half-dozen shots on the way out to Tempe. Two shots of the Hitori it must have taken when I set it down to load the car, open door of same with prickly pear in the foreground, a blurred shot of palm trees and buildings with a minuscule, sharp-focused glimpse of the traffic on the expressway.',
+            '"We\'ll let you know if we find out who\'s responsible," Hunter said, and they left. On the way out to the street the uniform tried to tell him what he\'d found, but Hunter cut him off. The suspect has a house full of photographs of dogs, therefore he didn\'t run over a poor facsimile of <<one|3d>> on Van Buren this morning. Case closed. I went back over to the developer and fed the eisenstadt film in. "Positives, one two three order, five seconds," I said, and watched as the pictures came up on the developer\'s screen. Ramirez had said the eisenstadt automatically turned on whenever it was set upright on a level surface. She was right. It had taken a half-dozen shots on the way out to Tempe. Two shots of the Hitori it must have taken when I set it down to load the car, open door of same with prickly pear in the foreground, a blurred shot of palm trees and buildings with a minuscule, sharp-focused glimpse of the traffic on the expressway.',
           ],
           [
             1,
@@ -50,20 +50,5 @@ $VAR1 = [
             1,
             '[ap 08:00] The Last of the Winnebagos - Connie Willis.epub (index_split_001.html) - eight',
             '"Yes," she said, still looking at the red-stained towel. "They said you had reported a dead animal on Van Buren. They wanted to know where I was this morning between <<eight|20>> and <<nine A.M.|5>>"',
-          ],
-          [
-            1,
-            '[ap 01:02] The Last of the Winnebagos - Connie Willis.epub (index_split_001.html) - one two',
-            'I fed the longshot film into the developer. "Positives, <<one two|5l:0>> three order, fifteen seconds," I said, and waited for the image to come on the screen.',
-          ],
-          [
-            1,
-            '[ap 01:02] The Last of the Winnebagos - Connie Willis.epub (index_split_001.html) - One two',
-            'I went over to the developer and fed the cartridge in. The first dozen shots were nothing, stuff the eisenstadt had taken from the back seat of the car. "Start with frame ten," I said. "Positives. <<One two|5l:0>> three order.',
-          ],
-          [
-            1,
-            '[ap 01:02] The Last of the Winnebagos - Connie Willis.epub (index_split_001.html) - one two',
-            'I picked up the eisenstadt from the table by the couch and took the film cartridge out. I started to pull the film out to expose it, and then shoved it into the developer instead and turned it on. "Positives, <<one two|5l:0>> three order, five seconds."',
           ],
         ];

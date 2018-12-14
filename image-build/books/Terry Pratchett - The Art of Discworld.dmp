@@ -30,13 +30,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 01:04] The Art of Discworld - Terry Pratchett.epub (OPS/013 - Chapter_7.xhtml) - one four',
-            "\x{2018}The diameter divides into the circumference, you know. It ought to be three times. But does it? No. Three point <<one four|5l:0>> one and lots of other figures. There\x{2019}s no end to the buggers \x{2026} It tells me that the Creator used the wrong kind of circles.\x{2019}",
-          ],
-          [
-            1,
             '[12:00] The Art of Discworld - Terry Pratchett.epub (OPS/013 - Chapter_7.xhtml) - noon',
-            "\x{2018}What goes on four legs in the morning, two legs at <<noon|13>>, and three legs in the evening?\x{2019} said the Sphinx smugly.",
+            "\x{2018}What goes on four legs in the morning, two legs at <<noon|13>>, and <<three|20a>> legs in the evening?\x{2019} said the Sphinx smugly.",
           ],
           [
             1,
@@ -119,11 +114,6 @@ $VAR1 = [
             "\x{2018}Hey, don\x{2019}t I get breakfast?\x{2019}
 \x{2018}Breakfast isn\x{2019}t until <<seven o\x{2019}clock|6>>, sir.\x{2019}
 *",
-          ],
-          [
-            1,
-            '[ap 03:03] The Art of Discworld - Terry Pratchett.epub (OPS/039 - Chapter_33.xhtml) - Three Three',
-            "\x{2018}I Worked It Out. You Have Killed Two Point <<Three Three|5l:0>> Eight People,\x{2019} said the golem calmly.",
           ],
           [
             1,

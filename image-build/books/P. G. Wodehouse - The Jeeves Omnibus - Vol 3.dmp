@@ -43,8 +43,8 @@ Mrs Spottsworth raised her lustrous eyes.",
           ],
           [
             1,
-            '[12:00] The Jeeves Omnibus - Vol 3 - P. G. Wodehouse.epub (OEBPS/Text/part0016.xhtml) - noon',
-            "\x{2018}But I must have the money, and I must have it before <<noon|13>> tomorrow.\x{2019} His voice rose in what in a lesser man would have been a wail. \x{2018}Listen. I\x{2019}ll have to let you in on something that\x{2019}s vitally secret, and if you breathe a word to a soul I\x{2019}ll rip you both asunder with my bare hands, shred you up into small pieces and jump on the remains with hobnailed boots. Is that understood?\x{2019}",
+            '[< 12:00] The Jeeves Omnibus - Vol 3 - P. G. Wodehouse.epub (OEBPS/Text/part0016.xhtml) - before noon',
+            "\x{2018}But I must have the money, and I must have it <<before noon|13>> tomorrow.\x{2019} His voice rose in what in a lesser man would have been a wail. \x{2018}Listen. I\x{2019}ll have to let you in on something that\x{2019}s vitally secret, and if you breathe a word to a soul I\x{2019}ll rip you both asunder with my bare hands, shred you up into small pieces and jump on the remains with hobnailed boots. Is that understood?\x{2019}",
           ],
           [
             1,
@@ -93,11 +93,6 @@ Mrs Spottsworth raised her lustrous eyes.",
           ],
           [
             1,
-            '[ap 01:02] The Jeeves Omnibus - Vol 3 - P. G. Wodehouse.epub (OEBPS/Text/part0027.xhtml) - one two',
-            "\x{2018}Oh?\x{2019} said Rory. His manner was listless. \x{2018}Well, as I was saying, I can\x{2019}t fix the bally thing, and I don\x{2019}t believe any of the local yokels can, either, so the only thing to do is to go to the fountain head.\x{2019} He went to the telephone. \x{2018}Give me Square <<one two|5l:0>> <<three four|5l:0>>,\x{2019} he said.",
-          ],
-          [
-            1,
             '[ap 07:45] The Jeeves Omnibus - Vol 3 - P. G. Wodehouse.epub (OEBPS/Text/part0029.xhtml) - seven forty-five',
             "\x{2018}Ah, well,\x{2019} I said, hoping for the best. \x{2018}Just a lovers\x{2019} tiff, no doubt. Always happening, these lovers\x{2019} tiffs. Probably by this time a complete reconciliation has been effected and the laughing Love God is sweating away at the old stand once more with knobs on. Ha!\x{2019} I proceeded as the front-door bell tootled, \x{2018}someone waits without. If it\x{2019}s young Thos, tell him that I shall expect him to be in readiness, all clean and rosy, at <<seven forty-five|3b>> tonight to accompany me to the performance of King Lear at the Old Vic, and it\x{2019}s no good him trying to do a sneak. His mother said he had got to go to the Old Vic, and he\x{2019}s jolly well going.\x{2019}",
           ],
@@ -123,13 +118,13 @@ Mrs Spottsworth raised her lustrous eyes.",
           ],
           [
             1,
-            '[00:00] The Jeeves Omnibus - Vol 3 - P. G. Wodehouse.epub (OEBPS/Text/part0032.xhtml) - midnight',
-            "\x{2018}Then lead me to it, Jeeves. If I\x{2019}m to get to this lazar-house before <<midnight|13>>, I\x{2019}d better be starting.\x{2019}",
+            '[< 00:00] The Jeeves Omnibus - Vol 3 - P. G. Wodehouse.epub (OEBPS/Text/part0032.xhtml) - before midnight',
+            "\x{2018}Then lead me to it, Jeeves. If I\x{2019}m to get to this lazar-house <<before midnight|13>>, I\x{2019}d better be starting.\x{2019}",
           ],
           [
             1,
             '[< 00:00] The Jeeves Omnibus - Vol 3 - P. G. Wodehouse.epub (OEBPS/Text/part0033.xhtml) - before midnight',
-            'WELL, I DID get there <<before midnight|9b>>, of course, but I was dashed late, all the same. As might have been expected on a day like this, the two-seater, usually as reliable as an Arab steed, developed some sort of pox or sickness half-way through the journey, with the result that the time schedule was shot to pieces and it was getting on for eight when I turned in at the main gates. A quick burst up the drive enabled me to punch the front-door bell at about twenty to.',
+            'WELL, I DID get there <<before midnight|13>>, of course, but I was dashed late, all the same. As might have been expected on a day like this, the two-seater, usually as reliable as an Arab steed, developed some sort of pox or sickness half-way through the journey, with the result that the time schedule was shot to pieces and it was getting on for eight when I turned in at the main gates. A quick burst up the drive enabled me to punch the front-door bell at about twenty to.',
           ],
           [
             1,
@@ -320,6 +315,11 @@ The catch about the code of the Woosters is that if you start examining it with 
           ],
           [
             1,
+            '[ap 06:00] The Jeeves Omnibus - Vol 3 - P. G. Wodehouse.epub (OEBPS/Text/part0063.xhtml) - six',
+            "\x{2018}I said \x{201c}Ha!\x{201d} Jeeves. And I meant \x{201c}Ha!\x{201d} I was registering relief. My Aunt Agatha returns this evening. She will be at her town residence between the hours of <<six|20>> and <<seven|20a>>, and she expects to find McIntosh waiting for her on the mat.\x{2019}",
+          ],
+          [
+            1,
             '[ap 01:30] The Jeeves Omnibus - Vol 3 - P. G. Wodehouse.epub (OEBPS/Text/part0063.xhtml) - one-thirty',
             "\x{2018}Indeed, sir?\x{2019}
 \x{2018}Here. At <<one-thirty|5b>>.\x{2019}
@@ -349,6 +349,11 @@ The catch about the code of the Woosters is that if you start examining it with 
           ],
           [
             1,
+            '[ap 06:00] The Jeeves Omnibus - Vol 3 - P. G. Wodehouse.epub (OEBPS/Text/part0063.xhtml) - six',
+            "\x{2018}Yes, yes, never mind about that. What are we going to do? That\x{2019}s the point. Aunt Agatha is due back between the hours of <<six|20>> and <<seven|20a>>. She will find herself short one Aberdeen terrier. And, as she will probably have been considerably sea-sick all the way over, you will readily perceive, Jeeves, that, when I break the news that her dog has been given away to a total stranger, I shall find her in no mood of gentle charity.\x{2019}",
+          ],
+          [
+            1,
             '[ap 05:15] The Jeeves Omnibus - Vol 3 - P. G. Wodehouse.epub (OEBPS/Text/part0063.xhtml) - five-fifteen',
             "\x{2018}In which case, they should not return to the hotel before <<five-fifteen|9c:0>>?\x{2019}",
           ],
@@ -361,6 +366,11 @@ The catch about the code of the Woosters is that if you start examining it with 
             1,
             "[ap 05:00] The Jeeves Omnibus - Vol 3 - P. G. Wodehouse.epub (OEBPS/Text/part0063.xhtml) - five o\x{2019}clock",
             "\x{2018}Should he have done so, the matter becomes quite simple. All that is necessary is that Miss Wickham shall present herself at the hotel at <<five o\x{2019}clock|6>>. She will go up to the suite. You will also have arrived at the hotel at <<five|9c:1>>, sir, and will have made your way to the corridor outside the suite. If Mr and Master Blumenfeld have not returned, Miss Wickham will open the door and come out and you will go in, secure the dog, and take your departure.\x{2019}",
+          ],
+          [
+            1,
+            '[ap 06:00] The Jeeves Omnibus - Vol 3 - P. G. Wodehouse.epub (OEBPS/Text/part0063.xhtml) - six',
+            "\x{2018}Not that a fiver begins to cover it. Figure to yourself, Jeeves \x{2013} try to envisage, if you follow what I mean, the probable behaviour of my Aunt Agatha if I had gone to her between the hours of <<six|20>> and <<seven|20a>> and told her that McIntosh had passed out of the picture. I should have had to leave London and grow a beard.\x{2019}",
           ],
           [
             1,

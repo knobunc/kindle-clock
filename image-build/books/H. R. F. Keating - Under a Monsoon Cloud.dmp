@@ -21,14 +21,14 @@ $VAR1 = [
           ],
           [
             1,
-            '[00:00] Under a Monsoon Cloud - H. R. F. Keating.epub (OPS/xhtml/chapter004.html) - midnight',
-            "\x{2018}Shinde,\x{2019} he said, \x{2018}you have not seen me just now. Understand? If anyone is asking, at any time, say I left with the A.D.I.G. Sahib before <<midnight|13>>. Before <<midnight|13>>, understand?\x{2019}",
+            '[< 00:00] Under a Monsoon Cloud - H. R. F. Keating.epub (OPS/xhtml/chapter004.html) - before midnight',
+            "\x{2018}Shinde,\x{2019} he said, \x{2018}you have not seen me just now. Understand? If anyone is asking, at any time, say I left with the A.D.I.G. Sahib <<before midnight|13>>. <<Before midnight|13>>, understand?\x{2019}",
           ],
           [
             1,
-            '[00:00] Under a Monsoon Cloud - H. R. F. Keating.epub (OPS/xhtml/chapter004.html) - midnight',
+            '[< 00:00] Under a Monsoon Cloud - H. R. F. Keating.epub (OPS/xhtml/chapter004.html) - before midnight',
             "Quite plainly he was not going to question whatever it was this cigarette-donating god chose to tell him.
-\x{2018}So go home now,\x{2019} Ghote said. \x{2018}And I left before <<midnight|13>>, remember.\x{2019}
+\x{2018}So go home now,\x{2019} Ghote said. \x{2018}And I left <<before midnight|13>>, remember.\x{2019}
 He got a second terrific, fingers-wide salute, and then the peon scuttled happily away, carefully stowing Desai\x{2019}s cigarette into his shirt pocket.",
           ],
           [
@@ -85,7 +85,7 @@ He got a second terrific, fingers-wide salute, and then the peon scuttled happil
           [
             1,
             '[~ 00:00] Under a Monsoon Cloud - H. R. F. Keating.epub (OPS/xhtml/chapter010.html) - about midnight',
-            "\x{2018}And this man \x{2013} \x{2019} She flicked a glance at her notebook. \x{2018}This Shivram Patel, you did not see him when you were reaching that house that night <<about midnight|9b>>?\x{2019}",
+            "\x{2018}And this man \x{2013} \x{2019} She flicked a glance at her notebook. \x{2018}This Shivram Patel, you did not see him when you were reaching that house that night <<about midnight|13>>?\x{2019}",
           ],
           [
             1,
@@ -104,8 +104,8 @@ He got a second terrific, fingers-wide salute, and then the peon scuttled happil
           ],
           [
             1,
-            '[00:00] Under a Monsoon Cloud - H. R. F. Keating.epub (OPS/xhtml/chapter013.html) - midnight',
-            'In a few moments Shinde would be standing at the witness table, being asked about the night Desai had sent him out into the rain to buy a cigarette. What would he say? And if he produced the story he had been asked to tell, if he said that his hero, the new inspector, had not been in the station since before <<midnight|13>>, would he have the strength to repeat the lie again and again in the face of savage questioning?',
+            '[< 00:00] Under a Monsoon Cloud - H. R. F. Keating.epub (OPS/xhtml/chapter013.html) - before midnight',
+            'In a few moments Shinde would be standing at the witness table, being asked about the night Desai had sent him out into the rain to buy a cigarette. What would he say? And if he produced the story he had been asked to tell, if he said that his hero, the new inspector, had not been in the station since <<before midnight|13>>, would he have the strength to repeat the lie again and again in the face of savage questioning?',
           ],
           [
             1,
@@ -116,18 +116,18 @@ He got a second terrific, fingers-wide salute, and then the peon scuttled happil
           ],
           [
             1,
-            '[00:00] Under a Monsoon Cloud - H. R. F. Keating.epub (OPS/xhtml/chapter013.html) - midnight',
-            "\x{2018}And yet you told Inspector Sawant when he was making his inquiries \x{2013} you remember Inspector Sawant? \x{2013} that Inspector Ghote left the police station before <<midnight|13>>. I suggest to you, Shinde, that you can very well tell the time, and that you know very well at what hour it really was when Inspector Ghote left.\x{2019}",
+            '[< 00:00] Under a Monsoon Cloud - H. R. F. Keating.epub (OPS/xhtml/chapter013.html) - before midnight',
+            "\x{2018}And yet you told Inspector Sawant when he was making his inquiries \x{2013} you remember Inspector Sawant? \x{2013} that Inspector Ghote left the police station <<before midnight|13>>. I suggest to you, Shinde, that you can very well tell the time, and that you know very well at what hour it really was when Inspector Ghote left.\x{2019}",
           ],
           [
             1,
-            '[00:00] Under a Monsoon Cloud - H. R. F. Keating.epub (OPS/xhtml/chapter013.html) - midnight',
-            "\x{2018}But you told Inspector Sawant that Inspector Ghote left the police station before <<midnight|13>>, yes?\x{2019}",
+            '[< 00:00] Under a Monsoon Cloud - H. R. F. Keating.epub (OPS/xhtml/chapter013.html) - before midnight',
+            "\x{2018}But you told Inspector Sawant that Inspector Ghote left the police station <<before midnight|13>>, yes?\x{2019}",
           ],
           [
             1,
-            '[00:00] Under a Monsoon Cloud - H. R. F. Keating.epub (OPS/xhtml/chapter013.html) - midnight',
-            "\x{2018}But you told Inspector Sawant that Inspector Ghote left the police station before <<midnight|13>>, yes?\x{2019}
+            '[< 00:00] Under a Monsoon Cloud - H. R. F. Keating.epub (OPS/xhtml/chapter013.html) - before midnight',
+            "\x{2018}But you told Inspector Sawant that Inspector Ghote left the police station <<before midnight|13>>, yes?\x{2019}
 \x{2018}Yes, sahib. Inspectorji was leaving before-before <<midnight|13>>.\x{2019}
 \x{2018}And how do you know that, Shinde? Was it because you looked at the clock you cannot read? Or was it because you were instructed to say that was the time at which Inspector Ghote left?\x{2019}",
           ],
@@ -143,21 +143,21 @@ He got a second terrific, fingers-wide salute, and then the peon scuttled happil
           ],
           [
             1,
-            '[00:00] Under a Monsoon Cloud - H. R. F. Keating.epub (OPS/xhtml/chapter013.html) - midnight',
+            '[< 00:00] Under a Monsoon Cloud - H. R. F. Keating.epub (OPS/xhtml/chapter013.html) - before midnight',
             "Then at last he managed to utter an answer.
-\x{2018}Sahib, before <<midnight|13>>.\x{2019}
-\x{2018}You are telling us that Inspector Ghote left the police station before <<midnight|13>>? You are telling us that, though you have sworn to tell the truth?\x{2019}",
+\x{2018}Sahib, <<before midnight|13>>.\x{2019}
+\x{2018}You are telling us that Inspector Ghote left the police station <<before midnight|13>>? You are telling us that, though you have sworn to tell the truth?\x{2019}",
           ],
           [
             1,
-            '[00:00] Under a Monsoon Cloud - H. R. F. Keating.epub (OPS/xhtml/chapter013.html) - midnight',
-            "\x{2018}You are telling us that Inspector Ghote left the police station before <<midnight|13>>? You are telling us that, though you have sworn to tell the truth?\x{2019}",
+            '[< 00:00] Under a Monsoon Cloud - H. R. F. Keating.epub (OPS/xhtml/chapter013.html) - before midnight',
+            "\x{2018}You are telling us that Inspector Ghote left the police station <<before midnight|13>>? You are telling us that, though you have sworn to tell the truth?\x{2019}",
           ],
           [
             1,
-            '[00:00] Under a Monsoon Cloud - H. R. F. Keating.epub (OPS/xhtml/chapter013.html) - midnight',
+            '[< 00:00] Under a Monsoon Cloud - H. R. F. Keating.epub (OPS/xhtml/chapter013.html) - before midnight',
             "\x{2018}Very well, you have not sworn. But I hope nevertheless you have some respect for the truth. And I am now going to ask you again to tell us, in truth, at what time Inspector Ghote left the police station at Vigatpore that night.\x{2019}
-\x{2018}Sahib, before <<midnight|13>>.\x{2019}
+\x{2018}Sahib, <<before midnight|13>>.\x{2019}
 Shinde spoke the words with shining bravado.",
           ],
           [
@@ -177,16 +177,16 @@ Shinde spoke the words with shining bravado.",
           ],
           [
             1,
-            '[00:00] Under a Monsoon Cloud - H. R. F. Keating.epub (OPS/xhtml/chapter013.html) - midnight',
+            '[< 00:00] Under a Monsoon Cloud - H. R. F. Keating.epub (OPS/xhtml/chapter013.html) - Before midnight',
             "\x{2018}Sahib, my wife was sleeping-sleeping when I was reaching. My three-four children also. Sahib, it must have been before the time the clock hands were pointing up-up.\x{2019}
-\x{2018}Before <<midnight|13>>?\x{2019}
-\x{2018}Yes, sahib, before <<midnight|13>>, I am saying.\x{2019}",
+\x{2018}<<Before midnight|13>>?\x{2019}
+\x{2018}Yes, sahib, <<before midnight|13>>, I am saying.\x{2019}",
           ],
           [
             1,
-            '[00:00] Under a Monsoon Cloud - H. R. F. Keating.epub (OPS/xhtml/chapter013.html) - midnight',
-            "\x{2018}Before <<midnight|13>>?\x{2019}
-\x{2018}Yes, sahib, before <<midnight|13>>, I am saying.\x{2019}
+            '[< 00:00] Under a Monsoon Cloud - H. R. F. Keating.epub (OPS/xhtml/chapter013.html) - Before midnight',
+            "\x{2018}<<Before midnight|13>>?\x{2019}
+\x{2018}Yes, sahib, <<before midnight|13>>, I am saying.\x{2019}
 R.K. Sankar sank down on to his chair and waved the witness away.",
           ],
           [
@@ -216,18 +216,18 @@ R.K. Sankar sank down on to his chair and waved the witness away.",
           ],
           [
             1,
-            '[00:00] Under a Monsoon Cloud - H. R. F. Keating.epub (OPS/xhtml/chapter014.html) - midnight',
-            "\x{2018}I do not know. He was saying it was before <<midnight|13>>. It may have been so. I am an old man. Sometimes I make mistakes.\x{2019}",
+            '[< 00:00] Under a Monsoon Cloud - H. R. F. Keating.epub (OPS/xhtml/chapter014.html) - before midnight',
+            "\x{2018}I do not know. He was saying it was <<before midnight|13>>. It may have been so. I am an old man. Sometimes I make mistakes.\x{2019}",
           ],
           [
             1,
-            '[00:00] Under a Monsoon Cloud - H. R. F. Keating.epub (OPS/xhtml/chapter015.html) - midnight',
-            'Why should R.K. be calling the boar-like, defeated former owner of the creamery near Vigatpore? Ghote asked himself with jabbing anxiety. Shivram Patel had, surely, been asleep at the far end of his big old house at the late hour he himself had summoned the servant to the door and tricked him, more or less, into thinking it was before <<midnight|13>>.',
+            '[< 00:00] Under a Monsoon Cloud - H. R. F. Keating.epub (OPS/xhtml/chapter015.html) - before midnight',
+            'Why should R.K. be calling the boar-like, defeated former owner of the creamery near Vigatpore? Ghote asked himself with jabbing anxiety. Shivram Patel had, surely, been asleep at the far end of his big old house at the late hour he himself had summoned the servant to the door and tricked him, more or less, into thinking it was <<before midnight|13>>.',
           ],
           [
             1,
-            '[00:00] Under a Monsoon Cloud - H. R. F. Keating.epub (OPS/xhtml/chapter015.html) - midnight',
-            "Ghote listened to this unfolding tale with a growing sense of sick defeat. R.K. and his unknown investigator had tricked him and Mrs Ahmed with utter cunning. Shivram Patel\x{2019}s servant had been allowed to say he believed the time he had been woken was before <<midnight|13>> and that this was because of what he himself had said. And all the while his actual arrival had been watched by the master of the house. No doubt in answer to the next question Shivram Patel would state he had noted the time his night\x{2019}s sleep had been interrupted.",
+            '[< 00:00] Under a Monsoon Cloud - H. R. F. Keating.epub (OPS/xhtml/chapter015.html) - before midnight',
+            "Ghote listened to this unfolding tale with a growing sense of sick defeat. R.K. and his unknown investigator had tricked him and Mrs Ahmed with utter cunning. Shivram Patel\x{2019}s servant had been allowed to say he believed the time he had been woken was <<before midnight|13>> and that this was because of what he himself had said. And all the while his actual arrival had been watched by the master of the house. No doubt in answer to the next question Shivram Patel would state he had noted the time his night\x{2019}s sleep had been interrupted.",
           ],
           [
             1,
@@ -300,11 +300,6 @@ Still firm in everything he was saying. No trying to make out he could tell the 
           ],
           [
             1,
-            '[ap 02:03] Under a Monsoon Cloud - H. R. F. Keating.epub (OPS/xhtml/chapter018.html) - Two-three',
-            "\x{2018}Oh, but you will be,\x{2019} Ram said. \x{2018}You cannot help. And you can report-report as much as you like. <<Two-three|5l:0>> bribes will take care of all.\x{2019}",
-          ],
-          [
-            1,
             '[03:00] Under a Monsoon Cloud - H. R. F. Keating.epub (OPS/xhtml/chapter019.html) - 3 a.m.',
             "\x{2018}Yes, deceiving. The truth of the matter is that each thing that they have been saying about me is one hundred per cent correct. Yes, it was not until <<3 a.m.|5>> that I was returning to Shivram Patel\x{2019}s house. Yes, I was there in that office when A.D.I.G. Kelkar threw the inkpot at Sergeant Desai. It was even I myself who suggested to him he should not submit to arrest at my hands and, because Desai had very much boasted of his swimming powers and taken up bets thereon, that he should put his body into Lake Helena. And that we were doing together. Yes, even that fellow Piraji, member of a criminal tribe though he is, was telling the truth when I was not.\x{2019}",
           ],
@@ -316,13 +311,13 @@ Still firm in everything he was saying. No trying to make out he could tell the 
           [
             1,
             '[< 00:00] Under a Monsoon Cloud - H. R. F. Keating.epub (OPS/xhtml/chapter019.html) - before midnight',
-            "\x{2018}Let us pass right on to another point,\x{2019} he said. \x{2018}A matter about which we have already heard some evidence. Shri Shivram Patel\x{2019}s house. Tell me, your account of arriving there <<before midnight|9b>> was sheer invention, was it not?\x{2019}",
+            "\x{2018}Let us pass right on to another point,\x{2019} he said. \x{2018}A matter about which we have already heard some evidence. Shri Shivram Patel\x{2019}s house. Tell me, your account of arriving there <<before midnight|13>> was sheer invention, was it not?\x{2019}",
           ],
           [
             1,
-            '[00:00] Under a Monsoon Cloud - H. R. F. Keating.epub (OPS/xhtml/chapter019.html) - midnight',
+            '[< 00:00] Under a Monsoon Cloud - H. R. F. Keating.epub (OPS/xhtml/chapter019.html) - before midnight',
             "Ghote wondered what on earth he was talking about. What was this \x{2018}methinks\x{2019}?
-\x{2018}How much before <<midnight|13>>?\x{2019}
+\x{2018}How much <<before midnight|13>>?\x{2019}
 The snapped question caught him on the hop.",
           ],
           [
@@ -334,11 +329,6 @@ The snapped question caught him on the hop.",
             1,
             '[03:00] Under a Monsoon Cloud - H. R. F. Keating.epub (OPS/xhtml/chapter019.html) - 3 a.m.',
             'He stopped himself. Good God, what had the rain been doing, not at <<3 a.m.|5>>, but <<just before midnight|10>>? It had been pouring hard, of course, not barely drizzling as it had been later.',
-          ],
-          [
-            1,
-            '[ap 02:03] Under a Monsoon Cloud - H. R. F. Keating.epub (OPS/xhtml/chapter020.html) - two-three',
-            "\x{2018}But true evidence I was producing, Inspector, except only <<two-three|5l:0>> details, isn\x{2019}t it? It will be enough to finish you tomorrow.\x{2019}",
           ],
           [
             1,
@@ -355,8 +345,8 @@ The snapped question caught him on the hop.",
           ],
           [
             1,
-            '[ap 11:30] Under a Monsoon Cloud - H. R. F. Keating.epub (OPS/xhtml/chapter021.html) - 11.30',
-            "\x{2018}Sir, gentlemen. I beg to state in my defence as follows: On the night of June the 24th last year when I was in-charge at Vigatpore Police Station and when also an Inspection was taking place under A.D.I.G. Kelkar, he was at about the hour of <<11.30|5a:1>> pip emma still engaged in examining station records. I myself, knowing there was no further assistance I would be able to give him, placed myself off duty and returned per foot to the temporary quarter I had been allotted in the house of one Shivram Patel at a distance of approximately one kilometre from the said police station. I did not therefore witness any of the proceedings described by the late A.D.I.G. Kelkar in the note he was setting forth immediately prior to his suicide by shooting.\x{2019}",
+            '[ap 11:00] Under a Monsoon Cloud - H. R. F. Keating.epub (OPS/xhtml/chapter021.html) - 11',
+            "\x{2018}Sir, gentlemen. I beg to state in my defence as follows: On the night of June the 24th last year when I was in-charge at Vigatpore Police Station and when also an Inspection was taking place under A.D.I.G. Kelkar, he was at about the hour of <<11|20>>.30 pip emma still engaged in examining station records. I myself, knowing there was no further assistance I would be able to give him, placed myself off duty and returned per foot to the temporary quarter I had been allotted in the house of one Shivram Patel at a distance of approximately one kilometre from the said police station. I did not therefore witness any of the proceedings described by the late A.D.I.G. Kelkar in the note he was setting forth immediately prior to his suicide by shooting.\x{2019}",
           ],
           [
             1,

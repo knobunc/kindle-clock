@@ -227,8 +227,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[20:02] The Imagineers of War_ The Untold History - Sharon Weinberger.epub (OEBPS/Wein_9780385351805_epub3_nts1_r1.xhtml) - Until 2002',
-            'Unlike the JASONs: <<Until 2002|9n:0>>, DARPA provided the bulk of JASONs funding; the group existed independently and could pursue work with other agencies. ISAT, on the other hand, is run by DARPA and works only for DARPA.',
+            '[20:02] The Imagineers of War_ The Untold History - Sharon Weinberger.epub (OEBPS/Wein_9780385351805_epub3_nts1_r1.xhtml) - 2002',
+            'Unlike the JASONs: Until <<2002|9n:0>>, DARPA provided the bulk of JASONs funding; the group existed independently and could pursue work with other agencies. ISAT, on the other hand, is run by DARPA and works only for DARPA.',
           ],
           [
             1,
@@ -254,7 +254,7 @@ $VAR1 = [
           ],
           [
             1,
-            '[19:55] The Imagineers of War_ The Untold History - Sharon Weinberger.epub (OEBPS/Wein_9780385351805_epub3_nts_r1.xhtml) - until 1955',
-            "Counterinsurgency experts like: Lansdale admitted he did not realize <<until 1955|18:0>> that Nhu was essentially running Diem\x{2019}s intelligence operations.",
+            '[19:55] The Imagineers of War_ The Untold History - Sharon Weinberger.epub (OEBPS/Wein_9780385351805_epub3_nts_r1.xhtml) - 1955',
+            "Counterinsurgency experts like: Lansdale admitted he did not realize until <<1955|18:0>> that Nhu was essentially running Diem\x{2019}s intelligence operations.",
           ],
         ];

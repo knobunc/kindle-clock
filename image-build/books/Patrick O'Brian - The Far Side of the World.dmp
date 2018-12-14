@@ -16,8 +16,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[12:00] The Far Side of the World - Patrick O\'Brian.epub (The_Far_Side_of_the_World_split_002.html) - noon',
-            '\'God damn it, God damn it,\' said Jack to himself as Hollom walked away, looking unnaturally stiff. \'This is infernal goddam blackmail.\' And then aloud, \'Mr Hollom, Mr Hollom, there.\' He wrote in his pocket-book, tore out the page, and said, \'Report aboard the Surprise for duty before <<noon|13>> and show this to the officer of the watch.\'',
+            '[< 12:00] The Far Side of the World - Patrick O\'Brian.epub (The_Far_Side_of_the_World_split_002.html) - before noon',
+            '\'God damn it, God damn it,\' said Jack to himself as Hollom walked away, looking unnaturally stiff. \'This is infernal goddam blackmail.\' And then aloud, \'Mr Hollom, Mr Hollom, there.\' He wrote in his pocket-book, tore out the page, and said, \'Report aboard the Surprise for duty <<before noon|13>> and show this to the officer of the watch.\'',
           ],
           [
             1,
@@ -97,7 +97,7 @@ $VAR1 = [
           [
             1,
             '[12:00] The Far Side of the World - Patrick O\'Brian.epub (The_Far_Side_of_the_World_split_005.html) - noon',
-            'He was still there at <<noon|9b>>, when the breeze, somewhat more moderate but now blowing with beautiful steadiness from the east-south-east, had declared itself to be the true trade wind; and with infinite satisfaction he, the master and all the other officers found, when the sun crossed the meridian, that between this observation and the last the Surprise had covered 192 miles, running clean out of the zone of calms and variables.',
+            'He was still there at <<noon|13>>, when the breeze, somewhat more moderate but now blowing with beautiful steadiness from the east-south-east, had declared itself to be the true trade wind; and with infinite satisfaction he, the master and all the other officers found, when the sun crossed the meridian, that between this observation and the last the Surprise had covered 192 miles, running clean out of the zone of calms and variables.',
           ],
           [
             1,
@@ -113,11 +113,6 @@ $VAR1 = [
             1,
             '[ap 08:30] The Far Side of the World - Patrick O\'Brian.epub (The_Far_Side_of_the_World_split_006.html) - half past eight',
             'During this long slow passage there was time, ample time, for the usual invitations to resume their steady sequence and even to grow somewhat monotonous: the Captain dining with his officers in the gunroom, the members of the gunroom dining in the cabin by rotation, and the midshipmen by ones and twos with both. And the farther south the ship travelled the poorer grew the fare: both cooks did their best, but private stores were running low and although Pontius Pilate, the gunroom cock, still crowed every morning when the coops were carried up on to the quarterdeck, and although his hens still laid the occasional egg, while goat Aspasia provided milk for the cabin\'s holy coffee, the last sheep died a little south of the fortieth parallel - it had been shorn, nay shaved, for its own good under the equator and was now unable to endure the increasing cold - and salt pork took its place on the Captain\'s table on a day when the chaplain was dining with him. Jack apologized for the change, since the invitation had been \'to share his mutton\' but Martin said, \'Not at all, not at all; this is the best salt pork I have ever eaten - such a very subtle combination of East India spices - yet even if it had been black penitential gruel it would still have been a feast. This morning, sir, at <<half past eight|10>>, I saw my first penguin! A jackass penguin, as the Doctor assures me, swimming with extraordinary speed and grace hard by the ship, flying, as it were, in the element!\'',
-          ],
-          [
-            1,
-            '[19:01] The Far Side of the World - Patrick O\'Brian.epub (The_Far_Side_of_the_World_split_006.html) - nineteen one',
-            '\'As for that,\' said Stephen, \'I set nearly all my trust in the resilience of youth. She is no more than nineteen, poor child, and at <<nineteen one|5l:0>> can support hell and purgatory almost, and live. Tell me, Tom Pullings will not be leaving us at once?\'',
           ],
           [
             1,
@@ -166,8 +161,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[> 12:00] The Far Side of the World - Patrick O\'Brian.epub (The_Far_Side_of_the_World_split_008.html) - after midday',
-            'The Line, the Line, day after day they sailed westwards along the Line or a little south of it. They left the penguins and the seals behind almost at once, all the inshore birds and almost all the fish; they also left the gloom, the cool water and the low-hanging cloud, and they sailed over a dark blue disc, perpetually renewed, under a pale blue dome, occasionally flecked with very high white cirrus. But they did not sail at all fast. In spite of the Surprise\'s splendid display of light fair-weather canvas - studdingsails aloft and alow, royals and even skysails and skyscrapers - she rarely logged more than a hundred miles between one observation and the next. Almost every day the breeze dozed for two or three hours <<after midday|13>>, or even went fast to sleep, leaving the pyramids of sail in a dismal state of sag, while vast stretches of dead calm spread over the sea, broken only by the passage of whales, sperm whales, that would sometimes pass in wide-spaced files two and even three hundred strong, heading for Peru. And every evening at the setting of the watch the Surprise snugged down to topsails: there was no trusting the sudden flurries of the night, in spite of the lamblike innocence of the day.',
+            '[> 15:00] The Far Side of the World - Patrick O\'Brian.epub (The_Far_Side_of_the_World_split_008.html) - three hours after midday',
+            'The Line, the Line, day after day they sailed westwards along the Line or a little south of it. They left the penguins and the seals behind almost at once, all the inshore birds and almost all the fish; they also left the gloom, the cool water and the low-hanging cloud, and they sailed over a dark blue disc, perpetually renewed, under a pale blue dome, occasionally flecked with very high white cirrus. But they did not sail at all fast. In spite of the Surprise\'s splendid display of light fair-weather canvas - studdingsails aloft and alow, royals and even skysails and skyscrapers - she rarely logged more than a hundred miles between one observation and the next. Almost every day the breeze dozed for two or <<three hours after midday|10>>, or even went fast to sleep, leaving the pyramids of sail in a dismal state of sag, while vast stretches of dead calm spread over the sea, broken only by the passage of whales, sperm whales, that would sometimes pass in wide-spaced files two and even three hundred strong, heading for Peru. And every evening at the setting of the watch the Surprise snugged down to topsails: there was no trusting the sudden flurries of the night, in spite of the lamblike innocence of the day.',
           ],
           [
             1,

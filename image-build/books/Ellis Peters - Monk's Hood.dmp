@@ -6,13 +6,13 @@ $VAR1 = [
           ],
           [
             1,
-            '[~ 16:30] Monk\'s Hood - Ellis Peters.epub (OEBPS/Text/008.html) - Vespers',
-            'He came in from an errand to the mill, an hour before <<Vespers|13>>, full of news.',
+            '[~ 15:30] Monk\'s Hood - Ellis Peters.epub (OEBPS/Text/008.html) - an hour before Vespers',
+            'He came in from an errand to the mill, <<an hour before Vespers|10>>, full of news.',
           ],
           [
             1,
-            '[~ 16:30] Monk\'s Hood - Ellis Peters.epub (OEBPS/Text/008.html) - Vespers',
-            "He drew back, lissome and silent. The door opening and closing took but a moment. Cadfael was left gazing after him very thoughtfully. There was still an hour before <<Vespers|13>>. He might well go over to the infirmary, and pour the sweet sound of Welsh into Brother Rhys\x{2019}s old, dulled ears, and dig the monk\x{2019}s-hood oil deep into his aching joints. It would be a decent deed.",
+            '[~ 15:30] Monk\'s Hood - Ellis Peters.epub (OEBPS/Text/008.html) - an hour before Vespers',
+            "He drew back, lissome and silent. The door opening and closing took but a moment. Cadfael was left gazing after him very thoughtfully. There was still <<an hour before Vespers|10>>. He might well go over to the infirmary, and pour the sweet sound of Welsh into Brother Rhys\x{2019}s old, dulled ears, and dig the monk\x{2019}s-hood oil deep into his aching joints. It would be a decent deed.",
           ],
           [
             1,
@@ -21,8 +21,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[~ 16:30] Monk\'s Hood - Ellis Peters.epub (OEBPS/Text/010.html) - Vespers',
-            "Aelfric appeared in the herb-gardens an hour before <<Vespers|13>>. Cadfael had been back in his solitude no more than half an hour then, after seeing the body cleansed, made seemly, and borne away into the mortuary chapel, the bereaved house restored to order, the distracted members of the household at least set free to wander and wonder and grieve as was best for them. Meurig was gone, back to the shop in the town, to tell the carpenter and his family word for word what had befallen, for what comfort or warning that might give them. By this time, for all Cadfael knew, the sheriff\x{2019}s men had seized young Edwin\x{2026} Dear God, he had even forgotten the name of the man Richildis had married, and Bellecote was only her son-in-law.",
+            '[~ 15:30] Monk\'s Hood - Ellis Peters.epub (OEBPS/Text/010.html) - an hour before Vespers',
+            "Aelfric appeared in the herb-gardens <<an hour before Vespers|10>>. Cadfael had been back in his solitude no more than half an hour then, after seeing the body cleansed, made seemly, and borne away into the mortuary chapel, the bereaved house restored to order, the distracted members of the household at least set free to wander and wonder and grieve as was best for them. Meurig was gone, back to the shop in the town, to tell the carpenter and his family word for word what had befallen, for what comfort or warning that might give them. By this time, for all Cadfael knew, the sheriff\x{2019}s men had seized young Edwin\x{2026} Dear God, he had even forgotten the name of the man Richildis had married, and Bellecote was only her son-in-law.",
           ],
           [
             1,
@@ -61,8 +61,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[~ 16:30] Monk\'s Hood - Ellis Peters.epub (OEBPS/Text/012.html) - Vespers',
-            "Brother Mark, who had made himself inconspicuous in a corner all this time, but with eyes and ears wide and sharp for every word and look, kept a respectful silence until Cadfael stirred at length, and moodily thumped his knees with clenched fists. Then he said, carefully avoiding questions: \x{201c}There\x{2019}s still an hour or so of daylight left before <<Vespers|13>>. If you think it\x{2019}s worth having a look below the bridge there?\x{201d}",
+            '[< 16:30] Monk\'s Hood - Ellis Peters.epub (OEBPS/Text/012.html) - before Vespers',
+            "Brother Mark, who had made himself inconspicuous in a corner all this time, but with eyes and ears wide and sharp for every word and look, kept a respectful silence until Cadfael stirred at length, and moodily thumped his knees with clenched fists. Then he said, carefully avoiding questions: \x{201c}There\x{2019}s still an hour or so of daylight left <<before Vespers|13>>. If you think it\x{2019}s worth having a look below the bridge there?\x{201d}",
           ],
           [
             1,
@@ -96,8 +96,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[~ 16:30] Monk\'s Hood - Ellis Peters.epub (OEBPS/Text/014.html) - Vespers',
-            'It was when the afternoon light was dimming that Brother Mark came back. There was half an hour yet before <<Vespers|13>>, but from this time on any search for a small thing in a narrow slope of grass would have been a blind and hopeless quest. Winter days begin so late and end so early, like the dwindling span of life past three score.',
+            '[< 16:30] Monk\'s Hood - Ellis Peters.epub (OEBPS/Text/014.html) - before Vespers',
+            'It was when the afternoon light was dimming that Brother Mark came back. There was half an hour yet <<before Vespers|13>>, but from this time on any search for a small thing in a narrow slope of grass would have been a blind and hopeless quest. Winter days begin so late and end so early, like the dwindling span of life past three score.',
           ],
           [
             1,
@@ -136,8 +136,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[~ 18:00] Monk\'s Hood - Ellis Peters.epub (OEBPS/Text/021.html) - Compline',
-            "\x{201c}Oh, Cadfael, can you ask it!\x{201d} There had been no need, the radiance Brother Mark had recognised was dazzling Cadfael no less. \x{201c}Hugh is here, but he must go to the sheriff first. He\x{2019}ll certainly be asking for you before <<Compline|13>>. I have come to buy a cradle, a beautiful carved cradle for our son. And a Welsh coverlet, in beautiful warm wool, or perhaps a sheepskin. And fine spun wools, to weave his gowns.\x{201d}",
+            '[< 18:00] Monk\'s Hood - Ellis Peters.epub (OEBPS/Text/021.html) - before Compline',
+            "\x{201c}Oh, Cadfael, can you ask it!\x{201d} There had been no need, the radiance Brother Mark had recognised was dazzling Cadfael no less. \x{201c}Hugh is here, but he must go to the sheriff first. He\x{2019}ll certainly be asking for you <<before Compline|13>>. I have come to buy a cradle, a beautiful carved cradle for our son. And a Welsh coverlet, in beautiful warm wool, or perhaps a sheepskin. And fine spun wools, to weave his gowns.\x{201d}",
           ],
           [
             1,
@@ -161,8 +161,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[~ 18:00] Monk\'s Hood - Ellis Peters.epub (OEBPS/Text/022.html) - Compline',
-            "\x{201c}This will serve very well. One of my lads will sleep the nights here.\x{201d} The elder of the two had followed them, balancing the first load easily in a sling over his shoulders, while the other remained to guard the merchandise stacked on the jetty. Now he began to stow what he had brought, while Rhodri and Cadfael set off back to the river to dispatch his fellow after him. On the way they intercepted one of the stewards, notified him of the site chosen, and came to terms for the rental. Brother Cadfael\x{2019}s immediate duty was done, but he was as interested in the growing bustle along the road and by the Severn as any other man who saw the like but once a year, and there was time to spare yet before <<Compline|13>>. It was good, too, to be speaking Welsh, there was seldom need within the walls.",
+            '[< 18:00] Monk\'s Hood - Ellis Peters.epub (OEBPS/Text/022.html) - before Compline',
+            "\x{201c}This will serve very well. One of my lads will sleep the nights here.\x{201d} The elder of the two had followed them, balancing the first load easily in a sling over his shoulders, while the other remained to guard the merchandise stacked on the jetty. Now he began to stow what he had brought, while Rhodri and Cadfael set off back to the river to dispatch his fellow after him. On the way they intercepted one of the stewards, notified him of the site chosen, and came to terms for the rental. Brother Cadfael\x{2019}s immediate duty was done, but he was as interested in the growing bustle along the road and by the Severn as any other man who saw the like but once a year, and there was time to spare yet <<before Compline|13>>. It was good, too, to be speaking Welsh, there was seldom need within the walls.",
           ],
           [
             1,

@@ -211,11 +211,11 @@ $VAR1 = [
           [
             1,
             "[ap 05:00] Innocent Blood - P. D. James.epub (OEBPS/Jame_9780307400598_epub_c36_r1.htm) - five o\x{2019}clock",
-            "After that he knew that he could relax his watch every evening between <<five o\x{2019}clock|6>> and eleven. He couldn\x{2019}t kill her during their bus journeys, nor while she was at work. But what about that late lonely walk down Mell Street? He pictured himself waiting for them one night, straining himself against the door to avoid being seen, knife ready. Then the lunge at her throat, the one word \x{201c}Julie\x{201d} spoken so low that only she would hear, the vicious double twist, the tearing flesh as the knife was wrenched free, and then his feet pounding down Delaney Street to the shelter of\x{2014}where? It wouldn\x{2019}t work; nothing about it rang true. That quick withdrawing knife, suppose it stuck, twisted in her muscles, was caught behind a bone? He would need time to force it out. He couldn\x{2019}t leave the knife in the wound. Surely the blood must flow freely if she were to die. And the girl would be there, younger, stronger, swifter than he. How could he hope to get away?",
+            "After that he knew that he could relax his watch every evening between <<five o\x{2019}clock|6>> and <<eleven|20a>>. He couldn\x{2019}t kill her during their bus journeys, nor while she was at work. But what about that late lonely walk down Mell Street? He pictured himself waiting for them one night, straining himself against the door to avoid being seen, knife ready. Then the lunge at her throat, the one word \x{201c}Julie\x{201d} spoken so low that only she would hear, the vicious double twist, the tearing flesh as the knife was wrenched free, and then his feet pounding down Delaney Street to the shelter of\x{2014}where? It wouldn\x{2019}t work; nothing about it rang true. That quick withdrawing knife, suppose it stuck, twisted in her muscles, was caught behind a bone? He would need time to force it out. He couldn\x{2019}t leave the knife in the wound. Surely the blood must flow freely if she were to die. And the girl would be there, younger, stronger, swifter than he. How could he hope to get away?",
           ],
           [
             1,
-            '[ap > 06:30] Innocent Blood - P. D. James.epub (OEBPS/Jame_9780307400598_epub_c38_r1.htm) - just after half past six',
+            '[ap > 06:31] Innocent Blood - P. D. James.epub (OEBPS/Jame_9780307400598_epub_c38_r1.htm) - just after half past six',
             "That evening, <<just after half past six|10>>, the strident ring of the telephone set Hilda\x{2019}s heart jumping. She had never liked answering it and during the day it seldom rang. Most of Maurice\x{2019}s colleagues telephoned him at the university and he or Philippa would answer it when they were at home, taking it for granted, she supposed, that the call wouldn\x{2019}t be for her. But since Philippa had left she had grown to dread that insistent, broken summons. She was tempted to take off the receiver, but then there might be a call from the court about one of her sittings, or Maurice might ring to say that he would be late home or was bringing a colleague back for dinner. She could think of no possible excuse why he should find the number continually engaged.",
           ],
           [
@@ -292,5 +292,10 @@ $VAR1 = [
             1,
             '[00:00] Innocent Blood - P. D. James.epub (OEBPS/Jame_9780307400598_epub_c47_r1.htm) - midnight',
             "\x{201c}I came late tonight, but you hadn\x{2019}t left. The light in the front room was still on. I sat in the shop and listened and waited. But you didn\x{2019}t leave. There were no footsteps overhead, no sounds. At <<midnight|13>> I crept upstairs. The door was smashed and open. I thought she was asleep. She looked as if she was asleep. I didn\x{2019}t notice until I drove in the knife that her eyes were open. Her eyes were wide open and she was looking at me.\x{201d}",
+          ],
+          [
+            1,
+            '[~ 16:30] Innocent Blood - P. D. James.epub (OEBPS/Jame_9780307400598_epub_c48_r1.htm) - evensong',
+            'Sunday afternoon <<evensong|13>> was over. The packed congregation, released from their role of silent participants in the music, joined with cheerful abandon in the concluding hymn. The boy choristers, their calm candlelit faces rising translucent as flowers from their ruffs, had closed their books and were filing from their stalls. Philippa rose from her knees, shook free her hair, twitched the pleated cotton more comfortably on her shoulders and joined the small band of similarly white-gowned members of college who were following the procession out through the carved screen and into the cool, light-filled immensity of the antechapel.',
           ],
         ];

@@ -113,11 +113,6 @@ Figure <<2.13|5a:0>>: Iterator class and subclasses
           ],
           [
             1,
-            '[ap 00:59] Design Patterns_ Elements of Reusable Obje - Erich Gamma.epub (OEBPS/html/ch04.html) - one-to-one',
-            "1. Only one Implementor. In situations where there\x{2019}s only one implementation, creating an abstract Implementor class isn\x{2019}t necessary. This is a degenerate case of the Bridge pattern; there\x{2019}s a <<one-to-one|10a:0>> relationship between Abstraction and Implementor. Nevertheless, this separation is still useful when a change in the implementation of a class must not affect its existing clients\x{2014}that is, they shouldn\x{2019}t have to be recompiled, just relinked.",
-          ],
-          [
-            1,
             '[ap 01:00] Design Patterns_ Elements of Reusable Obje - Erich Gamma.epub (OEBPS/html/ch05.html) - one',
             '1. How intelligent should a command be? A command can have a wide range of abilities. At <<one|9m>> extreme it merely defines a binding between a receiver and the actions that carry out the request. At the other extreme it implements everything itself without delegating to a receiver at all. The latter extreme is useful when you want to define commands that are independent of existing classes, when no suitable receiver exists, or when a command knows its receiver implicitly. For example, a command that creates another application window may be just as capable of creating the window as any other object. Somewhere in between these extremes are commands that have enough knowledge to find their receiver dynamically.',
           ],

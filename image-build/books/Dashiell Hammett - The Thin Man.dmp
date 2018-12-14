@@ -49,7 +49,7 @@ I returned to the living-room. Nora was inviting Guild to have lunch while we ha
           [
             1,
             '[ap 05:31] The Thin Man - Dashiell Hammett.epub (OEBPS/text/section14.xhtml) - five thirty-one',
-            'Quinn turned on the radio. At the stroke of the gong it was <<five thirty-one|9f>> and one quarter, Eastern Standard Time.',
+            'Quinn turned on the radio. At the stroke of the gong it was <<five thirty-one|5b>> and one quarter, Eastern Standard Time.',
           ],
           [
             1,
@@ -96,7 +96,7 @@ I returned to the living-room. Nora was inviting Guild to have lunch while we ha
           [
             1,
             '[ap 03:05] The Thin Man - Dashiell Hammett.epub (OEBPS/text/section16.xhtml) - three five',
-            "\x{201c}I'm suspicious of everybody,\x{201d} I said. \x{201c}Where were you between <<three five|5l:0>> and <<three twenty|5k:0>>?\x{201d}",
+            "\x{201c}I'm suspicious of everybody,\x{201d} I said. \x{201c}Where were you between <<three five|20>> and <<three twenty|5k:0>>?\x{201d}",
           ],
           [
             1,
@@ -137,13 +137,13 @@ I returned to the living-room. Nora was inviting Guild to have lunch while we ha
           ],
           [
             1,
-            '[ap > 03:20] The Thin Man - Dashiell Hammett.epub (OEBPS/text/section27.xhtml) - fifteen or twenty minutes past three',
+            '[ap - 03:20] The Thin Man - Dashiell Hammett.epub (OEBPS/text/section27.xhtml) - fifteen or twenty minutes past three',
             "\x{201c}It must've been <<fifteen or twenty minutes past three|10>>. It was <<twenty minutes to four|10>> when I got to Hermann's and I imagine that was twenty or twenty-five minutes later. Well, Hermann's secretary\x{2014}Louise Jacobs, the girl I was with when I saw you last night\x{2014}told me he had been locked up in a conference all afternoon, but would probably be through in a few minutes, and he was, and I got through with him in ten or fifteen minutes and went back to my office.\x{201d}",
           ],
           [
             1,
-            '[ap 03:02] The Thin Man - Dashiell Hammett.epub (OEBPS/text/section27.xhtml) - two after three o\'clock',
-            "\x{201c}Yes. And of course you were partly right. I had at least seen him, and seen him at a place and time that would've spelled Guilty with a capital G to the police, so, having lied instinctively and by inference, I now lied directly and deliberately. Herrnann had been tied up in a conference all that afternoon and didn't know how long I had been waiting to see him. Louise Jacobs is a good friend of mine. Without going into details, I told her she could help me help a client by saying I had arrived there at a minute or <<two after three o'clock|10>> and she agreed readily enough. To protect her in case of trouble, I told her that if anything went wrong she could always say that she hadn't remembered what time I arrived, but that I, the next day, had casually mentioned my arrival at that time and she had no reason for doubting me\x{2014}throwing the whole thing on me.\x{201d} Macaulay took a deep breath. \x{201c}None of that's important now. What's important is that I heard from Wynant this morning.\x{201d}",
+            '[ap - 03:02] The Thin Man - Dashiell Hammett.epub (OEBPS/text/section27.xhtml) - a minute or two after three o\'clock',
+            "\x{201c}Yes. And of course you were partly right. I had at least seen him, and seen him at a place and time that would've spelled Guilty with a capital G to the police, so, having lied instinctively and by inference, I now lied directly and deliberately. Herrnann had been tied up in a conference all that afternoon and didn't know how long I had been waiting to see him. Louise Jacobs is a good friend of mine. Without going into details, I told her she could help me help a client by saying I had arrived there at <<a minute or two after three o'clock|10>> and she agreed readily enough. To protect her in case of trouble, I told her that if anything went wrong she could always say that she hadn't remembered what time I arrived, but that I, the next day, had casually mentioned my arrival at that time and she had no reason for doubting me\x{2014}throwing the whole thing on me.\x{201d} Macaulay took a deep breath. \x{201c}None of that's important now. What's important is that I heard from Wynant this morning.\x{201d}",
           ],
           [
             1,

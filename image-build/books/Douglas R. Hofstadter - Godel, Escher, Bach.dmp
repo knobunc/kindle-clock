@@ -56,28 +56,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 00:59] Godel, Escher, Bach_ An Eternal Golden Bra - Douglas R. Hofstadter.epub (OEBPS/Text/part0005.html) - one-to-one',
-            'We now wish to move to a higher level of the hierarchy of levels of description of programs. This is the assembly language level. There is not a gigantic spread between assembly language and machine language; indeed, the step is rather gentle. In essence, there is a <<one-to-one|10a:0>> correspondence between assembly language instructions and machine language instructions. The idea of assembly language is to "chunk" the individual machine language instructions, so that instead of writing the sequence of bits "010111000" when you want an instruction which adds one number to another, you simply write ADD, and then instead of giving the address in binary representation, you can refer to the word in memory by a name.',
-          ],
-          [
-            1,
-            '[ap 00:59] Godel, Escher, Bach_ An Eternal Golden Bra - Douglas R. Hofstadter.epub (OEBPS/Text/part0005.html) - one-to-one',
-            'The new languages based on these ideas were called compiler languages. One of the earliest and most elegant was called "Algol", for "Algorithmic Language". Unlike the case with assembly language, there is no straightforward <<one-to-one|10a:0>> correspondence between statements in Algol and machine language instructions. To be sure, there is still a type of mapping from Algol into machine language, but it is far more "scrambled" than that between assembly language and machine language. Roughly speaking, an Algol program is to its machine language translation as a word problem in an elementary algebra text is to the equation it translates into. (Actually, getting from a word problem to an equation is far more complex, but it gives some inkling of the types of "unscrambling" that have to be carried out in translating from a high-level language to a lower-level lan-',
-          ],
-          [
-            1,
-            '[ap 00:59] Godel, Escher, Bach_ An Eternal Golden Bra - Douglas R. Hofstadter.epub (OEBPS/Text/part0006.html) - one-to-one',
-            'It is important not to get the idea, from the rather strict nature of all the formal systems we have seen, that the isomorphism between symbols and real things is a rigid, <<one-to-one|10a:0>> mapping, like the strings which link a marionette and the hand guiding it. In TNT, the notion "fifty" can be expressed in different symbolic ways; for example,',
-          ],
-          [
-            1,
             '[ap ~ 00:50] Godel, Escher, Bach_ An Eternal Golden Bra - Douglas R. Hofstadter.epub (OEBPS/Text/part0006.html) - about ten to one',
             'The most important cells in the brain are nerve cells, or neurons (see Fig. 65), of which there are about ten billion. (Curiously, outnumbering the neurons by <<about ten to one|10>> are the glial cells, or glia. Glia are believed to play more of a supporting role to the neurons\' starring role, and therefore we will not discuss them.) Each neuron possesses a number of synapses ("entry ports") and one axon ("output channel"). The input and output are electrochemical flows: that is, moving ions. In between the entry ports of a neuron and its output channel is its cell body, where "decisions" are made.',
-          ],
-          [
-            1,
-            '[ap 00:59] Godel, Escher, Bach_ An Eternal Golden Bra - Douglas R. Hofstadter.epub (OEBPS/Text/part0006.html) - one-to-one',
-            "But such <<one-to-one|10a:0>> mappability between individuals' brains disappears very soon as you ascend in the thinking-hierarchy and the number of neurons increases\x{2014}confirming one's suspicions that there is not just one human! Yet considerable physical similarity can be detected between different human brains when they are compared on a scale larger than a single neuron but smaller than the major suborgans of the brain. What does this imply about how individual mental differences are represented in the physical brain? If we looked at my neurons' interconnections, could we find various structures that could be identified as coding for specific things I know, specific beliefs I have, specific hopes, fears, likes and dislikes I harbor? If mental experiences can be attributed to the brain, can knowledge and other aspects of mental life likewise be traced to specific locations inside the brain, or to specific physical subsystems of the brain? This will be a central question to which we will often return in this Chapter and the next.",
           ],
           [
             1,

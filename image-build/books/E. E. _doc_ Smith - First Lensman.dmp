@@ -1,8 +1,8 @@
 $VAR1 = [
           [
             1,
-            '[ap 02:00] First Lensman - E. E. _doc_ Smith.epub (OEBPS/Text/Section0001.html) - until two',
-            'But peace was not even thought of. Strife continued, at higher and even higher levels of violence, <<until two|9:0>> facts became apparent. First, that every Eddorian who could be killed by physical violence had already died; that the survivors had developed such tremendous powers of mind, such complete mastery of things physical as well as mental, that they could not be slain by physical force. Second, that during the ages through which they had been devoting their every effort to mutual extermination, their sun had begun markedly to cool; that their planet would very soon become so cold that it would be impossible for them ever again to live their normal physical lives.',
+            '[ap 02:00] First Lensman - E. E. _doc_ Smith.epub (OEBPS/Text/Section0001.html) - two',
+            'But peace was not even thought of. Strife continued, at higher and even higher levels of violence, until <<two|9:0>> facts became apparent. First, that every Eddorian who could be killed by physical violence had already died; that the survivors had developed such tremendous powers of mind, such complete mastery of things physical as well as mental, that they could not be slain by physical force. Second, that during the ages through which they had been devoting their every effort to mutual extermination, their sun had begun markedly to cool; that their planet would very soon become so cold that it would be impossible for them ever again to live their normal physical lives.',
           ],
           [
             1,
@@ -26,25 +26,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[20:06] First Lensman - E. E. _doc_ Smith.epub (OEBPS/Text/Section0001.html) - twenty six',
-            "\x{201c}My point is that no race we have found so far has had either atomic energy or any form of space-drive. In any contact with races having space-drives we have not been the discoverers, but the discovered. Our colonies are all within <<twenty six|5l:0>> light-years of Earth except Aldebaran II, which is fifty seven, but which drew a lot of people, in spite of the distance, because it was so nearly identical with Earth. On the other hand, the Nevians, from a distance of over a hundred light-years, found us\x{2026}implying an older race and a higher development\x{2026}but you just told me that they would never produce a Lensman!\x{201d}",
-          ],
-          [
-            1,
-            '[20:02] First Lensman - E. E. _doc_ Smith.epub (OEBPS/Text/Section0001.html) - twenty two',
-            "\x{201c}No\x{2026}o\x{2026}o\x{2026}?\x{201d} Isaacson studied the Lensman narrowly: and Samms, Lens now wide awake, studied the entrepreneur. \x{201c}Wel\x{2026}l\x{2026}while I admit that we want you pretty badly, you are smart enough to know that we\x{2019}ll get what we want anyway, with or without you. With you, though, it will be easier and quicker, so I am authorized to offer you, besides the twenty six million credits\x{2026}\x{201d} he savored the words as he uttered them: \x{201c}<<twenty two|5l:0>> and one-half percent of Spaceways. On today\x{2019}s market that is worth fifty million credits; ten years from now it will be worth fifty billion. That\x{2019}s my high bid; that\x{2019}s as high as we can possibly go.\x{201d}",
-          ],
-          [
-            1,
             '[00:00] First Lensman - E. E. _doc_ Smith.epub (OEBPS/Text/Section0001.html) - midnight',
             "The Lensman climbed, not easily or joyously, into that grimly forbidding black interior. Black? It was so black that the port-hole-like doorway seemed to admit no light at all. It was blacker than a witch\x{2019}s cat in a coal cellar at <<midnight|13>>! Samms flinched; then, stiffening, thought at the driver.",
-          ],
-          [
-            1,
-            '[ap 04:52] First Lensman - E. E. _doc_ Smith.epub (OEBPS/Text/Section0001.html) - eight to five',
-            "\x{201c}I will, Senator.\x{201d} Herkimer\x{2019}s nostrils flared viciously. \x{201c}I\x{2019}ll get her, one way or another, if it\x{2019}s the last thing I ever do.\x{201d}
-\x{201c}I\x{2019}ll give you <<eight to five|10a:0>> you don\x{2019}t; and a six-month time limit.\x{201d}
-\x{201c}I\x{2019}ll take five thousand of that. But what makes you think that she\x{2019}s anything to be afraid of? She\x{2019}s a trained psychologist, yes; but so am I; and I\x{2019}m older and more experienced than she is. That leaves that yoga stuff\x{2014}her learning how to sit cross-legged, how to contemplate her navel, and how to try to get in tune with the infinite. How do you figure that puts her in my class?\x{201d}",
           ],
           [
             1,
@@ -108,13 +91,6 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 02:07] First Lensman - E. E. _doc_ Smith.epub (OEBPS/Text/Section0002.html) - two seven',
-            "\x{201c}Set the blue on zero. Course two hundred seventy five degrees.\x{201d}
-\x{201c}Blue on zero. Course <<two seven|5l:0>> five.\x{201d}
-\x{201c}Dex sixty nine point two zero feet. That\x{2019}ll put you into Eleven\x{2019}s class yard\x{2014}so big you can\x{2019}t miss it.\x{201d}",
-          ],
-          [
-            1,
             '[ap 02:50] First Lensman - E. E. _doc_ Smith.epub (OEBPS/Text/Section0002.html) - two-fifty',
             "\x{201c}Gimme that armor!\x{201d} he rasped, and climbed the blocks. \x{201c}Open the air wide open\x{2014}give \x{2019}er the whole <<two-fifty|5k:0>>! Get down, Mac\x{2014}I\x{2019}ll take it the rest of the way!\x{201d}",
           ],
@@ -122,11 +98,6 @@ $VAR1 = [
             1,
             '[ap 06:00] First Lensman - E. E. _doc_ Smith.epub (OEBPS/Text/Section0002.html) - Six',
             "He put his shoulders to the improvised yoke, braced his feet, and heaved. The burley, screaming and yelling and clamoring, went joyously to work\x{2014}both ways\x{2014}God, what punishment) The rotary, free and clear, chewed rock more viciously than ever. An armored hand smote his leg. Lift! He lifted that foot, set it down two inches higher. The other one. Four inches. <<Six|9k:0>>. One foot. <<Two|9k:0>>. <<Three|9k:0>>. Lord of the ancients! Was this lifetime of agony only one minute? Or wasn\x{2019}t he holding her\x{2014}had the damn thing stopped cutting? No, it was still cutting\x{2014}the rocks were banging against and bouncing off of his helmet as viciously and as numerously as ever; he could sense, rather than feel, the furious fashion in which the relays of timbermen were laboring to keep those high-stepping jacks in motion.",
-          ],
-          [
-            1,
-            '[ap 03:06] First Lensman - E. E. _doc_ Smith.epub (OEBPS/Text/Section0002.html) - Three six',
-            "\x{201c}Listen, Hazel,\x{201d} Kinnison said, holding up the now slightly stained paper. \x{201c}\x{2018}<<Three six|5l:1>> two\x{2019}\x{2014}that\x{2019}s you, I suppose, and you\x{2019}re the squad leader\x{2014}\x{2018}Men mentioned previously being investigated stop assign <<three nine|5l:1>> eight\x{2019}\x{2014}that must be you, Jane\x{2014}\x{2018}and make acquaintance stop if no further instructions received by eighteen hundred hours liquidate immediately stop party one\x{2019}.\x{201d}",
           ],
           [
             1,
@@ -140,7 +111,7 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap < 00:57] First Lensman - E. E. _doc_ Smith.epub (OEBPS/Text/Section0002.html) - two or three to one',
+            '[ap - 00:57] First Lensman - E. E. _doc_ Smith.epub (OEBPS/Text/Section0002.html) - two or three to one',
             "Each of those vessels had one heavy pressor beam, each having the same push as every other, directed inward, toward the cylinder\x{2019}s axis, and backward at an angle of fifteen degrees from the perpendicular line between ship and axis. Therefore, wherever any Black ship entered the Patrol\x{2019}s cylinder or however, it was driven to and held at the axis and forced backward along that axis. None of them, however, got very far. They were perforce in single file; one ship opposing at least one solid ring of giant sluggers who did not have to concern themselves with defense, but could pour every iota of their tremendous resources into offensive beams. Thus the odds were not merely <<two or three to one|10>>; but never less than eighty, and very frequently over two hundred to one.",
           ],
           [

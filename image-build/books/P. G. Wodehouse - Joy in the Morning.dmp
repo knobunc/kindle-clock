@@ -21,14 +21,14 @@ $VAR1 = [
           ],
           [
             1,
-            '[> 00:00] Joy in the Morning - P. G. Wodehouse.epub (index_split_022.html) - after midnight',
-            "\x{2018}I should be disposed to imagine so, sir. When I motored to London this afternoon, it was with instructions from his lordship to establish telephonic communication with Mr Clam at his hotel and urge him to hasten to Steeple Bumpleigh and be in the potting shed half an hour <<after midnight|13>>. The gentleman expressed complete understanding and agreement, and assured me that he would drive down in good time to keep the appointment.\x{2019}",
+            '[00:30] Joy in the Morning - P. G. Wodehouse.epub (index_split_022.html) - half an hour after midnight',
+            "\x{2018}I should be disposed to imagine so, sir. When I motored to London this afternoon, it was with instructions from his lordship to establish telephonic communication with Mr Clam at his hotel and urge him to hasten to Steeple Bumpleigh and be in the potting shed <<half an hour after midnight|10>>. The gentleman expressed complete understanding and agreement, and assured me that he would drive down in good time to keep the appointment.\x{2019}",
           ],
           [
             1,
-            '[> 00:00] Joy in the Morning - P. G. Wodehouse.epub (index_split_022.html) - after midnight',
+            '[00:30] Joy in the Morning - P. G. Wodehouse.epub (index_split_022.html) - Half an hour after midnight',
             "I saw, too, what Jeeves meant about Boko having selected an unfortunate moment for his enterprise.
-\x{2018}Half an hour <<after midnight|13>>? It must be nearly that now.\x{2019}
+\x{2018}<<Half an hour after midnight|10>>? It must be nearly that now.\x{2019}
 \x{2018}Exactly that, sir.\x{2019}",
           ],
           [

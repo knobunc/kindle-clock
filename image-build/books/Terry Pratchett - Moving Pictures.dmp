@@ -11,8 +11,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[12:00] Moving Pictures - Terry Pratchett.epub (Moving_Pictures_split_002.html) - noon',
-            "Beer at breakfast! The Bursar shuddered. Wizards weren\x{2019}t at their best before <<noon|13>>, and breakfast in the Great Hall was a quiet, fragile occasion, broken only by coughs, the quiet shuffling of the servants, and the occasional groan. People shouting for kidneys and black pudding and beer were a new phenomenon.",
+            '[< 12:00] Moving Pictures - Terry Pratchett.epub (Moving_Pictures_split_002.html) - before noon',
+            "Beer at breakfast! The Bursar shuddered. Wizards weren\x{2019}t at their best <<before noon|13>>, and breakfast in the Great Hall was a quiet, fragile occasion, broken only by coughs, the quiet shuffling of the servants, and the occasional groan. People shouting for kidneys and black pudding and beer were a new phenomenon.",
           ],
           [
             1,
@@ -63,9 +63,9 @@ That flat head, those rangy arms, that curling lower lip, that croaking voice th
           ],
           [
             1,
-            '[> 00:00] Moving Pictures - Terry Pratchett.epub (Moving_Pictures_split_002.html) - after midnight',
+            '[> 02:00] Moving Pictures - Terry Pratchett.epub (Moving_Pictures_split_002.html) - two hours after midnight',
             'From the top of the next dune, hidden behind a dry clump of grass, Gaspode the Wonder Dog watched him thoughtfully.
-It was two hours <<after midnight|13>>.
+It was <<two hours after midnight|10>>.
 It had them now, and poured joyfully out of the hill, poured its glitter into the world.',
           ],
           [

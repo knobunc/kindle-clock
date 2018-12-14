@@ -6,15 +6,10 @@ $VAR1 = [
           ],
           [
             1,
-            '[00:00] Nova - Samuel R. Delany.epub (OEBPS/Text/chapter3.xhtml) - midnight',
+            '[< 00:00] Nova - Samuel R. Delany.epub (OEBPS/Text/chapter3.xhtml) - Before midnight',
             '"You won\'t be too ..."
-"Before <<midnight|13>>."
+"<<Before midnight|13>>."
 "Lorq. One more thing."',
-          ],
-          [
-            1,
-            '[ap 02:05] Nova - Samuel R. Delany.epub (OEBPS/Text/chapter3.xhtml) - two-five',
-            "A day out, they lost six hours in a whirlpool nebula (\"Now if you had a real ship instead of this here toy,\" Dan complained over the intercom, \"it'd be a sneeze to get out of this thing.\" Lorq turned the frequency of the scanner higher on the ion-coupler. \"Point <<two-five|5l:1>> down, Brian. Then catch it up fast\x{2014} there!\"), but made up the time and then some on the Outward Tidal Drift.",
           ],
           [
             1,
@@ -23,8 +18,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[00:00] Nova - Samuel R. Delany.epub (OEBPS/Text/chapter3.xhtml) - midnight',
-            "\"First.\" She handed him the glass as he placed the bottle on another passing shelf. \"Because it's terribly rude\x{2014} I don't know how you do it back on Ark\x{2014} for a hostess to run out on her party before <<midnight|13>>.\"",
+            '[< 00:00] Nova - Samuel R. Delany.epub (OEBPS/Text/chapter3.xhtml) - before midnight',
+            "\"First.\" She handed him the glass as he placed the bottle on another passing shelf. \"Because it's terribly rude\x{2014} I don't know how you do it back on Ark\x{2014} for a hostess to run out on her party <<before midnight|13>>.\"",
           ],
           [
             1,

@@ -111,8 +111,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[00:00] Prester John - John Buchan.epub (OEBPS/html/9780857901620_28_ch20.html) - midnight',
-            "The man had been strangled. His neck, as we say in Scotland, was \x{2018}thrawn\x{2019}, and that was why he had lain on his back yet with his face turned away from me. He had been dead probably since before <<midnight|13>>. I looked closer, and saw that there was blood on his shirt and hands, but no wound. It was not his blood, but some other\x{2019}s. Then a few feet off on the path I found a pistol with two chambers empty.",
+            '[< 00:00] Prester John - John Buchan.epub (OEBPS/html/9780857901620_28_ch20.html) - before midnight',
+            "The man had been strangled. His neck, as we say in Scotland, was \x{2018}thrawn\x{2019}, and that was why he had lain on his back yet with his face turned away from me. He had been dead probably since <<before midnight|13>>. I looked closer, and saw that there was blood on his shirt and hands, but no wound. It was not his blood, but some other\x{2019}s. Then a few feet off on the path I found a pistol with two chambers empty.",
           ],
           [
             1,

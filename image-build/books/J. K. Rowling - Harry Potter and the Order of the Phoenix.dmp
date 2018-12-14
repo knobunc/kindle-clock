@@ -31,18 +31,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 01:02] Harry Potter and the Order of the Phoenix - J. K. Rowling.epub (index_split_004.html) - one-two',
-            "\x{201c}Fought \x{2019}em off, did you, son?\x{201d} said Uncle Vernon loudly, with the appearance of a man struggling to bring the conversation back onto a plane he understood. \x{201c}Gave \x{2019}em the old <<one-two|5l:0>>, did you?\x{201d}",
-          ],
-          [
-            1,
-            '[ap 01:02] Harry Potter and the Order of the Phoenix - J. K. Rowling.epub (index_split_004.html) - one-two',
-            "\x{201c}You can\x{2019}t give a dementor the old <<one-two|5l:0>>,\x{201d} said Harry through clenched teeth.",
-          ],
-          [
-            1,
-            '[00:00] Harry Potter and the Order of the Phoenix - J. K. Rowling.epub (index_split_007.html) - midnight',
-            "\x{201c}And if you want dinner before <<midnight|13>> I\x{2019}ll need a hand,\x{201d} Mrs. Weasley said to the room at large. \x{201c}No, you can stay where you are, Harry dear, you\x{2019}ve had a long journey \x{2014}\x{201d}",
+            '[< 00:00] Harry Potter and the Order of the Phoenix - J. K. Rowling.epub (index_split_007.html) - before midnight',
+            "\x{201c}And if you want dinner <<before midnight|13>> I\x{2019}ll need a hand,\x{201d} Mrs. Weasley said to the room at large. \x{201c}No, you can stay where you are, Harry dear, you\x{2019}ve had a long journey \x{2014}\x{201d}",
           ],
           [
             1,
@@ -58,11 +48,6 @@ $VAR1 = [
             1,
             '[ap 05:30] Harry Potter and the Order of the Phoenix - J. K. Rowling.epub (index_split_009.html) - half-past five',
             'Harry awoke at <<half-past five|10>> the next morning as abruptly and completely as if somebody had yelled in his ear. For a few moments he lay immobile as the prospect of the hearing filled every tiny particle of his brain, then, unable to bear it, he leapt out of bed and put on his glasses. Mrs. Weasley had laid out his freshly laundered jeans and T-shirt at the foot of his bed. Harry scrambled into them. The blank picture on the wall sniggered again.',
-          ],
-          [
-            1,
-            "[ap 02:04] Harry Potter and the Order of the Phoenix - J. K. Rowling.epub (index_split_009.html) - two \x{2026} four",
-            "\x{201c}No, no, I\x{2019}m sure it\x{2019}s fine,\x{201d} said Mr. Weasley, holding the receiver above his head and peering at the dial. \x{201c}Let\x{2019}s see \x{2026} six \x{2026}\x{201d} he dialed the number, \x{201c}<<two \x{2026} four|5l:0>> \x{2026} and another four \x{2026} and another two \x{2026}\x{201d}",
           ],
           [
             1,
@@ -246,11 +231,6 @@ $VAR1 = [
           ],
           [
             1,
-            "[ap 01:02] Harry Potter and the Order of the Phoenix - J. K. Rowling.epub (index_split_024.html) - one \x{2026} two",
-            "\x{201c}You have all used a Portkey before?\x{201d} asked Dumbledore, and they nodded, each reaching out to touch some part of the blackened kettle. \x{201c}Good. On the count of three then \x{2026} <<one \x{2026} two|5l:0>> \x{2026}\x{201d}",
-          ],
-          [
-            1,
             '[05:10] Harry Potter and the Order of the Phoenix - J. K. Rowling.epub (index_split_024.html) - ten past five in the morning',
             "And then, at <<ten past five in the morning|10>> by Ron\x{2019}s watch, the kitchen door swung open and Mrs. Weasley entered the kitchen. She was extremely pale, but when they all turned to look at her, Fred, Ron, and Harry half-rising from their chairs, she gave a wan smile.",
           ],
@@ -348,18 +328,8 @@ He was gone. Sirius glared after him, his wand at his side.",
           ],
           [
             1,
-            '[ap 06:02] Harry Potter and the Order of the Phoenix - J. K. Rowling.epub (index_split_036.html) - six two',
-            "\x{201c}Whoever\x{2019}s nearest the receiver, dial <<six two|5l:0>> <<four four|5l:0>> two!\x{201d} he said.",
-          ],
-          [
-            1,
             '[ap 00:58] Harry Potter and the Order of the Phoenix - J. K. Rowling.epub (index_split_037.html) - two to one',
             "Harry\x{2019}s insides plummeted sickeningly. They were trapped and outnumbered <<two to one|10a:0>>.",
-          ],
-          [
-            1,
-            "[ap 01:02] Harry Potter and the Order of the Phoenix - J. K. Rowling.epub (index_split_038.html) - One \x{2026} two",
-            "\x{201c}I shall see you in half an hour,\x{201d} said Dumbledore quietly. \x{201c}<<One \x{2026} two|5l:1>> \x{2026} three \x{2026}\x{201d}",
           ],
           [
             1,

@@ -1,20 +1,6 @@
 $VAR1 = [
           [
             1,
-            '[ap 01:02] Makers - Cory Doctorow.epub (index_split_004.html) - one two',
-            "The words materialized in the middle of the rectangle on the distant wall.
-\x{201c}Testing <<one two|5l:0>> three,\x{201d} Kettlewell said.
-TESTING <<ONE TWO|5l:0>> THREE",
-          ],
-          [
-            1,
-            '[ap 01:02] Makers - Cory Doctorow.epub (index_split_004.html) - one two',
-            "\x{201c}Testing <<one two|5l:0>> three,\x{201d} Kettlewell said.
-TESTING <<ONE TWO|5l:0>> THREE
-\x{201c}Donde esta el bano?\x{201d}",
-          ],
-          [
-            1,
             '[00:00] Makers - Cory Doctorow.epub (index_split_004.html) - midnight',
             "She stared at her screen. It was like a work of art; just look at that return address, \x{201c}kettlewell-l\@skunkworks.kodacell.com\x{201d}\x{2014}for kodacell.com to be live and accepting mail, it had to have been registered the day before. She had a vision of Kettlewell checking his email at <<midnight|13>> before his big press-conference, catching Freddy\x{2019}s column, and registering kodacell.com on the spot, then waking up some sysadmin to get a mail server answering at skunkworks.kodacell.com. Last she\x{2019}d heard, Lockheed-Martin was threatening to sue anyone who used their trademarked term \x{201c}Skunk Works\x{201d} to describe a generic R&D department. That meant that Kettlewell had moved so fast that he hadn\x{2019}t even run this project by legal. She was willing to bet that he\x{2019}d already ordered new business-cards with the address on them.",
           ],
@@ -275,11 +261,6 @@ TESTING <<ONE TWO|5l:0>> THREE
             1,
             '[07:00] Makers - Cory Doctorow.epub (index_split_011.html) - 7AM',
             "Suzanne was getting sick of breakfast in bed. It was hard to imagine that such a thing was possible, but there it was. Lester stole out from between the covers before <<7AM|5>> every day, and then, half an hour later, he was back with a laden tray, something new every day. She\x{2019}d had steaks, burritos, waffles, home-made granola, fruit-salad with Greek yogurt, and today there were eggs Benedict with fresh-squeezed grapefruit juice. The tray always came with a French press of fresh-ground Kona coffee, a cloth napkin, and her computer, so she could read the news.",
-          ],
-          [
-            1,
-            '[ap 01:01] Makers - Cory Doctorow.epub (index_split_011.html) - One-one',
-            "\x{201c}OK, we\x{2019}re even,\x{201d} Perry said. \x{201c}<<One-one|5l:0>> on the faux-pas master\x{2019}s tournament.\x{201d}",
           ],
           [
             1,

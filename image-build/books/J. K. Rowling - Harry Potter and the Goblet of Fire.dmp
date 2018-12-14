@@ -51,11 +51,6 @@ $VAR1 = [
           ],
           [
             1,
-            "[ap 02:01] Harry Potter and the Goblet of Fire - J. K. Rowling.epub (index_split_008.html) - two \x{2026} one",
-            "\x{201c}Three \x{2026}\x{201d} muttered Mr. Weasley, one eye still on his watch, \x{201c}<<two \x{2026} one|5l:1>> \x{2026}\x{201d}",
-          ],
-          [
-            1,
             '[ap 05:07] Harry Potter and the Goblet of Fire - J. K. Rowling.epub (index_split_008.html) - Seven past five',
             "Harry looked up. Mr. Weasley, Mr. Diggory, and Cedric were still standing, though looking very windswept; everybody else was on the ground.
 \x{201c}<<Seven past five|10>> from Stoatshead Hill,\x{201d} said a voice.
@@ -99,7 +94,7 @@ $VAR1 = [
           [
             1,
             '[00:00] Harry Potter and the Goblet of Fire - J. K. Rowling.epub (index_split_021.html) - midnight',
-            "Hagrid was beaming down at Harry too. Harry knew Hagrid couldn\x{2019}t see him, but Moody had obviously told Hagrid he was there. Hagrid now bent down on the pretext of reading the S.P.E.W. notebook as well, and said in a whisper so low that only Harry could hear it, \x{201c}Harry, meet me tonight at <<midnight|9b>> at me cabin. Wear that cloak.\x{201d}",
+            "Hagrid was beaming down at Harry too. Harry knew Hagrid couldn\x{2019}t see him, but Moody had obviously told Hagrid he was there. Hagrid now bent down on the pretext of reading the S.P.E.W. notebook as well, and said in a whisper so low that only Harry could hear it, \x{201c}Harry, meet me tonight at <<midnight|13>> at me cabin. Wear that cloak.\x{201d}",
           ],
           [
             1,
@@ -225,8 +220,8 @@ He looked down at his watch. Dobby was right. It was <<twenty past nine|10>>. A 
           ],
           [
             1,
-            "[ap 01:02] Harry Potter and the Goblet of Fire - J. K. Rowling.epub (index_split_028.html) - One \x{2026} two",
-            "\x{201c}Well, all our champions are ready for the second task, which will start on my whistle. They have precisely an hour to recover what has been taken from them. On the count of three, then. <<One \x{2026} two|5l:1>> \x{2026} <<three|9k:0>>!\x{201d}",
+            '[ap 03:00] Harry Potter and the Goblet of Fire - J. K. Rowling.epub (index_split_028.html) - three',
+            "\x{201c}Well, all our champions are ready for the second task, which will start on my whistle. They have precisely an hour to recover what has been taken from them. On the count of three, then. One \x{2026} two \x{2026} <<three|9k:0>>!\x{201d}",
           ],
           [
             1,

@@ -110,8 +110,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[00:00] The Moonstone - Wilkie Collins.epub (OEBPS/Text/chapter004.html) - midnight',
-            "\x{2018}Not before <<midnight|13>>,\x{2019} I whispered back. \x{2018}Say nothing, and sit still.\x{2019}",
+            '[< 00:00] The Moonstone - Wilkie Collins.epub (OEBPS/Text/chapter004.html) - before midnight',
+            "\x{2018}Not <<before midnight|13>>,\x{2019} I whispered back. \x{2018}Say nothing, and sit still.\x{2019}",
           ],
           [
             1,

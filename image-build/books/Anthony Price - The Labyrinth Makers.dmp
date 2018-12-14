@@ -26,8 +26,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[12:00] The Labyrinth Makers - Anthony Price.epub (OEBPS/Text/Chapter_03.html) - midday',
-            'She followed him obediently, and the incongruity of the situation struck him. Steerforth had not even been a name to him twenty-four hours ago. He had encountered him at dawn and buried him before <<midday|13>>. And now he was having supper with the man\'s daughter.',
+            '[< 12:00] The Labyrinth Makers - Anthony Price.epub (OEBPS/Text/Chapter_03.html) - before midday',
+            'She followed him obediently, and the incongruity of the situation struck him. Steerforth had not even been a name to him twenty-four hours ago. He had encountered him at dawn and buried him <<before midday|13>>. And now he was having supper with the man\'s daughter.',
           ],
           [
             1,
@@ -53,9 +53,9 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 05:25] The Labyrinth Makers - Anthony Price.epub (OEBPS/Text/Chapter_05.html) - Until 5.25',
+            '[ap 05:25] The Labyrinth Makers - Anthony Price.epub (OEBPS/Text/Chapter_05.html) - 5.25',
             'Audley toyed with the idea of maintaining the element of uncertainty. But it would be embarrassing if Morrison then did the sensible thing and called the police. In any case, they had him now, and their official status would probably strengthen their hand rather than weaken it. He held his identification open for Morrison to see, just above the spotty face of the latest customer.
-\'<<Until 5.25|9e>>, then, Mr Morrison. Don\'t go away.\'
+\'Until <<5.25|9e>>, then, Mr Morrison. Don\'t go away.\'
 Outside the crowds seemed even thicker and more determined. The two small boys were still glued to the window, and one of them instantly buttonholed Roskill.',
           ],
           [
@@ -105,7 +105,7 @@ Outside the crowds seemed even thicker and more determined. The two small boys w
           ],
           [
             1,
-            '[19:45] The Labyrinth Makers - Anthony Price.epub (OEBPS/Text/Chapter_16.html) - until 1945',
-            "'They'd known about this Roman camp for ages, of course. But it wasn't a very promising site, and it was only because the farmer who owned the land was interested in archaeology that they decided to excavate it. That was in 1938, actually. But then the RAF got in first and they had to wait <<until 1945|18:0>>\x{2013}and then they only obtained permission on condition that they dug one trench at a time and filled it in before they started on the next one.",
+            '[19:45] The Labyrinth Makers - Anthony Price.epub (OEBPS/Text/Chapter_16.html) - 1945',
+            "'They'd known about this Roman camp for ages, of course. But it wasn't a very promising site, and it was only because the farmer who owned the land was interested in archaeology that they decided to excavate it. That was in 1938, actually. But then the RAF got in first and they had to wait until <<1945|18:0>>\x{2013}and then they only obtained permission on condition that they dug one trench at a time and filled it in before they started on the next one.",
           ],
         ];

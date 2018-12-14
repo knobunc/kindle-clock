@@ -1,8 +1,8 @@
 $VAR1 = [
           [
             1,
-            '[> 00:00] What If__ Serious Scientific Answers to Ab - Randall Munroe.epub (OEBPS/Munroe_WHATIF_int_F_13.xhtml) - after midnight',
-            'Half an hour <<after midnight|13>> (GMT), everyone aims and presses the button.',
+            '[00:30] What If__ Serious Scientific Answers to Ab - Randall Munroe.epub (OEBPS/Munroe_WHATIF_int_F_13.xhtml) - Half an hour after midnight',
+            '<<Half an hour after midnight|10>> (GMT), everyone aims and presses the button.',
           ],
           [
             1,
@@ -18,11 +18,6 @@ $VAR1 = [
             1,
             '[12:00] What If__ Serious Scientific Answers to Ab - Randall Munroe.epub (OEBPS/Munroe_WHATIF_int_F_13.xhtml) - noonday',
             "Under those circumstances, it turns out Earth would still catch fire. The reflected light from the Moon would be four thousand times brighter than the <<noonday|13>> sun. Moonlight would become bright enough to boil away Earth\x{2019}s oceans in less than a year.",
-          ],
-          [
-            1,
-            '[ap ~ 01:10] What If__ Serious Scientific Answers to Ab - Randall Munroe.epub (OEBPS/Munroe_WHATIF_int_F_13.xhtml) - about one ten',
-            "The laser itself would exert enough radiation pressure to accelerate the Moon at <<about one ten|5k:0>> millionth of a gee. This acceleration wouldn\x{2019}t be noticeable in the short term, but over the years, it would add up to enough to push it free from Earth orbit\x{a0}.\x{a0}.\x{a0}.",
           ],
           [
             1,

@@ -26,11 +26,6 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 01:02] Concepts of Modern Mathematics - Ian Stewart.epub (OEBPS/e9780486134956_bm02.html) - ONE TWO',
-            "<<ONE TWO|5l:0>> THREE . . . INFINITY: Facts and Speculations of Science, George Gamow. Great physicist\x{2019}s fascinating, readable overview of contemporary science: number theory, relativity, fourth dimension, entropy, genes, atomic structure, much more. 128 illustrations. Index. 352pp. 5\x{215c} x 8\x{bd}.",
-          ],
-          [
-            1,
             '[ap 06:00] Concepts of Modern Mathematics - Ian Stewart.epub (OEBPS/e9780486134956_c03.html) - 0 to 6',
             'Suppose we number the days of the week from <<0 to 6|10a:0>>, starting at Sunday, as in Figure 17.',
           ],
@@ -58,23 +53,6 @@ $VAR1 = [
             1,
             '[20:00] Concepts of Modern Mathematics - Ian Stewart.epub (OEBPS/e9780486134956_c03.html) - 20',
             'However, even for a relatively small number like 17 we have to work out 1.2 . . . 16+1, which is <<20|9d>> 922 789 888 001, and divide by 17. The test is not a practical one, even on a fast computer.',
-          ],
-          [
-            1,
-            '[ap 00:59] Concepts of Modern Mathematics - Ian Stewart.epub (OEBPS/e9780486134956_c05.html) - one-to-one',
-            'Functions which can be turned round in this way will play a prominent part in some of our later investigations. They are known as bijections, or as <<one-to-one|10a:0>> correspondences.',
-          ],
-          [
-            1,
-            '[ap 00:59] Concepts of Modern Mathematics - Ian Stewart.epub (OEBPS/e9780486134956_c05.html) - one-to-one',
-            'Bijections, or <<one-to-one|10a:0>> correspondences, are exactly those functions which have inverse functions.',
-          ],
-          [
-            1,
-            '[ap 00:59] Concepts of Modern Mathematics - Ian Stewart.epub (OEBPS/e9780486134956_c09.html) - one-to-one',
-            "(i) Each person sits in exactly one seat.
-(ii) Each seat contains exactly one person.
-If we let S be the set of seats and P the set of people, then for each person p \x{2208} P we can define f(p) \x{2208} S to be the seat in which he is sitting. And then \x{192}: P \x{2192} S is a bijection (<<one-to-one|10a:0>> correspondence). Firstly, \x{192} fits our definition of a function: its domain is P, its target S. The rule assigning f(P) to p is unambiguous, by (i) above. And \x{192} is a surjection, because by (ii) each seat contains a person, and an injection, since by (ii) again it contains only one person.",
           ],
           [
             1,
@@ -132,12 +110,5 @@ Then it passes through again, changing <<0 to 1|10a:0>> and emerging as waste:
             1,
             '[~ 07:30] Concepts of Modern Mathematics - Ian Stewart.epub (OEBPS/e9780486134956_c19.html) - about prime',
             "Although I have talked in terms of divisions of mathematics into various branches - algebra, topology, analysis, logic, geometry, number theory, probability \x{2014} it must be realized that no exact boundaries can be drawn, and that the divisions themselves are somewhat arbitrary. When Descartes first discovered connections between geometry and algebra it was a surprise. When Galois applied the theory of groups to polynomial equations it was a surprise. When Hadamard and de la Vall\x{e9}e Poussin proved an important conjecture <<about prime|16>> numbers using analysis it was a surprise. Today mathematicians are no longer surprised by such occurrences. In fact they tend to go out looking for them. It is quite commonplace to start with a problem in analysis, turn it into topology, reduce it to algebra, and solve it by number theory.",
-          ],
-          [
-            1,
-            '[ap 00:59] Concepts of Modern Mathematics - Ian Stewart.epub (OEBPS/e9780486134956_ind01.html) - One-to-one',
-            'Omega-minus
-<<One-to-one|10a:0>> correspondence
-Onto',
           ],
         ];

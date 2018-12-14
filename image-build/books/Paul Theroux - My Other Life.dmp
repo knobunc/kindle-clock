@@ -2,7 +2,7 @@ $VAR1 = [
           [
             1,
             '[04:00] My Other Life - Paul Theroux.epub (OPS/c01.xml) - four in the morning',
-            'Perhaps he went away. If he was planning to travel a long distance, he rose at <<four in the morning|9a>> in order to beat the traffic, and he set off in the dark. "They\'re always crowding the roads and they can\'t drive for beans." But he was an early riser. That meant that he was tired by early evening. He was usually in bed by eight or so, which was why he never went to dinners or to parties. "I\'m tired!" he shouted if you called him at <<six-thirty or seven|5b>>. But he also said that he never slept through the night, and sometimes at odd hours the blue light of the television upstairs would flicker through the darkness of his big house.',
+            'Perhaps he went away. If he was planning to travel a long distance, he rose at <<four in the morning|9a>> in order to beat the traffic, and he set off in the dark. "They\'re always crowding the roads and they can\'t drive for beans." But he was an early riser. That meant that he was tired by early evening. He was usually in bed by eight or so, which was why he never went to dinners or to parties. "I\'m tired!" he shouted if you called him at <<six-thirty|5b>> or seven. But he also said that he never slept through the night, and sometimes at odd hours the blue light of the television upstairs would flicker through the darkness of his big house.',
           ],
           [
             1,
@@ -11,8 +11,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[12:00] My Other Life - Paul Theroux.epub (OPS/c02.xml) - noon',
-            'I had never been in a train that moved so slowly. It made the trip especially strange, this ponderous movement. After three hours the train seemed not clumsy and old anymore but venerable and important, and the image of the bush as an ocean that had come to me earlier was part of it, the train like an old vessel plowing this ocean. It stopped often and everywhere, not always at a station or a platform but in the middle of nowhere, in the yellowy bush, the spindly tree limbs stuck against the window, and the wall of foliage so close that the locomotive\'s racket echoed against it. There seemed no point in these stops, fifteen or twenty of them before <<noon|13>>, and several times the train hesitated, rolled backwards for half a minute, lurched, and then started up again. I was not dismayed. Like the slow speed, the sudden stops and reverses made the whole business odd and agreeable.',
+            '[< 12:00] My Other Life - Paul Theroux.epub (OPS/c02.xml) - before noon',
+            'I had never been in a train that moved so slowly. It made the trip especially strange, this ponderous movement. After three hours the train seemed not clumsy and old anymore but venerable and important, and the image of the bush as an ocean that had come to me earlier was part of it, the train like an old vessel plowing this ocean. It stopped often and everywhere, not always at a station or a platform but in the middle of nowhere, in the yellowy bush, the spindly tree limbs stuck against the window, and the wall of foliage so close that the locomotive\'s racket echoed against it. There seemed no point in these stops, fifteen or twenty of them <<before noon|13>>, and several times the train hesitated, rolled backwards for half a minute, lurched, and then started up again. I was not dismayed. Like the slow speed, the sudden stops and reverses made the whole business odd and agreeable.',
           ],
           [
             1,
@@ -81,8 +81,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 11:00] My Other Life - Paul Theroux.epub (OPS/c02.xml) - until eleven',
-            'That was not the end of it. I stayed two more hours, <<until eleven|9:1>> or so, which was after lights out in the convent. She ate some of her food. I chewed on its tastelessness and found it hard to swallow, because of my mood. The bed creaked and so I lay very still beside Birdie, without touching her, and we talked in whispers about ourselves.',
+            '[ap 11:00] My Other Life - Paul Theroux.epub (OPS/c02.xml) - eleven',
+            'That was not the end of it. I stayed two more hours, until <<eleven|9:1>> or so, which was after lights out in the convent. She ate some of her food. I chewed on its tastelessness and found it hard to swallow, because of my mood. The bed creaked and so I lay very still beside Birdie, without touching her, and we talked in whispers about ourselves.',
           ],
           [
             1,
@@ -277,13 +277,6 @@ and welcomed me. A plastic nameplate gave his name as R. G. Pillai.',
             '"I\'ve just flown all night."
 "Check-out time is <<noon|13>>. Maybe then."
 Interrupting me in my protest, he said, "Take breakfast in lounge."',
-          ],
-          [
-            1,
-            '[ap 09:01] My Other Life - Paul Theroux.epub (OPS/c17.xml) - Nine one',
-            '"Area code?"
-"<<Nine one|5l:0>> four."
-"Does he work in New York City?"',
           ],
           [
             1,

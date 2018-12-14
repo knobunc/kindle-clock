@@ -11,8 +11,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 10:00] Humans - Robert J. Sawyer.epub (OEBPS/Text/Chapter_21.html) - until ten',
-            'Ambassador Tukana Prat strode out onto the large semicircular stage at the front of the General Assembly hall. She was followed by one Neanderthal, then another, then another, and another still, more and more, <<until ten|9:0>> members of her race had lined up behind her. She stepped to the podium, and leaned into the microphone.',
+            '[ap 10:00] Humans - Robert J. Sawyer.epub (OEBPS/Text/Chapter_21.html) - ten',
+            'Ambassador Tukana Prat strode out onto the large semicircular stage at the front of the General Assembly hall. She was followed by one Neanderthal, then another, then another, and another still, more and more, until <<ten|9:0>> members of her race had lined up behind her. She stepped to the podium, and leaned into the microphone.',
           ],
           [
             1,
@@ -67,10 +67,5 @@ $VAR1 = [
             1,
             '[ap 04:07] Humans - Robert J. Sawyer.epub (OEBPS/Text/Chapter_38.html) - Four-oh-Seven',
             "\x{201c}All right,\x{201d} said Hak, after a time. \x{201c}Here\x{2019}s where we have to cross over that roadway, the <<Four-oh-Seven|9j>>. Head left, and make your way over that bridge, there. Be careful you aren\x{2019}t hit by a car.\x{201d}",
-          ],
-          [
-            1,
-            '[ap 00:59] Humans - Robert J. Sawyer.epub (OEBPS/Text/Chapter_40.html) - one-to-one',
-            "\x{201c}So,\x{201d} continued Louise, \x{201c}what I\x{2019}ve done is pair up the reversals that do match\x{2014}that is, the ones that both they and we have evidence for. As you can see, although their record has many holes in it, there\x{2019}s a <<one-to-one|10a:0>> correspondence almost all the way to the present.\x{201d}",
           ],
         ];

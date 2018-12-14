@@ -36,8 +36,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[00:00] When Life Gives You Lululemons - Lauren Weisberger.epub (ops/xhtml/ch03.html) - midnight',
-            "\x{201c}Lina? Where did you say you\x{2019}re calling from?\x{201d} he asked groggily. Leave it to Trip to be asleep before <<midnight|13>>.",
+            '[< 00:00] When Life Gives You Lululemons - Lauren Weisberger.epub (ops/xhtml/ch03.html) - before midnight',
+            "\x{201c}Lina? Where did you say you\x{2019}re calling from?\x{201d} he asked groggily. Leave it to Trip to be asleep <<before midnight|13>>.",
           ],
           [
             1,
@@ -245,11 +245,6 @@ Karolina reached over to take Emily\x{2019}s glass and put it in the sink, but E
             1,
             '[ap 08:00] When Life Gives You Lululemons - Lauren Weisberger.epub (ops/xhtml/ch25.html) - eight',
             "\x{201c}Of course I\x{2019}m not canceling! We\x{2019}ll meet at the train station at <<eight|9c:1>>, right?\x{201d} Emily needed to bring Maisie with her; nothing would unsettle Miranda more than dragging a child into the office. She was hoping it would make Miranda more susceptible to manipulation.",
-          ],
-          [
-            1,
-            '[ap 01:02] When Life Gives You Lululemons - Lauren Weisberger.epub (ops/xhtml/ch27.html) - one-two',
-            "\x{201c}Oh, I had already confronted Graham on that. So maybe it was the <<one-two|5l:0>> punch that got him to do this.\x{201d}",
           ],
           [
             1,

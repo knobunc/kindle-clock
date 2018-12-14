@@ -11,9 +11,9 @@ $VAR1 = [
           ],
           [
             1,
-            '[20:00] The Return of the King - J. R. R. Tolkien.epub (OEBPS/ReturnoftheKin_appe-1_split_000.html) - until 2000',
+            '[20:00] The Return of the King - J. R. R. Tolkien.epub (OEBPS/ReturnoftheKin_appe-1_split_000.html) - 2000',
             "It was thus in the reign of King E\x{e4}rnil, as later became clear, that the Witch-king escaping from the North came to Mordor,
-   and there gathered the other Ringwraiths, of whom he was the chief. But it was not <<until 2000|18:0>> that they issued from Mordor
+   and there gathered the other Ringwraiths, of whom he was the chief. But it was not until <<2000|18:0>> that they issued from Mordor
    by the Pass of Cirith Ungol and laid siege to Minas Ithil. This they took in 2002, and captured the palant\x{ed}r of the tower. They were not expelled while the Third Age lasted; and Minas Ithil became a place of fear, and was renamed
    Minas Morgul. Many of the people that still remained in Ithilien deserted it.",
           ],
@@ -166,10 +166,10 @@ $VAR1 = [
           ],
           [
             1,
-            '[12:00] The Return of the King - J. R. R. Tolkien.epub (OEBPS/ReturnoftheKin_chap-1.html) - noon',
+            '[< 12:00] The Return of the King - J. R. R. Tolkien.epub (OEBPS/ReturnoftheKin_chap-1.html) - before noon',
             "\x{2018}That is the road to the vales of Tumladen and Lossarnach, and the mountain-villages, and then on to Lebennin,\x{2019} said Beregond.
    \x{2018}There go the last of the wains that bear away to refuge the aged, the children, and the women that must go with them. They
-   must all be gone from the Gate and the road clear for a league before <<noon|13>>: that was the order. It is a sad necessity.\x{2019} He
+   must all be gone from the Gate and the road clear for a league <<before noon|13>>: that was the order. It is a sad necessity.\x{2019} He
    sighed. \x{2018}Few, maybe, of those now sundered will meet again. And there were always too few children 
    in this city; but now there are none \x{2013} save some young lads that will not depart, and may find some task to do: my own son
    is one of them.\x{2019}",

@@ -26,8 +26,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[12:00] Trent\'s Last Case - E. C. Bentley.epub (OPS/html/ch003.html) - until midday',
-            "Trent nodded, and after a few more paces looked at his watch. \x{2018}You\x{2019}ve interested me so much,\x{2019} he said, \x{2018}that I had quite forgotten my main business. I mustn\x{2019}t waste my morning. I am going down the road to White Gables at once, and I dare say I shall be poking about there <<until midday|9b>>. If you can meet me then, Cupples, I should like to talk over anything I find out with you, unless something detains me.\x{2019}",
+            '[12:00] Trent\'s Last Case - E. C. Bentley.epub (OPS/html/ch003.html) - midday',
+            "Trent nodded, and after a few more paces looked at his watch. \x{2018}You\x{2019}ve interested me so much,\x{2019} he said, \x{2018}that I had quite forgotten my main business. I mustn\x{2019}t waste my morning. I am going down the road to White Gables at once, and I dare say I shall be poking about there until <<midday|13>>. If you can meet me then, Cupples, I should like to talk over anything I find out with you, unless something detains me.\x{2019}",
           ],
           [
             1,
@@ -187,8 +187,8 @@ So much I took as either certain or next door to it. It was as far as I could se
           ],
           [
             1,
-            '[00:00] Trent\'s Last Case - E. C. Bentley.epub (OPS/html/ch011.html) - midnight',
-            "I had, however, a pretty good idea already\x{2014}as perhaps the reader of these lines has by this time, if I have made myself clear\x{2014}of how the escape of the false Manderson before <<midnight|13>> had been contrived. But I did not want what I was now about to do to be known. If I had chanced to be discovered at work, there would have been no concealing the direction of my suspicions. I resolved not to test them on this point until the next day, during the opening proceedings at the inquest. This was to be held, I knew, at the hotel, and I reckoned upon having White Gables to myself so far as the principal inmates were concerned.",
+            '[< 00:00] Trent\'s Last Case - E. C. Bentley.epub (OPS/html/ch011.html) - before midnight',
+            "I had, however, a pretty good idea already\x{2014}as perhaps the reader of these lines has by this time, if I have made myself clear\x{2014}of how the escape of the false Manderson <<before midnight|13>> had been contrived. But I did not want what I was now about to do to be known. If I had chanced to be discovered at work, there would have been no concealing the direction of my suspicions. I resolved not to test them on this point until the next day, during the opening proceedings at the inquest. This was to be held, I knew, at the hotel, and I reckoned upon having White Gables to myself so far as the principal inmates were concerned.",
           ],
           [
             1,

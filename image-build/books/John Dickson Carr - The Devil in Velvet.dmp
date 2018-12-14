@@ -36,8 +36,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[12:00] The Devil in Velvet - John Dickson Carr.epub (OEBPS/Untitled-1-16.xhtml) - noon',
-            'Since by some (to him) miracle, Big Tom had repaired the shattered bedroom door before <<noon|13>>, he hastened up for last instructions.',
+            '[< 12:00] The Devil in Velvet - John Dickson Carr.epub (OEBPS/Untitled-1-16.xhtml) - before noon',
+            'Since by some (to him) miracle, Big Tom had repaired the shattered bedroom door <<before noon|13>>, he hastened up for last instructions.',
           ],
           [
             1,
@@ -96,8 +96,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[00:00] The Devil in Velvet - John Dickson Carr.epub (OEBPS/Untitled-1-20.xhtml) - midnight',
-            "\x{201c}Then keep good watch. Inform my lady that I must go from the house, on a matter of import, but that I shall return before <<midnight|13>>.\x{201d}",
+            '[< 00:00] The Devil in Velvet - John Dickson Carr.epub (OEBPS/Untitled-1-20.xhtml) - before midnight',
+            "\x{201c}Then keep good watch. Inform my lady that I must go from the house, on a matter of import, but that I shall return <<before midnight|13>>.\x{201d}",
           ],
           [
             1,
@@ -156,6 +156,11 @@ ON FENTON\x{2019}S TABLE there was a great trencher of food and a bottle of wine
             1,
             '[ap > 08:30] The Devil in Velvet - John Dickson Carr.epub (OEBPS/Untitled-1-26.xhtml) - after half-past eight of the clock',
             "\x{201c}Now do you recollect it! You came to your bedchamber close <<after half-past eight of the clock|10>>. Or say by your watch, which you put down on the dressing table. Of late you had grown accustomed to take a good deal of claret at supper; and you kept a decanter of claret, with goblet, on your dressing table. Now speak! Was that decanter full to the stopper, or no?\x{201d}",
+          ],
+          [
+            1,
+            '[ap 09:00] The Devil in Velvet - John Dickson Carr.epub (OEBPS/Untitled-1-26.xhtml) - nine',
+            "\x{201c}The time was short, so very brief! You were in Lydia\x{2019}s bedchamber but two minutes, entering shortly beyond twenty minutes towards the hour of <<nine|20>>. Now ask of yourself but what a cunning magistrate would ask!\x{201d}",
           ],
           [
             1,

@@ -16,15 +16,15 @@ $VAR1 = [
           ],
           [
             1,
-            '[12:00] The Wonderful O - James Thurber.epub (OEBPS/xhtml/12_Chapter_7.xhtml) - noon',
+            '[< 10:00] The Wonderful O - James Thurber.epub (OEBPS/xhtml/12_Chapter_7.xhtml) - two hours of noon',
             "\x{201c}How goes the day?\x{201d} cried Black.
-\x{201c}It lacks two hours of <<noon|13>>,\x{201d} said Littlejack.
+\x{201c}It lacks <<two hours of noon|10>>,\x{201d} said Littlejack.
 \x{201c}I hate the sound of <<noon|13>>,\x{201d} said Black. \x{201c}I know not why.\x{201d}",
           ],
           [
             1,
-            '[12:00] The Wonderful O - James Thurber.epub (OEBPS/xhtml/12_Chapter_7.xhtml) - noon',
-            "\x{201c}It lacks two hours of <<noon|13>>,\x{201d} said Littlejack.
+            '[< 10:00] The Wonderful O - James Thurber.epub (OEBPS/xhtml/12_Chapter_7.xhtml) - two hours of noon',
+            "\x{201c}It lacks <<two hours of noon|10>>,\x{201d} said Littlejack.
 \x{201c}I hate the sound of <<noon|13>>,\x{201d} said Black. \x{201c}I know not why.\x{201d}
 \x{201c}Perhaps because it has two O\x{2019}s,\x{201d} said Stragg.",
           ],

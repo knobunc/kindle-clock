@@ -1,8 +1,8 @@
 $VAR1 = [
           [
             1,
-            '[00:00] Night Lamp - Jack Vance.epub (text/part0009.html) - midnight',
-            'An hour before <<midnight|13>> a group of students leaving a late lecture discovered Jaro in the forecourt of the Lyceum, where he had  21 been lashed upright to the stanchion of a yardlight. A placard hung from his neck. It read:',
+            '[< 23:00] Night Lamp - Jack Vance.epub (text/part0009.html) - An hour before midnight',
+            '<<An hour before midnight|10>> a group of students leaving a late lecture discovered Jaro in the forecourt of the Lyceum, where he had  21 been lashed upright to the stanchion of a yardlight. A placard hung from his neck. It read:',
           ],
           [
             1,
@@ -42,17 +42,17 @@ $VAR1 = [
           [
             1,
             '[12:00] Night Lamp - Jack Vance.epub (text/part0015.html) - noon',
-            "\x{201c}I see. But since I can\x{2019}t deal with Lumilar Vistas, it will have to be Gilfong Rute himself. If he will appear at Merriehew tomorrow at <<noon|9b>>, I will listen to his offer.\x{201d}",
+            "\x{201c}I see. But since I can\x{2019}t deal with Lumilar Vistas, it will have to be Gilfong Rute himself. If he will appear at Merriehew tomorrow at <<noon|13>>, I will listen to his offer.\x{201d}",
           ],
           [
             1,
             '[12:00] Night Lamp - Jack Vance.epub (text/part0015.html) - noon',
-            "\x{201c}No matter. Is Gilfong Rute at hand? If so, ask him if he cares to come here tomorrow at <<noon|9b>>. It is the only way we will deal with him.\x{201d}",
+            "\x{201c}No matter. Is Gilfong Rute at hand? If so, ask him if he cares to come here tomorrow at <<noon|13>>. It is the only way we will deal with him.\x{201d}",
           ],
           [
             1,
             '[12:00] Night Lamp - Jack Vance.epub (text/part0015.html) - noon',
-            "\x{201c}Just a moment.\x{201d} The screen went silent. Three minutes passed. Silking reappeared on the screen, looking a trifle ruffled. \x{201c}He says that he will be there at <<noon|9b>>.\x{201d} Silking\x{2019}s mouth twitched in a small painful grin. \x{201c}He made some other comments, which would be pointless to transmit. Mr. Rute, I should warn you, is not kind to folk who try to take advantage of his bonhomie.\x{201d}",
+            "\x{201c}Just a moment.\x{201d} The screen went silent. Three minutes passed. Silking reappeared on the screen, looking a trifle ruffled. \x{201c}He says that he will be there at <<noon|13>>.\x{201d} Silking\x{2019}s mouth twitched in a small painful grin. \x{201c}He made some other comments, which would be pointless to transmit. Mr. Rute, I should warn you, is not kind to folk who try to take advantage of his bonhomie.\x{201d}",
           ],
           [
             1,
@@ -81,8 +81,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[> 12:00] Night Lamp - Jack Vance.epub (text/part0021.html) - after noon',
-            "\x{201c}The time is two hours <<after noon|9h>> tomorrow. The place is here at Carleone.\x{201d}",
+            '[> 14:00] Night Lamp - Jack Vance.epub (text/part0021.html) - two hours after noon',
+            "\x{201c}The time is <<two hours after noon|10>> tomorrow. The place is here at Carleone.\x{201d}",
           ],
           [
             1,

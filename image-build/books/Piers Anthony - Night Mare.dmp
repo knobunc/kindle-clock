@@ -66,8 +66,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[12:00] Night Mare - Piers Anthony.epub (Night_Mare_split_010.html) - until noon',
-            '"You surely need to rest and graze, Imbri," Bink said. "Go out and relax, but check on me every hour or so. The pseudonymphs aren\'t due to bring the Mundanes here <<until noon|9b>>. I think the Horseman will try to strike before then, for, he surely knows these spells of Humfrey\'s are dangerous to his allies, the Mundanes. If I have miscalculated in any way, I\'ll need you to carry the message to Castle Roogna."',
+            '[12:00] Night Mare - Piers Anthony.epub (Night_Mare_split_010.html) - noon',
+            '"You surely need to rest and graze, Imbri," Bink said. "Go out and relax, but check on me every hour or so. The pseudonymphs aren\'t due to bring the Mundanes here until <<noon|13>>. I think the Horseman will try to strike before then, for, he surely knows these spells of Humfrey\'s are dangerous to his allies, the Mundanes. If I have miscalculated in any way, I\'ll need you to carry the message to Castle Roogna."',
           ],
           [
             1,
@@ -83,10 +83,5 @@ $VAR1 = [
             1,
             '[< 00:00] Night Mare - Piers Anthony.epub (Night_Mare_split_011.html) - near midnight',
             'She arrived at Castle Roogna <<near midnight|13>>. Some of the people were awake, some asleep. It made no practical difference; she broadcast her glad dream to all. "The Kings are all in the gourd! They are well! They send their love!"',
-          ],
-          [
-            1,
-            '[ap 00:50] Night Mare - Piers Anthony.epub (Night_Mare_split_011.html) - ten to one',
-            'But once committed to this course of battle on the field, the Punics were as stubborn as the centaurs. They maintained their phalanx, stepping over their fallen comrades, and closed on the centaurs. More of them fell, of course, but the rest pressed on. By this time the centaurs\' arrows were running out. It was coming to sword conflict--and the Mundanes still outnumbered the centaurs <<ten to one|10a:0>>.',
           ],
         ];

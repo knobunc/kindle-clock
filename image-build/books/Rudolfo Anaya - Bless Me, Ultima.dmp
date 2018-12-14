@@ -31,7 +31,7 @@ $VAR1 = [
           ],
           [
             1,
-            '[12:00] Bless Me, Ultima - Rudolfo Anaya.epub (OEBPS/chapter015.html) - noon',
-            "\x{201c}I have to go out again,\x{201d} my father answered without taking his eyes off my brothers, \x{201c}the wind has cut the tie-wire of the windmill. If I don\x{2019}t tie it down the wind will tear down the crazy thing before <<noon|13>>\x{2014}\x{201d}",
+            '[< 12:00] Bless Me, Ultima - Rudolfo Anaya.epub (OEBPS/chapter015.html) - before noon',
+            "\x{201c}I have to go out again,\x{201d} my father answered without taking his eyes off my brothers, \x{201c}the wind has cut the tie-wire of the windmill. If I don\x{2019}t tie it down the wind will tear down the crazy thing <<before noon|13>>\x{2014}\x{201d}",
           ],
         ];

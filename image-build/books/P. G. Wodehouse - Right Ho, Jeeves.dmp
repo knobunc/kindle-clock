@@ -51,8 +51,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[12:00] Right Ho, Jeeves - P. G. Wodehouse.epub (PG Wodehouse - Right Ho, Jeeves_split_001.htm) - midday',
-            'With regard to Gussie, everything was in train. Jeeves\'s morbid scruples about lacing the chap\'s orange juice had put me to a good deal of trouble, but I had surmounted every obstacle in the old Wooster way. I had secured an abundance of the necessary spirit, and it was now lying in its flask in the drawer of the dressing-table. I had also ascertained that the jug, duly filled, would be standing on a shelf in the butler\'s pantry round about the hour of one. To remove it from that shelf, sneak it up to my room, and return it, laced, in good time for the <<midday|13>> meal would be a task calling, no doubt, for address, but in no sense an exacting one.',
+            '[ap 01:00] Right Ho, Jeeves - P. G. Wodehouse.epub (PG Wodehouse - Right Ho, Jeeves_split_001.htm) - one',
+            'With regard to Gussie, everything was in train. Jeeves\'s morbid scruples about lacing the chap\'s orange juice had put me to a good deal of trouble, but I had surmounted every obstacle in the old Wooster way. I had secured an abundance of the necessary spirit, and it was now lying in its flask in the drawer of the dressing-table. I had also ascertained that the jug, duly filled, would be standing on a shelf in the butler\'s pantry round about the hour of <<one|20>>. To remove it from that shelf, sneak it up to my room, and return it, laced, in good time for the <<midday|13>> meal would be a task calling, no doubt, for address, but in no sense an exacting one.',
           ],
           [
             1,
@@ -62,7 +62,7 @@ $VAR1 = [
           [
             1,
             '[ap 03:30] Right Ho, Jeeves - P. G. Wodehouse.epub (PG Wodehouse - Right Ho, Jeeves_split_001.htm) - 3.30',
-            'This, coming on top of their other troubles, induced in the company a pretty unanimous silence--a solemn stillness, as you might say--which even Gussie did not seem prepared to break. Except, therefore, for one short snatch of song on his part, nothing untoward marked the occasion, and presently we rose, with instructions from Aunt Dahlia to put on festal raiment and be at Market Snodsbury not later than <<3.30|5a:1>>. This leaving me ample time to smoke a gasper or two in a shady bower beside the lake, I did so, repairing to my room round about the hour of three.',
+            'This, coming on top of their other troubles, induced in the company a pretty unanimous silence--a solemn stillness, as you might say--which even Gussie did not seem prepared to break. Except, therefore, for one short snatch of song on his part, nothing untoward marked the occasion, and presently we rose, with instructions from Aunt Dahlia to put on festal raiment and be at Market Snodsbury not later than <<3.30|5a:1>>. This leaving me ample time to smoke a gasper or two in a shady bower beside the lake, I did so, repairing to my room round about the hour of <<three|20>>.',
           ],
           [
             1,
@@ -88,15 +88,15 @@ $VAR1 = [
           ],
           [
             1,
-            '[00:00] Right Ho, Jeeves - P. G. Wodehouse.epub (PG Wodehouse - Right Ho, Jeeves_split_001.htm) - midnight',
+            '[< 00:00] Right Ho, Jeeves - P. G. Wodehouse.epub (PG Wodehouse - Right Ho, Jeeves_split_001.htm) - before midnight',
             '"Of course, yes. Well, it sounds all right," I said, though still a bit doubtfully. "Quite possibly it may come off. But I have a feeling that it will slip up somewhere. However, I am in no position to cavil at even a 100 to 1 shot. I will adopt this policy of yours, Jeeves, though, as I say, with misgivings. At what hour would you suggest bonging the bell?"
-"Not before <<midnight|13>>, sir."
+"Not <<before midnight|13>>, sir."
 "That is to say, some time <<after midnight|13>>."',
           ],
           [
             1,
-            '[00:00] Right Ho, Jeeves - P. G. Wodehouse.epub (PG Wodehouse - Right Ho, Jeeves_split_001.htm) - midnight',
-            '"Not before <<midnight|13>>, sir."
+            '[< 00:00] Right Ho, Jeeves - P. G. Wodehouse.epub (PG Wodehouse - Right Ho, Jeeves_split_001.htm) - before midnight',
+            '"Not <<before midnight|13>>, sir."
 "That is to say, some time <<after midnight|13>>."
 "Yes, sir."',
           ],

@@ -106,8 +106,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 05:00] H.M.S. \'Surprise\' - Patrick O\'Brian.epub (H_M_S_Surprise_split_005.html) - until five',
-            'The rest of the morning, <<until five|9:1>> bells in the forenoon watch, he spent with the midshipmen, then with the bosun, gunner, carpenter and purser, going over their accounts: stores were well enough: plenty of beef, pork, peas and biscuit for six months, but all the cheese and butter had to be condemned - hardened as he was, Jack recoiled from the samples Mr Bowes showed him - and worse, far worse, the water was dangerously short. Some vile jobbery in the cooperage had provided the Surprise with a ground-tier of casks that drank almost as much as the ship\'s company, and the new-fangled iron tank had silently leaked its heart out. He was still deep in paper when Killick came in, carrying his best uniform coat, and jerked his chin at him.',
+            '[ap 05:00] H.M.S. \'Surprise\' - Patrick O\'Brian.epub (H_M_S_Surprise_split_005.html) - five',
+            'The rest of the morning, until <<five|9:1>> bells in the forenoon watch, he spent with the midshipmen, then with the bosun, gunner, carpenter and purser, going over their accounts: stores were well enough: plenty of beef, pork, peas and biscuit for six months, but all the cheese and butter had to be condemned - hardened as he was, Jack recoiled from the samples Mr Bowes showed him - and worse, far worse, the water was dangerously short. Some vile jobbery in the cooperage had provided the Surprise with a ground-tier of casks that drank almost as much as the ship\'s company, and the new-fangled iron tank had silently leaked its heart out. He was still deep in paper when Killick came in, carrying his best uniform coat, and jerked his chin at him.',
           ],
           [
             1,
@@ -141,8 +141,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[12:00] H.M.S. \'Surprise\' - Patrick O\'Brian.epub (H_M_S_Surprise_split_006.html) - noon',
-            '\'Certainly you look less like a burnt-offering than you did yesterday,\' said Jack, peering affectionately into his face. \'Your eyes are almost human. But,\' he said, feeling that this was not perfectly civil, \'they will behold a charming sight on deck - we have picked up the south-east trade at last! It is coming more southerly than I could wish, but I believe we shall weather Cape St Roque. At all events we shall cross the line before <<noon|13>> - we have been making seven and eight knots since the beginning of the middle watch. Another cup? Tell me, Stephen, what did you drink on that infernal rock?\'',
+            '[< 12:00] H.M.S. \'Surprise\' - Patrick O\'Brian.epub (H_M_S_Surprise_split_006.html) - before noon',
+            '\'Certainly you look less like a burnt-offering than you did yesterday,\' said Jack, peering affectionately into his face. \'Your eyes are almost human. But,\' he said, feeling that this was not perfectly civil, \'they will behold a charming sight on deck - we have picked up the south-east trade at last! It is coming more southerly than I could wish, but I believe we shall weather Cape St Roque. At all events we shall cross the line <<before noon|13>> - we have been making seven and eight knots since the beginning of the middle watch. Another cup? Tell me, Stephen, what did you drink on that infernal rock?\'',
           ],
           [
             1,
@@ -220,17 +220,5 @@ Day after day the figure of the <<noon|13>> altitude rose:
             1,
             '[12:00] H.M.S. \'Surprise\' - Patrick O\'Brian.epub (H_M_S_Surprise_split_011.html) - noon-day',
             'The boat pulled through a gap in the coral reef to a strand with mangroves on the left and a palm-capped headland to the right; a strand upon which Jack had set up his instruments and where he and his officers were gazing at the pale moon, with Venus clear above her, like a band of <<noon-day|13>> necromancers.',
-          ],
-          [
-            1,
-            '[ap 02:07] H.M.S. \'Surprise\' - Patrick O\'Brian.epub (H_M_S_Surprise_split_011.html) - Two seven',
-            '\'<<Two seven|5l:1>> four,\' he said, straightening his back at last. \'Mr Stourton, what do you find?\'',
-          ],
-          [
-            1,
-            '[ap 02:07] H.M.S. \'Surprise\' - Patrick O\'Brian.epub (H_M_S_Surprise_split_011.html) - Two seven',
-            '\'<<Two seven|5l:1>> four,\' he said, straightening his back at last. \'Mr Stourton, what do you find?\'
-\'<<Two seven|5l:1>> four, sir, exactly.\'
-\'The most satisfactory observation I - have ever made,\' said Jack. He clapped the eyepiece to and cast an affectionate glance at Venus, sailing away up there, distinct in the perfect blue once one knew where to look. \'Now we can stow all this gear and go aboard.\'',
           ],
         ];

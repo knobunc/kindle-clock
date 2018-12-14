@@ -12,7 +12,7 @@ $VAR1 = [
           [
             1,
             '[ap 10:30] The Illustrated Man - Ray Bradbury.epub (OEBPS/part11.xhtml) - ten-thirty',
-            'They sat and read the papers and talked and listened to some radio music and then sat together by the fireplace watching the charcoal embers as the clock struck <<ten-thirty|11>> and eleven and <<eleven-thirty|5k:1>>. They thought of all the other people in the world who had spent their evening, each in his own special way.',
+            'They sat and read the papers and talked and listened to some radio music and then sat together by the fireplace watching the charcoal embers as the clock struck <<ten-thirty|11>> and <<eleven|20a>> and <<eleven-thirty|20a>>. They thought of all the other people in the world who had spent their evening, each in his own special way.',
           ],
           [
             1,
@@ -51,8 +51,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 00:00] The Illustrated Man - Ray Bradbury.epub (OEBPS/part14.xhtml) - twelve',
-            'They came down the Official Palace steps together, arm in arm, their faces pale, at <<twelve|9:1>> <<noon|13>>.',
+            '[12:00] The Illustrated Man - Ray Bradbury.epub (OEBPS/part14.xhtml) - twelve noon',
+            'They came down the Official Palace steps together, arm in arm, their faces pale, at <<twelve noon|13>>.',
           ],
           [
             1,
@@ -111,7 +111,7 @@ The band played \x{201c}Oh, You Golden State\x{201d} three times.",
           [
             1,
             '[ap 02:30] The Illustrated Man - Ray Bradbury.epub (OEBPS/part16.xhtml) - two-thirty',
-            "At <<two-thirty|5b>> and ten seconds the band played \x{201c}How Do You Do, Everybody,\x{201d} to cover up the confusion caused by Miss America\x{2019}s suggestion.",
+            "At <<two-thirty|5b>> and <<ten|20a>> seconds the band played \x{201c}How Do You Do, Everybody,\x{201d} to cover up the confusion caused by Miss America\x{2019}s suggestion.",
           ],
           [
             1,

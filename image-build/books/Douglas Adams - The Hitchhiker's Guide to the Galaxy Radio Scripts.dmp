@@ -11,8 +11,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 00:58] The Hitchhiker\'s Guide to the Galaxy Radio - Douglas Adams.epub (OEBPS/Text/Adam_9780307498465_epub_c09_r1.htm) - two to one',
-            "\x{201c}Probability. You know, like <<two to one|10a:0>>, <<three to one|10a:0>>, five to four against. It said <<two|11b:0>> to the power of one hundred thousand to one against. That\x{2019}s pretty improbable, you know.\x{201d}",
+            '[ap 02:00] The Hitchhiker\'s Guide to the Galaxy Radio - Douglas Adams.epub (OEBPS/Text/Adam_9780307498465_epub_c09_r1.htm) - two',
+            "\x{201c}Probability. You know, like two to one, three to one, five to four against. It said <<two|11b:0>> to the power of one hundred thousand to one against. That\x{2019}s pretty improbable, you know.\x{201d}",
           ],
           [
             1,
@@ -32,17 +32,17 @@ $VAR1 = [
           [
             1,
             "[ap 01:32] The Hitchhiker's Guide to the Galaxy Radio - Douglas Adams.epub (OEBPS/Text/Adam_9780307498465_epub_c113_r1.htm) - one\x{a0}\x{2026}\x{a0}thirty-two",
-            "At the third stroke it will be <<one\x{a0}\x{2026}\x{a0}thirty-two|5k:0>>\x{a0}\x{2026}\x{a0}and twenty seconds.\x{201d}",
+            "At the third stroke it will be <<one\x{a0}\x{2026}\x{a0}thirty-two|5b>>\x{a0}\x{2026}\x{a0}and twenty seconds.\x{201d}",
           ],
           [
             1,
             "[ap 01:32] The Hitchhiker's Guide to the Galaxy Radio - Douglas Adams.epub (OEBPS/Text/Adam_9780307498465_epub_c113_r1.htm) - one\x{a0}\x{2026}\x{a0}thirty-two",
-            "\x{201c}At the third stroke it will be <<one\x{a0}\x{2026}\x{a0}thirty-two|5k:0>>\x{a0}\x{2026}\x{a0}and thirty seconds.\x{201d}",
+            "\x{201c}At the third stroke it will be <<one\x{a0}\x{2026}\x{a0}thirty-two|5b>>\x{a0}\x{2026}\x{a0}and thirty seconds.\x{201d}",
           ],
           [
             1,
             "[ap 01:32] The Hitchhiker's Guide to the Galaxy Radio - Douglas Adams.epub (OEBPS/Text/Adam_9780307498465_epub_c113_r1.htm) - one\x{a0}\x{2026}\x{a0}thirty-two",
-            "\x{201c}At the third stroke it will be <<one\x{a0}\x{2026}\x{a0}thirty-two|5k:0>>\x{a0}\x{2026}\x{a0}and forty seconds.\x{201d}",
+            "\x{201c}At the third stroke it will be <<one\x{a0}\x{2026}\x{a0}thirty-two|5b>>\x{a0}\x{2026}\x{a0}and forty seconds.\x{201d}",
           ],
           [
             1,
@@ -62,7 +62,7 @@ Very nice.",
             1,
             "[ap 01:34] The Hitchhiker's Guide to the Galaxy Radio - Douglas Adams.epub (OEBPS/Text/Adam_9780307498465_epub_c113_r1.htm) - one\x{a0}\x{2026}\x{a0}thirty-four",
             "He then went and had a last thorough examination of the emergency suspended animation chamber, which was where he particularly wanted it to be heard.
-\x{201c}At the third stroke it will be <<one\x{a0}\x{2026}\x{a0}thirty-four|5k:1>>\x{a0}\x{2026}\x{a0}precisely.\x{201d}
+\x{201c}At the third stroke it will be <<one\x{a0}\x{2026}\x{a0}thirty-four|5b>>\x{a0}\x{2026}\x{a0}precisely.\x{201d}
 He shivered as he peered down through the heavily frosted covering at the dim bulk of the form within. One day, who knew when, it would wake, and when it did, it would know what time it was. Not exactly local time, true, but what the heck.",
           ],
           [
@@ -83,7 +83,7 @@ His original plan had been to close down all external signaling and radiation fr
             1,
             "[ap 02:13] The Hitchhiker's Guide to the Galaxy Radio - Douglas Adams.epub (OEBPS/Text/Adam_9780307498465_epub_c113_r1.htm) - two\x{a0}\x{2026}\x{a0}thirteen",
             "As his tiny little cigar tube of an escape craft zipped out on the beginning of its three-day journey to the orbiting space station Port Sesefron, it rode for a few seconds a long pencil-thin beam of radiation that was starting out on a longer journey still.
-\x{201c}At the third stroke, it will be <<two\x{a0}\x{2026}\x{a0}thirteen|5k:0>>\x{a0}\x{2026}\x{a0}and fifty seconds.\x{201d}
+\x{201c}At the third stroke, it will be <<two\x{a0}\x{2026}\x{a0}thirteen|5b>>\x{a0}\x{2026}\x{a0}and fifty seconds.\x{201d}
 He giggled and sniggered. He would have laughed out loud but he didn\x{2019}t have room.",
           ],
           [
@@ -93,18 +93,8 @@ He giggled and sniggered. He would have laughed out loud but he didn\x{2019}t ha
           ],
           [
             1,
-            '[ap 00:57] The Hitchhiker\'s Guide to the Galaxy Radio - Douglas Adams.epub (OEBPS/Text/Adam_9780307498465_epub_c11_r1.htm) - three to one',
-            "\x{201c}Five to one against and falling \x{2026}\x{201d} she said, \x{201c}four to one against and falling\x{a0}\x{2026}\x{a0}<<three to one|10a:0>>\x{a0}\x{2026}\x{a0}<<two\x{a0}\x{2026}\x{a0}one|5l:0>>\x{a0}\x{2026}\x{a0}probability factor of one to one\x{a0}\x{2026}\x{a0}we have normality, I repeat we have normality.\x{201d} She turned her microphone off-then turned it back on\x{2014}with a slight smile and continued: \x{201c}Anything you still can\x{2019}t cope with is therefore your own problem. Please relax. You will be sent for soon.\x{201d}",
-          ],
-          [
-            1,
             '[ap > 06:00] The Hitchhiker\'s Guide to the Galaxy Radio - Douglas Adams.epub (OEBPS/Text/Adam_9780307498465_epub_c121_r1.htm) - Just after six',
             "<<Just after six|10>> he returned to Fenchurch\x{2019}s house in the alleyway, clutching a bottle of champagne.",
-          ],
-          [
-            1,
-            '[ap 01:01] The Hitchhiker\'s Guide to the Galaxy Radio - Douglas Adams.epub (OEBPS/Text/Adam_9780307498465_epub_c124_r1.htm) - one one',
-            "Not that Fire Dragons weren\x{2019}t an essentially peace-loving species, because they were. They adored it to bits, and this wholesale adoring of things to bits was often in itself the problem: one so often hurts the <<one one|5l:0>> loves, especially if one is a Fuolornis Fire Dragon with breath like a rocket booster and teeth like a park fence. Another problem was that once they were in the mood they often went on to hurt quite a lot of the ones that other people loved as well. Add to all that the relatively small number of madmen who actually went around the place heaving bricks, and you end up with a lot of people on Brequinda in the Foth of Avalars getting seriously hurt by dragons.",
           ],
           [
             1,
@@ -178,20 +168,15 @@ He giggled and sniggered. He would have laughed out loud but he didn\x{2019}t ha
           ],
           [
             1,
-            '[ap 09:42] The Hitchhiker\'s Guide to the Galaxy Radio - Douglas Adams.epub (OEBPS/Text/Adam_9780307498465_epub_c68_r1.htm) - nine. Forty-two',
+            '[ap 06:00] The Hitchhiker\'s Guide to the Galaxy Radio - Douglas Adams.epub (OEBPS/Text/Adam_9780307498465_epub_c68_r1.htm) - Six',
             "\x{201c}That\x{2019}s it.\x{201d}
-\x{201c}Six by <<nine. Forty-two|5b>>.\x{201d}
+\x{201c}<<Six|5g:0>> by nine. Forty-two.\x{201d}
 \x{201c}That\x{2019}s it. That\x{2019}s all there is.\x{201d}",
           ],
           [
             1,
             '[ap ~ 02:55] The Hitchhiker\'s Guide to the Galaxy Radio - Douglas Adams.epub (OEBPS/Text/Adam_9780307498465_epub_c70_r1.htm) - about 2:55',
             "In the end, it was the Sunday afternoons he couldn\x{2019}t cope with, and that terrible listlessness that starts to set in at <<about 2:55|2>>, when you know you\x{2019}ve taken all the baths you can usefully take that day, that however hard you stare at any given paragraph in the newspaper you will never actually read it, or use the revolutionary new pruning technique it describes, and that as you stare at the clock the hands will move relentlessly on to <<four o\x{2019}clock|6>>, and you will enter the long dark teatime of the soul.",
-          ],
-          [
-            1,
-            '[ap 04:04] The Hitchhiker\'s Guide to the Galaxy Radio - Douglas Adams.epub (OEBPS/Text/Adam_9780307498465_epub_c89_r1.htm) - four-four',
-            "There was a sound he couldn\x{2019}t immediately identify, partly because he didn\x{2019}t know the tune \x{201c}I Left My Leg in Jaglan Beta\x{201d} and partly because the band playing it was very tired, and some members of it were playing in three-four time, some in <<four-four|5l:0>>, and some in a kind of pie-eyed \x{3c0}r each according to the amount of sleep he\x{2019}d managed to grab recently.",
           ],
           [
             1,

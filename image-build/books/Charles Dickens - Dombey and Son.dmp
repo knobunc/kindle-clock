@@ -6,8 +6,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[12:00] Dombey and Son - Charles Dickens.epub (OEBPS/Text/chapter10.xhtml) - noon',
-            'He was overjoyed to purge the old man\'s hearth from bailiffs and brokers, and to hurry back to his Uncle with the good tidings. He was overjoyed to have it all arranged and settled next day before <<noon|13>>; and to sit down at evening in the little back parlour with old Sol and Captain Cuttle; and to see the Instrument-maker already reviving, and hopeful for the future, and feeling that the wooden Midshipman was his own again. But without the least impeachment of his gratitude to Mr Dombey, it must be confessed that Walter was humbled and cast down. It is when our budding hopes are nipped beyond recovery by some rough wind, that we are the most disposed to picture to ourselves what flowers they might have borne, if they had flourished; and now, when Walter found himself cut off from that great Dombey height, by the depth of a new and terrible tumble, and felt that all his old wild fancies had been scattered to the winds in the fall, he began to suspect that they might have led him on to harmless visions of aspiring to Florence in the remote distance of time.',
+            '[< 12:00] Dombey and Son - Charles Dickens.epub (OEBPS/Text/chapter10.xhtml) - before noon',
+            'He was overjoyed to purge the old man\'s hearth from bailiffs and brokers, and to hurry back to his Uncle with the good tidings. He was overjoyed to have it all arranged and settled next day <<before noon|13>>; and to sit down at evening in the little back parlour with old Sol and Captain Cuttle; and to see the Instrument-maker already reviving, and hopeful for the future, and feeling that the wooden Midshipman was his own again. But without the least impeachment of his gratitude to Mr Dombey, it must be confessed that Walter was humbled and cast down. It is when our budding hopes are nipped beyond recovery by some rough wind, that we are the most disposed to picture to ourselves what flowers they might have borne, if they had flourished; and now, when Walter found himself cut off from that great Dombey height, by the depth of a new and terrible tumble, and felt that all his old wild fancies had been scattered to the winds in the fall, he began to suspect that they might have led him on to harmless visions of aspiring to Florence in the remote distance of time.',
           ],
           [
             1,
@@ -18,6 +18,11 @@ $VAR1 = [
             1,
             '[12:00] Dombey and Son - Charles Dickens.epub (OEBPS/Text/chapter12.xhtml) - noon',
             'Oh Saturdays! Oh happy Saturdays, when Florence always came at <<noon|13>>, and never would, in any weather, stay away, though Mrs Pipchin snarled and growled, and worried her bitterly. Those Saturdays were Sabbaths for at least two little Christians among all the Jews, and did the holy Sabbath work of strengthening and knitting up a brother\'s and a sister\'s love.',
+          ],
+          [
+            1,
+            '[ap 10:00] Dombey and Son - Charles Dickens.epub (OEBPS/Text/chapter13.xhtml) - ten',
+            'Mr Dombey\'s offices were in a court where there was an old-established stall of choice fruit at the corner: where perambulating merchants, of both sexes, offered for sale at any time between the hours of <<ten|20>> and <<five|20a>>, slippers, pocket-books, sponges, dogs\' collars, and Windsor soap; and sometimes a pointer or an oil-painting.',
           ],
           [
             1,
@@ -180,6 +185,11 @@ $VAR1 = [
           ],
           [
             1,
+            '[ap 08:00] Dombey and Son - Charles Dickens.epub (OEBPS/Text/chapter39.xhtml) - eight',
+            'The Captain, well pleased to receive it, made preparation of pipes and rum and water, and awaited his visitor in the back parlour. At the hour of <<eight|20>>, a deep lowing, as of a nautical Bull, outside the shop-door, succeeded by the knocking of a stick on the panel, announced to the listening ear of Captain Cuttle, that Bunsby was alongside; whom he instantly admitted, shaggy and loose, and with his stolid mahogany visage, as usual, appearing to have no consciousness of anything before it, but to be attentively observing something that was taking place in quite another part of the world.',
+          ],
+          [
+            1,
             '[ap 05:30] Dombey and Son - Charles Dickens.epub (OEBPS/Text/chapter4.xhtml) - half-past five o\'clock',
             'It is <<half-past five o\'clock|10>>, and an autumn afternoon, when the reader and Solomon Gills become acquainted. Solomon Gills is in the act of seeing what time it is by the unimpeachable chronometer. The usual daily clearance has been making in the City for an hour or more; and the human tide is still rolling westward. \'The streets have thinned,\' as Mr Gills says, \'very much.\' It threatens to be wet to-night. All the weatherglasses in the shop are in low spirits, and the rain already shines upon the cocked hat of the wooden Midshipman.',
           ],
@@ -279,8 +289,8 @@ Florence could not read, or rest a moment. She paced her own room, opened the do
           ],
           [
             1,
-            '[00:00] Dombey and Son - Charles Dickens.epub (OEBPS/Text/chapter54.xhtml) - midnight',
-            'Tea-time, an hour short of <<midnight|13>>; the place, a French apartment, comprising some half-dozen rooms; - a dull cold hall or corridor, a dining-room, a drawing-room, a bed-room, and an inner drawingroom, or boudoir, smaller and more retired than the rest. All these shut in by one large pair of doors on the main staircase, but each room provided with two or three pairs of doors of its own, establishing several means of communication with the remaining portion of the apartment, or with certain small passages within the wall, leading, as is not unusual in such houses, to some back stairs with an obscure outlet below. The whole situated on the first floor of so large an Hotel, that it did not absorb one entire row of windows upon one side of the square court-yard in the centre, upon which the whole four sides of the mansion looked.',
+            '[< 23:00] Dombey and Son - Charles Dickens.epub (OEBPS/Text/chapter54.xhtml) - an hour short of midnight',
+            'Tea-time, <<an hour short of midnight|10>>; the place, a French apartment, comprising some half-dozen rooms; - a dull cold hall or corridor, a dining-room, a drawing-room, a bed-room, and an inner drawingroom, or boudoir, smaller and more retired than the rest. All these shut in by one large pair of doors on the main staircase, but each room provided with two or three pairs of doors of its own, establishing several means of communication with the remaining portion of the apartment, or with certain small passages within the wall, leading, as is not unusual in such houses, to some back stairs with an obscure outlet below. The whole situated on the first floor of so large an Hotel, that it did not absorb one entire row of windows upon one side of the square court-yard in the centre, upon which the whole four sides of the mansion looked.',
           ],
           [
             1,

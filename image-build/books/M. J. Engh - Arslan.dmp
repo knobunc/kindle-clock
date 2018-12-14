@@ -36,8 +36,13 @@ $VAR1 = [
           ],
           [
             1,
-            '[00:00] Arslan - M. J. Engh.epub (OPS/xhtml/chapter004.xhtml) - midnight',
-            "By now I was well used to Nizam\x{2019}s standard procedure. He accepted a sheaf of papers from me, shuffled it to the bottom of a stack and cleared his throat a little in preparation for English. He very seldom looked at me, except to deliver one of his venomous stares, and he didn\x{2019}t look at me now. \x{201c}You will extinguish the power plant before <<midnight|13>> twenty-four December,\x{201d} he said.",
+            '[ap < 05:00] Arslan - M. J. Engh.epub (OPS/xhtml/chapter004.xhtml) - one hour to six',
+            "I took care of the real work of planning in my own bedroom. When I needed information from the Turkistani side, I went to Nizam. At first that meant a wait of anywhere from <<one hour to six|10>> on Frieda Althrop\x{2019}s front porch, in full view of Pearl Street and the hardroad\x{2014}and if Nizam didn\x{2019}t have enough business on hand to keep me waiting that long, he would find some. As soon as that became clear, I quit waiting. If he wasn\x{2019}t ready to see me when I got there, or within a few minutes, I went away and came back exactly two hours later. The longest streak of such visits we ever worked up to was a day and a half, with time out for a night\x{2019}s sleep. After that, I never had to come back more than once, and those few occasions I was perfectly willing to put down to genuine business.",
+          ],
+          [
+            1,
+            '[< 00:00] Arslan - M. J. Engh.epub (OPS/xhtml/chapter004.xhtml) - before midnight',
+            "By now I was well used to Nizam\x{2019}s standard procedure. He accepted a sheaf of papers from me, shuffled it to the bottom of a stack and cleared his throat a little in preparation for English. He very seldom looked at me, except to deliver one of his venomous stares, and he didn\x{2019}t look at me now. \x{201c}You will extinguish the power plant <<before midnight|13>> twenty-four December,\x{201d} he said.",
           ],
           [
             1,
@@ -46,8 +51,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[12:00] Arslan - M. J. Engh.epub (OPS/xhtml/chapter005.xhtml) - noon',
-            "He contemplated his cigarette, while he constructed his clauses. \x{201c}You will give me two lists. Of people to whom you wish to talk. Of things at which you wish to look. Before <<noon|13>> tomorrow.\x{201d}",
+            '[< 12:00] Arslan - M. J. Engh.epub (OPS/xhtml/chapter005.xhtml) - Before noon',
+            "He contemplated his cigarette, while he constructed his clauses. \x{201c}You will give me two lists. Of people to whom you wish to talk. Of things at which you wish to look. <<Before noon|13>> tomorrow.\x{201d}",
           ],
           [
             1,
@@ -132,7 +137,7 @@ $VAR1 = [
           [
             1,
             '[< 00:00] Arslan - M. J. Engh.epub (OPS/xhtml/chapter024.xhtml) - near midnight',
-            "Hunt woke <<near midnight|9b>>. As soon as the fuzziness of the drug wore off enough for him to understand what had happened, he lashed out at us desperately. He was furious at the doctor for having put him to sleep, at me for having let Arslan be taken, at Sanjar for no logical reason. What really hurt him was that he couldn\x{2019}t see Arslan and couldn\x{2019}t help him. Their blood was incompatible.",
+            "Hunt woke <<near midnight|13>>. As soon as the fuzziness of the drug wore off enough for him to understand what had happened, he lashed out at us desperately. He was furious at the doctor for having put him to sleep, at me for having let Arslan be taken, at Sanjar for no logical reason. What really hurt him was that he couldn\x{2019}t see Arslan and couldn\x{2019}t help him. Their blood was incompatible.",
           ],
           [
             1,

@@ -11,8 +11,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[~ 18:00] St. Peter\'s Fair - Ellis Peters.epub (OEBPS/Text/009.html) - Compline',
-            "\x{201c}Oh, Cadfael, can you ask it!\x{201d} There had been no need, the radiance Brother Mark had recognised was dazzling Cadfael no less. \x{201c}Hugh is here, but he must go to the sheriff first. He\x{2019}ll certainly be asking for you before <<Compline|13>>. I have come to buy a cradle, a beautiful carved cradle for our son. And a Welsh coverlet, in beautiful warm wool, or perhaps a sheepskin. And fine spun wools, to weave his gowns.\x{201d}",
+            '[< 18:00] St. Peter\'s Fair - Ellis Peters.epub (OEBPS/Text/009.html) - before Compline',
+            "\x{201c}Oh, Cadfael, can you ask it!\x{201d} There had been no need, the radiance Brother Mark had recognised was dazzling Cadfael no less. \x{201c}Hugh is here, but he must go to the sheriff first. He\x{2019}ll certainly be asking for you <<before Compline|13>>. I have come to buy a cradle, a beautiful carved cradle for our son. And a Welsh coverlet, in beautiful warm wool, or perhaps a sheepskin. And fine spun wools, to weave his gowns.\x{201d}",
           ],
           [
             1,
@@ -36,8 +36,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[~ 18:00] St. Peter\'s Fair - Ellis Peters.epub (OEBPS/Text/010.html) - Compline',
-            "\x{201c}This will serve very well. One of my lads will sleep the nights here.\x{201d} The elder of the two had followed them, balancing the first load easily in a sling over his shoulders, while the other remained to guard the merchandise stacked on the jetty. Now he began to stow what he had brought, while Rhodri and Cadfael set off back to the river to dispatch his fellow after him. On the way they intercepted one of the stewards, notified him of the site chosen, and came to terms for the rental. Brother Cadfael\x{2019}s immediate duty was done, but he was as interested in the growing bustle along the road and by the Severn as any other man who saw the like but once a year, and there was time to spare yet before <<Compline|13>>. It was good, too, to be speaking Welsh, there was seldom need within the walls.",
+            '[< 18:00] St. Peter\'s Fair - Ellis Peters.epub (OEBPS/Text/010.html) - before Compline',
+            "\x{201c}This will serve very well. One of my lads will sleep the nights here.\x{201d} The elder of the two had followed them, balancing the first load easily in a sling over his shoulders, while the other remained to guard the merchandise stacked on the jetty. Now he began to stow what he had brought, while Rhodri and Cadfael set off back to the river to dispatch his fellow after him. On the way they intercepted one of the stewards, notified him of the site chosen, and came to terms for the rental. Brother Cadfael\x{2019}s immediate duty was done, but he was as interested in the growing bustle along the road and by the Severn as any other man who saw the like but once a year, and there was time to spare yet <<before Compline|13>>. It was good, too, to be speaking Welsh, there was seldom need within the walls.",
           ],
           [
             1,
@@ -61,13 +61,13 @@ $VAR1 = [
           ],
           [
             1,
-            '[02:30] St. Peter\'s Fair - Ellis Peters.epub (OEBPS/Text/012.html) - Matins',
-            "\x{201c}What, you, brother? Out of bed before <<Matins|13>>?\x{201d} Amiable though his soft laughter was, he checked it quickly, sensing something demanding gravity of him. \x{201c}You were looking for me? Something worse fell out? Good God, the old man never killed the fool boy, did he?\x{201d}",
+            '[< 02:30] St. Peter\'s Fair - Ellis Peters.epub (OEBPS/Text/012.html) - before Matins',
+            "\x{201c}What, you, brother? Out of bed <<before Matins|13>>?\x{201d} Amiable though his soft laughter was, he checked it quickly, sensing something demanding gravity of him. \x{201c}You were looking for me? Something worse fell out? Good God, the old man never killed the fool boy, did he?\x{201d}",
           ],
           [
             1,
-            '[00:00] St. Peter\'s Fair - Ellis Peters.epub (OEBPS/Text/012.html) - midnight',
-            "\x{201c}I have not,\x{201d} said Ivo, wondering, and peered closely \x{201c}in the strange, soft light of midsummer, an hour short of <<midnight|13>>.",
+            '[< 23:00] St. Peter\'s Fair - Ellis Peters.epub (OEBPS/Text/012.html) - an hour short of midnight',
+            "\x{201c}I have not,\x{201d} said Ivo, wondering, and peered closely \x{201c}in the strange, soft light of midsummer, <<an hour short of midnight|10>>.",
           ],
           [
             1,
@@ -182,17 +182,17 @@ $VAR1 = [
           [
             1,
             '[> 00:00] St. Peter\'s Fair - Ellis Peters.epub (OEBPS/Text/021.html) - past midnight',
-            "\x{201c}Not he! He was there <<past midnight|9b>>, for I took a turn along here to breathe the cool before going to my inn, and there was a light burning inside there then.\x{201d} No gleam from within now, though the slanting sunlight might well pale it into invisibility. But no, that was not so, either. The chinks between shutter and frame were utterly dark.",
+            "\x{201c}Not he! He was there <<past midnight|13>>, for I took a turn along here to breathe the cool before going to my inn, and there was a light burning inside there then.\x{201d} No gleam from within now, though the slanting sunlight might well pale it into invisibility. But no, that was not so, either. The chinks between shutter and frame were utterly dark.",
           ],
           [
             1,
             '[> 00:00] St. Peter\'s Fair - Ellis Peters.epub (OEBPS/Text/021.html) - past midnight',
-            "\x{201c}He says there was a light showing through the chinks here <<past midnight|9b>>,\x{201d} said Beringar. \x{201c}The light is quenched now, not burned out. And if he locked his door after closing the booth for the night\x{2026}\x{201d}",
+            "\x{201c}He says there was a light showing through the chinks here <<past midnight|13>>,\x{201d} said Beringar. \x{201c}The light is quenched now, not burned out. And if he locked his door after closing the booth for the night\x{2026}\x{201d}",
           ],
           [
             1,
             '[~ 18:00] St. Peter\'s Fair - Ellis Peters.epub (OEBPS/Text/021.html) - Compline',
-            "\x{201c}By your witness,\x{201d} said Hugh, pondering, \x{201c}the coffin was opened and closed between <<Compline|13>> and <<Matins|13>>. Before <<midnight|13>>. When would you say, Cadfael\x{2014}your experience is longer than mine\x{2014}when would you say this man died?\x{201d}",
+            "\x{201c}By your witness,\x{201d} said Hugh, pondering, \x{201c}the coffin was opened and closed between <<Compline|13>> and <<Matins|13>>. <<Before midnight|13>>. When would you say, Cadfael\x{2014}your experience is longer than mine\x{2014}when would you say this man died?\x{201d}",
           ],
           [
             1,
@@ -201,8 +201,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[12:00] St. Peter\'s Fair - Ellis Peters.epub (OEBPS/Text/022.html) - noon',
-            "The gaoler unlocked the door of Philip\x{2019}s cell somewhat before <<noon|13>>, and stood back to let the provost enter. Father and son eyed each other hard, and though Geoffrey Corviser continued to look grimly severe, and Philip obdurate and defiant, nevertheless the father was mollified and the son reassured. By and large, they understood each other pretty well.",
+            '[< 12:00] St. Peter\'s Fair - Ellis Peters.epub (OEBPS/Text/022.html) - before noon',
+            "The gaoler unlocked the door of Philip\x{2019}s cell somewhat <<before noon|13>>, and stood back to let the provost enter. Father and son eyed each other hard, and though Geoffrey Corviser continued to look grimly severe, and Philip obdurate and defiant, nevertheless the father was mollified and the son reassured. By and large, they understood each other pretty well.",
           ],
           [
             1,
@@ -231,13 +231,13 @@ $VAR1 = [
           ],
           [
             1,
-            '[12:00] St. Peter\'s Fair - Ellis Peters.epub (OEBPS/Text/025.html) - noon',
-            "\x{201c}A while before <<noon|13>>.\x{201d} Hugh Beringar had said he should eat his dinner at home, and so he had, though at a later hour than usual.",
+            '[< 12:00] St. Peter\'s Fair - Ellis Peters.epub (OEBPS/Text/025.html) - before noon',
+            "\x{201c}A while <<before noon|13>>.\x{201d} Hugh Beringar had said he should eat his dinner at home, and so he had, though at a later hour than usual.",
           ],
           [
             1,
-            '[~ 16:30] St. Peter\'s Fair - Ellis Peters.epub (OEBPS/Text/025.html) - Vespers',
-            "\x{201c}Not an hour before <<Vespers|13>> it must have been. All I heard was the shouting at the abbey end of the Foregate. But they tell me the sheriff himself was there.\x{201d}",
+            '[~ 15:30] St. Peter\'s Fair - Ellis Peters.epub (OEBPS/Text/025.html) - an hour before Vespers',
+            "\x{201c}Not <<an hour before Vespers|10>> it must have been. All I heard was the shouting at the abbey end of the Foregate. But they tell me the sheriff himself was there.\x{201d}",
           ],
           [
             1,
@@ -292,17 +292,17 @@ $VAR1 = [
           [
             1,
             '[~ 18:00] St. Peter\'s Fair - Ellis Peters.epub (OEBPS/Text/035.html) - Compline',
-            "\x{201c}I cry your pardon,\x{201d} said Cadfael placidly. \x{201c}I did not know I had patients waiting. Brother Infirmarer will have recommended you to me, I take it. He knew I should be working here until <<Compline|9b>>.\x{201d}",
+            "\x{201c}I cry your pardon,\x{201d} said Cadfael placidly. \x{201c}I did not know I had patients waiting. Brother Infirmarer will have recommended you to me, I take it. He knew I should be working here until <<Compline|13>>.\x{201d}",
           ],
           [
             1,
-            '[~ 18:00] St. Peter\'s Fair - Ellis Peters.epub (OEBPS/Text/035.html) - Compline',
-            "\x{201c}I had seen you both before,\x{201d} Cadfael corrected him. He began to measure his various pectoral herbs into a mortar, and took a small bellows to rouse the brazier from its quiescent state. \x{201c}I have a linctus to make before <<Compline|13>>. You\x{2019}ll not mind if I start work.\x{201d}",
+            '[< 18:00] St. Peter\'s Fair - Ellis Peters.epub (OEBPS/Text/035.html) - before Compline',
+            "\x{201c}I had seen you both before,\x{201d} Cadfael corrected him. He began to measure his various pectoral herbs into a mortar, and took a small bellows to rouse the brazier from its quiescent state. \x{201c}I have a linctus to make <<before Compline|13>>. You\x{2019}ll not mind if I start work.\x{201d}",
           ],
           [
             1,
-            '[~ 18:00] St. Peter\'s Fair - Ellis Peters.epub (OEBPS/Text/035.html) - Compline',
-            "\x{201c}What was the name of her father?\x{201d} he asked, stirring his thickening brew. Before <<Compline|13>> he would be able to set it aside to cool gradually.",
+            '[< 18:00] St. Peter\'s Fair - Ellis Peters.epub (OEBPS/Text/035.html) - Before Compline',
+            "\x{201c}What was the name of her father?\x{201d} he asked, stirring his thickening brew. <<Before Compline|13>> he would be able to set it aside to cool gradually.",
           ],
           [
             1,

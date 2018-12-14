@@ -736,8 +736,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[00:00] The Longest Night - Gavin Mortimer.epub (text/part0032.html) - midnight',
-            "King picked up the first edition and admired the bullish headline: \x{201c}Many Nazi Raiders Down: Great London Blitz.\x{201d} The copy underneath was laced with similar swagger. \x{201c}Nazi Bombers blasted London in brilliant moonlight last night\x{2014}and they paid a heavy price. Soon after the alert\x{2014}it was before <<midnight|13>>\x{2014}roof watchers saw the first raiders fall in a whirl of flame on the outskirts of London.\x{201d}",
+            '[< 00:00] The Longest Night - Gavin Mortimer.epub (text/part0032.html) - before midnight',
+            "King picked up the first edition and admired the bullish headline: \x{201c}Many Nazi Raiders Down: Great London Blitz.\x{201d} The copy underneath was laced with similar swagger. \x{201c}Nazi Bombers blasted London in brilliant moonlight last night\x{2014}and they paid a heavy price. Soon after the alert\x{2014}it was <<before midnight|13>>\x{2014}roof watchers saw the first raiders fall in a whirl of flame on the outskirts of London.\x{201d}",
           ],
           [
             1,

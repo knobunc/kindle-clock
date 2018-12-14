@@ -41,8 +41,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[~ 18:00] The Virgin in the Ice - Ellis Peters.epub (OEBPS/Text/011.html) - Compline',
-            "Supper and security had done much for Yves, and his own natural resilience had done even more. He sat in the prior\x{2019}s parlor before <<Compline|13>>, face to face with Hugh Beringar, and with Prior Leonard and Brother Cadfael in watchful attendance, and told his story with bluntness and brevity.",
+            '[< 18:00] The Virgin in the Ice - Ellis Peters.epub (OEBPS/Text/011.html) - before Compline',
+            "Supper and security had done much for Yves, and his own natural resilience had done even more. He sat in the prior\x{2019}s parlor <<before Compline|13>>, face to face with Hugh Beringar, and with Prior Leonard and Brother Cadfael in watchful attendance, and told his story with bluntness and brevity.",
           ],
           [
             1,
@@ -76,8 +76,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[> 00:00] The Virgin in the Ice - Ellis Peters.epub (OEBPS/Text/012.html) - after midnight',
-            "\x{201c}Or King Stephen\x{2019}s! Well, so they moved off with their spoils maybe two hours <<after midnight|13>>. They would not move fast, driving cattle and carrying food and grain. Not long before dawn they ransacked and burned John Druel\x{2019}s holding, high on Clee. And in between\x{2014}would you not say, Hugh?\x{2014}in between they happened on Brother Elyas and Sister Hilaria, and after their fashion let loose in a little exuberant sport, leaving both dead or dying. Could there be two such bands out on their grisly business on the same night? A wild night, a blizzard night, that might well keep even thieves and vagabonds close to home. There are here men who know these parts like their own palms, Hugh, and neither snow nor frost can cage them.\x{201d}",
+            '[> 02:00] The Virgin in the Ice - Ellis Peters.epub (OEBPS/Text/012.html) - two hours after midnight',
+            "\x{201c}Or King Stephen\x{2019}s! Well, so they moved off with their spoils maybe <<two hours after midnight|10>>. They would not move fast, driving cattle and carrying food and grain. Not long before dawn they ransacked and burned John Druel\x{2019}s holding, high on Clee. And in between\x{2014}would you not say, Hugh?\x{2014}in between they happened on Brother Elyas and Sister Hilaria, and after their fashion let loose in a little exuberant sport, leaving both dead or dying. Could there be two such bands out on their grisly business on the same night? A wild night, a blizzard night, that might well keep even thieves and vagabonds close to home. There are here men who know these parts like their own palms, Hugh, and neither snow nor frost can cage them.\x{201d}",
           ],
           [
             1,
@@ -156,8 +156,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[~ 16:30] The Virgin in the Ice - Ellis Peters.epub (OEBPS/Text/021.html) - Vespers',
-            'Ermina came looking for him before <<Vespers|13>>, for which office he had asked Prior Leonard to call him. Hugh Beringar had not yet returned, no doubt he was still busy at Ludlow with the bestowal of the prisoners and the storage of the stock and other plunder brought down from Clee. This day was an interlude of thanksgiving for one peril past, but also a breathing-space in preparation for tasks still to be completed.',
+            '[< 16:30] The Virgin in the Ice - Ellis Peters.epub (OEBPS/Text/021.html) - before Vespers',
+            'Ermina came looking for him <<before Vespers|13>>, for which office he had asked Prior Leonard to call him. Hugh Beringar had not yet returned, no doubt he was still busy at Ludlow with the bestowal of the prisoners and the storage of the stock and other plunder brought down from Clee. This day was an interlude of thanksgiving for one peril past, but also a breathing-space in preparation for tasks still to be completed.',
           ],
           [
             1,
@@ -216,8 +216,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[00:00] The Virgin in the Ice - Ellis Peters.epub (OEBPS/Text/022.html) - midnight',
-            'No need to agonize any more over Brother Elyas. Cadfael closed the door on him, and sat down in the dim anteroom with his guest. They had, perhaps, as much as two hours before <<midnight|13>> and <<Matins|13>>.',
+            '[< 22:00] The Virgin in the Ice - Ellis Peters.epub (OEBPS/Text/022.html) - two hours before midnight',
+            'No need to agonize any more over Brother Elyas. Cadfael closed the door on him, and sat down in the dim anteroom with his guest. They had, perhaps, as much as <<two hours before midnight|10>> and <<Matins|13>>.',
           ],
           [
             1,
@@ -277,8 +277,8 @@ It began, as the greatest of storms do begin, as a mere tremor in the air, a thr
           ],
           [
             1,
-            '[00:00] The Virgin in the Ice - Ellis Peters.epub (OEBPS/Text/024.html) - midnight',
-            "\x{201c}And they did it?\x{201d} It would not have been a gentle ejection, they would all have been inflamed and boisterous by them. \x{201c}How late was that? An hour before <<midnight|13>>?\x{201d}",
+            '[< 23:00] The Virgin in the Ice - Ellis Peters.epub (OEBPS/Text/024.html) - An hour before midnight',
+            "\x{201c}And they did it?\x{201d} It would not have been a gentle ejection, they would all have been inflamed and boisterous by them. \x{201c}How late was that? <<An hour before midnight|10>>?\x{201d}",
           ],
           [
             1,
@@ -294,7 +294,7 @@ Brother Cadfael had Liliwin awake and made as presentable as possible before the
           [
             1,
             '[00:00] The Virgin in the Ice - Ellis Peters.epub (OEBPS/Text/025.html) - midnight',
-            "\x{201c}But not dead?\x{201d} said Radulfus sharply. \x{201c}It was murder was cried here at <<midnight|9b>>.\x{201d}",
+            "\x{201c}But not dead?\x{201d} said Radulfus sharply. \x{201c}It was murder was cried here at <<midnight|13>>.\x{201d}",
           ],
           [
             1,

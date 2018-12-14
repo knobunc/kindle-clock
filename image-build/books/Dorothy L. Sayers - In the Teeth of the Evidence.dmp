@@ -83,8 +83,8 @@ The clock struck <<twelve|11>>.
           ],
           [
             1,
-            '[00:00] In the Teeth of the Evidence - Dorothy L. Sayers.epub (OEBPS/11-9-chap6.xhtml) - midnight',
-            "\x{2018}It\x{2019}s not true!\x{2019} cried Slater wildly. Then he added, more soberly, \x{2018}The man might have been killed after I left, but still before <<midnight|13>>, and the hands put back three quarters of an hour.\x{2019}",
+            '[< 00:00] In the Teeth of the Evidence - Dorothy L. Sayers.epub (OEBPS/11-9-chap6.xhtml) - before midnight',
+            "\x{2018}It\x{2019}s not true!\x{2019} cried Slater wildly. Then he added, more soberly, \x{2018}The man might have been killed after I left, but still <<before midnight|13>>, and the hands put back three quarters of an hour.\x{2019}",
           ],
           [
             1,
@@ -179,7 +179,7 @@ The clock struck <<twelve|11>>.
           [
             1,
             '[ap 09:30] In the Teeth of the Evidence - Dorothy L. Sayers.epub (OEBPS/20-18-chap15.xhtml) - half-past nine',
-            'The next few days were the most uncomfortable that Mr Mummery had ever spent. He developed a habit of coming down early in the morning and prowling about the kitchen. This made Ethel nervous, but Mrs Sutton offered no remark. She watched him tolerantly, even, he thought, with something like amusement. After all, it was ridiculous. What was the use of supervising the breakfast, when he had to be out of the house every day between <<half-past nine|10>> and six?',
+            'The next few days were the most uncomfortable that Mr Mummery had ever spent. He developed a habit of coming down early in the morning and prowling about the kitchen. This made Ethel nervous, but Mrs Sutton offered no remark. She watched him tolerantly, even, he thought, with something like amusement. After all, it was ridiculous. What was the use of supervising the breakfast, when he had to be out of the house every day between <<half-past nine|10>> and <<six|20a>>?',
           ],
           [
             1,

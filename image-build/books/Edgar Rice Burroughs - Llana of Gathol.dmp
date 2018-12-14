@@ -24,11 +24,6 @@ ModificationDate: Tue Jul 22 <<07:09|2>>:18 EDT 2008',
           ],
           [
             1,
-            '[ap 00:58] Llana of Gathol - Edgar Rice Burroughs.epub (OEBPS/part23_split_001.xhtml) - two to one',
-            "\x{201c}I will give you <<two to one|10a:0>>,\x{201d} said Nastor; \x{201c}are those odds satisfactory?\x{201d}",
-          ],
-          [
-            1,
             '[ap ~ 09:00] Llana of Gathol - Edgar Rice Burroughs.epub (OEBPS/part34_split_001.xhtml) - About nine',
             "\x{ca}
 \x{201c}<<About nine|9:0>> haads,\x{201d} he replied\x{2013}that is not quite three Earth miles.
@@ -76,8 +71,8 @@ ModificationDate: Tue Jul 22 <<07:09|2>>:18 EDT 2008',
           ],
           [
             1,
-            '[12:00] Llana of Gathol - Edgar Rice Burroughs.epub (OEBPS/part9_split_001.xhtml) - noon',
-            "He shook his head. \x{201c}The temptation is great,\x{201d} he said, \x{201c}but until I have exhausted every resource and failed to return to Ho Ran Kim before <<noon|13>> tomorrow I may do nothing else but try.\x{201d}",
+            '[< 12:00] Llana of Gathol - Edgar Rice Burroughs.epub (OEBPS/part9_split_001.xhtml) - before noon',
+            "He shook his head. \x{201c}The temptation is great,\x{201d} he said, \x{201c}but until I have exhausted every resource and failed to return to Ho Ran Kim <<before noon|13>> tomorrow I may do nothing else but try.\x{201d}",
           ],
           [
             1,
@@ -101,6 +96,6 @@ ModificationDate: Tue Jul 22 <<07:09|2>>:18 EDT 2008',
           [
             1,
             '[12:00] Llana of Gathol - Edgar Rice Burroughs.epub (OEBPS/part9_split_001.xhtml) - noon',
-            "Of course I didn\x{2019}t use the term <<noon|13>>; but rather the Barsoomian equivalent, 25 xats past the 3rd zode, which is <<12|9d>> <<noon|13>> Earth time.",
+            "Of course I didn\x{2019}t use the term <<noon|13>>; but rather the Barsoomian equivalent, 25 xats past the 3rd zode, which is <<12 noon|13>> Earth time.",
           ],
         ];

@@ -51,8 +51,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[12:00] The Jeeves Omnibus - Vol 2 - P. G. Wodehouse.epub (OEBPS/Text/part0020.xhtml) - midday',
-            "With regard to Gussie, everything was in train. Jeeves\x{2019}s morbid scruples about lacing the chap\x{2019}s orange juice had put me to a good deal of trouble, but I had surmounted every obstacle in the old Wooster way. I had secured an abundance of the necessary spirit, and it was now lying in its flask in the drawer of the dressing table. I had also ascertained that the jug, duly filled, would be standing on a shelf in the butler\x{2019}s pantry round about the hour of one. To remove it from that shelf, sneak it up to my room, and return it, laced, in good time for the <<midday|13>> meal would be a task calling, no doubt, for address, but in no sense an exacting one.",
+            '[ap 01:00] The Jeeves Omnibus - Vol 2 - P. G. Wodehouse.epub (OEBPS/Text/part0020.xhtml) - one',
+            "With regard to Gussie, everything was in train. Jeeves\x{2019}s morbid scruples about lacing the chap\x{2019}s orange juice had put me to a good deal of trouble, but I had surmounted every obstacle in the old Wooster way. I had secured an abundance of the necessary spirit, and it was now lying in its flask in the drawer of the dressing table. I had also ascertained that the jug, duly filled, would be standing on a shelf in the butler\x{2019}s pantry round about the hour of <<one|20>>. To remove it from that shelf, sneak it up to my room, and return it, laced, in good time for the <<midday|13>> meal would be a task calling, no doubt, for address, but in no sense an exacting one.",
           ],
           [
             1,
@@ -62,7 +62,7 @@ $VAR1 = [
           [
             1,
             '[ap 03:30] The Jeeves Omnibus - Vol 2 - P. G. Wodehouse.epub (OEBPS/Text/part0020.xhtml) - 3.30',
-            "This, coming on top of their other troubles, induced in the company a pretty unanimous silence \x{2013} a solemn stillness, as you might say \x{2013} which even Gussie did not seem prepared to break. Except, therefore, for one short snatch of song on his part, nothing untoward marked the occasion, and presently we rose, with instructions from Aunt Dahlia to put on festal raiment and be at Market Snodsbury not later than <<3.30|5a:1>>. This leaving me ample time to smoke a gasper or two in a shady bower beside the lake, I did so, repairing to my room round about the hour of three.",
+            "This, coming on top of their other troubles, induced in the company a pretty unanimous silence \x{2013} a solemn stillness, as you might say \x{2013} which even Gussie did not seem prepared to break. Except, therefore, for one short snatch of song on his part, nothing untoward marked the occasion, and presently we rose, with instructions from Aunt Dahlia to put on festal raiment and be at Market Snodsbury not later than <<3.30|5a:1>>. This leaving me ample time to smoke a gasper or two in a shady bower beside the lake, I did so, repairing to my room round about the hour of <<three|20>>.",
           ],
           [
             1,
@@ -88,15 +88,15 @@ $VAR1 = [
           ],
           [
             1,
-            '[00:00] The Jeeves Omnibus - Vol 2 - P. G. Wodehouse.epub (OEBPS/Text/part0025.xhtml) - midnight',
+            '[< 00:00] The Jeeves Omnibus - Vol 2 - P. G. Wodehouse.epub (OEBPS/Text/part0025.xhtml) - before midnight',
             "\x{2018}Of course, yes. Well, it sounds all right,\x{2019} I said, though still a bit doubtfully. \x{2018}Quite possibly it may come off. But I have a feeling that it will slip up somewhere. However, I am in no position to cavil at even a 100 to 1 shot. I will adopt this policy of yours, Jeeves, though, as I say, with misgivings. At what hour would you suggest bonging the bell?\x{2019}
-\x{2018}Not before <<midnight|13>>, sir.\x{2019}
+\x{2018}Not <<before midnight|13>>, sir.\x{2019}
 \x{2018}That is to say, some time <<after midnight|13>>.\x{2019}",
           ],
           [
             1,
-            '[00:00] The Jeeves Omnibus - Vol 2 - P. G. Wodehouse.epub (OEBPS/Text/part0025.xhtml) - midnight',
-            "\x{2018}Not before <<midnight|13>>, sir.\x{2019}
+            '[< 00:00] The Jeeves Omnibus - Vol 2 - P. G. Wodehouse.epub (OEBPS/Text/part0025.xhtml) - before midnight',
+            "\x{2018}Not <<before midnight|13>>, sir.\x{2019}
 \x{2018}That is to say, some time <<after midnight|13>>.\x{2019}
 \x{2018}Yes, sir.\x{2019}",
           ],
@@ -139,14 +139,14 @@ $VAR1 = [
           ],
           [
             1,
-            '[> 00:00] The Jeeves Omnibus - Vol 2 - P. G. Wodehouse.epub (OEBPS/Text/part0043.xhtml) - after midnight',
-            "\x{2018}I should be disposed to imagine so, sir. When I motored to London this afternoon, it was with instructions for his lordship to establish telephonic communication with Mr Clam at his hotel and urge him to hasten to Steeple Bumpleigh and be in the potting shed half an hour <<after midnight|13>>. The gentleman expressed complete understanding and agreement, and assured me that he would drive down in good time to keep the appointment.\x{2019}",
+            '[00:30] The Jeeves Omnibus - Vol 2 - P. G. Wodehouse.epub (OEBPS/Text/part0043.xhtml) - half an hour after midnight',
+            "\x{2018}I should be disposed to imagine so, sir. When I motored to London this afternoon, it was with instructions for his lordship to establish telephonic communication with Mr Clam at his hotel and urge him to hasten to Steeple Bumpleigh and be in the potting shed <<half an hour after midnight|10>>. The gentleman expressed complete understanding and agreement, and assured me that he would drive down in good time to keep the appointment.\x{2019}",
           ],
           [
             1,
-            '[> 00:00] The Jeeves Omnibus - Vol 2 - P. G. Wodehouse.epub (OEBPS/Text/part0043.xhtml) - after midnight',
+            '[00:30] The Jeeves Omnibus - Vol 2 - P. G. Wodehouse.epub (OEBPS/Text/part0043.xhtml) - Half an hour after midnight',
             "I saw, too, what Jeeves meant about Boko having selected an unfortunate moment for his enterprise.
-\x{2018}Half an hour <<after midnight|13>>? It must be nearly that now.\x{2019}
+\x{2018}<<Half an hour after midnight|10>>? It must be nearly that now.\x{2019}
 \x{2018}Exactly that, sir.\x{2019}",
           ],
           [

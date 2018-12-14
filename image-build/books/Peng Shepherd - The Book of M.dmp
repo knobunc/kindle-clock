@@ -11,11 +11,6 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap ~ 05:05] The Book of M - Peng Shepherd.epub (OEBPS/text/9780062669629_Chapter_18.xhtml) - about five-five',
-            "Ory scrambled for his wallet photo. \x{201c}She\x{2019}s <<about five-five|5l:0>>, dark skin, brown afro, green eyes. Her name is Max, she has a scar over her right eyebrow\x{2014}\x{201d} It was too much to hope for. Did the man know the faces of most of the women hiding around here?",
-          ],
-          [
-            1,
             '[12:00] The Book of M - Peng Shepherd.epub (OEBPS/text/9780062669629_Chapter_20.xhtml) - noon',
             'Dr. Zadeh and the amnesiac had woken at dawn to the hotel room phone ringing. They had no idea which official was on the line, but the message he relayed from the prime minister was unambiguous: the joint Indian-American experiment was over. They had less than twelve hours to get on a plane voluntarily before law enforcement would come and forcibly deport them. As soon as Dr. Zadeh put down the receiver, it rang again. This time it was Dr. Avanthikar. More officials were coming at <<noon|13>> for further assessment of her research, she told him. If they could get to the hospital before that, they could say goodbye and escape clean.',
           ],
@@ -41,8 +36,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[00:00] The Book of M - Peng Shepherd.epub (OEBPS/text/9780062669629_Chapter_28A.xhtml) - midnight',
-            "\x{201c}Are they maybe trying to cure us?\x{201d} Intisaar asked one night as we reclined against the bars. Most of the candles had winked out before <<midnight|13>>, but the questioners wouldn\x{2019}t return until dawn, so the guards just left the room in semi-darkness, watching us from the dim corners as they patrolled.",
+            '[< 00:00] The Book of M - Peng Shepherd.epub (OEBPS/text/9780062669629_Chapter_28A.xhtml) - before midnight',
+            "\x{201c}Are they maybe trying to cure us?\x{201d} Intisaar asked one night as we reclined against the bars. Most of the candles had winked out <<before midnight|13>>, but the questioners wouldn\x{2019}t return until dawn, so the guards just left the room in semi-darkness, watching us from the dim corners as they patrolled.",
           ],
           [
             1,
@@ -85,13 +80,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[12:00] The Book of M - Peng Shepherd.epub (OEBPS/text/9780062669629_Chapter_41.xhtml) - noon',
-            "\x{201c}Not all night,\x{201d} Zhang said. He glanced through the little tufts of chiming iizinger clouds overhead to the sky. \x{201c}I know it\x{2019}s still pretty dark, but\x{a0}.\x{a0}.\x{a0}.\x{201d} He didn\x{2019}t finish his sentence. It was almost too big of a thing to say. But we\x{2019}re only a few hours away. He could feel his heart fluttering against his ribs, like a panicked bird in its cage. But we could make it before <<noon|13>> if we left now.",
-          ],
-          [
-            1,
-            '[ap 00:52] The Book of M - Peng Shepherd.epub (OEBPS/text/9780062669629_Chapter_45.xhtml) - eight to one',
-            "\x{201c}Well, <<eight to one|10a:0>> is good odds,\x{201d} Malik said as hopefully as he could. Zhang knew he was wondering the same thing the rest of them were. Why Transcendence needed only one.",
+            '[< 12:00] The Book of M - Peng Shepherd.epub (OEBPS/text/9780062669629_Chapter_41.xhtml) - before noon',
+            "\x{201c}Not all night,\x{201d} Zhang said. He glanced through the little tufts of chiming iizinger clouds overhead to the sky. \x{201c}I know it\x{2019}s still pretty dark, but\x{a0}.\x{a0}.\x{a0}.\x{201d} He didn\x{2019}t finish his sentence. It was almost too big of a thing to say. But we\x{2019}re only a few hours away. He could feel his heart fluttering against his ribs, like a panicked bird in its cage. But we could make it <<before noon|13>> if we left now.",
           ],
           [
             1,

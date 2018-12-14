@@ -46,6 +46,11 @@ $VAR1 = [
           ],
           [
             1,
+            '[~ 16:30] Ivanhoe - Walter Scott.epub (OEBPS/bano_9781411432420_oeb_c17_r1.html) - evensong',
+            "Your knight for his lady pricks, forth in career,  And is brought home at <<evensong|13>> prick\x{2019}d through with a spear;  I confess him in haste\x{2014}for his lady desires  No comfort on earth save the Barefooted Friar\x{2019}s.",
+          ],
+          [
+            1,
             '[12:00] Ivanhoe - Walter Scott.epub (OEBPS/bano_9781411432420_oeb_c17_r1.html) - noon',
             "He\x{2019}s expected at <<noon|13>>, and no wight till he comes  May profane the great chair, or the porridge of plums;  For the best of the cheer, and the seat by the fire,  Is the undenied right of the Barefooted Friar.",
           ],
@@ -101,8 +106,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[12:00] Ivanhoe - Walter Scott.epub (OEBPS/bano_9781411432420_oeb_c25_r1.html) - noon',
-            "\x{201c}Sir Reginald Front-de-B\x{153}uf, with his noble and knightly allies and confederates, receive no defiances at the hands of slaves, bondsmen, or fugitives. If the person calling himself the Black Knight have indeed a claim to the honours of chivalry, he ought to know that he stands degraded by his present association, and has no right to ask reckoning at the hands of good men of noble blood. Touching the prisoners we have made, we do in Christian charity require you to send a man of religion to receive their confession and reconcile them with God; since it is our fixed intention to execute them this morning before <<noon|13>>, so that their heads, being placed on the battlements, shall show to all men how lightly we esteem those who have bestirred themselves in their rescue. Wherefore, as above, we require you to  send a priest to reconcile them to God, in doing which you shall render them the last earthly service.\x{201d}",
+            '[< 12:00] Ivanhoe - Walter Scott.epub (OEBPS/bano_9781411432420_oeb_c25_r1.html) - before noon',
+            "\x{201c}Sir Reginald Front-de-B\x{153}uf, with his noble and knightly allies and confederates, receive no defiances at the hands of slaves, bondsmen, or fugitives. If the person calling himself the Black Knight have indeed a claim to the honours of chivalry, he ought to know that he stands degraded by his present association, and has no right to ask reckoning at the hands of good men of noble blood. Touching the prisoners we have made, we do in Christian charity require you to send a man of religion to receive their confession and reconcile them with God; since it is our fixed intention to execute them this morning <<before noon|13>>, so that their heads, being placed on the battlements, shall show to all men how lightly we esteem those who have bestirred themselves in their rescue. Wherefore, as above, we require you to  send a priest to reconcile them to God, in doing which you shall render them the last earthly service.\x{201d}",
           ],
           [
             1,
@@ -152,7 +157,7 @@ $VAR1 = [
           [
             1,
             '[02:30] Ivanhoe - Walter Scott.epub (OEBPS/bano_9781411432420_oeb_c37_r1.html) - matins',
-            "\x{201c}Thou hast spoken well, brother Albert,\x{201d} said Beaumanoir; \x{201c}thy motives were good, since thou didst judge it right to arrest thine erring brother in his career of precipitate folly. But thy conduct was wrong; as he that would stop a runaway steed, and seizing by the stirrup instead of the bridle, receiveth injury himself, instead of accomplishing his purpose. Thirteen paternosters are assigned by our pious founder for <<matins|13>>, and nine for <<vespers|13>>; be those services doubled by thee. Thrice a-week are Templars permitted the use of flesh; but do thou keep fast for all the seven days. This do for six weeks to come, and thy penance is accomplished.\x{201d}",
+            "\x{201c}Thou hast spoken well, brother Albert,\x{201d} said Beaumanoir; \x{201c}thy motives were good, since thou didst judge it right to arrest thine erring brother in his career of precipitate folly. But thy conduct was wrong; as he that would stop a runaway steed, and seizing by the stirrup instead of the bridle, receiveth injury himself, instead of accomplishing his purpose. Thirteen paternosters are assigned by our pious founder for <<matins|13>>, and <<nine|20a>> for <<vespers|13>>; be those services doubled by thee. Thrice a-week are Templars permitted the use of flesh; but do thou keep fast for all the seven days. This do for six weeks to come, and thy penance is accomplished.\x{201d}",
           ],
           [
             1,

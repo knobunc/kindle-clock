@@ -19,12 +19,7 @@ $VAR1 = [
             '[08:30] Inferno - Dan Brown.epub (OEBPS/Text/part0019.html) - 8:30 A.M.',
             "He switched the call to speaker and set the phone on the table so Sienna could hear. A recorded message answered, offering general information about consulate services and hours of operation, which did not begin until <<8:30 A.M.|2a>>
 Langdon checked the clock on the cell. It was only <<6 A.M.|5>>
-\x{201c}If this is an emergency,\x{201d} the automated recording said, \x{201c}you may dial <<seven-seven|5l:1>> to speak to the night duty officer.\x{201d}",
-          ],
-          [
-            1,
-            '[ap 07:07] Inferno - Dan Brown.epub (OEBPS/Text/part0019.html) - seven-seven',
-            "\x{201c}If this is an emergency,\x{201d} the automated recording said, \x{201c}you may dial <<seven-seven|5l:0>> to speak to the night duty officer.\x{201d}",
+\x{201c}If this is an emergency,\x{201d} the automated recording said, \x{201c}you may dial seven-seven to speak to the night duty officer.\x{201d}",
           ],
           [
             1,

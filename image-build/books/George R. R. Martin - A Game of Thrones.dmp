@@ -37,7 +37,7 @@ $VAR1 = [
           [
             1,
             '[12:00] A Game of Thrones - George R. R. Martin.epub (OEBPS/Mart_9780553897845_epub_c22_r1.htm) - midday',
-            "Three days later, at <<midday|13>>, her father\x{2019}s steward Vayon Poole sent Arya to the Small Hall. The trestle tables had been dismantled and the benches shoved against the walls. The hall seemed empty, until an unfamiliar voice said, \x{201c}You are late, boy.\x{201d} A slight man with a bald head and a great beak of a nose stepped out of the shadows, holding a pair of slender wooden swords. \x{201c}Tomorrow you will be here at <<midday|9b>>,\x{201d} He had an accent, the lilt of the Free Cities, Braavos perhaps, or Myr.",
+            "Three days later, at <<midday|13>>, her father\x{2019}s steward Vayon Poole sent Arya to the Small Hall. The trestle tables had been dismantled and the benches shoved against the walls. The hall seemed empty, until an unfamiliar voice said, \x{201c}You are late, boy.\x{201d} A slight man with a bald head and a great beak of a nose stepped out of the shadows, holding a pair of slender wooden swords. \x{201c}Tomorrow you will be here at <<midday|13>>,\x{201d} He had an accent, the lilt of the Free Cities, Braavos perhaps, or Myr.",
           ],
           [
             1,
@@ -53,11 +53,6 @@ $VAR1 = [
             1,
             '[> 00:00] A Game of Thrones - George R. R. Martin.epub (OEBPS/Mart_9780553897845_epub_c30_r1.htm) - past midnight',
             "Much later, after he had taken the girls back through the city and seen them both safe in bed, Sansa with her dreams and Arya with her bruises, Ned ascended to his own chambers atop the Tower of the Hand. The day had been warm and the room was close and stuffy. Ned went to the window and unfastened the heavy shutters to let in the cool night air. Across the Great Yard, he noticed the flickering glow of candlelight from Littlefinger\x{2019}s windows. The hour was well <<past midnight|13>>. Down by the river, the revels were only now beginning to dwindle and die.",
-          ],
-          [
-            1,
-            '[ap 01:02] A Game of Thrones - George R. R. Martin.epub (OEBPS/Mart_9780553897845_epub_c32_r1.htm) - one two',
-            'If the room with the monsters had been dark, the hall was the blackest pit in the seven hells. Calm as still water, Arya told herself, but even when she gave her eyes a moment to adjust, there was nothing to see but the vague grey outline of the door she had come through. She wiggled her fingers in front of her face, felt the air move, saw nothing. She was blind. A water dancer sees with all her senses, she reminded herself. She closed her eyes and steadied her breathing <<one two|5l:0>> three, drank in the quiet, reached out with her hands.',
           ],
           [
             1,
@@ -137,10 +132,5 @@ Sansa looked up from her food. \x{201c}If she can have a dancing lesson, why won
             1,
             '[ap 04:00] A Game of Thrones - George R. R. Martin.epub (OEBPS/Mart_9780553897845_epub_c71_r1.htm) - four',
             "The war council convened in the Great Hall, at <<four|9:0>> long trestle tables arranged in a broken square. Lord Hoster was too weak to attend, asleep on his balcony, dreaming of the sun on the rivers of his youth. Edmure sat in the high seat of the Tullys, with Brynden Blackfish at his side, and his father\x{2019}s bannermen arrayed to right and left and along the side tables. Word of the victory at Riverrun had spread to the fugitive lords of the Trident, drawing them back. Karyl Vance came in, a lord now, his father dead beneath the Golden Tooth. Ser Marq Piper was with him, and they brought a Darry, Ser Raymun\x{2019}s son, a lad no older than Bran. Lord Jonos Bracken arrived from the ruins of Stone Hedge, glowering and blustering, and took a seat as far from Tytos Blackwood as the tables would permit.",
-          ],
-          [
-            1,
-            "[ap 04:05] A Game of Thrones - George R. R. Martin.epub (OEBPS/Mart_9780553897845_epub_prl_r1.htm) - four\x{2026}five",
-            "They emerged silently from the shadows, twins to the first. Three of them\x{2026}<<four\x{2026}five|5l:0>>\x{2026}Ser Waymar may have felt the cold that came with them, but he never saw them, never heard them. Will had to call out. It was his duty. And his death, if he did. He shivered, and hugged the tree, and kept the silence.",
           ],
         ];

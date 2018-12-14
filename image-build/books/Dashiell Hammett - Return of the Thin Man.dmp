@@ -64,17 +64,12 @@ $VAR1 = [
             "[ap 01:00] Return of the Thin Man - Dashiell Hammett.epub (index_split_012.html) - One o\x{2019}clock",
             "Nick: \x{201c}What time is it?\x{201d}
 Nora, looking at the clock beside the bed: \x{201c}<<One o\x{2019}clock|6>>.\x{201d}
-Nick: \x{201c}Sh-h-h! Colonel Both-Inclusive MacFay will hear you. No numbers are that simple. It must be one point <<three one|5l:1>> <<six two|5l:1>> at least.\x{201d}",
-          ],
-          [
-            1,
-            '[ap 03:01] Return of the Thin Man - Dashiell Hammett.epub (index_split_012.html) - three one',
-            "Nick: \x{201c}Sh-h-h! Colonel Both-Inclusive MacFay will hear you. No numbers are that simple. It must be one point <<three one|5l:0>> <<six two|5l:0>> at least.\x{201d}",
+Nick: \x{201c}Sh-h-h! Colonel Both-Inclusive MacFay will hear you. No numbers are that simple. It must be one point three one six two at least.\x{201d}",
           ],
           [
             1,
             '[> 00:00] Return of the Thin Man - Dashiell Hammett.epub (index_split_012.html) - a little after midnight',
-            "After a moment of hesitancy, Freddie says: \x{201c}I guess I did. I was in there <<a little after midnight|9b>>, to have him sign some mail.\x{201d}",
+            "After a moment of hesitancy, Freddie says: \x{201c}I guess I did. I was in there <<a little after midnight|13>>, to have him sign some mail.\x{201d}",
           ],
           [
             1,
@@ -105,8 +100,8 @@ Plump Man: \x{201c}Were you undressed?\x{201d}",
           ],
           [
             1,
-            "[01:00] Return of the Thin Man - Dashiell Hammett.epub (index_split_012.html) - one o\x{2019}clock this morning",
-            "Guild: \x{201c}How are you, Mr. VanSlack? I came over as soon as I heard you were trying to get a line on Smitty. But if your killing was at <<one o\x{2019}clock this morning|6>>, she\x{2019}s in the clear. We had a plant on this joint from before <<midnight|13>> till way after three and we know she was in it all the time.\x{201d}",
+            '[< 00:00] Return of the Thin Man - Dashiell Hammett.epub (index_split_012.html) - before midnight',
+            "Guild: \x{201c}How are you, Mr. VanSlack? I came over as soon as I heard you were trying to get a line on Smitty. But if your killing was at one o\x{2019}clock this morning, she\x{2019}s in the clear. We had a plant on this joint from <<before midnight|13>> till way after three and we know she was in it all the time.\x{201d}",
           ],
           [
             1,

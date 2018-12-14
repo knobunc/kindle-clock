@@ -1,8 +1,8 @@
 $VAR1 = [
           [
             1,
-            '[ap 06:00] Lord Tony\'s Wife - Emmuska Orczy.epub (index_split_000.html) - until six',
-            "But Pierre did not wait to see the consummation of his work of destruction. Already with a few rapid strides he had reached his father\x{2019}s second straw-rick and this too he set alight, and then another and another, <<until six|9:0>> blazing furnaces sent their lurid tongues of flames, twisting and twirling, writhing and hissing through the stormy night.",
+            '[ap 06:00] Lord Tony\'s Wife - Emmuska Orczy.epub (index_split_000.html) - six',
+            "But Pierre did not wait to see the consummation of his work of destruction. Already with a few rapid strides he had reached his father\x{2019}s second straw-rick and this too he set alight, and then another and another, until <<six|9:0>> blazing furnaces sent their lurid tongues of flames, twisting and twirling, writhing and hissing through the stormy night.",
           ],
           [
             1,
@@ -16,8 +16,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[00:00] Lord Tony\'s Wife - Emmuska Orczy.epub (index_split_002.html) - midnight',
-            "\x{2018}Then if you have nothing more to tell me,\x{2019} quoth Martin-Roget, \x{2018}I may as well think about getting back. Rain or no rain, I want to be in Bath before <<midnight|13>>.\x{2019}",
+            '[< 00:00] Lord Tony\'s Wife - Emmuska Orczy.epub (index_split_002.html) - before midnight',
+            "\x{2018}Then if you have nothing more to tell me,\x{2019} quoth Martin-Roget, \x{2018}I may as well think about getting back. Rain or no rain, I want to be in Bath <<before midnight|13>>.\x{2019}",
           ],
           [
             1,
@@ -108,8 +108,8 @@ V",
           ],
           [
             1,
-            '[> 12:00] Lord Tony\'s Wife - Emmuska Orczy.epub (index_split_007.html) - after midday',
-            'It was half an hour <<after midday|13>> when Percy knocked at the door of her boudoir. She had just come in from a walk in the meadows round the town and along the bank of the river: the rain had overtaken her and she had come in very wet, but none the less exhilarated by the movement and the keen, damp, salt-laden air which came straight over the hills from the Channel. She had taken off her hat and her mantle and was laughing gaily with her maid who was shaking the wet out of a feather. She looked round at her husband when he entered, and with a quick gesture ordered the maid out of the room.',
+            '[12:30] Lord Tony\'s Wife - Emmuska Orczy.epub (index_split_007.html) - half an hour after midday',
+            'It was <<half an hour after midday|10>> when Percy knocked at the door of her boudoir. She had just come in from a walk in the meadows round the town and along the bank of the river: the rain had overtaken her and she had come in very wet, but none the less exhilarated by the movement and the keen, damp, salt-laden air which came straight over the hills from the Channel. She had taken off her hat and her mantle and was laughing gaily with her maid who was shaking the wet out of a feather. She looked round at her husband when he entered, and with a quick gesture ordered the maid out of the room.',
           ],
           [
             1,
@@ -118,8 +118,8 @@ V",
           ],
           [
             1,
-            '[00:00] Lord Tony\'s Wife - Emmuska Orczy.epub (index_split_007.html) - midnight',
-            "\x{2018}Only,\x{2019} replied Martin-Roget with a laugh, \x{2018}that we are close to the coast of France and that with this unpleasant but useful north-westerly wind we shall be in Nantes two hours before <<midnight|13>>.\x{2019}",
+            '[< 22:00] Lord Tony\'s Wife - Emmuska Orczy.epub (index_split_007.html) - two hours before midnight',
+            "\x{2018}Only,\x{2019} replied Martin-Roget with a laugh, \x{2018}that we are close to the coast of France and that with this unpleasant but useful north-westerly wind we shall be in Nantes <<two hours before midnight|10>>.\x{2019}",
           ],
           [
             1,
@@ -158,8 +158,8 @@ V",
           ],
           [
             1,
-            '[00:00] Lord Tony\'s Wife - Emmuska Orczy.epub (index_split_011.html) - midnight',
-            "\x{201c}Keep up your courage. Your friends are inside the city and on the watch. Try the door of your prison every evening at one hour before <<midnight|13>>. Once you will find it yield. Slip out and creep noiselessly down the stairs. At the bottom a friendly hand will be stretched out to you. Take it with confidence\x{2014}it will lead you to safety and to freedom. Courage and secrecy.\x{201d}",
+            '[< 23:00] Lord Tony\'s Wife - Emmuska Orczy.epub (index_split_011.html) - one hour before midnight',
+            "\x{201c}Keep up your courage. Your friends are inside the city and on the watch. Try the door of your prison every evening at <<one hour before midnight|10>>. Once you will find it yield. Slip out and creep noiselessly down the stairs. At the bottom a friendly hand will be stretched out to you. Take it with confidence\x{2014}it will lead you to safety and to freedom. Courage and secrecy.\x{201d}",
           ],
           [
             1,
@@ -168,8 +168,8 @@ V",
           ],
           [
             1,
-            '[00:00] Lord Tony\'s Wife - Emmuska Orczy.epub (index_split_011.html) - midnight',
-            "\x{201c}Keep up your courage. Your friends are inside the city and on the watch. Try the door of your prison every evening at one hour before <<midnight|13>>. Once you will find it yield. Slip out and creep noiselessly down the stairs. At the bottom a friendly hand will be stretched out to you. Take it with confidence\x{2014}it will lead you to safety and freedom. Courage and secrecy.\x{201d}",
+            '[< 23:00] Lord Tony\'s Wife - Emmuska Orczy.epub (index_split_011.html) - one hour before midnight',
+            "\x{201c}Keep up your courage. Your friends are inside the city and on the watch. Try the door of your prison every evening at <<one hour before midnight|10>>. Once you will find it yield. Slip out and creep noiselessly down the stairs. At the bottom a friendly hand will be stretched out to you. Take it with confidence\x{2014}it will lead you to safety and freedom. Courage and secrecy.\x{201d}",
           ],
           [
             1,

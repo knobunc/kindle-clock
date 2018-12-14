@@ -460,8 +460,8 @@ A successful read-through. Eric has written a classic \x{2013} \x{2018}The liber
           ],
           [
             1,
-            '[00:00] Halfway to Hollywood_ Diaries 1980 to 1988 - Michael Palin.epub (text/part0211.html) - midnight',
-            "To bed before <<midnight|13>>. How easily the \x{2018}historic\x{2019} decision has been made. It\x{2019}s not often Python so clearly and unanimously sees the rightness of a decision and it\x{2019}s such a relief that it\x{2019}s happened like that today. It now remains to be seen how DO\x{2019}B reacts. I hope he will not see it as a stab in the back, but a stab in the front. He should have seen it coming and it shouldn\x{2019}t prove fatal.",
+            '[< 00:00] Halfway to Hollywood_ Diaries 1980 to 1988 - Michael Palin.epub (text/part0211.html) - before midnight',
+            "To bed <<before midnight|13>>. How easily the \x{2018}historic\x{2019} decision has been made. It\x{2019}s not often Python so clearly and unanimously sees the rightness of a decision and it\x{2019}s such a relief that it\x{2019}s happened like that today. It now remains to be seen how DO\x{2019}B reacts. I hope he will not see it as a stab in the back, but a stab in the front. He should have seen it coming and it shouldn\x{2019}t prove fatal.",
           ],
           [
             1,
@@ -850,8 +850,8 @@ A successful read-through. Eric has written a classic \x{2013} \x{2018}The liber
           ],
           [
             1,
-            '[ap 07:45] Halfway to Hollywood_ Diaries 1980 to 1988 - Michael Palin.epub (text/part0349.html) - 7.45',
-            "Picked up at the relatively civilised hour of <<7.45|5a:1>>. To Culross Buildings behind King\x{2019}s Cross and St Pancras. Marvellous location for trainspotters. The sky is grey and it\x{2019}s cold, but we start shooting without much ado amidst the flapping washing. First scenes with our prostitutes.",
+            '[ap 07:00] Halfway to Hollywood_ Diaries 1980 to 1988 - Michael Palin.epub (text/part0349.html) - 7',
+            "Picked up at the relatively civilised hour of <<7|20>>.45. To Culross Buildings behind King\x{2019}s Cross and St Pancras. Marvellous location for trainspotters. The sky is grey and it\x{2019}s cold, but we start shooting without much ado amidst the flapping washing. First scenes with our prostitutes.",
           ],
           [
             1,
@@ -999,8 +999,8 @@ After a day and a half languishing unhappily at her hotel, Maggie is here, but l
           ],
           [
             1,
-            '[ap 08:00] Halfway to Hollywood_ Diaries 1980 to 1988 - Michael Palin.epub (text/part0381.html) - until eight',
-            "We work on the extra hour, <<until eight|9:1>>. Like yesterday I am only needed in the last shot \x{2013} to be squashed behind a door. For various reasons the scene between Corbett [David Suchet] and Lady A does not play right, and Maggie is uncomfortable. We wrap at <<8.15|9c:1>>, but, though the scene was satisfactory, neither Richard nor I felt it was exceptional, which is why we employ Maggie.",
+            '[ap 08:00] Halfway to Hollywood_ Diaries 1980 to 1988 - Michael Palin.epub (text/part0381.html) - eight',
+            "We work on the extra hour, until <<eight|9:1>>. Like yesterday I am only needed in the last shot \x{2013} to be squashed behind a door. For various reasons the scene between Corbett [David Suchet] and Lady A does not play right, and Maggie is uncomfortable. We wrap at <<8.15|9c:1>>, but, though the scene was satisfactory, neither Richard nor I felt it was exceptional, which is why we employ Maggie.",
           ],
           [
             1,
@@ -1216,7 +1216,7 @@ I\x{2019}m home at <<1.15|9c:1>>.
           [
             1,
             '[ap 06:00] Halfway to Hollywood_ Diaries 1980 to 1988 - Michael Palin.epub (text/part0421.html) - six',
-            'Tonight at <<six|9b>> and eight are the first two public showings of The Missionary in America. Keep remembering this at odd times during the day. Moments of pleasurable anticipation.',
+            'Tonight at <<six|9b>> and <<eight|20a>> are the first two public showings of The Missionary in America. Keep remembering this at odd times during the day. Moments of pleasurable anticipation.',
           ],
           [
             1,
@@ -2027,7 +2027,7 @@ Roy, stocky, bronzed from a sun-lamp, turns out to be a Buddhist chanter. Says h
           ],
           [
             1,
-            '[ap > 01:30] Halfway to Hollywood_ Diaries 1980 to 1988 - Michael Palin.epub (text/part0681.html) - just after half past one',
+            '[ap > 01:31] Halfway to Hollywood_ Diaries 1980 to 1988 - Michael Palin.epub (text/part0681.html) - just after half past one',
             "Roy drives me back over the dark, silent moors. I\x{2019}m back at the Post House <<just after half past one|10>>. I tell the receptionist I\x{2019}ve been trying to get a pig in a car. She obviously thinks I\x{2019}m completely drunk. But I have witnesses.",
           ],
           [
@@ -2575,13 +2575,8 @@ Elinor [our production manager] and her local team are deploying extras along th
           ],
           [
             1,
-            '[ap 00:59] Halfway to Hollywood_ Diaries 1980 to 1988 - Michael Palin.epub (text/part0913.html) - one-to-one',
-            "Rachel gives her cheeky Cockney character \x{2013} Carrots \x{2013} a hint of timidity and uncertainty which she shouldn\x{2019}t really have. But she delivers her lines with good expression, clarity and assurance, and once she\x{2019}s free of the stageful of unmoving people and into <<one-to-one|10a:0>> acting she\x{2019}s excellent. She sings two solos falteringly and a third very promisingly and robustly.",
-          ],
-          [
-            1,
-            '[ap 08:00] Halfway to Hollywood_ Diaries 1980 to 1988 - Michael Palin.epub (text/part0914.html) - until eight',
-            "A very sultry night, through which I sleep with considerable ease, <<until eight|9:0>>. At <<9.15|9m>> I am at Acland Burghley School to discuss Tom\x{2019}s progress with Mr Trafford, his D&T [Design and Technology] teacher.",
+            '[ap 08:00] Halfway to Hollywood_ Diaries 1980 to 1988 - Michael Palin.epub (text/part0914.html) - eight',
+            "A very sultry night, through which I sleep with considerable ease, until <<eight|9:0>>. At <<9.15|9m>> I am at Acland Burghley School to discuss Tom\x{2019}s progress with Mr Trafford, his D&T [Design and Technology] teacher.",
           ],
           [
             1,
@@ -3029,8 +3024,8 @@ My dressing room is quite spacious. It\x{2019}s separated from Kevin\x{2019}s by
           ],
           [
             1,
-            '[ap 06:00] Halfway to Hollywood_ Diaries 1980 to 1988 - Michael Palin.epub (text/part1065.html) - until six',
-            "There is no sunshine about either \x{2013} just a melancholy-inducing low cloud. At last, in mid-afternoon, I\x{2019}m required, and work on, concentratedly, <<until six|9:0>>. Then a look at the rushes.",
+            '[ap 06:00] Halfway to Hollywood_ Diaries 1980 to 1988 - Michael Palin.epub (text/part1065.html) - six',
+            "There is no sunshine about either \x{2013} just a melancholy-inducing low cloud. At last, in mid-afternoon, I\x{2019}m required, and work on, concentratedly, until <<six|9:0>>. Then a look at the rushes.",
           ],
           [
             1,

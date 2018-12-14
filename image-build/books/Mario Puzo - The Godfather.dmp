@@ -146,8 +146,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[12:00] The Godfather - Mario Puzo.epub (OEBPS/part23_split_001.xhtml) - noontime',
-            "Jules whirled around and said, \x{201c}Do you always get looped before <<noontime|13>>?\x{201d}",
+            '[< 12:00] The Godfather - Mario Puzo.epub (OEBPS/part23_split_001.xhtml) - before noontime',
+            "Jules whirled around and said, \x{201c}Do you always get looped <<before noontime|13>>?\x{201d}",
           ],
           [
             1,
@@ -166,8 +166,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[00:00] The Godfather - Mario Puzo.epub (OEBPS/part29_split_001.xhtml) - midnight',
-            "\x{201c}Before <<midnight|13>>,\x{201d} Michael said. \x{201c}Don\x{2019}t wait up for me if you feel tired.\x{201d}",
+            '[< 00:00] The Godfather - Mario Puzo.epub (OEBPS/part29_split_001.xhtml) - Before midnight',
+            "\x{201c}<<Before midnight|13>>,\x{201d} Michael said. \x{201c}Don\x{2019}t wait up for me if you feel tired.\x{201d}",
           ],
           [
             1,
@@ -251,8 +251,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[00:00] The Godfather - Mario Puzo.epub (OEBPS/part3_split_001.xhtml) - midnight',
-            "\x{201c}Yeah,\x{201d} Sonny said. He hung up. He went over to a small wall safe and unlocked it. From it he took an indexed book bound in blue leather. He opened it to the T\x{2019}s until he found the entry he was looking for. It read, \x{201c}Ray Farrell \$5,000 Christmas Eve.\x{201d} This was followed by a telephone number. Sonny dialed the number and said, \x{201c}Farrell?\x{201d} The man on the other end answered, \x{201c}Yes.\x{201d} Sonny said, \x{201c}This is Santino Corleone. I want you to do me a favor and I want you to do it right away. I want you to check two phone numbers and give me all the calls they got and all the calls they made for the last three months.\x{201d} He gave Farrell the number of Paulie Gatto \x{2018}s home and Clemenza\x{2019}s home. Then he said, \x{201c}This is important. Get it to me before <<midnight|13>> and you\x{2019}ll have an extra very Merry Christmas.\x{201d}",
+            '[< 00:00] The Godfather - Mario Puzo.epub (OEBPS/part3_split_001.xhtml) - before midnight',
+            "\x{201c}Yeah,\x{201d} Sonny said. He hung up. He went over to a small wall safe and unlocked it. From it he took an indexed book bound in blue leather. He opened it to the T\x{2019}s until he found the entry he was looking for. It read, \x{201c}Ray Farrell \$5,000 Christmas Eve.\x{201d} This was followed by a telephone number. Sonny dialed the number and said, \x{201c}Farrell?\x{201d} The man on the other end answered, \x{201c}Yes.\x{201d} Sonny said, \x{201c}This is Santino Corleone. I want you to do me a favor and I want you to do it right away. I want you to check two phone numbers and give me all the calls they got and all the calls they made for the last three months.\x{201d} He gave Farrell the number of Paulie Gatto \x{2018}s home and Clemenza\x{2019}s home. Then he said, \x{201c}This is important. Get it to me <<before midnight|13>> and you\x{2019}ll have an extra very Merry Christmas.\x{201d}",
           ],
           [
             1,
