@@ -300,8 +300,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[00:00] Advise and Consent - Allen Drury.epub (AC_split_026.html) - midnight',
-            "\x{201c}We won\x{2019}t leave together,\x{201d} Bob Munson said, \x{201c}and anyway, it won\x{2019}t be much before <<midnight|13>>, and by that time very few people will be alert enough to notice we aren\x{2019}t around any longer.\x{201d}",
+            '[< 00:00] Advise and Consent - Allen Drury.epub (AC_split_026.html) - before midnight',
+            "\x{201c}We won\x{2019}t leave together,\x{201d} Bob Munson said, \x{201c}and anyway, it won\x{2019}t be much <<before midnight|13>>, and by that time very few people will be alert enough to notice we aren\x{2019}t around any longer.\x{201d}",
           ],
           [
             1,
@@ -604,8 +604,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap ~ 08:00] Advise and Consent - Allen Drury.epub (AC_split_038.html) - about eight',
-            "\x{201c}I\x{2019}ll try to slip away and get over to the House side,\x{201d} he said. \x{201c}Pick me up in the archway under the main steps over there <<about eight|9b>>-thirty.\x{201d}",
+            '[ap ~ 08:30] Advise and Consent - Allen Drury.epub (AC_split_038.html) - about eight-thirty',
+            "\x{201c}I\x{2019}ll try to slip away and get over to the House side,\x{201d} he said. \x{201c}Pick me up in the archway under the main steps over there <<about eight-thirty|9b>>.\x{201d}",
           ],
           [
             1,
@@ -674,8 +674,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[00:00] Advise and Consent - Allen Drury.epub (AC_split_039.html) - midnight',
-            "\x{201c}Senators will say,\x{201d} he said, and his voice grew sarcastic, \x{201c}as the press says and as the nominee himself said, \x{2018}Oh, then you want a war, Senator!\x{2019} By God,\x{201d} he said, \x{201c}I do not! But I know something that too many Americans, including this nominee, forget, and that is that unless we are prepared to accept the possibility of war and act fearlessly in defense of our principles in spite of it, then war will come as certainly as that clock above the Chair will presently strike the hour of twelve <<midnight|13>>.",
+            '[00:00] Advise and Consent - Allen Drury.epub (AC_split_039.html) - twelve midnight',
+            "\x{201c}Senators will say,\x{201d} he said, and his voice grew sarcastic, \x{201c}as the press says and as the nominee himself said, \x{2018}Oh, then you want a war, Senator!\x{2019} By God,\x{201d} he said, \x{201c}I do not! But I know something that too many Americans, including this nominee, forget, and that is that unless we are prepared to accept the possibility of war and act fearlessly in defense of our principles in spite of it, then war will come as certainly as that clock above the Chair will presently strike the hour of <<twelve midnight|13>>.",
           ],
           [
             1,

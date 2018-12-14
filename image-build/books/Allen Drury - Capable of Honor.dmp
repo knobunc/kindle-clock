@@ -19,12 +19,12 @@ $VAR1 = [
             '[10:00] Capable of Honor - Allen Drury.epub (CoH_split_007.html) - Ten A.M.',
             "\x{201c}What time will you be back on Thursday?\x{201d}
 \x{201c}<<Ten A.M.|5>>, weather permitting.\x{201d}
-\x{201c}Very well,\x{201d} she said in a level tone. \x{201c}I think we can be there at <<noon|9b>>.\x{201d}",
+\x{201c}Very well,\x{201d} she said in a level tone. \x{201c}I think we can be there at <<noon|13>>.\x{201d}",
           ],
           [
             1,
             '[12:00] Capable of Honor - Allen Drury.epub (CoH_split_007.html) - noon',
-            "\x{201c}Very well,\x{201d} she said in a level tone. \x{201c}I think we can be there at <<noon|9b>>.\x{201d}",
+            "\x{201c}Very well,\x{201d} she said in a level tone. \x{201c}I think we can be there at <<noon|13>>.\x{201d}",
           ],
           [
             1,
@@ -168,7 +168,7 @@ $VAR1 = [
           [
             1,
             '[ap 07:30] Capable of Honor - Allen Drury.epub (CoH_split_016.html) - seven-thirty',
-            "Of these, the one belonging to the Governor of the State of California was perhaps the least at ease as the evening drew on to the hour of <<seven-thirty|5k:1>> when, with the honor guest and other notables, he must join the pre-banquet reception and then the shambling little parade to the head table that always distinguishes such occasions in Washington. He was very much aware that Walter intended to make his persuasions as inescapable as possible, and to his own introductory remarks he and Ceil had given intensive thought in the hours that had elapsed since the disastrous lunch at \x{201c}Salubria\x{201d} and the President\x{2019}s talk. He knew, if the News and Star did not, that the President would not attend, for the President had called early in the afternoon and told him so. He was not bothering to inform Walter, the President said with an ironic little laugh, because he thought Walter probably suspected; but he did want Ted to know that it was nothing personal as far as he was concerned.",
+            "Of these, the one belonging to the Governor of the State of California was perhaps the least at ease as the evening drew on to the hour of <<seven-thirty|20>> when, with the honor guest and other notables, he must join the pre-banquet reception and then the shambling little parade to the head table that always distinguishes such occasions in Washington. He was very much aware that Walter intended to make his persuasions as inescapable as possible, and to his own introductory remarks he and Ceil had given intensive thought in the hours that had elapsed since the disastrous lunch at \x{201c}Salubria\x{201d} and the President\x{2019}s talk. He knew, if the News and Star did not, that the President would not attend, for the President had called early in the afternoon and told him so. He was not bothering to inform Walter, the President said with an ironic little laugh, because he thought Walter probably suspected; but he did want Ted to know that it was nothing personal as far as he was concerned.",
           ],
           [
             1,
