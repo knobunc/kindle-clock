@@ -1,8 +1,8 @@
 $VAR1 = [
           [
             1,
-            '[12:00] The Mark of Athena - Rick Riordan.epub (text/part0015.html) - high noon',
-            "The god glanced at the sun, which had climbed almost to <<high noon|13>>. \x{201c}It\x{2019}s unlike Ceres to be late, unless she sensed something dangerous in this area. Or\x{2026}\x{201d}",
+            '[< 12:00] The Mark of Athena - Rick Riordan.epub (text/part0015.html) - almost to high noon',
+            "The god glanced at the sun, which had climbed <<almost to high noon|13>>. \x{201c}It\x{2019}s unlike Ceres to be late, unless she sensed something dangerous in this area. Or\x{2026}\x{201d}",
           ],
           [
             1,
@@ -13,13 +13,6 @@ $VAR1 = [
             1,
             '[11:00] The Mark of Athena - Rick Riordan.epub (text/part0021.html) - eleven AM',
             "The god\x{2019}s voice reverberated through the aquarium\x{2019}s sound system, echoing down the tunnel. \x{201c}Yes, good! Fighting is good! You see, Mother never trusted me with big assignments, but she did agree that I could keep anything I caught. You two will make an excellent exhibit\x{2014}the only demigod spawn of Poseidon in captivity. \x{2018}Demigod Terrors\x{2019}\x{2014}yes, I like that! We already have sponsorship lined up with Bargain Mart. You can fight each other every day at <<eleven AM|5>> and <<one PM|5>>, with an evening show at <<seven PM|5>>.\x{201d}",
-          ],
-          [
-            1,
-            '[ap 00:57] The Mark of Athena - Rick Riordan.epub (text/part0024.html) - three to one',
-            "Annabeth gunned the engines. The hull shuddered as they picked up speed. The docks of the island were only a hundred yards away now, but a dozen more eagles were soaring overhead, each carrying a Roman demigod in its claws.
-The Argo II\x{2019}s crew would be outnumbered at least <<three to one|10a:0>>.
-\x{201c}Percy,\x{201d} Annabeth said, \x{201c}we\x{2019}re going to come in hard. I need you to control the water so we don\x{2019}t smash into the docks. Once we\x{2019}re there, you\x{2019}re going to have to hold off the attackers. The rest of you help him guard the ship.\x{201d}",
           ],
           [
             1,

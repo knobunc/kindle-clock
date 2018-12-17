@@ -1,12 +1,6 @@
 $VAR1 = [
           [
             1,
-            '[ap 10:50] What We Cannot Know - Marcus du Sautoy.epub (OPS/html/chapter001.html) - 10 to 11',
-            "Calculus: making sense of zero divided by zero
-Suppose that a car starts from a stationary position. When the stopwatch starts, the driver slams his foot on the accelerator. Suppose that we record that after t seconds the driver has covered t \x{d7} t metres. How fast is the car going after 10 seconds? We get an approximation of the speed by looking at how far the car has travelled in the period from <<10 to 11|10a:0>> seconds. The average speed during this second is (11 \x{d7} 11 \x{2013} 10 \x{d7} 10)/1 = 21 metres per second.",
-          ],
-          [
-            1,
             '[ap 10:25] What We Cannot Know - Marcus du Sautoy.epub (OPS/html/chapter001.html) - 10.25',
             "Slightly slower, of course, because the car is accelerating, so on average it is going faster in the second half second from 10 seconds to 11 seconds. But now we take an even smaller snapshot. What about halving the window of time again:
 (<<10.25|5a:0>> \x{d7} <<10.25|5a:0>> \x{2013} 10 \x{d7} 10)/0.25 = 20.25 metres per second.

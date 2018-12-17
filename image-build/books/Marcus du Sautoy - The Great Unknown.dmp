@@ -1,11 +1,6 @@
 $VAR1 = [
           [
             1,
-            '[ap 10:50] The Great Unknown_ Seven Journeys to the F - Marcus du Sautoy.epub (OEBPS/xhtml/10_Chapter_1.xhtml) - ten to eleven',
-            "Suppose that a car starts from a stationary position. When the stopwatch starts, the driver slams his foot on the accelerator. Suppose that we record that after t seconds the driver has covered t x t meters. How fast is the car going after ten seconds? We get an approximation of the speed by looking at how far the car has traveled in the period from <<ten to eleven|10a:0>> seconds. The average speed during this time is (11 x 11 \x{2212} 10 x 10)/1 = 21 meters per second.",
-          ],
-          [
-            1,
             '[ap 10:25] The Great Unknown_ Seven Journeys to the F - Marcus du Sautoy.epub (OEBPS/xhtml/10_Chapter_1.xhtml) - 10.25',
             "Slightly slower, of course, because the car is accelerating, so on average it is going faster in the second half second. But what if we take an even smaller snapshot. What about halving the window of time again:
 (<<10.25|5a:0>> x <<10.25|5a:0>> \x{2212} 10 x 10)/0.25 = 20.25 meters per second.
