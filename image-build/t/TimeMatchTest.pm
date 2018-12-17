@@ -2582,7 +2582,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [08:28]: 8.28',
-            'And at <<8.28|3:0>> on the following morning, with a novel chilliness about the upper lip, and a vast excess of strength and spirits, I was sitting in a third-class carriage, bound for Germany, and dressed as a young sea-man, in a pea-jacket, peaked cap, and comforter.'
+            'And at <<8.28|9:0>> on the following morning, with a novel chilliness about the upper lip, and a vast excess of strength and spirits, I was sitting in a third-class carriage, bound for Germany, and dressed as a young sea-man, in a pea-jacket, peaked cap, and comforter.'
           ],
           [
             1,

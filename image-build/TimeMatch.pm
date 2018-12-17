@@ -282,7 +282,8 @@ my $month_re = qr{ January | February | March | April | May | June
 my $special_day_re = qr{ Christmas | Easter | New \s+ Year s? }xin;
 
 # Time periods
-my $time_periods_re = qr{ ( year | month | week | day | hour | half | minute ) s? }xin;
+my $some_time_periods_re = qr{ ( year | month | week | day | hour | half | minute ) s? }xin;
+my $time_periods_re      = qr{ ( day | night | second ) s? | $some_time_periods_re}xin;
 
 # Things that never follow times
 my $never_follow_times_exp_re =
@@ -304,7 +305,8 @@ my $never_follow_times_exp_re =
         | cubic | square
         | ( hundred | thousand | million | billion ) (th)?
         | dozen | score | gross | grand
-        | ( \w+ \s+)? $time_periods_re
+        | ( \w+ \s+)? $some_time_periods_re
+        | $time_periods_re
         | seconds
         | century | centuries | decade | millenium | millenia
         | third | half | halve | quarter | fifth | sixth | seventh | eighth | nineth | tenth
