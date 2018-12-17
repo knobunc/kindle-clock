@@ -411,7 +411,7 @@ sub do_match {
                 while ($part ne '') {
                     # Work out if we are following on from a masked >>
                     $last_masked = ( $new[-1] // '' ) =~ $masked_re ? 1 : 0;
-                    $last_timey  = ( not $last_masked && ($new[-1] // '') =~ $timey_re ) ? 1 : 0;
+                    $last_timey  = ( not $last_masked and ($new[-1] // '') =~ $timey_re ) ? 1 : 0;
 
                     if ($part =~ m{$r}p) {
                         my $match =
@@ -482,7 +482,7 @@ sub get_masks {
     push @r,qr{ $bb_re
                 (?<pr>
                  ( ( odds | betting | bets? ) ( \s+ ( of | being | at ) )? ( \s+ $rel_words )?
-                 | got | get | numbers? ( from \s+ )?
+                 | got | get | numbers? ( \s+ from )?
                  | the | offered | add
                  ) \s+
                 )
@@ -1004,8 +1004,10 @@ sub get_matches {
     # at 1237 when
     # by 8.45 on saturday
     push @r,qr{ (?<li> $not_in_match )
-                (?<pr> ( at | $twas_re | by | by \s+ the ) \s+ )
-                (?<t1> $hour_re [?]? [-.\s]? $min_re )
+                ( (?<pr> ( at | $twas_re | by | by \s+ the ) \s+ )
+                | (?<t1> $rel_words \s+ )
+                )
+                (?<t2> $hour_re [?]? [-.\s]? $min_re )
                 (?<po>
                  \s+ ( ( ( on | in ) \s+ )? $weekday_re
                        | when
@@ -1531,7 +1533,7 @@ sub get_matches {
                   $hour24_word_re
                   ( $ampm_ph_re )? )
                 (?<po>
-                  \s+ in \s+ ( \w+ \s+ ){0,3}? $morn_re s?
+                  \s+ ( in | on ) \s+ ( \w+ \s+ ){0,3}? $morn_re s?
                 | \s+ or \s+ ( \w+ \s+ ){0,3}? ( earlier | later )
                 )
                 $ba_re
