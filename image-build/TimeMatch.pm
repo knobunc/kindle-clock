@@ -53,7 +53,8 @@ my $all_named_times = qr{ $ecclesiastical_re | prime | nones
 my $midnight_noon_re = qr{ $noon_re | $midnight_re | $ecclesiastical_re }xin;
 
 # Numbers 1-9 as words
-my $low_num_re = qr{ one | two | three | four | five | six | seven | eight | nine }xi;
+my $low_num_re   = qr{ one | two | three | four | five | six | seven | eight | nine }xi;
+my $z_low_num_re = qr{ $low_num_re | zero | oh }xin;
 
 # The hours 1-12 as words
 my $hour12_word_re = qr{ $low_num_re | ten | eleven | twelve | $midnight_noon_re }xi;
@@ -300,17 +301,19 @@ my $never_follow_times_exp_re =
         | centimeter | cm | meter | kilometer | km | klick
         | centimetre | metre | kilometre
         | inch | inches | foot | feet | ft | yard | yd | mile | mi | knot | kt | block
-        | g $sq? s
-        | pound | lb | kilogram | kg | ton | tonne | kiloton
+        | pound | lb | kilogram | kg | kilo | ton | tonne | kiloton  | gram | ounce | oz
+        | cup | pint | quart | gallon
+        | gravities | gravity | g $sq? s
         | cubic | square
         | ( hundred | thousand | million | billion ) (th)?
         | dozen | score | gross | grand
         | ( \w+ \s+)? $some_time_periods_re
-        | $time_periods_re
+        | (light (\s+|-))? $time_periods_re
         | final | false | true
         | century | centuries | decade | millenium | millenia
         | third | half | halve | quarter | fifth | sixth | seventh | eighth | nineth | tenth
         | dollar | buck | cent | pound | quid
+        | $(\d+,)*\d+(\.\d+)
         | shilling | guinea | penny | pennies | yuan | galleon | crown
         | and \s+ sixpence
         | kid | children | man | men | woman | women | girl | boy | male | female
@@ -319,7 +322,7 @@ my $never_follow_times_exp_re =
         | book  | volume | plate | illustration | page | chapter | verse | psalm
         | side  | edge   | corner | face
         | Minister
-        | possibilities  against | vote | machine | box
+        | possibilities | against | vote | machine | box | part
         | on \s+ the \s+ field
         | ( tb | gb | mb | kb ) (p)? | baud
         | odds | more
@@ -481,7 +484,7 @@ sub get_masks {
     # add 1 to 19
     push @r,qr{ $bb_re
                 (?<pr>
-                 ( ( odds | betting | bets? ) ( \s+ ( of | being | at ) )? ( \s+ $rel_words )?
+                 ( ( odds | betting | bets? | ratio ) ( \s+ ( of | being | at ) )? ( \s+ $rel_words )?
                  | got | get | numbers? ( \s+ from )?
                  | the | offered | add
                  ) \s+
@@ -631,7 +634,7 @@ sub get_masks {
                   | chapter | line | paragraph | page | issue | volume | figure
                   ) s? \s+
                   \d+ (\. \d+)*
-                  ( (and ,?|,) \s* \d+ (\. \d+)* )*
+                  ( (, \s+ and | ,) \s* \d+ (\. \d+)* )*
                 )
                 $ba_re
                 (?{ $branch = "x12"; })
@@ -703,6 +706,15 @@ sub get_masks {
                 (?<t1> $min_word_re [-\s]+ $min_word_re )
                 (?{ $branch = "x19"; })
               }xin;
+
+    # Lists of forbidden things
+    my $n_r = qr{ \d+ (\. \d+)+  }xin;
+    push @r,qr{ (?<t1> $n_r ( (, | ,? \s+ and ) \s+ $n_r )+ \s+
+                       $never_follow_times_re
+                )
+                (?{ $branch = "x20"; })
+              }xin;
+
 
     return(\@r);
 }
@@ -911,14 +923,13 @@ sub get_matches {
 
     # Simple times
     # 2300h, 23.00h, 2300 hrs
-    my $lnr = qr{ $low_num_re | zero | oh }xin;
     push @r,qr{ $bb_re
                 (?<t1> ( $rel_words \s+ )?
                   ( $hour_dig_re [.:] $minsec_dig_re
                     ( [.:] $minsec_dig_re ( - $minsec_dig_re )? )?
                   | $hour_dig_re $minsec0_dig_re
                     ( ( [.:] $minsec_dig_re | $minsec0_dig_re ) ( - $minsec_dig_re )? )?
-                  | ( $lnr \s+ ){3} $lnr
+                  | ( $z_low_num_re \s+ ){3} $z_low_num_re
                   )
                   ( h | \s* ( hrs | hours ) )
                 )
@@ -1161,7 +1172,8 @@ sub get_matches {
                 (?<pr> ( $twas_re | at | by ) \s+ )
                 (?<t1>
                   $hour_word_re ( \s+ | \s* $ellips \s* | [-] ) $min_word_re
-                  ( \s* $ellips \s* $low_num_re )? ( $ampm_ph_re )?
+                  (             ( \s+ | \s* $ellips \s* | [-] ) $z_low_num_re )?
+                  ( $ampm_ph_re )?
                 )
                 ( $never_follow_times_re (*SKIP)(*FAIL) )?
                 $ba_re
@@ -1333,7 +1345,7 @@ sub get_matches {
                   | $hour_re
                   )
                 )
-                ( $never_follow_times_re (*SKIP)(*FAIL) )?
+                (?! $never_follow_times_re | : \d )
                 $ba_re
                 (?{ $branch = "9:TIMEY";
                     my $xx = $+{xx};
@@ -1460,7 +1472,7 @@ sub get_matches {
                 (?<t1>
                   ( $rel_words \s+ )?
                   $hour_re
-                  ( [-\s]+ $min_re )?
+                  ( [-.:\s]+ $min_re )?
                 )
                 (?! $never_follow_times_re )
                 $ba_re
@@ -1616,7 +1628,7 @@ sub extract_times {
         my $str = $1;
         my $branch;
 
-        my $lnr = qr{ $low_num_re | zero | oh }xin;
+        my $lnr = $z_low_num_re;
         if ($str =~
             m{\A
               ( # one ... thirty ... four
