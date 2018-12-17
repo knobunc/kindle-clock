@@ -625,12 +625,13 @@ sub get_masks {
     # number 9, pp 9
     push @r,qr{ (?<li> $not_in_match )
                 (?<t1>
-                  ( pp?\.
-                  | no\.?
+                  ( pp?s?\.
+                  | nos?\.?
                   | number
-                  | chapter | line | paragraph | page | issue | volume
-                  ) \s+
-                  \d+
+                  | chapter | line | paragraph | page | issue | volume | figure
+                  ) s? \s+
+                  \d+ (\. \d+)*
+                  ( (and ,?|,) \s* \d+ (\. \d+)* )*
                 )
                 $ba_re
                 (?{ $branch = "x12"; })

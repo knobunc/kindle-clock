@@ -3256,11 +3256,6 @@ This last observation applied to the dark gallery, and was indicated by the comp
           ],
           [
             1,
-            'Timestr [10:03]: 10.03',
-            'The date was the 14th of May and the clock on his desk said the time was <<twenty three minutes past ten|10>>, so he tapped in the numbers <<10.23|5a:1>>. At least, that\'s what he meant to do. In fact he typed in the numbers <<10.03|5a:1>>.'
-          ],
-          [
-            1,
             'Timestr [10:05]: five past ten',
             "We both watch as a pair of swans sail regally under the little bridge. Then I glance at my watch. It's already <<five past ten|10>>. \x{201c}We should get going,\x{201d} I say with a little start. Your mother will be waiting.\x{201d} \x{201c}There's no rush,\x{201d} Nathaniel calls as I hasten down the other side of the bridge. \x{201c}We've got all day.\x{201d} He lopes down the bridge. \x{201c}It's OK. You can slow down.\x{201d} I try to match his relaxed pace. But I'm not used to this easy rhythm. I'm used to striding along crowded pavements, fighting my way, pushing and elbowing."
           ],
@@ -3347,7 +3342,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [10:23]: twenty three minutes past ten',
-            'The date was the 14th of May and the clock on his desk said the time was <<twenty three minutes past ten|10>>, so he tapped in the numbers <<10.23|5a:1>>. At least, that\'s what he meant to do. In fact he typed in the numbers <<10.03|5a:1>>'
+            'The date was the 14th of May and the clock on his desk said the time was <<twenty three minutes past ten|10>>, so he tapped in the numbers 10.23. At least, that\'s what he meant to do. In fact he typed in the numbers 10.03'
           ],
           [
             1,
