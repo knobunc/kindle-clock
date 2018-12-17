@@ -44,26 +44,6 @@ beam splitter.",
           ],
           [
             1,
-            '[ap > 01:00] Through Two Doors at Once_ The Elegant Exp - Anil Ananthaswamy.epub (OEBPS/Text/13_5_To_Erase_or_Not_to_.xhtml) - after 1',
-            "Consider
- a source of single photons aimed at a beam splitter. The photon will go
- toward either detector D1 or D2. But unlike the setup we saw earlier 
-when building up to a Mach-Zehnder interferometer, the arm lengths in 
-this setup are unequal, with D2 being much, much farther away than D1, 
-so that it takes, say, 1 second to reach D1 but 5 seconds to reach D2. 
-Quantum mechanics says that, until there\x{2019}s a measurement at either D1 or
- D2, the wavefunction of the photon will be in a superposition of having
- taken both paths. If one second later the photon is detected at D1, the
- wavefunction collapses; the photon is now at D1 and not at D2. Now 
-consider the case when the photon is detected at D2. The detector will 
-click after 5 seconds. But here\x{2019}s the intriguing aspect of this 
-experiment: <<after 1|9:0>> second, if D1 hasn\x{2019}t clicked, we know that the photon has gone the other way and is headed to D2. The negative result (the nondetection at D1 after 1 second) is already giving us information that the photon will
- reach D2: the wavefunction has potentially already collapsed, even 
-though the actual measurement at D2 is yet to occur. It\x{2019}s the simplest 
-example of an interaction-free measurement.",
-          ],
-          [
-            1,
             '[19:55] Through Two Doors at Once_ The Elegant Exp - Anil Ananthaswamy.epub (OEBPS/Text/14_6_Bohmian_Rhapsody_Ob.xhtml) - 1955',
             "But
  before he could do that, his career took a turn for the worse. When his
@@ -76,31 +56,6 @@ collaborating with physicists in Europe, but those hopes were dashed
 when the US State Department confiscated his passport. Bohm was now 
 officially in exile in Brazil and he would stay there until <<1955|9c:0>>, when 
 he would leave for Israel.",
-          ],
-          [
-            1,
-            '[ap ~ 01:00] Through Two Doors at Once_ The Elegant Exp - Anil Ananthaswamy.epub (OEBPS/Text/14_6_Bohmian_Rhapsody_Ob.xhtml) - about 100',
-            "The
- experiment involves first creating a cloud of argon atoms in an 
-excited, metastable state (meaning they are stable in this state for 
-<<about 100|18:0>> seconds), and beam these atoms toward a double slit. After 
-going through the two slits, and before they hit a detector, the atoms 
-have to pass through a magnetic field. And just as in Steinberg\x{2019}s 
-experiment, where the angle of the path of the photons through the 
-calcite crystal is reflected in a change in the angle of polarization of
- the photons, the path the argon atoms take through the magnetic field 
-is also reflected in certain internal properties of the atoms. This is a
- weak measurement. A series of such weak measurements can then be used 
-to reconstruct the trajectories of the atoms. In theory.",
-          ],
-          [
-            1,
-            '[ap 10:43] Through Two Doors at Once_ The Elegant Exp - Anil Ananthaswamy.epub (OEBPS/Text/15_7_Gravity_Kills_the_Q.xhtml) - 10-43',
-            "According to Penrose,
- a superposition of two spacetimes creates what he calls a \x{201c}blister\x{201d} in 
-the four-dimensional volume of spacetime. When that blister grows to one
- Planck unit in four dimensions, where three of those are space 
-dimensions (one Planck length equals about 10-35 meters) and one is the dimension of time (one Planck time is of the order of <<10-43|5a:0>> seconds), the superposition will spontaneously collapse to one state or the other.",
           ],
           [
             1,
@@ -192,33 +147,6 @@ in time according to Schr\x{f6}dinger\x{2019}s
  wavefunction abruptly changes to a definite state with some probability
  that can be calculated\x{2014}a so-called probabilistic jump. Everett found 
 this untenable.",
-          ],
-          [
-            1,
-            '[ap 10:20] Through Two Doors at Once_ The Elegant Exp - Anil Ananthaswamy.epub (OEBPS/Text/16_8_Healing_an_Ugly_Sca.xhtml) - 10-20',
-            "Carroll suggests one way out: think of probability as something subjective. Carroll and philosopher Charles \x{201c}Chip\x{201d} Sebens have argued that |a|2 and |b|2
- should be interpreted as numbers that represent our uncertainty about 
-the outcome of a measurement. So, as in classical physics, probabilities
- here are due to our ignorance, except in this case the ignorance is 
-about something quite dramatic: we don\x{2019}t know which branch of the 
-wavefunction we are on. Let\x{2019}s say you did one run of the experiment, 
-sending one photon through the interferometer. D1 clicks in one branch 
-and D2 clicks in the other branch of the wavefunction, decoherence 
-ensues, and you\x{2019}ll soon enough find yourself in a branch of the universe
- in which either D1 clicked or D2 clicked. \x{201c}The branching happens first,
- because decoherence is very, very fast, on microscopic time scales, 
-[of] <<10-20|5a:0>> seconds or less. There is always a 
-period of time in which the branching has occurred and there are two 
-copies of you, but those two copies are exactly the same, because they 
-don\x{2019}t know what branch they are on yet,\x{201d} said Carroll. Thus, even though
- there are two copies of you, for a very tiny time period, those two 
-copies are ignorant about the branching, and it\x{2019}s this ignorance that 
-explains the outcomes of experiments in terms of probabilities. Carroll 
-and Sebens have shown that in that brief moment, post-decoherence, if 
-you were to assign probabilities to D1 clicking or D2 clicking, under 
-certain simple assumptions, you\x{2019}d end up with |a|2 and |b|2,
- respectively: which is the Born rule. \x{201c}There\x{2019}s a real world,\x{201d} but we 
-are uncertain about where we are in that real world, said Carroll.",
           ],
           [
             1,

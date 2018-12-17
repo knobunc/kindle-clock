@@ -307,7 +307,7 @@ my $never_follow_times_exp_re =
         | dozen | score | gross | grand
         | ( \w+ \s+)? $some_time_periods_re
         | $time_periods_re
-        | seconds
+        | final | false | true
         | century | centuries | decade | millenium | millenia
         | third | half | halve | quarter | fifth | sixth | seventh | eighth | nineth | tenth
         | dollar | buck | cent | pound | quid
@@ -337,6 +337,7 @@ my $is_timey    = 0;
 my $is_racing   = 0;
 my $is_trainy   = 0;
 my $last_masked = 0;
+my $last_timey  = 0;
 
 sub do_match {
     my ($line, $raw) = @_;
@@ -399,7 +400,8 @@ sub do_match {
     my ($r) = get_matches();
 
     # The masked regex
-    my $masked_re = qr{<< ( [^>]+ ) \| [yx]\d+\w? >>}xi;
+    my $masked_re = qr{<< ( [^|>]+ ) [|] [yx] \d+\w?  (:TIMEY)? >>}xi;
+    my $timey_re  = qr{<< ( [^|>]+ ) [|]     (\d+ \w?) :TIMEY   >>}xi;
 
     my @parts = $line;
     foreach my $r (@$masks, @$r) {
@@ -409,6 +411,7 @@ sub do_match {
                 while ($part ne '') {
                     # Work out if we are following on from a masked >>
                     $last_masked = ( $new[-1] // '' ) =~ $masked_re ? 1 : 0;
+                    $last_timey  = ( not $last_masked && ($new[-1] // '') =~ $timey_re ) ? 1 : 0;
 
                     if ($part =~ m{$r}p) {
                         my $match =
@@ -437,7 +440,7 @@ sub do_match {
 
     ## Fixups
     # Change TIMEY to $is_timey's value
-    $line =~ s{<< ([^|>]+) [|] (\d+ \w?) :TIMEY >>}{<<$1|$2:$is_timey>>}xg;
+    $line =~ s{$timey_re}{<<$1|$2:$is_timey>>}xg;
 
     # Get absolute words out
     $line =~ s{<< ( ( at | by | until ) \s+ )}{$1<<}xgi;
@@ -479,7 +482,8 @@ sub get_masks {
     push @r,qr{ $bb_re
                 (?<pr>
                  ( ( odds | betting | bets? ) ( \s+ ( of | being | at ) )? ( \s+ $rel_words )?
-                 | got | get | numbers? | the | offered | add
+                 | got | get | numbers? ( from \s+ )?
+                 | the | offered | add
                  ) \s+
                 )
                 (?<t1> $min_re \s+ ( to | of ) \s+ $min_re )
@@ -502,7 +506,7 @@ sub get_masks {
     push @r,qr{ \b
                 (?<t1>
                   one $sq s
-                | the \s+ only \s+ one
+                | the \s+ ( only | last | first | final | ultimate ) \s+ one
                 | saw \s+ one
                 | fallen \s+ one
                 | was \s+ at \s+ one
@@ -1449,7 +1453,7 @@ sub get_matches {
               }xin;
     # ^ and twelve five
     push @r,qr{ \A
-                (?<pr> ,? \s+ and \s+ )
+                (?<pr> ,? \s+ (or | and) \s+ )
                 (?<t1>
                   ( $rel_words \s+ )?
                   $hour_re
@@ -1457,7 +1461,9 @@ sub get_matches {
                 )
                 (?! $never_follow_times_re )
                 $ba_re
-                (?{ $branch = $last_masked ? "x20a" : "20a"; })
+                (?{ $branch  = $last_masked ? "x20a" : "20a";
+                    $branch .= ":TIMEY" if $last_timey;
+                  })
               }xin;
 
     # eleven fifty-six

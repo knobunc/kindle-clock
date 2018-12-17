@@ -31,11 +31,6 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap > 04:00] The Martian - Andy Weir.epub (text/part0004.html) - After four',
-            'I slept in late today. I deserved it. <<After four|9:0>> nights of awful sleep in the rover, my bunk felt like the softest, most profoundly beautiful featherbed ever made.',
-          ],
-          [
-            1,
             '[03:00] The Martian - Andy Weir.epub (text/part0005.html) - 3am',
             'Mindy stared at the ceiling. She had little else to do. The <<3am|5>> shift was pretty dull. Only a constant stream of coffee kept her awake.',
           ],
@@ -650,19 +645,7 @@ I plan to leave for Schiaparelli 100 sols before my rescue (or death), and I swe
           ],
           [
             1,
-            '[ap ~ 05:00] The Martian - Andy Weir.epub (text/part0025.html) - About 5',
-            "\x{201c}7...6...5...mooring clamps released...\x{201d}
-\x{201c}<<About 5|9:0>> seconds, Watney,\x{201d} Lewis said to her headset. \x{201c}Hang on.\x{201d}
-\x{201c}See you in a few, Commander,\x{201d} Watney radioed back.",
-          ],
-          [
-            1,
             '[ap 01:03] The Martian - Andy Weir.epub (text/part0025.html) - 1.03',
             "\x{201c}Copy,\x{201d} Johanssen said. Unstowing the emergency seal, she plugged the entrance to the bridge. With a few turns of the crank, the job was done. She returned to her station and ran a quick test. \x{201c}Increasing Bridge pressure to <<1.03|5a:0>> atmospheres... pressure is steady we have a good seal.\x{201d}",
-          ],
-          [
-            1,
-            '[ap > 04:00] The Martian - Andy Weir.epub (text/part0025.html) - After four',
-            '<<After four|9:0>> seconds, the shaking died down and the ship returned to weightlessness.',
           ],
         ];
