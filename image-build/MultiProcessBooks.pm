@@ -344,7 +344,7 @@ sub eta {
                 $done++;
                 $done_time += $t->{dur};
             } else {
-                $init = 0;
+                $init++;
                 $init_time += $t->{dur};
             }
         }
@@ -372,7 +372,7 @@ sub eta {
     my $lapsed   = time - $self->{run_start};
     my $tot_time = $lapsed + $est_time;
 
-    return ($done, $run, $rem, $lapsed, $tot_time);
+    return ($done+$init, $run, $rem, $lapsed, $tot_time);
 }
 
 sub fmt_min {
