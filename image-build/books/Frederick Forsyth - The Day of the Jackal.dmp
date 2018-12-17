@@ -146,8 +146,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[12:00] The Day of the Jackal - Frederick Forsyth.epub (OEBPS/chapter07.xhtml) - noon',
-            "He dressed himself in one of his habitual striped shirts that were fashionable in 1963, a dove-grey lightweight suit as opposed to his usual check worsted ten-ounce, and a pair of light black leather sneakers from Gucci. A black silk knitted tie completed the ensemble. He took the rucksack in one hand and went down to his car, parked in the hotel lot. This he locked in the boot. Returning to the foyer he took delivery of his packed lunch, nodded a reply to the desk clerk\x{2019}s wishes for a bon voyage, and by nine was speeding out of Brussels along the old E.40 highway towards Namur. The flat countryside was already basking in a warm sunshine that gave a hint of a scorching day to come. His road map told him it was ninety-four miles to Bastogne and he added a few more to find a quiet place in the hills and forests to the south of the little town. He estimated he would do the hundred miles by <<noon|13>> easily, and gunned the Simca Aronde into another long, flat straight across the Walloon plain.",
+            '[ap 09:00] The Day of the Jackal - Frederick Forsyth.epub (OEBPS/chapter07.xhtml) - nine',
+            "He dressed himself in one of his habitual striped shirts that were fashionable in 1963, a dove-grey lightweight suit as opposed to his usual check worsted ten-ounce, and a pair of light black leather sneakers from Gucci. A black silk knitted tie completed the ensemble. He took the rucksack in one hand and went down to his car, parked in the hotel lot. This he locked in the boot. Returning to the foyer he took delivery of his packed lunch, nodded a reply to the desk clerk\x{2019}s wishes for a bon voyage, and by <<nine|9:1>> was speeding out of Brussels along the old E.40 highway towards Namur. The flat countryside was already basking in a warm sunshine that gave a hint of a scorching day to come. His road map told him it was ninety-four miles to Bastogne and he added a few more to find a quiet place in the hills and forests to the south of the little town. He estimated he would do the hundred miles by <<noon|13>> easily, and gunned the Simca Aronde into another long, flat straight across the Walloon plain.",
           ],
           [
             1,
@@ -186,8 +186,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap < 00:00] The Day of the Jackal - Frederick Forsyth.epub (OEBPS/chapter08.xhtml) - nearly twelve',
-            'It was <<nearly twelve|9:1>> <<midnight|13>> before they had finished. Despite the open window the air was blue with smoke and smelt like a powder magazine.',
+            '[< 00:00] The Day of the Jackal - Frederick Forsyth.epub (OEBPS/chapter08.xhtml) - nearly twelve midnight',
+            'It was <<nearly twelve midnight|13>> before they had finished. Despite the open window the air was blue with smoke and smelt like a powder magazine.',
           ],
           [
             1,
@@ -717,7 +717,7 @@ It was not until <<four o\x{2019}clock|6>> that Ernestine got her way.
           [
             1,
             '[ap > 04:30] The Day of the Jackal - Frederick Forsyth.epub (OEBPS/chapter18.xhtml) - past four-thirty',
-            "A few minutes later Louison was pedalling down the drive with all the force his frightened legs could muster. He found Dr Mathieu, who had tended the ills of the people of Haute Chalonni\x{e8}re for over forty years, asleep under the apricot tree at the bottom of his garden, and the old man agreed to come at once. It was <<past four-thirty|9:1>> when his car clattered into the courtyard of the ch\x{e2}teau and fifteen minutes later when he straightened up from the bed and turned round on the two retainers who stood in the doorway.",
+            "A few minutes later Louison was pedalling down the drive with all the force his frightened legs could muster. He found Dr Mathieu, who had tended the ills of the people of Haute Chalonni\x{e8}re for over forty years, asleep under the apricot tree at the bottom of his garden, and the old man agreed to come at once. It was <<past four-thirty|3b>> when his car clattered into the courtyard of the ch\x{e2}teau and fifteen minutes later when he straightened up from the bed and turned round on the two retainers who stood in the doorway.",
           ],
           [
             1,
