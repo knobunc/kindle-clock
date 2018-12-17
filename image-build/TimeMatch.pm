@@ -142,8 +142,9 @@ my $in_the_re = qr{ ( ( in \s+ the \s+ ( (?! same) \w+ \s+ ){0,4}?
                     | at \s+ ( dawn | dusk | night | sunset | sunrise )
                     )
                   }xin;
-my $ampm_only_re = qr{ [ap]m \b | [ap][.] \s* m[.]? | pee \s+ em | $in_the_re }xin;
+my $ampm_only_re = qr{ [ap]m \b | [ap][.] \s* m[.]? | pee \s+ em }xin;
 my $ampm_re = qr{ $ampm_only_re | $in_the_re }xin;
+my $ampm_ph_re = qr{ [:,]? \s* $ampm_re }xin;
 
 # Oclocks
 my $oclock_re = qr{ o( $sq \s* | f \s+ the \s+ )?clock s? }xin;
@@ -321,6 +322,7 @@ my $never_follow_times_exp_re =
         | ( tb | gb | mb | kb ) (p)? | baud
         | odds | more
         | AD | CE | BC | BCE | A\.D\. | C\.E\. | B\.C\. | B\.C\.E\.
+        | giant | tiny | large | small
         )
         s?
       | [.,] \d
@@ -479,7 +481,7 @@ sub get_masks {
                  ) \s+
                 )
                 (?<t1> $min_re \s+ ( to | of ) \s+ $min_re )
-                (?! ,? \s* $ampm_re)
+                (?! $ampm_ph_re)
                 \b
                 (?{ $branch = "x2"; $is_racing = 1; })
               }xin;
@@ -503,6 +505,7 @@ sub get_masks {
                 | fallen \s+ one
                 | was \s+ at \s+ one
                 | one [-\s]+ to [-\s]+ one
+                | one \s+ other
                 )
                 \b
                 (?{ $branch = "x3"; })
@@ -516,7 +519,7 @@ sub get_masks {
                 |      $min_re ,? \s+ by \s+ $min_re
                 |      I ,? \s+ for \s+ one ,? \s+ am
                 )
-                (?! ,? \s* $ampm_re
+                (?! $ampm_ph_re
                 |      \s* $oclock_re
                 )
                 \b
@@ -557,7 +560,7 @@ sub get_masks {
               }xin;
     push @r,qr{ (?<pr> ( $month_re | $special_day_re )[,]? \s+ )
                 (?<t1> \d{4} )
-                (?! ,? \s* $ampm_re)
+                (?! $ampm_ph_re)
                 \b
                 (?{ $branch = "x7"; })
               }xin;
@@ -744,8 +747,8 @@ sub get_matches {
                   $till_re ( $hyph | \s )+
                   ( the \s+ hour [,;]? \s+ which \s+ ( is | was ) \s+ )?
                   $hour24_re
-                  ( \s+ $oclock_re ( ,? \s* $ampm_re )?
-                  |                  ,? \s* $ampm_re
+                  ( \s+ $oclock_re ( $ampm_ph_re )?
+                  |                  $ampm_ph_re
                   | $nf_re
                   )
                 )
@@ -785,7 +788,7 @@ sub get_matches {
                    (?<t1> ( $rel_words \s+ )?
                      $hour24_re ( [-.:\s]* $min0_re )?
                      (?! $never_follow_times_re )
-                     ( ,? \s* $ampm_re )?
+                     ( $ampm_ph_re )?
                    )
                    $ba_re
                 (?{ $branch = "9g"; })
@@ -796,7 +799,7 @@ sub get_matches {
                      $hour_word_re
                    )
                    ( (?<t2> \s+ $in_the_re ) \b
-                   | (?<t2> ,? \s* $ampm_re )
+                   | (?<t2> $ampm_ph_re )
                    | (?<po>
                        \s+ the  \s+ ( next | following ) \s+ $timeday_re
                      | \s+ for  \s+ $meal_times
@@ -831,14 +834,14 @@ sub get_matches {
                 (?<li> meet \s+ me \b [^.!?]* \s+ at \s+
                 |      start \s+ by \s+ ( the \s+ )?
                 )
-                (?<t1> $hour24_re ( - | \s+ | [.] ) $min_re ( ,? \s* $ampm_re )? )
+                (?<t1> $hour24_re ( - | \s+ | [.] ) $min_re ( $ampm_ph_re )? )
                 $ba_re
                 (?{ $branch = "5c"; })
               }xin;
     # here at seven thirty, be at six forty-five
     push @r,qr{ $bb_re
                 (?<pr> ( here | be ) \s+ at \s+ )
-                (?<t1> $hour24_re ( - | \s+ | [.] ) $min_word_re ( ,? \s* $ampm_re )?)
+                (?<t1> $hour24_re ( - | \s+ | [.] ) $min_word_re ( $ampm_ph_re )?)
                 $ba_re
                 (?{ $branch = "5e"; })
               }xin;
@@ -847,7 +850,7 @@ sub get_matches {
     # Knocks ... at 2336
     push @r,qr{ $bb_re
                 (?<pr> ( due | knocks ) \s+ (\w+ \s+){0,5}? at \s+ )
-                (?<t1> $hour24_re [-\s.:]* $min_re ( ,? \s* $ampm_re )?)
+                (?<t1> $hour24_re [-\s.:]* $min_re ( $ampm_ph_re )?)
                 $ba_re
                 (?{ $branch = "5d"; })
               }xin;
@@ -872,7 +875,7 @@ sub get_matches {
                 (?<t1>
                         $hour24_re \s+ ( hour | $oclock_re | h | hr ) s? ,? ( \s+ and )?
                     \s+ $min_re    \s+ ( minute | min | m )           s?
-                    ( ,? \s* $ampm_re )?
+                    ( $ampm_ph_re )?
                 )
                 (?<po>
                   ,? ( \s+ and )?
@@ -892,7 +895,7 @@ sub get_matches {
                   ( $rel_words \s+ )?
                   $hour24_re [?]? ( [-.:] $min_re )?
                   [-\s]+ $oclock_re
-                  ( ,? \s* $ampm_re )?
+                  ( $ampm_ph_re )?
                   ( ,? \s+ all \s+ but \s+ $min_re (\s+ minutes?)? )?
                 )
                 $ba_re
@@ -947,8 +950,8 @@ sub get_matches {
                   ( $rel_words \s+ )?
                   $hour12_dig_re [.:] $minsec_dig_re
                 )
-                ( (?<t2> ,? \s* $ampm_re )
-                | (?<po> ( [.:] $minsec_dig_re )? ,? \s* $ampm_re )
+                ( (?<t2> $ampm_ph_re )
+                | (?<po> ( [.:] $minsec_dig_re )? $ampm_ph_re )
                 )
                 (?{ $branch = "2a"; })
               }xin;
@@ -960,9 +963,9 @@ sub get_matches {
                  ( $rel_words \s+ )?
                  $hour_dig_re : $minsec0_dig_re
                 )
-                ( (?<t2> ,? \s* $ampm_re )
+                ( (?<t2> $ampm_ph_re )
                 | (?<po> ( : $minsec_dig_re )?
-                  ,? \s* $ampm_re )
+                  $ampm_ph_re )
                 )?
                 $ba_re
                 (?{ $branch = "2"; })
@@ -984,9 +987,9 @@ sub get_matches {
     push @r,qr{ (?<li> $not_in_match )
                 (?<t1> ( $rel_words \s+ )?
                   $hour_re
-                  ( ( - | \s+ | [.] ) $min_word_re )?
-                  ( ( - | \s+ | [.] ) $sec_word_re )?
-                  ,? \s* $ampm_re
+                  ( ( \s+ | [-./] ) $min_word_re )?
+                  ( ( \s+ | [-./] ) $sec_word_re )?
+                  $ampm_ph_re
                 )
                 $ba_re
                 (?{ $branch = "5"; })
@@ -1035,7 +1038,7 @@ sub get_matches {
                 )
                 (?<t1>
                   ( $rel_words \s+ )?
-                  $hour_word_re ( \s+ | [-] ) $min_word_re ( ,? \s* $ampm_re )?
+                  $hour_word_re ( \s+ | [-] ) $min_word_re $ampm_ph_re?
                 )
                 (?<po>
                   ( [-] $minsec_dig_re )?
@@ -1072,7 +1075,7 @@ sub get_matches {
                   $fraction_re \s+
                   ( $rel_words \s+ )?
                   $hour_re
-                  ( ,? \s* $ampm_re )?
+                  ( $ampm_ph_re )?
                 )
                 $ba_re
                 (?{ $branch = "21"; })
@@ -1124,7 +1127,7 @@ sub get_matches {
                   it \s+ (would | will) \s+ be \s+ (a \s+)?
                   $hour24_word_re ( ( \s+ | \s* $ellips \s* | [-] ) $min_word_re )?
                   ( \s* $ellips \s* $low_num_re )?
-                  ( ,? \s* $ampm_re )?
+                  ( $ampm_ph_re )?
                   ( \s+ $oclock_re )?
                 )
                 ( $never_follow_times_re (*SKIP)(*FAIL) )?
@@ -1149,7 +1152,7 @@ sub get_matches {
                 (?<pr> ( $twas_re | at | by ) \s+ )
                 (?<t1>
                   $hour_word_re ( \s+ | \s* $ellips \s* | [-] ) $min_word_re
-                  ( \s* $ellips \s* $low_num_re )? ( ,? \s* $ampm_re )?
+                  ( \s* $ellips \s* $low_num_re )? ( $ampm_ph_re )?
                 )
                 ( $never_follow_times_re (*SKIP)(*FAIL) )?
                 $ba_re
@@ -1179,7 +1182,7 @@ sub get_matches {
     # at a four-thirty screening
     push @r,qr{ (?<li> $not_in_match )
                 (?<pr> ( at \s+ a ) \s+ )
-                (?<t1> $hour24_word_re ( \s+ | [-.] ) $min_word_re ( ,? \s* $ampm_re )? )
+                (?<t1> $hour24_word_re ( \s+ | [-.] ) $min_word_re ( $ampm_ph_re )? )
                 (?<po> \s+
                   ( screening | viewing | performance | departure | arrival
                   | game | play | movie | flight | train | ship
@@ -1304,7 +1307,7 @@ sub get_matches {
                   ( \A | $aq | $phrase_punc_nc \s+ ) # No comma
                   ( at ) \s+
                 )
-                (?<t1> $hour_re ( ( [-:.] | \s+ )? $min0_re )? ( ,? \s* $ampm_re )? )
+                (?<t1> $hour_re ( ( [-:.] | \s+ )? $min0_re )? ( $ampm_ph_re )? )
                 ( $never_follow_times_re (*SKIP)(*FAIL) )?
                 $ba_re
                 (?{ $branch = "9m"; })
@@ -1312,7 +1315,7 @@ sub get_matches {
 
     push @r,qr{ (?<pr>
                   ( \A | $aq | $phrase_punc \s+ )
-                  ( ( $twas_re | only | because ) \s+)?
+                  ( ( $twas_re | only | because | and ) \s+)?
                 )
                 (?<t1>
                   ( $rel_at_words | close \s+ upon | till | by ) \s+
@@ -1367,7 +1370,7 @@ sub get_matches {
                 )
                 (?<t1>
                   ( $rel_words \s+ )?
-                  $hour24_word_re ( ( \s+ | [-] ) $min_word_re ( ,? \s* $ampm_re )? )?
+                  $hour24_word_re ( ( \s+ | [-] ) $min_word_re ( $ampm_ph_re )? )?
                 )
                 (?<po>
                   ( [-] $minsec_dig_re )?
@@ -1463,7 +1466,8 @@ sub get_matches {
                   | $hour_word_re   ( [-\s]+ | \s* $ellips \s* )
                   )
                   (?<mn> $min_word_re )
-                  ( ,? \s* $ampm_re )? )
+                  $ampm_ph_re?
+                )
                 (?! $never_follow_times_re
                 |  $hyph+
                 )
@@ -1490,7 +1494,7 @@ sub get_matches {
                 (?<t1>
                   $rel_words \s+
                   ( $hour24nz_dig_re | 00 ) [-.] $minsec0_dig_re
-                  ( ,? \s* $ampm_re )? )
+                  ( $ampm_ph_re )? )
                 (?! $never_follow_times_re
                 |  $hyph+
                 )
@@ -1503,7 +1507,7 @@ sub get_matches {
                 (?<t1>
                   ( $rel_words \s+ )?
                   ( $hour24nz_dig_re | 00 ) [-.] $minsec0_dig_re
-                  ( ,? \s* $ampm_re )? )
+                  ( $ampm_ph_re )? )
                 (?! $never_follow_times_re
                 |  $hyph+
                 )
@@ -1517,7 +1521,7 @@ sub get_matches {
                 (?<t1>
                   $rel_words \s+
                   $hour24_word_re
-                  ( ,? \s* $ampm_re )? )
+                  ( $ampm_ph_re )? )
                 (?<po>
                   \s+ in \s+ ( \w+ \s+ ){0,3}? $morn_re s?
                 | \s+ or \s+ ( \w+ \s+ ){0,3}? ( earlier | later )
@@ -1565,7 +1569,7 @@ sub get_matches {
                   ( ( $rel_at_words \s+ )? 0\d           $minsec0_dig_re
                   |   $rel_at_words \s+    $hour0_dig_re $minsec0_dig_re
                   )
-                  ( ,? \s* $ampm_re )? )
+                  ( $ampm_ph_re )? )
                 (?! $never_follow_times_re
                 |  $hyph+
                 )
@@ -1610,7 +1614,7 @@ sub extract_times {
                   \s+ $ellips \s* (?<mn> $min_word_re )
                 ( \s* $ellips \s* (?<m3> $low_num_re ) )?
                 ( \s+ $oclock_re )?
-                ( ,? \s+ (?<am> $ampm_re ) )?
+                ( [:,]? \s+ (?<am> $ampm_re ) )?
                 (?{ $branch = "9"; })
 
               | # Exact time
@@ -1621,9 +1625,9 @@ sub extract_times {
                   it \s+ (would | will) \s+ be \s+ (a \s+)?
                 | (?<rl> close \s+ upon ) \s+
                 )?
-                (                          (?<hr>  $hour24_re | $all_named_times   ) \s*
-                  ( ( [-\s.:] | $ellips )+ (?<mn>  $min_re ( (?<rl> - ) $min_re )? ) \s* )?
-                  ( ( [-\s.:] | $ellips )+ (?<sec> $sec_re ( (?<rl> - ) $min_re )? ) \s* )?
+                (                           (?<hr>  $hour24_re | $all_named_times   ) \s*
+                  ( ( [-\s.:/] | $ellips )+ (?<mn>  $min_re ( (?<rl> - ) $min_re )? ) \s* )?
+                  ( ( [-\s.:/] | $ellips )+ (?<sec> $sec_re ( (?<rl> - ) $min_re )? ) \s* )?
                 |   (?<hr>  $hour24_dig_re  )
                   ( (?<mn>  $minsec0_dig_re ) )?
                   ( (?<sec> $minsec0_dig_re ) )?
@@ -1631,7 +1635,7 @@ sub extract_times {
                   (?<mn>  $min_word_re    ) \s*
                 )
                 ( \s+ $oclock_re )?
-                ( [,]? \s* (?<am> $ampm_re   ) )?
+                ( [:,]? \s* (?<am> $ampm_re   ) )?
                 ( ,? \s+ all \s+ but \s+ (?<n1> $min_re ) (\s+ minutes?)? )?
                 (?{ $branch = "1"; })
 
@@ -1655,7 +1659,7 @@ sub extract_times {
                   (?<hr> $hour_dig_re   | $hour24_re ) \s* ( h | hrs?  | hours?   ) \s*
                 ( \s+ and \s+ | , \s+ )?
                   (?<mn> $minsec_dig_re | $min_re    ) \s* ( m | mins? | minutes? )?
-                ( ,? \s+ (?<am> $ampm_re ) )?
+                ( [:,]? \s+ (?<am> $ampm_re ) )?
                 (?{ $branch = "3"; })
 
               | # twenty minutes past eight
@@ -1673,7 +1677,7 @@ sub extract_times {
                   (?<hr> $hour24_re )
                 ( [-\s]+ (?<m3> $min_re ) )?
                 ( \s+ $oclock_re )?
-                ( ,? \s* (?<am> $ampm_re ) )?
+                ( [:,]? \s* (?<am> $ampm_re ) )?
                 (?{ $branch = "4"; })
 
               | # seven-and-twenty minutes past eight
@@ -1688,7 +1692,7 @@ sub extract_times {
                   (?<dir> $till_re ) \s+
                   (?<hr> $hour_re )
                 ( \s+ $oclock_re )?
-                ( ,? \s* (?<am> $ampm_re ) )?
+                ( [:,]? \s* (?<am> $ampm_re ) )?
                 (?{ $branch = "5j"; })
 
               | # three quarters past eleven
@@ -1709,7 +1713,7 @@ sub extract_times {
                   (?<dir> $till_re ) [-\s]+
                   (?<hr> $hour24_re )
                 ( \s+ $oclock_re )?
-                ( ,? \s+ (?<am> $ampm_re ) )?
+                ( [:,]? \s+ (?<am> $ampm_re ) )?
                 (?{ $branch = "6"; })
 
               | # three o'clock
@@ -1720,14 +1724,14 @@ sub extract_times {
                   (?<mn> $min_re | $fraction_re ) \s*
                   minutes?
                 )?
-                ( ,? \s+ (?<am> $ampm_re ) )?
+                ( [:,]? \s+ (?<am> $ampm_re ) )?
                 (?{ $branch = "7"; })
 
               | # One hour and a quarter
                 ( (?<rl> $rel_at_words ) \s+ )?
                   (?<hr> $hour24_re ) \s+ hours? \s+ and \s+ (a \s+)?
                   (?<mn> $fraction_re )
-                ( ,? \s+ (?<am> $ampm_re ) )?
+                ( [:,]? \s+ (?<am> $ampm_re ) )?
                 (?{ $branch = "8"; })
 
               | # Two minutes before the clock struck noon
@@ -1736,7 +1740,7 @@ sub extract_times {
                 ( the \s+ ( clock | bell ) \s+ ( rang | struck ) \s+ )?
                   (?<hr> $hour24_re )
                 ( \s+ $oclock_re )?
-                ( ,? \s+ (?<am> $ampm_re ) )?
+                ( [:,]? \s+ (?<am> $ampm_re ) )?
                 (?{ $branch = "10"; })
 
               | # 4.15 o'clock
@@ -1746,7 +1750,7 @@ sub extract_times {
                   (?<dir> $till_re ) \s+
                 ( the \s+ ( clock | bell ) \s+ ( rang | struck ) \s+ )?
                 ( \s+ $oclock_re )?
-                ( ,? \s+ (?<am> $ampm_re ) )?
+                ( [:,]? \s+ (?<am> $ampm_re ) )?
                 (?{ $branch = "11"; })
 
               | # nearer to one than half past
@@ -1754,7 +1758,7 @@ sub extract_times {
                   (?<hr> $hour24_re ) \s+
                   ( $oclock_re \s+ )? than \s+
                   (?<mn> $fraction_re ) [-\s]+ past
-                ( ,? \s+ (?<am> $ampm_re ) )?
+                ( [:,]? \s+ (?<am> $ampm_re ) )?
                 (?{ $branch = "12"; })
 
               | # nearer to one than half past
@@ -1773,7 +1777,7 @@ sub extract_times {
                   (?<dir> $till_re ) \s+
                   (?<hr> $hour24_re )
                 ( \s+ $oclock_re )?
-                ( ,? \s+ (?<am> $ampm_re ) )?
+                ( [:,]? \s+ (?<am> $ampm_re ) )?
                 (?{ $branch = "14"; })
 
               )

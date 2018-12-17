@@ -368,6 +368,7 @@ sub eta {
     my $est_time = $avg_init * ($run + $rem) - $run_time;
     $est_time  /= min( ($run + $rem),  $tasks)
         if $run + $rem;
+    $est_time = max($est_time, 5);
 
     my $lapsed   = time - $self->{run_start};
     my $tot_time = $lapsed + $est_time;
