@@ -298,11 +298,12 @@ my $never_follow_times_exp_re =
         | after | since
         | degrees | °
         | per\s*cent | %
-        | centimeter | cm | meter | kilometer | km | klick
+        | centimeter | cm | meter | kilometer | km | klick | millimeter | mm
         | centimetre | metre | kilometre
         | inch | inches | foot | feet | ft | yard | yd | mile | mi | knot | kt | block
         | pound | lb | kilogram | kg | kilo | ton | tonne | kiloton  | gram | ounce | oz
         | cup | pint | quart | gallon
+        | tablespoon | tbsp | teaspoon | tsp
         | gravities | gravity | g $sq? s
         | cubic | square
         | ( hundred | thousand | million | billion ) (th)?
@@ -310,7 +311,7 @@ my $never_follow_times_exp_re =
         | ( \w+ \s+)? $some_time_periods_re
         | (light (\s+|-))? $time_periods_re
         | final | false | true
-        | century | centuries | decade | millenium | millenia
+        | (cosmological \s+)? (century | centuries | decade | millenium | millenia)
         | third | half | halve | quarter | fifth | sixth | seventh | eighth | nineth | tenth
         | dollar | buck | cent | pound | quid
         | $(\d+,)*\d+(\.\d+)
@@ -322,12 +323,13 @@ my $never_follow_times_exp_re =
         | book  | volume | plate | illustration | page | chapter | verse | psalm
         | side  | edge   | corner | face
         | Minister
-        | possibilities | against | vote | machine | box | part
+        | possibilities | against | vote | machine | box | part | piece
         | on \s+ the \s+ field
         | ( tb | gb | mb | kb ) (p)? | baud
         | odds | more
         | AD | CE | BC | BCE | A\.D\. | C\.E\. | B\.C\. | B\.C\.E\.
         | giant | tiny | large | small
+        | of \s+ them
         )
         s?
       | [.,] \d
@@ -486,7 +488,7 @@ sub get_masks {
                 (?<pr>
                  ( ( odds | betting | bets? | ratio ) ( \s+ ( of | being | at ) )? ( \s+ $rel_words )?
                  | got | get | numbers? ( \s+ from )?
-                 | the | offered | add
+                 | the | offered | add | subract | multiply | divide | change
                  ) \s+
                 )
                 (?<t1> $min_re \s+ ( to | of ) \s+ $min_re )
@@ -781,7 +783,8 @@ sub get_matches {
                     my $pre = ${^PREMATCH} . $+{li};
                     my $post = ${^POSTMATCH};
 
-                    if ($t1 =~ m{\A $min_re [-\s]+ to [-\s]+ $hour24_re \z}xin) {
+                    if ($t1 =~ m{\A ( $min_re \s+ or \s+ )? $min_re [-\s]+ to [-\s]+ $hour24_re \z}xin)
+                    {
                         $branch = "10a:TIMEY";
                         if ($is_racing or $pre =~ m{ \s of \s+ \z}xin) {
                             $branch = "y10";
@@ -994,6 +997,7 @@ sub get_matches {
                 (?<t1> $hour24_re \s+ hour s? ,? \s+ and \s+
                   a \s+ $fraction_re
                 )
+                (?! $never_follow_times_re )
                 $ba_re
                 (?{ $branch = "14a:TIMEY"; })
                }xin;
@@ -1331,7 +1335,7 @@ sub get_matches {
                 (?<t1> $hour_re ( ( [-:.] | \s+ )? $min0_re )? ( $ampm_ph_re )? )
                 ( $never_follow_times_re (*SKIP)(*FAIL) )?
                 $ba_re
-                (?{ $branch = "9m"; })
+                (?{ $branch = $+{t1} eq 'one' ? "9m:TIMEY" : "9m"; })
               }xin;
 
     push @r,qr{ (?<pr>
