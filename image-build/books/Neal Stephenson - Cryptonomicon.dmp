@@ -163,6 +163,11 @@ $VAR1 = [
           ],
           [
             1,
+            '[ap > 06:00] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/9780061792571_Chapter_17.xhtml) - after six',
+            "But if Turing\x{2019}s chain has a hundred and one links (l = 101) then after five revolutions we have C = 100, and <<after six|9:0>> we have C = 19, then",
+          ],
+          [
+            1,
             '[03:00] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/9780061792571_Chapter_2.xhtml) - three in the morning',
             "Lawrence found this zeta function to be no more and no less interesting than any other
                math problem until his new friend assured him that it was frightfully important, and
@@ -470,7 +475,7 @@ $VAR1 = [
             "By the time Randy extricated himself from this conversation, his mind was reeling.
                He had gone in with one view of reality and been radically challenged by another one
                that was clearly preposterous; but after an hour of Andrew\x{2019}s browbeating he was beginning
-               to doubt himself. <<After two|9:1>> or three sleepless nights, he decided to call the whole
+               to doubt himself. <<After two|9:1>> or <<three|20a:1>> sleepless nights, he decided to call the whole
                thing off. A paltry few hundred dollars wasn\x{2019}t worth all of this agony.",
           ],
           [

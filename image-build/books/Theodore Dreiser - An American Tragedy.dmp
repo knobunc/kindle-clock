@@ -356,7 +356,7 @@ $VAR1 = [
           [
             1,
             '[ap 08:30] An American Tragedy - Theodore Dreiser.epub (OEBPS/drei_9781101100295_oeb_c35_r1.html) - eight-thirty',
-            "\x{201c}Well, then, how about Wednesday night at <<eight-thirty|5b>> or nine? Couldn\x{2019}t you do that? Please, now.\x{201d}",
+            "\x{201c}Well, then, how about Wednesday night at <<eight-thirty|5b>> or <<nine|20a>>? Couldn\x{2019}t you do that? Please, now.\x{201d}",
           ],
           [
             1,
@@ -426,7 +426,7 @@ $VAR1 = [
           [
             1,
             '[ap 08:30] An American Tragedy - Theodore Dreiser.epub (OEBPS/drei_9781101100295_oeb_c44_r1.html) - eight-thirty',
-            "\x{201c}The crowd\x{2019}s a little late in getting together. It always is. If we said eight, they\x{2019}d come at <<eight-thirty|5b>> or nine. Isn\x{2019}t that always the way?\x{201d}",
+            "\x{201c}The crowd\x{2019}s a little late in getting together. It always is. If we said eight, they\x{2019}d come at <<eight-thirty|5b>> or <<nine|20a>>. Isn\x{2019}t that always the way?\x{201d}",
           ],
           [
             1,
@@ -581,7 +581,7 @@ $VAR1 = [
           [
             1,
             '[ap ~ 07:00] An American Tragedy - Theodore Dreiser.epub (OEBPS/drei_9781101100295_oeb_c66_r1.html) - About seven',
-            "So troubled was he indeed, now, that he scarcely heard the guide\x{2019}s reply, or, if at all, as a voice speaking from a long way off. \x{201c}Not so many. <<About seven|9:0>> or eight, I guess. We did have about thirty over the Fourth, but most o\x{2019} them went down yesterday.\x{201d}",
+            "So troubled was he indeed, now, that he scarcely heard the guide\x{2019}s reply, or, if at all, as a voice speaking from a long way off. \x{201c}Not so many. <<About seven|9:0>> or <<eight|20a:0>>, I guess. We did have about thirty over the Fourth, but most o\x{2019} them went down yesterday.\x{201d}",
           ],
           [
             1,
@@ -676,7 +676,7 @@ $VAR1 = [
           [
             1,
             '[ap 07:00] An American Tragedy - Theodore Dreiser.epub (OEBPS/drei_9781101100295_oeb_c73_r1.html) - seven',
-            'Yet, as it now instantly occurred to him, under no circumstances must he leave here without first finding out as definitely as possible whether any one was as yet suspected. And once at the Casino, and for the moment left alone, he learned on inquiring at the news stand that there would be no Albany, Utica, or any local afternoon paper there until <<seven|9b>> or <<seven-thirty|5k:0>>. He must wait until then to know.',
+            'Yet, as it now instantly occurred to him, under no circumstances must he leave here without first finding out as definitely as possible whether any one was as yet suspected. And once at the Casino, and for the moment left alone, he learned on inquiring at the news stand that there would be no Albany, Utica, or any local afternoon paper there until <<seven|9b>> or <<seven-thirty|20a>>. He must wait until then to know.',
           ],
           [
             1,
@@ -686,7 +686,7 @@ $VAR1 = [
           [
             1,
             '[ap ~ 09:30] An American Tragedy - Theodore Dreiser.epub (OEBPS/drei_9781101100295_oeb_c74_r1.html) - about nine-thirty',
-            "THE morrow dawned after an all but sleepless night, harrowed by the most torturesome dreams in regard to Roberta, men who arrived to arrest him, and the hike, until at last he arose, his nerves and eyes aching. Then, venturing to come downstairs about an hour later, he saw Frederick, the chauffeur who had driven him out the day before, getting one of the cars out. And thereupon instructing him to bring all the morning Albany and Utica papers. And <<about nine-thirty|5k:1>>, when he returned, proceeding to his room with them, where, locking the door and spreading one of the papers before him, he was immediately confronted by the startling headlines:\x{201c}MYSTERY IN GIRL\x{2019}S DEATH 
+            "THE morrow dawned after an all but sleepless night, harrowed by the most torturesome dreams in regard to Roberta, men who arrived to arrest him, and the hike, until at last he arose, his nerves and eyes aching. Then, venturing to come downstairs about an hour later, he saw Frederick, the chauffeur who had driven him out the day before, getting one of the cars out. And thereupon instructing him to bring all the morning Albany and Utica papers. And <<about nine-thirty|9:1>>, when he returned, proceeding to his room with them, where, locking the door and spreading one of the papers before him, he was immediately confronted by the startling headlines:\x{201c}MYSTERY IN GIRL\x{2019}S DEATH 
 BODY FOUND YESTERDAY IN ADIRONDACK LAKE 
 MAN COMPANION MISSING\x{201d}",
           ],
@@ -830,7 +830,7 @@ IMPRESSIVE DELUGE OF TESTIMONY.\x{201d}",
           [
             1,
             '[07:00] An American Tragedy - Theodore Dreiser.epub (OEBPS/drei_9781101100295_oeb_c94_r1.html) - seven in the morning',
-            "But as early as <<seven in the morning|5>>, rising, and by eight appearing at the jail, letters, telegrams and credentials in hand. And the jail officials, after examining the letters she carried and being convinced of her identity, notifying Clyde of her presence. And he, depressed and forlorn, on hearing this news, welcoming the thought of her as much as at first he had dreaded her coming. For now things were different. All the long grim story had been told. And because of the plausible explanation which Jephson had provided him, he could face her perhaps and say without a quaver that it was true\x{2014}that he had not plotted to kill Roberta\x{2014}that he had not willingly left her to die in the water. And then hurrying down to the visitor\x{2019}s room, where, by the courtesy of Slack, he was permitted to talk with his mother alone.",
+            "But as early as <<seven in the morning|5>>, rising, and by <<eight|9:0>> appearing at the jail, letters, telegrams and credentials in hand. And the jail officials, after examining the letters she carried and being convinced of her identity, notifying Clyde of her presence. And he, depressed and forlorn, on hearing this news, welcoming the thought of her as much as at first he had dreaded her coming. For now things were different. All the long grim story had been told. And because of the plausible explanation which Jephson had provided him, he could face her perhaps and say without a quaver that it was true\x{2014}that he had not plotted to kill Roberta\x{2014}that he had not willingly left her to die in the water. And then hurrying down to the visitor\x{2019}s room, where, by the courtesy of Slack, he was permitted to talk with his mother alone.",
           ],
           [
             1,

@@ -68,11 +68,6 @@ we see that <<1.41|5a:0>> is a good two-decimal approximation of . We could, of 
           ],
           [
             1,
-            '[ap 09:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_11_ch4.html) - 0 to 9',
-            "We can perform the usual arithmetic operations in base six. However, we would have to learn new addition and multiplication tables. For example, in base ten we write 5 + 3 = 8, whereas in base six, eight must be written 12. Hence our addition table would have to state that 5 + 3 = 12. Likewise, our new multiplication table would have to list 3 \x{b7} 5 = 23, because fifteen is 2 \x{b7} 6 + 3 or, in base six, 23. When we learned to use base ten, we had to memorize the result of adding each number from <<0 to 9|10a:0>> to every number from <<0 to 9|10a:0>>, and the result of multiplying each number from 0 to 9 with every number from <<0 to 9|10a:0>>. For base six we would have to learn to add (and multiply) only numbers from <<0 to 5|10a:0>> to (or with) the numbers of this set. Thus our addition and multiplication tables would be shorter, and we would learn arithmetic sooner as youngsters. We might even pass the hurdle of arithmetic so easily that we might get to like mathematics. The only disadvantage of base six would be that to represent large quantities we would have to use more digits. For example, the quantity fifty-four, written as 54 in base ten, must be written as 130 in base six, because fifty-four equals 1 \x{b7} 62 + 3 \x{b7} 6 + 0.",
-          ],
-          [
-            1,
             '[20:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_11_ch4.html) - 0 to 20',
             "There are people who campaign for the adoption of base twelve, because it offers special advantages. For one thing, more fractions can be written as finite decimals in base twelve. Thus  must be written as the unending decimal 0.333 . . . in base ten, but can be written as 0.4 in base twelve, since in this base 0.4 means . Also, since the English system of denoting length calls for 12 inches in one foot, we could, for example, express 3 feet and 6 inches as 36 inches in base twelve, whereas to express this number of inches in base ten, we must first calculate 3 \x{b7} 12 + 6 and then write 42 in base ten. To a limited extent we could use base twelve in our method of recording time. In the United States the day has two sets of twelve hours, and in base twelve the hours of the day would run from <<0 to 20|10a:1>>. Whereas determining what <<7 hours after 6 o\x{2019}clock|10>> will be requires at present some computation, under the addition table for base twelve we would state at once that 7 + 6 = 11. However, base ten is now so widely used that a change to another base for ordinary daily use or commerce is hardly likely.",
           ],
@@ -218,11 +213,6 @@ then the sets of coordinates (\x{2013}a, b), (a, \x{2013}b), and (\x{2013}a, \x{
           ],
           [
             1,
-            '[ap 05:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_20_ch13.html) - 0 to 5',
-            "The algebraic expression of a functional relationship is called a formula. Several facts about formulas are important for their proper understanding and use. In the present case, for example, we must be sure to note that the letters d and t represent not just one particular value of distance and time but whole ranges of values. Thus, if the ball falls for 5 seconds, the variable t can represent any number from <<0 to 5|10a:0>>. The variable d can represent any distance which the ball may have fallen during the 5 seconds. Of course, the values of d are not independent of the values of t. In fact, the whole point of the formula is to tell us precisely what d is for a given t. Thus when t is 2, for example, d is 16 \x{b7} 22, or 64. That is, by substituting a particular value of t in the formula, we can calculate the distance d that an object has fallen in that number of seconds chosen for t. The values of d depend upon the values of t and, for this reason, t is called the independent variable and d, the dependent variable. One also says that the formula expresses d as a function of t. Since we can calculate d for millions of values of t, the formula is indeed a compact representation of millions of bits of information.",
-          ],
-          [
-            1,
             '[16:36] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_20_ch13.html) - 16.36',
             "Suppose that the dropped ball falls for just 5 seconds. It then hits the ground and remains at rest. However, the formula d = 16t2 does not \x{201c}stop\x{201d} at the end of 5 seconds. We could substitute 6 for t and find that d is <<16.36|5a:0>>, or 576. Likewise, we could substitute 7, or , or even \x{2013}2 for t and in each case calculate the correponding value of d. Thus, the mathematical formula has meaning for all positive and negative values of t. However, if the ball falls for only 5 seconds, the formula represents the physical situation only for values of t from <<0 to 5|10a:0>>. In other words, the mathematical formula is more extensive than the physical situation.",
           ],
@@ -250,11 +240,6 @@ then the sets of coordinates (\x{2013}a, b), (a, \x{2013}b), and (\x{2013}a, \x{
             1,
             '[16:05] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_22_ch15.html) - 1605',
             "All of Galileo\x{2019}s observations were made with a telescope of such limited power that, as has been said, it is remarkable he could find Jupiter, let alone the moons of Jupiter. Many of his discoveries were in direct support of a heliocentric theory; others served primarily to challenge current beliefs and to at least prepare some minds for a more objective examination of the new theory. Galileo, himself, though he lectured on Ptolemaic theory until <<1605|9c:0>>, had been converted to Copernicanism by a work of Kepler. In 1611 he openly declared for Copernicanism. His own observations convinced him that the Copernican system was correct, and in the classic Dialogue on the Great World Systems he defended it strongly. By the middle of the seventeenth century the scientific world was willing to proceed on a heliocentric basis.",
-          ],
-          [
-            1,
-            '[ap ~ 04:54] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_22_ch15.html) - approximately 454',
-            'We shall not present physical methods of measuring mass. It suffices to know that by adopting a unit of mass, just as we adopt a unit of length, we can compare all other masses with this unit and so determine exactly how much mass there is in any individual piece of matter. Mass is measured in pounds or grams, the pound being <<approximately 454|18:0>> grams.',
           ],
           [
             1,
@@ -429,11 +414,6 @@ Similarly, <<6 hours before 3 o\x{2019}clock|10>> is <<9 o\x{2019}clock|6>>; tha
             1,
             '[ap 11:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_28_ch21.html) - 0 to 11',
             'The possible values of x are <<0 to 11|10a:0>>, and trial of all these values shows that not one will satisfy the equation. Thus we cannot divide 1 by 3.',
-          ],
-          [
-            1,
-            '[ap 11:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_28_ch21.html) - 0 to 11',
-            'In the system of arithmetic modulo 12, it was necessary to consider only the numbers from <<0 to 11|10a:0>>. Analogously, in the system modulo 7 it is necessary to consider only the numbers from <<0 to 6|10a:0>>. The properties of this latter system are very similar to those of the former but they differ in one essential respect. It was not possible to divide any specific number by any other given number in the modulo 12 system and where division was possible the answer was in some cases not unique. It is possible to divide any number from <<0 to 6|10a:0>> by any other from <<1 to 6|10a:0>> (division by 0 is excluded) in the modulo 7 system and the answer is unique. Thus 2 divided by 5 is 6 because',
           ],
           [
             1,
@@ -645,13 +625,6 @@ Exercises <<3 to 7|10a:0>> are answered in the answer section of the textbook.
             1,
             '[ap > 01:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_34_add.html) - after 1',
             "(d)\x{a0}\x{a0}The respective frequencies of the three terms are 100, 200, and 300. The entire function repeats when the first one does, that is, <<after 1|9:0>>/100 of a second. The frequency of the entire function is 100.",
-          ],
-          [
-            1,
-            '[ap > 01:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_34_add.html) - after 1',
-            "(d)\x{a0}\x{a0}The respective frequencies of the three terms are 100, 200, and 300. The entire function repeats when the first one does, that is, <<after 1|9:0>>/100 of a second. The frequency of the entire function is 100.
-1.\x{a0}\x{a0}See p. 446, lines <<11 to 13|10a:0>>.
-2.\x{a0}\x{a0}The frequency of the entire sound is 240. The amplitude of the third harmonic is 0.01.",
           ],
           [
             1,

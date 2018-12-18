@@ -6,6 +6,11 @@ $VAR1 = [
           ],
           [
             1,
+            '[ap ~ 06:00] A Closed and Common Orbit - Becky Chambers.epub (OEBPS/text/9780062569424_Chapter_15.xhtml) - About six',
+            "\x{2018}<<About six|9:0>> tendays. Or less than that, if she\x{2019}s due to shed. Not so long that she\x{2019}ll mind if she sobers up and hates it.\x{2019} She popped an empty cartridge out of the implement, slipped in a silver one, and continued. \x{2018}I\x{2019}m Tak, by the way,\x{2019} she said.",
+          ],
+          [
+            1,
             '[ap 00:30] A Closed and Common Orbit - Becky Chambers.epub (OEBPS/text/9780062569424_Chapter_16.xhtml) - half of one',
             "Jane went back into the pantry and got three more water packets. She drank <<half of one|10>> all at once, took another bite of the bar, and washed it down with more water. She got through half of the bar before she had a new problem. She was still hungry, but her jaw was getting tired from so much chewing, and her stomach wasn\x{2019}t sure about what she\x{2019}d put in it.",
           ],
@@ -42,6 +47,13 @@ The shuttle hatch slid open. Jane entered, dragging her heavy haul on squeaking 
           ],
           [
             1,
+            '[ap < 04:00] A Closed and Common Orbit - Becky Chambers.epub (OEBPS/text/9780062569424_Chapter_55.xhtml) - Nearly four',
+            "Jane frowned. If this woman had been there ten days ago \x{2013} what kind of days, anyway; did she mean standard days? \x{2013} and they\x{2019}d had to send for her from somewhere else, then . . . \x{2018}How long have I been here?\x{2019}
+\x{2018}<<Nearly four|9:0>> tendays,\x{2019} the doctor said gently.
+Jane swallowed. Huh, she thought. \x{2018}Where\x{2019}s Owl?\x{2019}",
+          ],
+          [
+            1,
             '[ap ~ 10:00] A Closed and Common Orbit - Becky Chambers.epub (OEBPS/text/9780062569424_Chapter_6.xhtml) - about ten',
             "\x{2018}It\x{2019}s so much more than that,\x{2019} Pepper said. \x{2018}This franchise has been putting out new modules for forty standards. Aside from the fact that it\x{2019}s brilliant \x{2013} stars, don\x{2019}t even get me started on the adaptive coding \x{2013} I mean, seriously, it\x{2019}s a really important series. Every Human kid in the GC knows Big Bug, at least passively. And I don\x{2019}t just mean every Human kid in the Fleet or something.\x{2019} She pointed at the two children on the figurine. \x{2018}Alain and Manjiri. Manjiri\x{2019}s from the Fleet. Alain\x{2019}s from Florence.\x{2019} She looked expectantly at Sidra, as if this would have some significance. It did not. Pepper ploughed on. \x{2018}This was the very first kids\x{2019} sim to have an Exodan and a Martian not just occupying the same ship, but being friends. Having adventures, working as a team, all that fuzzy stuff. That may not seem like a big deal today, but forty standards ago, that was huge. A whole generation of kids grew up with this, and I shit you not, <<about ten|9:0>> standards later, you start seeing a big shift in Diaspora politics. I\x{2019}m not saying this sim is solely responsible for Exodans and Solans not hating each other any more, but Big Bug was definitely a contributing factor in helping us start moving past all that old Earth bullshit. Opened some minds, at least.\x{2019} She placed the figurine back on the shelf, straightening it just so. \x{2018}Plus the artwork is fucking gorgeous. The level of detail is just\x{2014}\x{2019}",
           ],
@@ -66,91 +78,5 @@ The shuttle hatch slid open. Jane entered, dragging her heavy haul on squeaking 
             'Unit D1, 63 Apollo Drive
 Rosedale <<0632|18:0>>
 Auckland, New Zealand',
-          ],
-          [
-            1,
-            '[ap < 00:00] A Closed and Common Orbit - Becky Chambers.epub (OEBPS/text/nav.xhtml) - ALMOST 12',
-            'Dedication
-Epigraph
-Contents
-Part 1: Drift
-Lovelace
-Jane 23, Age 10
-Lovelace
-Jane 23, Age 10
-Sidra
-Jane 23, Age 10
-Sidra
-Jane 23, Age 10
-Sidra
-Jane 23, Age 10
-Sidra
-Jane 23, Age 10
-Sidra
-Jane, Age 10
-Sidra
-Jane, Age 10
-Sidra
-Jane, Age 10
-Sidra
-Jane, Age 10
-Sidra
-Jane, Age 10
-Sidra
-Jane, Age 10
-Sidra
-Jane, Age 10
-Sidra
-Jane, <<ALMOST 12|9:0>>
-Part 2: Pull
-Sidra
-Jane, Age 14
-Sidra
-Jane, Age 14
-Sidra
-Jane, Age 14
-Sidra
-Jane, Age 15
-Sidra
-Jane, Age 18
-Sidra
-Jane, Age 18
-Sidra
-Jane, Age 19
-Sidra
-Jane, Age 19
-Sidra
-Jane, Age 19
-Sidra
-Jane, Age 19
-Sidra
-Part 3: Circle
-Jane, Age 19
-Sidra
-Jane, Age 19
-Sidra
-Jane, Age 19
-Sidra
-Pepper
-Sidra
-Pepper
-Sidra
-Pepper
-Sidra
-Pepper
-Owl, One Standard Later
-Acknowledgements
-Also by Becky Chambers
-Copyright
-About the Publisher
-
-
-
-
-
-
-Cover
-Contents
-Chapter 1',
           ],
         ];

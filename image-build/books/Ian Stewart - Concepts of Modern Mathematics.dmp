@@ -66,11 +66,6 @@ $VAR1 = [
           ],
           [
             1,
-            '[22:39] Concepts of Modern Mathematics - Ian Stewart.epub (OEBPS/e9780486134956_c15.html) - 21 to 23',
-            'contradicting the fourth equation. If we change <<21 to 23|10a:0>> in the original system we get essentially 3 equations in 4 unknowns, which turn out to have infinitely many solutions.',
-          ],
-          [
-            1,
             '[ap 01:00] Concepts of Modern Mathematics - Ian Stewart.epub (OEBPS/e9780486134956_c16.html) - 0 to 1',
             "which take alternately the values 0 and 1. As n gets larger and larger these do not settle down to some kind of \x{2018}limit\x{2019}; they just hop happily from <<0 to 1|10a:0>> and back again.",
           ],

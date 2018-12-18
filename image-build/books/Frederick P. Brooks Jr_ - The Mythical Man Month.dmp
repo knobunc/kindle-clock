@@ -27,7 +27,7 @@ $VAR1 = [
           [
             1,
             '[ap 01:00] The Mythical Man Month_ Essays on Software - Frederick P. Brooks Jr_.epub (The_Mythical_Man_Month_split_085.html) - one',
-            'It can also bring about ridiculous vacillation. I recall a machine whose instruction counter popped in or out of memory every six months during a three-year development cycle. At <<one|9m>> phase a little more performance would be wanted, so the instruction counter was implemented in transistors. At the next phase cost reduction was the theme, so the counter would be implemented as a memory location. On another project the best engineering manager I ever saw served often as a giant flywheel, his inertia damping the fluctuations that came from market and management people.',
+            'It can also bring about ridiculous vacillation. I recall a machine whose instruction counter popped in or out of memory every six months during a three-year development cycle. At <<one|9m:0>> phase a little more performance would be wanted, so the instruction counter was implemented in transistors. At the next phase cost reduction was the theme, so the counter would be implemented as a memory location. On another project the best engineering manager I ever saw served often as a giant flywheel, his inertia damping the fluctuations that came from market and management people.',
           ],
           [
             1,

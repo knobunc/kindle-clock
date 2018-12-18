@@ -16,107 +16,13 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 09:59] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0006.html) - 1 to 10',
-            "The message consisted of a series of 0s and 1s that could be arranged to form a black-and-white pixelated picture. The reconstructed image depicted the numbers from <<1 to 10|10a:0>> in binary, a sketch of the structure of DNA, a representation of our solar system, and a picture of the Arecibo radio telescope itself. Considering that there were only 1,679 pixels, the picture is not very detailed. But the choice of 1,679 was deliberate because it contained the clue to setting up the pixels. 1,679 = 23 \x{d7} 73, so there are only two ways to arrange the pixels in a rectangle to make up the picture. Arranging 23 rows of 73 columns produces a jumbled mess, but arrange them the other way\x{2014}as 73 rows of 23 columns\x{2014}and you get the result shown in Figure 1.5. The star cluster M13 is 25,000 light years away, so we\x{2019}re still waiting for a reply. Don\x{2019}t expect a response for another 50,000 years!",
-          ],
-          [
-            1,
-            '[ap 08:59] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0006.html) - 1 to 9',
-            "Around 2000 BC, the Babylonians became one of the first cultures to use the idea of a place-value number system. But instead of using powers of 10 like the Egyptians, the Babylonians developed a number system that worked in base 60. They had different combinations of symbols for all the numbers from 1 to 59. When they reached 60, they started a new \x{201c}60s\x{201d} column to the left and recorded one lot of 60, in the same way that in the decimal system, we place a 1 in the \x{201c}10s\x{201d} column when the units column passes 9. So the prime number shown in Figure 1.8 consists of one lot of 60 together with the symbol for 11, making 71. The symbols for the numbers up to 59 do have some hidden appeal to the decimal system because the numbers from <<1 to 9|10a:0>> are represented by horizontal lines, but then 10 is represented by the following symbol:",
-          ],
-          [
-            1,
-            '[ap 01:10] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0006.html) - 1.10',
-            "
-Figure <<1.10|5a:0>> The different ways of dividing up 60 beans.
-The Babylonians came close to discovering a very important number in mathematics: 0. If you wanted to write the prime number 3,607 in cuneiform, you had a problem. This is one lot of 3,600\x{2014}or 60 squared\x{2014}and 7 units, but if I write that down, it could easily look like one lot of 60 and 7 units\x{2014}still a prime, but not the prime I want. To get around this, the Babylonians introduced a little symbol to denote that there were no 60s being counted in the 60s column. So 3,607 would be written as",
-          ],
-          [
-            1,
-            '[ap 01:11] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0006.html) - 1.11',
-            "
-Figure <<1.11|5a:0>>
-But they didn\x{2019}t think of 0 as a number in its own right. For them, it was just a symbol used in the place-value system to denote the absence of certain powers of 60. Mathematics would have to wait another 2,700 years until the seventh century AD, when the Indians introduced and investigated the properties of 0 as a number.",
-          ],
-          [
-            1,
-            '[ap 01:12] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0006.html) - 1.12',
-            '
-Figure <<1.12|5a:0>>
-',
-          ],
-          [
-            1,
-            '[ap 01:13] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0006.html) - 1.13',
-            "Which prime is this?
-Figure <<1.13|5a:0>>
-The Mesoamerican culture of the Maya was at its height from AD 200 to 900 and extended from southern Mexico through Guatemala to El Salvador. The Maya had a sophisticated number system developed to facilitate the advanced astronomical calculations that they made, and this is how they would have written the number 17. In contrast to the Egyptians and Babylonians, the Maya worked with a base\x{2013}20 system. They used a dot for 1, two dots for 2, three dots for 3, and four dots for 4. Just like a prisoner chalking off days on a prison wall, once they got to 5, instead of writing five dots, they would simply put a line through the four dots. A line, therefore, corresponds to 5.",
-          ],
-          [
-            1,
-            '[ap 01:14] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0006.html) - 1.14',
-            'Which prime is this?
-Figure <<1.14|5a:0>>
-Although these are letters rather than numbers, this is how to write the number 13 in Hebrew. In the Jewish tradition of gematria, the letters in the Hebrew alphabet all have a numerical value. Here, gimel is the third letter in the alphabet, and yodh is the tenth. So this combination of letters represents the number 13. The table opposite documents the numerical values of all the letters.',
-          ],
-          [
-            1,
-            '[ap 01:15] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0006.html) - 1.15',
-            "Which prime is this?
-Figure <<1.15|5a:0>>
-You might think that this is the prime number 5; it certainly looks like 2 + 3. However, the here is not a plus symbol\x{2014}it is in fact the Chinese character for 10. The three characters together denote two lots of 10 and three units: 23.",
-          ],
-          [
-            1,
-            '[ap 08:59] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0006.html) - 1 to 9',
-            'This traditional Chinese form of writing numbers did not use a place-value system, but instead had symbols for the different powers of 10. An alternative system of representing numbers by bamboo sticks did use a place-value system and evolved from the abacus, on which when you reached ten, you would start a new column.
-Here are the numbers from <<1 to 9|10a:0>> in bamboo sticks:
-',
-          ],
-          [
-            1,
-            '[ap 01:16] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0006.html) - 1.16',
-            '
-Figure <<1.16|5a:0>>
-To avoid confusion, in every other column (namely the 10s, 1,000s, 100,000s, etc.) they turned the numbers around and laid the bamboo sticks vertically:',
-          ],
-          [
-            1,
-            '[ap 01:17] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0006.html) - 1.17',
-            '
-Figure <<1.17|5a:0>>
-The ancient Chinese even had a concept of negative numbers, which they represented by different-colored bamboo sticks. The use of black and red ink in Western accounting is thought to have originated from the Chinese practice of using red and black sticks, although intriguingly, the Chinese used black sticks for negative numbers.',
-          ],
-          [
-            1,
             '[ap 02:00] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0006.html) - 2',
             "Here\x{2019}s a systematic way discovered by the ancient Greeks that is very effective at finding small primes. The task is to find an efficient method that will knock out all the nonprimes. Write down the numbers from 1 to 100. Start by striking out number 1. (As I have mentioned, though the Greeks believed 1 to be prime, in the twenty-first century, we no longer consider it to be.) Move to the next number, which is <<2|9f>>. This is the first prime. Now strike out every second number after 2. This effectively knocks out everything in the 2 times table, eliminating all the even numbers except for 2. Mathematicians like to joke that 2 is the odd prime because it\x{2019}s the only even prime . . . but perhaps humor isn\x{2019}t a mathematician\x{2019}s strong point.",
           ],
           [
             1,
-            '[ap 01:18] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0006.html) - 1.18',
-            "
-Figure <<1.18|5a:1>> Strike out every second number after 2.
-Now take the lowest number that hasn\x{2019}t been struck out\x{2014}in this case 3\x{2014}and systematically knock out everything in the 3 times table.",
-          ],
-          [
-            1,
-            '[ap 01:19] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0006.html) - 1.19',
-            "
-Figure <<1.19|5a:1>> Now strike out every third number after 3.
-Because 4 has already been knocked out, we move next to the number 5 and strike out every fifth number on from <<5|9c:1>>. We keep repeating this process, going back to the lowest number n that hasn\x{2019}t yet been eliminated, and then striking out all the numbers n places ahead of it.",
-          ],
-          [
-            1,
             '[ap 05:00] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0006.html) - 5',
             "Because 4 has already been knocked out, we move next to the number 5 and strike out every fifth number on from <<5|9c:1>>. We keep repeating this process, going back to the lowest number n that hasn\x{2019}t yet been eliminated, and then striking out all the numbers n places ahead of it.",
-          ],
-          [
-            1,
-            '[ap 01:20] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0006.html) - 1.20',
-            "
-Figure <<1.20|5a:1>> Finally, we are left with the primes from 1 to 100.
-The beautiful thing about this process is that it is very mechanical\x{2014}it doesn\x{2019}t require much thought to implement. For example, is 91 a prime? With this method, you don\x{2019}t have to think. 91 would have been struck out when you knocked out every seventh number on from 7 because 91 = 7 \x{d7} 13. 91 often catches people off guard because we tend not to learn our 7 times table up to 13.",
           ],
           [
             1,
@@ -135,13 +41,8 @@ The beautiful thing about this process is that it is very mechanical\x{2014}it d
           ],
           [
             1,
-            '[ap 01:21] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0006.html) - 1.21',
-            'Figure <<1.21|5a:0>> An example of a prime-number hopscotch game in which the maximum move is five steps.',
-          ],
-          [
-            1,
-            '[ap 01:21] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0006.html) - 1.21',
-            "Figure <<1.21|5a:0>> shows a typical scenario. The first player has lost the game because the counter is at <<23|9c:0>> and there are no primes in the five numbers ahead of 23. Could the first player have made a better opening move? If you look carefully, you\x{2019}ll see that once you\x{2019}ve passed 5, there really aren\x{2019}t many choices. Whoever moves the counter to 5 is going to win because that player will, at a later turn, be able to move the counter from <<19 to 23|10a:0>>, leaving his or her opponent with no prime to move to. So the opening move is vital.",
+            '[23:00] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0006.html) - 23',
+            "Figure 1.21 shows a typical scenario. The first player has lost the game because the counter is at <<23|9c:0>> and there are no primes in the five numbers ahead of 23. Could the first player have made a better opening move? If you look carefully, you\x{2019}ll see that once you\x{2019}ve passed 5, there really aren\x{2019}t many choices. Whoever moves the counter to 5 is going to win because that player will, at a later turn, be able to move the counter from <<19 to 23|10a:0>>, leaving his or her opponent with no prime to move to. So the opening move is vital.",
           ],
           [
             1,
@@ -150,55 +51,8 @@ The beautiful thing about this process is that it is very mechanical\x{2014}it d
           ],
           [
             1,
-            '[ap 01:22] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0006.html) - 1.22',
-            'Figure <<1.22|5a:0>> The Fibonacci numbers are the key to calculating the population growth of rabbits.',
-          ],
-          [
-            1,
-            '[ap 01:23] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0006.html) - 1.23',
-            "
-Figure <<1.23|5a:0>> How to build a shell using Fibonacci numbers.
-Actually, these numbers shouldn\x{2019}t be named after Fibonacci at all, because he was not the first to stumble across them. In fact, they weren\x{2019}t discovered by mathematicians at all, but by poets and musicians in medieval India. Indian poets and musicians were keen to explore all the possible rhythmic structures you can generate by using combinations of short and long rhythmic units. If a long sound is twice the length of a short sound, then how many different patterns are there with a set number of beats? For example, with eight beats you could do four long sounds or eight short ones. But there are lots of combinations between these two extremes.",
-          ],
-          [
-            1,
-            '[ap 01:24] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0006.html) - 1.24',
-            '
-Figure <<1.24|5a:0>> Repeated doubling makes numbers grow very quickly.
-If we tried to repeat the feat at the heart of London, the pile of rice on the sixty-fourth square would stretch to a distance of 15 miles from the center and would be so high that it would cover all the buildings. In fact, there would be more rice in this pile than has been produced across the globe in the last millennium.',
-          ],
-          [
-            1,
             '[20:09] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0006.html) - 2009',
             "The idea of this software is to utilize a computer\x{2019}s idle time to do computations. The program it uses implements a clever strategy that was developed to test whether Mersenne\x{2019}s numbers are prime. It still took a desktop computer several months to check Mersenne numbers with 9.8 million digits, but this is a lot faster than methods for testing whether a random number of this size is prime. By <<2009|9n:0>>, over ten thousand people had joined what has become known as the Great Internet Mersenne Prime Search, or GIMPS.",
-          ],
-          [
-            1,
-            '[ap 01:25] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0006.html) - 1.25',
-            "
-Figure <<1.25|5a:0>> Nature\x{2019}s prime-number dice.
-To decide whether each number is going to be prime, roll one of the dice. If it lands prime side up, then mark that number as prime; if it\x{2019}s blank side up, the number isn\x{2019}t prime. Of course, this is just a heuristic model\x{2014}you can\x{2019}t make 100 indivisible just by the roll of dice. But it will give a set of numbers whose distribution is believed to be very like that of the primes. Gauss\x{2019}s prime-number theorem tells us how many sides there are on each die. So for three-digit numbers, use a six-sided die or a cube with one side prime. For four-digit numbers, use an eight-sided die\x{2014}an octahedron. For five digits, a die with 10.4 sides . . . of course, these are theoretical dice because there isn\x{2019}t a polyhedron with 10.4 sides.",
-          ],
-          [
-            1,
-            '[ap 02:10] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0007.html) - 2.10',
-            "
-Figure <<2.10|5a:0>>
-The first proof that the fused bubbles couldn\x{2019}t be bettered was announced in 1995. Although mathematicians don\x{2019}t really like asking for help from a computer (because that doesn\x{2019}t appeal to their sense of elegance and beauty), they needed one to check through the extensive numerical calculations that were involved in their proof.",
-          ],
-          [
-            1,
-            '[ap 02:11] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0007.html) - 2.11',
-            '
-Figure <<2.11|5a:1>>
-In fact, this 120-degree property turns out to be a general rule for the way soap bubbles fuse together. It was first discovered by Belgian scientist Joseph Plateau, who was born in 1801. While he was doing research into the effect of light on the eye, he stared at the sun for half a minute, and by the age of 40, he was blind. Then, with the help of relatives and colleagues, he switched to investigating the shape of bubbles.',
-          ],
-          [
-            1,
-            '[ap 02:12] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0007.html) - 2.12',
-            "
-Figure <<2.12|5a:0>>
-This \x{201c}square,\x{201d} however, isn\x{2019}t quite a square\x{2014}the edges bulge out. As Plateau explored the various shapes that appeared in different wire frames, he began to formulate a set of rules for how bubbles join together.",
           ],
           [
             1,
@@ -207,102 +61,13 @@ This \x{201c}square,\x{201d} however, isn\x{2019}t quite a square\x{2014}the edg
           ],
           [
             1,
-            '[ap 02:13] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0007.html) - 2.13',
-            "
-Figure <<2.13|5a:0>>
-Any bubble that didn\x{2019}t satisfy Plateau\x{2019}s rules was believed to be unstable and would therefore collapse to a stable configuration that did satisfy these rules. It was not until 1976 that Jean Taylor finally proved that the shape of bubbles in foam had to satisfy the rules laid down by Plateau. Her work tells us how the bubbles connect together, but what about the actual shapes of the bubbles in foam? Because bubbles are lazy, the way to the answer is to find the shapes that enclose a given amount of air in each bubble in the foam while minimizing the surface area of soap film.",
+            '[ap 01:50] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0007.html) - 1:50',
+            "The same phenomenon occurs with the coastline of Britain. Take, for example, the images in Figure 2.26. They are all sections of the coastline of Scotland. One is from a map with a scale of 1:1,000,000. The others are much more detailed maps\x{2014}one with a scale of <<1:50|2>>,000, the other with a scale of <<1:25|2>>,000. But can you match the pictures to the scale? However much you zoom in or out, these shapes seem to retain the same level of complexity. This isn\x{2019}t true of all shapes. If you draw a squiggly line and zoom in and magnify a portion of it, then at some point it will begin to look quite simple. What characterizes the shape of a coastline or Mandelbrot\x{2019}s graphs is that however far you zoom in, the complexity of the shape is retained.",
           ],
           [
             1,
-            '[ap 02:14] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0007.html) - 2.14',
-            "
-Figure <<2.14|5a:0>>
-The rules that Plateau developed for how bubbles in foam must meet show that the edges and faces are not actually flat\x{2014}they\x{2019}re curved. For example, the edges of a square meet at 90 degrees, but by the second of Plateau\x{2019}s rules, that isn\x{2019}t permitted. Instead, the edges of the square bulge out as they do in the cube wire frame, so that the two soap films meet at the requisite 109.47 degrees.",
-          ],
-          [
-            1,
-            '[ap 02:15] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0007.html) - 2.15',
-            "
-Figure <<2.15|5a:0>> A foam of truncated octahedra.
-Many believed that Kelvin\x{2019}s structure must be the answer to how to build bubbles with minimum surface area, but no one could prove it. But in 1993, Denis Weaire and Robert Phelan at the University of Dublin found two shapes that packed together to beat the Kelvin structure by 0.3 percent (a warning to anyone who thinks that proving things in mathematics is a waste of time).",
-          ],
-          [
-            1,
-            '[ap 02:16] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0007.html) - 2.16',
-            'Figure <<2.16|5a:0>> The shapes that Denis Weaire and Robert Phelan discovered.',
-          ],
-          [
-            1,
-            '[ap 02:17] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0007.html) - 2.17',
-            '
-Figure <<2.17|5a:0>>
-Crystals of garnet have 12 faces looking like kites. The word garnet actually comes from the Latin for pomegranate because the seeds of the fruit also form tiny red 12-sided solids with kite-shaped faces.',
-          ],
-          [
-            1,
-            '[ap 02:18] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0007.html) - 2.18',
-            "
-Figure <<2.18|5a:0>>
-The crystal structure that emerges has something in common with a stack of oranges at the grocery store, in which three oranges in one layer have a fourth orange placed on top to make a tetrahedron. But if you look instead at each layer of oranges, you\x{2019}ll see hexagons everywhere. These hexagons, which appear in the ice crystals, are the key to the snowflake\x{2019}s shape. So Kepler\x{2019}s intuition was right\x{2014}stacking oranges and the six-armed snowflake were related, but it wasn\x{2019}t until we were able to look at the atomic structure of snow that we could see where the hexagons were hidden. As the snowflake grows, the water molecules attach themselves to the six points of the hexagon, building up the six arms of the snowflake.",
-          ],
-          [
-            1,
-            '[ap 02:19] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0007.html) - 2.19',
-            "
-Figure <<2.19|5a:0>> Measuring the coastline of Britain.
-If you used a long piece of rope instead of rigid rulers, you would be able to follow more of the intricate shape of the coastline. When you pulled the rope out straight to make your measurement, the length of the coastline would be considerably longer than the estimate obtained with meter rulers. But there\x{2019}s a limit to the flexibility of a rope, which can\x{2019}t capture the intricate detail of the contours of the coastline on the centimeter scale. If we used a thin thread, we would be able to capture more of this detail, and then our estimate of the length of the coastline would be greater still.",
-          ],
-          [
-            1,
-            '[ap 02:20] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0007.html) - 2.20',
-            "
-Figure <<2.20|5a:0>>
-This is too straight to be a real coastline, so let\x{2019}s make a large inlet in this straight bit of coast. Pull out some more string from the ball so that the middle third of the string is replaced by two sides of the same length that go in and out:",
-          ],
-          [
-            1,
-            '[ap 02:21] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0007.html) - 2.21',
-            "
-Figure <<2.21|5a:0>>
-How much extra string did you have to pull out of the ball to make this inlet? The first line was made up of three pieces of length  m, while this new coast consists of four pieces of length  m. So the new length is  times the first length\x{2014}that is,  m.",
-          ],
-          [
-            1,
-            '[ap 02:22] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0007.html) - 2.22',
-            "
-Figure <<2.22|5a:0>>
-How long is this coastline? Well, each of the four lines has again increased in length by a factor of . So the length of the coast is now  \x{d7}  m = () m.",
-          ],
-          [
-            1,
-            '[ap 02:23] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0007.html) - 2.23',
-            '
-Figure <<2.23|5a:0>>
-This infinite coastline is actually one side of a shape called the Koch snowflake, named after its inventor, the Swedish mathematician Helge von Koch, who constructed it at the beginning of the twentieth century.',
-          ],
-          [
-            1,
-            '[ap 02:24] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0007.html) - 2.24',
-            '
-Figure <<2.24|5a:0>>
-If you join several of these coastlines together, you get something that looks remarkably like a medieval map of Britain:',
-          ],
-          [
-            1,
-            '[ap 02:25] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0007.html) - 2.25',
-            "
-Figure <<2.25|5a:0>>
-So if you are ever asked what the length of the coastline of Britain is, frankly, you can choose whatever answer you like. Isn\x{2019}t that the kind of math question everyone dreams of in school?",
-          ],
-          [
-            1,
-            '[ap 02:26] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0007.html) - 2.26',
-            "The same phenomenon occurs with the coastline of Britain. Take, for example, the images in Figure <<2.26|5a:0>>. They are all sections of the coastline of Scotland. One is from a map with a scale of 1:1,000,000. The others are much more detailed maps\x{2014}one with a scale of <<1:50|2>>,000, the other with a scale of <<1:25|2>>,000. But can you match the pictures to the scale? However much you zoom in or out, these shapes seem to retain the same level of complexity. This isn\x{2019}t true of all shapes. If you draw a squiggly line and zoom in and magnify a portion of it, then at some point it will begin to look quite simple. What characterizes the shape of a coastline or Mandelbrot\x{2019}s graphs is that however far you zoom in, the complexity of the shape is retained.",
-          ],
-          [
-            1,
-            '[ap 02:26] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0007.html) - 2.26',
-            'Figure <<2.26|5a:0>> The coastline of Scotland at different magnifications. From left to right, original map scales of 1:1,000,000; <<1:50|2>>,000; and <<1:25|2>>,000.',
+            '[ap 01:50] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0007.html) - 1:50',
+            'Figure 2.26 The coastline of Scotland at different magnifications. From left to right, original map scales of 1:1,000,000; <<1:50|2>>,000; and <<1:25|2>>,000.',
           ],
           [
             1,
@@ -311,35 +76,13 @@ So if you are ever asked what the length of the coastline of Britain is, frankly
           ],
           [
             1,
-            '[ap 02:27] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0007.html) - 2.27',
-            'Figure <<2.27|5a:0>> How to calculate the dimension of a fractal using graph paper. The dimension measures the increase in the number of pixels as you decrease the size of the pixels.',
-          ],
-          [
-            1,
-            '[ap 02:28] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0007.html) - 2.28',
-            'Figure <<2.28|5a:0>> As you change the angle of the triangle, the resulting fractal fills more space, and its fractal dimension increases.',
-          ],
-          [
-            1,
             '[ap 01:13] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0007.html) - 1.13',
             "If you analyze the fractal dimension of naturally occurring shapes, some interesting things emerge. The coastline of Britain is estimated to have a fractal dimension of 1.25\x{2014}quite close to that of the mathematical coastline we constructed. We can think of the fractal dimension as telling us how fast the length of the coastline is increasing as we use smaller and smaller rulers to measure the coast. The fractal dimension of Australia\x{2019}s coastline is estimated to be <<1.13|5a:0>>, indicating that it is less intricate in some sense than the coastline of Britain. Rather strikingly, the fractal dimension of the coastline of South Africa is only <<1.04|5a:0>>, which is a sign that it is very smooth. Perhaps the most fractal of all coastlines is Norway\x{2019}s, with all its fjords\x{2014}it comes out at <<1.52|9c:0>>.",
           ],
           [
             1,
-            '[ap 02:29] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0007.html) - 2.29',
-            '
-Figure <<2.29|5a:0>> What is the dimension of the coastline of Britain?
-For objects in three dimensions, we can imagine playing a similar trick, but replacing the graph paper with a mesh of cubes and looking at how the shape intersects these cubes as the mesh gets finer and finer. Cauliflower comes out as a shape with dimension <<2.33|5a:0>>; a piece of paper crumpled into a ball hits 2.5; broccoli is quite intricate at 2.66; and amazingly, the surface of the human lung has fractal dimension 2.97.',
-          ],
-          [
-            1,
             '[ap 02:33] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0007.html) - 2.33',
             'For objects in three dimensions, we can imagine playing a similar trick, but replacing the graph paper with a mesh of cubes and looking at how the shape intersects these cubes as the mesh gets finer and finer. Cauliflower comes out as a shape with dimension <<2.33|5a:0>>; a piece of paper crumpled into a ball hits 2.5; broccoli is quite intricate at 2.66; and amazingly, the surface of the human lung has fractal dimension 2.97.',
-          ],
-          [
-            1,
-            '[ap 02:30] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0007.html) - 2.30',
-            'Figure <<2.30|5a:0>> The fractal dimension of a painting increases as you splash on more paint.',
           ],
           [
             1,
@@ -350,63 +93,6 @@ For objects in three dimensions, we can imagine playing a similar trick, but rep
             1,
             '[ap 01:26] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0007.html) - 1.26',
             "Fractals are certainly weird shapes if they have dimensions that are not whole numbers\x{2014}like <<1.26|5a:0>> or 1.72\x{2014}but at least we can draw pictures of them. But things are about to get stranger, because our next step is into hyperspace to explore shapes that exist beyond our three-dimensional world.",
-          ],
-          [
-            1,
-            '[ap 02:31] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0007.html) - 2.31',
-            'Figure <<2.31|5a:0>> Rearrange the pieces and the area appears to decrease by one unit.',
-          ],
-          [
-            1,
-            '[ap 02:32] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0007.html) - 2.32',
-            "You could set about making a four-dimensional cube by cutting out and assembling eight cubes. These will be the \x{201c}faces\x{201d} of your four-dimensional cube. To make the net of the four-dimensional cube, you need to join these eight cubes together. Start by gluing together the first four cubes into a column, one stacked upon the other. Next, take the remaining four cubes and stick them to the faces of one of the four cubes in the column. Your unwrapped hypercube should now look like two intersecting crosses, as shown in Figure <<2.32|5a:0>>.",
-          ],
-          [
-            1,
-            '[ap 02:32] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0007.html) - 2.32',
-            'Figure <<2.32|5a:0>> How to make a four-dimensional cube from eight three-dimensional cubes.',
-          ],
-          [
-            1,
-            '[ap 02:33] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0007.html) - 2.33',
-            "Figure <<2.33|5a:0>> The first four shapes in Henri Poincar\x{e9}\x{2019}s topological classification of how to wrap up two-dimensional surfaces.",
-          ],
-          [
-            1,
-            '[ap 02:34] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0007.html) - 2.34',
-            'Figure <<2.34|5a:0>> How can you undo the two interlocked rings by continuously morphing them and without cutting them?',
-          ],
-          [
-            1,
-            '[ap 02:35] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0007.html) - 2.35',
-            "
-Figure <<2.35|5a:0>> Two paths on a sphere cross at two places.
-On the surface of a bagel-shaped planet, things are rather different. The white journey could take him around the inside of the bagel, through the hole, and out the other side. But if on his black journey he set off at 90 degrees to the white path, he\x{2019}d walk around the hole without going inside it. So it is possible to make two journeys that will meet only at the place you started from.",
-          ],
-          [
-            1,
-            '[ap 02:36] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0007.html) - 2.36',
-            "
-Figure <<2.36|5a:1>> There are paths on a torus that cross only once.
-The problem is that the surface of a planet is not generally perfectly spherical or bagel-shaped\x{2014}it is distorted. Dents in the surface where meteorites have struck will have bent it out of shape, so as the explorer travels in a straight line, hitting one of these dents or bumps would send him off in a new direction. In fact, it\x{2019}s quite possible that if the explorer heads off in a straight line, he will never return to his starting point. Since the dented shapes are still just distorted versions of the sphere or bagel, perhaps there are other ways to distinguish them. This is where the subject of topology is so powerful, because it\x{2019}s concerned not so much with the shortest path between two points, but with whether one path can be molded into another.",
-          ],
-          [
-            1,
-            '[ap 02:37] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0007.html) - 2.37',
-            "
-Figure <<2.37|5a:0>> Four colors are needed to color a map of Europe.
-What about the cartographers living on the bagel-shaped planet\x{2014}how many buckets of paint are they going to need? There are maps on the bagel-shaped planet that actually need as many as seven colors. Remember from the Asteroids game that we can wrap up the rectangular screen to make a bagel in which the top and bottom are joined to make a cylinder, and then the left- and right-hand sides of the screen that make up the ends of the cylinder are joined to make the bagel. Here\x{2019}s a map on the surface of the bagel before it is joined up; it needs seven colors once it has been sewn together.",
-          ],
-          [
-            1,
-            '[ap 02:38] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0007.html) - 2.38',
-            "Figure <<2.38|5a:0>> Wrap up this map into the shape of a bagel by joining the top and the bottom and then joining the two ends. You\x{2019}ll find that you need seven colors to color it.",
-          ],
-          [
-            1,
-            '[ap 02:39] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0007.html) - 2.39',
-            '
-Figure <<2.39|5a:0>>',
           ],
           [
             1,
@@ -440,118 +126,8 @@ Figure <<2.39|5a:0>>',
           ],
           [
             1,
-            '[ap 03:10] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0008.html) - 3.10',
-            "
-Figure <<3.10|5a:0>> How to arrange the chocolates to guarantee a win.
-The strategy does depend on you going first. If your opponent goes first, it only takes one slip for you to be back in the winning position. For example, if your opponent takes more than one bar of chocolate as his opening move, he\x{2019}s already started eating into the first pile of four chocolates, so you take the rest of the pile as before.",
-          ],
-          [
-            1,
-            '[ap 03:11] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0008.html) - 3.11',
-            'Figure <<3.11|5a:0>> Choose three chunks of cake to fill your cake stand before your opponent fills his.',
-          ],
-          [
-            1,
-            '[ap 08:59] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0008.html) - 1 to 9',
-            "The aim is to get three numbers from <<1 to 9|10a:0>> that add up to 15 while at the same time keeping track of what your opponent is doing so you can defeat his attempts. So if your opponent has chosen chunks with three and eight slices, then you need to stop him from making 15 by taking the chunk with four slices. If the chunk you wanted has been taken, you\x{2019}ll have to find a different way to get to 15 by using the chunks you\x{2019}ve already chosen and the remaining ones. But you must always use precisely three chunks to fill the stand\x{2014}filling the stand with two chunks of nine and six slices is not a winning move, nor is filling it with four chunks of one, two, four, and eight slices.",
-          ],
-          [
-            1,
-            '[ap 08:59] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0008.html) - 1 to 9',
-            'The most basic magic square is a way of arranging the numbers from <<1 to 9|10a:0>> in a 3 x 3 grid so that the numbers in the columns, rows, and diagonals all add up to 15. This arrangement provides all the possible ways to get 15 by adding three different numbers chosen from <<1 to 9|10a:0>>. By playing the cake game as tic-tac-toe on this magic square, anyone who gets three in a row will have gotten three numbers that add up to 15 before his or her opponent has.',
-          ],
-          [
-            1,
-            '[15:59] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0008.html) - 1 to 16',
-            "One of the earliest outings of magic squares in Europe is the 4 x 4 magic square that appears in Albrecht D\x{fc}rer\x{2019}s engraving Melancholia. Here, the numbers from <<1 to 16|10a:0>> are arranged so that the rows, columns, and diagonals all add up to 34. As well as that, each of the four quadrants\x{2014}the four 2 x 2 squares into which the big square can be split\x{2014}and the 2 x 2 square at the center also sum to 34. D\x{fc}rer even arranged the two numbers at the middle of the bottom row to give the year he made the engraving: 1514.",
-          ],
-          [
-            1,
-            '[ap 03:12] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0008.html) - 3.12',
-            "
-Figure <<3.12|5a:0>> Albrecht Disrer\x{2019}s magic square.
-Magic squares of different sizes were traditionally associated with planets in the solar system. The classic 3 x 3 square was associated with Saturn, the 4 x 4 square in Melancholia is Jupiter\x{2019}s, while the largest\x{2014}a 9 x 9 square\x{2014}was assigned to the moon. One suggestion for D\x{fc}rer\x{2019}s use of the square is that it reflected the mystical belief that Jupiter\x{2019}s joyfulness could counteract the sense of melancholy that pervades the engraving.",
-          ],
-          [
-            1,
             '[19:01] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0008.html) - 1901',
             "One mathematician who certainly caught the bug was Leonhard Euler. In 1779, a few years before he died, Euler came up with a different version of the problem. Take six regiments, with six soldiers in each regiment. Each regiment has a different colored uniform: they might be red, blue, yellow, green, orange, and purple. The soldiers in each regiment have different ranks\x{2014}say, a colonel, a major, a captain, a lieutenant, a corporal, and a private. The problem is to arrange the soldiers on a 6 x 6 grid so that in any column (or row) you don\x{2019}t see a soldier of the same rank or in the same regiment in that column (or row). Euler asked the question for a 6 x 6 grid because he believed that it was impossible to arrange the 36 soldiers satisfactorily. It was not until <<1901|18:0>> that the French amateur mathematician Gaston Tarry proved Euler correct.",
-          ],
-          [
-            1,
-            '[ap 08:59] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0008.html) - 1 to 9',
-            "Sudoku works slightly differently than Euler\x{2019}s soldiers puzzle. In the classic form, you have to arrange nine lots of the numbers from <<1 to 9|10a:0>> on a 9 x 9 grid so that no row, column, or 3 x 3 quadrant contains a number twice. A few of the numbers are already placed on the grid, and you have to fill in the rest. Don\x{2019}t believe those who say that no math is needed to do these puzzles. What they mean is that there\x{2019}s no arithmetic involved\x{2014}sudoku is essentially a logic puzzle. The kind of logical reasoning that leads you to decide that a 3 must go in the lower right-hand corner is precisely what mathematics is about.",
-          ],
-          [
-            1,
-            '[ap 03:13] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0008.html) - 3.13',
-            "
-Figure <<3.13|5a:0>>
-The problem of whether there is a journey around all the bridges then boils down to asking whether it\x{2019}s possible to trace over this map without taking your pen off the paper or running over any line twice. From Euler\x{2019}s new mathematical perspective, he could see that it was in fact impossible to cross all seven bridges once and only once.",
-          ],
-          [
-            1,
-            '[ap 03:14] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0008.html) - 3.14',
-            "Figure <<3.14|5a:0>> Euler\x{2019}s theorem implies that it\x{2019}s possible to draw this map without taking your pen off the paper and going over a line twice.",
-          ],
-          [
-            1,
-            '[ap 03:15] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0008.html) - 3.15',
-            "
-Figure <<3.15|5a:0>> The bridges of K\x{f6}nigsberg in the eighteenth century.
-A new railway bridge, which pedestrians can also use, now joins the two banks of the Pregel out to the west of the city, and a new footbridge called Kaiser Bridge allowed me to make the same crossing as over the old High Bridge. Ever the mathematician, my immediate thought was whether I could make a journey around today\x{2019}s bridges in the spirit of the eighteenth-century game.",
-          ],
-          [
-            1,
-            '[ap 03:16] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0008.html) - 3.16',
-            "
-Figure <<3.16|5a:0>> The bridges of Kaliningrad in the twenty-first century.
-Euler\x{2019}s mathematical analysis told me that if there were exactly two places with an odd number of bridges emerging from them, there would be an Eulerian path: you start at one of the odd-numbered points and end at the other. By checking the plan of today\x{2019}s bridges of Kaliningrad, I found that such a journey is in fact possible.",
-          ],
-          [
-            1,
-            '[ap 03:17] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0008.html) - 3.17',
-            'Figure <<3.17|5a:0>> An example of the traveling-salesman problem. Can you find a route of 238 miles or less that visits all the points on this map and returns to the starting point?',
-          ],
-          [
-            1,
-            '[ap 03:18] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0008.html) - 3.18',
-            "Figure <<3.18|5a:0>> A line joins two people if they can\x{2019}t be invited to the same party.",
-          ],
-          [
-            1,
-            '[ap 03:19] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0008.html) - 3.19',
-            "
-Figure <<3.19|5a:0>> A line joins two countries if they share a common border.
-Friends of yours who don\x{2019}t like one another have become European countries, and the links are now shared borders between countries. The problem of choosing which of the three parties to invite friends to has become the problem of choosing which of three colors to use for countries on a map of Europe.",
-          ],
-          [
-            1,
-            '[ap 03:20] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0008.html) - 3.20',
-            "
-Figure <<3.20|5a:0>>
-But what about the next picture\x{2014}can it be from a real game?",
-          ],
-          [
-            1,
-            '[ap 03:21] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0008.html) - 3.21',
-            '
-Figure <<3.21|5a:0>>
-Is there a way to place mines so that the numbers are consistent? Or is there no way that this can be from a real game because there is no arrangement of mines that could give rise to the numbers showing? Your job is to come up with an efficient program that will work this out, whatever picture you are given.',
-          ],
-          [
-            1,
-            '[ap 03:22] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0008.html) - 3.22',
-            "
-Figure <<3.22|5a:0>> Packing crates is a mathematically complex problem.
-Can you find a combination of crates that will fill the truck as efficiently as possible? You have to find an algorithm that decides\x{2014}given any number N and a set of smaller numbers n (1), n (2), . . . , n (r )\x{2014}whether there is a choice of the smaller numbers that add up to the big number.",
-          ],
-          [
-            1,
-            '[ap 03:23] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0008.html) - 3.23',
-            '
-Figure <<3.23|5a:0>>
-15 + 55 + 28 + 12 + 24 + 35 + 25 + 17 + 4 + 5 + 18 = 238',
           ],
           [
             1,
@@ -562,60 +138,6 @@ Figure <<3.23|5a:0>>
             1,
             '[ap 09:00] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0009.html) - 0 to 9',
             "The code worked by using combinations of ten different flags in which each flag represented a different numeral from <<0 to 9|10a:0>>. The flags would be run up the mast of a ship three at a time, indicating a number from 000 to 999. The recipient of the message would then look in the codebook to see what word was encoded by that number. England was encoded by the number 253, and the word man by 471. Some words, such as duty, were not in the codebook and would need to be spelled out by flags reserved for individual letters. Originally, Nelson had wanted to send the message \x{201c}England confides that every man will do his duty,\x{201d} in the sense that England was confident, but the signal officer, Lieutenant John Pasco, couldn\x{2019}t find the word confides in the codebook. Rather than spelling it out, he politely suggested to Nelson that maybe expects, which was in the book, was a better word.",
-          ],
-          [
-            1,
-            '[ap 04:10] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0009.html) - 4.10',
-            "
-Figure <<4.10|5a:0>> Morse code.
-With the aid of Morse code, we can now crack the message hidden in Beethoven\x{2019}s Fifth. If we interpret the dramatic opening of the piece as Morse code, then dot-dot-dot-dash is Morse for the letter v, which the BBC used to symbolize victory.",
-          ],
-          [
-            1,
-            '[ap 04:11] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0009.html) - 4.11',
-            "
-Figure <<4.11|5a:0>>
-In some of the episodes, the composer even threaded the name of the story\x{2019}s killer in Morse during the incidental music accompanying the program, though red herrings sometimes found their way into the score.",
-          ],
-          [
-            1,
-            '[ap 04:12] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0009.html) - 4.12',
-            "
-Figure <<4.12|5a:0>>
-it would indicate \x{201c}conflict.\x{201d} But if the lines came out the other way around and you got",
-          ],
-          [
-            1,
-            '[ap 04:13] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0009.html) - 4.13',
-            "
-Figure <<4.13|5a:0>>
-that would indicate \x{201c}hidden intelligence.\x{201d}",
-          ],
-          [
-            1,
-            '[ap 04:14] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0009.html) - 4.14',
-            "
-Figure <<4.14|5a:0>> A reconstruction of Leibniz\x{2019}s binary calculator.
-It wasn\x{2019}t only numbers that people started to represent as strings of 0s and 1s, but letters, too. Although humans found Morse code a very powerful tool for communicating, machines were less adept at picking up the subtle differences between dots and dashes spelling out letters and knowing when one letter had finished and the next had begun.",
-          ],
-          [
-            1,
-            '[ap 04:15] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0009.html) - 4.15',
-            "
-Figure <<4.15|5a:0>> The cover of Coldplay\x{2019}s third album used the Baudot code.
-Baudot\x{2019}s original code is the key to unlocking the secret message embedded in the cover\x{2019}s graphic. The pattern can be divided into four columns with five blocks in each column. The colored blocks should be interpreted as 1s, and the gaps as 0s. Because it is sometimes hard to tell which way up the tape should be, the machine punches a fine dividing line between the upper two blocks and the three below. That\x{2019}s why there\x{2019}s a line separating the gray blocks and the colored blocks on the cover\x{2019}s graphic.",
-          ],
-          [
-            1,
-            '[ap 04:16] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0009.html) - 4.16',
-            "And the second column on the cover is Baudot\x{2019}s shift key. To decode the blank-blank-blank-color-color in the third column, we need to consult the extended character set, shown in Figure <<4.16|5a:0>>. I\x{2019}m sure most people will be expecting to find the symbol for &. But 00011 stands not for &, but for the numeral 9. So the real title of Coldplay\x{2019}s third album as encoded with the Baudot code is X9Y, not X&Y. Were the members of Coldplay playing a joke on us? Probably not. There is just one block difference between the Baudot code for 9 and &, so it was probably a mistake, which perfectly illustrates one of the problems with many of these codes: when you make a mistake, it\x{2019}s difficult to tell. It\x{2019}s in detecting errors such as this that the mathematics of codes truly comes into its own.",
-          ],
-          [
-            1,
-            '[ap 04:16] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0009.html) - 4.16',
-            '
-Figure <<4.16|5a:0>> The Baudot code.
-',
           ],
           [
             1,
@@ -682,25 +204,6 @@ Now, 5 is prime, and if I calculate 2 to the power of 5 on a five-hour clock cal
           ],
           [
             1,
-            '[ap 04:17] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0009.html) - 4.17',
-            "
-Figure <<4.17|5a:1>> Calculating powers on a 33-hour clock calculator.
-How can we be sure that the customer\x{2019}s encrypted number, 29, is secure? After all, a hacker can see this number travelling through cyberspace and can easily look up Bob\x{2019}s public key, consisting of the clock calculator with 33 hours and the instruction to raise the credit card number to the power 7. To crack this code, all the hacker needs to do is find a number that, multiplied together 7 times on the 33-hour clock calculator, gives the answer 29.",
-          ],
-          [
-            1,
-            '[ap 04:18] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0009.html) - 4.18',
-            "
-Figure <<4.18|5a:0>> The graph of an elliptic curve.
-Those points on the elliptic curve are very nice because x + and y are both whole numbers. Can you find any other points like this? Let\x{2019}s try putting x + = 2. Then x + \x{2013} 2 = 8 \x{2013} 2 = 6, so y = \x{221a}6 or \x{2013}\x{221a}6. In the first example, 25 had a whole number square root, but the square root of 6 is not so tidy. The ancient Greeks proved that there is no fraction, let alone whole number, that when you square it it gives 6. \x{221a}(6 written as a decimal number races off to infinity with no pattern at all:",
-          ],
-          [
-            1,
-            '[ap 04:19] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0009.html) - 4.19',
-            'Figure <<4.19|5a:0>> How to find more points on the elliptic curve with coordinates that are fractions.',
-          ],
-          [
-            1,
             '[ap 04:14] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0009.html) - 4.14',
             "
 Table <<4.14|5a:0>>
@@ -722,26 +225,6 @@ It landed heads. 13,068,221 = 3,613 \x{d7} 3,617. Both 3,613 and 3,617 are prime
             1,
             '[20:02] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0010.html) - 2002',
             "It took until <<2002|18:0>> for mathematicians to come up with an explanation for this behavior. The rotational energy is translated, via the friction on the table, into potential energy, which pushes the egg\x{2019}s center of gravity upward. If the table has no friction or too much friction, then the effect doesn\x{2019}t happen. Part of the energy transferred to a raw egg gets absorbed by the fluid interior, and there isn\x{2019}t enough left to push the egg upright.",
-          ],
-          [
-            1,
-            '[ap 05:10] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0010.html) - 5.10',
-            'Figure <<5.10|5a:0>> If the lemmings triple their numbers in the spring, the population starts to oscillate.',
-          ],
-          [
-            1,
-            '[ap 05:11] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0010.html) - 5.11',
-            'Figure <<5.11|5a:0>> When lemming numbers increase in the spring by a factor of 3.5, the population oscillates between four different values.',
-          ],
-          [
-            1,
-            '[ap 05:12] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0010.html) - 5.12',
-            'Figure <<5.12|5a:0>> When lemming numbers increase in the spring by a factor of 3.5699 or more, the population variations become chaotic.',
-          ],
-          [
-            1,
-            '[ap 05:13] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0010.html) - 5.13',
-            "Figure <<5.13|5a:0>> Chaotic turbulence causes less drag than regular \x{201c}laminar\x{201d} flow.",
           ],
           [
             1,

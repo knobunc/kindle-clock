@@ -52,7 +52,7 @@ $VAR1 = [
           [
             1,
             '[ap 01:00] Doctor Zhivago - Boris Pasternak.epub (OEBPS/Past_9780307379962_epub_c06_r1.htm) - one',
-            "At <<one|9m>> intersection he was overtaken by a paperboy running past with the shout \x{201c}Latest news!\x{201d} and carrying a big bundle of freshly printed sheets under his arm.",
+            "At <<one|9m:0>> intersection he was overtaken by a paperboy running past with the shout \x{201c}Latest news!\x{201d} and carrying a big bundle of freshly printed sheets under his arm.",
           ],
           [
             1,
@@ -102,7 +102,7 @@ $VAR1 = [
           [
             1,
             '[ap > 02:00] Doctor Zhivago - Boris Pasternak.epub (OEBPS/Past_9780307379962_epub_c14_r1.htm) - After two',
-            "<<After two|9:1>> or three easily poured-out stanzas and several similes that he was struck by himself, the work took possession of him, and he felt the approach of what is known as inspiration. The correlation of forces that control creative work is, as it were, stood on its head. The primacy no longer belongs to man and the state of his soul, for which he seeks expression, but to the language in which he wants to express it. Language, the homeland and receptacle of beauty and meaning, itself begins to think and speak for man and turns wholly into music, not in terms of external, audible sounds, but in terms of the swiftness and power of its inner flow. Then, like the rolling mass of a river\x{2019}s current, which by its very movement polishes the stones of the bottom and turns the wheels of mills, flowing speech itself, by the force of its own laws, on its way, in passing, creates meter and rhyme and thousands of other forms and constructions, still more important, but as yet unrecognized, unconsidered, unnamed.",
+            "<<After two|9:1>> or <<three|20a:1>> easily poured-out stanzas and several similes that he was struck by himself, the work took possession of him, and he felt the approach of what is known as inspiration. The correlation of forces that control creative work is, as it were, stood on its head. The primacy no longer belongs to man and the state of his soul, for which he seeks expression, but to the language in which he wants to express it. Language, the homeland and receptacle of beauty and meaning, itself begins to think and speak for man and turns wholly into music, not in terms of external, audible sounds, but in terms of the swiftness and power of its inner flow. Then, like the rolling mass of a river\x{2019}s current, which by its very movement polishes the stones of the bottom and turns the wheels of mills, flowing speech itself, by the force of its own laws, on its way, in passing, creates meter and rhyme and thousands of other forms and constructions, still more important, but as yet unrecognized, unconsidered, unnamed.",
           ],
           [
             1,
@@ -122,7 +122,7 @@ $VAR1 = [
           [
             1,
             '[ap > 02:00] Doctor Zhivago - Boris Pasternak.epub (OEBPS/Past_9780307379962_epub_c15_r1.htm) - after two',
-            "When he left Gordon\x{2019}s on the day of his disappearance, it was still light. He went down Bronnaya, heading for his home in Spiridonovka, and at once, before going a hundred steps, ran into his half brother, Evgraf Zhivago, coming in the opposite direction. Yuri Andreevich had not seen him for more than three years and knew nothing about him. As it turned out, Evgraf was in Moscow by chance, having arrived quite recently. As usual, he dropped from the sky and was impervious to questions, getting off with silent little smiles and jokes. Instead, passing over petty everyday details, <<after two|9:0>> or three questions to Yuri Andreevich, he straightaway entered into all his sorrows and quandaries, and right there, at the narrow turns of the crooked lane, amidst the jostling of passersby going in both directions, he came up with a practical plan of how to help his brother and save him. Yuri Andreevich\x{2019}s disappearance and remaining in hiding were Evgraf\x{2019}s idea, his invention.",
+            "When he left Gordon\x{2019}s on the day of his disappearance, it was still light. He went down Bronnaya, heading for his home in Spiridonovka, and at once, before going a hundred steps, ran into his half brother, Evgraf Zhivago, coming in the opposite direction. Yuri Andreevich had not seen him for more than three years and knew nothing about him. As it turned out, Evgraf was in Moscow by chance, having arrived quite recently. As usual, he dropped from the sky and was impervious to questions, getting off with silent little smiles and jokes. Instead, passing over petty everyday details, <<after two|9:0>> or <<three|20a:0>> questions to Yuri Andreevich, he straightaway entered into all his sorrows and quandaries, and right there, at the narrow turns of the crooked lane, amidst the jostling of passersby going in both directions, he came up with a practical plan of how to help his brother and save him. Yuri Andreevich\x{2019}s disappearance and remaining in hiding were Evgraf\x{2019}s idea, his invention.",
           ],
           [
             1,

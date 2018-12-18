@@ -822,7 +822,7 @@ Git will by default try to update all of your submodules when you run git submod
             "\$ git log
 commit 9a466c572fe88b195efd356c3f2bbeccdb504102
 Author: Scott Chacon <schacon\@gmail.com>
-Date:   Wed Mar 10 <<07:34|2>>:10 2010 -<<0800|18:0>>
+Date:   Wed Mar 10 <<07:34|2>>:10 2010 -0800
 
     second commit
 
@@ -1458,7 +1458,7 @@ Date:   Fri May 22 <<18:15|2>>:24 2009 -0700
 
 commit cac0cab538b970a37ea1e769cbbde608743bc96d
 Author: Scott Chacon <schacon\@gmail.com>
-Date:   Fri May 22 <<18:14|2>>:29 2009 -<<0700|18:0>>
+Date:   Fri May 22 <<18:14|2>>:29 2009 -0700
 
 	second commit
 

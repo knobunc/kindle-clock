@@ -26,8 +26,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[12:00] Outposts_ Journeys to the Surviving Relics - Simon Winchester.epub (OEBPS/outposts_dum01.html) - noon',
-            "We didn\x{2019}t wake at dawn, and by eight the Express boats were back, and people were yelling through megaphones at us, telling us to move. We took our time, and ate our breakfast while the patrol boats circled us, like sharks; finally we slipped the buoy lines at <<noon|13>>. As we hoisted the sails we turned south, into the lagoon, and sailed around the Corpus Christi, and under the bows of the Proteus and the LaSalle, while a party of Royal Navy men in a rubber boat escorted us to the lagoon mouth. They waved us out and turned back to base; we felt the pleasant calm of the shallows give way to the slow swell of the ocean once more, and then the wind took hold, and a strong current, and we were swept away from Diego Garcia for good.",
+            '[ap 08:00] Outposts_ Journeys to the Surviving Relics - Simon Winchester.epub (OEBPS/outposts_dum01.html) - eight',
+            "We didn\x{2019}t wake at dawn, and by <<eight|9:1>> the Express boats were back, and people were yelling through megaphones at us, telling us to move. We took our time, and ate our breakfast while the patrol boats circled us, like sharks; finally we slipped the buoy lines at <<noon|13>>. As we hoisted the sails we turned south, into the lagoon, and sailed around the Corpus Christi, and under the bows of the Proteus and the LaSalle, while a party of Royal Navy men in a rubber boat escorted us to the lagoon mouth. They waved us out and turned back to base; we felt the pleasant calm of the shallows give way to the slow swell of the ocean once more, and then the wind took hold, and a strong current, and we were swept away from Diego Garcia for good.",
           ],
           [
             1,
@@ -67,7 +67,7 @@ $VAR1 = [
           [
             1,
             '[ap 07:00] Outposts_ Journeys to the Surviving Relics - Simon Winchester.epub (OEBPS/outposts_dum02.html) - seven',
-            "Perhaps the most unexpected\x{2014}and, I have to say, most dismaying\x{2014}result of the comparative wealth of the island is that, since 1984, there is an island television service. Most houses have a cable providing them with programmes from a small video tape centre (our ship was bringing a new amplifier, which was greeted with considerably more enthusiasm on the dockside than were any of the visitors, rams included), and at seven each Tuesday, Thursday and Sunday evening the cassettes begin to unroll, and the delights of the \x{2018}houtside warl\x{2019} begin to pour into the little Tristan houses. At <<seven|9m>> each Sunday the island is quite immobilised: Dallas is being shown\x{2014}and the islanders watch every frame with adoration, amazement and delight. (There is even less worthy fare than this: the proud, private, fearless Tristanians, heirs to the traditions of egg-gathering on Inaccessible Island, and bird-collecting on Nightingale, now watch shows like Mannix, Jabber Jaws, and Fraggle Rock. To that small extent Tristan Island is beginning to resemble Staten Island, and it somewhat saddened me to find no real opposition, anywhere, to the trend.)",
+            "Perhaps the most unexpected\x{2014}and, I have to say, most dismaying\x{2014}result of the comparative wealth of the island is that, since 1984, there is an island television service. Most houses have a cable providing them with programmes from a small video tape centre (our ship was bringing a new amplifier, which was greeted with considerably more enthusiasm on the dockside than were any of the visitors, rams included), and at <<seven|9:1>> each Tuesday, Thursday and Sunday evening the cassettes begin to unroll, and the delights of the \x{2018}houtside warl\x{2019} begin to pour into the little Tristan houses. At <<seven|9m>> each Sunday the island is quite immobilised: Dallas is being shown\x{2014}and the islanders watch every frame with adoration, amazement and delight. (There is even less worthy fare than this: the proud, private, fearless Tristanians, heirs to the traditions of egg-gathering on Inaccessible Island, and bird-collecting on Nightingale, now watch shows like Mannix, Jabber Jaws, and Fraggle Rock. To that small extent Tristan Island is beginning to resemble Staten Island, and it somewhat saddened me to find no real opposition, anywhere, to the trend.)",
           ],
           [
             1,
@@ -83,6 +83,11 @@ $VAR1 = [
             1,
             '[00:00] Outposts_ Journeys to the Surviving Relics - Simon Winchester.epub (OEBPS/outposts_dum03.html) - midnight',
             "Rooke\x{2019}s men landed at daybreak, and by <<midnight|13>> the last of the Spaniards emerged from their foxholes. The Spanish Governor, Diego Salina, surrendered and marched the remains of his garrison and almost the entire population of 6,000 civilians northwards, and to La Linea and San Roque. Gibraltar was now, in fact if not in law, British. In fact the Prince of Hesse, installed as first Governor, first raised the Spanish flag, on behalf of his Pretender\x{2019}s claim; and even when Rooke tore this down, and protested that the peninsula was British, a second Governor was installed who was most definitely Spanish\x{2014}a General Ramos. Then Archduke Charles himself was brought to Gibraltar in 1705 and formally declared King of Spain, which must have seemed very odd, given that there were no Spaniards there at all except Ramos, and a population of what were called \x{2018}shacombe filthies, raggamuffings and scrovies\x{2019} from Rooke\x{2019}s seventy-one warships.",
+          ],
+          [
+            1,
+            '[19:43] Outposts_ Journeys to the Surviving Relics - Simon Winchester.epub (OEBPS/outposts_dum03.html) - 1943',
+            'The Colonial Government, earnest and determined, stepped in. The Governor, Sir Alexander Godley, a man who had commanded the western defences at Mafeking, had been staff officer to BadenPowell and had raised an army in New Zealand, was put in overall charge of this crucial Imperial task. He imported two male apes from Morocco, and then five more. But they refused to breed, and murder and mayhem kept the numbers down. At the outbreak of the Second World War only eleven were left, and by <<1943|9n:0>>, just seven.',
           ],
           [
             1,
@@ -161,8 +166,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 01:00] Outposts_ Journeys to the Surviving Relics - Simon Winchester.epub (OEBPS/outposts_dum06.html) - one',
-            "This is the only British colony of whose constitutional future we can now be sure. It is the only colony that, on being freed from British rule, becomes subsumed into a neighbour nation (Northern Ireland is the single remaining possession that awaits a similar fate). At <<one|9m>> second <<after midnight|13>> on 1st July 1997 the Crown colony of Hong Kong will be retitled the Special Administrative Region of Xianggang\x{2014}Hong Kong, China.",
+            '[> 00:00] Outposts_ Journeys to the Surviving Relics - Simon Winchester.epub (OEBPS/outposts_dum06.html) - after midnight',
+            "This is the only British colony of whose constitutional future we can now be sure. It is the only colony that, on being freed from British rule, becomes subsumed into a neighbour nation (Northern Ireland is the single remaining possession that awaits a similar fate). At one second <<after midnight|13>> on 1st July 1997 the Crown colony of Hong Kong will be retitled the Special Administrative Region of Xianggang\x{2014}Hong Kong, China.",
           ],
           [
             1,
@@ -201,13 +206,18 @@ $VAR1 = [
           ],
           [
             1,
+            '[19:31] Outposts_ Journeys to the Surviving Relics - Simon Winchester.epub (OEBPS/outposts_dum08.html) - 1931',
+            "In 1885 the island sold 180,000 gallons of juice to Crosse and Blackwell, in 1928 some thirty-five puncheons went to Australia. They made lime oil, too, for perfume and soap. But the crop was badly damaged in a hurricane, and by <<1931|9n:0>> cotton had taken over as the major commodity exported from Plymouth dock. Sturge\x{2019}s Montserrat Company was sold in 1961. When I ordered a glass of lime juice at the hotel one afternoon there was nothing fresh available. I was given a bottle of Rose\x{2019}s Lime Juice, with a label that said, \x{2018}St Albans and the West Indies\x{2019} but the company later explained that this was a polite fiction, and that Rose\x{2019}s limes now came from Mexico and Ghana.",
+          ],
+          [
+            1,
             "[ap 00:00] Outposts_ Journeys to the Surviving Relics - Simon Winchester.epub (OEBPS/outposts_dum09.html) - Twelve O\x{2019}Clock",
             "As the sun began to slip its way westwards, and ease itself down behind the Saddleback and Mount Longdon, I strolled through town. (The 800-foot peak directly south from Stanley is called <<Twelve O\x{2019}Clock|6>> Mountain, and islanders set their watches by it, when it is not raining, and covered with cloud.)",
           ],
           [
             1,
-            '[00:00] Outposts_ Journeys to the Surviving Relics - Simon Winchester.epub (OEBPS/outposts_dum09.html) - midnight',
-            "The radio was on in the kitchen, and at eight\x{2014}<<midnight|13>> in London\x{2014}the familiar jauntiness of Lillibullero cascaded through the static, and the BBC newsreader came on air. All conversation stopped, forks hovered in mid-route. The South Georgia saga was the first on the list, and hotting up: Lord Carrington, the British Foreign Secretary, had broken off a trip to Israel and had made a statement to Parliament. \x{2018}The question of security in the Falklands area is being reviewed\x{2026}\x{2019} It was almost the first time the name of the colony had been mentioned, other than as a mere adjunct to the trouble 800 miles to the east. I felt the adrenalin pump briefly into my system, and my hands shook slightly with excitement.",
+            '[ap 08:00] Outposts_ Journeys to the Surviving Relics - Simon Winchester.epub (OEBPS/outposts_dum09.html) - eight',
+            "The radio was on in the kitchen, and at <<eight|9:1>>\x{2014}<<midnight|13>> in London\x{2014}the familiar jauntiness of Lillibullero cascaded through the static, and the BBC newsreader came on air. All conversation stopped, forks hovered in mid-route. The South Georgia saga was the first on the list, and hotting up: Lord Carrington, the British Foreign Secretary, had broken off a trip to Israel and had made a statement to Parliament. \x{2018}The question of security in the Falklands area is being reviewed\x{2026}\x{2019} It was almost the first time the name of the colony had been mentioned, other than as a mere adjunct to the trouble 800 miles to the east. I felt the adrenalin pump briefly into my system, and my hands shook slightly with excitement.",
           ],
           [
             1,

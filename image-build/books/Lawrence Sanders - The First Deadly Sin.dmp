@@ -100,6 +100,11 @@ $VAR1 = [
           ],
           [
             1,
+            '[ap ~ 10:00] The First Deadly Sin - Lawrence Sanders.epub (OEBPS/19-chap16.xhtml) - about ten',
+            "\x{201c}Inspector Johnson and myself, of course. And <<about ten|9:0>> or a dozen others, all of superior rank to us, who don\x{2019}t, for obvious reasons, want their names used at this time.\x{201d}",
+          ],
+          [
+            1,
             '[00:00] The First Deadly Sin - Lawrence Sanders.epub (OEBPS/20-chap17.xhtml) - midnight',
             "\x{201c}Well \x{2026} I worked this out the morning of the murder. While I was on the scene. Just to satisfy my own curiosity, I guess. What bothered me most about the murder was why a man of Lombard\x{2019}s size and strength, with his awareness of street crime, alone on a deserted street at <<midnight|13>>, why he would let an assailant come up behind him and chop him down without making any apparent effort to defend himself. Here\x{2019}s how I think it was done \x{2026}\x{201d}",
           ],
@@ -232,7 +237,7 @@ $VAR1 = [
           [
             1,
             '[ap ~ 05:06] The First Deadly Sin - Lawrence Sanders.epub (OEBPS/33-chap30.xhtml) - about five-six',
-            "\x{201c}Nothing on that. He is a short man, <<about five-six|9:0>> or five-seven. He was hit from the front. The penetration went in high up on the skull, about an inch or so above where the hair line would have been.\x{201d}",
+            "\x{201c}Nothing on that. He is a short man, <<about five-six|9:0>> or <<five-seven|20a:0>>. He was hit from the front. The penetration went in high up on the skull, about an inch or so above where the hair line would have been.\x{201d}",
           ],
           [
             1,
@@ -434,7 +439,7 @@ $VAR1 = [
           [
             1,
             '[ap ~ 06:03] The First Deadly Sin - Lawrence Sanders.epub (OEBPS/49-chap46.xhtml) - About six-three',
-            "\x{201c}Sure you do, Captain. A real tall guy. <<About six-three|9:0>> or four. Skinny as a rail. We called him \x{2018}Scarecrow.\x{2019} Remember now?\x{201d}",
+            "\x{201c}Sure you do, Captain. A real tall guy. <<About six-three|9:0>> or <<four|20a:0>>. Skinny as a rail. We called him \x{2018}Scarecrow.\x{2019} Remember now?\x{201d}",
           ],
           [
             1,
@@ -486,7 +491,7 @@ $VAR1 = [
             1,
             '[ap ~ 08:00] The First Deadly Sin - Lawrence Sanders.epub (OEBPS/50-chap47.xhtml) - About eight',
             "\x{201c}Let me be the judge of that. Is it a deal?\x{201d}
-\x{201c}All right. <<About eight|9:0>> or nine.\x{201d}
+\x{201c}All right. <<About eight|9:0>> or <<nine|20a:0>>.\x{201d}
 \x{201c}I\x{2019}ll be there.\x{201d}",
           ],
           [
@@ -522,7 +527,7 @@ $VAR1 = [
           [
             1,
             '[~ 18:00] The First Deadly Sin - Lawrence Sanders.epub (OEBPS/50-chap47.xhtml) - About eighteen',
-            "\x{201c}<<About eighteen|9k:0>>,\x{201d} Delaney said smoothly. \x{201c}Long blonde hair. <<About five-four|9:0>> or five. Maybe <<one-twenty|5k:0>>. Blue eyes. Peaches-and-cream complexion. Big jugs.\x{201d}",
+            "\x{201c}<<About eighteen|9k:0>>,\x{201d} Delaney said smoothly. \x{201c}Long blonde hair. <<About five-four|9:0>> or <<five|20a:0>>. Maybe <<one-twenty|5k:0>>. Blue eyes. Peaches-and-cream complexion. Big jugs.\x{201d}",
           ],
           [
             1,

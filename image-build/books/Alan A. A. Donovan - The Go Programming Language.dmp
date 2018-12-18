@@ -1263,13 +1263,6 @@ exception, 5.4, 5.9',
           ],
           [
             1,
-            '[ap 07:13] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_000.html) - 7.13',
-            "failure\x{a0}message, test, 11.2
-fallthrough statement, 1.8, <<7.13|5a:0>>
-false boolean constant, 3.4",
-          ],
-          [
-            1,
             '[ap 07:12] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_000.html) - 7.12',
             'fmt.Sscanf function, 7.4
 fmt.Stringer interface, 7.4, <<7.12|5a:0>>
@@ -1599,7 +1592,7 @@ sqlQuote function, <<7.13|9p>>, <<7.13|9p>>',
             1,
             '[ap 07:13] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_001.html) - 7.13',
             'SQL injection attack, <<7.13|5a:0>>
-sqlQuote function, <<7.13|9p>>, 7.13
+sqlQuote function, 7.13, 7.13
 squares example, 5.6',
           ],
           [

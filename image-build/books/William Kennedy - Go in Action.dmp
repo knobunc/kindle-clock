@@ -1322,21 +1322,7 @@ var slice []int
       
       A nil slice is the most common way you create slices in Go. They can be used with many of the standard library and built-in functions
          that work with slices. They\x{2019}re useful when you want to represent a slice that doesn\x{2019}t exist, such as when an exception occurs
-         in a function that returns a slice (see figure <<4.10|5a:0>>).",
-          ],
-          [
-            1,
-            '[ap 04:22] Go in Action - William Kennedy.epub (kindle_split_012.html) - 4.22',
-            "Listing <<4.22|5a:0>>. Declaring a nil slice
-      
-      // Create a nil slice of integers.
-var slice []int
-      
-      A nil slice is the most common way you create slices in Go. They can be used with many of the standard library and built-in functions
-         that work with slices. They\x{2019}re useful when you want to represent a slice that doesn\x{2019}t exist, such as when an exception occurs
-         in a function that returns a slice (see figure <<4.10|5a:0>>).
-Figure <<4.10|5a:0>>. The representation of a nil slice
-You can also create an empty slice by declaring a slice with initialization.",
+         in a function that returns a slice (see figure 4.10).",
           ],
           [
             1,
@@ -1350,23 +1336,7 @@ slice := make([]int, 0)
 slice := []int{}
       
       An empty slice contains a zero-element underlying array that allocates no storage. Empty slices are useful when you want to
-         represent an empty collection, such as when a database query returns zero results (see figure <<4.11|5a:0>>).',
-          ],
-          [
-            1,
-            '[ap 04:23] Go in Action - William Kennedy.epub (kindle_split_012.html) - 4.23',
-            "Listing <<4.23|5a:0>>. Declaring an empty slice
-      
-      // Use make to create an empty slice of integers.
-slice := make([]int, 0)
-
-// Use a slice literal to create an empty slice of integers.
-slice := []int{}
-      
-      An empty slice contains a zero-element underlying array that allocates no storage. Empty slices are useful when you want to
-         represent an empty collection, such as when a database query returns zero results (see figure <<4.11|5a:0>>).
-Figure <<4.11|5a:0>>. The representation of an empty slice
-Regardless of whether you\x{2019}re using a nil slice or an empty slice, the built-in functions append, len, and cap work the same.",
+         represent an empty collection, such as when a database query returns zero results (see figure 4.11).',
           ],
           [
             1,
@@ -1397,26 +1367,7 @@ slice := []int{10, 20, 30, 40, 50}
 newSlice := slice[1:3]
       
       After the slicing operation performed in listing <<4.25|5a:0>>, we have two slices that are sharing the same underlying array. However, each slice views the underlying array in a different
-         way (see figure <<4.12|5a:0>>).',
-          ],
-          [
-            1,
-            '[ap 04:25] Go in Action - William Kennedy.epub (kindle_split_012.html) - 4.25',
-            "Listing <<4.25|5a:0>>. Taking the slice of a slice
-      
-      // Create a slice of integers.
-// Contains a length and capacity of 5 elements.
-slice := []int{10, 20, 30, 40, 50}
-
-
-// Create a new slice.
-// Contains a length of 2 and capacity of 4 elements.
-newSlice := slice[1:3]
-      
-      After the slicing operation performed in listing <<4.25|5a:0>>, we have two slices that are sharing the same underlying array. However, each slice views the underlying array in a different
-         way (see figure <<4.12|5a:0>>).
-Figure <<4.12|5a:0>>. Two slices sharing the same underlying array
-The original slice views the underlying array as having a capacity of five elements, but the view of newSlice is different. For newSlice, the underlying array has a capacity of four elements. newSlice can\x{2019}t access the elements of the underlying array that are prior to its pointer. As far as newSlice is concerned, those elements don\x{2019}t even exist.",
+         way (see figure 4.12).',
           ],
           [
             1,
@@ -1462,30 +1413,7 @@ newSlice := slice[1:3]
 // Change index 2 of the original slice.
 newSlice[1] = 35
       
-      After the number 35 is assigned to the second element of newSlice, that change can also be seen by the original slice in element 3 (see figure <<4.13|5a:0>>).',
-          ],
-          [
-            1,
-            '[ap 04:28] Go in Action - William Kennedy.epub (kindle_split_012.html) - 4.28',
-            "Listing <<4.28|5a:0>>. Potential consequence of making changes to a slice
-      
-      // Create a slice of integers.
-// Contains a length and capacity of 5 elements.
-slice := []int{10, 20, 30, 40, 50}
-
-// Create a new slice.
-// Contains a length of 2 and capacity of 4 elements.
-newSlice := slice[1:3]
-
-// Change index 1 of newSlice.
-// Change index 2 of the original slice.
-newSlice[1] = 35
-      
-      After the number 35 is assigned to the second element of newSlice, that change can also be seen by the original slice in element 3 (see figure <<4.13|5a:0>>).
-Figure <<4.13|5a:0>>. The underlying array after the assignment operation
-A slice can only access indexes up to its length. Trying to access an element outside of its length will cause a runtime exception.
-         The elements associated with a slice\x{2019}s capacity are only available for growth. They must be incorporated into the slice\x{2019}s
-         length before they can be used.",
+      After the number 35 is assigned to the second element of newSlice, that change can also be seen by the original slice in element 3 (see figure 4.13).',
           ],
           [
             1,
@@ -1527,28 +1455,7 @@ newSlice := slice[1:3]
 // Assign the value of 60 to the new element.
 newSlice = append(newSlice, 60)
       
-      After the append operation in listing <<4.30|5a:0>>, the slices and the underlying array will look like figure <<4.14|5a:0>>.',
-          ],
-          [
-            1,
-            '[ap 04:30] Go in Action - William Kennedy.epub (kindle_split_012.html) - 4.30',
-            "Listing <<4.30|5a:0>>. Using append to add an element to a slice
-      
-      // Create a slice of integers.
-// Contains a length and capacity of 5 elements.
-slice := []int{10, 20, 30, 40, 50}
-
-// Create a new slice.
-// Contains a length of 2 and capacity of 4 elements.
-newSlice := slice[1:3]
-
-// Allocate a new element from capacity.
-// Assign the value of 60 to the new element.
-newSlice = append(newSlice, 60)
-      
-      After the append operation in listing <<4.30|5a:0>>, the slices and the underlying array will look like figure <<4.14|5a:0>>.
-Figure <<4.14|5a:0>>. The underlying array after the append operation
-Because there was available capacity in the underlying array for newSlice, the append operation incorporated the available element into the slice\x{2019}s length and assigned the value. Since the original slice is sharing the underlying array, slice also sees the changes in index 3.",
+      After the append operation in listing <<4.30|5a:0>>, the slices and the underlying array will look like figure 4.14.',
           ],
           [
             1,
@@ -1563,26 +1470,7 @@ slice := []int{10, 20, 30, 40}
 // Assign the value of 50 to the new element.
 newSlice := append(slice, 50)
       
-      After this append operation, newSlice is given its own underlying array, and the capacity of the array is doubled from its original size (see figure <<4.15|5a:0>>).',
-          ],
-          [
-            1,
-            '[ap 04:31] Go in Action - William Kennedy.epub (kindle_split_012.html) - 4.31',
-            'Listing <<4.31|5a:0>>. Using append to increase the length and capacity of a slice
-      
-      // Create a slice of integers.
-// Contains a length and capacity of 4 elements.
-slice := []int{10, 20, 30, 40}
-
-// Append a new value to the slice.
-// Assign the value of 50 to the new element.
-newSlice := append(slice, 50)
-      
-      After this append operation, newSlice is given its own underlying array, and the capacity of the array is doubled from its original size (see figure <<4.15|5a:0>>).
-Figure <<4.15|5a:0>>. The new underlying array after the append operation
-The append operation is clever when growing the capacity of the underlying array. Capacity is always doubled when the existing capacity
-         of the slice is under 1,000 elements. Once the number of elements goes over 1,000, the capacity is grown by a factor of <<1.25|5a:0>>,
-         or 25%. This growth algorithm may change in the language over time.',
+      After this append operation, newSlice is given its own underlying array, and the capacity of the array is doubled from its original size (see figure 4.15).',
           ],
           [
             1,
@@ -1600,20 +1488,7 @@ The append operation is clever when growing the capacity of the underlying array
 // Contains a length and capacity of 5 elements.
 source := []string{"Apple", "Orange", "Plum", "Banana", "Grape"}
       
-      If you inspect the values for this slice of fruit, it will look something like figure <<4.16|5a:0>>.',
-          ],
-          [
-            1,
-            '[ap 04:32] Go in Action - William Kennedy.epub (kindle_split_012.html) - 4.32',
-            "Listing <<4.32|5a:0>>. Declaring a slice of string using a slice literal
-      
-      // Create a slice of strings.
-// Contains a length and capacity of 5 elements.
-source := []string{\"Apple\", \"Orange\", \"Plum\", \"Banana\", \"Grape\"}
-      
-      If you inspect the values for this slice of fruit, it will look something like figure <<4.16|5a:0>>.
-Figure <<4.16|5a:0>>. A representation of the slice of strings
-Now let\x{2019}s use the third index option to perform a slicing operation.",
+      If you inspect the values for this slice of fruit, it will look something like figure 4.16.',
           ],
           [
             1,
@@ -1625,21 +1500,7 @@ Now let\x{2019}s use the third index option to perform a slicing operation.",
 slice := source[2:3:4]
       
       After this slicing operation, we have a new slice that references one element from the underlying array and has a capacity
-         of two elements. Specifically, the new slice references the Plum element and has capacity up to the Banana element, as shown in figure <<4.17|5a:0>>.',
-          ],
-          [
-            1,
-            '[ap 04:33] Go in Action - William Kennedy.epub (kindle_split_012.html) - 4.33',
-            "Listing <<4.33|5a:0>>. Performing a three-index slice
-      
-      // Slice the third element and restrict the capacity.
-// Contains a length of 1 element and capacity of 2 elements.
-slice := source[2:3:4]
-      
-      After this slicing operation, we have a new slice that references one element from the underlying array and has a capacity
-         of two elements. Specifically, the new slice references the Plum element and has capacity up to the Banana element, as shown in figure <<4.17|5a:0>>.
-Figure <<4.17|5a:0>>. A representation of the new slice after the operation
-We can apply the same formula that we defined before to calculate the new slice\x{2019}s length and capacity.",
+         of two elements. Specifically, the new slice references the Plum element and has capacity up to the Banana element, as shown in figure 4.17.',
           ],
           [
             1,
@@ -1688,12 +1549,7 @@ slice := source[2:3:3]
 // Append a new string to the slice.
 slice = append(slice, \"Kiwi\")
       
-      Without this third index, appending Kiwi to our slice would\x{2019}ve changed the value of Banana in index 3 of the underlying array, because all of the remaining capacity would still belong to the slice. But in listing <<4.36|5a:0>>, we restricted the capacity of the slice to 1. When we call append for the first time on the slice, it will create a new underlying array of two elements, copy the fruit Plum, add the new fruit Kiwi, and return a new slice that references this underlying array, as in figure <<4.18|5a:0>>.",
-          ],
-          [
-            1,
-            '[ap 04:18] Go in Action - William Kennedy.epub (kindle_split_012.html) - 4.18',
-            'Figure <<4.18|5a:0>>. A representation of the new slice after the append operation',
+      Without this third index, appending Kiwi to our slice would\x{2019}ve changed the value of Banana in index 3 of the underlying array, because all of the remaining capacity would still belong to the slice. But in listing <<4.36|5a:0>>, we restricted the capacity of the slice to 1. When we call append for the first time on the slice, it will create a new underlying array of two elements, copy the fruit Plum, add the new fruit Kiwi, and return a new slice that references this underlying array, as in figure 4.18.",
           ],
           [
             1,
@@ -1733,12 +1589,7 @@ Index: 2  Value: 30
 Index: 3  Value: 40
       
       The keyword range, when iterating over a slice, will return two values. The first value is the index position and the second value is a copy
-         of the value in that index position (see figure <<4.19|5a:0>>).',
-          ],
-          [
-            1,
-            '[ap 04:19] Go in Action - William Kennedy.epub (kindle_split_012.html) - 4.19',
-            'Figure <<4.19|5a:0>>. Using range to iterate over a slice creates a copy of each element.',
+         of the value in that index position (see figure 4.19).',
           ],
           [
             1,
@@ -1816,29 +1667,7 @@ Index: 3  Value: 40
 slice := [][]int{{10}, {100, 200}}
       
       We now have an outer slice of two elements that contain an inner slice of integers. The values for our slice of a slice of
-         integers will look like figure <<4.20|5a:0>>.',
-          ],
-          [
-            1,
-            '[ap 04:42] Go in Action - William Kennedy.epub (kindle_split_012.html) - 4.42',
-            'Listing <<4.42|5a:0>>. Declaring a multidimensional slice
-      
-      // Create a slice of a slice of integers.
-slice := [][]int{{10}, {100, 200}}
-      
-      We now have an outer slice of two elements that contain an inner slice of integers. The values for our slice of a slice of
-         integers will look like figure <<4.20|5a:0>>.
-Figure <<4.20|5a:0>>. Values for our slice of a slice of integers
-In figure <<4.20|5a:0>> you can see how composition is working to embed slices into slices. The outer slice contains two elements, each of which
-         are slices. The slice in the first element is initialized with the single integer 10 and the slice in the second element contains
-         two integers, 100 and 200.',
-          ],
-          [
-            1,
-            '[ap 04:20] Go in Action - William Kennedy.epub (kindle_split_012.html) - 4.20',
-            'In figure <<4.20|5a:0>> you can see how composition is working to embed slices into slices. The outer slice contains two elements, each of which
-         are slices. The slice in the first element is initialized with the single integer 10 and the slice in the second element contains
-         two integers, 100 and 200.',
+         integers will look like figure 4.20.',
           ],
           [
             1,
@@ -1853,12 +1682,7 @@ slice[0] = append(slice[0], 20)
       
       The append function and Go are elegant in how they handle growing and assigning the new slice of integers back into the first element
          of the outer slice. When the operation in listing <<4.43|5a:0>> is complete, an entire new slice of integers and a new underlying array is allocated and then copied back into index 0 of
-         the outer slice, as shown in figure <<4.21|5a:0>>.',
-          ],
-          [
-            1,
-            '[ap 04:21] Go in Action - William Kennedy.epub (kindle_split_012.html) - 4.21',
-            'Figure <<4.21|5a:0>>. What index 0 of the outer slice looks like after the append operation',
+         the outer slice, as shown in figure 4.21.',
           ],
           [
             1,
@@ -1879,86 +1703,7 @@ func foo(slice []int) []int {
       
       On a 64-bit architecture, a slice requires 24 bytes of memory. The pointer field requires 8 bytes, and the length and capacity
          fields require 8 bytes respectively. Since the data associated with a slice is contained in the underlying array, there are
-         no problems passing a copy of a slice to any function. Only the slice is being copied, not the underlying array (see figure <<4.22|5a:0>>).',
-          ],
-          [
-            1,
-            '[ap 04:22] Go in Action - William Kennedy.epub (kindle_split_012.html) - 4.22',
-            'Figure <<4.22|5a:0>>. Both slices pointing to the underlying array after the function call',
-          ],
-          [
-            1,
-            '[ap 04:23] Go in Action - William Kennedy.epub (kindle_split_012.html) - 4.23',
-            'You store values into the map based on a key. Figure <<4.23|5a:0>> shows an example of a key/value pair you may store in your maps. The strength of a map is its ability to retrieve data quickly
-         based on the key. A key works like an index, pointing to the value you associate with that key.',
-          ],
-          [
-            1,
-            '[ap 04:23] Go in Action - William Kennedy.epub (kindle_split_012.html) - 4.23',
-            "You store values into the map based on a key. Figure <<4.23|5a:0>> shows an example of a key/value pair you may store in your maps. The strength of a map is its ability to retrieve data quickly
-         based on the key. A key works like an index, pointing to the value you associate with that key.
-Figure <<4.23|5a:0>>. Relationship of key/value pairs
-4.3.1. Internals
-      
-      
-      Maps are collections, and you can iterate over them just like you do with arrays and slices. But maps are unordered collections, and there\x{2019}s no way to predict the order in which the key/value pairs will be returned. Even if you store your
-         key/value pairs in the same order, every iteration over a map could return a different order. This is because a map is implemented
-         using a hash table, as shown in figure <<4.24|5a:0>>.",
-          ],
-          [
-            1,
-            '[ap 04:24] Go in Action - William Kennedy.epub (kindle_split_012.html) - 4.24',
-            "4.3.1. Internals
-      
-      
-      Maps are collections, and you can iterate over them just like you do with arrays and slices. But maps are unordered collections, and there\x{2019}s no way to predict the order in which the key/value pairs will be returned. Even if you store your
-         key/value pairs in the same order, every iteration over a map could return a different order. This is because a map is implemented
-         using a hash table, as shown in figure <<4.24|5a:0>>.",
-          ],
-          [
-            1,
-            '[ap 04:24] Go in Action - William Kennedy.epub (kindle_split_012.html) - 4.24',
-            "4.3.1. Internals
-      
-      
-      Maps are collections, and you can iterate over them just like you do with arrays and slices. But maps are unordered collections, and there\x{2019}s no way to predict the order in which the key/value pairs will be returned. Even if you store your
-         key/value pairs in the same order, every iteration over a map could return a different order. This is because a map is implemented
-         using a hash table, as shown in figure <<4.24|5a:0>>.
-Figure <<4.24|5a:0>>. Simple representation of the internal structure of a map
-The map\x{2019}s hash table contains a collection of buckets. When you\x{2019}re storing, removing, or looking up a key/value pair, everything
-         starts with selecting a bucket. This is performed by passing the key\x{2014}specified in your map operation\x{2014}to the map\x{2019}s hash function.
-         The purpose of the hash function is to generate an index that evenly distributes key/value pairs across all available buckets.",
-          ],
-          [
-            1,
-            '[ap 04:25] Go in Action - William Kennedy.epub (kindle_split_012.html) - 4.25',
-            "The hash key that\x{2019}s generated for a Go map is a bit longer than what you see in figure <<4.25|5a:0>>, but it works the same way. In our example, the keys are strings that represents a color. Those strings are converted into
-         a numeric value within the scope of the number of buckets we have available for storage. The numeric value is then used to
-         select a bucket for storing or finding the specific key/value pair. In the case of a Go map, a portion of the generated hash
-         key, specifically the low order bits (LOB), is used to select the bucket.",
-          ],
-          [
-            1,
-            '[ap 04:25] Go in Action - William Kennedy.epub (kindle_split_012.html) - 4.25',
-            "The hash key that\x{2019}s generated for a Go map is a bit longer than what you see in figure <<4.25|5a:0>>, but it works the same way. In our example, the keys are strings that represents a color. Those strings are converted into
-         a numeric value within the scope of the number of buckets we have available for storage. The numeric value is then used to
-         select a bucket for storing or finding the specific key/value pair. In the case of a Go map, a portion of the generated hash
-         key, specifically the low order bits (LOB), is used to select the bucket.
-Figure <<4.25|5a:0>>. Simple view of how hash functions work
-If you look at figure <<4.24|5a:0>> again, you can see what the internals of a bucket look like. There are two data structures that contain the data for the
-         map. First, there\x{2019}s an array with the top eight high order bits (HOB) from the same hash key that was used to select the bucket. This array distinguishes each individual key/value pair
-         stored in the respective bucket. Second, there\x{2019}s an array of bytes that stores the key/value pairs. The byte array packs all
-         the keys and then all the values together for the respective bucket. The packing of the key/value pairs is implemented to
-         minimize the memory required for each bucket.",
-          ],
-          [
-            1,
-            '[ap 04:24] Go in Action - William Kennedy.epub (kindle_split_012.html) - 4.24',
-            "If you look at figure <<4.24|5a:0>> again, you can see what the internals of a bucket look like. There are two data structures that contain the data for the
-         map. First, there\x{2019}s an array with the top eight high order bits (HOB) from the same hash key that was used to select the bucket. This array distinguishes each individual key/value pair
-         stored in the respective bucket. Second, there\x{2019}s an array of bytes that stores the key/value pairs. The byte array packs all
-         the keys and then all the values together for the respective bucket. The packing of the key/value pairs is implemented to
-         minimize the memory required for each bucket.",
+         no problems passing a copy of a slice to any function. Only the slice is being copied, not the underlying array (see figure 4.22).',
           ],
           [
             1,
@@ -6087,60 +5832,6 @@ signature, HandlerFunc(f) is a Handler object that calls f
           ],
           [
             1,
-            '[ap 09:10] Go in Action - William Kennedy.epub (kindle_split_017.html) - 9.10',
-            'If you start a local godoc server (godoc -http=":3000") and navigate to the handlers package, you can see this all come together, as in figure <<9.10|5a:0>>.',
-          ],
-          [
-            1,
-            '[ap 09:10] Go in Action - William Kennedy.epub (kindle_split_017.html) - 9.10',
-            'If you start a local godoc server (godoc -http=":3000") and navigate to the handlers package, you can see this all come together, as in figure <<9.10|5a:0>>.
-Figure <<9.10|5a:0>>. godoc view of the handlers package
-You can see in figure <<9.10|5a:0>> that the documentation for the handlers package shows the example for the SendJSON function. If you select the SendJSON link, the documentation will show the code, as in figure <<9.11|5a:0>>.',
-          ],
-          [
-            1,
-            '[ap 09:10] Go in Action - William Kennedy.epub (kindle_split_017.html) - 9.10',
-            'You can see in figure <<9.10|5a:0>> that the documentation for the handlers package shows the example for the SendJSON function. If you select the SendJSON link, the documentation will show the code, as in figure <<9.11|5a:0>>.',
-          ],
-          [
-            1,
-            '[ap 09:10] Go in Action - William Kennedy.epub (kindle_split_017.html) - 9.10',
-            'You can see in figure <<9.10|5a:0>> that the documentation for the handlers package shows the example for the SendJSON function. If you select the SendJSON link, the documentation will show the code, as in figure <<9.11|5a:0>>.
-Figure <<9.11|5a:0>>. A full view of the example in godoc
-Figure <<9.11|5a:0>> shows a complete set of documentation for the example, including the code and the expected output. Since this is also a test,
-         you can run the example function with the go test tool, as in figure <<9.12|5a:0>>.',
-          ],
-          [
-            1,
-            '[ap 09:11] Go in Action - William Kennedy.epub (kindle_split_017.html) - 9.11',
-            'Figure <<9.11|5a:0>> shows a complete set of documentation for the example, including the code and the expected output. Since this is also a test,
-         you can run the example function with the go test tool, as in figure <<9.12|5a:0>>.',
-          ],
-          [
-            1,
-            '[ap 09:11] Go in Action - William Kennedy.epub (kindle_split_017.html) - 9.11',
-            'Figure <<9.11|5a:0>> shows a complete set of documentation for the example, including the code and the expected output. Since this is also a test,
-         you can run the example function with the go test tool, as in figure <<9.12|5a:0>>.
-Figure <<9.12|5a:0>>. Running the example
-After running the test, you see the test passes. This time when the test is run, the specific function ExampleSendJSON is specified with the -run option. The -run option takes any regular expression to filter the test functions to run. It works with both unit tests and example functions.
-         When an example fails, it looks like this figure <<9.13|5a:0>>.',
-          ],
-          [
-            1,
-            '[ap 09:13] Go in Action - William Kennedy.epub (kindle_split_017.html) - 9.13',
-            'After running the test, you see the test passes. This time when the test is run, the specific function ExampleSendJSON is specified with the -run option. The -run option takes any regular expression to filter the test functions to run. It works with both unit tests and example functions.
-         When an example fails, it looks like this figure <<9.13|5a:0>>.',
-          ],
-          [
-            1,
-            '[ap 09:13] Go in Action - William Kennedy.epub (kindle_split_017.html) - 9.13',
-            'After running the test, you see the test passes. This time when the test is run, the specific function ExampleSendJSON is specified with the -run option. The -run option takes any regular expression to filter the test functions to run. It works with both unit tests and example functions.
-         When an example fails, it looks like this figure <<9.13|5a:0>>.
-Figure <<9.13|5a:0>>. Running an example that fails
-When an example fails, go test shows the output that was produced and what was expected.',
-          ],
-          [
-            1,
             '[ap 09:28] Go in Action - William Kennedy.epub (kindle_split_017.html) - 9.28',
             "Listing <<9.28|5a:0>>. listing28_test.go: lines 01\x{2013}10
       
@@ -6199,39 +5890,7 @@ When an example fails, go test shows the output that was produced and what was e
       go test -v -run=\"none\" -bench=\"BenchmarkSprintf\"
       
       In our call to go test, we specified the -run option passing the string \"none\" to make sure no unit tests are run prior to running the specified benchmark function. Both of these options take a regular
-         expression to filter the tests to run. Since there\x{2019}s no unit test function that has none in its name, none eliminates any unit tests from running. When we issue this command, we get the output shown in figure <<9.14|5a:0>>.",
-          ],
-          [
-            1,
-            '[ap 09:31] Go in Action - William Kennedy.epub (kindle_split_017.html) - 9.31',
-            "Listing <<9.31|5a:0>>. Running the benchmark test
-      
-      go test -v -run=\"none\" -bench=\"BenchmarkSprintf\"
-      
-      In our call to go test, we specified the -run option passing the string \"none\" to make sure no unit tests are run prior to running the specified benchmark function. Both of these options take a regular
-         expression to filter the tests to run. Since there\x{2019}s no unit test function that has none in its name, none eliminates any unit tests from running. When we issue this command, we get the output shown in figure <<9.14|5a:0>>.
-Figure <<9.14|5a:0>>. Running a single benchmark
-The output starts out specifying that there are no tests to run and then proceeds to run the BenchmarkSprintf benchmark. After the word PASS, you see the result of running the benchmark function. The first number, 5000000, represents the number of times the code inside the loop was executed. In this case, that\x{2019}s five million times. The next
-         number represents the performance of the code based on the number of nanoseconds per operation, so using the Sprintf function in this context takes 258 nanoseconds on average per call.",
-          ],
-          [
-            1,
-            '[ap 09:15] Go in Action - William Kennedy.epub (kindle_split_017.html) - 9.15',
-            "The final output from running the benchmark shows ok to represent the benchmark finished properly. Then the name of the code file that was executed is displayed, and finally,
-         the total time the benchmark ran. The default minimum run time for a benchmark is 1 second. You can see how the framework
-         still ran the test for approximately a second and a half. You can use another option called -benchtime if you want to have the test run longer. Let\x{2019}s run the test again using a bench time of three seconds (see figure <<9.15|5a:0>>).",
-          ],
-          [
-            1,
-            '[ap 09:15] Go in Action - William Kennedy.epub (kindle_split_017.html) - 9.15',
-            "The final output from running the benchmark shows ok to represent the benchmark finished properly. Then the name of the code file that was executed is displayed, and finally,
-         the total time the benchmark ran. The default minimum run time for a benchmark is 1 second. You can see how the framework
-         still ran the test for approximately a second and a half. You can use another option called -benchtime if you want to have the test run longer. Let\x{2019}s run the test again using a bench time of three seconds (see figure <<9.15|5a:0>>).
-Figure <<9.15|5a:0>>. Running a single benchmark with the -benchtime option
-This time the Sprintf function was run twenty million times for a period of 5.275 seconds. The performance of the function didn\x{2019}t change much.
-         This time the performance was 256 nanoseconds per operation. Sometimes by increasing the bench time, you can get a more accurate
-         reading of performance. For most tests, increasing the bench time over three seconds tends to not provide any difference for
-         an accurate reading. But each benchmark is different.",
+         expression to filter the tests to run. Since there\x{2019}s no unit test function that has none in its name, none eliminates any unit tests from running. When we issue this command, we get the output shown in figure 9.14.",
           ],
           [
             1,
@@ -6263,193 +5922,6 @@ This time the Sprintf function was run twenty million times for a period of 5.27
 46 }
       
       Listing <<9.32|5a:0>> shows the other two benchmark functions. The BenchmarkFormat function benchmarks the use of the FormatInt function from the strconv package. The BenchmarkItoa function benchmarks the use of the Itoa function from the same strconv package. You can see the same pattern in these two other benchmark functions as in the BenchmarkSprintf function. The call is inside the for loop using b.N to control the number of iterations for each call.",
-          ],
-          [
-            1,
-            '[ap 09:16] Go in Action - William Kennedy.epub (kindle_split_017.html) - 9.16',
-            'When we run all the benchmark functions for a minimum of three seconds, we get the result shown in figure <<9.16|5a:0>>.',
-          ],
-          [
-            1,
-            '[ap 09:16] Go in Action - William Kennedy.epub (kindle_split_017.html) - 9.16',
-            'When we run all the benchmark functions for a minimum of three seconds, we get the result shown in figure <<9.16|5a:0>>.
-Figure <<9.16|5a:0>>. Running all three benchmarks
-The results show that the BenchmarkFormat test function runs the fastest at 45.9 nanoseconds per operation. The BenchmarkItoa comes in a close second at 49.4 nanoseconds per operation. Both of those benchmarks were much faster than using the Sprintf function.',
-          ],
-          [
-            1,
-            '[ap 09:17] Go in Action - William Kennedy.epub (kindle_split_017.html) - 9.17',
-            "Another great option you can use when running benchmarks is the -benchmem option. It will provide information about the number of allocations and bytes per allocation for a given test. Let\x{2019}s use
-         that option with the benchmark (see figure <<9.17|5a:0>>).",
-          ],
-          [
-            1,
-            '[ap 09:17] Go in Action - William Kennedy.epub (kindle_split_017.html) - 9.17',
-            "Another great option you can use when running benchmarks is the -benchmem option. It will provide information about the number of allocations and bytes per allocation for a given test. Let\x{2019}s use
-         that option with the benchmark (see figure <<9.17|5a:0>>).
-Figure <<9.17|5a:0>>. Running a benchmark with the -benchmem option
-This time with the output you see two new values: a value for B/op and one for allocs/op. The allocs/op value represents the number of heap allocations per operation. You can see the Sprintf functions allocate two values on the heap per operation, and the other two functions allocate one value per operation. The
-         B/op value represents the number of bytes per operation. You can see that those two allocations from the Sprintf function result in 16 bytes of memory being allocated per operation. The other two functions only allocated 2 bytes per operation.",
-          ],
-          [
-            1,
-            '[ap 04:10] Go in Action - William Kennedy.epub (kindle_split_019.html) - 4.10',
-            'Figure 4.9. Slice internals with underlying array
-Figure <<4.10|5a:0>>. The representation of a nil slice
-Figure <<4.11|5a:0>>. The representation of an empty slice',
-          ],
-          [
-            1,
-            '[ap 04:10] Go in Action - William Kennedy.epub (kindle_split_019.html) - 4.10',
-            'Figure <<4.10|5a:0>>. The representation of a nil slice
-Figure <<4.11|5a:0>>. The representation of an empty slice
-Figure <<4.12|5a:0>>. Two slices sharing the same underlying array',
-          ],
-          [
-            1,
-            '[ap 04:11] Go in Action - William Kennedy.epub (kindle_split_019.html) - 4.11',
-            'Figure <<4.11|5a:0>>. The representation of an empty slice
-Figure <<4.12|5a:0>>. Two slices sharing the same underlying array
-Figure <<4.13|5a:0>>. The underlying array after the assignment operation',
-          ],
-          [
-            1,
-            '[ap 04:12] Go in Action - William Kennedy.epub (kindle_split_019.html) - 4.12',
-            'Figure <<4.12|5a:0>>. Two slices sharing the same underlying array
-Figure <<4.13|5a:0>>. The underlying array after the assignment operation
-Figure <<4.14|5a:0>>. The underlying array after the append operation',
-          ],
-          [
-            1,
-            '[ap 04:13] Go in Action - William Kennedy.epub (kindle_split_019.html) - 4.13',
-            'Figure <<4.13|5a:0>>. The underlying array after the assignment operation
-Figure <<4.14|5a:0>>. The underlying array after the append operation
-Figure <<4.15|5a:0>>. The new underlying array after the append operation',
-          ],
-          [
-            1,
-            '[ap 04:14] Go in Action - William Kennedy.epub (kindle_split_019.html) - 4.14',
-            'Figure <<4.14|5a:0>>. The underlying array after the append operation
-Figure <<4.15|5a:0>>. The new underlying array after the append operation
-Figure <<4.16|5a:0>>. A representation of the slice of strings',
-          ],
-          [
-            1,
-            '[ap 04:15] Go in Action - William Kennedy.epub (kindle_split_019.html) - 4.15',
-            'Figure <<4.15|5a:0>>. The new underlying array after the append operation
-Figure <<4.16|5a:0>>. A representation of the slice of strings
-Figure <<4.17|5a:0>>. A representation of the new slice after the operation',
-          ],
-          [
-            1,
-            '[ap 04:16] Go in Action - William Kennedy.epub (kindle_split_019.html) - 4.16',
-            'Figure <<4.16|5a:0>>. A representation of the slice of strings
-Figure <<4.17|5a:0>>. A representation of the new slice after the operation
-Figure <<4.18|5a:0>>. A representation of the new slice after the append operation',
-          ],
-          [
-            1,
-            '[ap 04:18] Go in Action - William Kennedy.epub (kindle_split_019.html) - 4.18',
-            'Figure <<4.18|5a:0>>. A representation of the new slice after the append operation',
-          ],
-          [
-            1,
-            '[ap 04:19] Go in Action - William Kennedy.epub (kindle_split_019.html) - 4.19',
-            'Figure <<4.19|5a:0>>. Using range to iterate over a slice creates a copy of each element.',
-          ],
-          [
-            1,
-            '[ap 04:19] Go in Action - William Kennedy.epub (kindle_split_019.html) - 4.19',
-            'Figure <<4.19|5a:0>>. Using range to iterate over a slice creates a copy of each element.
-Figure <<4.20|5a:0>>. Values for our slice of a slice of integers
-Figure <<4.21|5a:0>>. What index 0 of the outer slice looks like after the append operation',
-          ],
-          [
-            1,
-            '[ap 04:21] Go in Action - William Kennedy.epub (kindle_split_019.html) - 4.21',
-            'Figure <<4.21|5a:0>>. What index 0 of the outer slice looks like after the append operation',
-          ],
-          [
-            1,
-            '[ap 04:22] Go in Action - William Kennedy.epub (kindle_split_019.html) - 4.22',
-            'Figure <<4.22|5a:0>>. Both slices pointing to the underlying array after the function call',
-          ],
-          [
-            1,
-            '[ap 04:22] Go in Action - William Kennedy.epub (kindle_split_019.html) - 4.22',
-            'Figure <<4.22|5a:0>>. Both slices pointing to the underlying array after the function call
-Figure <<4.23|5a:0>>. Relationship of key/value pairs
-Figure <<4.24|5a:0>>. Simple representation of the internal structure of a map',
-          ],
-          [
-            1,
-            '[ap 04:23] Go in Action - William Kennedy.epub (kindle_split_019.html) - 4.23',
-            'Figure <<4.23|5a:0>>. Relationship of key/value pairs
-Figure <<4.24|5a:0>>. Simple representation of the internal structure of a map
-Figure <<4.25|5a:0>>. Simple view of how hash functions work',
-          ],
-          [
-            1,
-            '[ap 04:24] Go in Action - William Kennedy.epub (kindle_split_019.html) - 4.24',
-            "Figure <<4.24|5a:0>>. Simple representation of the internal structure of a map
-Figure <<4.25|5a:0>>. Simple view of how hash functions work
-Chapter 5. Go\x{2019}s type system",
-          ],
-          [
-            1,
-            '[ap 09:10] Go in Action - William Kennedy.epub (kindle_split_019.html) - 9.10',
-            'Figure 9.9. A view of the Decoder example in the Go documentation
-Figure <<9.10|5a:0>>. godoc view of the handlers package
-Figure <<9.11|5a:0>>. A full view of the example in godoc',
-          ],
-          [
-            1,
-            '[ap 09:10] Go in Action - William Kennedy.epub (kindle_split_019.html) - 9.10',
-            'Figure <<9.10|5a:0>>. godoc view of the handlers package
-Figure <<9.11|5a:0>>. A full view of the example in godoc
-Figure <<9.12|5a:0>>. Running the example',
-          ],
-          [
-            1,
-            '[ap 09:11] Go in Action - William Kennedy.epub (kindle_split_019.html) - 9.11',
-            'Figure <<9.11|5a:0>>. A full view of the example in godoc
-Figure <<9.12|5a:0>>. Running the example
-Figure <<9.13|5a:0>>. Running an example that fails',
-          ],
-          [
-            1,
-            '[ap 09:12] Go in Action - William Kennedy.epub (kindle_split_019.html) - 9.12',
-            'Figure <<9.12|5a:0>>. Running the example
-Figure <<9.13|5a:0>>. Running an example that fails
-Figure <<9.14|5a:0>>. Running a single benchmark',
-          ],
-          [
-            1,
-            '[ap 09:13] Go in Action - William Kennedy.epub (kindle_split_019.html) - 9.13',
-            'Figure <<9.13|5a:0>>. Running an example that fails
-Figure <<9.14|5a:0>>. Running a single benchmark
-Figure <<9.15|5a:0>>. Running a single benchmark with the -benchtime option',
-          ],
-          [
-            1,
-            '[ap 09:14] Go in Action - William Kennedy.epub (kindle_split_019.html) - 9.14',
-            'Figure <<9.14|5a:0>>. Running a single benchmark
-Figure <<9.15|5a:0>>. Running a single benchmark with the -benchtime option
-Figure <<9.16|5a:0>>. Running all three benchmarks',
-          ],
-          [
-            1,
-            '[ap 09:15] Go in Action - William Kennedy.epub (kindle_split_019.html) - 9.15',
-            'Figure <<9.15|5a:0>>. Running a single benchmark with the -benchtime option
-Figure <<9.16|5a:0>>. Running all three benchmarks
-Figure <<9.17|5a:0>>. Running a benchmark with the -benchmem option',
-          ],
-          [
-            1,
-            '[ap 09:16] Go in Action - William Kennedy.epub (kindle_split_019.html) - 9.16',
-            'Figure <<9.16|5a:0>>. Running all three benchmarks
-Figure <<9.17|5a:0>>. Running a benchmark with the -benchmem option
-',
           ],
           [
             1,

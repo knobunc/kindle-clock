@@ -97,7 +97,7 @@ The inspector made a calculation.",
             1,
             '[ap ~ 10:00] The Count of Monte Cristo - Alexandre Dumas.epub (The_Count_of_Monte_Cristo_split_029.html) - Around ten',
             "\x{2018}At what time?\x{2019} the turnkey asked.
-\x{2018}<<Around ten|9:1>> or eleven, of course.\x{2019}
+\x{2018}<<Around ten|9:1>> or <<eleven|20a:1>>, of course.\x{2019}
 \x{2018}Should we guard the body?\x{2019}",
           ],
           [
@@ -886,7 +886,7 @@ VALENTINE',
           [
             1,
             "[ap 05:00] The Count of Monte Cristo - Alexandre Dumas.epub (The_Count_of_Monte_Cristo_split_095.html) - five o\x{2019}clock",
-            "\x{2018}Very well, then,\x{2019} said Monte Cristo. \x{2018}We\x{2019}ll meet this evening. Be here at <<five o\x{2019}clock|6>>. We\x{2019}ll get there at <<midnight|13>>, or one.\x{2019}",
+            "\x{2018}Very well, then,\x{2019} said Monte Cristo. \x{2018}We\x{2019}ll meet this evening. Be here at <<five o\x{2019}clock|6>>. We\x{2019}ll get there at <<midnight|13>>, or <<one|20a>>.\x{2019}",
           ],
           [
             1,

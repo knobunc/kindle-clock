@@ -27,7 +27,7 @@ $VAR1 = [
           [
             1,
             '[ap 01:00] Deep South_ Four Seasons on Back Roads - Paul Theroux.epub (OPS/c103.xhtml) - one',
-            "I looked for a place to eat and found half a dozen small mom-and-pop places, soul food diners, Brinkley Country Kitchen, and at Market and Sporting Goods, with a LUNCH SPECIALS sign, I walked in. At <<one|9m>> long table were fourteen big white men in overalls sitting at their <<noontime|13>> meal. Hearing the tinkle of the doorbell, they lifted their querying, somewhat disapproving faces from their plates of chicken-fried steaks and mashed potatoes and stared at me, twenty-eight scrutinizing eyes, no hello\x{2014}very odd for the South, where I had gotten used to a greeting\x{2014}and a shadow of serious suspicion, and a fork in one hand and a knife in the other.",
+            "I looked for a place to eat and found half a dozen small mom-and-pop places, soul food diners, Brinkley Country Kitchen, and at Market and Sporting Goods, with a LUNCH SPECIALS sign, I walked in. At <<one|9m:1>> long table were fourteen big white men in overalls sitting at their <<noontime|13>> meal. Hearing the tinkle of the doorbell, they lifted their querying, somewhat disapproving faces from their plates of chicken-fried steaks and mashed potatoes and stared at me, twenty-eight scrutinizing eyes, no hello\x{2014}very odd for the South, where I had gotten used to a greeting\x{2014}and a shadow of serious suspicion, and a fork in one hand and a knife in the other.",
           ],
           [
             1,
@@ -53,6 +53,11 @@ $VAR1 = [
             1,
             '[19:42] Deep South_ Four Seasons on Back Roads - Paul Theroux.epub (OPS/c11.xhtml) - 1942',
             'I left Big Stone Gap and drove via the gun shop into North Carolina, slipping from road to road, heading for Asheville, where I wanted to verify something that had been preying on my mind. My friend the late, well-known American painter Kenneth Noland was born in Asheville, and lived there from 1924 until <<1942|9c:1>>, when he enlisted in the US Army. After his discharge, he returned to attend freewheeling and experiment-obsessed Black Mountain College, fifteen miles up the road from his home.',
+          ],
+          [
+            1,
+            '[19:50] Deep South_ Four Seasons on Back Roads - Paul Theroux.epub (OPS/c11.xhtml) - 1950',
+            "He was speaking of the 1930s and \x{2019}40s, and by <<1950|9n:0>> (when race relations were just as bad and backed up by laws requiring racial segregation) he had left Asheville for good, and spent the rest of his life in the North. But when he referred to the place, speaking of his youth, he sometimes lapsed into the language of the past, and over that distance he did not see blacks, he saw \x{201c}niggers,\x{201d} living in \x{201c}Niggertown.\x{201d}",
           ],
           [
             1,

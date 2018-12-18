@@ -117,7 +117,7 @@ $VAR1 = [
   suits, uniforms. No matter where they went, there it was, each time her father was mentioned. She
   could smell it and taste it. She just couldnt spell or understand it. When she asked her mother
   what it meant, she was told that it wasnt important, that she shouldnt worry about such things.
-  At <<one|9m>> boardinghouse, there was a healthier woman who tried to teach the children to write, using
+  At <<one|9m:1>> boardinghouse, there was a healthier woman who tried to teach the children to write, using
   charcoal on the wall. Liesel was tempted to ask her the meaning, but it never eventuated. One
   day, that woman was taken away for questioning. She didnt come back.
 
@@ -1612,6 +1612,79 @@ $VAR1 = [
   
 
   To their left, flames and burning books were cheered like heroes.',
+          ],
+          [
+            1,
+            '[ap > 03:00] The Book Thief - Markus Zusak.epub (OEBPS/text/content028.xhtml) - after three',
+            'The dark came in pieces, and with the cigarette brought to an end, Liesel and Hans Hubermann
+  began to walk home. To get out of the square, they would walk past the bonfire site and through a
+  small side road onto Munich Street. They didnt make it that far.
+
+  
+
+  A middle-aged carpenter named Wolfgang Edel called out. Hed built the platforms for the Nazi big
+  shots to stand on during the fire and he was in the process now of pulling them down. Hans
+  Hubermann? He had long sideburns that pointed to his mouth and a dark voice. Hansi!
+
+  
+
+  Hey, Wolfal, Hans replied. There was an introduction to the girl and a heil Hitler. Good,
+  Liesel.
+
+  
+
+  For the first few minutes, Liesel stayed within a five-meter radius of the conversation.
+  Fragments came past her, but she didnt pay too much attention.
+
+  
+
+  Getting much work?
+
+  
+
+  No, its all tighter now. You know how it is, especially when youre not a member.
+
+  
+
+  You told me you were joining, Hansi.
+
+  
+
+  I tried, but I made a mistakeI think theyre still considering.
+
+  
+
+  Liesel wandered toward the mountain of ash. It sat like a magnet, like a freak. Irresistible to
+  the eyes, similar to the road of yellow stars.
+
+  
+
+  As with her previous urge to see the mounds ignition, she could not look away. All alone, she
+  didnt have the discipline to keep a safe distance. It sucked her toward it and she began to make
+  her way around.
+
+  
+
+  Above her, the sky was completing its routine of darkening, but far away, over the mountains
+  shoulder, there was a dull trace of light.
+
+  
+
+  Pass auf, Kind, a uniform said to her at one point. Look out, child, as he shoveled some
+  more ash onto a cart.
+
+  
+
+  Closer to the town hall, under a light, some shadows stood and talked, most likely exulting in
+  the success of the fire. From Liesels position, their voices were only sounds. Not words at
+  all.
+
+  
+
+  For a few minutes, she watched the men shoveling up the pile, at first making it smaller at the
+  sides to allow more of it to collapse. They came back and forth from a truck, and <<after three|9:1>>
+  return trips, when the heap was reduced near the bottom, a small section of living material
+  slipped from inside the ash.',
           ],
           [
             1,
@@ -5913,13 +5986,5 @@ $VAR1 = [
 
   When I imagine that scene of the distraught woman and the tall silver-eyed man, it is still
   snowing in the kitchen of 31 Himmel Street.',
-          ],
-          [
-            1,
-            '[ap > 10:00] The Book Thief - Markus Zusak.epub (OEBPS/text/content098.xhtml) - After ten',
-            '<<After ten|9:0>> nights of writing, Munich was bombed again. Liesel was up to page 102 and was asleep in
-  the basement. She did not hear the cuckoo or the sirens, and she was holding the book in her
-  sleep when Papa came to wake her. Liesel, come. She took The Book Thief and each of her
-  other books, and they fetched Frau Holtzapfel.',
           ],
         ];

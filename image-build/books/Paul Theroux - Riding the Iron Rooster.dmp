@@ -171,7 +171,7 @@ $VAR1 = [
           [
             1,
             '[ap 01:00] Riding the Iron Rooster_ By Train Through - Paul Theroux.epub (OPS/c07.xml) - one',
-            "There were more dead animals elsewhere in Urumchi. It is a measure of how deep in the hinterland the town is that there are still many wild animals in the surrounding countryside. At <<one|9m>> shop I saw the usual snakes and dried lizards and umbilical cords, but also wolf pelts, fox furs, a half a dozen bearskins and the carcass of an eagle\x{2014}a white-shouldered Imperial Eagle (so my bird book said), with a wingspan of about six feet. This beautiful bird was a great deal bigger than the Uighur woman selling it.",
+            "There were more dead animals elsewhere in Urumchi. It is a measure of how deep in the hinterland the town is that there are still many wild animals in the surrounding countryside. At <<one|9m:0>> shop I saw the usual snakes and dried lizards and umbilical cords, but also wolf pelts, fox furs, a half a dozen bearskins and the carcass of an eagle\x{2014}a white-shouldered Imperial Eagle (so my bird book said), with a wingspan of about six feet. This beautiful bird was a great deal bigger than the Uighur woman selling it.",
           ],
           [
             1,
@@ -415,13 +415,13 @@ $VAR1 = [
             '[ap 09:00] Riding the Iron Rooster_ By Train Through - Paul Theroux.epub (OPS/c22.xml) - nine',
             '"We should get an early start, because the snow will slow us down."
 "We can leave at <<nine|9c:0>>."
-"The sun comes up at <<six-thirty|5b>> or seven. Let\'s leave then."',
+"The sun comes up at <<six-thirty|5b>> or <<seven|20a>>. Let\'s leave then."',
           ],
           [
             1,
             '[ap 09:00] Riding the Iron Rooster_ By Train Through - Paul Theroux.epub (OPS/c22.xml) - nine',
             '"We can leave at <<nine|9c:0>>."
-"The sun comes up at <<six-thirty|5b>> or seven. Let\'s leave then."
+"The sun comes up at <<six-thirty|5b>> or <<seven|20a>>. Let\'s leave then."
 "Breakfast," Mr. Fu said, and smiled.',
           ],
           [
@@ -469,6 +469,6 @@ Wrong, of course. Mr. Fu's calculations were wildly inaccurate. I had stopped be
           [
             1,
             '[ap 01:00] Riding the Iron Rooster_ By Train Through - Paul Theroux.epub (OPS/c22.xml) - one',
-            'At <<one|9m>> chapel he said, "Do you see that Tara figure on the wall? It appeared all by itself. It was not carved by a human hand. One morning the monks looked at the stone wall and it was there."',
+            'At <<one|9m:0>> chapel he said, "Do you see that Tara figure on the wall? It appeared all by itself. It was not carved by a human hand. One morning the monks looked at the stone wall and it was there."',
           ],
         ];

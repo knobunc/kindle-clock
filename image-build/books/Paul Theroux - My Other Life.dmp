@@ -2,7 +2,7 @@ $VAR1 = [
           [
             1,
             '[04:00] My Other Life - Paul Theroux.epub (OPS/c01.xml) - four in the morning',
-            'Perhaps he went away. If he was planning to travel a long distance, he rose at <<four in the morning|9a>> in order to beat the traffic, and he set off in the dark. "They\'re always crowding the roads and they can\'t drive for beans." But he was an early riser. That meant that he was tired by early evening. He was usually in bed by eight or so, which was why he never went to dinners or to parties. "I\'m tired!" he shouted if you called him at <<six-thirty|5b>> or seven. But he also said that he never slept through the night, and sometimes at odd hours the blue light of the television upstairs would flicker through the darkness of his big house.',
+            'Perhaps he went away. If he was planning to travel a long distance, he rose at <<four in the morning|9a>> in order to beat the traffic, and he set off in the dark. "They\'re always crowding the roads and they can\'t drive for beans." But he was an early riser. That meant that he was tired by early evening. He was usually in bed by eight or so, which was why he never went to dinners or to parties. "I\'m tired!" he shouted if you called him at <<six-thirty|5b>> or <<seven|20a>>. But he also said that he never slept through the night, and sometimes at odd hours the blue light of the television upstairs would flicker through the darkness of his big house.',
           ],
           [
             1,
@@ -161,11 +161,6 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap ~ 10:00] My Other Life - Paul Theroux.epub (OPS/c04.xml) - about ten',
-            "Musprat said, \"I was in Boston for that color mag story two years ago. Boston isn't a city. Not a real city. It's <<about ten|9:0>> small towns clustered around that poxy harbor. And you find\"\x{2014}Musprat was cutting a very small muscle of meat, his mouth set rather severely as he sawed the gray sinew\x{2014}\"that in fact Boston does not exist except as a rather spurious urban concept. I hated the food, the traffic's appalling, and you can't drive ten feet without propelling your car straight into a pothole. The police carry these bloody great revolvers and they're always sort of reaching for them.\"",
-          ],
-          [
-            1,
             '[ap < 08:00] My Other Life - Paul Theroux.epub (OPS/c04.xml) - almost eight o\'clock',
             "The flames were gone from the grate, and there was heat from the mass of coals but little light. It was <<almost eight o'clock|6>>. I had sat with Alison while she had eaten\x{2014}cold fowl and salad\x{2014}and now she was drinking her customary cup of tea, sipping it neatly and looking comfortable in her big warm chair. She would read or watch television for an hour or so and then, growing sleepy, would crawl into bed.",
           ],
@@ -209,11 +204,6 @@ $VAR1 = [
             '[ap 07:00] My Other Life - Paul Theroux.epub (OPS/c07.xml) - seven',
             '"I could have put the key down. But I had plenty of time. I didn\'t have to meet my wife until <<seven|9c:0>>. Something made me hesitate. It 
 was his voice. I thought I heard the word \'trance.\' That seemed to me perfect."',
-          ],
-          [
-            1,
-            '[ap ~ 10:00] My Other Life - Paul Theroux.epub (OPS/c09.xml) - about ten',
-            "I NEEDED INTERRUPTIONS in London because I worked alone, haunting the house all day, growing ghostlier as I wrote, and a phone call was the proof I needed that I existed. I was especially glad when the phone rang that October afternoon; I had just finished another page of my China book and I felt it was going a bit too well. A book stuck badly was a misery, but if writing came easy I suspected it of being oversimple and second rate. (This opening, for example\x{2014}the previous three sentences\x{2014}has taken me two days to work out, <<about ten|9:0>> false starts.)",
           ],
           [
             1,
@@ -281,6 +271,6 @@ Interrupting me in my protest, he said, "Take breakfast in lounge."',
           [
             1,
             '[< 12:00] My Other Life - Paul Theroux.epub (OPS/c18.xml) - Towards noon',
-            "In the morning I left the bay and paddled on, with the smell of that hooded figure still clinging to me. I was so determined now to end this trip that I hardly took any notice of the cliffs beside me. The waves reflected by hitting the foot of the cliffs made the water so turbulent that I paddled a mile or so offshore to where the sea was calmer. Unable to land, I ate lunch\x{2014}a sandwich, a swig of water\x{2014}in my boat and paddled on slowly until the late afternoon. <<Towards noon|13>> I had passed the lighthouse just above Kahi'u Point, at the tip of the Kalaupapa Peninsula, and around five I was just off Kalaupapa.",
+            "In the morning I left the bay and paddled on, with the smell of that hooded figure still clinging to me. I was so determined now to end this trip that I hardly took any notice of the cliffs beside me. The waves reflected by hitting the foot of the cliffs made the water so turbulent that I paddled a mile or so offshore to where the sea was calmer. Unable to land, I ate lunch\x{2014}a sandwich, a swig of water\x{2014}in my boat and paddled on slowly until the late afternoon. <<Towards noon|13>> I had passed the lighthouse just above Kahi'u Point, at the tip of the Kalaupapa Peninsula, and <<around five|9:1>> I was just off Kalaupapa.",
           ],
         ];

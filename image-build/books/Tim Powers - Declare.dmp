@@ -162,7 +162,7 @@ $VAR1 = [
           [
             1,
             '[ap 01:00] Declare - Tim Powers.epub (OEBPS/ch08.xhtml) - one',
-            "They had taken a right turn inland, and Beirut suddenly didn\x{2019}t look American at all. Latticed balconies fronted the windows above the narrow shops, the signs of which, except for the big Pepsi-Cola trademarks, were all in French and Arabic. Women in bright-colored European skirts and high heels stepped from the curb to the street to make way for flocks of sheep being herded along the sidewalks by Arab women in long black abas, and soldiers in black berets stood on the corners holding automatic rifles whose stocks were decorated with glued-on colored glass beads. At <<one|9m>> intersection traffic was halted for a Christian funeral procession, noisy with wailing, and Hale stared at the bearded priests and the tall swaying crosses garlanded with flower blossoms, and on the air from the vent by his feet he caught a whiff of incense.",
+            "They had taken a right turn inland, and Beirut suddenly didn\x{2019}t look American at all. Latticed balconies fronted the windows above the narrow shops, the signs of which, except for the big Pepsi-Cola trademarks, were all in French and Arabic. Women in bright-colored European skirts and high heels stepped from the curb to the street to make way for flocks of sheep being herded along the sidewalks by Arab women in long black abas, and soldiers in black berets stood on the corners holding automatic rifles whose stocks were decorated with glued-on colored glass beads. At <<one|9m:0>> intersection traffic was halted for a Christian funeral procession, noisy with wailing, and Hale stared at the bearded priests and the tall swaying crosses garlanded with flower blossoms, and on the air from the vent by his feet he caught a whiff of incense.",
           ],
           [
             1,
@@ -214,7 +214,7 @@ Footman peered uncertainly at Hale. \x{201c}It\x{2019}s <<1|9d>>-K, isn\x{2019}t
           [
             1,
             '[> 19:45] Declare - Tim Powers.epub (OEBPS/ch13.xhtml) - after 1945',
-            "By this time the old wartime Special Operations Executive had been officially dissolved for three years. The agency had been separated from Foreign Office control back in 1940, and placed under the supervision of the Minister of Wartime Propaganda, and <<after 1945|18:0>> Hale\x{2019}s temporary seconding to SIS had been allowed to default into a permanent position. The CRPO was SIS cover, and Hale was on the SIS payroll, and he did field investigations for the SIS Head of Station in Al-Kuwait\x{2014}but the SOE still functioned within SIS from a sort of administrative limbo, through Theodora with the secret sanction of one Cabinet minister, and Hale was still primarily an SOE agent.",
+            "By this time the old wartime Special Operations Executive had been officially dissolved for three years. The agency had been separated from Foreign Office control back in 1940, and placed under the supervision of the Minister of Wartime Propaganda, and <<after 1945|9n:0>> Hale\x{2019}s temporary seconding to SIS had been allowed to default into a permanent position. The CRPO was SIS cover, and Hale was on the SIS payroll, and he did field investigations for the SIS Head of Station in Al-Kuwait\x{2014}but the SOE still functioned within SIS from a sort of administrative limbo, through Theodora with the secret sanction of one Cabinet minister, and Hale was still primarily an SOE agent.",
           ],
           [
             1,
@@ -260,5 +260,10 @@ Footman peered uncertainly at Hale. \x{201c}It\x{2019}s <<1|9d>>-K, isn\x{2019}t
             1,
             '[> 12:00] Declare - Tim Powers.epub (OEBPS/ch18.xhtml) - past noon',
             "Hale thought of Hakob Mammalian, conceivably still alive down there on the northern face, making his wounded way to the ledge and finding both the static lines gone. \x{201c}No,\x{201d} he called back to Philby, wearily standing up and slinging his gun. He bent down to pick up the coil of rope, then straightened with it and began plodding up the crest, toward the windward side of the glacier. \x{201c}Come on, the sun\x{2019}s <<past noon|13>>.\x{201d}",
+          ],
+          [
+            1,
+            '[ap > 03:00] Declare - Tim Powers.epub (OEBPS/ch18.xhtml) - after three',
+            "Philby\x{2019}s answering howl was lost in the battering roar of the machine gun, but Hale could see that the muzzle flare was slanted away to the left side of him; and <<after three|9:0>> deafening seconds the gun stuttered to a ringing halt, its thirty-round magazine emptied.",
           ],
         ];

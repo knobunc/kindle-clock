@@ -37,11 +37,6 @@ $VAR1 = [
           [
             1,
             '[ap 01:00] Beyond Infinity_ An Expedition to the Oute - Eugenia Cheng.epub (OEBPS/Text/chapter006.xhtml) - 0 to 1',
-            "Let\x{2019}s put this question another way. We\x{2019}re going to think about evacuating huge hotels again. In Chapter 2 we mentioned the idea of the real-number hotel, where there is a room for every real number. We\x{2019}re now going to do something more modest: a hotel that \x{201c}just\x{201d} has a room for every real number from <<0 to 1|10a:0>>. I say \x{201c}just,\x{201d} but this is still a super-giant hotel, and it\x{2019}s the first one we will show cannot be evacuated into the ordinary Hilbert Hotel.",
-          ],
-          [
-            1,
-            '[ap 01:00] Beyond Infinity_ An Expedition to the Oute - Eugenia Cheng.epub (OEBPS/Text/chapter006.xhtml) - 0 to 1',
             "It\x{2019}s convenient only to think about the numbers between 0 and 1 because it saves us worrying about the part of the number before the decimal point: every room has a different decimal expansion that starts 0.something and goes on forever. (Let\x{2019}s not think about how long it would take you to ask for your key.) Now imagine trying to evacuate this hotel: this is the question of finding a perfect pairing between the real numbers (from <<0 to 1|10a:0>>) and the natural numbers, which is what we mean by \x{201c}countable.\x{201d}",
           ],
           [
@@ -56,14 +51,9 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 01:00] Beyond Infinity_ An Expedition to the Oute - Eugenia Cheng.epub (OEBPS/Text/chapter007.xhtml) - 0 to 1',
-            "Just as ordinary binary numbers can represent all the numbers that the normal decimal system can do (just using more digits than usual), binary fractions can represent all possible decimal fractions, also using more digits. So the paths through the infinite tree correspond to all the \x{201c}decimal numbers that go on forever,\x{201d} that is, all the real numbers. Or at least, the real numbers from <<0 to 1|10a:0>>. We now can now make the following leap of faith:",
-          ],
-          [
-            1,
-            '[ap 01:00] Beyond Infinity_ An Expedition to the Oute - Eugenia Cheng.epub (OEBPS/Text/chapter008.xhtml) - 0 to 1',
+            '[ap 01:00] Beyond Infinity_ An Expedition to the Oute - Eugenia Cheng.epub (OEBPS/Text/chapter008.xhtml) - 100',
             "A geometrical way to see this is that if we ignore the whole-number part, we are only counting the real numbers between 0 and 1. If we look at this portion of the line of real numbers, how many times do we have to stick this together to make the whole line? We have to stick one on for every natural number, so there are \x{2135}0
-copies of this portion. Moreover, we can restrict our attention to any portion of the real numbers, no matter how tiny, and still get the same total count of numbers in there. One way to see this is to make a bijection, that is, a precise pairing between the numbers in the tiny portion and the numbers from <<0 to 1|10a:0>>. For example, suppose we want to look at just the real numbers from <<0 to 1|10a:0>>/100. We want to pair all these numbers up with the real numbers from <<0 to 1|10a:0>>. All we have to do is multiply them all by <<100|3:0>> and pair them up with the answer. This is like scaling the small piece of number line up to the bigger piece.",
+copies of this portion. Moreover, we can restrict our attention to any portion of the real numbers, no matter how tiny, and still get the same total count of numbers in there. One way to see this is to make a bijection, that is, a precise pairing between the numbers in the tiny portion and the numbers from 0 to 1. For example, suppose we want to look at just the real numbers from 0 to 1/100. We want to pair all these numbers up with the real numbers from 0 to 1. All we have to do is multiply them all by <<100|3:0>> and pair them up with the answer. This is like scaling the small piece of number line up to the bigger piece.",
           ],
           [
             1,

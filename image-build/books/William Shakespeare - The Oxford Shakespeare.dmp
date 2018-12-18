@@ -72,7 +72,7 @@ $VAR1 = [
           [
             1,
             '[ap 01:00] The Oxford Shakespeare_ The Complete Works - William Shakespeare.epub (The_Oxford_S-ks_2nd_Edition_split_029.html) - one',
-            "The attention of glossary-writers and text editors has always focused on the \x{2018}different words\x{2019}, but it is important to note that they do not all pose the same kind of difficulty. At <<one|9m>> extreme, there are many words which hardly need any gloss at all:\x{2022} words such as oft, perchance, sup, morrow, visage, pate, knave, wench, and morn, which are still used today in special contexts, such as poetry or comic archaism, or which still have some regional use (e.g. aye \x{2018}always\x{2019});",
+            "The attention of glossary-writers and text editors has always focused on the \x{2018}different words\x{2019}, but it is important to note that they do not all pose the same kind of difficulty. At <<one|9m:0>> extreme, there are many words which hardly need any gloss at all:\x{2022} words such as oft, perchance, sup, morrow, visage, pate, knave, wench, and morn, which are still used today in special contexts, such as poetry or comic archaism, or which still have some regional use (e.g. aye \x{2018}always\x{2019});",
           ],
           [
             1,
@@ -423,18 +423,6 @@ We shall not find like opportunity.',
           ],
           [
             1,
-            '[12:00] The Oxford Shakespeare_ The Complete Works - William Shakespeare.epub (The_Oxford_S-ks_2nd_Edition_split_187.html) - noontide',
-            "Sorrow breaks seasons and reposing hours, 
-Makes the night morning and the <<noontide|13>> night. 
-Princes have but their titles for their glories, 
-An outward honour for an inward toil, 
-And for unfelt imaginations 
-They often feel a world of restless cares; 
-So that, between their titles and low name, 
-There\x{2019}s nothing differs but the outward fame.",
-          ],
-          [
-            1,
             '[ap 04:00] The Oxford Shakespeare_ The Complete Works - William Shakespeare.epub (The_Oxford_S-ks_2nd_Edition_split_193.html) - four',
             'MESSENGER
 Upon the stroke of <<four|12>>.
@@ -442,8 +430,8 @@ LORD HASTINGS',
           ],
           [
             1,
-            "[ap 04:00] The Oxford Shakespeare_ The Complete Works - William Shakespeare.epub (The_Oxford_S-ks_2nd_Edition_split_196.html) - four o\x{2019}clock",
-            "I go, and towards three or <<four o\x{2019}clock|6>> 
+            '[ap < 03:00] The Oxford Shakespeare_ The Complete Works - William Shakespeare.epub (The_Oxford_S-ks_2nd_Edition_split_196.html) - towards three',
+            "I go, and <<towards three|9:1>> or <<four o\x{2019}clock|6>> 
 Look for the news that the Guildhall affords.",
           ],
           [
@@ -1478,7 +1466,7 @@ ISABELLA',
             1,
             '[00:00] The Oxford Shakespeare_ The Complete Works - William Shakespeare.epub (The_Oxford_S-ks_2nd_Edition_split_636.html) - midnight',
             "Look, here\x{2019}s the warrant, Claudio, for thy death. 
-\x{2019}Tis now dead <<midnight|13>>, and by eight tomorrow 
+\x{2019}Tis now dead <<midnight|13>>, and by <<eight|9:1>> tomorrow 
 Thou must be made immortal. Where\x{2019}s Barnardine?",
           ],
           [

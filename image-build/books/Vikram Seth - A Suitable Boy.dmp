@@ -66,7 +66,7 @@ $VAR1 = [
             1,
             '[ap 01:18] A Suitable Boy - Vikram Seth.epub (OEBPS/Text/part0003.html) - 1.18',
             '<<1.18|5a:0>>
-<<1.19|5a:0>>
+1.19
 Part Two',
           ],
           [
@@ -143,7 +143,7 @@ Part Two',
             1,
             '[ap 02:19] A Suitable Boy - Vikram Seth.epub (OEBPS/Text/part0003.html) - 2.19',
             '<<2.19|5a:0>>
-<<2.20|5a:0>>
+2.20
 Part Three',
           ],
           [
@@ -220,7 +220,7 @@ Part Three',
             1,
             '[ap 03:19] A Suitable Boy - Vikram Seth.epub (OEBPS/Text/part0003.html) - 3.19',
             '<<3.19|5a:0>>
-<<3.20|5a:0>>
+3.20
 Part Four',
           ],
           [
@@ -234,7 +234,7 @@ Part Four',
             1,
             '[ap 04:10] A Suitable Boy - Vikram Seth.epub (OEBPS/Text/part0003.html) - 4.10',
             '<<4.10|5a:0>>
-<<4.11|5a:0>>
+4.11
 Part Five',
           ],
           [
@@ -283,7 +283,7 @@ Part Five',
             1,
             '[ap 05:15] A Suitable Boy - Vikram Seth.epub (OEBPS/Text/part0003.html) - 5.15',
             '<<5.15|5a:0>>
-<<5.16|5a:0>>
+5.16
 Part Six',
           ],
           [
@@ -409,7 +409,7 @@ Part Six',
             1,
             '[ap 06:26] A Suitable Boy - Vikram Seth.epub (OEBPS/Text/part0003.html) - 6.26',
             '<<6.26|5a:0>>
-<<6.27|5a:0>>
+6.27
 Part Seven',
           ],
           [
@@ -668,7 +668,7 @@ Part Seven',
             1,
             '[ap 07:45] A Suitable Boy - Vikram Seth.epub (OEBPS/Text/part0003.html) - 7.45',
             '<<7.45|5a:0>>
-<<7.46|5a:0>>
+7.46
 Part Eight',
           ],
           [
@@ -703,7 +703,7 @@ Part Eight',
             1,
             '[ap 08:13] A Suitable Boy - Vikram Seth.epub (OEBPS/Text/part0003.html) - 8.13',
             '<<8.13|5a:0>>
-<<8.14|5a:0>>
+8.14
 Part Nine',
           ],
           [
@@ -801,7 +801,7 @@ Part Nine',
             1,
             '[ap 09:22] A Suitable Boy - Vikram Seth.epub (OEBPS/Text/part0003.html) - 9.22',
             '<<9.22|5a:0>>
-<<9.23|5a:0>>
+9.23
 Part Ten',
           ],
           [
@@ -892,7 +892,7 @@ Part Ten',
             1,
             '[ap 10:21] A Suitable Boy - Vikram Seth.epub (OEBPS/Text/part0003.html) - 10.21',
             '<<10.21|5a:0>>
-<<10.22|5a:0>>
+10.22
 Part Eleven',
           ],
           [
@@ -1053,7 +1053,7 @@ Part Eleven',
             1,
             '[ap 11:31] A Suitable Boy - Vikram Seth.epub (OEBPS/Text/part0003.html) - 11.31',
             '<<11.31|5a:0>>
-<<11.32|5a:0>>
+11.32
 Part Twelve',
           ],
           [
@@ -1179,7 +1179,7 @@ Part Twelve',
             1,
             '[ap 00:26] A Suitable Boy - Vikram Seth.epub (OEBPS/Text/part0003.html) - 12.26',
             '<<12.26|5a:0>>
-<<12.27|5a:0>>
+12.27
 Part Thirteen',
           ],
           [
@@ -1382,7 +1382,7 @@ Part Thirteen',
             1,
             '[13:37] A Suitable Boy - Vikram Seth.epub (OEBPS/Text/part0003.html) - 13.37',
             '<<13.37|5a:0>>
-<<13.38|5a:0>>
+13.38
 Part Fourteen',
           ],
           [
@@ -1522,7 +1522,7 @@ Part Fourteen',
             1,
             '[14:28] A Suitable Boy - Vikram Seth.epub (OEBPS/Text/part0003.html) - 14.28',
             '<<14.28|5a:0>>
-<<14.29|5a:0>>
+14.29
 Part Fifteen',
           ],
           [
@@ -1613,7 +1613,7 @@ Part Fifteen',
             1,
             '[15:21] A Suitable Boy - Vikram Seth.epub (OEBPS/Text/part0003.html) - 15.21',
             '<<15.21|5a:0>>
-<<15.22|5a:0>>
+15.22
 Part Sixteen',
           ],
           [
@@ -1725,7 +1725,7 @@ Part Sixteen',
             1,
             '[16:24] A Suitable Boy - Vikram Seth.epub (OEBPS/Text/part0003.html) - 16.24',
             '<<16.24|5a:0>>
-<<16.25|5a:0>>
+16.25
 Part Seventeen',
           ],
           [
@@ -1914,7 +1914,7 @@ Part Seventeen',
             1,
             '[17:35] A Suitable Boy - Vikram Seth.epub (OEBPS/Text/part0003.html) - 17.35',
             '<<17.35|5a:0>>
-<<17.36|5a:0>>
+17.36
 Part Eighteen',
           ],
           [
@@ -2089,7 +2089,7 @@ Part Eighteen',
             1,
             '[18:33] A Suitable Boy - Vikram Seth.epub (OEBPS/Text/part0003.html) - 18.33',
             '<<18.33|5a:0>>
-<<18.34|5a:0>>
+18.34
 Part Nineteen',
           ],
           [
@@ -2194,7 +2194,7 @@ Acknowledgements',
           [
             1,
             '[ap > 02:00] A Suitable Boy - Vikram Seth.epub (OEBPS/Text/part0042.html) - After two',
-            '<<After two|9:0>> or three thumris and a dadra, Saeeda Bai indicated that she was tired, and that Maan should leave.',
+            '<<After two|9:0>> or <<three|20a:0>> thumris and a dadra, Saeeda Bai indicated that she was tired, and that Maan should leave.',
           ],
           [
             1,

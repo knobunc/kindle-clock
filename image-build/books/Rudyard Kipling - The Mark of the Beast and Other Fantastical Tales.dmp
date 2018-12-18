@@ -92,7 +92,7 @@ $VAR1 = [
           [
             1,
             '[ap 01:00] The Mark of the Beast and Other Fantastica - Rudyard Kipling.epub (OEBPS/Text/Rudyard_Kipling_s_Tales_of_Horr_split_017.html) - one',
-            "The end of a thirsty summer night, and indulgence in waters, to Penhelder, of entirely unknown strength, was, for some hours, a felon\x{2019}s cell and \x{2018}forty shillings or a month.\x{2019}With the guilelessness of youth Penhelder had given his real name, and had the satisfaction of seeing it not only in the police reports of The Times but \x{2013} and here the type was used much larger than his modesty demanded \x{2013} in the market town weekly newspaper as well. It may be mentioned that Penhelder was the only one caught of a riotous gang. At <<one|9m>> and twenty, Penhelder set foot in India, a solemn and serious boy, whose mind had been darkened by the shadow of his Fate. He was overheard by a man who afterwards came to know him intimately, muttering, as he set foot on the Apollo Bunder in the blazing May sunshine: \x{2018}I hope it won\x{2019}t be anything very serious\x{2019}. It was not, but the Doctor said that it might have been most serious; and that young men who paraded Bombay in small hats deserved instant death instead of severe sunstroke merely.",
+            "The end of a thirsty summer night, and indulgence in waters, to Penhelder, of entirely unknown strength, was, for some hours, a felon\x{2019}s cell and \x{2018}forty shillings or a month.\x{2019}With the guilelessness of youth Penhelder had given his real name, and had the satisfaction of seeing it not only in the police reports of The Times but \x{2013} and here the type was used much larger than his modesty demanded \x{2013} in the market town weekly newspaper as well. It may be mentioned that Penhelder was the only one caught of a riotous gang. At <<one|9m:1>> and twenty, Penhelder set foot in India, a solemn and serious boy, whose mind had been darkened by the shadow of his Fate. He was overheard by a man who afterwards came to know him intimately, muttering, as he set foot on the Apollo Bunder in the blazing May sunshine: \x{2018}I hope it won\x{2019}t be anything very serious\x{2019}. It was not, but the Doctor said that it might have been most serious; and that young men who paraded Bombay in small hats deserved instant death instead of severe sunstroke merely.",
           ],
           [
             1,
@@ -205,7 +205,7 @@ $VAR1 = [
             1,
             '[ap 11:00] The Mark of the Beast and Other Fantastica - Rudyard Kipling.epub (OEBPS/Text/Rudyard_Kipling_s_Tales_of_Horr_split_030.html) - eleven',
             "\x{2018}When did your Sahib go to bed?\x{2019} said Spurstow.
-\x{2018}At <<eleven|9m>> or ten, we think,\x{2019} said Hummil\x{2019}s personal servant.
+\x{2018}At <<eleven|9m>> or <<ten|20a>>, we think,\x{2019} said Hummil\x{2019}s personal servant.
 \x{2018}He was well then? But how should you know?\x{2019}",
           ],
           [
@@ -312,6 +312,11 @@ $VAR1 = [
             1,
             "[ap 11:00] The Mark of the Beast and Other Fantastica - Rudyard Kipling.epub (OEBPS/Text/Rudyard_Kipling_s_Tales_of_Horr_split_043.html) - eleven o\x{2019}clock",
             "After dinner we sat round the dining-room fire \x{2013} the drawing-room might have been under the Shadow for aught we knew \x{2013} talking with the intimacy of gipsies by the wayside, or of wounded comparing notes after a skirmish. By <<eleven o\x{2019}clock|6>> the three between them had given me every name and detail they could recall that in any way bore on the house, and what they knew of its history.",
+          ],
+          [
+            1,
+            '[ap 05:00] The Mark of the Beast and Other Fantastica - Rudyard Kipling.epub (OEBPS/Text/Rudyard_Kipling_s_Tales_of_Horr_split_043.html) - five',
+            "It was a coolish morning, but we preferred to breakfast in the south verandah. The forenoon we spent in the garden, pretending to play games that come out of boxes, such as croquet and clock golf. But most of the time we drew together and talked. The young man who knew all about South American railways took Miss M\x{2019}Leod for a walk in the afternoon, and at <<five|9:1>> M\x{2019}Leod thoughtfully whirled us all up to dine in town.",
           ],
           [
             1,

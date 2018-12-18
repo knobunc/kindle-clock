@@ -116,7 +116,7 @@ $VAR1 = [
           [
             1,
             '[ap 01:00] The Three Musketeers - Alexandre Dumas.epub (OEBPS/ch19.xhtml) - one',
-            "The young man\x{2019}s heart overflowed with joy. With this mission he had an opportunity to gain both money and glory\x{2014}and, as an even greater incentive, to do a deed for the woman he adored. At <<one|9m>> blow, he\x{2019}d been given a chance to accomplish more than he would ever have dared pray for.",
+            "The young man\x{2019}s heart overflowed with joy. With this mission he had an opportunity to gain both money and glory\x{2014}and, as an even greater incentive, to do a deed for the woman he adored. At <<one|9m:0>> blow, he\x{2019}d been given a chance to accomplish more than he would ever have dared pray for.",
           ],
           [
             1,
@@ -438,7 +438,7 @@ Now d\x{2019}Artagnan really began to fear that something had happened to Madame
             1,
             '[ap ~ 02:00] The Three Musketeers - Alexandre Dumas.epub (OEBPS/ch38.xhtml) - About two',
             "\x{201c}Did he? When was that?\x{201d}
-\x{201c}<<About two|9:0>> or two-and-a-half weeks ago.\x{201d}
+\x{201c}<<About two|9:0>> or <<two|20a:0>>-and-a-half weeks ago.\x{201d}
 \x{201c}Really.\x{201d}",
           ],
           [

@@ -164,7 +164,7 @@ Hercule Poirot was sitting in an easy chair happily digesting an excellent lunch
           [
             1,
             '[ap < 01:00] One, Two, Buckle My Shoe - Agatha Christie.epub (OEBPS/008_chapter04.html) - just to one',
-            "\x{201c}I don\x{2019}t know, I\x{2019}m sure\x{2014}what I ought to do! I mean, I don\x{2019}t exactly want to betray a confidence and of course I never have repeated what Sylvia told me\x{2014}except <<just to one|10>> or two intimates whom I knew were really safe\x{2014}\x{201d}",
+            "\x{201c}I don\x{2019}t know, I\x{2019}m sure\x{2014}what I ought to do! I mean, I don\x{2019}t exactly want to betray a confidence and of course I never have repeated what Sylvia told me\x{2014}except <<just to one|10>> or <<two|20a>> intimates whom I knew were really safe\x{2014}\x{201d}",
           ],
           [
             1,
@@ -205,7 +205,7 @@ Alistair Blunt and his secretary were the only occupants. Mrs. Olivera and Jane 
           [
             1,
             '[ap ~ 11:35] One, Two, Buckle My Shoe - Agatha Christie.epub (OEBPS/011_chapter07.html) - about eleven thirty five',
-            "\x{201c}You did not, for instance, go up to his room <<about eleven thirty five|5k:0>> when he had a patient there?\x{201d}",
+            "\x{201c}You did not, for instance, go up to his room <<about eleven thirty five|3b>> when he had a patient there?\x{201d}",
           ],
           [
             1,

@@ -6,22 +6,6 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 09:59] Higher-Order Perl_ Transforming Programs W - Mark Jason Dominus.epub (OEBPS/Text/Section0003.html) - 1 to 10',
-            "use Memoize;
-sub iota {
-  my \$n = shift;
-  return [1 .. \$n];
-}
-memoize 'iota';
-
-\$i10 = iota(10);
-\$j10 = iota(10);
-pop \@\$i10;
-print \@\$j10;
-    The first call to iota(10) generates a new, fresh anonymous array of the numbers from <<1 to 10|10a:0>>, and returns a reference to this array. This reference is automatically placed in the cache, and is also stored into \$i10. The second call to iota(10) fetches the same reference from the cache and stores it into \$j10. Both \$i10 and \$j10 now refer to the same array \x{2014} we say that they are aliases for the array.",
-          ],
-          [
-            1,
             '[03:00] Higher-Order Perl_ Transforming Programs W - Mark Jason Dominus.epub (OEBPS/Text/Section0003.html) - 3 AM',
             "Let\x{2019}s consider a long-running network server program whose job is to sell some product, such as pizzas or weapons-grade plutonium. The cost of a pizza or a canister of plutonium includes the cost of delivery, which in turn depends on the current hour of the day and day of the week. Delivery late at night and on weekends is more expensive because fewer delivery persons are available and nobody likes to work at <<3 AM|5>>. The server might contain a function something like this:",
           ],
@@ -127,11 +111,6 @@ print \@\$j10;
           ],
           [
             1,
-            '[ap 09:00] Higher-Order Perl_ Transforming Programs W - Mark Jason Dominus.epub (OEBPS/Text/Section0004.html) - 0 to 9',
-            'The elements of the permutation pattern are like the wheels of an imaginary odometer. But where each wheel on a real odometer is the same size, and carries numbers from <<0 to 9|10a:0>> (or <<0 to 1|10a:0>> on planets where the odometer reads out in base 2), each wheel in the permutation odometer is a different size. The last one just hasa0onit; the next has just a 0 and a 1, and so on. But like a real odometer, each wheel turns one notch when the wheel to its right has completed a whole revolution.',
-          ],
-          [
-            1,
             '[ap 08:14] Higher-Order Perl_ Transforming Programs W - Mark Jason Dominus.epub (OEBPS/Text/Section0004.html) - 08:14',
             "208.190.220.160 - - [04/Aug/2001:<<08:14|2>>:29 -<<0400|18:0>>]
  \"GET /\x{2dc}mjd/pictures/new.gif HTTP/1.1\" 200 95
@@ -179,7 +158,7 @@ PErL  PeRL  pERL  PERL
           [
             1,
             '[00:00] Higher-Order Perl_ Transforming Programs W - Mark Jason Dominus.epub (OEBPS/Text/Section0005.html) - 0',
-            "Similarly, \$BRANCH will record where in the function we left off to make a recursive call. This is another thing Perl normally tracks internally. Initially, it\x{2019}s <<0|9d>>, indicating that we want to start at the top of the body. When we simulate a return from a recursive call, it will be <<1|9d>> or 2, telling us to pick up later on in the body where we left off:",
+            "Similarly, \$BRANCH will record where in the function we left off to make a recursive call. This is another thing Perl normally tracks internally. Initially, it\x{2019}s <<0|9d>>, indicating that we want to start at the top of the body. When we simulate a return from a recursive call, it will be <<1|9d>> or <<2|20a>>, telling us to pick up later on in the body where we left off:",
           ],
           [
             1,
