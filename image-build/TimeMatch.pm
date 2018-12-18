@@ -1335,7 +1335,7 @@ sub get_matches {
                 (?<t1> $hour_re ( ( [-:.] | \s+ )? $min0_re )? ( $ampm_ph_re )? )
                 ( $never_follow_times_re (*SKIP)(*FAIL) )?
                 $ba_re
-                (?{ $branch = $+{t1} eq 'one' ? "9m:TIMEY" : "9m"; })
+                (?{ $branch = lc($+{t1}) eq 'one' ? "9m:TIMEY" : "9m"; })
               }xin;
 
     push @r,qr{ (?<pr>
