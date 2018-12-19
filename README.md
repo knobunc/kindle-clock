@@ -1,5 +1,7 @@
 # Literary Clock Scripts
 
+See source repository -- https://github.com/knobunc/kindle-clock
+
 ## What is this?
 
 This is a repo to make installation and maintenance of the "literary
