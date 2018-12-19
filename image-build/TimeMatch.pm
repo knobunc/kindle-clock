@@ -1632,14 +1632,13 @@ sub extract_times {
         my $str = $1;
         my $branch;
 
-        my $lnr = $z_low_num_re;
         if ($str =~
             m{\A
               ( # one ... thirty ... four
                 ( (?<rl> $rel_at_words ) \s+ )?
-                                         (?<hr> $hour24_word_re )
-                  \s+ $ellips \s* (?<mn> $min_word_re )
-                ( \s* $ellips \s* (?<m3> $low_num_re ) )?
+                                        (?<hr> $hour24_word_re )
+                  \s* (- | $ellips) \s* (?<mn> $min_word_re )
+                ( \s* (- | $ellips) \s* (?<m3> $z_low_num_re ) )?
                 ( \s+ $oclock_re )?
                 ( [:,]? \s+ (?<am> $ampm_re ) )?
                 (?{ $branch = "9"; })
@@ -1669,10 +1668,10 @@ sub extract_times {
               | # 0000h
                 ( (?<rl> $rel_at_words ) \s+ )?
                   (?<hr> $hour_dig_re
-                  | $lnr ( \s+ $lnr )?
+                  | $z_low_num_re ( \s+ $z_low_num_re )?
                   ) [-\s.:]*
                 ( (?<mn> $minsec0_dig_re
-                  | $lnr \s+ $lnr
+                  | $z_low_num_re \s+ $z_low_num_re
                   ) \s*
                 )?
                 (?<sec> [:.] $minsec_dig_re ( [-.] $minsec_dig_re )?
