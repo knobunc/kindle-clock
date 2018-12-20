@@ -12,22 +12,40 @@ https://www.instructables.com/id/Literary-Clock-Made-From-E-reader/
 
 ## How to Install
 
-1. Jailbreak your Kindle, install launchpad and usbnet.  Instructions
+1. Jailbreak your Kindle, install launchpad, python, and usbnet.  Instructions
    are at step 2 of https://www.instructables.com/id/Literary-Clock-Made-From-E-reader/
+   1. I would make a directory of all of the uninstall scripts on the device too, so
+      removal is easier
 2. git clone the repo to somewhere you can rsync from
-3. ssh into the kindle
-4. On the kindle rsync the utils directory:
+3. Install your private key in `/mnt/us/usbnet/etc/dot.ssh` so rsync will work for updates
+4. ssh into the kindle
+   1. If you want to use usbnet rather than wifi (on Linux):
+   2. Copy the `launchpad/startClock.ini` to the `launchpad` directory on the USB filesystem
+      on the Kindle and hit `shift shift spacebar` to reread the launchpad config (or just
+      Restart, the timing can be tricky)
+   3. Start USBNet with `shift n`
+   4. Enable the network interface
 ```
-/usr/bin/rsync -rltD --omit-dir-times --delete-delay --delay-updates fiji@limey.net:kindle/kindle-clock/utils/ /mnt/us/utils
+sudo ifconfig usb0 192.168.2.1/24
 ```
-5. Install the needed cron jobs:
+   5. And ssh in (`-a` disables agent forwarding so we can test our key).  There is no password, hit enter.
 ```
+ssh -a root@192.168.2.2
+```
+5. On the kindle rsync the utils directory:
+```
+/usr/bin/rsync -rltD --omit-dir-times --delete-delay --delay-updates f@l.net:kindle/kindle-clock/utils/ /mnt/us/utils
+```
+6. Install the needed cron jobs:
+```
+mntroot rw
 cat >> /etc/crontab/root <<EOF
 * * * * * sh /mnt/us/timelit/timelit.sh
 5 0 * * * sh /mnt/us/utils/update.sh > /mnt/us/updatelog 2>&1
 EOF
+mntroot ro
 ```
-6. Add a boot script to cleanup the clockisticking file... since it shouldn't be after a boot
+7. Add a boot script to cleanup the clockisticking file... since it shouldn't be after a boot
 ```
 mntroot rw
 cp /mnt/us/utils/clean-clock /etc/init.d/
@@ -35,11 +53,16 @@ cd /etc/rcS.d
 ln -s ../init.d/clean-clock S77clean-clock
 mntroot ro
 ```
-7. Tell launchpad to reload its config:
+8. Sync everything over with an update:
+```
+cd /mnt/us
+sh /mnt/us/utils/update.sh
+```
+9. Tell launchpad to reload its config:
 ```
 /etc/init.d/launchpad restart
 ```
-8. Type `shift c` to start the clock (and to end it).  You may need to
+10. Type `shift c` to start the clock (and to end it).  You may need to
 wait a moment between the `shift` and the `c` for it to register
 correctly.
 
