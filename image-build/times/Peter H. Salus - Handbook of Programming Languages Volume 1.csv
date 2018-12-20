@@ -1,0 +1,1285 @@
+"ap ~ 09:52"|"around 8 to 10"|"One drawback with the handle-based Thread Pool model is that the size of the socket listen queue is relatively small (around 8 to 10 connections on most OS platforms). Therefore, high-volume servers that receive hundreds of Web hits per second might not be able to accept connections fast enough to keep the kernel from rejecting clients. Moreover, it is not possible to prioritize which connections are dropped because the kernel does not distinguish among different clients."|"Handbook of Programming Languages Volume 1"|"Peter H. Salus"
+"ap 01:22"|1:22|"Johnson, R., and B. Foote. 1988. Designing reusable classes. Journal of Object-Oriented Programming 1:22-35."|"Handbook of Programming Languages Volume 1"|"Peter H. Salus"
+"ap 01:00"|1|"Protocol <sequencedReadableCollection> abbreviated <sRC>
+Conforms to: <collection>
+
+Messages:
+
+<sRC> ^ <sRC>
+Concatenates collections
+
+after: <Object> ^ <Object>
+Returns the element that follows the argument element
+
+at: <integer> ^ <Object>
+Returns the element at the position specified by the argument
+
+before: <Object> ^ <Object>
+Returns the element that precedes the argument element
+
+copyFrom: <integer> to: <integer> ^ <sRC>
+Creates a new collection from a subsequence of elements
+
+copyReplaceAll: <sRC> with: <sRC> ^ <sRC>
+Creates a new collection with one subsequence replaced by another
+
+copyReplaceFrom: <integer> to: <integer> with: <sRC> ^ <sRC>
+Creates a new collection from the receiver with a subsequence of elements replaced from another collection
+
+copyReplaceFrom: <integer> to: <integer withObject: <Object> ^ <sRC>
+Creates a new collection from the receiver with a subsequence of elements replaced with a specific object
+
+copyWith: <Object> ^ <sRC>
+Copies receiver with the argument appended
+
+copyWithout: <Object> ^ <sRC>
+Copies receiver without any elements equal to the argument
+
+findFirst: <block1> ^ index
+Index of first element for which  the block evaluates to true
+
+findLast: <block1> ^ index
+Index of last element for which  the block evaluates to true
+
+first ^ <Object>
+Retrieves the first element of the collection
+
+indexOf: <Object> ^ <number>
+Index of first element equal to argument
+
+indexOf: <Object> ifAbsent: <block0> ^ <number>
+Index of first element equal to argument; evaluates block if none
+
+indexOfSubCollection: <sRC> startingAt: <integer> ^ <number>
+Starting at the specified position find the index of the first subsequence that is equal to the argument collection
+
+indexOfSubCollection: <sRC> startingAt: <integer> ifAbsent: <block0> ^ <number>
+Starting at the specified position find the index of the first subsequence that is equal to the argument collection; if not found, evaluates the argument block
+
+last  ^ <Object>
+Retrieves the last element of the collection
+
+reverse ^ <sRC>
+Creates a new collection with the receiver’s elements reversed
+
+reverseDo: <block1>
+In reverse order, evaluates the block for each receiver element
+
+with: <sRC> do: <block2>
+Evaluates the block using pairs of elements from the receiver and argument collections
+
+The basic message for accessing an element according to its position is at:. The numbering of element position starts at 1:"|"Handbook of Programming Languages Volume 1"|"Peter H. Salus"
+00:00|midnight|"SecsPast_0h00 / 60
+   SecsPast_0h00 rem 60
+
+
+are integer expressions, computing the quotient and the remainder respectively. In Ada, the interpretation of arithmetic operators, including division, depends on the types of their operands. SecsPast_0h00 (seconds since midnight) and 60 are both integer values, so the division is a truncating one."|"Handbook of Programming Languages Volume 1"|"Peter H. Salus"
+"ap 09:15"|09:15|"In the example, because the values of all the variables are computed at the time their declarations are elaborated, the statement-sequence part of the program need only display the result. Lines 19-23 display the date just as before; the rest of the program displays the time in 24-hour hh:mm:ss form. The if statements in lines 25-27, 31-33, and 37-39 are used to display leading zeroes where necessary, for example, 09:15:08. if statements are fully bracketed; that is, the if must have a closing end if. An if can include a single else or one or more elsif clauses. Two other if variations are"|"Handbook of Programming Languages Volume 1"|"Peter H. Salus"
+00:00|midnight|"T := Ada.Calendar.Time_Of(7, 29, 1997);
+
+
+returns a value corresponding to midnight at the start of July 29, 1997. On the other hand,"|"Handbook of Programming Languages Volume 1"|"Peter H. Salus"
+"ap 02:00"|"2 o’clock"|"Lines 29-32 define infix operators for Time values. Note that there is no operator to add two times; it is physically meaningless to add 2 o’clock to 3 o’clock. On the other hand, adding a Duration and a Time is meaningful—Duration represents elapsed time, and 2 o’clock plus 15 minutes gives 2:15. Note that I need one operator for the Time value on the left and another for the Duration value on the left."|"Handbook of Programming Languages Volume 1"|"Peter H. Salus"
+"ap 03:00"|"3 o’clock"|"Lines 29-32 define infix operators for Time values. Note that there is no operator to add two times; it is physically meaningless to add 2 o’clock to 3 o’clock. On the other hand, adding a Duration and a Time is meaningful—Duration represents elapsed time, and 2 o’clock plus 15 minutes gives 2:15. Note that I need one operator for the Time value on the left and another for the Duration value on the left."|"Handbook of Programming Languages Volume 1"|"Peter H. Salus"
+"ap 02:15"|2:15|"Lines 29-32 define infix operators for Time values. Note that there is no operator to add two times; it is physically meaningless to add 2 o’clock to 3 o’clock. On the other hand, adding a Duration and a Time is meaningful—Duration represents elapsed time, and 2 o’clock plus 15 minutes gives 2:15. Note that I need one operator for the Time value on the left and another for the Duration value on the left."|"Handbook of Programming Languages Volume 1"|"Peter H. Salus"
+17:00|"5 PM"|"while the time is earlier than 5 PM loop
+     ...
+   end loop;
+
+
+and the task would terminate just after 5 p.m. The disadvantage here is that I would strand any pending calls. Other strategies are also possible; the programmer has substantial flexibility here."|"Handbook of Programming Languages Volume 1"|"Peter H. Salus"
+"> 17:00"|"just after 5 p.m."|"while the time is earlier than 5 PM loop
+     ...
+   end loop;
+
+
+and the task would terminate just after 5 p.m. The disadvantage here is that I would strand any pending calls. Other strategies are also possible; the programmer has substantial flexibility here."|"Handbook of Programming Languages Volume 1"|"Peter H. Salus"
+00:25|24-25|"abstract classes
+
+C++, 252-253
+Java, 863-865
+
+abstract data types, C++, 232
+abstract methods, Java, 863-865
+abstract parent classes, 8
+abstract structure type (AST), 13
+abstract types, Modula-3, 670
+abstractions
+
+C++, 306
+
+generic, 307
+pointers, 325-326, 329-331
+constants, 332-333
+dynamic memory allocation, 332
+OOP, 307
+references, 325-328
+variable-length character strings, 306
+
+Eiffel, 493
+
+Acceptor pattern, Web servers, 31
+Access objects, Ada, 635
+accessing in Java
+
+array elements, 811
+class members, 796
+classes, 796
+methods, 833
+object data, 833
+objects, 807
+packages, 796
+
+Accessor methods, Smalltalk, 107, 180
+accidental complexities (communication software), 18
+ACE framework, 18, 23
+
+architecture, 24
+C++ language, 27
+C++ wrappers, 24-25
+
+SOCK Acceptor, 30
+SOCK Stream, 30
+
+components, 24-26
+
+self-contained, 27
+
+middleware, 28
+operating systems, 25
+OS adaption layer, 25
+Web servers, 28
+
+dispatcher, 28
+event dispatcher, 29
+handlers, 29
+HTTP Acceptor, 30
+HTTP Handler, 30
+requester, 28
+SOCK Acceptor, 30
+SOCK Stream, 30
+
+
+acknowledgments (C++) Stroustrup, Bjarne, 298
+acquisitions, Smalltalk, 88
+Active Object pattern, Web servers, 34
+ACVC (Ada Compiler Validation Capability), 565
+Ada 83, 555
+Ada 95, 555, 563
+
+Annexes, 563
+GNAT, 564
+GNU, 564
+
+Ada
+
+access objects, 633
+Ada.Calendar, 579
+
+Base parameter, 584
+Integer, 583
+Show Date, 580
+Show Date and Time, 582
+Width parameter, 584
+
+arrays, 588
+
+homogenous, 588
+type composition, 589, 592
+unconstrained, 596, 610-612
+
+books, 657
+brevity, 585
+Byron, Lord, 562
+civilian applications, 571
+command parameters, 592
+comments, 578
+compilers
+
+ACVC (Ada Compiler Validation Capability), 565
+availability, 574
+validation, 565-566
+
+concurrency, 646
+
+compilers, 657
+Dining Philosophers, 657
+guarded command, 655
+mutual exclusion, 649
+operating systems, 656
+random number generator, 648, 653
+screen manager, 648, 651
+Show Tasks program, 650
+STEELMAN Report, 646
+subtasks, 647
+
+context clauses, 577-578
+declarations, elaborating, 583
+defense projects, 570
+dynamic data structures, 638
+
+deallocating memory, 639
+garbage collection, 639
+heap, 639
+storage pool, 639
+
+education, 573
+encapsulation, 599-600
+
+constructor functions, 600
+infix operators, 600
+
+exception handling, 592, 596
+
+locally, 597
+propagating exceptions, 609
+
+expressions
+
+aggregated, 610
+initial expressions, 583
+
+files, 576
+garbage collection, application-specific, 641
+Hello, World, 577
+high order languages
+
+AJPO, 560
+ANSI, 562
+C, 560
+DoD, 557, 559
+HOLWG, 559
+Ichbiah, Jean, 559
+Taft, S. Tucker, 562
+
+Information Systems Annex, 592
+inheritance, 623
+layout, 578
+libraries, 579
+
+Ada.Finalization, 641
+Calendar, 579
+
+linked lists, 632
+
+AddToEnd, 640
+dashboard, building, 633
+heterogenous, 633
+MakeEmpty, 639
+
+loops, 586-589
+Lovelace, Countess Augusta Ada, 561
+matrices, 615-616
+
+generic package, 618-623
+
+memory heap, 639
+non-defense projects, 571
+numbers, decimal, 595
+objects, 576
+
+constrained, 611
+
+operations
+
+Adjust, 642
+Finalize, 642
+Initialize, 642
+
+overloading, 586
+packages, 576
+
+Ada.Command Line, 592
+encapsulation, 599, 616
+generic, 614-616
+generic matrices, 618-621
+HB.Instruments, 627, 635
+HB.Instruments.Aux, 631
+HB.Instruments.Basic, 628, 636
+HB.Instruments.Clocks, 629, 637
+HB.Lists Generic, 642
+HB.Lists.Generic, 633, 638
+HB.Random Task, 653, 648
+HB.Rationals, 601
+HB.Rationals.IO, 604, 607, 610
+HB.Screen, 649, 653
+HB.Vectors, 621
+rational-number arithmetic, 604
+Rationals, 607
+root, 601
+
+pointers, 633-635
+
+access objects, 635
+
+polymorphism, 623-625
+
+variant records, 625
+
+procedures, 578
+
+Display, 631
+main, 577
+
+records, fields, 591
+reserved words, 578
+subtypes, 586-588
+
+ranges, 589
+
+textbooks, 573
+type composition, 589, 592
+type extension, 623, 627
+types, 576
+
+Ada.Finalization.Controlled, 641
+hierarchies, 630
+overriding, 628
+primitive, 628
+subtypes, 580, 586-589
+
+validation, 565
+
+ACVC (Ada Compiler Validation Capability), 565
+AJPO, 565
+AVFs, 566
+certification, 566
+debugging, 569
+limitations, 569
+performance, 569
+test profile, 567
+
+vectors, 611-614
+web sites, 555, 657
+Whitaker, William, 556
+
+Ada.Command Line (Ada), 592
+Ada.Finalization (Ada), 641
+Ada.Finalization.Controlled (Ada), 641
+Adaptor pattern, Web servers, 36
+adaptors, C++, 400-401
+ADDRESS (Modula-3), 683
+AddToEnd (Ada linked lists), 640
+adjust operation (Ada), 642
+advantages, Smalltalk, 185
+AJPO
+
+Ada validation, 565
+Ada (high order languages), 560
+
+Algol languages, Modula-3, 669
+Algorithms
+
+C++, 370-371, 400
+communication software design, 18
+
+aliases, C++, 454-456
+allocated type, Modula-3, 678
+allocation
+
+dynamic memory pointers, 332
+memory
+
+Smalltalk, 169
+Java objects, 757, 807
+
+
+Althoff, Jim (Smalltalk), 78
+analysts, Smalltalk, 82
+anchored declarations (Eiffel inheritance), 535
+Anderson, Jim (Smalltalk), 89
+annexes
+
+Ada, Information Systems Annex, 592
+Ada 95, 563
+
+Annotated C++ Reference Manual, 254
+ANSI
+
+Ada (high order languages), 562
+C++, 255
+standards, Smalltalk, 182
+
+APIs (application programming interfaces), 780
+Apple
+
+Jobs, Steve (Smalltalk), 69
+lawsuit against Microsoft, 82
+Squeak (Smalltalk), 166
+
+applets
+
+compiling, 789
+example, 786-790
+Java, 786, 790
+Java 1.1 changes, 890-891
+Web page integration, 789-790
+
+applications, distributed, ACE framework (reusable components), 27
+application programming interfaces, 780
+application-specific garbage collection (Ada), 641
+applicators, C++, 391
+architecture
+
+ACE framework, 24
+Smalltalk composition, 78
+Web
+
+dispatcher, 28
+event dispatchers, 29
+handlers, 29
+HTTP Acceptor, 30
+HTTP Handler, 30
+requester, 28
+SOCK Acceptor, 30
+SOCK Stream, 30
+
+
+arguments, 5
+
+C++
+
+passing to functions, 336
+pointers, const, 422-423
+templates, 267
+
+Java
+
+command-line arguments, 791
+declaring in arrays, 812-813
+
+Smalltalk, blocks, 118
+
+arithmetic operators
+
+C++, order of precedence, 324
+Modula-3 expressions, 720-722
+
+ARM (Annotated C++ Reference Manual), 254
+Array (collection classes), 157
+arrays
+
+Ada
+
+homogenous, 588
+type composition, 589, 592
+unconstrained, 596, 610-612
+
+C++, 325, 328-329, 431
+
+associative, 309
+bounds, 446, 449
+clearing, 331
+deleting, 430
+multidimensional, 427
+of arrays, 429
+pointers, 329-331
+two variable dimensions, 430
+
+Java, 762, 791, 803, 806-808
+
+accessing elements from, 811
+arguments, declaring, 812-813
+copying, 805
+destroying, 809
+multidimensional, 809-811
+variables, declaring, 812-813
+versus objects, 812
+
+Modula-3
+
+assignable, 680
+constructors, 718
+fixed, 679
+indexing, 680
+open, 679
+shape, 679
+subtyping, 690
+
+
+arrow symbol (Smalltalk), 57
+assertions, Eiffel, 463, 498
+
+classes, 502-504
+reliability, 500
+runtime monitoring, 500-502
+
+assignment inheritance (C++ OOP), 374
+assignment attempts, Eiffel, 464, 533
+assignment operators, C++, 324, 360
+associative arrays, C++, map, 309
+associative containers, C++, 396
+AST (abstract structure type) modules, 13
+asymetric bounds (C++ libraries), 310
+asynchronous events, C++, exception handling, 270
+Asynchronous Thread Pool model, Web servers, concurrency, 43
+AtAllPut message (collection classes), 157
+attributes. Eiffel
+
+constant, 539
+features, 478
+
+Austern, Matt (C++), 267
+automatic objects, C++, memory, 239
+autoprototyping, C with Classes, 213
+AVFs (Ada Validation Facilities), 566
+AWT event model, Java 1.1, 877-878
+
+B"|"Handbook of Programming Languages Volume 1"|"Peter H. Salus"
+00:26|24-26|"abstract classes
+
+C++, 252-253
+Java, 863-865
+
+abstract data types, C++, 232
+abstract methods, Java, 863-865
+abstract parent classes, 8
+abstract structure type (AST), 13
+abstract types, Modula-3, 670
+abstractions
+
+C++, 306
+
+generic, 307
+pointers, 325-326, 329-331
+constants, 332-333
+dynamic memory allocation, 332
+OOP, 307
+references, 325-328
+variable-length character strings, 306
+
+Eiffel, 493
+
+Acceptor pattern, Web servers, 31
+Access objects, Ada, 635
+accessing in Java
+
+array elements, 811
+class members, 796
+classes, 796
+methods, 833
+object data, 833
+objects, 807
+packages, 796
+
+Accessor methods, Smalltalk, 107, 180
+accidental complexities (communication software), 18
+ACE framework, 18, 23
+
+architecture, 24
+C++ language, 27
+C++ wrappers, 24-25
+
+SOCK Acceptor, 30
+SOCK Stream, 30
+
+components, 24-26
+
+self-contained, 27
+
+middleware, 28
+operating systems, 25
+OS adaption layer, 25
+Web servers, 28
+
+dispatcher, 28
+event dispatcher, 29
+handlers, 29
+HTTP Acceptor, 30
+HTTP Handler, 30
+requester, 28
+SOCK Acceptor, 30
+SOCK Stream, 30
+
+
+acknowledgments (C++) Stroustrup, Bjarne, 298
+acquisitions, Smalltalk, 88
+Active Object pattern, Web servers, 34
+ACVC (Ada Compiler Validation Capability), 565
+Ada 83, 555
+Ada 95, 555, 563
+
+Annexes, 563
+GNAT, 564
+GNU, 564
+
+Ada
+
+access objects, 633
+Ada.Calendar, 579
+
+Base parameter, 584
+Integer, 583
+Show Date, 580
+Show Date and Time, 582
+Width parameter, 584
+
+arrays, 588
+
+homogenous, 588
+type composition, 589, 592
+unconstrained, 596, 610-612
+
+books, 657
+brevity, 585
+Byron, Lord, 562
+civilian applications, 571
+command parameters, 592
+comments, 578
+compilers
+
+ACVC (Ada Compiler Validation Capability), 565
+availability, 574
+validation, 565-566
+
+concurrency, 646
+
+compilers, 657
+Dining Philosophers, 657
+guarded command, 655
+mutual exclusion, 649
+operating systems, 656
+random number generator, 648, 653
+screen manager, 648, 651
+Show Tasks program, 650
+STEELMAN Report, 646
+subtasks, 647
+
+context clauses, 577-578
+declarations, elaborating, 583
+defense projects, 570
+dynamic data structures, 638
+
+deallocating memory, 639
+garbage collection, 639
+heap, 639
+storage pool, 639
+
+education, 573
+encapsulation, 599-600
+
+constructor functions, 600
+infix operators, 600
+
+exception handling, 592, 596
+
+locally, 597
+propagating exceptions, 609
+
+expressions
+
+aggregated, 610
+initial expressions, 583
+
+files, 576
+garbage collection, application-specific, 641
+Hello, World, 577
+high order languages
+
+AJPO, 560
+ANSI, 562
+C, 560
+DoD, 557, 559
+HOLWG, 559
+Ichbiah, Jean, 559
+Taft, S. Tucker, 562
+
+Information Systems Annex, 592
+inheritance, 623
+layout, 578
+libraries, 579
+
+Ada.Finalization, 641
+Calendar, 579
+
+linked lists, 632
+
+AddToEnd, 640
+dashboard, building, 633
+heterogenous, 633
+MakeEmpty, 639
+
+loops, 586-589
+Lovelace, Countess Augusta Ada, 561
+matrices, 615-616
+
+generic package, 618-623
+
+memory heap, 639
+non-defense projects, 571
+numbers, decimal, 595
+objects, 576
+
+constrained, 611
+
+operations
+
+Adjust, 642
+Finalize, 642
+Initialize, 642
+
+overloading, 586
+packages, 576
+
+Ada.Command Line, 592
+encapsulation, 599, 616
+generic, 614-616
+generic matrices, 618-621
+HB.Instruments, 627, 635
+HB.Instruments.Aux, 631
+HB.Instruments.Basic, 628, 636
+HB.Instruments.Clocks, 629, 637
+HB.Lists Generic, 642
+HB.Lists.Generic, 633, 638
+HB.Random Task, 653, 648
+HB.Rationals, 601
+HB.Rationals.IO, 604, 607, 610
+HB.Screen, 649, 653
+HB.Vectors, 621
+rational-number arithmetic, 604
+Rationals, 607
+root, 601
+
+pointers, 633-635
+
+access objects, 635
+
+polymorphism, 623-625
+
+variant records, 625
+
+procedures, 578
+
+Display, 631
+main, 577
+
+records, fields, 591
+reserved words, 578
+subtypes, 586-588
+
+ranges, 589
+
+textbooks, 573
+type composition, 589, 592
+type extension, 623, 627
+types, 576
+
+Ada.Finalization.Controlled, 641
+hierarchies, 630
+overriding, 628
+primitive, 628
+subtypes, 580, 586-589
+
+validation, 565
+
+ACVC (Ada Compiler Validation Capability), 565
+AJPO, 565
+AVFs, 566
+certification, 566
+debugging, 569
+limitations, 569
+performance, 569
+test profile, 567
+
+vectors, 611-614
+web sites, 555, 657
+Whitaker, William, 556
+
+Ada.Command Line (Ada), 592
+Ada.Finalization (Ada), 641
+Ada.Finalization.Controlled (Ada), 641
+Adaptor pattern, Web servers, 36
+adaptors, C++, 400-401
+ADDRESS (Modula-3), 683
+AddToEnd (Ada linked lists), 640
+adjust operation (Ada), 642
+advantages, Smalltalk, 185
+AJPO
+
+Ada validation, 565
+Ada (high order languages), 560
+
+Algol languages, Modula-3, 669
+Algorithms
+
+C++, 370-371, 400
+communication software design, 18
+
+aliases, C++, 454-456
+allocated type, Modula-3, 678
+allocation
+
+dynamic memory pointers, 332
+memory
+
+Smalltalk, 169
+Java objects, 757, 807
+
+
+Althoff, Jim (Smalltalk), 78
+analysts, Smalltalk, 82
+anchored declarations (Eiffel inheritance), 535
+Anderson, Jim (Smalltalk), 89
+annexes
+
+Ada, Information Systems Annex, 592
+Ada 95, 563
+
+Annotated C++ Reference Manual, 254
+ANSI
+
+Ada (high order languages), 562
+C++, 255
+standards, Smalltalk, 182
+
+APIs (application programming interfaces), 780
+Apple
+
+Jobs, Steve (Smalltalk), 69
+lawsuit against Microsoft, 82
+Squeak (Smalltalk), 166
+
+applets
+
+compiling, 789
+example, 786-790
+Java, 786, 790
+Java 1.1 changes, 890-891
+Web page integration, 789-790
+
+applications, distributed, ACE framework (reusable components), 27
+application programming interfaces, 780
+application-specific garbage collection (Ada), 641
+applicators, C++, 391
+architecture
+
+ACE framework, 24
+Smalltalk composition, 78
+Web
+
+dispatcher, 28
+event dispatchers, 29
+handlers, 29
+HTTP Acceptor, 30
+HTTP Handler, 30
+requester, 28
+SOCK Acceptor, 30
+SOCK Stream, 30
+
+
+arguments, 5
+
+C++
+
+passing to functions, 336
+pointers, const, 422-423
+templates, 267
+
+Java
+
+command-line arguments, 791
+declaring in arrays, 812-813
+
+Smalltalk, blocks, 118
+
+arithmetic operators
+
+C++, order of precedence, 324
+Modula-3 expressions, 720-722
+
+ARM (Annotated C++ Reference Manual), 254
+Array (collection classes), 157
+arrays
+
+Ada
+
+homogenous, 588
+type composition, 589, 592
+unconstrained, 596, 610-612
+
+C++, 325, 328-329, 431
+
+associative, 309
+bounds, 446, 449
+clearing, 331
+deleting, 430
+multidimensional, 427
+of arrays, 429
+pointers, 329-331
+two variable dimensions, 430
+
+Java, 762, 791, 803, 806-808
+
+accessing elements from, 811
+arguments, declaring, 812-813
+copying, 805
+destroying, 809
+multidimensional, 809-811
+variables, declaring, 812-813
+versus objects, 812
+
+Modula-3
+
+assignable, 680
+constructors, 718
+fixed, 679
+indexing, 680
+open, 679
+shape, 679
+subtyping, 690
+
+
+arrow symbol (Smalltalk), 57
+assertions, Eiffel, 463, 498
+
+classes, 502-504
+reliability, 500
+runtime monitoring, 500-502
+
+assignment inheritance (C++ OOP), 374
+assignment attempts, Eiffel, 464, 533
+assignment operators, C++, 324, 360
+associative arrays, C++, map, 309
+associative containers, C++, 396
+AST (abstract structure type) modules, 13
+asymetric bounds (C++ libraries), 310
+asynchronous events, C++, exception handling, 270
+Asynchronous Thread Pool model, Web servers, concurrency, 43
+AtAllPut message (collection classes), 157
+attributes. Eiffel
+
+constant, 539
+features, 478
+
+Austern, Matt (C++), 267
+automatic objects, C++, memory, 239
+autoprototyping, C with Classes, 213
+AVFs (Ada Validation Facilities), 566
+AWT event model, Java 1.1, 877-878
+
+B"|"Handbook of Programming Languages Volume 1"|"Peter H. Salus"
+19:21|19-21|"Package statement, Java, 795, 820
+packages
+
+Ada, 576
+
+Ada.Command Line, 592
+encapsulation, 599, 617
+generic, 614-616
+generic matrices, 618-621
+HB.Instruments, 627, 636
+HB.Instruments.Aux, 631
+HB.Instruments.Basic, 628, 636
+HB.Instruments.Clocks, 629, 637
+HB.Lists Generic, 642
+HB.Lists.Generic, 633, 639
+HB.Random Task, 648, 653
+HB.Rationals, 601
+HB.Rationals.IO, 604, 607, 610
+HB.Screen, 649, 653
+HB.Vectors, 621
+rational-number arithmetic, 604
+Rationals, 607
+root, 601
+
+Java, 772, 778, 793, 873-876
+
+access to, 796
+naming schemes, 794-795
+
+
+packed types, Modula-3, 682
+Parallel Programming Using C++, 296
+parameter declaration, Modula-3 procedures, 684
+parameterized types, C++, 246
+parameters
+
+Ada, generic packages, 616
+C++ functions, 336
+Eiffel
+
+classes, 464
+genericity, 495
+
+Java, 759
+
+PARC, Smalltalk, 54
+ParcPlace Holders, Smalltalk, 82-83
+ParcPlace Systems (Smalltalk), 83
+
+portability, 83
+VisualWorks, 84
+
+parent classes, 8
+partial specialization (C++ templates), 264
+Parts Workbench (Digitalk), 85
+Pass statement, C++, 338
+passing
+
+arguments to C++ functions, 336
+Java objects by reference, 804
+messages, 14
+
+paths, Smalltalk, execution, 169
+patterns, 19
+
+communication software, 19-21
+Smalltalk, 186
+web servers, 28
+
+Acceptor, 31
+Active Object, 34
+Adaptor, 36
+concurrency, 36
+dispatcher, 28
+event dispatcher, 29
+Half-sync/Half-async, 34
+handlers, 29
+HTTP Acceptor, 30
+HTTP Handler, 30
+Proactor, 32
+Reactor, 32
+requester, 28
+Singleton, 36
+SOCK Acceptor, 30
+SOCK Stream, 30
+State, 36
+strategic, 31
+Strategy, 35
+tactical, 35
+
+
+Patterson, Dave (Smalltalk), 88
+Pencin, Russ (Smalltalk), 83
+Perform message (Smalltalk), 125
+performance, Ada validation, 569
+persistence, Eiffel, 489
+pitfalls of C++, 405, 457
+
+aliases, 454-456
+arrays, 431
+
+bounds, 446, 449
+deleting, 430
+multidimensional, 427
+of arrays, 429
+two variable dimensions, 430
+
+C, 407
+classes
+
+base class conversions, 432-434
+containers, 435-436, 439
+
+const, 408, 412, 414, 416
+
+declarations, 412
+member functions, 414
+pointer arguments, 422-423
+pointers to constants, 413
+
+constructor initializers, 417
+declarations, 411
+execution, 445
+expressions, new, 427
+functions
+
+modifiable memory, 422
+references, 423, 426
+virtual, 432
+
+inheritance, 432
+lexical analysis, 409
+order relations, 439
+pointers
+
+dangling, 452
+dynamically allocated memory, 452
+functions, 454
+local variables, 452
+
+references, 454-456
+semantics, 419, 445
+specifiers, 411
+strchr function, 419, 422
+symbol spacing, 410
+syntactic, 409, 418
+tokens, 409
+
+platform independence
+
+Java, 774
+Smalltalk, 168
+
+pluggable interfaces, Smalltalk, 78
+Point class (Java), 757
+pointer-to-member operators, C++, 324
+pointers
+
+Ada, 633-635
+C with Classes, types, 207
+C++, 325-326
+
+arithmetic with, 331
+const, 413-416, 422-423
+constants, 332-333
+dangling, 452
+dynamic memory allocation, 332, 452
+functions, 454
+iterators, 310
+local variables, 452
+object members, 361
+smart, 257
+using with arrays, 329-331
+
+iterators, 280
+Java, lack of, 781, 805
+
+polymorphism, 10
+
+Ada, 623-625
+Eiffel, 463, 511-513
+OOP, 14
+Smalltalk, 103, 179
+
+Pool variables classes (Smalltalk), 75
+Pope, Steven (Smalltalk), 83
+portability
+
+C, 214
+Java, 774
+Smalltalk, 68
+
+intermediate representation, 73
+ParcPlace Systems, 83
+
+
+Posfix operator ++, C++, 319
+positioning (collection class elements), 155
+postfix increments, C++, 257
+pragmas, Modula-3 syntax, 739
+precedence, C++
+
+operators, 323-325
+statements, 339
+
+predeclared opaque types, Modula-3, TEXT and MUTEXT, 691
+prefix increments, C++, 257
+prefixes, Eiffel, 483
+primitive data types, Java, 801
+primitive operations (Ada types), 628
+primitives, Java, 751
+PrintString, Smalltalk objects, 135
+private classes
+
+C++, 379
+member functions. 355
+Java members, 859-862
+
+Proactor pattern, Web servers, 32
+problems, communication software, 19
+procedural operators, Modula-3, 715
+procedures
+
+Ada, 578
+
+Display, 631
+main, 577
+
+Modula-3, 684
+
+calls, 693-695
+constant, 684
+declarations, 704
+expressions, 718
+function, 684
+parameter declaration, 684
+proper, 684
+signatures, 684-685
+subtyping, 690
+top-level, 684
+type declaration, 684
+
+
+process (Eiffel), 466
+
+clusters, 466, 475
+compilers, 469
+external software, 475
+generalization, 468
+global inheritance, 474
+quality development, 469
+reuse, 468
+reversibility, 468
+seamlessness, 468
+working demos, 468
+
+program structure, C++, 313
+programs, Java
+
+compiling, 785
+compiling conditionally, 799
+components, 790
+critical sections, 819
+environment, 790
+Hello, World, 785
+invoking, 790
+linking C with Classes, 209-210
+returning values, 791
+running, 785
+structure, 790
+
+projects, Smalltalk
+
+banking, 191
+government, 192
+insurance, 191
+manufacturing, 192
+telecommunications, 192
+trading, 191
+Web servers, 191
+
+propagating exceptions, Ada, 609
+proper procedures, Modula-3, 684
+properties
+
+Java, looking up values for, 791
+Smalltalk objects, 75
+
+protected class members, Java, 859-862
+protected classes
+
+C, 218-219
+C++, 379
+
+protected member functions, C++, 355
+protocols
+
+Smalltalk, 131
+
+class libraries, 132
+collection classes, 144
+conforming, 132
+floating-point, 143
+fraction, 143
+integer, 142
+message signatures, 132
+number, 140
+numeric, 140
+objects, 133
+
+Prototypes. C with Classes, 213
+
+PS Smalltalk, 70
+public classes
+
+C++, 379
+Java, 795-796, 859-862
+
+public member functions, C++, 355
+publishing Smalltalk, 71, 79
+Pugh, John (Smalltalk), 88
+pure virtual functions, OOP in C++, 378
+Putz, Steve (Smalltalk), 78
+
+Q-R"|"Handbook of Programming Languages Volume 1"|"Peter H. Salus"

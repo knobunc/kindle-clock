@@ -1,0 +1,457 @@
+"ap 02:00"|2|"101101011010TWO = 1 x 211 +0 x 210 +1 x 29 +1 x 28 +0 x 27 +1 x 26 +0 x 25 +1 x 24 +1 x 23 +0 x 22 +1 x 21 +0 x 20If we just add up the parts in decimal, we get 2048 + 512 + 256 + 64 + 16 + 8 + 2, which is 2,906TEN."|Code|"Charles Petzold"
+00:00|midnight|"""Listen, my children, and you shall hear / Of the midnight ride of Paul Revere,"" wrote Henry Wadsworth Longfellow, and while he might not have been historically accurate when describing how Paul Revere alerted the American colonies that the British had invaded, he did provide a thoughtprovoking example of the use of bits to communicate important information:"|Code|"Charles Petzold"
+00:00|0|"00 = They both hated it.01 = Siskel hated it; Ebert loved it.10 = Siskel loved it; Ebert hated it.11 = They both loved it.The first bit is the Siskel bit, which is 0 if Siskel hated the movie and 1 if he liked it. Similarly, the second bit is the Ebert bit."|Code|"Charles Petzold"
+00:00|0|"The subscripts start at 0 and get higher for more significant digits because they correspond to the exponents of powers of two:"|Code|"Charles Petzold"
+"ap 07:00"|7|"To do this, we start with the rightmost column. First we see that 6 is bigger than 3, so we have to borrow 1 from the 5, and then subtract 6 from 13, which is 7. Then we have to remember that we borrowed 1 from the 5, so it's really a 4, and this 4 is smaller than 7, so we borrow 1 from the 2 and subtract 7 from 14, which is 7. Then we have to remember that we borrowed 1 from the 2, so it's really a 1, and then we subtract 1 from it to get 0. Our answer is 77:"|Code|"Charles Petzold"
+"ap 10:00"|ten|"This type of notation is called ten's complement. To convert a 3-digit negative number to ten's complement, we subtract it from 999 and add 1. In other words, the ten's complement is the nines' complement plus one. For example, to write –255 in ten's complement, subtract it from 999 to get 744 and then add 1 to get 745."|Code|"Charles Petzold"
+"ap 02:00"|two|"The equivalent system in binary is called two's complement. Let's assume that we're working with 8-bit numbers. These range from 00000000 to 11111111, which normally correspond to decimal numbers 0 through 255. But if you also want to express negative numbers, every 8-bit number that begins with a 1 will actually represent a negative number, as shown in the following table:"|Code|"Charles Petzold"
+"ap 01:00"|1|"A more interesting approach to the adding machine eliminates an entire row of eight switches. But first we need to modify the D-type flip-flop slightly by adding an OR gate and an input signal called Clear. The Clear input is normally 0. But when it's 1, the Q output becomes 0, as shown here:"|Code|"Charles Petzold"
+"ap 01:00"|"0 to 1"|"I mentioned earlier that the D-type flip-flop we designed was level-triggered. This means that the Clock input must change its level from 0 to 1 in order for the value of the Data input to be stored in the latch. But during the time that the Clock input is 1, the Data input can change; any changes in the Data input while the Clock input is 1 will be reflected in the values of the Q and  outputs."|Code|"Charles Petzold"
+"ap 01:00"|"0 to 1"|"For some applications, a level-triggered Clock input is quite sufficient. But for other applications, an edge-triggered Clock input is preferred. An edge trigger causes the outputs to change only when the Clock makes a transition from 0 to 1. As with the level-triggered flip-flop, when the Clock input is 0, any changes to the Data input don't affect the outputs. The difference in an edge-triggered flip-flop is that changes to the Data input also don't affect the outputs when the Clock input is 1. The Data input affects the outputs only at the instant that the Clock changes from 0 to 1."|Code|"Charles Petzold"
+"ap 01:00"|"0 to 1"|"The idea here is that the Clock input controls both the first stage and the second stage. But notice that the clock is inverted in the first stage. This means that the first stage works exactly like a D-type flip-flop except that the Data input is stored when the Clock is 0. The outputs of the second stage are inputs to the first stage, and these are saved when the Clock is 1. The overall result is that the Data input is saved when the Clock changes from 0 to 1."|Code|"Charles Petzold"
+00:00|0|"Let's take a closer look. Here's the flip-flop at rest with both the Data and Clock inputs at 0 and the Q output at 0:"|Code|"Charles Petzold"
+"ap 01:00"|"0 to 1"|"The Q and  outputs can change only at the instant that the Clock input changes from 0 to 1."|Code|"Charles Petzold"
+"ap 01:00"|"0 to 1"|"The arrow indicates that the output Q becomes the same as the Data input when the Clock makes a transition from 0 to 1. This is known as a positive transition of the Clock signal. (A negative transition is the transition from 1 to 0.) The flip-flop has a diagram like this:"|Code|"Charles Petzold"
+23:59|"1 to 0"|"The arrow indicates that the output Q becomes the same as the Data input when the Clock makes a transition from 0 to 1. This is known as a positive transition of the Clock signal. (A negative transition is the transition from 1 to 0.) The flip-flop has a diagram like this:"|Code|"Charles Petzold"
+"ap 01:00"|"0 to 1"|"When the Clock input changes from 0 to 1, the Q output will become the same as the D input:"|Code|"Charles Petzold"
+"ap 01:00"|"0 to 1"|"What's happening here can be summed up very simply: Every time the Clock input changes from 0 to 1, the Q output changes, either from 0 to 1 or from 1 to 0. The situation is clearer if we look at the timing diagram:"|Code|"Charles Petzold"
+23:59|"1 to 0"|"What's happening here can be summed up very simply: Every time the Clock input changes from 0 to 1, the Q output changes, either from 0 to 1 or from 1 to 0. The situation is clearer if we look at the timing diagram:"|Code|"Charles Petzold"
+"ap 01:00"|"0 to 1"|"When the Clock input goes from 0 to 1, the value of D (which is the same as ) is transferred to Q, thus also changing  and D for the next transition of the Clock input from 0 to 1."|Code|"Charles Petzold"
+01:00|10000h|"9A48Ch = 9 x 10000h +A x 1000h +4 x 100h +8 x 10h +C x 1hThis can be written using powers of 16:"|Code|"Charles Petzold"
+10:00|1000h|"9A48Ch = 9 x 10000h +A x 1000h +4 x 100h +8 x 10h +C x 1hThis can be written using powers of 16:"|Code|"Charles Petzold"
+01:00|100h|"9A48Ch = 9 x 10000h +A x 1000h +4 x 100h +8 x 10h +C x 1hThis can be written using powers of 16:"|Code|"Charles Petzold"
+03:00|"3:00 A.M."|"Nor is human memory foolproof. Indeed, writing was probably invented specifically to compensate for the failings of human memory. Perhaps last night you suddenly woke up at 3:00 A.M. with a great idea for a screenplay. You grabbed the pen and paper you keep by your bed specifically for that purpose, and you wrote it down so you wouldn't forget. The next morning you can read the brilliant idea and start work on the screenplay. (""Boy meets girl w. car chase & explosions""? That's it?) Or maybe not."|Code|"Charles Petzold"
+"ap 10:24"|1024|"What you don't say is that a 1-KB RAM array stores 1000 bytes, or (in English) ""one thousand bytes."" It's more than a thousand—it's 1024. To sound like you know what you're talking about, you say either ""1K"" or ""one kilobyte."""|Code|"Charles Petzold"
+"ap 02:16"|216|"Why 64 KB? Why not 32 KB or 128 KB? Because 65,536 is a nice round number. It's 216. This RAM array has a 16-bit address. In other words, the address is 2 bytes exactly. In hexadecimal, the address ranges from 0000h through FFFFh."|Code|"Charles Petzold"
+00:00|0000h|"Why 64 KB? Why not 32 KB or 128 KB? Because 65,536 is a nice round number. It's 216. This RAM array has a 16-bit address. In other words, the address is 2 bytes exactly. In hexadecimal, the address ranges from 0000h through FFFFh."|Code|"Charles Petzold"
+"ap 01:00"|"0 to 1"|"At the time I showed this circuit to you in Chapter 14, the only latches that I had introduced so far were level triggered. In a level-triggered latch, the Clock input has to go to 1 and then back to 0 in order for the latch to store something. During the time the Clock input is 1, the data inputs of the latch can change and these changes will affect the stored output. Later in that chapter, I introduced edge-triggered latches. These latches save their values in the brief moment that the Clock input goes from 0 to 1. Edge-triggered latches are often somewhat easier to use, so I want to assume that all the latches in this chapter are edge triggered."|Code|"Charles Petzold"
+00:00|0000h|"This is certainly not the easiest piece of calculating equipment ever invented. To use it, you first must close the switch labeled Clear. This clears the contents of the latch and sets the output of the 16-bit counter to 0000h. Then you close the Takeover switch on the RAM control panel. You can then enter a set of 8-bit numbers that you want to add beginning at RAM address 0000h. If you have 100 numbers, you'll store these numbers at addresses 0000h through 0063h. (You should also set all the unused entries in the RAM array to 00h.) You can then open the Takeover switch of the RAM control panel (so that the control panel no longer has control over the RAM array) and open the Clear switch. Then just sit back and watch the flashing lightbulbs."|Code|"Charles Petzold"
+00:00|0000h|"Here's how it works: When the Clear switch is first opened, the address of the RAM array is 0000h. The 8-bit value stored in the RAM array at that address is an input to the adder. The other input to the adder is 00h because the latch is also cleared."|Code|"Charles Petzold"
+00:01|0001h|"The oscillator provides a clock signal—a signal that alternates between 0 and 1 very quickly. After the Clear switch is opened, whenever the clock changes from a 0 to a 1, two things happen simultaneously: The latch stores the sum from the adder, and the 16-bit counter increments, thus addressing the next value in the RAM array. The first time the clock changes from 0 to 1 after the Clear switch is opened, the latch stores the first value and the counter increments to 0001h. The second time, the latch stores the sum of the first and second values, and the counter increments to 0002h. And so on."|Code|"Charles Petzold"
+00:02|0002h|"The oscillator provides a clock signal—a signal that alternates between 0 and 1 very quickly. After the Clear switch is opened, whenever the clock changes from a 0 to a 1, two things happen simultaneously: The latch stores the sum from the adder, and the 16-bit counter increments, thus addressing the next value in the RAM array. The first time the clock changes from 0 to 1 after the Clear switch is opened, the latch stores the first value and the counter increments to 0001h. The second time, the latch stores the sum of the first and second values, and the counter increments to 0002h. And so on."|Code|"Charles Petzold"
+00:00|0000h|"One problem with this circuit is that we have no way of stopping it! At some point, the lightbulbs will stop flashing because all the rest of the numbers in the RAM array will be 00h. At that time, you can read the binary sum. But when the counter eventually reaches FFFFh, it will roll over (just like a car odometer) to 0000h and this automated adder will begin adding the numbers again to the sum that was already calculated."|Code|"Charles Petzold"
+00:00|0000h|"For example, suppose we want to add three numbers together and then add two numbers together and then add another three numbers together. We might imagine typing these numbers into the RAM array beginning at address 0000h so that the contents of the memory look like this:"|Code|"Charles Petzold"
+00:00|0000h|"In gory detail, what we want the automated adder to do in this particular example is this:
+Load the value at address 0000h into the accumulator.
+Add the value at address 0001h to the accumulator."|Code|"Charles Petzold"
+00:01|0001h|"In gory detail, what we want the automated adder to do in this particular example is this:
+Load the value at address 0000h into the accumulator.
+Add the value at address 0001h to the accumulator."|Code|"Charles Petzold"
+00:00|0000h|"Load the value at address 0000h into the accumulator.
+Add the value at address 0001h to the accumulator.
+Add the value at address 0002h to the accumulator."|Code|"Charles Petzold"
+00:01|0001h|"Load the value at address 0000h into the accumulator.
+Add the value at address 0001h to the accumulator.
+Add the value at address 0002h to the accumulator."|Code|"Charles Petzold"
+00:02|0002h|"Load the value at address 0000h into the accumulator.
+Add the value at address 0001h to the accumulator.
+Add the value at address 0002h to the accumulator."|Code|"Charles Petzold"
+00:01|0001h|"Add the value at address 0001h to the accumulator.
+Add the value at address 0002h to the accumulator.
+Store the contents of the accumulator at address 0003h."|Code|"Charles Petzold"
+00:02|0002h|"Add the value at address 0001h to the accumulator.
+Add the value at address 0002h to the accumulator.
+Store the contents of the accumulator at address 0003h."|Code|"Charles Petzold"
+00:03|0003h|"Add the value at address 0001h to the accumulator.
+Add the value at address 0002h to the accumulator.
+Store the contents of the accumulator at address 0003h."|Code|"Charles Petzold"
+00:02|0002h|"Add the value at address 0002h to the accumulator.
+Store the contents of the accumulator at address 0003h.
+Load the value at address 0004h into the accumulator."|Code|"Charles Petzold"
+00:03|0003h|"Add the value at address 0002h to the accumulator.
+Store the contents of the accumulator at address 0003h.
+Load the value at address 0004h into the accumulator."|Code|"Charles Petzold"
+00:04|0004h|"Add the value at address 0002h to the accumulator.
+Store the contents of the accumulator at address 0003h.
+Load the value at address 0004h into the accumulator."|Code|"Charles Petzold"
+00:03|0003h|"Store the contents of the accumulator at address 0003h.
+Load the value at address 0004h into the accumulator.
+Add the value at address 0005h to the accumulator."|Code|"Charles Petzold"
+00:04|0004h|"Store the contents of the accumulator at address 0003h.
+Load the value at address 0004h into the accumulator.
+Add the value at address 0005h to the accumulator."|Code|"Charles Petzold"
+00:05|0005h|"Store the contents of the accumulator at address 0003h.
+Load the value at address 0004h into the accumulator.
+Add the value at address 0005h to the accumulator."|Code|"Charles Petzold"
+00:04|0004h|"Load the value at address 0004h into the accumulator.
+Add the value at address 0005h to the accumulator.
+Store the contents of the accumulator at address 0006h."|Code|"Charles Petzold"
+00:05|0005h|"Load the value at address 0004h into the accumulator.
+Add the value at address 0005h to the accumulator.
+Store the contents of the accumulator at address 0006h."|Code|"Charles Petzold"
+00:06|0006h|"Load the value at address 0004h into the accumulator.
+Add the value at address 0005h to the accumulator.
+Store the contents of the accumulator at address 0006h."|Code|"Charles Petzold"
+00:05|0005h|"Add the value at address 0005h to the accumulator.
+Store the contents of the accumulator at address 0006h.
+Load the value at address 0007h into the accumulator."|Code|"Charles Petzold"
+00:06|0006h|"Add the value at address 0005h to the accumulator.
+Store the contents of the accumulator at address 0006h.
+Load the value at address 0007h into the accumulator."|Code|"Charles Petzold"
+00:07|0007h|"Add the value at address 0005h to the accumulator.
+Store the contents of the accumulator at address 0006h.
+Load the value at address 0007h into the accumulator."|Code|"Charles Petzold"
+00:06|0006h|"Store the contents of the accumulator at address 0006h.
+Load the value at address 0007h into the accumulator.
+Add the value at address 0008h to the accumulator."|Code|"Charles Petzold"
+00:07|0007h|"Store the contents of the accumulator at address 0006h.
+Load the value at address 0007h into the accumulator.
+Add the value at address 0008h to the accumulator."|Code|"Charles Petzold"
+00:08|0008h|"Store the contents of the accumulator at address 0006h.
+Load the value at address 0007h into the accumulator.
+Add the value at address 0008h to the accumulator."|Code|"Charles Petzold"
+00:07|0007h|"Load the value at address 0007h into the accumulator.
+Add the value at address 0008h to the accumulator.
+Add the value at address 0009h to the accumulator."|Code|"Charles Petzold"
+00:08|0008h|"Load the value at address 0007h into the accumulator.
+Add the value at address 0008h to the accumulator.
+Add the value at address 0009h to the accumulator."|Code|"Charles Petzold"
+00:09|0009h|"Load the value at address 0007h into the accumulator.
+Add the value at address 0008h to the accumulator.
+Add the value at address 0009h to the accumulator."|Code|"Charles Petzold"
+00:08|0008h|"Add the value at address 0008h to the accumulator.
+Add the value at address 0009h to the accumulator.
+Store the contents of the accumulator at address 000Ah."|Code|"Charles Petzold"
+00:09|0009h|"Add the value at address 0008h to the accumulator.
+Add the value at address 0009h to the accumulator.
+Store the contents of the accumulator at address 000Ah."|Code|"Charles Petzold"
+00:00|0000h|"Notice that just as in the original automated adder, each byte of memory is still being addressed sequentially beginning at 0000h. The original automated adder simply added the contents of the memory at that address to the contents of the accumulator. In some cases, we still want to do that. But we also sometimes want to Load the accumulator directly with a value in memory or to Store the contents of the accumulator in memory. And after everything is done, we want the automated adder to simply stop so that the contents of the RAM array can be examined."|Code|"Charles Petzold"
+"ap 00:58"|2-to-1|"What this diagram is missing are all the little signals that control these components, known collectively as the control signals. These include the Clock and Clear inputs to the 16-bit counter, the Clock and Clear inputs to the 8-bit latch, the Write input to the Data RAM array, and the Select input to the 2-to-1 Selector. Some of these signals will obviously be based on the output of the Code RAM array. For example, the Select input to the 2-to-1 Selector must be 0 (selecting the Data RAM output) if the output of the Code RAM array indicates a Load instruction. The Write input to the Data RAM array must be 1 only when the opcode is a Store instruction. These control signals can be generated by various combinations of logic gates."|Code|"Charles Petzold"
+00:02|0002h|"the result D7h will be stored at address 0002h, and the result 99h will be stored at address 0005h."|Code|"Charles Petzold"
+00:05|0005h|"the result D7h will be stored at address 0002h, and the result 99h will be stored at address 0005h."|Code|"Charles Petzold"
+00:00|0000h|"Of course, actually keying these numbers into memory isn't the most rewarding job around. Not only do you have to use switches to represent binary numbers, but the numbers aren't stored in consecutive addresses. For example, the number 7A892BCDh goes into addresses 0000h, 0003h, 0006h, and 0009h starting with the least-significant byte. To get the final result, you have to examine the values located at addresses 0002h, 0005h, 0008h, and 000Bh."|Code|"Charles Petzold"
+00:03|0003h|"Of course, actually keying these numbers into memory isn't the most rewarding job around. Not only do you have to use switches to represent binary numbers, but the numbers aren't stored in consecutive addresses. For example, the number 7A892BCDh goes into addresses 0000h, 0003h, 0006h, and 0009h starting with the least-significant byte. To get the final result, you have to examine the values located at addresses 0002h, 0005h, 0008h, and 000Bh."|Code|"Charles Petzold"
+00:06|0006h|"Of course, actually keying these numbers into memory isn't the most rewarding job around. Not only do you have to use switches to represent binary numbers, but the numbers aren't stored in consecutive addresses. For example, the number 7A892BCDh goes into addresses 0000h, 0003h, 0006h, and 0009h starting with the least-significant byte. To get the final result, you have to examine the values located at addresses 0002h, 0005h, 0008h, and 000Bh."|Code|"Charles Petzold"
+00:09|0009h|"Of course, actually keying these numbers into memory isn't the most rewarding job around. Not only do you have to use switches to represent binary numbers, but the numbers aren't stored in consecutive addresses. For example, the number 7A892BCDh goes into addresses 0000h, 0003h, 0006h, and 0009h starting with the least-significant byte. To get the final result, you have to examine the values located at addresses 0002h, 0005h, 0008h, and 000Bh."|Code|"Charles Petzold"
+00:02|0002h|"Of course, actually keying these numbers into memory isn't the most rewarding job around. Not only do you have to use switches to represent binary numbers, but the numbers aren't stored in consecutive addresses. For example, the number 7A892BCDh goes into addresses 0000h, 0003h, 0006h, and 0009h starting with the least-significant byte. To get the final result, you have to examine the values located at addresses 0002h, 0005h, 0008h, and 000Bh."|Code|"Charles Petzold"
+00:05|0005h|"Of course, actually keying these numbers into memory isn't the most rewarding job around. Not only do you have to use switches to represent binary numbers, but the numbers aren't stored in consecutive addresses. For example, the number 7A892BCDh goes into addresses 0000h, 0003h, 0006h, and 0009h starting with the least-significant byte. To get the final result, you have to examine the values located at addresses 0002h, 0005h, 0008h, and 000Bh."|Code|"Charles Petzold"
+00:08|0008h|"Of course, actually keying these numbers into memory isn't the most rewarding job around. Not only do you have to use switches to represent binary numbers, but the numbers aren't stored in consecutive addresses. For example, the number 7A892BCDh goes into addresses 0000h, 0003h, 0006h, and 0009h starting with the least-significant byte. To get the final result, you have to examine the values located at addresses 0002h, 0005h, 0008h, and 000Bh."|Code|"Charles Petzold"
+00:00|0000h|"The problem is that we've built an automated adder that addresses the Code memory and the Data memory simultaneously and sequentially beginning at address 0000h. Each instruction in the Code memory corresponds to a location in the Data memory at the same address. Once a Store instruction causes something to be stored in the Data memory, that value can't later be loaded back into the accumulator."|Code|"Charles Petzold"
+00:00|0000h|"Each of the instruction codes (except Halt) is followed by 2 bytes that indicate a 16-bit address in the Data RAM array. These three addresses happen to be 0000h, 0001h, and 0002h, but they could be anything."|Code|"Charles Petzold"
+00:01|0001h|"Each of the instruction codes (except Halt) is followed by 2 bytes that indicate a 16-bit address in the Data RAM array. These three addresses happen to be 0000h, 0001h, and 0002h, but they could be anything."|Code|"Charles Petzold"
+00:02|0002h|"Each of the instruction codes (except Halt) is followed by 2 bytes that indicate a 16-bit address in the Data RAM array. These three addresses happen to be 0000h, 0001h, and 0002h, but they could be anything."|Code|"Charles Petzold"
+00:00|0000h|"Earlier I showed how to add a pair of 16-bit numbers—specifically 76ABh and 232 Ch—using the Add and Add with Carry instructions. But we had to store the 2 low-order bytes of these numbers at memory locations 0000h and 0001h, and the 2 high-order bytes at 0003h and 0004h. The result of the addition was stored at 0002h and 0005h."|Code|"Charles Petzold"
+00:01|0001h|"Earlier I showed how to add a pair of 16-bit numbers—specifically 76ABh and 232 Ch—using the Add and Add with Carry instructions. But we had to store the 2 low-order bytes of these numbers at memory locations 0000h and 0001h, and the 2 high-order bytes at 0003h and 0004h. The result of the addition was stored at 0002h and 0005h."|Code|"Charles Petzold"
+00:03|0003h|"Earlier I showed how to add a pair of 16-bit numbers—specifically 76ABh and 232 Ch—using the Add and Add with Carry instructions. But we had to store the 2 low-order bytes of these numbers at memory locations 0000h and 0001h, and the 2 high-order bytes at 0003h and 0004h. The result of the addition was stored at 0002h and 0005h."|Code|"Charles Petzold"
+00:04|0004h|"Earlier I showed how to add a pair of 16-bit numbers—specifically 76ABh and 232 Ch—using the Add and Add with Carry instructions. But we had to store the 2 low-order bytes of these numbers at memory locations 0000h and 0001h, and the 2 high-order bytes at 0003h and 0004h. The result of the addition was stored at 0002h and 0005h."|Code|"Charles Petzold"
+00:02|0002h|"Earlier I showed how to add a pair of 16-bit numbers—specifically 76ABh and 232 Ch—using the Add and Add with Carry instructions. But we had to store the 2 low-order bytes of these numbers at memory locations 0000h and 0001h, and the 2 high-order bytes at 0003h and 0004h. The result of the addition was stored at 0002h and 0005h."|Code|"Charles Petzold"
+00:05|0005h|"Earlier I showed how to add a pair of 16-bit numbers—specifically 76ABh and 232 Ch—using the Add and Add with Carry instructions. But we had to store the 2 low-order bytes of these numbers at memory locations 0000h and 0001h, and the 2 high-order bytes at 0003h and 0004h. The result of the addition was stored at 0002h and 0005h."|Code|"Charles Petzold"
+00:00|0000h|"If you were actually building such a machine out of relays, the bulk of the circuit would obviously be the two 64-KB RAM arrays. Indeed, much earlier you might have skimped on these components and decided that initially you would need only 1 KB of memory. If you made sure you stored everything in addresses 0000h through 03FFh, using less memory than 64 KB would work out just fine."|Code|"Charles Petzold"
+00:00|0000h|"As usual, the instructions begin at 0000h because that's where the counter starts accessing the RAM array after it has been reset. The final Halt instruction is stored at address 000Ch. We could have stored the three numbers and the results anywhere in the RAM array (except in the first 13 bytes, of course, because those memory locations are occupied by instructions), but we chose to store the data starting at address 0010h."|Code|"Charles Petzold"
+00:10|0010h|"As usual, the instructions begin at 0000h because that's where the counter starts accessing the RAM array after it has been reset. The final Halt instruction is stored at address 000Ch. We could have stored the three numbers and the results anywhere in the RAM array (except in the first 13 bytes, of course, because those memory locations are occupied by instructions), but we chose to store the data starting at address 0010h."|Code|"Charles Petzold"
+00:10|0010h|"Now suppose you discover that you need to add two more numbers to that result. Well, you can replace all the instructions you just entered with some new instructions, but maybe you don't want to do that. Maybe you'd prefer to just continue with the new instructions starting at the end of these instructions, first replacing the Halt instruction with a new Load instruction at address 000Ch. But you also need two new Add instructions, a Store instruction, and a new Halt instruction. Your only problem is that you have some data stored at address 0010h. You have to move that data someplace at a higher memory address. And you then have to change the instructions that refer to those memory instructions."|Code|"Charles Petzold"
+00:20|0020h|"Hmmm, you think. Maybe combining Code and Data into a single RAM array wasn't such a hot idea after all. But I assure you, a problem such as this would have come up sooner or later. So let's solve it. In this case, maybe what you'd like to do is enter the new instructions beginning at address 0020h and the new data at address 0030h:"|Code|"Charles Petzold"
+00:30|0030h|"Hmmm, you think. Maybe combining Code and Data into a single RAM array wasn't such a hot idea after all. But I assure you, a problem such as this would have come up sooner or later. So let's solve it. In this case, maybe what you'd like to do is enter the new instructions beginning at address 0020h and the new data at address 0030h:"|Code|"Charles Petzold"
+00:13|0013h|"Notice that the first Load instruction refers to the memory location 0013h, which is where the result of the first calculation was stored."|Code|"Charles Petzold"
+00:00|0000h|"So now we have some instructions starting at address 0000h, some data starting at 0010h, some more instructions at 0020h, and some more data at 0030h. We want to let the automated adding machine start at 0000h and execute all the instructions."|Code|"Charles Petzold"
+00:10|0010h|"So now we have some instructions starting at address 0000h, some data starting at 0010h, some more instructions at 0020h, and some more data at 0030h. We want to let the automated adding machine start at 0000h and execute all the instructions."|Code|"Charles Petzold"
+00:20|0020h|"So now we have some instructions starting at address 0000h, some data starting at 0010h, some more instructions at 0020h, and some more data at 0030h. We want to let the automated adding machine start at 0000h and execute all the instructions."|Code|"Charles Petzold"
+00:30|0030h|"So now we have some instructions starting at address 0000h, some data starting at 0010h, some more instructions at 0020h, and some more data at 0030h. We want to let the automated adding machine start at 0000h and execute all the instructions."|Code|"Charles Petzold"
+00:12|0012h|"We know we must remove that Halt instruction at address 000Ch, and by remove I really mean replace it with something else. But is that sufficient? The problem is that whatever we replace the Halt instruction with is going to be interpreted as an instruction byte. And so will the bytes stored every 3 bytes after that—at 000Fh, and 0012h, and 0015h, and 0018h, and 001Bh, and 001Eh. What if one of these bytes just happens to be an 11h? That's a Store instruction. And what if the 2 bytes following that Store instruction happened to refer to address 0023h? That would cause the machine to write the contents of the accumulator to that address. But that address contains something important already! And even if nothing like this happened, the next instruction byte that the adder retrieves from memory after the one at 001Eh will be at address 0021h, not 0020h, which is where our next real instruction happens to be."|Code|"Charles Petzold"
+00:15|0015h|"We know we must remove that Halt instruction at address 000Ch, and by remove I really mean replace it with something else. But is that sufficient? The problem is that whatever we replace the Halt instruction with is going to be interpreted as an instruction byte. And so will the bytes stored every 3 bytes after that—at 000Fh, and 0012h, and 0015h, and 0018h, and 001Bh, and 001Eh. What if one of these bytes just happens to be an 11h? That's a Store instruction. And what if the 2 bytes following that Store instruction happened to refer to address 0023h? That would cause the machine to write the contents of the accumulator to that address. But that address contains something important already! And even if nothing like this happened, the next instruction byte that the adder retrieves from memory after the one at 001Eh will be at address 0021h, not 0020h, which is where our next real instruction happens to be."|Code|"Charles Petzold"
+00:18|0018h|"We know we must remove that Halt instruction at address 000Ch, and by remove I really mean replace it with something else. But is that sufficient? The problem is that whatever we replace the Halt instruction with is going to be interpreted as an instruction byte. And so will the bytes stored every 3 bytes after that—at 000Fh, and 0012h, and 0015h, and 0018h, and 001Bh, and 001Eh. What if one of these bytes just happens to be an 11h? That's a Store instruction. And what if the 2 bytes following that Store instruction happened to refer to address 0023h? That would cause the machine to write the contents of the accumulator to that address. But that address contains something important already! And even if nothing like this happened, the next instruction byte that the adder retrieves from memory after the one at 001Eh will be at address 0021h, not 0020h, which is where our next real instruction happens to be."|Code|"Charles Petzold"
+00:23|0023h|"We know we must remove that Halt instruction at address 000Ch, and by remove I really mean replace it with something else. But is that sufficient? The problem is that whatever we replace the Halt instruction with is going to be interpreted as an instruction byte. And so will the bytes stored every 3 bytes after that—at 000Fh, and 0012h, and 0015h, and 0018h, and 001Bh, and 001Eh. What if one of these bytes just happens to be an 11h? That's a Store instruction. And what if the 2 bytes following that Store instruction happened to refer to address 0023h? That would cause the machine to write the contents of the accumulator to that address. But that address contains something important already! And even if nothing like this happened, the next instruction byte that the adder retrieves from memory after the one at 001Eh will be at address 0021h, not 0020h, which is where our next real instruction happens to be."|Code|"Charles Petzold"
+00:21|0021h|"We know we must remove that Halt instruction at address 000Ch, and by remove I really mean replace it with something else. But is that sufficient? The problem is that whatever we replace the Halt instruction with is going to be interpreted as an instruction byte. And so will the bytes stored every 3 bytes after that—at 000Fh, and 0012h, and 0015h, and 0018h, and 001Bh, and 001Eh. What if one of these bytes just happens to be an 11h? That's a Store instruction. And what if the 2 bytes following that Store instruction happened to refer to address 0023h? That would cause the machine to write the contents of the accumulator to that address. But that address contains something important already! And even if nothing like this happened, the next instruction byte that the adder retrieves from memory after the one at 001Eh will be at address 0021h, not 0020h, which is where our next real instruction happens to be."|Code|"Charles Petzold"
+00:20|0020h|"We know we must remove that Halt instruction at address 000Ch, and by remove I really mean replace it with something else. But is that sufficient? The problem is that whatever we replace the Halt instruction with is going to be interpreted as an instruction byte. And so will the bytes stored every 3 bytes after that—at 000Fh, and 0012h, and 0015h, and 0018h, and 001Bh, and 001Eh. What if one of these bytes just happens to be an 11h? That's a Store instruction. And what if the 2 bytes following that Store instruction happened to refer to address 0023h? That would cause the machine to write the contents of the accumulator to that address. But that address contains something important already! And even if nothing like this happened, the next instruction byte that the adder retrieves from memory after the one at 001Eh will be at address 0021h, not 0020h, which is where our next real instruction happens to be."|Code|"Charles Petzold"
+00:00|0000h|"So in the preceding example, the automated adder begins at 0000h, as usual, and does a Load instruction, an Add, a Subtract, and a Store. It then does the Jump instruction and continues at address 0020h with a Load, two Add instructions, a Store, and finally Halt."|Code|"Charles Petzold"
+00:20|0020h|"So in the preceding example, the automated adder begins at 0000h, as usual, and does a Load instruction, an Add, a Subtract, and a Store. It then does the Jump instruction and continues at address 0020h with a Load, two Add instructions, a Store, and finally Halt."|Code|"Charles Petzold"
+10:04|1004h|"Everyone knows that multiplying A7h and 1Ch (which is 28 in decimal) is the same as 28 additions of A7h. So the 16-bit location at addresses 1004h and 1005h will actually be an accumulated summation. Here's the code for adding A7h to that location once:"|Code|"Charles Petzold"
+10:05|1005h|"Everyone knows that multiplying A7h and 1Ch (which is 28 in decimal) is the same as 28 additions of A7h. So the 16-bit location at addresses 1004h and 1005h will actually be an accumulated summation. Here's the code for adding A7h to that location once:"|Code|"Charles Petzold"
+10:04|1004h|"At the completion of these six instructions, the 16-bit value at memory locations 1004h and 1005h will equal A7h times 1. Therefore, these six instructions have to be repeated 27 more times in order for that 16-bit value to equal A7h times 1Ch. You can achieve this by typing in these six instructions 27 more times beginning at address 0012h. Or you can put a Halt instruction at 0012h and press the Reset button 28 times to get the final answer."|Code|"Charles Petzold"
+10:05|1005h|"At the completion of these six instructions, the 16-bit value at memory locations 1004h and 1005h will equal A7h times 1. Therefore, these six instructions have to be repeated 27 more times in order for that 16-bit value to equal A7h times 1Ch. You can achieve this by typing in these six instructions 27 more times beginning at address 0012h. Or you can put a Halt instruction at 0012h and press the Reset button 28 times to get the final answer."|Code|"Charles Petzold"
+00:12|0012h|"At the completion of these six instructions, the 16-bit value at memory locations 1004h and 1005h will equal A7h times 1. Therefore, these six instructions have to be repeated 27 more times in order for that 16-bit value to equal A7h times 1Ch. You can achieve this by typing in these six instructions 27 more times beginning at address 0012h. Or you can put a Halt instruction at 0012h and press the Reset button 28 times to get the final answer."|Code|"Charles Petzold"
+00:12|0012h|"But what if you put a Jump instruction at 0012h? This instruction causes the counter to start from 0000h again:"|Code|"Charles Petzold"
+00:00|0000h|"But what if you put a Jump instruction at 0012h? This instruction causes the counter to start from 0000h again:"|Code|"Charles Petzold"
+10:04|1004h|"This certainly does the trick (sort of). The first time through, the 16-bit value at memory locations 1004h and 1005h will equal A7h times 1. Then the Jump instruction will go back up to the top. At the end of the second time through, the 16-bit result will equal A7h times 2. Eventually, it will equal A7h times 1Ch, but there's no stopping it. It just keeps going and going and going."|Code|"Charles Petzold"
+10:05|1005h|"This certainly does the trick (sort of). The first time through, the 16-bit value at memory locations 1004h and 1005h will equal A7h times 1. Then the Jump instruction will go back up to the top. At the end of the second time through, the 16-bit result will equal A7h times 2. Eventually, it will equal A7h times 1Ch, but there's no stopping it. It just keeps going and going and going."|Code|"Charles Petzold"
+00:12|0012h|"Now all that's necessary to make the code shown above multiply two numbers are the following instructions starting at address 0012h:"|Code|"Charles Petzold"
+00:04|0004h|"The first time through, the 16-bit location at 0004h and 0005h contains A7h times 1, as we've already established. The instructions here load the byte from location 1003h into the accumulator. This is 1Ch. This byte is added to the value at location 001Eh. This happens to be the Halt instruction, but of course it's also a valid number. Adding FFh to 1Ch is the same as subtracting 1 from 1Ch, so the result is 1Bh. This isn't 0, so the Zero flag is 0. The 1Bh byte is stored back at address 1003h. Next is a Jump If Not Zero instruction. The Zero flag isn't set to 1, so the jump occurs. The next instruction is the one located at address 0000h."|Code|"Charles Petzold"
+00:05|0005h|"The first time through, the 16-bit location at 0004h and 0005h contains A7h times 1, as we've already established. The instructions here load the byte from location 1003h into the accumulator. This is 1Ch. This byte is added to the value at location 001Eh. This happens to be the Halt instruction, but of course it's also a valid number. Adding FFh to 1Ch is the same as subtracting 1 from 1Ch, so the result is 1Bh. This isn't 0, so the Zero flag is 0. The 1Bh byte is stored back at address 1003h. Next is a Jump If Not Zero instruction. The Zero flag isn't set to 1, so the jump occurs. The next instruction is the one located at address 0000h."|Code|"Charles Petzold"
+10:03|1003h|"The first time through, the 16-bit location at 0004h and 0005h contains A7h times 1, as we've already established. The instructions here load the byte from location 1003h into the accumulator. This is 1Ch. This byte is added to the value at location 001Eh. This happens to be the Halt instruction, but of course it's also a valid number. Adding FFh to 1Ch is the same as subtracting 1 from 1Ch, so the result is 1Bh. This isn't 0, so the Zero flag is 0. The 1Bh byte is stored back at address 1003h. Next is a Jump If Not Zero instruction. The Zero flag isn't set to 1, so the jump occurs. The next instruction is the one located at address 0000h."|Code|"Charles Petzold"
+00:00|0000h|"The first time through, the 16-bit location at 0004h and 0005h contains A7h times 1, as we've already established. The instructions here load the byte from location 1003h into the accumulator. This is 1Ch. This byte is added to the value at location 001Eh. This happens to be the Halt instruction, but of course it's also a valid number. Adding FFh to 1Ch is the same as subtracting 1 from 1Ch, so the result is 1Bh. This isn't 0, so the Zero flag is 0. The 1Bh byte is stored back at address 1003h. Next is a Jump If Not Zero instruction. The Zero flag isn't set to 1, so the jump occurs. The next instruction is the one located at address 0000h."|Code|"Charles Petzold"
+10:04|1004h|"The second time through, the 16-bit location at 1004h and 1005h will contain the value A7h times 2. The value 1Bh is added to FFh to get the result 1Ah. That's not 0, so back to the top."|Code|"Charles Petzold"
+10:05|1005h|"The second time through, the 16-bit location at 1004h and 1005h will contain the value A7h times 2. The value 1Bh is added to FFh to get the result 1Ah. That's not 0, so back to the top."|Code|"Charles Petzold"
+10:04|1004h|"On the twenty-eighth time through, the 16-bit location at 1004h and 1005h will contain the value A7h times 1Ch. At location 1003h will be the value 1. This will be added to FFh and the result will be zero. The Zero flag will be set! So the Jump If Not Zero instruction will not jump back to 0000h. Instead, the next instruction is a Halt. We're done."|Code|"Charles Petzold"
+10:05|1005h|"On the twenty-eighth time through, the 16-bit location at 1004h and 1005h will contain the value A7h times 1Ch. At location 1003h will be the value 1. This will be added to FFh and the result will be zero. The Zero flag will be set! So the Jump If Not Zero instruction will not jump back to 0000h. Instead, the next instruction is a Halt. We're done."|Code|"Charles Petzold"
+10:03|1003h|"On the twenty-eighth time through, the 16-bit location at 1004h and 1005h will contain the value A7h times 1Ch. At location 1003h will be the value 1. This will be added to FFh and the result will be zero. The Zero flag will be set! So the Jump If Not Zero instruction will not jump back to 0000h. Instead, the next instruction is a Halt. We're done."|Code|"Charles Petzold"
+00:00|0000h|"On the twenty-eighth time through, the 16-bit location at 1004h and 1005h will contain the value A7h times 1Ch. At location 1003h will be the value 1. This will be added to FFh and the result will be zero. The Zero flag will be set! So the Jump If Not Zero instruction will not jump back to 0000h. Instead, the next instruction is a Halt. We're done."|Code|"Charles Petzold"
+07:00|"seven this morning"|"Computer programming is sometimes also referred to as writing code, or coding, as in, ""I spent my vacation coding"" or ""I was up until seven this morning banging out some code."" Sometimes computer programmers are known as coders, although some might consider this a derogatory term. Such programmers might prefer to be called software engineers."|Code|"Charles Petzold"
+10:03|1003h|"These mnemonics are particularly useful when combined with a couple of other shortcuts. For example, instead of saying something long-winded like, ""Load byte at address 1003h into accumulator,"" we can instead write the statement:"|Code|"Charles Petzold"
+10:03|1003h|"LOD A,[1003h]The A and the [1003] that appear to the right of the mnemonic are called arguments that indicate what's going on with this particular Load instruction. The arguments are written with a destination on the left (the A stands for accumulator) and a source on the right. The brackets indicate that the accumulator should be loaded not with the value 1003h but with the value stored in memory at address 1003h."|Code|"Charles Petzold"
+10:03|1003h|"Similarly, the instruction ""Add byte at address 001Eh to accumulator"" can be shortened to
+ADD A,[001Eh]and ""Store contents of accumulator at address 1003h"" is
+STO [1003h],ANotice that the destination (a memory location for the Store instruction) is still on the left and the source is on the right. The contents of the accumulator must be stored in memory at address 1003h. The wordy ""Jump to 0000h if the Zero flag is not 1"" is more concisely written as"|Code|"Charles Petzold"
+00:00|0000h|"Similarly, the instruction ""Add byte at address 001Eh to accumulator"" can be shortened to
+ADD A,[001Eh]and ""Store contents of accumulator at address 1003h"" is
+STO [1003h],ANotice that the destination (a memory location for the Store instruction) is still on the left and the source is on the right. The contents of the accumulator must be stored in memory at address 1003h. The wordy ""Jump to 0000h if the Zero flag is not 1"" is more concisely written as"|Code|"Charles Petzold"
+10:03|1003h|"STO [1003h],ANotice that the destination (a memory location for the Store instruction) is still on the left and the source is on the right. The contents of the accumulator must be stored in memory at address 1003h. The wordy ""Jump to 0000h if the Zero flag is not 1"" is more concisely written as"|Code|"Charles Petzold"
+00:00|0000h|"STO [1003h],ANotice that the destination (a memory location for the Store instruction) is still on the left and the source is on the right. The contents of the accumulator must be stored in memory at address 1003h. The wordy ""Jump to 0000h if the Zero flag is not 1"" is more concisely written as"|Code|"Charles Petzold"
+00:00|0000h|"JNZ 0000hThe brackets aren't used in this instruction because the instruction jumps to address 0000h, not to the value that might be stored at address 0000h."|Code|"Charles Petzold"
+00:00|0000h|"0000h:    LOD A,[1005h]And here's how we can indicate some data stored at a particular address:"|Code|"Charles Petzold"
+10:05|1005h|"0000h:    LOD A,[1005h]And here's how we can indicate some data stored at a particular address:"|Code|"Charles Petzold"
+10:00|1000h|"1000h:   00h, A7h
+1002h:   00h, 1Ch
+1004h:   00h, 00hThe 2 bytes separated by commas indicate that the first byte is stored at the address on the left and the second byte is stored at the next address. These three lines are equivalent to"|Code|"Charles Petzold"
+10:02|1002h|"1000h:   00h, A7h
+1002h:   00h, 1Ch
+1004h:   00h, 00hThe 2 bytes separated by commas indicate that the first byte is stored at the address on the left and the second byte is stored at the next address. These three lines are equivalent to"|Code|"Charles Petzold"
+10:04|1004h|"1000h:   00h, A7h
+1002h:   00h, 1Ch
+1004h:   00h, 00hThe 2 bytes separated by commas indicate that the first byte is stored at the address on the left and the second byte is stored at the next address. These three lines are equivalent to"|Code|"Charles Petzold"
+10:00|1000h|"1000h:    00h,  A7h,  00h,  1Ch,  00h,  00hSo the entire multiplication program can be written as a series of statements like this:"|Code|"Charles Petzold"
+00:00|0000h|"0000h:    LOD A,[1005h]
+          ADD A,[1001h]
+          STO [1005h],A
+
+          LOD A,[1004h]
+          ADC A,[1000h]
+          STO [1004h],A
+
+          LOD A,[1003h]
+          ADD A,[001Eh]
+          STO [1003h],A
+
+          JNZ 0000h
+
+001Eh:    HLT
+
+1000h:    00h, A7h
+1002h:    00h, 1Ch
+1004h:    00h, 00hThe judicious use of blank lines and other white space is simply to make the whole program more readable for human beings like you and me."|Code|"Charles Petzold"
+10:05|1005h|"0000h:    LOD A,[1005h]
+          ADD A,[1001h]
+          STO [1005h],A
+
+          LOD A,[1004h]
+          ADC A,[1000h]
+          STO [1004h],A
+
+          LOD A,[1003h]
+          ADD A,[001Eh]
+          STO [1003h],A
+
+          JNZ 0000h
+
+001Eh:    HLT
+
+1000h:    00h, A7h
+1002h:    00h, 1Ch
+1004h:    00h, 00hThe judicious use of blank lines and other white space is simply to make the whole program more readable for human beings like you and me."|Code|"Charles Petzold"
+10:01|1001h|"0000h:    LOD A,[1005h]
+          ADD A,[1001h]
+          STO [1005h],A
+
+          LOD A,[1004h]
+          ADC A,[1000h]
+          STO [1004h],A
+
+          LOD A,[1003h]
+          ADD A,[001Eh]
+          STO [1003h],A
+
+          JNZ 0000h
+
+001Eh:    HLT
+
+1000h:    00h, A7h
+1002h:    00h, 1Ch
+1004h:    00h, 00hThe judicious use of blank lines and other white space is simply to make the whole program more readable for human beings like you and me."|Code|"Charles Petzold"
+10:04|1004h|"0000h:    LOD A,[1005h]
+          ADD A,[1001h]
+          STO [1005h],A
+
+          LOD A,[1004h]
+          ADC A,[1000h]
+          STO [1004h],A
+
+          LOD A,[1003h]
+          ADD A,[001Eh]
+          STO [1003h],A
+
+          JNZ 0000h
+
+001Eh:    HLT
+
+1000h:    00h, A7h
+1002h:    00h, 1Ch
+1004h:    00h, 00hThe judicious use of blank lines and other white space is simply to make the whole program more readable for human beings like you and me."|Code|"Charles Petzold"
+10:00|1000h|"0000h:    LOD A,[1005h]
+          ADD A,[1001h]
+          STO [1005h],A
+
+          LOD A,[1004h]
+          ADC A,[1000h]
+          STO [1004h],A
+
+          LOD A,[1003h]
+          ADD A,[001Eh]
+          STO [1003h],A
+
+          JNZ 0000h
+
+001Eh:    HLT
+
+1000h:    00h, A7h
+1002h:    00h, 1Ch
+1004h:    00h, 00hThe judicious use of blank lines and other white space is simply to make the whole program more readable for human beings like you and me."|Code|"Charles Petzold"
+10:03|1003h|"0000h:    LOD A,[1005h]
+          ADD A,[1001h]
+          STO [1005h],A
+
+          LOD A,[1004h]
+          ADC A,[1000h]
+          STO [1004h],A
+
+          LOD A,[1003h]
+          ADD A,[001Eh]
+          STO [1003h],A
+
+          JNZ 0000h
+
+001Eh:    HLT
+
+1000h:    00h, A7h
+1002h:    00h, 1Ch
+1004h:    00h, 00hThe judicious use of blank lines and other white space is simply to make the whole program more readable for human beings like you and me."|Code|"Charles Petzold"
+10:02|1002h|"0000h:    LOD A,[1005h]
+          ADD A,[1001h]
+          STO [1005h],A
+
+          LOD A,[1004h]
+          ADC A,[1000h]
+          STO [1004h],A
+
+          LOD A,[1003h]
+          ADD A,[001Eh]
+          STO [1003h],A
+
+          JNZ 0000h
+
+001Eh:    HLT
+
+1000h:    00h, A7h
+1002h:    00h, 1Ch
+1004h:    00h, 00hThe judicious use of blank lines and other white space is simply to make the whole program more readable for human beings like you and me."|Code|"Charles Petzold"
+20:00|2000h|"It's better not to use actual numeric addresses when writing code because they can change. For example, if you decided to store the numbers at memory locations 2000h through 20005h, you'd need to rewrite many of the statements as well. It's better to use labels to refer to locations in memory. These labels are simply words, or they look almost like words, like this:"|Code|"Charles Petzold"
+02:00|20005h|"It's better not to use actual numeric addresses when writing code because they can change. For example, if you decided to store the numbers at memory locations 2000h through 20005h, you'd need to rewrite many of the statements as well. It's better to use labels to refer to locations in memory. These labels are simply words, or they look almost like words, like this:"|Code|"Charles Petzold"
+10:03|1003h|"There's even a bug in my multiplication program. If you run it twice, the second time through it will multiply A7h by 256 and add that result to the result already calculated. This is because after you run the program once, the number at address 1003h will be 0. When you run it the second time, FFh will be added to that value. The result won't be 0, so the program will keep running until it is."|Code|"Charles Petzold"
+00:00|0000h|"After the 8080 chip is reset, it reads the byte located at memory address 0000h into the microprocessor. It does this by outputting 16 zeros on the address signals A0 through A15. The byte it reads should be an 8080 instruction, and the process of reading this byte is known as an instruction fetch."|Code|"Charles Petzold"
+17:56|"4 to 18"|"When the 8080 is running at its maximum speed of 2 MHz, each clock cycle is 500 nanoseconds. (1 ÷ 2,000,000 cycles per second = 0.000000500 seconds.) The instructions in the Chapter 17 computer all required 4 clock cycles. Each 8080 instruction requires anywhere from 4 to 18 clock cycles. This means that each instruction is executed in 2 to 9 microseconds (millionths of a second)."|Code|"Charles Petzold"
+"ap 08:58"|"2 to 9"|"When the 8080 is running at its maximum speed of 2 MHz, each clock cycle is 500 nanoseconds. (1 ÷ 2,000,000 cycles per second = 0.000000500 seconds.) The instructions in the Chapter 17 computer all required 4 clock cycles. Each 8080 instruction requires anywhere from 4 to 18 clock cycles. This means that each instruction is executed in 2 to 9 microseconds (millionths of a second)."|Code|"Charles Petzold"
+00:00|0000h|"If you have 64 KB of memory connected to your 8080, you might want to initially set the Stack Pointer to 0000h. The first PUSH instruction decrements that address to FFFFh. The stack then occupies the area of memory with the very highest addresses, quite a distance from your programs, which will probably be in the area of memory starting at address 0000h."|Code|"Charles Petzold"
+00:00|0000h|"0000h:     LXI SP,0000hIt's also possible to increment and decrement register pairs and the Stack Pointer as if they were 16-bit registers:"|Code|"Charles Petzold"
+00:00|0000h|"Multiply:    PUSH PSW         ; Save registers being altered
+             PUSH BC
+
+             SUB H,H          ; Set HL (result) to 0000h
+             SUB L,L
+
+             MOV A,B          ; The multiplier goes in A
+             CPI A,00h        ; If it's 0, we're finished.
+             JZ AllDone
+
+             MVI B,00h        ; Set high byte of BC to 0
+
+MultLoop:    DAD HL,BC        ; Add BC to HL
+             DEC A            ; Decrement multiplier
+             JNZ MultLoop     ; Loop if it's not 0
+
+AllDone:     POP BC           ; Restore saved registers
+             POP PSW
+             RET              ; ReturnNotice that the first line of the subroutine begins with a label, which is the word Multiply. This label, of course, actually corresponds to a memory address where the subroutine is located. The subroutine begins with two PUSH instructions. Usually a subroutine should attempt to save (and later restore) any registers that it might need to use."|Code|"Charles Petzold"
+00:00|0000h|"These are called Restart instructions, and they're similar to Call instructions in that the current Program Counter is saved on the stack. But the Restart instructions then jump to specific locations: RST 0 jumps to address 0000h, RST 1 to address 0008h, and so forth, up to RST 7, which jumps to address 0038h. Located at these addresses are sections of code that deal with the interrupt. For example, an interrupt from the keyboard might cause a RST 4 instruction to be executed. At address 0020h begins some code to read a byte from the keyboard. (I'll explain this more fully in Chapter 21.)"|Code|"Charles Petzold"
+00:08|0008h|"These are called Restart instructions, and they're similar to Call instructions in that the current Program Counter is saved on the stack. But the Restart instructions then jump to specific locations: RST 0 jumps to address 0000h, RST 1 to address 0008h, and so forth, up to RST 7, which jumps to address 0038h. Located at these addresses are sections of code that deal with the interrupt. For example, an interrupt from the keyboard might cause a RST 4 instruction to be executed. At address 0020h begins some code to read a byte from the keyboard. (I'll explain this more fully in Chapter 21.)"|Code|"Charles Petzold"
+00:38|0038h|"These are called Restart instructions, and they're similar to Call instructions in that the current Program Counter is saved on the stack. But the Restart instructions then jump to specific locations: RST 0 jumps to address 0000h, RST 1 to address 0008h, and so forth, up to RST 7, which jumps to address 0038h. Located at these addresses are sections of code that deal with the interrupt. For example, an interrupt from the keyboard might cause a RST 4 instruction to be executed. At address 0020h begins some code to read a byte from the keyboard. (I'll explain this more fully in Chapter 21.)"|Code|"Charles Petzold"
+00:20|0020h|"These are called Restart instructions, and they're similar to Call instructions in that the current Program Counter is saved on the stack. But the Restart instructions then jump to specific locations: RST 0 jumps to address 0000h, RST 1 to address 0008h, and so forth, up to RST 7, which jumps to address 0038h. Located at these addresses are sections of code that deal with the interrupt. For example, an interrupt from the keyboard might cause a RST 4 instruction to be executed. At address 0020h begins some code to read a byte from the keyboard. (I'll explain this more fully in Chapter 21.)"|Code|"Charles Petzold"
+00:00|0000h|"Under the assumption that it's preferable to have just one unambiguous character encoding system that's suitable for all the world's languages, in 1988 several major computer companies got together and began developing an alternative to ASCII known as Unicode. Whereas ASCII is a 7-bit code, Unicode is a 16-bit code. Each and every character in Unicode requires 2 bytes. That means that Unicode has character codes ranging from 0000h through FFFFh and can represent 65,536 different characters. That's enough for all the world's languages that are likely to be used in computer communication, with room for expansion."|Code|"Charles Petzold"
+00:00|0000h|"Unicode doesn't start from scratch. The first 128 characters of Unicode—codes 0000h through 007Fh—are the same as the ASCII characters. Also, Unicode codes 00A0h through 00FFh are the same as the Latin Alphabet No. 1 extension of ASCII that I described earlier. Other worldwide standards are also incorporated into Unicode."|Code|"Charles Petzold"
+00:00|0000h|"Because the S-100 bus was designed for the 8080 chip, it has 16 address signals, 8 data input signals, and 8 data output signals. (As you'll recall, the 8080 itself combines the data input and data output signals. These signals are divided into separate input and output signals by other chips on the circuit board that contains the 8080.) The bus also includes 8 interrupt signals. These are signals generated by other devices when they need immediate attention from the CPU. For example (as we'll see later in this chapter), a keyboard might generate an interrupt signal when a key is pressed. A short program run by the 8080 can then determine what that key was and take some action. The board containing the 8080 also generally includes a chip called the Intel 8214 Priority Interrupt Control Unit to handle these interrupts. When an interrupt occurs, this chip generates an interrupt signal to the 8080. When the 8080 acknowledges the interrupt, the chip provides a RST (Restart) instruction that causes the microprocessor to save the current program counter and branch to address 0000h, 0008h, 0010h, 0018h, 0020h, 0028h, 0030h, or 0038h depending on the interrupt."|Code|"Charles Petzold"
+00:08|0008h|"Because the S-100 bus was designed for the 8080 chip, it has 16 address signals, 8 data input signals, and 8 data output signals. (As you'll recall, the 8080 itself combines the data input and data output signals. These signals are divided into separate input and output signals by other chips on the circuit board that contains the 8080.) The bus also includes 8 interrupt signals. These are signals generated by other devices when they need immediate attention from the CPU. For example (as we'll see later in this chapter), a keyboard might generate an interrupt signal when a key is pressed. A short program run by the 8080 can then determine what that key was and take some action. The board containing the 8080 also generally includes a chip called the Intel 8214 Priority Interrupt Control Unit to handle these interrupts. When an interrupt occurs, this chip generates an interrupt signal to the 8080. When the 8080 acknowledges the interrupt, the chip provides a RST (Restart) instruction that causes the microprocessor to save the current program counter and branch to address 0000h, 0008h, 0010h, 0018h, 0020h, 0028h, 0030h, or 0038h depending on the interrupt."|Code|"Charles Petzold"
+00:10|0010h|"Because the S-100 bus was designed for the 8080 chip, it has 16 address signals, 8 data input signals, and 8 data output signals. (As you'll recall, the 8080 itself combines the data input and data output signals. These signals are divided into separate input and output signals by other chips on the circuit board that contains the 8080.) The bus also includes 8 interrupt signals. These are signals generated by other devices when they need immediate attention from the CPU. For example (as we'll see later in this chapter), a keyboard might generate an interrupt signal when a key is pressed. A short program run by the 8080 can then determine what that key was and take some action. The board containing the 8080 also generally includes a chip called the Intel 8214 Priority Interrupt Control Unit to handle these interrupts. When an interrupt occurs, this chip generates an interrupt signal to the 8080. When the 8080 acknowledges the interrupt, the chip provides a RST (Restart) instruction that causes the microprocessor to save the current program counter and branch to address 0000h, 0008h, 0010h, 0018h, 0020h, 0028h, 0030h, or 0038h depending on the interrupt."|Code|"Charles Petzold"
+00:18|0018h|"Because the S-100 bus was designed for the 8080 chip, it has 16 address signals, 8 data input signals, and 8 data output signals. (As you'll recall, the 8080 itself combines the data input and data output signals. These signals are divided into separate input and output signals by other chips on the circuit board that contains the 8080.) The bus also includes 8 interrupt signals. These are signals generated by other devices when they need immediate attention from the CPU. For example (as we'll see later in this chapter), a keyboard might generate an interrupt signal when a key is pressed. A short program run by the 8080 can then determine what that key was and take some action. The board containing the 8080 also generally includes a chip called the Intel 8214 Priority Interrupt Control Unit to handle these interrupts. When an interrupt occurs, this chip generates an interrupt signal to the 8080. When the 8080 acknowledges the interrupt, the chip provides a RST (Restart) instruction that causes the microprocessor to save the current program counter and branch to address 0000h, 0008h, 0010h, 0018h, 0020h, 0028h, 0030h, or 0038h depending on the interrupt."|Code|"Charles Petzold"
+00:20|0020h|"Because the S-100 bus was designed for the 8080 chip, it has 16 address signals, 8 data input signals, and 8 data output signals. (As you'll recall, the 8080 itself combines the data input and data output signals. These signals are divided into separate input and output signals by other chips on the circuit board that contains the 8080.) The bus also includes 8 interrupt signals. These are signals generated by other devices when they need immediate attention from the CPU. For example (as we'll see later in this chapter), a keyboard might generate an interrupt signal when a key is pressed. A short program run by the 8080 can then determine what that key was and take some action. The board containing the 8080 also generally includes a chip called the Intel 8214 Priority Interrupt Control Unit to handle these interrupts. When an interrupt occurs, this chip generates an interrupt signal to the 8080. When the 8080 acknowledges the interrupt, the chip provides a RST (Restart) instruction that causes the microprocessor to save the current program counter and branch to address 0000h, 0008h, 0010h, 0018h, 0020h, 0028h, 0030h, or 0038h depending on the interrupt."|Code|"Charles Petzold"
+00:28|0028h|"Because the S-100 bus was designed for the 8080 chip, it has 16 address signals, 8 data input signals, and 8 data output signals. (As you'll recall, the 8080 itself combines the data input and data output signals. These signals are divided into separate input and output signals by other chips on the circuit board that contains the 8080.) The bus also includes 8 interrupt signals. These are signals generated by other devices when they need immediate attention from the CPU. For example (as we'll see later in this chapter), a keyboard might generate an interrupt signal when a key is pressed. A short program run by the 8080 can then determine what that key was and take some action. The board containing the 8080 also generally includes a chip called the Intel 8214 Priority Interrupt Control Unit to handle these interrupts. When an interrupt occurs, this chip generates an interrupt signal to the 8080. When the 8080 acknowledges the interrupt, the chip provides a RST (Restart) instruction that causes the microprocessor to save the current program counter and branch to address 0000h, 0008h, 0010h, 0018h, 0020h, 0028h, 0030h, or 0038h depending on the interrupt."|Code|"Charles Petzold"
+00:30|0030h|"Because the S-100 bus was designed for the 8080 chip, it has 16 address signals, 8 data input signals, and 8 data output signals. (As you'll recall, the 8080 itself combines the data input and data output signals. These signals are divided into separate input and output signals by other chips on the circuit board that contains the 8080.) The bus also includes 8 interrupt signals. These are signals generated by other devices when they need immediate attention from the CPU. For example (as we'll see later in this chapter), a keyboard might generate an interrupt signal when a key is pressed. A short program run by the 8080 can then determine what that key was and take some action. The board containing the 8080 also generally includes a chip called the Intel 8214 Priority Interrupt Control Unit to handle these interrupts. When an interrupt occurs, this chip generates an interrupt signal to the 8080. When the 8080 acknowledges the interrupt, the chip provides a RST (Restart) instruction that causes the microprocessor to save the current program counter and branch to address 0000h, 0008h, 0010h, 0018h, 0020h, 0028h, 0030h, or 0038h depending on the interrupt."|Code|"Charles Petzold"
+00:38|0038h|"Because the S-100 bus was designed for the 8080 chip, it has 16 address signals, 8 data input signals, and 8 data output signals. (As you'll recall, the 8080 itself combines the data input and data output signals. These signals are divided into separate input and output signals by other chips on the circuit board that contains the 8080.) The bus also includes 8 interrupt signals. These are signals generated by other devices when they need immediate attention from the CPU. For example (as we'll see later in this chapter), a keyboard might generate an interrupt signal when a key is pressed. A short program run by the 8080 can then determine what that key was and take some action. The board containing the 8080 also generally includes a chip called the Intel 8214 Priority Interrupt Control Unit to handle these interrupts. When an interrupt occurs, this chip generates an interrupt signal to the 8080. When the 8080 acknowledges the interrupt, the chip provides a RST (Restart) instruction that causes the microprocessor to save the current program counter and branch to address 0000h, 0008h, 0010h, 0018h, 0020h, 0028h, 0030h, or 0038h depending on the interrupt."|Code|"Charles Petzold"
+15:52|"8 to 16"|"Busses need to be upgraded or replaced when microprocessors outgrow them, either in data width (from 8 to 16 to 32 bits) or in the number of address signals they output. But microprocessors also outgrow busses when they achieve faster speeds. Early busses were designed for microprocessors operating at a clock speed of several megahertz rather than several hundred megahertz. When a bus isn't properly designed for high speeds, it can give off radio frequency interference (RFI) that causes static or other noise on nearby radios and television sets."|Code|"Charles Petzold"
+00:00|0000h|"The 10 address signals A0 through A9 are directly wired to the RAM chips. The address signals A10 and A11 select which of the four banks is being addressed. The address signals A12 through A15 determine which addresses apply to this particular board—in other words, the addresses that the board responds to. The 4-KB memory board we're designing can occupy one of 16 different 4-KB ranges in the entire 64-KB memory space of the microprocessor:
+0000h through 0FFFh, or
+1000h through 1FFFh, or"|Code|"Charles Petzold"
+10:00|1000h|"The 10 address signals A0 through A9 are directly wired to the RAM chips. The address signals A10 and A11 select which of the four banks is being addressed. The address signals A12 through A15 determine which addresses apply to this particular board—in other words, the addresses that the board responds to. The 4-KB memory board we're designing can occupy one of 16 different 4-KB ranges in the entire 64-KB memory space of the microprocessor:
+0000h through 0FFFh, or
+1000h through 1FFFh, or"|Code|"Charles Petzold"
+00:00|0000h|"0000h through 0FFFh, or
+1000h through 1FFFh, or
+2000h through 2FFFh, or"|Code|"Charles Petzold"
+10:00|1000h|"0000h through 0FFFh, or
+1000h through 1FFFh, or
+2000h through 2FFFh, or"|Code|"Charles Petzold"
+20:00|2000h|"0000h through 0FFFh, or
+1000h through 1FFFh, or
+2000h through 2FFFh, or"|Code|"Charles Petzold"
+10:00|1000h|"1000h through 1FFFh, or
+2000h through 2FFFh, or
+⋮"|Code|"Charles Petzold"
+20:00|2000h|"1000h through 1FFFh, or
+2000h through 2FFFh, or
+⋮"|Code|"Charles Petzold"
+"ap 03:20"|320|"Using these character definitions, you can fit 25 lines of 40 characters each on the 320 x 200 video display, which (for example) is enough to fit an entire short poem by Amy Lowell:"|Code|"Charles Petzold"
+"ap 07:59"|1-of-8|"If your keyboard has 64 keys, you need a 6-bit scan code. That would involve a 6-bit counter. You could arrange the keys in an 8x8 array, using a 3-to-8 Decoder and a 1-of-8 Selector. If your keyboard has between 65 and 128 keys, you need a 7-bit code. You could arrange the keys in an 8x16 array and use a 4-to-16 Decoder and an 8-to-1 Selector (or a 3-to-8 Decoder and a 16-to-1 Selector)."|Code|"Charles Petzold"
+00:00|0000h|"What we're missing here is software. When a microprocessor is first turned on or reset, it begins executing machine code at a particular memory address. In the case of the Intel 8080, that address is 0000h. In a properly designed computer, that memory address should contain a machine-code instruction (most likely the first of many) when the computer is turned on."|Code|"Charles Petzold"
+"ap 01:59"|"A to two"|"NibbleToAscii: CPI A,0Ah ; Check if it's a letter or number
+               JC Number
+               ADD A,37h ; A to F converted to 41h to 46h
+               RET
+Number:        ADD A,30h ; 0 to 9 converted to 30h to 39h
+               RETThis subroutine calls NibbleToAscii twice to convert a byte in accumulator A to two ASCII digits in registers B and C:"|Code|"Charles Petzold"
+00:08|0008h|"The key, of course, is the keyboard. We've constructed the computer keyboard so that every time a key is pressed, an interrupt to the microprocessor occurs. The interrupt controller chip that we've used in our computer causes the microprocessor to respond to this interrupt by executing a RST (Restart) instruction. Let's suppose that this is a RST 1 instruction. This instruction causes the microprocessor to save the current program counter on the stack and to jump to address 0008h. Beginning at that address, you'll enter some code (using the control panel) that we'll call the keyboard handler."|Code|"Charles Petzold"
+10:20|1020h|"W 1020 35 4F 78 23 9B AC 67This command instructs the command processor to write the hexadecimal bytes 35, 4F, and so on into the memory addresses beginning at address 1020h. For this job, the keyboard handler needs to convert ASCII codes to bytes—a reversal of the conversion I demonstrated earlier."|Code|"Charles Petzold"
+10:30|1030h|"D 1030The command processor responds by displaying the 11 bytes stored beginning at location 1030h. (I say 11 bytes because that's how many will fit on a 40-characterwide display on the same line following the address.) You can use the Display command to examine the contents of memory."|Code|"Charles Petzold"
+10:00|1000h|"R 1000and means ""Run the program that's stored beginning at address 1000h."" The command processor stores 1000h in the register pair HL and then executes the instruction PCHL, which loads the program counter from register pair HL, effectively jumping to that address."|Code|"Charles Petzold"
+00:00|0000h|"As you'll recall, we wired our RAM boards with a DIP switch that allows us to specify the starting address of the board. If you're working with an 8080 system, initially one of your RAM boards will be set for address 0000h. After you create a ROM, that ROM will occupy address 0000h and the RAM board can be switched to a higher address."|Code|"Charles Petzold"
+01:00|0100h|"If you type in a command that CP/M doesn't recognize, it assumes you're specifying the name of a program that's stored as a file on the disk. Programs always have the file type COM, which stands for Command. The CCP searches for a file of that name on the disk. If one exists, CP/M loads the file from disk into the Transient Program Area, which begins at memory address 0100h. This is how you run programs that are located on the disk. For example, if you type"|Code|"Charles Petzold"
+01:00|0100h|"CALCfollowing the CP/M prompt, and if a file named CALC.COM exists on the disk, the CCP loads that file into memory starting at address 0100h and then executes the program by jumping to the machine-code instruction located at address 0100h."|Code|"Charles Petzold"
+01:00|0100h|"Earlier I explained how you can insert machine-code instructions any-where into memory and execute them, but in CP/M programs that are stored in disk files must be designed to be loaded into memory beginning at a specific memory location, which is 0100h."|Code|"Charles Petzold"
+00:05|0005h|"What does CALL 5 actually do? The memory location at 0005h is set up by CP/M to contain a JMP (Jump) instruction, which jumps to a location in the Basic Disk Operating System (BDOS) of CP/M. This area contains a bunch of subroutines that execute each of the CP/M functions. The BDOS—as its name implies—is primarily responsible for maintaining the file system on the disk. Frequently, the BDOS has to make use of subroutines in the Basic Input/Output System (BIOS) of CP/M, which is the area that actually accesses the hardware of the keyboard, the video display, and the disk drives. In fact, the BIOS is the only section of CP/M that needs to know about the hardware of the computer. The CCP does everything it needs to do using BDOS functions, and so do the utilities that come with CP/M."|Code|"Charles Petzold"
+"ap 01:00"|1|"1 x 22 +0 x 21 +1 x 20 +1 x 2-1 +1 x 2-2 +0 x 2-3 +1 x 2-4Or the negative powers of two can be calculated by starting at 1 and repeatedly dividing by 2:"|Code|"Charles Petzold"
+"ap 02:00"|2|"In decimal scientific notation, the normalized significand should be greater than or equal to 1 but less than 10. Similarly, the normalized significand of numbers in binary scientific notation is always greater than or equal to 1 but less than binary 10, which is 2 in decimal. So in binary scientific notation, the number"|Code|"Charles Petzold"
+"ap 01:00"|1|"1.1111111111111111111111111111111111111111111111111111TWO x 21023The range is decimal in approximately 2.2250738585072014 x 10-308 to 1.7976931348623158 x 10308. Ten to the 308th power is a very big number. It's 1 followed by 308 decimal zeros."|Code|"Charles Petzold"
+01:00|0100h|"ORG 0100h
+      LXI DE, Text
+      MVI C,9
+      CALL 5
+      RET
+Text: DB 'Hello!$'
+      ENDThis file has a couple of statements we haven't seen before. The first one is an ORG (for origin) statement. This statement does not correspond to an 8080 instruction. Instead, it indicates that the address of the next statement is to begin at address 0100h, which you'll recall is the address where CP/M loads programs into memory."|Code|"Charles Petzold"
+01:09|0109h|"Notice how the assembler figures out that the LXI instruction must set the register pair DE to the address 0109h. If the LXI instruction itself is located at 0100h (as it is when CP/M loads the program into memory to run), address 0109h is where the text string begins. Generally a programmer using an assembler doesn't need to worry about the specific addresses associated with different parts of the program."|Code|"Charles Petzold"
+01:00|0100h|"Notice how the assembler figures out that the LXI instruction must set the register pair DE to the address 0109h. If the LXI instruction itself is located at 0100h (as it is when CP/M loads the program into memory to run), address 0109h is where the text string begins. Generally a programmer using an assembler doesn't need to worry about the specific addresses associated with different parts of the program."|Code|"Charles Petzold"
+"ap 02:59"|"a to 3"|"begin
+    real a, b;
+
+    for a := 3 step 2 until 99 do
+    begin
+        b := a x a x a;
+        print ('The cube of ', a, ' is ', b);
+    end
+endThe for statement initially sets the variable a to 3 and executes the block following the for statement. Then a is increased by the number following the step keyword, which is 2. The new value of a, which is 5, is used to execute the block. The variable a will continue to be increased by 2. When it exceeds 99, the for loop is completed."|Code|"Charles Petzold"
+"ap 02:00"|2|"begin
+    real a, b;
+
+    for a := 3 step 2 until 99 do
+    begin
+        b := a x a x a;
+        print ('The cube of ', a, ' is ', b);
+    end
+endThe for statement initially sets the variable a to 3 and executes the block following the for statement. Then a is increased by the number following the step keyword, which is 2. The new value of a, which is 5, is used to execute the block. The variable a will continue to be increased by 2. When it exceeds 99, the for loop is completed."|Code|"Charles Petzold"
+"ap 05:00"|5|"begin
+    real a, b;
+
+    for a := 3 step 2 until 99 do
+    begin
+        b := a x a x a;
+        print ('The cube of ', a, ' is ', b);
+    end
+endThe for statement initially sets the variable a to 3 and executes the block following the for statement. Then a is increased by the number following the step keyword, which is 2. The new value of a, which is 5, is used to execute the block. The variable a will continue to be increased by 2. When it exceeds 99, the for loop is completed."|Code|"Charles Petzold"
+00:00|000h|"An electrical current that represents sound isn't like the on-off digital signals that we've encountered throughout this book. Sound waves vary continuously, and so does the voltage of such a current. The electrical current is an analog of the sound waves. A device known as an analog-to-digital converter (ADC)—generally implemented in a chip—converts an analog voltage to a binary number. The output of an ADC is a certain number of digital signals—usually 8, 12, or 16—that together indicate the relative level of the voltage. A 12-bit ADC, for example, converts a voltage to a number between 000h and FFFh and can differentiate 4096 different voltage levels."|Code|"Charles Petzold"
+"ap < 02:00"|"just about 200"|"A movie file on a computer is simply a series of bitmaps with sound. But without compression, a movie file requires a huge amount of data. For example, consider a movie with each frame the size of a 640-by-480-pixel computer screen with 24-bit color. That's 921,600 bytes per frame. At 30 frames per second, we're up to 27,648,000 bytes per second. Keep multiplying and you get 1,658,880,000 bytes per minute, and 199,065,600,000 bytes—just about 200 gigabytes—for a two-hour movie. This is why most movies displayed on the personal computer are short, small, and jumpy."|Code|"Charles Petzold"
+"ap 03:00"|300|"In early modems, a technique called frequency-shift keying (FSK) was used. A modem operating at 300 bits per second (for example) might convert a 0 bit to a frequency of 1070 Hz and a 1 bit to a frequency of 1270 Hz. Each byte is prefaced by a start bit and concluded with a stop bit, so each byte requires 10 bits. At 300 bits per second, the transmission speed is only 30 bytes per second. More modern modems use more sophisticated techniques to achieve speeds over 100 times that."|Code|"Charles Petzold"

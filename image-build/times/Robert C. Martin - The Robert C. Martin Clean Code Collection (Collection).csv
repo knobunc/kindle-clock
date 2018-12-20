@@ -1,0 +1,200 @@
+"~ 20:00"|"around 1960"|"• Seiri, or organization (think “sort” in English). Knowing where things are—using approaches such as suitable naming—is crucial. You think naming identifiers isn’t important? Read on in the following chapters.• Seiton, or tidiness (think “systematize” in English). There is an old American saying: A place for everything, and everything in its place. A piece of code should be where you expect to find it—and, if not, you should re-factor to get it there.• Seiso, or cleaning (think “shine” in English): Keep the workplace free of hanging wires, grease, scraps, and waste. What do the authors here say about littering your code with comments and commented-out code lines that capture history or wishes for the future? Get rid of them.• Seiketsu, or standardization: The group agrees about how to keep the workplace clean. Do you think this book says anything about having a consistent coding style and set of practices within the group? Where do those standards come from? Read on.• Shutsuke, or discipline (self-discipline). This means having the discipline to follow the practices and to frequently reflect on one’s work and be willing to change.If you take up the challenge—yes, the challenge—of reading and applying this book, you’ll come to understand and appreciate the last point. Here, we are finally driving to the roots of responsible professionalism in a profession that should be concerned with the life cycle of a product. As we maintain automobiles and other machines under TPM, breakdown maintenance—waiting for bugs to surface—is the exception. Instead, we go up a level: inspect the machines every day and fix wearing parts before they break, or do the equivalent of the proverbial 10,000-mile oil change to forestall wear and tear. In code, refactor mercilessly. You can improve yet one level further, as the TPM movement innovated over 50 years ago: build machines that are more maintainable in the first place. Making your code readable is as important as making it executable. The ultimate practice, introduced in TPM circles around 1960, is to focus on introducing entire new machines or replacing old ones. As Fred Brooks admonishes us, we should probably re-do major software chunks from scratch every seven years or so to sweep away creeping cruft. Perhaps we should update Brooks’ time constant to an order of weeks, days or hours instead of years. That’s where detail lies."|"The Robert C. Martin Clean Code Collection (Collection)"|"Robert C. Martin"
+16:50|"Ten of 17"|"Likewise, say you invented a MailingAddress class in GSD’s accounting module, and you named it GSDAccountAddress. Later, you need a mailing address for your customer contact application. Do you use GSDAccountAddress? Does it sound like the right name? Ten of 17 characters are redundant or irrelevant."|"The Robert C. Martin Clean Code Collection (Collection)"|"Robert C. Martin"
+22:18|22:18|"MockRequest request;
+   private final String HTTP_DATE_REGEXP =
+     “[SMTWF][a-z]{2}\\,\\s[0-9]{2}\\s[JFMASOND][a-z]{2}\\s”+
+     “[0-9]{4}\\s[0-9]{2}\\:[0-9]{2}\\:[0-9]{2}\\sGMT”;
+   private Response response;
+   private FitNesseContext context;
+   private FileResponder responder;
+   private Locale saveLocale;
+   // Example: ”Tue, 02 Apr 2003 22:18:49 GMT”"|"The Robert C. Martin Clean Code Collection (Collection)"|"Robert C. Martin"
+"ap 02:00"|2|"Listing 4-7 GeneratePrimes.java   /**
+    * This class Generates prime numbers up to a user specified
+    * maximum.  The algorithm used is the Sieve of Eratosthenes.
+    * <p>
+    * Eratosthenes of Cyrene, b. c. 276 BC, Cyrene, Libya --
+    * d. c. 194, Alexandria.  The first man to calculate the
+    * circumference of the Earth.  Also known for working on
+    * calendars with leap years and ran the library at Alexandria.
+    * <p>
+    * The algorithm is quite simple.  Given an array of integers
+    * starting at 2.  Cross out all multiples of 2.  Find the next
+    * uncrossed integer, and cross out all of its multiples.
+    * Repeat untilyou have passed the square root of the maximum
+    * value.
+    *
+    * @author Alphonse
+    * @version 13 Feb 2002 atp
+    */
+   import java.util.*;
+   
+   public class GeneratePrimes
+   {
+     /**
+      * @param maxValue is the generation limit.
+      */
+     public static int[] generatePrimes(int maxValue)
+     {
+       if (maxValue >= 2) // the only valid case
+       {
+         // declarations
+         int s = maxValue + 1; // size of array
+         boolean[] f = new boolean[s];
+         int i;
+         // initialize array to true.
+         for (i = 0; i < s; i++)
+           f[i] = true;
+   
+         // get rid of known non-primes
+         f[0] = f[1] = false;
+   
+         // sieve
+         int j;
+         for (i = 2; i < Math.sqrt(s) + 1; i++)
+         {
+           if (f[i]) // if i is uncrossed, cross its multiples.
+           {
+             for (j = 2 * i; j < s; j += i)
+               f[j] = false; // multiple is not prime
+           }
+         }
+   
+         // how many primes are there?
+         int count = 0;
+         for (i = 0; i < s; i++)
+         {
+           if (f[i])
+             count++; // bump count.
+         }
+   
+         int[] primes = new int[count];
+   
+         // move the primes into the result
+         for (i = 0, j = 0; i < s; i++)
+         {
+           if (f[i])  // if prime
+             primes[j++] = i;
+         }
+   
+         return primes;  // return the primes
+       }
+       else // maxValue < 2
+         return new int[0]; // return null array if bad input.
+     }
+   }"|"The Robert C. Martin Clean Code Collection (Collection)"|"Robert C. Martin"
+"ap 02:00"|2|"Listing 4-8 PrimeGenerator.java (refactored)   /**
+    * This class Generates prime numbers up to a user specified
+    * maximum.  The algorithm used is the Sieve of Eratosthenes.
+    * Given an array of integers starting at 2:
+    * Find the first uncrossed integer, and cross out all its
+    * multiples.  Repeat until there are no more multiples
+    * in the array.
+    */
+   
+   public class PrimeGenerator
+   {
+     private static boolean[] crossedOut;
+     private static int[] result;
+   
+     public static int[] generatePrimes(int maxValue)
+     {
+       if (maxValue < 2)
+         return new int[0];
+       else
+       {
+         uncrossIntegersUpTo(maxValue);
+         crossOutMultiples();
+         putUncrossedIntegersIntoResult();
+         return result;
+       }
+     }
+   
+     private static void uncrossIntegersUpTo(int maxValue)
+     {
+       crossedOut = new boolean[maxValue + 1];
+       for (int i = 2; i < crossedOut.length; i++)
+         crossedOut[i] = false;
+     }
+   
+     private static void crossOutMultiples()
+     {
+       int limit = determineIterationLimit();
+       for (int i = 2; i <= limit; i++)
+         if (notCrossed(i))
+           crossOutMultiplesOf(i);
+     }
+   
+     private static int determineIterationLimit()
+     {
+       // Every multiple in the array has a prime factor that
+       // is less than or equal to the root of the array size,
+       // so we don’t have to cross out multiples of numbers
+       // larger than that root.
+       double iterationLimit = Math.sqrt(crossedOut.length);
+       return (int) iterationLimit;
+     }
+   
+     private static void crossOutMultiplesOf(int i)
+     {
+       for (int multiple = 2*i;
+            multiple < crossedOut.length;
+            multiple += i)
+         crossedOut[multiple] = true;
+     }
+   
+     private static boolean notCrossed(int i)
+     {
+       return crossedOut[i] == false;
+     }
+   
+     private static void putUncrossedIntegersIntoResult()
+     {
+       result = new int[numberOfUncrossedIntegers()];
+       for (int j = 0, i = 2; i < crossedOut.length; i++)
+         if (notCrossed(i))
+           result[j++] = i;
+     }
+   
+     private static int numberOfUncrossedIntegers()
+     {
+       int count = 0;
+       for (int i = 2; i < crossedOut.length; i++)
+         if (notCrossed(i))
+           count++;
+   
+       return count;
+     }
+   }"|"The Robert C. Martin Clean Code Collection (Collection)"|"Robert C. Martin"
+"ap 01:00"|1|"This is much better. It exposes that the suffixIndex is really the length of the suffix and is not well named. The same is true of the prefixIndex, though in that case “index” and “length” are synonymous. Even so, it is more consistent to use “length.” The problem is that the suffixIndex variable is not zero based; it is 1 based and so is not a true length. This is also the reason that there are all those +1s in computeCommonSuffix [G33]. So let’s fix that. The result is in Listing 15-4."|"The Robert C. Martin Clean Code Collection (Collection)"|"Robert C. Martin"
+00:00|midnight|"Sometimes you can set things up such that the failure causes no harm. For example, the above client could catch the exception and clean up. Frankly, this is a bit sloppy. It’s rather like cleaning up memory leaks by rebooting at midnight."|"The Robert C. Martin Clean Code Collection (Collection)"|"Robert C. Martin"
+"ap 01:00"|1|"1. I recently rewrote this module in Ruby. It was 1/7th the size and had a subtly better structure."|"The Robert C. Martin Clean Code Collection (Collection)"|"Robert C. Martin"
+13:00|"1:00 PM"|"It was Friday at 1:00 PM; the web site was set to go live very early the following Monday."|"The Robert C. Martin Clean Code Collection (Collection)"|"Robert C. Martin"
+11:39|"11:39 AM"|"At 11:39 AM EST on January 28, 1986, just 73.124 seconds after launch and at an altitude of 48,000 feet, the Space Shuttle Challenger was torn to smithereens by the failure of the right-hand solid rocket booster (SRB). Seven brave astronauts, including high school teacher Christa McAuliffe, were lost. The expression on the face of McAuliffe’s mother as she watched the demise of her daughter nine miles overhead haunts me to this day."|"The Robert C. Martin Clean Code Collection (Collection)"|"Robert C. Martin"
+"ap 10:00"|10|"After school, Tim and I would dial up the computer (by tapping of course), load the tapes into the IITran batch system, and then hang up. At 10 characters per second, this was not a quick procedure. An hour or so later, we’d call back and get the printouts, again at 10 characters per second. The Teletype did not separate the students’ listings by ejecting pages. It just printed one after the next after the next, so we cut them apart using scissors, paper-clipped their input paper tape to their listing, and put them in the output basket."|"The Robert C. Martin Clean Code Collection (Collection)"|"Robert C. Martin"
+03:00|"3 AM"|"I stayed up till 3 AM every night eating pizza and watching old monster movies on my parents’ old black-and-white, rabbit-ear TV. Only some of the ghosts where characters in the movies. I stayed in bed till 1 PM because I didn’t want to face my dreary days. I took a calculus course at a local community college and failed it. I was a wreck."|"The Robert C. Martin Clean Code Collection (Collection)"|"Robert C. Martin"
+13:00|"1 PM"|"I stayed up till 3 AM every night eating pizza and watching old monster movies on my parents’ old black-and-white, rabbit-ear TV. Only some of the ghosts where characters in the movies. I stayed in bed till 1 PM because I didn’t want to face my dreary days. I took a calculus course at a local community college and failed it. I was a wreck."|"The Robert C. Martin Clean Code Collection (Collection)"|"Robert C. Martin"
+12:00|noon|"• If you set a meeting for noon at a cafe downtown with a colleague and you get stuck in traffic, you doubt you’ll be able to follow through on your commitment to be there on time. You can call your colleague as soon as you realize you might be late, and let them know. Maybe you can find a closer place to meet, or perhaps postpone the meeting.• If you committed to solving a bug you thought was solvable and you realize at some point the bug is much more hideous than previously thought, you can raise the flag. The team can then decide on a course of action to make that commitment (pairing, spiking on potential solutions, brainstorming) or change the priority and move you over to another simpler bug.One important point here is: If you don’t tell anyone about the potential problem as soon as possible, you’re not giving anyone a chance to help you follow through on your commitment."|"The Robert C. Martin Clean Code Collection (Collection)"|"Robert C. Martin"
+03:00|"3 AM"|"If you are tired or distracted, do not code. You’ll only wind up redoing what you did. Instead, find a way to eliminate the distractions and settle your mind.
+3 AM Code
+The worst code I ever wrote was at 3 AM. The year was 1988, and I was working at a telecommunications start-up named Clear Communications. We were all putting in long hours in order to build “sweat equity.” We were, of course, all dreaming of being rich."|"The Robert C. Martin Clean Code Collection (Collection)"|"Robert C. Martin"
+03:00|"3 AM"|"The worst code I ever wrote was at 3 AM. The year was 1988, and I was working at a telecommunications start-up named Clear Communications. We were all putting in long hours in order to build “sweat equity.” We were, of course, all dreaming of being rich."|"The Robert C. Martin Clean Code Collection (Collection)"|"Robert C. Martin"
+03:00|"3 AM"|"One very late evening—or rather, one very early morning, in order to solve a timing problem—I had my code send a message to itself through the event dispatch system (we called this “sending mail”). This was the wrong solution, but at 3 AM it looked pretty damned good. Indeed, after 18 hours of solid coding (not to mention the 60–70 hour weeks) it was all I could think of."|"The Robert C. Martin Clean Code Collection (Collection)"|"Robert C. Martin"
+03:00|"3 AM"|"I remember feeling so good about myself for the long hours I was working. I remember feeling dedicated. I remember thinking that working at 3 AM is what serious professionals do. How wrong I was!"|"The Robert C. Martin Clean Code Collection (Collection)"|"Robert C. Martin"
+03:00|"3 AM"|"That code came back to bite us over and over again. It instituted a faulty design structure that everyone used but consistently had to work around. It caused all kinds of strange timing errors and odd feedback loops. We’d get into infinite mail loops as one message caused another to be sent, and then another, infinitely. We never had time to rewrite this wad (so we thought) but we always seemed to have time to add another wart or patch to work around it. The cruft grew and grew, surrounding that 3 AM code with ever more baggage and side effects. Years later it had become a team joke. Whenever I was tired or frustrated they’d say, “Look out! Bob’s about to send mail to himself!”"|"The Robert C. Martin Clean Code Collection (Collection)"|"Robert C. Martin"
+12:00|noon|"Nowadays when I feel myself slipping into the Zone, I walk away for a few minutes. I clear my head by answering a few emails or looking at some tweets. If it’s close enough to noon, I’ll break for lunch. If I’m working on a team, I’ll find a pair partner."|"The Robert C. Martin Clean Code Collection (Collection)"|"Robert C. Martin"
+10:00|"10 AM"|"This doesn’t mean that you don’t need some alone time. Of course you do. But you have to be fair and polite about it. For example, you can let it be known that between the hours of 10 AM and noon you should not be bothered, but from 1 PM to 3 PM your door is open."|"The Robert C. Martin Clean Code Collection (Collection)"|"Robert C. Martin"
+12:00|noon|"This doesn’t mean that you don’t need some alone time. Of course you do. But you have to be fair and polite about it. For example, you can let it be known that between the hours of 10 AM and noon you should not be bothered, but from 1 PM to 3 PM your door is open."|"The Robert C. Martin Clean Code Collection (Collection)"|"Robert C. Martin"
+13:00|"1 PM"|"This doesn’t mean that you don’t need some alone time. Of course you do. But you have to be fair and polite about it. For example, you can let it be known that between the hours of 10 AM and noon you should not be bothered, but from 1 PM to 3 PM your door is open."|"The Robert C. Martin Clean Code Collection (Collection)"|"Robert C. Martin"
+15:00|"3 PM"|"This doesn’t mean that you don’t need some alone time. Of course you do. But you have to be fair and polite about it. For example, you can let it be known that between the hours of 10 AM and noon you should not be bothered, but from 1 PM to 3 PM your door is open."|"The Robert C. Martin Clean Code Collection (Collection)"|"Robert C. Martin"
+12:00|Noon|"Sam (stakeholder): “OK, now these log files need to be backed up.”Paula: “OK, how often?”Sam: “Daily.”Paula: “Right. And where do you want it saved?”Sam: “What do you mean?”Paula: “Do you want me to save it a particular sub-directory?”Sam: “Yes, that’d be good.”Paula: “What shall we call it?”Sam: “How about ‘backup’?”Paula: “Sure, that’d be fine. So we’ll write the log file into the backup directory every day. What time?”Sam: “Every day.”Paula: “No, I mean what time of day do you want it written?”Sam: “Any time.”Paula: “Noon?”Sam: “No, not during trading hours. Midnight would be better.”Paula: “OK, midnight then.”Sam: “Great, thanks!”Paula: “Always a pleasure.”Later, Paula is telling her teammate Peter about the task."|"The Robert C. Martin Clean Code Collection (Collection)"|"Robert C. Martin"
+00:00|Midnight|"Sam (stakeholder): “OK, now these log files need to be backed up.”Paula: “OK, how often?”Sam: “Daily.”Paula: “Right. And where do you want it saved?”Sam: “What do you mean?”Paula: “Do you want me to save it a particular sub-directory?”Sam: “Yes, that’d be good.”Paula: “What shall we call it?”Sam: “How about ‘backup’?”Paula: “Sure, that’d be fine. So we’ll write the log file into the backup directory every day. What time?”Sam: “Every day.”Paula: “No, I mean what time of day do you want it written?”Sam: “Any time.”Paula: “Noon?”Sam: “No, not during trading hours. Midnight would be better.”Paula: “OK, midnight then.”Sam: “Great, thanks!”Paula: “Always a pleasure.”Later, Paula is telling her teammate Peter about the task."|"The Robert C. Martin Clean Code Collection (Collection)"|"Robert C. Martin"
+00:00|midnight|"Paula: “OK, we need to copy the log file into a sub-directory named backup every night at midnight.”Peter: “OK, what file name should we use?”Paula: “log.backup ought to do it.”Peter: “You got it.”In a different office, Sam is on the phone with his customer."|"The Robert C. Martin Clean Code Collection (Collection)"|"Robert C. Martin"
+00:00|midnight|"Sam: “Yes, yes, the log files will be saved.”Carl: “OK, it’s vital that we never lose any logs. We need to go back through all those log files, even months or years later, whenever there’s an outage, event, or dispute.”Sam: “Don’t worry, I just spoke to Paula. She’ll be saving the logs into a directory named backup every night at midnight.”Carl: “OK, that sounds good.”I presume you’ve detected the ambiguity. The customer expects all log files to be saved, and Paula simply thought they wanted to save last night’s log file. When the customer goes looking for months’ worth of log file backups, they’ll just find last night’s."|"The Robert C. Martin Clean Code Collection (Collection)"|"Robert C. Martin"
+06:00|"6 AM"|"• I awoke at 5 every morning and rode my bicycle to the office in Bracknell by 6 AM. That gave me  hours of quiet time before the chaos of the day began.• Upon arrival I would write a schedule on my board. I divided time into 15-minute increments and filled in the activity I would work on during that block of time.• I completely filled the first 3 hours of that schedule. Starting at 9 AM I started leaving one 15-minute gap per hour; that way I could quickly push most interruptions into one of those open slots and continue working.• I left the time after lunch unscheduled because I knew that by then all hell would have broken loose and I’d have to be in reactive mode for the rest of the day. During those rare afternoon periods that the chaos did not intrude, I simply worked on the most important thing until it did.This scheme did not always succeed. Waking up at 5 AM was not always feasible, and sometimes the chaos broke through all my careful strategies and consumed my day. But for the most part I was able to keep my head above water."|"The Robert C. Martin Clean Code Collection (Collection)"|"Robert C. Martin"
+09:00|"9 AM"|"• I awoke at 5 every morning and rode my bicycle to the office in Bracknell by 6 AM. That gave me  hours of quiet time before the chaos of the day began.• Upon arrival I would write a schedule on my board. I divided time into 15-minute increments and filled in the activity I would work on during that block of time.• I completely filled the first 3 hours of that schedule. Starting at 9 AM I started leaving one 15-minute gap per hour; that way I could quickly push most interruptions into one of those open slots and continue working.• I left the time after lunch unscheduled because I knew that by then all hell would have broken loose and I’d have to be in reactive mode for the rest of the day. During those rare afternoon periods that the chaos did not intrude, I simply worked on the most important thing until it did.This scheme did not always succeed. Waking up at 5 AM was not always feasible, and sometimes the chaos broke through all my careful strategies and consumed my day. But for the most part I was able to keep my head above water."|"The Robert C. Martin Clean Code Collection (Collection)"|"Robert C. Martin"
+05:00|"5 AM"|"• I awoke at 5 every morning and rode my bicycle to the office in Bracknell by 6 AM. That gave me  hours of quiet time before the chaos of the day began.• Upon arrival I would write a schedule on my board. I divided time into 15-minute increments and filled in the activity I would work on during that block of time.• I completely filled the first 3 hours of that schedule. Starting at 9 AM I started leaving one 15-minute gap per hour; that way I could quickly push most interruptions into one of those open slots and continue working.• I left the time after lunch unscheduled because I knew that by then all hell would have broken loose and I’d have to be in reactive mode for the rest of the day. During those rare afternoon periods that the chaos did not intrude, I simply worked on the most important thing until it did.This scheme did not always succeed. Waking up at 5 AM was not always feasible, and sometimes the chaos broke through all my careful strategies and consumed my day. But for the most part I was able to keep my head above water."|"The Robert C. Martin Clean Code Collection (Collection)"|"Robert C. Martin"
+02:00|"2 AM"|"I was the development manager telling the programmers who worked for me that they had to work more and faster. I was one of the 80-hour guys, writing 3,000-line C functions at 2 AM while my children slept at home without their father in the house. I was the one who threw the pens and shouted. I got people fired if they didn’t shape up. It was awful. I was awful."|"The Robert C. Martin Clean Code Collection (Collection)"|"Robert C. Martin"
+03:00|"3 AM"|"Thomas, Dave, 84
+3 AM code, 53–54
+Time, debugging, 63"|"The Robert C. Martin Clean Code Collection (Collection)"|"Robert C. Martin"

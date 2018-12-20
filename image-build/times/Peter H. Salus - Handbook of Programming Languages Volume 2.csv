@@ -1,0 +1,3843 @@
+"ap 01:44"|0144|"Integer constants are indicated in the obvious way by simple digit sequences: 0, 1, 23, 456. Integer constants are in decimal (base 10) by default, but may be entered in octal (base 8) by prepending a leading 0 (digit zero), or in hexadecimal (base 16) by prepending a leading 0x or 0X. (The hexadecimal digits are 0–9 and the letters a–f or A–F). Thus, 010 and 0377 are octal constants, and 0x10, 0x1abc, and 0XFEED are hexadecimal constants. The constants 100, 0144, and 0x64 all have the same value, one hundred decimal."|"Handbook of Programming Languages Volume 2"|"Peter H. Salus"
+"ap 09:59"|"a of 10"|"int a[10];
+
+
+declares an array a of 10 ints. All arrays in C are 0-based, so the 10 elements of the array a are numbered from 0 to 9."|"Handbook of Programming Languages Volume 2"|"Peter H. Salus"
+"ap 03:14"|3.14|"printf(“%d, %5d, %-5d, %05d, %5.5d\n”, 1, 2, 3, 4, 5);
+printf(“%o %x %X %#o %#x\n”, 171, 171, 171, 171, 171);
+printf(“%f %e %g\n”, 3.14, 3.14, 3.14);
+printf(“%s, %.5s!\n”, “Hello”, “worldly”);
+printf(“%0*d, %.*f, %*.*s\n”, 2, 3, 4, 5.6, 7, 3, “abcdef”);
+
+
+Those calls print these five lines:"|"Handbook of Programming Languages Volume 2"|"Peter H. Salus"
+"ap 07:50"|07:50|"Tue Oct 28 07:50:28 1997\n\0
+
+
+(and is therefore equivalent to calling strftime with the format string “%a %b %m %H:%M:%S %Y\n”). asctime builds the string from the information in the tm structure pointed to by tp. ctime builds the string from the time_t value pointed to by t; it is equivalent to asctime(localtime(t)). The return pointer is to a static string that is overwritten by each call."|"Handbook of Programming Languages Volume 2"|"Peter H. Salus"
+"ap 02:10"|2:10|"time_t mktime(struct tm *tp)
+
+
+mktime attempts to compute the time_t value corresponding to the local date and time represented by the tm structure pointed to by tp. The date is determined by tm_mon and tm_mday; tm_wday and tm_yday are ignored on input. If tm_isdst is negative, mktime attempts to determine whether DST will or would have applied on the given date, and act accordingly; if tm_isdst is positive or zero, the caller is asserting that the given time does or does not have a DST offset applied, respectively. If any of tm_sec, tm_min, tm_hour, tm_mday, or tm_mon has a value outside the expected range, mktime normalizes them in the process of computing a date (and also adjusts their values in *tp). For example, 25:70 on January 32 is converted to 2:10 on February 2. Finally, appropriate values of tm_wday and tm_yday are set in *tp. The return value is the converted time_t value, or -1 if the conversion is impossible (e.g., the date represented by the tm structure is outside the range representable by a time_t)."|"Handbook of Programming Languages Volume 2"|"Peter H. Salus"
+"ap ~ 09:50"|"about 10 to 10"|"•  byte—regular storage for a byte of data: 0 to 255; 1 byte storage
+•  word—regular storage for a word of data: 0 to 65,535; 2 bytes storage
+•  integer—signed numerical storage: –32,767 to 32,768; 2 bytes storage
+•  longint—signed numerical storage with an even larger range than integer: 4 bytes storage
+•  real—scientific number, 11 digits precision, storage from about 10 to 10, 6 bytes storage
+
+Some of the numeric types involve use of the numeric co-processor or runtime emulation routines that are inherent to Turbo Pascal. What you may want to use in this case is something referred to as a compiler directive to determine which way TP handles these kinds of numeric types. Compiler directives are commented codes that appear in a source program, generally at the beginning. Relevant compiler directives in this case are $N and $E. The defaults are $N- and $E+, which uses emulation by default. The + condition on each of these compiler directives signals to use either the numeric co-processor (N) or the emulation (E), whereas the - condition disables use of either."|"Handbook of Programming Languages Volume 2"|"Peter H. Salus"
+"ap 06:22"|6.22|"function Diskfree(diskno: byte): longint; { works as intended, ineffective for drives }
+function Disksize(diskno: byte): longint; { > 1 GB }
+var dosversion: word; { if DOS 6.22, Hi(dosversion) = 22, Lo(dosversion) = 6 }
+var EnvCount: integer; { total number of environment variables }
+function EnvStr(index: integer):string; { returns the env. string designated as index }
+function FSearch(filename:PathStr; dirlist: string):pathstr; { searches for filename in path given by dirlist }
+procedure FSplit(Path: PathStr; dir: dirstr; name: namestr; ext: extstr); { splits a filename up into a directory, name, and extension }
+procedure Getdate(year, month, day, dayofweek: word); { Returns current date as set in the operating system }
+function Getenv(stringname: string):string; { returns environment variable specified by name }
+procedure GetFattr(file: <filevar>; attr: word); { obtains the attributes of a file in F }
+procedure GetFtime(file: <filevar>; time: longint); { obtain packed date and time of file }
+procedure GetTime(Hour, Minute, Second, Sec100: word); { gets current time in OS }
+procedure PackTime(dnt: datetime; time: longint); { packs datetime record into time longint }
+procedure SetDate(year, month, day: word); { sets date in OS }
+procedure SetFTime(file: <filevar>; time: longint); { sets file to time specified }
+procedure SetTime(hour, minute, second, sec100: word); { sets time in OS }
+procedure UnPackTime(time: longint; dnt: datetime); { unpacks longint time to datetime record }
+
+Procedures that need further explanation than what can be obtained from the preceding list are further described. For any spots at which a file variable occurs, the file must be assigned but unopened. The longint time variable is a packed longint. To be read or set, it must be unpacked and packed. The datetime record is predefined for that purpose. It is as described here:"|"Handbook of Programming Languages Volume 2"|"Peter H. Salus"
+00:00|0|"datetime = record
+        year, month, day, hour, minute, second: word;
+
+
+In most of these functions and procedures, the variable doserror is set away from 0, which may be used to check for the successfulness of the statement issued. Otherwise, if this is not the case, the IOResult variable method may be used. Also, the DiskSize and DiskFree functions take a numerical value for a drive, where 0 = current drive, 1 = A, 2 = B, 3 = C, and so forth."|"Handbook of Programming Languages Volume 2"|"Peter H. Salus"
+"ap 01:00"|1|"Positions in strings are between characters, numbered starting at 1 before the first character, and there is a position after the last character, as shown by this example:"|"Handbook of Programming Languages Volume 2"|"Peter H. Salus"
+"ap 01:00"|1|"Every structure has a serial number, and each structure type has a separate series of serial numbers. Serial numbers start at 1 for the first structure created of that type and increase as new structures are created. Each record type has its own series."|"Handbook of Programming Languages Volume 2"|"Peter H. Salus"
+00:00|0|"Because pixel numbering starts at 0, the lower-right pixel in the window shown is numbered (499,199)."|"Handbook of Programming Languages Volume 2"|"Peter H. Salus"
+00:00|midnight|"The sequence for the triangular numbers can be produced simply by using the formula i(i + 1)/2, incrementing i at each step as in previous expressions. There is an easier approach, however, and one that’s recommended for unknown sequences: Take the first difference of successive terms and see if it suggests something. In the case here, the first difference yields 2, 3, 4, 5, 6, …. In other words, if t(i) is the ith triangular number, then
+
+    t(i) = t(i – 1) + i
+
+
+
+From this, a sequence to generate the triangular numbers is just
+
+    (i := 1) | (i +:= seq(2))
+
+
+36.  An infinite sequence consisting of the prime numbers: 2, 3, 5, 7, 11, 13, ….
+
+Solution: Although there is no known method for computing primes efficiently in sequence, a brute-force method is simple: Just generate all the integers and filter out those that are not prime. The trivial observation that 2 is the only even prime leads to the following expression:
+
+    2 | ((i := seq(3, 2)) & (not(i = (2 to i) * (2 to i))) & i)
+
+
+
+The second operand of the conjunction, not(i = (2 to i) * (2 to i)), fails if i cannot be represented as the product of two integers. Otherwise, the result of the expression is just i, the third operand of the conjunction. It is, of course, not necessary to check all the way to i * i. A much better test is
+
+    not(i = (k := (3 to sqrt(i) by 2)) * (i / k))
+
+
+37.  An infinite sequence consisting of n copies of each positive integer n: 1, 2, 2, 3, 3, 3, 4, 4, 4, 4, ….
+
+Solution: This one is entirely different from the preceding exercises. This solution uses limitation in combination with repeated alternation:
+
+    i := seq() & (|i \ i)
+
+
+38.  A sequence consisting of strings representing the times in minutes in the 24-hour day, starting at midnight and ending at the minute before midnight: “00:00”, “00:01”, … “00:59”, “01:00”, … “23:59”.
+
+Solution: The solution to this problem has two components: a generator for the hours and a generator for the minutes. 0 to 23 generates the hours, and 0 to 59 generates the minutes, but the values need to be padded with zeros:
+
+    right(0 to 23, 2, “0”)
+    right(0 to 59, 2, “0”)
+
+
+
+All that remains is a concatenation with colons added as separators:
+
+    right(0 to 23, 2, “0”) || “:” ||
+       right(0 to 59, 2, “0”)"|"Handbook of Programming Languages Volume 2"|"Peter H. Salus"
+"< 00:00"|"before midnight"|"The sequence for the triangular numbers can be produced simply by using the formula i(i + 1)/2, incrementing i at each step as in previous expressions. There is an easier approach, however, and one that’s recommended for unknown sequences: Take the first difference of successive terms and see if it suggests something. In the case here, the first difference yields 2, 3, 4, 5, 6, …. In other words, if t(i) is the ith triangular number, then
+
+    t(i) = t(i – 1) + i
+
+
+
+From this, a sequence to generate the triangular numbers is just
+
+    (i := 1) | (i +:= seq(2))
+
+
+36.  An infinite sequence consisting of the prime numbers: 2, 3, 5, 7, 11, 13, ….
+
+Solution: Although there is no known method for computing primes efficiently in sequence, a brute-force method is simple: Just generate all the integers and filter out those that are not prime. The trivial observation that 2 is the only even prime leads to the following expression:
+
+    2 | ((i := seq(3, 2)) & (not(i = (2 to i) * (2 to i))) & i)
+
+
+
+The second operand of the conjunction, not(i = (2 to i) * (2 to i)), fails if i cannot be represented as the product of two integers. Otherwise, the result of the expression is just i, the third operand of the conjunction. It is, of course, not necessary to check all the way to i * i. A much better test is
+
+    not(i = (k := (3 to sqrt(i) by 2)) * (i / k))
+
+
+37.  An infinite sequence consisting of n copies of each positive integer n: 1, 2, 2, 3, 3, 3, 4, 4, 4, 4, ….
+
+Solution: This one is entirely different from the preceding exercises. This solution uses limitation in combination with repeated alternation:
+
+    i := seq() & (|i \ i)
+
+
+38.  A sequence consisting of strings representing the times in minutes in the 24-hour day, starting at midnight and ending at the minute before midnight: “00:00”, “00:01”, … “00:59”, “01:00”, … “23:59”.
+
+Solution: The solution to this problem has two components: a generator for the hours and a generator for the minutes. 0 to 23 generates the hours, and 0 to 59 generates the minutes, but the values need to be padded with zeros:
+
+    right(0 to 23, 2, “0”)
+    right(0 to 59, 2, “0”)
+
+
+
+All that remains is a concatenation with colons added as separators:
+
+    right(0 to 23, 2, “0”) || “:” ||
+       right(0 to 59, 2, “0”)"|"Handbook of Programming Languages Volume 2"|"Peter H. Salus"
+00:00|00:00|"The sequence for the triangular numbers can be produced simply by using the formula i(i + 1)/2, incrementing i at each step as in previous expressions. There is an easier approach, however, and one that’s recommended for unknown sequences: Take the first difference of successive terms and see if it suggests something. In the case here, the first difference yields 2, 3, 4, 5, 6, …. In other words, if t(i) is the ith triangular number, then
+
+    t(i) = t(i – 1) + i
+
+
+
+From this, a sequence to generate the triangular numbers is just
+
+    (i := 1) | (i +:= seq(2))
+
+
+36.  An infinite sequence consisting of the prime numbers: 2, 3, 5, 7, 11, 13, ….
+
+Solution: Although there is no known method for computing primes efficiently in sequence, a brute-force method is simple: Just generate all the integers and filter out those that are not prime. The trivial observation that 2 is the only even prime leads to the following expression:
+
+    2 | ((i := seq(3, 2)) & (not(i = (2 to i) * (2 to i))) & i)
+
+
+
+The second operand of the conjunction, not(i = (2 to i) * (2 to i)), fails if i cannot be represented as the product of two integers. Otherwise, the result of the expression is just i, the third operand of the conjunction. It is, of course, not necessary to check all the way to i * i. A much better test is
+
+    not(i = (k := (3 to sqrt(i) by 2)) * (i / k))
+
+
+37.  An infinite sequence consisting of n copies of each positive integer n: 1, 2, 2, 3, 3, 3, 4, 4, 4, 4, ….
+
+Solution: This one is entirely different from the preceding exercises. This solution uses limitation in combination with repeated alternation:
+
+    i := seq() & (|i \ i)
+
+
+38.  A sequence consisting of strings representing the times in minutes in the 24-hour day, starting at midnight and ending at the minute before midnight: “00:00”, “00:01”, … “00:59”, “01:00”, … “23:59”.
+
+Solution: The solution to this problem has two components: a generator for the hours and a generator for the minutes. 0 to 23 generates the hours, and 0 to 59 generates the minutes, but the values need to be padded with zeros:
+
+    right(0 to 23, 2, “0”)
+    right(0 to 59, 2, “0”)
+
+
+
+All that remains is a concatenation with colons added as separators:
+
+    right(0 to 23, 2, “0”) || “:” ||
+       right(0 to 59, 2, “0”)"|"Handbook of Programming Languages Volume 2"|"Peter H. Salus"
+00:01|00:01|"The sequence for the triangular numbers can be produced simply by using the formula i(i + 1)/2, incrementing i at each step as in previous expressions. There is an easier approach, however, and one that’s recommended for unknown sequences: Take the first difference of successive terms and see if it suggests something. In the case here, the first difference yields 2, 3, 4, 5, 6, …. In other words, if t(i) is the ith triangular number, then
+
+    t(i) = t(i – 1) + i
+
+
+
+From this, a sequence to generate the triangular numbers is just
+
+    (i := 1) | (i +:= seq(2))
+
+
+36.  An infinite sequence consisting of the prime numbers: 2, 3, 5, 7, 11, 13, ….
+
+Solution: Although there is no known method for computing primes efficiently in sequence, a brute-force method is simple: Just generate all the integers and filter out those that are not prime. The trivial observation that 2 is the only even prime leads to the following expression:
+
+    2 | ((i := seq(3, 2)) & (not(i = (2 to i) * (2 to i))) & i)
+
+
+
+The second operand of the conjunction, not(i = (2 to i) * (2 to i)), fails if i cannot be represented as the product of two integers. Otherwise, the result of the expression is just i, the third operand of the conjunction. It is, of course, not necessary to check all the way to i * i. A much better test is
+
+    not(i = (k := (3 to sqrt(i) by 2)) * (i / k))
+
+
+37.  An infinite sequence consisting of n copies of each positive integer n: 1, 2, 2, 3, 3, 3, 4, 4, 4, 4, ….
+
+Solution: This one is entirely different from the preceding exercises. This solution uses limitation in combination with repeated alternation:
+
+    i := seq() & (|i \ i)
+
+
+38.  A sequence consisting of strings representing the times in minutes in the 24-hour day, starting at midnight and ending at the minute before midnight: “00:00”, “00:01”, … “00:59”, “01:00”, … “23:59”.
+
+Solution: The solution to this problem has two components: a generator for the hours and a generator for the minutes. 0 to 23 generates the hours, and 0 to 59 generates the minutes, but the values need to be padded with zeros:
+
+    right(0 to 23, 2, “0”)
+    right(0 to 59, 2, “0”)
+
+
+
+All that remains is a concatenation with colons added as separators:
+
+    right(0 to 23, 2, “0”) || “:” ||
+       right(0 to 59, 2, “0”)"|"Handbook of Programming Languages Volume 2"|"Peter H. Salus"
+00:59|00:59|"The sequence for the triangular numbers can be produced simply by using the formula i(i + 1)/2, incrementing i at each step as in previous expressions. There is an easier approach, however, and one that’s recommended for unknown sequences: Take the first difference of successive terms and see if it suggests something. In the case here, the first difference yields 2, 3, 4, 5, 6, …. In other words, if t(i) is the ith triangular number, then
+
+    t(i) = t(i – 1) + i
+
+
+
+From this, a sequence to generate the triangular numbers is just
+
+    (i := 1) | (i +:= seq(2))
+
+
+36.  An infinite sequence consisting of the prime numbers: 2, 3, 5, 7, 11, 13, ….
+
+Solution: Although there is no known method for computing primes efficiently in sequence, a brute-force method is simple: Just generate all the integers and filter out those that are not prime. The trivial observation that 2 is the only even prime leads to the following expression:
+
+    2 | ((i := seq(3, 2)) & (not(i = (2 to i) * (2 to i))) & i)
+
+
+
+The second operand of the conjunction, not(i = (2 to i) * (2 to i)), fails if i cannot be represented as the product of two integers. Otherwise, the result of the expression is just i, the third operand of the conjunction. It is, of course, not necessary to check all the way to i * i. A much better test is
+
+    not(i = (k := (3 to sqrt(i) by 2)) * (i / k))
+
+
+37.  An infinite sequence consisting of n copies of each positive integer n: 1, 2, 2, 3, 3, 3, 4, 4, 4, 4, ….
+
+Solution: This one is entirely different from the preceding exercises. This solution uses limitation in combination with repeated alternation:
+
+    i := seq() & (|i \ i)
+
+
+38.  A sequence consisting of strings representing the times in minutes in the 24-hour day, starting at midnight and ending at the minute before midnight: “00:00”, “00:01”, … “00:59”, “01:00”, … “23:59”.
+
+Solution: The solution to this problem has two components: a generator for the hours and a generator for the minutes. 0 to 23 generates the hours, and 0 to 59 generates the minutes, but the values need to be padded with zeros:
+
+    right(0 to 23, 2, “0”)
+    right(0 to 59, 2, “0”)
+
+
+
+All that remains is a concatenation with colons added as separators:
+
+    right(0 to 23, 2, “0”) || “:” ||
+       right(0 to 59, 2, “0”)"|"Handbook of Programming Languages Volume 2"|"Peter H. Salus"
+"ap 01:00"|01:00|"The sequence for the triangular numbers can be produced simply by using the formula i(i + 1)/2, incrementing i at each step as in previous expressions. There is an easier approach, however, and one that’s recommended for unknown sequences: Take the first difference of successive terms and see if it suggests something. In the case here, the first difference yields 2, 3, 4, 5, 6, …. In other words, if t(i) is the ith triangular number, then
+
+    t(i) = t(i – 1) + i
+
+
+
+From this, a sequence to generate the triangular numbers is just
+
+    (i := 1) | (i +:= seq(2))
+
+
+36.  An infinite sequence consisting of the prime numbers: 2, 3, 5, 7, 11, 13, ….
+
+Solution: Although there is no known method for computing primes efficiently in sequence, a brute-force method is simple: Just generate all the integers and filter out those that are not prime. The trivial observation that 2 is the only even prime leads to the following expression:
+
+    2 | ((i := seq(3, 2)) & (not(i = (2 to i) * (2 to i))) & i)
+
+
+
+The second operand of the conjunction, not(i = (2 to i) * (2 to i)), fails if i cannot be represented as the product of two integers. Otherwise, the result of the expression is just i, the third operand of the conjunction. It is, of course, not necessary to check all the way to i * i. A much better test is
+
+    not(i = (k := (3 to sqrt(i) by 2)) * (i / k))
+
+
+37.  An infinite sequence consisting of n copies of each positive integer n: 1, 2, 2, 3, 3, 3, 4, 4, 4, 4, ….
+
+Solution: This one is entirely different from the preceding exercises. This solution uses limitation in combination with repeated alternation:
+
+    i := seq() & (|i \ i)
+
+
+38.  A sequence consisting of strings representing the times in minutes in the 24-hour day, starting at midnight and ending at the minute before midnight: “00:00”, “00:01”, … “00:59”, “01:00”, … “23:59”.
+
+Solution: The solution to this problem has two components: a generator for the hours and a generator for the minutes. 0 to 23 generates the hours, and 0 to 59 generates the minutes, but the values need to be padded with zeros:
+
+    right(0 to 23, 2, “0”)
+    right(0 to 59, 2, “0”)
+
+
+
+All that remains is a concatenation with colons added as separators:
+
+    right(0 to 23, 2, “0”) || “:” ||
+       right(0 to 59, 2, “0”)"|"Handbook of Programming Languages Volume 2"|"Peter H. Salus"
+23:59|23:59|"The sequence for the triangular numbers can be produced simply by using the formula i(i + 1)/2, incrementing i at each step as in previous expressions. There is an easier approach, however, and one that’s recommended for unknown sequences: Take the first difference of successive terms and see if it suggests something. In the case here, the first difference yields 2, 3, 4, 5, 6, …. In other words, if t(i) is the ith triangular number, then
+
+    t(i) = t(i – 1) + i
+
+
+
+From this, a sequence to generate the triangular numbers is just
+
+    (i := 1) | (i +:= seq(2))
+
+
+36.  An infinite sequence consisting of the prime numbers: 2, 3, 5, 7, 11, 13, ….
+
+Solution: Although there is no known method for computing primes efficiently in sequence, a brute-force method is simple: Just generate all the integers and filter out those that are not prime. The trivial observation that 2 is the only even prime leads to the following expression:
+
+    2 | ((i := seq(3, 2)) & (not(i = (2 to i) * (2 to i))) & i)
+
+
+
+The second operand of the conjunction, not(i = (2 to i) * (2 to i)), fails if i cannot be represented as the product of two integers. Otherwise, the result of the expression is just i, the third operand of the conjunction. It is, of course, not necessary to check all the way to i * i. A much better test is
+
+    not(i = (k := (3 to sqrt(i) by 2)) * (i / k))
+
+
+37.  An infinite sequence consisting of n copies of each positive integer n: 1, 2, 2, 3, 3, 3, 4, 4, 4, 4, ….
+
+Solution: This one is entirely different from the preceding exercises. This solution uses limitation in combination with repeated alternation:
+
+    i := seq() & (|i \ i)
+
+
+38.  A sequence consisting of strings representing the times in minutes in the 24-hour day, starting at midnight and ending at the minute before midnight: “00:00”, “00:01”, … “00:59”, “01:00”, … “23:59”.
+
+Solution: The solution to this problem has two components: a generator for the hours and a generator for the minutes. 0 to 23 generates the hours, and 0 to 59 generates the minutes, but the values need to be padded with zeros:
+
+    right(0 to 23, 2, “0”)
+    right(0 to 59, 2, “0”)
+
+
+
+All that remains is a concatenation with colons added as separators:
+
+    right(0 to 23, 2, “0”) || “:” ||
+       right(0 to 59, 2, “0”)"|"Handbook of Programming Languages Volume 2"|"Peter H. Salus"
+23:00|"0 to 23"|"The sequence for the triangular numbers can be produced simply by using the formula i(i + 1)/2, incrementing i at each step as in previous expressions. There is an easier approach, however, and one that’s recommended for unknown sequences: Take the first difference of successive terms and see if it suggests something. In the case here, the first difference yields 2, 3, 4, 5, 6, …. In other words, if t(i) is the ith triangular number, then
+
+    t(i) = t(i – 1) + i
+
+
+
+From this, a sequence to generate the triangular numbers is just
+
+    (i := 1) | (i +:= seq(2))
+
+
+36.  An infinite sequence consisting of the prime numbers: 2, 3, 5, 7, 11, 13, ….
+
+Solution: Although there is no known method for computing primes efficiently in sequence, a brute-force method is simple: Just generate all the integers and filter out those that are not prime. The trivial observation that 2 is the only even prime leads to the following expression:
+
+    2 | ((i := seq(3, 2)) & (not(i = (2 to i) * (2 to i))) & i)
+
+
+
+The second operand of the conjunction, not(i = (2 to i) * (2 to i)), fails if i cannot be represented as the product of two integers. Otherwise, the result of the expression is just i, the third operand of the conjunction. It is, of course, not necessary to check all the way to i * i. A much better test is
+
+    not(i = (k := (3 to sqrt(i) by 2)) * (i / k))
+
+
+37.  An infinite sequence consisting of n copies of each positive integer n: 1, 2, 2, 3, 3, 3, 4, 4, 4, 4, ….
+
+Solution: This one is entirely different from the preceding exercises. This solution uses limitation in combination with repeated alternation:
+
+    i := seq() & (|i \ i)
+
+
+38.  A sequence consisting of strings representing the times in minutes in the 24-hour day, starting at midnight and ending at the minute before midnight: “00:00”, “00:01”, … “00:59”, “01:00”, … “23:59”.
+
+Solution: The solution to this problem has two components: a generator for the hours and a generator for the minutes. 0 to 23 generates the hours, and 0 to 59 generates the minutes, but the values need to be padded with zeros:
+
+    right(0 to 23, 2, “0”)
+    right(0 to 59, 2, “0”)
+
+
+
+All that remains is a concatenation with colons added as separators:
+
+    right(0 to 23, 2, “0”) || “:” ||
+       right(0 to 59, 2, “0”)"|"Handbook of Programming Languages Volume 2"|"Peter H. Salus"
+"ap 11:21"|11:21|"Farber, D. J., R. E. Griswold, and I. P. Polonsky. 1964. SNOBOL, a string manipulation language. Journal of the ACM, 11:21–30."|"Handbook of Programming Languages Volume 2"|"Peter H. Salus"
+"ap 05:25"|5:25|"Yngve, V. H. 1958. A programming language for mechanical translation. Mechanical Translation 5:25–41."|"Handbook of Programming Languages Volume 2"|"Peter H. Salus"
+13:14|13-14|"C (language)
+
+Algol 68 influence, 72
+ancestors of, 64-67
+arrays, 70-71, 80-81
+
+accessing via pointers, 151
+declaring, 97-98
+initializing, 102
+integration with pointers, 154-158
+nested, 98
+operation constraints, 98
+references, 141
+versus pointers, 155
+versus structures, 169
+
+associated technology development, 74
+characters, 91
+
+classification, 205
+converting to/from uppercase/lowercase, 205
+escape sequences, 94
+null, 95
+
+command-line arguments, 181
+compilers, 74
+constants, 93-95
+contributors to the development of, 82
+criticisms of, 78-81
+data types, 71, 90-93
+
+casts, 123
+conversions in expressions, 121-123
+declaring, 103-104
+qualifiers, 101-102
+
+declarations, 71, 79
+development of, 70-73, 87
+early development of, 62-63
+enumerations, 172-173
+environment development, 74
+expressions, 71, 79, 104
+
+constant expressions, 124
+primary expressions, 105-106
+short-circuiting, 111
+
+extensions, 77
+file inclusion, 73
+flow control, 129-135
+functionality of, 82
+functions, 136
+
+abort, 211
+abs, 211
+absolute value functions, 214
+ANSI syntax, 142
+arguments, 137-138
+asctime, 215
+assert library, 225
+atexit, 211
+atof, 208-209
+atoi, 207-208
+atol, 207-208
+bsearch, 210
+btowc, 231
+calling, 140-143
+calloc, 206
+clearerr, 197
+clock, 216
+ctime, 215
+ctype library, 204-205
+declaring, 138-140
+defining, 136-138
+difftime, 216
+div, 211
+errno library, 225
+exit, 210
+exp, 213
+external declarations, 143-145
+fclose, 186
+feof, 196
+ferror, 197
+fflush, 186
+fgetc, 186
+fgetpos, 195
+fgets, 193
+fgetwc, 229
+fgetws, 230
+float library, 226
+fmod, 214
+fopen, 185
+fprintf, 187-189
+fputc, 186
+fputs, 193
+fputwc, 229
+fputws, 230
+fread, 193
+free, 206
+freopen, 185
+frexp, 214
+fscanf, 190-193
+fseek, 195
+fsetpos, 195
+ftell, 194
+fwide, 231
+fwprintf, 230
+fwrite, 194
+fwscanf, 230
+getc, 186
+getchar, 186, 229
+getenv, 210
+gets, 193
+getwc, 229
+gmtime, 215
+hyperbolic functions, 214
+iso646 library, 226
+labs, 211
+ldexp, 214
+ldiv, 211
+library headers, 183-184
+limits library, 225
+locale library, 220
+localeconv, 221-222
+localtime, 215
+log, 213
+log10, 213
+longjmp, 220
+main, 88
+malloc, 158, 160, 206
+math library, 213
+mblen, 212
+mbrlen, 231
+mbrtowc, 232
+mbsinit, 232
+mbsrtowcs, 232
+mbstowcs, 213
+mbtowc, 212
+memchr, 203
+memcmp, 203
+memcpy, 203
+memmove, 203
+memset, 204
+mktime, 216
+modf, 214
+nearest-integer functions, 214
+perror, 197
+pointers, 161-163
+pow, 213
+printf, 187-189, 198
+prototype declarations, 140
+putc, 186
+putchar, 186
+puts, 193
+putwc, 229
+putwchar, 229
+qsort, 209-210
+raise, 219
+rand, 209
+realloc, 206-207
+remove, 198
+rename, 198
+rewind, 195
+scanf, 190-193, 197
+setbuf, 196
+setjmp, 220
+setjmp library, 220
+setlocale, 221
+setvbuf, 196
+signal, 219
+signal library, 218-219
+sprintf, 197
+srand, 209
+standard library, 182-184
+stdarg library, 222
+stddef library, 224
+stdio library, 184-185
+stdlib library, 205
+strcat, 200
+strchr, 202
+strcmp, 201
+strcoll, 202
+strcopy, 200
+strcspn, 203
+strerror, 204
+strftime, 217-218
+string library, 199
+strlen, 199
+strncat, 201
+strncmp, 202
+strncpy, 200
+strpbrk, 203
+strrchr, 202
+strspn, 203
+strstr, 202
+strtod, 208-209
+strtok, 204
+strtol, 207-208
+strtoul, 207-208
+strxfrm, 202
+swprintf, 230
+swscanf, 230
+syntax, 136
+system, 211
+terminating, 135
+time, 215
+time library, 214
+tmpfile, 198
+tmpnam, 198
+trigonometric functions, 213
+ungetc, 194
+ungetwc, 230
+va_arg, 223
+va_end, 223-224
+va_start, 223
+vfprintf, 198
+vfwprintf, 231
+vsprintf, 198
+vswprintf, 231
+vwprintf, 231
+wchar library, 227-228
+wcrtomb, 232
+wcsrtombs, 232
+wcstombs, 213
+wctob, 231
+wctomb, 212
+wctype library, 232
+wide character functions, 233-234
+wide string functions, 228-232
+wprintf, 230
+wscanf, 230
+
+headers, 175
+identifiers, 96-97
+linked lists, 173-175
+lint, 75
+macros, defining, 176
+naming schemes, 81
+notation for type conversions, 74
+operators
+
+& (pointer to), 147
+arithmetic operators, 106-108
+assignment operators, 108-109
+autodecrement operators, 116-117
+autoincrement operators, 116-117
+bitwise operators, 113-115
+comma operators, 117-118
+compound assignment operators, 115-116
+conditional operators, 117-118
+evaluating, 118-120
+logical operators, 109-113
+modulus, 106
+order of precedence, 107, 118-120
+relational operators, 109-113
+sizeof, 159
+stringizing (#) operator, 179-180
+
+origin of, 61
+pointers, 70, 145
+
+arithmetic operations and, 150-152
+assignments, 147-149
+casts, 152
+comparing, 151
+conversion within, 152
+copying, 148
+declaring, 146-147
+integration with arrays, 154-158
+low-level addressing, 163-165
+memory allocation capabilities, 158-160
+null, 165
+pointing to functions, 161-163
+to structures, 169
+variable values, 149
+variables, 153
+versus arrays, 155
+
+portability, 73-77, 82
+preprocessor directives, 89, 175
+
+#define, 178
+#else, 179
+#error, 181
+#if, 179
+#include, 176
+#pragma, 181
+
+preprocessor macros, defining, 177-178
+programs
+
+exit status, 182
+Hello World, 87
+namespace, 96
+printing Fibonacci numbers, 88-89
+scope, 96, 98
+
+recursion, 142
+reliability of, 82
+runtime environment, 181
+source code (conditional compilation), 178-179
+source files, resetting, 175, 180
+standardization, 61, 75-77
+statements, 124
+
+block statements, 126
+blocks, 124
+break, 128, 132-134
+continue, 132-134
+do-while, 132
+expression statements, 124-125
+for, 130-131
+goto, 134-135
+if, 125-128
+if-else, 125-128
+jumping between, 134-135
+labels, 134-135
+return, 135
+switch, 128-129
+while, 129-130
+
+storage mechanisms, 81
+strings, 95
+structures, 70, 166
+
+bit-fields, 170, 172
+declaring, 166
+linked, 173-175
+member access, 168-169
+pointers, 169
+syntax, 167
+variables, 168
+versus arrays, 169
+
+successors of, 78
+syntax, 89-90
+trees, 173-175
+unions, 169-170
+
+bit-fields, 170, 172
+declaring, 169
+recalling data storage, 170
+
+UNIX association, 61
+variables
+
+declaring, 95-96, 167
+duration of, 98
+external declarations, 99, 143-145
+initializing, 102-103
+storage classes, 98-101
+
+versus BCPL and B, 64
+wide characters, 93, 95
+X3J11 standardization committee, 76
+
+C*, 78
+C++, 78
+
+translating to C, 238
+
+callback procedures (Icon), 405-406
+calling functions (in C), 140-143
+Calloc function (C), 206
+Canaday, Rudd, 63
+case control structure (Icon), 336
+Case statement
+
+Fortran 95, 23
+Turbo Pascal, 263-264
+
+casts (C data types), 123
+Cfront, 238
+Char data type (C), 91
+characters, 93
+
+C, 91
+
+classification, 205
+converting to/from uppercase/lowercase, 205
+null, 95
+
+data types
+
+Fortran 95, 16
+Turbo Pascal, 268
+
+escape sequences (C), 94
+Fortran 95
+
+blank, 12
+concatenation, 38
+constants, 38
+dummy arguments, 37
+parameters, 37
+special, 13-14
+string length, 37
+substrings, 38
+
+
+Chr() function (Turbo Pascal), 286
+Clearerr function (C), 197
+Clock function (C), 216
+Close statement (Fortran 95), 55
+closing record files (Fortran 95), 55
+Clreol procedure (Turbo Pascal), 307
+Clrscr procedure (Turbo Pascal), 307
+co-expressions (Icon), 363-364
+COBOL, 253
+color (Icon windows), 368
+COMIT, 328
+comma operators (C), 117-118
+command-line arguments
+
+C programs, 181
+Icon programs, 374-375
+
+comments
+
+Fortran 95, 13
+Icon, 333
+
+comparing
+
+pointers in C, 151
+strings in Icon, 347-348
+
+compilers
+
+B, 68
+BCPL, 65
+C, 74
+functionality of, 237
+Icon, 373
+Pascal, 256
+porting between platforms, 247
+re-targeting, 245
+Turbo Pascal
+
+directives, 268
+using, 258-259
+
+
+Complex data type (Fortran 95), 15
+compound assignment operators (C), 115-116
+concatenation
+
+characters (Fortran 95), 38
+strings
+
+C, 95
+Icon, 345-346
+Turbo Pascal, 261
+
+
+concurrent C, 78
+conditional operators (C), 117-118
+conditional statements (Turbo Pascal), 262
+conjunction (Icon expressions), 343-344
+const qualifiers (C data types), 101
+constants
+
+C, 93-95, 124
+characters (Fortran 95), 38
+Icon (mathematical constants), 362
+Turbo Pascal, defining, 273-274
+
+constructors (Fortran 95)
+
+arrays in, 32
+structures, 40
+
+constructs (Pascal), 257
+continue statements
+
+C, 132-134
+Fortran 95, 12
+
+control backtracking (Icon), 344
+control structures
+
+Icon, 332, 335-336
+
+alternation, 336
+case, 336
+limitation, 343
+not, 335
+repeated alternation, 343
+terminating, 335
+
+
+converting data types (C expressions), 121-123
+Copy() function (Turbo Pascal), 288
+copying
+
+pointers (C), 148
+strings (Turbo Pascal), 288
+
+Count function (Fortran 95), 37
+Cset data types (Icon), 334, 344-345
+Ctime function (C), 215
+Ctype function library (C), 205
+Cycle statement (Fortran 95), 25
+Cytron, Ron, 237
+
+D"|"Handbook of Programming Languages Volume 2"|"Peter H. Salus"
+21:24|21-24|"F (Fortran language subset), 11
+FAQs (Turbo Pascal), 320-323
+Fclose function (C), 186
+Feof function (C), 196
+Ferror function (C), 197
+Fflush function (C), 186
+Fgetc function (C), 186
+Fgetpos function (C), 195
+Fgets function (C), 193
+Fgetwc function (C), 229
+Fgetws function (C), 230
+Fibonacci numbers, 88-89, 396
+File inclusion (C), 73
+files, 52
+
+Turbo Pascal, 299
+
+accessing, 299-300
+object files, 319
+overlay files, 317-319
+printer as file, 304
+text files, 300-301
+typed binary files, 302-303
+untyped binary files, 303
+
+
+Float function library (C), 226
+floating-point data types (C), 92
+flow control
+
+C, 129-135
+Fortran 95, 21-24
+Icon, 333-334
+Turbo Pascal, 262-267
+
+Fmod function (C), 214
+Fopen function (C), 185
+for statements
+
+C, 130-131
+Turbo Pascal, 264
+
+Forall statement (Fortran 95), 35-36
+formatted records (Fortran 95), 51, 56
+Fortran, 3, 5, 253
+
+development of, 3-4
+F, 11
+Fortran 2000, 10
+Fortran 66, 4
+Fortran 77, 4
+Fortran 90, 5
+Fortran II, 4
+I/O, 50
+standardization, 4-6
+
+Fortran 95, 5
+
+arrays, 31
+
+assignment, 33
+computing shape, 32
+constructors, 32
+declaring, 31
+dynamic, 32
+indexed parallel assignment, 35-36
+masked assignment, 34
+operators, 34
+returning true values, 36
+sections, 33
+
+characters
+
+blank, 12
+concatenation, 38
+constants, 38
+dummy arguments, 37
+parameters, 37
+special, 13-14
+string length, 37
+substrings, 38
+
+comments, 13
+compatibility with Fortran 90, 7
+data types
+
+arithmetic operators, 15
+character, 16
+complex, 15
+declaring for trees, 49-50
+derived, 39
+extending, 40
+integer, 15
+logical, 16
+mixed-mode expressions, 16
+real constant, 15
+relational operators, 16
+
+expressions, 20
+extending, 40-45
+extensibility, 7
+flow control, 21-24
+functions, 28
+
+arguments, 28-29
+associated, 48
+built-in, 19
+count, 37
+extending, 44-45
+null, 47
+shape, 32
+
+HFP extensions, 10-11
+legacy code, 7
+loops
+
+assigning successive variable values, 25
+conditional execution, 25
+do, 24
+exiting, 25
+repeating, 25
+
+modules, 7, 26
+
+affecting objects in, 28
+using, 27-28
+writing, 26-27
+
+operators
+
+arithmetic, 15
+order of precedence, 20
+relational, 16
+
+parameters
+
+declaring, 18
+kind, 17
+named constants, 17
+naming rules, 18
+
+pointers, 45
+
+aliases, 47
+declaring variables as, 46-47
+determining association of, 48
+initializing, 47
+nullifying, 47
+states, 46
+
+procedures, 28
+
+arguments, 28-29
+built-in, 30
+elemental, 30
+
+programs
+
+example, 12
+form, 12-14
+
+record files, 52
+
+accessing, 53
+advancing I/O, 53-54
+closing, 55
+control information list, 55
+data transfer, 54
+external, 52
+format specification, 54
+I/O list, 55
+internal, 52
+nonadvancing I/O, 53-54
+opening, 55
+positioning, 56
+querying, 55
+
+records, 51
+
+endfile, 52
+formatted, 51, 56
+list-directed formatting, 56
+unformatted, 51
+
+standards, 7-8
+
+permissiveness of, 9-10
+portability, 9
+processor conformance to, 8-9
+program conformance to, 8
+
+statements
+
+assignment, 21
+backspace, 56
+blocks, 22
+case, 23
+close, 55
+continued, 12
+cycle, 25
+do, 24
+elsewhere, 34
+end do, 24
+end program, 14
+endfile, 56
+exit, 25
+forall, 35-36
+I/O statements, 51
+if, 22-23
+inquire, 55
+keywords, 12
+open, 55
+print, 54
+program, 14
+read, 54
+rewind, 56
+select case, 23
+type, 17
+use, 27
+where, 34
+write, 54
+
+strengths of, 6-7
+structures, 38
+
+constructors, 40
+declaring, 39
+referencing components, 39
+
+subroutines, 28
+
+arguments, 28-29
+
+trees, 48
+
+declaring data types for, 49-50
+sorting numbers with, 48
+
+variables, 18
+
+attributes, 19
+declaring as pointers, 46-47
+
+
+forward declarations (Turbo Pascal functions/procedures), 281
+Fprintf function (C), 187-189
+Fputc function (C), 186
+Fputs function (C), 193
+Fputwc function (C), 229
+Fputws function (C), 230
+Fread function (C), 193
+Free function (C), 206
+Freopen function (C), 185
+Frexp function (C), 214
+Fscanf function (C), 190-193
+Fseek function (C), 195
+Fsetpos function (C), 195
+Ftell function (C), 194
+functions
+
+C, 136
+
+abort, 211
+abs, 211
+absolute value functions, 214
+ANSI syntax, 142
+arguments, 137-138
+asctime, 215
+assert library, 225
+atexit, 211
+atof, 208-209
+atoi, 207-208
+atol, 207-208
+bsearch, 210
+btowc, 231
+calling, 140-143
+calloc, 206
+clearerr, 197
+clock, 216
+ctime, 215
+ctype library, 204-205
+declaring, 138-140
+defining, 136-138
+difftime, 216
+div, 211
+errno library, 225
+exit, 210
+exp, 213
+external declarations, 143-145
+fclose, 186
+feof, 196
+ferror, 197
+fflush, 186
+fgetc, 186
+fgetpos, 195
+fgets, 193
+fgetwc, 229
+fgetws, 230
+float library, 226
+fmod, 214
+fopen, 185
+fprintf, 187-189
+fputc, 186
+fputs, 193
+fputwc, 229
+fputws, 230
+fread, 193
+free, 206
+freopen, 185
+frexp, 214
+fscanf, 190-193
+fseek, 195
+fsetpos, 195
+ftell, 194
+fwide, 231
+fwprintf, 230
+fwrite, 194
+fwscanf, 230
+getc, 186
+getchar, 186, 229
+getenv, 210
+gets, 193
+getwc, 229
+gmtime, 215
+hyperbolic functions, 214
+iso646 library, 226
+labs, 211
+ldexp, 214
+ldiv, 211
+library headers, 183-184
+limits library, 225
+locale library, 220
+localeconv, 221-222
+localtime, 215
+log, 213
+log10, 213
+longjmp, 220
+main, 88
+malloc, 158, 160, 206
+math library, 213
+mblen, 212
+mbrlen, 231
+mbrtowc, 232
+mbsinit, 232
+mbsrtowcs, 232
+mbstowcs, 213
+mbtowc, 212
+memchr, 203
+memcmp, 203
+memcpy, 203
+memmove, 203
+memset, 204
+mktime, 216
+modf, 214
+nearest-integer functions, 214
+perror, 197
+pointers, 161-163
+pow, 213
+printf, 187-189, 198
+prototype declarations, 140
+putc, 186
+putchar, 186
+puts, 193
+putwc, 229
+putwchar, 229
+qsort, 209-210
+raise, 219
+rand, 209
+realloc, 206-207
+remove, 198
+rename, 198
+rewind, 195
+scanf, 190-193, 197
+setbuf, 196
+setjmp, 220
+setjmp library, 220
+setlocale, 221
+setvbuf, 196
+signal, 219
+signal library, 218-219
+sprintf, 197
+srand, 209
+standard library, 182-184
+stdarg library, 222
+stddef library, 224
+stdio library, 184-185
+stdlib library, 205
+strcat, 200
+strchr, 202
+strcmp, 201
+strcoll, 202
+strcopy, 200
+strcspn, 203
+strerror, 204
+strftime, 217-218
+string library, 199
+strlen, 199
+strncat, 201
+strncmp, 202
+strncpy, 200
+strpbrk, 203
+strrchr, 202
+strspn, 203
+strstr, 202
+strtod, 208-209
+strtok, 204
+strtol, 207-208
+strtoul, 207-208
+strxfrm, 202
+swprintf, 230
+swscanf, 230
+syntax, 136
+system, 211
+terminating, 135
+time, 215
+time library, 214
+tmpfile, 198
+tmpnam, 198
+trigonometric functions, 213
+ungetc, 194
+ungetwc, 230
+va_arg, 223
+va_end, 223-224
+va_start, 223
+vfprintf, 198
+vfwprintf, 231
+vsprintf, 198
+vswprintf, 231
+vwprintf, 231
+wchar library, 227-228
+wcrtomb, 232
+wcsrtombs, 232
+wcstombs, 213
+wctob, 231
+wctomb, 212
+wctype library, 232
+wide character functions, 233-234
+wide string functions, 228-232
+wprintf, 230
+wscanf, 230
+
+Fortran 95, 28
+
+arguments, 28-29
+associated, 48
+built-in, 19
+count, 37
+extending, 44-45
+null, 47
+shape, 32
+
+Icon, 332
+
+bit pattern, 363
+drawing, 366-367
+matching, 349
+string-analysis, 348
+trigonometric, 362
+type(), 334
+
+Turbo Pascal, 279-280
+
+built-in, 283
+chr(), 286
+copy(), 288
+DIV, 261
+DOS equivalents, 315-317
+forward declarations, 281
+length(), 287
+mathematical functions, 289
+memory addresses, 297-298
+MOD, 261
+ord(), 286
+pos(), 288
+pseudo-random number generator, 290-291
+readkey, 304-305
+recursion, 280-281
+str(), 286
+upcase(), 287
+val(), 286
+
+
+Fwide function (C), 231
+Fwprintf function (C), 230
+Fwrite function (C), 194
+Fwscanf function (C), 230
+
+G"|"Handbook of Programming Languages Volume 2"|"Peter H. Salus"
+13:14|13-14|"F (Fortran language subset), 11
+FAQs (Turbo Pascal), 320-323
+Fclose function (C), 186
+Feof function (C), 196
+Ferror function (C), 197
+Fflush function (C), 186
+Fgetc function (C), 186
+Fgetpos function (C), 195
+Fgets function (C), 193
+Fgetwc function (C), 229
+Fgetws function (C), 230
+Fibonacci numbers, 88-89, 396
+File inclusion (C), 73
+files, 52
+
+Turbo Pascal, 299
+
+accessing, 299-300
+object files, 319
+overlay files, 317-319
+printer as file, 304
+text files, 300-301
+typed binary files, 302-303
+untyped binary files, 303
+
+
+Float function library (C), 226
+floating-point data types (C), 92
+flow control
+
+C, 129-135
+Fortran 95, 21-24
+Icon, 333-334
+Turbo Pascal, 262-267
+
+Fmod function (C), 214
+Fopen function (C), 185
+for statements
+
+C, 130-131
+Turbo Pascal, 264
+
+Forall statement (Fortran 95), 35-36
+formatted records (Fortran 95), 51, 56
+Fortran, 3, 5, 253
+
+development of, 3-4
+F, 11
+Fortran 2000, 10
+Fortran 66, 4
+Fortran 77, 4
+Fortran 90, 5
+Fortran II, 4
+I/O, 50
+standardization, 4-6
+
+Fortran 95, 5
+
+arrays, 31
+
+assignment, 33
+computing shape, 32
+constructors, 32
+declaring, 31
+dynamic, 32
+indexed parallel assignment, 35-36
+masked assignment, 34
+operators, 34
+returning true values, 36
+sections, 33
+
+characters
+
+blank, 12
+concatenation, 38
+constants, 38
+dummy arguments, 37
+parameters, 37
+special, 13-14
+string length, 37
+substrings, 38
+
+comments, 13
+compatibility with Fortran 90, 7
+data types
+
+arithmetic operators, 15
+character, 16
+complex, 15
+declaring for trees, 49-50
+derived, 39
+extending, 40
+integer, 15
+logical, 16
+mixed-mode expressions, 16
+real constant, 15
+relational operators, 16
+
+expressions, 20
+extending, 40-45
+extensibility, 7
+flow control, 21-24
+functions, 28
+
+arguments, 28-29
+associated, 48
+built-in, 19
+count, 37
+extending, 44-45
+null, 47
+shape, 32
+
+HFP extensions, 10-11
+legacy code, 7
+loops
+
+assigning successive variable values, 25
+conditional execution, 25
+do, 24
+exiting, 25
+repeating, 25
+
+modules, 7, 26
+
+affecting objects in, 28
+using, 27-28
+writing, 26-27
+
+operators
+
+arithmetic, 15
+order of precedence, 20
+relational, 16
+
+parameters
+
+declaring, 18
+kind, 17
+named constants, 17
+naming rules, 18
+
+pointers, 45
+
+aliases, 47
+declaring variables as, 46-47
+determining association of, 48
+initializing, 47
+nullifying, 47
+states, 46
+
+procedures, 28
+
+arguments, 28-29
+built-in, 30
+elemental, 30
+
+programs
+
+example, 12
+form, 12-14
+
+record files, 52
+
+accessing, 53
+advancing I/O, 53-54
+closing, 55
+control information list, 55
+data transfer, 54
+external, 52
+format specification, 54
+I/O list, 55
+internal, 52
+nonadvancing I/O, 53-54
+opening, 55
+positioning, 56
+querying, 55
+
+records, 51
+
+endfile, 52
+formatted, 51, 56
+list-directed formatting, 56
+unformatted, 51
+
+standards, 7-8
+
+permissiveness of, 9-10
+portability, 9
+processor conformance to, 8-9
+program conformance to, 8
+
+statements
+
+assignment, 21
+backspace, 56
+blocks, 22
+case, 23
+close, 55
+continued, 12
+cycle, 25
+do, 24
+elsewhere, 34
+end do, 24
+end program, 14
+endfile, 56
+exit, 25
+forall, 35-36
+I/O statements, 51
+if, 22-23
+inquire, 55
+keywords, 12
+open, 55
+print, 54
+program, 14
+read, 54
+rewind, 56
+select case, 23
+type, 17
+use, 27
+where, 34
+write, 54
+
+strengths of, 6-7
+structures, 38
+
+constructors, 40
+declaring, 39
+referencing components, 39
+
+subroutines, 28
+
+arguments, 28-29
+
+trees, 48
+
+declaring data types for, 49-50
+sorting numbers with, 48
+
+variables, 18
+
+attributes, 19
+declaring as pointers, 46-47
+
+
+forward declarations (Turbo Pascal functions/procedures), 281
+Fprintf function (C), 187-189
+Fputc function (C), 186
+Fputs function (C), 193
+Fputwc function (C), 229
+Fputws function (C), 230
+Fread function (C), 193
+Free function (C), 206
+Freopen function (C), 185
+Frexp function (C), 214
+Fscanf function (C), 190-193
+Fseek function (C), 195
+Fsetpos function (C), 195
+Ftell function (C), 194
+functions
+
+C, 136
+
+abort, 211
+abs, 211
+absolute value functions, 214
+ANSI syntax, 142
+arguments, 137-138
+asctime, 215
+assert library, 225
+atexit, 211
+atof, 208-209
+atoi, 207-208
+atol, 207-208
+bsearch, 210
+btowc, 231
+calling, 140-143
+calloc, 206
+clearerr, 197
+clock, 216
+ctime, 215
+ctype library, 204-205
+declaring, 138-140
+defining, 136-138
+difftime, 216
+div, 211
+errno library, 225
+exit, 210
+exp, 213
+external declarations, 143-145
+fclose, 186
+feof, 196
+ferror, 197
+fflush, 186
+fgetc, 186
+fgetpos, 195
+fgets, 193
+fgetwc, 229
+fgetws, 230
+float library, 226
+fmod, 214
+fopen, 185
+fprintf, 187-189
+fputc, 186
+fputs, 193
+fputwc, 229
+fputws, 230
+fread, 193
+free, 206
+freopen, 185
+frexp, 214
+fscanf, 190-193
+fseek, 195
+fsetpos, 195
+ftell, 194
+fwide, 231
+fwprintf, 230
+fwrite, 194
+fwscanf, 230
+getc, 186
+getchar, 186, 229
+getenv, 210
+gets, 193
+getwc, 229
+gmtime, 215
+hyperbolic functions, 214
+iso646 library, 226
+labs, 211
+ldexp, 214
+ldiv, 211
+library headers, 183-184
+limits library, 225
+locale library, 220
+localeconv, 221-222
+localtime, 215
+log, 213
+log10, 213
+longjmp, 220
+main, 88
+malloc, 158, 160, 206
+math library, 213
+mblen, 212
+mbrlen, 231
+mbrtowc, 232
+mbsinit, 232
+mbsrtowcs, 232
+mbstowcs, 213
+mbtowc, 212
+memchr, 203
+memcmp, 203
+memcpy, 203
+memmove, 203
+memset, 204
+mktime, 216
+modf, 214
+nearest-integer functions, 214
+perror, 197
+pointers, 161-163
+pow, 213
+printf, 187-189, 198
+prototype declarations, 140
+putc, 186
+putchar, 186
+puts, 193
+putwc, 229
+putwchar, 229
+qsort, 209-210
+raise, 219
+rand, 209
+realloc, 206-207
+remove, 198
+rename, 198
+rewind, 195
+scanf, 190-193, 197
+setbuf, 196
+setjmp, 220
+setjmp library, 220
+setlocale, 221
+setvbuf, 196
+signal, 219
+signal library, 218-219
+sprintf, 197
+srand, 209
+standard library, 182-184
+stdarg library, 222
+stddef library, 224
+stdio library, 184-185
+stdlib library, 205
+strcat, 200
+strchr, 202
+strcmp, 201
+strcoll, 202
+strcopy, 200
+strcspn, 203
+strerror, 204
+strftime, 217-218
+string library, 199
+strlen, 199
+strncat, 201
+strncmp, 202
+strncpy, 200
+strpbrk, 203
+strrchr, 202
+strspn, 203
+strstr, 202
+strtod, 208-209
+strtok, 204
+strtol, 207-208
+strtoul, 207-208
+strxfrm, 202
+swprintf, 230
+swscanf, 230
+syntax, 136
+system, 211
+terminating, 135
+time, 215
+time library, 214
+tmpfile, 198
+tmpnam, 198
+trigonometric functions, 213
+ungetc, 194
+ungetwc, 230
+va_arg, 223
+va_end, 223-224
+va_start, 223
+vfprintf, 198
+vfwprintf, 231
+vsprintf, 198
+vswprintf, 231
+vwprintf, 231
+wchar library, 227-228
+wcrtomb, 232
+wcsrtombs, 232
+wcstombs, 213
+wctob, 231
+wctomb, 212
+wctype library, 232
+wide character functions, 233-234
+wide string functions, 228-232
+wprintf, 230
+wscanf, 230
+
+Fortran 95, 28
+
+arguments, 28-29
+associated, 48
+built-in, 19
+count, 37
+extending, 44-45
+null, 47
+shape, 32
+
+Icon, 332
+
+bit pattern, 363
+drawing, 366-367
+matching, 349
+string-analysis, 348
+trigonometric, 362
+type(), 334
+
+Turbo Pascal, 279-280
+
+built-in, 283
+chr(), 286
+copy(), 288
+DIV, 261
+DOS equivalents, 315-317
+forward declarations, 281
+length(), 287
+mathematical functions, 289
+memory addresses, 297-298
+MOD, 261
+ord(), 286
+pos(), 288
+pseudo-random number generator, 290-291
+readkey, 304-305
+recursion, 280-281
+str(), 286
+upcase(), 287
+val(), 286
+
+
+Fwide function (C), 231
+Fwprintf function (C), 230
+Fwrite function (C), 194
+Fwscanf function (C), 230
+
+G"|"Handbook of Programming Languages Volume 2"|"Peter H. Salus"
+"ap 10:11"|10-11|"F (Fortran language subset), 11
+FAQs (Turbo Pascal), 320-323
+Fclose function (C), 186
+Feof function (C), 196
+Ferror function (C), 197
+Fflush function (C), 186
+Fgetc function (C), 186
+Fgetpos function (C), 195
+Fgets function (C), 193
+Fgetwc function (C), 229
+Fgetws function (C), 230
+Fibonacci numbers, 88-89, 396
+File inclusion (C), 73
+files, 52
+
+Turbo Pascal, 299
+
+accessing, 299-300
+object files, 319
+overlay files, 317-319
+printer as file, 304
+text files, 300-301
+typed binary files, 302-303
+untyped binary files, 303
+
+
+Float function library (C), 226
+floating-point data types (C), 92
+flow control
+
+C, 129-135
+Fortran 95, 21-24
+Icon, 333-334
+Turbo Pascal, 262-267
+
+Fmod function (C), 214
+Fopen function (C), 185
+for statements
+
+C, 130-131
+Turbo Pascal, 264
+
+Forall statement (Fortran 95), 35-36
+formatted records (Fortran 95), 51, 56
+Fortran, 3, 5, 253
+
+development of, 3-4
+F, 11
+Fortran 2000, 10
+Fortran 66, 4
+Fortran 77, 4
+Fortran 90, 5
+Fortran II, 4
+I/O, 50
+standardization, 4-6
+
+Fortran 95, 5
+
+arrays, 31
+
+assignment, 33
+computing shape, 32
+constructors, 32
+declaring, 31
+dynamic, 32
+indexed parallel assignment, 35-36
+masked assignment, 34
+operators, 34
+returning true values, 36
+sections, 33
+
+characters
+
+blank, 12
+concatenation, 38
+constants, 38
+dummy arguments, 37
+parameters, 37
+special, 13-14
+string length, 37
+substrings, 38
+
+comments, 13
+compatibility with Fortran 90, 7
+data types
+
+arithmetic operators, 15
+character, 16
+complex, 15
+declaring for trees, 49-50
+derived, 39
+extending, 40
+integer, 15
+logical, 16
+mixed-mode expressions, 16
+real constant, 15
+relational operators, 16
+
+expressions, 20
+extending, 40-45
+extensibility, 7
+flow control, 21-24
+functions, 28
+
+arguments, 28-29
+associated, 48
+built-in, 19
+count, 37
+extending, 44-45
+null, 47
+shape, 32
+
+HFP extensions, 10-11
+legacy code, 7
+loops
+
+assigning successive variable values, 25
+conditional execution, 25
+do, 24
+exiting, 25
+repeating, 25
+
+modules, 7, 26
+
+affecting objects in, 28
+using, 27-28
+writing, 26-27
+
+operators
+
+arithmetic, 15
+order of precedence, 20
+relational, 16
+
+parameters
+
+declaring, 18
+kind, 17
+named constants, 17
+naming rules, 18
+
+pointers, 45
+
+aliases, 47
+declaring variables as, 46-47
+determining association of, 48
+initializing, 47
+nullifying, 47
+states, 46
+
+procedures, 28
+
+arguments, 28-29
+built-in, 30
+elemental, 30
+
+programs
+
+example, 12
+form, 12-14
+
+record files, 52
+
+accessing, 53
+advancing I/O, 53-54
+closing, 55
+control information list, 55
+data transfer, 54
+external, 52
+format specification, 54
+I/O list, 55
+internal, 52
+nonadvancing I/O, 53-54
+opening, 55
+positioning, 56
+querying, 55
+
+records, 51
+
+endfile, 52
+formatted, 51, 56
+list-directed formatting, 56
+unformatted, 51
+
+standards, 7-8
+
+permissiveness of, 9-10
+portability, 9
+processor conformance to, 8-9
+program conformance to, 8
+
+statements
+
+assignment, 21
+backspace, 56
+blocks, 22
+case, 23
+close, 55
+continued, 12
+cycle, 25
+do, 24
+elsewhere, 34
+end do, 24
+end program, 14
+endfile, 56
+exit, 25
+forall, 35-36
+I/O statements, 51
+if, 22-23
+inquire, 55
+keywords, 12
+open, 55
+print, 54
+program, 14
+read, 54
+rewind, 56
+select case, 23
+type, 17
+use, 27
+where, 34
+write, 54
+
+strengths of, 6-7
+structures, 38
+
+constructors, 40
+declaring, 39
+referencing components, 39
+
+subroutines, 28
+
+arguments, 28-29
+
+trees, 48
+
+declaring data types for, 49-50
+sorting numbers with, 48
+
+variables, 18
+
+attributes, 19
+declaring as pointers, 46-47
+
+
+forward declarations (Turbo Pascal functions/procedures), 281
+Fprintf function (C), 187-189
+Fputc function (C), 186
+Fputs function (C), 193
+Fputwc function (C), 229
+Fputws function (C), 230
+Fread function (C), 193
+Free function (C), 206
+Freopen function (C), 185
+Frexp function (C), 214
+Fscanf function (C), 190-193
+Fseek function (C), 195
+Fsetpos function (C), 195
+Ftell function (C), 194
+functions
+
+C, 136
+
+abort, 211
+abs, 211
+absolute value functions, 214
+ANSI syntax, 142
+arguments, 137-138
+asctime, 215
+assert library, 225
+atexit, 211
+atof, 208-209
+atoi, 207-208
+atol, 207-208
+bsearch, 210
+btowc, 231
+calling, 140-143
+calloc, 206
+clearerr, 197
+clock, 216
+ctime, 215
+ctype library, 204-205
+declaring, 138-140
+defining, 136-138
+difftime, 216
+div, 211
+errno library, 225
+exit, 210
+exp, 213
+external declarations, 143-145
+fclose, 186
+feof, 196
+ferror, 197
+fflush, 186
+fgetc, 186
+fgetpos, 195
+fgets, 193
+fgetwc, 229
+fgetws, 230
+float library, 226
+fmod, 214
+fopen, 185
+fprintf, 187-189
+fputc, 186
+fputs, 193
+fputwc, 229
+fputws, 230
+fread, 193
+free, 206
+freopen, 185
+frexp, 214
+fscanf, 190-193
+fseek, 195
+fsetpos, 195
+ftell, 194
+fwide, 231
+fwprintf, 230
+fwrite, 194
+fwscanf, 230
+getc, 186
+getchar, 186, 229
+getenv, 210
+gets, 193
+getwc, 229
+gmtime, 215
+hyperbolic functions, 214
+iso646 library, 226
+labs, 211
+ldexp, 214
+ldiv, 211
+library headers, 183-184
+limits library, 225
+locale library, 220
+localeconv, 221-222
+localtime, 215
+log, 213
+log10, 213
+longjmp, 220
+main, 88
+malloc, 158, 160, 206
+math library, 213
+mblen, 212
+mbrlen, 231
+mbrtowc, 232
+mbsinit, 232
+mbsrtowcs, 232
+mbstowcs, 213
+mbtowc, 212
+memchr, 203
+memcmp, 203
+memcpy, 203
+memmove, 203
+memset, 204
+mktime, 216
+modf, 214
+nearest-integer functions, 214
+perror, 197
+pointers, 161-163
+pow, 213
+printf, 187-189, 198
+prototype declarations, 140
+putc, 186
+putchar, 186
+puts, 193
+putwc, 229
+putwchar, 229
+qsort, 209-210
+raise, 219
+rand, 209
+realloc, 206-207
+remove, 198
+rename, 198
+rewind, 195
+scanf, 190-193, 197
+setbuf, 196
+setjmp, 220
+setjmp library, 220
+setlocale, 221
+setvbuf, 196
+signal, 219
+signal library, 218-219
+sprintf, 197
+srand, 209
+standard library, 182-184
+stdarg library, 222
+stddef library, 224
+stdio library, 184-185
+stdlib library, 205
+strcat, 200
+strchr, 202
+strcmp, 201
+strcoll, 202
+strcopy, 200
+strcspn, 203
+strerror, 204
+strftime, 217-218
+string library, 199
+strlen, 199
+strncat, 201
+strncmp, 202
+strncpy, 200
+strpbrk, 203
+strrchr, 202
+strspn, 203
+strstr, 202
+strtod, 208-209
+strtok, 204
+strtol, 207-208
+strtoul, 207-208
+strxfrm, 202
+swprintf, 230
+swscanf, 230
+syntax, 136
+system, 211
+terminating, 135
+time, 215
+time library, 214
+tmpfile, 198
+tmpnam, 198
+trigonometric functions, 213
+ungetc, 194
+ungetwc, 230
+va_arg, 223
+va_end, 223-224
+va_start, 223
+vfprintf, 198
+vfwprintf, 231
+vsprintf, 198
+vswprintf, 231
+vwprintf, 231
+wchar library, 227-228
+wcrtomb, 232
+wcsrtombs, 232
+wcstombs, 213
+wctob, 231
+wctomb, 212
+wctype library, 232
+wide character functions, 233-234
+wide string functions, 228-232
+wprintf, 230
+wscanf, 230
+
+Fortran 95, 28
+
+arguments, 28-29
+associated, 48
+built-in, 19
+count, 37
+extending, 44-45
+null, 47
+shape, 32
+
+Icon, 332
+
+bit pattern, 363
+drawing, 366-367
+matching, 349
+string-analysis, 348
+trigonometric, 362
+type(), 334
+
+Turbo Pascal, 279-280
+
+built-in, 283
+chr(), 286
+copy(), 288
+DIV, 261
+DOS equivalents, 315-317
+forward declarations, 281
+length(), 287
+mathematical functions, 289
+memory addresses, 297-298
+MOD, 261
+ord(), 286
+pos(), 288
+pseudo-random number generator, 290-291
+readkey, 304-305
+recursion, 280-281
+str(), 286
+upcase(), 287
+val(), 286
+
+
+Fwide function (C), 231
+Fwprintf function (C), 230
+Fwrite function (C), 194
+Fwscanf function (C), 230
+
+G"|"Handbook of Programming Languages Volume 2"|"Peter H. Salus"
+"ap 00:14"|12-14|"F (Fortran language subset), 11
+FAQs (Turbo Pascal), 320-323
+Fclose function (C), 186
+Feof function (C), 196
+Ferror function (C), 197
+Fflush function (C), 186
+Fgetc function (C), 186
+Fgetpos function (C), 195
+Fgets function (C), 193
+Fgetwc function (C), 229
+Fgetws function (C), 230
+Fibonacci numbers, 88-89, 396
+File inclusion (C), 73
+files, 52
+
+Turbo Pascal, 299
+
+accessing, 299-300
+object files, 319
+overlay files, 317-319
+printer as file, 304
+text files, 300-301
+typed binary files, 302-303
+untyped binary files, 303
+
+
+Float function library (C), 226
+floating-point data types (C), 92
+flow control
+
+C, 129-135
+Fortran 95, 21-24
+Icon, 333-334
+Turbo Pascal, 262-267
+
+Fmod function (C), 214
+Fopen function (C), 185
+for statements
+
+C, 130-131
+Turbo Pascal, 264
+
+Forall statement (Fortran 95), 35-36
+formatted records (Fortran 95), 51, 56
+Fortran, 3, 5, 253
+
+development of, 3-4
+F, 11
+Fortran 2000, 10
+Fortran 66, 4
+Fortran 77, 4
+Fortran 90, 5
+Fortran II, 4
+I/O, 50
+standardization, 4-6
+
+Fortran 95, 5
+
+arrays, 31
+
+assignment, 33
+computing shape, 32
+constructors, 32
+declaring, 31
+dynamic, 32
+indexed parallel assignment, 35-36
+masked assignment, 34
+operators, 34
+returning true values, 36
+sections, 33
+
+characters
+
+blank, 12
+concatenation, 38
+constants, 38
+dummy arguments, 37
+parameters, 37
+special, 13-14
+string length, 37
+substrings, 38
+
+comments, 13
+compatibility with Fortran 90, 7
+data types
+
+arithmetic operators, 15
+character, 16
+complex, 15
+declaring for trees, 49-50
+derived, 39
+extending, 40
+integer, 15
+logical, 16
+mixed-mode expressions, 16
+real constant, 15
+relational operators, 16
+
+expressions, 20
+extending, 40-45
+extensibility, 7
+flow control, 21-24
+functions, 28
+
+arguments, 28-29
+associated, 48
+built-in, 19
+count, 37
+extending, 44-45
+null, 47
+shape, 32
+
+HFP extensions, 10-11
+legacy code, 7
+loops
+
+assigning successive variable values, 25
+conditional execution, 25
+do, 24
+exiting, 25
+repeating, 25
+
+modules, 7, 26
+
+affecting objects in, 28
+using, 27-28
+writing, 26-27
+
+operators
+
+arithmetic, 15
+order of precedence, 20
+relational, 16
+
+parameters
+
+declaring, 18
+kind, 17
+named constants, 17
+naming rules, 18
+
+pointers, 45
+
+aliases, 47
+declaring variables as, 46-47
+determining association of, 48
+initializing, 47
+nullifying, 47
+states, 46
+
+procedures, 28
+
+arguments, 28-29
+built-in, 30
+elemental, 30
+
+programs
+
+example, 12
+form, 12-14
+
+record files, 52
+
+accessing, 53
+advancing I/O, 53-54
+closing, 55
+control information list, 55
+data transfer, 54
+external, 52
+format specification, 54
+I/O list, 55
+internal, 52
+nonadvancing I/O, 53-54
+opening, 55
+positioning, 56
+querying, 55
+
+records, 51
+
+endfile, 52
+formatted, 51, 56
+list-directed formatting, 56
+unformatted, 51
+
+standards, 7-8
+
+permissiveness of, 9-10
+portability, 9
+processor conformance to, 8-9
+program conformance to, 8
+
+statements
+
+assignment, 21
+backspace, 56
+blocks, 22
+case, 23
+close, 55
+continued, 12
+cycle, 25
+do, 24
+elsewhere, 34
+end do, 24
+end program, 14
+endfile, 56
+exit, 25
+forall, 35-36
+I/O statements, 51
+if, 22-23
+inquire, 55
+keywords, 12
+open, 55
+print, 54
+program, 14
+read, 54
+rewind, 56
+select case, 23
+type, 17
+use, 27
+where, 34
+write, 54
+
+strengths of, 6-7
+structures, 38
+
+constructors, 40
+declaring, 39
+referencing components, 39
+
+subroutines, 28
+
+arguments, 28-29
+
+trees, 48
+
+declaring data types for, 49-50
+sorting numbers with, 48
+
+variables, 18
+
+attributes, 19
+declaring as pointers, 46-47
+
+
+forward declarations (Turbo Pascal functions/procedures), 281
+Fprintf function (C), 187-189
+Fputc function (C), 186
+Fputs function (C), 193
+Fputwc function (C), 229
+Fputws function (C), 230
+Fread function (C), 193
+Free function (C), 206
+Freopen function (C), 185
+Frexp function (C), 214
+Fscanf function (C), 190-193
+Fseek function (C), 195
+Fsetpos function (C), 195
+Ftell function (C), 194
+functions
+
+C, 136
+
+abort, 211
+abs, 211
+absolute value functions, 214
+ANSI syntax, 142
+arguments, 137-138
+asctime, 215
+assert library, 225
+atexit, 211
+atof, 208-209
+atoi, 207-208
+atol, 207-208
+bsearch, 210
+btowc, 231
+calling, 140-143
+calloc, 206
+clearerr, 197
+clock, 216
+ctime, 215
+ctype library, 204-205
+declaring, 138-140
+defining, 136-138
+difftime, 216
+div, 211
+errno library, 225
+exit, 210
+exp, 213
+external declarations, 143-145
+fclose, 186
+feof, 196
+ferror, 197
+fflush, 186
+fgetc, 186
+fgetpos, 195
+fgets, 193
+fgetwc, 229
+fgetws, 230
+float library, 226
+fmod, 214
+fopen, 185
+fprintf, 187-189
+fputc, 186
+fputs, 193
+fputwc, 229
+fputws, 230
+fread, 193
+free, 206
+freopen, 185
+frexp, 214
+fscanf, 190-193
+fseek, 195
+fsetpos, 195
+ftell, 194
+fwide, 231
+fwprintf, 230
+fwrite, 194
+fwscanf, 230
+getc, 186
+getchar, 186, 229
+getenv, 210
+gets, 193
+getwc, 229
+gmtime, 215
+hyperbolic functions, 214
+iso646 library, 226
+labs, 211
+ldexp, 214
+ldiv, 211
+library headers, 183-184
+limits library, 225
+locale library, 220
+localeconv, 221-222
+localtime, 215
+log, 213
+log10, 213
+longjmp, 220
+main, 88
+malloc, 158, 160, 206
+math library, 213
+mblen, 212
+mbrlen, 231
+mbrtowc, 232
+mbsinit, 232
+mbsrtowcs, 232
+mbstowcs, 213
+mbtowc, 212
+memchr, 203
+memcmp, 203
+memcpy, 203
+memmove, 203
+memset, 204
+mktime, 216
+modf, 214
+nearest-integer functions, 214
+perror, 197
+pointers, 161-163
+pow, 213
+printf, 187-189, 198
+prototype declarations, 140
+putc, 186
+putchar, 186
+puts, 193
+putwc, 229
+putwchar, 229
+qsort, 209-210
+raise, 219
+rand, 209
+realloc, 206-207
+remove, 198
+rename, 198
+rewind, 195
+scanf, 190-193, 197
+setbuf, 196
+setjmp, 220
+setjmp library, 220
+setlocale, 221
+setvbuf, 196
+signal, 219
+signal library, 218-219
+sprintf, 197
+srand, 209
+standard library, 182-184
+stdarg library, 222
+stddef library, 224
+stdio library, 184-185
+stdlib library, 205
+strcat, 200
+strchr, 202
+strcmp, 201
+strcoll, 202
+strcopy, 200
+strcspn, 203
+strerror, 204
+strftime, 217-218
+string library, 199
+strlen, 199
+strncat, 201
+strncmp, 202
+strncpy, 200
+strpbrk, 203
+strrchr, 202
+strspn, 203
+strstr, 202
+strtod, 208-209
+strtok, 204
+strtol, 207-208
+strtoul, 207-208
+strxfrm, 202
+swprintf, 230
+swscanf, 230
+syntax, 136
+system, 211
+terminating, 135
+time, 215
+time library, 214
+tmpfile, 198
+tmpnam, 198
+trigonometric functions, 213
+ungetc, 194
+ungetwc, 230
+va_arg, 223
+va_end, 223-224
+va_start, 223
+vfprintf, 198
+vfwprintf, 231
+vsprintf, 198
+vswprintf, 231
+vwprintf, 231
+wchar library, 227-228
+wcrtomb, 232
+wcsrtombs, 232
+wcstombs, 213
+wctob, 231
+wctomb, 212
+wctype library, 232
+wide character functions, 233-234
+wide string functions, 228-232
+wprintf, 230
+wscanf, 230
+
+Fortran 95, 28
+
+arguments, 28-29
+associated, 48
+built-in, 19
+count, 37
+extending, 44-45
+null, 47
+shape, 32
+
+Icon, 332
+
+bit pattern, 363
+drawing, 366-367
+matching, 349
+string-analysis, 348
+trigonometric, 362
+type(), 334
+
+Turbo Pascal, 279-280
+
+built-in, 283
+chr(), 286
+copy(), 288
+DIV, 261
+DOS equivalents, 315-317
+forward declarations, 281
+length(), 287
+mathematical functions, 289
+memory addresses, 297-298
+MOD, 261
+ord(), 286
+pos(), 288
+pseudo-random number generator, 290-291
+readkey, 304-305
+recursion, 280-281
+str(), 286
+upcase(), 287
+val(), 286
+
+
+Fwide function (C), 231
+Fwprintf function (C), 230
+Fwrite function (C), 194
+Fwscanf function (C), 230
+
+G"|"Handbook of Programming Languages Volume 2"|"Peter H. Salus"
+"ap 09:10"|9-10|"F (Fortran language subset), 11
+FAQs (Turbo Pascal), 320-323
+Fclose function (C), 186
+Feof function (C), 196
+Ferror function (C), 197
+Fflush function (C), 186
+Fgetc function (C), 186
+Fgetpos function (C), 195
+Fgets function (C), 193
+Fgetwc function (C), 229
+Fgetws function (C), 230
+Fibonacci numbers, 88-89, 396
+File inclusion (C), 73
+files, 52
+
+Turbo Pascal, 299
+
+accessing, 299-300
+object files, 319
+overlay files, 317-319
+printer as file, 304
+text files, 300-301
+typed binary files, 302-303
+untyped binary files, 303
+
+
+Float function library (C), 226
+floating-point data types (C), 92
+flow control
+
+C, 129-135
+Fortran 95, 21-24
+Icon, 333-334
+Turbo Pascal, 262-267
+
+Fmod function (C), 214
+Fopen function (C), 185
+for statements
+
+C, 130-131
+Turbo Pascal, 264
+
+Forall statement (Fortran 95), 35-36
+formatted records (Fortran 95), 51, 56
+Fortran, 3, 5, 253
+
+development of, 3-4
+F, 11
+Fortran 2000, 10
+Fortran 66, 4
+Fortran 77, 4
+Fortran 90, 5
+Fortran II, 4
+I/O, 50
+standardization, 4-6
+
+Fortran 95, 5
+
+arrays, 31
+
+assignment, 33
+computing shape, 32
+constructors, 32
+declaring, 31
+dynamic, 32
+indexed parallel assignment, 35-36
+masked assignment, 34
+operators, 34
+returning true values, 36
+sections, 33
+
+characters
+
+blank, 12
+concatenation, 38
+constants, 38
+dummy arguments, 37
+parameters, 37
+special, 13-14
+string length, 37
+substrings, 38
+
+comments, 13
+compatibility with Fortran 90, 7
+data types
+
+arithmetic operators, 15
+character, 16
+complex, 15
+declaring for trees, 49-50
+derived, 39
+extending, 40
+integer, 15
+logical, 16
+mixed-mode expressions, 16
+real constant, 15
+relational operators, 16
+
+expressions, 20
+extending, 40-45
+extensibility, 7
+flow control, 21-24
+functions, 28
+
+arguments, 28-29
+associated, 48
+built-in, 19
+count, 37
+extending, 44-45
+null, 47
+shape, 32
+
+HFP extensions, 10-11
+legacy code, 7
+loops
+
+assigning successive variable values, 25
+conditional execution, 25
+do, 24
+exiting, 25
+repeating, 25
+
+modules, 7, 26
+
+affecting objects in, 28
+using, 27-28
+writing, 26-27
+
+operators
+
+arithmetic, 15
+order of precedence, 20
+relational, 16
+
+parameters
+
+declaring, 18
+kind, 17
+named constants, 17
+naming rules, 18
+
+pointers, 45
+
+aliases, 47
+declaring variables as, 46-47
+determining association of, 48
+initializing, 47
+nullifying, 47
+states, 46
+
+procedures, 28
+
+arguments, 28-29
+built-in, 30
+elemental, 30
+
+programs
+
+example, 12
+form, 12-14
+
+record files, 52
+
+accessing, 53
+advancing I/O, 53-54
+closing, 55
+control information list, 55
+data transfer, 54
+external, 52
+format specification, 54
+I/O list, 55
+internal, 52
+nonadvancing I/O, 53-54
+opening, 55
+positioning, 56
+querying, 55
+
+records, 51
+
+endfile, 52
+formatted, 51, 56
+list-directed formatting, 56
+unformatted, 51
+
+standards, 7-8
+
+permissiveness of, 9-10
+portability, 9
+processor conformance to, 8-9
+program conformance to, 8
+
+statements
+
+assignment, 21
+backspace, 56
+blocks, 22
+case, 23
+close, 55
+continued, 12
+cycle, 25
+do, 24
+elsewhere, 34
+end do, 24
+end program, 14
+endfile, 56
+exit, 25
+forall, 35-36
+I/O statements, 51
+if, 22-23
+inquire, 55
+keywords, 12
+open, 55
+print, 54
+program, 14
+read, 54
+rewind, 56
+select case, 23
+type, 17
+use, 27
+where, 34
+write, 54
+
+strengths of, 6-7
+structures, 38
+
+constructors, 40
+declaring, 39
+referencing components, 39
+
+subroutines, 28
+
+arguments, 28-29
+
+trees, 48
+
+declaring data types for, 49-50
+sorting numbers with, 48
+
+variables, 18
+
+attributes, 19
+declaring as pointers, 46-47
+
+
+forward declarations (Turbo Pascal functions/procedures), 281
+Fprintf function (C), 187-189
+Fputc function (C), 186
+Fputs function (C), 193
+Fputwc function (C), 229
+Fputws function (C), 230
+Fread function (C), 193
+Free function (C), 206
+Freopen function (C), 185
+Frexp function (C), 214
+Fscanf function (C), 190-193
+Fseek function (C), 195
+Fsetpos function (C), 195
+Ftell function (C), 194
+functions
+
+C, 136
+
+abort, 211
+abs, 211
+absolute value functions, 214
+ANSI syntax, 142
+arguments, 137-138
+asctime, 215
+assert library, 225
+atexit, 211
+atof, 208-209
+atoi, 207-208
+atol, 207-208
+bsearch, 210
+btowc, 231
+calling, 140-143
+calloc, 206
+clearerr, 197
+clock, 216
+ctime, 215
+ctype library, 204-205
+declaring, 138-140
+defining, 136-138
+difftime, 216
+div, 211
+errno library, 225
+exit, 210
+exp, 213
+external declarations, 143-145
+fclose, 186
+feof, 196
+ferror, 197
+fflush, 186
+fgetc, 186
+fgetpos, 195
+fgets, 193
+fgetwc, 229
+fgetws, 230
+float library, 226
+fmod, 214
+fopen, 185
+fprintf, 187-189
+fputc, 186
+fputs, 193
+fputwc, 229
+fputws, 230
+fread, 193
+free, 206
+freopen, 185
+frexp, 214
+fscanf, 190-193
+fseek, 195
+fsetpos, 195
+ftell, 194
+fwide, 231
+fwprintf, 230
+fwrite, 194
+fwscanf, 230
+getc, 186
+getchar, 186, 229
+getenv, 210
+gets, 193
+getwc, 229
+gmtime, 215
+hyperbolic functions, 214
+iso646 library, 226
+labs, 211
+ldexp, 214
+ldiv, 211
+library headers, 183-184
+limits library, 225
+locale library, 220
+localeconv, 221-222
+localtime, 215
+log, 213
+log10, 213
+longjmp, 220
+main, 88
+malloc, 158, 160, 206
+math library, 213
+mblen, 212
+mbrlen, 231
+mbrtowc, 232
+mbsinit, 232
+mbsrtowcs, 232
+mbstowcs, 213
+mbtowc, 212
+memchr, 203
+memcmp, 203
+memcpy, 203
+memmove, 203
+memset, 204
+mktime, 216
+modf, 214
+nearest-integer functions, 214
+perror, 197
+pointers, 161-163
+pow, 213
+printf, 187-189, 198
+prototype declarations, 140
+putc, 186
+putchar, 186
+puts, 193
+putwc, 229
+putwchar, 229
+qsort, 209-210
+raise, 219
+rand, 209
+realloc, 206-207
+remove, 198
+rename, 198
+rewind, 195
+scanf, 190-193, 197
+setbuf, 196
+setjmp, 220
+setjmp library, 220
+setlocale, 221
+setvbuf, 196
+signal, 219
+signal library, 218-219
+sprintf, 197
+srand, 209
+standard library, 182-184
+stdarg library, 222
+stddef library, 224
+stdio library, 184-185
+stdlib library, 205
+strcat, 200
+strchr, 202
+strcmp, 201
+strcoll, 202
+strcopy, 200
+strcspn, 203
+strerror, 204
+strftime, 217-218
+string library, 199
+strlen, 199
+strncat, 201
+strncmp, 202
+strncpy, 200
+strpbrk, 203
+strrchr, 202
+strspn, 203
+strstr, 202
+strtod, 208-209
+strtok, 204
+strtol, 207-208
+strtoul, 207-208
+strxfrm, 202
+swprintf, 230
+swscanf, 230
+syntax, 136
+system, 211
+terminating, 135
+time, 215
+time library, 214
+tmpfile, 198
+tmpnam, 198
+trigonometric functions, 213
+ungetc, 194
+ungetwc, 230
+va_arg, 223
+va_end, 223-224
+va_start, 223
+vfprintf, 198
+vfwprintf, 231
+vsprintf, 198
+vswprintf, 231
+vwprintf, 231
+wchar library, 227-228
+wcrtomb, 232
+wcsrtombs, 232
+wcstombs, 213
+wctob, 231
+wctomb, 212
+wctype library, 232
+wide character functions, 233-234
+wide string functions, 228-232
+wprintf, 230
+wscanf, 230
+
+Fortran 95, 28
+
+arguments, 28-29
+associated, 48
+built-in, 19
+count, 37
+extending, 44-45
+null, 47
+shape, 32
+
+Icon, 332
+
+bit pattern, 363
+drawing, 366-367
+matching, 349
+string-analysis, 348
+trigonometric, 362
+type(), 334
+
+Turbo Pascal, 279-280
+
+built-in, 283
+chr(), 286
+copy(), 288
+DIV, 261
+DOS equivalents, 315-317
+forward declarations, 281
+length(), 287
+mathematical functions, 289
+memory addresses, 297-298
+MOD, 261
+ord(), 286
+pos(), 288
+pseudo-random number generator, 290-291
+readkey, 304-305
+recursion, 280-281
+str(), 286
+upcase(), 287
+val(), 286
+
+
+Fwide function (C), 231
+Fwprintf function (C), 230
+Fwrite function (C), 194
+Fwscanf function (C), 230
+
+G"|"Handbook of Programming Languages Volume 2"|"Peter H. Salus"
+22:23|22-23|"F (Fortran language subset), 11
+FAQs (Turbo Pascal), 320-323
+Fclose function (C), 186
+Feof function (C), 196
+Ferror function (C), 197
+Fflush function (C), 186
+Fgetc function (C), 186
+Fgetpos function (C), 195
+Fgets function (C), 193
+Fgetwc function (C), 229
+Fgetws function (C), 230
+Fibonacci numbers, 88-89, 396
+File inclusion (C), 73
+files, 52
+
+Turbo Pascal, 299
+
+accessing, 299-300
+object files, 319
+overlay files, 317-319
+printer as file, 304
+text files, 300-301
+typed binary files, 302-303
+untyped binary files, 303
+
+
+Float function library (C), 226
+floating-point data types (C), 92
+flow control
+
+C, 129-135
+Fortran 95, 21-24
+Icon, 333-334
+Turbo Pascal, 262-267
+
+Fmod function (C), 214
+Fopen function (C), 185
+for statements
+
+C, 130-131
+Turbo Pascal, 264
+
+Forall statement (Fortran 95), 35-36
+formatted records (Fortran 95), 51, 56
+Fortran, 3, 5, 253
+
+development of, 3-4
+F, 11
+Fortran 2000, 10
+Fortran 66, 4
+Fortran 77, 4
+Fortran 90, 5
+Fortran II, 4
+I/O, 50
+standardization, 4-6
+
+Fortran 95, 5
+
+arrays, 31
+
+assignment, 33
+computing shape, 32
+constructors, 32
+declaring, 31
+dynamic, 32
+indexed parallel assignment, 35-36
+masked assignment, 34
+operators, 34
+returning true values, 36
+sections, 33
+
+characters
+
+blank, 12
+concatenation, 38
+constants, 38
+dummy arguments, 37
+parameters, 37
+special, 13-14
+string length, 37
+substrings, 38
+
+comments, 13
+compatibility with Fortran 90, 7
+data types
+
+arithmetic operators, 15
+character, 16
+complex, 15
+declaring for trees, 49-50
+derived, 39
+extending, 40
+integer, 15
+logical, 16
+mixed-mode expressions, 16
+real constant, 15
+relational operators, 16
+
+expressions, 20
+extending, 40-45
+extensibility, 7
+flow control, 21-24
+functions, 28
+
+arguments, 28-29
+associated, 48
+built-in, 19
+count, 37
+extending, 44-45
+null, 47
+shape, 32
+
+HFP extensions, 10-11
+legacy code, 7
+loops
+
+assigning successive variable values, 25
+conditional execution, 25
+do, 24
+exiting, 25
+repeating, 25
+
+modules, 7, 26
+
+affecting objects in, 28
+using, 27-28
+writing, 26-27
+
+operators
+
+arithmetic, 15
+order of precedence, 20
+relational, 16
+
+parameters
+
+declaring, 18
+kind, 17
+named constants, 17
+naming rules, 18
+
+pointers, 45
+
+aliases, 47
+declaring variables as, 46-47
+determining association of, 48
+initializing, 47
+nullifying, 47
+states, 46
+
+procedures, 28
+
+arguments, 28-29
+built-in, 30
+elemental, 30
+
+programs
+
+example, 12
+form, 12-14
+
+record files, 52
+
+accessing, 53
+advancing I/O, 53-54
+closing, 55
+control information list, 55
+data transfer, 54
+external, 52
+format specification, 54
+I/O list, 55
+internal, 52
+nonadvancing I/O, 53-54
+opening, 55
+positioning, 56
+querying, 55
+
+records, 51
+
+endfile, 52
+formatted, 51, 56
+list-directed formatting, 56
+unformatted, 51
+
+standards, 7-8
+
+permissiveness of, 9-10
+portability, 9
+processor conformance to, 8-9
+program conformance to, 8
+
+statements
+
+assignment, 21
+backspace, 56
+blocks, 22
+case, 23
+close, 55
+continued, 12
+cycle, 25
+do, 24
+elsewhere, 34
+end do, 24
+end program, 14
+endfile, 56
+exit, 25
+forall, 35-36
+I/O statements, 51
+if, 22-23
+inquire, 55
+keywords, 12
+open, 55
+print, 54
+program, 14
+read, 54
+rewind, 56
+select case, 23
+type, 17
+use, 27
+where, 34
+write, 54
+
+strengths of, 6-7
+structures, 38
+
+constructors, 40
+declaring, 39
+referencing components, 39
+
+subroutines, 28
+
+arguments, 28-29
+
+trees, 48
+
+declaring data types for, 49-50
+sorting numbers with, 48
+
+variables, 18
+
+attributes, 19
+declaring as pointers, 46-47
+
+
+forward declarations (Turbo Pascal functions/procedures), 281
+Fprintf function (C), 187-189
+Fputc function (C), 186
+Fputs function (C), 193
+Fputwc function (C), 229
+Fputws function (C), 230
+Fread function (C), 193
+Free function (C), 206
+Freopen function (C), 185
+Frexp function (C), 214
+Fscanf function (C), 190-193
+Fseek function (C), 195
+Fsetpos function (C), 195
+Ftell function (C), 194
+functions
+
+C, 136
+
+abort, 211
+abs, 211
+absolute value functions, 214
+ANSI syntax, 142
+arguments, 137-138
+asctime, 215
+assert library, 225
+atexit, 211
+atof, 208-209
+atoi, 207-208
+atol, 207-208
+bsearch, 210
+btowc, 231
+calling, 140-143
+calloc, 206
+clearerr, 197
+clock, 216
+ctime, 215
+ctype library, 204-205
+declaring, 138-140
+defining, 136-138
+difftime, 216
+div, 211
+errno library, 225
+exit, 210
+exp, 213
+external declarations, 143-145
+fclose, 186
+feof, 196
+ferror, 197
+fflush, 186
+fgetc, 186
+fgetpos, 195
+fgets, 193
+fgetwc, 229
+fgetws, 230
+float library, 226
+fmod, 214
+fopen, 185
+fprintf, 187-189
+fputc, 186
+fputs, 193
+fputwc, 229
+fputws, 230
+fread, 193
+free, 206
+freopen, 185
+frexp, 214
+fscanf, 190-193
+fseek, 195
+fsetpos, 195
+ftell, 194
+fwide, 231
+fwprintf, 230
+fwrite, 194
+fwscanf, 230
+getc, 186
+getchar, 186, 229
+getenv, 210
+gets, 193
+getwc, 229
+gmtime, 215
+hyperbolic functions, 214
+iso646 library, 226
+labs, 211
+ldexp, 214
+ldiv, 211
+library headers, 183-184
+limits library, 225
+locale library, 220
+localeconv, 221-222
+localtime, 215
+log, 213
+log10, 213
+longjmp, 220
+main, 88
+malloc, 158, 160, 206
+math library, 213
+mblen, 212
+mbrlen, 231
+mbrtowc, 232
+mbsinit, 232
+mbsrtowcs, 232
+mbstowcs, 213
+mbtowc, 212
+memchr, 203
+memcmp, 203
+memcpy, 203
+memmove, 203
+memset, 204
+mktime, 216
+modf, 214
+nearest-integer functions, 214
+perror, 197
+pointers, 161-163
+pow, 213
+printf, 187-189, 198
+prototype declarations, 140
+putc, 186
+putchar, 186
+puts, 193
+putwc, 229
+putwchar, 229
+qsort, 209-210
+raise, 219
+rand, 209
+realloc, 206-207
+remove, 198
+rename, 198
+rewind, 195
+scanf, 190-193, 197
+setbuf, 196
+setjmp, 220
+setjmp library, 220
+setlocale, 221
+setvbuf, 196
+signal, 219
+signal library, 218-219
+sprintf, 197
+srand, 209
+standard library, 182-184
+stdarg library, 222
+stddef library, 224
+stdio library, 184-185
+stdlib library, 205
+strcat, 200
+strchr, 202
+strcmp, 201
+strcoll, 202
+strcopy, 200
+strcspn, 203
+strerror, 204
+strftime, 217-218
+string library, 199
+strlen, 199
+strncat, 201
+strncmp, 202
+strncpy, 200
+strpbrk, 203
+strrchr, 202
+strspn, 203
+strstr, 202
+strtod, 208-209
+strtok, 204
+strtol, 207-208
+strtoul, 207-208
+strxfrm, 202
+swprintf, 230
+swscanf, 230
+syntax, 136
+system, 211
+terminating, 135
+time, 215
+time library, 214
+tmpfile, 198
+tmpnam, 198
+trigonometric functions, 213
+ungetc, 194
+ungetwc, 230
+va_arg, 223
+va_end, 223-224
+va_start, 223
+vfprintf, 198
+vfwprintf, 231
+vsprintf, 198
+vswprintf, 231
+vwprintf, 231
+wchar library, 227-228
+wcrtomb, 232
+wcsrtombs, 232
+wcstombs, 213
+wctob, 231
+wctomb, 212
+wctype library, 232
+wide character functions, 233-234
+wide string functions, 228-232
+wprintf, 230
+wscanf, 230
+
+Fortran 95, 28
+
+arguments, 28-29
+associated, 48
+built-in, 19
+count, 37
+extending, 44-45
+null, 47
+shape, 32
+
+Icon, 332
+
+bit pattern, 363
+drawing, 366-367
+matching, 349
+string-analysis, 348
+trigonometric, 362
+type(), 334
+
+Turbo Pascal, 279-280
+
+built-in, 283
+chr(), 286
+copy(), 288
+DIV, 261
+DOS equivalents, 315-317
+forward declarations, 281
+length(), 287
+mathematical functions, 289
+memory addresses, 297-298
+MOD, 261
+ord(), 286
+pos(), 288
+pseudo-random number generator, 290-291
+readkey, 304-305
+recursion, 280-281
+str(), 286
+upcase(), 287
+val(), 286
+
+
+Fwide function (C), 231
+Fwprintf function (C), 230
+Fwrite function (C), 194
+Fwscanf function (C), 230
+
+G"|"Handbook of Programming Languages Volume 2"|"Peter H. Salus"

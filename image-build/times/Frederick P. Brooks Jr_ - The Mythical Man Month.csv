@@ -1,0 +1,131 @@
+"ap ~ 04:57"|"about three to five"|"But Corbato's number is lines per man-year, not wordsl Each statement in his system corresponds to about three to five words of handwritten code! This suggests two important conclusions."|"The Mythical Man Month"|"Frederick P. Brooks Jr_"
+20:20|20-20|"In setting core sizes for each component, we had not simultaneously set access budgets. As anyone with 20-20 hindsight would expect, a programmer who found his program slopping over his core target broke it into overlays. This process in itself added to the total size and slowed execution down. Most seriously, our management control system neither measured nor caught this. Each man reported as to how much core he was using, and since he was within target, no one worried."|"The Mythical Man Month"|"Frederick P. Brooks Jr_"
+13:10|13.10|"13.10 I find that proper use of a good [quick response interactive debugging] system requires two hours at the desk for each two-hour session on the machine: one hour in sweeping up and documenting after the session and one in planning changes and tests for the next time."|"The Mythical Man Month"|"Frederick P. Brooks Jr_"
+14:15|14.15|"14.15 By bad action, a boss can guarantee to squelch full status disclosure; conversely, carefully separating status reports and accepting them without panic or preemption will encourage honest reporting."|"The Mythical Man Month"|"Frederick P. Brooks Jr_"
+"ap 10:12"|10-12|"Brooks, F. P., ""No silver bullet—essence and accidents of software engineering,"" in Information Processing 86, H, J. Kugler, ed. Amsterdam: Elsevier Science (North Holland), 1986, pp. 1069^1076.
+Brooks, F. P., ""No silver bullet—essence and accidents of software engineering,"" Computer 20,4 (April, 1987), pp. 10-19.
+Several of the letters, and a reply, appeared in the July, 1987 issue of Computer.
+It is a special pleasure to observe that whereas ""NSB"" received no awards, Bruce M. Skwiersky's review of it was selected as the best review published in Computing Reviews in 1988. E. A. Weiss, ""Editorial,"" Computing Reviews (June, 1989), pp. 283-284, both announces the award and reprints Skwiersky's review. The review has one significant error: ""sixfold"" should be ""106.""
+""According to Aristotle, and in Scholastic philosophy, an accident is a quality which does not belong to a thing by right of that thing's essential or substantial nature but occurs in it as an effect of other causes."" Webster's New International
+Dictionary of the English Language, 2d ed., Springfield, Mass.: G. C. Merriam, 1960.
+Sayers, Dorothy L., The Mind of the Maker. New York: Har-court, Brace, 1941.
+Glass, R. L., and S. A. Conger, ""Research software tasks: Intellectual or clerical?"" Information and Management, 23, 4 (1992). The authors report a measurement of software requirements specification to be about 80% intellectual and 20% clerical. Fjelstadt and Hamlen, 1979, get essentially the same results for application software maintenance. I know of no attempt to measure this fraction for the whole end-to-end task.
+Herzberg, F., B. Mausner, and B. B. Sayderman. The Motivation to Work, 2nd ed. London: Wiley, 1959.
+Cox, B. J., ""There is a silver bullet,"" Byte (Oct., 1990), pp. 209-218.
+Harel, D., ""Biting the silver bullet: Toward a brighter future for system development,"" Computer (Jan., 1992), pp. 8-20.
+Parnas, D. L., ""Software aspects of strategic defense systems,"" Communications of the ACM, 28, 12 (Dec., 1985), pp. 1326-1335.
+Turski, W. M., ""And no philosophers' stone, either,"" in Information Processing 86, H. J. Kugler, ed. Amsterdam: Elsevier Science (North Holland), 1986, pp. 1077-1080.
+Glass, R. L., and S. A. Conger, ""Research Software Tasks: Intellectual or Clerical?"" Information and Management, 23, 4 (1992), pp. 183-192.
+Review of Electronic Digital Computers, Proceedings of a Joint
+AIEE-IRE Computer Conference (Philadelphia, Dec. 10-12, 1951). New York: American Institute of Electrical Engineers, pp. 13-20.
+Ibid., pp. 36, 68, 71, 97.
+Proceedings of the Eastern Joint Computer Conference, (Washington, Dec. 8-10, 1953). New York: Institute of Electrical Engineers, pp. 45-47.
+Proceedings of the 1955 Western Joint Computer Conference (Los Angeles, March 1-3, 1955). New York: Institute of Electrical Engineers.
+Everett, R. R., C. A. Zraket, and H. D. Bennington, ""SAGE—A data processing system for air defense,"" Proceedings of the Eastern Joint Computer Conference, (Washington, Dec. 11-13, 1957). New York: Institute of Electrical Engineers.
+Harel, D., H. Lachover, A. Naamad, A. Pnueli, M. Politi, R. Sherman, A. Shtul-Trauring, ""Statemate: A working environment for the development of complex reactive systems,"" IEEE Trans, on SE, 16, 4 (1990), pp. 403^44.
+Jones, C., Assessment and Control of Software Risks. Englewood Cliffs, N.J.: Prentice-Hall, 1994. p. 619.
+Coqui, H., ""Corporate survival: The software dimension,"" Focus '89, Cannes, 1989.
+Coggins, James M., ""Designing C + + libraries,"" C+ + Journal, \, 1 (June, 1990), pp. 25-32.
+The tense is future; I know of no such result yet reported for a fifth use.
+Jones, op. cit., p 604.
+Huang, Weigiao, ""Industrializing software production,"" Proceedings ACM 1988 Computer Science Conference, Atlanta, 1988. I fear the lack of personal job growth in such an arrangement.
+The entire September, 1994 issue of IEEE Software is on reuse.
+Jones, op. cit., p. 323.
+Jones, op. cit., p. 329.
+Yourdon, E., Decline and Fall of the American Programmer. Englewood Cliffs, N.J.: Yourdon Press, 1992, p. 221.
+Glass, R. L., ""Glass""(column), System Development, (Janu-ary, 1988), pp. 4-5."|"The Mythical Man Month"|"Frederick P. Brooks Jr_"
+"ap 08:10"|8-10|"Brooks, F. P., ""No silver bullet—essence and accidents of software engineering,"" in Information Processing 86, H, J. Kugler, ed. Amsterdam: Elsevier Science (North Holland), 1986, pp. 1069^1076.
+Brooks, F. P., ""No silver bullet—essence and accidents of software engineering,"" Computer 20,4 (April, 1987), pp. 10-19.
+Several of the letters, and a reply, appeared in the July, 1987 issue of Computer.
+It is a special pleasure to observe that whereas ""NSB"" received no awards, Bruce M. Skwiersky's review of it was selected as the best review published in Computing Reviews in 1988. E. A. Weiss, ""Editorial,"" Computing Reviews (June, 1989), pp. 283-284, both announces the award and reprints Skwiersky's review. The review has one significant error: ""sixfold"" should be ""106.""
+""According to Aristotle, and in Scholastic philosophy, an accident is a quality which does not belong to a thing by right of that thing's essential or substantial nature but occurs in it as an effect of other causes."" Webster's New International
+Dictionary of the English Language, 2d ed., Springfield, Mass.: G. C. Merriam, 1960.
+Sayers, Dorothy L., The Mind of the Maker. New York: Har-court, Brace, 1941.
+Glass, R. L., and S. A. Conger, ""Research software tasks: Intellectual or clerical?"" Information and Management, 23, 4 (1992). The authors report a measurement of software requirements specification to be about 80% intellectual and 20% clerical. Fjelstadt and Hamlen, 1979, get essentially the same results for application software maintenance. I know of no attempt to measure this fraction for the whole end-to-end task.
+Herzberg, F., B. Mausner, and B. B. Sayderman. The Motivation to Work, 2nd ed. London: Wiley, 1959.
+Cox, B. J., ""There is a silver bullet,"" Byte (Oct., 1990), pp. 209-218.
+Harel, D., ""Biting the silver bullet: Toward a brighter future for system development,"" Computer (Jan., 1992), pp. 8-20.
+Parnas, D. L., ""Software aspects of strategic defense systems,"" Communications of the ACM, 28, 12 (Dec., 1985), pp. 1326-1335.
+Turski, W. M., ""And no philosophers' stone, either,"" in Information Processing 86, H. J. Kugler, ed. Amsterdam: Elsevier Science (North Holland), 1986, pp. 1077-1080.
+Glass, R. L., and S. A. Conger, ""Research Software Tasks: Intellectual or Clerical?"" Information and Management, 23, 4 (1992), pp. 183-192.
+Review of Electronic Digital Computers, Proceedings of a Joint
+AIEE-IRE Computer Conference (Philadelphia, Dec. 10-12, 1951). New York: American Institute of Electrical Engineers, pp. 13-20.
+Ibid., pp. 36, 68, 71, 97.
+Proceedings of the Eastern Joint Computer Conference, (Washington, Dec. 8-10, 1953). New York: Institute of Electrical Engineers, pp. 45-47.
+Proceedings of the 1955 Western Joint Computer Conference (Los Angeles, March 1-3, 1955). New York: Institute of Electrical Engineers.
+Everett, R. R., C. A. Zraket, and H. D. Bennington, ""SAGE—A data processing system for air defense,"" Proceedings of the Eastern Joint Computer Conference, (Washington, Dec. 11-13, 1957). New York: Institute of Electrical Engineers.
+Harel, D., H. Lachover, A. Naamad, A. Pnueli, M. Politi, R. Sherman, A. Shtul-Trauring, ""Statemate: A working environment for the development of complex reactive systems,"" IEEE Trans, on SE, 16, 4 (1990), pp. 403^44.
+Jones, C., Assessment and Control of Software Risks. Englewood Cliffs, N.J.: Prentice-Hall, 1994. p. 619.
+Coqui, H., ""Corporate survival: The software dimension,"" Focus '89, Cannes, 1989.
+Coggins, James M., ""Designing C + + libraries,"" C+ + Journal, \, 1 (June, 1990), pp. 25-32.
+The tense is future; I know of no such result yet reported for a fifth use.
+Jones, op. cit., p 604.
+Huang, Weigiao, ""Industrializing software production,"" Proceedings ACM 1988 Computer Science Conference, Atlanta, 1988. I fear the lack of personal job growth in such an arrangement.
+The entire September, 1994 issue of IEEE Software is on reuse.
+Jones, op. cit., p. 323.
+Jones, op. cit., p. 329.
+Yourdon, E., Decline and Fall of the American Programmer. Englewood Cliffs, N.J.: Yourdon Press, 1992, p. 221.
+Glass, R. L., ""Glass""(column), System Development, (Janu-ary, 1988), pp. 4-5."|"The Mythical Man Month"|"Frederick P. Brooks Jr_"
+"ap 11:13"|11-13|"Brooks, F. P., ""No silver bullet—essence and accidents of software engineering,"" in Information Processing 86, H, J. Kugler, ed. Amsterdam: Elsevier Science (North Holland), 1986, pp. 1069^1076.
+Brooks, F. P., ""No silver bullet—essence and accidents of software engineering,"" Computer 20,4 (April, 1987), pp. 10-19.
+Several of the letters, and a reply, appeared in the July, 1987 issue of Computer.
+It is a special pleasure to observe that whereas ""NSB"" received no awards, Bruce M. Skwiersky's review of it was selected as the best review published in Computing Reviews in 1988. E. A. Weiss, ""Editorial,"" Computing Reviews (June, 1989), pp. 283-284, both announces the award and reprints Skwiersky's review. The review has one significant error: ""sixfold"" should be ""106.""
+""According to Aristotle, and in Scholastic philosophy, an accident is a quality which does not belong to a thing by right of that thing's essential or substantial nature but occurs in it as an effect of other causes."" Webster's New International
+Dictionary of the English Language, 2d ed., Springfield, Mass.: G. C. Merriam, 1960.
+Sayers, Dorothy L., The Mind of the Maker. New York: Har-court, Brace, 1941.
+Glass, R. L., and S. A. Conger, ""Research software tasks: Intellectual or clerical?"" Information and Management, 23, 4 (1992). The authors report a measurement of software requirements specification to be about 80% intellectual and 20% clerical. Fjelstadt and Hamlen, 1979, get essentially the same results for application software maintenance. I know of no attempt to measure this fraction for the whole end-to-end task.
+Herzberg, F., B. Mausner, and B. B. Sayderman. The Motivation to Work, 2nd ed. London: Wiley, 1959.
+Cox, B. J., ""There is a silver bullet,"" Byte (Oct., 1990), pp. 209-218.
+Harel, D., ""Biting the silver bullet: Toward a brighter future for system development,"" Computer (Jan., 1992), pp. 8-20.
+Parnas, D. L., ""Software aspects of strategic defense systems,"" Communications of the ACM, 28, 12 (Dec., 1985), pp. 1326-1335.
+Turski, W. M., ""And no philosophers' stone, either,"" in Information Processing 86, H. J. Kugler, ed. Amsterdam: Elsevier Science (North Holland), 1986, pp. 1077-1080.
+Glass, R. L., and S. A. Conger, ""Research Software Tasks: Intellectual or Clerical?"" Information and Management, 23, 4 (1992), pp. 183-192.
+Review of Electronic Digital Computers, Proceedings of a Joint
+AIEE-IRE Computer Conference (Philadelphia, Dec. 10-12, 1951). New York: American Institute of Electrical Engineers, pp. 13-20.
+Ibid., pp. 36, 68, 71, 97.
+Proceedings of the Eastern Joint Computer Conference, (Washington, Dec. 8-10, 1953). New York: Institute of Electrical Engineers, pp. 45-47.
+Proceedings of the 1955 Western Joint Computer Conference (Los Angeles, March 1-3, 1955). New York: Institute of Electrical Engineers.
+Everett, R. R., C. A. Zraket, and H. D. Bennington, ""SAGE—A data processing system for air defense,"" Proceedings of the Eastern Joint Computer Conference, (Washington, Dec. 11-13, 1957). New York: Institute of Electrical Engineers.
+Harel, D., H. Lachover, A. Naamad, A. Pnueli, M. Politi, R. Sherman, A. Shtul-Trauring, ""Statemate: A working environment for the development of complex reactive systems,"" IEEE Trans, on SE, 16, 4 (1990), pp. 403^44.
+Jones, C., Assessment and Control of Software Risks. Englewood Cliffs, N.J.: Prentice-Hall, 1994. p. 619.
+Coqui, H., ""Corporate survival: The software dimension,"" Focus '89, Cannes, 1989.
+Coggins, James M., ""Designing C + + libraries,"" C+ + Journal, \, 1 (June, 1990), pp. 25-32.
+The tense is future; I know of no such result yet reported for a fifth use.
+Jones, op. cit., p 604.
+Huang, Weigiao, ""Industrializing software production,"" Proceedings ACM 1988 Computer Science Conference, Atlanta, 1988. I fear the lack of personal job growth in such an arrangement.
+The entire September, 1994 issue of IEEE Software is on reuse.
+Jones, op. cit., p. 323.
+Jones, op. cit., p. 329.
+Yourdon, E., Decline and Fall of the American Programmer. Englewood Cliffs, N.J.: Yourdon Press, 1992, p. 221.
+Glass, R. L., ""Glass""(column), System Development, (Janu-ary, 1988), pp. 4-5."|"The Mythical Man Month"|"Frederick P. Brooks Jr_"
+"ap 09:11"|9-11|"On this painful subject, see also Niklaus Wirth ""A plea for lean software,"" Computer, 28, 2 (Feb., 1995), pp. 64-68.
+Coleman, D., 1994, ""Word 6.0 packs in features; update slowed by baggage,"" MacWeek, 8, 38 (Sept. 26, 1994), p. 1.
+Many surveys of machine language and programming language command frequencies after fielding have been published. For example, see J. Hennessy and D. Patterson, Computer Architecture. These frequency data are very useful for building successor products, although they never exactly apply. I know of no published frequency estimates prepared before the product was designed, much less comparisons of a priori estimates and a posteriori data. Ken Brooks suggests that bulletin boards on the Internet now provide a cheap method of soliciting data from prospective users of a new product, even though only a self-selected set responds.
+Conklin, J., and M. Begeman, ""gIBIS: A Hypertext Tool for Exploratory Policy Discussion,"" ACM Transactions on Office
+Information Systems, Oct. 1988, pp. 303-331.
+Englebart, D., and W. English, ""A research center for augmenting human intellect,"" AFIPS Conference Proceedings, Fall
+Joint Computer Conference, San Francisco (Dec. 9-11, 1968), pp. 395-410.
+Apple Computer, Inc., Macintosh Human Interface Guidelines, Reading, Mass.: Addison-Wesley, 1992.
+It appears the Apple Desk Top Bus could handle two mice electronically, but the operating system provides no such function.
+Royce, W. W., 1970. ""Managing the development of large software systems: Concepts and techniques,"" Proceedings, WESCON (Aug., 1970), reprinted in the ICSE 9 Proceedings. Neither Royce nor others believed one could go through the software process without revising earlier documents; the model was put forth as an ideal and a conceptual aid. See D. L. Parnas and P. C. Clements, ""A rational design process: How and why to fake it,"" IEEE Transactions on Software
+Engineering, SE-12, 2 (Feb., 1986), pp. 251-257.
+A major reworking of DOD-STD-2167 produced DOD-STD-2167A (1988), which allows but does not mandate more recent models such as the spiral model. Unfortunately, the MILSPECS that 2167A references and the illustrative examples it uses are still waterfall-oriented, so most procurements have continued to use the waterfall, Boehm reports. A Defense Science Board Task Force under Larry Druffel and George Heilmeyer, in their 1994 ""Report of the DSB task force on acquiring defense software commercially,"" has advocated the wholesale use of more modern models.
+Mills, H. D., ""Top-down programming in large systems,"" in Debugging Techniques in Large Systems, R. Rustin, ed. Englewood Cliffs, N.J.: Prentice-Hall, 1971.
+Parnas, D. L., ""On the design and development of program families,"" IEEE Trans, on Software Engineering, SE-2, 1 (March, 1976), pp. 1-9; Parnas, D. L., ""Designing software for ease of extension and contraction,"" IEEE Trans, on Software Engineering, SE-5, 2 (March, 1979), pp. 128-138.
+D. Harel, ""Biting the silver bullet,"" Computer (Jan,, 1992), pp. 8-20.
+The seminal papers on information hiding are: Parnas, D. L., ""Information distribution aspects of design methodology,"" Carnegie-Mellon, Dept. of Computer Science, Technical Report (Feb., 1971); Parnas, D. L., ""A technique for software module specification with examples,"" Comm. ACM, 5, 5 (May, 1972), pp. 330-336; Parnas, D. L. (1972). ""On the criteria to be used in decomposing systems into modules,"" Comm. ACM, 5,12 (Dec., 1972), pp. 1053-1058.
+The ideas of objects were initially sketched by Hoare and Dijkstra, but the first and most influential development of them was the Simula-67 language by Dahl and Nygaard.
+Boehm, B. W., Software Engineering Economics, Englewood Cliffs, N.J.: Prentice-Hall, 1981, pp. 83-94; 470-472.
+Abdel-Hamid, T., and S. Madnick, Software Project Dynamics:
+An Integrated Approach, ch. 19, ""Model enhancement and Brooks's law."" Englewood Cliffs, N.J.: Prentice Hall, 1991.
+Stutzke, R. D., ""A Mathematical Expression of Brooks's Law."" In Ninth International Forum on COCOMO and Cost
+Modeling. Los Angeles: 1994.
+DeMarco, T., and T. Lister, Peopleware: Productive Projects and
+Teams. New York: Dorset House, 1987.
+Pius XI, Encyclical Quadragesima Anno, [Ihm, Claudia Car-len, ed., The Papal Encyclicals 1903-1939, Raleigh, N.C.: McGrath, p. 428.]
+Schumacher, E. E, Small Is Beautiful: Economics as if People
+Mattered, Perennial Library Edition. New York: Harper and Row, 1973, p. 244.
+Schumacher, op. cit., p. 34.
+A thought-provoking wall poster proclaims: ""Freedom of the press belongs to him who has one.""
+Bush, V., ""That we may think,"" ^Atlantic Monthly, 176, 1 (April, 1945), pp. 101-108.
+Ken Thompson of Bell Labs, inventor of Unix, realized early the importance of big screens for programming. He devised a way to get 120 lines of code, in two columns, onto his primitive Tektronix electron-storage tube. He clung to this terminal through a whole generation of small-window, fast tubes."|"The Mythical Man Month"|"Frederick P. Brooks Jr_"

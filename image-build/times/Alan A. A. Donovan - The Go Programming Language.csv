@@ -1,0 +1,567 @@
+"ap 07:10"|7.10|"7.10. Type Assertions
+7.11. Discriminating Errors with Type Assertions
+7.12. Querying Behaviors with Interface Type Assertions"|"The Go Programming Language"|"Alan A. A. Donovan"
+"ap 07:11"|7.11|"7.11. Discriminating Errors with Type Assertions
+7.12. Querying Behaviors with Interface Type Assertions
+7.13. Type Switches"|"The Go Programming Language"|"Alan A. A. Donovan"
+"ap 07:12"|7.12|"7.12. Querying Behaviors with Interface Type Assertions
+7.13. Type Switches
+7.14. Example: Token-Based XML Decoding"|"The Go Programming Language"|"Alan A. A. Donovan"
+"ap 07:13"|7.13|"7.13. Type Switches
+7.14. Example: Token-Based XML Decoding
+7.15. A Few Words of Advice"|"The Go Programming Language"|"Alan A. A. Donovan"
+"ap 07:14"|7.14|"7.14. Example: Token-Based XML Decoding
+7.15. A Few Words of Advice
+8. Goroutines and Channels"|"The Go Programming Language"|"Alan A. A. Donovan"
+00:00|0|"The var declaration declares two variables s and sep, of type
+string.  A variable can be initialized as part of its declaration.
+
+If it is not explicitly initialized, it is implicitly
+initialized to the zero value for its type, which is 0 for numeric
+
+
+types and the empty string """" for strings.
+
+Thus in this example, the declaration implicitly initializes s and sep to empty
+strings.
+We’ll have more to say
+
+about variables and declarations in Chapter 2."|"The Go Programming Language"|"Alan A. A. Donovan"
+00:00|0|"line := input.Text()
+counts[line] = counts[line] + 1
+
+
+It’s not a problem if the map doesn’t yet contain that key.
+The first time a new line is seen, the expression counts[line]
+on the right-hand side evaluates to the zero value for its type, which
+is 0 for int."|"The Go Programming Language"|"Alan A. A. Donovan"
+"ap 01:10"|1.10|"Exercise 1.10: 
+Find a web site that produces a large amount of data.  Investigate
+caching by running
+fetchall twice in succession to see whether the reported time
+changes much.  Do you get the same content each time?  Modify
+fetchall to print its output to a file so it can be examined."|"The Go Programming Language"|"Alan A. A. Donovan"
+00:00|0|"var name type = expression
+
+
+Either the type or the = expression part may be omitted, but
+not both.
+
+If the type is omitted, it is determined by the initializer
+expression.
+
+If the expression is omitted, the initial value is the zero value
+
+
+
+for the type, which is 0 for numbers, false for booleans,
+"""" for strings, and nil for interfaces and reference
+types (slice, pointer, map, channel, function).
+
+The zero value of an aggregate type like an array or a struct has the
+zero value of all of its elements or fields."|"The Go Programming Language"|"Alan A. A. Donovan"
+"ap 03:12"|3.12|"Exercise 3.12: 
+Write a function that reports whether two strings are anagrams of each
+other, that is, they contain the same letters in a different order."|"The Go Programming Language"|"Alan A. A. Donovan"
+00:00|0|"var a [3]int             // array of 3 integers
+fmt.Println(a[0])        // print the first element
+fmt.Println(a[len(a)-1]) // print the last element, a[2]
+
+// Print the indices and elements.
+for i, v := range a {
+    fmt.Printf(""%d %d\n"", i, v)
+}
+
+// Print the elements only.
+for _, v := range a {
+    fmt.Printf(""%d\n"", v)
+}
+
+
+By default, the elements of a new array variable are initially set to
+the zero value for the element type, which is 0 for numbers.
+
+
+We can use an
+array literal to initialize an array with a list of values:"|"The Go Programming Language"|"Alan A. A. Donovan"
+00:00|0|"The slice operator s[i:j],
+where 0 ≤ i ≤ j ≤ cap(s),
+creates a
+
+new slice that refers to elements i through j-1 of the sequence s,
+which may be an array variable, a pointer to an array, or another
+slice.  The resulting slice has j-i elements.
+If i is omitted, it’s 0, and if j is omitted, it’s
+len(s).
+Thus the slice months[1:13] refers to the whole range of valid months, as does
+the slice months[1:]; the slice months[:] refers to the whole array.
+
+Let’s define overlapping slices for the second quarter and the
+northern summer:"|"The Go Programming Language"|"Alan A. A. Donovan"
+"ap 01:13"|1:13|"The slice operator s[i:j],
+where 0 ≤ i ≤ j ≤ cap(s),
+creates a
+
+new slice that refers to elements i through j-1 of the sequence s,
+which may be an array variable, a pointer to an array, or another
+slice.  The resulting slice has j-i elements.
+If i is omitted, it’s 0, and if j is omitted, it’s
+len(s).
+Thus the slice months[1:13] refers to the whole range of valid months, as does
+the slice months[1:]; the slice months[:] refers to the whole array.
+
+Let’s define overlapping slices for the second quarter and the
+northern summer:"|"The Go Programming Language"|"Alan A. A. Donovan"
+"ap 04:14"|4.14|"$ go doc text/template
+$ go doc html/template
+Exercise 4.14: 
+Create a web server that queries GitHub once and then allows
+navigation of the list of bug reports, milestones, and users."|"The Go Programming Language"|"Alan A. A. Donovan"
+15:04|15:04|"2006/01/02 15:04:05 Site is down: no such domain: bad.gopl.io
+
+
+For a more attractive output, we can set the prefix used by the
+log package to the name of the command, and suppress the
+display of the date and time:"|"The Go Programming Language"|"Alan A. A. Donovan"
+"ap 09:53"|09:53|"$ go build gopl.io/ch5/trace
+$ ./trace
+2015/11/18 09:53:26 enter bigSlowOperation
+2015/11/18 09:53:36 exit bigSlowOperation (10.000589217s)
+
+
+
+Deferred functions run after return statements have
+updated the function’s result variables.
+
+Because an anonymous function can access its enclosing function’s
+variables, including named results, a deferred anonymous function can
+observe the function’s results."|"The Go Programming Language"|"Alan A. A. Donovan"
+01:00|1.5h|"$ ./sleep -period 50ms
+Sleeping for 50ms...
+$ ./sleep -period 2m30s
+Sleeping for 2m30s...
+$ ./sleep -period 1.5h
+Sleeping for 1h30m0s...
+$ ./sleep -period ""1 day""
+invalid value ""1 day"" for flag -period: time: invalid duration 1 day
+
+
+Because duration-valued flags are so useful, this feature is
+built into the flag package, but it’s easy to define new
+flag notations for our own data types.
+
+We need only define a type that satisfies the flag.Value
+interface, whose declaration is below:"|"The Go Programming Language"|"Alan A. A. Donovan"
+"ap 07:10"|7.10|"Exercise 7.10: 
+The sort.Interface type can be adapted to other uses.
+Write a function
+
+IsPalindrome(s sort.Interface) bool that reports whether
+the sequence s is a palindrome, in other words, reversing the
+sequence would not change it.
+
+Assume that the elements at indices i and j are
+equal if !s.Less(i, j) && !s.Less(j, i)."|"The Go Programming Language"|"Alan A. A. Donovan"
+15:04|15:04|"// Clock1 is a TCP server that periodically writes the time.
+package main
+
+import (
+    ""io""
+    ""log""
+    ""net""
+    ""time""
+)
+
+func main() {
+    listener, err := net.Listen(""tcp"", ""localhost:8000"")
+    if err != nil {
+        log.Fatal(err)
+    }
+    for {
+        conn, err := listener.Accept()
+        if err != nil {
+            log.Print(err) // e.g., connection aborted
+            continue
+        }
+        handleConn(conn) // handle one connection at a time
+    }
+}
+
+func handleConn(c net.Conn) {
+    defer c.Close()
+    for {
+        _, err := io.WriteString(c, time.Now().Format(""15:04:05\n""))
+        if err != nil {
+            return // e.g., client disconnected
+        }
+        time.Sleep(1 * time.Second)
+    }
+}"|"The Go Programming Language"|"Alan A. A. Donovan"
+"ap 03:04"|03:04|"The time.Time.Format method provides a way to format
+date and time information by example.
+
+Its argument is a template indicating how to format a reference time,
+specifically Mon Jan 2 03:04:05PM 2006 UTC-0700.
+
+The reference time has eight components (day of the week, month, day of
+the month, and so on).  Any collection of them can appear in the
+Format string in any order and in a number of formats; the
+selected components of the
+date and time will be displayed in the selected formats.
+
+Here we are just using the hour, minute, and second of the time.
+
+The time package defines templates for many standard
+time formats, such as time.RFC1123.
+
+
+The same mechanism is used in reverse when parsing a time using
+time.Parse."|"The Go Programming Language"|"Alan A. A. Donovan"
+13:58|13:58|"$ go build gopl.io/ch8/clock1
+$ ./clock1 &
+$ nc localhost 8000
+13:58:54
+13:58:55
+13:58:56
+13:58:57
+^C
+
+
+The client displays the time sent by the server each second
+until we interrupt the client with Control-C,
+which on Unix systems is echoed as ^C
+by the shell.
+
+If nc or netcat is not installed on your system,
+you can use telnet or this simple Go version of netcat that
+uses net.Dial to connect to a TCP server:"|"The Go Programming Language"|"Alan A. A. Donovan"
+13:58|13:58|"$ go build gopl.io/ch8/netcat1
+$ ./netcat1
+13:58:54                               $ ./netcat1
+13:58:55
+13:58:56
+^C
+                                       13:58:57
+                                       13:58:58
+                                       13:58:59
+                                       ^C
+$ killall clock1
+
+
+The killall command is a Unix utility that
+kills all processes with the given name."|"The Go Programming Language"|"Alan A. A. Donovan"
+14:02|14:02|"$ go build gopl.io/ch8/clock2
+$ ./clock2 &
+$ go build gopl.io/ch8/netcat1
+$ ./netcat1
+14:02:54                               $ ./netcat1
+14:02:55                               14:02:55
+14:02:56                               14:02:56
+14:02:57                               ^C
+14:02:58
+14:02:59                               $ ./netcat1
+14:03:00                               14:03:00
+14:03:01                               14:03:01
+^C                                     14:03:02
+                                       ^C
+$ killall clock2
+Exercise 8.1: 
+Modify clock2 to accept a port number, and
+write a program, clockwall, that acts as a client of several
+clock servers at once, reading the times from each one and displaying
+the results in a table, akin to the wall of clocks seen in some
+business offices.
+
+If you have access to geographically distributed computers, run
+instances remotely; otherwise run local instances on different ports
+with fake time zones."|"The Go Programming Language"|"Alan A. A. Donovan"
+14:03|14:03|"$ go build gopl.io/ch8/clock2
+$ ./clock2 &
+$ go build gopl.io/ch8/netcat1
+$ ./netcat1
+14:02:54                               $ ./netcat1
+14:02:55                               14:02:55
+14:02:56                               14:02:56
+14:02:57                               ^C
+14:02:58
+14:02:59                               $ ./netcat1
+14:03:00                               14:03:00
+14:03:01                               14:03:01
+^C                                     14:03:02
+                                       ^C
+$ killall clock2
+Exercise 8.1: 
+Modify clock2 to accept a port number, and
+write a program, clockwall, that acts as a client of several
+clock servers at once, reading the times from each one and displaying
+the results in a table, akin to the wall of clocks seen in some
+business offices.
+
+If you have access to geographically distributed computers, run
+instances remotely; otherwise run local instances on different ports
+with fake time zones."|"The Go Programming Language"|"Alan A. A. Donovan"
+18:22|18:22|"$ go build gopl.io/ch8/crawl1
+$ ./crawl1 http://gopl.io/
+http://gopl.io/
+https://golang.org/help/
+
+https://golang.org/doc/
+https://golang.org/blog/
+...
+2015/07/15 18:22:12 Get ...: dial tcp: lookup blog.golang.org: no such host
+2015/07/15 18:22:12 Get ...: dial tcp 23.21.222.120:443: socket:
+                                                        too many open files
+...
+
+
+The initial error message is a surprising report of a DNS lookup
+failure for a reliable domain.
+
+The subsequent error message reveals the cause: the program created so
+many network connections at once that it exceeded the per-process
+limit on the number of open files, causing operations such as DNS
+lookups and calls to net.Dial to start failing."|"The Go Programming Language"|"Alan A. A. Donovan"
+"ap 08:13"|8.13|"Exercise 8.13: 
+Make the chat server disconnect idle clients, such as those that have
+sent no messages in the last five minutes.
+
+Hint: calling conn.Close() in another goroutine unblocks active
+Read calls such as the one done by input.Scan()."|"The Go Programming Language"|"Alan A. A. Donovan"
+"ap 02:03"|"two three"|"$ cat quoteargs.go
+package main
+
+import (
+    ""fmt""
+    ""os""
+)
+
+func main() {
+    fmt.Printf(""%q\n"", os.Args[1:])
+}
+$ go build quoteargs.go
+$ ./quoteargs one ""two three"" four\ five
+[""one"" ""two three"" ""four five""]
+
+
+Particularly for throwaway programs like this one, we want to run
+the executable as soon as we’ve built it.  The go run command
+combines these two steps:"|"The Go Programming Language"|"Alan A. A. Donovan"
+"ap 04:05"|"four five"|"$ cat quoteargs.go
+package main
+
+import (
+    ""fmt""
+    ""os""
+)
+
+func main() {
+    fmt.Printf(""%q\n"", os.Args[1:])
+}
+$ go build quoteargs.go
+$ ./quoteargs one ""two three"" four\ five
+[""one"" ""two three"" ""four five""]
+
+
+Particularly for throwaway programs like this one, we want to run
+the executable as soon as we’ve built it.  The go run command
+combines these two steps:"|"The Go Programming Language"|"Alan A. A. Donovan"
+"ap 02:03"|"two three"|"$ go run quoteargs.go one ""two three"" four\ five
+[""one"" ""two three"" ""four five""]
+
+
+The first argument that doesn’t end in .go is assumed to be the
+beginning of the list of arguments to the Go executable."|"The Go Programming Language"|"Alan A. A. Donovan"
+"ap 04:05"|"four five"|"$ go run quoteargs.go one ""two three"" four\ five
+[""one"" ""two three"" ""four five""]
+
+
+The first argument that doesn’t end in .go is assumed to be the
+beginning of the list of arguments to the Go executable."|"The Go Programming Language"|"Alan A. A. Donovan"
+"ap 07:15"|7.15|"abstract type, 1.8, 7.1
+abstraction, premature, 7.15, 11.2.5, 11.2.5
+ad hoc polymorphism, 7.13"|"The Go Programming Language"|"Alan A. A. Donovan"
+"ap 07:13"|7.13|"abstract type, 1.8, 7.1
+abstraction, premature, 7.15, 11.2.5, 11.2.5
+ad hoc polymorphism, 7.13"|"The Go Programming Language"|"Alan A. A. Donovan"
+"ap 07:15"|7.15|"abstraction, premature, 7.15, 11.2.5, 11.2.5
+ad hoc polymorphism, 7.13
+address of local variable, 2.3.2, 2.3.4"|"The Go Programming Language"|"Alan A. A. Donovan"
+"ap 07:12"|7.12|"allocation, heap, 2.3.4
+allocation, memory, 2.3.4, 2.3.4, 3.5.4, 4.2.1, 6.6, 7.12, 11.4
+allocation, stack, 2.3.4"|"The Go Programming Language"|"Alan A. A. Donovan"
+"ap 07:14"|7.14|"anonymous struct field, 4.4.3, 4.4.3, 4.4.3, 6.3
+API, encoding, 7.14, 12.4
+API, error, 5.4, 5.10"|"The Go Programming Language"|"Alan A. A. Donovan"
+"ap 05:10"|5.10|"anonymous struct field, 4.4.3, 4.4.3, 4.4.3, 6.3
+API, encoding, 7.14, 12.4
+API, error, 5.4, 5.10"|"The Go Programming Language"|"Alan A. A. Donovan"
+"ap 07:14"|7.14|"API, encoding, 7.14, 12.4
+API, error, 5.4, 5.10
+API, package, 10.1, 10.7.4, 11.2.3, 12.3, 12.9"|"The Go Programming Language"|"Alan A. A. Donovan"
+"ap 07:14"|7.14|"API, template, 4.6
+API, token-based decoder, 7.14, 7.14, 12.6
+APL programming language, Preface"|"The Go Programming Language"|"Alan A. A. Donovan"
+"ap 07:12"|7.12|"assertion function, 11.2.5
+assertion, interface type, 7.12, 7.12
+assertion, test, 11.2"|"The Go Programming Language"|"Alan A. A. Donovan"
+"ap 07:10"|7.10|"assertion, test, 11.2
+assertion, type, 7.10, 7.13
+assignability, 2.4.2, 2.4.2, 7.3"|"The Go Programming Language"|"Alan A. A. Donovan"
+"ap 08:10"|8.10|"brittle test, 11.2.6
+broadcast, 8.9, 8.10, 9.7
+Brooks, Fred, Preface"|"The Go Programming Language"|"Alan A. A. Donovan"
+"ap 08:10"|8.10|"charcount example, 4.3
+chat example, 8.10
+chat server, 8.10"|"The Go Programming Language"|"Alan A. A. Donovan"
+"ap 07:13"|7.13|"conceptual integrity, Preface
+concrete type, 1.8, 7.1, 7.13, 7.14
+concurrency, 1.6, 8, 9"|"The Go Programming Language"|"Alan A. A. Donovan"
+"ap 08:10"|8.10|"concurrency safe, 9.7
+concurrency safety, 8.10, 9.1, 9.7, 13.4
+concurrency with shared variables, 9"|"The Go Programming Language"|"Alan A. A. Donovan"
+"ap 07:12"|7.12|"conversion operation, 2.5, 3.1, 3.1, 3.1, 3.4, 3.5.3, 3.6.2, 3.6.2, 7.1, 7.6, 7.7, 7.12, 8.4.3, 13, 13.2"|"The Go Programming Language"|"Alan A. A. Donovan"
+"ap 07:13"|7.13|"database driver, MySQL, 10.2
+database/sql package, 7.13, 10.5
+daysAgo function, 4.6"|"The Go Programming Language"|"Alan A. A. Donovan"
+"ap 07:10"|7.10|"declaration scope, 2.7, 5.6
+declaration, shadowing, 2.7, 2.7, 7.10, 7.13
+declaration, short variable, 1.2, 1.2, 2.3.1, 2.3.1"|"The Go Programming Language"|"Alan A. A. Donovan"
+"ap 07:14"|7.14|"decode example, S-expression, 12.6
+decoder API, token-based, 7.14, 7.14, 12.6
+decoding, S-expression, 12.6"|"The Go Programming Language"|"Alan A. A. Donovan"
+"ap 07:13"|7.13|"directory traversal, concurrent, 8.8
+discriminated union, 7.13, 7.13, 7.14
+display example, 12.3"|"The Go Programming Language"|"Alan A. A. Donovan"
+"ap 07:14"|7.14|"encapsulation, 6.6, 10.1
+encoding API, 7.14, 12.4
+encoding, S-expression, 12.4, 12.4"|"The Go Programming Language"|"Alan A. A. Donovan"
+"ap 05:10"|5.10|"errorf function, 5.7
+error-handling strategies, 5.4.1, 5.10, 11.2.2, 11.2.5
+errors package, 7.8"|"The Go Programming Language"|"Alan A. A. Donovan"
+"ap 08:10"|8.10|"example, charcount, 4.3
+example, chat, 8.10
+example, clock, 8.2, 8.2"|"The Go Programming Language"|"Alan A. A. Donovan"
+"ap 05:10"|5.10|"function, gcd, 2.4.1
+function, handler, 1.7, 1.7, 5.10, 7.7, 7.7, 7.7, 12.7
+function, html.Parse, 5.2, 5.3"|"The Go Programming Language"|"Alan A. A. Donovan"
+"ap 07:11"|7.11|"function, os.Getwd, 2.7
+function, os.IsExist, 7.11
+function, os.IsNotExist, 7.11"|"The Go Programming Language"|"Alan A. A. Donovan"
+"ap 07:11"|7.11|"function, os.IsExist, 7.11
+function, os.IsNotExist, 7.11
+function, os.IsPermission, 7.11"|"The Go Programming Language"|"Alan A. A. Donovan"
+"ap 07:13"|7.13|"function, Sprint, 12.1
+function, sqlQuote, 7.13, 7.13
+function, strconv.Atoi, 1.7, 3.5.5"|"The Go Programming Language"|"Alan A. A. Donovan"
+"ap 05:10"|5.10|"half-open interval, 1.2
+handler function, 1.7, 1.7, 5.10, 7.7, 7.7, 7.7, 12.7
+“happens before” relation, 8.4.1, 9.1, 9.1, 9.7"|"The Go Programming Language"|"Alan A. A. Donovan"
+"ap 07:12"|7.12|"interface, io.Reader, 7.2
+interface, io.Writer, 1.4, 1.7, 7.1, 7.2, 7.5.1, 7.12, 7.12, 11.2.2
+interface, JSON, 4.5"|"The Go Programming Language"|"Alan A. A. Donovan"
+"ap 07:12"|7.12|"interface{} type, 7.3, 12.2, 12.2
+interface type assertion, 7.12, 7.12
+interface type, empty, 7.3"|"The Go Programming Language"|"Alan A. A. Donovan"
+"ap 07:12"|7.12|"ioutil.ReadFile function, 1.3, 5.8
+io.Writer interface, 1.4, 1.7, 7.1, 7.2, 7.5.1, 7.12, 7.12, 11.2.2
+io.WriteString function, 7.12"|"The Go Programming Language"|"Alan A. A. Donovan"
+"ap 07:12"|7.12|"io.Writer interface, 1.4, 1.7, 7.1, 7.2, 7.5.1, 7.12, 7.12, 11.2.2
+io.WriteString function, 7.12
+“is a” relationship, 6.3, 7.3"|"The Go Programming Language"|"Alan A. A. Donovan"
+"ap 07:12"|7.12|"memoization, 9.7
+memory allocation, 2.3.4, 2.3.4, 3.5.4, 4.2.1, 6.6, 7.12, 11.4
+memory layout, 13, 13.1, 13.1"|"The Go Programming Language"|"Alan A. A. Donovan"
+"ap 08:10"|8.10|"mustCopy function, 8.2
+mutex, 5.8, 6.3, 8.10, 9.5
+mutex, guarding, 9.2"|"The Go Programming Language"|"Alan A. A. Donovan"
+"ap 07:12"|7.12|"operation, conversion, 2.5, 3.1, 3.1, 3.1, 3.4, 3.5.3, 3.6.2, 3.6.2, 7.1, 7.6, 7.7, 7.12, 8.4.3, 13, 13.2"|"The Go Programming Language"|"Alan A. A. Donovan"
+"ap 07:11"|7.11|"os.Getwd function, 2.7
+os.IsExist function, 7.11
+os.IsNotExist function, 7.11"|"The Go Programming Language"|"Alan A. A. Donovan"
+"ap 07:11"|7.11|"os.IsExist function, 7.11
+os.IsNotExist function, 7.11
+os.IsPermission function, 7.11"|"The Go Programming Language"|"Alan A. A. Donovan"
+"ap 07:11"|7.11|"os.IsNotExist function, 7.11
+os.IsPermission function, 7.11
+os.LinkError type, 7.11"|"The Go Programming Language"|"Alan A. A. Donovan"
+"ap 07:13"|7.13|"package, crypto/sha256, 4.1
+package, database/sql, 7.13, 10.5
+package declaration, 1.1, 2.2, 2.6, 10.3"|"The Go Programming Language"|"Alan A. A. Donovan"
+"ap 05:10"|5.10|"palindrome example, 11.2, 11.2, 11.2.1
+panic, 3.5, 5.10, 8.9
+panic built-in function, 5.9, 5.9"|"The Go Programming Language"|"Alan A. A. Donovan"
+"ap 07:13"|7.13|"polling channel, 8.7
+polymorphism, ad hoc, 7.13
+polymorphism, subtype, 7.13"|"The Go Programming Language"|"Alan A. A. Donovan"
+"ap 07:15"|7.15|"predeclared names, table of, 2.1
+premature abstraction, 7.15, 11.2.5, 11.2.5
+premature optimization, 11.5"|"The Go Programming Language"|"Alan A. A. Donovan"
+"ap 08:10"|8.10|"serial confinement, 9.1
+server, chat, 8.10
+server, concurrent clock, 8.2"|"The Go Programming Language"|"Alan A. A. Donovan"
+"ap 07:10"|7.10|"SHA256 message digest, 4.1
+shadowing declaration, 2.7, 2.7, 7.10, 7.13
+shared lock, 9.3"|"The Go Programming Language"|"Alan A. A. Donovan"
+"ap 07:13"|7.13|"Sprint function, 12.1
+SQL API, 7.13
+SQL injection attack, 7.13"|"The Go Programming Language"|"Alan A. A. Donovan"
+"ap 07:13"|7.13|"SQL API, 7.13
+SQL injection attack, 7.13
+sqlQuote function, 7.13, 7.13"|"The Go Programming Language"|"Alan A. A. Donovan"
+"ap 07:13"|7.13|"statement, tagless switch, 1.8
+statement, type switch, 7.13, 7.13, 7.14, 12.1
+statement, unreachable, 5.1"|"The Go Programming Language"|"Alan A. A. Donovan"
+"ap 07:14"|7.14|"statement, tagless switch, 1.8
+statement, type switch, 7.13, 7.13, 7.14, 12.1
+statement, unreachable, 5.1"|"The Go Programming Language"|"Alan A. A. Donovan"
+"ap 05:10"|5.10|"Strangelove, Dr., 12.3
+strategies, error-handling, 5.4.1, 5.10, 11.2.2, 11.2.5
+strconv package, 1.7, 3.5.4, 3.5.5"|"The Go Programming Language"|"Alan A. A. Donovan"
+"ap 07:13"|7.13|"switch statement, tagless, 1.8
+switch statement, type, 7.13, 7.13, 7.14, 12.1
+sync package, 8.5, 9.2"|"The Go Programming Language"|"Alan A. A. Donovan"
+"ap 07:14"|7.14|"switch statement, tagless, 1.8
+switch statement, type, 7.13, 7.13, 7.14, 12.1
+sync package, 8.5, 9.2"|"The Go Programming Language"|"Alan A. A. Donovan"
+"ap 07:14"|7.14|"title function, 5.8, 5.8
+token-based decoder API, 7.14, 7.14, 12.6
+token-based XML decoding, 7.14"|"The Go Programming Language"|"Alan A. A. Donovan"
+"ap 07:14"|7.14|"token-based decoder API, 7.14, 7.14, 12.6
+token-based XML decoding, 7.14
+tool, cgo, 13.4, 13.4"|"The Go Programming Language"|"Alan A. A. Donovan"
+"ap 07:13"|7.13|"type  chan<- T, send-only channel, 8.4.3
+type  switch, case  in, 7.13
+type  switch, default  case in, 7.13"|"The Go Programming Language"|"Alan A. A. Donovan"
+"ap 07:10"|7.10|"type, array, 4.1
+type assertion, 7.10, 7.13
+type assertion, interface, 7.12, 7.12"|"The Go Programming Language"|"Alan A. A. Donovan"
+"ap 07:12"|7.12|"type, array, 4.1
+type assertion, 7.10, 7.13
+type assertion, interface, 7.12, 7.12"|"The Go Programming Language"|"Alan A. A. Donovan"
+"ap 07:10"|7.10|"type assertion, 7.10, 7.13
+type assertion, interface, 7.12, 7.12
+type assertion, ok  value from, 7.10"|"The Go Programming Language"|"Alan A. A. Donovan"
+"ap 07:12"|7.12|"type assertion, 7.10, 7.13
+type assertion, interface, 7.12, 7.12
+type assertion, ok  value from, 7.10"|"The Go Programming Language"|"Alan A. A. Donovan"
+"ap 07:12"|7.12|"type assertion, interface, 7.12, 7.12
+type assertion, ok  value from, 7.10
+type, bool, 3.4"|"The Go Programming Language"|"Alan A. A. Donovan"
+"ap 07:13"|7.13|"type composition, Preface, 4.4.3, 6.3, 7.6
+type, concrete, 1.8, 7.1, 7.13, 7.14
+type declaration, 2.5"|"The Go Programming Language"|"Alan A. A. Donovan"
+"ap 07:11"|7.11|"type, os.FileInfo, 8.8
+type, os.LinkError, 7.11
+type, os.PathError, 7.11"|"The Go Programming Language"|"Alan A. A. Donovan"
+"ap 07:13"|7.13|"type, struct{}, 8.4.1, 8.6, 8.8
+type switch statement, 7.13, 7.13, 7.14, 12.1
+type, sync.Mutex, 9.2, 9.5"|"The Go Programming Language"|"Alan A. A. Donovan"
+"ap 07:14"|7.14|"type, struct{}, 8.4.1, 8.6, 8.8
+type switch statement, 7.13, 7.13, 7.14, 12.1
+type, sync.Mutex, 9.2, 9.5"|"The Go Programming Language"|"Alan A. A. Donovan"
+"ap 07:13"|7.13|"unidirectional channel type, 8.4.3, 8.4.3, 8.4.3
+union, discriminated, 7.13, 7.13, 7.14
+universe block, 2.7"|"The Go Programming Language"|"Alan A. A. Donovan"
+"ap 07:14"|7.14|"XML (Extensible Markup Language), 4.5
+(*xml.Decoder).Token method, 7.14
+xmlselect example, 7.14"|"The Go Programming Language"|"Alan A. A. Donovan"

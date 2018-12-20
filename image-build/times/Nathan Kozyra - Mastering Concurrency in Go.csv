@@ -1,0 +1,56 @@
+"ap 02:00"|two|"The Add() method specifies how many Done messages goGroup should receive before satisfying its wait. Here, we specified 2 because we have two functions running asynchronously. If you had three goroutine members and still called two, you may see the output of the third. If you added a value more than two to goGroup, for example, goGroup.Add(3), then WaitGroup would wait forever and deadlock."|"Mastering Concurrency in Go"|"Nathan Kozyra"
+20:59|20:59|"Message: 2014/01/21 20:59:11 /var/go/log.go:12: This is a message from the application!"|"Mastering Concurrency in Go"|"Nathan Kozyra"
+09:00|"9 a.m."|"With these in mind, we'll attempt to handle some rudimentary human scheduling by designing an appointment calendar that can handle any number of people with one hour timeslots between 9 a.m. and 5 p.m."|"Mastering Concurrency in Go"|"Nathan Kozyra"
+17:00|"5 p.m."|"With these in mind, we'll attempt to handle some rudimentary human scheduling by designing an appointment calendar that can handle any number of people with one hour timeslots between 9 a.m. and 5 p.m."|"Mastering Concurrency in Go"|"Nathan Kozyra"
+09:00|"9 a.m."|"In fact, as we have literal hour blocks from 9 a.m. to 5 p.m., we just set these to the 24-hour time values of 9-17, and invoke a function to translate them into linguistic dates."|"Mastering Concurrency in Go"|"Nathan Kozyra"
+17:00|"5 p.m."|"In fact, as we have literal hour blocks from 9 a.m. to 5 p.m., we just set these to the 24-hour time values of 9-17, and invoke a function to translate them into linguistic dates."|"Mastering Concurrency in Go"|"Nathan Kozyra"
+"ap 09:17"|9-17|"In fact, as we have literal hour blocks from 9 a.m. to 5 p.m., we just set these to the 24-hour time values of 9-17, and invoke a function to translate them into linguistic dates."|"Mastering Concurrency in Go"|"Nathan Kozyra"
+17:00|"5 p.m."|"The previous screenshot is our initial view that shows us available users and their available time slots. By selecting a timeslot for a user, we'll attempt to book them for that particular time. We'll start with Nathan at 5 p.m."|"Mastering Concurrency in Go"|"Nathan Kozyra"
+17:00|"5 p.m"|"However, if we attempt to book again (even simultaneously), we'll be greeted with a sad message that Nathan cannot see us at 5 p.m, as shown in the following screenshot:"|"Mastering Concurrency in Go"|"Nathan Kozyra"
+"ap 00:00"|12:00am|"var currentGoroutine int
+
+func (li LogItem) logRequest(bucket *couchbase.Bucket) {
+
+  hash := md5.New()
+  io.WriteString(hash,li.ServerID+li.Page+li.Timestamp.Format(""Jan 
+    1, 2014 12:00am""))
+  hashString := hex.EncodeToString(hash.Sum(nil))
+  bucket.Set(hashString,0,li)
+  currentGoroutine = 0
+}"|"Mastering Concurrency in Go"|"Nathan Kozyra"
+"ap 10:46"|10:46|"04/13/14 10:46 - Page found%!(EXTRA string=/valid) (main.pageHandler:24)"|"Mastering Concurrency in Go"|"Nathan Kozyra"
+23:25|23:25|"04/16/14 23:25 - Goroutine from + /var/log/go/ch9_11_stacktrace.goch9_11_stacktrace.go stack:goroutine 4 [running]:
+main.goDetails(0xc08400b300)
+  /var/log/go/ch9_11_stacktrace.goch9_11_stacktrace.go:41 +0x8e
+created by main.main
+  /var/log/go/ch9_11_stacktrace.goch9_11_stacktrace.go:69 +0x4c
+  
+  /var/log/go/ch9_11_stacktrace.goch9_11_stacktrace.go14 goroutines active (main.saveLogs:31)"|"Mastering Concurrency in Go"|"Nathan Kozyra"
+00:00|00:00|"Checking Server Google
+        Server was OK on last check at 0001-01-01 00:00:00 +0000 UTC
+        200 OK
+        Will check server again
+Checking Server Yahoo
+        Server was OK on last check at 0001-01-01 00:00:00 +0000 UTC
+        200 OK
+        Will check server again
+Checking Server Amazon
+        Server was OK on last check at 0001-01-01 00:00:00 +0000 UTC
+        Error:  Get http://amazon.zom: dial tcp: GetAddrInfoW: No such host is known.
+        Will check server again
+Checking Server Google
+        Server was OK on last check at 2014-04-23 12:49:45.6575639 -0400 EDT"|"Mastering Concurrency in Go"|"Nathan Kozyra"
+"ap 00:49"|12:49|"Checking Server Google
+        Server was OK on last check at 0001-01-01 00:00:00 +0000 UTC
+        200 OK
+        Will check server again
+Checking Server Yahoo
+        Server was OK on last check at 0001-01-01 00:00:00 +0000 UTC
+        200 OK
+        Will check server again
+Checking Server Amazon
+        Server was OK on last check at 0001-01-01 00:00:00 +0000 UTC
+        Error:  Get http://amazon.zom: dial tcp: GetAddrInfoW: No such host is known.
+        Will check server again
+Checking Server Google
+        Server was OK on last check at 2014-04-23 12:49:45.6575639 -0400 EDT"|"Mastering Concurrency in Go"|"Nathan Kozyra"

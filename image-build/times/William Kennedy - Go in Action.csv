@@ -1,0 +1,358 @@
+"ap 02:12"|2.12|"Listing 2.12. search/search.go: lines 11–57
+      
+      11 // Run performs the search logic.
+12 func Run(searchTerm string) {
+13     // Retrieve the list of feeds to search through.
+14     feeds, err := RetrieveFeeds()
+15     if err != nil {
+16         log.Fatal(err)
+17     }
+18
+19     // Create a unbuffered channel to receive match results.
+20     results := make(chan *Result)
+21
+22     // Setup a wait group so we can process all the feeds.
+23     var waitGroup sync.WaitGroup
+24
+25     // Set the number of goroutines we need to wait for while
+
+26     // they process the individual feeds.
+27     waitGroup.Add(len(feeds))
+28
+29     // Launch a goroutine for each feed to find the results.
+30     for _, feed := range feeds {
+31         // Retrieve a matcher for the search.
+32         matcher, exists := matchers[feed.Type]
+33         if !exists {
+34             matcher = matchers[""default""]
+35         }
+36
+37         // Launch the goroutine to perform the search.
+38         go func(matcher Matcher, feed *Feed) {
+39             Match(matcher, feed, searchTerm, results)
+40             waitGroup.Done()
+41         }(matcher, feed)
+42     }
+43
+44     // Launch a goroutine to monitor when all the work is done.
+45     go func() {
+46         // Wait for everything to be processed.
+47         waitGroup.Wait()
+48
+49         // Close the channel to signal to the Display
+50         // function that we can exit the program.
+51         close(results)
+52     }()
+53
+54     // Start displaying results as they are available and
+55     // return after the final result is displayed.
+56     Display(results)
+57 }
+      
+      The Run function contains the main control logic for the program. It’s a good representation of how Go programs can be structured
+         to handle the launching and synchronization of goroutines that run concurrently. Let’s walk through the logic section by section,
+         and then explore the other code files that lend their support."|"Go in Action"|"William Kennedy"
+"ap 02:21"|2.21|"Listing 2.21. search/search.go: lines 31–35
+      
+      31         // Retrieve a matcher for the search.
+32         matcher, exists := matchers[feed.Type]
+
+33         if !exists {
+34             matcher = matchers[""default""]
+35         }
+      
+      We haven’t talked about how this map gets its values yet. You’ll see later on how the program initializes itself and populates
+         this map. On line 32 we check the map for a key that matches the feed type. When looking up a key in a map, you have two options:
+         you can assign a single variable or two variables for the lookup call. The first variable is always the value returned for
+         the key lookup, and the second value, if specified, is a Boolean flag that reports whether the key exists or not. When a key
+         doesn’t exist, the map will return the zero value for the type of value being stored in the map. When the key does exist,
+         the map will return a copy of the value for that key."|"Go in Action"|"William Kennedy"
+"ap 02:25"|2.25|"Listing 2.25. search/search.go: lines 44–57
+      
+      44     // Launch a goroutine to monitor when all the work is done.
+45     go func() {
+46         // Wait for everything to be processed.
+
+47         waitGroup.Wait()
+48
+49         // Close the channel to signal to the Display
+50         // function that we can exit the program.
+51         close(results)
+52     }()
+53
+54     // Start displaying results as they are available and
+55     // return after the final result is displayed.
+56     Display(results)
+57 }
+      
+      The code between lines 45 and 56 is tricky to explain until we dive deeper into some of the other code in the search package. For now let’s describe what we see and come back to it later to understand the mechanics. On lines 45 through 52
+         we launch yet another anonymous function as a goroutine. This anonymous function takes no parameters and uses closures to
+         access both the WaitGroup and results variables. This goroutine calls the method Wait on the WaitGroup value, which is causing the goroutine to block until the count for the WaitGroup hits zero. Once that happens, the goroutine calls the built-in function close on the channel, which as you’ll see causes the program to terminate."|"Go in Action"|"William Kennedy"
+"ap 02:29"|2.29|"Listing 2.29. feed.go: lines 17–36
+      
+      17 // RetrieveFeeds reads and unmarshals the feed data file.
+18 func RetrieveFeeds() ([]*Feed, error) {
+19    // Open the file.
+20    file, err := os.Open(dataFile)
+21    if err != nil {
+22        return nil, err
+23    }
+24
+25    // Schedule the file to be closed once
+26    // the function returns.
+27    defer file.Close()
+28
+29    // Decode the file into a slice of pointers
+30    // to Feed values.
+31    var feeds []*Feed
+32    err = json.NewDecoder(file).Decode(&feeds)
+33
+34    // We don't need to check for errors, the caller can do this.
+35    return feeds, err
+36 }
+      
+      Let’s start with the declaration of the function on line 18. The function takes no parameters and returns two values. The
+         first return value is a slice of pointers to Feed type values. The second return value is an error value that reports back if the function call was successful. As you’ll continue
+         to see, returning error values is common practice in this code example and throughout the standard library."|"Go in Action"|"William Kennedy"
+"ap 02:41"|2.41|"Listing 2.41. search/search.go: lines 44–57
+      
+      44     // Launch a goroutine to monitor when all the work is done.
+45     go func() {
+46         // Wait for everything to be processed.
+47         waitGroup.Wait()
+48
+49         // Close the channel to signal to the Display
+50         // function that we can exit the program.
+51         close(results)
+52     }()
+53
+54     // Start displaying results as they are available and
+55     // return after the final result is displayed.
+56     Display(results)
+57 }
+      
+      The goroutine on lines 45 through 52 waits on the waitGroup for all the search goroutines to call the Done method. Once the last search goroutine calls Done, the Wait method returns, and then the code on line 51 closes the results channel. Once the channel is closed, the goroutine terminates and is no more."|"Go in Action"|"William Kennedy"
+"ap 02:42"|2.42|"Listing 2.42. search/match.go: lines 29–32
+      
+      29     // Write the results to the channel.
+30     for _, result := range searchResults {
+31         results <- result
+32     }
+      
+      If we look back at the for range loop on lines 40 through 42 of the match.go code file, we can connect the writing of the results, the closing of the channel,
+         and the processing of results all together."|"Go in Action"|"William Kennedy"
+"ap 05:28"|5.28|"Listing 5.28. golang.org/src/time/time.go: lines 39–55
+      
+      39 type Time struct {
+40     // sec gives the number of seconds elapsed since
+41     // January 1, year 1 00:00:00 UTC.
+42     sec int64
+43
+44     // nsec specifies a non-negative nanosecond
+45     // offset within the second named by Seconds.
+46     // It must be in the range [0, 999999999].
+47     nsec int32
+48
+49     // loc specifies the Location that should be used to
+50     // determine the minute, hour, month, day, and year
+51     // that correspond to this Time.
+52     // Only the zero Time has a nil Location.
+53     // In that case it is interpreted to mean UTC.
+54     loc *Location
+55 }
+      
+      The Time struct in listing 5.28 comes from the time package. When you think about time, you realize that any given point in time is not something that can change. This is exactly
+         how the standard library implements the Time type. Let’s look at the Now function that creates values of type Time."|"Go in Action"|"William Kennedy"
+00:00|00:00|"Listing 5.28. golang.org/src/time/time.go: lines 39–55
+      
+      39 type Time struct {
+40     // sec gives the number of seconds elapsed since
+41     // January 1, year 1 00:00:00 UTC.
+42     sec int64
+43
+44     // nsec specifies a non-negative nanosecond
+45     // offset within the second named by Seconds.
+46     // It must be in the range [0, 999999999].
+47     nsec int32
+48
+49     // loc specifies the Location that should be used to
+50     // determine the minute, hour, month, day, and year
+51     // that correspond to this Time.
+52     // Only the zero Time has a nil Location.
+53     // In that case it is interpreted to mean UTC.
+54     loc *Location
+55 }
+      
+      The Time struct in listing 5.28 comes from the time package. When you think about time, you realize that any given point in time is not something that can change. This is exactly
+         how the standard library implements the Time type. Let’s look at the Now function that creates values of type Time."|"Go in Action"|"William Kennedy"
+"ap 06:15"|6.15|"Listing 6.15. listing15.go
+      
+      01 // This sample program demonstrates how to use the atomic
+02 // package functions Store and Load to provide safe access
+03 // to numeric types.
+04 package main
+05
+06 import (
+07     ""fmt""
+08     ""sync""
+09     ""sync/atomic""
+10     ""time""
+11 )
+12
+13 var (
+14     // shutdown is a flag to alert running goroutines to shutdown.
+15     shutdown int64
+16
+17     // wg is used to wait for the program to finish.
+18     wg sync.WaitGroup
+19 )
+20
+21 // main is the entry point for all Go programs.
+22 func main() {
+23     // Add a count of two, one for each goroutine.
+24     wg.Add(2)
+25
+26     // Create two goroutines.
+27     go doWork(""A"")
+28     go doWork(""B"")
+29
+30     // Give the goroutines time to run.
+31     time.Sleep(1 * time.Second)
+32
+33     // Safely flag it is time to shutdown.
+34     fmt.Println(""Shutdown Now"")
+35     atomic.StoreInt64(&shutdown, 1)
+36
+37     // Wait for the goroutines to finish.
+38     wg.Wait()
+39 }
+40
+41 // doWork simulates a goroutine performing work and
+42 // checking the Shutdown flag to terminate early.
+43 func doWork(name string) {
+44     // Schedule the call to Done to tell main we are done.
+
+45     defer wg.Done()
+46
+47     for {
+48         fmt.Printf(""Doing %s Work\n"", name)
+49         time.Sleep(250 * time.Millisecond)
+50
+51         // Do we need to shutdown.
+52         if atomic.LoadInt64(&shutdown) == 1 {
+53             fmt.Printf(""Shutting %s Down\n"", name)
+54             break
+55         }
+56     }
+57 }
+      
+      In this example two goroutines are launched and begin to perform some work. After every iteration of their respective loop,
+         the goroutines check the value of the shutdown variable by using the LoadInt64 function on line 52. This function returns a safe copy of the shutdown variable. If the value equals 1, the goroutine breaks out of the loop and terminates."|"Go in Action"|"William Kennedy"
+"ap 07:22"|7.22|"Listing 7.22. pool/main/main.go: lines 21–32
+      
+      21 // dbConnection simulates a resource to share.
+22 type dbConnection struct {
+23     ID int32
+24 }
+25
+26 // Close implements the io.Closer interface so dbConnection
+27 // can be managed by the pool. Close performs any resource
+28 // release management.
+29 func (dbConn *dbConnection) Close() error {
+30     log.Println(""Close: Connection"", dbConn.ID)
+31     return nil
+32 }
+      
+      Listing 7.22 shows the declaration of the dbConnection struct and its implementation of the io.Closer interface. The dbConnection type simulates a struct that’s managing a database connection and currently has one field, ID, that contains a unique ID for each connection. The Close method just reports that the connection is being closed and displays its ID."|"Go in Action"|"William Kennedy"
+23:00|23:00|"Listing 8.2. Sample trace line
+      
+      TRACE: 2009/11/10 23:00:00.000000 /tmpfs/gosandbox-/prog.go:14: message
+      
+      In listing 8.2 you see a log entry produced by the log package. This log entry contains a prefix, a datetime stamp, the full path to the source code writing to the log, the line
+         of code performing the write, and finally the message. Let’s look at a program that allows you to configure the log package to write such a line."|"Go in Action"|"William Kennedy"
+"ap 08:34"|8.34|"Listing 8.34. Documentation for the io.Writer interface
+      
+      Write writes len(p) bytes from p to the underlying data stream. It
+returns the number of bytes written from p (0 <= n <= len(p)) and any
+error encountered that caused the write to stop early. Write must
+return a non-nil error if it returns n < len(p). Write must not modify
+the slice data, even temporarily.
+      
+      The rules in listing 8.34 come from the standard library. They mean that the implementation of the Write method should attempt to write the entire length of the byte slice that’s passed in. But if that isn’t possible, then the method must return an error. The number of bytes reported as
+         written can be less than the length of the byte slice, but never more. Finally, the byte slice must never be modified in any way."|"Go in Action"|"William Kennedy"
+"ap 08:36"|8.36|"Listing 8.36. Documentation for the io.Reader interface
+      
+      (1) Read reads up to len(p) bytes into p. It returns the number of bytes
+read (0 <= n <= len(p)) and any error encountered. Even if Read returns
+n < len(p), it may use all of p as scratch space during the call. If
+some data is available but not len(p) bytes, Read conventionally
+returns what is available instead of waiting for more.
+
+(2) When Read encounters an error or end-of-file condition after
+successfully reading n > 0 bytes, it returns the number of bytes read.
+It may return the (non-nil) error from the same call or return the
+error (and n == 0) from a subsequent call. An instance of this general
+case is that a Reader returning a non-zero number of bytes at the end
+of the input stream may return either err == EOF or err == nil. The next
+Read should return 0, EOF regardless.
+
+(3) Callers should always process the n > 0 bytes returned before
+considering the error err. Doing so correctly handles I/O errors that
+happen after reading some bytes and also both of the allowed EOF
+behaviors.
+
+(4) Implementations of Read are discouraged from returning a zero byte
+count with a nil error, and callers should treat that situation as a
+no-op.
+      
+      There are four rules listed in the standard library about implementing the Read method. The first rule states that the implementation should attempt to read the entire length of the byte slice that’s passed in. It’s okay to read less than the entire length, and it shouldn’t wait to read the entire length if
+         that much data isn’t available at the time of the call."|"Go in Action"|"William Kennedy"
+15:04|15:04|"Listing 9.12. listing12_test.go: lines 01–41
+      
+      01 // Sample test to show how to mock an HTTP GET call internally.
+02 // Differs slightly from the book to show more.
+03 package listing12
+04
+05 import (
+06     ""encoding/xml""
+07     ""fmt""
+08     ""net/http""
+09     ""net/http/httptest""
+10     ""testing""
+11 )
+12
+13 const checkMark = ""\u2713""
+14 const ballotX = ""\u2717""
+15
+16 // feed is mocking the XML document we except to receive.
+17 var feed = `<?xml version=""1.0"" encoding=""UTF-8""?>
+18 <rss>
+19 <channel>
+20     <title>Going Go Programming</title>
+21     <description>Golang : https://github.com/goinggo</description>
+22     <link>http://www.goinggo.net/</link>
+23     <item>
+24         <pubDate>Sun, 15 Mar 2015 15:04:00 +0000</pubDate>
+25         <title>Object Oriented Programming Mechanics</title>
+26         <description>Go is an object oriented language.</description>
+27         <link>http://www.goinggo.net/2015/03/object-oriented</link>
+28     </item>
+29 </channel>
+30 </rss>`
+31
+32 // mockServer returns a pointer to a server to handle the get call.
+33 func mockServer() *httptest.Server {
+
+34     f := func(w http.ResponseWriter, r *http.Request) {
+35         w.WriteHeader(200)
+36         w.Header().Set(""Content-Type"", ""application/xml"")
+37         fmt.Fprintln(w, feed)
+38     }
+39
+40     return httptest.NewServer(http.HandlerFunc(f))
+41 }
+      
+      Listing 9.12 shows how we can mock a call to the goinggo.net website to simulate the downloading of the RSS feed. On line 17 a package-level
+         variable named feed is declared and initialized with a literal string that represents the RSS XML document we’ll receive from our mock server
+         call. It’s a small snippet of the actual RSS feed document and is enough to conduct our test. On line 32 we have the declaration
+         of a function named mockServer that leverages the support inside the httptest package to simulate a call to a real server on the internet."|"Go in Action"|"William Kennedy"

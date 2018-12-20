@@ -1,0 +1,29 @@
+00:00|0|"(define-class (counter)
+     (instance-vars (count 0))
+     (method (next)
+       (set! count (+ count 1))
+       count))
+
+   > (define c1 (instantiate counter))
+   > (define c2 (instantiate counter))
+
+   > (ask c1 ‘next)
+   1
+
+   > (ask c1 ‘next)
+   2
+
+   > (ask c1 ‘next)
+   3
+
+   > (ask c2 ‘next)
+   1
+
+   > (ask c1 ‘next)
+   4
+
+   > (ask c2 ‘next)
+   2
+
+
+This example has one class counter and two instances c1 and c2. A counter accepts only one message, next. Each counter has a local state variable count, whose value starts at 0 and is increased by one for each next message that the counter receives."|"Handbook of Programming Languages Volume 4"|"Peter H. Salus"
