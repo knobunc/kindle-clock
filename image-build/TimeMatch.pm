@@ -1023,7 +1023,7 @@ sub get_matches {
                 ( (?<pr> ( at | $twas_re | by | by \s+ the ) \s+ )
                 | (?<t1> $rel_words \s+ )
                 )
-                (?<t2> $hour_re [?]? [-.\s]? $min_re )
+                (?<t2> $hour_re [?]? ( [-.\s] $min_re | $minsec0_dig_re ) )
                 (?<po>
                  \s+ ( ( ( on | in ) \s+ )? $weekday_re
                        | when
