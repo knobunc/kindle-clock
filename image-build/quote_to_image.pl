@@ -16,12 +16,13 @@ use Text::CSV;
 
 # Set up our fonts
 $ENV{GDFONTPATH} = abs_path("./fonts");
-my $font_path = "LinLibertine_RZah";
-my $font_path_bold = "LinLibertine_RBah";
-my $creditFont = "LinLibertine_RZIah";
+my $font_path       = "LinLibertine_RZah";
+my $font_path_bold  = "LinLibertine_RBah";
+my $creditFont      = "LinLibertine_RZIah";
+my $creditFont_size = 18;
 
 # Image dimensions
-my $width = 600;
+my $width  = 600;
 my $height = 800;
 
 # Text margin
@@ -127,9 +128,9 @@ sub make_quote_images {
            $time, $imagenumber, length($quote), $font_size, $qs);
 
     # Save the image
-    my $basename = sprintf("%s/quote_%s_%03d", $image_path, $time, $imagenumber);
+    my $basename = sprintf("quote_%s_%03d", $time, $imagenumber);
     my $file_nc = $basename.'.png';
-    imgtopng($img, $file_nc);
+    imgtopng($img, "$image_path/$file_nc");
 
     ## METADATA
     # create another version, with title and author in the image
@@ -137,7 +138,7 @@ sub make_quote_images {
 
     # Save the image with metadata
     my $file_c = $basename.'_credits.png';
-    imgtopng($img, $file_c);
+    imgtopng($img, "$image_path/metadata/$file_c");
 
     $img = undef;
 
@@ -152,7 +153,7 @@ sub imgtopng {
     print $fh $img->png();
     close $fh;
 
-    #colorimg_to_grey($file);
+    colorimg_to_grey($file);
 
     return;
 }
@@ -171,6 +172,7 @@ sub render_text {
 
     while ($lo_font < $hi_font ) {
         $font_size = $lo_font + int(($hi_font - $lo_font) / 2 + 0.5);
+
 
         my ($paragraphHeight) = fit_text($pieces, $font_size);
 
@@ -240,17 +242,22 @@ sub get_word_pieces {
 sub fit_text {
     my ($word_pieces, $font_size) = @_;
 
-    # variable to hold the x and y position of words
+    # Track the x and y position of words
     my ($pos_x, $pos_y) = ($margin, $margin+$font_size);
+
+    # Work out the farthest we can go down the page
+    # We need to leave space for the margin and two rows of text
+    my (undef, $textheight) = measureSizeOfTextbox($creditFont_size, $creditFont, "M");
+    my $max_y = $height - $margin - $textheight*1.1 - $textheight;
 
     foreach my $wp (@$word_pieces) {
         # Measure the word's width
         my $wordwidth = 0;
         foreach my $p (@$wp) {
             my ($font, $textcolor, $word) = @$p;
-            my ($width) = measureSizeOfTextbox($font_size, $font, $word);
+            my ($w) = measureSizeOfTextbox($font_size, $font, $word);
 
-            $wordwidth += $width;
+            $wordwidth += $w;
         }
 
         ## Write every word to image, and record its position for the next word
@@ -268,7 +275,7 @@ sub fit_text {
             $pos_x  = $margin;
             $pos_y += int($font_size*1.618 + 0.5); # 'golden ratio' line height
 
-            if ( $pos_y >= ($height - 100) ) {
+            if ($pos_y >= $max_y) {
                 # This call to fit_text returned a paragraph that is in fact higher than the height
                 # of the image, return without those values to indicate we went too far
                 return;
@@ -301,12 +308,14 @@ sub draw_text {
 
     foreach my $wp (@$word_pieces) {
         # Measure the word's width
+        my @widths;
         my $wordwidth = 0;
         foreach my $p (@$wp) {
             my ($font, $textcolor, $word) = @$p;
             my ($w) = measureSizeOfTextbox($font_size, $font, $word);
 
             $wordwidth += $w;
+            push @widths, $w;
         }
 
         # If the line plus the extra word is too wide for the specified width, then write
@@ -319,15 +328,15 @@ sub draw_text {
         }
 
         # Write the word to the image
+        my $i = 0;
         foreach my $p (@$wp) {
             my ($font, $textcolor, $word) = @$p;
             my $color = $color{$textcolor}
-                or die "No color for '$textcolor'";
-            my ($width) =
-                dimensions( $img->stringFT($color, $font, $font_size, 0, $pos_x, $pos_y, $word) );
+                // die "No color for '$textcolor'";
+            $img->stringFT($color, $font, $font_size, 0, $pos_x, $pos_y, $word);
 
             # Add the word's width
-            $pos_x += $width;
+            $pos_x += $widths[$i++];
         }
     }
 
@@ -356,13 +365,12 @@ sub add_source {
     my ($img, $title, $author) = @_;
 
     # Define colors
-    my $grey_c  = $img->colorAllocate(125, 125, 125);
-    my $black_c = $img->colorAllocate(  0,   0,   0);
+    my $grey_c  = $img->colorExact(125, 125, 125);
+    my $black_c = $img->colorExact(  0,   0,   0);
 
     my $em_dash = "—";
 
     my $credits = $title . ", " . $author;
-    my $creditFont_size = 18;
 
     # If the metadata is longer than 45 characters, replace a space by a newline from the end,
     # just as long the as paragraph is getting smaller.
@@ -424,17 +432,20 @@ sub colorimg_to_grey {
     my ($file) = @_;
 
     # Convert the image we made to greyscale
-    state $im = Image::Magick->new();
+    state $im = Image::Magick->new(magick => 'png');
 
     # Define the image you want to convert
-    my $new_image = $im->Read($file);
+    $im->Read($file);
 
     # Set grayscale
     $im->Quantize(colorspace=>'gray');
 
     # Write the new file
     unlink($file);
-    $new_image = $im->Write($file);
+
+    # Write the last image in the sequence if there are multiple
+    # Quality is defined here -- http://imagemagick.org/script/command-line-options.php#quality
+    $im->[-1]->Write(filename => $file, quality => '92');
 
     return;
 }
