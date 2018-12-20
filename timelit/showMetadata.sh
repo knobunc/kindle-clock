@@ -1,20 +1,22 @@
 #!/bin/sh
 
+BASEDIR="/mnt/us/timelit"
+
 # see what image is shown at the moment
-current=$(cat clockisticking 2>/dev/null)
+current=$(cat "$BASEDIR/clockisticking" 2>/dev/null)
 
 # only if a filename is in the clockisticking file, then continue 
 if [ -n "$current" ]; then
-	if [ -f /mnt/us/timelit/showsource ]; then
+    if [ -f "$BASEDIR/showsource" ]; then
 		# Going from showing source to not:
 		# Remove the indicator and then use the unmodified name
-		rm /mnt/us/timelit/showsource
+        rm "$BASEDIR/showsource"
 		
 		currentCredit="$current"
 	else	
 		# Going from no source to showing it:
 		# Make the indicator and then permute the name
-		touch /mnt/us/timelit/showsource
+        touch "$BASEDIR/showsource"
 		
 		# find the matching image with metadata
 		currentCredit=$(echo $current | sed 's/.png//')_credits.png
@@ -27,5 +29,5 @@ if [ -n "$current" ]; then
 fi
 
 # start waiting for new keystrokes
-/usr/bin/waitforkey 104 191 && sh /mnt/us/timelit/showMetadata.sh &
+/usr/bin/waitforkey 104 191 && sh "$BASEDIR/showMetadata.sh" &
 

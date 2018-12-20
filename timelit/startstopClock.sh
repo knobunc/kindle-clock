@@ -1,9 +1,11 @@
 #!/bin/sh
 
+BASEDIR="/mnt/us/timelit"
+
 clockrunning=1
 
 # check if the clock 'app' is not running (by checking if the clockisticking file is there) 
-test -f /mnt/us/timelit/clockisticking || clockrunning=0
+test -f "$BASEDIR/clockisticking" || clockrunning=0
 
 if [ $clockrunning -eq 0 ]; then
 
@@ -15,14 +17,14 @@ if [ $clockrunning -eq 0 ]; then
 	#eips "Clock is not ticking. Lets wind it."
 
 	# run showMetadata.sh to enable the keystrokes that will show the metadata
-	sh /mnt/us/timelit/showMetadata.sh
+    sh "$BASEDIR/showMetadata.sh"
 
-	touch /mnt/us/timelit/clockisticking
-	sh /mnt/us/timelit/timelit.sh
+    touch "$BASEDIR/clockisticking"
+    sh "$BASEDIR/timelit.sh"
 
 else
 
-	rm /mnt/us/timelit/clockisticking
+    rm "$BASEDIR/clockisticking"
 	killall showMetadata.sh waitforkey
 
 	eips -c  # clear display
