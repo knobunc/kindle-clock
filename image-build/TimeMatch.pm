@@ -1637,11 +1637,20 @@ sub extract_times {
               ( # one ... thirty ... four
                 ( (?<rl> $rel_at_words ) \s+ )?
                                         (?<hr> $hour24_word_re )
-                  \s* (- | $ellips) \s* (?<mn> $min_word_re )
-                ( \s* (- | $ellips) \s* (?<m3> $z_low_num_re ) )?
+                  \s* $ellips \s* (?<mn> $min_word_re )
+                ( \s* $ellips \s* (?<m3> $z_low_num_re ) )?
                 ( \s+ $oclock_re )?
                 ( [:,]? \s+ (?<am> $ampm_re ) )?
                 (?{ $branch = "9"; })
+
+              | # one-three-zero (should we support one-one-three-zero?)
+                ( (?<rl> $rel_at_words ) \s+ )?
+                    (?<hr> $hour24_word_re )
+                  - (?<mn> $z_low_num_re )
+                  - (?<m3> $z_low_num_re )
+                ( \s+ $oclock_re )?
+                ( [:,]? \s+ (?<am> $ampm_re ) )?
+                (?{ $branch = "14"; })
 
               | # Exact time
                 ( (?<rl> $rel_at_words ) \s+
@@ -1683,7 +1692,7 @@ sub extract_times {
               | # 11h20m, 11h20, 3 hr 8 m p.m.
                 ( (?<rl> $rel_at_words ) \s+ )?
                   (?<hr> $hour_dig_re   | $hour24_re ) \s* ( h | hrs?  | hours?   ) \s*
-                ( \s+ and \s+ | , \s+ )?
+                ( ,? \s+ ( and \s+ )? )?
                   (?<mn> $minsec_dig_re | $min_re    ) \s* ( m | mins? | minutes? )?
                 ( [:,]? \s+ (?<am> $ampm_re ) )?
                 (?{ $branch = "3"; })
