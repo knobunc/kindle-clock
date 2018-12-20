@@ -717,6 +717,16 @@ sub get_masks {
                 (?{ $branch = "x20"; })
               }xin;
 
+    # in 1.6 hours
+    push @r,qr{ (?<pr> \b
+                       ( along \s+ in | within | every ) \s+
+                       ( $rel_words \s+ )?
+                )
+                (?<t1> \d+ [-.:]? \d+ )
+                (?<po> \s* ( hrs | hours ) )
+                (?{ $branch = "x20"; })
+              }xin;
+
 
     return(\@r);
 }
