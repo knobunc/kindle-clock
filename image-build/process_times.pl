@@ -221,9 +221,10 @@ sub load_awards {
 
     my %awards;
 
-    my @files = glob("/home/bbennett/Calibre\\\ Library/*/*/metadata.opf");
+    my @files = glob("$ENV{HOME}/Calibre\\\ Library/*/*/metadata.opf")
+	or die "Unable to find metadata files";
     foreach my $f (@files) {
-        $f =~ m{\A \Q/home/bbennett/Calibre Library\E /
+        $f =~ m{\A \Q$ENV{HOME}/Calibre Library\E /
                    (?<author> .+?) /
                    (?<book> .+?) \s \(\d+\) /
                    metadata\.opf

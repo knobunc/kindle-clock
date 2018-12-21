@@ -11,7 +11,7 @@ use lib '.';
 
 use MultiProcessBooks;
 
-my $basedir = "/home/bbennett/Calibre Library/";
+my $basedir = "$ENV{HOME}/Calibre Library/";
 
 exit main(@ARGV);
 
