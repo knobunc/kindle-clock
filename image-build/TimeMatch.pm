@@ -336,6 +336,11 @@ my $never_follow_times_exp_re =
       }xin;
 my $never_follow_times_re = qr{ [-\s]* $never_follow_times_exp_re $ba_re }xin;
 
+my $screen_times_re = qr{ \b ( $hour24_re 
+                             | $all_named_times \b
+                             | ( new | next ) \s+ (?<hr> day) \s+ 
+                             ) }xin;
+
 # Set the variables used in the regexes
 my $branch      = "x";
 my $is_timey    = 0;
@@ -347,15 +352,17 @@ my $last_timey  = 0;
 sub do_match {
     my ($line, $raw) = @_;
 
-    #$line =~ s{ ( $not_in_match*? ) ((just)?) }{[$1]>$2<}gxi;
-    #return $line;
-
     ## Shortcircuit if it just has a number in the line
     # e.g "Twenty-one" since these are probably chapters
     if ($line =~ m{ \A [\n\s]* $min_word_re ( [-\s]+ $low_num_re )? [\n\s]* \z }xin) {
         return $line;
     }
 
+    ## Shortcircuit unless it has something that might be part of a time in it
+    if ($line !~ $screen_times_re) {
+	return $line;
+    }
+    
     ## Does this look like a "timey" paragraph
     $is_timey = 0;
     $is_timey = 1
@@ -1615,6 +1622,7 @@ sub get_matches {
               }xin;
 
     # The new day was still a minute away
+    # If you change this you need to change the screen above and the match below
     push @r,qr{ (?<li> $not_in_match )
                 (?<pr> the \s+ )
                 (?<t1>
@@ -1646,7 +1654,7 @@ sub extract_times {
             m{\A
               ( # one ... thirty ... four
                 ( (?<rl> $rel_at_words ) \s+ )?
-                                        (?<hr> $hour24_word_re )
+                                  (?<hr> $hour24_word_re )
                   \s* $ellips \s* (?<mn> $min_word_re )
                 ( \s* $ellips \s* (?<m3> $z_low_num_re ) )?
                 ( \s+ $oclock_re )?
@@ -1806,7 +1814,7 @@ sub extract_times {
                 ( [:,]? \s+ (?<am> $ampm_re ) )?
                 (?{ $branch = "12"; })
 
-              | # nearer to one than half past
+              | # next day was just a minute away
                   ( new | next ) \s+ (?<hr> day) \s+
                   was \s+ ( ( still | just | $rel_words ) \s+ )?
                   ( (?<n1> a | $min_re ) \s+ )?
