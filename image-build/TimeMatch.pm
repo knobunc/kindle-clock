@@ -1040,7 +1040,7 @@ sub get_matches {
                 ( (?<pr> ( at | $twas_re | by | by \s+ the ) \s+ )
                 | (?<t1> $rel_words \s+ )
                 )
-                (?<t2> $hour_re [?]? ( [-.\s] $min_re | $minsec0_dig_re ) )
+                (?<t2> $hour_re [?]? ( [-.\s] $min_re | $minsec0_dig_re )? )
                 (?<po>
                  \s+ ( ( ( on | in ) \s+ )? $weekday_re
                        | when
@@ -1190,7 +1190,7 @@ sub get_matches {
     # Strong word times
     # at eleven fifty-seven
     push @r,qr{ (?<li> $not_in_match )
-                (?<pr> ( $twas_re | at | by ) \s+ )
+                (?<pr> ( $twas_re | at | by | $points_re ) \s+ )
                 (?<t1>
                   $hour_word_re ( \s+ | \s* $ellips \s* | [-] ) $min_word_re
                   (             ( \s+ | \s* $ellips \s* | [-] ) $z_low_num_re )?

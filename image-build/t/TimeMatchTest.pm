@@ -899,7 +899,7 @@ sub get_csv_tests {
           [
             1,
             'Timestr [02:21]: two-twenty-one',
-            'It was the urge to look up at the sky. But of course there was no sun nor moon nor stars overhead. Darkness hung heavy over me. Each breath I took, each wet footstep, everything wanted to slide like mud to the ground. I lifted my left hand and pressed on the light of my digital wristwatch. <<Two-twenty-one|9j>>. It was <<midnight|13>> when we headed underground, so only a little over two hours had passed. We continued walking down, down the narrow trench, mouths clamped tight.'
+            'It was the urge to look up at the sky. But of course there was no sun nor moon nor stars overhead. Darkness hung heavy over me. Each breath I took, each wet footstep, everything wanted to slide like mud to the ground. I lifted my left hand and pressed on the light of my digital wristwatch. <<Two-twenty-one|9j>>. It was <<midnight|3b>> when we headed underground, so only a little over two hours had passed. We continued walking down, down the narrow trench, mouths clamped tight.'
           ],
           [
             1,
