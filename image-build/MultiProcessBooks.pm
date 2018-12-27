@@ -8,6 +8,7 @@ use Exporter::Easy (
   EXPORT => [ qw( DEBUG_MSG ) ],
 );
 
+use Archive::Zip;
 use Carp;
 use Data::Dumper;
 use List::Util qw( sum min max );
@@ -33,8 +34,9 @@ sub new {
          display    => { what   => 10,
                          author => 20,
                          book   => 0,   # Set later
+			 size   => 6,
                          status => 20,
-                         FIXED  => 8,   # The number of fixed chars in the string
+                         FIXED  => 10,   # The number of fixed chars in the string
                        },
         };
     bless($self, $class);
@@ -169,19 +171,27 @@ sub print_task_start {
 
     my $i = $self->get_task($s);
 
-    my ($skip, $author, $book )
-        = @{$i}{qw{ skip author book }};
+    my ($skip, $author, $book, $size )
+        = @{$i}{qw{ skip author book size }};
 
     my $d = $self->{display};
 
+    if ($size == 0) {
+	$size = '';
+    }
+    else {
+	$size = int($size / 1000) . 'k';
+    }	
+    
     my ($what, $wcolor) = $skip ? ("Skipping", "yellow") : ("Processing", "bold green");
     my $acolor = "bold blue";
     my $bcolor = "bold blue";
     my ($w, $a, $b) = map { "$_.$_" } @{$d}{qw( what author book )};
-    printf("%s%${w}s%s: %s%${a}s%s - %s%-${b}s%s  ",
+    printf("%s%${w}s%s: %s%${a}s%s - %s%-${b}s%s %s  ",
            color($wcolor), $what,                        color('reset'),
            color($acolor), elide($author, $d->{author}), color('reset'),
            color($bcolor), elide($book,   $d->{book}  ), color('reset'),
+ 	                   elide($size,   $d->{size}  ),
           );
     STDOUT->flush();
 
@@ -387,17 +397,50 @@ sub fmt_min {
 sub run_jobs {
     my ($self) = @_;
 
+    # Estimate all book sizes
+    foreach my $t (@{ $self->{task_order} }) {
+	$self->estimate_size($t);
+    }
+    
     # Log the start time so we can calculate an ETA
     $self->{run_start} = time;
 
     $self->start_jobs();
 
-    foreach my $s (@{ $self->{task_order} }) {
-        $self->print_task_start($s);
-        $self->wait_for_task($s);
-        $self->print_task_end($s);
+    foreach my $t (@{ $self->{task_order} }) {
+        $self->print_task_start($t);
+        $self->wait_for_task($t);
+        $self->print_task_end($t);
     }
 
+    return;
+}
+
+sub estimate_size {
+    my ($self, $task_name) = @_;
+
+    my $task = $self->get_task($task_name);
+    
+    return if $task->{skip};
+
+    my $author = $task->{author};
+    my $book   = $task->{book};
+    my ($file) = glob("~/\QCalibre Library\E/\Q$author\E/\Q$book (\E*\Q)\E/*epub")
+	or die "Unable to find file for '$author' '$book'\n";
+    
+    my $zip = Archive::Zip->new($file)
+        or die "Unable to read zipfile '$file': $!";
+
+    my $size = 0;
+    foreach my $member (sort {$a->fileName() cmp $b->fileName()} $zip->members()) {
+	my $name = $member->fileName();
+	next if $name !~ /\.([x]?html?|xml)$/;
+
+	$size += $member->uncompressedSize();
+    }
+
+    $task->{size} = $size;
+    
     return;
 }
 
@@ -423,6 +466,7 @@ sub add_task {
 
          dur      => $args{skip} ? 0    : undef,
          started  => undef,
+	 size     => 0,                 # Filled in by estimate later
         };
 
     return;

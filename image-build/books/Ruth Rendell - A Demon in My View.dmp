@@ -236,6 +236,11 @@ $VAR1 = [
           ],
           [
             1,
+            '[ap < 05:00] A Demon in My View - Ruth Rendell.epub (OEBPS/Rend_9780307555588_epub_c14_r1.htm) - nearly five',
+            "Anthony spent the day in the college library and it was <<nearly five|3b>> when he reached Kenbourne Lane tube station on his way home. There on the newsboards he read: Murder of Kenbourne Woman and Kenbourne Killer slays again? Though he was necessarily interested in what leads men to kill, murder itself fascinated him not at all, so he didn\x{2019}t buy a paper. Helen\x{2019}s letter would be waiting for him, and since leaving the library his whole mind had been possessed by speculating as to what she would say.",
+          ],
+          [
+            1,
             '[07:30] A Demon in My View - Ruth Rendell.epub (OEBPS/Rend_9780307555588_epub_c14_r1.htm) - half-past seven this morning',
             "\x{201c}The police came here at <<half-past seven this morning|10>>,\x{201d} he said. \x{201c}They couldn\x{2019}t get an answer from Brian, so they came to me. They wanted to know when I\x{2019}d last seen Brian and what sort of a mood he was in. I told them about last night. I had to.\x{201d}",
           ],
@@ -272,7 +277,7 @@ $VAR1 = [
           [
             1,
             '[00:00] A Demon in My View - Ruth Rendell.epub (OEBPS/Rend_9780307555588_epub_c15_r1.htm) - midnight',
-            "So they played Scrabble till <<midnight|13>> when Leroy went to bed and Linthea said very directly, \x{201c}I shall send you home now, Anthony. You must be fresh for your psychopaths in the morning.\x{201d}",
+            "So they played Scrabble till <<midnight|3b>> when Leroy went to bed and Linthea said very directly, \x{201c}I shall send you home now, Anthony. You must be fresh for your psychopaths in the morning.\x{201d}",
           ],
           [
             1,

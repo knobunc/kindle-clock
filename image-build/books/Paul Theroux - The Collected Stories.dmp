@@ -94,7 +94,7 @@ Jerry said, \x{2018}I can\x{2019}t last until <<midnight|13>>.\x{2019}
           [
             1,
             '[> 00:00] The Collected Stories - Paul Theroux.epub (OPS/xhtml/chapter009.html) - after midnight',
-            'It was <<after midnight|13>> when I stopped. My hand ached, my eyes hurt from the glare, and I was sick to my stomach. Jerry had gone to sleep. I switched off the light and left him to his nightmares.',
+            'It was <<after midnight|3b>> when I stopped. My hand ached, my eyes hurt from the glare, and I was sick to my stomach. Jerry had gone to sleep. I switched off the light and left him to his nightmares.',
           ],
           [
             1,
@@ -215,7 +215,7 @@ Fred cursed himself for not saying two hundred. \x{2018}Traveler\x{2019}s checks
           [
             1,
             '[< 00:00] The Collected Stories - Paul Theroux.epub (OPS/xhtml/chapter022.html) - near midnight',
-            "It was <<near midnight|13>> when they rang. I know that because Harry was soaking his teeth, and he never does that <<before midnight|13>>. It is a small but useful courtesy he has practiced throughout our marriage and I am grateful to him for it. It is my luck that I have been blessed with very strong teeth, and let me note here that Lester, although of Irish stock, had an unexpectedly fine set of teeth which he said were all his own. \x{2018}That,\x{2019} I ribbed him, \x{2018}comes of a long residence in England. In Ireland they\x{2019}d be rotted to stumps!\x{2019} Lester did not, happily for me, take offense at my harpish dig.",
+            "It was <<near midnight|3b>> when they rang. I know that because Harry was soaking his teeth, and he never does that <<before midnight|13>>. It is a small but useful courtesy he has practiced throughout our marriage and I am grateful to him for it. It is my luck that I have been blessed with very strong teeth, and let me note here that Lester, although of Irish stock, had an unexpectedly fine set of teeth which he said were all his own. \x{2018}That,\x{2019} I ribbed him, \x{2018}comes of a long residence in England. In Ireland they\x{2019}d be rotted to stumps!\x{2019} Lester did not, happily for me, take offense at my harpish dig.",
           ],
           [
             1,
@@ -338,8 +338,8 @@ They said \x{2018}Yes, sir\x{2019} \x{2013} all politeness now \x{2013} and scam
           ],
           [
             1,
-            '[00:00] The Collected Stories - Paul Theroux.epub (OPS/xhtml/chapter037.html) - Midnight',
-            "Although it was after eleven when Alec left the Club, I went straight over to Ladysmith\x{2019}s house. I was walking up the gravel drive when I heard the most ungodly shriek \x{2013} frightening in its intensity and full of alarm. I did not recognize it as Ladysmith\x{2019}s \x{2013} indeed, it scarcely sounded human. But it was coming from his room. It was so loud and changed in pitch with such suddenness it might easily have been two or three people screaming, or a dozen doomed cats. The <<Midnight|13>> Horror tree was in full bloom and filled the night with stink.",
+            '[ap > 11:00] The Collected Stories - Paul Theroux.epub (OPS/xhtml/chapter037.html) - after eleven',
+            "Although it was <<after eleven|3b>> when Alec left the Club, I went straight over to Ladysmith\x{2019}s house. I was walking up the gravel drive when I heard the most ungodly shriek \x{2013} frightening in its intensity and full of alarm. I did not recognize it as Ladysmith\x{2019}s \x{2013} indeed, it scarcely sounded human. But it was coming from his room. It was so loud and changed in pitch with such suddenness it might easily have been two or three people screaming, or a dozen doomed cats. The <<Midnight|13>> Horror tree was in full bloom and filled the night with stink.",
           ],
           [
             1,

@@ -23,6 +23,11 @@ $VAR1 = [
           ],
           [
             1,
+            '[ap ~ 10:00] A Map of Days - Ransom Riggs.epub (OEBPS/xhtml/10_Chapter.xhtml) - around ten',
+            "\x{201c}I was <<around ten|3b>> when it happened. Your grandfather would go on these long business trips. He\x{2019}d be away for weeks at a time. I always wanted to go with him, and I used to beg and plead, but he always, always said no. Until one day. One day he said yes.\x{201d}",
+          ],
+          [
+            1,
             '[ap < 06:00] A Map of Days - Ransom Riggs.epub (OEBPS/xhtml/12_Chapter.xhtml) - almost six',
             "Emma looked at her watch. \x{201c}It\x{2019}s <<almost six|9f>>. We\x{2019}d better be getting back.\x{201d}",
           ],

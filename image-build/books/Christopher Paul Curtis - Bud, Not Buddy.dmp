@@ -54,7 +54,7 @@ LEFTY STOP',
           [
             1,
             '[20:00] Bud, Not Buddy - Christopher Paul Curtis.epub (OPS/Curt_9780385729956_epub_c12_r1.htm) - 8PM',
-            "\x{201c}\x{a0}\x{2018}At 4309 North St,\x{2019} that\x{2019}s my daughter\x{2019}s address. And \x{2018}Return <<8PM|5>> Wed\x{2019} lets him know I\x{2019}m bringing you home by eight tonight.\x{201d}",
+            "\x{201c}\x{a0}\x{2018}At 4309 North St,\x{2019} that\x{2019}s my daughter\x{2019}s address. And \x{2018}Return <<8PM|5>> Wed\x{2019} lets him know I\x{2019}m bringing you home by <<eight|3b>> tonight.\x{201d}",
           ],
           [
             1,

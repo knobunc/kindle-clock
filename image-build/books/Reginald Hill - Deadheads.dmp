@@ -49,7 +49,7 @@ Joe Sixsmith novels',
             1,
             '[< 12:00] Deadheads - Reginald Hill.epub (OEBPS/Text/019-chapter10.html) - nearly midday',
             "\x{2018}Let her lick it off,\x{2019} she said. \x{2018}It\x{2019}ll save on her next feed.\x{2019}
-It was <<nearly midday|13>> when the two women left the coffee house.
+It was <<nearly midday|3b>> when the two women left the coffee house.
 \x{2018}Which way are you going?\x{2019} asked Ellie.",
           ],
           [
@@ -217,6 +217,11 @@ Ivan Skelwith was a dark and dapper Lancastrian who claimed to have joined a Yor
             1,
             '[ap 10:00] Deadheads - Reginald Hill.epub (OEBPS/Text/040-chapter6.html) - ten',
             "\x{2018}Aye. Found drowned. He should\x{2019}ve been at a meeting at <<ten|9g>>, didn\x{2019}t appear, they got the local bobby to check down at his cottage, and there he was, bobbing around in the sea.\x{2019}",
+          ],
+          [
+            1,
+            '[ap > 10:00] Deadheads - Reginald Hill.epub (OEBPS/Text/040-chapter6.html) - after ten',
+            "\x{2018}What else? You can\x{2019}t still be thinking of Aldermann? Where\x{2019}s the motive? That\x{2019}s all been settled! And opportunity? He\x{2019}s been away since Monday! And don\x{2019}t say Sunday night. They left Elgood\x{2019}s picnic at the same time as us and we asked them to drop in at our place as they passed. One thing led to another, we had a drink and a snack, and it was <<after ten|3b>> when they left.\x{2019}",
           ],
           [
             1,

@@ -613,8 +613,8 @@ We heard the steps of our visitors descend the stair and the bang of the front d
           ],
           [
             1,
-            '[ap < 06:00] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (OEBPS/64_sec04_pt01_Chapter03.xhtml) - before six',
-            "\x{201c}Some one had been hiding here, sure enough.\x{201d} He held down the light, and the marks of muddy boots were very visible in the corner. \x{201c}I\x{2019}m bound to say this bears out your theory, Mr. Barker. It looks as if the man got into the house after four when the curtains were drawn, and <<before six|9e>>, when the bridge was raised. He slipped into this room because it was the first that he saw. There was no other place where he could hide, so he popped in behind this curtain. That all seems clear enough. It is likely that his main idea was to burgle the house, but Mr. Douglas chanced to come upon him, so he murdered him and escaped.\x{201d}",
+            '[ap > 04:00] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (OEBPS/64_sec04_pt01_Chapter03.xhtml) - after four',
+            "\x{201c}Some one had been hiding here, sure enough.\x{201d} He held down the light, and the marks of muddy boots were very visible in the corner. \x{201c}I\x{2019}m bound to say this bears out your theory, Mr. Barker. It looks as if the man got into the house <<after four|3b>> when the curtains were drawn, and <<before six|9e>>, when the bridge was raised. He slipped into this room because it was the first that he saw. There was no other place where he could hide, so he popped in behind this curtain. That all seems clear enough. It is likely that his main idea was to burgle the house, but Mr. Douglas chanced to come upon him, so he murdered him and escaped.\x{201d}",
           ],
           [
             1,

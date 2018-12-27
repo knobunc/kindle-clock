@@ -16,6 +16,11 @@ $VAR1 = [
           ],
           [
             1,
+            '[ap 11:00] Darwin\'s Radio - Greg Bear.epub (OEBPS/Text/Bear, Greg - Darwin\'s Radio_split_011.htm) - eleven',
+            "\x{201c}I wanted you to read them in the morning with coffee, when you\x{2019}re at your sharpest. I should have more solid news by then. I\x{2019}ll be back by <<eleven|3b>> tomorrow. Don\x{2019}t go to the lab right away.\x{201d}",
+          ],
+          [
+            1,
             "[16:00] Darwin's Radio - Greg Bear.epub (OEBPS/Text/Bear, Greg - Darwin's Radio_split_015.htm) - four o\x{2019}clock this afternoon",
             "\x{201c}It\x{2019}s too crazy. Mark wants me to make sense of this and strengthen the surgeon general\x{2019}s case by <<four o\x{2019}clock this afternoon|6>>.\x{201d}",
           ],
@@ -47,7 +52,7 @@ $VAR1 = [
           [
             1,
             '[12:00] Darwin\'s Radio - Greg Bear.epub (OEBPS/Text/Bear, Greg - Darwin\'s Radio_split_026.htm) - noon',
-            "\x{201c}Yeah. I\x{2019}ve been told to put together my team for Kirby\x{2019}s and Shawbeck\x{2019}s approval by <<noon|13>> tomorrow. You\x{2019}re my first choice, of course. I\x{2019}ll be conferring with some folks at NIH and some scientific headhunters from New York this evening. Every agency director will want a piece of this. It\x{2019}s my job in part to feed them things they can do before they try to take over the whole problem. Can you get in touch with Kaye Lang and tell her she\x{2019}s going to be drafted?\x{201d}",
+            "\x{201c}Yeah. I\x{2019}ve been told to put together my team for Kirby\x{2019}s and Shawbeck\x{2019}s approval by <<noon|3b>> tomorrow. You\x{2019}re my first choice, of course. I\x{2019}ll be conferring with some folks at NIH and some scientific headhunters from New York this evening. Every agency director will want a piece of this. It\x{2019}s my job in part to feed them things they can do before they try to take over the whole problem. Can you get in touch with Kaye Lang and tell her she\x{2019}s going to be drafted?\x{201d}",
           ],
           [
             1,
@@ -83,6 +88,11 @@ $VAR1 = [
             1,
             '[ap 05:30] Darwin\'s Radio - Greg Bear.epub (OEBPS/Text/Bear, Greg - Darwin\'s Radio_split_047.htm) - five-thirty',
             'She took the elevator to the ground floor at <<five-thirty|5b>> and boarded a charter bus to the opener. The event was being held at the San Diego Zoo, hosted by Americol.',
+          ],
+          [
+            1,
+            '[ap 08:00] Darwin\'s Radio - Greg Bear.epub (OEBPS/Text/Bear, Greg - Darwin\'s Radio_split_047.htm) - eight',
+            "\x{201c}I\x{2019}m free for the rest of the evening,\x{201d} Kaye said. \x{201c}Marge wants us in tow by <<eight|3b>> tomorrow morning. There\x{2019}s going to be an Americol breakfast.\x{201d}",
           ],
           [
             1,

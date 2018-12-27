@@ -54,7 +54,7 @@ my $midnight_noon_re = qr{ $noon_re | $midnight_re | $ecclesiastical_re }xin;
 
 # Numbers 1-9 as words
 my $low_num_re   = qr{ one | two | three | four | five | six | seven | eight | nine }xi;
-my $z_low_num_re = qr{ $low_num_re | zero | oh }xin;
+my $z_low_num_re = qr{ $low_num_re | zero | oh | niner }xin;
 
 # The hours 1-12 as words
 my $hour12_word_re = qr{ $low_num_re | ten | eleven | twelve | $midnight_noon_re }xi;
@@ -312,7 +312,7 @@ my $never_follow_times_exp_re =
         | (light (\s+|-))? $time_periods_re
         | final | false | true
         | (cosmological \s+)? (century | centuries | decade | millenium | millenia)
-        | third | half | halve | quarter | fifth | sixth | seventh | eighth | nineth | tenth
+        | third | half | halve | quarter | fourth | fifth | sixth | seventh | eighth | nineth | tenth
         | dollar | buck | cent | pound | quid
         | $(\d+,)*\d+(\.\d+)
         | shilling | guinea | penny | pennies | yuan | galleon | crown
@@ -1196,9 +1196,17 @@ sub get_matches {
                   (             ( \s+ | \s* $ellips \s* | [-] ) $z_low_num_re )?
                   ( $ampm_ph_re )?
                 )
-                ( $never_follow_times_re (*SKIP)(*FAIL) )?
+                ( ( $never_follow_times_re | - $z_low_num_re ) (*SKIP)(*FAIL) )?
                 $ba_re
-                (?{ $branch = "5b"; })
+                (?{ # If they look like five-three-zero then they aren't usually times
+                    $branch = "5b";
+                    my ($t1) = @+{qw( t1 )};
+                    if ($t1 =~ m{\A $z_low_num_re - $z_low_num_re - $z_low_num_re \z}xin and
+			$t1 !~ m{\A $z_low_num_re - oh - $z_low_num_re \z}xin)
+		    {
+                        $branch = "x5b";
+                    }
+	          })
               }xin;
 
     # Other weird cases
@@ -1678,9 +1686,9 @@ sub extract_times {
                   it \s+ (would | will) \s+ be \s+ (a \s+)?
                 | (?<rl> close \s+ upon ) \s+
                 )?
-                (                           (?<hr>  $hour24_re | $all_named_times   ) \s*
-                  ( ( [-\s.:/] | $ellips )+ (?<mn>  $min_re ( (?<rl> - ) $min_re )? ) \s* )?
-                  ( ( [-\s.:/] | $ellips )+ (?<sec> $sec_re ( (?<rl> - ) $min_re )? ) \s* )?
+                (                           (?<hr>  $hour24_re | $all_named_times   ) \?? \s* 
+                  ( ( [-\s.:/] | $ellips )+ (?<mn>  $min_re ( (?<rl> - ) $min_re )? )     \s* )?
+                  ( ( [-\s.:/] | $ellips )+ (?<sec> $sec_re ( (?<rl> - ) $min_re )? )     \s* )?
                 |   (?<hr>  $hour24_dig_re  )
                   ( (?<mn>  $minsec0_dig_re ) )?
                   ( (?<sec> $minsec0_dig_re ) )?
@@ -2162,6 +2170,7 @@ sub min2num {
     # Fixed numbers
     return 0  if $min =~ m{\A ( oh \s* )+ \z}xin;
     return 1  if $min =~ m{\A ( a | an ) \z}xin;
+    return 9  if $min =~ m{\A ( niner \s* )+ \z}xin;
 
     # Approximate times
     return 3  if $min =~ m{\A ( a \s+ few ) \z}xin;

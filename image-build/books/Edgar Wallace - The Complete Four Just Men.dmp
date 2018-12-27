@@ -41,13 +41,18 @@ $VAR1 = [
           ],
           [
             1,
+            '[ap > 10:00] The Complete Four Just Men - Edgar Wallace.epub (OEBPS/four just men text-104.html) - after ten',
+            "The clocks were striking the half-hour <<after ten|3b>> when the telephone in Mr Guntheimer\x{2019}s private suite buzzed softly. Guntheimer ceased his restless pacing and went to the instrument.",
+          ],
+          [
+            1,
             "[11:00] The Complete Four Just Men - Edgar Wallace.epub (OEBPS/four just men text-105.html) - eleven o\x{2019}clock in the morning",
             "\x{2018}I went into the inn and found Ambrose drinking tea \x{2013} a man who drinks tea at <<eleven o\x{2019}clock in the morning|6>> has lived either in South Africa or Australia. It proved to be South Africa. An alluvial diamond digger, an ex-soldier and a most gentlemanly person, though not very communicative. After he had gone I went in search of the labourer \x{2013} overtook him as he entered a most flamboyant villa.\x{2019}",
           ],
           [
             1,
             '[> 00:00] The Complete Four Just Men - Edgar Wallace.epub (OEBPS/four just men text-105.html) - past midnight',
-            'It was <<past midnight|13>> when she reached her beautiful flat in Piccadilly, and all the staff except her maid had gone to bed. At the sound of a key turning in the lock the maid came flying into the hall, and with a sinking of heart Irene Belvinne knew that something was wrong.',
+            'It was <<past midnight|3b>> when she reached her beautiful flat in Piccadilly, and all the staff except her maid had gone to bed. At the sound of a key turning in the lock the maid came flying into the hall, and with a sinking of heart Irene Belvinne knew that something was wrong.',
           ],
           [
             1,
@@ -159,7 +164,7 @@ $VAR1 = [
           [
             1,
             '[>> 00:00] The Complete Four Just Men - Edgar Wallace.epub (OEBPS/four just men text-110.html) - long after midnight',
-            'A week later Superintendent Meadows, who was friendly with the Three, came down to consult Manfred on a matter of a forged Spanish passport, and since Manfred was an authority on passport forgeries and had a fund of stories about Spanish criminals, it was <<long after midnight|13>> when the conference broke up.',
+            'A week later Superintendent Meadows, who was friendly with the Three, came down to consult Manfred on a matter of a forged Spanish passport, and since Manfred was an authority on passport forgeries and had a fund of stories about Spanish criminals, it was <<long after midnight|3b>> when the conference broke up.',
           ],
           [
             1,
@@ -912,7 +917,7 @@ There are two risks which criminals face (with due respect to the opinions of Le
           [
             1,
             '[ap < 10:00] The Complete Four Just Men - Edgar Wallace.epub (OEBPS/four just men text-80.html) - nearly ten',
-            'Leon had some important questions to put, but he did not hurry, having the gift of patience to a marked degree. It was <<nearly ten|9:1>> when they parted, and Gonsalez went back to his garage, where he spent a quarter of an hour.',
+            'Leon had some important questions to put, but he did not hurry, having the gift of patience to a marked degree. It was <<nearly ten|3b>> when they parted, and Gonsalez went back to his garage, where he spent a quarter of an hour.',
           ],
           [
             1,
@@ -1023,7 +1028,7 @@ Johnson Lee sat back in his chair.",
           [
             1,
             '[ap > 11:00] The Complete Four Just Men - Edgar Wallace.epub (OEBPS/four just men text-90.html) - past eleven',
-            "It was <<past eleven|9:0>> when he dismissed the taxi at the end of the long lane, and, following the only safe path, came to the unpainted door that gave admission to Oberzohn\x{2019}s property. And the first words of his master told him that there was no necessity for explanation.",
+            "It was <<past eleven|3b>> when he dismissed the taxi at the end of the long lane, and, following the only safe path, came to the unpainted door that gave admission to Oberzohn\x{2019}s property. And the first words of his master told him that there was no necessity for explanation.",
           ],
           [
             1,
@@ -1051,6 +1056,11 @@ It might as well have been eight or <<midday|13>>, for all she knew to the contr
             1,
             '[00:00] The Complete Four Just Men - Edgar Wallace.epub (OEBPS/four just men text-93.html) - midnight',
             "\x{2018}Digby takes up his duty at <<midnight|13>>,\x{2019} said Manfred. \x{2018}He has been down to Oberzohn\x{2019}s place to get the lie of the land: he thought it advisable that he should study the topography in daylight, and I agreed. He might get himself into an awkward tangle if he started exploring the canal bank in the dark hours. Summer or winter, there is usually a mist on the water.\x{2019}",
+          ],
+          [
+            1,
+            '[ap > 08:00] The Complete Four Just Men - Edgar Wallace.epub (OEBPS/four just men text-93.html) - after eight',
+            "Cars were beginning to arrive, at first at intervals, but, as the hour of the play\x{2019}s beginning approached, in a ceaseless line that made a congestion and rendered the traffic police articulate and occasionally unkind. It was short of the half-hour <<after eight|3b>> when Manfred saw Oberzohn\x{2019}s glistening car in the block, and presently it pulled up before the entrance of the theatre. First Joan and then Monty Newton alighted and passed out of view.",
           ],
           [
             1,

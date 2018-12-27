@@ -37,12 +37,12 @@ $VAR1 = [
           [
             1,
             '[12:00] The Naked God - Peter F. Hamilton.epub (OEBPS/Text/013.html) - midday',
-            "\x{201c}I also think the worst of the rain should be over by <<midday|13>> tomorrow. Results from the sensors we can rely on show us the cloud is thinning out. A lot of it is simply blowing out to sea now they\x{2019}re no longer containing it. And of course, it\x{2019}s falling, bigtime.\x{201d}",
+            "\x{201c}I also think the worst of the rain should be over by <<midday|3b>> tomorrow. Results from the sensors we can rely on show us the cloud is thinning out. A lot of it is simply blowing out to sea now they\x{2019}re no longer containing it. And of course, it\x{2019}s falling, bigtime.\x{201d}",
           ],
           [
             1,
             '[12:00] The Naked God - Peter F. Hamilton.epub (OEBPS/Text/013.html) - midday',
-            "\x{201c}It can\x{2019}t, normally,\x{201d} Diana said. \x{201c}This whole meteorology situation is highly artificial. The dispersal will influence the planet\x{2019}s weather patterns for the rest of the year. However, it certainly isn\x{2019}t sustainable; as I said, the heaviest falls will be over by <<midday|13>> tomorrow. After that, the serjeants will be able to make decent progress.\x{201d}",
+            "\x{201c}It can\x{2019}t, normally,\x{201d} Diana said. \x{201c}This whole meteorology situation is highly artificial. The dispersal will influence the planet\x{2019}s weather patterns for the rest of the year. However, it certainly isn\x{2019}t sustainable; as I said, the heaviest falls will be over by <<midday|3b>> tomorrow. After that, the serjeants will be able to make decent progress.\x{201d}",
           ],
           [
             1,
@@ -257,6 +257,11 @@ $VAR1 = [
             1,
             '[ap > 02:00] The Naked God - Peter F. Hamilton.epub (OEBPS/Text/051.html) - just after two o\'clock',
             'I was ushered into Corrine Arburry\'s office <<just after two o\'clock|10>>. It was nothing like as stark as mine, with big potted ferns and a colony of large purple-coloured lizards romping round inside a glass case in the corner. According to her file, Corrine had been in Eden for six years, almost since the habitat was opened for residency.',
+          ],
+          [
+            1,
+            '[ap ~ 05:00] The Naked God - Peter F. Hamilton.epub (OEBPS/Text/051.html) - gone five',
+            'My watch said it was <<gone five|3b>> when Nyberg drove me over to the hospital. Not that I could tell, the day-long noon of the light-tube was dousing the town and parkland in the same glaring corona as it always did. Corrine hadn\'t been exactly enthusiastic about my visit, but I\'d come over all official, so she acquiesced with a minimum of fuss.',
           ],
           [
             1,
