@@ -167,9 +167,9 @@ sub _print_status {
 }
 
 sub print_task_start {
-    my ($self, $s) = @_;
+    my ($self, $task_name) = @_;
 
-    my $i = $self->get_task($s);
+    my $i = $self->get_task($task_name);
 
     my ($skip, $author, $book, $size )
         = @{$i}{qw{ skip author book size }};
@@ -186,8 +186,8 @@ sub print_task_start {
     my ($what, $wcolor) = $skip ? ("Skipping", "yellow") : ("Processing", "bold green");
     my $acolor = "bold blue";
     my $bcolor = "bold blue";
-    my ($w, $a, $b) = map { "$_.$_" } @{$d}{qw( what author book )};
-    printf("%s%${w}s%s: %s%${a}s%s - %s%-${b}s%s %s  ",
+    my ($w, $a, $b, $s) = map { "$_.$_" } @{$d}{qw( what author book size )};
+    printf("%s%${w}s%s: %s%${a}s%s - %s%-${b}s%s %${s}s  ",
            color($wcolor), $what,                        color('reset'),
            color($acolor), elide($author, $d->{author}), color('reset'),
            color($bcolor), elide($book,   $d->{book}  ), color('reset'),
@@ -199,9 +199,9 @@ sub print_task_start {
 }
 
 sub print_task_end {
-    my ($self, $s) = @_;
+    my ($self, $task_name) = @_;
 
-    my $i = $self->get_task($s);
+    my $i = $self->get_task($task_name);
 
     my $status = "\n";
     $status = sprintf(" %sDone%s: %s%3ds%s\n",
@@ -425,8 +425,8 @@ sub estimate_size {
 
     my $author = $task->{author};
     my $book   = $task->{book};
-    my ($file) = glob("~/\QCalibre Library\E/\Q$author\E/\Q$book (\E*\Q)\E/*epub")
-	or die "Unable to find file for '$author' '$book'\n";
+    my ($file) = glob("~/\QCalibre Library\E/\Q$author\E/\Q$book\E*\Q (\E*\Q)\E/*epub")
+	or die "Unable to find file for '$author' '$book'";
     
     my $zip = Archive::Zip->new($file)
         or die "Unable to read zipfile '$file': $!";
