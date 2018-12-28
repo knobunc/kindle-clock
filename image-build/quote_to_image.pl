@@ -248,7 +248,7 @@ sub fit_text {
     # Work out the farthest we can go down the page
     # We need to leave space for the margin and two rows of text
     my (undef, $textheight) = measureSizeOfTextbox($creditFont_size, $creditFont, "M");
-    my $max_y = $height - $margin - $textheight*1.1 - $textheight;
+    my $max_y = $height - $margin - $textheight*1.1 - $textheight - $margin;
 
     foreach my $wp (@$word_pieces) {
         # Measure the word's width
