@@ -556,7 +556,7 @@ sub get_masks {
               }xin;
 
     # age of twenty-four, aged twenty-four
-    push @r,qr{ (?<pr> \s+ ( age \s+ of | aged )\s+ )
+    push @r,qr{ (?<pr> \s+ ( age \s+ of | aged | (he | she | I) \s+ (was | am) ) \s+ )
                 (?<t1>
                   $min_word_re ( [-\s]+ $low_num_re )?
                   ( \s+ ( or | to ) \s

@@ -39,7 +39,14 @@ $VAR1 = [
             '[ap 11:30] Stick - Elmore Leonard.epub (index_split_002.xhtml) - 11:30',
             'A little more than an hour and a half ago he had walked from the garage to the pool in his tans, read y to go. Had waited for Barry, swimming his morning lengths, to come up the ladder in his briefs, lean , hairy, very dark, shaking water from limp hands , gold chain glistening. Had looked at his new watc h as Barry slipped on a white terrycloth robe an d announced it was <<11:30|2>>. Barry said, "So?"
 "You said the flight arrives at <<one|9f>>?"
-"I said one-oh-five."',
+"I said <<one-oh-five|5b>>."',
+          ],
+          [
+            1,
+            '[ap 01:00] Stick - Elmore Leonard.epub (index_split_002.xhtml) - one',
+            '"You said the flight arrives at <<one|9f>>?"
+"I said <<one-oh-five|5b>>."
+"What time you want to leave?"',
           ],
           [
             1,
