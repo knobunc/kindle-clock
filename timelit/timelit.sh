@@ -31,9 +31,9 @@ if [ -f "$BASEDIR/showsource" ]; then
 	ThisMinuteImage=$(echo $ThisMinuteImage | sed 's/images/images\/metadata/')
 fi
 
-# Do a full repaint every 30 minutes
+# Do a full repaint every 20 minutes
 clearFlag=""
-if echo $MinuteOTheDay | grep -q '^..[03]0$'; then
+if echo $MinuteOTheDay | grep -q '^..[024]0$'; then
         clearFlag="-f"
 fi
 
