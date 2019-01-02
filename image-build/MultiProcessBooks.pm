@@ -204,9 +204,10 @@ sub print_task_end {
     my $i = $self->get_task($task_name);
 
     my $status = "\n";
-    $status = sprintf(" %sDone%s: %s%3ds%s\n",
+    $status = sprintf(" %sDone%s: %s%3ds%s  %6.2fk/s\n",
                       color('bold green'),            color('reset'),
                       color('bold blue'),  $i->{dur}, color('reset'),
+                      $i->{size} / $i->{dur} / 1000,
                       )
         unless $i->{skip};
 
@@ -329,53 +330,52 @@ sub eta {
     my $init      = 0;
     my $done      = 0;
     my $run       = 0;
-    my $rem       = int(@{ $self->{queue} });
-    my $init_time = 0;
+    my $rem       = 0;
+    my $done_size = 0;
     my $done_time = 0;
-    my @run_times;
+    my $run_size  = 0;
+    my $run_time  = 0;
+    my $rem_size  = 0;
 
     my $time = time;
 
-    my $found = 0;
     foreach my $s (@{ $self->{task_order} }) {
         my $t = $self->get_task($s);
-        $found = 1 if $s eq $cur_task;
 
         # Ignore ones we are skipping
         next if $t->{skip};
 
         # Ignore ones we haven't started
         my $start = $t->{started};
-        next if not defined $start;
-
-        # Add a . for done, or a number indicating tens of seconds of runtime, or ! if > 100s
-        if (defined $t->{dur}) {
-            if ($found) {
-                $done++;
-                $done_time += $t->{dur};
-            } else {
-                $init++;
-                $init_time += $t->{dur};
-            }
+        if (not defined $start) {
+            # Pending tasks
+            $rem++;
+            $rem_size += $t->{size} / 1000;
+        }
+        elsif (defined $t->{dur}) {
+            # Finished tasks
+            $done++;
+            $done_time += $t->{dur};
+            $done_size += $t->{size} / 1000;
         }
         else {
+            # Running tasks
             $run++;
-            push @run_times, $time - $start;
+            $run_time += $time - $start;
+            $run_size += $t->{size} / 1000;
         }
     }
 
     ## Compute the ETA
-    # Compute the average done time, or estimate if we don't have enough data yet
-    my $guess_time   = 45;
-    my $guess_weight = $tasks - $init;
-    my $avg_init = $guess_weight > 0
-        ? ($init_time + $guess_time*$guess_weight) / ($init + $guess_weight)
-        :  $init_time / $init;
+    # Compute the average rate, or estimate if we don't have enough data yet
+    my $guess_rate = 60;
+    if ($done >= 2) {
+        $guess_rate = $done_size / $done_time;
+    }
 
-    # Use the per-task time to estimate the remaining time (minus the time the current tasks have run)
+    # Use the rate time to estimate the remaining time (minus the time the current tasks have run)
     # But we can't end in less than 5 seconds
-    my $run_time     = sum( @run_times) || 0;
-    my $est_time = $avg_init * ($run + $rem) - $run_time;
+    my $est_time = ($run_size + $rem_size) / $guess_rate - $run_time;
     $est_time  /= min( ($run + $rem),  $tasks)
         if $run + $rem;
     $est_time = max($est_time, 5);
