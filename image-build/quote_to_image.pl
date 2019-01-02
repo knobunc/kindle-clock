@@ -5,7 +5,8 @@ use Modern::Perl '2017';
 use utf8;
 use open ':std', ':encoding(UTF-8)';
 
-use Cwd qw(abs_path);
+use Clone qw( clone );
+use Cwd qw( abs_path );
 use Data::Dumper;
 use GD;
 use Image::Magick;
@@ -16,10 +17,10 @@ use Text::CSV;
 
 # Set up our fonts
 $ENV{GDFONTPATH} = abs_path("./fonts");
-my $font_path       = "LinLibertine_RZah";
-my $font_path_bold  = "LinLibertine_RBah";
-my $creditFont      = "LinLibertine_RZIah";
-my $creditFont_size = 18;
+my $font_path        = "LinLibertine_RZah";
+my $font_path_bold   = "LinLibertine_RBah";
+my $font_path_italic = "LinLibertine_RZIah";
+my $credit_font_size = 18;
 
 # Image dimensions
 my $width  = 600;
@@ -165,20 +166,23 @@ sub render_text {
     my $pieces = get_word_pieces($quote, $timestr);
 
     # Do a binary search of the space
-    my $hi_font = $max_font_size;
-    my $lo_font = $min_font_size;
+    my $hi_font = $max_font_size + 1;
+    my $lo_font = $min_font_size - 1;
+
+    my $lo_lines = undef;
+    my $lo_img;
 
     my $font_size;
 
     while ($lo_font < $hi_font ) {
         $font_size = $lo_font + int(($hi_font - $lo_font) / 2 + 0.5);
 
-
-        my ($paragraphHeight) = fit_text($pieces, $font_size);
+        my ($paragraphHeight, $lines) = fit_text($pieces, $font_size);
 
         if ($paragraphHeight) {
             # This font fit, make it the new low
-            $lo_font = $font_size;
+            $lo_font  = $font_size;
+            $lo_lines = $lines;
         }
         else {
             # This font did not fit, make it one above the new high
@@ -188,7 +192,7 @@ sub render_text {
     $font_size = $lo_font;
 
     # Render at the size we found
-    my $img = draw_text($pieces, $font_size);
+    my $img = draw_text($lo_lines, $font_size);
 
     return ($img, $font_size);
 }
@@ -224,13 +228,13 @@ sub get_word_pieces {
             my ($pre, $hi, $post) = $word =~ m{\A (.*?) (\Q$time_word\E) (.*) \z}xi
                 or die "Unable to find '$time_word' in '$word'";
 
-            push @pieces, [$font_path,      "grey",  $pre       ] if $pre;
-            push @pieces, [$font_path_bold, "black", $hi        ];
-            push @pieces, [$font_path,      "grey",  $post . " "];
+            push @pieces, [$font_path,      "grey",  $pre ] if $pre;
+            push @pieces, [$font_path_bold, "black", $hi  ];
+            push @pieces, [$font_path,      "grey",  $post] if $post;
         }
         else {
             # Normal word, no part of the timestr is in it
-            push @pieces, [$font_path, "grey", $word . " "];
+            push @pieces, [$font_path, "grey", $word];
         }
 
         push @word_pieces, \@pieces;
@@ -242,14 +246,23 @@ sub get_word_pieces {
 sub fit_text {
     my ($word_pieces, $font_size) = @_;
 
+    # Make a copy so we can munge up the input
+    $word_pieces = clone($word_pieces);
+
     # Track the x and y position of words
-    my ($pos_x, $pos_y) = ($margin, $margin+$font_size);
+    my ($pos_x, $pos_y) = ($margin, $margin + $font_size);
 
     # Work out the farthest we can go down the page
     # We need to leave space for the margin and two rows of text
-    my (undef, $textheight) = measureSizeOfTextbox($creditFont_size, $creditFont, "M");
-    my $max_y = $height - $margin - $textheight*1.1 - $textheight - $margin;
+    my $credit_leading = get_leading($credit_font_size, $font_path);
+    my $max_x = $width - $margin;
+    my $max_y = $height - $credit_leading - $credit_leading - $margin;
 
+    # Get the line spacing
+    my $leading = get_leading($font_size, $font_path);
+
+    my $base_width = 0;
+    my @lines;
     foreach my $wp (@$word_pieces) {
         # Measure the word's width
         my $wordwidth = 0;
@@ -260,37 +273,59 @@ sub fit_text {
             $wordwidth += $w;
         }
 
-        ## Write every word to image, and record its position for the next word
-
         # If one word exceeds the width of the image (which can happen when the quote is very short),
         # then stop trying to make the font size even bigger.
-        if ( $wordwidth > ($width - $margin) ) {
+        if ($wordwidth > $max_x) {
             return;
         }
 
+        # Measure the size of the space and include it after the word
+        my $space_width = get_space_width($font_size, $wp->[-1][0]);
+        $wp->[-1][2] .= " ";
+
         # If the line plus the extra word is too wide for the specified width, then write
         # the word on the next line.
-        if ( ($pos_x + $wordwidth) >= ($width - $margin) ) {
+        if (@lines == 0 or ($pos_x + $wordwidth) >= $max_x ) {
             # 'carriage return': Reset x to the beginning of the line and push y down a line
-            $pos_x  = $margin;
-            $pos_y += int($font_size*1.618 + 0.5); # 'golden ratio' line height
+            $pos_y += $leading
+                if @lines > 0;
 
             if ($pos_y >= $max_y) {
                 # This call to fit_text returned a paragraph that is in fact higher than the height
                 # of the image, return without those values to indicate we went too far
                 return;
             }
-        }
 
-        # Add the word's width
-        $pos_x += $wordwidth;
+            # New line, add this word's pieces
+            push @lines, [ @$wp ];
+            $pos_x = $margin + $wordwidth + $space_width;
+        }
+        else {
+            # New word on existing line
+            $pos_x += $wordwidth + $space_width;
+
+            # See if these pieces can be combined
+            my $lp = $lines[-1][-1];
+            foreach my $p (@$wp) {
+                if ($lp->[0] eq $p->[0] and # Font
+                    $lp->[1] eq $p->[1])    # Color
+                {
+                    # They can be combined
+                    $lp->[2] .= $p->[2];
+                }
+                else {
+                    push @{ $lines[-1] }, $p;
+                    $lp = $p;
+                }
+            }
+        }
     }
 
-    return ($pos_y, $font_size);
+    return ($pos_y, \@lines);
 }
 
 sub draw_text {
-    my ($word_pieces, $font_size) = @_;
+    my ($lines, $font_size) = @_;
 
     # Create image
     my $img = GD::Image->new($width, $height)
@@ -303,41 +338,28 @@ sub draw_text {
          black => $img->colorAllocate(  0,   0,   0),
         );
 
-    # variable to hold the x and y position of words
-    my ($pos_x, $pos_y) = ($margin, $margin+$font_size);
+    my $max_x = $width - $margin;
 
-    foreach my $wp (@$word_pieces) {
-        # Measure the word's width
-        my @widths;
-        my $wordwidth = 0;
-        foreach my $p (@$wp) {
-            my ($font, $textcolor, $word) = @$p;
-            my ($w) = measureSizeOfTextbox($font_size, $font, $word);
+    # Variable to hold the x and y position of words
+    my ($pos_x, $pos_y) = ($margin, $margin + $font_size);
 
-            $wordwidth += $w;
-            push @widths, $w;
-        }
+    my $leading = get_leading($font_size, $font_path);
 
-        # If the line plus the extra word is too wide for the specified width, then write
-        # the word on the next line.
-        if ( ($pos_x + $wordwidth) >= ($width - $margin) ) {
-            # 'carriage return': Reset x to the beginning of the line and push y down a line
-            $pos_x  = $margin;
-            $pos_y += int($font_size*1.618 + 0.5); # 'golden ratio' line height
-
-        }
-
-        # Write the word to the image
-        my $i = 0;
-        foreach my $p (@$wp) {
+    foreach my $line (@$lines) {
+        # Write the pieces to the image
+        $pos_x = $margin;
+        foreach my $p (@$line) {
             my ($font, $textcolor, $word) = @$p;
             my $color = $color{$textcolor}
                 // die "No color for '$textcolor'";
-            $img->stringFT($color, $font, $font_size, 0, $pos_x, $pos_y, $word);
+            my ($w) = dimensions( $img->stringFT($color, $font, $font_size, 0,
+                                                 $pos_x, $pos_y, $word) );
 
-            # Add the word's width
-            $pos_x += $widths[$i++];
+            # Add the piece's width
+            $pos_x += $w;
         }
+
+        $pos_y += $leading;
     }
 
     return ($img);
@@ -364,68 +386,169 @@ sub dimensions {
 sub add_source {
     my ($img, $title, $author) = @_;
 
-    # Define colors
-    my $grey_c  = $img->colorExact(125, 125, 125);
+    my $pieces = get_credit_pieces($author, $title);
+
+    my $metawidth = measure_credit_pieces($pieces);
+    if (0) {
+        my $em_dash = "—";
+        my $credits = "$em_dash$title, $author";
+        my ($metawidth, undef, $metaleft, undef) =
+            measureSizeOfTextbox($credit_font_size, $font_path_italic, $credits);
+    }
+
+    my $line1 = [];
+    my $line2 = $pieces;
+
+
+    my $max_width = $width - $margin*4;
+    if ($metawidth > $max_width) {
+        # This needs to be displayed over more than one line, let's do it
+        # We want the first line to be a little longer than the second, so try moving each word
+        # until we get longer
+
+        while (@$line2) {
+            my $w1 = measure_credit_pieces($line1);
+            my $w2 = measure_credit_pieces($line2);
+
+            last if $w1 > $w2;
+
+            push(@$line1, shift(@$line2));
+        }
+    }
+
+    print_credit_line($img, $line1, 1);
+    print_credit_line($img, $line2, 2);
+}
+
+sub print_credit_line {
+    my ($img, $pieces, $line_num) = @_;
+
+    my $offset_y = 0;
+    if ($line_num == 1) {
+        $offset_y = get_leading($credit_font_size, $font_path);
+    }
+
+    $pieces = coalesce_credit_pieces($pieces);
+
+    my $text_width = measure_credit_pieces($pieces);
+
+    my $l_text = join " ", map {$_->[1]} @$pieces;
+
+    my $x_pos = $width - $text_width - $margin;
+    my $y_pos = $height - $margin - $offset_y;
+
+    my $space_width = get_space_width($credit_font_size, $font_path);
     my $black_c = $img->colorExact(  0,   0,   0);
 
-    my $em_dash = "—";
-
-    my $credits = $title . ", " . $author;
-
-    # If the metadata is longer than 45 characters, replace a space by a newline from the end,
-    # just as long the as paragraph is getting smaller.
-    # Stop when the box gets wider again.
-    my ($metawidth, undef, $metaleft, undef) =
-        measureSizeOfTextbox($creditFont_size, $creditFont, $em_dash . $credits);
-
-    if ( $metawidth > 500 ) {
-        my @newCredits = ($credits, "");
-
-        my @line1 = split /\s/, $credits;
-        my @line2;
-        my $i = 1;
-      CUT_LOOP:
-        while (1) {
-            unshift @line2, pop @line1;
-
-            my $tmp0 = join(" ", @line1);
-            my $tmp1 = join(" ", @line2);
-
-            # Once the second line is (almost) longer than the first line, stop
-            if ( length($tmp1)+5 > length($tmp0) ) {
-                last CUT_LOOP;
-            } else {
-                # If the second line is still shorter than the first, save it to a new string,
-                # but continue to look for a new fit.
-                $newCredits[0] = $tmp0;
-                $newCredits[1] = $tmp1;
-            }
-
-            $i++;
+    my $first = 1;
+    foreach my $p (@$pieces) {
+        if (not $first) {
+            $x_pos += $space_width;
         }
+        $first = 0;
 
-        my ($textWidth1, $textheight1) =
-            measureSizeOfTextbox($creditFont_size, $creditFont, $em_dash . $newCredits[0]);
-        my ($textWidth2) =
-            measureSizeOfTextbox($creditFont_size, $creditFont, $newCredits[1]);
-
-        my $metadataX1 = $width-($textWidth1+$margin);
-        my $metadataX2 = $width-($textWidth2+$margin);
-        my $metadataY  = $height-$margin;
-
-        $img->stringFT($black_c, $creditFont, $creditFont_size, 0,
-                       $metadataX1, $metadataY-($textheight1*1.1), $em_dash . $newCredits[0]);
-        $img->stringFT($black_c, $creditFont, $creditFont_size, 0,
-                       $metadataX2, $metadataY, $newCredits[1]);
-
-    } else {
-        # Position of single line metadata
-        my $metadataX = ($width-$metaleft)-$margin;
-        my $metadataY = $height-$margin;
-
-        $img->stringFT($black_c, $creditFont, $creditFont_size, 0,
-                       $metadataX, $metadataY, $em_dash . $credits);
+        my ($font, $word, $word_width) = @$p;
+        $img->stringFT($black_c, $font, $credit_font_size, 0, $x_pos, $y_pos, $word);
+        $x_pos += $word_width;
     }
+}
+
+sub get_leading {
+    my ($font_size, $font) = @_;
+
+    # The Golden Ratio spacing
+    return $font_size * 1.618;
+
+    # Compute the size by looking at the bounds
+    my (undef, $two_line_h) = measureSizeOfTextbox($font_size, $font, "m\nm");
+    my (undef, $m_h)        = measureSizeOfTextbox($font_size, $font, "m");
+
+    return $two_line_h - $m_h;
+}
+
+sub get_credit_pieces {
+    my ($author, $title) = @_;
+    my @pieces;
+
+    my $em_dash = "—";
+    $author = $em_dash . $author . ",";
+
+    foreach my $aw (split /\s+/, $author) {
+        push @pieces, [$font_path,        $aw];
+    }
+    foreach my $tw (split /\s+/, $title) {
+        push @pieces, [$font_path_italic, $tw];
+    }
+
+    add_measurements_to_credit_pieces(\@pieces);
+
+    return \@pieces;
+}
+
+sub add_measurements_to_credit_pieces {
+    my ($pieces) = @_;
+
+    # Size the pieces since we know the font used
+    foreach my $p (@$pieces) {
+        my ($font, $word) = @$p;
+        my ($width) = measureSizeOfTextbox($credit_font_size, $font, $word);
+        $p->[2] = $width;
+    }
+
+    return;
+}
+
+sub measure_credit_pieces {
+    my ($pieces) = @_;
+
+    my $space_width = get_space_width($credit_font_size, $font_path);
+
+    my $width = 0;
+    my $first = 1;
+    foreach my $p (@$pieces) {
+        if (not $first) {
+            $width += $space_width;
+        }
+        $first = 0;
+
+        $width += $p->[2];
+    }
+
+    return $width;
+}
+
+sub coalesce_credit_pieces {
+    my ($pieces) = @_;
+    my @new_pieces;
+
+    my $last_piece = undef;
+    foreach my $p (@$pieces) {
+        if (not defined $last_piece or $p->[0] ne $last_piece->[0]) {
+            $last_piece = $p;
+            push @new_pieces, $p;
+        }
+        else {
+            $last_piece->[1] .= " " . $p->[1];
+        }
+    }
+
+    add_measurements_to_credit_pieces(\@new_pieces);
+
+    return \@new_pieces;
+}
+
+sub get_space_width {
+    my ($size, $font) = @_;
+
+    state %space_width;
+
+    if (not defined $space_width{$size}{$font}) {
+        my ($s1) = measureSizeOfTextbox($size, $font, 'T .');
+        my ($s2) = measureSizeOfTextbox($size, $font, 'T.');
+        $space_width{$size}{$font} = $s1 - $s2;
+    }
+
+    return $space_width{$size}{$font};
 }
 
 sub colorimg_to_grey {
