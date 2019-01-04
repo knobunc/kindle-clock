@@ -255,8 +255,9 @@ sub fit_text {
     # Work out the farthest we can go down the page
     # We need to leave space for the margin and two rows of text
     my $credit_leading = get_leading($credit_font_size, $font_path);
+    my $font_descend   = get_descend($font_size,        $font_path);
     my $max_x = $width - $margin;
-    my $max_y = $height - $credit_leading - $credit_leading - $margin;
+    my $max_y = $height - $font_descend - $credit_leading - $credit_leading - $margin;
 
     # Get the line spacing
     my $leading = get_leading($font_size, $font_path);
@@ -457,13 +458,24 @@ sub get_leading {
     my ($font_size, $font) = @_;
 
     # The Golden Ratio spacing
-    return $font_size * 1.618;
+    return int( $font_size * 1.618 );
 
     # Compute the size by looking at the bounds
-    my (undef, $two_line_h) = measureSizeOfTextbox($font_size, $font, "m\nm");
-    my (undef, $m_h)        = measureSizeOfTextbox($font_size, $font, "m");
+    # my (undef, $two_line_h) = measureSizeOfTextbox($font_size, $font, "m\nm");
+    # my (undef, $m_h)        = measureSizeOfTextbox($font_size, $font, "m");
 
-    return $two_line_h - $m_h;
+    # return $two_line_h - $m_h;
+}
+
+# Work out how much things descend below the baseline
+sub get_descend {
+    my ($font_size, $font) = @_;
+
+    # Compute the size by looking at the bounds of certain letters
+    my (undef, $m_h)        = measureSizeOfTextbox($font_size, $font, "m");
+    my (undef, $j_h)        = measureSizeOfTextbox($font_size, $font, "j");
+
+    return $j_h - $m_h;
 }
 
 sub get_credit_pieces {
