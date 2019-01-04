@@ -48,6 +48,6 @@ add_status "Updating launchpad...    "
 # Restart launchpad so the command changes take effect
 /etc/init.d/launchpad restart
 
-add_status "Update complete!         "
+add_status "Update complete.         "
 rm updatestatus
 
