@@ -2,14 +2,13 @@
 
 BASEDIR="/mnt/us/timelit"
 
-# if the Kindle is not being used as clock, then just quit
+# If the Kindle is not being used as clock, then just quit
 test -f "$BASEDIR/clockisticking" || exit
 
-
-# find the current minute of the day
+# Find the current minute of the day
 MinuteOTheDay="$(env TZ='EST+5EDT,M3.2.0/2,M11.1.0/2' date -R +"%H%M")";
 
-# check if there is at least one image for this minute 
+# Check if there is at least one image for this minute
 lines="$(find "$BASEDIR/images/quote_$MinuteOTheDay"* 2>/dev/null | wc -l)"
 if [ $lines -eq 0 ]; then
     echo "no images found for '$MinuteOTheDay'"
@@ -19,7 +18,7 @@ else
 fi
 
 
-# randomly pick a png file for that minute (since we have multiple for some minutes)
+# Randomly pick a png file for that minute (since we have multiple for some minutes)
 ThisMinuteImage=$( find "$BASEDIR/images/quote_$MinuteOTheDay"* 2>/dev/null | python -c "import sys; import random; print(''.join(random.sample(sys.stdin.readlines(), int(sys.argv[1]))).rstrip())" 1)
 
 echo $ThisMinuteImage > "$BASEDIR/clockisticking"
@@ -37,8 +36,15 @@ if echo $MinuteOTheDay | grep -q '^..[024]0$'; then
         clearFlag="-f"
 fi
 
-# show that image
+# Show that image
 eips $clearFlag -g $ThisMinuteImage
+
+# If there's an upgrade status file, print it
+if [ -f "$BASEDIR/../updatestatus" ]; then
+    status=`cat $BASEDIR/../updatestatus`
+    eips 0 39 "$status"
+fi
+
 
 # Sync the clock over ntp daily
 if [ "$MinuteOTheDay" -eq '0000' ]; then
