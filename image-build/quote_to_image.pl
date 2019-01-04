@@ -121,7 +121,7 @@ sub make_quote_images {
 
     ## QUOTE
     # Render the text nicely and return the image handle
-    my ($img, $font_size) = render_text($quote, $timestr);
+    my ($img, $font_size) = render_text($quote, $timestr, $title, $author);
 
     my $ql = 70;
     my $qs = length($quote) > $ql ? substr($quote, 0, $ql-3) . "..." : $quote;
@@ -160,10 +160,13 @@ sub imgtopng {
 }
 
 sub render_text {
-    my ($quote, $timestr) = @_;
+    my ($quote, $timestr, $title, $author) = @_;
 
     # Get the word pieces
     my $pieces = get_word_pieces($quote, $timestr);
+
+    # How many lines will the source take
+    my $source_lines = get_source_lines($title, $author);
 
     # Do a binary search of the space
     my $hi_font = $max_font_size + 1;
@@ -177,7 +180,7 @@ sub render_text {
     while ($lo_font < $hi_font ) {
         $font_size = $lo_font + int(($hi_font - $lo_font) / 2 + 0.5);
 
-        my ($paragraphHeight, $lines) = fit_text($pieces, $font_size);
+        my ($paragraphHeight, $lines) = fit_text($pieces, $font_size, $source_lines);
 
         if ($paragraphHeight) {
             # This font fit, make it the new low
@@ -244,7 +247,7 @@ sub get_word_pieces {
 }
 
 sub fit_text {
-    my ($word_pieces, $font_size) = @_;
+    my ($word_pieces, $font_size, $source_lines) = @_;
 
     # Make a copy so we can munge up the input
     $word_pieces = clone($word_pieces);
@@ -257,7 +260,7 @@ sub fit_text {
     my $credit_leading = get_leading($credit_font_size, $font_path);
     my $font_descend   = get_descend($font_size,        $font_path);
     my $max_x = $width - $margin;
-    my $max_y = $height - $font_descend - $credit_leading - $credit_leading - $margin;
+    my $max_y = $height - $font_descend - ( $credit_leading * $source_lines ) - $margin;
 
     # Get the line spacing
     my $leading = get_leading($font_size, $font_path);
@@ -384,25 +387,31 @@ sub dimensions {
     return($width, $height, $left, $top);
 }
 
+# Will the source take 1 or 2 lines
+sub get_source_lines {
+    my ($title, $author) = @_;
+
+    my $pieces    = get_credit_pieces($author, $title);
+    my $metawidth = measure_credit_pieces($pieces);
+
+    my $max_width = $width - $margin*3;
+    my $num_lines = $metawidth > $max_width ? 2 : 1;
+
+    if (wantarray) {
+        return ($num_lines, $pieces);
+    }
+    return $num_lines;
+}
+
 sub add_source {
     my ($img, $title, $author) = @_;
 
-    my $pieces = get_credit_pieces($author, $title);
-
-    my $metawidth = measure_credit_pieces($pieces);
-    if (0) {
-        my $em_dash = "—";
-        my $credits = "$em_dash$title, $author";
-        my ($metawidth, undef, $metaleft, undef) =
-            measureSizeOfTextbox($credit_font_size, $font_path_italic, $credits);
-    }
+    my ($num_lines, $pieces) = get_source_lines($title, $author);
 
     my $line1 = [];
     my $line2 = $pieces;
 
-
-    my $max_width = $width - $margin*4;
-    if ($metawidth > $max_width) {
+    if ($num_lines > 1) {
         # This needs to be displayed over more than one line, let's do it
         # We want the first line to be a little longer than the second, so try moving each word
         # until we get longer
@@ -417,7 +426,7 @@ sub add_source {
         }
     }
 
-    print_credit_line($img, $line1, 1);
+ print_credit_line($img, $line1, 1) if @$line1;
     print_credit_line($img, $line2, 2);
 }
 
