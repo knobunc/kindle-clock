@@ -18,7 +18,7 @@ RSYNC_OPTIONS="-vi -rltD --omit-dir-times"
 add_status()
 {
     echo "$1" > updatestatus
-    eips 0 39 "`cat $BASEDIR/../updatestatus`"
+    eips 0 39 "`cat updatestatus`"
 }
 
 
