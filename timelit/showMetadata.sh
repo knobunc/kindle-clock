@@ -2,10 +2,10 @@
 
 BASEDIR="/mnt/us/timelit"
 
-# see what image is shown at the moment
+# See what image is shown at the moment
 current=$(cat "$BASEDIR/clockisticking" 2>/dev/null)
 
-# only if a filename is in the clockisticking file, then continue 
+# Only if a filename is in the clockisticking file, then continue
 if [ -n "$current" ]; then
     if [ -f "$BASEDIR/showsource" ]; then
 		# Going from showing source to not:
@@ -18,14 +18,18 @@ if [ -n "$current" ]; then
 		# Make the indicator and then permute the name
         touch "$BASEDIR/showsource"
 		
-		# find the matching image with metadata
+        # Find the matching image with metadata
 		currentCredit=$(echo $current | sed 's/.png//')_credits.png
 		currentCredit=$(echo $currentCredit | sed 's/images/images\/metadata/')
 	fi
 
-	# show the resulting image
+    # Show the resulting image
 	eips -g $currentCredit
 
+    # If there's an upgrade status file, print it
+    if [ -f "$BASEDIR/../updatestatus" ]; then
+        eips 0 39 "`cat $BASEDIR/../updatestatus`"
+    fi
 fi
 
 # start waiting for new keystrokes

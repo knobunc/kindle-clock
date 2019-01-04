@@ -41,10 +41,8 @@ eips $clearFlag -g $ThisMinuteImage
 
 # If there's an upgrade status file, print it
 if [ -f "$BASEDIR/../updatestatus" ]; then
-    status=`cat $BASEDIR/../updatestatus`
-    eips 0 39 "$status"
+    eips 0 39 "`cat $BASEDIR/../updatestatus`"
 fi
-
 
 # Sync the clock over ntp daily
 if [ "$MinuteOTheDay" -eq '0000' ]; then
