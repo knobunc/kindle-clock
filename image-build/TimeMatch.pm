@@ -921,7 +921,9 @@ sub get_matches {
                   ( \s+ $sec_re    \s+ ( seconds | sec | s)           s?
                    | ( \s+ a )? \s+ $fraction_re
                   )?
-                  (?! $never_follow_times_re )
+                  (?! $never_follow_times_re 
+                  |   \s+ before
+                  )
                 )
                 $ba_re
                 (?{ $branch = "14"; })
@@ -1879,7 +1881,7 @@ sub extract_times {
                             'early morning' => 'prime',
                             'midmorning'    => 'terce',
                             'midday'        => 'sext',
-                            'midafternoon'  => 'none',
+                            'midafternoon'  => 'nones',
                             'evening'       => 'vespers',
                             'night'         => 'compline',
                             );
