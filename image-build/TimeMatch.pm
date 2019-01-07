@@ -1251,7 +1251,7 @@ sub get_matches {
                 (?<pr>
                   ( waited | arrive s? | called | expired
                   | $twas_re
-                  | begin | end | it
+                  | begin | end | it ( \s+ will \s+ be )?
                   | ( come | turn ) \s+ on
 #                  | still
                   ) \s+
@@ -1262,6 +1262,7 @@ sub get_matches {
                   $hour12_re ( ( [-:.] | \s+ )? $min0_re )?
                 )
                 (?<po>
+                  (\s+ ( here | there | now | soon ) )?
                   ( \z | $phrase_punc? $aq | $phrase_punc ( \s+ | \z ) | \s+ $hyph+ \s+)
                 | \s+ ( and | $hyph+ ) \s+
                 )
