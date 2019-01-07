@@ -290,17 +290,25 @@ sub fit_text {
         # If the line plus the extra word is too wide for the specified width, then write
         # the word on the next line.
         if (@lines == 0 or ($pos_x + $wordwidth) >= $max_x ) {
-            # 'carriage return': Reset x to the beginning of the line and push y down a line
-            $pos_y += $leading
-                if @lines > 0;
+            if (@lines > 0) {
+                # 'carriage return': Reset x to the beginning of the line and push y down a line
+                $pos_y += $leading;
 
-            if ($pos_y >= $max_y) {
-                # This call to fit_text returned a paragraph that is in fact higher than the height
-                # of the image, return without those values to indicate we went too far
-                return;
+                if ($pos_y >= $max_y) {
+                    # This call to fit_text returned a paragraph that is in fact higher than the height
+                    # of the image, return without those values to indicate we went too far
+                    return;
+                }
+
+                # If the current line is "ugly" then return false
+                # Don't allow a single word with 1-3 letters on a line
+                my $cl = $lines[-1];
+                if (@$cl == 1 and $cl->[-1][2] =~ m{^\w{1,3}\s$}) {
+                    return;
+                }
             }
 
-            # New line, add this word's pieces
+            # Start a new line with this word's pieces
             push @lines, [ @$wp ];
             $pos_x = $margin + $wordwidth + $space_width;
         }
