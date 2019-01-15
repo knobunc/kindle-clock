@@ -17,22 +17,24 @@ exit main(@ARGV);
 #####
 
 sub main {
-    my ($csv_file) = @_;
-    die "Usage: $0 <csv_file>\n"
-        unless $csv_file;
+    my (@csv_files) = @_;
+    die "Usage: $0 <csv_files...>\n"
+        unless @csv_files;
 
     my $csv = Text::CSV->new(
         { binary => 1, sep_char => '|', strict => 1, quote_space => 0, eol => $/ }
         )
         or die "Cannot use CSV: ".Text::CSV->error_diag ();
 
-    my $fh = IO::File->new($csv_file, '<:encoding(utf8)')
-        or die "Can't read '$csv_file': $!";
+    foreach my $csv_file (@csv_files) {
+        my $fh = IO::File->new($csv_file, '<:encoding(utf8)')
+            or die "Can't read '$csv_file': $!";
 
-    while (my $row = $csv->getline($fh)) {
-        my ($time, $timestr, $quote, $title, $author) = @$row;
+        while (my $row = $csv->getline($fh)) {
+            my ($time, $timestr, $quote, $title, $author) = @$row;
 
-        print_line($time, $timestr, $quote, $title, $author);
+            print_line($time, $timestr, $quote, $title, $author);
+        }
     }
 
     return 0;
