@@ -173,12 +173,12 @@ my $short_before_re = qr{   $short_re \s+    before
                         |   towards?
                         |   lacks \s+ of
                         |   almost ( \s ( gone | at | to ) )?
-                        |   just \s+ about
+                        |   just \s+ ($sq|a)bout
                         |   can $sq t \s+ be \s+ $far_before_re
                         }xin;
-my $around_re       = qr{ ( near \s+ )? about
-                        | approximately
-                        | around
+my $around_re       = qr{ ( near \s+ )? ($sq|a)bout
+                        | ($sq|ap)proximately
+                        | ($sq|a)?round
                         }xin;
 my $on_or_after_re  = qr{ ( $short_re \s+ )? gone }xin;
 my $far_after_re    = qr{   $far_re   \s+    after      }xin;
