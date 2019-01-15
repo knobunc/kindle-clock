@@ -191,7 +191,7 @@ sub print_task_start {
            color($wcolor), $what,                        color('reset'),
            color($acolor), elide($author, $d->{author}), color('reset'),
            color($bcolor), elide($book,   $d->{book}  ), color('reset'),
- 	                   elide($size,   $d->{size}  ),
+                           elide($size,   $d->{size}  ),
           );
     STDOUT->flush();
 
