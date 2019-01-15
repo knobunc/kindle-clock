@@ -733,9 +733,15 @@ sub get_masks {
                 )
                 (?<t1> \d+ [-.:]? \d+ )
                 (?<po> \s* ( hrs | hours ) )
-                (?{ $branch = "x20"; })
+                (?{ $branch = "x21"; })
               }xin;
 
+    # Version strings v1.0.3
+    push @r,qr{ $bb_re
+                (?<t1> v \d+ (\. \d+)* )
+                $ba_re
+                (?{ $branch = "x22"; })
+              }xin;
 
     return(\@r);
 }
