@@ -279,7 +279,9 @@ my $state_re = qr{
 
 # The months
 my $month_re = qr{ January | February | March | April | May | June
-                 | July | August | September | October | November | December }xin;
+                 | July | August | September | October | November | December
+                 | (Jan | Feb | Mar | Apr | May | Jun | Jul | Aug | Sep | Sept | Oct | Nov | Dec )\.?
+                 }xin;
 my $special_day_re = qr{ Christmas | Easter | New \s+ Year s? }xin;
 
 # Time periods
