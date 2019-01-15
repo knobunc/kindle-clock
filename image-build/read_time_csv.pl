@@ -30,10 +30,16 @@ sub main {
         my $fh = IO::File->new($csv_file, '<:encoding(utf8)')
             or die "Can't read '$csv_file': $!";
 
+        my @lines;
         while (my $row = $csv->getline($fh)) {
             my ($time, $timestr, $quote, $title, $author) = @$row;
+            push @lines, [$time, $timestr, $quote, $title, $author];
+        }
 
-            print_line($time, $timestr, $quote, $title, $author);
+        @lines = sort {substr($a->[0], -5) cmp substr($b->[0], -5)} @lines;
+
+        foreach my $line (@lines) {
+            print_line(@$line);
         }
     }
 
