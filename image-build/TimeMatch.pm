@@ -1392,7 +1392,7 @@ sub get_matches {
                 $ba_re
                 (?{ $branch = "9:TIMEY";
                     if (is_yearish($+{xx})) {
-                        $branch = "9n:TIMEY";
+                        $branch = "9n:0";
                     }
                   })
               }xin;
