@@ -71,9 +71,10 @@ sub main {
                 }
             }
 
-            my $rs = join("  ", map({sprintf("%5d%s", $tc{$_}//0, $_)} @types));
+            my $rs = join("  ", map({sprintf("%4d%s", $tc{$_}//0, $_)} @types));
 
-            printf(">> %5s: %5dT  %5dA  %5dE  %5d*  %s\n",
+            # Time: Total AMPM Exact Awards Relatives
+            printf(">> %5s: %4dT  %4dA  %4dE  %4d*  %s\n",
                    $t, int(@{ $times->{$t} || [] }), $ap, $x, $w, $rs);
 
             my $sorted = sort_matches($ta, $awards);
