@@ -528,6 +528,7 @@ sub get_masks {
                 | one [-\s]+ to [-\s]+ one
                 | one \s+ other
                 | from \s+ one \s+ and \s+ (sometimes \s+)? from \s+ another
+                | one \s+ and \s+ the \s+ same
                 )
                 \b
                 (?{ $branch = "x3"; })
