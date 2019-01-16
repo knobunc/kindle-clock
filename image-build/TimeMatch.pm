@@ -46,11 +46,12 @@ my $meal_times = qr{ ( second \s+ )? breakfast
                    | ( ( afternoon | high ) \s+ )? tea
                    | dinner
                    | supper
+                   | elevenses
                    }xin;
 my $all_named_times = qr{ $ecclesiastical_re | prime | nones
                         | $meal_times
                         }xin;
-my $midnight_noon_re = qr{ $noon_re | $midnight_re | $ecclesiastical_re }xin;
+my $midnight_noon_re = qr{ $noon_re | $midnight_re | $ecclesiastical_re | elevenses }xin;
 
 # Numbers 1-9 as words
 my $low_num_re   = qr{ one | two | three | four | five | six | seven | eight | nine }xi;
@@ -295,7 +296,7 @@ my $never_follow_times_exp_re =
           ) \s+
         )?
         ( $min_re - )?                                    # Things like six-inch
-        ( and \s+ a \s+ (half | quarter | third) \s+ )?   # Two and a half centuries
+        ( and \s+ a \s+ (half | quarter | third) \s+ (to \s+ $low_num_re \s+)? )?   # Two and a half centuries
         ( with | which | point | time | moment | instant | end | stage | of | who
         | after | since
         | degrees | °
@@ -338,9 +339,9 @@ my $never_follow_times_exp_re =
       }xin;
 my $never_follow_times_re = qr{ [-\s]* $never_follow_times_exp_re $ba_re }xin;
 
-my $screen_times_re = qr{ \b ( $hour24_re 
+my $screen_times_re = qr{ \b ( $hour24_re
                              | $all_named_times \b
-                             | ( new | next ) \s+ (?<hr> day) \s+ 
+                             | ( new | next ) \s+ (?<hr> day) \s+
                              ) }xin;
 
 # Set the variables used in the regexes
@@ -362,9 +363,9 @@ sub do_match {
 
     ## Shortcircuit unless it has something that might be part of a time in it
     if ($line !~ $screen_times_re) {
-	return $line;
+    return $line;
     }
-    
+
     ## Does this look like a "timey" paragraph
     $is_timey = 0;
     $is_timey = 1
@@ -377,7 +378,7 @@ sub do_match {
                   | $midnight_noon_re
                   | ( $twas_re | at | what ) \s+ time
                   | ( there | here ) \s+ from
-                  | ( return | returned | back ) \s* $rel_at_words
+#                  | ( return | returned | back ) \s* $rel_at_words
                   | reported | reports
                   ) \b
              }xin;
@@ -523,9 +524,10 @@ sub get_masks {
                 | the \s+ ( only | last | first | final | ultimate ) \s+ one
                 | saw \s+ one
                 | fallen \s+ one
-                | was \s+ at \s+ one
+                | ( was | were | are | will \s+ be ) \s+ ( at | as ) \s+ one
                 | one [-\s]+ to [-\s]+ one
                 | one \s+ other
+                | from \s+ one \s+ and \s+ (sometimes \s+)? from \s+ another
                 )
                 \b
                 (?{ $branch = "x3"; })
@@ -929,7 +931,7 @@ sub get_matches {
                   ( \s+ $sec_re    \s+ ( seconds | sec | s)           s?
                    | ( \s+ a )? \s+ $fraction_re
                   )?
-                  (?! $never_follow_times_re 
+                  (?! $never_follow_times_re
                   |   \s+ before
                   )
                 )
@@ -1212,11 +1214,11 @@ sub get_matches {
                     $branch = "5b";
                     my ($t1) = @+{qw( t1 )};
                     if ($t1 =~ m{\A $z_low_num_re - $z_low_num_re - $z_low_num_re \z}xin and
-			$t1 !~ m{\A $z_low_num_re - oh - $z_low_num_re \z}xin)
-		    {
+            $t1 !~ m{\A $z_low_num_re - oh - $z_low_num_re \z}xin)
+            {
                         $branch = "x5b";
                     }
-	          })
+              })
               }xin;
 
     # Other weird cases
@@ -1388,9 +1390,7 @@ sub get_matches {
                 (?! $never_follow_times_re | : \d )
                 $ba_re
                 (?{ $branch = "9:TIMEY";
-                    my $xx = $+{xx};
-                    if ( defined $xx and $xx =~ m{\A \d{3,4} \z}xi and $xx !~ m{\A 0 }xi) {
-                        # It looks like a year
+                    if (is_yearish($+{xx})) {
                         $branch = "9n:TIMEY";
                     }
                   })
@@ -1410,10 +1410,14 @@ sub get_matches {
                 (?<t1>
                   ( $rel_words \s+ )?
                   ( near \s+ ( on \s+ )? )?
-                  $hour_re ( ( [-:.] | \s+ )? $min0_re )?
+                  (?<hh> $hour_re) ( (?<sep> [-:.] | \s+ )? (?<mm> $min0_re) )?
                 )
-                (?! $sq s )
-                ( $never_follow_times_re (*SKIP)(*FAIL) )?
+                ( ( $sq s
+                  | $never_follow_times_re
+                  | \s+ and \s+ a \s+ (half | quarter | third)
+                  )
+                  (*SKIP)(*FAIL)
+                )?
                 (?<po>
                   ( \s+ or \s+ so )?
                   ( $aq
@@ -1421,7 +1425,25 @@ sub get_matches {
                   | \s+ ( and | till | before | $hyph+ ) \s+
                   )
                 )
-                (?{ $branch = "9c:TIMEY"; })
+                (?{ $branch = "9c:TIMEY";
+                    my ($hh, $mm, $sep, $pr, $po) = ($+{hh}, $+{mm}, $+{sep}, $+{pr}, $+{po});
+                    if ($hh =~ m{\A $hour_word_re \z}xin) {
+                        # If we have words then we want this to be stronger
+                        $branch = "9c:1";
+
+                        if (not $mm and $pr =~ m{\A from \b }xin and $po !~ /\w/) {
+                            $branch = "9c:TIMEY";
+                        }
+                    }
+                    elsif ($sep) {
+                        # If we have a separator then this is stronger
+                        $branch = "9c:1";
+                    }
+                    elsif (defined $mm and is_yearish($hh.$mm)) {
+                        # Weaken it if it looks like a year
+                        $branch = "9c:0";
+                    }
+                  })
               }xin;
 
     # The only time, but as a single hour (these are less reliable)
@@ -1697,7 +1719,7 @@ sub extract_times {
                   it \s+ (would | will) \s+ be \s+ (a \s+)?
                 | (?<rl> close \s+ upon ) \s+
                 )?
-                (                           (?<hr>  $hour24_re | $all_named_times   ) \?? \s* 
+                (                           (?<hr>  $hour24_re | $all_named_times   ) \?? \s*
                   ( ( [-\s.:/] | $ellips )+ (?<mn>  $min_re ( (?<rl> - ) $min_re )? )     \s* )?
                   ( ( [-\s.:/] | $ellips )+ (?<sec> $sec_re ( (?<rl> - ) $min_re )? )     \s* )?
                 |   (?<hr>  $hour24_dig_re  )
@@ -1915,6 +1937,9 @@ sub extract_times {
                          'vespers'      => ["around 4:30 PM", undef,      00],
                          'evensong'     => ["around 4:30 PM", undef,      00],
                          'compline'     => ["around 6:00 PM", undef,      00],
+                         #
+                         # Other times
+                         'elevenses'    => ["around 11:00 AM", undef,     00],
                         );
                     my $tr = $time_strs{$h}
                       or die "Unable to work out a time for '$hour' ($h)";
@@ -2145,6 +2170,17 @@ sub extract_times {
     }
 
     return @times;
+}
+
+sub is_yearish {
+    my ($str) = @_;
+
+    if (defined $str and $str =~ m{\A \d{3,4} \z}xi and $str !~ m{\A 0 }xi) {
+        # It looks like a year
+        return 1;
+    }
+
+    return 0;
 }
 
 sub make_c_str {

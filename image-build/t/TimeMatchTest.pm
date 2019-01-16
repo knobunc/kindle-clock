@@ -509,7 +509,7 @@ sub get_csv_tests {
           [
             1,
             'Timestr [00:50]: 12.50',
-            'The packing was done at <<12.50|9c:0>>; and Harris sat on the big hamper, and said he hoped nothing would be found broken. George said that if anything was broken it was broken, which reflection seemed to comfort him. He also said he was ready for bed.'
+            'The packing was done at <<12.50|9c:1>>; and Harris sat on the big hamper, and said he hoped nothing would be found broken. George said that if anything was broken it was broken, which reflection seemed to comfort him. He also said he was ready for bed.'
           ],
           [
             1,
@@ -2399,7 +2399,7 @@ sub get_csv_tests {
           [
             1,
             'Timestr [08:00]: eight',
-            'I hear noise at the ward door, off up the hall out of my sight. That ward door starts opening at <<eight|9c:0>> and opens and closes a thousand times a day, kashash, click.'
+            'I hear noise at the ward door, off up the hall out of my sight. That ward door starts opening at <<eight|9c:1>> and opens and closes a thousand times a day, kashash, click.'
           ],
           [
             1,
@@ -4247,7 +4247,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [13:00]: one',
-            "Many moons passed by. Did Baboon ever fly? Did he ever get to the sun? I\x{2019}ve just heard today That he\x{2019}s well on his way! He\x{2019}ll be passing through Acton at <<one|9c:0>>."
+            "Many moons passed by. Did Baboon ever fly? Did he ever get to the sun? I\x{2019}ve just heard today That he\x{2019}s well on his way! He\x{2019}ll be passing through Acton at <<one|9c:1>>."
           ],
           [
             1,
@@ -4387,7 +4387,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [13:30]: half-past one',
-            'Lupin not having come down, I went up again at <<half-past one|10>>, and said we dined at <<two|9c:0>>; he said he "would be there."'
+            'Lupin not having come down, I went up again at <<half-past one|10>>, and said we dined at <<two|9c:1>>; he said he "would be there."'
           ],
           [
             1,
@@ -4462,7 +4462,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [13:49]: 1.49',
-            'The bookstall clerk had seen the passenger in grey pass the bookstall at <<1.49|9c:0>>, in the direction of the exit.'
+            'The bookstall clerk had seen the passenger in grey pass the bookstall at <<1.49|9c:1>>, in the direction of the exit.'
           ],
           [
             1,
@@ -5307,7 +5307,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [16:23]: 4.23',
-            'They were hurrying west, trying to reach the river before sunset. The warming-related \'adjustments\' to Earth\'s orbit had shortened the winter days, so that now, in January, sunset was taking place at <<4.23|9c:0>>.'
+            'They were hurrying west, trying to reach the river before sunset. The warming-related \'adjustments\' to Earth\'s orbit had shortened the winter days, so that now, in January, sunset was taking place at <<4.23|9c:1>>.'
           ],
           [
             1,
@@ -5667,7 +5667,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [17:40]: five-forty',
-            'It\'s <<five-forty|9j>> now. The party\'s at <<six|9c:0>>. By about ten past, the eleventh floor should be clearing. Arnold is a very popular partner; no one\'s going to miss his farewell speech if they can help it. Plus, at Carter Spink parties, the speeches always happen early on, so people can get back to work if they need to. And while everyone\'s listening I\'ll slip down to Arnold\'s office. It should work. It has to work. As I stare at my own bizarre reflection, I feel a grim resolve hardening inside me. He\'s not going to get away with everyone thinking he\'s a cheery, harmless old teddy bear. He\'s not going to get away with it.'
+            'It\'s <<five-forty|9j>> now. The party\'s at <<six|9c:1>>. By about ten past, the eleventh floor should be clearing. Arnold is a very popular partner; no one\'s going to miss his farewell speech if they can help it. Plus, at Carter Spink parties, the speeches always happen early on, so people can get back to work if they need to. And while everyone\'s listening I\'ll slip down to Arnold\'s office. It should work. It has to work. As I stare at my own bizarre reflection, I feel a grim resolve hardening inside me. He\'s not going to get away with everyone thinking he\'s a cheery, harmless old teddy bear. He\'s not going to get away with it.'
           ],
           [
             1,
@@ -6017,7 +6017,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [19:00]: seven',
-            'Edward had been allowed to see me only from <<seven|9c:0>> till <<nine-thirty pm|5>>, always inside the confines of my home and under the supervision of my dad\'s unfailingly crabby glare.'
+            'Edward had been allowed to see me only from <<seven|9c:1>> till <<nine-thirty pm|5>>, always inside the confines of my home and under the supervision of my dad\'s unfailingly crabby glare.'
           ],
           [
             1,
