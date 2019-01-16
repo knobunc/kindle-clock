@@ -42,12 +42,7 @@ $VAR1 = [
           [
             1,
             '[ap 08:00] The Door Into Summer - Robert A. Heinlein.epub (OEBPS/Text/Chapter_07.xhtml) - eight',
-            "She wanted me to take her to dinner, but I would not do that. I\x{2019}m not fussy about fine points of etiquette. But eating is something you do only with friends; I would see her but I had no intention of eating or drinking with her. I got her address and told her I would be there that evening at <<eight|9c:0>>.",
-          ],
-          [
-            1,
-            '[ap 04:00] The Door Into Summer - Robert A. Heinlein.epub (OEBPS/Text/Chapter_08.xhtml) - Four',
-            "\x{201c}You don\x{2019}t mean anything. You stay on the world line you were on. Don\x{2019}t worry about the math; just remember what that guinea pig did. But if you go back before the lab was built, maybe you wind up in a tree. <<Four|9k:0>>, how could you get back to now even with cold sleep, even if you did go the right way, arrive at the right time, and live through it?\x{201d}",
+            "She wanted me to take her to dinner, but I would not do that. I\x{2019}m not fussy about fine points of etiquette. But eating is something you do only with friends; I would see her but I had no intention of eating or drinking with her. I got her address and told her I would be there that evening at <<eight|9c:1>>.",
           ],
           [
             1,
@@ -100,7 +95,7 @@ $VAR1 = [
             1,
             '[ap 07:13] The Door Into Summer - Robert A. Heinlein.epub (OEBPS/Text/Chapter_11.xhtml) - seven-thirteen',
             "\x{201c}Helicopter comes in at <<seven-thirteen|5b>>, right on the dot.\x{201d}
-\x{201c}Fine. Give me a call at <<seven|9c:0>>, will you?\x{201d}
+\x{201c}Fine. Give me a call at <<seven|9c:1>>, will you?\x{201d}
 \x{201c}Mister, if you can sleep as late as seven around here you\x{2019}re better than I am. But I\x{2019}ll put you in the book.\x{201d}",
           ],
           [

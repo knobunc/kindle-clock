@@ -91,6 +91,8 @@ cold.
 "ap 10:00"|"Ten 
 o'clock"|"Larry grinned ruefully, stuffing the letter in his coat pocket. He unlocked his apartment door. Ten 
 o'clock did she say? Well, at least he would have a good night's sleep."|"The Collected Stories of Philip K. Dick 3"|"Philip K. Dick"
+"ap 01:00"|one|"Billings broke out of his paralysis. He grabbed frantically, wildly. Only two remained. He swiped 
+at one and missed. The other -"|"The Collected Stories of Philip K. Dick 3"|"Philip K. Dick"
 16:00|"four in the afternoon"|"Douglas watched him carefully. ""Tonight,"" he said, ""there will be another rom attack. It should 
 finish off what is left."" He looked at his watch. ""It is now four in the afternoon. The attack will begin in a 
 few hours. You should be undersurface. Nothing will survive up here. I can take you down with me, if 
@@ -117,6 +119,9 @@ alteration. Will finish by noon."""|"The Collected Stories of Philip K. Dick 3"|
 when the adjustment begins."" The Clerk glanced toward the small green stucco house. ""Your particular 
 task concerns the man in there. He is employed by a business establishment lying within Sector T137. It's 
 essential that he be there before nine o'clock."""|"The Collected Stories of Philip K. Dick 3"|"Philip K. Dick"
+"ap > 09:00"|"after nine"|"""Of course not. But he must be at his office early. Usually he doesn't leave until after nine. Today 
+he must leave at eight-thirty. He must be within Sector T137 before the process begins, or he won't be 
+altered to coincide with the new adjustment."""|"The Collected Stories of Philip K. Dick 3"|"Philip K. Dick"
 "ap 08:30"|eight-thirty|"""Of course not. But he must be at his office early. Usually he doesn't leave until after nine. Today 
 he must leave at eight-thirty. He must be within Sector T137 before the process begins, or he won't be 
 altered to coincide with the new adjustment."""|"The Collected Stories of Philip K. Dick 3"|"Philip K. Dick"
@@ -143,6 +148,12 @@ mutt! You failed!"""|"The Collected Stories of Philip K. Dick 3"|"Philip K. Dick
 I'm afraid to see what eight-sixteen brings."""|"The Collected Stories of Philip K. Dick 3"|"Philip K. Dick"
 "ap 09:30"|nine-thirty|"Ed found himself sitting down, going over the pamphlets. He purchased a ten-thousand-dollar 
 policy on his own life and then eased the young man out. He looked at the clock. Practically nine-thirty!"|"The Collected Stories of Philip K. Dick 3"|"Philip K. Dick"
+"ap < 10:00"|"almost ten"|"Ed groaned. No telling what the consequences would be, getting to the office late. He wouldn't 
+get there until almost ten. He set himself in anticipation. A sixth sense told him he was in for it. Something 
+bad. It was the wrong day to be late."|"The Collected Stories of Philip K. Dick 3"|"Philip K. Dick"
+"ap < 10:00"|"almost ten"|"Ed groaned. No telling what the consequences would be, getting to the office late. He wouldn't 
+get there until almost ten. He set himself in anticipation. A sixth sense told him he was in for it. Something 
+bad. It was the wrong day to be late."|"The Collected Stories of Philip K. Dick 3"|"Philip K. Dick"
 "ap < 10:00"|"almost ten"|"Ed hopped off the bus a block from his office. He began walking rapidly. The huge clock in front 
 of Stein's Jewelry Store told him it was almost ten."|"The Collected Stories of Philip K. Dick 3"|"Philip K. Dick"
 "ap 08:15"|eight-fifteen|"The Clerk twisted miserably. ""While my back was turned the Summoner crawled back in his 
@@ -174,6 +185,11 @@ nine-thirty. Therefore he was late to work instead of early."""|"The Collected S
 him it was eight-sixteen. He summoned, but instead of A Friend with a Car we got -- A Life Insurance 
 Salesman."" The Clerk's face screwed up with disgust. ""The Salesman kept the element there until almost 
 nine-thirty. Therefore he was late to work instead of early."""|"The Collected Stories of Philip K. Dick 3"|"Philip K. Dick"
+"ap < 09:30"|"almost 
+nine-thirty"|"""Yes, sir! Exactly eight-fifteen. But the Summoner was asleep. By the time I managed to arouse 
+him it was eight-sixteen. He summoned, but instead of A Friend with a Car we got -- A Life Insurance 
+Salesman."" The Clerk's face screwed up with disgust. ""The Salesman kept the element there until almost 
+nine-thirty. Therefore he was late to work instead of early."""|"The Collected Stories of Philip K. Dick 3"|"Philip K. Dick"
 "ap ~ 10:00"|"about ten o'clock"|"For a moment the Old Man was silent. ""Then the element was not within T137 when the 
 adjustment began.""
 ""No. He arrived about ten o'clock.""
@@ -200,6 +216,9 @@ listened."|"The Collected Stories of Philip K. Dick 3"|"Philip K. Dick"
 her beer. It was two in the afternoon. The day was warm and bright. The living-room was attractive in a 
 lazy, quiet way. Abruptly Tyler got to his feet. ""Let's take a look at them. The models. I didn't know it 
 had gone so far."""|"The Collected Stories of Philip K. Dick 3"|"Philip K. Dick"
+"ap 05:00"|five|"""Do you really want to?"" Madge slid back the sleeve of her green silk lounge pajamas and 
+consulted her wristwatch. ""He won't be home until five."" She jumped to her feet, setting down her glass. 
+""All right. We have time."""|"The Collected Stories of Philip K. Dick 3"|"Philip K. Dick"
 "> 00:00"|"after midnight"|"It was after midnight, almost two o'clock in the morning, when he began to get things into final 
 shape. He was tired -- but alert. Things were happening fast. The job was almost done."|"The Collected Stories of Philip K. Dick 3"|"Philip K. Dick"
 "< 02:00"|"almost two o'clock in the morning"|"It was after midnight, almost two o'clock in the morning, when he began to get things into final 

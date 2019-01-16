@@ -12,7 +12,7 @@ $VAR1 = [
           [
             1,
             '[ap 05:00] A Lesson Before Dying - Ernest J. Gaines.epub (OPS/Gain_9781400077700_epub_c02_r1.htm) - five',
-            "\x{201c}The store closes at <<five|9c:0>>, Tante Lou,\x{201d} I said. \x{201c}It\x{2019}s <<almost four|9:0>> now.\x{201d}",
+            "\x{201c}The store closes at <<five|9c:1>>, Tante Lou,\x{201d} I said. \x{201c}It\x{2019}s <<almost four|9f>> now.\x{201d}",
           ],
           [
             1,
@@ -40,6 +40,11 @@ $VAR1 = [
             "\x{201c}Mr. Farrell.\x{201d}
 \x{201c}He say it be all right if you come up by <<five this evening|5>>.\x{201d}
 \x{201c}Is this about Jefferson?\x{201d} I asked.",
+          ],
+          [
+            1,
+            "[ap ~ 05:00] A Lesson Before Dying - Ernest J. Gaines.epub (OPS/Gain_9781400077700_epub_c05_r1.htm) - \x{2019}bout five",
+            "\x{201c}Didn\x{2019}t tell me. Just say it be all right if you come up there <<\x{2019}bout five|9b>>.\x{201d}",
           ],
           [
             1,
@@ -130,7 +135,7 @@ At <<six o\x{2019}clock|6>>, Edna Guidry came back in the kitchen. A tall woman 
           [
             1,
             '[06:00] A Lesson Before Dying - Ernest J. Gaines.epub (OPS/Gain_9781400077700_epub_c13_r1.htm) - six in the morning',
-            "Determination Sunday was the third Sunday of each month, when members of the church would stand and sing their favorite hymns and tell the congregation where they were determined to spend eternity. My aunt started warming up at <<six in the morning|9a>>, whether it was \x{2019}Termination Sunday or not, and didn\x{2019}t quit until <<eleven|9c:0>>, when she walked out of the house. So I would be forced to put away the work until after she had gone, or I would go for a walk through the quarter and back into the field.",
+            "Determination Sunday was the third Sunday of each month, when members of the church would stand and sing their favorite hymns and tell the congregation where they were determined to spend eternity. My aunt started warming up at <<six in the morning|9a>>, whether it was \x{2019}Termination Sunday or not, and didn\x{2019}t quit until <<eleven|9c:1>>, when she walked out of the house. So I would be forced to put away the work until after she had gone, or I would go for a walk through the quarter and back into the field.",
           ],
           [
             1,
@@ -212,7 +217,7 @@ At <<six o\x{2019}clock|6>>, Edna Guidry came back in the kitchen. A tall woman 
             1,
             '[ap 03:00] A Lesson Before Dying - Ernest J. Gaines.epub (OPS/Gain_9781400077700_epub_c24_r1.htm) - three',
             "The first thing you heard were the chains around his ankles, then Jefferson entered the room through the rear door, followed by the deputy. Jefferson wore the same brown wool shirt he\x{2019}d had on a couple of days before. He had on a pair of faded denims and brogans with no laces. He was dragging his feet to keep the shoes on.
-\x{201c}Here he is,\x{201d} the deputy said. \x{201c}See y\x{2019}all at <<three|9c:0>>.\x{201d}
+\x{201c}Here he is,\x{201d} the deputy said. \x{201c}See y\x{2019}all at <<three|9c:1>>.\x{201d}
 \x{201c}Paul\x{2019}s not here today?\x{201d} I asked.",
           ],
           [

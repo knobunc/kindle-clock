@@ -22,7 +22,7 @@ $VAR1 = [
           [
             1,
             '[ap 07:15] The Rosie Project - Graeme Simsion.epub (OEBPS/Text/part0004.xhtml) - 7.15',
-            "\x{2018}Relax,\x{2019} she said. \x{2018}We never start before <<7.15|9c:0>>. Would you like a coffee?\x{2019}",
+            "\x{2018}Relax,\x{2019} she said. \x{2018}We never start before <<7.15|9c:1>>. Would you like a coffee?\x{2019}",
           ],
           [
             1,
@@ -281,12 +281,12 @@ Apparently the bar closed at <<2.30 a.m.|2a>> but Rosie had to clean up.
           [
             1,
             '[ap > 05:30] The Rosie Project - Graeme Simsion.epub (OEBPS/Text/part0026.xhtml) - after 5.30',
-            "\x{2018}Fuck, Don, it\x{2019}s <<after 5.30|9p>>. We\x{2019}re due at the Eslers\x{2019} at <<7.30|9c:0>>. We don\x{2019}t have time for shopping. I need time to change.\x{2019}",
+            "\x{2018}Fuck, Don, it\x{2019}s <<after 5.30|9p>>. We\x{2019}re due at the Eslers\x{2019} at <<7.30|9c:1>>. We don\x{2019}t have time for shopping. I need time to change.\x{2019}",
           ],
           [
             1,
             '[ap 01:00] The Rosie Project - Graeme Simsion.epub (OEBPS/Text/part0026.xhtml) - one',
-            'Ring Woman put three more scarves on the counter. Rosie looked at <<one|9c:0>>. I copied her, looking at another. It seemed nice. They all seemed nice. I had no framework for discrimination.',
+            'Ring Woman put three more scarves on the counter. Rosie looked at <<one|9c:1>>. I copied her, looking at another. It seemed nice. They all seemed nice. I had no framework for discrimination.',
           ],
           [
             1,
@@ -355,7 +355,7 @@ We were back at the hotel early \x{2013} <<4.32 p.m.|2a>>
           [
             1,
             '[ap 07:45] The Rosie Project - Graeme Simsion.epub (OEBPS/Text/part0034.xhtml) - 7.45',
-            "Neither spoke. Rosie looked a little stunned. I looked at her directly. \x{2018}That\x{2019}s a charming pendant,\x{2019} I said. \x{2018}I\x{2019}ll pick you up at <<7.45|9c:0>>.\x{2019} I was shaking as I walked away, but I had given it my best effort. Hitch from Hitch would have been pleased with me.",
+            "Neither spoke. Rosie looked a little stunned. I looked at her directly. \x{2018}That\x{2019}s a charming pendant,\x{2019} I said. \x{2018}I\x{2019}ll pick you up at <<7.45|9c:1>>.\x{2019} I was shaking as I walked away, but I had given it my best effort. Hitch from Hitch would have been pleased with me.",
           ],
           [
             1,
@@ -372,7 +372,7 @@ We were back at the hotel early \x{2013} <<4.32 p.m.|2a>>
           [
             1,
             '[ap 10:30] The Rosie Project - Graeme Simsion.epub (OEBPS/Text/part0037.xhtml) - 10.30',
-            "\x{2018}Ring back if you\x{2019}re home before <<10.30|9c:0>>,\x{2019} my mother said. It was <<10.38|9f>>, but I decided not to be pedantic.",
+            "\x{2018}Ring back if you\x{2019}re home before <<10.30|9c:1>>,\x{2019} my mother said. It was <<10.38|9f>>, but I decided not to be pedantic.",
           ],
           [
             1,

@@ -140,12 +140,12 @@ $VAR1 = [
           [
             1,
             '[ap 11:00] This Is Where I Leave You - Jonathan Tropper.epub (OEBPS/trop_9781101108987_oeb_c16_r1.xhtml) - eleven',
-            "\x{201c}Well, I still skate every morning at <<eleven|9c:0>>, if you want to come by.\x{201d}",
+            "\x{201c}Well, I still skate every morning at <<eleven|9c:1>>, if you want to come by.\x{201d}",
           ],
           [
             1,
             '[ap 01:00] This Is Where I Leave You - Jonathan Tropper.epub (OEBPS/trop_9781101108987_oeb_c16_r1.xhtml) - one',
-            "\x{201c}They open at <<one|9c:0>>, but the owner lets me have a key in exchange for sexual favors.\x{201d}",
+            "\x{201c}They open at <<one|9c:1>>, but the owner lets me have a key in exchange for sexual favors.\x{201d}",
           ],
           [
             1,
@@ -593,7 +593,7 @@ $VAR1 = [
           [
             1,
             '[ap 10:00] This Is Where I Leave You - Jonathan Tropper.epub (OEBPS/trop_9781101108987_oeb_c41_r1.xhtml) - ten',
-            "MY CAB DRIVER is Mr. Ruffalo, who taught English and driver\x{2019}s ed when I was in high school, until he fell for one of his students, Lily Tedesco. They would set off every Tuesday in the driver\x{2019}s ed car, Lily\x{2019}s hands positioned firmly at <<ten|9c:0>> and two, and then pull over behind the county park, where they would discuss their plans to run away together after she graduated, and where she would crouch down between his legs, balancing herself on the training break to prove her love. They must have been spotted at some point because one day Mrs. Ruffalo showed up outside the school and tried to stab her husband with a steak knife hidden in the pocket of her red velour housecoat. No charges were ever filed, but the school board voted unanimously in favor of termination. Now he\x{2019}s divorced and driving the graveyard shift, and probably never gets to see the two kids who are now much older than they are in the bent and faded pictures he has taped to the sun visor of his cab. Life is huge, but it can turn on a dime.",
+            "MY CAB DRIVER is Mr. Ruffalo, who taught English and driver\x{2019}s ed when I was in high school, until he fell for one of his students, Lily Tedesco. They would set off every Tuesday in the driver\x{2019}s ed car, Lily\x{2019}s hands positioned firmly at <<ten|9c:1>> and two, and then pull over behind the county park, where they would discuss their plans to run away together after she graduated, and where she would crouch down between his legs, balancing herself on the training break to prove her love. They must have been spotted at some point because one day Mrs. Ruffalo showed up outside the school and tried to stab her husband with a steak knife hidden in the pocket of her red velour housecoat. No charges were ever filed, but the school board voted unanimously in favor of termination. Now he\x{2019}s divorced and driving the graveyard shift, and probably never gets to see the two kids who are now much older than they are in the bent and faded pictures he has taped to the sun visor of his cab. Life is huge, but it can turn on a dime.",
           ],
           [
             1,

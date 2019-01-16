@@ -47,7 +47,7 @@ $VAR1 = [
           [
             1,
             '[14:00] Singularity Sky - Charles Stross.epub (OEBPS/Text/Section0012.xhtml) - 1400',
-            'Thirty minutes ago an able flyer had rapped on her door. She\'d hastily buttoned her tunic and opened it. "Lieutenant Sauer sends his compliments, ma\'am, and says to remind you that the court-martial convenes this afternoon at <<1400|9c:1>>."',
+            'Thirty minutes ago an able flyer had rapped on her door. She\'d hastily buttoned her tunic and opened it. "Lieutenant Sauer sends his compliments, ma\'am, and says to remind you that the court-martial convenes this afternoon at <<1400|9c:0>>."',
           ],
           [
             1,
@@ -103,11 +103,6 @@ $VAR1 = [
             1,
             '[00:00] Singularity Sky - Charles Stross.epub (OEBPS/Text/Section0016.xhtml) - midnight',
             'When Burya slept, he dreamed in rasterized false-color images, scanned from the rooftops of the capital. The revolution, eternally vigilant, multitasked on his lateral geniculate body, rousting slumbering synapses to recognize suspicious patterns of behavior. Burya found it both disturbing and oddly reassuring to see that the city, for all the changes wrought by the revolution, continued. Here a youth darted from shadow to shadow, evidently on a <<midnight|13>> assignation with his sweetheart; there a grimmer kind of conspiracy fomented, dogs fighting over the bones of temporal responsibility as a block warden stalked a resented houseowner with murder in his eye. Houses grew and fissioned in slow motion, great sessile beasts prodded hither and yon by their internal symbionts. It was all unspeakably alien to him: an eerie half-life crawling over the once-familiar city, echoes of the way he\'d lived for years, lying like a corpse in an open casket. Even the searing light of a nighttime shuttle landing at the field outside the city couldn\'t bring it back to a semblance of the life he\'d known.',
-          ],
-          [
-            1,
-            '[ap 02:00] Singularity Sky - Charles Stross.epub (OEBPS/Text/Section0016.xhtml) - two',
-            "\"Waypoint one coming up: ten-second course adjustment, one-point-two gees. We sit tight for four minutes or so, then we hit waypoint two, and burn for two hours at <<two|9c:1>> and a quarter gees\x{2014}this ends 'bout four thousand klicks elevation relative to planetary surface, and we'll hit atmosphere sixteen minutes later at about four k.p.s. We'll have some reaction mass left, but I really don't want to power up the main engine once we're in air we'll have to breathe afterward; so we're going to drop the propulsion module once we're suborbital and it'll kick itself back into a graveyard orbit with the last of its fuel.\"",
           ],
           [
             1,

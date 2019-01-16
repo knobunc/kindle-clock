@@ -2,7 +2,7 @@ $VAR1 = [
           [
             1,
             '[ap ~ 11:00] The Widows of Eastwick - John Updike.epub (OEBPS/text/content001_split_000.xhtml) - around eleven',
-            "The next morning, at <<around eleven|9c:0>>, she was standing with cold feet on the Athabasca Glacier,
+            "The next morning, at <<around eleven|9c:1>>, she was standing with cold feet on the Athabasca Glacier,
 
   confronting Nature again. The bus, heading south toward Lake Louise, had made a planned stop. The
 
@@ -59,7 +59,7 @@ $VAR1 = [
             '[~ 19:00] The Widows of Eastwick - John Updike.epub (OEBPS/text/content001_split_000.xhtml) - around 1900',
             "In the lobby of the hotel at Lake Louise hung framed photographs of the region as it had
 
-  looked <<around 1900|18:1>>, when the Canadian Pacific had replaced the first log chalets with a timbered
+  looked <<around 1900|18:0>>, when the Canadian Pacific had replaced the first log chalets with a timbered
 
   ch\x{e2}teau, Victorian Tudor in style, housing hundreds of guests. The view as then photographed from
 
@@ -705,7 +705,7 @@ $VAR1 = [
             '[ap 07:00] The Widows of Eastwick - John Updike.epub (OEBPS/text/content001_split_001.xhtml) - seven',
             "She had worked so hard, making everything shipshape for their ritual, that by the time the
 
-  other two returned, not much before <<seven|9c:0>>, gabbling and giggling over their shared adventures,
+  other two returned, not much before <<seven|9c:1>>, gabbling and giggling over their shared adventures,
 
   Alexandra found herself vexed. \x{201c}You might have at least called,\x{201d} she said.",
           ],
@@ -875,7 +875,7 @@ $VAR1 = [
             '[ap 01:00] The Widows of Eastwick - John Updike.epub (OEBPS/text/content001_split_002.xhtml) - one',
             "\x{201c}Let\x{2019}s concentrate on us. Do you want to see my vagina? Have you ever looked at
 
-  <<one|9c:0>>?\x{201d}",
+  <<one|9c:1>>?\x{201d}",
           ],
           [
             1,

@@ -8,7 +8,7 @@ $VAR1 = [
             1,
             '[07:00] By the Seat of My Pants - Simon Winchester.epub (OEBPS/ch01.htm) - seven in the morning',
             "He was smiling the broadest smile I think I have ever seen.
-\x{2018}But it\x{2019}s only <<seven in the morning|5>>! My flight isn\x{2019}t until <<two|9c:0>>.\x{2019}
+\x{2018}But it\x{2019}s only <<seven in the morning|5>>! My flight isn\x{2019}t until <<two|9c:1>>.\x{2019}
 \x{2018}I have things I must do.\x{2019}",
           ],
           [
@@ -54,7 +54,7 @@ $VAR1 = [
           [
             1,
             '[ap 07:00] By the Seat of My Pants - Simon Winchester.epub (OEBPS/ch04.htm) - seven',
-            "Mr Kousou gestured towards an abandoned-looking structure on the far shore. \x{2018}You can sleep across the river, in the schoolhouse\x{2019}, he added. \x{2018}The boat will leave tomorrow morning at <<seven|9c:0>>.\x{2019}",
+            "Mr Kousou gestured towards an abandoned-looking structure on the far shore. \x{2018}You can sleep across the river, in the schoolhouse\x{2019}, he added. \x{2018}The boat will leave tomorrow morning at <<seven|9c:1>>.\x{2019}",
           ],
           [
             1,

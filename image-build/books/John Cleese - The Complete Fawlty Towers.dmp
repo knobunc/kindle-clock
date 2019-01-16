@@ -7,7 +7,7 @@ $VAR1 = [
           [
             1,
             '[ap 05:00] The Complete Fawlty Towers - John Cleese.epub (OEBPS/Text/The_Complete_Fawlty_Towers_split_006.html) - five',
-            "Basil: Right. I was up at <<five|9c:0>>, you know, we do have staff problems, I\x{2019}m so sorry, it\x{2019}s all done by magic.",
+            "Basil: Right. I was up at <<five|9c:1>>, you know, we do have staff problems, I\x{2019}m so sorry, it\x{2019}s all done by magic.",
           ],
           [
             1,
@@ -252,7 +252,7 @@ Mr. Hamilton: So?",
             1,
             '[ap 09:00] The Complete Fawlty Towers - John Cleese.epub (OEBPS/Text/The_Complete_Fawlty_Towers_split_022.html) - nine',
             'Mr. Hamilton: So?
-Basil: Well, yes . . . we do actually stop serving at <<nine|9c:0>>.
+Basil: Well, yes . . . we do actually stop serving at <<nine|9c:1>>.
 Mr. Hamilton: Nine.',
           ],
           [
@@ -265,7 +265,7 @@ Mr. Hamilton: <<Nine|9k:0>>. <<Nine|9k:0>>. Why does your chef stop at <<nine|9c
           [
             1,
             '[ap 09:00] The Complete Fawlty Towers - John Cleese.epub (OEBPS/Text/The_Complete_Fawlty_Towers_split_022.html) - nine',
-            'Mr. Hamilton: Nine. Nine. Why does your chef stop at <<nine|9c:0>>? Has he got something terminal?',
+            'Mr. Hamilton: Nine. Nine. Why does your chef stop at <<nine|9c:1>>? Has he got something terminal?',
           ],
           [
             1,
@@ -296,7 +296,7 @@ Mr. Hamilton: <<Nine|9k:0>>. <<Nine|9k:0>>. Why does your chef stop at <<nine|9c
             1,
             '[ap 09:30] The Complete Fawlty Towers - John Cleese.epub (OEBPS/Text/The_Complete_Fawlty_Towers_split_024.html) - nine-thirty',
             "Mr. Xerxes: Well, you get straight to bed, and we\x{2019}ll pick you up here at <<nine-thirty|5e>>.
-Mr. Zebedee: We\x{2019}ll have a coffee and go in to the MD at <<ten|9c:0>>.
+Mr. Zebedee: We\x{2019}ll have a coffee and go in to the MD at <<ten|9c:1>>.
 Mr. Leeman: Fine, thanks, OK.",
           ],
           [

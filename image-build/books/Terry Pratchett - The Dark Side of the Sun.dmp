@@ -27,7 +27,7 @@ $VAR1 = [
           [
             1,
             '[ap 02:00] The Dark Side of the Sun - Terry Pratchett.epub (OEBPS/Text/10_chapter3.html) - two',
-            "\x{2018}\x{2026} that I might be a FOE, and stop at <<two|9c:0>>, To read in that sweet book which the great gods shoop ...\x{2019}",
+            "\x{2018}\x{2026} that I might be a FOE, and stop at <<two|9c:1>>, To read in that sweet book which the great gods shoop ...\x{2019}",
           ],
           [
             1,
@@ -47,6 +47,11 @@ $VAR1 = [
             'When Dom passed one it gave a tired whine and staggered a few yards on its stumpy legs before taking up its yearning position once more.
 82 Erandini rose quickly <<towards noon|13>>.
 The robot station was on the far side of the lake, probably because the lake was one of the few marker points on Band. Dom had decided to try there. Chatogaster had to be somewhere.',
+          ],
+          [
+            1,
+            "[ap ~ 01:00] The Dark Side of the Sun - Terry Pratchett.epub (OEBPS/Text/16_chapter9.html) - \x{2018}Round One",
+            "<<\x{2018}Round One|9k:0>>,\x{2019} said Ways. \x{2018}Now I\x{2019}ve a resonance-dampening matrix, but what have you got?\x{2019}",
           ],
           [
             1,

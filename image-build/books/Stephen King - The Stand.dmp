@@ -77,7 +77,7 @@ $VAR1 = [
           [
             1,
             '[ap 10:00] The Stand - Stephen King.epub (OEBPS/King_9780385528856_epub_c10_r1.htm) - ten',
-            "She and Angela went out for a quiet drink in a cocktail bar after the party broke up at <<ten|9c:0>>. Angela was in no hurry to get home. It was David\x{2019}s turn to have the weekly poker game at their house, and she just wouldn\x{2019}t be able to sleep with all that noise going on ... unless she had a little self-prescribed sedative first, which in her case would be two sloe gin fizzes.",
+            "She and Angela went out for a quiet drink in a cocktail bar after the party broke up at <<ten|9c:1>>. Angela was in no hurry to get home. It was David\x{2019}s turn to have the weekly poker game at their house, and she just wouldn\x{2019}t be able to sleep with all that noise going on ... unless she had a little self-prescribed sedative first, which in her case would be two sloe gin fizzes.",
           ],
           [
             1,
@@ -172,6 +172,11 @@ She left the nurses\x{2019} station and walked down the hallway toward the white
             1,
             '[ap 08:45] The Stand - Stephen King.epub (OEBPS/King_9780385528856_epub_c20_r1.htm) - quarter of nine',
             'By <<quarter of nine|10>> he was acutely uneasy. He went to the door which gave on the cells and looked in.',
+          ],
+          [
+            1,
+            '[ap > 09:00] The Stand - Stephen King.epub (OEBPS/King_9780385528856_epub_c20_r1.htm) - past nine',
+            'Most of the diagonal parking spaces in front of the stores were empty. A few cars and farm trucks were going up and down the street, but not many. The hardware store looked open, but the shades of the Mercantile Bank were still drawn, although it was <<past nine|9f>> now.',
           ],
           [
             1,
@@ -433,7 +438,7 @@ It was on its perch, just sitting there apathetically with its hands drawn up un
           [
             1,
             '[ap > 02:00] The Stand - Stephen King.epub (OEBPS/King_9780385528856_epub_c38_r1.htm) - past two',
-            "\x{201c}Well, it\x{2019}s <<past two|9:0>> now,\x{201d} he said. \x{201c}We couldn\x{2019}t get much farther than Wells, and we\x{2019}d need to outfit ourselves. That would be easier to do here in Ogunquit, because we know where everything is. And we\x{2019}ll need guns, of course.\x{201d}",
+            "\x{201c}Well, it\x{2019}s <<past two|9f>> now,\x{201d} he said. \x{201c}We couldn\x{2019}t get much farther than Wells, and we\x{2019}d need to outfit ourselves. That would be easier to do here in Ogunquit, because we know where everything is. And we\x{2019}ll need guns, of course.\x{201d}",
           ],
           [
             1,
@@ -595,7 +600,7 @@ But he didn\x{2019}t see <<one that day|5>>.
           [
             1,
             '[ap 07:00] The Stand - Stephen King.epub (OEBPS/King_9780385528856_epub_c47_r1.htm) - seven',
-            'At last he slept again, and until he woke up the next morning at <<seven|9c:0>>, stiff, cold, hungry, and needing to go to the bathroom, his sleep was dreamless.',
+            'At last he slept again, and until he woke up the next morning at <<seven|9c:1>>, stiff, cold, hungry, and needing to go to the bathroom, his sleep was dreamless.',
           ],
           [
             1,
@@ -660,7 +665,7 @@ But he didn\x{2019}t see <<one that day|5>>.
           [
             1,
             '[ap 07:00] The Stand - Stephen King.epub (OEBPS/King_9780385528856_epub_c48_r1.htm) - seven',
-            "On the morning of the day her company finally arrived she had begun at <<seven|9c:0>>, lugging wood two sticks at a time until the stove was hot and her woodbox full. God had favored her with a cool, cloudy day, the first in weeks. By nightfall there might be rain. The hip she\x{2019}d broken in 1958 said so, anyway.",
+            "On the morning of the day her company finally arrived she had begun at <<seven|9c:1>>, lugging wood two sticks at a time until the stove was hot and her woodbox full. God had favored her with a cool, cloudy day, the first in weeks. By nightfall there might be rain. The hip she\x{2019}d broken in 1958 said so, anyway.",
           ],
           [
             1,
@@ -835,19 +840,14 @@ Place: Canyon Boulevard Park & Bandshell if FINE',
           [
             1,
             '[ap 07:00] The Stand - Stephen King.epub (OEBPS/King_9780385528856_epub_c54_r1.htm) - seven',
-            "\x{201c}I\x{2019}m better than okay\x{2014}I\x{2019}m ultimately fine. Go on. Shoo. Meeting\x{2019}s at <<seven|9c:0>>. If you hurry, you\x{2019}ve got just enough time to get back here for some supper before.\x{201d}",
+            "\x{201c}I\x{2019}m better than okay\x{2014}I\x{2019}m ultimately fine. Go on. Shoo. Meeting\x{2019}s at <<seven|9c:1>>. If you hurry, you\x{2019}ve got just enough time to get back here for some supper before.\x{201d}",
           ],
           [
             1,
             '[ap 07:00] The Stand - Stephen King.epub (OEBPS/King_9780385528856_epub_c54_r1.htm) - seven',
             "\x{201c}Yeah, but this\x{2014}\x{201d} Larry stopped. Stu was smiling kindly, and Larry smiled back, rather sourly. \x{201c}Okay. Your point. We talk it out and keep our mouths shut.\x{201d}
-\x{201c}Fine. See you at <<seven|9c:0>>.\x{201d}
+\x{201c}Fine. See you at <<seven|9c:1>>.\x{201d}
 \x{201c}Sure thing.\x{201d}",
-          ],
-          [
-            1,
-            '[ap 01:00] The Stand - Stephen King.epub (OEBPS/King_9780385528856_epub_c54_r1.htm) - One',
-            "Nick: \x{201c}Anyway, all this elaborate hypnosis stuff is just an introduction to two very simple points. <<One|9k:0>>, we can plant a post-hypnotic suggestion that Tom return at a certain time. The obvious way would be to do this by the moon. The full moon. <<Two|9k:0>>, by putting him into deep hypnosis when he gets back, we\x{2019}d get almost perfect recall of everything he saw.\x{201d}",
           ],
           [
             1,
@@ -951,7 +951,7 @@ God, that seemed a long time away.',
           [
             1,
             '[ap 09:00] The Stand - Stephen King.epub (OEBPS/King_9780385528856_epub_c57_r1.htm) - nine',
-            'Fran said she could see Stu and Glen were having a wonderful time but wanted to know if they could get down to business, as all her favorite TV shows started at <<nine|9c:0>>. This comment was greeted with more laughter than it probably deserved.',
+            'Fran said she could see Stu and Glen were having a wonderful time but wanted to know if they could get down to business, as all her favorite TV shows started at <<nine|9c:1>>. This comment was greeted with more laughter than it probably deserved.',
           ],
           [
             1,

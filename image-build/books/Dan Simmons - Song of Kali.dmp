@@ -63,7 +63,7 @@ $VAR1 = [
             1,
             '[ap 04:00] Song of Kali - Dan Simmons.epub (OEBPS/section13.html) - four',
             '"Mmmm. Damn. Another day."
-"We\'re invited to tea at <<four|9c:0>>."
+"We\'re invited to tea at <<four|9c:1>>."
 "Hmmm? Where?"',
           ],
           [
@@ -126,7 +126,7 @@ $VAR1 = [
           [
             1,
             '[ap > 11:00] Song of Kali - Dan Simmons.epub (OEBPS/section14.html) - after eleven',
-            'Gupta and Chatterjee did not show up until <<after eleven|9c:0>>, but Krishna was in the lobby when we went down. He was wearing the same soiled shirt and rumpled trousers. He acted overjoyed to see us, bowing to Amrita, tousling Victoria\'s thin hair, and shaking my hand twice. He had come, he said, to inform me that our "mutual friend, Mr. Muktanandaji" had used my most gracious gift to return to his village of Anguda.',
+            'Gupta and Chatterjee did not show up until <<after eleven|9c:1>>, but Krishna was in the lobby when we went down. He was wearing the same soiled shirt and rumpled trousers. He acted overjoyed to see us, bowing to Amrita, tousling Victoria\'s thin hair, and shaking my hand twice. He had come, he said, to inform me that our "mutual friend, Mr. Muktanandaji" had used my most gracious gift to return to his village of Anguda.',
           ],
           [
             1,
@@ -156,7 +156,7 @@ $VAR1 = [
           [
             1,
             '[ap 04:00] Song of Kali - Dan Simmons.epub (OEBPS/section15.html) - four',
-            'Amrita moved briskly to set the baby down. She crossed to the window, jerked the curtains back, and folded her arms. "The \'damn alarm\' went off at <<four|9c:0>>. I got up. You refused to wake up, even after I shook you. Finally, when I did get you to sit up, you said, \'Let\'s wait another day.\' And all this was because you sat up all night reading."',
+            'Amrita moved briskly to set the baby down. She crossed to the window, jerked the curtains back, and folded her arms. "The \'damn alarm\' went off at <<four|9c:1>>. I got up. You refused to wake up, even after I shook you. Finally, when I did get you to sit up, you said, \'Let\'s wait another day.\' And all this was because you sat up all night reading."',
           ],
           [
             1,
@@ -397,7 +397,7 @@ Blood calls at <<midnight|13>> . . .\"
             1,
             '[ap 09:30] Song of Kali - Dan Simmons.epub (OEBPS/section9.html) - Nine-thirty',
             '"<<Nine-thirty|9j>>?" I asked. The thought of going out into the Calcutta night filled me with a vague sickness.
-"Yes. The coffee shop closes at <<eleven|9c:0>>. We will meet him there."
+"Yes. The coffee shop closes at <<eleven|9c:1>>. We will meet him there."
 Coffee shop. The words had an innocuous familiarity to them. If there were some angle I could use in the article . . .',
           ],
           [
@@ -413,6 +413,6 @@ Coffee shop. The words had an innocuous familiarity to them. If there were some 
           [
             1,
             '[ap 11:00] Song of Kali - Dan Simmons.epub (OEBPS/section9.html) - eleven',
-            '"Ah, we are here, Mr. Luczak. Step down. Quickly, please. We are late. The coffee shop closes at <<eleven|9c:0>>."',
+            '"Ah, we are here, Mr. Luczak. Step down. Quickly, please. We are late. The coffee shop closes at <<eleven|9c:1>>."',
           ],
         ];

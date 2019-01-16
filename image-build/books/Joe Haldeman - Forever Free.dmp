@@ -1,11 +1,6 @@
 $VAR1 = [
           [
             1,
-            '[ap 08:00] Forever Free - Joe Haldeman.epub (OEBPS/chapter003.html) - eight',
-            "I checked my watch. \x{2018}Can\x{2019}t wait dinner too long.\x{2019} The meeting was at <<eight|9c:1>> and a half.",
-          ],
-          [
-            1,
             '[ap 02:00] Forever Free - Joe Haldeman.epub (OEBPS/chapter005.html) - 2',
             'Which is what this was, though the ages of the participants ranged from over a thousand to barely a hundred, depending on
          when they were drafted into the Forever War. Their physical age went from late thirties to early fifties, in Earth years.
@@ -28,7 +23,7 @@ $VAR1 = [
           [
             1,
             '[14:00] Forever Free - Joe Haldeman.epub (OEBPS/chapter007.html) - 1400',
-            "I went straight from jail to the university, since I had to teach at <<1400|9c:1>>, and liked to be in the office for an hour before
+            "I went straight from jail to the university, since I had to teach at <<1400|9c:0>>, and liked to be in the office for an hour before
          class, to go over notes and be available to talk to students. They served a hot lunch in the teachers\x{2019} lounge, too.",
           ],
           [
@@ -62,7 +57,7 @@ $VAR1 = [
           [
             1,
             '[00:05] Forever Free - Joe Haldeman.epub (OEBPS/chapter014.html) - 0.05',
-            'The monitor and displays came up and I looked to the lower left: power was at <<0.05|9c:0>>, Weapons systems all dark, as expected.',
+            'The monitor and displays came up and I looked to the lower left: power was at <<0.05|9c:1>>, Weapons systems all dark, as expected.',
           ],
           [
             1,

@@ -28,8 +28,8 @@ $VAR1 = [
           ],
           [
             1,
-            "[ap 06:00] Boy's Life - Robert R. McCammon.epub (OEBPS/Text/Part_01.html) - six o\x{2019}clock",
-            "\x{201c}Lizbeth? He\x{2019}ll be there. \x{2019}Round <<six o\x{2019}clock|6>>?\x{201d} She put her hand over the mouthpiece and said to me, \x{201c}They\x{2019}re havin\x{2019} fried chicken for dinner.\x{201d}",
+            "[ap ~ 06:00] Boy's Life - Robert R. McCammon.epub (OEBPS/Text/Part_01.html) - \x{2019}Round six o\x{2019}clock",
+            "\x{201c}Lizbeth? He\x{2019}ll be there. <<\x{2019}Round six o\x{2019}clock|6>>?\x{201d} She put her hand over the mouthpiece and said to me, \x{201c}They\x{2019}re havin\x{2019} fried chicken for dinner.\x{201d}",
           ],
           [
             1,
@@ -181,7 +181,7 @@ I could tell Davy was as puzzled as I was about Nemo\x{2019}s size; there should
           [
             1,
             '[05:00] Boy\'s Life - Robert R. McCammon.epub (OEBPS/Text/Part_02.html) - five in the morning',
-            "This year, though, I was determined to strike a bargain with my folks. If I had to go to that farmhouse where Granddaddy Jaybird jerked the covers off me at <<five in the morning|9a>> and had me mowing grass at <<six|9c:0>>, could I at least go on an overnight camping trip with Davy Ray, Ben, and Johnny? Dad said he\x{2019}d think about it, and that was about the best I could hope for. So it happened that I said good-bye to Rebel for a week, Dad and Mom drove me out from Zephyr into the country, my suitcase in the back of the truck, and Dad turned off onto the bumpy dirt road that led across a corn field to my grandparents\x{2019} house.",
+            "This year, though, I was determined to strike a bargain with my folks. If I had to go to that farmhouse where Granddaddy Jaybird jerked the covers off me at <<five in the morning|9a>> and had me mowing grass at <<six|9c:1>>, could I at least go on an overnight camping trip with Davy Ray, Ben, and Johnny? Dad said he\x{2019}d think about it, and that was about the best I could hope for. So it happened that I said good-bye to Rebel for a week, Dad and Mom drove me out from Zephyr into the country, my suitcase in the back of the truck, and Dad turned off onto the bumpy dirt road that led across a corn field to my grandparents\x{2019} house.",
           ],
           [
             1,
@@ -592,12 +592,12 @@ Dad lifted a finger and tapped it against his lips, his eyes narrowed. I knew wh
           [
             1,
             '[ap 06:00] Boy\'s Life - Robert R. McCammon.epub (OEBPS/Text/Part_04.html) - six',
-            "\x{201c}\x{2026}and these cages must be kept scrupulously clean,\x{201d} Dr. Lezander was saying as he pointed them out. They were empty right now. \x{201c}As well as the floor. If you come in three times a week, I expect the floor to be scrubbed three times a week. You\x{2019}ll be expected to water and feed all the animals in the kennel, as well as exercise them.\x{201d} I followed along behind him as he showed me from room to room in the basement. Every once in a while I would glance up and see an air vent overhead. \x{201c}I order my hay in bales. You\x{2019}d be expected to help unload the truck, cut the baling wire, and spread out hay for the horse stalls. I can attest that cutting baling wire is not an easy endeavor. It\x{2019}s tough enough to string a piano with. Plus your job will include whatever errands I need you to run.\x{201d} He turned to face me. \x{201c}Twenty dollars a week for three afternoons, say from four until <<six|9c:0>>. Does that sound fair?\x{201d}",
+            "\x{201c}\x{2026}and these cages must be kept scrupulously clean,\x{201d} Dr. Lezander was saying as he pointed them out. They were empty right now. \x{201c}As well as the floor. If you come in three times a week, I expect the floor to be scrubbed three times a week. You\x{2019}ll be expected to water and feed all the animals in the kennel, as well as exercise them.\x{201d} I followed along behind him as he showed me from room to room in the basement. Every once in a while I would glance up and see an air vent overhead. \x{201c}I order my hay in bales. You\x{2019}d be expected to help unload the truck, cut the baling wire, and spread out hay for the horse stalls. I can attest that cutting baling wire is not an easy endeavor. It\x{2019}s tough enough to string a piano with. Plus your job will include whatever errands I need you to run.\x{201d} He turned to face me. \x{201c}Twenty dollars a week for three afternoons, say from four until <<six|9c:1>>. Does that sound fair?\x{201d}",
           ],
           [
             1,
             '[ap 04:00] Boy\'s Life - Robert R. McCammon.epub (OEBPS/Text/Part_04.html) - four',
-            "\x{201c}If you come in on Saturdays, I\x{2019}ll pay you an extra five dollars for\x{2026}say, two until <<four|9c:0>>.\x{201d} He smiled, again with just his mouth. He drank his coffee and set the collie cup down atop an empty wire-mesh cage. \x{201c}Cory?\x{201d} he said softly. \x{201c}I do have two requests before I give you this job.\x{201d}",
+            "\x{201c}If you come in on Saturdays, I\x{2019}ll pay you an extra five dollars for\x{2026}say, two until <<four|9c:1>>.\x{201d} He smiled, again with just his mouth. He drank his coffee and set the collie cup down atop an empty wire-mesh cage. \x{201c}Cory?\x{201d} he said softly. \x{201c}I do have two requests before I give you this job.\x{201d}",
           ],
           [
             1,

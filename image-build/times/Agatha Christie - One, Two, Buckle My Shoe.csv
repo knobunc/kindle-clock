@@ -29,6 +29,8 @@ Hercule Poirot was sitting in an easy chair happily digesting an excellent lunch
 "ap 00:00"|"Twelve o’clock"|"“Eleven thirty, Mr. Howard Raikes. Twelve o’clock, Mr. Barnes. That was all the patients this morning. Mr. Reilly isn’t so booked up as Mr. Morley, of course.”"|"One, Two, Buckle My Shoe"|"Agatha Christie"
 "ap 11:30"|"eleven thirty"|"“Yes, sir. Young fellow. He was American all right—you could tell by his voice. Come early, he did. His appointment wasn’t till eleven thirty—and what’s more he didn’t keep it—neither.”"|"One, Two, Buckle My Shoe"|"Agatha Christie"
 "ap 11:30"|"eleven thirty"|"“Not him. Come in for him when Mr. Reilly’s buzzer went at eleven thirty—a bit later it was, as a matter of fact, might have been twenty to twelve—and he wasn’t there. Must have funked it and gone away.” He added with a knowledgeable air, “They do sometimes.”"|"One, Two, Buckle My Shoe"|"Agatha Christie"
+"ap 11:30"|"eleven thirty"|"“That’s right, sir. You went out after I’d taken up a toff what come in a Rolls. Coo—it was a loverly car, Mr. Blunt—eleven thirty. Then I come down and let you out, and a lady in. Miss Some Berry Seal, or something like that—and then I—well, as a matter of fact I just nipped down to the kitchen to get my elevenses, and when I was down there the buzzer went—Mr. Reilly’s buzzer—so I come up and, as I say, the American gentleman had hooked it. I went and told Mr. Reilly and he swore a bit, as is his way.”"|"One, Two, Buckle My Shoe"|"Agatha Christie"
+"~ 11:00"|elevenses|"“That’s right, sir. You went out after I’d taken up a toff what come in a Rolls. Coo—it was a loverly car, Mr. Blunt—eleven thirty. Then I come down and let you out, and a lady in. Miss Some Berry Seal, or something like that—and then I—well, as a matter of fact I just nipped down to the kitchen to get my elevenses, and when I was down there the buzzer went—Mr. Reilly’s buzzer—so I come up and, as I say, the American gentleman had hooked it. I went and told Mr. Reilly and he swore a bit, as is his way.”"|"One, Two, Buckle My Shoe"|"Agatha Christie"
 "ap 00:00"|"twelve o’clock"|"“No, sir, I can’t say as I did. He must have let himself out. I didn’t see either of those two gentlemen go.”
 “Where were you from twelve o’clock onwards?”
 “I always sit in the lift, sir, waiting until the front doorbell or one of the buzzers goes.”"|"One, Two, Buckle My Shoe"|"Agatha Christie"
@@ -59,6 +61,9 @@ Hercule Poirot was sitting in an easy chair happily digesting an excellent lunch
 "ap < 06:00"|"a little before six"|"The secretary said:
 “Then at a little before six tomorrow, M. Poirot?”
 Poirot nodded assent mechanically. He was standing like a man who has seen a ghost. But it was his ears, not his eyes, that had given him the shock."|"One, Two, Buckle My Shoe"|"Agatha Christie"
+"ap < 06:00"|"a little before six"|"VI
+The Rolls called punctually for Poirot at a little before six.
+Alistair Blunt and his secretary were the only occupants. Mrs. Olivera and Jane had gone down in another car earlier, it seemed."|"One, Two, Buckle My Shoe"|"Agatha Christie"
 "ap ~ 06:45"|"about a quarter to seven"|"“Let me see now. It’s a long time after to be asking me a thing like that. It would be the night before—about a quarter to seven.”"|"One, Two, Buckle My Shoe"|"Agatha Christie"
 "ap ~ 11:35"|"about eleven thirty five"|"“You did not, for instance, go up to his room about eleven thirty five when he had a patient there?”"|"One, Two, Buckle My Shoe"|"Agatha Christie"
 "ap 00:30"|"half past twelve"|"“And I also understand that you had no patient from half past twelve to one after Mr. Barnes left. When did he leave, by the way?”"|"One, Two, Buckle My Shoe"|"Agatha Christie"

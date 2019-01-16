@@ -744,9 +744,9 @@ END PRINT',
           ],
           [
             1,
-            '[ap 07:30] The Andromeda Strain - Michael Crichton.epub (OEBPS/Text/Andro_Str_split_036.htm) - seven-thirty',
+            '[ap ~ 07:30] The Andromeda Strain - Michael Crichton.epub (OEBPS/Text/Andro_Str_split_036.htm) - \'Bout seven-thirty',
             '"When was that?"
-" \'Bout <<seven-thirty|5k:0>> or so."
+" <<\'Bout seven-thirty|5k:0>> or so."
 "What did Benedict do with the satellite?"',
           ],
           [
@@ -756,9 +756,9 @@ END PRINT',
           ],
           [
             1,
-            '[ap 06:00] The Andromeda Strain - Michael Crichton.epub (OEBPS/Text/Andro_Str_split_036.htm) - six o\'clock',
+            '[ap ~ 06:00] The Andromeda Strain - Michael Crichton.epub (OEBPS/Text/Andro_Str_split_036.htm) - \'Bout six o\'clock',
             '"You\'d been drinking Sterno that day?"
-" \'Bout <<six o\'clock|6>> I had some, yes."
+" <<\'Bout six o\'clock|6>> I had some, yes."
 "How did you feel?"',
           ],
           [

@@ -12,7 +12,7 @@ $VAR1 = [
           [
             1,
             '[ap 09:30] The Boy Who Followed Ripley - Patricia Highsmith.epub (text/part0005.html) - 9:30',
-            "Three days later, on a Friday, Tom and Heloise sat at the table in the alcove off the living room, breakfasting and looking over letters and newspapers that had arrived at <<9:30|2>>. It was Tom\x{2019}s second coffee, Mme. Annette having brought the first to him, along with Heloise\x{2019}s tea, at <<eight|9:0>> or so. A storm was blowing up, or brewing, creating an atmosphere of tension that had awakened Tom at <<eight|9c:0>>, before Mme. Annette\x{2019}s arrival. It was now ominously dark, not a breeze stirred outside, and there were distant rumbles of thunder.",
+            "Three days later, on a Friday, Tom and Heloise sat at the table in the alcove off the living room, breakfasting and looking over letters and newspapers that had arrived at <<9:30|2>>. It was Tom\x{2019}s second coffee, Mme. Annette having brought the first to him, along with Heloise\x{2019}s tea, at <<eight|9:0>> or so. A storm was blowing up, or brewing, creating an atmosphere of tension that had awakened Tom at <<eight|9c:1>>, before Mme. Annette\x{2019}s arrival. It was now ominously dark, not a breeze stirred outside, and there were distant rumbles of thunder.",
           ],
           [
             1,
@@ -32,7 +32,7 @@ $VAR1 = [
           [
             1,
             '[ap 03:00] The Boy Who Followed Ripley - Patricia Highsmith.epub (text/part0005.html) - three',
-            "\x{201c}Roger\x{2019}s coming this afternoon at <<three|9c:0>>,\x{201d} Tom said, wiping his face. \x{201c}Scarlatti for me. I must practice this morning and after lunch too.\x{201d}",
+            "\x{201c}Roger\x{2019}s coming this afternoon at <<three|9c:1>>,\x{201d} Tom said, wiping his face. \x{201c}Scarlatti for me. I must practice this morning and after lunch too.\x{201d}",
           ],
           [
             1,
@@ -67,7 +67,7 @@ $VAR1 = [
           [
             1,
             '[ap 11:00] The Boy Who Followed Ripley - Patricia Highsmith.epub (text/part0005.html) - eleven',
-            "It was only <<eleven|9c:0>> or so, but Tom knew Frank did not want Heloise to see him again. \x{201c}Have you got a picture of Teresa?\x{201d}",
+            "It was only <<eleven|9c:1>> or so, but Tom knew Frank did not want Heloise to see him again. \x{201c}Have you got a picture of Teresa?\x{201d}",
           ],
           [
             1,
@@ -261,7 +261,7 @@ That would be all right.",
           [
             1,
             '[ap 10:00] The Boy Who Followed Ripley - Patricia Highsmith.epub (text/part0012.html) - ten',
-            "A rhetorical question. Tom looked blankly at the television screen, which showed an apartment building blowing up, darts of red and yellow flame, an iron beam tumbling in the air. He supposed it was Lebanon. A few days ago it had been Heathrow, the aftermath of an attack on the Israeli airlines. Tomorrow the world, Tom thought. He was thinking that Heloise would have news of her mother tomorrow morning maybe by about ten, and Tom hoped the hospital tests would not mean surgery. Tom intended to go to Fontainebleau before <<ten|9c:0>>, get the tickets, and tell Heloise that it was a most urgent job for Reeves Minot, which he had learned about by telephone during the night, something like that. There was no telephone in Heloise\x{2019}s room, and with her door closed, she could not hear the telephone in his room or in the living room downstairs. Awful news continued on the television set, and Tom postponed any kind of speech to Heloise.",
+            "A rhetorical question. Tom looked blankly at the television screen, which showed an apartment building blowing up, darts of red and yellow flame, an iron beam tumbling in the air. He supposed it was Lebanon. A few days ago it had been Heathrow, the aftermath of an attack on the Israeli airlines. Tomorrow the world, Tom thought. He was thinking that Heloise would have news of her mother tomorrow morning maybe by about ten, and Tom hoped the hospital tests would not mean surgery. Tom intended to go to Fontainebleau before <<ten|9c:1>>, get the tickets, and tell Heloise that it was a most urgent job for Reeves Minot, which he had learned about by telephone during the night, something like that. There was no telephone in Heloise\x{2019}s room, and with her door closed, she could not hear the telephone in his room or in the living room downstairs. Awful news continued on the television set, and Tom postponed any kind of speech to Heloise.",
           ],
           [
             1,
@@ -286,7 +286,7 @@ That would be all right.",
           [
             1,
             '[ap 09:00] The Boy Who Followed Ripley - Patricia Highsmith.epub (text/part0013.html) - nine',
-            'Tom telephoned Frank from his room the next morning at <<nine|9c:0>>. How was Ben feeling?',
+            'Tom telephoned Frank from his room the next morning at <<nine|9c:1>>. How was Ben feeling?',
           ],
           [
             1,
@@ -336,7 +336,7 @@ That would be all right.",
           [
             1,
             '[ap < 08:00] The Boy Who Followed Ripley - Patricia Highsmith.epub (text/part0014.html) - almost eight',
-            'They went into the living room where Eric poured whiskeys, and Peter went at once to the kitchen to fetch ice. It was <<almost eight|9:0>> now.',
+            'They went into the living room where Eric poured whiskeys, and Peter went at once to the kitchen to fetch ice. It was <<almost eight|9f>> now.',
           ],
           [
             1,
@@ -361,7 +361,7 @@ That would be all right.",
           [
             1,
             '[ap 02:00] The Boy Who Followed Ripley - Patricia Highsmith.epub (text/part0015.html) - two',
-            "\x{201c}The bathroom is yours, Tom,\x{201d} said Eric. \x{201c}I shall say good night, so I don\x{2019}t disturb you any more. Do you want me to set my Wecker for you at <<two|9c:0>>, maybe, so you can telephone?\x{201d}",
+            "\x{201c}The bathroom is yours, Tom,\x{201d} said Eric. \x{201c}I shall say good night, so I don\x{2019}t disturb you any more. Do you want me to set my Wecker for you at <<two|9c:1>>, maybe, so you can telephone?\x{201d}",
           ],
           [
             1,
@@ -386,7 +386,7 @@ That would be all right.",
           [
             1,
             '[ap 03:30] The Boy Who Followed Ripley - Patricia Highsmith.epub (text/part0015.html) - half past three',
-            "\x{201c}I understand.\x{201d} Tom knew, some banks didn\x{2019}t open until <<half past three|10>>, others closed at <<one|9c:0>>. \x{201c}So\x{2014}the banks\x{2014}\x{201d}",
+            "\x{201c}I understand.\x{201d} Tom knew, some banks didn\x{2019}t open until <<half past three|10>>, others closed at <<one|9c:1>>. \x{201c}So\x{2014}the banks\x{2014}\x{201d}",
           ],
           [
             1,
@@ -461,7 +461,7 @@ That would be all right.",
           [
             1,
             '[ap ~ 10:00] The Boy Who Followed Ripley - Patricia Highsmith.epub (text/part0018.html) - around ten',
-            "\x{201c}Oh, and a handbag,\x{201d} said Eric. \x{201c}I don\x{2019}t know. Fun, I suppose.\x{201d} Eric chuckled. \x{201c}You think so? Good, I\x{2019}ll tell Tom. Wiedersehen, Rollo.\x{201d} Eric hung up and said, \x{201c}Rollo thinks Max can arrive tonight <<around ten|9b>>\x{2014}here, I mean. Max is working in a beauty parlor till <<nine|9f>>, and Rollo goes out at six to do a window-dressing job until <<ten|9c:0>>, but he says he will leave a note for Max to find.\x{201d}",
+            "\x{201c}Oh, and a handbag,\x{201d} said Eric. \x{201c}I don\x{2019}t know. Fun, I suppose.\x{201d} Eric chuckled. \x{201c}You think so? Good, I\x{2019}ll tell Tom. Wiedersehen, Rollo.\x{201d} Eric hung up and said, \x{201c}Rollo thinks Max can arrive tonight <<around ten|9b>>\x{2014}here, I mean. Max is working in a beauty parlor till <<nine|9f>>, and Rollo goes out at six to do a window-dressing job until <<ten|9c:1>>, but he says he will leave a note for Max to find.\x{201d}",
           ],
           [
             1,
@@ -667,12 +667,12 @@ Tom took another warm shower, and looked forward to sleeping. Just that morning 
           [
             1,
             '[ap 04:00] The Boy Who Followed Ripley - Patricia Highsmith.epub (text/part0024.html) - four',
-            'From his room Tom telephoned the Hotel Chelsea in Manhattan, and asked if they had a single room for that night. A friendly voice said they could probably manage it with a little bit of Irish luck. That was good enough. Tom thought he should take his leave after lunch. Some neighbors called the Hunters were coming at <<four|9c:0>>, Lily had said, because they were very fond of Frank and wanted to see him. Tom supposed that the Pierson household could get him some kind of transportation to Bangor, whence he could take a plane to New York.',
+            'From his room Tom telephoned the Hotel Chelsea in Manhattan, and asked if they had a single room for that night. A friendly voice said they could probably manage it with a little bit of Irish luck. That was good enough. Tom thought he should take his leave after lunch. Some neighbors called the Hunters were coming at <<four|9c:1>>, Lily had said, because they were very fond of Frank and wanted to see him. Tom supposed that the Pierson household could get him some kind of transportation to Bangor, whence he could take a plane to New York.',
           ],
           [
             1,
             '[ap 07:00] The Boy Who Followed Ripley - Patricia Highsmith.epub (text/part0024.html) - seven',
-            "Johnny devoted himself to his food, and said only something to his mother about a girl called Christine possibly coming at <<seven|9c:0>>, and he didn\x{2019}t know whether they would go somewhere for dinner or stay in.",
+            "Johnny devoted himself to his food, and said only something to his mother about a girl called Christine possibly coming at <<seven|9c:1>>, and he didn\x{2019}t know whether they would go somewhere for dinner or stay in.",
           ],
           [
             1,

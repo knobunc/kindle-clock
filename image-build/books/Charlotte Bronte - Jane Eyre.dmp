@@ -165,6 +165,11 @@ $VAR1 = [
           ],
           [
             1,
+            '[ap > 06:00] Jane Eyre - Charlotte Bronte.epub (OEBPS/bano_9781411432437_oeb_c17_r1.html) - past six',
+            "\x{201c}It gets late,\x{201d} said Mrs. Fairfax, entering in rustling state. \x{201c}I am glad I ordered dinner an hour after the time Mr. Rochester mentioned, for it is <<past six|9f>> now. I have sent John down to the gates to see if there is anything on the road; one can see a long way from thence in the direction of Millcote.\x{201d} She went to the window. \x{201c}Here he is!\x{201d} said she. \x{201c}Well, John (leaning out), any news?\x{201d}",
+          ],
+          [
+            1,
             '[ap > 09:00] Jane Eyre - Charlotte Bronte.epub (OEBPS/bano_9781411432437_oeb_c17_r1.html) - after nine',
             "She was really hungry, so the chicken and tarts served to divert her attention for a time. It was well I secured this forage; or both she, I, and Sophie, to whom I conveyed a share of our repast, would have run a chance of getting no dinner at all; every one down stairs was too much engaged to think of us. The dessert was not carried out till <<after nine|9f>>, and at <<ten|9e>>, footmen were still running to and fro with trays and coffee-cups. I allowed Ad\x{e8}le to sit up much later than usual; for she declared she could not possibly go to sleep while the doors kept opening and shutting  below, and people bustling about. Besides, she added, a message might possibly come from Mr. Rochester when she was undressed; \x{201c}et alors quel dommage!\x{201d}dt",
           ],
@@ -258,7 +263,7 @@ $VAR1 = [
           [
             1,
             '[ap 08:00] Jane Eyre - Charlotte Bronte.epub (OEBPS/bano_9781411432437_oeb_c25_r1.html) - eight',
-            "\x{201c}And fasten the door securely on the inside. Wake Sophie when you go up stairs, under pretence of requesting her to rouse you in good time to-morrow; for you must be dressed and have finished breakfast before <<eight|9c:0>>. And now, no more sombre thoughts; chase dull care away, Janet. Don\x{2019}t you hear to what soft whispers the wind has fallen? and there is no more beating of rain against the window-panes; look here (he lifted up the curtain), it is a lovely night!\x{201d}",
+            "\x{201c}And fasten the door securely on the inside. Wake Sophie when you go up stairs, under pretence of requesting her to rouse you in good time to-morrow; for you must be dressed and have finished breakfast before <<eight|9c:1>>. And now, no more sombre thoughts; chase dull care away, Janet. Don\x{2019}t you hear to what soft whispers the wind has fallen? and there is no more beating of rain against the window-panes; look here (he lifted up the curtain), it is a lovely night!\x{201d}",
           ],
           [
             1,

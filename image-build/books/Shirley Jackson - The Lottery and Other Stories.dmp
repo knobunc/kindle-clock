@@ -84,7 +84,7 @@ $VAR1 = [
           [
             1,
             '[ap 10:00] The Lottery and Other Stories - Shirley Jackson.epub (OEBPS/Text/CR!71G32CT7W95YDDW4N37BYJMW3HT9_split_006.html) - ten',
-            "\x{201c}Listen,\x{201d} the woman said tiredly, \x{201c}the kid has his bath at <<ten|9c:0>>. Would I see strange men walking around? I ask you.\x{201d}",
+            "\x{201c}Listen,\x{201d} the woman said tiredly, \x{201c}the kid has his bath at <<ten|9c:1>>. Would I see strange men walking around? I ask you.\x{201d}",
           ],
           [
             1,
@@ -175,7 +175,7 @@ $VAR1 = [
             1,
             '[ap ~ 00:30] The Lottery and Other Stories - Shirley Jackson.epub (OEBPS/Text/CR!71G32CT7W95YDDW4N37BYJMW3HT9_split_021.html) - about twelve-thirty',
             "\x{201c}See you for lunch?\x{201d} she asked.
-\x{201c}I\x{2019}ll be back <<about twelve-thirty|5k:1>>,\x{201d} he said.
+\x{201c}I\x{2019}ll be back <<about twelve-thirty|5k:0>>,\x{201d} he said.
 He closed the door and she heard his footsteps going emphatically down the hall to the elevator; busy footsteps, she thought, in case anyone was listening in this fearful old building.",
           ],
           [
@@ -216,7 +216,7 @@ He closed the door and she heard his footsteps going emphatically down the hall 
           [
             1,
             '[ap 09:00] The Lottery and Other Stories - Shirley Jackson.epub (OEBPS/Text/CR!71G32CT7W95YDDW4N37BYJMW3HT9_split_029.html) - nine',
-            "By the time Mrs. Hart discovered that Mrs. Anderson never got anything quite clean, never completely managed to get anything back where it belonged, it was incredible to think of doing anything about it. Mrs. Anderson\x{2019}s thumbprints were on all the windows and Mrs. Hart\x{2019}s morning cup of tea was a regular institution; Mrs. Hart put the water on to boil directly after breakfast and Mrs. Anderson made them each a cup of tea when she came at <<nine|9c:0>>. \x{201c}You need a hot cup of tea to start your day off right,\x{201d} she said amiably every morning, \x{201c}it settles your stomach for the day.\x{201d}",
+            "By the time Mrs. Hart discovered that Mrs. Anderson never got anything quite clean, never completely managed to get anything back where it belonged, it was incredible to think of doing anything about it. Mrs. Anderson\x{2019}s thumbprints were on all the windows and Mrs. Hart\x{2019}s morning cup of tea was a regular institution; Mrs. Hart put the water on to boil directly after breakfast and Mrs. Anderson made them each a cup of tea when she came at <<nine|9c:1>>. \x{201c}You need a hot cup of tea to start your day off right,\x{201d} she said amiably every morning, \x{201c}it settles your stomach for the day.\x{201d}",
           ],
           [
             1,
@@ -261,7 +261,7 @@ He closed the door and she heard his footsteps going emphatically down the hall 
           [
             1,
             '[ap 07:45] The Lottery and Other Stories - Shirley Jackson.epub (OEBPS/Text/CR!71G32CT7W95YDDW4N37BYJMW3HT9_split_030.html) - quarter to eight',
-            "It was a <<quarter to eight|10>> when she left the restaurant, and she thought, if I take a bus, and go straight downtown now, I can sit in the drugstore across the street from the dentist\x{2019}s office and have more coffee until <<about eight-thirty|9c:0>> and then go into the dentist\x{2019}s when it opens and he can take me first.",
+            "It was a <<quarter to eight|10>> when she left the restaurant, and she thought, if I take a bus, and go straight downtown now, I can sit in the drugstore across the street from the dentist\x{2019}s office and have more coffee until <<about eight-thirty|9c:1>> and then go into the dentist\x{2019}s when it opens and he can take me first.",
           ],
           [
             1,

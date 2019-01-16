@@ -83,7 +83,7 @@ Hercule Poirot was sitting in an easy chair happily digesting an excellent lunch
           [
             1,
             '[ap 11:30] One, Two, Buckle My Shoe - Agatha Christie.epub (OEBPS/006_chapter02.html) - eleven thirty',
-            "\x{201c}That\x{2019}s right, sir. You went out after I\x{2019}d taken up a toff what come in a Rolls. Coo\x{2014}it was a loverly car, Mr. Blunt\x{2014}<<eleven thirty|5k:0>>. Then I come down and let you out, and a lady in. Miss Some Berry Seal, or something like that\x{2014}and then I\x{2014}well, as a matter of fact I just nipped down to the kitchen to get my elevenses, and when I was down there the buzzer went\x{2014}Mr. Reilly\x{2019}s buzzer\x{2014}so I come up and, as I say, the American gentleman had hooked it. I went and told Mr. Reilly and he swore a bit, as is his way.\x{201d}",
+            "\x{201c}That\x{2019}s right, sir. You went out after I\x{2019}d taken up a toff what come in a Rolls. Coo\x{2014}it was a loverly car, Mr. Blunt\x{2014}<<eleven thirty|5k:1>>. Then I come down and let you out, and a lady in. Miss Some Berry Seal, or something like that\x{2014}and then I\x{2014}well, as a matter of fact I just nipped down to the kitchen to get my <<elevenses|13>>, and when I was down there the buzzer went\x{2014}Mr. Reilly\x{2019}s buzzer\x{2014}so I come up and, as I say, the American gentleman had hooked it. I went and told Mr. Reilly and he swore a bit, as is his way.\x{201d}",
           ],
           [
             1,
@@ -194,7 +194,7 @@ Poirot nodded assent mechanically. He was standing like a man who has seen a gho
             1,
             '[ap < 06:00] One, Two, Buckle My Shoe - Agatha Christie.epub (OEBPS/009_chapter05.html) - a little before six',
             'VI
-The Rolls called punctually for Poirot at <<a little before six|9c:0>>.
+The Rolls called punctually for Poirot at <<a little before six|9c:1>>.
 Alistair Blunt and his secretary were the only occupants. Mrs. Olivera and Jane had gone down in another car earlier, it seemed.',
           ],
           [

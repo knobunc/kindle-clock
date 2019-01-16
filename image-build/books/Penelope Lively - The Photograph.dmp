@@ -32,7 +32,7 @@ $VAR1 = [
           [
             1,
             '[ap > 06:00] The Photograph - Penelope Lively.epub (OEBPS/live_9780142004425_oeb_c10_r1.html) - after six',
-            'But later is on hold until <<after six|9c:0>>, when the garden empties, the customers and the cars depart, Jim and his nephew pile into the red truck, Pam goes off to the pub with an admirer from the village. Alone, Elaine checks the ticket sales and is quietly pleased with visitor levels, locks up the shop, goes into the silent house. Only then does that other aspect of the afternoon come bustling in. Cousin Linda hangs around all evening, saying that again. And again.',
+            'But later is on hold until <<after six|9c:1>>, when the garden empties, the customers and the cars depart, Jim and his nephew pile into the red truck, Pam goes off to the pub with an admirer from the village. Alone, Elaine checks the ticket sales and is quietly pleased with visitor levels, locks up the shop, goes into the silent house. Only then does that other aspect of the afternoon come bustling in. Cousin Linda hangs around all evening, saying that again. And again.',
           ],
           [
             1,
@@ -47,7 +47,7 @@ $VAR1 = [
           [
             1,
             '[ap 06:00] The Photograph - Penelope Lively.epub (OEBPS/live_9780142004425_oeb_c16_r1.html) - six',
-            "Nowadays, Polly can see this with adult wisdom. She had doted on Kath, and so, naturally enough, wanted more of her. But she had been sufficiently mature\x{2014}at <<six|9c:0>>? seven?\x{2014}to realize that there was a whiff of infidelity in this: you can only have one mother, you should love your mother most of all.",
+            "Nowadays, Polly can see this with adult wisdom. She had doted on Kath, and so, naturally enough, wanted more of her. But she had been sufficiently mature\x{2014}at <<six|9c:1>>? seven?\x{2014}to realize that there was a whiff of infidelity in this: you can only have one mother, you should love your mother most of all.",
           ],
           [
             1,
@@ -97,6 +97,6 @@ $VAR1 = [
           [
             1,
             '[ap < 04:00] The Photograph - Penelope Lively.epub (OEBPS/live_9780142004425_oeb_c18_r1.html) - nearly four',
-            "Back at the house, he made himself a cup of tea and took one to Sonia. It was <<nearly four|9:1>> now, so there was no point in getting down to anything today. He settled himself in the conservatory with the tea and a book. At one point he went back to the kitchen to forage for a snack, feeling peckish. Sonia was on the phone as he passed her door; she held the receiver aside to say, \x{201c}Kath, for Elaine. Do you want to\x{2014}?\x{201d}",
+            "Back at the house, he made himself a cup of tea and took one to Sonia. It was <<nearly four|9f>> now, so there was no point in getting down to anything today. He settled himself in the conservatory with the tea and a book. At one point he went back to the kitchen to forage for a snack, feeling peckish. Sonia was on the phone as he passed her door; she held the receiver aside to say, \x{201c}Kath, for Elaine. Do you want to\x{2014}?\x{201d}",
           ],
         ];

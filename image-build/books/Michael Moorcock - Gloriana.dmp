@@ -7,7 +7,7 @@ $VAR1 = [
           [
             1,
             '[ap 11:00] Gloriana - Michael Moorcock.epub (OEBPS/Gloriana_chap-2.html) - eleven',
-            "\x{201c}Or with the Lord Montfallcon. Perhaps at <<eleven|9c:0>>, when your Privy Council meets\x{2026}?\x{201d}",
+            "\x{201c}Or with the Lord Montfallcon. Perhaps at <<eleven|9c:1>>, when your Privy Council meets\x{2026}?\x{201d}",
           ],
           [
             1,
@@ -24,6 +24,6 @@ $VAR1 = [
             1,
             '[ap 01:00] Gloriana - Michael Moorcock.epub (OEBPS/Gloriana_chap-23.html) - one',
             'At that moment Queen Gloriana understood her Lord Chancellor: he saw the Virginian noble as a possible suitor. Did he approve?
-         And did Kansas pay court to her? She wondered. She looked at <<one|9c:0>> and then the other. She waved a fan against her cheek.',
+         And did Kansas pay court to her? She wondered. She looked at <<one|9c:1>> and then the other. She waved a fan against her cheek.',
           ],
         ];

@@ -17,12 +17,12 @@ $VAR1 = [
           [
             1,
             '[ap 08:00] The City of Ember - Jeanne DuPrau.epub (OEBPS/Dupr_9780375890802_epub_c02_r1.htm) - eight',
-            "\x{201c}All right. Listen carefully. Tell him: Delivery at <<eight|9c:0>>. From Looper. Repeat it back.\x{201d}",
+            "\x{201c}All right. Listen carefully. Tell him: Delivery at <<eight|9c:1>>. From Looper. Repeat it back.\x{201d}",
           ],
           [
             1,
             '[ap 08:00] The City of Ember - Jeanne DuPrau.epub (OEBPS/Dupr_9780375890802_epub_c02_r1.htm) - eight',
-            "\x{201c}Delivery at <<eight|9c:0>>. From Looper,\x{201d} Lina repeated. It was an easy message.",
+            "\x{201c}Delivery at <<eight|9c:1>>. From Looper,\x{201d} Lina repeated. It was an easy message.",
           ],
           [
             1,
@@ -38,7 +38,7 @@ $VAR1 = [
             1,
             '[ap 08:00] The City of Ember - Jeanne DuPrau.epub (OEBPS/Dupr_9780375890802_epub_c02_r1.htm) - eight',
             "The mayor frowned. He pondered a moment. \x{201c}What is the message?\x{201d} he said. He bent down so that Lina could speak into his ear. She noticed that he smelled a little like overcooked turnips.
-\x{201c}Delivery at <<eight|9c:0>>,\x{201d} Lina whispered. \x{201c}From Looper.\x{201d}
+\x{201c}Delivery at <<eight|9c:1>>,\x{201d} Lina whispered. \x{201c}From Looper.\x{201d}
 The mayor smiled a tight little smile. He turned to the guard. \x{201c}Just a child\x{2019}s antics,\x{201d} he said. \x{201c}We will let it go this time. From now on,\x{201d} he said to Lina, \x{201c}behave yourself.\x{201d}",
           ],
           [
@@ -73,7 +73,7 @@ TO RECEIVE IMPORTANT INFORMATION.',
           [
             1,
             '[ap 08:00] The City of Ember - Jeanne DuPrau.epub (OEBPS/Dupr_9780375890802_epub_c12_r1.htm) - eight',
-            "\x{201c}It was Looper. Looper, who works in the storerooms. Lizzie\x{2019}s boyfriend. And Doon\x{2014}\x{201d} Lina leaned forward. \x{201c}It was a message to the mayor that he gave me, and it was this: \x{2018}Delivery at <<eight|9c:0>>.\x{2019}\x{201d}",
+            "\x{201c}It was Looper. Looper, who works in the storerooms. Lizzie\x{2019}s boyfriend. And Doon\x{2014}\x{201d} Lina leaned forward. \x{201c}It was a message to the mayor that he gave me, and it was this: \x{2018}Delivery at <<eight|9c:1>>.\x{2019}\x{201d}",
           ],
           [
             1,
@@ -114,7 +114,7 @@ TO RECEIVE IMPORTANT INFORMATION.',
             1,
             '[ap 03:15] The City of Ember - Jeanne DuPrau.epub (OEBPS/Dupr_9780375890802_epub_c15_r1.htm) - three-fifteen',
             "\x{201c}So after I\x{2019}ve delivered the note to Clary, I\x{2019}ll come back here,\x{201d} said Lina.
-\x{201c}Yes. And then we\x{2019}ll wait until <<three-fifteen|9c:0>>, and then we\x{2019}ll go.\x{201d}
+\x{201c}Yes. And then we\x{2019}ll wait until <<three-fifteen|9c:1>>, and then we\x{2019}ll go.\x{201d}
 Lina got up from the cramped desk and went to the window. She moved the blind a little and peered out. There was no one in the street. The dusty schoolroom was very quiet. She thought about Doon\x{2019}s father, who would be frantic when he saw his son\x{2019}s name on those posters and then realized later that Doon had disappeared. She thought about Mrs. Murdo, who might already have seen the posters, and who would be frightened if guards came looking for Lina and terrified if Lina didn\x{2019}t come home by nightfall. She tried not to think about Poppy at all; she couldn\x{2019}t bear it.",
           ],
           [

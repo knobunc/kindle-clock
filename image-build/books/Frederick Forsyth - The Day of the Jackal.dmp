@@ -142,7 +142,7 @@ $VAR1 = [
           [
             1,
             '[ap 04:00] The Day of the Jackal - Frederick Forsyth.epub (OEBPS/chapter07.xhtml) - four',
-            "\x{2018}What about Sylvie? She will be home from school at <<four|9c:0>>. There will be no one to meet her,\x{2019} said the woman.",
+            "\x{2018}What about Sylvie? She will be home from school at <<four|9c:1>>. There will be no one to meet her,\x{2019} said the woman.",
           ],
           [
             1,
@@ -262,7 +262,7 @@ $VAR1 = [
           [
             1,
             '[ap 04:00] The Day of the Jackal - Frederick Forsyth.epub (OEBPS/chapter11.xhtml) - four',
-            "The call reached Mr Anthony Mallinson, Assistant Commissioner Crime for Scotland Yard, in his home at Bexley shortly before <<four|9c:0>>. He growled in protest at the insistent clanging of the bell beside his bed, reached out for the mouth-piece and muttered \x{2018}Mallinson\x{2019}.",
+            "The call reached Mr Anthony Mallinson, Assistant Commissioner Crime for Scotland Yard, in his home at Bexley shortly before <<four|9c:1>>. He growled in protest at the insistent clanging of the bell beside his bed, reached out for the mouth-piece and muttered \x{2018}Mallinson\x{2019}.",
           ],
           [
             1,
@@ -319,7 +319,7 @@ $VAR1 = [
           [
             1,
             '[ap 07:30] The Day of the Jackal - Frederick Forsyth.epub (OEBPS/chapter12.xhtml) - half past seven',
-            "\x{2018}Then Brussels at <<half past seven|10>>, Amsterdam at <<quarter to eight|10>> and Bonn at <<eight-ten|5b>>. The link is arranged with Johannesburg at <<eight-thirty|5b>> and with Scotland Yard at <<nine|9c:0>>. Lastly there is Rome at <<nine-thirty|5b>>.\x{2019}",
+            "\x{2018}Then Brussels at <<half past seven|10>>, Amsterdam at <<quarter to eight|10>> and Bonn at <<eight-ten|5b>>. The link is arranged with Johannesburg at <<eight-thirty|5b>> and with Scotland Yard at <<nine|9c:1>>. Lastly there is Rome at <<nine-thirty|5b>>.\x{2019}",
           ],
           [
             1,
@@ -512,11 +512,6 @@ Thomas had spent the morning and most of the afternoon trying to track down a ma
           ],
           [
             1,
-            '[ap 02:00] The Day of the Jackal - Frederick Forsyth.epub (OEBPS/chapter15.xhtml) - two',
-            "\x{2018}He had to become thirty-four,\x{2019} explained the inspector, \x{2018}because the real Duggan, the little boy who died at <<two|9c:0>> and a half, was born in April 1929. That couldn\x{2019}t be changed. But nobody would query a man who happened to be thirty-seven but whose passport said he was thirty-four. One would believe the passport.\x{2019}",
-          ],
-          [
-            1,
             '[02:00] The Day of the Jackal - Frederick Forsyth.epub (OEBPS/chapter15.xhtml) - two in the morning',
             'But from now on he had become Duggan, dyed hair, tinted contact lenses, slimmed-down figure, raised heels. It was the description of Duggan, with passport number and photograph, that he sent down to the telex room to be transmitted to Paris. Lebel, he estimated, glancing at his watch, should have them all by <<two in the morning|5>>.',
           ],
@@ -533,7 +528,7 @@ Thomas had spent the morning and most of the afternoon trying to track down a ma
           [
             1,
             '[ap 04:30] The Day of the Jackal - Frederick Forsyth.epub (OEBPS/chapter16.xhtml) - 4.30',
-            "\x{2018}This July visit,\x{2019} Lebel told Caron when he was back in his office at <<4.30|9c:0>>, \x{2018}was a reconnaissance trip. Whatever he has got planned, it\x{2019}s all laid on.\x{2019}",
+            "\x{2018}This July visit,\x{2019} Lebel told Caron when he was back in his office at <<4.30|9c:1>>, \x{2018}was a reconnaissance trip. Whatever he has got planned, it\x{2019}s all laid on.\x{2019}",
           ],
           [
             1,
@@ -729,7 +724,7 @@ Claude Lebel rang Commissaire Valentin from Paris at <<six-thirty|5b>>.
           [
             1,
             '[ap 07:30] The Day of the Jackal - Frederick Forsyth.epub (OEBPS/chapter18.xhtml) - 7.30',
-            'The car was found in a back street in Tulle at <<7.30|3:0>> by a policeman on the beat. It was <<7.45|9d>> before he was back in the police station at Tulle and <<7.55|5a:0>> before Tulle had contacted Valentin. The Commissaire of Auvergne rang Lebel at <<8.05|9c:0>>.',
+            'The car was found in a back street in Tulle at <<7.30|3:0>> by a policeman on the beat. It was <<7.45|9d>> before he was back in the police station at Tulle and <<7.55|5a:0>> before Tulle had contacted Valentin. The Commissaire of Auvergne rang Lebel at <<8.05|9c:1>>.',
           ],
           [
             1,
@@ -789,7 +784,7 @@ Claude Lebel rang Commissaire Valentin from Paris at <<six-thirty|5b>>.
           [
             1,
             '[ap 08:30] The Day of the Jackal - Frederick Forsyth.epub (OEBPS/chapter19.xhtml) - 8.30',
-            'The four Black Marias arrived outside the hotel on the Quai des Grands Augustins at <<8.30|9c:0>>. The police turned room 37 over until it looked as if a tornado had hit it.',
+            'The four Black Marias arrived outside the hotel on the Quai des Grands Augustins at <<8.30|9c:1>>. The police turned room 37 over until it looked as if a tornado had hit it.',
           ],
           [
             1,
@@ -869,12 +864,12 @@ Claude Lebel rang Commissaire Valentin from Paris at <<six-thirty|5b>>.
           [
             1,
             '[ap 06:00] The Day of the Jackal - Frederick Forsyth.epub (OEBPS/chapter20.xhtml) - six',
-            'It was on the evening of 24th August that Commissaire Claude Lebel, who had spent the Saturday afternoon pottering about his garden in a cardigan and patched trousers, was summoned by telephone to report to the Minister in his private office. A car came for him at <<six|9c:0>>.',
+            'It was on the evening of 24th August that Commissaire Claude Lebel, who had spent the Saturday afternoon pottering about his garden in a cardigan and patched trousers, was summoned by telephone to report to the Minister in his private office. A car came for him at <<six|9c:1>>.',
           ],
           [
             1,
             '[ap 10:00] The Day of the Jackal - Frederick Forsyth.epub (OEBPS/chapter20.xhtml) - ten',
-            "\x{2018}The President won\x{2019}t change a thing or permit any of his planned itinerary to be altered. I spoke to him this morning. He was not pleased. So tomorrow remains the same as published. He will re-kindle the Eternal Flame under the Arc de Triomphe at <<ten|9c:0>>. High Mass in Notre Dame at <<eleven|9c:0>>. Private meditation at the shrine of the martyred resistants at Montval\x{e9}rien at <<12.30|9c:0>>, then back to the palace for lunch, and siesta. One ceremony in the afternoon, presentation of M\x{e9}dailles de la Lib\x{e9}ration to a group of ten veterans of the Resistance whose services to the Resistance are being rather belatedly recognized.",
+            "\x{2018}The President won\x{2019}t change a thing or permit any of his planned itinerary to be altered. I spoke to him this morning. He was not pleased. So tomorrow remains the same as published. He will re-kindle the Eternal Flame under the Arc de Triomphe at <<ten|9c:1>>. High Mass in Notre Dame at <<eleven|9c:1>>. Private meditation at the shrine of the martyred resistants at Montval\x{e9}rien at <<12.30|9c:1>>, then back to the palace for lunch, and siesta. One ceremony in the afternoon, presentation of M\x{e9}dailles de la Lib\x{e9}ration to a group of ten veterans of the Resistance whose services to the Resistance are being rather belatedly recognized.",
           ],
           [
             1,
@@ -884,7 +879,7 @@ Claude Lebel rang Commissaire Valentin from Paris at <<six-thirty|5b>>.
           [
             1,
             '[ap 00:00] The Day of the Jackal - Frederick Forsyth.epub (OEBPS/chapter21.xhtml) - twelve',
-            'Now Lebel prowled disconsolately round the edge of the crowd held two hundred metres down the Boulevard de Montparnasse, so far away from the square that no one could see what was going on. Each policeman and CRS man he spoke to on the barriers had the same message. No one had passed through since the barriers went up at <<twelve|9c:0>>.',
+            'Now Lebel prowled disconsolately round the edge of the crowd held two hundred metres down the Boulevard de Montparnasse, so far away from the square that no one could see what was going on. Each policeman and CRS man he spoke to on the barriers had the same message. No one had passed through since the barriers went up at <<twelve|9c:1>>.',
           ],
           [
             1,

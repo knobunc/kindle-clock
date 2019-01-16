@@ -6,8 +6,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[12:00] Flush - Carl Hiaasen.epub (OEBPS/Hiaa_9780375837524_epub_c05_r1.htm) - noon',
-            "\x{201c}We definitely got us a deal,\x{201d} he said. \x{201c}I\x{2019}ll be back with Shelly and the Jeep to pick it up\x{2014}say tomorrow \x{2018}round <<noon|13>>?\x{201d}",
+            "[~ 12:00] Flush - Carl Hiaasen.epub (OEBPS/Hiaa_9780375837524_epub_c05_r1.htm) - \x{2018}round noon",
+            "\x{201c}We definitely got us a deal,\x{201d} he said. \x{201c}I\x{2019}ll be back with Shelly and the Jeep to pick it up\x{2014}say tomorrow <<\x{2018}round noon|13>>?\x{201d}",
           ],
           [
             1,
@@ -83,12 +83,12 @@ She winced. \x{201c}A.M.? You gotta be kiddin\x{2019} me.\x{201d}",
           [
             1,
             '[ap 06:45] Flush - Carl Hiaasen.epub (OEBPS/Hiaa_9780375837524_epub_c15_r1.htm) - quarter to seven',
-            "Mom and Dad left on their \x{201c}hot date\x{201d} at exactly a <<quarter to seven|10>>. The Coral Queen opened for business at <<eight|9c:0>>, so Abbey and I didn\x{2019}t have a moment to spare.",
+            "Mom and Dad left on their \x{201c}hot date\x{201d} at exactly a <<quarter to seven|10>>. The Coral Queen opened for business at <<eight|9c:1>>, so Abbey and I didn\x{2019}t have a moment to spare.",
           ],
           [
             1,
             '[ap ~ 00:30] Flush - Carl Hiaasen.epub (OEBPS/Hiaa_9780375837524_epub_c15_r1.htm) - around twelve-thirty',
-            "Mom and Dad were probably still at dinner. Afterward they were supposed to go to a late movie in Tavernier. That meant they\x{2019}d be home <<around twelve-thirty|5k:1>>, so Abbey and I had to be back at the house and in bed before then.",
+            "Mom and Dad were probably still at dinner. Afterward they were supposed to go to a late movie in Tavernier. That meant they\x{2019}d be home <<around twelve-thirty|5k:0>>, so Abbey and I had to be back at the house and in bed before then.",
           ],
           [
             1,

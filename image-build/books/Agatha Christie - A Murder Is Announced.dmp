@@ -110,7 +110,7 @@ At <<6:30 p.m.|2a>>
           [
             1,
             '[ap 06:00] A Murder Is Announced - Agatha Christie.epub (OEBPS/011_chapter07.html) - six',
-            "\x{201c}I\x{2019}ve been doing it for the last week. You see, it gets dark at <<six|9c:0>>. Miss Blacklocks goes out to shut up the ducks and the hens sometimes in the evening, but she very often goes out through the kitchen door.\x{201d}",
+            "\x{201c}I\x{2019}ve been doing it for the last week. You see, it gets dark at <<six|9c:1>>. Miss Blacklocks goes out to shut up the ducks and the hens sometimes in the evening, but she very often goes out through the kitchen door.\x{201d}",
           ],
           [
             1,
@@ -119,8 +119,8 @@ At <<6:30 p.m.|2a>>
           ],
           [
             1,
-            "[ap 10:00] A Murder Is Announced - Agatha Christie.epub (OEBPS/011_chapter07.html) - ten o\x{2019}clock",
-            "\x{201c}Not that one expects consideration nowadays. Or a decent day\x{2019}s work. On duty late, half an hour\x{2019}s pottering. A break for elevenses at <<ten o\x{2019}clock|6>>. No work done at all the moment the rain starts. When you want the lawn mown there\x{2019}s always something wrong with the mower. And off duty five or ten minutes before the proper time.\x{201d}",
+            '[~ 11:00] A Murder Is Announced - Agatha Christie.epub (OEBPS/011_chapter07.html) - elevenses',
+            "\x{201c}Not that one expects consideration nowadays. Or a decent day\x{2019}s work. On duty late, half an hour\x{2019}s pottering. A break for <<elevenses|13>> at <<ten o\x{2019}clock|6>>. No work done at all the moment the rain starts. When you want the lawn mown there\x{2019}s always something wrong with the mower. And off duty five or ten minutes before the proper time.\x{201d}",
           ],
           [
             1,

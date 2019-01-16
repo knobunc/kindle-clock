@@ -18,9 +18,9 @@ Gilbey said, \x{2018}Yeah,\x{2019} and moved off. Baylor took over his stool and
           ],
           [
             1,
-            '[12:00] Life During Wartime - Lucius Shepard.epub (OEBPS/Text/dummy_split_006.html) - noon',
+            "[~ 12:00] Life During Wartime - Lucius Shepard.epub (OEBPS/Text/dummy_split_006.html) - \x{2019}Round noon",
             "She lowered her eyes, fussed with the zipper of her purse a second, and let out a rueful hiss. \x{2018}Where do you want to meet?\x{2019}
-\x{2018}How \x{2019}bout the pier on this side? \x{2019}Round <<noon|13>>.\x{2019}
+\x{2018}How \x{2019}bout the pier on this side? <<\x{2019}Round noon|13>>.\x{2019}
 She hesitated. \x{2018}All right.\x{2019} She came around to his side of the table, bent down, and brushed her lips across his cheek. He tried to pull her close and deepen the kiss, but she slipped away. He felt giddy, overheated. You really gonna be there?\x{2019} he asked.",
           ],
           [
@@ -63,13 +63,13 @@ only one cigarette left,",
           [
             1,
             '[ap 03:00] Life During Wartime - Lucius Shepard.epub (OEBPS/Text/dummy_split_014.html) - three',
-            "She raised no further objection, tucked the money into her blouse pocket, and sat with hands on knees, as stolid and glum as an idol. \x{2018}Could I sleep until <<three|9c:0>>?\x{2019} she asked.",
+            "She raised no further objection, tucked the money into her blouse pocket, and sat with hands on knees, as stolid and glum as an idol. \x{2018}Could I sleep until <<three|9c:1>>?\x{2019} she asked.",
           ],
           [
             1,
             '[ap 03:00] Life During Wartime - Lucius Shepard.epub (OEBPS/Text/dummy_split_014.html) - three',
             "\x{2018}No, not now. Aren\x{2019}t you going to sleep?\x{2019}
-\x{2018}I don\x{2019}t want to be groggy at <<three|9c:0>>.\x{2019}
+\x{2018}I don\x{2019}t want to be groggy at <<three|9c:1>>.\x{2019}
 He fitted a drinking straw to his nostril and snorted five fat lines in rapid succession. The skin on his forehead tightened.",
           ],
           [
@@ -101,6 +101,11 @@ He fitted a drinking straw to his nostril and snorted five fat lines in rapid su
             1,
             "[ap 07:00] Life During Wartime - Lucius Shepard.epub (OEBPS/Text/dummy_split_020.html) - seven o\x{2019}clock",
             "On the morning they boarded, a chill overcast morning with banks of fog crumbling out to sea, Ruy met them at the rail with a refined bow whose effect was dispelled by his greeting. \x{2018}I told you <<seven o\x{2019}clock|6>>,\x{2019} he said. \x{2018}What you think, man? This a goddamn taxi? My other passenger, he been on board for a fuckin\x{2019} hour.\x{2019}",
+          ],
+          [
+            1,
+            "[ap ~ 04:00] Life During Wartime - Lucius Shepard.epub (OEBPS/Text/dummy_split_020.html) - \x{2019}bout four",
+            "Tully said nothing for several seconds, but finally sat up. \x{2018}Guess you gotta point. All right, I tell you. Dere\x{2019}s dis little village name of Tres Santos up in de Dari\x{e9}n Mountains. Here\x{2019} \x{2013} he grabbed pencil and paper from the table by the bunk \x{2013} \x{2018}I draw a map.\x{2019} He kept talking as he drew. \x{2018}It <<\x{2019}bout four|9f>>, five hours from Panama City \x{2026} less dere\x{2019}s mist. Den you could be a week gettin\x{2019} dere. Or maybe you take de coast road \x{2019}long de Pacific and come at Tres Santos from de west. Less mist dat way.\x{2019}",
           ],
           [
             1,

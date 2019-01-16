@@ -432,7 +432,7 @@ $VAR1 = [
       
       
         Mountain Daylight Time -- and if everything went right, we would arrive at Denver\'s 
-        Stapleton International Airport before <<seven|9c:0>>.',
+        Stapleton International Airport before <<seven|9c:1>>.',
           ],
           [
             1,
@@ -1119,6 +1119,30 @@ $VAR1 = [
             '[ap 08:30] The Great Shark Hunt_ Strange Tales From a - Hunter S. Thompson.epub (OEBPS/part11_split_003.xhtml) - eight-thirty',
             "I was up at <<eight-thirty|5b>> the next day, but when I called Ali's suite, Veronica said he'd 
         been up since seven and \x{201c}was wandering around downstairs somewhere.\x{201d}",
+          ],
+          [
+            1,
+            '[ap ~ 00:00] The Great Shark Hunt_ Strange Tales From a - Hunter S. Thompson.epub (OEBPS/part11_split_003.xhtml) - Round twelve',
+            'Okay, let me ask you. . . at what point, at what time -- I was in Vegas for the fight
+      
+      
+        --
+      
+      
+        when did you realize that things were getting real serious?
+<<Round twelve|9:1>>.
+Up to then you still thought you had control.',
+          ],
+          [
+            1,
+            '[ap ~ 00:00] The Great Shark Hunt_ Strange Tales From a - Hunter S. Thompson.epub (OEBPS/part11_split_003.xhtml) - round twelve',
+            'But you figured you could pull it off. . .
+      
+      
+         
+      
+      
+        up until <<round twelve|9c:1>>.',
           ],
           [
             1,
@@ -2201,7 +2225,7 @@ We rang for the editor',
             1,
             '[ap 07:00] The Great Shark Hunt_ Strange Tales From a - Hunter S. Thompson.epub (OEBPS/part6_split_001.xhtml) - seven',
             "Jesus! Jensen Interceptor; twenty-five grand. . . Squane is definitely big-time.
-\x{201c}See you at <<seven|9c:0>>,\x{201d} he says, moving away. \x{201c}\x{201d}
+\x{201c}See you at <<seven|9c:1>>,\x{201d} he says, moving away. \x{201c}\x{201d}
 The knock comes at <<7:02|2>> -- but instead of Squane it's a beautiful silver-haired young 
         girl who says J. D. sent her to pick you up. \x{201c}He's having a business dinner with the 
         Senator and he'll join us later at the Crab House.\x{201d}",

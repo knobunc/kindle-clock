@@ -1504,7 +1504,7 @@ You can view the public key by running this in a clone of the Git repository:",
 ca82a6dff817ec66f44342007202690a93763949
 
 Remote references differ from branches (refs/heads references) mainly in that they\x{2019}re considered read-only.
-You can git checkout to one, but Git won\x{2019}t point HEAD at <<one|9c:0>>, so you\x{2019}ll never update it with a commit command.
+You can git checkout to one, but Git won\x{2019}t point HEAD at <<one|9c:1>>, so you\x{2019}ll never update it with a commit command.
 Git manages them as bookmarks to the last known state of where those branches were on those servers.",
           ],
           [

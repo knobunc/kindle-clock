@@ -2115,6 +2115,12 @@ Notice that the object entry points to the commit SHA-1 value that you tagged.
 Also notice that it doesn’t need to point to a commit; you can tag any Git object.
 In the Git source code, for example, the maintainer has added their GPG public key as a blob object and then tagged it.
 You can view the public key by running this in a clone of the Git repository:"|"Pro Git"|"Scott Chacon"
+"ap 01:00"|one|"$ cat .git/refs/remotes/origin/master
+ca82a6dff817ec66f44342007202690a93763949
+
+Remote references differ from branches (refs/heads references) mainly in that they’re considered read-only.
+You can git checkout to one, but Git won’t point HEAD at one, so you’ll never update it with a commit command.
+Git manages them as bookmarks to the last known state of where those branches were on those servers."|"Pro Git"|"Scott Chacon"
 18:22|18:22|"$ git log -g
 commit 1a410efbd13591db07496601ebc7a059dd55cfe9
 Reflog: HEAD@{0} (Scott Chacon <schacon@gmail.com>)

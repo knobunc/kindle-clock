@@ -47,7 +47,7 @@ $VAR1 = [
           [
             1,
             '[ap 05:25] Arthur & George - Julian Barnes.epub (index_split_033.xhtml) - 5.25',
-            'On Monday 17th August 1903, George takes the 7.39 to New Street, as normal; he returns by the <<5.25|5a:0>>, as normal, reaching the Vicarage <<shortly before half past six|10>>. He works for a while, then puts on a coat and walks to see the bootmaker, Mr John Hands. He returns to the Vicarage <<just before 9|10>>.30, eats supper, and retires to the room where he sleeps with his father. The Vicarage doors are locked and bolted, the bedroom door is locked, and George sleeps as interruptedly as he has done in recent weeks. The next morning he is awake at <<6|9c:0>>, the bedroom door is unlocked at <<6.40|9c:0>>, and he catches the 7.39 to New Street.',
+            'On Monday 17th August 1903, George takes the 7.39 to New Street, as normal; he returns by the <<5.25|5a:0>>, as normal, reaching the Vicarage <<shortly before half past six|10>>. He works for a while, then puts on a coat and walks to see the bootmaker, Mr John Hands. He returns to the Vicarage <<just before 9|10>>.30, eats supper, and retires to the room where he sleeps with his father. The Vicarage doors are locked and bolted, the bedroom door is locked, and George sleeps as interruptedly as he has done in recent weeks. The next morning he is awake at <<6|9c:0>>, the bedroom door is unlocked at <<6.40|9c:1>>, and he catches the 7.39 to New Street.',
           ],
           [
             1,
@@ -102,7 +102,7 @@ $VAR1 = [
           [
             1,
             '[ap < 09:30] Arthur & George - Julian Barnes.epub (index_split_035.xhtml) - shortly before nine thirty',
-            '\'And I talked to him while he made a fitting. Then I walked around for a while. Then I returned <<shortly before nine thirty|5k:1>> for my supper.\'',
+            '\'And I talked to him while he made a fitting. Then I walked around for a while. Then I returned <<shortly before nine thirty|5k:0>> for my supper.\'',
           ],
           [
             1,
@@ -208,7 +208,7 @@ $VAR1 = [
           [
             1,
             '[ap 07:39] Arthur & George - Julian Barnes.epub (index_split_036.xhtml) - 7.39',
-            'And by the next morning, as George was taken from Stafford Gaol to Shire Hall for the last time, as he prepared to hear his story laid out in its final and ever-diverging form, he felt in good heart again. It was Friday 23rd October. By tomorrow he would be back at the Vicarage. On Sunday he would worship again beneath the upturned keel of St Mark\'s. And on Monday the <<7.39|5a:1>> would take him back to Newhall Street, to his desk, his work, his books. He would celebrate his freedom by beginning a subscription to Halsbury\'s Laws of England.',
+            'And by the next morning, as George was taken from Stafford Gaol to Shire Hall for the last time, as he prepared to hear his story laid out in its final and ever-diverging form, he felt in good heart again. It was Friday 23rd October. By tomorrow he would be back at the Vicarage. On Sunday he would worship again beneath the upturned keel of St Mark\'s. And on Monday the <<7.39|5a:0>> would take him back to Newhall Street, to his desk, his work, his books. He would celebrate his freedom by beginning a subscription to Halsbury\'s Laws of England.',
           ],
           [
             1,
@@ -258,7 +258,7 @@ $VAR1 = [
           [
             1,
             '[ap 07:00] Arthur & George - Julian Barnes.epub (index_split_039.xhtml) - seven',
-            'In a covering letter George has explained the anomalous position in which he finds himself. The decision to free him on licence was taken by the previous Home Secretary, Mr Akers-Douglas, and implemented by the present one, Mr Herbert Gladstone; but neither has offered any official explanation of their reasons. George\'s conviction has not been cancelled, nor has any apology been tendered for his incarceration. One newspaper, doubtless briefed over a complicit luncheon by some nod-and-wink bureaucrat, shamelessly let it be known that the Home Office had no doubt as to the prisoner\'s guilt, but had released him because three years was considered the appropriate sentence for the crime in question. Sir Reginald Hardy, in deciding upon <<seven|9c:0>>, had shown himself a touch over-zealous in the defence of Staffordshire\'s honour; and the Home Secretary was merely correcting this fit of enthusiasm.',
+            'In a covering letter George has explained the anomalous position in which he finds himself. The decision to free him on licence was taken by the previous Home Secretary, Mr Akers-Douglas, and implemented by the present one, Mr Herbert Gladstone; but neither has offered any official explanation of their reasons. George\'s conviction has not been cancelled, nor has any apology been tendered for his incarceration. One newspaper, doubtless briefed over a complicit luncheon by some nod-and-wink bureaucrat, shamelessly let it be known that the Home Office had no doubt as to the prisoner\'s guilt, but had released him because three years was considered the appropriate sentence for the crime in question. Sir Reginald Hardy, in deciding upon <<seven|9c:1>>, had shown himself a touch over-zealous in the defence of Staffordshire\'s honour; and the Home Secretary was merely correcting this fit of enthusiasm.',
           ],
           [
             1,
@@ -282,7 +282,7 @@ Arthur was amazed by such despatch. The pony had been discovered at <<about 6.20
           [
             1,
             '[ap ~ 06:20] Arthur & George - Julian Barnes.epub (index_split_040.xhtml) - about 6.20',
-            "Arthur was amazed by such despatch. The pony had been discovered at <<about 6.20|9c:0>>, Campbell was still in the field at the time George was leaving home to catch the <<7.39|5a:0>>, he arrived at the Vicarage with Parsons and his band of specials some time before <<eight|9c:0>>. Then they had to search the place, argue with the Edaljis\x{2026}",
+            "Arthur was amazed by such despatch. The pony had been discovered at <<about 6.20|9c:1>>, Campbell was still in the field at the time George was leaving home to catch the <<7.39|5a:0>>, he arrived at the Vicarage with Parsons and his band of specials some time before <<eight|9c:1>>. Then they had to search the place, argue with the Edaljis\x{2026}",
           ],
           [
             1,
@@ -298,7 +298,7 @@ Arthur was amazed by such despatch. The pony had been discovered at <<about 6.20
             1,
             '[ap 08:00] Arthur & George - Julian Barnes.epub (index_split_041.xhtml) - eight',
             '\'The spirits of the dead do not trouble me,\' said Doyle in a flat, tired voice. \'Indeed, I welcome them.\'
-\'Breakfast is at <<eight|9c:0>>, if that suits you.\'
+\'Breakfast is at <<eight|9c:1>>, if that suits you.\'
 As Doyle retired in what Anson took to be defeat, the Chief Constable swept the cigar butts into the fire and watched them briefly flare. When he got to bed, Blanche was still awake, rereading Mrs Braddon. In the side dressing room her husband tossed his jacket across the clothes horse and shouted through to her, \'Sherlock Holmes baffled! Scotland Yard solves mystery!\'',
           ],
           [

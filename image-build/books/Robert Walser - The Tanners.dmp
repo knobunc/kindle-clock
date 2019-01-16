@@ -5,7 +5,7 @@ $VAR1 = [
             "Simon went on: \x{201c}When I\x{2019}m on my way to work at <<eight in the morning|9a>>, I
                					feel so beautifully connected to all the others who must also report to work
                at
-               					<<eight|9c:0>>. What a great barracks modern life is! And yet how beautiful and
+               					<<eight|9c:1>>. What a great barracks modern life is! And yet how beautiful and
                					contemplative all this uniformity. Constantly you long for something that might
                					be approaching, something you ought to encounter. You\x{2019}re so utterly bereft of
                					possessions, so very much the poor devil, and you find yourself utterly at sea
@@ -346,7 +346,7 @@ $VAR1 = [
           [
             1,
             '[ap 08:00] The Tanners - Robert Walser.epub (OEBPS/ch16.html) - eight',
-            "The next morning at <<eight|9c:0>>, Simon was already installed at the Office,
+            "The next morning at <<eight|9c:1>>, Simon was already installed at the Office,
                					and a few days later he\x{2019}d accustomed himself to his co-workers. These
                					were all people who at some point in their lives had succumbed to some form of
                					dissolution and lost the ground under their unsteady feet. There were people

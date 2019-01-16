@@ -27,7 +27,7 @@ $VAR1 = [
           [
             1,
             '[ap 08:00] Locked On - Tom Clancy.epub (OEBPS/Text/Locked_On_split_009.html) - eight',
-            "\x{201c}Hey, Bill.\x{201d} Normally Ryan didn\x{2019}t come in until <<eight|9c:0>>, and by then Bill, a retired Air Force Security Force master sergeant, had handed off his post to Ernie. Ryan had met Bill only a couple of times, but he seemed like he was born to do his job.",
+            "\x{201c}Hey, Bill.\x{201d} Normally Ryan didn\x{2019}t come in until <<eight|9c:1>>, and by then Bill, a retired Air Force Security Force master sergeant, had handed off his post to Ernie. Ryan had met Bill only a couple of times, but he seemed like he was born to do his job.",
           ],
           [
             1,
@@ -47,7 +47,7 @@ $VAR1 = [
           [
             1,
             '[20:05] Locked On - Tom Clancy.epub (OEBPS/Text/Locked_On_split_011.html) - twenty-five',
-            'Now she was, at <<twenty-five|9:1>>, thinking about leaving the Agency. Finding a job in sales somewhere that paid a bit more than her government salary, and getting the hell out of an organization that she loved but that clearly did not love her back at present.',
+            'Now she was, at <<twenty-five|9:0>>, thinking about leaving the Agency. Finding a job in sales somewhere that paid a bit more than her government salary, and getting the hell out of an organization that she loved but that clearly did not love her back at present.',
           ],
           [
             1,
@@ -104,7 +104,7 @@ $VAR1 = [
           [
             1,
             '[ap 08:00] Locked On - Tom Clancy.epub (OEBPS/Text/Locked_On_split_029.html) - eight',
-            'Life at Hendley Associates was returning to normal after the Paris operation. Most employees in at <<eight|9c:0>>. A quick meeting in the conference room at <<nine|9c:0>>, and then everyone back to their desks for a day of investigations, analysis, fishing in the murky waters of the cyberworld to find the enemies of the state who lurked there.',
+            'Life at Hendley Associates was returning to normal after the Paris operation. Most employees in at <<eight|9c:1>>. A quick meeting in the conference room at <<nine|9c:1>>, and then everyone back to their desks for a day of investigations, analysis, fishing in the murky waters of the cyberworld to find the enemies of the state who lurked there.',
           ],
           [
             1,
@@ -115,7 +115,7 @@ $VAR1 = [
             1,
             '[ap 07:00] Locked On - Tom Clancy.epub (OEBPS/Text/Locked_On_split_034.html) - seven',
             "She laughed. \x{201c}Bring it on. It can\x{2019}t be any worse than going through the TS-SCI process.\x{201d} She was referring to the CIA vetting process that took months and involved interviews with everyone from neighbors to elementary school teachers.
-\x{201c}I\x{2019}ll pick you up at <<seven|9c:0>>?\x{201d}
+\x{201c}I\x{2019}ll pick you up at <<seven|9c:1>>?\x{201d}
 \x{201c}Seven\x{2019}s fine. We can actually walk from my place.\x{201d}",
           ],
           [
@@ -342,7 +342,7 @@ Just then a figure appeared out of the darkness. Clark wore a black hooded coat 
           [
             1,
             '[21:00] Locked On - Tom Clancy.epub (OEBPS/Text/Locked_On_split_062.html) - nine p.m.',
-            'By <<nine p.m.|5>>, a tight race turned for the GOP when Ohio and Michigan both went his way. Florida took until <<nearly ten|9c:0>>, but by the close of polling stations on the West Coast, the matter was decided.',
+            'By <<nine p.m.|5>>, a tight race turned for the GOP when Ohio and Michigan both went his way. Florida took until <<nearly ten|9c:1>>, but by the close of polling stations on the West Coast, the matter was decided.',
           ],
           [
             1,

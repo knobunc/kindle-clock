@@ -22,7 +22,7 @@ $VAR1 = [
           [
             1,
             '[ap 01:35] Shooting Script - Gavin Lyall.epub (OEBPS/Text/section12.xhtml) - one-thirty-five',
-            'Try the bell-boy. The official exchange rate\'s one peso to a dollar. It should be about a peso and a half. Don\'t settle for less than <<one-thirty-five|5k:1>>. And remember to change any pesos back before you go out: officially you can\'t export currency, so no bank outside\'ll touch your pesos.\'',
+            'Try the bell-boy. The official exchange rate\'s one peso to a dollar. It should be about a peso and a half. Don\'t settle for less than <<one-thirty-five|5k:0>>. And remember to change any pesos back before you go out: officially you can\'t export currency, so no bank outside\'ll touch your pesos.\'',
           ],
           [
             1,
@@ -96,7 +96,7 @@ I planned to keep the Mitchell there a few days, learning about her while I had 
           [
             1,
             '[ap ~ 07:00] Shooting Script - Gavin Lyall.epub (OEBPS/Text/section18.xhtml) - about seven',
-            "Luiz opened his mouth, but was drowned by the sound of the Viscount rolling up to the ramp behind him. When its engines died, he said: 'We came in by the back gate, past the flying club, at <<about seven|9c:0>>. We had a drink in the terminal, then I left <<about half-past nine|10>>. I'd parked my car over there' \x{2013} he nodded at the cargo pier \x{2013} 'and he walked over with me, and said he'd wait a while. He still thought Se\x{f1}or Carrmight come in that night.'",
+            "Luiz opened his mouth, but was drowned by the sound of the Viscount rolling up to the ramp behind him. When its engines died, he said: 'We came in by the back gate, past the flying club, at <<about seven|9c:1>>. We had a drink in the terminal, then I left <<about half-past nine|10>>. I'd parked my car over there' \x{2013} he nodded at the cargo pier \x{2013} 'and he walked over with me, and said he'd wait a while. He still thought Se\x{f1}or Carrmight come in that night.'",
           ],
           [
             1,
@@ -254,7 +254,7 @@ Tine.\" I finished my drink, stood up, turned away. Then turned back. 'Just why 
           [
             1,
             '[ap 01:50] Shooting Script - Gavin Lyall.epub (OEBPS/Text/section29.xhtml) - 150',
-            'Then it was time to turn, gentle and slow, both engines throttled back and sliding down to attack height. The dull silver of the Vampires vanished behind trees, but the tall black hangars stood up clear. I levelled out at a hundred feet, aiming for the nearest hangar on a course of 120, waiting for the speedto settle at <<150|9c:1>> before pushing up the throttles.',
+            'Then it was time to turn, gentle and slow, both engines throttled back and sliding down to attack height. The dull silver of the Vampires vanished behind trees, but the tall black hangars stood up clear. I levelled out at a hundred feet, aiming for the nearest hangar on a course of 120, waiting for the speedto settle at <<150|9c:0>> before pushing up the throttles.',
           ],
           [
             1,
@@ -287,7 +287,7 @@ Tine.\" I finished my drink, stood up, turned away. Then turned back. 'Just why 
             1,
             '[ap 06:00] Shooting Script - Gavin Lyall.epub (OEBPS/Text/section30.xhtml) - six',
             "By <<six|9e>>, when the sun finally rose above the clouds over the eastern hills, we'd come perhaps a mile and a half. Along the beach, up the cliffs, then threading through overgrown palm plantations. It was heavy going, still soaked from the rain and scattered with uprooted bushes and blown-down palm fronds. By now we were probably out of danger from any ground patrols sent out from the base, and I hadn't heard any aircraft. But we weren't making much progress.
-'At this rate we won't be in town until <<about nine|9c:0>>,' I said.
+'At this rate we won't be in town until <<about nine|9c:1>>,' I said.
 Luiz stopped, and delicately patted his brow with a handkerchief. He'd taken the hurried going over rough ground well \x{2013} he must have been nearly fifty, after all \x{2013} but from now onthe day was going to start hotting up, and he was humping a 15-pound automatic rifle. I had the snake pistol; I had it in my hand, too, but only for snakes.",
           ],
           [
@@ -338,7 +338,7 @@ Luiz stopped, and delicately patted his brow with a handkerchief. He'd taken the
           [
             1,
             '[ap 02:00] Shooting Script - Gavin Lyall.epub (OEBPS/Text/section4.xhtml) - two',
-            "'That doesn't really answer the question,' he said slowly. 'It isn't politics that makes a revolution: it's money. You think the Communists put Castro up in Cuba? The hell. It was the big American companies who thought they'd get a better deal from Castro than Batista. They gave him money, bought him guns, one even gave him a private aeroplane. And it wasn't politicians who flew the planes for him, either. Just pilots \x{2013} at <<two|9c:0>>, three thousand dollars a ride. Now it's happening with Jiminez: he's getting money from somewhere \x{2013} three-inch mortars don't come cheap \x{2013} and somebody's getting the stuff into the Republic. Maybe boat-owners, maybe pilots \x{2013} but not politicians.'",
+            "'That doesn't really answer the question,' he said slowly. 'It isn't politics that makes a revolution: it's money. You think the Communists put Castro up in Cuba? The hell. It was the big American companies who thought they'd get a better deal from Castro than Batista. They gave him money, bought him guns, one even gave him a private aeroplane. And it wasn't politicians who flew the planes for him, either. Just pilots \x{2013} at <<two|9c:1>>, three thousand dollars a ride. Now it's happening with Jiminez: he's getting money from somewhere \x{2013} three-inch mortars don't come cheap \x{2013} and somebody's getting the stuff into the Republic. Maybe boat-owners, maybe pilots \x{2013} but not politicians.'",
           ],
           [
             1,

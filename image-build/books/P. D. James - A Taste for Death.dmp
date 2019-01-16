@@ -97,7 +97,7 @@ $VAR1 = [
           [
             1,
             '[ap 03:30] A Taste for Death - P. D. James.epub (OEBPS/Jame_9780307758989_epub_c08_r1.htm) - Three thirty',
-            "\x{201c}I\x{2019}ll finish the preliminary examination and then you can take them away. I would normally do the pm first thing tomorrow, but they aren\x{2019}t expecting me back at the hospital until Monday and the pm room is tied up until the afternoon. <<Three thirty|5k:1>> is the earliest. Is that all right for your people?\x{201d}",
+            "\x{201c}I\x{2019}ll finish the preliminary examination and then you can take them away. I would normally do the pm first thing tomorrow, but they aren\x{2019}t expecting me back at the hospital until Monday and the pm room is tied up until the afternoon. <<Three thirty|5k:0>> is the earliest. Is that all right for your people?\x{201d}",
           ],
           [
             1,
@@ -162,7 +162,7 @@ $VAR1 = [
           [
             1,
             '[ap 11:00] A Taste for Death - P. D. James.epub (OEBPS/Jame_9780307758989_epub_c13_r1.htm) - eleven',
-            "\x{201c}I had a hair appointment at Michael and John in Bond Street at <<eleven|9c:0>>. Then I lunched in Knightsbridge with an old school friend and we did some shopping in Harvey Nichols. I got home here at teatime and by then he\x{2019}d left. I never saw him <<after nine fifteen|5k:0>>.\x{201d}",
+            "\x{201c}I had a hair appointment at Michael and John in Bond Street at <<eleven|9c:1>>. Then I lunched in Knightsbridge with an old school friend and we did some shopping in Harvey Nichols. I got home here at teatime and by then he\x{2019}d left. I never saw him <<after nine fifteen|5k:0>>.\x{201d}",
           ],
           [
             1,
@@ -172,7 +172,7 @@ $VAR1 = [
           [
             1,
             '[ap 11:00] A Taste for Death - P. D. James.epub (OEBPS/Jame_9780307758989_epub_c13_r1.htm) - eleven',
-            "\x{201c}Barbie darling! Mattie rang me with the news. It\x{2019}s awful, unbelievable. I\x{2019}d have come earlier only she couldn\x{2019}t reach me until <<eleven|9c:0>>. Darling, how are you? Are you all right?\x{201d}",
+            "\x{201c}Barbie darling! Mattie rang me with the news. It\x{2019}s awful, unbelievable. I\x{2019}d have come earlier only she couldn\x{2019}t reach me until <<eleven|9c:1>>. Darling, how are you? Are you all right?\x{201d}",
           ],
           [
             1,
@@ -192,7 +192,7 @@ $VAR1 = [
           [
             1,
             '[ap 07:00] A Taste for Death - P. D. James.epub (OEBPS/Jame_9780307758989_epub_c14_r1.htm) - seven',
-            "\x{201c}I was here or in the kitchen. Mr. Dominic Swayne came for a meal and a bath, and afterwards we played Scrabble. He arrived shortly before <<seven|9c:0>> and left before <<eleven|9c:0>>. Our neighbour, Mr. Swinglehurst, was garaging his car and saw Mr. Swayne arrive.\x{201d}",
+            "\x{201c}I was here or in the kitchen. Mr. Dominic Swayne came for a meal and a bath, and afterwards we played Scrabble. He arrived shortly before <<seven|9c:1>> and left before <<eleven|9c:1>>. Our neighbour, Mr. Swinglehurst, was garaging his car and saw Mr. Swayne arrive.\x{201d}",
           ],
           [
             1,
@@ -257,7 +257,7 @@ $VAR1 = [
           [
             1,
             '[ap ~ 08:00] A Taste for Death - P. D. James.epub (OEBPS/Jame_9780307758989_epub_c16_r1.htm) - about eight',
-            "\x{201c}Yes. Once at <<about eight|9c:0>>, and once again at <<nine fifteen|5b>>. She wanted to discuss next week\x{2019}s arrangements and to remind me that she had said I could take the Rover. I drive one of the early Cortinas, but it\x{2019}s having its MOT test.\x{201d}",
+            "\x{201c}Yes. Once at <<about eight|9c:1>>, and once again at <<nine fifteen|5b>>. She wanted to discuss next week\x{2019}s arrangements and to remind me that she had said I could take the Rover. I drive one of the early Cortinas, but it\x{2019}s having its MOT test.\x{201d}",
           ],
           [
             1,
@@ -270,7 +270,7 @@ $VAR1 = [
             1,
             '[ap 05:40] A Taste for Death - P. D. James.epub (OEBPS/Jame_9780307758989_epub_c16_r1.htm) - five forty',
             "\x{201c}And you were here in this flat all yesterday evening?\x{201d}
-\x{201c}From <<five forty|9c:0>>. That\x{2019}s right.\x{201d}
+\x{201c}From <<five forty|9c:1>>. That\x{2019}s right.\x{201d}
 \x{201c}Is there any chance that someone from the house or from outside could have taken out a car or the bicycle without your knowing?\x{201d}",
           ],
           [
@@ -306,7 +306,7 @@ $VAR1 = [
           [
             1,
             '[ap 07:00] A Taste for Death - P. D. James.epub (OEBPS/Jame_9780307758989_epub_c16_r1.htm) - seven',
-            "\x{201c}I hardly saw Theresa Nolan. She had a room here, but she either stayed in it most of the time or went out. Kept herself to herself. She was employed as a night nurse and wasn\x{2019}t supposed to be on duty until <<seven|9c:0>>. Miss Matlock nursed Lady Ursula during the day. Theresa seemed a quiet, rather shy girl. A bit timid for a nurse, I thought. Lady Ursula had no complaints as far as I know. You\x{2019}d better ask her.\x{201d}",
+            "\x{201c}I hardly saw Theresa Nolan. She had a room here, but she either stayed in it most of the time or went out. Kept herself to herself. She was employed as a night nurse and wasn\x{2019}t supposed to be on duty until <<seven|9c:1>>. Miss Matlock nursed Lady Ursula during the day. Theresa seemed a quiet, rather shy girl. A bit timid for a nurse, I thought. Lady Ursula had no complaints as far as I know. You\x{2019}d better ask her.\x{201d}",
           ],
           [
             1,
@@ -401,7 +401,7 @@ $VAR1 = [
           [
             1,
             '[ap ~ 07:40] A Taste for Death - P. D. James.epub (OEBPS/Jame_9780307758989_epub_c21_r1.htm) - about seven forty',
-            "\x{201c}And afterwards, Barbara and I had tea in this room, then spent some time in my private flat, upstairs. Then I changed, and we left here together at <<about seven forty|9c:0>>. The night porter saw us go and can probably confirm the time. We drove to the Black Swan at Cookham, where we had dinner together. I wasn\x{2019}t particularly noticing the time, but I suppose we got there at <<about eight thirty|9c:0>>. I drive a red Porsche, in case that\x{2019}s significant. The table was booked for <<eight forty-five|5k:0>>. Jean Paul Higgins is the manager. He\x{2019}ll be able to confirm it. No doubt he\x{2019}ll also confirm that it was <<after eleven|3b>> when we left. But I\x{2019}d be grateful for a little tact. I\x{2019}m not over-sensitive about reputation, but I can\x{2019}t afford to have half of fashionable London gossiping about my private life. And while some of my patients have their little foibles, like giving birth under water or squatting on the drawing room carpet, being delivered by a murder suspect isn\x{2019}t everyone\x{2019}s fancy.\x{201d}",
+            "\x{201c}And afterwards, Barbara and I had tea in this room, then spent some time in my private flat, upstairs. Then I changed, and we left here together at <<about seven forty|9c:1>>. The night porter saw us go and can probably confirm the time. We drove to the Black Swan at Cookham, where we had dinner together. I wasn\x{2019}t particularly noticing the time, but I suppose we got there at <<about eight thirty|9c:1>>. I drive a red Porsche, in case that\x{2019}s significant. The table was booked for <<eight forty-five|5k:0>>. Jean Paul Higgins is the manager. He\x{2019}ll be able to confirm it. No doubt he\x{2019}ll also confirm that it was <<after eleven|3b>> when we left. But I\x{2019}d be grateful for a little tact. I\x{2019}m not over-sensitive about reputation, but I can\x{2019}t afford to have half of fashionable London gossiping about my private life. And while some of my patients have their little foibles, like giving birth under water or squatting on the drawing room carpet, being delivered by a murder suspect isn\x{2019}t everyone\x{2019}s fancy.\x{201d}",
           ],
           [
             1,
@@ -735,7 +735,7 @@ $VAR1 = [
           [
             1,
             '[ap ~ 03:30] A Taste for Death - P. D. James.epub (OEBPS/Jame_9780307758989_epub_c45_r1.htm) - about three thirty',
-            "\x{201c}They still come out at <<about three thirty|9c:0>>, don\x{2019}t they? You could try passing at the right time. If you met him accidentally, I don\x{2019}t see how they could object to that.\x{201d}",
+            "\x{201c}They still come out at <<about three thirty|9c:1>>, don\x{2019}t they? You could try passing at the right time. If you met him accidentally, I don\x{2019}t see how they could object to that.\x{201d}",
           ],
           [
             1,
@@ -817,7 +817,7 @@ $VAR1 = [
           [
             1,
             '[ap 08:00] A Taste for Death - P. D. James.epub (OEBPS/Jame_9780307758989_epub_c53_r1.htm) - eight',
-            "\x{201c}Look, there\x{2019}s something I must do. I\x{2019}ve got to ring my boyfriend. He\x{2019}s coming to supper at <<eight|9c:0>>.\x{201d}",
+            "\x{201c}Look, there\x{2019}s something I must do. I\x{2019}ve got to ring my boyfriend. He\x{2019}s coming to supper at <<eight|9c:1>>.\x{201d}",
           ],
           [
             1,

@@ -47,7 +47,7 @@ $VAR1 = [
             1,
             '[ap 08:00] Executive Orders - Tom Clancy.epub (OEBPS/part15.xhtml) - eight',
             "\x{201c}We want yours, too.\x{201d} O'Day looked up the corridor and was annoyed. \x{201c}We asked for your department chief to join us. Where do you suppose he is?\x{201d}
-\x{201c}He usually doesn't get in until <<eight|9c:0>> or so.\x{201d}
+\x{201c}He usually doesn't get in until <<eight|9c:1>> or so.\x{201d}
 \x{201c}Could you call him, please? We need to talk to him right now.\x{201d}",
           ],
           [
@@ -64,7 +64,7 @@ $VAR1 = [
           [
             1,
             '[ap 05:00] Executive Orders - Tom Clancy.epub (OEBPS/part16.xhtml) - five',
-            "\x{201c}I got in at <<five|9c:0>>.\x{201d} He held up a folder with P
+            "\x{201c}I got in at <<five|9c:1>>.\x{201d} He held up a folder with P
     LAN
      B
     LUE
@@ -420,7 +420,7 @@ $VAR1 = [
             1,
             '[ap 05:00] Executive Orders - Tom Clancy.epub (OEBPS/part3.xhtml) - five',
             "\x{201c}Good guy. Their kids are at the House. Asleep. I didn't know if I was supposed to do anything. So I came here.\x{201d} Ryan reached for his collar and pulled the tie loose. It seemed to take a considerable effort to do so. Better not to disturb the kids, he decided. It would have been hard to walk that far anyway. . \x{201c}And now?\x{201d}
-\x{201c}I have to sleep. They get me up at <<five|9c:0>>.\x{201d}
+\x{201c}I have to sleep. They get me up at <<five|9c:1>>.\x{201d}
 \x{201c}What are we going to do?\x{201d}",
           ],
           [
@@ -548,7 +548,7 @@ $VAR1 = [
           [
             1,
             '[ap 09:00] Executive Orders - Tom Clancy.epub (OEBPS/part34.xhtml) - nine',
-            "\x{201c}So, we have a problem, Arnie. The segment is supposed to run at <<nine|9c:0>>.\x{201d}",
+            "\x{201c}So, we have a problem, Arnie. The segment is supposed to run at <<nine|9c:1>>.\x{201d}",
           ],
           [
             1,
@@ -567,7 +567,7 @@ $VAR1 = [
           [
             1,
             '[ap 09:00] Executive Orders - Tom Clancy.epub (OEBPS/part34.xhtml) - nine',
-            "\x{201c}The tape from this morning got all farbled up, and they want to do it live at <<nine|9c:0>>, and if you're willing, I want you to be there, too.\x{201d}",
+            "\x{201c}The tape from this morning got all farbled up, and they want to do it live at <<nine|9c:1>>, and if you're willing, I want you to be there, too.\x{201d}",
           ],
           [
             1,
@@ -1076,7 +1076,7 @@ $VAR1 = [
      <<7:05 
      A.M.|2a>>
     
-    , and Air France Flight 1, a supersonic Concorde, was waiting to take him part of the way home. He had a huge collection of auto brochures, and a story he'd spent some time concocting should anyone ask about them, but his cover wasn't challenged, or even examined. He was leaving, and that was okay. The passport was duly stamped. The customs agent didn't even ask why he had come one day and left the next. Business travelers were business travelers. Besides, it was early in the morning, and nothing important happened before <<ten|9c:0>>.",
+    , and Air France Flight 1, a supersonic Concorde, was waiting to take him part of the way home. He had a huge collection of auto brochures, and a story he'd spent some time concocting should anyone ask about them, but his cover wasn't challenged, or even examined. He was leaving, and that was okay. The passport was duly stamped. The customs agent didn't even ask why he had come one day and left the next. Business travelers were business travelers. Besides, it was early in the morning, and nothing important happened before <<ten|9c:1>>.",
           ],
           [
             1,
@@ -1197,7 +1197,7 @@ $VAR1 = [
             '[ap 11:00] Executive Orders - Tom Clancy.epub (OEBPS/part48.xhtml) - eleven',
             "\x{201c}I 
     ASK NOW
-     that you will join me in a moment of silence,\x{201d} Ryan told the audience in Topeka. It was <<eleven|9d>> here. That made it <<noon|13>> back home. Next stop Colorado Springs, then Sacramento, then, blessedly, home.",
+     that you will join me in a moment of silence,\x{201d} Ryan told the audience in Topeka. It was <<eleven|9f>> here. That made it <<noon|13>> back home. Next stop Colorado Springs, then Sacramento, then, blessedly, home.",
           ],
           [
             1,
@@ -1285,12 +1285,12 @@ $VAR1 = [
           [
             1,
             '[ap 02:00] Executive Orders - Tom Clancy.epub (OEBPS/part50.xhtml) - two',
-            "\x{201c}Dave has called a department head meeting in his office at <<two|9c:0>>. I'm leaving for New York to do that conference at Columbia, and Hal's operating this afternoon. Sit in for me?\x{201d}",
+            "\x{201c}Dave has called a department head meeting in his office at <<two|9c:1>>. I'm leaving for New York to do that conference at Columbia, and Hal's operating this afternoon. Sit in for me?\x{201d}",
           ],
           [
             1,
             '[ap 02:00] Executive Orders - Tom Clancy.epub (OEBPS/part50.xhtml) - two',
-            "\x{201c}All department heads in my office at <<two|9c:0>>. I can't go any faster, Alex. A third of them are operating or seeing patients right now.\x{201d}",
+            "\x{201c}All department heads in my office at <<two|9c:1>>. I can't go any faster, Alex. A third of them are operating or seeing patients right now.\x{201d}",
           ],
           [
             1,
@@ -1542,7 +1542,7 @@ $VAR1 = [
           [
             1,
             '[ap 10:00] Executive Orders - Tom Clancy.epub (OEBPS/part62.xhtml) - ten',
-            "\x{201c}Triple-\x{200b}A at <<ten|9c:0>>.\x{201d} That proved to be a ZSU-23 mobile antiaircraft vehicle, whose four guns started sending tracers at their Strike Eagle. \x{201c}Selecting Mav.\x{201d}",
+            "\x{201c}Triple-\x{200b}A at <<ten|9c:1>>.\x{201d} That proved to be a ZSU-23 mobile antiaircraft vehicle, whose four guns started sending tracers at their Strike Eagle. \x{201c}Selecting Mav.\x{201d}",
           ],
           [
             1,
@@ -1590,13 +1590,13 @@ $VAR1 = [
           [
             1,
             '[ap 11:00] Executive Orders - Tom Clancy.epub (OEBPS/part64.xhtml) - eleven',
-            "\x{201c}Target, cease fire, target tank at <<eleven|9c:0>>,\x{201d} the TC said over the interphones.",
+            "\x{201c}Target, cease fire, target tank at <<eleven|9c:1>>,\x{201d} the TC said over the interphones.",
           ],
           [
             1,
             '[ap 01:00] Executive Orders - Tom Clancy.epub (OEBPS/part64.xhtml) - one',
             "\x{201c}On the way!\x{201d} A pause. The tracer flew true. \x{201c}Right through the dot!\x{201d}
-Commander: \x{201c}Target! Cease fire! Traverse right, target tank at <<one|9c:0>>.\x{201d}
+Commander: \x{201c}Target! Cease fire! Traverse right, target tank at <<one|9c:1>>.\x{201d}
 Loader: \x{201c}Up!\x{201d}",
           ],
           [

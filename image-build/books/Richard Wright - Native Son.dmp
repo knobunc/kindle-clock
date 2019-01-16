@@ -33,6 +33,13 @@ $VAR1 = [
           ],
           [
             1,
+            '[ap 03:00] Native Son - Richard Wright.epub (Native_son_split_007.html) - three',
+            "\x{201c}Yeah, but I\x{2019}ll feel safer with a gun this time.\x{201d}
+\x{201c}Gee, I wished it was <<three|9f>> now. I wished it was over.\x{201d}
+\x{201c}Me too.\x{201d}",
+          ],
+          [
+            1,
             '[ap 02:40] Native Son - Richard Wright.epub (Native_son_split_007.html) - twenty to three',
             "\x{201c}Hunh?\x{201d}
 \x{201c}It\x{2019}s <<twenty to three|10a:0>>.\x{201d}
@@ -121,7 +128,7 @@ He rose and walked down the dark aisle over the soft, invisible carpet. He had s
             1,
             '[ap > 04:00] Native Son - Richard Wright.epub (Native_son_split_009.html) - after four',
             "\x{201c}I had to work,\x{201d} he drawled with impatience.
-\x{201c}You didn\x{2019}t get in until <<after four|9c:0>>.\x{201d}
+\x{201c}You didn\x{2019}t get in until <<after four|9c:1>>.\x{201d}
 He turned and looked at her.",
           ],
           [
@@ -151,7 +158,7 @@ He turned and looked at her.",
           [
             1,
             '[ap 03:00] Native Son - Richard Wright.epub (Native_son_split_009.html) - three',
-            "\x{201c}Boy,\x{201d} said Buddy, \x{201c}I tried to keep awake till you got in last night, but I couldn\x{2019}t. I had to go to bed at <<three|9c:0>>. I was so sleepy I could hardly keep my eyes open.\x{201d}",
+            "\x{201c}Boy,\x{201d} said Buddy, \x{201c}I tried to keep awake till you got in last night, but I couldn\x{2019}t. I had to go to bed at <<three|9c:1>>. I was so sleepy I could hardly keep my eyes open.\x{201d}",
           ],
           [
             1,
@@ -188,13 +195,13 @@ He turned and looked at her.",
             '[ap < 02:00] Native Son - Richard Wright.epub (Native_son_split_009.html) - A little before two',
             "\x{201c}That must have been pretty late, wasn\x{2019}t it?\x{201d}
 \x{201c}Yessum. <<A little before two|9e>>, mam.\x{201d}
-\x{201c}And you took the trunk down a little before <<two|9c:0>>?\x{201d}",
+\x{201c}And you took the trunk down a little before <<two|9c:1>>?\x{201d}",
           ],
           [
             1,
             '[ap < 02:00] Native Son - Richard Wright.epub (Native_son_split_009.html) - A little before two',
             "\x{201c}Yessum. <<A little before two|9e>>, mam.\x{201d}
-\x{201c}And you took the trunk down a little before <<two|9c:0>>?\x{201d}
+\x{201c}And you took the trunk down a little before <<two|9c:1>>?\x{201d}
 \x{201c}Yessum. She told me to.\x{201d}",
           ],
           [
@@ -230,7 +237,7 @@ Bigger knew that this was it. This man was here to find out everything. This was
             1,
             '[ap 08:00] Native Son - Richard Wright.epub (Native_son_split_010.html) - eight',
             "\x{201c}Yessum.\x{201d}
-\x{201c}And be ready for Mr. Dalton at <<eight|9c:0>>.\x{201d}
+\x{201c}And be ready for Mr. Dalton at <<eight|9c:1>>.\x{201d}
 \x{201c}Yessum.\x{201d}",
           ],
           [

@@ -32,7 +32,7 @@ $VAR1 = [
           [
             1,
             '[ap < 05:00] The Adventures of Sherlock Holmes - Arthur Conan Doyle.epub (The_Adventur-herlock_Holmes_split_001.html) - nearly five',
-            '"When Mrs. Turner has brought in the tray I will make it clear to you. Now," he said as he turned hungrily on the simple fare that our landlady had provided, "I must discuss it while I eat, for I have not much time. It is <<nearly five|9:1>> now. In two hours we must be on the scene of action. Miss Irene, or Madame, rather, returns from her drive at <<seven|9c:1>>. We must be at Briony Lodge to meet her."',
+            '"When Mrs. Turner has brought in the tray I will make it clear to you. Now," he said as he turned hungrily on the simple fare that our landlady had provided, "I must discuss it while I eat, for I have not much time. It is <<nearly five|9f>> now. In two hours we must be on the scene of action. Miss Irene, or Madame, rather, returns from her drive at <<seven|9c:1>>. We must be at Briony Lodge to meet her."',
           ],
           [
             1,
@@ -69,7 +69,7 @@ $VAR1 = [
           [
             1,
             '[ap 10:00] The Adventures of Sherlock Holmes - Arthur Conan Doyle.epub (The_Adventur-herlock_Holmes_split_001.html) - ten',
-            '"This went on day after day, Mr. Holmes, and on Saturday the manager came in and planked down four golden sovereigns for my week\'s work. It was the same next week, and the same the week after. Every morning I was there at <<ten|9b>>, and every afternoon I left at <<two|9c:0>>. By degrees Mr. Duncan Ross took to coming in only once of a morning, and then, after a time, he did not come in at all. Still, of course, I never dared to leave the room for an instant, for I was not sure when he might come, and the billet was such a good one, and suited me so well, that I would not risk the loss of it.',
+            '"This went on day after day, Mr. Holmes, and on Saturday the manager came in and planked down four golden sovereigns for my week\'s work. It was the same next week, and the same the week after. Every morning I was there at <<ten|9b>>, and every afternoon I left at <<two|9c:1>>. By degrees Mr. Duncan Ross took to coming in only once of a morning, and then, after a time, he did not come in at all. Still, of course, I never dared to leave the room for an instant, for I was not sure when he might come, and the billet was such a good one, and suited me so well, that I would not risk the loss of it.',
           ],
           [
             1,
@@ -80,7 +80,7 @@ $VAR1 = [
             1,
             '[ap 10:00] The Adventures of Sherlock Holmes - Arthur Conan Doyle.epub (The_Adventur-herlock_Holmes_split_001.html) - ten',
             '"Ten will be early enough."
-"I shall be at Baker Street at <<ten|9c:0>>."
+"I shall be at Baker Street at <<ten|9c:1>>."
 "Very well. And, I say, Doctor, there may be some little danger, so kindly put your army revolver in your pocket." He waved his hand, turned on his heel, and disappeared in an instant among the crowd.',
           ],
           [
@@ -121,7 +121,7 @@ $VAR1 = [
           [
             1,
             '[~ 15:00] The Adventures of Sherlock Holmes - Arthur Conan Doyle.epub (The_Adventur-herlock_Holmes_split_001.html) - about three in the afternoon',
-            '"On June 3rd, that is, on Monday last, McCarthy left his house at Hatherley <<about three in the afternoon|9h>> and walked down to the Boscombe Pool, which is a small lake formed by the spreading out of the stream which runs down the Boscombe Valley. He had been out with his serving-man in the morning at Ross, and he had told the man that he must hurry, as he had an appointment of importance to keep at <<three|9c:0>>. From that appointment he never came back alive.',
+            '"On June 3rd, that is, on Monday last, McCarthy left his house at Hatherley <<about three in the afternoon|9h>> and walked down to the Boscombe Pool, which is a small lake formed by the spreading out of the stream which runs down the Boscombe Valley. He had been out with his serving-man in the morning at Ross, and he had told the man that he must hurry, as he had an appointment of importance to keep at <<three|9c:1>>. From that appointment he never came back alive.',
           ],
           [
             1,
@@ -178,7 +178,7 @@ $VAR1 = [
           [
             1,
             '[ap 07:00] The Adventures of Sherlock Holmes - Arthur Conan Doyle.epub (The_Adventur-herlock_Holmes_split_002.html) - seven',
-            '"Very glad to see you. I dine at <<seven|9c:0>>. There is a woodcock, I believe. By the way, in view of recent occurrences, perhaps I ought to ask Mrs. Hudson to examine its crop."',
+            '"Very glad to see you. I dine at <<seven|9c:1>>. There is a woodcock, I believe. By the way, in view of recent occurrences, perhaps I ought to ask Mrs. Hudson to examine its crop."',
           ],
           [
             1,
@@ -274,7 +274,7 @@ $VAR1 = [
             1,
             '[ap 04:00] The Adventures of Sherlock Holmes - Arthur Conan Doyle.epub (The_Adventur-herlock_Holmes_split_003.html) - four o\'clock',
             '"It is dated from Grosvenor Mansions, written with a quill pen, and the noble lord has had the misfortune to get a smear of ink upon the outer side of his right little finger," remarked Holmes as he folded up the epistle.
-"He says <<four o\'clock|6>>. It is <<three|9q>> now. He will be here in an hour."
+"He says <<four o\'clock|6>>. It is <<three|9f>> now. He will be here in an hour."
 "Then I have just time, with your assistance, to get clear upon the subject. Turn over those papers and arrange the extracts in their order of time, while I take a glance as to who our client is." He picked a red-covered volume from a line of books of reference beside the mantelpiece. "Here he is," said he, sitting down and flattening it out upon his knee. "\'Lord Robert Walsingham de Vere St. Simon, second son of the Duke of Balmoral.\' Hum! \'Arms: Azure, three caltrops in chief over a fess sable. Born in 1846.\' He\'s forty-one years of age, which is mature for marriage. Was Under-Secretary for the colonies in a late administration. The Duke, his father, was at one time Secretary for Foreign Affairs. They inherit Plantagenet blood by direct descent, and Tudor on the distaff side. Ha! Well, there is nothing very instructive in all this. I think that I must turn to you Watson, for something more solid."',
           ],
           [
@@ -305,7 +305,7 @@ $VAR1 = [
           [
             1,
             '[ap > 09:00] The Adventures of Sherlock Holmes - Arthur Conan Doyle.epub (The_Adventur-herlock_Holmes_split_003.html) - after nine',
-            '"Why, it is <<after nine|9:0>> now," I answered. "I should not be surprised if that were he. I thought I heard a ring."',
+            '"Why, it is <<after nine|9f>> now," I answered. "I should not be surprised if that were he. I thought I heard a ring."',
           ],
           [
             1,

@@ -17,7 +17,7 @@ $VAR1 = [
           [
             1,
             '[ap 01:00] The Girl Who Kicked the Hornet\'s Nest - Stieg Larsson.epub (Stieg Larsson - The Girl Who Kicked the Hornet\'s Nest_split_006.html) - 1.00',
-            "\x{201c}I spent the evening in the company of good friends, Anders. I got to bed at <<1.00|9c:0>> and no doubt I have an impressive blood alcohol content.\x{201d}",
+            "\x{201c}I spent the evening in the company of good friends, Anders. I got to bed at <<1.00|9c:1>> and no doubt I have an impressive blood alcohol content.\x{201d}",
           ],
           [
             1,
@@ -42,13 +42,13 @@ $VAR1 = [
           [
             1,
             '[ap 05:10] The Girl Who Kicked the Hornet\'s Nest - Stieg Larsson.epub (Stieg Larsson - The Girl Who Kicked the Hornet\'s Nest_split_006.html) - 5.10',
-            "\x{201c}Everything has gone to hell down in Trollh\x{e4}ttan,\x{201d} her senior officer said without bothering to greet her or apologize. \x{201c}The X2000 to G\x{f6}teborg leaves at <<5.10|9c:0>>. Take a taxi.\x{201d}",
+            "\x{201c}Everything has gone to hell down in Trollh\x{e4}ttan,\x{201d} her senior officer said without bothering to greet her or apologize. \x{201c}The X2000 to G\x{f6}teborg leaves at <<5.10|9c:1>>. Take a taxi.\x{201d}",
           ],
           [
             1,
             '[ap 05:10] The Girl Who Kicked the Hornet\'s Nest - Stieg Larsson.epub (Stieg Larsson - The Girl Who Kicked the Hornet\'s Nest_split_006.html) - 5.10',
             "Modig blinked twice, registering how exhausted she felt. Most of all she wanted to crawl back into bed and take a month\x{2019}s holiday.
-\x{201c}The X2000 at <<5.10|9c:0>>. O.K. What do you want me to do?\x{201d}
+\x{201c}The X2000 at <<5.10|9c:1>>. O.K. What do you want me to do?\x{201d}
 \x{201c}Meet Jerker Holmberg at Central Station. You\x{2019}re to contact an Inspector Thomas Paulsson at the Trollh\x{e4}ttan police. He seems to be responsible for much of the mess tonight. Blomkvist described him as an Olympic-class idiot.\x{201d}",
           ],
           [
@@ -59,7 +59,7 @@ $VAR1 = [
           [
             1,
             '[05:58] The Girl Who Kicked the Hornet\'s Nest - Stieg Larsson.epub (Stieg Larsson - The Girl Who Kicked the Hornet\'s Nest_split_006.html) - 5.58 a.m',
-            "Annika Giannini woke with a start. She saw that it was <<5.58 a.m|2a>>\x{2026}. She had her first client meeting at <<8.00|9g>>. She turned to look at Enrico, who was sleeping peacefully and probably would not be awake before <<8.00|9c:0>>. She blinked hard a few times and got up to turn on the coffeemaker before she took her shower. She dressed in black trousers, a white polo neck, and a muted brick-red jacket. She made two slices of toast with cheese, orange marmalade and a sliced avocado, and carried her breakfast into the living room in time for the <<6.30|5a:0>> television news. She took a sip of coffee and had just opened her mouth to take a bite of toast when she heard the headlines.",
+            "Annika Giannini woke with a start. She saw that it was <<5.58 a.m|2a>>\x{2026}. She had her first client meeting at <<8.00|9g>>. She turned to look at Enrico, who was sleeping peacefully and probably would not be awake before <<8.00|9c:1>>. She blinked hard a few times and got up to turn on the coffeemaker before she took her shower. She dressed in black trousers, a white polo neck, and a muted brick-red jacket. She made two slices of toast with cheese, orange marmalade and a sliced avocado, and carried her breakfast into the living room in time for the <<6.30|5a:0>> television news. She took a sip of coffee and had just opened her mouth to take a bite of toast when she heard the headlines.",
           ],
           [
             1,
@@ -69,7 +69,7 @@ $VAR1 = [
           [
             1,
             '[ap 10:00] The Girl Who Kicked the Hornet\'s Nest - Stieg Larsson.epub (Stieg Larsson - The Girl Who Kicked the Hornet\'s Nest_split_007.html) - 10.00',
-            "\x{201c}It\x{2019}s a police killing and the press is out in force. We\x{2019}ll be holding a press conference at <<10.00|9c:0>>.\x{201d}",
+            "\x{201c}It\x{2019}s a police killing and the press is out in force. We\x{2019}ll be holding a press conference at <<10.00|9c:1>>.\x{201d}",
           ],
           [
             1,
@@ -224,7 +224,7 @@ She then glanced at the bedside table and saw the water glass. She calculated th
           [
             1,
             '[ap 03:00] The Girl Who Kicked the Hornet\'s Nest - Stieg Larsson.epub (Stieg Larsson - The Girl Who Kicked the Hornet\'s Nest_split_012.html) - 3.00',
-            "\x{201c}Ekstr\x{f6}m\x{2019}s holding a press conference at <<3.00|9c:0>>,\x{201d} Cortez said. \x{201c}I\x{2019}m going to Kungsholmen now.\x{201d}",
+            "\x{201c}Ekstr\x{f6}m\x{2019}s holding a press conference at <<3.00|9c:1>>,\x{201d} Cortez said. \x{201c}I\x{2019}m going to Kungsholmen now.\x{201d}",
           ],
           [
             1,
@@ -381,7 +381,7 @@ Giannini took the bus to Linn\x{e9}gatan and spent the next hour in a Greek rest
           [
             1,
             '[ap 06:10] The Girl Who Kicked the Hornet\'s Nest - Stieg Larsson.epub (Stieg Larsson - The Girl Who Kicked the Hornet\'s Nest_split_020.html) - 6.10',
-            "Figuerola woke at <<6.10|3b>> on Tuesday morning, took a long run along Norr M\x{e4}larstrand, showered, and clocked in at police headquarters at <<8.10|9c:0>>. She prepared a memorandum on the conclusions she had arrived at the day before.",
+            "Figuerola woke at <<6.10|3b>> on Tuesday morning, took a long run along Norr M\x{e4}larstrand, showered, and clocked in at police headquarters at <<8.10|9c:1>>. She prepared a memorandum on the conclusions she had arrived at the day before.",
           ],
           [
             1,
@@ -428,7 +428,7 @@ At <<4.00|9m>> Jonasson came up to the ward just as Dr Endrin was about to go ho
           [
             1,
             '[ap 09:10] The Girl Who Kicked the Hornet\'s Nest - Stieg Larsson.epub (Stieg Larsson - The Girl Who Kicked the Hornet\'s Nest_split_021.html) - 9.10',
-            'Blomkvist emerged at <<9.10|9c:0>>. Figuerola noted the time. She saw him look up at the footbridge on upper Bellmansgatan. He started up the hill straight towards her.',
+            'Blomkvist emerged at <<9.10|9c:1>>. Figuerola noted the time. She saw him look up at the footbridge on upper Bellmansgatan. He started up the hill straight towards her.',
           ],
           [
             1,
@@ -453,13 +453,13 @@ At <<4.00|9m>> Jonasson came up to the ward just as Dr Endrin was about to go ho
           [
             1,
             '[ap 08:00] The Girl Who Kicked the Hornet\'s Nest - Stieg Larsson.epub (Stieg Larsson - The Girl Who Kicked the Hornet\'s Nest_split_021.html) - 8.00',
-            "\x{201c}I wish I could, but I have to be here until <<8.00|9c:0>>. And I\x{2019}m dead tired. I\x{2019}ve been at it since dawn. What\x{2019}s it about?\x{201d}",
+            "\x{201c}I wish I could, but I have to be here until <<8.00|9c:1>>. And I\x{2019}m dead tired. I\x{2019}ve been at it since dawn. What\x{2019}s it about?\x{201d}",
           ],
           [
             1,
             '[ap 08:30] The Girl Who Kicked the Hornet\'s Nest - Stieg Larsson.epub (Stieg Larsson - The Girl Who Kicked the Hornet\'s Nest_split_021.html) - 8.30',
             "\x{201c}I\x{2019}ll tell you when I see you. But it\x{2019}s not good.\x{201d}
-\x{201c}I\x{2019}ll come to your place at <<8.30|9c:0>>.\x{201d}
+\x{201c}I\x{2019}ll come to your place at <<8.30|9c:1>>.\x{201d}
 \x{201c}No. Not at mine. It\x{2019}s a long story, but my apartment is unsuitable for the time being. Let\x{2019}s meet at Samir\x{2019}s Cauldron for a beer.\x{201d}",
           ],
           [
@@ -477,7 +477,7 @@ Samir came over with the menu and, she realised she was hungry. She ordered a be
           [
             1,
             '[ap 04:00] The Girl Who Kicked the Hornet\'s Nest - Stieg Larsson.epub (Stieg Larsson - The Girl Who Kicked the Hornet\'s Nest_split_022.html) - 4.00',
-            'It was a slow process, writing with the stylus on the keypad. She thought through each sentence before she tapped it in. She did not make a single revision to the text she had written. She worked until <<4.00|9c:0>> and then she turned off her computer and put it to recharge in the recess at the back of her bedside table. By that time she had produced a document corresponding to two single-spaced A4 pages.',
+            'It was a slow process, writing with the stylus on the keypad. She thought through each sentence before she tapped it in. She did not make a single revision to the text she had written. She worked until <<4.00|9c:1>> and then she turned off her computer and put it to recharge in the recess at the back of her bedside table. By that time she had produced a document corresponding to two single-spaced A4 pages.',
           ],
           [
             1,
@@ -549,12 +549,12 @@ Caf\x{e9} Madeleine, upper level, <<11.00 a.m.|2a>> Saturday.
           [
             1,
             '[06:30] The Girl Who Kicked the Hornet\'s Nest - Stieg Larsson.epub (Stieg Larsson - The Girl Who Kicked the Hornet\'s Nest_split_025.html) - 6.30 a.m.',
-            "Blomkvist spent the night at Salander\x{2019}s apartment on Fiskargatan. He did not shut down the computer until <<6.30 a.m.|2a>> and fell asleep with photographs of gross child pornography whirling through his mind. He woke at <<10.15|9c:0>> and rolled out of Salander\x{2019}s bed, showered, and called a taxi to pick him up outside S\x{f6}dra theatre. He got out at Birger Jarlsgatan at <<10.55|9c:0>> and walked to Caf\x{e9} Madeleine.",
+            "Blomkvist spent the night at Salander\x{2019}s apartment on Fiskargatan. He did not shut down the computer until <<6.30 a.m.|2a>> and fell asleep with photographs of gross child pornography whirling through his mind. He woke at <<10.15|9c:1>> and rolled out of Salander\x{2019}s bed, showered, and called a taxi to pick him up outside S\x{f6}dra theatre. He got out at Birger Jarlsgatan at <<10.55|9c:1>> and walked to Caf\x{e9} Madeleine.",
           ],
           [
             1,
             '[ap 02:50] The Girl Who Kicked the Hornet\'s Nest - Stieg Larsson.epub (Stieg Larsson - The Girl Who Kicked the Hornet\'s Nest_split_025.html) - 2.50',
-            "Blomkvist called from Caf\x{e9} Madeleine on his anonymous mobile to book a flight to Amsterdam. The plane would take off from Arlanda at <<2.50|9c:0>>. He walked to Dressman on Kungsgatan and bought a shirt and a change of underwear, and then he went to a pharmacy to buy a toothbrush and other toiletries. He checked carefully to see that he was not being followed and hurried to catch the Arlanda Express.",
+            "Blomkvist called from Caf\x{e9} Madeleine on his anonymous mobile to book a flight to Amsterdam. The plane would take off from Arlanda at <<2.50|9c:1>>. He walked to Dressman on Kungsgatan and bought a shirt and a change of underwear, and then he went to a pharmacy to buy a toothbrush and other toiletries. He checked carefully to see that he was not being followed and hurried to catch the Arlanda Express.",
           ],
           [
             1,
@@ -604,7 +604,7 @@ Caf\x{e9} Madeleine, upper level, <<11.00 a.m.|2a>> Saturday.
           [
             1,
             '[ap 01:00] The Girl Who Kicked the Hornet\'s Nest - Stieg Larsson.epub (Stieg Larsson - The Girl Who Kicked the Hornet\'s Nest_split_026.html) - 1.00',
-            'By the time she felt sufficiently entrenched it was <<1.00|9f>>. She had to be at S.M.P. at <<8.00|9m>>. She checked her diary and saw that she had four meetings, the first at <<10.00|9c:0>>. Her foot was aching badly. She undressed and crept into bed.',
+            'By the time she felt sufficiently entrenched it was <<1.00|9f>>. She had to be at S.M.P. at <<8.00|9m>>. She checked her diary and saw that she had four meetings, the first at <<10.00|9c:1>>. Her foot was aching badly. She undressed and crept into bed.',
           ],
           [
             1,
@@ -620,7 +620,7 @@ Caf\x{e9} Madeleine, upper level, <<11.00 a.m.|2a>> Saturday.
           [
             1,
             '[ap 03:00] The Girl Who Kicked the Hornet\'s Nest - Stieg Larsson.epub (Stieg Larsson - The Girl Who Kicked the Hornet\'s Nest_split_027.html) - 3.00',
-            "\x{201c}I can see that they might be. Set up a meeting with legal at <<3.00|9c:0>>. I\x{2019}ll explain the situation.\x{201d}",
+            "\x{201c}I can see that they might be. Set up a meeting with legal at <<3.00|9c:1>>. I\x{2019}ll explain the situation.\x{201d}",
           ],
           [
             1,
@@ -630,12 +630,12 @@ Caf\x{e9} Madeleine, upper level, <<11.00 a.m.|2a>> Saturday.
           [
             1,
             '[ap > 05:00] The Girl Who Kicked the Hornet\'s Nest - Stieg Larsson.epub (Stieg Larsson - The Girl Who Kicked the Hornet\'s Nest_split_027.html) - after 5.00',
-            'The meeting at the Constitutional Protection Unit lasted until <<after 5.00|9c:0>>, and they agreed to have another meeting the following week. Blomkvist could contact Figuerola if he needed to be in touch with S.I.S. before then. He packed away his laptop and stood up.',
+            'The meeting at the Constitutional Protection Unit lasted until <<after 5.00|9c:1>>, and they agreed to have another meeting the following week. Blomkvist could contact Figuerola if he needed to be in touch with S.I.S. before then. He packed away his laptop and stood up.',
           ],
           [
             1,
             '[ap ~ 07:00] The Girl Who Kicked the Hornet\'s Nest - Stieg Larsson.epub (Stieg Larsson - The Girl Who Kicked the Hornet\'s Nest_split_027.html) - around 7.00',
-            'The consultant from Milton Security was waiting for Berger when she got home at <<around 7.00|9c:0>>. Her foot was throbbing painfully, and she limped into the kitchen and sank on to the nearest chair. He had made coffee and he poured her some.',
+            'The consultant from Milton Security was waiting for Berger when she got home at <<around 7.00|9c:1>>. Her foot was throbbing painfully, and she limped into the kitchen and sank on to the nearest chair. He had made coffee and he poured her some.',
           ],
           [
             1,
@@ -655,7 +655,7 @@ Caf\x{e9} Madeleine, upper level, <<11.00 a.m.|2a>> Saturday.
           [
             1,
             '[ap 11:00] The Girl Who Kicked the Hornet\'s Nest - Stieg Larsson.epub (Stieg Larsson - The Girl Who Kicked the Hornet\'s Nest_split_027.html) - 11.00',
-            'Berger went to bed at <<11.00|9c:0>>. She heard the click of the lock as she closed her bedroom door. Deep in thought, she undressed and climbed into bed.',
+            'Berger went to bed at <<11.00|9c:1>>. She heard the click of the lock as she closed her bedroom door. Deep in thought, she undressed and climbed into bed.',
           ],
           [
             1,
@@ -685,7 +685,7 @@ Caf\x{e9} Madeleine, upper level, <<11.00 a.m.|2a>> Saturday.
           [
             1,
             '[ap 02:30] The Girl Who Kicked the Hornet\'s Nest - Stieg Larsson.epub (Stieg Larsson - The Girl Who Kicked the Hornet\'s Nest_split_028.html) - 2.30',
-            'Berger slept until <<2.30|9c:0>>. She woke up to find Linder sleeping in a recliner on the other side of the living room.',
+            'Berger slept until <<2.30|9c:1>>. She woke up to find Linder sleeping in a recliner on the other side of the living room.',
           ],
           [
             1,
@@ -779,7 +779,7 @@ Saturday, <<3.00|5a:1>> at the Ring in Central Station. Jonas
           [
             1,
             '[ap 03:00] The Girl Who Kicked the Hornet\'s Nest - Stieg Larsson.epub (Stieg Larsson - The Girl Who Kicked the Hornet\'s Nest_split_029.html) - 3.00',
-            "\x{201c}Call him. Now! Teleborian is meeting Jonas at the Ring in Central Station at <<3.00|9c:0>>.\x{201d}",
+            "\x{201c}Call him. Now! Teleborian is meeting Jonas at the Ring in Central Station at <<3.00|9c:1>>.\x{201d}",
           ],
           [
             1,
@@ -801,7 +801,7 @@ He grabbed his laptop case and took the stairs instead of waiting for the lift. 
           [
             1,
             '[ap 03:00] The Girl Who Kicked the Hornet\'s Nest - Stieg Larsson.epub (Stieg Larsson - The Girl Who Kicked the Hornet\'s Nest_split_029.html) - 3.00',
-            "\x{201c}Teleborian is meeting Jonas at the Ring in Central Station at <<3.00|9c:0>>. I\x{2019}m on my way, but you\x{2019}re closer.\x{201d}",
+            "\x{201c}Teleborian is meeting Jonas at the Ring in Central Station at <<3.00|9c:1>>. I\x{2019}m on my way, but you\x{2019}re closer.\x{201d}",
           ],
           [
             1,
@@ -821,7 +821,7 @@ He grabbed his laptop case and took the stairs instead of waiting for the lift. 
           [
             1,
             '[ap 03:07] The Girl Who Kicked the Hornet\'s Nest - Stieg Larsson.epub (Stieg Larsson - The Girl Who Kicked the Hornet\'s Nest_split_029.html) - 3.07',
-            "Blomkvist\x{2019}s taxi got to Central Station at <<3.07|9c:0>>. He walked rapidly into the ticket hall, but he could see neither Teleborian nor anyone looking like they might be Jonas. Nor Cortez for that matter.",
+            "Blomkvist\x{2019}s taxi got to Central Station at <<3.07|9c:1>>. He walked rapidly into the ticket hall, but he could see neither Teleborian nor anyone looking like they might be Jonas. Nor Cortez for that matter.",
           ],
           [
             1,
@@ -862,7 +862,7 @@ At <<7.00|9m>> Plague pinged Salander.
           [
             1,
             '[ap ~ 04:00] The Girl Who Kicked the Hornet\'s Nest - Stieg Larsson.epub (Stieg Larsson - The Girl Who Kicked the Hornet\'s Nest_split_029.html) - around 4.00',
-            "\x{201c}Blomkvist called me at <<around 4.00|9c:0>>,\x{201d} she said with a satisfied smile.",
+            "\x{201c}Blomkvist called me at <<around 4.00|9c:1>>,\x{201d} she said with a satisfied smile.",
           ],
           [
             1,
@@ -899,7 +899,7 @@ Bublanski called Figuerola <<just after 8|10>>.00.
           [
             1,
             '[ap 10:30] The Girl Who Kicked the Hornet\'s Nest - Stieg Larsson.epub (Stieg Larsson - The Girl Who Kicked the Hornet\'s Nest_split_030.html) - 10.30',
-            "Plague had been fooling around with the home computers of various employees of S.M.P. all evening without much success. He had managed to get into Holm\x{2019}s machine because it had an open line to his desk at work; any time of the day or night he could go in and access whatever he was working on. Holm\x{2019}s P.C. was one of the most boring Plague had ever hacked. He had no luck with the other eighteen names on Salander\x{2019}s list. One reason was that none of the people he tried to hack was online on a Saturday night. He was beginning to tire of this impossible task when Salander pinged him at <<10.30|9c:0>>.",
+            "Plague had been fooling around with the home computers of various employees of S.M.P. all evening without much success. He had managed to get into Holm\x{2019}s machine because it had an open line to his desk at work; any time of the day or night he could go in and access whatever he was working on. Holm\x{2019}s P.C. was one of the most boring Plague had ever hacked. He had no luck with the other eighteen names on Salander\x{2019}s list. One reason was that none of the people he tried to hack was online on a Saturday night. He was beginning to tire of this impossible task when Salander pinged him at <<10.30|9c:1>>.",
           ],
           [
             1,
@@ -943,7 +943,7 @@ At <<11.45|9m>> Plague pinged her.
           [
             1,
             '[ap 07:00] The Girl Who Kicked the Hornet\'s Nest - Stieg Larsson.epub (Stieg Larsson - The Girl Who Kicked the Hornet\'s Nest_split_030.html) - 7.00',
-            "They went down to Norr M\x{e4}larstrand for a coffee. Then she took him home and to bed for the rest of the afternoon. He left her at <<7.00|9c:0>>. She felt a vague sense of loss a moment after he kissed her cheek and was gone.",
+            "They went down to Norr M\x{e4}larstrand for a coffee. Then she took him home and to bed for the rest of the afternoon. He left her at <<7.00|9c:1>>. She felt a vague sense of loss a moment after he kissed her cheek and was gone.",
           ],
           [
             1,
@@ -1040,7 +1040,7 @@ At <<8.59|9m>> Borgsj\x{f6} called.
           [
             1,
             '[ap > 04:00] The Girl Who Kicked the Hornet\'s Nest - Stieg Larsson.epub (Stieg Larsson - The Girl Who Kicked the Hornet\'s Nest_split_031.html) - a little after 4.00',
-            'They did not shake hands. She left her card key on his desk and took the lift down to the garage. She parked her B.M.W. near the Millennium offices at <<a little after 4.00|9c:0>>.',
+            'They did not shake hands. She left her card key on his desk and took the lift down to the garage. She parked her B.M.W. near the Millennium offices at <<a little after 4.00|9c:1>>.',
           ],
           [
             1,
@@ -1095,7 +1095,7 @@ At <<8.59|9m>> Borgsj\x{f6} called.
           [
             1,
             '[ap 03:00] The Girl Who Kicked the Hornet\'s Nest - Stieg Larsson.epub (Stieg Larsson - The Girl Who Kicked the Hornet\'s Nest_split_035.html) - 3.00',
-            "\x{201c}Sure. But the night duty officer woke me. The silent alarm we installed at your apartment went off at <<3.00|9c:0>>.\x{201d}",
+            "\x{201c}Sure. But the night duty officer woke me. The silent alarm we installed at your apartment went off at <<3.00|9c:1>>.\x{201d}",
           ],
           [
             1,
@@ -1105,12 +1105,12 @@ At <<8.59|9m>> Borgsj\x{f6} called.
           [
             1,
             '[ap 03:17] The Girl Who Kicked the Hornet\'s Nest - Stieg Larsson.epub (Stieg Larsson - The Girl Who Kicked the Hornet\'s Nest_split_035.html) - 3.17',
-            "\x{201c}What we see here is S\x{e4}po officer Jonas Sandberg opening the door to Mikael\x{2019}s apartment at <<3.17|9c:0>>. He has his own keys. You will recall that Faulsson the locksmith made copies of the spare set when he and G\x{f6}ran M\x{e5}rtensson broke in several weeks ago.\x{201d}",
+            "\x{201c}What we see here is S\x{e4}po officer Jonas Sandberg opening the door to Mikael\x{2019}s apartment at <<3.17|9c:1>>. He has his own keys. You will recall that Faulsson the locksmith made copies of the spare set when he and G\x{f6}ran M\x{e5}rtensson broke in several weeks ago.\x{201d}",
           ],
           [
             1,
             '[ap ~ 05:00] The Girl Who Kicked the Hornet\'s Nest - Stieg Larsson.epub (Stieg Larsson - The Girl Who Kicked the Hornet\'s Nest_split_035.html) - around 5.00',
-            "\x{201c}I drive to your apartment at <<around 5.00|9c:0>>,\x{201d} Linder said. \x{201c}I find the following items: in your loudspeaker there are now approximately 180 grams of cocaine. I\x{2019}ve taken a sample which I have here.\x{201d}",
+            "\x{201c}I drive to your apartment at <<around 5.00|9c:1>>,\x{201d} Linder said. \x{201c}I find the following items: in your loudspeaker there are now approximately 180 grams of cocaine. I\x{2019}ve taken a sample which I have here.\x{201d}",
           ],
           [
             1,
@@ -1120,7 +1120,7 @@ At <<8.59|9m>> Borgsj\x{f6} called.
           [
             1,
             '[ap 04:00] The Girl Who Kicked the Hornet\'s Nest - Stieg Larsson.epub (Stieg Larsson - The Girl Who Kicked the Hornet\'s Nest_split_035.html) - 4.00',
-            "Berger called at <<4.00|9f>>. She was in a meeting with the newspaper publishers\x{2019} association sharing her views on the planned cutbacks at S.M.P., which had given rise to a major conflict in the industry after she had resigned. She would not be able to make it to their dinner before <<6.30|9c:0>>.",
+            "Berger called at <<4.00|9f>>. She was in a meeting with the newspaper publishers\x{2019} association sharing her views on the planned cutbacks at S.M.P., which had given rise to a major conflict in the industry after she had resigned. She would not be able to make it to their dinner before <<6.30|9c:1>>.",
           ],
           [
             1,
@@ -1135,7 +1135,7 @@ At <<8.59|9m>> Borgsj\x{f6} called.
           [
             1,
             '[ap 03:00] The Girl Who Kicked the Hornet\'s Nest - Stieg Larsson.epub (Stieg Larsson - The Girl Who Kicked the Hornet\'s Nest_split_035.html) - 3.00',
-            "\x{201c}Clinton has been in dialysis for most of the day and got back to Artillerigatan at <<3.00|9c:0>>. The only one who did anything of interest was Nystr\x{f6}m, although we aren\x{2019}t quite sure what it was he did.\x{201d}",
+            "\x{201c}Clinton has been in dialysis for most of the day and got back to Artillerigatan at <<3.00|9c:1>>. The only one who did anything of interest was Nystr\x{f6}m, although we aren\x{2019}t quite sure what it was he did.\x{201d}",
           ],
           [
             1,
@@ -1145,7 +1145,7 @@ At <<8.59|9m>> Borgsj\x{f6} called.
           [
             1,
             '[ap 06:20] The Girl Who Kicked the Hornet\'s Nest - Stieg Larsson.epub (Stieg Larsson - The Girl Who Kicked the Hornet\'s Nest_split_035.html) - 6.20',
-            "Blomkvist got to Samir\x{2019}s Cauldron at <<6.20|9c:0>>. Berger had just arrived and found a table near the bar, not far from the entrance. He kissed her on the cheek. They both ordered lamb stew and strong beers from the waiter.",
+            "Blomkvist got to Samir\x{2019}s Cauldron at <<6.20|9c:1>>. Berger had just arrived and found a table near the bar, not far from the entrance. He kissed her on the cheek. They both ordered lamb stew and strong beers from the waiter.",
           ],
           [
             1,
@@ -1160,7 +1160,7 @@ At <<8.59|9m>> Borgsj\x{f6} called.
           [
             1,
             '[ap 10:00] The Girl Who Kicked the Hornet\'s Nest - Stieg Larsson.epub (Stieg Larsson - The Girl Who Kicked the Hornet\'s Nest_split_036.html) - 10.00',
-            "Blomkvist had always wondered why the loudspeakers in the district court were so faint, discreet almost. He could hardly make out the words of the announcement that the trial vs Lisbeth Salander would begin in courtroom 5 at <<10.00|9c:0>>. But he had arrived in plenty of time and positioned himself to wait right by the entrance to the courtroom. He was one of the first to be let in. He chose a seat in the public gallery on the left-hand side of the room, where he would have the best view of the defence table. The seats filled up fast. Media interest had steadily increased in the weeks leading up to the trial, and over the past week Prosecutor Ekstr\x{f6}m had been interviewed daily.",
+            "Blomkvist had always wondered why the loudspeakers in the district court were so faint, discreet almost. He could hardly make out the words of the announcement that the trial vs Lisbeth Salander would begin in courtroom 5 at <<10.00|9c:1>>. But he had arrived in plenty of time and positioned himself to wait right by the entrance to the courtroom. He was one of the first to be let in. He chose a seat in the public gallery on the left-hand side of the room, where he would have the best view of the defence table. The seats filled up fast. Media interest had steadily increased in the weeks leading up to the trial, and over the past week Prosecutor Ekstr\x{f6}m had been interviewed daily.",
           ],
           [
             1,
@@ -1200,7 +1200,7 @@ At <<8.59|9m>> Borgsj\x{f6} called.
           [
             1,
             '[ap 00:30] The Girl Who Kicked the Hornet\'s Nest - Stieg Larsson.epub (Stieg Larsson - The Girl Who Kicked the Hornet\'s Nest_split_038.html) - 12.30',
-            "Judge Iversen banged his gavel at <<12.30|9c:0>> and decreed that district court proceedings were thereby resumed. He noticed that a third person had appeared at Advokat Giannini\x{2019}s table. It was Holger Palmgren in a wheelchair.",
+            "Judge Iversen banged his gavel at <<12.30|9c:1>> and decreed that district court proceedings were thereby resumed. He noticed that a third person had appeared at Advokat Giannini\x{2019}s table. It was Holger Palmgren in a wheelchair.",
           ],
           [
             1,
@@ -1250,12 +1250,12 @@ At <<8.59|9m>> Borgsj\x{f6} called.
           [
             1,
             '[ap 05:00] The Girl Who Kicked the Hornet\'s Nest - Stieg Larsson.epub (Stieg Larsson - The Girl Who Kicked the Hornet\'s Nest_split_040.html) - 5.00',
-            'The next morning Salander woke at <<5.00|9c:0>>. She got up, showered and had a coffee in the hotel bar on the ground floor. At <<7.00|9m>> she left the hotel and set out to buy mangos and apples. She took a taxi to the Peak and walked over to the apes. She was so early that few tourists had yet appeared, and she was practically alone with the animals.',
+            'The next morning Salander woke at <<5.00|9c:1>>. She got up, showered and had a coffee in the hotel bar on the ground floor. At <<7.00|9m>> she left the hotel and set out to buy mangos and apples. She took a taxi to the Peak and walked over to the apes. She was so early that few tourists had yet appeared, and she was practically alone with the animals.',
           ],
           [
             1,
             '[ap ~ 10:00] The Girl Who Kicked the Hornet\'s Nest - Stieg Larsson.epub (Stieg Larsson - The Girl Who Kicked the Hornet\'s Nest_split_040.html) - around 10.00',
-            "She drank slowly, did not talk to any of the other customers, and did not make any trouble. Her only activity apart from the consumption of alcohol seemed to be to play with a hand-held computer which she connected to a mobile now and then. He had several times tried to start a conversation but was met with a sullen silence. She seemed to avoid company. Sometimes, when there were too many people in the bar, she had moved outside to a table on the pavement, and at other times she had gone two doors down to an Italian restaurant and had dinner. Then she would come back to Harry\x{2019}s and order another Tullamore Dew. She usually left the bar at <<around 10.00|9c:0>> and made her way unsteadily off, always to the north.",
+            "She drank slowly, did not talk to any of the other customers, and did not make any trouble. Her only activity apart from the consumption of alcohol seemed to be to play with a hand-held computer which she connected to a mobile now and then. He had several times tried to start a conversation but was met with a sullen silence. She seemed to avoid company. Sometimes, when there were too many people in the bar, she had moved outside to a table on the pavement, and at other times she had gone two doors down to an Italian restaurant and had dinner. Then she would come back to Harry\x{2019}s and order another Tullamore Dew. She usually left the bar at <<around 10.00|9c:1>> and made her way unsteadily off, always to the north.",
           ],
           [
             1,
@@ -1275,12 +1275,12 @@ At <<8.59|9m>> Borgsj\x{f6} called.
           [
             1,
             '[ap 09:00] The Girl Who Kicked the Hornet\'s Nest - Stieg Larsson.epub (Stieg Larsson - The Girl Who Kicked the Hornet\'s Nest_split_042.html) - 9.00',
-            "Giannini met Salander in the bar of the S\x{f6}dra theatre at <<9.00|9c:0>>. Salander was drinking beer and was already coming to the end of her second glass.",
+            "Giannini met Salander in the bar of the S\x{f6}dra theatre at <<9.00|9c:1>>. Salander was drinking beer and was already coming to the end of her second glass.",
           ],
           [
             1,
             '[ap 06:00] The Girl Who Kicked the Hornet\'s Nest - Stieg Larsson.epub (Stieg Larsson - The Girl Who Kicked the Hornet\'s Nest_split_042.html) - 6.00',
-            "On December 18, the Sunday before Christmas, Salander woke at <<6.00|9c:0>> and remembered that she had to buy a Christmas present for Palmgren. For a moment she wondered whether there was anyone else she should buy presents for \x{2013} Giannini perhaps. She got up and took a shower in no particular hurry, and ate a breakfast of toast with cheese and marmalade and a coffee.",
+            "On December 18, the Sunday before Christmas, Salander woke at <<6.00|9c:1>> and remembered that she had to buy a Christmas present for Palmgren. For a moment she wondered whether there was anyone else she should buy presents for \x{2013} Giannini perhaps. She got up and took a shower in no particular hurry, and ate a breakfast of toast with cheese and marmalade and a coffee.",
           ],
           [
             1,
@@ -1300,6 +1300,6 @@ At <<8.59|9m>> Borgsj\x{f6} called.
           [
             1,
             '[ap ~ 06:00] The Girl Who Kicked the Hornet\'s Nest - Stieg Larsson.epub (Stieg Larsson - The Girl Who Kicked the Hornet\'s Nest_split_042.html) - around 6.00',
-            "\x{201c}The Svavelsj\x{f6} mob was arrested, but they put up quite a fight. There was a shoot-out and the police had to send for a back-up team from Stockholm. The bikers surrendered at <<around 6.00|9c:0>>.\x{201d}",
+            "\x{201c}The Svavelsj\x{f6} mob was arrested, but they put up quite a fight. There was a shoot-out and the police had to send for a back-up team from Stockholm. The bikers surrendered at <<around 6.00|9c:1>>.\x{201d}",
           ],
         ];

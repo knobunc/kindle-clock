@@ -157,13 +157,13 @@ P ART T WO',
           [
             1,
             '[ap ~ 06:30] The Wild Rose - Jennifer Donnelly.epub (text/part63.xhtml) - around six-thirty',
-            "\x{201c}London. He went yesterday evening and spent the night. He was due back <<around six-thirty|5k:1>>. I don\x{2019}t know what\x{2019}s keeping him.\x{201d}",
+            "\x{201c}London. He went yesterday evening and spent the night. He was due back <<around six-thirty|5k:0>>. I don\x{2019}t know what\x{2019}s keeping him.\x{201d}",
           ],
           [
             1,
             '[ap 08:00] The Wild Rose - Jennifer Donnelly.epub (text/part64.xhtml) - eight',
             "\x{201c}I would be delighted to,\x{201d} Willa said.
-\x{201c}Wonderful. I will call for you at <<eight|9c:0>>.\x{201d}
+\x{201c}Wonderful. I will call for you at <<eight|9c:1>>.\x{201d}
 Willa suddenly looked down at her dress, not meeting Max\x{2019}s eyes.",
           ],
           [
@@ -277,7 +277,7 @@ It had been an uneventful few hours since he\x{2019}d left port, but now, as the
             1,
             '[ap 02:00] The Wild Rose - Jennifer Donnelly.epub (text/part9.xhtml) - two',
             "But if it makes you happy, then yes, you have my permission to take her walking tomorrow.\x{201d}
-\x{201c}Thank you, sir,\x{201d} he said. \x{201c}I\x{2019}ll call at <<two|9c:0>>, shall I?\x{201d}
+\x{201c}Thank you, sir,\x{201d} he said. \x{201c}I\x{2019}ll call at <<two|9c:1>>, shall I?\x{201d}
 \x{201c}Call whenever you like,\x{201d} the reverend said.",
           ],
           [

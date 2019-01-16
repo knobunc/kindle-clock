@@ -23,7 +23,7 @@ $VAR1 = [
           [
             1,
             '[ap 02:12] Go in Action - William Kennedy.epub (kindle_split_010.html) - 2.12',
-            "Listing <<2.12|5a:1>>. search/search.go: lines 11\x{2013}57
+            "Listing <<2.12|5a:0>>. search/search.go: lines 11\x{2013}57
       
       11 // Run performs the search logic.
 12 func Run(searchTerm string) {
@@ -258,7 +258,7 @@ $VAR1 = [
           [
             1,
             '[ap 02:25] Go in Action - William Kennedy.epub (kindle_split_010.html) - 2.25',
-            "Listing <<2.25|5a:1>>. search/search.go: lines 44\x{2013}57
+            "Listing <<2.25|5a:0>>. search/search.go: lines 44\x{2013}57
       
       44     // Launch a goroutine to monitor when all the work is done.
 45     go func() {
@@ -602,7 +602,7 @@ Build Successful
           [
             1,
             '[ap 02:41] Go in Action - William Kennedy.epub (kindle_split_010.html) - 2.41',
-            "Listing <<2.41|5a:1>>. search/search.go: lines 44\x{2013}57
+            "Listing <<2.41|5a:0>>. search/search.go: lines 44\x{2013}57
       
       44     // Launch a goroutine to monitor when all the work is done.
 45     go func() {
@@ -624,7 +624,7 @@ Build Successful
           [
             1,
             '[ap 02:42] Go in Action - William Kennedy.epub (kindle_split_010.html) - 2.42',
-            "Listing <<2.42|5a:1>>. search/match.go: lines 29\x{2013}32
+            "Listing <<2.42|5a:0>>. search/match.go: lines 29\x{2013}32
       
       29     // Write the results to the channel.
 30     for _, result := range searchResults {
@@ -5124,7 +5124,7 @@ the slice data, even temporarily.
           [
             1,
             '[ap 08:36] Go in Action - William Kennedy.epub (kindle_split_016.html) - 8.36',
-            "Listing <<8.36|5a:1>>. Documentation for the io.Reader interface
+            "Listing <<8.36|5a:0>>. Documentation for the io.Reader interface
       
       (1) Read reads up to len(p) bytes into p. It returns the number of bytes
 read (0 <= n <= len(p)) and any error encountered. Even if Read returns

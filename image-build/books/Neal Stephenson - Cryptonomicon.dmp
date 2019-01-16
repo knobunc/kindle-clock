@@ -154,7 +154,7 @@ $VAR1 = [
           [
             1,
             '[00:00] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/9780061792571_Chapter_17.xhtml) - 0',
-            "What of the chain? Its position, defined by C, begins at <<0|9c:1>> and reaches 1 when its next link moves forward to the fatal position,
+            "What of the chain? Its position, defined by C, begins at <<0|9c:0>> and reaches 1 when its next link moves forward to the fatal position,
                then 2 and so on. The chain must move in synch with the teeth on the sprocket at the
                center of the rear wheel, and that sprocket has n teeth, and so after a complete revolution of the rear wheel, when \x{3b8} = 0 again, C = n. After a second complete revolution of the rear wheel, once again \x{3b8} = 0 but now C = 2n. The next time it\x{2019}s C = 3n and so on. But remember that the chain is not an infinite linear thing, but a loop
                having only l positions; at C = l it loops back around to C = 0 and repeats the cycle. So when calculating the value of C it is necessary to do modular arithmetic\x{2014}that is, if the chain has a hundred links

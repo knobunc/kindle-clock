@@ -32,7 +32,7 @@ $VAR1 = [
           [
             1,
             '[ap 01:00] The Annotated Alice_ The Definitive Editio - Lewis Carroll.epub (OEBPS/Text/Book1_c05.html) - one',
-            "\x{201c}Well, be off, then!\x{201d} said the Pigeon in a sulky tone, as it settled down again into its nest. Alice crouched down among the trees as well as she could, for her neck kept getting entangled among the branches, and every now and then she had to stop and untwist it. After a while she remembered that she still held the pieces of mushroom in her hands, and she set to work very carefully, nibbling first at <<one|9c:0>> and then at the other, and growing sometimes taller, and sometimes shorter, until she had succeeded in bringing herself down to her usual height.",
+            "\x{201c}Well, be off, then!\x{201d} said the Pigeon in a sulky tone, as it settled down again into its nest. Alice crouched down among the trees as well as she could, for her neck kept getting entangled among the branches, and every now and then she had to stop and untwist it. After a while she remembered that she still held the pieces of mushroom in her hands, and she set to work very carefully, nibbling first at <<one|9c:1>> and then at the other, and growing sometimes taller, and sometimes shorter, until she had succeeded in bringing herself down to her usual height.",
           ],
           [
             1,
@@ -67,7 +67,7 @@ $VAR1 = [
           [
             1,
             '[ap 02:00] The Annotated Alice_ The Definitive Editio - Lewis Carroll.epub (OEBPS/Text/Book1_c08.html) - Two',
-            "Five and Seven said nothing, but looked at <<Two|9c:0>>. Two began, in a low voice, \x{201c}Why, the fact is, you see, Miss, this here ought to have been a red rose-tree, and we put a white one in by mistake; and, if the Queen was to find it out, we should all have our heads cut off, you know. So you see, Miss, we\x{2019}re doing our best, afore she comes, to\x{2014}\x{201d} At this moment, Five, who had been anxiously looking across the garden, called out \x{201c}The Queen! The Queen!\x{201d} and the three gardeners instantly threw themselves flat upon their faces. There was a sound of many footsteps, and Alice looked round, eager to see the Queen.",
+            "Five and Seven said nothing, but looked at <<Two|9c:1>>. Two began, in a low voice, \x{201c}Why, the fact is, you see, Miss, this here ought to have been a red rose-tree, and we put a white one in by mistake; and, if the Queen was to find it out, we should all have our heads cut off, you know. So you see, Miss, we\x{2019}re doing our best, afore she comes, to\x{2014}\x{201d} At this moment, Five, who had been anxiously looking across the garden, called out \x{201c}The Queen! The Queen!\x{201d} and the three gardeners instantly threw themselves flat upon their faces. There was a sound of many footsteps, and Alice looked round, eager to see the Queen.",
           ],
           [
             1,
@@ -113,12 +113,12 @@ Tweedledee looked at his watch, and said \x{201c}<<Half-past four|10>>.\x{201d}
           [
             1,
             '[ap 07:00] The Annotated Alice_ The Definitive Editio - Lewis Carroll.epub (OEBPS/Text/Book2_c06.html) - seven',
-            "\x{201c}Seven years and six months!\x{201d} Humpty Dumpty repeated thoughtfully. \x{201c}An uncomfortable sort of age. Now if you\x{2019}d asked my advice, I\x{2019}d have said \x{2018}Leave off at <<seven|9c:0>>\x{2019}\x{2014}but it\x{2019}s too late now.\x{201d}",
+            "\x{201c}Seven years and six months!\x{201d} Humpty Dumpty repeated thoughtfully. \x{201c}An uncomfortable sort of age. Now if you\x{2019}d asked my advice, I\x{2019}d have said \x{2018}Leave off at <<seven|9c:1>>\x{2019}\x{2014}but it\x{2019}s too late now.\x{201d}",
           ],
           [
             1,
             '[ap 07:00] The Annotated Alice_ The Definitive Editio - Lewis Carroll.epub (OEBPS/Text/Book2_c06.html) - seven',
-            "\x{201c}One ca\x{2019}n\x{2019}t, perhaps,\x{201d} said Humpty Dumpty; \x{201c}but two can. With proper assistance, you might have left off at <<seven|9c:0>>.\x{201d}7",
+            "\x{201c}One ca\x{2019}n\x{2019}t, perhaps,\x{201d} said Humpty Dumpty; \x{201c}but two can. With proper assistance, you might have left off at <<seven|9c:1>>.\x{201d}7",
           ],
           [
             1,
@@ -166,6 +166,6 @@ And then don\x{2019}t kick or push, just knock.",
           [
             1,
             '[ap 01:00] The Annotated Alice_ The Definitive Editio - Lewis Carroll.epub (OEBPS/Text/Book3_c01.html) - one',
-            "\x{201c}You\x{2019}d be cross too, if you\x{2019}d a wig like mine,\x{201d} the Wasp went on. \x{201c}They jokes at <<one|9c:0>>. And they worrits one.7 And then I gets cross. And I gets cold. And I gets under a tree. And I gets a yellow handkerchief.8 And I ties up my face\x{2014}as at the present.\x{201d}",
+            "\x{201c}You\x{2019}d be cross too, if you\x{2019}d a wig like mine,\x{201d} the Wasp went on. \x{201c}They jokes at <<one|9c:1>>. And they worrits one.7 And then I gets cross. And I gets cold. And I gets under a tree. And I gets a yellow handkerchief.8 And I ties up my face\x{2014}as at the present.\x{201d}",
           ],
         ];

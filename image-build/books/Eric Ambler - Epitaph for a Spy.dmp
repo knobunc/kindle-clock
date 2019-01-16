@@ -48,7 +48,7 @@ $VAR1 = [
           [
             1,
             '[ap 06:00] Epitaph for a Spy - Eric Ambler.epub (OEBPS/Ambl_9780307484345_epub_c02_r1.htm) - six',
-            "\x{201c}Very well. I left my suitcase in Toulon station and went for a walk down to the waterfront. I had not seen Toulon before and there was another bus at <<six|9c:0>>.\x{201d}",
+            "\x{201c}Very well. I left my suitcase in Toulon station and went for a walk down to the waterfront. I had not seen Toulon before and there was another bus at <<six|9c:1>>.\x{201d}",
           ],
           [
             1,
@@ -153,13 +153,13 @@ $VAR1 = [
             '[ap 10:30] Epitaph for a Spy - Eric Ambler.epub (OEBPS/Ambl_9780307484345_epub_c11_r1.htm) - ten thirty',
             "\x{201c}While I was down in the village. Between about nine and <<ten thirty|5k:0>>.\x{201d}
 \x{201c}But it was <<about nine thirty|3b>> when we saw you talking to the Major.\x{201d}
-\x{201c}Yes, but I left my room at <<nine|9c:0>>.\x{201d}",
+\x{201c}Yes, but I left my room at <<nine|9c:1>>.\x{201d}",
           ],
           [
             1,
             '[ap ~ 09:30] Epitaph for a Spy - Eric Ambler.epub (OEBPS/Ambl_9780307484345_epub_c11_r1.htm) - about nine thirty',
             "\x{201c}But it was <<about nine thirty|3b>> when we saw you talking to the Major.\x{201d}
-\x{201c}Yes, but I left my room at <<nine|9c:0>>.\x{201d}
+\x{201c}Yes, but I left my room at <<nine|9c:1>>.\x{201d}
 Skelton leaned forward confidentially. \x{201c}Say, you don\x{2019}t suppose the Major was engaging you in conversation while his wife did the job, do you?\x{201d}",
           ],
           [

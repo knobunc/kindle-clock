@@ -46,6 +46,11 @@ $VAR1 = [
           ],
           [
             1,
+            '[~ 11:00] The Franchise Affair - Josephine Tey.epub (ops/xhtml/ch06.html) - elevenses',
+            "\x{201c}Take it,\x{201d} Stanley said. \x{201c}We had it for our <<elevenses|13>>. There\x{2019}s nothing in it.\x{201d}",
+          ],
+          [
+            1,
             '[09:00] The Franchise Affair - Josephine Tey.epub (ops/xhtml/ch06.html) - nine this morning',
             "\x{201c}Grant was burning the wires at <<nine this morning|9a>>. But there\x{2019}s nothing they can do. Just grin and bear it. The police are always fair game. Nothing you can do, either, if it comes to that.\x{201d}",
           ],

@@ -7,7 +7,7 @@ $VAR1 = [
           [
             1,
             '[ap 10:00] A Swell-Looking Babe - Jim Thompson.epub (51.xhtml) - ten',
-            "\"Well, now, of course,\" he murmured, with unaccustomed unction. \"Fifteen dollars is rather high. I believe\x{2026} yes, I do have one room at <<ten|9c:0>>. I'll let you have that.\"",
+            "\"Well, now, of course,\" he murmured, with unaccustomed unction. \"Fifteen dollars is rather high. I believe\x{2026} yes, I do have one room at <<ten|9c:1>>. I'll let you have that.\"",
           ],
           [
             1,
@@ -193,7 +193,7 @@ Bascom picked up the pencil. Then, suddenly, he laughed. Softly, amusedly. Sudde
           [
             1,
             '[ap 01:00] A Swell-Looking Babe - Jim Thompson.epub (67.xhtml) - one',
-            '"Suppose I can\'t be there right at <<one|9c:0>>? I might get tied up on a call and-"',
+            '"Suppose I can\'t be there right at <<one|9c:1>>? I might get tied up on a call and-"',
           ],
           [
             1,
@@ -228,6 +228,6 @@ Bascom picked up the pencil. Then, suddenly, he laughed. Softly, amusedly. Sudde
           [
             1,
             '[ap ~ 10:15] A Swell-Looking Babe - Jim Thompson.epub (71.xhtml) - approximately ten-fifteen',
-            "\"You're telling me what they think?\" Kossmeyer leaned forward grimly. \"Save it. I heard enough already to make me sick\x{2026} You left the house at <<approximately ten-fifteen|9c:0>>. Aside from what anyone might say, you had to leave at about that time to get to the hotel and into your uniform by eleven. Between <<eleven|20>> and <<eleven-thirty|5k:0>>, according to a sworn statement of the medical examiner, your farther died. In other words, he was in very bad shape, near the point of death, when you left the house. Now\" \x{2013} the attorney suddenly smacked a fist in his palm-\"now, Rhodes. Perhaps you can tell me this. You say you didn't want your father to the, and yet he was dying before you left for work. He might easily have been saved by prompt medical attention. So I ask you, Rhodes\" \x{2013} smack \x{2013} \"I demand to know, Rhodes\" \x{2013} smack, smack-\"why you did not intervene to save his life? Why, instead, you walked callously out of the house and left this helpless old man to the!\"",
+            "\"You're telling me what they think?\" Kossmeyer leaned forward grimly. \"Save it. I heard enough already to make me sick\x{2026} You left the house at <<approximately ten-fifteen|9c:1>>. Aside from what anyone might say, you had to leave at about that time to get to the hotel and into your uniform by eleven. Between <<eleven|20>> and <<eleven-thirty|5k:0>>, according to a sworn statement of the medical examiner, your farther died. In other words, he was in very bad shape, near the point of death, when you left the house. Now\" \x{2013} the attorney suddenly smacked a fist in his palm-\"now, Rhodes. Perhaps you can tell me this. You say you didn't want your father to the, and yet he was dying before you left for work. He might easily have been saved by prompt medical attention. So I ask you, Rhodes\" \x{2013} smack \x{2013} \"I demand to know, Rhodes\" \x{2013} smack, smack-\"why you did not intervene to save his life? Why, instead, you walked callously out of the house and left this helpless old man to the!\"",
           ],
         ];

@@ -12,7 +12,7 @@ $VAR1 = [
           [
             1,
             '[ap 06:30] Zack - William Bell.epub (OEBPS/Bell_9780385674096_epub_c17_r1.htm) - six-thirty',
-            'I have never been a morning person. Although I had set the alarm for <<six-thirty|5k:0>> it was <<nine|9c:0>> before I hauled myself out of bed, rubbed the sleep from my eyes, showered and dressed. After Jen had left the night before, I had lain awake listening to the breeze outside my open window, and the Grand River flowing along, wondering if the whole idea of the trip was a mistake. It was late before I fell asleep.',
+            'I have never been a morning person. Although I had set the alarm for <<six-thirty|5k:0>> it was <<nine|9c:1>> before I hauled myself out of bed, rubbed the sleep from my eyes, showered and dressed. After Jen had left the night before, I had lain awake listening to the breeze outside my open window, and the Grand River flowing along, wondering if the whole idea of the trip was a mistake. It was late before I fell asleep.',
           ],
           [
             1,
@@ -36,8 +36,13 @@ $VAR1 = [
           ],
           [
             1,
+            "[ap ~ 00:00] Zack - William Bell.epub (OEBPS/Bell_9780385674096_epub_c23_r1.htm) - \x{2018}round twelve",
+            "He gnawed the last shred of meat from a chicken bone and dropped it on his plate. When he spoke there was a hard edge to his voice. \x{201c}When Cal and Ned were younger than you, <<\x{2018}round twelve|9e>>, I guess, they was real hellions. Got mixed up in the civil rights movement back there in the sixties. At Selma, Cal managed to get hisself in the first row of a demonstration. A police dog got at him. Chewed his arm up real bad before the cop got it under control. Probably wasn\x{2019}t in much of a hurry, the cop. Cal almost bled to death.\x{201d}",
+          ],
+          [
+            1,
             '[ap 08:00] Zack - William Bell.epub (OEBPS/Bell_9780385674096_epub_c24_r1.htm) - eight',
-            'I woke up at <<eight|9c:0>>, pulled on my clothes and padded down the hall to the kitchen. A pot of coffee simmered on the stove. Lucas was nowhere to be seen.',
+            'I woke up at <<eight|9c:1>>, pulled on my clothes and padded down the hall to the kitchen. A pot of coffee simmered on the stove. Lucas was nowhere to be seen.',
           ],
           [
             1,

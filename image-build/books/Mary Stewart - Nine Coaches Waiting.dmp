@@ -200,7 +200,12 @@ $VAR1 = [
           [
             1,
             '[ap 00:00] Nine Coaches Waiting - Mary Stewart.epub (OEBPS/Chapter018.html) - twelve',
-            "Philippe said, with excitement colouring the thin whisper: \x{2018}He\x{2019}s coming at <<twelve|9c:0>>. Did you hear?\x{2019}",
+            "Philippe said, with excitement colouring the thin whisper: \x{2018}He\x{2019}s coming at <<twelve|9c:1>>. Did you hear?\x{2019}",
+          ],
+          [
+            1,
+            '[ap << 09:00] Nine Coaches Waiting - Mary Stewart.epub (OEBPS/Chapter018.html) - far off nine',
+            "\x{2018}Yes. I don\x{2019}t suppose it\x{2019}s <<far off nine|9f>> now. Only three more hours to wait, mon gars. And they\x{2019}ve gone chasing off to \x{c9}vian.\x{2019}",
           ],
           [
             1,

@@ -7,7 +7,7 @@ $VAR1 = [
           [
             1,
             '[ap 02:00] What Bloody Man Is That - Simon Brett.epub (index_split_011.html) - two',
-            'When the company assembled in the auditorium at <<two|9c:0>>, however, he made it clear that there was not time for further discussion.',
+            'When the company assembled in the auditorium at <<two|9c:1>>, however, he made it clear that there was not time for further discussion.',
           ],
           [
             1,
@@ -44,7 +44,7 @@ $VAR1 = [
           [
             1,
             '[ap 06:00] What Bloody Man Is That - Simon Brett.epub (index_split_013.html) - six',
-            "Equally, he knew that what he would do would be to make everything worse by hanging around the theatre until Norman\x{2019}s bar opened at <<six|9c:0>>, and then stay there far too long.",
+            "Equally, he knew that what he would do would be to make everything worse by hanging around the theatre until Norman\x{2019}s bar opened at <<six|9c:1>>, and then stay there far too long.",
           ],
           [
             1,
@@ -90,7 +90,7 @@ There was no light in the passage outside. Oh no, the Stage Doorman must have th
           ],
           [
             1,
-            '[20:00] What Bloody Man Is That - Simon Brett.epub (index_split_023.html) - eight in the evening',
-            "HIS IMPERSONATION of Felicia Chatterton was now becoming one of John B. Murgatroyd\x{2019}s party pieces. \x{2018}But it\x{2019}s just so difficult,\x{2019} he complained huskily in the dressing room on the Wednesday afternoon, \x{2018}to try and give a full performance at this time of day. I mean, one\x{2019}s body-clock is tuned to peak round <<eight in the evening|5>>, not straight after lunch.\x{2019}",
+            '[~ 20:00] What Bloody Man Is That - Simon Brett.epub (index_split_023.html) - round eight in the evening',
+            "HIS IMPERSONATION of Felicia Chatterton was now becoming one of John B. Murgatroyd\x{2019}s party pieces. \x{2018}But it\x{2019}s just so difficult,\x{2019} he complained huskily in the dressing room on the Wednesday afternoon, \x{2018}to try and give a full performance at this time of day. I mean, one\x{2019}s body-clock is tuned to peak <<round eight in the evening|9h>>, not straight after lunch.\x{2019}",
           ],
         ];

@@ -52,7 +52,7 @@ $VAR1 = [
           [
             1,
             '[ap 07:00] Harry Potter and the Order of the Phoenix - J. K. Rowling.epub (index_split_009.html) - seven',
-            "\x{201c}If you had read my report you would know that the term is \x{2018}firearms,\x{2019} \x{201d} said Mr. Weasley coolly. \x{201c}And I\x{2019}m afraid you\x{2019}ll have to wait for information on motorcycles, we\x{2019}re extremely busy at the moment.\x{201d} He dropped his voice and said, \x{201c}If you can get away before <<seven|9c:0>>, Molly\x{2019}s making meatballs.\x{201d}",
+            "\x{201c}If you had read my report you would know that the term is \x{2018}firearms,\x{2019} \x{201d} said Mr. Weasley coolly. \x{201c}And I\x{2019}m afraid you\x{2019}ll have to wait for information on motorcycles, we\x{2019}re extremely busy at the moment.\x{201d} He dropped his voice and said, \x{201c}If you can get away before <<seven|9c:1>>, Molly\x{2019}s making meatballs.\x{201d}",
           ],
           [
             1,
@@ -216,8 +216,8 @@ $VAR1 = [
           ],
           [
             1,
-            "[03:00] Harry Potter and the Order of the Phoenix - J. K. Rowling.epub (index_split_022.html) - three in the mornin\x{2019}",
-            "\x{201c}Well, we waited till morning, didn\x{2019} want ter go sneakin\x{2019} up on \x{2019}em in the dark, fer our own safety,\x{201d} said Hagrid. \x{201c} \x{2019}Bout <<three in the mornin\x{2019}|5>> they fell asleep jus\x{2019} where they was sittin\x{2019}. We didn\x{2019} dare sleep. Fer one thing, we wanted ter make sure none of \x{2019}em woke up an\x{2019} came up where we were, an\x{2019} fer another, the snorin\x{2019} was unbelievable. Caused an avalanche near mornin\x{2019}.",
+            "[~ 03:00] Harry Potter and the Order of the Phoenix - J. K. Rowling.epub (index_split_022.html) - \x{2019}Bout three in the mornin\x{2019}",
+            "\x{201c}Well, we waited till morning, didn\x{2019} want ter go sneakin\x{2019} up on \x{2019}em in the dark, fer our own safety,\x{201d} said Hagrid. \x{201c} <<\x{2019}Bout three in the mornin\x{2019}|5>> they fell asleep jus\x{2019} where they was sittin\x{2019}. We didn\x{2019} dare sleep. Fer one thing, we wanted ter make sure none of \x{2019}em woke up an\x{2019} came up where we were, an\x{2019} fer another, the snorin\x{2019} was unbelievable. Caused an avalanche near mornin\x{2019}.",
           ],
           [
             1,
@@ -264,7 +264,7 @@ He was gone. Sirius glared after him, his wand at his side.",
           [
             1,
             '[ap 00:00] Harry Potter and the Order of the Phoenix - J. K. Rowling.epub (index_split_028.html) - twelve',
-            "\x{201c}But, but,\x{201d} spluttered Harry, \x{201c}but \x{2014} you told me to meet you at <<twelve|9c:0>> and to bring her along, how was I supposed to do that without telling her \x{2014} ?\x{201d}",
+            "\x{201c}But, but,\x{201d} spluttered Harry, \x{201c}but \x{2014} you told me to meet you at <<twelve|9c:1>> and to bring her along, how was I supposed to do that without telling her \x{2014} ?\x{201d}",
           ],
           [
             1,

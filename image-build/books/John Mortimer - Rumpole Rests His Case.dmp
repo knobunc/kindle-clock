@@ -17,7 +17,7 @@ $VAR1 = [
           [
             1,
             '[ap 08:00] Rumpole Rests His Case - John Mortimer.epub (index_split_010.html) - eight',
-            "\x{2018}Probably. He's called Tom Gurnley.\x{2019} And then her phone rang. Before I could express my amazement she was smiling, one hand on her hip, chirping happily into the instrument. \x{2018}Wonderful, darling. The Ivy at <<eight|9c:0>>? No worries. I've got a babysitter. Yes\x{2026} Love you too!\x{2019}",
+            "\x{2018}Probably. He's called Tom Gurnley.\x{2019} And then her phone rang. Before I could express my amazement she was smiling, one hand on her hip, chirping happily into the instrument. \x{2018}Wonderful, darling. The Ivy at <<eight|9c:1>>? No worries. I've got a babysitter. Yes\x{2026} Love you too!\x{2019}",
           ],
           [
             1,
@@ -63,7 +63,7 @@ $VAR1 = [
           [
             1,
             '[ap ~ 10:30] Rumpole Rests His Case - John Mortimer.epub (index_split_013.html) - around ten-thirty',
-            "\x{2018}Have to be a bit late, I'm afraid. Sam is having dinner with the money people. But he'll be back at my house <<around ten-thirty|5k:1>>, if you'd like to call in for a nightcap?\x{2019}",
+            "\x{2018}Have to be a bit late, I'm afraid. Sam is having dinner with the money people. But he'll be back at my house <<around ten-thirty|5k:0>>, if you'd like to call in for a nightcap?\x{2019}",
           ],
           [
             1,

@@ -1,57 +1,3 @@
-"ap 02:12"|2.12|"Listing 2.12. search/search.go: lines 11–57
-      
-      11 // Run performs the search logic.
-12 func Run(searchTerm string) {
-13     // Retrieve the list of feeds to search through.
-14     feeds, err := RetrieveFeeds()
-15     if err != nil {
-16         log.Fatal(err)
-17     }
-18
-19     // Create a unbuffered channel to receive match results.
-20     results := make(chan *Result)
-21
-22     // Setup a wait group so we can process all the feeds.
-23     var waitGroup sync.WaitGroup
-24
-25     // Set the number of goroutines we need to wait for while
-
-26     // they process the individual feeds.
-27     waitGroup.Add(len(feeds))
-28
-29     // Launch a goroutine for each feed to find the results.
-30     for _, feed := range feeds {
-31         // Retrieve a matcher for the search.
-32         matcher, exists := matchers[feed.Type]
-33         if !exists {
-34             matcher = matchers[""default""]
-35         }
-36
-37         // Launch the goroutine to perform the search.
-38         go func(matcher Matcher, feed *Feed) {
-39             Match(matcher, feed, searchTerm, results)
-40             waitGroup.Done()
-41         }(matcher, feed)
-42     }
-43
-44     // Launch a goroutine to monitor when all the work is done.
-45     go func() {
-46         // Wait for everything to be processed.
-47         waitGroup.Wait()
-48
-49         // Close the channel to signal to the Display
-50         // function that we can exit the program.
-51         close(results)
-52     }()
-53
-54     // Start displaying results as they are available and
-55     // return after the final result is displayed.
-56     Display(results)
-57 }
-      
-      The Run function contains the main control logic for the program. It’s a good representation of how Go programs can be structured
-         to handle the launching and synchronization of goroutines that run concurrently. Let’s walk through the logic section by section,
-         and then explore the other code files that lend their support."|"Go in Action"|"William Kennedy"
 "ap 02:21"|2.21|"Listing 2.21. search/search.go: lines 31–35
       
       31         // Retrieve a matcher for the search.
@@ -67,27 +13,6 @@
          the key lookup, and the second value, if specified, is a Boolean flag that reports whether the key exists or not. When a key
          doesn’t exist, the map will return the zero value for the type of value being stored in the map. When the key does exist,
          the map will return a copy of the value for that key."|"Go in Action"|"William Kennedy"
-"ap 02:25"|2.25|"Listing 2.25. search/search.go: lines 44–57
-      
-      44     // Launch a goroutine to monitor when all the work is done.
-45     go func() {
-46         // Wait for everything to be processed.
-
-47         waitGroup.Wait()
-48
-49         // Close the channel to signal to the Display
-50         // function that we can exit the program.
-51         close(results)
-52     }()
-53
-54     // Start displaying results as they are available and
-55     // return after the final result is displayed.
-56     Display(results)
-57 }
-      
-      The code between lines 45 and 56 is tricky to explain until we dive deeper into some of the other code in the search package. For now let’s describe what we see and come back to it later to understand the mechanics. On lines 45 through 52
-         we launch yet another anonymous function as a goroutine. This anonymous function takes no parameters and uses closures to
-         access both the WaitGroup and results variables. This goroutine calls the method Wait on the WaitGroup value, which is causing the goroutine to block until the count for the WaitGroup hits zero. Once that happens, the goroutine calls the built-in function close on the channel, which as you’ll see causes the program to terminate."|"Go in Action"|"William Kennedy"
 "ap 02:29"|2.29|"Listing 2.29. feed.go: lines 17–36
       
       17 // RetrieveFeeds reads and unmarshals the feed data file.
@@ -114,33 +39,6 @@
       Let’s start with the declaration of the function on line 18. The function takes no parameters and returns two values. The
          first return value is a slice of pointers to Feed type values. The second return value is an error value that reports back if the function call was successful. As you’ll continue
          to see, returning error values is common practice in this code example and throughout the standard library."|"Go in Action"|"William Kennedy"
-"ap 02:41"|2.41|"Listing 2.41. search/search.go: lines 44–57
-      
-      44     // Launch a goroutine to monitor when all the work is done.
-45     go func() {
-46         // Wait for everything to be processed.
-47         waitGroup.Wait()
-48
-49         // Close the channel to signal to the Display
-50         // function that we can exit the program.
-51         close(results)
-52     }()
-53
-54     // Start displaying results as they are available and
-55     // return after the final result is displayed.
-56     Display(results)
-57 }
-      
-      The goroutine on lines 45 through 52 waits on the waitGroup for all the search goroutines to call the Done method. Once the last search goroutine calls Done, the Wait method returns, and then the code on line 51 closes the results channel. Once the channel is closed, the goroutine terminates and is no more."|"Go in Action"|"William Kennedy"
-"ap 02:42"|2.42|"Listing 2.42. search/match.go: lines 29–32
-      
-      29     // Write the results to the channel.
-30     for _, result := range searchResults {
-31         results <- result
-32     }
-      
-      If we look back at the for range loop on lines 40 through 42 of the match.go code file, we can connect the writing of the results, the closing of the channel,
-         and the processing of results all together."|"Go in Action"|"William Kennedy"
 "ap 05:28"|5.28|"Listing 5.28. golang.org/src/time/time.go: lines 39–55
       
       39 type Time struct {
@@ -280,33 +178,6 @@ the slice data, even temporarily.
       
       The rules in listing 8.34 come from the standard library. They mean that the implementation of the Write method should attempt to write the entire length of the byte slice that’s passed in. But if that isn’t possible, then the method must return an error. The number of bytes reported as
          written can be less than the length of the byte slice, but never more. Finally, the byte slice must never be modified in any way."|"Go in Action"|"William Kennedy"
-"ap 08:36"|8.36|"Listing 8.36. Documentation for the io.Reader interface
-      
-      (1) Read reads up to len(p) bytes into p. It returns the number of bytes
-read (0 <= n <= len(p)) and any error encountered. Even if Read returns
-n < len(p), it may use all of p as scratch space during the call. If
-some data is available but not len(p) bytes, Read conventionally
-returns what is available instead of waiting for more.
-
-(2) When Read encounters an error or end-of-file condition after
-successfully reading n > 0 bytes, it returns the number of bytes read.
-It may return the (non-nil) error from the same call or return the
-error (and n == 0) from a subsequent call. An instance of this general
-case is that a Reader returning a non-zero number of bytes at the end
-of the input stream may return either err == EOF or err == nil. The next
-Read should return 0, EOF regardless.
-
-(3) Callers should always process the n > 0 bytes returned before
-considering the error err. Doing so correctly handles I/O errors that
-happen after reading some bytes and also both of the allowed EOF
-behaviors.
-
-(4) Implementations of Read are discouraged from returning a zero byte
-count with a nil error, and callers should treat that situation as a
-no-op.
-      
-      There are four rules listed in the standard library about implementing the Read method. The first rule states that the implementation should attempt to read the entire length of the byte slice that’s passed in. It’s okay to read less than the entire length, and it shouldn’t wait to read the entire length if
-         that much data isn’t available at the time of the call."|"Go in Action"|"William Kennedy"
 15:04|15:04|"Listing 9.12. listing12_test.go: lines 01–41
       
       01 // Sample test to show how to mock an HTTP GET call internally.

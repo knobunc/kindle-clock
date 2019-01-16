@@ -23,7 +23,7 @@ $VAR1 = [
             1,
             '[ap 01:00] The Crow Road - Iain Banks.epub (The_Crow_Road_split_014.html) - one',
             "\x{2018}Oh, you guessed.\x{2019}
-\x{2018}It\x{2019}s a gift. Pick you up at <<one|9c:0>>?\x{2019}
+\x{2018}It\x{2019}s a gift. Pick you up at <<one|9c:1>>?\x{2019}
 \x{2018}Umm ... Yeah. Where are you, Lewis?\x{2019}",
           ],
           [
@@ -94,7 +94,7 @@ $VAR1 = [
           [
             1,
             '[ap ~ 02:00] The Crow Road - Iain Banks.epub (The_Crow_Road_split_021.html) - about two',
-            "The four-man trio played; the dancing continued. Mum left with Hamish and Tone; she was staying with them tonight. I was in charge of the house. I danced until my legs ached. I talked until my throat hurt. The band, and the bagpipe players who\x{2019}d joined in with them, stopped playing at <<about two|9c:0>>. Dean and I fed some home-made compilation tapes through the PA, and the dancing went on.",
+            "The four-man trio played; the dancing continued. Mum left with Hamish and Tone; she was staying with them tonight. I was in charge of the house. I danced until my legs ached. I talked until my throat hurt. The band, and the bagpipe players who\x{2019}d joined in with them, stopped playing at <<about two|9c:1>>. Dean and I fed some home-made compilation tapes through the PA, and the dancing went on.",
           ],
           [
             1,
@@ -104,7 +104,7 @@ $VAR1 = [
           [
             1,
             '[ap 11:00] The Crow Road - Iain Banks.epub (The_Crow_Road_split_023.html) - eleven',
-            "We pulled up outside the Watt house in Bruce Street before <<eleven|9c:0>>. Ash looked in the visor mirror again. She frowned and held her hair away from her face, turning her head from side to side. \x{2018}Can\x{2019}t see a bruise,\x{2019} she said.",
+            "We pulled up outside the Watt house in Bruce Street before <<eleven|9c:1>>. Ash looked in the visor mirror again. She frowned and held her hair away from her face, turning her head from side to side. \x{2018}Can\x{2019}t see a bruise,\x{2019} she said.",
           ],
           [
             1,
@@ -159,7 +159,7 @@ $VAR1 = [
           [
             1,
             '[15:41] The Crow Road - Iain Banks.epub (The_Crow_Road_split_025.html) - 1541',
-            "At <<1541|1a>> GMT the Cessna\x{2019}s engine started to cut out and the plane - presumably out of fuel - began to lose altitude. The engine stopped altogether less than a minute later. The plane pitched forward, causing the pilot\x{2019}s body to slump over the controls, whereupon the aircraft went into a steep dive and started to spin. It fell into the sea, impacting at <<1543|9c:1>>.",
+            "At <<1541|1a>> GMT the Cessna\x{2019}s engine started to cut out and the plane - presumably out of fuel - began to lose altitude. The engine stopped altogether less than a minute later. The plane pitched forward, causing the pilot\x{2019}s body to slump over the controls, whereupon the aircraft went into a steep dive and started to spin. It fell into the sea, impacting at <<1543|9c:0>>.",
           ],
           [
             1,

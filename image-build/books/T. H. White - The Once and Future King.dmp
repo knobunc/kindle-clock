@@ -51,8 +51,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[00:00] The Once and Future King - T. H. White.epub (OPS/013-chapter8.html) - midnight',
-            "\x{2018}Be brave, sir! Why, but two nights since, one met the duke \x{2019}bout <<midnight|13>> in a lane behind Saint Mark\x{2019}s Church, with the leg of a man upon his shoulder: and he howled fearfully.\x{2019}",
+            "[~ 00:00] The Once and Future King - T. H. White.epub (OPS/013-chapter8.html) - \x{2019}bout midnight",
+            "\x{2018}Be brave, sir! Why, but two nights since, one met the duke <<\x{2019}bout midnight|13>> in a lane behind Saint Mark\x{2019}s Church, with the leg of a man upon his shoulder: and he howled fearfully.\x{2019}",
           ],
           [
             1,
@@ -113,6 +113,11 @@ $VAR1 = [
             1,
             '[00:00] The Once and Future King - T. H. White.epub (OPS/057-chapter12.html) - midnight',
             "By <<midnight|13>> Lancelot and the butler were sitting on opposite sides of the table, both looking red in the face. They had a brew of piment between them \x{2013} a mixture of red wine, honey, spices, and whatever else the butler\x{2019}s wife had added.",
+          ],
+          [
+            1,
+            '[~ 11:00] The Once and Future King - T. H. White.epub (OPS/064-chapter19.html) - elevenses',
+            'King Pelles was sitting in the solar with Sir Bliant two years later. It was a fine winter morning with the fields frosted, no wind, and a light fog which was not enough to confuse the pigeons. Sir Bliant, who had been staying the night, was dressed in scarlet furred with miniver. His horse and squire were in the courtyard, ready to take him back to Castle Bliant, but the two men were having their <<elevenses|13>> before he started. Sitting with their hands spread to the splendid log fire, they sipped their mulled wine, nibbled pastry, and talked about the Wild Man.',
           ],
           [
             1,

@@ -81,6 +81,11 @@ $VAR1 = [
           ],
           [
             1,
+            '[~ 11:00] Penmarric - Susan Howatch.epub (OEBPS/Text/24-chap16.xhtml) - elevenses',
+            "\x{201c}We had a lovely time at the farm last Saturday,\x{201d} said Elizabeth. \x{201c}We had a little elderberry wine for <<elevenses|13>>, and quite the nicest honeycakes I\x{2019}ve ever tasted.\x{201d}",
+          ],
+          [
+            1,
             '[02:30] Penmarric - Susan Howatch.epub (OEBPS/Text/24-chap16.xhtml) - matins',
             "The only obstacle confronting me in my intention to attend church in Zillan was Mrs. Castallack. Her farm stood in Zillan parish, and I soon heard that she never missed <<matins|13>> on Sunday. It was unpleasant for me to realize that she was one of Mr. Barnwell\x{2019}s flock, but fired by my conversation at the rectory, I told myself resolutely that her presence at <<matins|13>> would be of no consequence to me\x{2014}or if it was it oughtn\x{2019}t to be. But I was more worried about Philip\x{2019}s presence than his mother\x{2019}s, for I felt sure he would at once think I was trying to cause trouble if he saw me in Zillan church, and I did not want any violent scene with Philip. Finally I decided to attend <<evensong|13>> instead of <<matins|13>>, and this worked out very well. Before the end of the Christmas holidays I went twice to the <<evensong|13>> service at Zillan, and each time the rector invited me to have supper afterward at the rectory. The first time \x{cc} was very shy, especially of Alice, but she soon put me at ease with her quick, effortless conversation, and on my second visit I actually enjoyed talking to her. We spoke of Anthony Trollope\x{2019}s novels and discussed the character of Ferdinand Lopez in The Prime Minister.",
           ],
@@ -132,7 +137,7 @@ $VAR1 = [
           [
             1,
             '[ap 11:00] Penmarric - Susan Howatch.epub (OEBPS/Text/33-chap24.xhtml) - eleven',
-            "Later the rector called and after that she was better. I managed to persuade her to have an early night and also suggested she cancel an invitation she had made to Mariana to visit the farm next day, but she was longing so much to see her grandson Esmond that she refused to agree to such a cancellation. Privately I thought she was making a mistake. I went to bed depressed but found to my surprise the next day that Mariana\x{2019}s visit was a welcome opportunity to take my mind off the harrowing memories of the funeral. She arrived for morning coffee at <<eleven|9c:0>>, and with her in my father\x{2019}s chauffeur-driven Rolls-Royce was my nephew Esmond. Her husband, as before, was in Scotland; this time he was recovering from a mild stroke and his health had not permitted him to attempt the long journey to Cornwall.",
+            "Later the rector called and after that she was better. I managed to persuade her to have an early night and also suggested she cancel an invitation she had made to Mariana to visit the farm next day, but she was longing so much to see her grandson Esmond that she refused to agree to such a cancellation. Privately I thought she was making a mistake. I went to bed depressed but found to my surprise the next day that Mariana\x{2019}s visit was a welcome opportunity to take my mind off the harrowing memories of the funeral. She arrived for morning coffee at <<eleven|9c:1>>, and with her in my father\x{2019}s chauffeur-driven Rolls-Royce was my nephew Esmond. Her husband, as before, was in Scotland; this time he was recovering from a mild stroke and his health had not permitted him to attempt the long journey to Cornwall.",
           ],
           [
             1,
@@ -264,7 +269,7 @@ $VAR1 = [
           [
             1,
             '[ap 08:00] Penmarric - Susan Howatch.epub (OEBPS/Text/49-chap39.xhtml) - eight',
-            'The phone rang at <<eight|9c:0>>. We had no butler now since Medlyn had retired to nurse his rheumatism, and I had dismissed the footmen at the beginning of the war as an economy, but we had an efficient head parlormaid who now answered the phone.',
+            'The phone rang at <<eight|9c:1>>. We had no butler now since Medlyn had retired to nurse his rheumatism, and I had dismissed the footmen at the beginning of the war as an economy, but we had an efficient head parlormaid who now answered the phone.',
           ],
           [
             1,

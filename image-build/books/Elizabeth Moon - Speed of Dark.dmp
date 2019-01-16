@@ -17,7 +17,7 @@ $VAR1 = [
           [
             1,
             '[ap 10:15] Speed of Dark - Elizabeth Moon.epub (index_split_007.html) - ten-fifteen',
-            "\x{201c}Want to ride out to the airport with me? I could bring you back by here to pick up your car. Of course, it\x{2019}ll make you late getting home; her plane won\x{2019}t be in until <<ten-fifteen|9c:0>>.\x{201d}",
+            "\x{201c}Want to ride out to the airport with me? I could bring you back by here to pick up your car. Of course, it\x{2019}ll make you late getting home; her plane won\x{2019}t be in until <<ten-fifteen|9c:1>>.\x{201d}",
           ],
           [
             1,
@@ -72,7 +72,7 @@ $VAR1 = [
           [
             1,
             '[ap 09:00] Speed of Dark - Elizabeth Moon.epub (index_split_012.html) - nine',
-            "\x{201c}You got home from work at <<nine|9c:0>>\x{201d}\x{2014}he glances down at his handcomp\x{2014}\x{201c}forty-seven last night?\x{201d}",
+            "\x{201c}You got home from work at <<nine|9c:1>>\x{201d}\x{2014}he glances down at his handcomp\x{2014}\x{201c}forty-seven last night?\x{201d}",
           ],
           [
             1,
@@ -110,13 +110,13 @@ $VAR1 = [
             1,
             '[ap 09:00] Speed of Dark - Elizabeth Moon.epub (index_split_013.html) - nine',
             "\x{201c}It\x{2019}s too late,\x{201d} he says. \x{201c}We can\x{2019}t change out tires now.\x{201d}
-\x{201c}You are open until <<nine|9c:0>>,\x{201d} I say.
+\x{201c}You are open until <<nine|9c:1>>,\x{201d} I say.
 \x{201c}The desk, yes. But we don\x{2019}t put tires on this late.\x{201d} He glances at the door to the shop, where a lanky man in dark-blue pants and a tan shirt with a patch on it is leaning on the frame, wiping his hands on a red rag.",
           ],
           [
             1,
             '[ap 09:00] Speed of Dark - Elizabeth Moon.epub (index_split_013.html) - nine',
-            "\x{201c}But I could not get here earlier,\x{201d} I say. \x{201c}And you are open until <<nine|9c:0>>.\x{201d}",
+            "\x{201c}But I could not get here earlier,\x{201d} I say. \x{201c}And you are open until <<nine|9c:1>>.\x{201d}",
           ],
           [
             1,
@@ -138,12 +138,12 @@ $VAR1 = [
             '[ap 09:00] Speed of Dark - Elizabeth Moon.epub (index_split_013.html) - nine',
             "\x{201c}Come back later,\x{201d} I say. \x{201c}How late are you open?\x{201d}
 \x{201c}Until <<nine|9:0>>. Or you could come tomorrow.\x{201d}
-\x{201c}I will come before <<nine|9c:0>>,\x{201d} I say. She runs my bankcard through the machine and marks the order slip \x{201c}Paid in Advance.\x{201d}",
+\x{201c}I will come before <<nine|9c:1>>,\x{201d} I say. She runs my bankcard through the machine and marks the order slip \x{201c}Paid in Advance.\x{201d}",
           ],
           [
             1,
             '[ap 09:00] Speed of Dark - Elizabeth Moon.epub (index_split_013.html) - nine',
-            "\x{201c}I will come before <<nine|9c:0>>,\x{201d} I say. She runs my bankcard through the machine and marks the order slip \x{201c}Paid in Advance.\x{201d}",
+            "\x{201c}I will come before <<nine|9c:1>>,\x{201d} I say. She runs my bankcard through the machine and marks the order slip \x{201c}Paid in Advance.\x{201d}",
           ],
           [
             1,

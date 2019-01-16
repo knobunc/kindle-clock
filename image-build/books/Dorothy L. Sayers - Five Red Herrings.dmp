@@ -37,7 +37,7 @@ $VAR1 = [
           [
             1,
             '[ap 03:50] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/10-_Toc325282157.xhtml) - 3.50',
-            "\x{2018}He said somethin\x{2019} o\x{2019} havin\x{2019} misread the time-table and thocht there was a boat at <<3.50|9c:0>>.\x{2019}",
+            "\x{2018}He said somethin\x{2019} o\x{2019} havin\x{2019} misread the time-table and thocht there was a boat at <<3.50|9c:1>>.\x{2019}",
           ],
           [
             1,
@@ -130,7 +130,7 @@ dep1.111.425.36
           [
             1,
             '[ap 07:30] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/12-_Toc325282159.xhtml) - 7.30',
-            "\x{2018}Ah!\x{2019} said Wimsey. \x{2018}An inquiry among the Creetown pubs might settle that. Very well, Bunter. I think I shall go out and clear my wits with a round of golf this afternoon. And I\x{2019}ll have a grilled steak and chips at <<7.30|9c:0>>.\x{2019}",
+            "\x{2018}Ah!\x{2019} said Wimsey. \x{2018}An inquiry among the Creetown pubs might settle that. Very well, Bunter. I think I shall go out and clear my wits with a round of golf this afternoon. And I\x{2019}ll have a grilled steak and chips at <<7.30|9c:1>>.\x{2019}",
           ],
           [
             1,
@@ -220,7 +220,7 @@ The Inspector thought for a moment. If this was true, it left Gowan out altogeth
           [
             1,
             '[ap ~ 10:30] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/14-_Toc325282161.xhtml) - about 10.30',
-            "\x{2018}Apparently Waters did ask to be called early on the Tuesday morning and did make the remark that he rather thought of going to Glasgow. On the Monday night, Mrs. McLeod heard him come in with you and go up to bed. Then you went out again. She puts this at <<about 10.30|9c:0>>. Is that right?\x{2019}",
+            "\x{2018}Apparently Waters did ask to be called early on the Tuesday morning and did make the remark that he rather thought of going to Glasgow. On the Monday night, Mrs. McLeod heard him come in with you and go up to bed. Then you went out again. She puts this at <<about 10.30|9c:1>>. Is that right?\x{2019}",
           ],
           [
             1,
@@ -242,7 +242,7 @@ The Inspector thought for a moment. If this was true, it left Gowan out altogeth
           [
             1,
             '[ap 08:20] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/14-_Toc325282161.xhtml) - 8.20',
-            "\x{2018}He took his bicycle with him. Or rather, to be accurate, his bicycle, which stands just inside the front door, was there on the Monday night and was gone at <<8.20|9c:0>>. The presumption is that Waters took it.\x{2019}",
+            "\x{2018}He took his bicycle with him. Or rather, to be accurate, his bicycle, which stands just inside the front door, was there on the Monday night and was gone at <<8.20|9c:1>>. The presumption is that Waters took it.\x{2019}",
           ],
           [
             1,
@@ -297,7 +297,7 @@ The Inspector thought for a moment. If this was true, it left Gowan out altogeth
           [
             1,
             '[ap 06:20] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/15-_Toc325282162.xhtml) - 6.20',
-            "Cursing his fate \x{2013} though somewhat cheered by the thought of a clue \x{2013} Dalziel then rang up Kirkcudbright. Inspector Macpherson answered him. Yes, a great deal of new evidence had come in. Yes, the Inspector thought Dalziel had better get back that night if he could. What a pity he had now just missed the <<6.20|5a:0>> to Girvan. (Sergeant Dalziel gritted his teeth.) Well, it couldna be helped. Let him take the <<7.30|5a:0>>, getting in at <<9.51|9c:0>>, and a car would be sent to meet him.",
+            "Cursing his fate \x{2013} though somewhat cheered by the thought of a clue \x{2013} Dalziel then rang up Kirkcudbright. Inspector Macpherson answered him. Yes, a great deal of new evidence had come in. Yes, the Inspector thought Dalziel had better get back that night if he could. What a pity he had now just missed the <<6.20|5a:0>> to Girvan. (Sergeant Dalziel gritted his teeth.) Well, it couldna be helped. Let him take the <<7.30|5a:0>>, getting in at <<9.51|9c:1>>, and a car would be sent to meet him.",
           ],
           [
             1,
@@ -340,7 +340,7 @@ The Inspector thought for a moment. If this was true, it left Gowan out altogeth
 <<9.55 p.m.|2a>>Farren plants the body in Strachan\x{2019}s car.
 <<10 p.m.|5>> (or thereabouts).Farren starts back in Campbell\x{2019}s car.
 <<10.10 p.m.|2a>>Farren arrives in Gatehouse (say five miles) and garages Campbell\x{2019}s car.
-<<10.30|5a:1>> p m.Farren arrives on foot at Strachan\x{2019}s house to fetch bicycle.
+<<10.30|5a:0>> p m.Farren arrives on foot at Strachan\x{2019}s house to fetch bicycle.
 <<11 p.m.|5>>Farren arrives on bicycle at the scene of the crime.
 <<11.10 p.m.|2a>>Farren is back with the body at Campbell\x{2019}s house. Hides the body in the house or garage.
 <<11.20 p.m.|2a>>Farren returns car to Strachan\x{2019}s house.
@@ -381,7 +381,7 @@ Here, for the moment, the Inspector\x{2019}s deductions came to an end. Dalziel,
           [
             1,
             '[ap ~ 09:15] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/16-_Toc325282163.xhtml) - about 9.15',
-            "Then, if Strachan\x{2019}s car had been taken out, surely somebody would know of it. Strachan himself might refuse information or lie stoutly in defence of his friend, but there still remained Mrs. Strachan, the child and the maid. They could not possibly all be in the plot. According to the theory, Farren had called three times at Strachan\x{2019}s \x{2013} at <<about 9.15|9c:0>>, to borrow the car; at <<about 10.40|9c:0>>, to fetch the bicycle; at <<about 11.30|3:0>> to return the car. The first and last of these visits at any rate ought to have left traces behind them.",
+            "Then, if Strachan\x{2019}s car had been taken out, surely somebody would know of it. Strachan himself might refuse information or lie stoutly in defence of his friend, but there still remained Mrs. Strachan, the child and the maid. They could not possibly all be in the plot. According to the theory, Farren had called three times at Strachan\x{2019}s \x{2013} at <<about 9.15|9c:1>>, to borrow the car; at <<about 10.40|9c:1>>, to fetch the bicycle; at <<about 11.30|3:0>> to return the car. The first and last of these visits at any rate ought to have left traces behind them.",
           ],
           [
             1,
@@ -447,7 +447,7 @@ Here, for the moment, the Inspector\x{2019}s deductions came to an end. Dalziel,
           [
             1,
             '[ap 03:15] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/18-_Toc325282165.xhtml) - 3.15',
-            "\x{2018}Well, anyway, I couldn\x{2019}t,\x{2019} said Ferguson, \x{2018}because I\x{2019}d made an appointment to meet a man at the show at <<3.15|9c:0>>, and the <<1.46|5a:0>> doesn\x{2019}t get in to Glasgow until <<3.34|9c:0>>. So I had to make a martyr of myself. And the sickening thing was that my man never turned up after all. I found a note at my hotel, saying he\x{2019}d been called to see a sick relative.\x{2019}",
+            "\x{2018}Well, anyway, I couldn\x{2019}t,\x{2019} said Ferguson, \x{2018}because I\x{2019}d made an appointment to meet a man at the show at <<3.15|9c:1>>, and the <<1.46|5a:0>> doesn\x{2019}t get in to Glasgow until <<3.34|9c:1>>. So I had to make a martyr of myself. And the sickening thing was that my man never turned up after all. I found a note at my hotel, saying he\x{2019}d been called to see a sick relative.\x{2019}",
           ],
           [
             1,
@@ -479,7 +479,7 @@ Here, for the moment, the Inspector\x{2019}s deductions came to an end. Dalziel,
           [
             1,
             '[ap 01:49] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/19-_Toc325282166.xhtml) - 1.49',
-            'The bookstall clerk had seen the passenger in grey pass his bookstall at <<1.49|9c:0>>, in the direction of the exit. He had not seen him actually leave the station, because of the corner of the bookstall, which cut off his view of the exit.',
+            'The bookstall clerk had seen the passenger in grey pass his bookstall at <<1.49|9c:1>>, in the direction of the exit. He had not seen him actually leave the station, because of the corner of the bookstall, which cut off his view of the exit.',
           ],
           [
             1,
@@ -935,7 +935,7 @@ Here Macpherson paused.",
           [
             1,
             '[ap 09:45] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/30-_Toc325282177.xhtml) - 9.45',
-            "\x{2018}The big snag in Duncan\x{2019}s ingenious reconstruction is the man who saw the car pass the New Galloway turning at <<9.45|9c:0>>. I\x{2019}m afraid Duncan hasn\x{2019}t accounted for him at all. Still, we can say he was mistaken. If a doctor can be mistaken, so can an honest workman. He didn\x{2019}t see the number of the car, so it may have been another Morris.\x{2019}",
+            "\x{2018}The big snag in Duncan\x{2019}s ingenious reconstruction is the man who saw the car pass the New Galloway turning at <<9.45|9c:1>>. I\x{2019}m afraid Duncan hasn\x{2019}t accounted for him at all. Still, we can say he was mistaken. If a doctor can be mistaken, so can an honest workman. He didn\x{2019}t see the number of the car, so it may have been another Morris.\x{2019}",
           ],
           [
             1,
@@ -980,7 +980,7 @@ Here Macpherson paused.",
           [
             1,
             '[ap 07:30] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/30-_Toc325282177.xhtml) - 7.30',
-            "\x{2018}Ay, but murderers maun tak\x{2019} risks,\x{2019} said Ross. \x{2018}In the meantime, Waters is away wi\x{2019} Campbell\x{2019}s car an\x{2019} his bicycle at the same time that Drewitt entered the hoose. Then he does a\x{2019} the same things as we\x{2019}ve suggested for the other suspects. He\x{2019}s away wi\x{2019} the body at <<7.30|9c:0>>. I\x{2019}m thinkin\x{2019} he\x{2019}ll ha\x{2019} ta\x{2019}en the auld road through Gatehouse Station an\x{2019} he\x{2019}ll maybe have had engine trouble in that lonely place, or burst a tyre an\x{2019} had tae change the wheel. The road\x{2019}s wicked wi\x{2019} the ruts and the stones thereabouts. Ony gait, he passes the New Galloway turnin\x{2019} at <<9.35|3:0>> an\x{2019} arrives at the Minnoch at <<10|9c:0>>. He pents his picture, throws the body into the burn and makes off on his bicycle. He has plenty o\x{2019} time, for he\x{2019}ll no be able tae carry oot the rest o\x{2019} his plan before nightfall. He hides up in the hills, an\x{2019} it\x{2019}s here he\x{2019}ll be cursin\x{2019} himsel\x{2019}, for he\x{2019}ll ha\x{2019} forgot tae bring wi\x{2019} him the sandwiches that was found in Campbell\x{2019}s satchel. Ay, he\x{2019}ll be fine an\x{2019} empty before night. When \x{2019}tis safe for him tae move, he rides his bicycle tae the appointed meetin\x{2019}-place wi\x{2019} Drewitt.",
+            "\x{2018}Ay, but murderers maun tak\x{2019} risks,\x{2019} said Ross. \x{2018}In the meantime, Waters is away wi\x{2019} Campbell\x{2019}s car an\x{2019} his bicycle at the same time that Drewitt entered the hoose. Then he does a\x{2019} the same things as we\x{2019}ve suggested for the other suspects. He\x{2019}s away wi\x{2019} the body at <<7.30|9c:1>>. I\x{2019}m thinkin\x{2019} he\x{2019}ll ha\x{2019} ta\x{2019}en the auld road through Gatehouse Station an\x{2019} he\x{2019}ll maybe have had engine trouble in that lonely place, or burst a tyre an\x{2019} had tae change the wheel. The road\x{2019}s wicked wi\x{2019} the ruts and the stones thereabouts. Ony gait, he passes the New Galloway turnin\x{2019} at <<9.35|3:0>> an\x{2019} arrives at the Minnoch at <<10|9c:0>>. He pents his picture, throws the body into the burn and makes off on his bicycle. He has plenty o\x{2019} time, for he\x{2019}ll no be able tae carry oot the rest o\x{2019} his plan before nightfall. He hides up in the hills, an\x{2019} it\x{2019}s here he\x{2019}ll be cursin\x{2019} himsel\x{2019}, for he\x{2019}ll ha\x{2019} forgot tae bring wi\x{2019} him the sandwiches that was found in Campbell\x{2019}s satchel. Ay, he\x{2019}ll be fine an\x{2019} empty before night. When \x{2019}tis safe for him tae move, he rides his bicycle tae the appointed meetin\x{2019}-place wi\x{2019} Drewitt.",
           ],
           [
             1,
@@ -1051,7 +1051,7 @@ Here Macpherson paused.",
           [
             1,
             '[ap 07:30] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/32-_Toc325282179.xhtml) - 7.30',
-            "\x{2018}Now we find the key and open the door, locking it, I think, behind us. We shut the shutters and light up. My God! what\x{2019}s this? A note. Look out for F. Great Jehoshaphat! \x{2013} Oh, no, of course, it doesn\x{2019}t mean me \x{2013} it means Farren. Now \x{2013} do we use that or destroy it? Better destroy it. It\x{2019}s an accident we\x{2019}re staging, not a murder. We don\x{2019}t want the slightest suggestion of violence. Besides \x{2013} must be decent to Farren. Campbell is alive till <<7.30|3b>> tomorrow, so he found this and read it. When did he come in, though? <<After 12|9e>>, of course, since Strachan can say he wasn\x{2019}t here earlier. Yes, but how do I know how many people saw him come in at <<10.15|9c:0>>? Must say one thing or the other. Better suggest he came in and then went out again while I was asleep. On foot, perhaps, so that I didn\x{2019}t hear the car. Damn Strachan! What did he want to come poking his nose in for, anyhow?\x{2019}",
+            "\x{2018}Now we find the key and open the door, locking it, I think, behind us. We shut the shutters and light up. My God! what\x{2019}s this? A note. Look out for F. Great Jehoshaphat! \x{2013} Oh, no, of course, it doesn\x{2019}t mean me \x{2013} it means Farren. Now \x{2013} do we use that or destroy it? Better destroy it. It\x{2019}s an accident we\x{2019}re staging, not a murder. We don\x{2019}t want the slightest suggestion of violence. Besides \x{2013} must be decent to Farren. Campbell is alive till <<7.30|3b>> tomorrow, so he found this and read it. When did he come in, though? <<After 12|9e>>, of course, since Strachan can say he wasn\x{2019}t here earlier. Yes, but how do I know how many people saw him come in at <<10.15|9c:1>>? Must say one thing or the other. Better suggest he came in and then went out again while I was asleep. On foot, perhaps, so that I didn\x{2019}t hear the car. Damn Strachan! What did he want to come poking his nose in for, anyhow?\x{2019}",
           ],
           [
             1,
@@ -1195,7 +1195,7 @@ At <<11.25|9m>> Wimsey rose regretfully.
           [
             1,
             '[ap 04:00] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/33-_Toc325282180.xhtml) - four',
-            "\x{2018}Probably. Well, now, we\x{2019}ve got to be up at the Exhibition at <<four|9c:0>>. Not much time. However, I noticed a jobbing printer\x{2019}s on the way up here. I daresay we shall find what we want there.\x{2019}",
+            "\x{2018}Probably. Well, now, we\x{2019}ve got to be up at the Exhibition at <<four|9c:1>>. Not much time. However, I noticed a jobbing printer\x{2019}s on the way up here. I daresay we shall find what we want there.\x{2019}",
           ],
           [
             1,

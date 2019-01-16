@@ -41,9 +41,9 @@ $VAR1 = [
           ],
           [
             1,
-            '[12:00] Timescape - Gregory Benford.epub (OEBPS/Text/Timescape_split_024.html) - midday',
+            '[~ 12:00] Timescape - Gregory Benford.epub (OEBPS/Text/Timescape_split_024.html) - round midday',
             "\x{201c}I\x{2019}ll probably need a drink and some food in an hour or so. Why don\x{2019}t we meet there?\x{201d}
-\x{201c}Good idea. See you round <<midday|13>>.\x{201d}
+\x{201c}Good idea. See you <<round midday|13>>.\x{201d}
 \x{2022} \x{2022} \x{2022}",
           ],
           [
@@ -173,7 +173,7 @@ $VAR1 = [
           [
             1,
             '[ap 10:00] Timescape - Gregory Benford.epub (OEBPS/Text/Timescape_split_074.html) - ten',
-            "\x{201c}I told you last week\x{201d} Penny said. \x{201c}We\x{2019}re going Air Cal to Oakland Saturday morning at <<ten|9c:0>>, out of Lindbergh.\x{201d}",
+            "\x{201c}I told you last week\x{201d} Penny said. \x{201c}We\x{2019}re going Air Cal to Oakland Saturday morning at <<ten|9c:1>>, out of Lindbergh.\x{201d}",
           ],
           [
             1,
@@ -223,7 +223,7 @@ $VAR1 = [
           [
             1,
             '[ap 11:00] Timescape - Gregory Benford.epub (OEBPS/Text/Timescape_split_100.html) - eleven',
-            "HE WALKED FROM HIS HOTEL ON CONNECTICUT AVENUE. The reception was to be a buffet lunch, the letter said, so Gordon had slept in until <<eleven|9c:0>>. He had long ago learned that on short trips to the east it was best to grant nothing to the myth of time zones, and keep to his western schedule. Invariably this fit the demands on an out-of-town visitor anyway, since such occasions were excuses for lingering over sauce-drenched entrees in expensive restaurants, followed by earnest, now-that-we\x{2019}re-away-from-the-office-I-can-speak-frankly revelations over several cups of coffee, and then late night stumblings-to-bed. Arising at <<ten|9a>> the next morning seldom got him to the NSF or AEC later than the executives themselves, since he ate no breakfast.",
+            "HE WALKED FROM HIS HOTEL ON CONNECTICUT AVENUE. The reception was to be a buffet lunch, the letter said, so Gordon had slept in until <<eleven|9c:1>>. He had long ago learned that on short trips to the east it was best to grant nothing to the myth of time zones, and keep to his western schedule. Invariably this fit the demands on an out-of-town visitor anyway, since such occasions were excuses for lingering over sauce-drenched entrees in expensive restaurants, followed by earnest, now-that-we\x{2019}re-away-from-the-office-I-can-speak-frankly revelations over several cups of coffee, and then late night stumblings-to-bed. Arising at <<ten|9a>> the next morning seldom got him to the NSF or AEC later than the executives themselves, since he ate no breakfast.",
           ],
           [
             1,

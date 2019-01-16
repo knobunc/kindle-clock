@@ -67,7 +67,7 @@ $VAR1 = [
           [
             1,
             '[ap 06:00] The Thirteenth Tale - Diane Setterfield.epub (OEBPS/Txt_008.html) - six',
-            'The Missus knew how children ought to be brought up: regular mealtimes, regular bedtimes, regular baths. Isabelle and Charlie had grown up overindulged and neglected at the same time, and it broke her heart to see how they turned out. Their neglect of the twins was her chance, she hoped, to break the pattern. She had a plan. Under their noses, in the heart of all their chaos, she meant to raise two normal, ordinary little girls. Three square meals a day, bedtime at <<six|9c:0>>, church on Sunday.',
+            'The Missus knew how children ought to be brought up: regular mealtimes, regular bedtimes, regular baths. Isabelle and Charlie had grown up overindulged and neglected at the same time, and it broke her heart to see how they turned out. Their neglect of the twins was her chance, she hoped, to break the pattern. She had a plan. Under their noses, in the heart of all their chaos, she meant to raise two normal, ordinary little girls. Three square meals a day, bedtime at <<six|9c:1>>, church on Sunday.',
           ],
           [
             1,
@@ -108,6 +108,11 @@ $VAR1 = [
             1,
             '[ap 10:30] The Thirteenth Tale - Diane Setterfield.epub (OEBPS/Txt_023.html) - half past ten',
             'I have made inquiries and gather that the trains run only to Banbury. Perhaps you would advise me how I can best make my way to Angelfield from there. I shall arrive at Banbury Station at <<half past ten|10>>.',
+          ],
+          [
+            1,
+            '[~ 11:00] The Thirteenth Tale - Diane Setterfield.epub (OEBPS/Txt_026.html) - elevenses',
+            "\x{201c}Yes\x{2026}Because I was thinking, nine is a bit too adjacent to breakfast for cake, isn\x{2019}t it?\x{201d} It was said with a reluctant grimace that turned into a gleam with his next words: \x{201c}So I thought, Invite Margaret back for <<elevenses|13>>. Cake and coffee, how does that sound? You could do with feeding up. And I\x{2019}ll show you my inheritance at the same time. What little there is to see.\x{201d}",
           ],
           [
             1,

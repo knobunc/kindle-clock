@@ -266,7 +266,7 @@ $VAR1 = [
           [
             1,
             '[ap 11:00] I Don\'t Know How She Does It - Allison Pearson.epub (I_Don_t_Know_How_She_Does_It_Th_split_014.html) - eleven',
-            "\x{201c}Really?\x{201d} The headlamps do a startled circuit of their sockets. \x{201c}But how are you going to get her in anywhere decent at <<eleven|9c:0>>? Did you read the inspectors\x{2019} latest report on St. Stephen\x{2019}s?\x{201d}",
+            "\x{201c}Really?\x{201d} The headlamps do a startled circuit of their sockets. \x{201c}But how are you going to get her in anywhere decent at <<eleven|9c:1>>? Did you read the inspectors\x{2019} latest report on St. Stephen\x{2019}s?\x{201d}",
           ],
           [
             1,
@@ -818,6 +818,11 @@ Demand? What demand? It\x{2019}s <<four o\x{2019}clock in the bloody morning|6>>
             1,
             '[ap 05:30] I Don\'t Know How She Does It - Allison Pearson.epub (I_Don_t_Know_How_She_Does_It_Th_split_040.html) - 5:30',
             'I know a woman who wakes her baby at <<5:30|2>> every morning so she can have some time with him.',
+          ],
+          [
+            1,
+            '[~ 11:00] I Don\'t Know How She Does It - Allison Pearson.epub (I_Don_t_Know_How_She_Does_It_Th_split_041.html) - elevenses',
+            "The Terrys lived two doors down from us. Carol Terry was the only mother we knew who went out to work. She started off doing some bar work for pin money and soon after she got a full-time job in the accounts office of a metals factory. Dissecting their neighbors over <<elevenses|13>>, my mother and Mrs. Frieda Davies decided that Carol spent her wages on going to the hairdresser and other things that came under the category of \x{201c}enjoying herself.\x{201d} They couldn\x{2019}t have been more delighted when Annette failed her Eleven-plus. Well, what can you expect with no one at home to get the poor child a cooked tea?",
           ],
           [
             1,

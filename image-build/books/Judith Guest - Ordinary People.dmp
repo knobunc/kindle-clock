@@ -2,12 +2,12 @@ $VAR1 = [
           [
             1,
             '[ap 09:00] Ordinary People - Judith Guest.epub (text/part0008.html) - nine',
-            "\x{201c}I\x{2019}ve got to get dressed,\x{201d} Beth says. \x{201c}I tee off at <<nine|9c:0>>.\x{201d} She hands him his coffee; crosses to the doorway; motes of dust flutter nervously in her wake. Conrad is studying. The book is propped against the butter dish.",
+            "\x{201c}I\x{2019}ve got to get dressed,\x{201d} Beth says. \x{201c}I tee off at <<nine|9c:1>>.\x{201d} She hands him his coffee; crosses to the doorway; motes of dust flutter nervously in her wake. Conrad is studying. The book is propped against the butter dish.",
           ],
           [
             1,
             '[ap 06:00] Ordinary People - Judith Guest.epub (text/part0008.html) - six',
-            "\x{201c}I can\x{2019}t. I\x{2019}m swimming every night until <<six|9c:0>>. He didn\x{2019}t say I had to call him, Dad.\x{201d}",
+            "\x{201c}I can\x{2019}t. I\x{2019}m swimming every night until <<six|9c:1>>. He didn\x{2019}t say I had to call him, Dad.\x{201d}",
           ],
           [
             1,
@@ -22,7 +22,7 @@ $VAR1 = [
           [
             1,
             '[ap 07:00] Ordinary People - Judith Guest.epub (text/part0009.html) - seven',
-            "\x{201c}Fine. Cold.\x{201d} Her hair is loose about her face. She lifts it in, back, rubbing her neck. \x{201c}Your father called. He\x{2019}ll be late. We\x{2019}re not eating until <<seven|9c:0>>.\x{201d}",
+            "\x{201c}Fine. Cold.\x{201d} Her hair is loose about her face. She lifts it in, back, rubbing her neck. \x{201c}Your father called. He\x{2019}ll be late. We\x{2019}re not eating until <<seven|9c:1>>.\x{201d}",
           ],
           [
             1,
@@ -74,7 +74,7 @@ $VAR1 = [
           [
             1,
             '[ap 11:00] Ordinary People - Judith Guest.epub (text/part0016.html) - eleven',
-            "Night is fast replacing morning as the worst time of day for him. The way it used to be in the months after the accident. He wasn\x{2019}t sleeping much. And suddenly, he wasn\x{2019}t sleeping at all, he was unable to close his eyes, his body was tense, his brain seethed from night until morning. He would set his alarm at <<eleven|9c:0>> and crawl into bed, praying, and he would lie there and lie there until at last he would hear the warning click as the radio turned itself on and it was morning again. His father would come down the hall, to make sure he was awake.  Awake. And he was never able to tell them, he would get up, get dressed, eat his breakfast, go to school, just as if his ass wasn\x{2019}t dragging on the goddamn ground, he was so tired, so tired. He told Crawford once that was why he had done it\x{2014}he had to get some sleep.",
+            "Night is fast replacing morning as the worst time of day for him. The way it used to be in the months after the accident. He wasn\x{2019}t sleeping much. And suddenly, he wasn\x{2019}t sleeping at all, he was unable to close his eyes, his body was tense, his brain seethed from night until morning. He would set his alarm at <<eleven|9c:1>> and crawl into bed, praying, and he would lie there and lie there until at last he would hear the warning click as the radio turned itself on and it was morning again. His father would come down the hall, to make sure he was awake.  Awake. And he was never able to tell them, he would get up, get dressed, eat his breakfast, go to school, just as if his ass wasn\x{2019}t dragging on the goddamn ground, he was so tired, so tired. He told Crawford once that was why he had done it\x{2014}he had to get some sleep.",
           ],
           [
             1,
@@ -101,7 +101,7 @@ $VAR1 = [
           [
             1,
             '[ap 06:00] Ordinary People - Judith Guest.epub (text/part0018.html) - six',
-            "\x{201c}What\x{2019}re you doing up here?\x{201d} she asks. \x{201c}I thought the swim team practiced until <<six|9c:0>>.\x{201d}",
+            "\x{201c}What\x{2019}re you doing up here?\x{201d} she asks. \x{201c}I thought the swim team practiced until <<six|9c:1>>.\x{201d}",
           ],
           [
             1,
@@ -111,7 +111,7 @@ $VAR1 = [
           [
             1,
             '[ap 06:00] Ordinary People - Judith Guest.epub (text/part0018.html) - six',
-            "\x{201c}I told my mother to give him his own key. She works until <<six|9c:0>>, and she doesn\x{2019}t like to leave the house open all day. He\x{2019}s eleven, but he\x{2019}s sort of a scatterbrain. She\x{2019}s afraid he\x{2019}ll just lose it. Do you have brothers and sisters?\x{201d}",
+            "\x{201c}I told my mother to give him his own key. She works until <<six|9c:1>>, and she doesn\x{2019}t like to leave the house open all day. He\x{2019}s eleven, but he\x{2019}s sort of a scatterbrain. She\x{2019}s afraid he\x{2019}ll just lose it. Do you have brothers and sisters?\x{201d}",
           ],
           [
             1,
@@ -156,7 +156,7 @@ $VAR1 = [
           [
             1,
             '[ap 04:00] Ordinary People - Judith Guest.epub (text/part0030.html) - four',
-            "\x{201c}The flight gets in Wednesday at <<four|9c:0>>. You wait here, okay? We\x{2019}ll go out for dinner.\x{201d}",
+            "\x{201c}The flight gets in Wednesday at <<four|9c:1>>. You wait here, okay? We\x{2019}ll go out for dinner.\x{201d}",
           ],
           [
             1,
@@ -217,6 +217,11 @@ $VAR1 = [
             1,
             '[ap 06:30] Ordinary People - Judith Guest.epub (text/part0032.html) - Six-thirty',
             "He is awake again. No more. No more. He gets up quickly; goes to turn on the television set, kneeling beside it as it warms up. An old set; the images are snowy. The brightness hurts his eyes. He tunes the sound down and goes back to the chair, focusing his eyes in concentration on the screen. His hands smooth the worn denim of his Levi\x{2019}s methodically as tears fill his eyes, run down his cheeks. He feels the sudden, chill prick as they drop from his chin on to his jacket. Nearly morning now. Outside the window he can see faint streaks of light, separating the trees from their background of sky. <<Six-thirty|5k:0>> already. On the television, a  Sunrise Semester course in astronomy. Soon the light inside the room will match the grayness on the screen.",
+          ],
+          [
+            1,
+            '[ap 07:00] Ordinary People - Judith Guest.epub (text/part0032.html) - seven',
+            'He gets up again, to go to the bathroom, taking a leak, washing his hands, staring at himself in the mirror. He can barely make out the contours of his face. His heart is pounding slow and full, keeping time with the cracking headache that has ignited behind his eyes. He leaves the bathroom, going to sit in the hallway, beside the telephone. It will be <<seven|9f>> soon. People get up, then. It is not too early to call.',
           ],
           [
             1,

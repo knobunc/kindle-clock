@@ -43,7 +43,7 @@ The old days, a newsroom at this hour reeked of coffee and cigarettes and stale 
           [
             1,
             '[ap 01:00] Basket Case - Carl Hiaasen.epub (OPS/Hiaa_9780375414411_epub_c17_r1.htm) - one',
-            "\x{201c}I wasn\x{2019}t there,\x{201d} Lor\x{e9}al says pointedly, \x{201c}but I heard she did.\x{201d} Two more beers have been delivered, and he snatches at <<one|9c:0>>.",
+            "\x{201c}I wasn\x{2019}t there,\x{201d} Lor\x{e9}al says pointedly, \x{201c}but I heard she did.\x{201d} Two more beers have been delivered, and he snatches at <<one|9c:1>>.",
           ],
           [
             1,
@@ -185,8 +185,8 @@ Phone rings. Eddie Bell from the Bellmark Funeral Home.",
           ],
           [
             1,
-            '[ap 10:30] Basket Case - Carl Hiaasen.epub (OPS/Hiaa_9780375414411_epub_c27_r1.htm) - ten-thirty',
-            "\x{201c}Meet me Sunday morning at the donut shop,\x{201d} she said in her message. \x{201c}Try to be there \x{2019}round <<ten-thirty|5k:0>>, okay?\x{201d}",
+            '[ap ~ 10:30] Basket Case - Carl Hiaasen.epub (OPS/Hiaa_9780375414411_epub_c27_r1.htm) - round ten-thirty',
+            "\x{201c}Meet me Sunday morning at the donut shop,\x{201d} she said in her message. \x{201c}Try to be there \x{2019}<<round ten-thirty|9j>>, okay?\x{201d}",
           ],
           [
             1,

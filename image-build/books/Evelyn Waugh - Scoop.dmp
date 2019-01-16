@@ -29,12 +29,12 @@ $VAR1 = [
             '[02:30] Scoop - Evelyn Waugh.epub (temp_calibre_txt_input_to_html_split_0.html) - Matins',
             "\"Nay not so much as out of bed?
 When all the birds have <<Matins|13>> said...\"
-He sang, in his heart, to the recumbent figures above him. And then, wheezing heavily, with crumbs on his mouth, ponderously straddling across the morning-room, came Troutbeck, the aged \"boy,\" bearing a telegram. Curiosity and resentment contended for mastery in Troutbeck's demeanour: curiosity because telegrams were of rare occurrence at Boot Magna; resentment at the interruption of his \"elevenses\" \x{2014}a lavish and ruminative feast which occupied the servants' hall from <<ten-thirty|5k:1>> until <<noon|13>>.",
+He sang, in his heart, to the recumbent figures above him. And then, wheezing heavily, with crumbs on his mouth, ponderously straddling across the morning-room, came Troutbeck, the aged \"boy,\" bearing a telegram. Curiosity and resentment contended for mastery in Troutbeck's demeanour: curiosity because telegrams were of rare occurrence at Boot Magna; resentment at the interruption of his \"<<elevenses|13>>\" \x{2014}a lavish and ruminative feast which occupied the servants' hall from <<ten-thirty|5k:1>> until <<noon|13>>.",
           ],
           [
             1,
-            '[ap 10:30] Scoop - Evelyn Waugh.epub (temp_calibre_txt_input_to_html_split_0.html) - ten-thirty',
-            "He sang, in his heart, to the recumbent figures above him. And then, wheezing heavily, with crumbs on his mouth, ponderously straddling across the morning-room, came Troutbeck, the aged \"boy,\" bearing a telegram. Curiosity and resentment contended for mastery in Troutbeck's demeanour: curiosity because telegrams were of rare occurrence at Boot Magna; resentment at the interruption of his \"elevenses\" \x{2014}a lavish and ruminative feast which occupied the servants' hall from <<ten-thirty|5k:1>> until <<noon|13>>.",
+            '[~ 11:00] Scoop - Evelyn Waugh.epub (temp_calibre_txt_input_to_html_split_0.html) - elevenses',
+            "He sang, in his heart, to the recumbent figures above him. And then, wheezing heavily, with crumbs on his mouth, ponderously straddling across the morning-room, came Troutbeck, the aged \"boy,\" bearing a telegram. Curiosity and resentment contended for mastery in Troutbeck's demeanour: curiosity because telegrams were of rare occurrence at Boot Magna; resentment at the interruption of his \"<<elevenses|13>>\" \x{2014}a lavish and ruminative feast which occupied the servants' hall from <<ten-thirty|5k:1>> until <<noon|13>>.",
           ],
           [
             1,
@@ -79,7 +79,7 @@ He sang, in his heart, to the recumbent figures above him. And then, wheezing he
           [
             1,
             '[ap 01:00] Scoop - Evelyn Waugh.epub (temp_calibre_txt_input_to_html_split_0.html) - one',
-            'John Boot sought Mrs. Stitch high and low; soon it would be too late, for she invariably went home at <<one|9c:0>>; she was indeed just speaking of going when he finally ran her to earth in the Duke\'s dressing room, sitting on a bed, eating foie gras with an ivory shoe-horn. Three elderly admirers glared at him.',
+            'John Boot sought Mrs. Stitch high and low; soon it would be too late, for she invariably went home at <<one|9c:1>>; she was indeed just speaking of going when he finally ran her to earth in the Duke\'s dressing room, sitting on a bed, eating foie gras with an ivory shoe-horn. Three elderly admirers glared at him.',
           ],
           [
             1,
@@ -104,7 +104,7 @@ He sang, in his heart, to the recumbent figures above him. And then, wheezing he
           [
             1,
             '[ap 06:00] Scoop - Evelyn Waugh.epub (temp_calibre_txt_input_to_html_split_0.html) - six',
-            'Tuesday morning; rain at <<six|9c:0>>; Jakes\'s typewriter at a quarter past; the first cry of "Boy!" soon after.',
+            'Tuesday morning; rain at <<six|9c:1>>; Jakes\'s typewriter at a quarter past; the first cry of "Boy!" soon after.',
           ],
           [
             1,
@@ -226,7 +226,7 @@ He sang, in his heart, to the recumbent figures above him. And then, wheezing he
           [
             1,
             '[ap 07:00] Scoop - Evelyn Waugh.epub (temp_calibre_txt_input_to_html_split_1.html) - seven',
-            '"You can\'t do that," said William cheerfully. "The nearest office is three miles away; there\'s no car; and anyway it shuts at <<seven|9c:0>>."',
+            '"You can\'t do that," said William cheerfully. "The nearest office is three miles away; there\'s no car; and anyway it shuts at <<seven|9c:1>>."',
           ],
           [
             1,

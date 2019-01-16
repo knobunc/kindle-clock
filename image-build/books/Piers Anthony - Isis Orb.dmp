@@ -12,12 +12,12 @@ $VAR1 = [
           [
             1,
             '[ap 01:00] Isis Orb - Piers Anthony.epub (index_split_006.html) - one',
-            "\x{201c}Your parents met at <<one|9c:0>>?\x{201d} Feline asked as she harvested a hot pizza pie.",
+            "\x{201c}Your parents met at <<one|9c:1>>?\x{201d} Feline asked as she harvested a hot pizza pie.",
           ],
           [
             1,
             '[ap 05:00] Isis Orb - Piers Anthony.epub (index_split_009.html) - five',
-            "\x{201c}That means the roster of Companions is complete at <<five|9c:0>>,\x{201d} Feline said. \x{201c}That\x{2019}s a relief.\x{201d}",
+            "\x{201c}That means the roster of Companions is complete at <<five|9c:1>>,\x{201d} Feline said. \x{201c}That\x{2019}s a relief.\x{201d}",
           ],
           [
             1,
@@ -40,6 +40,25 @@ The griffin considered, then flew away, knowing better than to dare a centaur. T
             1,
             '[12:00] Isis Orb - Piers Anthony.epub (index_split_014.html) - noon',
             "\x{201c}We\x{2019}ll check right here every day,\x{201d} Merge said tearfully. \x{201c}At <<noon|13>>. Until you return.\x{201d}",
+          ],
+          [
+            1,
+            '[ap ~ 01:00] Isis Orb - Piers Anthony.epub (index_split_015.html) - Round One',
+            "\x{201c}<<Round One|9k:0>>,\x{201d} Feline said. \x{201c}The Look.\x{201d} She took center stage as the others faded back.",
+          ],
+          [
+            1,
+            '[ap ~ 02:00] Isis Orb - Piers Anthony.epub (index_split_015.html) - Round Two',
+            "It seemed she had tried to sneak the hint of panties in, but been caught. Well, she was the Bad Girl; they were expected to try to cheat.
+\x{201c}<<Round Two|9:0>>,\x{201d} Feline said. \x{201c}The Kiss.\x{201d}
+The kiss? The Prince was unfamiliar with this game, but wasn\x{2019}t sure how a kiss could be competitive.",
+          ],
+          [
+            1,
+            '[ap ~ 03:00] Isis Orb - Piers Anthony.epub (index_split_015.html) - Round Three',
+            "He still had not been seduced, though that was more a matter of chance than any resistance on his part.
+\x{201c}<<Round Three|9:0>>,\x{201d} Feline said. \x{201c}The Feel.\x{201d}
+The Feel? He was feeling dizzy; did that relate?",
           ],
           [
             1,

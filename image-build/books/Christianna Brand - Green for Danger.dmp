@@ -17,7 +17,7 @@ $VAR1 = [
           [
             1,
             '[ap ~ 10:00] Green for Danger - Christianna Brand.epub (OPS/xhtml/chapter03.html) - about ten',
-            "It was always a miracle, after a heavy raid, to look out in the morning and see one\x{2019}s world still intact about one. Esther walked across the grounds with Woody, wrapped in her short red-lined cape against the cold, dawn air. \x{201c}I believe there\x{2019}s a new crater in the field over there \x{2026} that must have been the one that fell at <<about ten|9c:0>>. I could have sworn it was nearer.\x{201d}",
+            "It was always a miracle, after a heavy raid, to look out in the morning and see one\x{2019}s world still intact about one. Esther walked across the grounds with Woody, wrapped in her short red-lined cape against the cold, dawn air. \x{201c}I believe there\x{2019}s a new crater in the field over there \x{2026} that must have been the one that fell at <<about ten|9c:1>>. I could have sworn it was nearer.\x{201d}",
           ],
           [
             1,
@@ -100,7 +100,7 @@ $VAR1 = [
             1,
             '[ap 11:30] Green for Danger - Christianna Brand.epub (OPS/xhtml/chapter06.html) - half-past eleven',
             "\x{201c}He\x{2019}s got to go down to Heronsford and get the car; they\x{2019}re doing something or other to it in the garage and he doesn\x{2019}t think they\x{2019}ll ever have it ready. He\x{2019}s calling for me at <<half-past eleven|10>>.\x{201d}
-\x{201c}Would you like me to come over and wake you up at <<eleven|9c:0>>?\x{201d}
+\x{201c}Would you like me to come over and wake you up at <<eleven|9c:1>>?\x{201d}
 \x{201c}It\x{2019}ll be all right. I\x{2019}ve got the alarm.\x{201d}",
           ],
           [
@@ -142,6 +142,11 @@ $VAR1 = [
             1,
             '[ap 07:00] Green for Danger - Christianna Brand.epub (OPS/xhtml/chapter08.html) - seven',
             "Gervase Eden sat on the great wicker laundry basket in the lobby of the operating theatre, and waited for Major Moon. \x{201c}Where is the silly old beezer? He said he\x{2019}d be here at <<seven|9b>>.\x{2026}\x{201d} The swing doors had been hooked back, and through the doorway he kept an eye on the main entrance across the hall.",
+          ],
+          [
+            1,
+            '[ap ~ 02:00] Green for Danger - Christianna Brand.epub (OPS/xhtml/chapter08.html) - round two',
+            "Forty girls were already at their lunch, elbow to elbow, <<round two|9:0>> inadequate tables. Knives screeched against china as they scooped up the thick gravy and scraped it on to their forks, heads poked forward to lessen the distance between their plates and their open mouths. Tongues wagged unceasingly. \x{201c}Pass the salt, Mabel. Ask Mrs. Brown to shove the bread up this way.\x{2026} I tell you, Simpson, I simply can\x{2019}t swap duty with you.\x{2026}\x{201d} There seemed no apparent reason why some should be called by their surnames, some by their Christian names, and some with the added Mrs. or Miss. The Commandant sat at their head looking rather forlorn.",
           ],
           [
             1,

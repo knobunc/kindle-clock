@@ -9,11 +9,18 @@ Its after 8:00 when I get home.
 07:00|"7:00 a.m."|"
 7:00 a.m.
 "|"Nineteen Eighty"|"David Peace"
+"ap 10:00"|ten|"
+A pause, then: Ill have them meet in your office at ten.
+"|"Nineteen Eighty"|"David Peace"
 10:00|"10:00 a.m."|"
 10:00 a.m.
 "|"Nineteen Eighty"|"David Peace"
+"ap 09:00"|nine|"After the press conference, I have got a meeting scheduled with Chief Constable Angus and Assistant Chief Constable Oldman. Johnll secure the offices and arrange hotels for us. But lets provisionally agree to meet in Leeds tomorrow morning at nine, location to be confirmed later today?"|"Nineteen Eighty"|"David Peace"
 "ap 10:30"|ten-thirty|"
 Was Laureen not reported missing as early as ten-thirty?
+"|"Nineteen Eighty"|"David Peace"
+"ap 06:00"|six|"
+Well meet in Millgarth at six, hes telling me.
 "|"Nineteen Eighty"|"David Peace"
 "ap < 09:00"|"almost nine oclock"|"
 Its almost nine oclock.
@@ -41,6 +48,7 @@ One oclock, repeats Angus and opens the door for me.
 When I open my eyes its 12:30, the pain still here
 "|"Nineteen Eighty"|"David Peace"
 "~ 00:00"|"about midnight"|"Yes. Called about midnight. Said hed been out and about, you know. And hed heard from a so-called reliable source that Id been targeted for investigation."|"Nineteen Eighty"|"David Peace"
+"ap 00:00"|twelve|"And the Chief Constables at chapel until twelve, half past at the latest."|"Nineteen Eighty"|"David Peace"
 "ap 09:00"|"nine oclock"|"
 Its nine oclock
 "|"Nineteen Eighty"|"David Peace"
@@ -97,6 +105,9 @@ Five oclock.
 "ap < 10:30"|"Nearly 10:30"|"
 Nearly 10:30
 "|"Nineteen Eighty"|"David Peace"
+"ap ~ 03:00"|"about three"|"
+At about three, I call Leeds:
+"|"Nineteen Eighty"|"David Peace"
 "ap 07:30"|"Half past seven"|"
 Half past seven
 "|"Nineteen Eighty"|"David Peace"
@@ -142,6 +153,7 @@ Its three in the morning
 "< 12:00"|"almost noon"|"
 Fuck, almost noon:
 "|"Nineteen Eighty"|"David Peace"
+"ap 02:00"|two|"Tell you what, I say. Lets all meet at Millgarth at two. Tell you lot whats been going on, then we can all head home."|"Nineteen Eighty"|"David Peace"
 "ap 02:00"|two|"
 See you over there at two then?
 "|"Nineteen Eighty"|"David Peace"

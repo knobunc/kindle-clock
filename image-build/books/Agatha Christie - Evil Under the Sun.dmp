@@ -7,7 +7,7 @@ $VAR1 = [
           [
             1,
             '[ap 00:00] Evil Under the Sun - Agatha Christie.epub (OEBPS/009_chapter04.html) - twelve',
-            "\x{201c}I\x{2019}m playing tennis at <<twelve|9c:0>>, so we\x{2019}d better start fairly early. <<Half past ten|10>>?\x{201d}",
+            "\x{201c}I\x{2019}m playing tennis at <<twelve|9c:1>>, so we\x{2019}d better start fairly early. <<Half past ten|10>>?\x{201d}",
           ],
           [
             1,
@@ -38,7 +38,7 @@ $VAR1 = [
             1,
             '[ap 00:00] Evil Under the Sun - Agatha Christie.epub (OEBPS/010_chapter05.html) - twelve',
             "Patrick Redfern, to whom the question was addressed, said vaguely:
-\x{201c}Some time before <<twelve|9c:0>>. I don\x{2019}t know exactly.\x{201d}
+\x{201c}Some time before <<twelve|9c:1>>. I don\x{2019}t know exactly.\x{201d}
 Emily Brewster said:",
           ],
           [
@@ -61,7 +61,7 @@ Emily Brewster said:",
           [
             1,
             '[ap 09:00] Evil Under the Sun - Agatha Christie.epub (OEBPS/010_chapter05.html) - nine',
-            "\x{201c}First of all,\x{201d} said Weston, \x{201c}we\x{2019}ve got to find out who last saw the dead woman alive. Chambermaid took her her breakfast at <<nine|9c:0>>. Girl in the bureau downstairs saw her pass through the lounge and go out about ten.\x{201d}",
+            "\x{201c}First of all,\x{201d} said Weston, \x{201c}we\x{2019}ve got to find out who last saw the dead woman alive. Chambermaid took her her breakfast at <<nine|9c:1>>. Girl in the bureau downstairs saw her pass through the lounge and go out about ten.\x{201d}",
           ],
           [
             1,
@@ -175,7 +175,7 @@ Her voice changed.",
           [
             1,
             '[ap 23:45] Evil Under the Sun - Agatha Christie.epub (OEBPS/011_chapter06.html) - quarter to twelve',
-            "\x{201c}At a <<quarter to twelve|10>>. I was playing tennis at <<twelve|9c:0>> and had to change.\x{201d}",
+            "\x{201c}At a <<quarter to twelve|10>>. I was playing tennis at <<twelve|9c:1>> and had to change.\x{201d}",
           ],
           [
             1,

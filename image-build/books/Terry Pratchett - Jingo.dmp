@@ -34,7 +34,7 @@ $VAR1 = [
           [
             1,
             '[ap < 04:00] Jingo - Terry Pratchett.epub (index_split_001.html) - almost four',
-            'It must\'ve been <<almost four|3b>> when I sat down Vimes thought. I know I heard the shift change at <<eight|9c:0>>, and then I had to sort out Nobby\'s expenses, that\'s advanced mathematics if ever there was some...',
+            'It must\'ve been <<almost four|3b>> when I sat down Vimes thought. I know I heard the shift change at <<eight|9c:1>>, and then I had to sort out Nobby\'s expenses, that\'s advanced mathematics if ever there was some...',
           ],
           [
             1,
@@ -126,6 +126,11 @@ The lookout man knelt on the deck in front of 71\x{2013}hour Ahmed and trembled.
             '\'Good grief, what now?\' said Vimes.
 \'<<Eight pee em|5>>. Er... Narrowly Escape Assassination by Klatchian Spy?\'
 Vimes went cold. \'Where?\' he said, looking around wildly.',
+          ],
+          [
+            1,
+            '[ap 10:00] Jingo - Terry Pratchett.epub (index_split_003.html) - ten',
+            '\'Really? Oh, the loss is entirely yours, I assure you. The point is, of course, that the Etoliated Bladderwrack is never usually found growing above thirty fathoms, and it\'s only <<ten|9f>> here.\'',
           ],
           [
             1,

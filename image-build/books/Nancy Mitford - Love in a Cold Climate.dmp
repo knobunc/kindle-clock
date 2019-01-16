@@ -86,7 +86,7 @@ $VAR1 = [
           [
             1,
             '[ap 04:45] Love in a Cold Climate - Nancy Mitford.epub (OEBPS/Mitf_9780307741356_epub_c15_r1.htm) - 4:45',
-            "\x{201c}<<4:45|2>> please. I told Boy to meet me at the Ritz at <<one|9c:0>>. I sent him a postcard yesterday.\x{201d}",
+            "\x{201c}<<4:45|2>> please. I told Boy to meet me at the Ritz at <<one|9c:1>>. I sent him a postcard yesterday.\x{201d}",
           ],
           [
             1,
@@ -101,7 +101,7 @@ $VAR1 = [
           [
             1,
             '[ap 01:00] Love in a Cold Climate - Nancy Mitford.epub (OEBPS/Mitf_9780307741356_epub_c21_r1.htm) - one',
-            "\x{201c}So you say, but I don\x{2019}t find that you gaze and gaze at <<one|9c:0>>. On the contrary, you listen intently, with your eye out of the window.\x{201d}",
+            "\x{201c}So you say, but I don\x{2019}t find that you gaze and gaze at <<one|9c:1>>. On the contrary, you listen intently, with your eye out of the window.\x{201d}",
           ],
           [
             1,
@@ -117,13 +117,18 @@ $VAR1 = [
             1,
             '[ap 01:00] Love in a Cold Climate - Nancy Mitford.epub (OEBPS/Mitf_9780307741356_epub_c21_r1.htm) - one',
             "\x{201c}My dear Cedric, they are very poor\x{2014}they can\x{2019}t afford to live in England, let alone Paris. That\x{2019}s why they are still in Sicily. If it wasn\x{2019}t for that they\x{2019}d come home now like a shot. Boy lost money in the crash last autumn, and he told me that if he hadn\x{2019}t got a very good let for Silkin they would really be almost penniless. Oh, dear, and when you think how rich Polly would have been \x{2026}\x{201d}
-\x{201c}No cruel looks at <<one|9c:0>>,\x{201d} said Cedric. \x{201c}Fair\x{2019}s fair, you know.\x{201d}
+\x{201c}No cruel looks at <<one|9c:1>>,\x{201d} said Cedric. \x{201c}Fair\x{2019}s fair, you know.\x{201d}
 \x{201c}Anyway it\x{2019}s a shocking business and only shows where dear old sex can land a person. I never saw anybody so pleased as he was when I appeared\x{2014}like a dog let off a lead. Wanted to hear every single thing that\x{2019}s been going on. You could just see how lonely and bored he feels, poor chap.\x{201d}",
           ],
           [
             1,
+            '[~ 11:00] Love in a Cold Climate - Nancy Mitford.epub (OEBPS/Mitf_9780307741356_epub_c21_r1.htm) - elevenses',
+            'Cedric came back and said that Lady Montdore had been caught red-handed having <<elevenses|13>> in the Devonshire tea-rooms and had been given the sack. She told him that the motor would call for him on its way, so that she would have a companion for the drive home.',
+          ],
+          [
+            1,
             '[ap 06:30] Love in a Cold Climate - Nancy Mitford.epub (OEBPS/Mitf_9780307741356_epub_c22_r1.htm) - half-past six',
-            "\x{201c}But, my dearest Mrs. Cozens, I don\x{2019}t want a hunter. It\x{2019}s the last thing. I\x{2019}d be far too frightened. Besides, look at the time you have to get up\x{2014}I heard them the other morning in the woods, <<half-past six|10>>. Well, you know, I\x{2019}m afraid it\x{2019}s \x{2018}up before seven dead before <<eleven|9c:0>>\x{2019} with one. No, I just wanted this special old clipper-clopper. She\x{2019}s not the horse to make claims on a chap. She won\x{2019}t want to be ridden all the time, as a younger horse might, and there she\x{2019}ll be, if I feel like having a few words with her occasionally. But the great question now, which I came to tease practical Fanny with, is how to get her home?\x{201d}",
+            "\x{201c}But, my dearest Mrs. Cozens, I don\x{2019}t want a hunter. It\x{2019}s the last thing. I\x{2019}d be far too frightened. Besides, look at the time you have to get up\x{2014}I heard them the other morning in the woods, <<half-past six|10>>. Well, you know, I\x{2019}m afraid it\x{2019}s \x{2018}up before seven dead before <<eleven|9c:1>>\x{2019} with one. No, I just wanted this special old clipper-clopper. She\x{2019}s not the horse to make claims on a chap. She won\x{2019}t want to be ridden all the time, as a younger horse might, and there she\x{2019}ll be, if I feel like having a few words with her occasionally. But the great question now, which I came to tease practical Fanny with, is how to get her home?\x{201d}",
           ],
           [
             1,

@@ -57,7 +57,7 @@ $VAR1 = [
           [
             1,
             '[ap < 05:00] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0007.html) - nearly five',
-            "\x{201c}When Mrs. Turner has brought in the tray I will make it clear to you. Now,\x{201d} he said, as he turned hungrily on the simple fare that our landlady had provided, \x{201c}I must discuss it while I eat, for I have not much time. It is <<nearly five|9:1>> now. In two hours we must be on the scene of action. Miss Irene, or Madame, rather, returns from her drive at <<seven|9c:1>>. We must be at Briony Lodge to meet her.\x{201d}",
+            "\x{201c}When Mrs. Turner has brought in the tray I will make it clear to you. Now,\x{201d} he said, as he turned hungrily on the simple fare that our landlady had provided, \x{201c}I must discuss it while I eat, for I have not much time. It is <<nearly five|9f>> now. In two hours we must be on the scene of action. Miss Irene, or Madame, rather, returns from her drive at <<seven|9c:1>>. We must be at Briony Lodge to meet her.\x{201d}",
           ],
           [
             1,
@@ -104,7 +104,7 @@ $VAR1 = [
           [
             1,
             '[ap 10:00] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0008.html) - ten',
-            "\x{201c}This went on day after day, Mr. Holmes, and on Saturday the manager came in and planked down four golden sovereigns for my week\x{2019}s work. It was the same next week, and the same the week after. Every morning I was there at <<ten|9b>>, and every afternoon I left at <<two|9c:0>>. By degrees Mr. Duncan Ross took to coming in only once of a morning, and then, after a time, he did not come in at all. Still, of course, I never dared to leave the room for an instant, for I was not sure when he might come, and the billet was such a good one, and suited me so well, that I would not risk the loss of it.",
+            "\x{201c}This went on day after day, Mr. Holmes, and on Saturday the manager came in and planked down four golden sovereigns for my week\x{2019}s work. It was the same next week, and the same the week after. Every morning I was there at <<ten|9b>>, and every afternoon I left at <<two|9c:1>>. By degrees Mr. Duncan Ross took to coming in only once of a morning, and then, after a time, he did not come in at all. Still, of course, I never dared to leave the room for an instant, for I was not sure when he might come, and the billet was such a good one, and suited me so well, that I would not risk the loss of it.",
           ],
           [
             1,
@@ -115,7 +115,7 @@ $VAR1 = [
             1,
             '[ap 10:00] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0008.html) - ten',
             "\x{201c}Ten will be early enough.\x{201d}
-\x{201c}I shall be at Baker Street at <<ten|9c:0>>.\x{201d}
+\x{201c}I shall be at Baker Street at <<ten|9c:1>>.\x{201d}
 \x{201c}Very well. And, I say, Doctor! There may be some little danger, so kindly put your army revolver in your pocket.\x{201d} He waved his hand, turned on his heel, and disappeared in an instant among the crowd.",
           ],
           [
@@ -166,7 +166,7 @@ $VAR1 = [
           [
             1,
             '[~ 15:00] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0010.html) - about three in the afternoon',
-            "\x{201c}On June 3, that is, on Monday last, McCarthy left his house at Hatherley <<about three in the afternoon|9h>>, and walked down to the Boscombe Pool, which is a small lake formed by the spreading out of the stream which runs down the Boscombe Valley. He had been out with his serving-man in the morning at Ross, and he had told the man that he must hurry, as he had an appointment of importance to keep at <<three|9c:0>>. From that appointment he never came back alive.",
+            "\x{201c}On June 3, that is, on Monday last, McCarthy left his house at Hatherley <<about three in the afternoon|9h>>, and walked down to the Boscombe Pool, which is a small lake formed by the spreading out of the stream which runs down the Boscombe Valley. He had been out with his serving-man in the morning at Ross, and he had told the man that he must hurry, as he had an appointment of importance to keep at <<three|9c:1>>. From that appointment he never came back alive.",
           ],
           [
             1,
@@ -196,7 +196,7 @@ $VAR1 = [
           [
             1,
             '[12:00] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0011.html) - midday',
-            "13Baedeker describes Coventry in 1896 as \x{201c}an ancient city with 54,740 inhab., possesses extensive manufactories of ribbons, dress-trimmings, coach-lace, and watches, and is famous for its artistic work in metal. It is also the headquarters of the manufacture of bicycles and tricycles.\x{201d} However, Coventry is perhaps most famous for a legendary horseback ride. In the eleventh century, Lady Godiva bargained with her husband, a powerful noble, to reduce taxes in the district. He promised to do so if she rode naked on horseback through the Coventry marketplace at <<midday|13>>. Lady Godiva made her now-famous ride, and the taxes were eliminated. The story was recorded several times before <<1400|9c:1>>. In later accounts, probably at the urging of churchmen, the account was embellished with the tale of \x{201c}Peeping Tom,\x{201d} who was struck blind (or dead) when he alone gazed upon Lady Godiva. Another later invention was the detail of the story, often added, that Godiva was covered totally, except for her legs, by an enormous and improbable quantity of hair. Alfred, Lord Tennyson, commemorated a visit to Coventry with a poem about the legend entitled \x{201c}Godiva\x{201d} (1842).",
+            "13Baedeker describes Coventry in 1896 as \x{201c}an ancient city with 54,740 inhab., possesses extensive manufactories of ribbons, dress-trimmings, coach-lace, and watches, and is famous for its artistic work in metal. It is also the headquarters of the manufacture of bicycles and tricycles.\x{201d} However, Coventry is perhaps most famous for a legendary horseback ride. In the eleventh century, Lady Godiva bargained with her husband, a powerful noble, to reduce taxes in the district. He promised to do so if she rode naked on horseback through the Coventry marketplace at <<midday|13>>. Lady Godiva made her now-famous ride, and the taxes were eliminated. The story was recorded several times before <<1400|9c:0>>. In later accounts, probably at the urging of churchmen, the account was embellished with the tale of \x{201c}Peeping Tom,\x{201d} who was struck blind (or dead) when he alone gazed upon Lady Godiva. Another later invention was the detail of the story, often added, that Godiva was covered totally, except for her legs, by an enormous and improbable quantity of hair. Alfred, Lord Tennyson, commemorated a visit to Coventry with a poem about the legend entitled \x{201c}Godiva\x{201d} (1842).",
           ],
           [
             1,
@@ -248,7 +248,7 @@ $VAR1 = [
           [
             1,
             '[ap 07:00] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0013.html) - seven',
-            "\x{201c}Very glad to see you. I dine at <<seven|9c:0>>. There is a woodcock, I believe. By the way, in view of recent occurrences, perhaps I ought to ask Mrs. Hudson to examine its crop.\x{201d}",
+            "\x{201c}Very glad to see you. I dine at <<seven|9c:1>>. There is a woodcock, I believe. By the way, in view of recent occurrences, perhaps I ought to ask Mrs. Hudson to examine its crop.\x{201d}",
           ],
           [
             1,
@@ -333,7 +333,7 @@ $VAR1 = [
           [
             1,
             '[ap 11:15] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0015.html) - 11.15',
-            "\x{201c} \x{2018}Ah!\x{2019} said he, carelessly, \x{2018}we have our own process. We compress the earth into bricks, so as to remove them without revealing what they are. But that is a mere detail. I have taken you fully into my confidence now, Mr. Hatherley, and I have shown you how I trust you.\x{2019} He rose as he spoke. \x{2018}I shall expect you, then, at Eyford at <<11.15|9c:0>>.\x{2019}",
+            "\x{201c} \x{2018}Ah!\x{2019} said he, carelessly, \x{2018}we have our own process. We compress the earth into bricks, so as to remove them without revealing what they are. But that is a mere detail. I have taken you fully into my confidence now, Mr. Hatherley, and I have shown you how I trust you.\x{2019} He rose as he spoke. \x{2018}I shall expect you, then, at Eyford at <<11.15|9c:1>>.\x{2019}",
           ],
           [
             1,
@@ -374,7 +374,7 @@ $VAR1 = [
             1,
             "[ap 04:00] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0016.html) - four o\x{2019}clock",
             "\x{201c}It is dated from Grosvenor Mansions, written with a quill pen, and the noble lord has had the misfortune to get a smear of ink upon the outer side of his right little finger,\x{201d} remarked Holmes, as he folded up the epistle.
-\x{201c}He says <<four o\x{2019}clock|6>>. It is <<three|9q>> now. He will be here in an hour.\x{201d}
+\x{201c}He says <<four o\x{2019}clock|6>>. It is <<three|9f>> now. He will be here in an hour.\x{201d}
 \x{201c}Then I have just time, with your assistance, to get clear upon the subject. Turn over those papers, and arrange the extracts in their order of time, while I take a glance as to who our client is.\x{201d} He picked a red-covered volume from a line of books of reference beside the mantelpiece. \x{201c}Here he is,\x{201d} said he, sitting down and flattening it out upon his knee. \x{201c} \x{2018}Lord Robert Walsingham de Vere St. Simon, second son of the Duke of Balmoral\x{2014}Hum! Arms: Azure, three caltrops in chief over a fess sable. Born in 1846.\x{2019} He\x{2019}s forty-one years of age, which is mature for marriage. Was Under-Secretary for the Colonies in a late Administration. The Duke, his father, was at one time Secretary for Foreign Affairs. They inherit Plantagenet blood by direct descent, and Tudor on the distaff side. Ha! Well there is nothing very instructive in all this. I think that I must turn to you, Watson, for something more solid.\x{201d}",
           ],
           [
@@ -415,7 +415,7 @@ $VAR1 = [
           [
             1,
             '[ap > 09:00] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0017.html) - after nine',
-            "\x{201c}Why, it is <<after nine|9:0>> now,\x{201d} I answered. \x{201c}I should not be surprised if that were he. I thought I heard a ring.\x{201d}",
+            "\x{201c}Why, it is <<after nine|9f>> now,\x{201d} I answered. \x{201c}I should not be surprised if that were he. I thought I heard a ring.\x{201d}",
           ],
           [
             1,
@@ -748,7 +748,7 @@ $VAR1 = [
           [
             1,
             '[ap 04:45] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0029.html) - quarter to five',
-            "\x{201c}The Diogenes Club is the queerest club in London, and Mycroft one of the queerest men. He\x{2019}s always there from <<quarter to five|10>> to <<twenty to eight|10a:1>>. It\x{2019}s <<six|9q>> now, so if you care for a stroll this beautiful evening I shall be very happy to introduce you to two curiosities.\x{201d}",
+            "\x{201c}The Diogenes Club is the queerest club in London, and Mycroft one of the queerest men. He\x{2019}s always there from <<quarter to five|10>> to <<twenty to eight|10a:1>>. It\x{2019}s <<six|9f>> now, so if you care for a stroll this beautiful evening I shall be very happy to introduce you to two curiosities.\x{201d}",
           ],
           [
             1,
