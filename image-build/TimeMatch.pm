@@ -746,6 +746,19 @@ sub get_masks {
                 (?{ $branch = "x22"; })
               }xin;
 
+    # in nineteen twenty-two
+    # spring of nineteen twenty-two
+    push @r,qr{ $bb_re
+                (?<t1>
+                  ( in
+                  | (spring | summer | fall | autumn | winter) \s+ of
+                  )
+                  \s+ $hour24_word_re \s+ $min_word_re
+                )
+                $ba_re
+                (?{ $branch = "x23"; })
+              }xin;
+
     return(\@r);
 }
 
