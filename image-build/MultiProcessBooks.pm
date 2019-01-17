@@ -31,12 +31,12 @@ sub new {
          queue      => [],
          printed    => 0,
          run_start  => undef,
-         display    => { what   => 10,
-                         author => 20,
+         display    => { what   => 7,
+                         author => 18,
                          book   => 0,   # Set later
-			 size   => 6,
-                         status => 20,
-                         FIXED  => 10,   # The number of fixed chars in the string
+                         size   => 7,
+                         status => 26,
+                         FIXED  => 8,   # The number of fixed chars in the string
                        },
         };
     bless($self, $class);
@@ -177,17 +177,17 @@ sub print_task_start {
     my $d = $self->{display};
 
     if ($size == 0) {
-	$size = '';
+        $size = '';
     }
     else {
-	$size = int($size / 1000) . 'k';
+        $size = int($size / 1000) . 'k';
     }	
     
-    my ($what, $wcolor) = $skip ? ("Skipping", "yellow") : ("Processing", "bold green");
+    my ($what, $wcolor) = $skip ? ("Skip", "yellow") : ("Process", "bold green");
     my $acolor = "bold blue";
     my $bcolor = "bold blue";
     my ($w, $a, $b, $s) = map { "$_.$_" } @{$d}{qw( what author book size )};
-    printf("%s%${w}s%s: %s%${a}s%s - %s%-${b}s%s %${s}s  ",
+    printf("%s%${w}s%s: %s%${a}s%s - %s%-${b}s%s%${s}s ",
            color($wcolor), $what,                        color('reset'),
            color($acolor), elide($author, $d->{author}), color('reset'),
            color($bcolor), elide($book,   $d->{book}  ), color('reset'),
@@ -203,15 +203,17 @@ sub print_task_end {
 
     my $i = $self->get_task($task_name);
 
-    my $status = "\n";
-    $status = sprintf(" %sDone%s: %s%3ds%s  %6.2fk/s\n",
+    my $status = "";
+    $status = sprintf(" %sDone%s: %s%3ds%s  %6.2fk/s",
                       color('bold green'),            color('reset'),
                       color('bold blue'),  $i->{dur}, color('reset'),
                       $i->{size} / $i->{dur} / 1000,
                       )
         unless $i->{skip};
 
-    $self->_print_status($status);
+    my $pad = $self->{display}{status} - length(colorstrip($status));
+
+    $self->_print_status(" "x$pad . $status . "\n");
 
     return;
 }
@@ -288,7 +290,7 @@ sub print_status {
         push @tasks, get_icon($dur, $done);
     }
 
-    my $len = $self->{display}{status} - 2;
+    my $len = $self->{display}{status} - 1;
 
     # Pad out the tasks if needed
     if (@tasks < $len) {
