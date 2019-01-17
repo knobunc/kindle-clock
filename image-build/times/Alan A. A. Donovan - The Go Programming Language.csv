@@ -13,91 +13,6 @@
 "ap 07:14"|7.14|"7.14. Example: Token-Based XML Decoding
 7.15. A Few Words of Advice
 8. Goroutines and Channels"|"The Go Programming Language"|"Alan A. A. Donovan"
-00:00|0|"The var declaration declares two variables s and sep, of type
-string.  A variable can be initialized as part of its declaration.
-
-If it is not explicitly initialized, it is implicitly
-initialized to the zero value for its type, which is 0 for numeric
-
-
-types and the empty string """" for strings.
-
-Thus in this example, the declaration implicitly initializes s and sep to empty
-strings.
-We’ll have more to say
-
-about variables and declarations in Chapter 2."|"The Go Programming Language"|"Alan A. A. Donovan"
-00:00|0|"line := input.Text()
-counts[line] = counts[line] + 1
-
-
-It’s not a problem if the map doesn’t yet contain that key.
-The first time a new line is seen, the expression counts[line]
-on the right-hand side evaluates to the zero value for its type, which
-is 0 for int."|"The Go Programming Language"|"Alan A. A. Donovan"
-"ap 01:10"|1.10|"Exercise 1.10: 
-Find a web site that produces a large amount of data.  Investigate
-caching by running
-fetchall twice in succession to see whether the reported time
-changes much.  Do you get the same content each time?  Modify
-fetchall to print its output to a file so it can be examined."|"The Go Programming Language"|"Alan A. A. Donovan"
-00:00|0|"var name type = expression
-
-
-Either the type or the = expression part may be omitted, but
-not both.
-
-If the type is omitted, it is determined by the initializer
-expression.
-
-If the expression is omitted, the initial value is the zero value
-
-
-
-for the type, which is 0 for numbers, false for booleans,
-"""" for strings, and nil for interfaces and reference
-types (slice, pointer, map, channel, function).
-
-The zero value of an aggregate type like an array or a struct has the
-zero value of all of its elements or fields."|"The Go Programming Language"|"Alan A. A. Donovan"
-"ap 03:12"|3.12|"Exercise 3.12: 
-Write a function that reports whether two strings are anagrams of each
-other, that is, they contain the same letters in a different order."|"The Go Programming Language"|"Alan A. A. Donovan"
-00:00|0|"var a [3]int             // array of 3 integers
-fmt.Println(a[0])        // print the first element
-fmt.Println(a[len(a)-1]) // print the last element, a[2]
-
-// Print the indices and elements.
-for i, v := range a {
-    fmt.Printf(""%d %d\n"", i, v)
-}
-
-// Print the elements only.
-for _, v := range a {
-    fmt.Printf(""%d\n"", v)
-}
-
-
-By default, the elements of a new array variable are initially set to
-the zero value for the element type, which is 0 for numbers.
-
-
-We can use an
-array literal to initialize an array with a list of values:"|"The Go Programming Language"|"Alan A. A. Donovan"
-00:00|0|"The slice operator s[i:j],
-where 0 ≤ i ≤ j ≤ cap(s),
-creates a
-
-new slice that refers to elements i through j-1 of the sequence s,
-which may be an array variable, a pointer to an array, or another
-slice.  The resulting slice has j-i elements.
-If i is omitted, it’s 0, and if j is omitted, it’s
-len(s).
-Thus the slice months[1:13] refers to the whole range of valid months, as does
-the slice months[1:]; the slice months[:] refers to the whole array.
-
-Let’s define overlapping slices for the second quarter and the
-northern summer:"|"The Go Programming Language"|"Alan A. A. Donovan"
 "ap 01:13"|1:13|"The slice operator s[i:j],
 where 0 ≤ i ≤ j ≤ cap(s),
 creates a
@@ -112,11 +27,6 @@ the slice months[1:]; the slice months[:] refers to the whole array.
 
 Let’s define overlapping slices for the second quarter and the
 northern summer:"|"The Go Programming Language"|"Alan A. A. Donovan"
-"ap 04:14"|4.14|"$ go doc text/template
-$ go doc html/template
-Exercise 4.14: 
-Create a web server that queries GitHub once and then allows
-navigation of the list of bug reports, milestones, and users."|"The Go Programming Language"|"Alan A. A. Donovan"
 15:04|15:04|"2006/01/02 15:04:05 Site is down: no such domain: bad.gopl.io
 
 
@@ -152,16 +62,6 @@ flag notations for our own data types.
 
 We need only define a type that satisfies the flag.Value
 interface, whose declaration is below:"|"The Go Programming Language"|"Alan A. A. Donovan"
-"ap 07:10"|7.10|"Exercise 7.10: 
-The sort.Interface type can be adapted to other uses.
-Write a function
-
-IsPalindrome(s sort.Interface) bool that reports whether
-the sequence s is a palindrome, in other words, reversing the
-sequence would not change it.
-
-Assume that the elements at indices i and j are
-equal if !s.Less(i, j) && !s.Less(j, i)."|"The Go Programming Language"|"Alan A. A. Donovan"
 15:04|15:04|"// Clock1 is a TCP server that periodically writes the time.
 package main
 
@@ -321,12 +221,6 @@ The subsequent error message reveals the cause: the program created so
 many network connections at once that it exceeded the per-process
 limit on the number of open files, causing operations such as DNS
 lookups and calls to net.Dial to start failing."|"The Go Programming Language"|"Alan A. A. Donovan"
-"ap 08:13"|8.13|"Exercise 8.13: 
-Make the chat server disconnect idle clients, such as those that have
-sent no messages in the last five minutes.
-
-Hint: calling conn.Close() in another goroutine unblocks active
-Read calls such as the one done by input.Scan()."|"The Go Programming Language"|"Alan A. A. Donovan"
 "ap 02:03"|"two three"|"$ cat quoteargs.go
 package main
 

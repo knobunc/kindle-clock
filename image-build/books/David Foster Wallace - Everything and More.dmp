@@ -112,7 +112,7 @@ $VAR1 = [
           [
             1,
             '[ap 01:00] Everything and More_ A Compact History of - David Foster Wallace.epub (OEBPS/Text/ch7.xhtml) - 1',
-            "What (1) and (2) together really are is a type of proof, the other really famous one besides the reductio. This one\x{2019}s called mathematical induction. To prove some statement Cn for all (n = \x{221e}) cases by math induction, you (a) prove that C1 is true for the first case n = 1, then (b) assume that Ck is true for the first k cases (you don\x{2019}t know what number k is, but from step (a) you know that it exists\x{2014}if nothing else, it\x{2019}s <<1|9d>>), and then (c) prove that Ck + 1 is true for the first (k + 1) cases. Weird-looking or no, (a)\x{2013}(c) ensure that Cn will be true no matter what n is, that is, that C is a genuine theorem.",
+            "What (1) and (2) together really are is a type of proof, the other really famous one besides the reductio. This one\x{2019}s called mathematical induction. To prove some statement Cn for all (n = \x{221e}) cases by math induction, you (a) prove that C1 is true for the first case n = 1, then (b) assume that Ck is true for the first k cases (you don\x{2019}t know what number k is, but from step (a) you know that it exists\x{2014}if nothing else, it\x{2019}s <<1|9d:1>>), and then (c) prove that Ck + 1 is true for the first (k + 1) cases. Weird-looking or no, (a)\x{2013}(c) ensure that Cn will be true no matter what n is, that is, that C is a genuine theorem.",
           ],
           [
             1,
@@ -122,7 +122,7 @@ $VAR1 = [
           [
             1,
             '[21:00] Everything and More_ A Compact History of - David Foster Wallace.epub (OEBPS/Text/ch7.xhtml) - 21',
-            "(a) Prove that the cardinality of P(A) equals 2 for a set A with just one member. Such an A has as subsets the following: \x{d8} and A itself, which means its P(A) has two members, which is <<21|9d>> members, which is <<2|9d>> members, so bingo.67 (b) Assume it\x{2019}s true that if A has k members, P(A)\x{2019}s cardinal number = 2. (c) Prove that if A has (k + 1) members, P(A) = 2(k +1). From step (b) we know that A\x{2019}s first k members yield 2 subsets of A. We now take each one of these 2 subsets and form a brand new subset that also contains the very last of A\x{2019}s (k + 1) members (i.e., the new, extra member designated by the \x{2018}+1\x{2019}). We can form exactly 2 of these new \x{2018}+1\x{2019} subsets\x{2014}one for each of the original subsets. So now we\x{2019}ve got the original 2 subsets that don\x{2019}t contain the new \x{2018}+1\x{2019} member, and we\x{2019}ve got 2 new subsets that do contain it. That\x{2019}s (2 + 2) subsets, which is equivalent to (2 \x{d7} 2) subsets, which equals 2(+1) subsets. So (c) is also proven. So sure enough, P(A) = 2.",
+            "(a) Prove that the cardinality of P(A) equals 2 for a set A with just one member. Such an A has as subsets the following: \x{d8} and A itself, which means its P(A) has two members, which is <<21|9d:1>> members, which is <<2|9d:1>> members, so bingo.67 (b) Assume it\x{2019}s true that if A has k members, P(A)\x{2019}s cardinal number = 2. (c) Prove that if A has (k + 1) members, P(A) = 2(k +1). From step (b) we know that A\x{2019}s first k members yield 2 subsets of A. We now take each one of these 2 subsets and form a brand new subset that also contains the very last of A\x{2019}s (k + 1) members (i.e., the new, extra member designated by the \x{2018}+1\x{2019}). We can form exactly 2 of these new \x{2018}+1\x{2019} subsets\x{2014}one for each of the original subsets. So now we\x{2019}ve got the original 2 subsets that don\x{2019}t contain the new \x{2018}+1\x{2019} member, and we\x{2019}ve got 2 new subsets that do contain it. That\x{2019}s (2 + 2) subsets, which is equivalent to (2 \x{d7} 2) subsets, which equals 2(+1) subsets. So (c) is also proven. So sure enough, P(A) = 2.",
           ],
           [
             1,
@@ -137,7 +137,7 @@ $VAR1 = [
           [
             1,
             '[20:00] Everything and More_ A Compact History of - David Foster Wallace.epub (OEBPS/Text/ch7.xhtml) - 20',
-            "67 IYI You can prove P(A) = 2 for the empty set too. If A = \x{d8}, it has 0 members. It does, however, have a subset\x{2014}viz. \x{d8}, since the empty set is a subset of every set. So here P(A) = 1, which is <<20|9d>>.",
+            "67 IYI You can prove P(A) = 2 for the empty set too. If A = \x{d8}, it has 0 members. It does, however, have a subset\x{2014}viz. \x{d8}, since the empty set is a subset of every set. So here P(A) = 1, which is <<20|9d:1>>.",
           ],
           [
             1,

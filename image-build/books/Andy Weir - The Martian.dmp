@@ -53,18 +53,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[< 15:00] The Martian - Andy Weir.epub (text/part0006.html) - almost 1500',
-            'The prospect of scrubbing a mission because a solar cell got dirty was unacceptable. They needed a more reliable source of power. So the MAV comes equipped with an RTG. It has 2.6kg of Plutonium-238, which makes <<almost 1500|18:0>> Watts of heat. It can turn that in to 100 Watts of electricity. The MAV runs on that until the crew arrive.',
-          ],
-          [
-            1,
             '[ap 03:27] The Martian - Andy Weir.epub (text/part0006.html) - 3 hours and 27 minutes',
             'I set out at first light and drove laps around the Hab, trying to stay on untouched ground. The first battery lasted just under two hours. After a quick EVA to switch the cables, I got back to driving. When all was said and done, I had driven 81km in <<3 hours and 27 minutes|14>>.',
-          ],
-          [
-            1,
-            '[ap 01:00] The Martian - Andy Weir.epub (text/part0006.html) - 100',
-            "The RTG is a generator. It\x{2019}s a paltry amount of power, compared to what the rover consumes, but it\x{2019}s not nothing. It\x{2019}s <<100|9d>> Watts. It\x{2019}ll cut an hour off my total recharge time. Why not use it?",
           ],
           [
             1,
@@ -75,11 +65,6 @@ $VAR1 = [
             1,
             '[21:00] The Martian - Andy Weir.epub (text/part0007.html) - 9pm',
             "Venkat sipped his coffee and frowned at his computer. A month ago it would have been unthinkable to drink coffee at <<9pm|5>>. Now it was necessary fuel. Shift schedules, fund allocations, project juggling, out and out looting of other projects\x{2026} he\x{2019}d never pulled so many stunts in his life.",
-          ],
-          [
-            1,
-            '[ap > 02:00] The Martian - Andy Weir.epub (text/part0008.html) - After two',
-            "But today, my luck finally changed. <<After two|9:0>> sols wandering the desert, I found something to navigate by. It was a 5km crater, so small it didn\x{2019}t even have a listed name. But to me, it was the Lighthouse of Alexandria. Once I had it in sight, I knew exactly where I was.",
           ],
           [
             1,
@@ -410,20 +395,8 @@ It wasn\'t even <<midday|13>> yet. I figured why not get a jump on drilling?
           ],
           [
             1,
-            '[ap 02:58] The Martian - Andy Weir.epub (text/part0017.html) - two to three',
-            'Every now and then, I\'ll need to break for a day and let the Oxygenator use all the power. How often? After a bunch of math I worked out that my 18pn budget can power the Oxygenator enough to make 2.5 sols of O2. I\'d have to stop every <<two to three|10a:0>> sols to reclaim oxygen. My 65 sol trip would become 91!',
-          ],
-          [
-            1,
             '[ap 07:49] The Martian - Andy Weir.epub (text/part0019.html) - 749',
-            'First I had to finish drilling holes with the Pathfinder-murderin\' drill. Then I chiseled out a billion little chunks between the holes. Ok, it was <<749|9d>> but it felt like a billion.',
-          ],
-          [
-            1,
-            '[22:00] The Martian - Andy Weir.epub (text/part0019.html) - 22',
-            'Rim shot!
-Seriously though, it sucked. It was <<22|9d>> sols of abject misery.
-I plan to leave for Schiaparelli 100 sols before my rescue (or death), and I swear to fucking God I\'ll rip my own face off if I have to live in the rover for that long.',
+            'First I had to finish drilling holes with the Pathfinder-murderin\' drill. Then I chiseled out a billion little chunks between the holes. Ok, it was <<749|9d:0>> but it felt like a billion.',
           ],
           [
             1,
@@ -514,11 +487,6 @@ I plan to leave for Schiaparelli 100 sols before my rescue (or death), and I swe
             1,
             '[14:05] The Martian - Andy Weir.epub (text/part0024.html) - 14:05',
             '[<<14:05|2>>]HOUSTON: Preserve all water. Don\'t do any more urine dumps. Store it somewhere. Turn the rover\'s radio on and leave it on. We can contact it through MAV.',
-          ],
-          [
-            1,
-            '[ap 04:00] The Martian - Andy Weir.epub (text/part0024.html) - 4',
-            "Bruce slid the booklet across the desk to Venkat. \x{201c}The problem is the intercept velocity. The MAV is designed to get to Low Mars Orbit, which is <<4|9d>>.1kps. But the Hermes flyby will be 5.8kps.\x{201d}",
           ],
           [
             1,

@@ -47,7 +47,7 @@ $VAR1 = [
           [
             1,
             '[ap 01:04] Beyond Infinity_ An Expedition to the Oute - Eugenia Cheng.epub (OEBPS/Text/chapter007.xhtml) - 104',
-            "In decimal, a four-digit number can express anything up to 9999, which is <<104|9d>> \x{2212} 1. Whereas in binary, a four-digit number can only express things up to 24 \x{2212} 1 = 15",
+            "In decimal, a four-digit number can express anything up to 9999, which is <<104|9d:0>> \x{2212} 1. Whereas in binary, a four-digit number can only express things up to 24 \x{2212} 1 = 15",
           ],
           [
             1,
@@ -98,7 +98,7 @@ copies of this portion. Moreover, we can restrict our attention to any portion o
           [
             1,
             '[00:01] Beyond Infinity_ An Expedition to the Oute - Eugenia Cheng.epub (OEBPS/Text/chapter015.xhtml) - 0.01',
-            "Our tenth attempt is 1/10, which is <<0.01|9d>>. This one will sort of ricochet off the side of the target. Our first one that will definitely hit the target is the next one, 1/11. From this point on we\x{2019}re fine \x{2013} all subsequent attempts will be smaller than that, so they will all hit the target.",
+            "Our tenth attempt is 1/10, which is <<0.01|9d:1>>. This one will sort of ricochet off the side of the target. Our first one that will definitely hit the target is the next one, 1/11. From this point on we\x{2019}re fine \x{2013} all subsequent attempts will be smaller than that, so they will all hit the target.",
           ],
           [
             1,
@@ -136,7 +136,7 @@ and then 1/4 and then 1/8 and so on, the total is also growing. It\x{2019}s just
           [
             1,
             '[ap 01:00] Beyond Infinity_ An Expedition to the Oute - Eugenia Cheng.epub (OEBPS/Text/chapter016.xhtml) - 1',
-            "Here each bar has width 1, so the area of each rectangle is the width times the height, which is <<1|9d>>/n
+            "Here each bar has width 1, so the area of each rectangle is the width times the height, which is <<1|9d:1>>/n
 for each n. So the total area of all those bars is the same as the thing we were just trying to do, adding up all the terms in the harmonic series. This means that the area represented here is \x{201c}infinite.\x{201d} What this really means is that no matter how big a number we think of, if we go far enough down the graph (bigger and bigger n), we can find a place where the area up to that point is definitely bigger than the number we thought of. This means that as we include bigger and bigger n, the area approaches infinity, in the sense of Chapter 11.",
           ],
           [

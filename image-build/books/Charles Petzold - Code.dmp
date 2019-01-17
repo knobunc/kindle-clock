@@ -1,8 +1,8 @@
 $VAR1 = [
           [
             1,
-            '[ap 01:00] Code - Charles Petzold.epub (OEBPS/ch04.html) - 100',
-            'Your home might be lit by <<100|3:0>>-watt lightbulbs. These are designed for the 120 volts of your home. Thus, the current that flows through them is equal to 100 watts divided by <<120|3:0>> volts, or about 0.83 ampere. Hence, the resistance of a 100-watt lightbulb is 120 volts divided by 0.83 ampere, or 144 ohms.',
+            '[ap 01:20] Code - Charles Petzold.epub (OEBPS/ch04.html) - 120',
+            'Your home might be lit by 100-watt lightbulbs. These are designed for the 120 volts of your home. Thus, the current that flows through them is equal to 100 watts divided by <<120|3:0>> volts, or about 0.83 ampere. Hence, the resistance of a 100-watt lightbulb is 120 volts divided by 0.83 ampere, or 144 ohms.',
           ],
           [
             1,
@@ -22,7 +22,7 @@ $VAR1 = [
           [
             1,
             '[ap 02:00] Code - Charles Petzold.epub (OEBPS/ch08.html) - 2',
-            '101101011010TWO = 1 x 211 +0 x 210 +1 x 29 +1 x 28 +0 x 27 +1 x 26 +0 x 25 +1 x 24 +1 x 23 +0 x 22 +1 x 21 +0 x 20If we just add up the parts in decimal, we get 2048 + 512 + 256 + 64 + 16 + 8 + 2, which is <<2|9d>>,906TEN.',
+            '101101011010TWO = 1 x 211 +0 x 210 +1 x 29 +1 x 28 +0 x 27 +1 x 26 +0 x 25 +1 x 24 +1 x 23 +0 x 22 +1 x 21 +0 x 20If we just add up the parts in decimal, we get 2048 + 512 + 256 + 64 + 16 + 8 + 2, which is <<2|9d:1>>,906TEN.',
           ],
           [
             1,
@@ -104,11 +104,6 @@ $VAR1 = [
             1,
             '[00:00] Code - Charles Petzold.epub (OEBPS/ch09.html) - midnight',
             '"Listen, my children, and you shall hear / Of the <<midnight|13>> ride of Paul Revere," wrote Henry Wadsworth Longfellow, and while he might not have been historically accurate when describing how Paul Revere alerted the American colonies that the British had invaded, he did provide a thoughtprovoking example of the use of bits to communicate important information:',
-          ],
-          [
-            1,
-            '[00:00] Code - Charles Petzold.epub (OEBPS/ch09.html) - 0',
-            '00 = They both hated it.01 = Siskel hated it; Ebert loved it.10 = Siskel loved it; Ebert hated it.11 = They both loved it.The first bit is the Siskel bit, which is <<0|9d>> if Siskel hated the movie and 1 if he liked it. Similarly, the second bit is the Ebert bit.',
           ],
           [
             1,
@@ -1143,7 +1138,7 @@ Number:        ADD A,30h ; <<0 to 9|10a:0>> converted to 30h to 39h
           [
             1,
             '[ap 02:00] Code - Charles Petzold.epub (OEBPS/ch23.html) - 2',
-            'In decimal scientific notation, the normalized significand should be greater than or equal to 1 but less than 10. Similarly, the normalized significand of numbers in binary scientific notation is always greater than or equal to 1 but less than binary 10, which is <<2|9d>> in decimal. So in binary scientific notation, the number',
+            'In decimal scientific notation, the normalized significand should be greater than or equal to 1 but less than 10. Similarly, the normalized significand of numbers in binary scientific notation is always greater than or equal to 1 but less than binary 10, which is <<2|9d:1>> in decimal. So in binary scientific notation, the number',
           ],
           [
             1,
@@ -1158,7 +1153,7 @@ Number:        ADD A,30h ; <<0 to 9|10a:0>> converted to 30h to 39h
           [
             1,
             '[ap 01:00] Code - Charles Petzold.epub (OEBPS/ch23.html) - 1',
-            '1.1111111111111111111111111111111111111111111111111111TWO x 21023The range is decimal in approximately 2.2250738585072014 x 10-308 to 1.7976931348623158 x 10308. Ten to the 308th power is a very big number. It\'s <<1|9d>> followed by <<308|3:0>> decimal zeros.',
+            '1.1111111111111111111111111111111111111111111111111111TWO x 21023The range is decimal in approximately 2.2250738585072014 x 10-308 to 1.7976931348623158 x 10308. Ten to the 308th power is a very big number. It\'s <<1|9d:1>> followed by <<308|3:0>> decimal zeros.',
           ],
           [
             1,
