@@ -49,7 +49,7 @@ $VAR1 = [
           [
             1,
             '[ap 10:00] Vet in Harness - James Herriot.epub (index-1_split_000.html) - ten',
-            "\x{201c}Aye, that\x{2019}s all very fine, but it\x{2019}s a big expense. It\x{2019}s <<ten|9d>> bob every time you fellers walk on to ma place and that\x{2019}s before you start. There\x{2019}s all \x{201c}\x{2018}medicines and everything on top.\x{2019}",
+            "\x{201c}Aye, that\x{2019}s all very fine, but it\x{2019}s a big expense. It\x{2019}s <<ten|9d:1>> bob every time you fellers walk on to ma place and that\x{2019}s before you start. There\x{2019}s all \x{201c}\x{2018}medicines and everything on top.\x{2019}",
           ],
           [
             1,
