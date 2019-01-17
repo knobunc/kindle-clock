@@ -5462,7 +5462,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [16:54]: 1654',
-            'It was <<1654|9:1>> local time when the Red October broke the surface of the Atlantic Ocean for the first time, forty-seven miles southeast of Norfolk. There was no other ship in sight.'
+            'It was <<1654|9d:1>> local time when the Red October broke the surface of the Atlantic Ocean for the first time, forty-seven miles southeast of Norfolk. There was no other ship in sight.'
           ],
           [
             1,

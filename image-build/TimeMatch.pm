@@ -1374,7 +1374,7 @@ sub get_matches {
                   $twas_re \s+
                 )
                 (?<t1>
-                  $hour_re (?<sep> [-:.] | \s+ )? (?<mn> $min0_re)
+                  $hour_re (?<sep> [-:.] \s* | \s+ )? (?<mn> $min0_re)
                 | $low_num_re \s* (*SKIP)(*FAIL)
                 | $hour_re
                 )
@@ -1396,6 +1396,9 @@ sub get_matches {
                            # If we have minutes but no separator that's not great
                            $branch = "9d:TIMEY";
                         }
+                     }
+                     if ($+{t1} eq '0') {
+                         $branch = "x9d";
                      }
                   })
               }xin;
