@@ -302,7 +302,7 @@ my $never_follow_times_exp_re =
         | degrees | °
         | per\s*cent | %
         | centimeter | cm | meter | kilometer | km | klick | millimeter | mm
-        | centimetre | metre | kilometre
+        | centimetre | metre | kilometre | watt | sol
         | inch | inches | foot | feet | ft | yard | yd | mile | mi | knot | kt | block
         | pound | lb | kilogram | kg | kilo | ton | tonne | kiloton  | gram | ounce | oz
         | cup | pint | quart | gallon
@@ -608,7 +608,7 @@ sub get_masks {
                     ( ( \w | \# \d+ ) \s+ )?   # Apartment number / letter
                   )
                   ( \w+ \s+ ){0,2}?            # Filler words
-                  ( road | rd
+                  ( road | rd | rue
                   | street | st
                   | avenue | ave
                   | crescent
@@ -646,6 +646,7 @@ sub get_masks {
                   | nos?\.?
                   | number
                   | chapter | line | paragraph | page | issue | volume | figure
+                  | exercise | illustration | example
                   ) s? \s+
                   \d+ (\. \d+)*
                   ( (, \s+ and | ,) \s* \d+ (\. \d+)* )*
@@ -1384,7 +1385,10 @@ sub get_matches {
                   )
                   (*SKIP)(*FAIL)
                 )?
-                (?= (?<tr> \s* (\w+ \s+){0,3} time ) )?
+                (?= \s* (?<tr> (\w+ \s+){0,3} time
+                        | now
+                        )
+                )?
                 $ba_re
                 (?{ $branch = "9d:1";
                     if (not $+{tr}) {
