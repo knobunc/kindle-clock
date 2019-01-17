@@ -296,12 +296,16 @@ my $never_follow_times_exp_re =
           ) \s+
         )?
         ( $min_re - )?                                    # Things like six-inch
-        ( and \s+ a \s+ (half | quarter | third) \s+ (to \s+ $low_num_re \s+)? )?   # Two and a half centuries
+
+        ( and \s+ a \s+ (half | quarter | third) \s+ (to \s+ $low_num_re \s+)?
+        | \d+ / \d+ \s+
+        )?   # Two and a half centuries, 9 1/2 inches
+
         ( with | which | point | time | moment | instant | end | stage | of | who
         | after | since
         | degrees | °
         | per\s*cent | %
-        | centimeter | cm | meter | kilometer | km | klick | millimeter | mm
+        | centimeter | cm | meter | kilometer | km | klick | millimeter | mm | acre
         | centimetre | metre | kilometre | watt | sol
         | inch | inches | foot | feet | ft | yard | yd | mile | mi | knot | kt | block
         | pound | lb | kilogram | kg | kilo | ton | tonne | kiloton  | gram | ounce | oz
@@ -1288,6 +1292,7 @@ sub get_matches {
                 (?<t1> ( $rel_words \s+ )?
                   $hour12_re ( ( [-:.] | \s+ )? $min0_re )?
                 )
+                (?! $never_follow_times_re )
                 (?<po>
                   (\s+ ( here | there | now | soon ) )?
                   ( \z | $phrase_punc? $aq | $phrase_punc ( \s+ | \z ) | \s+ $hyph+ \s+)
