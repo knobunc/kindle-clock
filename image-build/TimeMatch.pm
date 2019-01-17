@@ -753,7 +753,9 @@ sub get_masks {
                   ( in
                   | (spring | summer | fall | autumn | winter) \s+ of
                   )
-                  \s+ $hour24_word_re \s+ $min_word_re
+                  ( \s+ $hour24_word_re \s+ $min_word_re
+                  | \s+ \d{3,4}
+                  )
                 )
                 $ba_re
                 (?{ $branch = "x23"; })
@@ -1372,13 +1374,30 @@ sub get_matches {
                   $twas_re \s+
                 )
                 (?<t1>
-                  $hour_re ( [-:.] | \s+ )? $min0_re
+                  $hour_re (?<sep> [-:.] | \s+ )? (?<mn> $min0_re)
                 | $low_num_re \s* (*SKIP)(*FAIL)
                 | $hour_re
                 )
-                ( $never_follow_times_re (*SKIP)(*FAIL) )?
+                ( ( $never_follow_times_re
+                  | \. \d+
+                  | \s+ (above | below)  # Temperatures
+                  )
+                  (*SKIP)(*FAIL)
+                )?
+                (?= (?<tr> \s* (\w+ \s+){0,3} time ) )?
                 $ba_re
-                (?{ $branch = "9d"; })
+                (?{ $branch = "9d:1";
+                    if (not $+{tr}) {
+                        # No strong time indicator
+                        if (is_yearish($+{t1}) and not $+{tr}) {
+                            $branch = "9d:0";
+                        }
+                        elsif (not $+{sep} and $+{mn}) {
+                           # If we have minutes but no separator that's not great
+                           $branch = "9d:TIMEY";
+                        }
+                     }
+                  })
               }xin;
     push @r,qr{ (?<pr>
                   ( \A | $aq | $phrase_punc_nc \s+ ) # No comma

@@ -3177,7 +3177,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [10:00]: ten o\'clock in the morning',
-            'For some seconds the light went on becoming brighter and brighter, and she saw everything more and more clearly and the clock ticked louder and louder until there was a terrific explosion right in her ear. Orlando leapt as if she had been violently struck on the head. Ten times she was struck. In fact it was <<ten o\'clock in the morning|6>>. It was the eleventh of October. It was <<1928|9d>>. It was the present moment.'
+            'For some seconds the light went on becoming brighter and brighter, and she saw everything more and more clearly and the clock ticked louder and louder until there was a terrific explosion right in her ear. Orlando leapt as if she had been violently struck on the head. Ten times she was struck. In fact it was <<ten o\'clock in the morning|6>>. It was the eleventh of October. It was <<1928|9d:0>>. It was the present moment.'
           ],
           [
             1,
@@ -3252,7 +3252,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [10:03]: 10.03',
-            'It\'s <<10.03|9d>> according to his watch, and he is travelling down through the Scottish highlands to Inverness, tired and ever-so-slightly anxious in case he falls asleep between now and when the train reaches the station, and misses his cue to say to Alice, Drew and Aleesha: \'OK, this is Inverness, let\'s move it.\''
+            'It\'s <<10.03|9d:1>> according to his watch, and he is travelling down through the Scottish highlands to Inverness, tired and ever-so-slightly anxious in case he falls asleep between now and when the train reaches the station, and misses his cue to say to Alice, Drew and Aleesha: \'OK, this is Inverness, let\'s move it.\''
           ],
           [
             1,
@@ -4117,7 +4117,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [12:33]: 12.33',
-            'It\'s <<12.33|9d>> now and I could do it, the station is just down that side road there.'
+            'It\'s <<12.33|9d:1>> now and I could do it, the station is just down that side road there.'
           ],
           [
             1,
@@ -4547,7 +4547,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [14:02]: 14.02',
-            '"I\'m not dead. How did that happen?" He was right. It was <<14.02|9d>> and twenty-six seconds. Destiny had not been fulfilled. We all looked at each other, confused.'
+            '"I\'m not dead. How did that happen?" He was right. It was <<14.02|9d:1>> and twenty-six seconds. Destiny had not been fulfilled. We all looked at each other, confused.'
           ],
           [
             1,
@@ -5462,7 +5462,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [16:54]: 1654',
-            'It was <<1654|9d>> local time when the Red October broke the surface of the Atlantic Ocean for the first time, forty-seven miles southeast of Norfolk. There was no other ship in sight.'
+            'It was <<1654|9:1>> local time when the Red October broke the surface of the Atlantic Ocean for the first time, forty-seven miles southeast of Norfolk. There was no other ship in sight.'
           ],
           [
             1,
