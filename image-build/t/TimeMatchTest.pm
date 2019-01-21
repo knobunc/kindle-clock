@@ -1884,7 +1884,7 @@ sub get_csv_tests {
           [
             1,
             'Timestr [06:02]: 6.02',
-            'Bimingham New Street <<5.25|5a:1>>. Walsall <<5.55|5a:1>>. This train does not stop at Birchills, for reasons George has never been able to ascertain. Then it is Bloxwich <<6.02|5a:1>>, Wyrley & Churchbridge <<6.09|5a:1>>. At <<6.10|9m:1>> he nods to Mr Merriman the stationmaster.'
+            'Bimingham New Street <<5.25|5a:1>>. Walsall <<5.55|5a:1>>. This train does not stop at Birchills, for reasons George has never been able to ascertain. Then it is Bloxwich <<6.02|5a:1>>, Wyrley & Churchbridge <<6.09|5a:1>>. At <<6.10|9e>> he nods to Mr Merriman the stationmaster.'
           ],
           [
             1,
@@ -2812,7 +2812,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [09:00]: nine',
-            'Opening his window, Aschenbach thought he could smell the foul stench of the lagoon. A sudden despondency came over him. He considered leaving then and there. Once, years before, after weeks of a beautiful spring, he had been visited by this sort of weather and it so affected his health he had been obliged to flee. Was not the same listless fever setting in? The pressure in the temples, the heavy eyelids? Changing hotels again would be a nuisance, but if the wind failed to shift he could not possibly remain here. To be on the safe side, he did not unpack everything. At <<nine|9m:1>> he went to breakfast in the specially designated buffet between the lobby and the dining room.'
+            'Opening his window, Aschenbach thought he could smell the foul stench of the lagoon. A sudden despondency came over him. He considered leaving then and there. Once, years before, after weeks of a beautiful spring, he had been visited by this sort of weather and it so affected his health he had been obliged to flee. Was not the same listless fever setting in? The pressure in the temples, the heavy eyelids? Changing hotels again would be a nuisance, but if the wind failed to shift he could not possibly remain here. To be on the safe side, he did not unpack everything. At <<nine|9e>> he went to breakfast in the specially designated buffet between the lobby and the dining room.'
           ],
           [
             1,
@@ -7167,7 +7167,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [23:22]: 11.22',
-            'At <<11.22|9m:1>> he handed his ticket to a yawning guard and walked down a long flight of wooden steps to the car-park. A breeze lifted and dropped the leaves of a tree, and he thought of the girl with the blonde hair. His bicycle lay where he had left it.'
+            'At <<11.22|9e>> he handed his ticket to a yawning guard and walked down a long flight of wooden steps to the car-park. A breeze lifted and dropped the leaves of a tree, and he thought of the girl with the blonde hair. His bicycle lay where he had left it.'
           ],
           [
             1,

@@ -302,6 +302,7 @@ my $never_follow_times_exp_re =
         )?   # Two and a half centuries, 9 1/2 inches
 
         ( with | which | point | time | moment | instant | end | stage | of | who
+        | heartbeat
         | after | since
         | degrees | °
         | per\s*cent | %
@@ -1376,7 +1377,7 @@ sub get_matches {
                 (?<t1>
                   ( $rel_at_words | ( close \s+ )? upon | till | by ) \s+
                   (?<x> $hour_re ( [.\s]+ $min0_re )? )
-                  (?= \s+ ( last | yesterday | $weekday_re ) |  \s* $hyph+ \s+ | , \s+ )
+                  (?= \s+ ( last | yesterday | $weekday_re | he | she ) \b |  \s* $hyph+ \s+ | , \s+ )
                 )
                 $ba_re
                 (?{ $branch = "9e";

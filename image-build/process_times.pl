@@ -96,8 +96,9 @@ sub main {
                 printf("      %1s%1s%2s %-37.37s -- %20.20s | %-20.20s\n",
                        $w, $a, $r, '"'.$timestr.'"', $author, $title);
             }
-            print "            ...\n"
+            print "            ..."
                 if @$sorted > 10;
+            print "\n";
         }
     }
 
