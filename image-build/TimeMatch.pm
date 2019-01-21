@@ -108,7 +108,7 @@ my $min_word_re =
         ( ten | eleven | twelve | thirteen | fourteen | fifteen |
             sixteen | seventeen | eighteen | nineteen )
         | # 20-59
-        ( twenty | thirty | forty | fifty ) ( ( -| \s+ ) $low_num_re )?
+        ( twenty | thirty | forty | fifty ) ( ( - | \s+ | \s* $ellips \s* ) $low_num_re )?
       }xin;
 my $sec_word_re = $min_word_re;
 
@@ -2279,6 +2279,9 @@ sub min2num {
 
     # Lose the leading oh-
     $min =~ s{\A ( oh [-\s]+ ) }{}xin;
+
+    # Strip out ellipses
+    $min =~ s{$ellips}{ }g;
 
     $min = words2nums($min)
         // confess "Can't parse minute '$min'";
