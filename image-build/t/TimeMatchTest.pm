@@ -884,7 +884,7 @@ sub get_csv_tests {
           [
             1,
             'Timestr [02:20]: two-twenty',
-            'She turned abruptly to the nurse and asked the time. \'<<Two-twenty|9j>>\' \'Ah...<<Two-twenty|5k:0>>!\' Genevieve repeated, as though there was something urgent to be done.'
+            'She turned abruptly to the nurse and asked the time. \'<<Two-twenty|9j>>\' \'Ah...<<Two-twenty|5k:1>>!\' Genevieve repeated, as though there was something urgent to be done.'
           ],
           [
             1,
@@ -959,12 +959,12 @@ sub get_csv_tests {
           [
             1,
             'Timestr [02:33]: two-thirty-three',
-            'But it wasn\'t going on! It was <<two-thirty-four|5b>>, well. <<Two-thirty-three|5k:0>> and nothing had happened. Suppose he got a room call, or the elevator night-bell rang, now.'
+            'But it wasn\'t going on! It was <<two-thirty-four|5b>>, well. <<Two-thirty-three|5k:1>> and nothing had happened. Suppose he got a room call, or the elevator night-bell rang, now.'
           ],
           [
             1,
             'Timestr [02:34]: two-thirty-four',
-            'But it wasn\'t going on! It was <<two-thirty-four|5b>>, well. <<Two-thirty-three|5k:0>> and nothing had happened. Suppose he got a room call, or the elevator night-bell rang, now.'
+            'But it wasn\'t going on! It was <<two-thirty-four|5b>>, well. <<Two-thirty-three|5k:1>> and nothing had happened. Suppose he got a room call, or the elevator night-bell rang, now.'
           ],
           [
             1,
@@ -2299,12 +2299,12 @@ sub get_csv_tests {
           [
             1,
             'Timestr [07:44]: seven forty-four',
-            'And there I was, complaining that all this was just inconvenient, Anna castigates herself. The Goth was obviously right. What does it matter, really, if I\'m a bit late for work? She voices her thoughts: "It\'s not exactly how you\'d choose to go, is it? You\'d rather die flying a kite with your grandchildren, or at a great party or something. Not on the <<seven forty-four|5k:0>>."'
+            'And there I was, complaining that all this was just inconvenient, Anna castigates herself. The Goth was obviously right. What does it matter, really, if I\'m a bit late for work? She voices her thoughts: "It\'s not exactly how you\'d choose to go, is it? You\'d rather die flying a kite with your grandchildren, or at a great party or something. Not on the <<seven forty-four|5k:1>>."'
           ],
           [
             1,
             'Timestr [07:44]: seven forty-four',
-            'The Goth was obviously right. What does it matter, really, if I\'m a bit late for work? She voices her thoughts: "It\'s not exactly how you\'d choose to go, is it? You\'d rather die flying a kite with your grandchildren, or at a great party or something. Not on the <<seven forty-four|5k:0>>."'
+            'The Goth was obviously right. What does it matter, really, if I\'m a bit late for work? She voices her thoughts: "It\'s not exactly how you\'d choose to go, is it? You\'d rather die flying a kite with your grandchildren, or at a great party or something. Not on the <<seven forty-four|5k:1>>."'
           ],
           [
             1,
@@ -2454,12 +2454,12 @@ sub get_csv_tests {
           [
             1,
             'Timestr [08:02]: Eight oh two',
-            '... bingeley ... <<Eight oh two|5k:0>> eh em, Death of Corporal Littlebottombottom ... <<Eight oh three|5k:0>> eh em ... Death of Sergeant Detritus ... Eight oh threethreethree eh em and seven seconds seconds ... Death of Constable Visit ... <<Eight oh three|5k:0>> eh em and nineninenine seconds ... Death of death of death of ...'
+            '... bingeley ... <<Eight oh two|5k:1>> eh em, Death of Corporal Littlebottombottom ... <<Eight oh three|5k:1>> eh em ... Death of Sergeant Detritus ... Eight oh threethreethree eh em and seven seconds seconds ... Death of Constable Visit ... <<Eight oh three|5k:1>> eh em and nineninenine seconds ... Death of death of death of ...'
           ],
           [
             1,
             'Timestr [08:03]: Eight oh three',
-            '... bingeley ... <<Eight oh two|5k:0>> eh em, Death of Corporal Littlebottombottom ... <<Eight oh three|5k:0>> eh em ... Death of Sergeant Detritus ... Eight oh threethreethree eh em and seven seconds seconds ... Death of Constable Visit ... <<Eight oh three|5k:0>> eh em and nineninenine seconds ... Death of death of death of ...'
+            '... bingeley ... <<Eight oh two|5k:1>> eh em, Death of Corporal Littlebottombottom ... <<Eight oh three|5k:1>> eh em ... Death of Sergeant Detritus ... Eight oh threethreethree eh em and seven seconds seconds ... Death of Constable Visit ... <<Eight oh three|5k:1>> eh em and nineninenine seconds ... Death of death of death of ...'
           ],
           [
             1,
@@ -2577,7 +2577,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [08:27]: almost eight-thirty',
-            'The lecture was to be given tomorrow, and it was now <<almost eight-thirty|5k:0>>.'
+            'The lecture was to be given tomorrow, and it was now <<almost eight-thirty|5k:1>>.'
           ],
           [
             1,
@@ -2607,7 +2607,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [08:29]: almost eight-thirty',
-            'The lecture was to be given tomorrow, and it was now <<almost eight-thirty|5k:0>>.'
+            'The lecture was to be given tomorrow, and it was now <<almost eight-thirty|5k:1>>.'
           ],
           [
             1,
@@ -3062,7 +3062,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [09:32]: nine-thirty-two',
-            'Sandy barely made the <<nine-thirty-two|5k:0>> and found a seat in no-smoking. She\'d been looking forward to this visit with Lisbeth. They hadn\'t seen each other in months, not since January, when Sandy had returned from Jamaica. And on that day Sandy was sporting a full-blown herpes virus on her lower lip.'
+            'Sandy barely made the <<nine-thirty-two|5k:1>> and found a seat in no-smoking. She\'d been looking forward to this visit with Lisbeth. They hadn\'t seen each other in months, not since January, when Sandy had returned from Jamaica. And on that day Sandy was sporting a full-blown herpes virus on her lower lip.'
           ],
           [
             1,
@@ -3407,7 +3407,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [10:36]: ten thirty-six',
-            '"Strand post mark and dispatched <<ten thirty-six|5k:0>>" said Holmes reading it over and over. "Mr Overton was evidently considerably excited when he sent it over and somewhat incoherent in consequence."'
+            '"Strand post mark and dispatched <<ten thirty-six|5k:1>>" said Holmes reading it over and over. "Mr Overton was evidently considerably excited when he sent it over and somewhat incoherent in consequence."'
           ],
           [
             1,
@@ -3737,7 +3737,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [11:32]: about eleven thirty two',
-            'And after that, not forgetting, there was the Flemish armada, all scattered, and all officially drowned, there and then, on a lovely morning, after the universal flood, at <<about eleven thirty two|5k:0>> was it? Off the coast of Cominghome...'
+            'And after that, not forgetting, there was the Flemish armada, all scattered, and all officially drowned, there and then, on a lovely morning, after the universal flood, at <<about eleven thirty two|5k:1>> was it? Off the coast of Cominghome...'
           ],
           [
             1,
@@ -4032,7 +4032,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [12:14]: twelve-fourteen',
-            'She left London on the <<twelve-fourteen|5k:0>> from Paddington, arriving at Bristol (where she had to change) at <<two-fifty|5b>>.'
+            'She left London on the <<twelve-fourteen|5k:1>> from Paddington, arriving at Bristol (where she had to change) at <<two-fifty|5b>>.'
           ],
           [
             1,
@@ -4112,7 +4112,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [12:32]: twelve thirty-two',
-            'A chutney-biting brigadier named Boyd-Boyd fixed an appointment on the \'phone with Oxted, at Hornborough Station, for the <<twelve thirty-two|5k:0>>. He was to deliver the goods.'
+            'A chutney-biting brigadier named Boyd-Boyd fixed an appointment on the \'phone with Oxted, at Hornborough Station, for the <<twelve thirty-two|5k:1>>. He was to deliver the goods.'
           ],
           [
             1,
@@ -4337,7 +4337,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [13:17]: one seventeen',
-            "<<One seventeen|5k:0>> and four seconds. That shorter guy\x{2019}s really got it made, and gets on a scooter, and that taller one, he goes in. <<One seventeen|5k:0>> and forty seconds. That girl there, she\x{2019}s got a green ribbon in her hair. Too bad that bus just cut her from view"
+            "<<One seventeen|5k:1>> and four seconds. That shorter guy\x{2019}s really got it made, and gets on a scooter, and that taller one, he goes in. <<One seventeen|5k:1>> and forty seconds. That girl there, she\x{2019}s got a green ribbon in her hair. Too bad that bus just cut her from view"
           ],
           [
             1,
@@ -4382,7 +4382,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [13:26]: around one-thirty',
-            'Raymond came back with Masson <<around one-thirty|5k:0>>. His arm was bandaged up and he had an adhesive plaster on the corner of his mouth. The doctor had told him it was nothing, but Raymond looked pretty grim. Masson tried to make him laugh. But he still wouldn\'t say anything.'
+            'Raymond came back with Masson <<around one-thirty|5k:1>>. His arm was bandaged up and he had an adhesive plaster on the corner of his mouth. The doctor had told him it was nothing, but Raymond looked pretty grim. Masson tried to make him laugh. But he still wouldn\'t say anything.'
           ],
           [
             1,
@@ -4407,12 +4407,12 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [13:33]: one ... thirty-three',
-            'He waited for the green light to show and then opened the door again on to the now empty cargo hold.\'... <<one ... thirty-three|5k:0>> ... and fifty seconds.\' Very nice.'
+            'He waited for the green light to show and then opened the door again on to the now empty cargo hold.\'... <<one ... thirty-three|5k:1>> ... and fifty seconds.\' Very nice.'
           ],
           [
             1,
             'Timestr [13:34]: one ... thirty-four',
-            '\'At the third stroke it will be ...\' He tiptoed out and returned to the control cabin. \'... <<one ... thirty-four|5k:0>> and twenty seconds.\' The voice sounded as clear as if he was hearing it over a phone in London, which he wasn\'t, not by a long way.'
+            '\'At the third stroke it will be ...\' He tiptoed out and returned to the control cabin. \'... <<one ... thirty-four|5k:1>> and twenty seconds.\' The voice sounded as clear as if he was hearing it over a phone in London, which he wasn\'t, not by a long way.'
           ],
           [
             1,
@@ -4447,7 +4447,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [13:45]: one forty-five',
-            'The blow fell at precisely <<one forty-five|5k:0>> (summer-time). Benson, my Aunt Agatha\'s butler, was offering me the fried potatoes at the moment, and such was my emotion that I lofted six of them on the sideboard with the spoon.'
+            'The blow fell at precisely <<one forty-five|5k:1>> (summer-time). Benson, my Aunt Agatha\'s butler, was offering me the fried potatoes at the moment, and such was my emotion that I lofted six of them on the sideboard with the spoon.'
           ],
           [
             1,
@@ -4622,7 +4622,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [14:22]: two-twenty-two',
-            'Garth here. Sunday afternoon. Sorry to miss you, but I\'ll leave a brief message on your tape. <<Two-twenty-two|5k:0>> or there-aboutish. Great party.'
+            'Garth here. Sunday afternoon. Sorry to miss you, but I\'ll leave a brief message on your tape. <<Two-twenty-two|5k:1>> or there-aboutish. Great party.'
           ],
           [
             1,
@@ -4707,7 +4707,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [14:45]: two forty-five',
-            'Pull the other one, and tell it to the marines, and don\'t make me laugh, and fuck off out of it, and all that, but the fact remained that it was still only <<two forty-five|5k:0>>\'.'
+            'Pull the other one, and tell it to the marines, and don\'t make me laugh, and fuck off out of it, and all that, but the fact remained that it was still only <<two forty-five|5k:1>>\'.'
           ],
           [
             1,
@@ -6077,7 +6077,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [19:15]: seven fifteen',
-            'Nick had a large wild plan of his own for the night, but for now he let Leo take charge: they were going to go back to Notting Hill and catch the <<seven fifteen|5k:0>> screening of Scarface at the Gate.'
+            'Nick had a large wild plan of his own for the night, but for now he let Leo take charge: they were going to go back to Notting Hill and catch the <<seven fifteen|5k:1>> screening of Scarface at the Gate.'
           ],
           [
             1,

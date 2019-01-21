@@ -1598,8 +1598,8 @@ sub get_matches {
     push @r,qr{ (?<li> $not_in_match )
                 (?<t1>
                   (?<rl> $rel_words \s+ )?
-                  ( $hour24_word_re (   \s+  | \s* $ellips \s* )
-                  | $hour_word_re   ( [-\s]+ | \s* $ellips \s* )
+                  (?<hr> $hour24_word_re (   \s+  | \s* $ellips \s* )
+                  |      $hour_word_re   ( [-\s]+ | \s* $ellips \s* )
                   )
                   (?<mn> $min_word_re )
                   $ampm_ph_re?
@@ -1608,8 +1608,8 @@ sub get_matches {
                 |  $hyph+
                 )
                 $ba_re
-                (?{ $branch = "5k:TIMEY";
-                    my ($rl, $mn) = ($+{rl}, $+{mn});
+                (?{ $branch = "5k:1";
+                    my ($rl, $hr, $mn) = ($+{rl}, $+{hr}, $+{mn});
                     if ($mn =~ m{\A $low_num_re \z}xin) {
                         if ($is_trainy) {
                             $branch = "5l:TIMEY";
@@ -1617,6 +1617,10 @@ sub get_matches {
                         else {
                             $branch = "x5l";
                         }
+                    }
+                    if ($hr =~ m{\A ( sixteen | seventeen | eighteen | nineteen ) \z}xin) {
+                        # Yearish
+                        $branch = "5k:TIMEY";
                     }
                   })
               }xin;
