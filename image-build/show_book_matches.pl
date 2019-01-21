@@ -65,8 +65,9 @@ sub main {
         foreach my $r (@{ $time_matches{$time} }) {
             my ($t, $time_bit, $clean_string, $ts, $type, $book, $author) = @$r;
 
+            my $cat = $type;
             my $strong = 1;
-            if ($type =~ m/:(\d+)/) {
+            if ($cat =~ s/:(\d+)//) {
                 $strong = $1;
             }
 
@@ -83,23 +84,52 @@ sub main {
                 $$s =~ s{[\n\t]}{ }g;
             }
 
+            my ($s_auth, $s_book) = make_shorts($author, $book);
+
             # Work out the spacing
-            my $fixed_size = 10 + 1 + 5 + 1;
+            my $fixed_size = 10 + 1 + 3 + 1 + 0 + 1 + 6 + 1 + 6;
             my $rem = $columns - $fixed_size - length($time_bit);
             my $pre_len  = min(length($pre), int($rem / 2 + 0.5));
             my $post_len = $rem - $pre_len;
+            $post .= ' 'x( max($post_len - length($post), 0) );
 
-            printf("%s%10s%s %s%5s%s %s%s%s%s%s\n",
-                   color('bold blue'), $time,     color('reset'),
-                   color($type_color), $type,     color('reset'),
+            # Pad the ampm if there is nothing between it and the time
+            (my $tc = $time) =~ s{^(ap) (\d)}{$1   $2};
+
+            printf("%s%10s%s %s%3s%s %s%s%s%s%s %s%s%s %s%s%s\n",
+                   color('bold blue'), $tc,      color('reset'),
+                   color($type_color), $cat,     color('reset'),
                    elide($pre, $pre_len, {truncate => 'left'}),
                    color($type_color), $time_bit, color('reset'),
                    elide($post, $post_len),
+                   color('bold blue'), elide($s_auth, 6), color('reset'),
+                   color('blue'),      elide($s_book, 6), color('reset'),
                    );
         }
     }
 
     return 0;
+}
+
+
+sub make_shorts {
+    my ($author, $book) = @_;
+
+    # Take the last word of the author, ignoring Jr. or Sr.
+    $author =~ s{_}{}g;
+    $author =~ s{\s+ \( [^)]+ \) \z}{}x;
+    $author =~ m{(?<au> ( (von|van|de|du|st\.|saint|le|la) \s)* [-\w]+ ) ( \s (Jr | Sr) \. )? \z}xin
+        or die "Can't shorten '$author'";
+    $author = $+{au};
+
+    # Take the first meaningful word of the book
+    $book =~ s{_}{}g;
+    $book =~ s{\s+ \( [^)]+ \) \z}{}x;
+    $book =~ m{\A ( (the|in|a|an|what|for|on) \s )* (?<bo> [-\w]+) }xin
+      or die "Can't shorten book '$book'";
+    $book = $+{bo};
+
+    return($author, $book);
 }
 
 sub time_sort {
