@@ -144,7 +144,7 @@ my $in_the_re = qr{ ( ( in \s+ the \s+ ( (?! same) \w+ \s+ ){0,4}?
                     | at \s+ ( dawn | dusk | night | sunset | sunrise )
                     )
                   }xin;
-my $ampm_only_re = qr{ [ap]m \b | [ap][.] \s* m[.]? | pee \s+ em }xin;
+my $ampm_only_re = qr{ [ap]m \b | [ap][.] \s* m[.]? | pee \s+ em | ayem }xin;
 my $ampm_re = qr{ $ampm_only_re | $in_the_re }xin;
 my $ampm_ph_re = qr{ [:,]? \s* $ampm_re }xin;
 
@@ -1118,7 +1118,7 @@ sub get_matches {
                 )
                 (?<t1>
                   ( $rel_words \s+ )?
-                  $hour_word_re ( \s+ | [-] ) $min_word_re $ampm_ph_re?
+                  (?<hh> $hour_word_re) ( \s+ | [-] ) (?<mm> $min_word_re) (?<ap> $ampm_ph_re)?
                 )
                 (?<po>
                   ( [-] $minsec_dig_re )?
@@ -1126,6 +1126,10 @@ sub get_matches {
                   ( \z | $phrase_punc? $aq | $phrase_punc ( \s+ | \z ) | \s+ $hyph+ \s+) )
                 (?{ $branch = "9j";
                     # This needs more indication that it is timey
+                    my ($hh, $mm, $ap) = @+{qw( hh mm ap )};
+                    if (not $ap and $hh =~ m{\A one \z}xin and $mm =~ m{\A (one | two) \z}xin) {
+                        $branch = "9j:0";
+                    }
                   })
               }xin;
     # Handle the 6.15 differently so the - doesn't require spaces around it
@@ -1421,10 +1425,31 @@ sub get_matches {
                   ( \A | $aq | $phrase_punc_nc \s+ ) # No comma
                   ( at ) \s+
                 )
-                (?<t1> $hour_re ( ( [-:.] | \s+ )? $min0_re )? ( $ampm_ph_re )? )
+                (?<t1> (?<hh> $hour_re)
+                       ( (?<sep> [-:.] | \s+ )? (?<mm> $min0_re) )?
+                       (?<ap> $ampm_ph_re )?
+                )
                 ( $never_follow_times_re (*SKIP)(*FAIL) )?
                 $ba_re
-                (?{ $branch = lc($+{t1}) eq 'one' ? "9m:TIMEY" : "9m"; })
+                (?{ $branch = "9m:TIMEY";
+                    my ($hh, $mm, $sep, $pr, $ap) = ($+{hh}, $+{mm}, $+{sep}, $+{pr}, $+{ap});
+                    if ($hh =~ m{\A $hour_word_re \z}xin) {
+                        # If we have words then we want this to be stronger
+                        $branch = "9m:1";
+
+                        if (not $mm and ( $pr =~ m{\A from \b }xin or $hh =~ m{\A $low_num_re \z}xin )) {
+                            $branch = "9m:TIMEY";
+                        }
+                    }
+                    elsif ($sep or $ap) {
+                        # If we have a separator or ampm then this is stronger
+                        $branch = "9m:1";
+                    }
+                    elsif (defined $mm and is_yearish($hh.$mm)) {
+                        # Weaken it if it looks like a year
+                        $branch = "9m:0";
+                    }
+                  })
               }xin;
 
     push @r,qr{ (?<pr>
