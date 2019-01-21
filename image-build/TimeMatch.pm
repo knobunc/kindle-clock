@@ -541,10 +541,12 @@ sub get_masks {
     # I was one of twenty
     # two by two
     # 1, for one, am sick of it.
+    # nine-to-five
     push @r,qr{ (?<pr> \A | \s+ )
                 (?<t1> one \s+ of \s+ $min_re
                 |      $min_re ,? \s+ by \s+ $min_re
                 |      I ,? \s+ for \s+ one ,? \s+ am
+                |      nine [-\s]+ to [-\s]+ five
                 )
                 (?! $ampm_ph_re
                 |      \s* $oclock_re
@@ -844,7 +846,6 @@ sub get_matches {
                     }
                   })
               }xinp;
-    # TODO Do we need to skip nine-to-five?
 
     # Ones with a phrase before to fix it better as a time
     push @r,qr{ \b (?<pr> ( meet  | meeting  | meets
