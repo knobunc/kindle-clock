@@ -208,13 +208,13 @@ Now, 5 is prime, and if I calculate 2 to the power of 5 on a five-hour clock cal
             "
 Table <<4.14|5a:0>>
 An Easy Challenge
-It landed heads. 13,068,221 = 3,613 \x{d7} 3,617. Both 3,613 and 3,617 are primes that have a remainder of 1 upon division by 4. There is a way to factorize this number quickly, using a method discovered by Fermat. If you square 3,615, you get 13,068,225, which is <<4|9d>> away from 13,068,221. 4 is also a square. Now, if you use a bit of algebra that tells you that a  \x{2013} b  = (a + b ) \x{d7} (a \x{2013} b ), you get",
+It landed heads. 13,068,221 = 3,613 \x{d7} 3,617. Both 3,613 and 3,617 are primes that have a remainder of 1 upon division by 4. There is a way to factorize this number quickly, using a method discovered by Fermat. If you square 3,615, you get 13,068,225, which is <<4|9d:1>> away from 13,068,221. 4 is also a square. Now, if you use a bit of algebra that tells you that a  \x{2013} b  = (a + b ) \x{d7} (a \x{2013} b ), you get",
           ],
           [
             1,
             '[ap 04:00] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0009.html) - 4',
             "An Easy Challenge
-It landed heads. 13,068,221 = 3,613 \x{d7} 3,617. Both 3,613 and 3,617 are primes that have a remainder of 1 upon division by 4. There is a way to factorize this number quickly, using a method discovered by Fermat. If you square 3,615, you get 13,068,225, which is <<4|9d>> away from 13,068,221. 4 is also a square. Now, if you use a bit of algebra that tells you that a  \x{2013} b  = (a + b ) \x{d7} (a \x{2013} b ), you get",
+It landed heads. 13,068,221 = 3,613 \x{d7} 3,617. Both 3,613 and 3,617 are primes that have a remainder of 1 upon division by 4. There is a way to factorize this number quickly, using a method discovered by Fermat. If you square 3,615, you get 13,068,225, which is <<4|9d:1>> away from 13,068,221. 4 is also a square. Now, if you use a bit of algebra that tells you that a  \x{2013} b  = (a + b ) \x{d7} (a \x{2013} b ), you get",
           ],
           [
             1,

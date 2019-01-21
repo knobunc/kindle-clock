@@ -26,11 +26,6 @@ $VAR1 = [
           ],
           [
             1,
-            '[00:00] Science of Discworld III_ Darwin\'s Watch - Terry Pratchett.epub (OEBPS/chapter_006.xhtml) - 0',
-            "Think of a photon, a particle of light. It travels, of course, at the speed of light. As one year of time passes, it travels one light-year. The sum of 1 and 1 is 2, but that\x{2019}s not how you get the interval. The interval is the difference 1 \x{2013} 1, which is <<0|9d>>. So the interval is related to the apparent rate of passage of time for a moving observer. The faster an object moves, the slower time on it appears to pass. This effect is called time dilation. As you travel closer and closer to the speed of light, the passage of time, as you experience it, slows down. If you could travel at the speed of light, time would be frozen. No time passes on a photon.",
-          ],
-          [
-            1,
             '[ap 01:00] Science of Discworld III_ Darwin\'s Watch - Terry Pratchett.epub (OEBPS/chapter_009.xhtml) - one',
             "\x{2018}Funny you should say that,\x{2019} said the man opposite. \x{2018}One of \x{2019}em came up when I was working and asked if he could look at the copper nails I was usin\x{2019}. Well, he takes out a knife, scrapes away at <<one|9c:1>>, it\x{2019}s a bit of rubbish iron under a skin \x{2019}o copper! Had to do half a day\x{2019}s work again! Beats me how he knew. Tom said the chandler swore they were all copper when he supplied \x{2019}em.\x{2019}",
           ],
@@ -72,12 +67,12 @@ $VAR1 = [
           [
             1,
             '[ap 01:00] Science of Discworld III_ Darwin\'s Watch - Terry Pratchett.epub (OEBPS/chapter_014.xhtml) - 1',
-            'Just add 1. A more spectacular way to find a bigger number than a googol is to form a googolplex (name also courtesy of the nephew), which is <<1|9d>> followed by a googol of zeros. Do not attempt to write this number down: the universe is too small unless you use subatomic-sized digits, and its lifetime is too short, let alone yours.',
+            'Just add 1. A more spectacular way to find a bigger number than a googol is to form a googolplex (name also courtesy of the nephew), which is <<1|9d:1>> followed by a googol of zeros. Do not attempt to write this number down: the universe is too small unless you use subatomic-sized digits, and its lifetime is too short, let alone yours.',
           ],
           [
             1,
             '[ap 01:00] Science of Discworld III_ Darwin\'s Watch - Terry Pratchett.epub (OEBPS/chapter_014.xhtml) - 1',
-            "If \x{2018}umpty\x{2019} is any number, of whatever size, then \x{2018}umptyplex\x{2019} will mean 10umpty, which is <<1|9d>> followed by umpty zeros. So 2plex is 100, a hundred; 6plex is 1000000, a million; 9plex is a billion. When umpty = 100 we get a googol, so googol = 100plex. A googolplex is therefore also describable as 100plexplex.",
+            "If \x{2018}umpty\x{2019} is any number, of whatever size, then \x{2018}umptyplex\x{2019} will mean 10umpty, which is <<1|9d:1>> followed by umpty zeros. So 2plex is 100, a hundred; 6plex is 1000000, a million; 9plex is a billion. When umpty = 100 we get a googol, so googol = 100plex. A googolplex is therefore also describable as 100plexplex.",
           ],
           [
             1,
@@ -92,7 +87,7 @@ $VAR1 = [
           [
             1,
             '[ap 01:00] Science of Discworld III_ Darwin\'s Watch - Terry Pratchett.epub (OEBPS/chapter_014.xhtml) - 1',
-            "Fortunately, we\x{2019}ve already solved that problem with our earlier convention: if \x{2018}umpty\x{2019} is any number, then \x{2018}umptyplex\x{2019} will mean 10umpty, which is <<1|9d>> followed by umpty zeros.",
+            "Fortunately, we\x{2019}ve already solved that problem with our earlier convention: if \x{2018}umpty\x{2019} is any number, then \x{2018}umptyplex\x{2019} will mean 10umpty, which is <<1|9d:1>> followed by umpty zeros.",
           ],
           [
             1,

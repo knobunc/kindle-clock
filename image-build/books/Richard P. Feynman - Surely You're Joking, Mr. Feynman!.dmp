@@ -134,7 +134,7 @@ So, at <<eight o\x{2019}clock in the morning|6>>, before anybody\x{2019}s awake,
           [
             1,
             '[ap 01:00] Surely You\'re Joking, Mr. Feynman!_ Advent - Richard P. Feynman.epub (OEBPS/part5_split_001.xhtml) - 1',
-            "One day at Princeton I was sitting in the lounge and overheard some mathematicians talking about the series for e^x, which is <<1|9d>> + x + x^2/2! + x^3/3! Each term you get by multiplying the preceding term by x and dividing by the next number. For example, to get the next term after x^4/4! you multiply that term by x and divide by 5. It\x{2019}s very simple.",
+            "One day at Princeton I was sitting in the lounge and overheard some mathematicians talking about the series for e^x, which is <<1|9d:1>> + x + x^2/2! + x^3/3! Each term you get by multiplying the preceding term by x and dividing by the next number. For example, to get the next term after x^4/4! you multiply that term by x and divide by 5. It\x{2019}s very simple.",
           ],
           [
             1,
@@ -146,7 +146,7 @@ As they\x{2019}re looking it up, I put on a few more digits and say, \x{201c}And
           [
             1,
             '[ap 02:00] Surely You\'re Joking, Mr. Feynman!_ Advent - Richard P. Feynman.epub (OEBPS/part5_split_001.xhtml) - 2',
-            "What happened was this: I happened to know three numbers\x{2013}the logarithm of 10 to the base e (needed to convert numbers from base 10 to base e), which is <<2|9d>>.3026 (so I knew that e to the 2.3 is very close to 10), and because of radioactivity (mean-life and half-life), I knew the log of 2 to the base e, which is .69315 (so I also knew that e to the .7 is nearly equal to 2). I also knew e (to the 1), which is <<2|9f>>. 71828.",
+            "What happened was this: I happened to know three numbers\x{2013}the logarithm of 10 to the base e (needed to convert numbers from base 10 to base e), which is 2.3026 (so I knew that e to the 2.3 is very close to 10), and because of radioactivity (mean-life and half-life), I knew the log of 2 to the base e, which is .69315 (so I also knew that e to the .7 is nearly equal to 2). I also knew e (to the 1), which is <<2|9f>>. 71828.",
           ],
           [
             1,

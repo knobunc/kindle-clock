@@ -17,7 +17,7 @@ $VAR1 = [
           [
             1,
             '[20:00] Ball Lightning - Liu Cixin.epub (text/part0009.html) - 1960',
-            "\x{201c}It was <<1960|9d>> that I started, right at this very cafeteria. Those were trying times. You weren\x{2019}t around then, Director Zhao.\x{201d}",
+            "\x{201c}It was <<1960|9d:0>> that I started, right at this very cafeteria. Those were trying times. You weren\x{2019}t around then, Director Zhao.\x{201d}",
           ],
           [
             1,
@@ -43,11 +43,6 @@ $VAR1 = [
             1,
             '[ap > 02:00] Ball Lightning - Liu Cixin.epub (text/part0014.html) - After two',
             "And so, from the plane\x{2019}s narrow cabin, we carried out bundles of furs\x{2014}what animal I couldn\x{2019}t say, but they were clearly of high quality. When all the bundles were out, Levalenkov emptied a canister of oil underneath the plane and lit it, while Gemow explained that the cold had caused the engine pipes to freeze, and that they needed to be roasted a bit before starting up. While they were heating, Levalenkov took out a bottle of vodka and the four of us passed it around, taking swigs. <<After two|9:0>> sips, I had to sit on the floor and couldn\x{2019}t get up, but Lin Yun continued drinking with them, and I had to admire her alcohol tolerance. When the bottle was drained, Levalenkov waved us up, and then, with an agility that belied his years, jumped nimbly into the pilot\x{2019}s seat. He had not appeared so agile before, but the alcohol was evidently like lubricant for this Siberian. The three of us squeezed through the tiny door into the cabin, and Gemow picked up three heavy fur coats and passed two to us: \x{201c}Put them on. You\x{2019}ll freeze otherwise.\x{201d}",
-          ],
-          [
-            1,
-            '[ap 05:50] Ball Lightning - Liu Cixin.epub (text/part0014.html) - 550',
-            "\x{201c}Our confidence at the time appeared well-grounded: unlike natural lightning, the conditions and parameters for the lightning we generated had all been recorded in detail. I can write them out perfectly even today. The lightning current was twelve thousand amps, voltage eighty million volts, discharge time 119 microseconds. Entirely ordinary lightning. At the time of discharge, airflow was 2.4 meters per second, microwaves at <<550|3:0>> watts of power, and an external magnetic field....\x{2008}And loads of other parameters, from ordinary ones like air temperature and pressure, to the more particular, like ultra-high-speed imaging of the lightning path, and instrument recordings of the strength and shape of the electromagnetic field and radioactive indices. On and on, all of it recorded into reference material I recall as being at least as thick as War and Peace, and all of it top secret. It was right at the time of the Cuban Missile Crisis, and I remember Niernov holding up that stack of material and saying, \x{2018}It\x{2019}s no big deal if we recall the missiles. We\x{2019}ve got something that will send a bigger shock into imperialism!\x{2019} We all thought that by repeatedly generating lightning according to those parameters, we could make ball lightning in quantity.\x{201d}",
           ],
           [
             1,

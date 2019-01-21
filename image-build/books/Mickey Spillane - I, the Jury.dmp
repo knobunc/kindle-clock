@@ -115,6 +115,6 @@ $VAR1 = [
           [
             1,
             '[ap 00:00] I, the Jury - Mickey Spillane.epub (index_split_020.html) - twelve',
-            "I awoke with a bad taste in my mouth. I brushed my teeth, but that didn\x{2019}t get rid of the taste. I looked out the window. Monday was no better than the day before. The rain was coming down in buckets. I couldn\x{2019}t stand to be holed up any longer, so I shaved and got dressed, then donned a raincoat and went out to eat. It was <<twelve|9d>> then; when I finished it was <<one|9f>>. I dropped in a bar and ordered one highball after another. The next time I looked at the clock it was <<nearly six|9f>>.",
+            "I awoke with a bad taste in my mouth. I brushed my teeth, but that didn\x{2019}t get rid of the taste. I looked out the window. Monday was no better than the day before. The rain was coming down in buckets. I couldn\x{2019}t stand to be holed up any longer, so I shaved and got dressed, then donned a raincoat and went out to eat. It was <<twelve|9d:1>> then; when I finished it was <<one|9f>>. I dropped in a bar and ordered one highball after another. The next time I looked at the clock it was <<nearly six|9f>>.",
           ],
         ];

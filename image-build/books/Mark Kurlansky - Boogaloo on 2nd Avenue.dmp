@@ -101,11 +101,11 @@ He looked at his watch: <<8:10|2>>. He jumped out of bed.
           [
             1,
             '[ap 02:00] Boogaloo on 2nd Avenue - Mark Kurlansky.epub (OPS/Boogaloo_On_2nd_Avenue_040_chapter27.html) - 2',
-            "70 grams, which is <<2|9d>>\x{bd} ounces powdered almonds
+            "70 grams, which is <<2|9d:1>>\x{bd} ounces powdered almonds
 
-50 grams, which is <<1|9d>>\x{be} ounces sugar
+50 grams, which is <<1|9d:1>>\x{be} ounces sugar
 
-100 grams, which is <<3|9d>>\x{bd} ounces butter
+100 grams, which is <<3|9d:1>>\x{bd} ounces butter
 
 150 grams, which us 5\x{bd} ounces flour",
           ],

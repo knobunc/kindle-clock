@@ -489,11 +489,6 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 04:58] The Bourne Ultimatum - Robert Ludlum.epub (index_split_047.html) - two to five',
-            "The American compound, presumably like those of the different countries, was broken up into sections, built on areas anywhere from <<two to five|10a:0>> acres, each distinctly separate from the others. One area, erected on the banks of the river, might be the heart of a Maine waterfront village; another, farther inland, a small Southern town; yet another, a busy metropolitan city street. Each was completely \x{201c}authentic\x{201d} with the appropriate vehicular traffic, police, dress codes, shops, grocery and drug stores, gas stations and mock structures of buildings\x{2014}many of which rose two stories high and were so real they had American hardware on the doors and windows. Obviously, as vital as the physical appearances was language\x{2014}not merely the fluent use of English but the mastery of linguistic idiosyncrasies, the dialects that were characteristic of specific locations. As Jason wandered from one section to another he heard all around him the distinctive sounds. From New England Down East with its \x{201c}eeahh\x{201d} to Texas\x{2019}s drawl and its familiar \x{201c}you-alls\x{201d}; from the gentle nasality of the Midwest to the loud abrasiveness of the large Eastern cities with the inevitable \x{201c}know what I mean?\x{201d} tacked on to conversational sentences, whether questions or statements. It was all incredible. It was not simply beyond belief, it made the true suspension of disbelief frighteningly viable.",
-          ],
-          [
-            1,
             '[15:35] The Bourne Ultimatum - Robert Ludlum.epub (index_split_047.html) - 3:35 in the afternoon',
             "Bourne followed the signs\x{2014}everything was in English\x{2014}to the city of Rockledge, Florida, fifteen miles southwest of NASA\x{2019}s Cape Canaveral. He was to meet Benjamin at a lunch counter in the local Woolworth store, looking for a man in his mid-twenties wearing a red-checkered shirt, with a Budweiser baseball cap on the stool beside him, saving it. It was the hour, within the time span of minutes: <<3:35 in the afternoon|2a>>.",
           ],
@@ -505,6 +500,6 @@ $VAR1 = [
           [
             1,
             '[ap 00:00] The Bourne Ultimatum - Robert Ludlum.epub (index_split_049.html) - twelve',
-            "\x{201c}Ah, yes, Washington,\x{201d} pronounced Prefontaine, raising his glass to the orange-and-azure sky. \x{201c}As usual, it is <<twelve|9d>> steps behind the crime\x{2014}twenty steps where its own criminality is concerned.\x{201d}",
+            "\x{201c}Ah, yes, Washington,\x{201d} pronounced Prefontaine, raising his glass to the orange-and-azure sky. \x{201c}As usual, it is <<twelve|9d:1>> steps behind the crime\x{2014}twenty steps where its own criminality is concerned.\x{201d}",
           ],
         ];

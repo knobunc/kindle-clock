@@ -1236,7 +1236,7 @@ $VAR1 = [
           [
             1,
             '[ap 01:00] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_024.html) - 1',
-            "This is much better. It exposes that the suffixIndex is really the length of the suffix and is not well named. The same is true of the prefixIndex, though in that case \x{201c}index\x{201d} and \x{201c}length\x{201d} are synonymous. Even so, it is more consistent to use \x{201c}length.\x{201d} The problem is that the suffixIndex variable is not zero based; it is <<1|9d>> based and so is not a true length. This is also the reason that there are all those +1s in computeCommonSuffix [G33]. So let\x{2019}s fix that. The result is in Listing 15-4.",
+            "This is much better. It exposes that the suffixIndex is really the length of the suffix and is not well named. The same is true of the prefixIndex, though in that case \x{201c}index\x{201d} and \x{201c}length\x{201d} are synonymous. Even so, it is more consistent to use \x{201c}length.\x{201d} The problem is that the suffixIndex variable is not zero based; it is <<1|9d:1>> based and so is not a true length. This is also the reason that there are all those +1s in computeCommonSuffix [G33]. So let\x{2019}s fix that. The result is in Listing 15-4.",
           ],
           [
             1,
@@ -1251,7 +1251,7 @@ $VAR1 = [
           [
             1,
             '[ap 01:00] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_032.html) - 1',
-            '1. I recently rewrote this module in Ruby. It was <<1|9d>>/7th the size and had a subtly better structure.',
+            '1. I recently rewrote this module in Ruby. It was <<1|9d:1>>/7th the size and had a subtly better structure.',
           ],
           [
             1,
