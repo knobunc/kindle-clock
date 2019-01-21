@@ -1083,7 +1083,12 @@ sub get_matches {
                        )
                 )
                 $ba_re
-                (?{ $branch = "3b"; })
+                (?{ $branch = "3b";
+                    my $po = $+{po};
+                    if (is_yearish($+{t2}) and $po =~ m{\A \s+ when }xin) {
+                        $branch = "3b:TIMEY";
+                    }
+                  })
               }xin;
     # Three in the morning
     push @r,qr{ (?<li> $not_in_match )
