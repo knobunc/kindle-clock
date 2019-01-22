@@ -911,6 +911,12 @@ sub get_matches {
                             $branch = "10";
                         }
                     }
+                    elsif ($t1 =~ m{\A $minsec_dig_re \s+ of \s+ $hour24_word_re \z}xin or
+                           $t1 =~ m{\A $min_word_re   \s+ of \s+ $hour24_dig_re  \z}xin)
+                    {
+                          # Mismatched
+                          $branch = "10b:TIMEY";
+                    }
                   })
               }xinp;
 
