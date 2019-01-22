@@ -212,6 +212,71 @@ my $bible_book_re = qr{ Acts | Amos | Baruch | [12] \s+ Chronicles | Colossians
                       | Revelation | Romans | Ruth | [12] \s+ Samuel | Sirach
                       | Solomon | [12] \s+ Thessalonians | [12] \s+ Timothy
                       | Titus | Tobit | Wisdom | Zechariah | Zephaniah
+                      | ( Gen  | Ge   | Gn
+                        | Ex   | Exod
+                        | Lev  | Le   | Lv
+                        | Num  | Nu   | Nm | Nb
+                        | Deut | De   | Dt
+                        | Josh | Jos  | Jsh
+                        | Judg | Jdg  | Jg | Jdgs
+                        | Ruth | Rth  | Ru
+                        | [12] \s* (Sam | Sm  | Sa | S)
+                        | [12] \s* (Kgs | Kin | Ki)
+                        | [12] \s* (Chr | Ch  | Chron)
+                        | Ezra | Ezr  | Ez
+                        | Neh  | Ne
+                        | Tob
+                        | Jdt
+                        | Esth | Est | Es
+                        | [12] \s* Macc
+                        | Job  | Jb
+                        | Ps   | Psalm | Pslm | Psa | Psm
+                        | Prov | Pro   | Prv  | Pr
+                        | Ecc1 | Eccles | Eccle | Ecc | Ec
+                        | Song
+                        | Cant
+                        | Wis
+                        | Sir
+                        | Isa  | Is
+                        | Jer  | Je    | Jr
+                        | Lam  | La
+                        | Bar
+                        | Ezek | Eze   | Ezk
+                        | Dan  | Da    | Dn
+                        | Hos  | Ho
+                        | Joel | Jl
+                        | Am
+                        | Jon  | Jnh
+                        | Mic  | Mc
+                        | Nah  | Na
+                        | Hab
+                        | Zeph | Zep  | Zp
+                        | Hag  | Hg
+                        | Zech | Zec  | Zc
+                        | Mal  | Ml
+                        | Mt   | Matt
+                        | Mk   | Mrk
+                        | Lk   | Luk
+                        | Jn   | Jhn
+                        | Acts
+                        | Rom  | Ro   | Rm
+                        | [12] \s* (Cor | Co)
+                        | Gal  | Ga
+                        | Eph  | Ephes
+                        | Phil | Php  | Pp
+                        | Col
+                        | [12] \s* (Thess | Thes | Th)
+                        | [12] \s* (Tim | Ti)
+                        | Tit    | Ti
+                        | Philem | Phm | Pm
+                        | Heb
+                        | Jas    | Jm
+                        | [12] \s* (Pet | Pe | Pt | P)
+                        | [123] \s* (Jn | Jhn | J)
+                        | Jud    | Jd
+                        | Rev
+                        | Apoc
+                        ) \.
                       }xin;
 
 # The states, short and long
@@ -557,12 +622,13 @@ sub get_masks {
               }xin;
 
     # Bible quotes
-    push @r,qr{ (?<pr> $bible_book_re ,? \s+ )
+    push @r,qr{ (?<pr> \b $bible_book_re ,? \s+ )
                 (?<t1>
                      \d+ : \d+ ( - \d+ | - \d+ : \d+ )?
                 | \( \d+ : \d+ ( - \d+ | - \d+ : \d+ )? \)
                 | \[ \d+ : \d+ ( - \d+ | - \d+ : \d+ )? \]
                 | $min_word_re [-\s]+ $min_word_re
+                | [cxvli]+ \.? \s+ \d+ (\. \d+)?
                 )
                 (?{ $branch = "x5"; })
               }xin;
