@@ -14,6 +14,8 @@ use TimeMatch;
 exit main(@ARGV);
 
 
+my $DEBUG = 0;
+
 sub main {
     my ($idir, $odir) = @_;
     die "Usage: $0 idir odir"
@@ -26,19 +28,26 @@ sub main {
     # Loop over the files in the input dir
     opendir my $idh, $idir
         or die "Unable to read '$idir'";
+  FILE_LOOP:
     foreach my $f (sort readdir $idh) {
         next unless $f =~ m{\A (?<author> .+?) \Q - \E (?<book> .+?) \.dmp \z}xn;
         my ($author, $book) = @+{qw{ author book }};
 
         my $ff = "$idir/$f";
+        my $csv_file = "$odir/$author - $book.csv";
 
+        # See if we need to update the times
+        if (-f $csv_file and -M $csv_file < -M $ff) {
+            print "Skipping '$ff'\n"
+                if $DEBUG;
+            next FILE_LOOP;
+        }
         print "Processing '$ff'\n";
 
         my $c = read_binary($ff);
         my $VAR1;
         my $matches = eval($c);
 
-        my $csv_file = "$odir/$author - $book.csv";
         open my $fh, ">:encoding(utf8)", $csv_file
             or die "Can't write to '$csv_file': $!";
 

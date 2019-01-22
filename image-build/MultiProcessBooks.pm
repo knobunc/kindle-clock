@@ -19,6 +19,11 @@ use Term::ANSIColor qw( color colorstrip );
 use Term::Size;
 use Time::HiRes qw( time );
 
+use lib '.';
+
+use TimeMatch;
+
+
 sub new {
     my ($class, %args) = @_;
 
@@ -484,7 +489,10 @@ sub add_sources {
     foreach my $s (@$sources) {
         my ($author, $book) = split m{/}, $s
             or die "Unable to process '$s'";
-        (my $ob = $book) =~ s{_ .*}{};
+
+        # Shorten the book by lopping at _s unless there are duplicates because of that
+        my $ob = shorten_book($book);
+
         my $cmd = "./find_times.pl ~/\QCalibre Library\E/\Q$author\E/\Q$book (\E*\Q)\E/*epub" .
             " > $dir/\Q$author - $ob.dmp";
 
@@ -504,18 +512,6 @@ sub add_sources {
                         cmd      => $cmd,
                        );
     }
-
-    return;
-}
-
-sub DEBUG_MSG {
-    my @dump = @_;
-
-    my ($package, $filename, $line) = caller;
-
-    local $Data::Dumper::Indent = 1;
-    local $Data::Dumper::Sortkeys = 1;
-    print STDERR "Debug at $filename:$line:\n", Dumper(@dump);
 
     return;
 }

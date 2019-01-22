@@ -5,7 +5,7 @@ use Modern::Perl '2017';
 use utf8;
 
 use Exporter::Easy (
-  EXPORT => [ qw( do_match extract_times DEBUG_MSG ) ],
+  EXPORT => [ qw( do_match extract_times shorten_book DEBUG_MSG ) ],
 );
 
 use Carp;
@@ -2481,6 +2481,25 @@ sub get_spread {
     }
 
     confess "Can't parse rel '$rel'";
+}
+
+sub shorten_book {
+    my ($book) = @_;
+
+    if ($book !~ m{\A ( \QBridget Jones\E
+                      | \QElric\E
+                      | \QHow to Read Literature Like a Professor\E
+                      | \QLuna\E
+                      | \QPacific\E
+                      | \QThe Conan Chronicles\E
+                      | \QThe Lord God Made Them All\E
+                      ) _
+                   }xin)
+    {
+        $book =~ s{_ .*}{};
+    }
+
+    return $book;
 }
 
 sub DEBUG_MSG {
