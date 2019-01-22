@@ -34,7 +34,7 @@ $VAR1 = [
           [
             1,
             '[ap 00:30] A Confederacy of Dunces - John Kennedy Toole.epub (index_split_007.html) - twelve-thirty',
-            "\x{201c}This Jones goes out to lunch from twelve to <<twelve-thirty|5k:0>>. So you come around <<about twelve-forty-five|5k:0>>.\x{201d}",
+            "\x{201c}This Jones goes out to lunch from twelve to <<twelve-thirty|5k:1>>. So you come around <<about twelve-forty-five|5k:1>>.\x{201d}",
           ],
           [
             1,
@@ -59,7 +59,7 @@ $VAR1 = [
           [
             1,
             '[ap < 08:30] A Confederacy of Dunces - John Kennedy Toole.epub (index_split_007.html) - almost eight-thirty',
-            'Dr. Talc lit a Benson and Hedges, looking out of the window of his office in the Social Studies Building. Across the dark campus he saw some lights from the night classes in other buildings. All night he had been ransacking his desk for his notes on the British monarch of legend, notes hurriedly copied from a hundred-page survey of British history that he had once read in paperback. The lecture was to be given tomorrow, and it was now <<almost eight-thirty|5k:0>>. As a lecturer Dr. Talc was renowned for the facile and sarcastic wit and easily disgested generalizations that made him popular among the girl students and helped to conceal his lack of knowledge about almost everything in general and British history in particular.',
+            'Dr. Talc lit a Benson and Hedges, looking out of the window of his office in the Social Studies Building. Across the dark campus he saw some lights from the night classes in other buildings. All night he had been ransacking his desk for his notes on the British monarch of legend, notes hurriedly copied from a hundred-page survey of British history that he had once read in paperback. The lecture was to be given tomorrow, and it was now <<almost eight-thirty|5k:1>>. As a lecturer Dr. Talc was renowned for the facile and sarcastic wit and easily disgested generalizations that made him popular among the girl students and helped to conceal his lack of knowledge about almost everything in general and British history in particular.',
           ],
           [
             1,

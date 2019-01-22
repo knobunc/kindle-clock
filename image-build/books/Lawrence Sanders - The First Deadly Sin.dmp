@@ -66,7 +66,7 @@ $VAR1 = [
           [
             1,
             '[ap 02:25] The First Deadly Sin - Lawrence Sanders.epub (OEBPS/17-chap14.xhtml) - two twenty-five',
-            "\x{201c}Could be if that puncture is deep enough. He\x{2019}s a\x{2014}he was a heavy man. Maybe <<two twenty-five|5k:0>>. He fell heavily.\x{201d} He felt the dead man\x{2019}s arms, shoulders, legs. \x{201c}Solid. Not too much fat. Good muscle layer. He could have put up a fight. If he had a chance.\x{201d}",
+            "\x{201c}Could be if that puncture is deep enough. He\x{2019}s a\x{2014}he was a heavy man. Maybe <<two twenty-five|5k:1>>. He fell heavily.\x{201d} He felt the dead man\x{2019}s arms, shoulders, legs. \x{201c}Solid. Not too much fat. Good muscle layer. He could have put up a fight. If he had a chance.\x{201d}",
           ],
           [
             1,
@@ -272,7 +272,7 @@ $VAR1 = [
           [
             1,
             '[ap 11:30] The First Deadly Sin - Lawrence Sanders.epub (OEBPS/36-chap33.xhtml) - eleven-thirty',
-            "\x{201c}Yes. The lump is on the way down now. The big problem in my life, Edward, is whether to do a cut-\x{2019}em-up before lunch or after. I finally decided before is better. So I\x{2019}ll probably get to him about eleven or <<eleven-thirty|5k:0>>.\x{201d}",
+            "\x{201c}Yes. The lump is on the way down now. The big problem in my life, Edward, is whether to do a cut-\x{2019}em-up before lunch or after. I finally decided before is better. So I\x{2019}ll probably get to him about eleven or <<eleven-thirty|5k:1>>.\x{201d}",
           ],
           [
             1,
@@ -450,7 +450,7 @@ $VAR1 = [
             1,
             '[ap 05:10] The First Deadly Sin - Lawrence Sanders.epub (OEBPS/49-chap46.xhtml) - five-ten',
             "\x{201c}Tall?\x{201d}
-\x{201c}Tall? I\x{2019}d guess <<five-ten|5k:0>> or eleven.\x{201d}
+\x{201c}Tall? I\x{2019}d guess <<five-ten|5k:1>> or eleven.\x{201d}
 \x{201c}Weight?\x{201d}",
           ],
           [
@@ -507,7 +507,7 @@ $VAR1 = [
           [
             1,
             '[ap ~ 04:15] The First Deadly Sin - Lawrence Sanders.epub (OEBPS/50-chap47.xhtml) - About four-fifteen',
-            "\x{201c}Second Avenue and Eighty-fifth,\x{201d} he repeated. \x{201c}<<About four-fifteen|9j>>, <<four-thirty|5k:0>> tomorrow morning?\x{201d}",
+            "\x{201c}Second Avenue and Eighty-fifth,\x{201d} he repeated. \x{201c}<<About four-fifteen|9j>>, <<four-thirty|5k:1>> tomorrow morning?\x{201d}",
           ],
           [
             1,
@@ -527,7 +527,7 @@ $VAR1 = [
           [
             1,
             '[~ 18:00] The First Deadly Sin - Lawrence Sanders.epub (OEBPS/50-chap47.xhtml) - About eighteen',
-            "\x{201c}<<About eighteen|9k:0>>,\x{201d} Delaney said smoothly. \x{201c}Long blonde hair. <<About five-four|9:0>> or <<five|20a:0>>. Maybe <<one-twenty|5k:0>>. Blue eyes. Peaches-and-cream complexion. Big jugs.\x{201d}",
+            "\x{201c}<<About eighteen|9k:0>>,\x{201d} Delaney said smoothly. \x{201c}Long blonde hair. <<About five-four|9:0>> or <<five|20a:0>>. Maybe <<one-twenty|5k:1>>. Blue eyes. Peaches-and-cream complexion. Big jugs.\x{201d}",
           ],
           [
             1,
@@ -879,8 +879,8 @@ The bullhorn clicked off. The watching men strained their eyes upward. There was
           ],
           [
             1,
-            '[ap 09:30] The First Deadly Sin - Lawrence Sanders.epub (OEBPS/58-chap55.xhtml) - nine-thirty',
-            "\x{201c}So,\x{201d} Barnes went on, disregarding the interruption, \x{201c}we have five or six hours to get him down. If we don\x{2019}t, the weather will murder us, maybe for days. This is a massive storm front moving in. All right, now look at your schedules. Take-off from the Newburgh field at nine ayem. I\x{2019}ll be aboard the \x{2019}copter. The flight down and the final aerial reconnaissance completed by <<nine-thirty|5b>> ayem, approximate. Lower a man to the top of Devil\x{2019}s Needle via cable and horse collar by ten ayem. Captain Delaney, you will be in command of ground operations here. This shack will be home base, radio coded Chilton One. The \x{2019}copter will be Chilton Two. The man going down will be Chilton Three. Everyone clear on that? Sneed, have your surgeon here at <<nine|9b>> ayem. Forrest, can you bring out a local ambulance with attendants and a body bag?\x{201d}",
+            '[09:00] The First Deadly Sin - Lawrence Sanders.epub (OEBPS/58-chap55.xhtml) - nine ayem',
+            "\x{201c}So,\x{201d} Barnes went on, disregarding the interruption, \x{201c}we have five or six hours to get him down. If we don\x{2019}t, the weather will murder us, maybe for days. This is a massive storm front moving in. All right, now look at your schedules. Take-off from the Newburgh field at <<nine ayem|5>>. I\x{2019}ll be aboard the \x{2019}copter. The flight down and the final aerial reconnaissance completed by <<nine-thirty ayem|5>>, approximate. Lower a man to the top of Devil\x{2019}s Needle via cable and horse collar by <<ten ayem|5>>. Captain Delaney, you will be in command of ground operations here. This shack will be home base, radio coded Chilton One. The \x{2019}copter will be Chilton Two. The man going down will be Chilton Three. Everyone clear on that? Sneed, have your surgeon here at <<nine ayem|5>>. Forrest, can you bring out a local ambulance with attendants and a body bag?\x{201d}",
           ],
           [
             1,

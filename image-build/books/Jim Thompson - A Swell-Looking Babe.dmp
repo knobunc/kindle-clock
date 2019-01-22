@@ -37,7 +37,7 @@ $VAR1 = [
           [
             1,
             '[ap 08:14] A Swell-Looking Babe - Jim Thompson.epub (53.xhtml) - eight fourteen',
-            "\"Haines, <<eight fourteen|9j>>, one at twelve dollars\x{2026} Haley, <<nine twelve|9j>>, Mr. and Mrs., two at fifteen\x{2026} Heller, <<six fifty|5k:0>> and fifty-two, one at eighteen\x{2026} Hillis, Dallas, Tex.-\"",
+            "\"Haines, <<eight fourteen|9j>>, one at twelve dollars\x{2026} Haley, <<nine twelve|9j>>, Mr. and Mrs., two at fifteen\x{2026} Heller, <<six fifty|5k:1>> and fifty-two, one at eighteen\x{2026} Hillis, Dallas, Tex.-\"",
           ],
           [
             1,
@@ -49,7 +49,7 @@ Bascom picked up the pencil. Then, suddenly, he laughed. Softly, amusedly. Sudde
           [
             1,
             '[ap 05:30] A Swell-Looking Babe - Jim Thompson.epub (53.xhtml) - five-thirty',
-            'The remaining three hours of the shift passed swiftly. At <<five-thirty|5b>>, the split-watch elevator boy arrived. At <<six|9e>>, the head baggage porter retrieved the check-room key from Dusty and began his day\'s duties. At <<seven|9m>> the entire day shift came to work.',
+            'The remaining three hours of the shift passed swiftly. At <<five-thirty|5b>>, the split-watch elevator boy arrived. At <<six|9e>>, the head baggage porter retrieved the check-room key from Dusty and began his day\'s duties. At <<seven|9m:1>> the entire day shift came to work.',
           ],
           [
             1,
@@ -223,11 +223,11 @@ Bascom picked up the pencil. Then, suddenly, he laughed. Softly, amusedly. Sudde
           [
             1,
             '[ap ~ 09:20] A Swell-Looking Babe - Jim Thompson.epub (71.xhtml) - around nine-twenty',
-            "\"\x{2026} just barely enough. He returned to the house <<around nine-twenty|5k:0>> \x{2013} Yeah, I can prove all this. I been checking on you since I got the news flash early this morning and I can prove every goddamned bit of it!\"",
+            "\"\x{2026} just barely enough. He returned to the house <<around nine-twenty|5k:1>> \x{2013} Yeah, I can prove all this. I been checking on you since I got the news flash early this morning and I can prove every goddamned bit of it!\"",
           ],
           [
             1,
             '[ap ~ 10:15] A Swell-Looking Babe - Jim Thompson.epub (71.xhtml) - approximately ten-fifteen',
-            "\"You're telling me what they think?\" Kossmeyer leaned forward grimly. \"Save it. I heard enough already to make me sick\x{2026} You left the house at <<approximately ten-fifteen|9c:1>>. Aside from what anyone might say, you had to leave at about that time to get to the hotel and into your uniform by eleven. Between <<eleven|20>> and <<eleven-thirty|5k:0>>, according to a sworn statement of the medical examiner, your farther died. In other words, he was in very bad shape, near the point of death, when you left the house. Now\" \x{2013} the attorney suddenly smacked a fist in his palm-\"now, Rhodes. Perhaps you can tell me this. You say you didn't want your father to the, and yet he was dying before you left for work. He might easily have been saved by prompt medical attention. So I ask you, Rhodes\" \x{2013} smack \x{2013} \"I demand to know, Rhodes\" \x{2013} smack, smack-\"why you did not intervene to save his life? Why, instead, you walked callously out of the house and left this helpless old man to the!\"",
+            "\"You're telling me what they think?\" Kossmeyer leaned forward grimly. \"Save it. I heard enough already to make me sick\x{2026} You left the house at <<approximately ten-fifteen|9c:1>>. Aside from what anyone might say, you had to leave at about that time to get to the hotel and into your uniform by eleven. Between <<eleven|20>> and <<eleven-thirty|5k:1>>, according to a sworn statement of the medical examiner, your farther died. In other words, he was in very bad shape, near the point of death, when you left the house. Now\" \x{2013} the attorney suddenly smacked a fist in his palm-\"now, Rhodes. Perhaps you can tell me this. You say you didn't want your father to the, and yet he was dying before you left for work. He might easily have been saved by prompt medical attention. So I ask you, Rhodes\" \x{2013} smack \x{2013} \"I demand to know, Rhodes\" \x{2013} smack, smack-\"why you did not intervene to save his life? Why, instead, you walked callously out of the house and left this helpless old man to the!\"",
           ],
         ];

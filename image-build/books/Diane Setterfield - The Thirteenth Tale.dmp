@@ -12,7 +12,7 @@ $VAR1 = [
           [
             1,
             '[ap 09:00] The Thirteenth Tale - Diane Setterfield.epub (OEBPS/Txt_003.html) - nine',
-            "In between reading, I helped my father in his work. At <<nine|9m>> I was allowed to wrap books in brown paper and address them to our more distant clients. At <<ten|9m>> I was permitted to walk these parcels to the post office. At <<eleven|9m>> I relieved my mother of her only job in the shop: the cleaning. Armored in a headscarf and housecoat against the grime, germs and general malignity inherent in \x{2018}old books,\x{2019} she used to walk the shelves with her fastidious feather duster, her lips pressed tight and trying not to inhale. From time to time the feathers would stir up a cloud of imaginary dust, and she recoiled, coughing. Inevitably she snagged her stockings on the crate that, with the predictable malevolence of books, would just happen to be positioned behind her. I offered to do the dusting. It was a job she was glad to be rid of; she didn\x{2019}t need to come out to the bookshop after that.",
+            "In between reading, I helped my father in his work. At <<nine|9m:0>> I was allowed to wrap books in brown paper and address them to our more distant clients. At <<ten|9m:1>> I was permitted to walk these parcels to the post office. At <<eleven|9m:1>> I relieved my mother of her only job in the shop: the cleaning. Armored in a headscarf and housecoat against the grime, germs and general malignity inherent in \x{2018}old books,\x{2019} she used to walk the shelves with her fastidious feather duster, her lips pressed tight and trying not to inhale. From time to time the feathers would stir up a cloud of imaginary dust, and she recoiled, coughing. Inevitably she snagged her stockings on the crate that, with the predictable malevolence of books, would just happen to be positioned behind her. I offered to do the dusting. It was a job she was glad to be rid of; she didn\x{2019}t need to come out to the bookshop after that.",
           ],
           [
             1,
@@ -92,7 +92,7 @@ $VAR1 = [
           [
             1,
             '[ap 06:00] The Thirteenth Tale - Diane Setterfield.epub (OEBPS/Txt_016.html) - six',
-            "When she\x{2019}d been in the house about a quarter of an hour she had the Missus call us. We ignored it and waited to see what happened next. We waited. And waited. Nothing happened. That was where she wrong-footed us for the first time, had we only known it. All our expertise in hiding was useless if she wasn\x{2019}t going to come looking for us. And she did not come. We hung about in the room, growing bored, then vexed by the curiosity that seeded itself in us despite our resistance. We became attentive to the sounds from downstairs: John-the-dig\x{2019}s voice, the dragging of furniture, some banging and knocking. Then it fell quiet. At lunchtime we were called and did not go. At <<six|9m>> the Missus called us again, \x{201c}Come and have supper with your new governess, children.\x{201d} We stayed on in the room. No one came. There was the beginning of a sense that the newcomer was a force to be reckoned with.",
+            "When she\x{2019}d been in the house about a quarter of an hour she had the Missus call us. We ignored it and waited to see what happened next. We waited. And waited. Nothing happened. That was where she wrong-footed us for the first time, had we only known it. All our expertise in hiding was useless if she wasn\x{2019}t going to come looking for us. And she did not come. We hung about in the room, growing bored, then vexed by the curiosity that seeded itself in us despite our resistance. We became attentive to the sounds from downstairs: John-the-dig\x{2019}s voice, the dragging of furniture, some banging and knocking. Then it fell quiet. At lunchtime we were called and did not go. At <<six|9m:1>> the Missus called us again, \x{201c}Come and have supper with your new governess, children.\x{201d} We stayed on in the room. No one came. There was the beginning of a sense that the newcomer was a force to be reckoned with.",
           ],
           [
             1,
@@ -142,7 +142,7 @@ $VAR1 = [
           [
             1,
             '[ap < 05:00] The Thirteenth Tale - Diane Setterfield.epub (OEBPS/Txt_046.html) - before five',
-            "He shook his head and closed the window. No one would abandon a child in his garden, would they? Of course they wouldn\x{2019}t. Nevertheless, <<before five|9:0>> he was up and out of bed. He took his walk around the garden early, surveying his vegetables, the topiary garden, planning his work for the day. All morning he kept an eye out for a floppy hat in the fruit bushes. But there was nothing to be seen.",
+            "He shook his head and closed the window. No one would abandon a child in his garden, would they? Of course they wouldn\x{2019}t. Nevertheless, <<before five|9e>> he was up and out of bed. He took his walk around the garden early, surveying his vegetables, the topiary garden, planning his work for the day. All morning he kept an eye out for a floppy hat in the fruit bushes. But there was nothing to be seen.",
           ],
           [
             1,

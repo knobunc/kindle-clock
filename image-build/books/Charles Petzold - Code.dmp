@@ -1256,7 +1256,7 @@ endThe first for loop sets all the array elements to the Boolean value true. Thu
           [
             1,
             '[ap 03:00] Code - Charles Petzold.epub (OEBPS/ch25.html) - 300',
-            'In early modems, a technique called frequency-shift keying (FSK) was used. A modem operating at <<300|3:0>> bits per second (for example) might convert a 0 bit to a frequency of 1070 Hz and a 1 bit to a frequency of 1270 Hz. Each byte is prefaced by a start bit and concluded with a stop bit, so each byte requires 10 bits. At <<300|9m>> bits per second, the transmission speed is only 30 bytes per second. More modern modems use more sophisticated techniques to achieve speeds over 100 times that.',
+            'In early modems, a technique called frequency-shift keying (FSK) was used. A modem operating at <<300|3:0>> bits per second (for example) might convert a 0 bit to a frequency of 1070 Hz and a 1 bit to a frequency of 1270 Hz. Each byte is prefaced by a start bit and concluded with a stop bit, so each byte requires 10 bits. At <<300|9m:0>> bits per second, the transmission speed is only 30 bytes per second. More modern modems use more sophisticated techniques to achieve speeds over 100 times that.',
           ],
           [
             1,

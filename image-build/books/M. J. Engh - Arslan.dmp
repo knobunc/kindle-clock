@@ -12,7 +12,7 @@ $VAR1 = [
           [
             1,
             '[ap 05:30] Arslan - M. J. Engh.epub (OPS/xhtml/chapter001.xhtml) - five-thirty',
-            "After the <<five-thirty|5k:0>> deadline no more blankets were accepted, though a few more people showed up with them. Maud Dollfus organized teams of seventh- and eighth-grade boys to carry supper trays to the classrooms. (She was about to use the girls from her home ec classes, till I told her I wasn\x{2019}t going to have girls running around with the halls full of soldiers.) It was a slow way to feed three hundred children, but keeping them out of the way was worth a little inefficiency.",
+            "After the <<five-thirty|5k:1>> deadline no more blankets were accepted, though a few more people showed up with them. Maud Dollfus organized teams of seventh- and eighth-grade boys to carry supper trays to the classrooms. (She was about to use the girls from her home ec classes, till I told her I wasn\x{2019}t going to have girls running around with the halls full of soldiers.) It was a slow way to feed three hundred children, but keeping them out of the way was worth a little inefficiency.",
           ],
           [
             1,
@@ -57,7 +57,7 @@ $VAR1 = [
           [
             1,
             '[ap > 10:00] Arslan - M. J. Engh.epub (OPS/xhtml/chapter005.xhtml) - A little past ten',
-            "I gave him his lists first thing in the morning. <<A little past ten|9:1>> he sent for me. Lieutenant Z and two soldiers were waiting in his office. \x{201c}You will follow this route,\x{201d} said Nizam, holding up a paper for me to take. He didn\x{2019}t bother to look at me; after all, he\x{2019}d glanced up when I came in. \x{201c}You will return between <<noon|13>> and curfew, eighteen February. Dismissed.\x{201d}",
+            "I gave him his lists first thing in the morning. <<A little past ten|9e>> he sent for me. Lieutenant Z and two soldiers were waiting in his office. \x{201c}You will follow this route,\x{201d} said Nizam, holding up a paper for me to take. He didn\x{2019}t bother to look at me; after all, he\x{2019}d glanced up when I came in. \x{201c}You will return between <<noon|13>> and curfew, eighteen February. Dismissed.\x{201d}",
           ],
           [
             1,
@@ -152,6 +152,6 @@ $VAR1 = [
           [
             1,
             '[ap 03:00] Arslan - M. J. Engh.epub (OPS/xhtml/chapter028.xhtml) - three',
-            "\x{201c}On that.\x{201d} The clasp of their hands was in darkness. Then the granite head nodded, the portentous budge of the cliff. At <<three|9m>> paces, in the trivial moonlight, his eyes were too shadowed. I would have given something\x{2014}say a hand\x{2014}to know if he was looking into my eyes or Arslan\x{2019}s. \x{201c}Good night.\x{201d}",
+            "\x{201c}On that.\x{201d} The clasp of their hands was in darkness. Then the granite head nodded, the portentous budge of the cliff. At <<three|9m:0>> paces, in the trivial moonlight, his eyes were too shadowed. I would have given something\x{2014}say a hand\x{2014}to know if he was looking into my eyes or Arslan\x{2019}s. \x{201c}Good night.\x{201d}",
           ],
         ];

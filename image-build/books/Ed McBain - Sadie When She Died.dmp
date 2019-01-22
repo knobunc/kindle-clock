@@ -13,7 +13,7 @@ $VAR1 = [
             1,
             '[ap 10:34] Sadie When She Died - Ed McBain.epub (index_split_000.html) - Ten thirty-four',
             "\x{201c}Well, the call was logged at\x{2026}\x{201d}
-\x{201c}<<Ten thirty-four|5k:0>> is close enough.\x{201d}
+\x{201c}<<Ten thirty-four|5k:1>> is close enough.\x{201d}
 \x{201c}Is that your suitcase in the entrance hallway?\x{201d}",
           ],
           [
@@ -70,7 +70,7 @@ $VAR1 = [
           [
             1,
             '[ap 05:10] Sadie When She Died - Ed McBain.epub (index_split_001.html) - five-ten',
-            "\x{201c}Sure. He was about twenty-one, twenty-two years old, your height and weight, well, maybe a little bit shorter, <<five-ten|5k:0>> or eleven. Brown hair.\x{201d}",
+            "\x{201c}Sure. He was about twenty-one, twenty-two years old, your height and weight, well, maybe a little bit shorter, <<five-ten|5k:1>> or eleven. Brown hair.\x{201d}",
           ],
           [
             1,
@@ -343,7 +343,7 @@ True to his promise, Kling paid the check, hailed a taxicab, and took Nora home.
             1,
             '[ap 04:00] Sadie When She Died - Ed McBain.epub (index_split_012.html) - 4',
             "She had a fine voice, Arlene Orton, deep and forceful, punctuated every so often (when she was talking to her girlfriends) with a delightful giggle that seemed to bubble up from some adolescent spring. Brown enjoyed listening to her.
-At <<4|9m>> P . M . the telephone in Arlene\x{2019}s apartment rang again.
+At <<4|9m:0>> P . M . the telephone in Arlene\x{2019}s apartment rang again.
 \x{201c}Hello?\x{201d}",
           ],
           [

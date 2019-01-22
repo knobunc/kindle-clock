@@ -7,7 +7,7 @@ $VAR1 = [
           [
             1,
             '[ap ~ 02:30] The Jeeves Omnibus - Vol 1 - P. G. Wodehouse.epub (OEBPS/Text/part0010.xhtml) - about two-thirty',
-            "\x{2018}Well, a Wooster can put up with a punch in the eye for the sake of a pal. No, Jeeves, I desire no further discussion. The thing is settled. All that remains is to fix the times. I suppose lunch would be over by <<about two-thirty|5k:0>> \x{2026} Incidentally, I\x{2019}m not going in to lunch myself.\x{2019}",
+            "\x{2018}Well, a Wooster can put up with a punch in the eye for the sake of a pal. No, Jeeves, I desire no further discussion. The thing is settled. All that remains is to fix the times. I suppose lunch would be over by <<about two-thirty|5k:1>> \x{2026} Incidentally, I\x{2019}m not going in to lunch myself.\x{2019}",
           ],
           [
             1,
@@ -17,7 +17,7 @@ $VAR1 = [
           [
             1,
             '[ap ~ 03:30] The Jeeves Omnibus - Vol 1 - P. G. Wodehouse.epub (OEBPS/Text/part0011.xhtml) - about three-thirty',
-            "\x{2018}Yes, sir. Master Dwight, I gathered, declined in a somewhat high-spirited manner to kick in, as I believe the expression is, and one word led to another, with the result that at <<about three-thirty|5k:0>> sounds indicative of a brawl were heard proceeding from the morning-room, and the senior members of the party, repairing thither, discovered the young gentlemen on the floor surrounded by the debris of a china cabinet which they had overturned in their struggle. At the moment of their arrival, Master Dwight appeared to be having somewhat the better of the exchanges, for he was seated on Master Seabury\x{2019}s chest, bumping his head on the carpet.\x{2019}",
+            "\x{2018}Yes, sir. Master Dwight, I gathered, declined in a somewhat high-spirited manner to kick in, as I believe the expression is, and one word led to another, with the result that at <<about three-thirty|5k:1>> sounds indicative of a brawl were heard proceeding from the morning-room, and the senior members of the party, repairing thither, discovered the young gentlemen on the floor surrounded by the debris of a china cabinet which they had overturned in their struggle. At the moment of their arrival, Master Dwight appeared to be having somewhat the better of the exchanges, for he was seated on Master Seabury\x{2019}s chest, bumping his head on the carpet.\x{2019}",
           ],
           [
             1,
@@ -76,7 +76,7 @@ $VAR1 = [
           [
             1,
             '[ap 07:00] The Jeeves Omnibus - Vol 1 - P. G. Wodehouse.epub (OEBPS/Text/part0016.xhtml) - seven',
-            "At <<seven|9m>> on the dot, accordingly, I stepped aboard the yacht and handed the hat and light overcoat to a passing salt. It was with mixed feelings that I did so, for conflicting emotions were warring in the bosom. On the one hand, the keen ozone of Chuffnell Regis had given me a good appetite, and I knew from recollections of his hosp. in New York that J. Washburn Stoker did his guests well. On the other, I had never been what you might call tranquil in his society, and I was not looking forward to it particularly now. You might put it like this if you cared to \x{2013} The fleshy or corporeal Wooster was anticipating the binge with pleasure, but his spiritual side rather recoiled a bit.",
+            "At <<seven|9m:0>> on the dot, accordingly, I stepped aboard the yacht and handed the hat and light overcoat to a passing salt. It was with mixed feelings that I did so, for conflicting emotions were warring in the bosom. On the one hand, the keen ozone of Chuffnell Regis had given me a good appetite, and I knew from recollections of his hosp. in New York that J. Washburn Stoker did his guests well. On the other, I had never been what you might call tranquil in his society, and I was not looking forward to it particularly now. You might put it like this if you cared to \x{2013} The fleshy or corporeal Wooster was anticipating the binge with pleasure, but his spiritual side rather recoiled a bit.",
           ],
           [
             1,
@@ -133,7 +133,7 @@ $VAR1 = [
           [
             1,
             '[ap ~ 11:30] The Jeeves Omnibus - Vol 1 - P. G. Wodehouse.epub (OEBPS/Text/part0030.xhtml) - about eleven-thirty',
-            'We were bowling along in the old two-seater on our way to Totleigh Towers, self at the wheel, Jeeves at my side, the personal effects in the dickey. We had got off round <<about eleven-thirty|5k:0>>, and the genial afternoon was now at its juiciest. It was one of those crisp, sunny, bracing days with a pleasant tang in the air, and had circumstances been different from what they were, I should no doubt have been feeling at the peak of my form, chatting gaily, waving to passing rustics, possibly even singing some light snatch.',
+            'We were bowling along in the old two-seater on our way to Totleigh Towers, self at the wheel, Jeeves at my side, the personal effects in the dickey. We had got off round <<about eleven-thirty|5k:1>>, and the genial afternoon was now at its juiciest. It was one of those crisp, sunny, bracing days with a pleasant tang in the air, and had circumstances been different from what they were, I should no doubt have been feeling at the peak of my form, chatting gaily, waving to passing rustics, possibly even singing some light snatch.',
           ],
           [
             1,
@@ -205,7 +205,7 @@ I\x{2019}m bound to say that the more I contemplated the binge, the less I liked
           [
             1,
             '[ap 03:10] The Jeeves Omnibus - Vol 1 - P. G. Wodehouse.epub (OEBPS/Text/part0050.xhtml) - three-ten',
-            "\x{2018}Oh, buzzing round. We\x{2019}re just up for the day. Flying visit, strictly unofficial. We oil back on the <<three-ten|5k:0>>. And now, touching that lunch you very decently volunteered to stand us, which shall it be? Ritz? Savoy? Carlton? Or, if you\x{2019}re a member of Ciro\x{2019}s or the Embassy, that would do just as well.\x{2019}",
+            "\x{2018}Oh, buzzing round. We\x{2019}re just up for the day. Flying visit, strictly unofficial. We oil back on the <<three-ten|5k:1>>. And now, touching that lunch you very decently volunteered to stand us, which shall it be? Ritz? Savoy? Carlton? Or, if you\x{2019}re a member of Ciro\x{2019}s or the Embassy, that would do just as well.\x{2019}",
           ],
           [
             1,
@@ -250,17 +250,17 @@ I\x{2019}m bound to say that the more I contemplated the binge, the less I liked
           [
             1,
             '[ap 05:10] The Jeeves Omnibus - Vol 1 - P. G. Wodehouse.epub (OEBPS/Text/part0056.xhtml) - five-ten',
-            "\x{2018}Right-o, then. Pack our spare dickey and a toothbrush in a neat brown-paper parcel, send a wire to Lord Wickhammersley to say we\x{2019}re coming, and buy two tickets on the <<five-ten|5k:0>> at Paddington tomorrow.\x{2019}",
+            "\x{2018}Right-o, then. Pack our spare dickey and a toothbrush in a neat brown-paper parcel, send a wire to Lord Wickhammersley to say we\x{2019}re coming, and buy two tickets on the <<five-ten|5k:1>> at Paddington tomorrow.\x{2019}",
           ],
           [
             1,
             '[ap 05:10] The Jeeves Omnibus - Vol 1 - P. G. Wodehouse.epub (OEBPS/Text/part0056.xhtml) - five-ten',
-            "The <<five-ten|5k:0>> was late as usual, and everybody was dressing for dinner when I arrived at the Hall. It was only by getting into my evening things in record time and taking the stairs to the dining-room in a couple of bounds that I managed to dead-heat with the soup. I slid into the vacant chair, and found that I was sitting next to old Wickhammersley\x{2019}s youngest daughter, Cynthia.",
+            "The <<five-ten|5k:1>> was late as usual, and everybody was dressing for dinner when I arrived at the Hall. It was only by getting into my evening things in record time and taking the stairs to the dining-room in a couple of bounds that I managed to dead-heat with the soup. I slid into the vacant chair, and found that I was sitting next to old Wickhammersley\x{2019}s youngest daughter, Cynthia.",
           ],
           [
             1,
             '[ap ~ 06:30] The Jeeves Omnibus - Vol 1 - P. G. Wodehouse.epub (OEBPS/Text/part0056.xhtml) - about six-thirty',
-            "At this moment Jeeves came in with the good old beverage, and I sprang on it with a glad cry. After a couple of sips things looked a bit brighter. Even young Bingo didn\x{2019}t offend the eye to quite such an extent. By the time I\x{2019}d finished the first cup I was a new man, so much so that I not only permitted but encouraged the poor fish to read the rest of the bally thing, and even went so far as to criticize the scansion of the fourth line of the fifth verse. We were still arguing the point when the door burst open and in blew Claude and Eustace. One of the things which discourages me about rural life is the frightful earliness with which events begin to break loose. I\x{2019}ve stayed at places in the country where they\x{2019}ve jerked me out of the dreamless at <<about six-thirty|5k:0>> to go for a jolly swim in the lake. At Twing, thank heaven, they know me, and let me breakfast in bed.",
+            "At this moment Jeeves came in with the good old beverage, and I sprang on it with a glad cry. After a couple of sips things looked a bit brighter. Even young Bingo didn\x{2019}t offend the eye to quite such an extent. By the time I\x{2019}d finished the first cup I was a new man, so much so that I not only permitted but encouraged the poor fish to read the rest of the bally thing, and even went so far as to criticize the scansion of the fourth line of the fifth verse. We were still arguing the point when the door burst open and in blew Claude and Eustace. One of the things which discourages me about rural life is the frightful earliness with which events begin to break loose. I\x{2019}ve stayed at places in the country where they\x{2019}ve jerked me out of the dreamless at <<about six-thirty|5k:1>> to go for a jolly swim in the lake. At Twing, thank heaven, they know me, and let me breakfast in bed.",
           ],
           [
             1,
@@ -334,7 +334,7 @@ I\x{2019}m bound to say that the more I contemplated the binge, the less I liked
           [
             1,
             '[ap ~ 02:30] The Jeeves Omnibus - Vol 1 - P. G. Wodehouse.epub (OEBPS/Text/part0059.xhtml) - about two-thirty',
-            "\x{2018}Bertie,\x{2019} said Eustace, \x{2018}you\x{2019}ve got the programme nearly right, but not quite. I envisage the evening\x{2019}s events thus: We will toddle along to Ciro\x{2019}s after dinner. It\x{2019}s an extension night, isn\x{2019}t it? Well, that will see us through till <<about two-thirty|5k:0>> or three.\x{2019}",
+            "\x{2018}Bertie,\x{2019} said Eustace, \x{2018}you\x{2019}ve got the programme nearly right, but not quite. I envisage the evening\x{2019}s events thus: We will toddle along to Ciro\x{2019}s after dinner. It\x{2019}s an extension night, isn\x{2019}t it? Well, that will see us through till <<about two-thirty|5k:1>> or three.\x{2019}",
           ],
           [
             1,

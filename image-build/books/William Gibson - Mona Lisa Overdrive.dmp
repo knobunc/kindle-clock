@@ -2,7 +2,7 @@ $VAR1 = [
           [
             1,
             '[ap 01:20] Mona Lisa Overdrive - William Gibson.epub (OEBPS/Gibs_9780307831194_epub_c04_r1.htm) - one-twenty',
-            "\x{201c}Ninety.\x{201d} It had really been <<one-twenty|5k:0>>, but she\x{2019}d figured the last one for overtime.
+            "\x{201c}Ninety.\x{201d} It had really been <<one-twenty|5k:1>>, but she\x{2019}d figured the last one for overtime.
          She was too scared to hold out on him, usually, but she\x{2019}d needed wiz money.",
           ],
           [
@@ -20,7 +20,7 @@ $VAR1 = [
           [
             1,
             '[ap 01:02] Mona Lisa Overdrive - William Gibson.epub (OEBPS/Gibs_9780307831194_epub_c10_r1.htm) - one-two',
-            "Slick grinned in Factory\x{2019}s gloom as the Judge clomped toward him, <<one-two|9j>>, <<one-two|9j>>.
+            "Slick grinned in Factory\x{2019}s gloom as the Judge clomped toward him, <<one-two|9j:0>>, <<one-two|9j:0>>.
          He could remember every step of the Judge\x{2019}s construction, if he wanted to, and sometimes
          he did, just for the comfort of being able to.",
           ],
@@ -66,7 +66,7 @@ $VAR1 = [
           [
             1,
             '[ap 01:02] Mona Lisa Overdrive - William Gibson.epub (OEBPS/Gibs_9780307831194_epub_c43_r1.htm) - one-two',
-            "He moved the Judge forward, down the ramp, the broad feet coming down one-two, <<one-two|9j>>,
+            "He moved the Judge forward, down the ramp, the broad feet coming down one-two, <<one-two|9j:0>>,
          the gyros compensating, perfecting for the missing arm. The woman had the rear doors
          of the hover open, ready, and Slick marched the Judge straight over to her. She fell
          back slightly as the Judge towered over her, her silver glasses reflecting polished

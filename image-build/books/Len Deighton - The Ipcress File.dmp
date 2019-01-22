@@ -42,7 +42,7 @@ $VAR1 = [
           [
             1,
             '[ap 00:10] The Ipcress File - Len Deighton.epub (index_split_002.html) - 12.10',
-            "There was a couple of clicks and Alice\x{2019}s voice came back to the office again. \x{2018}At <<12.10|9m>> he was in Lederers coffee-house.\x{2019}",
+            "There was a couple of clicks and Alice\x{2019}s voice came back to the office again. \x{2018}At <<12.10|9e>> he was in Lederers coffee-house.\x{2019}",
           ],
           [
             1,
@@ -102,12 +102,12 @@ $VAR1 = [
           [
             1,
             '[ap 00:00] The Ipcress File - Len Deighton.epub (index_split_011.html) - twelve',
-            "\x{2018}On the 25th May, \x{2018}51 Maclean drove with Burgess in a hired car to Southampton. At <<twelve|9m>> the Falaise cross-channel packet left on a round trip to St. Malo and the Channel Islands with, Burgess, Maclean and Jay aboard. Of the three people, only Jay returned to England.",
+            "\x{2018}On the 25th May, \x{2018}51 Maclean drove with Burgess in a hired car to Southampton. At <<twelve|9m:1>> the Falaise cross-channel packet left on a round trip to St. Malo and the Channel Islands with, Burgess, Maclean and Jay aboard. Of the three people, only Jay returned to England.",
           ],
           [
             1,
             '[ap ~ 10:30] The Ipcress File - Len Deighton.epub (index_split_011.html) - about ten-thirty',
-            "Sunday I went along to the office <<about ten-thirty|5k:0>>. I didn\x{2019}t normally go in on Sunday but there was a book in the information room I wanted. I got there <<about ten-thirty|9b>> and wandered into Dalby\x{2019}s office. The Sunday papers were there in place on top of Saturdays. The cover was off the i.b.m. machine, and I could hear Alice fiddling about making coffee. I sat down behind Dalby\x{2019}s magnificent oiled teak desk. Its smooth light-brown top had the sensual colour of the beach at Nice, when it is covered with girls, you understand. Inlaid with old English craftsmanship into the Danish teak desk top were four metal switches and coloured lights, blue, green, red and white. The blue switch put any calls being made in the building to tap into the phone here. green made a tape of what was being said. white switched any calls made in Dalby\x{2019}s absence into the tape so that he could play it back next morning. red was to call every phone in this building simultaneously - no one can remember it being used except once when Dalby shouted for some ink over it.",
+            "Sunday I went along to the office <<about ten-thirty|5k:1>>. I didn\x{2019}t normally go in on Sunday but there was a book in the information room I wanted. I got there <<about ten-thirty|9b>> and wandered into Dalby\x{2019}s office. The Sunday papers were there in place on top of Saturdays. The cover was off the i.b.m. machine, and I could hear Alice fiddling about making coffee. I sat down behind Dalby\x{2019}s magnificent oiled teak desk. Its smooth light-brown top had the sensual colour of the beach at Nice, when it is covered with girls, you understand. Inlaid with old English craftsmanship into the Danish teak desk top were four metal switches and coloured lights, blue, green, red and white. The blue switch put any calls being made in the building to tap into the phone here. green made a tape of what was being said. white switched any calls made in Dalby\x{2019}s absence into the tape so that he could play it back next morning. red was to call every phone in this building simultaneously - no one can remember it being used except once when Dalby shouted for some ink over it.",
           ],
           [
             1,
@@ -122,7 +122,7 @@ $VAR1 = [
           [
             1,
             '[ap 02:30] The Ipcress File - Len Deighton.epub (index_split_012.html) - two-thirty',
-            "Viney said, \x{2018}All the houses there stand back from the street, but one in particular is secluded because the owner has bought the undeveloped site on each side of the house. Of course, the houses either side of it are also secluded, but only on the one side. Number 40 is one side, that\x{2019}s all flats - young married couples mostly. Mrs. Grant owns that. On the other side 44 is a very low building; the husband there is a waiter in the West End. I see him about two to <<two-thirty|5k:0>> on the night beat. I know that Mr. Edwards at the Car Mart made an offer for one of the sites. We kept pinching him for obstruction. He left his cars in the road. After we\x{2019}d had him every day nearly for about a week, he came up to see the sergeant. I think really he told us about buying the site to show he was trying. But anyway, they wouldn\x{2019}t sell. When I think of it, that\x{2019}s the only house that I can\x{2019}t remember any of the occupiers from. They had a lot of building done. Conversions into flats I imagine. About February. But there are no \x{201c}to let\x{201d} signs up. Not that you need \x{2018}em, word of mouth is enough.\x{2019}",
+            "Viney said, \x{2018}All the houses there stand back from the street, but one in particular is secluded because the owner has bought the undeveloped site on each side of the house. Of course, the houses either side of it are also secluded, but only on the one side. Number 40 is one side, that\x{2019}s all flats - young married couples mostly. Mrs. Grant owns that. On the other side 44 is a very low building; the husband there is a waiter in the West End. I see him about two to <<two-thirty|5k:1>> on the night beat. I know that Mr. Edwards at the Car Mart made an offer for one of the sites. We kept pinching him for obstruction. He left his cars in the road. After we\x{2019}d had him every day nearly for about a week, he came up to see the sergeant. I think really he told us about buying the site to show he was trying. But anyway, they wouldn\x{2019}t sell. When I think of it, that\x{2019}s the only house that I can\x{2019}t remember any of the occupiers from. They had a lot of building done. Conversions into flats I imagine. About February. But there are no \x{201c}to let\x{201d} signs up. Not that you need \x{2018}em, word of mouth is enough.\x{2019}",
           ],
           [
             1,
@@ -155,11 +155,6 @@ I went upstairs. Murray was leaning over a big scrubbed table with the elderly c
             1,
             '[ap ~ 06:00] The Ipcress File - Len Deighton.epub (index_split_015.html) - about 600',
             "I sat for a long time staring into my Nescafe, but no particular line of action occurred. The opposition may have fumbled the pass but I hadn\x{2019}t detected a gap in the defence, unless any of the documents in front of me now meant anything. It didn\x{2019}t seem much to me. There was nothing to make me sure it was a matter for us to deal with even, let alone to connect it with Jay. It\x{2019}s only writers who expect every lead the hero meddles in to turn out to be threads of the same case. Here in the office were <<about 600|18:0>> file numbers; if all the villains were brought to justice simultaneously it would make Auschwitz look like the last scene of Hamlet.",
-          ],
-          [
-            1,
-            '[ap 04:51] The Ipcress File - Len Deighton.epub (index_split_015.html) - nine to five',
-            "\x{2018}It sounds strange, I know, but this is a pretty irregular business, old man. It\x{2019}s not like a <<nine to five|10a:0>> job. Not that I\x{2019}d offer it to anyone else, like the\x{2026}\x{2019}",
           ],
           [
             1,
@@ -278,7 +273,7 @@ I went upstairs. Murray was leaning over a big scrubbed table with the elderly c
           [
             1,
             '[ap 02:20] The Ipcress File - Len Deighton.epub (index_split_026.html) - Two-twenty',
-            "\x{2018}<<Two-twenty|5k:0>> roll up your sleeve.\x{2019} He rubbed a little ether on the skin and eased the sharp shiny needle into the unfeeling flesh with a professional flourish.",
+            "\x{2018}<<Two-twenty|5k:1>> roll up your sleeve.\x{2019} He rubbed a little ether on the skin and eased the sharp shiny needle into the unfeeling flesh with a professional flourish.",
           ],
           [
             1,

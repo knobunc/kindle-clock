@@ -2,7 +2,7 @@ $VAR1 = [
           [
             1,
             '[ap 02:08] The Yiddish Policemen\'s Union - Michael Chabon.epub (OEBPS/008-chapter3.html) - two-oh-eight',
-            "\x{201c}In <<two-oh-eight|5k:0>>,\x{201d} Landsman says, opening the door for the latke, then turning back to the old man. \x{201c}Coming in, Grandpa?\x{201d}",
+            "\x{201c}In <<two-oh-eight|5k:1>>,\x{201d} Landsman says, opening the door for the latke, then turning back to the old man. \x{201c}Coming in, Grandpa?\x{201d}",
           ],
           [
             1,
@@ -37,7 +37,7 @@ $VAR1 = [
           [
             1,
             '[19:06] The Yiddish Policemen\'s Union - Michael Chabon.epub (OEBPS/015-chapter10.html) - 1906',
-            "The north end of Peretz Street is all slab concrete, steel pillars, aluminum-rimmed windows double-glazed against the cold. The buildings in this part of the Untershtot went up in the early fifties, rapidly assembled shelter machines built by survivors, with a kind of noble ugliness. Now they have only the ugliness of age and vacancy. Empty storefronts, papered-over glass. In the windows of 1911, where Landsman\x{2019}s father used to attend meetings of the Edelshtat Society before the storefront gave way to a beauty-supply outlet, a plush kangaroo with a sardonic leer holds a cardboard sign: AUSTRALIA OR BUST. At <<1906|9m>> the Hotel Einstein looks, as some wag remarked on its opening to the public, like a rat cage stored in a fish tank. It is a favorite venue for the suicides of Sitka. It is also, by custom and charter, the home of the Einstein Chess Club.",
+            "The north end of Peretz Street is all slab concrete, steel pillars, aluminum-rimmed windows double-glazed against the cold. The buildings in this part of the Untershtot went up in the early fifties, rapidly assembled shelter machines built by survivors, with a kind of noble ugliness. Now they have only the ugliness of age and vacancy. Empty storefronts, papered-over glass. In the windows of 1911, where Landsman\x{2019}s father used to attend meetings of the Edelshtat Society before the storefront gave way to a beauty-supply outlet, a plush kangaroo with a sardonic leer holds a cardboard sign: AUSTRALIA OR BUST. At <<1906|9m:0>> the Hotel Einstein looks, as some wag remarked on its opening to the public, like a rat cage stored in a fish tank. It is a favorite venue for the suicides of Sitka. It is also, by custom and charter, the home of the Einstein Chess Club.",
           ],
           [
             1,
@@ -173,6 +173,6 @@ The bear was shot by yids of the sixties. Doctors, from the look of them, in ski
           [
             1,
             '[ap 01:02] The Yiddish Policemen\'s Union - Michael Chabon.epub (OEBPS/051-chapter46.html) - one-two',
-            "Uncle Hertz\x{2019}s eyelids flutter, then settle over his eyes. Bina claps her hands, <<one-two|9j>>, and the eyes snap open.",
+            "Uncle Hertz\x{2019}s eyelids flutter, then settle over his eyes. Bina claps her hands, <<one-two|9j:0>>, and the eyes snap open.",
           ],
         ];

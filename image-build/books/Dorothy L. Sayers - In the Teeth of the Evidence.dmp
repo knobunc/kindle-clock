@@ -27,7 +27,7 @@ $VAR1 = [
           [
             1,
             '[ap ~ 09:30] In the Teeth of the Evidence - Dorothy L. Sayers.epub (OEBPS/10-8-chap5.xhtml) - about half-past nine',
-            "\x{2018}Not possibly. I place the death round <<about half-past nine|10>> and certainly not later than <<ten-thirty|5k:0>>.\x{2019}",
+            "\x{2018}Not possibly. I place the death round <<about half-past nine|10>> and certainly not later than <<ten-thirty|5k:1>>.\x{2019}",
           ],
           [
             1,
@@ -279,7 +279,7 @@ The clock struck <<twelve|11>>.
           [
             1,
             '[ap 07:45] In the Teeth of the Evidence - Dorothy L. Sayers.epub (OEBPS/7-5-chap2.xhtml) - 7.45',
-            "\x{2018}Yes, sir. While I was seeing to the house, Mr Grimbold came down into the library for his glass of sherry. At <<7.45|9m>> the soup was served and I called Mr Grimbold to dinner. He sat at the end of the table as usual, facing the serving-hatch.\x{2019}",
+            "\x{2018}Yes, sir. While I was seeing to the house, Mr Grimbold came down into the library for his glass of sherry. At <<7.45|9m:1>> the soup was served and I called Mr Grimbold to dinner. He sat at the end of the table as usual, facing the serving-hatch.\x{2019}",
           ],
           [
             1,

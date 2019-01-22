@@ -37,12 +37,12 @@ $VAR1 = [
           [
             1,
             '[ap 05:00] Tales of the South Pacific - James A. Michener.epub (index_split_000.xhtml) - 0500',
-            'At <<0500|9m>> the next morning a coded message came through calling on all aircraft to be on the alert for Jap ships. This message goaded Grant furiously. He stomped from the hut and walked along the beach, looking at the spot where his PBY had gone down.',
+            'At <<0500|9m:0>> the next morning a coded message came through calling on all aircraft to be on the alert for Jap ships. This message goaded Grant furiously. He stomped from the hut and walked along the beach, looking at the spot where his PBY had gone down.',
           ],
           [
             1,
             '[15:00] Tales of the South Pacific - James A. Michener.epub (index_split_000.xhtml) - 1500',
-            'At <<1500|9m>> we intercepted a flash from Tokyo announcing our loss of the Lexington, two battleships, and numerous destroyers. So frantic were we for news that we believed. After all, we had heard those pilots. Their carrier could have been sunk. The news flashed through our camp and disheartened us further.',
+            'At <<1500|9m:0>> we intercepted a flash from Tokyo announcing our loss of the Lexington, two battleships, and numerous destroyers. So frantic were we for news that we believed. After all, we had heard those pilots. Their carrier could have been sunk. The news flashed through our camp and disheartened us further.',
           ],
           [
             1,
@@ -87,7 +87,7 @@ $VAR1 = [
           [
             1,
             '[ap ~ 09:00] Tales of the South Pacific - James A. Michener.epub (index_split_000.xhtml) - about nine o\'clock',
-            'From then on Bill Harbison started to relax in earnest. He missed breakfast because he wanted to stay slim. Appearing at his recreation shack <<about nine o\'clock|6>> he would eat a papaya with a bit of lime juice. His admiring assistants supplied them from the near-by jungle. By <<ten|9:1>> he was through with censoring and ordinary routine. He would then have a catch with any men who might be around. At <<ten-thirty|5b>> he would head for the beach four miles away, and there he would lie in the sun, perhaps swim a while, perhaps dive with the deep-sea mask his men had made him. At <<eleven-thirty|5b>> he would return to his hut, shower, rub his feet with talcum, and lie on his sack until <<twelve-thirty|9c:1>>. After lunch he would sleep until <<two|9c:1>>, when he might play some badminton or read. At <<four|9m>> sharp he would appear at the volley-, ball court and warm up for the afternoon game. In the evenings he would attend the movies and after that have a beer in the Officers\' Club. He usually went to bed at <<ten o\'clock|6>>.',
+            'From then on Bill Harbison started to relax in earnest. He missed breakfast because he wanted to stay slim. Appearing at his recreation shack <<about nine o\'clock|6>> he would eat a papaya with a bit of lime juice. His admiring assistants supplied them from the near-by jungle. By <<ten|9e>> he was through with censoring and ordinary routine. He would then have a catch with any men who might be around. At <<ten-thirty|5b>> he would head for the beach four miles away, and there he would lie in the sun, perhaps swim a while, perhaps dive with the deep-sea mask his men had made him. At <<eleven-thirty|5b>> he would return to his hut, shower, rub his feet with talcum, and lie on his sack until <<twelve-thirty|9c:1>>. After lunch he would sleep until <<two|9c:1>>, when he might play some badminton or read. At <<four|9m:1>> sharp he would appear at the volley-, ball court and warm up for the afternoon game. In the evenings he would attend the movies and after that have a beer in the Officers\' Club. He usually went to bed at <<ten o\'clock|6>>.',
           ],
           [
             1,
@@ -122,12 +122,12 @@ $VAR1 = [
           [
             1,
             '[ap 11:00] Tales of the South Pacific - James A. Michener.epub (index_split_000.xhtml) - 1100',
-            'At <<1100|9m>> the first Jap plane came into view. It was a Zero spinning wildly somewhere near the Russells. It flamed and lurched into the sea. The battle was on!',
+            'At <<1100|9m:0>> the first Jap plane came into view. It was a Zero spinning wildly somewhere near the Russells. It flamed and lurched into the sea. The battle was on!',
           ],
           [
             1,
             '[15:00] Tales of the South Pacific - James A. Michener.epub (index_split_000.xhtml) - 1500',
-            'Charlesworth was more excited than I had ever seen him before. Jap DD\'s on the move! His eyes flashed as he spread maps about the baking quonset. At <<1500|9m>> Fry came down the winding path, dragging a carbine and a raincoat along the trail. "Might as well see if you trade-school boys can run this thing," he said as he climbed aboard.',
+            'Charlesworth was more excited than I had ever seen him before. Jap DD\'s on the move! His eyes flashed as he spread maps about the baking quonset. At <<1500|9m:0>> Fry came down the winding path, dragging a carbine and a raincoat along the trail. "Might as well see if you trade-school boys can run this thing," he said as he climbed aboard.',
           ],
           [
             1,
@@ -137,7 +137,7 @@ $VAR1 = [
           [
             1,
             '[ap 07:00] Tales of the South Pacific - James A. Michener.epub (index_split_000.xhtml) - 0700',
-            'At <<0700|9m>> next morning all of us but Fry were in the steaming quonset listening to the Remittance Man. We heard his quavering voice sending us good cheer. "Good morning, Americans!" he began. "I don\'t have to tell you the news. Where did they go? So many went south and so few came back! During the last hour I have tried and tried to avoid optimism. But I can\'t hide the news. I sincerely believe the Nips are planning to pull out! Yes. I have watched a considerable piling up of surface craft. And observe this. I don\'t think they have troops up here to fill those craft. It can mean only one thing. I can\'t tell if there will be moves tonight. My guess, for what it is worth, is this: Numerous surface craft will attempt to evacuate troops from Guadalcanal tonight. Some time <<after 0200|18:1>>." There was a pause. Our men looked at one another. By means of various facial expressions they telegraphed a combined: "Oh boy!" Then the voice continued: "You may not hear from me for several days. I find a little trip is necessary. Planes are overhead. Not the hundreds that used to fly your way. Two only. They are looking for me, I think."',
+            'At <<0700|9m:1>> next morning all of us but Fry were in the steaming quonset listening to the Remittance Man. We heard his quavering voice sending us good cheer. "Good morning, Americans!" he began. "I don\'t have to tell you the news. Where did they go? So many went south and so few came back! During the last hour I have tried and tried to avoid optimism. But I can\'t hide the news. I sincerely believe the Nips are planning to pull out! Yes. I have watched a considerable piling up of surface craft. And observe this. I don\'t think they have troops up here to fill those craft. It can mean only one thing. I can\'t tell if there will be moves tonight. My guess, for what it is worth, is this: Numerous surface craft will attempt to evacuate troops from Guadalcanal tonight. Some time <<after 0200|18:1>>." There was a pause. Our men looked at one another. By means of various facial expressions they telegraphed a combined: "Oh boy!" Then the voice continued: "You may not hear from me for several days. I find a little trip is necessary. Planes are overhead. Not the hundreds that used to fly your way. Two only. They are looking for me, I think."',
           ],
           [
             1,
@@ -159,7 +159,7 @@ $VAR1 = [
           [
             1,
             '[ap 03:55] Tales of the South Pacific - James A. Michener.epub (index_split_000.xhtml) - 0355',
-            'What are we waiting for?" his ensign asked. The PT heeled over and headed cautiously toward Savo. At <<0355|9m>> the lookout sighted this Jap destroyer. You know that one we fished up from the rocks of Iron Bottom Bay for the boys to study? The one that\'s on the beach of that little cove near Tulagi? Well, the DD they sighted that night was the same class.',
+            'What are we waiting for?" his ensign asked. The PT heeled over and headed cautiously toward Savo. At <<0355|9m:0>> the lookout sighted this Jap destroyer. You know that one we fished up from the rocks of Iron Bottom Bay for the boys to study? The one that\'s on the beach of that little cove near Tulagi? Well, the DD they sighted that night was the same class.',
           ],
           [
             1,
@@ -189,7 +189,7 @@ $VAR1 = [
           [
             1,
             '[~ 14:00] Tales of the South Pacific - James A. Michener.epub (index_split_000.xhtml) - about 1400',
-            'I judge it was <<about 1400|3b>> when thirty new F4U\'s took over. I wondered why they sent so many. This gang made even the New Zealanders look cautious. They just shot up everything that moved or looked as if it might once have wanted to move. Then I saw why.',
+            'I judge it was <<about 1400|3b:0>> when thirty new F4U\'s took over. I wondered why they sent so many. This gang made even the New Zealanders look cautious. They just shot up everything that moved or looked as if it might once have wanted to move. Then I saw why.',
           ],
           [
             1,
@@ -204,7 +204,7 @@ $VAR1 = [
           [
             1,
             '[ap 03:00] Tales of the South Pacific - James A. Michener.epub (index_split_001.xhtml) - 0300',
-            'All night cars whizzed by. They stopped all vehicles. At <<0300|9m>> all hands at all stations were mustered in dark, sleepy lines. Officers checked enlisted men and other officers. Finally, toward morning, a man was found with a broken arm. He had slipped on a coconut log. Why hadn\'t he reported it? Just got in. What was he doing out? Hunting flying foxes. What with? A gun. Where was it? His friend took it. Who was his friend? He didn\'t know. How could he be a friend if he didn\'t know his name? He didn\'t know. Where did the friend live? He didn\'t know. Did anybody see him go hunting flying foxes? No. Was anyone along whom he did know? Nobody. Just him and the friend? Yes. Was his friend in the Army or Navy? He didn\'t know.',
+            'All night cars whizzed by. They stopped all vehicles. At <<0300|9m:1>> all hands at all stations were mustered in dark, sleepy lines. Officers checked enlisted men and other officers. Finally, toward morning, a man was found with a broken arm. He had slipped on a coconut log. Why hadn\'t he reported it? Just got in. What was he doing out? Hunting flying foxes. What with? A gun. Where was it? His friend took it. Who was his friend? He didn\'t know. How could he be a friend if he didn\'t know his name? He didn\'t know. Where did the friend live? He didn\'t know. Did anybody see him go hunting flying foxes? No. Was anyone along whom he did know? Nobody. Just him and the friend? Yes. Was his friend in the Army or Navy? He didn\'t know.',
           ],
           [
             1,
@@ -259,7 +259,7 @@ $VAR1 = [
           [
             1,
             '[ap 01:39] Tales of the South Pacific - James A. Michener.epub (index_split_001.xhtml) - 0139',
-            'Joe worked on, keeping his mind off the cabinet. He liked whiskey, but he didn\'t want no trouble with nobody. At <<0139|9m>> the Skipper returned singing gently. He went archly to the cabinet and peeked in. Then he snorted and pulled out the whiskey bottle. "I didn\'t touch it, sir!" Joe protested.',
+            'Joe worked on, keeping his mind off the cabinet. He liked whiskey, but he didn\'t want no trouble with nobody. At <<0139|9m:0>> the Skipper returned singing gently. He went archly to the cabinet and peeked in. Then he snorted and pulled out the whiskey bottle. "I didn\'t touch it, sir!" Joe protested.',
           ],
           [
             1,
@@ -291,7 +291,7 @@ At this Mary went into a paroxysm of rage. Tonkinese profanity ricocheted off th
           [
             1,
             '[ap 03:00] Tales of the South Pacific - James A. Michener.epub (index_split_001.xhtml) - three',
-            'At <<three|9m>> the entire assembly walked slowly down the path to the white sands. Again the gardens were more lovely than a dream of the imagination. The coconut trees alternately stood straight toward the peaks of Vanicoro or inclined at crazy angles toward the sea. A row of papaya trees, newly planted, lifted their snakelike trunks into the air as if to hand each wayfarer a cluster of their delicious melons. It was midafternoon in the tropics, and everywhere the great heat flooded down, but nowhere more torrentially than in the hearts of Lt. Cable and Liat.',
+            'At <<three|9m:0>> the entire assembly walked slowly down the path to the white sands. Again the gardens were more lovely than a dream of the imagination. The coconut trees alternately stood straight toward the peaks of Vanicoro or inclined at crazy angles toward the sea. A row of papaya trees, newly planted, lifted their snakelike trunks into the air as if to hand each wayfarer a cluster of their delicious melons. It was midafternoon in the tropics, and everywhere the great heat flooded down, but nowhere more torrentially than in the hearts of Lt. Cable and Liat.',
           ],
           [
             1,
@@ -361,7 +361,7 @@ At this Mary went into a paroxysm of rage. Tonkinese profanity ricocheted off th
           [
             1,
             '[ap 09:00] Tales of the South Pacific - James A. Michener.epub (index_split_002.xhtml) - 0900',
-            'In the morning Lt. Joe Cable, fully determined to be the best Marine officer in the coming strike, was up early. He checked his men to see that they were ready for the ship that would take them north. He repacked his battle gear twice to make it ready for a landing. At <<0900|9m>> he took charge of general muster. When he was finished, the colonel and his staff took over for final instructions. Cable saluted the colonel. "All present, sir!" he reported. He clenched his fist. "It\'s good to be back in the swing," he said to himself.',
+            'In the morning Lt. Joe Cable, fully determined to be the best Marine officer in the coming strike, was up early. He checked his men to see that they were ready for the ship that would take them north. He repacked his battle gear twice to make it ready for a landing. At <<0900|9m:1>> he took charge of general muster. When he was finished, the colonel and his staff took over for final instructions. Cable saluted the colonel. "All present, sir!" he reported. He clenched his fist. "It\'s good to be back in the swing," he said to himself.',
           ],
           [
             1,
@@ -411,7 +411,7 @@ At this Mary went into a paroxysm of rage. Tonkinese profanity ricocheted off th
           [
             1,
             '[ap 03:45] Tales of the South Pacific - James A. Michener.epub (index_split_002.xhtml) - 0345',
-            'At <<0345|9m>> we trailed out into the tropic night. Orion was in the west. Far to the south Canopus and the Southern Cross appeared. It was a lonely and beautiful night.',
+            'At <<0345|9m:0>> we trailed out into the tropic night. Orion was in the west. Far to the south Canopus and the Southern Cross appeared. It was a lonely and beautiful night.',
           ],
           [
             1,
@@ -426,7 +426,7 @@ At this Mary went into a paroxysm of rage. Tonkinese profanity ricocheted off th
           [
             1,
             '[ap 04:00] Tales of the South Pacific - James A. Michener.epub (index_split_002.xhtml) - 0400',
-            'At <<0400|9m>> we were in the air again, climbing to 12,000 feet, where the temperature felt like Christmas. From the bomb bay Tony whistled "Jingle Bells" into the mike. Bus had told us he didn\'t like the performance of the Belch and hoped she would make it all right. I had broken out new life jackets at the time, and Tony, thinking of his cargo, had shuddered.',
+            'At <<0400|9m:0>> we were in the air again, climbing to 12,000 feet, where the temperature felt like Christmas. From the bomb bay Tony whistled "Jingle Bells" into the mike. Bus had told us he didn\'t like the performance of the Belch and hoped she would make it all right. I had broken out new life jackets at the time, and Tony, thinking of his cargo, had shuddered.',
           ],
           [
             1,
@@ -441,7 +441,7 @@ At this Mary went into a paroxysm of rage. Tonkinese profanity ricocheted off th
           [
             1,
             '[23:00] Tales of the South Pacific - James A. Michener.epub (index_split_002.xhtml) - 2300',
-            'At <<2300|9m>> the chaplain held Christmas Eve services. Even men already drunk attended. In simple manner the chaplain reminded us of Christmas. He read in slow voice the glorious passage from St. Luke: "And it came to pass... to be taxed with Mary his espoused wife... And there were in the same country... I bring you good tidings of great joy... lying in a manger... and on earth peace, good will toward men." Then a choir of mission boys, dressed only in khaki shorts, rose and sang five Christmas carols. They sang "Adeste Fideles" in Latin, and "Silent Night" in German. Their voices were majestic. Between numbers they grinned and grinned at the little sailor who had taught them the carols.',
+            'At <<2300|9m:0>> the chaplain held Christmas Eve services. Even men already drunk attended. In simple manner the chaplain reminded us of Christmas. He read in slow voice the glorious passage from St. Luke: "And it came to pass... to be taxed with Mary his espoused wife... And there were in the same country... I bring you good tidings of great joy... lying in a manger... and on earth peace, good will toward men." Then a choir of mission boys, dressed only in khaki shorts, rose and sang five Christmas carols. They sang "Adeste Fideles" in Latin, and "Silent Night" in German. Their voices were majestic. Between numbers they grinned and grinned at the little sailor who had taught them the carols.',
           ],
           [
             1,
@@ -526,7 +526,7 @@ At this Mary went into a paroxysm of rage. Tonkinese profanity ricocheted off th
           [
             1,
             '[23:00] Tales of the South Pacific - James A. Michener.epub (index_split_003.xhtml) - 2300',
-            'We did. All that night men kept running to and from my watch to tell me of incidents that occurred. At <<2300|9m>> Captain Kelley left his post at the switchboard and came in with me. Two other officers reported from a foot tour of the buildings.',
+            'We did. All that night men kept running to and from my watch to tell me of incidents that occurred. At <<2300|9m:0>> Captain Kelley left his post at the switchboard and came in with me. Two other officers reported from a foot tour of the buildings.',
           ],
           [
             1,
@@ -556,27 +556,27 @@ At this Mary went into a paroxysm of rage. Tonkinese profanity ricocheted off th
           [
             1,
             '[ap 05:27] Tales of the South Pacific - James A. Michener.epub (index_split_003.xhtml) - 0527',
-            'At <<0527|9m>> our first amphibs hit the coral shelf which protruded underwater from the shore. It was high tide, and they half rode, half crawled toward land. They had reached a point twenty feet from the beach, when all hell ripped loose. Lt. Col. Hyaichi\'s fixed guns blasted our amphibs right out of the water. Our men died in the air before they fell back into the shallow water on the coral shelf. At low tide their bodies would be found, gently wallowing in still pools of water. A few men reached shore. They walked the last twenty feet through a haze of bullets.',
+            'At <<0527|9m:0>> our first amphibs hit the coral shelf which protruded underwater from the shore. It was high tide, and they half rode, half crawled toward land. They had reached a point twenty feet from the beach, when all hell ripped loose. Lt. Col. Hyaichi\'s fixed guns blasted our amphibs right out of the water. Our men died in the air before they fell back into the shallow water on the coral shelf. At low tide their bodies would be found, gently wallowing in still pools of water. A few men reached shore. They walked the last twenty feet through a haze of bullets.',
           ],
           [
             1,
             '[ap 05:36] Tales of the South Pacific - James A. Michener.epub (index_split_003.xhtml) - 0536',
-            'At <<0536|9m>> our second wave reached the imaginary line twenty feet from shore. The Jap five-inch guns ripped loose. Of nine craft going in, five were sunk. Of the three hundred men in those five amphibs, more than one hundred were killed outright. Another hundred died wading to shore. But some reached shore. They formed a company, the first on Kuralei.',
+            'At <<0536|9m:0>> our second wave reached the imaginary line twenty feet from shore. The Jap five-inch guns ripped loose. Of nine craft going in, five were sunk. Of the three hundred men in those five amphibs, more than one hundred were killed outright. Another hundred died wading to shore. But some reached shore. They formed a company, the first on Kuralei.',
           ],
           [
             1,
             '[ap 05:44] Tales of the South Pacific - James A. Michener.epub (index_split_003.xhtml) - 0544',
-            'At <<0544|9m>> our ships laid down a gigantic barrage. How had they missed those five-inch guns before? How had anything lived through our previous bombardment? Many Japs didn\'t. But those hiding in Lt. Col. Hyaichi\'s special pillboxes did. And they lived through this bombardment, too.',
+            'At <<0544|9m:0>> our ships laid down a gigantic barrage. How had they missed those five-inch guns before? How had anything lived through our previous bombardment? Many Japs didn\'t. But those hiding in Lt. Col. Hyaichi\'s special pillboxes did. And they lived through this bombardment, too.',
           ],
           [
             1,
             '[ap 06:02] Tales of the South Pacific - James A. Michener.epub (index_split_003.xhtml) - 0602',
-            'At <<0602|9m>> the third wave of amphibs set out for the beach. The vast bombardment rode over their heads until they were onto the coral shelf. Then a shattering silence followed. It was full morning. The sun was rising. Our amphibs waddled over the coral. At the fatal twenty-foot line some Japs opened up on the amphibs. Three were destroyed. But eight got through and deposited their men ashore. Jap machine gunners and snipers tied into tall trees took a heavy toll. But our men formed and set out for the first line of coconut trees.',
+            'At <<0602|9m:0>> the third wave of amphibs set out for the beach. The vast bombardment rode over their heads until they were onto the coral shelf. Then a shattering silence followed. It was full morning. The sun was rising. Our amphibs waddled over the coral. At the fatal twenty-foot line some Japs opened up on the amphibs. Three were destroyed. But eight got through and deposited their men ashore. Jap machine gunners and snipers tied into tall trees took a heavy toll. But our men formed and set out for the first line of coconut trees.',
           ],
           [
             1,
             '[ap 06:31] Tales of the South Pacific - James A. Michener.epub (index_split_003.xhtml) - 0631',
-            'At <<0631|9m>> American planes appeared. F6F\'s. They strafed the first trench until no man but a Jap could live. They bombed. They ripped Green Beach for twelve minutes. Then the next wave of amphibs went in. The first two craft broached to and were blown to shreds of steaming metal. "How can those Japs live?" the man at my side said. In the next wave four more amphibs were sunk.',
+            'At <<0631|9m:1>> American planes appeared. F6F\'s. They strafed the first trench until no man but a Jap could live. They bombed. They ripped Green Beach for twelve minutes. Then the next wave of amphibs went in. The first two craft broached to and were blown to shreds of steaming metal. "How can those Japs live?" the man at my side said. In the next wave four more amphibs were sunk.',
           ],
           [
             1,
@@ -586,7 +586,7 @@ At this Mary went into a paroxysm of rage. Tonkinese profanity ricocheted off th
           [
             1,
             '[ap 07:48] Tales of the South Pacific - James A. Michener.epub (index_split_003.xhtml) - 0748',
-            'At <<0748|9m>> we heard the news from Red Beach, on the other side of the promontory. "Repulsed four times. First men now safely ashore!" Four times! we said to ourselves. Why, that\'s worse than here! It couldn\'t be! Yet it was, and when the tide started going out on Red Beach, the Japs pushed our men back onto the coral.',
+            'At <<0748|9m:0>> we heard the news from Red Beach, on the other side of the promontory. "Repulsed four times. First men now safely ashore!" Four times! we said to ourselves. Why, that\'s worse than here! It couldn\'t be! Yet it was, and when the tide started going out on Red Beach, the Japs pushed our men back onto the coral.',
           ],
           [
             1,
@@ -596,37 +596,37 @@ At this Mary went into a paroxysm of rage. Tonkinese profanity ricocheted off th
           [
             1,
             '[14:00] Tales of the South Pacific - James A. Michener.epub (index_split_003.xhtml) - 1400',
-            'At <<1400|9m>> our men were still huddled on the beach. Kester would not withdraw them. I don\'t think they would have come back had he ordered them to do so. They hung on, tried to cut westward but were stopped by the cliffs, tried to cut eastward but were stopped by fixed guns on the promontory.',
+            'At <<1400|9m:0>> our men were still huddled on the beach. Kester would not withdraw them. I don\'t think they would have come back had he ordered them to do so. They hung on, tried to cut westward but were stopped by the cliffs, tried to cut eastward but were stopped by fixed guns on the promontory.',
           ],
           [
             1,
             '[14:22] Tales of the South Pacific - James A. Michener.epub (index_split_003.xhtml) - 1422',
-            'At <<1422|9m>> Admiral Kester put into operation his alternative plan. While slim beachheads were maintained at Red and Green all available shock troops were ordered to hit the rugged western side of the promontory. We did not know if landing craft could get ashore. All we knew was that if they could land, and if they could establish a beach, and if they could cut a path for men and tanks down through the promontory, we might flank each of the present beachheads and have a chance of reaching the cacaos by dark.',
+            'At <<1422|9m:0>> Admiral Kester put into operation his alternative plan. While slim beachheads were maintained at Red and Green all available shock troops were ordered to hit the rugged western side of the promontory. We did not know if landing craft could get ashore. All we knew was that if they could land, and if they could establish a beach, and if they could cut a path for men and tanks down through the promontory, we might flank each of the present beachheads and have a chance of reaching the cacaos by dark.',
           ],
           [
             1,
             '[14:25] Tales of the South Pacific - James A. Michener.epub (index_split_003.xhtml) - 1425',
-            'At <<1425|9m>> we got our orders. "LCS-108. All hands to Objective 66." The men winked at one another. They climbed into the landing barges. The man whose wife had a baby girl. The young boy who slept through his leave in Frisco. They went into the barges. The sun was starting to sink westward as they set out for shore.',
+            'At <<1425|9m:0>> we got our orders. "LCS-108. All hands to Objective 66." The men winked at one another. They climbed into the landing barges. The man whose wife had a baby girl. The young boy who slept through his leave in Frisco. They went into the barges. The sun was starting to sink westward as they set out for shore.',
           ],
           [
             1,
             '[14:30] Tales of the South Pacific - James A. Michener.epub (index_split_003.xhtml) - 1430',
-            'Lt. Col. Hyaichi\'s men waited. Then two fixed guns whose sole purpose was to wait for such a landing fired. Shells ripped through the barges. One with men from 108 turned in the air and crushed its men to death. They flung their arms outward and tried to fly free, but the barge caught them all. A few swam out from under. They could not touch bottom, so they swam for the shore, as they had been trained to do. Snipers shot at them. Of the few, a few reached shore. One man shook himself like a dog and started into the jungle. Another made it and cried out to a friend. "Red Beach! Green Beach! Sonova Beach!" You can see that in the official reports. "At <<1430|9m>> elements from LCS-108 and the transport Julius Kennedy started operations at Sonova Beach."',
+            'Lt. Col. Hyaichi\'s men waited. Then two fixed guns whose sole purpose was to wait for such a landing fired. Shells ripped through the barges. One with men from 108 turned in the air and crushed its men to death. They flung their arms outward and tried to fly free, but the barge caught them all. A few swam out from under. They could not touch bottom, so they swam for the shore, as they had been trained to do. Snipers shot at them. Of the few, a few reached shore. One man shook himself like a dog and started into the jungle. Another made it and cried out to a friend. "Red Beach! Green Beach! Sonova Beach!" You can see that in the official reports. "At <<1430|9m:0>> elements from LCS-108 and the transport Julius Kennedy started operations at Sonova Beach."',
           ],
           [
             1,
             '[14:48] Tales of the South Pacific - James A. Michener.epub (index_split_003.xhtml) - 1448',
-            'At <<1448|9m>> a rear-admiral reported to Kester, "Men securely ashore at Objective 66." The admiral diverted all available barges there. Sonova Beach was invaded. We lost three hundred men there, but it was invaded. Barges and men turned in the air and died alike with hot steel in their guts, but the promontory was invaded. Not all our planes nor all our ships could silence those damned Jap gunners, but Sonova Beach, that strip of bleeding coral, it was invaded.',
+            'At <<1448|9m:0>> a rear-admiral reported to Kester, "Men securely ashore at Objective 66." The admiral diverted all available barges there. Sonova Beach was invaded. We lost three hundred men there, but it was invaded. Barges and men turned in the air and died alike with hot steel in their guts, but the promontory was invaded. Not all our planes nor all our ships could silence those damned Jap gunners, but Sonova Beach, that strip of bleeding coral, it was invaded.',
           ],
           [
             1,
             '[15:02] Tales of the South Pacific - James A. Michener.epub (index_split_003.xhtml) - 1502',
-            'At <<1502|9m>> Admiral Kester sent four tanks ashore at Sonova with orders to penetrate the promontory and to support whichever beach seemed most promising. Two hundred men went along with axes and shovels. I watched the lumbering tanks crawl ashore and hit their first banyan trees. There was a crunching sound. I could hear it above the battle. The tanks disappeared among the trees.',
+            'At <<1502|9m:0>> Admiral Kester sent four tanks ashore at Sonova with orders to penetrate the promontory and to support whichever beach seemed most promising. Two hundred men went along with axes and shovels. I watched the lumbering tanks crawl ashore and hit their first banyan trees. There was a crunching sound. I could hear it above the battle. The tanks disappeared among the trees.',
           ],
           [
             1,
             '[15:14] Tales of the South Pacific - James A. Michener.epub (index_split_003.xhtml) - 1514',
-            'At <<1514|9m>> came the Jap\'s only airborne attack that day. About thirty bombers accompanied by forty fighters swept in from Truk. They tried for our heavy ships. The fleet threw up a wilderness of flak. Every ship in the task force opened up with its five-inchers, Bofors, Oerlikons, three-inchers and .50 calibers. The air was heavy with lead. Some Jap planes spun into the sea. I watched a bomber spouting flames along her port wing. She dived to put them out. But a second shell hit her amidships. The plane exploded and fell into the ocean in four pieces. The engine, badly afire, hit the water at an angle and ricocheted five times before it sank in hissing rage.',
+            'At <<1514|9m:0>> came the Jap\'s only airborne attack that day. About thirty bombers accompanied by forty fighters swept in from Truk. They tried for our heavy ships. The fleet threw up a wilderness of flak. Every ship in the task force opened up with its five-inchers, Bofors, Oerlikons, three-inchers and .50 calibers. The air was heavy with lead. Some Jap planes spun into the sea. I watched a bomber spouting flames along her port wing. She dived to put them out. But a second shell hit her amidships. The plane exploded and fell into the ocean in four pieces. The engine, badly afire, hit the water at an angle and ricocheted five times before it sank in hissing rage.',
           ],
           [
             1,
@@ -636,57 +636,57 @@ At this Mary went into a paroxysm of rage. Tonkinese profanity ricocheted off th
           [
             1,
             '[15:44] Tales of the South Pacific - James A. Michener.epub (index_split_003.xhtml) - 1544',
-            'Meanwhile power had been building up on Green Beach. At <<1544|9m>>, with the sun dropping lower toward the ocean, they tried the first row of coconut trees again. They were driven back. This time, however, not quite to the coral. They held onto some good positions fifteen or twenty yards inland.',
+            'Meanwhile power had been building up on Green Beach. At <<1544|9m:0>>, with the sun dropping lower toward the ocean, they tried the first row of coconut trees again. They were driven back. This time, however, not quite to the coral. They held onto some good positions fifteen or twenty yards inland.',
           ],
           [
             1,
             '[15:57] Tales of the South Pacific - James A. Michener.epub (index_split_003.xhtml) - 1557',
-            'At <<1557|9m>> Admiral Kester pulled them back onto the coral. For the last time that day. He sent the planes in to rout out that first trench. This time, with noses almost in the coconut stumps, our fliers roared up and down the trenches. They kept their powerful .50\'s aimed at the narrow slits like a woman guiding a sewing machine along a predetermined line. But the .50\'s stitched death.',
+            'At <<1557|9m:0>> Admiral Kester pulled them back onto the coral. For the last time that day. He sent the planes in to rout out that first trench. This time, with noses almost in the coconut stumps, our fliers roared up and down the trenches. They kept their powerful .50\'s aimed at the narrow slits like a woman guiding a sewing machine along a predetermined line. But the .50\'s stitched death.',
           ],
           [
             1,
             '[16:07] Tales of the South Pacific - James A. Michener.epub (index_split_003.xhtml) - 1607',
-            'At <<1607|9m>> the planes withdrew. At a signal, every man on that beach, every one, rose and dashed for the first trench. The Japs knew they were coming, and met them with an enfilading fire. But the Green Beach boys piled on. Some fell wounded. Others died standing up and took a ghostly step toward the trench. Some dropped from fright and lay like dead men. But most went on, grunting as they met the Japs with bayonets. There was a muddled fight in the trench. Then things were quiet. Some Americans started crawling back to pick up their wounded. That meant our side had won.',
+            'At <<1607|9m:0>> the planes withdrew. At a signal, every man on that beach, every one, rose and dashed for the first trench. The Japs knew they were coming, and met them with an enfilading fire. But the Green Beach boys piled on. Some fell wounded. Others died standing up and took a ghostly step toward the trench. Some dropped from fright and lay like dead men. But most went on, grunting as they met the Japs with bayonets. There was a muddled fight in the trench. Then things were quiet. Some Americans started crawling back to pick up their wounded. That meant our side had won.',
           ],
           [
             1,
             '[16:18] Tales of the South Pacific - James A. Michener.epub (index_split_003.xhtml) - 1618',
-            'At <<1618|9m>> Admiral Kester made his decision. Green Beach was our main chance. To hell with Red. Hang on, Red! But everything we had was thrown at Green. It was our main chance. "Any word from the tanks?"',
+            'At <<1618|9m:0>> Admiral Kester made his decision. Green Beach was our main chance. To hell with Red. Hang on, Red! But everything we had was thrown at Green. It was our main chance. "Any word from the tanks?"',
           ],
           [
             1,
             '[16:29] Tales of the South Pacific - James A. Michener.epub (index_split_003.xhtml) - 1629',
-            'At <<1629|9m>> about a hundred amphibs sped for Green Beach. They were accompanied by a tremendous barrage that raked the western end of the beach toward the cliffs. Thirty planes strafed the Jap part of the promontory. A man beside me started yelling frantically. A Jap gun, hidden somewhere in that wreckage, was raking our amphibs. "Get that gun!" he shouted. "It\'s right over there!" He jumped up and down and had to urinate against the bulkhead. "Get that gun!" Two amphibs were destroyed by the gun. But more than ninety made the beach. Now, no matter how many Japs counter-attacked, we had a chance to hold the first trench.',
+            'At <<1629|9m:0>> about a hundred amphibs sped for Green Beach. They were accompanied by a tremendous barrage that raked the western end of the beach toward the cliffs. Thirty planes strafed the Jap part of the promontory. A man beside me started yelling frantically. A Jap gun, hidden somewhere in that wreckage, was raking our amphibs. "Get that gun!" he shouted. "It\'s right over there!" He jumped up and down and had to urinate against the bulkhead. "Get that gun!" Two amphibs were destroyed by the gun. But more than ninety made the beach. Now, no matter how many Japs counter-attacked, we had a chance to hold the first trench.',
           ],
           [
             1,
             '[16:55] Tales of the South Pacific - James A. Michener.epub (index_split_003.xhtml) - 1655',
-            'At <<1655|9m>> the Marines in trench one, fortified by new strength from the amphibs, unpredictably dashed from the far western end of their trench and overwhelmed the Japs in the opposite part of trench two. Then ensued a terrible, hidden battle as the Marines stolidly swept down the Jap trench. We could see arms swinging above the trench, and bayonets. Finally, the men in the eastern end of trench one could stand the suspense no longer. Against the bitterest kind of enemy fire, they rushed past the second row of coconut stumps and joined their comrades. Not one Jap survived that brutal, silent, hidden struggle. Trench two was ours.',
+            'At <<1655|9m:0>> the Marines in trench one, fortified by new strength from the amphibs, unpredictably dashed from the far western end of their trench and overwhelmed the Japs in the opposite part of trench two. Then ensued a terrible, hidden battle as the Marines stolidly swept down the Jap trench. We could see arms swinging above the trench, and bayonets. Finally, the men in the eastern end of trench one could stand the suspense no longer. Against the bitterest kind of enemy fire, they rushed past the second row of coconut stumps and joined their comrades. Not one Jap survived that brutal, silent, hidden struggle. Trench two was ours.',
           ],
           [
             1,
             '[17:22] Tales of the South Pacific - James A. Michener.epub (index_split_003.xhtml) - 1722',
-            'At <<1722|9m>>, when the sun was beginning to eat into the treetops of Kuralei, our tanks broke loose along the shore of the promontory. Sixty sweating footslogging axmen dragged themselves after the tanks. But ahead lay an insurmountable barrier of rock. The commanding officer of the tanks appraised the situation correctly. He led his menage back into the jungle. The Japs also foresaw what would happen next. They moved tank destroyers up. Ship fire destroyed them. We heard firing in the jungle.',
+            'At <<1722|9m:0>>, when the sun was beginning to eat into the treetops of Kuralei, our tanks broke loose along the shore of the promontory. Sixty sweating footslogging axmen dragged themselves after the tanks. But ahead lay an insurmountable barrier of rock. The commanding officer of the tanks appraised the situation correctly. He led his menage back into the jungle. The Japs also foresaw what would happen next. They moved tank destroyers up. Ship fire destroyed them. We heard firing in the jungle.',
           ],
           [
             1,
             '[17:40] Tales of the South Pacific - James A. Michener.epub (index_split_003.xhtml) - 1740',
-            'At <<1740|9m>> our position looked very uncertain. We were still six rows from Line Albany. And the Japs had their blockhouse right at the edge of the cacaos. Our chances of attaining a reasonably safe position seemed slight when a fine shout went up. One of our tanks had broken through! Alone, it dashed right for the heart of the Jap position. Two enemy tanks, hidden up to now, swept out from coconut emplacements and engaged our tank. Bracketed by shells from each side, our tank exploded. Not one man escaped.',
+            'At <<1740|9m:0>> our position looked very uncertain. We were still six rows from Line Albany. And the Japs had their blockhouse right at the edge of the cacaos. Our chances of attaining a reasonably safe position seemed slight when a fine shout went up. One of our tanks had broken through! Alone, it dashed right for the heart of the Jap position. Two enemy tanks, hidden up to now, swept out from coconut emplacements and engaged our tank. Bracketed by shells from each side, our tank exploded. Not one man escaped.',
           ],
           [
             1,
             '[17:42] Tales of the South Pacific - James A. Michener.epub (index_split_003.xhtml) - 1742',
-            'At <<1742|9m>> eleven more of our tanks landed on Sonova Beach. You would have thought their day was just beginning. But the sun was on their tails as they grunted into the jungle like wild pigs hunting food.',
+            'At <<1742|9m:0>> eleven more of our tanks landed on Sonova Beach. You would have thought their day was just beginning. But the sun was on their tails as they grunted into the jungle like wild pigs hunting food.',
           ],
           [
             1,
             '[17:49] Tales of the South Pacific - James A. Michener.epub (index_split_003.xhtml) - 1749',
-            'At <<1749|9m>> the Japs launched their big counter-attack. They swept from their blockhouse in wild assault. Our rockets sped among them, but did not stop them. It was the men in trench three that stopped them.',
+            'At <<1749|9m:0>> the Japs launched their big counter-attack. They swept from their blockhouse in wild assault. Our rockets sped among them, but did not stop them. It was the men in trench three that stopped them.',
           ],
           [
             1,
             '[18:03] Tales of the South Pacific - James A. Michener.epub (index_split_003.xhtml) - 1803',
-            'At <<1803|9m>> Admiral Kester sent his message: "You can do it. Twenty-seven minutes to Line Albany!" We were then four rows from the blockhouse. But we were sure that beyond trench seven no trenches had been dug. But we also knew that trenches six and seven were tougher than anything we had yet tackled. So for the last time Admiral Kester sent his beloved planes in to soften up the trenches. In the glowering dusk they roared up and down between the charred trees, hiccupping vitriol. The grim, terrible planes withdrew. There was a moment of waiting. We waited for our next assault. We waited for new tanks to stumble out of the promontory. We waited in itching dismay for that tropic night. We were so far from the blockhouse! The sun was almost sunk into the sea.',
+            'At <<1803|9m:0>> Admiral Kester sent his message: "You can do it. Twenty-seven minutes to Line Albany!" We were then four rows from the blockhouse. But we were sure that beyond trench seven no trenches had been dug. But we also knew that trenches six and seven were tougher than anything we had yet tackled. So for the last time Admiral Kester sent his beloved planes in to soften up the trenches. In the glowering dusk they roared up and down between the charred trees, hiccupping vitriol. The grim, terrible planes withdrew. There was a moment of waiting. We waited for our next assault. We waited for new tanks to stumble out of the promontory. We waited in itching dismay for that tropic night. We were so far from the blockhouse! The sun was almost sunk into the sea.',
           ],
           [
             1,
@@ -696,7 +696,7 @@ At this Mary went into a paroxysm of rage. Tonkinese profanity ricocheted off th
           [
             1,
             '[18:09] Tales of the South Pacific - James A. Michener.epub (index_split_003.xhtml) - 1809',
-            'At <<1809|9m>>, with guns spluttering, eight of our tanks from Sonova Beach burst out of the jungle. Four of them headed for the blockhouse. Four tore right down the alleyway between trenches five and six. These took a Jap reinforcement party head on. The fight was foul and unequal. Three Japs set fire to themselves and tried to immolate the tank crews. They were actually shot into pieces. The tanks rumbled on.',
+            'At <<1809|9m:0>>, with guns spluttering, eight of our tanks from Sonova Beach burst out of the jungle. Four of them headed for the blockhouse. Four tore right down the alleyway between trenches five and six. These took a Jap reinforcement party head on. The fight was foul and unequal. Three Japs set fire to themselves and tried to immolate the tank crews. They were actually shot into pieces. The tanks rumbled on.',
           ],
           [
             1,

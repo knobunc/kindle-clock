@@ -2,7 +2,7 @@ $VAR1 = [
           [
             1,
             '[ap 02:00] Gray Lensman - E. E. _doc_ Smith.epub (index_split_001.html) - two',
-            "\"At <<two|9m>> diameters' distance forty-eight fields will surround this planet at one hundred percent overlap. Please have that many set that way. Of the other twelve, set three to go well outside the first sphere\x{2014}say at four diameters out\x{2014}covering the line from this planet to Landmark's Nebula. Set the last nine to be thrown out about half a detet\x{2014}as far as you can read them accurately to one decimal\x{2014}centering on the same line. Not much overlap is necessary on these backing fields\x{2014}just contact. Release nothing, of course, until I get there. And while the boys are setting things up, you might go inert\x{2014}it's safe enough now\x{2014}so I can match your intrinsic velocity and come aboard.\"",
+            "\"At <<two|9m:0>> diameters' distance forty-eight fields will surround this planet at one hundred percent overlap. Please have that many set that way. Of the other twelve, set three to go well outside the first sphere\x{2014}say at four diameters out\x{2014}covering the line from this planet to Landmark's Nebula. Set the last nine to be thrown out about half a detet\x{2014}as far as you can read them accurately to one decimal\x{2014}centering on the same line. Not much overlap is necessary on these backing fields\x{2014}just contact. Release nothing, of course, until I get there. And while the boys are setting things up, you might go inert\x{2014}it's safe enough now\x{2014}so I can match your intrinsic velocity and come aboard.\"",
           ],
           [
             1,
@@ -22,7 +22,7 @@ $VAR1 = [
           [
             1,
             '[ap 07:10] Gray Lensman - E. E. _doc_ Smith.epub (index_split_008.html) - seven ten',
-            "\"I have only a vague idea\x{2014}a couple of hundred, perhaps. If too many, we can run them again at a higher level, say <<seven ten|5k:0>>. But there won't be very many, since there are only two galactic ratings higher than <<seven fifty|5k:0>>. There will be duplications, too\x{2014}such people as Sir Austin Cardynge will have two or three cards in the final rejects.\"",
+            "\"I have only a vague idea\x{2014}a couple of hundred, perhaps. If too many, we can run them again at a higher level, say <<seven ten|5k:1>>. But there won't be very many, since there are only two galactic ratings higher than <<seven fifty|5k:1>>. There will be duplications, too\x{2014}such people as Sir Austin Cardynge will have two or three cards in the final rejects.\"",
           ],
           [
             1,
@@ -32,7 +32,7 @@ $VAR1 = [
           [
             1,
             '[ap 02:50] Gray Lensman - E. E. _doc_ Smith.epub (index_split_012.html) - two fifty',
-            ". . well <<two fifty|5k:0>>, then, but that's an awful high bid, mister, believe me . . . I tell you, I couldn't give my own mother over three hundred\x{2014}I'd lose money on the goods. You ain't tested it, what makes you think it's such a much?\"",
+            ". . well <<two fifty|5k:1>>, then, but that's an awful high bid, mister, believe me . . . I tell you, I couldn't give my own mother over three hundred\x{2014}I'd lose money on the goods. You ain't tested it, what makes you think it's such a much?\"",
           ],
           [
             1,
@@ -47,7 +47,7 @@ $VAR1 = [
           [
             1,
             '[ap 03:08] Gray Lensman - E. E. _doc_ Smith.epub (index_split_017.html) - three-oh-eight',
-            "\"All secondaries fire at will!\" Kinnison barked into his microphone. He was already at his conning board; every man of the crew was at his station. \"All of you who can reach twenty-seven <<three-oh-eight|5k:0>>, hit it\x{2014}hard. The rest of you do as you please.\"",
+            "\"All secondaries fire at will!\" Kinnison barked into his microphone. He was already at his conning board; every man of the crew was at his station. \"All of you who can reach twenty-seven <<three-oh-eight|5k:1>>, hit it\x{2014}hard. The rest of you do as you please.\"",
           ],
           [
             1,
@@ -62,6 +62,6 @@ $VAR1 = [
           [
             1,
             '[ap 03:54] Gray Lensman - E. E. _doc_ Smith.epub (index_split_021.html) - three fifty four',
-            '"Course to rendezvous with Flotilla ZKD latitude <<three fifty four|5k:0>> dash thirty longitude nineteen dash forty two time approximately twelve dash seven dash twenty six place one dash three dash zero outside arbitrary galactic rim check and repeat" rattled from the speaker without pause or punctuation. Nevertheless the chief navigator got it, recorded it, checked and repeated it',
+            '"Course to rendezvous with Flotilla ZKD latitude <<three fifty four|5k:1>> dash thirty longitude nineteen dash forty two time approximately twelve dash seven dash twenty six place one dash three dash zero outside arbitrary galactic rim check and repeat" rattled from the speaker without pause or punctuation. Nevertheless the chief navigator got it, recorded it, checked and repeated it',
           ],
         ];

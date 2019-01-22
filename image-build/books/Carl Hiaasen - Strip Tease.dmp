@@ -31,11 +31,6 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 04:51] Strip Tease - Carl Hiaasen.epub (OEBPS/Hiaa_9780307767400_epub_c03_r1.htm) - nine-to-five',
-            "She knew then that a regular <<nine-to-five|10a:0>> job wouldn\x{2019}t do, that she\x{2019}d have to find another way. That night she\x{2019}d gone home and stood at the bedroom mirror and slowly removed her clothes, starting with the blouse. It looked ridiculous. She put on some music, Mitch Ryder and the Detroit Wheels, and tried again. Erin had always been a good dancer, but she\x{2019}d never seen herself dancing in a full-length mirror, stark naked. Even though she had a good figure, she felt silly. She thought: Who in the world would pay to see this?",
-          ],
-          [
-            1,
             '[00:00] Strip Tease - Carl Hiaasen.epub (OEBPS/Hiaa_9780307767400_epub_c06_r1.htm) - midnight',
             'At <<midnight|13>> Shad went looking for a Coke machine. Erin put on a Buffett tape and turned the volume low. She liked the Caribbean songs the best. Her imagination set sail, and before long she was dreaming of pearly beaches and secluded harbors. She was barefoot in the surf, wiggling her toes into the sand.',
           ],
@@ -55,7 +50,7 @@ $VAR1 = [
             1,
             '[ap 07:30] Strip Tease - Carl Hiaasen.epub (OEBPS/Hiaa_9780307767400_epub_c07_r1.htm) - seven-thirty',
             "\x{201c}Shit.\x{201d} Dilbeck slapped Rojo\x{2019}s shoulder. \x{201c}Chris, you\x{2019}ve never seen such stiffs. The Chamber of Cadavers is more like it.\x{201d}
-\x{201c}Still,\x{201d} said Crandall, \x{201c}it\x{2019}s for <<seven-thirty|5k:0>> sharp.\x{201d}
+\x{201c}Still,\x{201d} said Crandall, \x{201c}it\x{2019}s for <<seven-thirty|5k:1>> sharp.\x{201d}
 \x{201c}We\x{2019}ll get him there,\x{201d} Rojo promised.",
           ],
           [
@@ -71,7 +66,7 @@ $VAR1 = [
           [
             1,
             '[ap 07:10] Strip Tease - Carl Hiaasen.epub (OEBPS/Hiaa_9780307767400_epub_c08_r1.htm) - seven-ten',
-            "He rolled a snapping curve that left the <<seven-ten|5k:0>> combination. \x{201c}Are you a gambling man?\x{201d} he asked Moldowsky. \x{201c}Wait, that\x{2019}s a dumb question. Of course you\x{2019}re a gambling man. Otherwise you wouldn\x{2019}t be involved.\x{201d}",
+            "He rolled a snapping curve that left the <<seven-ten|5k:1>> combination. \x{201c}Are you a gambling man?\x{201d} he asked Moldowsky. \x{201c}Wait, that\x{2019}s a dumb question. Of course you\x{2019}re a gambling man. Otherwise you wouldn\x{2019}t be involved.\x{201d}",
           ],
           [
             1,
@@ -237,6 +232,6 @@ $VAR1 = [
           [
             1,
             '[ap 11:00] Strip Tease - Carl Hiaasen.epub (OEBPS/Hiaa_9780307767400_epub_c32_r1.htm) - eleven',
-            'She guessed the time as between <<eleven|20>> and <<eleven-thirty|5k:0>>. Now or never, she thought. She threw the flashlight as far as she could into the tall cane, where it landed without a sound. Then she did the same with the gun.',
+            'She guessed the time as between <<eleven|20>> and <<eleven-thirty|5k:1>>. Now or never, she thought. She threw the flashlight as far as she could into the tall cane, where it landed without a sound. Then she did the same with the gun.',
           ],
         ];

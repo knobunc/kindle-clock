@@ -22,7 +22,7 @@ $VAR1 = [
           [
             1,
             '[ap 02:00] Twenties Girl - Sophie Kinsella.epub (index_split_007.html) - two',
-            "From the shell-shocked way Clive\x{2019}s froggy eyes have widened, I\x{2019}m guessing the answer is yes. At <<two|9m>> neighboring tables, conversations have come to a halt, and I can see our supercilious waiter pausing to watch. The buzz of clashing cutlery and conversation seems to have died away all around. Even the lobsters seem to be lined up at the edge of the tank, watching.",
+            "From the shell-shocked way Clive\x{2019}s froggy eyes have widened, I\x{2019}m guessing the answer is yes. At <<two|9m:1>> neighboring tables, conversations have come to a halt, and I can see our supercilious waiter pausing to watch. The buzz of clashing cutlery and conversation seems to have died away all around. Even the lobsters seem to be lined up at the edge of the tank, watching.",
           ],
           [
             1,
@@ -32,7 +32,7 @@ $VAR1 = [
           [
             1,
             '[ap 00:30] Twenties Girl - Sophie Kinsella.epub (index_split_009.html) - twelve-thirty',
-            "\x{201c}There was a memorandum pinned up in the kitchen: <<twelve-thirty|5k:0>> lunch with Marie.\x{201d}",
+            "\x{201c}There was a memorandum pinned up in the kitchen: <<twelve-thirty|5k:1>> lunch with Marie.\x{201d}",
           ],
           [
             1,
@@ -131,7 +131,7 @@ $VAR1 = [
           [
             1,
             '[ap ~ 05:30] Twenties Girl - Sophie Kinsella.epub (index_split_029.html) - about five-thirty',
-            "I text Ed, saying I have a headache and need to be alone. When I get home, there\x{2019}s no Sadie, which doesn\x{2019}t surprise me. I make some supper, which I don\x{2019}t eat, then sit in bed with the necklace around my neck, twisting the beads and watching old movies on TCM and not even bothering to try to sleep. At last, at <<about five-thirty|9c:1>>, I get up, put on some clothes, and head out. The soft gray of the dawn is tinged with a vivid pink-red sunrise. I stand still, gazing at the red streaks in the sky for a few moments, and in spite of everything feel my spirits lifting. Then I buy a coffee from a caf\x{e9}, get on a bus, and head to Waterloo, staring blankly out as the bus trundles through the streets. By the time I arrive it\x{2019}s nearer <<six-thirty|5k:0>>. People are starting to appear on the bridge and in the streets. The London Portrait Gallery is still shut up, though. Locked and empty; not a soul inside. That\x{2019}s what you\x{2019}d think, anyway.",
+            "I text Ed, saying I have a headache and need to be alone. When I get home, there\x{2019}s no Sadie, which doesn\x{2019}t surprise me. I make some supper, which I don\x{2019}t eat, then sit in bed with the necklace around my neck, twisting the beads and watching old movies on TCM and not even bothering to try to sleep. At last, at <<about five-thirty|9c:1>>, I get up, put on some clothes, and head out. The soft gray of the dawn is tinged with a vivid pink-red sunrise. I stand still, gazing at the red streaks in the sky for a few moments, and in spite of everything feel my spirits lifting. Then I buy a coffee from a caf\x{e9}, get on a bus, and head to Waterloo, staring blankly out as the bus trundles through the streets. By the time I arrive it\x{2019}s nearer <<six-thirty|5k:1>>. People are starting to appear on the bridge and in the streets. The London Portrait Gallery is still shut up, though. Locked and empty; not a soul inside. That\x{2019}s what you\x{2019}d think, anyway.",
           ],
           [
             1,
@@ -146,6 +146,6 @@ $VAR1 = [
           [
             1,
             '[ap 01:02] Twenties Girl - Sophie Kinsella.epub (index_split_030.html) - one-two',
-            "adies and gentlemen.\x{201d} My voice booms so loudly, I stop and clear my throat. I\x{2019}ve never spoken into such a big loudspeaker system, and even though I did a \x{201c}Hello, Wembley, <<one-two|9j>>, <<one-two|9j>>\x{201d} sound check earlier, it\x{2019}s still a bit of a shock.",
+            "adies and gentlemen.\x{201d} My voice booms so loudly, I stop and clear my throat. I\x{2019}ve never spoken into such a big loudspeaker system, and even though I did a \x{201c}Hello, Wembley, <<one-two|9j:0>>, <<one-two|9j:0>>\x{201d} sound check earlier, it\x{2019}s still a bit of a shock.",
           ],
         ];

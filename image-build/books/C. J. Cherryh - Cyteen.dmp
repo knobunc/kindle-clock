@@ -28,13 +28,13 @@ $VAR1 = [
             1,
             '[ap 08:00] Cyteen - C. J. Cherryh.epub (OEBPS/Text/Section_02.xhtml) - 0800',
             "\x{201c}Yes?\x{201d} His voice cracked. It was the hour. He was shivering.
-\x{201c}At <<0800|9m>>. When you get in. In the Wing One lab.\x{201d}
+\x{201c}At <<0800|9m:1>>. When you get in. In the Wing One lab.\x{201d}
 \x{201c}Yes, sera.\x{201d}",
           ],
           [
             1,
             '[ap 07:45] Cyteen - C. J. Cherryh.epub (OEBPS/Text/Section_02.xhtml) - 0745',
-            'At <<0745|9m>> he left his apartment and took the lift down to the main hall; passed Wing One security, walked to his own office, unlocked the door, turned on the lights, everything as he usually did.',
+            'At <<0745|9m:0>> he left his apartment and took the lift down to the main hall; passed Wing One security, walked to his own office, unlocked the door, turned on the lights, everything as he usually did.',
           ],
           [
             1,

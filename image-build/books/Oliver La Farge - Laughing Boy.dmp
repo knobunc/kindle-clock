@@ -8,25 +8,25 @@ $VAR1 = [
             1,
             '[ap 03:50] Laughing Boy_ A Navajo Love Story - Oliver La Farge.epub (OPS/c02.xml) - three-fifty',
             '\'How much will you bet on yourself?\'
-\'I have <<three-fifty|5k:0>> and this bow-guard.\'
-\'That makes <<eight-fifty|5k:0>>.\'',
+\'I have <<three-fifty|5k:1>> and this bow-guard.\'
+\'That makes <<eight-fifty|5k:1>>.\'',
           ],
           [
             1,
             '[ap 03:50] Laughing Boy_ A Navajo Love Story - Oliver La Farge.epub (OPS/c02.xml) - three-fifty',
-            '\'I have <<three-fifty|5k:0>> and this bow-guard.\'
-\'That makes <<eight-fifty|5k:0>>.\'
+            '\'I have <<three-fifty|5k:1>> and this bow-guard.\'
+\'That makes <<eight-fifty|5k:1>>.\'
 \'The bow-guard is worth more; it is worth ten dollars.\'',
           ],
           [
             1,
             '[ap 11:50] Laughing Boy_ A Navajo Love Story - Oliver La Farge.epub (OPS/c02.xml) - eleven-fifty',
-            'The man looked at it judgingly. \'Well, it is worth eight. That makes <<eleven-fifty|5k:0>>. Why don\'t you bet your belt?\'',
+            'The man looked at it judgingly. \'Well, it is worth eight. That makes <<eleven-fifty|5k:1>>. Why don\'t you bet your belt?\'',
           ],
           [
             1,
             '[ap 03:50] Laughing Boy_ A Navajo Love Story - Oliver La Farge.epub (OPS/c02.xml) - three-fifty',
-            'They piled up the stakes: <<three-fifty|5k:0>> and a bow-guard against <<eleven-fifty|5k:0>>, belt against belt. The belt was worth money, but it was ugly, Laughing Boy thought. He did not like this man. He knew how to dance improperly.',
+            'They piled up the stakes: <<three-fifty|5k:1>> and a bow-guard against <<eleven-fifty|5k:1>>, belt against belt. The belt was worth money, but it was ugly, Laughing Boy thought. He did not like this man. He knew how to dance improperly.',
           ],
           [
             1,
@@ -38,7 +38,7 @@ $VAR1 = [
           [
             1,
             '[ap 09:50] Laughing Boy_ A Navajo Love Story - Oliver La Farge.epub (OPS/c02.xml) - nine-fifty',
-            '\'Here, I have <<nine-fifty|5k:0>>. That is all I have.\' The man held out the money.',
+            '\'Here, I have <<nine-fifty|5k:1>>. That is all I have.\' The man held out the money.',
           ],
           [
             1,

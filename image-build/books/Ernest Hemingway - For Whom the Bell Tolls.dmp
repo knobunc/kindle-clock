@@ -42,7 +42,7 @@ $VAR1 = [
           [
             1,
             '[ap 01:11] For Whom the Bell Tolls - Ernest Hemingway.epub (ops/xhtml/ch11.html) - one eleven',
-            "\x{201c}Heinkel <<one eleven|5k:0>> bombers. Heinkel and Fiat pursuit,\x{201d} Robert Jordan told him.",
+            "\x{201c}Heinkel <<one eleven|5k:1>> bombers. Heinkel and Fiat pursuit,\x{201d} Robert Jordan told him.",
           ],
           [
             1,
@@ -68,7 +68,7 @@ $VAR1 = [
             1,
             '[ap 04:00] For Whom the Bell Tolls - Ernest Hemingway.epub (ops/xhtml/ch20.html) - four',
             "\x{201c}When are you relieved?\x{201d}
-\x{201c}At <<four|9m>>.\x{201d}
+\x{201c}At <<four|9m:0>>.\x{201d}
 \x{201c}There is much cold between now and then.\x{201d}",
           ],
           [

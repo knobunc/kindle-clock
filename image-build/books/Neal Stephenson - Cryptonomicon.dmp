@@ -129,7 +129,7 @@ $VAR1 = [
                Gerald Hott and Frosty the Pig and tries to separate them without success. He squats
                by them and gives the former a good look. Hott is blond. His eyes are half-closed,
                and when Shaftoe shines a flashlight into the slit, he can see a glint of blue. Hott
-               is a big man, easily <<two-twenty-five|5k:0>> in fighting trim, easily <<two-fifty|5k:0>> now. Life
+               is a big man, easily <<two-twenty-five|5k:1>> in fighting trim, easily <<two-fifty|5k:1>> now. Life
                in a military kitchen does not make it easy for a fellow to keep his weight down,
                or (unfortunately for Hott) his cardiovascular system in any kind of dependable working
                order.",
@@ -145,7 +145,7 @@ $VAR1 = [
                it onto the scale, bringing the total up to seventy. Ethridge does the breaststroke
                through clouds of flies to gather up all the cuts of meat that were on the chopping
                blocks when the place was evacuated. He throws them on the scale and the needle swings
-               up to near the one-hundred mark. From that point they are able to bring it up to <<one-thirty|5k:0>>
+               up to near the one-hundred mark. From that point they are able to bring it up to <<one-thirty|5k:1>>
                by ferrying hams and roasts in from the freezer one at a time. Enoch Root\x{2014}who seems
                to be conversant with exotic systems of measurement\x{2014}has made a calculation, and checked
                it twice, establishing that the weight of Gerald Hott, converted into kilograms, is
@@ -180,8 +180,8 @@ $VAR1 = [
           [
             1,
             '[ap 01:02] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/9780061792571_Chapter_2.xhtml) - One-two',
-            "Alan picked up two bottlecaps and set them down on the ground. \x{201c}Two. <<One-two|9j>>. Plus\x{2014}\x{201d}
-               He set down two more. \x{201c}Another two. <<One-two|9j>>. Equals four. One-two-three-four.\x{201d}",
+            "Alan picked up two bottlecaps and set them down on the ground. \x{201c}Two. <<One-two|9j:0>>. Plus\x{2014}\x{201d}
+               He set down two more. \x{201c}Another two. <<One-two|9j:0>>. Equals four. One-two-three-four.\x{201d}",
           ],
           [
             1,
@@ -414,8 +414,8 @@ $VAR1 = [
           [
             1,
             '[21:10] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/9780061792571_Chapter_46.xhtml) - 2110',
-            "The young naval analyst continues. \x{201c}At <<2110|9m>>, Wilhelmshaven replied with a message
-               instructing OL Beck to interrogate the prisoners immediately. At <<0150|9m>>, Beck replied
+            "The young naval analyst continues. \x{201c}At <<2110|9m:0>>, Wilhelmshaven replied with a message
+               instructing OL Beck to interrogate the prisoners immediately. At <<0150|9m:0>>, Beck replied
                with a message stating that in his opinion the prisoners belonged to some sort of
                special naval intelligence unit.\x{201d}",
           ],
@@ -482,16 +482,6 @@ $VAR1 = [
             1,
             '[15:00] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/9780061792571_Chapter_50.xhtml) - three in the afternoon',
             "Randy\x{2019}s calculator watch beeps twice. He checks the time; it is <<three in the afternoon|9a>>.",
-          ],
-          [
-            1,
-            '[ap 04:51] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/9780061792571_Chapter_50.xhtml) - nine-to-five',
-            "The question of whether or not she is a lesbian is rapidly becoming more than purely
-               academic. He performs a quick mental review of all of the lesbians he has known. Usually
-               they are mid-level, <<nine-to-five|10a:0>> city dwellers with sensible haircuts. In other words,
-               they are just like most of the other people Randy knows. Amy is too flagrantly exotic,
-               too much like a horny film director\x{2019}s idea of what a lesbian would be. So maybe there
-               is some hope here.",
           ],
           [
             1,
@@ -856,31 +846,6 @@ $VAR1 = [
                starts wandering, thinking it would be fun to get lost. Getting lost happens in about
                thirty seconds. He should have brought his GPS, and marked the latitude and longitude
                of the hotel.",
-          ],
-          [
-            1,
-            '[ap > 10:00] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/9780061792571_Chapter_98.xhtml) - after ten',
-            "She ends up on Randy\x{2019}s lap, lying sideways on top of him, her head on his chest. \x{201c}Close
-               the door,\x{201d} Amy says, and Randy does. Then she squirms around until she\x{2019}s face to face
-               with him, her pelvic center of gravity grinding mercilessly against the huge generalized
-               region between navel and thigh that has, in recent months, become one big sex organ
-               for him. She brackets his neck between her forearms and grabs the carotid supports
-               of the whiplash arrestor. He\x{2019}s busted. The obvious thing now would be a kiss, and
-               she feints in that direction, but then reconsiders, as it seems like some serious
-               looking is in order at this time. So they look at each other for probably a good minute.
-               It\x{2019}s not a moony kind of look that they share, not a starry-eyed thing by any means,
-               more like a what the fuck have we gotten ourselves into thing. As if it\x{2019}s really important to both of them that they mutually appreciate
-               how serious everything is. Emotionally, yes, but also from a legal and, for lack of
-               a better term, military standpoint. But once Amy is satisfied that her boy does indeed
-               get it, on all of these fronts, she permits herself a vaguely incredulous-looking
-               sneer that blossoms into a real grin, and then a chuckle that in a less heavily armed
-               woman might be characterized as a giggle, and then, just to shut herself up, she pulls
-               hard on the stainless steel goalposts of the whiplash arrestor and nuzzles her face
-               up to Randy\x{2019}s and, <<after ten|9:1>> heartbeats\x{2019} worth of exploratory sniffling and nuzzling,
-               kisses him. It\x{2019}s a chaste kiss that takes a long time to open up, which is totally
-               consistent with Amy\x{2019}s cautious, sardonic approach to everything, as well as with the
-               hypothesis, alluded to once while they were driving to Whitman, that she is in fact
-               a virgin.",
           ],
           [
             1,

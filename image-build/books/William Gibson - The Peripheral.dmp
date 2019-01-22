@@ -42,7 +42,7 @@ $VAR1 = [
           [
             1,
             '[ap 01:02] The Peripheral - William Gibson.epub (text/part0078.html) - one-two',
-            "\x{201c}Click your teeth together twice, <<one-two|9j>>, without opening your mouth. Quiet as possible.\x{201d}",
+            "\x{201c}Click your teeth together twice, <<one-two|9j:0>>, without opening your mouth. Quiet as possible.\x{201d}",
           ],
           [
             1,

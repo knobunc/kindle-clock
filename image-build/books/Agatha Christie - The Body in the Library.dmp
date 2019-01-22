@@ -28,7 +28,7 @@ $VAR1 = [
             1,
             '[ap ~ 07:30] The Body in the Library - Agatha Christie.epub (OEBPS/007_chapter02.html) - about seven-thirty',
             "\x{201c}Who shuts up the library?\x{201d}
-\x{201c}Lorrimer. Usually <<about seven-thirty|5k:0>> this time of year.\x{201d}
+\x{201c}Lorrimer. Usually <<about seven-thirty|5k:1>> this time of year.\x{201d}
 \x{201c}Would he go in there again during the evening?\x{201d}",
           ],
           [
@@ -92,7 +92,7 @@ $VAR1 = [
             1,
             '[ap 10:30] The Body in the Library - Agatha Christie.epub (OEBPS/012_chapter07.html) - ten-thirty',
             "\x{201c}Thank you, Mr. Starr. Now will you just tell me in your own words exactly what happened last night?\x{201d}
-\x{201c}Certainly. Ruby and I did our <<ten-thirty|5k:0>> dance together\x{2014}\x{201d}
+\x{201c}Certainly. Ruby and I did our <<ten-thirty|5k:1>> dance together\x{2014}\x{201d}
 \x{201c}No signs of anything unusual about her then?\x{201d}",
           ],
           [

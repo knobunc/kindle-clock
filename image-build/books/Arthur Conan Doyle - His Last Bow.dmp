@@ -115,7 +115,7 @@ $VAR1 = [
             1,
             '[ap 05:00] His Last Bow - Arthur Conan Doyle.epub (OEBPS/Text/chapter3.xhtml) - five',
             '"At what hour was the office closed on Monday?"
-"At <<five|9m>>."
+"At <<five|9m:1>>."
 "Did you close it?"',
           ],
           [
@@ -148,7 +148,7 @@ Saturday. Remember that only English notes, or gold, will',
           [
             1,
             '[ap 04:00] His Last Bow - Arthur Conan Doyle.epub (OEBPS/Text/chapter4.xhtml) - four o\'clock',
-            '"You won\'t take the key from me by force, Watson. I\'ve got you, my friend. Here you are, and here you will stay until I will otherwise. But I\'ll humour you." (All this in little gasps, with terrible struggles for breath between.) "You\'ve only my own good at heart. Of course I know that very well. You shall have your way, but give me time to get my strength. Not now, Watson, not now. It\'s <<four o\'clock|6>>. At <<six|9m>> you can go."',
+            '"You won\'t take the key from me by force, Watson. I\'ve got you, my friend. Here you are, and here you will stay until I will otherwise. But I\'ll humour you." (All this in little gasps, with terrible struggles for breath between.) "You\'ve only my own good at heart. Of course I know that very well. You shall have your way, but give me time to get my strength. Not now, Watson, not now. It\'s <<four o\'clock|6>>. At <<six|9m:1>> you can go."',
           ],
           [
             1,
@@ -203,7 +203,7 @@ Saturday. Remember that only English notes, or gold, will',
           [
             1,
             '[ap 08:00] His Last Bow - Arthur Conan Doyle.epub (OEBPS/Text/chapter5.xhtml) - eight',
-            '"Should you care to add the case to your annals, my dear Watson," said Holmes that evening, "it can only be as an example of that temporary eclipse to which even the best-balanced mind may be exposed. Such slips are common to all mortals, and the greatest is he who can recognize and repair them. To this modified credit I may, perhaps, make some claim. My night was haunted by the thought that somewhere a clue, a strange sentence, a curious observation, had come under my notice and had been too easily dismissed. Then, suddenly, in the gray of the morning, the words came back to me. It was the remark of the undertaker\'s wife, as reported by Philip Green. She had said, \'It should be there before now. It took longer, being out of the ordinary.\' It was the coffin of which she spoke. It had been out of the ordinary. That could only mean that it had been made to some special measurement. But why? Why? Then in an instant I remembered the deep sides, and the little wasted figure at the bottom. Why so large a coffin for so small a body? To leave room for another body. Both would be buried under the one certificate. It had all been so clear, if only my own sight had not been dimmed. At <<eight|9m>> the Lady Frances would be buried. Our one chance was to stop the coffin before it left the house.',
+            '"Should you care to add the case to your annals, my dear Watson," said Holmes that evening, "it can only be as an example of that temporary eclipse to which even the best-balanced mind may be exposed. Such slips are common to all mortals, and the greatest is he who can recognize and repair them. To this modified credit I may, perhaps, make some claim. My night was haunted by the thought that somewhere a clue, a strange sentence, a curious observation, had come under my notice and had been too easily dismissed. Then, suddenly, in the gray of the morning, the words came back to me. It was the remark of the undertaker\'s wife, as reported by Philip Green. She had said, \'It should be there before now. It took longer, being out of the ordinary.\' It was the coffin of which she spoke. It had been out of the ordinary. That could only mean that it had been made to some special measurement. But why? Why? Then in an instant I remembered the deep sides, and the little wasted figure at the bottom. Why so large a coffin for so small a body? To leave room for another body. Both would be buried under the one certificate. It had all been so clear, if only my own sight had not been dimmed. At <<eight|9m:1>> the Lady Frances would be buried. Our one chance was to stop the coffin before it left the house.',
           ],
           [
             1,

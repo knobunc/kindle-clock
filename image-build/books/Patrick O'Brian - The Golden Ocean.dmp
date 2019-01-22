@@ -24,7 +24,7 @@ $VAR1 = [
           [
             1,
             '[ap 01:02] The Golden Ocean - Patrick O\'Brian.epub (OEBPS/Text/c04.htm) - One-two',
-            "He dashed into the midshipmen\x{2019}s berth and forward to the odd, dark kind of cupboard against the jear-capstan casing where he and FitzGerald slung their hammocks. He flung off his coat and rummaged wildly among his possessions in the brass-bound sea-chest, found a clean shirt and his best new coat. He dressed with particular care, but it took longer than he thought, for in his haste he was clumsy, and he was still wrestling with a cross-grained buckle when he heard the ship\x{2019}s bell go \x{2018}<<One-two|9j>>, <<one-two|9j>>, one\x{2019}. Certain that he must have miscounted he shouted into the berth, \x{2018}That was four bells, wasn\x{2019}t it?\x{2019}",
+            "He dashed into the midshipmen\x{2019}s berth and forward to the odd, dark kind of cupboard against the jear-capstan casing where he and FitzGerald slung their hammocks. He flung off his coat and rummaged wildly among his possessions in the brass-bound sea-chest, found a clean shirt and his best new coat. He dressed with particular care, but it took longer than he thought, for in his haste he was clumsy, and he was still wrestling with a cross-grained buckle when he heard the ship\x{2019}s bell go \x{2018}<<One-two|9j:0>>, <<one-two|9j:0>>, one\x{2019}. Certain that he must have miscounted he shouted into the berth, \x{2018}That was four bells, wasn\x{2019}t it?\x{2019}",
           ],
           [
             1,
@@ -34,7 +34,7 @@ $VAR1 = [
           [
             1,
             '[ap 06:00] The Golden Ocean - Patrick O\'Brian.epub (OEBPS/Text/c07.htm) - six',
-            'Yet still the Centurion buried her lee-rails in a white line of foam, palely luminous in the dark: at <<six|9m>> bells all hands were turned up to shorten sail again, and at <<eight|9:0>> bells Peter tumbled below more dead than alive, helped on his way by a green sea that smothered the quarter-deck waist deep.',
+            'Yet still the Centurion buried her lee-rails in a white line of foam, palely luminous in the dark: at <<six|9m:0>> bells all hands were turned up to shorten sail again, and at <<eight|9:0>> bells Peter tumbled below more dead than alive, helped on his way by a green sea that smothered the quarter-deck waist deep.',
           ],
           [
             1,
@@ -44,7 +44,7 @@ $VAR1 = [
           [
             1,
             '[ap 04:00] The Golden Ocean - Patrick O\'Brian.epub (OEBPS/Text/c07.htm) - four',
-            "At <<four|9m>> bells Peter and Bailey were below again, breakfasting on a tin mug of small beer and a ship\x{2019}s biscuit. \x{2018}You wouldn\x{2019}t believe how it is blowing,\x{2019} Peter told the only midshipman awake.",
+            "At <<four|9m:0>> bells Peter and Bailey were below again, breakfasting on a tin mug of small beer and a ship\x{2019}s biscuit. \x{2018}You wouldn\x{2019}t believe how it is blowing,\x{2019} Peter told the only midshipman awake.",
           ],
           [
             1,
@@ -90,7 +90,7 @@ $VAR1 = [
             1,
             '[ap 04:00] The Golden Ocean - Patrick O\'Brian.epub (OEBPS/Text/c11.htm) - four',
             "But if Peter found one day\x{2019}s waiting hard, he, in common with the entire squadron, found two, three and four days\x{2019} waiting harder still. Yet four days did not see the barge back again: it was a full week before their intense anxiety and suspense found relief.
-At <<four|9m>> bells in the forenoon watch the look-out reported a sail.
+At <<four|9m:1>> bells in the forenoon watch the look-out reported a sail.
 \x{2018}Lug-sail, sir,\x{2019} he answered the deck. \x{2018}It might be the barge.\x{2019}",
           ],
           [
@@ -116,7 +116,7 @@ At <<four|9m>> bells in the forenoon watch the look-out reported a sail.
           [
             1,
             '[ap 08:00] The Golden Ocean - Patrick O\'Brian.epub (OEBPS/Text/c13.htm) - eight',
-            'And now it was done. Full of bucanned beef, salted pork, fresh water, wood, and, for the moment, fresh fruit in abundance, she was standing out for the open sea. All around him the familiar pattern of naval life was taking shape again. The lift and roll of the ship had awakened his sea-legs: the sound of holystoning the deck filled his mind with peace. At <<eight|9m>> bells he would form part of the watch: Mr Saumarez would have something rude to say to him, no doubt: he was at home again, and it was delightful.',
+            'And now it was done. Full of bucanned beef, salted pork, fresh water, wood, and, for the moment, fresh fruit in abundance, she was standing out for the open sea. All around him the familiar pattern of naval life was taking shape again. The lift and roll of the ship had awakened his sea-legs: the sound of holystoning the deck filled his mind with peace. At <<eight|9m:1>> bells he would form part of the watch: Mr Saumarez would have something rude to say to him, no doubt: he was at home again, and it was delightful.',
           ],
           [
             1,

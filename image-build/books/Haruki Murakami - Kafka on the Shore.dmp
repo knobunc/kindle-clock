@@ -137,7 +137,7 @@ $VAR1 = [
           [
             1,
             '[ap 05:00] Kafka on the Shore - Haruki Murakami.epub (Murakami, Haruki - Kafka on the Shore_split_000_split_008.html) - five',
-            "When I finish The Arabian Nights I tackle the complete works of Natsume Soseki\x{2014}there're still a couple of his novels I haven't read yet. At <<five|9m>> I exit the library. So most of the day I'm in the gym or the library. As long as I'm in one of those two, nobody seems to worry about me. Chances are pretty slim a kid skipping school would hang out in either one. I eat dinner at the diner in front of the station. I try to eat as many vegetables as I can, and occasionally buy fruit from a stand and peel it using the knife I took from my father's desk. I buy cucumbers and celery, wash them in the sink at the hotel, and eat them with mayonnaise. Sometimes I pick up a container of milk from the mini-mart and have a bowl of cereal.",
+            "When I finish The Arabian Nights I tackle the complete works of Natsume Soseki\x{2014}there're still a couple of his novels I haven't read yet. At <<five|9m:0>> I exit the library. So most of the day I'm in the gym or the library. As long as I'm in one of those two, nobody seems to worry about me. Chances are pretty slim a kid skipping school would hang out in either one. I eat dinner at the diner in front of the station. I try to eat as many vegetables as I can, and occasionally buy fruit from a stand and peel it using the knife I took from my father's desk. I buy cucumbers and celery, wash them in the sink at the hotel, and eat them with mayonnaise. Sometimes I pick up a container of milk from the mini-mart and have a bowl of cereal.",
           ],
           [
             1,
@@ -197,7 +197,7 @@ $VAR1 = [
           [
             1,
             '[ap 05:00] Kafka on the Shore - Haruki Murakami.epub (Murakami, Haruki - Kafka on the Shore_split_001_split_002.html) - five',
-            '"The library closes at <<five|9c:1>>," Oshima says, "and I have to straighten things up, so we\'ll leave <<around five-thirty|5k:0>>. I\'ll drive you there in my car. Nobody\'s staying there now.',
+            '"The library closes at <<five|9c:1>>," Oshima says, "and I have to straighten things up, so we\'ll leave <<around five-thirty|5k:1>>. I\'ll drive you there in my car. Nobody\'s staying there now.',
           ],
           [
             1,
@@ -222,7 +222,7 @@ $VAR1 = [
           [
             1,
             '[ap 10:00] Kafka on the Shore - Haruki Murakami.epub (Murakami, Haruki - Kafka on the Shore_split_001_split_004.html) - ten',
-            'At <<ten|9m>> I put the book down, brush my teeth, and wash my face. The fire bathes the room in an orange glow, and the pleasant warmth calms my tension and fear. I snuggle into my sleeping bag dressed only in a T-shirt and boxers. Compared to last night I\'m able to shut my eyes easily. Thoughts of Sakura cross my mind.',
+            'At <<ten|9m:1>> I put the book down, brush my teeth, and wash my face. The fire bathes the room in an orange glow, and the pleasant warmth calms my tension and fear. I snuggle into my sleeping bag dressed only in a T-shirt and boxers. Compared to last night I\'m able to shut my eyes easily. Thoughts of Sakura cross my mind.',
           ],
           [
             1,
@@ -247,7 +247,7 @@ $VAR1 = [
           [
             1,
             '[ap 11:00] Kafka on the Shore - Haruki Murakami.epub (Murakami, Haruki - Kafka on the Shore_split_002_split_001.html) - eleven',
-            'At <<eleven|9m>> Oshima and I open up the main door, but nobody comes for a while.',
+            'At <<eleven|9m:1>> Oshima and I open up the main door, but nobody comes for a while.',
           ],
           [
             1,
@@ -322,7 +322,7 @@ $VAR1 = [
           [
             1,
             '[ap 10:00] Kafka on the Shore - Haruki Murakami.epub (Murakami, Haruki - Kafka on the Shore_split_002_split_005.html) - ten',
-            'What could it mean? Were all these just coincidences? I walk to the window and look out at the garden. Darkness is just settling in on the world. I go over to the reading room, sit on the sofa, and open up Tanizaki\'s translation of The Tale of Genji. At <<ten|9m>> I go to bed, turn off the bedside light, and close my eyes, waiting for the fifteen-year-old Miss Saeki to return to this room.',
+            'What could it mean? Were all these just coincidences? I walk to the window and look out at the garden. Darkness is just settling in on the world. I go over to the reading room, sit on the sofa, and open up Tanizaki\'s translation of The Tale of Genji. At <<ten|9m:1>> I go to bed, turn off the bedside light, and close my eyes, waiting for the fifteen-year-old Miss Saeki to return to this room.',
           ],
           [
             1,
@@ -389,7 +389,7 @@ It\'s not yet <<noon|13>>, but it\'s like evening it\'s so dark.
           [
             1,
             '[ap 02:00] Kafka on the Shore - Haruki Murakami.epub (Murakami, Haruki - Kafka on the Shore_split_003_split_003.html) - two',
-            'At <<two|9m>> I take a cup of coffee on a tray up to Miss Saeki\'s room, where she\'s sitting at her desk. Like always there\'s writing paper and a fountain pen on the desk, but the pen is still capped. Both hands resting on the desk, she\'s staring off into space. Not like she\'s looking at anything, just gazing at a place that isn\'t there. She seems tired. The window behind her is open, the early summer breeze rustling the white lace curtain. The scene looks like some beautiful allegorical painting.',
+            'At <<two|9m:0>> I take a cup of coffee on a tray up to Miss Saeki\'s room, where she\'s sitting at her desk. Like always there\'s writing paper and a fountain pen on the desk, but the pen is still capped. Both hands resting on the desk, she\'s staring off into space. Not like she\'s looking at anything, just gazing at a place that isn\'t there. She seems tired. The window behind her is open, the early summer breeze rustling the white lace curtain. The scene looks like some beautiful allegorical painting.',
           ],
           [
             1,
@@ -493,7 +493,7 @@ It\'s <<after two|3b>> when he gets ready to leave.
           [
             1,
             '[ap 06:00] Kafka on the Shore - Haruki Murakami.epub (Murakami, Haruki - Kafka on the Shore_split_005_split_001.html) - six',
-            "At <<six|9m>> Nakata made dinner\x{2014}grilled salmon and a salad, plus a number of little side dishes he'd concocted. Hoshino switched on the TV and watched the news to see if there were any developments in the murder case. But there wasn't a word about it. Just other news\x{2014}a kidnapping of an infant girl, the usual Israeli and Palestinian reprisals, a massive traffic accident on a highway in western Japan, a carjacking ring headed by foreigners, some cabinet minister's stupid discriminatory remark, layoffs at companies in the communication industry. Not a single upbeat story.",
+            "At <<six|9m:0>> Nakata made dinner\x{2014}grilled salmon and a salad, plus a number of little side dishes he'd concocted. Hoshino switched on the TV and watched the news to see if there were any developments in the murder case. But there wasn't a word about it. Just other news\x{2014}a kidnapping of an infant girl, the usual Israeli and Palestinian reprisals, a massive traffic accident on a highway in western Japan, a carjacking ring headed by foreigners, some cabinet minister's stupid discriminatory remark, layoffs at companies in the communication industry. Not a single upbeat story.",
           ],
           [
             1,
@@ -513,7 +513,7 @@ It\'s <<after two|3b>> when he gets ready to leave.
           [
             1,
             '[ap 03:00] Kafka on the Shore - Haruki Murakami.epub (Murakami, Haruki - Kafka on the Shore_split_005_split_001.html) - three',
-            'At <<three|9m>> they went into a coffee shop, where Hoshino had a cup of coffee. Nakata puzzled over his order, finally going with the iced milk. By this time Hoshino was exhausted from all the driving and didn\'t feel like talking. He\'d had his fill of Beethoven.',
+            'At <<three|9m:0>> they went into a coffee shop, where Hoshino had a cup of coffee. Nakata puzzled over his order, finally going with the iced milk. By this time Hoshino was exhausted from all the driving and didn\'t feel like talking. He\'d had his fill of Beethoven.',
           ],
           [
             1,
@@ -525,7 +525,7 @@ They went back to the apartment at <<six|9c:1>>.
           [
             1,
             '[12:00] Kafka on the Shore - Haruki Murakami.epub (Murakami, Haruki - Kafka on the Shore_split_005_split_001.html) - noon',
-            'At <<noon|13>> they stopped by a restaurant specializing in eel and ordered the lunch special, a bowl of rice topped with eel. At <<three|9m>> they went to a coffee shop, where Hoshino had coffee, Nakata kelp tea. By <<six p. m.|5>> the map was a mass of yellow marks, the anonymous tires of the Familia having traversed every square inch of road in the city.',
+            'At <<noon|13>> they stopped by a restaurant specializing in eel and ordered the lunch special, a bowl of rice topped with eel. At <<three|9m:1>> they went to a coffee shop, where Hoshino had coffee, Nakata kelp tea. By <<six p. m.|5>> the map was a mass of yellow marks, the anonymous tires of the Familia having traversed every square inch of road in the city.',
           ],
           [
             1,
@@ -577,7 +577,7 @@ They went back to the apartment at <<six|9c:1>>.
           [
             1,
             '[ap 02:00] Kafka on the Shore - Haruki Murakami.epub (Murakami, Haruki - Kafka on the Shore_split_005_split_003.html) - two',
-            'At <<two|9m>> on the dot a good-looking middle-aged woman came down the stairs.',
+            'At <<two|9m:0>> on the dot a good-looking middle-aged woman came down the stairs.',
           ],
           [
             1,

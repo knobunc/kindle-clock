@@ -32,7 +32,7 @@ $VAR1 = [
           [
             1,
             '[ap 02:00] The Sword in the Stone - T. H. White.epub (index_split_005.html) - Two',
-            "They  swam  along,  Merlyn  occasionally  advising  him  to  put  his  back into  it  when  he  forgot,  and  all  the  strange  under-water  world  began  to dawn  about  them,  deliciously  cool  after  the  heat  of  the  upper  air.  The great  forests  of  weed  were  delicately  traced,  and  in  them  there  hung motionless  many  schools  of  sticklebacks  learning  to  do  their  physical exercises  in  strict  unison.  On  the  word  One  they  all  lay  still:  at  <<Two|9m>>  they faced  about:  at <<Three|9m>>  they  all shot together  into  a cone,  whose  apex  was a bit  of something  to eat.  Water  snails  slowly  ambled  about  on  the  stems of  the  lilies  or  under  their  leaves,  while  fresh-water  mussels  lay  on  the bottom doing nothing in particular. Their flesh was salmon pink,  like a very good  strawberry  cream  ice.  The  small  congregations  of  perch  \x{2014}  it  was  a strange thing, but all the bigger fish seemed to have  hidden  themselves  \x{2014}",
+            "They  swam  along,  Merlyn  occasionally  advising  him  to  put  his  back into  it  when  he  forgot,  and  all  the  strange  under-water  world  began  to dawn  about  them,  deliciously  cool  after  the  heat  of  the  upper  air.  The great  forests  of  weed  were  delicately  traced,  and  in  them  there  hung motionless  many  schools  of  sticklebacks  learning  to  do  their  physical exercises  in  strict  unison.  On  the  word  One  they  all  lay  still:  at  <<Two|9m:0>>  they faced  about:  at <<Three|9m:0>>  they  all shot together  into  a cone,  whose  apex  was a bit  of something  to eat.  Water  snails  slowly  ambled  about  on  the  stems of  the  lilies  or  under  their  leaves,  while  fresh-water  mussels  lay  on  the bottom doing nothing in particular. Their flesh was salmon pink,  like a very good  strawberry  cream  ice.  The  small  congregations  of  perch  \x{2014}  it  was  a strange thing, but all the bigger fish seemed to have  hidden  themselves  \x{2014}",
           ],
           [
             1,
@@ -48,7 +48,7 @@ $VAR1 = [
             1,
             '[ap 01:02] The Sword in the Stone - T. H. White.epub (index_split_008.html) - one-two',
             'The  Latin  words  were  spoken  and  the  secret  passes  made.  The funnel  of whistling  noise  and  space  received  them.  In  two twos they  were lying under  the  grandstand,  and  the  sergeant\'s  voice  was calling  from  the opposite  side  of  the  tilting  ground,  "Nah  then,  Master  Art,  nah  then. You\'ve  been  a-snoozing  there  long  enough.  Come  aht  into  the  sunlight
-\'ere with Master Kay, <<one-two|9j>>, <<one-two|9j>>, and see some real tilting."',
+\'ere with Master Kay, <<one-two|9j:0>>, <<one-two|9j:0>>, and see some real tilting."',
           ],
           [
             1,
@@ -83,6 +83,6 @@ $VAR1 = [
           [
             1,
             '[ap 01:02] The Sword in the Stone - T. H. White.epub (index_split_022.html) - one-two',
-            'It  was  obviously  the  Wart\'s  duty  to  execute  this  command,  for  he was  now  the  junior  of  all  the  noblemen  present,  and  so  he  ran  out cheerfully to find the sergeant. Soon those who were left in  the  solar  could hear  a  voice  crying  out,  "Nah  then,  <<one-two|9j>>,  special  mourning  fer  \'is  lite majesty,  lower  awai  on  the  command  Two!"  and  then  the  flapping  of  all the  standards,  banners,  pennons,  pennoncells,  banderolls,  guidons, streamers  and  cognizances  which  made  gay  the  snowy  turrets  of  the Forest Sauvage.',
+            'It  was  obviously  the  Wart\'s  duty  to  execute  this  command,  for  he was  now  the  junior  of  all  the  noblemen  present,  and  so  he  ran  out cheerfully to find the sergeant. Soon those who were left in  the  solar  could hear  a  voice  crying  out,  "Nah  then,  <<one-two|9j:0>>,  special  mourning  fer  \'is  lite majesty,  lower  awai  on  the  command  Two!"  and  then  the  flapping  of  all the  standards,  banners,  pennons,  pennoncells,  banderolls,  guidons, streamers  and  cognizances  which  made  gay  the  snowy  turrets  of  the Forest Sauvage.',
           ],
         ];

@@ -53,7 +53,7 @@ $VAR1 = [
             1,
             '[ap 05:00] Deaf Sentence - David Lodge.epub (OEBPS/lodg_9781101140567_oeb_c08_r1.html) - five',
             "\x{2018}How many shares did you have?\x{2019}
-\x{2018}Twenty-five. At <<five|9m>> bob each.\x{2019}
+\x{2018}Twenty-five. At <<five|9m:0>> bob each.\x{2019}
 \x{2018}Well, you haven\x{2019}t lost much.\x{2019}",
           ],
           [
@@ -79,12 +79,12 @@ $VAR1 = [
           [
             1,
             '[ap ~ 04:30] Deaf Sentence - David Lodge.epub (OEBPS/lodg_9781101140567_oeb_c11_r1.html) - about four-thirty',
-            'At <<about four-thirty|5k:0>> the phone on my desk rang. I jumped, and picked it up without first putting in my hearing aid. It was Alex, of course.',
+            'At <<about four-thirty|5k:1>> the phone on my desk rang. I jumped, and picked it up without first putting in my hearing aid. It was Alex, of course.',
           ],
           [
             1,
             '[ap 09:30] Deaf Sentence - David Lodge.epub (OEBPS/lodg_9781101140567_oeb_c12_r1.html) - nine-thirty',
-            "How did she know that was the right answer to impress Fred? Or was she quite sincere? With Alex, how could one possibly know? The roar of conversation in the foyer had now reached a decibel level that ruled out any further part in the conversation for me, but I could see the two women were getting on well together. When the bell rang for us to return to our seats, Fred shook Alex\x{2019}s hand again and I heard her say: \x{2018}Drop in any time, we\x{2019}re open from <<nine-thirty|5k:0>> to six, seven on Thursdays.\x{2019}",
+            "How did she know that was the right answer to impress Fred? Or was she quite sincere? With Alex, how could one possibly know? The roar of conversation in the foyer had now reached a decibel level that ruled out any further part in the conversation for me, but I could see the two women were getting on well together. When the bell rang for us to return to our seats, Fred shook Alex\x{2019}s hand again and I heard her say: \x{2018}Drop in any time, we\x{2019}re open from <<nine-thirty|5k:1>> to six, seven on Thursdays.\x{2019}",
           ],
           [
             1,

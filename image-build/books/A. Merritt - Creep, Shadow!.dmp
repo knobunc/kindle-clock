@@ -132,7 +132,7 @@ $VAR1 = [
           [
             1,
             '[ap 08:00] Creep, Shadow! - A. Merritt.epub (CreepShadow_split_007.html) - eight',
-            "\x{201c}I will be awaiting you tomorrow, Alain de Carnac. At <<eight|9m>>. We have much
+            "\x{201c}I will be awaiting you tomorrow, Alain de Carnac. At <<eight|9m:0>>. We have much
   to say to each other. Do not fail me.\x{201d}",
           ],
           [
@@ -154,7 +154,7 @@ $VAR1 = [
             1,
             '[ap 08:00] Creep, Shadow! - A. Merritt.epub (CreepShadow_split_009.html) - eight',
             "Alan.
-At <<eight|9m>> I was sending my card in to the Demoiselle.
+At <<eight|9m:0>> I was sending my card in to the Demoiselle.
 It was one of those towering apartment houses overlooking the East River;
   sybaritic; their eastward and most desirable windows looking down upon
   Blackwell\x{2019}s Island where the outcasts, the lesser fry of criminals, those not

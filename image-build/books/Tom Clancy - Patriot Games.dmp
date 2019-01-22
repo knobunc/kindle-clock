@@ -241,7 +241,7 @@ $VAR1 = [
           [
             1,
             '[ap 05:00] Patriot Games - Tom Clancy.epub (OEBPS/part25_split_001.xhtml) - five',
-            "\x{201c}Yeah.\x{201d} Together they walked to the annex. The corridors were nearly empty now. For the most part, CIA worked like any other place. At <<five|9m>> the majority of the workers departed for home and dinner and evening television.",
+            "\x{201c}Yeah.\x{201d} Together they walked to the annex. The corridors were nearly empty now. For the most part, CIA worked like any other place. At <<five|9m:0>> the majority of the workers departed for home and dinner and evening television.",
           ],
           [
             1,
@@ -262,7 +262,7 @@ $VAR1 = [
             1,
             '[ap ~ 08:15] Patriot Games - Tom Clancy.epub (OEBPS/part25_split_001.xhtml) - about eight-fifteen',
             "\x{201c}Jeez, it's this Friday, isn't it?\x{201d}
-\x{201c}Yeah. Can you show up <<about eight-fifteen|5k:0>>?\x{201d}
+\x{201c}Yeah. Can you show up <<about eight-fifteen|5k:1>>?\x{201d}
 \x{201c}You got it. You said not dressy, right?\x{201d}",
           ],
           [
@@ -278,7 +278,7 @@ $VAR1 = [
           [
             1,
             '[ap 11:16] Patriot Games - Tom Clancy.epub (OEBPS/part25_split_001.xhtml) - Eleven-sixteen',
-            "The voice became rapid. \x{201c}<<Eleven-sixteen|5k:0>> Green Cottage Lane. There's maybe -- I mean I saw four of 'em, one black and three white. They were unloading the guns from a van. It was <<three in the morning|9a>>. I had to get up an' take a leak, and I looked out the bathroom window, y'know? The garage door was open, and the light was on, and when they passed the gun across, it was in the light, like, and I could tell it was a sixty. Hey, I used to carry one in the Army, y'know? Anyway, that's it, man, you wanna do something about it, that's your lookout.\x{201d} The line clicked off. The Sergeant called his captain at once.",
+            "The voice became rapid. \x{201c}<<Eleven-sixteen|5k:1>> Green Cottage Lane. There's maybe -- I mean I saw four of 'em, one black and three white. They were unloading the guns from a van. It was <<three in the morning|9a>>. I had to get up an' take a leak, and I looked out the bathroom window, y'know? The garage door was open, and the light was on, and when they passed the gun across, it was in the light, like, and I could tell it was a sixty. Hey, I used to carry one in the Army, y'know? Anyway, that's it, man, you wanna do something about it, that's your lookout.\x{201d} The line clicked off. The Sergeant called his captain at once.",
           ],
           [
             1,
@@ -310,12 +310,12 @@ Chief Bosun's Mate Znamirowski looked over the seawall at the boat Robby had ste
           [
             1,
             '[ap 08:30] Patriot Games - Tom Clancy.epub (OEBPS/part3_split_001.xhtml) - 8:30',
-            'The police arrived in force at <<8:30|2>>. By this time Ryan had been able to eat his hospital breakfast and wash up. Breakfast had been a huge disappointment, with Wilson collapsing in laughter at Ryan\'s comment on its appearance -- but Kittiwake had been so downcast from this that Ryan had felt constrained to eat all of it, even the stewed prunes that he\'d loathed since childhood. Only after finishing had he realized that her demeanor had probably been a sham, a device to get him to eat all the slop. Nurses, he reminded himself, are tricky. At <<eight|9m>> the orderly had arrived to help him clean up. Ryan shaved himself, with the orderly holding the mirror and clucking every time he nicked himself. Four nicks -- Ryan customarily used an electric shaver, and hadn\'t faced a bare blade in years. By <<8:30|2>> Ryan felt and looked human again. Kittiwake had brought in a second cup of coffee. It wasn\'t very good, but it was still coffee.',
+            'The police arrived in force at <<8:30|2>>. By this time Ryan had been able to eat his hospital breakfast and wash up. Breakfast had been a huge disappointment, with Wilson collapsing in laughter at Ryan\'s comment on its appearance -- but Kittiwake had been so downcast from this that Ryan had felt constrained to eat all of it, even the stewed prunes that he\'d loathed since childhood. Only after finishing had he realized that her demeanor had probably been a sham, a device to get him to eat all the slop. Nurses, he reminded himself, are tricky. At <<eight|9m:0>> the orderly had arrived to help him clean up. Ryan shaved himself, with the orderly holding the mirror and clucking every time he nicked himself. Four nicks -- Ryan customarily used an electric shaver, and hadn\'t faced a bare blade in years. By <<8:30|2>> Ryan felt and looked human again. Kittiwake had brought in a second cup of coffee. It wasn\'t very good, but it was still coffee.',
           ],
           [
             1,
             '[ap ~ 07:30] Patriot Games - Tom Clancy.epub (OEBPS/part3_split_001.xhtml) - about seven-thirty',
-            "\x{201c}It's still Thursday, right? Well, we got in Tuesday night from Dulles International outside Washington. Arrived <<about seven-thirty|5k:0>>, got to the hotel <<about nine-thirty|5k:0>> or so, had a snack sent up, and went right to sleep. Flying always messes me up -- jet lag, whatever. I conked right out.\x{201d} That was not exactly true, but Ryan didn't think they needed to know everything.",
+            "\x{201c}It's still Thursday, right? Well, we got in Tuesday night from Dulles International outside Washington. Arrived <<about seven-thirty|5k:1>>, got to the hotel <<about nine-thirty|5k:1>> or so, had a snack sent up, and went right to sleep. Flying always messes me up -- jet lag, whatever. I conked right out.\x{201d} That was not exactly true, but Ryan didn't think they needed to know everything.",
           ],
           [
             1,
@@ -335,7 +335,7 @@ Chief Bosun's Mate Znamirowski looked over the seawall at the boat Robby had ste
           [
             1,
             '[ap 03:40] Patriot Games - Tom Clancy.epub (OEBPS/part3_split_001.xhtml) - three-forty',
-            "\x{201c}I don't know the name of the street. If you show me a map I can probably point it out.\x{201d} Owens nodded for him to go on. \x{201c}Anyway, I nearly got run over by a double-decker bus, and one of your uniformed cops told me not to jaywalk --\x{201d} Owens looked surprised at that and scribbled some notes. Perhaps they hadn't learned of that encounter. \x{201c}I picked up a magazine at a street stand and met Cathy about, oh, <<three-forty|5k:0>> or so. They were early, too.\x{201d}",
+            "\x{201c}I don't know the name of the street. If you show me a map I can probably point it out.\x{201d} Owens nodded for him to go on. \x{201c}Anyway, I nearly got run over by a double-decker bus, and one of your uniformed cops told me not to jaywalk --\x{201d} Owens looked surprised at that and scribbled some notes. Perhaps they hadn't learned of that encounter. \x{201c}I picked up a magazine at a street stand and met Cathy about, oh, <<three-forty|5k:1>> or so. They were early, too.\x{201d}",
           ],
           [
             1,

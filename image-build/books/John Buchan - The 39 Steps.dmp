@@ -162,8 +162,8 @@ $VAR1 = [
             1,
             '[ap 06:30] The 39 Steps - John Buchan.epub (OPS/xhtml/c02.html) - Six-thirty',
             'Then I hung about in the hall waiting for the milkman. That was the worst part of
-            the business, for I was fairly choking to get out of doors. <<Six-thirty|5k:0>> passed, then
-            <<six-forty|5k:0>>, but still he did not come. The fool had chosen this day of all days to
+            the business, for I was fairly choking to get out of doors. <<Six-thirty|5k:1>> passed, then
+            <<six-forty|5k:1>>, but still he did not come. The fool had chosen this day of all days to
             be late.',
           ],
           [
@@ -214,7 +214,7 @@ $VAR1 = [
             me down as a kind of dealer, and I took some trouble to confirm their view. I spoke
             a lot about cattle, of which my host knew little, and I picked up from him a good
             deal about the local Galloway markets, which I tucked away in my memory for future
-            use. At <<ten|9m>> I was nodding in my chair, and the \x{2018}bed in the loft\x{2019} received a weary
+            use. At <<ten|9m:1>> I was nodding in my chair, and the \x{2018}bed in the loft\x{2019} received a weary
             man who never opened his eyes till <<five o\x{2019}clock|6>> set the little homestead a-going once
             more.",
           ],

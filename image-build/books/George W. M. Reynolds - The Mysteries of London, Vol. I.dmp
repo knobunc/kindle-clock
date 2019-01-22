@@ -57,7 +57,7 @@ $VAR1 = [
           [
             1,
             '[ap 03:00] The Mysteries of London, Vol. I - George W. M. Reynolds.epub (text/part0000_split_008.html) - three',
-            "Nothing could be more neat and cleanly than the bar of the Servants\x{2019} Arms\x{2014}no one more obliging nor bustling than the \x{201c}young lady\x{201d} behind the bar. The Servants\x{2019} Arms was reported to draw the best liquor in all the neighbourhood; and its landlord prided himself upon the superiority of his establishment over those which sold beer \x{201c}at <<three|9m>>-pence a-pot in your own jugs.\x{201d} And then what a rapid draught the landlord had for all his good things; and how crowded was the space before the bar with customers.",
+            "Nothing could be more neat and cleanly than the bar of the Servants\x{2019} Arms\x{2014}no one more obliging nor bustling than the \x{201c}young lady\x{201d} behind the bar. The Servants\x{2019} Arms was reported to draw the best liquor in all the neighbourhood; and its landlord prided himself upon the superiority of his establishment over those which sold beer \x{201c}at <<three|9m:1>>-pence a-pot in your own jugs.\x{201d} And then what a rapid draught the landlord had for all his good things; and how crowded was the space before the bar with customers.",
           ],
           [
             1,
@@ -232,7 +232,7 @@ $VAR1 = [
           [
             1,
             '[ap 10:00] The Mysteries of London, Vol. I - George W. M. Reynolds.epub (text/part0000_split_011.html) - ten',
-            "\x{201c}At <<ten|9m>> precisely; and we then repair forthwith to the West End of the town, where certain preliminaries are requisite previously to receiving an immense sum of money which will be paid over to us at the Bank of England. This much Mr. Stephens told me yesterday. He had never communicated so much before.\x{201d}",
+            "\x{201c}At <<ten|9m:1>> precisely; and we then repair forthwith to the West End of the town, where certain preliminaries are requisite previously to receiving an immense sum of money which will be paid over to us at the Bank of England. This much Mr. Stephens told me yesterday. He had never communicated so much before.\x{201d}",
           ],
           [
             1,
@@ -262,7 +262,7 @@ $VAR1 = [
           [
             1,
             '[ap 04:54] The Mysteries of London, Vol. I - George W. M. Reynolds.epub (text/part0000_split_011.html) - six to five',
-            "\x{201c}When you mean to practise this dodge,\x{201d} continued Chichester, \x{201c}call five for a main; because you can secure the four, and there is only the six on the loose die that can come up against you. If you have a good stake to get, secure a five every time because when the main is <<six to five|10a:0>>, or <<seven to five|10a:0>>, or <<eight to five|10a:0>>, or <<nine to five|10a:0>>, or <<ten to five|10a:0>>, you must win every time, because you can\x{2019}t possibly throw out while the five is secured.\x{201d}",
+            "\x{201c}When you mean to practise this dodge,\x{201d} continued Chichester, \x{201c}call five for a main; because you can secure the four, and there is only the six on the loose die that can come up against you. If you have a good stake to get, secure a five every time because when the main is <<six to five|10a:0>>, or <<seven to five|10a:0>>, or <<eight to five|10a:0>>, or nine to five, or <<ten to five|10a:0>>, you must win every time, because you can\x{2019}t possibly throw out while the five is secured.\x{201d}",
           ],
           [
             1,
@@ -734,7 +734,7 @@ Ellen\x{2019}s fingers were almost paralysed with cold and labour; and yet the w
           [
             1,
             '[ap 09:00] The Mysteries of London, Vol. I - George W. M. Reynolds.epub (text/part0000_split_017.html) - nine',
-            "\x{201c}At <<nine|9m>> punctually,\x{201d} returned Holford. \x{201c}I would not press you, but I have lost my place in consequence of being absent all this time without being able to give any account of myself; and so I am regularly hard up. I\x{2019}m going to look after a situation up somewhere beyond Camden Town this afternoon, that I heard of by accident: but I am afraid I shall not get it, as I can give no reference for character;\x{2014}and even if I could, it would be to the public-house where I was pot-boy, and the place I\x{2019}m going to try for is to clean boots and knives, and make myself generally useful in a gentleman\x{2019}s house. So I am afraid that I am not likely to get the situation.\x{201d}",
+            "\x{201c}At <<nine|9m:0>> punctually,\x{201d} returned Holford. \x{201c}I would not press you, but I have lost my place in consequence of being absent all this time without being able to give any account of myself; and so I am regularly hard up. I\x{2019}m going to look after a situation up somewhere beyond Camden Town this afternoon, that I heard of by accident: but I am afraid I shall not get it, as I can give no reference for character;\x{2014}and even if I could, it would be to the public-house where I was pot-boy, and the place I\x{2019}m going to try for is to clean boots and knives, and make myself generally useful in a gentleman\x{2019}s house. So I am afraid that I am not likely to get the situation.\x{201d}",
           ],
           [
             1,
@@ -1013,7 +1013,7 @@ The Professor was evidently struck by the beauty of her appearance; but he held 
           [
             1,
             '[ap 07:00] The Mysteries of London, Vol. I - George W. M. Reynolds.epub (text/part0000_split_021.html) - seven',
-            "\x{201c}At <<seven|9m>> precisely the three lovely daughters of General Grachia arrived at the villa to assist me in my toilette\x{2014}my nuptial toilette. They informed me that, if it were my pleasure, they were to remain in attendance upon me after my marriage. I embraced them tenderly, and assured them that they should always be near me as friends. When the toilette was completed, I bade adieu to the villa. I wept\x{2014}wept tears of mingled joy and sorrow as I said farewell to that abode where I had passed so many happy, happy hours! At length I entered General Grachia\x{2019}s carriage, which was waiting; and, accompanied by my three amiable friends, repaired to their father\x{2019}s private dwelling (not his official palace of the War Department) in Montoni.",
+            "\x{201c}At <<seven|9m:1>> precisely the three lovely daughters of General Grachia arrived at the villa to assist me in my toilette\x{2014}my nuptial toilette. They informed me that, if it were my pleasure, they were to remain in attendance upon me after my marriage. I embraced them tenderly, and assured them that they should always be near me as friends. When the toilette was completed, I bade adieu to the villa. I wept\x{2014}wept tears of mingled joy and sorrow as I said farewell to that abode where I had passed so many happy, happy hours! At length I entered General Grachia\x{2019}s carriage, which was waiting; and, accompanied by my three amiable friends, repaired to their father\x{2019}s private dwelling (not his official palace of the War Department) in Montoni.",
           ],
           [
             1,
@@ -1151,7 +1151,7 @@ The Professor was evidently struck by the beauty of her appearance; but he held 
             1,
             '[ap 02:00] The Mysteries of London, Vol. I - George W. M. Reynolds.epub (text/part0000_split_025.html) - two',
             "\x{201c}When\x{2019}s the funeral a-coming, sir?\x{201d} asked Jones, after a pause.
-\x{201c}At <<two|9m>> precisely,\x{201d} replied Mr. Banks.
+\x{201c}At <<two|9m:0>> precisely,\x{201d} replied Mr. Banks.
 \x{201c}Rale parson, or von of your men as usual?\x{201d} continued the grave-digger, inquiringly.",
           ],
           [

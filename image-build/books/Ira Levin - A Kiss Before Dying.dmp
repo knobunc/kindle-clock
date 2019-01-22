@@ -88,7 +88,7 @@ He looked at his watch. \x{2018}You have a <<ten o\x{2019}clock|6>>, don\x{2019}
           [
             1,
             '[ap 09:00] A Kiss Before Dying - Ira Levin.epub (OPS/9781849017480_chapterrunon_06.html) - nine',
-            "\x{2018}No. Listen, you know that place where we had the cheese-burgers last night? Gideon\x{2019}s? Well, meet me there. At <<nine|9m>>.\x{2019}",
+            "\x{2018}No. Listen, you know that place where we had the cheese-burgers last night? Gideon\x{2019}s? Well, meet me there. At <<nine|9m:0>>.\x{2019}",
           ],
           [
             1,
@@ -198,7 +198,7 @@ She laughed warmly. \x{2018}A <<quarter after twelve|10>>.\x{2019}
           [
             1,
             '[ap 06:04] A Kiss Before Dying - Ira Levin.epub (OPS/9781849017480_chapterrunon_10.html) - six-oh-four',
-            "He  dropped a pace behind Dorothy, letting her lead the way to the  directory board at the side of the lobby. \x{2018}Would it be under R for  Rockwell County or M for Marriage?\x{2019} she asked, her eyes intent on the  board as he came up beside her. He looked at the board as though  oblivious of her presence. \x{2018}There it is,\x{2019} she said triumphantly.  \x{2018}Marriage Licence Bureau \x{2013} <<six-oh-four|5k:0>>.\x{2019} He turned towards the  elevators, which were opposite the revolving doors. Dorothy hurried  along beside him. She reached for his hand but the valise was in it. He  apparently did not notice her gesture, for he made no move to change  hands.",
+            "He  dropped a pace behind Dorothy, letting her lead the way to the  directory board at the side of the lobby. \x{2018}Would it be under R for  Rockwell County or M for Marriage?\x{2019} she asked, her eyes intent on the  board as he came up beside her. He looked at the board as though  oblivious of her presence. \x{2018}There it is,\x{2019} she said triumphantly.  \x{2018}Marriage Licence Bureau \x{2013} <<six-oh-four|5k:1>>.\x{2019} He turned towards the  elevators, which were opposite the revolving doors. Dorothy hurried  along beside him. She reached for his hand but the valise was in it. He  apparently did not notice her gesture, for he made no move to change  hands.",
           ],
           [
             1,
@@ -401,11 +401,6 @@ Ellen nodded helplessly.",
           ],
           [
             1,
-            '[ap 05:30] A Kiss Before Dying - Ira Levin.epub (OPS/9781849017480_chapterrunon_28.html) - five-thirty',
-            'At the end of the school year he returned to Menasset and sat around the house in sombre depression. His mother tried to combat his sullenness and then began to reflect it. They argued, like hot coals boosting each other into flame. To get out of the house and out of himself, he reclaimed his old job at the haberdashery shop. From nine to <<five-thirty|5k:0>> he stood behind a glass display counter not looking at the binding-strips of gleaming burnished copper.',
-          ],
-          [
-            1,
             "[ap 01:00] A Kiss Before Dying - Ira Levin.epub (OPS/9781849017480_chapterrunon_32.html) - one o\x{2019}clock",
             "Marion\x{2019}s birthday fell on a Saturday early in November. In the morning she cleaned her apartment hastily. At <<one o\x{2019}clock|6>> she went to a small building in a quiet tributary of Park Avenue, where a discreet silver plaque beside a white door confided that the premises were occupied, not by a psychiatrist nor an interior decorator, but by a restaurant. Leo Kingship was waiting within the white door, sitting gingerly on a Louis Quinze sofa and scanning a management-owned copy of Gourmet. He put down the magazine, rose, kissed Marion on the cheek, and wished her a happy birthday. A ma\x{ee}tre d\x{2019}h\x{f4}tel with fluttering fingers and neon teeth ushered them to their table, swooped away a Reserved placard and seated them with Gallic effusion. There was a centrepiece of roses on the table, and, at Marion\x{2019}s place, a small box wrapped in white paper and clouds of gold ribbon. Kingship pretended not to be aware of it. While he was occupied with the wine card and \x{2018}If I may suggest, Monsieur\x{2019}, Marion freed the box of its gold entanglement, excitement colouring her cheeks and shining her eyes. Nested between layers of cotton was a golden disc, its surface constellated with tiny pearls. Marion exclaimed over the brooch, and when the ma\x{ee}tre d\x{2019}h\x{f4}tel had gone, thanked her father happily, squeezing his hand, which lay as if by chance near hers on the table.",
           ],
@@ -497,15 +492,15 @@ PART ONE: DOROTHY
 
 		<<NINE
 
-		TEN|5k:0>>
+		TEN|5k:1>>
 
 		<<ELEVEN
 
-		TWELVE|5k:0>>
+		TWELVE|5k:1>>
 
 		<<THIRTEEN
 
-		FOURTEEN|5k:0>>
+		FOURTEEN|5k:1>>
 
 		FIFTEEN
 
@@ -530,15 +525,15 @@ PART TWO: ELLEN
 
 		<<NINE
 
-		TEN|5k:0>>
+		TEN|5k:1>>
 
 		<<ELEVEN
 
-		TWELVE|5k:0>>
+		TWELVE|5k:1>>
 
 		<<THIRTEEN
 
-		FOURTEEN|5k:0>>
+		FOURTEEN|5k:1>>
 
 		FIFTEEN
 
@@ -563,15 +558,15 @@ PART THREE: MARION
 
 		<<NINE
 
-		TEN|5k:0>>
+		TEN|5k:1>>
 
 		<<ELEVEN
 
-		TWELVE|5k:0>>
+		TWELVE|5k:1>>
 
 		<<THIRTEEN
 
-		FOURTEEN|5k:0>>
+		FOURTEEN|5k:1>>
 
 		FIFTEEN
 

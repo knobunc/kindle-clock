@@ -227,7 +227,7 @@ $VAR1 = [
           [
             1,
             '[ap 07:00] Mornings on Horseback_ The Story of an Ext - David McCullough.epub (ops/xhtml/ch11.html) - seven',
-            "\x{201c}At <<seven|9m>> Aya brings me my coffee and cigarette,\x{201d} he went on, describing a typical day, \x{201c}and I sit on the veranda lazily taking in all the beauties of the early morning\x{2014}",
+            "\x{201c}At <<seven|9m:0>> Aya brings me my coffee and cigarette,\x{201d} he went on, describing a typical day, \x{201c}and I sit on the veranda lazily taking in all the beauties of the early morning\x{2014}",
           ],
           [
             1,
@@ -352,7 +352,7 @@ $VAR1 = [
           [
             1,
             '[ap 10:00] Mornings on Horseback_ The Story of an Ext - David McCullough.epub (ops/xhtml/notes.html) - ten',
-            "35 Care for Bamie: In a letter to Susan West dated Dec. 1858, Grandmamma Bulloch writes: \x{201c}We get up and have breakfast. At <<ten|9e>>, or <<half past ten|10>>, Dr. Davis comes to adjust the apparatus. Then stories must be told or stories read all of the time during the operation to keep her from crying. Under her arms, her back and chest are bathed first with water, and then alum and water to prevent chafing. Then the abscess has to be washed with castile soap and water and greased.\x{a0}.\x{a0}.\x{a0}. Then the Dr. puts on the apparatus again. She then has her lunch and is put to bed to take a little nap. Sometimes she sleeps, sometimes she does not. At <<one|9m:0>> she is taken up and changed, takes her dinner at <<two|9c:1>>, then goes out a little while if the weather is good. When she comes in again it requires constant effort to amuse her and keep her quiet. In the evening <<about half past seven|10>> she goes through the same process with the apparatus as in the morning except Thee fixes her instead of the Dr. Then she is put to bed and I rub her little legs until she goes to sleep.\x{201d}",
+            "35 Care for Bamie: In a letter to Susan West dated Dec. 1858, Grandmamma Bulloch writes: \x{201c}We get up and have breakfast. At <<ten|9e>>, or <<half past ten|10>>, Dr. Davis comes to adjust the apparatus. Then stories must be told or stories read all of the time during the operation to keep her from crying. Under her arms, her back and chest are bathed first with water, and then alum and water to prevent chafing. Then the abscess has to be washed with castile soap and water and greased.\x{a0}.\x{a0}.\x{a0}. Then the Dr. puts on the apparatus again. She then has her lunch and is put to bed to take a little nap. Sometimes she sleeps, sometimes she does not. At <<one|9e:0>> she is taken up and changed, takes her dinner at <<two|9c:1>>, then goes out a little while if the weather is good. When she comes in again it requires constant effort to amuse her and keep her quiet. In the evening <<about half past seven|10>> she goes through the same process with the apparatus as in the morning except Thee fixes her instead of the Dr. Then she is put to bed and I rub her little legs until she goes to sleep.\x{201d}",
           ],
           [
             1,

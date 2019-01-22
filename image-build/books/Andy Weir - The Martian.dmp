@@ -27,7 +27,7 @@ $VAR1 = [
           [
             1,
             '[ap 01:00] The Martian - Andy Weir.epub (text/part0003.html) - 1',
-            "But I can\x{2019}t create it very quickly. At <<1|9m>>/2L of CO2 per hour, it will take 25 days to make the oxygen I need. That\x{2019}s longer than I\x{2019}d like.",
+            "But I can\x{2019}t create it very quickly. At <<1|9m:1>>/2L of CO2 per hour, it will take 25 days to make the oxygen I need. That\x{2019}s longer than I\x{2019}d like.",
           ],
           [
             1,
@@ -128,7 +128,7 @@ LOSS OF POWER DETECTED, TIME/DATE UNRELIABLE',
           [
             1,
             '[ap 01:50] The Martian - Andy Weir.epub (text/part0013.html) - 150',
-            "The rations will last me till Sol 400. I can\x{2019}t say for sure how long the potatoes will last until I see how many I got. But I can estimate. I had 400 plants, probably averaging 5 potatoes each: 2000 taters. At <<150|9m>> calories each, I\x{2019}ll need to eat 10 per sol to survive. That means they\x{2019}ll last me 200 sols. Grand total: I have enough food to last till Sol 600.",
+            "The rations will last me till Sol 400. I can\x{2019}t say for sure how long the potatoes will last until I see how many I got. But I can estimate. I had 400 plants, probably averaging 5 potatoes each: 2000 taters. At <<150|9m:0>> calories each, I\x{2019}ll need to eat 10 per sol to survive. That means they\x{2019}ll last me 200 sols. Grand total: I have enough food to last till Sol 600.",
           ],
           [
             1,

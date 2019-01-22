@@ -248,7 +248,7 @@ $VAR1 = [
     
 
     
-      39. The <<Five-Fifteen|5k:0>> Puppets
+      39. The <<Five-Fifteen|5k:1>> Puppets
     
 
     
@@ -433,7 +433,7 @@ $VAR1 = [
           [
             1,
             '[ap 10:00] 334 - Thomas M. Disch.epub (OEBPS/Text/Section0013.xhtml) - ten',
-            "\x{201c}Company A.\x{201d} Mickey came to attention and saluted the air. Kids his age (six) always wanted to be guerillas or firemen. At <<ten|9m>> it was pop singers. At fourteen, if they were bright (and somehow all the Hansons were bright), they wanted to write. Boz still had a whole scrapbook of the advertisements he\x{2019}d written in high school. And then, at twenty \x{2026}?",
+            "\x{201c}Company A.\x{201d} Mickey came to attention and saluted the air. Kids his age (six) always wanted to be guerillas or firemen. At <<ten|9m:1>> it was pop singers. At fourteen, if they were bright (and somehow all the Hansons were bright), they wanted to write. Boz still had a whole scrapbook of the advertisements he\x{2019}d written in high school. And then, at twenty \x{2026}?",
           ],
           [
             1,
@@ -513,7 +513,7 @@ $VAR1 = [
           [
             1,
             '[ap 11:00] 334 - Thomas M. Disch.epub (OEBPS/Text/Section0023.xhtml) - eleven',
-            "\x{201c}That\x{2019}s true when you\x{2019}re ten years old. At <<eleven|9m>> you\x{2019}re allowed to have your own point of view.\x{201d}",
+            "\x{201c}That\x{2019}s true when you\x{2019}re ten years old. At <<eleven|9m:1>> you\x{2019}re allowed to have your own point of view.\x{201d}",
           ],
           [
             1,
@@ -625,7 +625,7 @@ He wasn\x{2019}t going to come.",
           [
             1,
             '[ap 05:15] 334 - Thomas M. Disch.epub (OEBPS/Text/Section0042.xhtml) - five-fifteen',
-            'He returned in no time with his suitcase and his bag of books, moving at the uncanny, hyped-up speed of the <<five-fifteen|5k:0>> puppets.',
+            'He returned in no time with his suitcase and his bag of books, moving at the uncanny, hyped-up speed of the <<five-fifteen|5k:1>> puppets.',
           ],
           [
             1,
@@ -634,13 +634,8 @@ He wasn\x{2019}t going to come.",
           ],
           [
             1,
-            '[ap 04:51] 334 - Thomas M. Disch.epub (OEBPS/Text/Section0055.xhtml) - nine-to-five',
-            "Her story was a mosaic of little guilts and indignities, weaknesses and woes, but the picture that emerged was all too recognizably the disintegration of a family. Charmain began to assemble all the arguments why she wouldn\x{2019}t be able to take an active role in her struggle against the great octopus, Bureaucracy\x{2014}chief among them that in the <<nine-to-five|10a:0>> portion of her life she was a slave at one of the octopus\x{2019}s shrines (Department of Temporary Assistance). But then it developed that the Church, and even God, were involved in Mrs. Hanson\x{2019}s problems. The older daughter and her lover were leaving the sinking family to join the Sodality of St. Clare. In the quarrel that had fumbled the old lady out of her building and into this office the lover had used the poor dear\x{2019}s own Bible as ammunition. From Mrs. Hanson\x{2019}s extremely partisan account it took Charmain some time to locate the offending passage, but at last she tracked it down to St. Mark, third chapter, verses thirty-three to thirty-five:",
-          ],
-          [
-            1,
             '[ap 05:15] 334 - Thomas M. Disch.epub (OEBPS/Text/Section0056.xhtml) - Five-Fifteen',
-            '39. The <<Five-Fifteen|5k:0>> Puppets
+            '39. The <<Five-Fifteen|5k:1>> Puppets
 
   Alone in the apartment, doors locked, mind bolted, Mrs. Hanson watched the teevee with a fierce, wandering attention. People knocked, she ignored them. Even Ab Holt, who should have known better than to be playing their game.',
           ],

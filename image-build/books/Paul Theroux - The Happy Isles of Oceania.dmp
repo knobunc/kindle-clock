@@ -12,7 +12,7 @@ $VAR1 = [
           [
             1,
             '[ap 08:00] The Happy Isles of Oceania_ Paddling the P - Paul Theroux.epub (OPS/xhtml/chapter003.xhtml) - eight',
-            'A button came off my shirt, and I sewed it on myself, rather liking the thought of such a mundane chore amid all this luxury. At <<eight|9m>> the maids came to turn down the bed. They placed a bottle of cognac and a snifter and a bottle of mineral water on the bedside table. I drank the water. I read until I fell asleep, and I woke, exhausted by my dreams.',
+            'A button came off my shirt, and I sewed it on myself, rather liking the thought of such a mundane chore amid all this luxury. At <<eight|9m:0>> the maids came to turn down the bed. They placed a bottle of cognac and a snifter and a bottle of mineral water on the bedside table. I drank the water. I read until I fell asleep, and I woke, exhausted by my dreams.',
           ],
           [
             1,
@@ -37,7 +37,7 @@ $VAR1 = [
           [
             1,
             '[ap 11:00] The Happy Isles of Oceania_ Paddling the P - Paul Theroux.epub (OPS/xhtml/chapter006.xhtml) - eleven',
-            "\x{201c}Whenever they like,\x{201d} the man said. \x{201c}At <<eleven|9m>> or <<twelve|20a>>, or even later.\x{201d}",
+            "\x{201c}Whenever they like,\x{201d} the man said. \x{201c}At <<eleven|9m:1>> or <<twelve|20a>>, or even later.\x{201d}",
           ],
           [
             1,
@@ -82,7 +82,7 @@ Jesus may come in da evening
             '[ap 06:30] The Happy Isles of Oceania_ Paddling the P - Paul Theroux.epub (OPS/xhtml/chapter006.xhtml) - Six-thirty',
             "Seeing John, I said, \x{201c}You were up early.\x{201d}
 \x{201c}<<Six-thirty|9j>>, every morning,\x{201d} he said.
-I said, \x{201c}You mean <<five-thirty|5k:0>>.\x{201d}",
+I said, \x{201c}You mean <<five-thirty|5k:1>>.\x{201d}",
           ],
           [
             1,
@@ -167,7 +167,7 @@ The sweetness of their voices was undeniable, but in it was a note of mockery. T
           [
             1,
             '[ap 03:00] The Happy Isles of Oceania_ Paddling the P - Paul Theroux.epub (OPS/xhtml/chapter013.xhtml) - three',
-            "They weren\x{2019}t kidding, and after a while I knew that their anxiety was justified. At <<three|9m>> villages I was asked the same insulting question: \x{201c}You\x{2019}re a businessman?\x{201d}",
+            "They weren\x{2019}t kidding, and after a while I knew that their anxiety was justified. At <<three|9m:0>> villages I was asked the same insulting question: \x{201c}You\x{2019}re a businessman?\x{201d}",
           ],
           [
             1,
@@ -250,7 +250,7 @@ The speaker was Mr Skew, a New Zealander. He told me about the political system,
             1,
             '[ap 06:00] The Happy Isles of Oceania_ Paddling the P - Paul Theroux.epub (OPS/xhtml/chapter020.xhtml) - six',
             "Viv, the dour New Zealand clerk at the hotel, at first pretended she wasn\x{2019}t glad to see me, and then said, \x{201c}We have plenty of rooms. Do you want a sea view?\x{201d}
-\x{201c}I\x{2019}m getting up at <<six|9c:1>>.\x{201d} It was now <<twelve-thirty|5k:0>>.
+\x{201c}I\x{2019}m getting up at <<six|9c:1>>.\x{201d} It was now <<twelve-thirty|5k:1>>.
 \x{201c}You should get one of our cheap rooms,\x{201d} Viv said. The room had a Soviet look, chipped paint, plastic chairs, easily-tipped-over lamps and a blocked drain in the sink. And it was barely furnished. I had last stayed in a room like this in Wellington, but this made pretty Polynesia seem chilly and frugal. The Cooks were still informally linked to New Zealand, but the smug and self-denying Calvinism of Kiwi-land was at odds with everything Polynesian, and the Kiwis themselves looked rather out of place here, so beaky and pale, with short pants and knobby knees.",
           ],
           [
@@ -296,7 +296,7 @@ The speaker was Mr Skew, a New Zealander. He told me about the political system,
           [
             1,
             '[ap 05:00] The Happy Isles of Oceania_ Paddling the P - Paul Theroux.epub (OPS/xhtml/chapter022.xhtml) - five',
-            'Afraid that I might not get up in time, I hardly slept. I dozed, dreamed of missing the plane, and then woke up in a panic. I was fully awake at <<five|9c:1>>. I was loitering in the driveway at <<five-thirty|5b>>. At <<six|9e>>, no one appeared. At <<ten|9m>> past I began knocking on doors. It was another cold, black, Easter Island morning. I went on waiting. Where was everyone?',
+            'Afraid that I might not get up in time, I hardly slept. I dozed, dreamed of missing the plane, and then woke up in a panic. I was fully awake at <<five|9c:1>>. I was loitering in the driveway at <<five-thirty|5b>>. At <<six|9e>>, no one appeared. At <<ten|9m:1>> past I began knocking on doors. It was another cold, black, Easter Island morning. I went on waiting. Where was everyone?',
           ],
           [
             1,

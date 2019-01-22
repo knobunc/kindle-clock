@@ -284,7 +284,7 @@ $VAR1 = [
           [
             1,
             '[ap 09:30] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0009.html) - nine-thirty',
-            "\x{201c}I can see that you have a strong natural turn for this sort of thing. Very good; do you make the masks. We shall have some cold supper before we start. It is now <<nine-thirty|5k:1>>. At <<eleven|9m>> we shall drive as far as Church Row. It is a quarter of an hour\x{2019}s walk from there to Appledore Towers. We shall be at work <<before midnight|13>>. Milverton is a heavy sleeper, and retires punctually at <<ten-thirty|5b>>. With any luck we should be back here by two, with the Lady Eva\x{2019}s letters in my pocket.\x{201d}",
+            "\x{201c}I can see that you have a strong natural turn for this sort of thing. Very good; do you make the masks. We shall have some cold supper before we start. It is now <<nine-thirty|5k:1>>. At <<eleven|9m:1>> we shall drive as far as Church Row. It is a quarter of an hour\x{2019}s walk from there to Appledore Towers. We shall be at work <<before midnight|13>>. Milverton is a heavy sleeper, and retires punctually at <<ten-thirty|5b>>. With any luck we should be back here by two, with the Lady Eva\x{2019}s letters in my pocket.\x{201d}",
           ],
           [
             1,
@@ -423,7 +423,7 @@ $VAR1 = [
           [
             1,
             '[ap 10:36] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0013.html) - ten thirty-six',
-            "\x{201c}Strand postmark, and despatched <<ten thirty-six|5k:0>>,\x{201d} said Holmes, reading it over and over. \x{201c}Mr. Overton was evidently considerably excited when he sent it, and somewhat incoherent in consequence. Well, well, he will be here, I daresay, by the time I have looked through The Times, and then we shall know all about it. Even the most insignificant problem would be welcome in these stagnant days.\x{201d}",
+            "\x{201c}Strand postmark, and despatched <<ten thirty-six|5k:1>>,\x{201d} said Holmes, reading it over and over. \x{201c}Mr. Overton was evidently considerably excited when he sent it, and somewhat incoherent in consequence. Well, well, he will be here, I daresay, by the time I have looked through The Times, and then we shall know all about it. Even the most insignificant problem would be welcome in these stagnant days.\x{201d}",
           ],
           [
             1,
@@ -685,7 +685,7 @@ Holmes glanced at his watch.",
             1,
             '[ap 05:00] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0020.html) - five',
             "\x{201c}At what hour was the office closed on Monday?\x{201d}
-\x{201c}At <<five|9m>>.\x{201d}
+\x{201c}At <<five|9m:1>>.\x{201d}
 \x{201c}Did you close it?\x{201d}",
           ],
           [
@@ -726,7 +726,7 @@ Holmes glanced at his watch.",
           [
             1,
             "[ap 04:00] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0021.html) - four o\x{2019}clock",
-            "\x{201c}You won\x{2019}t take the key from me by force, Watson. I\x{2019}ve got you, my friend. Here you are, and here you will stay until I will otherwise. But I\x{2019}ll humour you.\x{201d} (All this in little gasps, with terrible struggles for breath between.) \x{201c}You\x{2019}ve only my own good at heart. Of course I know that very well. You shall have your way, but, give me time to get my strength. Not now, Watson, not now. It\x{2019}s <<four o\x{2019}clock|6>>. At <<six|9m>> you can go.\x{201d}",
+            "\x{201c}You won\x{2019}t take the key from me by force, Watson. I\x{2019}ve got you, my friend. Here you are, and here you will stay until I will otherwise. But I\x{2019}ll humour you.\x{201d} (All this in little gasps, with terrible struggles for breath between.) \x{201c}You\x{2019}ve only my own good at heart. Of course I know that very well. You shall have your way, but, give me time to get my strength. Not now, Watson, not now. It\x{2019}s <<four o\x{2019}clock|6>>. At <<six|9m:1>> you can go.\x{201d}",
           ],
           [
             1,
@@ -781,7 +781,7 @@ Holmes glanced at his watch.",
           [
             1,
             '[ap 08:00] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0022.html) - eight',
-            "\x{201c}Should you care to add the case to your annals, my dear Watson,\x{201d} said Holmes that evening, \x{201c}it can only be as an example of that temporary eclipse to which even the best-balanced mind may be exposed. Such slips are common to all mortals, and the greatest is he who can recognize and repair them. To this modified credit I may, perhaps, make some claim. My night was haunted by the thought that somewhere a clue, a strange sentence, a curious observation, had come under my notice and had been too easily dismissed. Then, suddenly, in the grey of the morning, the words came back to me. It was the remark of the undertaker\x{2019}s wife, as reported by Philip Green. She had said, \x{2018}It should be there before now. It took longer, being out of the ordinary.\x{2019} It was the coffin of which she spoke. It had been out of the ordinary. That could only mean that it had been made to some special measurement. But why? Why? Then in an instant I remembered the deep sides, and the little wasted figure at the bottom. Why so large a coffin for so small a body? To leave room for another body. Both would be buried under the one certificate. It had all been so clear, if only my own sight had not been dimmed. At <<eight|9m>> the Lady Frances would be buried. Our one chance was to stop the coffin before it left the house.",
+            "\x{201c}Should you care to add the case to your annals, my dear Watson,\x{201d} said Holmes that evening, \x{201c}it can only be as an example of that temporary eclipse to which even the best-balanced mind may be exposed. Such slips are common to all mortals, and the greatest is he who can recognize and repair them. To this modified credit I may, perhaps, make some claim. My night was haunted by the thought that somewhere a clue, a strange sentence, a curious observation, had come under my notice and had been too easily dismissed. Then, suddenly, in the grey of the morning, the words came back to me. It was the remark of the undertaker\x{2019}s wife, as reported by Philip Green. She had said, \x{2018}It should be there before now. It took longer, being out of the ordinary.\x{2019} It was the coffin of which she spoke. It had been out of the ordinary. That could only mean that it had been made to some special measurement. But why? Why? Then in an instant I remembered the deep sides, and the little wasted figure at the bottom. Why so large a coffin for so small a body? To leave room for another body. Both would be buried under the one certificate. It had all been so clear, if only my own sight had not been dimmed. At <<eight|9m:1>> the Lady Frances would be buried. Our one chance was to stop the coffin before it left the house.",
           ],
           [
             1,
@@ -1394,7 +1394,7 @@ The Midwest Scion of the Four',
             1,
             '[ap 01:40] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0041_split_001.html) - One-Forty',
             "Du Quoin, IL 61832-2047
-\x{201c}One of <<One-Forty|5k:0>>\x{201d}
+\x{201c}One of <<One-Forty|5k:1>>\x{201d}
 Elizabeth J. Ash",
           ],
           [
