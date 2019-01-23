@@ -51,7 +51,7 @@ $VAR1 = [
           ],
           [
             1,
-            '[22:00] 2001_ A Space Odyssey - Arthur C. Clarke.epub (Arthur_C_Clarke_split_029.html) - 2200',
-            "\x{201c}As we suspected, the fault does not lie in the AE-35 unit, and there is no need to replace it again. The trouble lies in the prediction circuits, and we believe that it indicates a programming conflict which we can only resolve if you disconnect your Nine Thousand and switch to Earth Control Mode. You will therefore take the following steps, beginning at <<2200|18:0>> Ship Time\x{2013}-\x{201c}",
+            '[ap 02:20] 2001_ A Space Odyssey - Arthur C. Clarke.epub (Arthur_C_Clarke_split_029.html) - 220',
+            "\x{201c}As we suspected, the fault does not lie in the AE-35 unit, and there is no need to replace it again. The trouble lies in the prediction circuits, and we believe that it indicates a programming conflict which we can only resolve if you disconnect your Nine Thousand and switch to Earth Control Mode. You will therefore take the following steps, beginning at <<220|1a>>0 Ship Time\x{2013}-\x{201c}",
           ],
         ];

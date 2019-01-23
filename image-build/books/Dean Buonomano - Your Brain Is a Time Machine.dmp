@@ -1,14 +1,49 @@
 $VAR1 = [
           [
             1,
+            '[ap 01:00] Your Brain Is a Time Machine_ The Neurosci - Dean Buonomano.epub (OEBPS/03_toc.xhtml) - 1:00',
+            "PART I: BRAIN TIME
+<<1:00|1a>>Flavors of Time
+<<2:00|1a>>The Best Time Machine You\x{2019}ll Ever Own",
+          ],
+          [
+            1,
+            '[ap 01:00] Your Brain Is a Time Machine_ The Neurosci - Dean Buonomano.epub (OEBPS/03_toc.xhtml) - 1:00',
+            "<<1:00|1a>>Flavors of Time
+<<2:00|1a>>The Best Time Machine You\x{2019}ll Ever Own
+3:00Day and Night",
+          ],
+          [
+            1,
+            '[ap 05:00] Your Brain Is a Time Machine_ The Neurosci - Dean Buonomano.epub (OEBPS/03_toc.xhtml) - 5:00',
+            '4:00The Sixth Sense
+<<5:00|1a>>Patterns in Time
+6:00Time, Neural Dynamics, and Chaos',
+          ],
+          [
+            1,
+            '[ap 07:00] Your Brain Is a Time Machine_ The Neurosci - Dean Buonomano.epub (OEBPS/03_toc.xhtml) - 7:00',
+            'PART II: THE PHYSICAL AND MENTAL NATURE OF TIME
+<<7:00|1a>>Keeping Time
+8:00Time: What the Hell Is It?',
+          ],
+          [
+            1,
+            '[ap 11:00] Your Brain Is a Time Machine_ The Neurosci - Dean Buonomano.epub (OEBPS/03_toc.xhtml) - 11:00',
+            '10:00The Spatialization of Time in Neuroscience
+<<11:00|1a>>Mental Time Travel
+12:00Consciousness: Binding the Past and the Future',
+          ],
+          [
+            1,
             '[ap 01:00] Your Brain Is a Time Machine_ The Neurosci - Dean Buonomano.epub (OEBPS/05_chap01.xhtml) - 1:00',
-            '<<1:00|2>> FLAVORS OF TIME
+            '<<1:00|1a>> FLAVORS OF TIME
 All that really belongs to us is time; even he who has nothing else has that.',
           ],
           [
             1,
             '[ap 02:00] Your Brain Is a Time Machine_ The Neurosci - Dean Buonomano.epub (OEBPS/06_chap02.xhtml) - 2:00',
-            "<<2:00|2>> THE BEST TIME MACHINE YOU\x{2019}LL EVER OWN
+            "<<2:00|1a>> THE BEST TIME MACHINE YOU\x{2019}LL EVER OWN
 Any real body must have extension in four directions: it must have Length, Breadth, Thickness, and\x{2014}Duration. But through natural infirmity of the flesh, which I will explain to you in a moment, we incline to overlook this fact. There are really four dimensions, three which we call the three planes of Space, and a fourth, Time.",
           ],
           [
@@ -60,11 +95,6 @@ About 38 years ago, I was on a road in Pennsylvania, I was sleeping in the back 
           ],
           [
             1,
-            '[ap 05:50] Your Brain Is a Time Machine_ The Neurosci - Dean Buonomano.epub (OEBPS/08_chap04.xhtml) - 550',
-            "In the laboratory most studies on the distortion of temporal estimates focus on the scale of hundreds of milliseconds to a few seconds. Typically volunteers will sit at a computer and make judgments about the duration of images or sounds. In a study led by the cognitive neuroscientist Virginie van Wassenhove a reference stimulus was a static circle displayed on the screen for 500 ms (a half second). The same circle was then presented for either a shorter or longer period of time. Subjects were asked to report whether this comparison stimulus was longer or shorter than the reference stimulus by pressing one of two keys. Under such conditions, subjects tend to be fairly accurate\x{2014}that is, when the comparison stimulus lasts 450 ms they tended to correctly report it as shorter than the 500 ms circle, and when it was <<550|3:1>> ms, they generally reported it as longer than the reference. So the perceived duration of the comparison stimulus is fairly accurate. However, if the comparison stimulus becomes a looming circle\x{2014}one growing in size\x{2014}while the reference stimulus remains static, an illusion emerges, a form of chronostasis or time dilation. The looming circle is perceived as lasting longer than a static one; a 450 ms looming circle may be perceived as the same duration as a 500 ms static circle.",
-          ],
-          [
-            1,
             '[< 12:00] Your Brain Is a Time Machine_ The Neurosci - Dean Buonomano.epub (OEBPS/08_chap04.xhtml) - before noon',
             "Before we go on, it should be noted that statements about time slowing down, flying by, dragging, dilating, or speeding up can be very confusing\x{2014}particularly when one makes the mistake of stopping to think about what such statements actually mean. Take the phrase time flew by. Does this imply that a clock on the wall seems to be going faster or slower? If someone reports that time flew by, does this mean he would accomplish less or more in a given window of objective clock time? Statements about time speeding up or flying by are inherently ambiguous. Slower and faster are relative adjectives; thus, much like saying something is to your right or left, you must provide a point of reference. When talking about temporal distortions people generally mean that external time changes in relation to a hypothetical internal clock. Let\x{2019}s assume that this imaginary internal clock governs our prospective judgments of time in the range of milliseconds, seconds, and minutes, and that this clock ticks ten times a second. So if it were to be sped up to twenty ticks per second in response to a threat or drugs, the result is that during a five-second period, one would be left with the impression that ten seconds had elapsed. Such a speeding up of the internal clock would generally be described as \x{201c}time slowing down,\x{201d} \x{201c}dragging,\x{201d} or \x{201c}dilating\x{201d} because we are being self-centered: we are using our internal clock as the reference and noting that external time appears to be slowing down. This account, of course, depends on the chosen clock of reference: one could also claim that time is speeding up because the internal clock is going faster than the external clock. For better or worse, however, the convention is that statements about time speeding up or slowing down refer to the apparent speed of an external clock in relation to a hypothetical internal clock\x{2014}even though it is obviously the internal clock that is actually doing the slowing or speeding. It is not uncommon to see instances in the media and popular and scientific literature in which people mistakenly state that time is slowing down when they mean speeding up. Consider the cartoon in Figure 4.1: if THC, the active component of hashish and marijuana, creates the perception of external time slowing down or dragging (consistent with William James\x{2019}s observation and experimental evidence)\x{2014}equivalent to having the internal clock speed up\x{2014}then shouldn\x{2019}t the cowboy in the figure find the clock to be <<before noon|13>>? More generally, it is important to note that our feeling of how quickly or slowly time is passing is not necessarily equivalent to our explicit estimates of how many seconds or minutes have elapsed (I may estimate that I was in the dentist\x{2019}s chair for five minutes, but report that it felt like an hour).",
           ],
@@ -76,33 +106,13 @@ About 38 years ago, I was on a road in Pennsylvania, I was sleeping in the back 
           [
             1,
             '[ap 05:00] Your Brain Is a Time Machine_ The Neurosci - Dean Buonomano.epub (OEBPS/09_chap05.xhtml) - 5:00',
-            '<<5:00|2>> PATTERNS IN TIME
+            '<<5:00|1a>> PATTERNS IN TIME
 Excuse me while I kiss this guy.',
-          ],
-          [
-            1,
-            '[ap ~ 07:00] Your Brain Is a Time Machine_ The Neurosci - Dean Buonomano.epub (OEBPS/09_chap05.xhtml) - around 700',
-            "Babies are likely to have similar struggles when learning their first language, which is probably why adults automatically slow their speech down and overstress words when talking to babies. This change in our speech patterns is referred to as infant-directed speech (or \x{201c}motherese\x{201d} or \x{201c}parentese\x{201d}). Infant-directed speech is often characterized by an increase in pitch, longer vowels, and longer pauses between words. For example, studies show that when adults are talking among themselves, the pauses between phrases are <<around 700|18:0>> milliseconds, but when adults are speaking to babies this value increases to over a second. Studies also confirm that like adults attempting to learn a new language, infants are better able to discriminate words when they are spoken in the slowed, overemphasized, prosody of motherese. Slower speech helps babies and adults parse speech: to learn where one word begins and the other ends, to prevent consecutive phonemes from interfering with each other. We will see in the next chapter that this seems to be a consequence of how the brain processes streams of information and tells time on the scale of tens to hundreds of milliseconds.",
           ],
           [
             1,
             '[ap 01:20] Your Brain Is a Time Machine_ The Neurosci - Dean Buonomano.epub (OEBPS/09_chap05.xhtml) - 120',
             'Even for those uninitiated in Morse code, it is relatively easy to discriminate a single 120 ms dot from a 360 ms dash. Similarly, in the context of music, it is easy to discriminate a single 250 ms note from a 500 ms note (an eighth and quarter note at <<120|3:1>> beats per minute respectively). But how are these simple forms of temporal discrimination achieved by the brain? Does timing get better with practice? Answering these questions provides important insights into how the brain tells time.',
-          ],
-          [
-            1,
-            '[ap 01:25] Your Brain Is a Time Machine_ The Neurosci - Dean Buonomano.epub (OEBPS/09_chap05.xhtml) - 125',
-            "Although interval discrimination has been studied since the late nineteenth century, it was only in the 1990s that the question of whether timing improves with practice was conclusively answered. One of the first studies to systematically address this question was performed at the University of California, San Francisco, by Beverly Wright, myself, and our colleagues Henry Mahncke and Michael Merzenich. We used a standard interval-discrimination task in which subjects heard two different intervals and were asked to decide whether the first or the second interval was the longer. In this task, each interval was bounded by two brief tones (15 ms each). Thus, the first interval might consist of the two tones separated by a standard interval of 100 ms, while the second, so-called comparison interval, might consist of two tones separated by <<125|3:0>> ms (Figure 5.1). The difference between the standard and comparison interval, in this case 25 ms, is referred to as delta-t (\x{2206}t). If, presented with intervals of 100 and 125 milliseconds, the participant always correctly identifies the longer interval, we can conclude that her internal timer has a resolution of better (less) than 25 milliseconds.",
-          ],
-          [
-            1,
-            '[ap 01:00] Your Brain Is a Time Machine_ The Neurosci - Dean Buonomano.epub (OEBPS/09_chap05.xhtml) - 100',
-            "Given that people improved at the trained 100 ms interval, do they improve at the other intervals as well? Note that if we believe the brain has some sort of generic neural stopwatch responsible for timing all intervals between 50 and 500 ms, and that this stopwatch somehow becomes more accurate with practice, we would expect that timing of all intervals would improve, even though the volunteers only practiced on the <<100|3c>> ms. In contrast, if the brain uses specialized timers, then we would predict that the improvements on the <<100|3c>> ms standard interval would not generalize to the other intervals. This was indeed the case. Although ten days of practice on the <<100|3c>> ms intervals dramatically improved people\x{2019}s ability to discriminate intervals <<around 100|18:0>> ms, it did not improve the interval discrimination thresholds for the 50, 200, or 500 ms intervals at all. If learning on the <<100|3c>> ms interval came from improved focus, then subjects would likely improve on all intervals, but we did not observe that. More importantly, this result, which has since been replicated in numerous other studies, suggests that however the brain is telling time in the subsecond range, it does not seem to be via any sort of master stopwatch mechanism that can time any and all intervals.",
-          ],
-          [
-            1,
-            '[ap ~ 05:00] Your Brain Is a Time Machine_ The Neurosci - Dean Buonomano.epub (OEBPS/09_chap05.xhtml) - around 500',
-            "As in speech and music, there is a temporal hierarchy of elements within a bird\x{2019}s song. Notes are combined to form syllables, and a sequence of syllables forms the phrases within a song. A given syllable can last up to a few hundred milliseconds, the pauses between syllables generally last less than 100 ms, and an entire song can carry on for seconds. The brains of male and female zebra finches are quite different: the males have a number of brain areas that are critical to song learning and production (the females do not sing). One such nucleus is referred to as HVC (which stands for nothing\x{2014}don\x{2019}t ask). This nucleus is at least in part responsible for the timing of a zebra finch\x{2019}s song. Neurons in HVC fire at specific times during the song\x{2014}for example one neuron might fire 100 milliseconds into a phrase, while another may fire <<around 500|18:0>> milliseconds in. We can think of these neurons as forming a neuronal chain in which neuron A activates B which activates C . . . (Figure 5.2). The result is that once neuron A fires we have a domino effect of neuronal activation A\x{2192}B\x{2192}C\x{2192}D\x{2192}E (in reality it is best to think of each link in this chain as a group of neurons rather than a single neuron). This is like using a chain of falling dominos as a timer: if the dominos are arranged in the same position time and time again, and each domino takes 100 milliseconds to fall, then we know that <<approximately 500|18:0>> milliseconds have elapsed when the fifth domino falls, and 1 second has passed when the tenth domino falls, . . . . Similarly, as we will examine in more detail in the next chapter, one theory is that in some cases the brain tells time by determining which neurons in a chain are currently active. Neurons in HVC indeed seem to use such a mechanism to control the timing of the notes of a bird\x{2019}s song. But one of the chronic challenges in neuroscience is to distinguish between correlation and causation\x{2014}just because neurons in HVC seem to be responsible for singing does not mean they actually are. As one approach toward addressing this correlation-versus-causation question, the neuroscientists Michael Long and Michale Fee, both at MIT at the time, reasoned that if HVC neurons were causing the timing of the song, then if the pattern of activity of those neurons was slowed down, the birds should sing in slow motion.",
           ],
           [
             1,
@@ -133,7 +143,7 @@ What is a clock? The primitive subjective feeling of time flow enables us to ord
           [
             1,
             '[ap 07:00] Your Brain Is a Time Machine_ The Neurosci - Dean Buonomano.epub (OEBPS/12_chap07.xhtml) - 7:00',
-            '<<7:00|2>> KEEPING TIME
+            '<<7:00|1a>> KEEPING TIME
 Time is to clock as mind is to brain.',
           ],
           [
@@ -195,11 +205,6 @@ For us believing physicists, the division into past, present and future has mere
           ],
           [
             1,
-            '[ap 01:00] Your Brain Is a Time Machine_ The Neurosci - Dean Buonomano.epub (OEBPS/14_chap09.xhtml) - 100',
-            "Let\x{2019}s return to our train-and-platform thought experiment and again consider the commonsense world in which everything is taking place at low speeds. Consider the example of shooting bullets in opposite directions from within a moving train. Imagine you are in the middle of a 200-meter-long train traveling 100 meters per second (m/s) in relation to me standing on the platform (Figure 9.1). As the tip of your train whizzes by me, you shoot two pistols, the bullets of which also travel at <<100|3:1>> m/s: one bullet is heading towards the window in the front of the train, and the other towards the back window. From your perspective, the bullets are traveling at the same speed and must traverse the same distance, so both bullets will shatter the windows in the front and back of the train simultaneously\x{2014}exactly 1 second after you pulled the trigger. From my perspective I will see the forward-traveling bullet move at a speed of 200 m/s (the train\x{2019}s speed plus the bullet\x{2019}s speed), and the front window break at 1 second because the bullet had to travel 200 m (half the length of the train plus the distance the train traveled in one second). I will observe the backward bullet moving at <<100|3:1>> m/s (the train\x{2019}s velocity) minus 100 m/s (the bullet\x{2019}s velocity is negative because it is going in the opposite direction). In other words I see the bullet standing still in midair as the window in the back of the train runs into the bullet (it\x{2019}s best if we pretend this is all happening in a vacuum and on a planet with little gravity). This also takes exactly 1 second because the back of the train was 100 meters from where you shot the pistol. As Newton would have expected, both you and I will witness the front and rear windows of the train break simultaneously. In this case we would say simultaneity is absolute: the two events you witness as occurring simultaneously also occur simultaneously from my perspective.",
-          ],
-          [
-            1,
             '[ap 10:00] Your Brain Is a Time Machine_ The Neurosci - Dean Buonomano.epub (OEBPS/15_chap10.xhtml) - 10:00',
             "<<10:00|2>> THE SPATIALIZATION OF TIME IN NEUROSCIENCE
 One aspect of Einstein\x{2019}s theory does have a counterpart to the psychology of time, at least as it is expressed in language: the deep equivalence of time with space.",
@@ -212,7 +217,7 @@ One aspect of Einstein\x{2019}s theory does have a counterpart to the psychology
           [
             1,
             '[ap 11:00] Your Brain Is a Time Machine_ The Neurosci - Dean Buonomano.epub (OEBPS/16_chap11.xhtml) - 11:00',
-            '<<11:00|2>> MENTAL TIME TRAVEL
+            '<<11:00|1a>> MENTAL TIME TRAVEL
 To be immortal is commonplace; except for man, all creatures are immortal, for they are ignorant of death.',
           ],
           [
@@ -220,16 +225,6 @@ To be immortal is commonplace; except for man, all creatures are immortal, for t
             '[ap 00:00] Your Brain Is a Time Machine_ The Neurosci - Dean Buonomano.epub (OEBPS/17_chap12.xhtml) - 12:00',
             '<<12:00|2>>: CONSCIOUSNESS: BINDING THE PAST AND THE FUTURE
 There is a theory which states that if ever anyone discovers exactly what the Universe is for and why it is here, it will instantly disappear and be replaced by something even more bizarre and inexplicable.',
-          ],
-          [
-            1,
-            '[ap ~ 03:00] Your Brain Is a Time Machine_ The Neurosci - Dean Buonomano.epub (OEBPS/17_chap12.xhtml) - around 300',
-            "In the laboratory researchers can straddle the threshold of conscious perception by flashing a stimulus, such as a tilted line, for less than 100 ms in one quadrant of a computer screen. In one study, subjects were asked to quickly indicate in which quadrant they thought the stimulus was presented (guessing if necessary), and whether they actually saw the line\x{2014}that is, did they consciously perceive it or were they guessing. In the trials the subjects reported that they were guessing, they should be correct approximately 25 percent of the time. Interestingly, however, participants were correct much more often, indicating that subjects were subliminally detecting the stimulus\x{2014}in other words, the unconscious brain knew where the stimulus was, but did not bother to convey this information to the conscious mind. Now the question is, what is the difference between what is happening in the brain between the correct trials in which subjects reported seeing the stimulus (correct/aware) and correct trials in which the subjects were \x{201c}guessing\x{201d} (correct/unaware)? The electrical activity in the correct/aware and correct/unaware trials was essentially identical for the first 250 ms after the stimulus\x{2014}so whether or not subjects were aware of the stimulus there was no detectable difference in brain activity. At <<around 300|3:1>> ms, however, a clear increase in cortical activity was observed throughout the brain in the aware trials. These and numerous other studies suggest that the neural mechanisms underlying the conscious perception of a stimulus only emerge significantly after the stimulus has been detected by the brain. As explained by the French neuroscientist Stanislas Dehaene: \x{201c}Not only do we consciously perceive only a very small proportion of the sensory signals that bombard us, but when we do, it is with a time lag of at least one-third of a second. . . . the information that we attribute to the conscious \x{2018}present\x{2019} is outdated by at least one-third of a second. The duration of this blind period may even exceed half a second when the input is so faint that it calls for a slow accumulation of evidence before crossing the threshold for conscious perception.\x{201d}",
-          ],
-          [
-            1,
-            '[ap ~ 03:00] Your Brain Is a Time Machine_ The Neurosci - Dean Buonomano.epub (OEBPS/17_chap12.xhtml) - around 300',
-            "If we choose to define free will as the feeling that occurs after the brain makes a decision\x{2014}that is, after the unconscious neural processes within the brain make a decision\x{2014}it should be possible to detect neural signatures of those decisions before people are conscious of them. There are numerous studies that suggest this is indeed possible. These types of experiments are only feasible as a result of one of the standard treatments of severe epilepsy. Patients who suffer from intractable epilepsy sometimes undergo a surgical procedure aimed at removing the part of the brain responsible for triggering the seizures. To precisely locate the epileptic focus, neurosurgeons implant electrodes in the brain and wait until the patient has a seizure. By recording the neural activity during a seizure, they are able to accurately target the pathological area for surgical removal. In the name of science, patients often agree to participate in experiments while the electrodes are implanted and doctors are awaiting seizure activity. In a study led by the UCLA neurosurgeon Itzhak Fried, electrodes were implanted in an area of the frontal lobe called the supplementary motor area. The patients were asked to perform a very simple task: to exercise their \x{201c}free will\x{201d} by pressing a computer key whenever they wanted too. Many neurons changed their level of activity well before the button was pressed. Indeed, based on the activity of a population of neurons it was possible to predict that a patient was about to move a finger with an accuracy of over 80 percent, a full 900 ms before the key was pressed (and 700 ms before the patients reported being aware of having decided to move). Note that 900 ms is more than enough time for the brain to execute a finger movement; for example, if you were asked to press a computer key as soon as you saw a flash of light, the delay between the flash and the key press would be <<around 300|18:1>> ms. Amazingly, these studies suggest that it was possible for the experimenters to know the person was about to press the key before the volunteer was aware he was going to press the key.",
           ],
           [
             1,

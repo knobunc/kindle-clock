@@ -1,11 +1,6 @@
 $VAR1 = [
           [
             1,
-            '[ap 01:20] Code - Charles Petzold.epub (OEBPS/ch04.html) - 120',
-            'Your home might be lit by 100-watt lightbulbs. These are designed for the 120 volts of your home. Thus, the current that flows through them is equal to 100 watts divided by <<120|3:0>> volts, or about 0.83 ampere. Hence, the resistance of a 100-watt lightbulb is 120 volts divided by 0.83 ampere, or 144 ohms.',
-          ],
-          [
-            1,
             '[ap ~ 01:44] Code - Charles Petzold.epub (OEBPS/ch05.html) - about 144',
             'Another solution is to increase the voltage and use lightbulbs with a much higher resistance. For example, a 100-watt lightbulb that lights a room in your house is designed to be used with 120 volts and has a resistance of <<about 144|18:0>> ohms. The resistance of the wires will then affect the overall circuitry much less.',
           ],
@@ -808,12 +803,7 @@ STO [<<1003h|1>>],ANotice that the destination (a memory location for the Store 
           [
             1,
             '[ap 05:25] Code - Charles Petzold.epub (OEBPS/ch18.html) - 5.25',
-            'For 7400 series TTL, VCC must be between 4.75 and <<5.25|5a:0>> volts. Another way of saying this is that the power supply voltage must be 5 volts plus or minus 5 percent. If the power supply is below 4.75 volts, the chip might not work. If it\'s higher than <<5.25|5a:0>>, the chip could be damaged. You generally can\'t use batteries with TTL; even if you were to find a 5-volt battery, the voltage wouldn\'t be exact enough to be adequate for these chips. TTL usually requires a power supply that you plug into the wall.',
-          ],
-          [
-            1,
-            '[ap 05:25] Code - Charles Petzold.epub (OEBPS/ch18.html) - 5.25',
-            "The power supply requirement for TTL is 4.75 to <<5.25|5a:0>> volts. For CMOS, it's anything from 3 volts to 18 volts. That's quite a leeway! Moreover, CMOS requires much less power than TTL, which makes it feasible to run small CMOS circuits from batteries. The drawback of CMOS is lack of speed. For example, the CMOS 4008 4-bit full adder running at 5 volts is only guaranteed to have a propagation time of 750 nanoseconds. It gets faster as the power supply gets higher\x{2014}250 nsec at 10 volts and 190 nsec at 15 volts. But the CMOS device doesn't come close to the TTL 4-bit adder, which has a propagation time of 24 nsec. (Twenty-five years ago, the trade-off between the speed of TTL and the low power requirements of CMOS was fairly clear cut. Today there are low-power versions of TTL and high-speed versions of CMOS.)",
+            'For 7400 series TTL, VCC must be between 4.75 and 5.25 volts. Another way of saying this is that the power supply voltage must be 5 volts plus or minus 5 percent. If the power supply is below 4.75 volts, the chip might not work. If it\'s higher than <<5.25|5a:0>>, the chip could be damaged. You generally can\'t use batteries with TTL; even if you were to find a 5-volt battery, the voltage wouldn\'t be exact enough to be adequate for these chips. TTL usually requires a power supply that you plug into the wall.',
           ],
           [
             1,

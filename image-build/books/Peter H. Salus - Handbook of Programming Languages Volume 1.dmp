@@ -1851,6 +1851,333 @@ G',
           ],
           [
             1,
+            '[ap 03:42] Handbook of Programming Languages Volume 1 - Peter H. Salus.epub (book-index_split_001.html) - 342',
+            'Java, 747, 749
+
+APIs, RMI, 780
+applets
+
+compiling, 789
+example, 786, 790
+Web page integration, 789-790
+
+arrays, 762, 791, 803, 806-808
+
+accessing elements from, 811
+arguments, declaring, 812-813
+copying, 805
+creating, 809
+destroying, 809
+multidimensional, 809-811
+variables, declaring, 812-813
+versus objects, 812
+
+bytecodes, 750, 782
+C++, 290, 869-870
+characteristics of, 778
+class files, 792
+class members
+
+access to, 796
+hiding, 862
+private, 859-862
+protected, 859-862
+public, 859-862
+
+classes, 749, 757, 778, 831-832
+
+abbreviating names with import statement, 796
+abstract classes, 863-865
+access to, 796
+directory paths, 794
+extending, 765, 847-848
+fields, 749, 757
+final classes, 848
+hierarchy, 849
+inheritance, 847
+instances, 749, 832
+interfaces, 769
+invoking methods from superclass, 767
+loading dynamically, 780
+main method, 750
+mapping, 798
+members, 792
+methods, 757
+Object, 849
+Point class, 757
+public, 795-796
+SecurityManager, 783
+subclasses, 765
+testing for frequency of use, 838
+type, 775
+utility, 775
+
+CLASSPATH environment variable, 794
+command-line arguments, 791, 794
+comments, 753, 797
+constants, 753
+
+defining, 797
+named, 753
+unicode characters, 754
+
+constructors, 834
+
+chaining, 850-851
+declaring, 835
+default constructors, 851-852
+defining, 835
+for subclasses, 849-850
+multiple, 835-837
+naming, 835
+
+data types, 830
+
+boolean, 802
+char, 802
+floating-point, 803
+integral, 802
+naming schemes, 830
+primitives, 801
+reference, 803, 806
+
+defined, 747
+digital signatures, 783
+directory paths, 792
+distribution, 780
+dynamic nature of, 780
+Eiffel, 546
+encapsulation, 858-859
+evolution, 747
+exception handling, 770-771, 782, 822-824
+exceptions, 782, 821
+
+catching, 821
+declaring, 824-825
+defining, 825-827
+generating, 825-827
+propagation, 821
+throwing, 821
+
+feature overview, 870-872
+Fibonacci sequence, 751
+fields, 792
+filenames, 792
+flow of control, 754
+
+blocks, 754
+if/else, 756
+
+forward references, 828
+garbage collection, 808, 844-845
+Gosling, James, 747
+Hello, World program, 750
+I/O, 775
+interfaces, 768, 865-866
+
+constants, 868
+extending, 769, 868
+implementing, 866-867
+marker interfaces, 869
+multiple, 867
+
+Internet compatibility, 780
+interpreted language environment, 779
+introduction of, 777
+just in time compilers, 784
+keywords
+
+final, 829
+native, 829
+new, 807
+super, 850
+synchronized, 784, 820, 829
+this, 836
+transient, 829
+void, 828
+volatile, 830
+
+loops, 754
+
+for, 755, 817
+while statement, 752
+
+macros, 798
+methods, 759, 790-792, 832
+
+abstract methods, 863-865
+accessing, 833
+class, 761
+class methods, 840-844
+Class.newInstance( ), 807
+clone( ), 805
+dynamic lookup, 856
+final methods, 855, 858
+finalizer methods, 852
+instance methods, 841-844
+interfaces, 768
+invoking, 760
+invoking from superclass, 767
+invoking overridden methods, 856-858
+main( ), 790
+mechanics of, 833-834
+overloading, 828, 836
+overriding, 854-855
+passing to one another, 830
+receiving object, 760
+returning multiple values, 760
+static, 761
+System.exit( ), 791
+System.getProperty( ), 791
+this reference, 761
+
+namespace issues, 792
+naming, 772
+null value, 806
+Oak, 747
+object-oriented programming, 778
+objects, 749, 757, 778, 803, 806, 830-832
+
+accessing, 807
+accessing data from, 833
+allocation, 757
+checking for equality, 805
+class fields, 758
+copying, 804
+creating, 807, 834
+destroying, 844-845
+fields, 758
+finalizing, 846-847
+garbage collection, 759
+heap, 757
+instantiation, 757
+memory allocation, 807
+null, 757
+passing by reference, 804
+references, 757
+relationship to classes, 832
+static fields, 758
+
+operators, 813-816
+
+% (remainder), 756
+++, 755
++=, 756
+--, 756
+
+packages, 772, 778, 793
+
+access to, 796
+naming schemes, 794-795
+
+parameters, 759
+performance of, 783
+platform independence, 774
+platform independence of, 779
+pointers, lack of, 781, 805
+portability, 774, 779
+primitives, 751
+programs
+
+compiling, 785
+compiling conditionally, 799
+components, 790
+critical sections, 819
+environment, 790
+Hello, World, 785
+invoking, 790
+returning values, 791
+running, 785
+structure, 790
+
+properties, looking up values for, 791
+robustness of, 781-782
+sandbox, 782
+security, 782-783
+simplicity of, 780
+Smalltalk comparison, 165
+speed of, 783
+statements, 816
+
+break, 818-819
+continue, 818-819
+do, 816
+else, 816
+for, 817
+if, 816
+import, 795-796, 820
+package, 795, 820
+switch, 817
+synchronized, 819
+try/catch/finally, 822
+while, 816
+
+string objects, 763
+strings, 803, 813
+system properties list, 791
+threads, 775, 784
+Unicode escape sequences, 799-800
+variables, 751
+
+class variables, 837-839
+constants, 839
+instance variables, 837
+local variables, 797, 827
+shadowed, 852-853
+static final, 798
+static variables, 837-838
+undefined, 752
+
+version 1.1, 777
+
+applet changes, 890-891
+AWT event model, 877-878
+cursor specification, 883
+cut-and-paste features, 880-881
+deprecated features, 878-879
+desktop color, 882
+Enterprise APIs, 890
+font treatments, 882
+image manipulation, 883
+inner classes, 877
+internationalization, 884-886
+JavaBeans, 888-889
+JDK utilities, 892
+keyboard focus traversal, 881-882
+lightweight components, 883
+menu shortcut features, 881
+new features, 872-873
+object serialization, 886-887
+package library, 873-876
+popup menu features, 881
+printing features, 879-880
+reflection, 887-888
+scrolling GUI components, 883
+
+C, compared, 790, 830-831
+C++, compared, 779, 790
+virtual machines, 750, 774
+visibility modifiers, 859-862
+
+Java Virtual Machine, 779
+Java.lang package, Thread classes, 784
+JavaBeans, Java 1.1, 888-889
+JAWS, ACE framework, middleware, 28
+JDK (Java Development Kit), 785, 892
+Jobs, Steve (Smalltalk), 69
+Johnson, Ralph (Smalltalk), 88
+Johnson, Steve (C with Classes), 224
+Joining Eiffel inheritance, 526
+Jordan, Mick (Modula-3), 665, 743
+journals, C++, 286
+jumps, C++, <<342|1a>>
+just in time compilers, Java, 784
+JVM (Java Virtual Machine), 779
+
+K',
+          ],
+          [
+            1,
             '[19:21] Handbook of Programming Languages Volume 1 - Peter H. Salus.epub (book-index_split_001.html) - 19-21',
             'Package statement, Java, 795, 820
 packages

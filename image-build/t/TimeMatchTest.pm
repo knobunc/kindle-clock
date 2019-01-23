@@ -969,7 +969,7 @@ sub get_csv_tests {
           [
             1,
             'Timestr [02:35]: 2.35',
-            'For what happened at <<2.35|3:0>> we have the testimony of the priest, a young, intelligent, and well-educated person; of Patrolman William J. Monohan of the Central Station, an officer of the highest reliability who had paused at that part of his beat to inspect the crowd.'
+            'For what happened at <<2.35|3:1>> we have the testimony of the priest, a young, intelligent, and well-educated person; of Patrolman William J. Monohan of the Central Station, an officer of the highest reliability who had paused at that part of his beat to inspect the crowd.'
           ],
           [
             1,
@@ -2582,7 +2582,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [08:28]: 8.28',
-            'And at <<8.28|9:0>> on the following morning, with a novel chilliness about the upper lip, and a vast excess of strength and spirits, I was sitting in a third-class carriage, bound for Germany, and dressed as a young sea-man, in a pea-jacket, peaked cap, and comforter.'
+            'And at <<8.28|9:1>> on the following morning, with a novel chilliness about the upper lip, and a vast excess of strength and spirits, I was sitting in a third-class carriage, bound for Germany, and dressed as a young sea-man, in a pea-jacket, peaked cap, and comforter.'
           ],
           [
             1,
@@ -2992,7 +2992,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [09:20]: 9.20',
-            'The following morning at <<9.20|3:0>> Mr Cribbage straightened his greasy old tie, combed his Hitler moustache and arranged the few strands of his hair across his bald patch.'
+            'The following morning at <<9.20|3:1>> Mr Cribbage straightened his greasy old tie, combed his Hitler moustache and arranged the few strands of his hair across his bald patch.'
           ],
           [
             1,
@@ -3712,7 +3712,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [11:30]: 11.30',
-            '\'It is now <<11.30|5a:0>>. The door to this room is shut, and will remain shut, barring emergencies, until <<12.00|9:0>>. I am authorised to inform you that we are now under battle orders.'
+            '\'It is now <<11.30|9f>>. The door to this room is shut, and will remain shut, barring emergencies, until <<12.00|9:1>>. I am authorised to inform you that we are now under battle orders.'
           ],
           [
             1,
@@ -3732,7 +3732,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [11:31]: 1131',
-            'Albatross 8 passed over Pamlico Sound at <<1131|3:0>> local time. Its on-board programming was designed to trace thermal receptors over the entire visible horizon, interrogating everything in sight and locking on any signature that fit its acquisition parameters.'
+            'Albatross 8 passed over Pamlico Sound at <<1131|1a>> local time. Its on-board programming was designed to trace thermal receptors over the entire visible horizon, interrogating everything in sight and locking on any signature that fit its acquisition parameters.'
           ],
           [
             1,
@@ -4042,7 +4042,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [12:15]: 12.15',
-            'What shall I think of that\'s liberating and refreshing? I\'m in the mood when I open my window at night and look at the stars. Unfortunately it\'s <<12.15|3:0>> on a grey dull day, the aeroplanes are active'
+            'What shall I think of that\'s liberating and refreshing? I\'m in the mood when I open my window at night and look at the stars. Unfortunately it\'s <<12.15|3:1>> on a grey dull day, the aeroplanes are active'
           ],
           [
             1,
@@ -5462,7 +5462,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [16:54]: 1654',
-            'It was <<1654|9d:1>> local time when the Red October broke the surface of the Atlantic Ocean for the first time, forty-seven miles southeast of Norfolk. There was no other ship in sight.'
+            'It was <<1654|1a>> local time when the Red October broke the surface of the Atlantic Ocean for the first time, forty-seven miles southeast of Norfolk. There was no other ship in sight.'
           ],
           [
             1,

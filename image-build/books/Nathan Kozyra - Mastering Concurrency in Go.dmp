@@ -89,11 +89,6 @@ func main() {
           ],
           [
             1,
-            '[ap 04:11] Mastering Concurrency in Go - Nathan Kozyra.epub (text/part0055_split_002.html) - 411',
-            'The results are certainly encouraging as compared to Apache. Neither of our test systems were tweaked much (Apache as installed and basic FileServer in Go), but Go\'s FileServer handles 1,000 concurrent connections without so much as a blip, with the slowest clocking in at <<411|3:0>> ms.',
-          ],
-          [
-            1,
             '[ap 07:55] Mastering Concurrency in Go - Nathan Kozyra.epub (text/part0078_split_005.html) - 0755',
             'package main
 
