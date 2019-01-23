@@ -67,9 +67,6 @@ sub load_times {
 
         my $cnt = 0;
         foreach my $ts (map {$_->[2]} @$matches) {
-            my $clean_string = $ts;
-            $clean_string =~ s{<< (?<tb>[^|>]+) [|] (?<type> \d+ \w? (: \d)? ) >>}{$+{tb}}gx;
-
             # Loop over the matches
             while ($ts =~ m{<< (?<tb>[^|>]+) [|] (?<type> \d+ \w? (: \d)? ) >>}gx) {
                 my $time_bit = $+{tb};
@@ -90,11 +87,11 @@ sub load_times {
                     or die "Can't parse '$time' in '$ff'";
                 my ($a, $r, $t) = @+{qw( a r t )};
 
-                push @{ $times{$t} }, [$a, $r, $time_bit, $clean_string, $fbook, $fauthor, $type];
+                push @{ $times{$t} }, [$a, $r, $time_bit, $ts, $fbook, $fauthor, $type];
                 if ($a) {
                     my ($h, $m) = split /:/, $t;
                     $t = $h+12 . ":$m";
-                    push @{ $times{$t} }, [$a, $r, $time_bit, $clean_string, $fbook, $fauthor, $type];
+                    push @{ $times{$t} }, [$a, $r, $time_bit, $ts, $fbook, $fauthor, $type];
                 }
                 $cnt++;
             }

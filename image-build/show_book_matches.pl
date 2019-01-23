@@ -15,6 +15,7 @@ use Term::Size;
 use lib '.';
 
 use TimeMatch;
+use Process;
 
 
 exit main(@ARGV);
@@ -96,7 +97,7 @@ sub main {
             # Pad the ampm if there is nothing between it and the time
             (my $tc = $time) =~ s{^(ap) (\d)}{$1   $2};
 
-            printf("%s%10s%s %s%3s%s %s%s%s%s%s %s%s%s %s%s%s\n",
+            printf("%s%10s%s %s%3s%s %s%s%s%s%s %s%6s%s %s%-6s%s\n",
                    color('bold blue'), $tc,      color('reset'),
                    color($type_color), $cat,     color('reset'),
                    elide($pre, $pre_len, {truncate => 'left'}),
@@ -109,27 +110,6 @@ sub main {
     }
 
     return 0;
-}
-
-
-sub make_shorts {
-    my ($author, $book) = @_;
-
-    # Take the last word of the author, ignoring Jr. or Sr.
-    $author =~ s{_}{}g;
-    $author =~ s{\s+ \( [^)]+ \) \z}{}x;
-    $author =~ m{(?<au> ( (von|van|de|du|st\.|saint|le|la) \s)* [-\w]+ ) ( \s (Jr | Sr) \. )? \z}xin
-        or die "Can't shorten '$author'";
-    $author = $+{au};
-
-    # Take the first meaningful word of the book
-    $book =~ s{_}{}g;
-    $book =~ s{\s+ \( [^)]+ \) \z}{}x;
-    $book =~ m{\A ( (the|in|a|an|what|for|on) \s )* (?<bo> [-\w]+) }xin
-      or die "Can't shorten book '$book'";
-    $book = $+{bo};
-
-    return($author, $book);
 }
 
 sub time_sort {

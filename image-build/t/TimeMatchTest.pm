@@ -2484,7 +2484,7 @@ sub get_csv_tests {
           [
             1,
             'Timestr [08:09]: 8:09',
-            'He followed the squeals down a hallway. A wall clock read <<8:09|2>> - <<10:09|2>> Dallas time.'
+            'He followed the squeals down a hallway. A wall clock read <<8:09|2>> - <<10:09|1a>> Dallas time.'
           ],
           [
             1,
@@ -4772,7 +4772,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [15:00]: three',
-            'At <<three|3d>> on the Wednesday afternoon, that bit of the painting was completed.'
+            'At <<three|9a>> on the Wednesday afternoon, that bit of the painting was completed.'
           ],
           [
             1,

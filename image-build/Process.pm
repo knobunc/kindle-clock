@@ -10,12 +10,13 @@ BEGIN {
 }
 
 use Exporter::Easy (
-  EXPORT => [ qw( print_matches) ],
+  EXPORT => [ qw( print_matches make_shorts ) ],
 );
 
 use Carp;
 use File::Slurper qw( read_binary );
 use JSON;
+use List::Util qw( min max );
 use String::Elide::Parts qw(elide);
 use Term::ANSIColor qw( color colorstrip );
 use Term::Size;
@@ -32,6 +33,8 @@ sub print_matches {
     my $awards = load_awards();
 
     my @types = qw( <<  <  ~  -  +  >  >> );
+
+    my ($columns) = Term::Size::chars();
 
     foreach my $hr (0 .. 23) {
         foreach my $mn (0 .. 59) {
@@ -74,28 +77,64 @@ sub print_matches {
             foreach my $i (0..($limit-1)) {
                 last if $i >= @$sorted;
                 my ($a, $r, $timestr, $quote, $title, $author, $type) = @{ $sorted->[$i] };
-                $timestr =~ s{[\n\t]}{ }g;
-                $timestr =~ s{\s\s+}{ }g;
-                $timestr =~ s{^\s+}{};
-                $timestr =~ s{\s+$}{};
+
+                # Pull the preamble and postamble
+                my ($pre, $post);
+                if ($type) {
+                    $quote =~ m{<<\Q$timestr\E\|$type>>}p
+                        or die "Can't find match for '$timestr|$type' in '$quote'";
+                    ($pre, $post) = (${^PREMATCH}, ${^POSTMATCH});
+                }
+                else {
+                    $quote =~ m{\Q$timestr\E}p
+                        or die "Can't find match for '$timestr' in '$quote'";
+                    ($pre, $post) = (${^PREMATCH}, ${^POSTMATCH});
+                }
+
+                # Pull the matches from the previous and clean up the strings
+                foreach my $s (\$pre, \$timestr, \$post) {
+                    $$s =~ s{<< (?<tb>[^|>]+) [|] (?<type> \d+ \w? (: \d)? ) >>}{$+{tb}}gx;
+                    $$s =~ s{[\n\t]}{ }g;
+                    $$s =~ s{\s\s+}{ }g;
+                }
 
                 my $award = $awards->{$author}{$title};
                 die "No awards entry for '$author' '$title'"
                     unless defined $award;
 
-                my ($type_str, $type_col) = ($type // '', 'bold green');
+                my ($type_str, $type_color) = ($type // '', 'bold green');
                 if ($type_str =~ s{:(\d+)\z}{}) {
                     if ($1 eq '0') {
-                        $type_col = 'bold red';
+                        $type_color = 'bold red';
                     }
                 }
+
+                my ($s_auth, $s_title) = make_shorts($author, $title);
 
                 my $w = $award ? "*" : '';
                 $r //= defined $a ? ''  : 'E';
                 $a   = defined $a ? 'A' : '';
-                printf("  %s%3s%s %1s%1s%2s %-37.37s %20.20s | %-20.30s\n",
-                       color($type_col), $type_str // '', color('reset'),
-                       $w, $a, $r, elide('"'.$timestr.'"', 37), $author, $title);
+
+                # Work out the size remaining
+                my $fixed_size = 2 + 3 + 1 + 1 + 1 + 2 + 1 + 0 + 1 + 8 + 1 + 8;
+                my $rem = $columns - $fixed_size - length($timestr);
+                my $pre_len  = min(length($pre), int($rem / 2 + 0.5));
+                my $post_len = $rem - $pre_len;
+                if (length($post) < $post_len) {
+                    $pre_len += $post_len - length($post);
+                    $post_len = length($post);
+                }
+                $post .= ' 'x( max($post_len - length($post), 0) );
+
+                printf("  %s%3s%s %1s%1s%2s %s%s%s%s%s %s%8s%s %s%-8s%s\n",
+                       color($type_color), $type_str // '', color('reset'),
+                       $w, $a, $r,
+                       elide($pre, $pre_len, {truncate => 'left', marker => '…'}),
+                       color($type_color), $timestr, color('reset'),
+                       elide($post, $post_len, {marker => '…'}),
+                       color('bold blue'), elide($s_auth,  8, {marker => '…'}), color('reset'),
+                       color('blue'),      elide($s_title, 8, {marker => '…'}), color('reset'),
+                      );
             }
             print "            ..."
                 if @$sorted > $limit;
@@ -202,6 +241,26 @@ sub sort_matches {
 
 
     return [ map { $_->[4] } @sorted ];
+}
+
+sub make_shorts {
+    my ($author, $book) = @_;
+
+    # Take the last word of the author, ignoring Jr. or Sr.
+    $author =~ s{_}{}g;
+    $author =~ s{\s+ \( [^)]+ \) \z}{}x;
+    $author =~ m{(?<au> ( (von|van|de|du|st\.|saint|le|la) \s)* [-\w]+ ) ( \s (Jr | Sr) \. )? \z}xin
+        or die "Can't shorten '$author'";
+    $author = $+{au};
+
+    # Take the first meaningful word of the book
+    $book =~ s{[_']}{}g;
+    $book =~ s{\s+ \( [^)]+ \) \z}{}x;
+    $book =~ m{\A ( (the|in|a|an|what|for|on) \s )* (?<bo> [-\w]+) }xin
+      or die "Can't shorten book '$book'";
+    $book = $+{bo};
+
+    return($author, $book);
 }
 
 1;

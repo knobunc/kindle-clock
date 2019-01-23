@@ -79,7 +79,7 @@ my $after_re  = qr{ after | past }xin;
 my $till_re   = qr{ $before_re | $after_re }xin;
 
 # TODO Add 'only', 'just' to twas_re?
-my $twas_re = qr{ ( it | time | which ) \s+ ( is | was | will \s+ be )
+my $twas_re = qr{ ( it | time | which ) \s+ ( is ( \s+ now )? | was | will \s+ be )
                 | $sq? ( twas | tis ( \s+ now )? | till | twill \s+ be )
                 | it $sq s ( \s+ now )?
                 }xin;
@@ -114,7 +114,7 @@ my $sec_word_re = $min_word_re;
 
 # Hour digits
 my $hour_dig_re     = qr{ [01]?\d | 2[0-4] }xin;       # 0 or 00-24
-my $hour0_dig_re    = qr{ [01]?\d | 2[0-4] }xin;       # 00-24
+my $hour0_dig_re    = qr{ [01]\d  | 2[0-4] }xin;       # 00-24
 my $hour12_dig_re   = qr{ [1-9] | 1[0-2] }xin;         # 1-12
 my $hour24nz_dig_re = qr{ 0?[1-9] | 1\d | 2[0-4] }xin; # 1 or 01-24
 my $hour_h_dig_re   = qr{ 1[3-9] | 2[0-4] }xin;        # 13-24
@@ -197,7 +197,7 @@ my $at_words        = qr{ until | at }xin;
 my $rel_at_words    = qr{ $at_words | $rel_words | before }xin;
 
 # Weekdays
-my $weekday_re = qr{ monday | tuesday | wendesday | thursday | friday | saturday | sunday }xin;
+my $weekday_re = qr{ monday | tuesday | wednesday | thursday | friday | saturday | sunday }xin;
 
 # Bible books
 my $bible_book_re = qr{ Acts | Amos | Baruch | [12] \s+ Chronicles | Colossians
@@ -346,7 +346,7 @@ my $state_re = qr{
 # The months
 my $month_re = qr{ January | February | March | April | May | June
                  | July | August | September | October | November | December
-                 | (Jan | Feb | Mar | Apr | May | Jun | Jul | Aug | Sep | Sept | Oct | Nov | Dec )\.?
+                 | (Jan | Feb | Mar | Apr | May | Jun | Jul | Aug | Sep | Sept | Oct | Nov | Dec ) \.?
                  }xin;
 my $special_day_re = qr{ Christmas | Easter | New \s+ Year s? }xin;
 
@@ -372,7 +372,8 @@ my $never_follow_times_exp_re =
         | degrees | °
         | per\s*cent | %
         | centimeter | cm | meter | kilometer | km | klick | millimeter | mm | acre
-        | centimetre | metre | kilometre | watt | sol
+        | centimetre | metre | kilometre | watt | sol | au
+        | mph | \Qm.p.h.\E | kmh | k?m/s | millisecond | ms | volt | amp | decibel | hertz | carat
         | inch | inches | foot | feet | ft | yard | yd | mile | mi | knot | kt | block
         | pound | lb | kilogram | kg | kilo | ton | tonne | kiloton  | gram | ounce | oz
         | cup | pint | quart | gallon
@@ -400,7 +401,7 @@ my $never_follow_times_exp_re =
         | on \s+ the \s+ field
         | ( tb | gb | mb | kb ) (p)? | baud
         | odds | more
-        | AD | CE | BC | BCE | A\.D\. | C\.E\. | B\.C\. | B\.C\.E\.
+        | AD | CE | BC | BCE | A\.D\. | C\.E\. | B\.C\. | B\.C\.E\. | B \s+ C | A \s+ D
         | giant | tiny | large | small
         | of \s+ them
         )
@@ -466,6 +467,7 @@ sub do_match {
                   | give \s+ (you | odds)
                   | (good | bad | the) \s+ odds
                   | on \s+ the \s+ field
+                  | come \s+ in \s+ (\w+ \s+)? at
                   ) \b
              }xin;
 
@@ -547,7 +549,7 @@ sub do_match {
     # These are relative to other time strings
     $line =~ s{\b (?<pr> ( from | between | at ) \s+ )
                   (?<t1> $hour_re ( \s+ $min_re )? )?
-                  (?<po> \s+ ( or | and ) \s+ << )
+                  (?<po> \s+ ( or | and | until ) \s+ << )
               }{$+{pr}<<$+{t1}|20>>$+{po}}xing;
 
     return $line;
@@ -705,6 +707,7 @@ sub get_masks {
                   | crescent
                   | boulevard | blvd | bvd
                   | north | south | east | west
+                  | lane | cottages?
                   )
                 )
                 $ba_re
@@ -1082,16 +1085,37 @@ sub get_matches {
                 (?{ $branch = "1"; })
               }xin;
 
-    # 2300 GMT, 2300z
+    # Separators are mandatory, and it needs am/pm
+    # 5.06 a.m.
+    push @r,qr{ (?<li> $not_in_match )
+                (?<t1>
+                  ( $rel_words \s+ )?
+                  $hour12_dig_re [.:] $minsec_dig_re
+                )
+                ( (?<t2> $ampm_ph_re )
+                | (?<po> ( [.:] $minsec_dig_re )? $ampm_ph_re )
+                )
+                (?{ $branch = "2a"; })
+              }xin;
+
+    # 2300 GMT, 2300z, 1131 local time
     # Sounded out digits
     #  zero eight zero zero
     #  oh eight oh oh
     push @r,qr{ $bb_re
                 (?<t1> ( $rel_words \s+ )?
-                 ( $hour_dig_re [.:]? $minsec0_dig_re )
+                 ( ( $hour0_dig_re | $hour_dig_re )
+                   [.:]?
+                   $minsec0_dig_re )
                 )
-                (?<po> ( [.:]? $minsec_dig_re ( - $minsec_dig_re )? )?
-                  ( z | \s* ( gmt | zulu ) )
+                (?<po>
+                  ( [.:]? $minsec_dig_re ( - $minsec_dig_re )? )?
+                  ( z
+                  | \s* ( gmt | zulu
+                        | (?-i: [A-Z]\w* \s+){1,2} time
+                        | ( local | my | your | their | his | her | our | ship ) \s+ time
+                        )
+                  )
                 )
                 $ba_re
                 (?{ $branch = "1a"; })
@@ -1104,19 +1128,6 @@ sub get_matches {
                 )
                 $ba_re
                 (?{ $branch = "1b"; })
-              }xin;
-
-    # Separators are mandatory, and it needs am/pm
-    # 5.06 a.m.
-    push @r,qr{ (?<li> $not_in_match )
-                (?<t1>
-                  ( $rel_words \s+ )?
-                  $hour12_dig_re [.:] $minsec_dig_re
-                )
-                ( (?<t2> $ampm_ph_re )
-                | (?<po> ( [.:] $minsec_dig_re )? $ampm_ph_re )
-                )
-                (?{ $branch = "2a"; })
               }xin;
 
     # : Means it's a time
@@ -1549,7 +1560,7 @@ sub get_matches {
                 )
                 (?<t1>
                   ( $rel_at_words | close \s+ upon | till | by ) \s+
-                  ( (?<xx> $hour24_re ( [-:.] | \s+ )? $min0_re )
+                  ( (?<xx> $hour24_re (?<sep> [-:.] | \s+ )? $min0_re )
                   | One \s* (*SKIP)(*FAIL)
                   | $hour_re
                   )
@@ -1557,8 +1568,13 @@ sub get_matches {
                 (?! $never_follow_times_re | : \d )
                 $ba_re
                 (?{ $branch = "9:TIMEY";
-                    if (is_yearish($+{xx})) {
+                    my ($xx, $sep) = ($+{xx}, $+{sep});
+                    if (is_yearish($xx)) {
                         $branch = "9n:0";
+                    }
+                    elsif ($sep and $xx !~ /[a-z]/i) {
+                        # We had a separator and digits (12.30)
+                        $branch = "9:1";
                     }
                   })
               }xin;
@@ -1628,10 +1644,13 @@ sub get_matches {
                   ( \z | $phrase_punc? $aq | $phrase_punc ( \s+ | \z ) | \s+ $hyph+ \s+)
                 )
                     (?{ $branch = "9k:0";
-                        if ( ( $+{po} || '' ) =~ /now/i ) {
+                        my ($pr, $po, $t1) = @+{qw( pr po t1 )};
+                        if ( ( $po // '' ) =~ /now/i or
+                             ( $pr // '' ) =~ /now/i )
+                        {
                             $branch = "9q";
                         }
-                        elsif ($+{t1} =~ /$rel_words/i) {
+                        elsif ($t1 =~ /$rel_words/i) {
                             $branch = "9k:TIMEY";
                         }
                         elsif ($is_timey) {
@@ -1654,12 +1673,16 @@ sub get_matches {
                 )
                 (?<t1>
                   ( $rel_words \s+ )?
-                  ( $hour12_dig_re [.]? | $hour24_dig_re [.] )
+                  ( $hour12_dig_re (?<sep> [.])? | $hour24_dig_re (?<sep> [.]) )
                     $minsec0_dig_re
                 )
                 (?! $never_follow_times_re )
                 $ba_re
-                (?{ $branch = "3:TIMEY"; })
+                (?{ $branch = "3:TIMEY";
+                    if ($+{sep}) {
+                        $branch = "3:1";
+                    }
+                  })
               }xin;
 
     # Untrustworthy times... need an indication that it is a time, not just some number
@@ -1678,6 +1701,45 @@ sub get_matches {
                 )
                 (?<po> \s+ on \s+ )
                 (?{ $branch = "3a:TIMEY"; })
+              }xin;
+
+    # Bare hour (1-12) numbers or words but with a strong time indication
+    # ... at nine ...
+    my $def_re = qr{ he | she | they | we
+                   | exactly | precisely
+                   | $weekday_re
+                   }xin;
+    push @r,qr{ (?<li> $not_in_match
+                       ( (?<tm> morning | afternoon | evening | night
+                         | awoke | woke | arose | rose | dressed | dined
+                         | $weekday_re
+                         ) \s+
+                         ( \w+ly \s+ )?  # An adverb
+                       )?
+                )
+                (?<pr> $at_words \s+ )
+                (?<t1>
+                  (?<rel> $rel_words \s+ )?
+                  (?<hh> $hour12_re )
+                )
+                (?<po> \s+ (?<sub> $def_re | (?-i: [A-Z][a-z]+) ) \s+ )
+                (?{ $branch = "3e:TIMEY";
+                    my ($hh, $sub, $tm, $rel) = @+{qw( hh sub tm rel )};
+                    if ($sub =~ m{\A $def_re \z}xin) {
+                        $branch = "3f";
+                    }
+                    elsif ($tm) {
+                        $branch = "3g";
+                    }
+                    elsif ($rel) {
+                        $branch = "3h";
+                    }
+                    elsif ($hh  =~ m{\A [A-Z][a-z]+ \z}xn or
+                           $sub =~ m{\A ( $month_re | $special_day_re ) \z}xn)
+                    {
+                        $branch = "xx";
+                    }
+                  })
               }xin;
 
     # Between, as I was saying, the hours of twelve and twelve five
