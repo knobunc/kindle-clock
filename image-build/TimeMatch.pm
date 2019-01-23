@@ -419,6 +419,7 @@ my $branch      = "x";
 my $is_timey    = 0;
 my $is_racing   = 0;
 my $is_trainy   = 0;
+my $is_pricey   = 0;
 my $last_masked = 0;
 my $last_timey  = 0;
 
@@ -478,6 +479,14 @@ sub do_match {
                   ) \b
              }xin;
 
+    ## Does this look like a price paragraph?
+    my $is_pricey = 0;
+    $is_pricey = 1
+        if $line =~
+            m{ \b ( job | work | cost | price | cheap | amount ) \b
+             }xin;
+
+
     ## Mask out some patterns and apply them first
     my ($masks) = get_masks();
 
@@ -498,7 +507,7 @@ sub do_match {
                     $last_masked = ( $new[-1] // '' ) =~ $masked_re ? 1 : 0;
                     $last_timey  = ( not $last_masked and ($new[-1] // '') =~ $timey_re ) ? 1 : 0;
 
-                    if ($part =~ m{$r}p) {
+                    if ($part =~ m{$r}p and $branch ne 'xx') {
                         my $match =
                                 sprintf("%s<<%s%s|%s>>%s",
                                     map { defined ? $_ : "" }
@@ -622,15 +631,24 @@ sub get_masks {
               }xin;
 
     # Bible quotes
-    push @r,qr{ (?<pr> \b $bible_book_re ,? \s+ )
+    push @r,qr{ (?<pr> \b (?<bb> $bible_book_re ) ,? \s+ )
                 (?<t1>
                      \d+ : \d+ ( - \d+ | - \d+ : \d+ )?
                 | \( \d+ : \d+ ( - \d+ | - \d+ : \d+ )? \)
                 | \[ \d+ : \d+ ( - \d+ | - \d+ : \d+ )? \]
-                | $min_word_re [-\s]+ $min_word_re
+                | (?<wb> $min_word_re [-\s]+ $min_word_re )
                 | [cxvli]+ \.? \s+ \d+ (\. \d+)?
                 )
-                (?{ $branch = "x5"; })
+                (?{ $branch = "x5";
+                    my ($bb, $wb) = ($+{bb}, $+{wb});
+                    if ($bb !~ m{^([12] \s+)? [A-Z]}xin or
+                        ($bb =~ m{^\w+ \. }xin and $wb))
+                    {
+                        # Bible books must start with a capital letter
+                        # Or if they have spelled out verses, must not be abbreviated
+                        $branch = "xx";
+                    }
+                  })
               }xin;
 
     # age of twenty-four, aged twenty-four
@@ -1706,7 +1724,7 @@ sub get_matches {
                 |  $hyph+
                 )
                 $ba_re
-                (?{ $branch = "5k:1";
+                (?{ $branch = $is_pricey ? "5k:TIMEY" : "5k:1";
                     my ($rl, $hr, $mn) = ($+{rl}, $+{hr}, $+{mn});
                     if ($mn =~ m{\A $low_num_re \z}xin) {
                         if ($is_trainy) {
