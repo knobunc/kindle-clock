@@ -17,7 +17,7 @@ $VAR1 = [
           [
             1,
             '[16:50] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_011.html) - Ten of 17',
-            "Likewise, say you invented a MailingAddress class in GSD\x{2019}s accounting module, and you named it GSDAccountAddress. Later, you need a mailing address for your customer contact application. Do you use GSDAccountAddress? Does it sound like the right name? <<Ten of 17|10>> characters are redundant or irrelevant.",
+            "Likewise, say you invented a MailingAddress class in GSD\x{2019}s accounting module, and you named it GSDAccountAddress. Later, you need a mailing address for your customer contact application. Do you use GSDAccountAddress? Does it sound like the right name? <<Ten of 17|10b:0>> characters are redundant or irrelevant.",
           ],
           [
             1,
