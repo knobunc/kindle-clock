@@ -5617,12 +5617,12 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [17:20]: around 1720',
-            'The Meeting was listed as starting at <<1730|9g>>, and it was only <<around 1720|9c:0>>, and Hal thought the voices might signify some sort of pre-Meeting orientation for people who\'ve come for the first time, sort of tentatively, just to scout the whole enterprise out, so he doesn\'t knock.'
+            'The Meeting was listed as starting at <<1730|9g:1>>, and it was only <<around 1720|9c:0>>, and Hal thought the voices might signify some sort of pre-Meeting orientation for people who\'ve come for the first time, sort of tentatively, just to scout the whole enterprise out, so he doesn\'t knock.'
           ],
           [
             1,
             'Timestr [17:21]: around 1720',
-            'The Meeting was listed as starting at <<1730|9g>>, and it was only <<around 1720|9c:0>>, and Hal thought the voices might signify some sort of pre-Meeting orientation for people who\'ve come for the first time, sort of tentatively, just to scout the whole enterprise out, so he doesn\'t knock.'
+            'The Meeting was listed as starting at <<1730|9g:1>>, and it was only <<around 1720|9c:0>>, and Hal thought the voices might signify some sort of pre-Meeting orientation for people who\'ve come for the first time, sort of tentatively, just to scout the whole enterprise out, so he doesn\'t knock.'
           ],
           [
             1,

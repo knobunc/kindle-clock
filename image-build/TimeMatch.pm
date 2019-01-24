@@ -455,6 +455,7 @@ sub do_match {
                   | ( there | here ) \s+ from
 #                  | ( return | returned | back ) \s* $rel_at_words
                   | reported | reports
+                  | (starts | starting | begins | commences) \s+ at
                   ) \b
              }xin;
 
@@ -956,11 +957,12 @@ sub get_matches {
                    (?<t1> ( $rel_words \s+ )?
                      (?<hm> $hour24_re ( [-.:\s]* $min0_re )? )
                      (?! $never_follow_times_re )
-                     ( $ampm_ph_re )?
+                     (?<ap> $ampm_ph_re )?
                    )
                    $ba_re
                 (?{ $branch = "9g";
-                    if (is_yearish($+{hm})) {
+                    if (not $+{ap} and is_yearish($+{hm})) {
+                        # If we didn't get an ampm and it looks like a year loosen it
                         $branch = "9g:TIMEY";
                     }
                   })
@@ -1632,6 +1634,10 @@ sub get_matches {
                     elsif (defined $mm and is_yearish($hh.$mm)) {
                         # Weaken it if it looks like a year
                         $branch = "9c:0";
+                    }
+                    elsif (not defined $mm and $hh =~ /^00?$/) {
+                        # Just 0s don't work as bare hours
+                        $branch = "xx";
                     }
                   })
               }xin;
