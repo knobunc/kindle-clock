@@ -2079,7 +2079,7 @@ sub get_csv_tests {
           [
             1,
             'Timestr [06:50]: six-fifty',
-            "Will, my fianc\x{e9}, was coming from Boston on the <<six-fifty|5k:1>> train - the dawn train, the only train that still stopped in the small Ohio city where I lived."
+            "Will, my fianc\x{e9}, was coming from Boston on the <<six-fifty|5f>> train - the dawn train, the only train that still stopped in the small Ohio city where I lived."
           ],
           [
             1,

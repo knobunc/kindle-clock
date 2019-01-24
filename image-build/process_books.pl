@@ -88,7 +88,8 @@ sub load_times {
                 my ($a, $r, $t) = @+{qw( a r t )};
 
                 push @{ $times{$t} }, [$a, $r, $time_bit, $ts, $fbook, $fauthor, $type];
-                if ($a) {
+                if ($a and not $only_type) {
+                    # Add in a pm record if needed
                     my ($h, $m) = split /:/, $t;
                     $t = $h+12 . ":$m";
                     push @{ $times{$t} }, [$a, $r, $time_bit, $ts, $fbook, $fauthor, $type];

@@ -19,7 +19,7 @@ my $phrase_punc    = qr{ [.;:?!,] | $ellips   }xin; # Phrase delimiter
 my $phrase_punc_nc = qr{ [.;:?!]  | $ellips   }xin; # Same, but with no comma
 my $sq             = qr{ ['‘’´]               }xin; # Single quote
 my $aq             = qr{ ['"‘’“”]             }xin; # All quotes
-my $hyph           = qr{ [-—]                 }xin; # Hyphens
+my $hyph           = qr{ [-—–]                }xin; # Hyphens
 
 # Times of day
 my $morn_re    = qr{ ( (late | early) \s+)?
@@ -360,7 +360,9 @@ my $never_follow_times_exp_re =
           | to \s+ the
           ) \s+
         )?
-        ( $min_re - )?                                    # Things like six-inch
+        ( $min_re $hyph )?                                    # Things like six-inch
+        ( $hyph   \d+   )?                                    # 400-600F
+        ( \s+ (and|or|to) \s+ \d+ )?                          # 400 or 500 miles
 
         ( and \s+ a \s+ (half | quarter | third) \s+ (to \s+ $low_num_re \s+)?
         | \d+ / \d+ \s+
@@ -368,16 +370,18 @@ my $never_follow_times_exp_re =
         ( # SI prefixes
           milli | centi | kilo | mega | giga
         )?
+
         ( with | which | point | time | moment | instant | end | stage | of | who
         | heartbeat
         | after | since
-        | degrees | °
+        | degrees | [°º] [FCK]?
         | per\s*cent | %
         | cm | meter | km | klick | mm | acre
         | metre | watt | sol | au
-        | mph | \Qm.p.h.\E | kmh | k?m/s | millisecond | ms | volt | amp | decibel | hertz | carat
-        | gauss | gev | giga-electron \s+ volts | joule | parsec
-        | inch | inches | foot | feet | ft | yard | yd | mile | mi | knot | kt | block
+        | mph | \Qm.p.h.\E | kmh | k?m/s | millisecond | ms | volt | v | amp | decibel | hertz | carat
+        | gauss | gev | giga-electron \s+ volts | ev | joule | parsec
+        | inch | inches | foot | feet | ft | yard | yd
+        | (nautical \s+)? mile | mi | knot | kt | block
         | pound | lb | kg | kilo | ton | tonne | gram | ounce | oz
         | cup | pint | quart | gallon
         | tablespoon | tbsp | teaspoon | tsp
@@ -405,7 +409,7 @@ my $never_follow_times_exp_re =
         | ( tb | gb | mb | kb ) (p)? | baud
         | odds | more
         | AD | CE | BC | BCE | A\.D\. | C\.E\. | B\.C\. | B\.C\.E\. | B \s+ C | A \s+ D
-        | giant | tiny | large | small
+        | giant | tiny | large | small | layer
         | of \s+ them
         )
         s?
@@ -424,6 +428,7 @@ my $is_timey    = 0;
 my $is_racing   = 0;
 my $is_trainy   = 0;
 my $is_pricey   = 0;
+my $is_agey     = 0;
 my $last_masked = 0;
 my $last_timey  = 0;
 
@@ -480,18 +485,24 @@ sub do_match {
     $is_trainy = 0;
     $is_trainy = 1
         if $line =~
-            m{ \b ( train | station
+            m{ \b ( train | station | night \s+ mail
                   | Waterloo
                   ) \b
              }xin;
 
     ## Does this look like a price paragraph?
-    my $is_pricey = 0;
+    $is_pricey = 0;
     $is_pricey = 1
         if $line =~
-            m{ \b ( job | work | cost | price | cheap | amount ) \b
+            m{ \b ( cost | price | cheap | amount ) \b
              }xin;
 
+    ## Does this look like an age paragraph
+    $is_agey = 0;
+    $is_agey = 1
+        if $line =~
+            m{ \b (young | small ) \s+ (girl | boy | child | teen) \b
+             }xin;
 
     ## Mask out some patterns and apply them first
     my ($masks) = get_masks();
@@ -623,11 +634,14 @@ sub get_masks {
     # two by two
     # 1, for one, am sick of it.
     # nine-to-five
+    # ten-four
+    # 401(k), 401k
     push @r,qr{ (?<pr> \A | \s+ )
                 (?<t1> one \s+ of \s+ $min_re
                 |      $min_re ,? \s+ by \s+ $min_re
                 |      I ,? \s+ for \s+ one ,? \s+ am
                 |      nine [-\s]+ to [-\s]+ five
+                |      ten-four
                 )
                 (?! $ampm_ph_re
                 |      \s* $oclock_re
@@ -712,6 +726,8 @@ sub get_masks {
                   | boulevard | blvd | bvd
                   | north | south | east | west
                   | lane | cottages?
+                  | place | pl
+                  | headquarters | hq
                   )
                 )
                 $ba_re
@@ -726,6 +742,9 @@ sub get_masks {
                 $ba_re
                 (?{ $branch = "x10"; })
               }xin;
+
+    # XXX Lat / Long?
+    # "dropped into south Indian Ocean at 350 E., 600 S.,"
 
     # Things that look like times but have high hours
     # Eighteen to twenty
@@ -783,8 +802,9 @@ sub get_masks {
 
     # Phone number things
     push @r,qr{ $bb_re
-                (?<t1>
-                  ( \( \d{3} \) | \d{3} ) [-/\s]* \d{3} [-/\s]* \d{4}
+                (?<t1> (?-i)
+                  ( ( \( \d{3} \) | \d{3} ) [-/\s]* )?
+                  \d{3} [-/\s]* [\dA-Z]{4}
                 )
                 $ba_re
                 (?{ $branch = "x16"; })
@@ -1032,15 +1052,22 @@ sub get_matches {
     # on the 1237
     push @r,qr{ (?<li> $not_in_match )
                 (?<pr> ( on \s+ the
-                       |  here \s+ at
+                       | here \s+ at
                        ) \s+
                 )
                 (?<t1> ( $hour12_dig_re [.]? | $hour24_dig_re [.] )
                        $minsec0_dig_re
+                       $ampm_ph_re?
                 )
                 (?! [-.] | $never_follow_times_re )
                 $ba_re
-                (?{ $branch = "3c"; })
+                (?{ $branch = "3c";
+                    my ($t1) = @+{qw( t1 )};
+                    if ($t1 =~ m{\A \d\d\d \z}xin) {
+                        # Three digit numbers are too loose, let it fall through
+                        $branch = "xx";
+                    }
+                  })
               }xin;
 
     # 13 hours and 6 minutes
@@ -1196,9 +1223,14 @@ sub get_matches {
                 )
                 $ba_re
                 (?{ $branch = "3b";
-                    my $po = $+{po};
-                    if (is_yearish($+{t2}) and $po =~ m{\A \s+ when }xin) {
-                        $branch = "3b:TIMEY";
+                    my ($t2, $po) = @+{qw( t2 po )};
+                    if (not $is_trainy and $po =~ m{\A \s+ when }xin) {
+                        if (is_yearish($+{t2}) and
+                            $t2 =~ m{\A 2[123]\d\d \z}xin     # Allow yearish things that are big
+                           )
+                        {
+                            $branch = "3b:0";
+                        }
                     }
                   })
               }xin;
@@ -1385,11 +1417,14 @@ sub get_matches {
 
     # at a four-thirty screening
     push @r,qr{ (?<li> $not_in_match )
-                (?<pr> ( at \s+ a ) \s+ )
-                (?<t1> $hour24_word_re ( \s+ | [-.] ) $min_word_re ( $ampm_ph_re )? )
+                (?<pr> ( at \s+ a | on \s+ the | with \s+ the | by \s+ the ) \s+ )
+                (?<t1>
+                  $hour24_word_re ( \s+ | [-.] ) $min_word_re ( $ampm_ph_re )?
+                | ( $hour12_dig_re [.]? | $hour24_dig_re [.]? ) $minsec0_dig_re
+                )
                 (?<po> \s+
                   ( screening | viewing | performance | departure | arrival
-                  | game | play | movie | flight | train | ship
+                  | game | play | movie | flight | train | ship | express
                   )
                 )
                 $ba_re
@@ -1485,13 +1520,20 @@ sub get_matches {
                   ( ( $twas_re | and ) \s+ )?
                 )
                 (?<t1>
-                  ( $rel_at_words | ( close \s+ )? upon | till | by ) \s+
-                  (?<x> $hour_re ( [.\s]+ $min0_re )? )
+                  (?<rl> $rel_at_words | ( close \s+ )? upon | till | by ) \s+
+                  (?<xx> $hour_re ( [.\s]+ $min0_re )? )
                   (?= \s+ ( last | yesterday | $weekday_re | he | she ) \b |  \s* $hyph+ \s+ | , \s+ )
                 )
                 $ba_re
                 (?{ $branch = "9e";
-                    if ($+{x} =~ m{\A one \z}xin) {
+                    my ($xx, $rl) = @+{qw( xx rl )};
+                    if ($xx =~ m{\A one \z}xin) {
+                        $branch = "9e:TIMEY";
+                    }
+                    elsif ($is_agey and
+                           $rl =~ m{\A $around_re \z}xin and
+                           $xx =~ m{\A $hour_re \z}xin)
+                    {
                         $branch = "9e:TIMEY";
                     }
                   })
@@ -1568,22 +1610,29 @@ sub get_matches {
                   ( ( $twas_re | only | because | and ) \s+)?
                 )
                 (?<t1>
-                  ( $rel_at_words | close \s+ upon | till | by ) \s+
+                  (?<rl> $rel_at_words | close \s+ upon | till | by ) \s+
                   ( (?<xx> $hour24_re (?<sep> [-:.] | \s+ )? $min0_re )
                   | One \s* (*SKIP)(*FAIL)
-                  | $hour_re
+                  | (?<hh> $hour_re )
                   )
                 )
                 (?! $never_follow_times_re | : \d )
                 $ba_re
                 (?{ $branch = "9:TIMEY";
-                    my ($xx, $sep) = ($+{xx}, $+{sep});
+                    my ($xx, $sep, $rl, $hh) = @+{qw( xx sep rl hh )};
                     if (is_yearish($xx)) {
                         $branch = "9n:0";
                     }
                     elsif ($sep and $xx !~ /[a-z]/i) {
                         # We had a separator and digits (12.30)
                         $branch = "9:1";
+                    }
+                    elsif ($is_agey and
+                           defined $hh and
+                           $rl =~ m{\A $around_re \z}xin and
+                           $hh =~ m{\A $hour_re \z}xin)
+                    {
+                        $branch = "9r:0";
                     }
                   })
               }xin;
@@ -1631,7 +1680,7 @@ sub get_matches {
                         # If we have a separator then this is stronger
                         $branch = "9c:1";
                     }
-                    elsif (defined $mm and is_yearish($hh.$mm)) {
+                    elsif (defined $mm and not $is_trainy and is_yearish($hh.$mm)) {
                         # Weaken it if it looks like a year
                         $branch = "9c:0";
                     }
@@ -1680,20 +1729,38 @@ sub get_matches {
     #  at 1237, is 1237, was 1237, by 1237
     push @r,qr{ (?<li> $not_in_match )
                 (?<pr>
+                  ( (?<prw> \w+) \s+)?
                   ( $at_words | before | by
                   | $twas_re
                   ) \s+
                 )
                 (?<t1>
                   ( $rel_words \s+ )?
-                  ( $hour12_dig_re (?<sep> [.])? | $hour24_dig_re (?<sep> [.]) )
+                  (?<tt>
+                    ( $hour12_dig_re (?<sep> [.])? | $hour24_dig_re (?<sep> [.]) )
                     $minsec0_dig_re
+                  )
                 )
                 (?! $never_follow_times_re )
                 $ba_re
                 (?{ $branch = "3:TIMEY";
-                    if ($+{sep}) {
+                    my ($sep, $tt, $prw) = @+{qw( sep tt prw )};
+                    if ($sep or $is_trainy) {
                         $branch = "3:1";
+                    }
+                    elsif ($prw and $prw =~ m{\A (lived | lives | known
+                                                 | building    | house | appartment
+                                                 | multiply    | divide | less
+                                                 | multiplying | dividing
+                                                 | multiplied  | divided
+                                                 | oven | cook | fry | bake
+                                                 | \d+
+                                                 ) \z}xin) {
+                        $branch = "xx";
+                    }
+                    elsif ($tt =~ m{\A \d\d\d \z}xin) {
+                        # Three digit numbers seem never to be times
+                        $branch = "3:0";
                     }
                   })
               }xin;
