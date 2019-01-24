@@ -492,7 +492,7 @@ sub do_match {
 
     ## Does this look like a price paragraph?
     $is_pricey = 0;
-    $is_pricey = 1
+    $is_pricey = 0 # XXX
         if $line =~
             m{ \b ( cost | price | cheap | amount ) \b
              }xin;
@@ -1225,8 +1225,8 @@ sub get_matches {
                 (?{ $branch = "3b";
                     my ($t2, $po) = @+{qw( t2 po )};
                     if (not $is_trainy and $po =~ m{\A \s+ when }xin) {
-                        if (is_yearish($+{t2}) and
-                            $t2 =~ m{\A 2[123]\d\d \z}xin     # Allow yearish things that are big
+                        if (is_yearish($t2) and
+                            $t2 !~ m{\A 2[123]\d\d \z}xin     # Allow yearish things that are big
                            )
                         {
                             $branch = "3b:0";
@@ -1434,6 +1434,7 @@ sub get_matches {
     # Times at the end of a phrase
     # These are guaranteed times:
     #   waited until eight, ...
+    # XXX Needs work
     push @r,qr{ $bb_re
                 (?<pr>
                   ( waited | arrive s? | called | expired
@@ -1649,7 +1650,7 @@ sub get_matches {
                   ( only \s+ )?  # Generalize?
                 )
                 (?<t1>
-                  ( $rel_words \s+ )?
+                  (?<rl> $rel_words \s+ )?
                   ( near \s+ ( on \s+ )? )?
                   (?<hh> $hour_re) ( (?<sep> [-:.] | \s+ )? (?<mm> $min0_re) )?
                 )
@@ -1667,7 +1668,7 @@ sub get_matches {
                   )
                 )
                 (?{ $branch = "9c:TIMEY";
-                    my ($hh, $mm, $sep, $pr, $po) = ($+{hh}, $+{mm}, $+{sep}, $+{pr}, $+{po});
+                    my ($hh, $mm, $sep, $pr, $po, $rl) = @+{qw( hh mm sep pr po rl )};
                     if ($hh =~ m{\A $hour_word_re \z}xin) {
                         # If we have words then we want this to be stronger
                         $branch = "9c:1";
@@ -1680,7 +1681,7 @@ sub get_matches {
                         # If we have a separator then this is stronger
                         $branch = "9c:1";
                     }
-                    elsif (defined $mm and not $is_trainy and is_yearish($hh.$mm)) {
+                    elsif (defined $mm and ($rl or not $is_trainy) and is_yearish($hh.$mm)) {
                         # Weaken it if it looks like a year
                         $branch = "9c:0";
                     }
