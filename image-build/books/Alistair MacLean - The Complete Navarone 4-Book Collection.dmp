@@ -1,48 +1,6 @@
 $VAR1 = [
           [
             1,
-            '[ap 01:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/004-toc.html) - 0100',
-            "MAP
-ONE: Prelude: Sunday <<0100|18:0>>\x{2013}0900
-TWO: Sunday Night 1900\x{2013}0200",
-          ],
-          [
-            1,
-            '[ap 07:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/004-toc.html) - 0700',
-            "TWO: Sunday Night 1900\x{2013}0200
-THREE: Monday <<0700|18:0>>\x{2013}1700
-FOUR: Monday Evening 1700\x{2013}2330",
-          ],
-          [
-            1,
-            '[ap 01:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/004-toc.html) - 0100',
-            "FOUR: Monday Evening 1700\x{2013}2330
-FIVE: Monday Night <<0100|18:0>>\x{2013}0200
-SIX: Monday Night <<0200|18:0>>\x{2013}0600",
-          ],
-          [
-            1,
-            '[ap 01:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/004-toc.html) - 0100',
-            "FIVE: Monday Night <<0100|18:0>>\x{2013}0200
-SIX: Monday Night <<0200|18:0>>\x{2013}0600
-SEVEN: Tuesday 1500\x{2013}1900",
-          ],
-          [
-            1,
-            '[00:15] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/004-toc.html) - 0015',
-            "EIGHT: Tuesday 1900\x{2013}0015
-NINE: Tuesday Night <<0015|18:0>>\x{2013}0200
-TEN: Tuesday Night <<0400|18:0>>\x{2013}0600",
-          ],
-          [
-            1,
-            '[00:15] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/004-toc.html) - 0015',
-            "NINE: Tuesday Night <<0015|18:0>>\x{2013}0200
-TEN: Tuesday Night <<0400|18:0>>\x{2013}0600
-ELEVEN: Wednesday 1400\x{2013}1600",
-          ],
-          [
-            1,
             '[16:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/004-toc.html) - SIXTEEN',
             "<<SIXTEEN|9k:0>>: Wednesday Night 2115\x{2013}2345
 SEVENTEEN: Wednesday Night <<Midnight|13>>
@@ -50,163 +8,58 @@ Force 10 from Navarone",
           ],
           [
             1,
-            '[00:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/004-toc.html) - 0000',
-            "MAP
-ONE: Prelude: Thursday <<0000|18:0>>\x{2013}0600
-TWO: Thursday 1400\x{2013}2330",
-          ],
-          [
-            1,
-            '[00:30] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/004-toc.html) - 0030',
-            "TWO: Thursday 1400\x{2013}2330
-THREE: Friday <<0030|18:0>>\x{2013}0200
-FOUR: Friday <<0200|18:0>>\x{2013}0330",
-          ],
-          [
-            1,
-            '[00:30] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/004-toc.html) - 0030',
-            "THREE: Friday <<0030|18:0>>\x{2013}0200
-FOUR: Friday <<0200|18:0>>\x{2013}0330
-FIVE: Friday <<0330|18:0>>\x{2013}0500",
-          ],
-          [
-            1,
-            '[ap 02:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/004-toc.html) - 0200',
-            "FOUR: Friday <<0200|18:0>>\x{2013}0330
-FIVE: Friday <<0330|18:0>>\x{2013}0500
-SIX: Friday <<0800|18:0>>\x{2013}1000",
-          ],
-          [
-            1,
-            '[ap 03:30] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/004-toc.html) - 0330',
-            "FIVE: Friday <<0330|18:0>>\x{2013}0500
-SIX: Friday <<0800|18:0>>\x{2013}1000
-SEVEN: Friday 1000\x{2013}1200",
-          ],
-          [
-            1,
             '[00:40] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/004-toc.html) - 0040',
             "EIGHT: Friday 1500\x{2013}2115
 NINE: Friday 2115\x{2013}Saturday <<0040|18:0>>
-TEN: Saturday <<0040|18:0>>\x{2013}0120",
-          ],
-          [
-            1,
-            '[00:40] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/004-toc.html) - 0040',
-            "NINE: Friday 2115\x{2013}Saturday <<0040|18:0>>
-TEN: Saturday <<0040|18:0>>\x{2013}0120
-ELEVEN: Saturday <<0120|18:0>>\x{2013}0135",
-          ],
-          [
-            1,
-            '[00:40] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/004-toc.html) - 0040',
-            "TEN: Saturday <<0040|18:0>>\x{2013}0120
-ELEVEN: Saturday <<0120|18:0>>\x{2013}0135
-TWELVE: Saturday <<0135|18:0>>\x{2013}0200",
-          ],
-          [
-            1,
-            '[ap 01:20] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/004-toc.html) - 0120',
-            "ELEVEN: Saturday <<0120|18:0>>\x{2013}0135
-TWELVE: Saturday <<0135|18:0>>\x{2013}0200
-THIRTEEN: Saturday <<0200|18:0>>\x{2013}0215",
-          ],
-          [
-            1,
-            '[ap 01:35] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/004-toc.html) - 0135',
-            "TWELVE: Saturday <<0135|18:0>>\x{2013}0200
-THIRTEEN: Saturday <<0200|18:0>>\x{2013}0215
-EPILOGUE",
+TEN: Saturday 0040\x{2013}0120",
           ],
           [
             1,
             '[ap 09:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/004-toc.html) - 0900',
             "ONE: Sunday 1000\x{2013}1900
 TWO: Sunday 1900\x{2013}Monday <<0900|18:0>>
-THREE: Monday <<0900|18:0>>\x{2013}1900",
+THREE: Monday 0900\x{2013}1900",
           ],
           [
             1,
-            '[ap 09:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/004-toc.html) - 0900',
-            "TWO: Sunday 1900\x{2013}Monday <<0900|18:0>>
-THREE: Monday <<0900|18:0>>\x{2013}1900
-FOUR: Monday 1900\x{2013}Tuesday <<0500|18:0>>",
-          ],
-          [
-            1,
-            '[ap 09:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/004-toc.html) - 0900',
-            "THREE: Monday <<0900|18:0>>\x{2013}1900
+            '[ap 05:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/004-toc.html) - 0500',
+            "THREE: Monday 0900\x{2013}1900
 FOUR: Monday 1900\x{2013}Tuesday <<0500|18:0>>
-FIVE: Tuesday <<0500|18:0>>\x{2013}2300",
-          ],
-          [
-            1,
-            '[ap 05:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/004-toc.html) - 0500',
-            "FOUR: Monday 1900\x{2013}Tuesday <<0500|18:0>>
-FIVE: Tuesday <<0500|18:0>>\x{2013}2300
-SIX: Tuesday 2300\x{2013}Wednesday <<0400|18:0>>",
-          ],
-          [
-            1,
-            '[ap 05:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/004-toc.html) - 0500',
-            "FIVE: Tuesday <<0500|18:0>>\x{2013}2300
-SIX: Tuesday 2300\x{2013}Wednesday <<0400|18:0>>
-SEVEN: Wednesday <<0400|18:0>>\x{2013}0500",
+FIVE: Tuesday 0500\x{2013}2300",
           ],
           [
             1,
             '[ap 04:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/004-toc.html) - 0400',
-            "SIX: Tuesday 2300\x{2013}Wednesday <<0400|18:0>>
-SEVEN: Wednesday <<0400|18:0>>\x{2013}0500
-EPILOGUE: Wednesday 1400",
+            "FIVE: Tuesday 0500\x{2013}2300
+SIX: Tuesday 2300\x{2013}Wednesday <<0400|18:0>>
+SEVEN: Wednesday 0400\x{2013}0500",
           ],
           [
             1,
             '[ap 02:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/004-toc.html) - 0200',
             "ONE: Monday 1800\x{2013}Tuesday 1000
 TWO: Tuesday 1000\x{2013}Wednesday <<0200|18:0>>
-THREE: Wednesday <<0200|18:0>>\x{2013}0600",
-          ],
-          [
-            1,
-            '[ap 02:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/004-toc.html) - 0200',
-            "TWO: Tuesday 1000\x{2013}Wednesday <<0200|18:0>>
-THREE: Wednesday <<0200|18:0>>\x{2013}0600
-FOUR: Wednesday <<0600|18:0>>\x{2013}1800",
-          ],
-          [
-            1,
-            '[ap 02:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/004-toc.html) - 0200',
-            "THREE: Wednesday <<0200|18:0>>\x{2013}0600
-FOUR: Wednesday <<0600|18:0>>\x{2013}1800
-FIVE: Wednesday 1800\x{2013}Thursday <<0300|18:0>>",
-          ],
-          [
-            1,
-            '[ap 06:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/004-toc.html) - 0600',
-            "FOUR: Wednesday <<0600|18:0>>\x{2013}1800
-FIVE: Wednesday 1800\x{2013}Thursday <<0300|18:0>>
-SIX: Thursday <<0300|18:0>>\x{2013}1200",
+THREE: Wednesday 0200\x{2013}0600",
           ],
           [
             1,
             '[ap 03:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/004-toc.html) - 0300',
-            "FIVE: Wednesday 1800\x{2013}Thursday <<0300|18:0>>
-SIX: Thursday <<0300|18:0>>\x{2013}1200
-SEVEN: Thursday 1200\x{2013}2000",
+            "FOUR: Wednesday 0600\x{2013}1800
+FIVE: Wednesday 1800\x{2013}Thursday <<0300|18:0>>
+SIX: Thursday 0300\x{2013}1200",
           ],
           [
             1,
             '[ap 03:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/004-toc.html) - 0300',
             "EIGHT: Thursday 2000\x{2013}2300
 NINE: Thursday 2300\x{2013}Friday <<0300|18:0>>
-TEN: Friday <<0300|18:0>>\x{2013}Saturday <<0030|18:0>>",
+TEN: Friday 0300\x{2013}Saturday <<0030|18:0>>",
           ],
           [
             1,
             '[ap 03:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/004-toc.html) - 0300',
             "NINE: Thursday 2300\x{2013}Friday <<0300|18:0>>
-TEN: Friday <<0300|18:0>>\x{2013}Saturday <<0030|18:0>>
+TEN: Friday 0300\x{2013}Saturday <<0030|18:0>>
 EPILOGUE",
           ],
           [
