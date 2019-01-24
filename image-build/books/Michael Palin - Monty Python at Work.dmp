@@ -37,7 +37,7 @@ $VAR1 = [
           [
             1,
             '[ap 10:00] Monty Python at Work - Michael Palin.epub (OEBPS/html/09_chapter02a.html) - 10.00',
-            'By <<10.00|9:0>> was at the Camden Theatre for the recording of a Monty Python LP. The original impetus for this had come from the unaptly named BBC Enterprises.',
+            'By <<10.00|9:1>> was at the Camden Theatre for the recording of a Monty Python LP. The original impetus for this had come from the unaptly named BBC Enterprises.',
           ],
           [
             1,
@@ -106,8 +106,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap ~ 07:00] Monty Python at Work - Michael Palin.epub (OEBPS/html/11_chapter03a.html) - about 700',
-            "Apparently the demand for tickets had been so great that we had been asked to do an extra performance, with <<about 700|18:1>> students at each. They were a very good audience, not drunk, intelligent and appreciative. Our performances were a little edgy, as we were doing new material for the first time, but the second house \x{2013} at <<9.15|3:1>> \x{2013} was much better. We did about forty minutes each time, and were paid a little less than \x{a3}200 each for the evening.",
+            '[ap 09:15] Monty Python at Work - Michael Palin.epub (OEBPS/html/11_chapter03a.html) - 9.15',
+            "Apparently the demand for tickets had been so great that we had been asked to do an extra performance, with about 700 students at each. They were a very good audience, not drunk, intelligent and appreciative. Our performances were a little edgy, as we were doing new material for the first time, but the second house \x{2013} at <<9.15|3:1>> \x{2013} was much better. We did about forty minutes each time, and were paid a little less than \x{a3}200 each for the evening.",
           ],
           [
             1,
@@ -142,7 +142,7 @@ $VAR1 = [
           [
             1,
             '[ap ~ 10:45] Monty Python at Work - Michael Palin.epub (OEBPS/html/13_chapter04a.html) - about 10.45',
-            "By the time we had filmed as coal miners at the full-scale model of a coalface in the Deutsches Museum, I felt quite exhausted. As it turned out the evening was not too bad. We worked in long takes, which required great concentration, but made the whole process seem faster. It was <<about 10.45|9:0>> that John and I ended the sketch by hurling ourselves out of a very expensive Munich optician\x{2019}s, onto a pile of rugs and cushions.",
+            "By the time we had filmed as coal miners at the full-scale model of a coalface in the Deutsches Museum, I felt quite exhausted. As it turned out the evening was not too bad. We worked in long takes, which required great concentration, but made the whole process seem faster. It was <<about 10.45|9:1>> that John and I ended the sketch by hurling ourselves out of a very expensive Munich optician\x{2019}s, onto a pile of rugs and cushions.",
           ],
           [
             1,
@@ -428,7 +428,7 @@ At the first show someone is letting off firecrackers very irritatingly. It come
           [
             1,
             '[02:42] Monty Python at Work - Michael Palin.epub (OEBPS/html/27_chapter11a.html) - 242 this morning',
-            'A less productive film meeting at <<242 this morning|9g>>, although we take the Bible story into wider areas, Rome perhaps or even the present day. A silly World War I opening is suggested, which starts with a congregation of English soldiers singing in some chapel. A moving scene. Except in one row at the back there are four Germans singing. Nobody likes to look at them directly, but heads begin to turn.',
+            'A less productive film meeting at <<242 this morning|9g:0>>, although we take the Bible story into wider areas, Rome perhaps or even the present day. A silly World War I opening is suggested, which starts with a congregation of English soldiers singing in some chapel. A moving scene. Except in one row at the back there are four Germans singing. Nobody likes to look at them directly, but heads begin to turn.',
           ],
           [
             1,
@@ -443,7 +443,7 @@ At the first show someone is letting off firecrackers very irritatingly. It come
           [
             1,
             '[ap 02:30] Monty Python at Work - Michael Palin.epub (OEBPS/html/29_chapter12a.html) - 2.30',
-            "I think this is partly the fault of late meetings. <<2.30|5a:0>> is not the time when everyone is freshest, and by <<4.30|9:0>> Graham was probably right when he said he felt we were \x{2018}sated\x{2019}. We always used to give everything anyone wanted to read a hearing, then throw it away.",
+            "I think this is partly the fault of late meetings. <<2.30|5a:0>> is not the time when everyone is freshest, and by <<4.30|9:1>> Graham was probably right when he said he felt we were \x{2018}sated\x{2019}. We always used to give everything anyone wanted to read a hearing, then throw it away.",
           ],
           [
             1,
@@ -454,11 +454,6 @@ At the first show someone is letting off firecrackers very irritatingly. It come
             1,
             '[ap 10:15] Monty Python at Work - Michael Palin.epub (OEBPS/html/29_chapter12a.html) - 10.15',
             'Difficult, but finally constructive Python meeting at 2 Park Square West. We assembled at <<10.15|9c:1>>, but Eric looked unwell, and John did not arrive until <<ten to eleven|10a:0>>.',
-          ],
-          [
-            1,
-            '[ap ~ 01:50] Monty Python at Work - Michael Palin.epub (OEBPS/html/29_chapter12a.html) - about 150',
-            "It\x{2019}s interesting to know how people would react. We have de-Jesused the crucifixion, by keeping him out of it (although there were lovely fantasies of him saying to others in the crucifixion procession, \x{2018}Oh, do come on, take it seriously\x{2019}). Instead we have <<about 150|18:0>> assorted crooks being led out for crucifixion \x{2013} which was, after all, a common enough event at that time. But the crucifixion has become such a symbol that it must be one of the areas most sensitive to the taint of historical truth.",
           ],
           [
             1,
@@ -538,7 +533,7 @@ At the first show someone is letting off firecrackers very irritatingly. It come
           [
             1,
             '[ap ~ 07:15] Monty Python at Work - Michael Palin.epub (OEBPS/html/35_chapter15a.html) - About 7.15',
-            "<<About 7.15|9:0>> on this cold and unfriendly morning, the heavens open. The rain is relentless; there\x{2019}s no break in the clouds. The decision is taken to abandon [Ben\x{2019}s cell] for the day and to go into Matthias\x{2019}s house for our weather cover scene.",
+            "<<About 7.15|9:1>> on this cold and unfriendly morning, the heavens open. The rain is relentless; there\x{2019}s no break in the clouds. The decision is taken to abandon [Ben\x{2019}s cell] for the day and to go into Matthias\x{2019}s house for our weather cover scene.",
           ],
           [
             1,

@@ -1265,11 +1265,6 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 01:10] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_039.html) - 110',
-            'Our high school started a computer science curriculum in our sophomore year. They hooked up an ASR-33 Teletype to a 110-baud, dial-up modem. They had an account on the Univac <<110|1a>>8 time-sharing system at the Illinois Institute of Technology. Tim and I immediately became the de facto operators of that machine. Nobody else could get near it.',
-          ],
-          [
-            1,
             '[ap 10:00] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_039.html) - 10',
             "After school, Tim and I would dial up the computer (by tapping of course), load the tapes into the IITran batch system, and then hang up. At <<10|9m:1>> characters per second, this was not a quick procedure. An hour or so later, we\x{2019}d call back and get the printouts, again at 10 characters per second. The Teletype did not separate the students\x{2019} listings by ejecting pages. It just printed one after the next after the next, so we cut them apart using scissors, paper-clipped their input paper tape to their listing, and put them in the output basket.",
           ],
@@ -1277,11 +1272,6 @@ $VAR1 = [
             1,
             '[ap 01:00] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_042.html) - 1',
             'The program was simply to read records from a tape, and replace the IDs of those records with new IDs. The new IDs started at <<1|9c:0>> and were incremented by 1 for each new record. The records with the new IDs were to be written to a new tape.',
-          ],
-          [
-            1,
-            '[ap ~ 02:00] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_042.html) - about 200',
-            "My supervisor showed me a shelf that held many stacks of red and blue punched cards. Imagine that you bought 50 decks of playing cards, 25 red decks, and 25 blue decks. Then you stacked those decks one on top of the other. That\x{2019}s what these stacks of cards looked like. They were striped red and blue, and the stripes were <<about 200|18:0>> cards each. Each one of those stripes contained the source code for the subroutine library that the programmers typically used. Programmers would simply take the top deck off the stack, making sure that they took nothing but red or blue cards, and then put that at the end of their program deck.",
           ],
           [
             1,

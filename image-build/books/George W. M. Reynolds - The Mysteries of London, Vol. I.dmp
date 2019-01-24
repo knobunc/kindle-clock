@@ -66,6 +66,11 @@ $VAR1 = [
           ],
           [
             1,
+            '[ap 07:00] The Mysteries of London, Vol. I - George W. M. Reynolds.epub (text/part0000_split_008.html) - seven',
+            "\x{201c}Will you join me at <<seven|3f>> precisely this evening, at Harborough\x{2019}s own lodgings in Conduit-street? We shall expect you.\x{201d}",
+          ],
+          [
+            1,
             "[ap 07:00] The Mysteries of London, Vol. I - George W. M. Reynolds.epub (text/part0000_split_008.html) - seven o\x{2019}clock",
             "At <<seven o\x{2019}clock|6>> Richard was ushered into Sir Rupert Harborough\x{2019}s drawing-room in Conduit-street, Hanover Square.",
           ],
@@ -400,6 +405,11 @@ At this moment the bell of Saint Sepulchre\x{2019}s church began to toll the fun
           ],
           [
             1,
+            '[ap 03:00] The Mysteries of London, Vol. I - George W. M. Reynolds.epub (text/part0000_split_014.html) - three',
+            "\x{201c}No, I cannot,\x{201d} was the reply: \x{201c}I had lost my way amongst those streets with which I was totally unacquainted: the night was dark\x{2014}dark as it is now;\x{2014}and therefore I could not guide you to that den of such black atrocities. But, I repeat: the murderers left that house a little after one to commit a deed of sacrilege in Shoreditch Church. You say that it is now <<three|9f>>: perhaps their resurrection-labours are not terminated yet; and you might then capture them in the midst of their unholy pursuits.\x{201d}",
+          ],
+          [
+            1,
             '[ap 04:00] The Mysteries of London, Vol. I - George W. M. Reynolds.epub (text/part0000_split_014.html) - four',
             'The little party proceeded thither with all possible expedition; but the clock struck <<four|11>> just as they reached the point of destination.',
           ],
@@ -543,6 +553,11 @@ Count Alteroni was sipping his claret; the countess was reading a new German nov
             1,
             '[ap 00:00] The Mysteries of London, Vol. I - George W. M. Reynolds.epub (text/part0000_split_016.html) - twelve',
             "\x{201c}The count is to call at my house at <<twelve|9c:1>>. I have left a note to request him to come on hither.\x{201d}",
+          ],
+          [
+            1,
+            '[ap 00:00] The Mysteries of London, Vol. I - George W. M. Reynolds.epub (text/part0000_split_016.html) - twelve',
+            "\x{201c}I must throw myself upon your generosity,\x{201d} said Tomlinson. \x{201c}It is now <<twelve|9f>>: the count will soon be here.\x{201d}",
           ],
           [
             1,

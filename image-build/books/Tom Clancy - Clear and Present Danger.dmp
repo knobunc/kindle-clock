@@ -224,9 +224,9 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 02:35] Clear and Present Danger - Tom Clancy.epub (OEBPS/part15.xhtml) - 235',
+            '[23:58] Clear and Present Danger - Tom Clancy.epub (OEBPS/part15.xhtml) - 2358',
             'TOP SECRET ***** CAPER
-<<235|1a>>8Z
+<<2358|1a>>Z
 S
     IGINT
      R
@@ -234,12 +234,12 @@ S
           ],
           [
             1,
-            '[ap 02:34] Clear and Present Danger - Tom Clancy.epub (OEBPS/part15.xhtml) - 234',
+            '[23:49] Clear and Present Danger - Tom Clancy.epub (OEBPS/part15.xhtml) - 2349',
             "S
     IGINT
      R
     EPORT
-INTERCEPT 345 INIT <<234|1a>>9Z FRQ 836.970 MHZ
+INTERCEPT 345 INIT <<2349|1a>>Z FRQ 836.970 MHZ
 INIT:\x{a0} S
     UBJECT
      B

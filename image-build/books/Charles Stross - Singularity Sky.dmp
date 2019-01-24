@@ -26,6 +26,11 @@ $VAR1 = [
           ],
           [
             1,
+            '[ap 11:30] Singularity Sky - Charles Stross.epub (OEBPS/Text/Section0006.xhtml) - 1130',
+            '"It is now <<1130|9f>>. The door to this room is shut, and will remain shut, barring emergencies, until 1200.1 am authorized to inform you that we are now under battle orders. I am not privy to the political discussions behind our orders, but I am informed by Admiral Kurtz\'s staff that it appears likely that no resolution of the crisis short of war is possible; accordingly, we have been ordered to proceed as part of Task Group One to Rochard\'s World, by way of Battle Plan Omega Green Horizon." Now he pulled his chair out and sat down. "Are there any questions about the background before I go into our specific orders?" he asked.',
+          ],
+          [
+            1,
             '[ap 07:00] Singularity Sky - Charles Stross.epub (OEBPS/Text/Section0006.xhtml) - 0700',
             '"Your berth? Ah, yes, sir. D deck, Compartment 24, there\'s an officer\'s room waiting for you. Breakfast call at <<0700|9c:0>>. Paulus, please show the gentleman here to his room."',
           ],
@@ -83,11 +88,6 @@ $VAR1 = [
             1,
             '[ap 02:50] Singularity Sky - Charles Stross.epub (OEBPS/Text/Section0015.xhtml) - 250',
             "\"Odd\x{2014}\" Mirsky's brow furrowed; he glanced at the doomsday clock. The battlecruiser was closing on the destination at a crawl, just 40 k.p.s. The enemy was heading toward them at better than 200 k.p.s., decelerating, but their thrust was dropping off\x{2014}if this continued, closing unpowered at <<250|3:1>> k.p.s., their paths would intersect in about 500 seconds, and they'd be within missile-powered flight range 200 seconds before that. These long, ballistic shots weren't expected to cause real damage, but if they came close, they would force the enemy to respond. But missile one had been more than 50,000 kilometers from the target\x{2014}",
-          ],
-          [
-            1,
-            '[ap < 01:00] Singularity Sky - Charles Stross.epub (OEBPS/Text/Section0015.xhtml) - almost 100',
-            "\"Not yet, sir,\" said Helsingus. \"They've only got about five-zero-zero k.p.s. of delta-vee. Won't be in position to light off for, ah, eight-zero more seconds.\" Drifting toward the enemy <<almost 100|18:0>> k.p.s. faster than the warship that had launched them, the torpedoes nevertheless had relatively short legs. Unlike the missiles, they had their own power plant, radar, and battle control computers, which made them valuable assets in event of an engagement\x{2014}but they accelerated more slowly and had a lower total acceleration budget.",
           ],
           [
             1,

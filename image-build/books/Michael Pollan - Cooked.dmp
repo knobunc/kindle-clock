@@ -163,15 +163,6 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap ~ 02:00] Cooked_ A Natural History of Transformatio - Michael Pollan.epub (text/part0012.html) - around 160',
-            "When I move the shoulder onto the gas grill,
-			its internal temperature hovers <<around 160|18:0>>\x{2da}F, and the skin, which is pulling apart into
-			little cubes, has a nice wood-toned finish, though it still feels rubbery to the touch.
-			At this temperature, the meat is cooked through but dry and tough. If I took the
-			shoulder off now, I would have not barbecue, just overcooked pork.",
-          ],
-          [
-            1,
             '[~ 15:00] Cooked_ A Natural History of Transformatio - Michael Pollan.epub (text/part0016.html) - around three in
 			the afternoon',
             "Sundays with Samin\x{2014}our usual day
@@ -201,7 +192,7 @@ $VAR1 = [
 			braise to exceed the boiling point\x{2014}212\x{2da}F. Even at <<300|3:1>>\x{2da}F, liquid in a covered pot will
 			boil, and likely damage the meat. You want the cooking liquid merely to \x{201c}smile\x{201d}\x{2014}hatch a tiny bubble now and then, but never boil. McGee goes so
 			far as to suggest starting a braise at <<200|3:1>>\x{2da}F with the lid off, which should bring the
-			liquid to <<around 120|18:1>>\x{2da}F, scarcely warmer than a hot tub. But two hours at such a
+			liquid to around 120\x{2da}F, scarcely warmer than a hot tub. But two hours at such a
 			temperature \x{201c}amounts to a period of accelerated aging\x{201d} that tenderizes the
 			muscle by allowing enzymes to break down the connective tissues. (It also preserves the
 			reddish pigmentation of the meat even after it\x{2019}s been completely cooked\x{2014}a color
@@ -243,12 +234,11 @@ $VAR1 = [
           ],
           [
             1,
-            '[09:00] Cooked_ A Natural History of Transformatio - Michael Pollan.epub (text/part0023.html) - nine in
-			the morning',
+            '[ap 04:00] Cooked_ A Natural History of Transformatio - Michael Pollan.epub (text/part0023.html) - four',
             "Before the group left Bourdon\x{2019}s bakery
 			that afternoon, Chad summoned the nerve to ask him about an apprenticeship. So began
 			five months of a brutal but life-altering internship, with Chad making the long drive up
-			to Housatonic every night after classes, working in the bakery from four until <<nine in
+			to Housatonic every night after classes, working in the bakery from <<four|20>> until <<nine in
 			the morning|5>>, and then driving back down to Hyde Park for another day of classes. After
 			graduation, Bourdon wanted to hire Robertson, but had no openings. So Chad worked for
 			nothing but room and board, until a spot opened up. Chad ended up spending two years in

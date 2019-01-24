@@ -449,18 +449,6 @@ with fake time zones.",
           ],
           [
             1,
-            '[ap > 01:00] The Go Programming Language - Alan A. A. Donovan.epub (text/part0080.html) - after 100',
-            'In the pipeline below, when the counter goroutine finishes its loop
-<<after 100|18:0>> elements, it closes the naturals channel, causing the
-squarer to finish its loop and close the squares channel.
-
-(In a more complex program, it might make sense for the counter and
-squarer functions to defer the calls to close at the outset.)
-
-Finally, the main goroutine finishes its loop and the program exits.',
-          ],
-          [
-            1,
             '[18:22] The Go Programming Language - Alan A. A. Donovan.epub (text/part0082.html) - 18:22',
             '$ go build gopl.io/ch8/crawl1
 $ ./crawl1 http://gopl.io/

@@ -365,17 +365,20 @@ my $never_follow_times_exp_re =
         ( and \s+ a \s+ (half | quarter | third) \s+ (to \s+ $low_num_re \s+)?
         | \d+ / \d+ \s+
         )?   # Two and a half centuries, 9 1/2 inches
-
+        ( # SI prefixes
+          milli | centi | kilo | mega | giga
+        )?
         ( with | which | point | time | moment | instant | end | stage | of | who
         | heartbeat
         | after | since
         | degrees | °
         | per\s*cent | %
-        | centimeter | cm | meter | kilometer | km | klick | millimeter | mm | acre
-        | centimetre | metre | kilometre | watt | sol | au
+        | cm | meter | km | klick | mm | acre
+        | metre | watt | sol | au
         | mph | \Qm.p.h.\E | kmh | k?m/s | millisecond | ms | volt | amp | decibel | hertz | carat
+        | gauss | gev | giga-electron \s+ volts | joule | parsec
         | inch | inches | foot | feet | ft | yard | yd | mile | mi | knot | kt | block
-        | pound | lb | kilogram | kg | kilo | ton | tonne | kiloton  | gram | ounce | oz
+        | pound | lb | kg | kilo | ton | tonne | gram | ounce | oz
         | cup | pint | quart | gallon
         | tablespoon | tbsp | teaspoon | tsp
         | gravities | gravity | g $sq? s
@@ -951,12 +954,16 @@ sub get_matches {
                      at \s+
                    )
                    (?<t1> ( $rel_words \s+ )?
-                     $hour24_re ( [-.:\s]* $min0_re )?
+                     (?<hm> $hour24_re ( [-.:\s]* $min0_re )? )
                      (?! $never_follow_times_re )
                      ( $ampm_ph_re )?
                    )
                    $ba_re
-                (?{ $branch = "9g"; })
+                (?{ $branch = "9g";
+                    if (is_yearish($+{hm})) {
+                        $branch = "9g:TIMEY";
+                    }
+                  })
               }xin;
 
     # after eleven the next day
@@ -1706,7 +1713,7 @@ sub get_matches {
     # Bare hour (1-12) numbers or words but with a strong time indication
     # ... at nine ...
     my $def_re = qr{ he | she | they | we
-                   | exactly | precisely
+                   | exactly | precisely | punctually
                    | $weekday_re
                    }xin;
     push @r,qr{ (?<li> $not_in_match
@@ -1717,7 +1724,7 @@ sub get_matches {
                          ( \w+ly \s+ )?  # An adverb
                        )?
                 )
-                (?<pr> $at_words \s+ )
+                (?<pr> $at_words \s+ ) # XXX Should we allow by or before?
                 (?<t1>
                   (?<rel> $rel_words \s+ )?
                   (?<hh> $hour12_re )
@@ -1726,6 +1733,8 @@ sub get_matches {
                 (?{ $branch = "3e:TIMEY";
                     my ($hh, $sub, $tm, $rel) = @+{qw( hh sub tm rel )};
                     if ($sub =~ m{\A $def_re \z}xin) {
+                        # XXX these can be ages :-(
+                        # e.g. "In fact at <<twelve|3f>> she was already a BP."
                         $branch = "3f";
                     }
                     elsif ($tm) {
@@ -1737,6 +1746,8 @@ sub get_matches {
                     elsif ($hh  =~ m{\A [A-Z][a-z]+ \z}xn or
                            $sub =~ m{\A ( $month_re | $special_day_re ) \z}xn)
                     {
+                        # Upper case hours seem to mean counts often
+                        # And we don't want counts of months to show
                         $branch = "xx";
                     }
                   })
@@ -2408,7 +2419,7 @@ sub extract_times {
 sub is_yearish {
     my ($str) = @_;
 
-    if (defined $str and $str =~ m{\A \d{3,4} \z}xi and $str !~ m{\A 0 }xi) {
+    if (defined $str and $str =~ m{\A \d{3,4} \z}xi and $str !~ m{\A 0\d{3} \z}xi) {
         # It looks like a year
         return 1;
     }

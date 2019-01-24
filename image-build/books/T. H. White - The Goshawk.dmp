@@ -26,8 +26,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[09:30] The Goshawk - T. H. White.epub (index_split_008.html) - half past nine in the morning',
-            'I came away through the deep dew to make myself a cup of tea: then rapturously, from six until <<half past nine in the morning|10>>, I went to sleep.',
+            '[ap 06:00] The Goshawk - T. H. White.epub (index_split_008.html) - six',
+            'I came away through the deep dew to make myself a cup of tea: then rapturously, from <<six|20>> until <<half past nine in the morning|10>>, I went to sleep.',
           ],
           [
             1,
@@ -171,11 +171,6 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap ~ 01:02] The Goshawk - T. H. White.epub (index_split_011.html) - about 102',
-            "It was a great joy to shop in Buckingham, especially when you had a shopping list which began with \x{2018}bit of ribbon for kitchen curtain\x{2019} and went on through \x{2018}leather for lure, two big staples and bit of strawberry netting, scales, stronger string, rabbit nets, blue paint for door, screws and nails, seccotine, good penknife, darning wool, cotton, needles\x{2019}, until it reached \x{2018}Bert\x{2019}s Treatise of Hawks and Hawking, For the First Time Reprinted from the Original of 1619, with an Introduction by J. E. Harting, Librarian to the Linnaean Society of London\x{2019}. For you were more likely to come across a copy of Bert, of which there are only <<about 102|18:0>> in existence, in the ironmonger\x{2019}s or the saddler\x{2019}s at Buckingham than you were to find it at Bumpus or the Bodleian. There was a kind of glory about the backward parts of the better shops in Buckingham, in which you might find anything. If I had wanted a battle axe, or a quiver with some arrows, or a pair of skis, I should have found at least two of them at Herring\x{2019}s: while I was sure that Mr. Evenson could have found for me, somewhere about the premises (if only he could put his hand upon it), an eighteenth-century coach or a billiard table.",
-          ],
-          [
-            1,
             "[ap 08:00] The Goshawk - T. H. White.epub (index_split_011.html) - eight o\x{2019}clock",
             "Sated with these excitements, and with the walk of twelve miles, we got home at <<eight o\x{2019}clock|6>>. The hawk did not like cars or cyclists or numbers of people, but if he were in a good temper he could be persuaded not to bate from them. It was perhaps in this side of manning that he was most backward of all, and I could not really assert that he was at ease with my own right hand. All the way home I had been boresomely jerking it about at varying intervals to accustom him to its movements.",
           ],
@@ -316,8 +311,8 @@ $VAR1 = [
           ],
           [
             1,
-            "[ap 10:00] The Goshawk - T. H. White.epub (index_split_016.html) - ten o\x{2019}clock",
-            "A blazing day. All the misery of the last summer had made up for itself in this, and the hay was still uncut. For a week now, the austringer had been reduced to carrying Cully in the cool of the evening, walking incessantly from five until <<ten o\x{2019}clock|6>>, searching for the really easy rabbit which would give the cripple a sporting chance of considering herself \x{2018}made\x{2019}. I had flown her nine times at difficult rabbits already, though unsuccessfully because of her plumage. She was in splendid yarak, which is the proper term for being in flying order, and she sat on the fist with her whole attention fixed on the sport. Her condition was balanced to half an ounce of meat, and I could feel no fear of losing her.",
+            '[ap 05:00] The Goshawk - T. H. White.epub (index_split_016.html) - five',
+            "A blazing day. All the misery of the last summer had made up for itself in this, and the hay was still uncut. For a week now, the austringer had been reduced to carrying Cully in the cool of the evening, walking incessantly from <<five|20>> until <<ten o\x{2019}clock|6>>, searching for the really easy rabbit which would give the cripple a sporting chance of considering herself \x{2018}made\x{2019}. I had flown her nine times at difficult rabbits already, though unsuccessfully because of her plumage. She was in splendid yarak, which is the proper term for being in flying order, and she sat on the fist with her whole attention fixed on the sport. Her condition was balanced to half an ounce of meat, and I could feel no fear of losing her.",
           ],
           [
             1,

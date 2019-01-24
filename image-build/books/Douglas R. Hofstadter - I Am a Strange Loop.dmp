@@ -16,11 +16,6 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap ~ 01:33] I Am a Strange Loop - Douglas R. Hofstadter.epub (index_split_018.html) - about 133',
-            "There could thus be, at least in theory, a volume of Principia Mathematica devoted entirely to exploring the question of which integers are, and which are not, the sum of two squares. For instance, 41 is the sum of 16 and 25, and there are infinitely many other integers that can be made by summing two squares. Call them members of Class A. On the other hand, 43 is not the sum of any pair of squares, and likewise, there are infinitely many other integers that cannot be made by summing two squares. Call them members of Class B. (Which class is 109 in? What <<about 133|18:0>>?) Fully fathoming this elegant dichotomy of the set of all integers, though a most subtle task, had been accomplished by number theorists long before G\x{f6}del\x{2019}s birth.",
-          ],
-          [
-            1,
             '[ap 01:01] I Am a Strange Loop - Douglas R. Hofstadter.epub (index_split_018.html) - 101',
             "Unfortunately, I must now confess that I have misled you. If we simply throw the very next prime, which is <<101|9f>>, into our list, it sabotages the seeming order we\x{2019}ve found. After all, the prime number 101, being the sum of the two squares 1 and 100, and thus belonging to Class A, has to be  written in boldface, and so our alleged boldface pair 89\x{2013}97 turns out to be a boldface triplet instead. And thus our hopeful notion of a sequence of just S\x{2019}s and P\x{2019}s goes down the drain.",
           ],

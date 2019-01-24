@@ -56,8 +56,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[< 00:00] The Strange Case of Dr. Jekyll and Mr. Hyd - Robert Louis Stevenson.epub (index_split_017.html) - before midnight',
-            "The lawyer put it in his pocket. \x{201c}I would say nothing of this paper. If your master has fled or is dead, we may at least save his credit. It is now ten; I must go home and read these documents in quiet; but I shall be back <<before midnight|13>>, when we shall send for the police.\x{201d}",
+            '[ap 10:00] The Strange Case of Dr. Jekyll and Mr. Hyd - Robert Louis Stevenson.epub (index_split_017.html) - ten',
+            "The lawyer put it in his pocket. \x{201c}I would say nothing of this paper. If your master has fled or is dead, we may at least save his credit. It is now <<ten|9f>>; I must go home and read these documents in quiet; but I shall be back <<before midnight|13>>, when we shall send for the police.\x{201d}",
           ],
           [
             1,

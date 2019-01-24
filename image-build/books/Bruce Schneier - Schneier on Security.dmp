@@ -11,11 +11,6 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap ~ 05:00] Schneier on Security - Bruce Schneier.epub (Schneier_on_Security_split_019.html) - about 500',
-            "The FISC issued <<about 500|18:0>> FISA warrants per year from 1979 through 1995, and has slowly increased subsequently\x{2014}1,758 were issued in 2004. The process is designed for speed and even has provisions where the Justice Department can wiretap first and ask for permission later. In all that time, only four warrant requests were ever rejected: all in 2003. (We don\x{2019}t know any details, of course, as the court proceedings are secret.)",
-          ],
-          [
-            1,
             '[ap 00:55] Schneier on Security - Bruce Schneier.epub (Schneier_on_Security_split_020.html) - 5 to 1',
             "This isn\x{2019}t unique. Private security guards outnumber real police more than <<5 to 1|10a:0>>, and increasingly act like them.",
           ],
@@ -31,8 +26,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap ~ 01:00] Schneier on Security - Bruce Schneier.epub (Schneier_on_Security_split_037.html) - about 100',
-            "It would take <<about 100|18:0>> megabytes of storage to record everything the fastest typist input to his computer in a year. That\x{2019}s a single flash memory chip today, and one could imagine computer manufacturers offering this as a reliability feature. Recording everything the average user does on the Internet requires more memory: <<4 to 8|10a:0>> gigabytes a year. That\x{2019}s a lot, but \x{201c}record everything\x{201d} is Gmail\x{2019}s model, and it\x{2019}s probably only a few years before ISPs offer this service.",
+            '[ap 07:56] Schneier on Security - Bruce Schneier.epub (Schneier_on_Security_split_037.html) - 4 to 8',
+            "It would take about 100 megabytes of storage to record everything the fastest typist input to his computer in a year. That\x{2019}s a single flash memory chip today, and one could imagine computer manufacturers offering this as a reliability feature. Recording everything the average user does on the Internet requires more memory: <<4 to 8|10a:0>> gigabytes a year. That\x{2019}s a lot, but \x{201c}record everything\x{201d} is Gmail\x{2019}s model, and it\x{2019}s probably only a few years before ISPs offer this service.",
           ],
           [
             1,
@@ -118,16 +113,6 @@ $VAR1 = [
             1,
             '[20:05] Schneier on Security - Bruce Schneier.epub (Schneier_on_Security_split_095.html) - 2005',
             "But unlike many security arms races, the detectors have the ability to look into the past. Last year, a laboratory tested Lance Armstrong\x{2019}s urine and found traces of the banned substance EPO. What\x{2019}s interesting is that the urine sample tested wasn\x{2019}t from <<2005|9c:0>>; it was from 1999. Back then, there weren\x{2019}t any good tests for EPO in urine. Today there are, and the lab took a frozen urine sample\x{2014}who knew that labs save urine samples from athletes?\x{2014}and tested it. He was later cleared\x{2014}the lab procedures were sloppy\x{2014}but I don\x{2019}t think the real ramifications of the episode were ever well understood. Testing can go back in time.",
-          ],
-          [
-            1,
-            '[ap ~ 09:00] Schneier on Security - Bruce Schneier.epub (Schneier_on_Security_split_116.html) - about 900',
-            "The results are all over the map. Microsoft Office, for example, has a simple password-to-key conversion, so PRTK can test 350,000 Microsoft Word passwords per second on a 3-GHz Pentium 4, which is a reasonably current benchmark computer. WinZip used to be even worse\x{2014}well over a million guesses per second for version 7.0\x{2014}but with version 9.0, the cryptosystem\x{2019}s ramp-up function has been substantially increased: PRTK can only test 900 passwords per second. PGP also makes things deliberately hard for programs like PRTK, also only allowing <<about 900|18:0>> guesses per second.",
-          ],
-          [
-            1,
-            '[ap ~ 01:00] Schneier on Security - Bruce Schneier.epub (Schneier_on_Security_split_116.html) - about 100',
-            "So the first attack PRTK performs is to test a dictionary of about 1,000 common passwords, things like \x{201c}letmein,\x{201d} \x{201c}password,\x{201d} \x{201c}123456,\x{201d} and so on. Then it tests them each with <<about 100|18:0>> common suffix appendages: \x{201c}1,\x{201d} \x{201c}4u,\x{201d} \x{201c}69,\x{201d} \x{201c}abc,\x{201d} \x{201c}!\x{201d} and so on. Believe it or not, it recovers about 24% of all passwords with these 100,000 combinations.",
           ],
           [
             1,

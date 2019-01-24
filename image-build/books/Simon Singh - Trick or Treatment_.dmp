@@ -1,11 +1,6 @@
 $VAR1 = [
           [
             1,
-            '[ap ~ 01:00] Trick or Treatment__ Alternative Medicine - Simon Singh.epub (dummy_split_008.html) - about 100',
-            "For those barbers who preferred a less technological and more natural approach, there was the option of using medicinal leeches. The business end of these bloodsucking parasitic worms has three separate jaws, each one of them carrying <<about 100|18:0>> delicate teeth. They offered an ideal method for bloodletting from a patient\x{2019}s gums, lips or nose. Moreover, the leech delivers an anaesthetic to reduce pain, an anticoagulant to prevent the blood from clotting, and a vasodilator to expand its victim\x{2019}s blood vessels and increase flow. To enable major bloodsucking sessions, doctors would perform bdellatomy, which involved slicing into the leech so that blood entered its sucker end and then leaked out of the cut. This prevented the leech from becoming full and encouraged it to continue sucking.",
-          ],
-          [
-            1,
             '[11:00] Trick or Treatment__ Alternative Medicine - Simon Singh.epub (dummy_split_008.html) - 11 a.m.',
             'Dr Craik applied some cantharides (a preparation of dried beetles) to his throat. When this did not have any effect, he opted to bleed the General and removed another half a litre of blood. At <<11 a.m.|5>> he removed a similar amount again. The average human body contains only 5 litres of blood, so a significant fraction was being bled from Washington at each session. Dr Craik did not seem concerned. He performed venesection again in the afternoon, removing a further whole litre of blood.',
           ],
@@ -28,11 +23,6 @@ $VAR1 = [
             1,
             '[20:07] Trick or Treatment__ Alternative Medicine - Simon Singh.epub (dummy_split_011.html) - 2007',
             "The number of patients in the trials ranged from 200 to over 1,000. Each trial divided its patients into three groups: the first group received no acupuncture, the second group received real acupuncture, and the third (placebo) group received sham acupuncture. In terms of sham acupuncture, the researchers did not employ the new stage-dagger needles, as they had only just been invented and had not yet been properly assessed. Instead, sham acupuncture took the form of misplaced or superficial needling Due to their sheer size, these mega-trials have taken many years to conduct. They were completed only recently and the emerging data is still being analysed. Nevertheless, by <<2007|9n:0>> the researchers published their initial conclusions from all the mega-trials. They indicate that real acupuncture performs only marginally better than or the same as sham acupuncture. The conclusions typically contain the following sort of statement: \x{2018}Acupuncture was no more effective than sham acupuncture in reducing migraine headaches.\x{2019} Again, the trend continues \x{2013} as the trials become increasingly rigorous and more reliable, acupuncture increasingly looks as if it is nothing more than a placebo.",
-          ],
-          [
-            1,
-            '[ap 01:00] Trick or Treatment__ Alternative Medicine - Simon Singh.epub (dummy_split_014.html) - 100',
-            "For example, homeopathic strengths of 30C are common, which means that the original ingredient has been diluted 30 times by a factor of <<100|1a>> each time. Therefore, the original substance has been diluted by a factor of 1,000,000,000,000,000,000,000,000,000,000,000,000, 000,000,000,000,000,000,000,000. This string of noughts might not mean much, but bear in mind that one gram of the mother tincture contains less than 1,00 0,000,000,000,000,000,000,000 molecules. As indicated by the number of noughts, the degree of dilution is vastly bigger than the number of molecules in the mother tincture, which means that there are simply not enough molecules to go round. The bottom line is that this level of dilution is so extreme that the resulting solution is unlikely to contain a single molecule of the original ingredient. In fact, the chance of having one molecule of the active ingredient in the final 30C remedy is one in a billion billion billion billion. In other words, a 30C homeopathic remedy is almost certain to contain nothing more than water. This point is graphically explained in Figure 2. Again, this underlines the difference between herbal and homeopathic remedies \x{2013} herbal remedies will always have at least a small amount of active ingredient, whereas homeopathic remedies usually contain no active ingredient whatsoever.",
           ],
           [
             1,
@@ -79,5 +69,10 @@ $VAR1 = [
             '[~ 19:30] Trick or Treatment__ Alternative Medicine - Simon Singh.epub (dummy_split_020.html) - around 1930',
             "\x{2018}Science does not understand alternative medicine\x{2019} fallacy
  This is true, but irrelevant. Failing to understand how a therapy works has never been a barrier to accepting that it does work. Indeed, the history of medicine is littered with breakthrough treatments that were clearly effective and yet not initially understood. For example, when James Lind discovered that lemons could prevent scurvy in the eighteenth century, he did not understand how the lemons actually worked. Nevertheless, his treatment spread across the world. It was only in <<around 1930|18:0>> that scientists isolated vitamin C and understood why lemons safeguard against scurvy. If a particular alternative treatment were proved to be effective tomorrow, then scientists would accept it and immediately attempt both to apply it and to understand its underlying mechanism.",
+          ],
+          [
+            1,
+            '[ap 06:00] Trick or Treatment__ Alternative Medicine - Simon Singh.epub (dummy_split_020.html) - six',
+            'In another study, which took place in 2005, 329 patients undergoing angiograms or other cardiac procedures received no prayers, while 371 patients received prayers from Christian, Muslim, Jewish and Buddhist prayer groups. Unfortunately, the prayers had no measurable effect on serious cardiovascular events, hospital re-admission or death. And, in 2006, the results of a ten-year study costing $2.5 million were published by researchers studying the effect of prayer on over 1,000 cardiac bypass surgery patients at <<six|3e:0>> American medical centres, including Harvard and the Mayo Clinic. Christian groups prayed for half the patients for several years, while the other half received no such prayers. Again, the average outcome was the same for both groups, implying that the prayers were ineffective.',
           ],
         ];

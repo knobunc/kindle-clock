@@ -26,26 +26,6 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap ~ 01:50] Carry On_ Sound Advice From Schneier on Se - Bruce Schneier.epub (text/part0005_split_007.html) - about 150',
-            "Coherence can become a real problem once organizations get above <<about 150|18:0>> in size. So as group sizes grow across these boundaries, they have more externally imposed infrastructure\x{2014}and more formalized security systems. In intimate groups, pretty much all security is ad hoc. Companies smaller than 150 don't bother with name badges; companies greater than 500 hire a guard to sit in the lobby and check badges. The military have had centuries of experience with this under rather trying circumstances, but even there the real commitment and bonding invariably occurs at the company level. Above that you need to have rank imposed by discipline.",
-          ],
-          [
-            1,
-            '[ap ~ 01:00] Carry On_ Sound Advice From Schneier on Se - Bruce Schneier.epub (text/part0006_split_007.html) - about 100',
-            "A typical password consists of a root plus an appendage. The root isn't necessarily a dictionary word, but it's something pronounceable. An appendage is either a suffix (90% of the time) or a prefix (10% of the time). One guesser I studied starts with a dictionary of about 1,000 common passwords, things like \x{201c}letmein,\x{201d} \x{201c}temp,\x{201d} \x{201c}123456,\x{201d} and so on. Then it tests them each with <<about 100|18:0>> common suffix appendages: \x{201c}1,\x{201d} \x{201c}4u,\x{201d} \x{201c}69,\x{201d} \x{201c}abc,\x{201d} \x{201c}!\x{201d} and so on. It recovers about 24% of all passwords with just these 100,000 combinations.",
-          ],
-          [
-            1,
-            '[ap ~ 02:56] Carry On_ Sound Advice From Schneier on Se - Bruce Schneier.epub (text/part0006_split_008.html) - about 256',
-            "The deadline was October 31, and NIST received 64 submissions. This isn't surprising\x{2014}I predicted 80\x{2014}as most of the 15 AES submitters were professors, whose students at the time have become professors themselves, with their own students. (If NIST does a stream cipher competition in another ten years, they should expect <<about 256|18:0>> submissions.) These submissions came from academia, from industry, and from hobbyists. CIO magazine recently interviewed one of the submitters, who is 15. Twenty-eight submissions have been made public by the submitters, and six of those have been broken.",
-          ],
-          [
-            1,
-            '[ap ~ 02:00] Carry On_ Sound Advice From Schneier on Se - Bruce Schneier.epub (text/part0006_split_010.html) - about 200',
-            "Passwords are the most common authentication system. They're easy to implement and use, which is why they're so popular. But, as computers have become faster, password-guessing has become easier. Most people don't choose complicated enough passwords to remain secure against modern password-guessing attacks. Conficker.B is even less clever\x{2014}it just tries a list of <<about 200|18:0>> common passwords.",
-          ],
-          [
-            1,
             '[ap > 09:00] Carry On_ Sound Advice From Schneier on Se - Bruce Schneier.epub (text/part0006_split_012.html) - After 9',
             'These risks are not theoretical. <<After 9|9:0>>/11, the National Security Agency built a surveillance infrastructure to eavesdrop on telephone calls and e-mails within the United States.',
           ],
@@ -53,10 +33,5 @@ $VAR1 = [
             1,
             '[ap > 09:00] Carry On_ Sound Advice From Schneier on Se - Bruce Schneier.epub (text/part0008_split_016.html) - After 9',
             'These risks are not theoretical. <<After 9|9:0>>/11, the National Security Agency built a surveillance infrastructure to eavesdrop on telephone calls and e-mails within the United States. Although procedural rules stated that only non-Americans and international phone calls were to be listened to, actual practice didn\'t always match those rules. NSA analysts collected more data than they were authorized to and used the system to spy on wives, girlfriends and famous people like former President Bill Clinton.',
-          ],
-          [
-            1,
-            '[ap < 05:00] Carry On_ Sound Advice From Schneier on Se - Bruce Schneier.epub (text/part0013.html) - almost 500',
-            "Still, writing is something I'm good at and something I do a lot of. Since 1992, I have written <<almost 500|18:0>> essays, op-eds, and articles for a wide variety of publications. They're all on my website\x{2014}www.schneier.com, if you don't already know\x{2014}and a selection of them has been collected into two books. The first collection, Schneier on Security, covered essays from April 2002 to February 2008. This volume covers essays from March 2008 to June 2013.",
           ],
         ];

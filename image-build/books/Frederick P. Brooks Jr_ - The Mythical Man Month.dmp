@@ -1,18 +1,13 @@
 $VAR1 = [
           [
             1,
-            '[ap ~ 02:00] The Mythical Man Month_ Essays on Software - Frederick P. Brooks Jr_.epub (The_Mythical_Man_Month_split_054.html) - about 200',
-            'These sessions were held just before major freeze dates for the manual. Those present included not only the architecture group and the programmers\' and implementers\' architectural representatives, but also the managers of programming, marketing, and implementation efforts. The System/360 project manager presided. The agenda typically consisted of <<about 200|18:0>> items, mostly minor, which were enumerated in charts placarded around the room. All sides were heard and decisions made. By the miracle of computerized text editing (and lots of fine staff work), each participant found an updated manual, embodying yesterday\'s decisions, at his seat every morning.',
-          ],
-          [
-            1,
             '[ap 05:57] The Mythical Man Month_ Essays on Software - Frederick P. Brooks Jr_.epub (The_Mythical_Man_Month_split_064.html) - three to six',
             'The producer and the technical director may be the same man. This is readily workable on very small teams, perhaps <<three to six|10a:0>> programmers. On larger projects it is very rarely workable, for two reasons. First, the man with strong management talent and strong technical talent is rarely found. Thinkers are rare; doers are rarer; and thinker-doers are rarest.',
           ],
           [
             1,
-            '[ap ~ 06:00] The Mythical Man Month_ Essays on Software - Frederick P. Brooks Jr_.epub (The_Mythical_Man_Month_split_071.html) - about 600',
-            "The productivities likewise fall into two classifications; those for control programs are <<about 600|18:0>> words per man-year; those for translators are <<about 2200|18:0>> words per man-year. Note that all four programs are of similar size\x{2014}the variation is in size of the work groups, length of time, and number of modules. Which is cause and which is effect? Did the control programs require more people because they were more complicated? Or did they require more modules and more man-months because they were assigned more people? Did they take longer because of the greater complexity, or because more people were assigned? One can't be sure. The control programs were surely more complex. These uncertainties aside, the numbers describe the real productivities achieved on a large system, using present-day programming techniques. As such they are a real contribution.",
+            '[~ 22:00] The Mythical Man Month_ Essays on Software - Frederick P. Brooks Jr_.epub (The_Mythical_Man_Month_split_071.html) - about 2200',
+            "The productivities likewise fall into two classifications; those for control programs are about 600 words per man-year; those for translators are <<about 2200|18:0>> words per man-year. Note that all four programs are of similar size\x{2014}the variation is in size of the work groups, length of time, and number of modules. Which is cause and which is effect? Did the control programs require more people because they were more complicated? Or did they require more modules and more man-months because they were assigned more people? Did they take longer because of the greater complexity, or because more people were assigned? One can't be sure. The control programs were surely more complex. These uncertainties aside, the numbers describe the real productivities achieved on a large system, using present-day programming techniques. As such they are a real contribution.",
           ],
           [
             1,
