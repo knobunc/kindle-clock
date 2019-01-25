@@ -632,10 +632,9 @@ sub get_masks {
 
     # I was one of twenty
     # two by two
-    # 1, for one, am sick of it.
+    # I, for one, am sick of it.
     # nine-to-five
     # ten-four
-    # 401(k), 401k
     push @r,qr{ (?<pr> \A | \s+ )
                 (?<t1> one \s+ of \s+ $min_re
                 |      $min_re ,? \s+ by \s+ $min_re
@@ -1267,7 +1266,7 @@ sub get_matches {
                   ( [-] $minsec_dig_re )?
                   ( \s+ ( now | precisely | exactly ) )?
                   ( \z | $phrase_punc? $aq | $phrase_punc ( \s+ | \z ) | \s+ $hyph+ \s+) )
-                (?{ $branch = "9j";
+                  (?{ $branch = "9j";
                     # This needs more indication that it is timey
                     my ($hh, $mm, $ap) = @+{qw( hh mm ap )};
                     if (not $ap and $hh =~ m{\A one \z}xin and $mm =~ m{\A (one | two) \z}xin) {
@@ -1388,8 +1387,8 @@ sub get_matches {
                     $branch = "5b";
                     my ($t1) = @+{qw( t1 )};
                     if ($t1 =~ m{\A $z_low_num_re - $z_low_num_re - $z_low_num_re \z}xin and
-            $t1 !~ m{\A $z_low_num_re - oh - $z_low_num_re \z}xin)
-            {
+                        $t1 !~ m{\A $z_low_num_re - oh - $z_low_num_re \z}xin)
+                    {
                         $branch = "x5b";
                     }
               })
@@ -1681,9 +1680,11 @@ sub get_matches {
                         # If we have a separator then this is stronger
                         $branch = "9c:1";
                     }
-                    elsif (defined $mm and ($rl or not $is_trainy) and is_yearish($hh.$mm)) {
-                        # Weaken it if it looks like a year
-                        $branch = "9c:0";
+                    elsif (defined $mm and is_yearish($hh.$mm)) {
+                        if ($rl or not $is_trainy or $pr =~ m{^ until }xin) {
+                            # Weaken it if it looks like a year
+                            $branch = "9c:0";
+                        }
                     }
                     elsif (not defined $mm and $hh =~ /^00?$/) {
                         # Just 0s don't work as bare hours
