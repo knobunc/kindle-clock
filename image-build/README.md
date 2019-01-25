@@ -7,7 +7,7 @@ find_times.pl ~/Calibre\ Library/James\ Joyce/Dubliners\ \(3196\)/*epub | hl
 
 # To regen books with '9n:1' in the matches
 ```
-make_books.pl "$(ag '\|9n:1' -l | sort | cut -f 2 -d / | cut -f 1 -d - | uniq | paste -sd \|)"
+make_books.pl "$(ag '\|9n:1' books -l | sort | cut -f 2 -d / | sed 's/\.dmp$//' | uniq | paste -sd \|)"
 ```
 
 # To find all 2* matches

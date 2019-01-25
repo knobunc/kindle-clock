@@ -5,7 +5,7 @@ use Modern::Perl '2017';
 use utf8;
 
 use Exporter::Easy (
-  EXPORT => [ qw( do_match extract_times shorten_book DEBUG_MSG ) ],
+  EXPORT => [ qw( do_match strip_match extract_times shorten_book DEBUG_MSG ) ],
 );
 
 use Carp;
@@ -64,7 +64,7 @@ my $hour_word_re   = $hour12_word_re;
 # The hours 13-24 as words
 my $hour_h_word_re = qr{ thirteen | fourteen | fifteen
                        | sixteen | seventeen | eighteen | nineteen
-                       | twenty ( - ( one | two | three | four ) )?
+                       | twenty ( $hyph ( one | two | three | four ) )?
                        }xin;
 my $hour24_word_re = qr{ $hour_word_re | $hour_h_word_re }xin;
 
@@ -915,16 +915,16 @@ sub get_matches {
                             ( a \s+ half | 1/2 | a \s+ quarter | 1/4 | twenty
                             | $sec_re \s+ second s?
                             )? \s+
-                    | ( after | before ) \s+ ( the \s+ )? $fraction_re ( \s+ | [-] )
+                    | ( after | before ) \s+ ( the \s+ )? $fraction_re ( \s* | [-] )
                     )?
                     ( minute s? \s+ )?
-                  | ( $rel_words \s+ ( a \s+ )? )? $fraction_re ( \s+ | [-] )
+                  | ( $rel_words \s+ ( a \s+ )? )? $fraction_re ( \s* | [-] )
                     (of \s+)? (an? \s+ hours? \s+)?
                   | ( $hour24_re | an ) \s+ hours? \s+
                   | ( just | nearly ) \s+
                   | in \s+ ( $rel_words \s+ )? $min_re \s+ ( minute s? \s+ )?
                     it \s+ (would | will) \s+ be \s+ (a \s+)?
-                    $fraction_re ( \s+ | [-] )
+                    $fraction_re ( \s* | [-] )
                   )
                   $till_re ( $hyph | \s )+
                   ( the \s+ hour [,;]? \s+ which \s+ ( is | was ) \s+ )?
@@ -1237,23 +1237,6 @@ sub get_matches {
                   })
               }xin;
 
-    # Three in the morning
-    push @r,qr{ (?<li> $not_in_match )
-                (?<t1> ( $rel_words \s+ )? (?<hh> $hour_re ) )
-                (?<po> \s+
-                       ( in | on | that | this | the ) \s+
-                       (\w+ \s+){0,3}?
-                       ( $morn_re | night )
-                )
-                $ba_re
-                (?{ $branch = "3d";
-                    my ($hh, $po) = @+{qw( hh po )};
-                    if ($hh =~ m{\A 0+ \z}xin) {
-                        $branch = "xx";
-                    }
-                  })
-              }xin;
-
     # Hour\? ... Three
     push @r,qr{ (?<pr> \b hour \? \s+ )
                 (?<t1> $hour_word_re )
@@ -1379,6 +1362,46 @@ sub get_matches {
                 ( $never_follow_times_re (*SKIP)(*FAIL) )?
                 $ba_re
                 (?{ $branch = "13"; })
+              }xin;
+
+    # Three in the morning
+    push @r,qr{ (?<li> $not_in_match )
+                (?<t1> ( $rel_words \s+ )? $hour_re (:$min_re)? )
+                (?<po> \s+
+                  ( the \s+ $timeday_re \s+ (before | after)
+                  | on  \s+ ((a | the | that) \s+)? (\w+ \s+){0,2} ($weekday_re \s+)? $timeday_re
+                  | in  \s+ ((    the | that) \s+)? (\w+ \s+){0,2} ($weekday_re \s+)? $timeday_re
+                  | the \s+ ( next | previous | following | preceeding ) \s+ $timeday_re
+                  | yesterday
+                  )
+                )
+                $ba_re
+                (?{ $branch = "3d";
+                    my ($po) = @+{qw( po )};
+                    if ($po =~ m{\A in \s+ a \s+ $timeday_re \z}xin) {
+                        $branch = "xx";
+                    }
+                  })
+              }xin;
+
+    # A little after two on a boiling hot afternoon
+    push @r,qr{ (?<li> $bb_re )
+                (?<t1> $rel_words \s+ $hour_re )
+                (?<po> \s+ ( on | in ) \s+ (\w+ \s+){0,3} $timeday_re )
+                $ba_re
+                (?{ $branch = "3i"; })
+              }xin;
+
+    # at two the previous afternoon
+    push @r,qr{ (?<li> $bb_re ( at | $till_re | until | by | from
+                              | $twas_re (\s+ already)?
+                              ) \s+ )
+                (?<t1> ($rel_words \s+)? $hour_re )
+                (?<po> \s+
+                  ( the | on )
+                )
+                $ba_re
+                (?{ $branch = "3j"; })
               }xin;
 
     # Strong word times
@@ -2159,7 +2182,7 @@ sub extract_times {
               | # Two minutes before the clock struck noon
                   (?<mn> $min_word_re ) \s+ minutes? \s+
                   (?<dir> $till_re ) \s+
-                ( the \s+ ( clock | bell ) \s+ ( rang | struck ) \s+ )?
+                ( the \s+ (\w+ \s+){0,2} ( clock | bell ) s? \s+ ( rang | struck ) \s+ )?
                   (?<hr> $hour24_re )
                 ( \s+ $oclock_re )?
                 ( [:,]? \s+ (?<am> $ampm_re ) )?
@@ -2675,6 +2698,15 @@ sub shorten_book {
     }
 
     return $book;
+}
+
+sub strip_match {
+    my ($string) = @_;
+
+    while ($string =~ s{<< ([^|>]+) [|] \d+ \w? (:\d)? >>}{$1}gx) { }
+    $string =~ s{<<(.*?)>>}{$1}g;
+
+    return $string;
 }
 
 sub DEBUG_MSG {
