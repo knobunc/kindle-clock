@@ -3,6 +3,12 @@
 
 
 declares an array a of 10 ints. All arrays in C are 0-based, so the 10 elements of the array a are numbered from 0 to 9."|"Handbook of Programming Languages Volume 2"|"Peter H. Salus"
+"ap 09:59"|"1 to 10"|"struct list *lp;
+for(lp = base; lp != NULL; lp = lp->next)
+        printf(“%d\n”, lp->item);
+
+
+The variable lp steps from node to node, starting at the base of the list and pointing to each node in turn until the null pointer marking the end of the list is found. In this for loop, therefore, the loop control variable is not even an integer (let alone one that steps from, say, 1 to 10). Yet this is a perfectly legal and common loop, illustrating the generality of the for loop while preserving the familiar initialize/test/increment pattern."|"Handbook of Programming Languages Volume 2"|"Peter H. Salus"
 "ap 03:14"|3.14|"printf(“%d, %5d, %-5d, %05d, %5.5d\n”, 1, 2, 3, 4, 5);
 printf(“%o %x %X %#o %#x\n”, 171, 171, 171, 171, 171);
 printf(“%f %e %g\n”, 3.14, 3.14, 3.14);
@@ -45,11 +51,6 @@ procedure SetTime(hour, minute, second, sec100: word); { sets time in OS }
 procedure UnPackTime(time: longint; dnt: datetime); { unpacks longint time to datetime record }
 
 Procedures that need further explanation than what can be obtained from the preceding list are further described. For any spots at which a file variable occurs, the file must be assigned but unopened. The longint time variable is a packed longint. To be read or set, it must be unpacked and packed. The datetime record is predefined for that purpose. It is as described here:"|"Handbook of Programming Languages Volume 2"|"Peter H. Salus"
-00:00|0|"datetime = record
-        year, month, day, hour, minute, second: word;
-
-
-In most of these functions and procedures, the variable doserror is set away from 0, which may be used to check for the successfulness of the statement issued. Otherwise, if this is not the case, the IOResult variable method may be used. Also, the DiskSize and DiskFree functions take a numerical value for a drive, where 0 = current drive, 1 = A, 2 = B, 3 = C, and so forth."|"Handbook of Programming Languages Volume 2"|"Peter H. Salus"
 "ap 01:00"|1|"Positions in strings are between characters, numbered starting at 1 before the first character, and there is a position after the last character, as shown by this example:"|"Handbook of Programming Languages Volume 2"|"Peter H. Salus"
 "ap 01:00"|1|"Every structure has a serial number, and each structure type has a separate series of serial numbers. Serial numbers start at 1 for the first structure created of that type and increase as new structures are created. Each record type has its own series."|"Handbook of Programming Languages Volume 2"|"Peter H. Salus"
 00:00|0|"Because pixel numbering starts at 0, the lower-right pixel in the window shown is numbered (499,199)."|"Handbook of Programming Languages Volume 2"|"Peter H. Salus"

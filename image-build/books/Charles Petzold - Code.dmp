@@ -77,8 +77,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 01:00] Code - Charles Petzold.epub (OEBPS/ch08.html) - 0 to 1',
-            'Here\'s another way of looking at it: When you count in binary, the rightmost digit (also called the least significant digit), alternates between 0 and 1. Every time it changes from a 1 to a 0, the digit second to right (that is, the next most significant digit) also changes, either from <<0 to 1|10a:0>> or from <<1 to 0|10a:0>>. So every time a binary digit changes from a 1 to a 0, the next most significant digit also changes, either from a 0 to a 1 or from a 1 to a 0.',
+            '[23:59] Code - Charles Petzold.epub (OEBPS/ch08.html) - 1 to 0',
+            'Here\'s another way of looking at it: When you count in binary, the rightmost digit (also called the least significant digit), alternates between 0 and 1. Every time it changes from a 1 to a 0, the digit second to right (that is, the next most significant digit) also changes, either from 0 to 1 or from <<1 to 0|10a:0>>. So every time a binary digit changes from a 1 to a 0, the next most significant digit also changes, either from a 0 to a 1 or from a 1 to a 0.',
           ],
           [
             1,
@@ -132,48 +132,13 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 01:00] Code - Charles Petzold.epub (OEBPS/ch14.html) - 0 to 1',
-            'I mentioned earlier that the D-type flip-flop we designed was level-triggered. This means that the Clock input must change its level from <<0 to 1|10a:1>> in order for the value of the Data input to be stored in the latch. But during the time that the Clock input is 1, the Data input can change; any changes in the Data input while the Clock input is 1 will be reflected in the values of the Q and  outputs.',
+            '[23:59] Code - Charles Petzold.epub (OEBPS/ch14.html) - 1 to 0',
+            'The arrow indicates that the output Q becomes the same as the Data input when the Clock makes a transition from 0 to 1. This is known as a positive transition of the Clock signal. (A negative transition is the transition from <<1 to 0|10a:1>>.) The flip-flop has a diagram like this:',
           ],
           [
             1,
-            '[ap 01:00] Code - Charles Petzold.epub (OEBPS/ch14.html) - 0 to 1',
-            'For some applications, a level-triggered Clock input is quite sufficient. But for other applications, an edge-triggered Clock input is preferred. An edge trigger causes the outputs to change only when the Clock makes a transition from <<0 to 1|10a:1>>. As with the level-triggered flip-flop, when the Clock input is 0, any changes to the Data input don\'t affect the outputs. The difference in an edge-triggered flip-flop is that changes to the Data input also don\'t affect the outputs when the Clock input is 1. The Data input affects the outputs only at the instant that the Clock changes from <<0 to 1|10a:1>>.',
-          ],
-          [
-            1,
-            '[ap 01:00] Code - Charles Petzold.epub (OEBPS/ch14.html) - 0 to 1',
-            'The idea here is that the Clock input controls both the first stage and the second stage. But notice that the clock is inverted in the first stage. This means that the first stage works exactly like a D-type flip-flop except that the Data input is stored when the Clock is 0. The outputs of the second stage are inputs to the first stage, and these are saved when the Clock is 1. The overall result is that the Data input is saved when the Clock changes from <<0 to 1|10a:1>>.',
-          ],
-          [
-            1,
-            '[00:00] Code - Charles Petzold.epub (OEBPS/ch14.html) - 0',
-            'Let\'s take a closer look. Here\'s the flip-flop at rest with both the Data and Clock inputs at <<0|9c:1>> and the Q output at <<0|9c:1>>:',
-          ],
-          [
-            1,
-            '[ap 01:00] Code - Charles Petzold.epub (OEBPS/ch14.html) - 0 to 1',
-            'The Q and  outputs can change only at the instant that the Clock input changes from <<0 to 1|10a:1>>.',
-          ],
-          [
-            1,
-            '[ap 01:00] Code - Charles Petzold.epub (OEBPS/ch14.html) - 0 to 1',
-            'The arrow indicates that the output Q becomes the same as the Data input when the Clock makes a transition from <<0 to 1|10a:1>>. This is known as a positive transition of the Clock signal. (A negative transition is the transition from <<1 to 0|10a:1>>.) The flip-flop has a diagram like this:',
-          ],
-          [
-            1,
-            '[ap 01:00] Code - Charles Petzold.epub (OEBPS/ch14.html) - 0 to 1',
-            'When the Clock input changes from <<0 to 1|10a:1>>, the Q output will become the same as the D input:',
-          ],
-          [
-            1,
-            '[ap 01:00] Code - Charles Petzold.epub (OEBPS/ch14.html) - 0 to 1',
-            'What\'s happening here can be summed up very simply: Every time the Clock input changes from <<0 to 1|10a:1>>, the Q output changes, either from <<0 to 1|10a:1>> or from <<1 to 0|10a:1>>. The situation is clearer if we look at the timing diagram:',
-          ],
-          [
-            1,
-            '[ap 01:00] Code - Charles Petzold.epub (OEBPS/ch14.html) - 0 to 1',
-            'When the Clock input goes from <<0 to 1|10a:1>>, the value of D (which is the same as ) is transferred to Q, thus also changing  and D for the next transition of the Clock input from <<0 to 1|10a:1>>.',
+            '[23:59] Code - Charles Petzold.epub (OEBPS/ch14.html) - 1 to 0',
+            'What\'s happening here can be summed up very simply: Every time the Clock input changes from 0 to 1, the Q output changes, either from 0 to 1 or from <<1 to 0|10a:1>>. The situation is clearer if we look at the timing diagram:',
           ],
           [
             1,
@@ -355,16 +320,6 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 02:56] Code - Charles Petzold.epub (OEBPS/ch15.html) - 256',
-            'You start by putting the entire decimal number in the box in the upper left corner. That\'s your first dividend. Divide by 4096, the first divisor. The quotient goes in the box below the dividend, and the remainder goes in the box to the right of the dividend. That remainder is the new dividend that you divide by <<256|3:0>>. Here\'s the conversion of 31,148 back to hexadecimal:',
-          ],
-          [
-            1,
-            '[ap 02:56] Code - Charles Petzold.epub (OEBPS/ch15.html) - 256',
-            'Another approach to converting decimal numbers through 65,535 to hex involves first separating the number into 2 bytes by dividing by <<256|3:0>>. Then for each byte, divide by 16. Here\'s a template for doing it:',
-          ],
-          [
-            1,
             '[03:00] Code - Charles Petzold.epub (OEBPS/ch16.html) - 3:00 A.M.',
             'Nor is human memory foolproof. Indeed, writing was probably invented specifically to compensate for the failings of human memory. Perhaps last night you suddenly woke up at <<3:00 A.M.|2a>> with a great idea for a screenplay. You grabbed the pen and paper you keep by your bed specifically for that purpose, and you wrote it down so you wouldn\'t forget. The next morning you can read the brilliant idea and start work on the screenplay. ("Boy meets girl w. car chase & explosions"? That\'s it?) Or maybe not.',
           ],
@@ -427,11 +382,6 @@ $VAR1 = [
             1,
             '[ap 00:58] Code - Charles Petzold.epub (OEBPS/ch16.html) - 2-to-1',
             'When the Takeover switch is open (as shown), the Address, Data input, and Write inputs to the 64K x 8 RAM array come from external signals shown at the top left of the <<2-to-1|10a:0>> Selectors. When the Takeover switch is closed, the Address, Data input, and Write signals to the RAM array come from the switches on the control panel. In either case, the Data Out signals from the RAM array go to the eight lightbulbs and possibly someplace else.',
-          ],
-          [
-            1,
-            '[ap 01:00] Code - Charles Petzold.epub (OEBPS/ch17.html) - 0 to 1',
-            "At the time I showed this circuit to you in Chapter\x{a0}14, the only latches that I had introduced so far were level triggered. In a level-triggered latch, the Clock input has to go to 1 and then back to 0 in order for the latch to store something. During the time the Clock input is 1, the data inputs of the latch can change and these changes will affect the stored output. Later in that chapter, I introduced edge-triggered latches. These latches save their values in the brief moment that the Clock input goes from <<0 to 1|10a:1>>. Edge-triggered latches are often somewhat easier to use, so I want to assume that all the latches in this chapter are edge triggered.",
           ],
           [
             1,
@@ -835,7 +785,7 @@ STO [<<1003h|1>>],ANotice that the destination (a memory location for the Store 
              SUB L,L
 
              MOV A,B          ; The multiplier goes in A
-             CPI A,00h        ; If it\'s <<0|9c:0>>, we\'re finished.
+             CPI A,00h        ; If it\'s 0, we\'re finished.
              JZ AllDone
 
              MVI B,00h        ; Set high byte of BC to 0
@@ -847,11 +797,6 @@ MultLoop:    DAD HL,BC        ; Add BC to HL
 AllDone:     POP BC           ; Restore saved registers
              POP PSW
              RET              ; ReturnNotice that the first line of the subroutine begins with a label, which is the word Multiply. This label, of course, actually corresponds to a memory address where the subroutine is located. The subroutine begins with two PUSH instructions. Usually a subroutine should attempt to save (and later restore) any registers that it might need to use.',
-          ],
-          [
-            1,
-            '[00:00] Code - Charles Petzold.epub (OEBPS/ch19.html) - 0',
-            'Next the subroutine moves the contents of register B (the multiplier) into A and checks if it\'s <<0|9c:0>>. If it\'s <<0|9c:0>>, the multiplication subroutine is complete because the product is 0. Since registers H and L are already 0, the subroutine can just use the JZ (Jump If Zero) instruction to skip to the two POP instructions at the end.',
           ],
           [
             1,
@@ -922,17 +867,7 @@ AllDone:     POP BC           ; Restore saved registers
           [
             1,
             '[ap 02:00] Code - Charles Petzold.epub (OEBPS/ch21.html) - 200',
-            'We can thus say that the resolution of a primitive video display adapter attached to a conventional television set is 320 pixels across by <<200|3:0>> pixels down, or 320 pixels horizontally by <<200|3:0>> pixels vertically, commonly referred to as 320 by <<200|3:0>> or 320 x 200:',
-          ],
-          [
-            1,
-            '[ap 02:00] Code - Charles Petzold.epub (OEBPS/ch21.html) - 200',
-            'To determine the total number of pixels in this grid, you can count them or simply multiply 320 by <<200|3:0>> to get 64,000 pixels. Depending on how you\'ve configured your video adapter (as I\'ll explain shortly), each pixel can be either black or white, or each pixel can be a particular color.',
-          ],
-          [
-            1,
-            '[ap 03:20] Code - Charles Petzold.epub (OEBPS/ch21.html) - 320',
-            'Using these character definitions, you can fit 25 lines of 40 characters each on the <<320|3c>> x 200 video display, which (for example) is enough to fit an entire short poem by Amy Lowell:',
+            'We can thus say that the resolution of a primitive video display adapter attached to a conventional television set is 320 pixels across by <<200|3:0>> pixels down, or 320 pixels horizontally by <<200|3:0>> pixels vertically, commonly referred to as 320 by 200 or 320 x 200:',
           ],
           [
             1,
@@ -948,11 +883,6 @@ AllDone:     POP BC           ; Restore saved registers
             1,
             '[ap 01:33] Code - Charles Petzold.epub (OEBPS/ch21.html) - 1.33',
             'The 640-by-480 resolution was a significant milestone, but you might not believe that the reason for its importance goes back to Thomas Edison! Around 1889, when Edison and his engineer William Kennedy Laurie Dickson were working on the Kinetograph motion picture camera and the Kinetoscope projector, they decided to make the motion picture image one-third wider than it was high. The ratio of the width of the image to its height is called the aspect ratio. The ratio that Edison and Dickson established is commonly expressed as <<1.33|5a:0>> to 1, or <<1.33|5a:0>>:1, or, to avoid fractions, 4:3. This aspect ratio was used for most movies for over 60 years, and it was also used for television. Only in the early 1950s did the Hollywood studios introduce some widescreen techniques that competed against television by going beyond the 4:3 aspect ratio.',
-          ],
-          [
-            1,
-            '[ap 06:00] Code - Charles Petzold.epub (OEBPS/ch21.html) - 600',
-            'Today\'s video adapters and monitors almost always do 640 by 480 but are also capable of various additional video modes, often including resolutions of 800 by <<600|3:0>>, 1024 by 768, 1280 by <<960|3:0>>, and 1600 by <<1200|3:0>>.',
           ],
           [
             1,
@@ -1143,45 +1073,6 @@ Text: DB \'Hello!$\'
         print (\'The cube of \', a, \' is \', b);
     end
 endThe for statement initially sets the variable <<a to 3|10>> and executes the block following the for statement. Then a is increased by the number following the step keyword, which is <<2|9f>>. The new value of a, which is <<5|9f>>, is used to execute the block. The variable a will continue to be increased by 2. When it exceeds 99, the for loop is completed.',
-          ],
-          [
-            1,
-            '[ap 01:00] Code - Charles Petzold.epub (OEBPS/ch24.html) - 100',
-            'begin
-    real array a[1:100];
-    integer i;
-
-    for i := 1 step 1 until <<100|3:0>> do
-        a[i] := sqrt(i);
-
-    for i := 1 step 1 until <<100|3:0>> do
-        print (\'The square root of \', i, \' is \', a[i]);
-endThis program also shows an integer variable named i (which is a traditional name for an integer variable because it\'s the first letter of the word). In the first for loop, each element of the array is assigned the square root of its index. In the second for loop, these are printed out.',
-          ],
-          [
-            1,
-            '[ap 01:00] Code - Charles Petzold.epub (OEBPS/ch24.html) - 100',
-            "begin
-    Boolean array a[2:10000];
-    integer i, j;
-
-    for i := 2 step 1 until 10000 do
-        a[i] := true;
-
-    for i := 2 step 1 until <<100|3:0>> do
-        if a[i] then
-            for j := 2 step 1 until 10000 \x{f7} i do
-                a[i x j] := false;
-
-    for i := 2 step 1 until 10000 do
-        if a[i] then
-            print (i);
-endThe first for loop sets all the array elements to the Boolean value true. Thus, the program starts by assuming that all the numbers are prime. The second for loop goes from 1 through 100 (the square root of 10,000). If the number is prime, which means that a[i] is true, another for loop sets all the multiples of that number to false. Those numbers aren't prime. The final for loop prints out all the prime numbers, which are the values of i where a[i] is true.",
-          ],
-          [
-            1,
-            '[ap 06:00] Code - Charles Petzold.epub (OEBPS/ch25.html) - 600',
-            'Number of colors = 2Number of bits per pixelA video adapter board has only a certain amount of memory, so it\'s limited in the combinations of resolutions and color depths that are possible. For example, a video adapter board that has a megabyte of memory can do a 640-by-480 resolution with 3 bytes per pixel. But if you want to use a resolution of 800 by <<600|3:0>>, there\'s not enough memory for 3 bytes per pixel. Instead, you\'ll need to use 2 bytes per pixel.',
           ],
           [
             1,

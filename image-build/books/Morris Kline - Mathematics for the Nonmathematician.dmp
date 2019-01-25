@@ -301,42 +301,13 @@ and for t = 4,',
           ],
           [
             1,
-            '[ap 01:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_25_ch18.html) - 0 to 1',
-            "This function requires some study. Suppose the point P makes one revolution per second. Then f = l. The function (6) then is y = sin 2\x{3c0}t. As t increases from <<0 to 1|10a:0>>, the quantity 2\x{3c0}t will increase from 0 to 2\x{3c0}. We must now ask, How will sin 2\x{3c0}t vary as 2\x{3c0}t varies from 0 to 2\x{3c0}? Since the angle which 2\x{3c0}t describes now varies from 0 to 2\x{3c0}, the function will go through the entire cycle of sine values. However, if we now label our horizontal axis with time values, we obtain the graph shown in Fig. 18\x{2013}11.",
-          ],
-          [
-            1,
-            '[ap 01:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_25_ch18.html) - 0 to 1',
-            "Next let us consider a slightly more difficult case. Suppose the point P makes 2 revolutions per second so that f = 2. As t increases from 0 to , 2\x{3c0} \x{b7} 2t will increase from 0 to 2\x{3c0} and sin 2\x{3c0} \x{b7} 2t will go through the entire cycle of sine values. As t increases from  to 1, 2\x{3c0} \x{b7} 2t increases from 2\x{3c0} to 4\x{3c0}. Then sin 2\x{3c0} \x{b7} 2t takes on the values corresponding to angles from 2\x{3c0} to 4\x{3c0}. But in this range the sine function takes on the same values as it does in the range from 0 to 2\x{3c0}. Hence in the entire interval <<0 to 1|10a:0>> for t, the graph will be as shown in Fig. 18\x{2013}12. The conclusion, which emerges clearly from the graph, is that",
-          ],
-          [
-            1,
             '[ap 01:59] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_25_ch18.html) - 1 to 2',
             "5.\x{a0}\x{a0}What is the shape of the graph of y = sin 2\x{3c0} \x{b7} 2t as t varies from <<1 to 2|10a:0>>?",
           ],
           [
             1,
-            '[ap 01:59] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_25_ch18.html) - 1 to 2',
-            "5.\x{a0}\x{a0}What is the shape of the graph of y = sin 2\x{3c0} \x{b7} 2t as t varies from <<1 to 2|10a:0>>?
-6.\x{a0}\x{a0}Graph the function y = sin 2\x{3c0} \x{b7} 3t as \x{a3} varies from <<0 to 1|10a:0>>.
-7.\x{a0}\x{a0}Graph the function y = 2 sin 2\x{3c0} \x{b7} 2t as t varies from <<0 to 1|10a:0>>.",
-          ],
-          [
-            1,
-            '[ap 01:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_25_ch18.html) - 0 to 1',
-            "6.\x{a0}\x{a0}Graph the function y = sin 2\x{3c0} \x{b7} 3t as \x{a3} varies from <<0 to 1|10a:0>>.
-7.\x{a0}\x{a0}Graph the function y = 2 sin 2\x{3c0} \x{b7} 2t as t varies from <<0 to 1|10a:0>>.
-8.\x{a0}\x{a0}What is the frequency (in one second) of y = sin 2\x{3c0} \x{b7} 10t?",
-          ],
-          [
-            1,
             '[ap 00:58] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_26_ch19.html) - 2 to 1',
             'The mathematical study of musical sounds did not start with the application of trigonometric functions. Indeed, it goes back to the very first emergence of any real mathematics and science, namely the beginning of the classical Greek period. For example, the Pythagoreans discovered that the lengths of two equally taut plucked strings whose sounds harmonize are related by simple numerical ratios such as <<2 to 1|10a:0>>, <<4 to 3|10a:0>>, and <<3 to 2|10a:0>>. The lower note in each case originates with the longer string. They also designed musical scales whose notes, as measured quantitatively by the lengths of the vibrating strings, possessed precise numerical values. From Pythagorean times onward, mathematicians and scientists were convinced that musical sounds had important mathematical properties, and music, along with arithmetic, geometry, and astronomy, became part of the quadrivium. These four subjects were studied together right through the medieval period. Although Greek, Arab, and medieval mathematicians continued to investigate musical sounds and wrote books on music, their work was essentially limited to the construction of new systems of scales for instrumental and vocal music.',
-          ],
-          [
-            1,
-            '[ap 01:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_26_ch19.html) - 0 to 1',
-            "How far need we carry this process of determining y-values corresponding to various t-values? We note that the function y1 = sin 2\x{3c0}t repeats itself when t becomes larger than 1. The function y2 = sin 4\x{3c0}t goes through two full cycles in the interval from t = 0 to t = 1 and begins its third cycle of sine values as soon as t increases beyond 1. Thus at t = 1 both functions begin to repeat the values which they had taken on at t = 0 and, in the interval from t = 1 to t = 2, both functions will repeat the behavior exhibited in the interval from t = 0 to t = 1. Since y1 and y2 repeat their former behavior, it follows that y, which is the sum of y1 and y2, will also repeat its former behavior. In other words, in the interval from t = 1 to t = 2, y will behave precisely as it did in the interval from t = 0 to t = 1. And in each succeeding unit interval of t-values, the function will repeat the behavior exhibited in the interval from t = 0 to t = 1. If we therefore determine the behavior of y in the interval from <<0 to 1|10a:0>>, we know how it behaves for all larger values of t.",
           ],
           [
             1,
@@ -347,11 +318,6 @@ and for t = 4,',
             1,
             '[22:39] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_26_ch19.html) - 21 to 23',
             'SEARS, FRANCIS W. and MARK W. ZEMANSKY: University Physics,3rd ed., Chaps. <<21 to 23|10a:0>>, Addison-Wesley Publishing Co., Inc., Reading, Mass., 1964.',
-          ],
-          [
-            1,
-            '[22:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_27_ch20.html) - 22',
-            "The first to draw the conclusion which Saccheri should have drawn was Karl Friedrich Gauss (1777\x{2013}1855). Gauss was one of the greatest mathematicians of all times. His father was a bricklayer who expected his son to adopt the same trade. However, Gauss showed his precocity in elementary school, and his teachers saw to it that he received a good education. At the University of G\x{f6}ttingen his teachers were hard put to keep up with him. At <<22|9m:0>> Gauss submitted his doctoral thesis to the University of Helmstedt. In this thesis he proved what is often called the fundamental theorem of algebra, namely, that every algebraic equation of any degree has at least one root. At the age of 30 he was appointed professor of astronomy at the University of G\x{f6}ttingen. He discouraged students from attending his lectures.",
           ],
           [
             1,
@@ -433,11 +399,6 @@ ALDER, HENRY L. and EDWARD B. ROESSLER: Introduction to Probability and Statisti
           ],
           [
             1,
-            '[ap 01:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_30_ch23.html) - 0 to 1',
-            'From this general definition of probability it follows that if no possible outcomes were favorable, that is, if the event were impossible, the probability of the event would be 0/n, or 0. If all n possible outcomes were favorable, that is, if the event were certain, the probability would be n/n, or 1. Hence the numerical measure of probability can range from <<0 to 1|10a:0>>, from impossibility to certainty.',
-          ],
-          [
-            1,
             '[20:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_30_ch23.html) - 0 to 20',
             "The possible outcomes, that is, the possible numbers of those remaining alive without treatment among 20 afflicted people, are precisely the same as the possible outcomes in a throw of 20 coins. Just as the number of heads which may show up can vary from <<0 to 20|10a:0>>, so among the 20 people, none may live beyond the specified period, one may, and so on up to 20. Since the probability that any one person will remain alive is the same as that of tossing a head on a single throw, the probabilities of the various outcomes will be the same in the two situations. Hence the mean number of those remaining alive is () \x{b7} 20, or 10. The standard deviation of this distribution is . In our case,",
           ],
@@ -455,13 +416,6 @@ ALDER, HENRY L. and EDWARD B. ROESSLER: Introduction to Probability and Statisti
             1,
             '[ap 02:59] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_31_ch24.html) - 1 to 3',
             'SAWYER, W. W.: Prelude to Mathematics, Chaps. <<1 to 3|10a:0>>, Penguin Books Ltd., Harmondsworth, England, 1955.',
-          ],
-          [
-            1,
-            '[ap 01:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_33_ans.html) - 100',
-            "2.\x{a0}\x{a0}418,500 mi
-3.\x{a0}\x{a0}100 by <<100|3:0>>
-4.\x{a0}\x{a0} by",
           ],
           [
             1,
@@ -522,11 +476,6 @@ Chapter 20',
           ],
           [
             1,
-            '[ap 01:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_34_add.html) - 100',
-            "5.\x{a0}\x{a0}As in Exercise 2, one cannot multiply dollars by dollars or cents by cents. One can multiply 6 by 1 or 600 by <<100|3:0>>. The correct mathematics in this situation is 6 times 1 where physically the 6 means 6 repetitions and the 1 means 1 dollar. For this physical interpretation the 6 cannot be replaced by <<600|3:0>>.",
-          ],
-          [
-            1,
             '[ap 04:59] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_34_add.html) - 1 to 5',
             '3. The argument is false. It is true that no irrational can be expressed with a finite number of decimal places. But there may be and there are other numbers which cannot be expressed with a finite number of decimal places.
 <<1 to 5|10a:0>>. The answers are given in the answer section of the textbook.
@@ -534,20 +483,10 @@ Chapter 20',
           ],
           [
             1,
-            '[ap 01:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_34_add.html) - 100',
-            '3. By the argument in the text the rectangle of maximum area should be a square. Hence the dimensions are 100 by <<100|3:0>>.',
-          ],
-          [
-            1,
             '[23:59] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_34_add.html) - 1 to 0',
             "(f)\x{a0}\x{a0}\x{a0}tan 80\x{b0} = 5.6713
 3. cos A varies from <<1 to 0|10a:0>>.
 4. tan A varies from 0 to unlimitedly large values.",
-          ],
-          [
-            1,
-            '[00:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_34_add.html) - 0',
-            '18. We have d = v2/22. This is the distance traveled when the velocity starts from <<0|9c:0>> and the acceleration is 11 ft/sec2. When v = 88, d = 352. If the object starts with 88 ft/sec and decelerates at 11 ft/sec2, it will travel 352 ft before reaching 0 velocity. In one second the automobile travels 88 ft.',
           ],
           [
             1,
@@ -566,18 +505,8 @@ Chapter 20',
           ],
           [
             1,
-            '[00:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_34_add.html) - 0',
-            "7.\x{a0}\x{a0}It starts from <<0|9c:0>>, rises to 1 at 90\x{b0}, falls to 0 at 180\x{b0}, falls farther to \x{2212}1 at 270\x{b0} and then rises to 0 at 360\x{b0}. Thereafter it repeats this behavior every 360\x{b0}.",
-          ],
-          [
-            1,
-            '[ap 01:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_34_add.html) - 0 to 1',
-            "9.\x{a0}\x{a0}The period is 360\x{b0}. The cycle refers to the set of y-values going from <<0 to 1|10a:0>> to \x{2212}1 to 0.",
-          ],
-          [
-            1,
-            '[ap 01:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_34_add.html) - 0 to 1',
-            "5.\x{a0}\x{a0}The shape is the same as when t varies from <<0 to 1|10a:0>>. See Fig. <<18-12|5a:0>>.",
+            '[18:12] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_34_add.html) - 18-12',
+            "5.\x{a0}\x{a0}The shape is the same as when t varies from 0 to 1. See Fig. <<18-12|5a:0>>.",
           ],
           [
             1,

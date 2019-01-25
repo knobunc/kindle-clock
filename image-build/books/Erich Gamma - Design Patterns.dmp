@@ -21,11 +21,6 @@ $VAR1 = [
           ],
           [
             1,
-            '[00:00] Design Patterns_ Elements of Reusable Obje - Erich Gamma.epub (OEBPS/html/ch03.html) - 0',
-            "Clients access the singleton exclusively through the Instance member function. The variable _instance is initialized to 0, and the static member function Instance returns its value, initializing it with the unique instance if it is <<0|9c:0>>. Instance uses lazy initialization; the value it returns isn\x{2019}t created and stored until it\x{2019}s first accessed.",
-          ],
-          [
-            1,
             '[ap 01:00] Design Patterns_ Elements of Reusable Obje - Erich Gamma.epub (OEBPS/html/ch05.html) - one',
             '1. How intelligent should a command be? A command can have a wide range of abilities. At <<one|9m:0>> extreme it merely defines a binding between a receiver and the actions that carry out the request. At the other extreme it implements everything itself without delegating to a receiver at all. The latter extreme is useful when you want to define commands that are independent of existing classes, when no suitable receiver exists, or when a command knows its receiver implicitly. For example, a command that creates another application window may be just as capable of creating the window as any other object. Somewhere in between these extremes are commands that have enough knowledge to find their receiver dynamically.',
           ],

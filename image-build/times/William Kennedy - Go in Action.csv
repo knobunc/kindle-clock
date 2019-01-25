@@ -39,6 +39,22 @@
       Let’s start with the declaration of the function on line 18. The function takes no parameters and returns two values. The
          first return value is a slice of pointers to Feed type values. The second return value is an error value that reports back if the function call was successful. As you’ll continue
          to see, returning error values is common practice in this code example and throughout the standard library."|"Go in Action"|"William Kennedy"
+"ap 04:41"|4.41|"Listing 4.41. Iterating over a slice using a traditional for loop
+      
+      // Create a slice of integers.
+// Contains a length and capacity of 4 elements.
+slice := []int{10, 20, 30, 40}
+
+// Iterate over each element starting at element 3.
+for index := 2; index < len(slice); index++ {
+    fmt.Printf(""Index: %d  Value: %d\n"", index, slice[index])
+}
+
+Output:
+Index: 2  Value: 30
+Index: 3  Value: 40
+      
+      There are two special built-in functions called len and cap that work with arrays, slices, and channels. For slices, the len function returns the length of the slice, and the cap function returns the capacity. In listing 4.41, we used the len function to determine when to stop iterating over the slice."|"Go in Action"|"William Kennedy"
 "ap 05:28"|5.28|"Listing 5.28. golang.org/src/time/time.go: lines 39–55
       
       39 type Time struct {

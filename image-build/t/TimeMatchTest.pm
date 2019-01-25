@@ -5882,7 +5882,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [18:33]: 6.33pm',
-            "Every evening, Michel took the train home, changed at Esbly and usually arrived in Cr\x{e9}cy on the <<6.33pm|2a>> train where Annabelle would be waiting at the station."
+            "Every evening, Michel took the train home, changed at Esbly and usually arrived in Cr\x{e9}cy on the <<6.33pm|3c>> train where Annabelle would be waiting at the station."
           ],
           [
             1,

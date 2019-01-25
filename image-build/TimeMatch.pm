@@ -954,6 +954,9 @@ sub get_matches {
                         {
                             $branch = "10";
                         }
+                        elsif ($t1 =~ m{\A 0 \s+ to \s+ 1 \z}xin) {
+                            $branch = "y10";
+                        }
                     }
                     elsif ($t1 =~ m{\A $minsec_dig_re \s+ of \s+ $hour24_word_re \z}xin or
                            $t1 =~ m{\A $min_word_re   \s+ of \s+ $hour24_dig_re  \z}xin)
@@ -1233,16 +1236,22 @@ sub get_matches {
                     }
                   })
               }xin;
+
     # Three in the morning
     push @r,qr{ (?<li> $not_in_match )
-                (?<t1> ( $rel_words \s+ )? $hour_re )
+                (?<t1> ( $rel_words \s+ )? (?<hh> $hour_re ) )
                 (?<po> \s+
                        ( in | on | that | this | the ) \s+
                        (\w+ \s+){0,3}?
                        ( $morn_re | night )
                 )
                 $ba_re
-                (?{ $branch = "3d"; })
+                (?{ $branch = "3d";
+                    my ($hh, $po) = @+{qw( hh po )};
+                    if ($hh =~ m{\A 0+ \z}xin) {
+                        $branch = "xx";
+                    }
+                  })
               }xin;
 
     # Hour\? ... Three
@@ -2079,16 +2088,16 @@ sub extract_times {
                 ( (?<rl> $rel_at_words | a \s+ few | just ) \s+
                 | (?<rl> ( $rel_at_words \s+ )? (a | $min_re) \s+ (minutes? \s+)? or ) \s+
                 )?
-                ( (?<mn> $min_re | a ) [-\s]+ )?
-                ( and ( \s+ | [-] )
+                ( (?<mn> $min_re | a ) ($hyph | \s)+ )?
+                ( and ( \s+ | $hyph )
                   ( a \s+ half | 1/2 | a \s+ quarter | 1/4 ) \s+
                 )?
                   ( minutes? ,? \s+ )? ( good ,? \s+ )?
-                ( and ( \s+ | [-] ) (?<sec> $sec_re ) \s+ seconds? \s+ )?
-                  (?<dir> $till_re ) [-\s]+
+                ( and ( \s+ | $hyph ) (?<sec> $sec_re ) \s+ seconds? \s+ )?
+                  (?<dir> $till_re ) ( $hyph | \s )+
                   ( the \s+ hour [,;]? \s+ which \s+ was \s+ )?
                   (?<hr> $hour24_re )
-                ( [-\s]+ (?<m3> $min_re ) )?
+                ( ( $hyph | \s )+ (?<m3> $min_re ) )?
                 ( \s+ $oclock_re )?
                 ( [:,]? \s* (?<am> $ampm_re ) )?
                 (?{ $branch = "4"; })

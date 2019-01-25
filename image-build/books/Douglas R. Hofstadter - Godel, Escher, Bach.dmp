@@ -26,11 +26,6 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 10:00] Godel, Escher, Bach_ An Eternal Golden Bra - Douglas R. Hofstadter.epub (OEBPS/Text/part0004.html) - 1000',
-            "As it is now formulated, TNT has reached \"critical mass\" (perhaps a strange metaphor to apply to something called \"TNT\"). It is of the same strength as the system of Principia Mathematica; in TNT one can now prove every theorem which you would find in a standard treatise on number theory. Of course, no one would claim that deriving theorems in TNT is the best way to do number theory. Anybody who felt that way would fall in the same class of people as those who think that the best way to know what 1000 x 1000 is, is to draw a 1000 by <<1000|3:0>> grid, and count all the squares in it . . . No; after total formalization, the only way to go is towards relaxation of the formal system. Otherwise, it is so enormously unwieldy as to be, for all practical purposes, useless. Thus, it is important to embed TNT within a wider context, a context which enables new rules of inference to be derived, so that derivations can be speeded up. This would require formalization of the language in which rules of inference are expressed\x{2014}that is, the metalanguage. And one could go considerably further. However, none of these speeding-up tricks would make TNT any more powerful; they would simply make it more usable. The simple fact is that we have put into TNT every mode of thought that number theorists rely on. Embedding it in ever larger contexts will not enlarge the space of theorems; it will just make working in TNT\x{2014}or in each \"new, improved version\"\x{2014}look more like doing conventional number theory.",
-          ],
-          [
-            1,
             '[12:00] Godel, Escher, Bach_ An Eternal Golden Bra - Douglas R. Hofstadter.epub (OEBPS/Text/part0004.html) - midday',
             'find some shade from the <<midday|13>> sun?" Achilles: Without knowing it, you have inadvertently hit upon one of the',
           ],
@@ -70,11 +65,6 @@ My gracious! There seems to be no end to the number of different',
             1,
             '[ap 02:00] Godel, Escher, Bach_ An Eternal Golden Bra - Douglas R. Hofstadter.epub (OEBPS/Text/part0007.html) - 2',
             "Now let us look at another procedure which will show us some other features of BlooP which give it more generality. How do you find out, knowing only how to add, what the value of M - N is? The trick is to add various numbers onto N until you find the one which yields M. However, what happens if M is smaller than N? What if we are trying to take 5 from <<2|9c:0>>? In the domain of natural numbers, there is no answer. But we would like our BlooP procedure to give an answer anyway\x{2014}let's say 0. Here, then, is a BlooP procedure which does subtraction:",
-          ],
-          [
-            1,
-            '[00:00] Godel, Escher, Bach_ An Eternal Golden Bra - Douglas R. Hofstadter.epub (OEBPS/Text/part0007.html) - 0',
-            'Here we are making use of the implicit feature that OUTPUT begins at <<0|9c:0>>. If M is less than N, then the subtraction is impossible, and we simply jump to the bottom of BLOCK 0 right away, and the answer is 0. That is what is meant by the line QUIT BLOCK 0. But if M is not less than N, then we skip over that QUIT-statement, and carry out the next command in sequence (here, a LOOP-statement). That is how IF-statements always work in BlooP.',
           ],
           [
             1,

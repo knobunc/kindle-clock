@@ -22,7 +22,7 @@ $VAR1 = [
           [
             1,
             '[ap 11:00] Beyond Infinity_ An Expedition to the Oute - Eugenia Cheng.epub (OEBPS/Text/chapter003.xhtml) - eleven',
-            "When you start a new job someone might give you a handy list of all the acronyms you need to get used to. Alas, we can\x{2019}t list shorthand names for every single possible number, but we can develop a principle for building up new names from old ones. You might be able to remember this from learning a foreign language. You usually have to learn the numbers one to ten by rote, and then somewhere between ten and twenty a logical pattern starts to develop. In English this happens after fifteen, as we get sixteen, seventeen, eightteen (aside from the extra t there), nineteen. (You could argue that thirteen, fourteen, and fifteen all fit this pattern but with strange spelling.) In Spanish you also get a pattern from sixteen onward, but in French you have to wait until seventeen. In German you only have to wait until thirteen, and in Cantonese it happens right at <<eleven|9c:1>>, as the numbers are then said as \x{201c}<<ten-one|9j>>, <<ten-two|9j>>, <<ten-three|9j>>, <<ten-four|9j>>, \x{2026}\x{201d}",
+            "When you start a new job someone might give you a handy list of all the acronyms you need to get used to. Alas, we can\x{2019}t list shorthand names for every single possible number, but we can develop a principle for building up new names from old ones. You might be able to remember this from learning a foreign language. You usually have to learn the numbers one to ten by rote, and then somewhere between ten and twenty a logical pattern starts to develop. In English this happens after fifteen, as we get sixteen, seventeen, eightteen (aside from the extra t there), nineteen. (You could argue that thirteen, fourteen, and fifteen all fit this pattern but with strange spelling.) In Spanish you also get a pattern from sixteen onward, but in French you have to wait until seventeen. In German you only have to wait until thirteen, and in Cantonese it happens right at <<eleven|9c:1>>, as the numbers are then said as \x{201c}<<ten-one|9j>>, <<ten-two|9j>>, <<ten-three|9j>>, ten-four, \x{2026}\x{201d}",
           ],
           [
             1,
@@ -33,11 +33,6 @@ $VAR1 = [
             1,
             '[ap 03:14] Beyond Infinity_ An Expedition to the Oute - Eugenia Cheng.epub (OEBPS/Text/chapter004.xhtml) - 3.14',
             "You might want to object at the moment and claim that \x{3c0} = 22/7. However, this famous fraction is only an approximation to \x{3c0} and was handy in the days before there were calculators, let alone calculators on phones with a \x{3c0} button. \x{3c0} and 22/7 only agree in the first two decimal places, <<3.14|9p>>. This is perfectly good enough for whenever I need \x{3c0} in my daily life (which mostly involves scaling cake recipes up or down), but it\x{2019}s very far from being mathematically equal. Actually, when I\x{2019}m scaling a cake recipe I use 3 as a good enough approximation to \x{3c0}.",
-          ],
-          [
-            1,
-            '[ap 01:00] Beyond Infinity_ An Expedition to the Oute - Eugenia Cheng.epub (OEBPS/Text/chapter006.xhtml) - 0 to 1',
-            "It\x{2019}s convenient only to think about the numbers between 0 and 1 because it saves us worrying about the part of the number before the decimal point: every room has a different decimal expansion that starts 0.something and goes on forever. (Let\x{2019}s not think about how long it would take you to ask for your key.) Now imagine trying to evacuate this hotel: this is the question of finding a perfect pairing between the real numbers (from <<0 to 1|10a:0>>) and the natural numbers, which is what we mean by \x{201c}countable.\x{201d}",
           ],
           [
             1,
@@ -57,18 +52,13 @@ copies of this portion. Moreover, we can restrict our attention to any portion o
           ],
           [
             1,
-            '[ap 01:00] Beyond Infinity_ An Expedition to the Oute - Eugenia Cheng.epub (OEBPS/Text/chapter008.xhtml) - 0 to 1',
-            "This argument would work for any size of interval, from any real number to any other real number. To scale the portion from <<0 to 1|10a:0>> up to the whole of the reals, we have to do something more sneaky as we can\x{2019}t just \x{201c}multiply everything by infinity.\x{201d} We could get all the positive real numbers like this: Start with your x taken from between 0 and 1. Then calculate 1/x, which will give us something between 1 and infinity. Then subtract 1. This will give us a pairing of the real numbers between 0 and 1 with all the real numbers between 0 and infinity.",
-          ],
-          [
-            1,
             '[06:00] Beyond Infinity_ An Expedition to the Oute - Eugenia Cheng.epub (OEBPS/Text/chapter009.xhtml) - 6 a.m.',
             "This reminds me of the times I have stood in the queue at the Royal Albert Hall to go to the Proms, a series of concerts. When you arrive, you\x{2019}re given a raffle ticket telling you your place in the queue. I once arrived at <<6 a.m.|5>> to queue to see the amazing Sim\x{f3}n Bolivar Orchestra conducted by Gustavo Dudamel, playing Mahler\x{2019}s Second Symphony, one of my favorites. I was very excited to be number 6 in the queue, and after spending all day as number 6 I had become quite good friends with number 5. (Numbers 7 and 8 were my parents.) In this case it really matters what order everyone arrives in. I arrived that early because I really wanted to be at the very front, and after queueing for thirteen hours, I didn\x{2019}t really want anyone to push in front of me. Numbers 1, 2, and 3 had camped out overnight to get their places.",
           ],
           [
             1,
             '[ap 05:00] Beyond Infinity_ An Expedition to the Oute - Eugenia Cheng.epub (OEBPS/Text/chapter009.xhtml) - 5',
-            "Instead we have to go back to the way you do subtraction when you\x{2019}re little and you don\x{2019}t know how to count backward yet. Let\x{2019}s think about 5 \x{2212} 3. We all know the answer is 2, because we can count backward from <<5|9c:0>>, or because we can put up five fingers and then put two of them down and count the rest. Or just because we know. However, if you only know how to count up and not down, you can do this by starting at <<3|9g>> and seeing how many steps it takes to count up to 5. When children do this, they are answering the question \x{201c}What do I have to add to 3 to make 5?\x{201d} We could get a bit fancy and write that as an equation:",
+            "Instead we have to go back to the way you do subtraction when you\x{2019}re little and you don\x{2019}t know how to count backward yet. Let\x{2019}s think about 5 \x{2212} 3. We all know the answer is 2, because we can count backward from <<5|9c:1>>, or because we can put up five fingers and then put two of them down and count the rest. Or just because we know. However, if you only know how to count up and not down, you can do this by starting at <<3|9g>> and seeing how many steps it takes to count up to 5. When children do this, they are answering the question \x{201c}What do I have to add to 3 to make 5?\x{201d} We could get a bit fancy and write that as an equation:",
           ],
           [
             1,
@@ -104,11 +94,6 @@ copies of this portion. Moreover, we can restrict our attention to any portion o
             1,
             '[ap 01:00] Beyond Infinity_ An Expedition to the Oute - Eugenia Cheng.epub (OEBPS/Text/chapter015.xhtml) - 1',
             "We can now give the target-test treatment to recurring decimals as well. Let\x{2019}s think about that most confounding one, 0.99999999\x{a0}\x{b7}\x{a0}\x{b7}\x{a0}\x{b7}, which is also written as , and you might have been told at some point in your life that this \x{201c}equals 1.\x{201d} What does this actually mean? We tend to think of this recurring decimal as \x{201c}0.999\x{a0}\x{b7}\x{a0}\x{b7}\x{a0}\x{b7} with the 9\x{2019}s going on forever,\x{201d} but now we know how to deal with it in a rigorous mathematical way. It\x{2019}s just like eating the cake. We gradually proceed down the decimal places. After the first decimal place we have 0.9. After the second decimal place we have 0.99. After the third we have 0.999. And so on. The definition of  is that it is the limit of this process. So when we are saying  = 1 all we are claiming is that the limit of this process is 1. It doesn\x{2019}t mean we actually ever reach 1. It means that if an evil opponent comes along and sets up a target for us with a bull\x{2019}s-eye at <<1|9c:0>>, we can pass the target test no matter how small they make the target.",
-          ],
-          [
-            1,
-            '[00:00] Beyond Infinity_ An Expedition to the Oute - Eugenia Cheng.epub (OEBPS/Text/chapter015.xhtml) - 0',
-            'Here, as a sort of technicality, we start n at <<0|9c:0>> and define 0! to be 1.',
           ],
           [
             1,

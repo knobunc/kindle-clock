@@ -22,7 +22,7 @@ $VAR1 = [
           [
             1,
             '[ap 06:00] Concepts of Modern Mathematics - Ian Stewart.epub (OEBPS/e9780486134956_c03.html) - 0 to 6',
-            'Suppose we number the days of the week from <<0 to 6|10a:0>>, starting at Sunday, as in Figure 17.',
+            'Suppose we number the days of the week from <<0 to 6|10a:1>>, starting at Sunday, as in Figure 17.',
           ],
           [
             1,
@@ -61,11 +61,6 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 01:00] Concepts of Modern Mathematics - Ian Stewart.epub (OEBPS/e9780486134956_c16.html) - 0 to 1',
-            "which take alternately the values 0 and 1. As n gets larger and larger these do not settle down to some kind of \x{2018}limit\x{2019}; they just hop happily from <<0 to 1|10a:0>> and back again.",
-          ],
-          [
-            1,
             '[ap 02:00] Concepts of Modern Mathematics - Ian Stewart.epub (OEBPS/e9780486134956_c16.html) - 2',
             'Functions can be continuous at some points and discontinuous at others. The postal-charge function is discontinuous at <<2|9c:0>>, 4, 6, 8, 10, 12, 14, 16, 24, and 32 oz., but continuous everywhere else in the range 0 to 32 oz.',
           ],
@@ -78,18 +73,6 @@ $VAR1 = [
             1,
             '[ap 02:00] Concepts of Modern Mathematics - Ian Stewart.epub (OEBPS/e9780486134956_c17.html) - 2',
             'If B is thrown in competition with C it will win when C shows <<2|11b:0>>, lose when C shows 7. So',
-          ],
-          [
-            1,
-            '[ap 01:00] Concepts of Modern Mathematics - Ian Stewart.epub (OEBPS/e9780486134956_c18.html) - 0 to 1',
-            'If we imagine the ball-bearings added one by one, from right to left, we can follow the steps of the calculation. There is no ball-bearing in the first slot. The one in the second slot changes <<0 to 1|10a:0>> and is output as waste, leaving the machine in states',
-          ],
-          [
-            1,
-            '[ap 01:00] Concepts of Modern Mathematics - Ian Stewart.epub (OEBPS/e9780486134956_c18.html) - 0 to 1',
-            '
-Then it passes through again, changing <<0 to 1|10a:0>> and emerging as waste:
-0 1 1 1 0 1 1 1 0.',
           ],
           [
             1,

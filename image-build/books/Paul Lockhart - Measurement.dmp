@@ -11,18 +11,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[00:00] Measurement - Paul Lockhart.epub (text/part0008_split_001.html) - 0',
-            "Maybe the best way to see this is to think about the coordinates separately. The horizontal position needs to begin at <<0|9c:0>>, decrease to \x{2212}1, and then move back to 0, up to 1, and back to 0 again. That\x{2019}s exactly what sin t does\x{2014}only negated. So the horizontal coordinate is moving in the \x{2212}sin t pattern; similarly for the vertical, only with cosine. Alternatively, our point is moving in the customary way from the perspective of someone standing on the other side of the plane, looking sideways. This has the effect of reversing the coordinates and negating them\x{2014}more relativity, I suppose. In any case, we have a precise description of the motion of the point from the point of view of the center.",
-          ],
-          [
-            1,
             '[ap 04:17] Measurement - Paul Lockhart.epub (text/part0009.html) - 417',
             "For example, if we have two piles of sizes 231 and 186, what is the code for their sum; that is, the pile we get when we push the two piles together? As I am sure you are aware, there is a well-known system for determining this sort of thing: 6 plus 1 is 7, 8 plus 3 is 11, carry the 1, add that to 2, plus 1 is 4, so it\x{2019}s <<417|9f>>.",
-          ],
-          [
-            1,
-            '[ap 03:16] Measurement - Paul Lockhart.epub (text/part0009.html) - 316',
-            'Thus we have the multiplicative calculus of elementary arithmetic, which includes a few procedures such as carrying and place shifting, as well as the infamous times tables. The amazing power of this system is that it allows us to quickly and easily perform calculations that would otherwise be very time consuming and laborious. To multiply 1876 by <<316|3:0>> we merely have to jiggle a few symbols around (or better yet, let a machine do it). Nobody has to do the backbreaking work of laying out 1876 rows of 316 rocks and then counting the whole mess by hand. A calculus is a fantastic thing to have.',
           ],
           [
             1,

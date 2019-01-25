@@ -1,11 +1,6 @@
 $VAR1 = [
           [
             1,
-            '[ap 01:00] Lost in Math_ How Beauty Leads Physics Ast - Sabine Hossenfelder.epub (OEBPS/appendix002.xhtml) - 0 to 1',
-            "To better see why this criterion is circular, think of a probability distribution on the interval from <<0 to 1|10a:0>> that is peaked around some value with a width of, say, 10\x{2212}10. \x{201c}There,\x{201d} you exclaim, \x{201c}you have introduced a small number! That\x{2019}s fine-tuned!\x{201d} Not so fast. It\x{2019}s fine-tuned according to a uniform probability distribution. But I\x{2019}m not using a uniform distribution; I\x{2019}m using a sharply peaked one. And if you use this distribution, then it is very likely that two randomly selected numbers are at a distance of 10\x{2212}10. \x{201c}But,\x{201d} you say, \x{201c}that\x{2019}s a circular argument.\x{201d} Right, but that was my point, not yours. The sharply peaked probability distribution justifies itself as much or as little as the uniform distribution does. So which one is better?",
-          ],
-          [
-            1,
             '[20:00] Lost in Math_ How Beauty Leads Physics Ast - Sabine Hossenfelder.epub (OEBPS/chapter001.xhtml) - 2000',
             "It hasn\x{2019}t happened. No evidence for susy was found at the Large Electron Positron (LEP) collider, which ran until <<2000|9c:0>>. Neither was anything found at the Tevatron, a collider that reached higher energies than LEP and that ran until <<2011|9c:0>>. The even more powerful LHC, which reused LEP\x{2019}s tunnel, has been running since 2008, but susy hasn\x{2019}t shown up.",
           ],
@@ -51,11 +46,6 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap ~ 10:16] Lost in Math_ How Beauty Leads Physics Ast - Sabine Hossenfelder.epub (OEBPS/chapter007.xhtml) - about 1016',
-            "THE STANDARD model needs three different symmetry groups\x{2014}U(1) and SU(2) for the electroweak interaction, and SU(3) for the strong nuclear force. These are small groups, as you can tell by the small numbers. But larger symmetry groups often contain several smaller groups, and therefore one large group whose symmetry is broken at high energy could give rise to the standard model at the energies we observe. In this picture, the grand unified symmetry is like an elephant, of which we have presently, at low energies, only an ear, a tail, and a leg. The full elephant would be restored only at the unification energy, estimated to be <<about 1016|18:0>> GeV, or 15 orders of magnitude above LHC energies.",
-          ],
-          [
-            1,
             '[20:15] Lost in Math_ How Beauty Leads Physics Ast - Sabine Hossenfelder.epub (OEBPS/chapter007.xhtml) - 2015',
             'LESS LONG-TERM FUNDING: The fraction of academics holding tenured faculty positions is on the decline, while an increasing percentage of researchers are employed on non-tenured and part-time contracts.20 From 1974 to 2014 the fraction of full-time tenured faculty in the United States decreased from 29 percent to 21.5 percent. At the same time, the share of part-time faculty increased from 24 percent to more than 40 percent. Surveys by the American Association of University Professors reveal that the lack of continuous support discourages long-term commitment and risk-taking when choosing research topics.21 The situation in Germany is similar. In 2005, 50 percent of full-time working academics were on short-term contracts. By <<2015|9n:0>>, that figure had increased to 58 percent.22',
           ],
@@ -63,11 +53,6 @@ $VAR1 = [
             1,
             '[ap 08:35] Lost in Math_ How Beauty Leads Physics Ast - Sabine Hossenfelder.epub (OEBPS/chapter008.xhtml) - twenty-five to nine',
             "Next, string theorists discovered that supersymmetry was necessary to keep the vacuum of their theory from decaying. This brought down the total number of dimensions from <<twenty-five to nine|10a:0>> (plus one time dimension), but the need for compactification remained. Since no supersymmetric particles had been observed, string theorists assumed that supersymmetry is broken at high energies, so superpartners, should they exist, wouldn\x{2019}t yet have been seen.",
-          ],
-          [
-            1,
-            '[ap ~ 10:18] Lost in Math_ How Beauty Leads Physics Ast - Sabine Hossenfelder.epub (OEBPS/chapter008.xhtml) - approximately 1018',
-            "THE PLANCK energy is where we should start to notice the quantum fluctuations of space-time. It\x{2019}s at <<approximately 1018|3:0>> GeV, gigantically large compared to the energies that we can reach with colliders (see Figure 14). The large gap between the presently accessible energies and the energies at which grand unification and quantum gravity should become relevant is often called \x{201c}the desert\x{201d} because, for all we know right now, it might be void of new phenomena.",
           ],
           [
             1,
@@ -82,7 +67,7 @@ $VAR1 = [
           [
             1,
             '[ap 02:36] Lost in Math_ How Beauty Leads Physics Ast - Sabine Hossenfelder.epub (OEBPS/endnotes.xhtml) - 2.36',
-            "13. Carr B. 2008. \x{201c}Defending the multiverse.\x{201d} Astronomy & Geophysics 49(2):<<2.36|5a:0>>\x{2013}2.37.",
+            "13. Carr B. 2008. \x{201c}Defending the multiverse.\x{201d} Astronomy & Geophysics 49(2):<<2.36|9p>>\x{2013}<<2.37|9p>>.",
           ],
           [
             1,
@@ -127,7 +112,7 @@ $VAR1 = [
           [
             1,
             '[ap 02:30] Lost in Math_ How Beauty Leads Physics Ast - Sabine Hossenfelder.epub (OEBPS/endnotes.xhtml) - 2.30',
-            "23. Silk J. 2007. \x{201c}The dark side of the universe.\x{201d} Astron Geophys. 48(2):<<2.30|5a:0>>\x{2013}2.38.",
+            "23. Silk J. 2007. \x{201c}The dark side of the universe.\x{201d} Astron Geophys. 48(2):<<2.30|9p>>\x{2013}<<2.38|9p>>.",
           ],
           [
             1,
