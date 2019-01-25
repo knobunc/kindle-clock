@@ -762,7 +762,7 @@ sub get_masks {
                   | nos?\.?
                   | number
                   | chapter | line | paragraph | page | issue | volume | figure
-                  | exercise | illustration | example
+                  | exercise | illustration | example | act | scene
                   ) s? \s+
                   \d+ (\. \d+)*
                   ( (, \s+ and | ,) \s* \d+ (\. \d+)* )*
