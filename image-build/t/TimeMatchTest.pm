@@ -3002,7 +3002,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [09:22]: nine twenty-two',
-            'No more throwing stones at him, and I\'ll see you back here exactly one week from now. She looked at her watch. \'At <<nine twenty-two|5b>> next Wednesday.\''
+            'No more throwing stones at him, and I\'ll see you back here exactly one week from now. She looked at her watch. \'At <<nine twenty-two|3b>> next Wednesday.\''
           ],
           [
             1,
@@ -6592,7 +6592,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [21:00]: nine',
-            'That night at <<nine|9b>> the President addressed the nation.'
+            'That night at <<nine|3j>> the President addressed the nation.'
           ],
           [
             1,
@@ -6697,7 +6697,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [21:30]: nine thirty',
-            'Forty-eight years old, profoundly asleep at <<nine thirty|5b>> on a Friday night - this is modern professional life.'
+            'Forty-eight years old, profoundly asleep at <<nine thirty|3b>> on a Friday night - this is modern professional life.'
           ],
           [
             1,

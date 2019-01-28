@@ -129,8 +129,11 @@ sub check_matches {
 sub sort_matches_by_auth {
     my ($matches) = @_;
 
-    return [sort { $a->[4] cmp $b->[4] || # Author
-                   $a->[5] cmp $b->[5] || # Title
+    return [sort { my ($a_auth, $a_titl) = make_shorts($a->[5], $a->[4]);
+                   my ($b_auth, $b_titl) = make_shorts($b->[5], $b->[4]);
+
+                   $a_auth cmp $b_auth || # Author
+                   $a_titl cmp $b_titl || # Title
                    $a->[2] cmp $b->[2] || # Time
                    $a->[3] cmp $b->[3] || # Quote
                    $a cmp $b              # Tiebreaker

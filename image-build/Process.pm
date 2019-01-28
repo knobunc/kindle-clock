@@ -250,7 +250,7 @@ sub make_shorts {
     $author =~ s{_}{}g;
     $author =~ s{\s+ \( [^)]+ \) \z}{}x;
     $author =~ m{(?<au> ( (von|van|de|du|st\.|saint|le|la) \s)* [-\w]+ ) ( \s (Jr | Sr) \. )? \z}xin
-        or die "Can't shorten '$author'";
+        or die "Can't shorten author '$author'";
     $author = $+{au};
 
     # Take the first meaningful word of the book

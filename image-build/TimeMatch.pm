@@ -19,7 +19,7 @@ my $phrase_punc    = qr{ [.;:?!,] | $ellips   }xin; # Phrase delimiter
 my $phrase_punc_nc = qr{ [.;:?!]  | $ellips   }xin; # Same, but with no comma
 my $sq             = qr{ ['‘’´]               }xin; # Single quote
 my $aq             = qr{ ['"‘’“”]             }xin; # All quotes
-my $hyph           = qr{ [-—–]                }xin; # Hyphens
+my $hyph           = qr{ [-‐—–]                }xin; # Hyphens
 
 # Times of day
 my $morn_re    = qr{ ( (late | early) \s+)?
@@ -343,6 +343,9 @@ my $state_re = qr{
                  | Virgin \s+ Islands                         | VI | V\. \s* I\.
 }xin;
 
+# Parts of speech
+my $pronoun_re = qr{ me | my | your | their | his | her | our }xin;
+
 # The months
 my $month_re = qr{ January | February | March | April | May | June
                  | July | August | September | October | November | December
@@ -563,9 +566,16 @@ sub do_match {
     ## Relative matches
     # These are relative to other time strings
     $line =~ s{\b (?<pr> ( from | between | at ) \s+ )
-                  (?<t1> $hour_re ( \s+ $min_re )? )?
+                  (?<t1> $hour_re ( \s+ $min_re )? )
                   (?<po> \s+ ( or | and | until ) \s+ << )
-              }{$+{pr}<<$+{t1}|20>>$+{po}}xing;
+              }{$+{pr}<<$+{t1}|90>>$+{po}}xing;
+
+    $line =~ s{ (?<pr> >> \s+ ( or | and ) \s+ )
+                (?<t1> $hour_re ( \s+ $min_re )?
+                  (?! $never_follow_times_re | \s+ to )
+                )
+                (?<po> $ba_re )
+              }{$+{pr}<<$+{t1}|91>>$+{po}}xing;
 
     return $line;
 }
@@ -607,7 +617,7 @@ sub get_masks {
     push @r,qr{ $bb_re
                 (?<t1> $min_re [-\s]+ ( to | of ) [-\s]+ $min_re )
                 (?<po>
-                 \s+ ( against )
+                 \s+ ( against | on \s+ the \s+ field )
                 )
                 \b
                 (?{ $branch = "x02"; $is_racing = 1; })
@@ -625,6 +635,7 @@ sub get_masks {
                 | one \s+ other
                 | from \s+ one \s+ and \s+ (sometimes \s+)? from \s+ another
                 | one \s+ and \s+ the \s+ same
+                | ( no | this ) \s+ one (?! $ampm_ph_re | \s+ $oclock_re )
                 )
                 \b
                 (?{ $branch = "x3"; })
@@ -764,7 +775,7 @@ sub get_masks {
                   | chapter | line | paragraph | page | issue | volume | figure
                   | exercise | illustration | example | act | scene
                   ) s? \s+
-                  \d+ (\. \d+)*
+                  ( \d+ (\. \d+)* | $min_word_re )
                   ( (, \s+ and | ,) \s* \d+ (\. \d+)* )*
                 )
                 $ba_re
@@ -1151,7 +1162,7 @@ sub get_matches {
                   ( z
                   | \s* ( gmt | zulu
                         | (?-i: [A-Z]\w* \s+){1,2} time
-                        | ( local | my | your | their | his | her | our | ship ) \s+ time
+                        | ( local | ship | $pronoun_re ) \s+ time
                         )
                   )
                 )
@@ -1211,15 +1222,18 @@ sub get_matches {
     # at 1237 when
     # by 8.45 on saturday
     push @r,qr{ (?<li> $not_in_match )
-                ( (?<pr> ( at | $twas_re | by | by \s+ the ) \s+ )
+                ( (?<pr> ( at | $twas_re | by | by \s+ the | since
+                         | between \s+ $min_re \s+ and
+                         ) \s+
+                  )
                 | (?<t1> $rel_words \s+ )
                 )
                 (?<t2> $hour_re [?]? ( [-.\s] $min_re | $minsec0_dig_re )? )
                 (?<po>
-                 \s+ ( ( ( on | in ) \s+ )? $weekday_re
+                 \s+ ( ( ( on (\s a)? | in ) \s+ )? (\w+ \s+){0,2} $weekday_re
                        | when
                        | $today_re
-                       | ( this | that | one | on \s+ the ) \s+
+                       | ( this | that | one | on \s+ (the | that | an | a) ) \s+
                          $timeday_re
                        )
                 )
@@ -1364,13 +1378,47 @@ sub get_matches {
                 (?{ $branch = "13"; })
               }xin;
 
+    # A little after two on a boiling hot afternoon
+    push @r,qr{ (?<li> $bb_re )
+                (?<t1> $rel_words \s+ $hour_re )
+                (?<po>
+                  ( \s+ or \s+ $hour_re )?
+                  \s+ ( on | in | the ) \s+ (\w+ \s+){0,3} $timeday_re
+                )
+                $ba_re
+                (?{ $branch = "3i"; })
+              }xin;
+
+    # at two the previous afternoon
+    push @r,qr{ (?<li> $bb_re
+                  ( to \s+ (*SKIP)(*FAIL) )?
+
+                  ( at | $till_re | until | by | from
+                  | $twas_re (\s+ already)?
+                  ) \s+
+                )
+                (?<t1> ($rel_words \s+)?
+                  ( $fraction_re ($hyph | \s)+ $till_re \s+ )?
+                  $hour_re
+                )
+                (?<po> \s+
+                  ( the
+                  | on \s+ ( (a | the) \s+ )? (\w+ \s+){0,2} ( $timeday_re
+                                              | $weekday_re s?
+                                              )
+                  )
+                )
+                $ba_re
+                (?{ $branch = "3j"; })
+              }xin;
+
     # Three in the morning
-    push @r,qr{ (?<li> $not_in_match )
+    push @r,qr{ (?<li> $not_in_match
+                  ( (in | the) \s+ (*SKIP)(*FAIL) )?
+                )
                 (?<t1> ( $rel_words \s+ )? $hour_re (:$min_re)? )
                 (?<po> \s+
-                  ( the \s+ $timeday_re \s+ (before | after)
-                  | on  \s+ ((a | the | that) \s+)? (\w+ \s+){0,2} ($weekday_re \s+)? $timeday_re
-                  | in  \s+ ((    the | that) \s+)? (\w+ \s+){0,2} ($weekday_re \s+)? $timeday_re
+                  ( in  \s+ ((    the | that) \s+)? (\w+ \s+){0,2} ($weekday_re \s+)? $timeday_re
                   | the \s+ ( next | previous | following | preceeding ) \s+ $timeday_re
                   | yesterday
                   )
@@ -1378,30 +1426,10 @@ sub get_matches {
                 $ba_re
                 (?{ $branch = "3d";
                     my ($po) = @+{qw( po )};
-                    if ($po =~ m{\A in \s+ a \s+ $timeday_re \z}xin) {
+                    if ($po =~ m{\A \s+ in \s+ ( a | $pronoun_re ) \s+ $timeday_re \z}xin) {
                         $branch = "xx";
                     }
                   })
-              }xin;
-
-    # A little after two on a boiling hot afternoon
-    push @r,qr{ (?<li> $bb_re )
-                (?<t1> $rel_words \s+ $hour_re )
-                (?<po> \s+ ( on | in ) \s+ (\w+ \s+){0,3} $timeday_re )
-                $ba_re
-                (?{ $branch = "3i"; })
-              }xin;
-
-    # at two the previous afternoon
-    push @r,qr{ (?<li> $bb_re ( at | $till_re | until | by | from
-                              | $twas_re (\s+ already)?
-                              ) \s+ )
-                (?<t1> ($rel_words \s+)? $hour_re )
-                (?<po> \s+
-                  ( the | on )
-                )
-                $ba_re
-                (?{ $branch = "3j"; })
               }xin;
 
     # Strong word times
