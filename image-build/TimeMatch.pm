@@ -1223,7 +1223,7 @@ sub get_matches {
     # by 8.45 on saturday
     push @r,qr{ (?<li> $not_in_match )
                 ( (?<pr> ( at | $twas_re | by | by \s+ the | since
-                         | between \s+ $min_re \s+ and
+                         | between \s+ ( $min_re | $hour_re )  \s+ and
                          ) \s+
                   )
                 | (?<t1> $rel_words \s+ )
@@ -1420,7 +1420,6 @@ sub get_matches {
                 (?<po> \s+
                   ( in  \s+ ((    the | that) \s+)? (\w+ \s+){0,2} ($weekday_re \s+)? $timeday_re
                   | the \s+ ( next | previous | following | preceeding ) \s+ $timeday_re
-                  | yesterday
                   )
                 )
                 $ba_re
@@ -1463,6 +1462,7 @@ sub get_matches {
                   | gets \s+ up | woke | rose | waking
                   | happened \s+ at
                   | news
+                  | ( earlier | later ) \s+ than
                   ) \s+
                 )
                 (?<t1> $rel_at_words \s+
@@ -2182,7 +2182,7 @@ sub extract_times {
                   )?
                   ( the \s+ )?
                 )?
-                  (?<mn> $fraction_re ) [-\s]+ (of \s+)? (an? \s+ hours? \s+)?
+                  (?<mn> $fraction_re ) [-\s]* (of \s+)? (an? \s+ hours? \s+)?
                   (?<dir> $till_re ) [-\s]+
                   (?<hr> $hour24_re )
                 ( \s+ $oclock_re )?
