@@ -377,8 +377,13 @@ Instead of driving straight to his father\x{2019}s house, he went a few kilomete
           ],
           [
             1,
-            "[ap 09:00] Faceless Killers - Henning Mankell.epub (CR!E3606BKS053WDCFZ7F4ZA9YDQJN0_split_009.html) - nine o\x{2019}clock",
-            "\x{201c}Preferably before ten on Monday,\x{201d} she said. \x{201c}The rest of the day I have detention hearings and negotiations in district court.\x{201d}
+            '[ap 10:00] Faceless Killers - Henning Mankell.epub (CR!E3606BKS053WDCFZ7F4ZA9YDQJN0_split_009.html) - ten',
+            "\x{201c}Preferably before <<ten|3j>> on Monday,\x{201d} she said. \x{201c}The rest of the day I have detention hearings and negotiations in district court.\x{201d}",
+          ],
+          [
+            1,
+            '[ap 10:00] Faceless Killers - Henning Mankell.epub (CR!E3606BKS053WDCFZ7F4ZA9YDQJN0_split_009.html) - ten',
+            "\x{201c}Preferably before <<ten|3j>> on Monday,\x{201d} she said. \x{201c}The rest of the day I have detention hearings and negotiations in district court.\x{201d}
 They settled on <<nine o\x{2019}clock|6>>.
 Wallander watched her as she disappeared down the corridor.",
           ],

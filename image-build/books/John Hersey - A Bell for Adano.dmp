@@ -305,8 +305,8 @@ Gargano brought in the first culprit, one Monday afternoon, and as he led him in
           ],
           [
             1,
-            '[ap < 05:00] A Bell for Adano - John Hersey.epub (A_Bell_for_Adano_split_037.html) - A little before five',
-            "<<A little before five|9:0>> the sergeant in charge of the Engineers working on the bell came in and said: \x{201c}We run into a snag, sir.\x{201d}",
+            '[ap 05:00] A Bell for Adano - John Hersey.epub (A_Bell_for_Adano_split_037.html) - five',
+            "A little before <<five|3j>> the sergeant in charge of the Engineers working on the bell came in and said: \x{201c}We run into a snag, sir.\x{201d}",
           ],
           [
             1,

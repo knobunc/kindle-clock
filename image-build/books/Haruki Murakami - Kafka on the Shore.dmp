@@ -296,8 +296,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap < 08:00] Kafka on the Shore - Haruki Murakami.epub (Murakami, Haruki - Kafka on the Shore_split_002_split_004.html) - A little before eight',
-            '<<A little before eight|9:0>> the young driver sat up and gave a big yawn. "Hey, Gramps, ya hungry?" he asked. He was busy shaving with an electric razor, using the rearview mirror.',
+            '[ap 08:00] Kafka on the Shore - Haruki Murakami.epub (Murakami, Haruki - Kafka on the Shore_split_002_split_004.html) - eight',
+            'A little before <<eight|3j>> the young driver sat up and gave a big yawn. "Hey, Gramps, ya hungry?" he asked. He was busy shaving with an electric razor, using the rearview mirror.',
           ],
           [
             1,
@@ -466,7 +466,7 @@ It's <<around nine p. m.|9h>> when I call, and she answers after six rings.
           [
             1,
             '[ap 02:00] Kafka on the Shore - Haruki Murakami.epub (Murakami, Haruki - Kafka on the Shore_split_004_split_005.html) - two',
-            "When he got back to the inn, Hoshino found Nakata\x{2014}no surprise\x{2014}still fast asleep. The sack he'd put next to him with bread and orange juice was untouched. The old man hadn't shifted an inch, probably hadn't woken up once the whole time. Hoshino counted up the hours. Nakata had gone to sleep at <<two|3d>> the previous afternoon, which meant he'd been asleep for thirty solid hours. What day is it, anyway? Hoshino wondered. He was completely losing track of time. He took his memo book out of his bag and checked.",
+            "When he got back to the inn, Hoshino found Nakata\x{2014}no surprise\x{2014}still fast asleep. The sack he'd put next to him with bread and orange juice was untouched. The old man hadn't shifted an inch, probably hadn't woken up once the whole time. Hoshino counted up the hours. Nakata had gone to sleep at <<two|3j>> the previous afternoon, which meant he'd been asleep for thirty solid hours. What day is it, anyway? Hoshino wondered. He was completely losing track of time. He took his memo book out of his bag and checked.",
           ],
           [
             1,

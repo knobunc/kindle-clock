@@ -1033,7 +1033,7 @@ Number:        ADD A,30h ; <<0 to 9|10a:0>> converted to 30h to 39h
           [
             1,
             '[ap 10:38] Code - Charles Petzold.epub (OEBPS/ch23.html) - 10-38',
-            '1.11111111111111111111111TWO x 2127In decimal, these two numbers are approximately 1.175494351 x <<10-38|5a:0>> and 3.402823466 x 1038. That\'s the effective range of single-precision floating-point notation.',
+            '1.11111111111111111111111TWO x 2127In decimal, these two numbers are approximately 1.175494351 x <<10-38|5a:0>> and <<3|91>>.402823466 x 1038. That\'s the effective range of single-precision floating-point notation.',
           ],
           [
             1,

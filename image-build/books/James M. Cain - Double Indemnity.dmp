@@ -19,8 +19,13 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap < 09:00] Double Indemnity - James M. Cain.epub (OEBPS/Cain_9780307778420_epub_c02_r1.htm) - A little before nine',
-            '<<A little before nine|9:0>> the bell rang. I knew who it was as soon as I heard it. She was standing there in a raincoat and a little rubber swimming cap, with the raindrops shining over her freckles. When I got her peeled off she was in sweater and slacks, just a dumb Hollywood outfit, but it looked different on her. I brought her to the fire and she sat down. I sat down beside her.',
+            '[ap 09:00] Double Indemnity - James M. Cain.epub (OEBPS/Cain_9780307778420_epub_c02_r1.htm) - nine',
+            'A little before <<nine|3j>> the bell rang. I knew who it was as soon as I heard it. She was standing there in a raincoat and a little rubber swimming cap, with the raindrops shining over her freckles. When I got her peeled off she was in sweater and slacks, just a dumb Hollywood outfit, but it looked different on her. I brought her to the fire and she sat down. I sat down beside her.',
+          ],
+          [
+            1,
+            '[ap 09:00] Double Indemnity - James M. Cain.epub (OEBPS/Cain_9780307778420_epub_c02_r1.htm) - nine',
+            "So I ran away from the edge, didn\x{2019}t I, and socked it into her so she knew what I meant, and left it so we could never go back to it again? I did not. That was what I tried to do. I never even got up when she left, I didn\x{2019}t help her on with her things, I didn\x{2019}t drive her back, I treated her like I would treat an alley cat. But all the time I knew it would be still raining the next night, that they would still be drilling at Long Beach, that I would light the fire and sit by it, that a little before <<nine|3j>> the doorbell would ring. She didn\x{2019}t even speak to me when she came in. We sat by the fire at least five minutes before either one of us said anything. Then she started it. \x{201c}How could you say such things as you said to me last night?\x{201d}",
           ],
           [
             1,

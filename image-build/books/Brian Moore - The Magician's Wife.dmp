@@ -76,8 +76,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap > 09:00] The Magician\'s Wife - Brian Moore.epub (ops/xhtml/chapter_1.html) - Shortly after nine',
-            "<<Shortly after nine|9:0>> the Colonel rejoined them, introducing them to an elderly banker who had seen Lambert perform at St\x{a0} Petersburg before the Empress of Russia. \x{2018}An astonishing evening, sir. I remember that the Empress was most impressed. I can\x{2019}t tell you how delighted I am that you\x{2019}re to be with us this week. It\x{2019}s going to be a much more interesting s\x{e9}rie than the last one I attended. I assume we will have the honour of a performance?\x{2019}",
+            '[ap 09:00] The Magician\'s Wife - Brian Moore.epub (ops/xhtml/chapter_1.html) - nine',
+            "Shortly after <<nine|3j>> the Colonel rejoined them, introducing them to an elderly banker who had seen Lambert perform at St\x{a0} Petersburg before the Empress of Russia. \x{2018}An astonishing evening, sir. I remember that the Empress was most impressed. I can\x{2019}t tell you how delighted I am that you\x{2019}re to be with us this week. It\x{2019}s going to be a much more interesting s\x{e9}rie than the last one I attended. I assume we will have the honour of a performance?\x{2019}",
           ],
           [
             1,

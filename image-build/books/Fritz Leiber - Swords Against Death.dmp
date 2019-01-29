@@ -61,7 +61,7 @@ Occasionally his gaze shifted to the dark, disfigured faces which ringed the tab
           [
             1,
             '[12:00] Swords Against Death - Fritz Leiber.epub (OEBPS/page-1.html) - midday',
-            '"And then he bid us patch the sails and make the sloop shipshape. By <<midday|13>> we were flying west at a speed even greater than we had made during the storm, but so long were the swells and so swift did they move with us that we could only climb five or six in a whole day. By the Black Idols, but they were long!',
+            '"And then he bid us patch the sails and make the sloop shipshape. By <<midday|13>> we were flying west at a speed even greater than we had made during the storm, but so long were the swells and so swift did they move with us that we could only climb five or <<six|3d>> in a whole day. By the Black Idols, but they were long!',
           ],
           [
             1,
@@ -77,10 +77,5 @@ Occasionally his gaze shifted to the dark, disfigured faces which ringed the tab
             1,
             '[00:00] Swords Against Death - Fritz Leiber.epub (OEBPS/page-1.html) - midnight',
             'The Mouser fetched a stubby, heavy-wicked candle from the cabin and fixed it in a small horn lantern that was proof against the wind. Hanging at the stern it pushed back the darkness a little, not much. Until <<midnight|13>> it was the Mouser\'s watch. After a while Fafhrd slumbered.',
-          ],
-          [
-            1,
-            '[ap 03:00] Swords Against Death - Fritz Leiber.epub (OEBPS/page-1.html) - Three',
-            '"<<Three|3d>> in a night," she cried. "You have killed the third. It is well, falconer."',
           ],
         ];

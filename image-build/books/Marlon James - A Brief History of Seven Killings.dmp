@@ -356,7 +356,7 @@ $VAR1 = [
             1,
             '[ap 05:30] A Brief History of Seven Killings - Marlon James.epub (OPS/xhtml/chapter46.html) - Five-thirty',
             "\x{2014}When?
-\x{2014}<<Five-thirty|5k:1>> or six.
+\x{2014}<<Five-thirty|5k:1>> or <<six|91>>.
 \x{2014}Morning or evening?",
           ],
           [
@@ -379,12 +379,12 @@ $VAR1 = [
             "[ap 11:00] A Brief History of Seven Killings - Marlon James.epub (OPS/xhtml/chapter46.html) - Eleven o\x{2019}clock",
             "\x{2014}When him supposed to call?
 \x{2014}<<Eleven o\x{2019}clock|6>>.
-\x{2014}Him nah call you, star. If it was eleven the bredda woulda call you at <<eleven|9c:1>>. You know how him stay.",
+\x{2014}Him nah call you, star. If it was <<eleven|3j>> the bredda woulda call you at <<eleven|9c:1>>. You know how him stay.",
           ],
           [
             1,
             '[ap 11:00] A Brief History of Seven Killings - Marlon James.epub (OPS/xhtml/chapter46.html) - eleven',
-            "\x{2014}Him nah call you, star. If it was eleven the bredda woulda call you at <<eleven|9c:1>>. You know how him stay.",
+            "\x{2014}Him nah call you, star. If it was <<eleven|3j>> the bredda woulda call you at <<eleven|9c:1>>. You know how him stay.",
           ],
           [
             1,

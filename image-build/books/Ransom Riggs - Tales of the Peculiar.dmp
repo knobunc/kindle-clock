@@ -21,7 +21,7 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap > 02:00] Tales of the Peculiar - Ransom Riggs.epub (OEBPS/xhtml/24_The_Boy_Who_Could_Hold_Back_the_Sea.xhtml) - After two',
-            'For days he pushed his houseboat farther and farther south, eating fish that flopped through the front door. After a week, he stopped seeing icebergs. <<After two|9:0>> the weather began to warm. After three weeks, the frost cleared from his windows, the seas grew calm, and a tropical breeze began to blow through the windows.',
+            '[ap 02:00] Tales of the Peculiar - Ransom Riggs.epub (OEBPS/xhtml/24_The_Boy_Who_Could_Hold_Back_the_Sea.xhtml) - two',
+            'For days he pushed his houseboat farther and farther south, eating fish that flopped through the front door. After a week, he stopped seeing icebergs. After <<two|3j>> the weather began to warm. After three weeks, the frost cleared from his windows, the seas grew calm, and a tropical breeze began to blow through the windows.',
           ],
         ];

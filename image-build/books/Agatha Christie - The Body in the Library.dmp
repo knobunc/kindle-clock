@@ -80,8 +80,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 01:00] The Body in the Library - Agatha Christie.epub (OEBPS/012_chapter07.html) - one',
-            "The Glenshire police had already been over the room for fingerprints, but there were none unaccounted for. Ruby\x{2019}s own, Josie\x{2019}s, and the two chambermaids\x{2014}<<one|3d>> on the morning and <<one|3d>> on the evening shift. There were also a couple of prints made by Raymond Starr, but these were accounted for by his story that he had come up with Josie to look for Ruby when she did not appear for the <<midnight|13>> exhibition dance.",
+            '[00:00] The Body in the Library - Agatha Christie.epub (OEBPS/012_chapter07.html) - midnight',
+            "The Glenshire police had already been over the room for fingerprints, but there were none unaccounted for. Ruby\x{2019}s own, Josie\x{2019}s, and the two chambermaids\x{2014}one on the morning and one on the evening shift. There were also a couple of prints made by Raymond Starr, but these were accounted for by his story that he had come up with Josie to look for Ruby when she did not appear for the <<midnight|13>> exhibition dance.",
           ],
           [
             1,
@@ -146,7 +146,7 @@ $VAR1 = [
             1,
             '[> 00:00] The Body in the Library - Agatha Christie.epub (OEBPS/016_chapter11.html) - after midnight',
             "\x{201c}Hallo, Haydock, is that you? Ruby Keene. Would it be possible for her to have been killed <<after midnight|13>>?\x{201d}
-\x{201c}I told you she was killed between <<ten|20>> and <<midnight|13>>.\x{201d}
+\x{201c}I told you she was killed between <<ten|90>> and <<midnight|13>>.\x{201d}
 \x{201c}Yes, I know, but one could stretch it a bit\x{2014}what?\x{201d}",
           ],
           [
@@ -168,6 +168,11 @@ $VAR1 = [
             1,
             '[00:00] The Body in the Library - Agatha Christie.epub (OEBPS/017_chapter12.html) - midnight',
             "\x{201c}An alibi is the fishiest thing on God\x{2019}s earth! No innocent person ever has an alibi! Besides, it all depends on the time of death, or something like that, and you may be sure if three doctors say the girl was killed at <<midnight|13>>, at least six will be found who will swear positively that she was killed at <<five in the morning|9a>>\x{2014}and where\x{2019}s my alibi then?\x{201d}",
+          ],
+          [
+            1,
+            '[ap 10:00] The Body in the Library - Agatha Christie.epub (OEBPS/019_chapter14.html) - ten',
+            "\x{201c}I was saying, sir, that Mr. Jefferson fell for this young woman. I\x{2019}ve often seen it happen with the gentlemen I\x{2019}ve been with. Comes over them like a kind of disease. They want to protect the girl, and shield her, and shower benefits upon her\x{2014}and nine times out of <<ten|3j>> the girl is very well able to look after herself and has a good eye to the main chance.\x{201d}",
           ],
           [
             1,

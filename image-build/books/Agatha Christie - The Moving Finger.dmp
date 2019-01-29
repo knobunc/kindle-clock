@@ -12,7 +12,7 @@ $VAR1 = [
           [
             1,
             '[ap 03:00] The Moving Finger - Agatha Christie.epub (OEBPS/010_chapter06.html) - three',
-            "The time of Mrs. Symmington\x{2019}s death was put at between <<three|20>> and <<four o\x{2019}clock|6>>. She was alone in the house, Symmington was at his office, the maids were having their day out, Elsie Holland and the children were out walking and Megan had gone for a bicycle ride.",
+            "The time of Mrs. Symmington\x{2019}s death was put at between <<three|90>> and <<four o\x{2019}clock|6>>. She was alone in the house, Symmington was at his office, the maids were having their day out, Elsie Holland and the children were out walking and Megan had gone for a bicycle ride.",
           ],
           [
             1,
@@ -23,6 +23,13 @@ $VAR1 = [
             1,
             '[ap 09:30] The Moving Finger - Agatha Christie.epub (OEBPS/011_chapter07.html) - Nine-thirty',
             "That, of course, was her own business. A doctor, no doubt, has to have early breakfast, and a dutiful sister is there to pour out his tea, or coffee. But it is no excuse for coming and butting in on one\x{2019}s more somnolent neighbours. <<Nine-thirty|5k:1>> is not the time for a morning call.",
+          ],
+          [
+            1,
+            '[ap 10:30] The Moving Finger - Agatha Christie.epub (OEBPS/011_chapter07.html) - halfpast ten',
+            "\x{201c}Yes, sir. At Mrs. Symmington\x{2019}s. At Mr. Symmington\x{2019}s, I should say now.\x{201d}
+I drew a deep breath. I glanced at the clock. It was <<halfpast ten|10>>.
+\x{201c}Would she be back now, do you think?\x{201d}",
           ],
           [
             1,
@@ -107,7 +114,7 @@ $VAR1 = [
           [
             1,
             '[ap 11:00] The Moving Finger - Agatha Christie.epub (OEBPS/017_chapter13.html) - eleven',
-            "Nash said quietly: \x{201c}I must tell you, Miss Griffith, that you were observed to type that letter on the machine at the Women\x{2019}s Institute between <<eleven|20>> and <<eleven thirty p.m.|5>> on the night before last. Yesterday you entered the post office with a bunch of letters in your hand\x{2014}\x{201d}",
+            "Nash said quietly: \x{201c}I must tell you, Miss Griffith, that you were observed to type that letter on the machine at the Women\x{2019}s Institute between <<eleven|90>> and <<eleven thirty p.m.|5>> on the night before last. Yesterday you entered the post office with a bunch of letters in your hand\x{2014}\x{201d}",
           ],
           [
             1,

@@ -1285,6 +1285,11 @@ program fig29;
           ],
           [
             1,
+            '[ap 02:00] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (290-293.html) - 2',
+            "In shifting bits, they can either be shifted left or right. The corresponding operators to do that in Turbo Pascal are shl, or shift left, and shr, or shift right. In shifting, the bits are physically moved, with 0s assumed on the remaining portions. If any relevant bytes are \x{201c}pushed\x{201d} out of the data\x{2019}s range for storage, they are lost. Note, in the following examples, that within storable limits, shifting bits can be equivalent to multiplying or integer division by the power of <<2|3j>> the bits are shifted by in the operation.",
+          ],
+          [
+            1,
             '[23:59] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (290-293.html) - 1 to 0',
             'In using the boolean operators, the patterns of the answers can reveal the use of these operators. AND can be used quite well to test the existence of a bit or bits at specific positions. Note in the example for AND that the bytes which remain 1s or true are the ones that appear in both columns. With the OR example, any bits that are true and dissimilar are forced to true. In the XOR example, it could that in the positions the 1s are in the second object of the operator, the bits were toggled from <<1 to 0|10a:0>>, or 0 to 1. A coded example of the boolean bit operators and bit shifting are shown in Listing <<5.30|5a:0>>.',
           ],

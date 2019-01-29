@@ -127,7 +127,7 @@ $VAR1 = [
           [
             1,
             '[04:00] Into Thin Air - Jon Krakauer.epub (OEBPS/Krak_9780679462712_epub_c09_r1.htm) - 4:00 A.M.',
-            "I was already awake at <<4:00 A.M.|2a>> when the alarm on my wrist watch began to beep; I\x{2019}d been awake most of the night, struggling for breath in the meager air. And now it was time to commence the dreaded ritual of emerging from the warmth of my goose-down cocoon into the withering cold of 21,300 feet. Two days earlier\x{2014}on Friday, April 26\x{2014}we\x{2019}d humped all the way from Base Camp to Camp Two in one long day to begin our third and final acclimatization sortie in preparation for the summit push. This morning, according to Rob\x{2019}s grand plan, we would climb from Camp Two to Camp Three and spend a night at 24,000 feet.",
+            "I was already awake at <<4:00 A.M.|2a>> when the alarm on my wrist watch began to beep; I\x{2019}d been awake most of the night, struggling for breath in the meager air. And now it was time to commence the dreaded ritual of emerging from the warmth of my goose-down cocoon into the withering cold of 21,300 feet. Two days earlier\x{2014}on Friday, April 26\x{2014}we\x{2019}d humped all the way from Base Camp to Camp <<Two|3d>> in one long day to begin our third and final acclimatization sortie in preparation for the summit push. This morning, according to Rob\x{2019}s grand plan, we would climb from Camp Two to Camp Three and spend a night at 24,000 feet.",
           ],
           [
             1,
@@ -138,11 +138,6 @@ $VAR1 = [
             1,
             '[12:00] Into Thin Air - Jon Krakauer.epub (OEBPS/Krak_9780679462712_epub_c09_r1.htm) - noon',
             "It was <<noon|13>> by the time we arrived back at Camp Two and took stock of the damage. I was tired but otherwise fine. John Taske, the Australian doctor, had some minor frostnip on the tips of his fingers. Doug, on the other hand, had suffered some serious harm. When he removed his boots he discovered incipient frostbite on several toes. On Everest in 1995 he\x{2019}d frostbitten his feet badly enough to lose some tissue from a big toe and permanently impair his circulation, making him particularly susceptible to cold; now this additional frostbite would make him yet more vulnerable to the cruel conditions of the upper mountain.",
-          ],
-          [
-            1,
-            '[ap 02:00] Into Thin Air - Jon Krakauer.epub (OEBPS/Krak_9780679462712_epub_c09_r1.htm) - Two',
-            "When Ang Dorje and Lhakpa Chhiri from Hall\x{2019}s team, guide Anatoli Boukreev from Fischer\x{2019}s team, and one Sherpa from Burleson\x{2019}s team departed Camp <<Two|3d>> on the morning of April 26, the Sherpas who were supposed to join them from the South African and Taiwanese teams stayed in their sleeping bags and refused to cooperate. That afternoon, when Hall arrived at Camp Two and learned of this, he immediately made some radio calls to find out why the plan had broken down. Kami Dorje Sherpa, the climbing sirdar for the Taiwanese team, apologized profusely and promised to make amends. But when Hall raised Woodall on the radio, the impenitent South African\x{2013}expedition leader responded with a barrage of obscenities and insults.",
           ],
           [
             1,
@@ -572,7 +567,7 @@ $VAR1 = [
           [
             1,
             '[ap 09:30] Into Thin Air - Jon Krakauer.epub (OEBPS/Krak_9780679462712_epub_c17_r1.htm) - nine-thirty',
-            "\x{201c}I can last another night here if you send up a couple of boys with some Sherpa tea, first thing in the morning, no later than <<nine-thirty|5k:1>> or ten,\x{201d} Rob answered.",
+            "\x{201c}I can last another night here if you send up a couple of boys with some Sherpa tea, first thing in the morning, no later than <<nine-thirty|5k:1>> or <<ten|91>>,\x{201d} Rob answered.",
           ],
           [
             1,

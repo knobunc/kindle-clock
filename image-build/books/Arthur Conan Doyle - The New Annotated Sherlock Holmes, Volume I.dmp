@@ -130,8 +130,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[19:00] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0008.html) - 19',
-            '<<19|3d>> The Morning Chronicle went bankrupt <<around 1860|18:0>>. Watson (or Wilson) thus made an error in the name of the newspaper.',
+            '[~ 19:00] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0008.html) - around 1860',
+            '19 The Morning Chronicle went bankrupt <<around 1860|18:0>>. Watson (or Wilson) thus made an error in the name of the newspaper.',
           ],
           [
             1,
@@ -152,6 +152,11 @@ $VAR1 = [
             1,
             "[ap 06:00] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0009.html) - six o\x{2019}clock",
             "\x{201c}Good evening, Mr. James Windibank,\x{201d} said Holmes. \x{201c}I think that this typewritten letter is from you, in which you made an appointment with me for <<six o\x{2019}clock|6>>?\x{201d}",
+          ],
+          [
+            1,
+            '[ap 10:00] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0009.html) - ten',
+            "Numerous students of London testify to the plague of wife-beating. For example, Montagu Williams, Q.C., in Round London: Down East and Up West (1894), writes: \x{201c}If any one has any doubts as to the brutalities practised on women by men, let him visit the London Hospital on a Saturday night. Very terrible sights will meet his eye. Sometimes as many as twelve or fourteen women may be seen seated in the receiving-room, waiting for their bruised and bleeding faces and bodies to be attended to. In nine cases out of <<ten|3j>> the injuries have been inflicted by brutal and perhaps drunken husbands. The nurses tell me, however, that any remarks they may make reflecting on the aggressors are received with great indignation by the wretched sufferers. They positively will not hear a single word against the cowardly ruffians.\x{201d} The Phil May sketch reproduced here from Punch (September 1, 1894) bears witness to the common understanding of domestic relations.",
           ],
           [
             1,
@@ -593,6 +598,13 @@ $VAR1 = [
           ],
           [
             1,
+            '[ap 00:00] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0023.html) - twelve',
+            "\x{201c}We must wire to Mawson\x{2019}s.\x{201d}
+\x{201c}They shut at <<twelve|3j>> on Saturdays.\x{201d}
+",
+          ],
+          [
+            1,
             '[12:00] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0023.html) - midday',
             "It is customary at Mawson\x{2019}s for the clerks to leave at <<midday|9a>> on Saturday. Sergeant Tuson, of the City Police, was somewhat surprised, therefore, to see a gentleman with a carpet bag come down the steps at <<twenty minutes past one|10>>. His suspicions being aroused, the sergeant followed the man, and with the aid of Constable Pollock succeeded, after a most desperate resistance, in arresting him. It was at once clear that a daring and gigantic robbery had been committed. Nearly a hundred thousand pounds\x{2019} worth of American railway bonds, with a large amount of scrip in other mines and companies, were discovered in the bag.",
           ],
@@ -683,7 +695,7 @@ $VAR1 = [
           [
             1,
             '[ap 09:00] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0027.html) - nine',
-            "\x{201c}Now for the events at Lachine between <<nine|20>> and <<ten|3d>> on the evening of last Monday.",
+            "\x{201c}Now for the events at Lachine between <<nine|90>> and <<ten|3b>> on the evening of last Monday.",
           ],
           [
             1,

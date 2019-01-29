@@ -52,13 +52,6 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 01:00] The Rum Diary - Hunter S. Thompson.epub (OEBPS/part10.xhtml) - one',
-            "\x{201c}Here they are!\x{201d} he shouted. \x{201c}The gentlemen of the press -- sneak drinkers!\x{201d} He laughed 
-        happily. \x{201c}You fuckers really tied <<one|3d>> on last night, eh? Man, you're lucky Lotterman went 
-        to Ponce!\x{201d} He sat down at the table. \x{201c}What happened? I hear you had it out with the cops.\x{201d}",
-          ],
-          [
-            1,
             '[~ 00:00] The Rum Diary - Hunter S. Thompson.epub (OEBPS/part10.xhtml) - about midnight',
             'We left <<about midnight|13>> and walked down the hill in silence. The night was muggy, and all 
         around me I felt the same pressure, a sense of time rushing by while it seemed to be 
@@ -235,7 +228,7 @@ She quickly stood up. \x{201c}I have to go -- it starts at <<seven|9g>>.\x{201d}
             "It had an ominous sound. All the other Tramps were listed as beginning and ending at 
         certain times. The \x{201c}Birds and Bees Tramp,\x{201d} on Thursday, began at <<eight|9c:1>> and ended at <<ten|9c:1>>. 
         The \x{201c}High Combustible Tramp,\x{201d} which seemed to be the one we'd been caught in the night 
-        before, ran from <<eight|20>> until <<midnight|13>>. But the program said only that the \x{201c}All Out Tramp\x{201d} 
+        before, ran from <<eight|90>> until <<midnight|13>>. But the program said only that the \x{201c}All Out Tramp\x{201d} 
         would begin at <<eight|9f>>, and in small brackets on the same line was a note saying \x{201c}climax of 
         carnival.\x{201d}",
           ],
