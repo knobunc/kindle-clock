@@ -567,15 +567,19 @@ sub do_match {
     # These are relative to other time strings
     $line =~ s{\b (?<pr> ( from | between | at ) \s+ )
                   (?<t1> $hour_re ( \s+ $min_re )? )
-                  (?<po> \s+ ( or | and | until ) \s+ << )
-              }{$+{pr}<<$+{t1}|90>>$+{po}}xing;
+                  (?<po> \s+ ( or | and | until ) \s+
+                         << ([^|>]+) [|] \d+ \w? (?<timey> (:\d)? ) >>
+                  )
+              }{$+{pr}<<$+{t1}|90$+{timey}>>$+{po}}xing;
 
-    $line =~ s{ (?<pr> >> \s+ ( or | and ) \s+ )
-                (?<t1> $hour_re ( \s+ $min_re )?
+    $line =~ s{ (?<pr> << ([^|>]+) [|] \d+ \w? (?<timey> (:\d)? ) >>
+                       \s+ ( or | and ) \s+
+                )
+                (?<t1> $hour_re ( ($hyph | \s)+ $min_re )?
                   (?! $never_follow_times_re | \s+ to )
                 )
                 (?<po> $ba_re )
-              }{$+{pr}<<$+{t1}|91>>$+{po}}xing;
+              }{$+{pr}<<$+{t1}|91$+{timey}>>$+{po}}xing;
 
     return $line;
 }
