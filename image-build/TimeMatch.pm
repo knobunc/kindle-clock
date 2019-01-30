@@ -25,7 +25,9 @@ my $hyph           = qr{ [-‐—–]                }xin; # Hyphens
 my $morn_re    = qr{ ( (late | early) \s+)?
                      ( morn(ing)? | mornin $sq? | after[-\s]?noon | eve(ning)? )
                    }xin;
-my $timeday_re = qr{ $morn_re | day | night }xin;
+my $timeday_re = qr{ ( $morn_re | day | night )
+                     (?! \s+ ( dress | clothes ) )
+                   }xin;
 
 # Special named times
 my $noon_re     = qr{ ( ( twelve | 12 | high ) \s+ )? noon (-? (day | time | tide) )?
@@ -640,6 +642,7 @@ sub get_masks {
                 | from \s+ one \s+ and \s+ (sometimes \s+)? from \s+ another
                 | one \s+ and \s+ the \s+ same
                 | ( no | this ) \s+ one (?! $ampm_ph_re | \s+ $oclock_re )
+                | ( an \s+ hour | a \s+ (second|minute) ) \s+ or \s+ two
                 )
                 \b
                 (?{ $branch = "x3"; })
@@ -1028,7 +1031,10 @@ sub get_matches {
               }xin;
 
     # Ones with a phrase after to fix it better as a time
-    push @r,qr{ \b (?<pr> ( $twas_re | at )\s+ )
+    push @r,qr{ \b (?<pr> ( $twas_re ( \s+ (already | \w+ly) )?
+                          | at
+                          ) \s+
+                   )
                    (?<t1> ( ( $rel_words ( \s+ at )? | ( close \s+ )? upon ) \s+ )?
                      $hour_word_re
                    )
@@ -1405,7 +1411,7 @@ sub get_matches {
                 (?<t1> $rel_words \s+ $hour_re )
                 (?<po>
                   ( \s+ or \s+ $hour_re )?
-                  \s+ ( on | in | the ) \s+ (\w+ \s+){0,3} $timeday_re
+                  \s+ ( on | in | the ) \s+ (\w+ \s+){0,3} $timeday_re s?
                 )
                 $ba_re
                 (?{ $branch = "3i"; })
@@ -1425,7 +1431,8 @@ sub get_matches {
                 )
                 (?<po> \s+
                   ( the
-                  | on \s+ ( (a | the) \s+ )? (\w+ \s+){0,2} ( $timeday_re
+                  | on \s+ ( (a | the) \s+ )? (\w+ \s+){0,2}
+                                              ( $timeday_re s?
                                               | $weekday_re s?
                                               )
                   )
@@ -1436,19 +1443,25 @@ sub get_matches {
 
     # Three in the morning
     push @r,qr{ (?<li> $not_in_match
-                  ( (in | the) \s+ (*SKIP)(*FAIL) )?
+                  ( (in | the | that| another | have) \s+ (*SKIP)(*FAIL) )?
                 )
-                (?<t1> ( $rel_words \s+ )? $hour_re (:$min_re)? )
+                (?<t1> ( $rel_words \s+ )? (?<hm> $hour_re (:$min_re)? ) )
                 (?<po> \s+
-                  ( in  \s+ ((    the | that) \s+)? (\w+ \s+){0,2} ($weekday_re \s+)? $timeday_re
-                  | the \s+ ( next | previous | following | preceeding ) \s+ $timeday_re
+                  ( the \s+ ( next | previous | following | preceeding ) \s+ $timeday_re
+                  | in  \s+
+                    ( (de | the| that ) \s+ (\w+ \s+){0,2} )?
+                    ( $weekday_re \s+)?
+                    $timeday_re
                   )
                 )
                 $ba_re
                 (?{ $branch = "3d";
-                    my ($po) = @+{qw( po )};
+                    my ($po, $hm) = @+{qw( po hm )};
                     if ($po =~ m{\A \s+ in \s+ ( a | $pronoun_re ) \s+ $timeday_re \z}xin) {
                         $branch = "xx";
+                    }
+                    elsif ($hm =~ m{\A (one) \z}xin) {
+                        $branch = "3d:TIMEY";
                     }
                   })
               }xin;
@@ -1456,7 +1469,9 @@ sub get_matches {
     # Strong word times
     # at eleven fifty-seven
     push @r,qr{ (?<li> $not_in_match )
-                (?<pr> ( $twas_re | at | by | $points_re ) \s+ )
+                (?<pr> ( $twas_re (\s+ (\w+ly|already))? # Adverb
+                       | at | by | $points_re ) \s+
+                       )
                 (?<t1>
                   $hour_word_re ( \s+ | \s* $ellips \s* | [-] ) $min_word_re
                   (             ( \s+ | \s* $ellips \s* | [-] ) $z_low_num_re )?
@@ -1524,7 +1539,7 @@ sub get_matches {
                   | ( come | turn ) \s+ on
 #                  | still
                   ) \s+
-                  ( ( exactly | precisely | only ) \s+ )?
+                  ( ( exactly | precisely | only | already | actually | virtually ) \s+ )?
                   ( ( at | upon | till | until ) \s+ )?
                 )
                 (?<t1> ( $rel_words \s+ )?

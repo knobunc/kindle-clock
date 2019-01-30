@@ -2344,7 +2344,7 @@ sub get_csv_tests {
           [
             1,
             'Timestr [07:56]: seven fifty-six',
-            'I sit by the window, crunching toast, sipping coffee, and leafing through the paper in a leisurely way. At last, after devouring three slices, two cups of coffee, and all the Saturday sections, I stretch my arms in a big yawn and glance at the clock. I don\'t believe it. It\'s only <<seven fifty-six|9f>>.'
+            'I sit by the window, crunching toast, sipping coffee, and leafing through the paper in a leisurely way. At last, after devouring three slices, two cups of coffee, and all the Saturday sections, I stretch my arms in a big yawn and glance at the clock. I don\'t believe it. It\'s only <<seven fifty-six|5b>>.'
           ],
           [
             1,
@@ -3382,7 +3382,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [10:30]: ten thirty',
-            'according to the clock on the wall, it is barely <<ten thirty|5k:1>>.'
+            'according to the clock on the wall, it is barely <<ten thirty|5b>>.'
           ],
           [
             1,
@@ -7217,7 +7217,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [23:32]: In about twenty-eight minutes it will be midnight',
-            "\"This is the evening. This is the night. It is New Year\x{b4}s Eve. <<In about twenty-eight minutes it will be midnight|5i>>. I still have twenty-eight minutes left. I have to recollect my thoughts. At <<twelve o\x{b4}clock|6>>, I should be done thinking.\" He looked at his father. \"Help those that are depressed and consider themselves lost in this world,\" he thought. \"Old fart.\""
+            "\"This is the evening. This is the night. It is New Year\x{b4}s Eve. <<In about twenty-eight minutes it will be midnight|5h>>. I still have twenty-eight minutes left. I have to recollect my thoughts. At <<twelve o\x{b4}clock|6>>, I should be done thinking.\" He looked at his father. \"Help those that are depressed and consider themselves lost in this world,\" he thought. \"Old fart.\""
           ],
           [
             1,

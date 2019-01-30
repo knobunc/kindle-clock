@@ -25,8 +25,20 @@ process_books.pl books/ '^3:0$' 100
 test_books.pl books/ '91(:\d)?$' 100
 ```
 
-
 # To run the tests
 ```
 prove t/*pl -j 8
 ```
+
+
+1  - Definite.  2330 hours; 2330h.
+1a - Definite.  21:00 local time.  2330 GMT
+1b - Definite.  04h24m
+1c - Definite.  GMT 19.34
+2  - Strong.    22:00
+2a - Definite.  11:56 p.m.
+3  - Strong.    19.40.
+3a - Weak.      0030 on Saturday
+3b - Weak.      1900 tonight.
+3c - Weak.      on the 10.26
+3d - Strong.    seven the next evening.
