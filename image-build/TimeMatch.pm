@@ -650,15 +650,17 @@ sub get_masks {
     # I, for one, am sick of it.
     # nine-to-five
     # ten-four
+    # nineteen and six (old British currency)
     push @r,qr{ (?<pr> \A | \s+ )
                 (?<t1> one \s+ of \s+ $min_re
                 |      $min_re ,? \s+ by \s+ $min_re
                 |      I ,? \s+ for \s+ one ,? \s+ am
                 |      nine [-\s]+ to [-\s]+ five
                 |      ten-four
+                |      $min_word_re \s+ and \s+ six
                 )
-                (?! $ampm_ph_re
-                |      \s* $oclock_re
+                (?! [:,]? \s* $ampm_only_re
+                |   \s* $oclock_re
                 )
                 \b
                 (?{ $branch = "x4"; })
@@ -672,6 +674,7 @@ sub get_masks {
                 | \[ \d+ : \d+ ( - \d+ | - \d+ : \d+ )? \]
                 | (?<wb> $min_word_re [-\s]+ $min_word_re )
                 | [cxvli]+ \.? \s+ \d+ (\. \d+)?
+                | \d+ (\. \d+)?
                 )
                 (?{ $branch = "x5";
                     my ($bb, $wb) = ($+{bb}, $+{wb});
@@ -700,8 +703,8 @@ sub get_masks {
     # months or special days followed by years, dates
     push @r,qr{ \b
                 (?<t1> \d+ ( \. \d+ ){2,}+
-                | \d+ \s+ $month_re ( \s+ \d+ (, \s+ \d+)? )? (?! [:.-] \d )
-                | $month_re \s+ \d+           (, \s+ \d+)?    (?! [:.-] \d )
+                | \d+ \s+ $month_re ( \s+ \d+ ((\s* $hyph \s* | , \s+) \d+)? )? (?! [:.-] \d )
+                | $month_re \s+ \d+           ((\s* $hyph \s* | , \s+) \d+)?    (?! [:.-] \d )
                 )
                 $ba_re
                 (?{ $branch = "x7a"; })
@@ -777,7 +780,8 @@ sub get_masks {
                   | nos?\.?
                   | number
                   | chapter | line | paragraph | page | issue | volume | figure
-                  | exercise | illustration | example | act | scene
+                  | exercise | illustration | example | act | scene | question
+                  | version
                   ) s? \s+
                   ( \d+ (\. \d+)* | $min_word_re )
                   ( (, \s+ and | ,) \s* \d+ (\. \d+)* )*
@@ -1173,6 +1177,20 @@ sub get_matches {
                 $ba_re
                 (?{ $branch = "1a"; })
               }xin;
+    # Leading GMT
+    push @r,qr{ $bb_re
+                (?<pr> ( gmt | zulu ) \s* )
+                (?<t1> ( $rel_words \s+ )?
+                 ( ( $hour0_dig_re | $hour_dig_re )
+                   [.:]?
+                   $minsec0_dig_re )
+                )
+                (?<po>
+                  ( [.:]? $minsec_dig_re ( - $minsec_dig_re )? )?
+                )
+                $ba_re
+                (?{ $branch = "1c"; })
+              }xin;
     # 11h20
     push @r,qr{ $bb_re
                 (?<t1>
@@ -1368,7 +1386,7 @@ sub get_matches {
                 )
                 ( $never_follow_times_re (*SKIP)(*FAIL) )?
                 $ba_re
-                (?{ $branch = "5i"; })
+                (?{ $branch = "5h"; })
               }xin;
 
     # Noon / midnight
@@ -1970,6 +1988,22 @@ sub get_matches {
                 (?{ $branch = "5m"; })
               }xin;
 
+    # 20.36 Rimmer stood...
+    push @r,qr{ (?<li> (\A \s* | $bb_re \w+ \. \s+ ) )
+                (?<t1>
+                  ( $rel_words \s+ )?
+                  ( $hour24nz_dig_re | 00 ) [.] $minsec0_dig_re
+                  ( $ampm_ph_re )?
+                )
+                (?! $never_follow_times_re
+                |  $hyph+
+                )
+                (?<po> \s+ (?-i: [A-Z][a-z]\w+ ) )
+                $ba_re
+                (?{ $branch = "4"; })
+              }xin;
+
+
     # 3.00
     push @r,qr{ (?<li> $not_in_match )
                 (?<t1>
@@ -1983,28 +2017,15 @@ sub get_matches {
                 (?{ $branch = "5a:TIMEY"; })
               }xin;
 
-    # after eleven in summer evenings ...
-    # until two or even later
-    push @r,qr{ (?<li> $not_in_match )
-                (?<t1>
-                  $rel_words \s+
-                  $hour24_word_re
-                  ( $ampm_ph_re )? )
-                (?<po>
-                  \s+ ( in | on ) \s+ ( \w+ \s+ ){0,3}? $morn_re s?
-                | \s+ or \s+ ( \w+ \s+ ){0,3}? ( earlier | later )
-                )
-                $ba_re
-                (?{ $branch = "5h:TIMEY"; })
-              }xin;
-
     # Hours by, at start of phrase
     # ; eleven by big ben ...
     push @r,qr{ (?<pr> ( \A | $aq | $phrase_punc \s+ ) )
                 (?<t1> $hour24_re ( [.\s]+ $min0_re )? )
                 (?<po>
-                  \s+ ( by ) \s+
-                  (?! one \b )
+                  \s+ ( by | of ) \s+
+                  ( big \s+ ben
+                  | the \s+ ( clock | bell )
+                  )
                 )
                 $ba_re
                 (?{ $branch = "5g:TIMEY"; })

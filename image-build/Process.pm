@@ -120,11 +120,7 @@ sub print_matches {
                 my $rem = $columns - $fixed_size - length($timestr);
                 my $pre_len  = min(length($pre), int($rem / 2 + 0.5));
                 my $post_len = $rem - $pre_len;
-                if (length($post) < $post_len) {
-                    $pre_len += $post_len - length($post);
-                    $post_len = length($post);
-                }
-                $post .= ' 'x( max($post_len - length($post), 0) );
+                $post .= ' 'x$columns;
 
                 printf("  %s%3s%s %1s%1s%2s %s%s%s%s%s %s%8s%s %s%-8s%s\n",
                        color($type_color), $type_str // '', color('reset'),

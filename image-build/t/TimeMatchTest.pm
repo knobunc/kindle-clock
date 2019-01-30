@@ -6437,7 +6437,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [20:33]: 20.33',
-            '<<20.33|5a:0>> Navigation officer Henri DuBois knocked his black cona coffee with four sugars over his computer console keyboard. As he mopped up the coffee, he noticed three red warning blips on his monitor screen, which he wrongly assumed were the result of his spillage.'
+            '<<20.33|4>> Navigation officer Henri DuBois knocked his black cona coffee with four sugars over his computer console keyboard. As he mopped up the coffee, he noticed three red warning blips on his monitor screen, which he wrongly assumed were the result of his spillage.'
           ],
           [
             1,
@@ -6457,7 +6457,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [20:36]: 20.36',
-            '<<20.36|5a:0>> Rimmer stood in the main wash-room on the stasis deck and combed his hair.'
+            '<<20.36|4>> Rimmer stood in the main wash-room on the stasis deck and combed his hair.'
           ],
           [
             1,
@@ -6612,7 +6612,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [21:02]: after nine',
-            'The good Brants did not allow the boys to play out <<after nine|5h:1>> in summer evenings; they were sent to bed at that hour; Eddie honorably remained, but Georgie usually slipped out of the window toward ten, and enjoyed himself until <<midnight|13>>.'
+            'The good Brants did not allow the boys to play out <<after nine|3i>> in summer evenings; they were sent to bed at that hour; Eddie honorably remained, but Georgie usually slipped out of the window toward ten, and enjoyed himself until <<midnight|13>>.'
           ],
           [
             1,

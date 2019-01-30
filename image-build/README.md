@@ -20,6 +20,12 @@ process_books.pl books/ '^2[a-z]?(:\d)?$' 100
 process_books.pl books/ '^3:0$' 100
 ```
 
+# To re-run the matches with the new rules
+```
+test_books.pl books/ '91(:\d)?$' 100
+```
+
+
 # To run the tests
 ```
 prove t/*pl -j 8
