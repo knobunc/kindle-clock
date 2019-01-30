@@ -32,79 +32,79 @@ $VAR1 = [
           [
             1,
             '[ap 02:10] The Mythical Man Month_ Essays on Software - Frederick P. Brooks Jr_.epub (The_Mythical_Man_Month_split_151.html) - 2.10',
-            '<<2.10|5a:0>> Because we are uncertain about our scheduling estimates, we often lack the courage to defend them stubbornly against management and customer pressure.',
+            '<<2.10|4>> Because we are uncertain about our scheduling estimates, we often lack the courage to defend them stubbornly against management and customer pressure.',
           ],
           [
             1,
             '[ap 02:11] The Mythical Man Month_ Essays on Software - Frederick P. Brooks Jr_.epub (The_Mythical_Man_Month_split_151.html) - 2.11',
-            '<<2.11|5a:0>> Brooks\'s Law: Adding manpower to a late software project makes it later.',
+            '<<2.11|4>> Brooks\'s Law: Adding manpower to a late software project makes it later.',
           ],
           [
             1,
             '[ap 02:12] The Mythical Man Month_ Essays on Software - Frederick P. Brooks Jr_.epub (The_Mythical_Man_Month_split_151.html) - 2.12',
-            '<<2.12|5a:0>> Adding people to a software project increases the total effort necessary in three ways: the work and disruption of repartitioning itself, training the new people, and added intercommunication.',
+            '<<2.12|4>> Adding people to a software project increases the total effort necessary in three ways: the work and disruption of repartitioning itself, training the new people, and added intercommunication.',
           ],
           [
             1,
             '[ap 07:10] The Mythical Man Month_ Essays on Software - Frederick P. Brooks Jr_.epub (The_Mythical_Man_Month_split_156.html) - 7.10',
-            '<<7.10|5a:0>> The user needs to have attention especially drawn to changes since his last reading, with remarks on their significance.',
+            '<<7.10|4>> The user needs to have attention especially drawn to changes since his last reading, with remarks on their significance.',
           ],
           [
             1,
             '[ap 07:11] The Mythical Man Month_ Essays on Software - Frederick P. Brooks Jr_.epub (The_Mythical_Man_Month_split_156.html) - 7.11',
-            '<<7.11|5a:0>> The OS/360 Project workbook started with paper and switched to microfiche.',
+            '<<7.11|4>> The OS/360 Project workbook started with paper and switched to microfiche.',
           ],
           [
             1,
             '[ap 07:12] The Mythical Man Month_ Essays on Software - Frederick P. Brooks Jr_.epub (The_Mythical_Man_Month_split_156.html) - 7.12',
-            '<<7.12|5a:0>> Today [even in 1975], the shared electronic notebook is a much better, cheaper, and simpler mechanism for achieving all these goals.',
+            '<<7.12|4>> Today [even in 1975], the shared electronic notebook is a much better, cheaper, and simpler mechanism for achieving all these goals.',
           ],
           [
             1,
             '[ap 07:13] The Mythical Man Month_ Essays on Software - Frederick P. Brooks Jr_.epub (The_Mythical_Man_Month_split_156.html) - 7.13',
-            '<<7.13|5a:0>> One still has to mark the text with [the functional equivalent of] change bars and revision dates. One still needs a LIFO electronic change summary.',
+            '<<7.13|4>> One still has to mark the text with [the functional equivalent of] change bars and revision dates. One still needs a LIFO electronic change summary.',
           ],
           [
             1,
             '[ap 07:14] The Mythical Man Month_ Essays on Software - Frederick P. Brooks Jr_.epub (The_Mythical_Man_Month_split_156.html) - 7.14',
-            '<<7.14|5a:0>> Parnas argues strongly that the goal of everyone seeing everything is totally wrong; parts should be encapsulated so that no one needs to or is allowed to see the internals of any parts other than his own, but should see only the interfaces.',
+            '<<7.14|4>> Parnas argues strongly that the goal of everyone seeing everything is totally wrong; parts should be encapsulated so that no one needs to or is allowed to see the internals of any parts other than his own, but should see only the interfaces.',
           ],
           [
             1,
             '[ap 07:15] The Mythical Man Month_ Essays on Software - Frederick P. Brooks Jr_.epub (The_Mythical_Man_Month_split_156.html) - 7.15',
-            '<<7.15|5a:0>> Parnas\'s proposal is a recipe for disaster. [I have been quite
+            '<<7.15|4>> Parnas\'s proposal is a recipe for disaster. [I have been quite
 convinced otherwise by Parnas, and totally changed my mind.]',
           ],
           [
             1,
             '[ap 07:16] The Mythical Man Month_ Essays on Software - Frederick P. Brooks Jr_.epub (The_Mythical_Man_Month_split_156.html) - 7.16',
-            '<<7.16|5a:0>> The purpose of organization is to reduce the amount of communication and coordination necessary.',
+            '<<7.16|4>> The purpose of organization is to reduce the amount of communication and coordination necessary.',
           ],
           [
             1,
             '[ap 07:17] The Mythical Man Month_ Essays on Software - Frederick P. Brooks Jr_.epub (The_Mythical_Man_Month_split_156.html) - 7.17',
-            '<<7.17|5a:0>> Organization embodies division of labor and specialization of
+            '<<7.17|4>> Organization embodies division of labor and specialization of
 function in order to obviate communication.',
           ],
           [
             1,
             '[ap 07:18] The Mythical Man Month_ Essays on Software - Frederick P. Brooks Jr_.epub (The_Mythical_Man_Month_split_156.html) - 7.18',
-            '<<7.18|5a:0>> The conventional tree organization reflects the authority structure principle that no person can serve two masters.',
+            '<<7.18|4>> The conventional tree organization reflects the authority structure principle that no person can serve two masters.',
           ],
           [
             1,
             '[ap 07:19] The Mythical Man Month_ Essays on Software - Frederick P. Brooks Jr_.epub (The_Mythical_Man_Month_split_156.html) - 7.19',
-            '<<7.19|5a:0>> The communication structure in an organization is a network, not a tree, so all kinds of special organization mechanisms ("dotted lines") have to be devised to overcome the communication deficiencies of the tree-structured organization.',
+            '<<7.19|4>> The communication structure in an organization is a network, not a tree, so all kinds of special organization mechanisms ("dotted lines") have to be devised to overcome the communication deficiencies of the tree-structured organization.',
           ],
           [
             1,
             '[ap 07:20] The Mythical Man Month_ Essays on Software - Frederick P. Brooks Jr_.epub (The_Mythical_Man_Month_split_156.html) - 7.20',
-            '<<7.20|5a:0>> Every subproject has two leadership roles to be filled, that of the producer and that of the technical director, or architect. The functions of the two roles are quite distinct and require different talents.',
+            '<<7.20|4>> Every subproject has two leadership roles to be filled, that of the producer and that of the technical director, or architect. The functions of the two roles are quite distinct and require different talents.',
           ],
           [
             1,
             '[ap 07:21] The Mythical Man Month_ Essays on Software - Frederick P. Brooks Jr_.epub (The_Mythical_Man_Month_split_156.html) - 7.21',
-            '<<7.21|5a:0>> Any of three relationships among the two roles can be quite effective:',
+            '<<7.21|4>> Any of three relationships among the two roles can be quite effective:',
           ],
           [
             1,
@@ -117,17 +117,17 @@ function in order to obviate communication.',
             '[ap 08:10] The Mythical Man Month_ Essays on Software - Frederick P. Brooks Jr_.epub (The_Mythical_Man_Month_split_157.html) - 8.10',
             '8.9 Corbatd\'s MIT Project MULTICS data show productivity of 1.2 KLOC/man-year on a mix of operating systems and compilers, but these are PL/I lines of code, whereas all the other data are assembler lines of code!
 <<8.10|5a:0>> Productivity seems constant in terms of elementary statements.
-<<8.11|5a:0>> Programming productivity may be increased as much as five times when a suitable high-level language is used.',
+<<8.11|4>> Programming productivity may be increased as much as five times when a suitable high-level language is used.',
           ],
           [
             1,
             '[ap 08:11] The Mythical Man Month_ Essays on Software - Frederick P. Brooks Jr_.epub (The_Mythical_Man_Month_split_157.html) - 8.11',
-            '<<8.11|5a:0>> Programming productivity may be increased as much as five times when a suitable high-level language is used.',
+            '<<8.11|4>> Programming productivity may be increased as much as five times when a suitable high-level language is used.',
           ],
           [
             1,
             '[ap 09:10] The Mythical Man Month_ Essays on Software - Frederick P. Brooks Jr_.epub (The_Mythical_Man_Month_split_158.html) - 9.10',
-            '<<9.10|5a:0>> The size of the transient area, hence of the amount of program per disk fetch, is a crucial decision, since performance is a super-linear function of that size. [This whole decision has been obsoleted, first by virtual memory, then by cheap real memory. Users now typically buy enough real memory to hold all the code of major applications.]',
+            '<<9.10|4>> The size of the transient area, hence of the amount of program per disk fetch, is a crucial decision, since performance is a super-linear function of that size. [This whole decision has been obsoleted, first by virtual memory, then by cheap real memory. Users now typically buy enough real memory to hold all the code of major applications.]',
           ],
           [
             1,
@@ -137,79 +137,79 @@ function in order to obviate communication.',
           [
             1,
             '[ap 09:12] The Mythical Man Month_ Essays on Software - Frederick P. Brooks Jr_.epub (The_Mythical_Man_Month_split_158.html) - 9.12',
-            '<<9.12|5a:0>> Programming has a technology, and every project needs a library of standard components.',
+            '<<9.12|4>> Programming has a technology, and every project needs a library of standard components.',
           ],
           [
             1,
             '[ap 09:13] The Mythical Man Month_ Essays on Software - Frederick P. Brooks Jr_.epub (The_Mythical_Man_Month_split_158.html) - 9.13',
-            '<<9.13|5a:0>> Program libraries should have two versions of each component, the quick and the squeezed. [This seems obsolete today.]',
+            '<<9.13|4>> Program libraries should have two versions of each component, the quick and the squeezed. [This seems obsolete today.]',
           ],
           [
             1,
             '[ap 09:14] The Mythical Man Month_ Essays on Software - Frederick P. Brooks Jr_.epub (The_Mythical_Man_Month_split_158.html) - 9.14',
-            '<<9.14|5a:0>> Lean, spare, fast programs are almost always the result of strategic breakthrough, rather than tactical cleverness.',
+            '<<9.14|4>> Lean, spare, fast programs are almost always the result of strategic breakthrough, rather than tactical cleverness.',
           ],
           [
             1,
             '[ap 09:14] The Mythical Man Month_ Essays on Software - Frederick P. Brooks Jr_.epub (The_Mythical_Man_Month_split_158.html) - 9.14',
-            '<<9.14|5a:0>> Lean, spare, fast programs are almost always the result of strategic breakthrough, rather than tactical cleverness.
-<<9.15|5a:0>> Often such a breakthrough will be a new algorithm.
+            '<<9.14|4>> Lean, spare, fast programs are almost always the result of strategic breakthrough, rather than tactical cleverness.
+<<9.15|4>> Often such a breakthrough will be a new algorithm.
 9.16 More often, the breakthrough will come from redoing the representation of the data or tables. Representation is the essence of programming.',
           ],
           [
             1,
             '[ap 10:10] The Mythical Man Month_ Essays on Software - Frederick P. Brooks Jr_.epub (The_Mythical_Man_Month_split_159.html) - 10.10',
-            '<<10.10|5a:0>> The project manager\'s chief daily task is communication, not decision-making; the documents communicate the plans and decisions to the whole team.',
+            '<<10.10|4>> The project manager\'s chief daily task is communication, not decision-making; the documents communicate the plans and decisions to the whole team.',
           ],
           [
             1,
             '[ap 10:11] The Mythical Man Month_ Essays on Software - Frederick P. Brooks Jr_.epub (The_Mythical_Man_Month_split_159.html) - 10.11',
-            "<<10.11|5a:0>> Only a small part of a technical project manager's time\x{2014}perhaps 20 percent\x{2014}is spent on tasks where he needs information from outside his head.",
+            "<<10.11|4>> Only a small part of a technical project manager's time\x{2014}perhaps 20 percent\x{2014}is spent on tasks where he needs information from outside his head.",
           ],
           [
             1,
             '[ap 10:12] The Mythical Man Month_ Essays on Software - Frederick P. Brooks Jr_.epub (The_Mythical_Man_Month_split_159.html) - 10.12',
-            '<<10.12|5a:0>> For this reason, the touted market concept of a "management total-information system" to support executives is not based on a valid model of executive behavior.',
+            '<<10.12|4>> For this reason, the touted market concept of a "management total-information system" to support executives is not based on a valid model of executive behavior.',
           ],
           [
             1,
             '[ap 11:10] The Mythical Man Month_ Essays on Software - Frederick P. Brooks Jr_.epub (The_Mythical_Man_Month_split_160.html) - 11.10',
-            '<<11.10|5a:0>> Some valid changes in objectives (and in development strategies) are inevitable, and it is better to be prepared for them than to assume that they will not come.',
+            '<<11.10|4>> Some valid changes in objectives (and in development strategies) are inevitable, and it is better to be prepared for them than to assume that they will not come.',
           ],
           [
             1,
             '[ap 11:11] The Mythical Man Month_ Essays on Software - Frederick P. Brooks Jr_.epub (The_Mythical_Man_Month_split_160.html) - 11.11',
-            '<<11.11|5a:0>> The techniques for planning a software product for change, especially structured programming with careful module interface documentation, are well known but not uniformly practiced. It also helps to use table-driven techniques wherever possible. [Modern memory costs and sizes make such techniques better and better.]',
+            '<<11.11|4>> The techniques for planning a software product for change, especially structured programming with careful module interface documentation, are well known but not uniformly practiced. It also helps to use table-driven techniques wherever possible. [Modern memory costs and sizes make such techniques better and better.]',
           ],
           [
             1,
             '[ap 11:12] The Mythical Man Month_ Essays on Software - Frederick P. Brooks Jr_.epub (The_Mythical_Man_Month_split_160.html) - 11.12',
-            '<<11.12|5a:0>> Use high-level language, compile-time operations, incorporations of declarations by reference, and self-documenting techniques to reduce errors induced by change.',
+            '<<11.12|4>> Use high-level language, compile-time operations, incorporations of declarations by reference, and self-documenting techniques to reduce errors induced by change.',
           ],
           [
             1,
             '[ap 11:13] The Mythical Man Month_ Essays on Software - Frederick P. Brooks Jr_.epub (The_Mythical_Man_Month_split_160.html) - 11.13',
-            '<<11.13|5a:0>> Quantify changes into well-defined numbered versions. [Now standard practice.]',
+            '<<11.13|4>> Quantify changes into well-defined numbered versions. [Now standard practice.]',
           ],
           [
             1,
             '[ap 11:14] The Mythical Man Month_ Essays on Software - Frederick P. Brooks Jr_.epub (The_Mythical_Man_Month_split_160.html) - 11.14',
-            '<<11.14|5a:0>> Programmer reluctance to document designs comes not so much from laziness as from the hesitancy to undertake defense of decisions that the designer knows are tentative. (Cosgrove)',
+            '<<11.14|4>> Programmer reluctance to document designs comes not so much from laziness as from the hesitancy to undertake defense of decisions that the designer knows are tentative. (Cosgrove)',
           ],
           [
             1,
             '[ap 11:15] The Mythical Man Month_ Essays on Software - Frederick P. Brooks Jr_.epub (The_Mythical_Man_Month_split_160.html) - 11.15',
-            '<<11.15|5a:0>> Structuring an organization for change is much harder than designing a system for change.',
+            '<<11.15|4>> Structuring an organization for change is much harder than designing a system for change.',
           ],
           [
             1,
             '[ap 11:16] The Mythical Man Month_ Essays on Software - Frederick P. Brooks Jr_.epub (The_Mythical_Man_Month_split_160.html) - 11.16',
-            '<<11.16|5a:0>> The project boss must work at keeping the managers and the technical people as interchangeable as their talents allow; in particular, one wants to be able to move people easily between technical and managerial roles.',
+            '<<11.16|4>> The project boss must work at keeping the managers and the technical people as interchangeable as their talents allow; in particular, one wants to be able to move people easily between technical and managerial roles.',
           ],
           [
             1,
             '[ap 11:17] The Mythical Man Month_ Essays on Software - Frederick P. Brooks Jr_.epub (The_Mythical_Man_Month_split_160.html) - 11.17',
-            '<<11.17|5a:0>> The barriers to effective dual-ladder organization are sociological, and they must be fought with constant vigilance and energy.',
+            '<<11.17|4>> The barriers to effective dual-ladder organization are sociological, and they must be fought with constant vigilance and energy.',
           ],
           [
             1,
@@ -219,37 +219,37 @@ function in order to obviate communication.',
           [
             1,
             '[ap 11:19] The Mythical Man Month_ Essays on Software - Frederick P. Brooks Jr_.epub (The_Mythical_Man_Month_split_160.html) - 11.19',
-            '<<11.19|5a:0>> Organizing as a surgical team is a radical attack on all aspects of this problem. It is really the long-run answer to the problem of flexible organization.',
+            '<<11.19|4>> Organizing as a surgical team is a radical attack on all aspects of this problem. It is really the long-run answer to the problem of flexible organization.',
           ],
           [
             1,
             '[ap 11:20] The Mythical Man Month_ Essays on Software - Frederick P. Brooks Jr_.epub (The_Mythical_Man_Month_split_160.html) - 11.20',
-            '<<11.20|5a:0>> Program maintenance is fundamentally different from hardware maintenance; it consists chiefly of changes that repair design defects, add incremental function, or adapt to changes in the use environment or configuration.',
+            '<<11.20|4>> Program maintenance is fundamentally different from hardware maintenance; it consists chiefly of changes that repair design defects, add incremental function, or adapt to changes in the use environment or configuration.',
           ],
           [
             1,
             '[ap 11:21] The Mythical Man Month_ Essays on Software - Frederick P. Brooks Jr_.epub (The_Mythical_Man_Month_split_160.html) - 11.21',
-            '<<11.21|5a:0>> The total lifetime cost of maintaining a widely used program is typically 40 percent or more of the cost of developing it.',
+            '<<11.21|4>> The total lifetime cost of maintaining a widely used program is typically 40 percent or more of the cost of developing it.',
           ],
           [
             1,
             '[ap 11:22] The Mythical Man Month_ Essays on Software - Frederick P. Brooks Jr_.epub (The_Mythical_Man_Month_split_160.html) - 11.22',
-            '<<11.22|5a:0>> Maintenance cost is strongly affected by the number of users. More users find more bugs.',
+            '<<11.22|4>> Maintenance cost is strongly affected by the number of users. More users find more bugs.',
           ],
           [
             1,
             '[ap 11:23] The Mythical Man Month_ Essays on Software - Frederick P. Brooks Jr_.epub (The_Mythical_Man_Month_split_160.html) - 11.23',
-            '<<11.23|5a:0>> Campbell points out an interesting drop-and-climb curve in bugs per month over a product\'s life.',
+            '<<11.23|4>> Campbell points out an interesting drop-and-climb curve in bugs per month over a product\'s life.',
           ],
           [
             1,
             '[ap 11:24] The Mythical Man Month_ Essays on Software - Frederick P. Brooks Jr_.epub (The_Mythical_Man_Month_split_160.html) - 11.24',
-            '<<11.24|5a:0>> Fixing a defect has a substantial (20 to 50 percent) chance of introducing another.',
+            '<<11.24|4>> Fixing a defect has a substantial (20 to 50 percent) chance of introducing another.',
           ],
           [
             1,
             '[ap 11:26] The Mythical Man Month_ Essays on Software - Frederick P. Brooks Jr_.epub (The_Mythical_Man_Month_split_160.html) - 11.26',
-            '<<11.26|5a:0>> Methods of designing programs so as to eliminate or at least illuminate side effects can have an immense payoff in maintenance costs.',
+            '<<11.26|4>> Methods of designing programs so as to eliminate or at least illuminate side effects can have an immense payoff in maintenance costs.',
           ],
           [
             1,
@@ -259,57 +259,57 @@ function in order to obviate communication.',
           [
             1,
             '[ap 11:28] The Mythical Man Month_ Essays on Software - Frederick P. Brooks Jr_.epub (The_Mythical_Man_Month_split_160.html) - 11.28',
-            '<<11.28|5a:0>> Lehman and Belady find that the total number of modules increases linearly with the release number of a large operating system (OS/360), but that the number of modules affected increases exponentially with the release number.',
+            '<<11.28|4>> Lehman and Belady find that the total number of modules increases linearly with the release number of a large operating system (OS/360), but that the number of modules affected increases exponentially with the release number.',
           ],
           [
             1,
             '[ap 11:29] The Mythical Man Month_ Essays on Software - Frederick P. Brooks Jr_.epub (The_Mythical_Man_Month_split_160.html) - 11.29',
-            '<<11.29|5a:0>> All repairs tend to destroy structure, to increase the entropy and disorder of a system. Even the most skillful program maintenance only delays the program\'s subsidence into unfixable chaos, from which there has to be a ground-up redesign. [Many of the real needs for upgrading a program, such as performance, especially attack its internal structural boundaries. Often the original boundaries occasioned the deficiencies that surface later.]',
+            '<<11.29|4>> All repairs tend to destroy structure, to increase the entropy and disorder of a system. Even the most skillful program maintenance only delays the program\'s subsidence into unfixable chaos, from which there has to be a ground-up redesign. [Many of the real needs for upgrading a program, such as performance, especially attack its internal structural boundaries. Often the original boundaries occasioned the deficiencies that surface later.]',
           ],
           [
             1,
             '[ap 00:10] The Mythical Man Month_ Essays on Software - Frederick P. Brooks Jr_.epub (The_Mythical_Man_Month_split_161.html) - 12.10',
-            '<<12.10|5a:0>> The tool that saves the most labor in a programming project is probably a text-editing system.',
+            '<<12.10|4>> The tool that saves the most labor in a programming project is probably a text-editing system.',
           ],
           [
             1,
             '[ap 00:11] The Mythical Man Month_ Essays on Software - Frederick P. Brooks Jr_.epub (The_Mythical_Man_Month_split_161.html) - 12.11',
-            '<<12.11|5a:0>> Voluminosity in system documentation does indeed introduce a new kind of incomprehensibility [see Unix, for example], but it is far preferable to the severe underdocumentation that is so common.',
+            '<<12.11|4>> Voluminosity in system documentation does indeed introduce a new kind of incomprehensibility [see Unix, for example], but it is far preferable to the severe underdocumentation that is so common.',
           ],
           [
             1,
             '[ap 00:12] The Mythical Man Month_ Essays on Software - Frederick P. Brooks Jr_.epub (The_Mythical_Man_Month_split_161.html) - 12.12',
-            '<<12.12|5a:0>> Build a performance simulator, outside in, top down. Start it very early. Listen when it speaks.',
+            '<<12.12|4>> Build a performance simulator, outside in, top down. Start it very early. Listen when it speaks.',
           ],
           [
             1,
             '[ap 00:13] The Mythical Man Month_ Essays on Software - Frederick P. Brooks Jr_.epub (The_Mythical_Man_Month_split_161.html) - 12.13',
-            '<<12.13|5a:0>> Only sloth and inertia prevent the universal adoption of high-level language and interactive programming. [And today they have been adopted universally]',
+            '<<12.13|4>> Only sloth and inertia prevent the universal adoption of high-level language and interactive programming. [And today they have been adopted universally]',
           ],
           [
             1,
             '[ap 00:14] The Mythical Man Month_ Essays on Software - Frederick P. Brooks Jr_.epub (The_Mythical_Man_Month_split_161.html) - 12.14',
-            '<<12.14|5a:0>> High-level language improves not only productivity but also debugging; fewer bugs and easier to findr <<12.15|5a:0>> The classical objections of function, object-code space, and object-code speed have been made obsolete by the advance of language and compiler technology.',
+            '<<12.14|4>> High-level language improves not only productivity but also debugging; fewer bugs and easier to findr <<12.15|5a:0>> The classical objections of function, object-code space, and object-code speed have been made obsolete by the advance of language and compiler technology.',
           ],
           [
             1,
             '[ap 00:16] The Mythical Man Month_ Essays on Software - Frederick P. Brooks Jr_.epub (The_Mythical_Man_Month_split_161.html) - 12.16',
-            '<<12.16|5a:0>> The only reasonable candidate for system programming today is PL/I. [No longer true.]',
+            '<<12.16|4>> The only reasonable candidate for system programming today is PL/I. [No longer true.]',
           ],
           [
             1,
             '[ap 00:17] The Mythical Man Month_ Essays on Software - Frederick P. Brooks Jr_.epub (The_Mythical_Man_Month_split_161.html) - 12.17',
-            '<<12.17|5a:0>> Interactive systems will never displace batch systems for some applications. [Still true.]',
+            '<<12.17|4>> Interactive systems will never displace batch systems for some applications. [Still true.]',
           ],
           [
             1,
             '[ap 00:18] The Mythical Man Month_ Essays on Software - Frederick P. Brooks Jr_.epub (The_Mythical_Man_Month_split_161.html) - 12.18',
-            '<<12.18|5a:0>> Debugging is the hard and slow part of system programming, and slow turnaround is the bane of debugging.',
+            '<<12.18|4>> Debugging is the hard and slow part of system programming, and slow turnaround is the bane of debugging.',
           ],
           [
             1,
             '[ap 00:19] The Mythical Man Month_ Essays on Software - Frederick P. Brooks Jr_.epub (The_Mythical_Man_Month_split_161.html) - 12.19',
-            '<<12.19|5a:0>> Limited evidence shows that interactive programming at least doubles productivity in system programming.',
+            '<<12.19|4>> Limited evidence shows that interactive programming at least doubles productivity in system programming.',
           ],
           [
             1,
@@ -319,17 +319,17 @@ function in order to obviate communication.',
           [
             1,
             '[13:11] The Mythical Man Month_ Essays on Software - Frederick P. Brooks Jr_.epub (The_Mythical_Man_Month_split_162.html) - 13.11',
-            '<<13.11|5a:0>> System debugging (in contrast to component debugging) will take longer than one expects.',
+            '<<13.11|4>> System debugging (in contrast to component debugging) will take longer than one expects.',
           ],
           [
             1,
             '[13:12] The Mythical Man Month_ Essays on Software - Frederick P. Brooks Jr_.epub (The_Mythical_Man_Month_split_162.html) - 13.12',
-            '<<13.12|5a:0>> The difficulty of system debugging justifies a thoroughly systematic and planned approach.',
+            '<<13.12|4>> The difficulty of system debugging justifies a thoroughly systematic and planned approach.',
           ],
           [
             1,
             '[13:13] The Mythical Man Month_ Essays on Software - Frederick P. Brooks Jr_.epub (The_Mythical_Man_Month_split_162.html) - 13.13',
-            '<<13.13|5a:0>> One should begin system debugging only after the pieces seem to work (versus-bolt-it-together-and-try in order to smoke out the interface bugs; and versus starting system debugging when the component bugs are fully known but not fixed.) [This is especially true for teams.]',
+            '<<13.13|4>> One should begin system debugging only after the pieces seem to work (versus-bolt-it-together-and-try in order to smoke out the interface bugs; and versus starting system debugging when the component bugs are fully known but not fixed.) [This is especially true for teams.]',
           ],
           [
             1,
@@ -339,29 +339,29 @@ function in order to obviate communication.',
           [
             1,
             '[13:15] The Mythical Man Month_ Essays on Software - Frederick P. Brooks Jr_.epub (The_Mythical_Man_Month_split_162.html) - 13.15',
-            '<<13.15|5a:0>> One must control and document changes and versions, with team members working in playpen copies.',
+            '<<13.15|4>> One must control and document changes and versions, with team members working in playpen copies.',
           ],
           [
             1,
             '[13:15] The Mythical Man Month_ Essays on Software - Frederick P. Brooks Jr_.epub (The_Mythical_Man_Month_split_162.html) - 13.15',
-            '<<13.15|5a:0>> One must control and document changes and versions, with team members working in playpen copies.
-<<13.16|5a:0>> Add one component at a time during system debugging.
-<<13.17|5a:0>> Lehman and Belady offer evidence the change quanta should be large and infrequent or else very small and frequent. The latter is more subject to instability. [A Microsoft team makes small frequent quanta work. The growing system is rebuilt every night.]',
+            '<<13.15|4>> One must control and document changes and versions, with team members working in playpen copies.
+<<13.16|4>> Add one component at a time during system debugging.
+<<13.17|4>> Lehman and Belady offer evidence the change quanta should be large and infrequent or else very small and frequent. The latter is more subject to instability. [A Microsoft team makes small frequent quanta work. The growing system is rebuilt every night.]',
           ],
           [
             1,
             '[13:17] The Mythical Man Month_ Essays on Software - Frederick P. Brooks Jr_.epub (The_Mythical_Man_Month_split_162.html) - 13.17',
-            '<<13.17|5a:0>> Lehman and Belady offer evidence the change quanta should be large and infrequent or else very small and frequent. The latter is more subject to instability. [A Microsoft team makes small frequent quanta work. The growing system is rebuilt every night.]',
+            '<<13.17|4>> Lehman and Belady offer evidence the change quanta should be large and infrequent or else very small and frequent. The latter is more subject to instability. [A Microsoft team makes small frequent quanta work. The growing system is rebuilt every night.]',
           ],
           [
             1,
             '[14:10] The Mythical Man Month_ Essays on Software - Frederick P. Brooks Jr_.epub (The_Mythical_Man_Month_split_163.html) - 14.10',
-            '<<14.10|5a:0>> The preparation of a critical-path chart is the most valuable part of its use, since laying out the network, identifying the dependencies, and estimating the segments force a great deal of very specific planning very early in a project.',
+            '<<14.10|4>> The preparation of a critical-path chart is the most valuable part of its use, since laying out the network, identifying the dependencies, and estimating the segments force a great deal of very specific planning very early in a project.',
           ],
           [
             1,
             '[14:11] The Mythical Man Month_ Essays on Software - Frederick P. Brooks Jr_.epub (The_Mythical_Man_Month_split_163.html) - 14.11',
-            '<<14.11|5a:0>> The first chart is always terrible, and one invents and invents in making the next one.',
+            '<<14.11|4>> The first chart is always terrible, and one invents and invents in making the next one.',
           ],
           [
             1,
@@ -371,12 +371,12 @@ function in order to obviate communication.',
           [
             1,
             '[14:13] The Mythical Man Month_ Essays on Software - Frederick P. Brooks Jr_.epub (The_Mythical_Man_Month_split_163.html) - 14.13',
-            '<<14.13|5a:0>> Every boss needs both exception information that requires action and a status picture for education and dis-tant early warning.',
+            '<<14.13|4>> Every boss needs both exception information that requires action and a status picture for education and dis-tant early warning.',
           ],
           [
             1,
             '[14:14] The Mythical Man Month_ Essays on Software - Frederick P. Brooks Jr_.epub (The_Mythical_Man_Month_split_163.html) - 14.14',
-            '<<14.14|5a:0>> Getting the status is hard, since subordinate managers have every reason not to share it.',
+            '<<14.14|4>> Getting the status is hard, since subordinate managers have every reason not to share it.',
           ],
           [
             1,
@@ -386,12 +386,12 @@ function in order to obviate communication.',
           [
             1,
             '[14:16] The Mythical Man Month_ Essays on Software - Frederick P. Brooks Jr_.epub (The_Mythical_Man_Month_split_163.html) - 14.16',
-            '<<14.16|5a:0>> One must have review techniques by which true status becomes known to all players. For this purpose a milestone schedule and completion document is the key.',
+            '<<14.16|4>> One must have review techniques by which true status becomes known to all players. For this purpose a milestone schedule and completion document is the key.',
           ],
           [
             1,
             '[14:17] The Mythical Man Month_ Essays on Software - Frederick P. Brooks Jr_.epub (The_Mythical_Man_Month_split_163.html) - 14.17',
-            '<<14.17|5a:0>> Vyssotsky: "I have found it handy to carry both \'sched-uled\' (boss\'s dates) and \'estimated\' (lowest-level manager\'s dates) dates in the milestone report. The project manager has to keep his fingers off the estimated dates."',
+            '<<14.17|4>> Vyssotsky: "I have found it handy to carry both \'sched-uled\' (boss\'s dates) and \'estimated\' (lowest-level manager\'s dates) dates in the milestone report. The project manager has to keep his fingers off the estimated dates."',
           ],
           [
             1,
@@ -401,12 +401,12 @@ function in order to obviate communication.',
           [
             1,
             '[15:10] The Mythical Man Month_ Essays on Software - Frederick P. Brooks Jr_.epub (The_Mythical_Man_Month_split_164.html) - 15.10',
-            '<<15.10|5a:0>> Few programs need more than a one-page flow chart, if that. [MILSPEC documentation requirements are really wrong on this point.]',
+            '<<15.10|4>> Few programs need more than a one-page flow chart, if that. [MILSPEC documentation requirements are really wrong on this point.]',
           ],
           [
             1,
             '[15:11] The Mythical Man Month_ Essays on Software - Frederick P. Brooks Jr_.epub (The_Mythical_Man_Month_split_164.html) - 15.11',
-            '<<15.11|5a:0>> One does indeed need a program structure graph, which does not need the ANSI flow-charting standards.',
+            '<<15.11|4>> One does indeed need a program structure graph, which does not need the ANSI flow-charting standards.',
           ],
           [
             1,
@@ -417,7 +417,7 @@ function in order to obviate communication.',
             1,
             '[15:12] The Mythical Man Month_ Essays on Software - Frederick P. Brooks Jr_.epub (The_Mythical_Man_Month_split_164.html) - 15.12',
             "<<15.12|5a:0>> To keep documentation maintained, it is crucial that it be incorporated in the source program, rather than kept as a separate document.
-<<15.13|5a:0>> Three notions are key to minimizing the documentation burden:
+<<15.13|4>> Three notions are key to minimizing the documentation burden:
 \x{2022} Use parts of the program that have to be there anyway, such as names and declarations, to carry as much of the documentation as possible.",
           ],
           [
@@ -428,77 +428,6 @@ function in order to obviate communication.',
           [
             1,
             '[15:15] The Mythical Man Month_ Essays on Software - Frederick P. Brooks Jr_.epub (The_Mythical_Man_Month_split_164.html) - 15.15',
-            '<<15.15|5a:0>> Self-documenting programming techniques find their greatest use and power in high-level languages used with on-line systems, which are the tools one should be using.',
-          ],
-          [
-            1,
-            '[ap 10:12] The Mythical Man Month_ Essays on Software - Frederick P. Brooks Jr_.epub (The_Mythical_Man_Month_split_201.html) - 10-12',
-            "Brooks, F. P., \"No silver bullet\x{2014}essence and accidents of software engineering,\" in Information Processing 86, H, J. Kugler, ed. Amsterdam: Elsevier Science (North Holland), 1986, pp. 1069^1076.
-Brooks, F. P., \"No silver bullet\x{2014}essence and accidents of software engineering,\" Computer 20,4 (April, 1987), pp. 10-19.
-Several of the letters, and a reply, appeared in the July, 1987 issue of Computer.
-It is a special pleasure to observe that whereas \"NSB\" received no awards, Bruce M. Skwiersky's review of it was selected as the best review published in Computing Reviews in 1988. E. A. Weiss, \"Editorial,\" Computing Reviews (June, 1989), pp. 283-284, both announces the award and reprints Skwiersky's review. The review has one significant error: \"sixfold\" should be \"106.\"
-\"According to Aristotle, and in Scholastic philosophy, an accident is a quality which does not belong to a thing by right of that thing's essential or substantial nature but occurs in it as an effect of other causes.\" Webster's New International
-Dictionary of the English Language, 2d ed., Springfield, Mass.: G. C. Merriam, 1960.
-Sayers, Dorothy L., The Mind of the Maker. New York: Har-court, Brace, 1941.
-Glass, R. L., and S. A. Conger, \"Research software tasks: Intellectual or clerical?\" Information and Management, 23, 4 (1992). The authors report a measurement of software requirements specification to be about 80% intellectual and 20% clerical. Fjelstadt and Hamlen, 1979, get essentially the same results for application software maintenance. I know of no attempt to measure this fraction for the whole end-to-end task.
-Herzberg, F., B. Mausner, and B. B. Sayderman. The Motivation to Work, 2nd ed. London: Wiley, 1959.
-Cox, B. J., \"There is a silver bullet,\" Byte (Oct., 1990), pp. 209-218.
-Harel, D., \"Biting the silver bullet: Toward a brighter future for system development,\" Computer (Jan., 1992), pp. 8-20.
-Parnas, D. L., \"Software aspects of strategic defense systems,\" Communications of the ACM, 28, 12 (Dec., 1985), pp. 1326-1335.
-Turski, W. M., \"And no philosophers' stone, either,\" in Information Processing 86, H. J. Kugler, ed. Amsterdam: Elsevier Science (North Holland), 1986, pp. 1077-1080.
-Glass, R. L., and S. A. Conger, \"Research Software Tasks: Intellectual or Clerical?\" Information and Management, 23, 4 (1992), pp. 183-192.
-Review of Electronic Digital Computers, Proceedings of a Joint
-AIEE-IRE Computer Conference (Philadelphia, Dec. <<10-12|5a:1>>, 1951). New York: American Institute of Electrical Engineers, pp. 13-20.
-Ibid., pp. 36, 68, 71, 97.
-Proceedings of the Eastern Joint Computer Conference, (Washington, Dec. <<8-10|5a:1>>, 1953). New York: Institute of Electrical Engineers, pp. 45-47.
-Proceedings of the 1955 Western Joint Computer Conference (Los Angeles, March 1-3, 1955). New York: Institute of Electrical Engineers.
-Everett, R. R., C. A. Zraket, and H. D. Bennington, \"SAGE\x{2014}A data processing system for air defense,\" Proceedings of the Eastern Joint Computer Conference, (Washington, Dec. <<11-13|5a:1>>, 1957). New York: Institute of Electrical Engineers.
-Harel, D., H. Lachover, A. Naamad, A. Pnueli, M. Politi, R. Sherman, A. Shtul-Trauring, \"Statemate: A working environment for the development of complex reactive systems,\" IEEE Trans, on SE, 16, 4 (1990), pp. 403^44.
-Jones, C., Assessment and Control of Software Risks. Englewood Cliffs, N.J.: Prentice-Hall, 1994. p. 619.
-Coqui, H., \"Corporate survival: The software dimension,\" Focus '89, Cannes, 1989.
-Coggins, James M., \"Designing C + + libraries,\" C+ + Journal, \\, 1 (June, 1990), pp. 25-32.
-The tense is future; I know of no such result yet reported for a fifth use.
-Jones, op. cit., p 604.
-Huang, Weigiao, \"Industrializing software production,\" Proceedings ACM 1988 Computer Science Conference, Atlanta, 1988. I fear the lack of personal job growth in such an arrangement.
-The entire September, 1994 issue of IEEE Software is on reuse.
-Jones, op. cit., p. 323.
-Jones, op. cit., p. 329.
-Yourdon, E., Decline and Fall of the American Programmer. Englewood Cliffs, N.J.: Yourdon Press, 1992, p. 221.
-Glass, R. L., \"Glass\"(column), System Development, (Janu-ary, 1988), pp. 4-5.",
-          ],
-          [
-            1,
-            '[ap 09:11] The Mythical Man Month_ Essays on Software - Frederick P. Brooks Jr_.epub (The_Mythical_Man_Month_split_203.html) - 9-11',
-            'On this painful subject, see also Niklaus Wirth "A plea for lean software," Computer, 28, 2 (Feb., 1995), pp. 64-68.
-Coleman, D., 1994, "Word 6.0 packs in features; update slowed by baggage," MacWeek, 8, 38 (Sept. 26, 1994), p. 1.
-Many surveys of machine language and programming language command frequencies after fielding have been published. For example, see J. Hennessy and D. Patterson, Computer Architecture. These frequency data are very useful for building successor products, although they never exactly apply. I know of no published frequency estimates prepared before the product was designed, much less comparisons of a priori estimates and a posteriori data. Ken Brooks suggests that bulletin boards on the Internet now provide a cheap method of soliciting data from prospective users of a new product, even though only a self-selected set responds.
-Conklin, J., and M. Begeman, "gIBIS: A Hypertext Tool for Exploratory Policy Discussion," ACM Transactions on Office
-Information Systems, Oct. 1988, pp. 303-331.
-Englebart, D., and W. English, "A research center for augmenting human intellect," AFIPS Conference Proceedings, Fall
-Joint Computer Conference, San Francisco (Dec. <<9-11|5a:1>>, 1968), pp. 395-410.
-Apple Computer, Inc., Macintosh Human Interface Guidelines, Reading, Mass.: Addison-Wesley, 1992.
-It appears the Apple Desk Top Bus could handle two mice electronically, but the operating system provides no such function.
-Royce, W. W., 1970. "Managing the development of large software systems: Concepts and techniques," Proceedings, WESCON (Aug., 1970), reprinted in the ICSE 9 Proceedings. Neither Royce nor others believed one could go through the software process without revising earlier documents; the model was put forth as an ideal and a conceptual aid. See D. L. Parnas and P. C. Clements, "A rational design process: How and why to fake it," IEEE Transactions on Software
-Engineering, SE-12, 2 (Feb., 1986), pp. 251-257.
-A major reworking of DOD-STD-2167 produced DOD-STD-2167A (1988), which allows but does not mandate more recent models such as the spiral model. Unfortunately, the MILSPECS that 2167A references and the illustrative examples it uses are still waterfall-oriented, so most procurements have continued to use the waterfall, Boehm reports. A Defense Science Board Task Force under Larry Druffel and George Heilmeyer, in their 1994 "Report of the DSB task force on acquiring defense software commercially," has advocated the wholesale use of more modern models.
-Mills, H. D., "Top-down programming in large systems," in Debugging Techniques in Large Systems, R. Rustin, ed. Englewood Cliffs, N.J.: Prentice-Hall, 1971.
-Parnas, D. L., "On the design and development of program families," IEEE Trans, on Software Engineering, SE-2, 1 (March, 1976), pp. 1-9; Parnas, D. L., "Designing software for ease of extension and contraction," IEEE Trans, on Software Engineering, SE-5, 2 (March, 1979), pp. 128-138.
-D. Harel, "Biting the silver bullet," Computer (Jan,, 1992), pp. 8-20.
-The seminal papers on information hiding are: Parnas, D. L., "Information distribution aspects of design methodology," Carnegie-Mellon, Dept. of Computer Science, Technical Report (Feb., 1971); Parnas, D. L., "A technique for software module specification with examples," Comm. ACM, 5, 5 (May, 1972), pp. 330-336; Parnas, D. L. (1972). "On the criteria to be used in decomposing systems into modules," Comm. ACM, 5,12 (Dec., 1972), pp. 1053-1058.
-The ideas of objects were initially sketched by Hoare and Dijkstra, but the first and most influential development of them was the Simula-67 language by Dahl and Nygaard.
-Boehm, B. W., Software Engineering Economics, Englewood Cliffs, N.J.: Prentice-Hall, 1981, pp. 83-94; 470-472.
-Abdel-Hamid, T., and S. Madnick, Software Project Dynamics:
-An Integrated Approach, ch. 19, "Model enhancement and Brooks\'s law." Englewood Cliffs, N.J.: Prentice Hall, 1991.
-Stutzke, R. D., "A Mathematical Expression of Brooks\'s Law." In Ninth International Forum on COCOMO and Cost
-Modeling. Los Angeles: 1994.
-DeMarco, T., and T. Lister, Peopleware: Productive Projects and
-Teams. New York: Dorset House, 1987.
-Pius XI, Encyclical Quadragesima Anno, [Ihm, Claudia Car-len, ed., The Papal Encyclicals 1903-1939, Raleigh, N.C.: McGrath, p. 428.]
-Schumacher, E. E, Small Is Beautiful: Economics as if People
-Mattered, Perennial Library Edition. New York: Harper and Row, 1973, p. 244.
-Schumacher, op. cit., p. 34.
-A thought-provoking wall poster proclaims: "Freedom of the press belongs to him who has one."
-Bush, V., "That we may think," ^Atlantic Monthly, 176, 1 (April, 1945), pp. 101-108.
-Ken Thompson of Bell Labs, inventor of Unix, realized early the importance of big screens for programming. He devised a way to get 120 lines of code, in two columns, onto his primitive Tektronix electron-storage tube. He clung to this terminal through a whole generation of small-window, fast tubes.',
+            '<<15.15|4>> Self-documenting programming techniques find their greatest use and power in high-level languages used with on-line systems, which are the tools one should be using.',
           ],
         ];

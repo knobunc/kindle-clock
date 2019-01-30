@@ -21,13 +21,6 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 02:00] The Pickwick Papers - Charles Dickens.epub (OPS/chapter-006.xml) - Two',
-            "'Much use that,' growled the fat gentleman.
-'<<Two|5g:0>> by honours\x{2014}makes us eight,' said Mr.\x{a0}Pickwick.
-'Another hand. 'Can you one?' inquired the old lady.",
-          ],
-          [
-            1,
             '[12:00] The Pickwick Papers - Charles Dickens.epub (OPS/chapter-006.xml) - noon',
             "'They were poor\x{2014}they could not be otherwise when the man pursued such courses; but the woman's unceasing and unwearied exertions, early and late, morning, <<noon|13>>, and night, kept them above actual want. These exertions were but ill repaid. People who passed the spot in the evening\x{2014}sometimes at a late hour of the night\x{2014}reported that they had heard the moans and sobs of a woman in distress, and the sound of blows; and more than once, when it was <<past midnight|13>>, the boy knocked softly at the door of a neighbour's house, whither he had been sent, to escape the drunken fury of his unnatural father.",
           ],
@@ -94,8 +87,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 01:00] The Pickwick Papers - Charles Dickens.epub (OPS/chapter-013.xml) - one',
-            '\'Yes,\' said his attendant, \'every man slept vere he fell down; we dragged \'em out, <<one|5g:0>> by <<one, this mornin\'|5>>, and put \'em under the pump, and they\'re in reg\'lar fine order now. Shillin\' a head the committee paid for that \'ere job.\'',
+            '[01:00] The Pickwick Papers - Charles Dickens.epub (OPS/chapter-013.xml) - one, this mornin\'',
+            '\'Yes,\' said his attendant, \'every man slept vere he fell down; we dragged \'em out, one by <<one, this mornin\'|5>>, and put \'em under the pump, and they\'re in reg\'lar fine order now. Shillin\' a head the committee paid for that \'ere job.\'',
           ],
           [
             1,

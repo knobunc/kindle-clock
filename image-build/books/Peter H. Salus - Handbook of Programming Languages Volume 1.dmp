@@ -26,15 +26,6 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 04:00] Handbook of Programming Languages Volume 1 - Peter H. Salus.epub (125-127.html) - 4',
-            'aCustomer name        aCustomer perform: #name
-  3 + 4                 3 perform: #+ with: <<4|5g:0>>
-
-
-By using perform:, we can modify our sample menu class to use an array of message selectors to specify the selection actions. The implementation of the notify:with: method would change to this:',
-          ],
-          [
-            1,
             '[ap 01:00] Handbook of Programming Languages Volume 1 - Peter H. Salus.epub (152-155.html) - 1',
             "Protocol <sequencedReadableCollection> abbreviated <sRC>
 Conforms to: <collection>
@@ -184,12 +175,6 @@ A temporary variable at the start of any method
 
 
 Because Smalltalk is weakly typed (meaning that there is only one type, an object), the declarations of variables cannot make any distinction between types of classes. The message isKindOf: aClass can be sent to any object to determine the class of which it is an instance, and code can proceed from there. The drawback to this type of coding is that it defeats some polymorphism, but it does reduce the number of extraneous methods in commonly used classes such as String and Integer. It is also worth noting that because the developer has total control over Smalltalk, additional rigor can be placed on the declaration of variables, including typing variables by class if necessary.",
-          ],
-          [
-            1,
-            '[ap 01:13] Handbook of Programming Languages Volume 1 - Peter H. Salus.epub (285-286.html) - 1.13',
-            "6.7.3. Compilers
-The Santa Fe conference marked the announcement of the second wave of C++ implementations. Steve Dewhurst described the architecture of a compiler he and others were building in AT&T\x{2019}s Summit facility, Mike Ball presented some ideas for what became the TauMetric C++ compiler (more often known as the Oregon Software C++ compiler), and Mike Tiemann gave an animated and interesting presentation of how the GNU G++ he was building would do just about everything and put all other C++ compiler writers out of business. The new AT&T C++ compiler never materialized; GNU C++ Version <<1.13|5a:0>> was first released in December 1987; and TauMetric C++ first shipped in January 1988.",
           ],
           [
             1,

@@ -1,12 +1,6 @@
 $VAR1 = [
           [
             1,
-            '[19:34] Handbook of Programming Languages Volume 4 - Peter H. Salus.epub (013-016.html) - 19.34',
-            '2.5.1. An Example of a Search Within a Buffer
-This section describes an example of a function definition that is not interactive; it comes from the source code for GNU Emacs version <<19.34|5a:0>>. You can find the function in the file texnfo-upd.el. (In Emacs you can use the find-tag command to find the source of a function.)',
-          ],
-          [
-            1,
             '[ap 06:55] Handbook of Programming Languages Volume 4 - Peter H. Salus.epub (016-018.html) - 5 to 7',
             'We can change the value of foo from <<5 to 7|10a:0>> by evaluating this expression:',
           ],
