@@ -42,3 +42,19 @@ prove t/*pl -j 8
 3b - Weak.      1900 tonight.
 3c - Weak.      on the 10.26
 3d - Strong.    seven the next evening.
+3e - BAD
+3f - 80% right?
+3g - Strong.    Monday at five Leo
+3h - Strong.    At about one Emily announced
+3i - Strong.    at a little before ten the night
+3j - Strong.    at two the previous afternoon
+4  - Strong.    20.36 Rimmer stood...               Need to re-check, removed the "from" in the y4 case
+5  - Strong.    eight-fifteen at night
+5a - Weak.      23.10                               Could do some cleanup
+5b - Strong.    at eleven-thirty
+5d - Strong.    due ... at five-thirty P.M.
+5f - Definite.  on the six forty-five train
+5g - Strong.    twelve by Big Ben
+5h - Definite.  In ten minutes it would be one
+6  - Definite.  six o’clock
+9  - Strong.    About seven                         Needs work

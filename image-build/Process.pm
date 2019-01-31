@@ -252,6 +252,7 @@ sub make_shorts {
     # Take the first meaningful word of the book
     $book =~ s{[_']}{}g;
     $book =~ s{\s+ \( [^)]+ \) \z}{}x;
+    $book =~ s{\A \( (.+) \) \z}{$1}x;
     $book =~ m{\A ( (the|in|a|an|what|for|on) \s )* (?<bo> [-\w]+) }xin
       or die "Can't shorten book '$book'";
     $book = $+{bo};

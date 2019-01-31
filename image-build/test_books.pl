@@ -51,10 +51,11 @@ sub check_matches {
     my ($times, $limit) = @_;
 
     my $limited = defined $limit ? 1 : 0;
-    $limit //= 10;
+    $limit //= 1000;
 
     my ($columns) = Term::Size::chars();
 
+    my $printed = 0;
     foreach my $hr (0 .. 23) {
         foreach my $mn (0 .. 59) {
             my $t = sprintf("%02d:%02d", $hr, $mn);
@@ -66,7 +67,7 @@ sub check_matches {
                 my ($a, $r, $timestr, $quote, $title, $author, $type) = @{ $sorted->[$i] };
 
                 # Run the string again with the current rules and see how it fares
-                my $new_match = do_match( strip_match($quote) );
+                my $new_match = do_match( strip_match($quote), undef, $author, $title );
                 my $different = $quote eq $new_match ? 0 : 1;
 
                 # Pull the preamble and postamble
@@ -83,15 +84,17 @@ sub check_matches {
                 }
 
                 # Pull the equivelent pieces from the new match
-                my ($n_timestr) = substr($new_match, length($pre), - length($post));
+                my ($n_timestr) = substr($new_match, length($pre));
 
                 my $type_color = $different ? 'bold red' : 'bold green';
 
                 my $n_type = '-';
-                if ($n_timestr =~ m{\| (?<type> \d+ \w+ (: \d)? ) >>\z}xin) {
+                if ($n_timestr =~ s{\A << [^|]+ \| (?<type> \d+ \w? (: \d)? ) >> }{}xin) {
                     $n_type = $+{type};
                     $type_color = 'bold blue' if $n_type ne $type;
                 }
+
+#                DEBUG_MSG($n_timestr, $timestr), exit if $n_type eq '-';
 
                 # Pull the matches from the previous and clean up the strings
                 foreach my $s (\$pre, \$timestr, \$n_timestr, \$post) {
@@ -117,9 +120,12 @@ sub check_matches {
                        color('bold blue'), elide($s_auth,  8, {marker => '…'}), color('reset'),
                        color('blue'),      elide($s_title, 8, {marker => '…'}), color('reset'),
                       );
+
+                if (++$printed > $limit) {
+                    print "Hit Limit\n";
+                    exit;
+                }
             }
-            print "            ..."
-                if @$sorted > $limit;
         }
     }
 
