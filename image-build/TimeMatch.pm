@@ -1550,7 +1550,7 @@ sub get_matches {
                   ( ( at | upon | till | until ) \s+ )?
                 )
                 (?<t1> ( $rel_words \s+ )?
-                  $hour12_re ( ( $hy | [:.] | \s+ )? $min0_re )?
+                  $hour12_word_re ( ( $hy | [:.] | \s+ )? $min_word_re )?
                 )
                 (?! $never_follow_times_re )
                 (?<po>
@@ -1641,7 +1641,7 @@ sub get_matches {
                         $branch = "9e:TIMEY";
                     }
                   })
-              }xin;
+              }xin if 0;
     push @r,qr{ (?<pr>
                   ( \A | $aq | $phrase_punc \s+ )
                   $twas_re \s+
@@ -1714,6 +1714,7 @@ sub get_matches {
     push @r,qr{ (?<pr>
                   ( \A | $aq | $phrase_punc \s+ )
                   ( ( $twas_re | only | because | and ) \s+)?
+                  (?<mod> ( already ) \s+ )?
                 )
                 (?<t1>
                   (?<rl> $rel_at_words | close \s+ upon | till | by ) \s+
@@ -1727,13 +1728,16 @@ sub get_matches {
                 )
                 $ba_re
                 (?{ $branch = "9:TIMEY";
-                    my ($xx, $sep, $rl, $hh) = @+{qw( xx sep rl hh )};
+                    my ($mod, $xx, $sep, $rl, $hh) = @+{qw( mod xx sep rl hh )};
                     if (is_yearish($xx)) {
                         $branch = "9n:0";
                     }
                     elsif ($sep and $xx !~ /[a-z]/i) {
                         # We had a separator and digits (12.30)
                         $branch = "9:1";
+                    }
+                    elsif ($mod) {
+                        $branch = "9s";
                     }
                     elsif ($is_agey and
                            defined $hh and
