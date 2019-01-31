@@ -42,7 +42,7 @@ $VAR1 = [
           [
             1,
             '[ap 01:04] Beyond Infinity_ An Expedition to the Oute - Eugenia Cheng.epub (OEBPS/Text/chapter007.xhtml) - 104',
-            "In decimal, a four-digit number can express anything up to 9999, which is <<104|9d:0>> \x{2212} 1. Whereas in binary, a four-digit number can only express things up to 24 \x{2212} 1 = 15",
+            "In decimal, a four-digit number can express anything up to 9999, which is <<104|3:0>> \x{2212} 1. Whereas in binary, a four-digit number can only express things up to 24 \x{2212} 1 = 15",
           ],
           [
             1,
@@ -57,13 +57,18 @@ copies of this portion. Moreover, we can restrict our attention to any portion o
           ],
           [
             1,
+            "[ap 01:15] Beyond Infinity_ An Expedition to the Oute - Eugenia Cheng.epub (OEBPS/Text/chapter009.xhtml) - 1\x{2013}15",
+            "So for 5 \x{d7} 3 we have to think about 5 people arriving in the queue, followed by another 5, and then another 5. You will hand out raffle tickets <<1\x{2013}15|5a:0>>. For 3 \x{d7} 5 we have to think about 3 people arriving in the queue, and then another 3, and then another 3, and another 3, and another 3. You will still be able to hand out raffle tickets <<1\x{2013}15|5a:0>>.",
+          ],
+          [
+            1,
             '[ap 05:00] Beyond Infinity_ An Expedition to the Oute - Eugenia Cheng.epub (OEBPS/Text/chapter009.xhtml) - 5',
             "Instead we have to go back to the way you do subtraction when you\x{2019}re little and you don\x{2019}t know how to count backward yet. Let\x{2019}s think about 5 \x{2212} 3. We all know the answer is 2, because we can count backward from <<5|9c:1>>, or because we can put up five fingers and then put two of them down and count the rest. Or just because we know. However, if you only know how to count up and not down, you can do this by starting at <<3|9g>> and seeing how many steps it takes to count up to 5. When children do this, they are answering the question \x{201c}What do I have to add to 3 to make 5?\x{201d} We could get a bit fancy and write that as an equation:",
           ],
           [
             1,
-            '[ap ~ 10:00] Beyond Infinity_ An Expedition to the Oute - Eugenia Cheng.epub (OEBPS/Text/chapter011.xhtml) - about 1000',
-            "This has 16 zeros on the end. The number of grains we had was 18,446,744,073,709,551,615, which is approximately 2 with 19 zeros on the end: that\x{2019}s 3 more zeros, a factor of <<about 1000|18:0>>. So it looks like we could feed the world\x{2019}s population for around 1000 years. (Not taking into account the fact that, the way we\x{2019}re going at the moment, the world\x{2019}s population is growing a lot each year.)",
+            '[ap ~ 02:00] Beyond Infinity_ An Expedition to the Oute - Eugenia Cheng.epub (OEBPS/Text/chapter011.xhtml) - approximately 2',
+            "This has 16 zeros on the end. The number of grains we had was 18,446,744,073,709,551,615, which is <<approximately 2|9:0>> with 19 zeros on the end: that\x{2019}s 3 more zeros, a factor of <<about 1000|18:0>>. So it looks like we could feed the world\x{2019}s population for around 1000 years. (Not taking into account the fact that, the way we\x{2019}re going at the moment, the world\x{2019}s population is growing a lot each year.)",
           ],
           [
             1,
@@ -88,7 +93,7 @@ copies of this portion. Moreover, we can restrict our attention to any portion o
           [
             1,
             '[00:01] Beyond Infinity_ An Expedition to the Oute - Eugenia Cheng.epub (OEBPS/Text/chapter015.xhtml) - 0.01',
-            "Our tenth attempt is 1/10, which is <<0.01|9d:1>>. This one will sort of ricochet off the side of the target. Our first one that will definitely hit the target is the next one, 1/11. From this point on we\x{2019}re fine \x{2013} all subsequent attempts will be smaller than that, so they will all hit the target.",
+            "Our tenth attempt is 1/10, which is <<0.01|9c:1>>. This one will sort of ricochet off the side of the target. Our first one that will definitely hit the target is the next one, 1/11. From this point on we\x{2019}re fine \x{2013} all subsequent attempts will be smaller than that, so they will all hit the target.",
           ],
           [
             1,
@@ -117,12 +122,6 @@ and then 1/4 and then 1/8 and so on, the total is also growing. It\x{2019}s just
             1,
             '[ap > 02:00] Beyond Infinity_ An Expedition to the Oute - Eugenia Cheng.epub (OEBPS/Text/chapter016.xhtml) - past 2',
             "Let\x{2019}s see if we can make it <<past 2|9f>>. At this point I admit to resorting to a spreadsheet to work this out. My spreadsheet tells me that once I get to 1/11 I\x{2019}ll be past 2, that is,",
-          ],
-          [
-            1,
-            '[ap 01:00] Beyond Infinity_ An Expedition to the Oute - Eugenia Cheng.epub (OEBPS/Text/chapter016.xhtml) - 1',
-            "Here each bar has width 1, so the area of each rectangle is the width times the height, which is <<1|9d:1>>/n
-for each n. So the total area of all those bars is the same as the thing we were just trying to do, adding up all the terms in the harmonic series. This means that the area represented here is \x{201c}infinite.\x{201d} What this really means is that no matter how big a number we think of, if we go far enough down the graph (bigger and bigger n), we can find a place where the area up to that point is definitely bigger than the number we thought of. This means that as we include bigger and bigger n, the area approaches infinity, in the sense of Chapter 11.",
           ],
           [
             1,

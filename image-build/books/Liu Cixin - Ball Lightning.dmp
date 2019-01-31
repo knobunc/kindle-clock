@@ -11,11 +11,6 @@ $VAR1 = [
           ],
           [
             1,
-            '[20:00] Ball Lightning - Liu Cixin.epub (text/part0009.html) - 1960',
-            "\x{201c}It was <<1960|9d:0>> that I started, right at this very cafeteria. Those were trying times. You weren\x{2019}t around then, Director Zhao.\x{201d}",
-          ],
-          [
-            1,
             '[> 19:00] Ball Lightning - Liu Cixin.epub (text/part0009.html) - a little after seven in the evening',
             "Lao Wang started into the story: \x{201c}It was at the end of July, maybe <<a little after seven in the evening|9h>>. Normally, it would still have been light, but that day the clouds were so thick that you couldn\x{2019}t see anything without a lantern. The rain came in driving sheets, enough to smother you if you stood out in it! Flash after flash of lightning, with no pause between them\x{2014}\x{201d}",
           ],
@@ -32,7 +27,7 @@ $VAR1 = [
           [
             1,
             '[02:00] Ball Lightning - Liu Cixin.epub (text/part0012.html) - two in the morning',
-            'Before we knew it, it was <<two in the morning|9a>>. The candelabra on our table was nearly extinguished, and we were the only ones left in the restaurant. The piano player came over to ask what we wanted to hear, in a clear bid to push us out.',
+            'Before we knew it, it was <<two in the morning|5>>. The candelabra on our table was nearly extinguished, and we were the only ones left in the restaurant. The piano player came over to ask what we wanted to hear, in a clear bid to push us out.',
           ],
           [
             1,
@@ -67,7 +62,7 @@ $VAR1 = [
           [
             1,
             '[02:00] Ball Lightning - Liu Cixin.epub (text/part0022.html) - two in the morning',
-            'The flame had a hypnotic effect that made me drowsy watching it, so I went to bed. When I woke up, it was <<two in the morning|9a>>, and, looking through the window, I could see the tiny star still flashing on the test ground. Now, though, it was moving like a firefly. Ding Yi was pacing. I watched him for a while and then went back to sleep. It was daylight when I awoke, and the test ground was empty. Ding Yi had gone to sleep.',
+            'The flame had a hypnotic effect that made me drowsy watching it, so I went to bed. When I woke up, it was <<two in the morning|5>>, and, looking through the window, I could see the tiny star still flashing on the test ground. Now, though, it was moving like a firefly. Ding Yi was pacing. I watched him for a while and then went back to sleep. It was daylight when I awoke, and the test ground was empty. Ding Yi had gone to sleep.',
           ],
           [
             1,
@@ -112,6 +107,6 @@ $VAR1 = [
           [
             1,
             '[02:00] Ball Lightning - Liu Cixin.epub (text/part0041.html) - two in the morning',
-            "It was <<two in the morning|9a>> one night in late autumn. I was at my desk working, and when I looked up, the amethyst vase on the desk caught my eye. It was a lovely wedding gift from Ding Yi, but the flowers that had been placed in it had dried up at some point. I took them out and tossed them into the wastebasket and thought, with a bitter smile, Life\x{2019}s responsibilities keep getting heavier. I don\x{2019}t know when I\x{2019}ll find the time to put fresh flowers in the vase.",
+            "It was <<two in the morning|5>> one night in late autumn. I was at my desk working, and when I looked up, the amethyst vase on the desk caught my eye. It was a lovely wedding gift from Ding Yi, but the flowers that had been placed in it had dried up at some point. I took them out and tossed them into the wastebasket and thought, with a bitter smile, Life\x{2019}s responsibilities keep getting heavier. I don\x{2019}t know when I\x{2019}ll find the time to put fresh flowers in the vase.",
           ],
         ];

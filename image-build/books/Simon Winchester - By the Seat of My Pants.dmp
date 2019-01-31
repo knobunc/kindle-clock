@@ -8,7 +8,7 @@ $VAR1 = [
             1,
             '[07:00] By the Seat of My Pants - Simon Winchester.epub (OEBPS/ch01.htm) - seven in the morning',
             "He was smiling the broadest smile I think I have ever seen.
-\x{2018}But it\x{2019}s only <<seven in the morning|9a>>! My flight isn\x{2019}t until <<two|9c:1>>.\x{2019}
+\x{2018}But it\x{2019}s only <<seven in the morning|5>>! My flight isn\x{2019}t until <<two|9c:1>>.\x{2019}
 \x{2018}I have things I must do.\x{2019}",
           ],
           [
@@ -19,7 +19,7 @@ $VAR1 = [
           [
             1,
             '[06:00] By the Seat of My Pants - Simon Winchester.epub (OEBPS/ch02.htm) - six in the morning',
-            'Our new room reminds me of the night my husband and I spent together eight years ago at the Bucksnort Inn in Bucksnort, Tennessee. We were at the fragile beginning of our relationship, driving from Fayetteville, Arkansas, to New York City through blizzards and sleet storms in a tiny Mitsubishi pick-up with no power steering. We arrived at the Bucksnort Inn the night before the opening of deer season, and the clientele consisted almost entirely of hunters. All night long we could hear men in the adjoining rooms cleaning and oiling and racking their guns. We woke at <<six in the morning|9a>> to find the place deserted; the hunt had already begun.',
+            'Our new room reminds me of the night my husband and I spent together eight years ago at the Bucksnort Inn in Bucksnort, Tennessee. We were at the fragile beginning of our relationship, driving from Fayetteville, Arkansas, to New York City through blizzards and sleet storms in a tiny Mitsubishi pick-up with no power steering. We arrived at the Bucksnort Inn the night before the opening of deer season, and the clientele consisted almost entirely of hunters. All night long we could hear men in the adjoining rooms cleaning and oiling and racking their guns. We woke at <<six in the morning|5>> to find the place deserted; the hunt had already begun.',
           ],
           [
             1,
@@ -29,7 +29,7 @@ $VAR1 = [
           [
             1,
             '[ap 07:00] By the Seat of My Pants - Simon Winchester.epub (OEBPS/ch04.htm) - seven',
-            "Even the firm\x{2019}s ticket had the look of pure \x{2018}20,000 Leagues\x{2019} porn: a colour picture of a sleek, modern vessel knifing through placid waters in front of Angkor Wat. Never mind that the moated temple is miles from the lake. I plunked down my fifteen dollars for passage at <<seven|9a>> the next morning. This was the way to travel, I thought, as I confirmed my boutique-hotel reservation and several appointments in Siem Reap. Safe, smooth, scenic.",
+            "Even the firm\x{2019}s ticket had the look of pure \x{2018}20,000 Leagues\x{2019} porn: a colour picture of a sleek, modern vessel knifing through placid waters in front of Angkor Wat. Never mind that the moated temple is miles from the lake. I plunked down my fifteen dollars for passage at <<seven|3j>> the next morning. This was the way to travel, I thought, as I confirmed my boutique-hotel reservation and several appointments in Siem Reap. Safe, smooth, scenic.",
           ],
           [
             1,
@@ -129,7 +129,7 @@ $VAR1 = [
           [
             1,
             '[20:00] By the Seat of My Pants - Simon Winchester.epub (OEBPS/ch24.htm) - 2000',
-            "\x{2018}Si, signora. Australian\x{2019}, I smiled. It was <<2000|9d:0>> and the Olympics had just opened in Sydney. I put my arms in front of me like paws and said, \x{2018}Australia. Olympics, signora\x{2019}, while jumping up and down like a kangaroo.",
+            "\x{2018}Si, signora. Australian\x{2019}, I smiled. It was <<2000|9c:0>> and the Olympics had just opened in Sydney. I put my arms in front of me like paws and said, \x{2018}Australia. Olympics, signora\x{2019}, while jumping up and down like a kangaroo.",
           ],
           [
             1,

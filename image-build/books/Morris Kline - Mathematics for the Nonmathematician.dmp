@@ -1,6 +1,48 @@
 $VAR1 = [
           [
             1,
+            "[15:10] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_05_pre.html) - 15\x{2013}10",
+            "Chapter 15
+through Section <<15\x{2013}10|5a:0>>, on the further use of functions in science,
+Chapter 20",
+          ],
+          [
+            1,
+            "[ap 02:10] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_06_toc.html) - 2\x{2013}10",
+            "2\x{2013}9\x{a0}\x{a0}\x{a0}\x{a0}Developments from 1800 to the present
+<<2\x{2013}10|5a:0>>\x{a0}\x{a0}\x{a0}The human aspect of mathematics
+3\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}Logic and Mathematics",
+          ],
+          [
+            1,
+            "[15:10] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_06_toc.html) - 15\x{2013}10",
+            "15\x{2013}9\x{a0}\x{a0}\x{a0}\x{a0}Further discussion of mass and weight
+<<15\x{2013}10|5a:0>>\x{a0}\x{a0}\x{a0}Some deductions from the law of gravitation
+<<15\x{2013}11|5a:0>>\x{a0}\x{a0}\x{a0}\x{a0}The rotation of the earth",
+          ],
+          [
+            1,
+            "[15:10] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_06_toc.html) - 15\x{2013}10",
+            "<<15\x{2013}10|5a:0>>\x{a0}\x{a0}\x{a0}Some deductions from the law of gravitation
+<<15\x{2013}11|5a:0>>\x{a0}\x{a0}\x{a0}\x{a0}The rotation of the earth
+<<15\x{2013}12|5a:0>>\x{a0}\x{a0}\x{a0}\x{a0}Gravitation and the Keplerian laws",
+          ],
+          [
+            1,
+            "[15:11] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_06_toc.html) - 15\x{2013}11",
+            "<<15\x{2013}11|5a:0>>\x{a0}\x{a0}\x{a0}\x{a0}The rotation of the earth
+<<15\x{2013}12|5a:0>>\x{a0}\x{a0}\x{a0}\x{a0}Gravitation and the Keplerian laws
+<<15\x{2013}13|5a:0>>\x{a0}\x{a0}\x{a0}\x{a0}Implications of the theory of gravitation",
+          ],
+          [
+            1,
+            "[15:12] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_06_toc.html) - 15\x{2013}12",
+            "<<15\x{2013}12|5a:0>>\x{a0}\x{a0}\x{a0}\x{a0}Gravitation and the Keplerian laws
+<<15\x{2013}13|5a:0>>\x{a0}\x{a0}\x{a0}\x{a0}Implications of the theory of gravitation
+16\x{a0}\x{a0}\x{a0}\x{a0}The Differential Calculus",
+          ],
+          [
+            1,
             '[ap 03:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_09_ch2.html) - three',
             "In some of these early civilizations a few steps in mathematics were taken. In prehistoric times, which means roughly before 4000 B.C., several civilizations at least learned to think about numbers as abstract concepts. That is, they recognized that three sheep and three arrows have something in common, a quantity called <<three|9f>>, which can be thought about independently of any physical objects. Each of us in his own schooling goes through this same process of divorcing numbers from physical objects. The appreciation of \x{201c}number\x{201d} as an abstract idea is a great, and perhaps the first, step in the founding of mathematics.",
           ],
@@ -88,38 +130,222 @@ we see that <<1.41|5a:0>> is a good two-decimal approximation of . We could, of 
           ],
           [
             1,
-            '[ap 06:32] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_13_ch6.html) - 6-32',
-            '
-Fig. <<6-32|5a:0>>
-',
+            "[ap 06:10] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_13_ch6.html) - 6\x{2013}10",
+            "The problem of bounding the greatest possible area with a perimeter of given length has a variation whose solution shows how ingenious mathematical reasoning can be. Suppose that a person has a fixed amount of fencing at his disposal and wishes to enclose as much area as possible along a river front in such a way that no fencing is required along the shore itself. The question now is, What should the shape of the boundary curve be? According to a legend, which may or may not have a factual basis, this problem was solved thousands of years ago by Dido, the founder of the city of Carthage on the Mediterranean coast of Africa. Dido, the daughter of the king of the Phoenician city of Tyre, ran away from home. She took a fancy to this land on the Mediterranean, and made an agreement to pay a definite sum of money for as much land as \x{201c}could be encompassed by a bull\x{2019}s hide.\x{201d} Dido thereupon took a bull\x{2019}s hide, cut it up into thin long strips, tied the strips together, and used this length to \x{201c}encompass land.\x{201d} She chose an area along the shore, because she was smart enough to realize that no hide would be needed along the shore. But there still remained the question of what shape to use for the boundary formed by the hide, that is, for ABC of Fig. <<6\x{2013}10|5a:0>>. Dido decided that the most favorable shape was a semicircle, enclosed that shape, and built a city there.",
           ],
           [
             1,
-            '[ap 06:33] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_13_ch6.html) - 6-33',
+            "[ap 06:11] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_13_ch6.html) - 6\x{2013}11",
+            "Dido\x{2019}s fate was a tragic end to a brilliant beginning, for her solution to the geometrical problem described above was correct. The answer is a semicircle. We do not know how Dido found the answer, but it can be obtained very neatly. The way to prove it is by complicating the problem. Suppose that, instead of bounding an area on one side of the seashore, which we idealize as the line AC (Fig. <<6\x{2013}11|5a:0>>), we try to solve the problem of enclosing an area on both sides of AC with double the length of hide Dido had for one side, i.e., now we seek to solve the problem by determining the maximum area which can be completely enclosed by a perimeter of given length. The answer to this problem is a circle. If, therefore, we choose a semicircle for arc ABC, it will contain maximum area on one side of the shore. For if there were a more favorable shape than the semicircle, the mirror image in AC of that shape would, together with the original, do better than the circle and yet have the same perimeter as the circle. But this is impossible.",
+          ],
+          [
+            1,
+            "[ap 06:12] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_13_ch6.html) - 6\x{2013}12",
+            "Fig. <<6\x{2013}12|5a:0>>.
+Eratosthenes\x{2019} method of deducing the circumference of the earth.",
+          ],
+          [
+            1,
+            "[ap 06:12] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_13_ch6.html) - 6\x{2013}12",
+            "The first reasonably accurate calculation of the size of the earth was made by a simple application of Euclidean geometry. One of the most learned men of the Alexandrian Greek world, Eratosthenes (275\x{2013}194 B.C.), a geographer, mathematician, poet, historian, and astronomer, used the following plan. At the summer solstice, the sun shone directly down into a well at Syene (C in Fig. <<6\x{2013}12|5a:0>>). As Eratosthenes well appreciated, this meant that the sun was directly overhead. At the same time, at the city of Alexandria, 500 miles north of Syene, the direction of the sun was AS\x{2032}, whereas the overhead direction was OAD. Now the sun is so far away that the lines AS\x{2032} and CS could be taken to be parallel. Eratosthenes measured the angle DAS\x{2032} and found it to be 74\x{b0}. But this angle equals the vertical angle OAE, and the latter and angle AOC are alternate interior angles of parallel lines. Hence angle AOC is also , or , or 1/48 of the entire angle at O. Then arc AC is 1/48 of the entire circumference. Since AC is 500 miles, the entire circumference is 48 \x{b7} 500 or 24,000 miles.",
+          ],
+          [
+            1,
+            "[ap 06:13] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_13_ch6.html) - 6\x{2013}13",
+            "EXERCISES
+1.\x{a0}\x{a0}Suppose that DF (Fig. <<6\x{2013}13|5a:1>>) is the course of a railroad, and A and B are two towns. It is desired to build a station somewhere on DF so that the station will be equally distant from A and B. Where should the station be built? One draws the line AB and, at its mid-point, erects the perpendicular CE. The point E on DF is equidistant from A and B. Prove this statement.",
+          ],
+          [
+            1,
+            "[ap 06:15] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_13_ch6.html) - 6\x{2013}15",
             "
-Fig. <<6-33|5a:0>>
-Now draw DE, BE, and DC. Complete the proof by first proving that BE = DC and then that \x{2220} CBD = \x{2220} BCE.",
+Fig. <<6\x{2013}15|5a:0>>
+2.\x{a0}\x{a0}A pinhole camera is a practical device if a long exposure time is possible. In fact, one of the best pictures of the scene following the explosion of the first atomic bomb was made with a pinhole camera. The principle involves similar triangles. The object AB being photographed (Fig. <<6\x{2013}14|5a:0>>) appears on the film inside the box as A\x{2032}B\x{2032}. If one draws OD perpendicular to AB, the extension of OD to D\x{2032} will be perpendicular to A\x{2032}B\x{2032}. Then triangles OAD and OA\x{2032}D\x{2032} are similar. Now suppose the sun, whose radius is AD, is photographed. We know that OD is 93,000,000 mi. Suppose that OD\x{2032}, the width of the box, is 1 ft. The length A\x{2032}B\x{2032} is readily measured and is found to be 0.009 ft. What is the radius of the sun?",
           ],
           [
             1,
-            '[ap 06:34] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_13_ch6.html) - 6-34',
-            '
-Fig. <<6-34|5a:0>>
-',
+            "[ap 06:14] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_13_ch6.html) - 6\x{2013}14",
+            "2.\x{a0}\x{a0}A pinhole camera is a practical device if a long exposure time is possible. In fact, one of the best pictures of the scene following the explosion of the first atomic bomb was made with a pinhole camera. The principle involves similar triangles. The object AB being photographed (Fig. <<6\x{2013}14|5a:0>>) appears on the film inside the box as A\x{2032}B\x{2032}. If one draws OD perpendicular to AB, the extension of OD to D\x{2032} will be perpendicular to A\x{2032}B\x{2032}. Then triangles OAD and OA\x{2032}D\x{2032} are similar. Now suppose the sun, whose radius is AD, is photographed. We know that OD is 93,000,000 mi. Suppose that OD\x{2032}, the width of the box, is 1 ft. The length A\x{2032}B\x{2032} is readily measured and is found to be 0.009 ft. What is the radius of the sun?",
           ],
           [
             1,
-            '[ap 06:35] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_13_ch6.html) - 6-35',
+            "[ap 06:15] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_13_ch6.html) - 6\x{2013}15",
+            "5.\x{a0}\x{a0}A farmer plans to enclose a rectangular piece of land alongside a lake; no fencing is required along the shoreline AD (Fig. <<6\x{2013}15|5a:0>>). He has 100 ft of fence and wishes the area of the rectangle to be as large as possible. What dimensions should he choose?",
+          ],
+          [
+            1,
+            "[ap 06:16] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_13_ch6.html) - 6\x{2013}16",
+            "7.\x{a0}\x{a0}Suppose h is the known height of a mountain, and R is the radius of the earth (Fig. <<6\x{2013}16|5a:0>>). How far is it from the top of the mountain to the horizon; that is, how long is x? [Suggestion: Use the fact that the line of sight from the top of the mountain to the horizon is tangent to the circle shown, and that a radius of a circle drawn to the point of tangency is perpendicular to the tangent.]",
+          ],
+          [
+            1,
+            "[ap 06:17] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_13_ch6.html) - 6\x{2013}17",
+            "Suppose light issuing from A (Fig. <<6\x{2013}17|5a:0>>) takes the path AP to the point P on the mirror m. As we all know, the light is reflected and takes a new direction, PA\x{2032}. The significant fact about this reflection, which was pointed out by Euclid, is that the reflected ray, i.e., the line PA\x{2032} along which the reflected light travels, always takes a direction such that angle 1 equals angle 2. Angle 1 is called the angle of incidence and angle 2 the angle of reflection.* It is, of course, very obliging of light to follow such a simple mathematical law. As a consequence, we are able to prove other facts rather readily.",
+          ],
+          [
+            1,
+            "[ap 06:18] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_13_ch6.html) - 6\x{2013}18",
             "
-Fig. <<6-35|5a:0>>
-4.\x{a0}\x{a0}A ship must pass between the guns of a fort at A (Fig. 6\x{2013}35) and equally powerful guns along the shore m. What path should it take to be as safe as possible from all the guns?",
+Fig. 6\x{2013}17.
+The law of reflection of light.
+Assume there is a source of light at A (Fig. <<6\x{2013}18|5a:0>>), and rays of light spread out in all directions from A. Many of these will strike the mirror. But through a definite point A\x{2032} only one of these rays will pass, namely the ray PA\x{2032} for which angle 1 equals angle 2. To prove that only one ray from A will pass through A\x{2032}, let us suppose that another ray, AQ, is also reflected to A\x{2032}. Now angle 2 is an exterior angle of triangle A\x{2032}QP. Hence",
           ],
           [
             1,
-            '[ap 06:36] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_13_ch6.html) - 6-36',
+            "[ap 06:18] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_13_ch6.html) - 6\x{2013}18",
+            "Assume there is a source of light at A (Fig. <<6\x{2013}18|5a:0>>), and rays of light spread out in all directions from A. Many of these will strike the mirror. But through a definite point A\x{2032} only one of these rays will pass, namely the ray PA\x{2032} for which angle 1 equals angle 2. To prove that only one ray from A will pass through A\x{2032}, let us suppose that another ray, AQ, is also reflected to A\x{2032}. Now angle 2 is an exterior angle of triangle A\x{2032}QP. Hence",
+          ],
+          [
+            1,
+            "[ap 06:19] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_13_ch6.html) - 6\x{2013}19",
             "
-Fig. <<6-36|5a:0>>
-5.\x{a0}\x{a0}Let C and D be two fixed circles (Fig. 6\x{2013}36) with radii c and d, respectively, and c > d. Moreover D and C are tangent internally at P. Now let T be a third circle which is tangent externally to D and internally to C. Show that the positions of the centers of all possible circles T is an ellipse whose foci are the centers of C and D.",
+Fig. 6\x{2013}18
+The more interesting point, which was first observed and proved by the Greek mathematician and engineer Heron (first century A.D.), is that the unique ray from A (Fig. <<6\x{2013}19|5a:0>>) which does reach A\x{2032} after reflection in the mirror travels the shortest possible path in going from A to the mirror and then to A\x{2032}. In other words, AP + PA\x{2032} is less than AQ + QA\x{2032}, where Q is any point on the mirror other than P, the point at which the angle of incidence equals the angle of reflection.",
+          ],
+          [
+            1,
+            "[ap 06:19] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_13_ch6.html) - 6\x{2013}19",
+            "The more interesting point, which was first observed and proved by the Greek mathematician and engineer Heron (first century A.D.), is that the unique ray from A (Fig. <<6\x{2013}19|5a:0>>) which does reach A\x{2032} after reflection in the mirror travels the shortest possible path in going from A to the mirror and then to A\x{2032}. In other words, AP + PA\x{2032} is less than AQ + QA\x{2032}, where Q is any point on the mirror other than P, the point at which the angle of incidence equals the angle of reflection.",
+          ],
+          [
+            1,
+            "[ap 06:19] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_13_ch6.html) - 6\x{2013}19",
+            "Fig. <<6\x{2013}19|5a:0>>.
+The shortest path from A to A\x{2032} is the one for which \x{2220} 1 = \x{2220}2.",
+          ],
+          [
+            1,
+            "[ap 06:20] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_13_ch6.html) - 6\x{2013}20",
+            "2.\x{a0}\x{a0}Suppose that m (Fig. <<6\x{2013}20|5a:0>>) is the shore of a river and a pier is to be built somewhere along m so that merchandise can be trucked from the pier to two inland towns, A and A\x{2032}. Where should the pier be built so that the total trucking distance from the pier to A and from the pier to A\x{2032} is a minimum?",
+          ],
+          [
+            1,
+            "[ap 06:21] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_13_ch6.html) - 6\x{2013}21",
+            "
+Fig. 6\x{2013}21
+3.\x{a0}\x{a0}A billiard player wishes to hit the ball at A (Fig. <<6\x{2013}21|5a:0>>) in such a way that it will strike side m of the table and then hit the ball at A\x{2032}. Now billiard balls behave like light rays, that is, the angle of reflection equals the angle of incidence. At what point on m should the billiard player aim?",
+          ],
+          [
+            1,
+            "[ap 06:21] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_13_ch6.html) - 6\x{2013}21",
+            "3.\x{a0}\x{a0}A billiard player wishes to hit the ball at A (Fig. <<6\x{2013}21|5a:0>>) in such a way that it will strike side m of the table and then hit the ball at A\x{2032}. Now billiard balls behave like light rays, that is, the angle of reflection equals the angle of incidence. At what point on m should the billiard player aim?",
+          ],
+          [
+            1,
+            "[ap 06:21] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_13_ch6.html) - 6\x{2013}21",
+            "4.\x{a0}\x{a0}A billiard ball starting from a point A on the table (Fig. <<6\x{2013}21|5a:1>>) strikes two successive sides and then travels along the table. What can you say about the final in relation to the original direction of travel?",
+          ],
+          [
+            1,
+            "[ap 06:22] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_13_ch6.html) - 6\x{2013}22",
+            "
+Fig. 6\x{2013}22
+5.\x{a0}\x{a0}In the text we proved that if angle 1 equals angle 2 (Fig. <<6\x{2013}22|5a:0>>), then AP + PA\x{2032} is the shortest path from A to any point on the mirror to A\x{2032}. Prove the converse, namely, that if AP + PA\x{2032} is the shortest path, then \x{2220}1 must equal \x{2220}2. [Suggestion: Use the indirect method of proof. If \x{2220}1 does not equal \x{2220}2, then one can find another point, P\x{2032}, on m for which the angles made by AP\x{2032} and A\x{2032}P\x{2032} with m are equal.]",
+          ],
+          [
+            1,
+            "[ap 06:22] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_13_ch6.html) - 6\x{2013}22",
+            "5.\x{a0}\x{a0}In the text we proved that if angle 1 equals angle 2 (Fig. <<6\x{2013}22|5a:0>>), then AP + PA\x{2032} is the shortest path from A to any point on the mirror to A\x{2032}. Prove the converse, namely, that if AP + PA\x{2032} is the shortest path, then \x{2220}1 must equal \x{2220}2. [Suggestion: Use the indirect method of proof. If \x{2220}1 does not equal \x{2220}2, then one can find another point, P\x{2032}, on m for which the angles made by AP\x{2032} and A\x{2032}P\x{2032} with m are equal.]",
+          ],
+          [
+            1,
+            "[ap 06:23] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_13_ch6.html) - 6\x{2013}23",
+            "Let us consider, therefore, the direct definitions of conic sections. To define the parabola, we start with a fixed point F and a fixed line d (Fig. <<6\x{2013}23|5a:0>>). We then consider the set of all points, each of which is equally distant from F and d. Thus the point P in Fig. <<6\x{2013}23|5a:0>> is such that PF = PD. The collection of all points, each of which is equidistant from F and d, fills out a curve called the parabola. The point F is called the focus of the parabola, and the line d is called the directrix.",
+          ],
+          [
+            1,
+            "[ap 06:24] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_13_ch6.html) - 6\x{2013}24",
+            "The direct definition of the ellipse is also simple. We start with two fixed points F and F\x{2032} (Fig. <<6\x{2013}24|5a:0>>) and consider any constant quantity greater than the distance F to F\x{2032}. If, for example, the distance from F to F\x{2032} is 6, we may choose 10 as the constant quantity. One then determines all points for each of which the distance from F and the distance from F\x{2032} add up to 10. This collection of points is called an ellipse. Thus, if P is a point for which PF + PF\x{2032} equals 10, then P lies on the ellipse determined by F, F\x{2032}, and the quantity 10. The points F and F\x{2032} are called the foci of the ellipse.",
+          ],
+          [
+            1,
+            "[ap 06:25] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_13_ch6.html) - 6\x{2013}25",
+            "The direct definition of the hyperbola also calls for choosing two fixed points F and F\x{2032}, called foci, and a constant quantity which, however, must be less than the distance from F to F\x{2032}. If FF\x{2032} is 6, then the constant quantity can, for example, be 4. We now consider any point P for which the difference PF\x{2032} \x{2013} PF equals 4. All such points lie on the right-hand portion of Fig. <<6\x{2013}25|5a:0>>, whereas the points for which PF \x{2013} PF\x{2032} = 4 lie on the left-hand portion of the figure. The two portions together are the hyperbola; each portion is a branch of the hyperbola.",
+          ],
+          [
+            1,
+            "[ap 06:26] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_13_ch6.html) - 6\x{2013}26",
+            "
+Fig. 6\x{2013}27
+Let P be any point on the parabola (Fig. <<6\x{2013}26|5a:0>>). By the tangent to the parabola at P we mean the line through P which meets the parabola in just that one point and lies entirely outside the curve. From the standpoint of the control of light, the curve possesses a most pertinent property. If P is any point on the curve and F is the focus, then the line FP and PV, the line through P parallel to the axis, where V is any point on this parallel, make equal angles with the tangent t at P. That is, angle 1 equals angle 2.",
+          ],
+          [
+            1,
+            "[ap 06:26] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_13_ch6.html) - 6\x{2013}26",
+            "Let P be any point on the parabola (Fig. <<6\x{2013}26|5a:0>>). By the tangent to the parabola at P we mean the line through P which meets the parabola in just that one point and lies entirely outside the curve. From the standpoint of the control of light, the curve possesses a most pertinent property. If P is any point on the curve and F is the focus, then the line FP and PV, the line through P parallel to the axis, where V is any point on this parallel, make equal angles with the tangent t at P. That is, angle 1 equals angle 2.",
+          ],
+          [
+            1,
+            "[ap 06:27] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_13_ch6.html) - 6\x{2013}27",
+            "Let us now prove that PF and PV make equal angles with the tangent at P. We shall prove first that every point outside of the parabola is farther from the focus than from the directrix, and every point inside is closer to the focus than to the directrix. Consider the point Q (Fig. <<6\x{2013}27|5a:1>>) outside the parabola. We wish to show QF > QD, where QD is the distance from Q to the directrix. We continue the line QD until it strikes the parabola at P. Now",
+          ],
+          [
+            1,
+            "[ap 06:26] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_13_ch6.html) - 6\x{2013}26",
+            "And now let us prove that PF and PV of Fig. <<6\x{2013}26|5a:0>> make equal angles with the tangent t at P. We shall invert our approach just to make the proof easier. Let us draw a line t through the point P (Fig. <<6\x{2013}28|5a:0>>), which makes equal angles with PF and PV, and we shall prove that this line is the tangent to the parabola at P. We shall make the proof by showing that any point Q on this line lies outside the parabola. Since this line does have one point P in common with the parabola, it must, by the definition of tangent, be the tangent.",
+          ],
+          [
+            1,
+            "[ap 06:29] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_13_ch6.html) - 6\x{2013}29",
+            "We now know, then, that any light ray issuing from F and striking the parabola at P will be reflected along PV, that is, parallel to the axis. The parabolic mirror\x{2019}s power to concentrate light in one direction is very useful. The commonest application is found in automobile headlights. In each headlight there is a small bulb. Surrounding this bulb is a surface (Fig. <<6\x{2013}29|5a:1>>), called a paraboloid, which is formed by rotating a parabola about its axis. (The surface is, of course, silvered so that it will reflect.) Light issuing in millions of directions from the bulb, which is placed at the focus of the paraboloidal mirror, strikes the mirror, is reflected along the axis of the paraboloid, and illuminates strongly whatever lies in that direction. The effectiveness of this arrangement may be judged from the fact that the light thrown forward by bulb and mirror is about 6000 times as intense as that thrown in the same direction by the bulb alone. The reflecting property of the paraboloidal mirror is also utilized in searchlights and flashlights.",
+          ],
+          [
+            1,
+            "[ap 06:29] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_13_ch6.html) - 6\x{2013}29",
+            "The reflecting property of a paraboloidal mirror can be used in reverse. If a beam of parallel light rays enters such a mirror while traveling parallel to the axis, each ray will be reflected by some point on the surface in accordance with the law of reflection. But since FP (Fig. <<6\x{2013}29|5a:0>>) and VP make equal angles with the tangent, the reflected ray will travel along PF and all reflected rays will arrive at the focus F. Hence there will be a great concentration of light at F.",
+          ],
+          [
+            1,
+            "[ap 06:30] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_13_ch6.html) - 6\x{2013}30",
+            "EXERCISES
+1.\x{a0}\x{a0}Let Q be any point outside of an ellipse (Fig. <<6\x{2013}30|5a:0>>). Prove that F2Q + F1Q is greater than a, where a is the sum of the distances of any point on the ellipse from the foci. [Suggestion: Introduce the point P where F2Q cuts the ellipse.]",
+          ],
+          [
+            1,
+            "[ap 06:31] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_13_ch6.html) - 6\x{2013}31",
+            "
+Fig. <<6\x{2013}31|5a:0>>
+2.\x{a0}\x{a0}Let t be the tangent at any point P of an ellipse (Fig. <<6\x{2013}31|5a:0>>). Let F2 and F1 be the foci. Prove that F2P and F1P make equal angles with t. [Suggestion: Use the result of Exercise 1 and Exercise 5 of Section 6\x{2013}4.]",
+          ],
+          [
+            1,
+            "[ap 06:31] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_13_ch6.html) - 6\x{2013}31",
+            "2.\x{a0}\x{a0}Let t be the tangent at any point P of an ellipse (Fig. <<6\x{2013}31|5a:0>>). Let F2 and F1 be the foci. Prove that F2P and F1P make equal angles with t. [Suggestion: Use the result of Exercise 1 and Exercise 5 of Section 6\x{2013}4.]",
+          ],
+          [
+            1,
+            "[ap 06:32] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_13_ch6.html) - 6\x{2013}32",
+            "REVIEW EXERCISES
+1.\x{a0}\x{a0}One of the basic theorems of Euclidean geometry is that the base angles of an isoceles triangle are equal. Euclid\x{2019}s proof proceeded thus. Given triangle ABC (Fig. <<6\x{2013}32|5a:0>>) with AB = AC, prolong AB to D and AC to E so that BD = CE.",
+          ],
+          [
+            1,
+            "[ap 06:33] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_13_ch6.html) - 6\x{2013}33",
+            "2.\x{a0}\x{a0}In the text we proved that if the alternate interior angles 1 and 2 of Fig. <<6\x{2013}33|5a:0>> are equal, the lines AB and CD are parallel. Prove",
+          ],
+          [
+            1,
+            "[ap 06:35] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_13_ch6.html) - 6\x{2013}35",
+            "
+Fig. 6-35
+4.\x{a0}\x{a0}A ship must pass between the guns of a fort at A (Fig. <<6\x{2013}35|5a:0>>) and equally powerful guns along the shore m. What path should it take to be as safe as possible from all the guns?",
+          ],
+          [
+            1,
+            "[ap 06:35] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_13_ch6.html) - 6\x{2013}35",
+            "4.\x{a0}\x{a0}A ship must pass between the guns of a fort at A (Fig. <<6\x{2013}35|5a:0>>) and equally powerful guns along the shore m. What path should it take to be as safe as possible from all the guns?",
+          ],
+          [
+            1,
+            "[ap 06:36] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_13_ch6.html) - 6\x{2013}36",
+            "
+Fig. 6-36
+5.\x{a0}\x{a0}Let C and D be two fixed circles (Fig. <<6\x{2013}36|5a:0>>) with radii c and d, respectively, and c > d. Moreover D and C are tangent internally at P. Now let T be a third circle which is tangent externally to D and internally to C. Show that the positions of the centers of all possible circles T is an ellipse whose foci are the centers of C and D.",
+          ],
+          [
+            1,
+            "[ap 06:36] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_13_ch6.html) - 6\x{2013}36",
+            "5.\x{a0}\x{a0}Let C and D be two fixed circles (Fig. <<6\x{2013}36|5a:0>>) with radii c and d, respectively, and c > d. Moreover D and C are tangent internally at P. Now let T be a third circle which is tangent externally to D and internally to C. Show that the positions of the centers of all possible circles T is an ellipse whose foci are the centers of C and D.",
           ],
           [
             1,
@@ -133,8 +359,71 @@ Fig. <<6-36|5a:0>>
           ],
           [
             1,
-            '[12:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_14_ch7.html) - noon',
-            "We have described what is meant by the latitude and longitude of any point on the earth\x{2019}s surface, but how do we determine the latitude and longitude for any given point P? (After all, we cannot penetrate to the center of the earth to measure the angles POV and VOW.) There are numerous methods available. We shall describe a simple one just to see that the latitude and longitude of places on the earth can be determined. Suppose we seek the latitude of some point P (Fig. 7\x{2013}15). On the day of the spring equinox, that is about March 21, the sun is in the plane of the equator and, at <<noon|3b>> on that day, it is also in the plane of the meridian of longitude. For a person at P, the overhead direction is PA, and the direction to the sun is PZ\x{2032}. Now the sun is so far away that PZ\x{2032} and VZ can be taken to be parallel lines. Then angle 2 equals the angle of latitude POV because they are alternate interior angles of parallel lines. But angle 1 equals angle 2 because they are verticle angles. Hence angle 1 equals the latitude of P. But angle 1 can be measured. It is the angle between the direction of the sun and the overhead direction at P. Thus the latitude of P can be determined.",
+            "[ap 07:10] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_14_ch7.html) - 7\x{2013}10",
+            "
+Fig. 7\x{2013}10
+3.\x{a0}\x{a0}A railroad line is being planned which must rise to 1000 ft (Fig. <<7\x{2013}10|5a:0>>) at a \x{201c}grade\x{201d} of 5\x{b0}. How long must the line be?",
+          ],
+          [
+            1,
+            "[ap 07:10] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_14_ch7.html) - 7\x{2013}10",
+            "3.\x{a0}\x{a0}A railroad line is being planned which must rise to 1000 ft (Fig. <<7\x{2013}10|5a:0>>) at a \x{201c}grade\x{201d} of 5\x{b0}. How long must the line be?",
+          ],
+          [
+            1,
+            "[ap 07:11] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_14_ch7.html) - 7\x{2013}11",
+            "4.\x{a0}\x{a0}A lighthouse beacon is 400 ft above sea level (Fig. <<7\x{2013}11|5a:0>>), and the sea around it is obstructed by rocks extending as far as 300 ft from the base of the lighthouse. A sailor on a ship\x{2019}s deck 20 ft above sea level measures the angle between his horizontal and the line of sight to the top of the beacon and finds it to be 50\x{b0}. Is his ship clear of the rocks?",
+          ],
+          [
+            1,
+            "[ap 07:12] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_14_ch7.html) - 7\x{2013}12",
+            "5.\x{a0}\x{a0}The Alexandrian Greek mathematician and engineer Heron showed how one could dig a tunnel under a mountain by working from both ends simultaneously and have the borings meet. He chose a convenient point A on one side, a convenient point B on the other, and finally point C for which angle ACB is 90\x{b0} (Fig. <<7\x{2013}12|5a:0>>). He next measured AC and BC and found their lengths to be 100 ft and 75 ft, respectively. Now, said Heron, it is possible to calculate angles A and B. He then instructed the workers at A to follow a line which made the calculated angle with AC, and gave analogous directives to the workers at B. How did he calculate angle A and angle B?",
+          ],
+          [
+            1,
+            "[ap 07:13] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_14_ch7.html) - 7\x{2013}13",
+            "
+Fig. 7\x{2013}12
+6.\x{a0}\x{a0}Trigonometric ratios can be used to compute the radius of the earth, whence, of course, the circumference can be determined by plane geometry. The method is an alternative to Eratosthenes\x{2032} procedure. From a point A which is 3 mi above the surface of the earth (A can be the top of a mountain or an airplane), an observer looks to the horizon. His line of sight, AC in Fig. <<7\x{2013}13|5a:0>>, is just tangent to the earth\x{2019}s surface. According to a theorem of Euclidean geometry, the radius OC of the earth is perpendicular to the tangent at C. Hence triangle ACO is a right triangle. Suppose that the size of angle A is 87\x{b0} 46\x{2032}. Let us denote the length of OC by r. Then OD is also r. We can now say that",
+          ],
+          [
+            1,
+            "[ap 07:13] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_14_ch7.html) - 7\x{2013}13",
+            "6.\x{a0}\x{a0}Trigonometric ratios can be used to compute the radius of the earth, whence, of course, the circumference can be determined by plane geometry. The method is an alternative to Eratosthenes\x{2032} procedure. From a point A which is 3 mi above the surface of the earth (A can be the top of a mountain or an airplane), an observer looks to the horizon. His line of sight, AC in Fig. <<7\x{2013}13|5a:0>>, is just tangent to the earth\x{2019}s surface. According to a theorem of Euclidean geometry, the radius OC of the earth is perpendicular to the tangent at C. Hence triangle ACO is a right triangle. Suppose that the size of angle A is 87\x{b0} 46\x{2032}. Let us denote the length of OC by r. Then OD is also r. We can now say that",
+          ],
+          [
+            1,
+            "[ap 07:14] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_14_ch7.html) - 7\x{2013}14",
+            "Hipparchus proceeded by employing systematically an idea already advanced prior to his time, namely the scheme of latitude and longitude. The earth is, of course a sphere. Let us consider circles with center O, which is the center of the earth, each going through the North and South Poles, N and S in Fig. <<7\x{2013}14|5a:0>>. Thus NWS is one half of such a circle; the other half runs in back of our figure and is therefore invisible. Likewise NVS is one half of another such circle. Obviously we can think of such a circle through N, S, and any other point on the earth\x{2019}s surface. Each half circle from N to S is called a longitude line or a meridian of longitude.",
+          ],
+          [
+            1,
+            "[ap 07:14] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_14_ch7.html) - 7\x{2013}14",
+            "
+Fig. 7\x{2013}14.
+Latitude and longitude.
+Thus any point on the earth\x{2019}s surface has a definite longitude. However all points on the half circle NVS have the same longitude. How shall we distinguish any one of these points from the others? The answer is: by introducing horizontal circles going around the earth. The equator is one such circle, and the circle TPQR of our figure is another. Clearly we can introduce many such circles lying in planes parallel to the equator. These circles are called circles of latitude. Again we have the problem of distinguishing among these circles. This is solved by introducing angles formed at the center of the earth, such as POV of Fig. <<7\x{2013}14|5a:0>>, where P is any point on a circle of latitude, O is the center of the earth, and V is on the equator and on the meridian of longitude through P. The angle POV is called the latitude of P. If P is north of the equator, it is said to have north latitude; if it is south of the equator, it is said to have south latitude. Thus points on the same meridian of longitude are distinguished by their differing latitudes.",
+          ],
+          [
+            1,
+            "[ap 07:14] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_14_ch7.html) - 7\x{2013}14",
+            "Thus any point on the earth\x{2019}s surface has a definite longitude. However all points on the half circle NVS have the same longitude. How shall we distinguish any one of these points from the others? The answer is: by introducing horizontal circles going around the earth. The equator is one such circle, and the circle TPQR of our figure is another. Clearly we can introduce many such circles lying in planes parallel to the equator. These circles are called circles of latitude. Again we have the problem of distinguishing among these circles. This is solved by introducing angles formed at the center of the earth, such as POV of Fig. <<7\x{2013}14|5a:0>>, where P is any point on a circle of latitude, O is the center of the earth, and V is on the equator and on the meridian of longitude through P. The angle POV is called the latitude of P. If P is north of the equator, it is said to have north latitude; if it is south of the equator, it is said to have south latitude. Thus points on the same meridian of longitude are distinguished by their differing latitudes.",
+          ],
+          [
+            1,
+            "[ap 07:15] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_14_ch7.html) - 7\x{2013}15",
+            "We have described what is meant by the latitude and longitude of any point on the earth\x{2019}s surface, but how do we determine the latitude and longitude for any given point P? (After all, we cannot penetrate to the center of the earth to measure the angles POV and VOW.) There are numerous methods available. We shall describe a simple one just to see that the latitude and longitude of places on the earth can be determined. Suppose we seek the latitude of some point P (Fig. <<7\x{2013}15|5a:1>>). On the day of the spring equinox, that is about March 21, the sun is in the plane of the equator and, at <<noon|3b>> on that day, it is also in the plane of the meridian of longitude. For a person at P, the overhead direction is PA, and the direction to the sun is PZ\x{2032}. Now the sun is so far away that PZ\x{2032} and VZ can be taken to be parallel lines. Then angle 2 equals the angle of latitude POV because they are alternate interior angles of parallel lines. But angle 1 equals angle 2 because they are verticle angles. Hence angle 1 equals the latitude of P. But angle 1 can be measured. It is the angle between the direction of the sun and the overhead direction at P. Thus the latitude of P can be determined.",
+          ],
+          [
+            1,
+            "[ap 07:15] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_14_ch7.html) - 7\x{2013}15",
+            "Fig. <<7\x{2013}15|5a:0>>.
+The determination of latitude at a point on the earth\x{2019}s surface.",
+          ],
+          [
+            1,
+            "[ap 07:16] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_14_ch7.html) - 7\x{2013}16",
+            "We may suppose, then, that the latitude and longitude of places on the earth can be determined. Can we now determine how far apart two places are? We can and we shall illustrate the process. Suppose P (Fig. <<7\x{2013}16|5a:0>>) is New York City, which has a north latitude of 41\x{b0} and a west longitude of 74\x{b0}. Hence angle POV is 41\x{b0}, and angle VOW is 74\x{b0}. Let us answer first the question, How far north of the equator is New York City? This question is easy to answer. The distance we seek is the arc PV. But POV is 41\x{b0} and arc PV is the arc of a circle whose radius is the radius of the earth. Hence arc PV is that part of the circumference of the earth which 41\x{b0} is of 360\x{b0}; that is, if we take the circumference of the earth to be 25,000 miles, then",
           ],
           [
             1,
@@ -142,6 +431,225 @@ Fig. <<6-36|5a:0>>
             "
 Using the approximate value of <<3.14|5a:0>> for \x{3c0}, we find that
 PQ = 3897.",
+          ],
+          [
+            1,
+            "[ap 07:17] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_14_ch7.html) - 7\x{2013}17",
+            "We have computed the distance between two points on the same meridian of longitude and the distance between two points on the same circle of latitude. We could investigate how to calculate the distance between two points on the earth\x{2019}s surface which have neither the same longitude nor the same latitude. However, we have seen enough of the method to comprehend how the trigonometric ratios can be used. Only one point may be worthy of note here. Suppose that P and 0 (Fig. <<7\x{2013}17|5a:0>>) are two points on the surface of the earth, and we now consider the question, What is the distance between them? We cannot mean the straight-line distance between P and Q because this does not lie on the earth\x{2019}s surface. The distance along the surface of the earth from P to Q must then be an arc of a curve. Which shall we choose? If we choose a circle whose center O is the center of the earth and which passes through P and Q, then we shall have what is called a great circle. The shorter of the two arcs from P to Q along this great circle is the shortest distance from P to Q along the surface of the sphere. This theorem of spherical geometry, which we shall not prove, is noteworthy because it tells us what route ships and planes should take if they are to save time and expense.",
+          ],
+          [
+            1,
+            "[ap 07:17] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_14_ch7.html) - 7\x{2013}17",
+            "
+Fig. <<7\x{2013}17|5a:0>>. A great circle on the earth\x{2019}s surface.
+Let us consider this theorem in connection with travel by the shortest route between two points such as New York City and Morella, Spain, which are on the same circle of latitude. Although in this case, one wishes to reach a point due east or west (depending on the direction of the trip) of a given point, the circle of latitude is not the shortest route because it is not a great circle. We saw in fact that the circle of latitude has O\x{2032} as its center (Fig. <<7\x{2013}16|5a:0>>), whereas the center of the earth is O.",
+          ],
+          [
+            1,
+            "[ap 07:16] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_14_ch7.html) - 7\x{2013}16",
+            "Let us consider this theorem in connection with travel by the shortest route between two points such as New York City and Morella, Spain, which are on the same circle of latitude. Although in this case, one wishes to reach a point due east or west (depending on the direction of the trip) of a given point, the circle of latitude is not the shortest route because it is not a great circle. We saw in fact that the circle of latitude has O\x{2032} as its center (Fig. <<7\x{2013}16|5a:0>>), whereas the center of the earth is O.",
+          ],
+          [
+            1,
+            "[ap 07:20] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_14_ch7.html) - 7\x{2013}20",
+            "
+Fig. <<7\x{2013}20|5a:0>>
+EXERCISES
+1.\x{a0}\x{a0}To determine the latitude of a point P (Fig. <<7\x{2013}18|5a:0>>) on the surface of the earth, an observer at P measures the angle between the horizontal at P and the direction of the North Star. He finds this angle to be 30\x{b0}. What is the latitude of P?",
+          ],
+          [
+            1,
+            "[ap 07:18] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_14_ch7.html) - 7\x{2013}18",
+            "EXERCISES
+1.\x{a0}\x{a0}To determine the latitude of a point P (Fig. <<7\x{2013}18|5a:0>>) on the surface of the earth, an observer at P measures the angle between the horizontal at P and the direction of the North Star. He finds this angle to be 30\x{b0}. What is the latitude of P?",
+          ],
+          [
+            1,
+            "[ap 07:19] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_14_ch7.html) - 7\x{2013}19",
+            "5.\x{a0}\x{a0}If a man changes his latitude by 2\x{b0} in traveling along a meridian (Fig. <<7\x{2013}19|5a:0>>), how far does he travel?",
+          ],
+          [
+            1,
+            "[ap 07:20] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_14_ch7.html) - 7\x{2013}20",
+            "6.\x{a0}\x{a0}Suppose a man travels due west along the 41\x{b0} circle of latitude and changes his longitude by 5\x{b0} (Fig. <<7\x{2013}20|5a:0>>). How far does he travel?",
+          ],
+          [
+            1,
+            "[ap 07:21] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_14_ch7.html) - 7\x{2013}21",
+            "
+Fig. 7\x{2013}21.
+Finding the distance to the moon.
+We shall consider first how one can find the distance to the moon. Suppose that P and Q (Fig <<7\x{2013}21|5a:0>>) are two points on the earth\x{2019}s equator which are chosen to satisfy the following conditions: The moon is to be directly overhead at P; that is, the moon, M, regarded as a point, is to be on the line from the center of the earth, E, through P. The moon is in this position at certain times each month. The point Q is chosen such that the moon is just visible from it. This means that the moon is clearly visible from points closer to P but not visible from points farther away from P and along the equator. Another way of saying the same thing is that the line MQ is tangent to the equator at Q. Let us draw the line EQ. The angle EQM is a right angle because the radius of a circle drawn to the point of contact of a tangent is perpendicular to the tangent.",
+          ],
+          [
+            1,
+            "[ap 07:21] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_14_ch7.html) - 7\x{2013}21",
+            "We shall consider first how one can find the distance to the moon. Suppose that P and Q (Fig <<7\x{2013}21|5a:0>>) are two points on the earth\x{2019}s equator which are chosen to satisfy the following conditions: The moon is to be directly overhead at P; that is, the moon, M, regarded as a point, is to be on the line from the center of the earth, E, through P. The moon is in this position at certain times each month. The point Q is chosen such that the moon is just visible from it. This means that the moon is clearly visible from points closer to P but not visible from points farther away from P and along the equator. Another way of saying the same thing is that the line MQ is tangent to the equator at Q. Let us draw the line EQ. The angle EQM is a right angle because the radius of a circle drawn to the point of contact of a tangent is perpendicular to the tangent.",
+          ],
+          [
+            1,
+            "[ap 07:21] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_14_ch7.html) - 7\x{2013}21",
+            "Precisely the same method can be used to find the distance to the sun. The point M (Fig. <<7\x{2013}21|5a:0>>) would now represent the sun. However, because the distances PM and QM are much larger in the case of the sun, angle E is larger and very close to 90\x{b0}. Moreover, the angle must be measured very accurately because a small error in the angle will cause a large error in the value of PM. For this reason the result of Hipparchus and Ptolemy, of the order of millions of miles, was, as they realized, not very accurate (see Exercise 1).",
+          ],
+          [
+            1,
+            "[ap 07:22] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_14_ch7.html) - 7\x{2013}22",
+            "Let us now find the radius of the moon. Whereas in the preceding calculation we regarded the moon as a point, this idealization will obviously not do in finding the radius. Instead let us regard the moon as a small sphere with center M and radius MR (Fig. <<7\x{2013}22|5a:0>>). At a point E on the earth\x{2019}s surface, one measures the angle between the line EM which has the direction from E to the center of the moon, and the line ER which is tangent to the moon\x{2019}s surface. This angle proves to be 15\x{2032}. We know the distance from earth to moon, at least when the moon is idealized as a point. Let us use this distance, even though it is not exactly EM in our figure. We shall see that the error introduced is minor. Hence EM for us is 241,000 miles. We shall use again the Euclidean theorem that a radius of a circle drawn to the point of tangency of a tangent is perpendicular to the tangent. For our figure this theorem says that MR is perpendicular to ER. Then in the right triangle EMR we have",
+          ],
+          [
+            1,
+            "[ap 07:22] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_14_ch7.html) - 7\x{2013}22",
+            "The method just used to find the radius of the moon can also be applied to find the radius of the sun. The point M in Fig. <<7\x{2013}22|5a:0>> becomes the center of the sun, and the distance EM becomes the distance to the sun (see Exercise 2). Angle E is about the same for this case as for the moon, as one might expect from the fact that when the moon is between the earth and the sun, the moon just about eclipses the sun.",
+          ],
+          [
+            1,
+            "[ap 07:23] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_14_ch7.html) - 7\x{2013}23",
+            "Let us regard all three bodies, the earth, the sun, and Venus, as points and let us suppose that the paths of earth and Venus are circular. At any time the three bodies are the vertices of triangle ESV\x{2032} in Fig. <<7\x{2013}23|5a:0>>(a). From the earth we can observe the size of angle E, which, of course, changes as the earth and Venus move around the sun.",
+          ],
+          [
+            1,
+            "[ap 07:23] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_14_ch7.html) - 7\x{2013}23",
+            "A neat fact, which emerges from a study of Fig. <<7\x{2013}23|5a:0>>(b), is that when angle E is a maximum, then the line from earth to Venus is tangent to the path of Venus around the sun. For when the angle at E is a maximum, the line from the earth to Venus is farthest from ES and still meets the circle on which Venus travels. But such a line must be tangent to the circle. A tangent to a circle is perpendicular to the radius drawn to the point of contact. Hence the radius SV (Fig. 7\x{2013}23b) is perpendicular to EV. What we should do, then, is measure the angle E at various times of the year and find out when it is largest. At this time EV is perpendicular to SV.",
+          ],
+          [
+            1,
+            "[ap 07:23] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_14_ch7.html) - 7\x{2013}23",
+            "Measurements show that the largest value of angle E is 47\x{b0}. If in Fig. <<7\x{2013}23|5a:0>>(b), we use 47\x{b0} for E and the fact that angle V must then be a right angle, we have",
+          ],
+          [
+            1,
+            "[ap 07:24] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_14_ch7.html) - 7\x{2013}24",
+            "EXERCISES
+1.\x{a0}\x{a0}Let us use the method given in the text to find the distance to the sun. We know that in Fig. <<7\x{2013}24|5a:0>>, QE is the radius of the earth, or 4000 mi. The angle at E is the difference in longitude between P and Q and in our case is 89\x{b0} 59\x{2032} 51\x{2033}. Given that cos E= 0.000043, find ES.",
+          ],
+          [
+            1,
+            "[ap 07:25] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_14_ch7.html) - 7\x{2013}25",
+            "
+Fig. <<7\x{2013}25|5a:0>>
+2.\x{a0}\x{a0}Let us apply the method of the text to find the radius of the sun (Fig. <<7\x{2013}25|5a:0>>). The distance to the sun, ES, is 93,000,000 mi. Angle E is measured and found to be about 16\x{2032}. Given that sin 16\x{2032} = 0.0046, find the radius SR.",
+          ],
+          [
+            1,
+            "[ap 07:25] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_14_ch7.html) - 7\x{2013}25",
+            "2.\x{a0}\x{a0}Let us apply the method of the text to find the radius of the sun (Fig. <<7\x{2013}25|5a:0>>). The distance to the sun, ES, is 93,000,000 mi. Angle E is measured and found to be about 16\x{2032}. Given that sin 16\x{2032} = 0.0046, find the radius SR.",
+          ],
+          [
+            1,
+            "[ap 07:22] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_14_ch7.html) - 7\x{2013}22",
+            "3.\x{a0}\x{a0}In the text (Fig. <<7\x{2013}22|5a:0>>) we found the radius of the moon without considering the distance M\x{2032}M. By a slight bit of extra work we can take this radius into account. Let us denote M\x{2032}M, which equals RM, by r. Then, since EM\x{2032} is 241,000 miles and angle E equals 15\x{2032}, we have",
+          ],
+          [
+            1,
+            "[ap 07:26] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_14_ch7.html) - 7\x{2013}26",
+            "
+Fig. 7\x{2013}26.
+Refraction of light.
+We often recognize that something strange does happen when light goes from air to water, say, because a straight rod when partially immersed in water seems to bend sharply at the water level. Also if one should shine a flashlight beam into water, he would observe the sudden change in the direction of the beam as it enters the water. This bending of light is called refraction. The Alexandrians sought to determine the extent of this change in direction. Specifically, if i is the angle (Fig. <<7\x{2013}26|5a:0>>) which the direction of the incident light ray makes with the perpendicular to the surface which separates the two media, say air and water, and if r is the angle which the refracted light makes with this same perpendicular, then what the Alexandrians sought is the relationship between angle i and angle r. But the Alexandrians and Ptolemy, in particular, who worked very hard on this problem, were baffled. They did observe that as increased, r increased, but the increase did not occur in any simple manner. Moreover, the r which corresponds to a given i is not the same for any two different media. Thus, if the first medium should be air, then for the same i, the value of r for glass would be different from that for water.",
+          ],
+          [
+            1,
+            "[ap 07:26] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_14_ch7.html) - 7\x{2013}26",
+            "We often recognize that something strange does happen when light goes from air to water, say, because a straight rod when partially immersed in water seems to bend sharply at the water level. Also if one should shine a flashlight beam into water, he would observe the sudden change in the direction of the beam as it enters the water. This bending of light is called refraction. The Alexandrians sought to determine the extent of this change in direction. Specifically, if i is the angle (Fig. <<7\x{2013}26|5a:0>>) which the direction of the incident light ray makes with the perpendicular to the surface which separates the two media, say air and water, and if r is the angle which the refracted light makes with this same perpendicular, then what the Alexandrians sought is the relationship between angle i and angle r. But the Alexandrians and Ptolemy, in particular, who worked very hard on this problem, were baffled. They did observe that as increased, r increased, but the increase did not occur in any simple manner. Moreover, the r which corresponds to a given i is not the same for any two different media. Thus, if the first medium should be air, then for the same i, the value of r for glass would be different from that for water.",
+          ],
+          [
+            1,
+            "[ap 07:26] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_14_ch7.html) - 7\x{2013}26",
+            "Ptolemy did not succeed in arriving at the correct law, but he developed the mathematical tool which finally enabled the Dutchman Willebrord Snell and the Frenchman Ren\x{e9} Descartes to discover and express it. It was found in the seventeenth century that light travels with a finite velocity and that this velocity is different in different media. Let us suppose that we have two media bordering each other as shown in Fig. <<7\x{2013}26|5a:0>>, and let v1 be the velocity of light in the upper medium and v2 the velocity in the lower medium. Then Snell and",
+          ],
+          [
+            1,
+            "[ap 07:27] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_14_ch7.html) - 7\x{2013}27",
+            "We now know how light refracts. Can we put this knowledge to use? Let us assume that the sun is close to the horizon. Of course, light from the sun streams out in all directions, but some rays will travel horizontally. Suppose that the surface over which the light travels is the surface of a large body of water (Fig. <<7\x{2013}27|5a:0>>). Then some rays will enter the water at a very large angle of incidence i, in fact, so close to 90\x{b0} that we shall consider angle i to be 90\x{b0}. The question we shall discuss is, How large is angle r in this case? To obtain an answer, we follow the procedure described in the preceding paragraph. This time, angle i is 90\x{b0}, and sin 90\x{b0} is 1. If we substitute this value in Formula (1), we have",
+          ],
+          [
+            1,
+            "[ap 07:27] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_14_ch7.html) - 7\x{2013}27",
+            "
+Fig. 7\x{2013}28
+Now suppose that a person located at the point P (Fig. <<7\x{2013}27|5a:0>>) in the water sees the light ray OP coming toward him. Since the light travels along the direction OP, he will conclude that the sun is located above the water in the direction PO. Moreover, if light from any source enters the water at an angle of incidence less than 90\x{b0}, the angle of refraction will be even less than 49\x{b0}. In such cases a person in the water observing this light will conclude that the light comes from a source whose angle of incidence is less than 49\x{b0}. The point of this discussion is that a person at P will believe that all objects in the air are situated within a 49\x{b0}-angle from the perpendicular because the light from them will seem to come from a direction within this range. The region in the air extending in all directions within 49\x{b0} of the perpendicular at O is the interior of a cone. Hence to a person in the water all objects seem to lie within this cone. We have of course presumed that the person in the water does not know the refractive effect of light or that he at least does not know how much light is bent under refraction. It is fairly certain that fish do not know mathematics, and so the inference that all objects above water must be within the 49\x{b0}-cone around the perpendicular is called the fish-eye view of the world.",
+          ],
+          [
+            1,
+            "[ap 07:27] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_14_ch7.html) - 7\x{2013}27",
+            "Now suppose that a person located at the point P (Fig. <<7\x{2013}27|5a:0>>) in the water sees the light ray OP coming toward him. Since the light travels along the direction OP, he will conclude that the sun is located above the water in the direction PO. Moreover, if light from any source enters the water at an angle of incidence less than 90\x{b0}, the angle of refraction will be even less than 49\x{b0}. In such cases a person in the water observing this light will conclude that the light comes from a source whose angle of incidence is less than 49\x{b0}. The point of this discussion is that a person at P will believe that all objects in the air are situated within a 49\x{b0}-angle from the perpendicular because the light from them will seem to come from a direction within this range. The region in the air extending in all directions within 49\x{b0} of the perpendicular at O is the interior of a cone. Hence to a person in the water all objects seem to lie within this cone. We have of course presumed that the person in the water does not know the refractive effect of light or that he at least does not know how much light is bent under refraction. It is fairly certain that fish do not know mathematics, and so the inference that all objects above water must be within the 49\x{b0}-cone around the perpendicular is called the fish-eye view of the world.",
+          ],
+          [
+            1,
+            "[ap 07:28] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_14_ch7.html) - 7\x{2013}28",
+            "To be a little clearer about the possible error into which one may be led, suppose that light comes to a person in a submarine at P (Fig. <<7\x{2013}28|5a:0>>) and that the direction of the light is OP. The object which emits the light will then appear to lie along the line PO. If, to hit the object, he shoots a bullet in the direction PO, the bullet will enter the air and follow the direction POP\x{2032} But the object at which he believes to be shooting is located along the direction OQ.",
+          ],
+          [
+            1,
+            "[ap 07:29] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_14_ch7.html) - 7\x{2013}29",
+            "Let us now reverse the roles of air and water and let us suppose that the light originates in the water. Assume, in fact, that a beam of light is shot in the direction of QO of Fig. <<7\x{2013}29|5a:0>>. The angle of incidence is now the angle marked i in the figure. The angle of refraction is the angle r. Since the ratio of the two velocities of light, that is v1,/v2 is now , the law of refraction (1) becomes",
+          ],
+          [
+            1,
+            "[ap 07:30] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_14_ch7.html) - 7\x{2013}30",
+            "We see then that sin r is greater than 1. Unfortunately, there is no angle whose sine value is greater than 1, and so there is no angle of refraction. Thus mathematics predicts that the light cannot leave the water. Is this the case physically? Well, no decently behaving light ray would wish to disobey the mathematical law of refraction. And none does. The light remains in the water. But what does it do? The answer is that the light is reflected from the boundary between air and water. Since the light must return to the water, it may as well do what it has already learned how to do under the process of reflection, namely, be reflected at an angle equal to the angle of incidence which in the present case is 60\x{b0} (Fig. <<7\x{2013}30|5a:0>>).",
+          ],
+          [
+            1,
+            "[ap 07:31] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_14_ch7.html) - 7\x{2013}31",
+            "Fig. <<7\x{2013}31|5a:0>>.
+Parallel displacement of light by means of total reflection in two prisms.",
+          ],
+          [
+            1,
+            "[ap 07:31] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_14_ch7.html) - 7\x{2013}31",
+            "Let us consider the following situation (Fig. <<7\x{2013}31|5a:1>>), where ACB and A\x{2032}C\x{2032}B\x{2032} are two prism-shaped pieces of glass with the faces AC and A\x{2032}C\x{2032} parallel to each other. Both prisms are shaped as isosceles right triangles. Suppose that OP is a light ray which first strikes the face BC perpendicularly. Here the angle of incidence is 0\x{b0}. Hence the angle of refraction is also 0\x{b0}, and the light therefore goes through unchanged in direction. The light ray strikes the face BA at an angle of 45\x{b0}. Now if the prisms are made of flint glass, the critical angle is 37\x{b0}. Thus the light ray strikes the face BA at an angle of incidence greater than the critical angle. In accordance with the phenomenon of total reflection, the light is reflected at an angle of 45\x{b0} to AB and follows the direction PQ. The light strikes the faces AC and A\x{2032}C\x{2032} at an angle of incidence of 0\x{b0} and so goes right through unchanged. It then strikes the face A\x{2032}B\x{2032} at an angle of 45\x{b0}. Since this angle of incidence also is greater than the critical angle, the light is again totally reflected at an angle of 45\x{b0} with B\x{2032}A\x{2032} and takes the direction RO\x{2032}. Thus the final ray, RO\x{2032}, has the same direction as the original ray, OP, but is displaced by the distance PR.",
+          ],
+          [
+            1,
+            "[ap 07:32] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_14_ch7.html) - 7\x{2013}32",
+            "
+Fig. 7\x{2013}32.
+Refraction by a lens.
+Total reflection is but one phenomenon of the refractive effect of light. The most common use of the refractive effect of light is in lenses. If light streams out from an object at P (Fig. <<7\x{2013}32|5a:0>>) in all directions, some of the rays will strike the lens at points such as Q1, Q2, and Q3. There their directions will change because they are entering glass. Thus the rays PQ1, PQ2, and PQ3 may take the directions Q1R1, Q2R2 and Q3R3, respectively. At the right-hand surface of the glass, the rays re-enter the air and, since the medium in which the light is traveling changes, the light rays bend again. By properly shaping the lens surfaces, that is Q1Q2Q3 on the left and R1R2R3 on the right, the light from P may be made to concentrate at S. All optical instruments, such as telescopes, microscopes, binoculars, and cameras, contain lenses of this kind.",
+          ],
+          [
+            1,
+            "[ap 07:32] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_14_ch7.html) - 7\x{2013}32",
+            "Total reflection is but one phenomenon of the refractive effect of light. The most common use of the refractive effect of light is in lenses. If light streams out from an object at P (Fig. <<7\x{2013}32|5a:0>>) in all directions, some of the rays will strike the lens at points such as Q1, Q2, and Q3. There their directions will change because they are entering glass. Thus the rays PQ1, PQ2, and PQ3 may take the directions Q1R1, Q2R2 and Q3R3, respectively. At the right-hand surface of the glass, the rays re-enter the air and, since the medium in which the light is traveling changes, the light rays bend again. By properly shaping the lens surfaces, that is Q1Q2Q3 on the left and R1R2R3 on the right, the light from P may be made to concentrate at S. All optical instruments, such as telescopes, microscopes, binoculars, and cameras, contain lenses of this kind.",
+          ],
+          [
+            1,
+            "[ap 07:33] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_14_ch7.html) - 7\x{2013}33",
+            "The eye itself is a complicated refracting device. When light enters the eye (Fig. <<7\x{2013}33|5a:0>>), it passes through a liquid (denoted by A in the figure), called the aqueous humor, then through the lens, L, which is made of a fibrous jelly, and finally it enters another liquid, V, called the vitreous humor. Although all three media have some refractive effect upon the light, most of the refraction occurs when it encounters the aqueous humor. To be perceived, light rays that enter the eye must strike the retina, R, in the rear. The eye has a ciliary muscle which changes the shape of the lens and therefore the direction of the light rays passing through the eye so that the rays are directed toward the retina. Eyes which for one reason or another cannot direct the rays to the retina must be aided by additional lenses in eyeglasses. Clearly the science of medicine profits immensely from the mathematical and physical knowledge acquired about the action of the eye.",
+          ],
+          [
+            1,
+            "[ap 07:33] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_14_ch7.html) - 7\x{2013}33",
+            "
+Fig. <<7\x{2013}33|5a:1>>.
+A sketch of the eye.
+We have been discussing the law of refraction and some of the remarkable effects which take place at a sharp boundary between the two media. But the refractive effect of light is equally striking and important when there is a gradual change in the nature of the medium through which the light passes. Let us consider the passage of light through air, which is not a uniform medium. Generally it is more dense near the ground and thinner at higher altitudes. Hence, when light comes to a person at P (Fig. 1\x{2013}1) from the sun at O, the light ray follows a curved path as it travels through the earth\x{2019}s atmosphere because it is continually refracted. For the observer at P the direction of the incoming light is O\x{2032}P, and hence he thinks that the source lies along the direction PO\x{2032}. This is the reason that we are often deceived about the true position of the sun (see Chapter 1).",
+          ],
+          [
+            1,
+            "[ap 07:34] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_14_ch7.html) - 7\x{2013}34",
+            "The refractive effect of light is, as we can see, a peculiar phenomenon. Why does light behave this way? We do not understand what light is and so cannot analyze the substance itself to learn why it refracts, but we have another kind of explanation which sheds light on nature\x{2019}s operations. The clue lies in the law of refraction. We note that refraction depends upon the velocity of light in the medium. The seventeenth-century mathematician Pierre de Fermat, whom we shall meet again, pondered on this fact and, after analyzing the law of refraction, found an important principle. Suppose that light travels from the point P in air (Fig. <<7\x{2013}34|5a:0>>) to the point Q in water and bends at O in accordance with the law of refraction. Were the light to follow the straight-line path from P to Q instead of the broken-line path POQ, it would travel a shorter distance. Let us note, however, that the distance O\x{2032}Q in water would be longer than OQ. Because the velocity in water is smaller than in air, the light might lose more time in traveling the path O\x{2032}Q instead of OQ than it might save by traveling the shorter distance PO\x{2032} instead of PO in air. By a mathematical argument Fermat showed that light takes the path which requires least time.",
+          ],
+          [
+            1,
+            "[ap 07:34] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_14_ch7.html) - 7\x{2013}34",
+            "
+Fig. <<7\x{2013}34|5a:0>>.
+Light takes the path requiring least time.
+But is this fact true for other phenomena of light? When light travels from one point to another in a uniform medium, it takes the straight-line path. It would seem as though in this case light chooses the criterion of shortest path and not that of least time. But in a uniform medium the velocity of light is constant, and so the shortest path requires the least time. Let us consider next what happens when light goes from a point P to a mirror and then to a point Q. We proved in Chapter 6 that light takes the shortest path. But here too the light travels in one medium and, because the medium is uniform, the velocity is constant; hence the shortest path again means least time. It would appear from Fermat\x{2019}s analysis that nature is wise. It knows mathematics and employs it in the interest of economy.",
+          ],
+          [
+            1,
+            "[ap 07:35] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_14_ch7.html) - 7\x{2013}35",
+            "
+Fig. 7\x{2013}35
+3.\x{a0}\x{a0}Prove that a light ray passing through a plate of glass (Fig. <<7\x{2013}35|5a:0>>) emerges parallel to its original direction but is somewhat displaced.",
+          ],
+          [
+            1,
+            "[ap 07:35] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_14_ch7.html) - 7\x{2013}35",
+            "3.\x{a0}\x{a0}Prove that a light ray passing through a plate of glass (Fig. <<7\x{2013}35|5a:0>>) emerges parallel to its original direction but is somewhat displaced.",
           ],
           [
             1,
@@ -176,8 +684,84 @@ BALL, W. W. ROUSE: A Short Account of the History of Mathematics, 4th ed., Chaps
           ],
           [
             1,
+            "[ap 10:10] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_17_ch10.html) - 10\x{2013}10",
+            "We shall establish one more theorem about perspective drawing. Let us now suppose that JK (Fig. <<10\x{2013}10|5a:0>>) is a horizontal line which makes an angle of 45\x{b0} with the screen. Assume that the eye at E looks out along the line JK toward infinity. Then the line from the eye to the point at infinity on JK will be parallel to JK. Since JK is horizontal, the new line, EL in Fig. <<10\x{2013}10|5a:0>>, will also be horizontal. It will pierce the screen at some point, say D1, and will also make an angle of 45\x{b0} with the screen. The triangle D1EO\x{2032} is a right triangle because EO\x{2032} is perpendicular to the screen. In view of the acute angles of 45\x{b0}, O\x{2032}D1 = EO\x{2032}. Then the point D1 is as far from O\x{2032} as E is. The projection from E to the various points of JK cuts the screen in some line, J\x{2032}K\x{2032}, say. As the eye continues to follow JK toward infinity, the projection cuts the screen in points lying on an extension of J\x{2032}K\x{2032}, and we have already established that when the eye looks toward infinity on JK, the projection cuts the screen at D1. Hence J\x{2032}K\x{2032} must go through D1. We now have another important result. The image of any horizontal line which makes an angle of 45\x{b0} with the screen must go through the point D1 which lies on the screen, on the same level as E, but is as far to the right of the principal vanishing point as E is from the principal vanishing point. The point D1 is called a diagonal vanishing point.",
+          ],
+          [
+            1,
+            "[ap 10:10] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_17_ch10.html) - 10\x{2013}10",
+            "Fig. <<10\x{2013}10|5a:0>>.
+The image of a horizontal line which makes a 45\x{b0}-angle with the screen goes through a diagonal vanishing point.",
+          ],
+          [
+            1,
             '[~ 14:30] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_17_ch10.html) - about 1430',
             'Renaissance painters achieved their goal of devising a mathematical system which permitted the realistic representation of actual scenes and joyously hastened to employ it. Realistic paintings constructed in accordance with the focused scheme of perspective begin to appear <<about 1430|18:0>>.',
+          ],
+          [
+            1,
+            "[ap 10:11] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_17_ch10.html) - 10\x{2013}11",
+            "There are numerous examples which illustrate Piero\x{2019}s excellent perspective. His \x{201c}Flagellation\x{201d} (Fig. <<10\x{2013}11|5a:0>>) is one of the best. As in all of his paintings a geometric framework underlies the design. The principal vanishing point is chosen to be near the figure of Christ. This device of placing the principal vanishing point within the most important area in the painting is deliberate because the eye tends to focus on that vanishing point. All objects are carefully foreshortened; this is especially noticeable in the marble blocks on the floor and in the beams. The immense labor which went into the calculation of these sizes is indicated by a drawing in the book referred to above wherein he explains a similar construction.",
+          ],
+          [
+            1,
+            "[ap 10:11] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_17_ch10.html) - 10\x{2013}11",
+            "Fig. <<10\x{2013}11|5a:0>>.
+Piero della Francesca: The Flagellation. Ducal Palace, Urbino.",
+          ],
+          [
+            1,
+            "[ap 10:12] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_17_ch10.html) - 10\x{2013}12",
+            "Fig. <<10\x{2013}12|5a:0>>.
+Piero della Francesca: Architectural View of a City. Kaiser Friedrich Museum, Berlin.",
+          ],
+          [
+            1,
+            "[ap 10:13] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_17_ch10.html) - 10\x{2013}13",
+            "Fig. <<10\x{2013}13|5a:0>>.
+Leonardo da Vinci: Study for the Adoration of the Magi. Uffizi, Florence.",
+          ],
+          [
+            1,
+            "[ap 10:12] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_17_ch10.html) - 10\x{2013}12",
+            "To illustrate the power of perspective Piero painted several scenes of cities. His \x{201c}Architectural View of a City\x{201d} (Fig. <<10\x{2013}12|5a:1>>) gives a striking illusion of depth. These examples of Piero\x{2019}s paintings show his obsession for perspective and his great technique.",
+          ],
+          [
+            1,
+            "[ap 10:14] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_17_ch10.html) - 10\x{2013}14",
+            "Fig. <<10\x{2013}14|5a:0>>.
+Leonardo da Vinci: Adoration of the Magi. Uffizi, Florence.",
+          ],
+          [
+            1,
+            "[ap 10:13] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_17_ch10.html) - 10\x{2013}13",
+            "
+Fig. 10\x{2013}15.
+Leonardo da Vinci: Annunciation. Uffizi, Florence.
+The detailed mathematical studies which Leonardo undertook in preparation for his paintings are illustrated by one of several sketches he made for his \x{201c}Adoration of the Magi\x{201d} (Fig. <<10\x{2013}13|5a:0>>). The painting itself, which was never completed, is shown in Fig. <<10\x{2013}14|5a:0>>. His \x{201c}Last Supper\x{201d} is another excellent example of mathematical perspective, but is so well known that we shall reproduce instead \x{201c}The Annunciation\x{201d} (Fig. <<10\x{2013}15|5a:0>>). Although the action takes place in the foreground and the chief figures are far apart, they and the distant scene in the rear are all brought together by the perspective structure.",
+          ],
+          [
+            1,
+            "[ap 10:13] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_17_ch10.html) - 10\x{2013}13",
+            "The detailed mathematical studies which Leonardo undertook in preparation for his paintings are illustrated by one of several sketches he made for his \x{201c}Adoration of the Magi\x{201d} (Fig. <<10\x{2013}13|5a:0>>). The painting itself, which was never completed, is shown in Fig. <<10\x{2013}14|5a:0>>. His \x{201c}Last Supper\x{201d} is another excellent example of mathematical perspective, but is so well known that we shall reproduce instead \x{201c}The Annunciation\x{201d} (Fig. <<10\x{2013}15|5a:0>>). Although the action takes place in the foreground and the chief figures are far apart, they and the distant scene in the rear are all brought together by the perspective structure.",
+          ],
+          [
+            1,
+            "[ap 10:16] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_17_ch10.html) - 10\x{2013}16",
+            "Raphael (1483\x{2013}1520) supplies many superb paintings which exhibit excellent perspective. In his \x{201c}School of Athens\x{201d} (Fig. <<10\x{2013}16|5a:0>>) he boldly tackles an enormous scene encompassing a vast number of people within a magnificent architectural setting. The portrayal of depth, the harmonious organization, coherence, and exactness of proportions achieved despite the difficulty of the undertaking are extraordinary. This picture, especially, shows how perspective unifies a composition and ties figures at the sides to the central theme.",
+          ],
+          [
+            1,
+            "[ap 10:17] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_17_ch10.html) - 10\x{2013}17",
+            "
+Fig. 10\x{2013}17.
+Raphael: Fire in the Borgo. Vatican.
+Raphael offers so many examples of excellent perspective that it is difficult to limit oneself to one or two representative samples. His \x{201c}The Fire in the Borgo\x{201d} ((Fig. <<10\x{2013}17|5a:0>>) shows exquisite depth, perfect handling of figures in various positions, the proper foreshortening, and again the unification of a scene in which many actions take place.",
+          ],
+          [
+            1,
+            "[ap 10:17] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_17_ch10.html) - 10\x{2013}17",
+            "Raphael offers so many examples of excellent perspective that it is difficult to limit oneself to one or two representative samples. His \x{201c}The Fire in the Borgo\x{201d} ((Fig. <<10\x{2013}17|5a:0>>) shows exquisite depth, perfect handling of figures in various positions, the proper foreshortening, and again the unification of a scene in which many actions take place.",
           ],
           [
             1,
@@ -191,18 +775,121 @@ BALL, W. W. ROUSE: A Short Account of the History of Mathematics, 4th ed., Chaps
           ],
           [
             1,
+            "[ap 11:10] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_18_ch11.html) - 11\x{2013}10",
+            "Fig. <<11\x{2013}10|5a:0>>.
+(a) A set of points on a line;
+(b) a set of lines on a point.",
+          ],
+          [
+            1,
+            "[ap 11:11] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_18_ch11.html) - 11\x{2013}11",
+            "In projective geometry the quadrilateral is defined as a figure consistng of four lines and the six points in which the lines join in pairs. This use of the term \x{201c}quadrilateral\x{201d} differs slightly from the one common in Euclidean geometry. A picture of a quadrilateral is shown in Fig. <<11\x{2013}11|5a:0>>(a). We can equally well speak of a figure consisting of four points and the six lines which join the points in pairs (Fig. 11\x{2013}11b). This new figure is called a quadrangle. Hence quadrilateral and quadrangle are dual figures.",
+          ],
+          [
+            1,
+            "[ap 11:12] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_18_ch11.html) - 11\x{2013}12",
+            "The principle of duality, as thus far described, tells us how to obtain a new statement or theorem from a given one involving points and lines. But projective geometry also deals with curves. How should one dualize statements describing curves? The clue lies in the fact that a curve is after all but a collection of points satisfying some condition. For example, the circle is the set of all points at a fixed distance from a given point. The principle of duality suggests, then, that the figure dual to a given curve might be a collection of lines satisfying the condition dual to the condition defining the given curve. (However the definition given for the circle is not in the form which can be dualized.) This collection of lines may also be called a curve, for a collection of lines suggests a curve as well as does a collection of points (Fig. <<11\x{2013}12|5a:0>>). It is called a line curve.",
+          ],
+          [
+            1,
+            "[ap 11:14] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_18_ch11.html) - 11\x{2013}14",
+            "Hence one might suspect that logically projective geometry is the more fundamental and encompassing subject and that Euclidean geometry is in some sense a specialization. This conjecture is correct. The clue to the relationship between the two geometries may be obtained by again examining projection and section. Consider a geometric figure, a rectangle say (Fig. <<11\x{2013}14|5a:0>>). Let a projection of this figure be formed from an arbitrary point O, and then let a section of this projection be made by a plane parallel to the plane of the rectangle. By applying some theorems of Euclidean geometry one can prove that the section will be a rectangle similar to the original one. Hence the relationship of similarity is a special type of projective relationship in which the plane of the section and the plane of the original figure are parallel.",
+          ],
+          [
+            1,
+            "[ap 11:15] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_18_ch11.html) - 11\x{2013}15",
+            "If, now, the point O moves indefinitely far to the left, the lines of the projection come closer and closer to being parallel to each other. When the center of the projection is the \x{201c}point at infinity\x{201d}(!), these lines are parallel; then the section made by a plane parallel to the rectangle is a rectangle congruent to the original one (Fig. <<11\x{2013}15|5a:0>>). This last type of projection, called parallel projection, thus yields congruent sections. In other words, from the standpoint of projective geometry, the relationships of congruence and similarity which are so intensively studied in Euclidean geometry can be studied through projection and section for special projections. We see therefore that Euclidean geometry is not only a logical subdivision of projective geometry, but we can now look upon it in a new light, namely, as a study of properties of geometric figures which are invariant under special projections.",
+          ],
+          [
+            1,
             '[05:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_19_ch12.html) - 5 a.m.',
             'His retirement from the world was broken by an invitation to serve as a tutor to Queen Christina of Sweden. Reluctant as he was to leave his comfortable home, he could not resist the attraction of royalty and so moved to Stockholm. The queen preferred to begin her day at <<5 a.m.|5>> by studying in an icy library, and her tutor was obliged to meet her at that hour. This regimen was too much for the frail Descartes. His flesh was weak, and his spirit unwilling. He caught cold and died in the year 1650.',
           ],
           [
             1,
-            '[ap 05:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_19_ch12.html) - 5',
-            "The next step was to express this information in arithmetical terms. The position of Q1, for example, could be specified by stating its distance from a fixed point O, called the origin, on the horizontal line. The length Q1P1 could certainly be specified by a number. Thus the position of P1 would be determined by two numbers, the length OQ1 and the length Q1P1. The length OQ1 which is 3 in Fig. 12\x{2013}1, is called the abscissa of P1, and the length P1Q1, which is <<5|9d:1>> in Fig. 12\x{2013}1, is called the ordinate. The line OX is called the X-axis, and the line OY, which is perpendicular to OX and which shows the direction in which Q1P1 is taken, is called the Y-axis.",
+            "[ap 00:10] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_19_ch12.html) - 12\x{2013}10",
+            "
+Fig. 12\x{2013}12.
+A parabola with focus to the right of the directrix.
+rough idea of this position, let us substitute into equation (8) any positive value of x, say 5. Then . This tells us that (5, ) is a point on the curve (Fig. <<12\x{2013}10|5a:0>>). But if we substitute \x{2013}5 for x, we obtain the same result for y. Thus (\x{2013} 5, ) is another point on the curve. These two points are symmetrically situated with respect to the Y-axis. Moreover, no matter which abscissa and ordinate we calculate, the negative of that abscissa will always yield the same ordinate because the abscissa has to be squared. This means that to each point on the curve to the right of the Y-axis there corresponds a point symmetrically situated to the left of the Y-axis. Hence, once we have determined the shape of the curve to the right of the Y-axis, we automatically know what the curve looks like to the left.",
           ],
           [
             1,
-            '[ap 03:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_19_ch12.html) - 3',
-            "The curve corresponding to this equation is the parabola shown in Fig. 12\x{2013}16, where it is graphed with respect to the X\x{2032}- and Y\x{2032}-axes. Of course, we wish to find the curve corresponding to equation (13), not that described by (16). However, equations (15) provide the necessary connection. The equation x\x{2032} = x \x{2013} 3, or x = 3 + x\x{2032}, tells us that the abscissas x of points belonging to (13) should be 3 more than the abscissas x\x{2032} of points belonging to (16). How can we increase by <<3|3j>> the abscissas of each point in Fig. 12\x{2013}16? The answer is simple. We draw a new Y-axis 3 units to the left of the Y\x{2032}-axis. Then the x-value of a typical point such as P is 3 units more than its x\x{2032}-value. We now use the second equation in (15), that is, y\x{2032} = y + 9, or y = y\x{2032} \x{2013} 9. This equation says that the y-values of points should be 9 units less than the y\x{2032}-values. How can we reduce by <<9|3j>> the ordinates of the curve in Fig. 12\x{2013}16? We have already indicated the essential trick. We introduce a new X-axis 9 units above the X\x{2032}-axis. Now the y-value of P is 9 units less than the y\x{2032}-value. Hence with respect to the X- and Y-axes, the points of the parabola y\x{2032} = x\x{2032}2 have the correct x- and y-values called for by equation (13). Since we did not change the curve in any way by introducing the X- and Y-axes, but merely changed the axes, the curve of equation (13) is a parabola placed with respect to the X- and Y-axes as shown in Fig. 12\x{2013}16.",
+            "[ap 00:10] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_19_ch12.html) - 12\x{2013}10",
+            "rough idea of this position, let us substitute into equation (8) any positive value of x, say 5. Then . This tells us that (5, ) is a point on the curve (Fig. <<12\x{2013}10|5a:0>>). But if we substitute \x{2013}5 for x, we obtain the same result for y. Thus (\x{2013} 5, ) is another point on the curve. These two points are symmetrically situated with respect to the Y-axis. Moreover, no matter which abscissa and ordinate we calculate, the negative of that abscissa will always yield the same ordinate because the abscissa has to be squared. This means that to each point on the curve to the right of the Y-axis there corresponds a point symmetrically situated to the left of the Y-axis. Hence, once we have determined the shape of the curve to the right of the Y-axis, we automatically know what the curve looks like to the left.",
+          ],
+          [
+            1,
+            "[ap 00:11] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_19_ch12.html) - 12\x{2013}11",
+            "In work involving parabolas and their equations it is sometimes convenient to consider one whose focus lies below the directrix. If we now choose the axes as shown in Fig. <<12\x{2013}11|5a:0>>, what is the equation of the parabola? We could, of course, obtain the answer by going through steps analogous to those contained in equations (6) through (8). However, there is no need to do so since Figs. 12\x{2013}9 and <<12\x{2013}11|5a:0>> differ only in the sign of the y-values: whereas the y-values in the former are positive, the y-values in the latter must be negative. Hence the equation of the parabola in Fig. <<12\x{2013}11|5a:0>> is",
+          ],
+          [
+            1,
+            "[ap 00:11] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_19_ch12.html) - 12\x{2013}11",
+            "Let us consider Fig. <<12\x{2013}11|5a:0>>, but suppose now that distances downward on the Y-axis are chosen to be positive. How does this change affect the equation of the parabola? The suggested situation does not really differ from that shown in Fig. 12\x{2013}9. If we imagine this whole figure rotated about the X-axis through 180\x{b0}, that is through half a rotation, we obtain the situation we have just proposed. Since the position of the curve in relation to the X- and Y-axes is exactly the same in Fig. <<12\x{2013}11|5a:0>> as in Fig. 12\x{2013}9, the parabola has the equation",
+          ],
+          [
+            1,
+            "[ap 00:12] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_19_ch12.html) - 12\x{2013}12",
+            "Let us consider one more variation. Suppose that directrix and focus happen to lie as in Fig. <<12\x{2013}12|5a:0>>. We choose the X- and Y-axes as shown, with the Y-axis halfway between focus and directrix. The upward direction on the Y-axis is positive. What is the equation of the parabola determined by this choice of focus, directrix, and axes? To answer this question we have but to compare Figs. 12\x{2013}9 and <<12\x{2013}12|5a:0>>. The X-axis in Fig. 12\x{2013}9 plays the role of the Y-axis in Fig. <<12\x{2013}12|5a:0>>, and the Y-axis in Fig. 12\x{2013}9 plays the role of the X-axis in Fig. <<12\x{2013}12|5a:0>>; in other words, the roles of abscissa and ordinate are exchanged. Hence the equation of the parabola in Fig. <<12\x{2013}12|5a:0>> is",
+          ],
+          [
+            1,
+            "[ap 00:15] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_19_ch12.html) - 12\x{2013}15",
+            "
+Fig. <<12\x{2013}15|5a:0>>
+2.\x{a0}\x{a0}Compare the curves of Exercises 1(a) and 1(b).",
+          ],
+          [
+            1,
+            "[ap 00:13] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_19_ch12.html) - 12\x{2013}13",
+            "3.\x{a0}\x{a0}For the parabola shown in Fig. <<12\x{2013}13|5a:0>>, the distance from focus to directrix is 6. What is the equation of the parabola?",
+          ],
+          [
+            1,
+            "[ap 00:14] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_19_ch12.html) - 12\x{2013}14",
+            "6.\x{a0}\x{a0}Suppose that the designer of a bridge has decided to use the parabolic cable y = x2 for the range x = \x{2013}5 to x = 5 (Fig. <<12\x{2013}14|5a:0>>). The roadbed of the bridge is to be the X-axis. Compute the lengths of straight wire needed to suspend the roadbed from the cable at x = 1, 2, 3, 4, and 5.",
+          ],
+          [
+            1,
+            "[ap 00:15] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_19_ch12.html) - 12\x{2013}15",
+            "7.\x{a0}\x{a0}Suppose that the designer of a bridge has decided to use the parabolic cable y = x2 for the range x = \x{2013}5 to x = 5 (Fig. <<12\x{2013}15|5a:0>>). The roadbed is to have the shape . Compute the length of straight wire needed to suspend the roadbed from the cable at x = 1, 2, 3, 4, and 5.",
+          ],
+          [
+            1,
+            "[ap 00:16] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_19_ch12.html) - 12\x{2013}16",
+            "
+Fig. <<12\x{2013}16|5a:0>>
+The curve corresponding to this equation is the parabola shown in Fig. <<12\x{2013}16|5a:0>>, where it is graphed with respect to the X\x{2032}- and Y\x{2032}-axes. Of course, we wish to find the curve corresponding to equation (13), not that described by (16). However, equations (15) provide the necessary connection. The equation x\x{2032} = x \x{2013} 3, or x = 3 + x\x{2032}, tells us that the abscissas x of points belonging to (13) should be 3 more than the abscissas x\x{2032} of points belonging to (16). How can we increase by <<3|3j>> the abscissas of each point in Fig. <<12\x{2013}16|5a:0>>? The answer is simple. We draw a new Y-axis 3 units to the left of the Y\x{2032}-axis. Then the x-value of a typical point such as P is 3 units more than its x\x{2032}-value. We now use the second equation in (15), that is, y\x{2032} = y + 9, or y = y\x{2032} \x{2013} 9. This equation says that the y-values of points should be 9 units less than the y\x{2032}-values. How can we reduce by <<9|3j>> the ordinates of the curve in Fig. <<12\x{2013}16|5a:0>>? We have already indicated the essential trick. We introduce a new X-axis 9 units above the X\x{2032}-axis. Now the y-value of P is 9 units less than the y\x{2032}-value. Hence with respect to the X- and Y-axes, the points of the parabola y\x{2032} = x\x{2032}2 have the correct x- and y-values called for by equation (13). Since we did not change the curve in any way by introducing the X- and Y-axes, but merely changed the axes, the curve of equation (13) is a parabola placed with respect to the X- and Y-axes as shown in Fig. <<12\x{2013}16|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 00:16] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_19_ch12.html) - 12\x{2013}16",
+            "The curve corresponding to this equation is the parabola shown in Fig. <<12\x{2013}16|5a:0>>, where it is graphed with respect to the X\x{2032}- and Y\x{2032}-axes. Of course, we wish to find the curve corresponding to equation (13), not that described by (16). However, equations (15) provide the necessary connection. The equation x\x{2032} = x \x{2013} 3, or x = 3 + x\x{2032}, tells us that the abscissas x of points belonging to (13) should be 3 more than the abscissas x\x{2032} of points belonging to (16). How can we increase by <<3|3j>> the abscissas of each point in Fig. <<12\x{2013}16|5a:0>>? The answer is simple. We draw a new Y-axis 3 units to the left of the Y\x{2032}-axis. Then the x-value of a typical point such as P is 3 units more than its x\x{2032}-value. We now use the second equation in (15), that is, y\x{2032} = y + 9, or y = y\x{2032} \x{2013} 9. This equation says that the y-values of points should be 9 units less than the y\x{2032}-values. How can we reduce by <<9|3j>> the ordinates of the curve in Fig. <<12\x{2013}16|5a:0>>? We have already indicated the essential trick. We introduce a new X-axis 9 units above the X\x{2032}-axis. Now the y-value of P is 9 units less than the y\x{2032}-value. Hence with respect to the X- and Y-axes, the points of the parabola y\x{2032} = x\x{2032}2 have the correct x- and y-values called for by equation (13). Since we did not change the curve in any way by introducing the X- and Y-axes, but merely changed the axes, the curve of equation (13) is a parabola placed with respect to the X- and Y-axes as shown in Fig. <<12\x{2013}16|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 00:16] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_19_ch12.html) - 12\x{2013}16",
+            "EXERCISES
+1.\x{a0}\x{a0}For equation (13) of the text calculate the coordinates of a number of points on the curve and plot the points. Then sketch in the curve. Does your graph look like the one in Fig. <<12\x{2013}16|5a:0>>?",
+          ],
+          [
+            1,
+            "[ap 00:17] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_19_ch12.html) - 12\x{2013}17",
+            "
+Fig. 12\x{2013}17.
+An ellipse on a rectangular Cartesian coordinate system.
+From the standpoint of coordinate geometry, the first thing of interest about the ellipse is its equation. Let us see whether we can find it. As in the case of the parabola, experience has taught mathematicians that the resulting equation will be simplest if the line FF\x{2032} (Fig. <<12\x{2013}17|5a:0>>) is chosen as the X-axis and the Y-axis is chosen to be the line perpendicular to the X-axis and halfway between F and F\x{2032}. Let us consider the ellipse for which the length FF\x{2032} is 6 units. Then the coordinates of F are (3, 0) and those of F\x{2032} are (\x{2013} 3, 0). Now let P be any point on the curve and let us denote its coordinates by (x, y). If the constant quantity which determines the ellipse is 10, then the condition which any point P on the ellipse satisfies is",
+          ],
+          [
+            1,
+            "[ap 00:17] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_19_ch12.html) - 12\x{2013}17",
+            "From the standpoint of coordinate geometry, the first thing of interest about the ellipse is its equation. Let us see whether we can find it. As in the case of the parabola, experience has taught mathematicians that the resulting equation will be simplest if the line FF\x{2032} (Fig. <<12\x{2013}17|5a:0>>) is chosen as the X-axis and the Y-axis is chosen to be the line perpendicular to the X-axis and halfway between F and F\x{2032}. Let us consider the ellipse for which the length FF\x{2032} is 6 units. Then the coordinates of F are (3, 0) and those of F\x{2032} are (\x{2013} 3, 0). Now let P be any point on the curve and let us denote its coordinates by (x, y). If the constant quantity which determines the ellipse is 10, then the condition which any point P on the ellipse satisfies is",
+          ],
+          [
+            1,
+            "[ap 00:17] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_19_ch12.html) - 12\x{2013}17",
+            "We know what an ellipse looks like: But we do not know how our ellipse lies in relation to the axes chosen in Fig. <<12\x{2013}17|5a:0>>. An analysis of equation (19) will supply the answer. First of all let us note that if (a, b) should happen to be the coordinates of a point which satisfy equation (19), that is, if",
           ],
           [
             1,
@@ -210,6 +897,38 @@ BALL, W. W. ROUSE: A Short Account of the History of Mathematics, 4th ed., Chaps
             "
 Fig. <<12-18|5a:0>>
 then the sets of coordinates (\x{2013}a, b), (a, \x{2013}b), and (\x{2013}a, \x{2013}b) will also satisfy the equation, because the substitution of any one of these latter three pairs of coordinates will yield the same equation as (20). Figure 12\x{2013}18 shows where the various points (a, b), (\x{2013}a, b), (a, \x{2013}b), and (\x{2013}a, \x{2013}b) lie in relation to the axes. We see, for example, that (a, b) and (\x{2013}a, b) are symmetrically placed with respect to the Y-axis. What we have learned so far is that if the ellipse contains a point (a, b) which lies in the first quadrant, it contains the point (\x{2013}a, b) which is symmetrically situated with respect to the Y-axis; it contains the point (a, \x{2013}b) which is symmetrically situated with respect to the X-axis; and it contains the point (\x{2013}a, \x{2013}b) which is symmetric to (\x{2013}a, b) with respect to the X-axis. Hence, if we can determine which points lie on the ellipse in the first quadrant, we can, by symmetry, decide what the ellipse looks like in the other three quadrants.",
+          ],
+          [
+            1,
+            "[ap 00:17] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_19_ch12.html) - 12\x{2013}17",
+            "The shape of the ellipse in the first quadrant is easily determined. We have but to calculate the coordinates of a number of points in the first quadrant and plot the points carefully with respect to the coordinate axes. By symmetry we obtain the shape of the curve in the other three quadrants. The final graph is that shown in Fig. <<12\x{2013}17|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 00:19] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_19_ch12.html) - 12\x{2013}19",
+            "A curve can lie in one plane, but surfaces such as a sphere or the ellipsoid (of which the surface of the earth and the surface of a football are examples), do not lie in one plane. They exist in three-dimensional space. To pursue the idea of finding equations for surfaces, we must first introduce coordinates for points in space. This is readily done. One introduces three mutually perpendicular lines (Fig. <<12\x{2013}19|5a:0>>) as axes instead of the two lines used for points in the plane. These are called the coordinate axes. The X- and Y-axes determine a plane called the XY-plane. Similarly, the X- and Z-axes determine the XZ-plane, and the Y- and Z-axes define the YZ-plane.",
+          ],
+          [
+            1,
+            "[ap 00:19] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_19_ch12.html) - 12\x{2013}19",
+            "The location of a point P in space is described by three numbers. For example, the point P of Fig. <<12\x{2013}19|5a:0>> is described by (3, 4, 5). The number 5",
+          ],
+          [
+            1,
+            "[ap 00:19] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_19_ch12.html) - 12\x{2013}19",
+            "Fig. <<12\x{2013}19|5a:0>>.
+A three-dimensional rectangular Cartesian coordinate system",
+          ],
+          [
+            1,
+            "[ap 00:20] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_19_ch12.html) - 12\x{2013}20",
+            "Fig. <<12\x{2013}20|5a:0>>.
+A sphere on a three-dimensional rectangular Cartesian coordinate system.",
+          ],
+          [
+            1,
+            "[ap 00:20] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_19_ch12.html) - 12\x{2013}20",
+            "Let us now consider the problem of finding the equation of a surface. We shall use the sphere as an example. A surface, like a curve, has some defining property which states just which points belong to it. By definition, the sphere is the set of all points in space at a given distance, the radius, from a fixed point called the center. To be concrete let us suppose that all points of our sphere are 5 units from the center and that the sphere is located so that its center is at the origin of our three-dimensional coordinate system (Fig. <<12\x{2013}20|5a:0>>). The general point on a surface is represented by three letters, x, y, z. Thus the coordinates of the general point P are (x, y, z). Let us now express algebraically the fact that the distance of any point (x, y, z) on the sphere is 5 units from the origin. The lengths x, y, and z are shown in Fig. <<12\x{2013}20|5a:0>>. Now x and y are the arms of a right triangle (lying in the XY-plane) whose hypotenuse is OQ. Then by the Pythagorean theorem,",
           ],
           [
             1,
@@ -233,6 +952,11 @@ then the sets of coordinates (\x{2013}a, b), (a, \x{2013}b), and (\x{2013}a, \x{
           ],
           [
             1,
+            "[15:10] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_22_ch15.html) - 15\x{2013}10",
+            "The concept of weight can, and in the present scientific era must, be extended still further. So far we have considered the weight of an object to be the force with which the earth attracts the object. But now let us imagine that the object were taken to the moon and, for simplicity, let us suppose that no matter other than the moon and the object exist in space. May we speak of the weight of the object on the moon? The law of gravitation applies to moon and object, and so the moon will attract the object. This attractive force will be the weight of the object on the moon. To calculate this weight, we have but to let M in (6) be the mass of the moon, m, the mass of the object, and r, the radius of the moon. We know that the radius of the moon is 1080 miles or 1080 \x{b7} 5280 feet. The mass of the moon can be determined by methods similar to those used later (Section <<15\x{2013}10|5a:0>>) to compute the masses of the earth and sun. The result of the calculation, which we may accept for present purposes, is that the weight of an object on the moon is  its weight on earth.",
+          ],
+          [
+            1,
             '[ap 01:07] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_22_ch15.html) - 1.07',
             'we see that every quantity in (9) is given except G, so that we have a simple algebraic equation for G. The actual experiments which have been made to measure G are a little more complicated because the force F is small for ordinary masses. However, the experiments have been performed, and the value of G turns out to be <<1.07|5a:0>>/109. The notation 109 is scientific shorthand for the product in which 10 occurs as a factor 9 times, i.e., one billion. This value of G presupposes that masses are measured in pounds, distances in feet, and forces in poundals (practical English system). (In the centimer-gram-sec-ond (cgs) system of units, G is 6.67/108.)',
           ],
@@ -248,8 +972,8 @@ then the sets of coordinates (\x{2013}a, b), (a, \x{2013}b), and (\x{2013}a, \x{
           ],
           [
             1,
-            '[ap 01:07] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_22_ch15.html) - 1.07',
-            "In Section 15\x{2013}10 we learned that G = <<1.07|5a:0>>/109. Thus, using these values of r, v2, and G in (25), we have",
+            "[15:10] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_22_ch15.html) - 15\x{2013}10",
+            "In Section <<15\x{2013}10|5a:0>> we learned that G = <<1.07|5a:0>>/109. Thus, using these values of r, v2, and G in (25), we have",
           ],
           [
             1,
@@ -266,6 +990,11 @@ then the sets of coordinates (\x{2013}a, b), (a, \x{2013}b), and (\x{2013}a, \x{
             '[ap 04:40] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_22_ch15.html) - 4.40',
             "6.\x{a0}\x{a0}The mass of the sun is <<4.40|5a:0>> \x{b7} 1030 lb. Use the data of Exercise 5 to compute the mass of the sun in grams.
 In the following exercises you may use the fact that when M is the mass of the earth, GM = 32 \x{b7} (4000)2(5280)2.",
+          ],
+          [
+            1,
+            "[15:11] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_22_ch15.html) - 15\x{2013}11",
+            "* In the light of Section <<15\x{2013}11|5a:0>> we can say that the gravitational force equals the centripetal force because the sun does not cause any planet to fall toward the sun from the circular path.",
           ],
           [
             1,
@@ -291,6 +1020,18 @@ and for t = 4,',
           ],
           [
             1,
+            "[16:10] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_23_ch16.html) - 16\x{2013}10",
+            "
+Fig. 16\x{2013}10
+5.\x{a0}\x{a0}A manufacturer wishes to construct cylindrical tin cans (Fig. <<16\x{2013}10|5a:0>>) such that each can is made of a fixed amount of tin, say 100 sq in, and has maximum volume. What should the radius r of the base and the height h of the cylinder be? [Suggestion: The amount of tin used equals the surface area of the can, that is the sum of the area of the side, 2\x{3c0}rh, and the area of the top and bottom, 2\x{3c0}r2. Hence",
+          ],
+          [
+            1,
+            "[16:10] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_23_ch16.html) - 16\x{2013}10",
+            "5.\x{a0}\x{a0}A manufacturer wishes to construct cylindrical tin cans (Fig. <<16\x{2013}10|5a:0>>) such that each can is made of a fixed amount of tin, say 100 sq in, and has maximum volume. What should the radius r of the base and the height h of the cylinder be? [Suggestion: The amount of tin used equals the surface area of the can, that is the sum of the area of the side, 2\x{3c0}rh, and the area of the top and bottom, 2\x{3c0}r2. Hence",
+          ],
+          [
+            1,
             '[12:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_25_ch18.html) - midday',
             "In the seventeenth century one of the most pressing problems of the times was time itself. The increasing scientific activity, particularly in an age which had decided to measure and to seek quantitative laws, created the need for convenient, accurate methods of measuring time. Moreover, as we have already had occasion to mention in other connections, the seventeenth and eighteenth centuries were concerned with the very practical problem of improving the method by which ships determined their longitude at sea. Here a good clock is the simplest answer. Suppose that the longitude of a given place on land is known and that a ship has on board a clock set to agree with the time prevailing at that given locality. Since the earth turns through 360\x{b0} of longitude in one day, it turns through 15\x{b0} in each hour. Hence for each 15\x{b0} that a ship is west, say, of the fixed locale, <<midday|13>> occurs one hour later compared to the time at the fixed position on land. If a ship\x{2019}s officer notes (by means of the sun\x{2019}s position) when <<midday|13>> occurs at his position at sea and finds, for example, that his clock reads <<3 o\x{2019}clock|6>> whereas it should, of course, read <<12 o\x{2019}clock|6>>, he knows that the longitude of his position is 45\x{b0} west of the given reference locality on land. We can see then why scientists decided to search for a reliable and accurate clock.",
           ],
@@ -311,8 +1052,63 @@ and for t = 4,',
           ],
           [
             1,
+            "[18:10] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_25_ch18.html) - 18\x{2013}10",
+            "
+Fig. <<18\x{2013}10|5a:0>>. Comparison of y = sin A and y = 2 sin A.
+",
+          ],
+          [
+            1,
+            "[18:11] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_25_ch18.html) - 18\x{2013}11",
+            "
+Fig. <<18\x{2013}11|5a:0>>. The graph of y = sin 2\x{3c0}t.
+",
+          ],
+          [
+            1,
+            "[18:11] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_25_ch18.html) - 18\x{2013}11",
+            "This function requires some study. Suppose the point P makes one revolution per second. Then f = l. The function (6) then is y = sin 2\x{3c0}t. As t increases from 0 to 1, the quantity 2\x{3c0}t will increase from 0 to 2\x{3c0}. We must now ask, How will sin 2\x{3c0}t vary as 2\x{3c0}t varies from 0 to 2\x{3c0}? Since the angle which 2\x{3c0}t describes now varies from 0 to 2\x{3c0}, the function will go through the entire cycle of sine values. However, if we now label our horizontal axis with time values, we obtain the graph shown in Fig. <<18\x{2013}11|5a:0>>.",
+          ],
+          [
+            1,
+            "[18:12] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_25_ch18.html) - 18\x{2013}12",
+            "Next let us consider a slightly more difficult case. Suppose the point P makes 2 revolutions per second so that f = 2. As t increases from 0 to , 2\x{3c0} \x{b7} 2t will increase from 0 to 2\x{3c0} and sin 2\x{3c0} \x{b7} 2t will go through the entire cycle of sine values. As t increases from  to 1, 2\x{3c0} \x{b7} 2t increases from 2\x{3c0} to 4\x{3c0}. Then sin 2\x{3c0} \x{b7} 2t takes on the values corresponding to angles from 2\x{3c0} to 4\x{3c0}. But in this range the sine function takes on the same values as it does in the range from 0 to 2\x{3c0}. Hence in the entire interval 0 to 1 for t, the graph will be as shown in Fig. <<18\x{2013}12|5a:0>>. The conclusion, which emerges clearly from the graph, is that",
+          ],
+          [
+            1,
+            "[18:12] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_25_ch18.html) - 18\x{2013}12",
+            "
+Fig. <<18\x{2013}12|5a:0>>. The graph of y = sin 2\x{3c0} \x{b7} 2t.
+We can now anticipate what happens for any \x{192}. The function",
+          ],
+          [
+            1,
             '[ap 01:59] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_25_ch18.html) - 1 to 2',
             "5.\x{a0}\x{a0}What is the shape of the graph of y = sin 2\x{3c0} \x{b7} 2t as t varies from <<1 to 2|10a:0>>?",
+          ],
+          [
+            1,
+            "[18:13] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_25_ch18.html) - 18\x{2013}13",
+            "
+Fig. <<18\x{2013}13|5a:0>>.
+Determination of the vertical acceleration of P.
+Now acceleration, like velocity, is a directed quantity or a vector. Moreover, the acceleration determines the velocity. Hence we should compute the vertical acceleration of the point P in the same manner as we computed the vertical component of the velocity of the shell. Figure 18\x{2013}13 shows the centripetal acceleration v2 of P as a line segment directed toward the center of the circle. If we drop a perpendicular from the end point of this line segment onto the vertical line through P, we obtain the vertical component of the acceleration. Angle A in the figure determines the position of P. We see, then, that the vertical component of the acceleration, which we shall denote by a, is",
+          ],
+          [
+            1,
+            "[18:14] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_25_ch18.html) - 18\x{2013}14",
+            "We shall now see what we can deduce from Hooke\x{2019}s law. Suppose that a bob of mass m is attached to a spring. Then we know that gravity pulls the bob downward some distance d where the bob comes to rest (Fig. <<18\x{2013}14|5a:0>>). The rest position is reached when the force of gravity acting on the bob, or the weight of the bob, just offsets the upward force exerted by the spring. Now the force of gravity is 32m, and, according to Hooke\x{2019}s law, the upward force exerted by a spring which is pulled downward a distance d is kd. Since at the rest position these two forces just offset each other, we have",
+          ],
+          [
+            1,
+            "[18:14] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_25_ch18.html) - 18\x{2013}14",
+            "Fig. <<18\x{2013}14|5a:0>>.
+A bob on a spring in the rest position (center) and pulled down a distance y (right).",
+          ],
+          [
+            1,
+            "[18:15] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_25_ch18.html) - 18\x{2013}15",
+            "9.\x{a0}\x{a0}Suppose that a tunnel is dug through the earth and a man of mass m steps into the tunnel. Inside the earth the force of gravity on a mass m at a distance r from the center is F = GmMr/R3, where M is the mass and R is the radius of the earth. This force is directed toward the center. To distinguish distances above and below the center, let r be positive above and negative below the center. Then the acceleration acting on the mass m is a = \x{2212}GMr/R3. Discuss the subsequent motion of the man (Fig. <<18\x{2013}15|5a:0>>).",
           ],
           [
             1,
@@ -436,6 +1232,20 @@ ALDER, HENRY L. and EDWARD B. ROESSLER: Introduction to Probability and Statisti
           ],
           [
             1,
+            "[15:10] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_33_ans.html) - 15\x{2013}10",
+            "10.\x{a0}\x{a0}Yes
+Section <<15\x{2013}10|5a:0>>
+3.\x{a0}\x{a0}500 ft/sec2",
+          ],
+          [
+            1,
+            "[15:11] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_33_ans.html) - 15\x{2013}11",
+            "4.\x{a0}\x{a0}0.00897 ft/sec2, approximately
+Section <<15\x{2013}11|5a:0>>
+2.\x{a0}\x{a0}26,000 ft/sec, approximately",
+          ],
+          [
+            1,
             '[ap 06:34] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_33_ans.html) - 6.34',
             "(b)\x{a0}\x{a0}5.879 \x{b7} 104
 (c)\x{a0}\x{a0}<<6.34|5a:0>> \x{b7} 104
@@ -493,10 +1303,32 @@ Chapter 20',
           ],
           [
             1,
+            "[ap 06:32] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_34_add.html) - 6\x{2013}32",
+            "3. Each light ray will strike some point P on the ellipse, such as P in Fig. <<6\x{2013}32|5a:0>> and be reflected to F1, because, as proven in Exercise 2, F2P and F1P make equal angles with t, and light is reflected in accordance with just this equality of angles.",
+          ],
+          [
+            1,
             '[23:59] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_34_add.html) - 1 to 0',
             "(f)\x{a0}\x{a0}\x{a0}tan 80\x{b0} = 5.6713
 3. cos A varies from <<1 to 0|10a:0>>.
 4. tan A varies from 0 to unlimitedly large values.",
+          ],
+          [
+            1,
+            "[ap 07:23] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_34_add.html) - 7\x{2013}23",
+            "4. Using Fig. <<7\x{2013}23|5a:0>>(b) with M replacing V, we have sin E = MS/ES. Then MS = ES sin E = 93,000,000 sin 23\x{b0} = 36,000,000 mi.",
+          ],
+          [
+            1,
+            "[ap 00:16] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_34_add.html) - 12\x{2013}16",
+            "3. The curve of y = \x{2212}x2 + 6x is the same as the curve of \x{2212}y = x2 \x{2212} 6x. The latter curve differs from y = x2 \x{2212} 6x in that for the same x-value, each y-value is the negative of the other y-value. Hence the curve is reversed with respect to the x-axis, or one can say the curve is the reflection in the x-axis of the curve of y = x2 \x{2212} 6x which is shown in Fig. <<12\x{2013}16|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 00:17] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_34_add.html) - 12\x{2013}17",
+            "8. These curves are all parabolas but displaced from the standard position. See Section 12\x{2013}5.
+9. See Eq. (19) and Fig. <<12\x{2013}17|5a:0>>.
+10. The curve is a hyperbola.",
           ],
           [
             1,

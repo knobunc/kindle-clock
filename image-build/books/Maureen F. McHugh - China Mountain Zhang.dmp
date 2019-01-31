@@ -47,7 +47,7 @@ $VAR1 = [
           [
             1,
             '[ap 07:00] China Mountain Zhang - Maureen F. McHugh.epub (OEBPS/Text/01-china_mountain.xhtml) - seven',
-            "\x{201c}I have to be at work at <<seven|9a>> tomorrow,\x{201d} I explain, \x{201c}so I\x{2019}ll be leaving a little after six. What time do you have to be at work?\x{201d}",
+            "\x{201c}I have to be at work at <<seven|3b>> tomorrow,\x{201d} I explain, \x{201c}so I\x{2019}ll be leaving a little after six. What time do you have to be at work?\x{201d}",
           ],
           [
             1,
@@ -146,7 +146,7 @@ $VAR1 = [
           [
             1,
             '[03:00] China Mountain Zhang - Maureen F. McHugh.epub (OEBPS/Text/04-jerusalem_ridge.xhtml) - three in the morning',
-            "I schedule my day based on what happens, sometimes I\x{2019}m working at <<three in the morning|9a>>, livestock makes it\x{2019}s own times and doesn\x{2019}t really respect yours, but by <<4:30 in the afternoon|2a>> I\x{2019}m often in the house. It is <<about 4:30|2>>, a week or so after I first saw them, when they stop for a drink of water. I\x{2019}m a bit off the tube, so they have had to walk, but I\x{2019}m one of the last empty domes before the long stretch to New Arizona and it\x{2019}s not unusual for people to stop. We still don\x{2019}t have a surplus of drinking water. I always give, I never know when I\x{2019}ll be asking.",
+            "I schedule my day based on what happens, sometimes I\x{2019}m working at <<three in the morning|5>>, livestock makes it\x{2019}s own times and doesn\x{2019}t really respect yours, but by <<4:30 in the afternoon|2a>> I\x{2019}m often in the house. It is <<about 4:30|2>>, a week or so after I first saw them, when they stop for a drink of water. I\x{2019}m a bit off the tube, so they have had to walk, but I\x{2019}m one of the last empty domes before the long stretch to New Arizona and it\x{2019}s not unusual for people to stop. We still don\x{2019}t have a surplus of drinking water. I always give, I never know when I\x{2019}ll be asking.",
           ],
           [
             1,
@@ -184,11 +184,6 @@ $VAR1 = [
             1,
             '[ap < 08:30] China Mountain Zhang - Maureen F. McHugh.epub (OEBPS/Text/04-jerusalem_ridge.xhtml) - almost 8:30',
             "The meeting is opened and they discuss the problem of Aron Fahey\x{2019}s eldest girl who is twenty and has applied for a plot of her own. It seems to me that she should just go on the list like any newcomer but there is some question about whether the work she has done with Chen, her mother, qualifies her for any work credit or if that work goes to Aron and Chen\x{2019}s household. After twenty-five minutes of discussion they decide she should go on the list like any newcomer. It\x{2019}s <<almost 8:30|2>>. I usually go to bed <<around 8:60|2>>.",
-          ],
-          [
-            1,
-            '[ap 08:00] China Mountain Zhang - Maureen F. McHugh.epub (OEBPS/Text/04-jerusalem_ridge.xhtml) - 8',
-            "\x{201c}Okay, it\x{2019}s on the record. If there\x{2019}s no further business?\x{201d} Aron dismisses the meeting. It\x{2019}s <<8|9d:1>>:75.",
           ],
           [
             1,
@@ -335,7 +330,7 @@ The screen beeps, but remains blank. There\x{2019}s a seven and a half minute de
           [
             1,
             '[ap 09:00] China Mountain Zhang - Maureen F. McHugh.epub (OEBPS/Text/08-3_fragrances.xhtml) - nine',
-            "At <<nine|9m:0>> Qing Yang says he\x{2019}ll be right back, and then he\x{2019}ll walk me to the subway station. I wait by the bar.",
+            "At <<nine|9m:1>> Qing Yang says he\x{2019}ll be right back, and then he\x{2019}ll walk me to the subway station. I wait by the bar.",
           ],
           [
             1,
@@ -412,7 +407,7 @@ I get dressed in my Chinese suit and go downtown where I meet with Comrade Cecil
           [
             1,
             '[10:00] China Mountain Zhang - Maureen F. McHugh.epub (OEBPS/Text/09-rafael.xhtml) - ten in the morning',
-            'It is <<ten in the morning|9a>> and light sears the landscape. I keep hoping for the oasis, but we drive for fifteen minutes and see nothing but rock and brush. The brush looks dead; Ms. Ngyuen informs me that it comes alive in the spring. Like Baffin Island, I imagine, the living things live their whole lives in that narrow time when conditions are favorable, and all the rest of the time they wait.',
+            'It is <<ten in the morning|5>> and light sears the landscape. I keep hoping for the oasis, but we drive for fifteen minutes and see nothing but rock and brush. The brush looks dead; Ms. Ngyuen informs me that it comes alive in the spring. Like Baffin Island, I imagine, the living things live their whole lives in that narrow time when conditions are favorable, and all the rest of the time they wait.',
           ],
           [
             1,
@@ -437,6 +432,6 @@ I get dressed in my Chinese suit and go downtown where I meet with Comrade Cecil
           [
             1,
             '[06:00] China Mountain Zhang - Maureen F. McHugh.epub (OEBPS/Text/09-rafael.xhtml) - six in the morning',
-            "I catch the train and go home. The old D train all the way out to Coney Island, underground (except for the bridge) to Prospect Park and then up into the evening light. It\x{2019}s the second of November. In Baffin Island the days are almost gone. In Nanjing it\x{2019}s <<six in the morning|9a>>. I don\x{2019}t have a dime, but I feel curiously light.",
+            "I catch the train and go home. The old D train all the way out to Coney Island, underground (except for the bridge) to Prospect Park and then up into the evening light. It\x{2019}s the second of November. In Baffin Island the days are almost gone. In Nanjing it\x{2019}s <<six in the morning|5>>. I don\x{2019}t have a dime, but I feel curiously light.",
           ],
         ];

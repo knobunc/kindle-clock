@@ -74,7 +74,7 @@ So, at <<eight o\x{2019}clock in the morning|6>>, before anybody\x{2019}s awake,
           [
             1,
             '[15:40] Surely You\'re Joking, Mr. Feynman!_ Advent - Richard P. Feynman.epub (OEBPS/part4_split_001.xhtml) - 15-40',
-            "Of course I was able to open the safe because of my perpetual habit of taking the last two numbers off. While in Oak Ridge the month before, I was in the same office when the safe was open and I took the numbers off in an absentminded way\x{2013}I was always practicing my obsession. Although I hadn\x{2019}t written them down, I was able to vaguely remember what they were. First I tried 40-15, then <<15-40|5a:0>>, but neither of those worked. Then I tried 10-45 with all the first numbers, and it opened.",
+            "Of course I was able to open the safe because of my perpetual habit of taking the last two numbers off. While in Oak Ridge the month before, I was in the same office when the safe was open and I took the numbers off in an absentminded way\x{2013}I was always practicing my obsession. Although I hadn\x{2019}t written them down, I was able to vaguely remember what they were. First I tried 40-15, then <<15-40|5a:0>>, but neither of those worked. Then I tried <<10-45|5a:0>> with all the first numbers, and it opened.",
           ],
           [
             1,
@@ -120,11 +120,6 @@ So, at <<eight o\x{2019}clock in the morning|6>>, before anybody\x{2019}s awake,
             1,
             "[ap 02:00] Surely You're Joking, Mr. Feynman!_ Advent - Richard P. Feynman.epub (OEBPS/part5_split_001.xhtml) - Two o\x{2019}clock",
             "<<Two o\x{2019}clock|6>> comes around, the bar closes, and Ann hasn\x{2019}t appeared. I ask the master and his wife if I can come over to their place again. They say sure.",
-          ],
-          [
-            1,
-            '[ap 01:00] Surely You\'re Joking, Mr. Feynman!_ Advent - Richard P. Feynman.epub (OEBPS/part5_split_001.xhtml) - 1',
-            "One day at Princeton I was sitting in the lounge and overheard some mathematicians talking about the series for e^x, which is <<1|9d:1>> + x + x^2/2! + x^3/3! Each term you get by multiplying the preceding term by x and dividing by the next number. For example, to get the next term after x^4/4! you multiply that term by x and divide by 5. It\x{2019}s very simple.",
           ],
           [
             1,

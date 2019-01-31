@@ -11,11 +11,6 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 02:00] Code - Charles Petzold.epub (OEBPS/ch08.html) - 2',
-            '101101011010TWO = 1 x 211 +0 x 210 +1 x 29 +1 x 28 +0 x 27 +1 x 26 +0 x 25 +1 x 24 +1 x 23 +0 x 22 +1 x 21 +0 x 20If we just add up the parts in decimal, we get 2048 + 512 + 256 + 64 + 16 + 8 + 2, which is <<2|9d:1>>,906TEN.',
-          ],
-          [
-            1,
             '[00:11] Code - Charles Petzold.epub (OEBPS/ch08.html) - 0011',
             "People who work with binary numbers often write them with leading zeros (that is, zeros to the left of the first 1)\x{2014}for example, <<0011|18:0>> rather than just 11. This doesn't change the value of the number at all; it's just for cosmetic purposes. For example, here are the first sixteen binary numbers with their decimal equivalents:",
           ],
@@ -1027,11 +1022,6 @@ Number:        ADD A,30h ; <<0 to 9|10a:0>> converted to 30h to 39h
           ],
           [
             1,
-            '[ap 02:00] Code - Charles Petzold.epub (OEBPS/ch23.html) - 2',
-            'In decimal scientific notation, the normalized significand should be greater than or equal to 1 but less than 10. Similarly, the normalized significand of numbers in binary scientific notation is always greater than or equal to 1 but less than binary 10, which is <<2|9d:1>> in decimal. So in binary scientific notation, the number',
-          ],
-          [
-            1,
             '[ap 10:38] Code - Charles Petzold.epub (OEBPS/ch23.html) - 10-38',
             '1.11111111111111111111111TWO x 2127In decimal, these two numbers are approximately 1.175494351 x <<10-38|5a:0>> and <<3|91:0>>.402823466 x 1038. That\'s the effective range of single-precision floating-point notation.',
           ],
@@ -1042,8 +1032,8 @@ Number:        ADD A,30h ; <<0 to 9|10a:0>> converted to 30h to 39h
           ],
           [
             1,
-            '[ap 01:00] Code - Charles Petzold.epub (OEBPS/ch23.html) - 1',
-            '1.1111111111111111111111111111111111111111111111111111TWO x 21023The range is decimal in approximately 2.2250738585072014 x 10-308 to 1.7976931348623158 x 10308. Ten to the 308th power is a very big number. It\'s <<1|9d:1>> followed by <<308|3:0>> decimal zeros.',
+            '[ap 03:08] Code - Charles Petzold.epub (OEBPS/ch23.html) - 308',
+            '1.1111111111111111111111111111111111111111111111111111TWO x 21023The range is decimal in approximately 2.2250738585072014 x 10-308 to 1.7976931348623158 x 10308. Ten to the 308th power is a very big number. It\'s 1 followed by <<308|3:0>> decimal zeros.',
           ],
           [
             1,

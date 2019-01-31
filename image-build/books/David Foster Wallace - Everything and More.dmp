@@ -97,17 +97,7 @@ $VAR1 = [
           [
             1,
             '[ap 01:00] Everything and More_ A Compact History of - David Foster Wallace.epub (OEBPS/Text/ch7.xhtml) - 1',
-            "What (1) and (2) together really are is a type of proof, the other really famous one besides the reductio. This one\x{2019}s called mathematical induction. To prove some statement Cn for all (n = \x{221e}) cases by math induction, you (a) prove that C1 is true for the first case n = 1, then (b) assume that Ck is true for the first k cases (you don\x{2019}t know what number k is, but from step (a) you know that it exists\x{2014}if nothing else, it\x{2019}s <<1|9d:1>>), and then (c) prove that Ck + 1 is true for the first (k + 1) cases. Weird-looking or no, (a)\x{2013}(c) ensure that Cn will be true no matter what n is, that is, that C is a genuine theorem.",
-          ],
-          [
-            1,
-            '[ap 01:00] Everything and More_ A Compact History of - David Foster Wallace.epub (OEBPS/Text/ch7.xhtml) - 1',
             "Granted, a 2D array is not the same as the single ordered sequence/row of true denumeration, but Cantor figures out how to sequence the array\x{2019}s rationals via a single continuous zigzaggy line, like so: start at <<1|9g>> and go due east one place to 2, then diagonally southwest to  then due south to  then diagonally northeast to the first row again and 3, then east to 4, then southwest all the way to  south to  northeast to 5, and so on, as in:",
-          ],
-          [
-            1,
-            '[21:00] Everything and More_ A Compact History of - David Foster Wallace.epub (OEBPS/Text/ch7.xhtml) - 21',
-            "(a) Prove that the cardinality of P(A) equals 2 for a set A with just one member. Such an A has as subsets the following: \x{d8} and A itself, which means its P(A) has two members, which is <<21|9d:1>> members, which is <<2|9d:1>> members, so bingo.67 (b) Assume it\x{2019}s true that if A has k members, P(A)\x{2019}s cardinal number = 2. (c) Prove that if A has (k + 1) members, P(A) = 2(k +1). From step (b) we know that A\x{2019}s first k members yield 2 subsets of A. We now take each one of these 2 subsets and form a brand new subset that also contains the very last of A\x{2019}s (k + 1) members (i.e., the new, extra member designated by the \x{2018}+1\x{2019}). We can form exactly 2 of these new \x{2018}+1\x{2019} subsets\x{2014}one for each of the original subsets. So now we\x{2019}ve got the original 2 subsets that don\x{2019}t contain the new \x{2018}+1\x{2019} member, and we\x{2019}ve got 2 new subsets that do contain it. That\x{2019}s (2 + 2) subsets, which is equivalent to (2 \x{d7} 2) subsets, which equals 2(+1) subsets. So (c) is also proven. So sure enough, P(A) = 2.",
           ],
           [
             1,
@@ -122,11 +112,158 @@ $VAR1 = [
           [
             1,
             '[20:00] Everything and More_ A Compact History of - David Foster Wallace.epub (OEBPS/Text/ch7.xhtml) - 20',
-            "67 IYI You can prove P(A) = 2 for the empty set too. If A = \x{d8}, it has 0 members. It does, however, have a subset\x{2014}viz. \x{d8}, since the empty set is a subset of every set. So here P(A) = 1, which is <<20|9d:1>>.",
+            "67 IYI You can prove P(A) = 2 for the empty set too. If A = \x{d8}, it has 0 members. It does, however, have a subset\x{2014}viz. \x{d8}, since the empty set is a subset of every set. So here P(A) = 1, which is <<20|9c:0>>.",
           ],
           [
             1,
             '[19:00] Everything and More_ A Compact History of - David Foster Wallace.epub (OEBPS/Text/ch7.xhtml) - 1900',
-            "86 IYI meaning the second of the 10 Major Unsolved Problems that Hilbert listed at <<1900|18:0>>\x{2019}s 2nd I.C.M. as crucial for math to nail down in the upcoming century\x{2014}another whole long story you can find in any good math-history survey. (IYI2 If you\x{2019}ve learned/heard that there were really 23 Hilbert Problems, the truth is that Hilbert listed 1\x{2013}10 in his Paris speech and 1\x{2013}23 in the written version that came out in 1902.)",
+            "86 IYI meaning the second of the 10 Major Unsolved Problems that Hilbert listed at <<1900|18:0>>\x{2019}s 2nd I.C.M. as crucial for math to nail down in the upcoming century\x{2014}another whole long story you can find in any good math-history survey. (IYI2 If you\x{2019}ve learned/heard that there were really 23 Hilbert Problems, the truth is that Hilbert listed <<1\x{2013}10|5a:0>> in his Paris speech and <<1\x{2013}23|5a:0>> in the written version that came out in 1902.)",
+          ],
+          [
+            1,
+            "[19:20] Everything and More_ A Compact History of - David Foster Wallace.epub (OEBPS/Text/index.xhtml) - 19\x{2013}20",
+            "definitions of, 8, 10
+existence of, 11, <<19\x{2013}20|5a:0>>
+in Greek mathematics, 10, 29\x{2013}30, 46",
+          ],
+          [
+            1,
+            "[15:17] Everything and More_ A Compact History of - David Foster Wallace.epub (OEBPS/Text/index.xhtml) - 15\x{2013}17",
+            "in Greek mathematics, 10, 29\x{2013}30, 46
+induction and, <<15\x{2013}17|5a:0>>
+infinity as, 20\x{2013}21",
+          ],
+          [
+            1,
+            "[15:17] Everything and More_ A Compact History of - David Foster Wallace.epub (OEBPS/Text/index.xhtml) - 15\x{2013}17",
+            "induction and, <<15\x{2013}17|5a:0>>
+infinity as, 20\x{2013}21
+irrational numbers as direct consequence of, 78",
+          ],
+          [
+            1,
+            "[22:24] Everything and More_ A Compact History of - David Foster Wallace.epub (OEBPS/Text/index.xhtml) - 22\x{2013}24",
+            "irrational numbers as direct consequence of, 78
+knowledge and, <<22\x{2013}24|5a:0>>
+language problems and, 11",
+          ],
+          [
+            1,
+            "[ap 11:12] Everything and More_ A Compact History of - David Foster Wallace.epub (OEBPS/Text/index.xhtml) - 11\x{2013}12",
+            "language problems and, 11
+levels of, 9n, <<11\x{2013}12|5a:0>>, 14, 61, 69, 78, 80, 102, 142
+modern mathematics based on, 106\x{2013}7",
+          ],
+          [
+            1,
+            "[ap 00:14] Everything and More_ A Compact History of - David Foster Wallace.epub (OEBPS/Text/index.xhtml) - 12\x{2013}14",
+            "abstract thinking:
+dangers of, <<12\x{2013}14|5a:0>>
+directed, 23n, 41",
+          ],
+          [
+            1,
+            "[23:24] Everything and More_ A Compact History of - David Foster Wallace.epub (OEBPS/Text/index.xhtml) - 23\x{2013}24",
+            "\x{201c}digits,\x{201d} numbers as, 29
+dimensionality, <<23\x{2013}24|5a:0>>
+Dimension Proof, 259\x{2013}65",
+          ],
+          [
+            1,
+            "[23:24] Everything and More_ A Compact History of - David Foster Wallace.epub (OEBPS/Text/index.xhtml) - 23\x{2013}24",
+            "hyperbolas, 99
+hypercubes (tesseracts), <<23\x{2013}24|5a:0>>
+hyperreal numbers, 137n",
+          ],
+          [
+            1,
+            "[15:17] Everything and More_ A Compact History of - David Foster Wallace.epub (OEBPS/Text/index.xhtml) - 15\x{2013}17",
+            "induction, 165n
+abstract justification and, <<15\x{2013}17|5a:0>>
+mathematical, 241, 249",
+          ],
+          [
+            1,
+            "[14:16] Everything and More_ A Compact History of - David Foster Wallace.epub (OEBPS/Text/index.xhtml) - 14\x{2013}16",
+            "mathematical, 241, 249
+Principle of (P.I.), <<14\x{2013}16|5a:0>>, 25
+scientific proof based on, 147",
+          ],
+          [
+            1,
+            "[17:18] Everything and More_ A Compact History of - David Foster Wallace.epub (OEBPS/Text/index.xhtml) - 17\x{2013}18",
+            "degrees of, 18, 100, 103n, 218, 237
+difference between enormous numbers and, <<17\x{2013}18|5a:0>>
+division by, 145",
+          ],
+          [
+            1,
+            "[17:18] Everything and More_ A Compact History of - David Foster Wallace.epub (OEBPS/Text/index.xhtml) - 17\x{2013}18",
+            "points and lines and, 36\x{2013}38, 37, 38
+symbol for, <<17\x{2013}18|5a:0>>, 19, 105
+as ultimate abstraction, <<20\x{2013}21|5a:0>>, 35",
+          ],
+          [
+            1,
+            "[17:18] Everything and More_ A Compact History of - David Foster Wallace.epub (OEBPS/Text/index.xhtml) - 17\x{2013}18",
+            "symbol for, <<17\x{2013}18|5a:0>>, 19, 105
+as ultimate abstraction, <<20\x{2013}21|5a:0>>, 35
+vanishing point at, 96\x{2013}97",
+          ],
+          [
+            1,
+            "[15:17] Everything and More_ A Compact History of - David Foster Wallace.epub (OEBPS/Text/index.xhtml) - 15\x{2013}17",
+            "Joachim, Joseph, 170
+justification, Principle of Induction and, <<15\x{2013}17|5a:0>>
+Kant, Immanuel, 101",
+          ],
+          [
+            1,
+            "[22:24] Everything and More_ A Compact History of - David Foster Wallace.epub (OEBPS/Text/index.xhtml) - 22\x{2013}24",
+            "knowledge:
+abstraction and, <<22\x{2013}24|5a:0>>
+nature of, 12",
+          ],
+          [
+            1,
+            "[19:20] Everything and More_ A Compact History of - David Foster Wallace.epub (OEBPS/Text/index.xhtml) - 19\x{2013}20",
+            "\x{201c}not-,\x{201d} 27n
+nouns, denotations and abstraction and, 11, <<19\x{2013}20|5a:0>>
+Novum Organum (Bacon), 101",
+          ],
+          [
+            1,
+            "[17:18] Everything and More_ A Compact History of - David Foster Wallace.epub (OEBPS/Text/index.xhtml) - 17\x{2013}18",
+            "called \x{201c}digits,\x{201d} 29
+enormous, <<17\x{2013}18|5a:0>>
+as geometrical shapes, 72, 76, 76",
+          ],
+          [
+            1,
+            "[ap 10:11] Everything and More_ A Compact History of - David Foster Wallace.epub (OEBPS/Text/index.xhtml) - 10\x{2013}11",
+            "Russell\x{2019}s Antinomy, 276\x{2013}79, 290
+Saussure, Ferdinand de la, <<10\x{2013}11|5a:0>>, 107
+Schaeffer, Theodor, 172n",
+          ],
+          [
+            1,
+            "[14:15] Everything and More_ A Compact History of - David Foster Wallace.epub (OEBPS/Text/index.xhtml) - 14\x{2013}15",
+            "mathematics and, 107\x{2013}8, 147\x{2013}48, 158\x{2013}59
+Principle of Induction as basis of, <<14\x{2013}15|5a:0>>
+Scientific Revolution, 81, 101, 107",
+          ],
+          [
+            1,
+            "[23:24] Everything and More_ A Compact History of - David Foster Wallace.epub (OEBPS/Text/index.xhtml) - 23\x{2013}24",
+            "terminal decimal numbers, 79\x{2013}80
+tesseracts (hypercubes), <<23\x{2013}24|5a:0>>
+tetration, 298",
+          ],
+          [
+            1,
+            "[19:20] Everything and More_ A Compact History of - David Foster Wallace.epub (OEBPS/Text/index.xhtml) - 19\x{2013}20",
+            "ultranano-instants, definition and number of, 17
+unicorns, <<19\x{2013}20|5a:0>>, 21, 41, 205
+uniform acceleration, 94",
           ],
         ];
