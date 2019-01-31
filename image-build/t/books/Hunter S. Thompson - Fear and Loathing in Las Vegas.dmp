@@ -89,7 +89,7 @@ $VAR1 = [
           [
             1,
             '[04:00] Fear and Loathing in Las Vegas - Hunter S. Thompson.epub (Fear_and_Loa-American_Dream_split_013.html) - four in the morning',
-            "It is a weird feeling to sit in a Las Vegas hotel at <<four in the morning|9a>>\x{2014}hunkered down with a notebook and a tape recorder in a \$75-a-day suite and a fantastic room service bill, run up in forty-eight hours of total madness\x{2014}knowing that just as soon as dawn comes up you are going to flee without paying a fucking penny . . . go stomping out through the lobby and call your red convertible down from the garage and stand there waiting for it with a suitcase full of marijuana and illegal weapons . . . trying to look casual, scanning the first morning edition of the Las Vegas Sun.",
+            "It is a weird feeling to sit in a Las Vegas hotel at <<four in the morning|5>>\x{2014}hunkered down with a notebook and a tape recorder in a \$75-a-day suite and a fantastic room service bill, run up in forty-eight hours of total madness\x{2014}knowing that just as soon as dawn comes up you are going to flee without paying a fucking penny . . . go stomping out through the lobby and call your red convertible down from the garage and stand there waiting for it with a suitcase full of marijuana and illegal weapons . . . trying to look casual, scanning the first morning edition of the Las Vegas Sun.",
           ],
           [
             1,
@@ -109,7 +109,7 @@ $VAR1 = [
           [
             1,
             '[06:00] Fear and Loathing in Las Vegas - Hunter S. Thompson.epub (Fear_and_Loa-American_Dream_split_015.html) - six in the morning',
-            "Creeping through the casino at <<six in the morning|9a>> with a suitcase full of grapefruit and \x{201c}Mint 400\x{201d} T-shirts, I remember telling myself, over and over again, \x{201c}You are not guilty.\x{201d} This is merely a necessary expedient, to avoid a nasty scene. After all, I made no binding agreements; this is an institutional debt\x{2014}nothing personal. This whole goddamn nightmare is the fault of that stinking, irresponsible magazine. Some fool in New York did this to me. It was his idea, Lord, not mine.",
+            "Creeping through the casino at <<six in the morning|5>> with a suitcase full of grapefruit and \x{201c}Mint 400\x{201d} T-shirts, I remember telling myself, over and over again, \x{201c}You are not guilty.\x{201d} This is merely a necessary expedient, to avoid a nasty scene. After all, I made no binding agreements; this is an institutional debt\x{2014}nothing personal. This whole goddamn nightmare is the fault of that stinking, irresponsible magazine. Some fool in New York did this to me. It was his idea, Lord, not mine.",
           ],
           [
             1,
@@ -145,6 +145,11 @@ $VAR1 = [
             1,
             '[~ 00:00] Fear and Loathing in Las Vegas - Hunter S. Thompson.epub (Fear_and_Loa-American_Dream_split_025.html) - around midnight',
             "Sometime <<around midnight|13>> my attorney wanted coffee. He had been vomiting fairly regularly as we drove around the Strip, and the right flank of the Whale was badly streaked. We were idling at a stoplight in front of the Silver Slipper beside a big blue Ford with Oklahoma plates . . . two hoggish-looking couples in the car, probably cops from Muskogee using the Drug Conference to give their wives a look at Vegas. They looked like they\x{2019}d just beaten Caesar\x{2019}s Palace for about \$33 at the blackjack tables, and now they were headed for the Circus-Circus to whoop it up. . . .",
+          ],
+          [
+            1,
+            '[< 00:00] Fear and Loathing in Las Vegas - Hunter S. Thompson.epub (Fear_and_Loa-American_Dream_split_025.html) - before midnight',
+            'So once you get blacklisted on the Strip, for any reason at all, you either get out of town or retire to nurse your act along, on the cheap, in the shoddy limbo of North Vegas . . . out there with the gunsels, the hustlers, the drug cripples and all the other losers. North Vegas, for instance, is where you go if you need to score smack <<before midnight|13>> with no references.',
           ],
           [
             1,

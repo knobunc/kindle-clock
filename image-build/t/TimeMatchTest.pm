@@ -4677,7 +4677,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [14:39]: 2.39',
-            'Noo, there\'s a report come in fra\' the station-master at Pinwherry that there was a gentleman tuk the <<2.39|5a:0>> at Pinwherry.'
+            'Noo, there\'s a report come in fra\' the station-master at Pinwherry that there was a gentleman tuk the <<2.39|5a:1>> at Pinwherry.'
           ],
           [
             1,

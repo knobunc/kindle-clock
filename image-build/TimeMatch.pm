@@ -140,20 +140,22 @@ my $hour24_re = qr{ $hour24_dig_re | $hour24_word_re }xin;
 my $hour_h_re = qr{ $hour_h_dig_re | $hour_h_word_re }xin; # The high hours 13-24
 
 # The am / pm permutations
+my $am_re = qr{ am \b | a[.] \s* m[.]? | ayem       }xin;
+my $pm_re = qr{ pm \b | p[.] \s* m[.]? | pee \s+ em }xin;
+my $ampm_only_re = qr{ $am_re | $pm_re }xin;
 my $in_the_re = qr{ ( ( in \s+ the \s+ ( (?! same) \w+ \s+ ){0,4}?
                       | ( this | that ) \s+ ( \w+ \s+ ){0,2}?
                       | $hy \s* (?!day|night)                         # Don't match five-day
                       )
-                      $timeday_re
+                      ( $timeday_re | $ampm_only_re )                 # in the am
                     | at \s+ ( dawn | dusk | night | sunset | sunrise )
                     )
                   }xin;
-my $ampm_only_re = qr{ [ap]m \b | [ap][.] \s* m[.]? | pee \s+ em | ayem }xin;
 my $ampm_re = qr{ $ampm_only_re | $in_the_re }xin;
 my $ampm_ph_re = qr{ [:,]? \s* $ampm_re }xin;
 
 # Oclocks
-my $oclock_re = qr{ o( $sq \s* | f \s+ the \s+ )?clock s? }xin;
+my $oclock_re = qr{ o( $sq \s* | f \s+ the \s+ | $hy )? clock s? }xin;
 
 # Boundary before and after
 my $bb_re = qr{ (?<= [\[—\s"'(‘’“”] ) | \A }xin;
@@ -358,7 +360,7 @@ my $month_re = qr{ January | February | March | April | May | June
 my $special_day_re = qr{ Christmas | Easter | New \s+ Year s? }xin;
 
 # Time periods
-my $some_time_periods_re = qr{ ( year | month | week | day | hour | half | minute ) s? }xin;
+my $some_time_periods_re = qr{ ( year | month | week | hour | half | minute ) s? }xin;
 my $time_periods_re      = qr{ ( day | night | second ) s? | $some_time_periods_re}xin;
 
 # Things that never follow times
@@ -369,7 +371,7 @@ my $never_follow_times_exp_re =
         )?
         ( $min_re $hy )?                                    # Things like six-inch
         ( $hy   \d+   )?                                    # 400-600F
-        ( \s+ (and|or|to) \s+ \d+ )?                          # 400 or 500 miles
+        ( \s+ (and|or|to) \s+ \d+ )?                        # 400 or 500 miles
 
         ( and \s+ a \s+ (half | quarter | third) \s+ (to \s+ $low_num_re \s+)?
         | \d+ / \d+ \s+
@@ -378,8 +380,8 @@ my $never_follow_times_exp_re =
           ( milli | centi | kilo | mega | giga ) $hy?
         )?
 
-        ( with | which | point | time | moment | instant | end | stage | of | who
-        | heartbeat
+        ( point | time | moment | instant | end | stage | of | who
+        | heartbeat | generation | color
         | after | since
         | degrees | [°º] [FCK]?
         | per\s*cent | %
@@ -388,7 +390,8 @@ my $never_follow_times_exp_re =
         | mph | \Qm.p.h.\E | kmh | k?m/s | millisecond | ms | volt | v | amp | decibel | hertz | carat
         | gauss | gev | electron \s+ volts | ev | joule | parsec
         | inch | inches | foot | feet | ft | yard | yd
-        | ( ( English | American | nautical ) \s+)? mile | mi | knot | kt | block
+        | ( ( English | American | nautical | imperial | terrestrial | mortal) \s+)? mile
+        | mi | knot | kt | block
         | pound | lb | kg | kilo | ton | tonne | gram | ounce | oz
         | cup | pint | quart | gallon
         | tablespoon | tbsp | teaspoon | tsp
@@ -396,12 +399,12 @@ my $never_follow_times_exp_re =
         | cubic | square
         | ( hundred | thousand | million | billion ) (th)?
         | dozen | score | gross | grand
-        | ( \w+ \s+)? $some_time_periods_re
+        | ( \w+ \s+)? $some_time_periods_re | (full | a) \s+ day
         | (light (\s+|$hy))? $time_periods_re
         | final | false | true
         | (cosmological \s+)? (century | centuries | decade | millenium | millenia)
         | third | half | halve | quarter | fourth | fifth | sixth | seventh | eighth | nineth | tenth
-        | dollar | buck | cent | pound | quid
+        | dollar | buck | cent | pound | quid | bob
         | $(\d+,)*\d+(\.\d+)
         | shilling | guinea | penny | pennies | yuan | galleon | crown
         | and \s+ sixpence
@@ -419,6 +422,7 @@ my $never_follow_times_exp_re =
         | AD | CE | BC | BCE | A\.D\. | C\.E\. | B\.C\. | B\.C\.E\. | B \s+ C | A \s+ D
         | giant | tiny | large | small | layer
         | of \s+ them
+        | step | pace
         )
         s?
       | [.,] \d
@@ -473,6 +477,7 @@ sub do_match {
                   | ( there | here ) \s+ from
 #                  | ( return | returned | back ) \s* $rel_at_words
                   | reported | reports
+                  | station ($hy master)?
                   | (starts | starting | begins | commences) \s+ at
                   ) \b
              }xin;
@@ -651,6 +656,7 @@ sub get_masks {
                 | one \s+ and \s+ the \s+ same
                 | ( no | this ) \s+ one (?! $ampm_ph_re | \s+ $oclock_re )
                 | ( an \s+ hour | a \s+ (second|minute) ) \s+ or \s+ two
+                | $min_re \s+ to \s+ the \s+ (\w | $hy)+ \s+ power
                 )
                 \b
                 (?{ $branch = "x3"; })
@@ -1049,26 +1055,6 @@ sub get_matches {
                  (?{ $branch = "9h"; })
               }xin;
 
-    # Ones with a phrase after to fix it better as a time
-    push @r,qr{ \b (?<pr> ( $twas_re ( \s+ (already | \w+ly) )?
-                          | at
-                          ) \s+
-                   )
-                   (?<t1> ( ( $rel_words ( \s+ at )? | ( close \s+ )? upon ) \s+ )?
-                     $hour_word_re
-                   )
-                   ( (?<t2> \s+ $in_the_re ) \b
-                   | (?<po>
-                        \s+ the  \s+ ( next | following ) \s+ $timeday_re
-                      | \s+ for  \s+ $meal_times
-                      | \s+ on   \s+ ( the \s+ )? $weekday_re
-                      | \s+ that \s+ $timeday_re
-                      | \s+ $today_re
-                      )
-                   ) $ba_re
-                   (?{ $branch = "9a"; })
-              }xin;
-
     # Due ... at eleven-fifty-one
     # Knocks ... at 2336
     push @r,qr{ $bb_re
@@ -1261,13 +1247,14 @@ sub get_matches {
                 (?<t2> $hour_re [?]? ( ($hy | [.\s]) $min_re | $minsec0_dig_re )? )
                 (?<po>
                  \s+ ( ( ( on (\s a)? | in ) \s+ )? (\w+ \s+){0,2} $weekday_re
-                       | when
-                       | $today_re
-                       | ( this | that | one | on \s+ (the | that | an | a) ) \s+
-                         $timeday_re
-                       | by \s+ the
-                       | $min_word_re s? \s+ ( day | week | month | year ) s?
-                       )
+                     | when
+                     | $today_re
+                     | ( this | that | one | on \s+ (the | that | an | a) ) \s+
+                       $timeday_re
+                     | by \s+ the
+                     | $min_word_re s? \s+ ( day | week | month | year ) s?
+                     | for  \s+ $meal_times
+                     )
                 )
                 $ba_re
                 (?{ $branch = "3b";
@@ -1526,7 +1513,7 @@ sub get_matches {
                   $hour_word_re
                   ( ( \s+ | $hy ) $min_word_re )?
                 )
-                (?! \s+ $time_periods_re )
+                (?! \s+ $time_periods_re | $never_follow_times_re )
                 $ba_re
                 (?{ $branch = "9b"; })
                }xin;
@@ -1660,13 +1647,15 @@ sub get_matches {
                   $twas_re \s+
                 )
                 (?<t1>
-                  $hour_re (?<sep> $hy | [:.] \s* | \s+ )? (?<mn> $min0_re)
+                  $hour_word_re (?<sep> $hy | [:.] \s* | \s+ )? (?<mn> $min_word_re)
                 | $low_num_re \s* (*SKIP)(*FAIL)
-                | $hour_re
+                | $hour_word_re
                 )
                 ( ( $never_follow_times_re
                   | \. \d+
                   | \s+ (above | below)  # Temperatures
+                  | (\s+ \w+)? \s+ ( seconds )
+                  | $hy
                   )
                   (*SKIP)(*FAIL)
                 )?
@@ -2215,7 +2204,7 @@ sub extract_times {
                   ( (?<mn>  $minsec0_dig_re ) )?
                   ( (?<sec> $minsec0_dig_re ) )?
                 | (?<hr>  $hour24_word_re ) \s*
-                  (?<mn>  $min_word_re    ) \s*
+                  (?<mn>  $min_word_re | hundred ) \s*
                 )
                 ( \s+ $oclock_re )?
                 ( [:,]? \s* (?<am> $ampm_re   ) )?
@@ -2503,6 +2492,10 @@ sub extract_times {
                     $min =~ s{ \A (.*) $hy .* \z }{$1}xi;
                     $dir = 'after';
                 }
+                elsif ($min =~ m{\A hundred \z}xin) {
+                    $min = 0;
+                    $abs_hour = 1;
+                }
                 $min = min2num($min);
 
                 $min -= 30 if $rel =~ m{\A nearer \s+ to \z}xin and $min == 30;
@@ -2517,9 +2510,9 @@ sub extract_times {
 
                 if ($ampm =~ m{\A $in_the_re \z}xin) {
                     # Work out the time
-                    if ($ampm =~ m{ morn(ing)? | mornin $sq? | dawn | sunrise }xi) {
+                    if ($ampm =~ m{ morn(ing)? | mornin $sq? | dawn | sunrise | $am_re }xi) {
                         $pm = 0;
-                    } elsif ($ampm =~ m{ after($hy|\s)?noon | evening | eve | dusk | sunset }xi) {
+                    } elsif ($ampm =~ m{ after($hy|\s)?noon | evening | eve | dusk | sunset | $pm_re }xi) {
                         $pm = 1;
                     }
                     elsif ($ampm =~ m{ day }xi) {

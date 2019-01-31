@@ -39,7 +39,7 @@ sub search_csv {
     while ( my $row = $csv->getline( $fh ) ) {
         my ($time, $timestr, $line, $book, $author) = @$row;
 
-        $line = do_match($line);
+        $line = do_match($line, undef, $author, $book);
 
         # Clean up the time string
         $timestr =~ s{\s+$}{};

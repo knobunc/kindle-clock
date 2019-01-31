@@ -68,7 +68,6 @@ sub check_matches {
 
                 # Run the string again with the current rules and see how it fares
                 my $new_match = do_match( strip_match($quote), undef, $author, $title );
-                my $different = $quote eq $new_match ? 0 : 1;
 
                 # Pull the preamble and postamble
                 my ($pre, $post);
@@ -83,18 +82,19 @@ sub check_matches {
                     ($pre, $post) = (${^PREMATCH}, ${^POSTMATCH});
                 }
 
-                # Pull the equivelent pieces from the new match
-                my ($n_timestr) = substr($new_match, length($pre));
+                # Pull the equivalent pieces from the new match
+                my $n_timestr = extract_match($new_match, $pre);
 
-                my $type_color = $different ? 'bold red' : 'bold green';
-
+                my $type_color = 'bold green';
                 my $n_type = '-';
                 if ($n_timestr =~ s{\A << [^|]+ \| (?<type> \d+ \w? (: \d)? ) >> }{}xin) {
                     $n_type = $+{type};
                     $type_color = 'bold blue' if $n_type ne $type;
-                }
 
-#                DEBUG_MSG($n_timestr, $timestr), exit if $n_type eq '-';
+                    # TODO if the string matched is a different length then we should flag it
+                } else {
+                    $type_color = 'bold red';
+                }
 
                 # Pull the matches from the previous and clean up the strings
                 foreach my $s (\$pre, \$timestr, \$n_timestr, \$post) {
@@ -130,6 +130,43 @@ sub check_matches {
     }
 
     return;
+}
+
+sub extract_match {
+    my ($new_match, $pre) = @_;
+
+    my $n_timestr = $new_match;
+    my $x_pre = $pre;
+
+    my $len = length($x_pre);
+    while ($len) {
+        $x_pre =~
+            m{ \A (?<p> .*?) << [^|]+ \| (?<type> \d+ \w? (: \d)? ) >>
+             | \A (?<p> .+ )
+             }xins
+                or die "Weird string '$x_pre'";
+        my $p  = $+{p};
+        my $pl = min( $len, length($p) );
+
+        # There's no match in the prefix length portion, strip that
+        substr($n_timestr, 0, $pl, '');
+        substr($x_pre,     0, $pl, '');
+        $len -= $pl;
+
+        if ($len) {
+            # Now we need to handle the match portion from both
+            $x_pre =~
+                s{\A (?<ml> << (?<tstr> [^|]+ ) \| (?<type> \d+ \w? (: \d)? ) >> ) }{$+{tstr}}xin
+                or die "Can't find match in '$x_pre'";
+            $len -= length($+{ml}) - length($+{tstr});
+            $n_timestr =~
+                s{\A        << (?<tstr> [^|]+ ) \| (?<type> \d+ \w? (: \d)? ) >> }{$+{tstr}}xin;
+
+            # And then loop since the match is sanitized
+        }
+    }
+
+    return $n_timestr;
 }
 
 sub sort_matches_by_auth {

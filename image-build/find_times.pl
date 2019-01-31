@@ -38,6 +38,11 @@ sub main {
 sub search_zip {
     my ($file) = @_;
 
+    # Pull the author and title
+    my ($author, $book) =
+        $file =~ m{ /Calibre \s Library/ (?<a> [^/]+) / (?<b> [^/]+) / [^/]+.epub \z }xin
+        or die "Unable to work out an author and book from '$file'";
+
     my $output_dump = 1;
     my @res;
 
@@ -95,7 +100,7 @@ sub search_zip {
         for (my $i = 0; $i < @lines; $i++) {
             my $line = $lines[$i];
 
-            $line = do_match($line);
+            $line = do_match($line, undef, $author, $book);
 
             if ($line =~ m{<< ([^|>]+) [|] \d+ \w? (:\d)? >>}x) {
                 # We had a match
@@ -107,7 +112,7 @@ sub search_zip {
                     $line = $lines[$i-1] . "\n$line" if $i > 0;
                     $line = "$line\n" . $lines[$i+1] if $i < $#lines;
 
-                    $line = do_match($line);
+                    $line = do_match($line, undef, $author, $book);
                 }
 
                 if (my ($time_bit) = $line =~ m{<< ([^|>]+) [|] \d+ \w? (:\d)? >>}x) {

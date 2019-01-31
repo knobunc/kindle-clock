@@ -42,13 +42,13 @@ prove t/*pl -j 8
 3b - Weak.      1900 tonight.
 3c - Weak.      on the 10.26
 3d - Strong.    seven the next evening.
-3e - BAD
+3e - BAD                                           BAD
 3f - 80% right?
 3g - Strong.    Monday at five Leo
 3h - Strong.    At about one Emily announced
 3i - Strong.    at a little before ten the night
 3j - Strong.    at two the previous afternoon
-4  - Strong.    20.36 Rimmer stood...               Need to re-check, removed the "from" in the y4 case
+4  - Strong.    20.36 Rimmer stood...
 5  - Strong.    eight-fifteen at night
 5a - Weak.      23.10                               Could do some cleanup
 5b - Strong.    at eleven-thirty
@@ -57,4 +57,8 @@ prove t/*pl -j 8
 5g - Strong.    twelve by Big Ben
 5h - Definite.  In ten minutes it would be one
 6  - Definite.  six o’clock
-9  - Strong.    About seven                         Needs work
+9  - Weak.      About seven                         Needs work
+9b - Strong.    there at eleven.
+9c - Strong.    end of phrase times
+9d - BAD.       It was ten                          BAD
+
