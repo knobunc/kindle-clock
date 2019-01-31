@@ -2,7 +2,7 @@ $VAR1 = [
           [
             1,
             '[ap 08:30] Voices From the Street - Philip K. Dick.epub (OEBPS/Text/Part_01.html) - eight thirty',
-            'Thursday morning, June 5, 1952, came bright and hot. Moist sunlight lay over stores and streets. Glittering from the lawns, the cold sprinkle of night steamed upward to the blue-glass sky. It was an early-morning sky; soon it would bake away and shrivel. An oppressive white haze would drift in from the Bay and hang lusterless over the world. But it was only <<eight thirty|9f>>; the sky had two hours to live.',
+            'Thursday morning, June 5, 1952, came bright and hot. Moist sunlight lay over stores and streets. Glittering from the lawns, the cold sprinkle of night steamed upward to the blue-glass sky. It was an early-morning sky; soon it would bake away and shrivel. An oppressive white haze would drift in from the Bay and hang lusterless over the world. But it was only <<eight thirty|5b>>; the sky had two hours to live.',
           ],
           [
             1,
@@ -17,7 +17,7 @@ $VAR1 = [
           [
             1,
             '[ap 06:30] Voices From the Street - Philip K. Dick.epub (OEBPS/Text/Part_01.html) - six thirty',
-            "Suddenly she was behind him, holding on to him desperately. \x{201c}Come to bed. It\x{2019}s only <<six thirty|9f>>; you can sleep two hours.\x{201d}",
+            "Suddenly she was behind him, holding on to him desperately. \x{201c}Come to bed. It\x{2019}s only <<six thirty|5b>>; you can sleep two hours.\x{201d}",
           ],
           [
             1,
@@ -85,13 +85,18 @@ Donations gratefully received.",
           ],
           [
             1,
+            '[ap 08:00] Voices From the Street - Philip K. Dick.epub (OEBPS/Text/Part_01.html) - eight',
+            'A presence was felt. At first there was no physical sight, only the sudden rush of awareness from the people. Hadley, startled, blinked and looked quickly around. The hall was not yet full; was Beckheim going to begin already? He glanced at his wristwatch and was shocked: it was already <<eight|9f>>. A rustle, a murmur, swept from aisle to aisle; he peered everywhere, but still no physical entity was visible. Was Beckheim a bird, a swallow? Was he swooping up in the smoky rafters? Was he a moth, a ghost, a swirl of wind? The hall lights dimmed. An ominous black mist drifted over everything, a chilling cloud from some distant place, beyond the world, beyond the universe itself. The lights turned from yellow to a sickly red and then died entirely.',
+          ],
+          [
+            1,
             '[ap 05:00] Voices From the Street - Philip K. Dick.epub (OEBPS/Text/Part_02.html) - five',
             "\x{201c}It\x{2019}ll be a while before we get our investment back. We\x{2019}re settling a lot of GI\x{2019}s in there at <<five|9b>> bills down. That doesn\x{2019}t begin to amortize us; five hundred covers our immediate commission and that\x{2019}s all. Those are forty-year loans\x{2014}\x{201d} He forced a delivery truck to the side of the street so he could pass. \x{201c}The interest adds up\x{2026}and a lot of those GI\x{2019}s eventually default and lose their equities. We get the shacks back in six, eight years. Of course, by that time they practically have to be built over again.\x{201d}",
           ],
           [
             1,
             '[ap 02:30] Voices From the Street - Philip K. Dick.epub (OEBPS/Text/Part_02.html) - two thirty',
-            "\x{201c}Where the hell am I going to park?\x{201d} Bob complained. \x{201c}I can\x{2019}t park along this alley!\x{201d} The restaurant disappeared behind them as the Nash swiftly climbed the hill, scattering pedestrians from every crosswalk. \x{201c}Let\x{2019}s shove it and head down the coast. It\x{2019}s already <<two thirty|5k:1>>!\x{201d}",
+            "\x{201c}Where the hell am I going to park?\x{201d} Bob complained. \x{201c}I can\x{2019}t park along this alley!\x{201d} The restaurant disappeared behind them as the Nash swiftly climbed the hill, scattering pedestrians from every crosswalk. \x{201c}Let\x{2019}s shove it and head down the coast. It\x{2019}s already <<two thirty|5b>>!\x{201d}",
           ],
           [
             1,

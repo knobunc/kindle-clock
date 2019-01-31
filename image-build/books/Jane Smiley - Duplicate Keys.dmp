@@ -26,8 +26,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap < 09:30] Duplicate Keys - Jane Smiley.epub (OEBPS/Smil_9780307758774_epub_c02_r1.htm) - nearly nine-thirty',
-            "When they left the restaurant, it was <<nearly nine-thirty|9f>>. Susan said, \x{201c}You know, I have to call the Mineharts. They\x{2019}re expecting to hear from me. It\x{2019}s been nearly twenty-four hours. I\x{2019}m ashamed of that,\x{201d} but when Alice turned up Broadway, Susan steered her instead down Seventy-sixth Street toward Riverside Park. Joggers and dog walkers were out in fleets. After a full week of adamantine blue skies, the grass along the river had lost the freshness briefly attained during a damp April, but the trees swayed in full, sybaritic leaf. They walked along the river toward the boat basin, and Alice said, \x{201c}Does the weather make you feel better or worse?\x{201d}",
+            '[ap 09:30] Duplicate Keys - Jane Smiley.epub (OEBPS/Smil_9780307758774_epub_c02_r1.htm) - nine-thirty',
+            "When they left the restaurant, it was nearly <<nine-thirty|5b>>. Susan said, \x{201c}You know, I have to call the Mineharts. They\x{2019}re expecting to hear from me. It\x{2019}s been nearly twenty-four hours. I\x{2019}m ashamed of that,\x{201d} but when Alice turned up Broadway, Susan steered her instead down Seventy-sixth Street toward Riverside Park. Joggers and dog walkers were out in fleets. After a full week of adamantine blue skies, the grass along the river had lost the freshness briefly attained during a damp April, but the trees swayed in full, sybaritic leaf. They walked along the river toward the boat basin, and Alice said, \x{201c}Does the weather make you feel better or worse?\x{201d}",
           ],
           [
             1,
@@ -46,8 +46,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap < 04:30] Duplicate Keys - Jane Smiley.epub (OEBPS/Smil_9780307758774_epub_c04_r1.htm) - nearly four-thirty',
-            "Alice wondered how she could hang up gracefully. It was <<nearly four-thirty|9:1>> and, though she didn\x{2019}t have to work in three hours, she grew suddenly afraid of the day ahead. Henry said, \x{201c}I\x{2019}ll take you out there sometime, on my day off.\x{201d}",
+            '[ap 04:30] Duplicate Keys - Jane Smiley.epub (OEBPS/Smil_9780307758774_epub_c04_r1.htm) - four-thirty',
+            "Alice wondered how she could hang up gracefully. It was nearly <<four-thirty|5b>> and, though she didn\x{2019}t have to work in three hours, she grew suddenly afraid of the day ahead. Henry said, \x{201c}I\x{2019}ll take you out there sometime, on my day off.\x{201d}",
           ],
           [
             1,
@@ -106,7 +106,7 @@ $VAR1 = [
           [
             1,
             '[ap 10:35] Duplicate Keys - Jane Smiley.epub (OEBPS/Smil_9780307758774_epub_c06_r1.htm) - ten thirty-five',
-            "\x{201c}Wonderful,\x{201d} said Alice, smiling a good enough smile. In spite of himself, Henry, too, sighed. Alice wondered if he hoped that she wouldn\x{2019}t know how to interpret it. When she looked at her watch it was only <<ten thirty-five|9f>>. She nearly groaned aloud. Only a week had passed, exactly a week. At Grand Army Plaza, Henry Mullet forgot himself, took her hand, and ran her off the train. He was physical in a way that Jim Ellis was not. Although Jim hovered around you, desire shooting out of him like sparks, either the desire to do something, or, more uncomfortably, the desire for you to do something, he hardly ever touched. When he did, it was a stroke or a prod or even a glancing light blow. Henry Mullet was a grasper, a holder-in-place, a propeller, a preserver from traffic. Alice wasn\x{2019}t sure she liked it.",
+            "\x{201c}Wonderful,\x{201d} said Alice, smiling a good enough smile. In spite of himself, Henry, too, sighed. Alice wondered if he hoped that she wouldn\x{2019}t know how to interpret it. When she looked at her watch it was only <<ten thirty-five|5b>>. She nearly groaned aloud. Only a week had passed, exactly a week. At Grand Army Plaza, Henry Mullet forgot himself, took her hand, and ran her off the train. He was physical in a way that Jim Ellis was not. Although Jim hovered around you, desire shooting out of him like sparks, either the desire to do something, or, more uncomfortably, the desire for you to do something, he hardly ever touched. When he did, it was a stroke or a prod or even a glancing light blow. Henry Mullet was a grasper, a holder-in-place, a propeller, a preserver from traffic. Alice wasn\x{2019}t sure she liked it.",
           ],
           [
             1,
@@ -389,6 +389,6 @@ Alice was grinning. \x{201c}What shall I bring?\x{201d}",
           [
             1,
             '[ap 03:20] Duplicate Keys - Jane Smiley.epub (OEBPS/Smil_9780307758774_epub_c15_r1.htm) - three-twenty',
-            "Although the pastrami was lean and its juice had seeped tangily, with the mustard, into the fresh, warm rye bread, she pushed it away after the first half, wiped her mouth, and concentrated on her Coke. It had plenty of ice, and after sucking off all the sweet syrup, she began to crunch the pieces of ice one by one. The waitress came by and offered her dessert, but she shook her head and pointed to the sandwich. \x{201c}Take that, too. It\x{2019}s good, but I\x{2019}m just not hungry.\x{201d} She smiled, and the waitress smiled back at her. She looked out the window and wondered what to do with the rest of the afternoon. It was only <<three-twenty|9f>>.",
+            "Although the pastrami was lean and its juice had seeped tangily, with the mustard, into the fresh, warm rye bread, she pushed it away after the first half, wiped her mouth, and concentrated on her Coke. It had plenty of ice, and after sucking off all the sweet syrup, she began to crunch the pieces of ice one by one. The waitress came by and offered her dessert, but she shook her head and pointed to the sandwich. \x{201c}Take that, too. It\x{2019}s good, but I\x{2019}m just not hungry.\x{201d} She smiled, and the waitress smiled back at her. She looked out the window and wondered what to do with the rest of the afternoon. It was only <<three-twenty|5b>>.",
           ],
         ];

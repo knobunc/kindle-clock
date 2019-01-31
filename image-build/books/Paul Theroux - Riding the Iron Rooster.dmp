@@ -29,12 +29,17 @@ $VAR1 = [
           [
             1,
             '[ap 00:00] Riding the Iron Rooster_ By Train Through - Paul Theroux.epub (OPS/c01.xml) - 12',
-            'There was a message waiting for me when I got back to the Hotel Ukraine: Olga will call tomorrow at <<12|9o>>. She called on the stroke of <<noon|12>> the next day to say she would call again at two. At <<two|9e>> she said she and Natasha would meet me at <<three-thirty|5c>>. These phone calls had the effect of making our meeting seem necessary and inevitable. It was only when I was waiting on the hotel steps that it occurred to me that I had no idea why I was seeing them at all.',
+            'There was a message waiting for me when I got back to the Hotel Ukraine: Olga will call tomorrow at <<12|9o>>. She called on the stroke of <<noon|12>> the next day to say she would call again at two. At <<two|9e>> she said she and Natasha would meet me at <<three-thirty|5b>>. These phone calls had the effect of making our meeting seem necessary and inevitable. It was only when I was waiting on the hotel steps that it occurred to me that I had no idea why I was seeing them at all.',
           ],
           [
             1,
             '[ap 06:00] Riding the Iron Rooster_ By Train Through - Paul Theroux.epub (OPS/c01.xml) - six o\'clock',
             'Olga said, "If we don\'t have dollars we can\'t buy radios at the Berioska. It closes at <<six o\'clock|6>>. What\'s wrong?"',
+          ],
+          [
+            1,
+            '[ap >> 05:00] Riding the Iron Rooster_ By Train Through - Paul Theroux.epub (OPS/c01.xml) - well after five',
+            "Tatyana dressed and we found a taxi. It was a twenty-minute ride and <<well after five|3b>> by the time we arrived. But for me it was simply a way of saving face\x{2014}and saving money. I had been disgusted with myself back there at the apartment.",
           ],
           [
             1,
@@ -333,7 +338,7 @@ $VAR1 = [
           [
             1,
             '[ap 06:30] Riding the Iron Rooster_ By Train Through - Paul Theroux.epub (OPS/c15.xml) - six-thirty',
-            "The town was in darkness. The hotel was very cold. My room was cold. What to do? Although it was only <<six-thirty|9f>>, I went to bed\x{2014}anyway, I got inside with most of my clothes on, and I listened to my shortwave radio under the blankets. That was how I was to spend all of my nights in Langxiang.",
+            "The town was in darkness. The hotel was very cold. My room was cold. What to do? Although it was only <<six-thirty|5b>>, I went to bed\x{2014}anyway, I got inside with most of my clothes on, and I listened to my shortwave radio under the blankets. That was how I was to spend all of my nights in Langxiang.",
           ],
           [
             1,

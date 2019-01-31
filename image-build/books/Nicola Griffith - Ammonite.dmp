@@ -2,7 +2,7 @@ $VAR1 = [
           [
             1,
             '[ap 01:00] Ammonite - Nicola Griffith.epub (OPS/Grif_9780345452399_epub_c01_r1.htm) - one',
-            "\x{201c}In the food slot.\x{201d} Marghe padded over to the slot. Inside it were two softgels and a glass of water. \x{201c}Double dose for the first day,\x{201d} Hiam said, \x{201c}then one tomorrow, <<one|3d>> the next day. After that, one every ten days. There\x{2019}s a possibility of fever the first forty-eight hours, nothing dangerous.\x{201d}",
+            "\x{201c}In the food slot.\x{201d} Marghe padded over to the slot. Inside it were two softgels and a glass of water. \x{201c}Double dose for the first day,\x{201d} Hiam said, \x{201c}then one tomorrow, <<one|3d:1>> the next day. After that, one every ten days. There\x{2019}s a possibility of fever the first forty-eight hours, nothing dangerous.\x{201d}",
           ],
           [
             1,

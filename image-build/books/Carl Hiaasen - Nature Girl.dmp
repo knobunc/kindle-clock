@@ -11,8 +11,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[00:00] Nature Girl - Carl Hiaasen.epub (OEBPS/Hiaa_9780307266590_epub_c02_r1.htm) - midnight',
-            "\x{201c}It\x{2019}s only eleven-fifteen\x{2014}what\x{2019}s the matter with you? When I was your age, I used to stay up until <<midnight|13>> writing love letters to Peter Frampton.\x{201d} Honey felt Fry\x{2019}s forehead. \x{201c}Maybe you\x{2019}re coming down with a bug.\x{201d}",
+            '[ap 11:15] Nature Girl - Carl Hiaasen.epub (OEBPS/Hiaa_9780307266590_epub_c02_r1.htm) - eleven-fifteen',
+            "\x{201c}It\x{2019}s only <<eleven-fifteen|5b>>\x{2014}what\x{2019}s the matter with you? When I was your age, I used to stay up until <<midnight|13>> writing love letters to Peter Frampton.\x{201d} Honey felt Fry\x{2019}s forehead. \x{201c}Maybe you\x{2019}re coming down with a bug.\x{201d}",
           ],
           [
             1,

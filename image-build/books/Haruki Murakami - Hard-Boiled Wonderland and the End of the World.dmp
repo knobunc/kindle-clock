@@ -31,6 +31,11 @@ $VAR1 = [
           [
             1,
             '[12:00] Hard-Boiled Wonderland and the End of the - Haruki Murakami.epub (OEBPS/Mura_9780307777690_epub_c05_r1.htm) - noon',
+            "\x{201c}I\x{2019}ll be heading home to sleep now. Tomorrow or the next day I\x{2019}ll shuffle the data and have it back to you by <<noon|3b>> two days later. Without fail. Is that satisfactory?\x{201d}",
+          ],
+          [
+            1,
+            '[12:00] Hard-Boiled Wonderland and the End of the - Haruki Murakami.epub (OEBPS/Mura_9780307777690_epub_c05_r1.htm) - noon',
             "\x{201c}Fine, fine,\x{201d} said the old man, nodding. \x{201c}But remember, time is absolutely critical. If you\x{2019}re later than <<noon|13>>, there\x{2019}ll be trouble. There\x{2019}ll be real trouble.\x{201d}",
           ],
           [
@@ -268,8 +273,8 @@ I move to get out of bed, but am still dizzy.",
           ],
           [
             1,
-            '[ap < 11:30] Hard-Boiled Wonderland and the End of the - Haruki Murakami.epub (OEBPS/Mura_9780307777690_epub_c31_r1.htm) - nearly eleven-thirty',
-            'I suggested that the chubby girl bathe first. While she was in the tub, I changed into some salvaged clothes and plopped down on what had been my bed. It was <<nearly eleven-thirty|9f>>. I had to come up with a plan of action. For the last twenty-four hours of my life.',
+            '[ap 11:30] Hard-Boiled Wonderland and the End of the - Haruki Murakami.epub (OEBPS/Mura_9780307777690_epub_c31_r1.htm) - eleven-thirty',
+            'I suggested that the chubby girl bathe first. While she was in the tub, I changed into some salvaged clothes and plopped down on what had been my bed. It was nearly <<eleven-thirty|5b>>. I had to come up with a plan of action. For the last twenty-four hours of my life.',
           ],
           [
             1,

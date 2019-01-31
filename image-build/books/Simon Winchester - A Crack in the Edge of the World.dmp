@@ -58,8 +58,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 03:59] A Crack in the Edge of the World - Simon Winchester.epub (OEBPS/text/9780062277459_Chapter_10.xhtml) - one of four',
-            "This was the device that registered the San Francisco shock waves\x{2014}<<one of four|10>> maintained by Jesuits around the world at the time. It was responsible for detecting the impressive set of shocks from which the earthquake\x{2019}s approximate epicenter was determined. (The Shanghai instrument was replaced in 1932 by a newfangled contraption winningly known as a Galitzin-Wilip instrument, and it operated outside the great city until <<1949|9c:0>>, when the Chinese Communists turfed the Jesuits out.)",
+            '[19:49] A Crack in the Edge of the World - Simon Winchester.epub (OEBPS/text/9780062277459_Chapter_10.xhtml) - 1949',
+            "This was the device that registered the San Francisco shock waves\x{2014}one of four maintained by Jesuits around the world at the time. It was responsible for detecting the impressive set of shocks from which the earthquake\x{2019}s approximate epicenter was determined. (The Shanghai instrument was replaced in 1932 by a newfangled contraption winningly known as a Galitzin-Wilip instrument, and it operated outside the great city until <<1949|9c:0>>, when the Chinese Communists turfed the Jesuits out.)",
           ],
           [
             1,
@@ -362,6 +362,11 @@ at sea, 20\x{2013}22, 251\x{2013}53",
             1,
             '[> 05:00] A Crack in the Edge of the World - Simon Winchester.epub (OEBPS/text/9780062277459_Prologue.xhtml) - a few minutes past five in the morning',
             'Yet at <<a few minutes past five in the morning|10>> of that day something did, indeed, happen.',
+          ],
+          [
+            1,
+            '[ap > 05:00] A Crack in the Edge of the World - Simon Winchester.epub (OEBPS/text/9780062277459_Prologue.xhtml) - a little after five',
+            'In the city it was <<a little after five|3b>> by the local clocks and still not yet light (though some speak of a rosy glow just discernible behind the hill named Mount Diablo, to the east). The air was cold and moist in the way that spring mornings often are in Northern California. But there is a robust heartiness about those who choose to live in this corner of America, and, in spite of the chill and the gloom of this particular morning, a man of middle years, described in the directories simply as a laborer, was already in the sea taking his morning constitutional: This involved swimming through the rough-breaking waters of the Pacific, a few yards off the shore at Ocean Beach.',
           ],
           [
             1,

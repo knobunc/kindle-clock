@@ -40,8 +40,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap - 06:31] Crooked House - Agatha Christie.epub (dummy_split_010.html) - a minute or two after half past six',
-            "\x{201c}Brenda came rushing over. That was just <<a minute or two after half past six|10>>.\x{201d}",
+            '[ap > 06:30] Crooked House - Agatha Christie.epub (dummy_split_010.html) - after half past six',
+            "\x{201c}Brenda came rushing over. That was just a minute or two <<after half past six|10>>.\x{201d}",
           ],
           [
             1,
