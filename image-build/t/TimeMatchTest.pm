@@ -284,7 +284,7 @@ sub get_csv_tests {
           [
             1,
             'Timestr [00:00]: midnight',
-            'The first night, as soon as the corporal had conducted my uncle Toby up stairs, which was <<about 10|9f>> - Mrs. Wadman threw herself into her arm chair, and crossing her left knee with her right, which formed a resting-place for her elbow, she reclin\'d her cheek upon the palm of her hand, and leaning forwards, ruminated until <<midnight|13>> upon both sides of the question.\''
+            'The first night, as soon as the corporal had conducted my uncle Toby up stairs, which was <<about 10|9e:1>> - Mrs. Wadman threw herself into her arm chair, and crossing her left knee with her right, which formed a resting-place for her elbow, she reclin\'d her cheek upon the palm of her hand, and leaning forwards, ruminated until <<midnight|13>> upon both sides of the question.\''
           ],
           [
             1,
@@ -814,7 +814,7 @@ sub get_csv_tests {
           [
             1,
             'Timestr [02:05]: 2.05',
-            'At <<2.05|9m:1>> the fizzy tights came crackling off.'
+            'At <<2.05|9m>> the fizzy tights came crackling off.'
           ],
           [
             1,
@@ -874,7 +874,7 @@ sub get_csv_tests {
           [
             1,
             'Timestr [02:17]: 2.17',
-            'One of the "choppers" stopped, did an about-turn and came back to me. The flare spluttered and faded, and now the glare of the spotlight blinded me. I sat very still. It was <<2.17|9f>>. Against the noise of the blades a deeper resonant sound bit into the chill black air.'
+            'One of the "choppers" stopped, did an about-turn and came back to me. The flare spluttered and faded, and now the glare of the spotlight blinded me. I sat very still. It was <<2.17|9c:1>>. Against the noise of the blades a deeper resonant sound bit into the chill black air.'
           ],
           [
             1,
@@ -974,7 +974,7 @@ sub get_csv_tests {
           [
             1,
             'Timestr [02:36]: about 2.36am',
-            'It was <<about 2.36am|2a>> when a provost colonel arrived to arrest me. At <<2.36|9m:1>> 1/2 I remembered the big insulating gauntlets. But even had I remembered before, what could I have done?'
+            'It was <<about 2.36am|2a>> when a provost colonel arrived to arrest me. At <<2.36|9m>> 1/2 I remembered the big insulating gauntlets. But even had I remembered before, what could I have done?'
           ],
           [
             1,
@@ -1319,7 +1319,7 @@ sub get_csv_tests {
           [
             1,
             'Timestr [03:57]: Nearly four',
-            "Certain facts were apparent: dark; cold; thundering boots; quilts; pillow; light under the door \x{2013} the materials of reality - but I could not pin these materials down in time. And the raw materials of reality without that glue of time are materials adrift and reality is as meaningless as the balsa parts of a model airplane scattered to the wind...I am in my old room, yes, in the dark, certainly, and it is cold, obviously, but what time is it? \"<<Nearly four|9e>>, son.\" But I mean what time?"
+            "Certain facts were apparent: dark; cold; thundering boots; quilts; pillow; light under the door \x{2013} the materials of reality - but I could not pin these materials down in time. And the raw materials of reality without that glue of time are materials adrift and reality is as meaningless as the balsa parts of a model airplane scattered to the wind...I am in my old room, yes, in the dark, certainly, and it is cold, obviously, but what time is it? \"<<Nearly four|9e:1>>, son.\" But I mean what time?"
           ],
           [
             1,
@@ -1334,7 +1334,7 @@ sub get_csv_tests {
           [
             1,
             'Timestr [03:59]: Nearly four',
-            'And the raw materials of reality without that glue of time are materials adrift and reality is as meaningless as the balsa parts of a model airplane scattered to the wind...I am in my old room, yes, in the dark, certainly, and it is cold, obviously, but what time is it? "<<Nearly four|9e>>, son."'
+            'And the raw materials of reality without that glue of time are materials adrift and reality is as meaningless as the balsa parts of a model airplane scattered to the wind...I am in my old room, yes, in the dark, certainly, and it is cold, obviously, but what time is it? "<<Nearly four|9e:1>>, son."'
           ],
           [
             1,
@@ -2189,7 +2189,7 @@ sub get_csv_tests {
           [
             1,
             'Timestr [07:14]: 7.14',
-            'At <<7.14|9m:1>> Harry knew he was alive. He knew that because the pain could be felt in every nerve fibre.'
+            'At <<7.14|9m>> Harry knew he was alive. He knew that because the pain could be felt in every nerve fibre.'
           ],
           [
             1,
@@ -2199,12 +2199,12 @@ sub get_csv_tests {
           [
             1,
             'Timestr [07:15]: 7.15',
-            'Gough again knocked on Mr and Mrs Kent\'s bedroom door. This time it was opened - Mary Kent had got out of bed and put on her dressing gown, having just checked her husband\'s watch: it was <<7.15|9f>>. A confused conversation ensued, in which each woman seemed to assume Saville was with the other.'
+            'Gough again knocked on Mr and Mrs Kent\'s bedroom door. This time it was opened - Mary Kent had got out of bed and put on her dressing gown, having just checked her husband\'s watch: it was <<7.15|9c:1>>. A confused conversation ensued, in which each woman seemed to assume Saville was with the other.'
           ],
           [
             1,
             'Timestr [07:15]: 7.15',
-            'Gough again knocked on Mr and Mrs Kent\'s bedroom door. This time it was opened - Mary Kent had got out of bed and put on her dressing gown, having just checked her husband\'s watch: it was <<7.15|9f>>. A confused conversation ensued, in which each woman seemed to assume Saville was with the other.'
+            'Gough again knocked on Mr and Mrs Kent\'s bedroom door. This time it was opened - Mary Kent had got out of bed and put on her dressing gown, having just checked her husband\'s watch: it was <<7.15|9c:1>>. A confused conversation ensued, in which each woman seemed to assume Saville was with the other.'
           ],
           [
             1,
@@ -2239,7 +2239,7 @@ sub get_csv_tests {
           [
             1,
             'Timestr [07:27]: 7.27',
-            'His appointment with the doctor was for <<8.45|5a:0>>. It was <<7.27|9f>>.'
+            'His appointment with the doctor was for <<8.45|5a:0>>. It was <<7.27|9c:1>>.'
           ],
           [
             1,
@@ -2587,7 +2587,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [08:29]: 8.29',
-            'At <<8.29|9m:1>> I punched the front doorbell in Elgin Crescent. It was opened by a small oriental woman in a white apron. She showed me into a large, empty sitting room with an open fire and a couple of huge oil paintings.'
+            'At <<8.29|9m>> I punched the front doorbell in Elgin Crescent. It was opened by a small oriental woman in a white apron. She showed me into a large, empty sitting room with an open fire and a couple of huge oil paintings.'
           ],
           [
             1,
@@ -2862,7 +2862,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [09:04]: 9.04',
-            'In the light of a narrow-beam lantern, Pierce checked his watch. It was <<9.04|9f>>.'
+            'In the light of a narrow-beam lantern, Pierce checked his watch. It was <<9.04|9c:1>>.'
           ],
           [
             1,
@@ -3307,7 +3307,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [10:15]: 10.15',
-            'At <<10.15|9m:1>> Arlena departed from her rondezvous, a minute or two later Patrick Redfern came down and registered surprise, annoyance, etc. Christine\'s task was easy enough. Keeping her own watch concealed she asked she asked Linda at <<twenty-five past eleven|10>> what time it was. Linda looked at her watch and replied that it was a <<quarter to twelve|10>>.'
+            'At <<10.15|9m>> Arlena departed from her rondezvous, a minute or two later Patrick Redfern came down and registered surprise, annoyance, etc. Christine\'s task was easy enough. Keeping her own watch concealed she asked she asked Linda at <<twenty-five past eleven|10>> what time it was. Linda looked at her watch and replied that it was a <<quarter to twelve|10>>.'
           ],
           [
             1,
@@ -3442,7 +3442,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [10:47]: 10.47',
-            'He whistles in the shower. It is <<10.47|9f>> and he is ready for the off.'
+            'He whistles in the shower. It is <<10.47|9c:1>> and he is ready for the off.'
           ],
           [
             1,
@@ -3682,12 +3682,12 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [11:20]: 11.20',
-            'Sweeney pointed to the clock above the bar, held in the massive and indifferent jaws of a stuffed alligator head. The time was <<11.20|9f>>.'
+            'Sweeney pointed to the clock above the bar, held in the massive and indifferent jaws of a stuffed alligator head. The time was <<11.20|9c:1>>.'
           ],
           [
             1,
             'Timestr [11:25]: twenty-five past eleven',
-            'At <<10.15|9m:1>> Arlena departed from her rondezvous, a minute or two later Patrick Redfern came down and registered surprise, annoyance, etc. Christine\'s task was easy enough. Keeping her own watch concealed she asked Linda at <<twenty-five past eleven|10>> what time it was. Linda looked at her watch and replied that it was a <<quarter to twelve|10>>.'
+            'At <<10.15|9m>> Arlena departed from her rondezvous, a minute or two later Patrick Redfern came down and registered surprise, annoyance, etc. Christine\'s task was easy enough. Keeping her own watch concealed she asked Linda at <<twenty-five past eleven|10>> what time it was. Linda looked at her watch and replied that it was a <<quarter to twelve|10>>.'
           ],
           [
             1,
@@ -3712,7 +3712,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [11:30]: 11.30',
-            '\'It is now <<11.30|9f>>. The door to this room is shut, and will remain shut, barring emergencies, until <<12.00|9:1>>. I am authorised to inform you that we are now under battle orders.'
+            '\'It is now <<11.30|9c:1>>. The door to this room is shut, and will remain shut, barring emergencies, until <<12.00|9:1>>. I am authorised to inform you that we are now under battle orders.'
           ],
           [
             1,
@@ -3747,7 +3747,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [11:35]: 11.35',
-            'At <<11.35|9m:1>> the Colonel came out; he looked hot and angry as he strode towards the lift. There goes a hanging judge, thought Wormold.'
+            'At <<11.35|9m>> the Colonel came out; he looked hot and angry as he strode towards the lift. There goes a hanging judge, thought Wormold.'
           ],
           [
             1,
@@ -3782,7 +3782,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [11:45]: quarter to twelve',
-            'At <<10.15|9m:1>> Arlena departed from her rondezvous, a minute or two later Patrick Redfern came down and registered surprise, annoyance, etc. Christine\'s task was easy enough. Keeping her own watch concealed she asked Linda at <<twenty-five past eleven|10>> what time it was. Linda looked at her watch and replied that it was a <<quarter to twelve|10>>.'
+            'At <<10.15|9m>> Arlena departed from her rondezvous, a minute or two later Patrick Redfern came down and registered surprise, annoyance, etc. Christine\'s task was easy enough. Keeping her own watch concealed she asked Linda at <<twenty-five past eleven|10>> what time it was. Linda looked at her watch and replied that it was a <<quarter to twelve|10>>.'
           ],
           [
             1,
@@ -3812,7 +3812,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [11:45]: quarter to twelve',
-            'At <<10.15|9m:1>> Arlena departed from her rondezvous, a minute or two later Patrick Redfern came down and registered surprise, annoyance, etc. Christine\'s task was easy enough. Keeping her own watch concealed she asked Linda at <<twenty-five past eleven|10>> what time it was. Linda looked at her watch and replied that it was a <<quarter to twelve|10>>.'
+            'At <<10.15|9m>> Arlena departed from her rondezvous, a minute or two later Patrick Redfern came down and registered surprise, annoyance, etc. Christine\'s task was easy enough. Keeping her own watch concealed she asked Linda at <<twenty-five past eleven|10>> what time it was. Linda looked at her watch and replied that it was a <<quarter to twelve|10>>.'
           ],
           [
             1,
@@ -3982,7 +3982,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [12:03]: 12.03',
-            'At <<12.03|9m:1>> the sun has already punched its ticket. Sinking, it stains the cobbles and stucco of the platz in a violin-coloured throb of light that you would have to be a stone not to find poignant.'
+            'At <<12.03|9m>> the sun has already punched its ticket. Sinking, it stains the cobbles and stucco of the platz in a violin-coloured throb of light that you would have to be a stone not to find poignant.'
           ],
           [
             1,
@@ -4077,7 +4077,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [12:25]: 12.25',
-            'Boys, do it now. God\'s time is <<12.25|9f>>.'
+            'Boys, do it now. God\'s time is <<12.25|9c:1>>.'
           ],
           [
             1,
@@ -4172,7 +4172,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [12:52]: 12.52',
-            'The nightclub stood on the junction, flamboyant, still. It was <<12.52|9f>>.'
+            'The nightclub stood on the junction, flamboyant, still. It was <<12.52|9c:1>>.'
           ],
           [
             1,
@@ -5052,7 +5052,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [15:59]: nearly 4',
-            'He looked at his watch: it was <<nearly 4|9f>>. He helped Delphine to her feet and led her down a passage to a rear door that gave on to the hospital garden.'
+            'He looked at his watch: it was <<nearly 4|9:1>>. He helped Delphine to her feet and led her down a passage to a rear door that gave on to the hospital garden.'
           ],
           [
             1,
@@ -5257,7 +5257,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [16:15]: 4.15',
-            'The sun had begun to sink in the west, and the shadow of an oak branch had crept across my knees. My watch said it was <<4.15|9f>>.'
+            'The sun had begun to sink in the west, and the shadow of an oak branch had crept across my knees. My watch said it was <<4.15|9c:1>>.'
           ],
           [
             1,
@@ -5502,7 +5502,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [17:00]: About five',
-            '<<About five|9e>>, the Abbot, a young Manchester terrier, began chirruping. He stood on the body of his owner, Flora, with his forepaws on the sill of the balcony, stared through the green rattan blinds, and trembled. He could see the farmer in the field, and Edward asleep on the next balcony.'
+            '<<About five|9e:1>>, the Abbot, a young Manchester terrier, began chirruping. He stood on the body of his owner, Flora, with his forepaws on the sill of the balcony, stared through the green rattan blinds, and trembled. He could see the farmer in the field, and Edward asleep on the next balcony.'
           ],
           [
             1,
@@ -5972,7 +5972,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [18:56]: 6.56',
-            'Then it was <<6.56|9f>>. A black Rover - a Rover 90, registration PYX 520 - turned into the street that ran down the left-hand side of The Bunker. It parked. The door on the driver\'s side opened. A man got out.'
+            'Then it was <<6.56|9c:1>>. A black Rover - a Rover 90, registration PYX 520 - turned into the street that ran down the left-hand side of The Bunker. It parked. The door on the driver\'s side opened. A man got out.'
           ],
           [
             1,
@@ -6162,7 +6162,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [19:40]: 7.40',
-            'She arrives at <<7.40|9f>>, ten minutes late, but the children, Jimmy and Bitsy, are still eating supper and their parents are not ready to go yet. From other rooms come the sound of a baby screaming, water running, a television musical (no words: probably a dance number - patterns of gliding figures come to mind).'
+            'She arrives at <<7.40|9c:1>>, ten minutes late, but the children, Jimmy and Bitsy, are still eating supper and their parents are not ready to go yet. From other rooms come the sound of a baby screaming, water running, a television musical (no words: probably a dance number - patterns of gliding figures come to mind).'
           ],
           [
             1,
@@ -6382,7 +6382,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [20:20]: 20.20',
-            'At <<20.20|9m:1>> all ships had completed oiling. Hove to, they had had the utmost difficulty in keeping position in that great wind; but they were infinitely safer than in the open sea'
+            'At <<20.20|9m>> all ships had completed oiling. Hove to, they had had the utmost difficulty in keeping position in that great wind; but they were infinitely safer than in the open sea'
           ],
           [
             1,
@@ -6562,7 +6562,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [21:00]: 2100 at night',
-            'At <<2100 at night|9m:1>> it\'s cold out.'
+            'At <<2100 at night|9m>> it\'s cold out.'
           ],
           [
             1,
@@ -6777,12 +6777,12 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [21:59]: About 10',
-            'The first night, as soon as the corporal had conducted my uncle Toby upstairs, which was <<about 10|9f>> - Mrs. Wadman threw herself into her arm chair'
+            'The first night, as soon as the corporal had conducted my uncle Toby upstairs, which was <<about 10|9e:1>> - Mrs. Wadman threw herself into her arm chair'
           ],
           [
             1,
             'Timestr [22:00]: ten',
-            'By <<ten|9e>>, Quoyle was drunk. The crowd was enormous, crushed together so densely that Nutbeem could not force his way down the hall or to the door and urinated on the remaining potato chips in the blue barrel, setting a popular example.'
+            'By <<ten|9e:1>>, Quoyle was drunk. The crowd was enormous, crushed together so densely that Nutbeem could not force his way down the hall or to the door and urinated on the remaining potato chips in the blue barrel, setting a popular example.'
           ],
           [
             1,
@@ -7092,7 +7092,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [23:05]: 11.05',
-            'It was <<11.05|9f>>, five minutes later than my habitual bedtime. I felt. I felt guilty at being still up, but the past kept pricking at me and I knew that all the events of those nineteen days in July were astir within me, like the loosening phlegm in an attack of bronchitis'
+            'It was <<11.05|9c:1>>, five minutes later than my habitual bedtime. I felt. I felt guilty at being still up, but the past kept pricking at me and I knew that all the events of those nineteen days in July were astir within me, like the loosening phlegm in an attack of bronchitis'
           ],
           [
             1,
@@ -7267,7 +7267,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [23:42]: 11.42',
-            'At <<11.42|9m:1>> then the signal\'s nearly due And the passengers are frantic to a man- Then Skimble will appear and he\'ll saunter to the rear:'
+            'At <<11.42|9m>> then the signal\'s nearly due And the passengers are frantic to a man- Then Skimble will appear and he\'ll saunter to the rear:'
           ],
           [
             1,

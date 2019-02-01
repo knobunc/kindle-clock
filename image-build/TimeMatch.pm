@@ -147,7 +147,11 @@ my $in_the_re = qr{ ( ( in \s+ the \s+ ( (?! same) \w+ \s+ ){0,4}?
                       | ( this | that ) \s+ ( \w+ \s+ ){0,2}?
                       | $hy \s* (?!day|night)                         # Don't match five-day
                       )
-                      ( $timeday_re | $ampm_only_re )                 # in the am
+                      $timeday_re
+                    | ( in \s+ the \s+
+                      | ( this | that ) \s+
+                      )
+                      $ampm_only_re                                   # in the am
                     | at \s+ ( dawn | dusk | night | sunset | sunrise )
                     )
                   }xin;
@@ -399,7 +403,7 @@ my $never_follow_times_exp_re =
         | cubic | square
         | ( hundred | thousand | million | billion ) (th)?
         | dozen | score | gross | grand
-        | ( \w+ \s+)? $some_time_periods_re | (full | a) \s+ day
+        | ( \w+ \s+)? ( $some_time_periods_re | days ) | (full | a) \s+ day
         | (light (\s+|$hy))? $time_periods_re
         | final | false | true
         | (cosmological \s+)? (century | centuries | decade | millenium | millenia)
@@ -422,7 +426,7 @@ my $never_follow_times_exp_re =
         | AD | CE | BC | BCE | A\.D\. | C\.E\. | B\.C\. | B\.C\.E\. | B \s+ C | A \s+ D
         | giant | tiny | large | small | layer
         | of \s+ them
-        | step | pace
+        | step | pace | place
         )
         s?
       | [.,] \d
@@ -519,7 +523,8 @@ sub do_match {
     $is_agey = 0;
     $is_agey = 1
         if $line =~
-            m{ \b (young | small ) \s+ (girl | boy | child | teen) \b
+            m{ \b (young | small) \s+ (girl | boy | child | teen) \b
+             | \b so \s+ (young | small) \b
              }xin;
 
     ## Mask out some patterns and apply them first
@@ -1689,20 +1694,30 @@ sub get_matches {
                        (?<ap> $ampm_ph_re )?
                 )
                 ( $never_follow_times_re (*SKIP)(*FAIL) )?
+                (?<po> (?<bw> \s+ ( last | yesterday | $weekday_re | he | she | they ) \b
+                       | \s* $hy+ \s+
+                       | , \s+
+                       )?
+                )
                 $ba_re
                 (?{ $branch = "9m:TIMEY";
-                    my ($hh, $mm, $sep, $pr, $ap) = ($+{hh}, $+{mm}, $+{sep}, $+{pr}, $+{ap});
-                    if ($hh =~ m{\A $hour_word_re \z}xin) {
+                    my ($hh, $mm, $sep, $pr, $ap, $bw) = @+{qw( hh mm sep pr ap bw )};
+                    if ($bw) {
+                        $branch = "9e";
+                    }
+                    elsif ($hh =~ m{\A $hour_word_re \z}xin) {
                         # If we have words then we want this to be stronger
-                        $branch = "9m:1";
+                        $branch = "9t";
 
-                        if (not $mm and ( $pr =~ m{\A from \b }xin or $hh =~ m{\A $low_num_re \z}xin )) {
-                            $branch = "9m:TIMEY";
+                        if (not $mm and
+                            ( $pr =~ m{\A from \b }xin or $hh =~ m{\A $low_num_re \z}xin ))
+                        {
+                            $branch = "9t:TIMEY";
                         }
                     }
                     elsif ($sep or $ap) {
                         # If we have a separator or ampm then this is stronger
-                        $branch = "9m:1";
+                        $branch = "9m";
                     }
                     elsif (defined $mm and is_yearish($hh.$mm)) {
                         # Weaken it if it looks like a year
@@ -1713,8 +1728,8 @@ sub get_matches {
 
     push @r,qr{ (?<pr>
                   ( \A | $aq | $phrase_punc \s+ )
-                  ( ( $twas_re | only | because | and ) \s+)?
-                  (?<mod> ( already ) \s+ )?
+                  ( ( $twas_re | only | because | and | maybe ) \s+)?
+                  (?<mod> ( already | nightly | daily ) ,? \s+ )?
                 )
                 (?<t1>
                   (?<rl> $rel_at_words | close \s+ upon | till | by ) \s+
@@ -1726,9 +1741,14 @@ sub get_matches {
                 (?! $never_follow_times_re
                 | : \d
                 )
+                (?<po> (?<bw> \s+ ( last | yesterday | $weekday_re | he | she | they ) \b
+                       | \s* $hy+ \s+
+                       | , \s+
+                       )?
+                )?
                 $ba_re
                 (?{ $branch = "9:TIMEY";
-                    my ($mod, $xx, $sep, $rl, $hh) = @+{qw( mod xx sep rl hh )};
+                    my ($mod, $xx, $sep, $rl, $hh, $bw) = @+{qw( mod xx sep rl hh bw )};
                     if (is_yearish($xx)) {
                         $branch = "9n:0";
                     }
@@ -1738,6 +1758,9 @@ sub get_matches {
                     }
                     elsif ($mod) {
                         $branch = "9s";
+                    }
+                    elsif ($bw) {
+                        $branch = "9e:1";
                     }
                     elsif ($is_agey and
                            defined $hh and

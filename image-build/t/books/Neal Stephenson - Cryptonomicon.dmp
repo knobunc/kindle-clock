@@ -236,7 +236,7 @@ $VAR1 = [
           [
             1,
             '[20:06] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/9780061792571_Chapter_38.xhtml) - twenty-six',
-            "Goto Dengo, at <<twenty-six|9:0>>, is one of the old hands here\x{2014}he came back from Shanghai
+            "Goto Dengo, at <<twenty-six|9e:1>>, is one of the old hands here\x{2014}he came back from Shanghai
                to be a leader and an example to them\x{2014}and he watches their faces, these faces he has
                known since he was a child, never happier than at this moment, glowing like cherry
                petals in the grey world of cloud, ocean, and painted steel.",
@@ -398,8 +398,8 @@ $VAR1 = [
           [
             1,
             '[21:10] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/9780061792571_Chapter_46.xhtml) - 2110',
-            "The young naval analyst continues. \x{201c}At <<2110|9m:0>>, Wilhelmshaven replied with a message
-               instructing OL Beck to interrogate the prisoners immediately. At <<0150|9m:0>>, Beck replied
+            "The young naval analyst continues. \x{201c}At <<2110|9e>>, Wilhelmshaven replied with a message
+               instructing OL Beck to interrogate the prisoners immediately. At <<0150|9e>>, Beck replied
                with a message stating that in his opinion the prisoners belonged to some sort of
                special naval intelligence unit.\x{201d}",
           ],
