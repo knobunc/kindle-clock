@@ -64,4 +64,9 @@ $VAR1 = [
             '[> 00:00] Speak - Laurie Halse Anderson.epub (OEBPS/Text/part0007.html) - past midnight',
             "I lie down on the couch to watch TV, but my eyes close and I\x{2019}m out. When I wake up, it\x{2019}s <<past midnight|13>>, and someone has covered me with an afghan. The house is quiet, dark. Cool breeze slides in between the curtains.",
           ],
+          [
+            1,
+            "[ap 00:15] Speak - Laurie Halse Anderson.epub (OEBPS/Text/part0012.html) - 12\x{2013}15",
+            "I am also shocked by adults who feel that rape is an inappropriate topic to discuss with teenagers. According to the U.S. Department of Justice, 44 percent of rape victims are under the age of 18 and 46 percent of those victims are between the ages of <<12\x{2013}15|5a:0>>. It makes adults uncomfortable to acknowledge this, but our inability to speak clearly and openly about sexual issues endangers our children. It is immoral not to discuss this with them.",
+          ],
         ];

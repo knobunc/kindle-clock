@@ -87,7 +87,7 @@ $VAR1 = [
           [
             1,
             '[ap > 11:00] A Taste for Death - P. D. James.epub (OEBPS/Jame_9780307758989_epub_c07_r1.htm) - Shortly after eleven',
-            '<<Shortly after eleven|9e>> she heard the doorbell ring, then the groaning of the lift and a soft clatter as the grille door closed. The door of her sitting room opened and Stephen Lampart came quietly in.',
+            '<<Shortly after eleven|9:0>> she heard the doorbell ring, then the groaning of the lift and a soft clatter as the grille door closed. The door of her sitting room opened and Stephen Lampart came quietly in.',
           ],
           [
             1,
@@ -168,6 +168,11 @@ $VAR1 = [
             1,
             '[00:00] A Taste for Death - P. D. James.epub (OEBPS/Jame_9780307758989_epub_c13_r1.htm) - midnight',
             "\x{201c}I don\x{2019}t think so, but I wouldn\x{2019}t have seen him anyway. After I got back I changed and then took a taxi to Pembroke Lodge. That\x{2019}s my cousin\x{2019}s nursing home in Hampstead. He\x{2019}s an obstetrician, Mr. Stephen Lampart. I was with him until <<midnight|13>>, when he brought me home. We drove to Cookham to have dinner at the Black Swan. We left Pembroke Lodge at <<seven forty|5b>> and drove straight to the Black Swan, I mean, we didn\x{2019}t stop on the way.\x{201d}",
+          ],
+          [
+            1,
+            '[ap 02:30] A Taste for Death - P. D. James.epub (OEBPS/Jame_9780307758989_epub_c13_r1.htm) - two thirty',
+            "\x{201c}I myself was expecting to see Sir Paul yesterday afternoon. He had made an appointment at <<two thirty|5b>> with me and two of my colleagues on the financial side of the firm to discuss certain arrangements made necessary, I understand, by his decision to give up his parliamentary career. But he rang yesterday shortly before ten to cancel the appointment and to make a new appointment for the same time today. I hadn\x{2019}t myself arrived at the office when he telephoned, but he left a message with my clerk. If you are able to prove that his death was murder, then I naturally accept that every detail of his affairs will properly come under scrutiny. Both Lady Ursula and Lady Berowne would wish that they should.\x{201d}",
           ],
           [
             1,
@@ -446,7 +451,7 @@ $VAR1 = [
           [
             1,
             '[22:00] A Taste for Death - P. D. James.epub (OEBPS/Jame_9780307758989_epub_c24_r1.htm) - ten at night',
-            "\x{201c}Only a very general one, but as far as it went it corresponded more or less with Berowne. I\x{2019}m satisfied myself that it was his car and that he was there. But I admit there\x{2019}s no proof. It was <<ten at night|9a>> when the boy glimpsed him, and there are no lights in the lane. I couldn\x{2019}t be certain that he was at the Black Swan when Diana Travers drowned, and as you\x{2019}ll have noticed from my piece, I very carefully didn\x{2019}t say that he was.\x{201d}",
+            "\x{201c}Only a very general one, but as far as it went it corresponded more or less with Berowne. I\x{2019}m satisfied myself that it was his car and that he was there. But I admit there\x{2019}s no proof. It was <<ten at night|5>> when the boy glimpsed him, and there are no lights in the lane. I couldn\x{2019}t be certain that he was at the Black Swan when Diana Travers drowned, and as you\x{2019}ll have noticed from my piece, I very carefully didn\x{2019}t say that he was.\x{201d}",
           ],
           [
             1,
@@ -660,7 +665,7 @@ $VAR1 = [
           [
             1,
             '[ap > 06:00] A Taste for Death - P. D. James.epub (OEBPS/Jame_9780307758989_epub_c39_r1.htm) - shortly after six',
-            "Holland Park was only a few minutes\x{2019} walk from Charles Shannon House. Kate had woken early, <<shortly after six|9e>>, and by <<seven|9:1>> had breakfasted and was impatient to get away. After prowling restlessly round an already immaculate flat trying to find jobs to occupy the time, she stuffed a paper bag of crumbs for the birds in her jacket pocket and left three-quarters of an hour early, telling herself that it would be less frustrating to walk in the park than to stay cooped up wondering whether Carole Washburn would actually turn up, whether she might already be regretting her promise.",
+            "Holland Park was only a few minutes\x{2019} walk from Charles Shannon House. Kate had woken early, <<shortly after six|9:1>>, and by <<seven|9:1>> had breakfasted and was impatient to get away. After prowling restlessly round an already immaculate flat trying to find jobs to occupy the time, she stuffed a paper bag of crumbs for the birds in her jacket pocket and left three-quarters of an hour early, telling herself that it would be less frustrating to walk in the park than to stay cooped up wondering whether Carole Washburn would actually turn up, whether she might already be regretting her promise.",
           ],
           [
             1,

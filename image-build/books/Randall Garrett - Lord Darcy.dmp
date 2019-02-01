@@ -57,7 +57,7 @@ $VAR1 = [
           [
             1,
             '[ap ~ 11:30] Lord Darcy - Randall Garrett.epub (Lord_Darcy_split_005.html) - About eleven thirty',
-            '"In a moment, me lord," Master Sean said apologetically. "In a moment." While the other three watched, the sorcerer went through more spells with the button and the robe, although none were so spectacular as the first demonstration. Finally, Master Sean said: "<<About eleven thirty|9e>> last night they were torn apart, me lord. But I shouldn\'t like to make it any more definite than to say between <<eleven|90>> and <<midnight|13>>. The speed with which it returned to its place shows that it was ripped off very rapidly, however."',
+            '"In a moment, me lord," Master Sean said apologetically. "In a moment." While the other three watched, the sorcerer went through more spells with the button and the robe, although none were so spectacular as the first demonstration. Finally, Master Sean said: "<<About eleven thirty|9:1>> last night they were torn apart, me lord. But I shouldn\'t like to make it any more definite than to say between <<eleven|90>> and <<midnight|13>>. The speed with which it returned to its place shows that it was ripped off very rapidly, however."',
           ],
           [
             1,
@@ -99,7 +99,7 @@ The priest glanced at his watch. "<<Four o\'clock|6>>?"
           [
             1,
             '[06:00] Lord Darcy - Randall Garrett.epub (Lord_Darcy_split_007.html) - six in the morning',
-            'Lord Darcy vaguely heard a bell. Bon-n-n-ng. Bon-n-n-ng. Bon-n-n-ng. Then a pause. During the pause, he drifted off again into sleep, but it was only a matter of seconds before the bell rang three more times. Lord Darcy came slightly more awake this time, but the second pause was almost enough to allow him to return to comfortable oblivion. At the third repetition of the three strokes, he recognized that the Angelus was ringing. It was <<six in the morning|9a>>, and that meant that he had had exactly five hours sleep. During the final ringing of the nine strokes, he muttered the prayers rapidly, crossed himself, and closed his eyes again, resolving to go back to sleep until <<nine|9c:1>>.',
+            'Lord Darcy vaguely heard a bell. Bon-n-n-ng. Bon-n-n-ng. Bon-n-n-ng. Then a pause. During the pause, he drifted off again into sleep, but it was only a matter of seconds before the bell rang three more times. Lord Darcy came slightly more awake this time, but the second pause was almost enough to allow him to return to comfortable oblivion. At the third repetition of the three strokes, he recognized that the Angelus was ringing. It was <<six in the morning|5>>, and that meant that he had had exactly five hours sleep. During the final ringing of the nine strokes, he muttered the prayers rapidly, crossed himself, and closed his eyes again, resolving to go back to sleep until <<nine|9c:1>>.',
           ],
           [
             1,
@@ -169,7 +169,7 @@ The priest glanced at his watch. "<<Four o\'clock|6>>?"
           [
             1,
             '[ap > 09:00] Lord Darcy - Randall Garrett.epub (Lord_Darcy_split_008.html) - after nine',
-            '"Yes, I believe it is. The Marquis of London, as you may know, makes a hobby of cultivating rare and exotic herbs. Very likely he sent Bontriomphe down here to look over the displays. My lord the Marquis leaves his palace but seldom, you know. Dear me! Look at the time! Why, it\'s <<after nine|9f>>! I had no idea it was so late! I must deliver an address at <<ten this morning|9a>>, and I promised Father Quinn, my Healer, that I\'d have a short session with him before that. You must excuse me, Master Sean."',
+            '"Yes, I believe it is. The Marquis of London, as you may know, makes a hobby of cultivating rare and exotic herbs. Very likely he sent Bontriomphe down here to look over the displays. My lord the Marquis leaves his palace but seldom, you know. Dear me! Look at the time! Why, it\'s <<after nine|9f>>! I had no idea it was so late! I must deliver an address at <<ten this morning|5>>, and I promised Father Quinn, my Healer, that I\'d have a short session with him before that. You must excuse me, Master Sean."',
           ],
           [
             1,
@@ -252,6 +252,11 @@ The priest glanced at his watch. "<<Four o\'clock|6>>?"
             1,
             '[07:53] Lord Darcy - Randall Garrett.epub (Lord_Darcy_split_008.html) - seven minutes of eight this morning',
             "\"It was something I saw\x{2014}and heard,\" said Mary de Cumberland. \"At <<seven minutes of eight this morning|10>>\x{2014}I noticed the time particularly because I had an appointment for breakfast at <<eight-fifteen|5b>>\x{2014}I left my room at the hotel.\" She stopped and looked directly into his eyes. \"I have the room directly across the hall from Master Sir James'. Did you know that?\"",
+          ],
+          [
+            1,
+            '[~ 16:30] Lord Darcy - Randall Garrett.epub (Lord_Darcy_split_008.html) - Evensong',
+            '"My lords the Bishops of Winchester and Carlisle have retired, Your Grace. The Benedictine Fathers have gone to St. Paul\'s to chant <<Evensong|13>> with the Chapter; they were so good as to inform me that because of the fog they will spend the night at the Chapter House with their brethren. Sir Lyon Grey is remaining at his room in the Royal Steward tonight. Master Sean O Lochlainn has sent word that he is temporarily indisposed."',
           ],
           [
             1,
@@ -621,7 +626,7 @@ Lord Darcy and Master Sean stood in the courtyard below the Red Tower gazing at 
           [
             1,
             '[16:00] Lord Darcy - Randall Garrett.epub (Lord_Darcy_split_015.html) - four this afternoon',
-            '"He finally found the barman who went off duty at <<four this afternoon|9a>>. Fellow named Cambray. He knew the deceased by sight and name. Seems the Captain came in every week, had a few drinks and left."',
+            '"He finally found the barman who went off duty at <<four this afternoon|5>>. Fellow named Cambray. He knew the deceased by sight and name. Seems the Captain came in every week, had a few drinks and left."',
           ],
           [
             1,

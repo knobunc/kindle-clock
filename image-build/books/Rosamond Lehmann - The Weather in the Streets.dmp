@@ -21,7 +21,7 @@ $VAR1 = [
           [
             1,
             '[ap ~ 10:00] The Weather in the Streets - Rosamond Lehmann.epub (OEBPS/Lehmann_Weather_3P_MD-2.xhtml) - about ten',
-            "\x{201c}Just one thing. Later on, <<about ten|9e>>, if you\x{2019}d ring up Anna at the studio and explain I can\x{2019}t come.\x{201d}",
+            "\x{201c}Just one thing. Later on, <<about ten|9:0>>, if you\x{2019}d ring up Anna at the studio and explain I can\x{2019}t come.\x{201d}",
           ],
           [
             1,
@@ -67,6 +67,11 @@ At <<ten o\x{2019}clock|6>> the telephone rang in the hall.
           ],
           [
             1,
+            '[00:00] The Weather in the Streets - Rosamond Lehmann.epub (OEBPS/Lehmann_Weather_3P_MD-2.xhtml) - midnight',
+            'Dark crouched the two old cottages facing the green, housing on the one hand Miss Toomer and Miss Mivart, sleeping light, never quite warm enough in bed, poking their noses up at the sound of a late car (what faces if they could see one coming back at <<midnight|13>> with Rollo); empty on the other of Major and Mrs. Skinner.',
+          ],
+          [
+            1,
             "[ap 10:00] The Weather in the Streets - Rosamond Lehmann.epub (OEBPS/Lehmann_Weather_3P_MD-3.xhtml) - Ten o\x{2019}clock",
             "\x{201c}Well, I don\x{2019}t quite know where I\x{2019}ll be. I\x{2019}ll have dinner with my people, you see, and not go to the film \x{2026} Of course I don\x{2019}t mind a bit, I\x{2019}ve seen three films this week.\x{201d} I had\x{2014}it was all I could do. \x{201c}The best thing\x{2019}ll be if I come back here \x{2026}\x{201d} Quickly planning it all. \x{201c}Call for me here.\x{201d}
 \x{201c}Right, I will. <<Ten o\x{2019}clock|6>> then.\x{201d}
@@ -104,7 +109,7 @@ His head looked round the room quickly, over my head. \x{201c}Not here,\x{201d} 
           [
             1,
             '[11:00] The Weather in the Streets - Rosamond Lehmann.epub (OEBPS/Lehmann_Weather_3P_MD-3.xhtml) - eleven in the morning',
-            "He was rather a long time, and I began to feel muffled, weighed down by thick stuffs and silence. I thought: He\x{2019}ll never come back; and when he did his figure seemed to come at me from very far away, dream-like and dwindled, making his way back along a tunnel \x{2026} I dare say it was champagne at <<eleven in the morning|9a>>. I remember the waiter\x{2019}s face who brought the drinks\x{2014}pale, with high cheekbones and fine features, faintly smiling, as if Rollo was a favourite.",
+            "He was rather a long time, and I began to feel muffled, weighed down by thick stuffs and silence. I thought: He\x{2019}ll never come back; and when he did his figure seemed to come at me from very far away, dream-like and dwindled, making his way back along a tunnel \x{2026} I dare say it was champagne at <<eleven in the morning|5>>. I remember the waiter\x{2019}s face who brought the drinks\x{2014}pale, with high cheekbones and fine features, faintly smiling, as if Rollo was a favourite.",
           ],
           [
             1,
@@ -158,6 +163,11 @@ His head looked round the room quickly, over my head. \x{201c}Not here,\x{201d} 
           ],
           [
             1,
+            '[~ 00:00] The Weather in the Streets - Rosamond Lehmann.epub (OEBPS/Lehmann_Weather_3P_MD-3.xhtml) - about midnight',
+            "And he was silent, we all were \x{2026} We went indoors and had more drinks. We found an ancient piano in the bar, and Anna played, and we yelled songs, and Adrian did a mad dance with Colin. Kurt suddenly began to sing to himself; his voice was beautiful, he sang louder, alone, soon, German songs, and everybody came round to listen. Adrian borrowed my hanky to wipe his eyes, and wrung my hand with feeling too deep for words \x{2026} By the time we left we were all fairly drunk, with varying results. Anna seems to whisk, fly about on her thin legs like a cat, very quiet and amused. Nothing happens to Rollo except that he gets more so \x{2026} seems to give out double strength, like an electric radiator switched on full from half. He beams and towers and is very much in control of his wits \x{2026} luckily that night; it was a crazy car load, tearing through the lanes. The roof was open, and Colin stood up in the back, hailing every passer-by with free courtly gestures. Adrian found our straw shopping bags we\x{2019}d brought stuffed with bathing things in case of another dip, and he put one on his head, one on Kurt\x{2019}s, the handles under their chins. God! they looked funny \x{2026} We had to stop once for them all to get out; Adrian made a wild rushing leap at a quick-set hedge and landed on top, stuck fast, his long limbs waving. We tried to drag him off, and he kept shouting, \x{201c}I\x{2019}m an eagle! I\x{2019}m spread! I\x{2019}m an eagle!\x{201d} And Anna and I gave up hauling on his ankles and sank limp, tortured with laughter, on the bank \x{2026} Rollo seemed to assume the role of host or manager, I remember that, and looked after everybody, giving sudden bursts of laughter now and then to himself, shepherding them into the house. He started off for London <<about midnight|13>> with Adrian and Carl; they had to get back, Kurt was travelling back to Germany next day. They were getting subdued and sleepy, but Colin, who was with us for the week-end, was still going strong. I kissed Rollo good-night and he was embarrassed till he realised kissing was going on all round, and then he gave me a kiss and Anna one too, and Colin and he shook hands, both hands, for a considerable time.",
+          ],
+          [
+            1,
             '[00:00] The Weather in the Streets - Rosamond Lehmann.epub (OEBPS/Lehmann_Weather_3P_MD-3.xhtml) - midnight',
             "What a contrast, these last ten days. Jocelyn, everything he stands for, the whole colour and temper of his mind\x{2014}politically indignant and convinced, bigoted, really, so much the reverse of complacent: Europe not England his country, his point of departure in argument and discussion; his rabid class-consciousness, his ill-fitting clothes, just clothes\x{2014}necessities\x{2014}unrelated to him inside them, his earnest, <<midnight|13>>-oilish, physically arid look, his unemotional affection for me \x{2026} What a contrast! \x{2026} A kind of life I\x{2019}ve never shared in before; anti-luxurious, a bit antiseptic, a bit humourless \x{2026} but cheerful, friendly, smoothly regulated. A life of belief\x{2014}that\x{2019}s the true difference. Jocelyn and his kind believe in themselves, in their work, in a future they must contribute to. There\x{2019}s no principle of belief in Colin, Anna and those, nor in Rollo \x{2026} In Simon it\x{2019}s different again, an unconscious power, without direction, or this awful moral fervour. It was a frugal life, funds barely eked out, drinks and expeditions carefully communal \x{2026} No one got on anybody else\x{2019}s nerves \x{2026} Johann and Willi, the Austrian friends, so neat and spotless with one change of linen, so easily happy, sensitive, delicate-mannered; so much the antithesis of what is coarse or oafish \x{2026} Willi three years without work, Johann\x{2019}s elder brother shot in the Vienna rising \x{2026} I should think more about such fates and struggles. If I were free I would, perhaps \x{2026} Willi taught me some German. He\x{2019}s charming, with his lazy blue eyes and ravishing teeth. Pale Johann played in the evenings on the caf\x{e9} piano. Willi\x{2019}s plump Lisel from the village came boating with us and fell in \x{2026} The tow-headed child at the villa where we lodged, with his page\x{2019}s haircut, his white cat, his passion for Jocelyn\x{2019}s typewriter \x{2026} Our long swims in that heavy peacock-blue water, the pert, theatrical little steamers, the caf\x{e9} on the jetty, the moon on the water \x{2026} Rollo\x{2019}s heavenly letter coming, far the nicest he\x{2019}s ever written, a poignant letter \x{2026} I read it again and again, almost incredulous. Jocelyn lent me books; I began to think again about writing \x{2026} Took some notes for my lake story. I should have done more if I hadn\x{2019}t begun to get worried \x{2026}",
           ],
@@ -194,7 +204,7 @@ His head looked round the room quickly, over my head. \x{201c}Not here,\x{201d} 
           [
             1,
             '[ap ~ 05:00] The Weather in the Streets - Rosamond Lehmann.epub (OEBPS/Lehmann_Weather_3P_MD-4.xhtml) - About five',
-            "<<About five|9e>> she left the park. On her way home she stopped at a snack bar and bought sandwiches for her supper. Sometimes she had a glass of ginger beer. Oh, delicious! More, more \x{2026}",
+            "<<About five|9:0>> she left the park. On her way home she stopped at a snack bar and bought sandwiches for her supper. Sometimes she had a glass of ginger beer. Oh, delicious! More, more \x{2026}",
           ],
           [
             1,
@@ -216,7 +226,7 @@ His head looked round the room quickly, over my head. \x{201c}Not here,\x{201d} 
           [
             1,
             '[ap ~ 08:00] The Weather in the Streets - Rosamond Lehmann.epub (OEBPS/Lehmann_Weather_3P_MD-4.xhtml) - About eight',
-            '<<About eight|9e>> she got up again and dressed and went out and took a bus to Leicester Square. An hour or so of oblivion at the Empire, and all may be well.',
+            '<<About eight|9:1>> she got up again and dressed and went out and took a bus to Leicester Square. An hour or so of oblivion at the Empire, and all may be well.',
           ],
           [
             1,
@@ -233,7 +243,7 @@ His head looked round the room quickly, over my head. \x{201c}Not here,\x{201d} 
           [
             1,
             '[ap ~ 11:00] The Weather in the Streets - Rosamond Lehmann.epub (OEBPS/Lehmann_Weather_3P_MD-4.xhtml) - About eleven',
-            '<<About eleven|9e>> he brought up a delicious meal on two trays. They ate it, in silence, concentrating on food.',
+            '<<About eleven|9:0>> he brought up a delicious meal on two trays. They ate it, in silence, concentrating on food.',
           ],
           [
             1,
@@ -265,7 +275,7 @@ He sat and smoked his pipe.",
           [
             1,
             '[02:00] The Weather in the Streets - Rosamond Lehmann.epub (OEBPS/Lehmann_Weather_3P_MD-5.xhtml) - two this morning',
-            "Wanting to say: But none of that matters, for God\x{2019}s sake don\x{2019}t think of me, don\x{2019}t sympathise\x{2014}it\x{2019}s not of the least importance \x{2026} Forgive me for my letter \x{2026} The letter dashed off in frenzy the night of Rollo\x{2019}s accident had crossed the one from Anna saying Simon died peacefully at <<two this morning|9a>>. Hers was so calm, restrained, and when she got my yell she sent a pre-paid telegram saying so distressed wire news at once. She\x{2019}d behaved too well. Oh, Anna! \x{2026} If she wouldn\x{2019}t look at us as if we were shadows.",
+            "Wanting to say: But none of that matters, for God\x{2019}s sake don\x{2019}t think of me, don\x{2019}t sympathise\x{2014}it\x{2019}s not of the least importance \x{2026} Forgive me for my letter \x{2026} The letter dashed off in frenzy the night of Rollo\x{2019}s accident had crossed the one from Anna saying Simon died peacefully at <<two this morning|5>>. Hers was so calm, restrained, and when she got my yell she sent a pre-paid telegram saying so distressed wire news at once. She\x{2019}d behaved too well. Oh, Anna! \x{2026} If she wouldn\x{2019}t look at us as if we were shadows.",
           ],
           [
             1,

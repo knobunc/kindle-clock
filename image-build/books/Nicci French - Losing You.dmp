@@ -116,7 +116,7 @@ $VAR1 = [
           [
             1,
             '[ap 11:17] Losing You - Nicci French.epub (OEBPS/html/chapter01_split_000.html) - 11.17',
-            'The sheep clock told me it was <<11.17|9f>>, and the small screen on the camcorder had the time in the bottom corner, as well: <<11.17|9p>>. It must have been just when the first guests were about to show up. I pressed my fists into my eyeballs and tried to think, but what I was thinking made no sense.',
+            'The sheep clock told me it was <<11.17|9c:1>>, and the small screen on the camcorder had the time in the bottom corner, as well: <<11.17|9p>>. It must have been just when the first guests were about to show up. I pressed my fists into my eyeballs and tried to think, but what I was thinking made no sense.',
           ],
           [
             1,
@@ -218,7 +218,7 @@ He looked up at the clock on the wall. <<Twenty to three|10a:1>>.
             1,
             '[ap ~ 04:00] Losing You - Nicci French.epub (OEBPS/html/chapter01a.html) - About four',
             "\x{2018}How long has it been going on?\x{2019}
-\x{2018}<<About four|9e>>, five months. Since the summer.\x{2019}
+\x{2018}<<About four|9:0>>, five months. Since the summer.\x{2019}
 Such a long time, I thought. So many days of keeping it from me, of deceiving me, of pretending she was somewhere else. I thought of all the little things that Charlie confided \x{2013} and she\x{2019}d held this back.",
           ],
           [

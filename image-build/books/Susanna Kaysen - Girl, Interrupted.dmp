@@ -7,7 +7,7 @@ $VAR1 = [
           [
             1,
             '[ap 10:00] Girl, Interrupted - Susanna Kaysen.epub (OEBPS/Kays_9780804151115_epub_c04_r1.htm) - ten',
-            "I had an inspiration once. I woke up one morning and I knew that today I had to swallow fifty aspirin. It was my task: my job for the day. I lined them up on my desk and took them one by one, counting. But it\x{2019}s not the same as what she did. I could have stopped, at <<ten|9e>>, or at thirty. And I could have done what I did do, which was go onto the street and faint. Fifty aspirin is a lot of aspirin, but going onto the street and fainting is like putting the gun back in the drawer.",
+            "I had an inspiration once. I woke up one morning and I knew that today I had to swallow fifty aspirin. It was my task: my job for the day. I lined them up on my desk and took them one by one, counting. But it\x{2019}s not the same as what she did. I could have stopped, at <<ten|9:0>>, or at thirty. And I could have done what I did do, which was go onto the street and faint. Fifty aspirin is a lot of aspirin, but going onto the street and fainting is like putting the gun back in the drawer.",
           ],
           [
             1,
@@ -78,6 +78,11 @@ $VAR1 = [
             1,
             '[ap 03:15] Girl, Interrupted - Susanna Kaysen.epub (OEBPS/Kays_9780804151115_epub_c21_r1.htm) - three-fifteen',
             "Between day and night was a dark universe called evening, which began at <<three-fifteen|5b>>, when the day staff retired to the living room to gossip about us with the evening staff. At <<three-thirty|5b>> everyone emerged. Power had been transferred. From then until <<eleven|9c:1>>, when the comfy women took over, we were in Mrs. McWeeney\x{2019}s hands.",
+          ],
+          [
+            1,
+            '[ap 03:15] Girl, Interrupted - Susanna Kaysen.epub (OEBPS/Kays_9780804151115_epub_c21_r1.htm) - three-fifteen',
+            'Perhaps it was Mrs. McWeeney who made dusk such a dangerous time. No matter the season, dusk began at <<three-fifteen|5b>> with her arrival.',
           ],
           [
             1,

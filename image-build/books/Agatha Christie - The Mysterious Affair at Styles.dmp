@@ -84,13 +84,13 @@ $VAR1 = [
             1,
             '[ap ~ 04:00] The Mysterious Affair at Styles - Agatha Christie.epub (OEBPS/chapter05.xhtml) - About four',
             "\x{2018}What time was it when she first called you?\x{2019}
-\x{2018}<<About four|9e>>, I should say, sir.\x{2019}
+\x{2018}<<About four|9:1>>, I should say, sir.\x{2019}
 \x{2018}Not earlier? Couldn\x{2019}t it have been <<about half-past three|10>>?\x{2019}",
           ],
           [
             1,
             '[ap ~ 04:00] The Mysterious Affair at Styles - Agatha Christie.epub (OEBPS/chapter05.xhtml) - About four',
-            "\x{2018}<<About four|9e>>, I should say, sir.\x{2019}
+            "\x{2018}<<About four|9:0>>, I should say, sir.\x{2019}
 \x{2018}Not earlier? Couldn\x{2019}t it have been <<about half-past three|10>>?\x{2019}
 \x{2018}No, I shouldn\x{2019}t say so, sir. It would be more likely to be a bit after four\x{2014}not before it.\x{2019}",
           ],
@@ -158,5 +158,12 @@ $VAR1 = [
             1,
             "[ap 06:00] The Mysterious Affair at Styles - Agatha Christie.epub (OEBPS/chapter13.xhtml) - six o\x{2019}clock",
             "\x{2018}On Monday Mrs Inglethorp will take the last dose of her medicine. On Monday, therefore, at <<six o\x{2019}clock|6>>, Alfred Inglethorp arranges to be seen by a number of people at a spot far removed from the village. Miss Howard has previously made up a cock-and-bull story about him and Mrs Raikes to account for his holding his tongue afterwards. At <<six o\x{2019}clock|6>>, Miss Howard, disguised as Alfred Inglethorp, enters the chemist\x{2019}s shop, with her story about a dog, obtains the strychnine, and writes the name of Alfred Inglethorp in John\x{2019}s handwriting, which she had previously studied carefully.",
+          ],
+          [
+            1,
+            '[ap 04:50] The Mysterious Affair at Styles - Agatha Christie.epub (OEBPS/theagathachristiecollection.xhtml) - 4.50',
+            "A Pocket Full of Rye
+<<4.50|5a:0>> from Paddington
+The Mirror Crack\x{2019}d from Side to Side",
           ],
         ];

@@ -62,7 +62,7 @@ $VAR1 = [
           [
             1,
             '[ap < 07:00] The Magician\'s Wife - Brian Moore.epub (ops/xhtml/chapter_1.html) - Shortly before seven',
-            "<<Shortly before seven|9e>>, having completed her toilette with the aid of Fran\x{e7}oise, the old but skilful lady\x{2019}s maid, Emmeline went out into the sitting room. Her husband, following instructions which had been given him earlier, had dressed for this first evening in court dress of white knee breeches with white silk stockings and a dress frock coat. She saw him rub his hands together for warmth as he stared at his image in the pier glass which was placed in a corner of the sitting room. The fire had long gone out.",
+            "<<Shortly before seven|9:0>>, having completed her toilette with the aid of Fran\x{e7}oise, the old but skilful lady\x{2019}s maid, Emmeline went out into the sitting room. Her husband, following instructions which had been given him earlier, had dressed for this first evening in court dress of white knee breeches with white silk stockings and a dress frock coat. She saw him rub his hands together for warmth as he stared at his image in the pier glass which was placed in a corner of the sitting room. The fire had long gone out.",
           ],
           [
             1,
@@ -107,7 +107,7 @@ $VAR1 = [
           [
             1,
             '[ap 07:00] The Magician\'s Wife - Brian Moore.epub (ops/xhtml/chapter_11.html) - seven',
-            'At <<seven|9e>>, as though an alarm had gone off, Lambert woke and came into her room. He went to her dressing table and peering in the mirror, removed his hair net and carefully combed his hair.',
+            'At <<seven|9m:0>>, as though an alarm had gone off, Lambert woke and came into her room. He went to her dressing table and peering in the mirror, removed his hair net and carefully combed his hair.',
           ],
           [
             1,
@@ -306,6 +306,6 @@ $VAR1 = [
           [
             1,
             '[ap < 04:00] The Magician\'s Wife - Brian Moore.epub (ops/xhtml/chapter_9.html) - shortly before four',
-            "Deniau came down into the courtyard, <<shortly before four|9e>>, watching as Lambert rehearsed his and Emmeline\x{2019}s performance, for the eighth time. When Lambert had finished Deniau applauded, then vaulted on to the stage and kissed Emmeline\x{2019}s hand, congratulating her. \x{2018}Wonderful! No magician in history has had so beautiful a foil. And now I want to ask one last favour of you, dear Madame. As Bou-Aziz has already arrived, we are planning a dinner for him this evening and we very much hope you will attend.\x{2019}",
+            "Deniau came down into the courtyard, <<shortly before four|9:0>>, watching as Lambert rehearsed his and Emmeline\x{2019}s performance, for the eighth time. When Lambert had finished Deniau applauded, then vaulted on to the stage and kissed Emmeline\x{2019}s hand, congratulating her. \x{2018}Wonderful! No magician in history has had so beautiful a foil. And now I want to ask one last favour of you, dear Madame. As Bou-Aziz has already arrived, we are planning a dinner for him this evening and we very much hope you will attend.\x{2019}",
           ],
         ];

@@ -1,13 +1,21 @@
 $VAR1 = [
           [
             1,
+            "[ap 10:23] Ctrl-Z - Andrew Norriss.epub (OPS/xhtml/chapter001.html) - twenty\x{2010}three minutes past
+         ten",
+            "Sitting at his desk, he turned on the machine and a window appeared asking him to type in his name, and then to fill in the
+         date and the time. The date was the fourteenth of May and the clock on his desk said the time was <<twenty\x{2010}three minutes past
+         ten|10>>, so he tapped in the numbers 10.23.",
+          ],
+          [
+            1,
             '[ap 10:08] Ctrl-Z - Andrew Norriss.epub (OPS/xhtml/chapter001.html) - eight minutes past ten',
             'The clock on the kitchen wall said that the time was <<eight minutes past ten|10>>.',
           ],
           [
             1,
-            '[ap 10:03] Ctrl-Z - Andrew Norriss.epub (OPS/xhtml/chapter001.html) - 10.03',
-            "The clock on his desk said the time was twenty\x{2010}two minutes past ten, but that was not the number he tapped in. Instead, he
+            "[ap 10:22] Ctrl-Z - Andrew Norriss.epub (OPS/xhtml/chapter001.html) - twenty\x{2010}two minutes past ten",
+            "The clock on his desk said the time was <<twenty\x{2010}two minutes past ten|10>>, but that was not the number he tapped in. Instead, he
          did exactly what he had done before and carefully tapped in the wrong time \x{2013} <<10.03|9p>> \x{2013} and then pressed the Control key and
          Z.",
           ],
@@ -26,17 +34,17 @@ $VAR1 = [
           [
             1,
             '[ap 10:21] Ctrl-Z - Andrew Norriss.epub (OPS/xhtml/chapter001.html) - 10.21',
-            "The clock on the right\x{2010}hand side of his desk said the time was <<10.21|9f>>. He tapped in <<10.20|5a:1>> on the keyboard, then moved the clock from the right\x{2010}hand side of his desk to the left before pushing down the Control key and
+            "The clock on the right\x{2010}hand side of his desk said the time was <<10.21|9c:1>>. He tapped in <<10.20|5a:1>> on the keyboard, then moved the clock from the right\x{2010}hand side of his desk to the left before pushing down the Control key and
          tapping the Z.",
           ],
           [
             1,
             '[ap 10:20] Ctrl-Z - Andrew Norriss.epub (OPS/xhtml/chapter001.html) - 10.20',
             "Instantly, the clock disappeared from the left\x{2010}hand side of the desk and was back on the right.
-And it said the time was <<10.20|9f>>.
+And it said the time was <<10.20|9c:1>>.
 He did the same thing again, just to check. This time, as an experiment, as well as moving the clock from one side of the
          desk to the other, he moved some books from the shelves by the window to the middle of the floor, and a pair of slippers on
-         to the bed. Sitting back at his desk, the clock said the time was <<10.22|9f>>. He tapped <<10.20|5a:1>> into the computer and pressed Ctrl\x{2010}Z
+         to the bed. Sitting back at his desk, the clock said the time was <<10.22|9c:1>>. He tapped <<10.20|5a:1>> into the computer and pressed Ctrl\x{2010}Z
          again.",
           ],
           [
@@ -44,7 +52,7 @@ He did the same thing again, just to check. This time, as an experiment, as well
             '[ap 10:22] Ctrl-Z - Andrew Norriss.epub (OPS/xhtml/chapter001.html) - 10.22',
             "He did the same thing again, just to check. This time, as an experiment, as well as moving the clock from one side of the
          desk to the other, he moved some books from the shelves by the window to the middle of the floor, and a pair of slippers on
-         to the bed. Sitting back at his desk, the clock said the time was <<10.22|9f>>. He tapped <<10.20|5a:1>> into the computer and pressed Ctrl\x{2010}Z
+         to the bed. Sitting back at his desk, the clock said the time was <<10.22|9c:1>>. He tapped <<10.20|5a:1>> into the computer and pressed Ctrl\x{2010}Z
          again.",
           ],
           [
@@ -98,9 +106,9 @@ He did the same thing again, just to check. This time, as an experiment, as well
           ],
           [
             1,
-            '[> 08:00] Ctrl-Z - Andrew Norriss.epub (OPS/xhtml/chapter005.html) - past eight in the morning',
+            "[08:25] Ctrl-Z - Andrew Norriss.epub (OPS/xhtml/chapter005.html) - twenty\x{2010}five past eight in the morning",
             "He watched some television while he finished his drink and ate the chocolate bar, then made his way upstairs to his room.
-         Sitting at his desk, he opened his laptop, set the time for twenty\x{2010}five <<past eight in the morning|9h>> and pressed Ctrl\x{2010}Z.",
+         Sitting at his desk, he opened his laptop, set the time for <<twenty\x{2010}five past eight in the morning|10>> and pressed Ctrl\x{2010}Z.",
           ],
           [
             1,
@@ -173,10 +181,10 @@ He did the same thing again, just to check. This time, as an experiment, as well
           ],
           [
             1,
-            '[ap 09:20] Ctrl-Z - Andrew Norriss.epub (OPS/xhtml/chapter012.html) - nine twenty',
+            "[ap 09:27] Ctrl-Z - Andrew Norriss.epub (OPS/xhtml/chapter012.html) - nine twenty\x{2010}seven",
             "\x{2018}Callum called while you were out,\x{2019} said Mr Howard, when Alex came back to the kitchen. \x{2018}Bad news, I\x{2019}m afraid. He says Lilly
          hurt her leg this morning, sliding down the stairs on a tea tray and they\x{2019}ve taken her to hospital. They\x{2019}re worried it might
-         start off the infection again. He said to tell you the accident happened at <<nine twenty|5b>>\x{2010}seven. He was very insistent I give
+         start off the infection again. He said to tell you the accident happened at <<nine twenty\x{2010}seven|5b>>. He was very insistent I give
          you the exact time for some reason.\x{2019}",
           ],
           [

@@ -31,11 +31,6 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap > 02:00] Barkskins - Annie Proulx.epub (ops/xhtml/ch33.html) - After two',
-            "Nicolaus said, \x{201c}<<After two|9:0>> generations of colonial self-government this was a gross error on their part. Nor did getting rid of Andros repair the situation.\x{201d}",
-          ],
-          [
-            1,
             '[12:00] Barkskins - Annie Proulx.epub (ops/xhtml/ch35.html) - noon',
             "He sucked on the pipe, knocked out the dottle and refilled it. \x{201c}It smokes hot,\x{201d} he said. \x{201c}I must get a new one.\x{201d} He took a burning stick from their <<noon|13>> fire and lit the tobacco.",
           ],
@@ -47,7 +42,7 @@ $VAR1 = [
           [
             1,
             '[ap 09:00] Barkskins - Annie Proulx.epub (ops/xhtml/ch38.html) - nine',
-            "\x{201c}Ah,\x{201d} said Beatrix. She looked at the children; Elise at <<nine|3j>> the oldest, withdrawn and shy; seven-year-old Amboise, also shy but with a winning smile; and Jinot, <<almost five|9e>>, with a plump merry face.",
+            "\x{201c}Ah,\x{201d} said Beatrix. She looked at the children; Elise at <<nine|3j>> the oldest, withdrawn and shy; seven-year-old Amboise, also shy but with a winning smile; and Jinot, <<almost five|9:0>>, with a plump merry face.",
           ],
           [
             1,
@@ -109,7 +104,7 @@ $VAR1 = [
           [
             1,
             '[ap 07:00] Barkskins - Annie Proulx.epub (ops/xhtml/ch57.html) - seven',
-            "She was homely, had no money, indeed she wore threadbare garments. But her office experience with the hat manufacturer gave her value and Lavinia hired her. She sent again for the stump farmer\x{2019}s daughter to help Annag. \x{201c}I will put your avowal of wanting to learn to the test. You are hired. You will be paid five dollars a month with a chance of more if you do well. We will be shifting to Chicago in coming months. Report to Mrs. Duncan at <<seven|9a>> tomorrow morning\x{2014}she will assign your tasks. I expect hard and accurate work from you.\x{201d}",
+            "She was homely, had no money, indeed she wore threadbare garments. But her office experience with the hat manufacturer gave her value and Lavinia hired her. She sent again for the stump farmer\x{2019}s daughter to help Annag. \x{201c}I will put your avowal of wanting to learn to the test. You are hired. You will be paid five dollars a month with a chance of more if you do well. We will be shifting to Chicago in coming months. Report to Mrs. Duncan at <<seven|3b>> tomorrow morning\x{2014}she will assign your tasks. I expect hard and accurate work from you.\x{201d}",
           ],
           [
             1,
@@ -139,7 +134,7 @@ $VAR1 = [
           [
             1,
             '[06:00] Barkskins - Annie Proulx.epub (ops/xhtml/ch59.html) - six in the morning',
-            "One morning Axel Cowes walked through the forest to the Breitsprecher kitchen door at <<six in the morning|9a>>. \x{201c}Good morning, Mrs. Balclop. Is Lavinia up?\x{201d}",
+            "One morning Axel Cowes walked through the forest to the Breitsprecher kitchen door at <<six in the morning|5>>. \x{201c}Good morning, Mrs. Balclop. Is Lavinia up?\x{201d}",
           ],
           [
             1,
@@ -164,7 +159,7 @@ $VAR1 = [
           [
             1,
             '[12:00] Barkskins - Annie Proulx.epub (ops/xhtml/ch69.html) - noon',
-            "Finally, when listeners began looking at their watches and some in the rear sidled guiltily out of the hall, he came to an end: \x{201c}Incompetent forest\x{a0}.\x{a0}.\x{a0}. ignorance\x{a0}.\x{a0}.\x{a0}. wood fiber, battles\x{a0}.\x{a0}.\x{a0}. disturbances\x{a0}.\x{a0}.\x{a0}. chemical destruction\x{a0}.\x{a0}.\x{a0}. slow-growing\x{a0}.\x{a0}.\x{a0}. unstoppable.\x{201d} He lowered his voice dramatically, paused and then whispered into the microphone, \x{201c}Now we are finishing off the cold land of little sticks, the great breeding grounds for millions of birds, the cleansing breath of the earth, the spring nutrient runoff to the ocean that revitalizes everything\x{2014}the beginning of the great food chain. You people,\x{201d} he said, looking at the audience. \x{201c}We are killing\x{a0}.\x{a0}.\x{a0}. the\x{a0}.\x{a0}.\x{a0}. great\x{a0}.\x{a0}.\x{a0}. boreal\x{a0}.\x{a0}.\x{a0}. forest.\x{201d} There was a frictional hissing sound as people moved in their seats, then small applause and the noise of seats folding back into place as everyone rose. A college official came out and announced that Dr. Onehube would speak at <<noon|9a>> the next day on overpopulation\x{2014}a lecture titled \x{201c}SRO\x{2014}Standing Room Only.\x{201d}",
+            "Finally, when listeners began looking at their watches and some in the rear sidled guiltily out of the hall, he came to an end: \x{201c}Incompetent forest\x{a0}.\x{a0}.\x{a0}. ignorance\x{a0}.\x{a0}.\x{a0}. wood fiber, battles\x{a0}.\x{a0}.\x{a0}. disturbances\x{a0}.\x{a0}.\x{a0}. chemical destruction\x{a0}.\x{a0}.\x{a0}. slow-growing\x{a0}.\x{a0}.\x{a0}. unstoppable.\x{201d} He lowered his voice dramatically, paused and then whispered into the microphone, \x{201c}Now we are finishing off the cold land of little sticks, the great breeding grounds for millions of birds, the cleansing breath of the earth, the spring nutrient runoff to the ocean that revitalizes everything\x{2014}the beginning of the great food chain. You people,\x{201d} he said, looking at the audience. \x{201c}We are killing\x{a0}.\x{a0}.\x{a0}. the\x{a0}.\x{a0}.\x{a0}. great\x{a0}.\x{a0}.\x{a0}. boreal\x{a0}.\x{a0}.\x{a0}. forest.\x{201d} There was a frictional hissing sound as people moved in their seats, then small applause and the noise of seats folding back into place as everyone rose. A college official came out and announced that Dr. Onehube would speak at <<noon|13>> the next day on overpopulation\x{2014}a lecture titled \x{201c}SRO\x{2014}Standing Room Only.\x{201d}",
           ],
           [
             1,

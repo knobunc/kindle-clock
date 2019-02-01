@@ -216,8 +216,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap ~ 23:45] The Jeeves Omnibus - Vol 2 - P. G. Wodehouse.epub (OEBPS/Text/part0055.xhtml) - about a quarter to twelve',
-            "These took the shape \x{2013} at <<about a quarter to twelve|10>> \x{2013} of a kindly bird in a lorry who, on being hailed, put everything right with a careless twiddle of the fingers so rapidly that he had occasion to spit only twice from start to finish. I thanked him, flung him a purse of gold and proceeded on my way, fetching up at journey\x{2019}s end just as the local clocks were striking <<midnight|11>>.",
+            '[00:00] The Jeeves Omnibus - Vol 2 - P. G. Wodehouse.epub (OEBPS/Text/part0055.xhtml) - midnight',
+            "These took the shape \x{2013} at about a quarter to twelve \x{2013} of a kindly bird in a lorry who, on being hailed, put everything right with a careless twiddle of the fingers so rapidly that he had occasion to spit only twice from start to finish. I thanked him, flung him a purse of gold and proceeded on my way, fetching up at journey\x{2019}s end just as the local clocks were striking <<midnight|11>>.",
           ],
           [
             1,
@@ -252,7 +252,7 @@ $VAR1 = [
           [
             1,
             '[~ 02:00] The Jeeves Omnibus - Vol 2 - P. G. Wodehouse.epub (OEBPS/Text/part0063.xhtml) - about two a.m.',
-            "It was shortly after this that young Motty got the idea of bringing pals back in the small hours to continue the gay revels in the home. This was where I began to crack under the strain. You see, the part of town where I was living wasn\x{2019}t the right place for that sort of thing. I knew lots of chappies down Washington Square way who started the evening at <<about two a.m.|9h>> \x{2013} artists and writers and so forth who frolicked considerably till checked by the arrival of the morning milk. That was all right. They like that sort of thing down there. The neighbours can\x{2019}t get to sleep unless there\x{2019}s someone dancing Hawaiian dances over their heads. But on Fifty-seventh Street the atmosphere wasn\x{2019}t right, and when Motty turned up at <<three in the morning|9a>> with a collection of hearty lads, who only stopped singing their college song when they started singing \x{2018}The Old Oaken Bucket\x{2019}, there was a marked peevishness among the old settlers in the flats. The management was extremely terse over the telephone at breakfast-time, and took a lot of soothing.",
+            "It was shortly after this that young Motty got the idea of bringing pals back in the small hours to continue the gay revels in the home. This was where I began to crack under the strain. You see, the part of town where I was living wasn\x{2019}t the right place for that sort of thing. I knew lots of chappies down Washington Square way who started the evening at <<about two a.m.|9h>> \x{2013} artists and writers and so forth who frolicked considerably till checked by the arrival of the morning milk. That was all right. They like that sort of thing down there. The neighbours can\x{2019}t get to sleep unless there\x{2019}s someone dancing Hawaiian dances over their heads. But on Fifty-seventh Street the atmosphere wasn\x{2019}t right, and when Motty turned up at <<three in the morning|5>> with a collection of hearty lads, who only stopped singing their college song when they started singing \x{2018}The Old Oaken Bucket\x{2019}, there was a marked peevishness among the old settlers in the flats. The management was extremely terse over the telephone at breakfast-time, and took a lot of soothing.",
           ],
           [
             1,
@@ -267,12 +267,12 @@ $VAR1 = [
           [
             1,
             '[16:00] The Jeeves Omnibus - Vol 2 - P. G. Wodehouse.epub (OEBPS/Text/part0065.xhtml) - four in the afternoon',
-            'There were three more verses, and the thing was printed opposite the frontispiece of a magazine with a sort of scroll round it, and a picture in the middle of a fairly nude chappie with bulging muscles giving the rising sun the glad eye. Rocky said they gave him a hundred dollars for it, and he stayed in bed till <<four in the afternoon|9a>> for over a month.',
+            'There were three more verses, and the thing was printed opposite the frontispiece of a magazine with a sort of scroll round it, and a picture in the middle of a fairly nude chappie with bulging muscles giving the rising sun the glad eye. Rocky said they gave him a hundred dollars for it, and he stayed in bed till <<four in the afternoon|5>> for over a month.',
           ],
           [
             1,
             '[17:00] The Jeeves Omnibus - Vol 2 - P. G. Wodehouse.epub (OEBPS/Text/part0065.xhtml) - five in the afternoon',
-            "\x{2018}I won\x{2019}t do it! I can\x{2019}t do it! I\x{2019}ll be hanged if I\x{2019}ll do it! How on earth can I dress up like that? Do you realize that most days I don\x{2019}t get out of my pyjamas till <<five in the afternoon|9a>>, and then I just put on an old sweater?\x{2019}",
+            "\x{2018}I won\x{2019}t do it! I can\x{2019}t do it! I\x{2019}ll be hanged if I\x{2019}ll do it! How on earth can I dress up like that? Do you realize that most days I don\x{2019}t get out of my pyjamas till <<five in the afternoon|5>>, and then I just put on an old sweater?\x{2019}",
           ],
           [
             1,
@@ -330,7 +330,7 @@ $VAR1 = [
             1,
             '[ap 08:00] The Jeeves Omnibus - Vol 2 - P. G. Wodehouse.epub (OEBPS/Text/part0069.xhtml) - eight',
             "I meant it, too. The Little household may be weak on housemaids, but it is right there when it comes to cooks. Somewhere or other some time ago Bingo\x{2019}s missus managed to dig up a Frenchman of the most extraordinary vim and skill. A most amazing Johnnie who dishes a wicked ragout. Old Bingo has put on at least ten pounds in weight since this fellow Anatole arrived in the home.
-\x{2018}At <<eight|9e>>, then.\x{2019}
+\x{2018}At <<eight|9m:0>>, then.\x{2019}
 \x{2018}Right. Thanks ever so much.\x{2019}",
           ],
           [
@@ -351,6 +351,6 @@ $VAR1 = [
           [
             1,
             '[16:00] The Jeeves Omnibus - Vol 2 - P. G. Wodehouse.epub (OEBPS/Text/part0069.xhtml) - four in the afternoon',
-            'At <<four in the afternoon|9a>> he would toddle down the hill again and repeat the process, and at night we would dine together and I would loll back in my chair, sipping my wine, and listen to him telling me what the stuff had tasted like. In many ways the ideal existence.',
+            'At <<four in the afternoon|5>> he would toddle down the hill again and repeat the process, and at night we would dine together and I would loll back in my chair, sipping my wine, and listen to him telling me what the stuff had tasted like. In many ways the ideal existence.',
           ],
         ];

@@ -85,6 +85,11 @@ $VAR1 = [
           ],
           [
             1,
+            '[12:00] East of Eden - John Steinbeck.epub (east-of-eden-1-10.html) - noon',
+            "Adam went on, \x{201c}Every morning in the army that damned bugle would sound. And I swore to God if I ever got out I would sleep till <<noon|13>> every day. And here I get up a half-hour before reveille. Will you tell me, Charles, what in hell we\x{2019}re working for?\x{201d}",
+          ],
+          [
+            1,
             "[ap 11:00] East of Eden - John Steinbeck.epub (east-of-eden-1-11.html) - eleven o\x{2019}clock",
             "Charles came back at <<eleven o\x{2019}clock|6>>. Cathy heard his tipsy footsteps. He went into his room, flung off his clothes, and got into bed. He grunted and turned, trying to get comfortable, and then he opened his eyes. Cathy was standing by his bed. \x{201c}What do you want?\x{201d}",
           ],
@@ -239,7 +244,7 @@ Louis stepped out and looked at the sun. \x{201c}Not <<past ten o\x{2019}clock|6
           [
             1,
             '[ap 11:00] East of Eden - John Steinbeck.epub (east-of-eden-3-29.html) - eleven',
-            "\x{201c}Look, Roy, I\x{2019}ve got to take you in. The new hearse knocked out a bearing. You\x{2019}ll have to work late to get it ready for Mrs. Hawks at <<eleven|9a>> tomorrow.\x{201d}",
+            "\x{201c}Look, Roy, I\x{2019}ve got to take you in. The new hearse knocked out a bearing. You\x{2019}ll have to work late to get it ready for Mrs. Hawks at <<eleven|3b>> tomorrow.\x{201d}",
           ],
           [
             1,
@@ -358,7 +363,7 @@ Louis stepped out and looked at the sun. \x{201c}Not <<past ten o\x{2019}clock|6
           [
             1,
             '[10:00] East of Eden - John Steinbeck.epub (east-of-eden-4-45.html) - ten in the morning',
-            "Joe got up at <<ten in the morning|9a>> and ate a monster breakfast at Pop Ernst\x{2019}s. In the early afternoon he took a bus to Watsonville and played three games of snooker with a friend who came to meet him in answer to a phone call. Joe won the last game and racked his cue. He handed his friend two ten-dollar bills.",
+            "Joe got up at <<ten in the morning|5>> and ate a monster breakfast at Pop Ernst\x{2019}s. In the early afternoon he took a bus to Watsonville and played three games of snooker with a friend who came to meet him in answer to a phone call. Joe won the last game and racked his cue. He handed his friend two ten-dollar bills.",
           ],
           [
             1,

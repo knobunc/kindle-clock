@@ -77,7 +77,7 @@ $VAR1 = [
           [
             1,
             '[03:00] Interface - Neal Stephenson.epub (OEBPS/Step_9780553901610_epub_c15_r1.htm) - three in the morning',
-            'All of a sudden, the fact that he had gotten up at <<three in the morning|9a>> was really getting to Dr. Radhakrishnan.',
+            'All of a sudden, the fact that he had gotten up at <<three in the morning|5>> was really getting to Dr. Radhakrishnan.',
           ],
           [
             1,
@@ -116,8 +116,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 07:00] Interface - Neal Stephenson.epub (OEBPS/Step_9780553901610_epub_c25_r1.htm) - Seven',
-            "\x{201c}Right here at <<Seven|9b>> Corners, at <<two o\x{2019}clock this afternoon|6>>. That should give you time to grab a pair of shuttle flights. Oh, and Aaron?\x{201d}",
+            "[14:00] Interface - Neal Stephenson.epub (OEBPS/Step_9780553901610_epub_c25_r1.htm) - two o\x{2019}clock this afternoon",
+            "\x{201c}Right here at Seven Corners, at <<two o\x{2019}clock this afternoon|6>>. That should give you time to grab a pair of shuttle flights. Oh, and Aaron?\x{201d}",
           ],
           [
             1,

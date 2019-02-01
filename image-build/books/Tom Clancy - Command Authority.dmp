@@ -7,7 +7,7 @@ $VAR1 = [
           [
             1,
             '[08:00] Command Authority - Tom Clancy.epub (OEBPS/9781101636497_EPUB-10.xhtml) - eight that morning',
-            "One of the men wore a Burberry suit in gray flannel. The knot of his blue tie was as tight and proper now as it had been at <<eight that morning|9a>>. In English, but with a thick Russian accent, the man said, \x{201c}Moscow has always been a dangerous place. In the past few months I\x{2019}m afraid it has only become exponentially more so.\x{201d}",
+            "One of the men wore a Burberry suit in gray flannel. The knot of his blue tie was as tight and proper now as it had been at <<eight that morning|5>>. In English, but with a thick Russian accent, the man said, \x{201c}Moscow has always been a dangerous place. In the past few months I\x{2019}m afraid it has only become exponentially more so.\x{201d}",
           ],
           [
             1,
@@ -81,6 +81,11 @@ $VAR1 = [
           ],
           [
             1,
+            '[ap 04:00] Command Authority - Tom Clancy.epub (OEBPS/9781101636497_EPUB-28.xhtml) - four',
+            'Chief of CIA Station Keith Bixby had spent the morning in meetings in the U.S. embassy, and now, just after lunch, he had begun a surveillance detection run that would take him into the midafternoon. He had a meeting at <<four|9g>> with an Italian businessman who owned a small trucking company that smuggled contraband back and forth from Russia.',
+          ],
+          [
+            1,
             '[00:00] Command Authority - Tom Clancy.epub (OEBPS/9781101636497_EPUB-29.xhtml) - midnight',
             'President Jack Ryan lay on his bed in Blair House. It was <<midnight|13>>; he knew this because the grandfather clock in the hall outside the master bedroom had just chimed the hour. He was to be awoken at <<six a.m.|5>>, barring anything happening in the middle of the night that would need his attention, so he was hoping sleep would come soon.',
           ],
@@ -137,12 +142,12 @@ $VAR1 = [
           [
             1,
             '[10:00] Command Authority - Tom Clancy.epub (OEBPS/9781101636497_EPUB-38.xhtml) - ten in the morning',
-            'Everyone in the crowd had been directed by e-mail and public-address announcements to leave their desks at <<ten in the morning|9a>> to come out to the square. Here they chatted, many smoked, and they waited.',
+            'Everyone in the crowd had been directed by e-mail and public-address announcements to leave their desks at <<ten in the morning|5>> to come out to the square. Here they chatted, many smoked, and they waited.',
           ],
           [
             1,
             '[10:00] Command Authority - Tom Clancy.epub (OEBPS/9781101636497_EPUB-38.xhtml) - ten in the morning',
-            'Everyone in the crowd had been directed by e-mail and public-address announcements to leave their desks at <<ten in the morning|9a>> to come out to the square. Here they chatted, many smoked, and they waited.
+            'Everyone in the crowd had been directed by e-mail and public-address announcements to leave their desks at <<ten in the morning|5>> to come out to the square. Here they chatted, many smoked, and they waited.
 It was <<just past eleven|10>> now, but no one complained.
 The square had been closed off before rush hour; no reasons why had been given to drivers and pedestrians, who were directed away from it to the overly congested side streets. The headaches it would cause for the simple people of Russia were not a concern for anyone in charge of this event. Even the Lubyanka metro station below the square had been closed. The drivers of the trains had been notified to slow but not stop, and armed guards waited on the edge of the tracks, making sure no one attempted to disembark from the passing cars.',
           ],
@@ -207,11 +212,6 @@ The square had been closed off before rush hour; no reasons why had been given t
             "Ding reloaded his rifle, and while doing so he noticed men climbing onto the top of the north wall, near where the school bus crashed inside the property.
 \x{201c}Dom! <<Ten o\x{2019}clock|6>>!\x{201d}
 \x{201c}Got \x{2019}em,\x{201d} Caruso said, and he fired at the men as they dropped down, killing one, wounding one more, and sending a third falling back over the wall as he tried to get out of the line of fire.",
-          ],
-          [
-            1,
-            '[ap 03:00] Command Authority - Tom Clancy.epub (OEBPS/9781101636497_EPUB-47.xhtml) - three',
-            'Grungy saw the haze of dark get closer and closer to his windscreen; even here at <<three|9b>> hundred feet it had not diffused completely, and within seconds he raced through the smoke and instantly broke through to clear sky to the west.',
           ],
           [
             1,
@@ -408,7 +408,7 @@ Ryan\x{2019}s eyes went wide. \x{201c}Oh, shit.\x{201d}",
           [
             1,
             '[ap 02:06] Command Authority - Tom Clancy.epub (OEBPS/9781101636497_EPUB-73.xhtml) - Two Six',
-            "Before arriving on station five miles to the west of the BM-30 emplacement, Black Wolf <<Two Six|5l:0>> was put in direct radio contact with Frito Actual, the leader of the 10th Special Forces Group team in the area. Page\x{2019}s targeting computer showed him the location of the friendly, or \x{201c}blue,\x{201d} forces, and Frito gave him up-to-date intel on the threats in the area.",
+            "Before arriving on station five miles to the west of the BM-30 emplacement, Black Wolf <<Two Six|5l:1>> was put in direct radio contact with Frito Actual, the leader of the 10th Special Forces Group team in the area. Page\x{2019}s targeting computer showed him the location of the friendly, or \x{201c}blue,\x{201d} forces, and Frito gave him up-to-date intel on the threats in the area.",
           ],
           [
             1,
@@ -463,7 +463,7 @@ Ryan\x{2019}s eyes went wide. \x{201c}Oh, shit.\x{201d}",
           [
             1,
             '[01:00] Command Authority - Tom Clancy.epub (OEBPS/9781101636497_EPUB-81.xhtml) - one in the morning',
-            "Marta looked terrified again. It was clear to Ryan she was afraid of being out on the street. She said, \x{201c}It\x{2019}s <<one in the morning|9a>>. Here in Wedding, at this time, the only chance is on Fennstrasse. That\x{2019}s three or four blocks away.\x{201d}",
+            "Marta looked terrified again. It was clear to Ryan she was afraid of being out on the street. She said, \x{201c}It\x{2019}s <<one in the morning|5>>. Here in Wedding, at this time, the only chance is on Fennstrasse. That\x{2019}s three or four blocks away.\x{201d}",
           ],
           [
             1,

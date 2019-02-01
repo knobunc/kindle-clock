@@ -27,12 +27,12 @@ $VAR1 = [
           [
             1,
             '[ap ~ 10:00] The Peripheral - William Gibson.epub (text/part0046.html) - About ten',
-            "\x{201c}Close your eyes. Count down from fifteen. <<About ten|9e>>, should be a wobble.\x{201d}",
+            "\x{201c}Close your eyes. Count down from fifteen. <<About ten|9:0>>, should be a wobble.\x{201d}",
           ],
           [
             1,
             '[ap 10:00] The Peripheral - William Gibson.epub (text/part0054.html) - ten',
-            'Flynne counted down in her head. At <<ten|9e>>, she imagined the wobble. Kept counting.',
+            'Flynne counted down in her head. At <<ten|9m:1>>, she imagined the wobble. Kept counting.',
           ],
           [
             1,

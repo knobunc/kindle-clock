@@ -27,7 +27,7 @@ $VAR1 = [
           [
             1,
             '[16:00] Seveneves - Neal Stephenson.epub (text/part0011_split_001.html) - four in the afternoon',
-            'Doob had requested, and been granted, a position in the third shift, meaning that he was basically operating in the same time zone as Amelia, Henry, and Hadley on the West Coast of the United States. He had awakened at dot 16 of the day before, or <<four in the afternoon|5>> in London, which was <<eight in the morning|9a>> in Pasadena. So, at the stroke of A+1.335.0, when the first shift of that day began, he had been awake for eight hours and was feeling like a brief nap might do him good. But he knew that this would only make it more difficult to get to sleep at dot 8 and so decided, as usual, to gut it out.',
+            'Doob had requested, and been granted, a position in the third shift, meaning that he was basically operating in the same time zone as Amelia, Henry, and Hadley on the West Coast of the United States. He had awakened at dot 16 of the day before, or <<four in the afternoon|5>> in London, which was <<eight in the morning|5>> in Pasadena. So, at the stroke of A+1.335.0, when the first shift of that day began, he had been awake for eight hours and was feeling like a brief nap might do him good. But he knew that this would only make it more difficult to get to sleep at dot 8 and so decided, as usual, to gut it out.',
           ],
           [
             1,
@@ -142,7 +142,7 @@ $VAR1 = [
           [
             1,
             '[ap 10:00] Seveneves - Neal Stephenson.epub (text/part0019_split_001.html) - ten',
-            "\x{201c}Yes. You have to read the whole thing. By <<ten|9e>>, they decide whether you are Microp\x{e6}dia or Macrop\x{e6}dia quality.\x{201d}",
+            "\x{201c}Yes. You have to read the whole thing. By <<ten|9:0>>, they decide whether you are Microp\x{e6}dia or Macrop\x{e6}dia quality.\x{201d}",
           ],
           [
             1,

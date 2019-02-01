@@ -13,7 +13,7 @@ $VAR1 = [
             1,
             '[ap ~ 05:00] The Big Clock - Kenneth Fearing.epub (OEBPS/Text/story_split_001.html) - About five',
             "\x{201c}How old?\x{201d}
-\x{201c}<<About five|9e>>, I think. Or maybe it was <<seven|9f>>.\x{201d}
+\x{201c}<<About five|9:0>>, I think. Or maybe it was <<seven|9f>>.\x{201d}
 \x{201c}No, six.\x{201d}",
           ],
           [

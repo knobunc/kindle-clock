@@ -29,4 +29,25 @@ $VAR1 = [
             '[ap 01:00] Design Patterns_ Elements of Reusable Obje - Erich Gamma.epub (OEBPS/html/ch05.html) - one',
             'At <<one|9m:0>> extreme, which we call the push model, the subject sends observers detailed information about the change, whether they want it or not. At the other extreme is the pull model; the subject sends nothing but the most minimal notification, and observers ask for details explicitly thereafter.',
           ],
+          [
+            1,
+            "[20:21] Design Patterns_ Elements of Reusable Obje - Erich Gamma.epub (OEBPS/html/index.html) - 20\x{2013}21",
+            "delegation 20, 278, 360
+compared with inheritance <<20\x{2013}21|5a:0>>
+implementing pluggable adapters with 144",
+          ],
+          [
+            1,
+            "[18:20] Design Patterns_ Elements of Reusable Obje - Erich Gamma.epub (OEBPS/html/index.html) - 18\x{2013}20",
+            "object composition 18, 361
+compared with inheritance <<18\x{2013}20|5a:0>>
+compared with parameterized types 22",
+          ],
+          [
+            1,
+            "[00:25] Design Patterns_ Elements of Reusable Obje - Erich Gamma.epub (OEBPS/html/index.html) - 24\x{2013}25",
+            "code 26
+designing for <<24\x{2013}25|5a:0>>
+frameworks 26",
+          ],
         ];

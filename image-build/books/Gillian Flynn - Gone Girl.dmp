@@ -17,7 +17,7 @@ $VAR1 = [
           [
             1,
             '[12:00] Gone Girl - Gillian Flynn.epub (text/part0007.html) - noon',
-            "Go refilled my beer, refilled her beer. Her left eyelid drooped slightly. It was exactly <<noon|13>>, 12\x{2013}00, and I wondered how long she\x{2019}d been drinking. She\x{2019}s had a bumpy decade. My speculative sister, she of the rocket-science brain and the rodeo spirit, dropped out of college and moved to Manhattan in the late \x{2019}90s. She was one of the original dot-com phenoms \x{2013} made crazy money for two years, then took the Internet bubble bath in 2000. Go remained unflappable. She was closer to twenty than thirty; she was fine. For act two, she got her degree and joined the gray-suited world of investment banking. She was midlevel, nothing flashy, nothing blameful, but she lost her job \x{2013} fast \x{2013} with the 2008 financial meltdown. I didn\x{2019}t even know she\x{2019}d left New York until she phoned me from Mom\x{2019}s house: I give up. I begged her, cajoled her to return, hearing nothing but peeved silence on the other end. After I hung up, I made an anxious pilgrimage to her apartment in the Bowery and saw Gary, her beloved ficus tree, yellow-dead on the fire escape, and knew she\x{2019}d never come back.",
+            "Go refilled my beer, refilled her beer. Her left eyelid drooped slightly. It was exactly <<noon|13>>, <<12\x{2013}00|5a:1>>, and I wondered how long she\x{2019}d been drinking. She\x{2019}s had a bumpy decade. My speculative sister, she of the rocket-science brain and the rodeo spirit, dropped out of college and moved to Manhattan in the late \x{2019}90s. She was one of the original dot-com phenoms \x{2013} made crazy money for two years, then took the Internet bubble bath in 2000. Go remained unflappable. She was closer to twenty than thirty; she was fine. For act two, she got her degree and joined the gray-suited world of investment banking. She was midlevel, nothing flashy, nothing blameful, but she lost her job \x{2013} fast \x{2013} with the 2008 financial meltdown. I didn\x{2019}t even know she\x{2019}d left New York until she phoned me from Mom\x{2019}s house: I give up. I begged her, cajoled her to return, hearing nothing but peeved silence on the other end. After I hung up, I made an anxious pilgrimage to her apartment in the Bowery and saw Gary, her beloved ficus tree, yellow-dead on the fire escape, and knew she\x{2019}d never come back.",
           ],
           [
             1,
@@ -109,7 +109,7 @@ $VAR1 = [
           [
             1,
             '[05:00] Gone Girl - Gillian Flynn.epub (text/part0021.html) - five in the morning',
-            'Rand and I sat in the vacant Find Amy Dunne headquarters at <<five in the morning|9a>>, drinking coffee while we waited for the cops to check out Lonnie. Amy stared at us from her poster perch on the wall. Her photo looked distressed.',
+            'Rand and I sat in the vacant Find Amy Dunne headquarters at <<five in the morning|5>>, drinking coffee while we waited for the cops to check out Lonnie. Amy stared at us from her poster perch on the wall. Her photo looked distressed.',
           ],
           [
             1,

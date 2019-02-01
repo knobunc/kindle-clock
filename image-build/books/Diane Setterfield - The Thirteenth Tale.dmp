@@ -42,7 +42,7 @@ $VAR1 = [
           [
             1,
             '[02:00] The Thirteenth Tale - Diane Setterfield.epub (OEBPS/Txt_004.html) - two in the morning',
-            'At <<two in the morning|9a>> I got out of bed, pulled on some socks, unlocked the flat door and, wrapped in my dressing gown, crept down the narrow staircase and into the shop.',
+            'At <<two in the morning|5>> I got out of bed, pulled on some socks, unlocked the flat door and, wrapped in my dressing gown, crept down the narrow staircase and into the shop.',
           ],
           [
             1,
@@ -82,7 +82,7 @@ $VAR1 = [
           [
             1,
             '[ap < 00:00] The Thirteenth Tale - Diane Setterfield.epub (OEBPS/Txt_010.html) - nearly twelve',
-            "\x{201c}Yes. That black beast that gnaws at my bones whenever he gets a chance. He loiters in corners and behind doors most of the time, because he\x{2019}s afraid of these.\x{201d} She indicated the white pills on the table beside her. \x{201c}But they don\x{2019}t last forever. It\x{2019}s <<nearly twelve|9f>> and they are wearing off. He is sniffing at my neck. By half past he will be digging his teeth and claws in. Until <<one|9e:1>>, when I can take another tablet and he will have to return to his corner. We are always clockwatching, he and I. He pounces five minutes earlier every day. But I cannot take my tablets five minutes earlier. That stays the same.\x{201d}",
+            "\x{201c}Yes. That black beast that gnaws at my bones whenever he gets a chance. He loiters in corners and behind doors most of the time, because he\x{2019}s afraid of these.\x{201d} She indicated the white pills on the table beside her. \x{201c}But they don\x{2019}t last forever. It\x{2019}s <<nearly twelve|9f>> and they are wearing off. He is sniffing at my neck. By half past he will be digging his teeth and claws in. Until <<one|9c:1>>, when I can take another tablet and he will have to return to his corner. We are always clockwatching, he and I. He pounces five minutes earlier every day. But I cannot take my tablets five minutes earlier. That stays the same.\x{201d}",
           ],
           [
             1,
@@ -147,7 +147,7 @@ $VAR1 = [
           [
             1,
             '[ap < 05:00] The Thirteenth Tale - Diane Setterfield.epub (OEBPS/Txt_046.html) - before five',
-            "He shook his head and closed the window. No one would abandon a child in his garden, would they? Of course they wouldn\x{2019}t. Nevertheless, <<before five|9e>> he was up and out of bed. He took his walk around the garden early, surveying his vegetables, the topiary garden, planning his work for the day. All morning he kept an eye out for a floppy hat in the fruit bushes. But there was nothing to be seen.",
+            "He shook his head and closed the window. No one would abandon a child in his garden, would they? Of course they wouldn\x{2019}t. Nevertheless, <<before five|9:0>> he was up and out of bed. He took his walk around the garden early, surveying his vegetables, the topiary garden, planning his work for the day. All morning he kept an eye out for a floppy hat in the fruit bushes. But there was nothing to be seen.",
           ],
           [
             1,

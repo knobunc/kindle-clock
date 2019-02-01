@@ -53,6 +53,11 @@ $VAR1 = [
           ],
           [
             1,
+            '[ap 02:00] The Under Dog and Other Stories - Agatha Christie.epub (text/part0002.html) - Two',
+            "\x{201c}<<Two|9k:0>>,\x{201d} said Victor Astwell, \x{201c}the Golf Hotel up by the links and the Mitre down by the station.\x{201d}",
+          ],
+          [
+            1,
             '[ap ~ 00:30] The Under Dog and Other Stories - Agatha Christie.epub (text/part0002.html) - about half past twelve',
             "\x{201c}There was one gentleman out late that night, came in <<about half past twelve|10>>, as far as I can remember. Quite a habit of his it was, to go out for a walk at that time of the evening. He had done it once or twice before. Let me see now, what was his name? Just for the moment I can\x{2019}t remember it.\x{201d}",
           ],
@@ -104,7 +109,7 @@ $VAR1 = [
           [
             1,
             '[ap < 08:00] The Under Dog and Other Stories - Agatha Christie.epub (text/part0004.html) - Shortly before eight',
-            "<<Shortly before eight|9e>>, Japp arrived, in no very cheerful mood. I gathered that the official detective hardly approved of Poirot\x{2019}s plan.",
+            "<<Shortly before eight|9:0>>, Japp arrived, in no very cheerful mood. I gathered that the official detective hardly approved of Poirot\x{2019}s plan.",
           ],
           [
             1,
@@ -124,7 +129,7 @@ $VAR1 = [
           [
             1,
             '[06:00] The Under Dog and Other Stories - Agatha Christie.epub (text/part0007.html) - Six this morning',
-            "\x{201c}Yes, I came up by an excursion. <<Six this morning|5>> the train started, and the train goes back at <<five this afternoon|9a>>.\x{201d}",
+            "\x{201c}Yes, I came up by an excursion. <<Six this morning|5>> the train started, and the train goes back at <<five this afternoon|5>>.\x{201d}",
           ],
           [
             1,
@@ -134,7 +139,7 @@ $VAR1 = [
           [
             1,
             '[ap 11:00] The Under Dog and Other Stories - Agatha Christie.epub (text/part0007.html) - eleven',
-            'Our train for town left at <<eleven|9a>> the following morning. Before we started for the station, Poirot expressed a wish to see Miss Freda Stanton, the niece mentioned to us by the dead woman. We found the house where she was lodging easily enough. With her was a tall, dark young man whom she introduced in some confusion as Mr. Jacob Radnor.',
+            'Our train for town left at <<eleven|3j>> the following morning. Before we started for the station, Poirot expressed a wish to see Miss Freda Stanton, the niece mentioned to us by the dead woman. We found the house where she was lodging easily enough. With her was a tall, dark young man whom she introduced in some confusion as Mr. Jacob Radnor.',
           ],
           [
             1,

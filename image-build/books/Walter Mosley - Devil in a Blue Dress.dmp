@@ -137,7 +137,7 @@ We played that game a little while longer. Finally I said, \x{201c}Look, you don
           [
             1,
             '[04:00] Devil in a Blue Dress - Walter Mosley.epub (ops/xhtml/015.html) - FOUR IN THE MORNING',
-            "AT <<FOUR IN THE MORNING|9a>> the neighborhoods of Los Angeles are asleep. On Dinker Street there wasn\x{2019}t even a dog out prowling the trash. The dark lawns were quiet, dotted now and then with hushed white flowers that barely shone in the lamplight.",
+            "AT <<FOUR IN THE MORNING|5>> the neighborhoods of Los Angeles are asleep. On Dinker Street there wasn\x{2019}t even a dog out prowling the trash. The dark lawns were quiet, dotted now and then with hushed white flowers that barely shone in the lamplight.",
           ],
           [
             1,
@@ -166,7 +166,7 @@ He just took all the money from his wallet and handed it over, mumbling, \x{201c
           [
             1,
             '[08:00] Devil in a Blue Dress - Walter Mosley.epub (ops/xhtml/024.html) - eight in the morning',
-            'THE POLICE MET US as we were leaving the house at <<eight in the morning|9a>>.',
+            'THE POLICE MET US as we were leaving the house at <<eight in the morning|5>>.',
           ],
           [
             1,
@@ -177,13 +177,13 @@ He just took all the money from his wallet and handed it over, mumbling, \x{201c
             1,
             '[ap ~ 02:00] Devil in a Blue Dress - Walter Mosley.epub (ops/xhtml/030.html) - About two',
             "\x{201c}What about the white man? When did he and Joppy get here?\x{201d}
-\x{201c}<<About two|9e>>, three hours ago.\x{201d}
+\x{201c}<<About two|9:1>>, three hours ago.\x{201d}
 \x{201c}<<Two|9k:0>>, three hours?\x{201d}",
           ],
           [
             1,
             '[ap ~ 02:00] Devil in a Blue Dress - Walter Mosley.epub (ops/xhtml/030.html) - About two',
-            "\x{201c}<<About two|9e>>, three hours ago.\x{201d}
+            "\x{201c}<<About two|9:1>>, three hours ago.\x{201d}
 \x{201c}<<Two|9k:0>>, three hours?\x{201d}
 \x{201c}Yeah. Joppy asked me where you were and when I told him he drove the car back around the house. Then they took off about a little bit after that.\x{201d}",
           ],

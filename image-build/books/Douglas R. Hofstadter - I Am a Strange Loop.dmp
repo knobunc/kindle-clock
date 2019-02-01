@@ -16,8 +16,13 @@ $VAR1 = [
           ],
           [
             1,
+            "[13:17] I Am a Strange Loop - Douglas R. Hofstadter.epub (index_split_018.html) - 13\x{2013}17",
+            "Let\x{2019}s look into this some more. The boldface pairs are <<13\x{2013}17|5a:0>>, 37\x{2013}41, and 89\x{2013}97, while the non-boldface pairs are <<7\x{2013}11|5a:0>>, <<19\x{2013}23|5a:0>>, 43\x{2013}47, 67\x{2013}71, and 79\x{2013}83. Suppose, then, that we replace each pair by the letter \x{201c}P\x{201d} and each singleton by the letter \x{201c}S\x{201d}, retaining the highlighting that distinguishes Class A from Class B. We then get the following sequence of letters:",
+          ],
+          [
+            1,
             '[ap 01:01] I Am a Strange Loop - Douglas R. Hofstadter.epub (index_split_018.html) - 101',
-            "Unfortunately, I must now confess that I have misled you. If we simply throw the very next prime, which is <<101|9f>>, into our list, it sabotages the seeming order we\x{2019}ve found. After all, the prime number 101, being the sum of the two squares 1 and 100, and thus belonging to Class A, has to be  written in boldface, and so our alleged boldface pair 89\x{2013}97 turns out to be a boldface triplet instead. And thus our hopeful notion of a sequence of just S\x{2019}s and P\x{2019}s goes down the drain.",
+            "Unfortunately, I must now confess that I have misled you. If we simply throw the very next prime, which is <<101|9c:0>>, into our list, it sabotages the seeming order we\x{2019}ve found. After all, the prime number 101, being the sum of the two squares 1 and 100, and thus belonging to Class A, has to be  written in boldface, and so our alleged boldface pair 89\x{2013}97 turns out to be a boldface triplet instead. And thus our hopeful notion of a sequence of just S\x{2019}s and P\x{2019}s goes down the drain.",
           ],
           [
             1,

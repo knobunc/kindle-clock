@@ -29,7 +29,12 @@ in mtns? No!!!',
           [
             1,
             '[09:00] The Lost World - Michael Crichton.epub (OPS/Cric_9780375412202_epub_c03_r1.htm) - nine in the morning',
-            "\x{201c}High normal,\x{201d} Eddie said. \x{201c}Just great. Of course, we\x{2019}ve only gone five miles. It\x{2019}s <<nine in the morning|9a>>, Doc.\x{201d}",
+            "\x{201c}High normal,\x{201d} Eddie said. \x{201c}Just great. Of course, we\x{2019}ve only gone five miles. It\x{2019}s <<nine in the morning|5>>, Doc.\x{201d}",
+          ],
+          [
+            1,
+            "[ap 00:10] The Lost World - Michael Crichton.epub (OPS/Cric_9780375412202_epub_c03_r1.htm) - 12\x{2013}10",
+            "During the next production cycle (10/<<12\x{2013}10|5a:0>>/26) we will sacrifice every tenth egg at H Step to test for contamination. Begin set-asides at once. Report all errors. Stop the line whenever necessary until this is cleared up.",
           ],
           [
             1,

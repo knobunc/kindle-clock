@@ -48,13 +48,13 @@ Panic in Los Angeles.',
           [
             1,
             '[~ 02:00] The Princess Bride - William Goldman.epub (OPS/c001.xml) - About two in the morning',
-            '<<About two in the morning|9h>> I called Hiram in Martha\'s Vineyard. Hiram Haydn\'s been my editor for a dozen years, ever since Soldier in the Rain, and we\'ve been through a lot together, but never any phone calls at <<two in the morning|9a>>. To this day I know he doesn\'t understand why I couldn\'t wait till maybe breakfast. "You\'re sure you\'re all right, Bill," he kept saying.',
+            '<<About two in the morning|9h>> I called Hiram in Martha\'s Vineyard. Hiram Haydn\'s been my editor for a dozen years, ever since Soldier in the Rain, and we\'ve been through a lot together, but never any phone calls at <<two in the morning|5>>. To this day I know he doesn\'t understand why I couldn\'t wait till maybe breakfast. "You\'re sure you\'re all right, Bill," he kept saying.',
           ],
           [
             1,
             '[02:00] The Princess Bride - William Goldman.epub (OPS/c001.xml) - two in the morning',
             '"Fine, absolutely, and see, I\'d just use the good parts. I\'d kind of bridge where there were skips in the narrative and leave the good parts alone. What do you think?"
-"Bill, it\'s <<two in the morning|9a>> up here. Are you still in California?"
+"Bill, it\'s <<two in the morning|5>> up here. Are you still in California?"
 I acted like I was all shocked and surprised. So he wouldn\'t think I was a nut. "I\'m sorry, Hiram. My God, what an idiot; it\'s only <<11:00|2>> in Beverly Hills. Do you think you could ask Mr. Jovanovich, though?"',
           ],
           [
@@ -130,7 +130,7 @@ Prince Humperdinck made his angry way to the balcony above the Great Hall and st
           [
             1,
             '[15:00] The Princess Bride - William Goldman.epub (OPS/c05.xml) - three in the afternoon',
-            'At <<three in the afternoon|9a>>, Yeste said, "Enough. I am exhausted from the watching."',
+            'At <<three in the afternoon|5>>, Yeste said, "Enough. I am exhausted from the watching."',
           ],
           [
             1,
@@ -165,7 +165,7 @@ Prince Humperdinck made his angry way to the balcony above the Great Hall and st
           [
             1,
             '[ap > 01:00] The Princess Bride - William Goldman.epub (OPS/c07.xml) - after one',
-            "\"We haven't got months\x{2014}it's <<after one|9f>> now, and the wedding's at <<six|9a>> tonight. What parts can we hope to have in working order in seventeen hours?\"",
+            "\"We haven't got months\x{2014}it's <<after one|9f>> now, and the wedding's at <<six|3b>> tonight. What parts can we hope to have in working order in seventeen hours?\"",
           ],
           [
             1,
@@ -410,6 +410,6 @@ Fezzik rumbled over, took a look, ran back and hid in his spot, helpless. Inigo 
           [
             1,
             '[04:00] The Princess Bride - William Goldman.epub (OPS/front03.xml) - four in the morning',
-            "I woke at <<four in the morning|9a>>. And I knew what was wrong. Somehow, the awful pneumonia that almost killed me when I was ten\x{2014}the reason my father read The Princess Bride to me in the first place was to get me through those first woeful posthospital days\x{2014}well, that pneumonia had come back to finish the job.",
+            "I woke at <<four in the morning|5>>. And I knew what was wrong. Somehow, the awful pneumonia that almost killed me when I was ten\x{2014}the reason my father read The Princess Bride to me in the first place was to get me through those first woeful posthospital days\x{2014}well, that pneumonia had come back to finish the job.",
           ],
         ];

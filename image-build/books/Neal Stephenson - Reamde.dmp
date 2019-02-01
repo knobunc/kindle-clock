@@ -42,7 +42,7 @@ $VAR1 = [
           [
             1,
             '[03:00] Reamde - Neal Stephenson.epub (OEBPS/Text/Chapter002.html) - three in the morning',
-            "\x{201c}At <<three in the morning|9a>>? Not enough time,\x{201d} Wallace said. \x{201c}You\x{2019}re sure you can\x{2019}t recruit a more \x{2026} omniscient character?\x{201d}",
+            "\x{201c}At <<three in the morning|5>>? Not enough time,\x{201d} Wallace said. \x{201c}You\x{2019}re sure you can\x{2019}t recruit a more \x{2026} omniscient character?\x{201d}",
           ],
           [
             1,
@@ -72,21 +72,7 @@ $VAR1 = [
           [
             1,
             '[02:00] Reamde - Neal Stephenson.epub (OEBPS/Text/Chapter005a.html) - two in the morning',
-            "\x{201c}Yeah, even at <<two in the morning|9a>> they have the laptops going. Their real office is somewhere down below, but they\x{2019}ve obviously set up Wi-Fi to the roof.\x{201d}",
-          ],
-          [
-            1,
-            '[ap 05:05] Reamde - Neal Stephenson.epub (OEBPS/Text/Chapter005a.html) - 505',
-            "It had been a while since that many people had looked at her that raptly.
-\x{201c}It\x{2019}s <<505|9f>>,\x{201d} she said.
-Sokolov spoke to Ivanov in Russian, raising some kind of objection. Or perhaps that was too strong a word. He was mentioning an interesting point.",
-          ],
-          [
-            1,
-            '[ap 05:05] Reamde - Neal Stephenson.epub (OEBPS/Text/Chapter005a.html) - 505',
-            "The other security consultants were on their feet, checking their gear and concealing their weapons. \x{201c}We go to visit Troll in 505,\x{201d} said Ivanov. \x{201c}If you have spoken truthfully, then we achieve our goal and be on our way, everyone happy. If you have made little mistake, then we shall return to this room and have discussion of consequences. So. Is 505 the correct place? Or is it perhaps 405?\x{201d}
-\x{201c}It\x{2019}s <<505|9f>>,\x{201d} Zula said.
-\x{201c}Very well,\x{201d} said Ivanov, and issued orders. Sokolov, all the security consultants, and Ivanov began to ascend the stairs.",
+            "\x{201c}Yeah, even at <<two in the morning|5>> they have the laptops going. Their real office is somewhere down below, but they\x{2019}ve obviously set up Wi-Fi to the roof.\x{201d}",
           ],
           [
             1,
@@ -96,12 +82,7 @@ Sokolov spoke to Ivanov in Russian, raising some kind of objection. Or perhaps t
           [
             1,
             '[03:00] Reamde - Neal Stephenson.epub (OEBPS/Text/Chapter005a.html) - three in the morning',
-            "It hadn\x{2019}t occurred to her before, but: she had to cross the Chinese border somehow. Crossing at any legal port of entry would leave traces impossible to reconcile with her cover story. Even if she did it with fake papers and then threw them away, they\x{2019}d have photos of her, and you had to assume they were using digital face recognition software now. Theoretically she could have hiked across the border from some place like Laos or Tibet, but that seemed awfully Victorian. They simply didn\x{2019}t have time. So it was going to be this. At <<three in the morning|9a>> she put on the scuba gear and carried her waterproof pouch to the miniature pod-sub, where, as promised, five of the SBS men were waiting. Some kind of long and tedious procedure followed, involving lots of checklists. The thing filled with water and started to move independently of the big submarine.",
-          ],
-          [
-            1,
-            '[ap ~ 10:00] Reamde - Neal Stephenson.epub (OEBPS/Text/Chapter005a.html) - about ten',
-            "Not far away, someone had been honking a car horn. First it had been a series of long blasts, and now it was a long string of random taps, culminating in \x{201c}shave and a haircut, two bits.\x{201d} The neighborhood afforded many distractions at this time, but finally Csongor turned to look and noticed the van sitting there <<about ten|9b>> meters away. Projecting below the open driver\x{2019}s-side door was a pair of blue boots. Yuxia\x{2019}s head poked up in the vacant window frame, to see if she had gotten their attention yet.",
+            "It hadn\x{2019}t occurred to her before, but: she had to cross the Chinese border somehow. Crossing at any legal port of entry would leave traces impossible to reconcile with her cover story. Even if she did it with fake papers and then threw them away, they\x{2019}d have photos of her, and you had to assume they were using digital face recognition software now. Theoretically she could have hiked across the border from some place like Laos or Tibet, but that seemed awfully Victorian. They simply didn\x{2019}t have time. So it was going to be this. At <<three in the morning|5>> she put on the scuba gear and carried her waterproof pouch to the miniature pod-sub, where, as promised, five of the SBS men were waiting. Some kind of long and tedious procedure followed, involving lots of checklists. The thing filled with water and started to move independently of the big submarine.",
           ],
           [
             1,
@@ -238,7 +219,7 @@ This was the text message that Olivia found on the phone when she turned it on w
           [
             1,
             '[10:00] Reamde - Neal Stephenson.epub (OEBPS/Text/Chapter009.html) - ten in the morning',
-            "During the short drive in from the FBO at Cranfield, Richard had ordered the driver of his black taxi to swerve to a halt in front of the first computer store. The sales clerk, eager to be of service and to make sure that Richard ended up with a machine he\x{2019}d be happy with, had been solicitous to a fault until Richard had finally got it through the man\x{2019}s head that he had way more money than time and could they please get on with it. Five minutes later, Richard had strode out the door of the place and climbed back into the taxi carrying the new laptop (he had left its empty box sitting on the store\x{2019}s counter and a trail of plastic packaging material all the way to the exit) and a boxed set of DVD-ROMs containing the Legendary Deluxe Platinum Collector\x{2019}s Edition T\x{2019}Rain software with Bonus Materials. The computer had finished crawling through its interminable boot-up as they were skirting Bedford, and he had jammed in the installation disc somewhere around St. Neots. The bemused cabbie had dropped him off at the Porter\x{2019}s Lodge of Trinity when the installation progress bar was creeping along around the 21 percent mark and so Richard had just carried the machine in on his hip and kept it perched there, whirring and clicking and trying to force thunderous T\x{2019}Rain sound track music through its tinny little speakers, as the bowler-hatted staff had dryly greeted him and escorted him to his cavernous lodgings. It was <<ten in the morning|9a>> or something. Richard had found his way to the suite\x{2019}s toilet, which was located somewhere in Oxfordshire, and showered and shaved, then fed another disc into the computer, napped for a couple of hours, enjoyed a liquid lunch with D-squared, and then brought him back here to teach him the rudiments of T\x{2019}Rain.",
+            "During the short drive in from the FBO at Cranfield, Richard had ordered the driver of his black taxi to swerve to a halt in front of the first computer store. The sales clerk, eager to be of service and to make sure that Richard ended up with a machine he\x{2019}d be happy with, had been solicitous to a fault until Richard had finally got it through the man\x{2019}s head that he had way more money than time and could they please get on with it. Five minutes later, Richard had strode out the door of the place and climbed back into the taxi carrying the new laptop (he had left its empty box sitting on the store\x{2019}s counter and a trail of plastic packaging material all the way to the exit) and a boxed set of DVD-ROMs containing the Legendary Deluxe Platinum Collector\x{2019}s Edition T\x{2019}Rain software with Bonus Materials. The computer had finished crawling through its interminable boot-up as they were skirting Bedford, and he had jammed in the installation disc somewhere around St. Neots. The bemused cabbie had dropped him off at the Porter\x{2019}s Lodge of Trinity when the installation progress bar was creeping along around the 21 percent mark and so Richard had just carried the machine in on his hip and kept it perched there, whirring and clicking and trying to force thunderous T\x{2019}Rain sound track music through its tinny little speakers, as the bowler-hatted staff had dryly greeted him and escorted him to his cavernous lodgings. It was <<ten in the morning|5>> or something. Richard had found his way to the suite\x{2019}s toilet, which was located somewhere in Oxfordshire, and showered and shaved, then fed another disc into the computer, napped for a couple of hours, enjoyed a liquid lunch with D-squared, and then brought him back here to teach him the rudiments of T\x{2019}Rain.",
           ],
           [
             1,
@@ -248,7 +229,7 @@ This was the text message that Olivia found on the phone when she turned it on w
           [
             1,
             '[03:00] Reamde - Neal Stephenson.epub (OEBPS/Text/Chapter011.html) - three in the morning',
-            'The man who was willing to be addressed as Zakir was big and doughy compared to all the other jihadists Zula had encountered lately. Probably a cubicle dweller in his professional life. A member of an IT support group for an insurance company, she decided. Bored with his job, unable to get a girlfriend, feeling conflicted about the way he had sold himself out to the Western system, he had somehow made contact with a group of al-Qaeda-affiliated wack jobs during a family visit to Pakistan and ended up on a list of guys to call in Vancouver if ever the global movement needed some assistance on the ground there. And now here he was and loving it. No doubt shocked to have been rumbled at <<three in the morning|9a>> and put in a car to this Walmart rendezvous, he was killing some time doing the one thing he was indubitably good at, which was screwing around with computers.',
+            'The man who was willing to be addressed as Zakir was big and doughy compared to all the other jihadists Zula had encountered lately. Probably a cubicle dweller in his professional life. A member of an IT support group for an insurance company, she decided. Bored with his job, unable to get a girlfriend, feeling conflicted about the way he had sold himself out to the Western system, he had somehow made contact with a group of al-Qaeda-affiliated wack jobs during a family visit to Pakistan and ended up on a list of guys to call in Vancouver if ever the global movement needed some assistance on the ground there. And now here he was and loving it. No doubt shocked to have been rumbled at <<three in the morning|5>> and put in a car to this Walmart rendezvous, he was killing some time doing the one thing he was indubitably good at, which was screwing around with computers.',
           ],
           [
             1,
@@ -258,7 +239,7 @@ This was the text message that Olivia found on the phone when she turned it on w
           [
             1,
             '[05:00] Reamde - Neal Stephenson.epub (OEBPS/Text/Chapter012.html) - five in the morning',
-            "He had awakened John and Alice right away, of course, and John had packed his bags and started driving through the night toward the Omaha airport, Alice calling ahead to arrange a morning flight to Seattle. Richard had called his jet leasing company to set up an ASAP flight to Xiamen, and they had warned him that he\x{2019}d need a visa. He had stayed up into the small hours of the morning researching Chinese visa policies and learned that it all had to be done through a consulate, of which the nearest was in San Francisco, and so at <<five in the morning|9a>> he had dropped an assistant off at Sea-Tac, sending her down with his passport and all the documentation needed to get a visa in ultra-super-expedited fashion. Richard had called John during a layover in Denver and revectored him to SFO so that he could hand his passport over to the same assistant. John had then caught the next flight up to Seattle. Recent text messages from the assistant suggested that all was proceeding according to plan and that she would probably be able to catch a <<six P.M.|5>> flight back to Seattle, which would get the visas into their hands at <<about eight|9c:1>> and enable wheels up from Boeing Field as early as nine.",
+            "He had awakened John and Alice right away, of course, and John had packed his bags and started driving through the night toward the Omaha airport, Alice calling ahead to arrange a morning flight to Seattle. Richard had called his jet leasing company to set up an ASAP flight to Xiamen, and they had warned him that he\x{2019}d need a visa. He had stayed up into the small hours of the morning researching Chinese visa policies and learned that it all had to be done through a consulate, of which the nearest was in San Francisco, and so at <<five in the morning|5>> he had dropped an assistant off at Sea-Tac, sending her down with his passport and all the documentation needed to get a visa in ultra-super-expedited fashion. Richard had called John during a layover in Denver and revectored him to SFO so that he could hand his passport over to the same assistant. John had then caught the next flight up to Seattle. Recent text messages from the assistant suggested that all was proceeding according to plan and that she would probably be able to catch a <<six P.M.|5>> flight back to Seattle, which would get the visas into their hands at <<about eight|9c:1>> and enable wheels up from Boeing Field as early as nine.",
           ],
           [
             1,
@@ -317,6 +298,11 @@ This was the text message that Olivia found on the phone when she turned it on w
           ],
           [
             1,
+            '[ap 05:57] Reamde - Neal Stephenson.epub (OEBPS/Text/Chapter013.html) - three-to six',
+            'And yet it was an orderly place, and none of them felt any particular sense that they had stepped into a slum. To Csongor it felt very little different from Xiamen. The built environment was cheaply constructed <<three-to six|10a:0>>-story buildings jammed in next to one another to form contiguous blocks, separated by crowded streets and fronted by a mixture of colorful signs and makeshift antitheft measures. It was, in other words, the classic streetscape of emerging Asian economies, and the only thing that made it unusual was that the signs were in English. Or, farther from the main drag, a hybrid of English and something that he did not recognize.',
+          ],
+          [
+            1,
             '[08:23] Reamde - Neal Stephenson.epub (OEBPS/Text/Chapter014.html) - 8:23 A.M.',
             "It was <<8:23 A.M.|2a>> Richard was standing next to his Land Cruiser beside the runway at Elphinstone\x{2019}s tiny airport, watching a Cessna climb into the sky and bank south. He had just stuffed John and Jake into it and handed a couple of ancient C-notes to its pilot.",
           ],
@@ -348,7 +334,7 @@ This was the text message that Olivia found on the phone when she turned it on w
           [
             1,
             '[01:00] Reamde - Neal Stephenson.epub (OEBPS/Text/Chapter014.html) - one in the morning',
-            "\x{201c}It doesn\x{2019}t help that you\x{2019}re doing it at <<one in the morning|9a>> when most of our senior staff are asleep.\x{201d}",
+            "\x{201c}It doesn\x{2019}t help that you\x{2019}re doing it at <<one in the morning|5>> when most of our senior staff are asleep.\x{201d}",
           ],
           [
             1,
@@ -379,7 +365,7 @@ This was the text message that Olivia found on the phone when she turned it on w
             1,
             '[05:00] Reamde - Neal Stephenson.epub (OEBPS/Text/Chapter015.html) - five in the morning',
             "\x{201c}As long as you\x{2019}re not serving it now,\x{201d} Jones said.
-\x{201c}Are you kidding? It\x{2019}s <<five in the morning|9a>>.\x{201d}
+\x{201c}Are you kidding? It\x{2019}s <<five in the morning|5>>.\x{201d}
 The jest fell flat. Richard led them into the tavern, where T\x{2019}Rain was still displayed on the big screen. A sizable crowd of people had gathered around Egdod. They were all exhibiting minor bothaviors such as breathing, scratching, and shifting their weight from foot to foot. But nothing was happening. This because (as a large dialog box superimposed on the screen was proclaiming) Richard had lost his Internet connection, and so nothing he saw here reflected what was \x{201c}actually\x{201d} (whatever that meant) going on in the T\x{2019}Rain world. He fired off the command-key combo that shut down the game and was greeted by the usual Windows desktop. Jones meanwhile had shoved a thumb drive into a USB slot on the front of the computer. This showed up as a removable drive. Richard opened it to find one file: Zula.mpeg.",
           ],
           [
@@ -390,7 +376,7 @@ The jest fell flat. Richard led them into the tavern, where T\x{2019}Rain was st
           [
             1,
             '[05:00] Reamde - Neal Stephenson.epub (OEBPS/Text/Chapter015.html) - five in the fucking morning',
-            "NOW IT WAS <<five in the fucking morning|9a>> and he was wide awake, surrounded by people who were sleeping as soundly as it was possible for humans to sleep without being etherized. And Olivia\x{2014}who was supposed to be pursuing her crazy SNAG theory in Canada\x{2014}had made the announcement that she was blown and going dark.",
+            "NOW IT WAS <<five in the fucking morning|5>> and he was wide awake, surrounded by people who were sleeping as soundly as it was possible for humans to sleep without being etherized. And Olivia\x{2014}who was supposed to be pursuing her crazy SNAG theory in Canada\x{2014}had made the announcement that she was blown and going dark.",
           ],
           [
             1,
@@ -400,7 +386,7 @@ The jest fell flat. Richard led them into the tavern, where T\x{2019}Rain was st
           [
             1,
             '[01:00] Reamde - Neal Stephenson.epub (OEBPS/Text/Chapter016.html) - one in the morning',
-            "And yet none of this careful hope deadening and expectation crushing on her trainers\x{2019} parts had fully prepared her for the job of traveling from Wenatchee to Bourne\x{2019}s Ford on public transportation. She\x{2019}d been lucky to reach the bus station in Wenatchee just a few minutes before the coach to Spokane was scheduled to depart. It was running half an hour late. No big deal. She bought a ticket with cash and climbed aboard a tired intercity bus reeking of mildew and air freshener and sat on it for several hours, watching the high desert of central and eastern Washington State go by, trying not to make too much of an impression on the down-at-heels senior citizens and migrant laborers sitting around her. A few hours later she disembarked at the bus and train station in downtown Spokane: a city she was certain had fine characteristics but that looked bleak and anonymous from street level at nightfall. It was ten degrees colder here than it had been on the coast. The next bus for Bourne\x{2019}s Ford didn\x{2019}t leave until tomorrow morning. She couldn\x{2019}t check into a hotel without presenting ID and thereby sending up a flare, so she walked to a reasonably nice Italian restaurant and had a long slow dinner that she paid for with cash. Then she walked to a cinema and caught the last showing of a comedy that, she guessed, was aimed at teenagers. This disgorged her into a parking lot at <<one in the morning|9a>>. Everything was closed. Not even bars were open. Caught in the open, she just kept walking, trying to look purposeful. If she had to walk for five hours, it wasn\x{2019}t the end of the world. She was wearing comfortable flats and the energy expended by walking would keep her warm enough, despite the fact that she was underdressed for the weather. But after about two hours, as she was trudging up a seemingly endless commercial strip, she noticed a Perkins Family Restaurant that was open twenty-fours. She went into it and ate the most colossal breakfast she had ever had in her life, spent about an hour reading a single used copy of USA Today, then paid for the meal, went out, and hit the streets again.",
+            "And yet none of this careful hope deadening and expectation crushing on her trainers\x{2019} parts had fully prepared her for the job of traveling from Wenatchee to Bourne\x{2019}s Ford on public transportation. She\x{2019}d been lucky to reach the bus station in Wenatchee just a few minutes before the coach to Spokane was scheduled to depart. It was running half an hour late. No big deal. She bought a ticket with cash and climbed aboard a tired intercity bus reeking of mildew and air freshener and sat on it for several hours, watching the high desert of central and eastern Washington State go by, trying not to make too much of an impression on the down-at-heels senior citizens and migrant laborers sitting around her. A few hours later she disembarked at the bus and train station in downtown Spokane: a city she was certain had fine characteristics but that looked bleak and anonymous from street level at nightfall. It was ten degrees colder here than it had been on the coast. The next bus for Bourne\x{2019}s Ford didn\x{2019}t leave until tomorrow morning. She couldn\x{2019}t check into a hotel without presenting ID and thereby sending up a flare, so she walked to a reasonably nice Italian restaurant and had a long slow dinner that she paid for with cash. Then she walked to a cinema and caught the last showing of a comedy that, she guessed, was aimed at teenagers. This disgorged her into a parking lot at <<one in the morning|5>>. Everything was closed. Not even bars were open. Caught in the open, she just kept walking, trying to look purposeful. If she had to walk for five hours, it wasn\x{2019}t the end of the world. She was wearing comfortable flats and the energy expended by walking would keep her warm enough, despite the fact that she was underdressed for the weather. But after about two hours, as she was trudging up a seemingly endless commercial strip, she noticed a Perkins Family Restaurant that was open twenty-fours. She went into it and ate the most colossal breakfast she had ever had in her life, spent about an hour reading a single used copy of USA Today, then paid for the meal, went out, and hit the streets again.",
           ],
           [
             1,
@@ -445,6 +431,6 @@ The jest fell flat. Richard led them into the tavern, where T\x{2019}Rain was st
           [
             1,
             '[11:00] Reamde - Neal Stephenson.epub (OEBPS/Text/Chapter018.html) - eleven in the morning',
-            "At <<eleven in the morning|9a>>, after they had all come back from the memorial service\x{2014}a ceremony honoring not only John but Peter, Chet, Sergei, Pavel, the bear hunters, the RV owners, and two of Jake\x{2019}s neighbors\x{2014}Zula hooked her laptop to the big flat-screen on Grandpa\x{2019}s porch, and they made a Skype connection to Olivia in London. She had just returned to her apartment after work and was looking every inch the smartly turned-out intelligence analyst. Once the connection was made, she insisted that Zula put her face up to the little camera above the laptop screen and display her new artificial tooth, which was indistinguishable from the one that had been knocked out, and the lip in front of it, which bore a hairline scar and a little notch. The notch, Zula explained, was fixable, but she had decided to keep it. Olivia heartily approved and pulled back her hair\x{2014}which she\x{2019}d been growing in\x{2014}to show off what she described as the \x{201c}Frankenstein\x{201d} scar that had been incised on her scalp in Xiamen.",
+            "At <<eleven in the morning|5>>, after they had all come back from the memorial service\x{2014}a ceremony honoring not only John but Peter, Chet, Sergei, Pavel, the bear hunters, the RV owners, and two of Jake\x{2019}s neighbors\x{2014}Zula hooked her laptop to the big flat-screen on Grandpa\x{2019}s porch, and they made a Skype connection to Olivia in London. She had just returned to her apartment after work and was looking every inch the smartly turned-out intelligence analyst. Once the connection was made, she insisted that Zula put her face up to the little camera above the laptop screen and display her new artificial tooth, which was indistinguishable from the one that had been knocked out, and the lip in front of it, which bore a hairline scar and a little notch. The notch, Zula explained, was fixable, but she had decided to keep it. Olivia heartily approved and pulled back her hair\x{2014}which she\x{2019}d been growing in\x{2014}to show off what she described as the \x{201c}Frankenstein\x{201d} scar that had been incised on her scalp in Xiamen.",
           ],
         ];

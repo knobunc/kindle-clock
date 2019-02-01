@@ -2,12 +2,27 @@ $VAR1 = [
           [
             1,
             '[12:00] Gorky Park - Martin Cruz Smith.epub (OEBPS/Smit_9780307809797_epub_bm2_r1.htm) - noon',
-            'MCS: Yeah, exactly. I got into a confrontation with the consultant, threw him out of the office, and at <<noon|9a>> the following afternoon I was thrown out of the building.',
+            'MCS: Yeah, exactly. I got into a confrontation with the consultant, threw him out of the office, and at <<noon|13>> the following afternoon I was thrown out of the building.',
           ],
           [
             1,
             "[ap 09:00] Gorky Park - Martin Cruz Smith.epub (OEBPS/Smit_9780307809797_epub_c01_r1.htm) - nine o\x{2019}clock",
             "Arkady took Fet\x{2019}s buff-and-red militia car and drove off, crossing the Krimsky Bridge to the north side of the city. The frozen river ached, ready to break. It was <<nine o\x{2019}clock|6>>, two hours since he\x{2019}d been roused from bed, no breakfast yet, just cigarettes. Coming off the bridge, he waved his red ID at the militiaman directing traffic, and sped through stopped cars. A privilege of rank.",
+          ],
+          [
+            1,
+            "[20:25] Gorky Park - Martin Cruz Smith.epub (OEBPS/Smit_9780307809797_epub_c01_r1.htm) - 20\x{2013}25",
+            "Male. Europoid. Hair brown. Eyes unknown. Age app. <<20\x{2013}25|5a:0>>. Time of death from 2 wks. to 6 mos. Frozen before any significant decomposition could occur. Cause of death, gunshot wounds. Soft facial tissue and third phalanges of both hands missing due to mutilation. 2 possible fatal wounds. Wound \x{201c}A\x{201d} fired at contact at mouth fracturing from upper jaw, bullet traveling at 45 degrees through brain and exiting high in posterior of skull. Wound \x{201c}B\x{201d} fired 2 cms. left of sternum into heart, rupturing aorta. Bullet marked GP1-B recovered loose in chest cavity.",
+          ],
+          [
+            1,
+            "[20:30] Gorky Park - Martin Cruz Smith.epub (OEBPS/Smit_9780307809797_epub_c01_r1.htm) - 20\x{2013}30",
+            "Male. Europoid. Hair brown. Eyes unknown. Age app. <<20\x{2013}30|5a:0>>. Time of death app. 2 wks. to 6 mos. Soft facial tissue and third phalanges lost to mutilation. 2 possible fatal wounds. Wound \x{201c}A\x{201d} fired at contact at mouth, fracturing upper jaw and breaking off incisors, bullet traveling at diverted angle through brain scoring inside posterior of skull starting 5 cms. above meningeal groove. Bullet marked GP2-A recovered loose in skull cavity. [GP2-A was the slug Pribluda had dug out.] Second wound 3 cms. left of sternum through heart region. Bullet marked GP2-B recovered from inside left shoulder blade.",
+          ],
+          [
+            1,
+            "[20:23] Gorky Park - Martin Cruz Smith.epub (OEBPS/Smit_9780307809797_epub_c01_r1.htm) - 20\x{2013}23",
+            "Female. Europoid. Hair brown. Eyes unknown. Age app. <<20\x{2013}23|5a:0>>. Time of death app. 2 wks. to 6 mos. Cause of death gunshot wound 3 cms. left of sternum into heart, rupturing right ventricle and superior vena cava, exiting from back between third and fourth ribs 2 cms. left of spine. Head and hands mutilated as males GP1 and GP2. Bullet marked GP3 found inside dress behind exit wound. No signs of pregnancy.",
           ],
           [
             1,
@@ -52,7 +67,7 @@ $VAR1 = [
           [
             1,
             '[03:00] Gorky Park - Martin Cruz Smith.epub (OEBPS/Smit_9780307809797_epub_c10_r1.htm) - three in the morning',
-            "\x{201c}A few years ago, an American tourist was visiting the village he was born in about two hundred kilometers from Moscow when he dropped dead. It was summer and the local people didn\x{2019}t want to be disrespectful, so they stuck him in the refrigerator. You know these villages, they have only one refrigerator. They called here, and the people in the Foreign Ministry told them to do nothing more until they received special forms for the death of tourists. A couple of days go by, no forms. A week, no forms. These forms take time to organize. Two weeks went by, and the villagers got fed up with the tourist in the refrigerator. It was summer, after all. Milk was spoiling, and there was only so much they could fit on the American\x{2019}s lap. Well, you know villagers\x{2014}one night they got drunk, threw the body in a truck, drove all the way to Moscow, dumped the body in your lobby, jumped back in their truck and drove off. This is a true story. The commotion here was unbelievable. There was a ring of KGB officers around the body. At <<three in the morning|9a>> they called an American attach\x{e9} from the embassy. The poor bastard thought he was going to have a private word with Gromyko, and instead here\x{2019}s this body. He wouldn\x{2019}t touch it\x{2014}not without the right forms. Still no one could find the right forms. Someone suggested there were no such forms, and that set off a panic. Nobody wanted this American. Maybe they should just lose him, someone else suggested. Take him back to the village, bury him in Gorky Park, give him a job in the ministry. Finally, they called in me and the head pathologist. It turned out we had the right form, and we threw the American tourist in the trunk of the attach\x{e9}\x{2019}s car. That was the last time I was in this building.\x{201d}",
+            "\x{201c}A few years ago, an American tourist was visiting the village he was born in about two hundred kilometers from Moscow when he dropped dead. It was summer and the local people didn\x{2019}t want to be disrespectful, so they stuck him in the refrigerator. You know these villages, they have only one refrigerator. They called here, and the people in the Foreign Ministry told them to do nothing more until they received special forms for the death of tourists. A couple of days go by, no forms. A week, no forms. These forms take time to organize. Two weeks went by, and the villagers got fed up with the tourist in the refrigerator. It was summer, after all. Milk was spoiling, and there was only so much they could fit on the American\x{2019}s lap. Well, you know villagers\x{2014}one night they got drunk, threw the body in a truck, drove all the way to Moscow, dumped the body in your lobby, jumped back in their truck and drove off. This is a true story. The commotion here was unbelievable. There was a ring of KGB officers around the body. At <<three in the morning|5>> they called an American attach\x{e9} from the embassy. The poor bastard thought he was going to have a private word with Gromyko, and instead here\x{2019}s this body. He wouldn\x{2019}t touch it\x{2014}not without the right forms. Still no one could find the right forms. Someone suggested there were no such forms, and that set off a panic. Nobody wanted this American. Maybe they should just lose him, someone else suggested. Take him back to the village, bury him in Gorky Park, give him a job in the ministry. Finally, they called in me and the head pathologist. It turned out we had the right form, and we threw the American tourist in the trunk of the attach\x{e9}\x{2019}s car. That was the last time I was in this building.\x{201d}",
           ],
           [
             1,
@@ -112,7 +127,7 @@ $VAR1 = [
           [
             1,
             '[04:00] Gorky Park - Martin Cruz Smith.epub (OEBPS/Smit_9780307809797_epub_c16_r1.htm) - four in the morning',
-            "At <<four in the morning|9a>> Arkady called Ust-Kut. \x{201c}This is Detective Yakutsky.\x{201d}",
+            "At <<four in the morning|5>> Arkady called Ust-Kut. \x{201c}This is Detective Yakutsky.\x{201d}",
           ],
           [
             1,

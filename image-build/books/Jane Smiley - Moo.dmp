@@ -2,7 +2,7 @@ $VAR1 = [
           [
             1,
             '[ap 10:00] Moo - Jane Smiley.epub (text/part0008.html) - ten',
-            'He spent about half an hour with Earl Butz. This time of day, Earl was pretty busy. Mornings he was more playful. By <<ten|9e>>, when Bob always returned for a last check, Earl would have turned in, sleeping soundly, his mounded bulk rolled up against the orange metal slats of his pen as if for comfort.',
+            'He spent about half an hour with Earl Butz. This time of day, Earl was pretty busy. Mornings he was more playful. By <<ten|9:1>>, when Bob always returned for a last check, Earl would have turned in, sleeping soundly, his mounded bulk rolled up against the orange metal slats of his pen as if for comfort.',
           ],
           [
             1,
@@ -73,11 +73,6 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap > 01:00] Moo - Jane Smiley.epub (text/part0025.html) - after one',
-            "Anyway, <<after one|9e:1>>, he sat politely in his dean of extension\x{2019}s office for about forty-five minutes, always sending in his name and a reminder of who he was, written out in pencil so as not to inconvenience the secretary. These visits reconfirmed his understanding that the dean was an extremely busy man, and that sometimes people had to wait years to see him, as it once had been, they said on TV, with kings and princes over in Europe.",
-          ],
-          [
-            1,
             '[13:59] Moo - Jane Smiley.epub (text/part0025.html) - one to two p.m.',
             "Nils Harstad had a full file of Loren Stroop\x{2019}s letters, all written, or rather printed, in pencil, and containing lines like \x{201c}I have to be careful because of those working against me,\x{201d} \x{201c}Please please please do not communicate anything you hear from or about me to anyone in the AG BUSINESS,\x{201d} and \x{201c}I first saw your name in a magazine when I was confined in the hospital.\x{201d} This last, Nils interpreted to be a mental hospital, but had in fact been the county hospital, where Loren was having his gall bladder out on the government\x{2019}s nickel. In Nils\x{2019} view, Loren\x{2019}s schedule of visits was both further evidence of mental instability (didn\x{2019}t people ritualize their lives more and more as they got crazier?) and a signal convenience\x{2014}he always took his lunch hour from <<one to two p.m.|10>>, so that should the shotguns and automatic weapons come out, he, Nils, would be nowhere within the line of fire. He had, of course, invited his secretary to do the same, but actually having seen Loren, she did not estimate the danger very highly. And anyway, if no one was in the office at <<one|9c:1>>, he would just find another time to come. That seemed clear. Nevertheless, she did attempt to be as polite as possible, and she always offered him a cup of coffee when he sat down. In the view of both campus security and the police, he had yet to do anything of interest. His letters were crazy, but never threatening. Nils\x{2019} secretary felt herself to be living on the edge of danger, and, considering how dull life in this town was, she didn\x{2019}t really mind it.",
           ],
@@ -124,7 +119,7 @@ $VAR1 = [
           [
             1,
             '[ap > 04:00] Moo - Jane Smiley.epub (text/part0039.html) - after four',
-            'Of course it was Chairman X, even though it was Sunday, and <<after four|9e>>, and he and the Lady X had promised the children a movie at seven as a reward for the last-minute baby-sitting that had allowed them to go to that ghastly engagement party.',
+            'Of course it was Chairman X, even though it was Sunday, and <<after four|9:1>>, and he and the Lady X had promised the children a movie at seven as a reward for the last-minute baby-sitting that had allowed them to go to that ghastly engagement party.',
           ],
           [
             1,
@@ -323,7 +318,7 @@ They walked companionably out of the commons.",
           [
             1,
             '[ap > 09:00] Moo - Jane Smiley.epub (text/part0073.html) - after nine',
-            "Lots of days, Loren waited to rise until the visiting nurse or one of the Millers came over, but one look out the window was enough to tell him that no one was going to get here today. On the kitchen calendar, he ran his finger over the laboriously x-ed-out days until he came to the first blank one\x{2014}March 2. That would be today. Well, people would be saying that this was a late storm, but it wasn\x{2019}t. Just ask him. With his right eye, he gave the clock a gander, too. It was <<after nine|9f>>. <<After nine|9e>>, March 2, 1990. He pushed the button of the weather radio with his right forefinger and a soothing voice filled the room: \x{201c}\x{2026}\x{a0}has blanketed the region. At <<eight o\x{2019}clock|6>> at Red Stick International Airport, snow accumulations measured four inches, with three to five more inches expected. High winds, gusting to fifty-five miles per hour\x{2014}\x{201d} The thing was, he no longer looked at the TV at all, not even CNN. Every day, all day, he listened to the round of voices from the weather bureau giving nature\x{2019}s news. Highs, lows, precipitation, weather advisories, road conditions, sunshine, wind, temperature ranges. If he wanted something visual, then he looked out the window. It was the exact combination of the ephemeral and the eternal that a dying man needed to know about.",
+            "Lots of days, Loren waited to rise until the visiting nurse or one of the Millers came over, but one look out the window was enough to tell him that no one was going to get here today. On the kitchen calendar, he ran his finger over the laboriously x-ed-out days until he came to the first blank one\x{2014}March 2. That would be today. Well, people would be saying that this was a late storm, but it wasn\x{2019}t. Just ask him. With his right eye, he gave the clock a gander, too. It was <<after nine|9f>>. <<After nine|9:1>>, March 2, 1990. He pushed the button of the weather radio with his right forefinger and a soothing voice filled the room: \x{201c}\x{2026}\x{a0}has blanketed the region. At <<eight o\x{2019}clock|6>> at Red Stick International Airport, snow accumulations measured four inches, with three to five more inches expected. High winds, gusting to fifty-five miles per hour\x{2014}\x{201d} The thing was, he no longer looked at the TV at all, not even CNN. Every day, all day, he listened to the round of voices from the weather bureau giving nature\x{2019}s news. Highs, lows, precipitation, weather advisories, road conditions, sunshine, wind, temperature ranges. If he wanted something visual, then he looked out the window. It was the exact combination of the ephemeral and the eternal that a dying man needed to know about.",
           ],
           [
             1,
@@ -388,6 +383,6 @@ They walked companionably out of the commons.",
           [
             1,
             '[ap < 02:00] Moo - Jane Smiley.epub (text/part0081.html) - almost two',
-            "PROFESSOR GARCIA, best man, handed Chairman X the ring. It was a real ring, one that Garcia had persuaded the Chairman, known tightwad, to spring for. The Chairman took the ring, and Garcia saw all of the children\x{2019}s gazes lock onto it and watch it slip from his grasp onto her finger. Garcia\x{2019}s own gaze fell on them, the four youthful protagonists, thirteen, ten, six, and <<almost two|9e>>, for whom this climactic ceremony would henceforward be the merest backdrop to the infinitely larger dramas of their own lives. That\x{2019}s what he loved about weddings, the way each one was the beginning of it all.",
+            "PROFESSOR GARCIA, best man, handed Chairman X the ring. It was a real ring, one that Garcia had persuaded the Chairman, known tightwad, to spring for. The Chairman took the ring, and Garcia saw all of the children\x{2019}s gazes lock onto it and watch it slip from his grasp onto her finger. Garcia\x{2019}s own gaze fell on them, the four youthful protagonists, thirteen, ten, six, and <<almost two|9:1>>, for whom this climactic ceremony would henceforward be the merest backdrop to the infinitely larger dramas of their own lives. That\x{2019}s what he loved about weddings, the way each one was the beginning of it all.",
           ],
         ];

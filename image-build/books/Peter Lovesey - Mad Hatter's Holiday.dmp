@@ -47,7 +47,7 @@ $VAR1 = [
           [
             1,
             '[14:00] Mad Hatter\'s Holiday - Peter Lovesey.epub (OEBPS/chap14_madhatter_9781569477205_epub_part14.html) - two this afternoon',
-            "\x{2018}Darling, you\x{2019}re so perspicacious! If you came to the croquet lawn at the Albemarle at <<two this afternoon|9a>>, I could leave Bridget dressing Jason. Prothero will be in the billiards-room with Guy. How droll\x{2014}we shall feel like two conspirators!\x{2019}",
+            "\x{2018}Darling, you\x{2019}re so perspicacious! If you came to the croquet lawn at the Albemarle at <<two this afternoon|5>>, I could leave Bridget dressing Jason. Prothero will be in the billiards-room with Guy. How droll\x{2014}we shall feel like two conspirators!\x{2019}",
           ],
           [
             1,
@@ -192,5 +192,10 @@ $VAR1 = [
             1,
             '[12:00] Mad Hatter\'s Holiday - Peter Lovesey.epub (OEBPS/chap9_madhatter_9781569477205_epub_part9.html) - noon',
             'The brilliance of the <<noon|13>> sun refracted by the waves made observation uncertain until the background was entirely of pebbles. Then there was no difficulty in identifying the bather as a youth of fourteen or fifteen. He put down the glasses. He was not looking for a boy. No connection was conceivable between a lad of that age and a married  woman of thirty. His eyes travelled back across the stones to the line that divided land and water.',
+          ],
+          [
+            1,
+            '[ap 03:58] Mad Hatter\'s Holiday - Peter Lovesey.epub (OEBPS/chap9_madhatter_9781569477205_epub_part9.html) - two of four',
+            "\x{2018}It\x{2019}s from up the West Pier, guv. This \x{2018}ere\x{2019}s as far as you can go for a tanner. Gent \x{2018}ired it up there and brought it in \x{2018}ere. I just collect \x{2019}em and stable \x{2019}em. Quite a few geezers ride up \x{2018}ere regular for lunch at Mutton\x{2019}s or the Aquarium. Some of \x{2019}em try riding back after. Rare sight that is, if they\x{2019}ve had a jug or <<two of four|10>>-ale.\x{2019}",
           ],
         ];

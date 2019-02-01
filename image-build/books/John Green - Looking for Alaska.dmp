@@ -7,7 +7,7 @@ $VAR1 = [
           [
             1,
             '[ap > 07:00] Looking for Alaska - John Green.epub (Looking_for_Alaska_split_002.html) - After seven',
-            "We walked in. I turned to close the door behind me, and the Colonel shook his head and said, \x{201c}<<After seven|9e>>, you have to leave the door open if you're in a girl's room,\x{201d} but I barely heard him because the hottest girl in all of human history was standing before me in cutoff jeans and a peach tank top. And she was talking over the Colonel, talking loud and fast.",
+            "We walked in. I turned to close the door behind me, and the Colonel shook his head and said, \x{201c}<<After seven|9:0>>, you have to leave the door open if you're in a girl's room,\x{201d} but I barely heard him because the hottest girl in all of human history was standing before me in cutoff jeans and a peach tank top. And she was talking over the Colonel, talking loud and fast.",
           ],
           [
             1,
@@ -91,7 +91,7 @@ I looked at the clock and groggily muttered, \x{201c}It's <<seven thirty-six|9j>
           [
             1,
             '[05:00] Looking for Alaska - John Green.epub (Looking_for_Alaska_split_026.html) - five in the morning',
-            'usually something lame, like Roman candles in the dorm circle at <<five in the morning|9a>> on a Sunday.',
+            'usually something lame, like Roman candles in the dorm circle at <<five in the morning|5>> on a Sunday.',
           ],
           [
             1,
@@ -102,11 +102,6 @@ I looked at the clock and groggily muttered, \x{201c}It's <<seven thirty-six|9j>
             1,
             '[ap ~ 07:00] Looking for Alaska - John Green.epub (Looking_for_Alaska_split_028.html) - around seven',
             'He had printed up individual itineraries for each of us, including times exact to the second. Our watches synchronized, our clothes black, our backpacks on, our breath visible in the cold, our minds filled with the minute details of the plan, our hearts racing, we walked out of the barn together once it was completely dark, <<around seven|9:1>>. The five of us walking confidently in a row, I\'d never felt cooler. The Great Perhaps was upon us, and we were invincible. The plan may have had faults, but we did not.',
-          ],
-          [
-            1,
-            '[ap 09:11] Looking for Alaska - John Green.epub (Looking_for_Alaska_split_029.html) - 911',
-            '"The day after my mom took me to the zoo where she liked the monkeys and I liked the bears, it was a Friday. I came home from school. She gave me a hug and told me to go do my homework in my room so I could watch TV later. I went into my room, and she sat down at the kitchen table, I guess, and then she screamed, and I ran out, and she had fallen over. She was lying on the floor, holding her head and jerking. And I freaked out. I should have called <<911|9f>>, but I just started screaming and crying until finally she stopped jerking, and I thought she had fallen asleep and that whatever had hurt didn\'t hurt anymore. So I just sat there on the floor with her until my dad got home an hour later, and he\'s screaming,',
           ],
           [
             1,
@@ -136,7 +131,7 @@ I looked at the clock and groggily muttered, \x{201c}It's <<seven thirty-six|9j>
           [
             1,
             '[05:00] Looking for Alaska - John Green.epub (Looking_for_Alaska_split_035.html) - five in the morning',
-            'It was <<five in the morning|9a>> and I was reading a biography of the explorer Meriwether Lewis (of & Clark fame) and trying to stay awake when the door opened and the Colonel walked in.',
+            'It was <<five in the morning|5>> and I was reading a biography of the explorer Meriwether Lewis (of & Clark fame) and trying to stay awake when the door opened and the Colonel walked in.',
           ],
           [
             1,

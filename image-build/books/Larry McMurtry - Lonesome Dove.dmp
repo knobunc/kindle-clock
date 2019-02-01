@@ -52,7 +52,7 @@ $VAR1 = [
           [
             1,
             '[03:00] Lonesome Dove - Larry McMurtry.epub (ops/xhtml/ch054.html) - three in the morning',
-            'Augustus laughed. Aus Frank had always been an original. In Waco, as he remembered, he had caused controversy because he never seemed to sleep. The lantern in his store would be on at all hours of the night, and the man would often be seen roaming the streets at <<three in the morning|9a>>. Nobody knew what he was looking for, or if he found it.',
+            'Augustus laughed. Aus Frank had always been an original. In Waco, as he remembered, he had caused controversy because he never seemed to sleep. The lantern in his store would be on at all hours of the night, and the man would often be seen roaming the streets at <<three in the morning|5>>. Nobody knew what he was looking for, or if he found it.',
           ],
           [
             1,
@@ -73,6 +73,11 @@ $VAR1 = [
             1,
             '[ap 03:00] Lonesome Dove - Larry McMurtry.epub (ops/xhtml/ch068.html) - three',
             "\x{201c}I\x{2019}ve shot a nester,\x{201d} little Eddie reminded him. \x{201c}Shot two. If they don\x{2019}t pay up, I might make it <<three|9f>>.\x{201d}",
+          ],
+          [
+            1,
+            '[< 12:00] Lonesome Dove - Larry McMurtry.epub (ops/xhtml/ch073.html) - toward noon',
+            "\x{201c}Is she still as beautiful?\x{201d} Lippy asked, remembering their days together at the Dry Bean, when she had come down <<toward noon|13>> every day. He and Xavier would both wait for her and would feel better just watching her walk down the stairs.",
           ],
           [
             1,

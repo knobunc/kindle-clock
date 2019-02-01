@@ -42,7 +42,7 @@ $VAR1 = [
           [
             1,
             '[ap 00:10] The Ipcress File - Len Deighton.epub (index_split_002.html) - 12.10',
-            "There was a couple of clicks and Alice\x{2019}s voice came back to the office again. \x{2018}At <<12.10|9e>> he was in Lederers coffee-house.\x{2019}",
+            "There was a couple of clicks and Alice\x{2019}s voice came back to the office again. \x{2018}At <<12.10|9m:1>> he was in Lederers coffee-house.\x{2019}",
           ],
           [
             1,
@@ -117,7 +117,7 @@ $VAR1 = [
           [
             1,
             '[ap 07:33] The Ipcress File - Len Deighton.epub (index_split_012.html) - 7.33',
-            "\x{2018}Other two people?\x{2019} I said. A cold colicky pain kneaded my stomach. I knew that I needn\x{2019}t have troubled either. When we got to him he was naked, horizontal and very dead. I turned the body over. He was a strong, good-looking man of about thirty-five. He looked older close to than when I\x{2019}d seen him before. We could cross Housemartin off our files. Just as Jay\x{2019}s people were crossing him off theirs right now. It was <<7.33|9f>>. His uniform gave no clues - a packet of cigarettes, some money - PS3 155. od., a handkerchief. I sent immediately for the police constable who had pulled him in. I asked him everything that had happened.",
+            "\x{2018}Other two people?\x{2019} I said. A cold colicky pain kneaded my stomach. I knew that I needn\x{2019}t have troubled either. When we got to him he was naked, horizontal and very dead. I turned the body over. He was a strong, good-looking man of about thirty-five. He looked older close to than when I\x{2019}d seen him before. We could cross Housemartin off our files. Just as Jay\x{2019}s people were crossing him off theirs right now. It was <<7.33|9c:1>>. His uniform gave no clues - a packet of cigarettes, some money - PS3 155. od., a handkerchief. I sent immediately for the police constable who had pulled him in. I asked him everything that had happened.",
           ],
           [
             1,
@@ -128,13 +128,13 @@ $VAR1 = [
             1,
             '[ap 07:58] The Ipcress File - Len Deighton.epub (index_split_012.html) - 7.58',
             "\x{201c}Well, I\x{2019}ll try for forty minutes.\x{2019}
-\x{2018}Thanks, chief. See you.\x{2019} It was <<7.58|9f>>.
+\x{2018}Thanks, chief. See you.\x{2019} It was <<7.58|9c:1>>.
 I went upstairs. Murray was leaning over a big scrubbed table with the elderly constable, a sergeant and an inspector with a neatly trimmed moustache. I asked the sergeant who the inspector was. It didn\x{2019}t make any of them madly happy, but \x{2018}twice bitten could get to be a habit\x{2019}. Murray had worked out a sensible way of hitting 42 Acacia Drive. He had dug out a photo of the street and had drawn a diagram showing heights of garden walls and deploying twenty-five men. Murray had also implied by unknown subtle means that his rank was considerably higher than sergeant. The inspector was deferring to his suggestions and the police sergeant was saying, \x{2018}Yes sir, good sir, very good, sir.\x{2019} I told the policemen that they could come along if they wished, but explained that since I had put \x{2018}complete blackout\x{2019} on the operation, any leakage would be actionable under the Official Secrets Act.",
           ],
           [
             1,
             '[ap 08:21] The Ipcress File - Len Deighton.epub (index_split_012.html) - 8.21',
-            "At <<8.21|9e>>, after a knock at the door, a constable said a military police vehicle had just driven into the courtyard, the driver asking for \x{2018}Mr.\x{2019} Murray. Murray said he thought a Champ vehicle with radio equipment \x{2018}might be useful\x{2019}. He\x{2019}d asked for it to drive in instead of parking conspicuously. Murray and I went downstairs to see if the radio could get the Scotland Yard wavelength. He told me that by having a Provost vehicle we automatically got a revolver and ammunition and what he described as \x{2018}other useful things\x{2019}. Murray was proving so unlike what I imagined that I decided to recheck his security clearance the next day.",
+            "At <<8.21|9m:1>>, after a knock at the door, a constable said a military police vehicle had just driven into the courtyard, the driver asking for \x{2018}Mr.\x{2019} Murray. Murray said he thought a Champ vehicle with radio equipment \x{2018}might be useful\x{2019}. He\x{2019}d asked for it to drive in instead of parking conspicuously. Murray and I went downstairs to see if the radio could get the Scotland Yard wavelength. He told me that by having a Provost vehicle we automatically got a revolver and ammunition and what he described as \x{2018}other useful things\x{2019}. Murray was proving so unlike what I imagined that I decided to recheck his security clearance the next day.",
           ],
           [
             1,
@@ -218,7 +218,7 @@ I went upstairs. Murray was leaning over a big scrubbed table with the elderly c
           [
             1,
             '[ap 02:17] The Ipcress File - Len Deighton.epub (index_split_023.html) - 2.17',
-            "One of the \x{2018}choppers\x{2019} stopped, did an about turn and came back to me. The flare spluttered and faded, and now the glare of the spotlight blinded me. I sat very still. It was <<2.17|9f>>. Against the noise of the blades a deeper resonant sound bit into the chill black air. From a loudspeaker, mounted with the light, a voice spoke from the air. I didn\x{2019}t hear or make sense of the words at first, although I was trying hard. They had a strong accent.",
+            "One of the \x{2018}choppers\x{2019} stopped, did an about turn and came back to me. The flare spluttered and faded, and now the glare of the spotlight blinded me. I sat very still. It was <<2.17|9c:1>>. Against the noise of the blades a deeper resonant sound bit into the chill black air. From a loudspeaker, mounted with the light, a voice spoke from the air. I didn\x{2019}t hear or make sense of the words at first, although I was trying hard. They had a strong accent.",
           ],
           [
             1,
@@ -284,6 +284,11 @@ What, what, what. Time, time, time.\x{2019} It wasn\x{2019}t me talking; it was 
           ],
           [
             1,
+            '[> 19:47] The Ipcress File - Len Deighton.epub (index_split_028.html) - past 1947',
+            "I\x{2019}m not good at guessing numbers, so it would be the roughest possible estimate if I said that Charlie\x{2019}s little apartment contained three thousand books. Enough to say perhaps that in no room was there much wall to be glimpsed. And I wouldn\x{2019}t like you to think that they were paperbacks of the Bushwacker of Deadman\x{2019}s Gulch genre either. No, these wonderful books were the reason Charlie Cavendish hadn\x{2019}t got <<past 1947|18:0>> with his motor-cars.",
+          ],
+          [
+            1,
             '[21:30] The Ipcress File - Len Deighton.epub (index_split_028.html) - 9.30 p.m.',
             "By <<9.30 p.m.|2a>> I decided that I\x{2019}d have to ask Charlie yet another favour. By <<10 p.m.|5>> he was out of the house. Everything depended on Charlie then, or so it seemed at the time. I looked at the sepia photo of Reg Cavendish,*[* See Appendix: Reg Cavendish] Charlie\x{2019}s son. He looked down from the top of the writing cabinet in one of those large boat-shaped forage caps that we\x{2019}d all looked so silly in. I remembered coming to tell his father of his death when, after four years of unscathed combat action, Reg was killed by a truck in Brussels four days before V.E. day.",
           ],
@@ -325,7 +330,7 @@ What, what, what. Time, time, time.\x{2019} It wasn\x{2019}t me talking; it was 
           [
             1,
             '[ap 06:59] The Ipcress File - Len Deighton.epub (index_split_029.html) - 6.59',
-            "I\x{2019}d been to Dalby\x{2019}s home once before, but that was in daylight, and now it was quite dark. He lived in a small stone house lying well back from the road. I backed, just off the road, up a small driveway. Waterman parked on the far side of the road. The rain continued, but wasn\x{2019}t getting any worse. I left the car unlocked with the keys on the floor under the seat. Waterman stayed in his car and I didn\x{2019}t blame him. It was <<6.59|9f>>, so I listened to the <<7 o\x{2019}clock|6>> news bulletin. There was still no mention of Charlie, so I set off up the path to the house.",
+            "I\x{2019}d been to Dalby\x{2019}s home once before, but that was in daylight, and now it was quite dark. He lived in a small stone house lying well back from the road. I backed, just off the road, up a small driveway. Waterman parked on the far side of the road. The rain continued, but wasn\x{2019}t getting any worse. I left the car unlocked with the keys on the floor under the seat. Waterman stayed in his car and I didn\x{2019}t blame him. It was <<6.59|9c:1>>, so I listened to the <<7 o\x{2019}clock|6>> news bulletin. There was still no mention of Charlie, so I set off up the path to the house.",
           ],
           [
             1,

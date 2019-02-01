@@ -5,7 +5,7 @@ $VAR1 = [
             'BENJAMIN FRANKLIN was born in Milk Street, Boston, on January
 6, 1706.  His father, Josiah Franklin, was a tallow chandler who
 married twice, and of his seventeen children Benjamin was the youngest
-son.  His schooling ended at ten, and at <<twelve|9e>> he was bound apprentice
+son.  His schooling ended at ten, and at <<twelve|9:0>> he was bound apprentice
 to his brother James, a printer, who published the "New England
 Courant." To this journal he became a contributor, and later was for
 a time its nominal editor. But the brothers quarreled, and Benjamin
@@ -81,7 +81,7 @@ and landed at the Market-street wharf.',
             1,
             '[18:00] The Autobiography of Benjamin Franklin - Benjamin Franklin.epub (307_split_004.html) - six in the evening',
             'After dinner, my sleepiness return\'d, and being shown to a bed,
-I lay down without undressing, and slept till <<six in the evening|9a>>,
+I lay down without undressing, and slept till <<six in the evening|5>>,
 was call\'d to supper, went to bed again very early, and slept
 soundly till next morning.  Then I made myself as tidy as I could,
 and went to Andrew Bradford the printer\'s. I found in the shop
@@ -209,8 +209,15 @@ down with one, the King of Denmark, to dinner.',
           ],
           [
             1,
-            '[12:00] The Autobiography of Benjamin Franklin - Benjamin Franklin.epub (307_split_004.html) - NOON',
-            "8\x{2014}12. Work.
+            "[ap 08:12] The Autobiography of Benjamin Franklin - Benjamin Franklin.epub (307_split_004.html) - 8\x{2014}12",
+            "5\x{2014}8. Question. What good  shall I do this day?  Rise, wash, and address Powerful Goodness!  Contrive day's business, and take the resolution of the day; prosecute the present study, and breakfast.
+<<8\x{2014}12|5a:1>>. Work.
+<<NOON|13>>.",
+          ],
+          [
+            1,
+            "[ap 08:12] The Autobiography of Benjamin Franklin - Benjamin Franklin.epub (307_split_004.html) - 8\x{2014}12",
+            "<<8\x{2014}12|5a:1>>. Work.
 <<NOON|13>>.",
           ],
           [
@@ -249,7 +256,7 @@ of sickness.  I ask\'d who employ\'d her to sweep there; she said,
 "Nobody, but I am very poor and in distress, and I sweeps before
 gentlefolkses doors, and hopes they will give me something."  I bid
 her sweep the whole street clean, and I would give her a shilling;
-this was at <<nine o\'clock|6>>; at <<12|9e>> she came for the shilling.
+this was at <<nine o\'clock|6>>; at <<12|9m:1>> she came for the shilling.
 From the slowness I saw at first in her working, I could scarce believe
 that the work was done so soon, and sent my servant to examine it,
 who reported that the whole street was swept perfectly clean,

@@ -10,7 +10,7 @@ $VAR1 = [
             1,
             '[02:00] Spin - Robert Charles Wilson.epub (OEBPS/Text/Section0005.html) - two in the morning',
             '"Don\'t bother. There\'s nothing on."
-"Well, you know, it is <<two in the morning|9a>>."
+"Well, you know, it is <<two in the morning|5>>."
 "No, I mean absolutely nothing. There are infomercials on local cable, but nothing else. What does that mean, Tyler?"',
           ],
           [
@@ -80,7 +80,7 @@ Diane was putting on a brave face. Simon had given her some kind of New Kingdom 
           [
             1,
             '[12:00] Spin - Robert Charles Wilson.epub (OEBPS/Text/Section0013.html) - noon',
-            "Jason arrived at <<noon|9a>> the next day, ten hours before the first wave of launches was scheduled to begin. The weather was bright and calm, a good omen. Of all the global launch sites the only obvious no-go was the European Space Agency's expanded Kourov complex in French New Guinea, shut down by a fierce March storm. (The ESA microorganisms would be delayed a day or two\x{2014}or half a million years, Spin-time.)",
+            "Jason arrived at <<noon|13>> the next day, ten hours before the first wave of launches was scheduled to begin. The weather was bright and calm, a good omen. Of all the global launch sites the only obvious no-go was the European Space Agency's expanded Kourov complex in French New Guinea, shut down by a fierce March storm. (The ESA microorganisms would be delayed a day or two\x{2014}or half a million years, Spin-time.)",
           ],
           [
             1,
@@ -223,11 +223,6 @@ Diane was putting on a brave face. Simon had given her some kind of New Kingdom 
             1,
             '[12:00] Spin - Robert Charles Wilson.epub (OEBPS/Text/Wilson, Robert Charles - Spin (v2.0) [html]_split_008.html) - high noon',
             'And no bowls or spoons. But I was as hungry as I was sleep deprived. I told Simon we ought to let the engine cool off, and while it did we sat in the shade of the car, windows rolled down, a gritty breeze coming off the desert, the sun suspended in the sky like <<high noon|13>> on the surface of Mercury. We used the torn-off bottoms of empty plastic bottles as makeshift cups and ate Cheerios moistened with tepid water. It looked and tasted like mucilage.',
-          ],
-          [
-            1,
-            '[ap 09:11] Spin - Robert Charles Wilson.epub (OEBPS/Text/Wilson, Robert Charles - Spin (v2.0) [html]_split_008.html) - 911',
-            "I learned, for one thing, that we had been wise to avoid big cities. Major cities were disaster areas\x{2014}not because of looting and violence (there had been surprisingly little) but because of catastrophic infrastructure collapse. The rising of the red sun had looked so much like the long-predicted death of the Earth that most people had simply stayed home to die with their families, leaving urban centers with minimally functioning police and fire departments and radically understaffed hospitals. The minority of people who attempted death by gunshot, or who dosed themselves with extravagant amounts of alcohol, cocaine, OxyContin, or amphetamines, were the inadvertent cause of the most immediate problems: they left gas stoves running, passed out while driving, or dropped cigarettes as they died. When the carpet began to smolder or the drapes burst into flames nobody called <<911|9f>>, and in many cases there would have been no one there to pick up. House fires quickly became neighborhood fires.",
           ],
           [
             1,

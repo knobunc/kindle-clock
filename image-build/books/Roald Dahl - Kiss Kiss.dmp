@@ -35,7 +35,7 @@ $VAR1 = [
             1,
             '[11:00] Kiss Kiss - Roald Dahl.epub (OPS/xhtml/chapter003.html) - eleven in the morning',
             "Her husband emerged from his study when he heard her coming in. \x{2018}Well,\x{2019} he said, standing by the study door, \x{2018}how was Paris?\x{2019}
-\x{2018}We leave at <<eleven in the morning|9a>>,\x{2019} she answered. \x{2018}It\x{2019}s definite.\x{2019}
+\x{2018}We leave at <<eleven in the morning|5>>,\x{2019} she answered. \x{2018}It\x{2019}s definite.\x{2019}
 \x{2018}You mean if the fog clears.\x{2019}",
           ],
           [
@@ -60,7 +60,7 @@ She went up to her bedroom on the second floor, and she was so exhausted from he
           [
             1,
             '[ap > 09:00] Kiss Kiss - Roald Dahl.epub (OPS/xhtml/chapter003.html) - Shortly after nine',
-            "<<Shortly after nine|9e>>, her husband appeared. \x{2018}Did you make any coffee?\x{2019} he asked.",
+            "<<Shortly after nine|9:0>>, her husband appeared. \x{2018}Did you make any coffee?\x{2019} he asked.",
           ],
           [
             1,
@@ -133,7 +133,7 @@ Mr Foster came out five minutes later, and watching him as he walked slowly down
           [
             1,
             '[02:00] Kiss Kiss - Roald Dahl.epub (OPS/xhtml/chapter006.html) - two in the morning',
-            "Albert Taylor folded the newspaper neatly into a square and put it away on the side table. \x{2018}I fed her at <<two in the morning|9a>>,\x{2019} he said, \x{2018}and she took about half an ounce, no more. I fed her again at <<six|9c:1>> and she did a bit better that time, two ounces\x{2026}\x{2019}",
+            "Albert Taylor folded the newspaper neatly into a square and put it away on the side table. \x{2018}I fed her at <<two in the morning|5>>,\x{2019} he said, \x{2018}and she took about half an ounce, no more. I fed her again at <<six|9c:1>> and she did a bit better that time, two ounces\x{2026}\x{2019}",
           ],
           [
             1,
@@ -178,7 +178,7 @@ Mr Foster came out five minutes later, and watching him as he walked slowly down
           [
             1,
             '[18:00] Kiss Kiss - Roald Dahl.epub (OPS/xhtml/chapter010.html) - six in the evening',
-            'They were still arguing like mad at <<six in the evening|9a>> when suddenly, in the middle of it all, an old aunt of the deceased father (her name was Glosspan) swept in from Virginia, and without even removing her hat and coat, not even pausing to sit down, ignoring all offers of a martini, a whisky, a sherry, she announced firmly to the assembled relatives that she herself intended to take sole charge of the infant boy from then on. What was more, she said, she would assume full financial responsibility on all counts, including education, and everyone else could go back home where they belonged and give their consciences a rest. So saying, she trotted upstairs to the nursery and snatched Lexington from his cradle and swept out of the house with the baby clutched tightly in her arms, while the relatives simply sat and stared and smiled and looked relieved, and McPottle the nurse stood stiff with disapproval at the head of the stairs, her lips compressed, her arms folded across her starchy bosom.',
+            'They were still arguing like mad at <<six in the evening|5>> when suddenly, in the middle of it all, an old aunt of the deceased father (her name was Glosspan) swept in from Virginia, and without even removing her hat and coat, not even pausing to sit down, ignoring all offers of a martini, a whisky, a sherry, she announced firmly to the assembled relatives that she herself intended to take sole charge of the infant boy from then on. What was more, she said, she would assume full financial responsibility on all counts, including education, and everyone else could go back home where they belonged and give their consciences a rest. So saying, she trotted upstairs to the nursery and snatched Lexington from his cradle and swept out of the house with the baby clutched tightly in her arms, while the relatives simply sat and stared and smiled and looked relieved, and McPottle the nurse stood stiff with disapproval at the head of the stairs, her lips compressed, her arms folded across her starchy bosom.',
           ],
           [
             1,

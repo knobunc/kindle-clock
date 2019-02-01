@@ -403,38 +403,6 @@ K',
           ],
           [
             1,
-            '[13:15] Handbook of Programming Languages Volume 4 - Peter H. Salus.epub (book-index_split_001.html) - 13-15',
-            'name predicate (Prolog), 191
-named slots (CLOS), 111
-naming
-
-constants (Prolog), 169
-predicates (Prolog), 169, 172, 212-213
-
-neats (Artificial Intelligence programming), 162
-negations, Prolog, 184
-
-computing, 184
-logical soundness of, 185-186
-
-nested lists (Emacs Lisp), 8
-new flavors, 108
-nil, empty lists, 9
-Nl predicate (Prolog), 183
-nodes, finding text files, <<13-15|5a:0>>
-non-interactive functions (Emacs Lisp), 14
-notation
-
-CLOS (Common List Object System), 150
-programs, 90
-Prolog, 165, 174
-
-numeric terms (Prolog), 188
-
-O',
-          ],
-          [
-            1,
             '[18:19] Handbook of Programming Languages Volume 4 - Peter H. Salus.epub (book-index_split_001.html) - 18-19',
             'S-expressions, 3, 9
 
@@ -569,49 +537,9 @@ T',
           ],
           [
             1,
-            '[13:15] Handbook of Programming Languages Volume 4 - Peter H. Salus.epub (book-index_split_001.html) - 13-15',
-            'tail call elimination (Scheme), 68
-tail recursion optimization, Prolog clauses, 217
-Tcl, 103-104
-tell predicate (Prolog), 195
-terms (Prolog), 172, 211-212
-
-I/O, 192
-infinite terms, 216
-numeric, 188
-unification, 182
-
-Texinfo markup language, 13
-texnfo-upd.el files, 13
-txt files, finding nodes, <<13-15|5a:0>>
-toggling window properties, 92
-told predicate (Prolog), 195
-transitive closure, Prolog clauses, 216-217
-troubleshooting
-
-Scheme
-
-constructors, 84
-expressions, 84
-printing, 83
-recursion, 84
-syntax, 81-82
-variables, 83
-
-Prolog
-
-true operator, 195
-Turbo Prolog, 163
-
-
-
-U',
-          ],
-          [
-            1,
             '[17:19] Handbook of Programming Languages Volume 4 - Peter H. Salus.epub (book-index_split_001.html) - 17-19',
             'values, Emacs Lisp variables, <<17-19|5a:0>>
-variables (Emacs Lisp), <<17-18|5a:0>>, 25-29
+variables (Emacs Lisp), 17-18, 25-29
 
 buffer-local variables, 29-31
 global, 26-27

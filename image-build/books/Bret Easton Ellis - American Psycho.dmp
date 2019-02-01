@@ -34,7 +34,7 @@ $VAR1 = [
           [
             1,
             '[ap 08:00] American Psycho - Bret Easton Ellis.epub (OEBPS/Elli_9780307756435_epub_c06_r1.htm) - eight',
-            "\x{201c}Oh wait,\x{201d} I say, remembering something. \x{201c}And I need reservations for two at Arcadia at <<eight|9a>> tonight.\x{201d}",
+            "\x{201c}Oh wait,\x{201d} I say, remembering something. \x{201c}And I need reservations for two at Arcadia at <<eight|3b>> tonight.\x{201d}",
           ],
           [
             1,
@@ -171,7 +171,7 @@ $VAR1 = [
           [
             1,
             '[ap ~ 02:00] American Psycho - Bret Easton Ellis.epub (OEBPS/Elli_9780307756435_epub_c27_r1.htm) - around two',
-            "Later, <<around two|9e>>, in bed, I\x{2019}m unable to sleep. Evelyn catches me on call waiting while I\x{2019}m listening to messages on 976-TWAT and watching a tape on the VCR of this morning\x{2019}s Patty Winters Show which is about Deformed People.",
+            "Later, <<around two|9:0>>, in bed, I\x{2019}m unable to sleep. Evelyn catches me on call waiting while I\x{2019}m listening to messages on 976-TWAT and watching a tape on the VCR of this morning\x{2019}s Patty Winters Show which is about Deformed People.",
           ],
           [
             1,
@@ -266,7 +266,7 @@ She pauses. \x{201c}Now? It\x{2019}s\x{201d}\x{2014}she checks her watch\x{2014}
             1,
             '[03:00] American Psycho - Bret Easton Ellis.epub (OEBPS/Elli_9780307756435_epub_c36_r1.htm) - three in the morning',
             "\x{201c}Oh god,\x{201d} Elizabeth wails, \x{201c}it\x{2019}s his machine.\x{201d}
-\x{201c}Elizabeth.\x{201d} I point at my Rolex. \x{201c}It\x{2019}s <<three in the morning|9a>>.\x{201d}
+\x{201c}Elizabeth.\x{201d} I point at my Rolex. \x{201c}It\x{2019}s <<three in the morning|5>>.\x{201d}
 \x{201c}He\x{2019}s a goddamn drug dealer,\x{201d} she says, exasperated. \x{201c}These are his peak hours.\x{201d}",
           ],
           [
@@ -421,7 +421,12 @@ An hour later. We\x{2019}re still debating. We have canceled the reservation at 
           [
             1,
             '[14:00] American Psycho - Bret Easton Ellis.epub (OEBPS/Elli_9780307756435_epub_c55_r1.htm) - two in the afternoon',
-            "It is four days before Christmas, at <<two in the afternoon|9a>>. I\x{2019}m sitting in the back of a pitch-black limousine parked in front of a nondescript brownstone off Fifth Avenue trying to read an article about Donald Trump in the new issue of Fame magazine. Jeanette wants me to come in with her but I say \x{201c}Forget it.\x{201d} She has a black eye from last night since I had to coerce her over dinner at Il Marlibro to even consider doing this; then, after a more forceful discussion at my apartment, she consented. Jeanette\x{2019}s dilemma lies outside my definition of guilt, and I had told her, truthfully, over dinner that it was very hard for me to express concern for her that I don\x{2019}t feel. During the entire drive from my place on the Upper West Side, she\x{2019}s been sobbing. The only clear, identifiable emotion coming from her is desperation and maybe longing, and though I successfully ignore her for most of the ride I finally have to tell her, \x{201c}Listen, I\x{2019}ve already taken two Xanax this morning so, uh, you\x{2019}re incapable of, like, upsetting me.\x{201d} Now, as she stumbles out of the limo onto the frozen pavement, I mumble, \x{201c}It\x{2019}s for the best,\x{201d} and, offering consolation, \x{201c}Don\x{2019}t take it so seriously.\x{201d} The driver, whose name I\x{2019}ve forgotten, leads her into the brownstone and she gives a last, regretful look back. I sigh and wave her off. She\x{2019}s still wearing, from last night, a leopard-print cotton balmacaan coat with wool challis lining over a wool crepe shirtless dress by Bill Blass. Bigfoot was interviewed on The Patty Winters Show this morning and to my shock I found him surprisingly articulate and charming. The glass I\x{2019}m drinking Absolut vodka from is Finnish. I\x{2019}m very suntanned compared to Jeanette.",
+            "It is four days before Christmas, at <<two in the afternoon|5>>. I\x{2019}m sitting in the back of a pitch-black limousine parked in front of a nondescript brownstone off Fifth Avenue trying to read an article about Donald Trump in the new issue of Fame magazine. Jeanette wants me to come in with her but I say \x{201c}Forget it.\x{201d} She has a black eye from last night since I had to coerce her over dinner at Il Marlibro to even consider doing this; then, after a more forceful discussion at my apartment, she consented. Jeanette\x{2019}s dilemma lies outside my definition of guilt, and I had told her, truthfully, over dinner that it was very hard for me to express concern for her that I don\x{2019}t feel. During the entire drive from my place on the Upper West Side, she\x{2019}s been sobbing. The only clear, identifiable emotion coming from her is desperation and maybe longing, and though I successfully ignore her for most of the ride I finally have to tell her, \x{201c}Listen, I\x{2019}ve already taken two Xanax this morning so, uh, you\x{2019}re incapable of, like, upsetting me.\x{201d} Now, as she stumbles out of the limo onto the frozen pavement, I mumble, \x{201c}It\x{2019}s for the best,\x{201d} and, offering consolation, \x{201c}Don\x{2019}t take it so seriously.\x{201d} The driver, whose name I\x{2019}ve forgotten, leads her into the brownstone and she gives a last, regretful look back. I sigh and wave her off. She\x{2019}s still wearing, from last night, a leopard-print cotton balmacaan coat with wool challis lining over a wool crepe shirtless dress by Bill Blass. Bigfoot was interviewed on The Patty Winters Show this morning and to my shock I found him surprisingly articulate and charming. The glass I\x{2019}m drinking Absolut vodka from is Finnish. I\x{2019}m very suntanned compared to Jeanette.",
+          ],
+          [
+            1,
+            '[15:00] American Psycho - Bret Easton Ellis.epub (OEBPS/Elli_9780307756435_epub_c56_r1.htm) - 1500',
+            "There\x{2019}s no use in denying it: this has been a bad week. I\x{2019}ve started drinking my own urine. I laugh spontaneously at nothing. Sometimes I sleep under my futon. I\x{2019}m flossing my teeth constantly until my gums are aching and my mouth tastes like blood. Before dinner last night at <<1500|18:0>> with Reed Goodrich and Jason Rust I was almost caught at a Federal Express in Times Square trying to send the mother of one of the girls I killed last week what might be a dried-up, brown heart. And to Evelyn I successfully Federal Expressed, through the office, a small box of flies along with a note, typed by Jean, saying that I never, ever wanted to see her face again and, though she doesn\x{2019}t really need one, to go on a fucking diet. But there are also things that the average person would think are nice that I\x{2019}ve done to celebrate the holiday, items I\x{2019}ve bought Jean and had delivered to her apartment this morning: Castellini cotton napkins from Bendel\x{2019}s, a wicker chair from Jenny B. Goode, a taffeta table throw from Barney\x{2019}s, a vintage chain-mail-vent purse and a vintage sterling silver dresser set from Macy\x{2019}s, a white pine whatnot from Conran\x{2019}s, an Edwardian nine-carat-gold \x{201c}gate\x{201d} bracelet from Bergdorf\x{2019}s and hundreds upon hundreds of pink and white roses.",
           ],
           [
             1,

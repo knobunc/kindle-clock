@@ -77,7 +77,7 @@ $VAR1 = [
           [
             1,
             '[~ 18:00] An Excellent Mystery - Ellis Peters.epub (Ops/011.html) - Compline',
-            "They went to <<Compline|13>> at the first sound of the bell. The visitor had indeed given Humilis a heft forward towards health, it seemed, for here he came, habited and erect on Fidelis\x{2019}s arm, having asked no permission of his doctors, bent on observing the night office with the rest. But I\x{2019}ll hound him back as soon as the observance is over, thought Cadfael, concerned for his dressing. Let him brandish his banner this once, it speaks well for his spirit, even if his flesh is drawn with effort. And who am I to say what a brother, my equal, may or may not do for his own salvation?",
+            "They went to <<Compline|13>> at the first sound of the bell. The visitor had indeed given Humilis a heft forward towards health, it seemed, for here he came, habited and erect on Fidelis\x{2019}s arm, having asked no permission of his doctors, bent on observing the <<night office|13>> with the rest. But I\x{2019}ll hound him back as soon as the observance is over, thought Cadfael, concerned for his dressing. Let him brandish his banner this once, it speaks well for his spirit, even if his flesh is drawn with effort. And who am I to say what a brother, my equal, may or may not do for his own salvation?",
           ],
           [
             1,
@@ -103,6 +103,11 @@ $VAR1 = [
             1,
             '[ap 01:00] An Excellent Mystery - Ellis Peters.epub (Ops/014.html) - one',
             "To this the other two nodded firm assent, satisfied that their errand had been completed in obedience to the lady\x{2019}s wishes. So it was only <<one|9f>>, only her servant and familiar, according to repute, who had gone the rest of the way with Julian Cruce.",
+          ],
+          [
+            1,
+            '[~ 16:30] An Excellent Mystery - Ellis Peters.epub (Ops/014.html) - Vespers',
+            'Cadfael went to <<Vespers|13>> with an unquiet mind, troubled by imaginings of a girl on horseback, with silver and rough gems and coin in her saddle-bags, parting from her last known companions only a few miles from her goal, and then vanishing like morning mist in the summer sun, as if she had never been. A wisp of vapour over the meadow, and then gone. If those who agonised after her, the old and the young, had known her dead and with God, they, too, could have been at peace. Now there was no peace for any man drawn into this elaborate web of uncertainty. Among the novices and schoolboys and the child oblates, last of their kind, for Abbot Radulfus would accept no more infants into a cloistered life decreed for them by others, Rhun stood rapt and radiant, smiling as he sang. A virgin by nature and aptitude, as well as by years, untroubled by the bodily agonies that tore most men, but miraculously aware of them and tender towards them, as few are to pains that leave their own flesh unwrung.',
           ],
           [
             1,
@@ -147,7 +152,7 @@ $VAR1 = [
           [
             1,
             '[ap 10:00] An Excellent Mystery - Ellis Peters.epub (Ops/019.html) - ten',
-            "He lifted his guest bodily out of the boat, startled by the light weight, and set him carefully in the sling chair. As a boy of twelve, long ago, son of his lord\x{2019}s steward, he had more than once carried the little boy in his arms. The elder brother, Marescot\x{2019}s heir, had scorned, at <<ten|9e>>, to play nursemaid to a mere baby. Now the same arms carried the last wisp of a life, and found it scarcely heavier than the child.",
+            "He lifted his guest bodily out of the boat, startled by the light weight, and set him carefully in the sling chair. As a boy of twelve, long ago, son of his lord\x{2019}s steward, he had more than once carried the little boy in his arms. The elder brother, Marescot\x{2019}s heir, had scorned, at <<ten|9:0>>, to play nursemaid to a mere baby. Now the same arms carried the last wisp of a life, and found it scarcely heavier than the child.",
           ],
           [
             1,
@@ -208,6 +213,11 @@ $VAR1 = [
             1,
             '[~ 16:30] An Excellent Mystery - Ellis Peters.epub (Ops/025.html) - Vespers',
             "\x{201c}Son,\x{201d} said Cadfael heartily, \x{201c}you\x{2019}ve already done more than ever I expected of you. As for the spade, that edge has been replaced three times at least since the tool was made, and I know well enough it\x{2019}s due for a fourth sheathing very soon. If you think it will do yet a while, at least to finish this task, then beat it out again by all means, but then put it away, and wash, and come to <<Vespers|13>>.\x{201d}",
+          ],
+          [
+            1,
+            '[~ 16:30] An Excellent Mystery - Ellis Peters.epub (Ops/025.html) - Vespers',
+            "Cadfael went to <<Vespers|13>> with his mind\x{2019}s eye full of the jaunty figure of his new labourer, striding away to beat out the dented iron edge of the spade into even sharpness, and his ears were still stretched to catch the whistled tune, certainly not liturgical in character, to which Benet\x{2019}s large young feet in their scuffed shoes and borrowed pattens kept time.",
           ],
           [
             1,

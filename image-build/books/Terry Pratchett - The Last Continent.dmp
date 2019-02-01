@@ -27,7 +27,7 @@ $VAR1 = [
           [
             1,
             '[04:00] The Last Continent - Terry Pratchett.epub (The_Last_Continent_split_005.html) - four in the morning',
-            "\x{201c}At <<four in the morning|9a>>? For the beach?\x{201d} said the Lecturer in Recent Runes. \x{201c}Of course not.\x{201d}",
+            "\x{201c}At <<four in the morning|5>>? For the beach?\x{201d} said the Lecturer in Recent Runes. \x{201c}Of course not.\x{201d}",
           ],
           [
             1,
@@ -69,6 +69,6 @@ $VAR1 = [
           [
             1,
             '[10:00] The Last Continent - Terry Pratchett.epub (The_Last_Continent_split_007.html) - ten in the morning',
-            'Someone tapped him on the shoulder. It was Neilette. Letitia and Darleen were standing behind her, grinning. It was <<ten in the morning|9a>>. They were wearing sequined evening gowns.',
+            'Someone tapped him on the shoulder. It was Neilette. Letitia and Darleen were standing behind her, grinning. It was <<ten in the morning|5>>. They were wearing sequined evening gowns.',
           ],
         ];

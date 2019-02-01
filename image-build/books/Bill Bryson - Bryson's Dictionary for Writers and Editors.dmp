@@ -37,7 +37,7 @@ $VAR1 = [
           [
             1,
             '[ap 09:00] Bryson\'s Dictionary for Writers and Editor - Bill Bryson.epub (OEBPS/Brys_9780767929110_epub_bm1_r1.htm) - nine',
-            "Occasionally the writer recognizes that the sentence contains a parenthetical thought but fails to discern just how much of the information is incidental, as here: \x{201c}At <<nine|9e>> she won a scholarship to Millfield, the private school, for bright children of the rich\x{201d} (Evening Standard). If we removed what has been presented as parenthetical, the sentence would say: \x{201c}At <<nine|9e>> she won a scholarship to Millfield for bright children.\x{201d} There should be no comma after school, because the whole of the last statement is parenthetical.",
+            "Occasionally the writer recognizes that the sentence contains a parenthetical thought but fails to discern just how much of the information is incidental, as here: \x{201c}At <<nine|9m:0>> she won a scholarship to Millfield, the private school, for bright children of the rich\x{201d} (Evening Standard). If we removed what has been presented as parenthetical, the sentence would say: \x{201c}At <<nine|9m:0>> she won a scholarship to Millfield for bright children.\x{201d} There should be no comma after school, because the whole of the last statement is parenthetical.",
           ],
           [
             1,

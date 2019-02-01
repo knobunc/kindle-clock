@@ -63,8 +63,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[12:00] The Voyages of Doctor Dolittle - Hugh Lofting.epub (OPS/chapter-038.xml) - noon',
-            "\"We struggled for all we were worth; but it was no use. The net was small\x{2013}meshed and strongly made. Kicking and flipping we were hauled up the side of the ship and dumped down on the deck, high and dry in a blazing <<noon|13>>\x{2013}day sun.\"",
+            "[12:00] The Voyages of Doctor Dolittle - Hugh Lofting.epub (OPS/chapter-038.xml) - noon\x{2013}day",
+            "\"We struggled for all we were worth; but it was no use. The net was small\x{2013}meshed and strongly made. Kicking and flipping we were hauled up the side of the ship and dumped down on the deck, high and dry in a blazing <<noon\x{2013}day|13>> sun.\"",
           ],
           [
             1,
@@ -75,6 +75,11 @@ $VAR1 = [
             1,
             '[ap 01:00] The Voyages of Doctor Dolittle - Hugh Lofting.epub (OPS/chapter-046.xml) - One',
             "\"Hark, Long Arrow,\" said the Doctor: \"divers ways there be of making fire without the aid of matches. <<One|9k:0>>: with a strong glass and the rays of the sun. That however, since the sun has set, we cannot now employ. Another is by grinding a hard stick into a soft log\x{2014}Is the daylight gone without?\x{2014}Alas yes. Then I fear we must await the morrow; for besides the different woods, we need an old squirrel's nest for fuel\x{2014}And that without lamps you could not find in your forests at this hour.\"",
+          ],
+          [
+            1,
+            "[12:00] The Voyages of Doctor Dolittle - Hugh Lofting.epub (OPS/chapter-051.xml) - mid\x{2013}day",
+            "We inquired what was the meaning of all this; and were told that the election of a new chief had been going on all through the whole night. Bumpo asked the name of the new chief; but this, it seemed, had not yet been given out. It would be announced at <<mid\x{2013}day|13>>.",
           ],
           [
             1,

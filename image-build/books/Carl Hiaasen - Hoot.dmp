@@ -1,11 +1,6 @@
 $VAR1 = [
           [
             1,
-            '[ap 01:00] Hoot - Carl Hiaasen.epub (OPS/Hiaa_9780375890277_epub_c01_r1.htm) - one',
-            "\x{201c}No way. The reason I asked, I saw this weird kid today at <<one|9b>> of the bus stops. Except he didn\x{2019}t get on the bus, and he\x{2019}s not here at school,\x{201d} Roy said, \x{201c}so I figured he must not go to Trace.\x{201d}",
-          ],
-          [
-            1,
             '[12:00] Hoot - Carl Hiaasen.epub (OPS/Hiaa_9780375890277_epub_c03_r1.htm) - noon',
             "THREE
 Officer Delinko shielded his eyes against the <<noon|13>> glare.
@@ -46,7 +41,7 @@ Officer Delinko let out an involuntary whimper. <<Nine-thirty|9j>>! He touched h
           [
             1,
             '[16:30] Hoot - Carl Hiaasen.epub (OPS/Hiaa_9780375890277_epub_c07_r1.htm) - four-thirty in the afternoon',
-            'At <<four-thirty in the afternoon|5>>, when Officer David Delinko normally got off work, his desk was still piled high with paperwork. He had lots of forms to fill out and reports to complete about what had happened to his patrol car. He kept writing until his wrist began to ache, and at <<six|9e>> he finally called it quits.',
+            'At <<four-thirty in the afternoon|5>>, when Officer David Delinko normally got off work, his desk was still piled high with paperwork. He had lots of forms to fill out and reports to complete about what had happened to his patrol car. He kept writing until his wrist began to ache, and at <<six|9:1>> he finally called it quits.',
           ],
           [
             1,
@@ -140,6 +135,6 @@ Then he sat down.",
           [
             1,
             '[06:00] Hoot - Carl Hiaasen.epub (OPS/Hiaa_9780375890277_epub_c21_r1.htm) - six this morning',
-            "His mother said, \x{201c}The phone started ringing at <<six this morning|9a>>. Your dad made me take it off the hook.\x{201d}",
+            "His mother said, \x{201c}The phone started ringing at <<six this morning|5>>. Your dad made me take it off the hook.\x{201d}",
           ],
         ];

@@ -2,7 +2,7 @@ $VAR1 = [
           [
             1,
             '[03:00] House of Leaves - Mark Z. Danielewski.epub (index_split_006.xhtml) - three in the morning',
-            "I\x{2019}m so tired. Sleep\x{2019}s been stalking me for too long to remember. Inevitable I suppose. Sadly though, I\x{2019}m not looking forward to the prospect. I say \x{201c}sadly\x{201d} because there was a time when I actually enjoyed sleeping. In fact I slept all the time. That was before my friend Lude woke me up at <<three in the morning|9a>> and asked me to come over to his place. Who knows, if I hadn\x{2019}t heard the phone ring, would everything be different now? I think about that alot.",
+            "I\x{2019}m so tired. Sleep\x{2019}s been stalking me for too long to remember. Inevitable I suppose. Sadly though, I\x{2019}m not looking forward to the prospect. I say \x{201c}sadly\x{201d} because there was a time when I actually enjoyed sleeping. In fact I slept all the time. That was before my friend Lude woke me up at <<three in the morning|5>> and asked me to come over to his place. Who knows, if I hadn\x{2019}t heard the phone ring, would everything be different now? I think about that alot.",
           ],
           [
             1,
@@ -17,12 +17,12 @@ $VAR1 = [
           [
             1,
             '[03:00] House of Leaves - Mark Z. Danielewski.epub (index_split_006.xhtml) - three in the morning',
-            "When the phone rang, I was fast asleep. Anybody else I would have hung up on, but Lude\x{2019}s a good enough friend I actually dragged my ass out of bed at <<three in the morning|9a>> and headed over to Franklin. He was waiting outside the gate with a wicked gleam in his eye.",
+            "When the phone rang, I was fast asleep. Anybody else I would have hung up on, but Lude\x{2019}s a good enough friend I actually dragged my ass out of bed at <<three in the morning|5>> and headed over to Franklin. He was waiting outside the gate with a wicked gleam in his eye.",
           ],
           [
             1,
             '[04:00] House of Leaves - Mark Z. Danielewski.epub (index_split_006.xhtml) - four in the morning',
-            'What did I know then? What do I know now? At least some of the horror I took away at <<four in the morning|9a>> you now have before you, waiting for you a little like it waited for me that night, only without these few covering pages.',
+            'What did I know then? What do I know now? At least some of the horror I took away at <<four in the morning|5>> you now have before you, waiting for you a little like it waited for me that night, only without these few covering pages.',
           ],
           [
             1,
@@ -32,7 +32,7 @@ $VAR1 = [
           [
             1,
             '[03:00] House of Leaves - Mark Z. Danielewski.epub (index_split_011.xhtml) - three in the morning',
-            "The simple answer I know: Lude woke me up at <<three in the morning|9a>> to check out some dead guy\x{2019}s stuff.",
+            "The simple answer I know: Lude woke me up at <<three in the morning|5>> to check out some dead guy\x{2019}s stuff.",
           ],
           [
             1,
@@ -52,7 +52,7 @@ $VAR1 = [
           [
             1,
             '[04:00] House of Leaves - Mark Z. Danielewski.epub (index_split_012.xhtml) - four in the morning',
-            "\x{201c}My own brother who I haven\x{2019}t talked to in years calls me up at <<four in the morning|9a>> and tells me he needs my tools. Go figure.\x{201d}",
+            "\x{201c}My own brother who I haven\x{2019}t talked to in years calls me up at <<four in the morning|5>> and tells me he needs my tools. Go figure.\x{201d}",
           ],
           [
             1,
@@ -97,7 +97,7 @@ $VAR1 = [
           [
             1,
             '[ap 10:00] House of Leaves - Mark Z. Danielewski.epub (index_split_016.xhtml) - ten',
-            'By <<ten|9e>>, they had returned home with jars full of light and hands sticky with ice cream.',
+            'By <<ten|9:0>>, they had returned home with jars full of light and hands sticky with ice cream.',
           ],
           [
             1,
@@ -117,7 +117,7 @@ $VAR1 = [
           [
             1,
             '[03:00] House of Leaves - Mark Z. Danielewski.epub (index_split_017.xhtml) - three in the morning',
-            "napalm to turn his back on Holloway and go drink lemonade on the porch. Furthermore, as Navidson points out, \x{201c}They\x{2019}ve been in there almost eight days with water for six. It\x{2019}s <<three in the morning|9a>>. We don\x{2019}t have time to get officials involved or a search party organized. We have to go now.\x{201d} Then adding in a half-mumble:\x{201d} I waited too long with Delia!. I\x{2019}m not going to do it again.\x{201d}",
+            "napalm to turn his back on Holloway and go drink lemonade on the porch. Furthermore, as Navidson points out, \x{201c}They\x{2019}ve been in there almost eight days with water for six. It\x{2019}s <<three in the morning|5>>. We don\x{2019}t have time to get officials involved or a search party organized. We have to go now.\x{201d} Then adding in a half-mumble:\x{201d} I waited too long with Delia!. I\x{2019}m not going to do it again.\x{201d}",
           ],
           [
             1,
@@ -300,7 +300,14 @@ Day 2: <<18:28|2>>
           [
             1,
             '[12:00] House of Leaves - Mark Z. Danielewski.epub (index_split_109.xhtml) - Noon',
-            "11/12 \x{2014} <<Noon|13>>: Alison 24\x{2014}28???? Evening: ????? 23. Did it in wet suits. Neoprene smeared with Astroglide. She kept calling him O\x{2019}Neil.",
+            "11/12 \x{2014} <<Noon|13>>: Alison <<24\x{2014}28|5a:1>>???? Evening: ????? 23. Did it in wet suits. Neoprene smeared with Astroglide. She kept calling him O\x{2019}Neil.",
+          ],
+          [
+            1,
+            "[00:34] House of Leaves - Mark Z. Danielewski.epub (index_split_109.xhtml) - 24\x{2014}34",
+            "
+11/13 \x{2014} Holly. <<24\x{2014}34|5a:0>>???? vietnamese.
+",
           ],
           [
             1,
@@ -410,7 +417,7 @@ Day 3: <<07:53|2>>
           [
             1,
             '[05:00] House of Leaves - Mark Z. Danielewski.epub (index_split_140.xhtml) - five in the morning',
-            'It is impossible to interpret her thanks as anything but heartfelt. Tom offers a clownish salute, winning a smile from both Chad and Daisy who are still somewhat disoriented from having been awakened at <<five in the morning|9a>> and dragged out into the storm. Only when they have disappeared upstairs does Tom lift up the basinet and pull out a bottle of bourbon.',
+            'It is impossible to interpret her thanks as anything but heartfelt. Tom offers a clownish salute, winning a smile from both Chad and Daisy who are still somewhat disoriented from having been awakened at <<five in the morning|5>> and dragged out into the storm. Only when they have disappeared upstairs does Tom lift up the basinet and pull out a bottle of bourbon.',
           ],
           [
             1,
@@ -484,8 +491,8 @@ ciating. At <<one|9m:0>> poi
           ],
           [
             1,
-            '[ap 08:50] House of Leaves - Mark Z. Danielewski.epub (index_split_202.xhtml) - eight- fifty',
-            "At least I have a little money now. I pawned the weapons before I left. The guy gave me <<eight- fifty|5k:1>> for all three. He wouldn\x{2019}t spare a cent on the bullets, so I kept them and tossed them in a dumpster behind a photolab.",
+            "[12:00] House of Leaves - Mark Z. Danielewski.epub (index_split_202.xhtml) - mid\x{2014}day",
+            "It was <<mid\x{2014}day|3b>> when I found, following a bunch of lefts, the right right to a no saint lined Street, completely changed. The house gone. A bunch of houses gone. In their place a large lumberyard. Part of it operational. The other part still under construction.",
           ],
           [
             1,

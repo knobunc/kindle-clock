@@ -12,7 +12,7 @@ $VAR1 = [
           [
             1,
             '[ap < 09:00] The Cuckoo\'s Calling - Robert Galbraith.epub (text/part0010.html) - Before nine',
-            "\x{2018}It was early. <<Before nine|9e>>, I was on my way in to the office. Perhaps a <<quarter to nine|10>>?\x{2019}",
+            "\x{2018}It was early. <<Before nine|9:0>>, I was on my way in to the office. Perhaps a <<quarter to nine|10>>?\x{2019}",
           ],
           [
             1,
@@ -67,7 +67,7 @@ $VAR1 = [
           [
             1,
             '[ap 01:45] The Cuckoo\'s Calling - Robert Galbraith.epub (text/part0013.html) - 1.45',
-            "At <<1.45|9e>>, Derrick Wilson, the security guard on duty at the desk overnight, felt unwell and went into the back bathroom, where he remained for approximately a quarter of an hour. For fifteen minutes prior to Lula\x{2019}s death, therefore, the lobby of her building was deserted and anybody could have entered and exited without being seen. Wilson only came out of the bathroom after Lula fell, when he heard Tansy Bestigui screaming.",
+            "At <<1.45|9m:1>>, Derrick Wilson, the security guard on duty at the desk overnight, felt unwell and went into the back bathroom, where he remained for approximately a quarter of an hour. For fifteen minutes prior to Lula\x{2019}s death, therefore, the lobby of her building was deserted and anybody could have entered and exited without being seen. Wilson only came out of the bathroom after Lula fell, when he heard Tansy Bestigui screaming.",
           ],
           [
             1,
@@ -82,7 +82,7 @@ $VAR1 = [
           [
             1,
             '[02:00] The Cuckoo\'s Calling - Robert Galbraith.epub (text/part0016.html) - two in the morning',
-            'This was rather thrilling: Robin prided herself on her observational powers; they were one reason she had secretly cherished the childhood ambition that the large man beside her was living. She looked intelligently up and down the street, and tried to visualise what someone might have been up to, on a snowy night, in sub-zero temperatures, at <<two in the morning|9a>>.',
+            'This was rather thrilling: Robin prided herself on her observational powers; they were one reason she had secretly cherished the childhood ambition that the large man beside her was living. She looked intelligently up and down the street, and tried to visualise what someone might have been up to, on a snowy night, in sub-zero temperatures, at <<two in the morning|5>>.',
           ],
           [
             1,
@@ -107,7 +107,7 @@ $VAR1 = [
           [
             1,
             '[02:00] The Cuckoo\'s Calling - Robert Galbraith.epub (text/part0020.html) - two in the morning',
-            "\x{2018}She hadn\x{2019}t given you any details at this point, had she?\x{2019} Strike asked. \x{2018}Nothing about what she\x{2019}d been doing when she heard this man? Nothing to explain why she was awake at <<two in the morning|9a>>?\x{2019}",
+            "\x{2018}She hadn\x{2019}t given you any details at this point, had she?\x{2019} Strike asked. \x{2018}Nothing about what she\x{2019}d been doing when she heard this man? Nothing to explain why she was awake at <<two in the morning|5>>?\x{2019}",
           ],
           [
             1,
@@ -142,7 +142,7 @@ $VAR1 = [
           [
             1,
             '[18:00] The Cuckoo\'s Calling - Robert Galbraith.epub (text/part0022.html) - six in the evening',
-            'Lucy telephoned him at <<six in the evening|9a>>, while he was hard at work. Though his sister was younger than Strike by two years, she seemed to feel herself older. Weighed down, young, by a mortgage, a stolid husband, three children and an onerous job, Lucy seemed to crave responsibility, as though she could never have enough anchors. Strike had always suspected that she wanted to prove to herself and the world that she was nothing like their fly-by-night mother, who had dragged the two of them all over the country, from school to school, house to squat to camp, in pursuit of the next enthusiasm or man. Lucy was the only one of his eight half-siblings with whom Strike had shared a childhood; he was fonder of her than of almost anyone else in his life, and yet their interactions were often unsatisfactory, laden with familiar anxieties and arguments. Lucy could not disguise the fact that her brother worried and disappointed her. In consequence, Strike was less inclined to be honest with her about his present situation than he would have been with many a friend.',
+            'Lucy telephoned him at <<six in the evening|5>>, while he was hard at work. Though his sister was younger than Strike by two years, she seemed to feel herself older. Weighed down, young, by a mortgage, a stolid husband, three children and an onerous job, Lucy seemed to crave responsibility, as though she could never have enough anchors. Strike had always suspected that she wanted to prove to herself and the world that she was nothing like their fly-by-night mother, who had dragged the two of them all over the country, from school to school, house to squat to camp, in pursuit of the next enthusiasm or man. Lucy was the only one of his eight half-siblings with whom Strike had shared a childhood; he was fonder of her than of almost anyone else in his life, and yet their interactions were often unsatisfactory, laden with familiar anxieties and arguments. Lucy could not disguise the fact that her brother worried and disappointed her. In consequence, Strike was less inclined to be honest with her about his present situation than he would have been with many a friend.',
           ],
           [
             1,
@@ -162,7 +162,7 @@ $VAR1 = [
           [
             1,
             '[01:00] The Cuckoo\'s Calling - Robert Galbraith.epub (text/part0022.html) - one in the morning',
-            "It was <<one in the morning|9a>>. Strike had become almost deaf to the constant muffled thuds of the bass guitar from two floors below, and to the occasional creaks and hisses from the attic flat above, where the bar manager enjoyed luxuries like showers and home-cooked food. Tired, but not yet ready to climb into his sleeping bag, he managed to discover Guy Som\x{e9}\x{2019}s approximate address by further perusal of the internet, and noted the close proximity of Charles Street to Kentigern Gardens. Then he typed in the web address www.arrse.co.uk, like a man turning automatically into his local after a long shift at work.",
+            "It was <<one in the morning|5>>. Strike had become almost deaf to the constant muffled thuds of the bass guitar from two floors below, and to the occasional creaks and hisses from the attic flat above, where the bar manager enjoyed luxuries like showers and home-cooked food. Tired, but not yet ready to climb into his sleeping bag, he managed to discover Guy Som\x{e9}\x{2019}s approximate address by further perusal of the internet, and noted the close proximity of Charles Street to Kentigern Gardens. Then he typed in the web address www.arrse.co.uk, like a man turning automatically into his local after a long shift at work.",
           ],
           [
             1,
@@ -207,12 +207,12 @@ $VAR1 = [
           [
             1,
             '[09:15] The Cuckoo\'s Calling - Robert Galbraith.epub (text/part0027.html) - 9.15 in the morning',
-            "Lula had barely used her landline in the week prior to her death, and not at all on the day before she died. From her mobile, however, she had made no fewer than sixty-six calls on her last day of life. The first, at <<9.15 in the morning|2a>>, had been to Evan Duffield; the second, at <<9.35|9e>>, to Ciara Porter. There followed a gap of hours, in which she had spoken to nobody on the mobile, and then, at <<1.21|9e>>, she had begun a positive frenzy of telephoning two numbers, almost alternately. One of these was Duffield\x{2019}s; the other belonged, according to the crabbed scribble beside the number\x{2019}s first appearance, to Tony Landry. Again and again she had telephoned these two men. Here and there were gaps of twenty minutes or so, during which she made no calls; then she would begin telephoning again, doubtless hitting \x{2018}redial\x{2019}. All of this frenetic calling, Strike deduced, must have taken place once she was back in her flat with Bryony Radford and Ciara Porter, though neither of the two women\x{2019}s statements made mention of repeated telephoning.",
+            "Lula had barely used her landline in the week prior to her death, and not at all on the day before she died. From her mobile, however, she had made no fewer than sixty-six calls on her last day of life. The first, at <<9.15 in the morning|2a>>, had been to Evan Duffield; the second, at <<9.35|9:1>>, to Ciara Porter. There followed a gap of hours, in which she had spoken to nobody on the mobile, and then, at <<1.21|9:1>>, she had begun a positive frenzy of telephoning two numbers, almost alternately. One of these was Duffield\x{2019}s; the other belonged, according to the crabbed scribble beside the number\x{2019}s first appearance, to Tony Landry. Again and again she had telephoned these two men. Here and there were gaps of twenty minutes or so, during which she made no calls; then she would begin telephoning again, doubtless hitting \x{2018}redial\x{2019}. All of this frenetic calling, Strike deduced, must have taken place once she was back in her flat with Bryony Radford and Ciara Porter, though neither of the two women\x{2019}s statements made mention of repeated telephoning.",
           ],
           [
             1,
             '[ap 09:10] The Cuckoo\'s Calling - Robert Galbraith.epub (text/part0027.html) - 9.10',
-            "Strike was now yawning every few minutes; he considered making himself coffee, but could not muster the energy. Wanting his bed, but driven on by habit to complete the job in hand, he turned to the copies of security logbook pages showing the entrances and exits of visitors to number 18 on the day preceding Lula Landry\x{2019}s death. A careful perusal of signatures and initials revealed that Wilson had not been as meticulous in his record-keeping as his employers might have hoped. As Wilson had already told Strike, the movements of the building\x{2019}s residents were not recorded in the book; so the comings and goings of Landry and the Bestiguis were missing. The first entry Wilson had made was for the postman, at <<9.10|9:1>>; next, at <<9.22|9e>>, came Florist delivery Flat 2; finally, at <<9.50|9e>>, Securibell. No time of departure was marked for the alarm checker.",
+            "Strike was now yawning every few minutes; he considered making himself coffee, but could not muster the energy. Wanting his bed, but driven on by habit to complete the job in hand, he turned to the copies of security logbook pages showing the entrances and exits of visitors to number 18 on the day preceding Lula Landry\x{2019}s death. A careful perusal of signatures and initials revealed that Wilson had not been as meticulous in his record-keeping as his employers might have hoped. As Wilson had already told Strike, the movements of the building\x{2019}s residents were not recorded in the book; so the comings and goings of Landry and the Bestiguis were missing. The first entry Wilson had made was for the postman, at <<9.10|9:1>>; next, at <<9.22|9:1>>, came Florist delivery Flat 2; finally, at <<9.50|9:1>>, Securibell. No time of departure was marked for the alarm checker.",
           ],
           [
             1,
@@ -301,30 +301,35 @@ $VAR1 = [
           ],
           [
             1,
+            '[ap ~ 10:30] The Cuckoo\'s Calling - Robert Galbraith.epub (text/part0038.html) - about ten thirty',
+            "\x{2018}I\x{2019}d just got back, a couple of hours before.\x{2019} Som\x{e9}\x{2019}s fingers twitched a little on the cigarette. \x{2018}I\x{2019}d been in Tokyo, hardly any sleep for eight days. Touched down at Heathrow at <<about ten thirty|5k:1>> with the most fucking appalling jet lag. I can\x{2019}t sleep on planes. I wanna be awake if I\x{2019}m going to crash.\x{2019}",
+          ],
+          [
+            1,
             '[00:00] The Cuckoo\'s Calling - Robert Galbraith.epub (text/part0038.html) - midnight',
-            "\x{2018}No. By <<midnight|13>> I was tucked up in bed with Viktor and Rolf. My cats,\x{2019} he added with a flicker of a grin. \x{2018}I took an Ambien, slept for a few hours, then woke up at <<five in the morning|9a>>. I switched on Sky News from the bed, and there was a man in a horrible sheepskin hat, standing in the snow in Cuckoo\x{2019}s street, saying she was dead. The ticker-tape across the bottom of the screen was saying it too.\x{2019}",
+            "\x{2018}No. By <<midnight|13>> I was tucked up in bed with Viktor and Rolf. My cats,\x{2019} he added with a flicker of a grin. \x{2018}I took an Ambien, slept for a few hours, then woke up at <<five in the morning|5>>. I switched on Sky News from the bed, and there was a man in a horrible sheepskin hat, standing in the snow in Cuckoo\x{2019}s street, saying she was dead. The ticker-tape across the bottom of the screen was saying it too.\x{2019}",
           ],
           [
             1,
             '[02:00] The Cuckoo\'s Calling - Robert Galbraith.epub (text/part0038.html) - two in the morning',
             "\x{2018}Why did you think it was Duffield?\x{2019} asked Strike, once he judged Trudie to be safely out of earshot.
-\x{2018}Who else would Cuckoo have let in at <<two in the morning|9a>>?\x{2019}
+\x{2018}Who else would Cuckoo have let in at <<two in the morning|5>>?\x{2019}
 \x{2018}How well do you know him?\x{2019}",
           ],
           [
             1,
             '[02:00] The Cuckoo\'s Calling - Robert Galbraith.epub (text/part0038.html) - two in the morning',
-            "\x{2018}She phoned me on the Wednesday, while I was still in Tokyo,\x{2019} said Som\x{e9}. \x{2018}Silly cow always forgot it was eight hours ahead; I had my phone on mute at <<two in the morning|9a>>, so I didn\x{2019}t pick up; but she left a message, and she was not suicidal. Listen to this.\x{2019}",
+            "\x{2018}She phoned me on the Wednesday, while I was still in Tokyo,\x{2019} said Som\x{e9}. \x{2018}Silly cow always forgot it was eight hours ahead; I had my phone on mute at <<two in the morning|5>>, so I didn\x{2019}t pick up; but she left a message, and she was not suicidal. Listen to this.\x{2019}",
           ],
           [
             1,
             '[03:00] The Cuckoo\'s Calling - Robert Galbraith.epub (text/part0038.html) - three in the morning',
-            "\x{2018}She\x{2019}d been through this head-fuck for a few months. There\x{2019}d been a stalker who was hand-delivering letters through her front door at <<three in the morning|9a>>; she kept getting woken up by the letter box going. The things he said he wanted to do to her, it scared her. Then she split up with Duffield, and she had the paps round the front of her house all the bloody time. Then she finds out they\x{2019}re hacking all her calls. And then she had to go and find that bitch of a mother. It was all getting too much. She wanted to be away from it all, to feel secure. I told her to move in with me, but instead she went and bought that fucking mausoleum.",
+            "\x{2018}She\x{2019}d been through this head-fuck for a few months. There\x{2019}d been a stalker who was hand-delivering letters through her front door at <<three in the morning|5>>; she kept getting woken up by the letter box going. The things he said he wanted to do to her, it scared her. Then she split up with Duffield, and she had the paps round the front of her house all the bloody time. Then she finds out they\x{2019}re hacking all her calls. And then she had to go and find that bitch of a mother. It was all getting too much. She wanted to be away from it all, to feel secure. I told her to move in with me, but instead she went and bought that fucking mausoleum.",
           ],
           [
             1,
             '[02:00] The Cuckoo\'s Calling - Robert Galbraith.epub (text/part0038.html) - two in the morning',
-            "\x{2018}Fuck\x{2026} Freddie Bestigui? Well, he\x{2019}s a shit, I know that. This little girl I know\x{2026} well, friend of a friend\x{2026} she was working for his production company, and he tried to fucking rape her. No, I am not exaggerating,\x{2019} said Som\x{e9}. \x{2018}Literally. Rape. Got her a bit drunk after work and had her on the floor; some assistant had forgotten his mobile and came back for it, and walked in on them. Bestigui paid them both off. Everyone was telling her to press charges, but she took the money and ran. They say he used to discipline his second wife in some pretty fucking kinky ways; that\x{2019}s why she walked away with three mill; she threatened him with the press. But Cuckoo would never have let Freddie Bestigui into her flat at <<two in the morning|9a>>. Like I say, she wasn\x{2019}t a stupid girl.\x{2019}",
+            "\x{2018}Fuck\x{2026} Freddie Bestigui? Well, he\x{2019}s a shit, I know that. This little girl I know\x{2026} well, friend of a friend\x{2026} she was working for his production company, and he tried to fucking rape her. No, I am not exaggerating,\x{2019} said Som\x{e9}. \x{2018}Literally. Rape. Got her a bit drunk after work and had her on the floor; some assistant had forgotten his mobile and came back for it, and walked in on them. Bestigui paid them both off. Everyone was telling her to press charges, but she took the money and ran. They say he used to discipline his second wife in some pretty fucking kinky ways; that\x{2019}s why she walked away with three mill; she threatened him with the press. But Cuckoo would never have let Freddie Bestigui into her flat at <<two in the morning|5>>. Like I say, she wasn\x{2019}t a stupid girl.\x{2019}",
           ],
           [
             1,
@@ -334,7 +339,7 @@ $VAR1 = [
           [
             1,
             '[11:00] The Cuckoo\'s Calling - Robert Galbraith.epub (text/part0041.html) - eleven in the morning',
-            "The Ordnance Arms sat beside the English Pawnbroking Company Ltd. It was a large, low-slung, off-white-painted pub. The interior was no-nonsense and utilitarian, with a selection of wooden clocks on a terracotta-coloured wall and a lividly patterned piece of red carpet the only gesture to anything as frivolous as decoration. Otherwise, there were two large pool tables, a long and accessible bar and plenty of empty space for milling drinkers. Just now, at <<eleven in the morning|9a>>, it was empty except for one little old man in the corner and a cheery serving girl, who addressed her only customer as \x{2018}Joey\x{2019} and gave Strike directions through the back.",
+            "The Ordnance Arms sat beside the English Pawnbroking Company Ltd. It was a large, low-slung, off-white-painted pub. The interior was no-nonsense and utilitarian, with a selection of wooden clocks on a terracotta-coloured wall and a lividly patterned piece of red carpet the only gesture to anything as frivolous as decoration. Otherwise, there were two large pool tables, a long and accessible bar and plenty of empty space for milling drinkers. Just now, at <<eleven in the morning|5>>, it was empty except for one little old man in the corner and a cheery serving girl, who addressed her only customer as \x{2018}Joey\x{2019} and gave Strike directions through the back.",
           ],
           [
             1,
@@ -409,7 +414,7 @@ $VAR1 = [
             1,
             '[ap ~ 11:00] The Cuckoo\'s Calling - Robert Galbraith.epub (text/part0050.html) - About eleven',
             "\x{2018}What time did you get there?\x{2019}
-\x{2018}<<About eleven|9e>>, but he\x{2019}d\x{2014}\x{2019}
+\x{2018}<<About eleven|9:1>>, but he\x{2019}d\x{2014}\x{2019}
 \x{2018}Cyprian must\x{2019}ve sent you out the moment you got to work, did he?\x{2019}",
           ],
           [

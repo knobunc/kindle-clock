@@ -103,7 +103,7 @@ $VAR1 = [
           [
             1,
             '[13:00] Code - Charles Petzold.epub (OEBPS/ch13.html) - 13',
-            'To do this, we start with the rightmost column. First we see that 6 is bigger than 3, so we have to borrow 1 from the 5, and then subtract 6 from <<13|9c:0>>, which is <<7|9f>>. Then we have to remember that we borrowed 1 from the 5, so it\'s really a 4, and this 4 is smaller than 7, so we borrow 1 from the 2 and subtract 7 from <<14|9c:0>>, which is <<7|9f>>. Then we have to remember that we borrowed 1 from the 2, so it\'s really a 1, and then we subtract 1 from it to get 0. Our answer is 77:',
+            'To do this, we start with the rightmost column. First we see that 6 is bigger than 3, so we have to borrow 1 from the 5, and then subtract 6 from <<13|9c:0>>, which is <<7|9c:0>>. Then we have to remember that we borrowed 1 from the 5, so it\'s really a 4, and this 4 is smaller than 7, so we borrow 1 from the 2 and subtract 7 from <<14|9c:0>>, which is <<7|9c:0>>. Then we have to remember that we borrowed 1 from the 2, so it\'s really a 1, and then we subtract 1 from it to get 0. Our answer is 77:',
           ],
           [
             1,
@@ -123,7 +123,7 @@ $VAR1 = [
           [
             1,
             '[ap 01:00] Code - Charles Petzold.epub (OEBPS/ch14.html) - 1',
-            'A more interesting approach to the adding machine eliminates an entire row of eight switches. But first we need to modify the D-type flip-flop slightly by adding an OR gate and an input signal called Clear. The Clear input is normally 0. But when it\'s <<1|9f>>, the Q output becomes 0, as shown here:',
+            'A more interesting approach to the adding machine eliminates an entire row of eight switches. But first we need to modify the D-type flip-flop slightly by adding an OR gate and an input signal called Clear. The Clear input is normally 0. But when it\'s <<1|9c:0>>, the Q output becomes 0, as shown here:',
           ],
           [
             1,
@@ -356,7 +356,7 @@ $VAR1 = [
           [
             1,
             '[ap 10:24] Code - Charles Petzold.epub (OEBPS/ch16.html) - 1024',
-            "What you don't say is that a 1-KB RAM array stores 1000 bytes, or (in English) \"one thousand bytes.\" It's more than a thousand\x{2014}it's <<1024|9f>>. To sound like you know what you're talking about, you say either \"1K\" or \"one kilobyte.\"",
+            "What you don't say is that a 1-KB RAM array stores 1000 bytes, or (in English) \"one thousand bytes.\" It's more than a thousand\x{2014}it's <<1024|9c:0>>. To sound like you know what you're talking about, you say either \"1K\" or \"one kilobyte.\"",
           ],
           [
             1,
@@ -370,8 +370,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 02:16] Code - Charles Petzold.epub (OEBPS/ch16.html) - 216',
-            'Why 64 KB? Why not 32 KB or 128 KB? Because 65,536 is a nice round number. It\'s <<216|9f>>. This RAM array has a 16-bit address. In other words, the address is 2 bytes exactly. In hexadecimal, the address ranges from <<0000h|1>> through FFFFh.',
+            '[00:00] Code - Charles Petzold.epub (OEBPS/ch16.html) - 0000h',
+            'Why 64 KB? Why not 32 KB or 128 KB? Because 65,536 is a nice round number. It\'s 216. This RAM array has a 16-bit address. In other words, the address is 2 bytes exactly. In hexadecimal, the address ranges from <<0000h|1>> through FFFFh.',
           ],
           [
             1,
@@ -1062,7 +1062,7 @@ Text: DB \'Hello!$\'
         b := a x a x a;
         print (\'The cube of \', a, \' is \', b);
     end
-endThe for statement initially sets the variable <<a to 3|10>> and executes the block following the for statement. Then a is increased by the number following the step keyword, which is <<2|9f>>. The new value of a, which is <<5|9f>>, is used to execute the block. The variable a will continue to be increased by 2. When it exceeds 99, the for loop is completed.',
+endThe for statement initially sets the variable <<a to 3|10>> and executes the block following the for statement. Then a is increased by the number following the step keyword, which is <<2|9c:0>>. The new value of a, which is <<5|9c:0>>, is used to execute the block. The variable a will continue to be increased by 2. When it exceeds 99, the for loop is completed.',
           ],
           [
             1,

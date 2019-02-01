@@ -26,13 +26,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 11:00] Singularity Sky - Charles Stross.epub (OEBPS/Text/Section0006.xhtml) - 1100',
-            '"Aye aye, sir." The fresh-faced rating hurriedly closed some kind of box that was plugged into the console, then saluted and withdrew into the free-fall zone. Shaken, Vassily sat down in the seat opposite the desk and waited for Engineering Commander Krupkin to arrive. It was already <<1100|9f>>, and what had he achieved today? Nothing, so far as he could tell, except to learn that the Navy\'s motto seemed to be "Hurry up and wait." The Citizen wouldn\'t be pleased.',
-          ],
-          [
-            1,
             '[ap 11:30] Singularity Sky - Charles Stross.epub (OEBPS/Text/Section0006.xhtml) - 1130',
-            '"It is now <<1130|9f>>. The door to this room is shut, and will remain shut, barring emergencies, until 1200.1 am authorized to inform you that we are now under battle orders. I am not privy to the political discussions behind our orders, but I am informed by Admiral Kurtz\'s staff that it appears likely that no resolution of the crisis short of war is possible; accordingly, we have been ordered to proceed as part of Task Group One to Rochard\'s World, by way of Battle Plan Omega Green Horizon." Now he pulled his chair out and sat down. "Are there any questions about the background before I go into our specific orders?" he asked.',
+            '"It is now <<1130|9c:0>>. The door to this room is shut, and will remain shut, barring emergencies, until 1200.1 am authorized to inform you that we are now under battle orders. I am not privy to the political discussions behind our orders, but I am informed by Admiral Kurtz\'s staff that it appears likely that no resolution of the crisis short of war is possible; accordingly, we have been ordered to proceed as part of Task Group One to Rochard\'s World, by way of Battle Plan Omega Green Horizon." Now he pulled his chair out and sat down. "Are there any questions about the background before I go into our specific orders?" he asked.',
           ],
           [
             1,
@@ -112,7 +107,7 @@ $VAR1 = [
           [
             1,
             '[ap ~ 04:00] Singularity Sky - Charles Stross.epub (OEBPS/Text/Section0016.xhtml) - about four',
-            '"Back on Earth, <<about four|9e>>, five hundred years ago," Rachel explained.',
+            '"Back on Earth, <<about four|9:0>>, five hundred years ago," Rachel explained.',
           ],
           [
             1,

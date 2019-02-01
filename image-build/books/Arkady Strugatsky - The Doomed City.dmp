@@ -42,7 +42,7 @@ $VAR1 = [
           [
             1,
             '[10:00] The Doomed City - Arkady Strugatsky.epub (OPS/p2chap1.xhtml) - ten in the morning',
-            "\x{201c}My God,\x{201d} said Andrei. \x{201c}The summonses! I ordered you to deliver the summonses immediately, damn you! For tomorrow, at <<ten in the morning|9a>>!\x{201d} He glanced at pale, smiling Eino Saari with the white ankle ties of his long johns dangling out from under his trousers, then looked at the duty officer again. \x{201c}And are they going to bring the others right now?\x{201d} he asked.",
+            "\x{201c}My God,\x{201d} said Andrei. \x{201c}The summonses! I ordered you to deliver the summonses immediately, damn you! For tomorrow, at <<ten in the morning|5>>!\x{201d} He glanced at pale, smiling Eino Saari with the white ankle ties of his long johns dangling out from under his trousers, then looked at the duty officer again. \x{201c}And are they going to bring the others right now?\x{201d} he asked.",
           ],
           [
             1,
@@ -58,11 +58,6 @@ $VAR1 = [
             1,
             '[ap 00:20] The Doomed City - Arkady Strugatsky.epub (OPS/p2chap1.xhtml) - twelve twenty',
             "\x{201c}It was <<twelve twenty|5b>>,\x{201d} Petrov said morosely. \x{201c}And now it\x{2019}s probably almost one already. Don\x{2019}t expect it to wait for you\x{a0}.\x{a0}.\x{a0}. Sometimes I\x{2019}ve run there in fifteen or twenty minutes and it was gone already, so this time\x{a0}.\x{a0}.\x{a0}.\x{201d} He gestured hopelessly.",
-          ],
-          [
-            1,
-            '[ap 01:00] The Doomed City - Arkady Strugatsky.epub (OPS/p2chap2.xhtml) - one',
-            "He slid down another two steps. He had to break free of the mirage and get back to work. There was nothing accidental about all this. Everything here had been superbly thought through. It was a hideous illusion, fabricated by provocateurs in an attempt to destroy belief in the ultimate victory, to pervert the concepts of morality and duty. And it was no accident that the sordid little New Illusion movie theater was there at <<one|9b>> side of the Building. New! There was nothing new about pornography, but that place called itself new! Who were they fooling? But what was on the other side? The synagogue\x{a0}.\x{a0}.\x{a0}.",
           ],
           [
             1,
@@ -87,7 +82,7 @@ $VAR1 = [
           [
             1,
             '[17:00] The Doomed City - Arkady Strugatsky.epub (OPS/p3chap2.xhtml) - five in the afternoon',
-            "Main Street was empty and veiled in thick night fog, although by the clock it was <<five in the afternoon|9a>>. The fog ahead of them had a reddish tinge and it was glimmering restlessly. Every now and then bright patches of white light flared up in it\x{2014}either searchlights or powerful headlamps\x{2014}and from that direction, muffled by the fog but still sometimes drowning out the rumble of the wheels and clopping of hooves, they heard shooting. Something was happening up there.",
+            "Main Street was empty and veiled in thick night fog, although by the clock it was <<five in the afternoon|5>>. The fog ahead of them had a reddish tinge and it was glimmering restlessly. Every now and then bright patches of white light flared up in it\x{2014}either searchlights or powerful headlamps\x{2014}and from that direction, muffled by the fog but still sometimes drowning out the rumble of the wheels and clopping of hooves, they heard shooting. Something was happening up there.",
           ],
           [
             1,
@@ -112,7 +107,7 @@ $VAR1 = [
           [
             1,
             '[06:00] The Doomed City - Arkady Strugatsky.epub (OPS/p5chap2.xhtml) - six in the morning',
-            "\x{201c}Thank you. I was going to ask you to do that. So we leave the day after tomorrow, promptly at <<six in the morning|9a>>. You\x{2019}ll be issued field rations by the sergeant. Agreed? Now let me ask you this: What do you think, will we succeed in finding water here?\x{201d}",
+            "\x{201c}Thank you. I was going to ask you to do that. So we leave the day after tomorrow, promptly at <<six in the morning|5>>. You\x{2019}ll be issued field rations by the sergeant. Agreed? Now let me ask you this: What do you think, will we succeed in finding water here?\x{201d}",
           ],
           [
             1,
@@ -135,10 +130,5 @@ Andrei glanced at his own watch. \x{201c}<<Three|9k:0>>,\x{201d} he said. \x{201
             1,
             '[12:00] The Doomed City - Arkady Strugatsky.epub (OPS/p5chap4.xhtml) - 1200 hours',
             'He raised his wrist to his eyes, focused on the phosphorescent hands, and set them to <<1200 hours|1>>. Izya was scrabbling around in the darkness, swearing through his teeth, moving his bed around for some reason, and rustling papers. Then a match scraped and lit. Izya stood on his knees in the middle of the room, waving the match from side to side.',
-          ],
-          [
-            1,
-            '[ap 01:00] The Doomed City - Arkady Strugatsky.epub (OPS/p6dev1.xhtml) - one',
-            "Inside the building the devastation was total, total and ancient. Centuries old. The collapsed roof timbers had mingled with fragments of rotted boards\x{2014}the remains of a long table that ran the full length of the building. Everything was dusty, crumbling, and decayed, and the wall on the left was lined with equally dusty and decayed benches. Still muttering, Izya waded in to rummage through this heap of decay, and Andrei went out and walked around the building. He very soon came across what had once been a reservoir\x{2014}an immense round pit lined with stone slabs. The slabs were as dry as the desert now, but there was no doubt that there had been water here at <<one|9b>> time: the clay at the edge of the pit was as hard as cement, and it preserved the deep imprints of booted feet and dogs\x{2019} paws. Things are looking bad, thought Andrei. The old terror clutched his heart and then immediately released its grip: at the far end of the pit the broad, shaggy leaves of a \x{201c}ginseng\x{201d} plant were flattened out on the clay in a star shape. Andrei jogged around the pit toward them, feeling for the knife in his pocket on the way.",
           ],
         ];

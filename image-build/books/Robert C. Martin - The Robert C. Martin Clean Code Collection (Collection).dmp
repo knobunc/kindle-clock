@@ -1235,11 +1235,6 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 01:00] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_024.html) - 1',
-            "This is much better. It exposes that the suffixIndex is really the length of the suffix and is not well named. The same is true of the prefixIndex, though in that case \x{201c}index\x{201d} and \x{201c}length\x{201d} are synonymous. Even so, it is more consistent to use \x{201c}length.\x{201d} The problem is that the suffixIndex variable is not zero based; it is <<1|9d:1>> based and so is not a true length. This is also the reason that there are all those +1s in computeCommonSuffix [G33]. So let\x{2019}s fix that. The result is in Listing 15-4.",
-          ],
-          [
-            1,
             '[ap 03:14] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_026.html) - 3.14',
             "Constants like 3.141592653589793 are also very well known and easily recognizable. However, the chance for error is too great to leave them raw. Every time someone sees 3.1415927535890793, they know that it is \x{3c0}, and so they fail to scrutinize it. (Did you catch the single-digit error?) We also don\x{2019}t want people using <<3.14|5a:0>>, 3.14159, 3.142, and so forth. Therefore, it is a good thing that Math.PI has already been defined for us.",
           ],
@@ -1250,8 +1245,98 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 01:00] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_032.html) - 1',
-            '1. I recently rewrote this module in Ruby. It was <<1|9d:1>>/7th the size and had a subtly better structure.',
+            "[14:15] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_031.html) - 14\x{2013}15",
+            "encapsulating, 304testing, 314boundary tests, easing a migration, 118 \x{201c}Bowling Game\x{201d}, 312
+Boy Scout Rule, <<14\x{2013}15|5a:0>>, 257
+following, 284satisfying, 265broken windows metaphor, 8",
+          ],
+          [
+            1,
+            "[14:15] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_031.html) - 14\x{2013}15",
+            "cleanliness
+acquired sense of, 6\x{2013}7tied to tests, 9cleanup, of code, <<14\x{2013}15|5a:0>>
+clever names, 26",
+          ],
+          [
+            1,
+            "[ap 11:12] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_031.html) - 11\x{2013}12",
+            "cross-cutting concerns, 160
+Cunningham, Ward, <<11\x{2013}12|5a:0>>
+cuteness, in code, 26",
+          ],
+          [
+            1,
+            "[19:20] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_031.html) - 19\x{2013}20",
+            "dirty tests, 123
+disinformation, avoiding, <<19\x{2013}20|5a:0>>
+distance, vertical in code, 80\x{2013}84",
+          ],
+          [
+            1,
+            "[20:21] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_031.html) - 20\x{2013}21",
+            "distance, vertical in code, 80\x{2013}84
+distinctions, making meaningful, <<20\x{2013}21|5a:0>>
+domain-specific languages (DSLs), 168\x{2013}169",
+          ],
+          [
+            1,
+            "[13:14] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_031.html) - 13\x{2013}14",
+            "Eclipse, 26
+edit sessions, playing back, <<13\x{2013}14|5a:0>>
+efficiency, of code, 7",
+          ],
+          [
+            1,
+            "[23:24] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_031.html) - 23\x{2013}24",
+            "of boundary conditions, 304breaking, 106\x{2013}107of conditionals, 301encodings, avoiding, <<23\x{2013}24|5a:0>>, 312\x{2013}313",
+          ],
+          [
+            1,
+            "[23:24] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_031.html) - 23\x{2013}24",
+            "HTML, in source code, 69
+Hungarian Notation (HN), <<23\x{2013}24|5a:0>>, 295
+Hunt, Andy, 8, 289",
+          ],
+          [
+            1,
+            "[18:19] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_031.html) - 18\x{2013}19",
+            "explaining in code, 55explanation of, 56\x{2013}57obscured, 295intention-revealing function, 19
+intention-revealing names, <<18\x{2013}19|5a:0>>
+interface(s)",
+          ],
+          [
+            1,
+            "[ap 10:11] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_031.html) - 10\x{2013}11",
+            "JDK proxy, providing persistence support, 161\x{2013}163
+Jeffries, Ron, <<10\x{2013}11|5a:0>>, 289
+jiggling strategies, 190",
+          ],
+          [
+            1,
+            "[ap 04:12] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_031.html) - 4\x{2013}12",
+            "f prefix for, 257prefixing, 24renaming for clarity, 259mental mapping, avoiding, 25
+messy code. See also
+bad code; dirty code total cost of owning, <<4\x{2013}12|5a:0>>
+method invocations, 324",
+          ],
+          [
+            1,
+            "[21:22] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_031.html) - 21\x{2013}22",
+            "defined, 2structured, 48\x{2013}49programs, getting them to work, 201
+pronounceable names, <<21\x{2013}22|5a:0>>
+protected variables, avoiding, 80",
+          ],
+          [
+            1,
+            "[ap 00:13] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_031.html) - 12\x{2013}13",
+            "schema, of a class, 194
+schools of thought, about clean code, <<12\x{2013}13|5a:0>>
+scissors rule, in C++, 81",
+          ],
+          [
+            1,
+            "[22:23] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_031.html) - 22\x{2013}23",
+            "defined by exceptions, 105dummy, 90envying, 293expanding and indenting, 89hierarchy in a source file, 88limiting for data, 181names related to the length of, <<22\x{2013}23|5a:0>>, 312of shared variables, 333searchable names, <<22\x{2013}23|5a:0>>",
           ],
           [
             1,
@@ -1369,9 +1454,68 @@ The worst code I ever wrote was at <<3 AM|5>>. The year was 1988, and I was work
           ],
           [
             1,
+            "[20:23] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_058.html) - 20\x{2013}23",
+            "automated, 97\x{2013}99communication and, 97continuous integration and, 104\x{2013}105definition of, 94developer\x{2019}s role in, 100\x{2013}101extra work and, 99GUIs and, 103\x{2013}105negotiation and, 101\x{2013}102passive aggression and, 101\x{2013}102timing of, 99\x{2013}100unit tests and, 102\x{2013}103writers of, 99\x{2013}100Adversarial roles, <<20\x{2013}23|5a:0>>",
+          ],
+          [
+            1,
+            "[ap 05:10] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_058.html) - 5\x{2013}10",
+            "\x{201c}Done,\x{201d} defining, 67, 94\x{2013}97
+\x{201c}Do no harm\x{201d} approach, <<5\x{2013}10|5a:0>>
+to function, 5\x{2013}8to structure, 8\x{2013}10Driving, 64",
+          ],
+          [
+            1,
+            "[20:23] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_058.html) - 20\x{2013}23",
+            "Git, 191\x{2013}194
+Goals, <<20\x{2013}23|5a:0>>, 118
+Graphical user interfaces (GUIs), 103\x{2013}105",
+          ],
+          [
+            1,
+            "[14:15] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_058.html) - 14\x{2013}15",
+            "agenda in, 118arguments and disagreements in, 120\x{2013}121declining, 117demo, 120goals in, 118iteration planning, 119iteration retrospective, 120leaving, 118stand-up, 119time management and, 116\x{2013}121Mentoring, <<14\x{2013}15|5a:0>>, 69\x{2013}70, 174\x{2013}180",
+          ],
+          [
+            1,
+            "[20:23] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_058.html) - 20\x{2013}23",
+            "Optimistic locking, 190
+Outcomes, best-possible, <<20\x{2013}23|5a:0>>
+Overtime, 66",
+          ],
+          [
+            1,
+            "[20:23] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_058.html) - 20\x{2013}23",
+            "apologies and, 6\x{201c}do no harm\x{201d} approach and, 5\x{2013}10function and, 5\x{2013}8structure and, 8\x{2013}10work ethic and, 10\x{2013}16RobotFX, 200
+Roles, adversarial, <<20\x{2013}23|5a:0>>
+Rushing, 34\x{2013}35, 65\x{2013}66",
+          ],
+          [
+            1,
+            "[23:24] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_058.html) - 23\x{2013}24",
+            "Source code control, 189\x{2013}194
+Stakes, <<23\x{2013}24|5a:0>>
+Stand-up meetings, 119",
+          ],
+          [
+            1,
+            "[00:30] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_058.html) - 24\x{2013}30",
+            "Task estimation, 138\x{2013}141
+Teams and teamwork, <<24\x{2013}30|5a:0>>
+gelled, 162\x{2013}164management of, 164passive aggression and, 28\x{2013}30preserving, 163project-initiated, 163\x{2013}164project owner dilemma with, 164\x{2013}165trying and, 26\x{2013}28velocity of, 164Test driven development (TDD)",
+          ],
+          [
+            1,
             '[03:00] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_058.html) - 3 AM',
             "Thomas, Dave, 84
 <<3 AM|5>> code, 53\x{2013}54
 Time, debugging, 63",
+          ],
+          [
+            1,
+            "[ap 10:16] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_058.html) - 10\x{2013}16",
+            "\x{201c}Wish,\x{201d} 42
+Work ethic, <<10\x{2013}16|5a:0>>
+collaboration and, 14continuous learning and, 13knowledge and, 11\x{2013}13mentoring and, 14\x{2013}15practice and, 13\x{2013}14Worry code, 54\x{2013}55",
           ],
         ];

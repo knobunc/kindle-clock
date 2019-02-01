@@ -1,37 +1,6 @@
 $VAR1 = [
           [
             1,
-            '[ap 01:10] Playing at the World_ A History of Simulat - Jon Peterson.epub (text/part0000_split_002.html) - 1.10',
-            '1.9 The Return of the Referee. 59
-<<1.10|5a:0>> Blackmoor 66
-<<1.11|5a:0>> The Fantasy Game. 73',
-          ],
-          [
-            1,
-            '[ap 01:10] Playing at the World_ A History of Simulat - Jon Peterson.epub (text/part0000_split_002.html) - 1.10',
-            '<<1.10|4>> Blackmoor 66
-<<1.11|5a:0>> The Fantasy Game. 73
-<<1.12|5a:0>> Startled by the New.. 80',
-          ],
-          [
-            1,
-            '[ap 01:11] Playing at the World_ A History of Simulat - Jon Peterson.epub (text/part0000_split_002.html) - 1.11',
-            "<<1.11|4>> The Fantasy Game. 73
-<<1.12|5a:0>> Startled by the New.. 80
-Chapter Two: Setting\x{2014}The Medieval
-Fantasy Genre. 83",
-          ],
-          [
-            1,
-            '[ap 02:10] Playing at the World_ A History of Simulat - Jon Peterson.epub (text/part0000_split_002.html) - 2.10',
-            "2.9.2 Magic Items. 198
-<<2.10|5a:0>> Beyond Dungeons and Beyond
-Dragons. 204
-Chapter Three: System\x{2014}The Rules of
-the Game. 207",
-          ],
-          [
-            1,
             '[ap 05:10] Playing at the World_ A History of Simulat - Jon Peterson.epub (text/part0000_split_002.html) - 5.10',
             '5.9.3 Parting of the Ways. 579
 <<5.10|5a:0>> D&D among the RPGs. 581
@@ -88,6 +57,25 @@ follows SPI\x{2019}s own figures, which might charitably be deemed optimistic. [
 All of the other minor publishers of board wargames combined constituted no
 more than one or two percent of the market. Even the top-shelf works of SPI\x{2019}s star designer, James F. Dunnigan, only became darlings of the market under Avalon Hill\x{2019}s imprint:
 a notable example would be the influential AH game Panzerblitz (1970), a Dunnigan project which had previously come in the mail with S&T #22.",
+          ],
+          [
+            1,
+            "[ap 01:20] Playing at the World_ A History of Simulat - Jon Peterson.epub (text/part0000_split_013.html) - 1\x{2013}20",
+            "Tractics is best remembered today for its
+pioneering use of polyhedral\x{a0}dice. Leon Tucker, an academic statistician, had long
+studied methods of deciding wargame events with percentile probability; since
+he aspired to a realistic depiction of combat, he scoured military statistics\x{a0}derived from battles in the Second World War, most of which were rendered as
+percentiles. Six-sided dice, however, cannot easily resolve percentile
+probabilities\x{2014}there\x{2019}s no intuitive way to use any number of six-sided dice to
+determine whether or not an event with a 7% probability has occurred in game.
+Thus, Tucker sought a way to resolve wargame events with a finer level of
+granularity than just a one-in-six chance. As Tractics\x{a0}neared release, the existence of twenty-sided (icosahedral) dice became known to the wargaming community; consequently,
+Tractics requires for play \x{201c}a device to generate random numbers of <<1\x{2013}20|5a:0>>.\x{201d}  [82]
+However, at this time twenty-sided dice (henceforth d20) were not so common nor
+inexpensive that every wargamer could be assumed to possess one\x{2014}and there was
+no cost-effective way Guidon Games\x{a0}could supply one in every Tractics
+box. For the have-nots, Tractics proposes a budget alternative: twenty
+numbered poker chips for pulling out of a hat.",
           ],
           [
             1,
@@ -153,32 +141,6 @@ bestowed on young people the illusion that they held some control over war, let
 them experience war as something manageable and reasonable, rather than
 something that could arrive without warning and snuff out all existence one
 otherwise unremarkable afternoon.",
-          ],
-          [
-            1,
-            '[16:14] Playing at the World_ A History of Simulat - Jon Peterson.epub (text/part0000_split_035.html) - 16:14',
-            "In the medieval literature that Tolkien studied,
-this theme has a great deal of resonance. Eddaic literature constantly
-references the threat of Ragnar\x{f6}k, a battle that will bring about the
-end of the world. While forces massing for a world-shattering confrontation
-recur in many ancient religions\x{2014}notably in the Christian battle of Armageddon
-foretold in Revelation (<<16:14|2>>\x{2013}16)\x{2014}the Norse account of Ragnar\x{f6}k supplies
-a list of various fantastic participants in the final showdown. The Gylfaginning\x{a0}(51), which quotes liberally from the V\x{f6}lusp\x{e1}, describes the assault
-on Asgard led by the fiery sons of M\x{fa}spell, the Midgard Serpent, the
-Fenris Wolf, Loki and the frost giants. On the opposing side are the \x{c6}sir, the
-Norse gods, including Odin, Thor and Frey. We know that Odin dispatches valkyries
-to recruit the spirits of valiant warriors killed in battle for his V\x{e4}lholl,
-where men daily practice their martial skills, so that these men can assist the
-\x{c6}sir when Ragnar\x{f6}k\x{a0}comes\x{2014}even though the outcome of the battle
-has been foreordained. As the battle-lines are drawn by the Eddas, we can see
-the prototype for a delineation of fantastic creatures and people into two
-camps. Although the V\x{f6}lusp\x{e1} mentions both the elves and the dwarves\x{a0}in connection with Ragnar\x{f6}k, it assigns them no particular role in the upcoming battle. Giants
-are fated to oppose the \x{c6}sir at Ragnar\x{f6}k, but in some Eddaic stories
-giants and gods cooperate and even intermarry. The vague allegiances of these
-beings are not clarified in later folktales either. The elves of Sir Orfeo, for example, are ominous kidnappers, and the various beliefs in elf-shot imply antagonism
-towards humans; the fairy tradition, however, furnishes lighter-hearted elves,
-like \x{201c}every elf and fairy sprite\x{201d} in the Midsummer Night\x{2019}s Dream. In the fairy tales collected by Grimm, we see dwarves who are benevolent (Grimm #53) and malign
-(Grimm #161).",
           ],
           [
             1,
@@ -345,7 +307,7 @@ will hit with only around fourteen to sixteen cannonballs. [386]',
           ],
           [
             1,
-            '[ap 02:00] Playing at the World_ A History of Simulat - Jon Peterson.epub (text/part0000_split_044.html) - 200',
+            '[ap 00:58] Playing at the World_ A History of Simulat - Jon Peterson.epub (text/part0000_split_044.html) - 2 to 1',
             "Scharnhorst\x{a0}further elaborates the variations in the probability (Wahrscheinlichkeit) of scoring a hit when the size
 of the target wall is altered, and is particularly fond of establishing through
 empirical examination a range of variance in expected strikes. When, as we
@@ -372,8 +334,8 @@ maximum effective range of guns and the decline in performance over increasing
 distances. [388]
 Scharnhorst\x{a0}mostly provides this quantitative information in charts displaying
 his raw experimental data, from which the probability of the success of a
-particular use of firearms must be inferred. In some cases Scharnhorst\x{a0}even gives direct odds; for example, in describing the behavior of a gun\x{a0}he says, \x{201c}The hitting of rifles and smooth-bore guns against the target at <<200|3:0>> paces behaves as <<2 to 1|10a:1>>, at
-<<300|9n:0>> paces as <<4 to 1|10a:1>>.\x{201d} [389]",
+particular use of firearms must be inferred. In some cases Scharnhorst\x{a0}even gives direct odds; for example, in describing the behavior of a gun\x{a0}he says, \x{201c}The hitting of rifles and smooth-bore guns against the target at 200 paces behaves as <<2 to 1|10a:1>>, at
+300 paces as <<4 to 1|10a:1>>.\x{201d} [389]",
           ],
           [
             1,
@@ -1293,6 +1255,23 @@ single biggest hit of the convention.\x{201d} [LD:#61]",
           ],
           [
             1,
+            "[ap 03:18] Playing at the World_ A History of Simulat - Jon Peterson.epub (text/part0000_split_082.html) - 3\x{2013}18",
+            "Despite these formidable impediments, a party of
+adventurers who chooses to assail the Temple will find the first level of the
+dungeon populated primarily with human soldiers, and the second level with
+monsters, including medusae, trolls, snakes and of course frogs. Mostly, these
+adversaries guard coinage\x{a0}and gems, with the occasional magic item at their
+disposal. Woe betide any who tread on the slippery slope in the first level of
+the dungeon and plunge into the breeding pond below, where \x{201c}an estimated 1100\x{2013}1200
+killer frogs\x{201d} await the unwary. Fortunately, they attack in modest waves of <<3\x{2013}18|5a:0>>
+at a time, which a large and competent force might hope to repel. Only by
+braving the breeding pool can one reach the island where Stephen the Rock
+engineers his army of frogmen, who hold the most potent treasure in the
+underworld. Those who remain above ground may explore the libraries and upper
+reaches of the temple and recover there a modicum of loot.",
+          ],
+          [
+            1,
             '[05:00] Playing at the World_ A History of Simulat - Jon Peterson.epub (text/part0000_split_082.html) - lauds',
             "Whatever their misgivings with the production
 process, Kask and Gygax put on a brave face for the release of Blackmoor.
@@ -1408,10 +1387,10 @@ Rotator through the waiting list or various honorary appointments.',
           ],
           [
             1,
-            '[> 20:00] Playing at the World_ A History of Simulat - Jon Peterson.epub (text/part0000_split_103.html) - after 2000',
+            "[ap 00:13] Playing at the World_ A History of Simulat - Jon Peterson.epub (text/part0000_split_103.html) - 12\x{2013}13",
             "[169]
 An excellent synopsis of this publication history appears in Sammon, Conan
-the Phenomenon, 12\x{2013}13. Quotations from the Conan stories in this volume
+the Phenomenon, <<12\x{2013}13|5a:0>>. Quotations from the Conan stories in this volume
 follow the original Weird Tales printings of the stories, including
 changes demanded by Farnsworth Wright. The Lancer and Ace\x{a0}editions that Gygax
 and Arneson knew in the 1960s and 1970s typically reflected the editorial
@@ -1542,6 +1521,37 @@ armor and a shield a 4, 5 or 6 will save him.\x{201d} [WGD:v4n3] This must be am
 the very earliest uses of the idea (and terminology) of a roll to \x{201c}save\x{201d} a
 wargame unit after a hit. Note that Arneson and Gygax invoked the term \x{201c}saving
 throw\x{201d} in Don\x{2019}t Give Up the Ship\x{a0}prior to Dungeons & Dragons.",
+          ],
+          [
+            1,
+            "[ap 01:36] Playing at the World_ A History of Simulat - Jon Peterson.epub (text/part0000_split_105.html) - 1\x{2013}36",
+            "[550]
+The hit point\x{a0}system of pre-D&D Blackmoor, as described by Arneson\x{a0}in a letter in 1974, differs considerably from both Chainmail and Dungeons & Dragons, either in its first or later editions. He writes of
+starting characters: \x{201c}I gave them all twice the number of hits (one dice roll
+for the number of dice you roll for the number of damage points that they take)
+1st throw is a three meaning you cast three dice 3,4,2 meaning that you take
+nine hits (but you could take as many as 36).\x{201d} [GPGPN:#16] To paraphrase, players throw one d6, the result of which is n, and then for their hit point total throw nd6. This difficult but comprehensible description of beginning
+hit points numbering from <<1\x{2013}36|5a:0>> is more plausible than the one written three
+years later in the introduction to the First Fantasy Campaign, which suggests characters received between 0 and 100 hit points at creation time\x{2014}a range
+implausible a) because of the presence of zero, b) because of the claim in that
+same introduction that there were \x{201c}no funny dice back then\x{201d} and thus there was
+no easy way to generate percentile numbers, and c) that range is simply too
+wide to be balanced given the likely magnitude of damage sources. Assuming then
+an initial range of <<1\x{2013}36|5a:0>>, Arneson\x{2019}s 1974 letter also notes, \x{201c}Another point of
+mixup was that players were not intended to become harder to hit and
+take more damage as they progress. Instead they were to take the same amount of
+hits all the time (with the exceptions of spells, magic, etc.) while becoming
+more talented in inflicting hits and avoiding the same. This has a great
+equalizing influence.\x{201d} Thus it appears that as characters gained in level, they
+gained more avoidance\x{a0}or mitigation\x{a0}but not more endurance in Blackmoor (the First
+Fantasy Campaign suggests \x{201c}saving throws\x{201d} in the manner of Bath were rolled
+after hits\x{2014}thus a mitigation system). Whether or not this would have been as
+successful as the system in Dungeons & Dragons is an open question,
+but what seems unquestionable is that the Dungeons & Dragons hit
+point mechanism resembles original Chainmail more so than Blackmoor.
+Several later role-playing games emphasized avoidance over endurance in
+character progression successfully, so the original Blackmoor mechanic is
+certainly not unusable.",
           ],
           [
             1,

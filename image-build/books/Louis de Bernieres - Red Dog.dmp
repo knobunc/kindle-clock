@@ -3,13 +3,13 @@ $VAR1 = [
             1,
             '[ap ~ 08:00] Red Dog - Louis de Bernieres.epub (Red_Dog_split_016.html) - About eight',
             '\'Well, he\'s getting on a bit, isn\'t he? Grey hairs on his snout. Does anyone know how old he is?\'
-\'<<About eight|9e>>, I think.\'
+\'<<About eight|9:0>>, I think.\'
 \'Well, what do you think might be wrong?\'',
           ],
           [
             1,
             '[02:00] Red Dog - Louis de Bernieres.epub (Red_Dog_split_016.html) - two in the morning',
-            'That night, at <<two in the morning|9a>>, the three men drove to Roebourne. Outside the ranger\'s pound they put on gloves, and Vanno took a large pair of boltcutters from the boot of the car. They were three foot long, capable of cutting through thick iron rods, and they seemed to weigh a ton.',
+            'That night, at <<two in the morning|5>>, the three men drove to Roebourne. Outside the ranger\'s pound they put on gloves, and Vanno took a large pair of boltcutters from the boot of the car. They were three foot long, capable of cutting through thick iron rods, and they seemed to weigh a ton.',
           ],
           [
             1,
@@ -34,6 +34,6 @@ $VAR1 = [
           [
             1,
             '[02:00] Red Dog - Louis de Bernieres.epub (Red_Dog_split_018.html) - two in the morning',
-            '\'I picked him up once,\' said Ellen. \'It was <<two in the morning|9a>>, \'cause I was picking my girl up from the disco. He wouldn\'t get out at Poon\'s Camp, and then he wouldn\'t get out at Dampier mess, and we were getting pretty tired and fed up, I can tell you. Finally we took him to Hamersley Iron single-quarters, and he hopped out. As he jumped out, he did a really filthy smell, like it was some kind of a thank-you!\'',
+            '\'I picked him up once,\' said Ellen. \'It was <<two in the morning|5>>, \'cause I was picking my girl up from the disco. He wouldn\'t get out at Poon\'s Camp, and then he wouldn\'t get out at Dampier mess, and we were getting pretty tired and fed up, I can tell you. Finally we took him to Hamersley Iron single-quarters, and he hopped out. As he jumped out, he did a really filthy smell, like it was some kind of a thank-you!\'',
           ],
         ];

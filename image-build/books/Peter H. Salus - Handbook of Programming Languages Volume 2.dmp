@@ -16,6 +16,11 @@ $VAR1 = [
           ],
           [
             1,
+            "[21:27] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (082-086.html) - 21\x{2013}27",
+            "Anderson, B. 1980. Type syntax in the language C: An object lesson in syntactic innovation. SIGPLAN Notices 15(3):<<21\x{2013}27|5a:0>>.",
+          ],
+          [
+            1,
             '[ap 09:59] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (087-089_split_001.html) - 1 to 10',
             'for(i = 1; i <= 10; i = i + 1)
 
@@ -154,6 +159,11 @@ If GNU\x{2019}s ILs have these problems, why are the GNU compilers in such wides
 \x{2022}\x{a0}\x{a0}The IL should be sufficiently general to represent the important aspects of multiple front-end languages and back-end targets.
 
 In summary, designing a good IL is truly an engineering endeavor: Utility and generality must be considered along with efficiency.",
+          ],
+          [
+            1,
+            "[21:23] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (248-250.html) - 21\x{2013}23",
+            "Chow, F. C., and M. Ganapathi. 1983. Intermediate languages in compiler construction\x{2014}A bibliography. Sigplan Notices 18(11):<<21\x{2013}23|5a:0>>.",
           ],
           [
             1,
@@ -2264,6 +2274,23 @@ program fig49; uses dos;
   begin
     writeln(\x{2018}Cluster size of current drive is: \x{2019}, getclustersize(0));
   end.",
+          ],
+          [
+            1,
+            '[ap 04:55] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (340-343.html) - 5 to 5',
+            "every i :=  \x{2013}<<5 to 5|10a:0>> do
+       write(i)
+
+
+writes \x{2013}5, \x{2013}4, \x{2026} \x{2013}1, 0, 1, \x{2026} 4, 5.",
+          ],
+          [
+            1,
+            '[ap 04:55] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (340-343.html) - 5 to 5',
+            "every write(\x{2013}<<5 to 5|10a:1>>)
+
+
+The function seq(i, j) generates an infinite sequence of integers, starting at i and incrementing by increments of j. If i or j is omitted, it defaults to 1. Thus, seq() generates the positive integers.",
           ],
           [
             1,

@@ -111,6 +111,11 @@ $VAR1 = [
           ],
           [
             1,
+            '[~ 16:30] The Leper of Saint Giles - Ellis Peters.epub (OEBPS/Text/012.html) - Vespers',
+            'Cadfael went to <<Vespers|13>> with the little fading cluster of blue still in his habit.',
+          ],
+          [
+            1,
             '[~ 07:30] The Leper of Saint Giles - Ellis Peters.epub (OEBPS/Text/012.html) - Prime',
             'Once or twice during <<Prime|16>> he had thought he detected one lofty, shrouded head and covered face that had an alien look, but always he lost it again. Not until the end did it dawn on him that he was losing it because all his afflicted household was so disposing its people as to swallow up the intruder.',
           ],
@@ -157,7 +162,7 @@ $VAR1 = [
           [
             1,
             '[ap > 06:00] The Leper of Saint Giles - Ellis Peters.epub (OEBPS/Text/014.html) - Past six',
-            "\x{201c}<<Past six|9e>>, and nearer the half than the quarter of the hour,\x{201d} mused Cadfael. \x{201c}Then he could not have reached the spot where he was ambushed and killed before a quarter to the hour of Prime, and probably later.\x{201d}",
+            "\x{201c}<<Past six|9:1>>, and nearer the half than the quarter of the hour,\x{201d} mused Cadfael. \x{201c}Then he could not have reached the spot where he was ambushed and killed before a quarter to the hour of Prime, and probably later.\x{201d}",
           ],
           [
             1,

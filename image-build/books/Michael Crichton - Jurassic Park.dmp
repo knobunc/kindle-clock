@@ -78,7 +78,7 @@ $VAR1 = [
             1,
             '[ap ~ 10:00] Jurassic Park - Michael Crichton.epub (OEBPS/Cric_9780307763051_epub_c33_r1.htm) - About ten',
             "Muldoon spun around. \x{201c}Into the garage? When?\x{201d}
-\x{201c}<<About ten|9e>>, fifteen minutes ago.\x{201d}
+\x{201c}<<About ten|9:1>>, fifteen minutes ago.\x{201d}
 \x{201c}Jesus,\x{201d} Muldoon said.",
           ],
           [
@@ -192,6 +192,20 @@ Wu said, \x{201c}<<Four|9k:0>>, five minutes.\x{201d}
             1,
             '[ap 10:47] Jurassic Park - Michael Crichton.epub (OEBPS/Cric_9780307763051_epub_c48_r1.htm) - 10:47',
             "But then he saw something else: numerals clicking in the upper left corner of the screen. They read <<10:47|2>>:22. Then Tim realized it was the time. There were only thirteen minutes left for the boat\x{2014}but he was more worried about the people in the lodge.",
+          ],
+          [
+            1,
+            '[ap 04:11] Jurassic Park - Michael Crichton.epub (OEBPS/Cric_9780307763051_epub_c49_r1.htm) - 4.11',
+            "(Power Incompatible with Command Error.
+Ref Manual Pages 4.09\x{2013}<<4.11|5a:0>>)
+\x{201c}It\x{2019}s not working,\x{201d} Lex said.",
+          ],
+          [
+            1,
+            '[ap 04:11] Jurassic Park - Michael Crichton.epub (OEBPS/Cric_9780307763051_epub_c49_r1.htm) - 4.11',
+            "(Power Incompatible with Command Error.
+Ref Manual Pages 4.09\x{2013}<<4.11|5a:0>>)
+Tim tried to stay calm, to think it through. For some reason he was getting a consistent error message whenever he tried to turn on a grid. It was saying the power was incompatible with the command he was giving. But what did that mean? Why was power in compatible?",
           ],
           [
             1,

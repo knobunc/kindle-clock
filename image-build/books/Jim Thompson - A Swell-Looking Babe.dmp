@@ -27,7 +27,7 @@ $VAR1 = [
           [
             1,
             '[> 00:00] A Swell-Looking Babe - Jim Thompson.epub (53.xhtml) - after midnight',
-            "Bascom was the sole front-office employee <<after midnight|13>>, performing \x{2013} with Dusty's assistance \x{2013} the duties of room clerk, key clerk, cashier and night auditor. There was no night house detective. The coffee shop and grille room closed at <<one o'clock|6>>. By <<two|9e>>, the lobby porters had completed their mopping and scrubbing and were on their way homeward. At <<two|9e>>, the late-shift elevator operator left, and Dusty took care of his infrequent calls from then on.",
+            "Bascom was the sole front-office employee <<after midnight|13>>, performing \x{2013} with Dusty's assistance \x{2013} the duties of room clerk, key clerk, cashier and night auditor. There was no night house detective. The coffee shop and grille room closed at <<one o'clock|6>>. By <<two|9:1>>, the lobby porters had completed their mopping and scrubbing and were on their way homeward. At <<two|9m:1>>, the late-shift elevator operator left, and Dusty took care of his infrequent calls from then on.",
           ],
           [
             1,
@@ -49,7 +49,7 @@ Bascom picked up the pencil. Then, suddenly, he laughed. Softly, amusedly. Sudde
           [
             1,
             '[ap 05:30] A Swell-Looking Babe - Jim Thompson.epub (53.xhtml) - five-thirty',
-            'The remaining three hours of the shift passed swiftly. At <<five-thirty|5b>>, the split-watch elevator boy arrived. At <<six|9e>>, the head baggage porter retrieved the check-room key from Dusty and began his day\'s duties. At <<seven|3j>> the entire day shift came to work.',
+            'The remaining three hours of the shift passed swiftly. At <<five-thirty|5b>>, the split-watch elevator boy arrived. At <<six|9m:1>>, the head baggage porter retrieved the check-room key from Dusty and began his day\'s duties. At <<seven|3j>> the entire day shift came to work.',
           ],
           [
             1,
@@ -79,12 +79,12 @@ Bascom picked up the pencil. Then, suddenly, he laughed. Softly, amusedly. Sudde
           [
             1,
             '[03:00] A Swell-Looking Babe - Jim Thompson.epub (56.xhtml) - three in the morning',
-            'As it often did, after a scorching day, the night brought rain. It had started a Jew minutes before Dusty came to work; now, at <<three in the morning|9a>>, it had settled down to a slow steady drizzle.It was a quiet shift. No guests had come in on the late train, and there had been hardly a dozen room calls thus far. He and Bascom were practically through with their paper work; at least, there was little remaining that he could help with. Lounging at the side of the door of the lobby, he drank in the wonderfully cool clean air, watching the curtain of rain flow endlessly into the oily black pavement.',
+            'As it often did, after a scorching day, the night brought rain. It had started a Jew minutes before Dusty came to work; now, at <<three in the morning|5>>, it had settled down to a slow steady drizzle.It was a quiet shift. No guests had come in on the late train, and there had been hardly a dozen room calls thus far. He and Bascom were practically through with their paper work; at least, there was little remaining that he could help with. Lounging at the side of the door of the lobby, he drank in the wonderfully cool clean air, watching the curtain of rain flow endlessly into the oily black pavement.',
           ],
           [
             1,
             '[03:00] A Swell-Looking Babe - Jim Thompson.epub (56.xhtml) - three in the morning',
-            "Stationery at <<three in the morning|9a>>. Not usual, but it wasn't extraordinary either. A guest couldn't sleep, so to pass the time, he or she wrote letters. It happened. Every few nights or so there'd be a room call for stationery. As for the way she'd talked over the phone, the was she'd acted that first night\x{2026}",
+            "Stationery at <<three in the morning|5>>. Not usual, but it wasn't extraordinary either. A guest couldn't sleep, so to pass the time, he or she wrote letters. It happened. Every few nights or so there'd be a room call for stationery. As for the way she'd talked over the phone, the was she'd acted that first night\x{2026}",
           ],
           [
             1,
@@ -146,13 +146,13 @@ Bascom picked up the pencil. Then, suddenly, he laughed. Softly, amusedly. Sudde
           [
             1,
             '[ap > 00:00] A Swell-Looking Babe - Jim Thompson.epub (64.xhtml) - a little after twelve',
-            "\"Nuts, nonsense,\" he said quickly. \"Now about the money. Come around to the hotel any time after I go on duty, <<a little after twelve|9e>>, say. You, want to get something out of a suitcase you've left in the checkroom \x{2013} a lot of people do that \x{2013} and-\" understand. I supposed you'd do it that way.\"",
+            "\"Nuts, nonsense,\" he said quickly. \"Now about the money. Come around to the hotel any time after I go on duty, <<a little after twelve|9:0>>, say. You, want to get something out of a suitcase you've left in the checkroom \x{2013} a lot of people do that \x{2013} and-\" understand. I supposed you'd do it that way.\"",
           ],
           [
             1,
             '[ap > 00:00] A Swell-Looking Babe - Jim Thompson.epub (65.xhtml) - A little after twelve',
             'She came out to his car with him the night he returned to work. It was dark, moonless. There was a threat of storm in the heavy, overheated air. She kissed him, remained within the circle of his arms for a moment.
-"<<A little after twelve|9e>>, then, darling?"
+"<<A little after twelve|9:0>>, then, darling?"
 "Or later. Whenever Dad goes to sleep."',
           ],
           [
@@ -188,7 +188,7 @@ Bascom picked up the pencil. Then, suddenly, he laughed. Softly, amusedly. Sudde
           [
             1,
             '[ap 01:00] A Swell-Looking Babe - Jim Thompson.epub (67.xhtml) - one',
-            '"All right," Tug concluded. "You better get going. I\'ll see you at <<one|9a>> tomorrow morning just like I gave it to you over the phone."',
+            '"All right," Tug concluded. "You better get going. I\'ll see you at <<one|3b>> tomorrow morning just like I gave it to you over the phone."',
           ],
           [
             1,
@@ -203,7 +203,7 @@ Bascom picked up the pencil. Then, suddenly, he laughed. Softly, amusedly. Sudde
           [
             1,
             '[07:00] A Swell-Looking Babe - Jim Thompson.epub (69.xhtml) - seven that morning',
-            "\x{2026} They gave up on him at <<seven that morning|9a>>. <<Around ten|9:1>> 'o'clock, he was taken out of his cell and driven to the courthouse. The two detectives escorting him asked no questions, seemed almost indifferent to him. While he sat down on a bench outside the county attorney's office, they wandered away to the water cooler, stood there chaffing and joking with a couple of deputy sheriffs.",
+            "\x{2026} They gave up on him at <<seven that morning|5>>. <<Around ten|9:1>> 'o'clock, he was taken out of his cell and driven to the courthouse. The two detectives escorting him asked no questions, seemed almost indifferent to him. While he sat down on a bench outside the county attorney's office, they wandered away to the water cooler, stood there chaffing and joking with a couple of deputy sheriffs.",
           ],
           [
             1,

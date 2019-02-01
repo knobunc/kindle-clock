@@ -37,7 +37,7 @@ $VAR1 = [
           [
             1,
             '[03:00] Once More_ _With Footnotes - Terry Pratchett.epub (OEBPS/untitled_split_018.html) - three in the morning',
-            'Father Christmas sat down on a chair, and gave a start when it swivelled underneath him. It was <<three in the morning|9a>>. He still had forty million houses to do.',
+            'Father Christmas sat down on a chair, and gave a start when it swivelled underneath him. It was <<three in the morning|5>>. He still had forty million houses to do.',
           ],
           [
             1,
@@ -162,6 +162,11 @@ I was powered up on January 5th, 2000, at <<9:25|2>> and 16 seconds.
             '
 <<6:30 p.m.|2a>>: Talk/signing.
 ',
+          ],
+          [
+            1,
+            '[> 19:49] Once More_ _With Footnotes - Terry Pratchett.epub (OEBPS/untitled_split_050.html) - after 1949',
+            "There wasn't a lot of fantasy in my local library. This was in the late '50s, you understand, and I don't think we had a very good '50s in this country. A nasty, drab, furtive decade, it seems to me in retrospect. This is because only one major country is allowed a decent decade at any time. America got the '50s\x{2014}all those juke boxes, rock 'n' roll, and Cadillacs with fins\x{2014}and over here we had to fill up the ten years <<after 1949|18:0>> with a sort of re-heated '40s. In fact we weren't even allowed any '60s until 1964, when we were allowed to keep them until they were exported to the West Coast of the USA in 1968. To be honest, they only happened to about 250 people in London, in any case. The rest of us read about them, and picked up the pieces.",
           ],
           [
             1,

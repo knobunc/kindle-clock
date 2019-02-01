@@ -39,4 +39,9 @@ $VAR1 = [
             '[ap 02:00] Starship Troopers - Robert A. Heinlein.epub (Robert A. Heinlein - Starship Troopers v4.0_split_013.htm) - two',
             '"You might as well get a nap. I\'ll be on watch. Lie down and prepare to sleep . . . one . . . <<two|9k:0>> - "',
           ],
+          [
+            1,
+            '[ap 01:08] Starship Troopers - Robert A. Heinlein.epub (Robert A. Heinlein - Starship Troopers v4.0_split_013.htm) - one-oh-eight',
+            '"Close enough," he agreed. "I make it <<one-oh-eight|5k:1>> with a headway of fifty-eight seconds."',
+          ],
         ];

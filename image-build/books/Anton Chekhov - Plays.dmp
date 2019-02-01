@@ -88,12 +88,12 @@ SEREBRYAKOV: It\x{2019}s stuffy ... Sonya, give me the drops on the table!",
           [
             1,
             '[ap ~ 02:00] Plays_ Ivanov; The Seagull; Uncle Vanya; T - Anton Chekhov.epub (OEBPS/chek_9781101160527_oeb_c11_r1.xhtml) - about two',
-            "ASTROV [holding her by the waist]: Come tomorrow to the forestry station ... <<about two|9:0>> ... Yes? Yes? You\x{2019}ll come?",
+            "ASTROV [holding her by the waist]: Come tomorrow to the forestry station ... <<about two|9:1>> ... Yes? Yes? You\x{2019}ll come?",
           ],
           [
             1,
             '[08:00] Plays_ Ivanov; The Seagull; Uncle Vanya; T - Anton Chekhov.epub (OEBPS/chek_9781101160527_oeb_c12_r1.xhtml) - eight in the morning',
-            "We\x{2019}ll live again as we used to, in the old days. Tea at <<eight in the morning|9a>>, dinner at <<one|9c:1>>, sitting down to supper in the evening; everything in its proper order, just as people do it ... Christian people. [With a sigh] It\x{2019}s been a long time, for my sins, since I\x{2019}ve eaten noodles.",
+            "We\x{2019}ll live again as we used to, in the old days. Tea at <<eight in the morning|5>>, dinner at <<one|9c:1>>, sitting down to supper in the evening; everything in its proper order, just as people do it ... Christian people. [With a sigh] It\x{2019}s been a long time, for my sins, since I\x{2019}ve eaten noodles.",
           ],
           [
             1,
@@ -172,7 +172,7 @@ FERAPONT: Yes, sir. When I came to your house it was still light, but they didn\
           [
             1,
             '[07:00] Plays_ Ivanov; The Seagull; Uncle Vanya; T - Anton Chekhov.epub (OEBPS/chek_9781101160527_oeb_c14_r1.xhtml) - seven in the morning',
-            "VERSHININ: Maybe not. I\x{2019}ve had no dinner today. I haven\x{2019}t had  anything to eat since the morning. One of my daughters is a bit unwell, and when my little girls are ill, then I become worried, I feel guilty that their mother is like that. Oh, if you had seen her today! What a worthless person she is! We began to quarrel at <<seven in the morning|9a>>, and at <<nine|9:0>> I slammed the door and went out.",
+            "VERSHININ: Maybe not. I\x{2019}ve had no dinner today. I haven\x{2019}t had  anything to eat since the morning. One of my daughters is a bit unwell, and when my little girls are ill, then I become worried, I feel guilty that their mother is like that. Oh, if you had seen her today! What a worthless person she is! We began to quarrel at <<seven in the morning|5>>, and at <<nine|9:0>> I slammed the door and went out.",
           ],
           [
             1,
@@ -183,6 +183,13 @@ FERAPONT: Yes, sir. When I came to your house it was still light, but they didn\
             1,
             '[> 02:00] Plays_ Ivanov; The Seagull; Uncle Vanya; T - Anton Chekhov.epub (OEBPS/chek_9781101160527_oeb_c15_r1.xhtml) - after two in the morning',
             "Olga and Irina\x{2019}s room.1Left and right are beds surrounded by screens. It is <<after two in the morning|9h>>. Offstage the alarm is being sounded for a fire which has been raging for a long time. It is clear no one in the house has gone to bed. MASHA is lying on the divan dressed in her usual black  dress. Enter OLGA and ANFISA.",
+          ],
+          [
+            1,
+            '[ap > 03:00] Plays_ Ivanov; The Seagull; Uncle Vanya; T - Anton Chekhov.epub (OEBPS/chek_9781101160527_oeb_c15_r1.xhtml) - after three',
+            "KULYGIN [going up to them]: What time is it, my friends?
+TUZENBAKH: Already <<after three|9s>>. It\x{2019}s getting light.
+IRINA: They\x{2019}re all sitting in the hall, no one is leaving. And your friend Solyony is sitting there too ... [To Chebutykin] You should go to bed, Doctor.",
           ],
           [
             1,

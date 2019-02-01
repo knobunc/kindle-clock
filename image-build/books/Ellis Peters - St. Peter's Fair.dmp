@@ -102,12 +102,17 @@ $VAR1 = [
           [
             1,
             '[ap ~ 09:00] St. Peter\'s Fair - Ellis Peters.epub (OEBPS/Text/015.html) - about nine',
-            "\x{201c}Why, <<about nine|9e>>, I suppose, my lord, and was fathoms deep soon after. Troth, I can\x{2019}t recall where, though I remember the inn. They can tell you where I was found who found me.\x{201d}",
+            "\x{201c}Why, <<about nine|9:0>>, I suppose, my lord, and was fathoms deep soon after. Troth, I can\x{2019}t recall where, though I remember the inn. They can tell you where I was found who found me.\x{201d}",
           ],
           [
             1,
             '[~ 16:30] St. Peter\'s Fair - Ellis Peters.epub (OEBPS/Text/016.html) - Vespers',
             "\x{201c}You\x{2019}ll not be needing me,\x{201d} he said, \x{201c}Emma can tell you all. It\x{2019}s almost time for <<Vespers|13>>, and I have still to go and speak with the abbot. There\x{2019}ll be time later, Hugh, after supper.\x{201d}",
+          ],
+          [
+            1,
+            '[~ 16:30] St. Peter\'s Fair - Ellis Peters.epub (OEBPS/Text/016.html) - Vespers',
+            "He went to <<Vespers|13>> with a burdened heart and a vexed mind, but for all that, he was glad of the Abbot\x{2019}s charge. It was, in any case, impossible to give up worrying at so tangled a knot, once it had presented itself to his notice, even apart from the natural concern he felt for the girl, and there was no denying that the Benedictine round, dutifully observed, did limit a man\x{2019}s mobility for a large part of the day.",
           ],
           [
             1,

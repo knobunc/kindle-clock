@@ -102,7 +102,7 @@ $VAR1 = [
           [
             1,
             '[16:00] The Stars My Destination - Alfred Bester.epub (OEBPS/Text/Part_02.xhtml) - four in the afternoon',
-            "He jaunted St. Louis\x{2013}Denver to San Francisco, arriving at the Russian Hill stage where it was <<four in the afternoon|9a>> and the streets were bustling with late-shopper jaunters.",
+            "He jaunted St. Louis\x{2013}Denver to San Francisco, arriving at the Russian Hill stage where it was <<four in the afternoon|5>> and the streets were bustling with late-shopper jaunters.",
           ],
           [
             1,
@@ -112,6 +112,6 @@ $VAR1 = [
           [
             1,
             '[03:00] The Stars My Destination - Alfred Bester.epub (OEBPS/Text/Part_02.xhtml) - three in the morning',
-            "Foyle continued to Bangkok where it was pouring rain, and Delhi where a monsoon raged\x{2026}always pursued in his mad-dog course. In Baghdad it was <<three in the morning|9a>> and the night-club crowd and pub crawlers who stayed a perpetual half hour ahead of closing time around the world, cheered him alcoholically. In Paris and again in London it was <<midnight|13>> and the mobs on the Champs \x{c9}lys\x{e9}es and in Piccadilly Circus were galvanized by Foyle\x{2019}s appearance and passionate exhortation.",
+            "Foyle continued to Bangkok where it was pouring rain, and Delhi where a monsoon raged\x{2026}always pursued in his mad-dog course. In Baghdad it was <<three in the morning|5>> and the night-club crowd and pub crawlers who stayed a perpetual half hour ahead of closing time around the world, cheered him alcoholically. In Paris and again in London it was <<midnight|13>> and the mobs on the Champs \x{c9}lys\x{e9}es and in Piccadilly Circus were galvanized by Foyle\x{2019}s appearance and passionate exhortation.",
           ],
         ];

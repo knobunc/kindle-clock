@@ -2472,7 +2472,7 @@ Sending User Email To Lisa<lisa\@comcast.com>
           [
             1,
             '[ap 05:40] Go in Action - William Kennedy.epub (kindle_split_013.html) - 5.40',
-            "Listing <<5.40|5a:0>>. listing36.go: lines 08\x{2013}12, 21\x{2013}25
+            "Listing <<5.40|5a:0>>. listing36.go: lines 08\x{2013}12, <<21\x{2013}25|5a:0>>
       
       08 // notifier is an interface that defined notification
 09 // type behavior.
@@ -2746,7 +2746,7 @@ Sending User Email To Lisa<lisa\@comcast.com>
           [
             1,
             '[ap 05:51] Go in Action - William Kennedy.epub (kindle_split_013.html) - 5.51',
-            "Listing <<5.51|5a:0>>. listing50.go: lines 09\x{2013}13, 23\x{2013}27
+            "Listing <<5.51|5a:0>>. listing50.go: lines 09\x{2013}13, <<23\x{2013}27|5a:0>>
       
       09 // user defines a user in the program.
 10 type user struct {
@@ -3031,6 +3031,27 @@ Sending user email to john smith<john\@yahoo.com>
 70 }
       
       The sample code in listing <<5.60|5a:0>> uses the same code from before, but with a few more changes.',
+          ],
+          [
+            1,
+            "[23:26] Go in Action - William Kennedy.epub (kindle_split_014.html) - 23\x{2013}26",
+            "Listing 6.3. listing01.go: lines 17\x{2013}19, <<23\x{2013}26|5a:0>>, 49\x{2013}51
+      
+      16     // wg is used to wait for the program to finish.
+17     // Add a count of two, one for each goroutine.
+18     var wg sync.WaitGroup
+19     wg.Add(2)
+
+23     // Declare an anonymous function and create a goroutine.
+24     go func() {
+25         // Schedule the call to Done to tell main we are done.
+26         defer wg.Done()
+
+49     // Wait for the goroutines to finish.
+50     fmt.Println(\"Waiting To Finish\")
+51     wg.Wait()
+      
+      A WaitGroup is a counting semaphore that can be used to maintain a record of running goroutines. When the value of a WaitGroup is greater than zero, the Wait method will block. On line 18 a variable of type WaitGroup is created, and then on line 19 we set the value of the WaitGroup to 2, noting two running goroutines. To decrement the value of the WaitGroup and eventually release the main function, calls to the Done method on lines 26 and 39 are made within the scope of a defer statement.",
           ],
           [
             1,
@@ -6843,13 +6864,13 @@ Listing\x{a0}<<5.39|5a:0>>. Compiler error storing a value of type user to the i
             1,
             '[ap 05:39] Go in Action - William Kennedy.epub (kindle_split_020.html) - 5.39',
             "Listing\x{a0}<<5.39|5a:0>>. Compiler error storing a value of type user to the interface value
-Listing\x{a0}<<5.40|5a:0>>. listing36.go: lines 08\x{2013}12, 21\x{2013}25
+Listing\x{a0}<<5.40|5a:0>>. listing36.go: lines 08\x{2013}12, <<21\x{2013}25|5a:0>>
 Listing\x{a0}<<5.41|5a:0>>. Closer look at compiler error",
           ],
           [
             1,
             '[ap 05:40] Go in Action - William Kennedy.epub (kindle_split_020.html) - 5.40',
-            "Listing\x{a0}<<5.40|5a:0>>. listing36.go: lines 08\x{2013}12, 21\x{2013}25
+            "Listing\x{a0}<<5.40|5a:0>>. listing36.go: lines 08\x{2013}12, <<21\x{2013}25|5a:0>>
 Listing\x{a0}<<5.41|5a:0>>. Closer look at compiler error
 Listing\x{a0}<<5.42|5a:0>>. Method sets as described by the specification",
           ],
@@ -6914,19 +6935,19 @@ Listing\x{a0}<<5.50|5a:0>>. listing50.go",
             '[ap 05:49] Go in Action - William Kennedy.epub (kindle_split_020.html) - 5.49',
             "Listing\x{a0}<<5.49|5a:0>>. listing48.go: lines 40\x{2013}49
 Listing\x{a0}<<5.50|5a:0>>. listing50.go
-Listing\x{a0}<<5.51|5a:0>>. listing50.go: lines 09\x{2013}13, 23\x{2013}27",
+Listing\x{a0}<<5.51|5a:0>>. listing50.go: lines 09\x{2013}13, <<23\x{2013}27|5a:0>>",
           ],
           [
             1,
             '[ap 05:50] Go in Action - William Kennedy.epub (kindle_split_020.html) - 5.50',
             "Listing\x{a0}<<5.50|5a:0>>. listing50.go
-Listing\x{a0}<<5.51|5a:0>>. listing50.go: lines 09\x{2013}13, 23\x{2013}27
+Listing\x{a0}<<5.51|5a:0>>. listing50.go: lines 09\x{2013}13, <<23\x{2013}27|5a:0>>
 Listing\x{a0}<<5.52|5a:0>>. listing50.go: lines 15\x{2013}21",
           ],
           [
             1,
             '[ap 05:51] Go in Action - William Kennedy.epub (kindle_split_020.html) - 5.51',
-            "Listing\x{a0}<<5.51|5a:0>>. listing50.go: lines 09\x{2013}13, 23\x{2013}27
+            "Listing\x{a0}<<5.51|5a:0>>. listing50.go: lines 09\x{2013}13, <<23\x{2013}27|5a:0>>
 Listing\x{a0}<<5.52|5a:0>>. listing50.go: lines 15\x{2013}21
 Listing\x{a0}<<5.53|5a:0>>. listing50.go: lines 30\x{2013}45",
           ],
@@ -6985,6 +7006,13 @@ Listing\x{a0}<<5.60|5a:0>>. listing60.go",
             "Listing\x{a0}<<5.59|5a:0>>. Output for listing56.go
 Listing\x{a0}<<5.60|5a:0>>. listing60.go
 Listing\x{a0}5.61. listing60.go: lines 35\x{2013}41",
+          ],
+          [
+            1,
+            "[23:26] Go in Action - William Kennedy.epub (kindle_split_020.html) - 23\x{2013}26",
+            "Listing\x{a0}6.2. Output for listing01.go
+Listing\x{a0}6.3. listing01.go: lines 17\x{2013}19, <<23\x{2013}26|5a:0>>, 49\x{2013}51
+Listing\x{a0}6.4. listing04.go",
           ],
           [
             1,

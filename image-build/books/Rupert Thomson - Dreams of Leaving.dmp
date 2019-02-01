@@ -2,7 +2,7 @@ $VAR1 = [
           [
             1,
             '[04:00] Dreams of Leaving - Rupert Thomson.epub (OEBPS/Text/ch01.html) - four in the morning',
-            'It was <<four in the morning|9a>> before his excitement died down and he could sleep.',
+            'It was <<four in the morning|5>> before his excitement died down and he could sleep.',
           ],
           [
             1,
@@ -27,7 +27,7 @@ $VAR1 = [
           [
             1,
             '[09:00] Dreams of Leaving - Rupert Thomson.epub (OEBPS/Text/ch01.html) - nine in the morning',
-            'The next day, at <<nine in the morning|9a>>, the phone rang. The Chief Inspector would like to see them. Separately. Mr Highness at <<two p.m.|5>> Mrs Highness at <<three p.m.|5>> Was that convenient?',
+            'The next day, at <<nine in the morning|5>>, the phone rang. The Chief Inspector would like to see them. Separately. Mr Highness at <<two p.m.|5>> Mrs Highness at <<three p.m.|5>> Was that convenient?',
           ],
           [
             1,
@@ -56,7 +56,7 @@ George replaced the receiver.",
           [
             1,
             '[03:00] Dreams of Leaving - Rupert Thomson.epub (OEBPS/Text/ch02.html) - three that morning',
-            'When Eddie arrived home at <<three that morning|9a>>, he found Moses asleep on the sofa in the lounge with both shoes on his feet and a smile on his face.',
+            'When Eddie arrived home at <<three that morning|5>>, he found Moses asleep on the sofa in the lounge with both shoes on his feet and a smile on his face.',
           ],
           [
             1,
@@ -71,7 +71,7 @@ George replaced the receiver.",
           [
             1,
             '[02:00] Dreams of Leaving - Rupert Thomson.epub (OEBPS/Text/ch02.html) - two that night',
-            "The Bunker closed at <<two that night|9a>>. While Moses was clearing away, Elliot strolled up and laid three \x{a3}10 notes in a fan on the mixing-desk.",
+            "The Bunker closed at <<two that night|5>>. While Moses was clearing away, Elliot strolled up and laid three \x{a3}10 notes in a fan on the mixing-desk.",
           ],
           [
             1,
@@ -86,12 +86,12 @@ George replaced the receiver.",
           [
             1,
             '[04:00] Dreams of Leaving - Rupert Thomson.epub (OEBPS/Text/ch02.html) - four in the morning',
-            "That they were friends at all sometimes seemed extraordinary to Moses, not least when he had to scrape the remains of Vince off the floor after a fight or stop Vince jumping out of a tower-block window. Driving Vince to St Stephen\x{2019}s at <<four in the morning|9a>> with a six-inch gash in the back of his head and his blood pumped full of drugs may have made a good story the first time round, but when you had to deal with it on a monthly basis it got pretty fucking tedious. Go and kill yourself somewhere else, you felt like saying. The things he did for Vince. He sometimes hated himself for being so good-natured, and wondered whether in fact he wasn\x{2019}t Vince\x{2019}s mother after all.",
+            "That they were friends at all sometimes seemed extraordinary to Moses, not least when he had to scrape the remains of Vince off the floor after a fight or stop Vince jumping out of a tower-block window. Driving Vince to St Stephen\x{2019}s at <<four in the morning|5>> with a six-inch gash in the back of his head and his blood pumped full of drugs may have made a good story the first time round, but when you had to deal with it on a monthly basis it got pretty fucking tedious. Go and kill yourself somewhere else, you felt like saying. The things he did for Vince. He sometimes hated himself for being so good-natured, and wondered whether in fact he wasn\x{2019}t Vince\x{2019}s mother after all.",
           ],
           [
             1,
             '[09:00] Dreams of Leaving - Rupert Thomson.epub (OEBPS/Text/ch02.html) - nine that morning',
-            "Moses scratched his head. What was all this about pigeons? Elliot had called Moses at <<nine that morning|9a>> and offered to show him the rooms on the top floor of The Bunker. \x{2018}I\x{2019}ll be here until <<twelve|9b>>,\x{2019} Elliot had told him.",
+            "Moses scratched his head. What was all this about pigeons? Elliot had called Moses at <<nine that morning|5>> and offered to show him the rooms on the top floor of The Bunker. \x{2018}I\x{2019}ll be here until <<twelve|9b>>,\x{2019} Elliot had told him.",
           ],
           [
             1,
@@ -115,13 +115,18 @@ George replaced the receiver.",
           ],
           [
             1,
+            '[< 00:00] Dreams of Leaving - Rupert Thomson.epub (OEBPS/Text/ch02.html) - shortly before midnight',
+            "The celebration reached its climax <<shortly before midnight|13>> with the waiters\x{2019} hands fluttering in delicate protest, like birds attempting flight, only to weaken, fall back, return to the relative safety of their white tunics, as Moses, who weighed more than three of them put together and had woken that morning to a bottle of champagne, a Thai-stick and two lines of coke (his birthday presents), began to spin the revolving table like some kind of giant roulette wheel.",
+          ],
+          [
+            1,
             "[> 22:00] Dreams of Leaving - Rupert Thomson.epub (OEBPS/Text/ch03.html) - after ten o\x{2019}clock at night",
             "It was <<after ten o\x{2019}clock at night|6>>. Arms pinned behind his back, almost as if handcuffed, Chief Inspector Peach stood at his office window. The storm was building. Staggered flashes of lightning took pictures of his massive silhouette. The trees over the road heaved, strained, testing the strength of their roots. Rain hissed down through the light of a single street-lamp, fine as silver wire. In the intervals between thunderclaps a typewriter could be heard, scratching and clicking beyond the door like an insect.",
           ],
           [
             1,
             '[11:00] Dreams of Leaving - Rupert Thomson.epub (OEBPS/Text/ch03.html) - eleven in the morning',
-            "On one of those spring mornings he had been unpacking a fresh delivery of apples. Granny Smiths, they were \x{2013} a lovely fruit, crisp and green. (A warning glance from Peach.) He was transferring them from their crates to the window display when he noticed something extraordinary. Slowly, very slowly, so as to see everything as it really was and no other way, he stared first at the corrugated cardboard that lined the bottom of the apple-crates, then at the ploughed field beyond the window. He did this several times. Then, even though it was only <<eleven in the morning|9a>>, he closed his shop and went upstairs.",
+            "On one of those spring mornings he had been unpacking a fresh delivery of apples. Granny Smiths, they were \x{2013} a lovely fruit, crisp and green. (A warning glance from Peach.) He was transferring them from their crates to the window display when he noticed something extraordinary. Slowly, very slowly, so as to see everything as it really was and no other way, he stared first at the corrugated cardboard that lined the bottom of the apple-crates, then at the ploughed field beyond the window. He did this several times. Then, even though it was only <<eleven in the morning|5>>, he closed his shop and went upstairs.",
           ],
           [
             1,
@@ -136,7 +141,7 @@ George replaced the receiver.",
           [
             1,
             '[ap 05:00] Dreams of Leaving - Rupert Thomson.epub (OEBPS/Text/ch03.html) - five',
-            'By <<five|9e>> he was always awake again. Then he would doze with the radio on, floating halfway between consciousness and dreams. The voices of the news announcers, turned to the lowest volume, muttered distantly, drowsily, like traffic or waves. At <<seven|9e>> he poured himself a cup of tea, and sipped it noisily, as privacy allows you to, his head propped on a heap of pillows. Sometimes he reached for his electric razor and, holding a circular mirror in his left hand, trimmed his beard.',
+            'By <<five|9:0>> he was always awake again. Then he would doze with the radio on, floating halfway between consciousness and dreams. The voices of the news announcers, turned to the lowest volume, muttered distantly, drowsily, like traffic or waves. At <<seven|9m:0>> he poured himself a cup of tea, and sipped it noisily, as privacy allows you to, his head propped on a heap of pillows. Sometimes he reached for his electric razor and, holding a circular mirror in his left hand, trimmed his beard.',
           ],
           [
             1,
@@ -158,7 +163,7 @@ George opened his eyes again. The room a watercolour in grey. A coating of dust 
           [
             1,
             '[15:00] Dreams of Leaving - Rupert Thomson.epub (OEBPS/Text/ch03.html) - three in the afternoon',
-            "The following day, at <<three in the afternoon|9a>>, a man with tangled grey hair stopped outside George\x{2019}s house. It was Dinwoodie, come to pay his respects.",
+            "The following day, at <<three in the afternoon|5>>, a man with tangled grey hair stopped outside George\x{2019}s house. It was Dinwoodie, come to pay his respects.",
           ],
           [
             1,
@@ -168,7 +173,7 @@ George opened his eyes again. The room a watercolour in grey. A coating of dust 
           [
             1,
             '[01:00] Dreams of Leaving - Rupert Thomson.epub (OEBPS/Text/ch04.html) - one in the morning',
-            'At <<one in the morning|9a>> he was leaning against a wall on the third-floor landing. He was drinking red wine again. An open bottle stood at his feet. He felt relaxed, awake. The wall he was leaning against was a good wall.',
+            'At <<one in the morning|5>> he was leaning against a wall on the third-floor landing. He was drinking red wine again. An open bottle stood at his feet. He felt relaxed, awake. The wall he was leaning against was a good wall.',
           ],
           [
             1,
@@ -283,7 +288,7 @@ Peach nodded. He would be gone long before then.",
           [
             1,
             '[ap 10:15] Dreams of Leaving - Rupert Thomson.epub (OEBPS/Text/ch05.html) - 10.15',
-            "He unscrewed the Thermos and poured himself a second cup of minestrone. Then he reached for another ham sandwich. He checked his watch. <<10.15|9p>>. Too late to make any further progress tonight. By <<10.30|9e>> he was lying in bed, his A\x{2013}Z propped on the mound of his stomach, half-moon spectacles resting on his fleshy belligerent nose. Shortly afterwards he leaned over and switched off the light.",
+            "He unscrewed the Thermos and poured himself a second cup of minestrone. Then he reached for another ham sandwich. He checked his watch. <<10.15|9p>>. Too late to make any further progress tonight. By <<10.30|9:1>> he was lying in bed, his A\x{2013}Z propped on the mound of his stomach, half-moon spectacles resting on his fleshy belligerent nose. Shortly afterwards he leaned over and switched off the light.",
           ],
           [
             1,
@@ -298,12 +303,12 @@ Peach nodded. He would be gone long before then.",
           [
             1,
             '[ap 07:15] Dreams of Leaving - Rupert Thomson.epub (OEBPS/Text/ch05.html) - 7.15',
-            "By <<7.15|9e>> he had paid the bill (exorbitant! that was the last time he would ever leave the village!) and was making for Queensway on foot. He decided to breakfast at the Blue Sky Caf\x{e9}, blue being a colour of which he was particularly fond. He found a table by the window, took in his surroundings. Teak veneer panelling to shoulder height. Matt yellow paint beyond. Sticky-looking ventilation-grilles. Cacti on the mantelpiece. He watched the door opening and closing on a succession of workmen who wanted cups of tea and bacon sandwiches. When he ordered, the waitress called him love.",
+            "By <<7.15|9:1>> he had paid the bill (exorbitant! that was the last time he would ever leave the village!) and was making for Queensway on foot. He decided to breakfast at the Blue Sky Caf\x{e9}, blue being a colour of which he was particularly fond. He found a table by the window, took in his surroundings. Teak veneer panelling to shoulder height. Matt yellow paint beyond. Sticky-looking ventilation-grilles. Cacti on the mantelpiece. He watched the door opening and closing on a succession of workmen who wanted cups of tea and bacon sandwiches. When he ordered, the waitress called him love.",
           ],
           [
             1,
             '[ap 08:45] Dreams of Leaving - Rupert Thomson.epub (OEBPS/Text/ch05.html) - 8.45',
-            "He paid the waitress and left the caf\x{e9}. It was <<8.45|9f>>. The sun pressed against the inside of a thin layer of cloud. He unbuttoned his jacket as he hurried down Queensway. His mind, unleashed, sprang forwards.",
+            "He paid the waitress and left the caf\x{e9}. It was <<8.45|9c:1>>. The sun pressed against the inside of a thin layer of cloud. He unbuttoned his jacket as he hurried down Queensway. His mind, unleashed, sprang forwards.",
           ],
           [
             1,
@@ -314,18 +319,18 @@ Peach nodded. He would be gone long before then.",
             1,
             '[ap 00:52] Dreams of Leaving - Rupert Thomson.epub (OEBPS/Text/ch05.html) - 12.52',
             'The nightclub stood on the junction, flamboyant, still.
-It was <<12.52|9f>>.
+It was <<12.52|9c:1>>.
 *',
           ],
           [
             1,
             '[ap 03:15] Dreams of Leaving - Rupert Thomson.epub (OEBPS/Text/ch05.html) - 3.15',
-            'By <<3.15|9e>> he had severe indigestion. He had eaten a sausage sandwich, a ham roll, two cheese rolls with pickle, a bowl of oxtail soup, and a slice of cheesecake, and he had drunk three cups of coffee and two cups of tea. And nothing had happened. He decided to go for a walk.',
+            'By <<3.15|9:1>> he had severe indigestion. He had eaten a sausage sandwich, a ham roll, two cheese rolls with pickle, a bowl of oxtail soup, and a slice of cheesecake, and he had drunk three cups of coffee and two cups of tea. And nothing had happened. He decided to go for a walk.',
           ],
           [
             1,
             '[ap 06:56] Dreams of Leaving - Rupert Thomson.epub (OEBPS/Text/ch05.html) - 6.56',
-            "Then it was <<6.56|9f>>. A black Rover \x{2013} a Rover 90, registration PYX 520 \x{2013} turned into the street that ran down the left-hand side of The Bunker. It parked. The door on the driver\x{2019}s side opened. A man got out. Early to middle twenties. Leather jacket. White T-shirt. Black jeans. Tall. 6\x{2019}5\x{201d}, 6\x{2019}6\x{201d}. Big too. 220 Ibs, perhaps. Maybe more. The man was alone.",
+            "Then it was <<6.56|9c:1>>. A black Rover \x{2013} a Rover 90, registration PYX 520 \x{2013} turned into the street that ran down the left-hand side of The Bunker. It parked. The door on the driver\x{2019}s side opened. A man got out. Early to middle twenties. Leather jacket. White T-shirt. Black jeans. Tall. 6\x{2019}5\x{201d}, 6\x{2019}6\x{201d}. Big too. 220 Ibs, perhaps. Maybe more. The man was alone.",
           ],
           [
             1,
@@ -378,7 +383,7 @@ Too late to turn round and go back. Too late, too dangerous. He took a swift inv
           [
             1,
             '[ap 11:22] Dreams of Leaving - Rupert Thomson.epub (OEBPS/Text/ch05.html) - 11.22',
-            'At <<11.22|9e>> he handed his ticket to a yawning guard and walked down a long flight of wooden steps to the car-park. A breeze lifted and dropped the leaves of a tree, and he thought of the girl with the blonde hair. His bicycle lay where he had left it. He hauled it back up the mud bank, a twig twanging in the spokes. He switched on the front and rear lights, swung himself on to the saddle, and rode away.',
+            'At <<11.22|9m:1>> he handed his ticket to a yawning guard and walked down a long flight of wooden steps to the car-park. A breeze lifted and dropped the leaves of a tree, and he thought of the girl with the blonde hair. His bicycle lay where he had left it. He hauled it back up the mud bank, a twig twanging in the spokes. He switched on the front and rear lights, swung himself on to the saddle, and rode away.',
           ],
           [
             1,
@@ -399,7 +404,7 @@ Too late to turn round and go back. Too late, too dangerous. He took a swift inv
             1,
             '[ap ~ 00:00] Dreams of Leaving - Rupert Thomson.epub (OEBPS/Text/ch06.html) - About twelve',
             "\x{2018}That pub next to you,\x{2019} Moses said.
-\x{2018}<<About twelve|9e>>, OK?\x{2019}
+\x{2018}<<About twelve|9:0>>, OK?\x{2019}
 \x{2018}Yeah, but Vince, why don\x{2019}t \x{2013} \x{2019}",
           ],
           [
@@ -440,7 +445,7 @@ Too late to turn round and go back. Too late, too dangerous. He took a swift inv
           [
             1,
             '[05:00] Dreams of Leaving - Rupert Thomson.epub (OEBPS/Text/ch08.html) - five in the morning',
-            "Alan must have thought so too. During the next few weeks he produced a series of drawings, primitive supernatural drawings, which he called The Family Tree. The tree had six leaves and each leaf was a face. On one of the leaves Moses saw his own face, and was touched to find himself so accepted. He liked the last drawing best of all. It showed the tree at <<five in the morning|9a>>, its branches stripped and bare, all the fallen leaves lying curled up on the ground with their eyes closed (it must have represented one of the Sundays when Moses, too drunk to drive home, had stayed overnight in the guest-room because his face was there with all the others). Alan built frames for the drawings and hung them on the kitchen wall above the Swiss cheese plant. \x{2018}So we can look at them,\x{2019} he said, \x{2018}while it\x{2019}s actually happening.\x{2019}",
+            "Alan must have thought so too. During the next few weeks he produced a series of drawings, primitive supernatural drawings, which he called The Family Tree. The tree had six leaves and each leaf was a face. On one of the leaves Moses saw his own face, and was touched to find himself so accepted. He liked the last drawing best of all. It showed the tree at <<five in the morning|5>>, its branches stripped and bare, all the fallen leaves lying curled up on the ground with their eyes closed (it must have represented one of the Sundays when Moses, too drunk to drive home, had stayed overnight in the guest-room because his face was there with all the others). Alan built frames for the drawings and hung them on the kitchen wall above the Swiss cheese plant. \x{2018}So we can look at them,\x{2019} he said, \x{2018}while it\x{2019}s actually happening.\x{2019}",
           ],
           [
             1,
@@ -541,7 +546,7 @@ Brenda ignored him.",
           [
             1,
             '[15:00] Dreams of Leaving - Rupert Thomson.epub (OEBPS/Text/ch10.html) - three in the afternoon',
-            "The next day he tried again. It was <<three in the afternoon|9a>> and he was standing in a call-box in Soho. Dead ducks rotated on a stainless steel spit ten feet away. A green neon sign \x{2013} SPANKERAMA \x{2013} flashed in a curtained window. Somebody had scratched the words GOD and FUCK into the red paintwork above the phone. With a coin, probably, because the O was a pyramid and the U looked like a V-sign. A copy of the Sun soaked up urine on the floor. BIG FREEZE CHAOS, the front page said. The freak cold snap earlier in the week had thrown the whole of Central London into chaos: rail services cut, traffic snarl-ups, hyperthermia. Moses shivered as he dialled. Somebody picked up on the other end. He pressed his waiting coin into the slot.",
+            "The next day he tried again. It was <<three in the afternoon|5>> and he was standing in a call-box in Soho. Dead ducks rotated on a stainless steel spit ten feet away. A green neon sign \x{2013} SPANKERAMA \x{2013} flashed in a curtained window. Somebody had scratched the words GOD and FUCK into the red paintwork above the phone. With a coin, probably, because the O was a pyramid and the U looked like a V-sign. A copy of the Sun soaked up urine on the floor. BIG FREEZE CHAOS, the front page said. The freak cold snap earlier in the week had thrown the whole of Central London into chaos: rail services cut, traffic snarl-ups, hyperthermia. Moses shivered as he dialled. Somebody picked up on the other end. He pressed his waiting coin into the slot.",
           ],
           [
             1,
@@ -575,7 +580,7 @@ They all went dancing.',
           [
             1,
             '[04:00] Dreams of Leaving - Rupert Thomson.epub (OEBPS/Text/ch10.html) - four in the morning',
-            'The tension stayed with her. At <<four in the morning|9a>> she threw on a silk dressing-gown and walked out on to the terrace. Such a wind. She filled her lungs with fierce air. Clouds, great jagged sheets of steel, clashed overhead. The moon showed briefly, dented and blackened, the bottom of an old saucepan. They told her no stories, nothing she could use to explain her withholding, her dishonesty, not even to herself. She stood on the terrace and listened to the crash and jangle of the night until she, too, seemed turned to metal by the cold, until the wind had blown all thoughts from her head. Towards dawn she slept.',
+            'The tension stayed with her. At <<four in the morning|5>> she threw on a silk dressing-gown and walked out on to the terrace. Such a wind. She filled her lungs with fierce air. Clouds, great jagged sheets of steel, clashed overhead. The moon showed briefly, dented and blackened, the bottom of an old saucepan. They told her no stories, nothing she could use to explain her withholding, her dishonesty, not even to herself. She stood on the terrace and listened to the crash and jangle of the night until she, too, seemed turned to metal by the cold, until the wind had blown all thoughts from her head. Towards dawn she slept.',
           ],
           [
             1,
@@ -585,7 +590,7 @@ They all went dancing.',
           [
             1,
             '[03:00] Dreams of Leaving - Rupert Thomson.epub (OEBPS/Text/ch11.html) - three in the morning',
-            "It was <<three in the morning|9a>>. Elliot sprawled on his grey dralon sofa. A glass of Remy balanced on the fourth button of his waistcoat. He was drinking in the liquid harmonies of Manhattan Transfer. To somebody walking into the office at that moment Elliot might have looked the picture of relaxation, but that somebody wouldn\x{2019}t have heard, as Elliot heard, the whirr of brain-wires, or felt, as Elliot felt, the chafing of one layer of skin against another. Elliot had said good-night to Ridley half an hour before in the foyer. He had been intending to lock up straight away and go home. But when he searched his pockets he realised that he had left his keys upstairs and when he found his keys on his desk he saw the pile of letters and when he thought about the letters he poured himself a stiff brandy, put a record on the stereo and lay down on the sofa.",
+            "It was <<three in the morning|5>>. Elliot sprawled on his grey dralon sofa. A glass of Remy balanced on the fourth button of his waistcoat. He was drinking in the liquid harmonies of Manhattan Transfer. To somebody walking into the office at that moment Elliot might have looked the picture of relaxation, but that somebody wouldn\x{2019}t have heard, as Elliot heard, the whirr of brain-wires, or felt, as Elliot felt, the chafing of one layer of skin against another. Elliot had said good-night to Ridley half an hour before in the foyer. He had been intending to lock up straight away and go home. But when he searched his pockets he realised that he had left his keys upstairs and when he found his keys on his desk he saw the pile of letters and when he thought about the letters he poured himself a stiff brandy, put a record on the stereo and lay down on the sofa.",
           ],
           [
             1,
@@ -600,16 +605,11 @@ They all went dancing.',
           [
             1,
             '[09:00] Dreams of Leaving - Rupert Thomson.epub (OEBPS/Text/ch12.html) - nine in the morning',
-            "He walked through the damp acidic air of the station \x{2013} its draughty arches and its stained dripping brick had always reminded him of urinals \x{2013} and boarded the train to London. His eyelids prickled. It was <<nine in the morning|9a>>.",
-          ],
-          [
-            1,
-            '[ap > 01:00] Dreams of Leaving - Rupert Thomson.epub (OEBPS/Text/ch12.html) - after one',
-            'He scrambled back into the taxi, slammed the door behind him and, <<after one|9e:0>> last glance at the abandoned orange building, continued on his journey.',
+            "He walked through the damp acidic air of the station \x{2013} its draughty arches and its stained dripping brick had always reminded him of urinals \x{2013} and boarded the train to London. His eyelids prickled. It was <<nine in the morning|5>>.",
           ],
           [
             1,
             '[15:00] Dreams of Leaving - Rupert Thomson.epub (OEBPS/Text/introduction.html) - three in the afternoon',
-            "There was no heating in the house, and I worked in the kitchen, huddled against a free-standing gas stove. I typed on sheets of yellow foolscap, using a maroon Olympia portable I had inherited from my last agency. I was disciplined about the hours I put in: I would start at <<three in the afternoon|9g>> and finish at <<one in the morning|9a>>. The routine felt natural, comfortable, even seductive. At that early stage, and influenced, I think, by Machado de Assis, I restricted myself to short chapters with titles of their own, some of which \x{2013} \x{2018}Strange Time for a Drowning\x{2019}, \x{2018}Crime is Order\x{2019} \x{2013} eventually made their way into the finished novel. With its irreverent, fractured narrative, that first draft felt like a distillation of the life I had been living for the past few years, and it came as no great surprise when a friend later claimed I had written his biography.",
+            "There was no heating in the house, and I worked in the kitchen, huddled against a free-standing gas stove. I typed on sheets of yellow foolscap, using a maroon Olympia portable I had inherited from my last agency. I was disciplined about the hours I put in: I would start at <<three in the afternoon|9g>> and finish at <<one in the morning|5>>. The routine felt natural, comfortable, even seductive. At that early stage, and influenced, I think, by Machado de Assis, I restricted myself to short chapters with titles of their own, some of which \x{2013} \x{2018}Strange Time for a Drowning\x{2019}, \x{2018}Crime is Order\x{2019} \x{2013} eventually made their way into the finished novel. With its irreverent, fractured narrative, that first draft felt like a distillation of the life I had been living for the past few years, and it came as no great surprise when a friend later claimed I had written his biography.",
           ],
         ];

@@ -12,7 +12,7 @@ $VAR1 = [
           [
             1,
             '[12:00] The Dangerous Book for Boys - Conn Iggulden.epub (OPS/011-chapter4.html) - noon',
-            "Now, this is how it worked. On board your ship in the middle of nowhere, you took a <<noon|13>> sighting \x{2013} that is, took note of the time as the sun passed its highest point in the sky. You could use a sextant and a knowledge of trigonometry to check the angle. If you were at <<noon|13>> and your ship\x{2019}s clock told you Greenwich was at <<nine in the morning|9a>>, you would have travelled three meridian lines east or west \x{2013} which one depending on your compass and watching the sun rise and set. You would be at longitude +/\x{2013}45\x{b0}, in fact.",
+            "Now, this is how it worked. On board your ship in the middle of nowhere, you took a <<noon|13>> sighting \x{2013} that is, took note of the time as the sun passed its highest point in the sky. You could use a sextant and a knowledge of trigonometry to check the angle. If you were at <<noon|13>> and your ship\x{2019}s clock told you Greenwich was at <<nine in the morning|5>>, you would have travelled three meridian lines east or west \x{2013} which one depending on your compass and watching the sun rise and set. You would be at longitude +/\x{2013}45\x{b0}, in fact.",
           ],
           [
             1,
@@ -667,6 +667,11 @@ Watch for the chest to rise, and take your mouth away. Repeat this five or six t
           ],
           [
             1,
+            "[ap 01:10] The Dangerous Book for Boys - Conn Iggulden.epub (OPS/049-chapter42.html) - 1\x{2013}10",
+            "This is a classic. Two grids are drawn, with x and y axes numbered <<1\x{2013}10|5a:0>> and A\x{2013}J. Larger grids will make the game last longer. Draw ships on your grid \x{2013} an aircraft carrier of five squares, a battleship of four, two destroyers of three, a submarine of two and another cruiser of two. Any reasonable combination is possible as long as both players agree.",
+          ],
+          [
+            1,
             '[00:00] The Dangerous Book for Boys - Conn Iggulden.epub (OPS/052-chapter45.html) - midnight',
             "You can read the words \x{2018}the army lands at <<midnight|13>>\x{2019}. Though it sounds very dramatic, this is a clumsy sort of message. Far better to have your spy waiting for a time, then put \x{2018}mid\x{2019} somewhere on the piece of paper. That would be much harder to find.",
           ],
@@ -809,6 +814,24 @@ EARTH",
           ],
           [
             1,
+            '[ap 07:15] The Dangerous Book for Boys - Conn Iggulden.epub (OPS/076-chapter69.html) - 7.15',
+            "The fifth planet from the Sun, at an average: 484 million miles (778 million km).
+Jupiter is by far the largest planet in the solar system and the fourth brightest thing in our sky, after the Sun, the Moon and Venus. It takes twelve years to orbit the Sun. It is sometimes called the amateur\x{2019}s planet, because it can be found easily with a basic telescope, or even binoculars.
+We haven\x{2019}t been to Jupiter and we probably never will \x{2013} so our knowledge is based on observation and the occasional orbiter and probe. Science means we are not blind, however. For example, an effect of gravity is that it causes a passing object to accelerate, which is why you will occasionally see film sequences of spaceships using a \x{2018}sling-shot around the Sun\x{2019} effect. The increase in speed can be measured and compared to other figures we already know. Piece by piece, we build up a picture of a planet \x{2013} even one where the pressure and gravity is so crushing that we are unlikely ever to ever get a probe down to the surface.
+Jupiter\x{2019}s mass can be predicted from its effect on its moons \x{2013} 318 times that of Earth. However, if Jupiter were hollow, more than a thousand Earths could fit inside, which means it must be composed of much lighter gaseous elements. This was confirmed by the Galileo probe in 1995, which dropped into the outer reaches of the atmosphere and found them composed of helium, hydrogen, ammonia and methane. In many ways, Jupiter is a failed sun \x{2013} 80 times too small to ignite.
+Beneath the gas layers, pressure increases to more than 3 million Earth atmospheres. At that level, even hydrogen has properties of a metal and Jupiter has a solid core that must be one of the most hostile places imaginable. Winds there will range up to 400 mph and at those pressures, the chemistry of the universe that we think we understand will be completely alien. At temperatures of between \x{2013}121 and \x{2013}163 \x{b0}C (\x{2013}186 to \x{2013}261 \x{b0}F), ammonia will fall as white snow.
+Moons: Around 61, with a faint ring of debris. There are hundreds, perhaps thousands, of rocks orbiting Jupiter. Whether they are referred to as moons or not is a matter of opinion. Galileo discovered the four largest in 1610. They are: Io, Europa, Ganymede and Callisto. Given their size, they deserve a special mention. They are named after lovers of the chief god of the Greeks, Zeus, whom the Romans called Jupiter.
+
+
+Io. The closest to Jupiter, pronounced \x{2018}eye-oh\x{2019}. It has a diameter of 1,942 miles (3,125 km), a little less than the Earth\x{2019}s moon. It is intensely volcanic and its closeness to Jupiter\x{2019}s magnetic field generates three million electrical amps that flow into Jupiter\x{2019}s ionosphere. It orbits Jupiter in 1.77 days, at a distance of 220,000 miles (354,000 km).
+Europa. The smoothest object in the solar system. It takes 3.55 days to orbit Jupiter. Its surface is ice, but a weak magnetic field of its own may indicate that there is liquid salt water below the surface. It has a diameter of just over 1,961 miles (3,155 km). Europa orbits Jupiter at a mean distance of 420,000 miles (670,000 km).
+Ganymede. The largest moon of Jupiter and the largest moon in the solar system, with a diameter of 3,400 miles (5,471 km). It orbits Jupiter at a mean distance of 664,000 miles (1,068,000 km), taking <<7.15|5a:0>> Earth days. Ganymede is larger than Mercury.
+Callisto. The last of the Galilean moons. It has a diameter of 3,000 miles (4,828 km) and orbits at 1,170,000 miles (1,880,000 km) from Jupiter. It is similar in size to Mercury and orbits in 16.7 Earth days.
+
+SATURN",
+          ],
+          [
+            1,
             '[17:25] The Dangerous Book for Boys - Conn Iggulden.epub (OPS/076-chapter69.html) - 17.25 hours',
             "The seventh planet from the Sun, at an average distance of 1.78 billion miles. (2.86 billion km).
 It has 11 rings and more than 20 confirmed moons, though as with Saturn and Jupiter, there are probably many more we haven\x{2019}t spotted yet. It is 67 times bigger than Earth, but has a mass only 14.5 times that of Earth, qualifying it for gas giant status, though on a smaller scale to Saturn and Jupiter.
@@ -822,6 +845,16 @@ NEPTUNE",
           ],
           [
             1,
+            "[ap 01:17] The Dangerous Book for Boys - Conn Iggulden.epub (OPS/077-chapter70.html) - 1\x{2013}17",
+            "WHAT COMPILERS of modern versions of the Bible sometimes fail to appreciate is that the language of the King James Version has a grandeur, even a power, that their versions simply lack. It is no hardship to \x{2018}walk through a dark valley\x{2019}. On the other hand, \x{2018}the valley of the shadow of death\x{2019} is a different matter. Frankly, the rhythm and poetry are part of the effect and not to be lightly cast aside. We can find no better example of this than the Ten Commandments themselves. Book of Exodus,Chapter 20, Verses <<1\x{2013}17|5a:0>>:",
+          ],
+          [
+            1,
+            "[21:40] The Dangerous Book for Boys - Conn Iggulden.epub (OPS/078-chapter71.html) - 21\x{2013}40",
+            "The most important forest tree in north-west Europe, varying in size from 70 to 130 ft (<<21\x{2013}40|5a:0>> m). Oak forms extensive woods and is fantastically long-lived, often surviving for centuries. Beech is more common in the south of England and ash and pine in the north. However, in the English midlands, oak reigns supreme.",
+          ],
+          [
+            1,
             '[16:03] The Dangerous Book for Boys - Conn Iggulden.epub (OPS/079-chapter72.html) - 1603',
             "As he signed the treaty, Edward III was only sixteen and under his mother\x{2019}s legal power. When he reached his majority, he repudiated the treaty. English kings continued to call themselves rulers of Scotland, but Scotland did remain independent until <<1603|9c:0>>, when James VI of Scotland became James I of England and joined the thrones. Unlike his hopeless father, Edward III ruled successfully and wisely for no less than fifty years.",
           ],
@@ -829,6 +862,11 @@ NEPTUNE",
             1,
             '[16:59] The Dangerous Book for Boys - Conn Iggulden.epub (OPS/080-chapter73.html) - one before seventeen',
             "UNDER UK law, it is illegal to use an airgun under the age of fourteen. From fourteen to seventeen, an air rifle may be given as a gift and used legally, though it is still illegal to buy <<one before seventeen|10>>. It is also worth considering the lesser-known fact that if an air rifle is used in the commission of a crime of any kind, it is considered to be \x{2018}a firearm\x{2019} \x{2013} with serious penalties applied.",
+          ],
+          [
+            1,
+            "[18:28] The Dangerous Book for Boys - Conn Iggulden.epub (OPS/080-chapter73.html) - 18\x{2013}28",
+            "Once in the area, find the warren. You might see rabbits in the distance, but as you come closer, they will all vanish. After you locate the complex of burrows, you should get between 60 and 90 feet (<<18\x{2013}28|5a:0>> m) away \x{2013} the effective range. Much further and you are likely to miss a kill. Much closer and they will remain nervous in your presence.",
           ],
           [
             1,
@@ -853,7 +891,7 @@ NEPTUNE",
           [
             1,
             '[11:00] The Dangerous Book for Boys - Conn Iggulden.epub (OPS/083-chapter76.html) - eleven in the morning',
-            "World War I (1914\x{2013}18) was fought at sea and on every continent, with Britain leading a block of allies against another block led by Germany. It does not need to be said that millions of lives were lost in the most brutal of conditions. The Germans under Kaiser Wilhelm were beaten after four years of war and the guns in France fell silent at <<eleven in the morning|9a>>, on the eleventh day of the eleventh month, 1918. \x{2018}Remembrance Day\x{2019} is still marked every year with memorial services and the sale of poppies.",
+            "World War I (1914\x{2013}18) was fought at sea and on every continent, with Britain leading a block of allies against another block led by Germany. It does not need to be said that millions of lives were lost in the most brutal of conditions. The Germans under Kaiser Wilhelm were beaten after four years of war and the guns in France fell silent at <<eleven in the morning|5>>, on the eleventh day of the eleventh month, 1918. \x{2018}Remembrance Day\x{2019} is still marked every year with memorial services and the sale of poppies.",
           ],
           [
             1,

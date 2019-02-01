@@ -127,12 +127,12 @@ $VAR1 = [
           [
             1,
             '[06:00] The Annihilation Score - Charles Stross.epub (OEBPS/xhtml/16_7_OFFICER_FRIENDLY.xhtml) - six in the morning',
-            "And now it\x{2019}s <<six in the morning|9a>>, my pillow is vibrating alarmingly, and it\x{2019}s time to get up, shower, caffeinate my bloodstream, and prep myself for round two with the lioness in her Home Office den. Even though I\x{2019}m much too old for this lifestyle.",
+            "And now it\x{2019}s <<six in the morning|5>>, my pillow is vibrating alarmingly, and it\x{2019}s time to get up, shower, caffeinate my bloodstream, and prep myself for round two with the lioness in her Home Office den. Even though I\x{2019}m much too old for this lifestyle.",
           ],
           [
             1,
             '[08:00] The Annihilation Score - Charles Stross.epub (OEBPS/xhtml/16_7_OFFICER_FRIENDLY.xhtml) - eight in the morning',
-            "And it\x{2019}s <<eight in the morning|9a>>. I am awake, hair brushed, face painted, booted and suited. Laptop fully charged: check. Presentation loaded and ready at the first slide: check. Violin\x{2014}",
+            "And it\x{2019}s <<eight in the morning|5>>. I am awake, hair brushed, face painted, booted and suited. Laptop fully charged: check. Presentation loaded and ready at the first slide: check. Violin\x{2014}",
           ],
           [
             1,
@@ -201,6 +201,11 @@ $VAR1 = [
           ],
           [
             1,
+            '[ap 02:00] The Annihilation Score - Charles Stross.epub (OEBPS/xhtml/18_9_TEAM_OF_CHAMPIONS.xhtml) - two',
+            "\x{201c}I\x{2019}ve got a meeting at <<two|9g>> with my Divisional Commander,\x{201d} says Jim. \x{201c}It\x{2019}s to sign off on the resources I need for this project, so it really can\x{2019}t wait.\x{201d}",
+          ],
+          [
+            1,
             '[ap 07:00] The Annihilation Score - Charles Stross.epub (OEBPS/xhtml/18_9_TEAM_OF_CHAMPIONS.xhtml) - seven',
             "\x{201c}But can you be over here by five?\x{201d} I ask. He hesitates for a moment, then nods. \x{201c}Great. Well then, the rest of us will get stuck in beforehand. And then, well, I was thinking about adjourning for a team-building exercise at <<seven|9c:1>>.\x{201d}",
           ],
@@ -252,7 +257,7 @@ $VAR1 = [
           [
             1,
             '[ap ~ 05:00] The Annihilation Score - Charles Stross.epub (OEBPS/xhtml/21_12_END_OF_THE_LINE.xhtml) - Around five',
-            "<<Around five|9e>>, I find myself in another meeting. This time it\x{2019}s with Ramona and Mhari, who in the past few weeks have gone from triggering panic attacks to being among the more comfortingly predictable elements of my life. (Strange days indeed.)",
+            "<<Around five|9:0>>, I find myself in another meeting. This time it\x{2019}s with Ramona and Mhari, who in the past few weeks have gone from triggering panic attacks to being among the more comfortingly predictable elements of my life. (Strange days indeed.)",
           ],
           [
             1,
@@ -322,12 +327,12 @@ $VAR1 = [
           [
             1,
             '[14:00] The Annihilation Score - Charles Stross.epub (OEBPS/xhtml/27_17_A_NIGHT_AT_THE_OPERA.xhtml) - two in the afternoon',
-            "I get home at <<two in the afternoon|9a>>: hungry, tired, and suffering from just a little ennui at the frivolity of it all. I\x{2019}m old enough to know better than to play dress-up party doll for a man, especially one I\x{2019}m not married to and need to be able to look in the eye next week at work. Or to blow a ton of cash on shoes and a handbag and a ticket to the opera, when I could just as easily rent it on DVD. Never mind the whole dating in the workplace thing\x{2014}that can go horribly wrong in so many ways that it\x{2019}s not even funny. On the other hand, there hasn\x{2019}t been a lot of frivolity in my life these past few years, has there? Let alone fun. And Jim and I are both grown-ups, I tell myself. I can handle this, as long as it doesn\x{2019}t go too far. So I chow down on a very austere edamame salad I bought on my way home, then go upstairs to shower and begin preparing myself for the ritual of a formal night out\x{2014}a kind of formal that Bob and I haven\x{2019}t done in longer than I care to remember.",
+            "I get home at <<two in the afternoon|5>>: hungry, tired, and suffering from just a little ennui at the frivolity of it all. I\x{2019}m old enough to know better than to play dress-up party doll for a man, especially one I\x{2019}m not married to and need to be able to look in the eye next week at work. Or to blow a ton of cash on shoes and a handbag and a ticket to the opera, when I could just as easily rent it on DVD. Never mind the whole dating in the workplace thing\x{2014}that can go horribly wrong in so many ways that it\x{2019}s not even funny. On the other hand, there hasn\x{2019}t been a lot of frivolity in my life these past few years, has there? Let alone fun. And Jim and I are both grown-ups, I tell myself. I can handle this, as long as it doesn\x{2019}t go too far. So I chow down on a very austere edamame salad I bought on my way home, then go upstairs to shower and begin preparing myself for the ritual of a formal night out\x{2014}a kind of formal that Bob and I haven\x{2019}t done in longer than I care to remember.",
           ],
           [
             1,
             '[ap ~ 04:00] The Annihilation Score - Charles Stross.epub (OEBPS/xhtml/27_17_A_NIGHT_AT_THE_OPERA.xhtml) - Around four',
-            "<<Around four|9e>>, my phone buzzes. I pull it out of the evening clutch; it\x{2019}s a message from Jim: Want me to pick you up at <<5:30|2>>?",
+            "<<Around four|9:0>>, my phone buzzes. I pull it out of the evening clutch; it\x{2019}s a message from Jim: Want me to pick you up at <<5:30|2>>?",
           ],
           [
             1,
@@ -342,7 +347,7 @@ $VAR1 = [
           [
             1,
             '[04:00] The Annihilation Score - Charles Stross.epub (OEBPS/xhtml/28_18_CASSILDA_S_SONG.xhtml) - four in the morning',
-            "Later that afternoon I manage to sit through a meeting without losing it, and although Mhari gives me a few strange glances I don\x{2019}t think anyone else really notices. When it\x{2019}s time to go home, I collect Lecter from my office safe, and I manage to navigate my way via bus and tube without jumping at shadows more than three or four times: anyone who notices it probably puts it down to one triple-shot latte too many (or to my nonexistent nose candy habit). I shovel the violin case into the safe, lock the front door, then inspect the wards on all the walls and windows twice over before I can relax enough to take my jacket and shoes off and make a pot of tea. The sleeping pills get a workout that night, despite Spooky\x{2019}s best attempts to wake me up so I can play with her at <<four in the morning|9a>>, and I\x{2019}m still a little groggy when the alarm wakes me at <<six thirty|5b>>. But at least I don\x{2019}t have any more horrible dreams about performing naked in front of the Police Federation at the Albert Hall or dancing with Lecter in doomed Carcosa; and with sleep comes a sense of normality resuming, or at least the routinization of fear.",
+            "Later that afternoon I manage to sit through a meeting without losing it, and although Mhari gives me a few strange glances I don\x{2019}t think anyone else really notices. When it\x{2019}s time to go home, I collect Lecter from my office safe, and I manage to navigate my way via bus and tube without jumping at shadows more than three or four times: anyone who notices it probably puts it down to one triple-shot latte too many (or to my nonexistent nose candy habit). I shovel the violin case into the safe, lock the front door, then inspect the wards on all the walls and windows twice over before I can relax enough to take my jacket and shoes off and make a pot of tea. The sleeping pills get a workout that night, despite Spooky\x{2019}s best attempts to wake me up so I can play with her at <<four in the morning|5>>, and I\x{2019}m still a little groggy when the alarm wakes me at <<six thirty|5b>>. But at least I don\x{2019}t have any more horrible dreams about performing naked in front of the Police Federation at the Albert Hall or dancing with Lecter in doomed Carcosa; and with sleep comes a sense of normality resuming, or at least the routinization of fear.",
           ],
           [
             1,

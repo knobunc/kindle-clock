@@ -12,7 +12,7 @@ $VAR1 = [
           [
             1,
             '[ap < 08:00] Poirot\'s Early Cases_ 18 Hercule Poirot My - Agatha Christie.epub (OEBPS/chapter01.xhtml) - Shortly before eight',
-            "<<Shortly before eight|9e>>, Japp arrived, in no very cheerful mood. I gathered that the official detective hardly approved of Poirot\x{2019}s plan.",
+            "<<Shortly before eight|9:0>>, Japp arrived, in no very cheerful mood. I gathered that the official detective hardly approved of Poirot\x{2019}s plan.",
           ],
           [
             1,
@@ -37,7 +37,7 @@ $VAR1 = [
           [
             1,
             '[06:00] Poirot\'s Early Cases_ 18 Hercule Poirot My - Agatha Christie.epub (OEBPS/chapter03.xhtml) - Six this morning',
-            "\x{2018}Yes, I came up by an excursion. <<Six this morning|5>> the train started, and the train goes back at <<five this afternoon|9a>>.\x{2019}",
+            "\x{2018}Yes, I came up by an excursion. <<Six this morning|5>> the train started, and the train goes back at <<five this afternoon|5>>.\x{2019}",
           ],
           [
             1,
@@ -47,7 +47,7 @@ $VAR1 = [
           [
             1,
             '[ap 11:00] Poirot\'s Early Cases_ 18 Hercule Poirot My - Agatha Christie.epub (OEBPS/chapter03.xhtml) - eleven',
-            'Our train for town left at <<eleven|9a>> the following morning. Before we started for the station, Poirot expressed a wish to see Miss Freda Stanton, the niece mentioned to us by the dead woman. We found the house where she was lodging easily enough. With her was a tall, dark young man whom she introduced in some confusion as Mr Jacob Radnor.',
+            'Our train for town left at <<eleven|3j>> the following morning. Before we started for the station, Poirot expressed a wish to see Miss Freda Stanton, the niece mentioned to us by the dead woman. We found the house where she was lodging easily enough. With her was a tall, dark young man whom she introduced in some confusion as Mr Jacob Radnor.',
           ],
           [
             1,
@@ -294,5 +294,12 @@ Noted crime fiction critic Julian Symons selected Lord Edgware Dies as one of Ag
 
 
 <<Just after midnight|10>>, a snowstorm stops the Orient Express dead in its tracks in the middle of Yugoslavia. The luxurious train is surprisingly full for this time of year. But by morning there is one passenger less. A \x{2018}respectable American gentleman\x{2019} lies dead in his compartment, stabbed a dozen times, his door locked from the inside\x{2026}Hercule Poirot is also aboard, having arrived in the nick of time to claim a second-class compartment\x{2014}and the most astounding case of his illustrious career.",
+          ],
+          [
+            1,
+            '[ap 04:50] Poirot\'s Early Cases_ 18 Hercule Poirot My - Agatha Christie.epub (OEBPS/theagathachristiecollection.xhtml) - 4.50',
+            "A Pocket Full of Rye
+<<4.50|5a:0>> from Paddington
+The Mirror Crack\x{2019}d from Side to Side",
           ],
         ];

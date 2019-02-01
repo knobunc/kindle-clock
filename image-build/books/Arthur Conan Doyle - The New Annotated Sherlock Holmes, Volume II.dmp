@@ -153,7 +153,7 @@ $VAR1 = [
           [
             1,
             '[03:00] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0005.html) - three this morning',
-            "\x{201c}Why, Mr. Holmes, the crime was only committed at <<three this morning|9a>>! How could you hear of it in London and get to the spot as soon as I?\x{201d}",
+            "\x{201c}Why, Mr. Holmes, the crime was only committed at <<three this morning|5>>! How could you hear of it in London and get to the spot as soon as I?\x{201d}",
           ],
           [
             1,
@@ -165,7 +165,7 @@ $VAR1 = [
           [
             1,
             '[03:00] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0005.html) - three in the morning',
-            "\x{201c}Well, I have been here a month now. I lived in that farm, where I had a room down below, and could get in and out every night, and no one the wiser. I tried all I could to coax Elsie away. I knew that she read the messages, for once she wrote an answer under one of them. Then my temper got the better of me, and I began to threaten her. She sent me a letter then, imploring me to go away, and saying that it would break her heart if any scandal should come upon her husband. She said that she would come down when her husband was asleep at <<three in the morning|9a>>, and speak with me through the end window, if I would go away afterwards and leave her in peace. She came down and brought money with her, trying to bribe me to go. This made me mad, and I caught her arm and tried to pull her through the window. At that moment in rushed the husband with his revolver in his hand. Elsie had sunk down upon the floor, and we were face to face. I was heeled also, and I held up my gun to scare him off and let me get away. He fired and missed me. I pulled off almost at the same instant, and down he dropped. I made away across the garden, and as I went I heard the window shut behind me. That\x{2019}s God\x{2019}s truth, gentlemen, every word of it, and I heard no more about it until that lad came riding up with a note which made me walk in here, like a jay, and give myself into your hands.\x{201d}",
+            "\x{201c}Well, I have been here a month now. I lived in that farm, where I had a room down below, and could get in and out every night, and no one the wiser. I tried all I could to coax Elsie away. I knew that she read the messages, for once she wrote an answer under one of them. Then my temper got the better of me, and I began to threaten her. She sent me a letter then, imploring me to go away, and saying that it would break her heart if any scandal should come upon her husband. She said that she would come down when her husband was asleep at <<three in the morning|5>>, and speak with me through the end window, if I would go away afterwards and leave her in peace. She came down and brought money with her, trying to bribe me to go. This made me mad, and I caught her arm and tried to pull her through the window. At that moment in rushed the husband with his revolver in his hand. Elsie had sunk down upon the floor, and we were face to face. I was heeled also, and I held up my gun to scare him off and let me get away. He fired and missed me. I pulled off almost at the same instant, and down he dropped. I made away across the garden, and as I went I heard the window shut behind me. That\x{2019}s God\x{2019}s truth, gentlemen, every word of it, and I heard no more about it until that lad came riding up with a note which made me walk in here, like a jay, and give myself into your hands.\x{201d}",
           ],
           [
             1,
@@ -242,7 +242,7 @@ $VAR1 = [
           [
             1,
             '[02:00] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0008.html) - two in the morning',
-            "\x{201c}I was a fool not to call you in at the time, Mr. Holmes. However, that\x{2019}s past praying for now. Yes, there were several objects in the room which called for special attention. One was the harpoon with which the deed was committed. It had been snatched down from a rack on the wall. Two others remained there, and there was a vacant place for the third. On the stock was engraved \x{2018}SS. Sea Unicorn, Dundee.\x{2019} This seemed to establish that the crime had been done in a moment of fury, and that the murderer had seized the first weapon which came in his way. The fact that the crime was committed at <<two in the morning|9a>>, and yet Peter Carey was fully dressed, suggested that he had an appointment with the murderer, which is borne out by the fact that a bottle of rum and two dirty glasses stood upon the table.\x{201d}",
+            "\x{201c}I was a fool not to call you in at the time, Mr. Holmes. However, that\x{2019}s past praying for now. Yes, there were several objects in the room which called for special attention. One was the harpoon with which the deed was committed. It had been snatched down from a rack on the wall. Two others remained there, and there was a vacant place for the third. On the stock was engraved \x{2018}SS. Sea Unicorn, Dundee.\x{2019} This seemed to establish that the crime had been done in a moment of fury, and that the murderer had seized the first weapon which came in his way. The fact that the crime was committed at <<two in the morning|5>>, and yet Peter Carey was fully dressed, suggested that he had an appointment with the murderer, which is borne out by the fact that a bottle of rum and two dirty glasses stood upon the table.\x{201d}",
           ],
           [
             1,
@@ -373,7 +373,7 @@ $VAR1 = [
           [
             1,
             '[08:00] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0011.html) - eight in the morning',
-            'Holmes made no further allusion to the matter that day, though he sat lost in thought for a long time after our belated dinner. At <<eight in the morning|9a>> he came into my room just as I finished my toilet.',
+            'Holmes made no further allusion to the matter that day, though he sat lost in thought for a long time after our belated dinner. At <<eight in the morning|5>> he came into my room just as I finished my toilet.',
           ],
           [
             1,
@@ -408,7 +408,7 @@ $VAR1 = [
           [
             1,
             '[06:00] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0012.html) - six in the morning',
-            "\x{201c}If it is not asking too much, Mr. Holmes. There\x{2019}s a train from Charing Cross to Chatham at <<six in the morning|9a>>, and we should be at Yoxley Old Place between eight and nine.\x{201d}",
+            "\x{201c}If it is not asking too much, Mr. Holmes. There\x{2019}s a train from Charing Cross to Chatham at <<six in the morning|5>>, and we should be at Yoxley Old Place between eight and nine.\x{201d}",
           ],
           [
             1,
@@ -628,7 +628,7 @@ Holmes glanced at his watch.",
             1,
             '[ap ~ 01:00] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0019.html) - About one',
             "\x{201c}Excellent!\x{201d} said Holmes. \x{201c}When does he lunch?\x{201d}
-\x{201c}<<About one|9e:0>>, sir.\x{201d}
+\x{201c}<<About one|9k:0>>, sir.\x{201d}
 \x{201c}Then Dr. Watson and I will come round in time. For the present, Mrs. Warren, good-bye.\x{201d}",
           ],
           [
@@ -664,7 +664,7 @@ Holmes glanced at his watch.",
           [
             1,
             '[ap 06:00] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0020.html) - six',
-            "\x{201c}The body was found at <<six|9a>> on the Tuesday morning. It was lying wide of the metals upon the left hand of the track as one goes eastward, at a point close to the station, where the line emerges from the tunnel in which it runs. The head was badly crushed\x{2014}an injury which might well have been caused by a fall from the train, the body could only have come on the line in that way. Had it been carried down from any neighbouring street, it must have passed the station barriers, where a collector is always standing. This point seems absolutely certain.\x{201d}",
+            "\x{201c}The body was found at <<six|3b>> on the Tuesday morning. It was lying wide of the metals upon the left hand of the track as one goes eastward, at a point close to the station, where the line emerges from the tunnel in which it runs. The head was badly crushed\x{2014}an injury which might well have been caused by a fall from the train, the body could only have come on the line in that way. Had it been carried down from any neighbouring street, it must have passed the station barriers, where a collector is always standing. This point seems absolutely certain.\x{201d}",
           ],
           [
             1,
@@ -716,7 +716,7 @@ Holmes glanced at his watch.",
           [
             1,
             '[12:00] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0020.html) - noon',
-            'With regard to our transaction, you will no doubt have observed by now that one essential detail is missing. I have a tracing which will make it complete. This has involved me in extra trouble, however, and I must ask you for a further advance of five hundred pounds. I will not trust it to the post, nor will I take anything but gold or notes. I would come to you abroad, but it would excite remark if I left the country at present. Therefore I shall expect to meet you in the smoking-room of the Charing Cross Hotel at <<noon|9a>> on Saturday. Remember that only English notes, or gold, will be taken.',
+            'With regard to our transaction, you will no doubt have observed by now that one essential detail is missing. I have a tracing which will make it complete. This has involved me in extra trouble, however, and I must ask you for a further advance of five hundred pounds. I will not trust it to the post, nor will I take anything but gold or notes. I would come to you abroad, but it would excite remark if I left the country at present. Therefore I shall expect to meet you in the smoking-room of the Charing Cross Hotel at <<noon|3b>> on Saturday. Remember that only English notes, or gold, will be taken.',
           ],
           [
             1,
@@ -741,12 +741,12 @@ Holmes glanced at his watch.",
           [
             1,
             '[ap 06:00] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0021.html) - six',
-            "\x{201c}The first three sensible words that you have uttered since you entered this room, Watson. You will find some books over there. I am somewhat exhausted; I wonder how a battery feels when it pours electricity into a non-conductor? At <<six|9e>>, Watson, we resume our conversation.\x{201d}",
+            "\x{201c}The first three sensible words that you have uttered since you entered this room, Watson. You will find some books over there. I am somewhat exhausted; I wonder how a battery feels when it pours electricity into a non-conductor? At <<six|9m:0>>, Watson, we resume our conversation.\x{201d}",
           ],
           [
             1,
             '[ap 11:00] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0022.html) - 11',
-            "Two days later found me at the National H\x{f4}tel at Lausanne, where I received every courtesy at the hands of M. Moser, the well-known manager. Lady Frances, as he informed me, had stayed there for several weeks. She had been much liked by all who met her. Her age was not more than forty. She was still handsome, and bore every sign of having in her youth been a very lovely woman. M. Moser knew nothing of any valuable jewellery, but it had been remarked by the servants that the heavy trunk in the lady\x{2019}s bedroom was always scrupulously locked. Marie Devine, the maid, was as popular as her mistress. She was actually engaged to one of the head waiters in the hotel, and there was no difficulty in getting her address. It was <<11|9f>>, Rue de Trajan, Montpellier. All this I jotted down, and felt that Holmes himself could not have been more adroit in collecting his facts.",
+            "Two days later found me at the National H\x{f4}tel at Lausanne, where I received every courtesy at the hands of M. Moser, the well-known manager. Lady Frances, as he informed me, had stayed there for several weeks. She had been much liked by all who met her. Her age was not more than forty. She was still handsome, and bore every sign of having in her youth been a very lovely woman. M. Moser knew nothing of any valuable jewellery, but it had been remarked by the servants that the heavy trunk in the lady\x{2019}s bedroom was always scrupulously locked. Marie Devine, the maid, was as popular as her mistress. She was actually engaged to one of the head waiters in the hotel, and there was no difficulty in getting her address. It was <<11|9c:0>>, Rue de Trajan, Montpellier. All this I jotted down, and felt that Holmes himself could not have been more adroit in collecting his facts.",
           ],
           [
             1,
@@ -886,7 +886,7 @@ Holmes glanced at his watch.",
           [
             1,
             '[19:00] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0029.html) - seven in the evening',
-            "It was <<seven in the evening|9a>> of a lovely summer\x{2019}s day, but Dr. Watson was sufficiently familiar with the irregularity of his old friend\x{2019}s hours to feel no surprise at the idea.",
+            "It was <<seven in the evening|5>> of a lovely summer\x{2019}s day, but Dr. Watson was sufficiently familiar with the irregularity of his old friend\x{2019}s hours to feel no surprise at the idea.",
           ],
           [
             1,
@@ -968,7 +968,7 @@ Holmes glanced at his watch.",
           [
             1,
             '[ap 11:00] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0033.html) - eleven',
-            "And never a voice raised for her! It\x{2019}s the damned injustice of it all that makes me crazy. That woman has a heart that wouldn\x{2019}t let her kill a fly. Well, I\x{2019}ll come at <<eleven|9a>> to-morrow and see if you can get some ray of light in the dark. Maybe I have a clue and don\x{2019}t know it. Anyhow, all I know and all I have and all I am are for your use if only you can save her. If ever in your life you showed your powers, put them now into this case.",
+            "And never a voice raised for her! It\x{2019}s the damned injustice of it all that makes me crazy. That woman has a heart that wouldn\x{2019}t let her kill a fly. Well, I\x{2019}ll come at <<eleven|3b>> to-morrow and see if you can get some ray of light in the dark. Maybe I have a clue and don\x{2019}t know it. Anyhow, all I know and all I have and all I am are for your use if only you can save her. If ever in your life you showed your powers, put them now into this case.",
           ],
           [
             1,
@@ -1225,8 +1225,1564 @@ G. DUNBAR.",
           ],
           [
             1,
+            "[15:22] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 15\x{2013}22",
+            "Asher, Richard. \x{201c}Holmes and the Fair Sex.\x{201d} Sherlock Holmes Journal 2, No. 3 (Summer 1955): <<15\x{2013}22|5a:0>>.",
+          ],
+          [
+            1,
+            "[22:23] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 22\x{2013}23",
+            "Barzun, Jacques. \x{201c}A Note on John Clay\x{2019}s Education.\x{201d} Baker Street Journal 31, No. 1 (March 1981): <<22\x{2013}23|5a:0>>.",
+          ],
+          [
+            1,
             '[00:00] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - Midnight',
             "\x{2014}\x{2014}\x{2014}. \x{201c}Uffa\x{2019}s <<Midnight|13>> Visitor.\x{201d} Baker Street Journal 33, No. 1 (March 1983): 7\x{2013}8.",
+          ],
+          [
+            1,
+            "[14:20] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 14\x{2013}20",
+            "\x{2014}\x{2014}\x{2014}. \x{201c}Sherlock Holmes and the Italian Cipher.\x{201d} Baker Street Journal 9, No. 1 (Jan. 1959): <<14\x{2013}20|5a:0>>.",
+          ],
+          [
+            1,
+            "[15:16] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 15\x{2013}16",
+            "Blakeney, T. S. \x{201c}Case for Identification\x{2014}In Bohemia.\x{201d} Sherlock Holmes Journal 3, No. 2 (Winter 1956): <<15\x{2013}16|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 09:26] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 9\x{2013}26",
+            "Blegen, Theodore C. \x{201c}These Were Hidden Fires, Indeed!\x{201d} In EXPLORING SHERLOCK HOLMES, edited by E. W. McDiarmid and Theodore C. Blegen, <<9\x{2013}26|5a:0>>. La Crosse, Wisc: Sumac Press, 1957.",
+          ],
+          [
+            1,
+            "[21:24] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 21\x{2013}24",
+            "\x{2014}\x{2014}\x{2014}. \x{201c} \x{2018}In Uffish Thought.\x{2019} \x{201d} Baker Street Journal [O. S.] 1, No. 1 (Jan. 1946): <<21\x{2013}24|5a:0>>.",
+          ],
+          [
+            1,
+            "[22:29] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 22\x{2013}29",
+            "\x{2014}\x{2014}\x{2014}. \x{201c}Sarasate, Sherlock and Shaw,\x{201d} Baker Street Journal 2, No. 1 (Jan. 1952): <<22\x{2013}29|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 11:15] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 11\x{2013}15",
+            "Campbell, Patrick J. \x{201c}Sherlock Holmes and the Simultaneous Equations.\x{201d} Canadian Holmes 15, No. 2 (Winter 1991): <<11\x{2013}15|5a:0>>.",
+          ],
+          [
+            1,
+            "[00:27] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 24\x{2013}27",
+            "Christ, Jay Finley. \x{201c}James Boswell and the Island of Uffa.\x{201d} Baker Street Journal [O. S.] 1, No. 1 (Jan. 1946): <<24\x{2013}27|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 08:12] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 8\x{2013}12",
+            "Cornell, Philip. \x{201c}A Fresh Bite at The Speckled Band.\x{201d} Passengers\x{2019} Log 2, No. 1 (Oct. 1998): <<8\x{2013}12|5a:0>>.",
+          ],
+          [
+            1,
+            "[23:24] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 23\x{2013}24",
+            "Crosland, Donna. \x{201c}A Conclusion to the Identity of \x{2018}Mrs. Turner.\x{2019} \x{201d} Sherlockian Meddler 10, No. 3 (1985): <<23\x{2013}24|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 09:14] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 9\x{2013}14",
+            "Darkbloom, Vivian [Nabokov, Vladimir]. \x{201c}Holmes Is Where the Heart Is, or Tooth-Tooth, Tootsie.\x{201d} Baker Street Miscellanea 6 (June 1976): <<9\x{2013}14|5a:0>>.",
+          ],
+          [
+            1,
+            "[20:23] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 20\x{2013}23",
+            "Dobson, A. W. \x{201c}Arms and the Man.\x{201d} Sherlock Holmes Journal 8, No. 1 (Winter 1966): <<20\x{2013}23|5a:0>>.",
+          ],
+          [
+            1,
+            "[18:32] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 18\x{2013}32",
+            "Fisher, Charles. \x{201c}Sherlock Holmes and Jack the Ripper.\x{201d} In LEAVES FROM THE COPPER BEECHES, edited by Ames Johnston, Thomas Hart, Henry A. Shalet, and H. W. Starr, <<18\x{2013}32|5a:0>>. Philadelphia: Sons of the Copper Beeches, 1959.",
+          ],
+          [
+            1,
+            "[00:26] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 24\x{2013}26",
+            "Folsom, Henry T. \x{201c}Seventeen Out of Twenty-Three.\x{201d} Baker Street Journal 14, No. 1 (March 1964): <<24\x{2013}26|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 08:11] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 8\x{2013}11",
+            "Foss, Thomas Frederick. \x{201c}The Bounder and the Bigamist.\x{201d} Baker Street Journal 34, No. 1 (March 1984): <<8\x{2013}11|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 11:13] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 11\x{2013}13",
+            "Francis, Thomas J. \x{201c}Watson a Name?\x{201d} Quarter\x{a3}y \$tatement 10, No. 1 (Feb. 1989): <<11\x{2013}13|5a:0>>.",
+          ],
+          [
+            1,
+            "[18:20] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 18\x{2013}20",
+            "Galerstein, David H. \x{201c}The Granada Series and \x{2018}The Red Headed League.\x{2019} \x{201d} Wheelwrightings 12, No. 2 (Sept. 1989): <<18\x{2013}20|5a:0>>.",
+          ],
+          [
+            1,
+            "[19:21] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 19\x{2013}21",
+            "\x{2014}\x{2014}\x{2014}. \x{201c}The Real Loot.\x{201d} Baker Street Miscellanea 60 (Winter 1989): <<19\x{2013}21|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 10:19] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 10\x{2013}19",
+            "Gallivan, Kevin J. J. \x{201c}Murder on the Half-Shell, or What \x{2018}A Woman\x{2019}?\x{201d} Covert Notes (N. S.) 2, No. 3 (Sept. 1979): <<10\x{2013}19|5a:0>>.",
+          ],
+          [
+            1,
+            "[17:19] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 17\x{2013}19",
+            "Hall, John. \x{201c}And Now?\x{2014}Ballarat.\x{201d} In INTERIM REPORT 1993: THE BOSCOMBE VALLEY CONTRACT REVIEWED, <<17\x{2013}19|5a:0>>. Hampshire, England: Franco-Midland Hardware Company, 1993.",
+          ],
+          [
+            1,
+            "[18:35] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 18\x{2013}35",
+            "Hall, Trevor. \x{201c}The Early Years of Sherlock Holmes.\x{201d} In SHERLOCK HOLMES: TEN LITERARY STUDIES. <<18\x{2013}35|5a:0>>. New York: St. Martin\x{2019}s Press, 1969.",
+          ],
+          [
+            1,
+            "[ap 07:11] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 7\x{2013}11",
+            "\x{2014}\x{2014}\x{2014}. \x{201c}Then I Thought of You, Mr. Holmes.\x{201d} Baker Street Miscellanea 66 (Summer 1991): <<7\x{2013}11|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 07:10] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 7\x{2013}10",
+            "Harbottle, S. T. L. \x{201c}Sherlock Holmes and the Law.\x{201d} Sherlock Holmes Journal 1, No. 3 (June 1953): <<7\x{2013}10|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 09:10] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 9\x{2013}10",
+            "Harrington, Hugh T. \x{201c}A Quite Exceptional Woman.\x{201d} Canadian Holmes 15, No. 3 (Spring 1992): <<9\x{2013}10|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 11:12] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 11\x{2013}12",
+            "Haugen, David N. \x{201c}James! James??\x{201d} Beaten\x{2019}s Christmas Annual 5 (1987): <<11\x{2013}12|5a:0>>.",
+          ],
+          [
+            1,
+            "[00:26] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 24\x{2013}26",
+            "Holroyd, James Edward. \x{201c}The Egg Spoon [On the Cheetah as Watch-Dog].\x{201d} Sherlock Holmes Journal 2, No. 3 (Summer 1955): 14.
+\x{2014}\x{2014}\x{2014}. \x{201c}The Egg Spoon.\x{201d} Sherlock Holmes Journal 1, No. 1 (1952): <<24\x{2013}26|5a:1>>.
+\x{2014}\x{2014}\x{2014}. \x{201c}The Egg-Spoon.\x{201d} Sherlock Holmes Journal 2, No. 4 (Winter 1955): 26\x{2013}27.",
+          ],
+          [
+            1,
+            "[21:46] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 21\x{2013}46",
+            "\x{2014}\x{2014}\x{2014}. \x{201c}Sherlock Holmes as Musician.\x{201d} In FROM BALTIMORE TO BAKER STREET, <<21\x{2013}46|5a:0>>.",
+          ],
+          [
+            1,
+            "[00:25] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 24\x{2013}25",
+            "Jenkins, William D. \x{201c}The Beryl Coronet: Who Wore It?\x{201d} Baker Street Miscellanea 59 (Fall 1989): <<24\x{2013}25|5a:0>>.",
+          ],
+          [
+            1,
+            "[21:34] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 21\x{2013}34",
+            "\x{2014}\x{2014}\x{2014}. \x{201c}I came to Baker-street by the Underground.\x{201d} Sherlock Holmes Railway Journal 2 (1994): <<21\x{2013}34|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 00:18] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 12\x{2013}18",
+            "Jones, Kelvin I. \x{201c}Scandal in \x{2018}A Scandal in Bohemia\x{2019}: Who Was That Lady I Saw That Prince With?\x{201d} Canadian Holmes 5, No. 4 (Summer 1982): <<12\x{2013}18|5a:0>>.",
+          ],
+          [
+            1,
+            "[22:23] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 22\x{2013}23",
+            "Katz, Robert S. \x{201c}Mary Morstan Moriarty.\x{201d} Baker Street Journal 27, No. 1 (March 1977): <<22\x{2013}23|5a:0>>.",
+          ],
+          [
+            1,
+            "[13:16] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 13\x{2013}16",
+            "Keefauver, Brad. \x{201c}A Consideration of the Camberwell Poisoning Case.\x{201d} Wheelwrightings 9, No. 2 (Sept. 1986): <<13\x{2013}16|5a:0>>.",
+          ],
+          [
+            1,
+            "[15:19] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 15\x{2013}19",
+            "King, Daniel P. \x{201c}On the Armoury in Baker Street.\x{201d} Baker Street Journal 24, No. 1 (March 1974): <<15\x{2013}19|5a:0>>.",
+          ],
+          [
+            1,
+            "[23:26] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 23\x{2013}26",
+            "\x{2014}\x{2014}\x{2014}. \x{201c}The Writings of Sherlock Holmes.\x{201d} Baker Street West 1 3, No. 1 (Jan. 1997): <<23\x{2013}26|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 10:11] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 10\x{2013}11",
+            "Krone, Karen A. \x{201c}On the Distinction Between the Characteristics of Various Typewriters.\x{201d} The Dispatch Box (Long Beach) 7 (Oct. 31, 1984): <<10\x{2013}11|5a:0>>.",
+          ],
+          [
+            1,
+            "[19:25] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 19\x{2013}25",
+            "Lai, Rick. \x{201c}Dr. Roylott\x{2019}s Correspondent.\x{201d} Wheelwrightings 7, No. 2 (Sept. 1984): <<19\x{2013}25|5a:0>>.",
+          ],
+          [
+            1,
+            "[21:24] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 21\x{2013}24",
+            "Lanza, Kenneth. \x{201c}Scandal in Bensonhurst.\x{201d} Baker Street Miscellanea 65 (Apr. 1991): <<21\x{2013}24|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 00:20] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 12\x{2013}20",
+            "Lawson, Douglas. \x{201c}The Speckled Band\x{2014}What Is It?\x{201d} Baker Street Journal 4, No. 1 (Jan. 1954): <<12\x{2013}20|5a:0>>.",
+          ],
+          [
+            1,
+            "[16:36] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 16\x{2013}36",
+            "\x{2014}\x{2014}\x{2014}. \x{201c}Nummi in Arca, or The Fiscal Holmes.\x{201d} In 221B: STUDIES IN SHERLOCK HOLMES, edited by Vincent Starrett, <<16\x{2013}36|5a:0>>. New York: Macmillan Co., 1940.",
+          ],
+          [
+            1,
+            "[19:22] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 19\x{2013}22",
+            "Lellenberg, Jon L. \x{201c}The Sherlockian Baedeker: IX. The Alpha Inn.\x{201d} Baker Street Miscellanea 16 (Dec. 1978): <<19\x{2013}22|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 11:17] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 11\x{2013}17",
+            "Linsenmeyer, John. \x{201c}The Spurious Squires.\x{201d} Baker Street Journal 23, No. 1 (March 1973): <<11\x{2013}17|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 09:13] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 9\x{2013}13",
+            "Longfellow, Esther. \x{201c}The Distaff Side of Baker Street.\x{201d} Baker Street Journal [O. S.] 1, No. 1 (Jan. 1946): <<9\x{2013}13|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 07:12] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 7\x{2013}12",
+            "McWilliams, Debra. \x{201c}The Pocket Petrarch.\x{201d} Baker Street Journal 39, No. 1 (March 1989): <<7\x{2013}12|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 07:12] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 7\x{2013}12",
+            "Moore, David. \x{201c}The Errant Holmes.\x{201d} Hurlstone Papers 1, No. 5 (July 1977): <<7\x{2013}12|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 09:16] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 9\x{2013}16",
+            "Morley, Christopher. \x{201c}The Blue Carbuncle, or the Season of Forgiveness.\x{201d} In ADVENTURE OF THE BLUE CARBUNCLE, edited by Edgar W. Smith, <<9\x{2013}16|5a:0>>. New York: Baker Street Irregulars, Inc., 1948.",
+          ],
+          [
+            1,
+            "[ap 05:13] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 5\x{2013}13",
+            "Nathan, Hartley R., and Clifford S. Goldfarb. \x{201c}Sherlock Holmes: The Jewish Connection.\x{201d} Canadian Holmes 9, No. 3 (Spring 1986): <<5\x{2013}13|5a:0>>.",
+          ],
+          [
+            1,
+            "[18:21] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 18\x{2013}21",
+            "\x{2014}\x{2014}\x{2014}. \x{201c}About Miss Mary Sutherland.\x{201d} Serpentine Muse 6, No. 3 (Winter 1983): <<18\x{2013}21|5a:0>>.",
+          ],
+          [
+            1,
+            "[22:27] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 22\x{2013}27",
+            "Oglesbee, Frank W. \x{201c}Marksmanship on the Moor.\x{201d} Baker Street Miscellanea 30 (Summer 1982): <<22\x{2013}27|5a:0>>.",
+          ],
+          [
+            1,
+            "[13:14] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 13\x{2013}14",
+            "Olding, Alan C. \x{201c}An Alternate Conclusion for \x{2018}The Speckled Band.\x{2019} \x{201d} Prescott\x{2019}s Press (N. S.) No. 3 (Sept. 1989): <<13\x{2013}14|5a:0>>.",
+          ],
+          [
+            1,
+            "[14:16] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 14\x{2013}16",
+            "\x{2014}\x{2014}\x{2014}. \x{201c}Ballarat Revisited.\x{201d} News from the Diggings 9, No. 2 (June 1988): 5\x{2013}6. Reprinted in INTERIM REPORT 1993: THE BOSCOMBE VALLEY CONTRACT REVIEWED, edited by Philip Weller, <<14\x{2013}16|5a:0>>. Hampshire, England: Franco-Midland Hardware Company, 1993.",
+          ],
+          [
+            1,
+            "[ap 09:15] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 9\x{2013}15",
+            "Olney, Clarke. \x{201c}The Literacy of Sherlock Holmes.\x{201d} Sherlock Holmes Journal 2, No. 4 (Winter 1955): <<9\x{2013}15|5a:0>>.",
+          ],
+          [
+            1,
+            "[20:22] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 20\x{2013}22",
+            "Pasley, Robert S. \x{201c}The Truth About Doctors\x{2019} Commons.\x{201d} Canadian Holmes 13, No. 4 (Summer 1990): <<20\x{2013}22|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 04:12] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 4\x{2013}12",
+            "Pearson, Roberta. \x{201c}A Scandal in Kent.\x{201d} Serpentine Muse 6, No. 1 (Summer 1981): <<4\x{2013}12|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 06:11] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 6\x{2013}11",
+            "Pennell, Vernon. \x{201c}A R\x{e9}sum\x{e9} of the Medical Life of John H. Watson, M.D., Late of the Army Medical Department.\x{201d} Sherlock Holmes Journal 3, No. 2 (Winter 1956): <<6\x{2013}11|5a:0>>.",
+          ],
+          [
+            1,
+            "[17:21] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 17\x{2013}21",
+            "Redmond, Donald A. \x{201c}Azure Three Caltrops or St. Simon.\x{201d} Baker Street Miscellanea 30 (Summer 1982): <<17\x{2013}21|5a:0>>.",
+          ],
+          [
+            1,
+            "[13:16] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 13\x{2013}16",
+            "\x{2014}\x{2014}\x{2014}. \x{201c}Choosy Beggars: The Amateur Mendicant Society.\x{201d} Baker Street Miscellanea 33 (Spring 1983): <<13\x{2013}16|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 06:10] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 6\x{2013}10",
+            "Rice, Susan. \x{201c}The Amature [sic] Mendicants.\x{201d} Serpentine Muse 8, No. 4 (Spring 1990): <<6\x{2013}10|5a:0>>.",
+          ],
+          [
+            1,
+            "[18:24] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 18\x{2013}24",
+            "Rich, Mary Ellen. \x{201c}The Uffan Way.\x{201d} Serpentine Muse 12, No. 1 (Summer 1993): <<18\x{2013}24|5a:0>>.",
+          ],
+          [
+            1,
+            "[15:20] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 15\x{2013}20",
+            "\x{2014}\x{2014}\x{2014}. \x{201c}Some Latin Byways in the Canon.\x{201d} Baker Street Journal 1, No. 1 (1948): <<15\x{2013}20|5a:0>>.",
+          ],
+          [
+            1,
+            "[14:15] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 14\x{2013}15",
+            "Schutz, Robert. \x{201c}Half-Sister; No Mystery.\x{201d} Baker Street Gasogene 1, No. 2 (1961): <<14\x{2013}15|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 06:11] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 6\x{2013}11",
+            "Schweickert, William P. \x{201c}A Child in the Chimney.\x{201d} Prescott\x{2019}s Press 3, No. 2 (1980): <<6\x{2013}11|5a:0>>; reprinted in Baker Street Journal 35, No. 2 (June 1985): 102\x{2013}104.",
+          ],
+          [
+            1,
+            "[ap 00:15] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 12\x{2013}15",
+            "\x{2014}\x{2014}\x{2014}. \x{201c}A Question of Barometric Pressure.\x{201d} Baker Street Journal 30, No. 4 (Dec. 1980): 243\x{2013}244.
+\x{2014}\x{2014}\x{2014}. \x{201c}Thumb Thing Strange,\x{201d} Prescott\x{2019}s Press 2, No. 1 (1979): <<12\x{2013}15|5a:0>>.
+Sewell, Gordon. \x{201c}Holmes and Watson in the South Country.\x{201d} Sherlock Holmes Journal 3, No. 3 (Autumn 1957): <<10\x{2013}12|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 10:12] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 10\x{2013}12",
+            "Sewell, Gordon. \x{201c}Holmes and Watson in the South Country.\x{201d} Sherlock Holmes Journal 3, No. 3 (Autumn 1957): <<10\x{2013}12|5a:0>>.",
+          ],
+          [
+            1,
+            "[21:23] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 21\x{2013}23",
+            "Shaw, John Bennett. \x{201c}An Adventure Within \x{2018}The Adventure of the Noble Bachelor.\x{2019} \x{201d} Sherlock Holmes Journal 9, No. 1 (Winter 1968): <<21\x{2013}23|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 07:12] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 7\x{2013}12",
+            "Sherbrooke-Walker, R. D. \x{201c}Holmes, Watson and Tobacco.\x{201d} Sherlock Holmes Journal 1, No. 2 (Sept. 1952): <<7\x{2013}12|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 09:17] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 9\x{2013}17",
+            "\x{2014}\x{2014}\x{2014}. \x{201c}Whose Was It? Conjectures on a Coronet.\x{201d} Baker Street Journal, Christmas Annual (1957): <<9\x{2013}17|5a:0>>.",
+          ],
+          [
+            1,
+            "[15:17] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 15\x{2013}17",
+            "Speck, Gordon R. \x{201c}Lady Frances and the Camberwell Connection.\x{201d} Wheelwrightings 10, No . 2 (Sept. 1987): <<15\x{2013}17|5a:0>>.",
+          ],
+          [
+            1,
+            "[17:20] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 17\x{2013}20",
+            "Sundholm, G\x{f6}ran. \x{201c}Vem van Kungen av B\x{f6}hmen?\x{201d} Baker Street Cab Lantern No. 7 (1969): <<17\x{2013}20|5a:0>>.",
+          ],
+          [
+            1,
+            "[13:15] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 13\x{2013}15",
+            "Suszynski, James, \x{201c} \x{2018}Don\x{2019}t Call Us, We\x{2019}ll Call You.\x{2019} \x{201d} Baker Street Miscellanea 54 (Summer 1988): <<13\x{2013}15|5a:0>>.",
+          ],
+          [
+            1,
+            "[16:17] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 16\x{2013}17",
+            "Tracy, Jack. \x{201c}In Search of Uffa.\x{201d} Holmesian Observer 2, No. 3 (June 1972): <<16\x{2013}17|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 10:12] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 10\x{2013}12",
+            "Upton, Jean. \x{201c}The Conundrum of the Coif.\x{201d} The Ritual 12 (Autumn 1993): <<10\x{2013}12|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 05:22] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 5\x{2013}22",
+            "Walsh, B. D. J. \x{201c}Sherlock Holmes and the Railways.\x{201d} Sherlock Holmes Journal 9, No. 2 (Summer 1969), 40\x{2013}48. Reprinted in Sherlock Holmes Railway Journal 1 (1993): <<5\x{2013}22|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 07:11] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 7\x{2013}11",
+            "\x{2014}\x{2014}\x{2014}. \x{201c}Boscombe Byways.\x{201d} In INTERIM REPORT 1993: THE BOSCOMBE VALLEY CONTRACT REVIEWED, <<7\x{2013}11|5a:0>>. Hampshire, England: Franco-Midland Company, 1993.",
+          ],
+          [
+            1,
+            "[17:20] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 17\x{2013}20",
+            "\x{2014}\x{2014}\x{2014}. \x{201c}Ramble Round Ross: Some Geographical Considerations.\x{201d} In ANNUAL REPORT 1993: THE BOSCOMBE VALLEY CONTRACT, <<17\x{2013}20|5a:0>>. Hampshire, England: Franco-Midland Company, 1993.",
+          ],
+          [
+            1,
+            "[18:23] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 18\x{2013}23",
+            "White, William Braid. \x{201c}Dr. Watson and the Peerage.\x{201d} Baker Street Journal [O. S.] 2, No. 1 (1947): <<18\x{2013}23|5a:0>>.",
+          ],
+          [
+            1,
+            "[22:33] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 22\x{2013}33",
+            "\x{2014}\x{2014}\x{2014}. \x{201c}King of Bohemia.\x{201d} In PRACTICAL HANDBOOK OF SHERLOCKIAN HERALDRY, compiled by Julian Wolff, <<22\x{2013}33|5a:0>>. New York: Privately printed, 1955.",
+          ],
+          [
+            1,
+            "[23:24] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 23\x{2013}24",
+            "Yates, Donald. \x{201c}An Illumination of the \x{2018}John/James\x{2019} Question.\x{201d} Baker Street Miscellanea 38 (Summer 1984): <<23\x{2013}24|5a:0>>, 28.",
+          ],
+          [
+            1,
+            "[17:18] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 17\x{2013}18",
+            "Adams, Stephen, \x{201c}Holmes: A Student of London?\x{201d} Sherlock Holmes Journal 2, No. 4 (Winter 1955): <<17\x{2013}18|5a:0>>.",
+          ],
+          [
+            1,
+            "[14:17] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 14\x{2013}17",
+            "Aikin, Bruce. \x{201c}A Study in \x{2018}Dull, Dirty Crimson.\x{2019} \x{201d} Covert Notes [N. S.] 2, No. 1 (March 1979): <<14\x{2013}17|5a:0>>.",
+          ],
+          [
+            1,
+            "[14:15] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 14\x{2013}15",
+            "Aldrich, Frederick A. \x{201c}Holmes\x{2019}s Litmus Test.\x{201d} Canadian Holmes 9, No. 4 (Summer 1986): <<14\x{2013}15|5a:0>>.",
+          ],
+          [
+            1,
+            "[15:22] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 15\x{2013}22",
+            "Asher, Richard. \x{201c}Holmes and the Fair Sex.\x{201d} Sherlock Holmes Journal 2, No. 3 (Summer 1955): <<15\x{2013}22|5a:0>>.",
+          ],
+          [
+            1,
+            "[23:25] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 23\x{2013}25",
+            "Bower, Anthony J. \x{201c}The Journey by Holmes and Watson from Winchester to London in a Pullman Car?\x{201d} Sherlock Holmes Railway Journal 1 (1993): <<23\x{2013}25|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 06:14] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 6\x{2013}14",
+            "\x{2014}\x{2014}\x{2014}. \x{201c}What a Terrible Criminal He Would Have Made.\x{201d} Sherlock Holmes Journal 5, No. 1 (Winter 1960): <<6\x{2013}14|5a:0>>.",
+          ],
+          [
+            1,
+            "[20:27] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 20\x{2013}27",
+            "Burr, Robert C. \x{201c}Prosit! . . . Salut! . . . Here\x{2019}s Mud in Your Eye: Sherlock Holmes and Alcohol.\x{201d} In SHERLOCK HOLMES: VINTAGE AND SPIRITED, edited and introduced by Michael H. Kean, <<20\x{2013}27|5a:0>>. New York: Magico Magazine, 1994.",
+          ],
+          [
+            1,
+            "[14:19] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 14\x{2013}19",
+            "\x{2014}\x{2014}\x{2014}. \x{201c}Musgrave Mathematics.\x{201d} In ILLUSTRIOUS CLIENT\x{2019}S CASE-BOOK, edited by J. N. Williamson and H. B. Williams, <<14\x{2013}19|5a:0>>. Indianapolis: The Illustrious Clients, 1948.",
+          ],
+          [
+            1,
+            "[ap 00:15] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 12\x{2013}15",
+            "\x{2014}\x{2014}\x{2014}. \x{201c}Silver Blaze: An Identification As of 1893 A.D.\x{201d} Baker Street Journal [O.S.] 4, No. 1 (1948): <<12\x{2013}15|5a:0>>.",
+          ],
+          [
+            1,
+            "[15:19] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 15\x{2013}19",
+            "Cochran, Leonard. \x{201c}Sherlock Holmes and Logic: The Education of a Genius.\x{201d} Baker Street Journal 17, No. 1 (March 1967): <<15\x{2013}19|5a:0>>.",
+          ],
+          [
+            1,
+            "[14:17] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 14\x{2013}17",
+            "Cochran, William. \x{201c} \x{2018}Ah, There You Lay Your Finger Upon the One Point . . .\x{2019} \x{201d} Wheelwrightings 8, No. 3 (Jan. 1986): <<14\x{2013}17|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 00:13] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 12\x{2013}13",
+            "Dandrew, Thomas A. \x{201c}The Early Holmes\x{2019} Love Life, or What Was Really Going on Between Sherlock and the Trevors?\x{201d} Naval Signals 22 (March 26, 1985): <<12\x{2013}13|5a:0>>.",
+          ],
+          [
+            1,
+            "[14:17] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 14\x{2013}17",
+            "Dennison, Patrick. \x{201c}Brussels in a Day?\x{201d} In THE FINAL PROBLEM CONTRACT, edited by Philip Weller, <<14\x{2013}17|5a:0>>. Hornsea, England: Franco-Midland Hardware Company, 1991.",
+          ],
+          [
+            1,
+            "[ap 09:11] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 9\x{2013}11",
+            "Ditzler, Kirk. \x{201c}The Game Is Up: \x{2018}The Gloria Scott\x{2019} Revisited.\x{201d} Wheelwrightings 4, No. 2 (Sept. 1981): <<9\x{2013}11|5a:0>>.",
+          ],
+          [
+            1,
+            "[16:20] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 16\x{2013}20",
+            "Drazen, Patrick E. \x{201c}Next Stop, Norbury: Reflections on The Yellow Face.\x{201d} Baker Street Journal 29, No. 1 (March 1979): <<16\x{2013}20|5a:0>>.",
+          ],
+          [
+            1,
+            "[22:27] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 22\x{2013}27",
+            "\x{2014}\x{2014}\x{2014}. \x{201c}Dr. Watson\x{2019}s Triple Play.\x{201d} Baker Street Journal 23, No. 1 (March 1973): <<22\x{2013}27|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 04:11] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 4\x{2013}11",
+            "Fox, Lyttleton. \x{201c}Mycroft Recomputed.\x{201d} Baker Street Journal 19, No. 1 (March 1969): <<4\x{2013}11|5a:0>>.",
+          ],
+          [
+            1,
+            "[19:21] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 19\x{2013}21",
+            "Greenwood, E. P. \x{201c}Some Random Thoughts on Railway Journeys by Holmes and Watson.\x{201d} Sherlock Holmes Journal 1, No. 3 (June 1953): <<19\x{2013}21|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 05:11] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 5\x{2013}11",
+            "Hammer, David L. \x{201c}A Psychological Study of Mr. Sherlock Holmes in the Year 1891.\x{201d} Canadian Holmes 11, No. 3 (Spring 1988): <<5\x{2013}11|5a:0>>. Reprinted in expanded form as \x{201c}The Psychosis,\x{201d} in THE BEFORE-BREAKFAST PIPE OF MR. SHERLOCK HOLMES, 132\x{2013}149. Dubuque, Iowa: Gasogene Press, Ltd., 1995.",
+          ],
+          [
+            1,
+            "[13:20] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 13\x{2013}20",
+            "Harrison, Michael. \x{201c}Baker Street Harrisonia #5.\x{201d} Baker Street Miscellanea 64 (Winter 1990): <<13\x{2013}20|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 07:11] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 7\x{2013}11",
+            "Heldenbrand, Page. \x{201c}The Duplicity of Sherlock Holmes.\x{201d} In TWO BAKER STREET AKRONISMS, <<7\x{2013}11|5a:0>>. Summit, N.J.: Pamphlet House, 1945. Also contains \x{201c}The Strange Case of Colonel Moran,\x{201d} by C. R. Andrew.",
+          ],
+          [
+            1,
+            "[20:22] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 20\x{2013}22",
+            "\x{2014}\x{2014}\x{2014}. \x{201c}The Royal Mallows, 1854\x{2013}1888.\x{201d} Sherlock Holmes Journal 6, No. 1 (Winter 1962): <<20\x{2013}22|5a:0>>.",
+          ],
+          [
+            1,
+            "[21:44] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 21\x{2013}44",
+            "Hyder, William. \x{201c}Sherlock Holmes as Musician.\x{201d} In FROM BALTIMORE TO BAKER STREET, <<21\x{2013}44|5a:0>>. Toronto: Metropolitan Reference Library, 1995.",
+          ],
+          [
+            1,
+            "[17:20] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 17\x{2013}20",
+            "Jackson, Steven. \x{201c}Holmes and Bertillonage.\x{201d} Sherlock Holmes Journal 23, No. 1 (Winter 1996): <<17\x{2013}20|5a:0>>.",
+          ],
+          [
+            1,
+            "[13:15] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 13\x{2013}15",
+            "Jaffee, Irving L. \x{201c}The Final Problem.\x{201d} ELEMENTARY MY DEAR WATSON, <<13\x{2013}15|5a:0>>. Brooklyn, N.Y.: Theo. Gauss Sons, 1965.",
+          ],
+          [
+            1,
+            "[ap 10:13] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 10\x{2013}13",
+            "Johnson, C. Arnold. \x{201c}An East Wind.\x{201d} Baker Street Journal 31, No. 1 (March 1981): <<10\x{2013}13|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 06:11] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 6\x{2013}11",
+            "Jordan, Anne. \x{201c} \x{2018}My Note to You Was Absolutely Genuine.\x{2019} \x{201d} In ANNUAL REPORT 1991: THE FINAL PROBLEM CONTRACT, edited by Philip Weller, 43\x{2013}45. Hampshire, England: Sherlock Publications, 1991.
+\x{2014}\x{2014}\x{2014}. \x{201c}Was Holmes a Cab Driver?\x{201d} The Ritual 11 (Spring 1993): <<6\x{2013}11|5a:0>>.
+Jossi, Otto. MEIRINGEN AND ITS ENVIRONS. Zurich: Art Institut. Orell Fussli, 1907.",
+          ],
+          [
+            1,
+            "[19:24] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 19\x{2013}24",
+            "Kaser, Michael C. \x{201c}Sherlock Holmes on the Continent.\x{201d} Baker Street Journal 6, No. 1 (Jan. 1956): <<19\x{2013}24|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 08:10] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 8\x{2013}10",
+            "\x{2014}\x{2014}\x{2014}. \x{201c}Oxford, Cambridge or . . . ? The Final Answer.\x{201d} Afghanistanzas 6, No. 5 (Nov. 1982): <<8\x{2013}10|5a:0>>; and 6, No. 6 (Dec. 1982): <<11\x{2013}13|5a:0>>.",
+          ],
+          [
+            1,
+            "[15:17] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 15\x{2013}17",
+            "\x{2014}\x{2014}\x{2014}. \x{201c}A Tribute, Though Not Necessarily Glowing, to the Napoleon of Crime.\x{201d} Prescott\x{2019}s Press 3, No. 2 (1980): <<15\x{2013}17|5a:0>>.",
+          ],
+          [
+            1,
+            "[15:19] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 15\x{2013}19",
+            "King, Daniel P. \x{201c}On the Armoury in Baker Street.\x{201d} Baker Street Journal 24, No. 1 (March 1974): <<15\x{2013}19|5a:0>>.",
+          ],
+          [
+            1,
+            "[23:26] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 23\x{2013}26",
+            "\x{2014}\x{2014}\x{2014}.\x{201d}The Writings of Sherlock Holmes.\x{201d} Baker Street West 1 3, No. 1 (Jan. 1997): <<23\x{2013}26|5a:0>>.",
+          ],
+          [
+            1,
+            "[16:17] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 16\x{2013}17",
+            "Lai, Rick. \x{201c}Mycroft\x{2019}s Avenger.\x{201d} Wheelwrightings 12, No. 2 (Sept. 1989): <<16\x{2013}17|5a:0>>.",
+          ],
+          [
+            1,
+            "[18:21] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 18\x{2013}21",
+            "\x{2014}\x{2014}\x{2014}. \x{201c}Victor Trevor and the Sinister Savant.\x{201d} Wheelwrightings 8, No. 1 (May 1985): <<18\x{2013}21|5a:0>>.",
+          ],
+          [
+            1,
+            "[16:36] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 16\x{2013}36",
+            "\x{2014}\x{2014}\x{2014}. \x{201c}Nummi in Arca or The Fiscal Holmes.\x{201d} In 221B: STUDIES IN SHERLOCK HOLMES, edited by Vincent Starrett, <<16\x{2013}36|5a:0>>. New York: Macmillan Co., 1940.",
+          ],
+          [
+            1,
+            "[ap 06:10] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 6\x{2013}10",
+            "\x{2014}\x{2014}\x{2014}. \x{201c}A Novel Treatise.\x{201d} Baker Street Journal 23, No. 1 (March 1973): <<6\x{2013}10|5a:0>>.",
+          ],
+          [
+            1,
+            "[20:25] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 20\x{2013}25",
+            "Leonard, William. \x{201c}Re: Vampires.\x{201d} Baker Street Journal, Christmas Annual (1957): <<20\x{2013}25|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 00:14] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 12\x{2013}14",
+            "McClune, Michael C. and William P. Schweikert. \x{201c}A Crooked Story.\x{201d} Prescott\x{2019}s Press [N. S.] 11 (Sept. 1991): <<12\x{2013}14|5a:0>>, 23.",
+          ],
+          [
+            1,
+            "[ap 08:10] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 8\x{2013}10",
+            "McLaren, R. M. \x{201c}Doctor Watson\x{2013}Punter or Speculator?\x{201d} Sherlock Holmes Journal 1, No. 1 (May 1952): <<8\x{2013}10|5a:0>>.",
+          ],
+          [
+            1,
+            "[20:22] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 20\x{2013}22",
+            "Meers, Michael A. \x{201c}Holmes and Watson Travelling Through Switzerland.\x{201d} In ANNUAL REPORT 1991: THE FINAL PROBLEM CONTRACT, edited by Philip Weller, <<20\x{2013}22|5a:0>>. Hampshire, England; Sherlock Publications, 1991.",
+          ],
+          [
+            1,
+            "[ap 07:14] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 7\x{2013}14",
+            "Metcalfe, N. P. \x{201c}Oxford or Cambridge or Both?\x{201d} Baker Street Journal, Christmas Annual (1956): <<7\x{2013}14|5a:0>>.",
+          ],
+          [
+            1,
+            "[21:24] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 21\x{2013}24",
+            "Mihalakis, Athene. \x{201c}A Rose by Any Other Name.\x{201d} Baker Street West 1 3, No. 3 (Sept. 1997): <<21\x{2013}24|5a:0>>.",
+          ],
+          [
+            1,
+            "[15:34] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 15\x{2013}34",
+            "Moriarty, Daniel. \x{201c}The Peculiar Persecution of Professor Moriarty.\x{201d} Baker Street Journal 10, No. 1 (March 1960): <<15\x{2013}34|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 05:16] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 5\x{2013}16",
+            "\x{2014}\x{2014}\x{2014}. \x{201c}Was Sherlock Holmes an American?\x{201d} In 221B: STUDIES IN SHERLOCK HOLMES, edited by Vincent Starrett, <<5\x{2013}16|5a:0>>. New York: Macmillan Co., 1940.",
+          ],
+          [
+            1,
+            "[13:16] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 13\x{2013}16",
+            "\x{2014}\x{2014}\x{2014}. \x{201c}That Is to Say, Mr. Holmes.\x{201d} Baker Street Pillar Box 13 ( 1993): <<13\x{2013}16|5a:0>>.",
+          ],
+          [
+            1,
+            "[20:22] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 20\x{2013}22",
+            "Otten, Eric H. \x{201c}Who Was Mycroft? or The Truth Behind the Myth.\x{201d} In THE NOBLE BACHELORS\x{2019} RED-COVERED VOLUME, edited by Philip A. Shreffler, <<20\x{2013}22|5a:0>>. St. Louis: Birchmoor Press, 1974.",
+          ],
+          [
+            1,
+            "[15:16] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 15\x{2013}16",
+            "Perceval, William. \x{201c}Sherlock Holmes and Air-Guns.\x{201d} Sherlock Holmes Journal 6, No. 1 (Winter 1962): <<15\x{2013}16|5a:0>>.",
+          ],
+          [
+            1,
+            "[16:19] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 16\x{2013}19",
+            "Richards, E. Butler. \x{201c}Musgrave Musings.\x{201d} Baker Street Miscellanea 17 (March 1979): <<16\x{2013}19|5a:0>>.",
+          ],
+          [
+            1,
+            "[15:20] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 15\x{2013}20",
+            "\x{2014}\x{2014}\x{2014}. \x{201c}Some Latin Byways in the Canon.\x{201d} Baker Street Journal [O. S.] 3, No. 1 (1948): <<15\x{2013}20|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 01:34] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 1\x{2013}34",
+            "Sayers, Dorothy L. \x{201c}Holmes\x{2019} College Career.\x{201d} BAKER STREET STUDIES, edited by H. W. Bell, <<1\x{2013}34|5a:0>>. London: Constable & Co., 1934.",
+          ],
+          [
+            1,
+            "[23:24] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 23\x{2013}24",
+            "Scheideman, J. W. \x{201c}Economic Cares and Cabs: A Dialogue About Mycroft.\x{201d} Baker Street Journal 25, No. 1 (March 1975): <<23\x{2013}24|5a:0>>, 27.",
+          ],
+          [
+            1,
+            "[ap 10:16] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 10\x{2013}16",
+            "Shanks, John. \x{201c}You Have Been to University I Perceive.\x{201d} Three Pipe Problem 2 (Aug. 1979): <<10\x{2013}16|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 05:22] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 5\x{2013}22",
+            "\x{201c}Sherlock Holmes and Railways.\x{201d} Sherlock Holmes Journal 9, No. 2 (Summer 1969): 40\x{2013}48. Reprinted in Sherlock Holmes Railway Journal 1 (1993): <<5\x{2013}22|5a:0>>.",
+          ],
+          [
+            1,
+            "[15:18] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 15\x{2013}18",
+            "Shreffler, Philip A. \x{201c}Taking Col. Ross\x{2019}s Breath Away.\x{201d} Prescott\x{2019}s Press [N.S.] 6 (June 1990): <<15\x{2013}18|5a:0>>.",
+          ],
+          [
+            1,
+            "[21:29] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 21\x{2013}29",
+            "Silverstein, Albert and Myrna. \x{201c}Concerning the Extraordinary Events at the Reichenbach Falls.\x{201d} Baker Street Journal 20, No. 1 (March 1970): <<21\x{2013}29|5a:0>>.",
+          ],
+          [
+            1,
+            "[00:34] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 24\x{2013}34",
+            "Simpson, A. Carson. \x{201c}The Curious Incident of the Missing Corpse.\x{201d} Baker Street Journal 4, No. 1 (Jan. 1954): <<24\x{2013}34|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 05:11] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_000.html) - 5\x{2013}11",
+            "Stephens, Charles B. \x{201c}The Birlstone Hoax.\x{201d} Baker Street Journal [O. S.] 4, No. 1 (Jan. 1949): <<5\x{2013}11|5a:0>>.",
+          ],
+          [
+            1,
+            "[19:23] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 19\x{2013}23",
+            "Swift, Francine M., and Wayne B. Swift. \x{201c}Winchester Races.\x{201d} In THE TRI-METALLIC QUESTION, edited by Peter Horrocks, <<19\x{2013}23|5a:0>>. London: Sherlock Holmes Society of London, 1991.",
+          ],
+          [
+            1,
+            "[13:14] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 13\x{2013}14",
+            "\x{2014}\x{2014}\x{2014}. \x{201c}Why the Dog Did Nothing in the Night-Time.\x{201d} Serpentine Muse 13, No. 2 (Spring 1997): <<13\x{2013}14|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 11:12] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 11\x{2013}12",
+            "Thurbon, William T. \x{201c}Education of Sherlock Holmes\x{2014}A Footnote.\x{201d} Baker Street Miscellanea 7 (Sept. 1976): <<11\x{2013}12|5a:0>>.",
+          ],
+          [
+            1,
+            "[20:21] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 20\x{2013}21",
+            "Trapp, David James. \x{201c}Holmes the Graphologist.\x{201d} Baker Street Journal 31, No. 1 (March 1981): <<20\x{2013}21|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 05:22] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 5\x{2013}22",
+            "Walsh, B. D. J. \x{201c}Sherlock Holmes and Railways.\x{201d} Sherlock Holmes Journal 9, No. 2 (Summer 1969): 40\x{2013}48. Reprinted in Sherlock Holmes Railway Journal 1 (1993): <<5\x{2013}22|5a:0>>.",
+          ],
+          [
+            1,
+            "[00:31] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 24\x{2013}31",
+            "Webster, H. T. \x{201c}Observations of Sherlock Holmes as an Athlete and Sportsman.\x{201d} Baker Street Journal [O. S.] 3, No. 1 (1948): <<24\x{2013}31|5a:0>>.",
+          ],
+          [
+            1,
+            "[00:25] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 24\x{2013}25",
+            "Williams, H. B. \x{201c}Dating \x{2018}The Yellow Face.\x{2019} \x{201d} In CLIENT\x{2019}S CASE-NOTES, edited by Brian R. MacDonald, <<24\x{2013}25|5a:0>>. Indianapolis, Ind.: The Illustrious Clients, 1983.",
+          ],
+          [
+            1,
+            "[23:25] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 23\x{2013}25",
+            "Wills-Wood, Christopher. \x{201c}The Missing Inventor: A Historical Hypothesis.\x{201d} In INTERIM REPORT 1991: FINAL PROBLEM CONTRACT REVIEWED, edited by Philip Weller, <<23\x{2013}25|5a:0>>. Hampshire, England: Sherlock Publications, 1991.",
+          ],
+          [
+            1,
+            "[22:23] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 22\x{2013}23",
+            "Wilson, Evan M. \x{201c}Sherlock Holmes and the Indian Mutiny: Or, Where and What Was Bhurtee?\x{2014}An Identification.\x{201d} Baker Street Journal 28, No. 1 (March 1978): <<22\x{2013}23|5a:0>>.",
+          ],
+          [
+            1,
+            "[16:17] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 16\x{2013}17",
+            "Woods, Carol P. \x{201c}The Curious Matter of the Congratulatory Telegrams.\x{201d} Baker Street Journal 42, No. 1 (March 1992): <<16\x{2013}17|5a:0>>.",
+          ],
+          [
+            1,
+            "[17:18] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 17\x{2013}18",
+            "Adams, Rev. Stephen. \x{201c}Holmes: A Student of London?\x{201d} Sherlock Holmes Journal 2, No. 4 (Winter 1955): <<17\x{2013}18|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 01:11] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 1\x{2013}11",
+            "Allen, Frank A. D. \x{201c}Witchcraft in Baker Street.\x{201d} In BEYOND BAKER STREET, edited and annotated by Michael Harrison, <<1\x{2013}11|5a:0>>. Indianapolis: Bobbs-Merrill Company, 1976.",
+          ],
+          [
+            1,
+            "[22:24] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 22\x{2013}24",
+            "Aronson, Marvin E., M.D. \x{201c}The Case of the Norwood Builder.\x{201d} Baker Street Journal 15, No. 1 (March 1965): <<22\x{2013}24|5a:0>>.",
+          ],
+          [
+            1,
+            "[15:22] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 15\x{2013}22",
+            "Asher, Dr. Richard. \x{201c}Holmes and the Fair Sex.\x{201d} Sherlock Holmes Journal 2, No. 3 (Summer 1955): <<15\x{2013}22|5a:0>>.",
+          ],
+          [
+            1,
+            "[15:20] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 15\x{2013}20",
+            "Austin, Bliss. A BAKER STREET CHRISTMAS STOCKING. Westfield, N.J.: Hydraulic Press,1955. Reprinted in Bliss Austin, AUSTIN\x{2019}S SHERLOCKIAN STUDIES: THE COLLECTED ANNUALS, <<15\x{2013}20|5a:0>>. New York: Magico Magazine, 1986.",
+          ],
+          [
+            1,
+            "[ap 00:14] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 12\x{2013}14",
+            "Baker Street Miscellanea Editors. \x{201c}The \x{2018}The Second Stain\x{2019} Second Handwriting\x{2014}Identified.\x{201d} Baker Street Miscellanea 16 (Dec. 1978): <<12\x{2013}14|5a:0>>.",
+          ],
+          [
+            1,
+            "[22:24] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 22\x{2013}24",
+            "\x{2014}\x{2014}\x{2014}. \x{201c}Tut, Tut, Sherlock!\x{201d} Baker Street Miscellanea 31 (Autumn 1982): <<22\x{2013}24|5a:0>>, 32.",
+          ],
+          [
+            1,
+            "[16:17] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 16\x{2013}17",
+            "Bengtsson, Hans-Uno, \x{201c} . . . det djup till vilket persiljan sj\x{f6}nk . . .\x{201d} Sherlockiana 36, Nos. 2\x{2013}3 (1991): <<16\x{2013}17|5a:0>> (rate of sinking graphed).",
+          ],
+          [
+            1,
+            "[21:22] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 21\x{2013}22",
+            "Bett, Wingate. \x{201c}Watson\x{2019}s Second Marriage.\x{201d} Sherlock Holmes Journal 3, No. 1 (Winter 1956): <<21\x{2013}22|5a:0>>.",
+          ],
+          [
+            1,
+            "[17:21] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 17\x{2013}21",
+            "Bousquet, Robert J. \x{201c}The Vocabulary of Abe Slaney.\x{201d} In INTERIM REPORT 1997: THE DANCING MEN CONTRACT REVIEWED, with editor\x{2019}s notes by Philip Weller, <<17\x{2013}21|5a:0>>. Hampshire, England: Franco Midland Hardware Company, 1997.",
+          ],
+          [
+            1,
+            "[15:17] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 15\x{2013}17",
+            "Brody, Howard. \x{201c}That Trip to Norway.\x{201d} Baker Street Miscellanea 6 (June 1976): <<15\x{2013}17|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 09:10] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 9\x{2013}10",
+            "\x{2014}\x{2014}\x{2014}. \x{201c}Who Was Dr. Leslie Armstrong?\x{201d} Baker Street Miscellanea 8 (Dec. 1976): <<9\x{2013}10|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 09:11] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 9\x{2013}11",
+            "Cantor, Murray A. \x{201c}A Reconstruction of the Norwood Builder.\x{201d} Prescott\x{2019}s Press [N. S.], 10 (June 1991): <<9\x{2013}11|5a:0>>.",
+          ],
+          [
+            1,
+            "[21:33] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 21\x{2013}33",
+            "Christ, Jay Finley. \x{201c}The Later Holmes An Imposter: A Sequel.\x{201d} Baker Street Gasogene 1, No. 1 (1961): <<21\x{2013}33|5a:0>>.",
+          ],
+          [
+            1,
+            "[22:24] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 22\x{2013}24",
+            "Cochran, William R. \x{201c}The Disappearance of the First Mrs. Watson.\x{201d} Wheelwrightings 9, No. 1 (May 1986): <<22\x{2013}24|5a:0>>.",
+          ],
+          [
+            1,
+            "[21:23] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 21\x{2013}23",
+            "\x{2014}\x{2014}\x{2014}. \x{201c}The Magic Wine Bottle.\x{201d} Wheelwrightings 9, No. 2 (Sept. 1986): <<21\x{2013}23|5a:0>>.",
+          ],
+          [
+            1,
+            "[20:24] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 20\x{2013}24",
+            "Coffin, James A. \x{201c}The Adventure of Black Peter: A Murder, A Killing, or A Suicide?\x{201d} Baker Street Journal 43, No. 1 (March 1993): <<20\x{2013}24|5a:0>>.",
+          ],
+          [
+            1,
+            "[13:16] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 13\x{2013}16",
+            "Coleman, Peter. \x{201c}Sherlock Holmes and the Bicycle.\x{201d} In ANNUAL REPORT 1990: THE PRIORY SCHOOL CONTRACT, edited by Philip Weller, <<13\x{2013}16|5a:0>>. Doncaster, England: Franco-Midland Hardware Company, 1990.",
+          ],
+          [
+            1,
+            "[ap 01:11] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 1\x{2013}11",
+            "\x{2014}\x{2014}\x{2014}. \x{201c}Holdernesse: A Ducal Double.\x{201d} Baker Street Miscellanea 46 (Summer 1986): <<1\x{2013}11|5a:0>>, and 47 (Autumn 1986): <<3\x{2013}11|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 06:10] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 6\x{2013}10",
+            "\x{2014}\x{2014}\x{2014}. \x{201c}The Mews of Marylebone.\x{201d} Sherlock Holmes Journal 6, No. 1 (Winter 1962): <<6\x{2013}10|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 02:30] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 2\x{2013}30",
+            "\x{2014}\x{2014}\x{2014}. \x{201c}Three Distressed Gentlewomen.\x{201d} In A GAGGLE OF GOVERNESSES, edited by Pamela Bruxner, <<2\x{2013}30|5a:0>>. London: Sherlock Holmes Society of London, 1997.",
+          ],
+          [
+            1,
+            "[ap 08:11] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 8\x{2013}11",
+            "Dudley, William E. \x{201c}Some Persecutions Are More Peculiar Than Others.\x{201d} HP 1, No. 7 (March 1979): <<8\x{2013}11|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 00:16] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 12\x{2013}16",
+            "Durgin, Cyrus. \x{201c}The Speckled Band 1956.\x{201d} In THE THIRD CAB, <<12\x{2013}16|5a:0>>. Boston: Privately printed, 1960.",
+          ],
+          [
+            1,
+            "[17:25] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 17\x{2013}25",
+            "Elie, Rudolph. \x{201c}The Battle of Charing Cross.\x{201d} THE THIRD CAB, <<17\x{2013}25|5a:0>>. Boston: Privately printed, 1960.",
+          ],
+          [
+            1,
+            "[15:32] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 15\x{2013}32",
+            "Fisher, Charles. \x{201c}A Challenge from Baker Street.\x{201d} In LEAVES FROM THE COPPER BEECHES, <<15\x{2013}32|5a:0>>. Narberth, PA: Livingston Pub. Co., 1959.",
+          ],
+          [
+            1,
+            "[21:22] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 21\x{2013}22",
+            "\x{2014}\x{2014}\x{2014}. \x{201c}A Man with a Maid in Appledore Towers.\x{201d} Canadian Holmes 7, No. 4 (Summer 1984): <<21\x{2013}22|5a:0>>.",
+          ],
+          [
+            1,
+            "[00:26] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 24\x{2013}26",
+            "Green, Richard Lancelyn. \x{201c}On Tour with Sigerson.\x{201d} Sherlock Holmes Journal 14, No. 1 (Spring 1979): <<24\x{2013}26|5a:0>>.",
+          ],
+          [
+            1,
+            "[19:21] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 19\x{2013}21",
+            "Greenwood, E. P. \x{201c}Some Random Thoughts on Railway Journeys by Holmes and Watson.\x{201d} Sherlock Holmes Journal 1, No. 3 (June 1953): <<19\x{2013}21|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 07:10] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 7\x{2013}10",
+            "Harbottle, S. T. L. \x{201c}Sherlock Holmes and the Law.\x{201d} Sherlock Holmes Journal 1, No. 3 (June 1953): <<7\x{2013}10|5a:0>>.",
+          ],
+          [
+            1,
+            "[14:19] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 14\x{2013}19",
+            "Iriarte, Antonio. \x{201c}Sherlock Holmes and The Strand Magazine.\x{201d} In INTERIM REPORT 1994: EMPTY HOUSE CONTRACT REVIEWED, edited by Philip Weller, <<14\x{2013}19|5a:0>>. Hampshire England: Franco-Midland Hardware Company, 1994.",
+          ],
+          [
+            1,
+            "[15:17] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 15\x{2013}17",
+            "Jaeck, Kathrin. \x{201c}Turn Around, Turn Around.\x{201d} Wheelwrightings 11, No. 3 (Jan. 1989): <<15\x{2013}17|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 10:13] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 10\x{2013}13",
+            "Johnson, C. Arnold. \x{201c}An East Wind.\x{201d} Baker Street Journal 31, No. 1 (March 1981): <<10\x{2013}13|5a:0>>.",
+          ],
+          [
+            1,
+            "[19:21] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 19\x{2013}21",
+            "Jones, Kelvin I. \x{201c}The Chronology of \x{2018}The Abbey Grange.\x{2019} \x{201d} Wheelwrightings 10, No. 1 (May 1987): <<19\x{2013}21|5a:0>>.",
+          ],
+          [
+            1,
+            "[14:16] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 14\x{2013}16",
+            "\x{2014}\x{2014}\x{2014}. \x{201c}The Professor and the Pterodactyl: An Untold Tale of Dr. Watson.\x{201d} Sherlock Holmes Journal 8, No. 1 (Winter 1966): <<14\x{2013}16|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 00:13] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 12\x{2013}13",
+            "Jordan, Anne. \x{201c}I am a Poor Man.\x{201d} In INTERIM REPORT 1990: THE PRIORY SCHOOL CONTRACT REVIEWED, edited by Philip Weller, <<12\x{2013}13|5a:0>>. Doncaster, England: Franco-Midland Hardware Company, 1990.",
+          ],
+          [
+            1,
+            "[ap 10:16] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 10\x{2013}16",
+            "Judson, Ralph. \x{201c}The Mystery of Baritsu: A Sidelight Upon Sherlock Holmes\x{2019}s Accomplishments.\x{201d} Baker Street Journal, Christmas Annual (1958): <<10\x{2013}16|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 00:16] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 12\x{2013}16",
+            "Kamil, Irving. \x{201c}The Priory School Map: A Re-Examination.\x{201d} Baker Street Journal 34, No. 1 (March 1984): <<12\x{2013}16|5a:0>>.",
+          ],
+          [
+            1,
+            "[15:16] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 15\x{2013}16",
+            "\x{2014}\x{2014}\x{2014}. \x{201c}Watson\x{2019}s Final Accounts?\x{201d} New Baker Street Pillar Box 22 (Spring 1995): <<15\x{2013}16|5a:0>>, and editor\x{2019}s response, <<16\x{2013}17|5a:0>>.",
+          ],
+          [
+            1,
+            "[23:26] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 23\x{2013}26",
+            "\x{2014}\x{2014}\x{2014}. \x{201c}The Writings of Sherlock Holmes.\x{201d} Baker Street West 1 3, No. 1 (Jan. 1997): <<23\x{2013}26|5a:0>>.",
+          ],
+          [
+            1,
+            "[18:20] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 18\x{2013}20",
+            "Koelle, John B. \x{201c}Random Thoughts on The Dancing Men.\x{201d} Baker Street Journal 16, No. 1 (March 1966): <<18\x{2013}20|5a:0>>.",
+          ],
+          [
+            1,
+            "[16:18] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 16\x{2013}18",
+            "Lai, Rick. \x{201c}Flashman and Colonel Moran.\x{201d} Wheelwrightings 12, No. 3 (Jan. 1990): <<16\x{2013}18|5a:0>>.",
+          ],
+          [
+            1,
+            "[16:36] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 16\x{2013}36",
+            "Leavitt, Robert K. \x{201c}Nummi in Arca, or the Fiscal Holmes.\x{201d} In 221B: STUDIES IN SHERLOCK HOLMES, edited by Vincent Starrett, <<16\x{2013}36|5a:0>>. New York: Macmillan Co., 1940.",
+          ],
+          [
+            1,
+            "[ap 07:10] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 7\x{2013}10",
+            "Levitt, Mark E. \x{201c}The Vatican File.\x{201d} Prescott\x{2019}s Press [N. S] 7 (Sept. 1990): <<7\x{2013}10|5a:0>>. Reprinted in Baker Street Journal 41, No. 4 (Dec.1991): 212\x{2013}214.",
+          ],
+          [
+            1,
+            "[ap 09:11] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 9\x{2013}11",
+            "Loper, Rev. Brant. \x{201c}The Blackguard Parson Who Married Violet\x{2014}He Must Have Been Mad.\x{201d} Canadian Holmes 5, No. 3 (Spring 1982): <<9\x{2013}11|5a:0>>.",
+          ],
+          [
+            1,
+            "[14:22] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 14\x{2013}22",
+            "Merrell, David W. \x{201c}An \x{2018}Unwonted Tidiness\x{2019}: Reichenbach Revealed.\x{201d} Baker Street Journal 52, No. 2 (Summer 2002): <<14\x{2013}22|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 07:12] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 7\x{2013}12",
+            "Merriman, Charles O. \x{201c}In Search of Sherlock Holmes.\x{201d} Sherlock Holmes Journal 8, No. 1 (Winter 1966): <<7\x{2013}12|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 07:14] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 7\x{2013}14",
+            "Metcalfe, N. P. \x{201c}Oxford or Cambridge or Both?\x{201d} Baker Street Journal, Christmas Annual (1956): <<7\x{2013}14|5a:0>>.",
+          ],
+          [
+            1,
+            "[19:20] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 19\x{2013}20",
+            "\x{2014}\x{2014}\x{2014}. \x{201c}The Proper Dress for Solitary Cyclists.\x{201d} Naval Signals 29 (Oct. 1992): <<19\x{2013}20|5a:0>>.",
+          ],
+          [
+            1,
+            "[16:24] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 16\x{2013}24",
+            "\x{2014}\x{2014}\x{2014}. \x{201c}The Second Most Dangerous Man in London.\x{201d} Baker Street Miscellanea (Autumn 1988): <<16\x{2013}24|5a:0>>.",
+          ],
+          [
+            1,
+            "[16:19] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 16\x{2013}19",
+            "Moorman, Ed. \x{201c}A Short But Interesting Visit.\x{201d} Baker Street Journal 43, No. 1 (March 1993): <<16\x{2013}19|5a:0>>.",
+          ],
+          [
+            1,
+            "[22:23] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 22\x{2013}23",
+            "Morton, Humphrey. \x{201c}A Long Drive to Hampstead.\x{201d} Sherlock Holmes Journal 5, No. 1 (Winter 1960): <<22\x{2013}23|5a:0>>.",
+          ],
+          [
+            1,
+            "[14:15] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 14\x{2013}15",
+            "\x{2014}\x{2014}\x{2014}. \x{201c}A Milvertonian Identification.\x{201d} Sherlock Holmes Journal 6, No. 1 (Winter 1962): <<14\x{2013}15|5a:0>>.",
+          ],
+          [
+            1,
+            "[14:21] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 14\x{2013}21",
+            "Naganuma, Kohki. \x{201c}Holmes and Communication.\x{201d} Baker Street Journal 21, No. 1 (March 1971): <<14\x{2013}21|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 09:15] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 9\x{2013}15",
+            "Olney, Professor Clarke. \x{201c}The Literacy of Sherlock Holmes.\x{201d} Sherlock Holmes Journal 2, No. 4 (Winter 1955): <<9\x{2013}15|5a:0>>.",
+          ],
+          [
+            1,
+            "[15:16] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 15\x{2013}16",
+            "Perceval, William. \x{201c}Sherlock Holmes and Air-Guns.\x{201d} Sherlock Holmes Journal 6, No. 1 (Winter 1962): <<15\x{2013}16|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 08:10] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 8\x{2013}10",
+            "Randall, Warren. \x{201c}A Silliness at the Empty House.\x{201d} Prescott\x{2019}s Press [N. S.], Souvenir Edition (Dec. 1988): <<8\x{2013}10|5a:0>>.",
+          ],
+          [
+            1,
+            "[17:18] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 17\x{2013}18",
+            "\x{2014}\x{2014}\x{2014}. \x{201c}La Tosca! Encore! Encore!\x{201d} Baker Street Miscellanea 8 (Dec. 1976): <<17\x{2013}18|5a:0>>.",
+          ],
+          [
+            1,
+            "[15:18] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 15\x{2013}18",
+            "Rosenblatt, Albert M. \x{201c}Divorce, Canonical Style: Checkmate.\x{201d} Baker Street Journal 35, No. 1 (March 1985): <<15\x{2013}18|5a:0>>.",
+          ],
+          [
+            1,
+            "[15:20] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 15\x{2013}20",
+            "\x{2014}\x{2014}\x{2014}. \x{201c}Some Latin Byways in the Canon.\x{201d} Baker Street Journal [O. S.] 3, No. 1 (Jan. 1948): <<15\x{2013}20|5a:0>>.",
+          ],
+          [
+            1,
+            "[22:27] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 22\x{2013}27",
+            "Sarjeant, William A. S. \x{201c}Mackleton Revisited and Found in the Peaks.\x{201d} Canadian Holmes 10, No. 4 (Summer 1987): <<22\x{2013}27|5a:0>>.",
+          ],
+          [
+            1,
+            "[15:24] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 15\x{2013}24",
+            "Saunders, Alan. \x{201c}Absurd Hieroglyphics: The Coded Messages in \x{201c}The Dancing Men.\x{201d} In ANNUAL REPORT 1997: THE DANCING MEN CONTRACT, edited by Philip Weller, <<15\x{2013}24|5a:0>>. Hampshire, England: Franco-Midland Hardware Company, 1997.",
+          ],
+          [
+            1,
+            "[19:21] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 19\x{2013}21",
+            "Shulman, David. \x{201c}The Origin of The Dancing Men.\x{201d} Baker Street Journal 23, No. 1 (March 1973): <<19\x{2013}21|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 10:11] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 10\x{2013}11",
+            "Smith, Red. \x{201c}Dear Me, Mr. Holmes.\x{201d} New York Herald Tribune, Jan. 14, 1953, 26. Reprinted in VIEWS OF SPORT, 188\x{2013}191. New York: Alfred A. Knopf, 1954, and Commonplace Book 1, No. 1 (Summer 1964): <<10\x{2013}11|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 10:11] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 10\x{2013}11",
+            "\x{2014}\x{2014}\x{2014}. \x{201c}The Nefarious Holmes.\x{201d} New York Herald Tribune, Jan. 13, 1953, 24. Reprinted in Commonplace Book 1, No. 1 (Summer 1964): <<10\x{2013}11|5a:0>>.",
+          ],
+          [
+            1,
+            "[19:20] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 19\x{2013}20",
+            "Stix, Thomas L. \x{201c}A Few Irreverent Remarks on The Second Stain.\x{201d} Sherlock Holmes Journal 6, No. 1 (Winter 1962): <<19\x{2013}20|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 01:12] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 1\x{2013}12",
+            "Thornton, John P. and Susan M. \x{201c}The Adventure of the Elusive Boundary Line: An Account of the Master\x{2019}s Encounter with Destiny in Central Asia.\x{201d} Little Bookshop at the Corner of Church Street Journal (1987): <<1\x{2013}12|5a:0>>.",
+          ],
+          [
+            1,
+            "[14:19] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 14\x{2013}19",
+            "VanValkenburgh, Norman J. \x{201c}The Old Shikari.\x{201d} Baker Street Journal 31, No. 1 (March 1981): <<14\x{2013}19|5a:0>>.",
+          ],
+          [
+            1,
+            "[00:25] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 24\x{2013}25",
+            "Waldeck, John. \x{201c}Windows on Baker Street.\x{201d} Mycroft\x{2019}s Messenger 27\x{2013}28 (Oct.-Dec. 1981): <<24\x{2013}25|5a:0>>. Expanded in TAILS OF THE GIANT RATS: SHERLOCKIAN MUSINGS BY THE GIANT RATS OF MASSILLON, edited by Hugh T. Harrington and Roy K. Preece, Jr., 50\x{2013}56. Massillon, Ohio: The Village Bookshelf, 1990.",
+          ],
+          [
+            1,
+            "[ap 05:10] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 5\x{2013}10",
+            "Yuichi, Hirayama. \x{201c}The More Deeply Sunk Impression.\x{201d} Nezire Zanmai International 1 (Sept. 1991): <<5\x{2013}10|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 00:14] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 12\x{2013}14",
+            "Allen, F. A., M.P.S. \x{201c}Devilish Drugs, Part One.\x{201d} May and Baker Pharmaceutical Bulletin, Dec. 1956. Reprinted in Sherlock Holmes Journal 3, No. 13 (Autumn 1957): <<12\x{2013}14|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 08:17] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 8\x{2013}17",
+            "Asimov, Isaac. \x{201c}The Problem of the Blundering Chemist.\x{201d} Science Digest 88 (1980), <<8\x{2013}17|5a:0>>.",
+          ],
+          [
+            1,
+            "[18:20] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 18\x{2013}20",
+            "Beckemeyer, Doyle W. \x{201c}The Irregular Holmes.\x{201d} Baker Street Journal 2, No. 1 (Jan. 1952): <<18\x{2013}20|5a:0>>.",
+          ],
+          [
+            1,
+            "[14:20] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 14\x{2013}20",
+            "Blake, S. F. \x{201c}Sherlock Holmes and the Italian Cipher.\x{201d} Baker Street Journal 9, No. 1 (Jan. 1959): <<14\x{2013}20|5a:0>>.",
+          ],
+          [
+            1,
+            "[18:20] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 18\x{2013}20",
+            "Blau, Peter. \x{201c} \x{2018}It Is An Old Manuscript.\x{2019} \x{201d} Baker Street Miscellanea 14 (June 1978): <<18\x{2013}20|5a:0>>.",
+          ],
+          [
+            1,
+            "[14:21] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 14\x{2013}21",
+            "Bonn, Ronald S. \x{201c}The Problem of the Postulated Doctor.\x{201d} Baker Street Journal 14, No. 1 (March 1964): <<14\x{2013}21|5a:0>>.",
+          ],
+          [
+            1,
+            "[00:31] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 24\x{2013}31",
+            "Clark, Edward F., Jr. \x{201c}Wisteria Lodge Revisited (A Model Cop, a Model Laundry Item, and a Not-So-Model Culinary Artist).\x{201d} Baker Street Journal 31, No. 1 (March 1981): <<24\x{2013}31|5a:0>>.",
+          ],
+          [
+            1,
+            "[16:23] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 16\x{2013}23",
+            "Crump, Norman. \x{201c}Inner or Outer Rail?\x{201d} Sherlock Holmes Journal 1, No. 1 (May 1952): <<16\x{2013}23|5a:0>>.",
+          ],
+          [
+            1,
+            "[23:26] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 23\x{2013}26",
+            "Cummings, Thayer. \x{201c}A Check on Lady Frances.\x{201d} Baker Street Journal 5, No. 3 (July 1955): 133\x{2013}138. Reprinted in Cummings, Thayer, SEVEN ON SHERLOCK, <<23\x{2013}26|5a:0>>. New York: Privately printed, 1968.",
+          ],
+          [
+            1,
+            "[21:33] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 21\x{2013}33",
+            "Davies, Bernard. \x{201c}The Ancient Cornish Language.\x{201d} In THE CORNISH HORROR, edited by Pamela Bruxner, <<21\x{2013}33|5a:0>>. London: Sherlock Holmes Society of London, 1997.",
+          ],
+          [
+            1,
+            "[ap 05:25] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 5\x{2013}25",
+            "\x{2014}\x{2014}\x{2014}. \x{201c}Ever-Decreasing Circles: A Slight Case of Railway Mania.\x{201d} Sherlock Holmes Railway Journal, 3 (1995): <<5\x{2013}25|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 01:29] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 1\x{2013}29",
+            "\x{2014}\x{2014}\x{2014}. \x{201c}Three Distressed Gentlewomen.\x{201d} A GAGGLE OF GOVERNESSES, edited by Pamela Bruxner, <<1\x{2013}29|5a:0>>. London: Sherlock Holmes Society of London, 1997.",
+          ],
+          [
+            1,
+            "[ap 10:16] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 10\x{2013}16",
+            "Davis, Norman M. \x{201c}The Adventure of the American Interlude.\x{201d} Baker Street Journal 33, No. 1 (March 1983): <<10\x{2013}16|5a:0>>.",
+          ],
+          [
+            1,
+            "[16:19] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 16\x{2013}19",
+            "Dickensheet, Dean W. \x{201c}On the Victorian Reticence of John H. Watson, M.D.,\x{201d} Baker Street Miscellanea 22 (Summer 1980): <<16\x{2013}19|5a:0>>, 38.",
+          ],
+          [
+            1,
+            "[ap 07:10] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 7\x{2013}10",
+            "Fraser, Cathy. \x{201c}A Singular Set of People: The Characters in \x{2018}Wisteria Lodge.\x{2019} \x{201d} In ANNUAL REPORT 1992: THE WISTERIA LODGE CONTRACT, edited by Philip Weller, <<7\x{2013}10|5a:0>>. Hampshire, England: Franco-Midland Hardware Company, 1992.",
+          ],
+          [
+            1,
+            "[14:15] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 14\x{2013}15",
+            "Gore-Booth, Paul, ed. \x{201c}The Bruce-Partington Keys.\x{201d} Sherlock Holmes Journal 2, No. 2 (Dec. 1954): <<14\x{2013}15|5a:0>>.",
+          ],
+          [
+            1,
+            "[18:22] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 18\x{2013}22",
+            "\x{2014}\x{2014}\x{2014}. \x{201c}The Twenty-Second Man.\x{201d} Baker Street Journal 38, No. 1 (March 1988): <<18\x{2013}22|5a:0>>.",
+          ],
+          [
+            1,
+            "[22:23] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 22\x{2013}23",
+            "Jordan, Anne. \x{201c}Outward Appearances Can Be Deceptive.\x{201d} In ANNUAL REPORT 1992: THE WISTERIA LODGE CONTRACT, edited by Philip Weller, <<22\x{2013}23|5a:0>>. Hampshire, England: Franco-Midland Hardware Company, 1992.",
+          ],
+          [
+            1,
+            "[21:23] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 21\x{2013}23",
+            "Katz, Robert S. \x{201c}It Is Horribly Contagious.\x{201d} Baker Street Miscellanea 59 (Fall 1989): <<21\x{2013}23|5a:0>>.",
+          ],
+          [
+            1,
+            "[22:25] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 22\x{2013}25",
+            "Lai, Rick. \x{201c}The Savage Reversion.\x{201d} Golden Perils 6, No. 4 (May 1986): <<22\x{2013}25|5a:0>>.",
+          ],
+          [
+            1,
+            "[18:24] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 18\x{2013}24",
+            "\x{2014}\x{2014}\x{2014}. \x{201c}The Tiger of Haiti.\x{201d} Wheelwrightings 8, No. 3 (Jan. 1986): <<18\x{2013}24|5a:0>>.",
+          ],
+          [
+            1,
+            "[23:24] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 23\x{2013}24",
+            "\x{2014}\x{2014}\x{2014}. \x{201c} \x{2018}Touch Him Where You Would He Was False.\x{2019} \x{201d} Baker Street Journal 38, No. 1 (March 1988): <<23\x{2013}24|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 05:15] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 5\x{2013}15",
+            "Morley, Christopher. \x{201c}Was Sherlock Holmes an American?\x{201d} In 221B: STUDIES IN SHERLOCK HOLMES, edited by Vincent Starrett, <<5\x{2013}15|5a:0>>. New York: Macmillan Co., 1940.",
+          ],
+          [
+            1,
+            "[00:30] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 24\x{2013}30",
+            "Nydell, Margaret (Omar), ed. \x{201c}On the Chaldean Influences in Cornish.\x{201d} Baker Street Journal 45, No. 1 (March 1993): <<24\x{2013}30|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 09:15] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 9\x{2013}15",
+            "Olney, Professor Clarke. \x{201c}The Literacy of Sherlock Holmes.\x{201d} Sherlock Holmes Journal 2, No. 4 (Winter 1955): <<9\x{2013}15|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 11:13] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 11\x{2013}13",
+            "Purvis, Mark Hunter. \x{201c}Was Holy Peters the Only Villain?\x{201d} In ANNUAL REPORT 1996: THE LADY CONTRACT, edited by Philip Weller, <<11\x{2013}13|5a:0>>. Hampshire, England: Franco-Midland Hardware Company, 1996.",
+          ],
+          [
+            1,
+            "[ap 05:19] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 5\x{2013}19",
+            "Rannie, J. Alan. \x{201c}The Railway Journeys of Mr. Sherlock Holmes.\x{201d} Railway Magazine 126 (May 1935): 316\x{2013}321. Reprinted in Sherlock Holmes Railway Journal 5 (1997): <<5\x{2013}19|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 09:12] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 9\x{2013}12",
+            "Redmond, Chris. \x{201c}The Crime of Culverton Smith.\x{201d} Wheelwrightings 11, No. 1 (May 1988): <<9\x{2013}12|5a:0>>.",
+          ],
+          [
+            1,
+            "[19:20] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 19\x{2013}20",
+            "Schweickert, William P. \x{201c}More Light on Wisteria Lodge.\x{201d} Canadian Holmes 12, No. 2 (Winter 1988): <<19\x{2013}20|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 10:12] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 10\x{2013}12",
+            "Sewell, Gordon. \x{201c}Holmes and Watson in the South Country.\x{201d} Southern Daily Echo, October 2, 1957. Reprinted in Sherlock Holmes Journal 3, No. 3 (Autumn 1957): <<10\x{2013}12|5a:0>>.",
+          ],
+          [
+            1,
+            "[13:15] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 13\x{2013}15",
+            "Stacpoole-Ryding, Richard. \x{201c}Undertaking Villainy.\x{201d} In INTERIM REPORT 1996: THE LADY CONTRACT REVIEWED, edited by Philip Weller, <<13\x{2013}15|5a:0>>. Hampshire, England: Franco-Midland Hardware Company, 1996.",
+          ],
+          [
+            1,
+            "[13:17] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 13\x{2013}17",
+            "Stajic, Marina, Ph.D. \x{201c}However Improbable . . . ,\x{201d} In THE CORNISH HORROR, edited by Pamela Bruxner, <<13\x{2013}17|5a:0>>. London: Sherlock Holmes Society of London, 1997.",
+          ],
+          [
+            1,
+            "[19:25] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 19\x{2013}25",
+            "\x{2014}\x{2014}\x{2014}. \x{201c}Taking Issue with Mr. Warrack.\x{201d} Baker Street Journal 48, No. 3 (Sept. 1998): <<19\x{2013}25|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 08:10] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 8\x{2013}10",
+            "Weber, John. \x{201c}A Carfax Excursus.\x{201d} In INTERIM REPORT 1996: THE LADY CONTRACT REVIEWED, edited by Philip Weller, <<8\x{2013}10|5a:0>>. Hampshire, England: Franco-Midland Hardware Company, 1996.",
+          ],
+          [
+            1,
+            "[ap 10:13] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 10\x{2013}13",
+            "\x{2014}\x{2014}\x{2014}. \x{201c}Wistful Locations.\x{201d} In INTERIM REPORT 1992: THE WISTERIA LODGE CONTRACT REVIEWED, edited by Philip Weller, <<10\x{2013}13|5a:0>>. Hampshire, England: Franco-Midland Hardware Company, 1992.",
+          ],
+          [
+            1,
+            "[18:23] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 18\x{2013}23",
+            "White, William Braid. \x{201c}Dr. Watson and the Peerage.\x{201d} Baker Street Journal [O. S.] 2, No. 1 (Jan. 1947): <<18\x{2013}23|5a:0>>.",
+          ],
+          [
+            1,
+            "[17:18] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 17\x{2013}18",
+            "Adams, Rev. Stephen. \x{201c}Holmes: A Student of London?\x{201d} Sherlock Holmes Journal 2, No. 4 (Winter 1955): <<17\x{2013}18|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 00:14] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 12\x{2013}14",
+            "Allen, F. A., M.P.S. \x{201c}Devilish Drugs, Part One.\x{201d} Sherlock Holmes Journal 3, No. 3 (Autumn 1957): <<12\x{2013}14|5a:0>>. Reprinted from the May and Baker Pharmaceutical Bulletin, Dec. 1956.",
+          ],
+          [
+            1,
+            "[15:22] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 15\x{2013}22",
+            "Asher, Dr. Richard. \x{201c}Holmes and the Fair Sex.\x{201d} Sherlock Holmes Journal 2, No. 3 (Summer 1955): <<15\x{2013}22|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 00:14] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 12\x{2013}14",
+            "Bigelow, S. Tupper. \x{201c}Sherlock Holmes and Chess.\x{201d} Sherlock Holmes Journal 4, No. 1 (Winter 1958): <<12\x{2013}14|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 08:10] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 8\x{2013}10",
+            "\x{2014}\x{2014}\x{2014}. \x{201c}It Is an Old Manuscript: The Adventure of the Second Chip.\x{201d} Baker Street Miscellanea 26 (Summer 1981): <<8\x{2013}10|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 05:13] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 5\x{2013}13",
+            "Bogomoletz, Wladimir V. \x{201c}The Case of the Two Coptic Patriarchs: A Reappraisal.\x{201d} Baker Street Journal 52, No. 2 (Summer 2002): <<5\x{2013}13|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 09:15] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 9\x{2013}15",
+            "Bond, Scott. \x{201c}The \x{2018}Dreadful\x{2019}Adventures of Charlie Peace.\x{201d} In A TOUCH OF THE CLASS, edited by Michael Kean, <<9\x{2013}15|5a:0>>. Wilmette, IL: Pondicherry Press, 1981.",
+          ],
+          [
+            1,
+            "[15:16] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 15\x{2013}16",
+            "Brodie, Robert N. \x{201c}A Prospect of Mincing Lane.\x{201d} Wheelwrightings 13, No. 2 (Sept. 1990): <<15\x{2013}16|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 09:15] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 9\x{2013}15",
+            "Brown, Richard. \x{201c}Rejuvenation Therapy: Historical Background to The Creeping Man.\x{201d} Canadian Holmes 9, No. 2 (Winter 1985): <<9\x{2013}15|5a:0>>.",
+          ],
+          [
+            1,
+            "[18:19] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 18\x{2013}19",
+            "Chorley, Jennifer. \x{201c}Goodly Volumes . . .\x{201d} Sherlock Holmes Journal 7, No. 4 (Spring 1966): <<18\x{2013}19|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 02:14] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 2\x{2013}14",
+            "Cirone, Nino. \x{201c}Watson: Victorian Pirate.\x{201d} In THE WINNING ESSAYS: THE DR. JOHN H. WATSON ANNUAL PRIZE ESSAY COMPETITION, 2001, <<2\x{2013}14|5a:0>>. Hertfordshire, England: Friends of Dr. Watson, 2002.",
+          ],
+          [
+            1,
+            "[14:15] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 14\x{2013}15",
+            "\x{2014}\x{2014}\x{2014}. \x{201c} \x{2018}The Singular Facts Connected with Professor Presbury.\x{2019} \x{201d} In THE DARK IS LIGHT ENOUGH, edited by Jonathan McCafferty, <<14\x{2013}15|5a:0>>. London: Sherlock Holmes Society of London, 1989.",
+          ],
+          [
+            1,
+            "[ap 03:32] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 3\x{2013}32",
+            "Davies, Bernard. \x{201c}The Members for Berkshire.\x{201d} In FETLOCKS, FEMURS AND PHALANGES, edited by Pamela Bruxner, <<3\x{2013}32|5a:0>>. London: Sherlock Holmes Society of London, 1995.",
+          ],
+          [
+            1,
+            "[ap 02:29] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 2\x{2013}29",
+            "\x{2014}\x{2014}\x{2014}. \x{201c}Three Distressed Gentlewomen.\x{201d} In A GAGGLE OF GOVERNESSES, edited by Pamela Bruxner, <<2\x{2013}29|5a:0>>. London: Sherlock Holmes Society of London, 1998.",
+          ],
+          [
+            1,
+            "[13:16] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 13\x{2013}16",
+            "Donegall, Lord. \x{201c}The Blanched Soldier, The Devil\x{2019}s Foot, and The Solitary Cyclist.\x{201d} Sherlock Holmes Journal 7, No. 1 (Winter 1964): <<13\x{2013}16|5a:0>>.",
+          ],
+          [
+            1,
+            "[22:27] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 22\x{2013}27",
+            "Dudley, W. E. \x{201c}Dr. Watson\x{2019}s Triple Play.\x{201d} Baker Street Journal 23, No. 1 (March 1973): <<22\x{2013}27|5a:0>>.",
+          ],
+          [
+            1,
+            "[23:25] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 23\x{2013}25",
+            "Fenton, Irving. \x{201c}On Friendship.\x{201d} Baker Street Journal 9, No. 1 (Jan. 1959): <<23\x{2013}25|5a:0>>.",
+          ],
+          [
+            1,
+            "[00:26] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 24\x{2013}26",
+            "\x{2014}\x{2014}\x{2014}. \x{201c}Seventeen Out of Twenty-Three.\x{201d} Baker Street Journal 14, No. 1 (March 1964), <<24\x{2013}26|5a:0>>.",
+          ],
+          [
+            1,
+            "[23:39] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 23\x{2013}39",
+            "Hall, Trevor H. \x{201c}The Book-Collector.\x{201d} In THE LATE MR. SHERLOCK HOLMES AND OTHER LITERARY STUDIES, <<23\x{2013}39|5a:0>>.",
+          ],
+          [
+            1,
+            "[18:35] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 18\x{2013}35",
+            "\x{2014}\x{2014}\x{2014}. \x{201c}The Early Years of Sherlock Holmes.\x{201d} In SHERLOCK HOLMES: TEN LITERARY STUDIES, <<18\x{2013}35|5a:0>>. New York: St. Martin\x{2019}s Press, 1970.",
+          ],
+          [
+            1,
+            "[13:22] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 13\x{2013}22",
+            "\x{2014}\x{2014}\x{2014}. \x{201c}Sherlock Holmes: Ascetic or Gourmet?\x{201d} In THE LATE MR. SHERLOCK HOLMES & OTHER LITERARY STUDIES. London, <<13\x{2013}22|5a:0>>. New York: St. Martin\x{2019}s Press, 1971.",
+          ],
+          [
+            1,
+            "[21:24] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 21\x{2013}24",
+            "Hammer, David L. \x{201c}A Second Case of Identity.\x{201d} Baker Street Miscellanea 43 (Autumn 1985): <<21\x{2013}24|5a:0>>.",
+          ],
+          [
+            1,
+            "[22:24] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 22\x{2013}24",
+            "Harbottle, S. T. L. \x{201c} \x{2018}My Charges are on a Fixed Scale . . . \x{2019}?\x{201d} Sherlock Holmes Journal 2, No. 1 (July 1954): <<22\x{2013}24|5a:0>>.",
+          ],
+          [
+            1,
+            "[22:23] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 22\x{2013}23",
+            "Hinrich, Derek. \x{201c}The Politician, the Lighthouse and the Trained Cormorant: An Hypothesis.\x{201d} Sherlock Holmes Journal 21, No. 1 (Winter 1992): <<22\x{2013}23|5a:0>>.",
+          ],
+          [
+            1,
+            "[23:26] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 23\x{2013}26",
+            "\x{2014}\x{2014}\x{2014}. \x{201c}The Three Real Garridebs.\x{201d} Baker Street Miscellanea 50 (Summer 1987): <<23\x{2013}26|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 05:11] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 5\x{2013}11",
+            "Hollyer, Cameron. \x{201c}Murk IV Meets Watson the Benedict.\x{201d} Canadian Holmes 7, No. 1 (Autumn 1983): <<5\x{2013}11|5a:0>>. Reprinted as \x{201c}How Many Wives Did Watson Wed? A Study in Computation,\x{201d} in CANADIAN HOLMES: THE FIRST TWENTY-FIVE YEARS, edited by Christopher Redmond, 69\x{2013}73. Ashcroft, B.C.: Calabash Press, 1997.",
+          ],
+          [
+            1,
+            "[15:20] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 15\x{2013}20",
+            "Hunt, A. Godfrey. \x{201c}An Essex Adventure.\x{201d} Sherlock Holmes Journal 21, No. 1 (Winter 1992): <<15\x{2013}20|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 09:12] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 9\x{2013}12",
+            "Hunter-Purvis, Mark. \x{201c}The Real Problem of Thor Bridge.\x{201d} In ANNUAL REPORT 1995: THE THOR BRIDGE CONTRACT, edited by Philip Weller, <<9\x{2013}12|5a:0>>. Hampshire, England: Franco-Midland Hardware Company, 1995.",
+          ],
+          [
+            1,
+            "[ap 09:19] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 9\x{2013}19",
+            "Hyder, William. \x{201c}The Martha Myth.\x{201d} Baker Street Journal 41, No. 1 (March 1991): <<9\x{2013}19|5a:0>>. Revised and expanded, \x{201c}The Martha Myth,\x{201d} in FROM BALTIMORE TO BAKER STREET, 126\x{2013}140. Toronto: Metropolitan Toronto Reference Library, 1995.",
+          ],
+          [
+            1,
+            "[19:22] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 19\x{2013}22",
+            "Jones, Bob. \x{201c} \x{2018}It Was From the Carlton Club.\x{2019} \x{201d} Baker Street Journal 33, No. 1 (March 1983): <<19\x{2013}22|5a:0>>.",
+          ],
+          [
+            1,
+            "[23:27] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 23\x{2013}27",
+            "\x{2014}\x{2014}\x{2014}. \x{201c}A Talent for Crime.\x{201d} Wheelwrightings 4, No. 3 (Jan. 1982): <<23\x{2013}27|5a:0>>.",
+          ],
+          [
+            1,
+            "[19:24] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 19\x{2013}24",
+            "Kaser, Michael C. \x{201c}Sherlock Holmes on the Continent.\x{201d} Baker Street Journal 6, No. 1 (Jan. 1956): <<19\x{2013}24|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 05:14] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 5\x{2013}14",
+            "Keefauver, Brad. \x{201c}He Must Have Been Lucky at Cards: One More Look at Watson\x{2019}s Wives.\x{201d} Wheelwrightings 10, No. 2 (Sept. 1987): <<5\x{2013}14|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 00:14] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 12\x{2013}14",
+            "\x{2014}\x{2014}\x{2014}. \x{201c}Paging Through the Canon.\x{201d} Wigmore Street Post Office Journal 12 (Summer 1998): <<12\x{2013}14|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 10:14] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 10\x{2013}14",
+            "Lai, Rick. \x{201c}Lowenstein\x{2019}s Other Client.\x{201d} Wheelwrightings 7, No. 3 (Jan. 1985): <<10\x{2013}14|5a:0>>.",
+          ],
+          [
+            1,
+            "[16:20] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 16\x{2013}20",
+            "Leonard, Patrick J., Sr. \x{201c}Thor Bridge\x{2014}A Mystery Remains.\x{201d} Prescott\x{2019}s Press [N. S.] 11 (Sept. 1991): <<16\x{2013}20|5a:0>>.",
+          ],
+          [
+            1,
+            "[20:25] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 20\x{2013}25",
+            "Leonard, William. \x{201c}Re: Vampires.\x{201d} Baker Street Journal, Christmas Annual (1957): <<20\x{2013}25|5a:0>>.",
+          ],
+          [
+            1,
+            "[21:24] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 21\x{2013}24",
+            "Marshall, Guy. \x{201c}The Horrendous Hiatus of Vanderbilt and the Yeggman.\x{201d} Sherlock Holmes Journal 15, No. 1 (Winter 1980): <<21\x{2013}24|5a:0>>.",
+          ],
+          [
+            1,
+            "[14:18] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 14\x{2013}18",
+            "McCallister, David R. \x{201c}Sherlock Holmes\x{2019}s \x{2018}Hated Rivals.\x{2019} \x{201d} Baker Street Miscellanea 72 (Winter 1992): <<14\x{2013}18|5a:0>>.",
+          ],
+          [
+            1,
+            "[22:23] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 22\x{2013}23",
+            "McCauley, Gordon. \x{201c}On Barker, the Rival.\x{201d} Canadian Holmes 7, No. 3 (Spring, 1984): <<22\x{2013}23|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 08:10] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 8\x{2013}10",
+            "McLaren, R. M. \x{201c}Doctor Watson\x{2014}Punter or Speculator?\x{201d} Sherlock Holmes Journal 1, No. 1 (May 1952): <<8\x{2013}10|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 07:12] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 7\x{2013}12",
+            "Merriman, Charles O. \x{201c}In Search of Sherlock Holmes.\x{201d} Sherlock Holmes Journal 8, No. 1 (Winter 1966): <<7\x{2013}12|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 07:14] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 7\x{2013}14",
+            "Metcalfe, N. P. \x{201c}Oxford or Cambridge or Both?\x{201d} Baker Street Journal, Christmas Annual (1956): <<7\x{2013}14|5a:0>>.",
+          ],
+          [
+            1,
+            "[23:26] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 23\x{2013}26",
+            "\x{2014}\x{2014}\x{2014}. \x{201c}The Rehabilitation of the Creeping Man.\x{201d} Baker Street Miscellanea 69 (Spring 1992): <<23\x{2013}26|5a:0>>.",
+          ],
+          [
+            1,
+            "[15:20] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 15\x{2013}20",
+            "\x{2014}\x{2014}\x{2014}. \x{201c}Watson \x{e0} la Mode.\x{201d} Baker Street Journal [O. S.] 1, No. 1 (Jan. 1946): <<15\x{2013}20|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 07:10] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 7\x{2013}10",
+            "Newton, G. B. \x{201c}Billy the Page.\x{201d} Sherlock Holmes Journal 2, No. 3 (Summer 1955): <<7\x{2013}10|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 01:14] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 1\x{2013}14",
+            "Niver, Harold. \x{201c}The Dracula Legend and the Sussex Vampire.\x{201d} Calabash 4 (Sept. 1983): <<1\x{2013}14|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 11:13] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 11\x{2013}13",
+            "\x{201c}Penang Lawyer, A.\x{201d} \x{201c}The Name\x{2019}s the Same.\x{201d} Sherlock Holmes Review 2, No. 1 (July 1954): <<11\x{2013}13|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 06:11] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 6\x{2013}11",
+            "Pennell, Vernon. \x{201c}A Resum\x{e9} of the Medical Life of John H. Watson, M.D., Late of the Army Medical Department.\x{201d} Sherlock Holmes Journal 3, No. 2 (Winter 1956): <<6\x{2013}11|5a:0>>.",
+          ],
+          [
+            1,
+            "[16:17] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 16\x{2013}17",
+            "Porter, Philip. \x{201c}The Inns and Outs of Cambridge.\x{201d} In THE DARK IS LIGHT ENOUGH, edited by Jonathan McCafferty, <<16\x{2013}17|5a:0>>. London: Sherlock Holmes Society of London, 1989.",
+          ],
+          [
+            1,
+            "[21:26] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 21\x{2013}26",
+            "Radford, John. \x{201c}The Strange Flight of Sherlock Holmes.\x{201d} Musgrave Papers 4 (1991): <<21\x{2013}26|5a:0>>.",
+          ],
+          [
+            1,
+            "[15:17] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 15\x{2013}17",
+            "Redmond, Christopher. \x{201c}Disease Grips Him After Night in Strange Bed: Notes on The Blanched Soldier,\x{201d} Canadian Holmes 8, No. 3 (Spring 1985): <<15\x{2013}17|5a:0>>.",
+          ],
+          [
+            1,
+            "[15:19] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 15\x{2013}19",
+            "\x{2014}\x{2014}\x{2014}. \x{201c}The Prosthesis Fixation of Dr. John H. Watson (Or: Stop, You\x{2019}re Pulling My Wooden Leg!).\x{201d} Canadian Holmes 5, No. 2 (Christmas 1981): <<15\x{2013}19|5a:0>>.",
+          ],
+          [
+            1,
+            "[18:20] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 18\x{2013}20",
+            "Reed, Linda J. \x{201c}A Private Matter.\x{201d} Wheelwrightings 9, No. 1 (May 1986): <<18\x{2013}20|5a:0>>.",
+          ],
+          [
+            1,
+            "[17:20] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 17\x{2013}20",
+            "Rhode, Franklin. \x{201c}Langdale Pike and Steve Dixie: Two Cases of Identity.\x{201d} Baker Street Journal 20, No. 1 (March 1970): <<17\x{2013}20|5a:0>>.",
+          ],
+          [
+            1,
+            "[ap 10:11] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 10\x{2013}11",
+            "Singleton, Paul. \x{201c}Notes on The Creeping Man.\x{201d} Prescott\x{2019}s Press [N.S.] 11 (Sept. 1991): <<10\x{2013}11|5a:0>>.",
+          ],
+          [
+            1,
+            "[21:24] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 21\x{2013}24",
+            "Swift, Wayne B. \x{201c}The Great Yellow Diamond.\x{201d} Baker Street Journal 29, No. 1 (March 1979): <<21\x{2013}24|5a:0>>.",
+          ],
+          [
+            1,
+            "[16:18] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 16\x{2013}18",
+            "Warner, Richard S. \x{201c}To Simpson\x{2014}A Canonical Hero.\x{201d} Baker Street Journal 32, No. 1 (March 1982): <<16\x{2013}18|5a:0>>.",
+          ],
+          [
+            1,
+            "[00:31] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 24\x{2013}31",
+            "Webster, H. T. \x{201c}Observations on Sherlock Holmes as an Athlete and Sportsman.\x{201d} Baker Street Journal [O. S.] 3, No. 1 (Jan. 1948): <<24\x{2013}31|5a:0>>.",
+          ],
+          [
+            1,
+            "[22:25] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0039_split_001.html) - 22\x{2013}25",
+            "Yuichi, Hirayama, and Mizuochi Masako. \x{201c}Another Solution of The Lion\x{2019}s Mane.\x{201d} Nezire Zanmai International 2 (1992): <<22\x{2013}25|5a:0>>.",
           ],
           [
             1,
@@ -1393,7 +2949,7 @@ Sherlock Holmes\x{2019} Chinese Society",
             1,
             '[00:01] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0041_split_001.html) - 0001',
             "P.O. Box 1, Canal Street Station
-New York, NY 10013-<<0001|18:0>>
+New York, NY 10013-<<0001|18:1>>
 Sherlock Holmes\x{2019} Varied Correspondents (sic)",
           ],
           [

@@ -66,11 +66,6 @@ The mouse ran down',
           ],
           [
             1,
-            '[ap ~ 03:00] Hickory Dickory Dock - Agatha Christie.epub (text/part0015.html) - about three',
-            "\x{201c}Yes. It seems they had an inquiry from Sheffield or Birmingham or somewhere. It had all been rather a scandal. Immoral earnings and all that sort of thing. He was had up about it in court later. Actually, he\x{2019}d only stayed here <<about three|9b>> or four days. Then I didn\x{2019}t like his behaviour, the way he was carrying on, so I told him that his room was engaged and that he\x{2019}d have to go. I wasn\x{2019}t really at all surprised when the police called. Of course, I couldn\x{2019}t tell them where he\x{2019}d gone to, but they got on his track all right.\x{201d}",
-          ],
-          [
-            1,
             "[ap < 06:00] Hickory Dickory Dock - Agatha Christie.epub (text/part0015.html) - just about six o\x{2019}clock",
             "\x{201c}Oh, I think most of the students had come back by that time. It was in the evening, you know, <<just about six o\x{2019}clock|6>>. I asked Geronimo about the bulbs and he said they\x{2019}d been taken out. I asked him why he hadn\x{2019}t replaced them and he said we were right out of electric bulbs. I was rather annoyed as it seemed such a silly pointless joke. I thought of it as a joke, not as stealing, but I was rather surprised that we had no more electric bulbs because we usually keep quite a good supply in stock. Still, I didn\x{2019}t take it seriously, M. Poirot, not at that time.\x{201d}",
           ],
@@ -120,7 +115,7 @@ The mouse ran down',
             1,
             '[ap > 06:00] Hickory Dickory Dock - Agatha Christie.epub (text/part0019.html) - After six',
             "\x{201c}She came back while the news was going on.\x{201d}
-\x{201c}<<After six|9e>>, then?\x{201d}
+\x{201c}<<After six|9:0>>, then?\x{201d}
 \x{201c}Yes, sir.\x{201d}",
           ],
           [

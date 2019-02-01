@@ -97,7 +97,7 @@ $VAR1 = [
           [
             1,
             '[10:00] The Lovely Bones - Alice Sebold.epub (OEBPS/LovelyBones_chap-16.html) - ten in the morning',
-            'My father did a sanity check, staring at her. He was still in his robe and it was almost ninety degrees at <<ten in the morning|9a>>,
+            'My father did a sanity check, staring at her. He was still in his robe and it was almost ninety degrees at <<ten in the morning|5>>,
          but she had pantyhose and makeup on. Then he noticed Hal in an undershirt out in the yard.',
           ],
           [
@@ -139,7 +139,7 @@ $VAR1 = [
           [
             1,
             '[ap 04:00] The Lovely Bones - Alice Sebold.epub (OEBPS/LovelyBones_chap-2.html) - four',
-            'At <<four|9e>>, my mother and father ended up standing in the same room downstairs. They had come in from opposite doorways.',
+            'At <<four|9m:0>>, my mother and father ended up standing in the same room downstairs. They had come in from opposite doorways.',
           ],
           [
             1,
@@ -152,7 +152,7 @@ The house asleep by then; this was my <<Evensong|13>>.
           [
             1,
             '[ap > 10:00] The Lovely Bones - Alice Sebold.epub (OEBPS/LovelyBones_chap-20.html) - after ten',
-            "It was late now, <<after ten|9e>>, and she took an empty elevator to the fifth floor, where the hall lights had been dimmed. She passed
+            "It was late now, <<after ten|9:1>>, and she took an empty elevator to the fifth floor, where the hall lights had been dimmed. She passed
          the nurses\x{2019} station, behind which two nurses were quietly gossiping. She could hear the lilt and glee of nuanced rumors being
          exchanged between them, the sound of easy intimacy in the air. Then, just as one nurse was unable to suppress a high-pitched
          laugh, my mother opened my father\x{2019}s door and let it swing shut again.",

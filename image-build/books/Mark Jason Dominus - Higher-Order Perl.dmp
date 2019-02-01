@@ -170,7 +170,7 @@ Doubling 4
 Doubling 8
 16 Doubling 1
 ...
-    The show() method starts by printing the head of the stream, which is <<1|9f>>. Then it goes to get the tail, using the tail() method:',
+    The show() method starts by printing the head of the stream, which is <<1|9c:0>>. Then it goes to get the tail, using the tail() method:',
           ],
           [
             1,
@@ -182,7 +182,7 @@ Doubling 8
   }
   $s->[1];
 }
-    Since the tail is a promise, this forces the promise, which calls transform {...} $powers_of_2. transform() gets the head of $powers_of_2, which is <<1|9f>>, and doubles it, yielding a stream whose head is 2 and whose tail is a promise to double the rest of the elements of $powers_of_2. This stream is the tail of $powers_of_2, and show() prints its head, which is <<2|9f>>.',
+    Since the tail is a promise, this forces the promise, which calls transform {...} $powers_of_2. transform() gets the head of $powers_of_2, which is <<1|9c:0>>, and doubles it, yielding a stream whose head is 2 and whose tail is a promise to double the rest of the elements of $powers_of_2. This stream is the tail of $powers_of_2, and show() prints its head, which is <<2|9c:0>>.',
           ],
           [
             1,

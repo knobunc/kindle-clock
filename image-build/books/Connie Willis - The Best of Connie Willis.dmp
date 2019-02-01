@@ -7,7 +7,7 @@ $VAR1 = [
           [
             1,
             '[ap 07:30] The Best of Connie Willis_ Award-Winning S - Connie Willis.epub (index_split_006.html) - 7:30',
-            "Thursday, <<7:30|2>>\x{2013}9 P.M. Opening Ceremonies. Dr. Halvard Onofrio, University of Maryland at College Park, will speak on the topic, \x{201c}Doubts Surrounding the Heisenberg Uncertainty Principle.\x{201d} Ballroom.I finally got my room at five-thirty after Tiffany went off duty. Till then I sat around the lobby with Dr. Whedbee, listening to Abey Fields complain about Hollywood.",
+            "Thursday, <<7:30|2>>\x{2013}<<9 P.M.|5>> Opening Ceremonies. Dr. Halvard Onofrio, University of Maryland at College Park, will speak on the topic, \x{201c}Doubts Surrounding the Heisenberg Uncertainty Principle.\x{201d} Ballroom.I finally got my room at five-thirty after Tiffany went off duty. Till then I sat around the lobby with Dr. Whedbee, listening to Abey Fields complain about Hollywood.",
           ],
           [
             1,
@@ -33,8 +33,23 @@ $VAR1 = [
           ],
           [
             1,
+            "[21:10] The Best of Connie Willis_ Award-Winning S - Connie Willis.epub (index_split_006.html) - 9\x{2013}10 P.M.",
+            "Thursday, <<9\x{2013}10 P.M.|5a:0>> \x{201c}The Science of Chaos.\x{201d} I. Durcheinander, University of Leipzig. A seminar on the structure of chaos. Principles of chaos will be discussed, including the butterfly effect, fractals, and insolid billowing. Clara Bow Room.I couldn\x{2019}t find the chaos seminar. The Clara Bow Room, where it was supposed to be, was empty. A meeting of vegetarians was next door in the Fatty Arbuckle Room, and all the other conference rooms were locked. The channeler was still in the ballroom. \x{201c}Come!\x{201d} she commanded when I opened the door. \x{201c}Understanding awaits!\x{201d}",
+          ],
+          [
+            1,
             "[ap 09:00] The Best of Connie Willis_ Award-Winning S - Connie Willis.epub (index_split_006.html) - nine o\x{2019}clock",
             "The programming started at <<nine o\x{2019}clock|6>> with Abey Fields\x{2019}s Wonderful World workshop in the Mary Pickford Room, a breakfast buffet in the ballroom, and a slide presentation on \x{201c}Delayed Choice Experiments\x{201d} in Cecil B. DeMille A on the mezzanine level.",
+          ],
+          [
+            1,
+            '[12:00] The Best of Connie Willis_ Award-Winning S - Connie Willis.epub (index_split_006.html) - noon',
+            "The breakfast buffet sounded wonderful, even though it always turns out to be urn coffee and donuts. I hadn\x{2019}t had anything but an ice cream cone since <<noon|13>> the day before, but if David were around, he would be somewhere close to the food, and I wanted to steer clear of him. Last night it had been Grauman\x{2019}s Chinese. Today I was likely to end up at Knott\x{2019}s Berry Farm. I wasn\x{2019}t going to let that happen, even if he was charming.",
+          ],
+          [
+            1,
+            "[21:10] The Best of Connie Willis_ Award-Winning S - Connie Willis.epub (index_split_006.html) - 9\x{2013}10 P.M.",
+            "Friday, <<9\x{2013}10 P.M.|5a:0>> \x{201c}The Eureka Experiment: A Slide Presentation.\x{201d} J. Lvov, Eureka College. Descriptions, results, and conclusions of Lvov\x{2019}s delayed conscious/randomized choice experiments. Cecil B. DeMille A.Dr. Whedbee eventually came in carrying an overhead projector, the cord trailing behind him. He plugged it in. The light didn\x{2019}t go on.",
           ],
           [
             1,
@@ -350,7 +365,7 @@ Kildy nodded. \x{201c}I\x{2019}ll be there, but I don\x{2019}t know if Rob\x{201
           [
             1,
             '[ap 11:00] The Best of Connie Willis_ Award-Winning S - Connie Willis.epub (index_split_020.html) - eleven',
-            "\x{201c}I\x{2019}m rehearsing it with Trinity Episcopal\x{2019}s choir at <<eleven|9a>> tomorrow if you want to come and run through it with us.\x{201d}",
+            "\x{201c}I\x{2019}m rehearsing it with Trinity Episcopal\x{2019}s choir at <<eleven|3b>> tomorrow if you want to come and run through it with us.\x{201d}",
           ],
           [
             1,
@@ -360,7 +375,7 @@ Kildy nodded. \x{201c}I\x{2019}ll be there, but I don\x{2019}t know if Rob\x{201
           [
             1,
             '[ap 11:00] The Best of Connie Willis_ Award-Winning S - Connie Willis.epub (index_split_020.html) - eleven',
-            "\x{201c}Choir directors never sleep in December,\x{201d} he said cheerfully, \x{201c}and what I was going to say was that I\x{2019}m free in between rehearsals and till <<eleven|9a>> tomorrow morning. How early can you get the Altairi?\x{201d}",
+            "\x{201c}Choir directors never sleep in December,\x{201d} he said cheerfully, \x{201c}and what I was going to say was that I\x{2019}m free in between rehearsals and till <<eleven|3b>> tomorrow morning. How early can you get the Altairi?\x{201d}",
           ],
           [
             1,
@@ -450,7 +465,7 @@ Kildy nodded. \x{201c}I\x{2019}ll be there, but I don\x{2019}t know if Rob\x{201
             1,
             '[05:00] The Best of Connie Willis_ Award-Winning S - Connie Willis.epub (index_split_026.html) - five in the morning',
             "and I watched Season One in one fell swoop
-and then called my daughter at <<five in the morning|9a>>\x{2014}
+and then called my daughter at <<five in the morning|5>>\x{2014}
 and she lives in California, so it was four there\x{2014}",
           ],
         ];

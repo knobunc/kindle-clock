@@ -17,7 +17,7 @@ $VAR1 = [
           [
             1,
             '[ap 02:00] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0006.html) - 2',
-            "Here\x{2019}s a systematic way discovered by the ancient Greeks that is very effective at finding small primes. The task is to find an efficient method that will knock out all the nonprimes. Write down the numbers from 1 to 100. Start by striking out number 1. (As I have mentioned, though the Greeks believed 1 to be prime, in the twenty-first century, we no longer consider it to be.) Move to the next number, which is <<2|9f>>. This is the first prime. Now strike out every second number after 2. This effectively knocks out everything in the 2 times table, eliminating all the even numbers except for 2. Mathematicians like to joke that 2 is the odd prime because it\x{2019}s the only even prime . . . but perhaps humor isn\x{2019}t a mathematician\x{2019}s strong point.",
+            "Here\x{2019}s a systematic way discovered by the ancient Greeks that is very effective at finding small primes. The task is to find an efficient method that will knock out all the nonprimes. Write down the numbers from 1 to 100. Start by striking out number 1. (As I have mentioned, though the Greeks believed 1 to be prime, in the twenty-first century, we no longer consider it to be.) Move to the next number, which is <<2|9c:1>>. This is the first prime. Now strike out every second number after 2. This effectively knocks out everything in the 2 times table, eliminating all the even numbers except for 2. Mathematicians like to joke that 2 is the odd prime because it\x{2019}s the only even prime . . . but perhaps humor isn\x{2019}t a mathematician\x{2019}s strong point.",
           ],
           [
             1,
@@ -72,7 +72,7 @@ $VAR1 = [
           [
             1,
             '[ap 01:26] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0007.html) - 1.26',
-            'The curious thing is that if you apply this procedure to the fractal coastline we constructed earlier in the chapter, when we halve the grid size of the graph paper, the number of squares that contain part of the coastline goes up by a factor of approximately 2. So from this perspective, the dimension of the mathematical coastline we constructed deserves to be called <<1.26|9f>>. We have thus created a new definition of dimension.',
+            'The curious thing is that if you apply this procedure to the fractal coastline we constructed earlier in the chapter, when we halve the grid size of the graph paper, the number of squares that contain part of the coastline goes up by a factor of approximately 2. So from this perspective, the dimension of the mathematical coastline we constructed deserves to be called <<1.26|5a:0>>. We have thus created a new definition of dimension.',
           ],
           [
             1,
@@ -195,7 +195,7 @@ Now, 5 is prime, and if I calculate 2 to the power of 5 on a five-hour clock cal
           [
             1,
             '[ap 07:00] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0009.html) - 7',
-            "Let\x{2019}s look at the Internet code in action, but with very small p and q so that we can easily follow what\x{2019}s going on. We\x{2019}ll say that for his soccer-shirt website, Bob has chosen the primes 3 and 11, so that the public clock calculator that customers must use to encrypt their credit card number has 33 hours on it. Bob keeps the primes 3 and 11 secret because they are the key to decoding messages, though he makes the number 33 public because this is the number of hours on his public clock calculator. The second piece of information made public on Bob\x{2019}s website is the encoding number E \x{2014}let\x{2019}s say it\x{2019}s <<7|9f>>. Everyone who buys a shirt from Bob online is doing exactly the same thing: raising their credit card number to the power 7 on a 33-hour clock calculator.",
+            "Let\x{2019}s look at the Internet code in action, but with very small p and q so that we can easily follow what\x{2019}s going on. We\x{2019}ll say that for his soccer-shirt website, Bob has chosen the primes 3 and 11, so that the public clock calculator that customers must use to encrypt their credit card number has 33 hours on it. Bob keeps the primes 3 and 11 secret because they are the key to decoding messages, though he makes the number 33 public because this is the number of hours on his public clock calculator. The second piece of information made public on Bob\x{2019}s website is the encoding number E \x{2014}let\x{2019}s say it\x{2019}s <<7|9c:1>>. Everyone who buys a shirt from Bob online is doing exactly the same thing: raising their credit card number to the power 7 on a 33-hour clock calculator.",
           ],
           [
             1,

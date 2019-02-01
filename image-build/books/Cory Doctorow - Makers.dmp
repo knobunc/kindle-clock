@@ -67,7 +67,7 @@ $VAR1 = [
           [
             1,
             '[02:00] Makers - Cory Doctorow.epub (index_split_005.html) - two in the morning',
-            "He shook his head. \x{201c}It\x{2019}s your funeral,\x{201d} he said. \x{201c}Jet-lag is way worse for you than this stuff. It\x{2019}s over the counter stateside. I don\x{2019}t leave home without it. Anyway, I\x{2019}m in room 1422. If it\x{2019}s <<two in the morning|9a>> and you\x{2019}re staring at the ceiling and regretting it, call me and I\x{2019}ll send some down.\x{201d}",
+            "He shook his head. \x{201c}It\x{2019}s your funeral,\x{201d} he said. \x{201c}Jet-lag is way worse for you than this stuff. It\x{2019}s over the counter stateside. I don\x{2019}t leave home without it. Anyway, I\x{2019}m in room 1422. If it\x{2019}s <<two in the morning|5>> and you\x{2019}re staring at the ceiling and regretting it, call me and I\x{2019}ll send some down.\x{201d}",
           ],
           [
             1,
@@ -82,7 +82,7 @@ $VAR1 = [
           [
             1,
             '[02:00] Makers - Cory Doctorow.epub (index_split_006.html) - two in the morning',
-            'He was thirty four years old, he was single and childless, and he was eating an ice-cream in a deserted truck-stop at <<two in the morning|9a>> by the side of a freeway in south Florida. He bossed a low-budget tourist attraction and he ran a pirate flea-market.',
+            'He was thirty four years old, he was single and childless, and he was eating an ice-cream in a deserted truck-stop at <<two in the morning|5>> by the side of a freeway in south Florida. He bossed a low-budget tourist attraction and he ran a pirate flea-market.',
           ],
           [
             1,
@@ -107,7 +107,7 @@ $VAR1 = [
           [
             1,
             '[02:00] Makers - Cory Doctorow.epub (index_split_006.html) - 2AM',
-            "\x{201c}It\x{2019}s still mid-afternoon, but my circadian thinks it\x{2019}s <<2AM|5>>. I need to do something to stay awake or I\x{2019}ll be up at <<four|9a>> tomorrow morning.\x{201d}",
+            "\x{201c}It\x{2019}s still mid-afternoon, but my circadian thinks it\x{2019}s <<2AM|5>>. I need to do something to stay awake or I\x{2019}ll be up at <<four|3b>> tomorrow morning.\x{201d}",
           ],
           [
             1,
@@ -124,7 +124,7 @@ $VAR1 = [
           [
             1,
             '[06:00] Makers - Cory Doctorow.epub (index_split_007.html) - six in the morning',
-            "\x{201c}At <<six in the morning|9a>>? Come on, you\x{2019}ve got hours yet before you have to be at work. How about you and Lester meet us at the IHOP?\x{201d}",
+            "\x{201c}At <<six in the morning|5>>? Come on, you\x{2019}ve got hours yet before you have to be at work. How about you and Lester meet us at the IHOP?\x{201d}",
           ],
           [
             1,
@@ -154,12 +154,12 @@ $VAR1 = [
           [
             1,
             '[ap 03:00] Makers - Cory Doctorow.epub (index_split_008.html) - three',
-            "He started to worry about whether he was going to get a lunch break by about two, and by <<three|9e>> he was starving. Luckily that\x{2019}s when Lester came back. He thanked Death profusely, which was nice, but he didn\x{2019}t ask Death to come back the next day.",
+            "He started to worry about whether he was going to get a lunch break by about two, and by <<three|9:0>> he was starving. Luckily that\x{2019}s when Lester came back. He thanked Death profusely, which was nice, but he didn\x{2019}t ask Death to come back the next day.",
           ],
           [
             1,
             '[ap 10:00] Makers - Cory Doctorow.epub (index_split_008.html) - ten',
-            "Lester clearly caught some of that, for he thought some more and then waved his hands. \x{201c}Screw her anyway. Meet me here at <<ten|9a>> tomorrow. You\x{2019}re in.\x{201d}",
+            "Lester clearly caught some of that, for he thought some more and then waved his hands. \x{201c}Screw her anyway. Meet me here at <<ten|3b>> tomorrow. You\x{2019}re in.\x{201d}",
           ],
           [
             1,
@@ -178,13 +178,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap < 09:00] Makers - Cory Doctorow.epub (index_split_008.html) - just before nine',
-            "The first customers arrived <<just before nine|10>>\x{2014}an East Indian family driving a car with Texas plates. Dad wore khaki board-shorts and a tank-top and leather sandals, Mom was in a beautiful silk sari, and the kids looked like mall-bangbangers in designer versions of the stuff the wild kids in the shantytown went around in.",
-          ],
-          [
-            1,
             '[13:00] Makers - Cory Doctorow.epub (index_split_009.html) - one in the afternoon',
-            "He cleared the castle and stood for a moment at the brink of Fantasyland. It should be impossible to stand here at <<one in the afternoon|9a>>\x{2014}there should be busy rushes of people pushing past to get on the rides and to eat and to buy stuff, but now there were just a few kids in eyeliner puffing cloves in smokeless hookahs and a wasteland of hoardings painted a shade Imagineering called \x{201c}go-away green\x{201d} for its ability to make the eye slide right past it.",
+            "He cleared the castle and stood for a moment at the brink of Fantasyland. It should be impossible to stand here at <<one in the afternoon|5>>\x{2014}there should be busy rushes of people pushing past to get on the rides and to eat and to buy stuff, but now there were just a few kids in eyeliner puffing cloves in smokeless hookahs and a wasteland of hoardings painted a shade Imagineering called \x{201c}go-away green\x{201d} for its ability to make the eye slide right past it.",
           ],
           [
             1,
@@ -194,7 +189,7 @@ $VAR1 = [
           [
             1,
             '[04:00] Makers - Cory Doctorow.epub (index_split_009.html) - four in the morning',
-            "There was no one he could tell about this. Sure, there were chat-rooms with 24/7 chatter from Disney freaks, but he didn\x{2019}t much want to chat with them. Some of his friends would still be up and tweaking, but Christ, who wanted to IM with a speed freak at <<four in the morning|9a>>? His typing was down to less than 30 wpm, and he couldn\x{2019}t keep it up for long. What he really wanted was to talk to someone about this.",
+            "There was no one he could tell about this. Sure, there were chat-rooms with 24/7 chatter from Disney freaks, but he didn\x{2019}t much want to chat with them. Some of his friends would still be up and tweaking, but Christ, who wanted to IM with a speed freak at <<four in the morning|5>>? His typing was down to less than 30 wpm, and he couldn\x{2019}t keep it up for long. What he really wanted was to talk to someone about this.",
           ],
           [
             1,
@@ -204,7 +199,7 @@ $VAR1 = [
           [
             1,
             '[05:00] Makers - Cory Doctorow.epub (index_split_009.html) - five in the morning',
-            "His roommates stirred and one of them must have pushed the nurse call button, because shortly thereafter, the formidable Ukrainian nurse came in and savagely told him off for disturbing the ward at <<five in the morning|9a>>. Perry heard and said his goodbyes, like they were old pals who\x{2019}d chatted too long, and Death Waits rang off and fell into a light doze, grinning like a maniac.",
+            "His roommates stirred and one of them must have pushed the nurse call button, because shortly thereafter, the formidable Ukrainian nurse came in and savagely told him off for disturbing the ward at <<five in the morning|5>>. Perry heard and said his goodbyes, like they were old pals who\x{2019}d chatted too long, and Death Waits rang off and fell into a light doze, grinning like a maniac.",
           ],
           [
             1,
@@ -239,12 +234,12 @@ $VAR1 = [
           [
             1,
             "[ap 00:00] Makers - Cory Doctorow.epub (index_split_010.html) - twelve o\x{2019}clock",
-            "She looked at the lake. At <<twelve o\x{2019}clock|6>>, the main gates of the Magic Kingdom; at <<three|9e>>, the retro A-frame Contemporary hotel, at <<nine|9e>>, the wedding-cake Grand Floridian Resort.",
+            "She looked at the lake. At <<twelve o\x{2019}clock|6>>, the main gates of the Magic Kingdom; at <<three|9m:1>>, the retro A-frame Contemporary hotel, at <<nine|9:1>>, the wedding-cake Grand Floridian Resort.",
           ],
           [
             1,
             '[01:00] Makers - Cory Doctorow.epub (index_split_010.html) - one in the morning',
-            'It was <<one in the morning|9a>> and he was exhausted. And Hackelberg was going to sue.',
+            'It was <<one in the morning|5>> and he was exhausted. And Hackelberg was going to sue.',
           ],
           [
             1,

@@ -17,7 +17,7 @@ $VAR1 = [
           [
             1,
             '[ap 09:55] The Paradise Mystery - J. S. Fletcher.epub (tprdm_split_000.htm) - five minutes to ten',
-            "\"As near as I can reckon, it would be <<five minutes to ten|10>>,\" answered Mr. Folliot. \"I put it at that because I'd gone in for the morning service, which is at <<ten|9f>>. I saw him go up the inside stair to the clerestory gallery\x{2014}he was looking about him. <<Five minutes to ten|10>>\x{2014}and it must have happened immediately afterwards.\"",
+            "\"As near as I can reckon, it would be <<five minutes to ten|10>>,\" answered Mr. Folliot. \"I put it at that because I'd gone in for the morning service, which is at <<ten|9f>>. I saw him go up the inside stair to the clerestory gallery\x{2014}he was looking about him. Five minutes to ten\x{2014}and it must have happened immediately afterwards.\"",
           ],
           [
             1,
@@ -88,6 +88,11 @@ $VAR1 = [
           ],
           [
             1,
+            '[ap 01:15] The Paradise Mystery - J. S. Fletcher.epub (tprdm_split_000.htm) - quarter past one',
+            "Lunch in the Ransford menage was an informal meal. At a <<quarter past one|10>> every day, it was on the table\x{2014}a cold lunch to which the three members of the household helped themselves as they liked, independent of the services of servants. Sometimes all three were there at the same moment; sometimes Ransford was half an hour late; the one member who was always there to the moment was Dick Bewery, who fortified himself sedulously after his morning's school labours. On this particular day all three met in the dining-room at once, and sat down together. And before Dick had eaten many mouthfuls of a cold pie to which he had just liberally helped himself he bent confidentially across the table towards his guardian.",
+          ],
+          [
+            1,
             '[ap < 10:00] The Paradise Mystery - J. S. Fletcher.epub (tprdm_split_000.htm) - a little before ten',
             "\"Mrs. Deramore,\" replied Dick promptly. \"She says she saw him go away from the house and across the Close, <<a little before ten|9:0>>. So Jim Deramore says, anyway\x{2014}and he says his mother's eyes are as good as another's.\"",
           ],
@@ -109,7 +114,7 @@ $VAR1 = [
           [
             1,
             '[10:00] The Paradise Mystery - J. S. Fletcher.epub (tprdm_split_000.htm) - ten this morning',
-            "\"Dr. Ransford's not at home,\" said Dick. \"He went to Highminster\x{2014}some County Council business or other\x{2014}at <<ten this morning|9a>>, and he won't be back until four\x{2014}I happen to know that. Shall I run for Dr. Coates?\"",
+            "\"Dr. Ransford's not at home,\" said Dick. \"He went to Highminster\x{2014}some County Council business or other\x{2014}at <<ten this morning|5>>, and he won't be back until four\x{2014}I happen to know that. Shall I run for Dr. Coates?\"",
           ],
           [
             1,
@@ -229,13 +234,8 @@ Ransford offered no suggestion. He sat silently waiting, until the parlourmaid e
           ],
           [
             1,
-            '[ap 01:00] The Paradise Mystery - J. S. Fletcher.epub (tprdm_split_001.htm) - one',
-            'Bryce arrived here at <<one|9b>> of his critical stages, and he paused a moment in order to choose his words.',
-          ],
-          [
-            1,
             '[12:00] The Paradise Mystery - J. S. Fletcher.epub (tprdm_split_001.htm) - noon',
-            "\"No, I'm sure he didn't!\" answered Glassdale, readily. \"If he had, I should have known. I was with him till <<noon|3j>> the day he came here\x{2014}in London\x{2014}and when he took his ticket at Victoria for Wrychester, he'd no more idea than the man in the moon as to where those men had got to. He mentioned it as we were having a bit of lunch together before he got into the train. No\x{2014}he didn't come to Wrychester for any such purpose as that! But\x{2014}\"",
+            "\"No, I'm sure he didn't!\" answered Glassdale, readily. \"If he had, I should have known. I was with him till <<noon|13>> the day he came here\x{2014}in London\x{2014}and when he took his ticket at Victoria for Wrychester, he'd no more idea than the man in the moon as to where those men had got to. He mentioned it as we were having a bit of lunch together before he got into the train. No\x{2014}he didn't come to Wrychester for any such purpose as that! But\x{2014}\"",
           ],
           [
             1,

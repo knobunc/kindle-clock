@@ -60,7 +60,7 @@ No original manuscripts by Euclid survive (although his book became one of the m
           [
             1,
             '[ap 03:00] The Annotated Flatland_ A Romance of Many - Ian Stewart.epub (OEBPS/9780786721832_ps_Part33.xhtml) - 3',
-            "The two-dimensional case is also exceptional: Here there are infinitely many regular \x{201c}solids\x{201d}\x{2014} namely, the regular polygons. And in one dimension the only regular \x{201c}solid\x{201d} is a line segment. Hence in dimensions 1, 2, 3, 4 the number of regular \x{201c}solids\x{201d} is 1,  \x{221e} (infinity), 5, 6; and in all higher dimensions it is <<3|9f>>. These numbers show that not all properties of n-dimensional space can be found by simple analogies with space of two and three dimensions. More strongly, they hint at a fact that mathematicians have come to expect: Each dimension of space has its own special features, unlike any other dimension. As well as having many other features that are common to most or all dimensions, of course.",
+            "The two-dimensional case is also exceptional: Here there are infinitely many regular \x{201c}solids\x{201d}\x{2014} namely, the regular polygons. And in one dimension the only regular \x{201c}solid\x{201d} is a line segment. Hence in dimensions 1, 2, 3, 4 the number of regular \x{201c}solids\x{201d} is 1,  \x{221e} (infinity), 5, 6; and in all higher dimensions it is <<3|9c:0>>. These numbers show that not all properties of n-dimensional space can be found by simple analogies with space of two and three dimensions. More strongly, they hint at a fact that mathematicians have come to expect: Each dimension of space has its own special features, unlike any other dimension. As well as having many other features that are common to most or all dimensions, of course.",
           ],
           [
             1,
@@ -114,5 +114,10 @@ The first case implies the Parallel Axiom. Saccheri investigated the second case
             1,
             '[ap ~ 10:23] The Annotated Flatland_ A Romance of Many - Ian Stewart.epub (OEBPS/9780786721832_ps_Part37.xhtml) - approximately 1023',
             "To illustrate the value of geometric imagery, let\x{2019}s see whether we can gain some insight into the enormous variability of viruses. They mutate very frequently, and most viruses occur in a wide variety of different forms. Where does all this variety come from? We\x{2019}ve just seen that a single mutation in a virus\x{2019}s DNA leads to a neighboring sequence in the supercube, so with just one point mutation, a virus can change into any of its potential neighbors. Therefore, each virus\x{2019}s DNA sequence sits at the center of a \x{201c}sphere\x{201d} of unit radius, and everything else inside that sphere corresponds to a neighboring DNA sequence. In order to understand the enormous potential for variability in virus DNA, all we need to observe is that such a sphere is very large, even though its radius is unity. The \x{201c}hyper-volume\x{201d} of a hypersphere grows extremely rapidly as the number of dimensions of the space increases. For example, in a virus with a DNA sequence 200 bases long, which is relatively short, the sphere of neighbors of radius 10, say\x{2014}that is, up to ten point mutations\x{2014}contains <<approximately 1023|18:0>> sequences, which is gigantic.",
+          ],
+          [
+            1,
+            "[18:28] The Annotated Flatland_ A Romance of Many - Ian Stewart.epub (OEBPS/9780786721832_ps_Part39.xhtml) - 18\x{2013}28",
+            "\x{201c}The Motion of a Baseball.\x{201d} Yearbook of the Minneapolis Society of Engineers (May 1908) <<18\x{2013}28|5a:0>>.",
           ],
         ];

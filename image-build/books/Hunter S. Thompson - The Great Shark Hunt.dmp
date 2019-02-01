@@ -27,7 +27,7 @@ $VAR1 = [
           [
             1,
             '[15:00] The Great Shark Hunt_ Strange Tales From a - Hunter S. Thompson.epub (OEBPS/part10_split_001.xhtml) - three in the afternoon',
-            'We rumbled into Maicao at <<three in the afternoon|9a>>. They dropped me at the airport, where 
+            'We rumbled into Maicao at <<three in the afternoon|5>>. They dropped me at the airport, where 
         my luggage was thoroughly searched by a savage-looking gendarme before I was allowed on 
         the plane for Barranquilla. An hour later, there was another search at the Barranquilla 
         airport. When I asked why, they replied I was coming from an area called Guajira, known to 
@@ -104,7 +104,7 @@ $VAR1 = [
           [
             1,
             '[04:00] The Great Shark Hunt_ Strange Tales From a - Hunter S. Thompson.epub (OEBPS/part10_split_001.xhtml) - four in the morning',
-            "It was <<four in the morning|9a>> when he knocked on the door of my hotel room. \x{201c}Sorry to bother 
+            "It was <<four in the morning|5>> when he knocked on the door of my hotel room. \x{201c}Sorry to bother 
         you, pard,\x{201d} he said. \x{201c}I heard your typewriter going, but I just got lonely, you know -- I 
         had to talk to somebody.\x{201d}",
           ],
@@ -630,7 +630,7 @@ $VAR1 = [
             '[12:00] The Great Shark Hunt_ Strange Tales From a - Hunter S. Thompson.epub (OEBPS/part11_split_002.xhtml) - noon',
             "I found out when the program was prepared that Senator Kennedy was to speak last night. 
         They charged \$10 to attend the occasion. Senator William Brock from Tennessee is speaking 
-        to the Lamar Society at <<noon|9a>> today. I found out that they charged \$7.50 for this occasion. 
+        to the Lamar Society at <<noon|3b>> today. I found out that they charged \$7.50 for this occasion. 
         I spoke yesterday at <<noon|13>>, and I asked the Lamar Society officials, at the last moment, 
         how much they were charging to come to the luncheon yesterday. They said they weren't 
         charging anything. I said, \x{201c}You mean they don't even have to pay for the lunch?\x{201d} They 
@@ -640,7 +640,7 @@ $VAR1 = [
             1,
             '[09:00] The Great Shark Hunt_ Strange Tales From a - Hunter S. Thompson.epub (OEBPS/part11_split_002.xhtml) - nine in the morning',
             "There were times -- all too often, I felt -- when Oscar would show up in front of the 
-        courthouse at <<nine in the morning|9a>> with a stench of fresh gasoline on his hands and a green 
+        courthouse at <<nine in the morning|5>> with a stench of fresh gasoline on his hands and a green 
         crust of charred soap-flakes on the toes of his \$300 snakeskin cowboy boots. He would 
         pause outside the courtroom just long enough to give the TV press five minutes of crazed 
         rhetoric for the Evening News, then he would shepherd his equally crazed \x{201c}clients\x{201d} into 
@@ -761,7 +761,7 @@ $VAR1 = [
             'When I heard he\'d been killed I called Sonny to ask about the funeral, but by the time I 
         finally got hold of him the details were already on the radio and in the newspapers. 
         Miles\' mother was arranging for the funeral in Sacramento. The outlaw caravan would form 
-        at Barger\'s house at <<eleven|9a>> on Thursday morning. The Angels have gone to plenty of 
+        at Barger\'s house at <<eleven|3b>> on Thursday morning. The Angels have gone to plenty of 
         funerals for their own people, but until this one they had never tried to run the 
         procession for ninety miles along a major highway. There was also a chance that the 
         Sacramento police would try to keep them out of town.',
@@ -784,7 +784,7 @@ $VAR1 = [
             '[03:00] The Great Shark Hunt_ Strange Tales From a - Hunter S. Thompson.epub (OEBPS/part11_split_003.xhtml) - three in the morning',
             'Months later, when I rarely saw the Angels, I still had the legacy of the big machine -- 
         four hundred pounds of chrome and deep red noise to take out on the Coast Highway and cut 
-        loose at <<three in the morning|9a>>, when all the cops were lurking over on 101. My first crash 
+        loose at <<three in the morning|5>>, when all the cops were lurking over on 101. My first crash 
         had wrecked the bike completely and it took several months to have it rebuilt. After that 
         I decided to ride it differently: I would stop pushing my luck on curves, always wear a 
         helmet and try to keep within range of the nearest speed limit. . . my insurance had 
@@ -827,6 +827,15 @@ $VAR1 = [
         Drug Conference to give their wives a look at Vegas. They looked like they\'d just beaten 
         Caesar\'s Palace for about $33 at the blackjack tables, and now they were headed for the 
         Circus-Circus to whoop it up. . .',
+          ],
+          [
+            1,
+            '[< 00:00] The Great Shark Hunt_ Strange Tales From a - Hunter S. Thompson.epub (OEBPS/part11_split_003.xhtml) - before midnight',
+            'So once you get blacklisted on the Strip, for any reason at all, you either get out of 
+        town or retire to nurse your act along, on the cheap, in the shoddy limbo of North Vegas. 
+        . . out there with the gunsels, the hustlers, the drug cripples and all the other losers. 
+        North Vegas, for instance, is where you go if you need to score smack <<before midnight|13>> with 
+        no references.',
           ],
           [
             1,
@@ -902,7 +911,7 @@ $VAR1 = [
         tell 
       
       
-        you what I'm going to do at <<noon|9a>> tomorrow, if you 
+        you what I'm going to do at <<noon|3b>> tomorrow, if you 
       
       
         don't 
@@ -1079,12 +1088,6 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 10:11] The Great Shark Hunt_ Strange Tales From a - Hunter S. Thompson.epub (OEBPS/part11_split_003.xhtml) - 1011',
-            "\x{201c}It's <<1011|9f>>,\x{201d} Conrad said, \x{201c}right upstairs -- but hurry back,\x{201d} he added. \x{201c}And if you run 
-        into Pat, we never heard of you.\x{201d}",
-          ],
-          [
-            1,
             '[09:00] The Great Shark Hunt_ Strange Tales From a - Hunter S. Thompson.epub (OEBPS/part11_split_003.xhtml) - Nine 
         o\'clock in the morning',
             "\x{201c}Okay, boss,\x{201d} Ali said to me on the way out. \x{201c}Tomorrow we get serious, right? <<Nine 
@@ -1142,7 +1145,7 @@ Up to then you still thought you had control.',
             '[ap 02:25] The Great Shark Hunt_ Strange Tales From a - Hunter S. Thompson.epub (OEBPS/part11_split_003.xhtml) - 225',
             'I don\'t know what I\'m going to come in at, 205 is really impossible. If I get to 220 I\'ll 
         be happy. Just be eight pounds lighter. . . I\'ll be happy. I did pretty good at that 
-        weight, to be in condition around 220, even if it\'s <<225|9f>>, 223, I could do better.',
+        weight, to be in condition around 220, even if it\'s <<225|3:0>>, 223, I could do better.',
           ],
           [
             1,
@@ -1499,6 +1502,19 @@ This was the theme of the sermon I delivered off the 20th floor balcony of the H
           ],
           [
             1,
+            '[22:10] The Great Shark Hunt_ Strange Tales From a - Hunter S. Thompson.epub (OEBPS/part2_split_001.xhtml) - 22-10',
+            'What follows, then, is a random commentary by some pro football players just a few games 
+        away from the Super Bowl, watching a film of a game between two teams -- one of which they 
+        will have to beat on Sunday, to make the playoffs, and another they might have to beat in 
+        the Super Bowl itself. The film we were watching was the Denver-Dallas game on December 
+        2nd. Dallas won, <<22-10|5a:1>> -- which hardly matters, because pro football players don\'t watch 
+        game-films to see who won or lost. They watch for patterns, tendencies and individual 
+        strengths or weaknesses. . . and in this case they were trying to translate their 
+        reactions into language I could get a personal grip on, which accounts for some of the 
+        awkward moments.',
+          ],
+          [
+            1,
             '[08:00] The Great Shark Hunt_ Strange Tales From a - Hunter S. Thompson.epub (OEBPS/part2_split_001.xhtml) - 8 AM',
             '1/2
       
@@ -1653,7 +1669,7 @@ We rang for the editor',
       
       
         for him to be lettin four nasty lookin Chicanos into his best room at <<three in the 
-        morning|9a>>? With all of us carryin chunks of ice and funny-lookin leather bags?\x{201d} He was 
+        morning|5>>? With all of us carryin chunks of ice and funny-lookin leather bags?\x{201d} He was 
         staggering around the hall, convulsed with laughter. \x{201c}Man, this guy is 
       
       
@@ -2220,7 +2236,7 @@ The knock comes at <<7:02|5d>> -- but instead of Squane it's a beautiful silver-
           [
             1,
             '[12:00] The Great Shark Hunt_ Strange Tales From a - Hunter S. Thompson.epub (OEBPS/part6_split_001.xhtml) - noon',
-            'Breakfast at <<noon|9a>> the next day, half sick in the coffee shop -- waiting for a Western 
+            'Breakfast at <<noon|13>> the next day, half sick in the coffee shop -- waiting for a Western 
         Union money order from the wife in St. Louis. Very spotty memories from last night.',
           ],
           [
@@ -2388,7 +2404,7 @@ The knock comes at <<7:02|5d>> -- but instead of Squane it's a beautiful silver-
         in progress but we'd decided to take the first day off and get ourselves under control. 
         One of the first things I had to do was make out a long overdue accident report for that 
         night, two weeks earlier, when the door of my rented car smacked into the Cadillac at <<four 
-        in the morning|9a>>. The Avis people were threatening to cut off my coverage for 
+        in the morning|5>>. The Avis people were threatening to cut off my coverage for 
         \x{201c}non-cooperation\x{201d} so I'd brought the insanely complicated accident report down to the 
         patio table by the pool, thinking to fill it out with the help of eight or nine Carlsbergs.",
           ],
@@ -2396,14 +2412,14 @@ The knock comes at <<7:02|5d>> -- but instead of Squane it's a beautiful silver-
             1,
             '[04:00] The Great Shark Hunt_ Strange Tales From a - Hunter S. Thompson.epub (OEBPS/part7_split_001.xhtml) - four in the morning',
             "\x{201c}. . . And the car blew up the next night and I had to abandon it in Rock Creek Park at 
-        <<four in the morning|9a>>. I think they're still billing me for it.\x{201d}",
+        <<four in the morning|5>>. I think they're still billing me for it.\x{201d}",
           ],
           [
             1,
             '[04:00] The Great Shark Hunt_ Strange Tales From a - Hunter S. Thompson.epub (OEBPS/part7_split_001.xhtml) - four in the morning',
             "\x{201c}I only had it two nights. The first night I had this wreck, and the next night it blew 
         up.\x{201d}
-\x{201c}What were you doing in this wretched city at <<four in the morning|9a>>?\x{201d}
+\x{201c}What were you doing in this wretched city at <<four in the morning|5>>?\x{201d}
 \x{201c}Well, actually we were thinking about going out to Tex Colson's house and jerking him 
         out of bed, tying him behind the car with a big rope and dragging him down Pennsylvania 
         Avenue. . . then cutting him loose in front of the White House Guard Gate.\x{201d}",
@@ -2434,7 +2450,7 @@ The knock comes at <<7:02|5d>> -- but instead of Squane it's a beautiful silver-
         demanding to make a nationwide emergency statement, saying: 'Look what these thugs have 
         done to poor Mr. Colson! This is exactly what we were talking about! This is why we had to 
         be so violent in our ways, because these thugs will stop at nothing! They dragged Mr. 
-        Colson the length of Pennsylvania Avenue at <<four in the morning|9a>>, then cut him loose like a 
+        Colson the length of Pennsylvania Avenue at <<four in the morning|5>>, then cut him loose like a 
         piece of meat!' He would call for more savage and stringent security measures against 'the 
         kind of animals who would do a thing like this.' So we put the plot out of our heads.\x{201d}",
           ],
@@ -2843,7 +2859,7 @@ Hearing Room',
             '[ap > 03:00] The Great Shark Hunt_ Strange Tales From a - Hunter S. Thompson.epub (OEBPS/part9_split_001.xhtml) - after three',
             'Christ, this is wonderful, I thought. If we hit the bugger again tonight he\'ll go stark 
         raving mad tomorrow morning when the cops show up. . . which was true: On the next 
-        morning, <<after three|9:0>> consecutive robberies, the parking lot of that gas station was like a 
+        morning, <<after three|9:1>> consecutive robberies, the parking lot of that gas station was like a 
         war zone, but this time the cops showed up with reinforcements. In addition to the two 
         police cruisers, the lot filled up with chromeless, dust-covered Fords and crew-cut men 
         wearing baggy brown suits and shoes with gum-rubber soles. While some of them spoke 
@@ -2869,7 +2885,7 @@ Hearing Room',
         a moment, then looks away. Mitchell scans the story on Martha: She has freaked out again. 
         Where does she keep getting that goddamn speed? he wonders; her eyes in the photo are the 
         size of marbles. According to the story, she called UPI reporter Helen Thomas at <<four in 
-        the morning|9a>>, cursing incoherently about \x{201c}Mister President\x{201d} and saying she has to get out 
+        the morning|5>>, cursing incoherently about \x{201c}Mister President\x{201d} and saying she has to get out 
         of Washington at once, go back to the apartment in New York for a few days of rest.",
           ],
           [

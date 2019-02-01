@@ -12,7 +12,7 @@ $VAR1 = [
           [
             1,
             '[ap 10:30] Full Circle - Michael Palin.epub (OEBPS/Text/Full_Circle_split_000.html) - 10.30',
-            "I walk up the line to a small station enclosed by birch and willow trees. It\x{2019}s called Sanitornaya (Sanatorium). I sit myself down on one of the mustard-yellow wooden benches, with a breeze wafting gently off the Pacific, and wait for the <<10.30|5a:0>> into Vladivostok.",
+            "I walk up the line to a small station enclosed by birch and willow trees. It\x{2019}s called Sanitornaya (Sanatorium). I sit myself down on one of the mustard-yellow wooden benches, with a breeze wafting gently off the Pacific, and wait for the <<10.30|5a:1>> into Vladivostok.",
           ],
           [
             1,
@@ -107,7 +107,7 @@ $VAR1 = [
           [
             1,
             '[20:00] Full Circle - Michael Palin.epub (OEBPS/Text/Full_Circle_split_001.html) - eight in the evening',
-            "The Witches Gorge is the gateway to Sichuan, the largest and most populous of China\x{2019}s twenty-one provinces. With a hundred million inhabitants and an area slightly greater than that of France it consists of a prosperous eastern plain encircled by mountains. For centuries the Yangtze gorges have been its only communication with the outiside world. The easternmost city in Sichuan is Wushan, which we reach at <<eight in the evening|9a>>.",
+            "The Witches Gorge is the gateway to Sichuan, the largest and most populous of China\x{2019}s twenty-one provinces. With a hundred million inhabitants and an area slightly greater than that of France it consists of a prosperous eastern plain encircled by mountains. For centuries the Yangtze gorges have been its only communication with the outiside world. The easternmost city in Sichuan is Wushan, which we reach at <<eight in the evening|5>>.",
           ],
           [
             1,
@@ -249,7 +249,7 @@ Turn over and try to grab another half-hour\x{2019}s sleep.",
           [
             1,
             '[ap 03:45] Full Circle - Michael Palin.epub (OEBPS/Text/Full_Circle_split_002.html) - 3.45',
-            "A cup of coffee and a bar of chocolate later, it\x{2019}s <<3.45|9f>> and I\x{2019}m sat astride a small pony heading off into the darkness. The sky is clear, there is no wind and the stars are out. A group of local guides watch their ponies anxiously as they bear us off down a stony track. We are a motley posse. Some Japanese, an Australian or two. The only thing we have in common is an inability to ride.",
+            "A cup of coffee and a bar of chocolate later, it\x{2019}s <<3.45|9c:1>> and I\x{2019}m sat astride a small pony heading off into the darkness. The sky is clear, there is no wind and the stars are out. A group of local guides watch their ponies anxiously as they bear us off down a stony track. We are a motley posse. Some Japanese, an Australian or two. The only thing we have in common is an inability to ride.",
           ],
           [
             1,
@@ -259,7 +259,7 @@ Turn over and try to grab another half-hour\x{2019}s sleep.",
           [
             1,
             '[17:00] Full Circle - Michael Palin.epub (OEBPS/Text/Full_Circle_split_002.html) - five in the afternoon',
-            'We roll across the Eugene Betty bridge over the Katherine River at <<five in the afternoon|9a>> to be confronted by the most celebrated traffic lights in Australia. Recently installed in the centre of town, they are the only set of lights for 1000 miles.',
+            'We roll across the Eugene Betty bridge over the Katherine River at <<five in the afternoon|5>> to be confronted by the most celebrated traffic lights in Australia. Recently installed in the centre of town, they are the only set of lights for 1000 miles.',
           ],
           [
             1,
@@ -462,6 +462,11 @@ Later the ship\x{2019}s generator breaks down, so no air-con, no pump for water,
             1,
             '[00:00] Full Circle - Michael Palin.epub (OEBPS/Text/Full_Circle_split_003.html) - midnight',
             "The technology available to the Border Patrol is becoming even more sophisticated. At <<midnight|13>> I stand on a hill beside the Pacific on which is parked a vehicle with a camera raised on an 18-foot arm sending infra-red pictures of any movement within two miles. Working alongside these night-vision scopes are helicopters armed with powerful searchlights and sensors that detect body heat. They\x{2019}re thudding around above us relaying pictures to the monitors we\x{2019}re watching.",
+          ],
+          [
+            1,
+            '[ap 06:50] Full Circle - Michael Palin.epub (OEBPS/Text/Full_Circle_split_003.html) - ten to seven',
+            "He gives off an air of constant, barely-controlled energy, managing to be both laconic and garrulous, at the same time. He was independent when he started with his first helicopter twelve years ago; now he\x{2019}s on regular contract to CBS News. He works <<ten to seven|10a:0>> with regular spots to fill on lunchtime and early evening bulletins. It\x{2019}s not what he wants to do.",
           ],
           [
             1,

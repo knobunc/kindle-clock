@@ -7,6 +7,11 @@ $VAR1 = [
           [
             1,
             '[00:00] Jamaica Inn - Daphne Du Maurier.epub (OEBPS/chapter001.xhtml) - midnight',
+            "\x{201c}A girl can\x{2019}t live alone, Mary, without she goes queer in the head, or comes to evil. It\x{2019}s either one or the other. Have you forgotten poor Sue, who walked the churchyard at <<midnight|13>> with the full moon, and called upon the lover she had never had? And there was one maid, before you were born, left an orphan at sixteen. She ran away to Falmouth and went with the sailors.",
+          ],
+          [
+            1,
+            '[00:00] Jamaica Inn - Daphne Du Maurier.epub (OEBPS/chapter001.xhtml) - midnight',
             'Mary lost count of time and space; the miles might have been a hundred and the hour <<midnight|13>>, for ail she knew. She began to cling to the safety of the coach; at least it had some remnant of familiarity. She had known it since the early morning, and that was long ago. However great a nightmare was this eternal drive, there were at least the four close walls to protect her, the shabby leaking roof, and, within calling distance, the comfortable presence of the driver. At last it seemed to her that he was driving his horses to an even greater speed; she heard him shout to them, the cry of his voice blown past her window on the wind.',
           ],
           [
@@ -97,7 +102,7 @@ $VAR1 = [
           [
             1,
             '[18:00] Jamaica Inn - Daphne Du Maurier.epub (OEBPS/chapter008.xhtml) - six in the evening',
-            "Aunt Patience became another woman, showing a calm coolness and a presence of mind that Mary had not believed her capable of possessing. She gave herself up entirely to this nursing of her husband. She was obliged to do everything for him, and Mary watched her change his blankets and his linen with a sick feeling of disgust in her own heart, for she could not have borne to go near him. Aunt Patience took it as a matter of course, and the oaths and screams with which he greeted her did not appear to frighten her. These were the only times when she had the controlling of him, and he would let her sponge his forehead with a towel and hot water without a protest. Then she would tuck the fresh blanket under him, and smooth his mat of hair, and in a few minutes he would be asleep again, his face purple and his mouth wide open, with his tongue protruding, snoring like a bull. It was impossible to live in the kitchen, and Mary and her aunt turned the little disused parlor into a dwelling-room for themselves. For the first time Aunt Patience became something of a companion. She chatted happily of the old days in Helford, when she and Mary\x{2019}s mother had been girls together; she moved swiftly and lightly about the house, and sometimes Mary would hear her humming snatches of old hymns as she passed backwards and forwards to the kitchen. It seemed that every two months or so Joss Merlyn would have these bouts of drinking. The times used to be further apart, but now they were becoming more frequent, and Aunt Patience was never quite certain when they would occur. This present one had been caused by the visit of Squire Bassat to the inn\x{2014}the landlord had been very angry and upset, she told Mary\x{2014}and when he came back from the moors at <<six in the evening|9a>> he went straight to the bar. She knew then what would happen.",
+            "Aunt Patience became another woman, showing a calm coolness and a presence of mind that Mary had not believed her capable of possessing. She gave herself up entirely to this nursing of her husband. She was obliged to do everything for him, and Mary watched her change his blankets and his linen with a sick feeling of disgust in her own heart, for she could not have borne to go near him. Aunt Patience took it as a matter of course, and the oaths and screams with which he greeted her did not appear to frighten her. These were the only times when she had the controlling of him, and he would let her sponge his forehead with a towel and hot water without a protest. Then she would tuck the fresh blanket under him, and smooth his mat of hair, and in a few minutes he would be asleep again, his face purple and his mouth wide open, with his tongue protruding, snoring like a bull. It was impossible to live in the kitchen, and Mary and her aunt turned the little disused parlor into a dwelling-room for themselves. For the first time Aunt Patience became something of a companion. She chatted happily of the old days in Helford, when she and Mary\x{2019}s mother had been girls together; she moved swiftly and lightly about the house, and sometimes Mary would hear her humming snatches of old hymns as she passed backwards and forwards to the kitchen. It seemed that every two months or so Joss Merlyn would have these bouts of drinking. The times used to be further apart, but now they were becoming more frequent, and Aunt Patience was never quite certain when they would occur. This present one had been caused by the visit of Squire Bassat to the inn\x{2014}the landlord had been very angry and upset, she told Mary\x{2014}and when he came back from the moors at <<six in the evening|5>> he went straight to the bar. She knew then what would happen.",
           ],
           [
             1,
@@ -147,7 +152,7 @@ $VAR1 = [
           [
             1,
             '[21:30] Jamaica Inn - Daphne Du Maurier.epub (OEBPS/chapter009.xhtml) - half past nine in the evening',
-            "\x{201c}Drink\x{2019}s a funny thing,\x{201d} he said, after a moment or two. \x{201c}I got drunk once, in Amsterdam, the time I ran away to sea. I remember hearing a church clock strike <<half past nine in the evening|10>>, and I was sitting on the floor with my arms round a pretty red-haired girl. The next thing I knew, it was <<seven in the following morning|9a>>, and I was lying on my back in the gutter, without any boots or breeches. I often wonder what I did during those ten hours. I\x{2019}ve thought and thought, but I\x{2019}m damned if I can remember.\x{201d}",
+            "\x{201c}Drink\x{2019}s a funny thing,\x{201d} he said, after a moment or two. \x{201c}I got drunk once, in Amsterdam, the time I ran away to sea. I remember hearing a church clock strike <<half past nine in the evening|10>>, and I was sitting on the floor with my arms round a pretty red-haired girl. The next thing I knew, it was <<seven in the following morning|5>>, and I was lying on my back in the gutter, without any boots or breeches. I often wonder what I did during those ten hours. I\x{2019}ve thought and thought, but I\x{2019}m damned if I can remember.\x{201d}",
           ],
           [
             1,
@@ -247,7 +252,7 @@ $VAR1 = [
           [
             1,
             '[ap 02:00] Jamaica Inn - Daphne Du Maurier.epub (OEBPS/chapter016.xhtml) - two',
-            "\x{201c}I never said that. I wondered only at your patience. It had not struck <<two|11>> when I bade you sleep this morning, and it is now <<seven in the evening|9a>>. Long hours; and things do not stand still by themselves.\x{201d}",
+            "\x{201c}I never said that. I wondered only at your patience. It had not struck <<two|11>> when I bade you sleep this morning, and it is now <<seven in the evening|5>>. Long hours; and things do not stand still by themselves.\x{201d}",
           ],
           [
             1,

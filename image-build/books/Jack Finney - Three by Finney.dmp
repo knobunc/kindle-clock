@@ -92,7 +92,7 @@ $VAR1 = [
           [
             1,
             '[ap ~ 06:00] Three by Finney - Jack Finney.epub (ops/xhtml/part01ch10.html) - around six',
-            "The circular in one of the junk letters said, \x{201c}Accept this amazing offer! Try Time for a month, and see if your evenings aren\x{2019}t more rewarding!\x{201d} and I replaced Time with Ben. The other ad was a soap coupon, \x{201c}Good for one bar of Dove\x{201d}; I replaced bar with night, and Dove with Love, and added my name at the bottom. I pasted one of my own stamps over each real stamp on all the envelopes, walked around to the apartment building, and dropped the mail into Hetty\x{2019}s box. That night, <<around six|9e>>, I phoned. I said, \x{201c}This is Ben, sweetie,\x{201d} and she replied with a short string of words I didn\x{2019}t think she knew and hung up before I could reply. Still, I told myself, she\x{2019}d at least answered me, and that was progress.",
+            "The circular in one of the junk letters said, \x{201c}Accept this amazing offer! Try Time for a month, and see if your evenings aren\x{2019}t more rewarding!\x{201d} and I replaced Time with Ben. The other ad was a soap coupon, \x{201c}Good for one bar of Dove\x{201d}; I replaced bar with night, and Dove with Love, and added my name at the bottom. I pasted one of my own stamps over each real stamp on all the envelopes, walked around to the apartment building, and dropped the mail into Hetty\x{2019}s box. That night, <<around six|9:0>>, I phoned. I said, \x{201c}This is Ben, sweetie,\x{201d} and she replied with a short string of words I didn\x{2019}t think she knew and hung up before I could reply. Still, I told myself, she\x{2019}d at least answered me, and that was progress.",
           ],
           [
             1,
@@ -237,7 +237,7 @@ $VAR1 = [
           [
             1,
             '[ap ~ 11:00] Three by Finney - Jack Finney.epub (ops/xhtml/part02ch07.html) - Around eleven',
-            "Back at the hotel, I told Jan about the day and about Rodolpho Guglielmi, and she listened, shaking her head, looking at me to smile incredulously and shake her head again. And we talked about Marion, saying what little there was to say. On our way through the lobby I\x{2019}d bought a Los Angeles Times, and we sat in bed looking through it, but it seemed hard to follow and without any real news, the way an out-of-town paper generally does. I got up and standing at the desk turned through the pages of the little magazine telling what there was to do in town, almost none of it outside this hotel, apparently. There were some postcards in a drawer, already stamped by the management, I discovered, a thoughtful \x{201c}touch.\x{201d} And since I knew I was paying for it, I picked one\x{2014}a view of the pool\x{2014}and sat down and wrote a card. \x{201c}Dear Al: Well, here we are in glamorous, exciting Hollywood, \x{2018}seeing the stars\x{2019}! Tomorrow, Forest Lawn, to visit the world-famed mausoleum of Felix the Cat. Love, yr. friend, Nick.\x{201d} There was no one in the hall, and leaving the room door open, I darted out in pajamas, dropped the card in the chute next to the elevator, and got back safe and sound. <<Around eleven|9e>>, or a couple minutes past, we turned out the lights, and almost instantly the phone rang.",
+            "Back at the hotel, I told Jan about the day and about Rodolpho Guglielmi, and she listened, shaking her head, looking at me to smile incredulously and shake her head again. And we talked about Marion, saying what little there was to say. On our way through the lobby I\x{2019}d bought a Los Angeles Times, and we sat in bed looking through it, but it seemed hard to follow and without any real news, the way an out-of-town paper generally does. I got up and standing at the desk turned through the pages of the little magazine telling what there was to do in town, almost none of it outside this hotel, apparently. There were some postcards in a drawer, already stamped by the management, I discovered, a thoughtful \x{201c}touch.\x{201d} And since I knew I was paying for it, I picked one\x{2014}a view of the pool\x{2014}and sat down and wrote a card. \x{201c}Dear Al: Well, here we are in glamorous, exciting Hollywood, \x{2018}seeing the stars\x{2019}! Tomorrow, Forest Lawn, to visit the world-famed mausoleum of Felix the Cat. Love, yr. friend, Nick.\x{201d} There was no one in the hall, and leaving the room door open, I darted out in pajamas, dropped the card in the chute next to the elevator, and got back safe and sound. <<Around eleven|9:1>>, or a couple minutes past, we turned out the lights, and almost instantly the phone rang.",
           ],
           [
             1,
@@ -322,12 +322,12 @@ $VAR1 = [
           [
             1,
             '[03:00] Three by Finney - Jack Finney.epub (ops/xhtml/part03ch06.html) - three in the morning',
-            "Harry stood sipping thoughtfully, testing both the taste and the idea of champagne out here at <<three in the morning|9a>>. Then he nodded abruptly, and drained his glass. Holding it out to Lew for more, he said, \x{201c}First prize, Jo. Permanent possession of the silver trophy for leadership,\x{201d} and Jo looked suddenly relieved and pleased. Lew filled Harry\x{2019}s glass, he tasted it, nodded again, then glanced up and down the long length of the covered walkway stretching off into darkness at either end. \x{201c}But\x{a0}.\x{a0}.\x{a0}. is this the idea for tonight, Jo? Drinking champagne at the shopping center?\x{201d}",
+            "Harry stood sipping thoughtfully, testing both the taste and the idea of champagne out here at <<three in the morning|5>>. Then he nodded abruptly, and drained his glass. Holding it out to Lew for more, he said, \x{201c}First prize, Jo. Permanent possession of the silver trophy for leadership,\x{201d} and Jo looked suddenly relieved and pleased. Lew filled Harry\x{2019}s glass, he tasted it, nodded again, then glanced up and down the long length of the covered walkway stretching off into darkness at either end. \x{201c}But\x{a0}.\x{a0}.\x{a0}. is this the idea for tonight, Jo? Drinking champagne at the shopping center?\x{201d}",
           ],
           [
             1,
             '[03:00] Three by Finney - Jack Finney.epub (ops/xhtml/part03ch06.html) - three in the morning',
-            "\x{201c}Well, we can\x{2019}t go out again after tonight.\x{201d} She smiled. \x{201c}Be a long time before they forget four people dancing and drinking champagne at the shopping center. At <<three in the morning|9a>>.\x{201d}",
+            "\x{201c}Well, we can\x{2019}t go out again after tonight.\x{201d} She smiled. \x{201c}Be a long time before they forget four people dancing and drinking champagne at the shopping center. At <<three in the morning|5>>.\x{201d}",
           ],
           [
             1,
@@ -438,7 +438,7 @@ $VAR1 = [
           [
             1,
             '[09:00] Three by Finney - Jack Finney.epub (ops/xhtml/part03ch10.html) - nine in the morning',
-            "Five hours later at <<nine in the morning|9a>>, Lew awakened, lying on Jo\x{2019}s chesterfield, closed his eyes again, then could not resist: he got up, turned on the portable television and, the volume low as he could tune it, he watched the news, including a black-and-white still photo apparently taken at first dawn showing the car and two uniformed men silhouetted on the Civic Center roof. It was a mystery, the announcer\x{2019}s almost inaudible voice murmured, the car first spotted at dawn from the freeway, and Lew smiled, turned it off, and returned to the chesterfield.",
+            "Five hours later at <<nine in the morning|5>>, Lew awakened, lying on Jo\x{2019}s chesterfield, closed his eyes again, then could not resist: he got up, turned on the portable television and, the volume low as he could tune it, he watched the news, including a black-and-white still photo apparently taken at first dawn showing the car and two uniformed men silhouetted on the Civic Center roof. It was a mystery, the announcer\x{2019}s almost inaudible voice murmured, the car first spotted at dawn from the freeway, and Lew smiled, turned it off, and returned to the chesterfield.",
           ],
           [
             1,

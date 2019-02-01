@@ -23,7 +23,7 @@ $VAR1 = [
             1,
             '[ap 11:00] Waxwork - Peter Lovesey.epub (OEBPS/9781569476468_Split13.html) - eleven',
             "\x{2018}What time did the conference begin, sir?\x{2019}
-\x{2018}At <<eleven|9e>>, Sergeant.\x{2019}
+\x{2018}At <<eleven|9m:1>>, Sergeant.\x{2019}
 \x{2018}Then you must have started early. It would take the best part of two hours to get to Brighton from here. You were there in time, I hope?\x{2019}",
           ],
           [
@@ -46,19 +46,19 @@ Berry was shaving.',
           [
             1,
             '[08:00] Waxwork - Peter Lovesey.epub (OEBPS/9781569476468_Split14.html) - eight in the morning',
-            "\x{2018}This is from the Sheriff of the City of London. It is the warrant for your execution. It will take place a week from today at <<eight in the morning|9a>>.\x{2019}",
+            "\x{2018}This is from the Sheriff of the City of London. It is the warrant for your execution. It will take place a week from today at <<eight in the morning|5>>.\x{2019}",
           ],
           [
             1,
             '[ap 11:00] Waxwork - Peter Lovesey.epub (OEBPS/9781569476468_Split15.html) - eleven',
             "\x{2018}The meeting opened in the morning, I believe. There was no delay?\x{2019}
 \x{2018}No delay, sir. It started sharp at <<eleven|9c:1>>.\x{2019}
-If Howard Cromer had opened the A.G.M. at <<eleven|9e>>, he must have left Kew soon <<after nine that morning|9h>>.",
+If Howard Cromer had opened the A.G.M. at <<eleven|9m:1>>, he must have left Kew soon <<after nine that morning|9h>>.",
           ],
           [
             1,
             '[ap 11:00] Waxwork - Peter Lovesey.epub (OEBPS/9781569476468_Split15.html) - eleven',
-            'If Howard Cromer had opened the A.G.M. at <<eleven|9e>>, he must have left Kew soon <<after nine that morning|9h>>.',
+            'If Howard Cromer had opened the A.G.M. at <<eleven|9m:1>>, he must have left Kew soon <<after nine that morning|9h>>.',
           ],
           [
             1,
@@ -68,7 +68,7 @@ If Howard Cromer had opened the A.G.M. at <<eleven|9e>>, he must have left Kew s
           [
             1,
             '[ap < 02:30] Waxwork - Peter Lovesey.epub (OEBPS/9781569476468_Split15.html) - almost half past two',
-            "Cribb addressed the envelope to himself at Scotland Yard. \x{2018}I\x{2019}m giving you one chance, Brodski. We know that a shopkeeper in Holywell Street sold pictures of this woman to the man who was murdered. I shan\x{2019}t ask you to peach on one of your neighbours. It doesn\x{2019}t interest me who handled the photographs. What I want from you is the name and address of the supplier\x{2014}the man who printed the photographs and owns the negatives. You understand? Take this picture, show it to the others in the street, get that information and write it on the back.\x{2019} He took out his watch and flicked up the lid. \x{2018}It\x{2019}s <<almost half past two|10>>. That gives you three and a half hours. Put the photograph in the envelope and see that it catches the <<six o\x{2019}clock|6>> post at Charing Cross. It will reach me at Scotland Yard by the last delivery, at <<eight|9a>> tonight. If it doesn\x{2019}t come, Brodski, you can expect me here within the hour. It won\x{2019}t be twenty-five pounds this time.\x{2019}",
+            "Cribb addressed the envelope to himself at Scotland Yard. \x{2018}I\x{2019}m giving you one chance, Brodski. We know that a shopkeeper in Holywell Street sold pictures of this woman to the man who was murdered. I shan\x{2019}t ask you to peach on one of your neighbours. It doesn\x{2019}t interest me who handled the photographs. What I want from you is the name and address of the supplier\x{2014}the man who printed the photographs and owns the negatives. You understand? Take this picture, show it to the others in the street, get that information and write it on the back.\x{2019} He took out his watch and flicked up the lid. \x{2018}It\x{2019}s <<almost half past two|10>>. That gives you three and a half hours. Put the photograph in the envelope and see that it catches the <<six o\x{2019}clock|6>> post at Charing Cross. It will reach me at Scotland Yard by the last delivery, at <<eight|3b>> tonight. If it doesn\x{2019}t come, Brodski, you can expect me here within the hour. It won\x{2019}t be twenty-five pounds this time.\x{2019}",
           ],
           [
             1,

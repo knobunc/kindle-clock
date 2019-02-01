@@ -57,7 +57,7 @@ $VAR1 = [
           [
             1,
             '[16:00] The Illustrated Man - Ray Bradbury.epub (OEBPS/part14.xhtml) - four this afternoon',
-            "\x{201c}The car\x{2019}s in the repair shop. It\x{2019}ll be ready at <<four this afternoon|9a>>. Then we\x{2019}ll get the hell out.\x{201d}",
+            "\x{201c}The car\x{2019}s in the repair shop. It\x{2019}ll be ready at <<four this afternoon|5>>. Then we\x{2019}ll get the hell out.\x{201d}",
           ],
           [
             1,
@@ -242,11 +242,11 @@ Ettil sat down in the shadow of the rocket, two of his fellows with him. \x{201c
           [
             1,
             '[01:00] The Illustrated Man - Ray Bradbury.epub (OEBPS/part9.xhtml) - one in the morning',
-            "I couldn\x{2019}t sleep that night. I came downstairs at <<one in the morning|9a>> and the moonlight was like ice on all the housetops, and dew glittered in a snow field on our grass. I stood in the doorway in my pajamas, feeling the warm night wind, and then I knew that Dad was sitting in the mechanical porch swing, gliding gently. I could see his profile tilted back, and he was watching the stars wheel over the sky. His eyes were like gray crystal there, the moon in each one.",
+            "I couldn\x{2019}t sleep that night. I came downstairs at <<one in the morning|5>> and the moonlight was like ice on all the housetops, and dew glittered in a snow field on our grass. I stood in the doorway in my pajamas, feeling the warm night wind, and then I knew that Dad was sitting in the mechanical porch swing, gliding gently. I could see his profile tilted back, and he was watching the stars wheel over the sky. His eyes were like gray crystal there, the moon in each one.",
           ],
           [
             1,
             '[00:00] The Illustrated Man - Ray Bradbury.epub (OEBPS/part9.xhtml) - midnight',
-            "So for a long time after my father died my mother slept through the days and wouldn\x{2019}t go out. We had breakfast at <<midnight|13>> and lunch at <<three in the morning|9a>>, and dinner at the cold dim hour of <<6 A.M.|5>> We went to all-night shows and went to bed at sunrise.",
+            "So for a long time after my father died my mother slept through the days and wouldn\x{2019}t go out. We had breakfast at <<midnight|13>> and lunch at <<three in the morning|5>>, and dinner at the cold dim hour of <<6 A.M.|5>> We went to all-night shows and went to bed at sunrise.",
           ],
         ];

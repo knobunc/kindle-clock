@@ -274,7 +274,7 @@ $VAR1 = [
           [
             1,
             '[15:00] The First Deadly Sin - Lawrence Sanders.epub (OEBPS/36-chap33.xhtml) - three in the afternoon',
-            'Delaney called Ivar Thorsen from a lobby phone. The answering service got back to him a few minutes later and said Mr. Thorsen was not available and would he please call again at <<three in the afternoon|9a>>.',
+            'Delaney called Ivar Thorsen from a lobby phone. The answering service got back to him a few minutes later and said Mr. Thorsen was not available and would he please call again at <<three in the afternoon|5>>.',
           ],
           [
             1,
@@ -284,7 +284,7 @@ $VAR1 = [
           [
             1,
             '[15:00] The First Deadly Sin - Lawrence Sanders.epub (OEBPS/36-chap33.xhtml) - 3:00 p.m.',
-            'At <<3:00 p.m.|2a>>, he called Deputy Inspector Thorsen. This time the answering service operator asked him to hold while she checked. She was back on again in a few minutes and told him Thorsen asked him to call again at <<seven in the evening|9a>>. Delaney hung up, now convinced that something was happening, something was awry.',
+            'At <<3:00 p.m.|2a>>, he called Deputy Inspector Thorsen. This time the answering service operator asked him to hold while she checked. She was back on again in a few minutes and told him Thorsen asked him to call again at <<seven in the evening|5>>. Delaney hung up, now convinced that something was happening, something was awry.',
           ],
           [
             1,
@@ -507,7 +507,7 @@ $VAR1 = [
           [
             1,
             '[ap ~ 11:00] The First Deadly Sin - Lawrence Sanders.epub (OEBPS/50-chap47.xhtml) - About eleven',
-            "\x{201c}Yeah. <<About eleven|9e>>, twelve. Around there. Pretty enough to be a girl. I heard Blank call him Tony.\x{201d}",
+            "\x{201c}Yeah. <<About eleven|9:0>>, twelve. Around there. Pretty enough to be a girl. I heard Blank call him Tony.\x{201d}",
           ],
           [
             1,
@@ -613,7 +613,7 @@ Delaney thought. \x{201c}All right. <<Six o\x{2019}clock|6>>. Where?\x{201d}
           [
             1,
             '[ap 08:00] The First Deadly Sin - Lawrence Sanders.epub (OEBPS/50-chap47.xhtml) - eight',
-            "\x{201c}I know what you figured,\x{201d} the Captain said, \x{201c}and you figured right. Can you work till <<eight|9a>> tomorrow morning?\x{201d}",
+            "\x{201c}I know what you figured,\x{201d} the Captain said, \x{201c}and you figured right. Can you work till <<eight|3b>> tomorrow morning?\x{201d}",
           ],
           [
             1,
@@ -641,7 +641,7 @@ Delaney nodded. \x{201c}Tell him, or leave a note for him, that I want to be inf
             1,
             '[16:00] The First Deadly Sin - Lawrence Sanders.epub (OEBPS/51-chap48.xhtml) - four in the afternoon',
             "\x{201c}When\x{2019}s MacDonald due back?\x{201d} Delaney asked.
-\x{201c}Tomorrow at <<four in the afternoon|9a>>, Captain. We\x{2019}re splitting\x{2014}\x{201d}
+\x{201c}Tomorrow at <<four in the afternoon|5>>, Captain. We\x{2019}re splitting\x{2014}\x{201d}
 \x{201c}I know, I know,\x{201d} Delaney said testily. \x{201c}Christmas. I want to leave a message for him.\x{201d} The duty officer took up a pad and waited, pencil in hand. \x{201c}Tell him I want a photograph of Detective Kope.\x{201d}",
           ],
           [
@@ -715,7 +715,7 @@ Delaney nodded. \x{201c}Tell him, or leave a note for him, that I want to be inf
             1,
             '[ap 08:00] The First Deadly Sin - Lawrence Sanders.epub (OEBPS/55-chap52.xhtml) - eight',
             "\x{201c}No sweat, Captain. I\x{2019}ll get on it right away.\x{201d}
-\x{201c}Good. Put your first men on at <<eight|9a>> tonight. Not before.\x{201d}
+\x{201c}Good. Put your first men on at <<eight|3b>> tonight. Not before.\x{201d}
 Fernandez nodded. \x{201c}Captain \x{2026}\x{201d}",
           ],
           [
@@ -808,7 +808,7 @@ Fernandez nodded. \x{201c}Captain \x{2026}\x{201d}",
           [
             1,
             '[ap ~ 00:00] The First Deadly Sin - Lawrence Sanders.epub (OEBPS/57-chap54.xhtml) - about twelve',
-            "\x{201c}MacDonald here. We have one homicide: female, white, black hair, early thirties, five-four or five, a hundred and ten, slender, skull crushed, answering description of the Princess. White, male boy, <<about twelve|9e>>, naked and hysterical, answering description of Anthony Montfort. One white male, six-three or four, about one-sixty or sixty-five, unconscious, answering description of houseman Valenter, broken nose, facial injuries, bad breathing. Need two ambulances and doctors. Fernandez is alive but still bleeding. We can\x{2019}t stop it. Ambulance? Soon, please. Tiger One had broken right leg, arm, bruises, scrapes. Ambulances and doctors, please.\x{201d}",
+            "\x{201c}MacDonald here. We have one homicide: female, white, black hair, early thirties, five-four or five, a hundred and ten, slender, skull crushed, answering description of the Princess. White, male boy, <<about twelve|9:0>>, naked and hysterical, answering description of Anthony Montfort. One white male, six-three or four, about one-sixty or sixty-five, unconscious, answering description of houseman Valenter, broken nose, facial injuries, bad breathing. Need two ambulances and doctors. Fernandez is alive but still bleeding. We can\x{2019}t stop it. Ambulance? Soon, please. Tiger One had broken right leg, arm, bruises, scrapes. Ambulances and doctors, please.\x{201d}",
           ],
           [
             1,
@@ -945,12 +945,12 @@ The bullhorn clicked off. The watching men strained their eyes upward. There was
           [
             1,
             "[ap 03:00] The First Deadly Sin - Lawrence Sanders.epub (OEBPS/64-preview_chap3.xhtml) - three o\x{2019}clock",
-            "The body had been discovered by Saul Geltman, owner of Geltman Galleries on Madison Avenue, and Victor Maitland\x{2019}s exclusive agent. Maitland had promised to be at the Galleries at <<three o\x{2019}clock|6>> Friday afternoon to work with Geltman and an interior designer on plans for a new exhibition of Maitland\x{2019}s work. When he hadn\x{2019}t shown up by four, Geltman had called the Mott Street studio. No answer. He had then called Maitland\x{2019}s home on East 58th Street. He spoke to Alma Maitland, the artist\x{2019}s wife. She didn\x{2019}t know Maitland\x{2019}s whereabouts, but said he had mentioned he was meeting Geltman at the Galleries at <<three that afternoon|9a>>.",
+            "The body had been discovered by Saul Geltman, owner of Geltman Galleries on Madison Avenue, and Victor Maitland\x{2019}s exclusive agent. Maitland had promised to be at the Galleries at <<three o\x{2019}clock|6>> Friday afternoon to work with Geltman and an interior designer on plans for a new exhibition of Maitland\x{2019}s work. When he hadn\x{2019}t shown up by four, Geltman had called the Mott Street studio. No answer. He had then called Maitland\x{2019}s home on East 58th Street. He spoke to Alma Maitland, the artist\x{2019}s wife. She didn\x{2019}t know Maitland\x{2019}s whereabouts, but said he had mentioned he was meeting Geltman at the Galleries at <<three that afternoon|5>>.",
           ],
           [
             1,
             '[12:00] The First Deadly Sin - Lawrence Sanders.epub (OEBPS/64-preview_chap3.xhtml) - noon',
-            "Saul Geltman stated that he continued trying to reach Maitland at his home and the studio all day Saturday, with no success. He also called a few acquaintances of Maitland\x{2019}s. None knew where the artist was. Finally, by <<noon|3b>> on Sunday, Geltman was becoming worried. He cabbed down to the studio. The door was closed but unlocked. There were roaches in the blood. Geltman promptly vomited, then called <<911|9f>>, the police emergency number, from the studio phone.",
+            "Saul Geltman stated that he continued trying to reach Maitland at his home and the studio all day Saturday, with no success. He also called a few acquaintances of Maitland\x{2019}s. None knew where the artist was. Finally, by <<noon|3b>> on Sunday, Geltman was becoming worried. He cabbed down to the studio. The door was closed but unlocked. There were roaches in the blood. Geltman promptly vomited, then called 911, the police emergency number, from the studio phone.",
           ],
           [
             1,
@@ -994,8 +994,8 @@ The bullhorn clicked off. The watching men strained their eyes upward. There was
           ],
           [
             1,
-            '[ap 10:00] The First Deadly Sin - Lawrence Sanders.epub (OEBPS/8-chap5.xhtml) - ten',
-            "\x{201c}Good morning, Mr. Blank,\x{201d} she said in her watery voice, consulting a stenographer\x{2019}s pad she held. \x{201c}You have a meeting at <<ten|9g>>-thirty with the Pension Board. Lunch at twelve-thirty at the Plaza with Acme, regarding the servicing contract. I tried to confirm, but no one\x{2019}s in yet. I\x{2019}ll try again.\x{201d}",
+            '[ap 10:30] The First Deadly Sin - Lawrence Sanders.epub (OEBPS/8-chap5.xhtml) - ten-thirty',
+            "\x{201c}Good morning, Mr. Blank,\x{201d} she said in her watery voice, consulting a stenographer\x{2019}s pad she held. \x{201c}You have a meeting at <<ten-thirty|9g>> with the Pension Board. Lunch at twelve-thirty at the Plaza with Acme, regarding the servicing contract. I tried to confirm, but no one\x{2019}s in yet. I\x{2019}ll try again.\x{201d}",
           ],
           [
             1,

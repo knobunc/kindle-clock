@@ -9,7 +9,7 @@ $VAR1 = [
           [
             1,
             '[ap 08:00] The 39 Steps - John Buchan.epub (OPS/xhtml/bm.html) - eight',
-            'floorcloth NOUN a floorcloth was a hard-wearing piece of canvas used instead of carpet  This avenging phantom was ordered to be on duty at <<eight|9a>> on Tuesday morning in the
+            'floorcloth NOUN a floorcloth was a hard-wearing piece of canvas used instead of carpet  This avenging phantom was ordered to be on duty at <<eight|3b>> on Tuesday morning in the
                   hall (it was two feet square, as charged for floorcloth) (Great Expectations by Charles Dickens)',
           ],
           [
@@ -227,6 +227,15 @@ $VAR1 = [
             '[ap 09:15] The 39 Steps - John Buchan.epub (OPS/xhtml/c03.html) - 9.15',
             "\x{2018}That\x{2019}s what Kipling says,\x{2019} he said, his eyes brightening, and he quoted some verse
             about \x{2018}Romance bringing up the <<9.15|5a:0>>\x{2019}.",
+          ],
+          [
+            1,
+            '[12:00] The 39 Steps - John Buchan.epub (OPS/xhtml/c03.html) - midday',
+            "He came back at <<midday|13>> with the Scotsman. There was nothing in it, except some further evidence of Paddock and the milkman,
+            and a repetition of yesterday\x{2019}s statement that the murderer had gone North. But there
+            was a long article, reprinted from The Times, about Karolides and the state of affairs in the Balkans, though there was no mention
+            of any visit to England. I got rid of the innkeeper for the afternoon, for I was getting
+            very warm in my search for the cypher.",
           ],
           [
             1,

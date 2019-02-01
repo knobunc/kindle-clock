@@ -122,7 +122,7 @@ $VAR1 = [
           [
             1,
             '[ap ~ 07:00] The Boy Who Followed Ripley - Patricia Highsmith.epub (text/part0008.html) - Around seven',
-            "\x{201c}<<Around seven|9e>>, eight.\x{201d} The boy\x{2019}s voice cracked. \x{201c}My father always watched the sunset\x{2014}nearly every evening in summer. I hadn\x{2019}t\x{2014}\x{201d}",
+            "\x{201c}<<Around seven|9:0>>, eight.\x{201d} The boy\x{2019}s voice cracked. \x{201c}My father always watched the sunset\x{2014}nearly every evening in summer. I hadn\x{2019}t\x{2014}\x{201d}",
           ],
           [
             1,
@@ -139,7 +139,7 @@ Tom checked his own, early by a minute. \x{201c}If you want the typewriter later
           [
             1,
             '[ap ~ 08:30] The Boy Who Followed Ripley - Patricia Highsmith.epub (text/part0008.html) - around eight-thirty',
-            "Tom admitted his weakness with a nod and a polite smile. \x{201c}Liver of yellow,\x{201d} Tom said in French, the phrase useless, he realized, because he had meant to translate either lily-livered or yellow-bellied. No matter. \x{201c}Madame Annette, another guest tomorrow, but just for Sunday night till Monday morning. A gentleman. I\x{2019}ll bring him home <<around eight-thirty|5k:1>> for dinner, and he\x{2019}ll have the young man\x{2019}s room, and I\x{2019}ll sleep in the room of my wife. Monsieur Billy will sleep in my room. I\x{2019}ll remind you tomorrow.\x{201d} But he knew he wouldn\x{2019}t need to remind her.",
+            "Tom admitted his weakness with a nod and a polite smile. \x{201c}Liver of yellow,\x{201d} Tom said in French, the phrase useless, he realized, because he had meant to translate either lily-livered or yellow-bellied. No matter. \x{201c}Madame Annette, another guest tomorrow, but just for Sunday night till Monday morning. A gentleman. I\x{2019}ll bring him home <<around eight-thirty|3b>> for dinner, and he\x{2019}ll have the young man\x{2019}s room, and I\x{2019}ll sleep in the room of my wife. Monsieur Billy will sleep in my room. I\x{2019}ll remind you tomorrow.\x{201d} But he knew he wouldn\x{2019}t need to remind her.",
           ],
           [
             1,
@@ -346,7 +346,7 @@ That would be all right.",
           [
             1,
             '[ap ~ 11:00] The Boy Who Followed Ripley - Patricia Highsmith.epub (text/part0014.html) - Around eleven',
-            "<<Around eleven|9e>>, Eric proposed ringing the H\x{f4}tel Lutetia. Tom had refrained from mentioning it, lest Eric call him nervous again.",
+            "<<Around eleven|9:0>>, Eric proposed ringing the H\x{f4}tel Lutetia. Tom had refrained from mentioning it, lest Eric call him nervous again.",
           ],
           [
             1,
@@ -466,7 +466,7 @@ That would be all right.",
           [
             1,
             '[15:00] The Boy Who Followed Ripley - Patricia Highsmith.epub (text/part0018.html) - three this afternoon',
-            "\x{201c}Again I have a date at <<three this afternoon|9a>>,\x{201d} Eric said. \x{201c}Not Kreuzberg. Want to come?\x{201d}",
+            "\x{201c}Again I have a date at <<three this afternoon|5>>,\x{201d} Eric said. \x{201c}Not Kreuzberg. Want to come?\x{201d}",
           ],
           [
             1,
@@ -575,7 +575,7 @@ Max said no, he would call back.",
           [
             1,
             '[19:00] The Boy Who Followed Ripley - Patricia Highsmith.epub (text/part0020.html) - seven this evening',
-            "Reeves carried another glass to Frank. Then Reeves went into his kitchen, and Tom followed him. From his refrigerator, Reeves produced a platter of sliced ham, cole slaw, and a variety of sliced sausages and pickles. Reeves said it was Gaby\x{2019}s production. Gaby lived in the building with some other people who employed her, and she had insisted on coming in at <<seven this evening|9a>> after her late shopping to \x{201c}arrange\x{201d} what she had bought for Reeves\x{2019}s guests. \x{201c}I\x{2019}m lucky, she likes me,\x{201d} Reeves said. \x{201c}Finds my place more interesting than where she sleeps\x{2014}in spite of that damned bomb here. Well, she happened to be out at the time it hit.\x{201d}",
+            "Reeves carried another glass to Frank. Then Reeves went into his kitchen, and Tom followed him. From his refrigerator, Reeves produced a platter of sliced ham, cole slaw, and a variety of sliced sausages and pickles. Reeves said it was Gaby\x{2019}s production. Gaby lived in the building with some other people who employed her, and she had insisted on coming in at <<seven this evening|5>> after her late shopping to \x{201c}arrange\x{201d} what she had bought for Reeves\x{2019}s guests. \x{201c}I\x{2019}m lucky, she likes me,\x{201d} Reeves said. \x{201c}Finds my place more interesting than where she sleeps\x{2014}in spite of that damned bomb here. Well, she happened to be out at the time it hit.\x{201d}",
           ],
           [
             1,
@@ -605,7 +605,7 @@ Max said no, he would call back.",
           [
             1,
             '[ap 04:00] The Boy Who Followed Ripley - Patricia Highsmith.epub (text/part0021.html) - four',
-            "A female friend, Tom noticed. \x{201c}Tell her I\x{2019}ll be home this afternoon, maybe around\x{2014}oh, by <<four|9e>>, I hope. By <<six-thirty|5b>> anyway,\x{201d} he added, remembering the gap between trains from <<a little past 2 p.m.|5>> until <<5 p.m.|5>> something at Gare de Lyon.",
+            "A female friend, Tom noticed. \x{201c}Tell her I\x{2019}ll be home this afternoon, maybe around\x{2014}oh, by <<four|9:1>>, I hope. By <<six-thirty|5b>> anyway,\x{201d} he added, remembering the gap between trains from <<a little past 2 p.m.|5>> until <<5 p.m.|5>> something at Gare de Lyon.",
           ],
           [
             1,
@@ -615,7 +615,7 @@ Max said no, he would call back.",
           [
             1,
             '[ap ~ 08:00] The Boy Who Followed Ripley - Patricia Highsmith.epub (text/part0022.html) - Around eight',
-            "<<Around eight|9e>>, Tom called Frank down for dinner, and opened two beers for them. Frank had not been asleep, but Tom hoped he had had a nap. Tom caught up on Heloise\x{2019}s family news: her mother was quite all right now, no operation necessary, but the doctor had put her on a regime of no salt and no fats, the time-honored French prescription, Tom thought, when the doctor didn\x{2019}t know what else to say or do. Heloise said she had rung up her family that afternoon to say she would not have her usual date with them tonight, because Tom had just come back.",
+            "<<Around eight|9:0>>, Tom called Frank down for dinner, and opened two beers for them. Frank had not been asleep, but Tom hoped he had had a nap. Tom caught up on Heloise\x{2019}s family news: her mother was quite all right now, no operation necessary, but the doctor had put her on a regime of no salt and no fats, the time-honored French prescription, Tom thought, when the doctor didn\x{2019}t know what else to say or do. Heloise said she had rung up her family that afternoon to say she would not have her usual date with them tonight, because Tom had just come back.",
           ],
           [
             1,
@@ -652,7 +652,7 @@ Tom took another warm shower, and looked forward to sleeping. Just that morning 
           [
             1,
             '[12:00] The Boy Who Followed Ripley - Patricia Highsmith.epub (text/part0023.html) - noon',
-            "\x{201c}Not quite sure, sir. Sounded as if she might\x{2019}ve had a slight heart attack. I know they sent for the doctor. This was at <<noon|9a>> today. Your mother telephoned. I drove down yesterday with her and we stayed the night at the apartment. She wanted to meet you in New York.\x{201d} Eugene smiled. \x{201c}I\x{2019}ll just go get the car. Back in two minutes.\x{201d}",
+            "\x{201c}Not quite sure, sir. Sounded as if she might\x{2019}ve had a slight heart attack. I know they sent for the doctor. This was at <<noon|3b>> today. Your mother telephoned. I drove down yesterday with her and we stayed the night at the apartment. She wanted to meet you in New York.\x{201d} Eugene smiled. \x{201c}I\x{2019}ll just go get the car. Back in two minutes.\x{201d}",
           ],
           [
             1,
@@ -682,7 +682,7 @@ Tom took another warm shower, and looked forward to sleeping. Just that morning 
           [
             1,
             '[ap 03:00] The Boy Who Followed Ripley - Patricia Highsmith.epub (text/part0024.html) - three',
-            "By <<three|9e>>, Tom had made his arrangements, reserved a place on an early evening flight from Bangor to Kennedy Airport, and Eugene would drive him to Bangor. Tom packed his suitcase but did not close it. He went into the hall and tapped on Frank\x{2019}s slightly open door. There was no answer. Tom pushed the door wider and went in. The room was empty and tidy, the bed probably having been made by Evangelina. On Frank\x{2019}s desk sat the Berlin bear, some twelve inches high, its beady brown eyes ringed with yellow, its mouth jolly though closed. Tom remembered Frank\x{2019}s amusement at the handwritten sign: 3 W\x{dc}RFE 1 MARK. Frank had thought W\x{fc}rfe a funny word for throws, because it sounded like something to eat, or maybe a dog\x{2019}s bark. How had the little bear survived a kidnapping, a murder, a couple of airplane trips, and come out looking as fluffy and cheerful as ever? Tom had wanted to ask Frank to join him for another walk to the cliff. Tom had the feeling that if he could get the boy used to the cliff, though \x{201c}used\x{201d} wasn\x{2019}t quite the right word for it, Frank\x{2019}s guilt might be diminished.",
+            "By <<three|9:0>>, Tom had made his arrangements, reserved a place on an early evening flight from Bangor to Kennedy Airport, and Eugene would drive him to Bangor. Tom packed his suitcase but did not close it. He went into the hall and tapped on Frank\x{2019}s slightly open door. There was no answer. Tom pushed the door wider and went in. The room was empty and tidy, the bed probably having been made by Evangelina. On Frank\x{2019}s desk sat the Berlin bear, some twelve inches high, its beady brown eyes ringed with yellow, its mouth jolly though closed. Tom remembered Frank\x{2019}s amusement at the handwritten sign: 3 W\x{dc}RFE 1 MARK. Frank had thought W\x{fc}rfe a funny word for throws, because it sounded like something to eat, or maybe a dog\x{2019}s bark. How had the little bear survived a kidnapping, a murder, a couple of airplane trips, and come out looking as fluffy and cheerful as ever? Tom had wanted to ask Frank to join him for another walk to the cliff. Tom had the feeling that if he could get the boy used to the cliff, though \x{201c}used\x{201d} wasn\x{2019}t quite the right word for it, Frank\x{2019}s guilt might be diminished.",
           ],
           [
             1,
@@ -692,7 +692,7 @@ Tom took another warm shower, and looked forward to sleeping. Just that morning 
           [
             1,
             '[ap < 05:00] The Boy Who Followed Ripley - Patricia Highsmith.epub (text/part0025.html) - nearly five',
-            "Frank was not in the room. The gramophone cover was off, with a record on it, but the machine was not turning. Tom saw that it was the Lou Reed Transformer, the second side, which Heloise had put on at Belle Ombre. Tom glanced at his watch: <<nearly five|9e>>, and he and Eugene were supposed to leave at <<five|9c:1>>. Probably Eugene was downstairs at the back of the house where the servants\x{2019} quarters seemed to be.",
+            "Frank was not in the room. The gramophone cover was off, with a record on it, but the machine was not turning. Tom saw that it was the Lou Reed Transformer, the second side, which Heloise had put on at Belle Ombre. Tom glanced at his watch: <<nearly five|9:1>>, and he and Eugene were supposed to leave at <<five|9c:1>>. Probably Eugene was downstairs at the back of the house where the servants\x{2019} quarters seemed to be.",
           ],
           [
             1,

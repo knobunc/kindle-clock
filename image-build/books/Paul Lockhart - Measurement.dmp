@@ -12,7 +12,7 @@ $VAR1 = [
           [
             1,
             '[ap 04:17] Measurement - Paul Lockhart.epub (text/part0009.html) - 417',
-            "For example, if we have two piles of sizes 231 and 186, what is the code for their sum; that is, the pile we get when we push the two piles together? As I am sure you are aware, there is a well-known system for determining this sort of thing: 6 plus 1 is 7, 8 plus 3 is 11, carry the 1, add that to 2, plus 1 is 4, so it\x{2019}s <<417|9f>>.",
+            "For example, if we have two piles of sizes 231 and 186, what is the code for their sum; that is, the pile we get when we push the two piles together? As I am sure you are aware, there is a well-known system for determining this sort of thing: 6 plus 1 is 7, 8 plus 3 is 11, carry the 1, add that to 2, plus 1 is 4, so it\x{2019}s <<417|9c:0>>.",
           ],
           [
             1,
@@ -23,5 +23,12 @@ $VAR1 = [
             1,
             '[ap 01:57] Measurement - Paul Lockhart.epub (text/part0009.html) - 1.57',
             "So 3/2 = 1.5 should be a so-so estimate, and 11/7 \x{2248} <<1.57|5a:0>> a pretty good one. The point is that we don\x{2019}t need an exact value for the exponent in order to navigate a ship or any other mundane purpose like that. If we cared enough, we could even obtain an extremely accurate estimate like 1.56820. Of course, it would require an enormous amount of work to obtain such approximations for every number we might wish to use, but just as for trigonometric tables, the work would only have to be done once. And this is just what Napier set out to do.",
+          ],
+          [
+            1,
+            "[ap 10:11] Measurement - Paul Lockhart.epub (text/part0011.html) - 10\x{2013}11",
+            "Surface, 217, 218
+Symmetry, <<10\x{2013}11|5a:0>>, 13, 23, 26, 107, 112, 116, 122, 135, 170, 177
+Synthesis, 351, 381",
           ],
         ];

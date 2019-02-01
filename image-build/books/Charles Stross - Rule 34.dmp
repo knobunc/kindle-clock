@@ -6,11 +6,6 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 01:12] Rule 34 - Charles Stross.epub (OEBPS/Text/dummy_split_009.html) - 112',
-            "\x{201c}Aye, mam. I\x{2019}m on Dean Park Mews, attendin\x{2019} an accidental death, no witnesses. Constable Berman was first responder, an\x{2019} she called me in.\x{201d} Jase pauses for a moment. There\x{2019}s something odd about his voice, and there\x{2019}s no video. \x{201c}Victim\x{2019}s cleaner was first on the scene, she had a wee panic, then called <<112|9f>>. Berman\x{2019}s got her sittin\x{2019} doon with a cuppa in the living room while I log the scene.\x{201d}",
-          ],
-          [
-            1,
             '[ap 00:50] Rule 34 - Charles Stross.epub (OEBPS/Text/dummy_split_009.html) - Ten to one',
             "\x{201c}Call SOC. I want a full scene work-up. I want that thing\x{201d}\x{2014}you gesture at the Cold-War-era bathroom nightmare\x{2014}\x{201c}taken in as evidence. The fluid, whatever, get it to forensics for a full report: <<Ten to one|10a:0>> there\x{2019}s something dodgy in it.\x{201d} You look him in the eye. \x{201c}Sorry, Jase, but we\x{2019}re gannae be working late on this.\x{201d}",
           ],
@@ -23,6 +18,11 @@ $VAR1 = [
             1,
             "[ap 04:00] Rule 34 - Charles Stross.epub (OEBPS/Text/dummy_split_011.html) - four o\x{2019}clock",
             "It\x{2019}s <<four o\x{2019}clock|6>> on a Saturday afternoon: Have you got somewhere safe to hide?",
+          ],
+          [
+            1,
+            '[00:00] Rule 34 - Charles Stross.epub (OEBPS/Text/dummy_split_012.html) - midnight',
+            "\x{201c}He\x{2019}s HIV-positive, and had blood-pressure issues on top. He\x{2019}s on Ritonavir and a bunch of blood-pressure meds. There\x{2019}s a bunch of open packets of capsules in the bathroom cabinet; but they\x{2019}re none of them administered by enema. The patient information for the HIV drug is full of warnings about Viagra, not that most eejits bother reading the leaflet. And there\x{2019}s a bunch of empty capsule shells in the bathroom bin.\x{201d} And there, in a nutshell, is the veiled accusation: murder most foul. \x{201c}We got a core temperature reading that suggests he was lying there since <<midnight|13>> the day before. I\x{2019}m still waiting on the post-mortem report, but my money\x{2019}s on the first option\x{2014}someone who knew about Laughing Boy\x{2019}s dangerous habit spiked the cocktail. That machine . . .\x{201d} He points at a 3D projection of the death scene, floating atop one of the surfaces. \x{201c}It\x{2019}s a collector\x{2019}s piece.\x{201d}",
           ],
           [
             1,

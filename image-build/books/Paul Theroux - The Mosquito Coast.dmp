@@ -2,7 +2,7 @@ $VAR1 = [
           [
             1,
             '[03:00] The Mosquito Coast - Paul Theroux.epub (OPS/back01.xml) - three in the morning',
-            "His father beamed with surprise when he saw him, as though Ellis\x{2019}s return was a coincidence, nothing to do with his failing health. They kissed, they held hands, and less than two weeks later, struggling to breathe, Ellis hugging the old man\x{2019}s limp body, his father died. It was <<three in the morning|9a>>; his mother had gone home to sleep.",
+            "His father beamed with surprise when he saw him, as though Ellis\x{2019}s return was a coincidence, nothing to do with his failing health. They kissed, they held hands, and less than two weeks later, struggling to breathe, Ellis hugging the old man\x{2019}s limp body, his father died. It was <<three in the morning|5>>; his mother had gone home to sleep.",
           ],
           [
             1,
@@ -62,7 +62,7 @@ $VAR1 = [
           [
             1,
             '[15:00] The Mosquito Coast - Paul Theroux.epub (OPS/c009.xml) - three in the afternoon',
-            "It was only <<three in the afternoon|9a>>, but the sky was blankety gray and the sea swells layered with the chips that were beaten to spittle and moved as slow as paste along the rolling slopes. I staggered, but it was not from the scare I had got on the shroud\x{2014}Jerry and the twins were staggering, too.",
+            "It was only <<three in the afternoon|5>>, but the sky was blankety gray and the sea swells layered with the chips that were beaten to spittle and moved as slow as paste along the rolling slopes. I staggered, but it was not from the scare I had got on the shroud\x{2014}Jerry and the twins were staggering, too.",
           ],
           [
             1,
@@ -88,6 +88,11 @@ $VAR1 = [
             1,
             '[12:00] The Mosquito Coast - Paul Theroux.epub (OPS/c011.xml) - noon',
             "We managed fifteen miles or more, traveling upriver until <<noon|13>>, before Mr. Haddy began shouting about rock-stones all around. He didn\x{2019}t give signals, he just howled. The water was not so muddy here\x{2014}I could see eels and schools of tiny fish on the gravel bottom. In places there was barely enough room between the banks for the launch\x{2019}s width to squeeze through, and the rapid water slowed us and splashed onto the deck.",
+          ],
+          [
+            1,
+            '[ap 03:15] The Mosquito Coast - Paul Theroux.epub (OPS/c014.xml) - three-fifteen',
+            'I had been working the bellows. I dropped it and wiped my hands and looked at all the clock faces. They were saying <<three-fifteen|5k:1>> with their worried squints, and I wondered why. Some were fixed on me, others on Father. If they had not looked so flat and fearful I would have felt better about going into Fat Boy. But they worried my guts.',
           ],
           [
             1,

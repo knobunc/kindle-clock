@@ -29,7 +29,7 @@ $VAR1 = [
           [
             1,
             "[ap ~ 04:00] Woken Furies - Richard K. Morgan.epub (OEBPS/Text/Morg_9780345486127_epub_c12_r1.htm) - \x{2019}Bout four",
-            "\x{201c}Nah, whole squad of enforcer types with him. <<\x{2019}Bout four|9e>>, five of them. Millsport accents.\x{201d}",
+            "\x{201c}Nah, whole squad of enforcer types with him. <<\x{2019}Bout four|9:0>>, five of them. Millsport accents.\x{201d}",
           ],
           [
             1,
@@ -77,10 +77,5 @@ I yawned and looked around the room. \x{201c}Does this place run any defensive s
             1,
             '[~ 12:00] Woken Furies - Richard K. Morgan.epub (OEBPS/Text/Morg_9780345486127_epub_c40_r1.htm) - around noon',
             "Faint, pervasive reek of rotting belaweed, poorly kept fa\x{e7}ades, and grumpy staff. Narrow streets, sliced with angles of hot sunlight. Damp, debris-strewn corners that only ever dried out in the hours <<around noon|13>>. A desultory coming and going of tourists who already looked miserable and exhausted with their cut-rate attempts at fun in the sun. I wandered through it all, trying to let the Envoy sense do the work, trying to suppress my headache and the pounding hatred that surged for release underneath.",
-          ],
-          [
-            1,
-            '[ap ~ 05:00] Woken Furies - Richard K. Morgan.epub (OEBPS/Text/Morg_9780345486127_epub_c46_r1.htm) - about five',
-            'The overall honeycomb structure the nine pits formed rose <<about five|9b>> meters out of the shallow waters of the Expanse and backed onto the low-lying bubbles of the wet-bunker complex at one side. Adjacent to this edge of the pits and crisscrossed with more gantried service walkways were the rows of smaller feeding pens and long rectangular exercise runs that Impaler had smashed through on her way into the farm. As near as I could make out, it was from the edge of this mangled wreckage that the blaster had fired.',
           ],
         ];

@@ -32,6 +32,6 @@ $VAR1 = [
           [
             1,
             '[ap ~ 11:00] City - Clifford D. Simak.epub (OEBPS/Text/City_split_018.html) - Around eleven',
-            "\x{201c}Ten thousand years,\x{201d} he said. \x{201c}No, I guess it\x{2019}s nearer twelve. <<Around eleven|9e>>, maybe.\x{201d}",
+            "\x{201c}Ten thousand years,\x{201d} he said. \x{201c}No, I guess it\x{2019}s nearer twelve. <<Around eleven|9:0>>, maybe.\x{201d}",
           ],
         ];

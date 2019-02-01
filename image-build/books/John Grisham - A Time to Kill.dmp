@@ -49,7 +49,7 @@ Looney nodded.",
           [
             1,
             '[ap 08:30] A Time to Kill - John Grisham.epub (OEBPS/Gris_9780307576132_epub_c003_r1.htm) - eight-thirty',
-            "Jake\x{2019}s quiet time was from seven until Ethel arrived at <<eight-thirty|5b>>. He was jealous with this time. He locked the front door, ignored the phone, and refused to make appointments. He meticulously planned his day. By <<eight-thirty|5b>> he would have enough work dictated to keep Ethel busy and quiet until <<noon|13>>. By <<nine|9e>> he was either in court or seeing clients. He would not take calls until <<eleven|9c:1>>, when he methodically returned the morning\x{2019}s messages\x{2014}all of them. He never delayed returning a phone call\x{2014}another rule. Jake worked systematically and efficiently with little wasted time. These habits he had not learned from Lucien.",
+            "Jake\x{2019}s quiet time was from seven until Ethel arrived at <<eight-thirty|5b>>. He was jealous with this time. He locked the front door, ignored the phone, and refused to make appointments. He meticulously planned his day. By <<eight-thirty|5b>> he would have enough work dictated to keep Ethel busy and quiet until <<noon|13>>. By <<nine|9:1>> he was either in court or seeing clients. He would not take calls until <<eleven|9c:1>>, when he methodically returned the morning\x{2019}s messages\x{2014}all of them. He never delayed returning a phone call\x{2014}another rule. Jake worked systematically and efficiently with little wasted time. These habits he had not learned from Lucien.",
           ],
           [
             1,
@@ -71,7 +71,7 @@ Looney nodded.",
           [
             1,
             '[13:00] A Time to Kill - John Grisham.epub (OEBPS/Gris_9780307576132_epub_c003_r1.htm) - one this afternoon',
-            "\x{201c}But she says she must find a lawyer. Her son has to be in court at <<one this afternoon|9a>>.\x{201d}",
+            "\x{201c}But she says she must find a lawyer. Her son has to be in court at <<one this afternoon|5>>.\x{201d}",
           ],
           [
             1,
@@ -130,7 +130,7 @@ ________',
             1,
             '[ap 11:00] A Time to Kill - John Grisham.epub (OEBPS/Gris_9780307576132_epub_c006_r1.htm) - eleven',
             "As usual, Jake worked Saturday morning, after breakfast at the Coffee Shop. He enjoyed the tranquility of his office on Saturday\x{2014}no phones, no Ethel. He locked the office, ignored the phone, and avoided clients. He organized files, read recent decisions from the Supreme Court and planned strategy if a trial was approaching. His best thoughts and ideas came during quiet Saturday mornings.
-At <<eleven|9e>> he phoned the jail. \x{201c}Sheriff in?\x{201d} he asked the dispatcher.
+At <<eleven|9m:1>> he phoned the jail. \x{201c}Sheriff in?\x{201d} he asked the dispatcher.
 \x{201c}Lemme check,\x{201d} came the reply.",
           ],
           [
@@ -257,7 +257,7 @@ At <<nine|9m:0>> Ethel called Jake. Bullard was holding.
           [
             1,
             '[ap 10:00] A Time to Kill - John Grisham.epub (OEBPS/Gris_9780307576132_epub_c013_r1.htm) - ten',
-            'At <<ten|9e>>, Jake and Carla laid cross-legged and tangled in the dark on the sofa, waiting on the news.',
+            'At <<ten|9m:1>>, Jake and Carla laid cross-legged and tangled in the dark on the sofa, waiting on the news.',
           ],
           [
             1,
@@ -594,7 +594,7 @@ Jake breathed deeply and replied slowly. \x{201c}Okay, I\x{2019}ll be there. Whe
           [
             1,
             '[ap 05:00] A Time to Kill - John Grisham.epub (OEBPS/Gris_9780307576132_epub_c025_r1.htm) - five',
-            "Fifteen minutes later they left Clanton. Jake drove and Carla ignored him. At <<five|9e>>, they ate breakfast in the Memphis airport. Hanna was sleepy but excited about seeing her grandparents. Carla said little. She had much to say, but as a rule, they didn\x{2019}t argue in front of Hanna. She ate quietly and sipped her coffee and watched her husband casually read the paper as if nothing had happened.",
+            "Fifteen minutes later they left Clanton. Jake drove and Carla ignored him. At <<five|9m:1>>, they ate breakfast in the Memphis airport. Hanna was sleepy but excited about seeing her grandparents. Carla said little. She had much to say, but as a rule, they didn\x{2019}t argue in front of Hanna. She ate quietly and sipped her coffee and watched her husband casually read the paper as if nothing had happened.",
           ],
           [
             1,
@@ -641,7 +641,7 @@ ________",
           [
             1,
             '[ap > 06:00] A Time to Kill - John Grisham.epub (OEBPS/Gris_9780307576132_epub_c026_r1.htm) - After six',
-            "Why? That was always the question the next morning. Why did he do it? A cold beer was refreshing. Maybe two or three. But ten, fifteen, even twenty? He had lost count. <<After six|9e>>, beer lost its taste, and from then on the drinking was just for the sake of drinking and getting drunk. Lucien had been very helpful. Before dark he had sent Sallie to the store for a whole case of Coors, which he gladly paid for, then encouraged Jake to drink. There were a few cans left. It was Lucien\x{2019}s fault.",
+            "Why? That was always the question the next morning. Why did he do it? A cold beer was refreshing. Maybe two or three. But ten, fifteen, even twenty? He had lost count. <<After six|9:0>>, beer lost its taste, and from then on the drinking was just for the sake of drinking and getting drunk. Lucien had been very helpful. Before dark he had sent Sallie to the store for a whole case of Coors, which he gladly paid for, then encouraged Jake to drink. There were a few cans left. It was Lucien\x{2019}s fault.",
           ],
           [
             1,
@@ -731,9 +731,14 @@ ________",
           ],
           [
             1,
+            '[> 00:00] A Time to Kill - John Grisham.epub (OEBPS/Gris_9780307576132_epub_c027_r1.htm) - after midnight',
+            'Jake left the hospital <<after midnight|13>> with Bud still alive but everyone pessimistic. Along with the broken bones he had suffered another major heart attack. Ethel had made a scene and blamed it all on Jake.',
+          ],
+          [
+            1,
             '[14:00] A Time to Kill - John Grisham.epub (OEBPS/Gris_9780307576132_epub_c028_r1.htm) - two this afternoon',
             "Nine hundred minus five hundred left Jake with four hundred dollars for a capital murder defense. That had to be a record. Four hundred dollars! He had an idea.
-\x{201c}Can you be at my office at <<two this afternoon|9a>>?\x{201d}
+\x{201c}Can you be at my office at <<two this afternoon|5>>?\x{201d}
 \x{201c}I\x{2019}ll have to bring the kids.\x{201d}",
           ],
           [
@@ -808,7 +813,7 @@ ________",
           [
             1,
             '[05:00] A Time to Kill - John Grisham.epub (OEBPS/Gris_9780307576132_epub_c032_r1.htm) - five this morning',
-            "\x{201c}They woke me at <<five this morning|9a>>. I\x{2019}ve followed their movements all day. They were pinned down a couple of times, but reinforcements arrived. A few minutes ago they met the enemy when Miss Gatewood and her friends arrived with their candles. She stared them down, so now they\x{2019}re playing cards.\x{201d}",
+            "\x{201c}They woke me at <<five this morning|5>>. I\x{2019}ve followed their movements all day. They were pinned down a couple of times, but reinforcements arrived. A few minutes ago they met the enemy when Miss Gatewood and her friends arrived with their candles. She stared them down, so now they\x{2019}re playing cards.\x{201d}",
           ],
           [
             1,
@@ -827,13 +832,13 @@ ________",
           ],
           [
             1,
-            '[ap 06:00] A Time to Kill - John Grisham.epub (OEBPS/Gris_9780307576132_epub_c033_r1.htm) - six',
-            "At <<six|9m:0>>\x{2014}seven in Wilmington\x{2014}Jake called Carla. She was awake, reading the paper, drinking coffee. He told her about Bud Twitty, and Mickey Mouse, and the promise of more violence. No, he wasn\x{2019}t afraid of that. It did not bother him. He was afraid of the jury, of the twelve who would be chosen, and their reaction to him and his client. His only fear, at the moment, was of what the jury might do to his client. Everything else was irrelevant. For the first time, she did not mention coming home. He promised to call that night.",
+            "[ap 06:07] A Time to Kill - John Grisham.epub (OEBPS/Gris_9780307576132_epub_c033_r1.htm) - six\x{2014}seven",
+            "At <<six\x{2014}seven|5b>> in Wilmington\x{2014}Jake called Carla. She was awake, reading the paper, drinking coffee. He told her about Bud Twitty, and Mickey Mouse, and the promise of more violence. No, he wasn\x{2019}t afraid of that. It did not bother him. He was afraid of the jury, of the twelve who would be chosen, and their reaction to him and his client. His only fear, at the moment, was of what the jury might do to his client. Everything else was irrelevant. For the first time, she did not mention coming home. He promised to call that night.",
           ],
           [
             1,
             '[ap 09:00] A Time to Kill - John Grisham.epub (OEBPS/Gris_9780307576132_epub_c033_r1.htm) - nine',
-            "\x{201c}After the sun comes up, we start the trial. At <<nine|9e>>, Noose will say a few words to the jurors and we start the selection process.\x{201d}",
+            "\x{201c}After the sun comes up, we start the trial. At <<nine|9m:0>>, Noose will say a few words to the jurors and we start the selection process.\x{201d}",
           ],
           [
             1,
@@ -855,7 +860,7 @@ ________",
           [
             1,
             '[ap 08:00] A Time to Kill - John Grisham.epub (OEBPS/Gris_9780307576132_epub_c033_r1.htm) - eight',
-            'At <<eight|9e>>, a metal detector was moved to the front doors of the courtroom, and a trio of heavily armed deputies began slowly searching and admitting the crowd of spectators that now filled the rotunda and trailed off into the halls. Inside the courtroom, Prather directed traffic, seating people on the long pews on one side of the aisle while reserving the other side for the jurors. The front pew was reserved for the family, and the second row was filled with courtroom artists who immediately began sketching the bench and the bar and the portraits of Confederate heroes.',
+            'At <<eight|9m:0>>, a metal detector was moved to the front doors of the courtroom, and a trio of heavily armed deputies began slowly searching and admitting the crowd of spectators that now filled the rotunda and trailed off into the halls. Inside the courtroom, Prather directed traffic, seating people on the long pews on one side of the aisle while reserving the other side for the jurors. The front pew was reserved for the family, and the second row was filled with courtroom artists who immediately began sketching the bench and the bar and the portraits of Confederate heroes.',
           ],
           [
             1,
@@ -865,7 +870,7 @@ ________",
           [
             1,
             '[ap 11:00] A Time to Kill - John Grisham.epub (OEBPS/Gris_9780307576132_epub_c033_r1.htm) - eleven',
-            'At <<eleven|9e>>, Noose reassumed the bench, and the courtroom was silenced. Someone suggested he should use the mike, and he placed it within inches of his nose. He spoke loudly, and his fragile, obnoxious voice rattled violently around the courtroom as he asked a lengthy series of statutorily required questions. He introduced Carl Lee and asked if any juror was kin to him or knew him. They all knew of him, and Noose assumed that, but only two of the panel admitted knowing him prior to May. Noose introduced the lawyers, then explained briefly the nature of the charges. Not a single juror confessed to being ignorant of the Hailey case.',
+            'At <<eleven|9m:1>>, Noose reassumed the bench, and the courtroom was silenced. Someone suggested he should use the mike, and he placed it within inches of his nose. He spoke loudly, and his fragile, obnoxious voice rattled violently around the courtroom as he asked a lengthy series of statutorily required questions. He introduced Carl Lee and asked if any juror was kin to him or knew him. They all knew of him, and Noose assumed that, but only two of the panel admitted knowing him prior to May. Noose introduced the lawyers, then explained briefly the nature of the charges. Not a single juror confessed to being ignorant of the Hailey case.',
           ],
           [
             1,
@@ -897,7 +902,7 @@ Noose rapped his gavel at <<two|9c:1>> and the courtroom came to order.
           [
             1,
             '[ap 09:00] A Time to Kill - John Grisham.epub (OEBPS/Gris_9780307576132_epub_c034_r1.htm) - nine',
-            'At <<nine|9e>>, Ichabod said good morning to the standing-room-only crowd. Buckley stood slowly and with great animation informed His Honor that he had no further questions for the panel.',
+            'At <<nine|9m:0>>, Ichabod said good morning to the standing-room-only crowd. Buckley stood slowly and with great animation informed His Honor that he had no further questions for the panel.',
           ],
           [
             1,
@@ -907,7 +912,7 @@ Noose rapped his gavel at <<two|9c:1>> and the courtroom came to order.
           [
             1,
             '[ap 07:00] A Time to Kill - John Grisham.epub (OEBPS/Gris_9780307576132_epub_c034_r1.htm) - seven',
-            'By <<seven|9e>>, the families had responded with a wild assortment of luggage and boxes. The chosen ones loaded a chartered Greyhound bus outside the rear door. Preceded by two patrol cars and an army jeep and followed by three state troopers, the bus circled the square and left Clanton.',
+            'By <<seven|9:0>>, the families had responded with a wild assortment of luggage and boxes. The chosen ones loaded a chartered Greyhound bus outside the rear door. Preceded by two patrol cars and an army jeep and followed by three state troopers, the bus circled the square and left Clanton.',
           ],
           [
             1,
@@ -978,6 +983,11 @@ Noose rapped his gavel at <<two|9c:1>> and the courtroom came to order.
           ],
           [
             1,
+            '[ap 00:49] A Time to Kill - John Grisham.epub (OEBPS/Gris_9780307576132_epub_c036_r1.htm) - eleven to one',
+            "But the trial changed things. The shade trees around the courthouse were in a combat zone. The cafes were full from <<eleven to one|10a:0>> with soldiers and strangers who couldn\x{2019}t get seats in the courtroom. The Chinese Deli was packed with foreigners. The office girls ran their errands and ate at their desks.",
+          ],
+          [
+            1,
             '[16:00] A Time to Kill - John Grisham.epub (OEBPS/Gris_9780307576132_epub_c036_r1.htm) - 4:00 P.M.',
             "\x{201c}We have one final witness, Your Honor,\x{201d} Buckley said with great finality at <<4:00 P.M.|2a>> \x{201c}Officer DeWayne Looney.\x{201d}",
           ],
@@ -998,7 +1008,7 @@ Noose rapped his gavel at <<two|9c:1>> and the courtroom came to order.
           [
             1,
             '[ap 05:30] A Time to Kill - John Grisham.epub (OEBPS/Gris_9780307576132_epub_c037_r1.htm) - five-thirty',
-            'At <<five-thirty|5b>>, they rushed him into his office and locked the door. At <<eight|9e>>, a platoon of soldiers gathered on the sidewalk under the balcony and waited for the target. Harry Rex and Ellen watched from the second floor of the courthouse. Jake squeezed between Ozzie and Nesbit, and the three of them crouched in the center tight formation. Off they went across Washington Street in the direction of the courthouse. The vultures sniffed something and surrounded the entourage.',
+            'At <<five-thirty|5b>>, they rushed him into his office and locked the door. At <<eight|9m:0>>, a platoon of soldiers gathered on the sidewalk under the balcony and waited for the target. Harry Rex and Ellen watched from the second floor of the courthouse. Jake squeezed between Ozzie and Nesbit, and the three of them crouched in the center tight formation. Off they went across Washington Street in the direction of the courthouse. The vultures sniffed something and surrounded the entourage.',
           ],
           [
             1,
@@ -1025,7 +1035,7 @@ Noose rapped his gavel at <<two|9c:1>> and the courtroom came to order.
           [
             1,
             '[ap 07:00] A Time to Kill - John Grisham.epub (OEBPS/Gris_9780307576132_epub_c038_r1.htm) - seven',
-            "By <<seven|9e>>, the cafes downtown were at full capacity serving nonregulars. For every customer who was awarded a seat, two were turned away and left to loiter around the square and the courthouse and wait for a seat in the courtroom. Most of them paused for a moment in front of the lawyer\x{2019}s office, hoping to catch a glimpse of the one they tried to kill. The braggarts told of being clients of this famous man.",
+            "By <<seven|9:0>>, the cafes downtown were at full capacity serving nonregulars. For every customer who was awarded a seat, two were turned away and left to loiter around the square and the courthouse and wait for a seat in the courtroom. Most of them paused for a moment in front of the lawyer\x{2019}s office, hoping to catch a glimpse of the one they tried to kill. The braggarts told of being clients of this famous man.",
           ],
           [
             1,
@@ -1042,7 +1052,7 @@ Noose rapped his gavel at <<two|9c:1>> and the courtroom came to order.
           [
             1,
             '[ap 11:00] A Time to Kill - John Grisham.epub (OEBPS/Gris_9780307576132_epub_c038_r1.htm) - eleven',
-            'At <<eleven|9e>>, Bass sat himself in the witness chair and looked through glazed eyes at the jury. He smiled, and almost giggled. He was aware of the artists on the front row, so he looked as expert as possible. His nerves were indeed settled.',
+            'At <<eleven|9m:1>>, Bass sat himself in the witness chair and looked through glazed eyes at the jury. He smiled, and almost giggled. He was aware of the artists on the front row, so he looked as expert as possible. His nerves were indeed settled.',
           ],
           [
             1,
@@ -1086,7 +1096,7 @@ A lie seemed appropriate. \x{201c}Yes, Your Honor, but our next witness is not h
           [
             1,
             '[ap 03:00] A Time to Kill - John Grisham.epub (OEBPS/Gris_9780307576132_epub_c038_r1.htm) - three',
-            'By <<three|9e>>, the deputies and other curious had disappeared, and by <<four|3j>> the quaint little Victorian had been reduced to smoldering rubble. The last of the firemen smothered any sign of smoke from the ruins. Only the chimney and burnt frames of two cars stood above the remains as the heavy rubber boots kicked and plowed through the waste looking for sparks or hidden flames that might somehow leap from the dead and burn the rest of the wreckage.',
+            'By <<three|9:0>>, the deputies and other curious had disappeared, and by <<four|3j>> the quaint little Victorian had been reduced to smoldering rubble. The last of the firemen smothered any sign of smoke from the ruins. Only the chimney and burnt frames of two cars stood above the remains as the heavy rubber boots kicked and plowed through the waste looking for sparks or hidden flames that might somehow leap from the dead and burn the rest of the wreckage.',
           ],
           [
             1,
@@ -1096,7 +1106,7 @@ A lie seemed appropriate. \x{201c}Yes, Your Honor, but our next witness is not h
           [
             1,
             '[12:00] A Time to Kill - John Grisham.epub (OEBPS/Gris_9780307576132_epub_c039_r1.htm) - noon',
-            "The beer stores opened at <<noon|9a>> on Sunday, as if the church folks needed it then and would stop on the way home from the Lord\x{2019}s house to pick up a couple of six-packs, then on to Grandmother\x{2019}s for Sunday dinner and an afternoon of hell-raising. Oddly, they would close again at <<six in the afternoon|9a>>, as if the same folks should then be denied beer as they returned to church for the Sunday night services. On the other six days beer was sold from <<six in the morning|5>> until <<midnight|13>>. But on Sunday, the selling was curtailed in honor of the Almighty.",
+            "The beer stores opened at <<noon|3b>> on Sunday, as if the church folks needed it then and would stop on the way home from the Lord\x{2019}s house to pick up a couple of six-packs, then on to Grandmother\x{2019}s for Sunday dinner and an afternoon of hell-raising. Oddly, they would close again at <<six in the afternoon|5>>, as if the same folks should then be denied beer as they returned to church for the Sunday night services. On the other six days beer was sold from <<six in the morning|5>> until <<midnight|13>>. But on Sunday, the selling was curtailed in honor of the Almighty.",
           ],
           [
             1,
@@ -1108,7 +1118,7 @@ A lie seemed appropriate. \x{201c}Yes, Your Honor, but our next witness is not h
           [
             1,
             '[ap 10:00] A Time to Kill - John Grisham.epub (OEBPS/Gris_9780307576132_epub_c039_r1.htm) - ten',
-            "Sallie brought the drinks, and they followed her downstairs to the porch. After dark, she fed them sandwiches and fried potatoes. At <<ten|9e>>, Jake excused himself and went to his room. He called Carla and talked for an hour. There was no mention of the house. His stomach cramped when he heard her voice and realized that one day very soon he would be forced to tell her that the house, her house, no longer existed. He hung up and prayed she didn\x{2019}t read about it in the newspaper.",
+            "Sallie brought the drinks, and they followed her downstairs to the porch. After dark, she fed them sandwiches and fried potatoes. At <<ten|9m:1>>, Jake excused himself and went to his room. He called Carla and talked for an hour. There was no mention of the house. His stomach cramped when he heard her voice and realized that one day very soon he would be forced to tell her that the house, her house, no longer existed. He hung up and prayed she didn\x{2019}t read about it in the newspaper.",
           ],
           [
             1,
@@ -1118,7 +1128,7 @@ A lie seemed appropriate. \x{201c}Yes, Your Honor, but our next witness is not h
           [
             1,
             '[ap 09:00] A Time to Kill - John Grisham.epub (OEBPS/Gris_9780307576132_epub_c040_r1.htm) - nine',
-            "At <<nine|9e>>, Noose summoned the attorneys to chambers. \x{201c}Just wanted to make sure you were all alive and well.\x{201d} He grinned at Jake.",
+            "At <<nine|9m:0>>, Noose summoned the attorneys to chambers. \x{201c}Just wanted to make sure you were all alive and well.\x{201d} He grinned at Jake.",
           ],
           [
             1,
@@ -1128,17 +1138,17 @@ A lie seemed appropriate. \x{201c}Yes, Your Honor, but our next witness is not h
           [
             1,
             '[ap < 05:00] A Time to Kill - John Grisham.epub (OEBPS/Gris_9780307576132_epub_c040_r1.htm) - almost five',
-            'He had a daughter, the only one he would ever have. She was four, <<almost five|9e>>, and his world revolved around her. She was special; she was a little girl, and it was up to him to protect her. There was a bond there, something he could not explain. He talked about little girls.',
+            'He had a daughter, the only one he would ever have. She was four, <<almost five|9:0>>, and his world revolved around her. She was special; she was a little girl, and it was up to him to protect her. There was a bond there, something he could not explain. He talked about little girls.',
           ],
           [
             1,
             '[ap 04:00] A Time to Kill - John Grisham.epub (OEBPS/Gris_9780307576132_epub_c040_r1.htm) - four',
-            'At <<four|9e>>, Noose bid farewell to his jury. He told them to elect a foreman, get organized, and get busy. He told them they could deliberate until <<six|9c:1>>, maybe seven, and if no verdict was reached he would recess until <<nine|3f>> Tuesday morning. They stood and filed slowly from the courtroom. Once out of sight, Noose recessed until <<six|9c:1>> and instructed the attorneys to remain close to the courtroom or leave a number with the clerk.',
+            'At <<four|9m:0>>, Noose bid farewell to his jury. He told them to elect a foreman, get organized, and get busy. He told them they could deliberate until <<six|9c:1>>, maybe seven, and if no verdict was reached he would recess until <<nine|3f>> Tuesday morning. They stood and filed slowly from the courtroom. Once out of sight, Noose recessed until <<six|9c:1>> and instructed the attorneys to remain close to the courtroom or leave a number with the clerk.',
           ],
           [
             1,
             '[ap 06:00] A Time to Kill - John Grisham.epub (OEBPS/Gris_9780307576132_epub_c040_r1.htm) - six',
-            'They worked through the exhibits, photographs, fingerprints, and ballistics reports. At <<six|9e>>, they informed the judge they had not reached a verdict. They were hungry and wanted to go. He recessed until Tuesday morning.',
+            'They worked through the exhibits, photographs, fingerprints, and ballistics reports. At <<six|9m:1>>, they informed the judge they had not reached a verdict. They were hungry and wanted to go. He recessed until Tuesday morning.',
           ],
           [
             1,
@@ -1182,13 +1192,18 @@ A lie seemed appropriate. \x{201c}Yes, Your Honor, but our next witness is not h
           ],
           [
             1,
+            '[ap 04:55] A Time to Kill - John Grisham.epub (OEBPS/Gris_9780307576132_epub_c042_r1.htm) - five to five',
+            'The jury room was silent for fifteen minutes after Reba Betts was converted from an undecided to a not guilty. If a man raped her, she just might blow his head off if she got the chance. It was now <<five to five|10a:1>> with two undecideds, and a compromise looked hopeless. The foreman continued to straddle the fence. Poor old Eula Dell Yates had cried one way, then cried the other, and everyone knew she would eventually go with the majority. She had burst into tears at the window, and was led to her seat by Clyde Sisco. She wanted to go home. Said she felt like a prisoner.',
+          ],
+          [
+            1,
             '[ap 05:00] A Time to Kill - John Grisham.epub (OEBPS/Gris_9780307576132_epub_c042_r1.htm) - five',
             'Three hours of nonstop chanting had unraveled whatever nerves were left. The foreman suggested they talk about their families and wait until Noose sent for them at <<five|9c:1>>.',
           ],
           [
             1,
             '[ap 04:00] A Time to Kill - John Grisham.epub (OEBPS/Gris_9780307576132_epub_c042_r1.htm) - four',
-            'At <<four|9e>>, Carl Lee and the kids walked to one of the tall windows lining each side of the courtroom. He noticed a small knob. He turned it, and the windows swung open to a tiny platform hanging over the west lawn. He nodded at a deputy, and stepped outside. He held Tonya and watched the crowd.',
+            'At <<four|9m:0>>, Carl Lee and the kids walked to one of the tall windows lining each side of the courtroom. He noticed a small knob. He turned it, and the windows swung open to a tiny platform hanging over the west lawn. He nodded at a deputy, and stepped outside. He held Tonya and watched the crowd.',
           ],
           [
             1,
@@ -1200,7 +1215,7 @@ Carl Lee pulled Jake\x{2019}s shoulder. \x{201c}What does all this mean?\x{201d}
           [
             1,
             '[ap 07:30] A Time to Kill - John Grisham.epub (OEBPS/Gris_9780307576132_epub_c043_r1.htm) - seven-thirty',
-            "The first church bus arrived at <<seven-thirty|5b>> and was halted by the soldiers. The doors flew open and an endless stream of blacks with lawn chairs and food baskets headed for the front lawn. For an hour Jake blew smoke into the heavy air and watched with great satisfaction as the square filled beyond capacity with noisy yet peaceful protestors. The reverends were out in full force, directing their people and assuring Ozzie and the colonel they were nonviolent folk. Ozzie was convinced. The colonel was nervous. By <<nine|9e>>, the streets were crammed with demonstrators. Someone spotted the Greyhound. \x{201c}Here they come!\x{201d} Agee screamed into the loudspeaker. The mob pushed to the corner of Jackson and Quincy, where the soldiers, troopers, and deputies formed a mobile barricade around the bus and walked it through the crowd to the rear of the courthouse.",
+            "The first church bus arrived at <<seven-thirty|5b>> and was halted by the soldiers. The doors flew open and an endless stream of blacks with lawn chairs and food baskets headed for the front lawn. For an hour Jake blew smoke into the heavy air and watched with great satisfaction as the square filled beyond capacity with noisy yet peaceful protestors. The reverends were out in full force, directing their people and assuring Ozzie and the colonel they were nonviolent folk. Ozzie was convinced. The colonel was nervous. By <<nine|9:1>>, the streets were crammed with demonstrators. Someone spotted the Greyhound. \x{201c}Here they come!\x{201d} Agee screamed into the loudspeaker. The mob pushed to the corner of Jackson and Quincy, where the soldiers, troopers, and deputies formed a mobile barricade around the bus and walked it through the crowd to the rear of the courthouse.",
           ],
           [
             1,

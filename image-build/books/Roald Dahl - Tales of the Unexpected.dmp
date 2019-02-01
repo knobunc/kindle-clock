@@ -12,17 +12,12 @@ $VAR1 = [
           [
             1,
             '[ap < 09:00] Tales of the Unexpected - Roald Dahl.epub (OPS/xhtml/chapter002.html) - nearly nine',
-            'The search went on. She knew that there were other policemen in the garden all around the house. She could hear their footsteps on the gravel outside, and sometimes she saw the flash of a torch through a chink in the curtains. It began to get late, <<nearly nine|9e>> she noticed by the clock on the mantel. The four men searching the rooms seemed to be growing weary, a trifle exasperated.',
+            'The search went on. She knew that there were other policemen in the garden all around the house. She could hear their footsteps on the gravel outside, and sometimes she saw the flash of a torch through a chink in the curtains. It began to get late, <<nearly nine|9:1>> she noticed by the clock on the mantel. The four men searching the rooms seemed to be growing weary, a trifle exasperated.',
           ],
           [
             1,
             "[ap < 06:00] Tales of the Unexpected - Roald Dahl.epub (OPS/xhtml/chapter003.html) - towards six o\x{2019}clock",
             "It was getting on <<towards six o\x{2019}clock|6>> so I thought I\x{2019}d buy myself a beer and go out and sit in a deckchair by the swimming pool and have a little evening sun.",
-          ],
-          [
-            1,
-            '[ap ~ 02:00] Tales of the Unexpected - Roald Dahl.epub (OPS/xhtml/chapter003.html) - about two',
-            "\x{2018}Quite ready,\x{2019} he said and he lifted the chopper up in the air and held it there <<about two|9b>> feet above the boy\x{2019}s finger, ready to chop. The boy watched it, but he didn\x{2019}t flinch and his mouth didn\x{2019}t move at all. He merely raised his eyebrows and frowned.",
           ],
           [
             1,
@@ -85,7 +80,7 @@ It was <<nearly three o\x{2019}clock|6>>.
           [
             1,
             '[12:00] Tales of the Unexpected - Roald Dahl.epub (OPS/xhtml/chapter005.html) - noon',
-            "\x{2018}As you all know,\x{2019} the auctioneer was saying, \x{2018}low field covers every number below the smallest number in the range, in this case every number below five hundred and five. So, if you think this ship is going to cover less than five hundred and five miles in the twenty-four hours ending at <<noon|9a>> tomorrow, you better get in and buy this number. So what am I bid?\x{2019}",
+            "\x{2018}As you all know,\x{2019} the auctioneer was saying, \x{2018}low field covers every number below the smallest number in the range, in this case every number below five hundred and five. So, if you think this ship is going to cover less than five hundred and five miles in the twenty-four hours ending at <<noon|3b>> tomorrow, you better get in and buy this number. So what am I bid?\x{2019}",
           ],
           [
             1,
@@ -120,7 +115,7 @@ It was <<nearly three o\x{2019}clock|6>>.
           [
             1,
             '[ap > 07:00] Tales of the Unexpected - Roald Dahl.epub (OPS/xhtml/chapter008.html) - Shortly after seven',
-            '<<Shortly after seven|9e>>, I found my way to the main drawing-room, and Lady Turton, as beautiful as ever, got up to greet me.',
+            '<<Shortly after seven|9:0>>, I found my way to the main drawing-room, and Lady Turton, as beautiful as ever, got up to greet me.',
           ],
           [
             1,
@@ -155,7 +150,7 @@ It was <<nearly three o\x{2019}clock|6>>.
           [
             1,
             '[12:00] Tales of the Unexpected - Roald Dahl.epub (OPS/xhtml/chapter009.html) - noon',
-            "Then at <<noon|9a>> today came the final crushing blow. The post arrived, and with it \x{2013} I can hardly bring myself to write about it, I am so ashamed \x{2013} came a letter, the sweetest, most tender little note imaginable from none other than Janet de Pelagia herself. She forgave me completely, she wrote, for everything I had done. She knew it was only a joke and I must not listen to the horrid things other people were saying about me. She loved me as she always had and always would to her dying day.",
+            "Then at <<noon|3b>> today came the final crushing blow. The post arrived, and with it \x{2013} I can hardly bring myself to write about it, I am so ashamed \x{2013} came a letter, the sweetest, most tender little note imaginable from none other than Janet de Pelagia herself. She forgave me completely, she wrote, for everything I had done. She knew it was only a joke and I must not listen to the horrid things other people were saying about me. She loved me as she always had and always would to her dying day.",
           ],
           [
             1,
@@ -193,7 +188,7 @@ It was <<nearly three o\x{2019}clock|6>>.
             1,
             '[11:00] Tales of the Unexpected - Roald Dahl.epub (OPS/xhtml/chapter012.html) - eleven in the morning',
             "Her husband emerged from his study when he heard her coming in. \x{2018}Well,\x{2019} he said, standing by the study door, \x{2018}how was Paris?\x{2019}
-\x{2018}We leave at <<eleven in the morning|9a>>,\x{2019} she answered. \x{2018}It\x{2019}s definite.\x{2019}
+\x{2018}We leave at <<eleven in the morning|5>>,\x{2019} she answered. \x{2018}It\x{2019}s definite.\x{2019}
 \x{2018}You mean if the fog clears.\x{2019}",
           ],
           [
@@ -218,7 +213,7 @@ She went up to her bedroom on the second floor, and she was so exhausted from he
           [
             1,
             '[ap > 09:00] Tales of the Unexpected - Roald Dahl.epub (OPS/xhtml/chapter012.html) - Shortly after nine',
-            "<<Shortly after nine|9e>>, her husband appeared. \x{2018}Did you make any coffee?\x{2019} he asked.",
+            "<<Shortly after nine|9:0>>, her husband appeared. \x{2018}Did you make any coffee?\x{2019} he asked.",
           ],
           [
             1,
@@ -291,7 +286,7 @@ Mr Foster came out five minutes later, and watching him as he walked slowly down
           [
             1,
             '[02:00] Tales of the Unexpected - Roald Dahl.epub (OPS/xhtml/chapter015.html) - two in the morning',
-            "Albert Taylor folded the newspaper neatly into a square and put it away on the side table. \x{2018}I fed her at <<two in the morning|9a>>,\x{2019} he said, \x{2018}and she took about half an ounce, no more. I fed her again at <<six|9c:1>> and she did a bit better that time, two ounces\x{2026}\x{2019}",
+            "Albert Taylor folded the newspaper neatly into a square and put it away on the side table. \x{2018}I fed her at <<two in the morning|5>>,\x{2019} he said, \x{2018}and she took about half an ounce, no more. I fed her again at <<six|9c:1>> and she did a bit better that time, two ounces\x{2026}\x{2019}",
           ],
           [
             1,

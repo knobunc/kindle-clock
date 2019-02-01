@@ -63,7 +63,7 @@ $VAR1 = [
             1,
             '[ap ~ 01:00] His Last Bow - Arthur Conan Doyle.epub (OEBPS/Text/chapter2.xhtml) - About one',
             '"Excellent!" said Holmes. "When does he lunch?"
-"<<About one|9e:0>>, sir."
+"<<About one|9k:0>>, sir."
 "Then Dr. Watson and I will come round in time. For the present, Mrs. Warren, good-bye."',
           ],
           [
@@ -89,7 +89,7 @@ $VAR1 = [
           [
             1,
             '[ap 06:00] His Last Bow - Arthur Conan Doyle.epub (OEBPS/Text/chapter3.xhtml) - six',
-            "\"The body was found at <<six|9a>> on the Tuesday morning. It was lying wide of the metals upon the left hand of the track as one goes eastward, at a point close to the station, where the line emerges from the tunnel in which it runs. The head was badly crushed \x{2014} an injury which might well have been caused by a fall from the train. The body could only have come on the line in that way. Had it been carried down from any neighbouring street, it must have passed the station barriers, where a collector is always standing. This point seems absolutely certain.\"",
+            "\"The body was found at <<six|3b>> on the Tuesday morning. It was lying wide of the metals upon the left hand of the track as one goes eastward, at a point close to the station, where the line emerges from the tunnel in which it runs. The head was badly crushed \x{2014} an injury which might well have been caused by a fall from the train. The body could only have come on the line in that way. Had it been carried down from any neighbouring street, it must have passed the station barriers, where a collector is always standing. This point seems absolutely certain.\"",
           ],
           [
             1,
@@ -142,7 +142,7 @@ $VAR1 = [
             1,
             '[12:00] His Last Bow - Arthur Conan Doyle.epub (OEBPS/Text/chapter3.xhtml) - noon',
             'country at present. Therefore I shall expect to meet you in
-the smoking-room of the Charing Cross Hotel at <<noon|9a>> on
+the smoking-room of the Charing Cross Hotel at <<noon|3b>> on
 Saturday. Remember that only English notes, or gold, will',
           ],
           [
@@ -158,7 +158,7 @@ Saturday. Remember that only English notes, or gold, will',
           [
             1,
             '[ap 06:00] His Last Bow - Arthur Conan Doyle.epub (OEBPS/Text/chapter4.xhtml) - six',
-            '"The first three sensible words that you have uttered since you entered this room, Watson. You will find some books over there. I am somewhat exhausted; I wonder how a battery feels when it pours electricity into a non-conductor? At <<six|9e>>, Watson, we resume our conversation."',
+            '"The first three sensible words that you have uttered since you entered this room, Watson. You will find some books over there. I am somewhat exhausted; I wonder how a battery feels when it pours electricity into a non-conductor? At <<six|9m:0>>, Watson, we resume our conversation."',
           ],
           [
             1,

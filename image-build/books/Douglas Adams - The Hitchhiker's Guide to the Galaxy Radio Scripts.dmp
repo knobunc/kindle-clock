@@ -17,7 +17,7 @@ $VAR1 = [
           [
             1,
             '[ap ~ 03:00] The Hitchhiker\'s Guide to the Galaxy Radio - Douglas Adams.epub (OEBPS/Text/Adam_9780307498465_epub_c100_r1.htm) - about three',
-            'In front of them, equidistant between their control desk and the middle of the chamber, where Trillian stood, as if on trial, was a slim white pillar about four feet tall. On top of it stood a small white globe, <<about three|9e>>, maybe four inches in diameter.',
+            'In front of them, equidistant between their control desk and the middle of the chamber, where Trillian stood, as if on trial, was a slim white pillar about four feet tall. On top of it stood a small white globe, <<about three|9:0>>, maybe four inches in diameter.',
           ],
           [
             1,
@@ -99,7 +99,7 @@ He giggled and sniggered. He would have laughed out loud but he didn\x{2019}t ha
           [
             1,
             '[ap 04:00] The Hitchhiker\'s Guide to the Galaxy Radio - Douglas Adams.epub (OEBPS/Text/Adam_9780307498465_epub_c128_r1.htm) - four',
-            "\x{201c}At <<four|9e>> he got up and went to the bathroom again. He opened the door to the bathroom \x{2026}\x{201d} and so on.",
+            "\x{201c}At <<four|9m:0>> he got up and went to the bathroom again. He opened the door to the bathroom \x{2026}\x{201d} and so on.",
           ],
           [
             1,

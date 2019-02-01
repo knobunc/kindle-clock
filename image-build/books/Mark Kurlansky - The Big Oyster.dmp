@@ -132,7 +132,7 @@ $VAR1 = [
           [
             1,
             '[ap 00:00] The Big Oyster - Mark Kurlansky.epub (OEBPS/Kurl_9781588365910_epub_c07_r1.htm) - twelve',
-            "To rise early in the morning, to get breakfast, to go down to the counting house of the firm, to open and read letters\x{2014}to go out and do some business, either at the Custom house, bank or elsewhere, until <<twelve|9e>>, then to take lunch and a glass of wine at Delmonico\x{2019}s; or a few raw oysters at Downing\x{2019}s, to sign checks . . .",
+            "To rise early in the morning, to get breakfast, to go down to the counting house of the firm, to open and read letters\x{2014}to go out and do some business, either at the Custom house, bank or elsewhere, until <<twelve|9:0>>, then to take lunch and a glass of wine at Delmonico\x{2019}s; or a few raw oysters at Downing\x{2019}s, to sign checks . . .",
           ],
           [
             1,
@@ -147,7 +147,7 @@ $VAR1 = [
           [
             1,
             '[ap 05:00] The Big Oyster - Mark Kurlansky.epub (OEBPS/Kurl_9781588365910_epub_c08_r1.htm) - 500',
-            'The recent oyster opening contest held in Keyport, New Jersey was watched with considerable interest by those who are paying high prices to shuckers. The result of the contest was remarkable. The record time was 20 minutes and 23 seconds, and the number of oysters opened in this length of time was <<500|9f>>. The first prize was $300. The wholesale dealers of New York City pay their shuckers $1.00 for every thousand oysters opened. If we assume that this shucker could keep this record up for a working day of 10 hours, he would earn about $14.00, and if he worked six days a week, he would earn $84.00 per week, and the enormous salary of $336.00 per month. We do not wonder therefore that the New York oyster dealer thinks the cost of shucking is too high.',
+            'The recent oyster opening contest held in Keyport, New Jersey was watched with considerable interest by those who are paying high prices to shuckers. The result of the contest was remarkable. The record time was 20 minutes and 23 seconds, and the number of oysters opened in this length of time was <<500|9c:0>>. The first prize was $300. The wholesale dealers of New York City pay their shuckers $1.00 for every thousand oysters opened. If we assume that this shucker could keep this record up for a working day of 10 hours, he would earn about $14.00, and if he worked six days a week, he would earn $84.00 per week, and the enormous salary of $336.00 per month. We do not wonder therefore that the New York oyster dealer thinks the cost of shucking is too high.',
           ],
           [
             1,
@@ -183,6 +183,11 @@ $VAR1 = [
             1,
             '[ap 00:00] The Big Oyster - Mark Kurlansky.epub (OEBPS/Kurl_9781588365910_epub_c09_r1.htm) - 12 P.M.',
             "The debate about the R months continued throughout the century. In September, at the opening of the 1883 season, a satirical New York Times editorial said, \x{201c}There are eager lovers of the oyster who will eat \x{2018}fries\x{2019} and \x{2018}broiled\x{2019} up to <<12 P.M.|5>> on the 30th day of April, but no good man will touch an oyster after the hour has struck.\x{201d} The article suggests that the unlucky Italians can\x{2019}t eat oysters in January because Gennaio, the Italian name for January, has no R. \x{201c}On the other hand, the Arab of the desert can eat oysters in certain Mohammedan months which contain an R, while in the corresponding Christian months the gracious R is wanting.\x{201d}",
+          ],
+          [
+            1,
+            "[21:25] The Big Oyster - Mark Kurlansky.epub (OEBPS/Kurl_9781588365910_epub_c09_r1.htm) - 21\x{2013}25",
+            "This was not much improvement over the observations of James Fenimore Cooper, who in the 1830s had called Americans \x{201c}the grossest feeders of any civilized nation known.\x{201d} Despite such complaints, New York in the 1880s was a far better place to eat than it had been when the century had begun. It was still led by America\x{2019}s premier restaurant, Delmonico\x{2019}s, which was ever larger and more grand as it moved along with the fashionable people, uptown. In 1846, <<21\x{2013}25|5a:0>> Broadway became the Delmonico Hotel. In 1855, Delmonico\x{2019}s opened on the corner of Broadway and Chambers. In 1860, it took over the Grinnell Mansion at Fifth Avenue and Fourteenth Street, an enormous house of elegant ballrooms and spacious dining rooms. In 1876, Delmonico\x{2019}s followed the uptown trend to Twenty-sixth Street and Fifth Avenue, and in 1897 moved again to Fifth and Forty-fourth Street.",
           ],
           [
             1,

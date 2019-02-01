@@ -27,7 +27,7 @@ $VAR1 = [
           [
             1,
             '[ap 10:00] The Complete Compleat Enchanter - L. Sprague de Camp.epub (CCE_split_010.html) - ten',
-            'At <<ten|9a>> the next morning, Shea came out of the vaultlike castle and blinked into the morning sun. Armor pressed his body in unfamiliar places. The big broadsword at his side was heavier than any he had ever handled.',
+            'At <<ten|3j>> the next morning, Shea came out of the vaultlike castle and blinked into the morning sun. Armor pressed his body in unfamiliar places. The big broadsword at his side was heavier than any he had ever handled.',
           ],
           [
             1,
@@ -43,6 +43,11 @@ $VAR1 = [
             1,
             '[00:00] The Complete Compleat Enchanter - L. Sprague de Camp.epub (CCE_split_012.html) - midnight',
             "\x{201c}It has reached me that one of the hunters saw her afoot in the mountains with Duke Astolph, a conjunction which brings a dread like <<midnight|13>> on the heart of my uncle, though what it may mean he knows not.\x{201d}",
+          ],
+          [
+            1,
+            '[10:00] The Complete Compleat Enchanter - L. Sprague de Camp.epub (CCE_split_012.html) - ten-a.m.',
+            "\x{201c}No. Mine,\x{201d} said the hunter shortly, and took up the way again. Three hours brought them to the foot of the main peak. There the path began climbing and dipping across a series of spurs reaching down from another crest that thrust in from their right. The forest grew thicker here. Echegaray led them into the throat of a valley where a stream dropped past in a series of waterfalls and the <<ten-a.m.|5>> sun failed to reach the bottom. The gorge widened to a valley which held a patch of swamp, where they had to squish almost ankle-deep along the edge of a pond. Shea jumped and Polacek stopped at a glimpse of white skin and gauzy wings as the waterfays, or whatever they were, ducked out of sight. Echegaray pushed ahead without looking back and they had to follow.",
           ],
           [
             1,

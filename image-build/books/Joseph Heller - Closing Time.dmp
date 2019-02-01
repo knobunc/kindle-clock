@@ -45,11 +45,6 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap < 01:00] Closing Time - Joseph Heller.epub (ops/xhtml/ch18.html) - almost one',
-            "\x{201c}No, <<almost one|9e:0>>, with a pilot named Appleby, the one I flew overseas with. We never got along. I couldn\x{2019}t navigate and I don\x{2019}t know why they expected me to. One time I got lost on a training mission and gave him a compass heading that would have taken us out over the Atlantic Ocean toward Africa. We would have died right then if he hadn\x{2019}t been better at his job than I was at mine. What a schmuck I was, as a navigator. No wonder he was sore. Am I talking too much? I know I talk a lot now, don\x{2019}t I?\x{201d}",
-          ],
-          [
-            1,
             '[ap 02:00] Closing Time - Joseph Heller.epub (ops/xhtml/ch18.html) - two',
             "\x{201c}Make it <<two|9f>>?\x{201d} Michael moved his eyes away sheepishly. \x{201c}Marlene is back in the city and needed a place for a while. She\x{2019}ll probably like that.\x{201d}",
           ],
@@ -148,7 +143,7 @@ $VAR1 = [
           [
             1,
             '[ap 05:00] Closing Time - Joseph Heller.epub (ops/xhtml/ch32.html) - five',
-            'By <<five|9e>>, fifty dessert buffets had been erected securely and the twelve hundred or more security guards from the city, federal government, and M & M Commercial Killings, Inc. had taken up positions on the high ground of the terminal. Outside, trucks with units from the National Guard were on watch for disturbances from protest groups that might be in dissonance with the celebratory mood of the gala.',
+            'By <<five|9:1>>, fifty dessert buffets had been erected securely and the twelve hundred or more security guards from the city, federal government, and M & M Commercial Killings, Inc. had taken up positions on the high ground of the terminal. Outside, trucks with units from the National Guard were on watch for disturbances from protest groups that might be in dissonance with the celebratory mood of the gala.',
           ],
           [
             1,

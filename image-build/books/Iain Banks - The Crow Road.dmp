@@ -12,12 +12,12 @@ $VAR1 = [
           [
             1,
             '[ap ~ 02:00] The Crow Road - Iain Banks.epub (The_Crow_Road_split_011.html) - About two',
-            "\x{2018}Yes; very impressive.\x{2019} Kenneth kissed his sister\x{2019}s cheek. How old had she been when he\x{2019}d come out here with Fergus and the rest? <<About two|9e>>, he guessed. Not old enough to come all this way on a bike. He must have been eight or nine. He wondered where Hamish had been; ill, maybe. He\x{2019}d always been taking colds.",
+            "\x{2018}Yes; very impressive.\x{2019} Kenneth kissed his sister\x{2019}s cheek. How old had she been when he\x{2019}d come out here with Fergus and the rest? <<About two|9:0>>, he guessed. Not old enough to come all this way on a bike. He must have been eight or nine. He wondered where Hamish had been; ill, maybe. He\x{2019}d always been taking colds.",
           ],
           [
             1,
             '[22:00] The Crow Road - Iain Banks.epub (The_Crow_Road_split_012.html) - ten in the evening',
-            "But if this is the price we have to pay for all-day opening and letting women into public bars, then I admit it may well be churlish to carp. I used to think dad was kidding about bars closing in the afternoon, and at <<ten in the evening|9a>> (TEN, for Christ\x{2019}s sake; I don\x{2019}t go out until <<midnight|13>> sometimes!), and about some not having women\x{2019}s toilets at all ... but apparently it\x{2019}s all true, and scarcely a decade and a half gone.",
+            "But if this is the price we have to pay for all-day opening and letting women into public bars, then I admit it may well be churlish to carp. I used to think dad was kidding about bars closing in the afternoon, and at <<ten in the evening|5>> (TEN, for Christ\x{2019}s sake; I don\x{2019}t go out until <<midnight|13>> sometimes!), and about some not having women\x{2019}s toilets at all ... but apparently it\x{2019}s all true, and scarcely a decade and a half gone.",
           ],
           [
             1,
@@ -39,7 +39,7 @@ $VAR1 = [
           [
             1,
             '[04:00] The Crow Road - Iain Banks.epub (The_Crow_Road_split_016.html) - four in the morning',
-            "I looked at my watch. We\x{2019}d been stuck here, waiting to join the main line into Queen Street, for about ten minutes. You often had to wait here while the Edinburgh trains came and went, but the delay didn\x{2019}t usually last this long. The station was only five minutes away; more importantly, food was only five minutes away. I\x{2019}d forgone breakfast because I hadn\x{2019}t got to bed till <<four in the morning|9a>>, lunch because I had a hangover and anyway I was late for the train, and due to the fact that it was - according to British Rail at any rate - still part of the extended Festive Period, there had been no buffet trolley on the train. I was starving. I was so hungry I\x{2019}d have eaten pork scratchings. Queen Street station, a scant mile and a half away, had burgers, sandwiches, shell pies, french fries and french sticks, bridies and pasties and patties. My God, if all they had were Haggisburgers, I\x{2019}d eat those.",
+            "I looked at my watch. We\x{2019}d been stuck here, waiting to join the main line into Queen Street, for about ten minutes. You often had to wait here while the Edinburgh trains came and went, but the delay didn\x{2019}t usually last this long. The station was only five minutes away; more importantly, food was only five minutes away. I\x{2019}d forgone breakfast because I hadn\x{2019}t got to bed till <<four in the morning|5>>, lunch because I had a hangover and anyway I was late for the train, and due to the fact that it was - according to British Rail at any rate - still part of the extended Festive Period, there had been no buffet trolley on the train. I was starving. I was so hungry I\x{2019}d have eaten pork scratchings. Queen Street station, a scant mile and a half away, had burgers, sandwiches, shell pies, french fries and french sticks, bridies and pasties and patties. My God, if all they had were Haggisburgers, I\x{2019}d eat those.",
           ],
           [
             1,
@@ -54,7 +54,7 @@ $VAR1 = [
           [
             1,
             '[09:00] The Crow Road - Iain Banks.epub (The_Crow_Road_split_017.html) - nine in the morning',
-            "They had spent Hogmanay at home, welcoming the groups of people roaming the village as they came round. The last revellers had finally been seen off at <<nine in the morning|9a>>; they and Margot had done some cleaning up before going to bed, though Ken had anyway had a couple of hours\x{2019} sleep between three and five, when he\x{2019}d fallen into a deep slumber on the wicker couch in the conservatory. The boys had gone out to play on the forestry tracks with their new bikes on what had proved a bright but cold day; Mary had got three hours\x{2019} sleep before they came back, noisily demanding to be fed.",
+            "They had spent Hogmanay at home, welcoming the groups of people roaming the village as they came round. The last revellers had finally been seen off at <<nine in the morning|5>>; they and Margot had done some cleaning up before going to bed, though Ken had anyway had a couple of hours\x{2019} sleep between three and five, when he\x{2019}d fallen into a deep slumber on the wicker couch in the conservatory. The boys had gone out to play on the forestry tracks with their new bikes on what had proved a bright but cold day; Mary had got three hours\x{2019} sleep before they came back, noisily demanding to be fed.",
           ],
           [
             1,
@@ -124,12 +124,17 @@ $VAR1 = [
           [
             1,
             '[09:00] The Crow Road - Iain Banks.epub (The_Crow_Road_split_024.html) - nine that Friday morning',
-            'Two weeks later, after I had had my abbreviated conversation with Lachlan Watt in sunny Sydney, I set off for Lochgair at <<nine that Friday morning|9a>>, listening to the war on the radio for as long as I could, until the mountains blocked out the signal.',
+            'Two weeks later, after I had had my abbreviated conversation with Lachlan Watt in sunny Sydney, I set off for Lochgair at <<nine that Friday morning|5>>, listening to the war on the radio for as long as I could, until the mountains blocked out the signal.',
           ],
           [
             1,
             '[ap ~ 11:30] The Crow Road - Iain Banks.epub (The_Crow_Road_split_024.html) - about eleven-thirty',
             'I started drinking whisky after dinner, sitting at the desk in the study at first, craning over its leather surface, sifting through the various papers and diaries, my eyes getting sore. I nearly spilled my whisky into the Compaq at one point, so I turned off the little green-shaded light on the desk and went over to the couch, taking all the bits and pieces with me. I switched on the standard lamp behind me and lay lengthwise on the couch, surrounded by paper. I had the TV on with the sound turned down most of the time, using the remote to turn it up whenever it looked like there was something interesting coming in from the Gulf. I heard James go to bed <<about eleven-thirty|5k:1>>. Mum looked in to say good-night about twelve. I waved, wished her pleasant dreams and kept on reading.',
+          ],
+          [
+            1,
+            '[ap > 02:00] The Crow Road - Iain Banks.epub (The_Crow_Road_split_024.html) - just after two',
+            "I woke up <<just after two|10>> with the whisky glass balanced on my chest and my eyes feeling gritty. I finished the whisky even though I didn\x{2019}t really feel like it, then went to bed. I drank some water before I fell asleep.",
           ],
           [
             1,

@@ -12,7 +12,7 @@ $VAR1 = [
           [
             1,
             '[14:00] Native Son - Richard Wright.epub (Native_son_split_007.html) - two this afternoon',
-            "\x{201c}And call me at my club at <<two this afternoon|9a>> and tell me if the President telephoned,\x{201d} Gus said.",
+            "\x{201c}And call me at my club at <<two this afternoon|5>> and tell me if the President telephoned,\x{201d} Gus said.",
           ],
           [
             1,
@@ -58,7 +58,7 @@ He rose and walked down the dark aisle over the soft, invisible carpet. He had s
           [
             1,
             '[ap 09:00] Native Son - Richard Wright.epub (Native_son_split_007.html) - nine',
-            "\x{201c}Now, Bigger,\x{201d} said Mr. Dalton, \x{201c}since that\x{2019}s settled, let\x{2019}s see what you\x{2019}ll have to do every day. I leave every morning for my office at <<nine|9c:1>>. It\x{2019}s a twenty-minute drive. You are to be back at <<ten|9c:1>> and take Miss Dalton to school. At <<twelve|9e>>, you call for Miss Dalton at the University. From then until night you are more or less free. If either Miss Dalton or I go out at night, of course, you do the driving. You work every day, but we don\x{2019}t get up till <<noon|13>> on Sundays. So you will have Sunday mornings to yourself, unless something unexpected happens. You get one full day off every two weeks.\x{201d}",
+            "\x{201c}Now, Bigger,\x{201d} said Mr. Dalton, \x{201c}since that\x{2019}s settled, let\x{2019}s see what you\x{2019}ll have to do every day. I leave every morning for my office at <<nine|9c:1>>. It\x{2019}s a twenty-minute drive. You are to be back at <<ten|9c:1>> and take Miss Dalton to school. At <<twelve|9m:1>>, you call for Miss Dalton at the University. From then until night you are more or less free. If either Miss Dalton or I go out at night, of course, you do the driving. You work every day, but we don\x{2019}t get up till <<noon|13>> on Sundays. So you will have Sunday mornings to yourself, unless something unexpected happens. You get one full day off every two weeks.\x{201d}",
           ],
           [
             1,
@@ -88,7 +88,7 @@ He rose and walked down the dark aisle over the soft, invisible carpet. He had s
           [
             1,
             '[09:00] Native Son - Richard Wright.epub (Native_son_split_007.html) - nine in the morning',
-            "\x{201c}Yes,\x{201d} Mary said. \x{201c}Oh, Bigger, I\x{2019}m going to Detroit at <<nine in the morning|9a>> and I want you to take my small trunk down to the station. Tell father and he\x{2019}ll let you make up your time. You better come for the trunk at <<eight-thirty|5b>>.\x{201d}",
+            "\x{201c}Yes,\x{201d} Mary said. \x{201c}Oh, Bigger, I\x{2019}m going to Detroit at <<nine in the morning|5>> and I want you to take my small trunk down to the station. Tell father and he\x{2019}ll let you make up your time. You better come for the trunk at <<eight-thirty|5b>>.\x{201d}",
           ],
           [
             1,
@@ -194,13 +194,13 @@ He turned and looked at her.",
             1,
             '[ap < 02:00] Native Son - Richard Wright.epub (Native_son_split_009.html) - A little before two',
             "\x{201c}That must have been pretty late, wasn\x{2019}t it?\x{201d}
-\x{201c}Yessum. <<A little before two|9e>>, mam.\x{201d}
+\x{201c}Yessum. <<A little before two|9:0>>, mam.\x{201d}
 \x{201c}And you took the trunk down a little before <<two|9c:1>>?\x{201d}",
           ],
           [
             1,
             '[ap < 02:00] Native Son - Richard Wright.epub (Native_son_split_009.html) - A little before two',
-            "\x{201c}Yessum. <<A little before two|9e>>, mam.\x{201d}
+            "\x{201c}Yessum. <<A little before two|9:0>>, mam.\x{201d}
 \x{201c}And you took the trunk down a little before <<two|9c:1>>?\x{201d}
 \x{201c}Yessum. She told me to.\x{201d}",
           ],
@@ -208,7 +208,7 @@ He turned and looked at her.",
             1,
             '[ap < 02:00] Native Son - Richard Wright.epub (Native_son_split_009.html) - A little before two',
             "\x{201c}What time did you leave here last night?\x{201d}
-\x{201c}<<A little before two|9e>>, mam.\x{201d}
+\x{201c}<<A little before two|9:1>>, mam.\x{201d}
 \x{201c}And she told you to take the trunk down?\x{201d}",
           ],
           [
@@ -251,7 +251,7 @@ Bigger knew that this was it. This man was here to find out everything. This was
             1,
             '[ap < 02:00] Native Son - Richard Wright.epub (Native_son_split_010.html) - A little before two',
             "\x{201c}What time did you say you left?\x{201d}
-\x{201c}<<A little before two|9e>>, suh.\x{201d}
+\x{201c}<<A little before two|9:1>>, suh.\x{201d}
 Britten turned to the other men, one of whom stood near the furnace with his back to the fire, warming his hands behind him. The man\x{2019}s legs were sprawled wide apart and a cigar glowed in a corner of his mouth.",
           ],
           [

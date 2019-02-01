@@ -5,7 +5,7 @@ $VAR1 = [
             "\x{201c}It
 started last weekend,\x{201d} said Tommy, pausing to take a sip of his beer, \x{201c}and goes
 on until twelfth night. It\x{2019}s open six days a week, Wednesday to Monday, and
-starts at <<eleven in the morning|9g>> and closes at <<six in the evening|9a>> on weekdays
+starts at <<eleven in the morning|9g>> and closes at <<six in the evening|5>> on weekdays
 but stays open until seven at the weekends.\x{201d}",
           ],
           [
@@ -104,7 +104,7 @@ for the tour.\x{201d}",
 morning',
             "\x{201c}Yes,
 and Simeon told me that with the shop he has to be up and baking at <<four in the
-morning|9a>> to have everything ready for opening at nine whereas here the
+morning|5>> to have everything ready for opening at nine whereas here the
 Wonderland doesn\x{2019}t open until eleven so he gets a lie-in.\x{201d}",
           ],
           [
@@ -290,6 +290,14 @@ usual <<nine o\x{2019}clock|6>>.",
 but that won\x{2019}t be late as they ring last orders at <<ten to one|10>> and like everyone
 gone by a quarter past. I need to pop home first to collect a few things too
 but don\x{2019}t worry I\x{2019}ll be there well before you dish up.\x{201d}",
+          ],
+          [
+            1,
+            '[ap 01:30] A Pasty in a Pear Tree - Daphne Neville.epub (text/part0000_split_027.html) - half past one',
+            'Kitty arrived at <<half past one|10>> with a carrier bag of
+presents which she placed under the Christmas tree and much to the delight of the
+ladies, Tommy was there soon after also with a bag of gifts which he placed
+alongside the others.',
           ],
           [
             1,

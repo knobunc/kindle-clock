@@ -52,7 +52,7 @@ $VAR1 = [
           [
             1,
             '[10:00] Beyond Recognition - Ridley Pearson.epub (index_split_023.html) - ten in the morning',
-            "Emily Richland did not answer her phone, but the recorded message said she was open for readings. Daphne tried again the following day, at <<ten in the morning|9a>>. Again the machine answered. That second time, she wrote down the address given in the recording. She rode the elevator down to Homicide and marched up to Boldt\x{2019}s cubicle, aware of the mountain she was attempting to climb.",
+            "Emily Richland did not answer her phone, but the recorded message said she was open for readings. Daphne tried again the following day, at <<ten in the morning|5>>. Again the machine answered. That second time, she wrote down the address given in the recording. She rode the elevator down to Homicide and marched up to Boldt\x{2019}s cubicle, aware of the mountain she was attempting to climb.",
           ],
           [
             1,
@@ -89,7 +89,7 @@ $VAR1 = [
           [
             1,
             '[15:00] Beyond Recognition - Ridley Pearson.epub (index_split_034.html) - three in the afternoon',
-            "At <<three in the afternoon|9a>> there were two barflies at the bar, a haze of smoke in the air, and a man behind the bar playing solitaire on a laptop computer. He was a barrel-chested guy but with droopy shoulders, black hair\x{2014}lots of it\x{2014}and thick lips. His eyes looked perpetually sad; his lips held back a cynical grin. Bear always looked like he knew something he shouldn\x{2019}t.",
+            "At <<three in the afternoon|5>> there were two barflies at the bar, a haze of smoke in the air, and a man behind the bar playing solitaire on a laptop computer. He was a barrel-chested guy but with droopy shoulders, black hair\x{2014}lots of it\x{2014}and thick lips. His eyes looked perpetually sad; his lips held back a cynical grin. Bear always looked like he knew something he shouldn\x{2019}t.",
           ],
           [
             1,
@@ -260,10 +260,5 @@ $VAR1 = [
             1,
             '[ap 09:30] Beyond Recognition - Ridley Pearson.epub (index_split_084.html) - nine-thirty',
             "\x{201c}You called,\x{201d} she whispered, reminding him. \x{201c}The police officers you sent picked her up.\x{201d} She glanced at the large Mickey Mouse clock on the wall. \x{201c}That was <<nine-thirty|5k:1>>.\x{201d}",
-          ],
-          [
-            1,
-            '[ap 09:11] Beyond Recognition - Ridley Pearson.epub (index_split_084.html) - nine-eleven',
-            "The ECC lacked any means to relay a call to headquarters. It was technically impossible. Boldt knew this; Millie Wiggins clearly did not. Her explanation baffled him. \x{201c}You sure it was <<nine-eleven|5b>>\x{2014}nine-one-one, and not\x{2014}\x{201d}",
           ],
         ];

@@ -29,7 +29,7 @@ $VAR1 = [
             '[04:00] Cooked_ A Natural History of Transformatio - Michael Pollan.epub (text/part0009.html) - four in the morning',
             "\x{201c}Well, I couldn\x{2019}t sleep a wink
 			that night because I just knew that pig was going to burn down the store. But when I
-			came back to check on it at <<four in the morning|9a>> and opened the grill, I could not
+			came back to check on it at <<four in the morning|5>> and opened the grill, I could not
 			believe my eyes. It was the prettiest pig you ever laid eyes on! This beautiful honey color, and the meat was so done it was literally falling off the
 			bone.\x{201d} Mr. Kirby taught Ed the finer points of banking coals; he also showed him
 			how to crisp the pigskin into crackling.",
@@ -55,7 +55,7 @@ $VAR1 = [
             1,
             '[ap 07:00] Cooked_ A Natural History of Transformatio - Michael Pollan.epub (text/part0010.html) - seven',
             "When the three of us reconvened in the
-			kitchen at <<seven|9a>> the next morning, you could tell immediately that something had
+			kitchen at <<seven|3j>> the next morning, you could tell immediately that something had
 			changed. The chemical scent of lighter fluid was gone, replaced by the seductive aromas
 			of roasting meat. Something very good was going on under those stainless-steel pit
 			covers. I lifted one of them and marveled at the transformation: What had been a flabby
@@ -381,6 +381,14 @@ $VAR1 = [
           ],
           [
             1,
+            "[ap 01:13] Cooked_ A Natural History of Transformatio - Michael Pollan.epub (text/part0037.html) - 1\x{2013}13",
+            "On Cheese and Cheese Making
+		Abdelgadir, Warda S., et al.
+			\x{201c}The Traditional Fermented Milk Products of the Sudan.\x{201d} International
+				Journal of Food Microbiology 44 (1998), <<1\x{2013}13|5a:0>>.",
+          ],
+          [
+            1,
             '[ap 06:32] Cooked_ A Natural History of Transformatio - Michael Pollan.epub (text/part0041.html) - 0632',
             "PENGUIN BOOKS
 		Published by the Penguin Group
@@ -403,5 +411,30 @@ $VAR1 = [
 
 			Penguin Books (South Africa) (Pty) Ltd, Block D, Rosebank Office Park, 181 Jan Smuts
 			Avenue, Parktown North, Gauteng 2193, South Africa",
+          ],
+          [
+            1,
+            "[ap 04:11] Cooked_ A Natural History of Transformatio - Michael Pollan.epub (text/part0050_split_000.html) - 4\x{2013}11",
+            "I. A GREAT WHITE LOAF
+			 Hammes, Walter P., et al.,
+				\x{201c}Microbial Ecology of Cereal Fermentations,\x{201d} Trends in Food Science
+					& Technology 16 No. 1-3 (2005): <<4\x{2013}11|5a:0>>.",
+          ],
+          [
+            1,
+            "[15:47] Cooked_ A Natural History of Transformatio - Michael Pollan.epub (text/part0052_split_000.html) - 15\x{2013}47",
+            "FERMENT I. VEGETABLE
+			 I first encountered the term
+				in a fascinating article on the debate over raw-milk cheeses by MIT anthropologist
+				Heather Paxson: \x{201c}Post-Pasteurian Cultures: The Microbiopolitics of Raw-Milk
+				Cheese in the United States,\x{201d} Cultural Anthropology 23 No. 1 (2008):
+				<<15\x{2013}47|5a:0>>.",
+          ],
+          [
+            1,
+            "[14:24] Cooked_ A Natural History of Transformatio - Michael Pollan.epub (text/part0052_split_014.html) - 14\x{2013}24",
+            "Saikali, Joumana, et al.,
+				\x{201c}Fermented Milks, Probiotic Cultures, and Colon Cancer,\x{201d} Nutrition
+					and Cancer 49 No. 1 (2004): <<14\x{2013}24|5a:0>>.",
           ],
         ];

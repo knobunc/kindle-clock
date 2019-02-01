@@ -53,7 +53,7 @@ $VAR1 = [
             '[08:00] The Radiant Way - Margaret Drabble.epub (OEBPS/html/04_body1.html) - eight in the morning',
             "Charles and Liz, naturally, did not construct the notion of a New Year\x{2019}s Eve party in this spirit, as a portent, as a symbol, as a landmark in the journey of their lives. As far as Liz can
   remember the idea came upon them rather more casually, one Saturday morning in early November over breakfast. Charles and Liz rarely breakfast together, they are both far too busy: Liz often sees
-  patients at <<eight in the morning|9a>> and Charles\x{2019}s working hours are wildly irregular. But at weekends, they attempt to rendezvous over the Oxford marmalade, and on this occasion had succeeded.
+  patients at <<eight in the morning|5>> and Charles\x{2019}s working hours are wildly irregular. But at weekends, they attempt to rendezvous over the Oxford marmalade, and on this occasion had succeeded.
   Charles, eating his toast, opening his mail, had suddenly exclaimed with a parody of fury, \x{2018}Christ, it\x{2019}s the Venables again!\x{2019} \x{2018}What have they done to you
   now?\x{2019} she had mildly enquired, looking up from a photocopy of an article on The Compulsion to Public Prayer: a study of religious neurosis in a post-Christian society which she had
   just received in her own post, and Charles had said, \x{2018}Asked us to a New Year\x{2019}s Eve party.\x{2019}",
@@ -254,7 +254,7 @@ $VAR1 = [
   sherry in the Westminster Suite, as she discovered that Edgar had rightly warned her that conversing with Japanese was not easy, as she ate her indifferent luncheon of Maryland chicken, as she
   listened to Professor Yamamoto speak on Spenser\x{2019}s reinterpretation of Freud\x{2019}s interpretation of folie \x{e0} deux in the classic case of Orphan Eva and her mother, as she
   delivered her own paper, as she attempted desperately to follow the ensuing discussion, of which she could grasp only one word in ten: all through this crazy jumble of non-language and
-  misunderstanding, of erudition and impenetrable obscurity, of meaningless signs and uninterpretable eye contact, the mosquitoes buzzed and nipped and drew blood. By <<six|9e>>, at the end of the session,
+  misunderstanding, of erudition and impenetrable obscurity, of meaningless signs and uninterpretable eye contact, the mosquitoes buzzed and nipped and drew blood. By <<six|9:0>>, at the end of the session,
   she was exhausted, demoralized. She took a taxi home. She felt herself, beneath the pricks and stings, to be growing ill. Charles had made her ill. She needed comfort, reassurance. She would ring
   Alix. She would tell Alix. She knew that in speaking to Alix her voice would find its normal level, her mind would return to its normal tuning. She could rely on Alix. But when she got back and
   dialled Alix\x{2019}s number, Alix was out. Liz replaced the receiver and tried to keep calm, but she could feel panic, fever, tears approaching. Charles had gone out. To see Henrietta, to his club?
@@ -389,7 +389,7 @@ $VAR1 = [
           [
             1,
             '[ap 00:00] The Radiant Way - Margaret Drabble.epub (OEBPS/html/05_body2b.html) - twelve',
-            'Brian, at <<twelve|9e>>, at thirteen, had also known what it was to be tormented. For a time, he had been short and fat. Bunter Bowen, they had called him. But then he had grown taller and was teased
+            'Brian, at <<twelve|9:0>>, at thirteen, had also known what it was to be tormented. For a time, he had been short and fat. Bunter Bowen, they had called him. But then he had grown taller and was teased
   no longer.',
           ],
           [
@@ -399,7 +399,7 @@ $VAR1 = [
   singing, the machine running fast, smooth, efficient, functioning perfectly, sweeping up notions, quick, quick, excited, gathering momentum, cruising; and undetectable, that smell of burning
   rubber, or is it still there, hanging, haunting, burning rubber, the wrong engine note? Stephen is less rapid, more enigmatic, more tentative, but he too gathers speed under Liz\x{2019}s
   acceleration, and Alix sits back and listens to them run along together: they speak of Freud and Little Hans and fear of horses, they speak of Plato\x{2019}s metaphor of the harnessed horses of the
-  self. It is going so well, this modest supper party, that Alix is simultaneously exhilarated, exhausted, jealous, delighted. It is <<one in the morning|9a>>, it is time for bed, but they still gallop
+  self. It is going so well, this modest supper party, that Alix is simultaneously exhilarated, exhausted, jealous, delighted. It is <<one in the morning|5>>, it is time for bed, but they still gallop
   along, in step, Liz and Stephen. Well, it is done, they will have to arrange the next outing themselves, thinks Alix. She wonders if Brian is annoyed. She has never quite known what Brian thinks of
   Liz. Maybe there will be no more outings. Stephen is elusive, he vanishes, frequently. He is faithful only to Brian in, perhaps, the world.",
           ],
@@ -407,7 +407,7 @@ $VAR1 = [
             1,
             '[07:00] The Radiant Way - Margaret Drabble.epub (OEBPS/html/05_body2b.html) - seven in the morning',
             'Doubts also creep up on Charles Headleand from time to time. He too is not as young as he was, and New York is a fast city, a breathless city. He has noticed an unpleasant tendency to
-  breathlessness. Luckily there are not many stairs in New York. He has taken up jogging, and jogs round the upper West Side at <<seven in the morning|9a>>. Diet, luckily, is a fashionable topic, and he
+  breathlessness. Luckily there are not many stairs in New York. He has taken up jogging, and jogs round the upper West Side at <<seven in the morning|5>>. Diet, luckily, is a fashionable topic, and he
   cuts out (well, almost cuts out) butter, salt, milk, eggs, fat: he is told to eat raw fish. Raw fish is fashionable. He thinks he is enjoying his work, his new importance, his power, his eminence:
   he enjoys the deference accorded to him.',
           ],
@@ -490,7 +490,7 @@ $VAR1 = [
             1,
             '[07:00] The Radiant Way - Margaret Drabble.epub (OEBPS/html/05_body2b.html) - seven in the morning',
             "Silence fell. Liz felt her energy, her stone-walling intimacy-blocking energy flag: it was late and she was crumbling, and she knew that Shirley knew. It\x{2019}s not, thought Liz plaintively, as
-  though I\x{2019}ve led an idle life: I take on a lot, I work hard, I have to be up at <<seven in the morning|9a>>, I cooked that supper she\x{2019}s just eaten. Self-pity filled Liz: she felt it seeping in;
+  though I\x{2019}ve led an idle life: I take on a lot, I work hard, I have to be up at <<seven in the morning|5>>, I cooked that supper she\x{2019}s just eaten. Self-pity filled Liz: she felt it seeping in;
   horrified, amused; people are dreadful, thought Liz (meaning herself), quite, quite dreadful. She was ashamed of herself: but determined not to relent.",
           ],
           [
@@ -561,14 +561,14 @@ $VAR1 = [
             1,
             '[03:00] The Radiant Way - Margaret Drabble.epub (OEBPS/html/06_body3.html) - three in the morning',
             "He dropped her on her own doorstep. \x{2018}You\x{2019}ll be all right, then?\x{2019} he enquired, glancing up at the narrow dark building. \x{2018}Oh yes,\x{2019} she reassured him, thanking him
-  effusively: if she had been young, wild, sexy, would she have asked him up? Did he sometimes get asked up? It was <<three in the morning|9a>>. He drove off, waving goodbye: she switched on the hall-light
+  effusively: if she had been young, wild, sexy, would she have asked him up? Did he sometimes get asked up? It was <<three in the morning|5>>. He drove off, waving goodbye: she switched on the hall-light
   and locked the door behind her, and as she locked it, the telephone began to ring.",
           ],
           [
             1,
             '[03:00] The Radiant Way - Margaret Drabble.epub (OEBPS/html/06_body3.html) - three in the morning',
             "\x{2018}What time is it?\x{2019}
-\x{2018}It\x{2019}s <<three in the morning|9a>>,\x{2019} said Alix.
+\x{2018}It\x{2019}s <<three in the morning|5>>,\x{2019} said Alix.
 \x{2018}And where\x{2019}ve you been? I\x{2019}ve been ringing for hours. For hours and hours and hours.\x{2019} Accusing.",
           ],
           [
@@ -601,7 +601,7 @@ $VAR1 = [
   mess. All the younger Headleands were assembled: Jonathan from Bury St Edmunds, with his girlfriend: Aaron from Highbury: Alan from Manchester: Sally and Stella, both of whom still officially lived
   at home with Liz. They sprawled on settees and bickered in corridors. And there was Charles, traitor Charles, sitting snoring in an armchair, full of turkey and brandy butter and Christmas pudding.
   Enjoy the peace while it lasts, Liz told herself, as she took cover in a corner behind The Times, as the dark evening thickened. She stroked her cat, also full of turkey, for comfort. The
-  cat sneezed and coughed. Soon, at <<six|9e>>, she would ring Alix, up in Leeds: poor Alix, her Christmas ruined by Brian\x{2019}s father\x{2019}s funeral, or rather with Brian\x{2019}s inability to organize
+  cat sneezed and coughed. Soon, at <<six|9:0>>, she would ring Alix, up in Leeds: poor Alix, her Christmas ruined by Brian\x{2019}s father\x{2019}s funeral, or rather with Brian\x{2019}s inability to organize
   a funeral. It hung over them, and Brian\x{2019}s father lay in the hospital morgue. For years, now, she and Alix had spoken to one another, on Christmas Day at <<six|9c:1>>: it was a tradition. They had not
   missed in how many years \x{2013} fifteen, sixteen? They had reassured one another, that there was a world elsewhere, away from the hearth, away from the conflicts of family life.",
           ],
@@ -646,7 +646,7 @@ $VAR1 = [
           [
             1,
             '[04:00] The Radiant Way - Margaret Drabble.epub (OEBPS/html/07_body4.html) - four in the morning',
-            "\x{2018}I suppose I learned it from the kids,\x{2019} said Liz. \x{2018}Aaron got into a bit of trouble the other day. He was stopped \x{2013} okay, it was <<four in the morning|9a>>, but that\x{2019}s not
+            "\x{2018}I suppose I learned it from the kids,\x{2019} said Liz. \x{2018}Aaron got into a bit of trouble the other day. He was stopped \x{2013} okay, it was <<four in the morning|5>>, but that\x{2019}s not
   a crime \x{2013} and searched, and because he gave them a bit of lip they turned him in for the night.\x{2019}",
           ],
           [
@@ -657,7 +657,7 @@ $VAR1 = [
           [
             1,
             '[05:00] The Radiant Way - Margaret Drabble.epub (OEBPS/html/07_body4.html) - five in the morning',
-            'Liz Headleand woke at <<five in the morning|9a>>, in the Open Hearth Hotel, feeling ill. Shaking with psychic fever, with a blinding headache. She took a couple of Panadol, and waited
+            'Liz Headleand woke at <<five in the morning|5>>, in the Open Hearth Hotel, feeling ill. Shaking with psychic fever, with a blinding headache. She took a couple of Panadol, and waited
   for dawn. There was nothing to do but to sweat it out.',
           ],
           [

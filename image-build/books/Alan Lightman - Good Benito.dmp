@@ -32,12 +32,12 @@ $VAR1 = [
           [
             1,
             '[01:00] Good Benito - Alan Lightman.epub (OEBPS/Text/GoodBenito_0005.htm) - one in the morning',
-            'Bennett sits at his oak desk. They are so beautiful, the equations. Even visually beautiful, but especially beautiful in the mind. Their precision and power are beautiful, and as he begins to understand an equation, he gets the same feeling as seeing a moonrise over trees. In his mind, it is dark and still and then the tops of the trees on the far side of the bay begin to glow slightly, white and soft, and the white gets brighter, silhouetting the trees, and then a small piece of moon appears and the mathematics opens up and contains and shines in perfection. It is <<one in the morning|9a>>, but he is not tired. He gains strength from himself. He does not need to go to the library, he does not need to ask other students or grown-ups for information or help. He can be here alone, in his room, with the beautiful mathematics and the moon and figure things out on his own. He can sit here naked at his oak desk with the clean, white paper and work in the absolute certainty and the solitude and perfection. Gliding through the world in his mind, he doesn\'t worry about his small height or his pimples or his problems with talking or his confusion at what people say. It is a world without bodies. It is a world of clear logic and grace. It is the best part of loneliness, without the sadness.',
+            'Bennett sits at his oak desk. They are so beautiful, the equations. Even visually beautiful, but especially beautiful in the mind. Their precision and power are beautiful, and as he begins to understand an equation, he gets the same feeling as seeing a moonrise over trees. In his mind, it is dark and still and then the tops of the trees on the far side of the bay begin to glow slightly, white and soft, and the white gets brighter, silhouetting the trees, and then a small piece of moon appears and the mathematics opens up and contains and shines in perfection. It is <<one in the morning|5>>, but he is not tired. He gains strength from himself. He does not need to go to the library, he does not need to ask other students or grown-ups for information or help. He can be here alone, in his room, with the beautiful mathematics and the moon and figure things out on his own. He can sit here naked at his oak desk with the clean, white paper and work in the absolute certainty and the solitude and perfection. Gliding through the world in his mind, he doesn\'t worry about his small height or his pimples or his problems with talking or his confusion at what people say. It is a world without bodies. It is a world of clear logic and grace. It is the best part of loneliness, without the sadness.',
           ],
           [
             1,
             '[07:00] Good Benito - Alan Lightman.epub (OEBPS/Text/GoodBenito_0006.htm) - seven in the morning',
-            'The construction lasted two months. Every day at <<seven in the morning|9a>> the men came up the driveway in two red trucks. Each truck had a mushroom cloud with an X through it painted on the side and Triple Man in white letters on the front.',
+            'The construction lasted two months. Every day at <<seven in the morning|5>> the men came up the driveway in two red trucks. Each truck had a mushroom cloud with an X through it painted on the side and Triple Man in white letters on the front.',
           ],
           [
             1,
@@ -92,17 +92,17 @@ $VAR1 = [
           [
             1,
             '[23:00] Good Benito - Alan Lightman.epub (OEBPS/Text/GoodBenito_0008.htm) - eleven in the evening',
-            'He was irritated with the intrusion when he was trying to think. And now, at <<eleven in the evening|9a>>, even with the blinds down and his office door closed, his ears would not leave his mind alone. He covered an ear with one hand and scribbled equations with the other. But that still left one ear exposed to the loud whirring sound.',
+            'He was irritated with the intrusion when he was trying to think. And now, at <<eleven in the evening|5>>, even with the blinds down and his office door closed, his ears would not leave his mind alone. He covered an ear with one hand and scribbled equations with the other. But that still left one ear exposed to the loud whirring sound.',
           ],
           [
             1,
             '[17:00] Good Benito - Alan Lightman.epub (OEBPS/Text/GoodBenito_0008.htm) - five in the afternoon',
-            'It was only <<five in the afternoon|9a>> but already getting dark. Bennett still hadn\'t gotten used to the long winters up north. He got up and turned on two lamps, then carefully closed the shades in his living room. He picked up a book lying on a table, returned it to the bookcase in the corner, and sat down on the sofa across from his uncle.',
+            'It was only <<five in the afternoon|5>> but already getting dark. Bennett still hadn\'t gotten used to the long winters up north. He got up and turned on two lamps, then carefully closed the shades in his living room. He picked up a book lying on a table, returned it to the bookcase in the corner, and sat down on the sofa across from his uncle.',
           ],
           [
             1,
             '[ap ~ 11:00] Good Benito - Alan Lightman.epub (OEBPS/Text/GoodBenito_0009.htm) - Around eleven',
-            '<<Around eleven|9e>>, she said that she needed to go home. She let him walk her to the subway stop.',
+            '<<Around eleven|9:0>>, she said that she needed to go home. She let him walk her to the subway stop.',
           ],
           [
             1,
@@ -117,7 +117,7 @@ $VAR1 = [
           [
             1,
             '[02:00] Good Benito - Alan Lightman.epub (OEBPS/Text/GoodBenito_0009.htm) - two in the morning',
-            'One night very late, when Bennett couldn\'t sleep, he called her. It was <<two in the morning|9a>>. He had to see her, he said. She said something sleepily, and he got in his car and drove to her apartment. He didn\'t wait at the red lights. When he walked in, she was wearing a white cotton robe. She whispered that they had to be quiet, her roommate was sleeping. They sat on the couch. She started to cry. Just hold me, she said softly. I can\'t stand it any longer, he said. I know, she replied. They sat for a while without talking, just holding each other. Then she took his hand and led him into her bedroom. The next morning, she allowed him to give her the $200 she needed to release her car from the repair shop.',
+            'One night very late, when Bennett couldn\'t sleep, he called her. It was <<two in the morning|5>>. He had to see her, he said. She said something sleepily, and he got in his car and drove to her apartment. He didn\'t wait at the red lights. When he walked in, she was wearing a white cotton robe. She whispered that they had to be quiet, her roommate was sleeping. They sat on the couch. She started to cry. Just hold me, she said softly. I can\'t stand it any longer, he said. I know, she replied. They sat for a while without talking, just holding each other. Then she took his hand and led him into her bedroom. The next morning, she allowed him to give her the $200 she needed to release her car from the repair shop.',
           ],
           [
             1,
@@ -127,7 +127,7 @@ $VAR1 = [
           [
             1,
             '[02:00] Good Benito - Alan Lightman.epub (OEBPS/Text/GoodBenito_0010.htm) - two in the morning',
-            'A week later, in the middle of the night, he was awakened by the ringing of the telephone. It was her. How are you, Bennett? she said. Jesus, Penny, it\'s <<two in the morning|9a>>, he said. I\'ve swallowed twenty sleeping pills, she said.',
+            'A week later, in the middle of the night, he was awakened by the ringing of the telephone. It was her. How are you, Bennett? she said. Jesus, Penny, it\'s <<two in the morning|5>>, he said. I\'ve swallowed twenty sleeping pills, she said.',
           ],
           [
             1,

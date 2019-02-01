@@ -57,7 +57,7 @@ $VAR1 = [
           [
             1,
             '[ap > 10:00] Arslan - M. J. Engh.epub (OPS/xhtml/chapter005.xhtml) - A little past ten',
-            "I gave him his lists first thing in the morning. <<A little past ten|9e>> he sent for me. Lieutenant Z and two soldiers were waiting in his office. \x{201c}You will follow this route,\x{201d} said Nizam, holding up a paper for me to take. He didn\x{2019}t bother to look at me; after all, he\x{2019}d glanced up when I came in. \x{201c}You will return between <<noon|13>> and curfew, eighteen February. Dismissed.\x{201d}",
+            "I gave him his lists first thing in the morning. <<A little past ten|9:1>> he sent for me. Lieutenant Z and two soldiers were waiting in his office. \x{201c}You will follow this route,\x{201d} said Nizam, holding up a paper for me to take. He didn\x{2019}t bother to look at me; after all, he\x{2019}d glanced up when I came in. \x{201c}You will return between <<noon|13>> and curfew, eighteen February. Dismissed.\x{201d}",
           ],
           [
             1,
@@ -148,10 +148,5 @@ $VAR1 = [
             1,
             '[ap 00:50] Arslan - M. J. Engh.epub (OPS/xhtml/chapter027.xhtml) - Ten to one',
             "\x{201c}What happens if nothing happens?\x{201d} I asked him. \x{201c}These kids can\x{2019}t keep the steam up very long. <<Ten to one|10a:0>> there won\x{2019}t be any attack tonight, and tomorrow they\x{2019}ll be down.\x{201d}",
-          ],
-          [
-            1,
-            '[ap 03:00] Arslan - M. J. Engh.epub (OPS/xhtml/chapter028.xhtml) - three',
-            "\x{201c}On that.\x{201d} The clasp of their hands was in darkness. Then the granite head nodded, the portentous budge of the cliff. At <<three|9m:0>> paces, in the trivial moonlight, his eyes were too shadowed. I would have given something\x{2014}say a hand\x{2014}to know if he was looking into my eyes or Arslan\x{2019}s. \x{201c}Good night.\x{201d}",
           ],
         ];

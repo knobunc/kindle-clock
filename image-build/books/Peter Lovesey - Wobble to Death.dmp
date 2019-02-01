@@ -12,7 +12,7 @@ $VAR1 = [
           [
             1,
             '[ap 07:00] Wobble to Death - Peter Lovesey.epub (OEBPS/chap10_wobblede_9781569477892_epub_part10.html) - seven',
-            "During the morning Darrell gained perceptibly on young Reid, who struggled gamely in response to his brother\x{2019}s shouts. At <<seven|9e>>, after six hours, his score was chalked on the board as 38 miles 4 laps, Darrell\x{2019}s 37 miles 6 laps, and O\x{2019}Flaherty, Williams and Chalk were together on 34 miles. A mile behind followed Chadwick, apparently unperturbed. \x{2018}Pencillers\x{2019} moved among the crowd accepting bets, and already Chadwick\x{2019}s position as favourite was threatened in the odds offered on Darrell. Mostyn-Smith had recorded 24 miles and retired to the huts. There the Press cornered him, eager for quotable comments on the agony of the race, but he confounded them by announcing,",
+            "During the morning Darrell gained perceptibly on young Reid, who struggled gamely in response to his brother\x{2019}s shouts. At <<seven|9m:1>>, after six hours, his score was chalked on the board as 38 miles 4 laps, Darrell\x{2019}s 37 miles 6 laps, and O\x{2019}Flaherty, Williams and Chalk were together on 34 miles. A mile behind followed Chadwick, apparently unperturbed. \x{2018}Pencillers\x{2019} moved among the crowd accepting bets, and already Chadwick\x{2019}s position as favourite was threatened in the odds offered on Darrell. Mostyn-Smith had recorded 24 miles and retired to the huts. There the Press cornered him, eager for quotable comments on the agony of the race, but he confounded them by announcing,",
           ],
           [
             1,
@@ -53,7 +53,7 @@ $VAR1 = [
             1,
             '[ap 06:00] Wobble to Death - Peter Lovesey.epub (OEBPS/chap11_wobblede_9781569477892_epub_part11.html) - six',
             "\x{2018}How long are you on duty for?\x{2019} he asked.
-\x{2018}Till <<six|9a>> tomorrow, sir.\x{2019}
+\x{2018}Till <<six|3b>> tomorrow, sir.\x{2019}
 \x{2018}Do you live near by?\x{2019}",
           ],
           [
@@ -148,7 +148,7 @@ Darrell moaned and lay inert.",
           [
             1,
             '[ap 04:00] Wobble to Death - Peter Lovesey.epub (OEBPS/chap18_wobblede_9781569477892_epub_part18.html) - FOUR',
-            "AT <<FOUR|9a>> ON WEDNESDAY morning the lights were turned up and a bell was rung. This reveille had been arranged by Sol Herriott, before leaving for \x{2018}a decent eight hours\x{2019} in a hotel nearby. Already, in near-darkness at the Liverpool Road end, loyal friends and trainers were moving about the area of the huts, rousing their inhabitants. Their method of restoring consciousness had been well proved in other insti-tutions. The door was thrust open. Blankets were yanked from resisting hands. In hard cases the dripping cold sponge was employed. Soon, to a chorus of protesting obscenities, the huts themselves were illuminated. The ministering angels flitted among them, bearing away buckets that steamed in the night air, returning for milk from the com-munal churn, igniting the gas-rings, and all the time growl-ing deterrents to further sleep.",
+            "AT <<FOUR|3b>> ON WEDNESDAY morning the lights were turned up and a bell was rung. This reveille had been arranged by Sol Herriott, before leaving for \x{2018}a decent eight hours\x{2019} in a hotel nearby. Already, in near-darkness at the Liverpool Road end, loyal friends and trainers were moving about the area of the huts, rousing their inhabitants. Their method of restoring consciousness had been well proved in other insti-tutions. The door was thrust open. Blankets were yanked from resisting hands. In hard cases the dripping cold sponge was employed. Soon, to a chorus of protesting obscenities, the huts themselves were illuminated. The ministering angels flitted among them, bearing away buckets that steamed in the night air, returning for milk from the com-munal churn, igniting the gas-rings, and all the time growl-ing deterrents to further sleep.",
           ],
           [
             1,
@@ -240,15 +240,8 @@ Darrell moaned and lay inert.",
           ],
           [
             1,
-            '[ap > 01:00] Wobble to Death - Peter Lovesey.epub (OEBPS/chap23_wobblede_9781569477892_epub_part23.html) - after one',
-            "\x{2018}The early morning? What time?\x{2019}
-\x{2018}Oh, <<after one|9e:1>>, I\x{2019}d say. Maybe nearer two.\x{2019}
-\x{2018}Who opened the door?\x{2019}",
-          ],
-          [
-            1,
             '[ap ~ 00:00] Wobble to Death - Peter Lovesey.epub (OEBPS/chap23_wobblede_9781569477892_epub_part23.html) - About twelve',
-            "\x{2018}<<About twelve|9e>>, I think. No, it must have been earlier. I was home before Taylor, and she gets in by <<midnight|13>>.\x{2019}",
+            "\x{2018}<<About twelve|9:1>>, I think. No, it must have been earlier. I was home before Taylor, and she gets in by <<midnight|13>>.\x{2019}",
           ],
           [
             1,
@@ -331,11 +324,6 @@ It was <<nearly two o\x{2019}clock|6>>, so they had the room almost to themselve
             1,
             "[ap 04:00] Wobble to Death - Peter Lovesey.epub (OEBPS/chap26_wobblede_9781569477892_epub_part26.html) - four o\x{2019}clock",
             "\x{2018}I felt obliged to warn him of the dangers to which he was exposed, as the only possible rival to Captain Chadwick. I reasoned that whoever had killed poor Darrell would not balk at murdering anyone else who threatened to overtake the Captain. I therefore approached this\x{2014}man to acquaint him with my fears. I roused him before <<four o\x{2019}clock|6>> and we conversed about the matter.\x{2019}",
-          ],
-          [
-            1,
-            '[~ 12:00] Wobble to Death - Peter Lovesey.epub (OEBPS/chap26_wobblede_9781569477892_epub_part26.html) - about mid-day',
-            "\x{2018}I believe that I know who tampered with O\x{2019}Flaherty\x{2019}s boots,\x{2019} he muttered confidentially. \x{2018}At <<about mid-day|13>>\x{2014}or twenty-seven minutes past to be specific\x{2014}I approached his hut with a view to checking that his food and drink had not been poisoned. I had deduced that the murderer would attack O\x{2019}Flaherty next, you understand, and it seemed to me obvious that he would employ some form of poisoning again. I approached the hut from the rear, and as I turned from the side of the building I saw someone come out of the hut, and move quickly away to the track.\x{2019}",
           ],
           [
             1,

@@ -52,7 +52,7 @@ $VAR1 = [
           [
             1,
             '[03:00] Striding Folly - Dorothy L. Sayers.epub (index_split_007.html) - three in the morning',
-            'The blue-uniformed figure came up from the direction of South Audley Street. He too was smoking and he walked, not with the firm tramp of a constable on his beat, but with the hesitating step of a man who has lost his bearings. When he came in sight, he had pushed back his helmet and was rubbing his head in a puzzled manner. Official habit made him look sharply at the bare-headed gentleman in evening dress, abandoned on a doorstep at <<three in the morning|9a>>, but since the gentleman appeared to be sober and bore no signs of being about to commit a felony, he averted his gaze and prepared to pass on.',
+            'The blue-uniformed figure came up from the direction of South Audley Street. He too was smoking and he walked, not with the firm tramp of a constable on his beat, but with the hesitating step of a man who has lost his bearings. When he came in sight, he had pushed back his helmet and was rubbing his head in a puzzled manner. Official habit made him look sharply at the bare-headed gentleman in evening dress, abandoned on a doorstep at <<three in the morning|5>>, but since the gentleman appeared to be sober and bore no signs of being about to commit a felony, he averted his gaze and prepared to pass on.',
           ],
           [
             1,
@@ -104,6 +104,6 @@ $VAR1 = [
           [
             1,
             "[ap 09:00] Striding Folly - Dorothy L. Sayers.epub (index_split_008.html) - nine o\x{2019}clock",
-            "\x{2018}That there gate,\x{2019} said Mr Puffett, \x{2018}was locked last night at <<nine o\x{2019}clock|6>> as ever is, \x{2019}an it was still locked when I came in at <<seven this mornin|9a>>\x{2019}; so \x{2019}ooever done it \x{2019}ad to climb this yer wall.\x{2019}",
+            "\x{2018}That there gate,\x{2019} said Mr Puffett, \x{2018}was locked last night at <<nine o\x{2019}clock|6>> as ever is, \x{2019}an it was still locked when I came in at <<seven this mornin\x{2019}|5>>; so \x{2019}ooever done it \x{2019}ad to climb this yer wall.\x{2019}",
           ],
         ];

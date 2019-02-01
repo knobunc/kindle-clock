@@ -62,7 +62,7 @@ $VAR1 = [
             "No visit to Egypt is complete without a stop in Cairo, but that city, the pinnacle
                of every normal tourist\x{2019}s traveling career, is strangely empty from a hacker tourist
                point of view. Its prime attraction, of course, is the pyramids. We visited them at
-               <<five in the morning|9a>> during a long and ultimately futile wait for the Egyptian military
+               <<five in the morning|5>> during a long and ultimately futile wait for the Egyptian military
                to give us permission to rendezvous with FLAG\x{2019}s cable-laying ship in the Gulf of Suez.
                To the hacker, the most interesting thing about the Pyramids is their business plan,
                which is the simplest and most effective ever devised:",
@@ -80,6 +80,18 @@ $VAR1 = [
           ],
           [
             1,
+            '[ap 01:00] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/9780061792571_Chapter_113a.xhtml) - One',
+            "Other than the tank that contains the cable, which is literally nothing more than
+               a big round hole in the middle of the ship, a cable ship is different from other ships
+               in two ways. <<One|9k:0>>, it comes with a complement of bow and stern thrusters coupled to
+               exquisitely sensitive navigation gear on the bridge, which give it unsurpassed precision-maneuvering
+               and station-keeping powers. In the case of Monarch, a smaller cable repair ship that we visited in Southampton, England, there are at
+               least two differential GPS receivers, one for the bow and one for the stern \x{2014} hence
+               the two readings given at the head of this section. Each one of them reads out to
+               five decimal places, which implies a resolution of about 1 centimeter.",
+          ],
+          [
+            1,
             '[14:00] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/9780061792571_Chapter_113a.xhtml) - two in the afternoon',
             "I used to write stuff that was kind of a shambles. I would have to go back and fix
                it, which was a pain, and it was like a car that\x{2019}s been in a crash and fixed up in
@@ -87,8 +99,14 @@ $VAR1 = [
                it out. A lot of the better stuff I\x{2019}d written, the stuff that didn\x{2019}t need to be fixed,
                was the stuff I was writing first thing in the morning. And a lot of the absolute
                crap I was writing that just needed to be overhauled or thrown away was what I was
-               grinding out at <<two in the afternoon|9a>>, when I was trying to be a tough-guy writer and
+               grinding out at <<two in the afternoon|5>>, when I was trying to be a tough-guy writer and
                I was just exhausted and bored.",
+          ],
+          [
+            1,
+            '[ap 02:00] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/9780061792571_Chapter_12.xhtml) - Two O-Clock',
+            'Bobby Shaftoe opens his eyes, expecting that, in so doing, he is raising the curtain
+               on a corker of a nightmare, probably the final moments of Torpedo Bombers at <<Two O-Clock|6>>! (his all-time favorite) or the surprise beginning of Strafed by Yellow Men XVII.',
           ],
           [
             1,
@@ -272,7 +290,7 @@ $VAR1 = [
             "THE DENTIST IS GONE, THE DOOR LOCKED, THE phone unplugged. Randall Lawrence Waterhouse lies naked on the starched, turned-down
                sheets of his king-sized bed. His head is propped up on a pillow so that he can peer
                through the vee of his feet at a BBC World Service newscast on the television. A ten-dollar
-               minibar beer is near at hand. It\x{2019}s <<six in the morning|9a>> in America and so rather than
+               minibar beer is near at hand. It\x{2019}s <<six in the morning|5>> in America and so rather than
                a pro basketball game, he has to settle for this BBC newscast, which is strongly geared
                to South Asian happenings. A long and very sober story about a plague of locusts on
                the India/Pakistan border follows a piece on a typhoon about  to nail Hong Kong. The king of Thailand is calling in some of his government\x{2019}s more
@@ -417,7 +435,7 @@ $VAR1 = [
                and all night long, Rizal Boulevard, along the base of the old Spanish wall, is jammed
                from one end to the other with container-carrying semis. The whole city is a cauldron
                of internal combustion. Manila seems to have more pistons and exhaust pipes than the
-               rest of the world combined. Even at <<two in the morning|9a>> the hotel\x{2019}s seemingly unshakable
+               rest of the world combined. Even at <<two in the morning|5>> the hotel\x{2019}s seemingly unshakable
                mass hums and rattles from the seismic energy pouring from all of those motors. The
                noise detonates car alarms down in the hotel\x{2019}s lot. The noise of one alarm triggers
                others, and so on. It is not the noise that keeps Randy awake so much as the insane
@@ -447,7 +465,7 @@ $VAR1 = [
           [
             1,
             '[15:00] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/9780061792571_Chapter_50.xhtml) - three in the afternoon',
-            "Randy\x{2019}s calculator watch beeps twice. He checks the time; it is <<three in the afternoon|9a>>.",
+            "Randy\x{2019}s calculator watch beeps twice. He checks the time; it is <<three in the afternoon|5>>.",
           ],
           [
             1,
@@ -587,7 +605,7 @@ $VAR1 = [
           [
             1,
             '[02:00] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/9780061792571_Chapter_69.xhtml) - two in the morning',
-            "\x{201c}At <<two in the morning|9a>>, when I\x{2019}m lying awake in bed, I do,\x{201d} Randy says. \x{201c}In the light
+            "\x{201c}At <<two in the morning|5>>, when I\x{2019}m lying awake in bed, I do,\x{201d} Randy says. \x{201c}In the light
                of day, it all seems like paranoia.\x{201d} He glances over at Amy, who\x{2019}s looking at him
                appraisingly, because he hasn\x{2019}t actually answered the question yet. He\x{2019}s got to pick
                one thing or the other. \x{201c}Better safe than sorry, I guess. Having good crypto can\x{2019}t
@@ -642,7 +660,7 @@ $VAR1 = [
                booby prize of sorts among the Waterhouse grandchildren. The smell of mothballs, mildew,
                and heavily oiled wool causes Aunt Nina\x{2019}s nose to wrinkle, as it did Aunt Annie\x{2019}s
                before her. Randy remembers bedding down beneath this blanket once at the age of about nine, and waking
-               up at <<two in the morning|9a>> with bronchial spasms, hyperthermia, and vague memories of
+               up at <<two in the morning|5>> with bronchial spasms, hyperthermia, and vague memories of
                a nightmare about being buried alive. Aunt Nina slams the box flaps shut, turns around,
                and looks in the direction of the Impala. Robin Shaftoe is already running towards
                them. Being not bad at math himself, he was quick to pick up on this whole concept,
@@ -721,7 +739,7 @@ $VAR1 = [
                as if the place has just  been mustard-gassed. But they are just doing it to shout hallelujah! Glory alights
                nimbly upon her high heels, tears exploring the exceptional geometry of her cheeks,
                and kisses everyone in the entire clan. All of the kids are wide awake, though it
-               is <<three in the morning|9a>>. Shaftoe happens to catch the eye of a squad of boys, aged
+               is <<three in the morning|5>>. Shaftoe happens to catch the eye of a squad of boys, aged
                maybe <<three to ten|10a:0>>, all brandishing wooden rifles and swords. They are all staring
                at Bobby Shaftoe, replendent in his uniform, and they are perfectly thunderstruck;
                he could throw a baseball into the mouth of each one from across the room. In his
@@ -807,7 +825,7 @@ $VAR1 = [
                Anally Receptive Cupbearer, and to the Nipponese, as Hideo, the Plucky Disaster Relief
                Worker, bending over to probe a pile of jagged concrete slabs for anything that\x{2019}s
                squishy. All of this leaves him in a state of free-floating terror. He gets up at
-               <<five in the morning|9a>>, grabs two capsules of Japanese Snack from his minibar, and leaves
+               <<five in the morning|5>>, grabs two capsules of Japanese Snack from his minibar, and leaves
                the hotel, following one of the two emergency exit routes that he has memorized. He
                starts wandering, thinking it would be fun to get lost. Getting lost happens in about
                thirty seconds. He should have brought his GPS, and marked the latitude and longitude

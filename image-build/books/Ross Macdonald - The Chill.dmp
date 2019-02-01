@@ -95,7 +95,7 @@ He nodded dismally. \x{201c}There seems to be no one else available. Both of our
           [
             1,
             '[ap 08:00] The Chill - Ross Macdonald.epub (OEBPS/MacD_9780307759597_epub_c15_r1.htm) - eight',
-            "\x{201c}I reserved her a room at the Pacific Hotel. I could meet you there, at <<eight|9e>>, say.\x{201d}",
+            "\x{201c}I reserved her a room at the Pacific Hotel. I could meet you there, at <<eight|9:0>>, say.\x{201d}",
           ],
           [
             1,
@@ -106,6 +106,11 @@ He nodded dismally. \x{201c}There seems to be no one else available. Both of our
             1,
             '[ap < 11:00] The Chill - Ross Macdonald.epub (OEBPS/MacD_9780307759597_epub_c20_r1.htm) - nearly eleven',
             "It was time I went to Reno. I looked at my watch: <<nearly eleven|9:1>>: and remembered that I would gain time on the flight west. I could still have a talk with Luke Deloney\x{2019}s widow, if she was available, and get to Reno at a reasonable hour.",
+          ],
+          [
+            1,
+            '[ap 08:30] The Chill - Ross Macdonald.epub (OEBPS/MacD_9780307759597_epub_c23_r1.htm) - eight-thirty',
+            "\x{201c}You do, anyway. You have a dinner date at <<eight-thirty|5b>> with Mrs. Sally Burke. You\x{2019}re an old friend of mine from Los Angeles, business unspecified. You take it from there.\x{201d}",
           ],
           [
             1,

@@ -6,8 +6,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[12:00] The Story of the Amulet - E. Nesbit.epub (OPS/chapter-006.xml) - noon',
-            "Between the flights of steps were terraces where fountains played, and the Queen's Guard in white and scarlet, and armour that shone like gold, stood by twos lining the way up the stairs; and a great body of them was massed by the vast door of the palace itself, where it stood glittering like an impossibly radiant peacock in the <<noon|13>>\x{2013}day sun.",
+            "[12:00] The Story of the Amulet - E. Nesbit.epub (OPS/chapter-006.xml) - noon\x{2013}day",
+            "Between the flights of steps were terraces where fountains played, and the Queen's Guard in white and scarlet, and armour that shone like gold, stood by twos lining the way up the stairs; and a great body of them was massed by the vast door of the palace itself, where it stood glittering like an impossibly radiant peacock in the <<noon\x{2013}day|13>> sun.",
           ],
           [
             1,
@@ -25,6 +25,16 @@ And there they all were in the dining\x{2013}room at <<300|9c:0>>, Fitzroy Stree
             1,
             '[ap 00:50] The Story of the Amulet - E. Nesbit.epub (OPS/chapter-009.xml) - ten to one',
             "'Not he,' said Robert sleepily. 'The learned Ji\x{2013}jimmy will think it's a dream, and it's <<ten to one|10>> he never tells the other chap a word about it at all.'",
+          ],
+          [
+            1,
+            "[12:00] The Story of the Amulet - E. Nesbit.epub (OPS/chapter-011.xml) - mid\x{2013}day",
+            "'Let us strike for more bread and onions and beer, and a longer <<mid\x{2013}day|13>> rest,' the speaker went on. 'You are tired, you are hungry, you are thirsty. You are poor, your wives and children are pining for food. The barns of the rich are full to bursting with the corn we want, the corn our labour has grown. To the granaries!'",
+          ],
+          [
+            1,
+            "[12:00] The Story of the Amulet - E. Nesbit.epub (OPS/chapter-011.xml) - mid\x{2013}day",
+            "'He cannot do any more magic,' said Anthea suddenly, and all eyes were turned on her, 'because of the voice of the free people who are shouting for bread and onions and beer and a long <<mid\x{2013}day|13>> rest. If the people had what they wanted, he could do more.'",
           ],
           [
             1,

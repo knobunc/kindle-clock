@@ -2,7 +2,7 @@ $VAR1 = [
           [
             1,
             '[08:00] The Tanners - Robert Walser.epub (OEBPS/ch1.html) - eight in the morning',
-            "Simon went on: \x{201c}When I\x{2019}m on my way to work at <<eight in the morning|9a>>, I
+            "Simon went on: \x{201c}When I\x{2019}m on my way to work at <<eight in the morning|5>>, I
                					feel so beautifully connected to all the others who must also report to work
                at
                					<<eight|9c:1>>. What a great barracks modern life is! And yet how beautiful and
@@ -406,7 +406,7 @@ $VAR1 = [
                					and purpose. After all, the point of its existence was to permit the unemployed
                					to eke out a meager existence, not to disburse high, outrageous salaries. A
                					person had to consider himself fortunate to find work at all at <<eight in the
-               					morning|9a>>. Often enough it happened that the administrator would say to a group
+               					morning|5>>. Often enough it happened that the administrator would say to a group
                of
                					waiting men: \x{201c}Terribly sorry. Unfortunately there\x{2019}s nothing today. Come back
                at

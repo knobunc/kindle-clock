@@ -7,7 +7,7 @@ $VAR1 = [
           [
             1,
             '[ap 07:00] The Hollow Man - John Dickson Carr.epub (7_split_000.xhtml) - seven',
-            'Mills brought the toe of his shoe forward, balanced himself, and studied it, another trick of his. \' That, obviously, I cannot say with certainty. I will tell you what I know.\' He rocked back and forth. \'At the conclusion of dinner, at <<seven|9e>> - thirty, Dr Grimaud came up here to work. This is his custom on Saturday evenings. He told me he did not wish to be disturbed until <<eleven o\'clock|6>>; that is also the inviolable custom. He said, however\' - quite suddenly beads of sweat appeared on the young man\'s forehead again, though he remained impassive - \'he said, however, that he might have a visitor about half - <<past nine|9k:1>>.\'',
+            'Mills brought the toe of his shoe forward, balanced himself, and studied it, another trick of his. \' That, obviously, I cannot say with certainty. I will tell you what I know.\' He rocked back and forth. \'At the conclusion of dinner, at <<seven|9:1>> - thirty, Dr Grimaud came up here to work. This is his custom on Saturday evenings. He told me he did not wish to be disturbed until <<eleven o\'clock|6>>; that is also the inviolable custom. He said, however\' - quite suddenly beads of sweat appeared on the young man\'s forehead again, though he remained impassive - \'he said, however, that he might have a visitor about half - <<past nine|9k:1>>.\'',
           ],
           [
             1,
@@ -108,12 +108,12 @@ $VAR1 = [
           [
             1,
             '[ap 10:00] The Hollow Man - John Dickson Carr.epub (7_split_001.xhtml) - ten o\'clock',
-            '\'Our friend Mangan here says that the visitor threatened to pay his visit at <<ten o\'clock|6>>. Mrs Dumont and Mills say <<nine - thirty|5k:1>>. Wait!\' He checked Mangan\'s outburst. \'Was A lying or B? First, what sane reason could either have for lying afterwards about the time he threatened to come? Second, if A says <<ten o\'clock|6>> and B says <<nine - thirty|5k:1>>, then, innocent or guilty, one of the two should have learned beforehand the time at which the visitor really would arrive. And which was right about the time he did arrive?\'',
+            '\'Our friend Mangan here says that the visitor threatened to pay his visit at <<ten o\'clock|6>>. Mrs Dumont and Mills say nine - thirty. Wait!\' He checked Mangan\'s outburst. \'Was A lying or B? First, what sane reason could either have for lying afterwards about the time he threatened to come? Second, if A says <<ten o\'clock|6>> and B says nine - thirty, then, innocent or guilty, one of the two should have learned beforehand the time at which the visitor really would arrive. And which was right about the time he did arrive?\'',
           ],
           [
             1,
             '[ap 09:00] The Hollow Man - John Dickson Carr.epub (7_split_001.xhtml) - nine',
-            '\'Neither,\' said Mangan, staring, \'It was between \'em. At <<nine|9e>> - forty - five.\'',
+            '\'Neither,\' said Mangan, staring, \'It was between \'em. At <<nine|9m:0>> - forty - five.\'',
           ],
           [
             1,
@@ -165,12 +165,7 @@ $VAR1 = [
           [
             1,
             '[20:00] The Hollow Man - John Dickson Carr.epub (7_split_001.xhtml) - twenty',
-            '\'In Guilford Street, next to the Children\'s Hospital. In fact,\' said Hadley, \'backed up against Cagliostro Street so closely that the back gardens must be in line ... Well, say five minutes to get the ambulance to Russell Square. That\'s ten - <<twenty|9k:0>>. And what about the next five minutes, the time just before the second murder, and the equally important five or ten or fifteen minutes afterwards? Rosette Grimaud, alone, rode over in the ambulance with her father, and didn\'t return for some time. Mangan, alone, was downstairs doing some telephoning for me, and didn\'t come upstairs until Rosette returned. I don\'t seriously consider either of \'em, but take it all for the sake of argument. Drayman? Nobody saw Drayman all this time and for a long while afterwards. As to Mills and the Dumont woman - h\'m. Well, yes; I\'m afraid it does clear them. Mills was talking to us all the earlier part of the time, until at least <<ten - thirty|5k:1>> anyhow, and Madame Dumont joined him very shortly; they both stayed with us for a while. That tears it.\'',
-          ],
-          [
-            1,
-            '[ap 09:30] The Hollow Man - John Dickson Carr.epub (7_split_001.xhtml) - nine - thirty',
-            '\'Yes ... First, just as a matter of form, I must ask you to give an account of your movements last night. Especially between, say, <<nine - thirty|5k:1>> and <<ten - thirty|5k:1>>.\'',
+            '\'In Guilford Street, next to the Children\'s Hospital. In fact,\' said Hadley, \'backed up against Cagliostro Street so closely that the back gardens must be in line ... Well, say five minutes to get the ambulance to Russell Square. That\'s ten - <<twenty|9k:0>>. And what about the next five minutes, the time just before the second murder, and the equally important five or ten or fifteen minutes afterwards? Rosette Grimaud, alone, rode over in the ambulance with her father, and didn\'t return for some time. Mangan, alone, was downstairs doing some telephoning for me, and didn\'t come upstairs until Rosette returned. I don\'t seriously consider either of \'em, but take it all for the sake of argument. Drayman? Nobody saw Drayman all this time and for a long while afterwards. As to Mills and the Dumont woman - h\'m. Well, yes; I\'m afraid it does clear them. Mills was talking to us all the earlier part of the time, until at least ten - thirty anyhow, and Madame Dumont joined him very shortly; they both stayed with us for a while. That tears it.\'',
           ],
           [
             1,
@@ -339,8 +334,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 09:40] The Hollow Man - John Dickson Carr.epub (7_split_003.xhtml) - nine - forty',
-            '\'What are you trying to prove? Nothing? Sure of that? Don\'t be so hard on the blonde! It was some time before they expected anybody, remember - and that sniff of yours indicates prejudice. Let\'s continue, with the still inclusive times of <<nine - forty|5k:1>> - <<five to nine|10a:0>> - fifty, the interval between the moment X entered the house and the moment he entered Grimaud\'s study:',
+            '[ap 08:55] The Hollow Man - John Dickson Carr.epub (7_split_003.xhtml) - five to nine',
+            '\'What are you trying to prove? Nothing? Sure of that? Don\'t be so hard on the blonde! It was some time before they expected anybody, remember - and that sniff of yours indicates prejudice. Let\'s continue, with the still inclusive times of nine - forty - <<five to nine|10a:0>> - fifty, the interval between the moment X entered the house and the moment he entered Grimaud\'s study:',
           ],
           [
             1,
@@ -485,7 +480,7 @@ $VAR1 = [
           [
             1,
             '[ap ~ 10:00] The Hollow Man - John Dickson Carr.epub (7_split_003.xhtml) - About ten',
-            '\'<<About ten|9e>> - forty,\' said Rampole, \'according to a rough calculation. I\'ve got it in my time - table.\'',
+            '\'<<About ten|9:0>> - forty,\' said Rampole, \'according to a rough calculation. I\'ve got it in my time - table.\'',
           ],
           [
             1,
@@ -500,7 +495,7 @@ $VAR1 = [
           [
             1,
             '[ap > 11:00] The Hollow Man - John Dickson Carr.epub (7_split_003.xhtml) - after eleven o\'clock',
-            '\'Well, what time do church bells begin to ring? Not <<after eleven o\'clock|6>>; the service has begun. Usually before <<eleven|9c:1>>, for a preparatory bell. But, if I accepted the evidence of that German clock, it must then be a very long time <<past eleven o\'clock|6>>. Then my dull mind woke up. I remembered Big Ben and our drive to Cagliostro Street. The combination of those bells and Big Ben - against (hem!) a trumpery foreign clock. Church and State, so to speak, couldn\'t both be wrong - In other words, the clock in that jeweller\'s window was more than forty minutes fast. Hence the shooting in Cagliostro Street the night before could not have taken place at twenty - <<five minutes past ten|10>>. Actually it must have taken place a short time previous to a <<quarter to ten|10>>. Say, roughly, at <<nine|9e>> - forty.',
+            '\'Well, what time do church bells begin to ring? Not <<after eleven o\'clock|6>>; the service has begun. Usually before <<eleven|9c:1>>, for a preparatory bell. But, if I accepted the evidence of that German clock, it must then be a very long time <<past eleven o\'clock|6>>. Then my dull mind woke up. I remembered Big Ben and our drive to Cagliostro Street. The combination of those bells and Big Ben - against (hem!) a trumpery foreign clock. Church and State, so to speak, couldn\'t both be wrong - In other words, the clock in that jeweller\'s window was more than forty minutes fast. Hence the shooting in Cagliostro Street the night before could not have taken place at twenty - <<five minutes past ten|10>>. Actually it must have taken place a short time previous to a <<quarter to ten|10>>. Say, roughly, at <<nine|9:1>> - forty.',
           ],
           [
             1,
@@ -525,7 +520,7 @@ $VAR1 = [
           [
             1,
             '[ap 09:00] The Hollow Man - John Dickson Carr.epub (7_split_003.xhtml) - nine',
-            '\'Now, he was told to go upstairs and watch at <<nine|9c:1>> - thirty. This was because the hollow man was timed to make his appearance only a little afterwards; although, in fact, the hollow man was late. Mark one discrepancy. Mills was told <<nine - thirty|5k:1>> - but Mangan was told <<ten o\'clock|6>>! The reason is obvious. There was to be somebody downstairs to testify that a visitor had really arrived by the front door, confirming Dumont. But Mangan might be inclined towards curiosity about this visitor; he might be inclined to challenge the hollow man - unless he had first been jokingly told by Grimaud that the visitor would probably not arrive at all, or, if he did arrive, it could not possibly be before <<ten o\'clock|6>>. All that was necessary was to throw his mind off, and make him hesitate long enough, for the hollow man to gel upstairs past that dangerous door. And, if the worst came to the worst, Mangan and Rosette could always be locked in.',
+            '\'Now, he was told to go upstairs and watch at <<nine|9c:1>> - thirty. This was because the hollow man was timed to make his appearance only a little afterwards; although, in fact, the hollow man was late. Mark one discrepancy. Mills was told nine - thirty - but Mangan was told <<ten o\'clock|6>>! The reason is obvious. There was to be somebody downstairs to testify that a visitor had really arrived by the front door, confirming Dumont. But Mangan might be inclined towards curiosity about this visitor; he might be inclined to challenge the hollow man - unless he had first been jokingly told by Grimaud that the visitor would probably not arrive at all, or, if he did arrive, it could not possibly be before <<ten o\'clock|6>>. All that was necessary was to throw his mind off, and make him hesitate long enough, for the hollow man to gel upstairs past that dangerous door. And, if the worst came to the worst, Mangan and Rosette could always be locked in.',
           ],
           [
             1,
@@ -549,7 +544,7 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 09:30] The Hollow Man - John Dickson Carr.epub (7_split_003.xhtml) - nine - thirty',
-            '\'You can now make a reconstruction of just what happened when Grimaud, after killing Fley and getting a bullet himself, returned to the house on Saturday night. Right at the start of the illusion he and his confederate were in dangerous trouble. You see, Grimaud was late. He\'d expected to be back by <<nine - thirty|5k:1>> - and he didn\'t get there until a <<quarter to ten|10>>. The longer he delayed, the nearer it got to the time he had told Mangan to expect a visitor, and now Mangan would be expecting the visitor he had been told to watch. It was touch - and - go, and I rather imagine the cool Grimaud was fairly close to insane. He got up through the basement entrance, where his confederate was waiting. The tweed coat, with the blood inside it, went into the hall closet to be disposed of presently - and it never was, because he died. Dumont eased open the door, rang the bell by putting her hand out, and then went to "answer" it while Grimaud was getting ready with his uniform.',
+            '[ap 09:45] The Hollow Man - John Dickson Carr.epub (7_split_003.xhtml) - quarter to ten',
+            '\'You can now make a reconstruction of just what happened when Grimaud, after killing Fley and getting a bullet himself, returned to the house on Saturday night. Right at the start of the illusion he and his confederate were in dangerous trouble. You see, Grimaud was late. He\'d expected to be back by nine - thirty - and he didn\'t get there until a <<quarter to ten|10>>. The longer he delayed, the nearer it got to the time he had told Mangan to expect a visitor, and now Mangan would be expecting the visitor he had been told to watch. It was touch - and - go, and I rather imagine the cool Grimaud was fairly close to insane. He got up through the basement entrance, where his confederate was waiting. The tweed coat, with the blood inside it, went into the hall closet to be disposed of presently - and it never was, because he died. Dumont eased open the door, rang the bell by putting her hand out, and then went to "answer" it while Grimaud was getting ready with his uniform.',
           ],
         ];

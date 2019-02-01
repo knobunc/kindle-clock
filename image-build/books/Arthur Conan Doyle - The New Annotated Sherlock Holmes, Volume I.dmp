@@ -67,7 +67,7 @@ $VAR1 = [
           [
             1,
             '[08:00] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0007.html) - eight in the morning',
-            "\x{201c}At <<eight in the morning|9a>>. She will not be up, so that we shall have a clear field. Besides, we must be prompt, for this marriage may mean a complete change in her life and habits. I must wire to the King without delay.\x{201d}",
+            "\x{201c}At <<eight in the morning|5>>. She will not be up, so that we shall have a clear field. Besides, we must be prompt, for this marriage may mean a complete change in her life and habits. I must wire to the King without delay.\x{201d}",
           ],
           [
             1,
@@ -442,7 +442,7 @@ $VAR1 = [
           [
             1,
             '[12:00] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0018.html) - midday',
-            "Please be at the \x{201c}Black Swan\x{201d} Hotel at Winchester at <<midday|9a>> to-morrow. Do come! I am at my wit\x{2019}s end.",
+            "Please be at the \x{201c}Black Swan\x{201d} Hotel at Winchester at <<midday|3b>> to-morrow. Do come! I am at my wit\x{2019}s end.",
           ],
           [
             1,
@@ -492,12 +492,12 @@ $VAR1 = [
           [
             1,
             '[01:00] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0020.html) - one in the morning',
-            "\x{201c}Hunter waited until his fellow grooms had returned, when he sent a message to the trainer and told him what had occurred. Straker was excited at hearing the account, although he does not seem to have quite realized its true significance. It left him, however, vaguely uneasy, and Mrs. Straker, waking at <<one in the morning|9a>>, found that he was dressing. In reply to her inquiries, he said that he could not sleep on account of his anxiety about the horses, and that he intended to walk down to the stables to see that all was well. She begged him to remain at home, as she could hear the rain pattering against the windows, but in spite of her entreaties he pulled on his large macintosh and left the house.",
+            "\x{201c}Hunter waited until his fellow grooms had returned, when he sent a message to the trainer and told him what had occurred. Straker was excited at hearing the account, although he does not seem to have quite realized its true significance. It left him, however, vaguely uneasy, and Mrs. Straker, waking at <<one in the morning|5>>, found that he was dressing. In reply to her inquiries, he said that he could not sleep on account of his anxiety about the horses, and that he intended to walk down to the stables to see that all was well. She begged him to remain at home, as she could hear the rain pattering against the windows, but in spite of her entreaties he pulled on his large macintosh and left the house.",
           ],
           [
             1,
             '[07:00] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0020.html) - seven in the morning',
-            "\x{201c}Mrs. Straker awoke at <<seven in the morning|9a>>, to find that her husband had not yet returned. She dressed herself hastily, called the maid, and set off for the stables. The door was open; inside, huddled together upon a chair, Hunter was sunk in a state of absolute stupor, the favourite\x{2019}s stall was empty, and there were no signs of his trainer.",
+            "\x{201c}Mrs. Straker awoke at <<seven in the morning|5>>, to find that her husband had not yet returned. She dressed herself hastily, called the maid, and set off for the stables. The door was open; inside, huddled together upon a chair, Hunter was sunk in a state of absolute stupor, the favourite\x{2019}s stall was empty, and there were no signs of his trainer.",
           ],
           [
             1,
@@ -537,7 +537,7 @@ $VAR1 = [
           [
             1,
             '[03:00] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0022.html) - three in the morning',
-            "\x{201c}I am usually an extremely sound sleeper. It has been a standing jest in the family that nothing could ever wake me during the night; and yet somehow on that particular night, whether it may have been the slight excitement produced by my little adventure or not, I know not, but I slept much more lightly than usual. Half in my dreams I was dimly conscious that something was going on in the room, and gradually became aware that my wife had dressed herself and was slipping on her mantle and her bonnet. My lips were parted to murmur out some sleepy words of surprise or remonstrance at this untimely preparation, when suddenly my half-opened eyes fell upon her face, illuminated by the candle light, and astonishment held me dumb. She wore an expression such as I had never seen before\x{2014}such as I should have thought her incapable of assuming. She was deadly pale, and breathing fast, glancing furtively towards the bed, as she fastened her mantle, to see if she had disturbed me. Then, thinking that I was still asleep, she slipped noiselessly from the room, and an instant later I heard a sharp creaking, which could only come from the hinges of the front door. I sat up in bed and rapped my knuckles against the rail to make certain that I was truly awake. Then I took my watch from under the pillow. It was <<three in the morning|9a>>. What on this earth could my wife be doing out on the country road at <<three in the morning|9a>>?",
+            "\x{201c}I am usually an extremely sound sleeper. It has been a standing jest in the family that nothing could ever wake me during the night; and yet somehow on that particular night, whether it may have been the slight excitement produced by my little adventure or not, I know not, but I slept much more lightly than usual. Half in my dreams I was dimly conscious that something was going on in the room, and gradually became aware that my wife had dressed herself and was slipping on her mantle and her bonnet. My lips were parted to murmur out some sleepy words of surprise or remonstrance at this untimely preparation, when suddenly my half-opened eyes fell upon her face, illuminated by the candle light, and astonishment held me dumb. She wore an expression such as I had never seen before\x{2014}such as I should have thought her incapable of assuming. She was deadly pale, and breathing fast, glancing furtively towards the bed, as she fastened her mantle, to see if she had disturbed me. Then, thinking that I was still asleep, she slipped noiselessly from the room, and an instant later I heard a sharp creaking, which could only come from the hinges of the front door. I sat up in bed and rapped my knuckles against the rail to make certain that I was truly awake. Then I took my watch from under the pillow. It was <<three in the morning|5>>. What on this earth could my wife be doing out on the country road at <<three in the morning|5>>?",
           ],
           [
             1,
@@ -599,7 +599,7 @@ $VAR1 = [
           [
             1,
             '[12:00] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0023.html) - midday',
-            "It is customary at Mawson\x{2019}s for the clerks to leave at <<midday|9a>> on Saturday. Sergeant Tuson, of the City Police, was somewhat surprised, therefore, to see a gentleman with a carpet bag come down the steps at <<twenty minutes past one|10>>. His suspicions being aroused, the sergeant followed the man, and with the aid of Constable Pollock succeeded, after a most desperate resistance, in arresting him. It was at once clear that a daring and gigantic robbery had been committed. Nearly a hundred thousand pounds\x{2019} worth of American railway bonds, with a large amount of scrip in other mines and companies, were discovered in the bag.",
+            "It is customary at Mawson\x{2019}s for the clerks to leave at <<midday|3b>> on Saturday. Sergeant Tuson, of the City Police, was somewhat surprised, therefore, to see a gentleman with a carpet bag come down the steps at <<twenty minutes past one|10>>. His suspicions being aroused, the sergeant followed the man, and with the aid of Constable Pollock succeeded, after a most desperate resistance, in arresting him. It was at once clear that a daring and gigantic robbery had been committed. Nearly a hundred thousand pounds\x{2019} worth of American railway bonds, with a large amount of scrip in other mines and companies, were discovered in the bag.",
           ],
           [
             1,

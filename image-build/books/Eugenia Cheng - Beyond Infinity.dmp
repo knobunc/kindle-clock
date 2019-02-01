@@ -37,7 +37,7 @@ $VAR1 = [
           [
             1,
             '[ap 08:00] Beyond Infinity_ An Expedition to the Oute - Eugenia Cheng.epub (OEBPS/Text/chapter006.xhtml) - 8',
-            "Here\x{2019}s how it works. You go to room 1 and knock on that person\x{2019}s door. You ask them what their old decimal room number was. Actually, you don\x{2019}t ask them for the whole expansion, you just ask them for the first digit, like when you\x{2019}re logging on to online banking and they just ask you for the third and seventh letters of your password. Anyway, after they tell you their digit, you add 1 to it and write it down. So if their old first digit was 3, you write down 4. If it was <<8|9f>>, you write down 9. If it was <<9|9f>>, you don\x{2019}t write down 10 (because that\x{2019}s not a digit), but you write down 0. This sounds mysterious, but bear with me.",
+            "Here\x{2019}s how it works. You go to room 1 and knock on that person\x{2019}s door. You ask them what their old decimal room number was. Actually, you don\x{2019}t ask them for the whole expansion, you just ask them for the first digit, like when you\x{2019}re logging on to online banking and they just ask you for the third and seventh letters of your password. Anyway, after they tell you their digit, you add 1 to it and write it down. So if their old first digit was 3, you write down 4. If it was <<8|9c:0>>, you write down 9. If it was <<9|9c:0>>, you don\x{2019}t write down 10 (because that\x{2019}s not a digit), but you write down 0. This sounds mysterious, but bear with me.",
           ],
           [
             1,
@@ -109,25 +109,9 @@ The number e is then the y value (and gradient) at <<1|9c:0>>.
           ],
           [
             1,
-            '[ap > 01:00] Beyond Infinity_ An Expedition to the Oute - Eugenia Cheng.epub (OEBPS/Text/chapter016.xhtml) - past 1',
-            "Here\x{2019}s what happens if we try to win the target test. Even if we hit the target for a while, we\x{2019}ll eventually start missing again: as we add more fractions on, the total keeps growing enough that we\x{2019}ll eventually fall off the other end of the target. It heads toward infinity, despite the fact that the amount we\x{2019}re adding on each time seems to become negligible. Note that the fact that the total keeps growing doesn\x{2019}t automatically mean we\x{2019}ll fail the target test. After all, when we add 1/2
-and then 1/4 and then 1/8 and so on, the total is also growing. It\x{2019}s just growing slowly enough that we never make it <<past 1|9f>>. Whereas with the harmonic series, it\x{2019}s still growing slowly, but fast enough that no matter what boundary we try to impose, we will always end up going past that boundary.",
-          ],
-          [
-            1,
-            '[ap > 01:00] Beyond Infinity_ An Expedition to the Oute - Eugenia Cheng.epub (OEBPS/Text/chapter016.xhtml) - past 1',
-            "Let\x{2019}s see if we can make it <<past 1|9f>>, unlike the cake example when we eat half the leftovers each time and never quite make it to eating the whole cake until \x{201c}forever,\x{201d} when we just about get there. So we\x{2019}re trying to see if we can add up enough of the fractions in the harmonic series and get something bigger than 1. And we can:",
-          ],
-          [
-            1,
-            '[ap > 02:00] Beyond Infinity_ An Expedition to the Oute - Eugenia Cheng.epub (OEBPS/Text/chapter016.xhtml) - past 2',
-            "Let\x{2019}s see if we can make it <<past 2|9f>>. At this point I admit to resorting to a spreadsheet to work this out. My spreadsheet tells me that once I get to 1/11 I\x{2019}ll be past 2, that is,",
-          ],
-          [
-            1,
             '[ap 01:00] Beyond Infinity_ An Expedition to the Oute - Eugenia Cheng.epub (OEBPS/Text/chapter016.xhtml) - 1',
             "
-and comparing it with the area of the big square, which is <<1|9f>>.
+and comparing it with the area of the big square, which is <<1|9c:0>>.
 We can start by putting a 1/2 \x{d7} 1/2 square in the corner of the 1 \x{d7} 1 square, say like this:",
           ],
         ];

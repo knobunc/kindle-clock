@@ -2,7 +2,7 @@ $VAR1 = [
           [
             1,
             '[09:00] Mistaken Identity - Lisa Scottoline.epub (Lisa Scottoline - Rosato 06 - Mistaken Identity (v4.0)_split_003.html) - nine in the morning',
-            "Connolly\x{2019}s blue eyes narrowed. \x{201c}You were born first, at <<nine in the morning|9a>>. I was born fifteen minutes later. You weighed ten pounds at birth. How would I know that, huh?\x{201d}",
+            "Connolly\x{2019}s blue eyes narrowed. \x{201c}You were born first, at <<nine in the morning|5>>. I was born fifteen minutes later. You weighed ten pounds at birth. How would I know that, huh?\x{201d}",
           ],
           [
             1,
@@ -87,7 +87,7 @@ $VAR1 = [
           [
             1,
             '[06:00] Mistaken Identity - Lisa Scottoline.epub (Lisa Scottoline - Rosato 06 - Mistaken Identity (v4.0)_split_004.html) - six in the morning',
-            "\x{201c}Where have you been, Bennie?\x{201d} Grady asked, turning from the mirror in the bathroom. The unhappy downturn to his mouth was illuminated by a bare bulb hanging from a wire in the ceiling. His hair dripped from his morning shower and was still soggy at its curling ends. \x{201c}It\x{2019}s <<six in the morning|9a>>. You were out all night.\x{201d}",
+            "\x{201c}Where have you been, Bennie?\x{201d} Grady asked, turning from the mirror in the bathroom. The unhappy downturn to his mouth was illuminated by a bare bulb hanging from a wire in the ceiling. His hair dripped from his morning shower and was still soggy at its curling ends. \x{201c}It\x{2019}s <<six in the morning|5>>. You were out all night.\x{201d}",
           ],
           [
             1,
@@ -140,13 +140,6 @@ $VAR1 = [
             1,
             "[ap < 08:00] Mistaken Identity - Lisa Scottoline.epub (Lisa Scottoline - Rosato 06 - Mistaken Identity (v4.0)_split_006.html) - a little before eight o\x{2019}clock",
             "\x{201c}That\x{2019}s right,\x{201d} the witness said. \x{201c}I heard arguing that night, <<a little before eight o\x{2019}clock|6>>. I was trying to put the baby down. To bed, you know. Her bedtime was at <<seven forty-five|5b>> then, and I was watching the clock.\x{201d}",
-          ],
-          [
-            1,
-            '[ap 09:11] Mistaken Identity - Lisa Scottoline.epub (Lisa Scottoline - Rosato 06 - Mistaken Identity (v4.0)_split_006.html) - 911',
-            "\x{201c}Mrs. Lambertsen, after you saw Alice Connolly run by, what did you do?\x{201d}
-\x{201c}I called <<911|9f>> and told them what I had seen, and the police came.\x{201d}
-Hilliard continued by eliciting the details of the 911 call and found an excuse to take Lambertsen again through the gunshot and Connolly\x{2019}s running down the street, to emphasize it to the jury. It was a slam-dunk direct examination of an appealing and critical witness.",
           ],
           [
             1,

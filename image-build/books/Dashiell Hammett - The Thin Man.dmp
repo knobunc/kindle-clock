@@ -17,7 +17,7 @@ $VAR1 = [
           [
             1,
             '[12:00] The Thin Man - Dashiell Hammett.epub (OEBPS/text/section12.xhtml) - noon',
-            "My side felt a lot better when Nora called me at <<noon|9a>> the next day. \x{201c}My nice policeman wants to see you,\x{201d} she said. \x{201c}How do you feel?\x{201d}",
+            "My side felt a lot better when Nora called me at <<noon|13>> the next day. \x{201c}My nice policeman wants to see you,\x{201d} she said. \x{201c}How do you feel?\x{201d}",
           ],
           [
             1,
@@ -100,8 +100,8 @@ I returned to the living-room. Nora was inviting Guild to have lunch while we ha
           ],
           [
             1,
-            '[ap ~ 02:55] The Thin Man - Dashiell Hammett.epub (OEBPS/text/section16.xhtml) - about five minutes to three',
-            "He wagged his head up and down. \x{201c}Jorgensen left his place with Mrs. Jorgensen\x{2014}that was <<about five minutes to three|10>>\x{2014}and sneaked over on West Seventy-third Street to see a girl named Olga Fenton\x{2014}we promised not to tell his wife\x{2014}and stayed there till <<about five|9f>>. 'We know what Mrs. Jorgensen did. The daughter was dressing when they left and she took a taxi at a quarter past and went straight to Bergdorf-Goodman's. The son was in the Public Library all afternoon\x{2014}Jesus, he reads funny books. Morelli was in a joint over in the Forties.\x{201d} He laughed. \x{201c}And where was you?\x{201d}",
+            '[ap ~ 05:00] The Thin Man - Dashiell Hammett.epub (OEBPS/text/section16.xhtml) - about five',
+            "He wagged his head up and down. \x{201c}Jorgensen left his place with Mrs. Jorgensen\x{2014}that was about five minutes to three\x{2014}and sneaked over on West Seventy-third Street to see a girl named Olga Fenton\x{2014}we promised not to tell his wife\x{2014}and stayed there till <<about five|9f>>. 'We know what Mrs. Jorgensen did. The daughter was dressing when they left and she took a taxi at a quarter past and went straight to Bergdorf-Goodman's. The son was in the Public Library all afternoon\x{2014}Jesus, he reads funny books. Morelli was in a joint over in the Forties.\x{201d} He laughed. \x{201c}And where was you?\x{201d}",
           ],
           [
             1,
@@ -153,7 +153,7 @@ I returned to the living-room. Nora was inviting Guild to have lunch while we ha
           [
             1,
             '[ap 10:00] The Thin Man - Dashiell Hammett.epub (OEBPS/text/section27.xhtml) - ten',
-            "\x{201c}Not as much as I did,\x{201d} I replied slowly. \x{201c}How sure are you of hearing from him at <<ten|9a>> tonight?\x{201d}",
+            "\x{201c}Not as much as I did,\x{201d} I replied slowly. \x{201c}How sure are you of hearing from him at <<ten|3b>> tonight?\x{201d}",
           ],
           [
             1,
@@ -200,6 +200,6 @@ I returned to the living-room. Nora was inviting Guild to have lunch while we ha
           [
             1,
             '[ap 04:00] The Thin Man - Dashiell Hammett.epub (OEBPS/text/section9.xhtml) - four',
-            "So far I had known just where I stood on the WoIf-WynantJorgensen troubles and what I was doing\x{2014}the answers were, respectively, nowhere and nothing\x{2014}but when we stopped at Reuben's for coffee on our way home at <<four|9a>> the next morning, Nora opened a newspaper and found a line in one of the gossip columns: \x{201c}Nick Charles, former Trans-American Detective Agency ace, on from Coast to sift the Julia Wolf murder mystery\x{201d}; and when I opened my eyes and sat up in bed some six hours later Nora was shaking me and a man with a gun in his hand was standing in the bedroom doorway.",
+            "So far I had known just where I stood on the WoIf-WynantJorgensen troubles and what I was doing\x{2014}the answers were, respectively, nowhere and nothing\x{2014}but when we stopped at Reuben's for coffee on our way home at <<four|3j>> the next morning, Nora opened a newspaper and found a line in one of the gossip columns: \x{201c}Nick Charles, former Trans-American Detective Agency ace, on from Coast to sift the Julia Wolf murder mystery\x{201d}; and when I opened my eyes and sat up in bed some six hours later Nora was shaking me and a man with a gun in his hand was standing in the bedroom doorway.",
           ],
         ];

@@ -68,7 +68,7 @@ $VAR1 = [
           [
             1,
             '[ap > 11:00] The Enemy - Lee Child.epub (The_Enemy_A_Reacher_Novel_split_003.html) - after eleven',
-            '"General Kramer died of natural causes," she said. "Heart attack, last night, <<after eleven|9e>>, <<before midnight|13>>. There\'s no possibility of doubt. I\'m happy to be audited if you want, but it would be a complete waste of time. His toxicology was absolutely clear. The evidence of ventricular fibrillation is indisputable and his arterial plaque was monumental. So forensically, your only tentative question might be whether by coincidence someone electrically stimulated fibrillation in a man almost certain to suffer it anyway within minutes or hours or days or weeks."',
+            '"General Kramer died of natural causes," she said. "Heart attack, last night, <<after eleven|9:1>>, <<before midnight|13>>. There\'s no possibility of doubt. I\'m happy to be audited if you want, but it would be a complete waste of time. His toxicology was absolutely clear. The evidence of ventricular fibrillation is indisputable and his arterial plaque was monumental. So forensically, your only tentative question might be whether by coincidence someone electrically stimulated fibrillation in a man almost certain to suffer it anyway within minutes or hours or days or weeks."',
           ],
           [
             1,
@@ -115,7 +115,7 @@ $VAR1 = [
           [
             1,
             '[21:00] The Enemy - Lee Child.epub (The_Enemy_A_Reacher_Novel_split_005.html) - nine in the evening',
-            'We changed some money and hiked over to the taxi line. It was a mile long, full of people and luggage. It was hardly moving. So we found a navette instead, which is what the French call an airport shuttle bus. We had to stand all the way through the dreary northern suburbs and into the centre of Paris. We got out at the Place de l\'Opra at <<nine in the evening|9a>>. Paris was dark and damp and cold and quiet. Cafes and restaurants had warm lights burning behind closed doors and fogged windows. The streets were wet and lined with small parked cars. The cars were all misted over with night-time dew. We walked together south and west and crossed the Seine at the Pont de la Concorde. Turned west again along the Quai d\'Orsay. The river was dark and sluggish. Nothing was moving on it.',
+            'We changed some money and hiked over to the taxi line. It was a mile long, full of people and luggage. It was hardly moving. So we found a navette instead, which is what the French call an airport shuttle bus. We had to stand all the way through the dreary northern suburbs and into the centre of Paris. We got out at the Place de l\'Opra at <<nine in the evening|5>>. Paris was dark and damp and cold and quiet. Cafes and restaurants had warm lights burning behind closed doors and fogged windows. The streets were wet and lined with small parked cars. The cars were all misted over with night-time dew. We walked together south and west and crossed the Seine at the Pont de la Concorde. Turned west again along the Quai d\'Orsay. The river was dark and sluggish. Nothing was moving on it.',
           ],
           [
             1,
@@ -130,7 +130,7 @@ $VAR1 = [
           [
             1,
             '[14:00] The Enemy - Lee Child.epub (The_Enemy_A_Reacher_Novel_split_007.html) - two in the afternoon',
-            'Going west the time changes causes lengthening the day instead of shortening it. They paid us back the hours we had lost two days before. We landed at Dulles at <<two in the afternoon|9a>>. I said goodbye to Joe and he found the cab line and headed into the city. I went looking for buses and was arrested before I found any.',
+            'Going west the time changes causes lengthening the day instead of shortening it. They paid us back the hours we had lost two days before. We landed at Dulles at <<two in the afternoon|5>>. I said goodbye to Joe and he found the cab line and headed into the city. I went looking for buses and was arrested before I found any.',
           ],
           [
             1,
@@ -291,7 +291,7 @@ I checked my watch. It was close to <<ten o\'clock|6>>.
           [
             1,
             '[04:00] The Enemy - Lee Child.epub (The_Enemy_A_Reacher_Novel_split_014.html) - four a.m.',
-            '"The body\'s stone cold, the skin is a little green, and rigor is all gone. They\'re saying twenty-four or forty-eight hours. Safe bet would be to split the difference. Let\'s call it the middle of the night before last. Maybe three or <<four a.m.|5>> City garbage truck found him at <<ten this morning|9a>>. Weekly trash collection."',
+            '"The body\'s stone cold, the skin is a little green, and rigor is all gone. They\'re saying twenty-four or forty-eight hours. Safe bet would be to split the difference. Let\'s call it the middle of the night before last. Maybe three or <<four a.m.|5>> City garbage truck found him at <<ten this morning|5>>. Weekly trash collection."',
           ],
           [
             1,
@@ -306,7 +306,7 @@ I checked my watch. It was close to <<ten o\'clock|6>>.
           [
             1,
             '[20:00] The Enemy - Lee Child.epub (The_Enemy_A_Reacher_Novel_split_014.html) - eight that night',
-            '"He disappeared at <<eight that night|9a>>, after a heavy dinner. Got up from the table and never came back."',
+            '"He disappeared at <<eight that night|5>>, after a heavy dinner. Got up from the table and never came back."',
           ],
           [
             1,
@@ -428,7 +428,7 @@ I checked my watch. It was close to <<ten o\'clock|6>>.
           [
             1,
             '[ap 10:11] The Enemy - Lee Child.epub (The_Enemy_A_Reacher_Novel_split_015.html) - eleven minutes past ten',
-            '"We\'ve got your gun," I said. "You signed it out. You left the post at <<eleven minutes past ten|10>> and got back at <<five in the morning|9a>>."',
+            '"We\'ve got your gun," I said. "You signed it out. You left the post at <<eleven minutes past ten|10>> and got back at <<five in the morning|5>>."',
           ],
           [
             1,
@@ -540,7 +540,7 @@ I checked my watch. It was close to <<ten o\'clock|6>>.
           [
             1,
             '[>> 00:00] The Enemy - Lee Child.epub (The_Enemy_A_Reacher_Novel_split_018.html) - well after midnight',
-            'I slept all the way to Andrews. We got there <<well after midnight|13>>. We parked in a restricted lot and swapped two of our travel vouchers for two places on a Transportation Corps C-130 that was leaving for Frankfurt at <<three in the morning|9a>>. We waited in a lounge that had fluorescent lighting and vinyl benches and was filled with the usual ragtag bunch of transients. The military is always on the move. There are always people going somewhere, any time of the night or day. Nobody talked.',
+            'I slept all the way to Andrews. We got there <<well after midnight|13>>. We parked in a restricted lot and swapped two of our travel vouchers for two places on a Transportation Corps C-130 that was leaving for Frankfurt at <<three in the morning|5>>. We waited in a lounge that had fluorescent lighting and vinyl benches and was filled with the usual ragtag bunch of transients. The military is always on the move. There are always people going somewhere, any time of the night or day. Nobody talked.',
           ],
           [
             1,
@@ -638,7 +638,7 @@ I checked my watch. It was close to <<ten o\'clock|6>>.
           [
             1,
             '[ap < 06:00] The Enemy - Lee Child.epub (The_Enemy_A_Reacher_Novel_split_019.html) - just before six',
-            'We got to Roissy-Charles de Gaulle <<just before six|10>>. It was busy there. I guessed airports worked on floating time zones all their own. It was busier at <<six in the morning|9a>> than it would be in the middle of the afternoon. There were crowds of people everywhere. Cars and buses were loading and unloading, red-eyed travellers were coming out and going in and struggling with bags. It looked like the whole world was on the move.',
+            'We got to Roissy-Charles de Gaulle <<just before six|10>>. It was busy there. I guessed airports worked on floating time zones all their own. It was busier at <<six in the morning|5>> than it would be in the middle of the afternoon. There were crowds of people everywhere. Cars and buses were loading and unloading, red-eyed travellers were coming out and going in and struggling with bags. It looked like the whole world was on the move.',
           ],
           [
             1,
@@ -691,7 +691,7 @@ I checked my watch. It was close to <<ten o\'clock|6>>.
           [
             1,
             '[02:00] The Enemy - Lee Child.epub (The_Enemy_A_Reacher_Novel_split_020.html) - two in the morning',
-            'We touched down at <<two in the morning|9a>> and came out through the customs hall and landed straight in a trap set by Willard.',
+            'We touched down at <<two in the morning|5>> and came out through the customs hall and landed straight in a trap set by Willard.',
           ],
           [
             1,
@@ -805,7 +805,7 @@ I checked my watch. It was close to <<ten o\'clock|6>>.
           [
             1,
             '[00:00] The Enemy - Lee Child.epub (The_Enemy_A_Reacher_Novel_split_020.html) - midnight',
-            '"Write this down," I said to her. "I am a military police major called Reacher. I was recently transferred out of Panama and into Fort Bird, North Carolina. I will be standing at the Ering check point inside your building at <<midnight|9a>> tonight. It is entirely up to the Chief of Staff whether he meets me there."',
+            '"Write this down," I said to her. "I am a military police major called Reacher. I was recently transferred out of Panama and into Fort Bird, North Carolina. I will be standing at the Ering check point inside your building at <<midnight|3b>> tonight. It is entirely up to the Chief of Staff whether he meets me there."',
           ],
           [
             1,
@@ -860,7 +860,7 @@ I checked my watch. It was close to <<ten o\'clock|6>>.
           [
             1,
             '[23:00] The Enemy - Lee Child.epub (The_Enemy_A_Reacher_Novel_split_020.html) - eleven o\'clock at night',
-            'Flying east the time zones stole back the hours we had gained going west. It was <<eleven o\'clock at night|6>> at Washington National when we landed. I reclaimed my duffel from the carousel and we took the shuttle to the long term lot. The Chevy was waiting there right where we left it. I used some of Franz\'s fifty bucks and we filled the tank. Then Summer drove us back to Bird. She went as fast as always and took the same old route, down 195, past all our familiar reference points. The State Police barracks, the place where the briefcase was found, the rest area, the cloverleaf, the motel, the lounge bar. We were timed in through Fort Bird\'s main gate at <<three in the morning|9a>>. The post was quiet. There was a night mist clamped down all over it. Nothing was stirring. "Where to?" Summer said.',
+            'Flying east the time zones stole back the hours we had gained going west. It was <<eleven o\'clock at night|6>> at Washington National when we landed. I reclaimed my duffel from the carousel and we took the shuttle to the long term lot. The Chevy was waiting there right where we left it. I used some of Franz\'s fifty bucks and we filled the tank. Then Summer drove us back to Bird. She went as fast as always and took the same old route, down 195, past all our familiar reference points. The State Police barracks, the place where the briefcase was found, the rest area, the cloverleaf, the motel, the lounge bar. We were timed in through Fort Bird\'s main gate at <<three in the morning|5>>. The post was quiet. There was a night mist clamped down all over it. Nothing was stirring. "Where to?" Summer said.',
           ],
           [
             1,
@@ -895,7 +895,7 @@ I checked my watch. It was close to <<ten o\'clock|6>>.
           [
             1,
             '[08:00] The Enemy - Lee Child.epub (The_Enemy_A_Reacher_Novel_split_020.html) - eight in the morning',
-            'I got to the Avenue Rapp at <<eight in the morning|9a>>. Joe told me the cars were coming at <<ten|9c:1>>.',
+            'I got to the Avenue Rapp at <<eight in the morning|5>>. Joe told me the cars were coming at <<ten|9c:1>>.',
           ],
           [
             1,

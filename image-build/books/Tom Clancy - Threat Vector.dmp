@@ -47,7 +47,7 @@ $VAR1 = [
           [
             1,
             '[ap > 08:00] Threat Vector - Tom Clancy.epub (text/part0013.html) - A little after eight',
-            "Jack was only half dressed, but he did not have to worry about a long commute. He worked much closer, just down the road in West Odenton, so he finished putting on his suit and tie, then lingered over another cup of coffee while he watched CNN on the sixty-inch plasma TV in the living room. <<A little after eight|9e>> he headed downstairs to the parking lot of his building and successfully fought the urge to look for his huge canary-yellow truck. Instead he climbed into the black BMW 3 Series that he\x{2019}d been driving for the past six months, and he headed out of the parking lot.",
+            "Jack was only half dressed, but he did not have to worry about a long commute. He worked much closer, just down the road in West Odenton, so he finished putting on his suit and tie, then lingered over another cup of coffee while he watched CNN on the sixty-inch plasma TV in the living room. <<A little after eight|9:0>> he headed downstairs to the parking lot of his building and successfully fought the urge to look for his huge canary-yellow truck. Instead he climbed into the black BMW 3 Series that he\x{2019}d been driving for the past six months, and he headed out of the parking lot.",
           ],
           [
             1,
@@ -87,7 +87,7 @@ $VAR1 = [
           [
             1,
             '[04:00] Threat Vector - Tom Clancy.epub (text/part0021.html) - four in the morning',
-            'And this critical project would be going at full steam, even now at <<four in the morning|9a>>, if not for one significant snag.',
+            'And this critical project would be going at full steam, even now at <<four in the morning|5>>, if not for one significant snag.',
           ],
           [
             1,
@@ -285,12 +285,17 @@ Chavez spoke for the group: \x{201c}<<Eight o\x{2019}clock|6>>?\x{201d}
           [
             1,
             '[19:00] Threat Vector - Tom Clancy.epub (text/part0042.html) - seven in the evening',
-            "Melanie Kraft sat on the sofa in the living room of her carriage-house apartment on Princess Street in Alexandria\x{2019}s Old Town. It was <<seven in the evening|9a>>, and normally she would be up at Jack\x{2019}s place or even working late, but tonight Jack was out of town and she just wanted to sit on her couch in the dark, watch TV, and think about something else other than her problems.",
+            "Melanie Kraft sat on the sofa in the living room of her carriage-house apartment on Princess Street in Alexandria\x{2019}s Old Town. It was <<seven in the evening|5>>, and normally she would be up at Jack\x{2019}s place or even working late, but tonight Jack was out of town and she just wanted to sit on her couch in the dark, watch TV, and think about something else other than her problems.",
           ],
           [
             1,
             '[07:30] Threat Vector - Tom Clancy.epub (text/part0042.html) - Seven-thirty a.m.',
             "\x{201c}We\x{2019}ll discuss it tomorrow. How \x{2019}bout we get a cup of coffee. <<Seven-thirty a.m.|5>> I\x{2019}ll come to you. Starbucks on King Street?\x{201d}",
+          ],
+          [
+            1,
+            '[ap > 00:59] Threat Vector - Tom Clancy.epub (text/part0042.html) - After a minute of one',
+            "<<After a minute of one|10>>-sided small talk, Lipton got down to business. \x{201c}My boss needs more from you. I tried to placate him, but you haven\x{2019}t given us anything since our last conversation.\x{201d}",
           ],
           [
             1,
@@ -352,7 +357,7 @@ Trash did not watch the missile, nor did he look back over at Cheese. Instead he
           [
             1,
             '[ap ~ 11:00] Threat Vector - Tom Clancy.epub (text/part0053.html) - Around eleven',
-            "<<Around eleven|9e>>, Melanie excused herself to go to the bathroom. She took her purse with her, and when she was alone she reached in and removed the small drive with the iPhone connector on the end. The device was no larger than a matchbook, and Lipton had explained that she need not do anything but attach Jack\x{2019}s phone to the device, and then the upload would happen automatically in about thirty seconds.",
+            "<<Around eleven|9:0>>, Melanie excused herself to go to the bathroom. She took her purse with her, and when she was alone she reached in and removed the small drive with the iPhone connector on the end. The device was no larger than a matchbook, and Lipton had explained that she need not do anything but attach Jack\x{2019}s phone to the device, and then the upload would happen automatically in about thirty seconds.",
           ],
           [
             1,
@@ -456,7 +461,7 @@ It was signed \x{201c}An old friend from Beirut.\x{201d}",
           [
             1,
             '[06:00] Threat Vector - Tom Clancy.epub (text/part0068.html) - six in the morning',
-            "Valentin Kovalenko climbed into the passenger seat of Darren Lipton\x{2019}s Toyota Sienna at <<six in the morning|9a>>. The Russian had instructions from Center. As always, he did not know the reason behind the message he was about to deliver, but he was placated in the fact that his Russian colleagues at the embassy had given him the go-ahead to do what he was told, so he did not question his directive.",
+            "Valentin Kovalenko climbed into the passenger seat of Darren Lipton\x{2019}s Toyota Sienna at <<six in the morning|5>>. The Russian had instructions from Center. As always, he did not know the reason behind the message he was about to deliver, but he was placated in the fact that his Russian colleagues at the embassy had given him the go-ahead to do what he was told, so he did not question his directive.",
           ],
           [
             1,
@@ -481,7 +486,7 @@ It was signed \x{201c}An old friend from Beirut.\x{201d}",
           [
             1,
             '[17:00] Threat Vector - Tom Clancy.epub (text/part0071.html) - five in the afternoon',
-            'President Ryan was running on fumes at <<five in the afternoon|9a>>, after having been up and hard at work since <<three a.m.|5>> The day had been full of diplomatic and military crises; often success in one arena was offset by setbacks in another.',
+            'President Ryan was running on fumes at <<five in the afternoon|5>>, after having been up and hard at work since <<three a.m.|5>> The day had been full of diplomatic and military crises; often success in one arena was offset by setbacks in another.',
           ],
           [
             1,
@@ -506,7 +511,7 @@ It was signed \x{201c}An old friend from Beirut.\x{201d}",
           [
             1,
             '[01:00] Threat Vector - Tom Clancy.epub (text/part0074.html) - one in the morning',
-            "Gavin sat in his office at <<one in the morning|9a>>. On his desk in front of him was a technical manual from Microsoft that he\x{2019}d been reading on and off for the entire day. It was not uncommon for him to work this late, and he imagined he\x{2019}d be pulling a long string of all-nighters over the next few days while he rebuilt his system. He\x{2019}d sent most of his staff home, but a couple of programmers were still somewhere on the floor; he\x{2019}d heard them talking a few minutes earlier.",
+            "Gavin sat in his office at <<one in the morning|5>>. On his desk in front of him was a technical manual from Microsoft that he\x{2019}d been reading on and off for the entire day. It was not uncommon for him to work this late, and he imagined he\x{2019}d be pulling a long string of all-nighters over the next few days while he rebuilt his system. He\x{2019}d sent most of his staff home, but a couple of programmers were still somewhere on the floor; he\x{2019}d heard them talking a few minutes earlier.",
           ],
           [
             1,
@@ -517,7 +522,7 @@ It was signed \x{201c}An old friend from Beirut.\x{201d}",
             1,
             '[04:00] Threat Vector - Tom Clancy.epub (text/part0077.html) - four in the morning',
             "\x{201c}How do you know?\x{201d}
-\x{201c}I am a professional. Who can follow me at <<four in the morning|9a>>?\x{201d}
+\x{201c}I am a professional. Who can follow me at <<four in the morning|5>>?\x{201d}
 There was a long pause. Finally the man said, \x{201c}Send upload.\x{201d} And he hung up.",
           ],
           [
