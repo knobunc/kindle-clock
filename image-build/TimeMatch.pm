@@ -199,10 +199,32 @@ my $short_after_re  = qr{ ( $short_re \s+ )? ( after | past )
                         | can $sq t \s+ be \s+ $far_after_re
                         }xin;
 
-my $rel_words       = qr{ $far_before_re | $short_before_re
-                        | $around_re
-                        | $on_or_after_re
-                        | $far_after_re  | $short_after_re
+# my $rel_words       = qr{ $far_before_re | $short_before_re
+#                        | $around_re
+#                        | $on_or_after_re
+#                        | $far_after_re  | $short_after_re
+#                        }xin;
+
+# This is equivalent to the above but needs to be done this way to optimize it for speed
+my $rel_words       = qr{ ( well | long) \s+ ( before | after )
+                        | far ($hy|\s)+ ( from | off )
+
+                        | ( shortly | just | a \s+ little ) \s+ ( before | gone | after | past )
+                        | gone | after | past
+
+                        | can $sq t \s+ be \s+ ( $far_before_re | $far_after_re )
+
+                        | nearly
+                        | near ( \s+ on )?
+                        | towards?
+                        | lacks \s+ of
+                        | almost ( \s ( gone | at | to ) )?
+                        | just \s+ ($sq|a)bout
+
+                        | ( near \s+ )? ($sq|a)bout
+                        | ($sq|ap)proximately
+                        | ($sq|a)?round
+
                         }xin;
 
 my $at_words        = qr{ until | at }xin;
