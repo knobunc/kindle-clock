@@ -27,16 +27,16 @@ exit main(@ARGV);
 
 
 sub main {
-    my ($file) = @_;
+    my ($file, $time_it) = @_;
 
-    search_zip($file);
+    search_zip($file, $time_it);
 
     return 0;
 }
 
 
 sub search_zip {
-    my ($file) = @_;
+    my ($file, $time_it) = @_;
 
     # Pull the author and title
     my ($author, $book) =
@@ -50,6 +50,9 @@ sub search_zip {
         or die "Unable to read zipfile '$file': $!";
 
     my (undef, undef, $basename) = File::Spec->splitpath($file);
+
+    # Set to empty hash to time the regexes, or undef to cancel timing
+    my $timing = $time_it ? {} : undef;
 
     my $members_seen = 0;
     my @members;
@@ -100,7 +103,7 @@ sub search_zip {
         for (my $i = 0; $i < @lines; $i++) {
             my $line = $lines[$i];
 
-            $line = do_match($line, undef, $author, $book);
+            $line = do_match($line, undef, $author, $book, $timing);
 
             if ($line =~ m{<< ([^|>]+) [|] \d+ \w? (:\d)? >>}x) {
                 # We had a match
@@ -137,6 +140,19 @@ sub search_zip {
 
     print Dumper \@res
         if $output_dump;
+
+    # Print the timing info
+    if ($timing) {
+        my $total_time;
+        foreach my $name (sort  {$timing->{$a}{time} <=> $timing->{$b}{time} } keys %$timing) {
+            my $ti = $timing->{$name};
+            printf "%10s:  %7.3fms  %3d/%d\n",
+                $name, $ti->{time} * 1000, $ti->{hits}//0, $ti->{count};
+            $total_time += $ti->{time};
+        }
+
+        printf "\nTotal time: %7.3fs\n", $total_time;
+    }
 
     return;
 }

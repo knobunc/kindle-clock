@@ -381,11 +381,11 @@ sub eta {
     }
 
     # Use the rate time to estimate the remaining time (minus the time the current tasks have run)
-    # But we can't end in less than 5 seconds
+    # But we can't end in less than 1 second
     my $est_time = ($run_size + $rem_size) / $guess_rate - $run_time;
     $est_time  /= min( ($run + $rem),  $tasks)
         if $run + $rem;
-    $est_time = max($est_time, 5);
+    $est_time = max($est_time, 1);
 
     my $lapsed   = time - $self->{run_start};
     my $tot_time = $lapsed + $est_time;

@@ -11,7 +11,7 @@ use Exporter::Easy (
 use Carp;
 use Data::Dumper;
 use Lingua::EN::Words2Nums;
-
+use Time::HiRes qw( gettimeofday tv_interval );
 
 # Punctuation
 my $ellips         = qr{ … | ((\x{a0}|\x{200b})[.]){3} | [.]{3,6} }xin;      # Ellipsis
@@ -148,10 +148,11 @@ my $in_the_re = qr{ ( ( in \s+ the \s+ ( (?! same) \w+ \s+ ){0,4}?
                       | $hy \s* (?!day|night)                         # Don't match five-day
                       )
                       $timeday_re
-                    | ( in \s+ the \s+
+                    | ( in  \s+ the \s+
                       | ( this | that ) \s+
                       )
-                      $ampm_only_re                                   # in the am
+                      $ampm_only_re                                  # in the am
+                    | of \s+ the \s+ (afternoon | morning )          # of the afternoon
                     | at \s+ ( dawn | dusk | night | sunset | sunrise )
                     )
                   }xin;
@@ -166,10 +167,11 @@ my $bb_re = qr{ (?<= [\[—\s"'(‘’“”] ) | \A }xin;
 my $ba_re = qr{ \b | (?= [—/"'‘’“”\s.…,:;?] ) | \z }xin;
 
 # Match stuff from the start of the string to here.
-# This must have an anchor for the start before it, specifically \G
-# and it must be matched and included in the results
-# i.e.:  \G ( $not_in_match )
-my $not_in_match    = qr{ [—…,:;?/""''‘’“”\s([] | \G ($hy|[.])? | [^\d\w] ($hy|[.]) }xin;
+# This must be matched and included in the results
+my $not_in_match    = qr{ [—…,:;?/""''‘’“”\s([]
+                        | \A      ($hy|[.])*
+                        | [^\d\w] ($hy|[.])+
+                        }xin;
 
 # Relative words
 my $far_re          = qr{ well    | long                }xin;
@@ -452,7 +454,7 @@ my $book        = undef;
 my @parts;
 
 sub do_match {
-    (my ($line, $raw), $author, $book) = @_;
+    (my ($line, $raw), $author, $book, my $timing) = @_;
     $author //= '';
     $book   //= '';
 
@@ -531,46 +533,89 @@ sub do_match {
     my ($masks) = get_masks();
 
     ## Get the matches and apply them
-    my ($r) = get_matches();
+    my ($matches) = get_matches();
 
     # The masked regex
     my $masked_re = qr{<< ( [^|>]+ ) [|] [yx] \d+\w?  (:TIMEY)? >>}xi;
     my $timey_re  = qr{<< ( [^|>]+ ) [|]     (\d+ \w?) :TIMEY   >>}xi;
 
-    @parts = $line;
-    foreach my $r (@$masks, @$r) {
+    # Apply the matches and separate them into parts if they match
+    @parts = ([0, $line]);
+    foreach my $r (@$masks, @$matches) {
+        my $r_name = $timing ? get_re_name($r) : undef;
+
         my @new;
-        foreach my $part (@parts) {
-            if ($part !~ m{<<}) {
+        foreach my $p (@parts) {
+            my ($matched, $part, $part_masked, $part_timey) = @$p;
+            if (not $matched) {
                 while ($part ne '') {
                     # Work out if we are following on from a masked >>
-                    $last_masked = ( $new[-1] // '' ) =~ $masked_re ? 1 : 0;
-                    $last_timey  = ( not $last_masked and ($new[-1] // '') =~ $timey_re ) ? 1 : 0;
+                    $last_masked = 0;
+                    $last_timey  = 0;
+                    if (@new) {
+                        # We have a previous item and it had >>s
+                        $last_masked = $new[-1][2] ? 1 : 0;
+                        $last_timey  = $new[-1][3] ? 1 : 0;
+                    }
 
+                    # Start the timing if desired
+                    my $re_start = $timing ? [ gettimeofday() ] : undef;
+
+                    # Do the match
                     if ($part =~ m{$r}p and $branch ne 'xx') {
+                        ## We matched
+
+                        # Update the timing
+                        if ($timing) {
+                            my $re_time = tv_interval($re_start);
+                            $timing->{$r_name}{count}++;
+                            $timing->{$r_name}{time} += $re_time;
+                            $timing->{$r_name}{hits} += 1;
+                        }
+
+                        # Handle the match
                         my $match =
                                 sprintf("%s<<%s%s|%s>>%s",
                                     map { defined ? $_ : "" }
                                     $+{pr}, $+{t1}, $+{t2}, $branch, $+{po});
                         my ($leadin, $leadout) = map { defined ? $_ : "" } ($+{li}, $+{lo});
 
-                        push @new, ${^PREMATCH} . $leadin, $match;
+                        my $pre = ${^PREMATCH} . $leadin;
                         $part = $leadout . ${^POSTMATCH};
+
+                        # See if this match was timey or masked
+                        my $was_timey  = $match =~ $timey_re  ? 1 : 0;
+                        my $was_masked = $match =~ $masked_re ? 1 : 0;
+
+                        push @new, [0, $pre, 0, 0],
+                                   [1, $match, $was_masked, $was_timey];
                     }
                     else {
-                        push @new, $part;
+                        ## We did not match
+
+                        # Update the timing
+                        if ($timing) {
+                            my $re_time = tv_interval($re_start);
+                            $timing->{$r_name}{count}++;
+                            $timing->{$r_name}{time} += $re_time;
+                        }
+
+                        # Handle the miss
+                        push @new, [0, $part, 0, 0];
                         $part = '';
                     }
                 }
             }
             else {
-                # We have a <<>> in this part, no need to match
-                push @new, $part;
+                # We have a <<>> in this part, no need to re-match
+                push @new, $p;
             }
         }
         @parts = @new;
     }
-    $line = join '', @parts;
+
+    # Put all the parts back together
+    $line = join '', map { $_->[1] } @parts;
 
     ## Fixups
     # Change TIMEY to $is_timey's value
@@ -602,6 +647,21 @@ sub do_match {
               }{$+{pr}<<$+{t1}|91$+{timey}>>$+{po}}xing;
 
     return $line;
+}
+
+sub get_re_name {
+    my ($re) = @_;
+
+    state %re_name;
+
+    return $re_name{$re} if $re_name{$re};
+
+    if ($re =~ m{\$branch \s* = \s* " (?<branch> [^"]+) ";}xin) {
+        $re_name{$re} = $+{branch};
+        return $re_name{$re};
+    }
+
+    die "Unable to extract branch from re: $re";
 }
 
 sub get_masks {
@@ -1386,7 +1446,7 @@ sub get_matches {
                   ( $ampm_ph_re )?
                   ( \s+ $oclock_re )?
                 )
-                ( $never_follow_times_re (*SKIP)(*FAIL) )?
+                (?! $never_follow_times_re )
                 $ba_re
                 (?{ $branch = "5h"; })
               }xin;
@@ -1397,7 +1457,7 @@ sub get_matches {
                   ( ( $rel_words | before ) \s+ ) ?
                   $midnight_noon_re
                 )
-                ( $never_follow_times_re (*SKIP)(*FAIL) )?
+                (?! $never_follow_times_re )
                 $ba_re
                 (?{ $branch = "13"; })
               }xin;
@@ -1489,7 +1549,7 @@ sub get_matches {
                   (             ( \s+ | \s* $ellips \s* | $hy ) $z_low_num_re )?
                   ( $ampm_ph_re )?
                 )
-                ( ( $never_follow_times_re | $hy $z_low_num_re ) (*SKIP)(*FAIL) )?
+                (?! $never_follow_times_re | $hy $z_low_num_re )
                 $ba_re
                 (?{ # If they look like five-three-zero then they aren't usually times
                     $branch = "5b";
@@ -1580,8 +1640,7 @@ sub get_matches {
                   ( near \s+ ( on \s+ )? )?
                   $hour_re ( ( $hy | [:.] | \s+ )? $min0_re )?
                 )
-                (?! $sq s )
-                ( $never_follow_times_re (*SKIP)(*FAIL) )?
+                (?! $sq s | $never_follow_times_re )
                 (?<po>
                   ( \s+ or \s+ so )?
                   ( $aq
@@ -1656,14 +1715,13 @@ sub get_matches {
                 | $low_num_re \s* (*SKIP)(*FAIL)
                 | $hour_word_re
                 )
-                ( ( $never_follow_times_re
-                  | \. \d+
-                  | \s+ (above | below)  # Temperatures
-                  | (\s+ \w+)? \s+ ( seconds )
-                  | $hy
-                  )
-                  (*SKIP)(*FAIL)
-                )?
+                (?!
+                  $never_follow_times_re
+                | \. \d+
+                | \s+ (above | below)  # Temperatures
+                | (\s+ \w+)? \s+ ( seconds )
+                | $hy
+                )
                 (?= \s* (?<tr> (\w+ \s+){0,3} time
                         | now
                         )
@@ -1693,7 +1751,7 @@ sub get_matches {
                        ( (?<sep> $hy | [:.] | \s+ )? (?<mm> $min0_re) )?
                        (?<ap> $ampm_ph_re )?
                 )
-                ( $never_follow_times_re (*SKIP)(*FAIL) )?
+                (?! $never_follow_times_re )
                 (?<po> (?<bw> \s+ ( last | yesterday | $weekday_re | he | she | they ) \b
                        | \s* $hy+ \s+
                        | , \s+
@@ -1788,12 +1846,11 @@ sub get_matches {
                   ( near \s+ ( on \s+ )? )?
                   (?<hh> $hour_re) ( (?<sep> $hy | [:.] | \s+ )? (?<mm> $min0_re) )?
                 )
-                ( ( $sq s
-                  | $never_follow_times_re
-                  | \s+ and \s+ a \s+ (half | quarter | third)
-                  )
-                  (*SKIP)(*FAIL)
-                )?
+                (?!
+                  $sq s
+                | $never_follow_times_re
+                | \s+ and \s+ a \s+ (half | quarter | third)
+                )
                 (?<po>
                   ( \s+ or \s+ so )?
                   ( $aq
@@ -1990,7 +2047,8 @@ sub get_matches {
                 )
                 (?! $never_follow_times_re )
                 $ba_re
-                (?{ $branch  = $last_masked ? "x20a" : "20a";
+                (?{ $branch  = "20a";
+                    $branch  = "x20a" if $last_masked;
                     $branch .= ":TIMEY" if $last_timey;
                   })
               }xin;
