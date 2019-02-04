@@ -139,14 +139,14 @@ sub search_zip {
         unless $members_seen;
 
     print Dumper \@res
-        if $output_dump;
+        if $output_dump and not $timing;
 
     # Print the timing info
     if ($timing) {
         my $total_time;
         foreach my $name (sort  {$timing->{$a}{time} <=> $timing->{$b}{time} } keys %$timing) {
             my $ti = $timing->{$name};
-            printf "%10s:  %7.3fms  %3d/%d\n",
+            printf "%10s:  %8.3fms  %3d/%d\n",
                 $name, $ti->{time} * 1000, $ti->{hits}//0, $ti->{count};
             $total_time += $ti->{time};
         }

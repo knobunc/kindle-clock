@@ -168,9 +168,9 @@ my $ba_re = qr{ \b | (?= [—/"'‘’“”\s.…,:;?] ) | \z }xin;
 
 # Match stuff from the start of the string to here.
 # This must be matched and included in the results
-my $not_in_match    = qr{ [—…,:;?/""''‘’“”\s([]
-                        | \A      ($hy|[.])*
-                        | [^\d\w] ($hy|[.])+
+my $not_in_match    = qr{ [—…,:;?/""''‘’“”\s([]+                                        (*SKIP)
+                        | \A      (\p{Format}* \p{Dash_Punctuation} \p{Format}* | [.])* (*SKIP)
+                        | [^\d\w] (\p{Format}* \p{Dash_Punctuation} \p{Format}* | [.])+ (*SKIP)
                         }xin;
 
 # Relative words
