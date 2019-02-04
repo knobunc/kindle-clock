@@ -164,7 +164,7 @@ my $oclock_re = qr{ o( $sq \s* | f \s+ the \s+ | $hy )? clock s? }xin;
 
 # Boundary before and after
 my $bb_re = qr{ (?<=     [—"'(‘’“”\s[] ) | \A }xin;
-my $ba_re = qr{ \b | (?= [—/"'‘’“”\s.…,:;?] ) | \z }xin;
+my $ba_re = qr{ \b | (?= [—/"'‘’“”\s…,:;?.] ) | \z }xin;
 
 # Match stuff from the start of the string to here.
 # This must be matched and included in the results
@@ -410,7 +410,7 @@ my $never_follow_times_exp_re =
 
         ( point | time | moment | instant | end | stage | of | who
         | heartbeat | generation | color
-        | after | since
+        | since
         | degrees | [°º] [FCK]?
         | per\s*cent | %
         | cm | meter | km | klick | mm | acre
@@ -423,7 +423,7 @@ my $never_follow_times_exp_re =
         | pound | lb | kg | kilo | ton | tonne | gram | ounce | oz
         | cup | pint | quart | gallon
         | tablespoon | tbsp | teaspoon | tsp
-        | gravities | gravity | g $sq? s
+        | gravities | gravity | g $sq? s | gee
         | cubic | square
         | ( hundred | thousand | million | billion ) (th)?
         | dozen | score | gross | grand
@@ -1318,6 +1318,7 @@ sub get_matches {
                   ( ( \s+ | $hy | [./] ) $sec_word_re )?
                   $ampm_ph_re
                 )
+                (?! $never_follow_times_re )
                 $ba_re
                 (?{ $branch = "5"; })
               }xin;
@@ -1680,7 +1681,7 @@ sub get_matches {
                   ( ( only | just | it $sq s | it \s+ is | the ) \s+ )?
                 )
                 (?<t1>
-                  ( $rel_words \s+ )?
+                  (?<rl> $rel_words \s+ )?
                   (?<hr> $hour_dig_re ) $minsec0_dig_re ( $minsec0_dig_re )?
                 )
                 (?<po>
@@ -1688,7 +1689,7 @@ sub get_matches {
                   ( \s+ ( now | precisely | exactly ) )?
                   ( \z | $phrase_punc? $aq | $phrase_punc ( \s+ | \z ) | \s+ $hy+ \s+) )
                 (?{ $branch = "x9l";
-                    my ($pre, $post, $hr) = (${^PREMATCH}, ${^POSTMATCH}, $+{hr});
+                    my ($pre, $post, $rl, $hr) = (${^PREMATCH}, ${^POSTMATCH}, $+{hr}, $+{rl});
                     if ("$pre <<>> $post" =~
                             m{ ( look | seem) ( | s | ed ) \s+
                                like \s+ a \s+ (year | date)
@@ -1698,6 +1699,10 @@ sub get_matches {
                        )
                     {
                         $branch = "9l";
+                    }
+                    elsif ($rl) {
+                        # Let something else have a shot
+                        $branch = "xx";
                     }
                   })
               }xinp;
@@ -1823,13 +1828,13 @@ sub get_matches {
                 )
                 (?<po> (?<bw> \s+ ( last | yesterday | $weekday_re | he | she | they ) \b
                        | \s* $hy+ \s+
-                       | , \s+
+                       | , \s+ (?! [^.]+ ( years | months ) )
                        )?
                 )?
                 $ba_re
                 (?{ $branch = "9:TIMEY";
                     my ($mod, $xx, $sep, $rl, $hh, $bw) = @+{qw( mod xx sep rl hh bw )};
-                    if (is_yearish($xx)) {
+                    if (is_yearish($xx) and not $rl) {
                         $branch = "9n:0";
                     }
                     elsif ($sep and $xx !~ /[a-z]/i) {
@@ -1841,6 +1846,9 @@ sub get_matches {
                     }
                     elsif ($bw) {
                         $branch = "9e:1";
+                        if ($xx and $xx =~ m{\A $hour_h_word_re ( $hy $min0_re )? \z}xin) {
+                            $branch = "9e:TIMEY";
+                        }
                     }
                     elsif ($is_agey and
                            defined $hh and
@@ -1957,7 +1965,9 @@ sub get_matches {
                     $minsec0_dig_re
                   )
                 )
-                (?! $never_follow_times_re )
+                (?! ([.] \d+)? $never_follow_times_re
+                | [.] \d{3,}
+                )
                 $ba_re
                 (?{ $branch = "3:TIMEY";
                     my ($sep, $tt, $prw) = @+{qw( sep tt prw )};
@@ -2302,9 +2312,9 @@ sub extract_times {
                 | in \s+ ( (?<rl> $rel_at_words ) \s+ )?
                   (?<n1> $min_re ) \s+ ( minutes? \s+ )?
                   it \s+ (would | will) \s+ be \s+ (a \s+)?
-                | (?<rl> close \s+ upon ) \s+
+                | (?<rl> close \s+ upon | till ) \s+
                 )?
-                (                                  (?<hr>  $hour24_re | $all_named_times   ) \?? \s*
+                (                                (?<hr>  $hour24_re | $all_named_times     ) \?? \s*
                   ( ( $hy | [\s.:/] | $ellips )+ (?<mn>  $min_re ( (?<rl> $hy ) $min_re )? ) \s* )?
                   ( ( $hy | [\s.:/] | $ellips )+ (?<sec> $sec_re ( (?<rl> $hy ) $min_re )? ) \s* )?
                 |   (?<hr>  $hour24_dig_re  )
@@ -2910,7 +2920,7 @@ sub get_spread {
         }
     }
     else {
-        return ( 0,  0, '' )  if $rel =~ m{\A ( until | at ) \z}xin;
+        return ( 0,  0, '' )  if $rel =~ m{\A ( until | at | till ) \z}xin;
         return (-5, -1, '<')  if $rel =~ m{\A ( before ) \z}xin;
 
         return ( 1, 15, '+') if "$rel $min" =~ m{\A nearer \s+ to \s+ half \z}xin;
