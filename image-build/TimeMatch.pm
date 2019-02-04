@@ -163,7 +163,7 @@ my $ampm_ph_re = qr{ [:,]? \s* $ampm_re }xin;
 my $oclock_re = qr{ o( $sq \s* | f \s+ the \s+ | $hy )? clock s? }xin;
 
 # Boundary before and after
-my $bb_re = qr{ (?<= [\[—\s"'(‘’“”] ) | \A }xin;
+my $bb_re = qr{ (?<=     [—"'(‘’“”\s[] ) | \A }xin;
 my $ba_re = qr{ \b | (?= [—/"'‘’“”\s.…,:;?] ) | \z }xin;
 
 # Match stuff from the start of the string to here.
