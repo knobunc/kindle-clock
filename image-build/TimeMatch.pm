@@ -408,7 +408,7 @@ my $never_follow_times_exp_re =
           ( milli | centi | kilo | mega | giga ) $hy?
         )?
 
-        ( point | time | moment | instant | end | stage | of | who
+        ( point | time | moment | instant | end | stage | who
         | heartbeat | generation | color
         | since
         | degrees | [°º] [FCK]?
@@ -2095,7 +2095,7 @@ sub get_matches {
     push @r,qr{ (?<li> $not_in_match )
                 (?<t1>
                   (?<rl> $rel_words \s+ )?
-                  (?<hr> $hour24_word_re (         \s+  | \s* $ellips \s* )
+                  (?<hr> $hour24_word_re (       \s+ | \s* $ellips \s* )
                   |      $hour_word_re   ( $hy | \s+ | \s* $ellips \s* )
                   )
                   (?<mn> $min_word_re )
