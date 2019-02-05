@@ -9,8 +9,10 @@ use Exporter::Easy (
 );
 
 use Archive::Zip;
+use Capture::Tiny qw( :all );
 use Carp;
 use Data::Dumper;
+use File::Slurper qw( write_binary );
 use List::Util qw( sum min max );
 use Parallel::ForkManager;
 use Sys::Info;
@@ -119,7 +121,8 @@ sub start_job {
 
     my $start = time;
 
-    system($self->get_task($s)->{cmd});
+    # Run the task
+    $self->get_task($s)->{code}->();
 
     my $dur = time - $start;
 
@@ -186,8 +189,8 @@ sub print_task_start {
     }
     else {
         $size = int($size / 1000) . 'k';
-    }	
-    
+    }
+
     my ($what, $wcolor) = $skip ? ("Skip", "yellow") : ("Process", "bold green");
     my $acolor = "bold blue";
     my $bcolor = "bold blue";
@@ -406,9 +409,9 @@ sub run_jobs {
 
     # Estimate all book sizes
     foreach my $t (@{ $self->{task_order} }) {
-	$self->estimate_size($t);
+        $self->estimate_size($t);
     }
-    
+
     # Log the start time so we can calculate an ETA
     $self->{run_start} = time;
 
@@ -427,34 +430,34 @@ sub estimate_size {
     my ($self, $task_name) = @_;
 
     my $task = $self->get_task($task_name);
-    
+
     return if $task->{skip};
 
     my $author = $task->{author};
     my $book   = $task->{book};
     my ($file) = glob("~/\QCalibre Library\E/\Q$author\E/\Q$book\E*\Q (\E*\Q)\E/*epub")
-	or die "Unable to find file for '$author' '$book'";
-    
+    or die "Unable to find file for '$author' '$book'";
+
     my $zip = Archive::Zip->new($file)
         or die "Unable to read zipfile '$file': $!";
 
     my $size = 0;
     foreach my $member (sort {$a->fileName() cmp $b->fileName()} $zip->members()) {
-	my $name = $member->fileName();
-	next if $name !~ /\.([x]?html?|xml)$/;
+    my $name = $member->fileName();
+    next if $name !~ /\.([x]?html?|xml)$/;
 
-	$size += $member->uncompressedSize();
+    $size += $member->uncompressedSize();
     }
 
     $task->{size} = $size;
-    
+
     return;
 }
 
 sub add_task {
     my ($self, $task_name, %args) = @_;
 
-    my @av = qw( skip author book cmd );
+    my @av = qw( skip author book code );
     foreach my $a (@av) {
         croak "Missing arg '$a'"
             unless defined $args{$a};
@@ -469,11 +472,11 @@ sub add_task {
         {skip     => $args{skip},
          author   => $args{author},
          book     => $args{book},
-         cmd      => $args{cmd},
+         code     => $args{code},
 
          dur      => $args{skip} ? 0    : undef,
          started  => undef,
-	 size     => 0,                 # Filled in by estimate later
+         size     => 0,                 # Filled in by estimate later
         };
 
     return;
@@ -493,12 +496,34 @@ sub add_sources {
         # Shorten the book by lopping at _s unless there are duplicates because of that
         my $ob = shorten_book($book);
 
-        my $cmd = "./find_times.pl ~/\QCalibre Library\E/\Q$author\E/\Q$book (\E*\Q)\E/*epub" .
-            " > $dir/\Q$author - $ob.dmp";
+        # Find the matching file
+        my ($source_file) =
+            grep m{ / \Q$author\E / \Q$book\E \s \( \d+ \)/ [^/]+ \. epub \z}xn,
+            glob "~/\QCalibre Library\E/\Q$author\E/\Q$book (\E*\Q)\E/*epub";
+        die "Unable to find a match for '$author' '$book'"
+            unless $source_file;
+
+        # And this is where to write the output
+        my $dest_file = "$dir/$author - $ob.dmp";
+
+        # Put the code to run for the task together
+        my $code =
+            sub {
+
+                my ($stdout, $stderr, $exit) = capture {
+                    system('./find_times.pl', $source_file);
+                };
+
+                die "Failed to run './find_times.pl \"$source_file\"' (exit $exit): $stderr"
+                    if $exit != 0;
+
+                write_binary($dest_file, $stdout);
+
+                return $exit;
+        };
 
         my $skip = 0;
-        my $file = "$dir/$author - $ob.dmp";
-        if (-f $file and not -z $file and not $force and
+        if (-f $dest_file and not -z $dest_file and not $force and
             ( not $which or "$author - $ob" !~ /$which/i)
             )
         {
@@ -509,7 +534,7 @@ sub add_sources {
                         skip     => $skip,
                         author   => $author,
                         book     => $ob,
-                        cmd      => $cmd,
+                        code     => $code,
                        );
     }
 
