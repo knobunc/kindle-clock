@@ -1630,7 +1630,8 @@ sub get_matches {
                 (?<pr>
                   ( waited | arrive s? | called | expired
                   | $twas_re
-                  | begin | end | it ( \s+ will \s+ be )?
+                  | begin | end
+                  | ( (?<ba> make ) \s+)? it ( \s+ will \s+ be )?
                   | ( come | turn ) \s+ on
 #                  | still
                   ) \s+
@@ -1646,7 +1647,12 @@ sub get_matches {
                   ( \z | $phrase_punc? $aq | $phrase_punc ( \s+ | \z ) | \s+ $hy+ \s+)
                 | \s+ ( and | $hy+ ) \s+
                 )
-                (?{ $branch = "9f"; })
+                (?{ $branch = "9f";
+                    my ($ba) = @+{qw( ba )};
+                    if ($ba) {
+                        $branch = "9q:TIMEY";
+                    }
+                  })
               }xin;
 
     # More at the end of a phrase
