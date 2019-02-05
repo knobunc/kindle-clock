@@ -62,3 +62,5 @@ prove t/*pl -j 8
 9c - Strong.    end of phrase times
 9d - BAD.       It was ten                          BAD
 9e - Eliminate -- save "Anyway, <<after two|9:0>>, he sat politely in his dean of extension"
+9f - Strong.    Call it three.
+9g - Strong.    starting at seven.

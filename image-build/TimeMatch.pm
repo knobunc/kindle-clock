@@ -1033,6 +1033,7 @@ sub get_matches {
     my $nf_re = qr{(?! $never_follow_times_re
                      | :\d
                      | $hy ( $min_re | and )
+                     | \s+ of
                      )
                   }xin;
     push @r,qr{ (?<li> $not_in_match )
@@ -1186,7 +1187,7 @@ sub get_matches {
                    | ( \s+ a )? \s+ $fraction_re
                   )?
                   (?! $never_follow_times_re
-                  |   \s+ before
+                  |   \s+ ( before | after )
                   )
                 )
                 $ba_re
@@ -1601,7 +1602,7 @@ sub get_matches {
                   $hour_word_re
                   ( ( \s+ | $hy ) $min_word_re )?
                 )
-                (?! \s+ $time_periods_re | $never_follow_times_re )
+                (?! \s+ $time_periods_re | $never_follow_times_re | \s+ of )
                 $ba_re
                 (?{ $branch = "9b"; })
                }xin;
@@ -1784,17 +1785,20 @@ sub get_matches {
                        ( (?<sep> $hy | [:.] | \s+ )? (?<mm> $min0_re) )?
                        (?<ap> $ampm_ph_re )?
                 )
-                (?! $never_follow_times_re )
-                (?<po> (?<bw> \s+ ( last | yesterday | $weekday_re | he | she | they ) \b
+                (?! $never_follow_times_re | \s+ of )
+                (?<po> (?<tr> ,? \s+ (?<bw> last | yesterday | $weekday_re | he | she | they ) \b
                        | \s* $hy+ \s+
                        | , \s+
                        )?
                 )
                 $ba_re
                 (?{ $branch = "9m:TIMEY";
-                    my ($hh, $mm, $sep, $pr, $ap, $bw) = @+{qw( hh mm sep pr ap bw )};
+                    my ($hh, $mm, $sep, $pr, $ap, $bw, $tr) = @+{qw( hh mm sep pr ap bw tr )};
                     if ($bw) {
                         $branch = "9e";
+                    }
+                    elsif ($tr) {
+                        $branch = "9v";
                     }
                     elsif ($hh =~ m{\A $hour_word_re \z}xin) {
                         # If we have words then we want this to be stronger
@@ -1819,28 +1823,34 @@ sub get_matches {
 
     push @r,qr{ (?<pr>
                   ( \A | $aq | $phrase_punc \s+ )
-                  ( ( $twas_re | only | because | and | maybe ) \s+)?
+                  (?<was> ( $twas_re | only | because | and | maybe ) \s+)?
                   (?<mod> ( already | nightly | daily ) ,? \s+ )?
                 )
                 (?<t1>
                   (?<rl> $rel_at_words | close \s+ upon | till | by ) \s+
                   ( (?<xx> $hour24_re (?<sep> $hy | [:.] | \s+ )? $min0_re )
-                  | One \s* (*SKIP)(*FAIL)
                   | (?<hh> $hour_re )
                   )
                 )
                 (?! $never_follow_times_re
                 | : \d
                 )
-                (?<po> (?<bw> \s+ ( last | yesterday | $weekday_re | he | she | they ) \b
+                (?<po> (?<tr>
+                         ,? \s+ (?<bw> last | yesterday | $weekday_re
+                                 | he | she | they | we
+                                 | nobody
+                                 | (?-i: \p{Uppercase}\p{Lowercase}\w* )
+                                 ) \b
                        | \s* $hy+ \s+
                        | , \s+ (?! [^.]+ ( years | months ) )
                        )?
                 )?
                 $ba_re
                 (?{ $branch = "9:TIMEY";
-                    my ($mod, $xx, $sep, $rl, $hh, $bw) = @+{qw( mod xx sep rl hh bw )};
-                    if (is_yearish($xx) and not $rl) {
+                    my ($was, $mod, $xx, $sep, $rl, $hh, $bw, $of, $tr) =
+                        @+{qw( was mod xx sep rl hh bw of tr )};
+
+                    if (is_yearish($xx) and (not $rl or $rl =~ m{\A (until) \z}xin)) {
                         $branch = "9n:0";
                     }
                     elsif ($sep and $xx !~ /[a-z]/i) {
@@ -1851,10 +1861,23 @@ sub get_matches {
                         $branch = "9s";
                     }
                     elsif ($bw) {
-                        $branch = "9e:1";
+                        $branch = "9u";
                         if ($xx and $xx =~ m{\A $hour_h_word_re ( $hy $min0_re )? \z}xin) {
-                            $branch = "9e:TIMEY";
+                            $branch = "9u:TIMEY";
                         }
+                    }
+                    elsif ($was and $rl and
+                           (not $hh or "$was $rl" !~ m{\A and \s+ at \z}xin) )
+                    {
+                        $branch = "9w";
+                    }
+                    elsif ($rl and $hh and $tr and
+                           $hh =~ $hour_word_re and $rl =~ m{\A about \z}xin)
+                    {
+                        $branch = "9x";
+                    }
+                    elsif ($hh and $hh =~ m{\A one \z}xin) {
+                        $branch = "xx";
                     }
                     elsif ($is_agey and
                            defined $hh and
