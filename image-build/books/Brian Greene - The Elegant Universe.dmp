@@ -22,12 +22,12 @@ $VAR1 = [
           [
             1,
             '[19:28] The Elegant Universe_ Superstrings, Hidden - Brian Greene.epub (OEBPS/Text/TheElegantUniverse_split_000_split_036.htm) - 1928',
-            "Although Feynman expressed this view more than three decades ago, it applies equally well today What he meant is that although the special and general theories of relativity require a drastic revision of previous ways of seeing the world, when one fully accepts the basic principles underlying them, the new and unfamiliar implications for space and time follow directly from careful logical reasoning. If you ponder the descriptions of Einstein's work in the preceding two chapters with adequate intensity, you will\x{2014}if even for just a moment\x{2014}recognize the inevitability of the conclusions we have drawn. Quantum mechanics is different. By <<1928|9n:0>> or so, many of the mathematical formulas and rules of quantum mechanics had been put in place and, ever since, it has been used to make the most precise and successful numerical predictions in the history of science. But in a real sense those who use quantum mechanics find themselves following rules and formulas laid down by the \"founding fathers\" of the theory\x{2014}calculational procedures that are straightforward to carry out\x{2014}without really understanding why the procedures work or what they really mean. Unlike relativity, few if any people ever grasp quantum mechanics at a \"soulful\" level.",
+            "Although Feynman expressed this view more than three decades ago, it applies equally well today What he meant is that although the special and general theories of relativity require a drastic revision of previous ways of seeing the world, when one fully accepts the basic principles underlying them, the new and unfamiliar implications for space and time follow directly from careful logical reasoning. If you ponder the descriptions of Einstein's work in the preceding two chapters with adequate intensity, you will\x{2014}if even for just a moment\x{2014}recognize the inevitability of the conclusions we have drawn. Quantum mechanics is different. By <<1928|9:0>> or so, many of the mathematical formulas and rules of quantum mechanics had been put in place and, ever since, it has been used to make the most precise and successful numerical predictions in the history of science. But in a real sense those who use quantum mechanics find themselves following rules and formulas laid down by the \"founding fathers\" of the theory\x{2014}calculational procedures that are straightforward to carry out\x{2014}without really understanding why the procedures work or what they really mean. Unlike relativity, few if any people ever grasp quantum mechanics at a \"soulful\" level.",
           ],
           [
             1,
             '[19:27] The Elegant Universe_ Superstrings, Hidden - Brian Greene.epub (OEBPS/Text/TheElegantUniverse_split_001_split_006.htm) - 1927',
-            "Even so, as long as we can determine mathematically the precise form of probability waves, their probabilistic predictions can be tested by repeating a given experiment numerous times, thereby experimentally measuring the likelihood of getting one particular result or another. Just a few months after de Broglie's suggestion, Schr\x{f6}dinger took the decisive step toward this end by determining an equation that governs the shape and the evolution of probability waves, or as they came to be known, wave functions. It was not long before Schr\x{f6}dinger's equation and the probabilistic interpretation were being used to make wonderfully accurate predictions. By <<1927|9n:0>>, therefore, classical innocence had been lost. Gone were the days of a clockwork universe whose individual constituents were set in motion at some moment in the past and obediently fulfilled their inescapable, uniquely determined destiny. According to quantum mechanics, the universe evolves according to a rigorous and precise mathematical formalism, but this framework determines only the probability that any particular future will happen\x{2014}not which future actually ensues.",
+            "Even so, as long as we can determine mathematically the precise form of probability waves, their probabilistic predictions can be tested by repeating a given experiment numerous times, thereby experimentally measuring the likelihood of getting one particular result or another. Just a few months after de Broglie's suggestion, Schr\x{f6}dinger took the decisive step toward this end by determining an equation that governs the shape and the evolution of probability waves, or as they came to be known, wave functions. It was not long before Schr\x{f6}dinger's equation and the probabilistic interpretation were being used to make wonderfully accurate predictions. By <<1927|9e:1>>, therefore, classical innocence had been lost. Gone were the days of a clockwork universe whose individual constituents were set in motion at some moment in the past and obediently fulfilled their inescapable, uniquely determined destiny. According to quantum mechanics, the universe evolves according to a rigorous and precise mathematical formalism, but this framework determines only the probability that any particular future will happen\x{2014}not which future actually ensues.",
           ],
           [
             1,
@@ -91,27 +91,6 @@ $VAR1 = [
           ],
           [
             1,
-            '[00:54] The Elegant Universe_ Superstrings, Hidden - Brian Greene.epub (OEBPS/Text/notes.htm) - 0054',
-            'Electron
-.<<0054|18:0>>
--1',
-          ],
-          [
-            1,
-            '[00:47] The Elegant Universe_ Superstrings, Hidden - Brian Greene.epub (OEBPS/Text/notes.htm) - 0047',
-            'Up Quark
-.<<0047|18:0>>
-2/3',
-          ],
-          [
-            1,
-            '[00:03] The Elegant Universe_ Superstrings, Hidden - Brian Greene.epub (OEBPS/Text/notes.htm) - 0003',
-            'Muon-Neutrino
-< .<<0003|18:0>>
-0',
-          ],
-          [
-            1,
             '[ap 01:05] The Elegant Universe_ Superstrings, Hidden - Brian Greene.epub (OEBPS/Text/notes.htm) - 1.05',
             '3. A little more precisely, Planck showed that waves whose minimum energy content exceeds their purported average energy contribution (according to nineteenthcentury thermodynamics) are exponentially suppressed. This suppression is increasingly sharp as we examine waves of ever larger frequency.
 4. Planck\'s constant is <<1.05|5a:0>> x 10 grams-centimeters/second.
@@ -121,19 +100,5 @@ $VAR1 = [
             1,
             '[ap 01:05] The Elegant Universe_ Superstrings, Hidden - Brian Greene.epub (OEBPS/Text/notes.htm) - 1.05',
             "Planck's constant. Denoted by the symbol h, Planck's constant is a fundamental parameter in quantum mechanics. It determines the size of the discrete units of energy, mass, spin, etc. into which the microscopic world is partitioned. Its value is <<1.05|5a:0>> \x{d7} 10 grams-cm/sec.",
-          ],
-          [
-            1,
-            '[00:03] The Elegant Universe_ Superstrings, Hidden - Brian Greene.epub (OEBPS/Text/tab1-1.htm) - 0003',
-            'Muon-neutrino
-< .<<0003|18:0>>
-Tau-neutrino',
-          ],
-          [
-            1,
-            '[00:47] The Elegant Universe_ Superstrings, Hidden - Brian Greene.epub (OEBPS/Text/tab1-1.htm) - 0047',
-            'Up-quark
-.<<0047|18:0>>
-Charm Quark',
           ],
         ];

@@ -7,7 +7,7 @@ $VAR1 = [
           [
             1,
             '[ap 01:00] John Adams - David McCullough.epub (OEBPS/Text/David McCullough - John Adams (v2.1)_split_003.html) - one',
-            'I sometimes, in my sprightly moments, consider myself, in my great chair at school, as some dictator at the head of a commonwealth. In this little state I can discover all the great geniuses, all the surprising actions and revolutions of the great world in miniature. I have several renowned generals but three feet high, and several deep-projecting politicians in petticoats. I have others catching and dissecting flies, accumulating remarkable pebbles, cockleshells, etc., with as ardent curiosity as any virtuoso in the Royal Society... At <<one|9m:0>> table sits Mr. Insipid foppling and fluttering, spinning his whirligig, or playing with his fingers as gaily and wittily as any Frenchified coxcomb brandishes his cane and rattles his snuff box. At another sits the polemical divine, plodding and wrangling in his mind about Adam\'s fall in which we sinned, all as his primer has it.',
+            'I sometimes, in my sprightly moments, consider myself, in my great chair at school, as some dictator at the head of a commonwealth. In this little state I can discover all the great geniuses, all the surprising actions and revolutions of the great world in miniature. I have several renowned generals but three feet high, and several deep-projecting politicians in petticoats. I have others catching and dissecting flies, accumulating remarkable pebbles, cockleshells, etc., with as ardent curiosity as any virtuoso in the Royal Society... At <<one|9t:0>> table sits Mr. Insipid foppling and fluttering, spinning his whirligig, or playing with his fingers as gaily and wittily as any Frenchified coxcomb brandishes his cane and rattles his snuff box. At another sits the polemical divine, plodding and wrangling in his mind about Adam\'s fall in which we sinned, all as his primer has it.',
           ],
           [
             1,
@@ -203,6 +203,11 @@ $VAR1 = [
             1,
             '[00:00] John Adams - David McCullough.epub (OEBPS/Text/David McCullough - John Adams (v2.1)_split_010.html) - midnight',
             'By now Charles, too, had entered Harvard, at age fifteen. More outgoing than his older brother, Charles was thought to be too easily distracted from his studies. Where John Quincy required a warning against the perils of the <<midnight|13>> lamp, Charles needed reminding that such a lamp existed.',
+          ],
+          [
+            1,
+            '[~ 17:31] John Adams - David McCullough.epub (OEBPS/Text/David McCullough - John Adams (v2.1)_split_010.html) - about 1731',
+            "All were considerably finer, more elegant pieces than the Adamses had ever owned in years past and would have looked quite out of place in the farmhouse at Braintree. But, as they now knew, they were not to reside in the old homestead. Through Cotton Tufts, Adams had arranged the purchase of what was known as \x{201c}the Vassall-Borland place,\x{201d} which Adams had had his eye on for years and which, in memory, seemed quite grand. Built more than fifty years before, <<about 1731|9e:1>>, as the summer villa of a wealthy sugar planter from the West Indies, Leonard Vassall, the house had stood empty through much of the war, after Vassall's daughter, the widow Borland, a Loyalist, fled to England. When Adams heard the place was available, he made his decision. Located on the coast road, on the north side of town, the property included house, farm buildings, and some eighty acres at a purchase price of 600 pounds. Adams envisioned it as the ideal setting for his retirement.",
           ],
           [
             1,

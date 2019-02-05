@@ -72,7 +72,7 @@ $VAR1 = [
           [
             1,
             '[ap ~ 02:00] Seveneves - Neal Stephenson.epub (text/part0015.html) - Approximately 200',
-            "In terms of arklet count, they\x{2019}d started the day with 299 surviving, occupied arklets, a figure that had been reduced to 282 by the collision. Ten of them\x{2014}a heptad and a triad\x{2014}were attached to Red Hope, leaving 272. <<Approximately 200|9n:0>> were missing and presumed to have flown the coop with J.B.F. The remaining 70 or so had elected to stay behind and were still reporting in as members in good standing of the Cloud Ark. The 11 spares were still attached to Izzy and would be inspected for damage later.",
+            "In terms of arklet count, they\x{2019}d started the day with 299 surviving, occupied arklets, a figure that had been reduced to 282 by the collision. Ten of them\x{2014}a heptad and a triad\x{2014}were attached to Red Hope, leaving 272. <<Approximately 200|9:0>> were missing and presumed to have flown the coop with J.B.F. The remaining 70 or so had elected to stay behind and were still reporting in as members in good standing of the Cloud Ark. The 11 spares were still attached to Izzy and would be inspected for damage later.",
           ],
           [
             1,
@@ -111,6 +111,11 @@ $VAR1 = [
           ],
           [
             1,
+            '[ap 08:20] Seveneves - Neal Stephenson.epub (text/part0018_split_002.html) - Eight hours and twenty minutes',
+            "\x{201c}Yesterday,\x{201d} Beled said. \x{201c}<<Eight hours and twenty minutes|14>> after we docked.\x{201d}",
+          ],
+          [
+            1,
             '[22:30] Seveneves - Neal Stephenson.epub (text/part0018_split_003.html) - twenty-two thirty',
             "Memmie nodded. \x{201c}Cabins have been booked on the elevator departing at <<twenty-two thirty|5k:1>>.\x{201d}",
           ],
@@ -142,7 +147,7 @@ $VAR1 = [
           [
             1,
             '[ap 10:00] Seveneves - Neal Stephenson.epub (text/part0019_split_001.html) - ten',
-            "\x{201c}Yes. You have to read the whole thing. By <<ten|9:0>>, they decide whether you are Microp\x{e6}dia or Macrop\x{e6}dia quality.\x{201d}",
+            "\x{201c}Yes. You have to read the whole thing. By <<ten|9e:1>>, they decide whether you are Microp\x{e6}dia or Macrop\x{e6}dia quality.\x{201d}",
           ],
           [
             1,

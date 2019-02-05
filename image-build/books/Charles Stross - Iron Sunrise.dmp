@@ -31,6 +31,11 @@ $VAR1 = [
           ],
           [
             1,
+            '[~ 15:00] Iron Sunrise - Charles Stross.epub (OEBPS/Text/section24.xhtml) - about 1500',
+            "\x{201c}Mm, <<about 1500|9e:1>>, shipboard. There was some announcement about setting the clocks forward tonight, as well.\x{201d}",
+          ],
+          [
+            1,
             '[16:41] Iron Sunrise - Charles Stross.epub (OEBPS/Text/section25.xhtml) - sixteen hours and forty-one minutes',
             "\x{201c}Total transit time to Centris Noctis, currently six point one million kilometers distant, is <<sixteen hours and forty-one minutes|14>>. We hope you enjoy your flight and choose TransVirtual TravelWays again!\x{201d}",
           ],

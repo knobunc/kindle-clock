@@ -7,17 +7,17 @@ $VAR1 = [
           [
             1,
             '[19:00] Manifold Destiny_ The One! The Only! Guide - Chris Maynard.epub (Baxter, Stephen - Manifold 01 - Time_split_006.htm) - 1900',
-            "\x{201c}The French and Germans, by contrast, worked the other way around: government followed by exploitation and trade. By <<1900|9n:0>> colonial occupation had cost the French government the equivalent of billions of dollars. We don\x{2019}t want to make the same mistake.",
+            "\x{201c}The French and Germans, by contrast, worked the other way around: government followed by exploitation and trade. By <<1900|9:0>> colonial occupation had cost the French government the equivalent of billions of dollars. We don\x{2019}t want to make the same mistake.",
           ],
           [
             1,
             '[20:50] Manifold Destiny_ The One! The Only! Guide - Chris Maynard.epub (Baxter, Stephen - Manifold 01 - Time_split_006.htm) - 2050',
-            "\x{201c}By <<2050|9n:0>> we need a working economy in space that can return power, microgravity industrial products, and scarce resources to the Earth. We might even be feeding the world from space by then. We\x{2019}ll surely need tens of thousands of people in space to achieve this, an infrastructure extending maybe as far as Jupiter. That\x{2019}s just forty years away.",
+            "\x{201c}By <<2050|9:0>> we need a working economy in space that can return power, microgravity industrial products, and scarce resources to the Earth. We might even be feeding the world from space by then. We\x{2019}ll surely need tens of thousands of people in space to achieve this, an infrastructure extending maybe as far as Jupiter. That\x{2019}s just forty years away.",
           ],
           [
             1,
             '[21:00] Manifold Destiny_ The One! The Only! Guide - Chris Maynard.epub (Baxter, Stephen - Manifold 01 - Time_split_006.htm) - 2100',
-            "\x{201c}By <<2100|9n:0>> we probably need to aim for economic equivalence between Earth and space. I can\x{2019}t hazard what size of economy this implies. Some say we may need as many as a billion people out there. We can figure it out later.",
+            "\x{201c}By <<2100|9:0>> we probably need to aim for economic equivalence between Earth and space. I can\x{2019}t hazard what size of economy this implies. Some say we may need as many as a billion people out there. We can figure it out later.",
           ],
           [
             1,
@@ -52,6 +52,6 @@ $VAR1 = [
           [
             1,
             '[ap 00:00] Manifold Destiny_ The One! The Only! Guide - Chris Maynard.epub (Baxter, Stephen - Manifold 01 - Time_split_011.htm) - twelve',
-            'He had always been good with his hands. By the age of seven or eight he had been stripping down truck engines with his father. By <<twelve|9:0>> he was building his own stock car from scrap.',
+            'He had always been good with his hands. By the age of seven or eight he had been stripping down truck engines with his father. By <<twelve|9e:1>> he was building his own stock car from scrap.',
           ],
         ];

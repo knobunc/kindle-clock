@@ -2,7 +2,7 @@ $VAR1 = [
           [
             1,
             '[ap 02:00] Leave It to Psmith - P. G. Wodehouse.epub (OEBPS/chapter01.xhtml) - two',
-            "\x{2018}The car will be at the door,\x{2019} said Baxter with quiet firmness, \x{2018}at <<two|9m:0>> sharp.\x{2019}",
+            "\x{2018}The car will be at the door,\x{2019} said Baxter with quiet firmness, \x{2018}at <<two|9t:0>> sharp.\x{2019}",
           ],
           [
             1,
@@ -98,7 +98,7 @@ $VAR1 = [
             1,
             '[ap 05:00] Leave It to Psmith - P. G. Wodehouse.epub (OEBPS/chapter06.xhtml) - five',
             "Psmith had come into the shop merely with the intention of asking his lordship if he happened to know Miss Halliday\x{2019}s address, but these words opened out such a vista of attractive possibilities that he had abandoned this tame programme immediately. He remembered now that among Mr McTodd\x{2019}s remarks on things in general had been one to the effect that he had received an invitation to visit Blandings Castle \x{2013} of which invitation he did not propose to avail himself; and he argued that if he had acted as substitute for Mr McTodd at the club, he might well continue the kindly work by officiating for him at Blandings. Looking at the matter altruistically, he would prevent his kind host much disappointment by taking this course; and, looking at it from a more personal viewpoint, only by going to Blandings could he renew his acquaintance with this girl. Psmith had never been one of those who hang back diffidently when Adventure calls, and he did not hang back now.
-\x{2018}At <<five|9m:0>> sharp,\x{2019} he said. \x{2018}I will be there.\x{2019}
+\x{2018}At <<five|9t:0>> sharp,\x{2019} he said. \x{2018}I will be there.\x{2019}
 \x{2018}Capital, my dear fellow,\x{2019} said his lordship.",
           ],
           [

@@ -135,7 +135,7 @@ Maida at the beauty shop for a manicure or something. Both strike me as being li
             1,
             '[ap ~ 11:00] Anatomy of a Murder - Robert Traver.epub (OEBPS/e9781429937290_c19.html) - Around eleven',
             "\x{201c}When?\x{201d}
-\x{201c}<<Around eleven|9:0>>, shortly before Mrs. Manion left.\x{201d}
+\x{201c}<<Around eleven|9e:1>>, shortly before Mrs. Manion left.\x{201d}
 \x{201c}When did you next see him?\x{201d}",
           ],
           [
@@ -217,6 +217,11 @@ I like to visit my grandchildren at that season. The trial will commence at <<ni
             1,
             '[< 00:00] Anatomy of a Murder - Robert Traver.epub (OEBPS/e9781429937290_c30.html) - shortly before midnight',
             "The world of science is said to be full of remarkable examples of independent researchers, unknown to each other and sometimes separated by whole continents, coming up with identical answers to the same puzzling questions at the very same time. At least this was once true\x{2014}true before our Soviet cousins rewrote history cozily reminding us that they had invariably got there first. In any case that night <<shortly before midnight|13>> Parnell and I\x{2014}separated not by continents but only by Grandma Biegler\x{2019}s old dining-room table\x{2014}had, more modestly perhaps, experienced much the same exhilarating thrill.",
+          ],
+          [
+            1,
+            '[ap 08:50] Anatomy of a Murder - Robert Traver.epub (OEBPS/e9781429937290_c31.html) - ten minutes to nine',
+            "On Wednesday morning at <<ten minutes to nine|10>>\x{2014}after a quick round of final handshakes\x{2014}I left Laura and the Lieutenant at the jail office and hurried in the back door of the courthouse and up the broad marble stairs and threaded my way through the crowded and milling corridors back to the Judge\x{2019}s chambers.",
           ],
           [
             1,

@@ -2,7 +2,7 @@ $VAR1 = [
           [
             1,
             "[ap 06:00] Unnatural Death - Dorothy L. Sayers.epub (index_split_007.html) - 6 o\x{2019}clock",
-            "\x{201c}Exactly. She had taken some nourishment at <<6 o\x{2019}clock|6>>\x{2014}a little broth and some milk pudding. At <<eight|9m:1>>, the nurse gave her a morphine injection and then went straight out to put some bowls of flowers on the little table on the landing for the night. The maid came to speak to her about some arrangements for the next day, and while they were talking, Miss \x{2026} that is, the niece\x{2014}came up and went into her aunt\x{2019}s room. She had only been there a moment or two when she cried out, \x{2018}Nurse! Nurse!\x{2019} The nurse rushed in, and found the patient dead.",
+            "\x{201c}Exactly. She had taken some nourishment at <<6 o\x{2019}clock|6>>\x{2014}a little broth and some milk pudding. At <<eight|9e>>, the nurse gave her a morphine injection and then went straight out to put some bowls of flowers on the little table on the landing for the night. The maid came to speak to her about some arrangements for the next day, and while they were talking, Miss \x{2026} that is, the niece\x{2014}came up and went into her aunt\x{2019}s room. She had only been there a moment or two when she cried out, \x{2018}Nurse! Nurse!\x{2019} The nurse rushed in, and found the patient dead.",
           ],
           [
             1,
@@ -47,7 +47,12 @@ $VAR1 = [
           [
             1,
             '[< 18:37] Unnatural Death - Dorothy L. Sayers.epub (index_split_020.html) - Before 1837',
-            "\x{201c}Ha! Well, it\x{2019}s like this,\x{201d} said Mr. Towkington, graciously. \x{201c}<<Before 1837|9n:0>>\x{2014}\x{201d}",
+            "\x{201c}Ha! Well, it\x{2019}s like this,\x{201d} said Mr. Towkington, graciously. \x{201c}<<Before 1837|9:0>>\x{2014}\x{201d}",
+          ],
+          [
+            1,
+            '[> 18:37] Unnatural Death - Dorothy L. Sayers.epub (index_split_020.html) - After 1837',
+            "\x{201c}Precisely. <<After 1837|9e:1>>, in a will, \x{2018}issue\x{2019} means \x{2018}heirs of the body\x{2019}\x{2014}that is to say, \x{2018}issue ad infinitum.\x{2019} In a deed, on the other hand, \x{2018}issue\x{2019} retained its old meaning\x{2014}or lack of meaning, eh, ha! You follow?\x{201d}",
           ],
           [
             1,
@@ -58,6 +63,11 @@ $VAR1 = [
             1,
             '[19:26] Unnatural Death - Dorothy L. Sayers.epub (index_split_020.html) - 1926',
             "\x{201c}Stop!\x{201d} said Mr. Towkington, \x{201c}issue of the child or children of the deceased certainly meant \x{2018}issue ad infinitum\x{2019}\x{2014}but\x{2014}issue of any person not a child of the deceased only meant the child of that person and did not include other descendants. And that undoubtedly held good till <<1926|9c:0>>. And since the new Act contains no statement to the contrary, I think we must presume that it continues to hold good. Ha! Come now! In the case before us, you observe that the claimant is not the child of the deceased nor issue of the child of the deceased; nor is she the child of the deceased\x{2019}s sister. She is merely the grandchild of the deceased sister of the deceased. Accordingly, I think she is debarred from inheriting under the new Act, eh? ha!\x{201d}",
+          ],
+          [
+            1,
+            '[> 19:25] Unnatural Death - Dorothy L. Sayers.epub (index_split_020.html) - after 1925',
+            "\x{201c}And moreover,\x{201d} went on Mr. Towkington, \x{201c}<<after 1925|9e:1>>, \x{2018}issue\x{2019} in a will or deed does not mean \x{2018}issue ad infinitum.\x{2019} That at least is clearly stated, and the Wills Act of 1837 is revoked on that point. Not that that has any direct bearing on the question. But it may be an indication of the tendency of modern interpretation, and might possibly affect the mind of the court in deciding how the word \x{2018}issue\x{2019} was to be construed for the purposes of the new Act.\x{201d}",
           ],
           [
             1,
@@ -107,7 +117,7 @@ $VAR1 = [
           [
             1,
             '[ap 03:00] Unnatural Death - Dorothy L. Sayers.epub (index_split_030.html) - three',
-            "\x{201c}Dear, dear! Well, the girl\x{2019}s well out of it. Hullo! there\x{2019}s the phone. Who on earth\x{2014}? Some damned thing at the Yard, I suppose. At <<three|9m:0>> ack emma! Who\x{2019}d be a policeman?\x{2014}Yes?\x{2014}Oh!\x{2014}right, I\x{2019}ll come round. The case has gone west, Peter.\x{201d}",
+            "\x{201c}Dear, dear! Well, the girl\x{2019}s well out of it. Hullo! there\x{2019}s the phone. Who on earth\x{2014}? Some damned thing at the Yard, I suppose. At <<three|9t:0>> ack emma! Who\x{2019}d be a policeman?\x{2014}Yes?\x{2014}Oh!\x{2014}right, I\x{2019}ll come round. The case has gone west, Peter.\x{201d}",
           ],
           [
             1,

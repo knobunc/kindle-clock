@@ -78,13 +78,13 @@ $VAR1 = [
             '[ap 03:00] The Sun Chemist - Lionel Davidson.epub (OPS/9780571287031_chapter_05.html) - three',
             "\x{2018}I can\x{2019}t have dinner with you tonight.\x{2019}
 \x{2018}For lunch I\x{2019}m busy. See me at <<three|9c:1>>.\x{2019}
-\x{2018}At <<three|9m:0>> I am going to see a muscle machine.\x{2019}",
+\x{2018}At <<three|9t:0>> I am going to see a muscle machine.\x{2019}",
           ],
           [
             1,
             '[ap 03:00] The Sun Chemist - Lionel Davidson.epub (OPS/9780571287031_chapter_05.html) - three',
             "\x{2018}For lunch I\x{2019}m busy. See me at <<three|9c:1>>.\x{2019}
-\x{2018}At <<three|9m:0>> I am going to see a muscle machine.\x{2019}
+\x{2018}At <<three|9t:0>> I am going to see a muscle machine.\x{2019}
 \x{2018}So you\x{2019}ll see it another time.\x{2019}",
           ],
           [
@@ -95,7 +95,7 @@ $VAR1 = [
           [
             1,
             '[ap 00:00] The Sun Chemist - Lionel Davidson.epub (OPS/9780571287031_chapter_05.html) - twelve',
-            "We didn\x{2019}t. At <<twelve|9m:1>>, it broke up, and I took a taxi back alone. Marta was sleeping at Connie\x{2019}s.",
+            "We didn\x{2019}t. At <<twelve|9e>>, it broke up, and I took a taxi back alone. Marta was sleeping at Connie\x{2019}s.",
           ],
           [
             1,
@@ -197,6 +197,13 @@ I looked at my watch. In some way it had become <<7 p.m.|5>>
             1,
             '[05:00] The Sun Chemist - Lionel Davidson.epub (OPS/9780571287031_chapter_08.html) - Lauds',
             'The Patriarch went below to put the doll back in the cave while <<Lauds|13>> went on. They went on for a long time. It was <<after two|3b>> when we streamed out.',
+          ],
+          [
+            1,
+            '[~ 19:10] The Sun Chemist - Lionel Davidson.epub (OPS/9780571287031_chapter_09.html) - about 1910',
+            "\x{2018}When did his dyestuff work go on till?\x{2019}
+\x{2018}Oh, <<about 1910|9:0>>.\x{2019}
+\x{2018}And when did it start?\x{2019}",
           ],
           [
             1,

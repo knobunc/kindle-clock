@@ -27,7 +27,7 @@ $VAR1 = [
           [
             1,
             '[ap 06:30] Gorky Park - Martin Cruz Smith.epub (OEBPS/Smit_9780307809797_epub_c01_r1.htm) - 0630',
-            'At <<0630|9m:0>>, a militiaman making his rounds of the southwest corner of Gorky Park found what appeared to be three bodies in a clearing app. 40 meters north of the footpath on a line with Donskoy Street and the river. At <<0730|9m:0>>, militia officers, officers of State Security and this investigator examined three frozen bodies.',
+            'At <<0630|9e>>, a militiaman making his rounds of the southwest corner of Gorky Park found what appeared to be three bodies in a clearing app. 40 meters north of the footpath on a line with Donskoy Street and the river. At <<0730|9e>>, militia officers, officers of State Security and this investigator examined three frozen bodies.',
           ],
           [
             1,
@@ -82,7 +82,7 @@ $VAR1 = [
           [
             1,
             '[20:10] Gorky Park - Martin Cruz Smith.epub (OEBPS/Smit_9780307809797_epub_c12_r1.htm) - twenty-ten',
-            "There was a snort of disgust on the other end, and then a long silence before the voice came back on. \x{201c}At <<twenty-ten|9:0>>, a call was placed from public phone 90-28-25 to 45-77-02.\x{201d}",
+            "There was a snort of disgust on the other end, and then a long silence before the voice came back on. \x{201c}At <<twenty-ten|9e:0>>, a call was placed from public phone 90-28-25 to 45-77-02.\x{201d}",
           ],
           [
             1,
@@ -157,6 +157,6 @@ $VAR1 = [
           [
             1,
             '[ap 01:00] Gorky Park - Martin Cruz Smith.epub (OEBPS/Smit_9780307809797_epub_c24_r1.htm) - one',
-            'The road seemed to deliberately meander through the trees. At <<one|9m:0>> curve the tracks they were following divided into two separate tracks. One earlier car had continued on the road; another had veered off, making its own path through brush.',
+            'The road seemed to deliberately meander through the trees. At <<one|9t:0>> curve the tracks they were following divided into two separate tracks. One earlier car had continued on the road; another had veered off, making its own path through brush.',
           ],
         ];

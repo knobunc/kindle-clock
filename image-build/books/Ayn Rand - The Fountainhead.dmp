@@ -17,7 +17,7 @@ $VAR1 = [
           [
             1,
             '[ap > 06:00] The Fountainhead - Ayn Rand.epub (OEBPS/rand_9781101137185_oeb_c04_r1.html) - Shortly after six',
-            '<<Shortly after six|9:0>>, Davis departed furtively from the empty drafting room, leaving Keating at his table.',
+            '<<Shortly after six|9e:1>>, Davis departed furtively from the empty drafting room, leaving Keating at his table.',
           ],
           [
             1,
@@ -151,7 +151,7 @@ $VAR1 = [
           [
             1,
             '[20:06] The Fountainhead - Ayn Rand.epub (OEBPS/rand_9781101137185_oeb_c28_r1.html) - twenty-six',
-            'She stood slumped, her body thin and curveless. She wore a skirt of expensive tweed, unpressed. She had smeared some make-up on her face; the skin showed lifeless under the patches of powder. At <<twenty-six|9:0>> she looked like a woman trying to hide the fact of being over thirty.',
+            'She stood slumped, her body thin and curveless. She wore a skirt of expensive tweed, unpressed. She had smeared some make-up on her face; the skin showed lifeless under the patches of powder. At <<twenty-six|9e:0>> she looked like a woman trying to hide the fact of being over thirty.',
           ],
           [
             1,
@@ -197,13 +197,13 @@ $VAR1 = [
             1,
             '[ap 07:00] The Fountainhead - Ayn Rand.epub (OEBPS/rand_9781101137185_oeb_c35_r1.html) - seven',
             "\x{201c}What time did you get up today?\x{201d} she asked.
-\x{201c}At <<seven|9m:1>>.\x{201d}
+\x{201c}At <<seven|9t:1>>.\x{201d}
 \x{201c}I was in New York then. In a cab, going to Grand Central. Where did you have breakfast?\x{201d}",
           ],
           [
             1,
             '[20:06] The Fountainhead - Ayn Rand.epub (OEBPS/rand_9781101137185_oeb_c36_r1.html) - twenty-six',
-            'It was not a formal meeting of the Council of American Writers, but an unofficial gathering. Ike had asked a few of his friends to listen to his latest work. At <<twenty-six|9:0>> he had written eleven plays, but had never had one produced.',
+            'It was not a formal meeting of the Council of American Writers, but an unofficial gathering. Ike had asked a few of his friends to listen to his latest work. At <<twenty-six|9e:0>> he had written eleven plays, but had never had one produced.',
           ],
           [
             1,

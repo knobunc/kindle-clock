@@ -22,7 +22,7 @@ $VAR1 = [
           [
             1,
             '[19:43] The Strange Case of Dr. Couney_ How a Myst - Dawn Raffel.epub (OEBPS/xhtml/19_The_March_of_Science_.xhtml) - 1943',
-            "We found the museum across the street from the new Luna Park, with its whirling, lose-your-lunch rides and its whack-a-moles and its paper-cup pi\x{f1}a coladas. Upstairs from the museum\x{2019}s first-floor \x{201c}freak bar\x{201d} were a couple of rooms full of artifacts from the heyday of America\x{2019}s trippy playground. Photographs and reproductions. Funhouse mirrors. Now you\x{2019}re fat, now you\x{2019}re tall. You\x{2019}ve lost all perspective. Something knocked me for a loop. Coney Island had an incubator sideshow. This wasn\x{2019}t a special event like the Century of Progress. It lasted forty years, until <<1943|9n:0>>. How was that even possible? And then I saw the name of the doctor in charge of this thing.",
+            "We found the museum across the street from the new Luna Park, with its whirling, lose-your-lunch rides and its whack-a-moles and its paper-cup pi\x{f1}a coladas. Upstairs from the museum\x{2019}s first-floor \x{201c}freak bar\x{201d} were a couple of rooms full of artifacts from the heyday of America\x{2019}s trippy playground. Photographs and reproductions. Funhouse mirrors. Now you\x{2019}re fat, now you\x{2019}re tall. You\x{2019}ve lost all perspective. Something knocked me for a loop. Coney Island had an incubator sideshow. This wasn\x{2019}t a special event like the Century of Progress. It lasted forty years, until <<1943|9:0>>. How was that even possible? And then I saw the name of the doctor in charge of this thing.",
           ],
           [
             1,
@@ -32,7 +32,7 @@ $VAR1 = [
           [
             1,
             '[20:05] The Strange Case of Dr. Couney_ How a Myst - Dawn Raffel.epub (OEBPS/xhtml/22_The_President_Has_Bee.xhtml) - twenty-five',
-            'At <<twenty-five|9:0>>, Maye could have seen her future and not liked the way it looked. Spinster. Dreary halls of overcrowded hospitals that were never entirely clean. Doctors snapping orders, even when she knew more about a particular patient than they did. Every day, growing more invisible. Trapped.',
+            'At <<twenty-five|9e:0>>, Maye could have seen her future and not liked the way it looked. Spinster. Dreary halls of overcrowded hospitals that were never entirely clean. Doctors snapping orders, even when she knew more about a particular patient than they did. Every day, growing more invisible. Trapped.',
           ],
           [
             1,
@@ -42,7 +42,7 @@ $VAR1 = [
           [
             1,
             '[19:02] The Strange Case of Dr. Couney_ How a Myst - Dawn Raffel.epub (OEBPS/xhtml/26_The_Crime_of_the_Deca.xhtml) - 1902',
-            "Martin saw it coming. He had warned them, had he not? Never would something like this have happened on his watch. Sam had been invited to make their pitch for the concession in St. Louis all the way back in \x{2019}01, before their Buffalo troubles. By <<1902|9n:0>>, the concessions committee was sold on the idea of an incubator show. But rather than award the contract to people who knew how to run it, they were shopping around. For all Martin knew, they intended to give it to Edward Bayliss from the beginning. The master of disaster: the Battle of Manila, the Great Fire at Dawson City. Bayliss was local to St. Louis, well connected.",
+            "Martin saw it coming. He had warned them, had he not? Never would something like this have happened on his watch. Sam had been invited to make their pitch for the concession in St. Louis all the way back in \x{2019}01, before their Buffalo troubles. By <<1902|9e:1>>, the concessions committee was sold on the idea of an incubator show. But rather than award the contract to people who knew how to run it, they were shopping around. For all Martin knew, they intended to give it to Edward Bayliss from the beginning. The master of disaster: the Battle of Manila, the Great Fire at Dawson City. Bayliss was local to St. Louis, well connected.",
           ],
           [
             1,
@@ -62,7 +62,7 @@ $VAR1 = [
           [
             1,
             '[19:02] The Strange Case of Dr. Couney_ How a Myst - Dawn Raffel.epub (OEBPS/xhtml/29_All_the_Pretty_Preemi.xhtml) - 1902',
-            "Chicago was arguably the cradle of American neonatology. Dr. Joseph Bolivar DeLee had founded the city\x{2019}s Lying-in Hospital in 1895 \x{201c}to succor poor women during confinement.\x{201d} By 1899, the year after the eminent Dr. Martin Coun\x{e9}y made his debut in Omaha, DeLee had two Lion-type incubators; by <<1902|9n:0>>, he had four. But he struggled constantly for funding, relying on women\x{2019}s charities to keep the obstetrics ward afloat. The primary goal was to prevent mothers from dying in childbirth. He would end up turning his incubators over to a colleague, Dr. Isaac Abt, who founded Sarah Morris Children\x{2019}s Hospital in 1913. Isaac Abt did what he could\x{2014}which, given his very limited resources, was nowhere near enough.",
+            "Chicago was arguably the cradle of American neonatology. Dr. Joseph Bolivar DeLee had founded the city\x{2019}s Lying-in Hospital in 1895 \x{201c}to succor poor women during confinement.\x{201d} By 1899, the year after the eminent Dr. Martin Coun\x{e9}y made his debut in Omaha, DeLee had two Lion-type incubators; by <<1902|9e:1>>, he had four. But he struggled constantly for funding, relying on women\x{2019}s charities to keep the obstetrics ward afloat. The primary goal was to prevent mothers from dying in childbirth. He would end up turning his incubators over to a colleague, Dr. Isaac Abt, who founded Sarah Morris Children\x{2019}s Hospital in 1913. Isaac Abt did what he could\x{2014}which, given his very limited resources, was nowhere near enough.",
           ],
           [
             1,
@@ -117,12 +117,17 @@ $VAR1 = [
           [
             1,
             '[19:02] The Strange Case of Dr. Couney_ How a Myst - Dawn Raffel.epub (OEBPS/xhtml/59_Notes.xhtml) - 1902',
-            "DeLee had two Lion-type incubators; by <<1902|9n:0>>, he had four: Lawrence M. Gartner and Carol B. Gartner, \x{201c}The Care of Premature Infants: A Historical Perspective,\x{201d} in Neonatal Intensive Care: A History of Excellence, A Symposium Commemorating Child Health Day, NIH Publication No. 92-2786 (Bethesda, MD: National Institutes of Health, 1992), p. 5, http://www.neonatology.org/classics/nic.nih1985.pdf.",
+            "DeLee had two Lion-type incubators; by <<1902|9e:1>>, he had four: Lawrence M. Gartner and Carol B. Gartner, \x{201c}The Care of Premature Infants: A Historical Perspective,\x{201d} in Neonatal Intensive Care: A History of Excellence, A Symposium Commemorating Child Health Day, NIH Publication No. 92-2786 (Bethesda, MD: National Institutes of Health, 1992), p. 5, http://www.neonatology.org/classics/nic.nih1985.pdf.",
           ],
           [
             1,
             '[> 19:40] The Strange Case of Dr. Couney_ How a Myst - Dawn Raffel.epub (OEBPS/xhtml/59_Notes.xhtml) - after 1940',
             "Later, he could have added Sir Winston Churchill: In writing about Martin Couney\x{2019}s show, L. Joseph Butterfield added Churchill to the list of prominent preemies, although I have not found an original source of Couney himself having done so\x{2014}possibly because he received almost no publicity <<after 1940|18:0>>.",
+          ],
+          [
+            1,
+            '[~ 19:22] The Strange Case of Dr. Couney_ How a Myst - Dawn Raffel.epub (OEBPS/xhtml/59_Notes.xhtml) - around 1922',
+            "The business was owned solely by the \x{201c}family\x{201d}: A sworn statement by Louise Recht (treasurer), dated May 28, 1936, within the 1936 probate file of Annabelle Maye Couney attests that all shares of the Infant Incubator Company passed to the shareholders cited \x{201c}<<around 1922|9:0>>.\x{201d} Kings County Surrogate Court Archive.",
           ],
           [
             1,

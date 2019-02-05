@@ -117,7 +117,7 @@ $VAR1 = [
   suits, uniforms. No matter where they went, there it was, each time her father was mentioned. She
   could smell it and taste it. She just couldnt spell or understand it. When she asked her mother
   what it meant, she was told that it wasnt important, that she shouldnt worry about such things.
-  At <<one|9m:1>> boardinghouse, there was a healthier woman who tried to teach the children to write, using
+  At <<one|9t:1>> boardinghouse, there was a healthier woman who tried to teach the children to write, using
   charcoal on the wall. Liesel was tempted to ask her the meaning, but it never eventuated. One
   day, that woman was taken away for questioning. She didnt come back.
 
@@ -2706,7 +2706,7 @@ $VAR1 = [
 
   If youre the type whos interested, yes, there were a few girls in those years. One named Tania,
   the other Hildi. Neither of them lasted. There was no time, most likely due to the uncertainty
-  and mounting pressure. Max needed to scavenge for work. What could he offer those girls? By <<1938|9n:0>>,
+  and mounting pressure. Max needed to scavenge for work. What could he offer those girls? By <<1938|9e:1>>,
   it was difficult to imagine that life could get any harder.
 
   
@@ -5957,8 +5957,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[09:00] The Book Thief - Markus Zusak.epub (OEBPS/text/content077.xhtml) - 9 A.M.',
-            'THE BASEMENT, <<9 A.M.|5>>
+            '[09:00] The Book Thief - Markus Zusak.epub (OEBPS/text/content077.xhtml) - 9 A.M',
+            'THE BASEMENT, <<9 A.M|5>>.
 
   Six hours till goodbye:
 
@@ -6190,8 +6190,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[13:00] The Book Thief - Markus Zusak.epub (OEBPS/text/content077.xhtml) - 1 P.M.',
-            'THE KITCHEN: <<1 P.M.|5>>
+            '[13:00] The Book Thief - Markus Zusak.epub (OEBPS/text/content077.xhtml) - 1 P.M',
+            'THE KITCHEN: <<1 P.M|5>>.
 
   Two hours till goodbye: Dont go, Papa. Please.
 
@@ -6211,8 +6211,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[15:00] The Book Thief - Markus Zusak.epub (OEBPS/text/content077.xhtml) - 3 P.M.',
-            'THE TRAIN STATION, <<3 P.M.|5>>
+            '[15:00] The Book Thief - Markus Zusak.epub (OEBPS/text/content077.xhtml) - 3 P.M',
+            'THE TRAIN STATION, <<3 P.M|5>>.
 
   No hours, no minutes till goodbye:
 

@@ -141,6 +141,11 @@ Although most C pitfalls appear in C++ as well, they are less important in C++ t
           ],
           [
             1,
+            '[ap 01:11] Handbook of Programming Languages Volume 1 - Peter H. Salus.epub (564-568.html) - 1.11',
+            "\x{2022}\x{a0}\x{a0}Ada 9X Basic: This is the subset of tests from ACVC <<1.11|5a:0>> after removal of tests not applicable to Ada 95. These tests focus on support expected from Ada for features of Ada 83 that have been updated to be compatible with revised rules.",
+          ],
+          [
+            1,
             '[ap 02:01] Handbook of Programming Languages Volume 1 - Peter H. Salus.epub (568-570.html) - 2.01',
             'Tables 10.1 and 10.2, quoted from the VCL with minor reformatting, show the actual ACVC <<2.01|5a:0>> test profile run in March 1997, for the GNU Ada 95 (GNAT) compiler under Solaris.',
           ],
@@ -164,7 +169,7 @@ are integer expressions, computing the quotient and the remainder respectively. 
             'green 56.00
    blue 25.00
    gren <<20.00|5a:0>>
-   black -<<20.00|5a:0>>
+   black -20.00
 
 
 the command show_exception bad.dat results in',
@@ -184,6 +189,32 @@ returns a value corresponding to <<midnight|13>> at the start of July 29, 1997. 
           ],
           [
             1,
+            '[ap 00:15] Handbook of Programming Languages Volume 1 - Peter H. Salus.epub (626-629.html) - 12:15',
+            'Speed         : 45 Miles per Hour
+   Fuel          : 60 %
+   Water         : <****************....>
+   Oil           : <******..............>
+   Time          : <<12:15|2>>:00
+   Chronometer    : <<79976>>
+
+
+using the following type hierarchy:',
+          ],
+          [
+            1,
+            '[ap 00:15] Handbook of Programming Languages Volume 1 - Peter H. Salus.epub (634-636.html) - 12:15',
+            'Speed         : 45 Miles per Hour
+   Fuel          : 60 %
+   Water         : <****************....>
+   Oil           : <******..............>
+   Time          : <<12:15|2>>:00
+   Chronometer   : <<79976>>
+
+
+10.4.3.6. Comments on Pointers in Ada',
+          ],
+          [
+            1,
             '[17:00] Handbook of Programming Languages Volume 1 - Peter H. Salus.epub (653-656.html) - 5 PM',
             'while the time is earlier than <<5 PM|5>> loop
      ...
@@ -195,7 +226,7 @@ and the task would terminate <<just after 5 p.m.|10>> The disadvantage here is t
           [
             1,
             '[20:00] Handbook of Programming Languages Volume 1 - Peter H. Salus.epub (about_split_001.html) - 1960',
-            'Just over 40 years ago there were no programming languages. In 1954 programming was still a function of hardware. Fortran was invented in 1957. It was soon being taught. By <<1960|9n:0>>, not only had COBOL and Lisp joined the roster, but so had others, many now thankfully forgotten. Over the past 40 years, nearly 4,000 computer languages have been produced. Only a tithe of these are in use today, but the growth and development of them has been progressive and organic.',
+            'Just over 40 years ago there were no programming languages. In 1954 programming was still a function of hardware. Fortran was invented in 1957. It was soon being taught. By <<1960|9e:1>>, not only had COBOL and Lisp joined the roster, but so had others, many now thankfully forgotten. Over the past 40 years, nearly 4,000 computer languages have been produced. Only a tithe of these are in use today, but the growth and development of them has been progressive and organic.',
           ],
           [
             1,

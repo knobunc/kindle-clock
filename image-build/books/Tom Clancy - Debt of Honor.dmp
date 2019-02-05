@@ -186,6 +186,11 @@ $VAR1 = [
           ],
           [
             1,
+            '[01:00] Debt of Honor - Tom Clancy.epub (OEBPS/part16.xhtml) - one of the morning',
+            "\x{201c}I had to do <<one of the morning|5>> shows.\x{201d} Jack checked his watch. I'll be on in another twenty minutes or so.\"",
+          ],
+          [
+            1,
             '[ap > 05:00] Debt of Honor - Tom Clancy.epub (OEBPS/part16.xhtml) - After five',
             'The street was busy, even in the late evening. 
     
@@ -668,7 +673,7 @@ $VAR1 = [
     
      Guam
     
-    . As you know from your history, and indeed as some of the older citizens on this island well remember, until <<1944|9n:0>> the 
+    . As you know from your history, and indeed as some of the older citizens on this island well remember, until <<1944|9:0>> the 
     
      Mariana Islands
     
@@ -779,7 +784,7 @@ $VAR1 = [
           [
             1,
             '[ap 01:00] Debt of Honor - Tom Clancy.epub (OEBPS/part22_split_002.xhtml) - one',
-            'The looks on all the faces troubled George Winston. At <<one|9m:0>> level the men and women who determined policy for the Columbus Group were physically exhausted. At another they were panicked. It was the third that caused him the most pain: the degree of hope they showed at his presence, as though he were Jesus come to clean out the temple. It wasn\'t supposed to be this way. No one man was supposed to have that sort of power. The American economy was too vast. Too many people depended on it. Most of all, it was too complex for one man or even twenty to comprehend it all. That was the problem with the models that everyone depended on. Sooner or later it came down to trying to gauge and measure and regulate something that simply was. It existed. It worked. It functioned. People needed it, but nobody really knew how it worked. The Marxists\' illusion that they did know had been their fundamental flaw. The Soviets had spent three generations trying to command an economy to work instead of just letting it go on its own, and had ended up beggars in the world\'s richest nation. And it was not so different here. Instead of controlling it, they tried to live off it, but in both cases you had to have the illusion that you understood it. And nobody did, except in the broadest sense.',
+            'The looks on all the faces troubled George Winston. At <<one|9t:0>> level the men and women who determined policy for the Columbus Group were physically exhausted. At another they were panicked. It was the third that caused him the most pain: the degree of hope they showed at his presence, as though he were Jesus come to clean out the temple. It wasn\'t supposed to be this way. No one man was supposed to have that sort of power. The American economy was too vast. Too many people depended on it. Most of all, it was too complex for one man or even twenty to comprehend it all. That was the problem with the models that everyone depended on. Sooner or later it came down to trying to gauge and measure and regulate something that simply was. It existed. It worked. It functioned. People needed it, but nobody really knew how it worked. The Marxists\' illusion that they did know had been their fundamental flaw. The Soviets had spent three generations trying to command an economy to work instead of just letting it go on its own, and had ended up beggars in the world\'s richest nation. And it was not so different here. Instead of controlling it, they tried to live off it, but in both cases you had to have the illusion that you understood it. And nobody did, except in the broadest sense.',
           ],
           [
             1,
@@ -907,7 +912,7 @@ $VAR1 = [
           [
             1,
             '[ap 01:00] Debt of Honor - Tom Clancy.epub (OEBPS/part22_split_003.xhtml) - one',
-            "\x{201c}Sir, it's like this: there're maybe twenty or thirty people over there who really run things, okay? Yamata is the biggest fish in that lake. The Ministry of International Trade and Industry is the interface between the big boys in the corporate arena and the government, plus the way they grease the skids themselves with elected officials, and they do a lot of that stuff. It's one of the things Yamata liked to show off when we negotiated his takeover of my Group. At <<one|9m:0>> party there were two ministers and a bunch of parliamentary guys, and their noses got real brown, y'know?\x{201d} Winston reflected that at the time he'd thought it a good demeanor for elected officials. Now he wasn't quite so sure.",
+            "\x{201c}Sir, it's like this: there're maybe twenty or thirty people over there who really run things, okay? Yamata is the biggest fish in that lake. The Ministry of International Trade and Industry is the interface between the big boys in the corporate arena and the government, plus the way they grease the skids themselves with elected officials, and they do a lot of that stuff. It's one of the things Yamata liked to show off when we negotiated his takeover of my Group. At <<one|9t:0>> party there were two ministers and a bunch of parliamentary guys, and their noses got real brown, y'know?\x{201d} Winston reflected that at the time he'd thought it a good demeanor for elected officials. Now he wasn't quite so sure.",
           ],
           [
             1,

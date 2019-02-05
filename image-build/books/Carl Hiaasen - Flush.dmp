@@ -6,8 +6,8 @@ $VAR1 = [
           ],
           [
             1,
-            "[~ 12:00] Flush - Carl Hiaasen.epub (OEBPS/Hiaa_9780375837524_epub_c05_r1.htm) - \x{2018}round noon",
-            "\x{201c}We definitely got us a deal,\x{201d} he said. \x{201c}I\x{2019}ll be back with Shelly and the Jeep to pick it up\x{2014}say tomorrow <<\x{2018}round noon|13>>?\x{201d}",
+            '[~ 12:00] Flush - Carl Hiaasen.epub (OEBPS/Hiaa_9780375837524_epub_c05_r1.htm) - round noon',
+            "\x{201c}We definitely got us a deal,\x{201d} he said. \x{201c}I\x{2019}ll be back with Shelly and the Jeep to pick it up\x{2014}say tomorrow \x{2018}<<round noon|13>>?\x{201d}",
           ],
           [
             1,
@@ -104,6 +104,11 @@ She winced. \x{201c}A.M.? You gotta be kiddin\x{2019} me.\x{201d}",
             1,
             '[08:00] Flush - Carl Hiaasen.epub (OEBPS/Hiaa_9780375837524_epub_c16_r1.htm) - eight in the morning',
             "I was happy to share the juice box, even though I usually can\x{2019}t stand fruit punch. When you\x{2019}re thirsty enough, you\x{2019}ll drink just about anything. It was only <<eight in the morning|5>>, and we were already damp with sweat. That\x{2019}s your basic July in the Florida Keys. By <<noon|13>>, I knew, we\x{2019}d be in rough shape.",
+          ],
+          [
+            1,
+            '[01:00] Flush - Carl Hiaasen.epub (OEBPS/Hiaa_9780375837524_epub_c16_r1.htm) - one of the morning',
+            "A small airplane passed overhead\x{2014}the third <<one of the morning|5>>\x{2014}and we both stood up to wave. The plane circled once and then flew off, dashing our hopes again. From that altitude the dinghy must have looked like a blue dot on blue paper.",
           ],
           [
             1,

@@ -70,6 +70,11 @@ Type qualifiers are distinct from storage classes because, in complex pointer de
           ],
           [
             1,
+            '[ap 01:00] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (113-115.html) - 1',
+            "The bitwise operators are commonly used to encode a set of 1-bit flags within an integer. The expression flags = flags | 0x10 sets the fifth bit from the right in flags to 1 (whether it was 1 or not). The expression flags = flags & ~0x10 clears the fifth bit to 0. (The expression ~0x10 is preferable in this application to 0xffef or 0xffffffef because it is independent of the size of an int.) The expression flags & 0x10 tests the fifth bit, yielding a zero value if the fifth bit is 0 and a nonzero value if it is <<1|9c:0>>, and can therefore be used directly in conditionals, as in if(flags & 0x10) \x{2026}. It is also possible to construct bit masks \x{201c}on the fly\x{201d} by using the shift operators: the mask 0x10 could be computed from its (0-based) bit number using 0x01 << 4.",
+          ],
+          [
+            1,
             '[23:59] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (113-115.html) - 1 to 0',
             "The exclusive-OR operator ^ has an \x{201c}information preserving\x{201d} property (roughly speaking, it changes as many 0\x{2019}s to 1\x{2019}s as it changes 1\x{2019}s to 0\x{2019}s), which makes it useful in several situations. Returning to the bit flags example, the expression flags = flags ^ 0x10 toggles the fifth bit from 0 to 1 or from <<1 to 0|10a:0>>. If val is a data value and key is an encryption key, the expression xval = val ^ key yields a scrambled value xval with the property that the original value can be recovered simply by computing xval ^ key. (This rudimentary example has almost no security, but it forms the basis of many useful encryption algorithms, especially those that are self inverse.) If val1, val2, and val3 are three values that are to be transmitted via an unreliable communications channel, the expression val4x = val1 ^ val2 ^ val3 computes a fourth value, which, if it is transmitted along with the first three, can be used to recover any of them. For example, if it is discovered that val2 was damaged in transit, the expression val1 ^ val3 ^ val4x recovers val2.",
           ],
@@ -2277,23 +2282,6 @@ program fig49; uses dos;
           ],
           [
             1,
-            '[ap 04:55] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (340-343.html) - 5 to 5',
-            "every i :=  \x{2013}<<5 to 5|10a:0>> do
-       write(i)
-
-
-writes \x{2013}5, \x{2013}4, \x{2026} \x{2013}1, 0, 1, \x{2026} 4, 5.",
-          ],
-          [
-            1,
-            '[ap 04:55] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (340-343.html) - 5 to 5',
-            "every write(\x{2013}<<5 to 5|10a:1>>)
-
-
-The function seq(i, j) generates an infinite sequence of integers, starting at i and incrementing by increments of j. If i or j is omitted, it defaults to 1. Thus, seq() generates the positive integers.",
-          ],
-          [
-            1,
             '[ap 02:59] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (340-343.html) - 1 to 3',
             'This can be useful for producing sequences, as in
 |(<<1 to 3|10a:0>>)
@@ -2306,6 +2294,11 @@ which generates 1, 2, 3, 1, 2, 3,  and so on.
             1,
             '[ap 01:00] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (346-348.html) - 1',
             'Positions in strings are between characters, numbered starting at <<1|9g>> before the first character, and there is a position after the last character, as shown by this example:',
+          ],
+          [
+            1,
+            '[00:00] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (346-348.html) - 0',
+            'There also are nonpositive position specifications starting at <<0|9g>> after the last character and decreasing toward the left:',
           ],
           [
             1,
@@ -2492,7 +2485,7 @@ All that remains is a concatenation with colons added as separators:
           [
             1,
             '[20:00] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (about_split_001.html) - 1960',
-            'Just over 40 years ago there were no programming languages. In 1954 programming was still a function of hardware. Fortran was invented in 1957. It was soon being taught. By <<1960|9n:0>>, not only had COBOL and Lisp joined the roster, but so had others, many now thankfully forgotten. Over the past 40 years, nearly 4,000 computer languages have been produced. Only a tithe of these are in use today, but the growth and development of them has been progressive and organic.',
+            'Just over 40 years ago there were no programming languages. In 1954 programming was still a function of hardware. Fortran was invented in 1957. It was soon being taught. By <<1960|9e:1>>, not only had COBOL and Lisp joined the roster, but so had others, many now thankfully forgotten. Over the past 40 years, nearly 4,000 computer languages have been produced. Only a tithe of these are in use today, but the growth and development of them has been progressive and organic.',
           ],
           [
             1,

@@ -191,8 +191,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[02:00] Fear and Loathing on the Campaign Trail \'7 - Hunter S. Thompson.epub (CR!V8DG8CF4WX79FB5H9V6V95KRVC7J_split_042.html) - two in the morning',
-            "\x{2022} Signs, which have the same effect as palm cards. A totally befuddled voter may look at a Vote for McGovern sign and do just that. McGovern volunteers began putting up signs outside polling places at <<two in the morning|5>> of election day; rival pols had little time to pull them down.",
+            '[02:00] Fear and Loathing on the Campaign Trail \'7 - Hunter S. Thompson.epub (CR!V8DG8CF4WX79FB5H9V6V95KRVC7J_split_042.html) - two in the morning of election day',
+            "\x{2022} Signs, which have the same effect as palm cards. A totally befuddled voter may look at a Vote for McGovern sign and do just that. McGovern volunteers began putting up signs outside polling places at <<two in the morning of election day|5>>; rival pols had little time to pull them down.",
           ],
           [
             1,
@@ -238,6 +238,11 @@ $VAR1 = [
             1,
             '[ap 00:51] Fear and Loathing on the Campaign Trail \'7 - Hunter S. Thompson.epub (CR!V8DG8CF4WX79FB5H9V6V95KRVC7J_split_045.html) - nine to one',
             "He turned to Mankiewicz: \x{201c}It\x{2019}s all over. Listen to this\x{2026}\x{201d} He turned back to the phone: \x{201c}Give that to me again\x{2026} okay, yeah, I\x{2019}m ready.\x{201d} He waited until Mankiewicz got a pencil, then began feeding the figures: \x{201c}A hundred and <<nine to one|10a:0>>! A hundred and <<twenty-seven to three|10a:0>>!\x{2026} Jesus\x{2026}\x{201d}",
+          ],
+          [
+            1,
+            '[~ 19:58] Fear and Loathing on the Campaign Trail \'7 - Hunter S. Thompson.epub (CR!V8DG8CF4WX79FB5H9V6V95KRVC7J_split_045.html) - around 1958',
+            "\x{201c}No maybe about it,\x{201d} I said. \x{201c}I know that stuff. WLAC\x{2026} <<around 1958|9:0>>\x{2026} Jesus Christ, man! That grease is fourteen years old! What are you keeping it for?\x{201d}",
           ],
           [
             1,
@@ -660,6 +665,11 @@ The knock comes at <<7:02|5d>>\x{2014}but instead of Squane it\x{2019}s a beauti
           ],
           [
             1,
+            '[13:00] Fear and Loathing on the Campaign Trail \'7 - Hunter S. Thompson.epub (CR!V8DG8CF4WX79FB5H9V6V95KRVC7J_split_067.html) - one of the afternoon',
+            "A few hundred ex-Muskie/Humphrey/Jackson delegates had lingered long enough to cheer Ted Kennedy\x{2019}s bland speech, but they started drifting away when George came on\x{2014}hurrying out the exits of the air-conditioned hall, into the muggy darkness of the parking lot to fetch up a waiting cab and go back to whichever one of the sixty-five official convention hotels they were staying in\x{2026} hoping to find the tail end of a party or at least one free drink before catching a few hours\x{2019} sleep and then heading back home on <<one of the afternoon|5>> planes: back to St. Louis, Altoona, Butte\x{2026}",
+          ],
+          [
+            1,
             '[ap 08:30] Fear and Loathing on the Campaign Trail \'7 - Hunter S. Thompson.epub (CR!V8DG8CF4WX79FB5H9V6V95KRVC7J_split_067.html) - 8:30',
             "By sundown on Friday the \x{201c}political hotels\x{201d} were almost empty. In the Doral Beach\x{2014}McGovern\x{2019}s ocean-front headquarters hotel\x{2014}Southern Bell Telephone workers were dragging what looked like about five thousand miles of multicolored wires, junction boxes, and cables out of the empty Press/Operations complex on the mezzanine. Down in the lobby, a Cuban wedding (Martinez-Hernandez: <<8:30|2>>-<<10:30|2>>) had taken over the vast, ornately sculptured Banquet Room that ten hours earlier had been jammed with hundreds of young, scruffy-looking McGovern volunteers celebrating the end of one of the longest and most unlikely trips in the history of American politics\x{2026} it was a quiet party, by most Convention standards: free beer for the troops, bring your own grass, guitar-minstrels working out here and there; but not much noise, no whooping & shouting, no madness\x{2026}.",
           ],
@@ -757,11 +767,6 @@ The knock comes at <<7:02|5d>>\x{2014}but instead of Squane it\x{2019}s a beauti
             1,
             '[04:00] Fear and Loathing on the Campaign Trail \'7 - Hunter S. Thompson.epub (CR!V8DG8CF4WX79FB5H9V6V95KRVC7J_split_080.html) - four A.M.',
             "If he wins in November, he will finally be free to do whatever he wants\x{2026} or maybe \x{201c}wants\x{201d} is too strong a word for right now. It conjures up images of Papa Doc, Batista, Somoza; jails full of bewildered \x{201c}political prisoners\x{201d} and the constant cold-sweat fear of jackboots suddenly kicking your door off its hinges at <<four A.M.|5>>",
-          ],
-          [
-            1,
-            '[ap > 07:00] Fear and Loathing on the Campaign Trail \'7 - Hunter S. Thompson.epub (CR!V8DG8CF4WX79FB5H9V6V95KRVC7J_split_080.html) - After seven',
-            "I went out on the campaign trail with Richard Nixon last week\x{2026} Right: <<After seven|9:0>> straight days of savage in-fighting with the White House press office, the bastards finally caved in and let me join up, if only for a few days, with the Presidential Press Corps.",
           ],
           [
             1,

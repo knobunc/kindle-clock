@@ -25,19 +25,19 @@ Official tutorial at https://www.dulwich.io/docs/tutorial has many examples of h
             "\$ git log
 commit ca82a6dff817ec66f44342007202690a93763949
 Author: Scott Chacon <schacon\@gee-mail.com>
-Date:   Mon Mar 17 <<21:52|2>>:11 2008 -<<0700|18:0>>
+Date:   Mon Mar 17 <<21:52|2>>:11 2008 -0700
 
     changed the version number
 
 commit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7
 Author: Scott Chacon <schacon\@gee-mail.com>
-Date:   Sat Mar 15 <<16:40|2>>:33 2008 -<<0700|18:0>>
+Date:   Sat Mar 15 <<16:40|2>>:33 2008 -0700
 
     removed unnecessary test
 
 commit a11bef06a3f659402fe7563abf99ad00de2209e6
 Author: Scott Chacon <schacon\@gee-mail.com>
-Date:   Sat Mar 15 <<10:31|2>>:28 2008 -<<0700|18:0>>
+Date:   Sat Mar 15 <<10:31|2>>:28 2008 -0700
 
     first commit
 
@@ -50,7 +50,7 @@ As you can see, this command lists each commit with its SHA-1 checksum, the auth
             '$ git log -p -2
 commit ca82a6dff817ec66f44342007202690a93763949
 Author: Scott Chacon <schacon@gee-mail.com>
-Date:   Mon Mar 17 <<21:52|2>>:11 2008 -<<0700|18:0>>
+Date:   Mon Mar 17 <<21:52|2>>:11 2008 -0700
 
     changed the version number
 
@@ -70,7 +70,7 @@ index a874b73..8f94139 100644
 
 commit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7
 Author: Scott Chacon <schacon@gee-mail.com>
-Date:   Sat Mar 15 <<16:40|2>>:33 2008 -<<0700|18:0>>
+Date:   Sat Mar 15 <<16:40|2>>:33 2008 -0700
 
     removed unnecessary test
 
@@ -99,7 +99,7 @@ For example, if you want to see some abbreviated stats for each commit, you can 
             '$ git log --stat
 commit ca82a6dff817ec66f44342007202690a93763949
 Author: Scott Chacon <schacon@gee-mail.com>
-Date:   Mon Mar 17 <<21:52|2>>:11 2008 -<<0700|18:0>>
+Date:   Mon Mar 17 <<21:52|2>>:11 2008 -0700
 
     changed the version number
 
@@ -108,7 +108,7 @@ Date:   Mon Mar 17 <<21:52|2>>:11 2008 -<<0700|18:0>>
 
 commit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7
 Author: Scott Chacon <schacon@gee-mail.com>
-Date:   Sat Mar 15 <<16:40|2>>:33 2008 -<<0700|18:0>>
+Date:   Sat Mar 15 <<16:40|2>>:33 2008 -0700
 
     removed unnecessary test
 
@@ -117,7 +117,7 @@ Date:   Sat Mar 15 <<16:40|2>>:33 2008 -<<0700|18:0>>
 
 commit a11bef06a3f659402fe7563abf99ad00de2209e6
 Author: Scott Chacon <schacon@gee-mail.com>
-Date:   Sat Mar 15 <<10:31|2>>:28 2008 -<<0700|18:0>>
+Date:   Sat Mar 15 <<10:31|2>>:28 2008 -0700
 
     first commit
 
@@ -135,13 +135,13 @@ It also puts a summary of the information at the end.',
             '$ git show v1.4
 tag v1.4
 Tagger: Ben Straub <ben@straub.cc>
-Date:   Sat May 3 <<20:19|2>>:12 2014 -<<0700|18:0>>
+Date:   Sat May 3 <<20:19|2>>:12 2014 -0700
 
 my version 1.4
 
 commit ca82a6dff817ec66f44342007202690a93763949
 Author: Scott Chacon <schacon@gee-mail.com>
-Date:   Mon Mar 17 <<21:52|2>>:11 2008 -<<0700|18:0>>
+Date:   Mon Mar 17 <<21:52|2>>:11 2008 -0700
 
     changed the version number
 
@@ -153,7 +153,7 @@ That shows the tagger information, the date the commit was tagged, and the annot
             "\$ git show v1.4-lw
 commit ca82a6dff817ec66f44342007202690a93763949
 Author: Scott Chacon <schacon\@gee-mail.com>
-Date:   Mon Mar 17 <<21:52|2>>:11 2008 -<<0700|18:0>>
+Date:   Mon Mar 17 <<21:52|2>>:11 2008 -0700
 
     changed the version number
 
@@ -177,12 +177,12 @@ v1.5
 \$ git show v1.2
 tag v1.2
 Tagger: Scott Chacon <schacon\@gee-mail.com>
-Date:   Mon Feb 9 <<15:32|2>>:16 2009 -<<0800|18:0>>
+Date:   Mon Feb 9 <<15:32|2>>:16 2009 -0800
 
 version 1.2
 commit 9fceb02d0ae598e95dc970b74767f19372d61af8
 Author: Magnus Chacon <mchacon\@gee-mail.com>
-Date:   Sun Apr 27 <<20:43|2>>:35 2008 -<<0700|18:0>>
+Date:   Sun Apr 27 <<20:43|2>>:35 2008 -0700
 
     updated rakefile
 ...
@@ -251,7 +251,7 @@ When you\x{2019}re done and want to shut down the server, you can run the same c
             "\$ git log --no-merges issue54..origin/master
 commit 738ee872852dfaa9d6634e0dea7a324040193016
 Author: John Smith <jsmith\@example.com>
-Date:   Fri May 29 <<16:01|2>>:27 2009 -<<0700|18:0>>
+Date:   Fri May 29 <<16:01|2>>:27 2009 -0700
 
    remove invalid default value
 
@@ -264,7 +264,7 @@ We\x{2019}ll go over this syntax in detail in Commit Ranges.",
             "\$ git log featureA..origin/featureA
 commit aad881d154acdaeb2b6b18ea0e827ed8a6d671e6
 Author: John Smith <jsmith\@example.com>
-Date:   Fri May 29 <<19:57|2>>:33 2009 -<<0700|18:0>>
+Date:   Fri May 29 <<19:57|2>>:33 2009 -0700
 
     changed log output to 30 from 25
 
@@ -276,7 +276,7 @@ If Jessica likes what she sees, she can merge John\x{2019}s new work into her lo
             "\$ cat 0001-add-limit-to-log-function.patch
 From 330090432754092d704da8e76ca5c05c198e71a8 Mon Sep 17 <<00:00|2>>:00 2001
 From: Jessica Smith <jessica\@example.com>
-Date: Sun, 6 Apr 2008 <<10:17|2>>:23 -<<0700|18:0>>
+Date: Sun, 6 Apr 2008 <<10:17|2>>:23 -0700
 Subject: [PATCH 1/2] add limit to log function
 
 Limit log functionality to the first 20
@@ -314,7 +314,7 @@ Sendmail: /usr/sbin/sendmail -i jessica\@example.com
 From: Jessica Smith <jessica\@example.com>
 To: jessica\@example.com
 Subject: [PATCH 1/2] added limit to log function
-Date: Sat, 30 May 2009 <<13:29|2>>:15 -<<0700|18:0>>
+Date: Sat, 30 May 2009 <<13:29|2>>:15 -0700
 Message-Id: <1243715356-61726-1-git-send-email-jessica\@example.com>
 X-Mailer: git-send-email 1.6.2.rc1.20.g8c5b.dirty
 In-Reply-To: <y>
@@ -334,7 +334,7 @@ You\x{2019}ll learn how to be a benevolent dictator or integration manager.",
             '[00:00] Pro Git - Scott Chacon.epub (OEBPS/ch05-distributed-git.xhtml) - 00:00',
             'From 330090432754092d704da8e76ca5c05c198e71a8 Mon Sep 17 <<00:00|2>>:00 2001
 From: Jessica Smith <jessica@example.com>
-Date: Sun, 6 Apr 2008 <<10:17|2>>:23 -<<0700|18:0>>
+Date: Sun, 6 Apr 2008 <<10:17|2>>:23 -0700
 Subject: [PATCH 1/2] add limit to log function
 
 Limit log functionality to the first 20
@@ -349,9 +349,9 @@ If you run a mail client that can save several emails out in mbox format, you ca
             '$ git log --pretty=fuller -1
 commit 6c5e70b984a60b3cecd395edd5b48a7575bf58e0
 Author:     Jessica Smith <jessica@example.com>
-AuthorDate: Sun Apr 6 <<10:17|2>>:23 2008 -<<0700|18:0>>
+AuthorDate: Sun Apr 6 <<10:17|2>>:23 2008 -0700
 Commit:     Scott Chacon <schacon@gmail.com>
-CommitDate: Thu Apr 9 <<09:19|2>>:06 2009 -<<0700|18:0>>
+CommitDate: Thu Apr 9 <<09:19|2>>:06 2009 -0700
 
    add limit to log function
 
@@ -381,13 +381,13 @@ You solve this issue much the same way\x{2009}\x{2014}\x{2009}edit the file to r
             '$ git log contrib --not master
 commit 5b6235bd297351589efc4d73316f0a68d484f118
 Author: Scott Chacon <schacon@gmail.com>
-Date:   Fri Oct 24 <<09:53|2>>:59 2008 -<<0700|18:0>>
+Date:   Fri Oct 24 <<09:53|2>>:59 2008 -0700
 
     seeing if this helps the gem
 
 commit 7482e0d16d04bea79d0dba8988cc78df655f16a0
 Author: Scott Chacon <schacon@gmail.com>
-Date:   Mon Oct 22 <<19:38|2>>:36 2008 -<<0700|18:0>>
+Date:   Mon Oct 22 <<19:38|2>>:36 2008 -0700
 
     updated the gemspec to hopefully work better
 
@@ -406,20 +406,20 @@ For instance, the Linux kernel recently jumped from <<8 to 10|10a:0>> characters
             "\$ git log
 commit 734713bc047d87bf7eac9674765ae793478c50d3
 Author: Scott Chacon <schacon\@gmail.com>
-Date:   Fri Jan 2 <<18:32|2>>:33 2009 -<<0800|18:0>>
+Date:   Fri Jan 2 <<18:32|2>>:33 2009 -0800
 
     fixed refs handling, added gc auto, updated tests
 
 commit d921970aadf03b3cf0e71becdaab3147ba71cdef
 Merge: 1c002dd... 35cfb2b...
 Author: Scott Chacon <schacon\@gmail.com>
-Date:   Thu Dec 11 <<15:08|2>>:43 2008 -<<0800|18:0>>
+Date:   Thu Dec 11 <<15:08|2>>:43 2008 -0800
 
     Merge commit 'phedders/rdocs'
 
 commit 1c002dd4b536e7479fe34593e72e6c6c1819e53b
 Author: Scott Chacon <schacon\@gmail.com>
-Date:   Thu Dec 11 <<14:58|2>>:32 2008 -<<0800|18:0>>
+Date:   Thu Dec 11 <<14:58|2>>:32 2008 -0800
 
     added some blame and merge stuff
 
@@ -445,7 +445,7 @@ commit 734713bc047d87bf7eac9674765ae793478c50d3
 Reflog: master\@{0} (Scott Chacon <schacon\@gmail.com>)
 Reflog message: commit: fixed refs handling, added gc auto, updated
 Author: Scott Chacon <schacon\@gmail.com>
-Date:   Fri Jan 2 <<18:32|2>>:33 2009 -<<0800|18:0>>
+Date:   Fri Jan 2 <<18:32|2>>:33 2009 -0800
 
     fixed refs handling, added gc auto, updated tests
 
@@ -453,7 +453,7 @@ commit d921970aadf03b3cf0e71becdaab3147ba71cdef
 Reflog: master\@{1} (Scott Chacon <schacon\@gmail.com>)
 Reflog message: merge phedders/rdocs: Merge made by recursive.
 Author: Scott Chacon <schacon\@gmail.com>
-Date:   Thu Dec 11 <<15:08|2>>:43 2008 -<<0800|18:0>>
+Date:   Thu Dec 11 <<15:08|2>>:43 2008 -0800
 
     Merge commit 'phedders/rdocs'
 
@@ -468,7 +468,7 @@ Running git show HEAD\@{2.months.ago} will show you the matching commit only if 
 commit d921970aadf03b3cf0e71becdaab3147ba71cdef
 Merge: 1c002dd... 35cfb2b...
 Author: Scott Chacon <schacon@gmail.com>
-Date:   Thu Dec 11 <<15:08|2>>:43 2008 -<<0800|18:0>>
+Date:   Thu Dec 11 <<15:08|2>>:43 2008 -0800
 
     Merge commit \'phedders/rdocs\'
 
@@ -483,7 +483,7 @@ On Windows in cmd.exe, ^ is a special character and needs to be treated differen
             "\$ git show d921970^
 commit 1c002dd4b536e7479fe34593e72e6c6c1819e53b
 Author: Scott Chacon <schacon\@gmail.com>
-Date:   Thu Dec 11 <<14:58|2>>:32 2008 -<<0800|18:0>>
+Date:   Thu Dec 11 <<14:58|2>>:32 2008 -0800
 
     added some blame and merge stuff
 
@@ -506,7 +506,7 @@ For example, in the history listed earlier, HEAD~3 would be",
             '$ git show HEAD~3
 commit 1c3618887afb5fbcbea25b7c013f4e2114448b8d
 Author: Tom Preston-Werner <tom@mojombo.com>
-Date:   Fri Nov 7 <<13:47|2>>:59 2008 -<<0500|18:0>>
+Date:   Fri Nov 7 <<13:47|2>>:59 2008 -0500
 
     ignore *.gem
 
@@ -518,7 +518,7 @@ This can also be written HEAD~~~, which again is the first parent of the first p
             "\$ git show HEAD~~~
 commit 1c3618887afb5fbcbea25b7c013f4e2114448b8d
 Author: Tom Preston-Werner <tom\@mojombo.com>
-Date:   Fri Nov 7 <<13:47|2>>:59 2008 -<<0500|18:0>>
+Date:   Fri Nov 7 <<13:47|2>>:59 2008 -0500
 
     ignore *.gem
 
@@ -530,7 +530,7 @@ You can also combine these syntaxes\x{2009}\x{2014}\x{2009}you can get the secon
             "\$ git show v1.5
 tag v1.5
 Tagger: Ben Straub <ben\@straub.cc>
-Date:   Sat May 3 <<20:29|2>>:41 2014 -<<0700|18:0>>
+Date:   Sat May 3 <<20:29|2>>:41 2014 -0700
 
 my signed 1.5 tag
 -----BEGIN PGP SIGNATURE-----
@@ -547,7 +547,7 @@ RUysgqjcpT8+iQM1PblGfHR4XAhuOqN5Fx06PSaFZhqvWFezJ28/CLyX5q+oIVk=
 
 commit ca82a6dff817ec66f44342007202690a93763949
 Author: Scott Chacon <schacon\@gee-mail.com>
-Date:   Mon Mar 17 <<21:52|2>>:11 2008 -<<0700|18:0>>
+Date:   Mon Mar 17 <<21:52|2>>:11 2008 -0700
 
     changed the version number
 
@@ -560,12 +560,12 @@ You need the signer\x{2019}s public key in your keyring for this to work properl
           ],
           [
             1,
-            '[ap 07:00] Pro Git - Scott Chacon.epub (OEBPS/ch07-git-tools.xhtml) - 0700',
+            '[ap 02:08] Pro Git - Scott Chacon.epub (OEBPS/ch07-git-tools.xhtml) - 02:08',
             "\$ git tag -v v1.4.2.1
 object 883653babd8ee7ea23e6a5c392bb739348b1eb61
 type commit
 tag v1.4.2.1
-tagger Junio C Hamano <junkio\@cox.net> 1158138501 -<<0700|18:0>>
+tagger Junio C Hamano <junkio\@cox.net> 1158138501 -0700
 
 GIT 1.4.2.1
 
@@ -598,7 +598,7 @@ commit 5c3386cf54bba0a33a32da706aa52bc0155503c2
 gpg: Signature made Wed Jun  4 <<19:49|2>>:17 2014 PDT using RSA key ID 0A46826A
 gpg: Good signature from "Scott Chacon (Git signing key) <schacon@gmail.com>"
 Author: Scott Chacon <schacon@gmail.com>
-Date:   Wed Jun 4 <<19:49|2>>:17 2014 -<<0700|18:0>>
+Date:   Wed Jun 4 <<19:49|2>>:17 2014 -0700
 
     signed commit
 
@@ -610,7 +610,7 @@ Additionally, you can configure git log to check any signatures it finds and lis
             "\$ git log -L :git_deflate_bound:zlib.c
 commit ef49a7a0126d64359c974b4b3b71d7ad42ee3bca
 Author: Junio C Hamano <gitster\@pobox.com>
-Date:   Fri Jun 10 <<11:52|2>>:15 2011 -<<0700|18:0>>
+Date:   Fri Jun 10 <<11:52|2>>:15 2011 -0700
 
     zlib: zlib can only process 4GB at a time
 
@@ -628,7 +628,7 @@ diff --git a/zlib.c b/zlib.c
 
 commit 225a6f1068f71723a910e8565db4e252b3ca21fa
 Author: Junio C Hamano <gitster\@pobox.com>
-Date:   Fri Jun 10 <<11:18|2>>:17 2011 -<<0700|18:0>>
+Date:   Fri Jun 10 <<11:18|2>>:17 2011 -0700
 
     zlib: wrap deflateBound() too
 
@@ -645,23 +645,6 @@ diff --git a/zlib.c b/zlib.c
 If Git can\x{2019}t figure out how to match a function or method in your programming language, you can also provide it with a regular expression (or regex).
 For example, this would have done the same thing as the example above: git log -L '/unsigned long git_deflate_bound/',/^}/:zlib.c.
 You could also give it a range of lines or a single line number and you\x{2019}ll get the same sort of output.",
-          ],
-          [
-            1,
-            '[ap 07:00] Pro Git - Scott Chacon.epub (OEBPS/ch07-git-tools.xhtml) - 0700',
-            "\$ git cat-file -p HEAD
-tree cfda3bf379e4f8dba8717dee55aab78aef7f4daf
-author Scott Chacon  1301511835 -<<0700|18:0>>
-committer Scott Chacon  1301511835 -<<0700|18:0>>
-
-initial commit
-
-\$ git ls-tree -r HEAD
-100644 blob a906cb2a4a904a152...   README
-100644 blob 8f94139338f9404f2...   Rakefile
-040000 tree 99f1a6d12cb4b6f19...   lib
-
-The Git cat-file and ls-tree commands are \x{201c}plumbing\x{201d} commands that are used for lower level things and not really used in day-to-day work, but they help us see what\x{2019}s going on here.",
           ],
           [
             1,
@@ -725,11 +708,11 @@ If we look at the file, we\x{2019}ll see that it\x{2019}s already been resolved,
             "\$ git blame -L 69,82 Makefile
 b8b0618cf6fab (Cheng Renquan  2009-05-26 <<16:03|2>>:07 +0800 69) ifeq (\"\$(origin V)\", \"command line\")
 b8b0618cf6fab (Cheng Renquan  2009-05-26 <<16:03|2>>:07 +0800 70)   KBUILD_VERBOSE = \$(V)
-^1da177e4c3f4 (Linus Torvalds 2005-04-16 <<15:20|2>>:36 -<<0700|18:0>> 71) endif
-^1da177e4c3f4 (Linus Torvalds 2005-04-16 <<15:20|2>>:36 -<<0700|18:0>> 72) ifndef KBUILD_VERBOSE
-^1da177e4c3f4 (Linus Torvalds 2005-04-16 <<15:20|2>>:36 -<<0700|18:0>> 73)   KBUILD_VERBOSE = 0
-^1da177e4c3f4 (Linus Torvalds 2005-04-16 <<15:20|2>>:36 -<<0700|18:0>> 74) endif
-^1da177e4c3f4 (Linus Torvalds 2005-04-16 <<15:20|2>>:36 -<<0700|18:0>> 75)
+^1da177e4c3f4 (Linus Torvalds 2005-04-16 <<15:20|2>>:36 -0700 71) endif
+^1da177e4c3f4 (Linus Torvalds 2005-04-16 <<15:20|2>>:36 -0700 72) ifndef KBUILD_VERBOSE
+^1da177e4c3f4 (Linus Torvalds 2005-04-16 <<15:20|2>>:36 -0700 73)   KBUILD_VERBOSE = 0
+^1da177e4c3f4 (Linus Torvalds 2005-04-16 <<15:20|2>>:36 -0700 74) endif
+^1da177e4c3f4 (Linus Torvalds 2005-04-16 <<15:20|2>>:36 -0700 75)
 066b7ed955808 (Michal Marek   2014-07-04 <<14:29|2>>:30 +0200 76) ifeq (\$(KBUILD_VERBOSE),1)
 066b7ed955808 (Michal Marek   2014-07-04 <<14:29|2>>:30 +0200 77)   quiet =
 066b7ed955808 (Michal Marek   2014-07-04 <<14:29|2>>:30 +0200 78)   Q =
@@ -751,7 +734,7 @@ This is a tad confusing, because now you\x{2019}ve seen at least three different
 b047b02ea83310a70fd603dc8cd7a6cd13d15c04 is first bad commit
 commit b047b02ea83310a70fd603dc8cd7a6cd13d15c04
 Author: PJ Hyett <pjhyett\@example.com>
-Date:   Tue Jan 27 <<14:48|2>>:32 2009 -<<0800|18:0>>
+Date:   Tue Jan 27 <<14:48|2>>:32 2009 -0800
 
     secure this thing
 
@@ -828,24 +811,11 @@ Date:   Wed Mar 10 <<07:34|2>>:10 2010 -0800
 
 commit b1ec3248f39900d2a406049d762aa68e9641be25
 Author: Scott Chacon <schacon\@gmail.com>
-Date:   Wed Mar 10 <<07:34|2>>:01 2010 -<<0800|18:0>>
+Date:   Wed Mar 10 <<07:34|2>>:01 2010 -0800
 
     first commit
 
 If you want to send that repository to someone and you don\x{2019}t have access to a repository to push to, or simply don\x{2019}t want to set one up, you can bundle it with git bundle create.",
-          ],
-          [
-            1,
-            '[ap 07:00] Pro Git - Scott Chacon.epub (OEBPS/ch07-git-tools.xhtml) - 0700',
-            '$ git cat-file -p 81a708d
-tree 7bc544cf438903b65ca9104a1e30345eee6c083d
-parent 9c68fdceee073230f19ebb8b5e7fc71b479c0252
-author Scott Chacon <schacon@gmail.com> 1268712581 -<<0700|18:0>>
-committer Scott Chacon <schacon@gmail.com> 1268712581 -0700
-
-fourth commit
-
-Remember that the actual parent of 81a708d was our placeholder commit (622e88e), not 9c68fdce as it states here.',
           ],
           [
             1,
@@ -879,7 +849,7 @@ You can easily see that the file size and image dimensions have both changed.',
 \$ rm date_test.txt
 \$ git checkout date_test.txt
 \$ cat date_test.txt
-# \$Date: Tue Apr 21 <<07:26|2>>:52 2009 -<<0700|18:0>>\$
+# \$Date: Tue Apr 21 <<07:26|2>>:52 2009 -0700\$
 
 You can see how powerful this technique can be for customized applications.
 You have to be careful, though, because the .gitattributes file is committed and passed around with the project, but the driver (in this case, dater) isn\x{2019}t, so it won\x{2019}t work everywhere.
@@ -890,7 +860,7 @@ When you design these filters, they should be able to fail gracefully and have t
             '[ap 08:38] Pro Git - Scott Chacon.epub (OEBPS/ch08-customizing-git.xhtml) - 08:38',
             '$ git archive HEAD | tar xCf ../deployment-testing -
 $ cat ../deployment-testing/LAST_COMMIT
-Last commit date: Tue Apr 21 <<08:38|2>>:48 2009 -<<0700|18:0>> by Scott Chacon
+Last commit date: Tue Apr 21 <<08:38|2>>:48 2009 -0700 by Scott Chacon
 
 The substitutions can include for example the commit message and any git notes, and git log can do simple word wrapping:',
           ],
@@ -905,27 +875,13 @@ directly, and strips the surrounding `\$Format:` and `\$`
 markup from the output.
 '
 \$ git archive \@ | tar xfO - LAST_COMMIT
-Last commit: 312ccc8 by Jim Hill at Fri May 8 <<09:14|2>>:04 2015 -<<0700|18:0>>
+Last commit: 312ccc8 by Jim Hill at Fri May 8 <<09:14|2>>:04 2015 -0700
        export-subst uses git log's custom formatter
 
          git archive uses git log's `pretty=format:` processor directly, and
          strips the surrounding `\$Format:` and `\$` markup from the output.
 
 The resulting archive is suitable for deployment work, but like any exported archive it isn\x{2019}t suitable for further development work.",
-          ],
-          [
-            1,
-            '[ap 07:00] Pro Git - Scott Chacon.epub (OEBPS/ch08-customizing-git.xhtml) - 0700',
-            '$ git cat-file commit ca82a6
-tree cfda3bf379e4f8dba8717dee55aab78aef7f4daf
-parent 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7
-author Scott Chacon <schacon@gmail.com> 1205815931 -<<0700|18:0>>
-committer Scott Chacon <schacon@gmail.com> 1240030591 -<<0700|18:0>>
-
-changed the version number
-
-A simple way to get the commit message from a commit when you have the SHA-1 value is to go to the first blank line and take everything after that.
-You can do so with the sed command on Unix systems:',
           ],
           [
             1,
@@ -947,17 +903,17 @@ If you want to push to both a Git server and a Subversion server, you have to pu
             '[16:07] Pro Git - Scott Chacon.epub (OEBPS/ch09-git-and-other-systems.xhtml) - 16:07',
             "\$ git svn log
 ------------------------------------------------------------------------
-r87 | schacon | 2014-05-02 <<16:07|2>>:37 -<<0700|18:0>> (Sat, 02 May 2014) | 2 lines
+r87 | schacon | 2014-05-02 <<16:07|2>>:37 -0700 (Sat, 02 May 2014) | 2 lines
 
 autogen change
 
 ------------------------------------------------------------------------
-r86 | schacon | 2014-05-02 <<16:00|2>>:21 -<<0700|18:0>> (Sat, 02 May 2014) | 2 lines
+r86 | schacon | 2014-05-02 <<16:00|2>>:21 -0700 (Sat, 02 May 2014) | 2 lines
 
 Merge branch 'experiment'
 
 ------------------------------------------------------------------------
-r85 | schacon | 2014-05-02 <<16:00|2>>:09 -<<0700|18:0>> (Sat, 02 May 2014) | 2 lines
+r85 | schacon | 2014-05-02 <<16:00|2>>:09 -0700 (Sat, 02 May 2014) | 2 lines
 
 updated the changelog
 
@@ -980,54 +936,30 @@ Node Kind: directory
 Schedule: normal
 Last Changed Author: schacon
 Last Changed Rev: 87
-Last Changed Date: 2009-05-02 <<16:07|2>>:37 -<<0700|18:0>> (Sat, 02 May 2009)
+Last Changed Date: 2009-05-02 <<16:07|2>>:37 -0700 (Sat, 02 May 2009)
 
 This is like blame and log in that it runs offline and is up to date only as of the last time you communicated with the Subversion server.',
           ],
           [
             1,
-            '[ap 08:00] Pro Git - Scott Chacon.epub (OEBPS/ch09-git-and-other-systems.xhtml) - 0800',
-            "\$ cat notes/hg
-d4c10386...
-
-\$ git cat-file -p d4c10386...
-tree 1781c96...
-author remote-hg <> 1408066400 -<<0800|18:0>>
-committer remote-hg <> 1408066400 -<<0800|18:0>>
-
-Notes for master
-
-\$ git ls-tree 1781c96...
-100644 blob ac9117f...	65bb417...
-100644 blob 485e178...	ac7955c...
-
-\$ git cat-file -p ac9117f
-0a04b987be5ae354b710cefeba0e2d9de7ad41a9
-
-So refs/notes/hg points to a tree, which in the Git object database is a list of other objects with names.
-git ls-tree outputs the mode, type, object hash, and filename for items inside a tree.
-Once we dig down to one of the tree items, we find that inside it is a blob named \x{201c}ac9117f\x{201d} (the SHA-1 hash of the commit pointed to by master), with contents \x{201c}0a04b98\x{201d} (which is the ID of the Mercurial changeset at the tip of the default branch).",
-          ],
-          [
-            1,
             '[19:33] Pro Git - Scott Chacon.epub (OEBPS/ch09-git-and-other-systems.xhtml) - 19:33',
             '$ hg log -G --style compact
-o    5[tip]:4,2   dc8fa4f932b8   2014-08-14 <<19:33|2>> -<<0700|18:0>>   ben
+o    5[tip]:4,2   dc8fa4f932b8   2014-08-14 <<19:33|2>> -0700   ben
 |\\     Merge remote-tracking branch \'origin/master\'
 | |
-| o  4   64f27bcefc35   2014-08-14 <<19:27|2>> -<<0700|18:0>>   ben
+| o  4   64f27bcefc35   2014-08-14 <<19:27|2>> -0700   ben
 | |    Update makefile
 | |
-| o  3:1   4256fc29598f   2014-08-14 <<19:27|2>> -<<0700|18:0>>   ben
+| o  3:1   4256fc29598f   2014-08-14 <<19:27|2>> -0700   ben
 | |    Goodbye
 | |
-@ |  2   7db0b4848b3c   2014-08-14 <<19:30|2>> -<<0700|18:0>>   ben
+@ |  2   7db0b4848b3c   2014-08-14 <<19:30|2>> -0700   ben
 |/     Add some documentation
 |
-o  1   82e55d328c8c   2005-08-26 <<01:21|2>> -<<0700|18:0>>   mpm
+o  1   82e55d328c8c   2005-08-26 <<01:21|2>> -0700   mpm
 |    Create a makefile
 |
-o  0   0a04b987be5a   2005-08-26 <<01:20|2>> -<<0700|18:0>>   mpm
+o  0   0a04b987be5a   2005-08-26 <<01:20|2>> -0700   mpm
      Create a standard "hello, world" program
 
 The changeset numbered 2 was made by Mercurial, and the changesets numbered 3 and 4 were made by git-remote-hg, by pushing commits made with Git.',
@@ -1040,7 +972,7 @@ changeset:   6:8f65e5e02793
 branch:      develop
 tag:         tip
 user:        Ben Straub <ben\@straub.cc>
-date:        Thu Aug 14 <<20:06|2>>:38 2014 -<<0700|18:0>>
+date:        Thu Aug 14 <<20:06|2>>:38 2014 -0700
 summary:     More documentation
 
 Note the line that begins with \x{201c}branch\x{201d}.
@@ -1052,25 +984,25 @@ Git can\x{2019}t really replicate this (and doesn\x{2019}t need to; both types o
             "\$ hg bookmarks
    featureA                  5:bd5ac26f11f9
 \$ hg log --style compact -G
-\@  6[tip]   8f65e5e02793   2014-08-14 <<20:06|2>> -<<0700|18:0>>   ben
+\@  6[tip]   8f65e5e02793   2014-08-14 <<20:06|2>> -0700   ben
 |    More documentation
 |
-o    5[featureA]:4,2   bd5ac26f11f9   2014-08-14 <<20:02|2>> -<<0700|18:0>>   ben
+o    5[featureA]:4,2   bd5ac26f11f9   2014-08-14 <<20:02|2>> -0700   ben
 |\\     Merge remote-tracking branch 'origin/master'
 | |
-| o  4   0434aaa6b91f   2014-08-14 <<20:01|2>> -<<0700|18:0>>   ben
+| o  4   0434aaa6b91f   2014-08-14 <<20:01|2>> -0700   ben
 | |    update makefile
 | |
-| o  3:1   318914536c86   2014-08-14 <<20:00|2>> -<<0700|18:0>>   ben
+| o  3:1   318914536c86   2014-08-14 <<20:00|2>> -0700   ben
 | |    goodbye
 | |
-o |  2   f098c7f45c4f   2014-08-14 <<20:01|2>> -<<0700|18:0>>   ben
+o |  2   f098c7f45c4f   2014-08-14 <<20:01|2>> -0700   ben
 |/     Add some documentation
 |
-o  1   82e55d328c8c   2005-08-26 <<01:21|2>> -<<0700|18:0>>   mpm
+o  1   82e55d328c8c   2005-08-26 <<01:21|2>> -0700   mpm
 |    Create a makefile
 |
-o  0   0a04b987be5a   2005-08-26 <<01:20|2>> -<<0700|18:0>>   mpm
+o  0   0a04b987be5a   2005-08-26 <<01:20|2>> -0700   mpm
      Create a standard \"hello, world\" program
 
 Note the new [featureA] tag on revision 5.
@@ -1089,13 +1021,13 @@ o  changeset:   7:a4529d07aad4
 |  tag:         tip
 |  parent:      5:bd5ac26f11f9
 |  user:        Ben Straub <ben\@straub.cc>
-|  date:        Thu Aug 14 <<20:21|2>>:09 2014 -<<0700|18:0>>
+|  date:        Thu Aug 14 <<20:21|2>>:09 2014 -0700
 |  summary:     A permanent change
 |
 | \@  changeset:   6:8f65e5e02793
 |/   branch:      develop
 |    user:        Ben Straub <ben\@straub.cc>
-|    date:        Thu Aug 14 <<20:06|2>>:38 2014 -<<0700|18:0>>
+|    date:        Thu Aug 14 <<20:06|2>>:38 2014 -0700
 |    summary:     More documentation
 |
 o    changeset:   5:bd5ac26f11f9
@@ -1103,7 +1035,7 @@ o    changeset:   5:bd5ac26f11f9
 | |  parent:      4:0434aaa6b91f
 | |  parent:      2:f098c7f45c4f
 | |  user:        Ben Straub <ben\@straub.cc>
-| |  date:        Thu Aug 14 <<20:02|2>>:21 2014 -<<0700|18:0>>
+| |  date:        Thu Aug 14 <<20:02|2>>:21 2014 -0700
 | |  summary:     Merge remote-tracking branch 'origin/master'
 [...]
 
@@ -1113,37 +1045,37 @@ The branch name \x{201c}permanent\x{201d} was recorded with the changeset marked
             1,
             '[20:21] Pro Git - Scott Chacon.epub (OEBPS/ch09-git-and-other-systems.xhtml) - 20:21',
             '$ hg log --style compact -G
-o  10[tip]   99611176cbc9   2014-08-14 <<20:21|2>> -<<0700|18:0>>   ben
+o  10[tip]   99611176cbc9   2014-08-14 <<20:21|2>> -0700   ben
 |    A permanent change
 |
-o  9   f23e12f939c3   2014-08-14 <<20:01|2>> -<<0700|18:0>>   ben
+o  9   f23e12f939c3   2014-08-14 <<20:01|2>> -0700   ben
 |    Add some documentation
 |
-o  8:1   c16971d33922   2014-08-14 <<20:00|2>> -<<0700|18:0>>   ben
+o  8:1   c16971d33922   2014-08-14 <<20:00|2>> -0700   ben
 |    goodbye
 |
-| o  7:5   a4529d07aad4   2014-08-14 <<20:21|2>> -<<0700|18:0>>   ben
+| o  7:5   a4529d07aad4   2014-08-14 <<20:21|2>> -0700   ben
 | |    A permanent change
 | |
-| | @  6   8f65e5e02793   2014-08-14 <<20:06|2>> -<<0700|18:0>>   ben
+| | @  6   8f65e5e02793   2014-08-14 <<20:06|2>> -0700   ben
 | |/     More documentation
 | |
-| o    5[featureA]:4,2   bd5ac26f11f9   2014-08-14 <<20:02|2>> -<<0700|18:0>>   ben
+| o    5[featureA]:4,2   bd5ac26f11f9   2014-08-14 <<20:02|2>> -0700   ben
 | |\\     Merge remote-tracking branch \'origin/master\'
 | | |
-| | o  4   0434aaa6b91f   2014-08-14 <<20:01|2>> -<<0700|18:0>>   ben
+| | o  4   0434aaa6b91f   2014-08-14 <<20:01|2>> -0700   ben
 | | |    update makefile
 | | |
-+---o  3:1   318914536c86   2014-08-14 <<20:00|2>> -<<0700|18:0>>   ben
++---o  3:1   318914536c86   2014-08-14 <<20:00|2>> -0700   ben
 | |      goodbye
 | |
-| o  2   f098c7f45c4f   2014-08-14 <<20:01|2>> -<<0700|18:0>>   ben
+| o  2   f098c7f45c4f   2014-08-14 <<20:01|2>> -0700   ben
 |/     Add some documentation
 |
-o  1   82e55d328c8c   2005-08-26 <<01:21|2>> -<<0700|18:0>>   mpm
+o  1   82e55d328c8c   2005-08-26 <<01:21|2>> -0700   mpm
 |    Create a makefile
 |
-o  0   0a04b987be5a   2005-08-26 <<01:20|2>> -<<0700|18:0>>   mpm
+o  0   0a04b987be5a   2005-08-26 <<01:20|2>> -0700   mpm
      Create a standard "hello, world" program
 
 Changesets 8, 9, and 10 have been created and belong to the permanent branch, but the old changesets are still there.
@@ -1256,7 +1188,7 @@ For example, if the Git commit you\x{2019}re importing was written by a contribu
             "\$ git log -1
 commit 775a46f630d8b46535fc9983cf3ebe6b9aa53145
 Author: John Doe <john\@example.com>
-Date:   Sun Aug 31 <<10:31|2>>:44 2014 -<<0800|18:0>>
+Date:   Sun Aug 31 <<10:31|2>>:44 2014 -0800
 
     Change page title
 
@@ -1318,7 +1250,7 @@ Not only does the Author field look a lot better, but the git-svn-id is no longe
             "\$ git log -2
 commit e5da1c909e5db3036475419f6379f2c73710c4e6
 Author: giles <giles\@giles\@perforce.com>
-Date:   Wed Feb 8 <<03:13|2>>:27 2012 -<<0800|18:0>>
+Date:   Wed Feb 8 <<03:13|2>>:27 2012 -0800
 
     Correction to line 355; change </UL> to </OL>.
 
@@ -1326,7 +1258,7 @@ Date:   Wed Feb 8 <<03:13|2>>:27 2012 -<<0800|18:0>>
 
 commit aa21359a0a135dda85c50a7f7cf249e4f7b8fd98
 Author: kwirth <kwirth\@perforce.com>
-Date:   Tue Jul 7 <<01:35|2>>:51 2009 -<<0800|18:0>>
+Date:   Tue Jul 7 <<01:35|2>>:51 2009 -0800
 
     Fix spelling error on Jam doc page (cummulative -> cumulative).
 
@@ -1344,13 +1276,13 @@ You can use git filter-branch to remove the identifier strings en masse:",
             '$ git log -2
 commit b17341801ed838d97f7800a54a6f9b95750839b7
 Author: giles <giles@giles@perforce.com>
-Date:   Wed Feb 8 <<03:13|2>>:27 2012 -<<0800|18:0>>
+Date:   Wed Feb 8 <<03:13|2>>:27 2012 -0800
 
     Correction to line 355; change </UL> to </OL>.
 
 commit 3e68c2e26cd89cb983eb52c024ecdfba1d6b3fff
 Author: kwirth <kwirth@perforce.com>
-Date:   Tue Jul 7 <<01:35|2>>:51 2009 -<<0800|18:0>>
+Date:   Tue Jul 7 <<01:35|2>>:51 2009 -0800
 
     Fix spelling error on Jam doc page (cummulative -> cumulative).
 
@@ -1368,80 +1300,23 @@ The next step is manual; in order for git-tfs to make effective use of this file
           ],
           [
             1,
-            '[ap 07:00] Pro Git - Scott Chacon.epub (OEBPS/ch09-git-and-other-systems.xhtml) - 0700',
-            "# print the import information
-puts 'commit refs/heads/master'
-puts 'mark :' + mark
-puts \"committer #{\$author} #{date} -<<0700|18:0>>\"
-export_data('imported from ' + dir)
-puts 'from :' + last_mark if last_mark
-
-You hardcode the time zone (-<<0700|18:0>>) because doing so is easy.
-If you\x{2019}re importing from another system, you must specify the time zone as an offset.
-The commit message must be expressed in a special format:",
-          ],
-          [
-            1,
-            '[ap 07:00] Pro Git - Scott Chacon.epub (OEBPS/ch09-git-and-other-systems.xhtml) - 0700',
-            '$ ruby import.rb /opt/import_from
-commit refs/heads/master
-mark :1
-committer John Doe <john@example.com> 1388649600 -<<0700|18:0>>
-data 29
-imported from back_2014_01_02deleteall
-M 644 inline README.md
-data 28
-# Hello
-
-This is my readme.
-commit refs/heads/master
-mark :2
-committer John Doe <john@example.com> 1388822400 -<<0700|18:0>>
-data 29
-imported from back_2014_01_04from :1
-deleteall
-M 644 inline main.rb
-data 34
-#!/bin/env ruby
-
-puts "Hey there"
-M 644 inline README.md
-(...)
-
-To run the importer, pipe this output through git fast-import while in the Git directory you want to import into.
-You can create a new directory and then run git init in it for a starting point, and then run your script:',
-          ],
-          [
-            1,
             '[19:39] Pro Git - Scott Chacon.epub (OEBPS/ch09-git-and-other-systems.xhtml) - 19:39',
             "\$ git log -2
 commit 3caa046d4aac682a55867132ccdfbe0d3fdee498
 Author: John Doe <john\@example.com>
-Date:   Tue Jul 29 <<19:39|2>>:04 2014 -<<0700|18:0>>
+Date:   Tue Jul 29 <<19:39|2>>:04 2014 -0700
 
     imported from current
 
 commit 4afc2b945d0d3c8cd00556fbe2e8224569dc9def
 Author: John Doe <john\@example.com>
-Date:   Mon Feb 3 <<01:00|2>>:00 2014 -<<0700|18:0>>
+Date:   Mon Feb 3 <<01:00|2>>:00 2014 -0700
 
     imported from back_2014_02_03
 
 There you go \x{2013} a nice, clean Git repository.
 It\x{2019}s important to note that nothing is checked out \x{2013} you don\x{2019}t have any files in your working directory at first.
 To get them, you must reset your branch to where master is now:",
-          ],
-          [
-            1,
-            '[ap 07:00] Pro Git - Scott Chacon.epub (OEBPS/ch10-git-internals.xhtml) - 0700',
-            '$ git cat-file -p fdf4fc3
-tree d8329fc1cc938780ffdd9f94e0d364e0ea74f579
-author Scott Chacon <schacon@gmail.com> 1243040974 -<<0700|18:0>>
-committer Scott Chacon <schacon@gmail.com> 1243040974 -<<0700|18:0>>
-
-first commit
-
-The format for a commit object is simple: it specifies the top-level tree for the snapshot of the project at that point; the author/committer information (which uses your user.name and user.email configuration settings and a timestamp); a blank line, and then the commit message.',
           ],
           [
             1,
@@ -1468,7 +1343,7 @@ Date:   Fri May 22 <<18:14|2>>:29 2009 -0700
 
 commit fdf4fc3344e67ab068f836878b6c4951e3b15f3d
 Author: Scott Chacon <schacon\@gmail.com>
-Date:   Fri May 22 <<18:09|2>>:34 2009 -<<0700|18:0>>
+Date:   Fri May 22 <<18:09|2>>:34 2009 -0700
 
     first commit
 
@@ -1488,7 +1363,7 @@ Here are all the objects in the example directory now, commented with what they 
 object 1a410efbd13591db07496601ebc7a059dd55cfe9
 type commit
 tag v1.1
-tagger Scott Chacon <schacon\@gmail.com> Sat May 23 <<16:48|2>>:58 2009 -<<0700|18:0>>
+tagger Scott Chacon <schacon\@gmail.com> Sat May 23 <<16:48|2>>:58 2009 -0700
 
 test tag
 
@@ -1506,19 +1381,6 @@ ca82a6dff817ec66f44342007202690a93763949
 Remote references differ from branches (refs/heads references) mainly in that they\x{2019}re considered read-only.
 You can git checkout to one, but Git won\x{2019}t point HEAD at <<one|9c:1>>, so you\x{2019}ll never update it with a commit command.
 Git manages them as bookmarks to the last known state of where those branches were on those servers.",
-          ],
-          [
-            1,
-            '[ap 07:00] Pro Git - Scott Chacon.epub (OEBPS/ch10-git-internals.xhtml) - 0700',
-            "\$ git cat-file -p ca82a6dff817ec66f44342007202690a93763949
-tree cfda3bf379e4f8dba8717dee55aab78aef7f4daf
-parent 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7
-author Scott Chacon <schacon\@gmail.com> 1205815931 -<<0700|18:0>>
-committer Scott Chacon <schacon\@gmail.com> 1240030591 -<<0700|18:0>>
-
-changed the version number
-
-Next, you have two more objects to retrieve \x{2013} cfda3b, which is the tree of content that the commit we just retrieved points to; and 085bb3, which is the parent commit:",
           ],
           [
             1,
@@ -1634,7 +1496,7 @@ commit ab1afef80fac8e34258ff41fc1b867c702daa24b
 Reflog: HEAD@{1} (Scott Chacon <schacon@gmail.com>)
 Reflog message: updating HEAD
 Author: Scott Chacon <schacon@gmail.com>
-Date:   Fri May 22 <<18:15|2>>:24 2009 -<<0700|18:0>>
+Date:   Fri May 22 <<18:15|2>>:24 2009 -0700
 
        modified repo.rb a bit
 

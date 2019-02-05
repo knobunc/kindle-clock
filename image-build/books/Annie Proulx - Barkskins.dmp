@@ -32,6 +32,11 @@ $VAR1 = [
           [
             1,
             '[12:00] Barkskins - Annie Proulx.epub (ops/xhtml/ch35.html) - noon',
+            "\x{201c}It\x{2019}s a business,\x{201d} said Bernard one <<noon|13>> after a repast of scorched stale bread and hot tea, sitting on a stump and lighting his pipe. \x{201c}We need to know what timber we\x{2019}ve got and what board feet it will make. Finding a good surveyor is difficult. It is arduous work, and inaccurate estimates and outright lies abound. Surveyors we have tried have sometimes submitted false maps and false reports to save themselves trouble. They have sworn that trees were sound, trees that proved rotten or with hollow centers.\x{201d}",
+          ],
+          [
+            1,
+            '[12:00] Barkskins - Annie Proulx.epub (ops/xhtml/ch35.html) - noon',
             "He sucked on the pipe, knocked out the dottle and refilled it. \x{201c}It smokes hot,\x{201d} he said. \x{201c}I must get a new one.\x{201d} He took a burning stick from their <<noon|13>> fire and lit the tobacco.",
           ],
           [
@@ -42,7 +47,7 @@ $VAR1 = [
           [
             1,
             '[ap 09:00] Barkskins - Annie Proulx.epub (ops/xhtml/ch38.html) - nine',
-            "\x{201c}Ah,\x{201d} said Beatrix. She looked at the children; Elise at <<nine|3j>> the oldest, withdrawn and shy; seven-year-old Amboise, also shy but with a winning smile; and Jinot, <<almost five|9:0>>, with a plump merry face.",
+            "\x{201c}Ah,\x{201d} said Beatrix. She looked at the children; Elise at <<nine|3j>> the oldest, withdrawn and shy; seven-year-old Amboise, also shy but with a winning smile; and Jinot, <<almost five|9e:1>>, with a plump merry face.",
           ],
           [
             1,
@@ -154,7 +159,7 @@ $VAR1 = [
           [
             1,
             '[19:39] Barkskins - Annie Proulx.epub (ops/xhtml/ch65.html) - 1939',
-            "By <<1939|9n:0>> he knew enough to work out a long-range plan. He built new greenhouses and set up a seedling experiment with eleven tree species. Al McErlane was busy with two new workers, Pedro Vaca, a young Mexican who told fanciful but amusing tales, and Hank Stone, the son of German immigrant grandparents who had changed their name from Stein during the Great War. A separate building was a small laboratory-office though he had not yet found the research horticulturist or plant breeder that he wanted. He had liked Elsie Guderian, one of the few women enrolled in the forestry school and interested in plant heredities, but she had another year before graduation. \x{201c}Once I\x{2019}ve got that degree\x{a0}.\x{a0}.\x{a0}.\x{201d} she said, indicating she wanted the job. She was stocky, with hard red cheeks and horse legs, but a true researcher. What he wanted.",
+            "By <<1939|9e:1>> he knew enough to work out a long-range plan. He built new greenhouses and set up a seedling experiment with eleven tree species. Al McErlane was busy with two new workers, Pedro Vaca, a young Mexican who told fanciful but amusing tales, and Hank Stone, the son of German immigrant grandparents who had changed their name from Stein during the Great War. A separate building was a small laboratory-office though he had not yet found the research horticulturist or plant breeder that he wanted. He had liked Elsie Guderian, one of the few women enrolled in the forestry school and interested in plant heredities, but she had another year before graduation. \x{201c}Once I\x{2019}ve got that degree\x{a0}.\x{a0}.\x{a0}.\x{201d} she said, indicating she wanted the job. She was stocky, with hard red cheeks and horse legs, but a true researcher. What he wanted.",
           ],
           [
             1,

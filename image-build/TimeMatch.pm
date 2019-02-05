@@ -1689,7 +1689,7 @@ sub get_matches {
                   ( \s+ ( now | precisely | exactly ) )?
                   ( \z | $phrase_punc? $aq | $phrase_punc ( \s+ | \z ) | \s+ $hy+ \s+) )
                 (?{ $branch = "x9l";
-                    my ($pre, $post, $rl, $hr) = (${^PREMATCH}, ${^POSTMATCH}, $+{hr}, $+{rl});
+                    my ($pre, $post, $rl, $hr) = (${^PREMATCH}, ${^POSTMATCH}, $+{rl}, $+{hr});
                     if ("$pre <<>> $post" =~
                             m{ ( look | seem) ( | s | ed ) \s+
                                like \s+ a \s+ (year | date)

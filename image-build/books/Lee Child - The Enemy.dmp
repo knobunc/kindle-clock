@@ -68,7 +68,7 @@ $VAR1 = [
           [
             1,
             '[ap > 11:00] The Enemy - Lee Child.epub (The_Enemy_A_Reacher_Novel_split_003.html) - after eleven',
-            '"General Kramer died of natural causes," she said. "Heart attack, last night, <<after eleven|9:1>>, <<before midnight|13>>. There\'s no possibility of doubt. I\'m happy to be audited if you want, but it would be a complete waste of time. His toxicology was absolutely clear. The evidence of ventricular fibrillation is indisputable and his arterial plaque was monumental. So forensically, your only tentative question might be whether by coincidence someone electrically stimulated fibrillation in a man almost certain to suffer it anyway within minutes or hours or days or weeks."',
+            '"General Kramer died of natural causes," she said. "Heart attack, last night, <<after eleven|9e:1>>, <<before midnight|13>>. There\'s no possibility of doubt. I\'m happy to be audited if you want, but it would be a complete waste of time. His toxicology was absolutely clear. The evidence of ventricular fibrillation is indisputable and his arterial plaque was monumental. So forensically, your only tentative question might be whether by coincidence someone electrically stimulated fibrillation in a man almost certain to suffer it anyway within minutes or hours or days or weeks."',
           ],
           [
             1,
@@ -221,8 +221,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[18:45] The Enemy - Lee Child.epub (The_Enemy_A_Reacher_Novel_split_010.html) - six forty-five in the evening',
-            'Vassell and Coomer had entered Bird by the main gate at <<six forty-five in the evening|5>> of the night Carbone had died. They had left again at <<ten o\'clock|6>>. Three and a quarter hours, right across Carbone\'s time of death.',
+            '[18:45] The Enemy - Lee Child.epub (The_Enemy_A_Reacher_Novel_split_010.html) - six forty-five in the evening of the night',
+            'Vassell and Coomer had entered Bird by the main gate at <<six forty-five in the evening of the night|5>> Carbone had died. They had left again at <<ten o\'clock|6>>. Three and a quarter hours, right across Carbone\'s time of death.',
           ],
           [
             1,
@@ -417,8 +417,8 @@ I checked my watch. It was close to <<ten o\'clock|6>>.
           ],
           [
             1,
-            '[19:30] The Enemy - Lee Child.epub (The_Enemy_A_Reacher_Novel_split_015.html) - seven thirty in the evening',
-            'She used both forefingers to show me two separate entries. Trifonov had signed out his personal Steyr GB nine-millimetre pistol at <<seven thirty in the evening|5>> of January 4th. He had signed it back in at a <<quarter past five|10>> on the morning of the fifth. His signature was big and awkward. He was Bulgarian. I guessed he had grown up with the Cyrillic alphabet and was new to writing with Roman letters.',
+            '[ap 07:30] The Enemy - Lee Child.epub (The_Enemy_A_Reacher_Novel_split_015.html) - seven thirty',
+            'She used both forefingers to show me two separate entries. Trifonov had signed out his personal Steyr GB nine-millimetre pistol at <<seven thirty|5b>> in the evening of January 4th. He had signed it back in at a <<quarter past five|10>> on the morning of the fifth. His signature was big and awkward. He was Bulgarian. I guessed he had grown up with the Cyrillic alphabet and was new to writing with Roman letters.',
           ],
           [
             1,
@@ -712,7 +712,7 @@ I checked my watch. It was close to <<ten o\'clock|6>>.
             1,
             '[ap 06:00] The Enemy - Lee Child.epub (The_Enemy_A_Reacher_Novel_split_020.html) - six',
             '
-"When you get off. At <<six|9m:0>>. At the diner near the strip club."
+"When you get off. At <<six|9t:0>>. At the diner near the strip club."
 ',
           ],
           [

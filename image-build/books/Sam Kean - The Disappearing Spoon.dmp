@@ -14,14 +14,14 @@ $VAR1 = [
          acids using his ideas. Acid strength is measured by the pH scale, with lower numbers being stronger, and in 2005 a chemist
          from New Zealand invented a boron-based acid called a carborane, with a pH of \x{2013}18. To put that in perspective, water has a
          pH of 7, and the concentrated HCl in our stomachs has a pH of 1. But according to the pH scale\x{2019}s unusual accounting methods,
-         dropping one unit (e.g., from <<4 to 3|10a:0>>) boosts an acid\x{2019}s strength by ten times. So moving from stomach acid, at <<1|9:0>>, to the boron-based
+         dropping one unit (e.g., from <<4 to 3|10a:0>>) boosts an acid\x{2019}s strength by ten times. So moving from stomach acid, at <<1|9e:1>>, to the boron-based
          acid, at \x{2013}18, means the latter is ten billion billion times stronger. That\x{2019}s roughly the number of atoms it would take to
          stack them to the moon.",
           ],
           [
             1,
             '[19:54] The Disappearing Spoon_ And Other True Tal - Sam Kean.epub (OEBPS/chapter002.html) - 1954',
-            'Things turned sour for germanium, too. By <<1954|9n:0>>, the transistor industry had mushroomed. The processing power of computers
+            'Things turned sour for germanium, too. By <<1954|9e:1>>, the transistor industry had mushroomed. The processing power of computers
          had expanded by orders of magnitude, and whole new product lines, such as pocket radios, had sprung up. But throughout the
          boom, engineers kept ogling silicon. Partly they did so because germanium was temperamental. As a corollary of conducting
          electricity so well, it generated unwanted heat, too, causing germanium transistors to stall at high temperatures. More important,
@@ -33,7 +33,7 @@ $VAR1 = [
             '[19:58] The Disappearing Spoon_ And Other True Tal - Sam Kean.epub (OEBPS/chapter002.html) - 1958',
             'Gaffes aside, the ceremony marked a high point for semiconductors, but a brief one. The Swedish Academy of Sciences, which
          hands out the Nobel Prizes in Chemistry and Physics, tended at the time to honor pure research over engineering, and the win
-         for the transistor was an uncommon acknowledgment of applied science. Nevertheless, by <<1958|9n:0>> the transistor industry faced
+         for the transistor was an uncommon acknowledgment of applied science. Nevertheless, by <<1958|9:0>> the transistor industry faced
          another crisis. And with Bardeen out of the field, the door stood open for another hero.',
           ],
           [
@@ -42,7 +42,7 @@ $VAR1 = [
             'Early, secret work on chemical agents centered on bromine, an energetic grenade of an element. Like other halogens, bromine
          has seven electrons in its outer energy level but desperately wants eight. Bromine figures that the end justifies the means
          and shreds the weaker elements in cells, such as carbon, to get its electron fix. Bromine especially irritates the eyes and
-         nose, and by <<1910|9n:0>> military chemists had developed bromine-based lacrimators so potent they could incapacitate even a grown
+         nose, and by <<1910|9:0>> military chemists had developed bromine-based lacrimators so potent they could incapacitate even a grown
          man with hot, searing tears.',
           ],
           [
@@ -87,13 +87,13 @@ $VAR1 = [
             "The best tribute scientists could pay to Moseley was to hunt down all the missing elements he\x{2019}d pointed out. Indeed, Moseley
          so inspired element hunters, who suddenly had a clear idea of what to search for, that element safaris became almost too popular.
          Scuffles soon arose over who\x{2019}d first bagged hafnium, protactinium, and technetium. Other research groups filled in the gaps
-         at elements eighty-five and eighty-seven in the late 1930s by creating elements in the lab. By <<1940|9n:0>>, only one natural element,
+         at elements eighty-five and eighty-seven in the late 1930s by creating elements in the lab. By <<1940|9e:1>>, only one natural element,
          one prize, remained undiscovered\x{2014}element sixty-one.",
           ],
           [
             1,
             '[19:40] The Disappearing Spoon_ And Other True Tal - Sam Kean.epub (OEBPS/chapter006.html) - 1940',
-            "As noted, quantum mechanics worked fine for isolated atoms, and by <<1940|9n:0>> scientists knew that absorbing a neutron made an atom
+            "As noted, quantum mechanics worked fine for isolated atoms, and by <<1940|9:0>> scientists knew that absorbing a neutron made an atom
          queasy, which made it explode and possibly release more neutrons. Following the path of one given neutron was easy, no harder
          than following a caroming billiard ball. But starting a chain reaction required coordinating billions of billions of neutrons,
          all of them traveling at different speeds in every direction. This made hash of scientists\x{2019} built-for-one theoretical apparatus.
@@ -135,6 +135,25 @@ $VAR1 = [
          New Yorker had once found lacking, the Berkeley team positioned an age-spotted Seaborg next to a huge periodic table, his gnarled finger
          pointing only sort of toward seaborgium, and snapped a photo. His sweet smile betrays nothing of the dispute whose first salvo
          had come thirty-two years earlier and whose bitterness had outlasted even the cold war. Seaborg died three years later.",
+          ],
+          [
+            1,
+            '[~ 19:40] The Disappearing Spoon_ And Other True Tal - Sam Kean.epub (OEBPS/chapter008.html) - Around 1940',
+            "Unfortunately, Segr\x{e8} learned his lesson about the absence of transuranic elements too literally, and he soon had his own solo
+         scandalous failure to account for. <<Around 1940|9e:1>>, scientists assumed that the elements just before and just after uranium were
+         transition metals. According to their arithmetic, element ninety fell in column four, and the first non\x{2013}naturally occurring
+         element, ninety-three, fell in column seven beneath technetium. But as the modern table shows, the elements near uranium are
+         not transition metals. They sit beneath the rare earths at the bottom of the table and act like rare earths, not like technetium,
+         in chemical reactions. The reason for chemists\x{2019} blindness back then is clear. Despite their homage to the periodic table,
+         they didn\x{2019}t take periodicity seriously enough. They thought the rare earths were strange exceptions whose quirky, clingy chemistry
+         would never repeat. But it does repeat: uranium and others bury electrons in f-shells just like the rare earths. They must,
+         therefore, jump off the main periodic table at the same point and behave like them in reactions. Simple, at least in retrospect.
+         A year after the bombshell discovery of fission, a colleague down the hall from Segr\x{e8} decided to try again to find element
+         ninety-three, so he irradiated some uranium in the cyclotron. Believing (for the reasons above) that this new element would
+         act like technetium, he asked Segr\x{e8} for help, since Segr\x{e8} had discovered technetium and knew its chemistry better than anyone. Segr\x{e8}, an eager element hunter, tested the
+         samples. Taking after his quick-witted mentor, Fermi, he announced that they acted like rare earths, not like heavy cousins
+         of technetium. More humdrum nuclear fission, Segr\x{e8} declared, and he dashed off a paper with the glum title \x{201c}An Unsuccessful
+         Search for Transuranic Elements.\x{201d}",
           ],
           [
             1,
@@ -201,13 +220,13 @@ $VAR1 = [
             1,
             '[19:56] The Disappearing Spoon_ And Other True Tal - Sam Kean.epub (OEBPS/chapter014.html) - 1956',
             "As science grew more sophisticated throughout its history, it grew correspondingly expensive, and money, big money, began to
-         dictate if, when, and how science got done. Already by <<1956|9n:0>>, the German-English novelist Sybille Bedford could write* that many generations had passed since \x{201c}the laws of the universe were something a man might deal with pleasantly in a workshop
+         dictate if, when, and how science got done. Already by <<1956|9s>>, the German-English novelist Sybille Bedford could write* that many generations had passed since \x{201c}the laws of the universe were something a man might deal with pleasantly in a workshop
          set up behind the stables.\x{201d}",
           ],
           [
             1,
             '[20:08] The Disappearing Spoon_ And Other True Tal - Sam Kean.epub (OEBPS/chapter014.html) - twenty-eight',
-            "The career of the pen as Frodo\x{2019}s ring began in 1923 with one man. At <<twenty-eight|9:0>>, Kenneth Parker convinced the directors
+            "The career of the pen as Frodo\x{2019}s ring began in 1923 with one man. At <<twenty-eight|9e:0>>, Kenneth Parker convinced the directors
          of the family business to concentrate the firm\x{2019}s money in a new design, his luxury Duofold pen. (He smartly waited until Mr. Parker, his dad, the big boss, had left for a long sea voyage around Africa and Asia and couldn\x{2019}t veto him.) Ten years later,
          in the worst days of the Great Depression, Parker gambled again by introducing another high-end model, the Vacumatic. And
          just a few years after that, Parker, by then boss himself, was itching for another new design. He had read and absorbed Moholy-Nagy\x{2019}s
@@ -252,7 +271,7 @@ $VAR1 = [
             '[ap ~ 01:00] The Disappearing Spoon_ And Other True Tal - Sam Kean.epub (OEBPS/chapter016.html) - about 100',
             "Now, if you translate quantum mechanics into English (always risky), the equation says that the uncertainty in something\x{2019}s
          position (\x{394}x) times the uncertainty in its speed and direction (its momentum, \x{394}p) always exceeds or is equal to the number
-         \x{201c}h divided by four times pi.\x{201d} (The h stands for Planck\x{2019}s constant, which is such a small number, <<about 100|9n:0>> trillion trillion
+         \x{201c}h divided by four times pi.\x{201d} (The h stands for Planck\x{2019}s constant, which is such a small number, <<about 100|9:0>> trillion trillion
          times smaller than one, that the uncertainty principle applies only to tiny, tiny things such as electrons or photons.) In
          other words, if you know a particle\x{2019}s position very well, you cannot know its momentum well at all, and vice versa.",
           ],
@@ -263,7 +282,7 @@ $VAR1 = [
          coast of England aren\x{2019}t natural, but originated as limestone quarries around 55 BC, when the limestone-loving Romans arrived. Scouts sent out by Julius Caesar spotted an attractive, cream-colored limestone
          near modern-day Beer, England, and began chipping it out to adorn Roman facades. English limestone from Beer later was used
          in building Buckingham Palace, the Tower of London, and Westminster Abbey, and all that missing stone left gaping caverns
-         in the seaside cliffs. By <<1800|9n:0>>, a few local boys who\x{2019}d grown up sailing ships and playing tag in the labyrinths decided to
+         in the seaside cliffs. By <<1800|9e:1>>, a few local boys who\x{2019}d grown up sailing ships and playing tag in the labyrinths decided to
          marry their childhood pastimes by becoming smugglers, using the calcium coves to conceal the French brandy, fiddles, tobacco,
          and silk they ran over from Normandy in fast cutters.",
           ],
@@ -271,14 +290,14 @@ $VAR1 = [
             1,
             '[~ 19:00] The Disappearing Spoon_ And Other True Tal - Sam Kean.epub (OEBPS/chapter017.html) - around 1900',
             'Still, chefs and chemists tended to distrust one another, chemists seeing cooks as undisciplined and unscientific, cooks seeing
-         chemists as sterile killjoys. Only <<around 1900|9n:0>> did bubble science coalesce into a respectable field, though the men responsible, Ernest Rutherford and Lord Kelvin, had only
+         chemists as sterile killjoys. Only <<around 1900|9:0>> did bubble science coalesce into a respectable field, though the men responsible, Ernest Rutherford and Lord Kelvin, had only
          dim ideas of what their work would lead to. Rutherford, in fact, was mostly interested in plumbing what at the time were the
          murky depths of the periodic table.',
           ],
           [
             1,
             '[19:00] The Disappearing Spoon_ And Other True Tal - Sam Kean.epub (OEBPS/chapter017.html) - 1900',
-            "It was a triumph of human reasoning\x{2014}and about as dead wrong as Ussher\x{2019}s guess. By <<1900|9n:0>>, Rutherford among others recognized
+            "It was a triumph of human reasoning\x{2014}and about as dead wrong as Ussher\x{2019}s guess. By <<1900|9e:1>>, Rutherford among others recognized
          that however far physics had outpaced other sciences in prestige and glamour (Rutherford himself was fond of saying, \x{201c}In science,
          there is only physics; all the rest is stamp collecting\x{201d}\x{2014}words he later had to eat when he won a Nobel Prize in Chemistry), in this case
          the physics didn\x{2019}t feel right. Charles Darwin argued persuasively that humans could not have evolved from dumb bacteria in

@@ -7,7 +7,7 @@ $VAR1 = [
           [
             1,
             '[ap 07:00] Last Don - Mario Puzo.epub (OPS/Puzo_9780345480712_epub_c05_r1.htm) - seven',
-            "\x{201c}Would you mind coming to my place?\x{201d} Athena asked. \x{201c}I\x{2019}ll make dinner simple so we can work while we eat.\x{201d} She paused for a moment, then said, \x{201c}At <<seven|9m:0>>?\x{201d}",
+            "\x{201c}Would you mind coming to my place?\x{201d} Athena asked. \x{201c}I\x{2019}ll make dinner simple so we can work while we eat.\x{201d} She paused for a moment, then said, \x{201c}At <<seven|9t:0>>?\x{201d}",
           ],
           [
             1,
@@ -62,7 +62,7 @@ $VAR1 = [
           [
             1,
             '[15:00] Last Don - Mario Puzo.epub (OPS/Puzo_9780345480712_epub_c13_r1.htm) - three in the afternoon',
-            'Senator Warren Wavven and his entourage of three male aides were checked into their Xanadu Villa at <<three in the afternoon|5>>. As usual, he had traveled in an unmarked limo and without any sort of escort. At <<five|9m:0>>, he summoned Cross to his Villa.',
+            'Senator Warren Wavven and his entourage of three male aides were checked into their Xanadu Villa at <<three in the afternoon|5>>. As usual, he had traveled in an unmarked limo and without any sort of escort. At <<five|9e>>, he summoned Cross to his Villa.',
           ],
           [
             1,
@@ -113,7 +113,7 @@ $VAR1 = [
             1,
             '[ap ~ 08:00] Last Don - Mario Puzo.epub (OPS/Puzo_9780345480712_epub_c16_r1.htm) - About eight',
             "\x{201c}When?\x{201d} Cross asked.
-\x{201c}<<About eight|9:0>> last night,\x{201d} Petie said. \x{201c}Giorgio called for you.\x{201d}
+\x{201c}<<About eight|9e:1>> last night,\x{201d} Petie said. \x{201c}Giorgio called for you.\x{201d}
 Cross thought, While I was making love, my father was lying in the morgue. He felt an extraordinary contempt for his moment of weakness, an overwhelming shame. \x{201c}I have to go,\x{201d} he said to Athena.",
           ],
           [
@@ -134,7 +134,7 @@ Cross thought, While I was making love, my father was lying in the morgue. He fe
           [
             1,
             '[ap 04:00] Last Don - Mario Puzo.epub (OPS/Puzo_9780345480712_epub_c17_r1.htm) - four',
-            "At <<four|9m:0>>, Cross was back in the doctor\x{2019}s sitting room. They were waiting for him. Bethany was poring over the book of painting, Athena was pale, the only physical sign that Cross knew could not be acting. Bethany was also gobbling a plate of pastries, and the doctor took it away from her, saying something in French. Bethany did not protest. A nurse came then to take her to the playroom.",
+            "At <<four|9e>>, Cross was back in the doctor\x{2019}s sitting room. They were waiting for him. Bethany was poring over the book of painting, Athena was pale, the only physical sign that Cross knew could not be acting. Bethany was also gobbling a plate of pastries, and the doctor took it away from her, saying something in French. Bethany did not protest. A nurse came then to take her to the playroom.",
           ],
           [
             1,

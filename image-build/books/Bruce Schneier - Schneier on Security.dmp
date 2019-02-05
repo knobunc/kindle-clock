@@ -46,6 +46,11 @@ $VAR1 = [
           ],
           [
             1,
+            '[> 20:00] Schneier on Security - Bruce Schneier.epub (Schneier_on_Security_split_063.html) - After 2000',
+            "The U.S has been here before. <<After 2000|9e:1>>, voting machine problems made international headlines. The government appropriated money to fix the problems nationwide. Unfortunately, electronic voting machines\x{2014}although presented as the solution\x{2014}have largely made the problem worse. This doesn\x{2019}t mean that these machines should be abandoned, but they need to be designed to increase both their accuracy, and people\x{2019}s trust in their accuracy. This is difficult, but not impossible.",
+          ],
+          [
+            1,
             '[16:00] Schneier on Security - Bruce Schneier.epub (Schneier_on_Security_split_068.html) - 4:00 p.m.',
             "On August 14 at <<4:00 p.m.|2a>>, the power went out in New York City and across much of the Northeast. As many as 50 million people were without power, some for days. Although there were some initial rumors of terrorism\x{2014}only a few, thankfully\x{2014}it was an accident.",
           ],
@@ -97,7 +102,7 @@ $VAR1 = [
           [
             1,
             '[ap ~ 02:33] Schneier on Security - Bruce Schneier.epub (Schneier_on_Security_split_086.html) - about 233',
-            "Infant abduction is rare, but still a risk. In the last 22 years, <<about 233|9n:0>> such abductions have occurred in the United States. Approximately 4 million babies are born each year, which means that a baby has a 1-in-375,000 chance of being abducted. Compare this with the infant mortality rate in the U.S.\x{2014}one in 145\x{2014}and it becomes clear where the real risks are.",
+            "Infant abduction is rare, but still a risk. In the last 22 years, <<about 233|9:0>> such abductions have occurred in the United States. Approximately 4 million babies are born each year, which means that a baby has a 1-in-375,000 chance of being abducted. Compare this with the infant mortality rate in the U.S.\x{2014}one in 145\x{2014}and it becomes clear where the real risks are.",
           ],
           [
             1,

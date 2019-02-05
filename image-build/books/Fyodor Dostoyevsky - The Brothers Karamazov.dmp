@@ -203,7 +203,7 @@ $VAR1 = [
             1,
             '[ap 03:00] The Brothers Karamazov - Fyodor Dostoyevsky.epub (The_Karamazov_Brothers_split_062.html) - three o\'clock',
             '"Why do you look so glum? You\'re not angry, are you? Wait a bit, you shall soon get to bed.... What\'s the time?"
-"It\'ll be <<three o\'clock|6>>. <<Past three|9:1>>, it must be."
+"It\'ll be <<three o\'clock|6>>. <<Past three|9e:1>>, it must be."
 "We\'ll leave off soon. We\'ll leave off."',
           ],
           [
@@ -229,7 +229,7 @@ $VAR1 = [
           [
             1,
             '[03:00] The Brothers Karamazov - Fyodor Dostoyevsky.epub (The_Karamazov_Brothers_split_063.html) - three o\'clock at night',
-            '"And be sure, be sure," she prattled on, "to come back and tell me what you see there, and what you find out ... what comes to light ... how they\'ll try him ... and what he\'s condemned to.... Tell me, we have no capital punishment, have we? But be sure to come, even if it\'s at <<three o\'clock at night|6>>, at <<four|9:1>>, at <<half-past four|10>>.... Tell them to wake me, to wake me, to shake me, if I don\'t get up.... But, good heavens, I shan\'t sleep! But wait, hadn\'t I better come with you?"',
+            '"And be sure, be sure," she prattled on, "to come back and tell me what you see there, and what you find out ... what comes to light ... how they\'ll try him ... and what he\'s condemned to.... Tell me, we have no capital punishment, have we? But be sure to come, even if it\'s at <<three o\'clock at night|6>>, at <<four|9e:1>>, at <<half-past four|10>>.... Tell them to wake me, to wake me, to shake me, if I don\'t get up.... But, good heavens, I shan\'t sleep! But wait, hadn\'t I better come with you?"',
           ],
           [
             1,

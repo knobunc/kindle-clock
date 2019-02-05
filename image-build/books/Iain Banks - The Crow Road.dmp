@@ -12,7 +12,7 @@ $VAR1 = [
           [
             1,
             '[ap ~ 02:00] The Crow Road - Iain Banks.epub (The_Crow_Road_split_011.html) - About two',
-            "\x{2018}Yes; very impressive.\x{2019} Kenneth kissed his sister\x{2019}s cheek. How old had she been when he\x{2019}d come out here with Fergus and the rest? <<About two|9:0>>, he guessed. Not old enough to come all this way on a bike. He must have been eight or nine. He wondered where Hamish had been; ill, maybe. He\x{2019}d always been taking colds.",
+            "\x{2018}Yes; very impressive.\x{2019} Kenneth kissed his sister\x{2019}s cheek. How old had she been when he\x{2019}d come out here with Fergus and the rest? <<About two|9e:1>>, he guessed. Not old enough to come all this way on a bike. He must have been eight or nine. He wondered where Hamish had been; ill, maybe. He\x{2019}d always been taking colds.",
           ],
           [
             1,
@@ -113,13 +113,13 @@ $VAR1 = [
           ],
           [
             1,
-            "[ap ~ 10:00] The Crow Road - Iain Banks.epub (The_Crow_Road_split_024.html) - about ten o\x{2019}clock",
-            "I\x{2019}d stayed in the Lochgair house over Hogmanay itself. We had plenty of drink in, and mum and I had prepared loads of food, but not many people actually visited after the bells. Verity went to bed about ten past midnight after struggling to stay awake from <<about ten o\x{2019}clock|6>>. She had a very small glass of whisky at the bells. Some people from the village came in about one, Aunt Tone and Uncle Hamish arrived about two for half an hour of strained conversation, and some of James\x{2019}s pals called in after four, but mostly it was just mum, Lewis, James and I together. James conked out about six, but Lewis and I were determined to see the dawn come up just on principle.",
+            '[~ 00:10] The Crow Road - Iain Banks.epub (The_Crow_Road_split_024.html) - about ten past midnight',
+            "I\x{2019}d stayed in the Lochgair house over Hogmanay itself. We had plenty of drink in, and mum and I had prepared loads of food, but not many people actually visited after the bells. Verity went to bed <<about ten past midnight|10>> after struggling to stay awake from <<about ten o\x{2019}clock|6>>. She had a very small glass of whisky at the bells. Some people from the village came in about one, Aunt Tone and Uncle Hamish arrived about two for half an hour of strained conversation, and some of James\x{2019}s pals called in after four, but mostly it was just mum, Lewis, James and I together. James conked out about six, but Lewis and I were determined to see the dawn come up just on principle.",
           ],
           [
             1,
             '[ap 01:00] The Crow Road - Iain Banks.epub (The_Crow_Road_split_024.html) - one',
-            "We took Lewis and Verity\x{2019}s new soft-top XR3i - roof down, heater up full - out into the grey-pink dawn and drove through Lochgilphead and then into Gallanach and just cruised about the town, waving at the people still walking around the place and shouting Happy New Year! at <<one|9m:0>> and all. Lewis and I had brought the whisky, just in case we met anybody we felt we ought to offer a dram. So we started with each other, and all that water during the night must have done us the power of good because the whisky tasted great.",
+            "We took Lewis and Verity\x{2019}s new soft-top XR3i - roof down, heater up full - out into the grey-pink dawn and drove through Lochgilphead and then into Gallanach and just cruised about the town, waving at the people still walking around the place and shouting Happy New Year! at <<one|9t:0>> and all. Lewis and I had brought the whisky, just in case we met anybody we felt we ought to offer a dram. So we started with each other, and all that water during the night must have done us the power of good because the whisky tasted great.",
           ],
           [
             1,
@@ -169,7 +169,7 @@ $VAR1 = [
           [
             1,
             '[13:25] The Crow Road - Iain Banks.epub (The_Crow_Road_split_025.html) - 1325',
-            'The Strathclyde Police received a telephone tip-off at their head-quarters in Glasgow that a drug ring was using Loch Coille Bharr - just south of the Argyllshire village of Crinan - as a hiding place for cocaine, at <<1325|9n:0>> on January the 23rd. The tip-off was quite specific; talking of weighted, water-tight plastic cylinders towed behind yachts coming from the Continent and transferred to the loch to await pick-up by dealers from Glasgow. The loch was cordoned off that day and police divers started searching the south end of the loch the following morning, while policemen in small boats used grappling hooks to drag the rest.',
+            'The Strathclyde Police received a telephone tip-off at their head-quarters in Glasgow that a drug ring was using Loch Coille Bharr - just south of the Argyllshire village of Crinan - as a hiding place for cocaine, at <<1325|9:0>> on January the 23rd. The tip-off was quite specific; talking of weighted, water-tight plastic cylinders towed behind yachts coming from the Continent and transferred to the loch to await pick-up by dealers from Glasgow. The loch was cordoned off that day and police divers started searching the south end of the loch the following morning, while policemen in small boats used grappling hooks to drag the rest.',
           ],
           [
             1,

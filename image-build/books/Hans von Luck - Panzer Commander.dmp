@@ -14,12 +14,12 @@ $VAR1 = [
             '[03:00] Panzer Commander_ The Memoirs of Colonel H - Hans von Luck.epub (OEBPS/part1.xhtml) - three o\'clock in the morning',
             "After a short pause for effect, I spoke accordingly, \x{201c}Polkovnik, you are a colonel like me. (I deliberately used the familiar du form of address.) You have done your duty in the war just like me. Both of us believed we had to defend our homeland. We Germans were probably misled by highly accomplished, one-sided propaganda. Both of us have taken an oath.\x{201d} The Colonel listened attentively.
 \x{201c}It's <<three o'clock in the morning|6>>,\x{201d} I went on. \"I am tired.
-At <<six|9m:1>> we shall be woken up again to start another day of our captivity.,, \x{201c}I know the Russian law. The accused has to prove his innocence and not the court the guilt of the defendant. How shall I defend myself? If you want to keep me here, you'll find a reason all right. So make it brief and then let me go to sleep.\x{201d} There followed a short whispered conversation between the Colonel and his colleagues. Then the Colonel said, \x{201c}You speak Russian. Where did you learn it?\x{201d} His tone was placid, almost benevolent.",
+At <<six|9t:1>> we shall be woken up again to start another day of our captivity.,, \x{201c}I know the Russian law. The accused has to prove his innocence and not the court the guilt of the defendant. How shall I defend myself? If you want to keep me here, you'll find a reason all right. So make it brief and then let me go to sleep.\x{201d} There followed a short whispered conversation between the Colonel and his colleagues. Then the Colonel said, \x{201c}You speak Russian. Where did you learn it?\x{201d} His tone was placid, almost benevolent.",
           ],
           [
             1,
             '[ap 06:00] Panzer Commander_ The Memoirs of Colonel H - Hans von Luck.epub (OEBPS/part1.xhtml) - six',
-            "At <<six|9m:0>> we shall be woken up again to start another day of our captivity.,, \x{201c}I know the Russian law. The accused has to prove his innocence and not the court the guilt of the defendant. How shall I defend myself? If you want to keep me here, you'll find a reason all right. So make it brief and then let me go to sleep.\x{201d} There followed a short whispered conversation between the Colonel and his colleagues. Then the Colonel said, \x{201c}You speak Russian. Where did you learn it?\x{201d} His tone was placid, almost benevolent.",
+            "At <<six|9t:0>> we shall be woken up again to start another day of our captivity.,, \x{201c}I know the Russian law. The accused has to prove his innocence and not the court the guilt of the defendant. How shall I defend myself? If you want to keep me here, you'll find a reason all right. So make it brief and then let me go to sleep.\x{201d} There followed a short whispered conversation between the Colonel and his colleagues. Then the Colonel said, \x{201c}You speak Russian. Where did you learn it?\x{201d} His tone was placid, almost benevolent.",
           ],
           [
             1,
@@ -112,7 +112,7 @@ Thank goodness we had maps. Our first objective was Baruth, on the important Dre
             1,
             '[ap 01:00] Panzer Commander_ The Memoirs of Colonel H - Hans von Luck.epub (OEBPS/part15.xhtml) - one',
             "\x{201c}Of course, Jupp. I'll come. I'll let you know.\x{201d} I went from table to table. What had become of the plennis who in those days, in their coarse denims and padded jackets, had all looked alike? I was interested in the theater and music group, with whom I had spent so many pleasant hours.
-At <<one|9m:1>> table I was detained.
+At <<one|9t:1>> table I was detained.
 \"Do you remember us? I'm Glaubrecht, the one-time drummer.",
           ],
           [
@@ -124,6 +124,11 @@ At <<one|9m:1>> table I was detained.
             1,
             '[~ 12:00] Panzer Commander_ The Memoirs of Colonel H - Hans von Luck.epub (OEBPS/part16.xhtml) - around noon',
             'It was <<around noon|3b>> when the cursed war ended for me and the remainder of my 3 Company. The situation did not offer any chance of escape. No antitank weapons were left. My men were dispersed. All communications were destroyed.',
+          ],
+          [
+            1,
+            '[> 19:37] Panzer Commander_ The Memoirs of Colonel H - Hans von Luck.epub (OEBPS/part2.xhtml) - after 1937',
+            "Europe on the Eve of War: Travels and Experiences I longed to travel to new places. I wanted to follow the advice of my old mathematics teacher, who said to me, \x{201c}Travel as often as you can, and see your homeland from outside. Make contact with people of other countries. Only then can you judge your Fatherland correctly.\x{201d} In the years from 1933 to 1935, when foreign currency was still being allocated, I went to Prague and Warsaw, hence to countries in which I knew no one. Later, <<after 1937|9e:1>>, when only 15 marks per journey were authorized, I visited the western and southern countries of Europe, in which I had friends and could survive quite well even with only 15 marks. My encounters with other people, other languages, and cultures confirmed my teacher's advice.",
           ],
           [
             1,
@@ -193,7 +198,7 @@ At <<one|9m:1>> table I was detained.
           [
             1,
             '[ap ~ 02:00] Panzer Commander_ The Memoirs of Colonel H - Hans von Luck.epub (OEBPS/part5.xhtml) - about 200',
-            "\x{201c}That's the stony desert,\x{201d} the pilot informed me, \x{201c}<<about 200|9n:0>> to 300 kilometers deep, before the start of the Sahara proper, with its huge white dunes. These level plains, broken frequently by rocks and hills of gravel, have been the scene of the fighting for the past year or so.\x{201d} I had read books about the desert and the Bedouins, those nomadic people who, for more than 2,500 years, had wandered across the deserts of Arabia and Libya, living according to their own laws and with no form of state. Already, I thought I could feel something of the longing that is said to strike all who once set foot in the desert. I hoped I would find time to savor this new environment and its people.",
+            "\x{201c}That's the stony desert,\x{201d} the pilot informed me, \x{201c}<<about 200|9:0>> to 300 kilometers deep, before the start of the Sahara proper, with its huge white dunes. These level plains, broken frequently by rocks and hills of gravel, have been the scene of the fighting for the past year or so.\x{201d} I had read books about the desert and the Bedouins, those nomadic people who, for more than 2,500 years, had wandered across the deserts of Arabia and Libya, living according to their own laws and with no form of state. Already, I thought I could feel something of the longing that is said to strike all who once set foot in the desert. I hoped I would find time to savor this new environment and its people.",
           ],
           [
             1,
@@ -335,7 +340,7 @@ I'm pleased to meet the Major of those days personally.\x{201c} North Africa, 19
           [
             1,
             '[ap > 09:00] Panzer Commander_ The Memoirs of Colonel H - Hans von Luck.epub (OEBPS/part9.xhtml) - Shortly after nine',
-            '<<Shortly after nine|9:0>>, I arrived at my command post and was looking forward to a Normandy breakfast, after which I intended changing from my uniform of the day into combat attire.',
+            '<<Shortly after nine|9e:1>>, I arrived at my command post and was looking forward to a Normandy breakfast, after which I intended changing from my uniform of the day into combat attire.',
           ],
           [
             1,

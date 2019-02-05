@@ -12,7 +12,7 @@ $VAR1 = [
           [
             1,
             '[ap 01:00] nEvermore! Tales of Murder, Mayhem and the - Nancy Kilpatrick.epub (text/part0009.html) - one',
-            'I walked maybe a hundred yards along the path, which veered between winter-drained trees and deadfalls as thorns and twigs clawed at me. At <<one|9m:0>> area where the trail broadened slightly and moved over a rotting log, I pulled out a Maglite and knelt to inspect.',
+            'I walked maybe a hundred yards along the path, which veered between winter-drained trees and deadfalls as thorns and twigs clawed at me. At <<one|9t:0>> area where the trail broadened slightly and moved over a rotting log, I pulled out a Maglite and knelt to inspect.',
           ],
           [
             1,
@@ -61,6 +61,11 @@ $VAR1 = [
           ],
           [
             1,
+            '[~ 18:30] nEvermore! Tales of Murder, Mayhem and the - Nancy Kilpatrick.epub (text/part0022.html) - about 1830',
+            "As children, my cousins and I had heard the adults talk about hidden treasure here at Mooreland. We spent hours hunting for pirates\x{2019} gold, digging holes in the ground, climbing up into the dusty attics. I was twelve when Aunt Eleanor took me aside and told me that not all treasures are of gold. She showed me a miniature of Edgar Allan Poe with his signature scrawled at the bottom. \x{201c}He\x{2019}s a distant cousin, you know, and he visited here one summer, <<about 1830|9e:1>>, if I recall correctly. The story goes, he left behind a leather-bound journal, but no one has ever found it. Can\x{2019}t you just imagine him sitting there at Great Great Grandfather\x{2019}s old desk, scratching away by candlelight?\x{201d} I could imagine it all too well. I had always felt a darkness in this room.",
+          ],
+          [
+            1,
             '[< 12:00] nEvermore! Tales of Murder, Mayhem and the - Nancy Kilpatrick.epub (text/part0022.html) - nearly noon',
             "It was <<nearly noon|3b>> when Corbett appeared. \x{201c}Peter Moore called earlier, Madam. He and his brother wish to visit this afternoon, if that would be convenient.\x{201d}",
           ],
@@ -87,6 +92,6 @@ $VAR1 = [
           [
             1,
             '[ap < 03:50] nEvermore! Tales of Murder, Mayhem and the - Nancy Kilpatrick.epub (text/part0027.html) - almost 350',
-            "Tanith Lee was born in London, England in 1947 and began to write at age 9. After a variety of occupations, in 1975 she was liberated when DAW Books USA published her 3 Fantasy/SF novels The\x{a0}Birthgrave, Don\x{2019}t Bite the Sun\x{a0}and\x{a0}The Storm Lord, followed by many more. She has written by now almost 100 novels and collections (including Fantasy, SF, Horror, Childrens, Young Adult, Steam Punk, Historical, Detective, Dark Contemporary), <<almost 350|9n:0>> short stories, 4 BBC radio plays and 2 TV scripts (Blake\x{2019}s 7). She has also been honoured with several awards, including the August Derleth for Death\x{2019}s Master. In 2008 she was made a Grand Master of Horror, and in 2013 given the Life Achievement Award. She is married to the writer/artist John Kaiine.",
+            "Tanith Lee was born in London, England in 1947 and began to write at age 9. After a variety of occupations, in 1975 she was liberated when DAW Books USA published her 3 Fantasy/SF novels The\x{a0}Birthgrave, Don\x{2019}t Bite the Sun\x{a0}and\x{a0}The Storm Lord, followed by many more. She has written by now almost 100 novels and collections (including Fantasy, SF, Horror, Childrens, Young Adult, Steam Punk, Historical, Detective, Dark Contemporary), <<almost 350|9:0>> short stories, 4 BBC radio plays and 2 TV scripts (Blake\x{2019}s 7). She has also been honoured with several awards, including the August Derleth for Death\x{2019}s Master. In 2008 she was made a Grand Master of Horror, and in 2013 given the Life Achievement Award. She is married to the writer/artist John Kaiine.",
           ],
         ];

@@ -236,7 +236,7 @@ $VAR1 = [
           [
             1,
             '[20:06] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/9780061792571_Chapter_38.xhtml) - twenty-six',
-            "Goto Dengo, at <<twenty-six|9:0>>, is one of the old hands here\x{2014}he came back from Shanghai
+            "Goto Dengo, at <<twenty-six|9e:0>>, is one of the old hands here\x{2014}he came back from Shanghai
                to be a leader and an example to them\x{2014}and he watches their faces, these faces he has
                known since he was a child, never happier than at this moment, glowing like cherry
                petals in the grey world of cloud, ocean, and painted steel.",
@@ -398,8 +398,8 @@ $VAR1 = [
           [
             1,
             '[21:10] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/9780061792571_Chapter_46.xhtml) - 2110',
-            "The young naval analyst continues. \x{201c}At <<2110|9m:0>>, Wilhelmshaven replied with a message
-               instructing OL Beck to interrogate the prisoners immediately. At <<0150|9m:0>>, Beck replied
+            "The young naval analyst continues. \x{201c}At <<2110|9e>>, Wilhelmshaven replied with a message
+               instructing OL Beck to interrogate the prisoners immediately. At <<0150|9e>>, Beck replied
                with a message stating that in his opinion the prisoners belonged to some sort of
                special naval intelligence unit.\x{201d}",
           ],
@@ -482,7 +482,7 @@ $VAR1 = [
             '[04:00] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/9780061792571_Chapter_59.xhtml) - four in the morning',
             "\x{201c}In the old days\x{2014}the early days\x{2014}when no one knew what the Gestapo was, and no one
                was afraid of it, this <<four in the morning|5>> business was clever. A fine way to exploit
-               man\x{2019}s primal fear of the darkness. But now it is 1942, almost 1943, and everyone is
+               man\x{2019}s primal fear of the darkness. But now it is 1942, <<almost 1943|9e:1>>, and everyone is
                afraid of the Gestapo. Everyone. More than they are of the dark. So, why don\x{2019}t you
                work during the daytime? You are stuck in a rut.\x{201d}",
           ],
@@ -726,6 +726,16 @@ $VAR1 = [
             "\x{201c}Earl Comstock, to whom your grandfather reported in Brisbane during World War II,
                was one of the founders of the NSA. And he was my boss from 1949 through <<about 1960|18:1>>.
                He was obsessed with Arethusa.\x{201d}",
+          ],
+          [
+            1,
+            '[~ 19:59] Cryptonomicon - Neal Stephenson.epub (OEBPS/text/9780061792571_Chapter_79.xhtml) - around 1959',
+            "\x{201c}After ten years or so, we began using it to haze incoming recruits. By that time
+               the NSA was getting fantastically huge, we were hiring all of the most brilliant math
+               prodigies in the United States, and when we got one who was especially cocky we\x{2019}d
+               put him on the Arethusa project just to give him the message that he wasn\x{2019}t as smart
+               as he thought he was. We broke a lot of kids on that wheel. But then, <<around 1959|9e:1>>,
+               this one kid came in\x{2014}the smartest kid we had seen yet\x{2014}and he broke it.\x{201d}",
           ],
           [
             1,

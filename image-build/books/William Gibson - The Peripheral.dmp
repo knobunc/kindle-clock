@@ -27,12 +27,12 @@ $VAR1 = [
           [
             1,
             '[ap ~ 10:00] The Peripheral - William Gibson.epub (text/part0046.html) - About ten',
-            "\x{201c}Close your eyes. Count down from fifteen. <<About ten|9:0>>, should be a wobble.\x{201d}",
+            "\x{201c}Close your eyes. Count down from fifteen. <<About ten|9e:1>>, should be a wobble.\x{201d}",
           ],
           [
             1,
             '[ap 10:00] The Peripheral - William Gibson.epub (text/part0054.html) - ten',
-            'Flynne counted down in her head. At <<ten|9m:1>>, she imagined the wobble. Kept counting.',
+            'Flynne counted down in her head. At <<ten|9e>>, she imagined the wobble. Kept counting.',
           ],
           [
             1,
@@ -47,7 +47,7 @@ $VAR1 = [
           [
             1,
             '[~ 20:28] The Peripheral - William Gibson.epub (text/part0085.html) - About twenty twenty-eight',
-            "\x{201c}I\x{2019}ve had a run of them, these past few years. They\x{2019}ll buy anything from the twenty thirties, twenty forties. Seem to try to get as far back from the jackpot proper as they can. <<About twenty twenty-eight|9:0>>, latest. What can I do you for, then, hon?\x{201d}",
+            "\x{201c}I\x{2019}ve had a run of them, these past few years. They\x{2019}ll buy anything from the twenty thirties, twenty forties. Seem to try to get as far back from the jackpot proper as they can. <<About twenty twenty-eight|9e:1>>, latest. What can I do you for, then, hon?\x{201d}",
           ],
           [
             1,

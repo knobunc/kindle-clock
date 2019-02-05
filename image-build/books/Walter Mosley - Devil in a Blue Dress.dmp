@@ -7,7 +7,7 @@ $VAR1 = [
           [
             1,
             '[19:56] Devil in a Blue Dress - Walter Mosley.epub (ops/xhtml/002.html) - 1956',
-            "By <<1956|9n:0>> Medgar had bought up the whole block around 98th and Hooper. He\x{2019}d moved his congregation to the old market on the corner and turned the storefront into a Baptist elementary school.",
+            "By <<1956|9:0>> Medgar had bought up the whole block around 98th and Hooper. He\x{2019}d moved his congregation to the old market on the corner and turned the storefront into a Baptist elementary school.",
           ],
           [
             1,
@@ -177,13 +177,13 @@ He just took all the money from his wallet and handed it over, mumbling, \x{201c
             1,
             '[ap ~ 02:00] Devil in a Blue Dress - Walter Mosley.epub (ops/xhtml/030.html) - About two',
             "\x{201c}What about the white man? When did he and Joppy get here?\x{201d}
-\x{201c}<<About two|9:1>>, three hours ago.\x{201d}
+\x{201c}<<About two|9e:1>>, three hours ago.\x{201d}
 \x{201c}<<Two|9k:0>>, three hours?\x{201d}",
           ],
           [
             1,
             '[ap ~ 02:00] Devil in a Blue Dress - Walter Mosley.epub (ops/xhtml/030.html) - About two',
-            "\x{201c}<<About two|9:1>>, three hours ago.\x{201d}
+            "\x{201c}<<About two|9e:1>>, three hours ago.\x{201d}
 \x{201c}<<Two|9k:0>>, three hours?\x{201d}
 \x{201c}Yeah. Joppy asked me where you were and when I told him he drove the car back around the house. Then they took off about a little bit after that.\x{201d}",
           ],

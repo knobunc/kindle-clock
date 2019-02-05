@@ -22,12 +22,12 @@ $VAR1 = [
           [
             1,
             '[ap 01:00] Design Patterns_ Elements of Reusable Obje - Erich Gamma.epub (OEBPS/html/ch05.html) - one',
-            '1. How intelligent should a command be? A command can have a wide range of abilities. At <<one|9m:0>> extreme it merely defines a binding between a receiver and the actions that carry out the request. At the other extreme it implements everything itself without delegating to a receiver at all. The latter extreme is useful when you want to define commands that are independent of existing classes, when no suitable receiver exists, or when a command knows its receiver implicitly. For example, a command that creates another application window may be just as capable of creating the window as any other object. Somewhere in between these extremes are commands that have enough knowledge to find their receiver dynamically.',
+            '1. How intelligent should a command be? A command can have a wide range of abilities. At <<one|9t:0>> extreme it merely defines a binding between a receiver and the actions that carry out the request. At the other extreme it implements everything itself without delegating to a receiver at all. The latter extreme is useful when you want to define commands that are independent of existing classes, when no suitable receiver exists, or when a command knows its receiver implicitly. For example, a command that creates another application window may be just as capable of creating the window as any other object. Somewhere in between these extremes are commands that have enough knowledge to find their receiver dynamically.',
           ],
           [
             1,
             '[ap 01:00] Design Patterns_ Elements of Reusable Obje - Erich Gamma.epub (OEBPS/html/ch05.html) - one',
-            'At <<one|9m:0>> extreme, which we call the push model, the subject sends observers detailed information about the change, whether they want it or not. At the other extreme is the pull model; the subject sends nothing but the most minimal notification, and observers ask for details explicitly thereafter.',
+            'At <<one|9t:0>> extreme, which we call the push model, the subject sends observers detailed information about the change, whether they want it or not. At the other extreme is the pull model; the subject sends nothing but the most minimal notification, and observers ask for details explicitly thereafter.',
           ],
           [
             1,

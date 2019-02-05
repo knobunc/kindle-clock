@@ -39,7 +39,7 @@ $VAR1 = [
           [
             1,
             '[ap 10:15] A Death in the Family - James Agee.epub (A_Death_In_The_Family_split_020.html) - quarter after ten',
-            "\x{201c}Walter came for us at <<quarter after ten|10>>. About twenty-five after, I should think.\x{201d}",
+            "\x{201c}Walter came for us at <<quarter after ten|10>>. <<About twenty-five|9:0>> after, I should think.\x{201d}",
           ],
           [
             1,
@@ -66,6 +66,6 @@ $VAR1 = [
           [
             1,
             '[ap ~ 09:00] A Death in the Family - James Agee.epub (A_Death_In_The_Family_split_031.html) - about nine',
-            "\x{201c}He was driving home last night,\x{201d} she said, \x{201c}<<about nine|9:1>>, and apparently something was already wrong with the steering mech\x{2014}with the wheel you guide the machine with. But your father didn\x{2019}t know it. Because there wasn\x{2019}t any way he could know until something went wrong and then it was too late. But one of the wheels struck a loose stone in the road and the wheel turned aside very suddenly, and when ...\x{201d} She paused and went on more quietly and slowly: \x{201c}You see, when your father tried to make the auto go where it should, stay on the road, he found he couldn\x{2019}t, he didn\x{2019}t have any control. Because something was wrong with the steering gear. So, instead of doing as he tried to make it, the auto twisted aside because of the loose stone and ran off the road into a deep ditch.\x{201d} She paused again. \x{201c}Do you understand?\x{201d}",
+            "\x{201c}He was driving home last night,\x{201d} she said, \x{201c}<<about nine|9e:1>>, and apparently something was already wrong with the steering mech\x{2014}with the wheel you guide the machine with. But your father didn\x{2019}t know it. Because there wasn\x{2019}t any way he could know until something went wrong and then it was too late. But one of the wheels struck a loose stone in the road and the wheel turned aside very suddenly, and when ...\x{201d} She paused and went on more quietly and slowly: \x{201c}You see, when your father tried to make the auto go where it should, stay on the road, he found he couldn\x{2019}t, he didn\x{2019}t have any control. Because something was wrong with the steering gear. So, instead of doing as he tried to make it, the auto twisted aside because of the loose stone and ran off the road into a deep ditch.\x{201d} She paused again. \x{201c}Do you understand?\x{201d}",
           ],
         ];

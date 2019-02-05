@@ -366,7 +366,7 @@ $VAR1 = [
           [
             1,
             '[ap ~ 10:15] Code - Charles Petzold.epub (OEBPS/ch16.html) - approximately 1015',
-            'Ascending into regions that few have traveled, a petabyte equals 250 bytes or 1,125,899,906,842,624 bytes, which is <<approximately 1015|9n:0>> or a quadrillion. An exabyte equals 260 bytes or 1,152,921,504,606,846,976 bytes, <<approximately 1018|9n:0>> or a quintillion.',
+            'Ascending into regions that few have traveled, a petabyte equals 250 bytes or 1,125,899,906,842,624 bytes, which is <<approximately 1015|9:0>> or a quadrillion. An exabyte equals 260 bytes or 1,152,921,504,606,846,976 bytes, <<approximately 1018|9:0>> or a quintillion.',
           ],
           [
             1,
@@ -703,17 +703,17 @@ STO [<<1003h|1>>],ANotice that the destination (a memory location for the Store 
           [
             1,
             '[19:11] Code - Charles Petzold.epub (OEBPS/ch18.html) - 1911',
-            "Herman Hollerith also set in motion a long trail of events. In 1896, he founded the Tabulating Machine Company to lease and sell the punch-card equipment. By <<1911|9n:0>>, with the help of a couple of mergers, it had become the Computing-Tabulating-Recording Company, or C-T-R. By <<1915|9n:0>>, the president of C-T-R was Thomas J. Watson (1874\x{2013}1956), who in 1924 changed the name of the company to International Business Machines Corporation, or IBM.",
+            "Herman Hollerith also set in motion a long trail of events. In 1896, he founded the Tabulating Machine Company to lease and sell the punch-card equipment. By <<1911|9e:1>>, with the help of a couple of mergers, it had become the Computing-Tabulating-Recording Company, or C-T-R. By <<1915|9e:1>>, the president of C-T-R was Thomas J. Watson (1874\x{2013}1956), who in 1924 changed the name of the company to International Business Machines Corporation, or IBM.",
           ],
           [
             1,
             '[19:28] Code - Charles Petzold.epub (OEBPS/ch18.html) - 1928',
-            "By <<1928|9n:0>>, the original 1890 census cards had evolved into the famous \"do not spindle, fold, or mutilate\" IBM cards, with 80 columns and 12 rows. They remained in active use for over 50 years, and even in their later years were sometimes referred to as Hollerith cards. I'll describe the legacy of these cards more in Chapters Chapter\x{a0}20, Chapter\x{a0}21, and Chapter\x{a0}24.",
+            "By <<1928|9e:1>>, the original 1890 census cards had evolved into the famous \"do not spindle, fold, or mutilate\" IBM cards, with 80 columns and 12 rows. They remained in active use for over 50 years, and even in their later years were sometimes referred to as Hollerith cards. I'll describe the legacy of these cards more in Chapters Chapter\x{a0}20, Chapter\x{a0}21, and Chapter\x{a0}24.",
           ],
           [
             1,
             '[19:45] Code - Charles Petzold.epub (OEBPS/ch18.html) - 1945',
-            'But beginning in the early 1940s, vacuum tubes began supplanting relays in new computers. By <<1945|9n:0>>, the transition was complete. While relay machines were known as electromechanical computers, vacuum tubes were the basis of the first electronic computers.',
+            'But beginning in the early 1940s, vacuum tubes began supplanting relays in new computers. By <<1945|9e:1>>, the transition was complete. While relay machines were known as electromechanical computers, vacuum tubes were the basis of the first electronic computers.',
           ],
           [
             1,
@@ -867,7 +867,7 @@ AllDone:     POP BC           ; Restore saved registers
           [
             1,
             '[ap ~ 10:24] Code - Charles Petzold.epub (OEBPS/ch21.html) - approximately 1024',
-            'Let\'s start with the low estimate. One way to reduce the memory requirements of a video display adapter is to restrict the adapter to text only. We\'ve already established that we can display 25 rows of 40 characters each, or a total of 1000 characters. The RAM on the video board need only store the 7-bit ASCII codes of those 1000 characters. That\'s 1000 7-bit values, which is <<approximately 1024|9n:0>> bytes, or 1 kilobyte.',
+            'Let\'s start with the low estimate. One way to reduce the memory requirements of a video display adapter is to restrict the adapter to text only. We\'ve already established that we can display 25 rows of 40 characters each, or a total of 1000 characters. The RAM on the video board need only store the 7-bit ASCII codes of those 1000 characters. That\'s 1000 7-bit values, which is <<approximately 1024|9:0>> bytes, or 1 kilobyte.',
           ],
           [
             1,

@@ -23,7 +23,7 @@ $VAR1 = [
             1,
             '[ap 11:00] Waxwork - Peter Lovesey.epub (OEBPS/9781569476468_Split13.html) - eleven',
             "\x{2018}What time did the conference begin, sir?\x{2019}
-\x{2018}At <<eleven|9m:1>>, Sergeant.\x{2019}
+\x{2018}At <<eleven|9e>>, Sergeant.\x{2019}
 \x{2018}Then you must have started early. It would take the best part of two hours to get to Brighton from here. You were there in time, I hope?\x{2019}",
           ],
           [
@@ -53,12 +53,12 @@ Berry was shaving.',
             '[ap 11:00] Waxwork - Peter Lovesey.epub (OEBPS/9781569476468_Split15.html) - eleven',
             "\x{2018}The meeting opened in the morning, I believe. There was no delay?\x{2019}
 \x{2018}No delay, sir. It started sharp at <<eleven|9c:1>>.\x{2019}
-If Howard Cromer had opened the A.G.M. at <<eleven|9m:1>>, he must have left Kew soon <<after nine that morning|9h>>.",
+If Howard Cromer had opened the A.G.M. at <<eleven|9e>>, he must have left Kew soon <<after nine that morning|9h>>.",
           ],
           [
             1,
             '[ap 11:00] Waxwork - Peter Lovesey.epub (OEBPS/9781569476468_Split15.html) - eleven',
-            'If Howard Cromer had opened the A.G.M. at <<eleven|9m:1>>, he must have left Kew soon <<after nine that morning|9h>>.',
+            'If Howard Cromer had opened the A.G.M. at <<eleven|9e>>, he must have left Kew soon <<after nine that morning|9h>>.',
           ],
           [
             1,

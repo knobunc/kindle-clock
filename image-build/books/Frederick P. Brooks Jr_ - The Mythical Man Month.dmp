@@ -12,12 +12,12 @@ $VAR1 = [
           [
             1,
             '[ap 01:00] The Mythical Man Month_ Essays on Software - Frederick P. Brooks Jr_.epub (The_Mythical_Man_Month_split_085.html) - one',
-            'It can also bring about ridiculous vacillation. I recall a machine whose instruction counter popped in or out of memory every six months during a three-year development cycle. At <<one|9m:0>> phase a little more performance would be wanted, so the instruction counter was implemented in transistors. At the next phase cost reduction was the theme, so the counter would be implemented as a memory location. On another project the best engineering manager I ever saw served often as a giant flywheel, his inertia damping the fluctuations that came from market and management people.',
+            'It can also bring about ridiculous vacillation. I recall a machine whose instruction counter popped in or out of memory every six months during a three-year development cycle. At <<one|9t:0>> phase a little more performance would be wanted, so the instruction counter was implemented in transistors. At the next phase cost reduction was the theme, so the counter would be implemented as a memory location. On another project the best engineering manager I ever saw served often as a giant flywheel, his inertia damping the fluctuations that came from market and management people.',
           ],
           [
             1,
             '[19:56] The Mythical Man Month_ Essays on Software - Frederick P. Brooks Jr_.epub (The_Mythical_Man_Month_split_139.html) - 1956',
-            'But the state of the art in the 1950s was not in fact small one-person programs. In 1952, the Univac was at work processing the 1950 census with a complex program developed by about eight programmers. Other machines were doing chemical dynamics, neutron diffusion calculations, missile performance calculations, etc. Assemblers, relocating linkers and loaders, floating-point interpretive systems, etc. were in routine use. By 1955 people were building 50 to 100 man-year business programs. By <<1956|9n:0>> General Electric had in operation a payroll system in its Louisville appliance plant with more than 80,000 words of program. By <<1957|9n:0>>, the SAGE ANFSQ/7 air defense computer had been running two years, and a 75,000 instruction communications-based, fail-safe-duplexed real-time system was in operation in 30 sites. One can hardly maintain that it is evolution of techniques for one-person programs that chiefly describes software engineering efforts since 1952.',
+            'But the state of the art in the 1950s was not in fact small one-person programs. In 1952, the Univac was at work processing the 1950 census with a complex program developed by about eight programmers. Other machines were doing chemical dynamics, neutron diffusion calculations, missile performance calculations, etc. Assemblers, relocating linkers and loaders, floating-point interpretive systems, etc. were in routine use. By 1955 people were building 50 to 100 man-year business programs. By <<1956|9:0>> General Electric had in operation a payroll system in its Louisville appliance plant with more than 80,000 words of program. By <<1957|9:0>>, the SAGE ANFSQ/7 air defense computer had been running two years, and a 75,000 instruction communications-based, fail-safe-duplexed real-time system was in operation in 30 sites. One can hardly maintain that it is evolution of techniques for one-person programs that chiefly describes software engineering efforts since 1952.',
           ],
           [
             1,
@@ -235,6 +235,11 @@ function in order to obviate communication.',
             1,
             '[ap 11:24] The Mythical Man Month_ Essays on Software - Frederick P. Brooks Jr_.epub (The_Mythical_Man_Month_split_160.html) - 11.24',
             '<<11.24|4>> Fixing a defect has a substantial (20 to 50 percent) chance of introducing another.',
+          ],
+          [
+            1,
+            '[ap 11:25] The Mythical Man Month_ Essays on Software - Frederick P. Brooks Jr_.epub (The_Mythical_Man_Month_split_160.html) - 11.25',
+            '<<11.25|4>> After each fix, one must run the entire bank of test cases previously run against a system to ensure that it has not been damaged in an obscure way.',
           ],
           [
             1,

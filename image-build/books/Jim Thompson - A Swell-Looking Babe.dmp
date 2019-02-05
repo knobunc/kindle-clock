@@ -27,7 +27,7 @@ $VAR1 = [
           [
             1,
             '[> 00:00] A Swell-Looking Babe - Jim Thompson.epub (53.xhtml) - after midnight',
-            "Bascom was the sole front-office employee <<after midnight|13>>, performing \x{2013} with Dusty's assistance \x{2013} the duties of room clerk, key clerk, cashier and night auditor. There was no night house detective. The coffee shop and grille room closed at <<one o'clock|6>>. By <<two|9:1>>, the lobby porters had completed their mopping and scrubbing and were on their way homeward. At <<two|9m:1>>, the late-shift elevator operator left, and Dusty took care of his infrequent calls from then on.",
+            "Bascom was the sole front-office employee <<after midnight|13>>, performing \x{2013} with Dusty's assistance \x{2013} the duties of room clerk, key clerk, cashier and night auditor. There was no night house detective. The coffee shop and grille room closed at <<one o'clock|6>>. By <<two|9e:1>>, the lobby porters had completed their mopping and scrubbing and were on their way homeward. At <<two|9e>>, the late-shift elevator operator left, and Dusty took care of his infrequent calls from then on.",
           ],
           [
             1,
@@ -49,7 +49,7 @@ Bascom picked up the pencil. Then, suddenly, he laughed. Softly, amusedly. Sudde
           [
             1,
             '[ap 05:30] A Swell-Looking Babe - Jim Thompson.epub (53.xhtml) - five-thirty',
-            'The remaining three hours of the shift passed swiftly. At <<five-thirty|5b>>, the split-watch elevator boy arrived. At <<six|9m:1>>, the head baggage porter retrieved the check-room key from Dusty and began his day\'s duties. At <<seven|3j>> the entire day shift came to work.',
+            'The remaining three hours of the shift passed swiftly. At <<five-thirty|5b>>, the split-watch elevator boy arrived. At <<six|9e>>, the head baggage porter retrieved the check-room key from Dusty and began his day\'s duties. At <<seven|3j>> the entire day shift came to work.',
           ],
           [
             1,
@@ -98,9 +98,9 @@ Bascom picked up the pencil. Then, suddenly, he laughed. Softly, amusedly. Sudde
           ],
           [
             1,
-            '[02:30] A Swell-Looking Babe - Jim Thompson.epub (62.xhtml) - Two-thirty in the morning',
+            '[02:30] A Swell-Looking Babe - Jim Thompson.epub (62.xhtml) - Two-thirty in the morning of that day',
             'The days, the nights, slipped by, blending uneventfully one with another. Almost abruptly the day came, that day.
-<<Two-thirty in the morning|5>> of that day.
+<<Two-thirty in the morning of that day|5>>.
 ',
           ],
           [
@@ -146,13 +146,13 @@ Bascom picked up the pencil. Then, suddenly, he laughed. Softly, amusedly. Sudde
           [
             1,
             '[ap > 00:00] A Swell-Looking Babe - Jim Thompson.epub (64.xhtml) - a little after twelve',
-            "\"Nuts, nonsense,\" he said quickly. \"Now about the money. Come around to the hotel any time after I go on duty, <<a little after twelve|9:0>>, say. You, want to get something out of a suitcase you've left in the checkroom \x{2013} a lot of people do that \x{2013} and-\" understand. I supposed you'd do it that way.\"",
+            "\"Nuts, nonsense,\" he said quickly. \"Now about the money. Come around to the hotel any time after I go on duty, <<a little after twelve|9e:1>>, say. You, want to get something out of a suitcase you've left in the checkroom \x{2013} a lot of people do that \x{2013} and-\" understand. I supposed you'd do it that way.\"",
           ],
           [
             1,
             '[ap > 00:00] A Swell-Looking Babe - Jim Thompson.epub (65.xhtml) - A little after twelve',
             'She came out to his car with him the night he returned to work. It was dark, moonless. There was a threat of storm in the heavy, overheated air. She kissed him, remained within the circle of his arms for a moment.
-"<<A little after twelve|9:0>>, then, darling?"
+"<<A little after twelve|9e:1>>, then, darling?"
 "Or later. Whenever Dad goes to sleep."',
           ],
           [

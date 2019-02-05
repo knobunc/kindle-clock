@@ -175,6 +175,6 @@ Checking Server Amazon
         Error:  Get http://amazon.zom: dial tcp: GetAddrInfoW: No such host is known.
         Will check server again
 Checking Server Google
-        Server was OK on last check at 2014-04-23 <<12:49|2>>:45.6575639 -<<0400|18:0>> EDT',
+        Server was OK on last check at 2014-04-23 <<12:49|2>>:45.6575639 -0400 EDT',
           ],
         ];

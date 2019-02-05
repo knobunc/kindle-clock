@@ -53,7 +53,7 @@ $VAR1 = [
           [
             1,
             '[15:32] The Great Shark Hunt_ Strange Tales From a - Hunter S. Thompson.epub (OEBPS/part10_split_001.xhtml) - 1532',
-            "It wasn't always this way. Until <<1532|9n:0>> this city of crisp air and cold nights in the Andes 
+            "It wasn't always this way. Until <<1532|9:0>> this city of crisp air and cold nights in the Andes 
         Mountains served as the gold-rich capital of the Inca empire, the Indian society that 
         South American expert Harold Osborne has called \x{201c}the only civilization which has succeeded 
         in making the Andes genuinely habitable to man.\x{201d} Many of Cuzco's buildings still rest on 
@@ -88,7 +88,7 @@ $VAR1 = [
         could go before that but Saturday and Sunday are holidays and we just finished a five-day 
         lull having to do with Ecuadorian history. These holidays are maddening; every time you 
         turn around they are rolling down the store fronts and locking the offices. That, in 
-        addition to a <<noon|13>> to <<4 p.m.|5>> lunch hour, makes work just about impossible.',
+        addition to a <<noon|13>> to <<4 p.m|5>>. lunch hour, makes work just about impossible.',
           ],
           [
             1,
@@ -752,7 +752,7 @@ $VAR1 = [
         in the booming, rootless atmosphere of those times, it seemed like the thing to do. They 
         were not all Linkhorns, but the forced democracy of four war years had erased so many old 
         distinctions that even Linkhorns were confused. Their pattern of intermarriage was 
-        shattered, their children mixed freely and without violence. By <<1950|9n:0>> many Linkhorns were 
+        shattered, their children mixed freely and without violence. By <<1950|9:0>> many Linkhorns were 
         participating in the money economy; they owned decent cars, and even houses.',
           ],
           [
@@ -1238,27 +1238,6 @@ Let\'s not forget those numbers -- especially not if the difference between ten 
         <<two to one|10a:0>> favorite, but these numbers will not hold up-- or, if they do, Spinks as a <<two 
         to one|10a:0>> underdog will be a very tempting bet, even for me: and anything higher than that 
         will be almost irresistible.',
-          ],
-          [
-            1,
-            '[ap 11:01] The Great Shark Hunt_ Strange Tales From a - Hunter S. Thompson.epub (OEBPS/part11_split_003.xhtml) - one after eleven',
-            "When I arrived in Las Vegas two weeks before the last fight I told Bob Arum that I 
-        figured Leon had a twenty percent chance of winning. That translates into four to one 
-        odds, which even the nickel-and-dime \x{201c}experts\x{201d} said was a bad joke. The fight was 
-        considered such a gross mismatch that every bookie in Vegas except one had it \x{201c}Off the 
-        Board,\x{201d} meaning no bets at all, because Ali was such a prohibitive favorite even ten to 
-        one was deemed a sure way to lose money. As late as the thirteenth round, in fact, 
-        freelance bookies at ringside were still laying eight to one on Muhammad. My friend Semmes 
-        Luckett, sitting in one of the \$200 seats with a gaggle of high rollers, watched the 
-        round-by-round destruction of one poor bastard who lost 
-      
-      
-        at least 
-      
-      
-        \$402,000 in forty-five minutes -- betting on Ali first at ten to one, then down to eight 
-        to one after the first six or seven rounds -- then four to <<one after eleven|10>>, and finally 
-        all the way down to two to one at the end of thirteen.",
           ],
           [
             1,
@@ -2003,6 +1982,21 @@ We rang for the editor',
           ],
           [
             1,
+            '[> 20:00] The Great Shark Hunt_ Strange Tales From a - Hunter S. Thompson.epub (OEBPS/part6_split_001.xhtml) - After 1960',
+            "<<After 1960|9e:1>>, though, I no longer took him seriously. Two years later he blew his bid for 
+        the governorship of California and made it overwhelmingly clear that he no longer took 
+      
+      
+        himself 
+      
+      
+        seriously -- at least not as a politician. He made a national ass of himself by blaming 
+        his defeats on the \x{201c}biased press.\x{201d} He called a press conference and snarled into the 
+        microphone: \x{201c}You won't have Dick Nixon to kick around anymore, because, gentlemen, this is 
+        my final press conference.\x{201d}",
+          ],
+          [
+            1,
             '[< 00:00] The Great Shark Hunt_ Strange Tales From a - Hunter S. Thompson.epub (OEBPS/part6_split_001.xhtml) - almost midnight',
             'It was <<almost midnight|3b>> when the sleek little plane boomed down the runway and lifted off 
         toward Florida. I went back to the Holiday Inn and drank for a while with Nick Ruwe, the 
@@ -2685,7 +2679,7 @@ Hearing Room',
             '[ap ~ 09:00] The Great Shark Hunt_ Strange Tales From a - Hunter S. Thompson.epub (OEBPS/part9_split_001.xhtml) - about 900',
             'For reasons that will never be clear to anyone -- and especially not to the management 
         and other guests in this place -- the National Affairs Desk is operating once again at the 
-        Royal Biscayne Hotel, <<about 900|9n:0>> crooked meters from the Nixon/Rebozo compound on the other 
+        Royal Biscayne Hotel, <<about 900|9:0>> crooked meters from the Nixon/Rebozo compound on the other 
         side of the island. The desk itself is a round slab of what appears to be low-grade 
         jacaranda wood.',
           ],

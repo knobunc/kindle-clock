@@ -251,7 +251,7 @@ $VAR1 = [
           [
             1,
             '[< 18:14] To Say Nothing of the Dog - Connie Willis.epub (index_split_053.html) - before 1814',
-            "He pointed at a spot near the center. \x{201c}I introduced an historian here to steal one of the soup kettles. It created a major incongruity, and the interesting thing is that the self-correction didn\x{2019}t just involve increased slippage here and here,\x{201d} the light pointed at the top of the screen, \x{201c}but here, <<before 1814|9n:0>>.\x{201d}",
+            "He pointed at a spot near the center. \x{201c}I introduced an historian here to steal one of the soup kettles. It created a major incongruity, and the interesting thing is that the self-correction didn\x{2019}t just involve increased slippage here and here,\x{201d} the light pointed at the top of the screen, \x{201c}but here, <<before 1814|9:0>>.\x{201d}",
           ],
           [
             1,
@@ -434,7 +434,7 @@ $VAR1 = [
           [
             1,
             '[< 20:20] To Say Nothing of the Dog - Connie Willis.epub (index_split_074.html) - Before 2020',
-            'There was a chestnut tree in the center of the quad now, and it was at least thirty years old. <<Before 2020|9n:0>>, then, but after the Pandemic, and the railway schedule meant it was before the Underground had reached Oxford. And after the invention of time travel. Between 2013 and 2020.',
+            'There was a chestnut tree in the center of the quad now, and it was at least thirty years old. <<Before 2020|9e:1>>, then, but after the Pandemic, and the railway schedule meant it was before the Underground had reached Oxford. And after the invention of time travel. Between 2013 and 2020.',
           ],
           [
             1,

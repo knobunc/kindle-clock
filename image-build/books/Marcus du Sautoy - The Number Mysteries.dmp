@@ -52,7 +52,7 @@ $VAR1 = [
           [
             1,
             '[20:09] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0006.html) - 2009',
-            "The idea of this software is to utilize a computer\x{2019}s idle time to do computations. The program it uses implements a clever strategy that was developed to test whether Mersenne\x{2019}s numbers are prime. It still took a desktop computer several months to check Mersenne numbers with 9.8 million digits, but this is a lot faster than methods for testing whether a random number of this size is prime. By <<2009|9n:0>>, over ten thousand people had joined what has become known as the Great Internet Mersenne Prime Search, or GIMPS.",
+            "The idea of this software is to utilize a computer\x{2019}s idle time to do computations. The program it uses implements a clever strategy that was developed to test whether Mersenne\x{2019}s numbers are prime. It still took a desktop computer several months to check Mersenne numbers with 9.8 million digits, but this is a lot faster than methods for testing whether a random number of this size is prime. By <<2009|9e:1>>, over ten thousand people had joined what has become known as the Great Internet Mersenne Prime Search, or GIMPS.",
           ],
           [
             1,
@@ -196,11 +196,6 @@ Now, 5 is prime, and if I calculate 2 to the power of 5 on a five-hour clock cal
             1,
             '[ap 07:00] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0009.html) - 7',
             "Let\x{2019}s look at the Internet code in action, but with very small p and q so that we can easily follow what\x{2019}s going on. We\x{2019}ll say that for his soccer-shirt website, Bob has chosen the primes 3 and 11, so that the public clock calculator that customers must use to encrypt their credit card number has 33 hours on it. Bob keeps the primes 3 and 11 secret because they are the key to decoding messages, though he makes the number 33 public because this is the number of hours on his public clock calculator. The second piece of information made public on Bob\x{2019}s website is the encoding number E \x{2014}let\x{2019}s say it\x{2019}s <<7|9c:1>>. Everyone who buys a shirt from Bob online is doing exactly the same thing: raising their credit card number to the power 7 on a 33-hour clock calculator.",
-          ],
-          [
-            1,
-            "[ap 01:00] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0009.html) - 1 o\x{2019}clock",
-            "Here\x{2019}s a clever way to calculate 2 on the 33-hour clock calculator. We need to start multiplying 2s together: 2 = 4, 2 = 8, 2 = 16, 2 = 32. As we go to higher powers of 2, the hand on the clock winds farther around the clock face, and when we get to multiply by 2 for a sixth time, the hand is doing more than a whole revolution. There\x{2019}s a little trick we can do here that makes it look as though the clock hand is reversing its direction rather than spinning around farther. We simply say that 32 o\x{2019}clock on our 33-hour clock calculator is \x{2013}<<1 o\x{2019}clock|6>>. Then, after we\x{2019}ve gotten to 2 = 32, two more multiplications by 2 will get us to \x{2013}4, or 29 o\x{2019}clock. This way, we are spared having to calculate 2 to the power 7\x{2014}that is, 128\x{2014}and then finding the remainder upon dividing by 33. For very big numbers, this sort of saving is invaluable for a computer trying to calculate things quickly.",
           ],
           [
             1,
