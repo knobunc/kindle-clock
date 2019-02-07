@@ -7,7 +7,7 @@ $VAR1 = [
           [
             1,
             '[ap 03:00] Crooked House - Agatha Christie.epub (dummy_split_005.html) - Three',
-            'On Sept. 19th, at <<Three|9:0>> Gables, Swinly Dean, Aristide Leonides, beloved husband of Brenda Leonides, in his eighty-eighth year. Deeply regretted.',
+            'On Sept. 19th, at <<Three|9u>> Gables, Swinly Dean, Aristide Leonides, beloved husband of Brenda Leonides, in his eighty-eighth year. Deeply regretted.',
           ],
           [
             1,
@@ -93,9 +93,9 @@ $VAR1 = [
           [
             1,
             '[ap 04:50] Crooked House - Agatha Christie.epub (dummy_split_031.html) - 4:50',
-            "A Pocket Full of Rye
+            '
 <<4:50|2>> From Paddington
-The Mirror Crack\x{2019}d",
+',
           ],
           [
             1,

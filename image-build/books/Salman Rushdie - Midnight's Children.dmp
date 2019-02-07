@@ -12,7 +12,7 @@ $VAR1 = [
           [
             1,
             '[ap 02:00] Midnight\'s Children - Salman Rushdie.epub (OEBPS/Text/Rush_9780307538383_epub_c01_r1.htm) - Two',
-            'During which, an enormous white bedsheet is brought on, by <<Two|9:0>> Muscular Women. There is a hole in the sheet, a crudely cut circle, about seven inches in diameter.',
+            'During which, an enormous white bedsheet is brought on, by <<Two|9u>> Muscular Women. There is a hole in the sheet, a crudely cut circle, about seven inches in diameter.',
           ],
           [
             1,
@@ -38,25 +38,18 @@ $VAR1 = [
             1,
             '[ap 08:00] Midnight\'s Children - Salman Rushdie.epub (OEBPS/Text/Rush_9780307538383_epub_c01_r1.htm) - eight o\'clock',
             "Wee Willie Winkie (singing)
-
-  Wee Willie Winkie runs through the town,
-
-  Upstairs and downstairs in his nightgown.
-
-  Rapping at the window,
-
-  Crying through the lock,
-
-  \x{2018}Are the children all in bed?
-
-  For now it's <<eight o'clock|6>>.\x{2019}",
+Wee Willie Winkie runs through the town,
+Upstairs and downstairs in his nightgown.
+Rapping at the window,
+Crying through the lock,
+\x{2018}Are the children all in bed?
+For now it's <<eight o'clock|6>>.\x{2019}",
           ],
           [
             1,
             '[00:00] Midnight\'s Children - Salman Rushdie.epub (OEBPS/Text/Rush_9780307538383_epub_c01_r1.htm) - Midnight',
             "\x{2018}<<Midnight|13>>'s Child.
-
-  A charming pose of Baby Saleem Sinai, who was born last night at the exact moment of our Nation's independence \x{2014} the happy Child of that glorious Hour!\x{2019}",
+A charming pose of Baby Saleem Sinai, who was born last night at the exact moment of our Nation's independence \x{2014} the happy Child of that glorious Hour!\x{2019}",
           ],
           [
             1,
@@ -216,6 +209,13 @@ Pause.',
           ],
           [
             1,
+            '[00:00] Midnight\'s Children - Salman Rushdie.epub (OEBPS/Text/Rush_9780307538383_epub_col1_r1.htm) - MIDNIGHT',
+            'SALMAN RUSHDIE\'S
+<<MIDNIGHT|13>>\'S CHILDREN
+________________________________________________________',
+          ],
+          [
+            1,
             '[00:00] Midnight\'s Children - Salman Rushdie.epub (OEBPS/Text/Rush_9780307538383_epub_col1_r1.htm) - Midnight',
             "Salman Rushdie is the author of eight novels \x{2014} Grimus, <<Midnight|13>>'s Children, Shame, The Satanic Verses, Haroun and the Sea of Stories, The Moor's Last Sigh, The Ground Beneath Her Feet and Fury\x{2014} and one collection of short stories, East, West. He has also published three works of non-fiction \x{2014} The Jaguar Smile, Imaginary Homelands and, most recently, Step Across This Line: Collected Non-Fiction 1992\x{2013}2002. He is also co-editor of The Vintage Book of Indian Writing.",
           ],
@@ -242,8 +242,14 @@ Anthology',
             1,
             '[00:00] Midnight\'s Children - Salman Rushdie.epub (OEBPS/Text/Rush_9780307538383_epub_cop_r1.htm) - Midnight',
             "This is a dramatization of <<Midnight|13>>'s Children by Salman Rushdie.
-
-    Copyright \x{a9} 1980 by Salman Rushdie.",
+Copyright \x{a9} 1980 by Salman Rushdie.",
+          ],
+          [
+            1,
+            '[00:00] Midnight\'s Children - Salman Rushdie.epub (OEBPS/Text/Rush_9780307538383_epub_fm001_r1.htm) - MIDNIGHT',
+            "SALMAN RUSHDIE'S
+<<MIDNIGHT|13>>'S CHILDREN
+Characters \x{2014} In Order of Appearance",
           ],
           [
             1,

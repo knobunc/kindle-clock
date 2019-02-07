@@ -56,8 +56,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 08:00] Harry Potter and the Order of the Phoenix - J. K. Rowling.epub (index_split_009.html) - eight',
-            "\x{201c}No, no, it\x{2019}s not the toilet, it\x{2019}s the Potter boy\x{2019}s hearing \x{2014} they\x{2019}ve changed the time and venue \x{2014} it starts at <<eight|9g>> o\x{2019}clock now and it\x{2019}s down in old Courtroom Ten \x{2014}\x{201d}",
+            "[ap 08:00] Harry Potter and the Order of the Phoenix - J. K. Rowling.epub (index_split_009.html) - eight o\x{2019}clock",
+            "\x{201c}No, no, it\x{2019}s not the toilet, it\x{2019}s the Potter boy\x{2019}s hearing \x{2014} they\x{2019}ve changed the time and venue \x{2014} it starts at <<eight o\x{2019}clock|9g>> now and it\x{2019}s down in old Courtroom Ten \x{2014}\x{201d}",
           ],
           [
             1,

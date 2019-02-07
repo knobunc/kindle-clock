@@ -97,7 +97,7 @@ $VAR1 = [
           [
             1,
             '[19:30] Notes From a Small Island - Bill Bryson.epub (OEBPS/part19_split_001.xhtml) - 1930',
-            'Before long the house developed a reputation as a place where you could reliably expect to come a cropper. People moved in and abruptly moved out again, with ashen faces and terrible wounds. By <<1930|9e:1>>, when the house went on the market one last time, no buyer could be found for it. It stayed empty for twenty years, and finally in 1950 it was pulled down. Now the site is overgrown and weedy, and you could walk past it without ever guessing that one of the finest houses in the North had once stood here. But if you poke about in the tall grass, as we did now, you can find one of the old conservatory floors, made of neatly patterned black and white tiles. It was strangely reminiscent of the Roman mosaic I had seen at Winchcombe, and scarcely less astonishing.',
+            'Before long the house developed a reputation as a place where you could reliably expect to come a cropper. People moved in and abruptly moved out again, with ashen faces and terrible wounds. By <<1930|9:0>>, when the house went on the market one last time, no buyer could be found for it. It stayed empty for twenty years, and finally in 1950 it was pulled down. Now the site is overgrown and weedy, and you could walk past it without ever guessing that one of the finest houses in the North had once stood here. But if you poke about in the tall grass, as we did now, you can find one of the old conservatory floors, made of neatly patterned black and white tiles. It was strangely reminiscent of the Roman mosaic I had seen at Winchcombe, and scarcely less astonishing.',
           ],
           [
             1,
@@ -249,7 +249,7 @@ $VAR1 = [
           [
             1,
             '[ap ~ 10:00] Notes From a Small Island - Bill Bryson.epub (OEBPS/part3_split_001.xhtml) - about ten',
-            'Eventually, when the intricacies of B-roads, contraflow blackspots and good places to get a bacon sandwich have been discussed so thoroughly that your ears have begun to seep blood, one member of the party will turn to you and idly ask over a sip of beer when you were thinking of setting off. When this happens, you must never answer truthfully and say, in that kind of dopey way of yours, \'Oh, I don\'t know, <<about ten|9e:1>>, I suppose,\' because they\'ll all be off again.',
+            'Eventually, when the intricacies of B-roads, contraflow blackspots and good places to get a bacon sandwich have been discussed so thoroughly that your ears have begun to seep blood, one member of the party will turn to you and idly ask over a sip of beer when you were thinking of setting off. When this happens, you must never answer truthfully and say, in that kind of dopey way of yours, \'Oh, I don\'t know, <<about ten|9x>>, I suppose,\' because they\'ll all be off again.',
           ],
           [
             1,
@@ -329,9 +329,9 @@ $VAR1 = [
           [
             1,
             '[17:30] Notes From a Small Island - Bill Bryson.epub (OEBPS/part8_split_001.xhtml) - FIVE-THIRTY IN THE EVENING',
-            '
+            "CHAPTER\x{a0}\x{a0} SIX
 AND SO TO BOURNEMOUTH. I ARRIVED AT <<FIVE-THIRTY IN THE EVENING|5>>
-in a driving rain. Night had fallen heavily and the streets were full of swishing cars, their headlights sweeping through bullets of shiny rain. I\'d lived in Bournemouth for two years and thought I knew it reasonably well, but the area around the station had been extensively rebuilt, with new roads and office blocks and one of those befuddling networks of pedestrian subways that compel you to surface every few minutes like a gopher to see where you are.',
+in a driving rain. Night had fallen heavily and the streets were full of swishing cars, their headlights sweeping through bullets of shiny rain. I'd lived in Bournemouth for two years and thought I knew it reasonably well, but the area around the station had been extensively rebuilt, with new roads and office blocks and one of those befuddling networks of pedestrian subways that compel you to surface every few minutes like a gopher to see where you are.",
           ],
           [
             1,

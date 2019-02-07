@@ -161,8 +161,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[12:00] The Brothers Karamazov - Fyodor Dostoyevsky.epub (The_Karamazov_Brothers_split_055.html) - midday',
-            '"And I didn\'t expect that," cried Mitya, ecstatically. (He was still in a state of ecstasy.) He seized his six roubles and ran home. At home he borrowed three roubles from the people of the house, who loved him so much that they were pleased to give it him, though it was all they had. Mitya in his excitement told them on the spot that his fate would be decided that day, and he described, in desperate haste, the whole scheme he had put before Samsonov, the latter\'s decision, his own hopes for the future, and so on. These people had been told many of their lodger\'s secrets before, and so looked upon him as a gentleman who was not at all proud, and almost one of themselves. Having thus collected nine roubles Mitya sent for posting-horses to take him to the Volovya station. This was how the fact came to be remembered and established that "at <<midday|13>>, on the day before the event, Mitya had not a farthing, and that he had sold his watch to get money and had borrowed three roubles from his landlord, all in the presence of witnesses."',
+            '[ap < 01:00] The Brothers Karamazov - Fyodor Dostoyevsky.epub (The_Karamazov_Brothers_split_055.html) - almost one',
+            '"And I didn\'t expect that," cried Mitya, ecstatically. (He was still in a state of ecstasy.) He seized his six roubles and ran home. At home he borrowed three roubles from the people of the house, who loved him so much that they were pleased to give it him, though it was all they had. Mitya in his excitement told them on the spot that his fate would be decided that day, and he described, in desperate haste, the whole scheme he had put before Samsonov, the latter\'s decision, his own hopes for the future, and so on. These people had been told many of their lodger\'s secrets before, and so looked upon him as a gentleman who was not at all proud, and <<almost one|9w>> of themselves. Having thus collected nine roubles Mitya sent for posting-horses to take him to the Volovya station. This was how the fact came to be remembered and established that "at <<midday|13>>, on the day before the event, Mitya had not a farthing, and that he had sold his watch to get money and had borrowed three roubles from his landlord, all in the presence of witnesses."',
           ],
           [
             1,
@@ -203,7 +203,7 @@ $VAR1 = [
             1,
             '[ap 03:00] The Brothers Karamazov - Fyodor Dostoyevsky.epub (The_Karamazov_Brothers_split_062.html) - three o\'clock',
             '"Why do you look so glum? You\'re not angry, are you? Wait a bit, you shall soon get to bed.... What\'s the time?"
-"It\'ll be <<three o\'clock|6>>. <<Past three|9e:1>>, it must be."
+"It\'ll be <<three o\'clock|6>>. <<Past three|9:1>>, it must be."
 "We\'ll leave off soon. We\'ll leave off."',
           ],
           [
@@ -229,7 +229,7 @@ $VAR1 = [
           [
             1,
             '[03:00] The Brothers Karamazov - Fyodor Dostoyevsky.epub (The_Karamazov_Brothers_split_063.html) - three o\'clock at night',
-            '"And be sure, be sure," she prattled on, "to come back and tell me what you see there, and what you find out ... what comes to light ... how they\'ll try him ... and what he\'s condemned to.... Tell me, we have no capital punishment, have we? But be sure to come, even if it\'s at <<three o\'clock at night|6>>, at <<four|9e:1>>, at <<half-past four|10>>.... Tell them to wake me, to wake me, to shake me, if I don\'t get up.... But, good heavens, I shan\'t sleep! But wait, hadn\'t I better come with you?"',
+            '"And be sure, be sure," she prattled on, "to come back and tell me what you see there, and what you find out ... what comes to light ... how they\'ll try him ... and what he\'s condemned to.... Tell me, we have no capital punishment, have we? But be sure to come, even if it\'s at <<three o\'clock at night|6>>, at <<four|9:1>>, at <<half-past four|10>>.... Tell them to wake me, to wake me, to shake me, if I don\'t get up.... But, good heavens, I shan\'t sleep! But wait, hadn\'t I better come with you?"',
           ],
           [
             1,

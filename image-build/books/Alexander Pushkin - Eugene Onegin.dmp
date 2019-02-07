@@ -1,19 +1,22 @@
 $VAR1 = [
           [
             1,
-            '[00:00] Eugene Onegin - Alexander Pushkin.epub (OEBPS/Text/part0010_split_001.html) - midnight',
-            "In man\x{2019}s attire to pay a call
-At masquerade or <<midnight|13>> ball.
-26
-
-  Your interest piqued and doubtless growing",
+            "[13:14] Eugene Onegin - Alexander Pushkin.epub (OEBPS/Text/part0010_split_001.html) - 13\x{2013}14",
+            "Himself, his dinner, and his wife.
+(<<13\x{2013}14|5a:0>>) 15
+Some mornings still abed he drowses,",
           ],
           [
             1,
             '[00:00] Eugene Onegin - Alexander Pushkin.epub (OEBPS/Text/part0010_split_001.html) - midnight',
-            "47
-
-  How often in the summer quarter,
+            "In man\x{2019}s attire to pay a call
+At masquerade or <<midnight|13>> ball.
+26",
+          ],
+          [
+            1,
+            '[00:00] Eugene Onegin - Alexander Pushkin.epub (OEBPS/Text/part0010_split_001.html) - midnight',
+            "How often in the summer quarter,
 When <<midnight|13>> sky is limpid-light
 Above the Neva\x{2019}s placid water\x{2014}",
           ],
@@ -34,9 +37,7 @@ The call that brings them gathering round.',
           [
             1,
             '[12:00] Eugene Onegin - Alexander Pushkin.epub (OEBPS/Text/part0014_split_001.html) - noon',
-            '5
-
-  Tatyana heeded with conviction
+            'Tatyana heeded with conviction
 All ancient folklore night and <<noon|13>>,
 Believed in dreams and card prediction,',
           ],
@@ -46,6 +47,13 @@ Believed in dreams and card prediction,',
             "And former couns\x{2019}lor, old man Fly\x{e1}nov,
 A rogue and gossip night and <<noon|13>>,
 A glutton, grafter, and buffoon.",
+          ],
+          [
+            1,
+            "[15:16] Eugene Onegin - Alexander Pushkin.epub (OEBPS/Text/part0015_split_001.html) - 15\x{2013}16",
+            "
+(<<15\x{2013}16|5a:0>>) 17
+Once more in solemn, rapt attention",
           ],
           [
             1,

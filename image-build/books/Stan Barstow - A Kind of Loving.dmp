@@ -24,7 +24,7 @@ $VAR1 = [
           [
             1,
             '[ap > 11:00] A Kind of Loving - Stan Barstow.epub (OPS/9781906998776_chapter_01.html) - just after eleven',
-            "He takes his white coat off and then starts to peel off about fifteen layers of pullovers and waistcoats that he has on underneath; all nice and steady like, as though it\x{2019}s Sunday and he\x{2019}s at home in his backyard and out to make a morning of it. I hop round to the boot and rummage about for a jack. I slam it into position and begin to crank, praying we shan\x{2019}t be bothered by some copper with time on his hands and a lot of silly questions to ask. I can\x{2019}t imagine this driver ever changed a wheel before; somebody must always have done it for him while he was stripping for action. As it is, he\x{2019}s hardly reached the working minimum when I\x{2019}ve got the spare wheel in position and I\x{2019}m tightening nuts like mad. It\x{2019}s <<just after eleven|10>> when we get the car moving again, and <<nearly ten|9:0>> past by the time we pull up at our gate.",
+            "He takes his white coat off and then starts to peel off about fifteen layers of pullovers and waistcoats that he has on underneath; all nice and steady like, as though it\x{2019}s Sunday and he\x{2019}s at home in his backyard and out to make a morning of it. I hop round to the boot and rummage about for a jack. I slam it into position and begin to crank, praying we shan\x{2019}t be bothered by some copper with time on his hands and a lot of silly questions to ask. I can\x{2019}t imagine this driver ever changed a wheel before; somebody must always have done it for him while he was stripping for action. As it is, he\x{2019}s hardly reached the working minimum when I\x{2019}ve got the spare wheel in position and I\x{2019}m tightening nuts like mad. It\x{2019}s <<just after eleven|10>> when we get the car moving again, and <<nearly ten|9w>> past by the time we pull up at our gate.",
           ],
           [
             1,
@@ -110,13 +110,13 @@ $VAR1 = [
             1,
             '[~ 14:10] A Kind of Loving - Stan Barstow.epub (OPS/9781906998776_chapter_09.html) - about fourteen-ten',
             "\x{2018}And in future years? Does it rise any more?\x{2019}
-\x{2018}Till you\x{2019}re twenty-five. It\x{2019}s <<about fourteen-ten|9:0>> then.\x{2019}
+\x{2018}Till you\x{2019}re twenty-five. It\x{2019}s <<about fourteen-ten|9w>> then.\x{2019}
 Mr Van lifts his eyebrows. \x{2018}Fourteen-ten. And after that, what happens?\x{2019}",
           ],
           [
             1,
             '[ap 09:00] A Kind of Loving - Stan Barstow.epub (OPS/9781906998776_chapter_09.html) - nine',
-            "A week later it\x{2019}s all settled. I\x{2019}m to go and work for Mr Van Huyten at eight pounds a week. When I\x{2019}m twenty-one he\x{2019}ll make it <<nine|9f>> and he says I can depend on him to see I\x{2019}m all right after that.",
+            "A week later it\x{2019}s all settled. I\x{2019}m to go and work for Mr Van Huyten at eight pounds a week. When I\x{2019}m twenty-one he\x{2019}ll make it <<nine|9q:0>> and he says I can depend on him to see I\x{2019}m all right after that.",
           ],
           [
             1,
@@ -132,6 +132,11 @@ Mr Van lifts his eyebrows. \x{2018}Fourteen-ten. And after that, what happens?\x
             1,
             '[ap ~ 01:20] A Kind of Loving - Stan Barstow.epub (OPS/9781906998776_chapter_10.html) - About twenty past one',
             "She nods. \x{2018}The best time\x{2019}s during the dinner hour. <<About twenty past one|10>> when we\x{2019}re back from the canteen.\x{2019}",
+          ],
+          [
+            1,
+            '[ap 03:10] A Kind of Loving - Stan Barstow.epub (OPS/9781906998776_chapter_11.html) - three-ten',
+            "Comes another Christmas. The day we shut the shop for the holidays Mr Van Huyten has a little chat with me and tells me how pleased he is with the way things have worked out. It\x{2019}s nice to know you\x{2019}re giving satisfaction somewhere, anyway, I think. Mr Van Huyten gives me a Christmas bonus of five pounds and I go out and blue <<three-ten|5k:1>> of it on a powder compact for Ingrid.",
           ],
           [
             1,

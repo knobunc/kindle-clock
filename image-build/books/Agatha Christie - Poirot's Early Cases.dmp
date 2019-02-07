@@ -12,7 +12,7 @@ $VAR1 = [
           [
             1,
             '[ap < 08:00] Poirot\'s Early Cases_ 18 Hercule Poirot My - Agatha Christie.epub (OEBPS/chapter01.xhtml) - Shortly before eight',
-            "<<Shortly before eight|9e:1>>, Japp arrived, in no very cheerful mood. I gathered that the official detective hardly approved of Poirot\x{2019}s plan.",
+            "<<Shortly before eight|9u>>, Japp arrived, in no very cheerful mood. I gathered that the official detective hardly approved of Poirot\x{2019}s plan.",
           ],
           [
             1,
@@ -136,6 +136,13 @@ $VAR1 = [
           ],
           [
             1,
+            "[ap 10:20] Poirot's Early Cases_ 18 Hercule Poirot My - Agatha Christie.epub (OEBPS/chapter10.xhtml) - ten\x{2014}twenty",
+            "\x{2018}Certainly it does.\x{2019}
+\x{2018}And supposing I ate <<ten\x{2014}twenty|5k:1>> of your little tablets, what then?\x{2019}
+\x{2018}I should not advise you to attempt it,\x{2019} he replied drily.",
+          ],
+          [
+            1,
             '[ap > 11:00] Poirot\'s Early Cases_ 18 Hercule Poirot My - Agatha Christie.epub (OEBPS/chapter11.xhtml) - past eleven',
             "\x{2018}What on earth can they want us for at this time of night?\x{2019} I demanded. It was <<past eleven|9f>>.",
           ],
@@ -238,7 +245,7 @@ Pat shook her head. \x{2018}We went out earlier\x{2014}<<about seven o\x{2019}cl
             "[ap ~ 11:00] Poirot's Early Cases_ 18 Hercule Poirot My - Agatha Christie.epub (OEBPS/chapter16.xhtml) - about eleven o\x{2019}clock",
             "\x{2018}When do we\x{2014}er\x{2014}do the deed?\x{2019}
 \x{2018}Tomorrow night. We will start from here <<about eleven o\x{2019}clock|6>>.\x{2019}
-At the time appointed I was ready to set off. I had donned a dark suit, and a soft dark hat. Poirot beamed kindly on me.",
+III",
           ],
           [
             1,
@@ -288,12 +295,7 @@ At the time appointed I was ready to set off. I had donned a dark suit, and a so
           [
             1,
             '[> 00:00] Poirot\'s Early Cases_ 18 Hercule Poirot My - Agatha Christie.epub (OEBPS/ebookextra.xhtml) - Just after midnight',
-            "The New York Times: \x{2018}A most ingenious crime puzzle.\x{2019}
-Times Literary Supplement: \x{2018}The whole case is a triumph of Poirot\x{2019}s special qualities.\x{2019}
-Noted crime fiction critic Julian Symons selected Lord Edgware Dies as one of Agatha Christie\x{2019}s best.
-
-
-<<Just after midnight|10>>, a snowstorm stops the Orient Express dead in its tracks in the middle of Yugoslavia. The luxurious train is surprisingly full for this time of year. But by morning there is one passenger less. A \x{2018}respectable American gentleman\x{2019} lies dead in his compartment, stabbed a dozen times, his door locked from the inside\x{2026}Hercule Poirot is also aboard, having arrived in the nick of time to claim a second-class compartment\x{2014}and the most astounding case of his illustrious career.",
+            "<<Just after midnight|10>>, a snowstorm stops the Orient Express dead in its tracks in the middle of Yugoslavia. The luxurious train is surprisingly full for this time of year. But by morning there is one passenger less. A \x{2018}respectable American gentleman\x{2019} lies dead in his compartment, stabbed a dozen times, his door locked from the inside\x{2026}Hercule Poirot is also aboard, having arrived in the nick of time to claim a second-class compartment\x{2014}and the most astounding case of his illustrious career.",
           ],
           [
             1,

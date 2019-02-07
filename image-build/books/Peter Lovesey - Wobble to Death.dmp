@@ -6,13 +6,13 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 01:00] Wobble to Death - Peter Lovesey.epub (OEBPS/chap10_wobblede_9781569477892_epub_part10.html) - 1',
-            "\x{2018}Six Days\x{2019} Pedestrian Contest at the Agricultural Hall, Islington. Sweepstakes of 10 sovs each, for proven pedestri-ans; each competitor to make, by running or walking, the best of his way on foot (without assistance) for six days and nights\x{2014}i.e. to start at <<1|9g>> o\x{2019}clock a.m. on Monday, 18 November, 1879, and finish at <<half past 10 o\x{2019}clock p.m.|10>> on the following Saturday. The man accomplishing the greatest distance in the specified time to be the Champion Pedestrian of the World, and to have entrusted to his  keeping a belt, value \x{a3}100, and receive \x{a3}500; second \x{a3}100, third \x{a3}50; and any competitor covering a distance of 460 miles to receive back his stake with an additional \x{a3}10. Any competitor (other than the first three men) covering more than 500 miles to have an additional \x{a3}5 for every three miles over the 500 miles, such an amount not to exceed \x{a3}40.\x{2019}",
+            "[01:00] Wobble to Death - Peter Lovesey.epub (OEBPS/chap10_wobblede_9781569477892_epub_part10.html) - 1 o\x{2019}clock a.m.",
+            "\x{2018}Six Days\x{2019} Pedestrian Contest at the Agricultural Hall, Islington. Sweepstakes of 10 sovs each, for proven pedestri-ans; each competitor to make, by running or walking, the best of his way on foot (without assistance) for six days and nights\x{2014}i.e. to start at <<1 o\x{2019}clock a.m.|9g>> on Monday, 18 November, 1879, and finish at <<half past 10 o\x{2019}clock p.m.|10>> on the following Saturday. The man accomplishing the greatest distance in the specified time to be the Champion Pedestrian of the World, and to have entrusted to his  keeping a belt, value \x{a3}100, and receive \x{a3}500; second \x{a3}100, third \x{a3}50; and any competitor covering a distance of 460 miles to receive back his stake with an additional \x{a3}10. Any competitor (other than the first three men) covering more than 500 miles to have an additional \x{a3}5 for every three miles over the 500 miles, such an amount not to exceed \x{a3}40.\x{2019}",
           ],
           [
             1,
             '[ap 07:00] Wobble to Death - Peter Lovesey.epub (OEBPS/chap10_wobblede_9781569477892_epub_part10.html) - seven',
-            "During the morning Darrell gained perceptibly on young Reid, who struggled gamely in response to his brother\x{2019}s shouts. At <<seven|9e>>, after six hours, his score was chalked on the board as 38 miles 4 laps, Darrell\x{2019}s 37 miles 6 laps, and O\x{2019}Flaherty, Williams and Chalk were together on 34 miles. A mile behind followed Chadwick, apparently unperturbed. \x{2018}Pencillers\x{2019} moved among the crowd accepting bets, and already Chadwick\x{2019}s position as favourite was threatened in the odds offered on Darrell. Mostyn-Smith had recorded 24 miles and retired to the huts. There the Press cornered him, eager for quotable comments on the agony of the race, but he confounded them by announcing,",
+            "During the morning Darrell gained perceptibly on young Reid, who struggled gamely in response to his brother\x{2019}s shouts. At <<seven|9v>>, after six hours, his score was chalked on the board as 38 miles 4 laps, Darrell\x{2019}s 37 miles 6 laps, and O\x{2019}Flaherty, Williams and Chalk were together on 34 miles. A mile behind followed Chadwick, apparently unperturbed. \x{2018}Pencillers\x{2019} moved among the crowd accepting bets, and already Chadwick\x{2019}s position as favourite was threatened in the odds offered on Darrell. Mostyn-Smith had recorded 24 miles and retired to the huts. There the Press cornered him, eager for quotable comments on the agony of the race, but he confounded them by announcing,",
           ],
           [
             1,
@@ -64,7 +64,7 @@ $VAR1 = [
           [
             1,
             '[ap < 01:30] Wobble to Death - Peter Lovesey.epub (OEBPS/chap13_wobblede_9781569477892_epub_part13.html) - SHORTLY BEFORE ONE-THIRTY',
-            "<<SHORTLY BEFORE ONE-THIRTY|9:0>> Sam Monk left Darrell\x{2019}s tent. His movement through the half-light to the Liverpool Road exit was not observed. Outside, a hansom was waiting.  He climbed in briskly, sat back in the darkness and relit a cigar that Herriott had given him earlier. The cabby cracked his whip and in seconds Darrell\x{2019}s trainer was being borne at speed away from the Agricultural Hall and northwards through Highbury.",
+            "<<SHORTLY BEFORE ONE-THIRTY|9u>> Sam Monk left Darrell\x{2019}s tent. His movement through the half-light to the Liverpool Road exit was not observed. Outside, a hansom was waiting.  He climbed in briskly, sat back in the darkness and relit a cigar that Herriott had given him earlier. The cabby cracked his whip and in seconds Darrell\x{2019}s trainer was being borne at speed away from the Agricultural Hall and northwards through Highbury.",
           ],
           [
             1,
@@ -84,7 +84,7 @@ $VAR1 = [
           [
             1,
             "[ap 04:00] Wobble to Death - Peter Lovesey.epub (OEBPS/chap13_wobblede_9781569477892_epub_part13.html) - Four o\x{2019}clock",
-            "
+            "MONK ROUGHLY TUGGED the blankets from around Darrell\x{2019}s shoulders.
 \x{2018}<<Four o\x{2019}clock|6>>, Charlie. Good rest?\x{2019}
 Darrell moaned and lay inert.",
           ],
@@ -241,7 +241,7 @@ Darrell moaned and lay inert.",
           [
             1,
             '[ap ~ 00:00] Wobble to Death - Peter Lovesey.epub (OEBPS/chap23_wobblede_9781569477892_epub_part23.html) - About twelve',
-            "\x{2018}<<About twelve|9e:1>>, I think. No, it must have been earlier. I was home before Taylor, and she gets in by <<midnight|13>>.\x{2019}",
+            "\x{2018}<<About twelve|9x>>, I think. No, it must have been earlier. I was home before Taylor, and she gets in by <<midnight|13>>.\x{2019}",
           ],
           [
             1,

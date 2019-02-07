@@ -61,8 +61,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap ~ 10:00] El Dorado_ Further Adventures of the Scarl - Emmuska Orczy.epub (index_split_016.html) - about ten',
-            '"Yes. One of you will have two horses on the lead, the other one. Pack some fodder on the empty saddles and start at <<about ten|9g>> o\'clock. Ride straight along the main road, as if you were making back for Paris, until you come to four cross-roads with a sign-post pointing to Courbevoie. Turn down there and go along the road until you meet a close spinney of fir-trees on your right. Make for the interior of that. It gives splendid shelter, and you can dismount there and give the horses a feed. We\'ll join you <<one hour after midnight|10>>. The night will be dark, I hope, and the moon anyhow will be on the wane."',
+            '[ap ~ 10:00] El Dorado_ Further Adventures of the Scarl - Emmuska Orczy.epub (index_split_016.html) - about ten o\'clock',
+            '"Yes. One of you will have two horses on the lead, the other one. Pack some fodder on the empty saddles and start at <<about ten o\'clock|9g>>. Ride straight along the main road, as if you were making back for Paris, until you come to four cross-roads with a sign-post pointing to Courbevoie. Turn down there and go along the road until you meet a close spinney of fir-trees on your right. Make for the interior of that. It gives splendid shelter, and you can dismount there and give the horses a feed. We\'ll join you <<one hour after midnight|10>>. The night will be dark, I hope, and the moon anyhow will be on the wane."',
           ],
           [
             1,
@@ -148,6 +148,11 @@ $VAR1 = [
             1,
             '[ap ~ 10:00] El Dorado_ Further Adventures of the Scarl - Emmuska Orczy.epub (index_split_026.html) - about ten o\'clock',
             '"I am not going with you. I entrust the child to you. For God\'s sake guard him well! Ride with him to Mantes. You should arrive there at <<about ten o\'clock|6>>. One of you then go straight to No.9 Rue la Tour. Ring the bell; an old man will answer it. Say the one word to him, \'Enfant\'; he will reply, \'De roi!\' Give him the child, and may Heaven bless you all for the help you have given me this night!"',
+          ],
+          [
+            1,
+            '[~ 12:00] El Dorado_ Further Adventures of the Scarl - Emmuska Orczy.epub (index_split_027.html) - about noon',
+            'Thus Blakeney had no difficulty in securing what lodgings he wanted when he once more found himself inside Paris at somewhere <<about noon|13>> of that same Monday.',
           ],
           [
             1,

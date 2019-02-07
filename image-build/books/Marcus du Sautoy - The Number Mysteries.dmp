@@ -52,7 +52,7 @@ $VAR1 = [
           [
             1,
             '[20:09] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0006.html) - 2009',
-            "The idea of this software is to utilize a computer\x{2019}s idle time to do computations. The program it uses implements a clever strategy that was developed to test whether Mersenne\x{2019}s numbers are prime. It still took a desktop computer several months to check Mersenne numbers with 9.8 million digits, but this is a lot faster than methods for testing whether a random number of this size is prime. By <<2009|9e:1>>, over ten thousand people had joined what has become known as the Great Internet Mersenne Prime Search, or GIMPS.",
+            "The idea of this software is to utilize a computer\x{2019}s idle time to do computations. The program it uses implements a clever strategy that was developed to test whether Mersenne\x{2019}s numbers are prime. It still took a desktop computer several months to check Mersenne numbers with 9.8 million digits, but this is a lot faster than methods for testing whether a random number of this size is prime. By <<2009|9:0>>, over ten thousand people had joined what has become known as the Great Internet Mersenne Prime Search, or GIMPS.",
           ],
           [
             1,
@@ -96,6 +96,11 @@ $VAR1 = [
           ],
           [
             1,
+            '[ap > 01:00] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0008.html) - after one',
+            "To get the numbers going, you just need to know that g = 2 and g = 4, because <<after one|9w>> or <<two|20a>> tosses, no combination can have three heads or three tails as we haven\x{2019}t tossed the coin three times yet. So the sequence goes 2, 4, 6, 10, 16, 26, 42, 68, 110, 178, . . . There are therefore 1,024 \x{2013} 178 = 846 different ways that ten coins can land and have a run of three heads or three tails. So the probability is , roughly 82 percent, that such a run would occur\x{2014}and that I would win.",
+          ],
+          [
+            1,
             '[ap > 08:00] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0008.html) - After eight',
             'The perfect shuffle comes into its own in the hands of a magician who can exploit an interesting property that it has. If you take a pack of 52 cards and do the perfect shuffle eight times, then amazingly, the cards all return to their original positions in the pack. To the onlooker, the shuffling seems to have totally randomized the pack. After all, eight shuffles done by a normal gambler is more than most do at the beginning of a game. In fact, mathematicians have proved that it takes only seven shuffles by a normal cardplayer for the pack to lose all of its original structure and become random. But the perfect shuffle is no ordinary shuffle. Think of the pack of cards as being something like an eight-sided coin, and the perfect shuffle as being the rotation of the coin by an eighth of a turn. <<After eight|9:0>> rotations, the coin comes back to its starting position.',
           ],
@@ -123,6 +128,16 @@ $VAR1 = [
             1,
             '[19:01] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0008.html) - 1901',
             "One mathematician who certainly caught the bug was Leonhard Euler. In 1779, a few years before he died, Euler came up with a different version of the problem. Take six regiments, with six soldiers in each regiment. Each regiment has a different colored uniform: they might be red, blue, yellow, green, orange, and purple. The soldiers in each regiment have different ranks\x{2014}say, a colonel, a major, a captain, a lieutenant, a corporal, and a private. The problem is to arrange the soldiers on a 6 x 6 grid so that in any column (or row) you don\x{2019}t see a soldier of the same rank or in the same regiment in that column (or row). Euler asked the question for a 6 x 6 grid because he believed that it was impossible to arrange the 36 soldiers satisfactorily. It was not until <<1901|18:0>> that the French amateur mathematician Gaston Tarry proved Euler correct.",
+          ],
+          [
+            1,
+            '[ap 01:00] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0008.html) - one',
+            "If we look at the plan of the seven bridges of K\x{f6}nigsberg, we can see that at each of the four points, an odd number of bridges meet\x{2014}and that tells us that there is no route around the city that crosses each of the bridges only once. Euler took his analysis further. If the map has precisely two points with an odd number of lines coming out, then it is possible to trace over it without taking your pen off the page and without running over any line twice. To do this, you have to start at <<one|9g>> of the points with an odd number of lines coming out and aim to finish at the other point where an odd number of lines meet.",
+          ],
+          [
+            1,
+            '[ap 01:00] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0008.html) - one',
+            "Euler\x{2019}s mathematical analysis told me that if there were exactly two places with an odd number of bridges emerging from them, there would be an Eulerian path: you start at <<one|9g>> of the odd-numbered points and end at the other. By checking the plan of today\x{2019}s bridges of Kaliningrad, I found that such a journey is in fact possible.",
           ],
           [
             1,
@@ -200,10 +215,9 @@ Now, 5 is prime, and if I calculate 2 to the power of 5 on a five-hour clock cal
           [
             1,
             '[ap 04:14] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0009.html) - 4.14',
-            "
+            '
 Table <<4.14|5a:0>>
-An Easy Challenge
-It landed heads. 13,068,221 = 3,613 \x{d7} 3,617. Both 3,613 and 3,617 are primes that have a remainder of 1 upon division by 4. There is a way to factorize this number quickly, using a method discovered by Fermat. If you square 3,615, you get 13,068,225, which is 4 away from 13,068,221. 4 is also a square. Now, if you use a bit of algebra that tells you that a  \x{2013} b  = (a + b ) \x{d7} (a \x{2013} b ), you get",
+An Easy Challenge',
           ],
           [
             1,

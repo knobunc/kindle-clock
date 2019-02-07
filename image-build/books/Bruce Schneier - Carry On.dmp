@@ -2,12 +2,12 @@ $VAR1 = [
           [
             1,
             '[20:00] Carry On_ Sound Advice From Schneier on Se - Bruce Schneier.epub (text/part0001_split_019.html) - 2000',
-            "All of these agencies have long had to wrestle with the choice of whether to use newly discovered vulnerabilities to protect or to attack. Inside the NSA, this was traditionally known as the \x{201c}equities issue,\x{201d} and the debate was between the COMSEC (communications security) side of the NSA and the SIGINT (signals intelligence) side. If they found a flaw in a popular cryptographic algorithm, they could either use that knowledge to fix the algorithm and make everyone's communications more secure, or they could exploit the flaw to eavesdrop on others\x{2014}while at the same time allowing even the people they wanted to protect to remain vulnerable. This debate raged through the decades inside the NSA. From what I've heard, by <<2000|9e:1>>, the COMSEC side had largely won, but things flipped completely around after 9/11.",
+            "All of these agencies have long had to wrestle with the choice of whether to use newly discovered vulnerabilities to protect or to attack. Inside the NSA, this was traditionally known as the \x{201c}equities issue,\x{201d} and the debate was between the COMSEC (communications security) side of the NSA and the SIGINT (signals intelligence) side. If they found a flaw in a popular cryptographic algorithm, they could either use that knowledge to fix the algorithm and make everyone's communications more secure, or they could exploit the flaw to eavesdrop on others\x{2014}while at the same time allowing even the people they wanted to protect to remain vulnerable. This debate raged through the decades inside the NSA. From what I've heard, by <<2000|9:0>>, the COMSEC side had largely won, but things flipped completely around after 9/11.",
           ],
           [
             1,
             '[ap > 02:00] Carry On_ Sound Advice From Schneier on Se - Bruce Schneier.epub (text/part0002_split_004.html) - After two',
-            "Zfone, a secure VoIP system, protects against MITM attacks with a short authentication string. <<After two|9:0>> Zfone terminals exchange keys, both computers display a four-character string. The users are supposed to manually verify that both strings are the same\x{2014}\x{201d}my screen says 5C19; what does yours say?\x{201d}\x{2014}to ensure that the phones are communicating directly with each other and not with an MITM. The AT&T TSD-3600 worked similarly.",
+            "Zfone, a secure VoIP system, protects against MITM attacks with a short authentication string. <<After two|9u>> Zfone terminals exchange keys, both computers display a four-character string. The users are supposed to manually verify that both strings are the same\x{2014}\x{201d}my screen says 5C19; what does yours say?\x{201d}\x{2014}to ensure that the phones are communicating directly with each other and not with an MITM. The AT&T TSD-3600 worked similarly.",
           ],
           [
             1,
@@ -22,7 +22,7 @@ $VAR1 = [
           [
             1,
             '[ap ~ 02:00] Carry On_ Sound Advice From Schneier on Se - Bruce Schneier.epub (text/part0005_split_004.html) - About 2',
-            'The first of April passed without incident, but Conficker is no less dangerous today. <<About 2|9:0>>.2m computers worldwide are still infected with Conficker.A and B, and <<about 1|9:0>>.3m more are infected with the nastier Conficker.C. It\'s true that on 1 April Conficker.C tried a new trick to update itself, but its authors could have updated the worm using another mechanism any day. In fact, they updated it on 8 April, and can do so again.',
+            'The first of April passed without incident, but Conficker is no less dangerous today. <<About 2|9:0>>.2m computers worldwide are still infected with Conficker.A and B, and <<about 1|9w>>.3m more are infected with the nastier Conficker.C. It\'s true that on 1 April Conficker.C tried a new trick to update itself, but its authors could have updated the worm using another mechanism any day. In fact, they updated it on 8 April, and can do so again.',
           ],
           [
             1,

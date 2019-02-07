@@ -12,7 +12,8 @@ $VAR1 = [
           [
             1,
             "[ap 04:00] The One and Only Ivan - Katherine Applegate.epub (OPS/xhtml/Chapter033.html) - four-o\x{2019}clock",
-            "The new neighbor arrives after the <<four-o\x{2019}clock|6>> show.
+            "arrival
+The new neighbor arrives after the <<four-o\x{2019}clock|6>> show.
 When the truck comes lumbering toward the parking lot, Bob scampers over to inform us.",
           ],
           [
@@ -34,6 +35,12 @@ When the truck comes lumbering toward the parking lot, Bob scampers over to info
             1,
             "[ap 07:00] The One and Only Ivan - Katherine Applegate.epub (OPS/xhtml/Chapter046.html) - seven-o\x{2019}clock",
             "At the <<seven-o\x{2019}clock|6>> show, Stella stays in her domain. When Mack comes for Ruby, Stella whispers something in her ear. Ruby looks at her pleadingly, but after a moment, she follows Mack to the ring.",
+          ],
+          [
+            1,
+            "[ap 07:00] The One and Only Ivan - Katherine Applegate.epub (OPS/xhtml/Chapter090.html) - seven-o\x{2019}clock",
+            "the <<seven-o\x{2019}clock|6>> show
+During the last show of the day, Ruby seems tired. When she stumbles, Mack reaches for the claw-stick.",
           ],
           [
             1,

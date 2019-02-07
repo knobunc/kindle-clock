@@ -12,7 +12,7 @@ $VAR1 = [
           [
             1,
             '[ap ~ 09:00] Shadow of Victory - David Weber.epub (sov_split_025.html) - Around nine',
-            "\x{201c}All right, Ms. Bardasano sent me to ask you to drop by her office again tomorrow morning. <<Around nine|9e:1>>, let\x{2019}s say.\x{201d}",
+            "\x{201c}All right, Ms. Bardasano sent me to ask you to drop by her office again tomorrow morning. <<Around nine|9:0>>, let\x{2019}s say.\x{201d}",
           ],
           [
             1,
@@ -27,7 +27,7 @@ $VAR1 = [
           [
             1,
             '[ap ~ 00:00] Shadow of Victory - David Weber.epub (sov_split_046.html) - about twelve',
-            "\x{201c}Yes, it was,\x{201d} Adam \x{160}iml agreed a bit more calmly. He\x{2019}d risen from his own seat, if only to get a better view over the sea of heads between him and the pitch, and now he shook his own head as he settled back down again. \x{201c}I remember when Petr first started playing with one of the local Sokol teams. He was only a boy\x{2014}what? <<about twelve|9e:1>>, I think\x{2014}and he liked gutsy, flashy plays even then. Fortunately, he had the athleticism to pull them off! Did you see that bicycle kick goal he scored against the Ravens last week?\x{201d}",
+            "\x{201c}Yes, it was,\x{201d} Adam \x{160}iml agreed a bit more calmly. He\x{2019}d risen from his own seat, if only to get a better view over the sea of heads between him and the pitch, and now he shook his own head as he settled back down again. \x{201c}I remember when Petr first started playing with one of the local Sokol teams. He was only a boy\x{2014}what? <<about twelve|9x>>, I think\x{2014}and he liked gutsy, flashy plays even then. Fortunately, he had the athleticism to pull them off! Did you see that bicycle kick goal he scored against the Ravens last week?\x{201d}",
           ],
           [
             1,
@@ -57,12 +57,12 @@ $VAR1 = [
           [
             1,
             '[ap < 04:00] Shadow of Victory - David Weber.epub (sov_split_084.html) - almost four',
-            "The Countess of Gold Peak was tipped back in her favorite chair, her feet\x{2014}in their fuzzy purple treecat slippers\x{2014}propped on her desk as she studied the recorded message from Craig Culbertson which had just arrived. It was <<almost four|9:0>> T-weeks old, but it certainly made\x{2026}interesting viewing.",
+            "The Countess of Gold Peak was tipped back in her favorite chair, her feet\x{2014}in their fuzzy purple treecat slippers\x{2014}propped on her desk as she studied the recorded message from Craig Culbertson which had just arrived. It was <<almost four|9w>> T-weeks old, but it certainly made\x{2026}interesting viewing.",
           ],
           [
             1,
             '[ap 11:00] Shadow of Victory - David Weber.epub (sov_split_084.html) - eleven',
-            "\x{201c}Counting the one that just brought in Admiral Tourville\x{2019}s messages, I make it <<eleven|9f>>,\x{201d} Adenauer replied, and Michelle grimaced. Any admiral who ever thought she had enough dispatch boats should probably be locked up somewhere before she hurt herself. Still, if Tenth Fleet had eleven of them, it was far better off than altogether too many other Manticoran fleets had been.",
+            "\x{201c}Counting the one that just brought in Admiral Tourville\x{2019}s messages, I make it <<eleven|9q:0>>,\x{201d} Adenauer replied, and Michelle grimaced. Any admiral who ever thought she had enough dispatch boats should probably be locked up somewhere before she hurt herself. Still, if Tenth Fleet had eleven of them, it was far better off than altogether too many other Manticoran fleets had been.",
           ],
           [
             1,

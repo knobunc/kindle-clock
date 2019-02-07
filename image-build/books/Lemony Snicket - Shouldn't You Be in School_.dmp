@@ -12,7 +12,7 @@ $VAR1 = [
           [
             1,
             '[ap < 03:50] Shouldn\'t You Be in School_ - Lemony Snicket.epub (OEBPS/chapter009.xhtml) - near 350',
-            "\x{201c}It was someone else\x{2019}s good idea,\x{201d} Cleo said. \x{201c}I found a rolled-up bark cigarette in the trash, <<near 350|9:0>> Wayward Way.\x{201d}",
+            "\x{201c}It was someone else\x{2019}s good idea,\x{201d} Cleo said. \x{201c}I found a rolled-up bark cigarette in the trash, <<near 350|9u>> Wayward Way.\x{201d}",
           ],
           [
             1,
@@ -33,7 +33,7 @@ $VAR1 = [
             1,
             '[ap ~ 04:00] Shouldn\'t You Be in School_ - Lemony Snicket.epub (OEBPS/chapter010.xhtml) - about four',
             "\x{201c}My father never got around to reading me The Wind in the Willows,\x{201d} she said.
-\x{201c}It\x{2019}s <<about four|9:0>> talking animals,\x{201d} I said.
+\x{201c}It\x{2019}s <<about four|9w>> talking animals,\x{201d} I said.
 \x{201c}I usually don\x{2019}t like that kind of story.\x{201d}",
           ],
           [

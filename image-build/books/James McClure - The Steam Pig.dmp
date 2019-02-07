@@ -42,7 +42,7 @@ $VAR1 = [
           [
             1,
             '[ap >> 11:00] The Steam Pig - James McClure.epub (index_split_011.html) - well after eleven',
-            "Kramer dropped Zondi outside the city hall and headed for 49 Arcadia Avenue where\x{2014}according to the telephone directory\x{2014}Dr J. P. Matthews had his home and surgery. It was <<well after eleven|9:0>> but the man was a physician and this an emergency call. The tape expert was an amateur, a proofreader at the Gazette, who would not be home until <<1 a.m.|5>>",
+            "Kramer dropped Zondi outside the city hall and headed for 49 Arcadia Avenue where\x{2014}according to the telephone directory\x{2014}Dr J. P. Matthews had his home and surgery. It was <<well after eleven|9w>> but the man was a physician and this an emergency call. The tape expert was an amateur, a proofreader at the Gazette, who would not be home until <<1 a.m.|5>>",
           ],
           [
             1,
@@ -58,7 +58,7 @@ $VAR1 = [
             1,
             '[ap ~ 09:00] The Steam Pig - James McClure.epub (index_split_011.html) - about nine',
             "\x{201c}So you said on the phone. When do I come round?\x{201d}
-\x{201c}Make it <<about nine|9f>>.\x{201d}
+\x{201c}Make it <<about nine|9q:0>>.\x{201d}
 \x{201c}Okay.\x{201d}",
           ],
           [
@@ -131,7 +131,7 @@ $VAR1 = [
           [
             1,
             '[12:00] The Steam Pig - James McClure.epub (index_split_015.html) - noon',
-            "MARKET RIOTFifteen non-whites arrested in Trekkersburg market at <<noon|13>> following fracas. Policeman injured.\x{201c}You can try yourself,\x{201d} growled Grobbelaar, dropping the receiver with a clatter. He was plainly annoyed at being excluded from the merriment.",
+            'Fifteen non-whites arrested in Trekkersburg market at <<noon|13>> following fracas. Policeman injured.',
           ],
           [
             1,
@@ -159,7 +159,7 @@ $VAR1 = [
             1,
             '[ap ~ 10:00] The Steam Pig - James McClure.epub (index_split_017.html) - About ten',
             "\x{201c}How long is it since you left her at Abbott\x{2019}s?\x{201d}
-\x{201c}<<About ten|9e:1>>, maybe fifteen minutes.\x{201d}
+\x{201c}<<About ten|9x>>, maybe fifteen minutes.\x{201d}
 \x{201c}Not so long I can\x{2019}t chance a call to him first then,\x{201d} Kramer replied and began dialling the funeral parlour. \x{201c}He might have picked up something.\x{201d}",
           ],
           [

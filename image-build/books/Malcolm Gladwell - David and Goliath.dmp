@@ -27,160 +27,149 @@ $VAR1 = [
           [
             1,
             '[ap 04:31] David and Goliath_ The Triumph of the Unde - Malcolm Gladwell.epub (text/part0008_split_007.html) - 4.31',
-            '99th             
-                        95th             
-                        90th             
-                        85th             
-                        80th             
-                        75th             
-                        70th             
-                        65th             
-                        60th             
-                        55th         
-                              
-                                  
-                        Harvard             
-                        <<4.31|5a:0>>             
-                        <<2.36|5a:0>>             
-                        <<1.47|5a:0>>             
-                        <<1.04|5a:0>>             
-                        0.71             
-                        0.41             
-                        0.30             
-                        0.21             
-                        0.12             
-                        0.07         
-                              
-                                  
-                        MIT             
-                        4.73             
-                        2.87             
-                        1.66             
-                        <<1.24|5a:0>>             
-                        0.83             
-                        0.64             
-                        0.48             
-                        0.33             
-                        0.20             
-                        0.12         
-                              
-                                  
-                        Yale             
-                        3.78             
-                        <<2.15|5a:0>>             
-                        <<1.22|5a:0>>             
-                        0.83             
-                        0.57             
-                        0.39             
-                        0.19             
-                        0.12             
-                        0.08             
-                        0.05         
-                              
-                                  
-                        Princeton             
-                        <<4.10|5a:0>>             
-                        <<2.17|5a:0>>             
-                        1.79             
-                        <<1.23|5a:0>>             
-                        <<1.01|5a:0>>             
-                        0.82             
-                        0.60             
-                        0.45             
-                        0.36             
-                        0.28         
-                              
-                                  
-                        Columbia             
-                        2.90             
-                        <<1.15|5a:0>>             
-                        0.62             
-                        0.34             
-                        0.17             
-                        0.10             
-                        0.06             
-                        0.02             
-                        0.01             
-                        0.01         
-                                      
-                                  
-                        Stanford             
-                        <<3.43|5a:0>>             
-                        <<1.58|5a:0>>             
-                        <<1.02|5a:0>>             
-                        0.67             
-                        0.50             
-                        0.33             
-                        0.23             
-                        0.14             
-                        0.08             
-                        0.05         
-                              
-                                  
-                        Chicago             
-                        2.88             
-                        1.71             
-                        <<1.04|5a:0>>             
-                        0.72             
-                        0.51             
-                        0.33             
-                        0.19             
-                        0.10             
-                        0.06             
-                        0.03',
+            'Harvard
+<<4.31|5a:0>>
+<<2.36|5a:0>>',
+          ],
+          [
+            1,
+            '[ap 04:31] David and Goliath_ The Triumph of the Unde - Malcolm Gladwell.epub (text/part0008_split_007.html) - 4.31',
+            '<<4.31|5a:0>>
+<<2.36|5a:0>>
+<<1.47|5a:0>>',
+          ],
+          [
+            1,
+            '[ap 02:36] David and Goliath_ The Triumph of the Unde - Malcolm Gladwell.epub (text/part0008_split_007.html) - 2.36',
+            '<<2.36|5a:0>>
+<<1.47|5a:0>>
+<<1.04|5a:0>>',
+          ],
+          [
+            1,
+            '[ap 01:47] David and Goliath_ The Triumph of the Unde - Malcolm Gladwell.epub (text/part0008_split_007.html) - 1.47',
+            '<<1.47|5a:0>>
+<<1.04|5a:0>>
+0.71',
+          ],
+          [
+            1,
+            '[ap 01:24] David and Goliath_ The Triumph of the Unde - Malcolm Gladwell.epub (text/part0008_split_007.html) - 1.24',
+            '1.66
+<<1.24|5a:0>>
+0.83',
+          ],
+          [
+            1,
+            '[ap 02:15] David and Goliath_ The Triumph of the Unde - Malcolm Gladwell.epub (text/part0008_split_007.html) - 2.15',
+            '3.78
+<<2.15|5a:0>>
+<<1.22|5a:0>>',
+          ],
+          [
+            1,
+            '[ap 02:15] David and Goliath_ The Triumph of the Unde - Malcolm Gladwell.epub (text/part0008_split_007.html) - 2.15',
+            '<<2.15|5a:0>>
+<<1.22|5a:0>>
+0.83',
+          ],
+          [
+            1,
+            '[ap 04:10] David and Goliath_ The Triumph of the Unde - Malcolm Gladwell.epub (text/part0008_split_007.html) - 4.10',
+            'Princeton
+<<4.10|5a:0>>
+<<2.17|5a:0>>',
+          ],
+          [
+            1,
+            '[ap 04:10] David and Goliath_ The Triumph of the Unde - Malcolm Gladwell.epub (text/part0008_split_007.html) - 4.10',
+            '<<4.10|5a:0>>
+<<2.17|5a:0>>
+1.79',
+          ],
+          [
+            1,
+            '[ap 01:23] David and Goliath_ The Triumph of the Unde - Malcolm Gladwell.epub (text/part0008_split_007.html) - 1.23',
+            '1.79
+<<1.23|5a:0>>
+<<1.01|5a:0>>',
+          ],
+          [
+            1,
+            '[ap 01:23] David and Goliath_ The Triumph of the Unde - Malcolm Gladwell.epub (text/part0008_split_007.html) - 1.23',
+            '<<1.23|5a:0>>
+<<1.01|5a:0>>
+0.82',
+          ],
+          [
+            1,
+            '[ap 01:15] David and Goliath_ The Triumph of the Unde - Malcolm Gladwell.epub (text/part0008_split_007.html) - 1.15',
+            '2.90
+<<1.15|5a:0>>
+0.62',
+          ],
+          [
+            1,
+            '[ap 03:43] David and Goliath_ The Triumph of the Unde - Malcolm Gladwell.epub (text/part0008_split_007.html) - 3.43',
+            'Stanford
+<<3.43|5a:0>>
+<<1.58|5a:0>>',
+          ],
+          [
+            1,
+            '[ap 03:43] David and Goliath_ The Triumph of the Unde - Malcolm Gladwell.epub (text/part0008_split_007.html) - 3.43',
+            '<<3.43|5a:0>>
+<<1.58|5a:0>>
+<<1.02|5a:0>>',
+          ],
+          [
+            1,
+            '[ap 01:58] David and Goliath_ The Triumph of the Unde - Malcolm Gladwell.epub (text/part0008_split_007.html) - 1.58',
+            '<<1.58|5a:0>>
+<<1.02|5a:0>>
+0.67',
+          ],
+          [
+            1,
+            '[ap 01:04] David and Goliath_ The Triumph of the Unde - Malcolm Gladwell.epub (text/part0008_split_007.html) - 1.04',
+            '1.71
+<<1.04|5a:0>>
+0.72',
           ],
           [
             1,
             '[ap 03:13] David and Goliath_ The Triumph of the Unde - Malcolm Gladwell.epub (text/part0008_split_007.html) - 3.13',
-            "99th             
-                        95th             
-                        90th             
-                        85th             
-                        80th             
-                        75th             
-                        70th             
-                        65th             
-                        60th             
-                        55th         
-                              
-                                  
-                        Univ. of Toronto             
-                        <<3.13|5a:0>>             
-                        1.85             
-                        0.80             
-                        0.61             
-                        0.29             
-                        0.19             
-                        0.15             
-                        0.10             
-                        0.07             
-                        0.05         
-                              
-                                  
-                        Boston Univ.             
-                        <<1.59|5a:0>>             
-                        0.49             
-                        0.21             
-                        0.08             
-                        0.05             
-                        0.02             
-                        0.02             
-                        0.01             
-                        0.00             
-                        0.00         
-                              
-                                  
-                        Non\x{2013}top 30             
-                        <<1.05|5a:0>>             
-                        0.31             
-                        0.12             
-                        0.06             
-                        0.04             
-                        0.02             
-                        0.01             
-                        0.01             
-                        0.00             
-                        0.00",
+            'Univ. of Toronto
+<<3.13|5a:0>>
+1.85',
+          ],
+          [
+            1,
+            '[ap 01:59] David and Goliath_ The Triumph of the Unde - Malcolm Gladwell.epub (text/part0008_split_007.html) - 1.59',
+            'Boston Univ.
+<<1.59|5a:0>>
+0.49',
+          ],
+          [
+            1,
+            '[ap 01:59] David and Goliath_ The Triumph of the Unde - Malcolm Gladwell.epub (text/part0008_split_007.html) - 1.59',
+            '<<1.59|5a:0>>
+0.49
+0.21',
+          ],
+          [
+            1,
+            '[ap 01:05] David and Goliath_ The Triumph of the Unde - Malcolm Gladwell.epub (text/part0008_split_007.html) - 1.05',
+            "Non\x{2013}top 30
+<<1.05|5a:0>>
+0.31",
+          ],
+          [
+            1,
+            '[ap 01:05] David and Goliath_ The Triumph of the Unde - Malcolm Gladwell.epub (text/part0008_split_007.html) - 1.05',
+            '<<1.05|5a:0>>
+0.31
+0.12',
           ],
           [
             1,
@@ -285,7 +274,7 @@ $VAR1 = [
           [
             1,
             '[ap < 03:00] David and Goliath_ The Triumph of the Unde - Malcolm Gladwell.epub (text/part0015_split_004.html) - Before Three',
-            "The second argument for Three Strikes\x{2014}that every extra year a criminal is behind bars is another year he can\x{2019}t commit a crime\x{2014}is just as problematic. The math doesn\x{2019}t add up. The average age of a California criminal in 2011 at the moment he was convicted of his Third Strike offense, for example, was forty-three. <<Before Three|9:1>> Strikes came along, that man might have served something like five years for a typical felony and been released at the age of forty-eight. With Three Strikes, he would serve, at minimum, twenty-five years\x{2014}and get out at sixty-eight. Logically, the question to ask is: How many crimes do criminals commit between the ages of forty-eight and sixty-eight? Not that many. Take a look at the following graphs, which show the relationship between age and crime both for aggravated assault and murder and for robbery and burglary.",
+            "The second argument for Three Strikes\x{2014}that every extra year a criminal is behind bars is another year he can\x{2019}t commit a crime\x{2014}is just as problematic. The math doesn\x{2019}t add up. The average age of a California criminal in 2011 at the moment he was convicted of his Third Strike offense, for example, was forty-three. <<Before Three|9u>> Strikes came along, that man might have served something like five years for a typical felony and been released at the age of forty-eight. With Three Strikes, he would serve, at minimum, twenty-five years\x{2014}and get out at sixty-eight. Logically, the question to ask is: How many crimes do criminals commit between the ages of forty-eight and sixty-eight? Not that many. Take a look at the following graphs, which show the relationship between age and crime both for aggravated assault and murder and for robbery and burglary.",
           ],
           [
             1,
@@ -320,88 +309,9 @@ $VAR1 = [
           [
             1,
             '[ap 08:34] David and Goliath_ The Triumph of the Unde - Malcolm Gladwell.epub (text/part0018_split_008.html) - 8.34',
-            "U.S.A.             
-                        7.8             
-                        \x{a0}             
-                        \x{a0}             
-                        Finland             
-                        14.3         
-                              
-                                  
-                        Switzerland             
-                        <<8.34|5a:0>>             
-                        \x{a0}             
-                        \x{a0}             
-                        Denmark             
-                        14.4         
-                              
-                                  
-                        Austria             
-                        8.67             
-                        \x{a0}             
-                        \x{a0}             
-                        Germany             
-                        14.7         
-                              
-                                  
-                        Japan             
-                        9.7             
-                        \x{a0}             
-                        \x{a0}             
-                        Norway             
-                        15.4         
-                              
-                                  
-                        New Zealand             
-                        9.9             
-                        \x{a0}             
-                        \x{a0}             
-                        Sweden             
-                        15.6         
-                              
-                                  
-                        Netherlands             
-                        10.3             
-                        \x{a0}             
-                        \x{a0}             
-                        Belgium             
-                        17.9         
-                              
-                                  
-                        United Kingdom             
-                        11.1             
-                        \x{a0}             
-                        \x{a0}             
-                        Portugal             
-                        19.7         
-                              
-                                  
-                        Australia             
-                        11.1             
-                        \x{a0}             
-                        \x{a0}             
-                        Spain             
-                        19.8         
-                              
-                                  
-                        France             
-                        11.7             
-                        \x{a0}             
-                        \x{a0}             
-                        Italy             
-                        22.2         
-                              
-                                  
-                        Canada             
-                        12.7             
-                        \x{a0}             
-                        \x{a0}             
-                        Greece             
-                        25.2         
-                              
-                                  
-                        Ireland             
-                        13.2",
+            'Switzerland
+<<8.34|5a:0>>
+',
           ],
           [
             1,

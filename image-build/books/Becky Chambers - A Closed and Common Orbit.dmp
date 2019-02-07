@@ -32,7 +32,7 @@ $VAR1 = [
           [
             1,
             '[ap < 00:00] A Closed and Common Orbit - Becky Chambers.epub (OEBPS/text/9780062569424_Chapter_32.xhtml) - ALMOST 12',
-            "JANE, <<ALMOST 12|9:0>>
+            "JANE, <<ALMOST 12|9u>>
 The shuttle hatch slid open. Jane entered, dragging her heavy haul on squeaking wheels. \x{2018}I got some good stuff today.\x{2019} She knocked the dust off her shoes (made with thick rubber from a tyre liner, topped with cushion foam and a lot of wrap-around fabric from an old exosuit) and took off her jacket (more scavenged fabric, but from a real ugly chair). She left both by the door. \x{2018}Check it out.\x{2019} She heard Owl\x{2019}s cameras whir towards her as she started pulling stuff off of the wagon. \x{2018}Switch couplers, fabric\x{2014}\x{2019}",
           ],
           [
@@ -78,5 +78,41 @@ Jane swallowed. Huh, she thought. \x{2018}Where\x{2019}s Owl?\x{2019}",
             'Unit D1, 63 Apollo Drive
 Rosedale <<0632|18:0>>
 Auckland, New Zealand',
+          ],
+          [
+            1,
+            '[ap < 00:00] A Closed and Common Orbit - Becky Chambers.epub (OEBPS/text/nav.xhtml) - ALMOST 12',
+            'Dedication
+Epigraph
+Contents
+Part 1: Drift
+Lovelace
+Jane 23, Age 10
+Lovelace
+Jane 23, Age 10
+Sidra
+Jane 23, Age 10
+Sidra
+Jane 23, Age 10
+Sidra
+Jane 23, Age 10
+Sidra
+Jane 23, Age 10
+Sidra
+Jane, Age 10
+Sidra
+Jane, Age 10
+Sidra
+Jane, Age 10
+Sidra
+Jane, Age 10
+Sidra
+Jane, Age 10
+Sidra
+Jane, Age 10
+Sidra
+Jane, Age 10
+Sidra
+Jane, <<ALMOST 12|9:0>>',
           ],
         ];

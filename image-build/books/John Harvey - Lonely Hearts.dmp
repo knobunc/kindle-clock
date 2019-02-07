@@ -51,13 +51,13 @@ She carried it over to the narrow kitchen. A bottle of Italian red had been open
             '[ap ~ 06:30] Lonely Hearts - John Harvey.epub (text/part0007.html) - about six-thirty',
             "\x{201c}You don\x{2019}t think there\x{2019}s any chance at all of keeping things as they are?\x{201d} Rachel said into the room. \x{201c}Are we all saying that that\x{2019}s just not on?\x{201d}
 \x{201c}How <<about six-thirty|5k:1>>?\x{201d} asked Resnick.
-\x{201c}Make it <<seven|9f>>.\x{201d}",
+\x{201c}Make it <<seven|9q:0>>.\x{201d}",
           ],
           [
             1,
             '[ap ~ 06:30] Lonely Hearts - John Harvey.epub (text/part0007.html) - about six-thirty',
             "\x{201c}How <<about six-thirty|5k:1>>?\x{201d} asked Resnick.
-\x{201c}Make it <<seven|9f>>.\x{201d}
+\x{201c}Make it <<seven|9q:0>>.\x{201d}
 \x{201c}Where?\x{201d}",
           ],
           [
@@ -266,7 +266,7 @@ Resnick looked across the room. \x{201c}Is that relevant?\x{201d}",
           [
             1,
             '[ap 02:15] Lonely Hearts - John Harvey.epub (text/part0031.html) - two-fifteen',
-            "Linguistics and the After-Text. New York and London. Oxford University Press, 1975.\x{201c}A New Look at Poetry and Repression.\x{201d} Critical Inquiry, v (1979).\x{201c}Coming out of the Unconscious.\x{201d} Modern Language Notes, xcv (1980).Nietzsche and Woman: Provocation and Closure. Chicago, III, and London. University of Chicago Press, 1983.\x{201c}(You said all you wanted was) A Sign, My Love. Deconstruction and Popular Culture.\x{201d} University of Birmingham Centre for Contemporary Cultural Studies, 1984.Deconstruction and Defacement. New York and London. Methuen, 1986.Patel took a break from Doria\x{2019}s list of publications and rested his head in his arms. The words were beginning to jump and blur. Until now he\x{2019}d been the only one of his family not to need glasses. He wondered about taking a break; the rain had eased off and he could walk between the trees and down the hill to the Sports Center, take a shower. He ought to do something before <<two-fifteen|9c:1>>. Doria was lecturing to the combined second- and third-year groups of his course and Patel had every intention of being there. He had been into the student shop and bought a new A4 pad for the occasion.",
+            "Patel took a break from Doria\x{2019}s list of publications and rested his head in his arms. The words were beginning to jump and blur. Until now he\x{2019}d been the only one of his family not to need glasses. He wondered about taking a break; the rain had eased off and he could walk between the trees and down the hill to the Sports Center, take a shower. He ought to do something before <<two-fifteen|9c:1>>. Doria was lecturing to the combined second- and third-year groups of his course and Patel had every intention of being there. He had been into the student shop and bought a new A4 pad for the occasion.",
           ],
           [
             1,
@@ -297,49 +297,5 @@ Resnick looked across the room. \x{201c}Is that relevant?\x{201d}",
             1,
             "[ap 06:00] Lonely Hearts - John Harvey.epub (text/part0035.html) - six o\x{2019}clock",
             "\x{201c}National television, the <<six o\x{2019}clock|6>> news, a man you previously suspected has confessed.\x{201d}",
-          ],
-          [
-            1,
-            '[ap 09:10] Lonely Hearts - John Harvey.epub (text/part0042.html) - Nine
-Ten',
-            'Cover Page
-Title Page
-Dedication
-One
-Two
-Three
-Four
-Five
-Six
-Seven
-Eight
-<<Nine
-Ten|5k:1>>
-<<Eleven
-Twelve|5k:1>>
-<<Thirteen
-Fourteen|5k:1>>
-<<Fifteen
-Sixteen|5k:1>>
-<<Seventeen
-Eighteen|5k:1>>
-<<Nineteen
-Twenty|5k:1>>
-<<Twenty-One
-Twenty-Two|5k:1>>
-<<Twenty-Three
-Twenty-Four|5k:1>>
-Twenty-Five
-Twenty-Six
-Twenty-Seven
-Twenty-Eight
-Twenty-Nine
-Thirty
-Thirty-One
-Thirty-Two
-Thirty-Three
-Thirty-Four
-Thirty-Five
-Copyright Page',
           ],
         ];

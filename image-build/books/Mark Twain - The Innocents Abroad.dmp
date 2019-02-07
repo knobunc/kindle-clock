@@ -64,20 +64,16 @@ $VAR1 = [
           [
             1,
             '[ap 02:50] The Innocents Abroad - Mark Twain.epub (3176/www.gutenberg.org@files@3176@3176-h@p1-1.htm) - 2.50',
-            "10 dinners, 6,000 reis, or
-\$6.00
-
-
-25 cigars, 2,500 reis, or
+            '25 cigars, 2,500 reis, or
 <<2.50|5a:0>>
-
-
-11 bottles wine, 13,200 reis, or\x{a0}\x{a0}\x{a0}
+11 bottles wine, 13,200 reis, or',
+          ],
+          [
+            1,
+            '[13:20] The Innocents Abroad - Mark Twain.epub (3176/www.gutenberg.org@files@3176@3176-h@p1-1.htm) - 13.20',
+            '11 bottles wine, 13,200 reis, or
 <<13.20|5a:0>>
-
-
-
-Total 21,700 reis, or",
+Total 21,700 reis, or',
           ],
           [
             1,
@@ -166,19 +162,20 @@ Total 21,700 reis, or",
           ],
           [
             1,
+            '[00:00] The Innocents Abroad - Mark Twain.epub (3176/www.gutenberg.org@files@3176@3176-h@p3-1.htm) - midnight',
+            'But it is an ill-wind that blows nobody good. A year ago, when Italy saw utter ruin staring her in the face and her greenbacks hardly worth the paper they were printed on, her Parliament ventured upon a \'coup de main\' that would have appalled the stoutest of her statesmen under less desperate circumstances. They, in a manner, confiscated the domains of the Church! This in priest-ridden Italy! This in a land which has groped in the <<midnight|13>> of priestly superstition for sixteen hundred years! It was a rare good fortune for Italy, the stress of weather that drove her to break from this prison-house.',
+          ],
+          [
+            1,
+            '[12:00] The Innocents Abroad - Mark Twain.epub (3176/www.gutenberg.org@files@3176@3176-h@p3-2.htm) - noonday',
+            'Of course we ascended to the summit of the dome, and of course we also went up into the gilt copper ball which is above it.--There was room there for a dozen persons, with a little crowding, and it was as close and hot as an oven. Some of those people who are so fond of writing their names in prominent places had been there before us--a million or two, I should think. From the dome of St. Peter\'s one can see every notable object in Rome, from the Castle of St. Angelo to the Coliseum. He can discern the seven hills upon which Rome is built. He can see the Tiber, and the locality of the bridge which Horatius kept "in the brave days of old" when Lars Porsena attempted to cross it with his invading host. He can see the spot where the Horatii and the Curatii fought their famous battle. He can see the broad green Campagna, stretching away toward the mountains, with its scattered arches and broken aqueducts of the olden time, so picturesque in their gray ruin, and so daintily festooned with vines. He can see the Alban Mountains, the Appenines, the Sabine Hills, and the blue Mediterranean. He can see a panorama that is varied, extensive, beautiful to the eye, and more illustrious in history than any other in Europe.--About his feet is spread the remnant of a city that once had a population of four million souls; and among its massed edifices stand the ruins of temples, columns, and triumphal arches that knew the Caesars, and the <<noonday|13>> of Roman splendor; and close by them, in unimpaired strength, is a drain of arched and heavy masonry that belonged to that older city which stood here before Romulus and Remus were born or Rome thought of. The Appian Way is here yet, and looking much as it did, perhaps, when the triumphal processions of the Emperors moved over it in other days bringing fettered princes from the confines of the earth. We can not see the long array of chariots and mail-clad men laden with the spoils of conquest, but we can imagine the pageant, after a fashion. We look out upon many objects of interest from the dome of St. Peter\'s; and last of all, almost at our feet, our eyes rest upon the building which was once the Inquisition. How times changed, between the older ages and the new! Some seventeen or eighteen centuries ago, the ignorant men of Rome were wont to put Christians in the arena of the Coliseum yonder, and turn the wild beasts in upon them for a show. It was for a lesson as well. It was to teach the people to abhor and fear the new doctrine the followers of Christ were teaching. The beasts tore the victims limb from limb and made poor mangled corpses of them in the twinkling of an eye. But when the Christians came into power, when the holy Mother Church became mistress of the barbarians, she taught them the error of their ways by no such means. No, she put them in this pleasant Inquisition and pointed to the Blessed Redeemer, who was so gentle and so merciful toward all men, and they urged the barbarians to love him; and they did all they could to persuade them to love and honor him--first by twisting their thumbs out of joint with a screw; then by nipping their flesh with pincers--red-hot ones, because they are the most comfortable in cold weather; then by skinning them alive a little, and finally by roasting them in public. They always convinced those barbarians. The true religion, properly administered, as the good Mother Church used to administer it, is very, very soothing. It is wonderfully persuasive, also. There is a great difference between feeding parties to wild beasts and stirring up their finer feelings in an Inquisition. One is the system of degraded barbarians, the other of enlightened, civilized people. It is a great pity the playful Inquisition is no more.',
+          ],
+          [
+            1,
             '[ap 07:00] The Innocents Abroad - Mark Twain.epub (3176/www.gutenberg.org@files@3176@3176-h@p3-2.htm) - 7',
             'Dress Circle One Dollar; Children and Servants half price.
-
 An efficient police force will be on hand to preserve order and keep the wild beasts from leaping the railings and discommoding the audience.
-
-
-
-
-
 Doors open at <<7|9c:1>>; performance begins at <<8|9c:1>>.
-
-
-
 POSITIVELY NO FREE LIST.
 Diodorus Job Press.',
           ],
@@ -310,7 +307,7 @@ Diodorus Job Press.',
           [
             1,
             '[ap > 06:00] The Innocents Abroad - Mark Twain.epub (3176/www.gutenberg.org@files@3176@3176-h@p5-0.htm) - Shortly after six',
-            "<<Shortly after six|9e:1>>, our pack train arrived. I had not seen it before, and a good right I had to be astonished. We had nineteen serving men and twenty-six pack mules! It was a perfect caravan. It looked like one, too, as it wound among the rocks. I wondered what in the very mischief we wanted with such a vast turn-out as that, for eight men. I wondered awhile, but soon I began to long for a tin plate, and some bacon and beans. I had camped out many and many a time before, and knew just what was coming. I went off, without waiting for serving men, and unsaddled my horse, and washed such portions of his ribs and his spine as projected through his hide, and when I came back, behold five stately circus tents were up\x{2014}tents that were brilliant, within, with blue, and gold, and crimson, and all manner of splendid adornment! I was speechless. Then they brought eight little iron bedsteads, and set them up in the tents; they put a soft mattress and pillows and good blankets and two snow-white sheets on each bed. Next, they rigged a table about the centre-pole, and on it placed pewter pitchers, basins, soap, and the whitest of towels\x{2014}one set for each man; they pointed to pockets in the tent, and said we could put our small trifles in them for convenience, and if we needed pins or such things, they were sticking every where. Then came the finishing touch\x{2014}they spread carpets on the floor! I simply said, \"If you call this camping out, all right\x{2014}but it isn't the style I am used to; my little baggage that I brought along is at a discount.\"",
+            "<<Shortly after six|9:1>>, our pack train arrived. I had not seen it before, and a good right I had to be astonished. We had nineteen serving men and twenty-six pack mules! It was a perfect caravan. It looked like one, too, as it wound among the rocks. I wondered what in the very mischief we wanted with such a vast turn-out as that, for eight men. I wondered awhile, but soon I began to long for a tin plate, and some bacon and beans. I had camped out many and many a time before, and knew just what was coming. I went off, without waiting for serving men, and unsaddled my horse, and washed such portions of his ribs and his spine as projected through his hide, and when I came back, behold five stately circus tents were up\x{2014}tents that were brilliant, within, with blue, and gold, and crimson, and all manner of splendid adornment! I was speechless. Then they brought eight little iron bedsteads, and set them up in the tents; they put a soft mattress and pillows and good blankets and two snow-white sheets on each bed. Next, they rigged a table about the centre-pole, and on it placed pewter pitchers, basins, soap, and the whitest of towels\x{2014}one set for each man; they pointed to pockets in the tent, and said we could put our small trifles in them for convenience, and if we needed pins or such things, they were sticking every where. Then came the finishing touch\x{2014}they spread carpets on the floor! I simply said, \"If you call this camping out, all right\x{2014}but it isn't the style I am used to; my little baggage that I brought along is at a discount.\"",
           ],
           [
             1,
@@ -393,6 +390,11 @@ They call this camping out. At this rate it is a glorious privilege to be a pilg
             1,
             '[12:00] The Innocents Abroad - Mark Twain.epub (3176/www.gutenberg.org@files@3176@3176-h@p5-3.htm) - noon',
             'In the early morning one watches the silent battle of dawn and darkness upon the waters of Tahoe with a placid interest; but when the shadows sulk away and one by one the hidden beauties of the shore unfold themselves in the full splendor of <<noon|13>>; when the still surface is belted like a rainbow with broad bars of blue and green and white, half the distance from circumference to centre; when, in the lazy summer afternoon, he lies in a boat, far out to where the dead blue of the deep water begins, and smokes the pipe of peace and idly winks at the distant crags and patches of snow from under his cap-brim; when the boat drifts shoreward to the white water, and he lolls over the gunwale and gazes by the hour down through the crystal depths and notes the colors of the pebbles and reviews the finny armies gliding in procession a hundred feet below; when at night he sees moon and stars, mountain ridges feathered with pines, jutting white capes, bold promontories, grand sweeps of rugged scenery topped with bald, glimmering peaks, all magnificently pictured in the polished mirror of the lake, in richest, softest detail, the tranquil interest that was born with the morning deepens and deepens, by sure degrees, till it culminates at last in resistless fascination!',
+          ],
+          [
+            1,
+            '[ap 01:00] The Innocents Abroad - Mark Twain.epub (3176/www.gutenberg.org@files@3176@3176-h@p6-0.htm) - one',
+            "We descended from Mount Tabor, crossed a deep ravine, followed a hilly, rocky road to Nazareth\x{2014}distant two hours. All distances in the East are measured by hours, not miles. A good horse will walk three miles an hour over nearly any kind of a road; therefore, an hour, here, always stands for three miles. This method of computation is bothersome and annoying; and until <<one|9w>> gets thoroughly accustomed to it, it carries no intelligence to his mind until he has stopped and translated the pagan hours into Christian miles, just as people do with the spoken words of a foreign language they are acquainted with, but not familiarly enough to catch the meaning in a moment. Distances traveled by human feet are also estimated by hours and minutes, though I do not know what the base of the calculation is. In Constantinople you ask, \"How far is it to the Consulate?\" and they answer, \"About ten minutes.\" \"How far is it to the Lloyds' Agency?\" \"Quarter of an hour.\" \"How far is it to the lower bridge?\" \"Four minutes.\" I can not be positive about it, but I think that there, when a man orders a pair of pantaloons, he says he wants them a quarter of a minute in the legs and nine seconds around the waist.",
           ],
           [
             1,

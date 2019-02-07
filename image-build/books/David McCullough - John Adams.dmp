@@ -31,8 +31,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 02:00] John Adams - David McCullough.epub (OEBPS/Text/David McCullough - John Adams (v2.1)_split_003.html) - two',
-            "The dinner, starting at <<two|9g>> o'clock, was a diplomatic occasion. The Caughnawagas had come to offer their services to the Americans, and, gathered all about him, they presented a spectacle that Adams, to his surprise, hugely enjoyed. \x{201c}It was a savage feast, carnivorous animals devouring their prey,\x{201d} he wrote in his diary. \x{201c}Yet they were wondrous polite. The general introduced me to them as one of the Grand Council Fire at Philadelphia, upon which they made me many bows and cordial reception.\x{201d} To Abigail he reported himself decidedly pleased by the whole occasion.",
+            '[ap 02:00] John Adams - David McCullough.epub (OEBPS/Text/David McCullough - John Adams (v2.1)_split_003.html) - two o\'clock',
+            "The dinner, starting at <<two o'clock|9g>>, was a diplomatic occasion. The Caughnawagas had come to offer their services to the Americans, and, gathered all about him, they presented a spectacle that Adams, to his surprise, hugely enjoyed. \x{201c}It was a savage feast, carnivorous animals devouring their prey,\x{201d} he wrote in his diary. \x{201c}Yet they were wondrous polite. The general introduced me to them as one of the Grand Council Fire at Philadelphia, upon which they made me many bows and cordial reception.\x{201d} To Abigail he reported himself decidedly pleased by the whole occasion.",
           ],
           [
             1,
@@ -207,7 +207,7 @@ $VAR1 = [
           [
             1,
             '[~ 17:31] John Adams - David McCullough.epub (OEBPS/Text/David McCullough - John Adams (v2.1)_split_010.html) - about 1731',
-            "All were considerably finer, more elegant pieces than the Adamses had ever owned in years past and would have looked quite out of place in the farmhouse at Braintree. But, as they now knew, they were not to reside in the old homestead. Through Cotton Tufts, Adams had arranged the purchase of what was known as \x{201c}the Vassall-Borland place,\x{201d} which Adams had had his eye on for years and which, in memory, seemed quite grand. Built more than fifty years before, <<about 1731|9e:1>>, as the summer villa of a wealthy sugar planter from the West Indies, Leonard Vassall, the house had stood empty through much of the war, after Vassall's daughter, the widow Borland, a Loyalist, fled to England. When Adams heard the place was available, he made his decision. Located on the coast road, on the north side of town, the property included house, farm buildings, and some eighty acres at a purchase price of 600 pounds. Adams envisioned it as the ideal setting for his retirement.",
+            "All were considerably finer, more elegant pieces than the Adamses had ever owned in years past and would have looked quite out of place in the farmhouse at Braintree. But, as they now knew, they were not to reside in the old homestead. Through Cotton Tufts, Adams had arranged the purchase of what was known as \x{201c}the Vassall-Borland place,\x{201d} which Adams had had his eye on for years and which, in memory, seemed quite grand. Built more than fifty years before, <<about 1731|9:0>>, as the summer villa of a wealthy sugar planter from the West Indies, Leonard Vassall, the house had stood empty through much of the war, after Vassall's daughter, the widow Borland, a Loyalist, fled to England. When Adams heard the place was available, he made his decision. Located on the coast road, on the north side of town, the property included house, farm buildings, and some eighty acres at a purchase price of 600 pounds. Adams envisioned it as the ideal setting for his retirement.",
           ],
           [
             1,

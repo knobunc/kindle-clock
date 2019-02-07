@@ -12,6 +12,11 @@ $VAR1 = [
           [
             1,
             '[ap ~ 06:00] Of Men and Monsters - William Tenn.epub (index_split_005.html) - About six',
-            '"Practically none. <<About six|9e:1>>, besides me. And not all in those Monster experiments, either. A lot of them died in the fighting."',
+            '"Practically none. <<About six|9x>>, besides me. And not all in those Monster experiments, either. A lot of them died in the fighting."',
+          ],
+          [
+            1,
+            '[ap 01:00] Of Men and Monsters - William Tenn.epub (index_split_005.html) - one',
+            "Rachel was still tied to Roy, but Eric, depending solely on his grip, was almost torn loose by the suddenness of their stop. It was by <<one|9w>> hand only, a hand slipping up her\x{a0}arm to her throat, that he still held himself to her. He threw the other arm around her again and pulled himself close.",
           ],
         ];

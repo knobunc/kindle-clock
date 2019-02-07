@@ -79,7 +79,7 @@ $VAR1 = [
             1,
             '[ap ~ 04:00] Appointment With Death - Agatha Christie.epub (OEBPS/Text/part0020.html) - about four',
             "\x{2018}What time was this?\x{2019}
-\x{2018}Oh! <<about four|9e:1>>, I suppose.\x{2019}
+\x{2018}Oh! <<about four|9x>>, I suppose.\x{2019}
 \x{2018}And the rest?\x{2019}",
           ],
           [
@@ -156,77 +156,74 @@ Poirot put down C.B. <<5.10|9p>>.
           [
             1,
             '[ap 03:15] Appointment With Death - Agatha Christie.epub (OEBPS/Text/part0025.html) - 3.15',
-            'Boyntons and Jefferson Cope leave the camp
-
-            3.5 (approx.)
-          
-
-          
-            Dr Gerard and Sarah King leave the camp
-
-            <<3.15|5a:0>> (approx.)
-          
-
-          
-            Lady Westholme and Miss Pierce leave the camp
-
-            <<4.15|5a:0>>
-          
-
-          
-            Dr Gerard returns to camp
-
-            <<4.20|5a:0>> (approx.)
-          
-
-          
-            Lennox Boynton returns to camp
-
-            <<4.35|5a:0>>
-          
-
-          
-            Nadine Boynton returns to camp and talks to Mrs Boynton
-
-            <<4.40|5a:0>>
-          
-
-          
-            Nadine Boynton leaves her mother-in-law and goes to marquee
-
-            <<4.50|5a:0>> (approx.)
-          
-
-          
-            Carol Boynton returns to camp
-
-            <<5.10|5a:0>>
-          
-
-          
-            Lady Westholme, Miss Pierce and Mr Jefferson Cope
-
+            'Dr Gerard and Sarah King leave the camp
+<<3.15|5a:0>> (approx.)
+Lady Westholme and Miss Pierce leave the camp',
+          ],
+          [
+            1,
+            '[ap 04:15] Appointment With Death - Agatha Christie.epub (OEBPS/Text/part0025.html) - 4.15',
+            'Lady Westholme and Miss Pierce leave the camp
+<<4.15|5a:0>>
+Dr Gerard returns to camp',
+          ],
+          [
+            1,
+            '[ap 04:20] Appointment With Death - Agatha Christie.epub (OEBPS/Text/part0025.html) - 4.20',
+            'Dr Gerard returns to camp
+<<4.20|5a:0>> (approx.)
+Lennox Boynton returns to camp',
+          ],
+          [
+            1,
+            '[ap 04:35] Appointment With Death - Agatha Christie.epub (OEBPS/Text/part0025.html) - 4.35',
+            'Lennox Boynton returns to camp
+<<4.35|5a:0>>
+Nadine Boynton returns to camp and talks to Mrs Boynton',
+          ],
+          [
+            1,
+            '[ap 04:40] Appointment With Death - Agatha Christie.epub (OEBPS/Text/part0025.html) - 4.40',
+            'Nadine Boynton returns to camp and talks to Mrs Boynton
+<<4.40|5a:0>>
+Nadine Boynton leaves her mother-in-law and goes to marquee',
+          ],
+          [
+            1,
+            '[ap 04:50] Appointment With Death - Agatha Christie.epub (OEBPS/Text/part0025.html) - 4.50',
+            'Nadine Boynton leaves her mother-in-law and goes to marquee
+<<4.50|5a:0>> (approx.)
+Carol Boynton returns to camp',
+          ],
+          [
+            1,
+            '[ap 05:10] Appointment With Death - Agatha Christie.epub (OEBPS/Text/part0025.html) - 5.10',
+            'Carol Boynton returns to camp
+<<5.10|5a:0>>
+Lady Westholme, Miss Pierce and Mr Jefferson Cope
+            return to camp',
+          ],
+          [
+            1,
+            '[ap 05:40] Appointment With Death - Agatha Christie.epub (OEBPS/Text/part0025.html) - 5.40',
+            'Lady Westholme, Miss Pierce and Mr Jefferson Cope
             return to camp
-
-            <<5.40|5a:0>>
-          
-
-          
-            Raymond Boynton returns to camp
-
-            <<5.50|5a:0>>
-          
-
-          
-            Sarah King returns to camp
-
-            6.0
-          
-
-          
-            Body discovered
-
-            <<6.30|5a:0>>',
+<<5.40|5a:0>>
+Raymond Boynton returns to camp',
+          ],
+          [
+            1,
+            '[ap 05:50] Appointment With Death - Agatha Christie.epub (OEBPS/Text/part0025.html) - 5.50',
+            'Raymond Boynton returns to camp
+<<5.50|5a:0>>
+Sarah King returns to camp',
+          ],
+          [
+            1,
+            '[ap 06:30] Appointment With Death - Agatha Christie.epub (OEBPS/Text/part0025.html) - 6.30',
+            'Body discovered
+<<6.30|5a:0>>
+',
           ],
           [
             1,
@@ -252,10 +249,7 @@ Poirot put down C.B. <<5.10|9p>>.
 
     Dr Gerard and Miss Genevra Boynton occupied tents next door to each other.
 
-    At <<half-past six|10>>, when dinner was ready, a servant was dispatched to announce the fact to Mrs Boynton.
-  
-
-  The Colonel perused this with great satisfaction.",
+    At <<half-past six|10>>, when dinner was ready, a servant was dispatched to announce the fact to Mrs Boynton.",
           ],
           [
             1,
@@ -278,10 +272,7 @@ Poirot put down C.B. <<5.10|9p>>.
 
     At <<half-past six|10>>, when dinner was ready, a servant was dispatched to announce the fact to Mrs Boynton.
 
-    Mrs Boynton, in Jerusalem, used these words: \x{201c}I never forget. Remember that. I\x{2019}ve never forgotten anything.\x{201d}
-  
-
-  \x{2018}Although I have numbered the points separately, occasionally they can be bracketed in pairs. That is the case, for instance, with the first two. Mrs Boynton taking a mixture containing digitalis. Dr Gerard had missed a hypodermic syringe. Those two points were the first thing that struck me about the case, and I may say to you that I found them most extraordinary\x{2014}and quite irreconcilable. You do not see what I mean? No matter. I will return to the point presently. Let it suffice that I noticed those two points as something that had definitely got to be explained satisfactorily.",
+    Mrs Boynton, in Jerusalem, used these words: \x{201c}I never forget. Remember that. I\x{2019}ve never forgotten anything.\x{201d}",
           ],
           [
             1,
@@ -301,80 +292,77 @@ Poirot put down C.B. <<5.10|9p>>.
           [
             1,
             '[ap 03:15] Appointment With Death - Agatha Christie.epub (OEBPS/Text/part0032.html) - 3.15',
-            "Boyntons and Jefferson Cope leave the camp
-
-            3.5 (approx.)
-          
-
-          
-            Dr Gerard and Sarah King leave the camp
-
-            <<3.15|5a:1>> (approx.)
-          
-
-          
-            Lady Westholme and Miss Pierce leave the camp
-
-            <<4.15|5a:1>>
-          
-
-          
-            Dr Gerard returns to camp
-
-            <<4.20|5a:1>> (approx.)
-          
-
-          
-            Lennox Boynton returns to camp
-
-            <<4.35|5a:1>>
-          
-
-          
-            Nadine Boynton returns to camp and talks to Mrs Boynton
-
-            <<4.40|5a:1>>
-          
-
-          
-            Nadine Boynton leaves her mother-in-law and goes to marquee
-
-            <<4.50|5a:1>> (approx.)
-          
-
-          
-            Carol Boynton returns to camp
-
-            <<5.10|5a:1>>
-          
-
-          
-            Lady Westholme, Miss Pierce and Mr Jefferson Cope return to camp
-
-            <<5.40|5a:1>>
-          
-
-          
-            Raymond Boynton returns to camp
-
-            <<5.50|5a:1>>
-          
-
-          
-            Sarah King returns to camp
-
-            6.0
-          
-
-          
-            Body discovered
-
-            <<6.30|5a:1>>
-          
-        
-      
-
-      \x{2018}There is, you will notice, a gap of twenty minutes between <<four-fifty|5k:1>> when Nadine Boynton left her mother-in-law and <<five-ten|5k:1>> when Carol returned. Therefore, if Carol is speaking the truth, Mrs Boynton must have been killed in that twenty minutes.",
+            'Dr Gerard and Sarah King leave the camp
+<<3.15|5a:0>> (approx.)
+Lady Westholme and Miss Pierce leave the camp',
+          ],
+          [
+            1,
+            '[ap 04:15] Appointment With Death - Agatha Christie.epub (OEBPS/Text/part0032.html) - 4.15',
+            'Lady Westholme and Miss Pierce leave the camp
+<<4.15|5a:0>>
+Dr Gerard returns to camp',
+          ],
+          [
+            1,
+            '[ap 04:20] Appointment With Death - Agatha Christie.epub (OEBPS/Text/part0032.html) - 4.20',
+            'Dr Gerard returns to camp
+<<4.20|5a:0>> (approx.)
+Lennox Boynton returns to camp',
+          ],
+          [
+            1,
+            '[ap 04:35] Appointment With Death - Agatha Christie.epub (OEBPS/Text/part0032.html) - 4.35',
+            'Lennox Boynton returns to camp
+<<4.35|5a:0>>
+Nadine Boynton returns to camp and talks to Mrs Boynton',
+          ],
+          [
+            1,
+            '[ap 04:40] Appointment With Death - Agatha Christie.epub (OEBPS/Text/part0032.html) - 4.40',
+            'Nadine Boynton returns to camp and talks to Mrs Boynton
+<<4.40|5a:0>>
+Nadine Boynton leaves her mother-in-law and goes to marquee',
+          ],
+          [
+            1,
+            '[ap 04:50] Appointment With Death - Agatha Christie.epub (OEBPS/Text/part0032.html) - 4.50',
+            'Nadine Boynton leaves her mother-in-law and goes to marquee
+<<4.50|5a:0>> (approx.)
+Carol Boynton returns to camp',
+          ],
+          [
+            1,
+            '[ap 05:10] Appointment With Death - Agatha Christie.epub (OEBPS/Text/part0032.html) - 5.10',
+            'Carol Boynton returns to camp
+<<5.10|5a:0>>
+Lady Westholme, Miss Pierce and Mr Jefferson Cope return to camp',
+          ],
+          [
+            1,
+            '[ap 05:40] Appointment With Death - Agatha Christie.epub (OEBPS/Text/part0032.html) - 5.40',
+            'Lady Westholme, Miss Pierce and Mr Jefferson Cope return to camp
+<<5.40|5a:0>>
+Raymond Boynton returns to camp',
+          ],
+          [
+            1,
+            '[ap 05:50] Appointment With Death - Agatha Christie.epub (OEBPS/Text/part0032.html) - 5.50',
+            'Raymond Boynton returns to camp
+<<5.50|5a:0>>
+Sarah King returns to camp',
+          ],
+          [
+            1,
+            '[ap 06:30] Appointment With Death - Agatha Christie.epub (OEBPS/Text/part0032.html) - 6.30',
+            "Body discovered
+<<6.30|5a:1>>
+\x{2018}There is, you will notice, a gap of twenty minutes between <<four-fifty|5k:1>> when Nadine Boynton left her mother-in-law and <<five-ten|5k:1>> when Carol returned. Therefore, if Carol is speaking the truth, Mrs Boynton must have been killed in that twenty minutes.",
+          ],
+          [
+            1,
+            '[ap 04:50] Appointment With Death - Agatha Christie.epub (OEBPS/Text/part0032.html) - four-fifty',
+            "\x{2018}There is, you will notice, a gap of twenty minutes between <<four-fifty|5k:1>> when Nadine Boynton left her mother-in-law and <<five-ten|5k:1>> when Carol returned. Therefore, if Carol is speaking the truth, Mrs Boynton must have been killed in that twenty minutes.",
           ],
           [
             1,
@@ -394,16 +382,7 @@ Poirot put down C.B. <<5.10|9p>>.
           [
             1,
             '[> 00:00] Appointment With Death - Agatha Christie.epub (OEBPS/Text/part0036.html) - Just after midnight',
-            "The New York Times: \x{2018}A most ingenious crime puzzle.\x{2019}
-
-      Times Literary Supplement: \x{2018}The whole case is a triumph of Poirot\x{2019}s special qualities.\x{2019}
-
-      Noted crime fiction critic Julian Symons selected Lord Edgware Dies as one of Agatha Christie\x{2019}s best.
-    
-
-    
-
-    <<Just after midnight|10>>, a snowstorm stops the Orient Express dead in its tracks in the middle of Yugoslavia. The luxurious train is surprisingly full for this time of year. But by morning there is one passenger less. A \x{2018}respectable American gentleman\x{2019} lies dead in his compartment, stabbed a dozen times, his door locked from the inside\x{2026}Hercule Poirot is also aboard, having arrived in the nick of time to claim a second-class compartment\x{2014}and the most astounding case of his illustrious career.",
+            "<<Just after midnight|10>>, a snowstorm stops the Orient Express dead in its tracks in the middle of Yugoslavia. The luxurious train is surprisingly full for this time of year. But by morning there is one passenger less. A \x{2018}respectable American gentleman\x{2019} lies dead in his compartment, stabbed a dozen times, his door locked from the inside\x{2026}Hercule Poirot is also aboard, having arrived in the nick of time to claim a second-class compartment\x{2014}and the most astounding case of his illustrious career.",
           ],
           [
             1,

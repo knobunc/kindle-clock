@@ -16,6 +16,11 @@ $VAR1 = [
           ],
           [
             1,
+            '[ap ~ 00:00] Anatomy of a Murder - Robert Traver.epub (OEBPS/e9781429937290_c03.html) - About twelve',
+            "Lieutenant Manion flushed and sat up straight. The dark eyes clouded and gazed even farther away. \x{201c}Well,\x{201d} he began slowly, \x{201c}we were advancing in Germany, the spring before the end of the European war. It was dusk and I was leading some men out on night patrol. <<About twelve|9:0>> of us. The sector had been badly shelled and there was very little cover. Intelligence had told us the Germans were in full retreat, that the way was clear.\x{201d}",
+          ],
+          [
+            1,
             '[~ 00:45] Anatomy of a Murder - Robert Traver.epub (OEBPS/e9781429937290_c04.html) - about forty-five minutes past midnight',
             "\x{201c}Touching only the high spots now, the newspaper states that you walked into Barney Quill\x{2019}s bar at Thunder Bay <<about forty-five minutes past midnight|10>> last Friday night\x{2014}really early Saturday\x{2014}and shot him five times; that you drove in your car back to your house trailer in the Thunder Bay tourist park; that you awakened the deputized caretaker of the park and told him you had just shot Quill; that he then left to summon the state police from Iron Bay; and that you waited in your trailer until the officers arrived. Is that correct?\x{201d}",
           ],
@@ -128,14 +133,14 @@ Maida at the beauty shop for a manicure or something. Both strike me as being li
             1,
             '[ap > 02:00] Anatomy of a Murder - Robert Traver.epub (OEBPS/e9781429937290_c19.html) - shortly after two',
             "\x{201c}When did the police arrive?\x{201d}
-\x{201c}It was <<shortly after two|9:1>>\x{2014}the distance and winding roads, you know.\x{201d}
+\x{201c}It was <<shortly after two|9w>>\x{2014}the distance and winding roads, you know.\x{201d}
 \x{201c}Yes, I know.\x{201d} I paused. \x{201c}So you were alone with the body for over an hour?\x{201d}",
           ],
           [
             1,
             '[ap ~ 11:00] Anatomy of a Murder - Robert Traver.epub (OEBPS/e9781429937290_c19.html) - Around eleven',
             "\x{201c}When?\x{201d}
-\x{201c}<<Around eleven|9e:1>>, shortly before Mrs. Manion left.\x{201d}
+\x{201c}<<Around eleven|9:0>>, shortly before Mrs. Manion left.\x{201d}
 \x{201c}When did you next see him?\x{201d}",
           ],
           [

@@ -22,10 +22,7 @@ $VAR1 = [
           [
             1,
             '[ap 09:59] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (087-089_split_001.html) - 1 to 10',
-            'for(i = 1; i <= 10; i = i + 1)
-
-
-sets up a loop that steps the variable i through the values <<1 to 10|10a:0>> (inclusive). The body of the loop, enclosed in another pair of braces, consists of a declaration of a block-local variable f, a call to the function fib, and a call to printf. In this call to printf, the string to be printed includes the two-character sequence %d, which indicates that the value of another int argument passed to printf, in this case the variable f, should be inserted as a decimal integer (replacing the two characters %d in the output).',
+            'sets up a loop that steps the variable i through the values <<1 to 10|10a:0>> (inclusive). The body of the loop, enclosed in another pair of braces, consists of a declaration of a block-local variable f, a call to the function fib, and a call to printf. In this call to printf, the string to be printed includes the two-character sequence %d, which indicates that the value of another int argument passed to printf, in this case the variable f, should be inserted as a decimal integer (replacing the two characters %d in the output).',
           ],
           [
             1,
@@ -45,28 +42,14 @@ sets up a loop that steps the variable i through the values <<1 to 10|10a:0>> (i
           [
             1,
             '[ap 09:59] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (096-098.html) - a of 10',
-            'int a[10];
-
-
-declares an array <<a of 10|10>> ints. All arrays in C are 0-based, so the 10 elements of the array a are numbered from <<0 to 9|10a:0>>.',
+            'declares an array <<a of 10|10>> ints. All arrays in C are 0-based, so the 10 elements of the array a are numbered from <<0 to 9|10a:0>>.',
           ],
           [
             1,
             '[ap 03:14] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (101-103.html) - 3.14',
-            "\x{2022}\x{a0}\x{a0}const\x{2014}Indicates that a location will not be written to during the running of the program, such that it may be placed in read-only storage. A const object may be assigned a value only by initialization. The compiler attempts to warn about attempts to modify const objects.
-
-(A const object is, however, not a compile-time constant; it is a runtime object that will not be modified. A const object cannot be used where a constant expression is required, such as in an array dimension. This is another significant difference from C++.)
-\x{2022}\x{a0}\x{a0}volatile\x{2014}Indicates that a location may change its value other than as written to by the program, or that it otherwise has peculiar access semantics. The canonical example of a volatile location is a memory-mapped I/O register, which may have a different value each time it is read from, or may cause output operations to be performed when it is written to. The effect of the volatile qualifier is typically to suppress optimizations that would rearrange or eliminate loads or stores of the affected variable.
-
-Simple examples of these type qualifiers in use are
+            'Simple examples of these type qualifiers in use are
 const float pi = <<3.14|5a:0>>;
-
-
-and
-volatile int diskcsr;
-
-
-Type qualifiers are distinct from storage classes because, in complex pointer declarations, it is possible for either the pointer itself or the pointed-to location to be qualified. (See section 3.6.1.)",
+and',
           ],
           [
             1,
@@ -81,29 +64,24 @@ Type qualifiers are distinct from storage classes because, in complex pointer de
           [
             1,
             '[ap 09:00] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (130-132.html) - 0 to 9',
-            "for(i = 0; i < 10; i++)
-        printf(\x{201c}%d\\n\x{201d}, i);
-
-
-initializes i to 0, loops as long as i is less than 10, and increments i by one after each trip through the loop. Ten values of i are therefore printed, from <<0 to 9|10a:0>>, inclusive.",
+            'initializes i to 0, loops as long as i is less than 10, and increments i by one after each trip through the loop. Ten values of i are therefore printed, from <<0 to 9|10a:0>>, inclusive.',
           ],
           [
             1,
             '[ap 03:10] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (145-147.html) - 3.10',
-            "int * const constptr;
-
-
-on the other hand, declares constptr as type \x{201c}const pointer to int.\x{201d} (These declarations have to be read \x{201c}inside out\x{201d} to make sense.) It is permissible to modify the int to which constptr points (that is, *constptr), and it is permissible to modify ptrtoconst to make it point to other const ints, but it is not permissible to modify constptr (the pointer itself) or *ptrtoconst (the pointed-to value). Pointers to constant values (e.g., const char *) are often used as function arguments, documenting (and in most cases ensuring) that the function does not use a particular pointer to modify any data in the caller. (See section <<3.10|5a:0>> for many examples.)",
+            "on the other hand, declares constptr as type \x{201c}const pointer to int.\x{201d} (These declarations have to be read \x{201c}inside out\x{201d} to make sense.) It is permissible to modify the int to which constptr points (that is, *constptr), and it is permissible to modify ptrtoconst to make it point to other const ints, but it is not permissible to modify constptr (the pointer itself) or *ptrtoconst (the pointed-to value). Pointers to constant values (e.g., const char *) are often used as function arguments, documenting (and in most cases ensuring) that the function does not use a particular pointer to modify any data in the caller. (See section <<3.10|5a:0>> for many examples.)",
           ],
           [
             1,
             '[ap 09:59] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (173-176.html) - 1 to 10',
-            "struct list *lp;
-for(lp = base; lp != NULL; lp = lp->next)
-        printf(\x{201c}%d\\n\x{201d}, lp->item);
-
-
-The variable lp steps from node to node, starting at the base of the list and pointing to each node in turn until the null pointer marking the end of the list is found. In this for loop, therefore, the loop control variable is not even an integer (let alone one that steps from, say, <<1 to 10|10a:1>>). Yet this is a perfectly legal and common loop, illustrating the generality of the for loop while preserving the familiar initialize/test/increment pattern.",
+            'The variable lp steps from node to node, starting at the base of the list and pointing to each node in turn until the null pointer marking the end of the list is found. In this for loop, therefore, the loop control variable is not even an integer (let alone one that steps from, say, <<1 to 10|10a:1>>). Yet this is a perfectly legal and common loop, illustrating the generality of the for loop while preserving the familiar initialize/test/increment pattern.',
+          ],
+          [
+            1,
+            '[ap 03:10] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (181-184.html) - 3.10',
+            'A C program can return an exit status to the invoking environment. The exit status is simply an integer value, with 0 indicating successful termination and nonzero values representing other conditions. The exit status is either the return value from main or the value passed to the exit function. See section 3.10.4.5 for more information on exit and the two predefined exit status values EXIT_SUCCESS and EXIT_FAILURE.
+<<3.10|9p>>. The Standard C Library
+The Standard C runtime library is an occasionally eclectic mixture of extremely useful functions, along with a few unlikely historical warts. Most of these functions are valuable, and their use is recommended for productive and efficient programming. A few (such as strncpy) have foibles that must be understood for proper use, and one or two (such as gets) cannot be used safely, and are best avoided.',
           ],
           [
             1,
@@ -112,10 +90,7 @@ The variable lp steps from node to node, starting at the base of the list and po
 printf(\x{201c}%o %x %X %#o %#x\\n\x{201d}, 171, 171, 171, 171, 171);
 printf(\x{201c}%f %e %g\\n\x{201d}, <<3.14|9p>>, <<3.14|9p>>, <<3.14|5a:0>>);
 printf(\x{201c}%s, %.5s!\\n\x{201d}, \x{201c}Hello\x{201d}, \x{201c}worldly\x{201d});
-printf(\x{201c}%0*d, %.*f, %*.*s\\n\x{201d}, 2, 3, 4, 5.6, 7, 3, \x{201c}abcdef\x{201d});
-
-
-Those calls print these five lines:",
+printf(\x{201c}%0*d, %.*f, %*.*s\\n\x{201d}, 2, 3, 4, 5.6, 7, 3, \x{201c}abcdef\x{201d});",
           ],
           [
             1,
@@ -124,46 +99,42 @@ Those calls print these five lines:",
 253 ab AB <<0253|18:0>> 0xab
 3.140000 3.140000e+00 <<3.14|5a:0>>
 Hello, world!
-03, 5.6000,     abc
-
-
-printf and fprintf return the number of characters printed, or a negative number on error.',
+03, 5.6000,     abc',
           ],
           [
             1,
             '[ap 07:50] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (213-216.html) - 07:50',
-            "Tue Oct 28 <<07:50|2>>:28 1997\\n\\0
-
-
+            "These functions construct a human-readable string corresponding to a date and time. The string is of the form
+Tue Oct 28 <<07:50|2>>:28 1997\\n\\0
 (and is therefore equivalent to calling strftime with the format string \x{201c}%a %b %m %H:%M:%S %Y\\n\x{201d}). asctime builds the string from the information in the tm structure pointed to by tp. ctime builds the string from the time_t value pointed to by t; it is equivalent to asctime(localtime(t)). The return pointer is to a static string that is overwritten by each call.",
           ],
           [
             1,
             '[ap 02:10] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (216-218.html) - 2:10',
-            'time_t mktime(struct tm *tp)
-
-
-mktime attempts to compute the time_t value corresponding to the local date and time represented by the tm structure pointed to by tp. The date is determined by tm_mon and tm_mday; tm_wday and tm_yday are ignored on input. If tm_isdst is negative, mktime attempts to determine whether DST will or would have applied on the given date, and act accordingly; if tm_isdst is positive or zero, the caller is asserting that the given time does or does not have a DST offset applied, respectively. If any of tm_sec, tm_min, tm_hour, tm_mday, or tm_mon has a value outside the expected range, mktime normalizes them in the process of computing a date (and also adjusts their values in *tp). For example, 25:70 on January 32 is converted to <<2:10|2>> on February 2. Finally, appropriate values of tm_wday and tm_yday are set in *tp. The return value is the converted time_t value, or -1 if the conversion is impossible (e.g., the date represented by the tm structure is outside the range representable by a time_t).',
+            'mktime attempts to compute the time_t value corresponding to the local date and time represented by the tm structure pointed to by tp. The date is determined by tm_mon and tm_mday; tm_wday and tm_yday are ignored on input. If tm_isdst is negative, mktime attempts to determine whether DST will or would have applied on the given date, and act accordingly; if tm_isdst is positive or zero, the caller is asserting that the given time does or does not have a DST offset applied, respectively. If any of tm_sec, tm_min, tm_hour, tm_mday, or tm_mon has a value outside the expected range, mktime normalizes them in the process of computing a date (and also adjusts their values in *tp). For example, 25:70 on January 32 is converted to <<2:10|2>> on February 2. Finally, appropriate values of tm_wday and tm_yday are set in *tp. The return value is the converted time_t value, or -1 if the conversion is impossible (e.g., the date represented by the tm structure is outside the range representable by a time_t).',
+          ],
+          [
+            1,
+            '[ap 03:11] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (232-234.html) - 3.11',
+            "These functions permit new character conversions to be introduced without adding additional functions. wctrans accepts a string convname indicating a character conversion and returns a token that can be used for performing that conversion. (The token type, wctrans_t, is also defined in <wctype.h>.) towctrans accepts a wide character c and a token convtok previously returned by wctrans, and returns the appropriately converted wide character. wctrans accepts the strings \x{201c}toupper\x{201d} and \x{201c}tolower\x{201d} (corresponding to the two predefined classifications), plus any other conversion strings an implementation chooses to provide.
+<<3.11|9p>>. Acknowledgments
+Thanks to Clive Feather for his invaluable summary of NA1. Thanks to Mark Brader, Jutta Degener, Dennis Ritchie, Melanie Summit, and Rob Young for reading and commenting on drafts of this manuscript.",
+          ],
+          [
+            1,
+            '[ap 03:12] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (232-234.html) - 3.12',
+            "Thanks to Clive Feather for his invaluable summary of NA1. Thanks to Mark Brader, Jutta Degener, Dennis Ritchie, Melanie Summit, and Rob Young for reading and commenting on drafts of this manuscript.
+<<3.12|9p>>. Bibliography
+American National Standards Institute. 1989. American national standard for information systems\x{2014}Programming language\x{2014}C, ANSI X3.159-1989.",
           ],
           [
             1,
             '[16:18] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (242-245.html) - 16.18',
-            "\x{2022}\x{a0}\x{a0}The IL should be a bona fide language and not just an aggregation of data structures. For example, IBM uses an intermediate language called XIL (O\x{2019}Brien, O\x{2019}Brien, Hopkins, Shepherd, & Unrau, 1995) in some compilers. Although those compilers are very effective, the XIL is not formally a language in the sense that programs are represented as strings of symbols. Instead, the front and back ends have architected interfaces for obtaining and shipping information. Consider the issue of alias information, which specifies when two variable names might reference the same object. Rules concerning aliasing are language specific. In XIL, such information is provided by the front end, not as a piece of text, but instead through a procedural interface for resolving specific alias queries. The result is an efficient system, but there is no \x{201c}string\x{201d} that fully represents the program at an intermediate level. Thus, one cannot transmit an IL form without bundling the front end and its internal structures that represent aliasing.
-\x{2022}\x{a0}\x{a0}The semantics of the IL should be cleanly defined and readily apparent. A good test of this criterion is the ease with which an interpreter can be written for the IL. A good example of such an IL is Pascal\x{2019}s Pcode, which we\x{2019}ll examine later in more detail. A worse example is GNU\x{2019}s RTL (Stallman, http://www.fsf.org):
-
+            "\x{2022}\x{a0}\x{a0}The semantics of the IL should be cleanly defined and readily apparent. A good test of this criterion is the ease with which an interpreter can be written for the IL. A good example of such an IL is Pascal\x{2019}s Pcode, which we\x{2019}ll examine later in more detail. A worse example is GNU\x{2019}s RTL (Stallman, http://www.fsf.org):
 \x{201c}People frequently have the idea of using RTL stored as text in a file as an interface between a language front end and the bulk of GNU CC. This idea is not feasible. GNU CC was designed to use RTL internally only. Correct RTL for a given program is very dependent on the particular target machine. And the RTL does not contain all the information about the program. (Section <<16.18|5a:0>>)\x{201d}
-
 It turns out that GNU has another intermediate representation, but it is poorly documented (Stallman, http://www.fsf.org):
-
 \x{201c}The proper way to interface GNU CC to a new language front end is with the \x{201c}tree\x{201d} data structure. There is no manual for this data structure, but it is described in the files \x{2019}tree.h\x{2019} and \x{2019}tree.def\x{2019}. (Section <<16.18|5a:0>>)\x{201d}
-
-If GNU\x{2019}s ILs have these problems, why are the GNU compilers in such widespread use? They are popular because they are easily re-targeted even though they are not easily re-sourced. Admittedly, the act of re-targeting a compiler occurs more frequently than its re-sourcing.
-\x{2022}\x{a0}\x{a0}The IL\x{2019}s representation should not be overly verbose. Although some expansion is inevitable, the IL-to-source token ratio should be as low as possible. Compression of IL representation has grown in importance with the increase of program transmission on the World Wide Web. Moreover, vendors such as Microsoft often keep portions of their software in IL format to decrease the time needed to \x{201c}launch\x{201d} an application because the IL format can be considerably more compact than native code.
-\x{2022}\x{a0}\x{a0}The IL should have a human-readable form because humans will inevitably want to examine the IL.
-\x{2022}\x{a0}\x{a0}The IL should be easily and cleanly extensible, although it is often difficult to predict the impact an unknown source, target, or language modification can have on the IL.
-\x{2022}\x{a0}\x{a0}The IL should be sufficiently general to represent the important aspects of multiple front-end languages and back-end targets.
-
-In summary, designing a good IL is truly an engineering endeavor: Utility and generality must be considered along with efficiency.",
+If GNU\x{2019}s ILs have these problems, why are the GNU compilers in such widespread use? They are popular because they are easily re-targeted even though they are not easily re-sourced. Admittedly, the act of re-targeting a compiler occurs more frequently than its re-sourcing.",
           ],
           [
             1,
@@ -189,53 +160,44 @@ In summary, designing a good IL is truly an engineering endeavor: Utility and ge
             1,
             '[ap 09:59] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (262-264.html) - 1 to 10',
             "for i := <<1 to 10|10a:0>> do
-   for c := \x{2018}a\x{2019} to \x{2018}z\x{2019} do
-   for i := 10 downto 1 do
-   for c := \x{2018}z\x{2019} downto \x{2018}a\x{2019} do
-
-
-Listing 5.8. A demonstration of for loops.",
+for c := \x{2018}a\x{2019} to \x{2018}z\x{2019} do
+for i := 10 downto 1 do
+for c := \x{2018}z\x{2019} downto \x{2018}a\x{2019} do",
           ],
           [
             1,
             '[ap 10:00] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (262-264.html) - 10',
             "program fig8;
-    var
-      i: integer;
-      c: char;
-    begin
-      write(\x{2018}I can count down from <<10|9c:0>>: \x{2019});
-      for i := 10 downto 1 do
-        write(i, \x{2018} \x{2019});
-      writeln;
-      writeln(\x{2018}Now here\x{201c}s the ABC\x{201d}s\x{2019});
-      for c := \x{2018}A\x{2019} to \x{2018}Z\x{2019} do
-        write(c, \x{2018} \x{2019});
-      writeln;
-    end.
-
-
-The logic in execution of a for loop would be as follows, using the first example of a for loop:",
+ var
+   i: integer;
+   c: char;
+ begin
+   write(\x{2018}I can count down from <<10|9c:0>>: \x{2019});
+   for i := 10 downto 1 do
+     write(i, \x{2018} \x{2019});
+   writeln;
+   writeln(\x{2018}Now here\x{201c}s the ABC\x{201d}s\x{2019});
+   for c := \x{2018}A\x{2019} to \x{2018}Z\x{2019} do
+     write(c, \x{2018} \x{2019});
+   writeln;
+ end.",
           ],
           [
             1,
             '[ap 10:00] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (264-267.html) - 10',
             "program fig9;
-    var
-      i: integer;
-    begin
-      write(\x{2018}I can count down from <<10|9c:0>>: \x{2019});
-      i := 10;
-      while i > 0 do
-        begin
-          write(i, \x{2018} \x{2019});
-          i := i - 1;
-        end;
-      writeln;
-    end.
-
-
-Here, what is performed in the while loop is exactly what is done in the for-downto loop presented in Listing 5.8. The generic function of a while loop is to continue the statements encompassed by the while loop while the condition specified is true. If the assignment to i is changed to i := 0, the statements in the while loop will never be executed.",
+ var
+   i: integer;
+ begin
+   write(\x{2018}I can count down from <<10|9c:0>>: \x{2019});
+   i := 10;
+   while i > 0 do
+     begin
+       write(i, \x{2018} \x{2019});
+       i := i - 1;
+     end;
+   writeln;
+ end.",
           ],
           [
             1,
@@ -248,39 +210,33 @@ Here, what is performed in the while loop is exactly what is done in the for-dow
             "Listing <<5.10|5a:0>> shows a program that performs the same actions as Listing 5.9, using a repeat loop. Note the difference in the control statement as well as the location of the control statement. As Wirth intended Pascal to be a teaching language with logic behind how the control structures are expressed, the way the constructs are written indicates the actions that happen. Because a repeat loop checks the condition after the statements are executed, the condition appears afterwards, whereas a while loop shows the control statement beforehand.
 Listing <<5.10|5a:0>>. A demonstration of a repeat loop.
 program fig10;
-    var
-      i: integer;
-  begin
-    write(\x{2018}I can count down from <<10|9c:0>>: \x{2019});
-    i := 10;
-    repeat
-      write(i, \x{2018} \x{2019});
-      i := i - 1;
-    until i < 1;
-    writeln;
-  end.
-
-
-5.2.3.6. Boolean Logic and Control Structures",
+ var
+   i: integer;
+begin
+ write(\x{2018}I can count down from <<10|9c:0>>: \x{2019});
+ i := 10;
+ repeat
+   write(i, \x{2018} \x{2019});
+   i := i - 1;
+ until i < 1;
+ writeln;
+end.",
           ],
           [
             1,
             '[ap 10:00] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (264-267.html) - 10',
             "program fig10;
-    var
-      i: integer;
-  begin
-    write(\x{2018}I can count down from <<10|9c:0>>: \x{2019});
-    i := 10;
-    repeat
-      write(i, \x{2018} \x{2019});
-      i := i - 1;
-    until i < 1;
-    writeln;
-  end.
-
-
-5.2.3.6. Boolean Logic and Control Structures",
+ var
+   i: integer;
+begin
+ write(\x{2018}I can count down from <<10|9c:0>>: \x{2019});
+ i := 10;
+ repeat
+   write(i, \x{2018} \x{2019});
+   i := i - 1;
+ until i < 1;
+ writeln;
+end.",
           ],
           [
             1,
@@ -295,13 +251,7 @@ program fig10;
           [
             1,
             '[ap ~ 09:50] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (267-269.html) - about 10 to 10',
-            "\x{2022}\x{a0}\x{a0}byte\x{2014}regular storage for a byte of data: 0 to 255; 1 byte storage
-\x{2022}\x{a0}\x{a0}word\x{2014}regular storage for a word of data: 0 to 65,535; 2 bytes storage
-\x{2022}\x{a0}\x{a0}integer\x{2014}signed numerical storage: \x{2013}32,767 to 32,768; 2 bytes storage
-\x{2022}\x{a0}\x{a0}longint\x{2014}signed numerical storage with an even larger range than integer: 4 bytes storage
-\x{2022}\x{a0}\x{a0}real\x{2014}scientific number, 11 digits precision, storage from <<about 10 to 10|10>>, 6 bytes storage
-
-Some of the numeric types involve use of the numeric co-processor or runtime emulation routines that are inherent to Turbo Pascal. What you may want to use in this case is something referred to as a compiler directive to determine which way TP handles these kinds of numeric types. Compiler directives are commented codes that appear in a source program, generally at the beginning. Relevant compiler directives in this case are \$N and \$E. The defaults are \$N- and \$E+, which uses emulation by default. The + condition on each of these compiler directives signals to use either the numeric co-processor (N) or the emulation (E), whereas the - condition disables use of either.",
+            "\x{2022}\x{a0}\x{a0}real\x{2014}scientific number, 11 digits precision, storage from <<about 10 to 10|10>>, 6 bytes storage",
           ],
           [
             1,
@@ -314,18 +264,15 @@ Some of the numeric types involve use of the numeric co-processor or runtime emu
             "A byte of data, translated to a character in the ASCII chart is referred to as a data type char. A character can be assigned to a char variable, such as \x{2018}A\x{2019} or an equivalent ASCII number in decimal as #65 or hexadecimal such as \$41. In Listing <<5.12|5a:0>>, note that even though byte and char are entirely equivalent in storage (1 byte, same value in memory), the compiler interprets these types differently. To check this fact, information is shown later (Listing <<5.24|5a:0>>) to enable you to test the statement made.
 Listing <<5.12|5a:0>>. An illustration of byte versus char.
 program fig12;
-    var
-      character: char;
-      byteinfo: byte;
-    begin
-      character := #65; { or character := \x{2018}A\x{2019} would be equivalent }
-      byteinfo := 65;
-      writeln(character);
-      writeln(byteinfo);
-    end.
-
-
-Another type of data called boolean data is stored as a byte, \$00 or \$FF. This type is referred to as either true or false and is assigned as such in a boolean variable. These variables are good for status flags generally.",
+ var
+   character: char;
+   byteinfo: byte;
+ begin
+   character := #65; { or character := \x{2018}A\x{2019} would be equivalent }
+   byteinfo := 65;
+   writeln(character);
+   writeln(byteinfo);
+ end.",
           ],
           [
             1,
@@ -338,43 +285,38 @@ Another type of data called boolean data is stored as a byte, \$00 or \$FF. This
             "To define what the array syntax means with the first example above, buffer is an array of 1,024 bytes, each byte referred to in a range of 1 to 1024. The first byte is referred to as buffer[1], and the 100th byte is referred to as buffer[100]. An example of declaring and accessing an array in a proper manner is shown in Listing <<5.13|5a:0>>.
 Listing <<5.13|5a:0>>. An example of using a single-level table or array.
 program fig13;
-
-   { Single dimensional array demo:
-     fills an array using a mathematical formula, then takes the
-     average of all numbers in the array. Shows the proper way to
-     access an array in Pascal, as well as process an array, and
-     perform record-keeping in an array system with Pascal. }
-
-  var
-    info: array[1..15] of integer;
-    i, total_used: byte;
-    addtemp: longint;
-  begin
-    i := 1;
-    total_used := 0;
-    { use while or repeat when indefinite number of items placed in
-      array }
-    while (total_used * 3) < 12 do
-      begin
-        info[i] := total_used * 5 + 12;
-        total_used := total_used + 1;
-        i := i + 1;
-      end;
-    addtemp := 0;
-    { may use for loop as well as while/repeat here. When not entirely
-      filling an array, be sure to keep # of items currently used
-      recorded somewhere }
-    for i := 1 to total_used do
-      begin
-        write(info[i], \x{2018}, \x{2019});
-        addtemp := addtemp + info[i];
-      end;
-    writeln(total_used, \x{2018} numbers.\x{2019});
-    writeln(\x{2018}are averaged to \x{2019}, addtemp/total_used:0:3);
-  end.
-
-
-In the scheme of using arrays, it almost implies some form of loop to process each item in the grouping. Also, in cases in which it is known that all of the array is not filled with values, it is best to keep track of the number of values currently in the array.",
+{ Single dimensional array demo:
+  fills an array using a mathematical formula, then takes the
+  average of all numbers in the array. Shows the proper way to
+  access an array in Pascal, as well as process an array, and
+  perform record-keeping in an array system with Pascal. }
+var
+ info: array[1..15] of integer;
+ i, total_used: byte;
+ addtemp: longint;
+begin
+ i := 1;
+ total_used := 0;
+ { use while or repeat when indefinite number of items placed in
+   array }
+ while (total_used * 3) < 12 do
+   begin
+     info[i] := total_used * 5 + 12;
+     total_used := total_used + 1;
+     i := i + 1;
+   end;
+ addtemp := 0;
+ { may use for loop as well as while/repeat here. When not entirely
+   filling an array, be sure to keep # of items currently used
+   recorded somewhere }
+ for i := 1 to total_used do
+   begin
+     write(info[i], \x{2018}, \x{2019});
+     addtemp := addtemp + info[i];
+   end;
+ writeln(total_used, \x{2018} numbers.\x{2019});
+ writeln(\x{2018}are averaged to \x{2019}, addtemp/total_used:0:3);
+end.",
           ],
           [
             1,
@@ -392,107 +334,103 @@ In the scheme of using arrays, it almost implies some form of loop to process ea
             "An example of use of an array of beyond one level in a program is shown in Listing <<5.14|5a:0>>. If you keep in mind that memory storage is linear, programming for any level of array should not be difficult.
 Listing <<5.14|5a:0>>. A demonstration of a double-level array or table.
 program fig14;
-
-    { two-level array demonstration determinant of a 3X3 matrix.
-      The general formula is for a matrix of:
-      [ A B C ]
-      [ D E F ] is AEI + BFG + CDH - CEG - BDI - AFH = determinant
-      [ G H I ]
-    }
-
-    var
-      matrix: array[1..3,1..3] of integer;
-      x, y, postx, posty1, posty2: byte;
-      subadd1, subadd2, determinant: longint;
-  begin
-      { load a sample matrix value }
-      matrix[1,1] := 3;
-      matrix[1,2] := 4;
-      matrix[1,3] := 2;
-      matrix[2,1] := 8;
-      matrix[2,2] := 7;
-      matrix[2,3] := 3;
-      matrix[3,1] := 1;
-      matrix[3,2] := 0;
-      matrix[3,3] := 4;
-       { perform matrix calculation\x{2014}note that y is not directly
-        accessed within this for loop }
-      for y := <<1 to 3|10a:0>> do
-        begin
-          posty1 := y;
-          posty2 := y;
-  subadd1 := 1;
-          subadd2 := 1;
-          for postx := <<1 to 3|10a:0>> do
-            begin
-              if posty1 = 3 then
-                posty1 := 1
-              else
-                posty1 := posty1 + 1;
-              if posty2 = 1 then
-                 posty2 := 3
-              else
-                 posty2 := posty2 - 1;
-              subadd1 := subadd1 * matrix[postx, posty1];
-              subadd2 := subadd2 * matrix[postx, posty2];
-            end;
-          determinant := determinant + subadd1 - subadd2;
-        end;
-      writeln(\x{2018}The determinant is: \x{2019}, determinant, \x{2018}.\x{2019});
-    end.",
+ { two-level array demonstration determinant of a 3X3 matrix.
+   The general formula is for a matrix of:
+   [ A B C ]
+   [ D E F ] is AEI + BFG + CDH - CEG - BDI - AFH = determinant
+   [ G H I ]
+ }
+ var
+   matrix: array[1..3,1..3] of integer;
+   x, y, postx, posty1, posty2: byte;
+   subadd1, subadd2, determinant: longint;
+begin
+   { load a sample matrix value }
+   matrix[1,1] := 3;
+   matrix[1,2] := 4;
+   matrix[1,3] := 2;
+   matrix[2,1] := 8;
+   matrix[2,2] := 7;
+   matrix[2,3] := 3;
+   matrix[3,1] := 1;
+   matrix[3,2] := 0;
+   matrix[3,3] := 4;
+    { perform matrix calculation\x{2014}note that y is not directly
+     accessed within this for loop }
+   for y := <<1 to 3|10a:0>> do
+     begin
+       posty1 := y;
+       posty2 := y;
+subadd1 := 1;
+       subadd2 := 1;
+       for postx := <<1 to 3|10a:0>> do
+         begin
+           if posty1 = 3 then
+             posty1 := 1
+           else
+             posty1 := posty1 + 1;
+           if posty2 = 1 then
+              posty2 := 3
+           else
+              posty2 := posty2 - 1;
+           subadd1 := subadd1 * matrix[postx, posty1];
+           subadd2 := subadd2 * matrix[postx, posty2];
+         end;
+       determinant := determinant + subadd1 - subadd2;
+     end;
+   writeln(\x{2018}The determinant is: \x{2019}, determinant, \x{2018}.\x{2019});
+ end.",
           ],
           [
             1,
             '[ap 02:59] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (269-272.html) - 1 to 3',
             "program fig14;
-
-    { two-level array demonstration determinant of a 3X3 matrix.
-      The general formula is for a matrix of:
-      [ A B C ]
-      [ D E F ] is AEI + BFG + CDH - CEG - BDI - AFH = determinant
-      [ G H I ]
-    }
-
-    var
-      matrix: array[1..3,1..3] of integer;
-      x, y, postx, posty1, posty2: byte;
-      subadd1, subadd2, determinant: longint;
-  begin
-      { load a sample matrix value }
-      matrix[1,1] := 3;
-      matrix[1,2] := 4;
-      matrix[1,3] := 2;
-      matrix[2,1] := 8;
-      matrix[2,2] := 7;
-      matrix[2,3] := 3;
-      matrix[3,1] := 1;
-      matrix[3,2] := 0;
-      matrix[3,3] := 4;
-       { perform matrix calculation\x{2014}note that y is not directly
-        accessed within this for loop }
-      for y := <<1 to 3|10a:0>> do
-        begin
-          posty1 := y;
-          posty2 := y;
-  subadd1 := 1;
-          subadd2 := 1;
-          for postx := <<1 to 3|10a:0>> do
-            begin
-              if posty1 = 3 then
-                posty1 := 1
-              else
-                posty1 := posty1 + 1;
-              if posty2 = 1 then
-                 posty2 := 3
-              else
-                 posty2 := posty2 - 1;
-              subadd1 := subadd1 * matrix[postx, posty1];
-              subadd2 := subadd2 * matrix[postx, posty2];
-            end;
-          determinant := determinant + subadd1 - subadd2;
-        end;
-      writeln(\x{2018}The determinant is: \x{2019}, determinant, \x{2018}.\x{2019});
-    end.",
+ { two-level array demonstration determinant of a 3X3 matrix.
+   The general formula is for a matrix of:
+   [ A B C ]
+   [ D E F ] is AEI + BFG + CDH - CEG - BDI - AFH = determinant
+   [ G H I ]
+ }
+ var
+   matrix: array[1..3,1..3] of integer;
+   x, y, postx, posty1, posty2: byte;
+   subadd1, subadd2, determinant: longint;
+begin
+   { load a sample matrix value }
+   matrix[1,1] := 3;
+   matrix[1,2] := 4;
+   matrix[1,3] := 2;
+   matrix[2,1] := 8;
+   matrix[2,2] := 7;
+   matrix[2,3] := 3;
+   matrix[3,1] := 1;
+   matrix[3,2] := 0;
+   matrix[3,3] := 4;
+    { perform matrix calculation\x{2014}note that y is not directly
+     accessed within this for loop }
+   for y := <<1 to 3|10a:0>> do
+     begin
+       posty1 := y;
+       posty2 := y;
+subadd1 := 1;
+       subadd2 := 1;
+       for postx := <<1 to 3|10a:0>> do
+         begin
+           if posty1 = 3 then
+             posty1 := 1
+           else
+             posty1 := posty1 + 1;
+           if posty2 = 1 then
+              posty2 := 3
+           else
+              posty2 := posty2 - 1;
+           subadd1 := subadd1 * matrix[postx, posty1];
+           subadd2 := subadd2 * matrix[postx, posty2];
+         end;
+       determinant := determinant + subadd1 - subadd2;
+     end;
+   writeln(\x{2018}The determinant is: \x{2019}, determinant, \x{2018}.\x{2019});
+ end.",
           ],
           [
             1,
@@ -512,18 +450,7 @@ program fig14;
           [
             1,
             '[ap 05:16] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (272-275.html) - 5.16',
-            'phonerecord = record
-        firstname: string[15];
-        lastname: string[10];
-        midinit: char;
-        areacode,
-        exchange,
-        number: integer;
-        city: string[20];
-  end;
-
-
-There are two possible ways to access such a record structure when defined as a variable in a program. One is to specify the name of the variable, followed by a dot, and then the subidentifier as defined in the type declaration. The other is to encompass the code dealing with the particular record type in a with-do construct. There is no technical difference in either method other than the reduced typing the second method can produce. A diagram of memory storage of this construct is shown in Figure 5.3, and a demonstration of defining and using records is shown in Listing <<5.16|5a:0>>.',
+            'There are two possible ways to access such a record structure when defined as a variable in a program. One is to specify the name of the variable, followed by a dot, and then the subidentifier as defined in the type declaration. The other is to encompass the code dealing with the particular record type in a with-do construct. There is no technical difference in either method other than the reduced typing the second method can produce. A diagram of memory storage of this construct is shown in Figure 5.3, and a demonstration of defining and using records is shown in Listing <<5.16|5a:0>>.',
           ],
           [
             1,
@@ -531,42 +458,36 @@ There are two possible ways to access such a record structure when defined as a 
             "
 Listing <<5.16|5a:0>>. A demonstration of the definition and use of records.
 program fig16;
-
-    type
-      phonerecord = record
-        firstname: string[15];
-        lastname: string[10];
-        midinit: char;
-        areacode, exchange, number: integer;
-        city: string[20];
-      end;
- 
-    var
-      phoneitem: phonerecord;
-    begin
-      { first method used to fill record variable }
-      phoneitem.firstname := \x{2018}Joe\x{2019};
-      phoneitem.lastname := \x{2018}Dialer\x{2019};
-      phoneitem.midinit := \x{2018}K\x{2019};
-      phoneitem.areacode := 513;
-      phoneitem.exchange := 232;
-      phoneitem.number := 2323;
-      phoneitem.city := \x{2018}Jonestown\x{2019};
-
-      { second method used to write record variables }
-      with phoneitem do
-        begin
-          writeln(\x{2018}Firstname: \x{2019}, firstname);
-          writeln(\x{2018}Lastname: \x{2019}, lastname);
-          writeln(\x{2018}Middle Initial: \x{2019}, midinit);
-          writeln(\x{2018}Phone Number: \x{2019}, areacode, \x{2018}-\x{2019}, exchange, \x{2018}-\x{2019},
-                   number);
-          writeln(\x{2018}City: \x{2019}, city);
-       end;
-  end.
-
-
-5.2.4.7. Sets and Set Algebra",
+ type
+   phonerecord = record
+     firstname: string[15];
+     lastname: string[10];
+     midinit: char;
+     areacode, exchange, number: integer;
+     city: string[20];
+   end;
+ var
+   phoneitem: phonerecord;
+ begin
+   { first method used to fill record variable }
+   phoneitem.firstname := \x{2018}Joe\x{2019};
+   phoneitem.lastname := \x{2018}Dialer\x{2019};
+   phoneitem.midinit := \x{2018}K\x{2019};
+   phoneitem.areacode := 513;
+   phoneitem.exchange := 232;
+   phoneitem.number := 2323;
+   phoneitem.city := \x{2018}Jonestown\x{2019};
+   { second method used to write record variables }
+   with phoneitem do
+     begin
+       writeln(\x{2018}Firstname: \x{2019}, firstname);
+       writeln(\x{2018}Lastname: \x{2019}, lastname);
+       writeln(\x{2018}Middle Initial: \x{2019}, midinit);
+       writeln(\x{2018}Phone Number: \x{2019}, areacode, \x{2018}-\x{2019}, exchange, \x{2018}-\x{2019},
+                number);
+       writeln(\x{2018}City: \x{2019}, city);
+    end;
+end.",
           ],
           [
             1,
@@ -579,43 +500,35 @@ program fig16;
             "An enumerated type is a definition that can bring a degree of clarity to programs, if possible. These types can be specified in word terms, like a constant array definition, or set terms without the brackets. They are defined in the data type definition section, as records are, or in some cases can be placed in the var section. When an enumerated type is encountered, only values specified by the type can be placed into the variable. When stored in memory, an enumerated type\x{2019}s label is assigned an ordinal number starting from 0 on the left-hand side. To help you fully understand, Listing <<5.17|5a:0>> presents a short demonstration of the use of an enumerated type.
 Listing <<5.17|5a:0>>. A demonstration of the use of an enumerated type.
 program fig17;
-    type
-      dirtype = (North, South, East, West);
-    var
-      i: dirtype;
-      c: 1..5;
-      { another enumerated type: May contain only 1, 2,3,4, or 5 }
-    begin
-  { actually in memory for i := <<0 to 3|10a:0>> do, but this situation can
-    tend to have more clarity as words than ordinal digits }
-      for i := North to West do
-        writeln(\x{2018}Hello\x{2019});
-    end.
-
-
-5.2.5. Procedures and Functions
-This section contains descriptions of methods used to write procedures and functions in Turbo Pascal, as well as the proper way to use procedures and functions written as a result. It also describes the recursion capabilities of Turbo Pascal and contains a generic discussion of the kinds of procedures and functions that are prewritten and come with the Turbo Pascal compiler.",
+ type
+   dirtype = (North, South, East, West);
+ var
+   i: dirtype;
+   c: 1..5;
+   { another enumerated type: May contain only 1, 2,3,4, or 5 }
+ begin
+{ actually in memory for i := <<0 to 3|10a:0>> do, but this situation can
+ tend to have more clarity as words than ordinal digits }
+   for i := North to West do
+     writeln(\x{2018}Hello\x{2019});
+ end.",
           ],
           [
             1,
             '[ap 03:00] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (275-278.html) - 0 to 3',
             "program fig17;
-    type
-      dirtype = (North, South, East, West);
-    var
-      i: dirtype;
-      c: 1..5;
-      { another enumerated type: May contain only 1, 2,3,4, or 5 }
-    begin
-  { actually in memory for i := <<0 to 3|10a:0>> do, but this situation can
-    tend to have more clarity as words than ordinal digits }
-      for i := North to West do
-        writeln(\x{2018}Hello\x{2019});
-    end.
-
-
-5.2.5. Procedures and Functions
-This section contains descriptions of methods used to write procedures and functions in Turbo Pascal, as well as the proper way to use procedures and functions written as a result. It also describes the recursion capabilities of Turbo Pascal and contains a generic discussion of the kinds of procedures and functions that are prewritten and come with the Turbo Pascal compiler.",
+ type
+   dirtype = (North, South, East, West);
+ var
+   i: dirtype;
+   c: 1..5;
+   { another enumerated type: May contain only 1, 2,3,4, or 5 }
+ begin
+{ actually in memory for i := <<0 to 3|10a:0>> do, but this situation can
+ tend to have more clarity as words than ordinal digits }
+   for i := North to West do
+     writeln(\x{2018}Hello\x{2019});
+ end.",
           ],
           [
             1,
@@ -628,149 +541,133 @@ This section contains descriptions of methods used to write procedures and funct
             "
 Listing <<5.18|5a:0>>. A demonstration of writing and using procedures.
 program fig18;
-
-    { two-level array demonstration rewritten as a procedures
-      demonstration determinant of a 3X3 matrix. The general
-      formula is for a matrix of:
-      [ A B C ]
-      [ D E F ] is AEI + BFG + CDH - CEG - BDI - AFH = determinant
-      [ G H I ]
-    }
-
-    type
-      matrixtype = array[1..3,1..3] of integer;
-    var
-      matrix: matrixtype;
-      result: longint;
-
-    procedure loadmatrix(var thematrix: matrixtype);
-      { var must be in front of declaration above so matrix
-        declarations can survive end of procedure }
-      begin
-        thematrix[1,1] := 3;
-        thematrix[1,2] := 4;
-        thematrix[1,3] := 2;
-        thematrix[2,1] := 8;
-        thematrix[2,2] := 7;
-        thematrix[2,3] := 3;
-        thematrix[3,1] := 1;
-        thematrix[3,2] := 0;
-        thematrix[3,3] := 4;
-      end;
-
-    procedure determinant(thematrix: matrixtype;
-                            var theresult: longint);
-    { local variables defined: scope is only within procedure
-      determinant }
-      var
-        x, y, postx, posty1, posty2: byte;
-        subadd1, subadd2: longint;
-      begin
-        for y := <<1 to 3|10a:0>> do
-          begin
-            posty1 := y;
-            posty2 := y;
-            subadd1 := 1;
-            subadd2 := 1;
-            for postx := <<1 to 3|10a:0>> do
-              begin
-                if posty1 = 3 then
-                  posty1 := 1
-                else
-                  posty1 := posty1 + 1;
-                if posty2 = 1 then
-                   posty2 := 3
-               else
-                   posty2 := posty2 - 1;
-                subadd1 := subadd1 * thematrix[postx, posty1];
-                subadd2 := subadd2 * thematrix[postx, posty2];
-              end;
-            theresult := theresult + subadd1 - subadd2;
-          end;
-     end;
-
+ { two-level array demonstration rewritten as a procedures
+   demonstration determinant of a 3X3 matrix. The general
+   formula is for a matrix of:
+   [ A B C ]
+   [ D E F ] is AEI + BFG + CDH - CEG - BDI - AFH = determinant
+   [ G H I ]
+ }
+ type
+   matrixtype = array[1..3,1..3] of integer;
+ var
+   matrix: matrixtype;
+   result: longint;
+ procedure loadmatrix(var thematrix: matrixtype);
+   { var must be in front of declaration above so matrix
+     declarations can survive end of procedure }
    begin
-     loadmatrix(matrix);
-     determinant(matrix, result);
-     writeln(\x{2018}The determinant is: \x{2019}, result,    \x{2018}.\x{2019});
-              end.
-
-
-5.2.5.2. Functions",
+     thematrix[1,1] := 3;
+     thematrix[1,2] := 4;
+     thematrix[1,3] := 2;
+     thematrix[2,1] := 8;
+     thematrix[2,2] := 7;
+     thematrix[2,3] := 3;
+     thematrix[3,1] := 1;
+     thematrix[3,2] := 0;
+     thematrix[3,3] := 4;
+   end;
+ procedure determinant(thematrix: matrixtype;
+                         var theresult: longint);
+ { local variables defined: scope is only within procedure
+   determinant }
+   var
+     x, y, postx, posty1, posty2: byte;
+     subadd1, subadd2: longint;
+   begin
+     for y := <<1 to 3|10a:0>> do
+       begin
+         posty1 := y;
+         posty2 := y;
+         subadd1 := 1;
+         subadd2 := 1;
+         for postx := <<1 to 3|10a:0>> do
+           begin
+             if posty1 = 3 then
+               posty1 := 1
+             else
+               posty1 := posty1 + 1;
+             if posty2 = 1 then
+                posty2 := 3
+            else
+                posty2 := posty2 - 1;
+             subadd1 := subadd1 * thematrix[postx, posty1];
+             subadd2 := subadd2 * thematrix[postx, posty2];
+           end;
+         theresult := theresult + subadd1 - subadd2;
+       end;
+  end;
+begin
+  loadmatrix(matrix);
+  determinant(matrix, result);
+  writeln(\x{2018}The determinant is: \x{2019}, result,    \x{2018}.\x{2019});
+           end.",
           ],
           [
             1,
             '[ap 02:59] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (278-281.html) - 1 to 3',
             "program fig18;
-
-    { two-level array demonstration rewritten as a procedures
-      demonstration determinant of a 3X3 matrix. The general
-      formula is for a matrix of:
-      [ A B C ]
-      [ D E F ] is AEI + BFG + CDH - CEG - BDI - AFH = determinant
-      [ G H I ]
-    }
-
-    type
-      matrixtype = array[1..3,1..3] of integer;
-    var
-      matrix: matrixtype;
-      result: longint;
-
-    procedure loadmatrix(var thematrix: matrixtype);
-      { var must be in front of declaration above so matrix
-        declarations can survive end of procedure }
-      begin
-        thematrix[1,1] := 3;
-        thematrix[1,2] := 4;
-        thematrix[1,3] := 2;
-        thematrix[2,1] := 8;
-        thematrix[2,2] := 7;
-        thematrix[2,3] := 3;
-        thematrix[3,1] := 1;
-        thematrix[3,2] := 0;
-        thematrix[3,3] := 4;
-      end;
-
-    procedure determinant(thematrix: matrixtype;
-                            var theresult: longint);
-    { local variables defined: scope is only within procedure
-      determinant }
-      var
-        x, y, postx, posty1, posty2: byte;
-        subadd1, subadd2: longint;
-      begin
-        for y := <<1 to 3|10a:0>> do
-          begin
-            posty1 := y;
-            posty2 := y;
-            subadd1 := 1;
-            subadd2 := 1;
-            for postx := <<1 to 3|10a:0>> do
-              begin
-                if posty1 = 3 then
-                  posty1 := 1
-                else
-                  posty1 := posty1 + 1;
-                if posty2 = 1 then
-                   posty2 := 3
-               else
-                   posty2 := posty2 - 1;
-                subadd1 := subadd1 * thematrix[postx, posty1];
-                subadd2 := subadd2 * thematrix[postx, posty2];
-              end;
-            theresult := theresult + subadd1 - subadd2;
-          end;
-     end;
-
+ { two-level array demonstration rewritten as a procedures
+   demonstration determinant of a 3X3 matrix. The general
+   formula is for a matrix of:
+   [ A B C ]
+   [ D E F ] is AEI + BFG + CDH - CEG - BDI - AFH = determinant
+   [ G H I ]
+ }
+ type
+   matrixtype = array[1..3,1..3] of integer;
+ var
+   matrix: matrixtype;
+   result: longint;
+ procedure loadmatrix(var thematrix: matrixtype);
+   { var must be in front of declaration above so matrix
+     declarations can survive end of procedure }
    begin
-     loadmatrix(matrix);
-     determinant(matrix, result);
-     writeln(\x{2018}The determinant is: \x{2019}, result,    \x{2018}.\x{2019});
-              end.
-
-
-5.2.5.2. Functions",
+     thematrix[1,1] := 3;
+     thematrix[1,2] := 4;
+     thematrix[1,3] := 2;
+     thematrix[2,1] := 8;
+     thematrix[2,2] := 7;
+     thematrix[2,3] := 3;
+     thematrix[3,1] := 1;
+     thematrix[3,2] := 0;
+     thematrix[3,3] := 4;
+   end;
+ procedure determinant(thematrix: matrixtype;
+                         var theresult: longint);
+ { local variables defined: scope is only within procedure
+   determinant }
+   var
+     x, y, postx, posty1, posty2: byte;
+     subadd1, subadd2: longint;
+   begin
+     for y := <<1 to 3|10a:0>> do
+       begin
+         posty1 := y;
+         posty2 := y;
+         subadd1 := 1;
+         subadd2 := 1;
+         for postx := <<1 to 3|10a:0>> do
+           begin
+             if posty1 = 3 then
+               posty1 := 1
+             else
+               posty1 := posty1 + 1;
+             if posty2 = 1 then
+                posty2 := 3
+            else
+                posty2 := posty2 - 1;
+             subadd1 := subadd1 * thematrix[postx, posty1];
+             subadd2 := subadd2 * thematrix[postx, posty2];
+           end;
+         theresult := theresult + subadd1 - subadd2;
+       end;
+  end;
+begin
+  loadmatrix(matrix);
+  determinant(matrix, result);
+  writeln(\x{2018}The determinant is: \x{2019}, result,    \x{2018}.\x{2019});
+           end.",
           ],
           [
             1,
@@ -783,59 +680,47 @@ program fig18;
             "Functions can have great value in simplifying and streamlining the coding process. Though it is hard to describe when to use functions over procedures, when you gain some slight experience in coding, the situations to use functions will become evident.
 Listing <<5.19|5a:0>>. A demonstration of function use.
 program fig19;
-
-    var
-      i: byte;
-
-    function power(x: real; y: integer): real;
-      { function: returns result of x^y where x and y are integers }
-      var
-        i: integer;
-        result: real;
-      begin
-        result := 1;
-        for i := 1 to y do
-          result := result * x;
-        power := result;
-      end;
-
+ var
+   i: byte;
+ function power(x: real; y: integer): real;
+   { function: returns result of x^y where x and y are integers }
+   var
+     i: integer;
+     result: real;
    begin
-     for i := <<1 to 10|10a:0>> do
-       writeln(i, \x{2018} squared is \x{2019}, power(i,2):0:2);
-       { function call is treated exactly like a real number }
-   end.
-
-
-5.2.5.3. Recursion, Stack Space, and Forward Declarations",
+     result := 1;
+     for i := 1 to y do
+       result := result * x;
+     power := result;
+   end;
+begin
+  for i := <<1 to 10|10a:0>> do
+    writeln(i, \x{2018} squared is \x{2019}, power(i,2):0:2);
+    { function call is treated exactly like a real number }
+end.",
           ],
           [
             1,
             '[ap 09:59] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (278-281.html) - 1 to 10',
             "program fig19;
-
-    var
-      i: byte;
-
-    function power(x: real; y: integer): real;
-      { function: returns result of x^y where x and y are integers }
-      var
-        i: integer;
-        result: real;
-      begin
-        result := 1;
-        for i := 1 to y do
-          result := result * x;
-        power := result;
-      end;
-
+ var
+   i: byte;
+ function power(x: real; y: integer): real;
+   { function: returns result of x^y where x and y are integers }
+   var
+     i: integer;
+     result: real;
    begin
-     for i := <<1 to 10|10a:0>> do
-       writeln(i, \x{2018} squared is \x{2019}, power(i,2):0:2);
-       { function call is treated exactly like a real number }
-   end.
-
-
-5.2.5.3. Recursion, Stack Space, and Forward Declarations",
+     result := 1;
+     for i := 1 to y do
+       result := result * x;
+     power := result;
+   end;
+begin
+  for i := <<1 to 10|10a:0>> do
+    writeln(i, \x{2018} squared is \x{2019}, power(i,2):0:2);
+    { function call is treated exactly like a real number }
+end.",
           ],
           [
             1,
@@ -848,59 +733,54 @@ program fig19;
             "
 Listing <<5.20|5a:0>>. A demonstration of recursion and forwards.
 program fig20;
-
-    var
-      i: byte;
-      result: real;
-    function power(x: real; y: integer): real;
-      { function: returns result of x^y where x and y are integers }
-      { written recursively }
-      begin
-        if y >= 1 then
-          power := x * power(x,y-1)
-        else
-          power := 1;
-      end;
-
-    begin
-      for i := <<1 to 10|10a:0>> do
-        begin
-          result := power(i,2);
-          writeln(i, \x{2018} squared is \x{2019}, result:0:2);
-        end;
-    end.
-
-
-A recursive function, such as the one in Listing <<5.20|5a:0>>, always has a condition to stop recursion and return some alternate value. In this case, when y becomes 0 when it is called in the function, the value 1 is returned, in signification that when x is anything and y is 0 in a power function, the result is always 1. Figure 5.5 illustrates the variable values and actions when power() is called.",
+ var
+   i: byte;
+   result: real;
+ function power(x: real; y: integer): real;
+   { function: returns result of x^y where x and y are integers }
+   { written recursively }
+   begin
+     if y >= 1 then
+       power := x * power(x,y-1)
+     else
+       power := 1;
+   end;
+ begin
+   for i := <<1 to 10|10a:0>> do
+     begin
+       result := power(i,2);
+       writeln(i, \x{2018} squared is \x{2019}, result:0:2);
+     end;
+ end.",
           ],
           [
             1,
             '[ap 09:59] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (282-285.html) - 1 to 10',
             "program fig20;
-
-    var
-      i: byte;
-      result: real;
-    function power(x: real; y: integer): real;
-      { function: returns result of x^y where x and y are integers }
-      { written recursively }
-      begin
-        if y >= 1 then
-          power := x * power(x,y-1)
-        else
-          power := 1;
-      end;
-
-    begin
-      for i := <<1 to 10|10a:0>> do
-        begin
-          result := power(i,2);
-          writeln(i, \x{2018} squared is \x{2019}, result:0:2);
-        end;
-    end.
-
-
-A recursive function, such as the one in Listing <<5.20|5a:0>>, always has a condition to stop recursion and return some alternate value. In this case, when y becomes 0 when it is called in the function, the value 1 is returned, in signification that when x is anything and y is 0 in a power function, the result is always 1. Figure 5.5 illustrates the variable values and actions when power() is called.",
+ var
+   i: byte;
+   result: real;
+ function power(x: real; y: integer): real;
+   { function: returns result of x^y where x and y are integers }
+   { written recursively }
+   begin
+     if y >= 1 then
+       power := x * power(x,y-1)
+     else
+       power := 1;
+   end;
+ begin
+   for i := <<1 to 10|10a:0>> do
+     begin
+       result := power(i,2);
+       writeln(i, \x{2018} squared is \x{2019}, result:0:2);
+     end;
+ end.",
+          ],
+          [
+            1,
+            '[ap 05:20] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (282-285.html) - 5.20',
+            'A recursive function, such as the one in Listing <<5.20|5a:0>>, always has a condition to stop recursion and return some alternate value. In this case, when y becomes 0 when it is called in the function, the value 1 is returned, in signification that when x is anything and y is 0 in a power function, the result is always 1. Figure 5.5 illustrates the variable values and actions when power() is called.',
           ],
           [
             1,
@@ -910,109 +790,61 @@ A recursive function, such as the one in Listing <<5.20|5a:0>>, always has a con
           [
             1,
             '[ap 05:21] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (282-285.html) - 5.21',
-            "Any type functions that are needed for unit-related functions and procedures must be declared in that unit and that unit only. The implementation section lists all the headers of the procedures and functions again, as well as the code associated with each of the headers. In implementation of a unit, all items in the interface section are made aware of the program, including type and constant declarations. Because Pascal is a strongly typed language, if a type is referred to in two locations with the same name and same description, they are still different.
+            'Any type functions that are needed for unit-related functions and procedures must be declared in that unit and that unit only. The implementation section lists all the headers of the procedures and functions again, as well as the code associated with each of the headers. In implementation of a unit, all items in the interface section are made aware of the program, including type and constant declarations. Because Pascal is a strongly typed language, if a type is referred to in two locations with the same name and same description, they are still different.
 Listing <<5.21|5a:0>>. An example of a unit file.
 unit fig21;
-  { note, the identifier here must match the name of the file }
-
-    interface
-      function power(x:real; y: integer):real;
-    implementation
-      function power(x:real; y: integer):real;
-      { must be exactly as above }
-        var
-          i: integer;
-          result: real;
-        begin
-          result := 1;
-          for i := 1 to y do
-            result := result * x;
-          power := result;
-        end;
-
-   end.
-
-
-For you to use this unit, or any other unit, it must be specified after the program clause of the code in a uses clause, followed by the exact name of the identifier used in the unit clause of the unit\x{2019}s code. In Listing <<5.22|5a:0>>, note how the unit just created is registered and used in the resulting program. The compiled unit, as specified in Listing <<5.21|5a:0>>, should be made available to this program when created.",
+{ note, the identifier here must match the name of the file }
+ interface
+   function power(x:real; y: integer):real;
+ implementation
+   function power(x:real; y: integer):real;
+   { must be exactly as above }
+     var
+       i: integer;
+       result: real;
+     begin
+       result := 1;
+       for i := 1 to y do
+         result := result * x;
+       power := result;
+     end;
+end.',
           ],
           [
             1,
             '[ap 05:22] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (282-285.html) - 5.22',
-            "unit fig21;
-  { note, the identifier here must match the name of the file }
-
-    interface
-      function power(x:real; y: integer):real;
-    implementation
-      function power(x:real; y: integer):real;
-      { must be exactly as above }
-        var
-          i: integer;
-          result: real;
-        begin
-          result := 1;
-          for i := 1 to y do
-            result := result * x;
-          power := result;
-        end;
-
-   end.
-
-
-For you to use this unit, or any other unit, it must be specified after the program clause of the code in a uses clause, followed by the exact name of the identifier used in the unit clause of the unit\x{2019}s code. In Listing <<5.22|5a:0>>, note how the unit just created is registered and used in the resulting program. The compiled unit, as specified in Listing <<5.21|5a:0>>, should be made available to this program when created.",
+            "For you to use this unit, or any other unit, it must be specified after the program clause of the code in a uses clause, followed by the exact name of the identifier used in the unit clause of the unit\x{2019}s code. In Listing <<5.22|5a:0>>, note how the unit just created is registered and used in the resulting program. The compiled unit, as specified in Listing <<5.21|5a:0>>, should be made available to this program when created.",
           ],
           [
             1,
             '[ap 05:22] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (282-285.html) - 5.22',
-            "unit fig21;
-  { note, the identifier here must match the name of the file }
-
-    interface
-      function power(x:real; y: integer):real;
-    implementation
-      function power(x:real; y: integer):real;
-      { must be exactly as above }
-        var
-          i: integer;
-          result: real;
-        begin
-          result := 1;
-          for i := 1 to y do
-            result := result * x;
-          power := result;
-        end;
-
-   end.
-
-
-For you to use this unit, or any other unit, it must be specified after the program clause of the code in a uses clause, followed by the exact name of the identifier used in the unit clause of the unit\x{2019}s code. In Listing <<5.22|5a:0>>, note how the unit just created is registered and used in the resulting program. The compiled unit, as specified in Listing <<5.21|5a:0>>, should be made available to this program when created.
+            "For you to use this unit, or any other unit, it must be specified after the program clause of the code in a uses clause, followed by the exact name of the identifier used in the unit clause of the unit\x{2019}s code. In Listing <<5.22|5a:0>>, note how the unit just created is registered and used in the resulting program. The compiled unit, as specified in Listing <<5.21|5a:0>>, should be made available to this program when created.
 Listing <<5.22|5a:0>>. The use of a unit file in a program.
 program fig22; uses fig21;
-   {if more than 1 unit put commas between each id}
-     var
-       i: byte;
-     begin
-       for i := 1 to 10 do
-         writeln(i, \x{2018} squared is \x{2019}, power(i,2):0:2);
-     end.
-
-
-Here, the program executes in the same manner as Listings <<5.19|5a:0>> and <<5.20|5a:0>>. The advantage here is that, if the unit fig21 is available, the power function does not have to be retyped and retested, just the uses clause must be typed. This kind of modularity and ability to organize code can be very useful. Also, in very large programs, units must be used, as the executable created must have a number of code segments that are a maximum of 64 KB each.",
+{if more than 1 unit put commas between each id}
+ var
+   i: byte;
+ begin
+   for i := <<1 to 10|10a:0>> do
+     writeln(i, \x{2018} squared is \x{2019}, power(i,2):0:2);
+ end.",
+          ],
+          [
+            1,
+            '[ap 09:59] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (282-285.html) - 1 to 10',
+            "program fig22; uses fig21;
+{if more than 1 unit put commas between each id}
+ var
+   i: byte;
+ begin
+   for i := <<1 to 10|10a:0>> do
+     writeln(i, \x{2018} squared is \x{2019}, power(i,2):0:2);
+ end.",
           ],
           [
             1,
             '[ap 05:19] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (282-285.html) - 5.19',
-            "program fig22; uses fig21;
-   {if more than 1 unit put commas between each id}
-     var
-       i: byte;
-     begin
-       for i := 1 to 10 do
-         writeln(i, \x{2018} squared is \x{2019}, power(i,2):0:2);
-     end.
-
-
-Here, the program executes in the same manner as Listings <<5.19|5a:0>> and <<5.20|5a:0>>. The advantage here is that, if the unit fig21 is available, the power function does not have to be retyped and retested, just the uses clause must be typed. This kind of modularity and ability to organize code can be very useful. Also, in very large programs, units must be used, as the executable created must have a number of code segments that are a maximum of 64 KB each.",
+            'Here, the program executes in the same manner as Listings <<5.19|5a:0>> and <<5.20|5a:0>>. The advantage here is that, if the unit fig21 is available, the power function does not have to be retyped and retested, just the uses clause must be typed. This kind of modularity and ability to organize code can be very useful. Also, in very large programs, units must be used, as the executable created must have a number of code segments that are a maximum of 64 KB each.',
           ],
           [
             1,
@@ -1025,58 +857,42 @@ Here, the program executes in the same manner as Listings <<5.19|5a:0>> and <<5.
             "Typecasting is exactly what it implies: the interpretation of one type into another type. Generally, it is done with the typical variable types that are defined, with the type name used as a function. It is done in a function style, where the interpretation of the variable is changed, and not its format in memory. An example of typecasting (and one case in which it might be used) is shown in Listing <<5.23|5a:0>>.
 Listing <<5.23|5a:0>>. A demonstration of typecasting.
 program fig23;
-    { demonstrates type casting and what can be done }
-    var
-      a: char;
-      b: byte;
-    begin
-      a := \x{2018}C\x{2019};
-      b := 45;
-      writeln(\x{2018}a is: \x{2019}, a);
-      writeln(\x{2018}b is: \x{2019}, b);
-      writeln(\x{2018}b char: \x{2019}, char(b));
-      writeln(\x{2018}a byte: \x{2019}, byte(a));
-      writeln(\x{2018}a byte + b: \x{2019}, byte(a) + b);
-      writeln(\x{2018}a + b char: \x{2019}, a + char(b));
-    end.
-
-
-ord() and chr()",
+ { demonstrates type casting and what can be done }
+ var
+   a: char;
+   b: byte;
+ begin
+   a := \x{2018}C\x{2019};
+   b := 45;
+   writeln(\x{2018}a is: \x{2019}, a);
+   writeln(\x{2018}b is: \x{2019}, b);
+   writeln(\x{2018}b char: \x{2019}, char(b));
+   writeln(\x{2018}a byte: \x{2019}, byte(a));
+   writeln(\x{2018}a byte + b: \x{2019}, byte(a) + b);
+   writeln(\x{2018}a + b char: \x{2019}, a + char(b));
+ end.",
           ],
           [
             1,
             '[ap 05:24] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (285-287.html) - 5.24',
-            "ord(x: ordinal type): longint;
-   chr(x: longint): char;
-
-
-For example, ord(\x{2018}A\x{2019}) returns 65, and chr(65) returns \x{2018}A\x{2019}. An example of use is shown in Listing <<5.24|5a:0>>.",
+            "For example, ord(\x{2018}A\x{2019}) returns 65, and chr(65) returns \x{2018}A\x{2019}. An example of use is shown in Listing <<5.24|5a:0>>.",
           ],
           [
             1,
             '[ap 05:24] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (285-287.html) - 5.24',
-            "ord(x: ordinal type): longint;
-   chr(x: longint): char;
-
-
-For example, ord(\x{2018}A\x{2019}) returns 65, and chr(65) returns \x{2018}A\x{2019}. An example of use is shown in Listing <<5.24|5a:0>>.
+            "For example, ord(\x{2018}A\x{2019}) returns 65, and chr(65) returns \x{2018}A\x{2019}. An example of use is shown in Listing <<5.24|5a:0>>.
 Listing <<5.24|5a:0>>. An example of the use of ord() and chr().
 program fig24;
-
-    { a demonstration of ord() and chr() to prove that \x{2018}A\x{2019} is a byte by
-    the value of 65 }
-
-    begin
-      if ord(\x{2018}A\x{2019}) = 65 then
-        writeln(\x{2018}A character \x{201d}A\x{201d} is stored as a byte = 65 according \x{2019},
-                \x{2018}to ord\x{2019});
-      if chr(65) = \x{2018}A\x{2019} then
-        writeln(\x{2018}A byte = 65 is stored as a character \x{2019}\x{2018}A\x{2019} \x{2018} according \x{2019},
-                \x{2018}to chr\x{2019});
-    end.
-
-
-str and val",
+ { a demonstration of ord() and chr() to prove that \x{2018}A\x{2019} is a byte by
+ the value of 65 }
+ begin
+   if ord(\x{2018}A\x{2019}) = 65 then
+     writeln(\x{2018}A character \x{201d}A\x{201d} is stored as a byte = 65 according \x{2019},
+             \x{2018}to ord\x{2019});
+   if chr(65) = \x{2018}A\x{2019} then
+     writeln(\x{2018}A byte = 65 is stored as a character \x{2019}\x{2018}A\x{2019} \x{2018} according \x{2019},
+             \x{2018}to chr\x{2019});
+ end.",
           ],
           [
             1,
@@ -1091,159 +907,154 @@ Listing <<5.25|5a:0>>. A demonstration of val and str.',
             "Demonstrations of these procedures are shown in Listing <<5.25|5a:0>>.
 Listing <<5.25|5a:0>>. A demonstration of val and str.
 program fig25;
-
-    { demonstrates and writes results of the use of val and str }
-    var
-      entry: string;
-      number: real;
-      error: integer;
-    begin
-      write(\x{2018}Enter something: \x{2019});
-      readln(entry);
-      val(entry, number, error);
-      if error <> 0 then { show error at position }
-        writeln(\x{2018}Non-numeric character found at position \x{2019}, error)
-      else
-        writeln(number);
-      number := 5.23342;
-      str(number:0:2, entry); { format string may be used here}
-      writeln(entry);
-    end.",
+ { demonstrates and writes results of the use of val and str }
+ var
+   entry: string;
+   number: real;
+   error: integer;
+ begin
+   write(\x{2018}Enter something: \x{2019});
+   readln(entry);
+   val(entry, number, error);
+   if error <> 0 then { show error at position }
+     writeln(\x{2018}Non-numeric character found at position \x{2019}, error)
+   else
+     writeln(number);
+   number := 5.23342;
+   str(number:0:2, entry); { format string may be used here}
+   writeln(entry);
+ end.",
           ],
           [
             1,
             '[ap 05:26] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (287-290.html) - 5.26',
-            'function upcase(x: char): char;
-  function length(s: string): byte;
-
-
-upcase() returns the uppercased version of a letter in the alphabet, if x is a letter of the alphabet. Otherwise, it returns the exact character passed to it. length() returns the literal equivalent of ord(s[0]) in a string s, or the current real length of the string stored. length() may be preferable over ord(s[0]) in some situations, but either is usually good. An example of using both of these functions is shown in Listing <<5.26|5a:0>>.',
+            'upcase() returns the uppercased version of a letter in the alphabet, if x is a letter of the alphabet. Otherwise, it returns the exact character passed to it. length() returns the literal equivalent of ord(s[0]) in a string s, or the current real length of the string stored. length() may be preferable over ord(s[0]) in some situations, but either is usually good. An example of using both of these functions is shown in Listing <<5.26|5a:0>>.',
           ],
           [
             1,
             '[ap 05:26] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (287-290.html) - 5.26',
-            "function upcase(x: char): char;
-  function length(s: string): byte;
-
-
-upcase() returns the uppercased version of a letter in the alphabet, if x is a letter of the alphabet. Otherwise, it returns the exact character passed to it. length() returns the literal equivalent of ord(s[0]) in a string s, or the current real length of the string stored. length() may be preferable over ord(s[0]) in some situations, but either is usually good. An example of using both of these functions is shown in Listing <<5.26|5a:0>>.
+            "upcase() returns the uppercased version of a letter in the alphabet, if x is a letter of the alphabet. Otherwise, it returns the exact character passed to it. length() returns the literal equivalent of ord(s[0]) in a string s, or the current real length of the string stored. length() may be preferable over ord(s[0]) in some situations, but either is usually good. An example of using both of these functions is shown in Listing <<5.26|5a:0>>.
 Listing <<5.26|5a:0>>. A demonstration of upcase() and length().
 program fig26;
-
-    function upstr(s: string): string;
-      var
-        i: byte;
-        outstr: string;
-      begin
-        for i := 1 to length(s) do
-          upstr[i] := upcase(s[i]);
-        upstr[0] := s[0];
-      end;
-
-    begin
-      writeln(upstr(\x{2018}San Francisco\x{2019}));
-    end.
-
-
-copy() and pos()",
+ function upstr(s: string): string;
+   var
+     i: byte;
+     outstr: string;
+   begin
+     for i := 1 to length(s) do
+       upstr[i] := upcase(s[i]);
+     upstr[0] := s[0];
+   end;
+ begin
+   writeln(upstr(\x{2018}San Francisco\x{2019}));
+ end.",
           ],
           [
             1,
             '[ap 05:27] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (287-290.html) - 5.27',
-            'copy(s: string, starting_postion: byte, length: byte): string;
-  pos(s,t: string): byte;
-
-
-pos() returns the starting position of a string s, in the full string t, if it exists. Otherwise, it returns 0. copy() returns the partial substring described by the starting position and length byte specified in an entire string. Listing <<5.27|5a:0>> demonstrates both functions, in a situation in which these functions are most often used, text parsing and processing.',
+            'pos() returns the starting position of a string s, in the full string t, if it exists. Otherwise, it returns 0. copy() returns the partial substring described by the starting position and length byte specified in an entire string. Listing <<5.27|5a:0>> demonstrates both functions, in a situation in which these functions are most often used, text parsing and processing.',
           ],
           [
             1,
             '[ap 05:27] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (287-290.html) - 5.27',
-            "copy(s: string, starting_postion: byte, length: byte): string;
-  pos(s,t: string): byte;
-
-
-pos() returns the starting position of a string s, in the full string t, if it exists. Otherwise, it returns 0. copy() returns the partial substring described by the starting position and length byte specified in an entire string. Listing <<5.27|5a:0>> demonstrates both functions, in a situation in which these functions are most often used, text parsing and processing.
+            "pos() returns the starting position of a string s, in the full string t, if it exists. Otherwise, it returns 0. copy() returns the partial substring described by the starting position and length byte specified in an entire string. Listing <<5.27|5a:0>> demonstrates both functions, in a situation in which these functions are most often used, text parsing and processing.
 Listing <<5.27|5a:0>>. A demonstration of copy() and pos().
 program fig27;
-    { demo of copy and pos }
-    const
-      s: string = \x{2018}The brown dog jumped over the lazy cow.\x{2019};
-    var
-      result: byte;
-      subst: string;
-    begin
-      result := 11;
-      subst := s;
-      while result <> 0 do { while there still are spaces }
-         begin
-           result := pos(\x{2018} \x{2019}, subst);
-           if result > 0 then
-             writeln(copy(subst, 1, result));
-           subst := copy(subst, result+1, length(subst) - result);
-         end;
-       writeln(subst);
-   { this means the last word has occurred, write it }
-     end.
-
-
-5.2.7.4. Mathematical Functions",
+ { demo of copy and pos }
+ const
+   s: string = \x{2018}The brown dog jumped over the lazy cow.\x{2019};
+ var
+   result: byte;
+   subst: string;
+ begin
+   result := 11;
+   subst := s;
+   while result <> 0 do { while there still are spaces }
+      begin
+        result := pos(\x{2018} \x{2019}, subst);
+        if result > 0 then
+          writeln(copy(subst, 1, result));
+        subst := copy(subst, result+1, length(subst) - result);
+      end;
+    writeln(subst);
+{ this means the last word has occurred, write it }
+  end.",
           ],
           [
             1,
             '[ap 05:28] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (287-290.html) - 5.28',
-            "\x{2022}\x{a0}\x{a0}function abs\x{2014}Returns the absolute value of the number given.
-\x{2022}\x{a0}\x{a0}function arctan\x{2014}Returns the arctangent of the value given in radian form.
-\x{2022}\x{a0}\x{a0}function cos\x{2014}Returns the cosine of the number given, which should be in radians.
-\x{2022}\x{a0}\x{a0}procedure dec\x{2014}Decreases the first integer/longint variable given by 1 and stores it in that first variable, if a second number is not given; otherwise, decreases it by the second number given (note that this is more efficient than i := i - 1).
-\x{2022}\x{a0}\x{a0}function exp\x{2014}Returns the evaluation of e to the power of the number given.
-\x{2022}\x{a0}\x{a0}function frac\x{2014}Returns the fractional part of a real number.
-\x{2022}\x{a0}\x{a0}procedure inc\x{2014}Increases the first integer/longint variable given by 1 and stores it in that first variable, if a second number is not given; otherwise, it increases it by the second number given (note that this is more efficient than i := i + 1).
-\x{2022}\x{a0}\x{a0}function int\x{2014}Returns the integer part of a real number.
-\x{2022}\x{a0}\x{a0}function ln\x{2014}Returns the natural logarithm of the number given.
-\x{2022}\x{a0}\x{a0}function pi\x{2014}This constant contains the value of pi, to the full precision capable in TP.
-\x{2022}\x{a0}\x{a0}function round\x{2014}Returns the rounded number given to the nearest whole number.
-\x{2022}\x{a0}\x{a0}function sin\x{2014}Returns the sine of the number given, which should be in radians.
-\x{2022}\x{a0}\x{a0}function trunc\x{2014}Truncates a real number to a whole number.
-
-Listing <<5.28|5a:0>>. Some mathematical functions.",
+            "\x{2022}\x{a0}\x{a0}function trunc\x{2014}Truncates a real number to a whole number.
+Listing <<5.28|5a:0>>. Some mathematical functions.
+program fig28;
+ { demonstrates some mathematical functions }
+ const
+   { pi = 3.1415; DO NOT DEFINE THIS!
+     It is already defined for you. }
+   rad: real = pi/180; { one degree = pi / 180 radians }
+   degreeparts: array[1..17] of integer =
+    (0,30,45,60,90,120,135,150,180,210,225,240,270,300,315,330,360);
+ var
+   i: byte;
+   sresult, cresult: real;
+ begin
+   writeln(\x{2018}Simple Trigonometry Table\x{2019});
+   writeln(\x{2018}Degrees\x{2019},\x{2019}Sin\x{2019}:5,
+   \x{2019}Cos\x{2019}:10,\x{2019}Tan\x{2019}:10);
+   for i := <<1 to 17|10a:0>> do
+     begin
+       sresult := sin(degreeparts[i]*rad);
+       cresult := cos(degreeparts[i]*rad);
+       write(degreeparts[i]:4, sresult:10:3,cresult:10:3);
+       { note due to the conversion from radians that these are not
+         *exactly* accurate, as denoted by the negatives on the 0
+         values. }
+       { done to indicate the exception in the formula for tan x,
+         which is sin x / cos x ; cos x <> 0 , set won\x{2019}t handle
+         anything beyond byte, so 30 is subtracted, and other
+         values are used. }
+       if (degreeparts[i] - 30) in [60, 240] then
+         writeln(\x{2018}Invalid\x{2019}:10)
+       else
+         writeln(sresult/cresult :10:3);
+       end;
+  end.",
           ],
           [
             1,
             '[16:59] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (287-290.html) - 1 to 17',
             "program fig28;
-    { demonstrates some mathematical functions }
-    const
-      { pi = 3.1415; DO NOT DEFINE THIS!
-        It is already defined for you. }
-      rad: real = pi/180; { one degree = pi / 180 radians }
-      degreeparts: array[1..17] of integer =
-       (0,30,45,60,90,120,135,150,180,210,225,240,270,300,315,330,360);
-    var
-      i: byte;
-      sresult, cresult: real;
-    begin
-      writeln(\x{2018}Simple Trigonometry Table\x{2019});
-      writeln(\x{2018}Degrees\x{2019},\x{2019}Sin\x{2019}:5,
-      \x{2019}Cos\x{2019}:10,\x{2019}Tan\x{2019}:10);
-      for i := <<1 to 17|10a:0>> do
-        begin
-          sresult := sin(degreeparts[i]*rad);
-          cresult := cos(degreeparts[i]*rad);
-          write(degreeparts[i]:4, sresult:10:3,cresult:10:3);
-          { note due to the conversion from radians that these are not
-            *exactly* accurate, as denoted by the negatives on the 0
-            values. }
-          { done to indicate the exception in the formula for tan x,
-            which is sin x / cos x ; cos x <> 0 , set won\x{2019}t handle
-            anything beyond byte, so 30 is subtracted, and other
-            values are used. }
-          if (degreeparts[i] - 30) in [60, 240] then
-            writeln(\x{2018}Invalid\x{2019}:10)
-          else
-            writeln(sresult/cresult :10:3);
-          end;
-     end.",
+ { demonstrates some mathematical functions }
+ const
+   { pi = 3.1415; DO NOT DEFINE THIS!
+     It is already defined for you. }
+   rad: real = pi/180; { one degree = pi / 180 radians }
+   degreeparts: array[1..17] of integer =
+    (0,30,45,60,90,120,135,150,180,210,225,240,270,300,315,330,360);
+ var
+   i: byte;
+   sresult, cresult: real;
+ begin
+   writeln(\x{2018}Simple Trigonometry Table\x{2019});
+   writeln(\x{2018}Degrees\x{2019},\x{2019}Sin\x{2019}:5,
+   \x{2019}Cos\x{2019}:10,\x{2019}Tan\x{2019}:10);
+   for i := <<1 to 17|10a:0>> do
+     begin
+       sresult := sin(degreeparts[i]*rad);
+       cresult := cos(degreeparts[i]*rad);
+       write(degreeparts[i]:4, sresult:10:3,cresult:10:3);
+       { note due to the conversion from radians that these are not
+         *exactly* accurate, as denoted by the negatives on the 0
+         values. }
+       { done to indicate the exception in the formula for tan x,
+         which is sin x / cos x ; cos x <> 0 , set won\x{2019}t handle
+         anything beyond byte, so 30 is subtracted, and other
+         values are used. }
+       if (degreeparts[i] - 30) in [60, 240] then
+         writeln(\x{2018}Invalid\x{2019}:10)
+       else
+         writeln(sresult/cresult :10:3);
+       end;
+  end.",
           ],
           [
             1,
@@ -1256,47 +1067,41 @@ Listing <<5.28|5a:0>>. Some mathematical functions.",
             "The seed for the PRNG is held in a longint variable called randseed, which may be set directly, if a repeating constant stream of numbers is desired. Otherwise, a procedure named \x{201c}randomize\x{201d} may be used in order to randomize the variable randseed in memory. Then to generate one number of the series, a function named random() may be used. Without parameters, it generates a real number between 0 and 1. With a parameter, it generates a number between 0 and (parameter \x{2013} 1). For example, random(100) generates an integer between 0 and 99. A sample use of the PRNG is shown in Listing <<5.29|5a:0>>.
 Listing <<5.29|5a:0>>. A demonstration of the PRNG.
 program fig29;
-    { demonstration of the PRNG, distribution of 100 pseudo-randomly
-      generated numbers between 1 and 10\x{2014}count of occurrences }
-    var
-      pcount: array[1..10] of byte;
-      i: byte;
-    begin
-      randomize;
-  { call this only *once* at the beginning of the program }
-      for i := <<1 to 10|10a:0>> do
-        pcount[i] := 0;
-      for i := 1 to 100 do
-          inc(pcount[random(10)+1]);
-      for i := <<1 to 10|10a:0>> do
-        writeln(i, \x{2018} occurred \x{2019}, pcount[i], \x{2018} times.\x{2019});
-    end.
-
-
-5.2.7.6. Bit Manipulation",
+ { demonstration of the PRNG, distribution of 100 pseudo-randomly
+   generated numbers between 1 and 10\x{2014}count of occurrences }
+ var
+   pcount: array[1..10] of byte;
+   i: byte;
+ begin
+   randomize;
+{ call this only *once* at the beginning of the program }
+   for i := <<1 to 10|10a:0>> do
+     pcount[i] := 0;
+   for i := 1 to 100 do
+       inc(pcount[random(10)+1]);
+   for i := <<1 to 10|10a:0>> do
+     writeln(i, \x{2018} occurred \x{2019}, pcount[i], \x{2018} times.\x{2019});
+ end.",
           ],
           [
             1,
             '[ap 09:59] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (290-293.html) - 1 to 10',
             "program fig29;
-    { demonstration of the PRNG, distribution of 100 pseudo-randomly
-      generated numbers between 1 and 10\x{2014}count of occurrences }
-    var
-      pcount: array[1..10] of byte;
-      i: byte;
-    begin
-      randomize;
-  { call this only *once* at the beginning of the program }
-      for i := <<1 to 10|10a:0>> do
-        pcount[i] := 0;
-      for i := 1 to 100 do
-          inc(pcount[random(10)+1]);
-      for i := <<1 to 10|10a:0>> do
-        writeln(i, \x{2018} occurred \x{2019}, pcount[i], \x{2018} times.\x{2019});
-    end.
-
-
-5.2.7.6. Bit Manipulation",
+ { demonstration of the PRNG, distribution of 100 pseudo-randomly
+   generated numbers between 1 and 10\x{2014}count of occurrences }
+ var
+   pcount: array[1..10] of byte;
+   i: byte;
+ begin
+   randomize;
+{ call this only *once* at the beginning of the program }
+   for i := <<1 to 10|10a:0>> do
+     pcount[i] := 0;
+   for i := 1 to 100 do
+       inc(pcount[random(10)+1]);
+   for i := <<1 to 10|10a:0>> do
+     writeln(i, \x{2018} occurred \x{2019}, pcount[i], \x{2018} times.\x{2019});
+ end.",
           ],
           [
             1,
@@ -1314,67 +1119,60 @@ program fig29;
             "
 Listing <<5.30|5a:0>>. An example of bitwise operators.
 program fig30; uses wconv;
-
-    { visual demonstrator of effects of all bitwise evaluators,
-      actually, a good tutorial/flash card program for learning
-      these operators. function writebinary(inbyte: byte):string;
-      is from wconv, a utility unit I have written for writing
-      values in different common bases for my personal use. Code not
-      included because it does not further the topic of this program.
-      Such a function may be created easily with the knowledge of
-      base conversions. }
-
-    var
-      option, num1, num2: byte;
-
-    procedure processinfo(option, num1, num2: byte);
-      begin
-        writeln(writebinary(num1):23);
-        case option of
-          1: write(\x{2018}SHL\x{2019});
-          2: write(\x{2018}SHR\x{2019});
-          3: write(\x{2018}AND\x{2019});
-          4: write(\x{2018} OR\x{2019});
-          5: write(\x{2018}XOR\x{2019});
-        end;
-        { no point in writing out bits for 2nd number if SHL or SHR }
-        if option in [1..2] then
-          writeln(num2:10)
-        else
-          writeln(writebinary(num2):20);
-        writeln(\x{2018}======================\x{2019});
-        case option of
-        1: writeln(writebinary(num1 shl num2):23);
-        2: writeln(writebinary(num1 shr num2):23);
-        3: writeln(writebinary(num1 and num2):23);
-        4: writeln(writebinary(num1 or num2):23);
-        5: writeln(writebinary(num1 xor num2):23);
-      end;
-    end;
-
+ { visual demonstrator of effects of all bitwise evaluators,
+   actually, a good tutorial/flash card program for learning
+   these operators. function writebinary(inbyte: byte):string;
+   is from wconv, a utility unit I have written for writing
+   values in different common bases for my personal use. Code not
+   included because it does not further the topic of this program.
+   Such a function may be created easily with the knowledge of
+   base conversions. }
+ var
+   option, num1, num2: byte;
+ procedure processinfo(option, num1, num2: byte);
    begin
-    option := 10;
-    while option <> 6 do
-      begin
-        writeln;writeln;
-        writeln(\x{2018}Enter a number from the list below:\x{2019});
-        writeln(\x{2018}1) SHL 2) SHR 3) AND 4) OR 5) XOR 6) QUT\x{2019});
-        write(\x{2018}Enter an option [1-6]: \x{2019});
-        readln(option);
-        if option <> 6 then
-          begin
-            write(\x{2018}Enter first number: \x{2019});
-            readln(num1);
-            write(\x{2018}Enter second number: \x{2019});
-            readln(num2);
-            writeln;
-            processinfo(option, num1, num2);
-          end;
+     writeln(writebinary(num1):23);
+     case option of
+       1: write(\x{2018}SHL\x{2019});
+       2: write(\x{2018}SHR\x{2019});
+       3: write(\x{2018}AND\x{2019});
+       4: write(\x{2018} OR\x{2019});
+       5: write(\x{2018}XOR\x{2019});
      end;
-end.
-
-
-In addition, functions called lo, hi, and swap are provided. In a series of bits, they can be divided in half. The more significant bits are referred to as the high order, and the least significant bits are referred to as the low order. lo() returns the low order of the argument given, hi() returns the high order of the argument given, and swap() returns the argument with the high and low orders swapped.",
+     { no point in writing out bits for 2nd number if SHL or SHR }
+     if option in [1..2] then
+       writeln(num2:10)
+     else
+       writeln(writebinary(num2):20);
+     writeln(\x{2018}======================\x{2019});
+     case option of
+     1: writeln(writebinary(num1 shl num2):23);
+     2: writeln(writebinary(num1 shr num2):23);
+     3: writeln(writebinary(num1 and num2):23);
+     4: writeln(writebinary(num1 or num2):23);
+     5: writeln(writebinary(num1 xor num2):23);
+   end;
+ end;
+begin
+ option := 10;
+ while option <> 6 do
+   begin
+     writeln;writeln;
+     writeln(\x{2018}Enter a number from the list below:\x{2019});
+     writeln(\x{2018}1) SHL 2) SHR 3) AND 4) OR 5) XOR 6) QUT\x{2019});
+     write(\x{2018}Enter an option [1-6]: \x{2019});
+     readln(option);
+     if option <> 6 then
+       begin
+         write(\x{2018}Enter first number: \x{2019});
+         readln(num1);
+         write(\x{2018}Enter second number: \x{2019});
+         readln(num2);
+         writeln;
+         processinfo(option, num1, num2);
+       end;
+  end;
+end.",
           ],
           [
             1,
@@ -1397,37 +1195,36 @@ In addition, functions called lo, hi, and swap are provided. In a series of bits
             "An example of doing this is shown in Listing <<5.32|5a:0>>. Far procedures must be used as illustrated to make something like this routine work. For example, a sort routine with options to sort by multiple functions would be ideal for this kind of coding, though this case would be ludicrous. Note that a pointer is also addressed in this listing to a static variable position in memory.
 Listing <<5.32|5a:0>>. Demonstration of the \@ operator.
 program fig32;
-    type
-      intptr = ^integer;
-      proctype = procedure(a: string);
-    var
-      c: integer;
-      d: intptr;
-      callit: proctype;
-     {\$F+}    { this can be used or \x{201c}far;\x{201d} after each procedure }
-     procedure yesitisafive(a: string);
-       begin
-         writeln(\x{2018}D is a 5.\x{2019});
-         writeln(a);
-       end;
-     procedure noitisnotafive(a: string);
-       begin
-         writeln(\x{2018}D is not a 5.\x{2019});
-         writeln(a);
-       end;
-     {\$F-}
-
-     begin
-       \@callit := nil;     { requirement to make it work }
-       c := 5;
-       d := \@c;
-       writeln(\x{2018}Pointer contents of d are \x{2019}, d^);
-       if d^ = 5 then
-         \@callit := \@yesitisafive
-       else
-         \@callit := \@noitisnotafive;
-       callit(\x{2018}Whatever works is fine.\x{2019});
-     end.",
+ type
+   intptr = ^integer;
+   proctype = procedure(a: string);
+ var
+   c: integer;
+   d: intptr;
+   callit: proctype;
+  {\$F+}    { this can be used or \x{201c}far;\x{201d} after each procedure }
+  procedure yesitisafive(a: string);
+    begin
+      writeln(\x{2018}D is a 5.\x{2019});
+      writeln(a);
+    end;
+  procedure noitisnotafive(a: string);
+    begin
+      writeln(\x{2018}D is not a 5.\x{2019});
+      writeln(a);
+    end;
+  {\$F-}
+  begin
+    \@callit := nil;     { requirement to make it work }
+    c := 5;
+    d := \@c;
+    writeln(\x{2018}Pointer contents of d are \x{2019}, d^);
+    if d^ = 5 then
+      \@callit := \@yesitisafive
+    else
+      \@callit := \@noitisnotafive;
+    callit(\x{2018}Whatever works is fine.\x{2019});
+  end.",
           ],
           [
             1,
@@ -1440,38 +1237,31 @@ program fig32;
             "exitproc is a procedure that is set up as an address system, which is executed on the compiler automatically upon completion of the program, no matter what kind of error may happen, but before a runtime error code message. A common application for this feature is the addition of runtime error-description code, or diagnostic logging features for a program, or clean-up functions for working with files. Listing <<5.33|5a:0>> shows an example.
 Listing <<5.33|5a:0>>. An example of the use of exitproc.
 program fig33;
-
-    const
-      a: integer = 3;
-      b: integer = 0;
-    var
-      exitsave: procedure;
-
-    {\$F+}          { must be far }
-    procedure myexit; {must be parameterless}
-      begin
-        writeln;
-        writeln(\x{2018}Exit.\x{2019});
-        if exitcode <> 0 then
-        { exitcode used to hold run-time error number}
-          writeln(\x{2018}There was a problem.\x{2019})
-        else
-          writeln(\x{2018}Successful termination.\x{2019});
-      end;
-    {\$F-}
-
-    begin
-      \@exitsave := exitproc; { saving the original exit procedure }
-      exitproc := \@myexit;   { set to new exit procedure}
-      writeln(\x{2018}Hello!\x{2019});
-      { force a division by zero RUNTIME error }
-      writeln(\x{2018}Divide by Zero: \x{2019}, a/b);
-      exitproc := \@exitsave; { set the original exit procedure back }
-    end.
-
-
-5.2.9. File Access
-In Turbo Pascal, everything that is read from or written to is considered to be a file. This includes the keyboard and the screen as well. Turbo Pascal\x{2019}s behavior of having \x{201c}default files\x{201d} has somewhat shielded the reader from working with files for the time being. In the initialization code for a Pascal executable, a default file of input is assigned to the keyboard, and a default file of output is assigned to the monitor, as file variables \x{201c}input\x{201d} and \x{201c}output.\x{201d} In this sense, a description of what file to write to has not been needed. But for other files, file descriptions have to be specified.",
+ const
+   a: integer = 3;
+   b: integer = 0;
+ var
+   exitsave: procedure;
+ {\$F+}          { must be far }
+ procedure myexit; {must be parameterless}
+   begin
+     writeln;
+     writeln(\x{2018}Exit.\x{2019});
+     if exitcode <> 0 then
+     { exitcode used to hold run-time error number}
+       writeln(\x{2018}There was a problem.\x{2019})
+     else
+       writeln(\x{2018}Successful termination.\x{2019});
+   end;
+ {\$F-}
+ begin
+   \@exitsave := exitproc; { saving the original exit procedure }
+   exitproc := \@myexit;   { set to new exit procedure}
+   writeln(\x{2018}Hello!\x{2019});
+   { force a division by zero RUNTIME error }
+   writeln(\x{2018}Divide by Zero: \x{2019}, a/b);
+   exitproc := \@exitsave; { set the original exit procedure back }
+ end.",
           ],
           [
             1,
@@ -1484,43 +1274,37 @@ In Turbo Pascal, everything that is read from or written to is considered to be 
             "The text at the particular position is translated into whatever variable is desired. A full example of reading and writing to text files is shown in Listing <<5.34|5a:0>>, as well as proper use of the functions eof() and eoln(). These functions perform status checking to determine whether the reading is at the end of the file or the end of the line of text (in that order). These functions should always be used, as you do not always know the exact description of a file that is accessed.
 Listing <<5.34|5a:0>>. A demonstration of reading and writing text files.
 program fig34;
-
-    { demonstration of text file usage, along with eof() and eoln() }
-    { Uses INTDATA.TXT as generated by TESTTEXT.EXE }
-
-    var
-      infile, outfile: text;
-      total: longint;
-      number_line, total_line: integer;
-      objnum: integer;
-
-    begin
-      assign(infile, \x{2018}INTDATA.TXT\x{2019});
-      assign(outfile, \x{2018}DATARPT.TXT\x{2019});
-      reset(infile);
-      rewrite(outfile);
-      total_line := 0;
-      while not eof(infile) do
-        begin
-          number_line := 0;
-          total := 0;
-          while not eoln(infile) do
-            begin
-              read(infile, objnum);
-              inc(total, objnum);
-              inc(number_line);
-            end;
-          readln(infile);
-          inc(total_line);
-       writeln(outfile, \x{2018}Line \x{2019}, total_line:3, \x{2018}: \x{2019}, number_line:2,
-                 \x{2018} numbers \x{2014} Average: \x{2019}, (total/number_line):10:4);
-     end;
-   close(infile);
-   close(outfile);
- end.
-
-
-5.2.9.3. Typed Binary Files",
+ { demonstration of text file usage, along with eof() and eoln() }
+ { Uses INTDATA.TXT as generated by TESTTEXT.EXE }
+ var
+   infile, outfile: text;
+   total: longint;
+   number_line, total_line: integer;
+   objnum: integer;
+ begin
+   assign(infile, \x{2018}INTDATA.TXT\x{2019});
+   assign(outfile, \x{2018}DATARPT.TXT\x{2019});
+   reset(infile);
+   rewrite(outfile);
+   total_line := 0;
+   while not eof(infile) do
+     begin
+       number_line := 0;
+       total := 0;
+       while not eoln(infile) do
+         begin
+           read(infile, objnum);
+           inc(total, objnum);
+           inc(number_line);
+         end;
+       readln(infile);
+       inc(total_line);
+    writeln(outfile, \x{2018}Line \x{2019}, total_line:3, \x{2018}: \x{2019}, number_line:2,
+              \x{2018} numbers \x{2014} Average: \x{2019}, (total/number_line):10:4);
+  end;
+close(infile);
+close(outfile);
+end.",
           ],
           [
             1,
@@ -1533,32 +1317,29 @@ program fig34;
             "A procedure named seek(<binary file var>, <# of vars forward>) is used for adding random access to a binary file for purposes of reading or overwriting a position in the file, and filesize(<typed binary filevar>) returns the total number of typed variables in the file (if 38 integers are in a file, it returns 38, and not the physical size of the file on the drive). Note that eoln()\x{2019}s usefulness is eliminated in this file type, but eof() is still useful in the case of reading a typed binary file.
 Listing <<5.35|5a:0>>. An example of typed binary file use.
 program fig35;
-
-    { demonstration of usage of typed binary file }
-
-    { uses intdata.txt as input, outputs binary integer data }
-
-    var
-      infile: text;
-      outfile: file of integer;
-      int: integer;
-    begin
-      assign(infile, \x{2018}INTDATA.TXT\x{2019});
-      assign(outfile, \x{2018}TYPEDATA.DAT\x{2019});
-      reset(infile);
-      rewrite(outfile);
-      while not eof(infile) do
-        begin
-          while not eoln(infile) do
-            begin
-              read(infile, int);
-              write(outfile, int);
-            end;
-          readln(infile);
-        end;
-      close(infile);
-      close(outfile);
-    end.",
+ { demonstration of usage of typed binary file }
+ { uses intdata.txt as input, outputs binary integer data }
+ var
+   infile: text;
+   outfile: file of integer;
+   int: integer;
+ begin
+   assign(infile, \x{2018}INTDATA.TXT\x{2019});
+   assign(outfile, \x{2018}TYPEDATA.DAT\x{2019});
+   reset(infile);
+   rewrite(outfile);
+   while not eof(infile) do
+     begin
+       while not eoln(infile) do
+         begin
+           read(infile, int);
+           write(outfile, int);
+         end;
+       readln(infile);
+     end;
+   close(infile);
+   close(outfile);
+ end.",
           ],
           [
             1,
@@ -1571,29 +1352,24 @@ program fig35;
             "Untyped binary files have the advantage of speed and the ability to read varying data types. When the same data type is stored throughout the file, typed binary files are better.
 Listing <<5.36|5a:0>>. An example of the use of untyped files.
 program fig36;
-
-    { demonstration: untyped files, blockread, blockwrite }
-    { uses TYPEDATA.DAT }
-    var
-      infile2, outfile: file;
-      buffer: array[1..1024] of integer;
-      amtread, amtwritten: integer;
-
-    begin
-      assign(infile2, \x{2018}TYPEDATA.DAT\x{2019});
-      assign(outfile, \x{2018}VERIFIED.DAT\x{2019});
-      reset(infile2, 1);
-      rewrite(outfile, 1);
-      repeat
-        blockread(infile2, buffer, sizeof(buffer), amtread);
-        blockwrite(outfile, buffer, amtread, amtwritten);
-      until amtread = 0;
-      close(infile2);
-      close(outfile);
-    end.
-
-
-5.2.9.5. The Printer as a File",
+ { demonstration: untyped files, blockread, blockwrite }
+ { uses TYPEDATA.DAT }
+ var
+   infile2, outfile: file;
+   buffer: array[1..1024] of integer;
+   amtread, amtwritten: integer;
+ begin
+   assign(infile2, \x{2018}TYPEDATA.DAT\x{2019});
+   assign(outfile, \x{2018}VERIFIED.DAT\x{2019});
+   reset(infile2, 1);
+   rewrite(outfile, 1);
+   repeat
+     blockread(infile2, buffer, sizeof(buffer), amtread);
+     blockwrite(outfile, buffer, amtread, amtwritten);
+   until amtread = 0;
+   close(infile2);
+   close(outfile);
+ end.",
           ],
           [
             1,
@@ -1606,39 +1382,31 @@ program fig36;
             "The printer can also be used as a file. The printer is assigned as a write-only text file, generally to the file lptX (where X is the port number) or prn. But the printer unit is available to do this job for us, assigning a file variable named lst to the printer. Note in Listing <<5.37|5a:0>>, that a form-feed character, defined as a constant, must be written after each page.
 Listing <<5.37|5a:0>>. An example of using the printer.
 program fig37; uses printer;
-  { printer unit defaults to LPT 1 as the location of the printer }
-    const
-      ff = #12;
-    var
-      i: byte;
-    begin
-      for i := <<1 to 15|10a:0>> do
-        writeln(lst, \x{2018}Hello World! From my Printer!\x{2019});
-      writeln(lst,ff);
-    end.
-
-
-5.2.10. textmode Screen Manipulation
-This section describes some of the common procedures and functions and their use in the CRT unit. Because this is a unit provided by Turbo Pascal, all procedures and functions require the statement uses crt;. Reading keycodes directly from the keyboard to enable use of the extended keys of the keyboard is described, as well as PC speaker usage and machine delay. Also, methods of text mode manipulation are described using code available from the CRT unit.",
+{ printer unit defaults to LPT 1 as the location of the printer }
+ const
+   ff = #12;
+ var
+   i: byte;
+ begin
+   for i := <<1 to 15|10a:0>> do
+     writeln(lst, \x{2018}Hello World! From my Printer!\x{2019});
+   writeln(lst,ff);
+ end.",
           ],
           [
             1,
             '[14:59] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (303-306.html) - 1 to 15',
             "program fig37; uses printer;
-  { printer unit defaults to LPT 1 as the location of the printer }
-    const
-      ff = #12;
-    var
-      i: byte;
-    begin
-      for i := <<1 to 15|10a:0>> do
-        writeln(lst, \x{2018}Hello World! From my Printer!\x{2019});
-      writeln(lst,ff);
-    end.
-
-
-5.2.10. textmode Screen Manipulation
-This section describes some of the common procedures and functions and their use in the CRT unit. Because this is a unit provided by Turbo Pascal, all procedures and functions require the statement uses crt;. Reading keycodes directly from the keyboard to enable use of the extended keys of the keyboard is described, as well as PC speaker usage and machine delay. Also, methods of text mode manipulation are described using code available from the CRT unit.",
+{ printer unit defaults to LPT 1 as the location of the printer }
+ const
+   ff = #12;
+ var
+   i: byte;
+ begin
+   for i := <<1 to 15|10a:0>> do
+     writeln(lst, \x{2018}Hello World! From my Printer!\x{2019});
+   writeln(lst,ff);
+ end.",
           ],
           [
             1,
@@ -1651,27 +1419,22 @@ This section describes some of the common procedures and functions and their use
             "In addition, a variable called keypressed exists. This can be used to run a process until a key is pressed.
 Listing <<5.38|5a:0>>. A demonstration of readkey.
 program fig38; uses crt;
-
-    { Demonstration of readkey }
-    var
-      c: char;
-
-    begin
-      write(\x{2018}Hit a key: \x{2019});
-      c := readkey;
-      writeln; {remember readkey doesn\x{2019}t behave like read/readln}
-      write(\x{2018}Key codes returned by the key you pressed are: \x{2019});
-      write(\x{2018}#\x{2019}, ord(c), \x{2018} \x{2019});
-      if c = #0 then
-        begin
-          c := readkey;
-          write(\x{2018}#\x{2019}, ord(c));
-        end;
-      writeln;
-    end.
-
-
-5.2.10.2. PC Speaker and Machine Delay",
+ { Demonstration of readkey }
+ var
+   c: char;
+ begin
+   write(\x{2018}Hit a key: \x{2019});
+   c := readkey;
+   writeln; {remember readkey doesn\x{2019}t behave like read/readln}
+   write(\x{2018}Key codes returned by the key you pressed are: \x{2019});
+   write(\x{2018}#\x{2019}, ord(c), \x{2018} \x{2019});
+   if c = #0 then
+     begin
+       c := readkey;
+       write(\x{2018}#\x{2019}, ord(c));
+     end;
+   writeln;
+ end.",
           ],
           [
             1,
@@ -1679,33 +1442,30 @@ program fig38; uses crt;
             "Note, in addition, that a current problem with TP/BP 7.0 (since there was no such thing as a Pentium II when released) is that the delay procedure has been known to crash. Borland\x{2019}s position on TP 7 is to not fix this error but refer people to upgrade to Delphi. Even though Borland claims this, note that this problem can be fixed, and a description of options to fix this error (Runtime Error 200: Division by Zero) can be found at the URLs specified at the beginning of this chapter.
 Listing <<5.39|5a:0>>. A demonstration of activating the PC speaker.
 program fig39; uses crt;
-
-    const
-      min = 250;
-      max = 3000;
-    var
-      index: word;
-
-    procedure pcsound(hertz, milliseconds: word);
-      begin
-        sound(hertz);
-        delay(milliseconds);
-        nosound;
-      end;
-
-    begin
-      index := min;
-      while index < max do
-        begin
-          pcsound(index,250);
-          inc(index, 250);
-        end;
-      while index > min do
-        begin
-          pcsound(index,250);
-          dec(index, 250);
-        end;
-    end.",
+ const
+   min = 250;
+   max = 3000;
+ var
+   index: word;
+ procedure pcsound(hertz, milliseconds: word);
+   begin
+     sound(hertz);
+     delay(milliseconds);
+     nosound;
+   end;
+ begin
+   index := min;
+   while index < max do
+     begin
+       pcsound(index,250);
+       inc(index, 250);
+     end;
+   while index > min do
+     begin
+       pcsound(index,250);
+       dec(index, 250);
+     end;
+ end.",
           ],
           [
             1,
@@ -1718,53 +1478,53 @@ program fig39; uses crt;
             "textmode accepts integers that are defined as constants to be BW40, CO40, BW80, and CO80, as the most common ones (BW = black and white, CO = color, 40 = 40\x{d7}25 screen, 80 = 80\x{d7}25 screen). In addition, with EGA and VGA cards, a parameter named Font8X8 changes the screen to 43 or 50 line mode when it is added. The default is CO80. A well-behaved program accesses the variable LastMode to store the current mode before changing it. These procedures are shown in Listing <<5.40|5a:0>>. Note that all attributes are reset when textmode and window are called.
 Listing <<5.40|5a:0>>. A demonstration of active window manipulation.
 program fig40; uses crt;
-
-   var
-     origmode: integer;
-
-   procedure screen(inptype: string);
-     var
-       j: byte;
-     begin
-       clrscr;
-       writeln(\x{2018}Text Box (Active Window at 5,5 and 20,20) textmode \x{2019},
-                inptype);
-       window(5,5,20,20);
-       for j := 1 to 40 do
-         write(\x{2018}Fill!\x{2019});
-     end;
-
+var
+  origmode: integer;
+procedure screen(inptype: string);
+  var
+    j: byte;
   begin
-    origmode := LastMode;
-    textmode(CO80);
-    screen(\x{2018}CO80\x{2019});
-    readln;
-    textmode(CO40);
-    screen(\x{2018}CO40\x{2019});
-    readln;
-    textmode(Font8X8 + CO80);
-    screen(\x{2018}Font8X8 CO80\x{2019});
-    readln;
-    textmode(Font8X8 + CO40);
-    screen(\x{2018}Font8X8 CO40\x{2019});
-    readln;
-    textmode(origmode);
-    writeln(\x{2018}Good-Bye and Have a Nice Day!\x{2019});
-  end.
-
-
-5.2.10.5. Text Appearance and Position",
+    clrscr;
+    writeln(\x{2018}Text Box (Active Window at 5,5 and 20,20) textmode \x{2019},
+             inptype);
+    window(5,5,20,20);
+    for j := 1 to 40 do
+      write(\x{2018}Fill!\x{2019});
+  end;
+begin
+ origmode := LastMode;
+ textmode(CO80);
+ screen(\x{2018}CO80\x{2019});
+ readln;
+ textmode(CO40);
+ screen(\x{2018}CO40\x{2019});
+ readln;
+ textmode(Font8X8 + CO80);
+ screen(\x{2018}Font8X8 CO80\x{2019});
+ readln;
+ textmode(Font8X8 + CO40);
+ screen(\x{2018}Font8X8 CO40\x{2019});
+ readln;
+ textmode(origmode);
+ writeln(\x{2018}Good-Bye and Have a Nice Day!\x{2019});
+end.",
           ],
           [
             1,
             '[15:00] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (306-308.html) - 0 to 15',
-            "gotoxy(x1,y1)\x{2014}Go to position indicated by x1,y1, changes definition of \x{201c}current line\x{201d}: error is ignored }
-textcolor(color)\x{2014}Sets a foreground color from <<0 to 15|10a:0>>, as listed below
+            "textcolor(color)\x{2014}Sets a foreground color from <<0 to 15|10a:0>>, as listed below",
+          ],
+          [
+            1,
+            '[15:00] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (306-308.html) - 0 to 15',
+            "textcolor(color)\x{2014}Sets a foreground color from <<0 to 15|10a:0>>, as listed below
 textbackground(color)\x{2014}Sets a background color from <<0 to 8|10a:0>>
-highvideo, normvideo\x{2014}All these, as implied, change intensity of video
-lowvideo, byte wherex, wherey\x{2014}Indicate current position of the cursor (wherex, wherey)
-
-The defaults are normvideo, textcolor(15), and textbackground(0). A demonstration is shown in Listing <<5.41|5a:0>>. Note that rote screen and color manipulation can get very lengthy in coding; also note that the designations on the colors are defined as constants in the CRT unit to represent each color, either the number as used in this program or the textmode constant seen beside the color block may be used.",
+highvideo, normvideo\x{2014}All these, as implied, change intensity of video",
+          ],
+          [
+            1,
+            '[ap 05:41] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (306-308.html) - 5.41',
+            'The defaults are normvideo, textcolor(15), and textbackground(0). A demonstration is shown in Listing <<5.41|5a:0>>. Note that rote screen and color manipulation can get very lengthy in coding; also note that the designations on the colors are defined as constants in the CRT unit to represent each color, either the number as used in this program or the textmode constant seen beside the color block may be used.',
           ],
           [
             1,
@@ -1772,237 +1532,217 @@ The defaults are normvideo, textcolor(15), and textbackground(0). A demonstratio
             "
 Listing <<5.41|5a:0>>. A demonstration of text appearance procedures.
 program fig41; uses crt;
-
-    { Demonstration along with listing of equivalent constants }
-    type
-      string19 = string[19];
-    var
-      i: byte;
-
-    function returntextconstant(color: byte):string19;
-      var
-        rtrn: string19;
-      begin
-        rtrn := \x{2018}\x{2019};
-        if color >= 128 then
-          begin
-            rtrn := \x{2018}Blink+\x{2019};
-            dec(color, 128);
-          end;
-        case color of
-           0: rtrn := rtrn + \x{2018}Black        \x{2019};
-           1: rtrn := rtrn + \x{2018}Blue         \x{2019};
-           2: rtrn := rtrn + \x{2018}Green        \x{2019};
-           3: rtrn := rtrn + \x{2018}Cyan         \x{2019};
-           4: rtrn := rtrn + \x{2018}Red          \x{2019};
-           5: rtrn := rtrn + \x{2018}Magenta      \x{2019};
-           6: rtrn := rtrn + \x{2018}Brown        \x{2019};
-           7: rtrn := rtrn + \x{2018}LightGray    \x{2019};
-           8: rtrn := rtrn + \x{2018}DarkGray     \x{2019};
-           9: rtrn := rtrn + \x{2018}LightBlue    \x{2019};
-          10: rtrn := rtrn + \x{2018}LightGreen   \x{2019};
-          11: rtrn := rtrn + \x{2018}LightCyan    \x{2019};
-          12: rtrn := rtrn + \x{2018}LightRed     \x{2019};
-          13: rtrn := rtrn + \x{2018}LightMagenta \x{2019};
-          14: rtrn := rtrn + \x{2018}Yellow       \x{2019};
-          15: rtrn := rtrn + \x{2018}White        \x{2019};
-        end;
-        returntextconstant := rtrn;
-      end;
-
-    procedure writeblock(color:byte);
-      begin
-        write(#219:6,#219,#219,#219, \x{2018} - \x{2019});
-        write(returntextconstant(color));
-     end;
-
-    procedure writescreenpage(start: byte);
-      var
-        i: byte;
-      begin
-        for i := start to start+15 do
-          begin
-            textcolor(i);
-            writeblock(i);
-            if (i+1) mod 2 = 0 then
-              begin writeln;writeln;end;
-          end;
-     end;
-
-   procedure textcolordemo;
-     begin
-       { Does the 8 screens with backgrounds changed }
-       for i := <<0 to 7|10a:0>> do
-         begin
-           textbackground(i);
-           clrscr;
-           textcolor(white);
-           writeln(\x{2018}Screen Demonstration: Text Background = \x{2019},
-                     returntextconstant(i));
-           writeln;
-           writescreenpage(0);
-           readln;
-         end;
-       { does blinking screen demo}
-       textcolor(white);
-       textbackground(black);
-       clrscr;
-       writeln(\x{2018}Screen Demonstration: Blinking Text\x{2019});
-       writeln;
-       writescreenpage(128);
-       { start from <<128|9c:0>>; textattribute + 128 is blink }
-       readln;
-     end;
-
-   procedure gotoxydemo;
-     begin
-       clrscr;
-       randomize;
-       textcolor(white);
-       writeln(\x{2018}Screen Positioning Demo: press a key when done\x{2019});
-       repeat
-         textcolor(random(15)+1);
-         gotoxy(random(79)+1, random(23)+2);
-         write(#254);
-         delay(500);
-         gotoxy(wherex-1, wherey);
-         textcolor(black);
-         write(#216);
-       until keypressed;
-       textbackground(black);
-     end;
+ { Demonstration along with listing of equivalent constants }
+ type
+   string19 = string[19];
+ var
+   i: byte;
+ function returntextconstant(color: byte):string19;
+   var
+     rtrn: string19;
    begin
-     textbackground(black);
-     writeln;
-     textcolordemo;
-     gotoxydemo;
-     clrscr;
-     textcolor(white);
-     clrscr;
-     writeln(\x{2018}Thanks for your time!\x{2019});
-   end.
-
-
-5.2.11. DOS Command Capabilities
-This section demonstrates the procedures and functions used to perform varied DOS-related capabilities in Turbo Pascal in a process-oriented illustration. Note that this includes executing another program, taking parameters from the command line for a program, listing files on the drive, confirming a file\x{2019}s existence, and using Pascal equivalents to DOS-based functions that work on directories as well as files themselves. In addition, most, but not all, procedures and functions described here make use of the DOS unit. Assumed is a working knowledge of using the DOS operating system, but not an expert knowledge. Because of the somewhat limited scope of this document, not all procedures and functions are demonstrated.",
+     rtrn := \x{2018}\x{2019};
+     if color >= 128 then
+       begin
+         rtrn := \x{2018}Blink+\x{2019};
+         dec(color, 128);
+       end;
+     case color of
+        0: rtrn := rtrn + \x{2018}Black        \x{2019};
+        1: rtrn := rtrn + \x{2018}Blue         \x{2019};
+        2: rtrn := rtrn + \x{2018}Green        \x{2019};
+        3: rtrn := rtrn + \x{2018}Cyan         \x{2019};
+        4: rtrn := rtrn + \x{2018}Red          \x{2019};
+        5: rtrn := rtrn + \x{2018}Magenta      \x{2019};
+        6: rtrn := rtrn + \x{2018}Brown        \x{2019};
+        7: rtrn := rtrn + \x{2018}LightGray    \x{2019};
+        8: rtrn := rtrn + \x{2018}DarkGray     \x{2019};
+        9: rtrn := rtrn + \x{2018}LightBlue    \x{2019};
+       10: rtrn := rtrn + \x{2018}LightGreen   \x{2019};
+       11: rtrn := rtrn + \x{2018}LightCyan    \x{2019};
+       12: rtrn := rtrn + \x{2018}LightRed     \x{2019};
+       13: rtrn := rtrn + \x{2018}LightMagenta \x{2019};
+       14: rtrn := rtrn + \x{2018}Yellow       \x{2019};
+       15: rtrn := rtrn + \x{2018}White        \x{2019};
+     end;
+     returntextconstant := rtrn;
+   end;
+ procedure writeblock(color:byte);
+   begin
+     write(#219:6,#219,#219,#219, \x{2018} - \x{2019});
+     write(returntextconstant(color));
+  end;
+ procedure writescreenpage(start: byte);
+   var
+     i: byte;
+   begin
+     for i := start to start+15 do
+       begin
+         textcolor(i);
+         writeblock(i);
+         if (i+1) mod 2 = 0 then
+           begin writeln;writeln;end;
+       end;
+  end;
+procedure textcolordemo;
+  begin
+    { Does the 8 screens with backgrounds changed }
+    for i := <<0 to 7|10a:0>> do
+      begin
+        textbackground(i);
+        clrscr;
+        textcolor(white);
+        writeln(\x{2018}Screen Demonstration: Text Background = \x{2019},
+                  returntextconstant(i));
+        writeln;
+        writescreenpage(0);
+        readln;
+      end;
+    { does blinking screen demo}
+    textcolor(white);
+    textbackground(black);
+    clrscr;
+    writeln(\x{2018}Screen Demonstration: Blinking Text\x{2019});
+    writeln;
+    writescreenpage(128);
+    { start from <<128|9c:0>>; textattribute + 128 is blink }
+    readln;
+  end;
+procedure gotoxydemo;
+  begin
+    clrscr;
+    randomize;
+    textcolor(white);
+    writeln(\x{2018}Screen Positioning Demo: press a key when done\x{2019});
+    repeat
+      textcolor(random(15)+1);
+      gotoxy(random(79)+1, random(23)+2);
+      write(#254);
+      delay(500);
+      gotoxy(wherex-1, wherey);
+      textcolor(black);
+      write(#216);
+    until keypressed;
+    textbackground(black);
+  end;
+begin
+  textbackground(black);
+  writeln;
+  textcolordemo;
+  gotoxydemo;
+  clrscr;
+  textcolor(white);
+  clrscr;
+  writeln(\x{2018}Thanks for your time!\x{2019});
+end.",
           ],
           [
             1,
             '[ap 07:00] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (309-311.html) - 0 to 7',
             "program fig41; uses crt;
-
-    { Demonstration along with listing of equivalent constants }
-    type
-      string19 = string[19];
-    var
-      i: byte;
-
-    function returntextconstant(color: byte):string19;
-      var
-        rtrn: string19;
-      begin
-        rtrn := \x{2018}\x{2019};
-        if color >= 128 then
-          begin
-            rtrn := \x{2018}Blink+\x{2019};
-            dec(color, 128);
-          end;
-        case color of
-           0: rtrn := rtrn + \x{2018}Black        \x{2019};
-           1: rtrn := rtrn + \x{2018}Blue         \x{2019};
-           2: rtrn := rtrn + \x{2018}Green        \x{2019};
-           3: rtrn := rtrn + \x{2018}Cyan         \x{2019};
-           4: rtrn := rtrn + \x{2018}Red          \x{2019};
-           5: rtrn := rtrn + \x{2018}Magenta      \x{2019};
-           6: rtrn := rtrn + \x{2018}Brown        \x{2019};
-           7: rtrn := rtrn + \x{2018}LightGray    \x{2019};
-           8: rtrn := rtrn + \x{2018}DarkGray     \x{2019};
-           9: rtrn := rtrn + \x{2018}LightBlue    \x{2019};
-          10: rtrn := rtrn + \x{2018}LightGreen   \x{2019};
-          11: rtrn := rtrn + \x{2018}LightCyan    \x{2019};
-          12: rtrn := rtrn + \x{2018}LightRed     \x{2019};
-          13: rtrn := rtrn + \x{2018}LightMagenta \x{2019};
-          14: rtrn := rtrn + \x{2018}Yellow       \x{2019};
-          15: rtrn := rtrn + \x{2018}White        \x{2019};
-        end;
-        returntextconstant := rtrn;
-      end;
-
-    procedure writeblock(color:byte);
-      begin
-        write(#219:6,#219,#219,#219, \x{2018} - \x{2019});
-        write(returntextconstant(color));
-     end;
-
-    procedure writescreenpage(start: byte);
-      var
-        i: byte;
-      begin
-        for i := start to start+15 do
-          begin
-            textcolor(i);
-            writeblock(i);
-            if (i+1) mod 2 = 0 then
-              begin writeln;writeln;end;
-          end;
-     end;
-
-   procedure textcolordemo;
-     begin
-       { Does the 8 screens with backgrounds changed }
-       for i := <<0 to 7|10a:0>> do
-         begin
-           textbackground(i);
-           clrscr;
-           textcolor(white);
-           writeln(\x{2018}Screen Demonstration: Text Background = \x{2019},
-                     returntextconstant(i));
-           writeln;
-           writescreenpage(0);
-           readln;
-         end;
-       { does blinking screen demo}
-       textcolor(white);
-       textbackground(black);
-       clrscr;
-       writeln(\x{2018}Screen Demonstration: Blinking Text\x{2019});
-       writeln;
-       writescreenpage(128);
-       { start from <<128|9c:0>>; textattribute + 128 is blink }
-       readln;
-     end;
-
-   procedure gotoxydemo;
-     begin
-       clrscr;
-       randomize;
-       textcolor(white);
-       writeln(\x{2018}Screen Positioning Demo: press a key when done\x{2019});
-       repeat
-         textcolor(random(15)+1);
-         gotoxy(random(79)+1, random(23)+2);
-         write(#254);
-         delay(500);
-         gotoxy(wherex-1, wherey);
-         textcolor(black);
-         write(#216);
-       until keypressed;
-       textbackground(black);
-     end;
+ { Demonstration along with listing of equivalent constants }
+ type
+   string19 = string[19];
+ var
+   i: byte;
+ function returntextconstant(color: byte):string19;
+   var
+     rtrn: string19;
    begin
-     textbackground(black);
-     writeln;
-     textcolordemo;
-     gotoxydemo;
-     clrscr;
-     textcolor(white);
-     clrscr;
-     writeln(\x{2018}Thanks for your time!\x{2019});
-   end.
-
-
-5.2.11. DOS Command Capabilities
-This section demonstrates the procedures and functions used to perform varied DOS-related capabilities in Turbo Pascal in a process-oriented illustration. Note that this includes executing another program, taking parameters from the command line for a program, listing files on the drive, confirming a file\x{2019}s existence, and using Pascal equivalents to DOS-based functions that work on directories as well as files themselves. In addition, most, but not all, procedures and functions described here make use of the DOS unit. Assumed is a working knowledge of using the DOS operating system, but not an expert knowledge. Because of the somewhat limited scope of this document, not all procedures and functions are demonstrated.",
+     rtrn := \x{2018}\x{2019};
+     if color >= 128 then
+       begin
+         rtrn := \x{2018}Blink+\x{2019};
+         dec(color, 128);
+       end;
+     case color of
+        0: rtrn := rtrn + \x{2018}Black        \x{2019};
+        1: rtrn := rtrn + \x{2018}Blue         \x{2019};
+        2: rtrn := rtrn + \x{2018}Green        \x{2019};
+        3: rtrn := rtrn + \x{2018}Cyan         \x{2019};
+        4: rtrn := rtrn + \x{2018}Red          \x{2019};
+        5: rtrn := rtrn + \x{2018}Magenta      \x{2019};
+        6: rtrn := rtrn + \x{2018}Brown        \x{2019};
+        7: rtrn := rtrn + \x{2018}LightGray    \x{2019};
+        8: rtrn := rtrn + \x{2018}DarkGray     \x{2019};
+        9: rtrn := rtrn + \x{2018}LightBlue    \x{2019};
+       10: rtrn := rtrn + \x{2018}LightGreen   \x{2019};
+       11: rtrn := rtrn + \x{2018}LightCyan    \x{2019};
+       12: rtrn := rtrn + \x{2018}LightRed     \x{2019};
+       13: rtrn := rtrn + \x{2018}LightMagenta \x{2019};
+       14: rtrn := rtrn + \x{2018}Yellow       \x{2019};
+       15: rtrn := rtrn + \x{2018}White        \x{2019};
+     end;
+     returntextconstant := rtrn;
+   end;
+ procedure writeblock(color:byte);
+   begin
+     write(#219:6,#219,#219,#219, \x{2018} - \x{2019});
+     write(returntextconstant(color));
+  end;
+ procedure writescreenpage(start: byte);
+   var
+     i: byte;
+   begin
+     for i := start to start+15 do
+       begin
+         textcolor(i);
+         writeblock(i);
+         if (i+1) mod 2 = 0 then
+           begin writeln;writeln;end;
+       end;
+  end;
+procedure textcolordemo;
+  begin
+    { Does the 8 screens with backgrounds changed }
+    for i := <<0 to 7|10a:0>> do
+      begin
+        textbackground(i);
+        clrscr;
+        textcolor(white);
+        writeln(\x{2018}Screen Demonstration: Text Background = \x{2019},
+                  returntextconstant(i));
+        writeln;
+        writescreenpage(0);
+        readln;
+      end;
+    { does blinking screen demo}
+    textcolor(white);
+    textbackground(black);
+    clrscr;
+    writeln(\x{2018}Screen Demonstration: Blinking Text\x{2019});
+    writeln;
+    writescreenpage(128);
+    { start from <<128|9c:0>>; textattribute + 128 is blink }
+    readln;
+  end;
+procedure gotoxydemo;
+  begin
+    clrscr;
+    randomize;
+    textcolor(white);
+    writeln(\x{2018}Screen Positioning Demo: press a key when done\x{2019});
+    repeat
+      textcolor(random(15)+1);
+      gotoxy(random(79)+1, random(23)+2);
+      write(#254);
+      delay(500);
+      gotoxy(wherex-1, wherey);
+      textcolor(black);
+      write(#216);
+    until keypressed;
+    textbackground(black);
+  end;
+begin
+  textbackground(black);
+  writeln;
+  textcolordemo;
+  gotoxydemo;
+  clrscr;
+  textcolor(white);
+  clrscr;
+  writeln(\x{2018}Thanks for your time!\x{2019});
+end.",
           ],
           [
             1,
@@ -2015,25 +1755,22 @@ This section demonstrates the procedures and functions used to perform varied DO
             "All functions and procedures related to executing another program make use of the DOS unit.
 Listing <<5.42|5a:0>>. A demonstration of shelling to execute another program.
 {\$M 16382,0,4000}
-   program fig42; uses dos;
-     { Demonstration of executing another program }
-     var
-       command: string;
-     begin
-       write(\x{2018}Enter your DOS command line here: \x{2019});
-       readln(command);
-       command := \x{2018} /C \x{2019} + command; { requirement for COMMAND.COM }
-       swapvectors;
-       exec(getenv(\x{2018}COMSPEC\x{2019}), command);
-       swapvectors;
-       {an example of a command line, if it were DOS issued, would be
-       c:\\dos\\command.com /c chkdsk /f }
-       writeln;
-       writeln(\x{2018}End of program execution.\x{2019});
-     end.
-
-
-5.2.11.2. Confirming a File\x{2019}s Existence",
+program fig42; uses dos;
+ { Demonstration of executing another program }
+ var
+   command: string;
+ begin
+   write(\x{2018}Enter your DOS command line here: \x{2019});
+   readln(command);
+   command := \x{2018} /C \x{2019} + command; { requirement for COMMAND.COM }
+   swapvectors;
+   exec(getenv(\x{2018}COMSPEC\x{2019}), command);
+   swapvectors;
+   {an example of a command line, if it were DOS issued, would be
+   c:\\dos\\command.com /c chkdsk /f }
+   writeln;
+   writeln(\x{2018}End of program execution.\x{2019});
+ end.",
           ],
           [
             1,
@@ -2056,30 +1793,30 @@ Listing <<5.42|5a:0>>. A demonstration of shelling to execute another program.
             "In processing, if command-line parameters are expected, paramcount is called first, and then if paramcount is 0, then generally a call to halt() is issued, but not always. halt() terminates the program with a DOS error equivalent to the number in the parameter. Afterward, all valid paramstr() calls are returned into a string, and proper actions are taken depending on the parameters. An example of a proper way to handle command-line parameters is shown in Listing <<5.44|5a:0>>.
 Listing <<5.44|5a:0>>. A demonstration of command-line parameters.
 {\$M 16382,0,4000}
-   program fig44; uses dos;
-     { Demonstration of parameter strings. Note the DOS unit is *NOT*
-       required for the parameter systems. }
-     var
-       command: string;
-       i: byte;
+program fig44; uses dos;
+ { Demonstration of parameter strings. Note the DOS unit is *NOT*
+   required for the parameter systems. }
+ var
+   command: string;
+   i: byte;
+ begin
+   if paramcount <> 0 then
      begin
-       if paramcount <> 0 then
-         begin
-           command := \x{2018} /C \x{2019};
-           for i := 1 to paramcount do
-             command := command + paramstr(i);
-           swapvectors;
-           exec(getenv(\x{2018}COMSPEC\x{2019}), command);
-           swapvectors;
-           writeln;
-           writeln(\x{2018}End of program execution.\x{2019});
-         end
-       else
-         begin
-           writeln(\x{2018}Incorrect # of parameters specified.\x{2019});
-           halt(10);
-         end;
-     end.",
+       command := \x{2018} /C \x{2019};
+       for i := 1 to paramcount do
+         command := command + paramstr(i);
+       swapvectors;
+       exec(getenv(\x{2018}COMSPEC\x{2019}), command);
+       swapvectors;
+       writeln;
+       writeln(\x{2018}End of program execution.\x{2019});
+     end
+   else
+     begin
+       writeln(\x{2018}Incorrect # of parameters specified.\x{2019});
+       halt(10);
+     end;
+ end.",
           ],
           [
             1,
@@ -2089,39 +1826,34 @@ Listing <<5.44|5a:0>>. A demonstration of command-line parameters.
           [
             1,
             '[ap 05:45] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (314-317.html) - 5.45',
-            'ReadOnly := $01
-  Hidden := $02
-  SysFile := $04
-  VolumeID := $08
-  Directory := $10
-  Archive := $20
-  AnyFile := $3F
-
-
-Listing <<5.45|5a:0>>. A demonstration of findfirst and findnext.',
+            "ReadOnly := \$01
+Hidden := \$02
+SysFile := \$04
+VolumeID := \$08
+Directory := \$10
+Archive := \$20
+AnyFile := \$3F
+Listing <<5.45|5a:0>>. A demonstration of findfirst and findnext.
+program fig45; uses dos;
+ var
+   fileinfo: searchrec;
+ begin
+   findfirst(\x{2018}*.*\x{2019},AnyFile, fileinfo);
+   while doserror = 0 do { doserror = 18 = no more files to list }
+     begin
+       write(fileinfo.name);
+       if (fileinfo.attr and Directory) = Directory then
+         writeln(\x{2018}[DIR]\x{2019}:18)
+       else
+         writeln(fileinfo.size:18);
+       findnext(fileinfo);
+     end;
+end.",
           ],
           [
             1,
             '[ap 06:22] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (314-317.html) - 6.22',
-            'function Diskfree(diskno: byte): longint; { works as intended, ineffective for drives }
-function Disksize(diskno: byte): longint; { > 1 GB }
-var dosversion: word; { if DOS <<6.22|5a:1>>, Hi(dosversion) = 22, Lo(dosversion) = 6 }
-var EnvCount: integer; { total number of environment variables }
-function EnvStr(index: integer):string; { returns the env. string designated as index }
-function FSearch(filename:PathStr; dirlist: string):pathstr; { searches for filename in path given by dirlist }
-procedure FSplit(Path: PathStr; dir: dirstr; name: namestr; ext: extstr); { splits a filename up into a directory, name, and extension }
-procedure Getdate(year, month, day, dayofweek: word); { Returns current date as set in the operating system }
-function Getenv(stringname: string):string; { returns environment variable specified by name }
-procedure GetFattr(file: <filevar>; attr: word); { obtains the attributes of a file in F }
-procedure GetFtime(file: <filevar>; time: longint); { obtain packed date and time of file }
-procedure GetTime(Hour, Minute, Second, Sec100: word); { gets current time in OS }
-procedure PackTime(dnt: datetime; time: longint); { packs datetime record into time longint }
-procedure SetDate(year, month, day: word); { sets date in OS }
-procedure SetFTime(file: <filevar>; time: longint); { sets file to time specified }
-procedure SetTime(hour, minute, second, sec100: word); { sets time in OS }
-procedure UnPackTime(time: longint; dnt: datetime); { unpacks longint time to datetime record }
-
-Procedures that need further explanation than what can be obtained from the preceding list are further described. For any spots at which a file variable occurs, the file must be assigned but unopened. The longint time variable is a packed longint. To be read or set, it must be unpacked and packed. The datetime record is predefined for that purpose. It is as described here:',
+            'var dosversion: word; { if DOS <<6.22|5a:0>>, Hi(dosversion) = 22, Lo(dosversion) = 6 }',
           ],
           [
             1,
@@ -2139,84 +1871,96 @@ Procedures that need further explanation than what can be obtained from the prec
             'Listing <<5.46|5a:0>> and Listing <<5.47|5a:0>> show an example of assembling an overlaid application. Generally, because the size of an application that should be overlaid is large, this example is a ludicrous one, yet good to show such a situation. Also, complete error-checking statements have been left out but may be found in the manuals or online help.
 Listing <<5.46|5a:0>>. A sample unit for an overlaid application.
 {$O+}
-  unit fig46; { note, the identifier must match the name of the file }
-
-    interface
-      function power(x:real; y: integer):real;
-    implementation
-      function power(x:real; y: integer):real; { exactly as above }
-        var
-          i: integer;
-          result: real;
-        begin
-          result := 1;
-          for i := 1 to y do
-            result := result * x;
-          power := result;
-        end;
-
-   end.
-
-
-Listing <<5.47|5a:0>>. A sample base program for an overlaid application.',
+unit fig46; { note, the identifier must match the name of the file }
+ interface
+   function power(x:real; y: integer):real;
+ implementation
+   function power(x:real; y: integer):real; { exactly as above }
+     var
+       i: integer;
+       result: real;
+     begin
+       result := 1;
+       for i := 1 to y do
+         result := result * x;
+       power := result;
+     end;
+end.',
           ],
           [
             1,
             '[ap 05:47] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (317-320.html) - 5.47',
-            '{$O+}
-  unit fig46; { note, the identifier must match the name of the file }
-
-    interface
-      function power(x:real; y: integer):real;
-    implementation
-      function power(x:real; y: integer):real; { exactly as above }
-        var
-          i: integer;
-          result: real;
-        begin
-          result := 1;
-          for i := 1 to y do
-            result := result * x;
-          power := result;
-        end;
-
-   end.
-
-
-Listing <<5.47|5a:0>>. A sample base program for an overlaid application.',
+            "{\$O+}
+unit fig46; { note, the identifier must match the name of the file }
+ interface
+   function power(x:real; y: integer):real;
+ implementation
+   function power(x:real; y: integer):real; { exactly as above }
+     var
+       i: integer;
+       result: real;
+     begin
+       result := 1;
+       for i := 1 to y do
+         result := result * x;
+       power := result;
+     end;
+end.
+Listing <<5.47|5a:0>>. A sample base program for an overlaid application.
+program fig47; uses fig46, overlay;
+{if more than 1 unit put commas between each id}
+ var
+   i: byte;
+ {\$O FIG46.TPU } { list units to be overlaid }
+ begin
+   OvrInit(\x{2018}FIG47.OVR\x{2019});
+   if OvrResult <> 0 then
+     begin
+       { note specific reasons can be stated }
+       writeln(\x{2018}Error loading overlay!\x{2019});
+       halt(100);
+     end
+   else
+     begin
+       OvrInitEMS; { if overlay loadable, then try to load in EMS }
+       if OvrResult <> 0 then
+         writeln(#254, \x{2018} Not loaded in EMS for some reason.\x{2019})
+       else
+         writeln(#254, \x{2018} Overlay loaded in EMS\x{2019});
+     end;
+   writeln;
+   for i := <<1 to 10|10a:0>> do
+     writeln(i, \x{2018} squared is \x{2019}, power(i,2):0:2);
+ end.",
           ],
           [
             1,
             '[ap 09:59] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (317-320.html) - 1 to 10',
             "program fig47; uses fig46, overlay;
-  {if more than 1 unit put commas between each id}
-    var
-      i: byte;
-    {\$O FIG46.TPU } { list units to be overlaid }
-    begin
-      OvrInit(\x{2018}FIG47.OVR\x{2019});
-      if OvrResult <> 0 then
-        begin
-          { note specific reasons can be stated }
-          writeln(\x{2018}Error loading overlay!\x{2019});
-          halt(100);
-        end
-      else
-        begin
-          OvrInitEMS; { if overlay loadable, then try to load in EMS }
-          if OvrResult <> 0 then
-            writeln(#254, \x{2018} Not loaded in EMS for some reason.\x{2019})
-          else
-            writeln(#254, \x{2018} Overlay loaded in EMS\x{2019});
-        end;
-      writeln;
-
-      for i := <<1 to 10|10a:0>> do
-        writeln(i, \x{2018} squared is \x{2019}, power(i,2):0:2);
-    end.
-
-
-Additionally, an overlay can be appended to the executable by use of the copy /B dos command. Then the executable name must be specified in the OvrInit procedure.",
+{if more than 1 unit put commas between each id}
+ var
+   i: byte;
+ {\$O FIG46.TPU } { list units to be overlaid }
+ begin
+   OvrInit(\x{2018}FIG47.OVR\x{2019});
+   if OvrResult <> 0 then
+     begin
+       { note specific reasons can be stated }
+       writeln(\x{2018}Error loading overlay!\x{2019});
+       halt(100);
+     end
+   else
+     begin
+       OvrInitEMS; { if overlay loadable, then try to load in EMS }
+       if OvrResult <> 0 then
+         writeln(#254, \x{2018} Not loaded in EMS for some reason.\x{2019})
+       else
+         writeln(#254, \x{2018} Overlay loaded in EMS\x{2019});
+     end;
+   writeln;
+   for i := <<1 to 10|10a:0>> do
+     writeln(i, \x{2018} squared is \x{2019}, power(i,2):0:2);
+ end.",
           ],
           [
             1,
@@ -2229,29 +1973,22 @@ Additionally, an overlay can be appended to the executable by use of the copy /B
             "OBJ files, which contain procedures or functions, may be used in Turbo Pascal. They should be compiled in the standard Pascal style (far, pascal). The \$L variable is used to link in the OBJ file, and then the procedure or function must be restated as an external function, with types matching that in the object. Nothing may be used that is not compiled in the far pascal mode (see Listing <<5.48|5a:0>>).
 Listing <<5.48|5a:0>>. Linking in an object file.
 {source for OBJ file must appear this way,
-   no things linked in not compiled far, pascal }
-  int far pascal writeaverage(int a, int b, int c)
-    {
-      int temp;
-      temp = a + b + c;
-      return(temp / 3);
-    }
-
-  Linked in program:
-
-  program fig48;
-
-  {\$F+}
-  {\$L FIG48.OBJ}
-  function writeaverage(a,b,c: integer):integer;external;
-
-  begin
-    write(\x{2018}The average of 1,3, and 2 (rounded to nearest whole 1umber) \x{2019});
-    writeln(\x{2018}is \x{2019}, writeaverage(1,3,2));
-  end.
-
-
-5.2.12.3. Assembler and Inline Statements",
+no things linked in not compiled far, pascal }
+int far pascal writeaverage(int a, int b, int c)
+ {
+   int temp;
+   temp = a + b + c;
+   return(temp / 3);
+ }
+Linked in program:
+program fig48;
+{\$F+}
+{\$L FIG48.OBJ}
+function writeaverage(a,b,c: integer):integer;external;
+begin
+ write(\x{2018}The average of 1,3, and 2 (rounded to nearest whole 1umber) \x{2019});
+ writeln(\x{2018}is \x{2019}, writeaverage(1,3,2));
+end.",
           ],
           [
             1,
@@ -2264,31 +2001,26 @@ Listing <<5.48|5a:0>>. Linking in an object file.
             "The example shown in Listing <<5.49|5a:0>> is a little program that returns the cluster size of the current drive.
 Listing <<5.49|5a:0>>. An example of an interrupt call.
 program fig49; uses dos;
-
-  function getclustersize(drive: byte): Word;
-    var
-      register: registers;
-    begin
-      register.ax := \$3600;
-      register.cx := 0;
-      register.dx := drive;
-      Intr(\$21, register);
-      getclustersize := register.ax * register.cx;
-    end;
-
-  begin
-    writeln(\x{2018}Cluster size of current drive is: \x{2019}, getclustersize(0));
-  end.",
+function getclustersize(drive: byte): Word;
+ var
+   register: registers;
+ begin
+   register.ax := \$3600;
+   register.cx := 0;
+   register.dx := drive;
+   Intr(\$21, register);
+   getclustersize := register.ax * register.cx;
+ end;
+begin
+ writeln(\x{2018}Cluster size of current drive is: \x{2019}, getclustersize(0));
+end.",
           ],
           [
             1,
             '[ap 02:59] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (340-343.html) - 1 to 3',
             'This can be useful for producing sequences, as in
 |(<<1 to 3|10a:0>>)
-
-
-which generates 1, 2, 3, 1, 2, 3,  and so on.
-',
+which generates 1, 2, 3, 1, 2, 3,  and so on.',
           ],
           [
             1,
@@ -2308,22 +2040,17 @@ which generates 1, 2, 3, 1, 2, 3,  and so on.
           [
             1,
             '[ap 03:00] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (362-364.html) - 0 to 3',
-            '(<<0 to 3|10a:0>>) || (<<0 to 7|10a:0>>) || (<<0 to 7|10a:0>>)
-
-
+            'As another example, consider producing a file in which the octal, decimal, and hexadecimal numbers for the 256 characters are given in columns. The expression
+(<<0 to 3|10a:0>>) || (<<0 to 7|10a:0>>) || (<<0 to 7|10a:0>>)
 generates the octal numbers 0 through 377 in order. The expression',
           ],
           [
             1,
             '[ap 03:00] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (362-364.html) - 0 to 3',
             "octal := create (<<0 to 3|10a:0>>) || (<<0 to 7|10a:0>>) || (<<0 to 7|10a:0>>)
-    decimal := create 0 to 255
-    hexadecimal := !\x{201d}0123456789abcdef\x{201d} || !\x{201d}0123456789abcdef\x{201d}
-
-    while write(\@octal, \x{201c} \x{201c}, \@decimal, \x{201c} \x{201c}, \@hexadecimal)
-
-
-Expressions in co-expressions can be procedure calls. For example,",
+decimal := create 0 to 255
+hexadecimal := !\x{201d}0123456789abcdef\x{201d} || !\x{201d}0123456789abcdef\x{201d}
+while write(\@octal, \x{201c} \x{201c}, \@decimal, \x{201c} \x{201c}, \@hexadecimal)",
           ],
           [
             1,
@@ -2334,143 +2061,110 @@ Expressions in co-expressions can be procedure calls. For example,",
             1,
             '[ap 02:59] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (382-386.html) - 1 to 3',
             "1.\x{a0}\x{a0}(<<1 to 3|10a:0>>) | (<<3 to 1|10a:0>> by \x{2013}1)
-
-Solution: 1, 2, 3, 3, 2, 1. The sequence for alternation consists of the sequence for its first operand followed by the sequence for its second operand.
-2.\x{a0}\x{a0}(1 | 2) to 3
-
-Solution: 1, 2, 3, 2, 3. The expression (1 | 2) to 3 is equivalent to (<<1 to 3|10a:0>>) | (<<2 to 3|10a:0>>).
-3.\x{a0}\x{a0}1 to (2 | 3)
-
+Solution: 1, 2, 3, 3, 2, 1. The sequence for alternation consists of the sequence for its first operand followed by the sequence for its second operand.",
+          ],
+          [
+            1,
+            '[ap 02:59] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (382-386.html) - 1 to 3',
+            "2.\x{a0}\x{a0}(1 | 2) to 3
+Solution: 1, 2, 3, 2, 3. The expression (1 | 2) to 3 is equivalent to (<<1 to 3|10a:0>>) | (<<2 to 3|10a:0>>).",
+          ],
+          [
+            1,
+            '[ap 01:59] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (382-386.html) - 1 to 2',
+            "3.\x{a0}\x{a0}1 to (2 | 3)
+Solution: 1, 2, 1, 2, 3. The expression 1 to (2 | 3) is equivalent to (<<1 to 2|10a:0>>) | (<<1 to 3|10a:0>>).",
+          ],
+          [
+            1,
+            '[ap 01:59] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (382-386.html) - 1 to 2',
+            "3.\x{a0}\x{a0}1 to (2 | 3)
 Solution: 1, 2, 1, 2, 3. The expression 1 to (2 | 3) is equivalent to (<<1 to 2|10a:0>>) | (<<1 to 3|10a:0>>).
 4.\x{a0}\x{a0}(<<1 to 3|10a:0>>) | (<<3 to 1|10a:0>> by \x{2013}2)
-
 Solution: 1, 2, 3, 3, 1.
 5.\x{a0}\x{a0}3 to (1 | 2)
-
-Solution: Nothing. If the first operand of to-by is greater than the second and the increment is positive (1 by default here), no value is produced.
-6.\x{a0}\x{a0}1 & 2
-
-Solution: 2. Conjunction generates the sequence for its second operand, which is just 2 in this case.
-7.\x{a0}\x{a0}(<<1 to 3|10a:0>>) & 2
-
-Solution: 2, 2, 2. In the expression, (<<1 to 3|10a:0>>) & 2, (<<1 to 3|10a:0>>) generates three results; for each one the conjunction is evaluated, producing its second operand, 2. This expression is equivalent to (1 & 2) | (2 & 2) | (3 & 2).
-8.\x{a0}\x{a0}(1 | 2) & 2
-
-Solution: 2, 2.
-9.\x{a0}\x{a0}1 & (<<1 to 3|10a:0>>)
-
-Solution: 1, 2, 3. See the comment in the solution to problem 6.
-10.\x{a0}\x{a0}(<<3 to 5|10a:0>>) & (<<1 to 3|10a:0>>)
-
-Solution: 1, 2, 3, 1, 2, 3, 1, 2, 3. Because the first operand of the conjunction, (<<3 to 5|10a:0>>), produces three results, and the second argument, (<<1 to 3|10a:0>>), is evaluated three times. The values produced by the first operand of conjunction are irrelevant.
-11.\x{a0}\x{a0}|(<<1 to 3|10a:0>>)
-
-Solution: 1, 2, 3, 1, 2, 3, 1, 2, 3, \x{2026}. Repeated alternation produces the sequence for its operand repeatedly. In this case, it is equivalent to (<<1 to 3|10a:0>>) | (<<1 to 3|10a:0>>) | (<<1 to 3|10a:0>>)\x{2026}. Although the sequence is infinite, the number of results actually produced depends on the context in which it is evaluated.
-12.\x{a0}\x{a0}|((<<1 to 3|10a:0>>) | (<<3 to 1|10a:0>> by \x{2013}1))
-
-Solution: 1, 2, 3, 3, 2, 1, 1, 2, 3, 3, 2, 1, 1, 2, 3, 3, 2, 1, \x{2026}. See the comments on the solution to problem 1.
-13.\x{a0}\x{a0}|3
-
-Solution: 3, 3, 3, \x{2026}.
-14.\x{a0}\x{a0}|((1 to 10 by 2) \\ 3)
-
-Solution: 1, 3, 5, 1, 3, 5, 1, 3, 5, 1, 3, 5, 1, 3, 5, 1, 3, 5, 1, 3, \x{2026}. The expression (1 to 10 by 2) generates 1, 3, 5, 7, 9, but the limitation to three values truncates this to 1, 3, 5.
-15.\x{a0}\x{a0}|(3 to (1 | 2))
-
-Solution: Nothing. Because the expression (3 to (1 | 2)) produces no value as mentioned in the solution to problem 5, repeated alternation produces no value.
-16.\x{a0}\x{a0}|(1 & 2)
-
-Solution: 2, 2, 2, \x{2026}. See the solution to problem 6.
-17.\x{a0}\x{a0}|(1 \\ 2)
-
-Solution: 1, 1, 1, \x{2026}. Limiting the expression <<1 to two|10a:0>> values has no effect because 1 produces only one value.
-18.\x{a0}\x{a0}|((<<3 to 5|10a:0>>) & (1 | 2))
-
-Solution: 1, 2, 1, 2, 1, 2, 1, 2, 1, 2, 1, 2, 1, 2, 1, 2, 1, 2, 1, 2, \x{2026}. See the solution to problem 10.
-19.\x{a0}\x{a0}(|((<<1 to 3|10a:0>>) & (1 | 2))) \\ 5
-
-Solution: 1, 2, 1, 2, 1. The operand of repeated alternation produces 1, 2, 1, 2, 1, 2, and repeated alternation would produce this repeatedly except for the limitation to five values, which occurs before any repetition.
-20.\x{a0}\x{a0}!&lcase
-
-Solution: \x{201c}a\x{201d}, \x{201c}b\x{201d}, \x{201c}c\x{201d}, \x{2026}, \x{201c}x\x{201d}, \x{201c}y\x{201d}, \x{201c}z\x{201d}. Because &lcase is a cset and the element generation operation applies only to strings, &lcase is converted automatically to a string of the 26 lowercase letters. Note that the values are strings, not csets.
-21.\x{a0}\x{a0}|!&lcase
-
-Solution: \x{201c}a\x{201d}, \x{201c}b\x{201d}, \x{201c}c\x{201d}, \x{2026}, \x{201c}x\x{201d}, \x{201c}y\x{201d}, \x{201c}z\x{201d}, \x{201c}a\x{201d}, \x{201c}b\x{201d}, \x{201c}c\x{201d}, \x{2026}, \x{201c}x\x{201d}, \x{201c}y\x{201d}, \x{201c}z\x{201d}, \x{201c}a\x{201d}, \x{201c}b\x{201d}, \x{201c}c\x{201d}, \x{2026}, \x{201c}x\x{201d}, \x{201c}y\x{201d}, \x{201c}z\x{201d}\x{2026}.
-22.\x{a0}\x{a0}!reverse(&lcase)
-
-Solution: \x{201c}z\x{201d}, \x{201c}y\x{201d}, \x{201c}x\x{201d}, \x{2026}, \x{201c}c\x{201d}, \x{201c}b\x{201d}, \x{201c}a\x{201d}.
-23.\x{a0}\x{a0}reverse(!&lcase)
-
-Solution: \x{201c}a\x{201d}, \x{201c}b\x{201d}, \x{201c}c\x{201d}, \x{2026}, \x{201c}x\x{201d}, \x{201c}y\x{201d}, \x{201c}z\x{201d}, \x{201c}a\x{201d}, \x{201c}b\x{201d}, \x{201c}c\x{201d}, \x{2026}, \x{201c}x\x{201d}, \x{201c}y\x{201d}, \x{201c}z\x{201d}, \x{201c}a\x{201d}, \x{201c}b\x{201d}, \x{201c}c\x{201d}, \x{2026}, \x{201c}x\x{201d}, \x{201c}y\x{201d}, \x{201c}z\x{201d}\x{2026}. The function reverse() is applied to the sequence for !&lcase as given in the solution to problem 20. Reversing a one-character string has no effect.
-24.\x{a0}\x{a0}|?\x{201d}HT\x{201d}
-
-Solution: \x{201c}H\x{201d}, \x{201c}H\x{201d}, \x{201c}H\x{201d}, \x{201c}T\x{201d}, \x{201c}H\x{201d}, \x{201c}H\x{201d}, \x{2026}. The sequence for ?\x{201d}HT\x{201d} is produced repeatedly. The values are \x{201c}H\x{201d} and \x{201c}T\x{201d} with approximately equal probability. The actual sequence produced varies from evaluation to evaluation as the pseudo-random sequence advances.
-25.\x{a0}\x{a0}?|\x{201d}HT\x{201d}
-
-Solution: \x{201c}T\x{201d}, \x{201c}T\x{201d}, \x{201c}H\x{201d}, \x{201c}T\x{201d}, \x{201c}H\x{201d}, \x{201c}T\x{201d}, \x{2026}. The expressions |?\x{201d}HT\x{201d} and ?|\x{201d}HT\x{201d} are essentially the same. The first corresponds to ?\x{201d}HT\x{201d} | ?\x{201d}HT\x{201d} | ?\x{201d}HT\x{201d} |  \x{2026},  and the second corresponds to ?(\x{201c}HT | \x{201c}HT\x{201d} | \x{201c}HT\x{201d} \x{2026} ).
-26.\x{a0}\x{a0}!100
-
-Solution: \x{201c}1\x{201d}, \x{201c}0\x{201d}, \x{201c}0\x{201d}. This one is subtle. As mentioned in the solution to problem 20, the element generation operation applies only to strings and structures. The integer argument 100 therefore is converted automatically to the string \x{201c}100\x{201d}.
-27.\x{a0}\x{a0}!(<<1 to 3|10a:0>>)
-
-Solution: \x{201c}1\x{201d}, \x{201c}2\x{201d}, \x{201c}3\x{201d}. The expression (<<1 to 3|10a:0>>) produces the integers 1, 2, and 3. Each is converted to a string as described in the solution to the preceding problem. Element generation applied to a one-character string just produces the string.
-28.\x{a0}\x{a0}(1 to !3)
-
-Solution: 1, 2, 3. The expression !3 produces \x{201c}3\x{201d}, which is converted to an integer automatically.
-29.\x{a0}\x{a0}(1 to |3)
-
-Solution: 1, 2, 3, 1, 2, 3, 1, 2, 3, \x{2026}. The expression |3 produces 3, 3, 3, \x{2026}, so the repeated alternation is equivalent to (<<1 to 3|10a:0>>) | (<<1 to 3|10a:0>>) | (<<1 to 3|10a:0>>)\x{2026}. Note that (1 to |3) is equivalent to |(<<1 to 3|10a:0>>).
-30.\x{a0}\x{a0}!12 to 3
-
+Solution: Nothing. If the first operand of to-by is greater than the second and the increment is positive (1 by default here), no value is produced.",
+          ],
+          [
+            1,
+            '[ap 02:59] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (382-386.html) - 1 to 3',
+            "7.\x{a0}\x{a0}(<<1 to 3|10a:0>>) & 2
+Solution: 2, 2, 2. In the expression, (<<1 to 3|10a:0>>) & 2, (<<1 to 3|10a:0>>) generates three results; for each one the conjunction is evaluated, producing its second operand, 2. This expression is equivalent to (1 & 2) | (2 & 2) | (3 & 2).",
+          ],
+          [
+            1,
+            '[ap 02:59] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (382-386.html) - 1 to 3',
+            "9.\x{a0}\x{a0}1 & (<<1 to 3|10a:0>>)
+Solution: 1, 2, 3. See the comment in the solution to problem 6.",
+          ],
+          [
+            1,
+            '[ap 04:57] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (382-386.html) - 3 to 5',
+            "10.\x{a0}\x{a0}(<<3 to 5|10a:0>>) & (<<1 to 3|10a:0>>)
+Solution: 1, 2, 3, 1, 2, 3, 1, 2, 3. Because the first operand of the conjunction, (<<3 to 5|10a:0>>), produces three results, and the second argument, (<<1 to 3|10a:0>>), is evaluated three times. The values produced by the first operand of conjunction are irrelevant.",
+          ],
+          [
+            1,
+            '[ap 02:59] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (382-386.html) - 1 to 3',
+            "11.\x{a0}\x{a0}|(<<1 to 3|10a:0>>)
+Solution: 1, 2, 3, 1, 2, 3, 1, 2, 3, \x{2026}. Repeated alternation produces the sequence for its operand repeatedly. In this case, it is equivalent to (<<1 to 3|10a:0>>) | (<<1 to 3|10a:0>>) | (<<1 to 3|10a:0>>)\x{2026}. Although the sequence is infinite, the number of results actually produced depends on the context in which it is evaluated.",
+          ],
+          [
+            1,
+            '[ap 02:59] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (382-386.html) - 1 to 3',
+            "12.\x{a0}\x{a0}|((<<1 to 3|10a:0>>) | (<<3 to 1|10a:0>> by \x{2013}1))
+Solution: 1, 2, 3, 3, 2, 1, 1, 2, 3, 3, 2, 1, 1, 2, 3, 3, 2, 1, \x{2026}. See the comments on the solution to problem 1.",
+          ],
+          [
+            1,
+            '[ap 01:59] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (382-386.html) - 1 to two',
+            "17.\x{a0}\x{a0}|(1 \\ 2)
+Solution: 1, 1, 1, \x{2026}. Limiting the expression <<1 to two|10a:0>> values has no effect because 1 produces only one value.",
+          ],
+          [
+            1,
+            '[ap 04:57] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (382-386.html) - 3 to 5',
+            "18.\x{a0}\x{a0}|((<<3 to 5|10a:0>>) & (1 | 2))
+Solution: 1, 2, 1, 2, 1, 2, 1, 2, 1, 2, 1, 2, 1, 2, 1, 2, 1, 2, 1, 2, \x{2026}. See the solution to problem 10.",
+          ],
+          [
+            1,
+            '[ap 02:59] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (382-386.html) - 1 to 3',
+            "19.\x{a0}\x{a0}(|((<<1 to 3|10a:0>>) & (1 | 2))) \\ 5
+Solution: 1, 2, 1, 2, 1. The operand of repeated alternation produces 1, 2, 1, 2, 1, 2, and repeated alternation would produce this repeatedly except for the limitation to five values, which occurs before any repetition.",
+          ],
+          [
+            1,
+            '[ap 02:59] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (382-386.html) - 1 to 3',
+            "27.\x{a0}\x{a0}!(<<1 to 3|10a:0>>)
+Solution: \x{201c}1\x{201d}, \x{201c}2\x{201d}, \x{201c}3\x{201d}. The expression (<<1 to 3|10a:0>>) produces the integers 1, 2, and 3. Each is converted to a string as described in the solution to the preceding problem. Element generation applied to a one-character string just produces the string.",
+          ],
+          [
+            1,
+            '[ap 02:59] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (382-386.html) - 1 to 3',
+            "29.\x{a0}\x{a0}(1 to |3)
+Solution: 1, 2, 3, 1, 2, 3, 1, 2, 3, \x{2026}. The expression |3 produces 3, 3, 3, \x{2026}, so the repeated alternation is equivalent to (<<1 to 3|10a:0>>) | (<<1 to 3|10a:0>>) | (<<1 to 3|10a:0>>)\x{2026}. Note that (1 to |3) is equivalent to |(<<1 to 3|10a:0>>).",
+          ],
+          [
+            1,
+            '[ap 02:59] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (382-386.html) - 1 to 3',
+            "30.\x{a0}\x{a0}!12 to 3
 Solution: 1, 2, 3, 2, 3. The expression !12 has the sequence \x{201c}1\x{201d}, \x{201c}2\x{201d}. Therefore !12 to 3 is equivalent to (\x{201c}1\x{201d} | \x{201c}2\x{201d}) to 3, which is equivalent to ((1 | 2) to 3), which is equivalent to (<<1 to 3|10a:0>>) | (<<2 to 3|10a:0>>).",
           ],
           [
             1,
             '[00:00] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (386-389.html) - midnight',
-            "The sequence for the triangular numbers can be produced simply by using the formula i(i + 1)/2, incrementing i at each step as in previous expressions. There is an easier approach, however, and one that\x{2019}s recommended for unknown sequences: Take the first difference of successive terms and see if it suggests something. In the case here, the first difference yields 2, 3, 4, 5, 6, \x{2026}. In other words, if t(i) is the ith triangular number, then
-
-    t(i) = t(i \x{2013} 1) + i
-
-
-
-From this, a sequence to generate the triangular numbers is just
-
-    (i := 1) | (i +:= seq(2))
-
-
-36.\x{a0}\x{a0}An infinite sequence consisting of the prime numbers: 2, 3, 5, 7, 11, 13, \x{2026}.
-
-Solution: Although there is no known method for computing primes efficiently in sequence, a brute-force method is simple: Just generate all the integers and filter out those that are not prime. The trivial observation that 2 is the only even prime leads to the following expression:
-
-    2 | ((i := seq(3, 2)) & (not(i = (2 to i) * (2 to i))) & i)
-
-
-
-The second operand of the conjunction, not(i = (2 to i) * (2 to i)), fails if i cannot be represented as the product of two integers. Otherwise, the result of the expression is just i, the third operand of the conjunction. It is, of course, not necessary to check all the way to i * i. A much better test is
-
-    not(i = (k := (3 to sqrt(i) by 2)) * (i / k))
-
-
-37.\x{a0}\x{a0}An infinite sequence consisting of n copies of each positive integer n: 1, 2, 2, 3, 3, 3, 4, 4, 4, 4, \x{2026}.
-
-Solution: This one is entirely different from the preceding exercises. This solution uses limitation in combination with repeated alternation:
-
-    i := seq() & (|i \\ i)
-
-
-38.\x{a0}\x{a0}A sequence consisting of strings representing the times in minutes in the 24-hour day, starting at <<midnight|9g>> and ending at the minute <<before midnight|13>>: \x{201c}<<00:00|2>>\x{201d}, \x{201c}<<00:01|2>>\x{201d}, \x{2026} \x{201c}<<00:59|2>>\x{201d}, \x{201c}<<01:00|2>>\x{201d}, \x{2026} \x{201c}<<23:59|2>>\x{201d}.
-
+            "38.\x{a0}\x{a0}A sequence consisting of strings representing the times in minutes in the 24-hour day, starting at <<midnight|9g>> and ending at the minute <<before midnight|13>>: \x{201c}<<00:00|2>>\x{201d}, \x{201c}<<00:01|2>>\x{201d}, \x{2026} \x{201c}<<00:59|2>>\x{201d}, \x{201c}<<01:00|2>>\x{201d}, \x{2026} \x{201c}<<23:59|2>>\x{201d}.
 Solution: The solution to this problem has two components: a generator for the hours and a generator for the minutes. <<0 to 23|10a:1>> generates the hours, and 0 to 59 generates the minutes, but the values need to be padded with zeros:
-
     right(<<0 to 23|10a:1>>, 2, \x{201c}0\x{201d})
-    right(0 to 59, 2, \x{201c}0\x{201d})
-
-
-
-All that remains is a concatenation with colons added as separators:
-
-    right(<<0 to 23|10a:1>>, 2, \x{201c}0\x{201d}) || \x{201c}:\x{201d} ||
-       right(0 to 59, 2, \x{201c}0\x{201d})",
+    right(0 to 59, 2, \x{201c}0\x{201d})",
+          ],
+          [
+            1,
+            '[23:00] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (386-389.html) - 0 to 23',
+            "All that remains is a concatenation with colons added as separators:
+   right(<<0 to 23|10a:0>>, 2, \x{201c}0\x{201d}) || \x{201c}:\x{201d} ||
+      right(0 to 59, 2, \x{201c}0\x{201d})",
           ],
           [
             1,
@@ -2485,1806 +2179,135 @@ All that remains is a concatenation with colons added as separators:
           [
             1,
             '[20:00] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (about_split_001.html) - 1960',
-            'Just over 40 years ago there were no programming languages. In 1954 programming was still a function of hardware. Fortran was invented in 1957. It was soon being taught. By <<1960|9e:1>>, not only had COBOL and Lisp joined the roster, but so had others, many now thankfully forgotten. Over the past 40 years, nearly 4,000 computer languages have been produced. Only a tithe of these are in use today, but the growth and development of them has been progressive and organic.',
+            'Just over 40 years ago there were no programming languages. In 1954 programming was still a function of hardware. Fortran was invented in 1957. It was soon being taught. By <<1960|9:0>>, not only had COBOL and Lisp joined the roster, but so had others, many now thankfully forgotten. Over the past 40 years, nearly 4,000 computer languages have been produced. Only a tithe of these are in use today, but the growth and development of them has been progressive and organic.',
           ],
           [
             1,
             '[13:14] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (book-index_split_001.html) - 13-14',
-            'C (language)
-
-Algol 68 influence, 72
-ancestors of, 64-67
-arrays, 70-71, 80-81
-
-accessing via pointers, 151
-declaring, 97-98
-initializing, 102
-integration with pointers, 154-158
-nested, 98
-operation constraints, 98
-references, 141
-versus pointers, 155
-versus structures, 169
-
-associated technology development, 74
-characters, 91
-
-classification, 205
-converting to/from uppercase/lowercase, 205
-escape sequences, 94
-null, 95
-
-command-line arguments, 181
-compilers, 74
-constants, 93-95
-contributors to the development of, 82
-criticisms of, 78-81
-data types, 71, 90-93
-
-casts, 123
-conversions in expressions, 121-123
-declaring, 103-104
-qualifiers, 101-102
-
-declarations, 71, 79
-development of, 70-73, 87
-early development of, 62-63
-enumerations, 172-173
-environment development, 74
-expressions, 71, 79, 104
-
-constant expressions, 124
-primary expressions, 105-106
-short-circuiting, 111
-
-extensions, 77
-file inclusion, 73
-flow control, 129-135
-functionality of, 82
-functions, 136
-
-abort, 211
-abs, 211
-absolute value functions, 214
-ANSI syntax, 142
-arguments, 137-138
-asctime, 215
-assert library, 225
-atexit, 211
-atof, 208-209
-atoi, 207-208
-atol, 207-208
-bsearch, 210
-btowc, 231
-calling, 140-143
-calloc, 206
-clearerr, 197
-clock, 216
-ctime, 215
-ctype library, 204-205
-declaring, 138-140
-defining, 136-138
-difftime, 216
-div, 211
-errno library, 225
-exit, 210
-exp, 213
-external declarations, 143-145
-fclose, 186
-feof, 196
-ferror, 197
-fflush, 186
-fgetc, 186
-fgetpos, 195
-fgets, 193
-fgetwc, 229
-fgetws, 230
-float library, 226
-fmod, 214
-fopen, 185
-fprintf, 187-189
-fputc, 186
-fputs, 193
-fputwc, 229
-fputws, 230
-fread, 193
-free, 206
-freopen, 185
-frexp, 214
-fscanf, 190-193
-fseek, 195
-fsetpos, 195
-ftell, 194
-fwide, 231
-fwprintf, 230
-fwrite, 194
-fwscanf, 230
-getc, 186
-getchar, 186, 229
-getenv, 210
-gets, 193
-getwc, 229
-gmtime, 215
-hyperbolic functions, 214
-iso646 library, 226
-labs, 211
-ldexp, 214
-ldiv, 211
-library headers, 183-184
-limits library, 225
-locale library, 220
-localeconv, 221-222
-localtime, 215
-log, 213
-log10, 213
-longjmp, 220
-main, 88
-malloc, 158, 160, 206
-math library, 213
-mblen, 212
-mbrlen, 231
-mbrtowc, 232
-mbsinit, 232
-mbsrtowcs, 232
-mbstowcs, 213
-mbtowc, 212
-memchr, 203
-memcmp, 203
-memcpy, 203
-memmove, 203
-memset, 204
-mktime, 216
-modf, 214
-nearest-integer functions, 214
-perror, 197
-pointers, 161-163
-pow, 213
-printf, 187-189, 198
-prototype declarations, 140
-putc, 186
-putchar, 186
-puts, 193
-putwc, 229
-putwchar, 229
-qsort, 209-210
-raise, 219
-rand, 209
-realloc, 206-207
-remove, 198
-rename, 198
-rewind, 195
-scanf, 190-193, 197
-setbuf, 196
-setjmp, 220
-setjmp library, 220
-setlocale, 221
-setvbuf, 196
-signal, 219
-signal library, 218-219
-sprintf, 197
-srand, 209
-standard library, 182-184
-stdarg library, 222
-stddef library, 224
-stdio library, 184-185
-stdlib library, 205
-strcat, 200
-strchr, 202
-strcmp, 201
-strcoll, 202
-strcopy, 200
-strcspn, 203
-strerror, 204
-strftime, 217-218
-string library, 199
-strlen, 199
-strncat, 201
-strncmp, 202
-strncpy, 200
-strpbrk, 203
-strrchr, 202
-strspn, 203
-strstr, 202
-strtod, 208-209
-strtok, 204
-strtol, 207-208
-strtoul, 207-208
-strxfrm, 202
-swprintf, 230
-swscanf, 230
-syntax, 136
-system, 211
-terminating, 135
-time, 215
-time library, 214
-tmpfile, 198
-tmpnam, 198
-trigonometric functions, 213
-ungetc, 194
-ungetwc, 230
-va_arg, 223
-va_end, 223-224
-va_start, 223
-vfprintf, 198
-vfwprintf, 231
-vsprintf, 198
-vswprintf, 231
-vwprintf, 231
-wchar library, 227-228
-wcrtomb, 232
-wcsrtombs, 232
-wcstombs, 213
-wctob, 231
-wctomb, 212
-wctype library, 232
-wide character functions, 233-234
-wide string functions, 228-232
-wprintf, 230
-wscanf, 230
-
-headers, 175
-identifiers, 96-97
-linked lists, 173-175
-lint, 75
-macros, defining, 176
-naming schemes, 81
-notation for type conversions, 74
-operators
-
-& (pointer to), 147
-arithmetic operators, 106-108
-assignment operators, 108-109
-autodecrement operators, 116-117
-autoincrement operators, 116-117
-bitwise operators, 113-115
-comma operators, 117-118
-compound assignment operators, 115-116
-conditional operators, 117-118
-evaluating, 118-120
-logical operators, 109-113
-modulus, 106
-order of precedence, 107, 118-120
-relational operators, 109-113
-sizeof, 159
-stringizing (#) operator, 179-180
-
-origin of, 61
-pointers, 70, 145
-
-arithmetic operations and, 150-152
-assignments, 147-149
-casts, 152
-comparing, 151
-conversion within, 152
-copying, 148
-declaring, 146-147
-integration with arrays, 154-158
-low-level addressing, 163-165
-memory allocation capabilities, 158-160
-null, 165
-pointing to functions, 161-163
-to structures, 169
-variable values, 149
-variables, 153
-versus arrays, 155
-
-portability, 73-77, 82
-preprocessor directives, 89, 175
-
-#define, 178
-#else, 179
-#error, 181
-#if, 179
-#include, 176
-#pragma, 181
-
-preprocessor macros, defining, 177-178
-programs
-
-exit status, 182
-Hello World, 87
-namespace, 96
-printing Fibonacci numbers, 88-89
-scope, 96, 98
-
-recursion, 142
-reliability of, 82
-runtime environment, 181
-source code (conditional compilation), 178-179
-source files, resetting, 175, 180
-standardization, 61, 75-77
-statements, 124
-
-block statements, 126
-blocks, 124
-break, 128, 132-134
-continue, 132-134
-do-while, 132
-expression statements, 124-125
-for, 130-131
-goto, 134-135
-if, 125-128
-if-else, 125-128
-jumping between, 134-135
-labels, 134-135
-return, 135
-switch, 128-129
-while, 129-130
-
-storage mechanisms, 81
-strings, 95
-structures, 70, 166
-
-bit-fields, 170, 172
-declaring, 166
-linked, 173-175
-member access, 168-169
-pointers, 169
-syntax, 167
-variables, 168
-versus arrays, 169
-
-successors of, 78
-syntax, 89-90
-trees, 173-175
-unions, 169-170
-
-bit-fields, 170, 172
-declaring, 169
-recalling data storage, 170
-
-UNIX association, 61
-variables
-
-declaring, 95-96, 167
-duration of, 98
-external declarations, 99, 143-145
-initializing, 102-103
-storage classes, 98-101
-
-versus BCPL and B, 64
-wide characters, 93, 95
-X3J11 standardization committee, 76
-
-C*, 78
-C++, 78
-
-translating to C, 238
-
-callback procedures (Icon), 405-406
-calling functions (in C), 140-143
-Calloc function (C), 206
-Canaday, Rudd, 63
-case control structure (Icon), 336
-Case statement
-
-Fortran 95, 23
-Turbo Pascal, 263-264
-
-casts (C data types), 123
-Cfront, 238
-Char data type (C), 91
-characters, 93
-
-C, 91
-
-classification, 205
-converting to/from uppercase/lowercase, 205
-null, 95
-
-data types
-
-Fortran 95, 16
-Turbo Pascal, 268
-
-escape sequences (C), 94
-Fortran 95
-
-blank, 12
-concatenation, 38
-constants, 38
-dummy arguments, 37
-parameters, 37
-special, <<13-14|5a:1>>
-string length, 37
-substrings, 38
-
-
-Chr() function (Turbo Pascal), 286
-Clearerr function (C), 197
-Clock function (C), 216
-Close statement (Fortran 95), 55
-closing record files (Fortran 95), 55
-Clreol procedure (Turbo Pascal), 307
-Clrscr procedure (Turbo Pascal), 307
-co-expressions (Icon), 363-364
-COBOL, 253
-color (Icon windows), 368
-COMIT, 328
-comma operators (C), 117-118
-command-line arguments
-
-C programs, 181
-Icon programs, 374-375
-
-comments
-
-Fortran 95, 13
-Icon, 333
-
-comparing
-
-pointers in C, 151
-strings in Icon, 347-348
-
-compilers
-
-B, 68
-BCPL, 65
-C, 74
-functionality of, 237
-Icon, 373
-Pascal, 256
-porting between platforms, 247
-re-targeting, 245
-Turbo Pascal
-
-directives, 268
-using, 258-259
-
-
-Complex data type (Fortran 95), 15
-compound assignment operators (C), 115-116
-concatenation
-
-characters (Fortran 95), 38
-strings
-
-C, 95
-Icon, 345-346
-Turbo Pascal, 261
-
-
-concurrent C, 78
-conditional operators (C), 117-118
-conditional statements (Turbo Pascal), 262
-conjunction (Icon expressions), 343-344
-const qualifiers (C data types), 101
-constants
-
-C, 93-95, 124
-characters (Fortran 95), 38
-Icon (mathematical constants), 362
-Turbo Pascal, defining, 273-274
-
-constructors (Fortran 95)
-
-arrays in, 32
-structures, 40
-
-constructs (Pascal), 257
-continue statements
-
-C, 132-134
-Fortran 95, 12
-
-control backtracking (Icon), 344
-control structures
-
-Icon, 332, 335-336
-
-alternation, 336
-case, 336
-limitation, 343
-not, 335
-repeated alternation, 343
-terminating, 335
-
-
-converting data types (C expressions), 121-123
-Copy() function (Turbo Pascal), 288
-copying
-
-pointers (C), 148
-strings (Turbo Pascal), 288
-
-Count function (Fortran 95), 37
-Cset data types (Icon), 334, 344-345
-Ctime function (C), 215
-Ctype function library (C), 205
-Cycle statement (Fortran 95), 25
-Cytron, Ron, 237
-
-D',
+            'parameters, 37
+special, <<13-14|5a:0>>
+string length, 37',
           ],
           [
             1,
             '[21:24] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (book-index_split_001.html) - 21-24',
-            'F (Fortran language subset), 11
-FAQs (Turbo Pascal), 320-323
-Fclose function (C), 186
-Feof function (C), 196
-Ferror function (C), 197
-Fflush function (C), 186
-Fgetc function (C), 186
-Fgetpos function (C), 195
-Fgets function (C), 193
-Fgetwc function (C), 229
-Fgetws function (C), 230
-Fibonacci numbers, 88-89, 396
-File inclusion (C), 73
-files, 52
-
-Turbo Pascal, 299
-
-accessing, 299-300
-object files, 319
-overlay files, 317-319
-printer as file, 304
-text files, 300-301
-typed binary files, 302-303
-untyped binary files, 303
-
-
-Float function library (C), 226
-floating-point data types (C), 92
-flow control
-
+            'flow control
 C, 129-135
-Fortran 95, <<21-24|5a:1>>
-Icon, 333-334
-Turbo Pascal, 262-267
-
-Fmod function (C), 214
-Fopen function (C), 185
-for statements
-
-C, 130-131
-Turbo Pascal, 264
-
-Forall statement (Fortran 95), 35-36
-formatted records (Fortran 95), 51, 56
-Fortran, 3, 5, 253
-
-development of, 3-4
-F, 11
-Fortran 2000, 10
-Fortran 66, 4
-Fortran 77, 4
-Fortran 90, 5
-Fortran II, 4
-I/O, 50
-standardization, 4-6
-
-Fortran 95, 5
-
-arrays, 31
-
-assignment, 33
-computing shape, 32
-constructors, 32
-declaring, 31
-dynamic, 32
-indexed parallel assignment, 35-36
-masked assignment, 34
-operators, 34
-returning true values, 36
-sections, 33
-
-characters
-
-blank, 12
-concatenation, 38
-constants, 38
-dummy arguments, 37
-parameters, 37
-special, <<13-14|5a:1>>
-string length, 37
-substrings, 38
-
-comments, 13
-compatibility with Fortran 90, 7
-data types
-
-arithmetic operators, 15
-character, 16
-complex, 15
-declaring for trees, 49-50
-derived, 39
-extending, 40
-integer, 15
-logical, 16
-mixed-mode expressions, 16
-real constant, 15
-relational operators, 16
-
-expressions, 20
-extending, 40-45
-extensibility, 7
-flow control, <<21-24|5a:1>>
-functions, 28
-
-arguments, 28-29
-associated, 48
-built-in, 19
-count, 37
-extending, 44-45
-null, 47
-shape, 32
-
-HFP extensions, <<10-11|5a:1>>
-legacy code, 7
-loops
-
-assigning successive variable values, 25
-conditional execution, 25
-do, 24
-exiting, 25
-repeating, 25
-
-modules, 7, 26
-
-affecting objects in, 28
-using, 27-28
-writing, 26-27
-
-operators
-
-arithmetic, 15
-order of precedence, 20
-relational, 16
-
-parameters
-
-declaring, 18
-kind, 17
-named constants, 17
-naming rules, 18
-
-pointers, 45
-
-aliases, 47
-declaring variables as, 46-47
-determining association of, 48
-initializing, 47
-nullifying, 47
-states, 46
-
-procedures, 28
-
-arguments, 28-29
-built-in, 30
-elemental, 30
-
-programs
-
-example, 12
-form, <<12-14|5a:1>>
-
-record files, 52
-
-accessing, 53
-advancing I/O, 53-54
-closing, 55
-control information list, 55
-data transfer, 54
-external, 52
-format specification, 54
-I/O list, 55
-internal, 52
-nonadvancing I/O, 53-54
-opening, 55
-positioning, 56
-querying, 55
-
-records, 51
-
-endfile, 52
-formatted, 51, 56
-list-directed formatting, 56
-unformatted, 51
-
-standards, 7-8
-
-permissiveness of, <<9-10|5a:1>>
-portability, 9
-processor conformance to, 8-9
-program conformance to, 8
-
-statements
-
-assignment, 21
-backspace, 56
-blocks, 22
-case, 23
-close, 55
-continued, 12
-cycle, 25
-do, 24
-elsewhere, 34
-end do, 24
-end program, 14
-endfile, 56
-exit, 25
-forall, 35-36
-I/O statements, 51
-if, <<22-23|5a:1>>
-inquire, 55
-keywords, 12
-open, 55
-print, 54
-program, 14
-read, 54
-rewind, 56
-select case, 23
-type, 17
-use, 27
-where, 34
-write, 54
-
-strengths of, 6-7
-structures, 38
-
-constructors, 40
-declaring, 39
-referencing components, 39
-
-subroutines, 28
-
-arguments, 28-29
-
-trees, 48
-
-declaring data types for, 49-50
-sorting numbers with, 48
-
-variables, 18
-
-attributes, 19
-declaring as pointers, 46-47
-
-
-forward declarations (Turbo Pascal functions/procedures), 281
-Fprintf function (C), 187-189
-Fputc function (C), 186
-Fputs function (C), 193
-Fputwc function (C), 229
-Fputws function (C), 230
-Fread function (C), 193
-Free function (C), 206
-Freopen function (C), 185
-Frexp function (C), 214
-Fscanf function (C), 190-193
-Fseek function (C), 195
-Fsetpos function (C), 195
-Ftell function (C), 194
-functions
-
-C, 136
-
-abort, 211
-abs, 211
-absolute value functions, 214
-ANSI syntax, 142
-arguments, 137-138
-asctime, 215
-assert library, 225
-atexit, 211
-atof, 208-209
-atoi, 207-208
-atol, 207-208
-bsearch, 210
-btowc, 231
-calling, 140-143
-calloc, 206
-clearerr, 197
-clock, 216
-ctime, 215
-ctype library, 204-205
-declaring, 138-140
-defining, 136-138
-difftime, 216
-div, 211
-errno library, 225
-exit, 210
-exp, 213
-external declarations, 143-145
-fclose, 186
-feof, 196
-ferror, 197
-fflush, 186
-fgetc, 186
-fgetpos, 195
-fgets, 193
-fgetwc, 229
-fgetws, 230
-float library, 226
-fmod, 214
-fopen, 185
-fprintf, 187-189
-fputc, 186
-fputs, 193
-fputwc, 229
-fputws, 230
-fread, 193
-free, 206
-freopen, 185
-frexp, 214
-fscanf, 190-193
-fseek, 195
-fsetpos, 195
-ftell, 194
-fwide, 231
-fwprintf, 230
-fwrite, 194
-fwscanf, 230
-getc, 186
-getchar, 186, 229
-getenv, 210
-gets, 193
-getwc, 229
-gmtime, 215
-hyperbolic functions, 214
-iso646 library, 226
-labs, 211
-ldexp, 214
-ldiv, 211
-library headers, 183-184
-limits library, 225
-locale library, 220
-localeconv, 221-222
-localtime, 215
-log, 213
-log10, 213
-longjmp, 220
-main, 88
-malloc, 158, 160, 206
-math library, 213
-mblen, 212
-mbrlen, 231
-mbrtowc, 232
-mbsinit, 232
-mbsrtowcs, 232
-mbstowcs, 213
-mbtowc, 212
-memchr, 203
-memcmp, 203
-memcpy, 203
-memmove, 203
-memset, 204
-mktime, 216
-modf, 214
-nearest-integer functions, 214
-perror, 197
-pointers, 161-163
-pow, 213
-printf, 187-189, 198
-prototype declarations, 140
-putc, 186
-putchar, 186
-puts, 193
-putwc, 229
-putwchar, 229
-qsort, 209-210
-raise, 219
-rand, 209
-realloc, 206-207
-remove, 198
-rename, 198
-rewind, 195
-scanf, 190-193, 197
-setbuf, 196
-setjmp, 220
-setjmp library, 220
-setlocale, 221
-setvbuf, 196
-signal, 219
-signal library, 218-219
-sprintf, 197
-srand, 209
-standard library, 182-184
-stdarg library, 222
-stddef library, 224
-stdio library, 184-185
-stdlib library, 205
-strcat, 200
-strchr, 202
-strcmp, 201
-strcoll, 202
-strcopy, 200
-strcspn, 203
-strerror, 204
-strftime, 217-218
-string library, 199
-strlen, 199
-strncat, 201
-strncmp, 202
-strncpy, 200
-strpbrk, 203
-strrchr, 202
-strspn, 203
-strstr, 202
-strtod, 208-209
-strtok, 204
-strtol, 207-208
-strtoul, 207-208
-strxfrm, 202
-swprintf, 230
-swscanf, 230
-syntax, 136
-system, 211
-terminating, 135
-time, 215
-time library, 214
-tmpfile, 198
-tmpnam, 198
-trigonometric functions, 213
-ungetc, 194
-ungetwc, 230
-va_arg, 223
-va_end, 223-224
-va_start, 223
-vfprintf, 198
-vfwprintf, 231
-vsprintf, 198
-vswprintf, 231
-vwprintf, 231
-wchar library, 227-228
-wcrtomb, 232
-wcsrtombs, 232
-wcstombs, 213
-wctob, 231
-wctomb, 212
-wctype library, 232
-wide character functions, 233-234
-wide string functions, 228-232
-wprintf, 230
-wscanf, 230
-
-Fortran 95, 28
-
-arguments, 28-29
-associated, 48
-built-in, 19
-count, 37
-extending, 44-45
-null, 47
-shape, 32
-
-Icon, 332
-
-bit pattern, 363
-drawing, 366-367
-matching, 349
-string-analysis, 348
-trigonometric, 362
-type(), 334
-
-Turbo Pascal, 279-280
-
-built-in, 283
-chr(), 286
-copy(), 288
-DIV, 261
-DOS equivalents, 315-317
-forward declarations, 281
-length(), 287
-mathematical functions, 289
-memory addresses, 297-298
-MOD, 261
-ord(), 286
-pos(), 288
-pseudo-random number generator, 290-291
-readkey, 304-305
-recursion, 280-281
-str(), 286
-upcase(), 287
-val(), 286
-
-
-Fwide function (C), 231
-Fwprintf function (C), 230
-Fwrite function (C), 194
-Fwscanf function (C), 230
-
-G',
-          ],
-          [
-            1,
-            '[ap 10:11] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (book-index_split_001.html) - 10-11',
-            'headers (C), 175
-Hello World program (C), 87
-HFP extensions (Fortran 95), <<10-11|5a:0>>
-Highvideo procedure (Turbo Pascal), 308
-Hyperbolic functions (C), 214
-I/O
-
-Fortran, 50
-Icon, 338-339
-
-redirection, 374
-
-
-Icon, 327
-
-comments, 333
-compiler, 373
-constants (mathematical), 362
-control backtracking, 344
-control structures, 332, 335-336
-
-alternation, 336
-case, 336
-limitation, 342
-not, 335
-repeated alternation, 343
-terminating, 335
-
-core modules, 414
-data backtracking, 344
-data types, 334-335
-
-cset data types, 345
-
-documentation on, 413-414
-errors, 377
-
-linking errors, 377
-preprocessor errors, 377
-runtime errors, 378
-syntax errors, 377
-
-expressions, 332
-
-analyzing, 381-386
-bounded, 341
-break, 335
-co-expressions, 363
-conjunction, 343
-creating, 386-388
-evaluating, 333
-matching, 391, 393
-next, 335
-
-flow control, 333-334
-functions, 332
-
-drawing functions, 365-366
-matching functions, 349
-string-analysis functions, 348
-trigonometric functions, 362
-type(), 334
-
-generators, 331, 340
-
-goal-directed evaluation, 341
-iteration, 340
-recognizing, 406
-recursive generators, 389-391
-resuming suspended generators, 344
-
-I/O, 338-339, 374
-Icon Project, 420
-implementations, 413
-interfaces, 400-401
-
-integrating with programs, 404
-Visual Interface Builder, 401, 403
-
-keywords, & (standard I/O), 338
-lists, 352-353
-
-adding/removing values, 354
-as queues, 354
-as stacks, 354
-sorting, 357
-using
-
-literals
-
-integers, 360
-real numbers, 360
-
-memory storage, 339
-newsgroups, 418
-online resources, 413
-operators, 332
-
-arithmetic, 360
-assignment, 332
-bit, 362
-numerical comparison, 361
-numerical computation, 361
-string comparision, 347
-
-origins of, 327-331
-preprocessing, 339
-procedures, 332, 336-337
-
-adding memory to, 398
-as generators, 342
-callback procedures, 405
-index for, 416-417
-matching, 394-395
-redundant computation, 396-397
-tracing, 380
-
-programs
-
-command-line arguments, 374
-debugging, 375-378, 380-381
-diagnostic output, 376
-index for, 415
-library modules, 375, 414-418
-recognizer generator, 406-407
-running, 373
-source files, 373
-structure, 332
-structure hierarchy, 407
-word counting, 331
-writing, 408-409, 411-412
-
-pseudo-random numbers, 362
-records, 352, 357
-release of, 331
-sets, 352, 354, 357
-strings, 334, 344-345
-
-analyzing, 348
-character positions, 346
-comparing, 347-348
-concatenation, 345-346
-fixed length construction, 345
-pattern matching, 391, 394-396
-processing, 344
-scanning, 348-351
-substrings, 346-347
-
-structures, 352
-
-operations, 356
-pointers, 357, 359
-serial numbers, 356
-sorting, 356-357
-
-syntax, 331
-tables, 352, 355, 357
-variables
-
-assigning values to, 332
-environment variables, 375
-global, 338
-local, 338
-null values, 335
-scope, 337-338
-static, 338
-termination dumps, 379
-
-windows, 364
-
-color, 368
-dialog boxes, 371
-events, 369
-image files, loading, 368-369
-user interaction, 369-370, 372
-visual interfaces, 372
-writing to, 367
-
-
-identifiers (C), 96-97
-If control structure (Icon), 335
-If statement
-
-C, 125-128
-Fortran 95, <<22-23|5a:0>>
-Turbo Pascal, 262
-
-If-else statements
-
-C, 125-128
-Turbo Pascal, 262
-
-ILs
-
-advantages of, 241-243
-between pattern of conception, 241-244
-case study, 245-249
-Cfront, 238
-common problems with, 240-241
-design principles, 244-245
-Diana, 243
-extension pattern of conception, 240-241
-human legibility, 245
-IL-to-source token ratio, 245
-Java VM, 243, 245, 247-249
-overhead with, 239-240
-PCode, 243, 245-246
-porting compilers between platforms, 247
-representation, 245
-role of, 244
-semantics of, 244
-switch mechanisms, 249
-TeX, 239
-utility of, 249
-
-image files (loading in Icon windows), 369
-Imagine1, Inc. (Fortran), 11
-include files (Turbo Pascal), 285
-indexed parallel assignment (arrays in Fortran 95), 35-36
-initializing
-
-arrays in C, 102
-pointers in Fortran 95, 47
-variables in C, 102-103
-
-inline machine code, implementing in Turbo Pascal, 319
-Inquire statement (Fortran 95), 55
-Insline procedure (Turbo Pascal), 307
-Int data types (C), 90
-INTDATA.TXT file (Turbo Pascal), 299
-Integer data type (Fortran 95), 15
-integer literals (Icon), 360
-interfaces
-
-Icon, 400-401
-
-integrating with programs, 404
-Visual Interface Builder, 401, 403
-windows, 372-373
-
-
-internal record files (Fortran 95), 52
-iteration (Icon generators), 340-341
-
-J-L',
-          ],
-          [
-            1,
-            '[ap 00:14] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (book-index_split_001.html) - 12-14',
-            'parameters (Fortran 95)
-
-characters, 37
-declaring, 18
-kind, 17
-named constants, 17
-naming rules, 18
-
-Pascal, 255
-
-compilers, 256
-constructs, 257
-current status of, 256-257
-descendant languages of, 256
-development of, 253
-growth of, 254-255
-influence of other languages on, 254
-online resources, 257
-p-kit, 254
-Pcode intermediate language, 243
-portability, 254
-prominence of, 255
-standardization, 255
-
-Pascal-S, 254
-pattern matching strings (Icon), 391, 393-396
-Pcode, 243, 245-246
-PDP-7, 62
-Perror function (C), 197
-pixels, 364
-PL/I, 62
-pointers
-
-B, 66
-BCPL, 66
-C, 70, 145
-
-arithmetic operations and, 150-152
-assignments, 147-149
-casts, 152
-comparing, 151
-conversion within, 152
-copying, 148
-declaring, 146-147
-integration with arrays, 154-158
-low-level addressing, 163-165
-memory allocation capabilities, 158-160
-null, 165
-pointing to functions, 161-163
-to structures, 169
-variables, 149, 153
-versus arrays, 155
-
-Fortran 95, 45
-
-aliases, 47
-declaring variables as, 46-47
-determining association of, 48
-initializing, 47
-nullifying, 47
-states, 46
-
-Icon structures, 357, 359-360
-Turbo Pascal, 295
-
-accessing, 295, 297
-errors, 323
-functionality of, 295
-using, 295
-
-
-portability
-
-C, 73-75
-compilers between platforms, 247
-Fortran 95, 9
-Pascal, 254
-
-Pos() function (Turbo Pascal), 288
-positional forms (real constant data types), 15
-positioning record files (Fortran 95), 56
-Pow function (C), 213
-precedence (Fortran 95 expressions), 20
-preprocessors
-
-C, 73, 177-178
-directives (C), 89, 175
-
-#define, 178
-#else, 179
-#error, 181
-#if, 179
-#include, 176
-#pragma, 181
-
-Icon, 339, 377
-
-primaries (Fortran 95 expression component), 20
-primary expressions (C), 105-106
-Print statement (Fortran 95), 54
-printers as files in Turbo Pascal, 304
-Printf function (C), 187-189, 198
-procedures
-
-Fortran 95, 28
-
-arguments, 28-29
-built-in, 30
-elemental, 30
-
-Icon, 332, 336-337
-
-adding memory to, 398
-as generators, 342
-callback procedures, 405
-index for, 417-418
-matching, 394-395
-redundant computation, 396-397
-tracing, 380
-
-Turbo Pascal, 277-278
-
-built-in, 283
-clreol, 307
-clrscr, 307
-delline, 307
-dispose(), 296
-DOS equivalents, 315-317
-exitproc, 298-299
-forward declarations, 281
-gotoxy(), 308
-highvideo, 308
-insline, 307
-lowvideo, 308
-mathematical procedures, 289
-memory addresses, 297-298
-normvideo, 308
-read, 259-260
-readln, 259-260
-software interrupt procedures, 320
-textbackground(), 308
-textcolor(), 308
-textmode(), 307
-window(), 307
-write, 259-260
-writeln, 259-260
-
-
-processing Icon strings, 344
-Program reserved word (Turbo Pascal), 259
-Program statement(Fortran 95), 14
-programs
-
-C
-
-command-line arguments, 181
-exit status, 182
-Hello World, 87
-namespace, 96
-printing Fibonacci numbers, 88-89
-scope, 96, 98
-
-Fortran 95
-
-example, 12
-form, <<12-14|5a:0>>
-
-Icon
-
-command-line arguments, 374-375
-debugging, 376-378, 380-381
-diagnostic output, 376-377
-index for, 416
-library modules, 375
-recognizer generator, 406-407
-running, 373-374
-source files, 373
-structure, 332, 407
-word counting, 331
-writing, 408-412
-
-Turbo Pascal
-
-format, 259
-reading/writing to screen, 259-260
-
-
-pseudo-random numbers, 290-291, 362
-Putc function (C), 186
-Putchar function (C), 186
-Puts function (C), 193
-Putwc function (C), 229
-Putwchar function (C), 229
-
-Q-R',
+Fortran 95, <<21-24|5a:0>>
+Icon, 333-334',
           ],
           [
             1,
             '[13:14] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (book-index_split_001.html) - 13-14',
-            'Scanf function (C), 190-193, 197
-scanning strings (Icon), 348-352
-scope
-
-C programs, 96, 98
-Icon variables, 337-338
-
-sections (Fortran 95 arrays), 33
-Select case statement (Fortran 95), 23
-semicolon (;) (Turbo Pascal statement separator), 259
-serial numbers (Icon structures), 356
-set operators (Turbo Pascal), 276
-Setbuf function (C), 196
-Setjmp function (C), 220
-Setjmp function library (C), 220
-Setlocale function (C), 221
-sets
-
-Icon, 352, 354-355, 357
-Turbo Pascal data types, 275-276
-
-Setvbuf function (C), 196
-shape arrays (Fortran 95), 32
-Shape function (Fortran 95), 32
-shifting bits (Turbo Pascal), 291-292
-short data types (C), 91
-short-circuiting
-
-C expressions, 111
-Turbo Pascal evaluations, 267
-
-Signal function (C), 219
-Signed data type (C), 91
-Sizeof operator (C), 159
-SNOBOL, 328-330
-Snyder, Alan, 73
-software interrupt procedures, calling in Turbo Pascal, 320
-sorting Icon structures, 357
-source code (C conditional compilation), 178-179
-source file includes (C), 175
-source files
-
-C, resetting, 180
-Icon programs, 373
-
-special characters (Fortran 95), <<13-14|5a:0>>
-Sprintf function (C), 197
-Srand function (C), 209
-standards
-
-C, 61, 75-77
-Fortran, 4-6
-Fortran 95, 7-8
-
+            'parameters, 37
+special, <<13-14|5a:0>>
+string length, 37',
+          ],
+          [
+            1,
+            '[21:24] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (book-index_split_001.html) - 21-24',
+            'extensibility, 7
+flow control, <<21-24|5a:0>>
+functions, 28
+arguments, 28-29',
+          ],
+          [
+            1,
+            '[ap 10:11] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (book-index_split_001.html) - 10-11',
+            'shape, 32
+HFP extensions, <<10-11|5a:0>>
+legacy code, 7',
+          ],
+          [
+            1,
+            '[ap 00:14] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (book-index_split_001.html) - 12-14',
+            'programs
+example, 12
+form, <<12-14|5a:0>>
+record files, 52
+accessing, 53',
+          ],
+          [
+            1,
+            '[ap 09:10] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (book-index_split_001.html) - 9-10',
+            'unformatted, 51
+standards, 7-8
 permissiveness of, <<9-10|5a:0>>
-portability, 9
-processor conformance to, 8-9
-program conformance to, 8
-
-Pascal, 255
-
-statements
-
-C, 124
-
-block, 124-126
-break, 128, 132-134
-continue, 132-134
-do-while, 132
-expression statements, 124-125
-for, 130-131
-goto, 134-135
-if, 125-128
-if-else, 125-128
-jumping between, 134-135
-labels, 134-135
-return, 135
-switch, 128-129
-while, 129-130
-
-Fortran 95
-
-assignment, 21
-blocks, 22
-case, 23
-continued, 12
-cycle, 25
-do, 24
-elsewhere, 34
-end do, 24
-end program, 14
-exit, 25
-forall, 35-36
-I/O statements, 51
+portability, 9',
+          ],
+          [
+            1,
+            '[22:23] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (book-index_split_001.html) - 22-23',
+            'I/O statements, 51
 if, <<22-23|5a:0>>
-keywords, 12
-print, 54
-program, 14
-read, 54
-select case, 23
-type, 17
-use, 27
-where, 34
-write, 54
-
-Turbo Pascal
-
-case, 263-264
-conditional statements, 262
-for, 264
-if, 262
-if-else, 262
-repeat, 265-266
-while, 264
-
-
-static storage classes (C variables), 99
-static variables (Icon), 338
-statments (Fortran 95)
-
-backspace, 56
-close, 55
-endfile, 56
-inquire, 55
-open, 55
-rewind, 56
-
-Stdio function library (C), 184-185
-storage classes (C variables), 98-101
-storage mechanisms (C), 81
-Str() function (Turbo Pascal), 286
-Strcat function (C), 200
-Strchr function (C), 202
-Strcmp function (C), 201
-Strcoll function (C), 202
-Strcopy function (C), 200
-Strcspn function (C), 203
-Strerror function (C), 204
-Strftime function (C), 217-218
-string comparision operators (Icon), 348
-string-analysis functions (Icon), 348
-strings
-
-B, 66
-BCPL, 66
-C, digits in, 95
-Icon, 334, 344-345
-
-analyzing, 348
-character positions, 346-347
-comparing, 347-348
-concatenation, 345-346
-fixed length construction, 346
-pattern matching, 391, 394-396
-processing, 344
-scanning, 348-352
-substrings, 346-347
-
-Turbo Pascal, 272-273
-
-concatenation, 261
-copying, 288
-determining length of, 287
-determining starting positions, 288
-
-
-Strlen function (C), 199
-Strncat function (C), 201
-Strncmp function (C), 202
-Strncpy function (C), 200
-Strpbrk function (C), 203
-Strrchr function (C), 202
-Strspn function (C), 203
-Strstr function (C), 202
-Strtod function (C), 208-209
-Strtok functio (C), 204
-Strtol function (C), 207-208
-Strtoul function (C), 207-208
-structures
-
-C, 70, 166
-
-bit-fields, 170, 172
-declaring, 166
-linked, 173-175
-member access, 168-169
-pointers, 169
-syntax, 167
-variables, 168
-versus arrays, 169
-
-Fortran 95, 38
-
-constructors, 40
-declaring, 39
-referencing components, 39
-
-Icon, 352
-
-operations, 356
-pointers, 357, 359-360
-serial numbers, 356
-sorting, 357
-
-
-Strxfrm function (C), 202
-subroutines (Fortran 95), 28
-
-arguments, 28-29
-
-substrings
-
-characters in Fortran 95, 38
-Icon, 346-347
-
-Summit, Steve, 87
-switch mechanisms (ILS), 249
-Switch statements (C), 128-129
-Swprintf function (C), 230
-Swscanf function (C), 230
-syntax
-
-C, 89-90
-
-declaring, 71
-functions, 136
-
-Icon, 331, 377
-
-System function (C), 211
-
-T',
+inquire, 55',
+          ],
+          [
+            1,
+            '[ap 10:11] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (book-index_split_001.html) - 10-11',
+            'Hello World program (C), 87
+HFP extensions (Fortran 95), <<10-11|5a:0>>
+Highvideo procedure (Turbo Pascal), 308',
+          ],
+          [
+            1,
+            '[22:23] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (book-index_split_001.html) - 22-23',
+            'If statement
+C, 125-128
+Fortran 95, <<22-23|5a:0>>
+Turbo Pascal, 262',
+          ],
+          [
+            1,
+            '[ap 00:14] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (book-index_split_001.html) - 12-14',
+            'Fortran 95
+example, 12
+form, <<12-14|5a:0>>
+Icon
+command-line arguments, 374-375',
+          ],
+          [
+            1,
+            '[13:14] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (book-index_split_001.html) - 13-14',
+            'Icon programs, 373
+special characters (Fortran 95), <<13-14|5a:0>>
+Sprintf function (C), 197',
+          ],
+          [
+            1,
+            '[ap 09:10] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (book-index_split_001.html) - 9-10',
+            'Fortran, 4-6
+Fortran 95, 7-8
+permissiveness of, <<9-10|5a:0>>
+portability, 9',
+          ],
+          [
+            1,
+            '[22:23] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (book-index_split_001.html) - 22-23',
+            'I/O statements, 51
+if, <<22-23|5a:0>>
+keywords, 12',
           ],
           [
             1,
             '[ap 03:10] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (ewtoc.html) - 3.10',
-            "Chapter 3\x{2014}C Programming
-
-
-3.1. Introduction
-
-3.1.1. Sample Programs
-3.1.2. Lexical Issues
-
-3.2. Basic Types, Constants, and Declarations
-
-3.2.1. Basic Types
-3.2.2. Constants
-3.2.3. Declarations
-3.2.4. Identifiers
-3.2.5. Array Declarations
-3.2.6. Scope, Duration, Linkage, and Storage Classes
-3.2.7. Type Qualifiers
-3.2.8. Initialization
-3.2.9. Type Definitions
-
-3.3. Expressions
-
-3.3.1. Primary Expressions
-3.3.2. Arithmetic Operators
-3.3.3. Assignment Operators
-3.3.4. Relational and Logical Operators
-3.3.5. Bitwise Operators
-3.3.6. Compound Assignment Operators
-3.3.7. Autoincrement and Autodecrement Operators
-3.3.8. Conditional and Comma Operators
-3.3.9. Precedence and Order of Evaluation
-3.3.10. Default Conversions
-3.3.11. Explicit Conversions
-3.3.12. Constant Expressions
-
-3.4. Statements
-
-3.4.1. Expression Statements
-3.4.2. if Statements
-3.4.3. switch Statements
-3.4.4. while Loops
-3.4.5. for Loops
-3.4.6. do/while Loops
-3.4.7. break and continue
-3.4.8. goto Statements
-3.4.9. return Statements
-
-3.5. Functions
-
-3.5.1. Defining Functions
-3.5.2. Declaring Functions
-3.5.3. Calling Functions
-3.5.4. Global Variables and External Declarations
-
-3.6. Pointers and Arrays
-
-3.6.1. Pointer Declarations
-3.6.2. Basic Pointer Operations
-3.6.3. Pointer Arithmetic
-3.6.4. Array/Pointer Initialization
-3.6.5. Array/Pointer Equivalence
-3.6.6. Memory Allocation
-3.6.7. Pointers to Functions
-3.6.8. Low-Level Addressing
-
-3.7. User-Defined Data Structures
-
-3.7.1. Structures
-3.7.2. Structure Member Access
-3.7.3. Unions
-3.7.4. Bit-Fields
-3.7.5. Enumerations
-3.7.6. Linked Data Structures
-
-3.8. The C Preprocessor
-
-3.8.1. Source File Inclusion #include)
-3.8.2. Macro Definition (#define)
-3.8.3. Conditional Compilation (#ifdef, et al.)
-3.8.4. Special Replacement Operators
-3.8.5. Other Preprocessor Directives
-
-3.9. The Runtime Environment
-
-3.9.1. Command-Line Arguments
-3.9.2. Exit Status
-
+            '3.9.2. Exit Status
 <<3.10|5a:0>>. The Standard C Library
-
 3.10.1. <stdio.h>
-3.10.2. <string.h>
-3.10.3. <ctype.h>
-3.10.4. <stdlib.h>
-3.10.5. <math.h>
-3.10.6. <time.h>
-3.10.7. <signal.h>
-3.10.8. <setjmp.h>
-3.10.9. <locale.h>
-3.10.10. <stdarg.h>
-3.10.11. <stddef.h>
-3.10.12. <assert.h>
-3.10.13. <errno.h>
-3.10.14. <limits.h>
-3.10.15. <float.h>
-3.10.16. <iso646.h>
-3.10.17. <wchar.h>
-3.10.18. <wctype.h>
-
+3.10.2. <string.h>',
+          ],
+          [
+            1,
+            '[ap 03:11] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (ewtoc.html) - 3.11',
+            '3.10.18. <wctype.h>
 <<3.11|5a:0>>. Acknowledgments
-<<3.12|5a:0>>. Bibliography",
+<<3.12|5a:0>>. Bibliography',
+          ],
+          [
+            1,
+            '[ap 03:11] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (ewtoc.html) - 3.11',
+            '<<3.11|9p>>. Acknowledgments
+<<3.12|5a:0>>. Bibliography
+',
           ],
         ];

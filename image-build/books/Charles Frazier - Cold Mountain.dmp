@@ -37,7 +37,7 @@ $VAR1 = [
           [
             1,
             '[ap > 05:00] Cold Mountain - Charles Frazier.epub (index_split_004.xhtml) - A little after five',
-            'Ruby cocked an eye to the west and said, <<A little after five|9e:1>>, and Ada wrote down <<five o\'clock|6>> and closed the journal.',
+            'Ruby cocked an eye to the west and said, <<A little after five|9:1>>, and Ada wrote down <<five o\'clock|6>> and closed the journal.',
           ],
           [
             1,
@@ -80,5 +80,10 @@ It\'s <<three|9f>>, Ada informed him. <<Two-thirty|5k:1>> at the earliest.
             1,
             '[< 12:00] Cold Mountain - Charles Frazier.epub (index_split_006.xhtml) - before noon',
             'Such an imagined scene of homecoming had been the hope in his heart when he had come walking up the Black Cove road <<before noon|13>>. He had done his part to make it so, for he arrived weary but clean, having on the day previous aware that he looked rougher than the lowest muleteer stopped at a creek to bathe and to wash his clothes. It had been chill weather for such work, but he built a fire of dry logs until the flames stood shoulder high. He heated pot after pot of water almost to boiling and unfolded his soap from its brown paper wrapping, dark and greasy from the tallow. He poured the water on the clothes and rubbed them with the soap and twisted them and battled them on stones and then rinsed them in the creek. He had spread the clothes on bushes near the fire to dry and then he started in on himself. The soap was brown and gritty and had a great deal of lye in it so that it would about take offhide. He had washed himself with water as hot as he could stand and scrubbed with the soap until his skin felt raw. Then he touched his face and hair. He had just about raised a new beard since shaving at the girl\'s cabin, and his hair was half wild about his head. He had no razor, and so the beard would have to stand. And he reckoned himself a poor barber even had he scissors and a glass. With nothing but a sheath knife and a still pool at the creek edge, he could not expect to improve his haircut any. The best he could do was to heat more water, soap and rinse his hair, comb it out with his fingers and try to shape it to his head so that it would not stand up and look alarming.',
+          ],
+          [
+            1,
+            '[12:00] Cold Mountain - Charles Frazier.epub (index_split_006.xhtml) - noon',
+            'Later, Ada and Inman lay woven together on their bed of hemlock boughs. The old cabin was nearly dark, and the cedar limbs smoked in the hearth and the hot resin smelled as if someone had walked through swinging a censer. The fire popped. Snow hissed and sighed as it fell. And they did what lovers often do when they think the future stretches out endless before them as bright as on the <<noon|13>> of creation day: they talked ceaselessly of the past, as if each must be caught up on the other\'s previous doings before they can move forward paired.',
           ],
         ];

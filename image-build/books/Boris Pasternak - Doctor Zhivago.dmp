@@ -1,6 +1,14 @@
 $VAR1 = [
           [
             1,
+            "[ap 05:00] Doctor Zhivago - Boris Pasternak.epub (OEBPS/Past_9780307379962_epub_c01_r1.htm) - FIVE O\x{2019}CLOCK",
+            "Part One
+
+THE <<FIVE O\x{2019}CLOCK|6>> EXPRESS
+1",
+          ],
+          [
+            1,
             '[ap > 05:00] Doctor Zhivago - Boris Pasternak.epub (OEBPS/Past_9780307379962_epub_c01_r1.htm) - a little past five',
             "\x{201c}Just think, it\x{2019}s only <<a little past five|9f>>,\x{201d} said Ivan Ivanovich. \x{201c}See, there\x{2019}s the express from Syzran. It passes here at <<a little after five|9c:1>>.\x{201d}",
           ],
@@ -17,12 +25,12 @@ $VAR1 = [
           [
             1,
             '[ap 10:00] Doctor Zhivago - Boris Pasternak.epub (OEBPS/Past_9780307379962_epub_c03_r1.htm) - ten',
-            "From time immemorial the Christmas parties at the Sventitskys\x{2019} had been organized in the following fashion. At <<ten|9e>>, when the children went home, the tree was lighted a second time for the young people and the adults, and the merrymaking went on till morning. The more elderly cut the cards all night in a three-walled Pompeian drawing room, which was an extension of the ballroom and was separated from it by a heavy, thick curtain on big bronze rings. At dawn the whole company had supper.",
+            "From time immemorial the Christmas parties at the Sventitskys\x{2019} had been organized in the following fashion. At <<ten|9v>>, when the children went home, the tree was lighted a second time for the young people and the adults, and the merrymaking went on till morning. The more elderly cut the cards all night in a three-walled Pompeian drawing room, which was an extension of the ballroom and was separated from it by a heavy, thick curtain on big bronze rings. At dawn the whole company had supper.",
           ],
           [
             1,
             '[ap > 00:00] Doctor Zhivago - Boris Pasternak.epub (OEBPS/Past_9780307379962_epub_c03_r1.htm) - past twelve',
-            'It was <<past twelve|9:0>> or <<one in the morning|5>>. Yura had a buzzing in his ears. After a break, during which tea and cookies were served in the dining room, the dancing began again. When the candles on the tree burned down, no one replaced them anymore.',
+            'It was <<past twelve|9w>> or <<one in the morning|5>>. Yura had a buzzing in his ears. After a break, during which tea and cookies were served in the dining room, the dancing began again. When the candles on the tree burned down, no one replaced them anymore.',
           ],
           [
             1,
@@ -87,7 +95,7 @@ $VAR1 = [
           [
             1,
             '[ap 05:00] Doctor Zhivago - Boris Pasternak.epub (OEBPS/Past_9780307379962_epub_c13_r1.htm) - 5',
-            "\x{201c}For the information of the populace. Work booklets for those eligible can be obtained for 50 rubles each in the Provisions Section of the Yuriatin City Council, at <<5|9:0>> Oktiabrskaya, formerly General-gubernatorskaya, Street, room 137.",
+            "\x{201c}For the information of the populace. Work booklets for those eligible can be obtained for 50 rubles each in the Provisions Section of the Yuriatin City Council, at <<5|9u>> Oktiabrskaya, formerly General-gubernatorskaya, Street, room 137.",
           ],
           [
             1,
@@ -180,7 +188,7 @@ Stood looking sleepily into the <<midnight|13>> distance.',
           [
             1,
             '[ap 04:00] Doctor Zhivago - Boris Pasternak.epub (OEBPS/Past_9780307379962_epub_nts_r1.htm) - four',
-            "6. the Lutsk operation: Also known as the \x{201c}Brusilov Offensive,\x{201d} this was the liberation of the city of Lutsk, in northwest Ukraine, by <<four|9:0>> Russian armies under the command of General Brusilov on June 4\x{2013}7, 1916.",
+            "6. the Lutsk operation: Also known as the \x{201c}Brusilov Offensive,\x{201d} this was the liberation of the city of Lutsk, in northwest Ukraine, by <<four|9u>> Russian armies under the command of General Brusilov on June 4\x{2013}7, 1916.",
           ],
           [
             1,
@@ -204,6 +212,11 @@ Stood looking sleepily into the <<midnight|13>> distance.',
           ],
           [
             1,
+            '[02:30] Doctor Zhivago - Boris Pasternak.epub (OEBPS/Past_9780307379962_epub_nts_r1.htm) - matins',
+            "4. Holy Thursday\x{a0}\x{2026}\x{a0}the Twelve Gospels: Holy Thursday commemorates the Last Supper and the betrayal and arrest of Jesus. On the night of Holy Thursday, the <<matins|13>> of Holy Friday are served, including a reading of twelve composite passages from the four Gospels describing the trial and crucifixion of Jesus.",
+          ],
+          [
+            1,
             '[> 19:07] Doctor Zhivago - Boris Pasternak.epub (OEBPS/Past_9780307379962_epub_nts_r1.htm) - after 1907',
             '13. the Black Hundred: The name of a counterrevolutionary movement in Russia, formed in 1900 from conservative intellectuals, officials, landowners, and clergy, with a reputation for being anti-Semitic and anti-Ukrainian. It grew weaker <<after 1907|18:0>> and was finally abolished following the February revolution.',
           ],
@@ -221,6 +234,16 @@ Stood looking sleepily into the <<midnight|13>> distance.',
             1,
             '[~ 16:30] Doctor Zhivago - Boris Pasternak.epub (OEBPS/Past_9780307379962_epub_nts_r1.htm) - vespers',
             "7. In the Red Sea\x{a0}\x{2026}\x{a0}remained intact: The quotations come from the Dogmatik (Hymn to the Mother of God) in the fifth tone, sung at <<vespers|13>>. The earlier references are to the Old Testament books of Exodus, Daniel (see part 8, note 8), and Jonah.",
+          ],
+          [
+            1,
+            '[~ 16:30] Doctor Zhivago - Boris Pasternak.epub (OEBPS/Past_9780307379962_epub_nts_r1.htm) - vespers',
+            "8. to make Adam God: The quotation comes from verses sung in the second tone at the <<vespers|13>> of the Annunciation. The essential notion that \x{201c}God became man so that man could become God\x{201d} is attributed to several early church fathers, among them St. Irenaeus of Lyons (second century) and St. Athanasius of Alexandria (293\x{2013}373).",
+          ],
+          [
+            1,
+            '[02:30] Doctor Zhivago - Boris Pasternak.epub (OEBPS/Past_9780307379962_epub_nts_r1.htm) - matins',
+            "9. Christ and Mary Magdalene\x{a0}\x{2026}\x{a0}God and a woman: This entire passage is based on the traditional identification of Mary Magdalene with the woman taken in adultery in John 8:3\x{2013}11, and with the unnamed woman who anoints Christ\x{2019}s feet from an alabaster flask and wipes them with her hair in Matthew 26:6\x{2013}13, Mark 14:3\x{2013}9, and Luke 7:36\x{2013}50. In John\x{2019}s version of this incident (12:1\x{2013}8), the woman is Mary, the sister of Martha and Lazarus, who is neither a prostitute nor the Magdalene. Sima mentions this confusion herself. St. Mary of Egypt was indeed a repentant prostitute, but she lived in the fourth century. Sima goes on to quote hymns from the <<matins|13>> of Holy Wednesday, the middle of Holy Week, in which the woman with the alabaster vessel confesses to having been a harlot. The longest of these hymns, from which Sima quotes most fully, known as \x{201c}The Hymn of Cassia,\x{201d} is attributed to the Byzantine abbess and hymnographer Cassia (ca. 805\x{2013}867). Zhivago\x{2019}s two poems about Mary Magdalene follow the same tradition.",
           ],
           [
             1,

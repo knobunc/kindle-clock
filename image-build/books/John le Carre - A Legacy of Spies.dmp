@@ -6,6 +6,11 @@ $VAR1 = [
           ],
           [
             1,
+            '[ap 01:00] A Legacy of Spies - John le Carre.epub (OEBPS/xhtml/10_Chapter_3.xhtml) - one',
+            "\x{2018}So let\x{2019}s just get real, for a change, can we?\x{2019} he suggested, with an implicit yawn. \x{2018}Control\x{2019}s reptile fund is at this exact point or moment in time the sole, exclusive piece of credible evidence that provides us with (a) a path to the conduct and purpose of Operation Windfall, and (b) a means to defend ourselves in any frivolous civil action or private prosecution brought against this Service, and against you Peter Guillam personally, by <<one|9u>> Christoph Leamas, sole heir of the late Alec, and one Karen Gold, spinster, sole daughter of the late Elizabeth or Liz. Did you hear any of that? You did. Don\x{2019}t say we\x{2019}ve surprised you at last.\x{2019}",
+          ],
+          [
+            1,
             '[00:00] A Legacy of Spies - John le Carre.epub (OEBPS/xhtml/10_Chapter_3.xhtml) - midnight',
             "\x{2018}Yes? Hullo?\x{2019}\x{a0}\x{2013} and when I hesitated\x{a0}\x{2013}\x{a0}\x{2018}Who is that, please?\x{2019}\x{a0}\x{2013} indignantly, as if it was <<midnight|13>> rather than <<seven in the evening|5>>.",
           ],
@@ -98,6 +103,11 @@ $VAR1 = [
             1,
             '[07:30] A Legacy of Spies - John le Carre.epub (OEBPS/xhtml/15_Chapter_8.xhtml) - 0730 hours',
             'FIRST INDICATIONS that sub-source Tulip might be at risk of exposure occurred in the course of a routine treff between Mayflower and his controller Leamas (PAUL) in West Berlin safe house K2 (Fasanenstrasse) on 16 January at approx <<0730 hours|1>>.',
+          ],
+          [
+            1,
+            '[12:00] A Legacy of Spies - John le Carre.epub (OEBPS/xhtml/15_Chapter_8.xhtml) - midday',
+            'At <<midday|13>> of the same day, as a matter of routine, Leamas instructed de Jong to revisit existing contingency plans for the exfiltration of sub-source Tulip. De Jong confirmed that escape papers and resources for an eastward exfiltration via Prague were current. Having waited for the evening shift of workmen, Mayflower cycled back into East Berlin.',
           ],
           [
             1,
@@ -258,7 +268,7 @@ $VAR1 = [
             1,
             '[ap 10:00] A Legacy of Spies - John le Carre.epub (OEBPS/xhtml/19_Chapter_12.xhtml) - ten',
             "\x{2018}You find me the evidence, I\x{2019}ll find you the judge. The vultures are gathering as we speak. If you don\x{2019}t show up for the hearing, the All-Partygoers will fear the worst, and act accordingly. I asked Bunny for your passport. The brute won\x{2019}t part with it. But he will extend your stay at Dolphin Square on the same miserly terms. All to be discussed. Will same time tomorrow morning suit you?\x{2019}
-\x{2018}Could we make it <<ten|9f>>?\x{2019}
+\x{2018}Could we make it <<ten|9q:0>>?\x{2019}
 \x{2018}I\x{2019}ll be on the dot,\x{2019} she replied, and I said I would too.",
           ],
           [

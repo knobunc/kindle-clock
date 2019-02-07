@@ -27,7 +27,7 @@ $VAR1 = [
           [
             1,
             '[ap > 02:00] The Long War - Terry Pratchett.epub (text/part0019.html) - after two',
-            "In Maggie\x{2019}s sea cabin, Mackenzie accepted the mug with gratitude, and <<after two|9:0>> blessed swigs, said, \x{2018}You know, the bastard got what was coming to him, in my personal view. But we are officers of the United States Navy. Even Wyatt Earp had to look as if he respected the law.\x{2019}",
+            "In Maggie\x{2019}s sea cabin, Mackenzie accepted the mug with gratitude, and <<after two|9w>> blessed swigs, said, \x{2018}You know, the bastard got what was coming to him, in my personal view. But we are officers of the United States Navy. Even Wyatt Earp had to look as if he respected the law.\x{2019}",
           ],
           [
             1,
@@ -53,6 +53,11 @@ $VAR1 = [
             1,
             '[03:00] The Long War - Terry Pratchett.epub (text/part0061.html) - three a.m.',
             'The problem for Roberta Golding was that she was too smart to be distracted. For her, it was <<three a.m.|5>> all the time.',
+          ],
+          [
+            1,
+            '[~ 12:00] The Long War - Terry Pratchett.epub (text/part0071.html) - about midday',
+            'GEOGRAPHICALLY VALHALLA was near the coastline of the inland ocean of this distant America, on Earth West One Point Four Million Plus Thirteen (stoner miscount correction applied, as Ensign Toby Fox solemnly told Maggie). The dirigibles of Operation Prodigal Son arrived in this world <<about midday|13>> of a sparkling late July day, and hovered in a blue sky as pure as a special effect in a computer game.',
           ],
           [
             1,

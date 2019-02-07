@@ -68,7 +68,7 @@ $VAR1 = [
             1,
             '[> 12:00] The Heretic\'s Apprentice - Ellis Peters.epub (OEBPS/Text/014.html) - past noon',
             "\x{2018}He was here?\x{2019} echoed the enquirer, elated. \x{2018}What time was that?\x{2019}
-\x{2018}Well <<past noon|13>>. <<Nearly three|9e:1>>, I suppose, when they came in.\x{2019}
+\x{2018}Well <<past noon|13>>. <<Nearly three|9:1>>, I suppose, when they came in.\x{2019}
 \x{2018}They? He wasn\x{2019}t alone?\x{2019}",
           ],
           [
@@ -122,6 +122,11 @@ $VAR1 = [
             "It was said so naturally and simply that it passed Brother Cadfael by for a long moment. He had turned towards the open doorway, where Girard was already leading the way out, and the early evening hung textured like a pearl, the westering sun veiled. He had heard the words without regarding them, and enlightenment fell on him so dazzlingly that he stumbled on the threshold. He swung about to stare at the young man following him.
 \x{2018}What was that you said? For <<Vespers|13>>? He made you late for <<Vespers|13>>?\x{2019}
 \x{2018}So he did,\x{2019} said Eadmer blankly. \x{2018}I was just opening the door to go down and into the church when he came. The office was half over by the time I sent him away consoled.\x{2019}",
+          ],
+          [
+            1,
+            '[~ 16:30] The Heretic\'s Apprentice - Ellis Peters.epub (OEBPS/Text/015.html) - Vespers',
+            "\x{2018}Dear God!\x{2019} said Cadfael reverently. \x{2018}And I never even thought to ask about the time! And this was on the festival day? Not the <<Vespers|13>> of the day you arrived? Not the eve?\x{2019}",
           ],
           [
             1,

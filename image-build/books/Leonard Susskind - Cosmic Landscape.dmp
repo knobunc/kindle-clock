@@ -26,6 +26,11 @@ $VAR1 = [
           ],
           [
             1,
+            '[ap ~ 10:00] Cosmic Landscape - Leonard Susskind.epub (index_split_010.html) - about 10',
+            "Your body has about 10 protons. If the proton lifetime were twenty billion years, <<about 10|9:0>> of those protons would decay every year. This is a negligible fraction of your protons, so you don\x{2019}t have to worry about disappearing. But each proton that decays in your body shoots out energetic particles: photons and positrons and pions. These particles moving through your body have the same effects as exposure to radioactivity: cell damage and cancer. If 10 protons decay in your body, they will kill you. So the anthropic constraints on proton decay may be stronger than what you naively think. As far as we know, a lifetime of a million times the age of the universe\x{2014}10 years\x{2014}is long enough not to jeopardize life. On anthropic grounds we can rule out all valleys of the Landscape where the average proton lifetime is less than this.",
+          ],
+          [
+            1,
             '[> 19:05] Cosmic Landscape - Leonard Susskind.epub (index_split_012.html) - after 1905',
             "Einstein received only one Nobel Prize in physics, although I think it\x{2019}s fair to say that almost every prize given <<after 1905|18:0>> was in one way or another a tribute to his discoveries. The prize was ultimately awarded not for relativity but for the photoelectric effect. This, the most radical of Einstein\x{2019}s contributions, is where the idea that light is composed of discrete quanta of energy was first argued. Physics was ready for the Special Theory of Relativity. In fact it was overdue. But the photon theory of light was a bolt from the blue. As noted previously, Einstein argued that a beam of light, usually thought of as a pure wave phenomenon, had a discrete, or grainy, structure. If the light had a definite color (wavelength), then the photons would all be marching in lock step, each photon identical to every other photon. Particles that can all be in the same quantum state like photons are called bosons, after the Indian physicist Satyendra Nath Bose.",
           ],
@@ -62,6 +67,6 @@ $VAR1 = [
           [
             1,
             "[ap 10:10] Cosmic Landscape - Leonard Susskind.epub (index_split_017.html) - 10\x{2014}10",
-            "1 2 3 4 5 6 7 . . .2 4 6 8 10 12 14 . . .According to the only mathematical theory of infinite numbers, the theory that Cantor constructed, the number of even integers is the same as the number of all integers! What is more, the set of numbers divisible by <<10\x{2014}10|5a:0>>, 20, 30, 40, etc.\x{2014}is exactly the same infinite size. The integers, the even or odd integers, the integers that are divisible by ten\x{2014}they are all examples of what mathematicians call countably infinite sets, and they are all equally large.",
+            "According to the only mathematical theory of infinite numbers, the theory that Cantor constructed, the number of even integers is the same as the number of all integers! What is more, the set of numbers divisible by <<10\x{2014}10|5a:0>>, 20, 30, 40, etc.\x{2014}is exactly the same infinite size. The integers, the even or odd integers, the integers that are divisible by ten\x{2014}they are all examples of what mathematicians call countably infinite sets, and they are all equally large.",
           ],
         ];

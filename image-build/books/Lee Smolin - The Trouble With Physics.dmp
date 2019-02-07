@@ -2,8 +2,8 @@ $VAR1 = [
           [
             1,
             '[19:30] The Trouble With Physics_ The Rise of Stri - Lee Smolin.epub (text/part0004.html) - 1930',
-            "The working out of Einstein\x{2019}s insights took the next quarter century. By <<1930|9e:1>>, we had his general theory of relativity, which makes the revolutionary claim that the geometry of space is not fixed but evolves in time. The wave-particle duality uncovered by Einstein in 1905 had become a fully realized quantum theory, which gave us a 
-detailed understanding of atoms, chemistry, matter, and radiation. By <<1930|9:0>> we also knew that the universe contained huge numbers of galaxies like our own, and we knew they were moving away from one another. The implications were not yet clear, but we knew we lived in an expanding universe.",
+            "The working out of Einstein\x{2019}s insights took the next quarter century. By <<1930|9u>>, we had his general theory of relativity, which makes the revolutionary claim that the geometry of space is not fixed but evolves in time. The wave-particle duality uncovered by Einstein in 1905 had become a fully realized quantum theory, which gave us a
+detailed understanding of atoms, chemistry, matter, and radiation. By <<1930|9u>> we also knew that the universe contained huge numbers of galaxies like our own, and we knew they were moving away from one another. The implications were not yet clear, but we knew we lived in an expanding universe.",
           ],
           [
             1,
@@ -13,7 +13,7 @@ detailed understanding of atoms, chemistry, matter, and radiation. By <<1930|9:0
           [
             1,
             '[~ 19:07] The Trouble With Physics_ The Rise of Stri - Lee Smolin.epub (text/part0008.html) - around 1907',
-            "One might think that Einstein, of all people, would have embraced this new theory. But by that time (1914), he was already traveling down a different road. Unlike his contemporaries, Einstein had taken a route to the unification of gravity with relativity that brought him back to the very foundation of the principle of relativity: the unification of motion and rest discovered by Galileo several centuries earlier. That unification involved only uniform motion\x{2014}that is, motion in a straight line at a constant speed. Beginning 
+            "One might think that Einstein, of all people, would have embraced this new theory. But by that time (1914), he was already traveling down a different road. Unlike his contemporaries, Einstein had taken a route to the unification of gravity with relativity that brought him back to the very foundation of the principle of relativity: the unification of motion and rest discovered by Galileo several centuries earlier. That unification involved only uniform motion\x{2014}that is, motion in a straight line at a constant speed. Beginning
 <<around 1907|18:0>>, Einstein started to ask himself about other types of motion, such as accelerated motion. This is motion whose speed or direction changes. Shouldn\x{2019}t the distinction between accelerating and nonaccelerating motion somehow be erased?",
           ],
           [
@@ -29,7 +29,7 @@ detailed understanding of atoms, chemistry, matter, and radiation. By <<1930|9:0
           [
             1,
             '[> 19:30] The Trouble With Physics_ The Rise of Stri - Lee Smolin.epub (text/part0008.html) - after 1930',
-            "But there was an even more fundamental problem, which had to do with the relationship of the unified theories to the quantum theory. The early attempts at unified-field theories took place before quantum mechanics was completely formulated, in 1926. Indeed, a few of the quantum theory\x{2019}s proponents had interesting speculations about the relationship between the extra dimensions and quantum theory. But <<after 1930|18:0>> or so, there was a split. Most physicists ignored the problem of unification and concentrated instead on applying quantum theory to a vast array of phenomena, from the properties of materials to the processes by which stars produce energy. At the same time, those few who persisted in working on the unified theories increasingly ignored quantum theory. These people (Einstein included) worked as if Planck, Bohr, Heisenberg, and 
+            "But there was an even more fundamental problem, which had to do with the relationship of the unified theories to the quantum theory. The early attempts at unified-field theories took place before quantum mechanics was completely formulated, in 1926. Indeed, a few of the quantum theory\x{2019}s proponents had interesting speculations about the relationship between the extra dimensions and quantum theory. But <<after 1930|18:0>> or so, there was a split. Most physicists ignored the problem of unification and concentrated instead on applying quantum theory to a vast array of phenomena, from the properties of materials to the processes by which stars produce energy. At the same time, those few who persisted in working on the unified theories increasingly ignored quantum theory. These people (Einstein included) worked as if Planck, Bohr, Heisenberg, and
 Schr\x{f6}dinger had never existed. They were living after the quantum-mechanical revolution but pretending to work in an intellectual universe in which that revolution had never occurred. They seemed to their contemporaries like the quaint communities of Russian \x{e9}migr\x{e9} aristocrats who, in the 1920s and 1930s, carried on their elaborate social rituals in Paris and New York as if they were back in tsarist Saint Petersburg.",
           ],
           [
@@ -49,13 +49,19 @@ Schr\x{f6}dinger had never existed. They were living after the quantum-mechanica
           ],
           [
             1,
+            '[ap 01:00] The Trouble With Physics_ The Rise of Stri - Lee Smolin.epub (text/part0014.html) - one',
+            'A few things would have been clear to early astronomers. Eclipses happen when the sun and the moon, which take different paths across the sky, meet each other. Their paths intersect at two places. For an eclipse to happen, the sun and moon must meet at <<one|9g>> of these two points. So in order to predict eclipses, you have to keep track of the annual path of the sun and the monthly path of the moon. Simply follow the paths and note when the two bodies meet.
+The implication is that there must be a pattern that repeats in some multiple of the twenty-nine-and-a-half-day lunar period.',
+          ],
+          [
+            1,
             '[ap 09:59] The Trouble With Physics_ The Rise of Stri - Lee Smolin.epub (text/part0016.html) - one to ten',
             'There is only one catch. A genuine quantum version of M-theory would have to be background-independent, for the same reason that any quantum theory of gravity must be. But in addition to the reasons I spelled out earlier, M-theory must be background-independent because the five superstring theories, with all their different manifolds and geometries, are supposed to be part of M-theory. This includes all the different ways those geometries could be wrapped up, in all spatial dimensions from <<one to ten|10a:0>>. They all provide backgrounds for strings and branes to move. But if they are part of one unified theory, that theory cannot be built on any one background, because it must encompass all backgrounds.',
           ],
           [
             1,
             '[~ 19:16] The Trouble With Physics_ The Rise of Stri - Lee Smolin.epub (text/part0018.html) - around 1916',
-            "The story begins <<around 1916|18:0>>, with Einstein\x{2019}s refusal to believe 
+            "The story begins <<around 1916|18:0>>, with Einstein\x{2019}s refusal to believe
 the most dramatic prediction of his then new general theory of relativity. He had embraced the big lesson of general relativity, which was that the geometry of space and time evolves dynamically. So when people began applying his new theory to models of the universe, he should not have been surprised by what they found, which was that the universe, too, evolves dynamically in time. The model universes they studied expanded and contracted; they even seemed to have beginnings and ends.",
           ],
           [
@@ -81,15 +87,15 @@ the most dramatic prediction of his then new general theory of relativity. He ha
           [
             1,
             '[ap 03:14] The Trouble With Physics_ The Rise of Stri - Lee Smolin.epub (text/part0043.html) - 3.14',
-            "Unfortunately the ten-dimensional superstring pretending to be the most successful among existing string models is strictly defined, in general, only at tree and one-loop levels. Starting from the two-loop corrections to the scattering amplitudes all expressions in the perturbative superstring theory are really not defined. The reason for that comes from the well-known problems with supergeometry or integration over the \x{201c}superpartners\x{201d} of the moduli of complex structures. In contrast to the bosonic case where the integration measure is fixed by the Belavin-Knizhnik theorem, the definition of the integration measure over supermoduli (or, more strictly, the odd moduli of super-complex structures) is still an unsolved problem [88, 22]. The moduli 
+            "Unfortunately the ten-dimensional superstring pretending to be the most successful among existing string models is strictly defined, in general, only at tree and one-loop levels. Starting from the two-loop corrections to the scattering amplitudes all expressions in the perturbative superstring theory are really not defined. The reason for that comes from the well-known problems with supergeometry or integration over the \x{201c}superpartners\x{201d} of the moduli of complex structures. In contrast to the bosonic case where the integration measure is fixed by the Belavin-Knizhnik theorem, the definition of the integration measure over supermoduli (or, more strictly, the odd moduli of super-complex structures) is still an unsolved problem [88, 22]. The moduli
 spaces of the complex structures of Riemann surfaces are non compact, and the integration over such spaces requires special care and additional definitions. In the bosonic case, when the integrals over moduli spaces diverge, the result of integration in (<<3.14|5a:0>>) is defined only up to certain \x{201c}boundary terms\x{201d} (the contributions of degenerate Riemann surfaces or the surfaces of lower genera (with less \x{201c}handles\x{201d}). In the superstring case one runs into more serious problems since the very notion of the \x{201c}boundary of moduli space\x{201d} is not defined. Indeed the integral over the Grassmann odd variables does not \x{201c}know\x{201d} what is the boundary term. This is the fundamental reason why the integration measure in fermionic string is not well-defined and depends on the \x{201c}gauge choice\x{201d} or the particular choice for the \x{201c}zero modes\x{201d} in the action (<<3.23|5a:0>>). For two-loop contributions this problem can be solved \x{201c}empirically\x{201d} (see [88, 22]), but in the general setup the superstring perturbation theory is not mathematically well defined. Moreover, these are not problems of the formalism: the same obstacles arise in less geometrical approach of Green and Schwarz [91].",
           ],
           [
             1,
             "[20:21] The Trouble With Physics_ The Rise of Stri - Lee Smolin.epub (text/part0046.html) - 20\x{2013}21",
-            "
+            "motion and, 22
 unification proposals, <<20\x{2013}21|5a:0>>, 23, 24
-",
+universe as static, 151",
           ],
           [
             1,
@@ -114,6 +120,34 @@ Cosmic Landscape, The (Susskind), 276",
           ],
           [
             1,
+            "[15:16] The Trouble With Physics_ The Rise of Stri - Lee Smolin.epub (text/part0049.html) - 15\x{2013}16",
+            "supernova observation and, 150, 363 n1 (ch. 10)
+tension and, <<15\x{2013}16|5a:0>>
+dark matter",
+          ],
+          [
+            1,
+            "[ap 10:11] The Trouble With Physics_ The Rise of Stri - Lee Smolin.epub (text/part0049.html) - 10\x{2013}11",
+            "amount of, 16
+electromagnetic field, <<10\x{2013}11|5a:0>>
+as missing matter, 14\x{2013}15",
+          ],
+          [
+            1,
+            "[ap 10:11] The Trouble With Physics_ The Rise of Stri - Lee Smolin.epub (text/part0049.html) - 10\x{2013}11",
+            "electromagnetic field, <<10\x{2013}11|5a:0>>
+as missing matter, <<14\x{2013}15|5a:0>>
+as problem, 13, 16, 209",
+          ],
+          [
+            1,
+            "[ap 10:11] The Trouble With Physics_ The Rise of Stri - Lee Smolin.epub (text/part0050.html) - 10\x{2013}11",
+            "as basic type, 38
+as constructive theory, <<10\x{2013}11|5a:0>>
+as geometry of space dimension, 47",
+          ],
+          [
+            1,
             "[ap 00:16] The Trouble With Physics_ The Rise of Stri - Lee Smolin.epub (text/part0051.html) - 12\x{2013}16",
             "Frampton, Paul, 77\x{2013}78
 free constants, <<12\x{2013}16|5a:0>>, 70
@@ -121,57 +155,99 @@ Freidel, Laurent, 234\x{2013}35",
           ],
           [
             1,
+            "[ap 11:12] The Trouble With Physics_ The Rise of Stri - Lee Smolin.epub (text/part0052.html) - 11\x{2013}12",
+            "understanding of, 13
+unification with electromagnetic fields, <<11\x{2013}12|5a:0>>
+unification with rest of physics, 43, 54",
+          ],
+          [
+            1,
             "[14:15] The Trouble With Physics_ The Rise of Stri - Lee Smolin.epub (text/part0057.html) - 14\x{2013}15",
             "light
 matter and, <<14\x{2013}15|5a:0>>
-",
+and sound unification, 19\x{2013}20",
+          ],
+          [
+            1,
+            "[14:15] The Trouble With Physics_ The Rise of Stri - Lee Smolin.epub (text/part0057.html) - 14\x{2013}15",
+            "matter and, <<14\x{2013}15|5a:0>>
+and sound unification, 19\x{2013}20
+wavelength of, 39",
           ],
           [
             1,
             "[14:15] The Trouble With Physics_ The Rise of Stri - Lee Smolin.epub (text/part0058.html) - 14\x{2013}15",
             "mass
 astronomers\x{2019} comparison measuring of, <<14\x{2013}15|5a:0>>
-",
+description, 105",
+          ],
+          [
+            1,
+            "[14:15] The Trouble With Physics_ The Rise of Stri - Lee Smolin.epub (text/part0058.html) - 14\x{2013}15",
+            "importance of, 38
+light and, <<14\x{2013}15|5a:0>>
+unification of heat and, 19",
           ],
           [
             1,
             "[ap 03:17] The Trouble With Physics_ The Rise of Stri - Lee Smolin.epub (text/part0061.html) - 3\x{2013}17",
-            "
+            "historical overview of, viii\x{2013}xi, xiii\x{2013}xiv
 key problems in, <<3\x{2013}17|5a:0>>, 349\x{2013}50
-",
+\x{201c}missing element\x{201d} and, 101\x{2013}2",
           ],
           [
             1,
             "[20:21] The Trouble With Physics_ The Rise of Stri - Lee Smolin.epub (text/part0061.html) - 20\x{2013}21",
-            "
+            "epicycles, xvii, 21, 24, 196, 218
 unification proposals, <<20\x{2013}21|5a:0>>, 23, 24
-",
+Pynchon, Thomas, 233",
+          ],
+          [
+            1,
+            "[ap 09:11] The Trouble With Physics_ The Rise of Stri - Lee Smolin.epub (text/part0062.html) - 9\x{2013}11",
+            "field theories and, 55, 84
+new theory for, <<9\x{2013}11|5a:0>>
+observed system/observers division and, 7\x{2013}8",
+          ],
+          [
+            1,
+            "[ap 08:11] The Trouble With Physics_ The Rise of Stri - Lee Smolin.epub (text/part0062.html) - 8\x{2013}11",
+            "observed system/observers division and, 7\x{2013}8
+problem-solving need, <<8\x{2013}11|5a:0>>
+realism and, 7, 8\x{2013}10",
+          ],
+          [
+            1,
+            "[ap 08:11] The Trouble With Physics_ The Rise of Stri - Lee Smolin.epub (text/part0062.html) - 8\x{2013}11",
+            "problem-solving need, <<8\x{2013}11|5a:0>>
+realism and, 7, <<8\x{2013}10|5a:0>>
+quantum spacetime, 248, 249",
           ],
           [
             1,
             "[ap 08:10] The Trouble With Physics_ The Rise of Stri - Lee Smolin.epub (text/part0063.html) - 8\x{2013}10",
             "realism
 quantum mechanics and, 7, <<8\x{2013}10|5a:0>>
-",
+quantum theory and, 6\x{2013}8",
           ],
           [
             1,
             "[21:22] The Trouble With Physics_ The Rise of Stri - Lee Smolin.epub (text/part0063.html) - 21\x{2013}22",
             "rest
 definition/description, <<21\x{2013}22|5a:0>>
-",
+unification of motion and, 21, 22, 24, 39, 203, 219",
           ],
           [
             1,
             "[ap 00:16] The Trouble With Physics_ The Rise of Stri - Lee Smolin.epub (text/part0064.html) - 12\x{2013}16",
-            "
+            "description, 12
 free-constants problem and, <<12\x{2013}16|5a:0>>, 191
-",
+discovery of quarks and, 56",
           ],
           [
             1,
             "[ap 11:12] The Trouble With Physics_ The Rise of Stri - Lee Smolin.epub (text/part0066.html) - 11\x{2013}12",
-            "
+            "timing of, 11
 unification of gravity and electromagnetism, <<11\x{2013}12|5a:0>>, 45, 46\x{2013}47
 unification of heat and matter, 19",
           ],
@@ -181,6 +257,13 @@ unification of heat and matter, 19",
             "unification of heat and matter, 19
 unification of motion and rest, <<21\x{2013}22|5a:0>>, 24, 36, 39, 203, 219
 unification of physics",
+          ],
+          [
+            1,
+            "[ap 10:11] The Trouble With Physics_ The Rise of Stri - Lee Smolin.epub (text/part0066.html) - 10\x{2013}11",
+            "need for theory, 4\x{2013}8
+new theory for quantum mechanics, <<10\x{2013}11|5a:0>>
+Nielsen\x{2019}s antiunification program, 316",
           ],
           [
             1,
@@ -194,26 +277,68 @@ unification proposals",
             "[00:26] The Trouble With Physics_ The Rise of Stri - Lee Smolin.epub (text/part0066.html) - 24\x{2013}26",
             "unification proposals
 determination of truth of, 20, <<24\x{2013}26|5a:0>>, 27\x{2013}31, 247
-",
+of Earth and planets, 20, 21",
+          ],
+          [
+            1,
+            "[22:23] The Trouble With Physics_ The Rise of Stri - Lee Smolin.epub (text/part0066.html) - 22\x{2013}23",
+            "evolution by natural selection and, 19
+explanations of, <<22\x{2013}23|5a:0>>
+fundamental force and, 11",
+          ],
+          [
+            1,
+            "[ap 11:12] The Trouble With Physics_ The Rise of Stri - Lee Smolin.epub (text/part0066.html) - 11\x{2013}12",
+            "further unifications with, 24, 30\x{2013}31
+of gravity and electromagnetic field, <<11\x{2013}12|5a:0>>
+interpreting evidence for, 24",
+          ],
+          [
+            1,
+            "[19:20] The Trouble With Physics_ The Rise of Stri - Lee Smolin.epub (text/part0066.html) - 19\x{2013}20",
+            "Kepler example, 27\x{2013}30
+of light and sound, <<19\x{2013}20|5a:0>>
+of motion and rest, <<21\x{2013}22|5a:0>>, 36",
+          ],
+          [
+            1,
+            "[19:20] The Trouble With Physics_ The Rise of Stri - Lee Smolin.epub (text/part0066.html) - 19\x{2013}20",
+            "of light and sound, <<19\x{2013}20|5a:0>>
+of motion and rest, <<21\x{2013}22|5a:0>>, 36
+observers\x{2019} perspective and, <<22\x{2013}23|5a:0>>",
           ],
           [
             1,
             "[21:22] The Trouble With Physics_ The Rise of Stri - Lee Smolin.epub (text/part0066.html) - 21\x{2013}22",
-            "
-of motion and rest, <<21\x{2013}22|5a:0>>, 36
-",
+            "of motion and rest, <<21\x{2013}22|5a:0>>, 36
+observers\x{2019} perspective and, <<22\x{2013}23|5a:0>>
+rationality and, 25\x{2013}27",
           ],
           [
             1,
             "[18:19] The Trouble With Physics_ The Rise of Stri - Lee Smolin.epub (text/part0066.html) - 18\x{2013}19",
-            "
+            "rationality and, 25\x{2013}27
+reactions to, <<18\x{2013}19|5a:0>>
+single law and, 10",
+          ],
+          [
+            1,
+            "[19:20] The Trouble With Physics_ The Rise of Stri - Lee Smolin.epub (text/part0066.html) - 19\x{2013}20",
+            "single law and, 10
+as sometimes false, <<19\x{2013}20|5a:0>>
+for sun, stars, and moon, <<18\x{2013}19|5a:0>>, <<20\x{2013}21|5a:0>>, 23, 24",
+          ],
+          [
+            1,
+            "[19:20] The Trouble With Physics_ The Rise of Stri - Lee Smolin.epub (text/part0066.html) - 19\x{2013}20",
+            "as sometimes false, <<19\x{2013}20|5a:0>>
 for sun, stars, and moon, <<18\x{2013}19|5a:0>>, <<20\x{2013}21|5a:0>>, 23, 24
-",
+testing of, 20, 23",
           ],
           [
             1,
             "[21:22] The Trouble With Physics_ The Rise of Stri - Lee Smolin.epub (text/part0066.html) - 21\x{2013}22",
-            "
+            "See also specific theories
 uniform motion, <<21\x{2013}22|5a:0>>, 39\x{2013}40
 units of distance and time, 215\x{2013}16, 228",
           ],
@@ -222,13 +347,27 @@ units of distance and time, 215\x{2013}16, 228",
             "[20:21] The Trouble With Physics_ The Rise of Stri - Lee Smolin.epub (text/part0066.html) - 20\x{2013}21",
             "universe
 cosmic circles and, <<20\x{2013}21|5a:0>>
-",
+cosmological natural selection and, 167\x{2013}68",
           ],
           [
             1,
             "[15:16] The Trouble With Physics_ The Rise of Stri - Lee Smolin.epub (text/part0066.html) - 15\x{2013}16",
-            "
+            "cosmological natural selection and, 167\x{2013}68
+deceleration and, <<15\x{2013}16|5a:0>>
+early discoveries about, x\x{2013}xi",
+          ],
+          [
+            1,
+            "[20:21] The Trouble With Physics_ The Rise of Stri - Lee Smolin.epub (text/part0066.html) - 20\x{2013}21",
+            "early discoveries about, x\x{2013}xi
+Earth as center and, <<20\x{2013}21|5a:0>>
+eternal inflation and, 162",
+          ],
+          [
+            1,
+            "[15:16] The Trouble With Physics_ The Rise of Stri - Lee Smolin.epub (text/part0066.html) - 15\x{2013}16",
+            "as evolving, 150\x{2013}52
 expansion of, x, <<15\x{2013}16|5a:0>>, 44, 150, 152\x{2013}53
-",
+as quantum computer, 317\x{2013}18",
           ],
         ];

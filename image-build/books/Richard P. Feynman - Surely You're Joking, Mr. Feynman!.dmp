@@ -36,13 +36,13 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 03:00] Surely You\'re Joking, Mr. Feynman!_ Advent - Richard P. Feynman.epub (OEBPS/part4_split_001.xhtml) - three',
-            "He said, \x{201c}All right, there\x{2019}s a meeting at <<three|9g>> o\x{2019}clock. I\x{2019}ll see you there.\x{201d}",
+            "[ap 03:00] Surely You're Joking, Mr. Feynman!_ Advent - Richard P. Feynman.epub (OEBPS/part4_split_001.xhtml) - three o\x{2019}clock",
+            "He said, \x{201c}All right, there\x{2019}s a meeting at <<three o\x{2019}clock|9g>>. I\x{2019}ll see you there.\x{201d}",
           ],
           [
             1,
-            '[ap 03:00] Surely You\'re Joking, Mr. Feynman!_ Advent - Richard P. Feynman.epub (OEBPS/part4_split_001.xhtml) - three',
-            "So I went back to work on my thesis\x{2013}for about three minutes. Then I began to pace the floor and think about this thing. The Germans had Hitler and the possibility of developing an atomic bomb was obvious, and the possibility that they would develop it before we did was very much of a fright. So I decided to go to the meeting at <<three|9g>> o\x{2019}clock.",
+            "[ap 03:00] Surely You're Joking, Mr. Feynman!_ Advent - Richard P. Feynman.epub (OEBPS/part4_split_001.xhtml) - three o\x{2019}clock",
+            "So I went back to work on my thesis\x{2013}for about three minutes. Then I began to pace the floor and think about this thing. The Germans had Hitler and the possibility of developing an atomic bomb was obvious, and the possibility that they would develop it before we did was very much of a fright. So I decided to go to the meeting at <<three o\x{2019}clock|9g>>.",
           ],
           [
             1,

@@ -21,6 +21,104 @@ $VAR1 = [
           ],
           [
             1,
+            '[ap 10:45] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/10-_Toc325282157.xhtml) - 10.45',
+            'Girvan
+<<10.45|5a:0>>
+<<2.16|5a:0>>',
+          ],
+          [
+            1,
+            '[ap 10:45] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/10-_Toc325282157.xhtml) - 10.45',
+            '<<10.45|5a:0>>
+<<2.16|5a:0>>
+Pinmore',
+          ],
+          [
+            1,
+            '[ap 02:31] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/10-_Toc325282157.xhtml) - 2.31',
+            '11.1
+<<2.31|5a:0>>
+Pinwherry',
+          ],
+          [
+            1,
+            '[ap 02:39] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/10-_Toc325282157.xhtml) - 2.39',
+            '11.8
+<<2.39|5a:0>>
+Barrhill',
+          ],
+          [
+            1,
+            '[ap 11:18] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/10-_Toc325282157.xhtml) - 11.18',
+            'Barrhill
+<<11.18|5a:0>>
+<<2.50|5a:0>>',
+          ],
+          [
+            1,
+            '[ap 11:18] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/10-_Toc325282157.xhtml) - 11.18',
+            '<<11.18|5a:0>>
+<<2.50|5a:0>>
+Glenwhilly',
+          ],
+          [
+            1,
+            '[ap 11:33] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/10-_Toc325282157.xhtml) - 11.33',
+            'Glenwhilly
+<<11.33|5a:0>>
+3.6',
+          ],
+          [
+            1,
+            '[ap 11:41] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/10-_Toc325282157.xhtml) - 11.41',
+            'New Luce
+<<11.41|5a:0>>
+<<3.13|5a:0>>',
+          ],
+          [
+            1,
+            '[ap 11:41] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/10-_Toc325282157.xhtml) - 11.41',
+            '<<11.41|5a:0>>
+<<3.13|5a:0>>
+Dunragit',
+          ],
+          [
+            1,
+            '[ap 11:52] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/10-_Toc325282157.xhtml) - 11.52',
+            'Dunragit
+<<11.52|5a:0>>
+<<3.26|5a:0>>',
+          ],
+          [
+            1,
+            '[ap 11:52] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/10-_Toc325282157.xhtml) - 11.52',
+            '<<11.52|5a:0>>
+<<3.26|5a:0>>
+Castle Kennedy',
+          ],
+          [
+            1,
+            '[12:00] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/10-_Toc325282157.xhtml) - noon',
+            'Castle Kennedy
+2 <<noon|13>>
+<<3.33|5a:1>>',
+          ],
+          [
+            1,
+            '[12:00] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/10-_Toc325282157.xhtml) - noon',
+            '2 <<noon|13>>
+<<3.33|4>>
+Stranraer',
+          ],
+          [
+            1,
+            '[ap 03:39] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/10-_Toc325282157.xhtml) - 3.39',
+            '12.7
+<<3.39|5a:0>>
+Wimsey shook his head.',
+          ],
+          [
+            1,
             '[ap 02:50] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/10-_Toc325282157.xhtml) - 2.50',
             "\x{2018}He couldn\x{2019}t catch the first train \x{2013} not on a bicycle, at any rate. Barrhill is his nearest point, and, if you give him only five minutes to pack his traps and get started, that leaves a bare eight minutes for ten miles or so. It\x{2019}s just conceivable that he might do it by car if he blinded like hell and the train happened to be late, but how could he have got the spare car along? Of course he could have hung about somewhere in the hills and taken the <<2.50|5a:1>>, or he could have ridden farther and picked the same train up at another station, but that would give him a very poor alibi.\x{2019}",
           ],
@@ -46,21 +144,141 @@ $VAR1 = [
           ],
           [
             1,
+            '[ap 11:35] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/10-_Toc325282157.xhtml) - 11.35',
+            'Stranraer dep.
+<<11.35|5a:0>>
+<<12.30|5a:0>> (from Stranraer Pier)',
+          ],
+          [
+            1,
+            '[ap 11:35] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/10-_Toc325282157.xhtml) - 11.35',
+            '<<11.35|5a:0>>
+<<12.30|5a:0>> (from Stranraer Pier)
+4.5',
+          ],
+          [
+            1,
+            '[ap 11:42] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/10-_Toc325282157.xhtml) - 11.42',
+            "Castle Kennedy
+<<11.42|5a:0>>
+\x{2026}",
+          ],
+          [
+            1,
             '[ap 04:12] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/10-_Toc325282157.xhtml) - 4.12',
-            "a.m.p.m.p.m.
-Stranraer dep.11.3512.30 (from Stranraer Pier)4.5
-Castle Kennedy11.42\x{2026}<<4.12|5a:0>>
-Dunragit11.5212.424.20
-New Luce12.7\x{2026}<<4.33
-\x{a0}p.m.|2a>>\x{a0}\x{a0}
-Glenwhilly12.19\x{2026}<<4.45|5a:0>>
-Barrhill12.35\x{2026}5.0
-Pinwherry12.43\x{2026}5.8
-Pinmore12.56\x{2026}<<5.18|5a:0>>
-Girvan arr.1.61.375.28
-dep1.111.425.36
-
+            "\x{2026}
+<<4.12|5a:0>>
+Dunragit",
+          ],
+          [
+            1,
+            '[ap 11:52] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/10-_Toc325282157.xhtml) - 11.52',
+            'Dunragit
+<<11.52|5a:0>>
+<<12.42|5a:0>>',
+          ],
+          [
+            1,
+            '[ap 11:52] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/10-_Toc325282157.xhtml) - 11.52',
+            '<<11.52|5a:0>>
+<<12.42|5a:0>>
+<<4.20|5a:0>>',
+          ],
+          [
+            1,
+            '[ap 00:42] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/10-_Toc325282157.xhtml) - 12.42',
+            '<<12.42|5a:0>>
+<<4.20|5a:0>>
+New Luce',
+          ],
+          [
+            1,
+            '[ap 04:33] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/10-_Toc325282157.xhtml) - 4.33',
+            "\x{2026}
+<<4.33|5a:0>>
+",
+          ],
+          [
+            1,
+            '[ap 00:19] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/10-_Toc325282157.xhtml) - 12.19',
+            "Glenwhilly
+<<12.19|5a:0>>
+\x{2026}",
+          ],
+          [
+            1,
+            '[ap 04:45] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/10-_Toc325282157.xhtml) - 4.45',
+            "\x{2026}
+<<4.45|5a:0>>
+Barrhill",
+          ],
+          [
+            1,
+            '[ap 00:35] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/10-_Toc325282157.xhtml) - 12.35',
+            "Barrhill
+<<12.35|5a:0>>
+\x{2026}",
+          ],
+          [
+            1,
+            '[ap 00:43] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/10-_Toc325282157.xhtml) - 12.43',
+            "Pinwherry
+<<12.43|5a:0>>
+\x{2026}",
+          ],
+          [
+            1,
+            '[ap 00:56] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/10-_Toc325282157.xhtml) - 12.56',
+            "Pinmore
+<<12.56|5a:0>>
+\x{2026}",
+          ],
+          [
+            1,
+            '[ap 05:18] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/10-_Toc325282157.xhtml) - 5.18',
+            "\x{2026}
+<<5.18|5a:0>>
+Girvan arr.",
+          ],
+          [
+            1,
+            '[ap 01:37] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/10-_Toc325282157.xhtml) - 1.37',
+            '1.6
+<<1.37|5a:0>>
+<<5.28|5a:0>>',
+          ],
+          [
+            1,
+            '[ap 01:37] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/10-_Toc325282157.xhtml) - 1.37',
+            '<<1.37|5a:0>>
+<<5.28|5a:0>>
+dep',
+          ],
+          [
+            1,
+            '[ap 01:11] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/10-_Toc325282157.xhtml) - 1.11',
+            'dep
+<<1.11|5a:0>>
+<<1.42|5a:0>>',
+          ],
+          [
+            1,
+            '[ap 01:11] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/10-_Toc325282157.xhtml) - 1.11',
+            '<<1.11|5a:0>>
+<<1.42|5a:0>>
+<<5.36|5a:0>>',
+          ],
+          [
+            1,
+            '[ap 01:42] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/10-_Toc325282157.xhtml) - 1.42',
+            "<<1.42|5a:0>>
+<<5.36|5a:0>>
 \x{2018}There are opportunities there, too,\x{2019} said Wimsey. \x{2018}How about the <<12.35|5a:0>>? He could catch that easily and go on to Glasgow, and from there he could get anywhere.\x{2019}",
+          ],
+          [
+            1,
+            '[ap 00:35] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/10-_Toc325282157.xhtml) - 12.35',
+            "\x{2018}There are opportunities there, too,\x{2019} said Wimsey. \x{2018}How about the <<12.35|5a:0>>? He could catch that easily and go on to Glasgow, and from there he could get anywhere.\x{2019}",
           ],
           [
             1,
@@ -272,7 +490,7 @@ The Inspector thought for a moment. If this was true, it left Gowan out altogeth
           [
             1,
             '[ap 01:48] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/15-_Toc325282162.xhtml) - 1.48',
-            "At <<1.48|9e>>, the train came in, and Dalziel got into it, after ascertaining that the guard was, in fact, the same man who had been in charge on the Tuesday. As it drew away from Ayr, he observed Ross engaged in conversation with the bookstall clerk. Ross was an energetic and enthusiastic man, and the Sergeant felt sure that he would not be slack in his investigations. He rather wished that he had felt justified in himself taking over the more adventurous and entertaining side of the inquiry, but he reflected that there was, after all, no certainty that the elusive bicyclist had anything to do with the crime, and that it would not do for him, in his position, to lose himself indefinitely on what might prove to be a wild-goose chase. He made his way along the train to the guard\x{2019}s van.",
+            "At <<1.48|9v>>, the train came in, and Dalziel got into it, after ascertaining that the guard was, in fact, the same man who had been in charge on the Tuesday. As it drew away from Ayr, he observed Ross engaged in conversation with the bookstall clerk. Ross was an energetic and enthusiastic man, and the Sergeant felt sure that he would not be slack in his investigations. He rather wished that he had felt justified in himself taking over the more adventurous and entertaining side of the inquiry, but he reflected that there was, after all, no certainty that the elusive bicyclist had anything to do with the crime, and that it would not do for him, in his position, to lose himself indefinitely on what might prove to be a wild-goose chase. He made his way along the train to the guard\x{2019}s van.",
           ],
           [
             1,
@@ -327,21 +545,93 @@ The Inspector thought for a moment. If this was true, it left Gowan out altogeth
           [
             1,
             '[18:00] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/16-_Toc325282163.xhtml) - 6 p.m.',
-            "<<6 p.m.|5>>Farren returns home and finds Campbell there. Turns him out of the house. (Jeanie\x{2019}s sister\x{2019}s evidence.)
-<<7 p.m.|5>>After a quarrel with his wife, during which she presumably makes some damaging admission about Campbell, Farren departs on his bicycle.
-<<9 p.m.|5>>Farren enters the Murray Arms, looking for Campbell. (The farmer\x{2019}s evidence.)
-<<9.15 p.m.|2a>> (about).Farren goes to Strachan\x{2019}s house and borrows car.
-<<9.45 p.m.|2a>> (about).Meeting with Campbell on the Kirkcudbright road. Murder of Campbell. (Helen McGregor\x{2019}s evidence.)
-<<9.55 p.m.|2a>>Farren plants the body in Strachan\x{2019}s car.
-<<10 p.m.|5>> (or thereabouts).Farren starts back in Campbell\x{2019}s car.
-<<10.10 p.m.|2a>>Farren arrives in Gatehouse (say five miles) and garages Campbell\x{2019}s car.
-<<10.30|5a:0>> p m.Farren arrives on foot at Strachan\x{2019}s house to fetch bicycle.
-<<11 p.m.|5>>Farren arrives on bicycle at the scene of the crime.
-<<11.10 p.m.|2a>>Farren is back with the body at Campbell\x{2019}s house. Hides the body in the house or garage.
-<<11.20 p.m.|2a>>Farren returns car to Strachan\x{2019}s house.
-<<11.40 p.m.|2a>>Farren is back at Campbell\x{2019}s house to prepare evidence of Campbell\x{2019}s having spent the night and breakfasted there.
-
-The Inspector gazed with some complacency upon this schedule. Some of the times were, of course, only approximate, but the essential points corresponded well enough, and, making every allowance for Farren\x{2019}s being a slow walker, or bungling parts of his procedure, he had ample time to carry out all these manoeuvres before Tuesday morning.",
+            "
+<<6 p.m.|5>>
+Farren returns home and finds Campbell there. Turns him out of the house. (Jeanie\x{2019}s sister\x{2019}s evidence.)",
+          ],
+          [
+            1,
+            '[19:00] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/16-_Toc325282163.xhtml) - 7 p.m.',
+            "Farren returns home and finds Campbell there. Turns him out of the house. (Jeanie\x{2019}s sister\x{2019}s evidence.)
+<<7 p.m.|5>>
+After a quarrel with his wife, during which she presumably makes some damaging admission about Campbell, Farren departs on his bicycle.",
+          ],
+          [
+            1,
+            '[21:00] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/16-_Toc325282163.xhtml) - 9 p.m.',
+            "After a quarrel with his wife, during which she presumably makes some damaging admission about Campbell, Farren departs on his bicycle.
+<<9 p.m.|5>>
+Farren enters the Murray Arms, looking for Campbell. (The farmer\x{2019}s evidence.)",
+          ],
+          [
+            1,
+            '[21:15] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/16-_Toc325282163.xhtml) - 9.15 p.m.',
+            "Farren enters the Murray Arms, looking for Campbell. (The farmer\x{2019}s evidence.)
+<<9.15 p.m.|2a>> (about).
+Farren goes to Strachan\x{2019}s house and borrows car.",
+          ],
+          [
+            1,
+            '[21:45] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/16-_Toc325282163.xhtml) - 9.45 p.m.',
+            "Farren goes to Strachan\x{2019}s house and borrows car.
+<<9.45 p.m.|2a>> (about).
+Meeting with Campbell on the Kirkcudbright road. Murder of Campbell. (Helen McGregor\x{2019}s evidence.)",
+          ],
+          [
+            1,
+            '[21:55] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/16-_Toc325282163.xhtml) - 9.55 p.m.',
+            "Meeting with Campbell on the Kirkcudbright road. Murder of Campbell. (Helen McGregor\x{2019}s evidence.)
+<<9.55 p.m.|2a>>
+Farren plants the body in Strachan\x{2019}s car.",
+          ],
+          [
+            1,
+            '[22:00] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/16-_Toc325282163.xhtml) - 10 p.m.',
+            "Farren plants the body in Strachan\x{2019}s car.
+<<10 p.m.|5>> (or thereabouts).
+Farren starts back in Campbell\x{2019}s car.",
+          ],
+          [
+            1,
+            '[22:10] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/16-_Toc325282163.xhtml) - 10.10 p.m.',
+            "Farren starts back in Campbell\x{2019}s car.
+<<10.10 p.m.|2a>>
+Farren arrives in Gatehouse (say five miles) and garages Campbell\x{2019}s car.",
+          ],
+          [
+            1,
+            '[ap 10:30] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/16-_Toc325282163.xhtml) - 10.30',
+            "Farren arrives in Gatehouse (say five miles) and garages Campbell\x{2019}s car.
+<<10.30|5a:0>> p m.
+Farren arrives on foot at Strachan\x{2019}s house to fetch bicycle.",
+          ],
+          [
+            1,
+            '[23:00] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/16-_Toc325282163.xhtml) - 11 p.m.',
+            "Farren arrives on foot at Strachan\x{2019}s house to fetch bicycle.
+<<11 p.m.|5>>
+Farren arrives on bicycle at the scene of the crime.",
+          ],
+          [
+            1,
+            '[23:10] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/16-_Toc325282163.xhtml) - 11.10 p.m.',
+            "Farren arrives on bicycle at the scene of the crime.
+<<11.10 p.m.|2a>>
+Farren is back with the body at Campbell\x{2019}s house. Hides the body in the house or garage.",
+          ],
+          [
+            1,
+            '[23:20] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/16-_Toc325282163.xhtml) - 11.20 p.m.',
+            "Farren is back with the body at Campbell\x{2019}s house. Hides the body in the house or garage.
+<<11.20 p.m.|2a>>
+Farren returns car to Strachan\x{2019}s house.",
+          ],
+          [
+            1,
+            '[23:40] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/16-_Toc325282163.xhtml) - 11.40 p.m.',
+            "Farren returns car to Strachan\x{2019}s house.
+<<11.40 p.m.|2a>>
+Farren is back at Campbell\x{2019}s house to prepare evidence of Campbell\x{2019}s having spent the night and breakfasted there.",
           ],
           [
             1,
@@ -350,23 +640,52 @@ The Inspector gazed with some complacency upon this schedule. Some of the times 
           ],
           [
             1,
+            '[ap 10:10] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/16-_Toc325282163.xhtml) - 10.10',
+            "According to the evidence of \x{2018}young Jock\x{2019} at Borgan, the spurious Campbell had been seen sitting by the Minnoch at <<10.10|3b>> on the Tuesday morning. This, therefore, gave the latest possible moment for Farren\x{2019}s arrival there. Actually, the Inspector thought it would probably have been earlier. Farren would certainly not have risked hanging about in Campbell\x{2019}s cottage very late in the morning. He would have been up and away <<well before 8 a.m.|5>>, when Mrs. Green was due to arrive. On the other hand, he would not have started ridiculously early, because of Ferguson. It would be necessary that Ferguson, if he happened to hear Campbell\x{2019}s car go out, should be able to swear that it left at a reasonable hour in the morning. Accordingly, the Inspector put down at a venture:\x{2014}
+<<7.30|5a:1>>
+Farren leaves Campbell\x{2019}s house, wearing Campbell\x{2019}s hat and cloak, with the body tucked away on the floor of the car and the bicycle on top, all covered by the rug.",
+          ],
+          [
+            1,
             '[ap 08:35] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/16-_Toc325282163.xhtml) - 8.35',
-            "7.30Farren leaves Campbell\x{2019}s house, wearing Campbell\x{2019}s hat and cloak, with the body tucked away on the floor of the car and the bicycle on top, all covered by the rug.
-<<8.35|5a:1>> (say).Farren arrives at the Minnoch, hides the corpse and starts on his painting.
-10.10Farren (disguised as Campbell) seen by Jock for first time.
-11.5Farren seen by Jock for the second time.
-
-Here the Inspector paused uncertainly. Was two-and-a-half hours too long to allow for the painting of that picture? He knew very little about artists, and the thing had seemed to him a rough and sketchy affair. He must ask somebody who knew.",
+            "Farren leaves Campbell\x{2019}s house, wearing Campbell\x{2019}s hat and cloak, with the body tucked away on the floor of the car and the bicycle on top, all covered by the rug.
+<<8.35|5a:0>> (say).
+Farren arrives at the Minnoch, hides the corpse and starts on his painting.",
+          ],
+          [
+            1,
+            '[ap 10:10] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/16-_Toc325282163.xhtml) - 10.10',
+            'Farren arrives at the Minnoch, hides the corpse and starts on his painting.
+<<10.10|4>>
+Farren (disguised as Campbell) seen by Jock for first time.',
           ],
           [
             1,
             '[11:10] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/16-_Toc325282163.xhtml) - 11.10 a.m.',
-            "<<11.10 a.m.|2a>>Farren throws body into the river, puts on cap and overcoat and starts for Girvan on his bicycle.
-<<1.7 p.m.|2a>>Arrives at Girvan. Has bicycle labelled for Ayr.
-<<1.11 p.m.|2a>>Takes train for Ayr.
-<<1.48 p.m.|2a>>Arrives Ayr.
-
-Here, for the moment, the Inspector\x{2019}s deductions came to an end. Dalziel, he knew, was following up the trail of the bicycle. It would be better to wait for his report before carrying the schedule any further. But he had not done so badly. He had at last succeeded in fixing the crime definitely upon one person, and in producing a plausible time-scheme to which to work. Fortunately, also, it was one that was susceptible to confirmation at several points.",
+            'Tuesday.
+<<11.10 a.m.|2a>>
+Farren throws body into the river, puts on cap and overcoat and starts for Girvan on his bicycle.',
+          ],
+          [
+            1,
+            '[13:07] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/16-_Toc325282163.xhtml) - 1.7 p.m.',
+            'Farren throws body into the river, puts on cap and overcoat and starts for Girvan on his bicycle.
+<<1.7 p.m.|2a>>
+Arrives at Girvan. Has bicycle labelled for Ayr.',
+          ],
+          [
+            1,
+            '[13:11] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/16-_Toc325282163.xhtml) - 1.11 p.m.',
+            'Arrives at Girvan. Has bicycle labelled for Ayr.
+<<1.11 p.m.|2a>>
+Takes train for Ayr.',
+          ],
+          [
+            1,
+            '[13:48] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/16-_Toc325282163.xhtml) - 1.48 p.m.',
+            'Takes train for Ayr.
+<<1.48 p.m.|2a>>
+Arrives Ayr.',
           ],
           [
             1,
@@ -695,6 +1014,11 @@ Here, for the moment, the Inspector\x{2019}s deductions came to an end. Dalziel,
           ],
           [
             1,
+            '[ap 01:00] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/26-_Toc325282173.xhtml) - one',
+            "\x{2018}Good heavens!\x{2019} said Strachan. \x{2018}Are the police going to display intelligence about art? No, it didn\x{2019}t, but I had taken my dinner out with me. The dinner consisted of cold meat sandwiches, baps, brown bread, cheese and tomatoes, with a bottle of Worthington. To entertain myself during the orgy I had a book \x{2013} a very nice book, all about a murder committed in this part of the country. Sir John Magill\x{2019}s Last Journey, by <<one|9u>> Mr. Crofts. You should read it. The police in that book called in Scotland Yard to solve their problems for them.\x{2019}",
+          ],
+          [
+            1,
             "[ap ~ 08:00] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/26-_Toc325282173.xhtml) - about 8 o\x{2019}clock",
             "\x{2018}I mean, at what time?\x{2019}
 \x{2018}At <<about 8 o\x{2019}clock|6>>.\x{2019}
@@ -790,26 +1114,121 @@ Here, for the moment, the Inspector\x{2019}s deductions came to an end. Dalziel,
           [
             1,
             '[18:00] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/29-_Toc325282176.xhtml) - 6 p.m.',
-            "<<6 p.m.|5>>Farren at Kirkcudbright. Finds Campbell in the house. Quarrel with Mrs. Farren.
-<<7 p.m.|5>>Farren proceeds by bicycle to Gatehouse.
-<<8 p.m.|5>>Farren arrives at Standing Stone cottage asking for Campbell, and is seen by Ferguson.
-8\x{2013}9.15 p.m.Farren in various public-houses, using threats against Campbell.
-<<9.15 p.m.|2a>>Farren goes to Strachan\x{2019}s house and leaves note (on bicycle).
-9.25till after dark. Farren in hiding, probably somewhere on the Lauriston or Castramont Road.
-<<9.45 p.m.|2a>>Campbell meets Gowan when returning from Kirkcudbright.
-<<10.20 p.m.|2a>>Campbell returns to Standing Stone Cottage with car. Heard by Ferguson.
-<<10.20 p.m|2a>>\x{2013}<<12 midnight|13>>.Some time during this period Farren proceeds to Campbell\x{2019}s cottage on bicycle. Lets himself in and kills Campbell. Hides body. (Note: Ferguson presumably asleep.) Farren goes out, locking door. Remains in hiding, perhaps in garage.
-12 midnightStrachan arrives in car (heard by Ferguson). Enters by means of key. Leaves note and departs.
-Monday <<12 midnight|13>> \x{2013}Tuesday <<7.30 a.m.|2a>>Farren re-enters cottage, destroys Strachan\x{2019}s note, puts body in car, matures plan of escape, puts bicycle and painting materials in car, prepares and eats Campbell\x{2019}s breakfast.
-<<7.30 a.m.|2a>>Farren, disguised as Campbell, starts out from Gatehouse in Campbell\x{2019}s car. Seen by Ferguson.
-<<9.35 a.m.|2a>>Farren in Campbell\x{2019}s car seen by workman passing turning to New Galloway road between Creetown and Newton-Stewart.
-<<10 a.m.|5>>Farren arrives at Minnoch with body.
-<<10\x{2013}11|5a:1>>.30 a.m.Farren paints picture.
-<<11.30 a.m.|2a>>Farren throws body into Minnoch and departs on bicycle, using the side road from Bargrennan to Minnigaff. (Note: conjectural; no witness as yet produced.) Eight or nine miles.
-<<12.30 p.m.|2a>>Farren arrives at Falbae. Leaves bicycle in vicinity of disused mine.
-<<12.30|9p>>\x{2013}3 p.m.Farren walks by New Galloway road to Brig o\x{2019} Dee; eleven miles: but he may easily have taken a lift from a passing motorist. The rest of Farren\x{2019}s movements as per his statement.
-
-That,\x{2019} said the Fiscal, looking round over the tops of his glasses, \x{2018}appears to me a very plausible and workmanlike conjecture.\x{2019}",
+            'Monday.
+<<6 p.m.|5>>
+Farren at Kirkcudbright. Finds Campbell in the house. Quarrel with Mrs. Farren.',
+          ],
+          [
+            1,
+            '[19:00] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/29-_Toc325282176.xhtml) - 7 p.m.',
+            'Farren at Kirkcudbright. Finds Campbell in the house. Quarrel with Mrs. Farren.
+<<7 p.m.|5>>
+Farren proceeds by bicycle to Gatehouse.',
+          ],
+          [
+            1,
+            '[20:00] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/29-_Toc325282176.xhtml) - 8 p.m.',
+            'Farren proceeds by bicycle to Gatehouse.
+<<8 p.m.|5>>
+Farren arrives at Standing Stone cottage asking for Campbell, and is seen by Ferguson.',
+          ],
+          [
+            1,
+            '[21:15] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/29-_Toc325282176.xhtml) - 9.15 p.m.',
+            "Farren in various public-houses, using threats against Campbell.
+<<9.15 p.m.|2a>>
+Farren goes to Strachan\x{2019}s house and leaves note (on bicycle).",
+          ],
+          [
+            1,
+            '[ap 09:25] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/29-_Toc325282176.xhtml) - 9.25',
+            "Farren goes to Strachan\x{2019}s house and leaves note (on bicycle).
+<<9.25|5a:0>>
+till after dark. Farren in hiding, probably somewhere on the Lauriston or Castramont Road.",
+          ],
+          [
+            1,
+            '[21:45] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/29-_Toc325282176.xhtml) - 9.45 p.m.',
+            'till after dark. Farren in hiding, probably somewhere on the Lauriston or Castramont Road.
+<<9.45 p.m.|2a>>
+Campbell meets Gowan when returning from Kirkcudbright.',
+          ],
+          [
+            1,
+            '[22:20] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/29-_Toc325282176.xhtml) - 10.20 p.m.',
+            'Campbell meets Gowan when returning from Kirkcudbright.
+<<10.20 p.m.|2a>>
+Campbell returns to Standing Stone Cottage with car. Heard by Ferguson.',
+          ],
+          [
+            1,
+            '[22:20] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/29-_Toc325282176.xhtml) - 10.20 p.m',
+            "Campbell returns to Standing Stone Cottage with car. Heard by Ferguson.
+<<10.20 p.m|2a>>\x{2013}<<12 midnight|13>>.
+Some time during this period Farren proceeds to Campbell\x{2019}s cottage on bicycle. Lets himself in and kills Campbell. Hides body. (Note: Ferguson presumably asleep.) Farren goes out, locking door. Remains in hiding, perhaps in garage.",
+          ],
+          [
+            1,
+            '[00:00] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/29-_Toc325282176.xhtml) - 12 midnight',
+            "Some time during this period Farren proceeds to Campbell\x{2019}s cottage on bicycle. Lets himself in and kills Campbell. Hides body. (Note: Ferguson presumably asleep.) Farren goes out, locking door. Remains in hiding, perhaps in garage.
+<<12 midnight|13>>
+Strachan arrives in car (heard by Ferguson). Enters by means of key. Leaves note and departs.",
+          ],
+          [
+            1,
+            '[00:00] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/29-_Toc325282176.xhtml) - 12 midnight',
+            "Strachan arrives in car (heard by Ferguson). Enters by means of key. Leaves note and departs.
+Monday <<12 midnight|13>> \x{2013}Tuesday <<7.30 a.m.|2a>>
+Farren re-enters cottage, destroys Strachan\x{2019}s note, puts body in car, matures plan of escape, puts bicycle and painting materials in car, prepares and eats Campbell\x{2019}s breakfast.",
+          ],
+          [
+            1,
+            '[07:30] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/29-_Toc325282176.xhtml) - 7.30 a.m.',
+            "Farren re-enters cottage, destroys Strachan\x{2019}s note, puts body in car, matures plan of escape, puts bicycle and painting materials in car, prepares and eats Campbell\x{2019}s breakfast.
+<<7.30 a.m.|2a>>
+Farren, disguised as Campbell, starts out from Gatehouse in Campbell\x{2019}s car. Seen by Ferguson.",
+          ],
+          [
+            1,
+            '[09:35] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/29-_Toc325282176.xhtml) - 9.35 a.m.',
+            "Farren, disguised as Campbell, starts out from Gatehouse in Campbell\x{2019}s car. Seen by Ferguson.
+<<9.35 a.m.|2a>>
+Farren in Campbell\x{2019}s car seen by workman passing turning to New Galloway road between Creetown and Newton-Stewart.",
+          ],
+          [
+            1,
+            '[10:00] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/29-_Toc325282176.xhtml) - 10 a.m.',
+            "Farren in Campbell\x{2019}s car seen by workman passing turning to New Galloway road between Creetown and Newton-Stewart.
+<<10 a.m.|5>>
+Farren arrives at Minnoch with body.",
+          ],
+          [
+            1,
+            "[ap 10:11] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/29-_Toc325282176.xhtml) - 10\x{2013}11",
+            "Farren arrives at Minnoch with body.
+<<10\x{2013}11|5a:0>>.30 a.m.
+Farren paints picture.",
+          ],
+          [
+            1,
+            '[11:30] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/29-_Toc325282176.xhtml) - 11.30 a.m.',
+            'Farren paints picture.
+<<11.30 a.m.|2a>>
+Farren throws body into Minnoch and departs on bicycle, using the side road from Bargrennan to Minnigaff. (Note: conjectural; no witness as yet produced.) Eight or nine miles.',
+          ],
+          [
+            1,
+            '[12:30] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/29-_Toc325282176.xhtml) - 12.30 p.m.',
+            'Farren throws body into Minnoch and departs on bicycle, using the side road from Bargrennan to Minnigaff. (Note: conjectural; no witness as yet produced.) Eight or nine miles.
+<<12.30 p.m.|2a>>
+Farren arrives at Falbae. Leaves bicycle in vicinity of disused mine.',
+          ],
+          [
+            1,
+            '[ap 00:30] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/29-_Toc325282176.xhtml) - 12.30',
+            "Farren arrives at Falbae. Leaves bicycle in vicinity of disused mine.
+<<12.30|9p>>\x{2013}3 p.m.
+Farren walks by New Galloway road to Brig o\x{2019} Dee; eleven miles: but he may easily have taken a lift from a passing motorist. The rest of Farren\x{2019}s movements as per his statement.",
           ],
           [
             1,
@@ -835,25 +1254,92 @@ That,\x{2019} said the Fiscal, looking round over the tops of his glasses, \x{20
             1,
             '[21:15] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/29-_Toc325282176.xhtml) - 9.15 p.m.',
             "Monday.
-<<9.15 p.m.|2a>>Farren leaves note at Strachan\x{2019}s house.
-<<10.20 p.m.|2a>>Campbell returns home after encounter with Gowan.
-<<12 midnight|13>> or thereaboutsStrachan returns home and finds note.
-\x{a0}\x{a0}
-Tuesday.
-<<12.10 a.m.|2a>> (say).Strachan goes to Campbell\x{2019}s cottage; is joined by Ferguson. Murder is committed.
-<<12.10|9p>>\x{2013}<<12.45|5a:1>> (say).Plan of fake accident evolved. Strachan starts for Falbae, taking Campbell\x{2019}s hat and cloak, painting materials, etc., in car.
-2\x{2013}3 a.m.During this period Strachan and Farren meet and Farren escapes.
-<<3.30 a.m.|2a>> (say).Strachan falls down mine.
-<<4 a.m.|5>> (say).Ferguson arrives at some spot on old road from Gatehouse Station to Creetown, with Campbell\x{2019}s car containing body and bicycle. Leaves car hidden.
-5\x{2013}6 a.m.Ferguson returns on bicycle to Gatehouse by old road.
-<<9 a.m.|5>>Strachan extricates himself from mine and finds his car.
-<<9.8 a.m.|2a>>Ferguson takes the train to Dumfries.
-<<9.20 a.m.|2a>>Strachan arrives at rendezvous transfers himself to Campbell\x{2019}s car. Hides own car. Disguises himself.
-<<9.35 a.m.|2a>>Strachan disguised as Campbell seen by workman passing turning to New Galloway.
-<<10 a.m.|5>>Strachan arrives at Minnoch. Plants body and paints picture.
-<<11.15 a.m.|2a>>Strachan finishes picture.
-
-Here Macpherson paused.",
+<<9.15 p.m.|2a>>
+Farren leaves note at Strachan\x{2019}s house.",
+          ],
+          [
+            1,
+            '[22:20] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/29-_Toc325282176.xhtml) - 10.20 p.m.',
+            "Farren leaves note at Strachan\x{2019}s house.
+<<10.20 p.m.|2a>>
+Campbell returns home after encounter with Gowan.",
+          ],
+          [
+            1,
+            '[00:00] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/29-_Toc325282176.xhtml) - 12 midnight',
+            'Campbell returns home after encounter with Gowan.
+<<12 midnight|13>> or thereabouts
+Strachan returns home and finds note.',
+          ],
+          [
+            1,
+            '[00:10] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/29-_Toc325282176.xhtml) - 12.10 a.m.',
+            "Tuesday.
+<<12.10 a.m.|2a>> (say).
+Strachan goes to Campbell\x{2019}s cottage; is joined by Ferguson. Murder is committed.",
+          ],
+          [
+            1,
+            '[ap 00:10] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/29-_Toc325282176.xhtml) - 12.10',
+            "Strachan goes to Campbell\x{2019}s cottage; is joined by Ferguson. Murder is committed.
+<<12.10|9p>>\x{2013}<<12.45|5a:0>> (say).
+Plan of fake accident evolved. Strachan starts for Falbae, taking Campbell\x{2019}s hat and cloak, painting materials, etc., in car.",
+          ],
+          [
+            1,
+            '[03:30] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/29-_Toc325282176.xhtml) - 3.30 a.m.',
+            'During this period Strachan and Farren meet and Farren escapes.
+<<3.30 a.m.|2a>> (say).
+Strachan falls down mine.',
+          ],
+          [
+            1,
+            '[04:00] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/29-_Toc325282176.xhtml) - 4 a.m.',
+            "Strachan falls down mine.
+<<4 a.m.|5>> (say).
+Ferguson arrives at some spot on old road from Gatehouse Station to Creetown, with Campbell\x{2019}s car containing body and bicycle. Leaves car hidden.",
+          ],
+          [
+            1,
+            '[09:00] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/29-_Toc325282176.xhtml) - 9 a.m.',
+            'Ferguson returns on bicycle to Gatehouse by old road.
+<<9 a.m.|5>>
+Strachan extricates himself from mine and finds his car.',
+          ],
+          [
+            1,
+            '[09:08] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/29-_Toc325282176.xhtml) - 9.8 a.m.',
+            'Strachan extricates himself from mine and finds his car.
+<<9.8 a.m.|2a>>
+Ferguson takes the train to Dumfries.',
+          ],
+          [
+            1,
+            '[09:20] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/29-_Toc325282176.xhtml) - 9.20 a.m.',
+            "Ferguson takes the train to Dumfries.
+<<9.20 a.m.|2a>>
+Strachan arrives at rendezvous transfers himself to Campbell\x{2019}s car. Hides own car. Disguises himself.",
+          ],
+          [
+            1,
+            '[09:35] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/29-_Toc325282176.xhtml) - 9.35 a.m.',
+            "Strachan arrives at rendezvous transfers himself to Campbell\x{2019}s car. Hides own car. Disguises himself.
+<<9.35 a.m.|2a>>
+Strachan disguised as Campbell seen by workman passing turning to New Galloway.",
+          ],
+          [
+            1,
+            '[10:00] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/29-_Toc325282176.xhtml) - 10 a.m.',
+            'Strachan disguised as Campbell seen by workman passing turning to New Galloway.
+<<10 a.m.|5>>
+Strachan arrives at Minnoch. Plants body and paints picture.',
+          ],
+          [
+            1,
+            '[11:15] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/29-_Toc325282176.xhtml) - 11.15 a.m.',
+            'Strachan arrives at Minnoch. Plants body and paints picture.
+<<11.15 a.m.|2a>>
+Strachan finishes picture.',
           ],
           [
             1,
@@ -1046,7 +1532,7 @@ Here Macpherson paused.",
           [
             1,
             '[ap 07:30] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/32-_Toc325282179.xhtml) - 7.30',
-            "\x{2018}Now we find the key and open the door, locking it, I think, behind us. We shut the shutters and light up. My God! what\x{2019}s this? A note. Look out for F. Great Jehoshaphat! \x{2013} Oh, no, of course, it doesn\x{2019}t mean me \x{2013} it means Farren. Now \x{2013} do we use that or destroy it? Better destroy it. It\x{2019}s an accident we\x{2019}re staging, not a murder. We don\x{2019}t want the slightest suggestion of violence. Besides \x{2013} must be decent to Farren. Campbell is alive till <<7.30|3b>> tomorrow, so he found this and read it. When did he come in, though? <<After 12|9e:1>>, of course, since Strachan can say he wasn\x{2019}t here earlier. Yes, but how do I know how many people saw him come in at <<10.15|9c:1>>? Must say one thing or the other. Better suggest he came in and then went out again while I was asleep. On foot, perhaps, so that I didn\x{2019}t hear the car. Damn Strachan! What did he want to come poking his nose in for, anyhow?\x{2019}",
+            "\x{2018}Now we find the key and open the door, locking it, I think, behind us. We shut the shutters and light up. My God! what\x{2019}s this? A note. Look out for F. Great Jehoshaphat! \x{2013} Oh, no, of course, it doesn\x{2019}t mean me \x{2013} it means Farren. Now \x{2013} do we use that or destroy it? Better destroy it. It\x{2019}s an accident we\x{2019}re staging, not a murder. We don\x{2019}t want the slightest suggestion of violence. Besides \x{2013} must be decent to Farren. Campbell is alive till <<7.30|3b>> tomorrow, so he found this and read it. When did he come in, though? <<After 12|9:0>>, of course, since Strachan can say he wasn\x{2019}t here earlier. Yes, but how do I know how many people saw him come in at <<10.15|9c:1>>? Must say one thing or the other. Better suggest he came in and then went out again while I was asleep. On foot, perhaps, so that I didn\x{2019}t hear the car. Damn Strachan! What did he want to come poking his nose in for, anyhow?\x{2019}",
           ],
           [
             1,
@@ -1185,7 +1671,7 @@ At <<11.25|9m>> Wimsey rose regretfully.
           [
             1,
             '[ap ~ 03:00] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/33-_Toc325282180.xhtml) - about three',
-            "\x{2018}Oh, I say! Of course, I didn\x{2019}t know that. Mr. Crisp just asked me when I came in. I said, <<about three|9e:1>> \x{2013} because it really was that, you know, more or less. Of course, if I\x{2019}d known, I should have asked Miss Madden. She has such a wonderful memory for details.\x{2019}",
+            "\x{2018}Oh, I say! Of course, I didn\x{2019}t know that. Mr. Crisp just asked me when I came in. I said, <<about three|9x>> \x{2013} because it really was that, you know, more or less. Of course, if I\x{2019}d known, I should have asked Miss Madden. She has such a wonderful memory for details.\x{2019}",
           ],
           [
             1,

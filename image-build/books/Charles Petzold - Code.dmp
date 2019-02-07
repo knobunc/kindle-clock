@@ -17,58 +17,58 @@ $VAR1 = [
           [
             1,
             '[00:00] Code - Charles Petzold.epub (OEBPS/ch08.html) - 0000',
-            'Decimal
+            '
 <<0000|18:0>>
-0',
+',
           ],
           [
             1,
             '[00:01] Code - Charles Petzold.epub (OEBPS/ch08.html) - 0001',
-            '0
+            '
 <<0001|18:0>>
-1',
+',
           ],
           [
             1,
             '[00:10] Code - Charles Petzold.epub (OEBPS/ch08.html) - 0010',
-            '1
+            '
 <<0010|18:0>>
-2',
+',
           ],
           [
             1,
             '[00:11] Code - Charles Petzold.epub (OEBPS/ch08.html) - 0011',
-            '2
+            '
 <<0011|18:0>>
-3',
+',
           ],
           [
             1,
             '[ap 01:00] Code - Charles Petzold.epub (OEBPS/ch08.html) - 0100',
-            '3
+            '
 <<0100|18:0>>
-4',
+',
           ],
           [
             1,
             '[ap 01:01] Code - Charles Petzold.epub (OEBPS/ch08.html) - 0101',
-            '4
+            '
 <<0101|18:0>>
-5',
+',
           ],
           [
             1,
             '[ap 01:10] Code - Charles Petzold.epub (OEBPS/ch08.html) - 0110',
-            '5
+            '
 <<0110|18:0>>
-6',
+',
           ],
           [
             1,
             '[ap 01:11] Code - Charles Petzold.epub (OEBPS/ch08.html) - 0111',
-            '6
+            '
 <<0111|18:0>>
-7',
+',
           ],
           [
             1,
@@ -93,7 +93,58 @@ $VAR1 = [
           [
             1,
             '[00:00] Code - Charles Petzold.epub (OEBPS/ch09.html) - 0000',
-            "<<0000|18:0>> = F0001 = D\x{2013}0010 = D0011 = D+0100 = C\x{2013}0101 = C0110 = C+0111 = B\x{2013}1000 = B1001 = B+1010 = A\x{2013}1011 = A1100 = A+We have three unused codes: 1101, 1110, and 1111, for a grand total of 16.",
+            "The magazine Entertainment Weekly gives grades, not only for movies but for television shows, CDs, books, CD-ROMs, Web sites, and much else. The grades range from A+ straight down to F (although it seems that only Pauly Shore movies are worthy of that honor). If you count them, you see 13 possible grades. We would need 4 bits to represent these grades:
+<<0000|18:0>> = F
+<<0001|18:0>> = D\x{2013}",
+          ],
+          [
+            1,
+            '[00:00] Code - Charles Petzold.epub (OEBPS/ch09.html) - 0000',
+            "<<0000|18:0>> = F
+<<0001|18:0>> = D\x{2013}
+<<0010|18:0>> = D",
+          ],
+          [
+            1,
+            '[00:01] Code - Charles Petzold.epub (OEBPS/ch09.html) - 0001',
+            "<<0001|18:0>> = D\x{2013}
+<<0010|18:0>> = D
+<<0011|18:0>> = D+",
+          ],
+          [
+            1,
+            '[00:10] Code - Charles Petzold.epub (OEBPS/ch09.html) - 0010',
+            "<<0010|18:0>> = D
+<<0011|18:0>> = D+
+<<0100|18:0>> = C\x{2013}",
+          ],
+          [
+            1,
+            '[00:11] Code - Charles Petzold.epub (OEBPS/ch09.html) - 0011',
+            "<<0011|18:0>> = D+
+<<0100|18:0>> = C\x{2013}
+<<0101|18:0>> = C",
+          ],
+          [
+            1,
+            '[ap 01:00] Code - Charles Petzold.epub (OEBPS/ch09.html) - 0100',
+            "<<0100|18:0>> = C\x{2013}
+<<0101|18:0>> = C
+<<0110|18:0>> = C+",
+          ],
+          [
+            1,
+            '[ap 01:01] Code - Charles Petzold.epub (OEBPS/ch09.html) - 0101',
+            "<<0101|18:0>> = C
+<<0110|18:0>> = C+
+<<0111|18:0>> = B\x{2013}",
+          ],
+          [
+            1,
+            '[ap 01:10] Code - Charles Petzold.epub (OEBPS/ch09.html) - 0110',
+            "<<0110|18:0>> = C+
+<<0111|18:0>> = B\x{2013}
+1000 = B",
           ],
           [
             1,
@@ -138,58 +189,58 @@ $VAR1 = [
           [
             1,
             '[00:00] Code - Charles Petzold.epub (OEBPS/ch14.html) - 0000',
-            'Decimal
+            '
 <<0000|18:0>>
-0',
+',
           ],
           [
             1,
             '[00:01] Code - Charles Petzold.epub (OEBPS/ch14.html) - 0001',
-            '0
+            '
 <<0001|18:0>>
-1',
+',
           ],
           [
             1,
             '[00:10] Code - Charles Petzold.epub (OEBPS/ch14.html) - 0010',
-            '1
+            '
 <<0010|18:0>>
-2',
+',
           ],
           [
             1,
             '[00:11] Code - Charles Petzold.epub (OEBPS/ch14.html) - 0011',
-            '2
+            '
 <<0011|18:0>>
-3',
+',
           ],
           [
             1,
             '[ap 01:00] Code - Charles Petzold.epub (OEBPS/ch14.html) - 0100',
-            '3
+            '
 <<0100|18:0>>
-4',
+',
           ],
           [
             1,
             '[ap 01:01] Code - Charles Petzold.epub (OEBPS/ch14.html) - 0101',
-            '4
+            '
 <<0101|18:0>>
-5',
+',
           ],
           [
             1,
             '[ap 01:10] Code - Charles Petzold.epub (OEBPS/ch14.html) - 0110',
-            '5
+            '
 <<0110|18:0>>
-6',
+',
           ],
           [
             1,
             '[ap 01:11] Code - Charles Petzold.epub (OEBPS/ch14.html) - 0111',
-            '6
+            '
 <<0111|18:0>>
-7',
+',
           ],
           [
             1,
@@ -199,119 +250,135 @@ $VAR1 = [
           [
             1,
             '[00:00] Code - Charles Petzold.epub (OEBPS/ch15.html) - 0000',
-            'Decimal
+            '
 <<0000|18:0>>
-0',
+',
           ],
           [
             1,
             '[00:01] Code - Charles Petzold.epub (OEBPS/ch15.html) - 0001',
-            '8
+            '
 <<0001|18:0>>
-1',
+',
           ],
           [
             1,
             '[00:10] Code - Charles Petzold.epub (OEBPS/ch15.html) - 0010',
-            '9
+            '
 <<0010|18:0>>
-2',
+',
           ],
           [
             1,
             '[00:11] Code - Charles Petzold.epub (OEBPS/ch15.html) - 0011',
-            '10
+            '
 <<0011|18:0>>
-3',
+',
           ],
           [
             1,
             '[ap 01:00] Code - Charles Petzold.epub (OEBPS/ch15.html) - 0100',
-            '11
+            '
 <<0100|18:0>>
-4',
+',
           ],
           [
             1,
             '[ap 01:01] Code - Charles Petzold.epub (OEBPS/ch15.html) - 0101',
-            '12
+            '
 <<0101|18:0>>
-5',
+',
           ],
           [
             1,
             '[ap 01:10] Code - Charles Petzold.epub (OEBPS/ch15.html) - 0110',
-            '13
+            '
 <<0110|18:0>>
-6',
+',
           ],
           [
             1,
             '[ap 01:11] Code - Charles Petzold.epub (OEBPS/ch15.html) - 0111',
-            '14
+            '
 <<0111|18:0>>
-7',
+',
           ],
           [
             1,
             '[00:00] Code - Charles Petzold.epub (OEBPS/ch15.html) - 0000',
-            'Decimal
+            '
 <<0000|18:0>>
-0',
+',
           ],
           [
             1,
             '[00:01] Code - Charles Petzold.epub (OEBPS/ch15.html) - 0001',
-            '0
+            '
 <<0001|18:0>>
-1',
+',
           ],
           [
             1,
             '[00:10] Code - Charles Petzold.epub (OEBPS/ch15.html) - 0010',
-            '1
+            '
 <<0010|18:0>>
-2',
+',
           ],
           [
             1,
             '[00:11] Code - Charles Petzold.epub (OEBPS/ch15.html) - 0011',
-            '2
+            '
 <<0011|18:0>>
-3',
+',
           ],
           [
             1,
             '[ap 01:00] Code - Charles Petzold.epub (OEBPS/ch15.html) - 0100',
-            '3
+            '
 <<0100|18:0>>
-4',
+',
           ],
           [
             1,
             '[ap 01:01] Code - Charles Petzold.epub (OEBPS/ch15.html) - 0101',
-            '4
+            '
 <<0101|18:0>>
-5',
+',
           ],
           [
             1,
             '[ap 01:10] Code - Charles Petzold.epub (OEBPS/ch15.html) - 0110',
-            '5
+            '
 <<0110|18:0>>
-6',
+',
           ],
           [
             1,
             '[ap 01:11] Code - Charles Petzold.epub (OEBPS/ch15.html) - 0111',
-            '6
+            '
 <<0111|18:0>>
-7',
+',
           ],
           [
             1,
             '[01:00] Code - Charles Petzold.epub (OEBPS/ch15.html) - 10000h',
-            '9A48Ch = 9 x <<10000h|1>> +A x <<1000h|1>> +4 x <<100h|1>> +8 x 10h +C x 1hThis can be written using powers of 16:',
+            'The hexadecimal number 9A48Ch is
+9A48Ch = 9 x <<10000h|1>> +
+A x <<1000h|1>> +',
+          ],
+          [
+            1,
+            '[01:00] Code - Charles Petzold.epub (OEBPS/ch15.html) - 10000h',
+            '9A48Ch = 9 x <<10000h|1>> +
+A x <<1000h|1>> +
+4 x <<100h|1>> +',
+          ],
+          [
+            1,
+            '[10:00] Code - Charles Petzold.epub (OEBPS/ch15.html) - 1000h',
+            'A x <<1000h|1>> +
+4 x <<100h|1>> +
+8 x 10h +',
           ],
           [
             1,
@@ -366,7 +433,7 @@ $VAR1 = [
           [
             1,
             '[ap ~ 10:15] Code - Charles Petzold.epub (OEBPS/ch16.html) - approximately 1015',
-            'Ascending into regions that few have traveled, a petabyte equals 250 bytes or 1,125,899,906,842,624 bytes, which is <<approximately 1015|9:0>> or a quadrillion. An exabyte equals 260 bytes or 1,152,921,504,606,846,976 bytes, <<approximately 1018|9:0>> or a quintillion.',
+            'Ascending into regions that few have traveled, a petabyte equals 250 bytes or 1,125,899,906,842,624 bytes, which is <<approximately 1015|9w>> or a quadrillion. An exabyte equals 260 bytes or 1,152,921,504,606,846,976 bytes, <<approximately 1018|9:0>> or a quintillion.',
           ],
           [
             1,
@@ -616,41 +683,68 @@ Store the contents of the accumulator at address 000Ah.',
           [
             1,
             '[10:03] Code - Charles Petzold.epub (OEBPS/ch17.html) - 1003h',
-            'LOD A,[<<1003h|1>>]The A and the [1003] that appear to the right of the mnemonic are called arguments that indicate what\'s going on with this particular Load instruction. The arguments are written with a destination on the left (the A stands for accumulator) and a source on the right. The brackets indicate that the accumulator should be loaded not with the value <<1003h|1>> but with the value stored in memory at address <<1003h|1>>.',
+            'These mnemonics are particularly useful when combined with a couple of other shortcuts. For example, instead of saying something long-winded like, "Load byte at address <<1003h|1>> into accumulator," we can instead write the statement:
+LOD A,[<<1003h|1>>]
+The A and the [1003] that appear to the right of the mnemonic are called arguments that indicate what\'s going on with this particular Load instruction. The arguments are written with a destination on the left (the A stands for accumulator) and a source on the right. The brackets indicate that the accumulator should be loaded not with the value <<1003h|1>> but with the value stored in memory at address <<1003h|1>>.',
           ],
           [
             1,
             '[10:03] Code - Charles Petzold.epub (OEBPS/ch17.html) - 1003h',
-            'Similarly, the instruction "Add byte at address 001Eh to accumulator" can be shortened to
-ADD A,[001Eh]and "Store contents of accumulator at address <<1003h|1>>" is
-STO [<<1003h|1>>],ANotice that the destination (a memory location for the Store instruction) is still on the left and the source is on the right. The contents of the accumulator must be stored in memory at address <<1003h|1>>. The wordy "Jump to <<0000h|1>> if the Zero flag is not 1" is more concisely written as',
+            'The A and the [1003] that appear to the right of the mnemonic are called arguments that indicate what\'s going on with this particular Load instruction. The arguments are written with a destination on the left (the A stands for accumulator) and a source on the right. The brackets indicate that the accumulator should be loaded not with the value <<1003h|1>> but with the value stored in memory at address <<1003h|1>>.',
           ],
           [
             1,
             '[10:03] Code - Charles Petzold.epub (OEBPS/ch17.html) - 1003h',
-            'STO [<<1003h|1>>],ANotice that the destination (a memory location for the Store instruction) is still on the left and the source is on the right. The contents of the accumulator must be stored in memory at address <<1003h|1>>. The wordy "Jump to <<0000h|1>> if the Zero flag is not 1" is more concisely written as',
+            'ADD A,[001Eh]
+and "Store contents of accumulator at address <<1003h|1>>" is
+STO [<<1003h|1>>],A',
+          ],
+          [
+            1,
+            '[10:03] Code - Charles Petzold.epub (OEBPS/ch17.html) - 1003h',
+            'and "Store contents of accumulator at address <<1003h|1>>" is
+STO [<<1003h|1>>],A
+Notice that the destination (a memory location for the Store instruction) is still on the left and the source is on the right. The contents of the accumulator must be stored in memory at address <<1003h|1>>. The wordy "Jump to <<0000h|1>> if the Zero flag is not 1" is more concisely written as',
+          ],
+          [
+            1,
+            '[10:03] Code - Charles Petzold.epub (OEBPS/ch17.html) - 1003h',
+            'Notice that the destination (a memory location for the Store instruction) is still on the left and the source is on the right. The contents of the accumulator must be stored in memory at address <<1003h|1>>. The wordy "Jump to <<0000h|1>> if the Zero flag is not 1" is more concisely written as',
+          ],
+          [
+            1,
+            '[10:03] Code - Charles Petzold.epub (OEBPS/ch17.html) - 1003h',
+            'Notice that the destination (a memory location for the Store instruction) is still on the left and the source is on the right. The contents of the accumulator must be stored in memory at address <<1003h|1>>. The wordy "Jump to <<0000h|1>> if the Zero flag is not 1" is more concisely written as
+JNZ <<0000h|1>>
+The brackets aren\'t used in this instruction because the instruction jumps to address <<0000h|1>>, not to the value that might be stored at address <<0000h|1>>.',
           ],
           [
             1,
             '[00:00] Code - Charles Petzold.epub (OEBPS/ch17.html) - 0000h',
-            'JNZ 0000hThe brackets aren\'t used in this instruction because the instruction jumps to address <<0000h|1>>, not to the value that might be stored at address <<0000h|1>>.',
+            'The brackets aren\'t used in this instruction because the instruction jumps to address <<0000h|1>>, not to the value that might be stored at address <<0000h|1>>.',
           ],
           [
             1,
             '[00:00] Code - Charles Petzold.epub (OEBPS/ch17.html) - 0000h',
-            '<<0000h|1>>:    LOD A,[<<1005h|1>>]And here\'s how we can indicate some data stored at a particular address:',
+            'It\'s convenient to write these instructions in this type of shorthand because the instructions can be listed sequentially in a readable way that doesn\'t require us to draw boxes of memory locations. To indicate that a particular instruction is stored at a particular address, you can use the hexadecimal address followed by a colon, such as
+<<0000h|1>>:    LOD A,[<<1005h|1>>]
+And here\'s how we can indicate some data stored at a particular address:',
           ],
           [
             1,
             '[10:00] Code - Charles Petzold.epub (OEBPS/ch17.html) - 1000h',
-            '<<1000h|1>>:   00h, A7h
+            'And here\'s how we can indicate some data stored at a particular address:
+<<1000h|1>>:   00h, A7h
 <<1002h|1>>:   00h, 1Ch
-<<1004h|1>>:   00h, 00hThe 2 bytes separated by commas indicate that the first byte is stored at the address on the left and the second byte is stored at the next address. These three lines are equivalent to',
+<<1004h|1>>:   00h, 00h
+The 2 bytes separated by commas indicate that the first byte is stored at the address on the left and the second byte is stored at the next address. These three lines are equivalent to',
           ],
           [
             1,
             '[10:00] Code - Charles Petzold.epub (OEBPS/ch17.html) - 1000h',
-            '<<1000h|1>>:    00h,  A7h,  00h,  1Ch,  00h,  00hSo the entire multiplication program can be written as a series of statements like this:',
+            'The 2 bytes separated by commas indicate that the first byte is stored at the address on the left and the second byte is stored at the next address. These three lines are equivalent to
+<<1000h|1>>:    00h,  A7h,  00h,  1Ch,  00h,  00h
+So the entire multiplication program can be written as a series of statements like this:',
           ],
           [
             1,
@@ -673,7 +767,7 @@ STO [<<1003h|1>>],ANotice that the destination (a memory location for the Store 
 
 <<1000h|1>>:    00h, A7h
 <<1002h|1>>:    00h, 1Ch
-<<1004h|1>>:    00h, 00hThe judicious use of blank lines and other white space is simply to make the whole program more readable for human beings like you and me.',
+<<1004h|1>>:    00h, 00h',
           ],
           [
             1,
@@ -703,17 +797,17 @@ STO [<<1003h|1>>],ANotice that the destination (a memory location for the Store 
           [
             1,
             '[19:11] Code - Charles Petzold.epub (OEBPS/ch18.html) - 1911',
-            "Herman Hollerith also set in motion a long trail of events. In 1896, he founded the Tabulating Machine Company to lease and sell the punch-card equipment. By <<1911|9e:1>>, with the help of a couple of mergers, it had become the Computing-Tabulating-Recording Company, or C-T-R. By <<1915|9e:1>>, the president of C-T-R was Thomas J. Watson (1874\x{2013}1956), who in 1924 changed the name of the company to International Business Machines Corporation, or IBM.",
+            "Herman Hollerith also set in motion a long trail of events. In 1896, he founded the Tabulating Machine Company to lease and sell the punch-card equipment. By <<1911|9:0>>, with the help of a couple of mergers, it had become the Computing-Tabulating-Recording Company, or C-T-R. By <<1915|9:0>>, the president of C-T-R was Thomas J. Watson (1874\x{2013}1956), who in 1924 changed the name of the company to International Business Machines Corporation, or IBM.",
           ],
           [
             1,
             '[19:28] Code - Charles Petzold.epub (OEBPS/ch18.html) - 1928',
-            "By <<1928|9e:1>>, the original 1890 census cards had evolved into the famous \"do not spindle, fold, or mutilate\" IBM cards, with 80 columns and 12 rows. They remained in active use for over 50 years, and even in their later years were sometimes referred to as Hollerith cards. I'll describe the legacy of these cards more in Chapters Chapter\x{a0}20, Chapter\x{a0}21, and Chapter\x{a0}24.",
+            "By <<1928|9:0>>, the original 1890 census cards had evolved into the famous \"do not spindle, fold, or mutilate\" IBM cards, with 80 columns and 12 rows. They remained in active use for over 50 years, and even in their later years were sometimes referred to as Hollerith cards. I'll describe the legacy of these cards more in Chapters Chapter\x{a0}20, Chapter\x{a0}21, and Chapter\x{a0}24.",
           ],
           [
             1,
             '[19:45] Code - Charles Petzold.epub (OEBPS/ch18.html) - 1945',
-            'But beginning in the early 1940s, vacuum tubes began supplanting relays in new computers. By <<1945|9e:1>>, the transition was complete. While relay machines were known as electromechanical computers, vacuum tubes were the basis of the first electronic computers.',
+            'But beginning in the early 1940s, vacuum tubes began supplanting relays in new computers. By <<1945|9:0>>, the transition was complete. While relay machines were known as electromechanical computers, vacuum tubes were the basis of the first electronic computers.',
           ],
           [
             1,
@@ -768,7 +862,9 @@ STO [<<1003h|1>>],ANotice that the destination (a memory location for the Store 
           [
             1,
             '[00:00] Code - Charles Petzold.epub (OEBPS/ch19.html) - 0000h',
-            '<<0000h|1>>:     LXI SP,0000hIt\'s also possible to increment and decrement register pairs and the Stack Pointer as if they were 16-bit registers:',
+            'The LXI instruction saves a byte. In addition, the last LXI instruction in the preceding table is used to set the Stack Pointer to a particular value. It\'s not uncommon for this instruction to be one of the first instructions that a microprocessor executes after being restarted:
+<<0000h|1>>:     LXI SP,0000h
+It\'s also possible to increment and decrement register pairs and the Stack Pointer as if they were 16-bit registers:',
           ],
           [
             1,
@@ -791,7 +887,7 @@ MultLoop:    DAD HL,BC        ; Add BC to HL
 
 AllDone:     POP BC           ; Restore saved registers
              POP PSW
-             RET              ; ReturnNotice that the first line of the subroutine begins with a label, which is the word Multiply. This label, of course, actually corresponds to a memory address where the subroutine is located. The subroutine begins with two PUSH instructions. Usually a subroutine should attempt to save (and later restore) any registers that it might need to use.',
+             RET              ; Return',
           ],
           [
             1,
@@ -806,7 +902,9 @@ AllDone:     POP BC           ; Restore saved registers
           [
             1,
             '[ap ~ 02:25] Code - Charles Petzold.epub (OEBPS/ch20.html) - about 2.25',
-            'F. Scott Fitzgerald\'s The Great Gatsby is about 300 kilobytes.J. D. Salinger\'s Catcher in the Rye is about 400 kilobytes.Mark Twain\'s The Adventures of Huckleberry Finn is about 540 kilobytes.John Steinbeck\'s The Grapes of Wrath is about a megabyte.Herman Melville\'s Moby Dick is about 1.3 megabytes.Henry Fielding\'s The History of Tom Jones is <<about 2.25|5a:0>> megabytes.Margaret Mitchell\'s Gone with the Wind is about 2.5 megabytes.Stephen King\'s complete and uncut The Stand is about 2.7 megabytes.Leo Tolstoy\'s War and Peace is about 3.9 megabytes.Marcel Proust\'s Remembrance of Things Past is about 7.7 megabytes.The United States Library of Congress has about 20 million books for a total of 20 trillion characters, or 20 terabytes, of text data. (It has a bunch of photographs and sound recordings as well.)',
+            'Herman Melville\'s Moby Dick is about 1.3 megabytes.
+Henry Fielding\'s The History of Tom Jones is <<about 2.25|5a:0>> megabytes.
+Margaret Mitchell\'s Gone with the Wind is about 2.5 megabytes.',
           ],
           [
             1,
@@ -821,7 +919,7 @@ AllDone:     POP BC           ; Restore saved registers
           [
             1,
             '[ap ~ 02:00] Code - Charles Petzold.epub (OEBPS/ch20.html) - about 2',
-            'The only real problem with Unicode is that it makes invalid the old equivalence between one character of text and 1 byte of storage. Encoded in ASCII, The Grapes of Wrath is about 1 megabyte in size. Encoded in Unicode, it\'s <<about 2|9:0>> megabytes. But that\'s a small price to pay for a universal unambiguous character encoding system.',
+            'The only real problem with Unicode is that it makes invalid the old equivalence between one character of text and 1 byte of storage. Encoded in ASCII, The Grapes of Wrath is about 1 megabyte in size. Encoded in Unicode, it\'s <<about 2|9w>> megabytes. But that\'s a small price to pay for a universal unambiguous character encoding system.',
           ],
           [
             1,
@@ -867,7 +965,7 @@ AllDone:     POP BC           ; Restore saved registers
           [
             1,
             '[ap ~ 10:24] Code - Charles Petzold.epub (OEBPS/ch21.html) - approximately 1024',
-            'Let\'s start with the low estimate. One way to reduce the memory requirements of a video display adapter is to restrict the adapter to text only. We\'ve already established that we can display 25 rows of 40 characters each, or a total of 1000 characters. The RAM on the video board need only store the 7-bit ASCII codes of those 1000 characters. That\'s 1000 7-bit values, which is <<approximately 1024|9:0>> bytes, or 1 kilobyte.',
+            'Let\'s start with the low estimate. One way to reduce the memory requirements of a video display adapter is to restrict the adapter to text only. We\'ve already established that we can display 25 rows of 40 characters each, or a total of 1000 characters. The RAM on the video board need only store the 7-bit ASCII codes of those 1000 characters. That\'s 1000 7-bit values, which is <<approximately 1024|9w>> bytes, or 1 kilobyte.',
           ],
           [
             1,
@@ -907,7 +1005,12 @@ AllDone:     POP BC           ; Restore saved registers
                ADD A,37h ; A to F converted to 41h to 46h
                RET
 Number:        ADD A,30h ; <<0 to 9|10a:0>> converted to 30h to 39h
-               RETThis subroutine calls NibbleToAscii twice to convert a byte in accumulator <<A to two|10>> ASCII digits in registers B and C:',
+               RET',
+          ],
+          [
+            1,
+            '[ap 01:59] Code - Charles Petzold.epub (OEBPS/ch22.html) - A to two',
+            'This subroutine calls NibbleToAscii twice to convert a byte in accumulator <<A to two|10>> ASCII digits in registers B and C:',
           ],
           [
             1,
@@ -917,17 +1020,17 @@ Number:        ADD A,30h ; <<0 to 9|10a:0>> converted to 30h to 39h
           [
             1,
             '[10:20] Code - Charles Petzold.epub (OEBPS/ch22.html) - 1020h',
-            "W 1020 35 4F 78 23 9B AC 67This command instructs the command processor to write the hexadecimal bytes 35, 4F, and so on into the memory addresses beginning at address <<1020h|1>>. For this job, the keyboard handler needs to convert ASCII codes to bytes\x{2014}a reversal of the conversion I demonstrated earlier.",
+            "This command instructs the command processor to write the hexadecimal bytes 35, 4F, and so on into the memory addresses beginning at address <<1020h|1>>. For this job, the keyboard handler needs to convert ASCII codes to bytes\x{2014}a reversal of the conversion I demonstrated earlier.",
           ],
           [
             1,
             '[10:30] Code - Charles Petzold.epub (OEBPS/ch22.html) - 1030h',
-            'D 1030The command processor responds by displaying the 11 bytes stored beginning at location <<1030h|1>>. (I say 11 bytes because that\'s how many will fit on a 40-characterwide display on the same line following the address.) You can use the Display command to examine the contents of memory.',
+            'The command processor responds by displaying the 11 bytes stored beginning at location <<1030h|1>>. (I say 11 bytes because that\'s how many will fit on a 40-characterwide display on the same line following the address.) You can use the Display command to examine the contents of memory.',
           ],
           [
             1,
             '[10:00] Code - Charles Petzold.epub (OEBPS/ch22.html) - 1000h',
-            'R 1000and means "Run the program that\'s stored beginning at address <<1000h|1>>." The command processor stores <<1000h|1>> in the register pair HL and then executes the instruction PCHL, which loads the program counter from register pair HL, effectively jumping to that address.',
+            'and means "Run the program that\'s stored beginning at address <<1000h|1>>." The command processor stores <<1000h|1>> in the register pair HL and then executes the instruction PCHL, which loads the program counter from register pair HL, effectively jumping to that address.',
           ],
           [
             1,
@@ -942,7 +1045,7 @@ Number:        ADD A,30h ; <<0 to 9|10a:0>> converted to 30h to 39h
           [
             1,
             '[01:00] Code - Charles Petzold.epub (OEBPS/ch22.html) - 0100h',
-            'CALCfollowing the CP/M prompt, and if a file named CALC.COM exists on the disk, the CCP loads that file into memory starting at address <<0100h|1>> and then executes the program by jumping to the machine-code instruction located at address <<0100h|1>>.',
+            'following the CP/M prompt, and if a file named CALC.COM exists on the disk, the CCP loads that file into memory starting at address <<0100h|1>> and then executes the program by jumping to the machine-code instruction located at address <<0100h|1>>.',
           ],
           [
             1,
@@ -957,58 +1060,58 @@ Number:        ADD A,30h ; <<0 to 9|10a:0>> converted to 30h to 39h
           [
             1,
             '[00:00] Code - Charles Petzold.epub (OEBPS/ch23.html) - 0000',
-            '0
+            '
 <<0000|18:0>>
-1',
+',
           ],
           [
             1,
             '[00:01] Code - Charles Petzold.epub (OEBPS/ch23.html) - 0001',
-            '1
+            '
 <<0001|18:0>>
-2',
+',
           ],
           [
             1,
             '[00:10] Code - Charles Petzold.epub (OEBPS/ch23.html) - 0010',
-            '2
+            '
 <<0010|18:0>>
-3',
+',
           ],
           [
             1,
             '[00:11] Code - Charles Petzold.epub (OEBPS/ch23.html) - 0011',
-            '3
+            '
 <<0011|18:0>>
-4',
+',
           ],
           [
             1,
             '[ap 01:00] Code - Charles Petzold.epub (OEBPS/ch23.html) - 0100',
-            '4
+            '
 <<0100|18:0>>
-5',
+',
           ],
           [
             1,
             '[ap 01:01] Code - Charles Petzold.epub (OEBPS/ch23.html) - 0101',
-            '5
+            '
 <<0101|18:0>>
-6',
+',
           ],
           [
             1,
             '[ap 01:10] Code - Charles Petzold.epub (OEBPS/ch23.html) - 0110',
-            '6
+            '
 <<0110|18:0>>
-7',
+',
           ],
           [
             1,
             '[ap 01:11] Code - Charles Petzold.epub (OEBPS/ch23.html) - 0111',
-            '7
+            '
 <<0111|18:0>>
-8',
+',
           ],
           [
             1,
@@ -1017,23 +1120,30 @@ Number:        ADD A,30h ; <<0 to 9|10a:0>> converted to 30h to 39h
           ],
           [
             1,
+            '[ap 10:10] Code - Charles Petzold.epub (OEBPS/ch23.html) - 10-10',
+            'is written
+2.6 x <<10-10|5a:0>>
+In these two examples, the numbers 4.9 and 2.6 are called the fraction part, or the characteristic, or sometimes (although this word is more properly used in conjunction with logarithms) the mantissa. But to be more in tune with the terminology used with computers, I\'m going to call this part of scientific notation the significand.',
+          ],
+          [
+            1,
             '[ap 01:00] Code - Charles Petzold.epub (OEBPS/ch23.html) - 1',
-            '1 x 22 +0 x 21 +1 x 20 +1 x 2-1 +1 x 2-2 +0 x 2-3 +1 x 2-4Or the negative powers of two can be calculated by starting at <<1|9g>> and repeatedly dividing by 2:',
+            'Or the negative powers of two can be calculated by starting at <<1|9g>> and repeatedly dividing by 2:',
           ],
           [
             1,
             '[ap 10:38] Code - Charles Petzold.epub (OEBPS/ch23.html) - 10-38',
-            '1.11111111111111111111111TWO x 2127In decimal, these two numbers are approximately 1.175494351 x <<10-38|5a:0>> and <<3|91:0>>.402823466 x 1038. That\'s the effective range of single-precision floating-point notation.',
+            'In decimal, these two numbers are approximately 1.175494351 x <<10-38|5a:0>> and <<3|91:0>>.402823466 x 1038. That\'s the effective range of single-precision floating-point notation.',
           ],
           [
             1,
             '[ap 03:50] Code - Charles Petzold.epub (OEBPS/ch23.html) - 3.50',
-            '1.00000000000000000000000TWO x 218.That\'s one reason why fixed-point is preferred when dealing with dollars and cents. When you work with floating-point numbers, you could also discover other little quirks that can drive you mad. Your program will do a calculation that should yield the result <<3.50|5a:0>> and instead you get 3.499999999999. This type of thing tends to happen in floating-point calculations, and there isn\'t a whole lot you can do about it.',
+            'That\'s one reason why fixed-point is preferred when dealing with dollars and cents. When you work with floating-point numbers, you could also discover other little quirks that can drive you mad. Your program will do a calculation that should yield the result <<3.50|5a:0>> and instead you get 3.499999999999. This type of thing tends to happen in floating-point calculations, and there isn\'t a whole lot you can do about it.',
           ],
           [
             1,
             '[ap 03:08] Code - Charles Petzold.epub (OEBPS/ch23.html) - 308',
-            '1.1111111111111111111111111111111111111111111111111111TWO x 21023The range is decimal in approximately 2.2250738585072014 x 10-308 to 1.7976931348623158 x 10308. Ten to the 308th power is a very big number. It\'s 1 followed by <<308|3:0>> decimal zeros.',
+            'The range is decimal in approximately 2.2250738585072014 x 10-308 to 1.7976931348623158 x 10308. Ten to the 308th power is a very big number. It\'s 1 followed by <<308|3:0>> decimal zeros.',
           ],
           [
             1,
@@ -1044,7 +1154,12 @@ Number:        ADD A,30h ; <<0 to 9|10a:0>> converted to 30h to 39h
       CALL 5
       RET
 Text: DB \'Hello!$\'
-      ENDThis file has a couple of statements we haven\'t seen before. The first one is an ORG (for origin) statement. This statement does not correspond to an 8080 instruction. Instead, it indicates that the address of the next statement is to begin at address <<0100h|1>>, which you\'ll recall is the address where CP/M loads programs into memory.',
+      END',
+          ],
+          [
+            1,
+            '[01:00] Code - Charles Petzold.epub (OEBPS/ch24.html) - 0100h',
+            'This file has a couple of statements we haven\'t seen before. The first one is an ORG (for origin) statement. This statement does not correspond to an 8080 instruction. Instead, it indicates that the address of the next statement is to begin at address <<0100h|1>>, which you\'ll recall is the address where CP/M loads programs into memory.',
           ],
           [
             1,
@@ -1054,15 +1169,7 @@ Text: DB \'Hello!$\'
           [
             1,
             '[ap 02:59] Code - Charles Petzold.epub (OEBPS/ch24.html) - a to 3',
-            'begin
-    real a, b;
-
-    for a := 3 step 2 until 99 do
-    begin
-        b := a x a x a;
-        print (\'The cube of \', a, \' is \', b);
-    end
-endThe for statement initially sets the variable <<a to 3|10>> and executes the block following the for statement. Then a is increased by the number following the step keyword, which is <<2|9c:0>>. The new value of a, which is <<5|9c:0>>, is used to execute the block. The variable a will continue to be increased by 2. When it exceeds 99, the for loop is completed.',
+            'The for statement initially sets the variable <<a to 3|10>> and executes the block following the for statement. Then a is increased by the number following the step keyword, which is <<2|9c:0>>. The new value of a, which is <<5|9c:0>>, is used to execute the block. The variable a will continue to be increased by 2. When it exceeds 99, the for loop is completed.',
           ],
           [
             1,

@@ -72,6 +72,11 @@ $VAR1 = [
           [
             1,
             '[12:00] Suldrun\'s Garden - Jack Vance.epub (OEBPS/page-1.html) - noon',
+            'Trewan failed to reappear on deck until <<noon|13>> of the following day. His indisposition, whatever its source, had departed and Trewan seemed once more in sound health, if still somewhat gaunt and pale. Except for a few words with the captain as to the progress of the ship, he spoke to no one, and presently returned to his cabin, where the steward brought him a pot of boiled beef with leeks.',
+          ],
+          [
+            1,
+            '[12:00] Suldrun\'s Garden - Jack Vance.epub (OEBPS/page-1.html) - noon',
             'Dawn found the Smaadra well into the Straits of Palisidra. At <<noon|13>> Cape Palisidra, the western tip of Troicinet, loomed into view, then disappeared, and the Smaadra now rode the waters of the Lir.',
           ],
           [
@@ -107,6 +112,11 @@ $VAR1 = [
           [
             1,
             '[12:00] Suldrun\'s Garden - Jack Vance.epub (OEBPS/page-1.html) - noon',
+            'At <<noon|13>> of the following day the troop halted before Tintzin Fyral, where it surmounted a tall crag, as if growing from the substance of the crag itself.',
+          ],
+          [
+            1,
+            '[12:00] Suldrun\'s Garden - Jack Vance.epub (OEBPS/page-1.html) - noon',
             "At <<noon|13>> the party approached Kaul Bocach. King Casmir, with half of his knights passed the fort after paying a toll of eight silver florins. A few yards along the road they halted. The rest of the party approached the fortress. The captain of the fortress stepped forward. \x{201c}Why did you not pass all together? It is now necessary that you pay another eight florins.\x{201d}",
           ],
           [
@@ -117,12 +127,17 @@ $VAR1 = [
           [
             1,
             '[12:00] Suldrun\'s Garden - Jack Vance.epub (OEBPS/page-1.html) - noon',
+            'At <<noon|13>> of the following day Suldrun went into labor. Close on sunset, haggard, hollow-eyed but relatively cheerful, she gave birth to a son whom she named Dhrun, after a Danaan hero who ruled the worlds of Arcturus.',
+          ],
+          [
+            1,
+            '[12:00] Suldrun\'s Garden - Jack Vance.epub (OEBPS/page-1.html) - noon',
             'The bread and water arrived at <<noon|13>>. Aillas took them from the basket, which was then drawn empty up the shaft.',
           ],
           [
             1,
             '[ap > 03:00] Suldrun\'s Garden - Jack Vance.epub (OEBPS/page-1.html) - after three',
-            "\x{201c}In that case,\x{201d} sighed 1Twisk, \x{201c}please obey the instruction implicit in the sign. Only <<after three|9:0>> such encounters will the bonds loosen.\x{201d}",
+            "\x{201c}In that case,\x{201d} sighed 1Twisk, \x{201c}please obey the instruction implicit in the sign. Only <<after three|9w>> such encounters will the bonds loosen.\x{201d}",
           ],
           [
             1,

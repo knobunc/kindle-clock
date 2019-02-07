@@ -2,7 +2,7 @@ $VAR1 = [
           [
             1,
             '[19:45] The First Deadly Sin - Lawrence Sanders.epub (OEBPS/13-chap10.xhtml) - 1945',
-            "Edward X. Delaney had been born a Catholic and raised a Catholic. Communion and confession were as much a part of his life as love and work. He was married in the Church, and his children attended parochial schools. His faith was monolithic. Until <<1945|9:0>> \x{2026}",
+            "Edward X. Delaney had been born a Catholic and raised a Catholic. Communion and confession were as much a part of his life as love and work. He was married in the Church, and his children attended parochial schools. His faith was monolithic. Until <<1945|9n:0>> \x{2026}",
           ],
           [
             1,
@@ -96,7 +96,7 @@ $VAR1 = [
           [
             1,
             '[ap ~ 10:00] The First Deadly Sin - Lawrence Sanders.epub (OEBPS/19-chap16.xhtml) - about ten',
-            "\x{201c}Inspector Johnson and myself, of course. And <<about ten|9:0>> or a dozen others, all of superior rank to us, who don\x{2019}t, for obvious reasons, want their names used at this time.\x{201d}",
+            "\x{201c}Inspector Johnson and myself, of course. And <<about ten|9w>> or a dozen others, all of superior rank to us, who don\x{2019}t, for obvious reasons, want their names used at this time.\x{201d}",
           ],
           [
             1,
@@ -237,7 +237,7 @@ $VAR1 = [
           [
             1,
             '[16:00] The First Deadly Sin - Lawrence Sanders.epub (OEBPS/34-chap31.xhtml) - 4:00 p.m.',
-            "It worked\x{2014}up to a point. He phoned, identified himself, made an appointment to see her at her home at <<4:00 p.m.|2a>>, when she returned from Mother of Mercy. He thought it likely she would repeat the conversation to her guard, as she had been instructed. Or perhaps her phone was tapped. Anything was possible. So, when he walked over <<a few minutes before four|10>>, and one of the dicks in the unmarked police car parked outside her brownstone cranked down his window, waved, and called, \x{201c}Hi, Captain,\x{201d} he wasn\x{2019}t surprised. He waved back, although he didn\x{2019}t recognize the man.",
+            "It worked\x{2014}up to a point. He phoned, identified himself, made an appointment to see her at her home at <<4:00 p.m.|2a>>, when she returned from Mother of Mercy. He thought it likely she would repeat the conversation to her guard, as she had been instructed. Or perhaps her phone was tapped. Anything was possible. So, when he walked over <<a few minutes before four|10>>, and <<one|20a>> of the dicks in the unmarked police car parked outside her brownstone cranked down his window, waved, and called, \x{201c}Hi, Captain,\x{201d} he wasn\x{2019}t surprised. He waved back, although he didn\x{2019}t recognize the man.",
           ],
           [
             1,
@@ -507,7 +507,7 @@ $VAR1 = [
           [
             1,
             '[ap ~ 11:00] The First Deadly Sin - Lawrence Sanders.epub (OEBPS/50-chap47.xhtml) - About eleven',
-            "\x{201c}Yeah. <<About eleven|9e:1>>, twelve. Around there. Pretty enough to be a girl. I heard Blank call him Tony.\x{201d}",
+            "\x{201c}Yeah. <<About eleven|9x>>, twelve. Around there. Pretty enough to be a girl. I heard Blank call him Tony.\x{201d}",
           ],
           [
             1,
@@ -577,6 +577,11 @@ Delaney thought. \x{201c}All right. <<Six o\x{2019}clock|6>>. Where?\x{201d}
             1,
             "[ap 06:00] The First Deadly Sin - Lawrence Sanders.epub (OEBPS/50-chap47.xhtml) - six o\x{2019}clock",
             "The problem, he decided\x{2014}the essential problem\x{2014}was not how to take Blank. That had to wait for his meeting with Thorsen at <<six o\x{2019}clock|6>>. The essential problem was Blank, the man himself, who he was, what he was, what he might do.",
+          ],
+          [
+            1,
+            '[ap 01:00] The First Deadly Sin - Lawrence Sanders.epub (OEBPS/50-chap47.xhtml) - one',
+            "\x{201c}The most obvious,\x{201d} Alinski shrugged. \x{201c}Various fictitious documents planted with every man in the Inner Circle. Only one was leaked. It was that easy. But before we kicked this bastard downstairs to a job inspecting monuments or potholes\x{2014}you don\x{2019}t fire a man like that; the public scandal helps no one\x{2014}I put him under twenty-four hour surveillance and discovered something interesting. Once a week he was having dinner with five men, always the same five men. They were meeting at <<one|9g>> of their homes or in a hotel room or renting a private dining room in a restaurant. It was a curious group. Chairman of the Board of a downtown bank, real estate speculator, editor of a news magazine, a corporation VP, our squealer, and Deputy Commissioner Broughton. I didn\x{2019}t like the smell of it. What did those men have in common? They didn\x{2019}t even all belong to the same political party. So I kept an eye on them. A few months later, the six had grown to twelve, then to twenty. And they were entertaining occasional guests from Albany, and once a man from the Attorney-General\x{2019}s office in Washington. By this time there were almost thirty members, dining together every week.\x{201d}",
           ],
           [
             1,
@@ -808,7 +813,7 @@ Fernandez nodded. \x{201c}Captain \x{2026}\x{201d}",
           [
             1,
             '[ap ~ 00:00] The First Deadly Sin - Lawrence Sanders.epub (OEBPS/57-chap54.xhtml) - about twelve',
-            "\x{201c}MacDonald here. We have one homicide: female, white, black hair, early thirties, five-four or five, a hundred and ten, slender, skull crushed, answering description of the Princess. White, male boy, <<about twelve|9e:1>>, naked and hysterical, answering description of Anthony Montfort. One white male, six-three or four, about one-sixty or sixty-five, unconscious, answering description of houseman Valenter, broken nose, facial injuries, bad breathing. Need two ambulances and doctors. Fernandez is alive but still bleeding. We can\x{2019}t stop it. Ambulance? Soon, please. Tiger One had broken right leg, arm, bruises, scrapes. Ambulances and doctors, please.\x{201d}",
+            "\x{201c}MacDonald here. We have one homicide: female, white, black hair, early thirties, five-four or five, a hundred and ten, slender, skull crushed, answering description of the Princess. White, male boy, <<about twelve|9x>>, naked and hysterical, answering description of Anthony Montfort. One white male, six-three or four, about one-sixty or sixty-five, unconscious, answering description of houseman Valenter, broken nose, facial injuries, bad breathing. Need two ambulances and doctors. Fernandez is alive but still bleeding. We can\x{2019}t stop it. Ambulance? Soon, please. Tiger One had broken right leg, arm, bruises, scrapes. Ambulances and doctors, please.\x{201d}",
           ],
           [
             1,

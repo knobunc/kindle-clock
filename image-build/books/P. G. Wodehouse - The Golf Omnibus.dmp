@@ -117,13 +117,13 @@ $VAR1 = [
             1,
             '[ap 03:00] The Golf Omnibus - P. G. Wodehouse.epub (OPS/xhtml/chapter013.html) - three',
             "\x{201c}Oh, anything you please. How about a couple of railroads?\x{201d}
-\x{201c}Make it <<three|9f>>.\x{201d}
+\x{201c}Make it <<three|9q:0>>.\x{201d}
 \x{201c}Very well.\x{201d}",
           ],
           [
             1,
             '[ap > 03:00] The Golf Omnibus - P. G. Wodehouse.epub (OPS/xhtml/chapter013.html) - after three',
-            'There are few things more demoralizing than to be consistently outdriven; and when he is outdriven by a hundred and seventy yards at two consecutive holes the bravest man is apt to be shaken. Gladstone Bott was only human. It was with a sinking heart that he watched his opponent heave and sway on the tenth tee; and when the ball once more flew straight and far down the course a strange weakness seemed to come over him. For the first time he lost his morale and topped. The ball trickled into the long grass, and <<after three|9:0>> fruitless stabs at it with a niblick he picked up, and the match was squared.',
+            'There are few things more demoralizing than to be consistently outdriven; and when he is outdriven by a hundred and seventy yards at two consecutive holes the bravest man is apt to be shaken. Gladstone Bott was only human. It was with a sinking heart that he watched his opponent heave and sway on the tenth tee; and when the ball once more flew straight and far down the course a strange weakness seemed to come over him. For the first time he lost his morale and topped. The ball trickled into the long grass, and <<after three|9w>> fruitless stabs at it with a niblick he picked up, and the match was squared.',
           ],
           [
             1,
@@ -214,6 +214,16 @@ Jane hung up the receiver and went to her room to try on hats.",
             1,
             '[04:00] The Golf Omnibus - P. G. Wodehouse.epub (OPS/xhtml/chapter023.html) - four in the morning',
             "Nothing but love and his determination to save the girl he worshipped from crawling into bed at <<four in the morning|5>> could have forced Angus McTavish, when the appointed night arrived, to fish out the old stiff shirt and put on dress clothes and present himself at the club-house. The day had been unusually warm for the time of year and he had played three rounds and was feeling that desire for repose and solitude which comes to men who have done their fifty-four holes under a hot sun. But tomorrow was the day of the Ladies\x{2019} Spring Medal, and at whatever cost to himself it was imperative that Evangeline be withdrawn from the revels at an hour which would enable her to get a good night\x{2019}s sleep. So he fought down the desire to put on pyjamas, and presently was mingling with Legs Mortimer\x{2019}s guests, trying to stifle the yawns which nearly tore him asunder.",
+          ],
+          [
+            1,
+            '[ap 01:00] The Golf Omnibus - P. G. Wodehouse.epub (OPS/xhtml/chapter023.html) - one',
+            'And what of Angus, meanwhile? For some little time after Evangeline had left him, he stood rooted to the spot. For some little time after that, he had paced the terrace with knitted brow, reminding not a few of the members who watched him through the windows of Napoleon at St. Helena. Eventually, finding conditions rather cramped and feeling that he needed more space in which to express himself, he had gone for a walk round the links, and by <<one|9w>> of those odd coincidences was approaching the eighteenth tee from the rear at the exact moment when Evangeline made her drive. And as he drew near his reverie was suddenly shattered by a hideous, cackling shout of laughter from the other side of the bushes which hid the tee from his view.',
+          ],
+          [
+            1,
+            '[ap > 01:00] The Golf Omnibus - P. G. Wodehouse.epub (OPS/xhtml/chapter027.html) - after one',
+            'A deliberate man, this Copstone. Before making a shot, he would inspect his enormous bag of clubs and take out one after another, slowly, as if he were playing spillikens. Having at length made his selection, he would stand motionless beside his ball, staring at it for what seemed an eternity. Only <<after one|9w>> had begun to give up hope that life would ever again animate the rigid limbs, would he start his stroke. He was affectionately known on our links as The Frozen Horror.',
           ],
           [
             1,

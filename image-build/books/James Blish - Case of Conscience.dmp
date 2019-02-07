@@ -4,12 +4,17 @@ $VAR1 = [
             '[ap 02:16] Case of Conscience - James Blish.epub (OEBPS/Text/Appendix.xhtml) - 2.16',
             'Argon, etc.
 <<2.16|5a:0>>
-CO2',
+',
           ],
           [
             1,
             '[ap 01:21] Case of Conscience - James Blish.epub (OEBPS/Text/Appendix.xhtml) - 1:21',
             "1 An earlier figure of 40 light-years, often quoted in the literature, arose from application of the so-called Cosmological Constant. Einstein\x{2019}s reluctance to allow this \x{201c}constant\x{201d} into his scholium has now been fully justified. v. Haertel, J.I.R. <<1:21|2>>, 2047.",
+          ],
+          [
+            1,
+            '[ap < 02:00] Case of Conscience - James Blish.epub (OEBPS/Text/Book_1.xhtml) - nearly two',
+            "\x{201c}You could certainly get along without more iron if you had to,\x{201d} Ruiz-Sanchez admitted. \x{201c}Your wooden machinery is precise enough to satisfy any engineer. Most of them, I think, don\x{2019}t remember that we used to have something similar: I\x{2019}ve a sample in my own home. It\x{2019}s a kind of timer called a cuckoo clock, <<nearly two|9:1>> of our centuries old, made entirely of wood except for the weights, and still nearly a hundred per cent accurate. For that matter, long after we began to build seagoing vessels of metal, we continued to use lignum vitae for ships\x{2019} bearings.\x{201d}",
           ],
           [
             1,
@@ -19,7 +24,7 @@ CO2',
           [
             1,
             '[~ 19:00] Case of Conscience - James Blish.epub (OEBPS/Text/Book_2.xhtml) - about 1860',
-            "\x{201c}Only <<about 1860|9:0>>,\x{201d} Ruiz-Sanchez said. \x{201c}But no, it\x{2019}s quite different now. The pestilence was capricious; one\x{2019}s children might survive it; but fusion bombs are catholic.\x{201d} He winced involuntarily. \x{201c}And there it is. A moment ago, I caught myself thinking that the shadow of destruction we labour under now is not only imminent but transcendent; I was burlesquing a tragedy; death in premedical days was always both imminent and immanent, impending and indwelling\x{2014}but it was never transcendent. In those days, only God was impending, indwelling and transcendent all at once, and that was their hope. Today, we\x{2019}ve given them Death instead.\x{201d}",
+            "\x{201c}Only <<about 1860|9w>>,\x{201d} Ruiz-Sanchez said. \x{201c}But no, it\x{2019}s quite different now. The pestilence was capricious; one\x{2019}s children might survive it; but fusion bombs are catholic.\x{201d} He winced involuntarily. \x{201c}And there it is. A moment ago, I caught myself thinking that the shadow of destruction we labour under now is not only imminent but transcendent; I was burlesquing a tragedy; death in premedical days was always both imminent and immanent, impending and indwelling\x{2014}but it was never transcendent. In those days, only God was impending, indwelling and transcendent all at once, and that was their hope. Today, we\x{2019}ve given them Death instead.\x{201d}",
           ],
           [
             1,
@@ -60,5 +65,10 @@ CO2',
             1,
             '[ap 01:00] Case of Conscience - James Blish.epub (OEBPS/Text/Book_2.xhtml) - one',
             "Heresies, Ruiz-Sanchez thought\x{2014}not for the first time\x{2014}come in snarls. It is impossible to pull free one thread; tug at <<one|9c:1>>, and the whole mass begins to roll down upon you.",
+          ],
+          [
+            1,
+            '[ap 01:00] Case of Conscience - James Blish.epub (OEBPS/Text/Book_2.xhtml) - ONE',
+            "\x{201c}BY THE SEVEN GOLD CANDLESTICKS, AND BY <<ONE|9w>> LIKE UNTO THE SON OF MAN, STANDING IN THE MIDST OF THE CANDLESTICKS; BY HIS VOICE, AS THE VOICE OF MANY WATERS; BY HIS WORDS, \x{2018}I AM LIVING, WHO WAS DEAD; AND BEHOLD, I LIVE FOREVER AND EVER; AND I HAVE THE KEYS OF DEATH AND OF HELL;\x{2019} I SAY UNTO YOU, ANGEL OF PERDITION: DEPART, DEPART, DEPART!\x{201d}",
           ],
         ];

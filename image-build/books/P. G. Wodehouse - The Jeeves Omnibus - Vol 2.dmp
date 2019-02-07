@@ -216,8 +216,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[00:00] The Jeeves Omnibus - Vol 2 - P. G. Wodehouse.epub (OEBPS/Text/part0055.xhtml) - midnight',
-            "These took the shape \x{2013} at about a quarter to twelve \x{2013} of a kindly bird in a lorry who, on being hailed, put everything right with a careless twiddle of the fingers so rapidly that he had occasion to spit only twice from start to finish. I thanked him, flung him a purse of gold and proceeded on my way, fetching up at journey\x{2019}s end just as the local clocks were striking <<midnight|11>>.",
+            '[ap ~ 23:45] The Jeeves Omnibus - Vol 2 - P. G. Wodehouse.epub (OEBPS/Text/part0055.xhtml) - about a quarter to twelve',
+            "These took the shape \x{2013} at <<about a quarter to twelve|10>> \x{2013} of a kindly bird in a lorry who, on being hailed, put everything right with a careless twiddle of the fingers so rapidly that he had occasion to spit only twice from start to finish. I thanked him, flung him a purse of gold and proceeded on my way, fetching up at journey\x{2019}s end just as the local clocks were striking <<midnight|11>>.",
           ],
           [
             1,
@@ -330,7 +330,7 @@ $VAR1 = [
             1,
             '[ap 08:00] The Jeeves Omnibus - Vol 2 - P. G. Wodehouse.epub (OEBPS/Text/part0069.xhtml) - eight',
             "I meant it, too. The Little household may be weak on housemaids, but it is right there when it comes to cooks. Somewhere or other some time ago Bingo\x{2019}s missus managed to dig up a Frenchman of the most extraordinary vim and skill. A most amazing Johnnie who dishes a wicked ragout. Old Bingo has put on at least ten pounds in weight since this fellow Anatole arrived in the home.
-\x{2018}At <<eight|9e>>, then.\x{2019}
+\x{2018}At <<eight|9v>>, then.\x{2019}
 \x{2018}Right. Thanks ever so much.\x{2019}",
           ],
           [

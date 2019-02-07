@@ -123,7 +123,7 @@ At a <<quarter to ten|10>>, neat, spruce, and dandified as ever, he made his way
           [
             1,
             '[ap 00:00] Murder on the Orient Express - Agatha Christie.epub (OEBPS/012_chapter07.html) - twelve',
-            "\x{201c}I make it <<twelve|9f>>. One or two are so slight as to be practically scratches. On the other hand, at least three would be capable of causing death.\x{201d}",
+            "\x{201c}I make it <<twelve|9q:0>>. One or two are so slight as to be practically scratches. On the other hand, at least three would be capable of causing death.\x{201d}",
           ],
           [
             1,
@@ -468,7 +468,7 @@ Evidence Against Her or Suspicious Circumstances: and her refusal to explain sam
           [
             1,
             '[ap 01:15] Murder on the Orient Express - Agatha Christie.epub (OEBPS/032_chapter25.html) - 1:15',
-            "The handkerchief marked with the initial H. Whose is it?
+            'The handkerchief marked with the initial H. Whose is it?
 The pipe cleaner. Was it dropped by Colonel Arbuthnot? Or by someone else?
 Who wore the scarlet kimono?
 Who was the man or woman masquerading in Wagon Lit uniform?
@@ -477,10 +477,7 @@ Was the murder committed at that time?
 Was it earlier?
 Was it later?
 Can we be sure that Ratchett was stabbed by more than one person?
-What other explanation of his wounds can there be?
-
-
-\x{201c}Well, let us see what we can do,\x{201d} said M. Bouc, brightening a little at this challenge to his wits. \x{201c}The handkerchief to begin with. Let us by all means be orderly and methodical.\x{201d}",
+What other explanation of his wounds can there be?',
           ],
           [
             1,

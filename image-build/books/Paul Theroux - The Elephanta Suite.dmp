@@ -16,8 +16,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 01:00] The Elephanta Suite - Paul Theroux.epub (OPS/c03.xml) - one',
-            'Dr. Nagaraj had tucked a message under their door requesting a meeting at <<one|9g>> o\'clock in his office. He had never written before; his handwriting was black and severe and intimidating; and <<one o\'clock|6>> was their lunch hour.',
+            '[ap 01:00] The Elephanta Suite - Paul Theroux.epub (OPS/c03.xml) - one o\'clock',
+            'Dr. Nagaraj had tucked a message under their door requesting a meeting at <<one o\'clock|9g>> in his office. He had never written before; his handwriting was black and severe and intimidating; and <<one o\'clock|6>> was their lunch hour.',
           ],
           [
             1,
@@ -32,7 +32,7 @@ $VAR1 = [
           [
             1,
             '[ap 04:00] The Elephanta Suite - Paul Theroux.epub (OPS/c06.xml) - four',
-            'They had a nap by the pool, in the shade of the overhanging trees, and at <<four|9e:1>>, yawning, they made their way back up the slope for the formality of requesting another week.',
+            'They had a nap by the pool, in the shade of the overhanging trees, and at <<four|9:0>>, yawning, they made their way back up the slope for the formality of requesting another week.',
           ],
           [
             1,
@@ -53,7 +53,7 @@ $VAR1 = [
             1,
             '[ap 03:00] The Elephanta Suite - Paul Theroux.epub (OPS/c09.xml) - three',
             '"It might mean two weeks of back-to-back meetings."
-"Make it <<three|9f>>. Less pressure." And Dwight spoke of strategy.
+"Make it <<three|9q:0>>. Less pressure." And Dwight spoke of strategy.
 "Hunt, you\'re amazing."',
           ],
           [

@@ -17,7 +17,7 @@ $VAR1 = [
           [
             1,
             '[ap > 06:00] The Fountainhead - Ayn Rand.epub (OEBPS/rand_9781101137185_oeb_c04_r1.html) - Shortly after six',
-            '<<Shortly after six|9e:1>>, Davis departed furtively from the empty drafting room, leaving Keating at his table.',
+            '<<Shortly after six|9u>>, Davis departed furtively from the empty drafting room, leaving Keating at his table.',
           ],
           [
             1,
@@ -108,6 +108,11 @@ $VAR1 = [
           ],
           [
             1,
+            '[ap 04:30] The Fountainhead - Ayn Rand.epub (OEBPS/rand_9781101137185_oeb_c18_r1.html) - four-thirty',
+            "Then he seized the telephone, he spoke to a high, flat voice which belonged to Ellsworth Toohey\x{2019}s secretary, and he made an appointment to see Toohey at <<four-thirty|5b>> of the next afternoon.",
+          ],
+          [
+            1,
             '[ap 08:30] The Fountainhead - Ayn Rand.epub (OEBPS/rand_9781101137185_oeb_c21_r1.html) - eight-thirty',
             "\x{201c}You\x{2019}re unpredictable enough even to be sensible at times. I\x{2019}ll call for you at <<eight-thirty|3b>> Friday. Black tie. Do you own a tux, by the way?\x{201d}",
           ],
@@ -151,7 +156,7 @@ $VAR1 = [
           [
             1,
             '[20:06] The Fountainhead - Ayn Rand.epub (OEBPS/rand_9781101137185_oeb_c28_r1.html) - twenty-six',
-            'She stood slumped, her body thin and curveless. She wore a skirt of expensive tweed, unpressed. She had smeared some make-up on her face; the skin showed lifeless under the patches of powder. At <<twenty-six|9e:0>> she looked like a woman trying to hide the fact of being over thirty.',
+            'She stood slumped, her body thin and curveless. She wore a skirt of expensive tweed, unpressed. She had smeared some make-up on her face; the skin showed lifeless under the patches of powder. At <<twenty-six|9u:0>> she looked like a woman trying to hide the fact of being over thirty.',
           ],
           [
             1,
@@ -203,7 +208,7 @@ $VAR1 = [
           [
             1,
             '[20:06] The Fountainhead - Ayn Rand.epub (OEBPS/rand_9781101137185_oeb_c36_r1.html) - twenty-six',
-            'It was not a formal meeting of the Council of American Writers, but an unofficial gathering. Ike had asked a few of his friends to listen to his latest work. At <<twenty-six|9e:0>> he had written eleven plays, but had never had one produced.',
+            'It was not a formal meeting of the Council of American Writers, but an unofficial gathering. Ike had asked a few of his friends to listen to his latest work. At <<twenty-six|9u:0>> he had written eleven plays, but had never had one produced.',
           ],
           [
             1,
@@ -260,7 +265,7 @@ $VAR1 = [
           [
             1,
             '[ap 10:50] The Fountainhead - Ayn Rand.epub (OEBPS/rand_9781101137185_oeb_c51_r1.html) - 10:50',
-            'But she had really noticed nothing except the watch on her wrist and that she must be out of that house by <<10:50|2>>. She had no idea of what she would say to take her leave, but by <<10:45|2>> it had been said, correctly and convincingly, and by <<10|9:1>>: 50 her foot was on the accelerator.',
+            'But she had really noticed nothing except the watch on her wrist and that she must be out of that house by <<10:50|2>>. She had no idea of what she would say to take her leave, but by <<10:45|2>> it had been said, correctly and convincingly, and by <<10|9w>>: 50 her foot was on the accelerator.',
           ],
           [
             1,

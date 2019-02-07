@@ -153,8 +153,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 08:00] Harry Potter and the Goblet of Fire - J. K. Rowling.epub (index_split_024.html) - eight',
-            "\x{201c}Dress robes will be worn,\x{201d} Professor McGonagall continued, \x{201c}and the ball will start at <<eight|9g>> o\x{2019}clock on Christmas Day, finishing at <<midnight|13>> in the Great Hall. Now then \x{2014}\x{201d}",
+            "[ap 08:00] Harry Potter and the Goblet of Fire - J. K. Rowling.epub (index_split_024.html) - eight o\x{2019}clock",
+            "\x{201c}Dress robes will be worn,\x{201d} Professor McGonagall continued, \x{201c}and the ball will start at <<eight o\x{2019}clock|9g>> on Christmas Day, finishing at <<midnight|13>> in the Great Hall. Now then \x{2014}\x{201d}",
           ],
           [
             1,
@@ -231,8 +231,7 @@ He looked down at his watch. Dobby was right. It was <<twenty past nine|10>>. A 
           [
             1,
             "[ap 02:00] Harry Potter and the Goblet of Fire - J. K. Rowling.epub (index_split_029.html) - two o\x{2019}clock",
-            "Be at stile at end of road out of Hogsmeade (past Dervish and Banges) at <<two o\x{2019}clock|6>> on Saturday afternoon. Bring as much food as you can.
-\x{201c}He hasn\x{2019}t come back to Hogsmeade?\x{201d} said Ron incredulously.",
+            "Be at stile at end of road out of Hogsmeade (past Dervish and Banges) at <<two o\x{2019}clock|6>> on Saturday afternoon. Bring as much food as you can.",
           ],
           [
             1,

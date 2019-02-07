@@ -2,7 +2,7 @@ $VAR1 = [
           [
             1,
             '[00:00] The Last Hieroglyph - Clark Ashton Smith.epub (The_Last_Hieroglyph_split_002.html) - midnight',
-            "At the hour of interlunar <<midnight|13>>, when lamps burned rarely and far apart in Susran, and slow-moving autumn clouds had muffled the stars, King Gadeiron sent forth into the sleeping city twelve of his trustiest mutes. Like shadows gliding through oblivion, they vanished upon their various ways; each of them, returning presently to the darkened palace, led with him a shrouded figure no less silent and discreet than himself.In this manner, groping along tortuous alleys, through blind cypress-caverns in the royal gardens, and down subterranean halls and steps, twelve of the most powerful sorcerers of Susran were brought together in a vault of oozing, death-grey granite, far beneath the foundations of the palace.What an opening scene! What irresistible imagery! It is impossible not to go on reading, not to want\x{2014}no, to need to know about those twelve mutes and those twelve sorcerers and what plan is brewing in the mind of King Gadeiron.",
+            'At the hour of interlunar <<midnight|13>>, when lamps burned rarely and far apart in Susran, and slow-moving autumn clouds had muffled the stars, King Gadeiron sent forth into the sleeping city twelve of his trustiest mutes. Like shadows gliding through oblivion, they vanished upon their various ways; each of them, returning presently to the darkened palace, led with him a shrouded figure no less silent and discreet than himself.',
           ],
           [
             1,
@@ -22,12 +22,17 @@ $VAR1 = [
           [
             1,
             '[12:00] The Last Hieroglyph - Clark Ashton Smith.epub (The_Last_Hieroglyph_split_005.html) - noon',
-            "\x{201c}I have seen Malygris,\x{201d} he said, turning to the conclave. \x{201c}Many times I have watched him thus, thinking to learn some secret of his close-hidden magic. I have spied upon him at <<noon|13>>, at evenfall, and through the drear, lampless vigils of <<midnight|13>>. And I have beheld him in the ashen dawn and the dawn of quickening fire. But always he sits in the great ivory chair, in the high hall of his tower, frowning as if with meditation. And his hands clutch always the basilisk-carven arms of the chair, and his eyes turn evermore, unshutting, unblinking, toward the orient window and the heavens beyond, where only high-risen stars and clouds go by.",
+            "\x{201c}I have seen Malygris,\x{201d} he said, turning to the conclave. \x{201c}Many times I have watched him thus, thinking to learn some secret of his close-hidden magic. I have spied upon him at <<noon|13>>, at evenfall, and through the drear, lampless <<vigils|13>> of <<midnight|13>>. And I have beheld him in the ashen dawn and the dawn of quickening fire. But always he sits in the great ivory chair, in the high hall of his tower, frowning as if with meditation. And his hands clutch always the basilisk-carven arms of the chair, and his eyes turn evermore, unshutting, unblinking, toward the orient window and the heavens beyond, where only high-risen stars and clouds go by.",
           ],
           [
             1,
             '[12:00] The Last Hieroglyph - Clark Ashton Smith.epub (The_Last_Hieroglyph_split_007.html) - high noon',
             "Nor was this all; for other abominations came to him by day, visible, and perceived through all his senses, and more loathsome even than the dead. Things that seemed as the leavings of leprosy crawled before him at <<high noon|13>> in the halls of Famorgh; and they rose up from the shadows and sidled toward him, leering whitely with faces that were no longer faces, and trying to caress him with their half-eaten fingers. About his ankles, as he went to and fro, there clung lascivious empus\x{e6} with breasts that were furred like the bat; and serpent-bodied lami\x{e6} minced and pirouetted before his eyes, like the dancers before the king.",
+          ],
+          [
+            1,
+            '[12:00] The Last Hieroglyph - Clark Ashton Smith.epub (The_Last_Hieroglyph_split_007.html) - noon',
+            'Weary and devil-ridden, he reached the wattled house of Sabmon at <<noon|13>> of the next day. The sage greeted him affectionately, showing no surprise, and listened to his story with the air of one who harkens a twice-told tale.',
           ],
           [
             1,
@@ -78,6 +83,11 @@ $VAR1 = [
             1,
             '[12:00] The Last Hieroglyph - Clark Ashton Smith.epub (The_Last_Hieroglyph_split_016.html) - Noon',
             '<<Noon|13>>, with its sun of candent copper in a blackish-blue zenith, found them far amid the rusty sands and iron-toothed ridges of Izdrel. The route they followed was little more than a footpath: for, though Izdrel was but thirty miles in width at that point, few travellers would dare those fiend-infested leagues; and most preferred an immensely circuitous road, used by the herders, that ran to the southward of that evil desolation, following the Vos nearly to its debouchment in the Indaskian Sea.',
+          ],
+          [
+            1,
+            '[02:30] The Last Hieroglyph - Clark Ashton Smith.epub (The_Last_Hieroglyph_split_016.html) - vigils',
+            "\x{201c}At first the solitude was far from irksome to me, and I was wholly absorbed in my study of the arcana of nature. But after a time it seemed that such things no longer sufficed. I grew aware of my loneliness, and was much beset by the demons of the waste, who had troubled me little heretofore. Succubi, fair but baneful, lami\x{e6} with the round soft bodies of women, came to tempt me in the drear <<vigils|13>> of the night.",
           ],
           [
             1,
@@ -172,7 +182,9 @@ $VAR1 = [
           [
             1,
             '[12:00] The Last Hieroglyph - Clark Ashton Smith.epub (The_Last_Hieroglyph_split_033.html) - noon',
-            "Through years reversed and lit againI followed that unending chainWherein the suns are links of light;Retraced through lineal, ordered spheresThe twisting of the threads of yearsIn weavings wrought of <<noon|13>> and night;Through stars and deeps I watched the dream unroll,Those folds that form the raiment of the soul.The circumstances of John Milwarp\x{2019}s death recall the death of Smith\x{2019}s associate, Boutwell Dunlap (1877\x{2013}1930), who died suddenly under murky circumstances in his rooms at the Graystone Hotel in San Francisco on December 22, 1930. Dunlap was an attorney and historian who helped promote Smith\x{2019}s first book in 1912. Since Dunlap had attempted to hog all the credit for Smith\x{2019}s discovery, earning a rebuke from no less than Ambrose Bierce himself, Smith may not have been too well disposed toward Dunlap.",
+            'The twisting of the threads of years
+In weavings wrought of <<noon|13>> and night;
+Through stars and deeps I watched the dream unroll,',
           ],
           [
             1,

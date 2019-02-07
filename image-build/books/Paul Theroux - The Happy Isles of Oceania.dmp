@@ -62,20 +62,17 @@ $VAR1 = [
             1,
             '[12:00] The Happy Isles of Oceania_ Paddling the P - Paul Theroux.epub (OPS/xhtml/chapter006.xhtml) - noon',
             'Weespa a frayer in da morning,
- Weespa a frayer at <<noon|13>>.
- Weespa a frayer in da evening 
+Weespa a frayer at <<noon|13>>.
+Weespa a frayer in da evening
 So keep your heart in tune.',
           ],
           [
             1,
             '[12:00] The Happy Isles of Oceania_ Paddling the P - Paul Theroux.epub (OPS/xhtml/chapter006.xhtml) - noon',
             'Jesus may come in da morning,
-
- Jesus may come at <<noon|13>>,
-
+Jesus may come at <<noon|13>>,
 Jesus may come in da evening
-
- So keep your heart in tune.',
+So keep your heart in tune.',
           ],
           [
             1,
@@ -96,7 +93,7 @@ I said, \x{201c}You mean <<five-thirty|5k:1>>.\x{201d}
             '[12:00] The Happy Isles of Oceania_ Paddling the P - Paul Theroux.epub (OPS/xhtml/chapter007.xhtml) - noon',
             "The gong woke me. I heard the kids hurrying in the pattering rain, and then,
 Weespa a frayer in da morning
- Weespa a frayer at <<noon|13>> \x{2026}
+Weespa a frayer at <<noon|13>> \x{2026}
 The sweetness of their voices was undeniable, but in it was a note of mockery. They no longer sounded innocent to me. These prayer rituals were no more than momentary pauses in their relentless teasing, and indeed seemed to make their teasing worse.",
           ],
           [
@@ -141,6 +138,11 @@ The sweetness of their voices was undeniable, but in it was a note of mockery. T
           ],
           [
             1,
+            '[ap > 01:00] The Happy Isles of Oceania_ Paddling the P - Paul Theroux.epub (OPS/xhtml/chapter011.xhtml) - after one',
+            "Captain Cook landed here on his first Pacific voyage. The Tanna people defied him, and <<after one|9w>> encounter Cook wrote, \x{201c}One fellow shewed us his backside in such a manner that it was not necessary to have an interpreter to explain his meaning.\x{201d}",
+          ],
+          [
+            1,
             '[~ 12:00] The Happy Isles of Oceania_ Paddling the P - Paul Theroux.epub (OPS/xhtml/chapter011.xhtml) - about noon',
             "But I was wrong. After I got to shore I turned on my radio and heard the Pidgin broadcast \x{2013} the Bislama news on Vanuatu Radio. This was <<about noon|13>> on 17 January, Tanna time, which was early morning in Iraq. The first attack had come in the early hours of the morning, at roughly the time Mr Lishi, the Futunese fisherman in his outrigger canoe, had asked me the question. It was not telepathy on his part: the matter was on everyone\x{2019}s mind.",
           ],
@@ -171,8 +173,8 @@ The sweetness of their voices was undeniable, but in it was a note of mockery. T
           ],
           [
             1,
-            '[12:00] The Happy Isles of Oceania_ Paddling the P - Paul Theroux.epub (OPS/xhtml/chapter013.xhtml) - noon',
-            "\x{201c}We went on patrol. I was with my men, about six of us. Of course we never talked. We stopped to rest at <<noon|13>> and were lying there, no talking, when I heard a loud click \x{2013} a helmet hitting a rock. We never wore helmets. If you see pictures of soldiers wearing helmets in the Solomons they are untrue \x{2013} they are posed.",
+            '[ap ~ 06:00] The Happy Isles of Oceania_ Paddling the P - Paul Theroux.epub (OPS/xhtml/chapter013.xhtml) - about six',
+            "\x{201c}We went on patrol. I was with my men, <<about six|9:1>> of us. Of course we never talked. We stopped to rest at <<noon|13>> and were lying there, no talking, when I heard a loud click \x{2013} a helmet hitting a rock. We never wore helmets. If you see pictures of soldiers wearing helmets in the Solomons they are untrue \x{2013} they are posed.",
           ],
           [
             1,
@@ -281,7 +283,7 @@ The speaker was Mr Skew, a New Zealander. He told me about the political system,
           [
             1,
             '[ap 05:00] The Happy Isles of Oceania_ Paddling the P - Paul Theroux.epub (OPS/xhtml/chapter022.xhtml) - five',
-            'Afraid that I might not get up in time, I hardly slept. I dozed, dreamed of missing the plane, and then woke up in a panic. I was fully awake at <<five|9c:1>>. I was loitering in the driveway at <<five-thirty|5b>>. At <<six|9e>>, no one appeared. At <<ten|9t>> past I began knocking on doors. It was another cold, black, Easter Island morning. I went on waiting. Where was everyone?',
+            'Afraid that I might not get up in time, I hardly slept. I dozed, dreamed of missing the plane, and then woke up in a panic. I was fully awake at <<five|9c:1>>. I was loitering in the driveway at <<five-thirty|5b>>. At <<six|9v>>, no one appeared. At <<ten|9t>> past I began knocking on doors. It was another cold, black, Easter Island morning. I went on waiting. Where was everyone?',
           ],
           [
             1,

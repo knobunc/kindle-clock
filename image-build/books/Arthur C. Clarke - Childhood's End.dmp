@@ -11,6 +11,11 @@ $VAR1 = [
           ],
           [
             1,
+            '[ap > 01:00] Childhood\'s End - Arthur C. Clarke.epub (OEBPS/Text/chapter22.xhtml) - after one',
+            'Once Vindarten had taken charge of him, Jan had no more worries. He also had no opportunity of doing the things he wished, for almost all his time was spent meeting Overlord scientists anxious to carry out obscure tests with complicated instruments. Jan was very wary of these machines, and <<after one|9w>> session with some kind of hypnotic device had a splitting headache for several hours. He was perfectly willing to cooperate, but was not sure if his investigators realised his limitations, both mental and physical. It was certainly a long time before he could convince them that he had to sleep at regular intervals.',
+          ],
+          [
+            1,
             '[ap 06:00] Childhood\'s End - Arthur C. Clarke.epub (OEBPS/Text/chapter24.xhtml) - six',
             "\x{201c}Yes. I have been home five \x{2014} or is it <<six|9f>>? \x{2014} years now. Whatever happens, I\x{2019}ll have no complaints.\x{201d}",
           ],
@@ -27,13 +32,13 @@ $VAR1 = [
           [
             1,
             '[20:07] Childhood\'s End - Arthur C. Clarke.epub (OEBPS/Text/chapter8.xhtml) - twenty-seven',
-            "At <<twenty-seven|9:0>>, Jan still had several years of college life ahead of him before he needed to think seriously about his career. He had taken his bachelors\x{2019} degrees without any difficulty, following a syllabus that would have seemed very strange a century before. His main subjects had been mathematics and physics, but as subsidiaries he had taken philosophy and music appreciation. Even by the high standards of the time he was a first-rate amateur pianist.",
+            "At <<twenty-seven|9u:0>>, Jan still had several years of college life ahead of him before he needed to think seriously about his career. He had taken his bachelors\x{2019} degrees without any difficulty, following a syllabus that would have seemed very strange a century before. His main subjects had been mathematics and physics, but as subsidiaries he had taken philosophy and music appreciation. Even by the high standards of the time he was a first-rate amateur pianist.",
           ],
           [
             1,
             '[ap 10:00] Childhood\'s End - Arthur C. Clarke.epub (OEBPS/Text/chapter9.xhtml) - ten',
             "Jean looked at him steadfastly, and decided that, on the whole, she liked what she saw.
-\x{201c}Make it <<ten|9f>>,\x{201d} she said.
+\x{201c}Make it <<ten|9q:0>>,\x{201d} she said.
 ",
           ],
         ];

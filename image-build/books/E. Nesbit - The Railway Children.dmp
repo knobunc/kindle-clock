@@ -2,45 +2,13 @@ $VAR1 = [
           [
             1,
             '[18:45] The Railway Children - E. Nesbit.epub (TheRailwayChildren/xhtml/appendix004.html) - 1845',
-            "The first steam engine was invented by Richard Trevithick. On 21 February 1804 his \x{2018}Penydarren tram road engine\x{2019} pulled ten
-               tonnes of iron and seventy men a distance of ten miles along a railway line in south Wales. The engine\x{2019}s top speed was five
-               miles per hour, but this was considered a great improvement on the slow progress made by horses hauling wagons.
-            
-
-         
-             Trevithick\x{2019}s locomotive was considered a novelty and he died a poor man, but his idea was developed and, in 1829, Robert
-               and George Stephenson unveiled the Rocket; the first \x{2018}safe\x{2019} passenger train.
-            
-
-         
-             By <<1845|9e:1>>, in the UK alone, there was a network of 2,440 miles of railway line carrying 30 million passengers per year.
-            
-
-         
-             Steam trains were superseded by the invention of electric and diesel trains in the 1950s.
-            
-
-         
-             Work began on the American railroad, which spans the United States, in 1868. Today, the fastest train in America is the electric
-               Amtrak train.
-            
-
-         
-             Until <<2004|9e:1>>, the fastest commercial train in the world was the German InterCity, recorded to have reached a top speed of 243
-               miles per hour.
-            
-
-         
-             Since 2004, the fastest commercial train in the world has been in China \x{2013} the high-speed maglev that connects Pudong airport
-               to Shanghai. The train reaches a top speed of 267 miles per hour. Interestingly, a German company manufactured the Shanghai
-               Maglev. The idea of an \x{2018}electromagnetic levitation train\x{2019} (first invented by German engineer Hermann Kemper) has been around since 1922, but there
-               is still much debate about its efficiency and impact on the environment.
-            
-
-         
-             Rail enthusiasts, commonly known in the UK as trainspotters and in the US as railfans, are sometimes known by the following
-               nicknames: foamers or rail buffs (US), grizzers or gricers (UK), gunzels (Australia). Amongst themselves, they use the term
-               ferroequinology (literally, the study of iron horses)!",
+            'By <<1845|9:0>>, in the UK alone, there was a network of 2,440 miles of railway line carrying 30 million passengers per year.',
+          ],
+          [
+            1,
+            '[20:04] The Railway Children - E. Nesbit.epub (TheRailwayChildren/xhtml/appendix004.html) - 2004',
+            'Until <<2004|9n:0>>, the fastest commercial train in the world was the German InterCity, recorded to have reached a top speed of 243
+               miles per hour.',
           ],
           [
             1,
@@ -59,7 +27,7 @@ $VAR1 = [
           [
             1,
             '[ap < 07:00] The Railway Children - E. Nesbit.epub (TheRailwayChildren/xhtml/chapter001.html) - nearly seven',
-            'It was <<nearly seven|9:0>> before she came in, looking so ill and tired that the children felt they could not ask her any questions.
+            'It was <<nearly seven|9w>> before she came in, looking so ill and tired that the children felt they could not ask her any questions.
          She sank into an armchair. Phyllis took the long pins out of her hat, while Roberta took off her gloves, and Peter unfastened
          her walking-shoes and fetched her soft velvety slippers for her.',
           ],
@@ -197,7 +165,7 @@ This was at <<half past eight|10>>.
             1,
             '[ap ~ 11:00] The Railway Children - E. Nesbit.epub (TheRailwayChildren/xhtml/chapter009.html) - About eleven',
             "\x{2018}I\x{2019}ve sold another story, Chickies,\x{2019} she said; \x{2018}the one about the King of the Mussels, so there\x{2019}ll be buns for tea. You can
-         go and get them as soon as they\x{2019}re baked. <<About eleven|9e:1>>, isn\x{2019}t it?\x{2019}",
+         go and get them as soon as they\x{2019}re baked. <<About eleven|9x>>, isn\x{2019}t it?\x{2019}",
           ],
           [
             1,

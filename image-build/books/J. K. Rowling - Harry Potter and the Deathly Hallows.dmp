@@ -76,7 +76,7 @@ Dawn seemed to follow <<midnight|13>> with indecent haste.
           [
             1,
             '[ap 03:00] Harry Potter and the Deathly Hallows - J. K. Rowling.epub (index_split_031.html) - three',
-            "\x{201c}When my sister was six years old, she was attacked, set upon, by <<three|9:0>> Muggle boys. They\x{2019}d seen her doing magic, spying through the back garden hedge: She was a kid, she couldn\x{2019}t control it, no witch or wizard can at that age. What they saw scared them, I expect. They forced their way through the hedge, and when she couldn\x{2019}t show them the trick, they got a bit carried away trying to stop the little freak doing it.\x{201d}",
+            "\x{201c}When my sister was six years old, she was attacked, set upon, by <<three|9u>> Muggle boys. They\x{2019}d seen her doing magic, spying through the back garden hedge: She was a kid, she couldn\x{2019}t control it, no witch or wizard can at that age. What they saw scared them, I expect. They forced their way through the hedge, and when she couldn\x{2019}t show them the trick, they got a bit carried away trying to stop the little freak doing it.\x{201d}",
           ],
           [
             1,
@@ -117,8 +117,13 @@ The silence swallowed them all again. Every head turned, every eye in the place 
           ],
           [
             1,
+            '[ap > 01:00] Harry Potter and the Deathly Hallows - J. K. Rowling.epub (index_split_036.html) - After one',
+            "But the lie did not convince Lily: <<After one|9u>> last burning look, she ran from the little thicket, off after her sister, and Snape looked miserable and confused. \x{2026}",
+          ],
+          [
+            1,
             '[ap 11:00] Harry Potter and the Deathly Hallows - J. K. Rowling.epub (index_split_036.html) - eleven',
-            "\x{201c}Come to my office tonight, Severus, at <<eleven|9e:1>>, and you shall not complain that I have no confidence in you. \x{2026}\x{201d}",
+            "\x{201c}Come to my office tonight, Severus, at <<eleven|9:0>>, and you shall not complain that I have no confidence in you. \x{2026}\x{201d}",
           ],
           [
             1,

@@ -46,8 +46,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 03:00] Valley of Genius_ The Uncensored History o - Adam Fisher.epub (OEBPS/chapter013.xhtml) - three',
-            "Megan Smith: You\x{2019}d say \x{201c}Hey Zarko, let\x{2019}s meet at <<three|9g>> o\x{2019}clock.\x{201d} And then he would say, \x{201c}A.M. or P.M.?\x{201d}",
+            "[ap 03:00] Valley of Genius_ The Uncensored History o - Adam Fisher.epub (OEBPS/chapter013.xhtml) - three o\x{2019}clock",
+            "Megan Smith: You\x{2019}d say \x{201c}Hey Zarko, let\x{2019}s meet at <<three o\x{2019}clock|9g>>.\x{201d} And then he would say, \x{201c}A.M. or P.M.?\x{201d}",
           ],
           [
             1,
@@ -102,7 +102,7 @@ $VAR1 = [
           [
             1,
             '[ap > 06:00] Valley of Genius_ The Uncensored History o - Adam Fisher.epub (OEBPS/chapter019.xhtml) - after six',
-            "Steve Westly: And he\x{2019}s got the thing set up in the back room of his apartment\x{2014}it\x{2019}s a two- or three-bedroom place, and the back room is eBay. It\x{2019}s twenty-five cents to list and a teeny little fee, and you send your check to this P.O. box. And <<after six|9e:1>>, eight, ten, twelve weeks, there\x{2019}s a check every day. Then it gets exciting\x{2014}because it\x{2019}s no longer two or three checks, it\x{2019}s like fifty.",
+            "Steve Westly: And he\x{2019}s got the thing set up in the back room of his apartment\x{2014}it\x{2019}s a two- or three-bedroom place, and the back room is eBay. It\x{2019}s twenty-five cents to list and a teeny little fee, and you send your check to this P.O. box. And <<after six|9w>>, eight, ten, twelve weeks, there\x{2019}s a check every day. Then it gets exciting\x{2014}because it\x{2019}s no longer two or three checks, it\x{2019}s like fifty.",
           ],
           [
             1,

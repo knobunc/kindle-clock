@@ -17,7 +17,7 @@ $VAR1 = [
           [
             1,
             '[< 00:00] Collected Stories and Other Writings - Katherine Anne Porter.epub (OEBPS/11-tcpg_109.xhtml) - almost twenty-four',
-            "Of course she didn\x{2019}t mean a wedding. Silly! Cousin Sancha had been quite old, <<almost twenty-four|9e:1>>, and Violeta meant for life to begin at once\x{2014}next year, anyway. It would be more like a festival. She wanted to wear red poppies in her hair and dance. Life would always be very gay, with no one about telling you that almost everything you said and did was wrong. She would be free to read poetry, too, and stories about love, without having to hide them in her copybooks. Even Carlos did not know that she had learned nearly all his poems by heart. She had for a year been cutting them from magazines, keeping them in the pages of her books, in order to read them during study hours.",
+            "Of course she didn\x{2019}t mean a wedding. Silly! Cousin Sancha had been quite old, <<almost twenty-four|9:1>>, and Violeta meant for life to begin at once\x{2014}next year, anyway. It would be more like a festival. She wanted to wear red poppies in her hair and dance. Life would always be very gay, with no one about telling you that almost everything you said and did was wrong. She would be free to read poetry, too, and stories about love, without having to hide them in her copybooks. Even Carlos did not know that she had learned nearly all his poems by heart. She had for a year been cutting them from magazines, keeping them in the pages of her books, in order to read them during study hours.",
           ],
           [
             1,
@@ -62,7 +62,7 @@ $VAR1 = [
           [
             1,
             '[ap ~ 02:00] Collected Stories and Other Writings - Katherine Anne Porter.epub (OEBPS/20-tcpg_118.xhtml) - about two',
-            "She watched the people coming on or leaving at the stations, greeting, or kissing good-by, and it seemed a lucky sign she did not see a sad face anywhere. There was a cold sweet sunshine on the snow, and the city people didn\x{2019}t look all frozen and bundled up. Their faces looked smooth after the gnarled raw frost-bitten country faces. The Grand Central hadn\x{2019}t changed at all, with all the crowds whirling in every direction, and a noise that almost had a tune in it, it was so steady. She held on to her bag the colored men were trying to get away from her, and stood on the sidewalk trying to remember which direction was Broadway where the moving pictures were. She hadn\x{2019}t seen one for five years, it was high time now! She wished she had an hour to visit her old flat in 164th Street\x{2014}just a turn around the block would be enough, but there wasn\x{2019}t time. An old resentment rose against Honora, who was a born spoil-sport and would spoil this trip for her if she could. She walked on, getting her directions, brooding a little because she had been such a city girl once, thinking only of dress and a good time, and now she hardly knew one street from another. She went into the first moving-picture theater she saw because she liked the name of it. \x{201c}The Prince of Love,\x{201d} she said to herself. It was <<about two|9:1>> beautiful young things, a boy with black wavy hair and a girl with curly golden hair, who loved each other and had great troubles, but it all came well in the end, and all the time it was just one fine ballroom or garden after another, and such beautiful clothes! She sniffled a little in the Azurea-smelling handkerchief, and ate her chocolates, and reminded herself these two were really alive and looked just like that, but it was hard to believe living beings could be so beautiful.",
+            "She watched the people coming on or leaving at the stations, greeting, or kissing good-by, and it seemed a lucky sign she did not see a sad face anywhere. There was a cold sweet sunshine on the snow, and the city people didn\x{2019}t look all frozen and bundled up. Their faces looked smooth after the gnarled raw frost-bitten country faces. The Grand Central hadn\x{2019}t changed at all, with all the crowds whirling in every direction, and a noise that almost had a tune in it, it was so steady. She held on to her bag the colored men were trying to get away from her, and stood on the sidewalk trying to remember which direction was Broadway where the moving pictures were. She hadn\x{2019}t seen one for five years, it was high time now! She wished she had an hour to visit her old flat in 164th Street\x{2014}just a turn around the block would be enough, but there wasn\x{2019}t time. An old resentment rose against Honora, who was a born spoil-sport and would spoil this trip for her if she could. She walked on, getting her directions, brooding a little because she had been such a city girl once, thinking only of dress and a good time, and now she hardly knew one street from another. She went into the first moving-picture theater she saw because she liked the name of it. \x{201c}The Prince of Love,\x{201d} she said to herself. It was <<about two|9w>> beautiful young things, a boy with black wavy hair and a girl with curly golden hair, who loved each other and had great troubles, but it all came well in the end, and all the time it was just one fine ballroom or garden after another, and such beautiful clothes! She sniffled a little in the Azurea-smelling handkerchief, and ate her chocolates, and reminded herself these two were really alive and looked just like that, but it was hard to believe living beings could be so beautiful.",
           ],
           [
             1,
@@ -100,6 +100,12 @@ $VAR1 = [
             "\x{201c}You poor baby,\x{201d} said Cousin Eva, and pity gave a light like daggers to her eyes, \x{201c}you dear innocent, you\x{2014}do you believe that? How old are you, anyway?\x{201d}
 \x{201c}<<Just past eighteen|10>>,\x{201d} said Miranda.
 \x{201c}If you don\x{2019}t understand what I tell you,\x{201d} said Cousin Eva portentously, \x{201c}you will later. Knowledge can\x{2019}t hurt you. You mustn\x{2019}t live in a romantic haze about life. You\x{2019}ll understand when you\x{2019}re married, at any rate.\x{201d}",
+          ],
+          [
+            1,
+            '[12:00] Collected Stories and Other Writings - Katherine Anne Porter.epub (OEBPS/24-tcpg_121.xhtml) - Noon',
+            "<<Noon|13>> Wine
+TIME: 1896\x{2013}1905",
           ],
           [
             1,
@@ -155,13 +161,18 @@ $VAR1 = [
             1,
             '[ap 10:00] Collected Stories and Other Writings - Katherine Anne Porter.epub (OEBPS/25-tcpg_122.xhtml) - ten',
             "\x{201c}Just nine minutes,\x{201d} said Adam; \x{201c}I read that in your own newspaper not a week ago.\x{201d}
-\x{201c}Make it <<ten|9f>> and I\x{2019}ll come along,\x{201d} said Miranda.
+\x{201c}Make it <<ten|9q:1>> and I\x{2019}ll come along,\x{201d} said Miranda.
 \x{201c}Not another second,\x{201d} said Adam, \x{201c}exactly nine minutes, take it or leave it.\x{201d}",
           ],
           [
             1,
             "[ap > 01:00] Collected Stories and Other Writings - Katherine Anne Porter.epub (OEBPS/25-tcpg_122.xhtml) - after one o\x{2019}clock",
             "Adam moved about searching the tables and the mantelpiece. \x{201c}Here it is,\x{201d} he said. \x{201c}I\x{2019}ll be back in a few minutes. I must look for an all-night drug store. It\x{2019}s <<after one o\x{2019}clock|6>>. Good-by.\x{201d}",
+          ],
+          [
+            1,
+            '[00:00] Collected Stories and Other Writings - Katherine Anne Porter.epub (OEBPS/25-tcpg_122.xhtml) - midnight',
+            "\x{201c}Oh, no,\x{201d} said Miranda, \x{201c}for then I see worse things,\x{201d} but her eyes closed in spite of her will, and the <<midnight|13>> of her internal torment closed about her.",
           ],
           [
             1,
@@ -232,6 +243,11 @@ Notes on the Texas I Remember",
           ],
           [
             1,
+            '[12:00] Collected Stories and Other Writings - Katherine Anne Porter.epub (OEBPS/47-tcpg_149.xhtml) - noon',
+            "This was later, and there is still the vast middle section of the work, the rages, the revolts, the burning <<noon|13>> of drunkenness on sensuous sound and image, the exaltation of the pagan myth, the earth\x{2019}s fertility; the bold richness of the roving imagination taking every land and every sea, every far-off and legendary place, every dream and every nightmare of the blood, every response of every human sense for its own. In this part, I find my own favorites are all, one way or another, songs of mourning: \x{201c}Colonel Fantock\x{201d}; \x{201c}Elegy on Dead Fashion\x{201d}; \x{201c}Three Rustic Elegies\x{201d}\x{2014}\x{201c}O perfumed nosegay brought for noseless death!\x{201d} She acknowledges his power over the suffering flesh, the betrayed heart: but he can plant only carrion which belongs to his kingdom of the dust; Christ the Golden Wheat sows Himself perpetually for our perpetual resurrection. Rarely in the poetry of our time is noseless death stared down so boldly.",
+          ],
+          [
+            1,
             '[12:00] Collected Stories and Other Writings - Katherine Anne Porter.epub (OEBPS/5-TOC.xhtml) - Noon',
             'Old Mortality
 <<Noon|13>> Wine
@@ -247,7 +263,7 @@ Notes on the Texas I Remember",
           [
             1,
             '[19:14] Collected Stories and Other Writings - Katherine Anne Porter.epub (OEBPS/52-tcpg_156.xhtml) - 1914',
-            "By <<1914|9e:1>> he had not yet discovered the truths of reality, indeed, it was not his goal; but after seven years of search and flight, of homelessness and poverty, added to his double sense of failure as human being and as poet\x{2014}for the two warring beings were never to be reconciled in him\x{2014}he was ready, or hoped he was ready, for \x{201c}a more human and natural footing in life,\x{201d} and Magda von Hattingberg seemed to be the one who could provide it for him. She wrote him first, as women so often did, an adoring letter; he hastened to answer it, and thirty-five long years later, she publishes some of his letters\x{2014}very interesting letters, too\x{2014}some of hers, passages from her diary, some very valuable transcriptions of conversations they had, and for the rest, a rhapsodical, high-flung, farfetched romance which for style is an extraordinary blend of Marianna Alcoforado and The Duchess.\x{a0}.\x{a0}.\x{a0}.",
+            "By <<1914|9u>> he had not yet discovered the truths of reality, indeed, it was not his goal; but after seven years of search and flight, of homelessness and poverty, added to his double sense of failure as human being and as poet\x{2014}for the two warring beings were never to be reconciled in him\x{2014}he was ready, or hoped he was ready, for \x{201c}a more human and natural footing in life,\x{201d} and Magda von Hattingberg seemed to be the one who could provide it for him. She wrote him first, as women so often did, an adoring letter; he hastened to answer it, and thirty-five long years later, she publishes some of his letters\x{2014}very interesting letters, too\x{2014}some of hers, passages from her diary, some very valuable transcriptions of conversations they had, and for the rest, a rhapsodical, high-flung, farfetched romance which for style is an extraordinary blend of Marianna Alcoforado and The Duchess.\x{a0}.\x{a0}.\x{a0}.",
           ],
           [
             1,
@@ -262,12 +278,13 @@ Notes on the Texas I Remember",
           [
             1,
             "[ap 07:00] Collected Stories and Other Writings - Katherine Anne Porter.epub (OEBPS/57-chap9.xhtml) - seven o\x{2019}clock",
-            "\x{201c}Flowering Judas\x{201d} was written between <<seven o\x{2019}clock|6>> and midnight of a very cold December, 1929, in Brooklyn. The experiences from which it was made occurred several years before, in Mexico, just after the Obregon revolution.",
+            "\x{201c}Flowering Judas\x{201d} was written between <<seven o\x{2019}clock|6>> and <<midnight|13>> of a very cold December, 1929, in Brooklyn. The experiences from which it was made occurred several years before, in Mexico, just after the Obregon revolution.",
           ],
           [
             1,
             '[12:00] Collected Stories and Other Writings - Katherine Anne Porter.epub (OEBPS/57-chap9.xhtml) - NOON',
-            "\x{201c}<<NOON|13>> WINE\x{201d}: THE SOURCES
+            "We none of us flourished in those times, artists or not, for art, like the human life of which it is the truest voice, thrives best by daylight in a green and growing world. For myself, and I was not alone, all the conscious and recollected years of my life have been lived to this day under the heavy threat of world catastrophe, and most of the energies of my mind and spirit have been spent in the effort to grasp the meaning of those threats, to trace them to their sources and to understand the logic of this majestic and terrible failure of the life of man in the Western world. In the face of such shape and weight of present misfortune, the voice of the individual artist may seem perhaps of no more consequence than the whirring of a cricket in the grass; but the arts do live continuously, and they live literally by faith; their names and their shapes and their uses and their basic meanings survive unchanged in all that matters through times of interruption, diminishment, neglect; they outlive governments and creeds and the societies, even the very civilizations that produced them. They cannot be destroyed altogether because they represent the substance of faith and the only reality. They are what we find again when the ruins are cleared away. And even the smallest and most incomplete offering at this time can be a proud act in defense of that faith.
+\x{201c}<<NOON|13>> WINE\x{201d}: THE SOURCES
 By the time a writer has reached the end of a story, he has lived it at least three times over\x{2014}first in the series of actual events that, directly or indirectly, have combined to set up that commotion in his mind and senses that causes him to write the story; second, in memory; and third, in recreation of this chaotic stuff. One might think this is enough; but no, the writer now finds himself challenged to trace his clues to their sources and to expose the roots of his work in his own most secret and private life; and is asked to live again this sometimes exhausting experience for the fourth time! There was a time when critics of literature seemed quite happy to try digging out the author\x{2019}s meanings without help; or, failing to find any, to invent meanings of their own, often just as satisfactory to everybody\x{2014}except perhaps to the author, whose feelings or opinion traditionally do not count much, anyway.",
           ],
           [
@@ -339,6 +356,11 @@ By the time a writer has reached the end of a story, he has lived it at least th
             1,
             '[00:00] Collected Stories and Other Writings - Katherine Anne Porter.epub (OEBPS/71-tcpg_185.xhtml) - midnight',
             "For an endless dreary time we had stood there, massed in a measureless darkness, waiting, watching the light in the tower of the prison. At <<midnight|13>>, this light winked off, winked on and off again, and my blood chills remembering it even now\x{2014}I do not remember how often, but we were told that the extinction of this light corresponded to the number of charges of electricity sent through the bodies of Sacco and Vanzetti. This was not true, as the newspapers informed us in the morning. It was only one of many senseless rumors and inventions added to the smothering air. It was reported later that Sacco was harder to kill than Vanzetti\x{2014}two or three shocks for that tough body. Almost at once, in small groups, the orderly, subdued people began to scatter, in a sound of voices that was deep, mournful, vast, and wavering. They walked slowly toward the center of Boston. Life felt very grubby and mean, as if we were all of us soiled and disgraced and would never in this world live it down. I said something like this to the man walking near me, whose name or face I never knew, but I remember his words\x{2014}\x{201c}What are you talking about?\x{201d} he asked bitterly, and answered himself: \x{201c}There\x{2019}s no such thing as disgrace anymore.\x{201d}",
+          ],
+          [
+            1,
+            '[~ 20:05] Collected Stories and Other Writings - Katherine Anne Porter.epub (OEBPS/71-tcpg_185.xhtml) - about twenty-five',
+            "However, on getting this news straight, <<about twenty-five|9:0>> of us decided that under Baumes\x{2019} Law (some of us couldn\x{2019}t believe such a monstrosity existed on our statute books; we thought someone was playing a low joke on our ignorance) we must surely be more than eligible for at least ninety-nine years each in the clink and decided to agitate for it. Our plan was to make a point of forcing them to observe that lunatic Baumes\x{2019} Law and overload their jails. For a number of us, writers and artists of all kinds particularly, it might so nicely have settled the problem of where we were to eat and sleep while writing that book or doing whatever it was we had in mind. In those days it was believed that political prisoners were not treated too badly; we learned our mistake later, that it was the big gangsters who were treated well, but at that time, in our innocence, it looked to some of us like the last broad highway to the practice of the arts.",
           ],
           [
             1,

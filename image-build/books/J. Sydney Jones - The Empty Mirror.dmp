@@ -48,7 +48,7 @@ $VAR1 = [
             1,
             '[ap ~ 07:00] The Empty Mirror - J. Sydney Jones.epub (The_Empty_Mi-ennese_Mystery_split_015.html) - About seven',
             "\x{201c}Yes.\x{201d} Gross offered no further explanation.
-\x{201c}<<About seven|9e:1>>, you say.\x{201d}
+\x{201c}<<About seven|9x>>, you say.\x{201d}
 They both nodded at her.",
           ],
           [
@@ -74,7 +74,7 @@ They both nodded at her.",
           [
             1,
             '[ap 11:00] The Empty Mirror - J. Sydney Jones.epub (The_Empty_Mi-ennese_Mystery_split_018.html) - eleven',
-            'By <<eleven|9e:1>>, however, he had made his decision. When he told his parents that he had to return to Vienna to take care of a suddenly remembered legal matter, they visibly paled.',
+            'By <<eleven|9:0>>, however, he had made his decision. When he told his parents that he had to return to Vienna to take care of a suddenly remembered legal matter, they visibly paled.',
           ],
           [
             1,

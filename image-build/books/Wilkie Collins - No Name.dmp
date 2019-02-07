@@ -12,7 +12,7 @@ $VAR1 = [
           [
             1,
             '[ap > 11:00] No Name - Wilkie Collins.epub (OEBPS/html/sc1Between.html) - A little after eleven',
-            "\x{2018}<<A little after eleven|9:0>> we went upstairs to try if we could get some rest.",
+            "\x{2018}<<A little after eleven|9u>> we went upstairs to try if we could get some rest.",
           ],
           [
             1,
@@ -384,8 +384,8 @@ She drew up the hood of her cloak, and nodded to him gaily. Miss Garth, standing
           ],
           [
             1,
-            '[ap 07:00] No Name - Wilkie Collins.epub (OEBPS/html/sc4chapter06.html) - seven',
-            "\x{2018}An interview to-day, my dear sir, is out of the question,\x{2019} he said. \x{2018}She is not well enough; she wants repose. To-morrow I propose taking her out, before the heat of the day begins \x{2013} not merely to avoid embarrassment, after what has happened with Mrs Lecount \x{2014} but because the morning air, and the morning quiet, are essential in these nervous cases. We are early people here \x{2013} we shall start at <<seven|9g>> o\x{2019}clock. If you are early too, and if you would like to join us, I need hardly say that we can feel no objection to your company on our morning walk. The hour, I am aware, is an unusual one \x{2013} but, later in the day, my niece may be resting on the sofa, and may not be able to see visitors.\x{2019}",
+            "[ap 07:00] No Name - Wilkie Collins.epub (OEBPS/html/sc4chapter06.html) - seven o\x{2019}clock",
+            "\x{2018}An interview to-day, my dear sir, is out of the question,\x{2019} he said. \x{2018}She is not well enough; she wants repose. To-morrow I propose taking her out, before the heat of the day begins \x{2013} not merely to avoid embarrassment, after what has happened with Mrs Lecount \x{2014} but because the morning air, and the morning quiet, are essential in these nervous cases. We are early people here \x{2013} we shall start at <<seven o\x{2019}clock|9g>>. If you are early too, and if you would like to join us, I need hardly say that we can feel no objection to your company on our morning walk. The hour, I am aware, is an unusual one \x{2013} but, later in the day, my niece may be resting on the sofa, and may not be able to see visitors.\x{2019}",
           ],
           [
             1,

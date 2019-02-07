@@ -140,7 +140,7 @@ uses, like a portable crib.",
             '[ap 10:00] Eastern Standard Tribe - Cory Doctorow.epub (OPS/main22.xml) - ten',
             "\x{201c}Well I think it\x{2019}s a splendid idea,\x{201d} Linda said. \x{201c}Shall we have
 two? Three? Four?\x{201d}
-\x{201c}Make it <<ten|9f>>,\x{201d} Art said, kissing her cheek.
+\x{201c}Make it <<ten|9q:0>>,\x{201d} Art said, kissing her cheek.
 \x{201c}Oh, I couldn\x{2019}t have ten,\x{201d} Linda said. \x{201c}But five is a nice
 compromise. Five it will be. We\x{2019}ll name the first one Julie if it\x{2019}s
 a girl, or Julius if it\x{2019}s a boy.\x{201d}",
@@ -242,7 +242,7 @@ ideally suited to a double agent\x{2019}s life.",
             1,
             '[ap ~ 10:00] Eastern Standard Tribe - Cory Doctorow.epub (OPS/main9.xml) - Around 10',
             'Trepan: > 10?
-Ballgravy: <<Around 10|9:0>>
+Ballgravy: <<Around 10|9u>>
 Trepan: Where are you from?',
           ],
         ];

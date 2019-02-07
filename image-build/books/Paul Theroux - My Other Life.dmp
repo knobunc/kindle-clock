@@ -167,7 +167,7 @@ $VAR1 = [
           [
             1,
             '[ap 03:00] My Other Life - Paul Theroux.epub (OPS/c04.xml) - three',
-            '"Shall we have some wine?" Lady Max was addressing the waiter. "The house wine comes in a filthy carafe and tastes like nail varnish. Two bottles of Meursault, make it <<three|9f>>, and you can bring them now."',
+            '"Shall we have some wine?" Lady Max was addressing the waiter. "The house wine comes in a filthy carafe and tastes like nail varnish. Two bottles of Meursault, make it <<three|9q:0>>, and you can bring them now."',
           ],
           [
             1,
@@ -202,7 +202,7 @@ $VAR1 = [
           [
             1,
             '[ap 07:00] My Other Life - Paul Theroux.epub (OPS/c07.xml) - seven',
-            '"I could have put the key down. But I had plenty of time. I didn\'t have to meet my wife until <<seven|9c:1>>. Something made me hesitate. It 
+            '"I could have put the key down. But I had plenty of time. I didn\'t have to meet my wife until <<seven|9c:1>>. Something made me hesitate. It
 was his voice. I thought I heard the word \'trance.\' That seemed to me perfect."',
           ],
           [
@@ -240,7 +240,7 @@ was his voice. I thought I heard the word \'trance.\' That seemed to me perfect.
           [
             1,
             '[00:00] My Other Life - Paul Theroux.epub (OPS/c15.xml) - midnight',
-            "Arriving at <<midnight|13>> at my own house on the Cape, I was not consoled. It was chilly inside and the low temperature made the 
+            "Arriving at <<midnight|13>> at my own house on the Cape, I was not consoled. It was chilly inside and the low temperature made the
 damp air greasy. I switched on the lights and turned the thermostat up. Just then I heard the ping of my answering machine, indicating that it had taken a message. Two messages, so the window blinked to me in a yellow number. After almost three days away from here, only two messages, and the first one began,  You bastard, don't you dare \x{2014}at which point I hit the skip button, making the words quacky and meaningless.",
           ],
           [
@@ -258,7 +258,7 @@ Another certainty in my condition was knowing what was possible and what was not
           [
             1,
             '[ap 08:00] My Other Life - Paul Theroux.epub (OPS/c15.xml) - Eight o\'clock',
-            '<<Eight o\'clock|6>> on a winter morning in London, the forty-watt bulbs burning so feebly in the foyer they cast no shadows. An Indian in a sort of teller\'s cage signed me in, took my money in advance, 
+            '<<Eight o\'clock|6>> on a winter morning in London, the forty-watt bulbs burning so feebly in the foyer they cast no shadows. An Indian in a sort of teller\'s cage signed me in, took my money in advance,
 and welcomed me. A plastic nameplate gave his name as R. G. Pillai.',
           ],
           [
@@ -276,6 +276,6 @@ Interrupting me in my protest, he said, "Take breakfast in lounge."',
           [
             1,
             '[< 12:00] My Other Life - Paul Theroux.epub (OPS/c18.xml) - Towards noon',
-            "In the morning I left the bay and paddled on, with the smell of that hooded figure still clinging to me. I was so determined now to end this trip that I hardly took any notice of the cliffs beside me. The waves reflected by hitting the foot of the cliffs made the water so turbulent that I paddled a mile or so offshore to where the sea was calmer. Unable to land, I ate lunch\x{2014}a sandwich, a swig of water\x{2014}in my boat and paddled on slowly until the late afternoon. <<Towards noon|13>> I had passed the lighthouse just above Kahi'u Point, at the tip of the Kalaupapa Peninsula, and <<around five|9:1>> I was just off Kalaupapa.",
+            "In the morning I left the bay and paddled on, with the smell of that hooded figure still clinging to me. I was so determined now to end this trip that I hardly took any notice of the cliffs beside me. The waves reflected by hitting the foot of the cliffs made the water so turbulent that I paddled a mile or so offshore to where the sea was calmer. Unable to land, I ate lunch\x{2014}a sandwich, a swig of water\x{2014}in my boat and paddled on slowly until the late afternoon. <<Towards noon|13>> I had passed the lighthouse just above Kahi'u Point, at the tip of the Kalaupapa Peninsula, and <<around five|9w>> I was just off Kalaupapa.",
           ],
         ];

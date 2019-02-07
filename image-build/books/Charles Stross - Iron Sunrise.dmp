@@ -32,7 +32,7 @@ $VAR1 = [
           [
             1,
             '[~ 15:00] Iron Sunrise - Charles Stross.epub (OEBPS/Text/section24.xhtml) - about 1500',
-            "\x{201c}Mm, <<about 1500|9e:1>>, shipboard. There was some announcement about setting the clocks forward tonight, as well.\x{201d}",
+            "\x{201c}Mm, <<about 1500|9:1>>, shipboard. There was some announcement about setting the clocks forward tonight, as well.\x{201d}",
           ],
           [
             1,
@@ -62,16 +62,16 @@ $VAR1 = [
           [
             1,
             '[18:09] Iron Sunrise - Charles Stross.epub (OEBPS/Text/section3.xhtml) - 18 hours, 09 minutes',
-            "
+            '
 IMPACT: T plus 1392 days. <<18 hours, 09 minutes|14>>
-Wednesday ran through the darkened corridors of the station, her heart pounding. Behind her, unseen yet sensed as a constant menacing presence, ran her relentless pursuer \x{2014} a dog. The killhound wasn\x{2019}t supposed to be here: neither was she. Old Newfoundland Four was in the process of final evacuation, the last ship supposed to have undocked from bay green fourteen minutes ago \x{2014} an icon tattooed on the inside of her left eye showed her this, time counting negative \x{2014} heading out for the nearest flat space-time for the jump to safety. The launch schedule took no notice of tearaway teens, crazed Dresdener captains with secret orders, and gestapo dogs with murder burning in their gun-sight eyes. She panted desperately, nerves straining on the edge of panic, lungs burning in the thin, still air. Sixteen years old and counting, and if she didn\x{2019}t find a way to elude the dog and climb back to the docking hub soon -",
+',
           ],
           [
             1,
             '[17:30] Iron Sunrise - Charles Stross.epub (OEBPS/Text/section3.xhtml) - 17 hours, 30 minutes',
-            "Claws rattled on the floor outside the office, and paused.
+            'Claws rattled on the floor outside the office, and paused.
 IMPACT: T plus 1392 days, <<17 hours, 30 minutes|14>>
-\x{201c}What do you mean, she\x{2019}s missing?\x{201d} Constable Ito said irritably. \x{201c}Can\x{2019}t you keep your children under\x{2014}\x{201d}",
+',
           ],
           [
             1,
@@ -98,7 +98,7 @@ IMPACT: T plus 1392 days, <<17 hours, 30 minutes|14>>
             '[ap 00:16] Iron Sunrise - Charles Stross.epub (OEBPS/Text/section7.xhtml) - 12 hours, 16 minutes',
             "She received a small mercy: mere seconds later the upper atmosphere \x{2014} turned into an anvil of plasma by the passing radiation pulse \x{2014} reached the tropopause. Half a minute later the first shock wave leveled her building. She didn\x{2019}t die alone; despite the lethal dose they all received from the neutrino pulse, nobody on the planet lived past the iron sunrise for long enough to feel the pangs of radiation sickness.
 IMPACT: T plus 1392 days, <<12 hours, 16 minutes|14>>
-Wednesday hid under the desk, heart pounding with terror, clutching a stubby cylinder. She\x{2019}d seen the body of the customs officer stuffed inside the darkened kitchen; realized he was dead, like the handwritten instructions in the diplomatic pouch said. Now the thing that did it was coming for her, and she wished -",
+",
           ],
           [
             1,
@@ -107,37 +107,44 @@ Wednesday hid under the desk, heart pounding with terror, clutching a stubby cyl
           ],
           [
             1,
+            '[ap 00:38] Iron Sunrise - Charles Stross.epub (OEBPS/Text/section7.xhtml) - 12 hours, 38 minutes',
+            "Something cold and wet stubbed itself against the back of her neck, and snuffled damply. She sagged, her knees and stomach turning to sacks of ice water; paw-fingers like bone clamped tight on her shoulders, holding her upright. Her eyelid monitor flickered, then died as the lights came up. The hound on the floor seemed to grin up at her \x{2014} no, past her. When he spoke, his voice was surprisingly human, a deep gravelly growl converging from three directions. \x{201c}Victoria Strowger, this is emergency police pack four-alpha. By order of Captain Mannheim, superintending evacuation process for Old Newfoundland, we are placing you under arrest. You will return with us to the main hub traffic bay to await uplift. I must caution you that any resistance you offer may be dealt with using weapons of nonlethal intent. Running back aboard this habitat was a senseless waste of police time.\x{201d} Two of the voices fell silent, but a third continued: \x{201c}And while we\x{2019}re about it, why were you running away?\x{201d}
+IMPACT: T plus 1392 days, <<12 hours, 38 minutes|14>>
+",
+          ],
+          [
+            1,
             '[01:00] Iron Sunrise - Charles Stross.epub (OEBPS/Text/section7.xhtml) - 1.5 hours',
             "Finally, the ship was ready to depart.
 IMPACT: T plus 8 minutes \x{2014} <<1.5 hours|1>>
-Moscow system died at the speed of light, death rippling outward on a tsunami of radiation.",
+",
           ],
           [
             1,
             '[13:02] Iron Sunrise - Charles Stross.epub (OEBPS/Text/section7.xhtml) - 13 hours, 02 minutes',
-            "Somebody heard.
+            'Somebody heard.
 IMPACT: T plus 1392 days, <<13 hours, 02 minutes|14>>
-The police drone was robotically curt. \x{201c}We\x{2019}ve found your daughter. Please come to deck G-red, zone two meeting point, and collect her.\x{201d}",
+',
           ],
           [
             1,
             '[ap 04:06] Iron Sunrise - Charles Stross.epub (OEBPS/Text/section7.xhtml) - 4 hours, 6 minutes',
             "She looked up at him, an unreadable, serious expression on her face. \x{201c}Oh, no.\x{201d}
 IMPACT: T plus <<4 hours, 6 minutes|14>>
-Two hundred and forty-six minutes after the Zero Incident, the freighter Taxis Pride congealed out of empty space, forty-six degrees out of the plane of the ecliptic, six light hours away from its final destination. Brad Momington, skipper, was on the flight deck, nattering with Mary Haight, the relativistics op. Taxis Pride was a three-point shuttle, connecting Moscow to Iceland Seven station, thence to the Septagonese transshipment outpost at Blaylock B. Brad had made this zone transfer eighteen times in the past seven years, and it was as routine as the mug of strong, heavily sugared coffee that Alex placed by his elbow before the jump countdown commenced, which was just then cooling down enough to drink.",
+",
           ],
           [
             1,
             '[18:11] Iron Sunrise - Charles Stross.epub (OEBPS/Text/section7.xhtml) - 18 hours, 11 minutes',
             "Brad stared at the comm status display without seeing it. Then he mashed his palm down on the general channel glyph. \x{201c}Crew, captain speaking.\x{201d} He glanced at Mary and saw her staring back at him. Waiting. \x{201c}We have a situation. Change of plan.\x{201d} Glancing down at his panel he blinked and dragged the urgent course correction into the flight sequence. \x{201c}We\x{2019}re not going home. Ever.\x{201d} Taxis Pride was the first ship to leave Moscow system after the explosion. Another two ships made it out, one of them badly damaged by jumping into the tail of the shock wave. Word of the explosion filtered out: several freighters were saved from jumping into a fiery grave by dint of a massive and well-coordinated emergency alert. Over the next few weeks, the inhabitants of the Iceland Seven refinery station \x{2014} a mere eight light months from Moscow \x{2014} were evacuated to Shenjen Principality, and as the shock wave rolled outward, more vulnerable habitats were evacuated in turn. The nearest populated planetary system, Septagon Central, was far enough away to be saved by the heavy radiation shielding on its orbital republics. Meanwhile, years would pass before another starship visited the radiation-scarred corpse of Moscow system.
 IMPACT: T plus 1392 days, <<18 hours, 11 minutes|14>>
-\x{201c}What\x{2019}s your finding?\x{201d} demanded the Captain.",
+",
           ],
           [
             1,
             '[ap 02:01] Iron Sunrise - Charles Stross.epub (OEBPS/Text/section7.xhtml) - 02 hours, 01 minutes',
             "\x{201c}Good.\x{201d} The number two dog sat down again, and unconcernedly set about licking the inside of its right hind leg. \x{201c}The other units of this pack are not cognizant of these affairs. They\x{2019}re just simple secret police dogs. You are not to trouble them with unpleasant questions. This debriefing is at an end. I believe you have a ship to run?\x{201d}
 IMPACT: T plus 1393 days, <<02 hours, 01 minutes|14>>
-Wednesday watched the end of the world with her parents and half the occupants of the Rose Deck canteen. The tables and benches had been deflated and pushed back against one wall while the ship was under boost. Now a large screen had been drawn across the opposite wall and configured with a view piped down from the hub sensor array. She had wanted to watch on her own personal slate, but her parents had dragged her along to the canteen: it seemed like most people didn\x{2019}t want to be alone for the jump. Not that anybody would know it had happened \x{2014} contrary to dramatic license, there was absolutely no sensation when a starship tunneled between two equipotent locations across the light years \x{2014} but there was something symbolic about this one. A milestone they\x{2019}d never see again.",
+",
           ],
         ];

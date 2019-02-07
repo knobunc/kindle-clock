@@ -87,7 +87,7 @@ $VAR1 = [
           [
             1,
             '[19:58] A Short History of Nearly Everything - Bill Bryson.epub (OEBPS/part22_split_001.xhtml) - 1958',
-            "We know from samples of very old ice that the \x{93}natural\x{94} level of carbon dioxide in the atmosphere\x{97}that is, before we started inflating it with industrial activity\x{97}is about 280 parts per million. By <<1958|9e:1>>, when people in lab coats started to pay attention to it, it had risen to 315 parts per million. Today it is over 360 parts per million and rising by roughly one-quarter of 1 percent a year. By the end of the twenty-first century it is forecast to rise to about 560 parts per million.",
+            "We know from samples of very old ice that the \x{93}natural\x{94} level of carbon dioxide in the atmosphere\x{97}that is, before we started inflating it with industrial activity\x{97}is about 280 parts per million. By <<1958|9:0>>, when people in lab coats started to pay attention to it, it had risen to 315 parts per million. Today it is over 360 parts per million and rising by roughly one-quarter of 1 percent a year. By the end of the twenty-first century it is forecast to rise to about 560 parts per million.",
           ],
           [
             1,
@@ -97,7 +97,7 @@ $VAR1 = [
           [
             1,
             '[19:34] A Short History of Nearly Everything - Bill Bryson.epub (OEBPS/part23_split_001.xhtml) - 1934',
-            'But the nameless little bathysphere did the job it was intended to do. On the first dive, in June 1930 in the Bahamas, Barton and Beebe set a world record by descending to 600 feet. By <<1934|9e:1>>, they had pushed the record to 3,028 feet, where it would stay until after the war. Barton was confident the device was safe to a depth of 4,500 feet, though the strain on every bolt and rivet was audibly evident with each fathom they descended. At any depth, it was brave and risky work. At 3,000 feet, their little porthole was subjected to nineteen tons of pressure per square inch. Death at such a depth would have been instantaneous, as Beebe never failed to observe in his many books, articles, and radio broadcasts. Their main concern, however, was that the shipboard winch, straining to hold on to a metal ball and two tons of steel cable, would snap and send the two men plunging to the seafloor. In such an event, nothing could have saved them.',
+            'But the nameless little bathysphere did the job it was intended to do. On the first dive, in June 1930 in the Bahamas, Barton and Beebe set a world record by descending to 600 feet. By <<1934|9u>>, they had pushed the record to 3,028 feet, where it would stay until after the war. Barton was confident the device was safe to a depth of 4,500 feet, though the strain on every bolt and rivet was audibly evident with each fathom they descended. At any depth, it was brave and risky work. At 3,000 feet, their little porthole was subjected to nineteen tons of pressure per square inch. Death at such a depth would have been instantaneous, as Beebe never failed to observe in his many books, articles, and radio broadcasts. Their main concern, however, was that the shipboard winch, straining to hold on to a metal ball and two tons of steel cable, would snap and send the two men plunging to the seafloor. In such an event, nothing could have saved them.',
           ],
           [
             1,
@@ -107,7 +107,7 @@ $VAR1 = [
           [
             1,
             '[20:00] A Short History of Nearly Everything - Bill Bryson.epub (OEBPS/part23_split_001.xhtml) - 1960',
-            "By <<1960|9e:1>>, the number of spawning cod in the north Atlantic had fallen to an estimated 1.6 million metric tons. By 1990 this had sunk to 22,000 metric tons. In commercial terms, the cod were extinct. \x{93}Fishermen,\x{94} wrote Mark Kurlansky in his fascinating history,Cod , \x{93}had caught them all.\x{94} The cod may have lost the western Atlantic forever. In 1992, cod fishing was stopped altogether on the Grand Banks, but as of last autumn, according to a report inNature , stocks had not staged a comeback. Kurlansky notes that the fish of fish fillets and fish sticks was originally cod, but then was replaced by haddock, then by redfish, and lately by Pacific pollock. These days, he notes drily, \x{93}fish\x{94} is \x{93}whatever is left.\x{94}",
+            "By <<1960|9:0>>, the number of spawning cod in the north Atlantic had fallen to an estimated 1.6 million metric tons. By 1990 this had sunk to 22,000 metric tons. In commercial terms, the cod were extinct. \x{93}Fishermen,\x{94} wrote Mark Kurlansky in his fascinating history,Cod , \x{93}had caught them all.\x{94} The cod may have lost the western Atlantic forever. In 1992, cod fishing was stopped altogether on the Grand Banks, but as of last autumn, according to a report inNature , stocks had not staged a comeback. Kurlansky notes that the fish of fish fillets and fish sticks was originally cod, but then was replaced by haddock, then by redfish, and lately by Pacific pollock. These days, he notes drily, \x{93}fish\x{94} is \x{93}whatever is left.\x{94}",
           ],
           [
             1,
@@ -127,12 +127,22 @@ $VAR1 = [
           [
             1,
             '[ap ~ 05:00] A Short History of Nearly Everything - Bill Bryson.epub (OEBPS/part25_split_001.xhtml) - about 500',
-            "Ironically, just as Whittaker\x{92}s five-kingdom classification was beginning to find its way into textbooks, a retiring academic at the University of Illinois was groping his way toward a discovery that would challenge everything. His name was Carl Woese (rhymes with rose), and since the mid-1960s\x{97}or about as early as it was possible to do so\x{97}he had been quietly studying genetic sequences in bacteria. In the early days, this was an exceedingly painstaking process. Work on a single bacterium could easily consume a year. At that time, according to Woese, only <<about 500|9:0>> species of bacteria were known, which is fewer than the number of species you have in your mouth. Today the number is about ten times that, though that is still far short of the 26,900 species of algae, 70,000 of fungi, and 30,800 of amoebas and related organisms whose biographies fill the annals of biology.",
+            "Ironically, just as Whittaker\x{92}s five-kingdom classification was beginning to find its way into textbooks, a retiring academic at the University of Illinois was groping his way toward a discovery that would challenge everything. His name was Carl Woese (rhymes with rose), and since the mid-1960s\x{97}or about as early as it was possible to do so\x{97}he had been quietly studying genetic sequences in bacteria. In the early days, this was an exceedingly painstaking process. Work on a single bacterium could easily consume a year. At that time, according to Woese, only <<about 500|9w>> species of bacteria were known, which is fewer than the number of species you have in your mouth. Today the number is about ten times that, though that is still far short of the 26,900 species of algae, 70,000 of fungi, and 30,800 of amoebas and related organisms whose biographies fill the annals of biology.",
+          ],
+          [
+            1,
+            '[ap ~ 01:00] A Short History of Nearly Everything - Bill Bryson.epub (OEBPS/part25_split_001.xhtml) - about one',
+            "To begin with, it is worth remembering that most microorganisms are neutral or even beneficial to human well-being. The most rampantly infectious organism on Earth, a bacterium called Wolbachia, doesn\x{92}t hurt humans at all\x{97}or, come to that, any other vertebrates\x{97}but if you are a shrimp or worm or fruit fly, it can make you wish you had never been born. Altogether, only <<about one|9w>> microbe in a thousand is a pathogen for humans, according toNational Geographic \x{97}though, knowing what some of them can do, we could be forgiven for thinking that that is quite enough. Even if mostly benign, microbes are still the number-three killer in the Western world, and even many less lethal ones of course make us deeply rue their existence.",
           ],
           [
             1,
             '[19:43] A Short History of Nearly Everything - Bill Bryson.epub (OEBPS/part25_split_001.xhtml) - 1943',
             "Viruses prosper by hijacking the genetic material of a living cell and using it to produce more virus. They reproduce in a fanatical manner, then burst out in search of more cells to invade. Not being living organisms themselves, they can afford to be very simple. Many, including HIV, have ten genes or fewer, whereas even the simplest bacteria require several thousand. They are also very tiny, much too small to be seen with a conventional microscope. It wasn\x{92}t until <<1943|9c:0>> and the invention of the electron microscope that science got its first look at them. But they can do immense damage. Smallpox in the twentieth century alone killed an estimated 300 million people.",
+          ],
+          [
+            1,
+            '[ap ~ 01:00] A Short History of Nearly Everything - Bill Bryson.epub (OEBPS/part26_split_001.xhtml) - about one',
+            "Only <<about one|9w>> bone in a billion, it is thought, ever becomes fossilized. If that is so, it means that the complete fossil legacy of all the Americans alive today\x{97}that\x{92}s 270 million people with 206 bones each\x{97}will only be about fifty bones, one quarter of a complete skeleton. That\x{92}s not to say of course that any of these bones will actually be found. Bearing in mind that they can be buried anywhere within an area of slightly over 3.6 million square miles, little of which will ever be turned over, much less examined, it would be something of a miracle if they were. Fossils are in every sense vanishingly rare. Most of what has lived on Earth has left behind no record at all. It has been estimated that less than one species in ten thousand has made it into the fossil record. That in itself is a stunningly infinitesimal proportion. However, if you accept the common estimate that the Earth has produced 30 billion species of creature in its time and Richard Leakey and Roger Lewin\x{92}s statement (inThe Sixth Extinction ) that there are 250,000 species of creature in the fossil record, that reduces the proportion to just one in 120,000. Either way, what we possess is the merest sampling of all the life that Earth has spawned.",
           ],
           [
             1,
@@ -182,7 +192,12 @@ $VAR1 = [
           [
             1,
             '[19:21] A Short History of Nearly Everything - Bill Bryson.epub (OEBPS/part36_split_001.xhtml) - till 1921',
-            "[17]Einstein was honored, somewhat vaguely, \x{201c}for services to theoretical physics.\x{201d} He had to wait sixteen years, <<till 1921|9e:1>>, to receive the award-quite a long time, all things considered, but nothing at all compared with Frederick Reines, who detected the neutrino in 1957 but wasn\x{2019}t honored with a Nobel until 1995, thirty-eight years later, or the German Ernst Ruska, who invented the electron microscope in 1932 and received his Nobel Prize in 1986, more than half a century after the fact. Since Nobel Prizes are never awarded posthumously, longevity can be as important a factor as ingenuity for prizewinners.",
+            "[17]Einstein was honored, somewhat vaguely, \x{201c}for services to theoretical physics.\x{201d} He had to wait sixteen years, <<till 1921|9:0>>, to receive the award-quite a long time, all things considered, but nothing at all compared with Frederick Reines, who detected the neutrino in 1957 but wasn\x{2019}t honored with a Nobel until 1995, thirty-eight years later, or the German Ernst Ruska, who invented the electron microscope in 1932 and received his Nobel Prize in 1986, more than half a century after the fact. Since Nobel Prizes are never awarded posthumously, longevity can be as important a factor as ingenuity for prizewinners.",
+          ],
+          [
+            1,
+            '[ap ~ 03:00] A Short History of Nearly Everything - Bill Bryson.epub (OEBPS/part4_split_001.xhtml) - About three',
+            "But let\x{92}s pretend again that we have made it to the Oort cloud. The first thing you might notice is how very peaceful it is out here. We\x{92}re a long way from anywhere now\x{97}so far from our own Sun that it\x{92}s not even the brightest star in the sky. It is a remarkable thought that that distant tiny twinkle has enough gravity to hold all these comets in orbit. It\x{92}s not a very strong bond, so the comets drift in a stately manner, moving at only about 220 miles an hour. From time to time some of these lonely comets are nudged out of their normal orbit by some slight gravitational perturbation\x{97}a passing star perhaps. Sometimes they are ejected into the emptiness of space, never to be seen again, but sometimes they fall into a long orbit around the Sun. <<About three|9:1>> or <<four|20a:1>> of these a year, known as long-period comets, pass through the inner solar system. Just occasionally these stray visitors smack into something solid, like Earth. That\x{92}s why we\x{92}ve come out here now\x{97}because the comet we have come to see has just begun a long fall toward the center of the solar system. It is headed for, of all places, Manson, Iowa. It is going to take a long time to get there\x{97}three or four million years at least\x{97}so we\x{92}ll leave it for now, and return to it much later in the story.",
           ],
           [
             1,
@@ -197,7 +212,7 @@ $VAR1 = [
           [
             1,
             '[18:30] A Short History of Nearly Everything - Bill Bryson.epub (OEBPS/part8_split_001.xhtml) - 1830',
-            "The members met twice a month from November until June, when virtually all of them went off to spend the summer doing fieldwork. These weren\x{92}t people with a pecuniary interest in minerals, you understand, or even academics for the most part, but simply gentlemen with the wealth and time to indulge a hobby at a more or less professional level. By <<1830|9e:1>>, there were 745 of them, and the world would never see the like again.",
+            "The members met twice a month from November until June, when virtually all of them went off to spend the summer doing fieldwork. These weren\x{92}t people with a pecuniary interest in minerals, you understand, or even academics for the most part, but simply gentlemen with the wealth and time to indulge a hobby at a more or less professional level. By <<1830|9:0>>, there were 745 of them, and the world would never see the like again.",
           ],
           [
             1,

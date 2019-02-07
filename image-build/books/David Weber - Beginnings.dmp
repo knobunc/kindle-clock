@@ -32,12 +32,17 @@ $VAR1 = [
           [
             1,
             '[ap 01:00] Beginnings - David Weber.epub (Beginnings_split_006.html) - one',
-            "\x{201c}Maybe two,\x{201d} Fornier repeated. \x{201c}So let's call it <<one|9f>> and a half. One and a half out of eight\x{2014}make it <<nine|9f>>, since you're not political and I assume you consider yourself nonuseless. That comes to about seventeen percent. All things considered, that's really not all that bad.\x{201d}",
+            "\x{201c}Maybe two,\x{201d} Fornier repeated. \x{201c}So let's call it <<one|9f>> and a half. One and a half out of eight\x{2014}make it <<nine|9q:0>>, since you're not political and I assume you consider yourself nonuseless. That comes to about seventeen percent. All things considered, that's really not all that bad.\x{201d}",
           ],
           [
             1,
             '[ap 06:00] Beginnings - David Weber.epub (Beginnings_split_009.html) - six',
-            "\x{201c}Or missiles, either,\x{201d} Rusk said tightly. \x{201c}Missile trace, two: thirty-five hundred gees, estimated impact time one hundred fifty-three seconds. Make that four missiles, same impact projection . . . make it <<six|9f>>. Missile trace, six, impact one hundred forty-eight seconds.\x{201d}",
+            "\x{201c}Or missiles, either,\x{201d} Rusk said tightly. \x{201c}Missile trace, two: thirty-five hundred gees, estimated impact time one hundred fifty-three seconds. Make that four missiles, same impact projection . . . make it <<six|9q:0>>. Missile trace, six, impact one hundred forty-eight seconds.\x{201d}",
+          ],
+          [
+            1,
+            '[ap ~ 01:00] Beginnings - David Weber.epub (Beginnings_split_011.html) - about one',
+            "\x{201c}It's <<about one|9w>> of my fellow students, actually.\x{201d} She shrugged. \x{201c}He's in neurosurgery, not genetics, so we haven't actually met. But I've run into someone who doesn't think much of him, and I'm wondering if there's any basis for it besides the someone in question's own swollen ego.\x{201d}",
           ],
           [
             1,

@@ -37,12 +37,17 @@ $VAR1 = [
           [
             1,
             '[ap 07:00] David Copperfield - Charles Dickens.epub (index_split_008.xhtml) - seven',
-            'Then, we had more tasks until tea, which Mr. Mell drank out of a blue teacup, and I out of a tin pot. All day long, and until <<seven|9:0>> or <<eight in the evening|5>>, Mr. Mell, at his own detached desk in the schoolroom, worked hard with pen, ink, ruler, books, and writingpaper, making out the bills (as I found) for last half-year. When he had put up his things for the night he took out his flute, and blew at it, until I almost thought he would gradually blow his whole being into the large hole at the top, and ooze away at the keys.',
+            'Then, we had more tasks until tea, which Mr. Mell drank out of a blue teacup, and I out of a tin pot. All day long, and until <<seven|9w>> or <<eight in the evening|5>>, Mr. Mell, at his own detached desk in the schoolroom, worked hard with pen, ink, ruler, books, and writingpaper, making out the bills (as I found) for last half-year. When he had put up his things for the night he took out his flute, and blew at it, until I almost thought he would gradually blow his whole being into the large hole at the top, and ooze away at the keys.',
           ],
           [
             1,
             '[ap 09:00] David Copperfield - Charles Dickens.epub (index_split_011.xhtml) - nine o\'clock',
             'Mr. Barkis the carrier was to call for me in the morning at <<nine o\'clock|6>>. I got up at <<eight|9c:1>>, a little giddy from the shortness of my night\'s rest, and was ready for him before the appointed time.',
+          ],
+          [
+            1,
+            '[ap > 02:00] David Copperfield - Charles Dickens.epub (index_split_011.xhtml) - after two',
+            'Her own was as red as ever I saw it, or any other face, I think; but she only covered it again, for a few moments at a time, when she was taken with a violent fit of laughter; and <<after two|9w>> or <<three|20a>> of those attacks, went on with her dinner.',
           ],
           [
             1,
@@ -178,8 +183,18 @@ $VAR1 = [
           ],
           [
             1,
+            '[ap < 02:00] David Copperfield - Charles Dickens.epub (index_split_024.xhtml) - Nearly two',
+            'At last she came here, apprenticed for three years. <<Nearly two|9:0>> of \'em are over, and she has been as good a girl as ever was. Worth any six! Minnie, is she worth any six, now?\'',
+          ],
+          [
+            1,
             '[ap 08:00] David Copperfield - Charles Dickens.epub (index_split_024.xhtml) - eight o\'clock',
             "He maintained all his delightful qualities to the last, until we started forth, at <<eight o'clock|6>>, for Mr. Peggotty's boat. Indeed, they were more and more brightly exhibited as the hours went on; for I thought even then, and I have no doubt now, that the consciousness of success in his determination to please, inspired him with a new delicacy of perception, and made it, subtle as it was, more easy to him. If anyone had told me, then, that all this was a brilliant game, played for the excitement of the moment, for the employment of high spirits, in the thoughtless love of superiority, in a mere wasteful careless course of winning what was worthless to him, and next minute thrown away \x{2014} I say, if anyone had told me such a lie that night, I wonder in what manner of receiving it my indignation would have found a vent! Probably only in an increase, had that been possible, of the romantic feelings of fidelity and friendship with which I walked beside him, over the dark wintry sands towards the old boat; the wind sighing around us even more mournfully, than it had sighed and moaned upon the night when I first darkened Mr. Peggotty's door.",
+          ],
+          [
+            1,
+            '[12:00] David Copperfield - Charles Dickens.epub (index_split_024.xhtml) - high noon',
+            'Peggotty, with his face one <<high noon|13>> of enjoyment, \'but he loses that there art of his to our little Em\'ly. He follers her about, he makes hisself a sort o\' servant to her, he loses in a great measure his relish for his wittles, and in the long-run he makes it clear to me wot\'s amiss. Now I could wish myself, you see, that our little Em\'ly was in a fair way of being married. I could wish to see her, at all ewents, under articles to a honest man as had a right to defend her. I don\'t know how long I may live, or how soon I may die; but I know that if I was capsized, any night, in a gale of wind in Yarmouth Roads here, and was to see the town-lights shining for the last time over the rollers as I couldn\'t make no head against, I could go down quieter for thinking "There\'s a man ashore there, iron-true to my little Em\'ly, God bless her, and no wrong can touch my Em\'ly while so be as that man lives."\'',
           ],
           [
             1,
@@ -427,7 +442,7 @@ At <<nine|9c:1>>, accordingly, we went out in a little chariot, and drove to Lon
           [
             1,
             '[ap 09:00] David Copperfield - Charles Dickens.epub (index_split_057.xhtml) - nine',
-            'At <<nine|9e>>, accordingly, we went out in a little chariot, and drove to London. We drove a long way through the streets, until we came to one of the large hospitals. Standing hard by the building was a plain hearse. The driver recognized my aunt, and, in obedience to a motion of her hand at the window, drove slowly off; we following.',
+            'At <<nine|9v>>, accordingly, we went out in a little chariot, and drove to London. We drove a long way through the streets, until we came to one of the large hospitals. Standing hard by the building was a plain hearse. The driver recognized my aunt, and, in obedience to a motion of her hand at the window, drove slowly off; we following.',
           ],
           [
             1,

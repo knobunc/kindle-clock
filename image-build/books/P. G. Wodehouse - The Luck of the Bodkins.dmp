@@ -92,9 +92,9 @@ $VAR1 = [
           [
             1,
             '[ap 10:00] The Luck of the Bodkins - P. G. Wodehouse.epub (index_split_004.xhtml) - ten o\'clock',
-            "
+            "\x{2018}Why, of course I will. When did you say you would be going on?'
 \x{2018}I'm billed for <<ten o'clock|6>> precisely, miss.' \x{2018}I\x{2019}ll be there.'
-",
+Words failed Albert Peasemarch. He could but gaze adoringly.",
           ],
           [
             1,
@@ -129,9 +129,9 @@ $VAR1 = [
           [
             1,
             '[ap 10:15] The Luck of the Bodkins - P. G. Wodehouse.epub (index_split_004.xhtml) - fifteen minutes past ten',
-            '
+            'Brimming over with sunny optimism, he bounded forward. He reached the wickerwork basket. He stooped over it. He lifted the lid and plunged his hand in.
 The time was now precisely <<fifteen minutes past ten|10>>.
-',
+Lottie Blossom had taken coffee with Ambrose in the lounge at the conclusion of dinner and had sat there with him for an hour or more, endeavouring to lighten his gloom with guarded remarks - they had to be guarded - to the effect that all was not yet lost and that a way might still be found out of the unfortunate position in which they were placed. In this fashion she passed the time until a glance at her watch showed her that it was <<ten o\'clock|6>>, the hour at which she had arranged to meet Monty on the second-class promenade deck and talk things over.',
           ],
           [
             1,

@@ -7,6 +7,11 @@ $VAR1 = [
           [
             1,
             '[00:00] Pirates of Venus - Edgar Rice Burroughs.epub (OEBPS/part1.xhtml) - midnight',
+            "\x{201c}It is <<midnight|13>> of the thirteenth,\x{201d} she said, in a low, musical voice.",
+          ],
+          [
+            1,
+            '[00:00] Pirates of Venus - Edgar Rice Burroughs.epub (OEBPS/part1.xhtml) - midnight',
             'If a female figure in a white shroud enters your bedchamber at <<midnight|13>> on the thirteenth day of this month, answer this letter; otherwise, do not. If she speaks to you, please remember her words and repeat them to me when you write.',
           ],
           [

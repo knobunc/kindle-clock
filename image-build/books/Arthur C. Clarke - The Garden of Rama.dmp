@@ -46,8 +46,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 08:00] The Garden of Rama - Arthur C. Clarke.epub (index_split_014.html) - eight',
-            "When Nicole walked outside it was almost sunset. Her father\x{2019}s sedan was waiting. Moments later, as they raced down the highway beside the Loire, she was dressed in blouse and jeans. Nicole was younger now, maybe fourteen, and her father was driving much faster than usual. \x{201c}We don\x{2019}t want to be late,\x{201d} he said. \x{201c}The pageant starts at <<eight|9g>> o\x{2019}clock.\x{201d}",
+            "[ap 08:00] The Garden of Rama - Arthur C. Clarke.epub (index_split_014.html) - eight o\x{2019}clock",
+            "When Nicole walked outside it was almost sunset. Her father\x{2019}s sedan was waiting. Moments later, as they raced down the highway beside the Loire, she was dressed in blouse and jeans. Nicole was younger now, maybe fourteen, and her father was driving much faster than usual. \x{201c}We don\x{2019}t want to be late,\x{201d} he said. \x{201c}The pageant starts at <<eight o\x{2019}clock|9g>>.\x{201d}",
           ],
           [
             1,
@@ -57,7 +57,7 @@ $VAR1 = [
           [
             1,
             '[ap 04:00] The Garden of Rama - Arthur C. Clarke.epub (index_split_016.html) - four',
-            "\x{201c}Buttermilk,\x{201d} interrupted Katie. \x{201c}Three altogether,\x{201d} She glanced at her little brother. \x{201c}Better make it <<four|9f>>.\x{201d}",
+            "\x{201c}Buttermilk,\x{201d} interrupted Katie. \x{201c}Three altogether,\x{201d} She glanced at her little brother. \x{201c}Better make it <<four|9q:0>>.\x{201d}",
           ],
           [
             1,

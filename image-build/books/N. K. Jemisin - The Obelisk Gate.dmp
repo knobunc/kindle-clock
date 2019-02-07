@@ -2,12 +2,12 @@ $VAR1 = [
           [
             1,
             '[ap ~ 08:00] The Obelisk Gate - N. K. Jemisin.epub (OEBPS/appendix001.xhtml) - Approximately 800',
-            'Wandering Season: <<Approximately 800|9:0>> Before Imperial. Proximate cause: magnetic pole shift. Location: unverifiable. This Season resulted in the extinction of several important trade crops of the time, and twenty years of famine resulting from pollinators confused by the movement of true north.',
+            'Wandering Season: <<Approximately 800|9u>> Before Imperial. Proximate cause: magnetic pole shift. Location: unverifiable. This Season resulted in the extinction of several important trade crops of the time, and twenty years of famine resulting from pollinators confused by the movement of true north.',
           ],
           [
             1,
             '[~ 19:00] The Obelisk Gate - N. K. Jemisin.epub (OEBPS/appendix001.xhtml) - Approximately 1900',
-            'Season of Changed Wind: <<Approximately 1900|9:0>> Before Imperial. Proximate cause: unknown. Location: unverifiable. For reasons unknown, the direction of the prevailing winds shifted for many years before returning to normal. Consensus agrees that this was a Season, despite the lack of atmospheric occlusion, because only a substantial (and likely far-oceanic) seismic event could have triggered it.',
+            'Season of Changed Wind: <<Approximately 1900|9u>> Before Imperial. Proximate cause: unknown. Location: unverifiable. For reasons unknown, the direction of the prevailing winds shifted for many years before returning to normal. Consensus agrees that this was a Season, despite the lack of atmospheric occlusion, because only a substantial (and likely far-oceanic) seismic event could have triggered it.',
           ],
           [
             1,
@@ -28,6 +28,11 @@ $VAR1 = [
             1,
             '[12:00] The Obelisk Gate - N. K. Jemisin.epub (OEBPS/chapter007.xhtml) - Noon',
             "Finally the man is done, and with a flat look in your direction that nevertheless conveys his opinion that you should have been the one to administer the food, he leaves. But when you straighten and open your mouth to ask more questions, Alabaster says, \x{201c}I\x{2019}m probably going to need to use that bedpan soon. I can\x{2019}t control my bowels very well anymore, but at least they\x{2019}re still regular.\x{201d} At the look on your face, he smiles with only a hint of bitterness. \x{201c}I don\x{2019}t want you to see that any more than you want to see it. So why don\x{2019}t we just say you should come back later? <<Noon|13>> seems to work better for not interfering with any of my gross natural functions.\x{201d}",
+          ],
+          [
+            1,
+            '[ap > 01:00] The Obelisk Gate - N. K. Jemisin.epub (OEBPS/chapter008.xhtml) - after one',
+            "They are out of the Somidlats at last, edging into the Antarctics. Nassun has begun to suspect that Jija means to take her all the way to Nife, one of the few cities in the Antarctic region, near which a satellite Fulcrum is said to be located. But he turns them off the Pellestane-Nife Imperial Road and they begin going eastward, stopping periodically so that Jija can consult with people along the way and see if he\x{2019}s going in the right direction. It is <<after one|9w>> of these conversations, conducted always in whispers and always after Jija thinks Nassun has gone to sleep, and only with people whom Jija considers level-headed after a few hours of chitchat and shared food, that Nassun finally learns where they are going. \x{201c}Tell me,\x{201d} she hears Jija whisper to a woman who was out scouting for a local comm, after they have shared an evening meal of meat she caught around a fire Jija built, \x{201c}have you ever heard of the Moon?\x{201d}",
           ],
           [
             1,

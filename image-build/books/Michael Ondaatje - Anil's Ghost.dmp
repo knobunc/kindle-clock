@@ -12,8 +12,47 @@ $VAR1 = [
           [
             1,
             '[~ 23:30] Anil\'s Ghost - Michael Ondaatje.epub (Anil_s_Ghost_split_003.html) - about 11:30 p.m.',
-            "Kumara Wijetunga, 17. 6th November 1989. At <<about 11:30 p.m.|2a>> from his house.Prabath Kumara, 16. 17th November 1989. At <<3:20 a.m.|2a>> from the home of a friend.Kumara Arachchi, 16. 17th November 1989. At <<about midnight|13>> from his house.Manelka da Silva, 17. 1st December 1989. While playing cricket, Embilipitiya Central College playground.Jatunga Gunesena, 23. 11th December 1989. At <<10:30 a.m.|2a>> near his house while talking to a friend.Prasantha Handuwela, 17. 17th December 1989. At <<about 10:15 a.m.|2a>> close to the tyre centre, Embilipitiya.Prasanna Jayawarna, 17. 18th December 1989. At <<3:30 p.m.|2a>> near the Chandrika reservoir.Podi Wickramage, 49. 19th December 1989. At <<7:30 a.m.|2a>> while walking along the road to the centre of Embilipitiya town.Narlin Gooneratne, 17. 26th December 1989. At <<about 5:00 p.m.|2a>> at a teashop 15 yards from Serena army camp.Weeratunga Samaraweera, 30. 7th January 1990. At <<5:00 p.m.|2a>> while going for a bath at Hulandawa Panamura.
-The colour of a shirt. The sarong\x{2019}s pattern. The hour of disappearance.",
+            'Kumara Wijetunga, 17. 6th November 1989. At <<about 11:30 p.m.|2a>> from his house.',
+          ],
+          [
+            1,
+            '[03:20] Anil\'s Ghost - Michael Ondaatje.epub (Anil_s_Ghost_split_003.html) - 3:20 a.m.',
+            'Prabath Kumara, 16. 17th November 1989. At <<3:20 a.m.|2a>> from the home of a friend.',
+          ],
+          [
+            1,
+            '[~ 00:00] Anil\'s Ghost - Michael Ondaatje.epub (Anil_s_Ghost_split_003.html) - about midnight',
+            'Kumara Arachchi, 16. 17th November 1989. At <<about midnight|13>> from his house.',
+          ],
+          [
+            1,
+            '[10:30] Anil\'s Ghost - Michael Ondaatje.epub (Anil_s_Ghost_split_003.html) - 10:30 a.m.',
+            'Jatunga Gunesena, 23. 11th December 1989. At <<10:30 a.m.|2a>> near his house while talking to a friend.',
+          ],
+          [
+            1,
+            '[~ 10:15] Anil\'s Ghost - Michael Ondaatje.epub (Anil_s_Ghost_split_003.html) - about 10:15 a.m.',
+            'Prasantha Handuwela, 17. 17th December 1989. At <<about 10:15 a.m.|2a>> close to the tyre centre, Embilipitiya.',
+          ],
+          [
+            1,
+            '[15:30] Anil\'s Ghost - Michael Ondaatje.epub (Anil_s_Ghost_split_003.html) - 3:30 p.m.',
+            'Prasanna Jayawarna, 17. 18th December 1989. At <<3:30 p.m.|2a>> near the Chandrika reservoir.',
+          ],
+          [
+            1,
+            '[07:30] Anil\'s Ghost - Michael Ondaatje.epub (Anil_s_Ghost_split_003.html) - 7:30 a.m.',
+            'Podi Wickramage, 49. 19th December 1989. At <<7:30 a.m.|2a>> while walking along the road to the centre of Embilipitiya town.',
+          ],
+          [
+            1,
+            '[~ 17:00] Anil\'s Ghost - Michael Ondaatje.epub (Anil_s_Ghost_split_003.html) - about 5:00 p.m.',
+            'Narlin Gooneratne, 17. 26th December 1989. At <<about 5:00 p.m.|2a>> at a teashop 15 yards from Serena army camp.',
+          ],
+          [
+            1,
+            '[17:00] Anil\'s Ghost - Michael Ondaatje.epub (Anil_s_Ghost_split_003.html) - 5:00 p.m.',
+            'Weeratunga Samaraweera, 30. 7th January 1990. At <<5:00 p.m.|2a>> while going for a bath at Hulandawa Panamura.',
           ],
           [
             1,
@@ -45,8 +84,7 @@ But by <<noon|13>> she was encased in a terrible headache.
           [
             1,
             '[06:00] Anil\'s Ghost - Michael Ondaatje.epub (Anil_s_Ghost_split_003.html) - six a.m.',
-            "The captain\x{2019}s name was Mugger,A dirty-minded bugger.He wasn\x{2019}t fit to shovel shitFrom one deck to another.
-Anil was fond of that verse, and its neatly packed rhyme slid back into her mind at odd moments. She loved songs of anger and judgement. So at <<six a.m.|5>>, walking towards the hospital, she tried to recall the other verses to \x{2018}The Good Ship Venus,\x{2019} singing the first out loud. The rest she was less certain about, and played them on her lips, a faux tuba. \x{2018}One of the greats,\x{2019} she muttered to herself. \x{2018}One of the crucial ones.\x{2019}",
+            "Anil was fond of that verse, and its neatly packed rhyme slid back into her mind at odd moments. She loved songs of anger and judgement. So at <<six a.m.|5>>, walking towards the hospital, she tried to recall the other verses to \x{2018}The Good Ship Venus,\x{2019} singing the first out loud. The rest she was less certain about, and played them on her lips, a faux tuba. \x{2018}One of the greats,\x{2019} she muttered to herself. \x{2018}One of the crucial ones.\x{2019}",
           ],
           [
             1,
@@ -286,8 +324,7 @@ bridge and can tell even from here that she recognizes one of them. She would sh
           [
             1,
             '[ap 05:00] Anil\'s Ghost - Michael Ondaatje.epub (Anil_s_Ghost_split_009.html) - five',
-            "\x{2018}I\x{2019}m in the tunnel of the Armoury building. I have just a moment. As you can tell, this is not any skeleton but Sailor. It\x{2019}s your twentieth-century evidence, five years old in death. Erase this tape. Erase my words here. Complete the report and be ready to leave at <<five|3b>> tomorrow morning. There\x{2019}s a <<seven-o\x{2019}clock|6>> plane. Someone will drive you to the airport. I would like it to be me but it will probably be Gunesena. Do not leave the lab or call me.\x{2019}
-Anil made the tape roll back on the rewind. She walked away from the skeleton and paced up and down the hold listening to his voice again.",
+            "\x{2018}I\x{2019}m in the tunnel of the Armoury building. I have just a moment. As you can tell, this is not any skeleton but Sailor. It\x{2019}s your twentieth-century evidence, five years old in death. Erase this tape. Erase my words here. Complete the report and be ready to leave at <<five|3b>> tomorrow morning. There\x{2019}s a <<seven-o\x{2019}clock|6>> plane. Someone will drive you to the airport. I would like it to be me but it will probably be Gunesena. Do not leave the lab or call me.\x{2019}",
           ],
           [
             1,

@@ -14,7 +14,7 @@ $VAR1 = [
             '[23:26] American Gods - Neil Gaiman.epub (OEBPS/010_chapter01.html) - 11:26 P.M.',
             "Then he grinned, like a fox eating shit from a barbed wire fence. \x{201c}So,\x{201d} said Mr. Wednesday. \x{201c}You\x{2019}ve had time to think, Shadow. Do you want a job?\x{201d}
 Somewhere in America
- LOS ANGELES. <<11:26 P.M.|2a>>
+LOS ANGELES. <<11:26 P.M.|2a>>
 In a dark red room\x{2014}the color of the walls is close to that of raw liver\x{2014}is a tall woman dressed cartoonishly in too-tight silk shorts, her breasts pulled up and pushed forward by the yellow blouse tied beneath them. Her black hair is piled high and knotted on top of her head. Standing beside her is a short man wearing an olive T-shirt and expensive blue jeans. He is holding, in his right hand, a wallet and a Nokia mobile phone with a red, white, and blue face-plate.",
           ],
           [
@@ -40,7 +40,8 @@ In a dark red room\x{2014}the color of the walls is close to that of raw liver\x
           [
             1,
             '[00:00] American Gods - Neil Gaiman.epub (OEBPS/013_chapter04.html) - Midnight',
-            'Let the <<Midnight|13>> Special
+            'CHAPTER FOUR
+Let the <<Midnight|13>> Special
 Shine its light on me',
           ],
           [
@@ -55,12 +56,17 @@ Shine its ever-lovin\x{2019} light on me",
             '[00:00] American Gods - Neil Gaiman.epub (OEBPS/013_chapter04.html) - MIDNIGHT',
             "Shine its ever-lovin\x{2019} light on me
 \x{2014}\x{201c}THE <<MIDNIGHT|13>> SPECIAL,\x{201d} TRADITIONAL SONG
-",
+Shadow and Wednesday ate breakfast at a Country Kitchen across the street from their motel. It was <<eight in the morning|5>>, and the world was misty and chill.",
           ],
           [
             1,
             '[08:00] American Gods - Neil Gaiman.epub (OEBPS/013_chapter04.html) - eight in the morning',
             'Shadow and Wednesday ate breakfast at a Country Kitchen across the street from their motel. It was <<eight in the morning|5>>, and the world was misty and chill.',
+          ],
+          [
+            1,
+            '[ap 01:00] American Gods - Neil Gaiman.epub (OEBPS/013_chapter04.html) - one',
+            "Wednesday looked thoughtful. He ate several vivid pink slices of ham, picked a fragment of meat from his beard, dropped it onto his plate. \x{201c}Plan is as follows. On Saturday night, which, as I have already remarked, is tomorrow, we shall be meeting with a number of persons preeminent in their respective fields\x{2014}do not let their demeanor intimidate you. We shall meet at <<one|9g>> of the most important places in the entire country. Afterward we shall wine and dine them. There will be, at a guess, thirty or forty of them. Perhaps more. I need to enlist them in my current enterprise.\x{201d}",
           ],
           [
             1,
@@ -188,7 +194,7 @@ The woman glances at the clock on the wall, and says, \x{201c}Yed,\x{201d} again
           [
             1,
             '[ap ~ 06:00] American Gods - Neil Gaiman.epub (OEBPS/020_chapter10.html) - about six',
-            "Chad Mulligan drove Shadow across the street to Lakeside Realty. Missy Gunther, her hair freshly set and lacquered, did not need an introduction\x{2014}she knew exactly who Mike Ainsel was. Why that nice Mr. Borson, his uncle Emerson, such a nice man, he\x{2019}d been by, what, <<about six|9e:1>>, eight weeks ago now, and rented the apartment up at the old Pilsen place, and wasn\x{2019}t the view just to die for up there? Well, honey, just wait until the spring, and we\x{2019}re so lucky, so many of the lakes in this part of the world go bright green from the algae in the summer, it would turn your stomach, but our lake, well, come fourth of July you could still practically drink it, and Mr. Borson had paid for a whole year\x{2019}s lease in advance, and as for the Toyota 4Runner, she couldn\x{2019}t believe that Chad Mulligan still remembered it, and yes, she\x{2019}d be delighted to get rid of it. Tell the truth, she\x{2019}d pretty much resigned herself to giving it to Hinzelmann as this year\x{2019}s klunker and just taking the tax write-off, not that the car was a klunker, far from it, no, it was her son\x{2019}s car before he went to school in Green Bay, and, well, he\x{2019}d painted it purple one day and, ha-ha, she certainly hoped that Mike Ainsel liked purple, that was all she had to say, and if he didn\x{2019}t she wouldn\x{2019}t blame him\x{2026}",
+            "Chad Mulligan drove Shadow across the street to Lakeside Realty. Missy Gunther, her hair freshly set and lacquered, did not need an introduction\x{2014}she knew exactly who Mike Ainsel was. Why that nice Mr. Borson, his uncle Emerson, such a nice man, he\x{2019}d been by, what, <<about six|9x>>, eight weeks ago now, and rented the apartment up at the old Pilsen place, and wasn\x{2019}t the view just to die for up there? Well, honey, just wait until the spring, and we\x{2019}re so lucky, so many of the lakes in this part of the world go bright green from the algae in the summer, it would turn your stomach, but our lake, well, come fourth of July you could still practically drink it, and Mr. Borson had paid for a whole year\x{2019}s lease in advance, and as for the Toyota 4Runner, she couldn\x{2019}t believe that Chad Mulligan still remembered it, and yes, she\x{2019}d be delighted to get rid of it. Tell the truth, she\x{2019}d pretty much resigned herself to giving it to Hinzelmann as this year\x{2019}s klunker and just taking the tax write-off, not that the car was a klunker, far from it, no, it was her son\x{2019}s car before he went to school in Green Bay, and, well, he\x{2019}d painted it purple one day and, ha-ha, she certainly hoped that Mike Ainsel liked purple, that was all she had to say, and if he didn\x{2019}t she wouldn\x{2019}t blame him\x{2026}",
           ],
           [
             1,
@@ -288,9 +294,8 @@ The woman glances at the clock on the wall, and says, \x{201c}Yed,\x{201d} again
           [
             1,
             '[02:00] American Gods - Neil Gaiman.epub (OEBPS/022_chapter12.html) - 2:00 A.M.',
-            "And they both laughed, then.
-INTERLUDE 3
- JACKSONVILLE, FLORIDA. <<2:00 A.M.|2a>>
+            "INTERLUDE 3
+JACKSONVILLE, FLORIDA. <<2:00 A.M.|2a>>
 \x{201c}The sign says \x{2018}help wanted.\x{2019}\x{201d}",
           ],
           [
@@ -363,6 +368,11 @@ Shadow wished he could comfortably watch television once more. He wanted to be e
             1,
             '[23:55] American Gods - Neil Gaiman.epub (OEBPS/025_chapter14.html) - Five to midnight',
             "He raised his wristwatch to his face, pressed a button: the dial glowed a gentle blue, which illuminated his face, giving it a haunting, haunted appearance. \x{201c}<<Five to midnight|10a:1>>. Time,\x{201d} said Loki. \x{201c}Time to light the candles. Say a few words about the dearly departed. Do the formalities. You coming?\x{201d}",
+          ],
+          [
+            1,
+            '[ap > 01:00] American Gods - Neil Gaiman.epub (OEBPS/025_chapter14.html) - after one',
+            "Czernobog opened the back of the bus and the biggest of the women pushed past him, and, easily as if it were a sack of flour, she lifted Wednesday\x{2019}s body out of the back and carried it to the tree. She laid it in front of the tree, put it down about ten feet from the trunk. She and her sisters unwrapped Wednesday\x{2019}s body. He looked worse by daylight than he had by candlelight in the motel room, and <<after one|9w>> quick glance Shadow looked away. The women arranged his clothes, tidied his suit, then placed him at the corner of the sheet, and wound it around him once more.",
           ],
           [
             1,

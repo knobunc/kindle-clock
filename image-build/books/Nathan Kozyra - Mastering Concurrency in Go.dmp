@@ -8,21 +8,16 @@ $VAR1 = [
             1,
             '[ap 06:44] Mastering Concurrency in Go - Nathan Kozyra.epub (text/part0015_split_001.html) - 0644',
             'package main
-
 import (
   "fmt"
   "time"
   "io/ioutil"
 )
-
-
-
 type Job struct {
   i int
   max int
   text string
 }
-
 func outputText(j *Job) {
   fileName := j.text + ".txt"
   fileContents := ""
@@ -36,25 +31,18 @@ func outputText(j *Job) {
   if (err != nil) {
     panic("Something went awry")
   }
-
 }
-
 func main() {
-
   hello := new(Job)
   hello.text = "hello"
   hello.i = 0
   hello.max = 3
-
   world := new(Job)
   world.text = "world"
   world.i = 0
   world.max = 5
-
-
   go outputText(hello)
   go outputText(world)
-
 }',
           ],
           [
@@ -91,18 +79,14 @@ func main() {
             1,
             '[ap 07:55] Mastering Concurrency in Go - Nathan Kozyra.epub (text/part0078_split_005.html) - 0755',
             'package main
-
 import (
   "log"
   "os"
 )
-
 func main() {
   logFile, _ := os.OpenFile("/var/www/test.log", os.O_RDWR, <<0755|18:0>>)
-
   log.SetOutput(logFile)
   log.Println("Sending an entry to log!")
-
   logFile.Close()
 }',
           ],
@@ -110,33 +94,28 @@ func main() {
             1,
             '[ap 07:55] Mastering Concurrency in Go - Nathan Kozyra.epub (text/part0078_split_005.html) - 0755',
             'for i:=0; i< totalGoroutines; i++ {
-
-    myWorker := Worker{}
-    myWorker.Name = "Goroutine " + strconv.FormatInt(int64(i),10) 
-      + ""
-    myWorker.FileName = "/var/www/"+strconv.FormatInt(int64(i),10) 
-      + ".log"
-    tmpFile,_ :=   os.OpenFile(myWorker.FileName, os.O_CREATE, 
-      <<0755|18:0>>)
-    myWorker.File = tmpFile
-    myWorker.wLog = log.New(myWorker.File, myWorker.Name, 1)
-    go func(w *Worker) {
-
-        w.wLog.Print("Hmm")
-
-        done <- true
-    }(&myWorker)
-  }',
+  myWorker := Worker{}
+  myWorker.Name = "Goroutine " + strconv.FormatInt(int64(i),10)
+    + ""
+  myWorker.FileName = "/var/www/"+strconv.FormatInt(int64(i),10)
+    + ".log"
+  tmpFile,_ :=   os.OpenFile(myWorker.FileName, os.O_CREATE,
+    <<0755|18:0>>)
+  myWorker.File = tmpFile
+  myWorker.wLog = log.New(myWorker.File, myWorker.Name, 1)
+  go func(w *Worker) {
+      w.wLog.Print("Hmm")
+      done <- true
+  }(&myWorker)
+}',
           ],
           [
             1,
             '[ap 00:00] Mastering Concurrency in Go - Nathan Kozyra.epub (text/part0078_split_006.html) - 12:00am',
             'var currentGoroutine int
-
 func (li LogItem) logRequest(bucket *couchbase.Bucket) {
-
   hash := md5.New()
-  io.WriteString(hash,li.ServerID+li.Page+li.Timestamp.Format("Jan 
+  io.WriteString(hash,li.ServerID+li.Page+li.Timestamp.Format("Jan
     1, 2014 <<12:00am|2a>>"))
   hashString := hex.EncodeToString(hash.Sum(nil))
   bucket.Set(hashString,0,li)
@@ -156,25 +135,24 @@ main.goDetails(0xc08400b300)
   /var/log/go/ch9_11_stacktrace.goch9_11_stacktrace.go:41 +0x8e
 created by main.main
   /var/log/go/ch9_11_stacktrace.goch9_11_stacktrace.go:69 +0x4c
-  
   /var/log/go/ch9_11_stacktrace.goch9_11_stacktrace.go14 goroutines active (main.saveLogs:31)',
           ],
           [
             1,
             '[00:00] Mastering Concurrency in Go - Nathan Kozyra.epub (text/part0083.html) - 00:00',
             'Checking Server Google
-        Server was OK on last check at 0001-01-01 <<00:00|2>>:00 +0000 UTC
-        200 OK
-        Will check server again
+       Server was OK on last check at 0001-01-01 <<00:00|2>>:00 +0000 UTC
+       200 OK
+       Will check server again
 Checking Server Yahoo
-        Server was OK on last check at 0001-01-01 <<00:00|2>>:00 +0000 UTC
-        200 OK
-        Will check server again
+       Server was OK on last check at 0001-01-01 <<00:00|2>>:00 +0000 UTC
+       200 OK
+       Will check server again
 Checking Server Amazon
-        Server was OK on last check at 0001-01-01 <<00:00|2>>:00 +0000 UTC
-        Error:  Get http://amazon.zom: dial tcp: GetAddrInfoW: No such host is known.
-        Will check server again
+       Server was OK on last check at 0001-01-01 <<00:00|2>>:00 +0000 UTC
+       Error:  Get http://amazon.zom: dial tcp: GetAddrInfoW: No such host is known.
+       Will check server again
 Checking Server Google
-        Server was OK on last check at 2014-04-23 <<12:49|2>>:45.6575639 -0400 EDT',
+       Server was OK on last check at 2014-04-23 <<12:49|2>>:45.6575639 -0400 EDT',
           ],
         ];

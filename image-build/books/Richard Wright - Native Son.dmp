@@ -16,8 +16,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 04:00] Native Son - Richard Wright.epub (Native_son_split_007.html) - four',
-            "\x{201c}I\x{2019}m calling a cabinet meeting this afternoon at <<four|9g>> o\x{2019}clock and you, as Secretary of State, must be there.\x{201d}",
+            "[ap 04:00] Native Son - Richard Wright.epub (Native_son_split_007.html) - four o\x{2019}clock",
+            "\x{201c}I\x{2019}m calling a cabinet meeting this afternoon at <<four o\x{2019}clock|9g>> and you, as Secretary of State, must be there.\x{201d}",
           ],
           [
             1,
@@ -58,7 +58,7 @@ He rose and walked down the dark aisle over the soft, invisible carpet. He had s
           [
             1,
             '[ap 09:00] Native Son - Richard Wright.epub (Native_son_split_007.html) - nine',
-            "\x{201c}Now, Bigger,\x{201d} said Mr. Dalton, \x{201c}since that\x{2019}s settled, let\x{2019}s see what you\x{2019}ll have to do every day. I leave every morning for my office at <<nine|9c:1>>. It\x{2019}s a twenty-minute drive. You are to be back at <<ten|9c:1>> and take Miss Dalton to school. At <<twelve|9e>>, you call for Miss Dalton at the University. From then until night you are more or less free. If either Miss Dalton or I go out at night, of course, you do the driving. You work every day, but we don\x{2019}t get up till <<noon|13>> on Sundays. So you will have Sunday mornings to yourself, unless something unexpected happens. You get one full day off every two weeks.\x{201d}",
+            "\x{201c}Now, Bigger,\x{201d} said Mr. Dalton, \x{201c}since that\x{2019}s settled, let\x{2019}s see what you\x{2019}ll have to do every day. I leave every morning for my office at <<nine|9c:1>>. It\x{2019}s a twenty-minute drive. You are to be back at <<ten|9c:1>> and take Miss Dalton to school. At <<twelve|9v>>, you call for Miss Dalton at the University. From then until night you are more or less free. If either Miss Dalton or I go out at night, of course, you do the driving. You work every day, but we don\x{2019}t get up till <<noon|13>> on Sundays. So you will have Sunday mornings to yourself, unless something unexpected happens. You get one full day off every two weeks.\x{201d}",
           ],
           [
             1,
@@ -194,13 +194,13 @@ He turned and looked at her.",
             1,
             '[ap < 02:00] Native Son - Richard Wright.epub (Native_son_split_009.html) - A little before two',
             "\x{201c}That must have been pretty late, wasn\x{2019}t it?\x{201d}
-\x{201c}Yessum. <<A little before two|9e:1>>, mam.\x{201d}
+\x{201c}Yessum. <<A little before two|9:0>>, mam.\x{201d}
 \x{201c}And you took the trunk down a little before <<two|9c:1>>?\x{201d}",
           ],
           [
             1,
             '[ap < 02:00] Native Son - Richard Wright.epub (Native_son_split_009.html) - A little before two',
-            "\x{201c}Yessum. <<A little before two|9e:1>>, mam.\x{201d}
+            "\x{201c}Yessum. <<A little before two|9:0>>, mam.\x{201d}
 \x{201c}And you took the trunk down a little before <<two|9c:1>>?\x{201d}
 \x{201c}Yessum. She told me to.\x{201d}",
           ],
@@ -208,7 +208,7 @@ He turned and looked at her.",
             1,
             '[ap < 02:00] Native Son - Richard Wright.epub (Native_son_split_009.html) - A little before two',
             "\x{201c}What time did you leave here last night?\x{201d}
-\x{201c}<<A little before two|9e:1>>, mam.\x{201d}
+\x{201c}<<A little before two|9:1>>, mam.\x{201d}
 \x{201c}And she told you to take the trunk down?\x{201d}",
           ],
           [
@@ -251,7 +251,7 @@ Bigger knew that this was it. This man was here to find out everything. This was
             1,
             '[ap < 02:00] Native Son - Richard Wright.epub (Native_son_split_010.html) - A little before two',
             "\x{201c}What time did you say you left?\x{201d}
-\x{201c}<<A little before two|9e:1>>, suh.\x{201d}
+\x{201c}<<A little before two|9:1>>, suh.\x{201d}
 Britten turned to the other men, one of whom stood near the furnace with his back to the fire, warming his hands behind him. The man\x{2019}s legs were sprawled wide apart and a cigar glowed in a corner of his mouth.",
           ],
           [
@@ -264,7 +264,7 @@ Britten turned to the other men, one of whom stood near the furnace with his bac
           [
             1,
             "[ap 08:00] Native Son - Richard Wright.epub (Native_son_split_010.html) - eight o\x{2019}clock",
-            "Did the foolish dream of solving the problem of human misery and poverty by dividing her father\x{2019}s real estate millions among the lowly force Mary Dalton to leave the palatial Hyde Park home of her parents, Mr. and Mrs. Henry G. Dalton, 4605 Drexel Boulevard, and take up life under an assumed name with her long-haired friends in the Communist movement?This was the question that police sought to answer late tonight as they grilled Jan Erlone, executive secretary of the Labor Defenders, a Communist \x{201c}front\x{201d} organization in which it was said that Mary Dalton held a membership in defiance of her father\x{2019}s wishes.The story went on to say that Jan was being held for investigation at the Eleventh Street Police Station and that Mary had been missing from her home since <<eight o\x{2019}clock|6>> Saturday night. It also mentioned that Mary had been in the \x{201c}company of Erlone until early Sunday morning at a notorious South Side caf\x{e9} in the Black Belt.\x{201d}",
+            "The story went on to say that Jan was being held for investigation at the Eleventh Street Police Station and that Mary had been missing from her home since <<eight o\x{2019}clock|6>> Saturday night. It also mentioned that Mary had been in the \x{201c}company of Erlone until early Sunday morning at a notorious South Side caf\x{e9} in the Black Belt.\x{201d}",
           ],
           [
             1,
@@ -274,7 +274,7 @@ Britten turned to the other men, one of whom stood near the furnace with his bac
           [
             1,
             '[00:00] Native Son - Richard Wright.epub (Native_son_split_010.html) - midnight',
-            'Shaded portion shows area already covered by police and vigilantes in search for Negro rapist and murderer. White portion shows area yet to be searched.He was trapped. He would have to get out of this building. But where could he go? Empty buildings would serve only as long as he stayed within the white portion of the map, and the white portion was shrinking rapidly. He remembered that the paper had been printed last night. That meant that the white portion was now much smaller than was shown here. He closed his eyes, calculating: he was at Fifty-third Street and the hunt had started last night at Eighteenth Street. If they had gone from Eighteenth Street to Twenty-eighth Street last night, then they would have gone from Twenty-eighth Street to Thirty-eighth Street since then. And by <<midnight|3b>> tonight they would be at Forty-eighth Street, or right here.',
+            'He was trapped. He would have to get out of this building. But where could he go? Empty buildings would serve only as long as he stayed within the white portion of the map, and the white portion was shrinking rapidly. He remembered that the paper had been printed last night. That meant that the white portion was now much smaller than was shown here. He closed his eyes, calculating: he was at Fifty-third Street and the hunt had started last night at Eighteenth Street. If they had gone from Eighteenth Street to Twenty-eighth Street last night, then they would have gone from Twenty-eighth Street to Thirty-eighth Street since then. And by <<midnight|3b>> tonight they would be at Forty-eighth Street, or right here.',
           ],
           [
             1,
@@ -314,6 +314,11 @@ Britten turned to the other men, one of whom stood near the furnace with his bac
             1,
             "[~ 02:00] Native Son - Richard Wright.epub (Native_son_split_013.html) - Around two o\x{2019}clock in the morning",
             "\x{201c}Afterwards he drove the couple through Washington Park for some two hours. <<Around two o\x{2019}clock in the morning|6>> this friend of Miss Dalton\x{2019}s left the car and went to visit some friends of his. Mary Dalton was left alone in that car with this Negro, who had received nothing from her but kindness. From that point onward, we have no exact knowledge of what really happened, for we have only this black cur\x{2019}s bare word for it, and I am convinced that he is not telling us all.",
+          ],
+          [
+            1,
+            '[< 00:00] Native Son - Richard Wright.epub (Native_son_split_013.html) - before midnight',
+            "\x{201c}In Number 666\x{2013}983, indictment for murder, the sentence of the Court is that you, Bigger Thomas, shall die on or <<before midnight|13>> of Friday, March third, in a manner prescribed by the laws of this State.",
           ],
           [
             1,

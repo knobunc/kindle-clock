@@ -4,7 +4,7 @@ $VAR1 = [
             '[00:00] The Long Utopia - Terry Pratchett.epub (OEBPS/text/9780062297358_Books_by.xhtml) - Midnight',
             'Wintersmith
 I Shall Wear <<Midnight|13>>
-The Illustrated Wee Free Men 
+The Illustrated Wee Free Men
 (illustrated by Stephen Player)',
           ],
           [
@@ -25,7 +25,7 @@ The Illustrated Wee Free Men
           [
             1,
             '[ap 08:00] The Long Utopia - Terry Pratchett.epub (OEBPS/text/9780062297358_Chapter_24.xhtml) - eight',
-            'By <<eight|9:0>> Luis had made his way to Charing Cross, where the others were waiting by the brougham that would take them to Windsor.',
+            'By <<eight|9u>> Luis had made his way to Charing Cross, where the others were waiting by the brougham that would take them to Windsor.',
           ],
           [
             1,
@@ -34,8 +34,8 @@ The Illustrated Wee Free Men
           ],
           [
             1,
-            '[12:00] The Long Utopia - Terry Pratchett.epub (OEBPS/text/9780062297358_Chapter_30.xhtml) - noon',
-            'They reached the next viaduct south, another five hundred miles or so, about midday of the next day. It cut across the ocean itself with no land in sight, to north or south. Under a cloudy <<noon|13>> sky, the viaduct was difficult to make out against the grey shoulder of the ocean.',
+            '[~ 12:00] The Long Utopia - Terry Pratchett.epub (OEBPS/text/9780062297358_Chapter_30.xhtml) - about midday',
+            'They reached the next viaduct south, another five hundred miles or so, <<about midday|13>> of the next day. It cut across the ocean itself with no land in sight, to north or south. Under a cloudy <<noon|13>> sky, the viaduct was difficult to make out against the grey shoulder of the ocean.',
           ],
           [
             1,

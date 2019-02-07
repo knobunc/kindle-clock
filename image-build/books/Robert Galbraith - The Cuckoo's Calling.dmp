@@ -12,7 +12,7 @@ $VAR1 = [
           [
             1,
             '[ap < 09:00] The Cuckoo\'s Calling - Robert Galbraith.epub (text/part0010.html) - Before nine',
-            "\x{2018}It was early. <<Before nine|9e:1>>, I was on my way in to the office. Perhaps a <<quarter to nine|10>>?\x{2019}",
+            "\x{2018}It was early. <<Before nine|9:0>>, I was on my way in to the office. Perhaps a <<quarter to nine|10>>?\x{2019}",
           ],
           [
             1,
@@ -52,7 +52,7 @@ $VAR1 = [
           [
             1,
             '[ap < 08:00] The Cuckoo\'s Calling - Robert Galbraith.epub (text/part0013.html) - nearly eight',
-            'It was <<nearly eight|9:1>> before he returned to the office. This was the hour when he found London most lovable; the working day over, her pub windows were warm and jewel-like, her streets thrummed with life, and the indefatigable permanence of her aged buildings, softened by the street lights, became strangely reassuring. We have seen plenty like you, they seemed to murmur soothingly, as he limped along Oxford Street carrying a boxed-up camp bed. Seven and a half million hearts were beating in close proximity in this heaving old city, and many, after all, would be aching far worse than his. Walking wearily past closing shops, while the heavens turned indigo above him, Strike found solace in vastness and anonymity.',
+            'It was <<nearly eight|9w>> before he returned to the office. This was the hour when he found London most lovable; the working day over, her pub windows were warm and jewel-like, her streets thrummed with life, and the indefatigable permanence of her aged buildings, softened by the street lights, became strangely reassuring. We have seen plenty like you, they seemed to murmur soothingly, as he limped along Oxford Street carrying a boxed-up camp bed. Seven and a half million hearts were beating in close proximity in this heaving old city, and many, after all, would be aching far worse than his. Walking wearily past closing shops, while the heavens turned indigo above him, Strike found solace in vastness and anonymity.',
           ],
           [
             1,
@@ -67,7 +67,7 @@ $VAR1 = [
           [
             1,
             '[ap 01:45] The Cuckoo\'s Calling - Robert Galbraith.epub (text/part0013.html) - 1.45',
-            "At <<1.45|9e>>, Derrick Wilson, the security guard on duty at the desk overnight, felt unwell and went into the back bathroom, where he remained for approximately a quarter of an hour. For fifteen minutes prior to Lula\x{2019}s death, therefore, the lobby of her building was deserted and anybody could have entered and exited without being seen. Wilson only came out of the bathroom after Lula fell, when he heard Tansy Bestigui screaming.",
+            "At <<1.45|9v>>, Derrick Wilson, the security guard on duty at the desk overnight, felt unwell and went into the back bathroom, where he remained for approximately a quarter of an hour. For fifteen minutes prior to Lula\x{2019}s death, therefore, the lobby of her building was deserted and anybody could have entered and exited without being seen. Wilson only came out of the bathroom after Lula fell, when he heard Tansy Bestigui screaming.",
           ],
           [
             1,
@@ -414,15 +414,14 @@ $VAR1 = [
             1,
             '[ap ~ 11:00] The Cuckoo\'s Calling - Robert Galbraith.epub (text/part0050.html) - About eleven',
             "\x{2018}What time did you get there?\x{2019}
-\x{2018}<<About eleven|9e:1>>, but he\x{2019}d\x{2014}\x{2019}
+\x{2018}<<About eleven|9x>>, but he\x{2019}d\x{2014}\x{2019}
 \x{2018}Cyprian must\x{2019}ve sent you out the moment you got to work, did he?\x{2019}",
           ],
           [
             1,
             '[ap 10:30] The Cuckoo\'s Calling - Robert Galbraith.epub (text/part0050.html) - Ten thirty',
             "Strike waited.
-\x{2018}All right,\x{2019} said Bristow. \x{2018}All right. <<Ten thirty|5k:1>> tomorrow.\x{2019}
-",
+\x{2018}All right,\x{2019} said Bristow. \x{2018}All right. <<Ten thirty|5k:1>> tomorrow.\x{2019}",
           ],
           [
             1,

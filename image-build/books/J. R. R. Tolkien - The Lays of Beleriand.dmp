@@ -7,12 +7,17 @@ $VAR1 = [
           [
             1,
             '[ap 01:29] The Lays of Beleriand - J. R. R. Tolkien.epub (index_split_000.html) - 129',
-            'Mavwin A, and B as typed; in B then emended to Mailwin, and back to Mavwin; Morwin written later in the margin of B. Exactly the same at <<129|3:0>>, and at <<137|9:0>> though here without Morwin in the margin; at <<145|9m:0>> Mavwin unemended, but Morwin in the margin. Thereafter Mavwin stands unemended and without marginal note, as far as 438 (see note).',
+            'Mavwin A, and B as typed; in B then emended to Mailwin, and back to Mavwin; Morwin written later in the margin of B. Exactly the same at <<129|3:0>>, and at <<137|9w>> though here without Morwin in the margin; at <<145|9m:0>> Mavwin unemended, but Morwin in the margin. Thereafter Mavwin stands unemended and without marginal note, as far as 438 (see note).',
           ],
           [
             1,
             '[ap 04:30] The Lays of Beleriand - J. R. R. Tolkien.epub (index_split_000.html) - 430',
             'Lastly, at line 50 occurs (by emendation in B from Cor) the unique compound name Corthun, while at <<430|3:0>> the city of Cor was emended to the city of Tun; see II. 292.',
+          ],
+          [
+            1,
+            '[ap 03:00] The Lays of Beleriand - J. R. R. Tolkien.epub (index_split_000.html) - till three',
+            '<<till three|9:0>> of the wolves with throats pierced, and four had fallen with fleet-winged',
           ],
           [
             1,
@@ -28,6 +33,13 @@ $VAR1 = [
             1,
             '[12:00] The Lays of Beleriand - J. R. R. Tolkien.epub (index_split_001.html) - noontide',
             'and eyed them secretly, and the ears listened of the nodding grasses; though <<noontide|13>> glowed on land and leaf, their limbs were chilled.',
+          ],
+          [
+            1,
+            '[12:00] The Lays of Beleriand - J. R. R. Tolkien.epub (index_split_001.html) - noontide',
+            'there gleamed and lived in grey silver
+the folk of Faerie in the first <<noontide|13>>
+of the Blissful Realms; with their brows wreathed 2000',
           ],
           [
             1,
@@ -79,7 +91,7 @@ nor hears a sound but the slow beat',
             1,
             '[ap 03:00] The Lays of Beleriand - J. R. R. Tolkien.epub (index_split_004.html) - three',
             'it had and windows faint to see,
-and by <<three|9:0>> shafts of Hirilorn
+and by <<three|9w>> shafts of Hirilorn
 in the corners standing was upborne.',
           ],
           [
@@ -92,7 +104,7 @@ Again she spake: \'Now go, I pray,',
           [
             1,
             '[15:33] The Lays of Beleriand - J. R. R. Tolkien.epub (index_split_004.html) - 1533',
-            '1370.    men > them A. At 1390, where B has they, A had men > they; at <<1533|9e>>, 1573 men was not changed in either text.',
+            '1370.    men > them A. At 1390, where B has they, A had men > they; at <<1533|9v>>, 1573 men was not changed in either text.',
           ],
           [
             1,

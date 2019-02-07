@@ -143,6 +143,13 @@ $VAR1 = [
           ],
           [
             1,
+            '[~ 20:05] The Bourne Ultimatum - Robert Ludlum.epub (index_split_017.html) - About twenty-five',
+            "\x{201c}And \x{2018}the others\x{2019}\x{2014}they told you to go back and join?\x{201d}
+\x{201c}<<About twenty-five|9:0>> or thirty of the old Saigon crowd.\x{201d}
+\x{201c}Command Saigon?\x{201d}",
+          ],
+          [
+            1,
             '[20:20] The Bourne Ultimatum - Robert Ludlum.epub (index_split_019.html) - eight-twenty this evening',
             "\x{201c}I sent out a full-toned alert to the central reservations computers of all international airline carriers. As of <<eight-twenty this evening|5>> our subjects had seats on Pan Am\x{2019}s <<ten o\x{2019}clock|6>> flight to London\x{2014}\x{201d}",
           ],
@@ -400,7 +407,7 @@ $VAR1 = [
           [
             1,
             '[ap < 03:00] The Bourne Ultimatum - Robert Ludlum.epub (index_split_036.html) - almost three',
-            "Three thousand miles from Paris, Louis DeFazio sat alone at a rear table in Trafficante\x{2019}s Clam House on Prospect Avenue in Brooklyn, New York. He finished his late afternoon lunch of vitello tonnato and dabbed his lips with the bright red napkin, trying to look his usual jovial, if patronizing, self. However, if the truth were known, it was all he could do to stop from gnawing on the napkin rather than caressing his mouth with it. Maledetto! He had been at Trafficante\x{2019}s for nearly two hours\x{2014}two hours! And it had taken him forty-five minutes to get there after the call from Garafola\x{2019}s Pasta Palace in Manhattan, so that meant it was actually over two hours, <<almost three|9e:1>>, since the gumball in Paris, France, spotted two of the targets. How long could it take for two bersaglios to get to a hotel in the city from the airport? Like three hours? Not unless the Palermo gumball drove to London, England, which was not out of the question, not if one knew Palermo.",
+            "Three thousand miles from Paris, Louis DeFazio sat alone at a rear table in Trafficante\x{2019}s Clam House on Prospect Avenue in Brooklyn, New York. He finished his late afternoon lunch of vitello tonnato and dabbed his lips with the bright red napkin, trying to look his usual jovial, if patronizing, self. However, if the truth were known, it was all he could do to stop from gnawing on the napkin rather than caressing his mouth with it. Maledetto! He had been at Trafficante\x{2019}s for nearly two hours\x{2014}two hours! And it had taken him forty-five minutes to get there after the call from Garafola\x{2019}s Pasta Palace in Manhattan, so that meant it was actually over two hours, <<almost three|9:1>>, since the gumball in Paris, France, spotted two of the targets. How long could it take for two bersaglios to get to a hotel in the city from the airport? Like three hours? Not unless the Palermo gumball drove to London, England, which was not out of the question, not if one knew Palermo.",
           ],
           [
             1,

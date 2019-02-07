@@ -2,7 +2,6 @@ $VAR1 = [
           [
             1,
             '[00:00] The Little Go Book - Karl Seguin.epub (ch004.xhtml) - 0',
-            'C-Like Syntax
-Saying that a language has a C-like syntax means that if you\'re used to any other C-like languages such as C, C++, Java, JavaScript and C#, then you\'re going to find Go familiar -- superficially, at least. For example, it means && is used as a boolean AND, == is used to compare equality, { and } start and end a scope, and array indexes start at <<0|9g>>.',
+            'Saying that a language has a C-like syntax means that if you\'re used to any other C-like languages such as C, C++, Java, JavaScript and C#, then you\'re going to find Go familiar -- superficially, at least. For example, it means && is used as a boolean AND, == is used to compare equality, { and } start and end a scope, and array indexes start at <<0|9g>>.',
           ],
         ];

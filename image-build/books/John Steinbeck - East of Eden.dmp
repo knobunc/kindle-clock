@@ -7,7 +7,7 @@ $VAR1 = [
           [
             1,
             '[ap > 03:00] East of Eden - John Steinbeck.epub (east-of-eden-1-03.html) - after three',
-            'Cyrus Trask mourned for his wife with a keg of whisky and three old army friends who had dropped in on their way home to Maine. Baby Adam cried a good deal at the beginning of the wake, for the mourners, not knowing about babies, had neglected to feed him. Cyrus soon solved the problem. He dipped a rag in whisky and gave it to the baby to suck, and <<after three|9:0>> or <<four|20a:0>> dippings young Adam went to sleep. Several times during the mourning period he awakened and complained and got the dipped rag again and went to sleep. The baby was drunk for two days and a half. Whatever may have happened in his developing brain, it proved beneficial to his metabolism: from that two and a half days he gained an iron health. And when at the end of three days his father finally went out and bought a goat, Adam drank the milk greedily, vomited, drank more, and was on his way. His father did not find the reaction alarming, since he was doing the same thing.',
+            'Cyrus Trask mourned for his wife with a keg of whisky and three old army friends who had dropped in on their way home to Maine. Baby Adam cried a good deal at the beginning of the wake, for the mourners, not knowing about babies, had neglected to feed him. Cyrus soon solved the problem. He dipped a rag in whisky and gave it to the baby to suck, and <<after three|9w>> or <<four|20a>> dippings young Adam went to sleep. Several times during the mourning period he awakened and complained and got the dipped rag again and went to sleep. The baby was drunk for two days and a half. Whatever may have happened in his developing brain, it proved beneficial to his metabolism: from that two and a half days he gained an iron health. And when at the end of three days his father finally went out and bought a goat, Adam drank the milk greedily, vomited, drank more, and was on his way. His father did not find the reaction alarming, since he was doing the same thing.',
           ],
           [
             1,
@@ -49,8 +49,7 @@ $VAR1 = [
           [
             1,
             '[ap < 09:00] East of Eden - John Steinbeck.epub (east-of-eden-1-08.html) - nearly nine',
-            "4
-    Soon after her sixteenth birthday a change came over Cathy. One morning she did not get up for school. Her mother went into her room and found her in bed, staring at the ceiling. \x{201c}Hurry, you\x{2019}ll be late. It\x{2019}s <<nearly nine|9f>>.\x{201d}",
+            "Soon after her sixteenth birthday a change came over Cathy. One morning she did not get up for school. Her mother went into her room and found her in bed, staring at the ceiling. \x{201c}Hurry, you\x{2019}ll be late. It\x{2019}s <<nearly nine|9f>>.\x{201d}",
           ],
           [
             1,
@@ -65,8 +64,7 @@ $VAR1 = [
           [
             1,
             "[~ 03:00] East of Eden - John Steinbeck.epub (east-of-eden-1-08.html) - about three o\x{2019}clock in the morning",
-            "6
-    The fire broke out at <<about three o\x{2019}clock in the morning|6>>. It rose, flared, roared, crashed, and crumbled in on itself almost before anyone noticed it. When the volunteers ran up, pulling their hose cart, there was nothing for them to do but wet down the roofs of the neighboring houses to keep them from catching fire.",
+            "The fire broke out at <<about three o\x{2019}clock in the morning|6>>. It rose, flared, roared, crashed, and crumbled in on itself almost before anyone noticed it. When the volunteers ran up, pulling their hose cart, there was nothing for them to do but wet down the roofs of the neighboring houses to keep them from catching fire.",
           ],
           [
             1,
@@ -112,13 +110,6 @@ Louis stepped out and looked at the sun. \x{201c}Not <<past ten o\x{2019}clock|6
           ],
           [
             1,
-            '[15:00] East of Eden - John Steinbeck.epub (east-of-eden-2-15.html) - 3
-    In the afternoon',
-            '<<3
-    In the afternoon|5>> Samuel and Adam rode over the land. The wind came up as it did every afternoon, and the yellow dust ran into the sky.',
-          ],
-          [
-            1,
             '[~ 04:00] East of Eden - John Steinbeck.epub (east-of-eden-2-17.html) - about four in the morning',
             'Liza Hamilton arrived <<about four in the morning|9h>>. Samuel was asleep in his chair, dreaming that he had gripped a red-hot bar of iron and could not let go. Liza awakened him and looked at his hand before she even glanced at the babies. While she did well the things he had done in a lumbering, masculine way, she gave him his orders and packed him off. He was to get up this instant, saddle Doxology, and ride straight to King City. No matter what time it was, he must wake up that good-for-nothing doctor and get his hand treated. If it seemed all right he could go home and wait. And it was a criminal thing to leave your last-born, and he little more than a baby himself, sitting there by a hole in the ground with no one to care for him. It was a matter which might even engage the attention of the Lord God himself.',
           ],
@@ -135,8 +126,7 @@ Louis stepped out and looked at the sun. \x{201c}Not <<past ten o\x{2019}clock|6
           [
             1,
             '[~ 00:00] East of Eden - John Steinbeck.epub (east-of-eden-2-18.html) - About midnight',
-            '2
-    <<About midnight|13>> Horace got on a freight train in King City. He sat up in the cab with the engineer, and he was in Salinas the first thing in the morning. Salinas was the county seat, and it was a fast-growing town. Its population was due to cross the two thousand mark any time. It was the biggest town between San Jose and San Luis Obispo, and everyone felt that a brilliant future was in store for it.',
+            '<<About midnight|13>> Horace got on a freight train in King City. He sat up in the cab with the engineer, and he was in Salinas the first thing in the morning. Salinas was the county seat, and it was a fast-growing town. Its population was due to cross the two thousand mark any time. It was the biggest town between San Jose and San Luis Obispo, and everyone felt that a brilliant future was in store for it.',
           ],
           [
             1,
@@ -158,8 +148,7 @@ Louis stepped out and looked at the sun. \x{201c}Not <<past ten o\x{2019}clock|6
           [
             1,
             "[ap 02:00] East of Eden - John Steinbeck.epub (east-of-eden-2-20.html) - two o\x{2019}clock",
-            "2
-    The few regulars drifted in and out and two drummers walked down the Line to look them over, but not a single Woodman of the World showed up. The girls sat yawning in the parlor until <<two o\x{2019}clock|6>>, waiting.",
+            "The few regulars drifted in and out and two drummers walked down the Line to look them over, but not a single Woodman of the World showed up. The girls sat yawning in the parlor until <<two o\x{2019}clock|6>>, waiting.",
           ],
           [
             1,
@@ -249,9 +238,7 @@ Louis stepped out and looked at the sun. \x{201c}Not <<past ten o\x{2019}clock|6
           [
             1,
             '[12:00] East of Eden - John Steinbeck.epub (east-of-eden-3-31.html) - noon',
-            'Chapter 31
-    1
-    Adam brooded around the house all morning, and at <<noon|13>> he went to find Lee, who was spading the dark composted earth of his vegetable garden and planting his spring vegetables, carrots and beets, turnips, peas, and string beans, rutabaga and kale. The rows were straight planted under a tight-stretched string, and the pegs at the row ends carried the seed package to identify the row. On the edge of the garden in a cold frame the tomato and bell pepper and cabbage sets were nearly ready for transplanting, waiting only for the passing of the frost danger.',
+            'Adam brooded around the house all morning, and at <<noon|13>> he went to find Lee, who was spading the dark composted earth of his vegetable garden and planting his spring vegetables, carrots and beets, turnips, peas, and string beans, rutabaga and kale. The rows were straight planted under a tight-stretched string, and the pegs at the row ends carried the seed package to identify the row. On the edge of the garden in a cold frame the tomato and bell pepper and cabbage sets were nearly ready for transplanting, waiting only for the passing of the frost danger.',
           ],
           [
             1,
@@ -278,8 +265,7 @@ Louis stepped out and looked at the sun. \x{201c}Not <<past ten o\x{2019}clock|6
           [
             1,
             '[12:00] East of Eden - John Steinbeck.epub (east-of-eden-3-32.html) - noonday',
-            '2
-    Tom met Dessie at the King City station. She saw him out of the train window, scanning every coach for her. He was burnished, his face shaved so close that its darkness had a shine like polished wood. His red mustache was clipped. He wore a new Stetson hat with a flat crown, a tan Norfolk jacket with a belt buckle of mother-of-pearl. His shoes glinted in the <<noonday|13>> light so that it was sure he had gone over them with his handkerchief just before the train arrived. His hard collar stood up against his strong red neck, and he wore a pale blue knitted tie with a horseshoe tie pin. He tried to conceal his excitement by clasping his rough brown hands in front of him.',
+            'Tom met Dessie at the King City station. She saw him out of the train window, scanning every coach for her. He was burnished, his face shaved so close that its darkness had a shine like polished wood. His red mustache was clipped. He wore a new Stetson hat with a flat crown, a tan Norfolk jacket with a belt buckle of mother-of-pearl. His shoes glinted in the <<noonday|13>> light so that it was sure he had gone over them with his handkerchief just before the train arrived. His hard collar stood up against his strong red neck, and he wore a pale blue knitted tie with a horseshoe tie pin. He tried to conceal his excitement by clasping his rough brown hands in front of him.',
           ],
           [
             1,
@@ -295,13 +281,6 @@ Louis stepped out and looked at the sun. \x{201c}Not <<past ten o\x{2019}clock|6
             1,
             "[03:00] East of Eden - John Steinbeck.epub (east-of-eden-3-33.html) - three o\x{2019}clock in the morning",
             "It was <<three o\x{2019}clock in the morning|6>> when he dropped the letters in the post office at King City and mounted and turned his horse south toward the unproductive hills of the old Hamilton place.",
-          ],
-          [
-            1,
-            '[02:00] East of Eden - John Steinbeck.epub (east-of-eden-4-35.html) - 2
-    That night',
-            '<<2
-    That night|5>> after the basketball game Cal and Aron each had five sausages on buns, and it was just as well, for Adam had forgotten to provide any supper. Walking home, the twins discussed Lee for the first time.',
           ],
           [
             1,
@@ -333,7 +312,7 @@ Louis stepped out and looked at the sun. \x{201c}Not <<past ten o\x{2019}clock|6
           [
             1,
             '[ap ~ 02:15] East of Eden - John Steinbeck.epub (east-of-eden-4-39.html) - About two-fifteen',
-            "Cal, after he had followed Kate several times, knew her route. She always went to the same places\x{2014}first to the Monterey County Bank where she was admitted behind the shining bars that defended the safe-deposit vault. She spent fifteen or twenty minutes there. Then she moved slowly along Main Street, looking in the store windows. She stepped into Porter and Irvine\x{2019}s and looked at dresses and sometimes made a purchase\x{2014}elastic, safety pins, a veil, a pair of gloves. <<About two-fifteen|9e:1>> she entered Minnie Franken\x{2019}s beauty parlor, stayed an hour, and came out with her hair pinned up in tight curls and a silk scarf around her head and tied under her chin.",
+            "Cal, after he had followed Kate several times, knew her route. She always went to the same places\x{2014}first to the Monterey County Bank where she was admitted behind the shining bars that defended the safe-deposit vault. She spent fifteen or twenty minutes there. Then she moved slowly along Main Street, looking in the store windows. She stepped into Porter and Irvine\x{2019}s and looked at dresses and sometimes made a purchase\x{2014}elastic, safety pins, a veil, a pair of gloves. <<About two-fifteen|9u>> she entered Minnie Franken\x{2019}s beauty parlor, stayed an hour, and came out with her hair pinned up in tight curls and a silk scarf around her head and tied under her chin.",
           ],
           [
             1,
@@ -380,13 +359,13 @@ Louis stepped out and looked at the sun. \x{201c}Not <<past ten o\x{2019}clock|6
             '[ap 03:30] East of Eden - John Steinbeck.epub (east-of-eden-5-49.html) - three-thirty',
             "Aron came in, his eyes still misty with sleep. \x{201c}What time do you plan to have dinner, Lee?\x{201d}
 \x{201c}Oh, I don\x{2019}t know\x{2014}<<three-thirty|5k:1>> or <<four|91:1>>.\x{201d}
-\x{201c}Could you make it <<about five|9f>>?\x{201d}",
+\x{201c}Could you make it <<about five|9q:1>>?\x{201d}",
           ],
           [
             1,
             '[ap 03:30] East of Eden - John Steinbeck.epub (east-of-eden-5-49.html) - three-thirty',
             "\x{201c}Oh, I don\x{2019}t know\x{2014}<<three-thirty|5k:1>> or <<four|91:1>>.\x{201d}
-\x{201c}Could you make it <<about five|9f>>?\x{201d}
+\x{201c}Could you make it <<about five|9q:0>>?\x{201d}
 \x{201c}I guess so, if Adam says it\x{2019}s all right. Why?\x{201d}",
           ],
           [
@@ -402,8 +381,7 @@ Louis stepped out and looked at the sun. \x{201c}Not <<past ten o\x{2019}clock|6
           [
             1,
             "[ap 11:00] East of Eden - John Steinbeck.epub (east-of-eden-5-49.html) - eleven o\x{2019}clock",
-            "3
-    To Cal the day was endless. He wanted to leave the house and couldn\x{2019}t. At <<eleven o\x{2019}clock|6>> Adam went to the closed draft-board office to brood over the records of a new batch of boys coming up.",
+            "To Cal the day was endless. He wanted to leave the house and couldn\x{2019}t. At <<eleven o\x{2019}clock|6>> Adam went to the closed draft-board office to brood over the records of a new batch of boys coming up.",
           ],
           [
             1,
@@ -413,8 +391,7 @@ Louis stepped out and looked at the sun. \x{201c}Not <<past ten o\x{2019}clock|6
           [
             1,
             "[ap 08:00] East of Eden - John Steinbeck.epub (east-of-eden-5-49.html) - eight o\x{2019}clock",
-            "5
-    Sergeant Axel Dane ordinarily opened the San Jose recruiting office at <<eight o\x{2019}clock|6>>, but if he was a little late Corporal Kemp opened it, and Kemp was not likely to complain. Axel was not an unusual case. A hitch in the U.S. Army in the time of peace between the Spanish war and the German war had unfitted him for the cold, unordered life of a civilian. One month between hitches convinced him of that. Two hitches in the peacetime army completely unfitted him for war, and he had learned enough method to get out of it. The San Jose recruiting station proved he knew his way about. He was dallying with the youngest Ricci girl and she lived in San Jose.",
+            "Sergeant Axel Dane ordinarily opened the San Jose recruiting office at <<eight o\x{2019}clock|6>>, but if he was a little late Corporal Kemp opened it, and Kemp was not likely to complain. Axel was not an unusual case. A hitch in the U.S. Army in the time of peace between the Spanish war and the German war had unfitted him for the cold, unordered life of a civilian. One month between hitches convinced him of that. Two hitches in the peacetime army completely unfitted him for war, and he had learned enough method to get out of it. The San Jose recruiting station proved he knew his way about. He was dallying with the youngest Ricci girl and she lived in San Jose.",
           ],
           [
             1,
@@ -444,9 +421,7 @@ Louis stepped out and looked at the sun. \x{201c}Not <<past ten o\x{2019}clock|6
           [
             1,
             '[19:19] East of Eden - John Steinbeck.epub (east-of-eden-5-51.html) - 1919',
-            "Chapter 51
-    1
-    In 1903 Horace Quinn beat Mr. R. Keef for the office of sheriff. He had been well trained as the chief deputy sheriff. Most of the voters figured that since Quinn was doing most of the work he might as well have the title. Sheriff Quinn held the office until <<1919|9c:0>>. He was sheriff so long that we growing up in Monterey County thought the words \x{201c}Sheriff\x{201d} and \x{201c}Quinn\x{201d} went together naturally. We could not imagine anyone else being sheriff. Quinn grew old in his office. He limped from an early injury. We knew he was intrepid, for he had held his own in various gunfights; besides, he looked like a sheriff\x{2014}the only kind we knew about. His face was broad and pink, his white mustache shaped like the horns of a longhorn steer. He was broad of shoulder, and in his age he developed a portliness which only gave him more authority. He wore a fine Stetson hat, a Norfolk jacket, and in his later years carried his gun in a shoulder holster. His old belt holster tugged at his stomach too much. He had known his county in 1903 and he knew it and controlled it even better in 1917. He was an institution, as much a part of the Salinas Valley as its mountains.",
+            "In 1903 Horace Quinn beat Mr. R. Keef for the office of sheriff. He had been well trained as the chief deputy sheriff. Most of the voters figured that since Quinn was doing most of the work he might as well have the title. Sheriff Quinn held the office until <<1919|9c:0>>. He was sheriff so long that we growing up in Monterey County thought the words \x{201c}Sheriff\x{201d} and \x{201c}Quinn\x{201d} went together naturally. We could not imagine anyone else being sheriff. Quinn grew old in his office. He limped from an early injury. We knew he was intrepid, for he had held his own in various gunfights; besides, he looked like a sheriff\x{2014}the only kind we knew about. His face was broad and pink, his white mustache shaped like the horns of a longhorn steer. He was broad of shoulder, and in his age he developed a portliness which only gave him more authority. He wore a fine Stetson hat, a Norfolk jacket, and in his later years carried his gun in a shoulder holster. His old belt holster tugged at his stomach too much. He had known his county in 1903 and he knew it and controlled it even better in 1917. He was an institution, as much a part of the Salinas Valley as its mountains.",
           ],
           [
             1,
@@ -478,14 +453,12 @@ Louis stepped out and looked at the sun. \x{201c}Not <<past ten o\x{2019}clock|6
           [
             1,
             "[ap 09:00] East of Eden - John Steinbeck.epub (east-of-eden-5-54.html) - nine o\x{2019}clock",
-            "3
-    It was the end of May before the Silacci boys brought the news that the salmon-pink blossoms of the azaleas were breaking free. It was on a Wednesday, as the <<nine o\x{2019}clock|6>> bell was ringing, that they told him.",
+            "It was the end of May before the Silacci boys brought the news that the salmon-pink blossoms of the azaleas were breaking free. It was on a Wednesday, as the <<nine o\x{2019}clock|6>> bell was ringing, that they told him.",
           ],
           [
             1,
             "[15:00] East of Eden - John Steinbeck.epub (east-of-eden-5-54.html) - three o\x{2019}clock in the afternoon",
-            "5
-    At <<three o\x{2019}clock in the afternoon|6>> Lee was sitting at his desk, turning over the pages of a seed catalogue. The pictures of sweet peas were in color.",
+            "At <<three o\x{2019}clock in the afternoon|6>> Lee was sitting at his desk, turning over the pages of a seed catalogue. The pictures of sweet peas were in color.",
           ],
           [
             1,

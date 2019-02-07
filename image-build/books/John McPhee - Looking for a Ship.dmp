@@ -60,34 +60,9 @@ and carried the food away, because we felt pressed. When we went into the union 
           [
             1,
             '[ap 03:00] Looking for a Ship - John McPhee.epub (OEBPS/e9781429958110_c02.html) - 0300',
-            '**** OFFSHORE SHIPPING JOBS ****
-
-COMPANY:
-Lykes Bros.
-
-SHIP:
-SS Stella Lykes
-
-LOCATED:
-Wando
-
-SAILS:
+            'SAILS:
 <<0300|18:0>> Monday
-
-RUN:
-West Coast South America
-
-JOB:
-Second Officer
-
-TIME:
-120-day rotary
-
-RELIEVING:
-L. Midgett
-
-REASON:
-Time up',
+RUN:',
           ],
           [
             1,
@@ -117,7 +92,7 @@ Time up',
           [
             1,
             '[ap < 06:00] Looking for a Ship - John McPhee.epub (OEBPS/e9781429958110_c03.html) - toward six',
-            'This is the tenth of August, the antipodal mirror of the tenth of February. The ocean air is cool. The momentum of more than forty thousand tons is as absolute as the darkness. In no hurried way is it going to change. If a target should appear on one of the radars, Andy, in avoiding it, would try to preserve a cushion of at least two miles. Very slowly, <<toward six|9e:1>>, shapes will form in the developing light. Anyone coming or going through the passageway to the wheelhouse passes through two doors. When either door opens, the passageway lights go out. The bridge has to be dark, so that more than radar can see into the night. Andy is pacing around somewhere, invisible. Vernon McLaughlin is at the helm. The autopilot has the ship, but Mac stands by the helm.',
+            'This is the tenth of August, the antipodal mirror of the tenth of February. The ocean air is cool. The momentum of more than forty thousand tons is as absolute as the darkness. In no hurried way is it going to change. If a target should appear on one of the radars, Andy, in avoiding it, would try to preserve a cushion of at least two miles. Very slowly, <<toward six|9:0>>, shapes will form in the developing light. Anyone coming or going through the passageway to the wheelhouse passes through two doors. When either door opens, the passageway lights go out. The bridge has to be dark, so that more than radar can see into the night. Andy is pacing around somewhere, invisible. Vernon McLaughlin is at the helm. The autopilot has the ship, but Mac stands by the helm.',
           ],
           [
             1,
@@ -280,7 +255,7 @@ as if they were colanders. By <<1 A.M.|5>>, the bow was sluggish. Green seas beg
             1,
             '[ap > 02:00] Looking for a Ship - John McPhee.epub (OEBPS/e9781429958110_c09.html) - after two',
             "To riffle through a stack of the Mariners Weather Log\x{2014}a dozen or so quarterly issues\x{2014}is to develop a stopaction picture of casualties on the sea, of which there are so many hundreds that the eye skips. The story can be taken up and dropped anywhere, with differing names and the same situation unending. You see the Arctic Viking hit an
-iceberg off Labrador, the Panbali Kamara capsize off Sierra Leone, the Maria Ramos sink off southern Brazil. A ferry with a thousand passengers hits a freighter with a radioactive cargo and sinks her in a Channel fog. A cargo shifts in high winds and the Islamar Tercero goes down with twenty-six, somewhere south of the Canaries. Within a few days of one another, the Dawn Warbler goes aground, the Neyland goes aground, the Lubeca goes aground, the Transporter II throws twenty-six containers, and the Heather Valley\x{2014}hit by three waves\x{2014}sinks off western Scotland. The Chien Chung sinks with twenty-one in high seas east of Brazil, and <<after two|9:1>> ships collide off Argentina suddenly there is one. A tanker runs ashore in Palm Beach, goes right up on the sand. The bow noses into someone\x{2019}s villa and ends up in the swimming pool. The Nomada, hit by lightning, sinks off Indonesia. The Australian Highway rescues the Nomada\x{2019}s crew. The Blue Angel, with a crew of twenty, sinks in the Philippine Sea. The Golden Pine, with a shifting cargo of logs (what else?) sinks in the Philippine Sea. A hundred and fifteen people on the Asunci\x{f3}n drown as she sinks in the South China Sea. The Glenda capsizes off Mindanao, and seven of twenty-seven are rescued. The Sofia sinks in rough water near Crete, abandoned by her crew. The Arco Anchorage grounds in fog. On the Arco Prudhoe Bay, bound for Valdez, a spare propeller gets loose on the deck and hurtles around smashing pipes. The Vennas, with sixty-nine passengers and crew, sinks in the Celebes Sea. The Castillo de Salas, a bulk carrier with a hundred thousand tons of coal, breaks in two in the Bay of
+iceberg off Labrador, the Panbali Kamara capsize off Sierra Leone, the Maria Ramos sink off southern Brazil. A ferry with a thousand passengers hits a freighter with a radioactive cargo and sinks her in a Channel fog. A cargo shifts in high winds and the Islamar Tercero goes down with twenty-six, somewhere south of the Canaries. Within a few days of one another, the Dawn Warbler goes aground, the Neyland goes aground, the Lubeca goes aground, the Transporter II throws twenty-six containers, and the Heather Valley\x{2014}hit by three waves\x{2014}sinks off western Scotland. The Chien Chung sinks with twenty-one in high seas east of Brazil, and <<after two|9w>> ships collide off Argentina suddenly there is one. A tanker runs ashore in Palm Beach, goes right up on the sand. The bow noses into someone\x{2019}s villa and ends up in the swimming pool. The Nomada, hit by lightning, sinks off Indonesia. The Australian Highway rescues the Nomada\x{2019}s crew. The Blue Angel, with a crew of twenty, sinks in the Philippine Sea. The Golden Pine, with a shifting cargo of logs (what else?) sinks in the Philippine Sea. A hundred and fifteen people on the Asunci\x{f3}n drown as she sinks in the South China Sea. The Glenda capsizes off Mindanao, and seven of twenty-seven are rescued. The Sofia sinks in rough water near Crete, abandoned by her crew. The Arco Anchorage grounds in fog. On the Arco Prudhoe Bay, bound for Valdez, a spare propeller gets loose on the deck and hurtles around smashing pipes. The Vennas, with sixty-nine passengers and crew, sinks in the Celebes Sea. The Castillo de Salas, a bulk carrier with a hundred thousand tons of coal, breaks in two in the Bay of
 Biscay. The container ship Tuxpan disappears at <<noon|13>> in the middle of the North Atlantic with twenty-seven Mexicans aboard. A container from inside the hold is found on the surface. Apparently, the ship was crushed by a wave. In the same storm in the same sea, a wave hits the Export Patriot hard enough to buckle her doors. Water pours into the wheelhouse. The quartermaster is lashed to a bulkhead so that he can steer the ship. In the same storm, the Balsa 24 capsizes with a crew of nineteen. In the Gulf of Mexico, off the mouth of the Rio Grande, fifteen Mexican shark-fishing vessels sink in one squall. In a fog near the entrance to the Baltic Sea, the Swedish freighter Syderfjord is cut in two in a collision and sinks in forty seconds. About a hundred miles off South Africa, the Arctic Career leaves an oil slick, some scattered debris, and no other clues. The Icelandic freighter Sudurland goes down in the Norwegian Sea. The Cathy Sea Trade, with twenty-seven, is last heard from off the Canary Islands. Off Portugal, the Testarossa sinks with thirty. Off eastern Spain, in the same storm, the cargo shifts on the Kyretha Star, and she sinks with eighteen or twenty. The Tina, a bulk carrier under the Cypriot flag, vanishes without a trace somewhere in the Sulu Sea. In a fog in the Formosa Strait, the Quatsino Sound goes down after colliding with the Ever Linking. In the English Channel, the Herald of Free Enterprise overturns with a loss of two hundred. The Soviet freighter Komsomolets Kirgizzii sinks off New Jersey. In the North Sea, the bridge of the St. Sunnivar is smashed by a hundred-foot wave. After a shift of cargo, the Haitian freighter Aristeo capsizes off Florida.
 On the Queen Elizabeth 2, Captain Lawrence Portet ties himself to a chair on the bridge. Among the eighteen hundred passengers, many bones are broken. Seas approach forty feet. After a series of deep rolls, there are crewmen who admit to fearing she would not come up. Off the Kentish coast with a hundred and thirty-seven thousand tons of crude, the tanker Skyron, of Liberian registry, plows a Polish freighter. The tanker bursts into flames. The fire is put out before it can reach the crude. Fifty-seven crewmen abandon two bulk carriers in the Indian Ocean. The Hybur Trader loses seventeen containers in a storm off Miami Beach. On the same day, off Fort Lauderdale, a Venezuelan crew of twenty-five abandons the container ship Alma Llanera. The Frio, out of Miami for Colombia, sinks off Yucatan. In the Gulf of Alaska, the Stuyvesant spills fifteen thousand barrels of Alaska crude. The Roiandia\x{2014}twenty-seven hundred tons\x{2014}capsizes off France. The Ro/Ro Vinca Gordon capsizes off the Netherlands. The Vishra Anurag, a cargo ship under the Indian flag, capsizes off Japan. A Philippine freighter capsizes, too, with forty thousand cases of beer. Somewhere, any time, someone is getting it.",
           ],

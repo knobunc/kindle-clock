@@ -2,693 +2,254 @@ $VAR1 = [
           [
             1,
             '[ap 07:10] How to Invent Everything_ A Survival Guide - Ryan North.epub (OEBPS/navDoc.xhtml) - 7.10',
-            "Contents
-			
-				Cover
-				Title Page
-				Copyright
-				A Note for Readers
-				Epigraph
-				Introduction
-				Frequently Asked Questions by New Time Travelers
-				Repair Guide
-				Oh.
-				How to Use This Guide
-				Contents
-				1: How to Tell What Time Period You\x{2019}re Stranded In: A Handy Flowchart
-				2: A Special Note if You Are Stranded Between 200,000 Bce and 50,000 Bce and You Are Thinking, \x{201c}the Humans Here Are Crazy and I Am Definitely Doomed Forever\x{201d}
-				3: The Five Fundamental Technologies You Need for Your Civilization
-					
-						3.1: Spoken Language
-						3.2: Written Language
-						3.3: Non-Sucky Numbers
-						Sidebar: Why Can\x{2019}t You Divide by Zero?
-						3.4: The Scientific Method
-						3.5: Calorie Surplus: The End of Hunting and Gathering, and the Beginning of Civilization
-					
-				4: Units of Measurement Are Arbitrary, but Here\x{2019}s How You Can Reinvent the Standard Ones Used in This Book from Scratch
-					
-						Sidebar: Handy Measurement Templates
-					
-				5: Now We Are Become Farmers, the Devourers of Worlds
-					
-						Selective Breeding
-						Crop Rotation
-					
-				6: What Will Other Humans Be Eating if I\x{2019}m Stranded After They\x{2019}ve Evolved but Before Agriculture and Selective Breeding Are a Thing, and How Can I Tell if It\x{2019}s Poisonous, Because I Bet These Ancient Humans Are Eating Some Really Stupid Stuff?
-					
-						Sidebar: The Universal Edibility Test
-					
-				7: Putting Down Roots: Useful Plants for the Stranded Time Traveler
-					
-						7.1: Apples
-						7.2: Bamboo
-						7.3: Barley
-						7.4: Black Pepper
-						7.5: Cacao Plant
-						7.6: Chili Pepper
-						7.7: Cinchona
-						7.8: Coconut
-						7.9: Coffee
-						<<7.10|5a:1>>: Corn
-						<<7.11|5a:1>>: Cotton
-						<<7.12|5a:1>>: Eucalyptus
-						<<7.13|5a:1>>: Grapes
-						<<7.14|5a:1>>: Oak Trees
-						<<7.15|5a:1>>: Opium Poppy
-						<<7.16|5a:1>>: Papyrus
-						<<7.17|5a:1>>: Potato
-						<<7.18|5a:1>>: Rice
-						<<7.19|5a:1>>: Rubber Plant
-						<<7.20|5a:1>>: Soybean
-						<<7.21|5a:1>>: Sugarcane
-						<<7.22|5a:1>>: Sweet Orange
-						<<7.23|5a:1>>: Tea
-						<<7.24|5a:1>>: Tobacco
-						<<7.25|5a:1>>: Wheat
-						<<7.26|5a:1>>: White Mulberry
-						<<7.27|5a:1>>: White Willow
-						<<7.28|5a:1>>: Wild Cabbage
-						<<7.29|5a:1>>: Yam
-						Sidebar: It\x{2019}s Time for Some Beer
-					
-				8: The Birds and the Bees: Useful Animals for the Stranded Time Traveler
-					
-						8.1: Bison (american Buffalo)
-						8.2: Camels
-						8.3: Cats
-						8.4: Chickens
-						8.5: Cows
-						8.6: Dogs (also: Wolves)
-						8.7: Goats
-						8.8: Honeybees
-						8.9: Horses
-						<<8.10|5a:1>>: Llamas/Alpacas
-						<<8.11|5a:1>>: Pigs
-						<<8.12|5a:1>>: Pigeons
-						<<8.13|5a:1>>: Rabbits
-						<<8.14|5a:1>>: Sheep
-						<<8.15|5a:1>>: Silkworms
-						<<8.16|5a:1>>: Turkeys
-						<<8.17|5a:1>>: Beavers
-						<<8.18|5a:1>>: Earthworms
-						<<8.19|5a:1>>: Leeches
-						<<8.20|5a:1>>: Lice
-						<<8.21|5a:1>>: Mosquitoes
-					
-				9: Basic Nutrition: What to Eat So You Won\x{2019}t Die for at Least a While Longer
-				10: Common Human Complaints That Can Be Solved by Technology
-					
-						10.1: \x{201c}I\x{2019}m Thirsty\x{201d}
-						10.1.1: Charcoal
-						10.1.2: Distillation
-						10.2: \x{201c}I\x{2019}m Hungry\x{201d}
-						10.2.1: Horseshoes
-						10.2.2: Harnesses
-						10.2.3: Plows
-						10.2.4: Preserved Foods
-						10.2.5: Bread (and also: Beer) (also: Alcohol)
-						10.2.6: Salt Production
-						10.3: \x{201c}I\x{2019}m Sick\x{201d}
-						10.3.1: Penicillin
-						10.3.2: Stethoscopes
-						10.4: \x{201c}The Natural Resources I See Around Me Suck; I Want Better Ones\x{201d}
-						10.4.1: Mining
-						10.4.2: Kilns, Smelters, and Forges
-						10.4.3: Glass
-						10.5: \x{201c}I\x{2019}m Lazy; I Want a Machine to Do Work for Me\x{201d}
-						10.5.1: Waterwheels and Windmills
-						10.5.2: Pelton Turbines
-						10.5.3: Flywheels
-						10.5.4: Steam Engines
-						10.6: \x{201c}No, I Mean I\x{2019}m So Lazy I Just Want to Flip a Switch and Have Machines Work as if by Magic\x{201d}
-						10.6.1: Batteries
-						10.6.2: Generators
-						10.6.3: Transformers
-						10.7: \x{201c}it\x{2019}s Late and I\x{2019}m Cold, and I\x{2019}d Like to Know How Late and How Cold It Is\x{201d}
-						10.7.1: Clocks
-						10.7.2: Thermometers and Barometers
-						10.8: \x{201c}I Want People to Think I\x{2019}m Attractive\x{201d}
-						10.8.1: Soap
-						10.8.2: Buttons
-						10.8.3: Tanning
-						10.8.4: Spinning Wheels
-						10.9: \x{201c}I Would Like to Have Some Cool Sex\x{201d}
-						10.9.1: Birth Control
-						10.9.2 Birthing Forceps
-						10.9.3: Incubators
-						<<10.10|5a:1>>: \x{201c}I Want Things That Won\x{2019}t Catch on Fire\x{201d}
-						10.10.1: Cement and Concrete
-						10.10.2: Steel
-						10.10.3: Welding
-						<<10.11|5a:1>>: \x{201c}there\x{2019}s Nothing to Read\x{201d}
-						10.11.1: Paper
-						10.11.2: Printing Presses
-						<<10.12|5a:1>>: \x{201c}it Sucks Here and I Want to Go Literally Anywhere Else\x{201d}
-						10.12.1: Bikes
-						10.12.2: Compasses
-						10.12.3: Latitude and Longitude
-						Sidebar: How Far Is It Between Lines of Latitude and Longitude Anyway?
-						10.12.4: Radio
-						10.12.5: Boats
-						10.12.6: Human Flight
-						<<10.13|5a:1>>: \x{201c}I Want Everyone to Think I\x{2019}m Smart\x{201d}
-						10.13.1: Logic
-					
-				11: Chemistry: What Are Things, and How Do I Make Things?
-					
-						What Are Things Made Of?
-						Where Do Things Come From?
-						What Can I Make Out of Things?
-					
-				12: Major Schools of Philosophy Summed Up in a Few Quippy Sentences About High-fives
-				13: The Basics of Visual Art, Including Some Styles You Can Steal
-					
-						Sidebar: Where Can You Get Pigments?
-					
-				14: Heal Some Body: Medicine and How to Invent It
-					
-						The Germ Theory of Disease
-						How to Evaluate Medical Treatments
-						Sidebar: Normal Human Baselines
-						Sidebar: Rehydration Drink
-					
-				15: Basic First (and in Your Case, Only) Aid
-					
-						Choking
-						Breathing but Unconscious
-						Not Breathing
-						Sidebar: Cpr Songs
-						Broken Bones
-						Wounds
-						Infection
-					
-				16: How to Invent Music, and Musical Instruments, and Music Theory, and Also We Included Some Really Great Songs for You to Plagiarize Too
-					
-						How to Invent Musical Instruments
-						Basic Music Theory
-						How to Produce a 440hz Sound Wave at Any Point in History Like It Isn\x{2019}t Even a Big Deal
-						Reading Music
-						These Really Great Songs That We Put in This Book for You to Plagiarize
-					
-				17: Computers: How to Turn Mental Labor into Physical Labor, So Then You Don\x{2019}t Have to Think So Hard but Can Instead Just Turn a Crank or Whatever
-					
-						What Kind of Numbers Your Computer Will Use, and What It Will Do with Them
-						What Even Is Adding Though, and How Can We Talk About Adding When I Don\x{2019}t Even Know How a Computer Works Yet?
-						Okay, So, Great I\x{2019}ve Invented All These Gates, but None of Them Add Anything Yet, So What the Heck?
-						So Let\x{2019}s Actually Build Some Logic Gates and Solve Computers
-					
-				Conclusion: Things Should Now Be Pretty Comfortable for You, and You\x{2019}re Welcome
-				Appendix A: Technology Tree
-				Appendix B: The Periodic Table
-				Appendix C: Useful Chemicals, How to Make Them, and How They Can Definitely Kill You
-				Appendix D: Logical Argument Forms
-				Appendix E: Trigonometry Tables, Included Because You\x{2019}LL Need Them When You Invent Sundials, but They\x{2019}LL Also Be Useful if You Ever Decide to Invent Trigonometry
-				Appendix F: Some Universal Constants That Took Humanity a While to Figure Out, and Which You Can Now Name After Yourself
-				Appendix G: Frequencies for Various Notes, So You Can Play Those Cool Songs We Included
-				Appendix H: A Bunch of Cool Gears and Other Fundamental Mechanisms
-				Appendix I: Here\x{2019}s Where Some Useful Human Parts Are and What They Do
-				Afterword
-				Bibliography
-				Endnotes Written by Me,the Ryan from This Timeline
-				Index
-				About the Author
-			
-		
-		
-			
-				Cover
-				Cover
-				Title Page
-				Table of Contents
-				Start
-			
-		
-		
-			
-				i
-				ii
-				iii
-				iv
-				v
-				vi
-				vii
-				viii
-				ix
-				x
-				xi
-				xii
-				xiii
-				xiv
-				xv
-				xvi
-				xvii
-				xviii
-				xix
-				xx
-				xxi
-				xxii
-				xxiii
-				xxiv
-				1
-				2
-				3
-				4
-				5
-				6
-				7
-				8
-				9
-				10
-				11
-				12
-				13
-				14
-				15
-				16
-				17
-				18
-				19
-				20
-				21
-				22
-				23
-				24
-				25
-				26
-				27
-				29
-				28
-				30
-				31
-				32
-				33
-				34
-				35
-				36
-				37
-				38
-				39
-				40
-				41
-				42
-				43
-				44
-				45
-				46
-				47
-				48
-				49
-				50
-				51
-				52
-				53
-				54
-				55
-				56
-				57
-				58
-				59
-				60
-				61
-				62
-				63
-				64
-				65
-				66
-				67
-				68
-				69
-				70
-				71
-				72
-				73
-				74
-				75
-				76
-				77
-				78
-				79
-				80
-				81
-				82
-				83
-				84
-				85
-				86
-				87
-				88
-				89
-				90
-				91
-				92
-				93
-				94
-				95
-				96
-				97
-				98
-				99
-				100
-				101
-				102
-				103
-				104
-				105
-				106
-				107
-				108
-				109
-				110
-				111
-				112
-				113
-				114
-				115
-				116
-				117
-				118
-				119
-				120
-				121
-				122
-				123
-				124
-				125
-				126
-				127
-				128
-				129
-				130
-				131
-				132
-				133
-				134
-				135
-				136
-				137
-				138
-				139
-				140
-				141
-				142
-				143
-				144
-				145
-				146
-				147
-				148
-				149
-				150
-				151
-				152
-				153
-				154
-				155
-				156
-				157
-				158
-				159
-				160
-				161
-				162
-				163
-				164
-				165
-				166
-				167
-				168
-				169
-				170
-				171
-				172
-				173
-				174
-				175
-				176
-				177
-				178
-				179
-				180
-				181
-				182
-				183
-				184
-				185
-				186
-				187
-				188
-				189
-				190
-				191
-				192
-				193
-				194
-				195
-				196
-				197
-				198
-				199
-				200
-				201
-				202
-				203
-				204
-				205
-				206
-				207
-				208
-				209
-				210
-				211
-				212
-				213
-				214
-				215
-				216
-				217
-				218
-				219
-				220
-				221
-				222
-				223
-				224
-				225
-				226
-				227
-				228
-				229
-				230
-				231
-				232
-				233
-				234
-				235
-				236
-				237
-				238
-				239
-				240
-				241
-				242
-				243
-				244
-				245
-				246
-				247
-				248
-				249
-				250
-				251
-				252
-				253
-				254
-				255
-				256
-				257
-				258
-				259
-				260
-				261
-				262
-				263
-				264
-				265
-				266
-				267
-				268
-				269
-				270
-				271
-				272
-				273
-				274
-				275
-				276
-				277
-				278
-				279
-				280
-				281
-				282
-				283
-				284
-				285
-				286
-				287
-				288
-				289
-				290
-				291
-				292
-				293
-				294
-				295
-				296
-				297
-				298
-				299
-				300
-				301
-				302
-				303
-				304
-				305
-				306
-				307
-				308
-				309
-				310
-				311
-				312
-				313
-				314
-				315
-				316
-				317
-				318
-				319
-				320
-				321
-				322
-				323
-				324
-				325
-				326
-				327
-				328
-				329
-				331
-				330
-				332
-				333
-				334
-				335
-				336
-				337
-				338
-				339
-				340
-				341
-				342
-				343
-				344
-				345
-				346
-				347
-				348
-				349
-				350
-				351
-				352
-				353
-				354
-				355
-				356
-				357
-				358
-				359
-				360
-				361
-				362
-				363
-				364
-				365
-				366
-				367
-				368
-				369
-				370
-				371
-				372
-				373
-				374
-				375
-				376
-				377
-				378
-				379
-				380
-				381
-				382
-				382
-				383
-				384
-				385
-				386
-				387
-				388
-				389
-				390
-				391
-				392
-				393
-				394
-				395
-				396
-				397
-				398
-				399
-				400
-				401
-				402
-				403
-				404
-				405
-				406
-				407
-				408
-				409
-				410
-				411
-				412
-				413
-				414
-				415
-				416
-				417
-				418
-				419
-				420
-				421
-				422
-				423
-				424
-				425
-				426
-				427
-				428
-				429
-				430
-				431
-				432
-				433
-				434
-				435
-				436
-				437
-				438",
+            '7.9: Coffee
+<<7.10|5a:0>>: Corn
+<<7.11|5a:0>>: Cotton',
+          ],
+          [
+            1,
+            '[ap 07:10] How to Invent Everything_ A Survival Guide - Ryan North.epub (OEBPS/navDoc.xhtml) - 7.10',
+            '<<7.10|9p>>: Corn
+<<7.11|5a:0>>: Cotton
+<<7.12|5a:0>>: Eucalyptus',
+          ],
+          [
+            1,
+            '[ap 07:11] How to Invent Everything_ A Survival Guide - Ryan North.epub (OEBPS/navDoc.xhtml) - 7.11',
+            '<<7.11|9p>>: Cotton
+<<7.12|5a:0>>: Eucalyptus
+<<7.13|5a:0>>: Grapes',
+          ],
+          [
+            1,
+            '[ap 07:12] How to Invent Everything_ A Survival Guide - Ryan North.epub (OEBPS/navDoc.xhtml) - 7.12',
+            '<<7.12|9p>>: Eucalyptus
+<<7.13|5a:0>>: Grapes
+<<7.14|5a:0>>: Oak Trees',
+          ],
+          [
+            1,
+            '[ap 07:13] How to Invent Everything_ A Survival Guide - Ryan North.epub (OEBPS/navDoc.xhtml) - 7.13',
+            '<<7.13|9p>>: Grapes
+<<7.14|5a:0>>: Oak Trees
+<<7.15|5a:0>>: Opium Poppy',
+          ],
+          [
+            1,
+            '[ap 07:14] How to Invent Everything_ A Survival Guide - Ryan North.epub (OEBPS/navDoc.xhtml) - 7.14',
+            '<<7.14|9p>>: Oak Trees
+<<7.15|5a:0>>: Opium Poppy
+<<7.16|5a:0>>: Papyrus',
+          ],
+          [
+            1,
+            '[ap 07:15] How to Invent Everything_ A Survival Guide - Ryan North.epub (OEBPS/navDoc.xhtml) - 7.15',
+            '<<7.15|9p>>: Opium Poppy
+<<7.16|5a:0>>: Papyrus
+<<7.17|5a:0>>: Potato',
+          ],
+          [
+            1,
+            '[ap 07:16] How to Invent Everything_ A Survival Guide - Ryan North.epub (OEBPS/navDoc.xhtml) - 7.16',
+            '<<7.16|9p>>: Papyrus
+<<7.17|5a:0>>: Potato
+<<7.18|5a:0>>: Rice',
+          ],
+          [
+            1,
+            '[ap 07:17] How to Invent Everything_ A Survival Guide - Ryan North.epub (OEBPS/navDoc.xhtml) - 7.17',
+            '<<7.17|9p>>: Potato
+<<7.18|5a:0>>: Rice
+<<7.19|5a:0>>: Rubber Plant',
+          ],
+          [
+            1,
+            '[ap 07:18] How to Invent Everything_ A Survival Guide - Ryan North.epub (OEBPS/navDoc.xhtml) - 7.18',
+            '<<7.18|9p>>: Rice
+<<7.19|5a:0>>: Rubber Plant
+<<7.20|5a:0>>: Soybean',
+          ],
+          [
+            1,
+            '[ap 07:19] How to Invent Everything_ A Survival Guide - Ryan North.epub (OEBPS/navDoc.xhtml) - 7.19',
+            '<<7.19|9p>>: Rubber Plant
+<<7.20|5a:0>>: Soybean
+<<7.21|5a:0>>: Sugarcane',
+          ],
+          [
+            1,
+            '[ap 07:20] How to Invent Everything_ A Survival Guide - Ryan North.epub (OEBPS/navDoc.xhtml) - 7.20',
+            '<<7.20|9p>>: Soybean
+<<7.21|5a:0>>: Sugarcane
+<<7.22|5a:0>>: Sweet Orange',
+          ],
+          [
+            1,
+            '[ap 07:21] How to Invent Everything_ A Survival Guide - Ryan North.epub (OEBPS/navDoc.xhtml) - 7.21',
+            '<<7.21|9p>>: Sugarcane
+<<7.22|5a:0>>: Sweet Orange
+<<7.23|5a:0>>: Tea',
+          ],
+          [
+            1,
+            '[ap 07:22] How to Invent Everything_ A Survival Guide - Ryan North.epub (OEBPS/navDoc.xhtml) - 7.22',
+            '<<7.22|9p>>: Sweet Orange
+<<7.23|5a:0>>: Tea
+<<7.24|5a:0>>: Tobacco',
+          ],
+          [
+            1,
+            '[ap 07:23] How to Invent Everything_ A Survival Guide - Ryan North.epub (OEBPS/navDoc.xhtml) - 7.23',
+            '<<7.23|9p>>: Tea
+<<7.24|5a:0>>: Tobacco
+<<7.25|5a:0>>: Wheat',
+          ],
+          [
+            1,
+            '[ap 07:24] How to Invent Everything_ A Survival Guide - Ryan North.epub (OEBPS/navDoc.xhtml) - 7.24',
+            '<<7.24|9p>>: Tobacco
+<<7.25|5a:0>>: Wheat
+<<7.26|5a:0>>: White Mulberry',
+          ],
+          [
+            1,
+            '[ap 07:25] How to Invent Everything_ A Survival Guide - Ryan North.epub (OEBPS/navDoc.xhtml) - 7.25',
+            '<<7.25|9p>>: Wheat
+<<7.26|5a:0>>: White Mulberry
+<<7.27|5a:0>>: White Willow',
+          ],
+          [
+            1,
+            '[ap 07:26] How to Invent Everything_ A Survival Guide - Ryan North.epub (OEBPS/navDoc.xhtml) - 7.26',
+            '<<7.26|9p>>: White Mulberry
+<<7.27|5a:0>>: White Willow
+<<7.28|5a:0>>: Wild Cabbage',
+          ],
+          [
+            1,
+            '[ap 07:27] How to Invent Everything_ A Survival Guide - Ryan North.epub (OEBPS/navDoc.xhtml) - 7.27',
+            '<<7.27|9p>>: White Willow
+<<7.28|5a:0>>: Wild Cabbage
+<<7.29|5a:0>>: Yam',
+          ],
+          [
+            1,
+            '[ap 07:28] How to Invent Everything_ A Survival Guide - Ryan North.epub (OEBPS/navDoc.xhtml) - 7.28',
+            "<<7.28|9p>>: Wild Cabbage
+<<7.29|5a:1>>: Yam
+Sidebar: It\x{2019}s Time for Some Beer",
+          ],
+          [
+            1,
+            '[ap 08:10] How to Invent Everything_ A Survival Guide - Ryan North.epub (OEBPS/navDoc.xhtml) - 8.10',
+            '8.9: Horses
+<<8.10|5a:0>>: Llamas/Alpacas
+<<8.11|5a:0>>: Pigs',
+          ],
+          [
+            1,
+            '[ap 08:10] How to Invent Everything_ A Survival Guide - Ryan North.epub (OEBPS/navDoc.xhtml) - 8.10',
+            '<<8.10|9p>>: Llamas/Alpacas
+<<8.11|5a:0>>: Pigs
+<<8.12|5a:0>>: Pigeons',
+          ],
+          [
+            1,
+            '[ap 08:11] How to Invent Everything_ A Survival Guide - Ryan North.epub (OEBPS/navDoc.xhtml) - 8.11',
+            '<<8.11|9p>>: Pigs
+<<8.12|5a:0>>: Pigeons
+<<8.13|5a:0>>: Rabbits',
+          ],
+          [
+            1,
+            '[ap 08:12] How to Invent Everything_ A Survival Guide - Ryan North.epub (OEBPS/navDoc.xhtml) - 8.12',
+            '<<8.12|9p>>: Pigeons
+<<8.13|5a:0>>: Rabbits
+<<8.14|5a:0>>: Sheep',
+          ],
+          [
+            1,
+            '[ap 08:13] How to Invent Everything_ A Survival Guide - Ryan North.epub (OEBPS/navDoc.xhtml) - 8.13',
+            '<<8.13|9p>>: Rabbits
+<<8.14|5a:0>>: Sheep
+<<8.15|5a:0>>: Silkworms',
+          ],
+          [
+            1,
+            '[ap 08:14] How to Invent Everything_ A Survival Guide - Ryan North.epub (OEBPS/navDoc.xhtml) - 8.14',
+            '<<8.14|9p>>: Sheep
+<<8.15|5a:0>>: Silkworms
+<<8.16|5a:0>>: Turkeys',
+          ],
+          [
+            1,
+            '[ap 08:15] How to Invent Everything_ A Survival Guide - Ryan North.epub (OEBPS/navDoc.xhtml) - 8.15',
+            '<<8.15|9p>>: Silkworms
+<<8.16|5a:0>>: Turkeys
+<<8.17|5a:0>>: Beavers',
+          ],
+          [
+            1,
+            '[ap 08:16] How to Invent Everything_ A Survival Guide - Ryan North.epub (OEBPS/navDoc.xhtml) - 8.16',
+            '<<8.16|9p>>: Turkeys
+<<8.17|5a:0>>: Beavers
+<<8.18|5a:0>>: Earthworms',
+          ],
+          [
+            1,
+            '[ap 08:17] How to Invent Everything_ A Survival Guide - Ryan North.epub (OEBPS/navDoc.xhtml) - 8.17',
+            '<<8.17|9p>>: Beavers
+<<8.18|5a:0>>: Earthworms
+<<8.19|5a:0>>: Leeches',
+          ],
+          [
+            1,
+            '[ap 08:18] How to Invent Everything_ A Survival Guide - Ryan North.epub (OEBPS/navDoc.xhtml) - 8.18',
+            '<<8.18|9p>>: Earthworms
+<<8.19|5a:0>>: Leeches
+<<8.20|5a:0>>: Lice',
+          ],
+          [
+            1,
+            '[ap 08:19] How to Invent Everything_ A Survival Guide - Ryan North.epub (OEBPS/navDoc.xhtml) - 8.19',
+            '<<8.19|9p>>: Leeches
+<<8.20|5a:0>>: Lice
+<<8.21|5a:0>>: Mosquitoes',
+          ],
+          [
+            1,
+            '[ap 08:20] How to Invent Everything_ A Survival Guide - Ryan North.epub (OEBPS/navDoc.xhtml) - 8.20',
+            "<<8.20|9p>>: Lice
+<<8.21|5a:0>>: Mosquitoes
+9: Basic Nutrition: What to Eat So You Won\x{2019}t Die for at Least a While Longer",
+          ],
+          [
+            1,
+            '[ap 10:10] How to Invent Everything_ A Survival Guide - Ryan North.epub (OEBPS/navDoc.xhtml) - 10.10',
+            "10.9.3: Incubators
+<<10.10|5a:0>>: \x{201c}I Want Things That Won\x{2019}t Catch on Fire\x{201d}
+10.10.1: Cement and Concrete",
+          ],
+          [
+            1,
+            '[ap 10:11] How to Invent Everything_ A Survival Guide - Ryan North.epub (OEBPS/navDoc.xhtml) - 10.11',
+            "10.10.3: Welding
+<<10.11|5a:0>>: \x{201c}there\x{2019}s Nothing to Read\x{201d}
+10.11.1: Paper",
+          ],
+          [
+            1,
+            '[ap 10:12] How to Invent Everything_ A Survival Guide - Ryan North.epub (OEBPS/navDoc.xhtml) - 10.12',
+            "10.11.2: Printing Presses
+<<10.12|5a:0>>: \x{201c}it Sucks Here and I Want to Go Literally Anywhere Else\x{201d}
+10.12.1: Bikes",
+          ],
+          [
+            1,
+            '[ap 10:13] How to Invent Everything_ A Survival Guide - Ryan North.epub (OEBPS/navDoc.xhtml) - 10.13',
+            "10.12.6: Human Flight
+<<10.13|5a:0>>: \x{201c}I Want Everyone to Think I\x{2019}m Smart\x{201d}
+10.13.1: Logic",
           ],
           [
             1,
@@ -737,18 +298,242 @@ Peach",
           ],
           [
             1,
+            '[ap 07:10] How to Invent Everything_ A Survival Guide - Ryan North.epub (OEBPS/xhtml/024_7_Putting_Down_Roots.xhtml) - 7.10',
+            'You can overdose and die from consuming too much caffeine, so maybe take it easy with the coffee there, champ.
+<<7.10|9p>>: CORN
+',
+          ],
+          [
+            1,
+            '[ap 07:11] How to Invent Everything_ A Survival Guide - Ryan North.epub (OEBPS/xhtml/024_7_Putting_Down_Roots.xhtml) - 7.11',
+            "Domesticated corn (available after around 7000 BCE) does not naturally reproduce: to produce more corn, you must conserve kernels until next spring, then bury them in the ground. It\x{2019}s been so thoroughly domesticated that it can no longer survive without human aid and interference. Thanks for the trust, corn!
+<<7.11|9p>>: COTTON
+",
+          ],
+          [
+            1,
+            '[ap 07:12] How to Invent Everything_ A Survival Guide - Ryan North.epub (OEBPS/xhtml/024_7_Putting_Down_Roots.xhtml) - 7.12',
+            "To make cotton yarn\x{2014}which can then be woven in fabric\x{2014}first pick the fluffy balls off the tops of cotton flowers. Pull them across a rough board to separate the seeds from the lint. The lint can then be combed to straighten out its fibers and spun into yarn. See Section 10.8.4 for more.
+<<7.12|9p>>: EUCALYPTUS
+",
+          ],
+          [
+            1,
+            '[ap 07:13] How to Invent Everything_ A Survival Guide - Ryan North.epub (OEBPS/xhtml/024_7_Putting_Down_Roots.xhtml) - 7.13',
+            'can be toxic if too much is consumed: a lethal dose is in the range of 0.05 mL to 0.5 mL per kg of body mass.
+<<7.13|9p>>: GRAPES
+',
+          ],
+          [
+            1,
+            '[ap 07:14] How to Invent Everything_ A Survival Guide - Ryan North.epub (OEBPS/xhtml/024_7_Putting_Down_Roots.xhtml) - 7.14',
+            "If you\x{2019}re around when steam travel is beginning between Europe and America, be aware that the unprecedented speed of these ships will allow pale yellow American \x{201c}phylloxera\x{201d} insects\x{2014}all of whom used to perish on the previous, longer oceanic crossings\x{2014}to survive the voyage. When these insects arrive in Europe, they will become an epidemic, destroying vineyards there for generations. The eventual solution will be to graft European grape plants onto the rootstock of phylloxera-resistant American grape species: the sooner you come up with this, the more you will alter the history of the world (at least the wine-drinking parts of it).
+<<7.14|9p>>: OAK TREES
+",
+          ],
+          [
+            1,
+            '[ap 07:15] How to Invent Everything_ A Survival Guide - Ryan North.epub (OEBPS/xhtml/024_7_Putting_Down_Roots.xhtml) - 7.15',
+            "Oak trees can live for more than 1,500 years, and it takes about 150 years for an oak tree to grow to the point where it can be harvested for wood, so oak farming is a situation in which you\x{2019}ll want to plan ahead.
+<<7.15|9p>>: OPIUM POPPY
+",
+          ],
+          [
+            1,
+            '[ap 07:16] How to Invent Everything_ A Survival Guide - Ryan North.epub (OEBPS/xhtml/024_7_Putting_Down_Roots.xhtml) - 7.16',
+            'Morphine can be extracted from poppies by cutting up the dried plants and boiling them in three times their weight of hot water until a paste forms at the bottom. Add lime (see Appendix C.3), repeat the process, and then add ammonium chloride (Appendix C.6) to precipitate out morphine, which is then purified by hydrochloric acid (Appendix C.13).
+<<7.16|9p>>: PAPYRUS
+',
+          ],
+          [
+            1,
+            '[ap 07:17] How to Invent Everything_ A Survival Guide - Ryan North.epub (OEBPS/xhtml/024_7_Putting_Down_Roots.xhtml) - 7.17',
+            'Make papyrus paper by peeling away the outer layer of papyrus stalks, then cutting them into long strips. Let them soak in water for a few days. Align them side by side, edges slightly overlapping, then put another layer on top, perpendicular to the first. Press them flat for a few days, and ta-da!: you have produced a single sheet of papyrus paper!
+<<7.17|9p>>: POTATO
+',
+          ],
+          [
+            1,
+            '[ap 07:18] How to Invent Everything_ A Survival Guide - Ryan North.epub (OEBPS/xhtml/024_7_Putting_Down_Roots.xhtml) - 7.18',
+            "Historically there was European resistance to the potato: Protestants thought they were an evil thing from the \x{201c}New World\x{201d} that multiplied underground and whose curvaceous shape was \x{201c}suggestive.\x{201d} Yes: if you can trace your ancestry back to the early days of the United States, there\x{2019}s a fair chance your ancestors were turned on by potatoes. This resistance was overcome in many ways, most notably in France, where potatoes were planted on the grounds of the Palace of Versailles, where \x{201c}guards\x{201d} were placed to protect this new and mysterious royal vegetable. At night the guards would retire, and citizens, curious about this new crop, would raid the fields, soon growing potatoes themselves.
+<<7.18|9p>>: RICE
+",
+          ],
+          [
+            1,
+            '[ap 07:19] How to Invent Everything_ A Survival Guide - Ryan North.epub (OEBPS/xhtml/024_7_Putting_Down_Roots.xhtml) - 7.19',
+            "Rice can be grown in a flooded field, which has the benefit of both deterring vermin and preventing weeds that can\x{2019}t survive flooding from growing.
+<<7.19|9p>>: RUBBER PLANT
+",
+          ],
+          [
+            1,
+            '[ap 07:20] How to Invent Everything_ A Survival Guide - Ryan North.epub (OEBPS/xhtml/024_7_Putting_Down_Roots.xhtml) - 7.20',
+            "The easiest way to vulcanize rubber is to add sulfur to it while it\x{2019}s being heated. If you don\x{2019}t have pure sulfur lying around, great news! The South American rubber plant is typically found with another plant climbing on it: a vine with large, fragrant night-blooming white flowers. The juices from these \x{201c}moonflower\x{201d} plants contain sulfur. You\x{2019}ve got all the ingredients you need to make vulcanized rubber side by side!
+<<7.20|9p>>: SOYBEAN
+",
+          ],
+          [
+            1,
+            '[ap 07:21] How to Invent Everything_ A Survival Guide - Ryan North.epub (OEBPS/xhtml/024_7_Putting_Down_Roots.xhtml) - 7.21',
+            "Like yams, soybeans are toxic to humans (and all other animals with just one stomach) when raw, and need to be cooked before being eaten. Listen: you should be cooking a lot of the mysterious food you find anyway. Plenty of foods have toxins that get destroyed by cooking, and no foods become toxic when cooked. Cooking: it\x{2019}s great!
+<<7.21|9p>>: SUGARCANE
+",
+          ],
+          [
+            1,
+            '[ap 07:22] How to Invent Everything_ A Survival Guide - Ryan North.epub (OEBPS/xhtml/024_7_Putting_Down_Roots.xhtml) - 7.22',
+            "Sugarcane is one of the most efficient photosynthesizing plants: it converts more sunlight into biomass than just about any other plant! This means if you want to use plants as a fuel source, you\x{2019}ll get the best and most productive use of your land by growing sugarcane, drying it out, and then burning it to boil water (which can be used in your steam engine, see Section 10.5.4). You can even burn the dried pulp left over from producing sugar, making sugarcane even more efficient.
+<<7.22|9p>>: SWEET ORANGE
+",
+          ],
+          [
+            1,
+            '[ap 07:23] How to Invent Everything_ A Survival Guide - Ryan North.epub (OEBPS/xhtml/024_7_Putting_Down_Roots.xhtml) - 7.23',
+            'The sweet orange was not bred until the 1400s CE, so before then expect some very bitter oranges.
+<<7.23|9p>>: TEA
+',
+          ],
+          [
+            1,
+            '[ap 07:24] How to Invent Everything_ A Survival Guide - Ryan North.epub (OEBPS/xhtml/024_7_Putting_Down_Roots.xhtml) - 7.24',
+            'Try it with milk and sugar, or iced with lemon!
+<<7.24|9p>>: TOBACCO
+',
+          ],
+          [
+            1,
+            '[ap 07:25] How to Invent Everything_ A Survival Guide - Ryan North.epub (OEBPS/xhtml/024_7_Putting_Down_Roots.xhtml) - 7.25',
+            'Avoid introducing tobacco to your civilization, and you will save yourself billions of dollars and millions of lives and prevent the invention of vaping.
+<<7.25|9p>>: WHEAT
+',
+          ],
+          [
+            1,
+            '[ap 07:26] How to Invent Everything_ A Survival Guide - Ryan North.epub (OEBPS/xhtml/024_7_Putting_Down_Roots.xhtml) - 7.26',
+            'Domestication of wheat can be achieved in as little as twenty years!
+<<7.26|9p>>: WHITE MULBERRY
+',
+          ],
+          [
+            1,
             '[ap 08:15] How to Invent Everything_ A Survival Guide - Ryan North.epub (OEBPS/xhtml/024_7_Putting_Down_Roots.xhtml) - 8.15',
             'This plant is the preferred food for silkworms (see Section <<8.15|5a:0>>), which produce silk.',
           ],
           [
             1,
+            '[ap 07:27] How to Invent Everything_ A Survival Guide - Ryan North.epub (OEBPS/xhtml/024_7_Putting_Down_Roots.xhtml) - 7.27',
+            "These theories were sadly incorrect: silk comes from the cocoons of silkworms and can be harvested by simply taking the cocoons off a white mulberry tree, but if you want to produce it on a larger scale you\x{2019}ll want to farm the silkworms yourself. Section 10.8.4 has complete instructions.
+<<7.27|9p>>: WHITE WILLOW
+",
+          ],
+          [
+            1,
+            '[ap 07:28] How to Invent Everything_ A Survival Guide - Ryan North.epub (OEBPS/xhtml/024_7_Putting_Down_Roots.xhtml) - 7.28',
+            "Willow, like ash, is a tree that really wants to grow: so much so, in fact, that it\x{2019}s possible to cut down a willow and not kill it. This is done through \x{201c}coppicing\x{201d}: a process in which you cut down the tree in winter\x{2014}when it\x{2019}s dormant\x{2014}but leave the stump. In spring, the tree will use the same root system to regrow, and it can be re-harvested by undergoing coppicing again, in two to five years. Regularly coppiced trees remain at their juvenile stage, and therefore don\x{2019}t die of old age, which makes them a renewable source of wood fuel! Other trees can be coppiced too, but willows are particularly well suited due to their growth speed.
+<<7.28|9p>>: WILD CABBAGE
+",
+          ],
+          [
+            1,
+            '[ap 07:29] How to Invent Everything_ A Survival Guide - Ryan North.epub (OEBPS/xhtml/024_7_Putting_Down_Roots.xhtml) - 7.29',
+            'Cabbages grow readily in most climates and soil types, so they are an easy source of calories.
+<<7.29|9p>>: YAM
+',
+          ],
+          [
+            1,
             '[20:05] How to Invent Everything_ A Survival Guide - Ryan North.epub (OEBPS/xhtml/025_8_The_Birds_and_the_.xhtml) - 2005',
-            "An experiment began in Russia in 1959 CE, trying to breed doglike animals from wild foxes by selectively breeding the \x{201c}tamest\x{201d} foxes with each other. In four generations some were wagging their tails when humans appeared, in six they licked human faces and wanted contact, and in ten about 18 percent of their foxes were doglike: calm, friendly, playful, solicitous of human touch. By twenty generations it was 35 percent, by thirty it was 49 percent, and by <<2005|9:0>>\x{2014}less than 50 years after the experiment began\x{2014}100 percent of the foxes were being born tame, and the scientists now raise money to continue their research by selling the foxes as pets. You can do this with wolves in any time period. You can make yourself a dog.",
+            "An experiment began in Russia in 1959 CE, trying to breed doglike animals from wild foxes by selectively breeding the \x{201c}tamest\x{201d} foxes with each other. In four generations some were wagging their tails when humans appeared, in six they licked human faces and wanted contact, and in ten about 18 percent of their foxes were doglike: calm, friendly, playful, solicitous of human touch. By twenty generations it was 35 percent, by thirty it was 49 percent, and by <<2005|9w>>\x{2014}less than 50 years after the experiment began\x{2014}100 percent of the foxes were being born tame, and the scientists now raise money to continue their research by selling the foxes as pets. You can do this with wolves in any time period. You can make yourself a dog.",
+          ],
+          [
+            1,
+            '[ap 08:10] How to Invent Everything_ A Survival Guide - Ryan North.epub (OEBPS/xhtml/025_8_The_Birds_and_the_.xhtml) - 8.10',
+            "The earliest horses were clever, dog-sized animals that evolved in North America around 54,000,000 BCE. So if that\x{2019}s where and when you\x{2019}re trapped, while you won\x{2019}t be riding any horses, you are going to have some adorable pets.
+<<8.10|9p>>: LLAMAS/ALPACAS
+",
+          ],
+          [
+            1,
+            '[ap 08:11] How to Invent Everything_ A Survival Guide - Ryan North.epub (OEBPS/xhtml/025_8_The_Birds_and_the_.xhtml) - 8.11',
+            "Unlike most mammals, female llamas don\x{2019}t have a reproductive cycle, but rather ovulate on demand after mating. Nice! This makes breeding them slightly easier!
+<<8.11|9p>>: PIGS
+",
+          ],
+          [
+            1,
+            '[ap 08:12] How to Invent Everything_ A Survival Guide - Ryan North.epub (OEBPS/xhtml/025_8_The_Birds_and_the_.xhtml) - 8.12',
+            "Careful eating pigs: their meat contains what you can call an \x{201c}unusually high\x{201d} number of parasites and pathogens, including E. coli, Salmonella, Listeria, roundworm, tapeworm, and more. You\x{2019}ll be fine; just make sure you cook your pork all the way through!
+<<8.12|9p>>: PIGEONS
+",
+          ],
+          [
+            1,
+            '[ap 08:13] How to Invent Everything_ A Survival Guide - Ryan North.epub (OEBPS/xhtml/025_8_The_Birds_and_the_.xhtml) - 8.13',
+            "Pigeons are the first domesticated birds! They\x{2019}re descended from the rock pigeons, which, like all birds, are descended from dinosaurs: a diverse group of animals that thousands of other temporal tourists have safely encountered between 231,000,000 BCE and 65,000,000 BCE in their FC3000\x{2122} personal time machine, and which you may also briefly and much more unsafely encounter, should you be unfortunate enough to find yourself stranded in that particular time range.
+<<8.13|9p>>: RABBITS
+",
+          ],
+          [
+            1,
+            '[ap 08:14] How to Invent Everything_ A Survival Guide - Ryan North.epub (OEBPS/xhtml/025_8_The_Birds_and_the_.xhtml) - 8.14',
+            "Introducing rabbits to new ecosystems has usually gone pretty poorly: without natural predators, rabbits reproduce \x{201c}like rabbits,\x{201d} hence the famous expression (that famous expression is \x{201c}do not introduce invasive species to new continents; what are you thinking?\x{201d}).
+<<8.14|9p>>: SHEEP
+",
+          ],
+          [
+            1,
+            '[ap 08:15] How to Invent Everything_ A Survival Guide - Ryan North.epub (OEBPS/xhtml/025_8_The_Birds_and_the_.xhtml) - 8.15',
+            'After first being domesticated in the Middle East, sheep spread to the Balkans in 6000 BCE, and by 3000 BCE were spread throughout Europe.
+<<8.15|9p>>: SILKWORMS
+',
+          ],
+          [
+            1,
+            '[ap 08:16] How to Invent Everything_ A Survival Guide - Ryan North.epub (OEBPS/xhtml/025_8_The_Birds_and_the_.xhtml) - 8.16',
+            "Domestication didn\x{2019}t work out too well for the silkworms though: those that emerge from their cocoons do so without the ability for sustained flight, and will not eat unless fed by humans. They live for only a few days\x{2014}during which they mate and lay eggs\x{2014}before dying.
+<<8.16|9p>>: TURKEYS
+",
+          ],
+          [
+            1,
+            '[ap 08:17] How to Invent Everything_ A Survival Guide - Ryan North.epub (OEBPS/xhtml/025_8_The_Birds_and_the_.xhtml) - 8.17',
+            'Turkeys (like other birds, including chickens) can carry incredibly deadly diseases, including flus that can mutate to affect humans. See Section 3.5 for more.
+<<8.17|9p>>: BEAVERS
+',
           ],
           [
             1,
             '[ap 07:27] How to Invent Everything_ A Survival Guide - Ryan North.epub (OEBPS/xhtml/025_8_The_Birds_and_the_.xhtml) - 7.27',
             "Salicin can also be found in willow bark (Section <<7.27|5a:0>>), if you\x{2019}ve got some of those trees nearby and would rather not get beaver glands all up in you.",
+          ],
+          [
+            1,
+            '[ap 08:18] How to Invent Everything_ A Survival Guide - Ryan North.epub (OEBPS/xhtml/025_8_The_Birds_and_the_.xhtml) - 8.18',
+            "North American and European beavers can\x{2019}t crossbreed: they\x{2019}ve been separated for so long that they now have a different number of chromosomes. Evolution! It\x{2019}s crazy!
+<<8.18|9p>>: EARTHWORMS
+",
+          ],
+          [
+            1,
+            '[ap 08:19] How to Invent Everything_ A Survival Guide - Ryan North.epub (OEBPS/xhtml/025_8_The_Birds_and_the_.xhtml) - 8.19',
+            'During ice ages, glaciers scrape away topsoil and wipe out any earthworms. In most of Canada and the northeastern United States, native worms died out during the last ice age (from 110,000 BCE to 9700 BCE). As worms migrate very slowly, the worms living in these areas in the modern era are descended from non-native varieties, brought over after European contact in 1492 CE.
+<<8.19|9p>>: LEECHES
+',
+          ],
+          [
+            1,
+            '[ap 08:20] How to Invent Everything_ A Survival Guide - Ryan North.epub (OEBPS/xhtml/025_8_The_Birds_and_the_.xhtml) - 8.20',
+            'So yes, when your civilization invents plastic surgery, you may have a brief use for leeches.
+<<8.20|9p>>: LICE
+',
+          ],
+          [
+            1,
+            '[ap 08:21] How to Invent Everything_ A Survival Guide - Ryan North.epub (OEBPS/xhtml/025_8_The_Birds_and_the_.xhtml) - 8.21',
+            "Most rampant plague outbreaks on Earth occurred during winter. Why? That\x{2019}s when wearing the clothes of a dead person is more likely. One single human with infected lice on his clothes could be responsible for a citywide outbreak of plague. Do not wear the clothes of dead people unless you boil them first, especially if they died of disease.
+<<8.21|9p>>: MOSQUITOES
+",
           ],
           [
             1,
@@ -762,8 +547,29 @@ Peach",
           ],
           [
             1,
+            '[ap 10:10] How to Invent Everything_ A Survival Guide - Ryan North.epub (OEBPS/xhtml/037_10_10_I_Want_Things_.xhtml) - 10.10',
+            "
+<<10.10|5a:0>>
+\x{201c}I WANT THINGS THAT WON\x{2019}T CATCH ON FIRE\x{201d}",
+          ],
+          [
+            1,
+            '[ap 10:11] How to Invent Everything_ A Survival Guide - Ryan North.epub (OEBPS/xhtml/038_10_11_there_s_Nothin.xhtml) - 10.11',
+            "
+<<10.11|5a:0>>
+\x{201c}THERE\x{2019}S NOTHING TO READ\x{201d}",
+          ],
+          [
+            1,
             '[ap 07:16] How to Invent Everything_ A Survival Guide - Ryan North.epub (OEBPS/xhtml/038_10_11_there_s_Nothin.xhtml) - 7.16',
             "Before you invent paper, you can jot down notes on animal bones, strips of bamboo sewn together into scrolls, parchment (if you\x{2019}ve got the time and inclination to de-hair skins and stretch them until they\x{2019}ve dried; see Section 10.8.3), silk (if you\x{2019}ve domesticated silkworms), wax tablets (you can get the wax from bees, or by boiling fat in water, letting it cool, and using the waxy stuff\x{2014}\x{201d}tallow\x{201d}\x{2014}that solidifies on top), clay tablets (which you then fire if you want the information to stick around; see Section 10.4.2), or on papyrus (see Section <<7.16|5a:0>>). But these media are all heavy, awkward, expensive, hard to transport, or some combination of the above. What you really want is something light, convenient, cheap, and ubiquitous enough that even if it doesn\x{2019}t literally grow on trees, it\x{2019}s at least made out of their ground-up bodies. What you really want is paper, which gives your civilization not just books, magazines, and newspapers with the printing press but also unlocks playing cards, paper money, toilet paper, paper filters, kites, party hats, and more.",
+          ],
+          [
+            1,
+            '[ap 10:12] How to Invent Everything_ A Survival Guide - Ryan North.epub (OEBPS/xhtml/039_10_12_it_Sucks_Here_.xhtml) - 10.12',
+            "
+<<10.12|5a:0>>
+\x{201c}IT SUCKS HERE AND I WANT TO GO LITERALLY ANYWHERE ELSE\x{201d}",
           ],
           [
             1,
@@ -789,6 +595,13 @@ Peach",
             1,
             '[12:00] How to Invent Everything_ A Survival Guide - Ryan North.epub (OEBPS/xhtml/039_10_12_it_Sucks_Here_.xhtml) - noon',
             "If you\x{2019}re conveying information simply by the existence of a radio burst (for example, a transmission at <<noon|13>> for timekeeping; see Section 10.12.3), then you\x{2019}re done, but if you add a switch so you can you turn it on and off in patterns, you can broadcast any information you want in Morse code.* This is the same technology used in the wired telegraph\x{2014}which you can also invent now if you want, just by having your switch connect by wire to a distant buzzer, instead of to an electric arc radio transmitter. Wired telegraphy may be simpler for overland transmission, but you\x{2019}ll want to use wireless for transoceanic transmissions, at least until you reach the point of laying cable at the bottom of the sea.",
+          ],
+          [
+            1,
+            '[ap 10:13] How to Invent Everything_ A Survival Guide - Ryan North.epub (OEBPS/xhtml/040_10_13_I_Want_Everyon.xhtml) - 10.13',
+            "
+<<10.13|5a:0>>
+\x{201c}I WANT EVERYONE TO THINK I\x{2019}M SMART\x{201d}",
           ],
           [
             1,
@@ -959,7 +772,6 @@ written materials, 247\x{2013}57",
           [
             1,
             '[ap 02:00] How to Invent Everything_ A Survival Guide - Ryan North.epub (OEBPS/xhtml/302_Footnote.xhtml) - 2',
-            "* It\x{2019}s <<2|9c:0>>. Huh. We really thought you already knew the answer.
-",
+            "* It\x{2019}s <<2|9c:0>>. Huh. We really thought you already knew the answer.",
           ],
         ];

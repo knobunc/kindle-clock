@@ -121,7 +121,7 @@ $VAR1 = [
             1,
             '[ap < 02:00] Already Dead - Denis Johnson.epub (index_split_002.html) - Just about two',
             "He heard her struggling out of the sleeping bag, and then the heels of her hands squeaking on the floor as she crept off the rug and found her watch.
-\x{201c}<<Just about two|9:1>>. About ten of.\x{201d}
+\x{201c}<<Just about two|9:1>>. <<About ten|9:1>> of.\x{201d}
 He rubbed his face briskly. His beeper was going off. That\x{2019}s what had wakened him.",
           ],
           [
@@ -194,7 +194,7 @@ He rubbed his face briskly. His beeper was going off. That\x{2019}s what had wak
           [
             1,
             '[ap ~ 08:00] Already Dead - Denis Johnson.epub (index_split_004.html) - About eight',
-            '<<About eight|9e:1>>, just as they were sitting down with two steaks and two candles between them, he had to dress and leave Mo for a noise call. In a house not a hundred yards from the station, he found teenagers rioting happily among fumes of hashish and spilt liquor. The parents of the two brothers hosting this affair were in Missouri at a funeral.',
+            '<<About eight|9x>>, just as they were sitting down with two steaks and two candles between them, he had to dress and leave Mo for a noise call. In a house not a hundred yards from the station, he found teenagers rioting happily among fumes of hashish and spilt liquor. The parents of the two brothers hosting this affair were in Missouri at a funeral.',
           ],
           [
             1,
@@ -317,6 +317,11 @@ Harry Lally watches a big dealer in cuffs and leg irons moving down the hall of 
             1,
             '[< 12:00] Already Dead - Denis Johnson.epub (index_split_005.html) - Just before noon',
             '<<Just before noon|10>> he pulled a turtleneck sweater over his head and walked by the road, avoiding the hill and the plot of graves behind his home, down to the Gualala mall, where Anne sold books.',
+          ],
+          [
+            1,
+            '[ap 02:00] Already Dead - Denis Johnson.epub (index_split_005.html) - two',
+            "They\x{2019}d asked specifically for the Green Room, so nicknamed because in 1988, toward the close of the Luanne era, the orange carpet under the bed had been stained by a wet olive duffel bag stuffed with five million dollars in cash and hurriedly stashed there, along with two M-16s, by <<two|9:0>> of the perpetrators of history\x{2019}s biggest cash rip-off. Other partners, all members of an offshoot of the Aryan Brotherhood who called themselves The Order, had taken off north with the rest of the ten million they\x{2019}d heisted without bloodshed from a Wells Fargo vehicle on a long hill outside town, but these two had rented a room at the Luanne and taken a well-earned rest and awakened to find the parking lot full of federal license plates winking in the morning sun, and the rooms around them rented by gruesome feebs and marshals. The thieves had abandoned the evidence and tiptoed away. The stuff under the bed was found months later by a maid named Constance, still, as of last Halloween, cleaning rooms there, possibly with inspired vigilance.",
           ],
           [
             1,

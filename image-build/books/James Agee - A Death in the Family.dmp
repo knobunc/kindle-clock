@@ -29,7 +29,23 @@ $VAR1 = [
           [
             1,
             '[ap ~ 08:30] A Death in the Family - James Agee.epub (A_Death_In_The_Family_split_016.html) - about a half past eight',
-            "I got a gallon an a sugarbabe too, my honey, my baby,I got a gallon an a sugarbabe too, my honey, my sweet thing.I got a gallon an a sugarbabe too,Gal don\x{2019}t love me but my sugarbabe doThis mornin,This evenin,So soon.\x{a0}When they kill a chicken, she saves me the wing, my honey, my baby,When they kill a chicken, she saves me the wing, my honey, my sweet thing,When they kill a chicken, she saves me the wing, my honeyThink I\x{2019}m aworkin ain\x{2019}t adoin a thingThis mornin,This evenin,So soon.\x{a0}Every night <<about a half past eight|10>>, my honey, my baby,Every night <<about a half past eight|10>>, my honey, my sweet thingEvery night <<about a half past eight|10>>, my honeyYa find me awaitin at the white folks\x{2019} gateThis mornin,This evenin,So soon.",
+            '
+Every night <<about a half past eight|10>>, my honey, my baby,
+Every night <<about a half past eight|10>>, my honey, my sweet thing',
+          ],
+          [
+            1,
+            '[ap ~ 08:30] A Death in the Family - James Agee.epub (A_Death_In_The_Family_split_016.html) - about a half past eight',
+            'Every night <<about a half past eight|10>>, my honey, my baby,
+Every night <<about a half past eight|10>>, my honey, my sweet thing
+Every night <<about a half past eight|10>>, my honey',
+          ],
+          [
+            1,
+            '[ap ~ 08:30] A Death in the Family - James Agee.epub (A_Death_In_The_Family_split_016.html) - about a half past eight',
+            "Every night <<about a half past eight|10>>, my honey, my sweet thing
+Every night <<about a half past eight|10>>, my honey
+Ya find me awaitin at the white folks\x{2019} gate",
           ],
           [
             1,
@@ -66,6 +82,6 @@ $VAR1 = [
           [
             1,
             '[ap ~ 09:00] A Death in the Family - James Agee.epub (A_Death_In_The_Family_split_031.html) - about nine',
-            "\x{201c}He was driving home last night,\x{201d} she said, \x{201c}<<about nine|9e:1>>, and apparently something was already wrong with the steering mech\x{2014}with the wheel you guide the machine with. But your father didn\x{2019}t know it. Because there wasn\x{2019}t any way he could know until something went wrong and then it was too late. But one of the wheels struck a loose stone in the road and the wheel turned aside very suddenly, and when ...\x{201d} She paused and went on more quietly and slowly: \x{201c}You see, when your father tried to make the auto go where it should, stay on the road, he found he couldn\x{2019}t, he didn\x{2019}t have any control. Because something was wrong with the steering gear. So, instead of doing as he tried to make it, the auto twisted aside because of the loose stone and ran off the road into a deep ditch.\x{201d} She paused again. \x{201c}Do you understand?\x{201d}",
+            "\x{201c}He was driving home last night,\x{201d} she said, \x{201c}<<about nine|9x>>, and apparently something was already wrong with the steering mech\x{2014}with the wheel you guide the machine with. But your father didn\x{2019}t know it. Because there wasn\x{2019}t any way he could know until something went wrong and then it was too late. But one of the wheels struck a loose stone in the road and the wheel turned aside very suddenly, and when ...\x{201d} She paused and went on more quietly and slowly: \x{201c}You see, when your father tried to make the auto go where it should, stay on the road, he found he couldn\x{2019}t, he didn\x{2019}t have any control. Because something was wrong with the steering gear. So, instead of doing as he tried to make it, the auto twisted aside because of the loose stone and ran off the road into a deep ditch.\x{201d} She paused again. \x{201c}Do you understand?\x{201d}",
           ],
         ];

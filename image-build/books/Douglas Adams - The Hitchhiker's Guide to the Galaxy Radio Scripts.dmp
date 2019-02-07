@@ -17,7 +17,12 @@ $VAR1 = [
           [
             1,
             '[ap ~ 03:00] The Hitchhiker\'s Guide to the Galaxy Radio - Douglas Adams.epub (OEBPS/Text/Adam_9780307498465_epub_c100_r1.htm) - about three',
-            'In front of them, equidistant between their control desk and the middle of the chamber, where Trillian stood, as if on trial, was a slim white pillar about four feet tall. On top of it stood a small white globe, <<about three|9e:1>>, maybe four inches in diameter.',
+            'In front of them, equidistant between their control desk and the middle of the chamber, where Trillian stood, as if on trial, was a slim white pillar about four feet tall. On top of it stood a small white globe, <<about three|9x>>, maybe four inches in diameter.',
+          ],
+          [
+            1,
+            '[00:00] The Hitchhiker\'s Guide to the Galaxy Radio - Douglas Adams.epub (OEBPS/Text/Adam_9780307498465_epub_c103_r1.htm) - midnight',
+            'When in the land there was born at the <<midnight|13>> of a full moon a goat with three heads, that was a sign.',
           ],
           [
             1,

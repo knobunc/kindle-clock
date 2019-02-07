@@ -32,43 +32,40 @@ $VAR1 = [
           [
             1,
             '[14:00] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0003.html) - 2 P.M.',
-            "Time
-
-      Event
-    
-
-    
-      <<2 P.M.|5>> (\x{201c}afternoon\x{201d})
-
-      Holmes and Watson depart from Meiringen
-    
-
-    
-      <<4 P.M.|5>> (\x{201c}two hours\x{201d} on Watson\x{2019}s second trip; assume the same on the first, which may have been more leisurely)
-
-      Holmes and Watson arrive at falls
-    
-
-    
-      <<4:15 P.M.|2a>> (estimated)
-
-      Conversation with messenger, Watson departs for Meiringen
-    
-
-    
-      <<5:15 P.M.|2a>> (\x{201c}over an hour to come down\x{201d})
-
-      Watson arrives back at Meiringen, discovers fraud
-    
-
-    
-      <<7:15 P.M.|2a>> (\x{201c}two more had passed\x{201d})
-
-      Watson hurries back to Falls
-    
-  
-
-  At this point, Boucher asserts that Watson returned to Meiringen to fetch the \x{201c}experts\x{201d} and travelled back to the falls. He allows another three hours for this return. By the time the experts left, then, it would be <<well after 10:30 P.M.|2a>> It is very puzzling, he concludes, that Holmes should describe the sky at such an hour as \x{201c}darkening.\x{201d} Sunset must have occurred more than two hours earlier, and Holmes couldn\x{2019}t possibly have seen Moran\x{2019}s head.",
+            "Event
+<<2 P.M.|5>> (\x{201c}afternoon\x{201d})
+Holmes and Watson depart from Meiringen",
+          ],
+          [
+            1,
+            '[16:00] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0003.html) - 4 P.M.',
+            "<<4 P.M.|5>> (\x{201c}two hours\x{201d} on Watson\x{2019}s second trip; assume the same on the first, which may have been more leisurely)",
+          ],
+          [
+            1,
+            '[16:15] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0003.html) - 4:15 P.M.',
+            'Holmes and Watson arrive at falls
+<<4:15 P.M.|2a>> (estimated)
+Conversation with messenger, Watson departs for Meiringen',
+          ],
+          [
+            1,
+            '[17:15] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0003.html) - 5:15 P.M.',
+            "Conversation with messenger, Watson departs for Meiringen
+<<5:15 P.M.|2a>> (\x{201c}over an hour to come down\x{201d})
+Watson arrives back at Meiringen, discovers fraud",
+          ],
+          [
+            1,
+            '[19:15] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0003.html) - 7:15 P.M.',
+            "Watson arrives back at Meiringen, discovers fraud
+<<7:15 P.M.|2a>> (\x{201c}two more had passed\x{201d})
+Watson hurries back to Falls",
+          ],
+          [
+            1,
+            '[>> 22:30] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0003.html) - well after 10:30 P.M.',
+            "At this point, Boucher asserts that Watson returned to Meiringen to fetch the \x{201c}experts\x{201d} and travelled back to the falls. He allows another three hours for this return. By the time the experts left, then, it would be <<well after 10:30 P.M.|2a>> It is very puzzling, he concludes, that Holmes should describe the sky at such an hour as \x{201c}darkening.\x{201d} Sunset must have occurred more than two hours earlier, and Holmes couldn\x{2019}t possibly have seen Moran\x{2019}s head.",
           ],
           [
             1,
@@ -227,7 +224,7 @@ $VAR1 = [
           [
             1,
             '[19:57] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0007.html) - 1957',
-            "42 Most American statutes and, until <<1957|9e:1>>, British law proscribed \x{201c}felony murder,\x{201d} a killing committed while a felony or \x{201c}serious crime of violence\x{201d} is being perpetrated. Because Wilder was clearly an accessory to the felony, he would be guilty of the murder as well.",
+            "42 Most American statutes and, until <<1957|9n:0>>, British law proscribed \x{201c}felony murder,\x{201d} a killing committed while a felony or \x{201c}serious crime of violence\x{201d} is being perpetrated. Because Wilder was clearly an accessory to the felony, he would be guilty of the murder as well.",
           ],
           [
             1,
@@ -237,7 +234,7 @@ $VAR1 = [
           [
             1,
             "[ap ~ 02:00] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0008.html) - About two o\x{2019}clock",
-            "\x{201c}On the Tuesday Peter Carey was in one of his blackest moods, flushed with drink and as savage as a dangerous wild beast. He roamed about the house, and the women ran for it when they heard him coming. Late in the evening he went down to his own hut. <<About two o\x{2019}clock|6>> the following morning, his daughter, who slept with her window open, heard a most fearful yell from that direction, but it was no unusual thing for him to bawl and shout when he was in drink, so no notice was taken. On rising at seven one of the maids noticed that the door of the hut was open, but so great was the terror which the man caused that it was <<midday|13>> before anyone would venture down to see what had become of him. Peeping into the open door, they saw a sight which sent them flying, with white faces, into the village. Within an hour I was on the spot, and had taken over the case.",
+            "\x{201c}On the Tuesday Peter Carey was in one of his blackest moods, flushed with drink and as savage as a dangerous wild beast. He roamed about the house, and the women ran for it when they heard him coming. Late in the evening he went down to his own hut. <<About two o\x{2019}clock|6>> the following morning, his daughter, who slept with her window open, heard a most fearful yell from that direction, but it was no unusual thing for him to bawl and shout when he was in drink, so no notice was taken. On rising at <<seven one|5b>> of the maids noticed that the door of the hut was open, but so great was the terror which the man caused that it was <<midday|13>> before anyone would venture down to see what had become of him. Peeping into the open door, they saw a sight which sent them flying, with white faces, into the village. Within an hour I was on the spot, and had taken over the case.",
           ],
           [
             1,
@@ -339,7 +336,7 @@ $VAR1 = [
           [
             1,
             '[19:00] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0010.html) - 1900',
-            "30 The secret criminal society known as the Mafia began as a number of private Sicilian armies, created in the late Middle Ages to repel foreign conquerers and then hired by landowners to protect their property from roving bandits. In the eighteenth and nineteenth centuries, Sicilians distrustful of ineffectual (and frequently oppressive) local governments grew to rely instead upon the Mafia\x{2019}s private form of justice, based as it was on omerta, a strict code of silence that forbade one from turning to the legal authorities for help. Victims and their family members were permitted to undertake vendettas (direct retribution) against those who had wronged them, and punishment for breaking the code of silence was severe. By <<1900|9e:1>>, the various Mafia families, loosely organised, had taken control of the economy in many parts of Sicily.",
+            "30 The secret criminal society known as the Mafia began as a number of private Sicilian armies, created in the late Middle Ages to repel foreign conquerers and then hired by landowners to protect their property from roving bandits. In the eighteenth and nineteenth centuries, Sicilians distrustful of ineffectual (and frequently oppressive) local governments grew to rely instead upon the Mafia\x{2019}s private form of justice, based as it was on omerta, a strict code of silence that forbade one from turning to the legal authorities for help. Victims and their family members were permitted to undertake vendettas (direct retribution) against those who had wronged them, and punishment for breaking the code of silence was severe. By <<1900|9:0>>, the various Mafia families, loosely organised, had taken control of the economy in many parts of Sicily.",
           ],
           [
             1,
@@ -628,7 +625,7 @@ Holmes glanced at his watch.",
             1,
             '[ap ~ 01:00] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0019.html) - About one',
             "\x{201c}Excellent!\x{201d} said Holmes. \x{201c}When does he lunch?\x{201d}
-\x{201c}<<About one|9k:0>>, sir.\x{201d}
+\x{201c}<<About one|9x>>, sir.\x{201d}
 \x{201c}Then Dr. Watson and I will come round in time. For the present, Mrs. Warren, good-bye.\x{201d}",
           ],
           [
@@ -721,7 +718,7 @@ Holmes glanced at his watch.",
           [
             1,
             '[19:11] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0020.html) - 1911',
-            "France and the United States had become innovators in the field of submarine development, and technology was progressing even further still. By <<1911|9e:1>>, the Encyclop\x{e6}dia Britannica (11th Ed.) acknowledged, \x{201c}By far the greater number of submarine boats in existence in 1910 were developments through a process of continuous experiment and improvement of the Gymnote and of the early Holland boats, although the process of evolution had been so rapid and extensive that the parentage of these modern boats is barely recognizable. . . .\x{201d} The British navy, however, declined to participate in the race for invention, choosing to commission five Holland-design submarines in 1901. The first was completed in 1903. Germany did not build its first submarine, the U-1, until <<1905|9:0>>.",
+            "France and the United States had become innovators in the field of submarine development, and technology was progressing even further still. By <<1911|9:0>>, the Encyclop\x{e6}dia Britannica (11th Ed.) acknowledged, \x{201c}By far the greater number of submarine boats in existence in 1910 were developments through a process of continuous experiment and improvement of the Gymnote and of the early Holland boats, although the process of evolution had been so rapid and extensive that the parentage of these modern boats is barely recognizable. . . .\x{201d} The British navy, however, declined to participate in the race for invention, choosing to commission five Holland-design submarines in 1901. The first was completed in 1903. Germany did not build its first submarine, the U-1, until <<1905|9n:0>>.",
           ],
           [
             1,
@@ -741,7 +738,7 @@ Holmes glanced at his watch.",
           [
             1,
             '[ap 06:00] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0021.html) - six',
-            "\x{201c}The first three sensible words that you have uttered since you entered this room, Watson. You will find some books over there. I am somewhat exhausted; I wonder how a battery feels when it pours electricity into a non-conductor? At <<six|9e>>, Watson, we resume our conversation.\x{201d}",
+            "\x{201c}The first three sensible words that you have uttered since you entered this room, Watson. You will find some books over there. I am somewhat exhausted; I wonder how a battery feels when it pours electricity into a non-conductor? At <<six|9v>>, Watson, we resume our conversation.\x{201d}",
           ],
           [
             1,
@@ -801,7 +798,7 @@ Holmes glanced at his watch.",
           [
             1,
             '[> 18:33] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0022.html) - after 1833',
-            "This centralised system was orchestrated by Edwin Chadwick, whose draconian rules made him, as historian Roy Porter puts it, \x{201c}the most hated man in England.\x{201d} His idea was to solve the poverty problem by making conditions at workhouses so bleak and demeaning\x{2014}even punitive\x{2014}that the indigent would seek to lift themselves out of poverty. To Chadwick, as Porter explains, the workhouses were \x{201c}a self-operating mechanism for eliminating pauperism: the workhouse being intended as nastier than work.\x{201d} Married couples were routinely separated, as were parents and children. The \x{201c}work\x{201d} usually consisted of breaking stones or picking okum. By law, <<after 1833|9e:1>>, unclaimed workhouse bodies were used for dissection by anatomists (see \x{201c}The Cardboard Box,\x{201d} note 17). (When poverty levels failed to diminish, Chadwick blamed sickness itself, and he became obsessed not with improving the workhouses but with cleaning up the city\x{2019}s sewage system.)",
+            "This centralised system was orchestrated by Edwin Chadwick, whose draconian rules made him, as historian Roy Porter puts it, \x{201c}the most hated man in England.\x{201d} His idea was to solve the poverty problem by making conditions at workhouses so bleak and demeaning\x{2014}even punitive\x{2014}that the indigent would seek to lift themselves out of poverty. To Chadwick, as Porter explains, the workhouses were \x{201c}a self-operating mechanism for eliminating pauperism: the workhouse being intended as nastier than work.\x{201d} Married couples were routinely separated, as were parents and children. The \x{201c}work\x{201d} usually consisted of breaking stones or picking okum. By law, <<after 1833|9:0>>, unclaimed workhouse bodies were used for dissection by anatomists (see \x{201c}The Cardboard Box,\x{201d} note 17). (When poverty levels failed to diminish, Chadwick blamed sickness itself, and he became obsessed not with improving the workhouses but with cleaning up the city\x{2019}s sewage system.)",
           ],
           [
             1,
@@ -890,8 +887,8 @@ Holmes glanced at his watch.",
           ],
           [
             1,
-            '[ap 07:00] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0029.html) - seven',
-            "It was <<seven|3d>> in the evening of a lovely summer\x{2019}s day, but Dr. Watson was sufficiently familiar with the irregularity of his old friend\x{2019}s hours to feel no surprise at the idea.",
+            '[19:00] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0029.html) - seven in the evening',
+            "It was <<seven in the evening|5>> of a lovely summer\x{2019}s day, but Dr. Watson was sufficiently familiar with the irregularity of his old friend\x{2019}s hours to feel no surprise at the idea.",
           ],
           [
             1,
@@ -918,7 +915,7 @@ Holmes glanced at his watch.",
           [
             1,
             '[19:01] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0030.html) - 1901',
-            "8 In 1861, the government decided that savings from all parts of the county of London could be collected at the rudimentary money-order branch of the post office, then transmitted to a central savings bank in London. The bank, designed to encourage the lower classes to save money, grew rapidly, and by 1883, over 2.8 million depositors had accounts there. The average balance was almost \x{a3}14. By <<1901|9e:1>>, one in four used the system, for a total of more than 7.6 million depositors.",
+            "8 In 1861, the government decided that savings from all parts of the county of London could be collected at the rudimentary money-order branch of the post office, then transmitted to a central savings bank in London. The bank, designed to encourage the lower classes to save money, grew rapidly, and by 1883, over 2.8 million depositors had accounts there. The average balance was almost \x{a3}14. By <<1901|9:0>>, one in four used the system, for a total of more than 7.6 million depositors.",
           ],
           [
             1,
@@ -1045,96 +1042,12 @@ G. DUNBAR.",
           [
             1,
             '[02:00] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0034.html) - 2:00 A.M.',
-            "Nine-Day Cycle of Dosages
-
-      Description
-    
-
-    
-      Thursday, July 2, 1903
-
-      First attack noted.
-    
-
-    
-      Saturday, July 11, 1903
-
-      Second attack noted (nine days later).
-    
-
-    
-      Monday, July 20, 1903
-
-      Third attack.
-    
-
-    
-      Wednesday, July 29, 1903
-
-      Unnoted attack.
-    
-
-    
-      Friday, August 7, 1903
-
-      Unnoted attack.
-    
-
-    
-      Sunday, August 16, 1903
-
-      Unnoted attack.
-    
-
-    
-      Tuesday, August 25, 1903
-
-      \x{201c}Period of excitement\x{201d} noted on Wednesday, August 26, 1903.
-    
-
-    
-      Thursday, September 3, 1903
-
-      Attack noted. Bennett describes the attack as occurring on the 4th; since the incident occurred at <<2:00 A.M.|2a>> on the 4th, the dosage occurred on this date.
-    
-
-    
-      Saturday, September 12, 1903
-
-      Anticipated day of attack (that is, nine days after September 3, 1903).
-    
-  
-
-  Other relevant dates involved in the case:",
+            'Attack noted. Bennett describes the attack as occurring on the 4th; since the incident occurred at <<2:00 A.M.|2a>> on the 4th, the dosage occurred on this date.',
           ],
           [
             1,
             '[02:00] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0034.html) - 2:00 A.M.',
-            "Date
-
-      Description
-    
-
-    
-      Saturday, September 5, 1903, or early Sunday, September 6, 1903
-
-      Edith Presbury\x{2019}s bed chamber is visited by Professor Presbury.
-    
-
-    
-      Sunday, September 6, 1903
-
-      Bennett calls upon Holmes.
-    
-
-    
-      Monday, September 7, 1903
-
-      Holmes and Watson visit \x{201c}Camford\x{201d} to observe Professor Presbury; Holmes advises Bennett that \x{201c}next Tuesday\x{201d} (presumably Tuesday, September 15, 1903) will mark a crisis.
-    
-  
-
-  As will be evident from the above, the exact nine-day cycle does not explain all of the date references. For example, the episode described as occurring on September 5, 1903, could have been the aftermath of a dosage actually taken on September 4, and Bennett was careless in describing the <<2:00 A.M.|2a>> attack as occurring on the 4th when it actually occurred in the early morning of the 5th. Or perhaps Presbury was not punctual about taking the drug on the date of delivery. However, even allowing some \x{201c}slippage\x{201d} in the intervals does not explain why Tuesday, September 15, 1903, has any relevance.",
+            "As will be evident from the above, the exact nine-day cycle does not explain all of the date references. For example, the episode described as occurring on September 5, 1903, could have been the aftermath of a dosage actually taken on September 4, and Bennett was careless in describing the <<2:00 A.M.|2a>> attack as occurring on the 4th when it actually occurred in the early morning of the 5th. Or perhaps Presbury was not punctual about taking the drug on the date of delivery. However, even allowing some \x{201c}slippage\x{201d} in the intervals does not explain why Tuesday, September 15, 1903, has any relevance.",
           ],
           [
             1,
@@ -1149,7 +1062,7 @@ G. DUNBAR.",
           [
             1,
             '[19:07] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0035.html) - 1907',
-            "By <<1907|9e:1>>, photography had expanded well beyond the domain of journalism, thanks in no small part to the innovations of the Eastman Kodak Company, which brought out the popular Kodak camera in 1888. Targeted toward the general public under the slogan \x{201c}You push the button\x{2014}we do the rest,\x{201d} this hand camera, one of several on the market, could take up to one hundred pictures on negative film. The amateur photographer processed his or her prints by sending the entire camera to the Eastman factory in Rochester, New York. (A British factory in Harrow, Middlesex, was opened in 1891.) Soon, even children were being encouraged to take pictures, with the 1900 introduction of Kodak\x{2019}s Brownie camera. Named after Palmer Cox\x{2019}s cartoon characters, the camera cost one dollar and, according to the ads, could be \x{201c}operated by any school boy or girl.\x{201d} In the first year of production, 150,000 units were shipped to stores. For the dedicated amateur photographer, supplies were easily at hand. Harrod\x{2019}s Stores\x{2019} 1895 Catalogue offered a complete line of cameras, films, plates, lamps, developing chemicals, papers, and printing equipment for the hobbyist.",
+            "By <<1907|9:0>>, photography had expanded well beyond the domain of journalism, thanks in no small part to the innovations of the Eastman Kodak Company, which brought out the popular Kodak camera in 1888. Targeted toward the general public under the slogan \x{201c}You push the button\x{2014}we do the rest,\x{201d} this hand camera, one of several on the market, could take up to one hundred pictures on negative film. The amateur photographer processed his or her prints by sending the entire camera to the Eastman factory in Rochester, New York. (A British factory in Harrow, Middlesex, was opened in 1891.) Soon, even children were being encouraged to take pictures, with the 1900 introduction of Kodak\x{2019}s Brownie camera. Named after Palmer Cox\x{2019}s cartoon characters, the camera cost one dollar and, according to the ads, could be \x{201c}operated by any school boy or girl.\x{201d} In the first year of production, 150,000 units were shipped to stores. For the dedicated amateur photographer, supplies were easily at hand. Harrod\x{2019}s Stores\x{2019} 1895 Catalogue offered a complete line of cameras, films, plates, lamps, developing chemicals, papers, and printing equipment for the hobbyist.",
           ],
           [
             1,
@@ -2792,177 +2705,191 @@ Jossi, Otto. MEIRINGEN AND ITS ENVIRONS. Zurich: Art Institut. Orell Fussli, 190
           [
             1,
             '[ap 07:24] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0041_split_000.html) - 7-24',
-            'JA Hiroshima (scion of JSHC)
+            '
 <<7-24|5a:0>> Eba-Honmachi, Naka-ku
-Hiroshima-shi, Hiroshima 730-0833',
+',
           ],
           [
             1,
             '[00:01] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0041_split_000.html) - 0001',
-            'Harding University
+            '
 Searcy, AR 72149-<<0001|18:0>>
-The Desert Beekeepers',
+',
           ],
           [
             1,
             '[ap 09:58] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0041_split_000.html) - 0958',
-            '350 Minnewawa Avenue #133
+            '
 Clovis, CA 93612-<<0958|18:0>>
-The Wax Vestas of the Dartmoor Professor',
+',
           ],
           [
             1,
             '[ap 02:21] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0041_split_000.html) - 0221',
-            'Box 221
+            '
 Palm City, FL 34990-<<0221|18:0>>
-The Plant Plotters',
+',
           ],
           [
             1,
             '[ap 05:46] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0041_split_000.html) - 0546',
-            'Box 43546
+            '
 Louisville, KY 40253-<<0546|18:0>>
-The Silver Blazers',
+',
           ],
           [
             1,
             '[ap 02:56] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0041_split_000.html) - 0256',
-            'Box 256
+            '
 Saint Charles, MO 63302-<<0256|18:0>>
-The Jefferson Hopes of St. Louis',
+',
           ],
           [
             1,
             '[ap 04:04] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0041_split_000.html) - 0404',
-            'Box 404
+            '
 Hainesport, NJ 08036-<<0404|18:0>>
-The Goose Club of the Alpha Inn of Princeton University',
+',
+          ],
+          [
+            1,
+            '[00:26] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0041_split_000.html) - 0026',
+            '
+Newfane, NY 14108-<<0026|18:0>>
+',
           ],
           [
             1,
             '[00:01] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0041_split_001.html) - 0001',
-            'Wright State University
+            '
 Dayton, OH 45435-<<0001|18:0>>
-The Giant Rats of Massillon',
+',
           ],
           [
             1,
             '[ap 08:02] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0041_split_001.html) - 0802',
-            "King\x{2019}s College
+            '
 Wilkes-Barre, PA 18711-<<0802|18:0>>
-The Residents of York College",
+',
           ],
           [
             1,
             '[ap 05:15] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0041_split_001.html) - 0515',
-            "Box 515
+            '
 Taylors, SC 29687-<<0515|18:0>>
-The Strand\x{2019}s Sherlockians",
+',
           ],
           [
             1,
             '[ap 04:07] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0041_split_001.html) - 0407',
-            'Box 407
+            '
 Shaftsbury, VT 05262-<<0407|18:0>>
-The Loungers and Idlers',
+',
           ],
           [
             1,
             '[ap 08:21] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0041_split_001.html) - 0821',
-            'Box 821
+            '
 Lowell, AR 72745-<<0821|18:0>>
-The Norwood Fire Brigade',
+',
           ],
           [
             1,
             '[ap 03:22] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0041_split_001.html) - 0322',
-            'Box 4322
+            '
 North Hollywood, CA 91617-<<0322|18:0>>
-The Sherlockian Oenophiles Tasting Society (S.O.T.S.)',
+',
           ],
           [
             1,
             '[ap 05:06] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0041_split_001.html) - 0506',
-            'public relations
+            '
 Taos, NM 87571-<<0506|18:0>>
-OTHER',
+',
           ],
           [
             1,
             '[ap 03:53] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0041_split_001.html) - 0353',
-            'books to adult homes
+            '
 Williston Park, NY 11596-<<0353|18:0>>
-The Apocryphal Calabash',
+',
           ],
           [
             1,
             '[ap 02:50] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0041_split_001.html) - 0250',
-            'Sherlockians
+            '
 Lake Hughes, CA 93532-<<0250|18:0>>
-The Arthur Conan Doyle Study Group',
+',
+          ],
+          [
+            1,
+            '[ap 02:26] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0041_split_001.html) - 0226',
+            '
+Dundas, MN 55019-<<0226|18:0>>
+',
           ],
           [
             1,
             '[ap 08:04] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0041_split_001.html) - 0804',
-            'British police history
+            '
 Midlothian, TX 76065-<<0804|18:0>>
-The Dead-Headed League',
+',
           ],
           [
             1,
             '[ap 03:12] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0041_split_001.html) - 3-12',
-            'artists in the Canon
+            '
 <<3-12|5a:0>> Takahata, Hino-shi
-(scion of JSHC)',
+',
           ],
           [
             1,
             '[00:04] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0041_split_001.html) - 0004',
-            'Masons
+            '
 Circleville, NY 10919-<<0004|18:0>>
-The Meiringen Meringues',
+',
           ],
           [
             1,
             '[ap 05:06] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0041_split_001.html) - 0506',
-            'studied Porlock
+            '
 Taos, NM 87571-<<0506|18:0>>
-The Midwest Scion of the Four',
+',
           ],
           [
             1,
             '[ap 02:56] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0041_split_001.html) - 0256',
-            'of the Sea Unicorn
+            '
 Saint Charles, MO 63302-<<0256|18:0>>
-Sergeant of Marines',
+',
           ],
           [
             1,
             '[ap 05:46] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0041_split_001.html) - 0546',
-            'Box 43546
+            '
 Louisville, KY 40253-<<0546|18:0>>
-The Shadows of the Elm',
+',
           ],
           [
             1,
             '[00:04] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0041_split_001.html) - 0004',
-            "radio operators
+            '
 Circleville, NY 10919-<<0004|18:0>>
-Sherlock Holmes\x{2019} Chinese Society",
+',
           ],
           [
             1,
             '[00:01] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0041_split_001.html) - 0001',
-            "P.O. Box 1, Canal Street Station
-New York, NY 10013-<<0001|18:1>>
-Sherlock Holmes\x{2019} Varied Correspondents (sic)",
+            '
+New York, NY 10013-<<0001|18:0>>
+',
           ],
           [
             1,
             '[ap 05:06] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0041_split_001.html) - 0506',
-            'premise of its name
+            '
 Taos, NM 87571-<<0506|18:0>>
-Sherlocktron',
+',
           ],
           [
             1,

@@ -2,7 +2,7 @@ $VAR1 = [
           [
             1,
             '[18:13] The Map That Changed the World - Simon Winchester.epub (OEBPS/footnote70.html) - 1813',
-            "* John Phillips\x{2014}who later went on to write the only full-length biography of his uncle\x{2014}was born on Christmas Day 1800 to Smith\x{2019}s sister, Elizabeth, and her husband, John Phillips, an excise man. The boy was just seven when his father died; when his mother died six months later the boy was taken in by his uncle John. By <<1813|9e:1>>, though, William Smith, despite his straitened circumstances, was already paying John\x{2019}s fees at boarding school, and by <<1815|9e:1>> he agreed to look after him full-time. The boy was fascinated with geology\x{2014}Benjamin Richardson of Bath had helped instill the fascination\x{2014}and within days Smith\x{2019}s diary records his nephew hard at work: \x{201c}23 November, with JP arranging shells according to Linneus\x{2026}. 6 February Making out Cornbrash and Forest Marble Fossils with JP\x{2026}.\x{201d}",
+            "* John Phillips\x{2014}who later went on to write the only full-length biography of his uncle\x{2014}was born on Christmas Day 1800 to Smith\x{2019}s sister, Elizabeth, and her husband, John Phillips, an excise man. The boy was just seven when his father died; when his mother died six months later the boy was taken in by his uncle John. By <<1813|9:0>>, though, William Smith, despite his straitened circumstances, was already paying John\x{2019}s fees at boarding school, and by <<1815|9u>> he agreed to look after him full-time. The boy was fascinated with geology\x{2014}Benjamin Richardson of Bath had helped instill the fascination\x{2014}and within days Smith\x{2019}s diary records his nephew hard at work: \x{201c}23 November, with JP arranging shells according to Linneus\x{2026}. 6 February Making out Cornbrash and Forest Marble Fossils with JP\x{2026}.\x{201d}",
           ],
           [
             1,
@@ -12,28 +12,16 @@ $VAR1 = [
           [
             1,
             '[> 18:00] The Map That Changed the World - Simon Winchester.epub (OEBPS/mapthatchangedtheworldthe_ch01.html) - after 1760',
-            "1. Cold Bath Fields
-2. Clerkenwell Bridewell
-3. New Prison, Clerkenwell
-4. Fleet Prison
-5. City Bridewell
-6. Ludgate Prison I
-7. Newgate Prison
-8. Giltspur Street Compter
-9. Wood Street Compter
-10. Poultry Compter
+            '10. Poultry Compter
 11. Ludgate Prison II (<<after 1760|18:0>>)
-12. The Tower
-13. Borough Compter
-14. The Clink
-15. Marshalsea Prison
-16. King\x{2019}s Bench Prison I
-17. White Lion Gaol
-18. County Gaol for Surrey
+12. The Tower',
+          ],
+          [
+            1,
+            '[> 17:58] The Map That Changed the World - Simon Winchester.epub (OEBPS/mapthatchangedtheworldthe_ch01.html) - after 1758',
+            "18. County Gaol for Surrey
 19. King\x{2019}s Bench Prison II (<<after 1758|18:0>>)
-20. St. George\x{2019}s Fields Bridewell
-
-The King\x{2019}s Bench, the nearby Marshalsea, and the Fleet were different from most London prisons. They were very old, for a start, and were privately run according to a set of very strange rituals. They had been instituted for a sole purpose\x{2014}the holding, for as long as necessary, of men and women who could not or would not pay their bills. These three institutions were debtors\x{2019} prisons\x{2014}and the reason that crowds formed around their entrances each sunrise is that, every morning just after dawn, it was the policy of their wardens to free those inmates who had discharged their obligations.",
+20. St. George\x{2019}s Fields Bridewell",
           ],
           [
             1,
@@ -47,13 +35,18 @@ The King\x{2019}s Bench, the nearby Marshalsea, and the Fleet were different fro
           ],
           [
             1,
+            '[> 18:00] The Map That Changed the World - Simon Winchester.epub (OEBPS/mapthatchangedtheworldthe_ch02.html) - after 1760',
+            "There were other factors in play as well. Health was improving, for example. A child like young William Smith could be more assured than ever before of survival: There was better midwifery, a relative abundance of doctors, the construction of lying-in hospitals for women in labor, the introduction <<after 1760|18:0>> of smallpox inoculations, the widespread opening of dispensaries, and a general agreement that fresh air was good for one and that hygiene and ventilation should be regulated\x{2014}all such developments, all occurring in the latter half of the eighteenth century, helped to ensure that childbirth was far less risky an adventure than before.",
+          ],
+          [
+            1,
             '[17:00] The Map That Changed the World - Simon Winchester.epub (OEBPS/mapthatchangedtheworldthe_ch08.html) - 1700',
             'The Dictionary of National Biography records the occurrence of the plural word fossils 293 times, and 177 prominent men and women from British history are listed as having had an interest in, or more likely a collection of, such treasures. Most of the listed collectors appear to have lived between the mid-eighteenth and mid-nineteenth centuries. Few people whose lives are otherwise worthy of recording seem to have collected fossils before <<1700|9c:0>>; and as with postage stamps and coins, few contemporary amateur fossilists will admit to a mania for collecting them.',
           ],
           [
             1,
             '[18:47] The Map That Changed the World - Simon Winchester.epub (OEBPS/mapthatchangedtheworldthe_ch08.html) - 1847',
-            "For a while this untutored young woman made a sizable income, either by selling fossils to visitors\x{2014}for whom Lyme Regis is still a major tourist center today\x{2014}or leading would-be collectors to the cliffs to find specimens for themselves. The names of her customers are like a roll call of the leading geologists\x{2014}of the day\x{2014}William Conybeare, Sir Henry de la Beche (who lived nearby), Dean William Buckland. But slowly the popular craze for collecting began to wane, and by <<1847|9e:1>>, when Mary Anning died at the age of forty-eight of breast cancer, she had been all but forgotten and had passed into obscurity.",
+            "For a while this untutored young woman made a sizable income, either by selling fossils to visitors\x{2014}for whom Lyme Regis is still a major tourist center today\x{2014}or leading would-be collectors to the cliffs to find specimens for themselves. The names of her customers are like a roll call of the leading geologists\x{2014}of the day\x{2014}William Conybeare, Sir Henry de la Beche (who lived nearby), Dean William Buckland. But slowly the popular craze for collecting began to wane, and by <<1847|9w>>, when Mary Anning died at the age of forty-eight of breast cancer, she had been all but forgotten and had passed into obscurity.",
           ],
           [
             1,
@@ -73,7 +66,7 @@ The King\x{2019}s Bench, the nearby Marshalsea, and the Fleet were different fro
           [
             1,
             '[18:15] The Map That Changed the World - Simon Winchester.epub (OEBPS/mapthatchangedtheworldthe_ch16.html) - 1815',
-            "By <<1815|9:0>> Fitton was already a well-respected member of England\x{2019}s scientific establishment: He had a solid medical practice, he was a close friend of men like the near-ubiquitous Sir Joseph Banks, he had been elected to the Royal Society, and he had married well and had a considerable fortune. He was, despite being only thirty-five, a man of influence; and when in 1817 he asked to be put in touch* with William Smith, to see the nature of his work, a ripple of interest stirred the waters of intellectual London.",
+            "By <<1815|9u>> Fitton was already a well-respected member of England\x{2019}s scientific establishment: He had a solid medical practice, he was a close friend of men like the near-ubiquitous Sir Joseph Banks, he had been elected to the Royal Society, and he had married well and had a considerable fortune. He was, despite being only thirty-five, a man of influence; and when in 1817 he asked to be put in touch* with William Smith, to see the nature of his work, a ripple of interest stirred the waters of intellectual London.",
           ],
           [
             1,

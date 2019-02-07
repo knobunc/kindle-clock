@@ -96,7 +96,7 @@ $VAR1 = [
             '[ap < 10:00] A Clockwork Orange - Anthony Burgess.epub (OPS/xhtml/chapter019.xhtml) - nearly ten',
             "\x{2018}You\x{2019}ve slept long,\x{2019}
                 he said, ladling out boiled eggs and pulling black toast from under the grill.
-                \x{2018}It\x{2019}s <<nearly ten|9:1>> already. I\x{2019}ve been up hours, working.\x{2019}",
+                \x{2018}It\x{2019}s <<nearly ten|9w>> already. I\x{2019}ve been up hours, working.\x{2019}",
           ],
           [
             1,
@@ -172,8 +172,7 @@ $VAR1 = [
           [
             1,
             '[ap 06:32] A Clockwork Orange - Anthony Burgess.epub (OPS/xhtml/copyright.xhtml) - 0632',
-            "PENGUIN BOOKS
-            Published by the
+            "Published by the
                 Penguin Group 
 Penguin Books Ltd, 80 Strand, London WC2R 0RL,
                 England 

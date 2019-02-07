@@ -114,9 +114,8 @@ northern summer:",
           [
             1,
             '[15:04] The Go Programming Language - Alan A. A. Donovan.epub (text/part0046.html) - 15:04',
-            '2006/01/02 <<15:04|2>>:05 Site is down: no such domain: bad.gopl.io
-
-
+            'Click here to view code image
+2006/01/02 <<15:04|2>>:05 Site is down: no such domain: bad.gopl.io
 For a more attractive output, we can set the prefix used by the
 log package to the name of the command, and suppress the
 display of the date and time:',
@@ -124,20 +123,7 @@ display of the date and time:',
           [
             1,
             '[ap 07:11] The Go Programming Language - Alan A. A. Donovan.epub (text/part0046.html) - 7.11',
-            "in := bufio.NewReader(os.Stdin)
-for {
-    r, _, err := in.ReadRune()
-    if err == io.EOF {
-        break // finished reading
-    }
-    if err != nil {
-        return fmt.Errorf(\"read failed: %v\", err)
-    }
-    // ...use r...
-}
-
-
-Since in an end-of-file condition there is no information to report
+            "Since in an end-of-file condition there is no information to report
 besides the fact of it, io.EOF has a fixed error message,
 \"EOF\".
 
@@ -163,116 +149,67 @@ for _, d := range tempDirs() {
 
 for _, rmdir := range rmdirs {
     rmdir() // clean up
-}
-
-
-You may be wondering why we assigned the loop variable d to a new
-local variable dir within the loop body, instead of just naming the
-
-loop variable dir as in this subtly incorrect variant:',
+}',
           ],
           [
             1,
             '[ap 07:55] The Go Programming Language - Alan A. A. Donovan.epub (text/part0048.html) - 0755',
-            "var rmdirs []func()
+            'var rmdirs []func()
 for _, dir := range tempDirs() {
     os.MkdirAll(dir, <<0755|18:0>>)
     rmdirs = append(rmdirs, func() {
         os.RemoveAll(dir) // NOTE: incorrect!
     })
-}
-
-
-The reason is a consequence of the
-scope rules for loop variables.
-
-
-In the program immediately above, the for loop introduces a new lexical block
-
-in which the variable dir is
-declared.
-
-All
-function values created by this loop \x{201c}capture\x{201d} and share the same
-
-variable\x{2014}an addressable storage location, not its value at that
-particular moment.
-
-The value of dir is updated in successive iterations,
-so by the time the cleanup functions are called, the
-dir variable has been updated several times by the now-completed
-for loop.  Thus dir holds the value from the final iteration, and
-consequently all calls to os.RemoveAll will attempt to remove the
-same directory.",
+}',
           ],
           [
             1,
             '[ap 07:55] The Go Programming Language - Alan A. A. Donovan.epub (text/part0048.html) - 0755',
-            "var rmdirs []func()
+            'var rmdirs []func()
 dirs := tempDirs()
 for i := 0; i < len(dirs); i++ {
     os.MkdirAll(dirs[i], <<0755|18:0>>) // OK
     rmdirs = append(rmdirs, func() {
         os.RemoveAll(dirs[i]) // NOTE: incorrect!
     })
-}
-
-
-The problem of iteration variable capture is most often encountered
-when using the go
-statement (Chapter\x{a0}8) or with defer (which we
-will see in a moment) since both may delay the execution of a
-function value until after the loop has finished.
-
-But the problem is not inherent to go or defer.",
+}',
           ],
           [
             1,
             '[ap 09:53] The Go Programming Language - Alan A. A. Donovan.epub (text/part0050.html) - 09:53',
-            "\$ go build gopl.io/ch5/trace
-\$ ./trace
+            '$ go build gopl.io/ch5/trace
+$ ./trace
 2015/11/18 <<09:53|2>>:26 enter bigSlowOperation
-2015/11/18 <<09:53|2>>:36 exit bigSlowOperation (10.000589217s)
+2015/11/18 <<09:53|2>>:36 exit bigSlowOperation (10.000589217s)',
+          ],
+          [
+            1,
+            '[ap 05:10] The Go Programming Language - Alan A. A. Donovan.epub (text/part0052.html) - 5.10',
+            '<<5.10|4>> Recover
+Giving up is usually the right response to a panic, but not always.
 
+It might be possible to recover in some way, or at least clean up the
+mess before quitting.
 
-
-Deferred functions run after return statements have
-updated the function\x{2019}s result variables.
-
-Because an anonymous function can access its enclosing function\x{2019}s
-variables, including named results, a deferred anonymous function can
-observe the function\x{2019}s results.",
+For example, a web server that encounters an unexpected problem could
+close the connection rather than leave the client hanging, and
+during development, it might report the error to the client too.',
           ],
           [
             1,
             '[ap 07:10] The Go Programming Language - Alan A. A. Donovan.epub (text/part0061.html) - 7.10',
-            "package fmt
-
-// The String method is used to print values passed
-// as an operand to any format that accepts a string
-// or to an unformatted printer such as Print.
-type Stringer interface {
-    String() string
-}
-
-
-We\x{2019}ll explain how the fmt package discovers which values satisfy this
+            "We\x{2019}ll explain how the fmt package discovers which values satisfy this
 interface in Section\x{a0}<<7.10|5a:0>>.",
           ],
           [
             1,
             '[ap 00:34] The Go Programming Language - Alan A. A. Donovan.epub (text/part0063.html) - 12.34',
-            "var any interface{}
+            'var any interface{}
 any = true
 any = <<12.34|5a:0>>
-any = \"hello\"
-any = map[string]int{\"one\": 1}
-any = new(bytes.Buffer)
-
-
-Although it wasn\x{2019}t obvious, we\x{2019}ve been using the empty interface type
-since the very first example in this book, because it is what allows
-functions like fmt.Println, or errorf in Section\x{a0}5.7, to accept arguments of any type.",
+any = "hello"
+any = map[string]int{"one": 1}
+any = new(bytes.Buffer)',
           ],
           [
             1,
@@ -288,22 +225,14 @@ We\x{2019}ll see how to do that using a type assertion in Section\x{a0}<<7.10|5a
           [
             1,
             '[01:00] The Go Programming Language - Alan A. A. Donovan.epub (text/part0064.html) - 1.5h',
-            "\$ ./sleep -period 50ms
+            '$ ./sleep -period 50ms
 Sleeping for 50ms...
-\$ ./sleep -period 2m30s
+$ ./sleep -period 2m30s
 Sleeping for 2m30s...
-\$ ./sleep -period <<1.5h|1>>
+$ ./sleep -period <<1.5h|1>>
 Sleeping for 1h30m0s...
-\$ ./sleep -period \"1 day\"
-invalid value \"1 day\" for flag -period: time: invalid duration 1 day
-
-
-Because duration-valued flags are so useful, this feature is
-built into the flag package, but it\x{2019}s easy to define new
-flag notations for our own data types.
-
-We need only define a type that satisfies the flag.Value
-interface, whose declaration is below:",
+$ ./sleep -period "1 day"
+invalid value "1 day" for flag -period: time: invalid duration 1 day',
           ],
           [
             1,
@@ -313,6 +242,82 @@ errors drawn from a finite set, and it satisfies the standard
 error interface.
 
 We\x{2019}ll see other types that satisfy this interface in Section\x{a0}<<7.11|5a:0>>.",
+          ],
+          [
+            1,
+            '[ap 07:10] The Go Programming Language - Alan A. A. Donovan.epub (text/part0070.html) - 7.10',
+            "<<7.10|4>> Type Assertions
+A type assertion
+
+is an operation applied to an interface value.
+
+Syntactically, it looks like x.(T),
+where x is an expression of an interface type
+and T is a type, called the \x{201c}asserted\x{201d} type.
+
+A type assertion checks that the dynamic type of its operand matches
+the asserted type.",
+          ],
+          [
+            1,
+            '[ap 07:11] The Go Programming Language - Alan A. A. Donovan.epub (text/part0071.html) - 7.11',
+            '<<7.11|4>> Discriminating Errors with Type Assertions
+Consider the set of errors returned by file operations in the
+os package.
+
+I/O can fail for any number of reasons, but three kinds of failure
+often must be handled differently: file already exists (for create
+operations), file not found (for read operations), and permission
+denied.
+
+The os package provides these three helper functions to
+classify the failure indicated by a given error value:',
+          ],
+          [
+            1,
+            '[ap 07:12] The Go Programming Language - Alan A. A. Donovan.epub (text/part0072.html) - 7.12',
+            "<<7.12|4>> Querying Behaviors with Interface Type Assertions
+The logic below is similar to the part of the net/http web
+server responsible for writing HTTP header fields
+such as \"Content-type: text/html\".
+
+The io.Writer w represents the HTTP response; the bytes
+written to it are ultimately sent to someone\x{2019}s web browser.",
+          ],
+          [
+            1,
+            '[ap 07:13] The Go Programming Language - Alan A. A. Donovan.epub (text/part0073.html) - 7.13',
+            '<<7.13|4>> Type Switches
+',
+          ],
+          [
+            1,
+            '[ap 07:14] The Go Programming Language - Alan A. A. Donovan.epub (text/part0074.html) - 7.14',
+            '<<7.14|4>> Example: Token-Based XML Decoding
+',
+          ],
+          [
+            1,
+            '[ap 07:15] The Go Programming Language - Alan A. A. Donovan.epub (text/part0075.html) - 7.15',
+            "<<7.15|5a:0>> A Few Words of Advice
+When designing a new package, novice Go programmers often start by
+creating a set of interfaces and only later define the concrete types that
+satisfy them.
+
+This approach results in many interfaces, each of which has only a single
+implementation.
+
+Don\x{2019}t do that.
+
+Such interfaces are unnecessary abstractions; they also have a
+run-time cost.
+
+
+You can restrict which methods of a type or fields of a struct are
+visible outside a package using the export mechanism (\x{a7}6.6).
+
+Interfaces are only needed when there are two or more concrete types
+that must be dealt with in a uniform way.",
           ],
           [
             1,
@@ -387,17 +392,7 @@ $ nc localhost 8000
 <<13:58|2>>:55
 <<13:58|2>>:56
 <<13:58|2>>:57
-^C
-
-
-The client displays the time sent by the server each second
-until we interrupt the client with Control-C,
-which on Unix systems is echoed as ^C
-by the shell.
-
-If nc or netcat is not installed on your system,
-you can use telnet or this simple Go version of netcat that
-uses net.Dial to connect to a TCP server:',
+^C',
           ],
           [
             1,
@@ -412,40 +407,26 @@ $ ./netcat1
                                        <<13:58|2>>:58
                                        <<13:58|2>>:59
                                        ^C
-$ killall clock1
-
-
-The killall command is a Unix utility that
-kills all processes with the given name.',
+$ killall clock1',
           ],
           [
             1,
             '[14:02] The Go Programming Language - Alan A. A. Donovan.epub (text/part0078.html) - 14:02',
-            "\$ go build gopl.io/ch8/clock2
-\$ ./clock2 &
-\$ go build gopl.io/ch8/netcat1
-\$ ./netcat1
-<<14:02|2>>:54                               \$ ./netcat1
+            '$ go build gopl.io/ch8/clock2
+$ ./clock2 &
+$ go build gopl.io/ch8/netcat1
+$ ./netcat1
+<<14:02|2>>:54                               $ ./netcat1
 <<14:02|2>>:55                               <<14:02|2>>:55
 <<14:02|2>>:56                               <<14:02|2>>:56
 <<14:02|2>>:57                               ^C
 <<14:02|2>>:58
-<<14:02|2>>:59                               \$ ./netcat1
+<<14:02|2>>:59                               $ ./netcat1
 <<14:03|2>>:00                               <<14:03|2>>:00
 <<14:03|2>>:01                               <<14:03|2>>:01
 ^C                                     <<14:03|2>>:02
                                        ^C
-\$ killall clock2
-Exercise\x{a0}8.1: 
-Modify clock2 to accept a port number, and
-write a program, clockwall, that acts as a client of several
-clock servers at once, reading the times from each one and displaying
-the results in a table, akin to the wall of clocks seen in some
-business offices.
-
-If you have access to geographically distributed computers, run
-instances remotely; otherwise run local instances on different ports
-with fake time zones.",
+$ killall clock2',
           ],
           [
             1,
@@ -461,49 +442,37 @@ https://golang.org/blog/
 2015/07/15 <<18:22|2>>:12 Get ...: dial tcp: lookup blog.golang.org: no such host
 2015/07/15 <<18:22|2>>:12 Get ...: dial tcp 23.21.222.120:443: socket:
                                                         too many open files
-...
-
-
-The initial error message is a surprising report of a DNS lookup
-failure for a reliable domain.
-
-The subsequent error message reveals the cause: the program created so
-many network connections at once that it exceeded the per-process
-limit on the number of open files, causing operations such as DNS
-lookups and calls to net.Dial to start failing.',
+...',
+          ],
+          [
+            1,
+            '[ap 08:10] The Go Programming Language - Alan A. A. Donovan.epub (text/part0086.html) - 8.10',
+            '<<8.10|4>> Example: Chat Server
+',
           ],
           [
             1,
             '[ap 02:03] The Go Programming Language - Alan A. A. Donovan.epub (text/part0103.html) - two three',
-            "\$ cat quoteargs.go
+            '$ cat quoteargs.go
 package main
 
 import (
-    \"fmt\"
-    \"os\"
+    "fmt"
+    "os"
 )
 
 func main() {
-    fmt.Printf(\"%q\\n\", os.Args[1:])
+    fmt.Printf("%q\\n", os.Args[1:])
 }
-\$ go build quoteargs.go
-\$ ./quoteargs one \"<<two three|9j>>\" four\\ five
-[\"one\" \"<<two three|9j>>\" \"<<four five|9j>>\"]
-
-
-Particularly for throwaway programs like this one, we want to run
-the executable as soon as we\x{2019}ve built it.  The go run command
-combines these two steps:",
+$ go build quoteargs.go
+$ ./quoteargs one "<<two three|9j>>" four\\ five
+["one" "<<two three|9j>>" "<<four five|9j>>"]',
           ],
           [
             1,
             '[ap 02:03] The Go Programming Language - Alan A. A. Donovan.epub (text/part0103.html) - two three',
-            "\$ go run quoteargs.go one \"<<two three|9j>>\" four\\ five
-[\"one\" \"<<two three|9j>>\" \"<<four five|9j>>\"]
-
-
-The first argument that doesn\x{2019}t end in .go is assumed to be the
-beginning of the list of arguments to the Go executable.",
+            '$ go run quoteargs.go one "<<two three|9j>>" four\\ five
+["one" "<<two three|9j>>" "<<four five|9j>>"]',
           ],
           [
             1,

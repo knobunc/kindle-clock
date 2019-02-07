@@ -26,6 +26,11 @@ $VAR1 = [
           ],
           [
             1,
+            '[ap > 01:00] Double Whammy - Carl Hiaasen.epub (OEBPS/hiaa_9781101436646_oeb_c04_r1.xhtml) - after one',
+            "Decker said, \x{201c}It was <<after one|9w>> of the Dolphin games. I was parked about four blocks from the stadium. Coming back to the car, I spotted some jerkoff breaking into the trunk, trying to rip off the cameras. I told him to stop, he ran. He was carrying two Nikons and a brand-new Leica. No way was I going to let him get away.\x{201d}",
+          ],
+          [
+            1,
             '[ap 01:18] Double Whammy - Carl Hiaasen.epub (OEBPS/hiaa_9781101436646_oeb_c04_r1.xhtml) - one-eighteen',
             "\x{201c}So it\x{2019}s one hundred twenty-five stations to <<one-eighteen|5k:1>>,\x{201d} the Reverend Charles Weeb remarked. \x{201c}Too damn close for comfort.\x{201d}",
           ],
@@ -107,7 +112,7 @@ $VAR1 = [
           [
             1,
             '[ap 01:00] Double Whammy - Carl Hiaasen.epub (OEBPS/hiaa_9781101436646_oeb_c15_r1.xhtml) - one',
-            'For two million dollars he had purchased a small UHF operation whose programming consisted entirely of game shows, Atlanta Braves baseball, and The Best of Hee-Haw. Nothing changed for four months, until <<one|3f>> Sunday morning a man with straw-blond hair and messianic eyebrows stood behind a cardboard pulpit and introduced himself as the Most Holy Reverend Charles Weeb. From now on, he said, WEEB-TV would be the voice of Jesus Christ.',
+            'For two million dollars he had purchased a small UHF operation whose programming consisted entirely of game shows, Atlanta Braves baseball, and The Best of Hee-Haw. Nothing changed for four months, until <<one|9u>> Sunday morning a man with straw-blond hair and messianic eyebrows stood behind a cardboard pulpit and introduced himself as the Most Holy Reverend Charles Weeb. From now on, he said, WEEB-TV would be the voice of Jesus Christ.',
           ],
           [
             1,

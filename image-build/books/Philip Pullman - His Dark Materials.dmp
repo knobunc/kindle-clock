@@ -61,6 +61,13 @@ $VAR1 = [
           ],
           [
             1,
+            '[12:00] His Dark Materials - Philip Pullman.epub (OEBPS/Pull_9780307808202_epub_bk3-c09_r1.htm) - Noon',
+            "A shade upon the mind there passes / As when on <<Noon|13>>
+A Cloud the mighty Sun encloses\x{a0}\x{2026}
+\x{2022} EMILY DICKINSON \x{2022}",
+          ],
+          [
+            1,
             '[12:00] His Dark Materials - Philip Pullman.epub (OEBPS/Pull_9780307808202_epub_bk3-c10_r1.htm) - midday',
             "\x{201c}From the Torre degli Angeli,\x{201d} said the girl, pointing at the square stone tower over the red-brown rooftops. It shimmered in the <<midday|13>> glare. \x{201c}And the boy who stole it, he kill our brother, Tullio. The Specters got him, all right. You want to kill that boy, that\x{2019}s okay. And the girl\x{2014}she was a liar, she was as bad as him.\x{201d}",
           ],
@@ -76,6 +83,20 @@ $VAR1 = [
           ],
           [
             1,
+            '[ap ~ 10:00] His Dark Materials - Philip Pullman.epub (OEBPS/Pull_9780307808202_epub_bk3-c25_r1.htm) - About ten',
+            "\x{201c}<<About ten|9:0>> of my paces away. To the right. A big man. I can see the keys in a bunch at his waist.\x{201d}",
+          ],
+          [
+            1,
+            '[00:00] His Dark Materials - Philip Pullman.epub (OEBPS/Pull_9780307808202_epub_bk3-c28_r1.htm) - MIDNIGHT',
+            "For many a time
+I have been half in love with easeful Death\x{a0}\x{2026}
+\x{2022} JOHN KEATS \x{2022}
+<<MIDNIGHT|13>>
+Lord Asriel said, \x{201c}Marisa, wake up. We\x{2019}re about to land.\x{201d}",
+          ],
+          [
+            1,
             '[00:00] His Dark Materials - Philip Pullman.epub (OEBPS/Pull_9780307808202_epub_bk3-c28_r1.htm) - midnight',
             'At <<midnight|13>> in the adamant tower, Lord Asriel sat in discussion with King Ogunwe, the angel Xaphania, Madame Oxentiel the Gallivespian, and Teukros Basilides. The alethiometrist had just finished speaking, and Lord Asriel stood up, crossed to the window, and looked out at the distant glow of the Clouded Mountain hanging in the western sky. The others were silent; they had just heard something that had made Lord Asriel turn pale and tremble, and none of them quite knew how to respond.',
           ],
@@ -83,6 +104,11 @@ $VAR1 = [
             1,
             '[12:00] His Dark Materials - Philip Pullman.epub (OEBPS/Pull_9780307808202_epub_bk3-c29_r1.htm) - midday',
             "The ghosts clambered out of the earth, pale forms paler still in the <<midday|13>> light. They had nothing to fear anymore, and they threw themselves against the invisible Specters, grappling and wrestling and tearing at things Will and Lyra couldn\x{2019}t see at all.",
+          ],
+          [
+            1,
+            '[ap < 01:00] His Dark Materials - Philip Pullman.epub (OEBPS/Pull_9780307808202_epub_bk3-c32_r1.htm) - toward one',
+            'It was <<toward one|9w>> of these gullies that they led her. She had dismounted when they left the road, and she walked steadily at their pace over the brow of the hill and down into the gully.',
           ],
           [
             1,

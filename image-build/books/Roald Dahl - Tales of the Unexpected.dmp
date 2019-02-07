@@ -12,7 +12,7 @@ $VAR1 = [
           [
             1,
             '[ap < 09:00] Tales of the Unexpected - Roald Dahl.epub (OPS/xhtml/chapter002.html) - nearly nine',
-            'The search went on. She knew that there were other policemen in the garden all around the house. She could hear their footsteps on the gravel outside, and sometimes she saw the flash of a torch through a chink in the curtains. It began to get late, <<nearly nine|9e:1>> she noticed by the clock on the mantel. The four men searching the rooms seemed to be growing weary, a trifle exasperated.',
+            'The search went on. She knew that there were other policemen in the garden all around the house. She could hear their footsteps on the gravel outside, and sometimes she saw the flash of a torch through a chink in the curtains. It began to get late, <<nearly nine|9u>> she noticed by the clock on the mantel. The four men searching the rooms seemed to be growing weary, a trifle exasperated.',
           ],
           [
             1,
@@ -115,7 +115,7 @@ It was <<nearly three o\x{2019}clock|6>>.
           [
             1,
             '[ap > 07:00] Tales of the Unexpected - Roald Dahl.epub (OPS/xhtml/chapter008.html) - Shortly after seven',
-            '<<Shortly after seven|9e:1>>, I found my way to the main drawing-room, and Lady Turton, as beautiful as ever, got up to greet me.',
+            '<<Shortly after seven|9:0>>, I found my way to the main drawing-room, and Lady Turton, as beautiful as ever, got up to greet me.',
           ],
           [
             1,
@@ -213,7 +213,7 @@ She went up to her bedroom on the second floor, and she was so exhausted from he
           [
             1,
             '[ap > 09:00] Tales of the Unexpected - Roald Dahl.epub (OPS/xhtml/chapter012.html) - Shortly after nine',
-            "<<Shortly after nine|9e:1>>, her husband appeared. \x{2018}Did you make any coffee?\x{2019} he asked.",
+            "<<Shortly after nine|9:0>>, her husband appeared. \x{2018}Did you make any coffee?\x{2019} he asked.",
           ],
           [
             1,
@@ -225,7 +225,7 @@ Mr Foster came out five minutes later, and watching him as he walked slowly down
           [
             1,
             '[ap < 09:30] Tales of the Unexpected - Roald Dahl.epub (OPS/xhtml/chapter012.html) - nearly nine-thirty',
-            "The man had a wristwatch, which he consulted. \x{2018}I make it <<nearly nine-thirty|9f>>.\x{2019}",
+            "The man had a wristwatch, which he consulted. \x{2018}I make it <<nearly nine-thirty|9q:0>>.\x{2019}",
           ],
           [
             1,

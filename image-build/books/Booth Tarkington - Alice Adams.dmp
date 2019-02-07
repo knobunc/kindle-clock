@@ -1,8 +1,8 @@
 $VAR1 = [
           [
             1,
-            '[00:00] Alice Adams - Booth Tarkington.epub (Alice_Adams_split_002.html) - Midnight',
-            'Please note: neither this list nor its contents are final till midnight of the last day of the month of any such announcement. The official release date of all Project Gutenberg Etexts is at <<Midnight|13>>, Central Time, of the last day of the stated month. A preliminary version may often be posted for suggestion, comment and editing by those who wish to do so. To be sure you have an up to date first edition [xxxxx10x.xxx] please check file sizes in the first week of the next month. Since our ftp program has a bug in it that scrambles the date [tried to fix and failed] a look at the file size will have to do, but we will try to see a new copy has at least one byte more or less.',
+            '[00:00] Alice Adams - Booth Tarkington.epub (Alice_Adams_split_002.html) - midnight',
+            'Please note: neither this list nor its contents are final till <<midnight|13>> of the last day of the month of any such announcement. The official release date of all Project Gutenberg Etexts is at <<Midnight|13>>, Central Time, of the last day of the stated month. A preliminary version may often be posted for suggestion, comment and editing by those who wish to do so. To be sure you have an up to date first edition [xxxxx10x.xxx] please check file sizes in the first week of the next month. Since our ftp program has a bug in it that scrambles the date [tried to fix and failed] a look at the file size will have to do, but we will try to see a new copy has at least one byte more or less.',
           ],
           [
             1,
@@ -114,7 +114,7 @@ He paused, mystified. \x{201c}What doesn\x{2019}t?\x{201d}",
           [
             1,
             '[ap > 05:00] Alice Adams - Booth Tarkington.epub (Alice_Adams_split_006.html) - after five',
-            "\x{201c}There\x{2019}d hardly be time, even if I wanted to; it\x{2019}s <<after five|9:0>> but I couldn\x{2019}t; really, I couldn\x{2019}t. How do you think we can manage about Walter\x{2014}to see that he wears his evening things, I mean?\x{201d}",
+            "\x{201c}There\x{2019}d hardly be time, even if I wanted to; it\x{2019}s <<after five|9w>> but I couldn\x{2019}t; really, I couldn\x{2019}t. How do you think we can manage about Walter\x{2014}to see that he wears his evening things, I mean?\x{201d}",
           ],
           [
             1,

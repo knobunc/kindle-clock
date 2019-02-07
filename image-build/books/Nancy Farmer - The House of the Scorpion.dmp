@@ -27,7 +27,7 @@ $VAR1 = [
           [
             1,
             '[ap 06:00] The House of the Scorpion - Nancy Farmer.epub (ops/xhtml/content.html) - 0 TO 6',
-            '
+            'CONTENTS
 YOUTH: <<0 TO 6|10a:0>>
 1. In the Beginning',
           ],
@@ -36,7 +36,7 @@ YOUTH: <<0 TO 6|10a:0>>
             '[ap 10:53] The House of the Scorpion - Nancy Farmer.epub (ops/xhtml/content.html) - 7 TO 11',
             '5. Prison
 MIDDLE AGE: <<7 TO 11|10a:0>>
-6. El PatrÃ³n',
+6. El Patrón',
           ],
           [
             1,
@@ -44,5 +44,23 @@ MIDDLE AGE: <<7 TO 11|10a:0>>
             "14. Celia\x{2019}s Story
 OLD AGE: <<12 TO 14|10a:0>>
 15. A Starved Bird",
+          ],
+          [
+            1,
+            '[ap 06:00] The House of the Scorpion - Nancy Farmer.epub (ops/xhtml/part01.html) - 0 TO 6',
+            '
+YOUTH: <<0 TO 6|10a:0>>',
+          ],
+          [
+            1,
+            '[ap 10:53] The House of the Scorpion - Nancy Farmer.epub (ops/xhtml/part02.html) - 7 TO 11',
+            '
+MIDDLE AGE: <<7 TO 11|10a:0>>',
+          ],
+          [
+            1,
+            '[13:48] The House of the Scorpion - Nancy Farmer.epub (ops/xhtml/part03.html) - 12 TO 14',
+            '
+OLD AGE: <<12 TO 14|10a:0>>',
           ],
         ];

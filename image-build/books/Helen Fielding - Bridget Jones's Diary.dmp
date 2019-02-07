@@ -2,8 +2,7 @@ $VAR1 = [
           [
             1,
             '[12:00] Bridget Jones\'s Diary - Helen Fielding.epub (_Bridget_Jones_s_Diary_A_Novel_split_009.html) - Noon',
-            "2 pkts Emmenthal cheese slices14 cold new potatoes2 Bloody Marys (count as food as contain Worcester sauce and tomatoes)1/3 Ciabatta loaf with BrieCoriander leaves 1/2 packet12 Milk Tray (best to get rid of all Christmas confectionery in one go and make fresh start tomorrow)13 cocktail sticks securing cheese and pineapplePortion Una Alconbury's turkey curry, peas and bananasPortion Una Alconbury's Raspberry Surprise made with Bourbon biscuits, tinned raspberries, eight gallons of whipped cream, decorated with glac\x{e9} cherries and angelica.
-<<Noon|13>>. London: my flat. Ugh. The last thing on earth I feel physically, emotionally or mentally equipped to do is drive to Una and Geoffrey Alconbury's New Year's Day Turkey Curry Buffet in Grafton Underwood. Geoffrey and Una Alconbury are my parents' best friends and, as Uncle Geoffrey never tires of reminding me, have known me since I was running round the lawn with no clothes on. My mother rang up at <<8.30 in the morning|2a>> last August Bank Holiday and forced me to promise to go. She approached it via a cunningly circuitous route.",
+            '<<Noon|13>>. London: my flat. Ugh. The last thing on earth I feel physically, emotionally or mentally equipped to do is drive to Una and Geoffrey Alconbury\'s New Year\'s Day Turkey Curry Buffet in Grafton Underwood. Geoffrey and Una Alconbury are my parents\' best friends and, as Uncle Geoffrey never tires of reminding me, have known me since I was running round the lawn with no clothes on. My mother rang up at <<8.30 in the morning|2a>> last August Bank Holiday and forced me to promise to go. She approached it via a cunningly circuitous route.',
           ],
           [
             1,
@@ -159,7 +158,7 @@ He\'s one of those top-notch barristers. Masses of money. Divorced. It doesn\'t 
           [
             1,
             '[ap 05:30] Bridget Jones\'s Diary - Helen Fielding.epub (_Bridget_Jones_s_Diary_A_Novel_split_009.html) - 5.30',
-            'Heaven-sent day. At <<5.30|9e>>, like a gift from God, Daniel appeared, sat himself on the edge of my desk, with his back to Perpetua, took out his diary and murmured, \'How are you fixed for Friday?\'',
+            'Heaven-sent day. At <<5.30|9v>>, like a gift from God, Daniel appeared, sat himself on the edge of my desk, with his back to Perpetua, took out his diary and murmured, \'How are you fixed for Friday?\'',
           ],
           [
             1,
@@ -227,10 +226,9 @@ He\'s one of those top-notch barristers. Masses of money. Divorced. It doesn\'t 
           [
             1,
             '[10:35] Bridget Jones\'s Diary - Helen Fielding.epub (_Bridget_Jones_s_Diary_A_Novel_split_011.html) - 10.35 a.m.',
-            "Message JonesFrigid cow.Cleave.
-\x{a0}\x{a0}\x{a0} I laughed. I couldn't help myself. When I looked across to his little glass office he was smiling at me in a relieved and fond sort of way. Anyway, am not going to message him back.
+            'I laughed. I couldn\'t help myself. When I looked across to his little glass office he was smiling at me in a relieved and fond sort of way. Anyway, am not going to message him back.
 <<10.35 a.m.|2a>> Seems rude not to reply, though.
-",
+',
           ],
           [
             1,
@@ -456,7 +454,45 @@ alcohol units
           [
             1,
             '[ap 06:30] Bridget Jones\'s Diary - Helen Fielding.epub (_Bridget_Jones_s_Diary_A_Novel_split_013.html) - 6.30',
-            "<<6.30|9p>>. Go to shop.<<6.45|9p>>. Return with forgotten groceries.<<6.45|9p>>-7. Assemble shepherd's pie and place in oven (oh God, hope will all fit).7-<<7.05|9p>>. Prepare Grand Marnier souffl\x{e9}s. (Actually think will have a little taste of Grand Marnier now. It is my birthday, after all.)7.05-<<7.10|9p>>. Mmm. Grand Marnier delicious. Check plates and cutlery for tell-tale signs of sluttish washing-up and arrange in attractive fan shape. Ah, must buy napkins also (or is it serviettes? Can never remember which one is common)7.10-<<7.20|9p>>. Tidy up and move furniture to sides of room.<<7.20|9p>>-<<7.30|9p>>. Make frisse lardon frizzled chorizo thing.",
+            '
+<<6.30|5a:0>>. Go to shop.
+<<6.45|9p>>. Return with forgotten groceries.',
+          ],
+          [
+            1,
+            '[ap 06:30] Bridget Jones\'s Diary - Helen Fielding.epub (_Bridget_Jones_s_Diary_A_Novel_split_013.html) - 6.30',
+            '<<6.30|9p>>. Go to shop.
+<<6.45|9p>>. Return with forgotten groceries.
+<<6.45|9p>>-7. Assemble shepherd\'s pie and place in oven (oh God, hope will all fit).',
+          ],
+          [
+            1,
+            '[ap 06:45] Bridget Jones\'s Diary - Helen Fielding.epub (_Bridget_Jones_s_Diary_A_Novel_split_013.html) - 6.45',
+            '<<6.45|9p>>-7. Assemble shepherd\'s pie and place in oven (oh God, hope will all fit).',
+          ],
+          [
+            1,
+            '[ap 07:05] Bridget Jones\'s Diary - Helen Fielding.epub (_Bridget_Jones_s_Diary_A_Novel_split_013.html) - 7.05',
+            "7-<<7.05|9p>>. Prepare Grand Marnier souffl\x{e9}s. (Actually think will have a little taste of Grand Marnier now. It is my birthday, after all.)",
+          ],
+          [
+            1,
+            '[ap 07:05] Bridget Jones\'s Diary - Helen Fielding.epub (_Bridget_Jones_s_Diary_A_Novel_split_013.html) - 7.05',
+            '<<7.05|9p>>-<<7.10|9p>>. Mmm. Grand Marnier delicious. Check plates and cutlery for tell-tale signs of sluttish washing-up and arrange in attractive fan shape. Ah, must buy napkins also (or is it serviettes? Can never remember which one is common)',
+          ],
+          [
+            1,
+            '[ap 07:05] Bridget Jones\'s Diary - Helen Fielding.epub (_Bridget_Jones_s_Diary_A_Novel_split_013.html) - 7.05',
+            '<<7.05|9p>>-<<7.10|9p>>. Mmm. Grand Marnier delicious. Check plates and cutlery for tell-tale signs of sluttish washing-up and arrange in attractive fan shape. Ah, must buy napkins also (or is it serviettes? Can never remember which one is common)
+<<7.10|5a:0>>-<<7.20|9p>>. Tidy up and move furniture to sides of room.
+<<7.20|9p>>-<<7.30|9p>>. Make frisse lardon frizzled chorizo thing.',
+          ],
+          [
+            1,
+            '[ap 07:10] Bridget Jones\'s Diary - Helen Fielding.epub (_Bridget_Jones_s_Diary_A_Novel_split_013.html) - 7.10',
+            '<<7.10|9p>>-<<7.20|9p>>. Tidy up and move furniture to sides of room.
+<<7.20|9p>>-<<7.30|9p>>. Make frisse lardon frizzled chorizo thing.
+',
           ],
           [
             1,
@@ -508,8 +544,116 @@ alcohol units
           [
             1,
             '[07:00] Bridget Jones\'s Diary - Helen Fielding.epub (_Bridget_Jones_s_Diary_A_Novel_split_015.html) - 7 a.m.',
-            "<<7 a.m.|5>> Get weighed.7.03 a.m. Return to bed in sulk over weight. Head-state bad. Sleeping or getting up equally out of question. Think about Daniel.7.30 a.m. Hunger pains force self out of bed. Make coffee, consider grapefruit. Defrost chocolate croissant.<<7.35|9p>>-<<7.50 a.m.|4>> Look out of window. <<7.55 a.m.|2a>> Open wardrobe. Stare at clothes. <<8 am|5>>. Select shirt. Try to find black Lycra miniskirt. Pull clothes out of bottom of wardrobe in quest for skirt. Go through drawers and search behind bedroom chair. Go through ironing basket. Go through dirty linen basket. Skirt has vanished. Have cigarette to cheer self up.8.20 a.m. Dry skin brushing (anti-cellulite), bath\x{a0} and hairwash.8.35 a.m. Begin selection of underwear. Laundry crisis means only available pants are vast white cotton. Too unattractive to contemplate, even for work (psychological damage). Go back to ironing basket. Find unsuitably small black lacy pair - prickly but better than giant Mummy-pant horror. <<8.45 a.m.|2a>> Start on black opaque tights. Pair one seems to have Shrunk - crotch is three inches above knees. Get second pair on and find hole on back of leg. Throw away. Suddenly remember had Lycra mini-skirt on when returned home with Daniel last time. Go to living room. Triumphantly locate skirt between cushions on sofa.8.55 a.m. Return to tights. Pair three have hole only in toe. Put on. Hole transforms into ladder which will protrude tellingly from shoe. Go to ironing basket. Locate last pair of black opaque tights twisted into rope-like object speckled with bits of tissue. Untangle and purge of tissue.9.05 a.m. Have got tights on now. Add skirt. Begin ironing shirt.9.10 a.m. Suddenly realize hair is drying in weird shape. Search for hairbrush. Locate in handbag. Blow-dry hair. Will not go right. Spray with plant spray and blow some more.9.40 a.m. Return to ironing and discover stubborn stain on front of shirt. All other possible shirts dirty. Panic about time. Try to wash out stain. Entire shirt now soaking wet. Iron dry.9.55 a.m. V. late now. In despair, have fag and read holiday brochure for calming five minutes.10 a.m. Try to find handbag. Handbag has vanished. Decide to see if anything nice has come in the mail.10.07 a.m. Access letter only, about non-payment of minimum payment, Try to remember what was looking for. Restart quest for handbag.10.15 a.m. Beyond lateness now. Suddenly remember had handbag in bedroom when looking for hairbrush but cannot find. Eventually locate under clothes from wardrobe. Return clothes to wardrobe. Put on jacket. Prepare to leave house. Cannot find keys. Scour house in rage. <<10.25 a.m.|2a>> Find keys in handbag. Realize have forgotten hairbrush.10.35 a.m. Leave house.
-<<Three hours and thirty-five minutes|14>> between waking and leaving house is too long. In future must get straight up when wake and reform entire laundry system. Open up paper to read that convicted murderer in America is convinced the authorities have planted a microchip in his buttocks to monitor his movements, so to speak. Horrified by thought of similar microchip being in own buttocks, particularly in the mornings.",
+            'Determined, now, to tackle constant lateness for work and failure to address in-tray bulging with threats from bailiffs, etc. Resolve to begin self-improvement programme with time-and-motion study.
+<<7 a.m.|5>> Get weighed.
+<<7.03 a.m.|2a>> Return to bed in sulk over weight. Head-state bad. Sleeping or getting up equally out of question. Think about Daniel.',
+          ],
+          [
+            1,
+            '[07:03] Bridget Jones\'s Diary - Helen Fielding.epub (_Bridget_Jones_s_Diary_A_Novel_split_015.html) - 7.03 a.m.',
+            '<<7.03 a.m.|2a>> Return to bed in sulk over weight. Head-state bad. Sleeping or getting up equally out of question. Think about Daniel.',
+          ],
+          [
+            1,
+            '[07:30] Bridget Jones\'s Diary - Helen Fielding.epub (_Bridget_Jones_s_Diary_A_Novel_split_015.html) - 7.30 a.m.',
+            '<<7.30 a.m.|2a>> Hunger pains force self out of bed. Make coffee, consider grapefruit. Defrost chocolate croissant.',
+          ],
+          [
+            1,
+            '[07:30] Bridget Jones\'s Diary - Helen Fielding.epub (_Bridget_Jones_s_Diary_A_Novel_split_015.html) - 7.30 a.m.',
+            '<<7.30 a.m.|2a>> Hunger pains force self out of bed. Make coffee, consider grapefruit. Defrost chocolate croissant.
+<<7.35|9p>>-<<7.50 a.m.|4>> Look out of window.
+<<7.55 a.m.|2a>> Open wardrobe. Stare at clothes.',
+          ],
+          [
+            1,
+            '[ap 07:35] Bridget Jones\'s Diary - Helen Fielding.epub (_Bridget_Jones_s_Diary_A_Novel_split_015.html) - 7.35',
+            '<<7.35|9p>>-<<7.50 a.m.|4>> Look out of window.
+<<7.55 a.m.|2a>> Open wardrobe. Stare at clothes.
+<<8 am|5>>. Select shirt. Try to find black Lycra miniskirt. Pull clothes out of bottom of wardrobe in quest for skirt. Go through drawers and search behind bedroom chair. Go through ironing basket. Go through dirty linen basket. Skirt has vanished. Have cigarette to cheer self up.',
+          ],
+          [
+            1,
+            '[08:00] Bridget Jones\'s Diary - Helen Fielding.epub (_Bridget_Jones_s_Diary_A_Novel_split_015.html) - 8 am',
+            '<<8 am|5>>. Select shirt. Try to find black Lycra miniskirt. Pull clothes out of bottom of wardrobe in quest for skirt. Go through drawers and search behind bedroom chair. Go through ironing basket. Go through dirty linen basket. Skirt has vanished. Have cigarette to cheer self up.',
+          ],
+          [
+            1,
+            '[08:00] Bridget Jones\'s Diary - Helen Fielding.epub (_Bridget_Jones_s_Diary_A_Novel_split_015.html) - 8 am',
+            "<<8 am|5>>. Select shirt. Try to find black Lycra miniskirt. Pull clothes out of bottom of wardrobe in quest for skirt. Go through drawers and search behind bedroom chair. Go through ironing basket. Go through dirty linen basket. Skirt has vanished. Have cigarette to cheer self up.
+<<8.20 a.m.|2a>> Dry skin brushing (anti-cellulite), bath\x{a0} and hairwash.
+<<8.35 a.m.|2a>> Begin selection of underwear. Laundry crisis means only available pants are vast white cotton. Too unattractive to contemplate, even for work (psychological damage). Go back to ironing basket. Find unsuitably small black lacy pair - prickly but better than giant Mummy-pant horror.",
+          ],
+          [
+            1,
+            '[08:35] Bridget Jones\'s Diary - Helen Fielding.epub (_Bridget_Jones_s_Diary_A_Novel_split_015.html) - 8.35 a.m.',
+            '<<8.35 a.m.|2a>> Begin selection of underwear. Laundry crisis means only available pants are vast white cotton. Too unattractive to contemplate, even for work (psychological damage). Go back to ironing basket. Find unsuitably small black lacy pair - prickly but better than giant Mummy-pant horror.',
+          ],
+          [
+            1,
+            '[08:45] Bridget Jones\'s Diary - Helen Fielding.epub (_Bridget_Jones_s_Diary_A_Novel_split_015.html) - 8.45 a.m.',
+            '<<8.45 a.m.|2a>> Start on black opaque tights. Pair one seems to have Shrunk - crotch is three inches above knees. Get second pair on and find hole on back of leg. Throw away. Suddenly remember had Lycra mini-skirt on when returned home with Daniel last time. Go to living room. Triumphantly locate skirt between cushions on sofa.',
+          ],
+          [
+            1,
+            '[08:55] Bridget Jones\'s Diary - Helen Fielding.epub (_Bridget_Jones_s_Diary_A_Novel_split_015.html) - 8.55 a.m.',
+            '<<8.55 a.m.|2a>> Return to tights. Pair three have hole only in toe. Put on. Hole transforms into ladder which will protrude tellingly from shoe. Go to ironing basket. Locate last pair of black opaque tights twisted into rope-like object speckled with bits of tissue. Untangle and purge of tissue.',
+          ],
+          [
+            1,
+            '[08:55] Bridget Jones\'s Diary - Helen Fielding.epub (_Bridget_Jones_s_Diary_A_Novel_split_015.html) - 8.55 a.m.',
+            '<<8.55 a.m.|2a>> Return to tights. Pair three have hole only in toe. Put on. Hole transforms into ladder which will protrude tellingly from shoe. Go to ironing basket. Locate last pair of black opaque tights twisted into rope-like object speckled with bits of tissue. Untangle and purge of tissue.
+<<9.05 a.m.|2a>> Have got tights on now. Add skirt. Begin ironing shirt.
+<<9.10 a.m.|2a>> Suddenly realize hair is drying in weird shape. Search for hairbrush. Locate in handbag. Blow-dry hair. Will not go right. Spray with plant spray and blow some more.',
+          ],
+          [
+            1,
+            '[09:10] Bridget Jones\'s Diary - Helen Fielding.epub (_Bridget_Jones_s_Diary_A_Novel_split_015.html) - 9.10 a.m.',
+            '<<9.10 a.m.|2a>> Suddenly realize hair is drying in weird shape. Search for hairbrush. Locate in handbag. Blow-dry hair. Will not go right. Spray with plant spray and blow some more.',
+          ],
+          [
+            1,
+            '[09:40] Bridget Jones\'s Diary - Helen Fielding.epub (_Bridget_Jones_s_Diary_A_Novel_split_015.html) - 9.40 a.m.',
+            '<<9.40 a.m.|2a>> Return to ironing and discover stubborn stain on front of shirt. All other possible shirts dirty. Panic about time. Try to wash out stain. Entire shirt now soaking wet. Iron dry.',
+          ],
+          [
+            1,
+            '[09:55] Bridget Jones\'s Diary - Helen Fielding.epub (_Bridget_Jones_s_Diary_A_Novel_split_015.html) - 9.55 a.m.',
+            '<<9.55 a.m.|2a>> V. late now. In despair, have fag and read holiday brochure for calming five minutes.',
+          ],
+          [
+            1,
+            '[10:00] Bridget Jones\'s Diary - Helen Fielding.epub (_Bridget_Jones_s_Diary_A_Novel_split_015.html) - 10 a.m.',
+            '<<10 a.m.|5>> Try to find handbag. Handbag has vanished. Decide to see if anything nice has come in the mail.',
+          ],
+          [
+            1,
+            '[10:07] Bridget Jones\'s Diary - Helen Fielding.epub (_Bridget_Jones_s_Diary_A_Novel_split_015.html) - 10.07 a.m.',
+            '<<10.07 a.m.|2a>> Access letter only, about non-payment of minimum payment, Try to remember what was looking for. Restart quest for handbag.',
+          ],
+          [
+            1,
+            '[10:15] Bridget Jones\'s Diary - Helen Fielding.epub (_Bridget_Jones_s_Diary_A_Novel_split_015.html) - 10.15 a.m.',
+            '<<10.15 a.m.|2a>> Beyond lateness now. Suddenly remember had handbag in bedroom when looking for hairbrush but cannot find. Eventually locate under clothes from wardrobe. Return clothes to wardrobe. Put on jacket. Prepare to leave house. Cannot find keys. Scour house in rage.',
+          ],
+          [
+            1,
+            '[10:15] Bridget Jones\'s Diary - Helen Fielding.epub (_Bridget_Jones_s_Diary_A_Novel_split_015.html) - 10.15 a.m.',
+            '<<10.15 a.m.|2a>> Beyond lateness now. Suddenly remember had handbag in bedroom when looking for hairbrush but cannot find. Eventually locate under clothes from wardrobe. Return clothes to wardrobe. Put on jacket. Prepare to leave house. Cannot find keys. Scour house in rage.
+<<10.25 a.m.|2a>> Find keys in handbag. Realize have forgotten hairbrush.
+<<10.35 a.m.|2a>> Leave house.',
+          ],
+          [
+            1,
+            '[10:25] Bridget Jones\'s Diary - Helen Fielding.epub (_Bridget_Jones_s_Diary_A_Novel_split_015.html) - 10.25 a.m.',
+            '<<10.25 a.m.|2a>> Find keys in handbag. Realize have forgotten hairbrush.
+<<10.35 a.m.|2a>> Leave house.
+<<Three hours and thirty-five minutes|14>> between waking and leaving house is too long. In future must get straight up when wake and reform entire laundry system. Open up paper to read that convicted murderer in America is convinced the authorities have planted a microchip in his buttocks to monitor his movements, so to speak. Horrified by thought of similar microchip being in own buttocks, particularly in the mornings.',
+          ],
+          [
+            1,
+            '[ap 03:35] Bridget Jones\'s Diary - Helen Fielding.epub (_Bridget_Jones_s_Diary_A_Novel_split_015.html) - Three hours and thirty-five minutes',
+            '<<Three hours and thirty-five minutes|14>> between waking and leaving house is too long. In future must get straight up when wake and reform entire laundry system. Open up paper to read that convicted murderer in America is convinced the authorities have planted a microchip in his buttocks to monitor his movements, so to speak. Horrified by thought of similar microchip being in own buttocks, particularly in the mornings.',
           ],
           [
             1,

@@ -2,7 +2,7 @@ $VAR1 = [
           [
             1,
             '[ap 04:51] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_001.html) - 9-to-5',
-            "\x{2022} Clean Code: A Handbook of Agile Software Craftmanship\x{2022} The Clean Coder: A Code of Conduct for Professional ProgrammersIn this collection, Robert C. Martin, also known as \x{201c}Uncle Bob,\x{201d} provides a pragmatic method for writing better code from the start. He reveals the disciplines, techniques, tools, and practices that separate software craftsmen from mere \x{201c}<<9-to-5|10a:0>>\x{201d} programmers. Within this collection are the tools and methods you need to become a true software professional.",
+            "In this collection, Robert C. Martin, also known as \x{201c}Uncle Bob,\x{201d} provides a pragmatic method for writing better code from the start. He reveals the disciplines, techniques, tools, and practices that separate software craftsmen from mere \x{201c}<<9-to-5|10a:0>>\x{201d} programmers. Within this collection are the tools and methods you need to become a true software professional.",
           ],
           [
             1,
@@ -12,7 +12,7 @@ $VAR1 = [
           [
             1,
             '[~ 20:00] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_007.html) - around 1960',
-            "\x{2022} Seiri, or organization (think \x{201c}sort\x{201d} in English). Knowing where things are\x{2014}using approaches such as suitable naming\x{2014}is crucial. You think naming identifiers isn\x{2019}t important? Read on in the following chapters.\x{2022} Seiton, or tidiness (think \x{201c}systematize\x{201d} in English). There is an old American saying: A place for everything, and everything in its place. A piece of code should be where you expect to find it\x{2014}and, if not, you should re-factor to get it there.\x{2022} Seiso, or cleaning (think \x{201c}shine\x{201d} in English): Keep the workplace free of hanging wires, grease, scraps, and waste. What do the authors here say about littering your code with comments and commented-out code lines that capture history or wishes for the future? Get rid of them.\x{2022} Seiketsu, or standardization: The group agrees about how to keep the workplace clean. Do you think this book says anything about having a consistent coding style and set of practices within the group? Where do those standards come from? Read on.\x{2022} Shutsuke, or discipline (self-discipline). This means having the discipline to follow the practices and to frequently reflect on one\x{2019}s work and be willing to change.If you take up the challenge\x{2014}yes, the challenge\x{2014}of reading and applying this book, you\x{2019}ll come to understand and appreciate the last point. Here, we are finally driving to the roots of responsible professionalism in a profession that should be concerned with the life cycle of a product. As we maintain automobiles and other machines under TPM, breakdown maintenance\x{2014}waiting for bugs to surface\x{2014}is the exception. Instead, we go up a level: inspect the machines every day and fix wearing parts before they break, or do the equivalent of the proverbial 10,000-mile oil change to forestall wear and tear. In code, refactor mercilessly. You can improve yet one level further, as the TPM movement innovated over 50 years ago: build machines that are more maintainable in the first place. Making your code readable is as important as making it executable. The ultimate practice, introduced in TPM circles <<around 1960|18:1>>, is to focus on introducing entire new machines or replacing old ones. As Fred Brooks admonishes us, we should probably re-do major software chunks from scratch every seven years or so to sweep away creeping cruft. Perhaps we should update Brooks\x{2019} time constant to an order of weeks, days or hours instead of years. That\x{2019}s where detail lies.",
+            "If you take up the challenge\x{2014}yes, the challenge\x{2014}of reading and applying this book, you\x{2019}ll come to understand and appreciate the last point. Here, we are finally driving to the roots of responsible professionalism in a profession that should be concerned with the life cycle of a product. As we maintain automobiles and other machines under TPM, breakdown maintenance\x{2014}waiting for bugs to surface\x{2014}is the exception. Instead, we go up a level: inspect the machines every day and fix wearing parts before they break, or do the equivalent of the proverbial 10,000-mile oil change to forestall wear and tear. In code, refactor mercilessly. You can improve yet one level further, as the TPM movement innovated over 50 years ago: build machines that are more maintainable in the first place. Making your code readable is as important as making it executable. The ultimate practice, introduced in TPM circles <<around 1960|18:1>>, is to focus on introducing entire new machines or replacing old ones. As Fred Brooks admonishes us, we should probably re-do major software chunks from scratch every seven years or so to sweep away creeping cruft. Perhaps we should update Brooks\x{2019} time constant to an order of weeks, days or hours instead of years. That\x{2019}s where detail lies.",
           ],
           [
             1,
@@ -23,179 +23,162 @@ $VAR1 = [
             1,
             '[22:18] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_013.html) - 22:18',
             "MockRequest request;
-\x{a0}\x{a0}\x{a0}private final String HTTP_DATE_REGEXP =
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{201c}[SMTWF][a-z]{2}\\\\,\\\\s[0-9]{2}\\\\s[JFMASOND][a-z]{2}\\\\s\x{201d}+
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{201c}[0-9]{4}\\\\s[0-9]{2}\\\\:[0-9]{2}\\\\:[0-9]{2}\\\\sGMT\x{201d};
-\x{a0}\x{a0}\x{a0}private Response response;
-\x{a0}\x{a0}\x{a0}private FitNesseContext context;
-\x{a0}\x{a0}\x{a0}private FileResponder responder;
-\x{a0}\x{a0}\x{a0}private Locale saveLocale;
-\x{a0}\x{a0}\x{a0}// Example: \x{201d}Tue, 02 Apr 2003 <<22:18|1a>>:49 GMT\x{201d}",
+private final String HTTP_DATE_REGEXP =
+\x{a0}\x{a0}\x{201c}[SMTWF][a-z]{2}\\\\,\\\\s[0-9]{2}\\\\s[JFMASOND][a-z]{2}\\\\s\x{201d}+
+\x{a0}\x{a0}\x{201c}[0-9]{4}\\\\s[0-9]{2}\\\\:[0-9]{2}\\\\:[0-9]{2}\\\\sGMT\x{201d};
+private Response response;
+private FitNesseContext context;
+private FileResponder responder;
+private Locale saveLocale;
+// Example: \x{201d}Tue, 02 Apr 2003 <<22:18|1a>>:49 GMT\x{201d}",
           ],
           [
             1,
             '[ap 02:00] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_013.html) - 2',
-            "Listing 4-7 GeneratePrimes.java\x{a0}\x{a0}\x{a0}/**
-\x{a0}\x{a0}\x{a0}\x{a0}* This class Generates prime numbers up to a user specified
-\x{a0}\x{a0}\x{a0}\x{a0}* maximum.\x{a0}\x{a0}The algorithm used is the Sieve of Eratosthenes.
-\x{a0}\x{a0}\x{a0}\x{a0}* <p>
-\x{a0}\x{a0}\x{a0}\x{a0}* Eratosthenes of Cyrene, b. c. 276 BC, Cyrene, Libya --
-\x{a0}\x{a0}\x{a0}\x{a0}* d. c. 194, Alexandria.\x{a0}\x{a0}The first man to calculate the
-\x{a0}\x{a0}\x{a0}\x{a0}* circumference of the Earth.\x{a0}\x{a0}Also known for working on
-\x{a0}\x{a0}\x{a0}\x{a0}* calendars with leap years and ran the library at Alexandria.
-\x{a0}\x{a0}\x{a0}\x{a0}* <p>
-\x{a0}\x{a0}\x{a0}\x{a0}* The algorithm is quite simple.\x{a0}\x{a0}Given an array of integers
-\x{a0}\x{a0}\x{a0}\x{a0}* starting at <<2|9g>>.\x{a0}\x{a0}Cross out all multiples of 2.\x{a0}\x{a0}Find the next
-\x{a0}\x{a0}\x{a0}\x{a0}* uncrossed integer, and cross out all of its multiples.
-\x{a0}\x{a0}\x{a0}\x{a0}* Repeat untilyou have passed the square root of the maximum
-\x{a0}\x{a0}\x{a0}\x{a0}* value.
-\x{a0}\x{a0}\x{a0}\x{a0}*
-\x{a0}\x{a0}\x{a0}\x{a0}* \@author Alphonse
-\x{a0}\x{a0}\x{a0}\x{a0}* \@version 13 Feb 2002 atp
-\x{a0}\x{a0}\x{a0}\x{a0}*/
-\x{a0}\x{a0}\x{a0}import java.util.*;
-\x{a0}\x{a0}\x{a0}
-\x{a0}\x{a0}\x{a0}public class GeneratePrimes
-\x{a0}\x{a0}\x{a0}{
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}/**
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}* \@param maxValue is the generation limit.
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}*/
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}public static int[] generatePrimes(int maxValue)
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}{
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}if (maxValue >= 2) // the only valid case
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}{
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}// declarations
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}int s = maxValue + 1; // size of array
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}boolean[] f = new boolean[s];
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}int i;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}// initialize array to true.
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}for (i = 0; i < s; i++)
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}f[i] = true;
-\x{a0}\x{a0}\x{a0}
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}// get rid of known non-primes
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}f[0] = f[1] = false;
-\x{a0}\x{a0}\x{a0}
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}// sieve
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}int j;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}for (i = 2; i < Math.sqrt(s) + 1; i++)
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}{
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}if (f[i]) // if i is uncrossed, cross its multiples.
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}{
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}for (j = 2 * i; j < s; j += i)
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}f[j] = false; // multiple is not prime
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-\x{a0}\x{a0}\x{a0}
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}// how many primes are there?
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}int count = 0;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}for (i = 0; i < s; i++)
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}{
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}if (f[i])
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}count++; // bump count.
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-\x{a0}\x{a0}\x{a0}
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}int[] primes = new int[count];
-\x{a0}\x{a0}\x{a0}
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}// move the primes into the result
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}for (i = 0, j = 0; i < s; i++)
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}{
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}if (f[i])\x{a0}\x{a0}// if prime
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}primes[j++] = i;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-\x{a0}\x{a0}\x{a0}
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}return primes;\x{a0}\x{a0}// return the primes
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}else // maxValue < 2
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}return new int[0]; // return null array if bad input.
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-\x{a0}\x{a0}\x{a0}}",
+            "/**
+\x{a0}* This class Generates prime numbers up to a user specified
+\x{a0}* maximum.\x{a0}\x{a0}The algorithm used is the Sieve of Eratosthenes.
+\x{a0}* <p>
+\x{a0}* Eratosthenes of Cyrene, b. c. 276 BC, Cyrene, Libya --
+\x{a0}* d. c. 194, Alexandria.\x{a0}\x{a0}The first man to calculate the
+\x{a0}* circumference of the Earth.\x{a0}\x{a0}Also known for working on
+\x{a0}* calendars with leap years and ran the library at Alexandria.
+\x{a0}* <p>
+\x{a0}* The algorithm is quite simple.\x{a0}\x{a0}Given an array of integers
+\x{a0}* starting at <<2|9g>>.\x{a0}\x{a0}Cross out all multiples of 2.\x{a0}\x{a0}Find the next
+\x{a0}* uncrossed integer, and cross out all of its multiples.
+\x{a0}* Repeat untilyou have passed the square root of the maximum
+\x{a0}* value.
+\x{a0}*
+\x{a0}* \@author Alphonse
+\x{a0}* \@version 13 Feb 2002 atp
+\x{a0}*/
+import java.util.*;
+public class GeneratePrimes
+{
+\x{a0}\x{a0}/**
+\x{a0}\x{a0}\x{a0}* \@param maxValue is the generation limit.
+\x{a0}\x{a0}\x{a0}*/
+\x{a0}\x{a0}public static int[] generatePrimes(int maxValue)
+\x{a0}\x{a0}{
+\x{a0}\x{a0}\x{a0}\x{a0}if (maxValue >= 2) // the only valid case
+\x{a0}\x{a0}\x{a0}\x{a0}{
+\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}// declarations
+\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}int s = maxValue + 1; // size of array
+\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}boolean[] f = new boolean[s];
+\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}int i;
+\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}// initialize array to true.
+\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}for (i = 0; i < s; i++)
+\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}f[i] = true;
+\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}// get rid of known non-primes
+\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}f[0] = f[1] = false;
+\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}// sieve
+\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}int j;
+\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}for (i = 2; i < Math.sqrt(s) + 1; i++)
+\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}{
+\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}if (f[i]) // if i is uncrossed, cross its multiples.
+\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}{
+\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}for (j = 2 * i; j < s; j += i)
+\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}f[j] = false; // multiple is not prime
+\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
+\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
+\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}// how many primes are there?
+\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}int count = 0;
+\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}for (i = 0; i < s; i++)
+\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}{
+\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}if (f[i])
+\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}count++; // bump count.
+\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
+\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}int[] primes = new int[count];
+\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}// move the primes into the result
+\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}for (i = 0, j = 0; i < s; i++)
+\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}{
+\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}if (f[i])\x{a0}\x{a0}// if prime
+\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}primes[j++] = i;
+\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
+\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}return primes;\x{a0}\x{a0}// return the primes
+\x{a0}\x{a0}\x{a0}\x{a0}}
+\x{a0}\x{a0}\x{a0}\x{a0}else // maxValue < 2
+\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}return new int[0]; // return null array if bad input.
+\x{a0}\x{a0}}
+}",
           ],
           [
             1,
             '[ap 02:00] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_013.html) - 2',
-            "Listing 4-8 PrimeGenerator.java (refactored)\x{a0}\x{a0}\x{a0}/**
-\x{a0}\x{a0}\x{a0}\x{a0}* This class Generates prime numbers up to a user specified
-\x{a0}\x{a0}\x{a0}\x{a0}* maximum.\x{a0}\x{a0}The algorithm used is the Sieve of Eratosthenes.
-\x{a0}\x{a0}\x{a0}\x{a0}* Given an array of integers starting at <<2|9g>>:
-\x{a0}\x{a0}\x{a0}\x{a0}* Find the first uncrossed integer, and cross out all its
-\x{a0}\x{a0}\x{a0} * multiples.\x{a0}\x{a0}Repeat until there are no more multiples
-\x{a0}\x{a0}\x{a0}\x{a0}* in the array.
-\x{a0}\x{a0}\x{a0}\x{a0}*/
-\x{a0}\x{a0}\x{a0}
-\x{a0}\x{a0}\x{a0}public class PrimeGenerator
-\x{a0}\x{a0}\x{a0}{
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}private static boolean[] crossedOut;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}private static int[] result;
-\x{a0}\x{a0}\x{a0}
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}public static int[] generatePrimes(int maxValue)
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}{
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}if (maxValue < 2)
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}return new int[0];
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}else
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}{
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}uncrossIntegersUpTo(maxValue);
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}crossOutMultiples();
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}putUncrossedIntegersIntoResult();
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}return result;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-\x{a0}\x{a0}\x{a0}
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}private static void uncrossIntegersUpTo(int maxValue)
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}{
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}crossedOut = new boolean[maxValue + 1];
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}for (int i = 2; i < crossedOut.length; i++)
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}crossedOut[i] = false;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-\x{a0}\x{a0}\x{a0}
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}private static void crossOutMultiples()
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}{
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}int limit = determineIterationLimit();
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}for (int i = 2; i <= limit; i++)
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}if (notCrossed(i))
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}crossOutMultiplesOf(i);
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-\x{a0}\x{a0}\x{a0}
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}private static int determineIterationLimit()
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}{
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}// Every multiple in the array has a prime factor that
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}// is less than or equal to the root of the array size,
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}// so we don\x{2019}t have to cross out multiples of numbers
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}// larger than that root.
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}double iterationLimit = Math.sqrt(crossedOut.length);
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}return (int) iterationLimit;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-\x{a0}\x{a0}\x{a0}
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}private static void crossOutMultiplesOf(int i)
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}{
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}for (int multiple = 2*i;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}multiple < crossedOut.length;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}multiple += i)
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}crossedOut[multiple] = true;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-\x{a0}\x{a0}\x{a0}
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}private static boolean notCrossed(int i)
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}{
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}return crossedOut[i] == false;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-\x{a0}\x{a0}\x{a0}
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}private static void putUncrossedIntegersIntoResult()
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}{
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}result = new int[numberOfUncrossedIntegers()];
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}for (int j = 0, i = 2; i < crossedOut.length; i++)
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}if (notCrossed(i))
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}result[j++] = i;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-\x{a0}\x{a0}\x{a0}
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}private static int numberOfUncrossedIntegers()
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}{
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}int count = 0;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}for (int i = 2; i < crossedOut.length; i++)
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}if (notCrossed(i))
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}count++;
-\x{a0}\x{a0}\x{a0}
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}return count;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-\x{a0}\x{a0}\x{a0}}",
+            "/**
+\x{a0}* This class Generates prime numbers up to a user specified
+\x{a0}* maximum.\x{a0}\x{a0}The algorithm used is the Sieve of Eratosthenes.
+\x{a0}* Given an array of integers starting at <<2|9g>>:
+\x{a0}* Find the first uncrossed integer, and cross out all its
+ * multiples.\x{a0}\x{a0}Repeat until there are no more multiples
+\x{a0}* in the array.
+\x{a0}*/
+public class PrimeGenerator
+{
+\x{a0}\x{a0}private static boolean[] crossedOut;
+\x{a0}\x{a0}private static int[] result;
+\x{a0}\x{a0}public static int[] generatePrimes(int maxValue)
+\x{a0}\x{a0}{
+\x{a0}\x{a0}\x{a0}\x{a0}if (maxValue < 2)
+\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}return new int[0];
+\x{a0}\x{a0}\x{a0}\x{a0}else
+\x{a0}\x{a0}\x{a0}\x{a0}{
+\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}uncrossIntegersUpTo(maxValue);
+\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}crossOutMultiples();
+\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}putUncrossedIntegersIntoResult();
+\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}return result;
+\x{a0}\x{a0}\x{a0}\x{a0}}
+\x{a0}\x{a0}}
+\x{a0}\x{a0}private static void uncrossIntegersUpTo(int maxValue)
+\x{a0}\x{a0}{
+\x{a0}\x{a0}\x{a0}\x{a0}crossedOut = new boolean[maxValue + 1];
+\x{a0}\x{a0}\x{a0}\x{a0}for (int i = 2; i < crossedOut.length; i++)
+\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}crossedOut[i] = false;
+\x{a0}\x{a0}}
+\x{a0}\x{a0}private static void crossOutMultiples()
+\x{a0}\x{a0}{
+\x{a0}\x{a0}\x{a0}\x{a0}int limit = determineIterationLimit();
+\x{a0}\x{a0}\x{a0}\x{a0}for (int i = 2; i <= limit; i++)
+\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}if (notCrossed(i))
+\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}crossOutMultiplesOf(i);
+\x{a0}\x{a0}}
+\x{a0}\x{a0}private static int determineIterationLimit()
+\x{a0}\x{a0}{
+\x{a0}\x{a0}\x{a0}\x{a0}// Every multiple in the array has a prime factor that
+\x{a0}\x{a0}\x{a0}\x{a0}// is less than or equal to the root of the array size,
+\x{a0}\x{a0}\x{a0}\x{a0}// so we don\x{2019}t have to cross out multiples of numbers
+\x{a0}\x{a0}\x{a0}\x{a0}// larger than that root.
+\x{a0}\x{a0}\x{a0}\x{a0}double iterationLimit = Math.sqrt(crossedOut.length);
+\x{a0}\x{a0}\x{a0}\x{a0}return (int) iterationLimit;
+\x{a0}\x{a0}}
+\x{a0}\x{a0}private static void crossOutMultiplesOf(int i)
+\x{a0}\x{a0}{
+\x{a0}\x{a0}\x{a0}\x{a0}for (int multiple = 2*i;
+\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}multiple < crossedOut.length;
+\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}multiple += i)
+\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}crossedOut[multiple] = true;
+\x{a0}\x{a0}}
+\x{a0}\x{a0}private static boolean notCrossed(int i)
+\x{a0}\x{a0}{
+\x{a0}\x{a0}\x{a0}\x{a0}return crossedOut[i] == false;
+\x{a0}\x{a0}}
+\x{a0}\x{a0}private static void putUncrossedIntegersIntoResult()
+\x{a0}\x{a0}{
+\x{a0}\x{a0}\x{a0}\x{a0}result = new int[numberOfUncrossedIntegers()];
+\x{a0}\x{a0}\x{a0}\x{a0}for (int j = 0, i = 2; i < crossedOut.length; i++)
+\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}if (notCrossed(i))
+\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}result[j++] = i;
+\x{a0}\x{a0}}
+\x{a0}\x{a0}private static int numberOfUncrossedIntegers()
+\x{a0}\x{a0}{
+\x{a0}\x{a0}\x{a0}\x{a0}int count = 0;
+\x{a0}\x{a0}\x{a0}\x{a0}for (int i = 2; i < crossedOut.length; i++)
+\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}if (notCrossed(i))
+\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}count++;
+\x{a0}\x{a0}\x{a0}\x{a0}return count;
+\x{a0}\x{a0}}
+}",
           ],
           [
             1,
@@ -209,296 +192,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 10:10] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_019.html) - 10-10',
-            "Listing <<10-10|5a:0>> A set of closed classes\x{a0}\x{a0}\x{a0}abstract public class Sql {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}public Sql(String table, Column[] columns)
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}abstract public String generate();
-\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}public class CreateSql extends Sql {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}public CreateSql(String table, Column[] columns)
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\@Override public String generate()
-\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}public class SelectSql extends Sql {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}public SelectSql(String table, Column[] columns)
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\@Override public String generate()
-\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}public class InsertSql extends Sql {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}public InsertSql(String table, Column[] columns, Object[] fields)
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\@Override public String generate()
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}private String valuesList(Object[] fields, final Column[] columns)
-\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}public class SelectWithCriteriaSql extends Sql {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}public SelectWithCriteriaSql(
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}String table, Column[] columns, Criteria criteria)
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\@Override public String generate()
-\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}public class SelectWithMatchSql extends Sql {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}public SelectWithMatchSql(
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}String table, Column[] columns, Column column, String pattern)
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\@Override public String generate()
-\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}public class FindByKeySql extends Sql
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}public FindByKeySql(
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}String table, Column[] columns, String keyColumn, String keyValue)
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\@Override public String generate()
-\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}public class PreparedInsertSql extends Sql {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}public PreparedInsertSql(String table, Column[] columns)
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\@Override public String generate() {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}private String placeholderList(Column[] columns)
-\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}public class Where {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}public Where(String criteria)
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}public String generate()
-\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}public class ColumnList {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}public ColumnList(Column[] columns)
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}public String generate()
-\x{a0}\x{a0}\x{a0}}",
-          ],
-          [
-            1,
-            '[14:10] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_023.html) - 14-10',
-            "Listing <<14-10|5a:0>> Args.java (Boolean and String)\x{a0}\x{a0}\x{a0}package com.objectmentor.utilities.getopts;
-
-\x{a0}\x{a0}\x{a0}import java.text.ParseException;
-\x{a0}\x{a0}\x{a0}import java.util.*;
-
-\x{a0}\x{a0}\x{a0}public class Args {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}private String schema;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}private String[] args;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}private boolean valid = true;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}private Set<Character> unexpectedArguments = new TreeSet<Character>();
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}private Map<Character, Boolean> booleanArgs =
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}new HashMap<Character, Boolean>();
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}private Map<Character, String> stringArgs =
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}new HashMap<Character, String>();
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}private Set<Character> argsFound = new HashSet<Character>();
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}private int currentArgument;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}private char errorArgument = '\\0';
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}enum ErrorCode {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}OK, MISSING_STRING}
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}private ErrorCode errorCode = ErrorCode.OK;
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}public Args(String schema, String[] args) throws ParseException {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}this.schema = schema;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}this.args = args;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}valid = parse();
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}private boolean parse() throws ParseException {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}if (schema.length() == 0 && args.length == 0)
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}return true;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}parseSchema();
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}parseArguments();
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}return valid;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}private boolean parseSchema() throws ParseException {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}for (String element : schema.split(\x{201c},\x{201d})) {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}if (element.length() > 0) {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}String trimmedElement = element.trim();
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}parseSchemaElement(trimmedElement);
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}return true;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}private void parseSchemaElement(String element) throws ParseException {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}char elementId = element.charAt(0);
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}String elementTail = element.substring(1);
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}validateSchemaElementId(elementId);
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}if (isBooleanSchemaElement(elementTail))
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}parseBooleanSchemaElement(elementId);
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}else if (isStringSchemaElement(elementTail))
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}parseStringSchemaElement(elementId);
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}private void validateSchemaElementId(char elementId) throws ParseException {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}if (!Character.isLetter(elementId)) {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}throw new ParseException(
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{201c}Bad character:\x{201d} + elementId + \x{201c}in Args format: \x{201d} + schema, 0);
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}private void parseStringSchemaElement(char elementId) {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}stringArgs.put(elementId, \x{201c} \x{201d});
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}private boolean isStringSchemaElement(String elementTail) {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}return elementTail.equals(\x{201c}*\x{201d});
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}private boolean isBooleanSchemaElement(String elementTail) {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}return elementTail.length() == 0;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}private void parseBooleanSchemaElement(char elementId) {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}booleanArgs.put(elementId, false);
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}private boolean parseArguments() {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}for (currentArgument = 0; currentArgument < args.length; currentArgument++)
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}{
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}String arg = args[currentArgument];
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}parseArgument(arg);
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}return true;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}private void parseArgument(String arg) {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}if (arg.startsWith(\x{201c}-\x{201d}))
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}parseElements(arg);
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}private void parseElements(String arg) {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}for (int i = 1; i < arg.length(); i++)
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}parseElement(arg.charAt(i));
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}private void parseElement(char argChar) {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}if (setArgument(argChar))
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}argsFound.add(argChar);
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}else {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}unexpectedArguments.add(argChar);
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}valid = false;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}private boolean setArgument(char argChar) {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}boolean set = true;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}if (isBoolean(argChar))
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}setBooleanArg(argChar, true);
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}else if (isString(argChar))
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}setStringArg(argChar, \x{201c} \x{201d});
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}else
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}set = false;
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}return set;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}private void setStringArg(char argChar, String s) {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}currentArgument++;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}try {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}stringArgs.put(argChar, args[currentArgument]);
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}} catch (ArrayIndexOutOfBoundsException e) {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}valid = false;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}errorArgument = argChar;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}errorCode = ErrorCode.MISSING_STRING;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}private boolean isString(char argChar) {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}return stringArgs.containsKey(argChar);
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}private void setBooleanArg(char argChar, boolean value) {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}booleanArgs.put(argChar, value);
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}private boolean isBoolean(char argChar) {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}return booleanArgs.containsKey(argChar);
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}public int cardinality() {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}return argsFound.size();
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}public String usage() {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}if (schema.length() > 0)
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}return \x{201c}-[\x{201c} + schema + \x{201d}]\x{201d};
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}else
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}return \x{201c} \x{201d};
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}public String errorMessage() throws Exception {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}if (unexpectedArguments.size() > 0) {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}return unexpectedArgumentMessage();
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}} else
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}switch (errorCode) {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}case MISSING_STRING:
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}return String.format(\x{201c}Could not find string parameter for -%c.\x{201d}, errorArgument);
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}case OK:
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}throw new Exception(\x{201c}TILT: Should not get here.\x{201d});
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}return \x{201c} \x{201d};
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}private String unexpectedArgumentMessage() {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}StringBuffer message = new StringBuffer(\x{201c}Argument(s) -\x{201d});
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}for (char c : unexpectedArguments) {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}message.append(c);
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}message.append(\x{201c} unexpected.\x{201d});
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}return message.toString();
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}public boolean getBoolean(char arg) {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}return falseIfNull(booleanArgs.get(arg));
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}private boolean falseIfNull(Boolean b) {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}return b == null ? false : b;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}public String getString(char arg) {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}return blankIfNull(stringArgs.get(arg));
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}private String blankIfNull(String s) {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}return s == null ? \x{201c} \x{201d} : s;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}public boolean has(char arg) {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}return argsFound.contains(arg);
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}public boolean isValid() {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}return valid;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-\x{a0}\x{a0}\x{a0}}",
-          ],
-          [
-            1,
             '[14:11] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_023.html) - 14-11',
             'So I proceeded to make a large number of very tiny changes. Each change moved the structure of the system toward the ArgumentMarshaler concept. And yet each change kept the system working. The first change I made was to add the skeleton of the ArgumentMarshaller to the end of the festering pile (Listing <<14-11|5a:0>>).',
-          ],
-          [
-            1,
-            '[14:11] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_023.html) - 14-11',
-            "Listing <<14-11|5a:0>> ArgumentMarshaller appended to Args.java\x{a0}\x{a0}\x{a0}private class ArgumentMarshaler }
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}private boolean booleanValue = false;
-
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}public void setBoolean(boolean value) {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}booleanValue = value;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}public boolean getBoolean() {return booleanValue;}
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}private class BooleanArgumentMarshaler extends ArgumentMarshaler {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}private class StringArgumentMarshaler extends ArgumentMarshaler {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}private class IntegerArgumentMarshaler extends ArgumentMarshaler {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-\x{a0}\x{a0}\x{a0}}",
           ],
           [
             1,
@@ -507,731 +202,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[14:12] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_023.html) - 14-12',
-            "Listing <<14-12|5a:0>> Args.java (After first refactoring)\x{a0}\x{a0}\x{a0}package com.objectmentor.utilities.getopts;
-
-
-\x{a0}\x{a0}\x{a0}import java.text.ParseException;
-\x{a0}\x{a0}\x{a0}import java.util.*;
-
-\x{a0}\x{a0}\x{a0}public class Args {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}private String schema;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}private String[] args;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}private boolean valid = true;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}private Set<Character> unexpectedArguments = new TreeSet<Character>();
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}private Map<Character, ArgumentMarshaler> marshalers =
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}new HashMap<Character, ArgumentMarshaler>();
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}private Set<Character> argsFound = new HashSet<Character>();
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}private int currentArgument;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}private char errorArgumentId = '\\0';
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}private String errorParameter = \x{201c}TILT\x{201d};
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}private ErrorCode errorCode = ErrorCode.OK;
-
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}private enum ErrorCode {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}OK, MISSING_STRING, MISSING_INTEGER, INVALID_INTEGER,
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}UNEXPECTED_ARGUMENT}
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}public Args(String schema, String[] args) throws ParseException {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}this.schema = schema;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}this.args = args;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}valid = parse();
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}private boolean parse() throws ParseException {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}if (schema.length() == 0 && args.length == 0)
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}return true;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}parseSchema();
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}try {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}parseArguments();
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}} catch (ArgsException e) {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}return valid;
-\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}private boolean parseSchema() throws ParseException {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}for (String element : schema.split(\x{201c},\x{201d})) {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}if (element.length() > 0) {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}String trimmedElement = element.trim();
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}parseSchemaElement(trimmedElement);
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}return true;
-\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}private void parseSchemaElement(String element) throws ParseException {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}char elementId = element.charAt(0);
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}String elementTail = element.substring(1);
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}validateSchemaElementId(elementId);
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}if (isBooleanSchemaElement(elementTail))
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}marshalers.put(elementId, new BooleanArgumentMarshaler());
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}else if (isStringSchemaElement(elementTail))
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}marshalers.put(elementId, new StringArgumentMarshaler());
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}else if (isIntegerSchemaElement(elementTail)) {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}marshalers.put(elementId, new IntegerArgumentMarshaler());
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}} else {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}throw new ParseException(String.format(
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{201c}Argument: %c has invalid format: %s.\x{201d}, elementId, elementTail), 0);
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}private void validateSchemaElementId(char elementId) throws ParseException {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}if (!Character.isLetter(elementId)) {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}throw new ParseException(
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{201c}Bad character:\x{201d} + elementId + \x{201c}in Args format: \x{201d} + schema, 0);
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}private boolean isStringSchemaElement(String elementTail) {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}return elementTail.equals(\x{201c}*\x{201d});
-\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}private boolean isBooleanSchemaElement(String elementTail) {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}return elementTail.length() == 0;
-\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}private boolean isIntegerSchemaElement(String elementTail) {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}return elementTail.equals(\x{201c}-\x{201d});
-\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}private boolean parseArguments() throws ArgsException {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}for (currentArgument=0; currentArgument<args.length; currentArgument++) {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}String arg = args[currentArgument];
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}parseArgument(arg);
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}return true;
-\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}private void parseArgument(String arg) throws ArgsException {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}if (arg.startsWith(\x{201c}-\x{201d}))
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}parseElements(arg);
-\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}private void parseElements(String arg) throws ArgsException {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}for (int i = 1; i < arg.length(); i++)
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}parseElement(arg.charAt(i));
-\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}private void parseElement(char argChar) throws ArgsException {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}if (setArgument(argChar))
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}argsFound.add(argChar);
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}else {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}unexpectedArguments.add(argChar);
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}errorCode = ErrorCode.UNEXPECTED_ARGUMENT;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}valid = false;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}private boolean setArgument(char argChar) throws ArgsException {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}ArgumentMarshaler m = marshalers.get(argChar);
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}try {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}if (m instanceof BooleanArgumentMarshaler)
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}setBooleanArg(m);
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}else if (m instanceof StringArgumentMarshaler)
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}setStringArg(m);
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}else if (m instanceof IntegerArgumentMarshaler)
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}setIntArg(m);
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}else
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}return false;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}} catch (ArgsException e) {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}valid = false;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}errorArgumentId = argChar;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}throw e;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}return true;
-\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}private void setIntArg(ArgumentMarshaler m) throws ArgsException {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}currentArgument++;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}String parameter = null;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}try {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}parameter = args[currentArgument];
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}m.set(parameter);
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}} catch (ArrayIndexOutOfBoundsException e) {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}errorCode = ErrorCode.MISSING_INTEGER;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}throw new ArgsException();
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}} catch (ArgsException e) {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}errorParameter = parameter;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}errorCode = ErrorCode.INVALID_INTEGER;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}throw e;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}private void setStringArg(ArgumentMarshaler m) throws ArgsException {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}currentArgument++;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}try {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}m.set(args[currentArgument]);
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}} catch (ArrayIndexOutOfBoundsException e) {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}errorCode = ErrorCode.MISSING_STRING;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}throw new ArgsException();
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}private void setBooleanArg(ArgumentMarshaler m) {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}try {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}m.set(\x{201c}true\x{201d});
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}} catch (ArgsException e) {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}public int cardinality() {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}return argsFound.size();
-\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}public String usage() {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}if (schema.length() > 0)
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}return \x{201c}-[\x{201c} + schema + \x{201d}]\x{201d};
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}else
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}return \x{201c} \x{201d};
-\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}public String errorMessage() throws Exception {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}switch (errorCode) {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}case OK:
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}throw new Exception(\x{201c}TILT: Should not get here.\x{201d});
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}case UNEXPECTED_ARGUMENT:
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}return unexpectedArgumentMessage();
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}case MISSING_STRING:
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}return String.format(\x{201c}Could not find string parameter for -%c.\x{201d},
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}errorArgumentId);
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}case INVALID_INTEGER:
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}return String.format(\x{201c}Argument -%c expects an integer but was '%s'.\x{201d},
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}errorArgumentId, errorParameter);
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}case MISSING_INTEGER:
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}return String.format(\x{201c}Could not find integer parameter for -%c.\x{201d},
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}errorArgumentId);
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}return \x{201c} \x{201d};
-\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}private String unexpectedArgumentMessage() {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}StringBuffer message = new StringBuffer(\x{201c}Argument(s) -\x{201d});
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}for (char c : unexpectedArguments) {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}message.append(c);
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}message.append(\x{201c} unexpected.\x{201d});
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}return message.toString();
-\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}public boolean getBoolean(char arg) {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}Args.ArgumentMarshaler am = marshalers.get(arg);
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}boolean b = false;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}try {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}b = am != null && (Boolean) am.get();
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}} catch (ClassCastException e) {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}b = false;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}return b;
-\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}public String getString(char arg) {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}Args.ArgumentMarshaler am = marshalers.get(arg);
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}try {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}return am == null ? \x{201c} \x{201d} : (String) am.get();
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}} catch (ClassCastException e) {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}return \x{201c} \x{201d};
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}public int getInt(char arg) {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}Args.ArgumentMarshaler am = marshalers.get(arg);
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}try {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}return am == null ? 0 : (Integer) am.get();
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}} catch (Exception e) {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}return 0;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}public boolean has(char arg) {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}return argsFound.contains(arg);
-\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}public boolean isValid() {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}return valid;
-\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}private class ArgsException extends Exception {
-\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}private abstract class ArgumentMarshaler {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}public abstract void set(String s) throws ArgsException;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}public abstract Object get();
-\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}private class BooleanArgumentMarshaler extends ArgumentMarshaler {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}private boolean booleanValue = false;
-
-\x{a0}\x{a0}\x{a0}
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}public void set(String s) {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}booleanValue = true;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}public Object get() {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}return booleanValue;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}private class StringArgumentMarshaler extends ArgumentMarshaler {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}private String stringValue = \x{201c} \x{201d};
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}public void set(String s) {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}stringValue = s;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}public Object get() {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}return stringValue;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}private class IntegerArgumentMarshaler extends ArgumentMarshaler {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}private int intValue = 0;
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}public void set(String s) throws ArgsException {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}try {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}intValue = Integer.parseInt(s);
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}} catch (NumberFormatException e) {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}throw new ArgsException();
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}public Object get() {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}return intValue;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-\x{a0}\x{a0}\x{a0}}",
-          ],
-          [
-            1,
             '[14:13] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_023.html) - 14-13',
             'So now we have completely separated the exception and error code from the Args module. (See Listing <<14-13|5a:0>> through Listing <<14-16|5a:0>>.) This was achieved through a series of about 30 tiny steps, keeping the tests passing between each step.',
-          ],
-          [
-            1,
-            '[14:13] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_023.html) - 14-13',
-            "Listing <<14-13|5a:0>> ArgsTest.java\x{a0}\x{a0}\x{a0}package com.objectmentor.utilities.args;
-
-\x{a0}\x{a0}\x{a0}import junit.framework.TestCase;
-
-\x{a0}\x{a0}\x{a0}public class ArgsTest extends TestCase {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}public void testCreateWithNoSchemaOrArguments() throws Exception {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}Args args = new Args(\x{201c}\x{201d}, new String[0]);
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}assertEquals(0, args.cardinality());
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}public void testWithNoSchemaButWithOneArgument() throws Exception {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}try {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}new Args(\x{201c}\x{201d}, new String[]{\x{201c}-x\x{201d}});
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}fail();
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}} catch (ArgsException e) {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}assertEquals(ArgsException.ErrorCode.UNEXPECTED_ARGUMENT,
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}e.getErrorCode());
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}assertEquals(\x{2018}x\x{2019}, e.getErrorArgumentId());
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}public void testWithNoSchemaButWithMultipleArguments() throws Exception {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}try {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}new Args(\x{201c}\x{201d}, new String[]{\x{201c}-x\x{201d}, \x{201c}-y\x{201d}});
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}fail();
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}} catch (ArgsException e) {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}assertEquals(ArgsException.ErrorCode.UNEXPECTED_ARGUMENT,
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}e.getErrorCode());
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}assertEquals(\x{2018}x\x{2019}, e.getErrorArgumentId());
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}public void testNonLetterSchema() throws Exception {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}try {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}new Args(\x{201c}*\x{201d}, new String[]{});
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}fail(\x{201c}Args constructor should have thrown exception\x{201d});
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}} catch (ArgsException e) {
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}assertEquals(ArgsException.ErrorCode.INVALID_ARGUMENT_NAME,
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}e.getErrorCode());
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}assertEquals(\x{2018}*\x{2019}, e.getErrorArgumentId());
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}public void testInvalidArgumentFormat() throws Exception {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}try {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}new Args(\x{201c}f~\x{201d}, new String[]{});
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}fail(\x{201c}Args constructor should have throws exception\x{201d});
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}} catch (ArgsException e) {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}assertEquals(ArgsException.ErrorCode.INVALID_FORMAT, e.getErrorCode());
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}assertEquals(\x{2018}f\x{2019}, e.getErrorArgumentId());
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}public void testSimpleBooleanPresent() throws Exception {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}Args args = new Args(\x{201c}x\x{201d}, new String[]{\x{201c}-x\x{201d}});
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}assertEquals(1, args.cardinality());
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}assertEquals(true, args.getBoolean(\x{2018}x\x{2019}));
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}public void testSimpleStringPresent() throws Exception {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}Args args = new Args(\x{201c}x*\x{201d}, new String[]{\x{201c}-x\x{201d}, \x{201c}param\x{201d}});
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}assertEquals(1, args.cardinality());
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}assertTrue(args.has(\x{2018}x\x{2019}));
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}assertEquals(\x{201c}param\x{201d}, args.getString(\x{2018}x\x{2019}));
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}public void testMissingStringArgument() throws Exception {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}try {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}new Args(\x{201c}x*\x{201d}, new String[]{\x{201c}-x\x{201d}});
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}fail();
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}} catch (ArgsException e) {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}assertEquals(ArgsException.ErrorCode.MISSING_STRING, e.getErrorCode());
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}assertEquals(\x{2018}x\x{2019}, e.getErrorArgumentId());
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}public void testSpacesInFormat() throws Exception {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}Args args = new Args(\x{201c}x, y\x{201d}, new String[]{\x{201c}-xy\x{201d}});
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}assertEquals(2, args.cardinality());
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}assertTrue(args.has(\x{2018}x\x{2019}));
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}assertTrue(args.has(\x{2018}y\x{2019}));
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}public void testSimpleIntPresent() throws Exception {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}Args args = new Args(\x{201c}x#\x{201d}, new String[]{\x{201c}-x\x{201d}, \x{201c}42\x{201d}});
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}assertEquals(1, args.cardinality());
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}assertTrue(args.has(\x{2018}x\x{2019}));
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}assertEquals(42, args.getInt(\x{2018}x\x{2019}));
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}public void testInvalidInteger() throws Exception {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}try {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}new Args(\x{201c}x#\x{201d}, new String[]{\x{201c}-x\x{201d}, \x{201c}Forty two\x{201d}});
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}fail();
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}} catch (ArgsException e) {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}assertEquals(ArgsException.ErrorCode.INVALID_INTEGER, e.getErrorCode());
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}assertEquals(\x{2018}x\x{2019}, e.getErrorArgumentId());
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}assertEquals(\x{201d}Forty two\x{201d}, e.getErrorParameter());
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}public void testMissingInteger() throws Exception {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}try {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}new Args(\x{201c}x#\x{201d}, new String[]{\x{201c}-x\x{201d}});
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}fail();
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}} catch (ArgsException e) {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}assertEquals(ArgsException.ErrorCode.MISSING_INTEGER, e.getErrorCode());
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}assertEquals(\x{2018}x\x{2019}, e.getErrorArgumentId());
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}public void testSimpleDoublePresent() throws Exception {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}Args args = new Args(\x{201c}x##\x{201d}, new String[]{\x{201c}-x\x{201d}, \x{201c}42.3\x{201d}});
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}assertEquals(1, args.cardinality());
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}assertTrue(args.has(\x{2018}x\x{2019}));
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}assertEquals(42.3, args.getDouble(\x{2018}x\x{2019}), .001);
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}public void testInvalidDouble() throws Exception {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}try {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}new Args(\x{201c}x##\x{201d}, new String[]{\x{201c}-x\x{201d}, \x{201c}Forty two\x{201d}});
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}fail();
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}} catch (ArgsException e) {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}assertEquals(ArgsException.ErrorCode.INVALID_DOUBLE, e.getErrorCode());
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}assertEquals(\x{2018}x\x{2019}, e.getErrorArgumentId());
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}assertEquals(\x{201c}Forty two\x{201d}, e.getErrorParameter());
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}public void testMissingDouble() throws Exception {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}try {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}new Args(\x{201c}x##\x{201d}, new String[]{\x{201c}-x\x{201d}});
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}fail();
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}} catch (ArgsException e) {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}assertEquals(ArgsException.ErrorCode.MISSING_DOUBLE, e.getErrorCode());
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}assertEquals(\x{2018}x\x{2019}, e.getErrorArgumentId());
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-\x{a0}\x{a0}\x{a0}}",
-          ],
-          [
-            1,
-            '[14:14] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_023.html) - 14-14',
-            "Listing <<14-14|5a:0>> ArgsExceptionTest.java\x{a0}\x{a0}\x{a0}public class ArgsExceptionTest extends TestCase {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}public void testUnexpectedMessage() throws Exception {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}ArgsException e =
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}new ArgsException(ArgsException.ErrorCode.UNEXPECTED_ARGUMENT,
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{2018}x\x{2019}, null);
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}assertEquals(\x{201c}Argument -x unexpected.\x{201d}, e.errorMessage());
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}public void testMissingStringMessage() throws Exception {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}ArgsException e = new ArgsException(ArgsException.ErrorCode.MISSING_STRING,
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{2018}x\x{2019}, null);
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}assertEquals(\x{201c}Could not find string parameter for -x.\x{201d}, e.errorMessage());
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}public void testInvalidIntegerMessage() throws Exception {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}ArgsException e =
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}new ArgsException(ArgsException.ErrorCode.INVALID_INTEGER,
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{2018}x\x{2019}, \x{201c}Forty two\x{201d});
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}assertEquals(\x{201c}Argument -x expects an integer but was \x{2018}Forty two\x{2019}.\x{201c},
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}e.errorMessage());
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}public void testMissingIntegerMessage() throws Exception {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}ArgsException e =
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}new ArgsException(ArgsException.ErrorCode.MISSING_INTEGER, \x{2018}x\x{2019}, null);
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}assertEquals(\x{201c}Could not find integer parameter for -x.\x{201d}, e.errorMessage());
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}public void testInvalidDoubleMessage() throws Exception {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}ArgsException e = new ArgsException(ArgsException.ErrorCode.INVALID_DOUBLE,
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{2018}x\x{2019}, \x{201c}Forty two\x{201d});
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}assertEquals(\x{201c}Argument -x expects a double but was \x{2018}Forty two\x{2019}.\x{201d},
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}e.errorMessage());
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}public void testMissingDoubleMessage() throws Exception {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}ArgsException e = new ArgsException(ArgsException.ErrorCode.MISSING_DOUBLE,
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{2018}x\x{2019}, null);
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}assertEquals(\x{201c}Could not find double parameter for -x.\x{201d}, e.errorMessage());
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-\x{a0}\x{a0}\x{a0}}",
-          ],
-          [
-            1,
-            '[14:15] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_023.html) - 14-15',
-            "Listing <<14-15|5a:0>> ArgsException.java\x{a0}\x{a0}\x{a0}public class ArgsException extends Exception {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}private char errorArgumentId = \x{2018}\\0\x{2019};
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}private String errorParameter = \x{201c}TILT\x{201d};
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}private ErrorCode errorCode = ErrorCode.OK;
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}public ArgsException() {}
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}public ArgsException(String message) {super(message);}
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}public ArgsException(ErrorCode errorCode) {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}this.errorCode = errorCode;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}public ArgsException(ErrorCode errorCode, String errorParameter) {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}this.errorCode = errorCode;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}this.errorParameter = errorParameter;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}public ArgsException(ErrorCode errorCode, char errorArgumentId,
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}String errorParameter) {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}this.errorCode = errorCode;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}this.errorParameter = errorParameter;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}this.errorArgumentId = errorArgumentId;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}public char getErrorArgumentId() {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}return errorArgumentId;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}public void setErrorArgumentId(char errorArgumentId) {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}this.errorArgumentId = errorArgumentId;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}public String getErrorParameter() {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}return errorParameter;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}public void setErrorParameter(String errorParameter) {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}this.errorParameter = errorParameter;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}public ErrorCode getErrorCode() {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}return errorCode;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}public void setErrorCode(ErrorCode errorCode) {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}this.errorCode = errorCode;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}public String errorMessage() throws Exception {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}switch (errorCode) {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}case OK:
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}throw new Exception(\x{201c}TILT: Should not get here.\x{201d});
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}case UNEXPECTED_ARGUMENT:
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}return String.format(\x{201c}Argument -%c unexpected.\x{201d}, errorArgumentId);
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}case MISSING_STRING:
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}return String.format(\x{201c}Could not find string parameter for -%c.\x{201d},
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}errorArgumentId);
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}case INVALID_INTEGER:
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}return String.format(\x{201c}Argument -%c expects an integer but was \x{2018}%s\x{2019}.\x{201d},
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}errorArgumentId, errorParameter);
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}case MISSING_INTEGER:
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}return String.format(\x{201c}Could not find integer parameter for -%c.\x{201d},
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}errorArgumentId);
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}case INVALID_DOUBLE:
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}return String.format(\x{201c}Argument -%c expects a double but was \x{2018}%s\x{2019}.\x{201d},
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}errorArgumentId, errorParameter);
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}case MISSING_DOUBLE:
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}return String.format(\x{201c}Could not find double parameter for -%c.\x{201d},
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}errorArgumentId);
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}return \x{201c}\x{201d};
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}public enum ErrorCode {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}OK, INVALID_FORMAT, UNEXPECTED_ARGUMENT, INVALID_ARGUMENT_NAME,
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}MISSING_STRING,
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}MISSING_INTEGER, INVALID_INTEGER,
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}MISSING_DOUBLE, INVALID_DOUBLE}
-\x{a0}\x{a0}\x{a0}}",
-          ],
-          [
-            1,
-            '[14:16] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_023.html) - 14-16',
-            "Listing <<14-16|5a:0>> Args.java\x{a0}\x{a0}\x{a0}public class Args {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}private String schema;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}private Map<Character, ArgumentMarshaler> marshalers =
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}new HashMap<Character, ArgumentMarshaler>();
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}private Set<Character> argsFound = new HashSet<Character>();
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}private Iterator<String> currentArgument;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}private List<String> argsList;
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}public Args(String schema, String[] args) throws ArgsException {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}this.schema = schema;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}argsList = Arrays.asList(args);
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}parse();
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}private void parse() throws ArgsException {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}parseSchema();
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}parseArguments();
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}private boolean parseSchema() throws ArgsException {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}for (String element : schema.split(\x{201c},\x{201d})) {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}if (element.length() > 0) {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}parseSchemaElement(element.trim());
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}return true;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}private void parseSchemaElement(String element) throws ArgsException {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}char elementId = element.charAt(0);
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}String elementTail = element.substring(1);
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}validateSchemaElementId(elementId);
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}if (elementTail.length() == 0)
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}marshalers.put(elementId, new BooleanArgumentMarshaler());
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}else if (elementTail.equals(\x{201c}*\x{201d}))
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}marshalers.put(elementId, new StringArgumentMarshaler());
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}else if (elementTail.equals(\x{201c}#\x{201d}))
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}marshalers.put(elementId, new IntegerArgumentMarshaler());
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}else if (elementTail.equals(\x{201c}##\x{201d}))
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}marshalers.put(elementId, new DoubleArgumentMarshaler());
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}else
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}throw new ArgsException(ArgsException.ErrorCode.INVALID_FORMAT,
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}elementId, elementTail);
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}private void validateSchemaElementId(char elementId) throws ArgsException {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}if (!Character.isLetter(elementId)) {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}throw new ArgsException(ArgsException.ErrorCode.INVALID_ARGUMENT_NAME,
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}elementId, null);
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}private void parseArguments() throws ArgsException {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}for (currentArgument = argsList.iterator(); currentArgument.hasNext();) {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}String arg = currentArgument.next();
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}parseArgument(arg);
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}private void parseArgument(String arg) throws ArgsException {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}if (arg.startsWith(\x{201c}-\x{201d}))
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}parseElements(arg);
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}private void parseElements(String arg) throws ArgsException {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}for (int i = 1; i < arg.length(); i++)
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}parseElement(arg.charAt(i));
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}private void parseElement(char argChar) throws ArgsException {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}if (setArgument(argChar))
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}argsFound.add(argChar);
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}else {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}throw new ArgsException(ArgsException.ErrorCode.UNEXPECTED_ARGUMENT,
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}argChar, null);
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}private boolean setArgument(char argChar) throws ArgsException {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}ArgumentMarshaler m = marshalers.get(argChar);
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}if (m == null)
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}return false;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}try {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}m.set(currentArgument);
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}return true;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}} catch (ArgsException e) {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}e.setErrorArgumentId(argChar);
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}throw e;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}public int cardinality() {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}return argsFound.size();
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}public String usage() {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}if (schema.length() > 0)
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}return \x{201c}-[\x{201d} + schema + \x{201c}]\x{201d};
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}else
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}return \x{201c}\x{201d};
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}public boolean getBoolean(char arg) {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}ArgumentMarshaler am = marshalers.get(arg);
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}boolean b = false;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}try {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}b = am != null && (Boolean) am.get();
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}} catch (ClassCastException e) {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}b = false;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}return b;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}public String getString(char arg) {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}ArgumentMarshaler am = marshalers.get(arg);
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}try {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}return am == null ? \x{201c}\x{201d} : (String) am.get();
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}} catch (ClassCastException e) {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}return \x{201c}\x{201d};
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}public int getInt(char arg) {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}ArgumentMarshaler am = marshalers.get(arg);
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}try {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}return am == null ? 0 : (Integer) am.get();
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}} catch (Exception e) {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}return 0;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}public double getDouble(char arg) {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}ArgumentMarshaler am = marshalers.get(arg);
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}try {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}return am == null ? 0 : (Double) am.get();
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}} catch (Exception e) {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}return 0.0;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}public boolean has(char arg) {
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}return argsFound.contains(arg);
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-\x{a0}\x{a0}\x{a0}}",
           ],
           [
             1,
@@ -1245,17 +217,38 @@ $VAR1 = [
           ],
           [
             1,
-            "[14:15] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_031.html) - 14\x{2013}15",
-            "encapsulating, 304testing, 314boundary tests, easing a migration, 118 \x{201c}Bowling Game\x{201d}, 312
-Boy Scout Rule, <<14\x{2013}15|5a:0>>, 257
-following, 284satisfying, 265broken windows metaphor, 8",
+            "[13:14] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_031.html) - 13\x{2013}14",
+            "authors of JUnit, 252
+programmers as, <<13\x{2013}14|5a:0>>
+authorship statements, 55",
           ],
           [
             1,
             "[14:15] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_031.html) - 14\x{2013}15",
-            "cleanliness
-acquired sense of, 6\x{2013}7tied to tests, 9cleanup, of code, <<14\x{2013}15|5a:0>>
+            "boundary tests, easing a migration, 118 \x{201c}Bowling Game\x{201d}, 312
+Boy Scout Rule, <<14\x{2013}15|5a:0>>, 257
+following, 284",
+          ],
+          [
+            1,
+            "[ap 07:12] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_031.html) - 7\x{2013}12",
+            "art of, 6\x{2013}7
+described, <<7\x{2013}12|5a:0>>
+writing, 6\x{2013}7",
+          ],
+          [
+            1,
+            "[14:15] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_031.html) - 14\x{2013}15",
+            "tied to tests, 9
+cleanup, of code, <<14\x{2013}15|5a:0>>
 clever names, 26",
+          ],
+          [
+            1,
+            "[18:19] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_031.html) - 18\x{2013}19",
+            "formatting of, 76
+implicity of, <<18\x{2013}19|5a:0>>
+instrumenting, 188, 342",
           ],
           [
             1,
@@ -1288,7 +281,16 @@ efficiency, of code, 7",
           [
             1,
             "[23:24] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_031.html) - 23\x{2013}24",
-            "of boundary conditions, 304breaking, 106\x{2013}107of conditionals, 301encodings, avoiding, <<23\x{2013}24|5a:0>>, 312\x{2013}313",
+            "of conditionals, 301
+encodings, avoiding, <<23\x{2013}24|5a:0>>, 312\x{2013}313
+entity bean, 158\x{2013}160",
+          ],
+          [
+            1,
+            "[ap 10:11] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_031.html) - 10\x{2013}11",
+            "expressiveness
+in code, <<10\x{2013}11|5a:0>>
+ensuring, 175\x{2013}176",
           ],
           [
             1,
@@ -1300,7 +302,7 @@ Hunt, Andy, 8, 289",
           [
             1,
             "[18:19] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_031.html) - 18\x{2013}19",
-            "explaining in code, 55explanation of, 56\x{2013}57obscured, 295intention-revealing function, 19
+            "intention-revealing function, 19
 intention-revealing names, <<18\x{2013}19|5a:0>>
 interface(s)",
           ],
@@ -1314,17 +316,66 @@ jiggling strategies, 190",
           [
             1,
             "[ap 04:12] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_031.html) - 4\x{2013}12",
-            "f prefix for, 257prefixing, 24renaming for clarity, 259mental mapping, avoiding, 25
+            "mental mapping, avoiding, 25
 messy code. See also
 bad code; dirty code total cost of owning, <<4\x{2013}12|5a:0>>
 method invocations, 324",
           ],
           [
             1,
+            "[18:19] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_031.html) - 18\x{2013}19",
+            "importance of, 309\x{2013}310
+intention-revealing, <<18\x{2013}19|5a:0>>
+length of corresponding to scope, 22\x{2013}23",
+          ],
+          [
+            1,
+            "[18:19] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_031.html) - 18\x{2013}19",
+            "intention-revealing, <<18\x{2013}19|5a:0>>
+length of corresponding to scope, <<22\x{2013}23|5a:0>>
+long names for long scopes, 312",
+          ],
+          [
+            1,
             "[21:22] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_031.html) - 21\x{2013}22",
-            "defined, 2structured, 48\x{2013}49programs, getting them to work, 201
+            "problem domain, 27
+pronounceable, <<21\x{2013}22|5a:0>>
+rules for creating, 18\x{2013}30",
+          ],
+          [
+            1,
+            "[21:22] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_031.html) - 21\x{2013}22",
+            "pronounceable, <<21\x{2013}22|5a:0>>
+rules for creating, 18\x{2013}30
+searchable, 22\x{2013}23",
+          ],
+          [
+            1,
+            "[18:30] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_031.html) - 18\x{2013}30",
+            "rules for creating, <<18\x{2013}30|5a:0>>
+searchable, 22\x{2013}23
+shorter generally better than longer, 30",
+          ],
+          [
+            1,
+            "[13:14] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_031.html) - 13\x{2013}14",
+            "programmers
+as authors, <<13\x{2013}14|5a:0>>
+conundrum faced by, 6",
+          ],
+          [
+            1,
+            "[21:22] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_031.html) - 21\x{2013}22",
+            "programs, getting them to work, 201
 pronounceable names, <<21\x{2013}22|5a:0>>
 protected variables, avoiding, 80",
+          ],
+          [
+            1,
+            "[13:14] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_031.html) - 13\x{2013}14",
+            "readers
+of code, <<13\x{2013}14|5a:0>>
+continuous, 184",
           ],
           [
             1,
@@ -1336,7 +387,9 @@ scissors rule, in C++, 81",
           [
             1,
             "[22:23] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_031.html) - 22\x{2013}23",
-            "defined by exceptions, 105dummy, 90envying, 293expanding and indenting, 89hierarchy in a source file, 88limiting for data, 181names related to the length of, <<22\x{2013}23|5a:0>>, 312of shared variables, 333searchable names, <<22\x{2013}23|5a:0>>",
+            "limiting for data, 181
+names related to the length of, <<22\x{2013}23|5a:0>>, 312
+of shared variables, 333",
           ],
           [
             1,
@@ -1366,7 +419,7 @@ scissors rule, in C++, 81",
           [
             1,
             '[12:00] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_045.html) - noon',
-            "\x{2022} If you set a meeting for <<noon|13>> at a cafe downtown with a colleague and you get stuck in traffic, you doubt you\x{2019}ll be able to follow through on your commitment to be there on time. You can call your colleague as soon as you realize you might be late, and let them know. Maybe you can find a closer place to meet, or perhaps postpone the meeting.\x{2022} If you committed to solving a bug you thought was solvable and you realize at some point the bug is much more hideous than previously thought, you can raise the flag. The team can then decide on a course of action to make that commitment (pairing, spiking on potential solutions, brainstorming) or change the priority and move you over to another simpler bug.One important point here is: If you don\x{2019}t tell anyone about the potential problem as soon as possible, you\x{2019}re not giving anyone a chance to help you follow through on your commitment.",
+            "\x{2022} If you set a meeting for <<noon|13>> at a cafe downtown with a colleague and you get stuck in traffic, you doubt you\x{2019}ll be able to follow through on your commitment to be there on time. You can call your colleague as soon as you realize you might be late, and let them know. Maybe you can find a closer place to meet, or perhaps postpone the meeting.",
           ],
           [
             1,
@@ -1408,29 +461,63 @@ The worst code I ever wrote was at <<3 AM|5>>. The year was 1988, and I was work
           [
             1,
             '[12:00] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_049.html) - Noon',
-            "Sam (stakeholder): \x{201c}OK, now these log files need to be backed up.\x{201d}Paula: \x{201c}OK, how often?\x{201d}Sam: \x{201c}Daily.\x{201d}Paula: \x{201c}Right. And where do you want it saved?\x{201d}Sam: \x{201c}What do you mean?\x{201d}Paula: \x{201c}Do you want me to save it a particular sub-directory?\x{201d}Sam: \x{201c}Yes, that\x{2019}d be good.\x{201d}Paula: \x{201c}What shall we call it?\x{201d}Sam: \x{201c}How about \x{2018}backup\x{2019}?\x{201d}Paula: \x{201c}Sure, that\x{2019}d be fine. So we\x{2019}ll write the log file into the backup directory every day. What time?\x{201d}Sam: \x{201c}Every day.\x{201d}Paula: \x{201c}No, I mean what time of day do you want it written?\x{201d}Sam: \x{201c}Any time.\x{201d}Paula: \x{201c}<<Noon|13>>?\x{201d}Sam: \x{201c}No, not during trading hours. <<Midnight|13>> would be better.\x{201d}Paula: \x{201c}OK, <<midnight|13>> then.\x{201d}Sam: \x{201c}Great, thanks!\x{201d}Paula: \x{201c}Always a pleasure.\x{201d}Later, Paula is telling her teammate Peter about the task.",
+            "Sam: \x{201c}Any time.\x{201d}
+Paula: \x{201c}<<Noon|13>>?\x{201d}
+Sam: \x{201c}No, not during trading hours. <<Midnight|13>> would be better.\x{201d}",
+          ],
+          [
+            1,
+            '[12:00] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_049.html) - Noon',
+            "Paula: \x{201c}<<Noon|13>>?\x{201d}
+Sam: \x{201c}No, not during trading hours. <<Midnight|13>> would be better.\x{201d}
+Paula: \x{201c}OK, <<midnight|13>> then.\x{201d}",
+          ],
+          [
+            1,
+            '[00:00] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_049.html) - Midnight',
+            "Sam: \x{201c}No, not during trading hours. <<Midnight|13>> would be better.\x{201d}
+Paula: \x{201c}OK, <<midnight|13>> then.\x{201d}
+Sam: \x{201c}Great, thanks!\x{201d}",
           ],
           [
             1,
             '[00:00] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_049.html) - midnight',
-            "Paula: \x{201c}OK, we need to copy the log file into a sub-directory named backup every night at <<midnight|13>>.\x{201d}Peter: \x{201c}OK, what file name should we use?\x{201d}Paula: \x{201c}log.backup ought to do it.\x{201d}Peter: \x{201c}You got it.\x{201d}In a different office, Sam is on the phone with his customer.",
+            "Paula: \x{201c}OK, we need to copy the log file into a sub-directory named backup every night at <<midnight|13>>.\x{201d}",
           ],
           [
             1,
             '[00:00] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_049.html) - midnight',
-            "Sam: \x{201c}Yes, yes, the log files will be saved.\x{201d}Carl: \x{201c}OK, it\x{2019}s vital that we never lose any logs. We need to go back through all those log files, even months or years later, whenever there\x{2019}s an outage, event, or dispute.\x{201d}Sam: \x{201c}Don\x{2019}t worry, I just spoke to Paula. She\x{2019}ll be saving the logs into a directory named backup every night at <<midnight|13>>.\x{201d}Carl: \x{201c}OK, that sounds good.\x{201d}I presume you\x{2019}ve detected the ambiguity. The customer expects all log files to be saved, and Paula simply thought they wanted to save last night\x{2019}s log file. When the customer goes looking for months\x{2019} worth of log file backups, they\x{2019}ll just find last night\x{2019}s.",
+            "Sam: \x{201c}Don\x{2019}t worry, I just spoke to Paula. She\x{2019}ll be saving the logs into a directory named backup every night at <<midnight|13>>.\x{201d}",
+          ],
+          [
+            1,
+            '[ap 02:57] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_049.html) - 2.57',
+            'execute 15 post transactions and accumulate times.
+ensure that the Z score for 2 seconds is at least <<2.57|5a:0>>',
           ],
           [
             1,
             '[06:00] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_051.html) - 6 AM',
-            "\x{2022} I awoke at 5 every morning and rode my bicycle to the office in Bracknell by <<6 AM|5>>. That gave me  hours of quiet time before the chaos of the day began.\x{2022} Upon arrival I would write a schedule on my board. I divided time into 15-minute increments and filled in the activity I would work on during that block of time.\x{2022} I completely filled the first 3 hours of that schedule. Starting at <<9 AM|9g>> I started leaving one 15-minute gap per hour; that way I could quickly push most interruptions into one of those open slots and continue working.\x{2022} I left the time after lunch unscheduled because I knew that by then all hell would have broken loose and I\x{2019}d have to be in reactive mode for the rest of the day. During those rare afternoon periods that the chaos did not intrude, I simply worked on the most important thing until it did.This scheme did not always succeed. Waking up at <<5 AM|5>> was not always feasible, and sometimes the chaos broke through all my careful strategies and consumed my day. But for the most part I was able to keep my head above water.",
+            "\x{2022} I awoke at 5 every morning and rode my bicycle to the office in Bracknell by <<6 AM|5>>. That gave me  hours of quiet time before the chaos of the day began.",
+          ],
+          [
+            1,
+            '[09:00] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_051.html) - 9 AM',
+            "\x{2022} I completely filled the first 3 hours of that schedule. Starting at <<9 AM|9g>> I started leaving one 15-minute gap per hour; that way I could quickly push most interruptions into one of those open slots and continue working.",
+          ],
+          [
+            1,
+            '[05:00] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_051.html) - 5 AM',
+            'This scheme did not always succeed. Waking up at <<5 AM|5>> was not always feasible, and sometimes the chaos broke through all my careful strategies and consumed my day. But for the most part I was able to keep my head above water.',
           ],
           [
             1,
             '[ap 03:24] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_052.html) - 3.24',
-            "\x{2022} For any sequence of tasks the expected duration of that sequence is the simple sum of all the expected durations of the tasks in that sequence. So if Peter has three tasks to complete, and their estimates are 4.2/1.8, 3.5/2.2, and 6.5/1.3, then Peter will likely be done with all three in about 14 days: 4.2 + 3.5 + 6.5.\x{2022} The standard deviation of the sequence is the square root of the sum of the squares of the standard deviations of the tasks. So the standard deviation for all three of Peter\x{2019}s tasks is about 3.(1.8 + 2.2 + 1.3) =
+            "The standard deviation of the sequence is the square root of the sum of the squares of the standard deviations of the tasks. So the standard deviation for all three of Peter\x{2019}s tasks is about 3.
+(1.8 + 2.2 + 1.3) =
 (<<3.24|5a:0>> + <<2.48|5a:0>> + 1.69) =
-9.77 = ~ 3.13This tells Mike that Peter\x{2019}s tasks will likely take 14 days, but could very well take 17 days (1\x{3c3}) and could possibly even take 20 days (2\x{3c3}). It could even take longer, but that\x{2019}s pretty unlikely.",
+9.77 = ~ <<3.13|5a:0>>
+This tells Mike that Peter\x{2019}s tasks will likely take 14 days, but could very well take 17 days (1\x{3c3}) and could possibly even take 20 days (2\x{3c3}). It could even take longer, but that\x{2019}s pretty unlikely.",
           ],
           [
             1,
@@ -1445,7 +532,7 @@ The worst code I ever wrote was at <<3 AM|5>>. The year was 1988, and I was work
           [
             1,
             '[20:08] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_057.html) - 2008',
-            'Until <<2008|9:0>> I avoided all but the simplest forms of branching. If a developer created a branch, that branch had to be brought back into the main line before the end of the iteration. Indeed, I was so austere about branching that it was very rarely done in the projects I was involved with.',
+            'Until <<2008|9n:0>> I avoided all but the simplest forms of branching. If a developer created a branch, that branch had to be brought back into the main line before the end of the iteration. Indeed, I was so austere about branching that it was very rarely done in the projects I was involved with.',
           ],
           [
             1,
@@ -1455,14 +542,30 @@ The worst code I ever wrote was at <<3 AM|5>>. The year was 1988, and I was work
           [
             1,
             "[20:23] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_058.html) - 20\x{2013}23",
-            "automated, 97\x{2013}99communication and, 97continuous integration and, 104\x{2013}105definition of, 94developer\x{2019}s role in, 100\x{2013}101extra work and, 99GUIs and, 103\x{2013}105negotiation and, 101\x{2013}102passive aggression and, 101\x{2013}102timing of, 99\x{2013}100unit tests and, 102\x{2013}103writers of, 99\x{2013}100Adversarial roles, <<20\x{2013}23|5a:0>>",
+            "writers of, 99\x{2013}100
+Adversarial roles, <<20\x{2013}23|5a:0>>
+Affinity estimation, 140\x{2013}141",
+          ],
+          [
+            1,
+            '[03:00] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_058.html) - 3 AM',
+            "owned, 157
+<<3 AM|5>>, 53\x{2013}54
+worry, 54\x{2013}55",
           ],
           [
             1,
             "[ap 05:10] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_058.html) - 5\x{2013}10",
             "\x{201c}Done,\x{201d} defining, 67, 94\x{2013}97
 \x{201c}Do no harm\x{201d} approach, <<5\x{2013}10|5a:0>>
-to function, 5\x{2013}8to structure, 8\x{2013}10Driving, 64",
+to function, 5\x{2013}8",
+          ],
+          [
+            1,
+            "[ap 08:10] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_058.html) - 8\x{2013}10",
+            "to function, 5\x{2013}8
+to structure, <<8\x{2013}10|5a:0>>
+Driving, 64",
           ],
           [
             1,
@@ -1473,8 +576,17 @@ Graphical user interfaces (GUIs), 103\x{2013}105",
           ],
           [
             1,
+            "[ap 11:13] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_058.html) - 11\x{2013}13",
+            "minimal, 12
+work ethic and, <<11\x{2013}13|5a:0>>
+L",
+          ],
+          [
+            1,
             "[14:15] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_058.html) - 14\x{2013}15",
-            "agenda in, 118arguments and disagreements in, 120\x{2013}121declining, 117demo, 120goals in, 118iteration planning, 119iteration retrospective, 120leaving, 118stand-up, 119time management and, 116\x{2013}121Mentoring, <<14\x{2013}15|5a:0>>, 69\x{2013}70, 174\x{2013}180",
+            "time management and, 116\x{2013}121
+Mentoring, <<14\x{2013}15|5a:0>>, 69\x{2013}70, 174\x{2013}180
+Merciless refactoring, 9",
           ],
           [
             1,
@@ -1485,8 +597,36 @@ Overtime, 66",
           ],
           [
             1,
+            "[13:14] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_058.html) - 13\x{2013}14",
+            "turnaround time and, 82\x{2013}83
+work ethic and, <<13\x{2013}14|5a:0>>
+Precision, premature, in requirements, 91\x{2013}92",
+          ],
+          [
+            1,
+            "[ap 05:10] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_058.html) - 5\x{2013}10",
+            "apologies and, 6
+\x{201c}do no harm\x{201d} approach and, <<5\x{2013}10|5a:0>>
+function and, 5\x{2013}8",
+          ],
+          [
+            1,
+            "[ap 08:10] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_058.html) - 8\x{2013}10",
+            "function and, 5\x{2013}8
+structure and, <<8\x{2013}10|5a:0>>
+work ethic and, 10\x{2013}16",
+          ],
+          [
+            1,
+            "[ap 08:10] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_058.html) - 8\x{2013}10",
+            "structure and, <<8\x{2013}10|5a:0>>
+work ethic and, <<10\x{2013}16|5a:0>>
+RobotFX, 200",
+          ],
+          [
+            1,
             "[20:23] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_058.html) - 20\x{2013}23",
-            "apologies and, 6\x{201c}do no harm\x{201d} approach and, 5\x{2013}10function and, 5\x{2013}8structure and, 8\x{2013}10work ethic and, 10\x{2013}16RobotFX, 200
+            "RobotFX, 200
 Roles, adversarial, <<20\x{2013}23|5a:0>>
 Rushing, 34\x{2013}35, 65\x{2013}66",
           ],
@@ -1499,10 +639,17 @@ Stand-up meetings, 119",
           ],
           [
             1,
+            "[ap 08:10] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_058.html) - 8\x{2013}10",
+            "Structure
+in \x{201c}do no harm\x{201d} approach, <<8\x{2013}10|5a:0>>
+flexibility and, 9",
+          ],
+          [
+            1,
             "[00:30] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_058.html) - 24\x{2013}30",
             "Task estimation, 138\x{2013}141
 Teams and teamwork, <<24\x{2013}30|5a:0>>
-gelled, 162\x{2013}164management of, 164passive aggression and, 28\x{2013}30preserving, 163project-initiated, 163\x{2013}164project owner dilemma with, 164\x{2013}165trying and, 26\x{2013}28velocity of, 164Test driven development (TDD)",
+gelled, 162\x{2013}164",
           ],
           [
             1,
@@ -1516,6 +663,27 @@ Time, debugging, 63",
             "[ap 10:16] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_058.html) - 10\x{2013}16",
             "\x{201c}Wish,\x{201d} 42
 Work ethic, <<10\x{2013}16|5a:0>>
-collaboration and, 14continuous learning and, 13knowledge and, 11\x{2013}13mentoring and, 14\x{2013}15practice and, 13\x{2013}14Worry code, 54\x{2013}55",
+collaboration and, 14",
+          ],
+          [
+            1,
+            "[ap 11:13] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_058.html) - 11\x{2013}13",
+            "continuous learning and, 13
+knowledge and, <<11\x{2013}13|5a:0>>
+mentoring and, 14\x{2013}15",
+          ],
+          [
+            1,
+            "[ap 11:13] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_058.html) - 11\x{2013}13",
+            "knowledge and, <<11\x{2013}13|5a:0>>
+mentoring and, 14\x{2013}15
+practice and, 13\x{2013}14",
+          ],
+          [
+            1,
+            "[14:15] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_058.html) - 14\x{2013}15",
+            "mentoring and, <<14\x{2013}15|5a:0>>
+practice and, 13\x{2013}14
+Worry code, 54\x{2013}55",
           ],
         ];

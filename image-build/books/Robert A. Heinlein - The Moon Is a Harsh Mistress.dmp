@@ -1,53 +1,6 @@
 $VAR1 = [
           [
             1,
-            '[ap 09:10] The Moon Is a Harsh Mistress - Robert A. Heinlein.epub (index_split_001.html) - Nine
-Ten',
-            'One
-Two
-Three
-Four
-Five
-Six
-Seven
-Eight
-<<Nine
-Ten|5k:1>>
-<<Eleven
-Twelve|5k:1>>
-Thirteen
-Book Two - A RABBLE IN ARMS',
-          ],
-          [
-            1,
-            '[14:15] The Moon Is a Harsh Mistress - Robert A. Heinlein.epub (index_split_001.html) - Fourteen
-Fifteen',
-            "<<Fourteen
-Fifteen|5k:1>>
-<<Sixteen
-Seventeen|5k:1>>
-<<Eighteen
-Nineteen|5k:1>>
-<<Twenty
-Twenty-one|5k:1>>
-Twenty-two
-Book Three - \x{201c}TANSTAAFL!\x{201d}",
-          ],
-          [
-            1,
-            '[23:24] The Moon Is a Harsh Mistress - Robert A. Heinlein.epub (index_split_001.html) - Twenty-three
-Twenty-four',
-            '<<Twenty-three
-Twenty-four|5k:1>>
-Twenty-five
-Twenty-six
-Twenty-seven
-Twenty-eight
-Twenty-nine
-Thirty',
-          ],
-          [
-            1,
             '[21:00] The Moon Is a Harsh Mistress - Robert A. Heinlein.epub (index_split_004.html) - 2100',
             'I took Trans-Crisium tube to L-City but did not go home; Mike had asked about a meeting that night at <<2100|18:0>> in Stilyagi Hall. Mike monitored concerts, meetings, and so forth; someone had switched off by hand his pickups in Stilyagi Hall. I suppose he felt rebuffed.',
           ],
@@ -198,7 +151,7 @@ I left and as soon as was loaded into lorry gave way to shakes. Just don\x{2019}
           [
             1,
             '[ap ~ 08:00] The Moon Is a Harsh Mistress - Robert A. Heinlein.epub (index_split_029.html) - About 0800',
-            "<<About 0800|9:0>> Mike said, \x{201c}Man my oldest and best friend, may I say something without offending you?\x{201d}",
+            "<<About 0800|9u>> Mike said, \x{201c}Man my oldest and best friend, may I say something without offending you?\x{201d}",
           ],
           [
             1,
