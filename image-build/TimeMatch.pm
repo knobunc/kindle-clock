@@ -1114,6 +1114,7 @@ sub get_matches {
                    (?<t1> ( $rel_words \s+ )?
                      (?<hm> $hour24_re ( ($hy|[.:\s])* $min0_re )? )
                      (?! $never_follow_times_re )
+                     ( ($hy|\s)+ $oclock_re )?
                      (?<ap> $ampm_ph_re )?
                    )
                    $ba_re

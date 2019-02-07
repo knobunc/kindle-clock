@@ -52,7 +52,7 @@ exit main(@ARGV);
 
 
 sub main {
-    my ($force, $which) = handle_args(@_);
+    my ($force, $which, $quiet) = handle_args(@_);
 
     my $mp = MultiProcessBooks->new(dir => 't/books');
 
@@ -74,5 +74,5 @@ sub handle_args {
         $force = 0;
     }
 
-    return ($force, $which);
+    return ($force, $which, 0);
 }

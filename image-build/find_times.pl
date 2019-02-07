@@ -19,6 +19,27 @@ use TimeMatch;
 
 $Data::Dumper::Trailingcomma = 1;
 
+# These are the allowed line lengths for books
+my %book_len =
+    ('David Foster Wallace' =>
+         {'Brief Interviews With Hideous Men_ Stories' => 20_000,
+          'Infinite Jest'                              => 50_000, # He's wordy :-)
+         },
+     'David Peace' =>
+         {'Occupied City'                              => 12_000},
+    );
+
+# Whether to split on something else
+my %book_split =
+    ('Edgar Allan Poe' =>
+         {'The Works of Edgar Allan Poe, Volume 5' => qr{<br/><br/>}i},
+     'Gene Wolfe' =>
+         {'The Fifth Head of Cerberus'             => qr{<br class="calibre12"/>}i},
+     'H. P. Lovecraft' =>
+         {'The Horror at Red Hook'                 => qr{<br/>}i},
+    );
+
+
 exit main(@ARGV);
 
 # For highlighting:
@@ -42,6 +63,9 @@ sub search_zip {
     my ($author, $book) =
         $file =~ m{ /Calibre \s Library/ (?<a> [^/]+) / (?<b> [^/]+) / [^/]+.epub \z }xin
         or die "Unable to work out an author and book from '$file'";
+
+    # Chop the calibre id
+    (my $s_book = $book) =~ s{\s\(\d+\)\z}{};
 
     my $output_dump = 1;
     my @res;
@@ -84,18 +108,52 @@ sub search_zip {
             die "Unable to extract the body from '$name'";
         }
 
-        my @raw_lines = split m{</(?:p|div)>\R*}, $contents;
+        # Split the lines
+        my $book_split = $book_split{$author}{$s_book} // qr{(*FAIL)};
+        my @raw_lines = split m{ ( </(?:pre|p|address|dl|ol|ul|li|dd|dt
+                                     |hr|div|blockquote|h[1-6]|td|th
+                                     )>
+                                 | </span> \s* <br \s* /?>
+                                 | $book_split
+                                 ) \R*
+                               }xin, $contents;
         my @lines;
+      LINE_LOOP:
         foreach my $line (@raw_lines) {
+            # Skip blank lines
+            next LINE_LOOP
+                if $line =~ m{\A \s* \z}xin;
+
             ## First clean out html and turn to text
             $line =~ s{<(sup|h1|h2|h3) [^>/]+>.*?</\g1>}{}sgix;
-            $line =~ s{<br [^>]+ /? >}{\n}sgix;
+            $line =~ s{<br [^>]+ /? > \R* }{\n}sgix;
             $line =~ s{< /? [^>]+ >}{}sgix;
             $line = XML::Entities::decode('all', $line);
 
-            # Clean the start and end of whitespace
-            $line =~ s{\A \s+   }{}x;
-            $line =~ s{   \s+ \z}{}x;
+            # Clean whitespace from the end of all lines
+            $line =~ s{ \s+ $}{}xmg;
+
+            # Remove whitespace from the start of the first line and measure the length.
+            # Then remove up to that many spaces from the next line.
+            $line =~ s{\A ( \s+ ) }{}x;
+            if ( my $ws_len = length($1) ) {
+                if ($ws_len < 100) {
+                    $line =~ s{^ \s{0,$ws_len} }{}xmg;
+                }
+                else {
+                    $line =~ s{^ \s+ }{}xmg;
+                }
+            }
+
+            # See if the formatting is stupid and the paragraphs aren't reasonable sizes
+            # (usually indicating that a line is a full chapter)
+            my $len = length($line);
+            my $max_len = $book_len{$author}{$s_book} // 10_000;
+
+            die "Long line $len in '$author' '$book' '$name': ".substr($line, 0, 200)."\n"
+                if $len > $max_len and
+                   $line =~ /\R/ and
+                   $line !~ m{PROJECT GUTENBERG LICENSE|Project Gutenberg eBooks are often created};
 
             push @lines, $line;
         }

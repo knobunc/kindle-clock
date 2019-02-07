@@ -30,8 +30,9 @@ sub new {
     my ($class, %args) = @_;
 
     my $self =
-        {dir        => ( $args{dir}       // croak "Missing arg dir" ),
+        {dir        => ( $args{dir}     // croak "Missing arg dir" ),
          num_tasks  => $args{num_tasks} || get_num_tasks(),
+         quiet      => $args{quiet}     || 0,
          pm         => undef,
          tasks      => {},
          task_order => [],
@@ -55,7 +56,10 @@ sub new {
 
             # retrieve data structure from child
             if (defined($res)) {  # children are not forced to send anything
-                $self->get_task($ident)->{dur} = $res->{dur};
+                my $t = $self->get_task($ident);
+                $t->{dur}    = $res->{dur};
+                $t->{exit}   = $exit_code > 0 ? $exit_code : $res->{exit};
+                $t->{stderr} = $res->{stderr};
             }
             else {  # problems occurring during storage or retrieval will throw a warning
                 print qq|No message received from child process $pid!\n|;
@@ -122,11 +126,11 @@ sub start_job {
     my $start = time;
 
     # Run the task
-    $self->get_task($s)->{code}->();
+    my ($exit, $stderr) = $self->get_task($s)->{code}->();
 
     my $dur = time - $start;
 
-    $pm->finish($?, {dur => $dur});
+    $pm->finish($exit, {dur => $dur, stderr => $stderr, exit => $exit});
 
     return;
 }
@@ -179,6 +183,8 @@ sub print_task_start {
 
     my $i = $self->get_task($task_name);
 
+    return if $self->{quiet} and $i->{skip};
+
     my ($skip, $author, $book, $size )
         = @{$i}{qw{ skip author book size }};
 
@@ -211,17 +217,28 @@ sub print_task_end {
 
     my $i = $self->get_task($task_name);
 
+    return if $self->{quiet} and $i->{skip};
+
     my $status = "";
-    $status = sprintf(" %sDone%s: %s%3ds%s  %6.2fk/s",
-                      color('bold green'),            color('reset'),
-                      color('bold blue'),  $i->{dur}, color('reset'),
-                      $i->{size} / $i->{dur} / 1000,
-                      )
-        unless $i->{skip};
+    my $err    = "";
+    if (not $i->{skip}) {
+        if ($i->{exit} == 0) {
+            $status = sprintf(" %sDone%s: %s%3ds%s  %6.2fk/s",
+                              color('bold green'),            color('reset'),
+                              color('bold blue'),  $i->{dur}, color('reset'),
+                              $i->{size} / $i->{dur} / 1000 );
+        }
+        else {
+            $status = sprintf(" %sFAILED%s", color('bold red'), color('reset'));
+            $err    = $i->{stderr} // '';
+            $err    =~ s{\R*\z}{\n\n};
+        }
+    }
+
 
     my $pad = $self->{display}{status} - length(colorstrip($status));
 
-    $self->_print_status(" "x$pad . $status . "\n");
+    $self->_print_status(" "x$pad . $status . "\n" . $err);
 
     return;
 }
@@ -363,6 +380,9 @@ sub eta {
             $rem_size += $t->{size} / 1000;
         }
         elsif (defined $t->{dur}) {
+            # Ignore ones that errored
+            next if $t->{exit} != 0;
+
             # Finished tasks
             $done++;
             $done_time += $t->{dur};
@@ -509,17 +529,25 @@ sub add_sources {
         # Put the code to run for the task together
         my $code =
             sub {
+                # Remove the target file
+                if (-f $dest_file) {
+                    unlink $dest_file
+                        or die "Unable to remove file '$dest_file': $!";
+                }
 
+                # Run the command and capture the output
                 my ($stdout, $stderr, $exit) = capture {
                     system('./find_times.pl', $source_file);
                 };
 
-                die "Failed to run './find_times.pl \"$source_file\"' (exit $exit): $stderr"
-                    if $exit != 0;
+                if ($exit != 0) {
+                    return ($exit,
+                            "Failed to run './find_times.pl \"$source_file\"' (exit $exit): $stderr");
+                }
 
                 write_binary($dest_file, $stdout);
 
-                return $exit;
+                return 0;
         };
 
         my $skip = 0;
