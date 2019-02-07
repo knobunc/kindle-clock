@@ -112,9 +112,9 @@ $VAR1 = [
           [
             1,
             '[< 12:00] Rabbit at Rest - John Updike.epub (Rabbit_at_rest_split_002.html) - toward noon',
-            "
+            "\x{201c}Did you notice in the kitchen what time it was?\x{201d}
 \x{201c}Getting <<toward noon|13>>, why?\x{201d}
-",
+\x{201c}I was thinking what a pain in the ass it is to have only one car down here. If nobody minds, when they get back, I could run some errands.\x{201d}",
           ],
           [
             1,
@@ -259,9 +259,9 @@ $VAR1 = [
           [
             1,
             '[ap 09:15] Rabbit at Rest - John Updike.epub (Rabbit_at_rest_split_005.html) - Quarter after nine',
-            "
+            "He asks her, \x{201c}What time is it, anyway?\x{201d}
 \x{201c}<<Quarter after nine|10>> or so.\x{201d}
-",
+Janice would get back at <<ten-thirty|5b>> at the earliest. There was plenty of time to see this through. He relaxes back into his pillows. Good he had that nap this afternoon. \x{201c}Is that how you see it?\x{201d} he asks. \x{201c}He was a shit to you?\x{201d}",
           ],
           [
             1,

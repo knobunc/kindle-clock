@@ -2,1183 +2,401 @@ $VAR1 = [
           [
             1,
             '[23:57] Pro Git - Scott Chacon.epub (OEBPS/B-embedding-git-in-your-applications.xhtml) - 23:57',
-            "from dulwich import porcelain
-porcelain.log('.', max_entries=1)
-#commit: 57fbe010446356833a6ad1600059d80b1e731e15
-#Author: Jelmer Vernoo\x{133} <jelmer\@jelmer.uk>
-#Date:   Sat Apr 29 2017 <<23:57|2>>:34 +0000",
+            " from dulwich import porcelain porcelain.log('.', max_entries=1) #commit: 57fbe010446356833a6ad1600059d80b1e731e15 #Author: Jelmer Vernoo\x{133} <jelmer\@jelmer.uk> #Date: Sat Apr 29 2017 <<23:57|2>>:34 +0000",
           ],
           [
             1,
             '[21:52] Pro Git - Scott Chacon.epub (OEBPS/ch02-git-basics-chapter.xhtml) - 21:52',
-            '$ git log
-commit ca82a6dff817ec66f44342007202690a93763949
-Author: Scott Chacon <schacon@gee-mail.com>
-Date:   Mon Mar 17 <<21:52|2>>:11 2008 -0700
-   changed the version number
-commit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7
-Author: Scott Chacon <schacon@gee-mail.com>
-Date:   Sat Mar 15 <<16:40|2>>:33 2008 -0700
-   removed unnecessary test
-commit a11bef06a3f659402fe7563abf99ad00de2209e6
-Author: Scott Chacon <schacon@gee-mail.com>
-Date:   Sat Mar 15 <<10:31|2>>:28 2008 -0700
-   first commit',
+            ' $ git log commit ca82a6dff817ec66f44342007202690a93763949 Author: Scott Chacon <schacon@gee-mail.com> Date: Mon Mar 17 <<21:52|2>>:11 2008 -0700 changed the version number commit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7 Author: Scott Chacon <schacon@gee-mail.com> Date: Sat Mar 15 <<16:40|2>>:33 2008 -0700 removed unnecessary test commit a11bef06a3f659402fe7563abf99ad00de2209e6 Author: Scott Chacon <schacon@gee-mail.com> Date: Sat Mar 15 <<10:31|2>>:28 2008 -0700 first commit',
           ],
           [
             1,
             '[21:52] Pro Git - Scott Chacon.epub (OEBPS/ch02-git-basics-chapter.xhtml) - 21:52',
-            '$ git log -p -2
-commit ca82a6dff817ec66f44342007202690a93763949
-Author: Scott Chacon <schacon@gee-mail.com>
-Date:   Mon Mar 17 <<21:52|2>>:11 2008 -0700
-   changed the version number
-diff --git a/Rakefile b/Rakefile
-index a874b73..8f94139 100644
---- a/Rakefile
-+++ b/Rakefile
-@@ -5,7 +5,7 @@ require \'rake/gempackagetask\'
-spec = Gem::Specification.new do |s|
-    s.platform  =   Gem::Platform::RUBY
-    s.name      =   "simplegit"
--    s.version   =   "0.1.0"
-+    s.version   =   "0.1.1"
-    s.author    =   "Scott Chacon"
-    s.email     =   "schacon@gee-mail.com"
-    s.summary   =   "A simple gem for using Git in Ruby code."
-commit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7
-Author: Scott Chacon <schacon@gee-mail.com>
-Date:   Sat Mar 15 <<16:40|2>>:33 2008 -0700
-   removed unnecessary test
-diff --git a/lib/simplegit.rb b/lib/simplegit.rb
-index a0a60ae..47c6340 100644
---- a/lib/simplegit.rb
-+++ b/lib/simplegit.rb
-@@ -18,8 +18,3 @@ class SimpleGit
-    end
-end
--
--if $0 == __FILE__
--  git = SimpleGit.new
--  puts git.show
--end',
+            ' $ git log -p -2 commit ca82a6dff817ec66f44342007202690a93763949 Author: Scott Chacon <schacon@gee-mail.com> Date: Mon Mar 17 <<21:52|2>>:11 2008 -0700 changed the version number diff --git a/Rakefile b/Rakefile index a874b73..8f94139 100644 --- a/Rakefile +++ b/Rakefile @@ -5,7 +5,7 @@ require \'rake/gempackagetask\' spec = Gem::Specification.new do |s| s.platform = Gem::Platform::RUBY s.name = "simplegit" - s.version = "0.1.0" + s.version = "0.1.1" s.author = "Scott Chacon" s.email = "schacon@gee-mail.com" s.summary = "A simple gem for using Git in Ruby code." commit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7 Author: Scott Chacon <schacon@gee-mail.com> Date: Sat Mar 15 <<16:40|2>>:33 2008 -0700 removed unnecessary test diff --git a/lib/simplegit.rb b/lib/simplegit.rb index a0a60ae..47c6340 100644 --- a/lib/simplegit.rb +++ b/lib/simplegit.rb @@ -18,8 +18,3 @@ class SimpleGit end end - -if $0 == __FILE__ - git = SimpleGit.new - puts git.show -end',
           ],
           [
             1,
             '[21:52] Pro Git - Scott Chacon.epub (OEBPS/ch02-git-basics-chapter.xhtml) - 21:52',
-            '$ git log --stat
-commit ca82a6dff817ec66f44342007202690a93763949
-Author: Scott Chacon <schacon@gee-mail.com>
-Date:   Mon Mar 17 <<21:52|2>>:11 2008 -0700
-   changed the version number
-Rakefile | 2 +-
-1 file changed, 1 insertion(+), 1 deletion(-)
-commit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7
-Author: Scott Chacon <schacon@gee-mail.com>
-Date:   Sat Mar 15 <<16:40|2>>:33 2008 -0700
-   removed unnecessary test
-lib/simplegit.rb | 5 -----
-1 file changed, 5 deletions(-)
-commit a11bef06a3f659402fe7563abf99ad00de2209e6
-Author: Scott Chacon <schacon@gee-mail.com>
-Date:   Sat Mar 15 <<10:31|2>>:28 2008 -0700
-   first commit
-README           |  6 ++++++
-Rakefile         | 23 +++++++++++++++++++++++
-lib/simplegit.rb | 25 +++++++++++++++++++++++++
-3 files changed, 54 insertions(+)',
+            ' $ git log --stat commit ca82a6dff817ec66f44342007202690a93763949 Author: Scott Chacon <schacon@gee-mail.com> Date: Mon Mar 17 <<21:52|2>>:11 2008 -0700 changed the version number Rakefile | 2 +- 1 file changed, 1 insertion(+), 1 deletion(-) commit 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7 Author: Scott Chacon <schacon@gee-mail.com> Date: Sat Mar 15 <<16:40|2>>:33 2008 -0700 removed unnecessary test lib/simplegit.rb | 5 ----- 1 file changed, 5 deletions(-) commit a11bef06a3f659402fe7563abf99ad00de2209e6 Author: Scott Chacon <schacon@gee-mail.com> Date: Sat Mar 15 <<10:31|2>>:28 2008 -0700 first commit README | 6 ++++++ Rakefile | 23 +++++++++++++++++++++++ lib/simplegit.rb | 25 +++++++++++++++++++++++++ 3 files changed, 54 insertions(+)',
           ],
           [
             1,
             '[20:19] Pro Git - Scott Chacon.epub (OEBPS/ch02-git-basics-chapter.xhtml) - 20:19',
-            '$ git show v1.4
-tag v1.4
-Tagger: Ben Straub <ben@straub.cc>
-Date:   Sat May 3 <<20:19|2>>:12 2014 -0700
-my version 1.4
-commit ca82a6dff817ec66f44342007202690a93763949
-Author: Scott Chacon <schacon@gee-mail.com>
-Date:   Mon Mar 17 <<21:52|2>>:11 2008 -0700
-   changed the version number',
+            ' $ git show v1.4 tag v1.4 Tagger: Ben Straub <ben@straub.cc> Date: Sat May 3 <<20:19|2>>:12 2014 -0700 my version 1.4 commit ca82a6dff817ec66f44342007202690a93763949 Author: Scott Chacon <schacon@gee-mail.com> Date: Mon Mar 17 <<21:52|2>>:11 2008 -0700 changed the version number',
           ],
           [
             1,
             '[21:52] Pro Git - Scott Chacon.epub (OEBPS/ch02-git-basics-chapter.xhtml) - 21:52',
-            '$ git show v1.4-lw
-commit ca82a6dff817ec66f44342007202690a93763949
-Author: Scott Chacon <schacon@gee-mail.com>
-Date:   Mon Mar 17 <<21:52|2>>:11 2008 -0700
-   changed the version number',
+            ' $ git show v1.4-lw commit ca82a6dff817ec66f44342007202690a93763949 Author: Scott Chacon <schacon@gee-mail.com> Date: Mon Mar 17 <<21:52|2>>:11 2008 -0700 changed the version number',
           ],
           [
             1,
             '[15:32] Pro Git - Scott Chacon.epub (OEBPS/ch02-git-basics-chapter.xhtml) - 15:32',
-            '$ git tag
-v0.1
-v1.2
-v1.3
-v1.4
-v1.4-lw
-v1.5
-$ git show v1.2
-tag v1.2
-Tagger: Scott Chacon <schacon@gee-mail.com>
-Date:   Mon Feb 9 <<15:32|2>>:16 2009 -0800
-version 1.2
-commit 9fceb02d0ae598e95dc970b74767f19372d61af8
-Author: Magnus Chacon <mchacon@gee-mail.com>
-Date:   Sun Apr 27 <<20:43|2>>:35 2008 -0700
-   updated rakefile
-...',
+            ' $ git tag v0.1 v1.2 v1.3 v1.4 v1.4-lw v1.5 $ git show v1.2 tag v1.2 Tagger: Scott Chacon <schacon@gee-mail.com> Date: Mon Feb 9 <<15:32|2>>:16 2009 -0800 version 1.2 commit 9fceb02d0ae598e95dc970b74767f19372d61af8 Author: Magnus Chacon <mchacon@gee-mail.com> Date: Sun Apr 27 <<20:43|2>>:35 2008 -0700 updated rakefile ...',
           ],
           [
             1,
             '[ap 02:05] Pro Git - Scott Chacon.epub (OEBPS/ch02-git-basics-chapter.xhtml) - 2.05',
-            '$ git push origin v1.5
-Counting objects: 14, done.
-Delta compression using up to 8 threads.
-Compressing objects: 100% (12/12), done.
-Writing objects: 100% (14/14), <<2.05|5a:0>> KiB | 0 bytes/s, done.
-Total 14 (delta 3), reused 0 (delta 0)
-To git@github.com:schacon/simplegit.git
-* [new tag]         v1.5 -> v1.5',
+            ' $ git push origin v1.5 Counting objects: 14, done. Delta compression using up to 8 threads. Compressing objects: 100% (12/12), done. Writing objects: 100% (14/14), <<2.05|5a:0>> KiB | 0 bytes/s, done. Total 14 (delta 3), reused 0 (delta 0) To git@github.com:schacon/simplegit.git * [new tag] v1.5 -> v1.5',
           ],
           [
             1,
             '[19:48] Pro Git - Scott Chacon.epub (OEBPS/ch02-git-basics-chapter.xhtml) - 19:48',
-            '$ git last
-commit 66938dae3329c7aebe598c2246a8e6af90d04646
-Author: Josh Goebel <dreamer3@example.com>
-Date:   Tue Aug 26 <<19:48|2>>:51 2008 +0800
-   test for current head
-   Signed-off-by: Scott Chacon <schacon@example.com>',
+            ' $ git last commit 66938dae3329c7aebe598c2246a8e6af90d04646 Author: Josh Goebel <dreamer3@example.com> Date: Tue Aug 26 <<19:48|2>>:51 2008 +0800 test for current head Signed-off-by: Scott Chacon <schacon@example.com>',
           ],
           [
             1,
             '[14:04] Pro Git - Scott Chacon.epub (OEBPS/ch04-git-on-the-server.xhtml) - 14.04',
-            "Until LTS <<14.04|5a:0>>, Ubuntu used upstart service unit configuration.
-Therefore, on Ubuntu \x{21d0} <<14.04|5a:0>> you can use an Upstart script.
-So, in the following file",
+            "Until LTS <<14.04|5a:0>>, Ubuntu used upstart service unit configuration. Therefore, on Ubuntu \x{21d0} <<14.04|5a:0>> you can use an Upstart script. So, in the following file",
           ],
           [
             1,
             '[ap 10:02] Pro Git - Scott Chacon.epub (OEBPS/ch04-git-on-the-server.xhtml) - 10:02',
-            '$ git instaweb --httpd=webrick
-[2009-02-21 <<10:02|2>>:21] INFO  WEBrick 1.3.1
-[2009-02-21 <<10:02|2>>:21] INFO  ruby 1.8.6 (2008-03-03) [universal-darwin9.0]',
+            ' $ git instaweb --httpd=webrick [2009-02-21 <<10:02|2>>:21] INFO WEBrick 1.3.1 [2009-02-21 <<10:02|2>>:21] INFO ruby 1.8.6 (2008-03-03) [universal-darwin9.0]',
           ],
           [
             1,
             '[16:01] Pro Git - Scott Chacon.epub (OEBPS/ch05-distributed-git.xhtml) - 16:01',
-            '$ git log --no-merges issue54..origin/master
-commit 738ee872852dfaa9d6634e0dea7a324040193016
-Author: John Smith <jsmith@example.com>
-Date:   Fri May 29 <<16:01|2>>:27 2009 -0700
-  remove invalid default value',
+            ' $ git log --no-merges issue54..origin/master commit 738ee872852dfaa9d6634e0dea7a324040193016 Author: John Smith <jsmith@example.com> Date: Fri May 29 <<16:01|2>>:27 2009 -0700 remove invalid default value',
           ],
           [
             1,
             '[19:57] Pro Git - Scott Chacon.epub (OEBPS/ch05-distributed-git.xhtml) - 19:57',
-            '$ git log featureA..origin/featureA
-commit aad881d154acdaeb2b6b18ea0e827ed8a6d671e6
-Author: John Smith <jsmith@example.com>
-Date:   Fri May 29 <<19:57|2>>:33 2009 -0700
-   changed log output to 30 from 25',
+            ' $ git log featureA..origin/featureA commit aad881d154acdaeb2b6b18ea0e827ed8a6d671e6 Author: John Smith <jsmith@example.com> Date: Fri May 29 <<19:57|2>>:33 2009 -0700 changed log output to 30 from 25',
           ],
           [
             1,
             '[00:00] Pro Git - Scott Chacon.epub (OEBPS/ch05-distributed-git.xhtml) - 00:00',
-            '$ cat 0001-add-limit-to-log-function.patch
-From 330090432754092d704da8e76ca5c05c198e71a8 Mon Sep 17 <<00:00|2>>:00 2001
-From: Jessica Smith <jessica@example.com>
-Date: Sun, 6 Apr 2008 <<10:17|2>>:23 -0700
-Subject: [PATCH 1/2] add limit to log function
-Limit log functionality to the first 20
----
-lib/simplegit.rb |    2 +-
-1 files changed, 1 insertions(+), 1 deletions(-)
-diff --git a/lib/simplegit.rb b/lib/simplegit.rb
-index 76f47bc..f9815f1 100644
---- a/lib/simplegit.rb
-+++ b/lib/simplegit.rb
-@@ -14,7 +14,7 @@ class SimpleGit
-  end
-  def log(treeish = \'master\')
--    command("git log #{treeish}")
-+    command("git log -n 20 #{treeish}")
-  end
-  def ls_tree(treeish = \'master\')
---
-2.1.0',
+            ' $ cat 0001-add-limit-to-log-function.patch From 330090432754092d704da8e76ca5c05c198e71a8 Mon Sep 17 <<00:00|2>>:00 2001 From: Jessica Smith <jessica@example.com> Date: Sun, 6 Apr 2008 <<10:17|2>>:23 -0700 Subject: [PATCH 1/2] add limit to log function Limit log functionality to the first 20 --- lib/simplegit.rb | 2 +- 1 files changed, 1 insertions(+), 1 deletions(-) diff --git a/lib/simplegit.rb b/lib/simplegit.rb index 76f47bc..f9815f1 100644 --- a/lib/simplegit.rb +++ b/lib/simplegit.rb @@ -14,7 +14,7 @@ class SimpleGit end def log(treeish = \'master\') - command("git log #{treeish}") + command("git log -n 20 #{treeish}") end def ls_tree(treeish = \'master\') -- 2.1.0',
           ],
           [
             1,
             '[13:29] Pro Git - Scott Chacon.epub (OEBPS/ch05-distributed-git.xhtml) - 13:29',
-            '(mbox) Adding cc: Jessica Smith <jessica@example.com> from
- \\line \'From: Jessica Smith <jessica@example.com>\'
-OK. Log says:
-Sendmail: /usr/sbin/sendmail -i jessica@example.com
-From: Jessica Smith <jessica@example.com>
-To: jessica@example.com
-Subject: [PATCH 1/2] added limit to log function
-Date: Sat, 30 May 2009 <<13:29|2>>:15 -0700
-Message-Id: <1243715356-61726-1-git-send-email-jessica@example.com>
-X-Mailer: git-send-email 1.6.2.rc1.20.g8c5b.dirty
-In-Reply-To: <y>
-References: <y>
-Result: OK',
+            ' (mbox) Adding cc: Jessica Smith <jessica@example.com> from \\line \'From: Jessica Smith <jessica@example.com>\' OK. Log says: Sendmail: /usr/sbin/sendmail -i jessica@example.com From: Jessica Smith <jessica@example.com> To: jessica@example.com Subject: [PATCH 1/2] added limit to log function Date: Sat, 30 May 2009 <<13:29|2>>:15 -0700 Message-Id: <1243715356-61726-1-git-send-email-jessica@example.com> X-Mailer: git-send-email 1.6.2.rc1.20.g8c5b.dirty In-Reply-To: <y> References: <y> Result: OK',
           ],
           [
             1,
             '[00:00] Pro Git - Scott Chacon.epub (OEBPS/ch05-distributed-git.xhtml) - 00:00',
-            'From 330090432754092d704da8e76ca5c05c198e71a8 Mon Sep 17 <<00:00|2>>:00 2001
-From: Jessica Smith <jessica@example.com>
-Date: Sun, 6 Apr 2008 <<10:17|2>>:23 -0700
-Subject: [PATCH 1/2] add limit to log function
-Limit log functionality to the first 20',
+            ' From 330090432754092d704da8e76ca5c05c198e71a8 Mon Sep 17 <<00:00|2>>:00 2001 From: Jessica Smith <jessica@example.com> Date: Sun, 6 Apr 2008 <<10:17|2>>:23 -0700 Subject: [PATCH 1/2] add limit to log function Limit log functionality to the first 20',
           ],
           [
             1,
             '[ap 10:17] Pro Git - Scott Chacon.epub (OEBPS/ch05-distributed-git.xhtml) - 10:17',
-            '$ git log --pretty=fuller -1
-commit 6c5e70b984a60b3cecd395edd5b48a7575bf58e0
-Author:     Jessica Smith <jessica@example.com>
-AuthorDate: Sun Apr 6 <<10:17|2>>:23 2008 -0700
-Commit:     Scott Chacon <schacon@gmail.com>
-CommitDate: Thu Apr 9 <<09:19|2>>:06 2009 -0700
-  add limit to log function
-  Limit log functionality to the first 20',
+            ' $ git log --pretty=fuller -1 commit 6c5e70b984a60b3cecd395edd5b48a7575bf58e0 Author: Jessica Smith <jessica@example.com> AuthorDate: Sun Apr 6 <<10:17|2>>:23 2008 -0700 Commit: Scott Chacon <schacon@gmail.com> CommitDate: Thu Apr 9 <<09:19|2>>:06 2009 -0700 add limit to log function Limit log functionality to the first 20',
           ],
           [
             1,
             '[00:01] Pro Git - Scott Chacon.epub (OEBPS/ch05-distributed-git.xhtml) - 0001',
-            '$ git am 0001-seeing-if-this-helps-the-gem.patch
-Applying: seeing if this helps the gem
-error: patch failed: ticgit.gemspec:1
-error: ticgit.gemspec: patch does not apply
-Patch failed at <<0001|9c:0>>.
-When you have resolved this problem run "git am --resolved".
-If you would prefer to skip this patch, instead run "git am --skip".
-To restore the original branch and stop patching run "git am --abort".',
+            ' $ git am 0001-seeing-if-this-helps-the-gem.patch Applying: seeing if this helps the gem error: patch failed: ticgit.gemspec:1 error: ticgit.gemspec: patch does not apply Patch failed at <<0001|9c:0>>. When you have resolved this problem run "git am --resolved". If you would prefer to skip this patch, instead run "git am --skip". To restore the original branch and stop patching run "git am --abort".',
           ],
           [
             1,
             '[ap 09:53] Pro Git - Scott Chacon.epub (OEBPS/ch05-distributed-git.xhtml) - 09:53',
-            '$ git log contrib --not master
-commit 5b6235bd297351589efc4d73316f0a68d484f118
-Author: Scott Chacon <schacon@gmail.com>
-Date:   Fri Oct 24 <<09:53|2>>:59 2008 -0700
-   seeing if this helps the gem
-commit 7482e0d16d04bea79d0dba8988cc78df655f16a0
-Author: Scott Chacon <schacon@gmail.com>
-Date:   Mon Oct 22 <<19:38|2>>:36 2008 -0700
-   updated the gemspec to hopefully work better',
+            ' $ git log contrib --not master commit 5b6235bd297351589efc4d73316f0a68d484f118 Author: Scott Chacon <schacon@gmail.com> Date: Fri Oct 24 <<09:53|2>>:59 2008 -0700 seeing if this helps the gem commit 7482e0d16d04bea79d0dba8988cc78df655f16a0 Author: Scott Chacon <schacon@gmail.com> Date: Mon Oct 22 <<19:38|2>>:36 2008 -0700 updated the gemspec to hopefully work better',
           ],
           [
             1,
             '[ap 09:52] Pro Git - Scott Chacon.epub (OEBPS/ch05-distributed-git.xhtml) - 8 to 10',
-            "The git describe command favors annotated tags (tags created with the -a or -s flag), so release tags should be created this way if you\x{2019}re using git describe, to ensure the commit is named properly when described.
-You can also use this string as the target of a checkout or show command, although it relies on the abbreviated SHA-1 value at the end, so it may not be valid forever.
-For instance, the Linux kernel recently jumped from <<8 to 10|10a:0>> characters to ensure SHA-1 object uniqueness, so older git describe output names were invalidated.",
+            "The git describe command favors annotated tags (tags created with the -a or -s flag), so release tags should be created this way if you\x{2019}re using git describe, to ensure the commit is named properly when described. You can also use this string as the target of a checkout or show command, although it relies on the abbreviated SHA-1 value at the end, so it may not be valid forever. For instance, the Linux kernel recently jumped from <<8 to 10|10a:0>> characters to ensure SHA-1 object uniqueness, so older git describe output names were invalidated.",
           ],
           [
             1,
             '[18:32] Pro Git - Scott Chacon.epub (OEBPS/ch07-git-tools.xhtml) - 18:32',
-            '$ git log
-commit 734713bc047d87bf7eac9674765ae793478c50d3
-Author: Scott Chacon <schacon@gmail.com>
-Date:   Fri Jan 2 <<18:32|2>>:33 2009 -0800
-   fixed refs handling, added gc auto, updated tests
-commit d921970aadf03b3cf0e71becdaab3147ba71cdef
-Merge: 1c002dd... 35cfb2b...
-Author: Scott Chacon <schacon@gmail.com>
-Date:   Thu Dec 11 <<15:08|2>>:43 2008 -0800
-   Merge commit \'phedders/rdocs\'
-commit 1c002dd4b536e7479fe34593e72e6c6c1819e53b
-Author: Scott Chacon <schacon@gmail.com>
-Date:   Thu Dec 11 <<14:58|2>>:32 2008 -0800
-   added some blame and merge stuff',
+            ' $ git log commit 734713bc047d87bf7eac9674765ae793478c50d3 Author: Scott Chacon <schacon@gmail.com> Date: Fri Jan 2 <<18:32|2>>:33 2009 -0800 fixed refs handling, added gc auto, updated tests commit d921970aadf03b3cf0e71becdaab3147ba71cdef Merge: 1c002dd... 35cfb2b... Author: Scott Chacon <schacon@gmail.com> Date: Thu Dec 11 <<15:08|2>>:43 2008 -0800 Merge commit \'phedders/rdocs\' commit 1c002dd4b536e7479fe34593e72e6c6c1819e53b Author: Scott Chacon <schacon@gmail.com> Date: Thu Dec 11 <<14:58|2>>:32 2008 -0800 added some blame and merge stuff',
           ],
           [
             1,
             '[ap 09:52] Pro Git - Scott Chacon.epub (OEBPS/ch07-git-tools.xhtml) - eight to ten',
-            'Generally, <<eight to ten|10a:0>> characters are more than enough to be unique within a project.
-For example, as of June 2018, the Linux kernel (which is a fairly sizable project) has over 700,000 commits and almost six and a half million objects in its object database, with no two objects whose SHA-1s are identical in the first 11 characters.',
+            ' Generally, <<eight to ten|10a:0>> characters are more than enough to be unique within a project. For example, as of June 2018, the Linux kernel (which is a fairly sizable project) has over 700,000 commits and almost six and a half million objects in its object database, with no two objects whose SHA-1s are identical in the first 11 characters.',
           ],
           [
             1,
             '[18:32] Pro Git - Scott Chacon.epub (OEBPS/ch07-git-tools.xhtml) - 18:32',
-            '$ git log -g master
-commit 734713bc047d87bf7eac9674765ae793478c50d3
-Reflog: master@{0} (Scott Chacon <schacon@gmail.com>)
-Reflog message: commit: fixed refs handling, added gc auto, updated
-Author: Scott Chacon <schacon@gmail.com>
-Date:   Fri Jan 2 <<18:32|2>>:33 2009 -0800
-   fixed refs handling, added gc auto, updated tests
-commit d921970aadf03b3cf0e71becdaab3147ba71cdef
-Reflog: master@{1} (Scott Chacon <schacon@gmail.com>)
-Reflog message: merge phedders/rdocs: Merge made by recursive.
-Author: Scott Chacon <schacon@gmail.com>
-Date:   Thu Dec 11 <<15:08|2>>:43 2008 -0800
-   Merge commit \'phedders/rdocs\'',
+            ' $ git log -g master commit 734713bc047d87bf7eac9674765ae793478c50d3 Reflog: master@{0} (Scott Chacon <schacon@gmail.com>) Reflog message: commit: fixed refs handling, added gc auto, updated Author: Scott Chacon <schacon@gmail.com> Date: Fri Jan 2 <<18:32|2>>:33 2009 -0800 fixed refs handling, added gc auto, updated tests commit d921970aadf03b3cf0e71becdaab3147ba71cdef Reflog: master@{1} (Scott Chacon <schacon@gmail.com>) Reflog message: merge phedders/rdocs: Merge made by recursive. Author: Scott Chacon <schacon@gmail.com> Date: Thu Dec 11 <<15:08|2>>:43 2008 -0800 Merge commit \'phedders/rdocs\'',
           ],
           [
             1,
             '[15:08] Pro Git - Scott Chacon.epub (OEBPS/ch07-git-tools.xhtml) - 15:08',
-            '$ git show HEAD^
-commit d921970aadf03b3cf0e71becdaab3147ba71cdef
-Merge: 1c002dd... 35cfb2b...
-Author: Scott Chacon <schacon@gmail.com>
-Date:   Thu Dec 11 <<15:08|2>>:43 2008 -0800
-   Merge commit \'phedders/rdocs\'',
+            ' $ git show HEAD^ commit d921970aadf03b3cf0e71becdaab3147ba71cdef Merge: 1c002dd... 35cfb2b... Author: Scott Chacon <schacon@gmail.com> Date: Thu Dec 11 <<15:08|2>>:43 2008 -0800 Merge commit \'phedders/rdocs\'',
           ],
           [
             1,
             '[14:58] Pro Git - Scott Chacon.epub (OEBPS/ch07-git-tools.xhtml) - 14:58',
-            '$ git show d921970^
-commit 1c002dd4b536e7479fe34593e72e6c6c1819e53b
-Author: Scott Chacon <schacon@gmail.com>
-Date:   Thu Dec 11 <<14:58|2>>:32 2008 -0800
-   added some blame and merge stuff
-$ git show d921970^2
-commit 35cfb2b795a55793d7cc56a6cc2060b4bb732548
-Author: Paul Hedderly <paul+git@mjr.org>
-Date:   Wed Dec 10 <<22:22|2>>:03 2008 +0000
-   Some rdoc changes',
+            ' $ git show d921970^ commit 1c002dd4b536e7479fe34593e72e6c6c1819e53b Author: Scott Chacon <schacon@gmail.com> Date: Thu Dec 11 <<14:58|2>>:32 2008 -0800 added some blame and merge stuff $ git show d921970^2 commit 35cfb2b795a55793d7cc56a6cc2060b4bb732548 Author: Paul Hedderly <paul+git@mjr.org> Date: Wed Dec 10 <<22:22|2>>:03 2008 +0000 Some rdoc changes',
           ],
           [
             1,
             '[13:47] Pro Git - Scott Chacon.epub (OEBPS/ch07-git-tools.xhtml) - 13:47',
-            '$ git show HEAD~3
-commit 1c3618887afb5fbcbea25b7c013f4e2114448b8d
-Author: Tom Preston-Werner <tom@mojombo.com>
-Date:   Fri Nov 7 <<13:47|2>>:59 2008 -0500
-   ignore *.gem',
+            ' $ git show HEAD~3 commit 1c3618887afb5fbcbea25b7c013f4e2114448b8d Author: Tom Preston-Werner <tom@mojombo.com> Date: Fri Nov 7 <<13:47|2>>:59 2008 -0500 ignore *.gem',
           ],
           [
             1,
             '[13:47] Pro Git - Scott Chacon.epub (OEBPS/ch07-git-tools.xhtml) - 13:47',
-            '$ git show HEAD~~~
-commit 1c3618887afb5fbcbea25b7c013f4e2114448b8d
-Author: Tom Preston-Werner <tom@mojombo.com>
-Date:   Fri Nov 7 <<13:47|2>>:59 2008 -0500
-   ignore *.gem',
+            ' $ git show HEAD~~~ commit 1c3618887afb5fbcbea25b7c013f4e2114448b8d Author: Tom Preston-Werner <tom@mojombo.com> Date: Fri Nov 7 <<13:47|2>>:59 2008 -0500 ignore *.gem',
           ],
           [
             1,
             '[20:29] Pro Git - Scott Chacon.epub (OEBPS/ch07-git-tools.xhtml) - 20:29',
-            '$ git show v1.5
-tag v1.5
-Tagger: Ben Straub <ben@straub.cc>
-Date:   Sat May 3 <<20:29|2>>:41 2014 -0700
-my signed 1.5 tag
------BEGIN PGP SIGNATURE-----
-Version: GnuPG v1
-iQEcBAABAgAGBQJTZbQlAAoJEF0+sviABDDrZbQH/09PfE51KPVPlanr6q1v4/Ut
-LQxfojUWiLQdg2ESJItkcuweYg+kc3HCyFejeDIBw9dpXt00rY26p05qrpnG+85b
-hM1/PswpPLuBSr+oCIDj5GMC2r2iEKsfv2fJbNW8iWAXVLoWZRF8B0MfqX/YTMbm
-ecorc4iXzQu7tupRihslbNkfvfciMnSDeSvzCpWAHl7h8Wj6hhqePmLm9lAYqnKp
-8S5B/1SSQuEAjRZgI4IexpZoeKGVDptPHxLLS38fozsyi0QyDyzEgJxcJQVMXxVi
-RUysgqjcpT8+iQM1PblGfHR4XAhuOqN5Fx06PSaFZhqvWFezJ28/CLyX5q+oIVk=
-=EFTF
------END PGP SIGNATURE-----
-commit ca82a6dff817ec66f44342007202690a93763949
-Author: Scott Chacon <schacon@gee-mail.com>
-Date:   Mon Mar 17 <<21:52|2>>:11 2008 -0700
-   changed the version number',
+            ' $ git show v1.5 tag v1.5 Tagger: Ben Straub <ben@straub.cc> Date: Sat May 3 <<20:29|2>>:41 2014 -0700 my signed 1.5 tag -----BEGIN PGP SIGNATURE----- Version: GnuPG v1 iQEcBAABAgAGBQJTZbQlAAoJEF0+sviABDDrZbQH/09PfE51KPVPlanr6q1v4/Ut LQxfojUWiLQdg2ESJItkcuweYg+kc3HCyFejeDIBw9dpXt00rY26p05qrpnG+85b hM1/PswpPLuBSr+oCIDj5GMC2r2iEKsfv2fJbNW8iWAXVLoWZRF8B0MfqX/YTMbm ecorc4iXzQu7tupRihslbNkfvfciMnSDeSvzCpWAHl7h8Wj6hhqePmLm9lAYqnKp 8S5B/1SSQuEAjRZgI4IexpZoeKGVDptPHxLLS38fozsyi0QyDyzEgJxcJQVMXxVi RUysgqjcpT8+iQM1PblGfHR4XAhuOqN5Fx06PSaFZhqvWFezJ28/CLyX5q+oIVk= =EFTF -----END PGP SIGNATURE----- commit ca82a6dff817ec66f44342007202690a93763949 Author: Scott Chacon <schacon@gee-mail.com> Date: Mon Mar 17 <<21:52|2>>:11 2008 -0700 changed the version number',
           ],
           [
             1,
             '[ap 02:08] Pro Git - Scott Chacon.epub (OEBPS/ch07-git-tools.xhtml) - 02:08',
-            '$ git tag -v v1.4.2.1
-object 883653babd8ee7ea23e6a5c392bb739348b1eb61
-type commit
-tag v1.4.2.1
-tagger Junio C Hamano <junkio@cox.net> 1158138501 -0700
-GIT 1.4.2.1
-Minor fixes since 1.4.2, including git-mv and git-http with alternates.
-gpg: Signature made Wed Sep 13 <<02:08|2>>:25 2006 PDT using DSA key ID F3119B9A
-gpg: Good signature from "Junio C Hamano <junkio@cox.net>"
-gpg:                 aka "[jpeg image of size 1513]"
-Primary key fingerprint: 3565 2A26 2040 E066 C9A7  4A7D C0C6 D9A4 F311 9B9A',
+            ' $ git tag -v v1.4.2.1 object 883653babd8ee7ea23e6a5c392bb739348b1eb61 type commit tag v1.4.2.1 tagger Junio C Hamano <junkio@cox.net> 1158138501 -0700 GIT 1.4.2.1 Minor fixes since 1.4.2, including git-mv and git-http with alternates. gpg: Signature made Wed Sep 13 <<02:08|2>>:25 2006 PDT using DSA key ID F3119B9A gpg: Good signature from "Junio C Hamano <junkio@cox.net>" gpg: aka "[jpeg image of size 1513]" Primary key fingerprint: 3565 2A26 2040 E066 C9A7 4A7D C0C6 D9A4 F311 9B9A',
           ],
           [
             1,
             '[ap 02:08] Pro Git - Scott Chacon.epub (OEBPS/ch07-git-tools.xhtml) - 02:08',
-            'gpg: Signature made Wed Sep 13 <<02:08|2>>:25 2006 PDT using DSA key ID F3119B9A
-gpg: Can\'t check signature: public key not found
-error: could not verify the tag \'v1.4.2.1\'',
+            ' gpg: Signature made Wed Sep 13 <<02:08|2>>:25 2006 PDT using DSA key ID F3119B9A gpg: Can\'t check signature: public key not found error: could not verify the tag \'v1.4.2.1\'',
           ],
           [
             1,
             '[19:49] Pro Git - Scott Chacon.epub (OEBPS/ch07-git-tools.xhtml) - 19:49',
-            '$ git log --show-signature -1
-commit 5c3386cf54bba0a33a32da706aa52bc0155503c2
-gpg: Signature made Wed Jun  4 <<19:49|2>>:17 2014 PDT using RSA key ID 0A46826A
-gpg: Good signature from "Scott Chacon (Git signing key) <schacon@gmail.com>"
-Author: Scott Chacon <schacon@gmail.com>
-Date:   Wed Jun 4 <<19:49|2>>:17 2014 -0700
-   signed commit',
+            ' $ git log --show-signature -1 commit 5c3386cf54bba0a33a32da706aa52bc0155503c2 gpg: Signature made Wed Jun 4 <<19:49|2>>:17 2014 PDT using RSA key ID 0A46826A gpg: Good signature from "Scott Chacon (Git signing key) <schacon@gmail.com>" Author: Scott Chacon <schacon@gmail.com> Date: Wed Jun 4 <<19:49|2>>:17 2014 -0700 signed commit',
           ],
           [
             1,
             '[ap 11:52] Pro Git - Scott Chacon.epub (OEBPS/ch07-git-tools.xhtml) - 11:52',
-            '$ git log -L :git_deflate_bound:zlib.c
-commit ef49a7a0126d64359c974b4b3b71d7ad42ee3bca
-Author: Junio C Hamano <gitster@pobox.com>
-Date:   Fri Jun 10 <<11:52|2>>:15 2011 -0700
-   zlib: zlib can only process 4GB at a time
-diff --git a/zlib.c b/zlib.c
---- a/zlib.c
-+++ b/zlib.c
-@@ -85,5 +130,5 @@
--unsigned long git_deflate_bound(z_streamp strm, unsigned long size)
-+unsigned long git_deflate_bound(git_zstream *strm, unsigned long size)
-{
--       return deflateBound(strm, size);
-+       return deflateBound(&strm->z, size);
-}
-commit 225a6f1068f71723a910e8565db4e252b3ca21fa
-Author: Junio C Hamano <gitster@pobox.com>
-Date:   Fri Jun 10 <<11:18|2>>:17 2011 -0700
-   zlib: wrap deflateBound() too
-diff --git a/zlib.c b/zlib.c
---- a/zlib.c
-+++ b/zlib.c
-@@ -81,0 +85,5 @@
-+unsigned long git_deflate_bound(z_streamp strm, unsigned long size)
-+{
-+       return deflateBound(strm, size);
-+}
-+',
+            ' $ git log -L :git_deflate_bound:zlib.c commit ef49a7a0126d64359c974b4b3b71d7ad42ee3bca Author: Junio C Hamano <gitster@pobox.com> Date: Fri Jun 10 <<11:52|2>>:15 2011 -0700 zlib: zlib can only process 4GB at a time diff --git a/zlib.c b/zlib.c --- a/zlib.c +++ b/zlib.c @@ -85,5 +130,5 @@ -unsigned long git_deflate_bound(z_streamp strm, unsigned long size) +unsigned long git_deflate_bound(git_zstream *strm, unsigned long size) { - return deflateBound(strm, size); + return deflateBound(&strm->z, size); } commit 225a6f1068f71723a910e8565db4e252b3ca21fa Author: Junio C Hamano <gitster@pobox.com> Date: Fri Jun 10 <<11:18|2>>:17 2011 -0700 zlib: wrap deflateBound() too diff --git a/zlib.c b/zlib.c --- a/zlib.c +++ b/zlib.c @@ -81,0 +85,5 @@ +unsigned long git_deflate_bound(z_streamp strm, unsigned long size) +{ + return deflateBound(strm, size); +} +',
           ],
           [
             1,
             '[18:14] Pro Git - Scott Chacon.epub (OEBPS/ch07-git-tools.xhtml) - 18:14',
-            '$ git log --cc -p -1
-commit 14f41939956d80b9e17bb8721354c33f8d5b5a79
-Merge: f1270f7 e3eb223
-Author: Scott Chacon <schacon@gmail.com>
-Date:   Fri Sep 19 <<18:14|2>>:49 2014 +0200
-   Merge branch \'mundo\'
-   Conflicts:
-       hello.rb
-diff --cc hello.rb
-index 0399cd5,59727f0..e1d0799
---- a/hello.rb
-+++ b/hello.rb
-@@@ -1,7 -1,7 +1,7 @@@
- #! /usr/bin/env ruby
- def hello
--   puts \'hola world\'
--  puts \'hello mundo\'
-++  puts \'hola mundo\'
- end
- hello()',
+            ' $ git log --cc -p -1 commit 14f41939956d80b9e17bb8721354c33f8d5b5a79 Merge: f1270f7 e3eb223 Author: Scott Chacon <schacon@gmail.com> Date: Fri Sep 19 <<18:14|2>>:49 2014 +0200 Merge branch \'mundo\' Conflicts: hello.rb diff --cc hello.rb index 0399cd5,59727f0..e1d0799 --- a/hello.rb +++ b/hello.rb @@@ -1,7 -1,7 +1,7 @@@ #! /usr/bin/env ruby def hello - puts \'hola world\' - puts \'hello mundo\' ++ puts \'hola mundo\' end hello()',
           ],
           [
             1,
             '[00:01] Pro Git - Scott Chacon.epub (OEBPS/ch07-git-tools.xhtml) - 0001',
-            '$ git checkout i18n-world
-Switched to branch \'i18n-world\'
-$ git rebase master
-First, rewinding head to replay your work on top of it...
-Applying: i18n one word
-Using index info to reconstruct a base tree...
-Falling back to patching base and 3-way merge...
-Auto-merging hello.rb
-CONFLICT (content): Merge conflict in hello.rb
-Resolved \'hello.rb\' using previous resolution.
-Failed to merge in the changes.
-Patch failed at <<0001|18:0>> i18n one word',
+            ' $ git checkout i18n-world Switched to branch \'i18n-world\' $ git rebase master First, rewinding head to replay your work on top of it... Applying: i18n one word Using index info to reconstruct a base tree... Falling back to patching base and 3-way merge... Auto-merging hello.rb CONFLICT (content): Merge conflict in hello.rb Resolved \'hello.rb\' using previous resolution. Failed to merge in the changes. Patch failed at <<0001|18:0>> i18n one word',
           ],
           [
             1,
             '[16:03] Pro Git - Scott Chacon.epub (OEBPS/ch07-git-tools.xhtml) - 16:03',
-            '$ git blame -L 69,82 Makefile
-b8b0618cf6fab (Cheng Renquan  2009-05-26 <<16:03|2>>:07 +0800 69) ifeq ("$(origin V)", "command line")
-b8b0618cf6fab (Cheng Renquan  2009-05-26 <<16:03|2>>:07 +0800 70)   KBUILD_VERBOSE = $(V)
-^1da177e4c3f4 (Linus Torvalds 2005-04-16 <<15:20|2>>:36 -0700 71) endif
-^1da177e4c3f4 (Linus Torvalds 2005-04-16 <<15:20|2>>:36 -0700 72) ifndef KBUILD_VERBOSE
-^1da177e4c3f4 (Linus Torvalds 2005-04-16 <<15:20|2>>:36 -0700 73)   KBUILD_VERBOSE = 0
-^1da177e4c3f4 (Linus Torvalds 2005-04-16 <<15:20|2>>:36 -0700 74) endif
-^1da177e4c3f4 (Linus Torvalds 2005-04-16 <<15:20|2>>:36 -0700 75)
-066b7ed955808 (Michal Marek   2014-07-04 <<14:29|2>>:30 +0200 76) ifeq ($(KBUILD_VERBOSE),1)
-066b7ed955808 (Michal Marek   2014-07-04 <<14:29|2>>:30 +0200 77)   quiet =
-066b7ed955808 (Michal Marek   2014-07-04 <<14:29|2>>:30 +0200 78)   Q =
-066b7ed955808 (Michal Marek   2014-07-04 <<14:29|2>>:30 +0200 79) else
-066b7ed955808 (Michal Marek   2014-07-04 <<14:29|2>>:30 +0200 80)   quiet=quiet_
-066b7ed955808 (Michal Marek   2014-07-04 <<14:29|2>>:30 +0200 81)   Q = @
-066b7ed955808 (Michal Marek   2014-07-04 <<14:29|2>>:30 +0200 82) endif',
+            ' $ git blame -L 69,82 Makefile b8b0618cf6fab (Cheng Renquan 2009-05-26 <<16:03|2>>:07 +0800 69) ifeq ("$(origin V)", "command line") b8b0618cf6fab (Cheng Renquan 2009-05-26 <<16:03|2>>:07 +0800 70) KBUILD_VERBOSE = $(V) ^1da177e4c3f4 (Linus Torvalds 2005-04-16 <<15:20|2>>:36 -0700 71) endif ^1da177e4c3f4 (Linus Torvalds 2005-04-16 <<15:20|2>>:36 -0700 72) ifndef KBUILD_VERBOSE ^1da177e4c3f4 (Linus Torvalds 2005-04-16 <<15:20|2>>:36 -0700 73) KBUILD_VERBOSE = 0 ^1da177e4c3f4 (Linus Torvalds 2005-04-16 <<15:20|2>>:36 -0700 74) endif ^1da177e4c3f4 (Linus Torvalds 2005-04-16 <<15:20|2>>:36 -0700 75) 066b7ed955808 (Michal Marek 2014-07-04 <<14:29|2>>:30 +0200 76) ifeq ($(KBUILD_VERBOSE),1) 066b7ed955808 (Michal Marek 2014-07-04 <<14:29|2>>:30 +0200 77) quiet = 066b7ed955808 (Michal Marek 2014-07-04 <<14:29|2>>:30 +0200 78) Q = 066b7ed955808 (Michal Marek 2014-07-04 <<14:29|2>>:30 +0200 79) else 066b7ed955808 (Michal Marek 2014-07-04 <<14:29|2>>:30 +0200 80) quiet=quiet_ 066b7ed955808 (Michal Marek 2014-07-04 <<14:29|2>>:30 +0200 81) Q = @ 066b7ed955808 (Michal Marek 2014-07-04 <<14:29|2>>:30 +0200 82) endif',
           ],
           [
             1,
             '[14:48] Pro Git - Scott Chacon.epub (OEBPS/ch07-git-tools.xhtml) - 14:48',
-            '$ git bisect good
-b047b02ea83310a70fd603dc8cd7a6cd13d15c04 is first bad commit
-commit b047b02ea83310a70fd603dc8cd7a6cd13d15c04
-Author: PJ Hyett <pjhyett@example.com>
-Date:   Tue Jan 27 <<14:48|2>>:32 2009 -0800
-   secure this thing
-:040000 040000 40ee3e7821b895e52c1695092db9bdc4c61d1730
-f24d3c6ebcfc639b1a3814550e62d60b8e68a8e4 M  config',
+            ' $ git bisect good b047b02ea83310a70fd603dc8cd7a6cd13d15c04 is first bad commit commit b047b02ea83310a70fd603dc8cd7a6cd13d15c04 Author: PJ Hyett <pjhyett@example.com> Date: Tue Jan 27 <<14:48|2>>:32 2009 -0800 secure this thing :040000 040000 40ee3e7821b895e52c1695092db9bdc4c61d1730 f24d3c6ebcfc639b1a3814550e62d60b8e68a8e4 M config',
           ],
           [
             1,
             '[15:21] Pro Git - Scott Chacon.epub (OEBPS/ch07-git-tools.xhtml) - 15:21',
-            '$ git clone https://github.com/chaconinc/MainProject
-Cloning into \'MainProject\'...
-remote: Counting objects: 14, done.
-remote: Compressing objects: 100% (13/13), done.
-remote: Total 14 (delta 1), reused 13 (delta 0)
-Unpacking objects: 100% (14/14), done.
-Checking connectivity... done.
-$ cd MainProject
-$ ls -la
-total 16
-drwxr-xr-x   9 schacon  staff  306 Sep 17 <<15:21|2>> .
-drwxr-xr-x   7 schacon  staff  238 Sep 17 <<15:21|2>> ..
-drwxr-xr-x  13 schacon  staff  442 Sep 17 <<15:21|2>> .git
--rw-r--r--   1 schacon  staff   92 Sep 17 <<15:21|2>> .gitmodules
-drwxr-xr-x   2 schacon  staff   68 Sep 17 <<15:21|2>> DbConnector
--rw-r--r--   1 schacon  staff  756 Sep 17 <<15:21|2>> Makefile
-drwxr-xr-x   3 schacon  staff  102 Sep 17 <<15:21|2>> includes
-drwxr-xr-x   4 schacon  staff  136 Sep 17 <<15:21|2>> scripts
-drwxr-xr-x   4 schacon  staff  136 Sep 17 <<15:21|2>> src
-$ cd DbConnector/
-$ ls
-$',
+            ' $ git clone https://github.com/chaconinc/MainProject Cloning into \'MainProject\'... remote: Counting objects: 14, done. remote: Compressing objects: 100% (13/13), done. remote: Total 14 (delta 1), reused 13 (delta 0) Unpacking objects: 100% (14/14), done. Checking connectivity... done. $ cd MainProject $ ls -la total 16 drwxr-xr-x 9 schacon staff 306 Sep 17 <<15:21|2>> . drwxr-xr-x 7 schacon staff 238 Sep 17 <<15:21|2>> .. drwxr-xr-x 13 schacon staff 442 Sep 17 <<15:21|2>> .git -rw-r--r-- 1 schacon staff 92 Sep 17 <<15:21|2>> .gitmodules drwxr-xr-x 2 schacon staff 68 Sep 17 <<15:21|2>> DbConnector -rw-r--r-- 1 schacon staff 756 Sep 17 <<15:21|2>> Makefile drwxr-xr-x 3 schacon staff 102 Sep 17 <<15:21|2>> includes drwxr-xr-x 4 schacon staff 136 Sep 17 <<15:21|2>> scripts drwxr-xr-x 4 schacon staff 136 Sep 17 <<15:21|2>> src $ cd DbConnector/ $ ls $',
           ],
           [
             1,
             '[16:37] Pro Git - Scott Chacon.epub (OEBPS/ch07-git-tools.xhtml) - 16:37',
-            '$ git log -p --submodule
-commit 0a24cfc121a8a3c118e0105ae4ae4c00281cf7ae
-Author: Scott Chacon <schacon@gmail.com>
-Date:   Wed Sep 17 <<16:37|2>>:02 2014 +0200
-   updating DbConnector for bug fixes
-diff --git a/.gitmodules b/.gitmodules
-index 6fc0b3d..fd1cc29 100644
---- a/.gitmodules
-+++ b/.gitmodules
-@@ -1,3 +1,4 @@
-[submodule "DbConnector"]
-       path = DbConnector
-       url = https://github.com/chaconinc/DbConnector
-+       branch = stable
-Submodule DbConnector c3f01dc..c87d55d:
- > catch non-null terminated lines
- > more robust error handling
- > more efficient db routine
- > better connection routine',
+            ' $ git log -p --submodule commit 0a24cfc121a8a3c118e0105ae4ae4c00281cf7ae Author: Scott Chacon <schacon@gmail.com> Date: Wed Sep 17 <<16:37|2>>:02 2014 +0200 updating DbConnector for bug fixes diff --git a/.gitmodules b/.gitmodules index 6fc0b3d..fd1cc29 100644 --- a/.gitmodules +++ b/.gitmodules @@ -1,3 +1,4 @@ [submodule "DbConnector"] path = DbConnector url = https://github.com/chaconinc/DbConnector + branch = stable Submodule DbConnector c3f01dc..c87d55d: > catch non-null terminated lines > more robust error handling > more efficient db routine > better connection routine',
           ],
           [
             1,
             '[ap 07:34] Pro Git - Scott Chacon.epub (OEBPS/ch07-git-tools.xhtml) - 07:34',
-            '$ git log
-commit 9a466c572fe88b195efd356c3f2bbeccdb504102
-Author: Scott Chacon <schacon@gmail.com>
-Date:   Wed Mar 10 <<07:34|2>>:10 2010 -0800
-   second commit
-commit b1ec3248f39900d2a406049d762aa68e9641be25
-Author: Scott Chacon <schacon@gmail.com>
-Date:   Wed Mar 10 <<07:34|2>>:01 2010 -0800
-   first commit',
+            ' $ git log commit 9a466c572fe88b195efd356c3f2bbeccdb504102 Author: Scott Chacon <schacon@gmail.com> Date: Wed Mar 10 <<07:34|2>>:10 2010 -0800 second commit commit b1ec3248f39900d2a406049d762aa68e9641be25 Author: Scott Chacon <schacon@gmail.com> Date: Wed Mar 10 <<07:34|2>>:01 2010 -0800 first commit',
           ],
           [
             1,
             '[ap 04:21] Pro Git - Scott Chacon.epub (OEBPS/ch08-customizing-git.xhtml) - 04:21',
-            'diff --git a/image.png b/image.png
-index 88839c4..4afcb7c 100644
---- a/image.png
-+++ b/image.png
-@@ -1,12 +1,12 @@
-ExifTool Version Number         : 7.74
--File Size                       : 70 kB
--File Modification Date/Time     : 2009:<<04:21|2>> <<07:02|2>>:45-07:00
-+File Size                       : 94 kB
-+File Modification Date/Time     : 2009:<<04:21|2>> <<07:02|2>>:43-07:00
-File Type                       : PNG
-MIME Type                       : image/png
--Image Width                     : 1058
--Image Height                    : 889
-+Image Width                     : 1056
-+Image Height                    : 827
-Bit Depth                       : 8
-Color Type                      : RGB with Alpha',
+            ' diff --git a/image.png b/image.png index 88839c4..4afcb7c 100644 --- a/image.png +++ b/image.png @@ -1,12 +1,12 @@ ExifTool Version Number : 7.74 -File Size : 70 kB -File Modification Date/Time : 2009:<<04:21|2>> <<07:02|2>>:45-07:00 +File Size : 94 kB +File Modification Date/Time : 2009:<<04:21|2>> <<07:02|2>>:43-07:00 File Type : PNG MIME Type : image/png -Image Width : 1058 -Image Height : 889 +Image Width : 1056 +Image Height : 827 Bit Depth : 8 Color Type : RGB with Alpha',
           ],
           [
             1,
             '[ap 07:26] Pro Git - Scott Chacon.epub (OEBPS/ch08-customizing-git.xhtml) - 07:26',
-            '$ git add date_test.txt .gitattributes
-$ git commit -m "Testing date expansion in Git"
-$ rm date_test.txt
-$ git checkout date_test.txt
-$ cat date_test.txt
-# $Date: Tue Apr 21 <<07:26|2>>:52 2009 -0700$',
+            ' $ git add date_test.txt .gitattributes $ git commit -m "Testing date expansion in Git" $ rm date_test.txt $ git checkout date_test.txt $ cat date_test.txt # $Date: Tue Apr 21 <<07:26|2>>:52 2009 -0700$',
           ],
           [
             1,
             '[ap 08:38] Pro Git - Scott Chacon.epub (OEBPS/ch08-customizing-git.xhtml) - 08:38',
-            '$ git archive HEAD | tar xCf ../deployment-testing -
-$ cat ../deployment-testing/LAST_COMMIT
-Last commit date: Tue Apr 21 <<08:38|2>>:48 2009 -0700 by Scott Chacon',
+            ' $ git archive HEAD | tar xCf ../deployment-testing - $ cat ../deployment-testing/LAST_COMMIT Last commit date: Tue Apr 21 <<08:38|2>>:48 2009 -0700 by Scott Chacon',
           ],
           [
             1,
             '[ap 09:14] Pro Git - Scott Chacon.epub (OEBPS/ch08-customizing-git.xhtml) - 09:14',
-            '$ echo \'$Format:Last commit: %h by %aN at %cd%n%+w(76,6,9)%B$\' > LAST_COMMIT
-$ git commit -am \'export-subst uses git log\'\\\'\'s custom formatter
-git archive uses git log\'\\\'\'s `pretty=format:` processor
-directly, and strips the surrounding `$Format:` and `$`
-markup from the output.
-\'
-$ git archive @ | tar xfO - LAST_COMMIT
-Last commit: 312ccc8 by Jim Hill at Fri May 8 <<09:14|2>>:04 2015 -0700
-      export-subst uses git log\'s custom formatter
-        git archive uses git log\'s `pretty=format:` processor directly, and
-        strips the surrounding `$Format:` and `$` markup from the output.',
+            ' $ echo \'$Format:Last commit: %h by %aN at %cd%n%+w(76,6,9)%B$\' > LAST_COMMIT $ git commit -am \'export-subst uses git log\'\\\'\'s custom formatter git archive uses git log\'\\\'\'s `pretty=format:` processor directly, and strips the surrounding `$Format:` and `$` markup from the output. \' $ git archive @ | tar xfO - LAST_COMMIT Last commit: 312ccc8 by Jim Hill at Fri May 8 <<09:14|2>>:04 2015 -0700 export-subst uses git log\'s custom formatter git archive uses git log\'s `pretty=format:` processor directly, and strips the surrounding `$Format:` and `$` markup from the output.',
           ],
           [
             1,
             '[ap 03:08] Pro Git - Scott Chacon.epub (OEBPS/ch09-git-and-other-systems.xhtml) - 03:08',
-            '$ git log -1
-commit 95e0222ba6399739834380eb10afcd73e0670bc5
-Author: ben <ben@0b684db3-b064-4277-89d1-21af03df0a68>
-Date:   Thu Jul 24 <<03:08|2>>:36 2014 +0000
-   Adding git-svn instructions to the README
-   git-svn-id: file:///tmp/test-svn/trunk@77 0b684db3-b064-4277-89d1-21af03df0a68',
+            ' $ git log -1 commit 95e0222ba6399739834380eb10afcd73e0670bc5 Author: ben <ben@0b684db3-b064-4277-89d1-21af03df0a68> Date: Thu Jul 24 <<03:08|2>>:36 2014 +0000 Adding git-svn instructions to the README git-svn-id: file:///tmp/test-svn/trunk@77 0b684db3-b064-4277-89d1-21af03df0a68',
           ],
           [
             1,
             '[16:07] Pro Git - Scott Chacon.epub (OEBPS/ch09-git-and-other-systems.xhtml) - 16:07',
-            '$ git svn log
-------------------------------------------------------------------------
-r87 | schacon | 2014-05-02 <<16:07|2>>:37 -0700 (Sat, 02 May 2014) | 2 lines
-autogen change
-------------------------------------------------------------------------
-r86 | schacon | 2014-05-02 <<16:00|2>>:21 -0700 (Sat, 02 May 2014) | 2 lines
-Merge branch \'experiment\'
-------------------------------------------------------------------------
-r85 | schacon | 2014-05-02 <<16:00|2>>:09 -0700 (Sat, 02 May 2014) | 2 lines
-updated the changelog',
+            ' $ git svn log ------------------------------------------------------------------------ r87 | schacon | 2014-05-02 <<16:07|2>>:37 -0700 (Sat, 02 May 2014) | 2 lines autogen change ------------------------------------------------------------------------ r86 | schacon | 2014-05-02 <<16:00|2>>:21 -0700 (Sat, 02 May 2014) | 2 lines Merge branch \'experiment\' ------------------------------------------------------------------------ r85 | schacon | 2014-05-02 <<16:00|2>>:09 -0700 (Sat, 02 May 2014) | 2 lines updated the changelog',
           ],
           [
             1,
             '[16:07] Pro Git - Scott Chacon.epub (OEBPS/ch09-git-and-other-systems.xhtml) - 16:07',
-            '$ git svn info
-Path: .
-URL: https://schacon-test.googlecode.com/svn/trunk
-Repository Root: https://schacon-test.googlecode.com/svn
-Repository UUID: 4c93b258-373f-11de-be05-5f7a86268029
-Revision: 87
-Node Kind: directory
-Schedule: normal
-Last Changed Author: schacon
-Last Changed Rev: 87
-Last Changed Date: 2009-05-02 <<16:07|2>>:37 -0700 (Sat, 02 May 2009)',
+            ' $ git svn info Path: . URL: https://schacon-test.googlecode.com/svn/trunk Repository Root: https://schacon-test.googlecode.com/svn Repository UUID: 4c93b258-373f-11de-be05-5f7a86268029 Revision: 87 Node Kind: directory Schedule: normal Last Changed Author: schacon Last Changed Rev: 87 Last Changed Date: 2009-05-02 <<16:07|2>>:37 -0700 (Sat, 02 May 2009)',
           ],
           [
             1,
             '[19:33] Pro Git - Scott Chacon.epub (OEBPS/ch09-git-and-other-systems.xhtml) - 19:33',
-            '$ hg log -G --style compact
-o    5[tip]:4,2   dc8fa4f932b8   2014-08-14 <<19:33|2>> -0700   ben
-|\\     Merge remote-tracking branch \'origin/master\'
-| |
-| o  4   64f27bcefc35   2014-08-14 <<19:27|2>> -0700   ben
-| |    Update makefile
-| |
-| o  3:1   4256fc29598f   2014-08-14 <<19:27|2>> -0700   ben
-| |    Goodbye
-| |
-@ |  2   7db0b4848b3c   2014-08-14 <<19:30|2>> -0700   ben
-|/     Add some documentation
-|
-o  1   82e55d328c8c   2005-08-26 <<01:21|2>> -0700   mpm
-|    Create a makefile
-|
-o  0   0a04b987be5a   2005-08-26 <<01:20|2>> -0700   mpm
-    Create a standard "hello, world" program',
+            ' $ hg log -G --style compact o 5[tip]:4,2 dc8fa4f932b8 2014-08-14 <<19:33|2>> -0700 ben |\\ Merge remote-tracking branch \'origin/master\' | | | o 4 64f27bcefc35 2014-08-14 <<19:27|2>> -0700 ben | | Update makefile | | | o 3:1 4256fc29598f 2014-08-14 <<19:27|2>> -0700 ben | | Goodbye | | @ | 2 7db0b4848b3c 2014-08-14 <<19:30|2>> -0700 ben |/ Add some documentation | o 1 82e55d328c8c 2005-08-26 <<01:21|2>> -0700 mpm | Create a makefile | o 0 0a04b987be5a 2005-08-26 <<01:20|2>> -0700 mpm Create a standard "hello, world" program',
           ],
           [
             1,
             '[20:06] Pro Git - Scott Chacon.epub (OEBPS/ch09-git-and-other-systems.xhtml) - 20:06',
-            '$ hg log -l 1
-changeset:   6:8f65e5e02793
-branch:      develop
-tag:         tip
-user:        Ben Straub <ben@straub.cc>
-date:        Thu Aug 14 <<20:06|2>>:38 2014 -0700
-summary:     More documentation',
+            ' $ hg log -l 1 changeset: 6:8f65e5e02793 branch: develop tag: tip user: Ben Straub <ben@straub.cc> date: Thu Aug 14 <<20:06|2>>:38 2014 -0700 summary: More documentation',
           ],
           [
             1,
             '[20:06] Pro Git - Scott Chacon.epub (OEBPS/ch09-git-and-other-systems.xhtml) - 20:06',
-            '$ hg bookmarks
-  featureA                  5:bd5ac26f11f9
-$ hg log --style compact -G
-@  6[tip]   8f65e5e02793   2014-08-14 <<20:06|2>> -0700   ben
-|    More documentation
-|
-o    5[featureA]:4,2   bd5ac26f11f9   2014-08-14 <<20:02|2>> -0700   ben
-|\\     Merge remote-tracking branch \'origin/master\'
-| |
-| o  4   0434aaa6b91f   2014-08-14 <<20:01|2>> -0700   ben
-| |    update makefile
-| |
-| o  3:1   318914536c86   2014-08-14 <<20:00|2>> -0700   ben
-| |    goodbye
-| |
-o |  2   f098c7f45c4f   2014-08-14 <<20:01|2>> -0700   ben
-|/     Add some documentation
-|
-o  1   82e55d328c8c   2005-08-26 <<01:21|2>> -0700   mpm
-|    Create a makefile
-|
-o  0   0a04b987be5a   2005-08-26 <<01:20|2>> -0700   mpm
-    Create a standard "hello, world" program',
+            ' $ hg bookmarks featureA 5:bd5ac26f11f9 $ hg log --style compact -G @ 6[tip] 8f65e5e02793 2014-08-14 <<20:06|2>> -0700 ben | More documentation | o 5[featureA]:4,2 bd5ac26f11f9 2014-08-14 <<20:02|2>> -0700 ben |\\ Merge remote-tracking branch \'origin/master\' | | | o 4 0434aaa6b91f 2014-08-14 <<20:01|2>> -0700 ben | | update makefile | | | o 3:1 318914536c86 2014-08-14 <<20:00|2>> -0700 ben | | goodbye | | o | 2 f098c7f45c4f 2014-08-14 <<20:01|2>> -0700 ben |/ Add some documentation | o 1 82e55d328c8c 2005-08-26 <<01:21|2>> -0700 mpm | Create a makefile | o 0 0a04b987be5a 2005-08-26 <<01:20|2>> -0700 mpm Create a standard "hello, world" program',
           ],
           [
             1,
             '[20:21] Pro Git - Scott Chacon.epub (OEBPS/ch09-git-and-other-systems.xhtml) - 20:21',
-            '$ hg branches
-permanent                      7:a4529d07aad4
-develop                        6:8f65e5e02793
-default                        5:bd5ac26f11f9 (inactive)
-$ hg log -G
-o  changeset:   7:a4529d07aad4
-|  branch:      permanent
-|  tag:         tip
-|  parent:      5:bd5ac26f11f9
-|  user:        Ben Straub <ben@straub.cc>
-|  date:        Thu Aug 14 <<20:21|2>>:09 2014 -0700
-|  summary:     A permanent change
-|
-| @  changeset:   6:8f65e5e02793
-|/   branch:      develop
-|    user:        Ben Straub <ben@straub.cc>
-|    date:        Thu Aug 14 <<20:06|2>>:38 2014 -0700
-|    summary:     More documentation
-|
-o    changeset:   5:bd5ac26f11f9
-|\\   bookmark:    featureA
-| |  parent:      4:0434aaa6b91f
-| |  parent:      2:f098c7f45c4f
-| |  user:        Ben Straub <ben@straub.cc>
-| |  date:        Thu Aug 14 <<20:02|2>>:21 2014 -0700
-| |  summary:     Merge remote-tracking branch \'origin/master\'
-[...]',
+            ' $ hg branches permanent 7:a4529d07aad4 develop 6:8f65e5e02793 default 5:bd5ac26f11f9 (inactive) $ hg log -G o changeset: 7:a4529d07aad4 | branch: permanent | tag: tip | parent: 5:bd5ac26f11f9 | user: Ben Straub <ben@straub.cc> | date: Thu Aug 14 <<20:21|2>>:09 2014 -0700 | summary: A permanent change | | @ changeset: 6:8f65e5e02793 |/ branch: develop | user: Ben Straub <ben@straub.cc> | date: Thu Aug 14 <<20:06|2>>:38 2014 -0700 | summary: More documentation | o changeset: 5:bd5ac26f11f9 |\\ bookmark: featureA | | parent: 4:0434aaa6b91f | | parent: 2:f098c7f45c4f | | user: Ben Straub <ben@straub.cc> | | date: Thu Aug 14 <<20:02|2>>:21 2014 -0700 | | summary: Merge remote-tracking branch \'origin/master\' [...]',
           ],
           [
             1,
             '[20:21] Pro Git - Scott Chacon.epub (OEBPS/ch09-git-and-other-systems.xhtml) - 20:21',
-            '$ hg log --style compact -G
-o  10[tip]   99611176cbc9   2014-08-14 <<20:21|2>> -0700   ben
-|    A permanent change
-|
-o  9   f23e12f939c3   2014-08-14 <<20:01|2>> -0700   ben
-|    Add some documentation
-|
-o  8:1   c16971d33922   2014-08-14 <<20:00|2>> -0700   ben
-|    goodbye
-|
-| o  7:5   a4529d07aad4   2014-08-14 <<20:21|2>> -0700   ben
-| |    A permanent change
-| |
-| | @  6   8f65e5e02793   2014-08-14 <<20:06|2>> -0700   ben
-| |/     More documentation
-| |
-| o    5[featureA]:4,2   bd5ac26f11f9   2014-08-14 <<20:02|2>> -0700   ben
-| |\\     Merge remote-tracking branch \'origin/master\'
-| | |
-| | o  4   0434aaa6b91f   2014-08-14 <<20:01|2>> -0700   ben
-| | |    update makefile
-| | |
-+---o  3:1   318914536c86   2014-08-14 <<20:00|2>> -0700   ben
-| |      goodbye
-| |
-| o  2   f098c7f45c4f   2014-08-14 <<20:01|2>> -0700   ben
-|/     Add some documentation
-|
-o  1   82e55d328c8c   2005-08-26 <<01:21|2>> -0700   mpm
-|    Create a makefile
-|
-o  0   0a04b987be5a   2005-08-26 <<01:20|2>> -0700   mpm
-    Create a standard "hello, world" program',
+            ' $ hg log --style compact -G o 10[tip] 99611176cbc9 2014-08-14 <<20:21|2>> -0700 ben | A permanent change | o 9 f23e12f939c3 2014-08-14 <<20:01|2>> -0700 ben | Add some documentation | o 8:1 c16971d33922 2014-08-14 <<20:00|2>> -0700 ben | goodbye | | o 7:5 a4529d07aad4 2014-08-14 <<20:21|2>> -0700 ben | | A permanent change | | | | @ 6 8f65e5e02793 2014-08-14 <<20:06|2>> -0700 ben | |/ More documentation | | | o 5[featureA]:4,2 bd5ac26f11f9 2014-08-14 <<20:02|2>> -0700 ben | |\\ Merge remote-tracking branch \'origin/master\' | | | | | o 4 0434aaa6b91f 2014-08-14 <<20:01|2>> -0700 ben | | | update makefile | | | +---o 3:1 318914536c86 2014-08-14 <<20:00|2>> -0700 ben | | goodbye | | | o 2 f098c7f45c4f 2014-08-14 <<20:01|2>> -0700 ben |/ Add some documentation | o 1 82e55d328c8c 2005-08-26 <<01:21|2>> -0700 mpm | Create a makefile | o 0 0a04b987be5a 2005-08-26 <<01:20|2>> -0700 mpm Create a standard "hello, world" program',
           ],
           [
             1,
             '[ap 01:22] Pro Git - Scott Chacon.epub (OEBPS/ch09-git-and-other-systems.xhtml) - 1.22',
-            '$ git clone https://10.0.1.254/Talkhouse
-Cloning into \'Talkhouse\'...
-Username for \'https://10.0.1.254\': john
-Password for \'https://john@10.0.1.254\':
-remote: Counting objects: 630, done.
-remote: Compressing objects: 100% (581/581), done.
-remote: Total 630 (delta 172), reused 0 (delta 0)
-Receiving objects: 100% (630/630), <<1.22|5a:0>> MiB | 0 bytes/s, done.
-Resolving deltas: 100% (172/172), done.
-Checking connectivity... done.',
+            ' $ git clone https://10.0.1.254/Talkhouse Cloning into \'Talkhouse\'... Username for \'https://10.0.1.254\': john Password for \'https://john@10.0.1.254\': remote: Counting objects: 630, done. remote: Compressing objects: 100% (581/581), done. remote: Total 630 (delta 172), reused 0 (delta 0) Receiving objects: 100% (630/630), <<1.22|5a:0>> MiB | 0 bytes/s, done. Resolving deltas: 100% (172/172), done. Checking connectivity... done.',
           ],
           [
             1,
             '[ap 01:21] Pro Git - Scott Chacon.epub (OEBPS/ch09-git-and-other-systems.xhtml) - 1.21',
-            '$ git clone https://10.0.1.254/Jam
-Cloning into \'Jam\'...
-Username for \'https://10.0.1.254\': john
-Password for \'https://john@10.0.1.254\':
-remote: Counting objects: 2070, done.
-remote: Compressing objects: 100% (1704/1704), done.
-Receiving objects: 100% (2070/2070), <<1.21|5a:0>> MiB | 0 bytes/s, done.
-remote: Total 2070 (delta 1242), reused 0 (delta 0)
-Resolving deltas: 100% (1242/1242), done.
-Checking connectivity... done.
-$ git branch -a
-* master
- remotes/origin/HEAD -> origin/master
- remotes/origin/master
- remotes/origin/rel2.1
-$ git log --oneline --decorate --graph --all
-* 0a38c33 (origin/rel2.1) Create Jam 2.1 release branch.
-| * d254865 (HEAD, origin/master, origin/HEAD, master) Upgrade to latest metrowerks on Beos -- the Intel one.
-| * bd2f54a Put in fix for jam\'s NT handle leak.
-| * c0f29e7 Fix URL in a jam doc
-| * cc644ac Radstone\'s lynx port.
-[...]',
+            ' $ git clone https://10.0.1.254/Jam Cloning into \'Jam\'... Username for \'https://10.0.1.254\': john Password for \'https://john@10.0.1.254\': remote: Counting objects: 2070, done. remote: Compressing objects: 100% (1704/1704), done. Receiving objects: 100% (2070/2070), <<1.21|5a:0>> MiB | 0 bytes/s, done. remote: Total 2070 (delta 1242), reused 0 (delta 0) Resolving deltas: 100% (1242/1242), done. Checking connectivity... done. $ git branch -a * master remotes/origin/HEAD -> origin/master remotes/origin/master remotes/origin/rel2.1 $ git log --oneline --decorate --graph --all * 0a38c33 (origin/rel2.1) Create Jam 2.1 release branch. | * d254865 (HEAD, origin/master, origin/HEAD, master) Upgrade to latest metrowerks on Beos -- the Intel one. | * bd2f54a Put in fix for jam\'s NT handle leak. | * c0f29e7 Fix URL in a jam doc | * cc644ac Radstone\'s lynx port. [...]',
           ],
           [
             1,
             '[18:26] Pro Git - Scott Chacon.epub (OEBPS/ch09-git-and-other-systems.xhtml) - 18:26',
-            '# A Perforce Change Specification.
-#
-#  Change:      The change number. \'new\' on a new changelist.
-#  Date:        The date this specification was last modified.
-#  Client:      The client on which the changelist was created.  Read-only.
-#  User:        The user who created the changelist.
-#  Status:      Either \'pending\' or \'submitted\'. Read-only.
-#  Type:        Either \'public\' or \'restricted\'. Default is \'public\'.
-#  Description: Comments about the changelist.  Required.
-#  Jobs:        What opened jobs are to be closed by this changelist.
-#               You may delete jobs from this list.  (New changelists only.)
-#  Files:       What opened files from the default changelist are to be added
-#               to this changelist.  You may delete files from this list.
-#               (New changelists only.)
-Change:  new
-Client:  john_bens-mbp_8487
-User: john
-Status:  new
-Description:
-  Update link
-Files:
-  //depot/www/live/index.html   # edit
-######## git author ben@straub.cc does not match your p4 account.
-######## Use option --preserve-user to modify authorship.
-######## Variable git-p4.skipUserNameCheck hides this message.
-######## everything below this line is just the diff #######
---- //depot/www/live/index.html  2014-08-31 <<18:26|2>>:05.000000000 <<0000|18:0>>
-+++ /Users/ben/john_bens-mbp_8487/john_bens-mbp_8487/depot/www/live/index.html   2014-08-31 <<18:26|2>>:05.000000000 <<0000|18:0>>
-@@ -60,7 +60,7 @@
-</td>
-<td valign=top>
-Source and documentation for
--<a href="<<http://www.perforce.com/jam/jam.html">|x17>>
-+<a href="jam.html">
-Jam/MR</a>,
-a software build tool.
-</td>',
+            ' # A Perforce Change Specification. # # Change: The change number. \'new\' on a new changelist. # Date: The date this specification was last modified. # Client: The client on which the changelist was created. Read-only. # User: The user who created the changelist. # Status: Either \'pending\' or \'submitted\'. Read-only. # Type: Either \'public\' or \'restricted\'. Default is \'public\'. # Description: Comments about the changelist. Required. # Jobs: What opened jobs are to be closed by this changelist. # You may delete jobs from this list. (New changelists only.) # Files: What opened files from the default changelist are to be added # to this changelist. You may delete files from this list. # (New changelists only.) Change: new Client: john_bens-mbp_8487 User: john Status: new Description: Update link Files: //depot/www/live/index.html # edit ######## git author ben@straub.cc does not match your p4 account. ######## Use option --preserve-user to modify authorship. ######## Variable git-p4.skipUserNameCheck hides this message. ######## everything below this line is just the diff ####### --- //depot/www/live/index.html 2014-08-31 <<18:26|2>>:05.000000000 <<0000|18:0>> +++ /Users/ben/john_bens-mbp_8487/john_bens-mbp_8487/depot/www/live/index.html 2014-08-31 <<18:26|2>>:05.000000000 <<0000|18:0>> @@ -60,7 +60,7 @@ </td> <td valign=top> Source and documentation for -<a href="<<http://www.perforce.com/jam/jam.html">|x17>> +<a href="jam.html"> Jam/MR</a>, a software build tool. </td>',
           ],
           [
             1,
             '[ap 10:31] Pro Git - Scott Chacon.epub (OEBPS/ch09-git-and-other-systems.xhtml) - 10:31',
-            '$ git log -1
-commit 775a46f630d8b46535fc9983cf3ebe6b9aa53145
-Author: John Doe <john@example.com>
-Date:   Sun Aug 31 <<10:31|2>>:44 2014 -0800
-   Change page title
-   [git-p4: depot-paths = "//depot/www/live/": change = 12144]',
+            ' $ git log -1 commit 775a46f630d8b46535fc9983cf3ebe6b9aa53145 Author: John Doe <john@example.com> Date: Sun Aug 31 <<10:31|2>>:44 2014 -0800 Change page title [git-p4: depot-paths = "//depot/www/live/": change = 12144]',
           ],
           [
             1,
             '[ap 03:41] Pro Git - Scott Chacon.epub (OEBPS/ch09-git-and-other-systems.xhtml) - 03:41',
-            'PS> git log --oneline --graph --decorate --all
-* 44cd729 (tfs/featureA, featureA) Goodbye
-* d202b53 Branched from $/tfvc-test/Trunk
-* c403405 (HEAD, tfs/default, master) Hello
-* b75da1a New project
-PS> git log -1
-commit c403405f4989d73a2c3c119e79021cb2104ce44a
-Author: Ben Straub <ben@straub.cc>
-Date:   Fri Aug 1 <<03:41|2>>:59 2014 +0000
-   Hello
-   git-tfs-id: [https://username.visualstudio.com/DefaultCollection]$/myproject/Trunk;C16',
+            ' PS> git log --oneline --graph --decorate --all * 44cd729 (tfs/featureA, featureA) Goodbye * d202b53 Branched from $/tfvc-test/Trunk * c403405 (HEAD, tfs/default, master) Hello * b75da1a New project PS> git log -1 commit c403405f4989d73a2c3c119e79021cb2104ce44a Author: Ben Straub <ben@straub.cc> Date: Fri Aug 1 <<03:41|2>>:59 2014 +0000 Hello git-tfs-id: [https://username.visualstudio.com/DefaultCollection]$/myproject/Trunk;C16',
           ],
           [
             1,
             '[00:12] Pro Git - Scott Chacon.epub (OEBPS/ch09-git-and-other-systems.xhtml) - 00:12',
-            'commit 37efa680e8473b615de980fa935944215428a35a
-Author: schacon <schacon@4c93b258-373f-11de-be05-5f7a86268029>
-Date:   Sun May 3 <<00:12|2>>:22 2009 +0000
-   fixed install - go to trunk
-   git-svn-id: https://my-project.googlecode.com/svn/trunk@94 4c93b258-373f-11de-
-   be05-5f7a86268029',
+            ' commit 37efa680e8473b615de980fa935944215428a35a Author: schacon <schacon@4c93b258-373f-11de-be05-5f7a86268029> Date: Sun May 3 <<00:12|2>>:22 2009 +0000 fixed install - go to trunk git-svn-id: https://my-project.googlecode.com/svn/trunk@94 4c93b258-373f-11de- be05-5f7a86268029',
           ],
           [
             1,
             '[00:12] Pro Git - Scott Chacon.epub (OEBPS/ch09-git-and-other-systems.xhtml) - 00:12',
-            'commit 03a8785f44c8ea5cdb0e8834b7c8e6c469be2ff2
-Author: Scott Chacon <schacon@geemail.com>
-Date:   Sun May 3 <<00:12|2>>:22 2009 +0000
-   fixed install - go to trunk',
+            ' commit 03a8785f44c8ea5cdb0e8834b7c8e6c469be2ff2 Author: Scott Chacon <schacon@geemail.com> Date: Sun May 3 <<00:12|2>>:22 2009 +0000 fixed install - go to trunk',
           ],
           [
             1,
             '[ap 03:13] Pro Git - Scott Chacon.epub (OEBPS/ch09-git-and-other-systems.xhtml) - 03:13',
-            '$ git log -2
-commit e5da1c909e5db3036475419f6379f2c73710c4e6
-Author: giles <giles@giles@perforce.com>
-Date:   Wed Feb 8 <<03:13|2>>:27 2012 -0800
-   Correction to line 355; change </UL> to </OL>.
-   [git-p4: depot-paths = "//public/jam/src/": change = 8068]
-commit aa21359a0a135dda85c50a7f7cf249e4f7b8fd98
-Author: kwirth <kwirth@perforce.com>
-Date:   Tue Jul 7 <<01:35|2>>:51 2009 -0800
-   Fix spelling error on Jam doc page (cummulative -> cumulative).
-   [git-p4: depot-paths = "//public/jam/src/": change = 7304]',
+            ' $ git log -2 commit e5da1c909e5db3036475419f6379f2c73710c4e6 Author: giles <giles@giles@perforce.com> Date: Wed Feb 8 <<03:13|2>>:27 2012 -0800 Correction to line 355; change </UL> to </OL>. [git-p4: depot-paths = "//public/jam/src/": change = 8068] commit aa21359a0a135dda85c50a7f7cf249e4f7b8fd98 Author: kwirth <kwirth@perforce.com> Date: Tue Jul 7 <<01:35|2>>:51 2009 -0800 Fix spelling error on Jam doc page (cummulative -> cumulative). [git-p4: depot-paths = "//public/jam/src/": change = 7304]',
           ],
           [
             1,
             '[ap 03:13] Pro Git - Scott Chacon.epub (OEBPS/ch09-git-and-other-systems.xhtml) - 03:13',
-            '$ git log -2
-commit b17341801ed838d97f7800a54a6f9b95750839b7
-Author: giles <giles@giles@perforce.com>
-Date:   Wed Feb 8 <<03:13|2>>:27 2012 -0800
-   Correction to line 355; change </UL> to </OL>.
-commit 3e68c2e26cd89cb983eb52c024ecdfba1d6b3fff
-Author: kwirth <kwirth@perforce.com>
-Date:   Tue Jul 7 <<01:35|2>>:51 2009 -0800
-   Fix spelling error on Jam doc page (cummulative -> cumulative).',
+            ' $ git log -2 commit b17341801ed838d97f7800a54a6f9b95750839b7 Author: giles <giles@giles@perforce.com> Date: Wed Feb 8 <<03:13|2>>:27 2012 -0800 Correction to line 355; change </UL> to </OL>. commit 3e68c2e26cd89cb983eb52c024ecdfba1d6b3fff Author: kwirth <kwirth@perforce.com> Date: Tue Jul 7 <<01:35|2>>:51 2009 -0800 Fix spelling error on Jam doc page (cummulative -> cumulative).',
           ],
           [
             1,
             '[ap 11:20] Pro Git - Scott Chacon.epub (OEBPS/ch09-git-and-other-systems.xhtml) - 11-20',
-            'This grabs all of the changesets in the history of the project and put it in the AUTHORS_TMP file that we will process to extract the data of the User column (the 2nd one).
-Open the file and find at which characters start and end the column and replace, in the following command-line, the parameters <<11-20|5a:0>> of the cut command with the ones found:',
+            ' This grabs all of the changesets in the history of the project and put it in the AUTHORS_TMP file that we will process to extract the data of the User column (the 2nd one). Open the file and find at which characters start and end the column and replace, in the following command-line, the parameters <<11-20|5a:0>> of the cut command with the ones found:',
           ],
           [
             1,
             '[ap 11:20] Pro Git - Scott Chacon.epub (OEBPS/ch09-git-and-other-systems.xhtml) - 11-20',
-            'PS> cat AUTHORS_TMP | cut -b <<11-20|5a:0>> | tail -n+3 | sort | uniq > AUTHORS',
+            ' PS> cat AUTHORS_TMP | cut -b <<11-20|5a:0>> | tail -n+3 | sort | uniq > AUTHORS',
           ],
           [
             1,
             '[19:39] Pro Git - Scott Chacon.epub (OEBPS/ch09-git-and-other-systems.xhtml) - 19:39',
-            '$ git log -2
-commit 3caa046d4aac682a55867132ccdfbe0d3fdee498
-Author: John Doe <john@example.com>
-Date:   Tue Jul 29 <<19:39|2>>:04 2014 -0700
-   imported from current
-commit 4afc2b945d0d3c8cd00556fbe2e8224569dc9def
-Author: John Doe <john@example.com>
-Date:   Mon Feb 3 <<01:00|2>>:00 2014 -0700
-   imported from back_2014_02_03',
+            ' $ git log -2 commit 3caa046d4aac682a55867132ccdfbe0d3fdee498 Author: John Doe <john@example.com> Date: Tue Jul 29 <<19:39|2>>:04 2014 -0700 imported from current commit 4afc2b945d0d3c8cd00556fbe2e8224569dc9def Author: John Doe <john@example.com> Date: Mon Feb 3 <<01:00|2>>:00 2014 -0700 imported from back_2014_02_03',
           ],
           [
             1,
             '[18:15] Pro Git - Scott Chacon.epub (OEBPS/ch10-git-internals.xhtml) - 18:15',
-            '$ git log --stat 1a410e
-commit 1a410efbd13591db07496601ebc7a059dd55cfe9
-Author: Scott Chacon <schacon@gmail.com>
-Date:   Fri May 22 <<18:15|2>>:24 2009 -0700
-third commit
-bak/test.txt | 1 +
-1 file changed, 1 insertion(+)
-commit cac0cab538b970a37ea1e769cbbde608743bc96d
-Author: Scott Chacon <schacon@gmail.com>
-Date:   Fri May 22 <<18:14|2>>:29 2009 -0700
-second commit
-new.txt  | 1 +
-test.txt | 2 +-
-2 files changed, 2 insertions(+), 1 deletion(-)
-commit fdf4fc3344e67ab068f836878b6c4951e3b15f3d
-Author: Scott Chacon <schacon@gmail.com>
-Date:   Fri May 22 <<18:09|2>>:34 2009 -0700
-   first commit
-test.txt | 1 +
-1 file changed, 1 insertion(+)',
+            ' $ git log --stat 1a410e commit 1a410efbd13591db07496601ebc7a059dd55cfe9 Author: Scott Chacon <schacon@gmail.com> Date: Fri May 22 <<18:15|2>>:24 2009 -0700 third commit bak/test.txt | 1 + 1 file changed, 1 insertion(+) commit cac0cab538b970a37ea1e769cbbde608743bc96d Author: Scott Chacon <schacon@gmail.com> Date: Fri May 22 <<18:14|2>>:29 2009 -0700 second commit new.txt | 1 + test.txt | 2 +- 2 files changed, 2 insertions(+), 1 deletion(-) commit fdf4fc3344e67ab068f836878b6c4951e3b15f3d Author: Scott Chacon <schacon@gmail.com> Date: Fri May 22 <<18:09|2>>:34 2009 -0700 first commit test.txt | 1 + 1 file changed, 1 insertion(+)',
           ],
           [
             1,
             '[16:48] Pro Git - Scott Chacon.epub (OEBPS/ch10-git-internals.xhtml) - 16:48',
-            '$ git cat-file -p 9585191f37f7b0fb9444f35a9bf50de191beadc2
-object 1a410efbd13591db07496601ebc7a059dd55cfe9
-type commit
-tag v1.1
-tagger Scott Chacon <schacon@gmail.com> Sat May 23 <<16:48|2>>:58 2009 -0700
-test tag',
+            ' $ git cat-file -p 9585191f37f7b0fb9444f35a9bf50de191beadc2 object 1a410efbd13591db07496601ebc7a059dd55cfe9 type commit tag v1.1 tagger Scott Chacon <schacon@gmail.com> Sat May 23 <<16:48|2>>:58 2009 -0700 test tag',
           ],
           [
             1,
             '[ap 01:00] Pro Git - Scott Chacon.epub (OEBPS/ch10-git-internals.xhtml) - one',
-            "Remote references differ from branches (refs/heads references) mainly in that they\x{2019}re considered read-only.
-You can git checkout to one, but Git won\x{2019}t point HEAD at <<one|9c:1>>, so you\x{2019}ll never update it with a commit command.
-Git manages them as bookmarks to the last known state of where those branches were on those servers.",
+            " Remote references differ from branches (refs/heads references) mainly in that they\x{2019}re considered read-only. You can git checkout to one, but Git won\x{2019}t point HEAD at <<one|9c:1>>, so you\x{2019}ll never update it with a commit command. Git manages them as bookmarks to the last known state of where those branches were on those servers.",
           ],
           [
             1,
             '[00:00] Pro Git - Scott Chacon.epub (OEBPS/ch10-git-internals.xhtml) - 0000',
-            "\$ ssh -x git\@server \"git-receive-pack 'simplegit-progit.git'\"
-00a5ca82a6dff817ec66f4437202690a93763949 refs/heads/master\x{25a1}report-status \\
-delete-refs side-band-64k quiet ofs-delta \\
-agent=git/2:2.1.1+github-607-gfba4028 delete-refs
-<<0000|18:0>>",
+            " \$ ssh -x git\@server \"git-receive-pack 'simplegit-progit.git'\" 00a5ca82a6dff817ec66f4437202690a93763949 refs/heads/master\x{25a1}report-status \\ delete-refs side-band-64k quiet ofs-delta \\ agent=git/2:2.1.1+github-607-gfba4028 delete-refs <<0000|18:0>>",
           ],
           [
             1,
             '[00:00] Pro Git - Scott Chacon.epub (OEBPS/ch10-git-internals.xhtml) - 0000',
-            'Each line starts with a 4-character hex value specifying how long the rest of the line is.
-Your first line starts with 00a5, which is hexadecimal for 165, meaning that 165 bytes remain on that line.
-The next line is <<0000|18:0>>, meaning the server is done with its references listing.',
+            'Each line starts with a 4-character hex value specifying how long the rest of the line is. Your first line starts with 00a5, which is hexadecimal for 165, meaning that 165 bytes remain on that line. The next line is <<0000|18:0>>, meaning the server is done with its references listing.',
           ],
           [
             1,
             '[00:00] Pro Git - Scott Chacon.epub (OEBPS/ch10-git-internals.xhtml) - 0000',
-            '0076ca82a6dff817ec66f44342007202690a93763949 15027957951b64cf874c3557a0f3547bd83b3ff6 \\
-refs/heads/master report-status
-006c0000000000000000000000000000000000000000 cdfdb42577e2506715f8cfeacdbabc092bf63e8d \\
-refs/heads/experiment
-<<0000|18:0>>',
+            ' 0076ca82a6dff817ec66f44342007202690a93763949 15027957951b64cf874c3557a0f3547bd83b3ff6 \\ refs/heads/master report-status 006c0000000000000000000000000000000000000000 cdfdb42577e2506715f8cfeacdbabc092bf63e8d \\ refs/heads/experiment <<0000|18:0>>',
           ],
           [
             1,
             '[00:00] Pro Git - Scott Chacon.epub (OEBPS/ch10-git-internals.xhtml) - 0000',
-            "=> GET http://server/simplegit-progit.git/info/refs?service=git-receive-pack
-001f# service=git-receive-pack
-00ab6c5f0e45abd7832bf23074a333f739977c9e8188 refs/heads/master\x{25a1}report-status \\
-delete-refs side-band-64k quiet ofs-delta \\
-agent=git/2:2.1.1~vmg-bitmaps-bugaloo-608-g116744e
-<<0000|18:0>>",
+            " => GET http://server/simplegit-progit.git/info/refs?service=git-receive-pack 001f# service=git-receive-pack 00ab6c5f0e45abd7832bf23074a333f739977c9e8188 refs/heads/master\x{25a1}report-status \\ delete-refs side-band-64k quiet ofs-delta \\ agent=git/2:2.1.1~vmg-bitmaps-bugaloo-608-g116744e <<0000|18:0>>",
           ],
           [
             1,
             '[00:00] Pro Git - Scott Chacon.epub (OEBPS/ch10-git-internals.xhtml) - 0000',
-            "00dfca82a6dff817ec66f44342007202690a93763949 HEAD\x{25a1}multi_ack thin-pack \\
-side-band side-band-64k ofs-delta shallow no-progress include-tag \\
-multi_ack_detailed symref=HEAD:refs/heads/master \\
-agent=git/2:2.1.1+github-607-gfba4028
-003fe2409a098dc3e53539a9028a94b6224db9d6a6b6 refs/heads/master
-<<0000|18:0>>",
+            " 00dfca82a6dff817ec66f44342007202690a93763949 HEAD\x{25a1}multi_ack thin-pack \\ side-band side-band-64k ofs-delta shallow no-progress include-tag \\ multi_ack_detailed symref=HEAD:refs/heads/master \\ agent=git/2:2.1.1+github-607-gfba4028 003fe2409a098dc3e53539a9028a94b6224db9d6a6b6 refs/heads/master <<0000|18:0>>",
           ],
           [
             1,
             '[00:00] Pro Git - Scott Chacon.epub (OEBPS/ch10-git-internals.xhtml) - 0000',
-            '003cwant ca82a6dff817ec66f44342007202690a93763949 ofs-delta
-0032have 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7
-0009done
-<<0000|18:0>>',
+            ' 003cwant ca82a6dff817ec66f44342007202690a93763949 ofs-delta 0032have 085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7 0009done <<0000|18:0>>',
           ],
           [
             1,
             '[00:00] Pro Git - Scott Chacon.epub (OEBPS/ch10-git-internals.xhtml) - 0000',
-            "=> GET \$GIT_URL/info/refs?service=git-upload-pack
-001e# service=git-upload-pack
-00e7ca82a6dff817ec66f44342007202690a93763949 HEAD\x{25a1}multi_ack thin-pack \\
-side-band side-band-64k ofs-delta shallow no-progress include-tag \\
-multi_ack_detailed no-done symref=HEAD:refs/heads/master \\
-agent=git/2:2.1.1+github-607-gfba4028
-003fca82a6dff817ec66f44342007202690a93763949 refs/heads/master
-<<0000|18:0>>",
+            " => GET \$GIT_URL/info/refs?service=git-upload-pack 001e# service=git-upload-pack 00e7ca82a6dff817ec66f44342007202690a93763949 HEAD\x{25a1}multi_ack thin-pack \\ side-band side-band-64k ofs-delta shallow no-progress include-tag \\ multi_ack_detailed no-done symref=HEAD:refs/heads/master \\ agent=git/2:2.1.1+github-607-gfba4028 003fca82a6dff817ec66f44342007202690a93763949 refs/heads/master <<0000|18:0>>",
           ],
           [
             1,
             '[00:00] Pro Git - Scott Chacon.epub (OEBPS/ch10-git-internals.xhtml) - 0000',
-            '=> POST $GIT_URL/git-upload-pack HTTP/1.0
-0032want 0a53e9ddeaddad63ad106860237bbf53411d11a7
-0032have 441b40d833fdfa93eb2908e52742248faf0ee993
-<<0000|18:0>>',
+            ' => POST $GIT_URL/git-upload-pack HTTP/1.0 0032want 0a53e9ddeaddad63ad106860237bbf53411d11a7 0032have 441b40d833fdfa93eb2908e52742248faf0ee993 <<0000|18:0>>',
           ],
           [
             1,
             '[18:22] Pro Git - Scott Chacon.epub (OEBPS/ch10-git-internals.xhtml) - 18:22',
-            '$ git log -g
-commit 1a410efbd13591db07496601ebc7a059dd55cfe9
-Reflog: HEAD@{0} (Scott Chacon <schacon@gmail.com>)
-Reflog message: updating HEAD
-Author: Scott Chacon <schacon@gmail.com>
-Date:   Fri May 22 <<18:22|2>>:37 2009 -0700
-	third commit
-commit ab1afef80fac8e34258ff41fc1b867c702daa24b
-Reflog: HEAD@{1} (Scott Chacon <schacon@gmail.com>)
-Reflog message: updating HEAD
-Author: Scott Chacon <schacon@gmail.com>
-Date:   Fri May 22 <<18:15|2>>:24 2009 -0700
-      modified repo.rb a bit',
+            ' $ git log -g commit 1a410efbd13591db07496601ebc7a059dd55cfe9 Reflog: HEAD@{0} (Scott Chacon <schacon@gmail.com>) Reflog message: updating HEAD Author: Scott Chacon <schacon@gmail.com> Date: Fri May 22 <<18:22|2>>:37 2009 -0700 third commit commit ab1afef80fac8e34258ff41fc1b867c702daa24b Reflog: HEAD@{1} (Scott Chacon <schacon@gmail.com>) Reflog message: updating HEAD Author: Scott Chacon <schacon@gmail.com> Date: Fri May 22 <<18:15|2>>:24 2009 -0700 modified repo.rb a bit',
           ],
           [
             1,
             '[20:12] Pro Git - Scott Chacon.epub (OEBPS/ch10-git-internals.xhtml) - 20:12',
-            '$ GIT_TRACE=true git lga
-<<20:12|2>>:49.877982 git.c:554               trace: exec: \'git-lga\'
-<<20:12|2>>:49.878369 run-command.c:341       trace: run_command: \'git-lga\'
-<<20:12|2>>:49.879529 git.c:282               trace: alias expansion: lga => \'log\' \'--graph\' \'--pretty=oneline\' \'--abbrev-commit\' \'--decorate\' \'--all\'
-<<20:12|2>>:49.879885 git.c:349               trace: built-in: git \'log\' \'--graph\' \'--pretty=oneline\' \'--abbrev-commit\' \'--decorate\' \'--all\'
-<<20:12|2>>:49.899217 run-command.c:341       trace: run_command: \'less\'
-<<20:12|2>>:49.899675 run-command.c:192       trace: exec: \'less\'',
+            ' $ GIT_TRACE=true git lga <<20:12|2>>:49.877982 git.c:554 trace: exec: \'git-lga\' <<20:12|2>>:49.878369 run-command.c:341 trace: run_command: \'git-lga\' <<20:12|2>>:49.879529 git.c:282 trace: alias expansion: lga => \'log\' \'--graph\' \'--pretty=oneline\' \'--abbrev-commit\' \'--decorate\' \'--all\' <<20:12|2>>:49.879885 git.c:349 trace: built-in: git \'log\' \'--graph\' \'--pretty=oneline\' \'--abbrev-commit\' \'--decorate\' \'--all\' <<20:12|2>>:49.899217 run-command.c:341 trace: run_command: \'less\' <<20:12|2>>:49.899675 run-command.c:192 trace: exec: \'less\'',
           ],
           [
             1,
             '[20:10] Pro Git - Scott Chacon.epub (OEBPS/ch10-git-internals.xhtml) - 20:10',
-            "\$ GIT_TRACE_PACK_ACCESS=true git status
-<<20:10|2>>:12.081397 sha1_file.c:2088        .git/objects/pack/pack-c3fa...291e.pack 12
-<<20:10|2>>:12.081886 sha1_file.c:2088        .git/objects/pack/pack-c3fa...291e.pack 34662
-<<20:10|2>>:12.082115 sha1_file.c:2088        .git/objects/pack/pack-c3fa...291e.pack 35175
-# [\x{2026}]
-<<20:10|2>>:12.087398 sha1_file.c:2088        .git/objects/pack/pack-e80e...e3d2.pack 56914983
-<<20:10|2>>:12.087419 sha1_file.c:2088        .git/objects/pack/pack-e80e...e3d2.pack 14303666
-On branch master
-Your branch is up-to-date with 'origin/master'.
-nothing to commit, working directory clean",
+            " \$ GIT_TRACE_PACK_ACCESS=true git status <<20:10|2>>:12.081397 sha1_file.c:2088 .git/objects/pack/pack-c3fa...291e.pack 12 <<20:10|2>>:12.081886 sha1_file.c:2088 .git/objects/pack/pack-c3fa...291e.pack 34662 <<20:10|2>>:12.082115 sha1_file.c:2088 .git/objects/pack/pack-c3fa...291e.pack 35175 # [\x{2026}] <<20:10|2>>:12.087398 sha1_file.c:2088 .git/objects/pack/pack-e80e...e3d2.pack 56914983 <<20:10|2>>:12.087419 sha1_file.c:2088 .git/objects/pack/pack-e80e...e3d2.pack 14303666 On branch master Your branch is up-to-date with 'origin/master'. nothing to commit, working directory clean",
           ],
           [
             1,
             '[20:15] Pro Git - Scott Chacon.epub (OEBPS/ch10-git-internals.xhtml) - 20:15',
-            "\$ GIT_TRACE_PACKET=true git ls-remote origin
-<<20:15|2>>:14.867043 pkt-line.c:46           packet:          git< # service=git-upload-pack
-<<20:15|2>>:14.867071 pkt-line.c:46           packet:          git< <<0000|18:0>>
-<<20:15|2>>:14.867079 pkt-line.c:46           packet:          git< 97b8860c071898d9e162678ea1035a8ced2f8b1f HEAD\\0multi_ack thin-pack side-band side-band-64k ofs-delta shallow no-progress include-tag multi_ack_detailed no-done symref=HEAD:refs/heads/master agent=git/2.0.4
-<<20:15|2>>:14.867088 pkt-line.c:46           packet:          git< 0f20ae29889d61f2e93ae00fd34f1cdb53285702 refs/heads/ab/add-interactive-show-diff-func-name
-<<20:15|2>>:14.867094 pkt-line.c:46           packet:          git< 36dc827bc9d17f80ed4f326de21247a5d1341fbc refs/heads/ah/doc-gitk-config
-# [\x{2026}]",
+            " \$ GIT_TRACE_PACKET=true git ls-remote origin <<20:15|2>>:14.867043 pkt-line.c:46 packet: git< # service=git-upload-pack <<20:15|2>>:14.867071 pkt-line.c:46 packet: git< <<0000|18:0>> <<20:15|2>>:14.867079 pkt-line.c:46 packet: git< 97b8860c071898d9e162678ea1035a8ced2f8b1f HEAD\\0multi_ack thin-pack side-band side-band-64k ofs-delta shallow no-progress include-tag multi_ack_detailed no-done symref=HEAD:refs/heads/master agent=git/2.0.4 <<20:15|2>>:14.867088 pkt-line.c:46 packet: git< 0f20ae29889d61f2e93ae00fd34f1cdb53285702 refs/heads/ab/add-interactive-show-diff-func-name <<20:15|2>>:14.867094 pkt-line.c:46 packet: git< 36dc827bc9d17f80ed4f326de21247a5d1341fbc refs/heads/ah/doc-gitk-config # [\x{2026}]",
           ],
           [
             1,
             '[20:18] Pro Git - Scott Chacon.epub (OEBPS/ch10-git-internals.xhtml) - 20:18',
-            '$ GIT_TRACE_PERFORMANCE=true git gc
-<<20:18|2>>:19.499676 trace.c:414             performance: 0.374835000 s: git command: \'git\' \'pack-refs\' \'--all\' \'--prune\'
-<<20:18|2>>:19.845585 trace.c:414             performance: 0.343020000 s: git command: \'git\' \'reflog\' \'expire\' \'--all\'
-Counting objects: 170994, done.
-Delta compression using up to 8 threads.
-Compressing objects: 100% (43413/43413), done.
-Writing objects: 100% (170994/170994), done.
-Total 170994 (delta 126176), reused 170524 (delta 125706)
-<<20:18|2>>:23.567927 trace.c:414             performance: 3.715349000 s: git command: \'git\' \'pack-objects\' \'--keep-true-parents\' \'--honor-pack-keep\' \'--non-empty\' \'--all\' \'--reflog\' \'--unpack-unreachable=2.weeks.ago\' \'--local\' \'--delta-base-offset\' \'.git/objects/pack/.tmp-49190-pack\'
-<<20:18|2>>:23.584728 trace.c:414             performance: 0.000910000 s: git command: \'git\' \'prune-packed\'
-<<20:18|2>>:23.605218 trace.c:414             performance: 0.017972000 s: git command: \'git\' \'update-server-info\'
-<<20:18|2>>:23.606342 trace.c:414             performance: 3.756312000 s: git command: \'git\' \'repack\' \'-d\' \'-l\' \'-A\' \'--unpack-unreachable=2.weeks.ago\'
-Checking connectivity: 170994, done.
-<<20:18|2>>:25.225424 trace.c:414             performance: 1.616423000 s: git command: \'git\' \'prune\' \'--expire\' \'2.weeks.ago\'
-<<20:18|2>>:25.232403 trace.c:414             performance: 0.001051000 s: git command: \'git\' \'rerere\' \'gc\'
-<<20:18|2>>:25.233159 trace.c:414             performance: 6.112217000 s: git command: \'git\' \'gc\'',
+            ' $ GIT_TRACE_PERFORMANCE=true git gc <<20:18|2>>:19.499676 trace.c:414 performance: 0.374835000 s: git command: \'git\' \'pack-refs\' \'--all\' \'--prune\' <<20:18|2>>:19.845585 trace.c:414 performance: 0.343020000 s: git command: \'git\' \'reflog\' \'expire\' \'--all\' Counting objects: 170994, done. Delta compression using up to 8 threads. Compressing objects: 100% (43413/43413), done. Writing objects: 100% (170994/170994), done. Total 170994 (delta 126176), reused 170524 (delta 125706) <<20:18|2>>:23.567927 trace.c:414 performance: 3.715349000 s: git command: \'git\' \'pack-objects\' \'--keep-true-parents\' \'--honor-pack-keep\' \'--non-empty\' \'--all\' \'--reflog\' \'--unpack-unreachable=2.weeks.ago\' \'--local\' \'--delta-base-offset\' \'.git/objects/pack/.tmp-49190-pack\' <<20:18|2>>:23.584728 trace.c:414 performance: 0.000910000 s: git command: \'git\' \'prune-packed\' <<20:18|2>>:23.605218 trace.c:414 performance: 0.017972000 s: git command: \'git\' \'update-server-info\' <<20:18|2>>:23.606342 trace.c:414 performance: 3.756312000 s: git command: \'git\' \'repack\' \'-d\' \'-l\' \'-A\' \'--unpack-unreachable=2.weeks.ago\' Checking connectivity: 170994, done. <<20:18|2>>:25.225424 trace.c:414 performance: 1.616423000 s: git command: \'git\' \'prune\' \'--expire\' \'2.weeks.ago\' <<20:18|2>>:25.232403 trace.c:414 performance: 0.001051000 s: git command: \'git\' \'rerere\' \'gc\' <<20:18|2>>:25.233159 trace.c:414 performance: 6.112217000 s: git command: \'git\' \'gc\'',
           ],
           [
             1,
             '[20:19] Pro Git - Scott Chacon.epub (OEBPS/ch10-git-internals.xhtml) - 20:19',
-            '$ GIT_TRACE_SETUP=true git status
-<<20:19|2>>:47.086765 trace.c:315             setup: git_dir: .git
-<<20:19|2>>:47.087184 trace.c:316             setup: worktree: /Users/ben/src/git
-<<20:19|2>>:47.087191 trace.c:317             setup: cwd: /Users/ben/src/git
-<<20:19|2>>:47.087194 trace.c:318             setup: prefix: (null)
-On branch master
-Your branch is up-to-date with \'origin/master\'.
-nothing to commit, working directory clean',
+            ' $ GIT_TRACE_SETUP=true git status <<20:19|2>>:47.086765 trace.c:315 setup: git_dir: .git <<20:19|2>>:47.087184 trace.c:316 setup: worktree: /Users/ben/src/git <<20:19|2>>:47.087191 trace.c:317 setup: cwd: /Users/ben/src/git <<20:19|2>>:47.087194 trace.c:318 setup: prefix: (null) On branch master Your branch is up-to-date with \'origin/master\'. nothing to commit, working directory clean',
           ],
         ];

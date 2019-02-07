@@ -44,12 +44,12 @@ $VAR1 = [
             '[20:30] House Made of Dawn - N. Scott Momaday.epub (OEBPS/015_chapter08.html) - 8:30 P.M.',
             "HOLINESS PAN-INDIAN RESCUE MISSION
 Rev. J. B. B. Tosamah, Pastor & Priest of the Sun Saturday <<8:30 P.M.|2a>>
-\x{201c}The Gospel According to John\x{201d}",
+ \x{201c}The Gospel According to John\x{201d}",
           ],
           [
             1,
             '[20:30] House Made of Dawn - N. Scott Momaday.epub (OEBPS/015_chapter08.html) - 8:30 P.M.',
-            "\x{201c}The Gospel According to John\x{201d}
+            " \x{201c}The Gospel According to John\x{201d}
 Sunday <<8:30 P.M.|2a>>
 \x{201c}The Way to Rainy Mountain\x{201d}",
           ],
@@ -81,7 +81,7 @@ Sunday <<8:30 P.M.|2a>>
           [
             1,
             '[12:00] House Made of Dawn - N. Scott Momaday.epub (OEBPS/020_chapter11.html) - noon',
-            'The river was dark and swift, and there were jagged panes of ice along the banks, encrusted with snow. The valley was gray and cold; the mountains were dark and dim on the sky, and a great, gray motionless cloud of snow and mist lay out in the depth of the canyon. The fields were bare and colorless, and the gray tangle of branches rose up out of the orchards like antlers and bones. The town lay huddled in the late winter <<noon|13>>, the upper walls and vigas were stained with water, and thin black columns of smoke rose above the roofs, swelled, and hung out against the low ceiling of the sky. The streets were empty, and here and there were drifts of hard and brittle snow about the fence posts and the stones, pocked with soil and cinders. There was no telling of the sun, save for the one cold, dim, and even light that lay on every corner of the land and made no shadow, and the silence was close by and all around and the bell made no impression upon it. There was no motion to be seen but the single brief burst and billow of the smoke. And out of the town on the old road southward the snow lay unbroken, sloping up on either side to the rocks and the junipers and the dunes. A huge old jack rabbit bounded across the hillside in a blur of great sudden angles and settled away in the snow, still and invisible.',
+            ' The river was dark and swift, and there were jagged panes of ice along the banks, encrusted with snow. The valley was gray and cold; the mountains were dark and dim on the sky, and a great, gray motionless cloud of snow and mist lay out in the depth of the canyon. The fields were bare and colorless, and the gray tangle of branches rose up out of the orchards like antlers and bones. The town lay huddled in the late winter <<noon|13>>, the upper walls and vigas were stained with water, and thin black columns of smoke rose above the roofs, swelled, and hung out against the low ceiling of the sky. The streets were empty, and here and there were drifts of hard and brittle snow about the fence posts and the stones, pocked with soil and cinders. There was no telling of the sun, save for the one cold, dim, and even light that lay on every corner of the land and made no shadow, and the silence was close by and all around and the bell made no impression upon it. There was no motion to be seen but the single brief burst and billow of the smoke. And out of the town on the old road southward the snow lay unbroken, sloping up on either side to the rocks and the junipers and the dunes. A huge old jack rabbit bounded across the hillside in a blur of great sudden angles and settled away in the snow, still and invisible.',
           ],
           [
             1,
