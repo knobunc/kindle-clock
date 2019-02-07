@@ -21,60 +21,31 @@ use TimeMatch;
 $Data::Dumper::Trailingcomma = 1;
 
 # These are the allowed line lengths for books
-my %book_len =
-    ('David Foster Wallace' =>
-         {'Brief Interviews With Hideous Men_ Stories' => 20_000,
-          'Infinite Jest'                              => 50_000, # He's wordy :-)
-         },
-     'David Peace' =>
-         {'Occupied City'                              => 12_000},
-     'James Joyce' =>
-         {'The Restored Finnegans Wake'                => 11_000},
-     'Jane Austen' =>
-         {'The Annotated Emma'                         => 17_000},
-     'Joanna Scott' =>
-         {'Follow Me_ A Novel'                         => 11_000},
-     'Jonathan Safran Foer' =>
-         {'Everything Is Illuminated'                  => 13_000},
+my %safe_book =
+    ('Edgar Allan Poe' =>
+         {'The Works of Edgar Allan Poe, Volume 5' => 1},
+     'Gene Wolfe' =>
+         {'The Fifth Head of Cerberus'             => 1},
+     'H. P. Lovecraft' =>
+         {'The Horror at Red Hook'                 => 1},
+     'Iris Murdoch' =>
+         {'The Sandcastle'                         => 1},
+     'John Irving' =>
+         {'The World According to Garp'            => 1},
+     'John Updike' =>
+         {'The Widows of Eastwick'                 => 1},
+     'Michael Bishop' =>
+         {'No Enemy but Time'                      => 1},
 
      # The footnotes are ugly here... no good answer yet
      'Richard F. Burton' =>
          {'Personal Narrative of a Pilgrimage to '.
-              'Al-Madinah and Meccah_ Volume 1'        => 35_000,
-          'Personal Narrative of a Pilgrimage to '.
-              'Al-Madinah and Meccah_ Volume 2'        => 35_000,
+              'Al-Madinah and Meccah_ Volume 2'    => 1,
          },
-     'Robert Walser' =>
-         {'The Tanners'                                => 25_000},
-     'Steven D. Levitt' =>
-         {'SuperFreakonomics_ Global Cooling, Patriotic Prostitutes, '.
-          'and Why Suicide Bombers Should Buy Li'      => 11_000},
      'Thomas More' =>
-         {'Utopia'                                     => 14_000},
-     'Thomas Pynchon' =>
-         {"Gravity's Rainbow"                          => 13_000},
-     'Tom Wolfe' =>
-         {'The Right Stuff'                            => 11_000},
-    );
-
-# Whether to split on something else
-my %book_split =
-    ('Edgar Allan Poe' =>
-         {'The Works of Edgar Allan Poe, Volume 5' => qr{<br/><br/>}i},
-     'Gene Wolfe' =>
-         {'The Fifth Head of Cerberus'             => qr{<br class="calibre12"/>}i},
-     'H. P. Lovecraft' =>
-         {'The Horror at Red Hook'                 => qr{<br/>}i},
-     'Iris Murdoch' =>
-         {'The Sandcastle'                         => qr{(<br class="calibre3"/>){2}}i},
-     'John Irving' =>
-         {'The World According to Garp'            => qr{<br class="calibre2"\s*/>}i},
-     'John Updike' =>
-         {'The Widows of Eastwick'                 => qr{<br class="calibre2"/>}i},
-     'Michael Bishop' =>
-         {'No Enemy but Time'                      => qr{<br class="calibre1"/>}i},
+         {'Utopia'                                 => 1},
      'Truman Capote' =>
-         {'In Cold Blood'                          => qr{<br class="calibre1"/>}i},
+         {'In Cold Blood'                          => 1},
     );
 
 
@@ -147,12 +118,10 @@ sub search_zip {
         }
 
         # Split the lines
-        my $book_split = $book_split{$author}{$s_book} // qr{(*FAIL)};
         my @raw_lines = split m{ ( </(?:pre|p|address|dl|ol|ul|li|dd|dt
                                      |hr|div|blockquote|h[1-6]|td|th
                                      )>
                                  | </span> \s* <br \s* /?>
-                                 | $book_split
                                  ) \R*
                                }xin, $contents;
         my @lines;
@@ -160,10 +129,6 @@ sub search_zip {
         foreach my $line (@raw_lines) {
             ## First clean out html and turn to text
             $line =~ s{<(sup|h1|h2|h3) [^>/]+>.*?</\g1>}{}sgix;
-
-            # Clean whitespace from the start and end of all lines
-            $line =~ s{^  \s+  }{}xmg;
-            $line =~ s{   \s+ $}{}xmg;
 
             # Determine if are in something that is spacing sensitive
             # TODO: This really needs to be more clever and look at style sheets, but that's
@@ -181,6 +146,10 @@ sub search_zip {
             # Turn brs into newlines
             $line =~ s{<br [^>]+ /? >}{\n}sgix;
 
+            # Clean whitespace from the start and end of all lines
+            $line =~ s{^  \s+  }{}xmg;
+            $line =~ s{   \s+ $}{}xmg;
+
             # Turn it all to text
             $line =~ s{< /? [^>]+ >}{}sgix;
             $line = XML::Entities::decode('all', $line);
@@ -193,22 +162,24 @@ sub search_zip {
             next LINE_LOOP
                 if $line =~ m{\A \s* \z}xin;
 
+            # See if the formatting is stupid and the paragraphs aren't reasonable sizes
+            # (usually indicating that a line is a full chapter which means the book
+            # is usually not great quality)
+            if (not $safe_book{$author}{$s_book}) {
+                my $len = length($line);
+                die "Long line $len in '$author' '$book' '$name': ".substr($line, 0, 200)." ...\n"
+                    if $len > 10_000 and
+                        $line =~ /\R/ and
+                        $line !~ m{PROJECT GUTENBERG LICENSE|Project Gutenberg eBooks are often created};
+            }
+
             # Separate two newlines into separate lines
-            push @lines, split m{\R{2,}}, $line;
+            push @lines, split m{ \R ( \h* \R )+ }x, $line;
         }
 
         for (my $i = 0; $i < @lines; $i++) {
             my $line = $lines[$i];
 
-            # See if the formatting is stupid and the paragraphs aren't reasonable sizes
-            # (usually indicating that a line is a full chapter)
-            my $len = length($line);
-            my $max_len = $book_len{$author}{$s_book} // 10_000;
-
-            die "Long line $len in '$author' '$book' '$name': ".substr($line, 0, 200)." ...\n"
-                if $len > $max_len and
-                   $line =~ /\R/ and
-                   $line !~ m{PROJECT GUTENBERG LICENSE|Project Gutenberg eBooks are often created};
 
             # Actually do the match
             $line = do_match($line, undef, $author, $book, $timing);
