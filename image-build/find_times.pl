@@ -11,6 +11,7 @@ use constant SHORT_LINE_LENGTH => 70;
 use Archive::Zip;
 use Data::Dumper;
 use File::Spec;
+use List::Util qw( min max );
 use XML::Entities;
 
 use lib '.';
@@ -27,6 +28,33 @@ my %book_len =
          },
      'David Peace' =>
          {'Occupied City'                              => 12_000},
+     'James Joyce' =>
+         {'The Restored Finnegans Wake'                => 11_000},
+     'Jane Austen' =>
+         {'The Annotated Emma'                         => 17_000},
+     'Joanna Scott' =>
+         {'Follow Me_ A Novel'                         => 11_000},
+     'Jonathan Safran Foer' =>
+         {'Everything Is Illuminated'                  => 13_000},
+
+     # The footnotes are ugly here... no good answer yet
+     'Richard F. Burton' =>
+         {'Personal Narrative of a Pilgrimage to '.
+              'Al-Madinah and Meccah_ Volume 1'        => 35_000,
+          'Personal Narrative of a Pilgrimage to '.
+              'Al-Madinah and Meccah_ Volume 2'        => 35_000,
+         },
+     'Robert Walser' =>
+         {'The Tanners'                                => 25_000},
+     'Steven D. Levitt' =>
+         {'SuperFreakonomics_ Global Cooling, Patriotic Prostitutes, '.
+          'and Why Suicide Bombers Should Buy Li'      => 11_000},
+     'Thomas More' =>
+         {'Utopia'                                     => 14_000},
+     'Thomas Pynchon' =>
+         {"Gravity's Rainbow"                          => 13_000},
+     'Tom Wolfe' =>
+         {'The Right Stuff'                            => 11_000},
     );
 
 # Whether to split on something else
@@ -37,6 +65,16 @@ my %book_split =
          {'The Fifth Head of Cerberus'             => qr{<br class="calibre12"/>}i},
      'H. P. Lovecraft' =>
          {'The Horror at Red Hook'                 => qr{<br/>}i},
+     'Iris Murdoch' =>
+         {'The Sandcastle'                         => qr{(<br class="calibre3"/>){2}}i},
+     'John Irving' =>
+         {'The World According to Garp'            => qr{<br class="calibre2"\s*/>}i},
+     'John Updike' =>
+         {'The Widows of Eastwick'                 => qr{<br class="calibre2"/>}i},
+     'Michael Bishop' =>
+         {'No Enemy but Time'                      => qr{<br class="calibre1"/>}i},
+     'Truman Capote' =>
+         {'In Cold Blood'                          => qr{<br class="calibre1"/>}i},
     );
 
 
@@ -120,47 +158,59 @@ sub search_zip {
         my @lines;
       LINE_LOOP:
         foreach my $line (@raw_lines) {
+            ## First clean out html and turn to text
+            $line =~ s{<(sup|h1|h2|h3) [^>/]+>.*?</\g1>}{}sgix;
+
+            # Clean whitespace from the start and end of all lines
+            $line =~ s{^  \s+  }{}xmg;
+            $line =~ s{   \s+ $}{}xmg;
+
+            # Determine if are in something that is spacing sensitive
+            # TODO: This really needs to be more clever and look at style sheets, but that's
+            #       a major change
+            my $fixed_formatting = 0;
+            if ($line =~ s{\A \s* <pre (\s+ [^>]+)? >}{}xin) {
+                # Handle pre blocks
+                $fixed_formatting = 1;
+            }
+
+            # Nuke all line breaks
+            $line =~ s{\R+}{ }g
+                unless $fixed_formatting;
+
+            # Turn brs into newlines
+            $line =~ s{<br [^>]+ /? >}{\n}sgix;
+
+            # Turn it all to text
+            $line =~ s{< /? [^>]+ >}{}sgix;
+            $line = XML::Entities::decode('all', $line);
+
+            # Kill consecutive horizontal whitespace
+            $line =~ s{ \h{2,} }{ }xg
+                unless $fixed_formatting;
+
             # Skip blank lines
             next LINE_LOOP
                 if $line =~ m{\A \s* \z}xin;
 
-            ## First clean out html and turn to text
-            $line =~ s{<(sup|h1|h2|h3) [^>/]+>.*?</\g1>}{}sgix;
-            $line =~ s{<br [^>]+ /? > \R* }{\n}sgix;
-            $line =~ s{< /? [^>]+ >}{}sgix;
-            $line = XML::Entities::decode('all', $line);
+            # Separate two newlines into separate lines
+            push @lines, split m{\R{2,}}, $line;
+        }
 
-            # Clean whitespace from the end of all lines
-            $line =~ s{ \s+ $}{}xmg;
-
-            # Remove whitespace from the start of the first line and measure the length.
-            # Then remove up to that many spaces from the next line.
-            $line =~ s{\A ( \s+ ) }{}x;
-            if ( my $ws_len = length($1) ) {
-                if ($ws_len < 100) {
-                    $line =~ s{^ \s{0,$ws_len} }{}xmg;
-                }
-                else {
-                    $line =~ s{^ \s+ }{}xmg;
-                }
-            }
+        for (my $i = 0; $i < @lines; $i++) {
+            my $line = $lines[$i];
 
             # See if the formatting is stupid and the paragraphs aren't reasonable sizes
             # (usually indicating that a line is a full chapter)
             my $len = length($line);
             my $max_len = $book_len{$author}{$s_book} // 10_000;
 
-            die "Long line $len in '$author' '$book' '$name': ".substr($line, 0, 200)."\n"
+            die "Long line $len in '$author' '$book' '$name': ".substr($line, 0, 200)." ...\n"
                 if $len > $max_len and
                    $line =~ /\R/ and
                    $line !~ m{PROJECT GUTENBERG LICENSE|Project Gutenberg eBooks are often created};
 
-            push @lines, $line;
-        }
-
-        for (my $i = 0; $i < @lines; $i++) {
-            my $line = $lines[$i];
-
+            # Actually do the match
             $line = do_match($line, undef, $author, $book, $timing);
 
             if ($line =~ m{<< ([^|>]+) [|] \d+ \w? (:\d)? >>}x) {

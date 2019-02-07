@@ -19,6 +19,7 @@ use Sys::Info;
 use String::Elide::Parts qw(elide);
 use Term::ANSIColor qw( color colorstrip );
 use Term::Size;
+use Text::Wrapper;
 use Time::HiRes qw( time );
 
 use lib '.';
@@ -541,8 +542,28 @@ sub add_sources {
                 };
 
                 if ($exit != 0) {
-                    return ($exit,
-                            "Failed to run './find_times.pl \"$source_file\"' (exit $exit): $stderr");
+                    $exit >>= 8;
+
+                    my $err_str =
+                        "\tFailed to run './find_times.pl \"$source_file\"' (exit $exit):\n\t$stderr";
+                    my $hl = color('bold red');
+                    my $rs = color('reset');
+                    if ($err_str =~ s{.*?:\s+Long line (\d+) in '(.+?)' '(.+?)' '(.+?)': (.+)\z}
+                                     {    Long line ($hl$1$rs) in $hl$2$rs - $hl$3$rs\n\t'$hl$4$rs':\n}s)
+                    {
+                        my $line = $5;
+
+                        my $indent_size = 4;
+                        my $indent = ' 'x$indent_size;
+                        my $term_size = Term::Size::chars();
+
+                        my $wrapper = Text::Wrapper->new(columns    => $term_size - $indent_size,
+                                                         par_start  => $indent,
+                                                         body_start => $indent);
+                        $err_str .= $wrapper->wrap($line);
+                    }
+
+                    return ($exit, $err_str);
                 }
 
                 write_binary($dest_file, $stdout);

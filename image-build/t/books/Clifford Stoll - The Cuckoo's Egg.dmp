@@ -321,7 +321,8 @@ I didn\'t return home until <<2 a.m.|5>> Martha waited up, piecing a quilt.
           [
             1,
             '[13:31] The Cuckoo\'s Egg_ Tracking a Spy Through t - Clifford Stoll.epub (Stoll, Clifford - The Cuckoo\'s Egg_split_37.htm) - 13:31',
-            '4.2 BSD UNIX (Ibl-ux4)
+            '
+4.2 BSD UNIX (Ibl-ux4)
 login: Sventek           The hacker logs in as Sventek
 Password: Lblhack        and gives his current password
 Last login: Mon Dec 29 <<13:31|2>>:43 on ttyi7
@@ -329,28 +330,22 @@ Last login: Mon Dec 29 <<13:31|2>>:43 on ttyi7
 Z
 % telnet                 He\'s going out over the Milnet
 telnet> open Optimis     And into the Optimis Army Database
- 
-<center>******OPTIMIS******
-For user assistance, call 698-5772, (AV)228</center>
-
+******OPTIMIS******
+For user assistance, call 698-5772, (AV)228
 Username: ANONYMOUS      He logs in there as anonymous
 Password: GUEST          And uses an obvious password
-
 Welcome to the Army OPTIMIS database
- 
 If you use these databases and they achieve a savings in
 time spent on a project of money saved to the government or both,
 please send a mail message outlining the details to
 MaJ Gene LeClalr, Chief, OPTIMIS
-
-<center>WELCOME TO
+WELCOME TO
 OPTIMIS
 THE DATA BASE WAS LAST UPDATED
 ON 861024 AT 102724
-AND CONTAINS 3316 DOCUMENTS</center>
+AND CONTAINS 3316 DOCUMENTS
 This data base Is an extract of AR 25-400-2, Modern Army Record-
 keeping System (MARKS) to help you Identify information for filing.
-
 Please enter a word or \'EXIT\'.
 / sdi                      Looking for SDI dope
 The word "sdi" was not     But there\'s none here
@@ -362,10 +357,7 @@ found.
 Please enter a word or \'EXIT\'.
 / sac                      Strategic Air Command?
 The word "sac" was not     Nope
-found.
-
-
-Whee! The hacker had entered an Army database and searched for secret Air Force projects. Even an astronomer would know better. He caught on quickly, though:',
+found.',
           ],
           [
             1,
@@ -380,39 +372,33 @@ Whee! The hacker had entered an Army database and searched for secret Air Force 
           [
             1,
             '[19:11] The Cuckoo\'s Egg_ Tracking a Spy Through t - Clifford Stoll.epub (Stoll, Clifford - The Cuckoo\'s Egg_split_38.htm) - 19:11',
-            'Username: FIELD
+            '
+Username: FIELD
 Password: SERVICE
-WELCOME TO THE AIR FORCE SYSTEM COMMAND-SPACE DIVISION 
+WELCOME TO THE AIR FORCE SYSTEM COMMAND-SPACE DIVISION
 VAX/VMS 4.4
-
 IMPORTANT NOTICE
-  Computer System problems should be directed to the Information
-  Systems Customer Service Section located in building 130, room
-  2369.
-  Phone 643-2177/AV 833-8177.
-
-    Last interactive login on Thursday, 11-DEC-1986 <<19:11|2>>
-    Last non-interactive login on Tuesday, 2-DEC-1986 <<17:30|2>>
+Computer System problems should be directed to the Information
+Systems Customer Service Section located in building 130, room
+2369.
+Phone 643-2177/AV 833-8177.
+Last interactive login on Thursday, 11-DEC-1986 <<19:11|2>>
+Last non-interactive login on Tuesday, 2-DEC-1986 <<17:30|2>>
 WARNING - Your password has expired; update immediately with SET
 PASSWORD!
-
 $ show process/privilege
-
 4-JAN-1987 <<13:16|2>>:37.66       NTY1:       User: FIELD
 Process privileges:
-  BYPASS       may bypass all system protections
-  CMKRNL       may change mode to kernel
-  ACNT         may suppress accounting messages
-  WORLD        may affect other processes
-  OPER         operator privilege
-  VOLPRO       may override volume protection
-  GRPPRV       group access via system protection
-  READALL      may road anything as the owner
-  WRITEALL     may write anything as the owner
-  SECURITY     may perform security functions
-
-
-Shazam: the door had swung wide open. He\'d logged in as Field Service. Not just an ordinary user. A completely privileged account.',
+BYPASS       may bypass all system protections
+CMKRNL       may change mode to kernel
+ACNT         may suppress accounting messages
+WORLD        may affect other processes
+OPER         operator privilege
+VOLPRO       may override volume protection
+GRPPRV       group access via system protection
+READALL      may road anything as the owner
+WRITEALL     may write anything as the owner
+SECURITY     may perform security functions',
           ],
           [
             1,
@@ -671,12 +657,7 @@ By chance, <<around 3 P.M.|5>> Teejay called from the CIA. "What\'s new?"
           [
             1,
             '[00:25] The Cuckoo\'s Egg_ Tracking a Spy Through t - Clifford Stoll.epub (Stoll, Clifford - The Cuckoo\'s Egg_split_58.htm) - twenty-five minutes after midnight',
-            "Login name: rtm         In real life: Robert T. Morris
-Phone: 617/498-8847
-Last login Thu Nov 3 00:85 on ttyp2 from 128.84.264.126
-
-
-Well\x{2014}the last time that Robert Morris used the Harvard computer was <<twenty-five minutes after midnight|10>>, on the morning that the virus struck. But he's not here in Massachusetts. That address, 128.84.254.126, is at Cornell University. He entered the Harvard system from a computer at Cornell University. Curious.",
+            "Well\x{2014}the last time that Robert Morris used the Harvard computer was <<twenty-five minutes after midnight|10>>, on the morning that the virus struck. But he's not here in Massachusetts. That address, 128.84.254.126, is at Cornell University. He entered the Harvard system from a computer at Cornell University. Curious.",
           ],
           [
             1,
@@ -716,7 +697,7 @@ Well\x{2014}the last time that Robert Morris used the Harvard computer was <<twe
           [
             1,
             '[07:51] The Cuckoo\'s Egg_ Tracking a Spy Through t - Clifford Stoll.epub (Stoll, Clifford - The Cuckoo\'s Egg_split_9.htm) - 7:51 a.m.',
-            'And just in time. Wednesday, September 10, at <<7:51 a.m.|2a>>, the hacker appeared in our system for six minutes. Long enough to ring the alarm on my terminal, but not enough time to do anything about it. I had stayed at home that  night: "Five days at the lab are enough," Martha said.',
+            'And just in time. Wednesday, September 10, at <<7:51 a.m.|2a>>, the hacker appeared in our system for six minutes. Long enough to ring the alarm on my terminal, but not enough time to do anything about it. I had stayed at home that night: "Five days at the lab are enough," Martha said.',
           ],
           [
             1,
