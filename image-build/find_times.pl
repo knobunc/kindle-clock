@@ -146,17 +146,17 @@ sub search_zip {
             # Turn brs into newlines
             $line =~ s{<br [^>]+ /? >}{\n}sgix;
 
-            # Clean whitespace from the start and end of all lines
-            $line =~ s{^  \s+  }{}xmg;
-            $line =~ s{   \s+ $}{}xmg;
-
             # Turn it all to text
             $line =~ s{< /? [^>]+ >}{}sgix;
             $line = XML::Entities::decode('all', $line);
 
             # Kill consecutive horizontal whitespace
-            $line =~ s{ \h{2,} }{ }xg
-                unless $fixed_formatting;
+            # Clean whitespace from the start and end of all lines
+            unless ($fixed_formatting) {
+                $line =~ s{^  \s+  }{}xmg;
+                $line =~ s{   \s+ $}{}xmg;
+                $line =~ s{ \h{2,} }{ }xg
+            }
 
             # Skip blank lines
             next LINE_LOOP
