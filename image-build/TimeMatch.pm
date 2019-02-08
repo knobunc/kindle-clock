@@ -190,7 +190,7 @@ my $short_before_re = qr{   $short_re \s+    before
                         |   can $sq t \s+ be \s+ $far_before_re
                         }xin;
 my $around_re       = qr{ ( near \s+ )? ($sq|a)bout
-                        | ($sq|ap)proximately
+                        | ($sq|ap)proximately | approx\.
                         | ($sq|a)?round
                         }xin;
 my $on_or_after_re  = qr{ ( $short_re \s+ )? gone }xin;
@@ -222,7 +222,7 @@ my $rel_words       = qr{ ( well | long) \s+ ( before | after )
                         | just \s+ ($sq|a)bout
 
                         | ( near \s+ )? ($sq|a)bout
-                        | ($sq|ap)proximately
+                        | ($sq|ap)proximately | approx\.
                         | ($sq|a)?round
 
                         }xin;
@@ -412,6 +412,7 @@ my $never_follow_times_exp_re =
         | heartbeat | generation | color
         | since
         | degrees | [°º] [FCK]?
+        | kelvin | celsius | fahrenheit
         | per\s*cent | %
         | cm | meter | km | klick | mm | acre
         | metre | watt | sol | au
@@ -439,7 +440,7 @@ my $never_follow_times_exp_re =
         | kid | children | man | men | woman | women | girl | boy | male | female
         | family | families | person | people
         | round | turn   | line
-        | book  | volume | plate | illustration | page | chapter | verse | psalm | word
+        | book  | volume | plate | illustration | page | chapter | verse | psalm | word | character
         | shell | bullet | odd
         | side  | edge   | corner | face
         | Minister
@@ -495,19 +496,21 @@ sub do_match {
     $is_timey = 0;
     $is_timey = 1
         if $line =~
-            m{ \b ( struck   | strikes | striking | striketh
-                  | ( hour   | minute
-                    | clock | watch
-                    | train
-                    ) s?
-                  | $midnight_noon_re
-                  | ( $twas_re | at | what ) \s+ time
-                  | ( there | here ) \s+ from
-#                  | ( return | returned | back ) \s* $rel_at_words
-                  | reported | reports
-                  | station ($hy master)?
-                  | (starts | starting | begins | commences) \s+ at
-                  ) \b
+            m{ $bb_re
+               ( struck   | strikes | striking | striketh
+               | ( hour   | minute
+                 | clock | watch
+                 | train
+                 ) s?
+               | $midnight_noon_re
+               | ( $twas_re | at | what ) \s+ time
+               | ( there | here ) \s+ from
+               | ( died ) \s+ $rel_at_words
+#               | ( return | returned | back ) \s+ $rel_at_words
+               | reported | reports
+               | station ($hy master)?
+               | (starts | starting | begins | commences) \s+ at
+               ) $ba_re
              }xin;
 
     ## Does this look like a "racing" paragraph?  If so, then times of the form "ten to one"
@@ -842,9 +845,10 @@ sub get_masks {
     # Addresses
     push @r,qr{ (?<t1>
                   \b
-                  ( ( \d+ \s* )+                    # Street numbers
+                  ( (?<no> \d+ [:.] )?              # Don't match times
+                    ( \d+ \s* )+                    # Street numbers
                     ( \w | \# \d+ )? \s+            # Apartment number / letter
-                  | ( $min_word_re ($hy|\s)+ )+   # Street words
+                  | ( $min_word_re ($hy|\s)+ )+     # Street words
                     ( ( \w | \# \d+ ) \s+ )?        # Apartment number / letter
                   )
                   ( \w+ \s+ ){0,2}?                 # Filler words
@@ -861,7 +865,7 @@ sub get_masks {
                   )
                 )
                 $ba_re
-                (?{ $branch = "x9"; })
+                (?{ $branch = $+{no} ? "xx" : "x9"; })
               }xin;
 
     # Zip codes
@@ -1103,11 +1107,13 @@ sub get_matches {
               }xinp;
 
     # Ones with a phrase before to fix it better as a time
-    push @r,qr{ \b (?<pr> ( meet  | meeting  | meets
-                      |  start | starting | starts
+    push @r,qr{ \b (?<pr>
+                     ( meet  | meeting  | meets
+                     | start | starting | starts
+                     | died
                      ) \s+
                      ( ( $today_re | $weekday_re | this ) \s+
-                      ( $morn_re \s+ )?
+                       ( $morn_re \s+ )?
                      )?
                      at \s+
                    )
@@ -1377,8 +1383,11 @@ sub get_matches {
                   (?{ $branch = "9j";
                     # This needs more indication that it is timey
                     my ($hh, $mm, $ap) = @+{qw( hh mm ap )};
-                    if (not $ap and $hh =~ m{\A one \z}xin and $mm =~ m{\A (one | two) \z}xin) {
+                    if (0 and not $ap and $hh =~ m{\A one \z}xin and $mm =~ m{\A (one | two) \z}xin) {
                         $branch = "9j:0";
+                    }
+                    elsif ($mm =~ m{\A $z_low_num_re \z}xin) {
+                        $branch = "9j:TIMEY";
                     }
                   })
               }xin;
@@ -1397,7 +1406,15 @@ sub get_matches {
                   ( $hy $minsec_dig_re )?
                   ( \s+ ( now | precisely | exactly ) )?
                   ( \z | $phrase_punc? $aq | $phrase_punc ( \s+ | \z ) | \s* $hy+ \s*) )
-                (?{ $branch = "9p"; })
+                (?{ $branch = "9p";
+                    if ($author eq 'Peter H. Salus' or
+                        $author eq 'Stephen Jay Gould' or
+                        $author eq 'Ryan North')
+                    {
+                        # Need to better skip tables of contents
+                        $branch = "y9p";
+                    }
+                  })
               }xin;
 
     # In 5 minutes it would be 11
@@ -1678,8 +1695,8 @@ sub get_matches {
     # The only time, but as digits with no separators... only if it says "looks like a year"
     # or something like that elsewhere in the phrase
     push @r,qr{ (?<pr>
-                  ( \A | $aq | $phrase_punc \s+ | \s+ $hy+ \s+ )
-                  ( ( only | just | it $sq s | it \s+ is | the ) \s+ )?
+                  ( \A | $aq | (approx\. (*SKIP)(*FAIL))? $phrase_punc \s+ | \s+ $hy+ \s+ )
+                  (?<go> ( only | just (\s+ after)? | it $sq s | it \s+ is | the ) \s+ )?
                 )
                 (?<t1>
                   (?<rl> $rel_words \s+ )?
@@ -1690,20 +1707,37 @@ sub get_matches {
                   ( \s+ ( now | precisely | exactly ) )?
                   ( \z | $phrase_punc? $aq | $phrase_punc ( \s+ | \z ) | \s+ $hy+ \s+) )
                 (?{ $branch = "x9l";
-                    my ($pre, $post, $rl, $hr) = (${^PREMATCH}, ${^POSTMATCH}, $+{rl}, $+{hr});
-                    if ("$pre <<>> $post" =~
-                            m{ ( look | seem) ( | s | ed ) \s+
-                               like \s+ a \s+ (year | date)
-                             | ( have | had ) \s+ the \s+ ( date | year )
-                             }xin or
-                        $hr =~ /\A 0\d /x
-                       )
+                    my ($pre, $post, $pr, $go, $rl, $hr, $po) =
+                        (${^PREMATCH}, ${^POSTMATCH}, @+{qw( pr go rl hr po )});
+                    if ($author eq 'Jeff VanderMeer') {
+                        # Ignore these
+                        # Need to better skip tables of contents
+                    }
+                    elsif ($author eq 'Walter Dean Myers') {
+                        # He prefers this time format
+                        $branch = '9l';
+                    }
+                    elsif ("$pre <<>> $post" =~
+                               m{ ( look | seem) ( | s | ed ) \s+
+                                  like \s+ a \s+ (year | date)
+                                | said \s+ the
+                                | red \s+ numbers
+                                | postmark
+                                | knot | map | general | time
+                                }xin
+                           or $pre =~ m{ \b around \b [^.]+ \z}xin
+                           or ($pr =~ /^\s*$/ and $po =~ /^\s*:/)
+                           or $go
+                          )
                     {
                         $branch = "9l";
                     }
                     elsif ($rl) {
                         # Let something else have a shot
                         $branch = "xx";
+                    }
+                    elsif ($hr =~ /\A 0\d /x) {
+                        $branch = "9l:TIMEY";
                     }
                   })
               }xinp;
@@ -1804,8 +1838,11 @@ sub get_matches {
                             $branch = "9t:TIMEY";
                         }
                     }
-                    elsif ($sep or $ap) {
-                        # If we have a separator or ampm then this is stronger
+                    elsif (defined $sep or defined $ap or
+                           (defined $mm and "$hh$mm" =~ /^\d{4}$/)
+                        )
+                    {
+                        # If we have a separator or ampm or 4 digits then this is stronger
                         $branch = "9m";
                     }
                     elsif (defined $mm and is_yearish($hh.$mm)) {
@@ -1817,7 +1854,7 @@ sub get_matches {
 
     push @r,qr{ (?<pr>
                   ( \A | $aq | $phrase_punc \s+ )
-                  (?<was> ( $twas_re | only | because | and | maybe ) \s+)?
+                  (?<was> ( $twas_re | only | because | and | maybe | finally ,?) \s+)?
                   (?<mod> ( already | nightly | daily ) ,? \s+ )?
                 )
                 (?<t1>
@@ -1845,7 +1882,7 @@ sub get_matches {
                         @+{qw( was mod xx sep rl hh bw of tr )};
 
                     if (is_yearish($xx) and (not $rl or $rl =~ m{\A (until) \z}xin)) {
-                        $branch = "9n:0";
+                        $branch = "y9n";
                     }
                     elsif ($sep and $xx !~ /[a-z]/i) {
                         # We had a separator and digits (12.30)

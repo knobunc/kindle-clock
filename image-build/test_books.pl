@@ -89,7 +89,7 @@ sub check_matches {
                 my $n_type = '-';
                 if ($n_timestr =~ s{\A << [^|]+ \| (?<type> \d+ \w? (: \d)? ) >> }{}xin) {
                     $n_type = $+{type};
-                    $type_color = 'bold blue' if $n_type ne $type;
+                    $type_color = 'bold blue' if $n_type ne $type and $n_type ne "$type:1";
 
                     # TODO if the string matched is a different length then we should flag it
                 } else {

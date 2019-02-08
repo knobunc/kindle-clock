@@ -64,3 +64,17 @@ prove t/*pl -j 8
 9e - Eliminate -- save "Anyway, <<after two|9:0>>, he sat politely in his dean of extension"
 9f - Strong.    Call it three.
 9g - Strong.    starting at seven.
+9h - Strong.    past eleven at night.
+9j - Strong.    Two-fifteen
+9k - Strong.    Around one.
+9l - Strong.    0517.
+9m - Strong.    At 12.30
+y9n- Never.     until 1543                           These deliberately never match
+9o - Strong.    tomorrow at one
+9p - Strong.    13.40.                               Some minor rough edges
+
+
+Need to match:
+--------------
+
+"Who at this hour? Three, good Heavens! <<Three already>>!"
