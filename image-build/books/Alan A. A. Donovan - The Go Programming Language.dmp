@@ -58,80 +58,34 @@ $VAR1 = [
           [
             1,
             '[ap 02:00] The Go Programming Language - Alan A. A. Donovan.epub (text/part0029.html) - 0 to 2',
-            "Signed numbers are represented in 2\x{2019}s-complement form, in which the
-
-
-high-order bit is reserved for the sign of the number and the range of
-values of an n-bit number is from \x{2212}2 to 2\x{2212}1.
-Unsigned integers use the full range of bits for non-negative values and
-thus have the range <<0 to 2|10a:0>>\x{2212}1.
-For instance, the range of int8 is \x{2212}128 to
-127, whereas the range of uint8 is 0 to 255.",
+            "Signed numbers are represented in 2\x{2019}s-complement form, in which the high-order bit is reserved for the sign of the number and the range of values of an n-bit number is from \x{2212}2 to 2\x{2212}1. Unsigned integers use the full range of bits for non-negative values and thus have the range <<0 to 2|10a:0>>\x{2212}1. For instance, the range of int8 is \x{2212}128 to 127, whereas the range of uint8 is 0 to 255.",
           ],
           [
             1,
             '[ap 01:25] The Go Programming Language - Alan A. A. Donovan.epub (text/part0029.html) - 1.25',
-            'The integer arithmetic operators +, -,
-*, and / may be applied to integer, floating-point, and complex numbers,
-but the remainder operator % applies only to integers.
-
-
-The behavior of % for negative numbers varies across
-programming languages.  In Go, the
-sign of the remainder is always the same as the sign of the dividend,
-so -5%3 and -5%-3 are both -2.
-
-The behavior of / depends on whether its operands are integers,
-so 5.0/4.0 is <<1.25|5a:0>>, but 5/4 is 1 because
-integer division truncates the result toward zero.',
+            'The integer arithmetic operators +, -, *, and / may be applied to integer, floating-point, and complex numbers, but the remainder operator % applies only to integers. The behavior of % for negative numbers varies across programming languages. In Go, the sign of the remainder is always the same as the sign of the dividend, so -5%3 and -5%-3 are both -2. The behavior of / depends on whether its operands are integers, so 5.0/4.0 is <<1.25|5a:0>>, but 5/4 is 1 because integer division truncates the result toward zero.',
           ],
           [
             1,
             '[ap 01:00] The Go Programming Language - Alan A. A. Donovan.epub (text/part0037.html) - 1',
-            'so January is months[1] and December is months[12].
-Ordinarily, the array element at index 0 would contain the first
-value, but because months are always numbered from <<1|9c:0>>, we can leave it
-out of the declaration and it will be initialized to an empty string.',
+            'so January is months[1] and December is months[12]. Ordinarily, the array element at index 0 would contain the first value, but because months are always numbered from <<1|9c:0>>, we can leave it out of the declaration and it will be initialized to an empty string.',
           ],
           [
             1,
             '[ap 01:13] The Go Programming Language - Alan A. A. Donovan.epub (text/part0037.html) - 1:13',
-            "The slice operator s[i:j],
-where 0 \x{2264} i \x{2264} j \x{2264} cap(s),
-creates a
-
-new slice that refers to elements i through j-1 of the sequence s,
-which may be an array variable, a pointer to an array, or another
-slice.  The resulting slice has j-i elements.
-If i is omitted, it\x{2019}s 0, and if j is omitted, it\x{2019}s
-len(s).
-Thus the slice months[<<1:13|2>>] refers to the whole range of valid months, as does
-the slice months[1:]; the slice months[:] refers to the whole array.
-
-Let\x{2019}s define overlapping slices for the second quarter and the
-northern summer:",
+            "The slice operator s[i:j], where 0 \x{2264} i \x{2264} j \x{2264} cap(s), creates a new slice that refers to elements i through j-1 of the sequence s, which may be an array variable, a pointer to an array, or another slice. The resulting slice has j-i elements. If i is omitted, it\x{2019}s 0, and if j is omitted, it\x{2019}s len(s). Thus the slice months[<<1:13|2>>] refers to the whole range of valid months, as does the slice months[1:]; the slice months[:] refers to the whole array. Let\x{2019}s define overlapping slices for the second quarter and the northern summer:",
           ],
           [
             1,
             '[15:04] The Go Programming Language - Alan A. A. Donovan.epub (text/part0046.html) - 15:04',
             'Click here to view code image
 2006/01/02 <<15:04|2>>:05 Site is down: no such domain: bad.gopl.io
-For a more attractive output, we can set the prefix used by the
-log package to the name of the command, and suppress the
-display of the date and time:',
+For a more attractive output, we can set the prefix used by the log package to the name of the command, and suppress the display of the date and time:',
           ],
           [
             1,
             '[ap 07:11] The Go Programming Language - Alan A. A. Donovan.epub (text/part0046.html) - 7.11',
-            "Since in an end-of-file condition there is no information to report
-besides the fact of it, io.EOF has a fixed error message,
-\"EOF\".
-
-For other errors, we may need to report both the quality and quantity
-of the error, so to speak, so a fixed error value will not do.
-
-In Section\x{a0}<<7.11|5a:0>>, we\x{2019}ll present a more systematic
-way to distinguish certain error values from others.",
+            "Since in an end-of-file condition there is no information to report besides the fact of it, io.EOF has a fixed error message, \"EOF\". For other errors, we may need to report both the quality and quantity of the error, so to speak, so a fixed error value will not do. In Section\x{a0}<<7.11|5a:0>>, we\x{2019}ll present a more systematic way to distinguish certain error values from others.",
           ],
           [
             1,
@@ -143,12 +97,6 @@ for _, d := range tempDirs() {
     rmdirs = append(rmdirs, func() {
         os.RemoveAll(dir)
     })
-}
-
-// ...do some work...
-
-for _, rmdir := range rmdirs {
-    rmdir() // clean up
 }',
           ],
           [
@@ -186,20 +134,12 @@ $ ./trace
             1,
             '[ap 05:10] The Go Programming Language - Alan A. A. Donovan.epub (text/part0052.html) - 5.10',
             '<<5.10|4>> Recover
-Giving up is usually the right response to a panic, but not always.
-
-It might be possible to recover in some way, or at least clean up the
-mess before quitting.
-
-For example, a web server that encounters an unexpected problem could
-close the connection rather than leave the client hanging, and
-during development, it might report the error to the client too.',
+Giving up is usually the right response to a panic, but not always. It might be possible to recover in some way, or at least clean up the mess before quitting. For example, a web server that encounters an unexpected problem could close the connection rather than leave the client hanging, and during development, it might report the error to the client too.',
           ],
           [
             1,
             '[ap 07:10] The Go Programming Language - Alan A. A. Donovan.epub (text/part0061.html) - 7.10',
-            "We\x{2019}ll explain how the fmt package discovers which values satisfy this
-interface in Section\x{a0}<<7.10|5a:0>>.",
+            "We\x{2019}ll explain how the fmt package discovers which values satisfy this interface in Section\x{a0}<<7.10|5a:0>>.",
           ],
           [
             1,
@@ -214,13 +154,7 @@ any = new(bytes.Buffer)',
           [
             1,
             '[ap 07:10] The Go Programming Language - Alan A. A. Donovan.epub (text/part0063.html) - 7.10',
-            "Of course, having created an interface{} value containing a
-boolean, float, string, map, pointer, or any other type, we can do nothing
-directly to the value it holds since the interface has no methods.
-
-We need a way to get the value back out again.
-
-We\x{2019}ll see how to do that using a type assertion in Section\x{a0}<<7.10|5a:0>>.",
+            "Of course, having created an interface{} value containing a boolean, float, string, map, pointer, or any other type, we can do nothing directly to the value it holds since the interface has no methods. We need a way to get the value back out again. We\x{2019}ll see how to do that using a type assertion in Section\x{a0}<<7.10|5a:0>>.",
           ],
           [
             1,
@@ -237,117 +171,48 @@ invalid value "1 day" for flag -period: time: invalid duration 1 day',
           [
             1,
             '[ap 07:11] The Go Programming Language - Alan A. A. Donovan.epub (text/part0068.html) - 7.11',
-            "Errno is an efficient representation of system call
-errors drawn from a finite set, and it satisfies the standard
-error interface.
-
-We\x{2019}ll see other types that satisfy this interface in Section\x{a0}<<7.11|5a:0>>.",
+            "Errno is an efficient representation of system call errors drawn from a finite set, and it satisfies the standard error interface. We\x{2019}ll see other types that satisfy this interface in Section\x{a0}<<7.11|5a:0>>.",
           ],
           [
             1,
             '[ap 07:10] The Go Programming Language - Alan A. A. Donovan.epub (text/part0070.html) - 7.10',
             "<<7.10|4>> Type Assertions
-A type assertion
-
-is an operation applied to an interface value.
-
-Syntactically, it looks like x.(T),
-where x is an expression of an interface type
-and T is a type, called the \x{201c}asserted\x{201d} type.
-
-A type assertion checks that the dynamic type of its operand matches
-the asserted type.",
+A type assertion is an operation applied to an interface value. Syntactically, it looks like x.(T), where x is an expression of an interface type and T is a type, called the \x{201c}asserted\x{201d} type. A type assertion checks that the dynamic type of its operand matches the asserted type.",
           ],
           [
             1,
             '[ap 07:11] The Go Programming Language - Alan A. A. Donovan.epub (text/part0071.html) - 7.11',
             '<<7.11|4>> Discriminating Errors with Type Assertions
-Consider the set of errors returned by file operations in the
-os package.
-
-I/O can fail for any number of reasons, but three kinds of failure
-often must be handled differently: file already exists (for create
-operations), file not found (for read operations), and permission
-denied.
-
-The os package provides these three helper functions to
-classify the failure indicated by a given error value:',
+Consider the set of errors returned by file operations in the os package. I/O can fail for any number of reasons, but three kinds of failure often must be handled differently: file already exists (for create operations), file not found (for read operations), and permission denied. The os package provides these three helper functions to classify the failure indicated by a given error value:',
           ],
           [
             1,
             '[ap 07:12] The Go Programming Language - Alan A. A. Donovan.epub (text/part0072.html) - 7.12',
             "<<7.12|4>> Querying Behaviors with Interface Type Assertions
-The logic below is similar to the part of the net/http web
-server responsible for writing HTTP header fields
-such as \"Content-type: text/html\".
-
-The io.Writer w represents the HTTP response; the bytes
-written to it are ultimately sent to someone\x{2019}s web browser.",
+The logic below is similar to the part of the net/http web server responsible for writing HTTP header fields such as \"Content-type: text/html\". The io.Writer w represents the HTTP response; the bytes written to it are ultimately sent to someone\x{2019}s web browser.",
           ],
           [
             1,
             '[ap 07:13] The Go Programming Language - Alan A. A. Donovan.epub (text/part0073.html) - 7.13',
-            '<<7.13|4>> Type Switches
-',
+            "<<7.13|4>> Type Switches
+Interfaces are used in two distinct styles. In the first style, exemplified by io.Reader, io.Writer, fmt.Stringer, sort.Interface, http.Handler, and error, an interface\x{2019}s methods express the similarities of the concrete types that satisfy the interface but hide the representation details and intrinsic operations of those concrete types. The emphasis is on the methods, not on the concrete types.",
           ],
           [
             1,
             '[ap 07:14] The Go Programming Language - Alan A. A. Donovan.epub (text/part0074.html) - 7.14',
-            '<<7.14|4>> Example: Token-Based XML Decoding
-',
+            "<<7.14|4>> Example: Token-Based XML Decoding
+Section\x{a0}4.5 showed how to decode JSON documents into Go data structures with the Marshal and Unmarshal functions from the encoding/json package. The encoding/xml package provides a similar API. This approach is convenient when we want to construct a representation of the document tree, but that\x{2019}s unnecessary for many programs. The encoding/xml package also provides a lower-level token-based API for decoding XML. In the token-based style, the parser consumes the input and produces a stream of tokens, primarily of four kinds\x{2014}StartElement, EndElement, CharData, and Comment\x{2014}each being a concrete type in the encoding/xml package. Each call to (*xml.Decoder).Token returns a token.",
           ],
           [
             1,
             '[ap 07:15] The Go Programming Language - Alan A. A. Donovan.epub (text/part0075.html) - 7.15',
             "<<7.15|5a:0>> A Few Words of Advice
-When designing a new package, novice Go programmers often start by
-creating a set of interfaces and only later define the concrete types that
-satisfy them.
-
-This approach results in many interfaces, each of which has only a single
-implementation.
-
-Don\x{2019}t do that.
-
-Such interfaces are unnecessary abstractions; they also have a
-run-time cost.
-
-
-You can restrict which methods of a type or fields of a struct are
-visible outside a package using the export mechanism (\x{a7}6.6).
-
-Interfaces are only needed when there are two or more concrete types
-that must be dealt with in a uniform way.",
+When designing a new package, novice Go programmers often start by creating a set of interfaces and only later define the concrete types that satisfy them. This approach results in many interfaces, each of which has only a single implementation. Don\x{2019}t do that. Such interfaces are unnecessary abstractions; they also have a run-time cost. You can restrict which methods of a type or fields of a struct are visible outside a package using the export mechanism (\x{a7}6.6). Interfaces are only needed when there are two or more concrete types that must be dealt with in a uniform way.",
           ],
           [
             1,
             '[15:04] The Go Programming Language - Alan A. A. Donovan.epub (text/part0078.html) - 15:04',
-            '// Clock1 is a TCP server that periodically writes the time.
-package main
-
-import (
-    "io"
-    "log"
-    "net"
-    "time"
-)
-
-func main() {
-    listener, err := net.Listen("tcp", "localhost:8000")
-    if err != nil {
-        log.Fatal(err)
-    }
-    for {
-        conn, err := listener.Accept()
-        if err != nil {
-            log.Print(err) // e.g., connection aborted
-            continue
-        }
-        handleConn(conn) // handle one connection at a time
-    }
-}
-
-func handleConn(c net.Conn) {
+            'func handleConn(c net.Conn) {
     defer c.Close()
     for {
         _, err := io.WriteString(c, time.Now().Format("<<15:04|2>>:05\\n"))
@@ -361,26 +226,7 @@ func handleConn(c net.Conn) {
           [
             1,
             '[ap 03:04] The Go Programming Language - Alan A. A. Donovan.epub (text/part0078.html) - 03:04',
-            'The time.Time.Format method provides a way to format
-date and time information by example.
-
-Its argument is a template indicating how to format a reference time,
-specifically Mon Jan 2 <<03:04|2>>:05PM 2006 UTC-0700.
-
-The reference time has eight components (day of the week, month, day of
-the month, and so on).  Any collection of them can appear in the
-Format string in any order and in a number of formats; the
-selected components of the
-date and time will be displayed in the selected formats.
-
-Here we are just using the hour, minute, and second of the time.
-
-The time package defines templates for many standard
-time formats, such as time.RFC1123.
-
-
-The same mechanism is used in reverse when parsing a time using
-time.Parse.',
+            'The time.Time.Format method provides a way to format date and time information by example. Its argument is a template indicating how to format a reference time, specifically Mon Jan 2 <<03:04|2>>:05PM 2006 UTC-0700. The reference time has eight components (day of the week, month, day of the month, and so on). Any collection of them can appear in the Format string in any order and in a number of formats; the selected components of the date and time will be displayed in the selected formats. Here we are just using the hour, minute, and second of the time. The time package defines templates for many standard time formats, such as time.RFC1123. The same mechanism is used in reverse when parsing a time using time.Parse.',
           ],
           [
             1,
@@ -431,12 +277,7 @@ $ killall clock2',
           [
             1,
             '[18:22] The Go Programming Language - Alan A. A. Donovan.epub (text/part0082.html) - 18:22',
-            '$ go build gopl.io/ch8/crawl1
-$ ./crawl1 http://gopl.io/
-http://gopl.io/
-https://golang.org/help/
-
-https://golang.org/doc/
+            'https://golang.org/doc/
 https://golang.org/blog/
 ...
 2015/07/15 <<18:22|2>>:12 Get ...: dial tcp: lookup blog.golang.org: no such host
@@ -447,21 +288,13 @@ https://golang.org/blog/
           [
             1,
             '[ap 08:10] The Go Programming Language - Alan A. A. Donovan.epub (text/part0086.html) - 8.10',
-            '<<8.10|4>> Example: Chat Server
-',
+            "<<8.10|4>> Example: Chat Server
+We\x{2019}ll finish this chapter with a chat server that lets several users broadcast textual messages to each other. There are four kinds of goroutine in this program. There is one instance apiece of the main and broadcaster goroutines, and for each client connection there is one handleConn and one clientWriter goroutine. The broadcaster is a good illustration of how select is used, since it has to respond to three different kinds of messages.",
           ],
           [
             1,
             '[ap 02:03] The Go Programming Language - Alan A. A. Donovan.epub (text/part0103.html) - two three',
-            '$ cat quoteargs.go
-package main
-
-import (
-    "fmt"
-    "os"
-)
-
-func main() {
+            'func main() {
     fmt.Printf("%q\\n", os.Args[1:])
 }
 $ go build quoteargs.go
@@ -562,7 +395,7 @@ built-in interface, error, 7.8, 7.8',
             1,
             '[ap 07:13] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_000.html) - 7.13',
             "capturing loop\x{a0}variable, 5.6.1, 8.5, 8.6
-case \x{a0}in type\x{a0} switch, <<7.13|5a:0>>
+case in type switch, <<7.13|5a:0>>
 case, select, 8.7",
           ],
           [
@@ -629,8 +462,8 @@ decrement statement --, 1.2, 2.4',
           [
             1,
             '[ap 07:13] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_000.html) - 7.13',
-            "default \x{a0}case\x{a0}in switch, 1.8
-default \x{a0}case\x{a0}in type\x{a0} switch, <<7.13|5a:0>>
+            "default case\x{a0}in switch, 1.8
+default case\x{a0}in type switch, <<7.13|5a:0>>
 defer anonymous\x{a0}function, 5.8",
           ],
           [
@@ -853,8 +686,8 @@ mutex, guarding, 9.2',
           [
             1,
             '[ap 07:10] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_001.html) - 7.10',
-            "ok \x{a0}value\x{a0}from map lookup, 4.3
-ok \x{a0}value\x{a0}from type\x{a0}assertion, <<7.10|5a:0>>
+            "ok value\x{a0}from map lookup, 4.3
+ok value\x{a0}from type\x{a0}assertion, <<7.10|5a:0>>
 omitempty field\x{a0}tag, 4.5",
           ],
           [
@@ -1062,14 +895,14 @@ sum example, 5.7',
             1,
             '[ap 07:13] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_001.html) - 7.13',
             "Swiss\x{a0}army\x{a0}knife, 10.7
-switch, case \x{a0}in type\x{a0}, <<7.13|5a:0>>
+switch, case in type\x{a0}, <<7.13|5a:0>>
 switch, context, 9.8.2",
           ],
           [
             1,
             '[ap 07:13] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_001.html) - 7.13',
-            "switch, default \x{a0}case\x{a0}in, 1.8
-switch, default \x{a0}case\x{a0}in type\x{a0}, <<7.13|5a:0>>
+            "switch, default case\x{a0}in, 1.8
+switch, default case\x{a0}in type\x{a0}, <<7.13|5a:0>>
 switch, initialization\x{a0}statement\x{a0}in, 1.8",
           ],
           [
@@ -1110,15 +943,15 @@ tool, cgo, 13.4, 13.4",
           [
             1,
             '[ap 07:13] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_001.html) - 7.13',
-            "type\x{a0} chan<- T, send-only channel, 8.4.3
-type\x{a0} switch, case \x{a0}in, <<7.13|5a:0>>
-type\x{a0} switch, default \x{a0}case\x{a0}in, <<7.13|9p>>",
+            "type chan<- T, send-only channel, 8.4.3
+type switch, case in, <<7.13|5a:0>>
+type switch, default case\x{a0}in, <<7.13|9p>>",
           ],
           [
             1,
             '[ap 07:13] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_001.html) - 7.13',
-            "type\x{a0} switch, case \x{a0}in, <<7.13|5a:0>>
-type\x{a0} switch, default \x{a0}case\x{a0}in, <<7.13|5a:0>>
+            "type switch, case in, <<7.13|5a:0>>
+type switch, default case\x{a0}in, <<7.13|5a:0>>
 type, abstract, 1.8, 7.1",
           ],
           [
@@ -1133,13 +966,13 @@ type assertion, interface, <<7.12|9p>>, <<7.12|9p>>',
             '[ap 07:10] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_001.html) - 7.10',
             "type assertion, <<7.10|9p>>, <<7.13|5a:0>>
 type assertion, interface, <<7.12|9p>>, <<7.12|5a:0>>
-type\x{a0}assertion, ok \x{a0}value\x{a0}from, <<7.10|9p>>",
+type\x{a0}assertion, ok value\x{a0}from, <<7.10|9p>>",
           ],
           [
             1,
             '[ap 07:12] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_001.html) - 7.12',
             "type assertion, interface, <<7.12|9p>>, <<7.12|5a:0>>
-type\x{a0}assertion, ok \x{a0}value\x{a0}from, <<7.10|5a:0>>
+type\x{a0}assertion, ok value\x{a0}from, <<7.10|5a:0>>
 type, bool, 3.4",
           ],
           [
@@ -1203,6 +1036,6 @@ xmlselect example, <<7.14|9p>>",
             '[ap 07:14] The Go Programming Language - Alan A. A. Donovan.epub (text/part0127_split_001.html) - 7.14',
             '(*xml.Decoder).Token method, <<7.14|5a:0>>
 xmlselect example, <<7.14|5a:0>>
-',
+Y',
           ],
         ];

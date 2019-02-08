@@ -80,9 +80,9 @@ $VAR1 = [
           [
             1,
             "[ap ~ 10:00] Sadie When She Died - Ed McBain.epub (index_split_002.html) - about ten o\x{2019}clock",
-            "
+            "Q: What time was this?
 A: I went in the building at <<about ten o\x{2019}clock|6>>.
-",
+Q: Ten P . M .?",
           ],
           [
             1,
@@ -92,9 +92,9 @@ A: I went in the building at <<about ten o\x{2019}clock|6>>.
           [
             1,
             "[ap 09:00] Sadie When She Died - Ed McBain.epub (index_split_002.html) - Nine o\x{2019}clock",
-            "
+            "Q: When did you visit Dr. Mendelsohn?
 A: Early. <<Nine o\x{2019}clock|6>>. Nine A . M .
-",
+Q: Is he your family physician?",
           ],
           [
             1,
@@ -383,9 +383,9 @@ At <<4|9m:0>> P . M . the telephone in Arlene\x{2019}s apartment rang again.
           [
             1,
             '[ap 07:45] Sadie When She Died - Ed McBain.epub (index_split_013.html) - quarter to eight',
-            '
+            'Fletcher:
 A <<quarter to eight|10>>.
-',
+Miss Orton:',
           ],
           [
             1,

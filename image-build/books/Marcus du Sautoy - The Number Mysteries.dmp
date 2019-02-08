@@ -152,21 +152,21 @@ $VAR1 = [
           [
             1,
             '[ap 04:10] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0009.html) - 4.10',
-            '
+            "So if we wanted to send the coded message on the front of Coldplay\x{2019}s third album, we could use a similar trick applied to a 5 x 4 grid to detect when and where any error occurred. Here is the album cover as it should have been, with the colored blocks changed to 1s and the gaps to 0s:
 Table <<4.10|5a:0>>
-Now we add an extra column and row with 0s and 1s to indicate whether each column or row has an even or odd number of 1s:',
+Now we add an extra column and row with 0s and 1s to indicate whether each column or row has an even or odd number of 1s:",
           ],
           [
             1,
             '[ap 04:11] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0009.html) - 4.11',
-            "
+            "Now we add an extra column and row with 0s and 1s to indicate whether each column or row has an even or odd number of 1s:
 Table <<4.11|5a:0>>
 Now let\x{2019}s imagine that there\x{2019}s been an error during transmission and one of the numbers got flipped, and the graphic designer received the following message:",
           ],
           [
             1,
             '[ap 04:12] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0009.html) - 4.12',
-            "
+            "Now let\x{2019}s imagine that there\x{2019}s been an error during transmission and one of the numbers got flipped, and the graphic designer received the following message:
 Table <<4.12|5a:0>>
 By using the check digits in the last column and row, the graphic designer can spot the error. The second row and the third column don\x{2019}t match up.",
           ],
@@ -183,7 +183,7 @@ By using the check digits in the last column and row, the graphic designer can s
           [
             1,
             '[ap 04:13] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0009.html) - 4.13',
-            "
+            "Here are some calculations on prime and nonprime clocks:
 Table <<4.13|5a:1>>
 Now, 5 is prime, and if I calculate 2 to the power of 5 on a five-hour clock calculator, the answer is 2 again. So 2 = 2 (modulo 5). The magic is guaranteed to work if the number of hours on the clock is prime. It doesn\x{2019}t necessarily work if you take a non-prime-number clock. For example, 6 isn\x{2019}t prime, which explains why on the six-hour clock, 2 ends up not at 2 but at <<4|9c:1>>.",
           ],
@@ -215,14 +215,14 @@ Now, 5 is prime, and if I calculate 2 to the power of 5 on a five-hour clock cal
           [
             1,
             '[ap 04:14] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0009.html) - 4.14',
-            '
+            'The cipher is the following:
 Table <<4.14|5a:0>>
 An Easy Challenge',
           ],
           [
             1,
             '[23:56] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0010.html) - 23 hours, 56 minutes',
-            "The basic unit of time common to all these calendars is the 24-hour day. This isn\x{2019}t the time it takes the earth to spin once on its axis\x{2014}that\x{2019}s a little less: <<23 hours, 56 minutes|14>>, and 4 seconds. If we were to use this slightly shorter period as the length of a day, our clock and the rotating earth would get more and more out of sync as all those extra 3 minutes and 56 seconds accumulated, until eventually, <<noon|13>> on the clock would happen at <<midnight|13>>. So for timekeeping purposes, we define a day\x{2014}or, to use the correct term, a solar day\x{2014}as the time it takes the sun to return to the same position in the sky as seen from the same point on the earth\x{2019}s surface. After one complete rotation, the earth will have moved around its orbit by about  of a revolution, so it takes about  of a rotation, or another  of a day\x{2014}about 3 minutes and 56 seconds\x{2014}for the sun to return to the same point in the sky.",
+            "The basic unit of time common to all these calendars is the 24-hour day. This isn\x{2019}t the time it takes the earth to spin once on its axis\x{2014}that\x{2019}s a little less: <<23 hours, 56 minutes|14>>, and 4 seconds. If we were to use this slightly shorter period as the length of a day, our clock and the rotating earth would get more and more out of sync as all those extra 3 minutes and 56 seconds accumulated, until eventually, <<noon|13>> on the clock would happen at <<midnight|13>>. So for timekeeping purposes, we define a day\x{2014}or, to use the correct term, a solar day\x{2014}as the time it takes the sun to return to the same position in the sky as seen from the same point on the earth\x{2019}s surface. After one complete rotation, the earth will have moved around its orbit by about of a revolution, so it takes about of a rotation, or another of a day\x{2014}about 3 minutes and 56 seconds\x{2014}for the sun to return to the same point in the sky.",
           ],
           [
             1,

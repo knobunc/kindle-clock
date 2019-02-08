@@ -2,7 +2,7 @@ $VAR1 = [
           [
             1,
             '[ap 07:58] One Moment, One Morning - Sarah Rayner.epub (One_Moment_One_Morning_split_001.html) - 07:58',
-            '
+            'Monday
 <<07:58|2>>
 <<08:30|2>>',
           ],
@@ -53,12 +53,12 @@ $VAR1 = [
             '[15:10] One Moment, One Morning - Sarah Rayner.epub (One_Moment_One_Morning_split_001.html) - 15:10',
             '<<15:10|2>>
 <<19:57|2>>
-',
+Tuesday',
           ],
           [
             1,
             '[ap 05:34] One Moment, One Morning - Sarah Rayner.epub (One_Moment_One_Morning_split_001.html) - 05:34',
-            '
+            'Tuesday
 <<05:34|2>>
 <<06:30|2>>',
           ],
@@ -102,12 +102,12 @@ $VAR1 = [
             '[14:05] One Moment, One Morning - Sarah Rayner.epub (One_Moment_One_Morning_split_001.html) - 14:05',
             '<<14:05|2>>
 <<21:33|2>>
-',
+Wednesday',
           ],
           [
             1,
             '[ap 07:37] One Moment, One Morning - Sarah Rayner.epub (One_Moment_One_Morning_split_001.html) - 07:37',
-            '
+            'Wednesday
 <<07:37|2>>
 <<15:04|2>>',
           ],
@@ -123,12 +123,12 @@ $VAR1 = [
             '[15:04] One Moment, One Morning - Sarah Rayner.epub (One_Moment_One_Morning_split_001.html) - 15:04',
             '<<15:04|2>>
 <<19:09|2>>
-',
+Thursday',
           ],
           [
             1,
             '[19:53] One Moment, One Morning - Sarah Rayner.epub (One_Moment_One_Morning_split_001.html) - 19:53',
-            '
+            'Thursday
 <<19:53|2>>
 <<20:23|2>>',
           ],
@@ -144,12 +144,12 @@ $VAR1 = [
             '[20:23] One Moment, One Morning - Sarah Rayner.epub (One_Moment_One_Morning_split_001.html) - 20:23',
             '<<20:23|2>>
 <<23:41|2>>
-',
+Friday',
           ],
           [
             1,
             '[ap 08:06] One Moment, One Morning - Sarah Rayner.epub (One_Moment_One_Morning_split_001.html) - 08:06',
-            '
+            'Friday
 <<08:06|2>>
 <<12:21|2>>',
           ],
@@ -186,12 +186,12 @@ $VAR1 = [
             '[19:35] One Moment, One Morning - Sarah Rayner.epub (One_Moment_One_Morning_split_001.html) - 19:35',
             '<<19:35|2>>
 <<21:44|2>>
-',
+Saturday',
           ],
           [
             1,
             '[ap 01:07] One Moment, One Morning - Sarah Rayner.epub (One_Moment_One_Morning_split_001.html) - 01:07',
-            '
+            'Saturday
 <<01:07|2>>
 <<08:33|2>>',
           ],
@@ -242,12 +242,12 @@ $VAR1 = [
             '[19:21] One Moment, One Morning - Sarah Rayner.epub (One_Moment_One_Morning_split_001.html) - 19:21',
             '<<19:21|2>>
 <<21:45|2>>
-',
+Sunday',
           ],
           [
             1,
             '[ap 08:23] One Moment, One Morning - Sarah Rayner.epub (One_Moment_One_Morning_split_001.html) - 08:23',
-            '
+            'Sunday
 <<08:23|2>>
 <<13:00|2>>',
           ],
@@ -256,14 +256,13 @@ $VAR1 = [
             '[ap 08:23] One Moment, One Morning - Sarah Rayner.epub (One_Moment_One_Morning_split_001.html) - 08:23',
             '<<08:23|2>>
 <<13:00|2>>
-',
+Sunday',
           ],
           [
             1,
             '[ap 11:43] One Moment, One Morning - Sarah Rayner.epub (One_Moment_One_Morning_split_001.html) - 11:43',
-            '
-<<11:43|2>>
-',
+            'Sunday
+<<11:43|2>>',
           ],
           [
             1,
@@ -417,8 +416,7 @@ Grrr! It\x{2019}s a perfect example of her mother\x{2019}s manipulation: \x{2018
           [
             1,
             '[~ 01:00] One Moment, One Morning - Sarah Rayner.epub (One_Moment_One_Morning_split_035.html) - gone one in the morning',
-            "
-It\x{2019}s <<gone one in the morning|9h>> by the time they stumble out of the pub.
+            "It\x{2019}s <<gone one in the morning|9h>> by the time they stumble out of the pub.
 \x{2018}Fancy a coffee at ours?\x{2019} suggests Howie.",
           ],
           [

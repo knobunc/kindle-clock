@@ -22,9 +22,9 @@ $VAR1 = [
           [
             1,
             '[ap 10:00] The Enemy - Lee Child.epub (The_Enemy_A_Reacher_Novel_split_002.html) - ten',
-            '
+            '"OK," I said. "When did he check in?"
 "I don\'t know. I came on at <<ten|9c:1>>. He was already here."
-',
+I nodded again. Kramer was in the rental lot at Dulles at <<one thirty-two|5b>> and he hadn\'t driven enough miles to do much of anything except come straight here, in which case he was checking in <<around seven thirty|5k:1>>. Maybe <<eight thirty|5k:1>>, if he stopped for dinner somewhere. Maybe nine, if he was an exceptionally cautious driver.',
           ],
           [
             1,
@@ -39,16 +39,16 @@ $VAR1 = [
           [
             1,
             '[ap 10:17] The Enemy - Lee Child.epub (The_Enemy_A_Reacher_Novel_split_002.html) - ten-seventeen',
-            '
+            '"No message."
 "What was the <<ten-seventeen|5k:1>> for?"
-',
+"Colonel Garber requests a <<ten-nineteen|5k:1>>."',
           ],
           [
             1,
-            '[ap 10:19] The Enemy - Lee Child.epub (The_Enemy_A_Reacher_Novel_split_002.html) - ten-nineteen',
-            '
+            '[ap 10:17] The Enemy - Lee Child.epub (The_Enemy_A_Reacher_Novel_split_002.html) - ten-seventeen',
+            '"What was the <<ten-seventeen|5k:1>> for?"
 "Colonel Garber requests a <<ten-nineteen|5k:1>>."
-',
+I smiled. You could live your whole life saying nothing but lO-this and lO-that. Sometimes I felt like I already had. A <<10-19|5a:0>> was a contact by phone or radio. Less serious than a <<10-16|5a:0>>, which was a contact by secure landline. Colonel Garber requests a <<10-19|5a:0>> meant Garber wants you to call him, was all. Some MP units get in the habit of speaking English, but clearly this one hadn\'t yet.',
           ],
           [
             1,
@@ -73,9 +73,9 @@ $VAR1 = [
           [
             1,
             '[00:00] The Enemy - Lee Child.epub (The_Enemy_A_Reacher_Novel_split_003.html) - midnight',
-            '
+            'He stood up and stretched.
 "Start at <<midnight|9g>>," I said to him. "Tell me everything you did."
-',
+"Why?"',
           ],
           [
             1,
@@ -165,16 +165,16 @@ $VAR1 = [
           [
             1,
             '[ap 10:00] The Enemy - Lee Child.epub (The_Enemy_A_Reacher_Novel_split_009.html) - ten o\'clock',
-            '
+            '"Homicide," I said. "When?"
 "Last night. Nine or <<ten o\'clock|6>>."
-',
+"Where?"',
           ],
           [
             1,
             '[ap 10:00] The Enemy - Lee Child.epub (The_Enemy_A_Reacher_Novel_split_009.html) - ten o\'clock',
-            '
+            '"When?"
 "Last night, nine or <<ten o\'clock|6>>."
-',
+"Where?"',
           ],
           [
             1,
@@ -184,30 +184,30 @@ $VAR1 = [
           [
             1,
             '[ap 02:00] The Enemy - Lee Child.epub (The_Enemy_A_Reacher_Novel_split_009.html) - two',
-            '
+            '"Yes," he said. I shrugged.
 "I was on a plane until <<two|9c:1>>," I said. "I was with you until <<five|9c:1>>."
-',
+"And then?"',
           ],
           [
             1,
             '[ap 11:00] The Enemy - Lee Child.epub (The_Enemy_A_Reacher_Novel_split_009.html) - eleven',
-            '
+            '"And then?"
 "I got back here at <<eleven|9b>>."
-',
+"Six hours? I did it in four."',
           ],
           [
             1,
             '[~ 00:00] The Enemy - Lee Child.epub (The_Enemy_A_Reacher_Novel_split_009.html) - about midnight',
-            '
+            '"And then?"
 "Carbone\'s body was discovered <<about midnight|13>>."
-',
+He nodded and twitched and shuffled and looked uncomfortable.',
           ],
           [
             1,
             '[ap 11:00] The Enemy - Lee Child.epub (The_Enemy_A_Reacher_Novel_split_009.html) - eleven',
-            '
+            '"Nine or ten last night," I said.
 "And you were off post until <<eleven|9c:1>>?"
-',
+"Asked and answered," I said.',
           ],
           [
             1,
@@ -267,16 +267,16 @@ $VAR1 = [
           [
             1,
             '[12:00] The Enemy - Lee Child.epub (The_Enemy_A_Reacher_Novel_split_012.html) - noon',
-            '
+            '"Did they say why they were at Bird again?"
 "General Kramer\'s funeral was yesterday, at <<noon|13>>."
-',
+"I didn\'t know that."',
           ],
           [
             1,
             '[ap 10:00] The Enemy - Lee Child.epub (The_Enemy_A_Reacher_Novel_split_012.html) - ten o\'clock',
-            '
+            '"What now?"
 I checked my watch. It was close to <<ten o\'clock|6>>.
-',
+"Sleep," I said. "First light, we go out looking for a yogurt container."',
           ],
           [
             1,
@@ -321,9 +321,9 @@ I checked my watch. It was close to <<ten o\'clock|6>>.
           [
             1,
             '[ap 08:00] The Enemy - Lee Child.epub (The_Enemy_A_Reacher_Novel_split_014.html) - eight',
-            '
+            '"One beer."
 "So he just walked out of the mess at <<eight|9c:1>>, no nerves, no worries?"
-',
+"Apparently so."',
           ],
           [
             1,
@@ -533,9 +533,9 @@ I checked my watch. It was close to <<ten o\'clock|6>>.
           [
             1,
             '[< 00:00] The Enemy - Lee Child.epub (The_Enemy_A_Reacher_Novel_split_017.html) - before midnight',
-            '
+            '"Probably," I said. "Tomorrow, maybe."
 "Not <<before midnight|13>>?"
-',
+"I don\'t want to give him the satisfaction."',
           ],
           [
             1,
@@ -580,16 +580,16 @@ I checked my watch. It was close to <<ten o\'clock|6>>.
           [
             1,
             '[ap 08:00] The Enemy - Lee Child.epub (The_Enemy_A_Reacher_Novel_split_018.html) - Eight o\'clock',
-            '
+            '"He left here three hours before his flight."
 "<<Eight o\'clock|6>>?"
-',
+The captain nodded. "On the dot."',
           ],
           [
             1,
             '[ap 07:00] The Enemy - Lee Child.epub (The_Enemy_A_Reacher_Novel_split_018.html) - seven o\'clock',
-            '
+            'I smiled, briefly. "When were Marshall\'s orders issued?"
 "At <<seven o\'clock|6>>."
-',
+"Written?"',
           ],
           [
             1,
@@ -609,16 +609,16 @@ I checked my watch. It was close to <<ten o\'clock|6>>.
           [
             1,
             '[ap 06:00] The Enemy - Lee Child.epub (The_Enemy_A_Reacher_Novel_split_019.html) - six',
-            '
+            '"What time in the morning?" she said.
 "Early for me," I said. "I have to be at the airport at <<six|9c:1>>."
-',
+"I\'ll come with you. Keep you company."',
           ],
           [
             1,
             '[ap ~ 04:00] The Enemy - Lee Child.epub (The_Enemy_A_Reacher_Novel_split_019.html) - About four',
-            '
+            '"We\'ll have to get up about four," she said.
 "I guess," I said. "<<About four|9:0>>." We stood there.
-',
+"Good night then, I guess," she said.',
           ],
           [
             1,
@@ -648,9 +648,9 @@ I checked my watch. It was close to <<ten o\'clock|6>>.
           [
             1,
             '[00:00] The Enemy - Lee Child.epub (The_Enemy_A_Reacher_Novel_split_019.html) - midnight',
-            '
+            'The men in the coats realized who we must be and shuffled out into the hallway. They were very quiet. They made no noise at all. Joe took an unsteady step and sat down on the sofa. I stayed where I was. I stood still in the middle of the floor. "When?" I said again.
 "At <<midnight|13>>," the girl said. "In her sleep."
-',
+I closed my eyes. Opened them again a minute later. The girl was still there. Her eyes were on mine. "Were you with her?" I said. She nodded.',
           ],
           [
             1,
@@ -660,16 +660,16 @@ I checked my watch. It was close to <<ten o\'clock|6>>.
           [
             1,
             '[00:00] The Enemy - Lee Child.epub (The_Enemy_A_Reacher_Novel_split_019.html) - Midnight',
-            '
+            '"You shouldn\'t have waited for me," Joe said. "You could have seen her one last time."
 "I felt it happen," I said. "<<Midnight|13>> last night, something hit me."
-',
+"You could have been with her."',
           ],
           [
             1,
             '[00:00] The Enemy - Lee Child.epub (The_Enemy_A_Reacher_Novel_split_019.html) - Midnight',
-            '
+            '"When was it?"
 "<<Midnight|13>>. She just gave up."
-',
+"I feel bad. You should have gone to see her yesterday. You shouldn\'t have spent the day with me. We shouldn\'t have done all that ridiculous shopping."',
           ],
           [
             1,
@@ -679,9 +679,9 @@ I checked my watch. It was close to <<ten o\'clock|6>>.
           [
             1,
             '[00:00] The Enemy - Lee Child.epub (The_Enemy_A_Reacher_Novel_split_019.html) - midnight',
-            '
+            '"It was always going to be an arbitrary date," I said. "I could have gone yesterday, in the afternoon, maybe. Now I\'d be wishing I had stayed for the evening. If I had stayed for the evening, I\'d be wishing I had stayed until <<midnight|13>>."
 "You were in here with me at <<midnight|13>>. I feel bad about that, too."
-',
+"Don\'t," I said. "I don\'t feel bad about it. My mother wouldn\'t, either. She was French, after all. If she\'d known those were my options, she\'d have insisted."',
           ],
           [
             1,
@@ -711,9 +711,9 @@ I checked my watch. It was close to <<ten o\'clock|6>>.
           [
             1,
             '[ap 06:00] The Enemy - Lee Child.epub (The_Enemy_A_Reacher_Novel_split_020.html) - six',
-            '
+            '"When and where?"
 "When you get off. At <<six|9t:0>>. At the diner near the strip club."
-',
+"What do you need me to bring?"',
           ],
           [
             1,
@@ -740,7 +740,7 @@ I checked my watch. It was close to <<ten o\'clock|6>>.
             '[ap 03:18] The Enemy - Lee Child.epub (The_Enemy_A_Reacher_Novel_split_020.html) - three eighteen',
             'The whole place was full of yellow light and fog and black shadow but I could see well enough. There was no sign of a set-up. Summer turned into the lot and drove a long slow circuit. There were <<three eighteen|5k:1>> wheelers parked like beached whales and a couple of old sedans that were probably abandoned. They had the look. They had dull paint and soft tyres and they were low on their springs. There was an old Ford pick-up truck with a baby seat strapped to the bench. I guessed that was my sergeant\'s. There was nothing else.
 <<Six forty in the morning|5>>, and the world was dark and still and quiet.
-',
+We put the car out of sight behind the lounge bar and walked across the lot to the diner.',
           ],
           [
             1,

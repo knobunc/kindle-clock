@@ -43,16 +43,16 @@ $VAR1 = [
             1,
             '[~ 15:00] The Oxford Shakespeare_ The Complete Works - William Shakespeare.epub (The_Oxford_S-ks_2nd_Edition_split_020.html) - around 1500',
             "Shakespeare was writing in the middle of a period of English linguistic history called Early Modern English, which runs from <<around 1500|18:0>> to <<around 1750|18:0>>. It was an age when the language was beginning to settle down after a turbulent few centuries when its structure radically altered from its Anglo-Saxon character. Old English (used until the twelfth century) is so different from Modern English that it has to be approached as we would a foreign language. Middle English (used until the fifteenth century) is very much more familiar to modern eyes and ears, but we still feel that a considerable linguistic distance separates us from those who wrote in it - Chaucer and his contemporaries. During the fifteenth century, a huge amount of change affected English pronunciation, spelling, grammar, and vocabulary, so that Shakespeare would have found Chaucer almost as difficult to read as we do. But between Jacobethan times and today the changes have been very limited. Although we must not underestimate the problems posed by such words as buff jerkin, finical, and thou, we must not exaggerate them either. Most of Early Modern English is the same as Modern English. The evidence lies in the fact that there are many lines of Shakespeare where we feel little or no linguistic distance at all:BRUTUS ... If there be any in this assembly, any dear
- friend of Caesar\x{2019}s, to him I say that Brutus\x{2019} love to
- Caesar was no less than his. If then that friend
- demand why Brutus rose against Caesar, this is my
- answer: not that I loved Caesar less, but that I loved
- Rome more. Had you rather Caesar were living,
- and die all slaves, than that Caesar were dead, to
- live all free men? As Caesar loved me, I weep for
- him. As he was fortunate, I rejoice at it. As he was
- valiant, I honour him. But as he was ambitious, I
- slew him.",
+friend of Caesar\x{2019}s, to him I say that Brutus\x{2019} love to
+Caesar was no less than his. If then that friend
+demand why Brutus rose against Caesar, this is my
+answer: not that I loved Caesar less, but that I loved
+Rome more. Had you rather Caesar were living,
+and die all slaves, than that Caesar were dead, to
+live all free men? As Caesar loved me, I weep for
+him. As he was fortunate, I rejoice at it. As he was
+valiant, I honour him. But as he was ambitious, I
+slew him.",
           ],
           [
             1,
@@ -137,7 +137,7 @@ Some second Shakespeare must of Shakespeare write;
 For me \x{2018}tis needless, since an host of men
 Will pay to clap his praise, to free my pen.
 Leonard Digges (<<before 1636|18:0>>), in Shakespeare\x{2019}s Poems (1640)
-",
+In remembrance of Master William Shakespeare.",
           ],
           [
             1,
@@ -175,8 +175,8 @@ So much of thee redeemed from the grave
 As may suffice to enlighten future times
 With the bright lustre of thy matchless rhymes.
 Anonymous (<<before 1638|18:0>>), in Shakespeare\x{2019}s
- Poems (1640)
-",
+Poems (1640)
+To Shakespeare",
           ],
           [
             1,
@@ -284,7 +284,7 @@ They \x{2308}fight and\x{2309} take York",
           [
             1,
             '[ap 04:10] The Oxford Shakespeare_ The Complete Works - William Shakespeare.epub (The_Oxford_S-ks_2nd_Edition_split_121.html) - 4.10',
-            "
+            "Exeunt \x{2308}severally!\x{2309}
 <<4.10|5a:0>> \x{2308}Erenter King Henry and the Duke of Exeter\x{2309}
 KING HENRY",
           ],
@@ -585,7 +585,7 @@ And, being unmasked, outshine the golden sun!",
             1,
             '[12:00] The Oxford Shakespeare_ The Complete Works - William Shakespeare.epub (The_Oxford_S-ks_2nd_Edition_split_230.html) - noon',
             "A flight of ugly ravens
- Do croak and hover o\x{2019}er our soldiers\x{2019} heads,
+Do croak and hover o\x{2019}er our soldiers\x{2019} heads,
 And keep in triangles and cornered squares,
 Right as our forces are embattel\x{e8}d.
 With their approach there came this sudden fog
@@ -627,9 +627,9 @@ I will discharge my bond, and thank you too.",
           [
             1,
             '[ap 01:00] The Oxford Shakespeare_ The Complete Works - William Shakespeare.epub (The_Oxford_S-ks_2nd_Edition_split_245.html) - one',
-            '
+            "No, no, the bell. \x{2018}Tis time that I were gone:
 It was two ere I left him, and now the clock strikes <<one|11>>.
-ADRIANA',
+ADRIANA",
           ],
           [
             1,
@@ -887,8 +887,7 @@ Though Nestor swear the jest be laughable.",
           [
             1,
             '[ap 05:00] The Oxford Shakespeare_ The Complete Works - William Shakespeare.epub (The_Oxford_S-ks_2nd_Edition_split_346.html) - five of the clock',
-            'BASSANIO (toone
-of his men) You may do so, but let it be so hasted that supper be ready at the farthest by <<five of the clock|6>>. See these letters delivered, put the liveries to making, and desire Graziano to come anon to my lodging. Exit one',
+            'BASSANIO (toone of his men) You may do so, but let it be so hasted that supper be ready at the farthest by <<five of the clock|6>>. See these letters delivered, put the liveries to making, and desire Graziano to come anon to my lodging. Exit one',
           ],
           [
             1,
@@ -1387,15 +1386,13 @@ Love sought is good, but given unsought, is better.",
           [
             1,
             '[ap 05:10] The Oxford Shakespeare_ The Complete Works - William Shakespeare.epub (The_Oxford_S-ks_2nd_Edition_split_585.html) - 5.10',
-            "<<5.10|5a:0>>
-A retreat is sounded. Enter Agamemnon, Ajax, Menelaus, Nestor, Diomedes, and the rest, marching. \x{2308}A shout within\x{2309}",
+            "<<5.10|5a:0>> A retreat is sounded. Enter Agamemnon, Ajax, Menelaus, Nestor, Diomedes, and the rest, marching. \x{2308}A shout within\x{2309}",
           ],
           [
             1,
             '[ap 05:11] The Oxford Shakespeare_ The Complete Works - William Shakespeare.epub (The_Oxford_S-ks_2nd_Edition_split_586.html) - 5.11',
-            '<<5.11|4>>
-Enter Aeneas, Paris, Antenor, and Deiphobus
-',
+            '<<5.11|4>> Enter Aeneas, Paris, Antenor, and Deiphobus
+AENEAS',
           ],
           [
             1,
@@ -1473,16 +1470,17 @@ SECOND SHERIFF",
           [
             1,
             '[ap 08:47] The Oxford Shakespeare_ The Complete Works - William Shakespeare.epub (The_Oxford_S-ks_2nd_Edition_split_623.html) - 8.47',
-            '
+            'Cum tua virtus, amplissime doctissimeque vir,
+< > as pervenit < > tu < >visui < > divin
 A4. Replaced by <<8.47|3:1>>-127 and 8.219-86.
-',
+MORE',
           ],
           [
             1,
             '[13:53] The Oxford Shakespeare_ The Complete Works - William Shakespeare.epub (The_Oxford_S-ks_2nd_Edition_split_623.html) - 13.53',
-            '
+            "\x{2308}Exeunt\x{2309}
 A5. Replaced by <<13.53|3:1>>-122.
-',
+MORE",
           ],
           [
             1,
@@ -1720,15 +1718,13 @@ Am|5>> I to fear, or none.",
           [
             1,
             '[ap 05:10] The Oxford Shakespeare_ The Complete Works - William Shakespeare.epub (The_Oxford_S-ks_2nd_Edition_split_737.html) - 5.10',
-            '<<5.10|4>>
-Enter Macbeth
-',
+            '<<5.10|4>> Enter Macbeth
+MACBETH',
           ],
           [
             1,
             '[ap 05:11] The Oxford Shakespeare_ The Complete Works - William Shakespeare.epub (The_Oxford_S-ks_2nd_Edition_split_738.html) - 5.11',
-            '<<5.11|4>>
-Retreat and flourish. Enter with a drummer and colours Malcolm, Siward, Ross, thanes, and soldiers',
+            '<<5.11|4>> Retreat and flourish. Enter with a drummer and colours Malcolm, Siward, Ross, thanes, and soldiers',
           ],
           [
             1,
@@ -1756,29 +1752,25 @@ And so rebel to judgement.",
           [
             1,
             '[ap 03:10] The Oxford Shakespeare_ The Complete Works - William Shakespeare.epub (The_Oxford_S-ks_2nd_Edition_split_762.html) - 3.10',
-            '<<3.10|4>>
-Camidius marcheth with his land army over the stage, and taurus, the lieutenant of caesar, with his',
+            '<<3.10|4>> Camidius marcheth with his land army over the stage, and taurus, the lieutenant of caesar, with his',
           ],
           [
             1,
             '[ap 03:11] The Oxford Shakespeare_ The Complete Works - William Shakespeare.epub (The_Oxford_S-ks_2nd_Edition_split_763.html) - 3.11',
-            '<<3.11|4>>
-Enter Antony with Attendants
-',
+            '<<3.11|4>> Enter Antony with Attendants
+ANTONY',
           ],
           [
             1,
             '[ap 03:12] The Oxford Shakespeare_ The Complete Works - William Shakespeare.epub (The_Oxford_S-ks_2nd_Edition_split_764.html) - 3.12',
-            "<<3.12|4>>
-Enter Caesar, \x{2308}Agrippa,\x{2309} Thidias, and Dolabella, with others
-",
+            "<<3.12|4>> Enter Caesar, \x{2308}Agrippa,\x{2309} Thidias, and Dolabella, with others
+CAESAR",
           ],
           [
             1,
             '[ap 03:13] The Oxford Shakespeare_ The Complete Works - William Shakespeare.epub (The_Oxford_S-ks_2nd_Edition_split_765.html) - 3.13',
-            '<<3.13|4>>
-Enter Cleopatra, Enobarbus, Charmian, and Iras
-',
+            '<<3.13|4>> Enter Cleopatra, Enobarbus, Charmian, and Iras
+CLEOPATRA',
           ],
           [
             1,
@@ -1795,50 +1787,44 @@ Let\x{2019}s mock the <<midnight|13>> bell.",
           [
             1,
             '[ap 04:10] The Oxford Shakespeare_ The Complete Works - William Shakespeare.epub (The_Oxford_S-ks_2nd_Edition_split_775.html) - 4.10',
-            '<<4.10|4>>
-Enter a Sentry and his company; Enobarbus follows
-',
+            '<<4.10|4>> Enter a Sentry and his company; Enobarbus follows
+SENTRY',
           ],
           [
             1,
             '[ap 04:11] The Oxford Shakespeare_ The Complete Works - William Shakespeare.epub (The_Oxford_S-ks_2nd_Edition_split_776.html) - 4.11',
-            '<<4.11|4>>
-Enter Antony and Scarus with their army
-',
+            '<<4.11|4>> Enter Antony and Scarus with their army
+ANTONY',
           ],
           [
             1,
             '[ap 04:12] The Oxford Shakespeare_ The Complete Works - William Shakespeare.epub (The_Oxford_S-ks_2nd_Edition_split_777.html) - 4.12',
-            '<<4.12|4>>
-Enter Caesar and his army
-',
+            '<<4.12|4>> Enter Caesar and his army
+CAESAR',
           ],
           [
             1,
             '[ap 04:13] The Oxford Shakespeare_ The Complete Works - William Shakespeare.epub (The_Oxford_S-ks_2nd_Edition_split_778.html) - 4.13',
             "<<4.13|5a:0>> \x{2308}Alarum afar off, as at a sea fight.\x{2309} Enter Antony and Scarus
-",
+ANTONY",
           ],
           [
             1,
             '[ap 04:14] The Oxford Shakespeare_ The Complete Works - William Shakespeare.epub (The_Oxford_S-ks_2nd_Edition_split_779.html) - 4.14',
-            '<<4.14|4>>
-Enter Cleopatra, Charmian, Iras, Mardian
-',
+            '<<4.14|4>> Enter Cleopatra, Charmian, Iras, Mardian
+CLEOPATRA',
           ],
           [
             1,
             '[ap 04:15] The Oxford Shakespeare_ The Complete Works - William Shakespeare.epub (The_Oxford_S-ks_2nd_Edition_split_780.html) - 4.15',
-            '<<4.15|4>>
-Enter Antony and Eros
-',
+            '<<4.15|4>> Enter Antony and Eros
+ANTONY',
           ],
           [
             1,
             '[ap 04:16] The Oxford Shakespeare_ The Complete Works - William Shakespeare.epub (The_Oxford_S-ks_2nd_Edition_split_781.html) - 4.16',
-            "<<4.16|4>>
-Enter Cleopatra \x{2308}and her maids aloft\x{2309}, with Charmian and Iras
-",
+            "<<4.16|4>> Enter Cleopatra \x{2308}and her maids aloft\x{2309}, with Charmian and Iras
+CLEOPATRA",
           ],
           [
             1,
@@ -1909,14 +1895,12 @@ Under Cominius.',
           [
             1,
             '[ap 01:10] The Oxford Shakespeare_ The Complete Works - William Shakespeare.epub (The_Oxford_S-ks_2nd_Edition_split_845.html) - 1.10',
-            "<<1.10|4>>
-Alarum. A retreat is sounded. \x{2308}Flourish.\x{2309}Enter at one door Cominius with the Romans, at another door Martius with his arm in a scarf",
+            "<<1.10|4>> Alarum. A retreat is sounded. \x{2308}Flourish.\x{2309}Enter at one door Cominius with the Romans, at another door Martius with his arm in a scarf",
           ],
           [
             1,
             '[ap 01:11] The Oxford Shakespeare_ The Complete Works - William Shakespeare.epub (The_Oxford_S-ks_2nd_Edition_split_846.html) - 1.11',
-            "<<1.11|4>>
-Enter Aufidius, bloody, with two or three Soldiers AUFIDIUS The town is ta\x{2019}en.",
+            "<<1.11|4>> Enter Aufidius, bloody, with two or three Soldiers AUFIDIUS The town is ta\x{2019}en.",
           ],
           [
             1,
@@ -1962,7 +1946,7 @@ KENT",
           [
             1,
             '[12:00] The Oxford Shakespeare_ The Complete Works - William Shakespeare.epub (The_Oxford_S-ks_2nd_Edition_split_897.html) - noon',
-            "
+            "\x{2308}He steps\x{2309}
 FOOL And I\x{2019}ll go to bed at <<noon|13>>.
 Enter the Duke of Gloucester",
           ],

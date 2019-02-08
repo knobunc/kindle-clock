@@ -84,7 +84,7 @@ Here \@matches contains (\"12\", \"34\", \"56\"). In scalar context, m//g become
             '[ap 00:34] Higher-Order Perl_ Transforming Programs W - Mark Jason Dominus.epub (OEBPS/Text/Section0004.html) - 12:34',
             "Here \@matches contains (\"12\", \"34\", \"56\"). In scalar context, m//g becomes the NEXTVAL operation for an iterator inside the regex, producing a different match each time:
 while (\"<<12:34|2>>:56\" =\x{2dc} m/(\\d+)/g) {
-# do something with \$1
+  # do something with \$1
 }
 We will see this useful and little-known feature in more detail in Chapter 8. Now we\x{2019}ll see how we can build our own iterators.",
           ],
@@ -92,37 +92,37 @@ We will see this useful and little-known feature in more detail in Chapter 8. No
             1,
             '[ap 08:14] Higher-Order Perl_ Transforming Programs W - Mark Jason Dominus.epub (OEBPS/Text/Section0004.html) - 08:14',
             "208.190.220.160 - - [04/Aug/2001:<<08:14|2>>:29 -0400]
-\"GET /\x{2dc}mjd/pictures/new.gif HTTP/1.1\" 200 95
-\"http://perl.plover.com/\"
-\"Mozilla/5.0 (Macintosh; U; PPC; en-US; rv:0.9.2) Gecko/20010629\"
+ \"GET /\x{2dc}mjd/pictures/new.gif HTTP/1.1\" 200 95
+ \"http://perl.plover.com/\"
+ \"Mozilla/5.0 (Macintosh; U; PPC; en-US; rv:0.9.2) Gecko/20010629\"
 195.3.19.207 - - [04/Aug/2001:<<13:39|2>>:11 -0400]
-\"GET /pics/small-sigils.gif HTTP/1.1\" 200 1586
-\"http://perl.plover.com/\"
-\"Mozilla/4.0 (compatible; MSIE <<5.01|5a:0>>; Windows NT 5.0; DigExt)\"
+ \"GET /pics/small-sigils.gif HTTP/1.1\" 200 1586
+ \"http://perl.plover.com/\"
+ \"Mozilla/4.0 (compatible; MSIE <<5.01|5a:0>>; Windows NT 5.0; DigExt)\"
 192.94.94.33 - - [07/Aug/2001:<<12:06|2>>:34 -0400]
-\"GET /yak/Identity/slide005.html HTTP/1.0\" 200 821
-\"http://perl.plover.com/yak/Identity/slide004.html\"
-\"Mozilla/4.6 [en] (X11; I; SunOS 5.8 sun4u)\"
+ \"GET /yak/Identity/slide005.html HTTP/1.0\" 200 821
+ \"http://perl.plover.com/yak/Identity/slide004.html\"
+ \"Mozilla/4.6 [en] (X11; I; SunOS 5.8 sun4u)\"
 199.93.193.10 - - [13/Aug/2001:<<13:04|2>>:39 -0400]
-\"GET /yak/dirty/miller_glenn_r.jpg HTTP/1.0\" 200 4376
-\"http://perl.plover.com/yak/dirty/slide009.html\"
-\"Mozilla/4.77 [en] (X11; U; SunOS 5.6 sun4u)\"
+ \"GET /yak/dirty/miller_glenn_r.jpg HTTP/1.0\" 200 4376
+ \"http://perl.plover.com/yak/dirty/slide009.html\"
+ \"Mozilla/4.77 [en] (X11; U; SunOS 5.6 sun4u)\"
 216.175.77.248 - - [15/Aug/2001:<<14:25|2>>:20 -0400]
-\"GET /yak/handson/examples/wordsort.pl HTTP/1.0\" 200 125
-\"http://perl.plover.com:80/yak/handson/examples/\"
-\"Wget/1.5.3\"
+ \"GET /yak/handson/examples/wordsort.pl HTTP/1.0\" 200 125
+ \"http://perl.plover.com:80/yak/handson/examples/\"
+ \"Wget/1.5.3\"
 194.39.218.254 - - [16/Aug/2001:<<07:44|2>>:02 -0400]
-\"GET /pics/medium-sigils.gif HTTP/1.0\" 304
-\"http://perl.plover.com/local.html\"
-\"Mozilla/4.0 (compatible; MSIE <<5.01|5a:0>>; Windows NT 5.0)\"
+ \"GET /pics/medium-sigils.gif HTTP/1.0\" 304
+ \"http://perl.plover.com/local.html\"
+ \"Mozilla/4.0 (compatible; MSIE <<5.01|5a:0>>; Windows NT 5.0)\"
 210.239.93.70 - msdw [22/Aug/2001:<<01:29|2>>:28 -0400]
-\"GET /class/msdw-tokyo/ HTTP/1.0\" 401 469
-\"http://perl.plover.com/class/\"
-\"Mozilla/4.0 (compatible; MSIE 5.5; Windows NT 4.0)\"
+ \"GET /class/msdw-tokyo/ HTTP/1.0\" 401 469
+ \"http://perl.plover.com/class/\"
+ \"Mozilla/4.0 (compatible; MSIE 5.5; Windows NT 4.0)\"
 151.204.38.119 - - [25/Aug/2001:<<13:48|2>>:01 -0400]
-\"GET /yak/path/hanoi06.gif HTTP/1.0\" 200 239
-\"http://perl.plover.com/yak/path/\"
-\"Mozilla/4.77 [en] (WinNT; U)\"",
+ \"GET /yak/path/hanoi06.gif HTTP/1.0\" 200 239
+ \"http://perl.plover.com/yak/path/\"
+ \"Mozilla/4.77 [en] (WinNT; U)\"",
           ],
           [
             1,
@@ -176,9 +176,12 @@ We will see this useful and little-known feature in more detail in Chapter 8. No
             1,
             '[ap 11:29] Higher-Order Perl_ Transforming Programs W - Mark Jason Dominus.epub (OEBPS/Text/Section0006.html) - 11:29',
             '...
-707503 24/Jan/2003:<<11:29|2>>:49 28/Jan/2003:<<12:11|2>>:35 <perl-qotw-discuss-return-1200-@plover.com-@[]> 388 322 2 64
-... (many records omitted) ...
-707045 28/Jan/2003:<<12:10|2>>:03 28/Jan/2003:<<12:10|2>>:03 <Paulmc@371.net> 1 1 0 0
+707503 24/Jan/2003:<<11:29|2>>:49 28/Jan/2003:<<12:11|2>>:35 <perl-qotw-discuss-return-1200-@plover.com-@[]> 388 322 2 64',
+          ],
+          [
+            1,
+            '[ap 00:10] Higher-Order Perl_ Transforming Programs W - Mark Jason Dominus.epub (OEBPS/Text/Section0006.html) - 12:10',
+            '707045 28/Jan/2003:<<12:10|2>>:03 28/Jan/2003:<<12:10|2>>:03 <Paulmc@371.net> 1 1 0 0
 707292 28/Jan/2003:<<12:10|2>>:03 28/Jan/2003:<<12:10|2>>:06 <Paulmc@371.net> 1 1 0 0
 707046 28/Jan/2003:<<12:10|2>>:06 28/Jan/2003:<<12:10|2>>:07 <Paulmc@371.net> 4 3 1 0
 707670 28/Jan/2003:<<12:10|2>>:06 28/Jan/2003:<<12:10|2>>:08 <spam-return-133409-@plover.com-@[]> 2 2 0 0
@@ -196,12 +199,12 @@ We will see this useful and little-known feature in more detail in Chapter 8. No
             '[ap 02:55] Higher-Order Perl_ Transforming Programs W - Mark Jason Dominus.epub (OEBPS/Text/Section0008.html) - 2.55',
             'Delivered-To: mjd-filter-deliver2@plover.com
 Received: from localhost [127.0.0.1] by plover.com
-    with SpamAssassin (<<2.55|5a:0>> 1.174.<<2.19|9p>>-2003-05-19-exp);
-    Mon, 11 Aug 2003 <<16:22|2>>:12 -0400
+        with SpamAssassin (<<2.55|5a:0>> 1.174.<<2.19|9p>>-2003-05-19-exp);
+        Mon, 11 Aug 2003 <<16:22|2>>:12 -0400
 From: "Doris Bower" <yij447mrx@yahoo.com.hk>
 To: webmaster@plover.com
 Subject: LoseWeight Now with Pphentermine,Aadipex,Bontriil,PrescribedOnline,shipped
-to Your Door fltynzlfoybv kie',
+  to Your Door fltynzlfoybv kie',
           ],
           [
             1,

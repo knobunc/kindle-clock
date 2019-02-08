@@ -75,14 +75,14 @@ Babcisky, K. September 1984. Simula performance assessment. Conference on System
           [
             1,
             '[ap 07:10] Handbook of Programming Languages Volume 1 - Peter H. Salus.epub (400-403.html) - 7.10',
-            'Koenig, A., and B. E. Moo. 1997.  1997. Ruminations on C++.  Reading, MA: Addison-Wesley.
+            'Koenig, A., and B. E. Moo. 1997. 1997. Ruminations on C++. Reading, MA: Addison-Wesley.
 <<7.10|9p>>. Acknowledgments
 Thanks to Jeffrey Oldham and Bjarne Stroustrup for reviewing drafts of this article.',
           ],
           [
             1,
             '[ap 01:00] Handbook of Programming Languages Volume 1 - Peter H. Salus.epub (407-409.html) - one',
-            "\x{2022}\x{a0}\x{a0}Why C counts from zero instead of from <<one|9c:0>>, along with a description of how to use C\x{2019}s counting style to avoid fencepost errors.",
+            "\x{2022} Why C counts from zero instead of from <<one|9c:0>>, along with a description of how to use C\x{2019}s counting style to avoid fencepost errors.",
           ],
           [
             1,
@@ -101,7 +101,7 @@ Recent work has resulted in advanced mechanisms being made available to the Eiff
           [
             1,
             '[ap 09:12] Handbook of Programming Languages Volume 1 - Peter H. Salus.epub (545-547.html) - 9.12',
-            "\x{2022}\x{a0}\x{a0}Interfaces to many other industry-standard products.
+            "\x{2022} Interfaces to many other industry-standard products.
 <<9.12|9p>>. Eiffel History
 I designed Eiffel on September 23, 1985. It was initially intended as an internal tool for the newly created ISE. The first internal implementation was ready in mid-1986.",
           ],
@@ -120,7 +120,7 @@ I designed Eiffel on September 23, 1985. It was initially intended as an interna
           [
             1,
             '[ap 01:11] Handbook of Programming Languages Volume 1 - Peter H. Salus.epub (564-568.html) - 1.11',
-            "\x{2022}\x{a0}\x{a0}Ada 9X Basic: This is the subset of tests from ACVC <<1.11|5a:0>> after removal of tests not applicable to Ada 95. These tests focus on support expected from Ada for features of Ada 83 that have been updated to be compatible with revised rules.",
+            "\x{2022} Ada 9X Basic: This is the subset of tests from ACVC <<1.11|5a:0>> after removal of tests not applicable to Ada 95. These tests focus on support expected from Ada for features of Ada 83 that have been updated to be compatible with revised rules.",
           ],
           [
             1,
@@ -146,10 +146,7 @@ I designed Eiffel on September 23, 1985. It was initially intended as an interna
             1,
             '[20:00] Handbook of Programming Languages Volume 1 - Peter H. Salus.epub (592-595.html) - 20.00',
             'A transaction containing bad data is ignored (in a real application, it would be written to an error report); for the file bad.dat containing a misspelled gadget type (gren),
-green 56.00
-blue 25.00
-gren <<20.00|5a:0>>
-black -20.00
+green 56.00 blue 25.00 gren <<20.00|5a:0>> black -20.00
 the command show_exception bad.dat results in',
           ],
           [
@@ -165,30 +162,18 @@ the command show_exception bad.dat results in',
           [
             1,
             '[ap 00:15] Handbook of Programming Languages Volume 1 - Peter H. Salus.epub (626-629.html) - 12:15',
-            'Speed         : 45 Miles per Hour
-Fuel          : 60 %
-Water         : <****************....>
-Oil           : <******..............>
-Time          : <<12:15|2>>:00
-Chronometer    : <<79976>>',
+            'Speed : 45 Miles per Hour Fuel : 60 % Water : <****************....> Oil : <******..............> Time : <<12:15|2>>:00 Chronometer : <<79976>>',
           ],
           [
             1,
             '[ap 00:15] Handbook of Programming Languages Volume 1 - Peter H. Salus.epub (634-636.html) - 12:15',
-            'Speed         : 45 Miles per Hour
-Fuel          : 60 %
-Water         : <****************....>
-Oil           : <******..............>
-Time          : <<12:15|2>>:00
-Chronometer   : <<79976>>',
+            'Speed : 45 Miles per Hour Fuel : 60 % Water : <****************....> Oil : <******..............> Time : <<12:15|2>>:00 Chronometer : <<79976>>',
           ],
           [
             1,
             '[17:00] Handbook of Programming Languages Volume 1 - Peter H. Salus.epub (653-656.html) - 5 PM',
             'The terminate alternative provides a kind of graceful implicit termination of a task. A task also terminates if control passes to the end of its body, so I could use program logic to force this task out of its main loop. For example, I could write a finite one:
-while the time is earlier than <<5 PM|5>> loop
- ...
-end loop;
+while the time is earlier than <<5 PM|5>> loop ... end loop;
 and the task would terminate <<just after 5 p.m.|10>> The disadvantage here is that I would strand any pending calls. Other strategies are also possible; the programmer has substantial flexibility here.',
           ],
           [
@@ -206,38 +191,14 @@ There are several fundamental interfaces that every Modula-3 implementation must
           [
             1,
             '[ap 11:11] Handbook of Programming Languages Volume 1 - Peter H. Salus.epub (737-740.html) - 11.11',
-            '
+            'Next
 <<11.11|5a:0>>. Syntax
 Care should be taken, when using colons and semicolons in the same sentence, that the reader understands how far the force of each sign carries.',
           ],
           [
             1,
             '[ap 11:12] Handbook of Programming Languages Volume 1 - Peter H. Salus.epub (742-744.html) - 11.12',
-            "Id           = Letter {Letter | Digit | \x{201c}_\x{201d}}.
-Literal      = Number | CharLiteral | TextLiteral.
-CharLiteral  = \x{201c}\x{2018}\x{201c} (PrintingChar | Escape | DQUOTE) \x{201c}\x{2018}\x{201c}.
-TextLiteral  = DQUOTE {PrintingChar | Escape | \x{201c}\x{2018}\x{201c}} DQUOTE.
-Escape       = \x{201c}\\\x{201d} \x{201c}n\x{201d} | \x{201c}\\\x{201d} \x{201c}t\x{201d}  | \x{201c}\\\x{201d} \x{201c}r\x{201d}  | \x{201c}\\\x{201d} \x{201c}f\x{201d}  | \x{201c}\\\x{201d} \x{201c}\\\x{201d}
-            |  \x{201c}\\\x{201d} \x{201c}\x{2018}\x{201c}  | \x{201c}\\\x{201d} DQUOTE
-            |  \x{201c}\\\x{201d} OctalDigit OctalDigit OctalDigit.
-Number       = Digit {Digit}
-            |  Digit {Digit} \x{201c}_\x{201d} HexDigit {HexDigit}
-            |  Digit {Digit} \x{201c}.\x{201d} Digit {Digit} [Exp].
-Exp          = (\x{201c}E\x{201d} | \x{201c}e\x{201d} | \x{201c}D\x{201d} | \x{201c}d\x{201d} | \x{201c}X\x{201d} | \x{201c}x\x{201d})
-            [\x{201c}+\x{201d} | \x{201c}-\x{201d}] Digit {Digit}.
-PrintingChar = Letter | Digit | OtherChar.
-HexDigit     = Digit | \x{201c}A\x{201d} | \x{201c}B\x{201d} | \x{201c}C\x{201d} | \x{201c}D\x{201d} | \x{201c}E\x{201d} | \x{201c}F\x{201d}
-            |  \x{201c}a\x{201d} | \x{201c}b\x{201d} | \x{201c}c\x{201d} | \x{201c}d\x{201d} | \x{201c}e\x{201d} | \x{201c}f\x{201d}.
-Digit        = \x{201c}0\x{201d} | \x{201c}1\x{201d} | ... | \x{201c}9\x{201d}.
-OctalDigit   = \x{201c}0\x{201d} | \x{201c}1\x{201d} | ... | \x{201c}7\x{201d}.
-Letter       = \x{201c}A\x{201d} | \x{201c}B\x{201d} | ... | \x{201c}Z\x{201d} | \x{201c}a\x{201d} | \x{201c}b\x{201d} | ... | \x{201c}z\x{201d}.
-OtherChar    =  \x{201c} \x{201c} | \x{201c}!\x{201d} | \x{201c}#\x{201d} | \x{201c}\$\x{201d} | \x{201c}%\x{201d} | \x{201c}&\x{201d} | \x{201c}(\x{201c} | \x{201c})\x{201d}
-            |  \x{201c}*\x{201d} | \x{201c}+\x{201d} | \x{201c},\x{201d} | \x{201c}-\x{201d} | \x{201c}.\x{201d} | \x{201c}/\x{201d} | \x{201c}:\x{201d} | \x{201c};\x{201d}
-            |  \x{201c}<\x{201d} | \x{201c}=\x{201d} | \x{201c}>\x{201d} | \x{201c}?\x{201d} | \x{201c}\@\x{201d} | \x{201c}[\x{201c} | \x{201c}]\x{201d} | \x{201c}^\x{201d}
-            |  \x{201c}_\x{201d} | \x{201c}`\x{201d} | \x{201c}{\x{201c} | \x{201c}|\x{201d} | \x{201c}}\x{201d} | \x{201c} \x{201c}
-            |  ExtendedChar
-ExtendedChar =  any char with ISO-Latin-1 code in
-            [8_ 240.. 8_ 377].
+            "Id = Letter {Letter | Digit | \x{201c}_\x{201d}}. Literal = Number | CharLiteral | TextLiteral. CharLiteral = \x{201c}\x{2018}\x{201c} (PrintingChar | Escape | DQUOTE) \x{201c}\x{2018}\x{201c}. TextLiteral = DQUOTE {PrintingChar | Escape | \x{201c}\x{2018}\x{201c}} DQUOTE. Escape = \x{201c}\\\x{201d} \x{201c}n\x{201d} | \x{201c}\\\x{201d} \x{201c}t\x{201d} | \x{201c}\\\x{201d} \x{201c}r\x{201d} | \x{201c}\\\x{201d} \x{201c}f\x{201d} | \x{201c}\\\x{201d} \x{201c}\\\x{201d} | \x{201c}\\\x{201d} \x{201c}\x{2018}\x{201c} | \x{201c}\\\x{201d} DQUOTE | \x{201c}\\\x{201d} OctalDigit OctalDigit OctalDigit. Number = Digit {Digit} | Digit {Digit} \x{201c}_\x{201d} HexDigit {HexDigit} | Digit {Digit} \x{201c}.\x{201d} Digit {Digit} [Exp]. Exp = (\x{201c}E\x{201d} | \x{201c}e\x{201d} | \x{201c}D\x{201d} | \x{201c}d\x{201d} | \x{201c}X\x{201d} | \x{201c}x\x{201d}) [\x{201c}+\x{201d} | \x{201c}-\x{201d}] Digit {Digit}. PrintingChar = Letter | Digit | OtherChar. HexDigit = Digit | \x{201c}A\x{201d} | \x{201c}B\x{201d} | \x{201c}C\x{201d} | \x{201c}D\x{201d} | \x{201c}E\x{201d} | \x{201c}F\x{201d} | \x{201c}a\x{201d} | \x{201c}b\x{201d} | \x{201c}c\x{201d} | \x{201c}d\x{201d} | \x{201c}e\x{201d} | \x{201c}f\x{201d}. Digit = \x{201c}0\x{201d} | \x{201c}1\x{201d} | ... | \x{201c}9\x{201d}. OctalDigit = \x{201c}0\x{201d} | \x{201c}1\x{201d} | ... | \x{201c}7\x{201d}. Letter = \x{201c}A\x{201d} | \x{201c}B\x{201d} | ... | \x{201c}Z\x{201d} | \x{201c}a\x{201d} | \x{201c}b\x{201d} | ... | \x{201c}z\x{201d}. OtherChar = \x{201c} \x{201c} | \x{201c}!\x{201d} | \x{201c}#\x{201d} | \x{201c}\$\x{201d} | \x{201c}%\x{201d} | \x{201c}&\x{201d} | \x{201c}(\x{201c} | \x{201c})\x{201d} | \x{201c}*\x{201d} | \x{201c}+\x{201d} | \x{201c},\x{201d} | \x{201c}-\x{201d} | \x{201c}.\x{201d} | \x{201c}/\x{201d} | \x{201c}:\x{201d} | \x{201c};\x{201d} | \x{201c}<\x{201d} | \x{201c}=\x{201d} | \x{201c}>\x{201d} | \x{201c}?\x{201d} | \x{201c}\@\x{201d} | \x{201c}[\x{201c} | \x{201c}]\x{201d} | \x{201c}^\x{201d} | \x{201c}_\x{201d} | \x{201c}`\x{201d} | \x{201c}{\x{201c} | \x{201c}|\x{201d} | \x{201c}}\x{201d} | \x{201c} \x{201c} | ExtendedChar ExtendedChar = any char with ISO-Latin-1 code in [8_ 240.. 8_ 377].
 <<11.12|9p>>. Acknowledgments
 The original definition of Modula-3 was given in SRC Research Report 31, August 1988. It was revised in Report 52, November 1989 and finally published in Systems Programming with Modula-3, November 1989. This edition of the language definition is derived from all of these reports.",
           ],
@@ -258,14 +219,14 @@ Sometimes you need only define methods an object must support, but not necessari
           [
             1,
             '[13:12] Handbook of Programming Languages Volume 1 - Peter H. Salus.epub (770-772.html) - 13.12',
-            "
+            "Next
 <<13.12|5a:0>>. Exceptions
 What do you do when an error occurs in a program? In many languages, error conditions are signaled by unusual return values like 01. Programmers often don\x{2019}t check for exceptional values because they may assume errors \x{201c}can\x{2019}t happen.\x{201d} On the other hand, adding error-detection and recovery to what should be a straightforward flow of logic can obscure that logic to the point where the normal flow is incomprehensible. An ostensibly simple task such as reading a file into memory might require about seven lines of code. Error checking and reporting extend this to 40 or more lines. Making normal operation the needle in your code haystack is undesirable.",
           ],
           [
             1,
             '[13:13] Handbook of Programming Languages Volume 1 - Peter H. Salus.epub (772-776.html) - 13.13',
-            "
+            "Next
 <<13.13|5a:0>>. Packages
 Name conflicts are a major problem when developing reusable code. No matter how carefully you pick names for classes and methods, somebody else is likely to use that name for a different purpose. If you use simple, descriptive names, the problem gets worse\x{2014}such names are more likely to be used by someone else who was also trying to use simple, descriptive names. Words like set, get, clear, and so on, are used a lot and are almost certain to clash with other people\x{2019}s uses.",
           ],
@@ -292,24 +253,21 @@ Java has several other features which we mention briefly here:",
             1,
             '[00:25] Handbook of Programming Languages Volume 1 - Peter H. Salus.epub (book-index_split_001.html) - 24-25',
             'C++ language, 27
-C++ wrappers, <<24-25|5a:0>>
-SOCK Acceptor, 30
+C++ wrappers, <<24-25|5a:0>> SOCK Acceptor, 30
 SOCK Stream, 30',
           ],
           [
             1,
             '[00:26] Handbook of Programming Languages Volume 1 - Peter H. Salus.epub (book-index_split_001.html) - 24-26',
             'SOCK Stream, 30
-components, <<24-26|5a:0>>
-self-contained, 27
+components, <<24-26|5a:0>> self-contained, 27
 middleware, 28',
           ],
           [
             1,
             '[00:25] Handbook of Programming Languages Volume 1 - Peter H. Salus.epub (book-index_split_001.html) - 24-25',
             'Wilcox, John, 267
-wrappers, ACE framework, <<24-25|5a:0>>
-SOCK Acceptor, 30
+wrappers, ACE framework, <<24-25|5a:0>> SOCK Acceptor, 30
 SOCK Stream, 30',
           ],
           [
@@ -317,15 +275,13 @@ SOCK Stream, 30',
             '[17:18] Handbook of Programming Languages Volume 1 - Peter H. Salus.epub (book-index_split_001.html) - 17-18',
             'complex template class, C++, 393
 Complexities communication software, <<17-18|5a:0>>
-components
-ACE framework, 24-27',
+components ACE framework, 24-27',
           ],
           [
             1,
             '[17:18] Handbook of Programming Languages Volume 1 - Peter H. Salus.epub (book-index_split_001.html) - 17-18',
             'Complexities communication software, <<17-18|5a:0>>
-components
-ACE framework, <<24-27|5a:0>>
+components ACE framework, <<24-27|5a:0>>
 Eiffel, 463, 546',
           ],
           [
@@ -346,8 +302,7 @@ middleware, 28',
             1,
             '[19:21] Handbook of Programming Languages Volume 1 - Peter H. Salus.epub (book-index_split_001.html) - 19-21',
             'paths, Smalltalk, execution, 169
-patterns, 19
-communication software, <<19-21|5a:0>>
+patterns, 19 communication software, <<19-21|5a:0>>
 Smalltalk, 186',
           ],
           [
@@ -374,36 +329,34 @@ problems, 19',
           [
             1,
             '[ap 05:10] Handbook of Programming Languages Volume 1 - Peter H. Salus.epub (ewtoc.html) - 5.10',
-            '<<5.10|9p>>. Smalltalk Places of Interest
+            "<<5.10|9p>>. Smalltalk Places of Interest
 <<5.11|5a:0>>. References
-',
+Part III\x{2014}C++ Chapter 6\x{2014}A History of C++ 6.1. Introduction to C++",
           ],
           [
             1,
             '[ap 06:10] Handbook of Programming Languages Volume 1 - Peter H. Salus.epub (ewtoc.html) - 6.10',
-            '6.9. Acknowledgments
+            "6.9. Acknowledgments
 <<6.10|5a:0>>. References
-',
+Chapter 7\x{2014}A Detailed Introduction to C++ 7.1. C++ Overview 7.1.1. A Multiparadigm Language",
           ],
           [
             1,
             '[ap 07:10] Handbook of Programming Languages Volume 1 - Peter H. Salus.epub (ewtoc.html) - 7.10',
-            '7.9. References
+            "7.9. References
 <<7.10|5a:0>>. Acknowledgments
-',
+Chapter 8\x{2014}C++ Traps and Pitfalls 8.1. Why Programmers Get in Trouble 8.1.1. Two Sources of Pitfalls",
           ],
           [
             1,
             '[ap 09:10] Handbook of Programming Languages Volume 1 - Peter H. Salus.epub (ewtoc.html) - 9.10',
-            '<<9.10|9p>>. Other Important Mechanisms
-9.10.1. once Routines and Shared Objects',
+            '<<9.10|9p>>. Other Important Mechanisms 9.10.1. once Routines and Shared Objects',
           ],
           [
             1,
             '[ap 09:11] Handbook of Programming Languages Volume 1 - Peter H. Salus.epub (ewtoc.html) - 9.11',
             '9.10.4. Lexical Conventions
-<<9.11|5a:0>>. Concurrency and Further Developments
-9.11.1. SCOOP
+<<9.11|5a:0>>. Concurrency and Further Developments 9.11.1. SCOOP
 9.11.2. Other Developments',
           ],
           [
@@ -411,46 +364,41 @@ problems, 19',
             '[ap 09:12] Handbook of Programming Languages Volume 1 - Peter H. Salus.epub (ewtoc.html) - 9.12',
             '9.11.2. Other Developments
 <<9.12|5a:0>>. Eiffel History
-<<9.13|5a:0>>. More Information on Eiffel
-9.13.1. Documentation',
+<<9.13|5a:0>>. More Information on Eiffel 9.13.1. Documentation',
           ],
           [
             1,
             '[ap 09:12] Handbook of Programming Languages Volume 1 - Peter H. Salus.epub (ewtoc.html) - 9.12',
             '<<9.12|9p>>. Eiffel History
-<<9.13|5a:0>>. More Information on Eiffel
-9.13.1. Documentation
+<<9.13|5a:0>>. More Information on Eiffel 9.13.1. Documentation
 9.13.2. Information Sources',
           ],
           [
             1,
             '[ap 11:10] Handbook of Programming Languages Volume 1 - Peter H. Salus.epub (ewtoc.html) - 11.10',
             '11.9. Unsafe Operations
-<<11.10|5a:0>>. Required Interfaces
-11.10.1. The Text Interface
+<<11.10|5a:0>>. Required Interfaces 11.10.1. The Text Interface
 11.10.2. The Thread Interface',
           ],
           [
             1,
             '[ap 11:11] Handbook of Programming Languages Volume 1 - Peter H. Salus.epub (ewtoc.html) - 11.11',
             '11.10.6. The FloatMode Interface
-<<11.11|5a:0>>. Syntax
-11.11.1. Keywords
+<<11.11|5a:0>>. Syntax 11.11.1. Keywords
 11.11.2. Reserved Identifiers',
           ],
           [
             1,
             '[ap 11:12] Handbook of Programming Languages Volume 1 - Peter H. Salus.epub (ewtoc.html) - 11.12',
-            '11.11.12. Token Productions
+            "11.11.12. Token Productions
 <<11.12|5a:0>>. Acknowledgments
-',
+Part VII\x{2014}Java Chapter 12\x{2014}What Is Java?",
           ],
           [
             1,
             '[13:10] Handbook of Programming Languages Volume 1 - Peter H. Salus.epub (ewtoc.html) - 13.10',
             '13.9. String Objects
-<<13.10|5a:0>>. Extending a Class
-13.10.1. The Object Class
+<<13.10|5a:0>>. Extending a Class 13.10.1. The Object Class
 13.10.2. Invoking Methods from the Superclass',
           ],
           [
@@ -484,8 +432,8 @@ problems, 19',
           [
             1,
             '[13:14] Handbook of Programming Languages Volume 1 - Peter H. Salus.epub (ewtoc.html) - 13.14',
-            '<<13.14|9p>>. The Java Infrastructure
+            "<<13.14|9p>>. The Java Infrastructure
 <<13.15|5a:0>>. Other Topics Briefly Noted
-',
+Chapter 14\x{2014}Programming in Java 14.1. Getting Started with Java 14.1.1. Why Is Java Interesting?",
           ],
         ];

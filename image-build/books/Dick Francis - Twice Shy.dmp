@@ -2,7 +2,7 @@ $VAR1 = [
           [
             1,
             "[ap 04:00] Twice Shy - Dick Francis.epub (OEBPS/fran_9781101464687_oeb_c01_r1.xhtml) - four o\x{2019}clock",
-            "The lesson wound on. They would remember it all their lives, because of the gun. Without the gun, whatever Jenkins might think, it would have faded into the general dust they shook from their shoes every afternoon at <<four o\x{2019}clock|6>>.  Teaching, it often seemed to me, was as much a matter of imagery as of imparting actual information. The facts dressed up in jokes were the ones they got right in exams.",
+            "The lesson wound on. They would remember it all their lives, because of the gun. Without the gun, whatever Jenkins might think, it would have faded into the general dust they shook from their shoes every afternoon at <<four o\x{2019}clock|6>>. Teaching, it often seemed to me, was as much a matter of imagery as of imparting actual information. The facts dressed up in jokes were the ones they got right in exams.",
           ],
           [
             1,
@@ -19,7 +19,7 @@ She nodded faintly. \x{201c}Supper at <<seven|9c:1>>.\x{201d}
           [
             1,
             "[ap ~ 08:00] Twice Shy - Dick Francis.epub (OEBPS/fran_9781101464687_oeb_c02_r1.xhtml) - About eight o\x{2019}clock",
-            "He interrupted, \x{201c}Yes, I know, but they were so bloody  frightening. They came the day before yesterday\x{2014}it seems years ago\x{2014}in the evening. Donna had gone out for a walk. It was still light. <<About eight o\x{2019}clock|6>>, I should think. She often goes for walks ...\x{201d} He trailed off again and I gave his glass a nudge with the bottle. \x{201c}What?\x{201d} he said. \x{201c}Oh no, no more, thanks. Anyway, they came, and they were so  arrogant, and they said I\x{2019}d regret it if I didn\x{2019}t give them the programs. They said Donna was a pretty little missis, wasn\x{2019}t she, and they were sure I\x{2019}d like her to stay that way.\x{201d} He swallowed. \x{201c}I\x{2019}d never have believed . . . I mean, that sort of thing doesn\x{2019}t happen.\x{201d}",
+            "He interrupted, \x{201c}Yes, I know, but they were so bloody frightening. They came the day before yesterday\x{2014}it seems years ago\x{2014}in the evening. Donna had gone out for a walk. It was still light. <<About eight o\x{2019}clock|6>>, I should think. She often goes for walks ...\x{201d} He trailed off again and I gave his glass a nudge with the bottle. \x{201c}What?\x{201d} he said. \x{201c}Oh no, no more, thanks. Anyway, they came, and they were so arrogant, and they said I\x{2019}d regret it if I didn\x{2019}t give them the programs. They said Donna was a pretty little missis, wasn\x{2019}t she, and they were sure I\x{2019}d like her to stay that way.\x{201d} He swallowed. \x{201c}I\x{2019}d never have believed . . . I mean, that sort of thing doesn\x{2019}t happen.\x{201d}",
           ],
           [
             1,
@@ -41,7 +41,7 @@ She nodded faintly. \x{201c}Supper at <<seven|9c:1>>.\x{201d}
             '[ap 03:30] Twice Shy - Dick Francis.epub (OEBPS/fran_9781101464687_oeb_c04_r1.xhtml) - 330',
             'Ted seemed perfectly happy. He typed LIST 300-380 and got another set of instructions.
 At <<330|9m:0>> the program read:LET A = 10: B = 8: C = 6: D = 2: D1 = 2
-',
+Lines 332, 334 and 336 looked similar, with numbers being ascribed to letters.',
           ],
           [
             1,
@@ -76,9 +76,9 @@ At <<330|9m:0>> the program read:LET A = 10: B = 8: C = 6: D = 2: D1 = 2
           [
             1,
             '[ap 05:59] Twice Shy - Dick Francis.epub (OEBPS/fran_9781101464687_oeb_c07_r1.xhtml) - 1 TO 6',
-            "I looked at part of the last section of the program, which was now at rest on the screen:410 RESET (RX, RY): RX = RX\x{2014}RA : RY : RY\x{2014}8 
-420 IF RY > 2 SET (RX, RY) : GOTO 200 
-430 IF ABS (1 * 8\x{2014}RX) > 4 THEN 150 
+            "I looked at part of the last section of the program, which was now at rest on the screen:410 RESET (RX, RY): RX = RX\x{2014}RA : RY : RY\x{2014}8
+420 IF RY > 2 SET (RX, RY) : GOTO 200
+430 IF ABS (1 * 8\x{2014}RX) > 4 THEN 150
 460 FOR Q = <<1 TO 6|10a:0>>: PRINT \@ 64 + 4 * V, \x{201c}* * * *\x{201d};",
           ],
           [
@@ -104,7 +104,7 @@ At <<330|9m:0>> the program read:LET A = 10: B = 8: C = 6: D = 2: D1 = 2
           [
             1,
             "[ap 10:00] Twice Shy - Dick Francis.epub (OEBPS/fran_9781101464687_oeb_c08_r1.xhtml) - ten o\x{2019}clock",
-            "I was told to wait and could hear vague conversations going on in the background, and going on for so long that I had to feed more coins into the box, which scarcely improved my impatience. Finally, however, the stolid voice returned. \x{201c}Detective Chief Superintendent Irestone will be in the Incident Room tomorrow morning from <<ten o\x{2019}clock|6>>  onward. You may call him at the following number.\x{201d}",
+            "I was told to wait and could hear vague conversations going on in the background, and going on for so long that I had to feed more coins into the box, which scarcely improved my impatience. Finally, however, the stolid voice returned. \x{201c}Detective Chief Superintendent Irestone will be in the Incident Room tomorrow morning from <<ten o\x{2019}clock|6>> onward. You may call him at the following number.\x{201d}",
           ],
           [
             1,
@@ -144,7 +144,7 @@ To hell with it, I thought.",
           [
             1,
             '[23:00] Twice Shy - Dick Francis.epub (OEBPS/fran_9781101464687_oeb_c12_r1.xhtml) - twenty-three',
-            "It had been practically the end. There had been very tall jump jockeys in the past, but I\x{2019}d progessively found that even if I starved to the point of weakness I couldn\x{2019}t keep my weight reliably below eleven stone. Trainers began saying I was too tall, too heavy, sorry lad, and employing someone else. So at twenty I\x{2019}d got myself a job as an assistant trainer, and at <<twenty-three|9w>> I\x{2019}d worked for a bloodstock agent, and at <<twenty-six|9w>> on a stud farm, which kept me off the racecourse too much. At <<twenty-seven|9:0>> I\x{2019}d been employed in a sort of hospital for sick racehorses which went out of business because too many owners preferred to shoot their liabilities, and after that there had been a spell of selling horse feed, and then a few months in the office of a bloodstock auctioneer, which had paid well but bored me to death; and each time between jobs I\x{2019}d spent the proceeds  of the last one in wandering around the world, drifting homeward when the cash ran out and casting around for a new berth.",
+            "It had been practically the end. There had been very tall jump jockeys in the past, but I\x{2019}d progessively found that even if I starved to the point of weakness I couldn\x{2019}t keep my weight reliably below eleven stone. Trainers began saying I was too tall, too heavy, sorry lad, and employing someone else. So at twenty I\x{2019}d got myself a job as an assistant trainer, and at <<twenty-three|9w>> I\x{2019}d worked for a bloodstock agent, and at <<twenty-six|9w>> on a stud farm, which kept me off the racecourse too much. At <<twenty-seven|9:0>> I\x{2019}d been employed in a sort of hospital for sick racehorses which went out of business because too many owners preferred to shoot their liabilities, and after that there had been a spell of selling horse feed, and then a few months in the office of a bloodstock auctioneer, which had paid well but bored me to death; and each time between jobs I\x{2019}d spent the proceeds of the last one in wandering around the world, drifting homeward when the cash ran out and casting around for a new berth.",
           ],
           [
             1,

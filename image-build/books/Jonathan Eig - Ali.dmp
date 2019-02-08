@@ -7,12 +7,12 @@ $VAR1 = [
           [
             1,
             "[ap 10:11] Ali_ A Life - Jonathan Eig.epub (OPS/back03.xhtml) - 10\x{2013}11",
-            "\x{201c}Without the failings of Western society\x{201d}:  Louis Lomax, When the Word Is Given (Chicago: Signet, 1963), <<10\x{2013}11|5a:0>>.",
+            "\x{201c}Without the failings of Western society\x{201d}: Louis Lomax, When the Word Is Given (Chicago: Signet, 1963), <<10\x{2013}11|5a:0>>.",
           ],
           [
             1,
             "[17:20] Ali_ A Life - Jonathan Eig.epub (OPS/back03.xhtml) - 17\x{2013}20",
-            "Dundee was the son:  Angelo Dundee, My View from the Corner (New York: McGraw Hill, 2009), <<17\x{2013}20|5a:0>>.",
+            "Dundee was the son: Angelo Dundee, My View from the Corner (New York: McGraw Hill, 2009), <<17\x{2013}20|5a:0>>.",
           ],
           [
             1,
@@ -24,7 +24,7 @@ $VAR1 = [
             '[21:47] Ali_ A Life - Jonathan Eig.epub (OPS/back03.xhtml) - 9:47 p.m.',
             "\x{201c}People come to see me\x{201d}: Ibid.
 When it was <<9:47 p.m.|2a>>: Lewis, Cassius Clay, 63.
-\x{201c}Get that loudmouth!\x{201d}:  Ibid.",
+\x{201c}Get that loudmouth!\x{201d}: Ibid.",
           ],
           [
             1,
@@ -353,9 +353,9 @@ Malcom X/family and, 115",
           [
             1,
             '[ap 03:05] Ali_ A Life - Jonathan Eig.epub (OPS/c14.xhtml) - 3.5',
-            'A clerk divided a number by <<3.5|3b>> when it should be multiplied by 4.5. His answer is 3. What is the correct answer?
-a) <<5.25|5a:0>> b) <<10.50|5a:0>> c) 15.75 d) 47.25
-',
+            "A clerk divided a number by <<3.5|3b>> when it should be multiplied by 4.5. His answer is 3. What is the correct answer?
+a) <<5.25|5a:1>> b) <<10.50|5a:1>> c) 15.75 d) 47.25
+Test takers needed to get thirty correct out of one hundred to pass, but Ali didn\x{2019}t make the grade. He said he had spent fifteen or twenty minutes \x{201c}scratching around\x{201d} on a question about apples and then found that he had run out of time for a whole row of additional questions.",
           ],
           [
             1,

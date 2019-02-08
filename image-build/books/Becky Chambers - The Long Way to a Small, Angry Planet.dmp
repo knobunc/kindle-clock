@@ -30,12 +30,12 @@ Ashby (<<00:10|2>>): sissix, are you there?
             '[00:11] The Long Way to a Small, Angry Planet - Becky Chambers.epub (text/part0000.html) - 00:11',
             '(<<00:11|2>>): pick up your scrib
 (<<00:14|2>>): hello?
-',
+Sissix (<<00:15|2>>): text',
           ],
           [
             1,
-            '[00:15] The Long Way to a Small, Angry Planet - Becky Chambers.epub (text/part0000.html) - 00:15',
-            '
+            '[00:14] The Long Way to a Small, Angry Planet - Becky Chambers.epub (text/part0000.html) - 00:14',
+            '(<<00:14|2>>): hello?
 Sissix (<<00:15|2>>): text
 (<<00:15|2>>): realy',
           ],
@@ -51,33 +51,33 @@ Sissix (<<00:15|2>>): text
             '[00:15] The Long Way to a Small, Angry Planet - Becky Chambers.epub (text/part0000.html) - 00:15',
             '(<<00:15|2>>): realy
 (<<00:16|2>>): how fuckng quaint
-',
+Ashby (<<00:16|2>>): did i wake you up?',
           ],
           [
             1,
             '[00:16] The Long Way to a Small, Angry Planet - Becky Chambers.epub (text/part0000.html) - 00:16',
-            '
+            '(<<00:16|2>>): how fuckng quaint
 Ashby (<<00:16|2>>): did i wake you up?
-',
+Sissix (<<00:17|2>>): yes',
           ],
           [
             1,
-            '[00:17] The Long Way to a Small, Angry Planet - Becky Chambers.epub (text/part0000.html) - 00:17',
-            '
+            '[00:16] The Long Way to a Small, Angry Planet - Becky Chambers.epub (text/part0000.html) - 00:16',
+            'Ashby (<<00:16|2>>): did i wake you up?
 Sissix (<<00:17|2>>): yes
 (<<00:17|2>>): im goin to complain my boss bout this n th mornin',
           ],
           [
             1,
             '[00:17] The Long Way to a Small, Angry Planet - Becky Chambers.epub (text/part0000.html) - 00:17',
-            'Sissix (<<00:17|2>>): yes
+            "Sissix (<<00:17|2>>): yes
 (<<00:17|2>>): im goin to complain my boss bout this n th mornin
-',
+Ashby (<<00:17|2>>): sorry. it\x{2019}s important",
           ],
           [
             1,
             '[00:17] The Long Way to a Small, Angry Planet - Becky Chambers.epub (text/part0000.html) - 00:17',
-            "
+            "(<<00:17|2>>): im goin to complain my boss bout this n th mornin
 Ashby (<<00:17|2>>): sorry. it\x{2019}s important
 (<<00:17|2>>): i just forwarded you a letter",
           ],
@@ -86,82 +86,82 @@ Ashby (<<00:17|2>>): sorry. it\x{2019}s important
             '[00:17] The Long Way to a Small, Angry Planet - Becky Chambers.epub (text/part0000.html) - 00:17',
             "Ashby (<<00:17|2>>): sorry. it\x{2019}s important
 (<<00:17|2>>): i just forwarded you a letter
-",
+Sissix (<<00:18|2>>): why cnt yo come to my room i hat typng",
           ],
           [
             1,
-            '[00:18] The Long Way to a Small, Angry Planet - Becky Chambers.epub (text/part0000.html) - 00:18',
-            '
+            '[00:17] The Long Way to a Small, Angry Planet - Becky Chambers.epub (text/part0000.html) - 00:17',
+            "(<<00:17|2>>): i just forwarded you a letter
 Sissix (<<00:18|2>>): why cnt yo come to my room i hat typng
-',
+Ashby (<<00:18|2>>): because i don\x{2019}t want anyone to hear what we\x{2019}re saying",
           ],
           [
             1,
             '[00:18] The Long Way to a Small, Angry Planet - Becky Chambers.epub (text/part0000.html) - 00:18',
-            "
+            "Sissix (<<00:18|2>>): why cnt yo come to my room i hat typng
 Ashby (<<00:18|2>>): because i don\x{2019}t want anyone to hear what we\x{2019}re saying
-",
+Sissix (<<00:18|2>>): ship ok?",
           ],
           [
             1,
             '[00:18] The Long Way to a Small, Angry Planet - Becky Chambers.epub (text/part0000.html) - 00:18',
-            '
+            "Ashby (<<00:18|2>>): because i don\x{2019}t want anyone to hear what we\x{2019}re saying
 Sissix (<<00:18|2>>): ship ok?
-',
+Ashby (<<00:18|2>>): yes, just read the damn letter",
           ],
           [
             1,
             '[00:18] The Long Way to a Small, Angry Planet - Becky Chambers.epub (text/part0000.html) - 00:18',
-            '
+            'Sissix (<<00:18|2>>): ship ok?
 Ashby (<<00:18|2>>): yes, just read the damn letter
-',
+Sissix (<<00:19|2>>): give me minut',
           ],
           [
             1,
-            '[00:19] The Long Way to a Small, Angry Planet - Becky Chambers.epub (text/part0000.html) - 00:19',
-            '
+            '[00:18] The Long Way to a Small, Angry Planet - Becky Chambers.epub (text/part0000.html) - 00:18',
+            'Ashby (<<00:18|2>>): yes, just read the damn letter
 Sissix (<<00:19|2>>): give me minut
 (<<00:19|2>>): need to heat bed i can barly mov',
           ],
           [
             1,
             '[00:19] The Long Way to a Small, Angry Planet - Becky Chambers.epub (text/part0000.html) - 00:19',
-            'Sissix (<<00:19|2>>): give me minut
+            "Sissix (<<00:19|2>>): give me minut
 (<<00:19|2>>): need to heat bed i can barly mov
-',
+Ashby (<<00:19|2>>): get a heat blanket and let\x{2019}s go",
           ],
           [
             1,
             '[00:19] The Long Way to a Small, Angry Planet - Becky Chambers.epub (text/part0000.html) - 00:19',
-            "
+            "(<<00:19|2>>): need to heat bed i can barly mov
 Ashby (<<00:19|2>>): get a heat blanket and let\x{2019}s go
-",
+Sissix (<<00:24|2>>): ok better",
           ],
           [
             1,
-            '[00:24] The Long Way to a Small, Angry Planet - Becky Chambers.epub (text/part0000.html) - 00:24',
-            '
+            '[00:19] The Long Way to a Small, Angry Planet - Becky Chambers.epub (text/part0000.html) - 00:19',
+            "Ashby (<<00:19|2>>): get a heat blanket and let\x{2019}s go
 Sissix (<<00:24|2>>): ok better
-(<<00:24|2>>): can actually use my hands now, hooray',
+(<<00:24|2>>): can actually use my hands now, hooray",
           ],
           [
             1,
             '[00:24] The Long Way to a Small, Angry Planet - Becky Chambers.epub (text/part0000.html) - 00:24',
             'Sissix (<<00:24|2>>): ok better
 (<<00:24|2>>): can actually use my hands now, hooray
-',
+Ashby (<<00:24|2>>): READ IT',
           ],
           [
             1,
             '[00:24] The Long Way to a Small, Angry Planet - Becky Chambers.epub (text/part0000.html) - 00:24',
-            '
+            '(<<00:24|2>>): can actually use my hands now, hooray
 Ashby (<<00:24|2>>): READ IT
-',
+Sissix (<<00:24|2>>): ok ok',
           ],
           [
             1,
             '[00:24] The Long Way to a Small, Angry Planet - Becky Chambers.epub (text/part0000.html) - 00:24',
-            '
+            'Ashby (<<00:24|2>>): READ IT
 Sissix (<<00:24|2>>): ok ok
 (<<00:27|2>>): HOLY SHIT',
           ],
@@ -170,19 +170,19 @@ Sissix (<<00:24|2>>): ok ok
             '[00:24] The Long Way to a Small, Angry Planet - Becky Chambers.epub (text/part0000.html) - 00:24',
             'Sissix (<<00:24|2>>): ok ok
 (<<00:27|2>>): HOLY SHIT
-',
+Ashby (<<00:27|2>>): shh, i could hear you yell through the wall',
           ],
           [
             1,
             '[00:27] The Long Way to a Small, Angry Planet - Becky Chambers.epub (text/part0000.html) - 00:27',
-            '
+            '(<<00:27|2>>): HOLY SHIT
 Ashby (<<00:27|2>>): shh, i could hear you yell through the wall
-',
+Sissix (<<00:27|2>>): ashby',
           ],
           [
             1,
             '[00:27] The Long Way to a Small, Angry Planet - Becky Chambers.epub (text/part0000.html) - 00:27',
-            '
+            'Ashby (<<00:27|2>>): shh, i could hear you yell through the wall
 Sissix (<<00:27|2>>): ashby
 (<<00:27|2>>): this',
           ],
@@ -203,9 +203,9 @@ Sissix (<<00:27|2>>): ashby
           [
             1,
             '[00:28] The Long Way to a Small, Angry Planet - Becky Chambers.epub (text/part0000.html) - 00:28',
-            '(<<00:28|2>>): holy shit
+            "(<<00:28|2>>): holy shit
 (<<00:28|2>>): we just won the jackpot
-',
+Ashby (<<00:28|2>>): sis, if you don\x{2019}t stop making noise in there, i\x{2019}m going to space you",
           ],
           [
             1,
@@ -215,9 +215,9 @@ Sissix (<<00:27|2>>): ashby
           [
             1,
             '[00:28] The Long Way to a Small, Angry Planet - Becky Chambers.epub (text/part0000.html) - 00:28',
-            '
+            "Ashby (<<00:28|2>>): sis, if you don\x{2019}t stop making noise in there, i\x{2019}m going to space you
 Sissix (<<00:28|2>>): how are you NOT making noise
-(<<00:28|2>>): are you seeing how much money this is',
+(<<00:28|2>>): are you seeing how much money this is",
           ],
           [
             1,
@@ -252,12 +252,12 @@ Sissix (<<00:28|2>>): how are you NOT making noise
             '[00:29] The Long Way to a Small, Angry Planet - Becky Chambers.epub (text/part0000.html) - 00:29',
             '(<<00:29|2>>): and this would be just profit
 (<<00:30|2>>): pure profit, no expenses
-',
+Ashby (<<00:30|2>>): i know',
           ],
           [
             1,
             '[00:30] The Long Way to a Small, Angry Planet - Becky Chambers.epub (text/part0000.html) - 00:30',
-            "
+            "(<<00:30|2>>): pure profit, no expenses
 Ashby (<<00:30|2>>): i know
 (<<00:30|2>>): i still can\x{2019}t wrap my head around it",
           ],
@@ -266,14 +266,14 @@ Ashby (<<00:30|2>>): i know
             '[00:30] The Long Way to a Small, Angry Planet - Becky Chambers.epub (text/part0000.html) - 00:30',
             "Ashby (<<00:30|2>>): i know
 (<<00:30|2>>): i still can\x{2019}t wrap my head around it
-",
+Sissix (<<00:30|2>>): we could get a new bore for this, easy",
           ],
           [
             1,
             '[00:30] The Long Way to a Small, Angry Planet - Becky Chambers.epub (text/part0000.html) - 00:30',
-            '
+            "(<<00:30|2>>): i still can\x{2019}t wrap my head around it
 Sissix (<<00:30|2>>): we could get a new bore for this, easy
-(<<00:31|2>>): and all sorts of new tech',
+(<<00:31|2>>): and all sorts of new tech",
           ],
           [
             1,
@@ -308,12 +308,12 @@ Sissix (<<00:30|2>>): we could get a new bore for this, easy
             '[00:32] The Long Way to a Small, Angry Planet - Becky Chambers.epub (text/part0000.html) - 00:32',
             '(<<00:32|2>>): and not to be pushy, but your crew could get a bonus
 (<<00:32|2>>): for example
-',
+Ashby (<<00:32|2>>): yes',
           ],
           [
             1,
             '[00:32] The Long Way to a Small, Angry Planet - Becky Chambers.epub (text/part0000.html) - 00:32',
-            "
+            "(<<00:32|2>>): for example
 Ashby (<<00:32|2>>): yes
 (<<00:33|2>>): it\x{2019}s incredible, i know",
           ],
@@ -334,14 +334,14 @@ Ashby (<<00:32|2>>): yes
           [
             1,
             '[00:33] The Long Way to a Small, Angry Planet - Becky Chambers.epub (text/part0000.html) - 00:33',
-            '(<<00:33|2>>): but we need to be smart about this
+            "(<<00:33|2>>): but we need to be smart about this
 (<<00:33|2>>): this is one hell of a haul
-',
+Sissix (<<00:34|2>>): we\x{2019}re used to long hauls between jobs",
           ],
           [
             1,
-            '[00:34] The Long Way to a Small, Angry Planet - Becky Chambers.epub (text/part0000.html) - 00:34',
-            "
+            '[00:33] The Long Way to a Small, Angry Planet - Becky Chambers.epub (text/part0000.html) - 00:33',
+            "(<<00:33|2>>): this is one hell of a haul
 Sissix (<<00:34|2>>): we\x{2019}re used to long hauls between jobs
 (<<00:34|2>>): we\x{2019}ll be okay",
           ],
@@ -350,7 +350,7 @@ Sissix (<<00:34|2>>): we\x{2019}re used to long hauls between jobs
             '[00:34] The Long Way to a Small, Angry Planet - Becky Chambers.epub (text/part0000.html) - 00:34',
             "Sissix (<<00:34|2>>): we\x{2019}re used to long hauls between jobs
 (<<00:34|2>>): we\x{2019}ll be okay
-",
+Ashby (<<00:34|2>>): this is the better part of a standard we\x{2019}re talking about",
           ],
           [
             1,
@@ -369,22 +369,22 @@ Sissix (<<00:34|2>>): we\x{2019}re used to long hauls between jobs
           ],
           [
             1,
-            '[00:36] The Long Way to a Small, Angry Planet - Becky Chambers.epub (text/part0000.html) - 00:36',
-            '
+            '[00:35] The Long Way to a Small, Angry Planet - Becky Chambers.epub (text/part0000.html) - 00:35',
+            "Sissix (<<00:35|2>>): it\x{2019}s not like we won\x{2019}t dock when we can. i can plot us a nice smart course that gives us plenty of market stops and places to put our feet on the ground
 Ashby (<<00:36|2>>): i know
-',
+Sissix (<<00:36|2>>): but?",
           ],
           [
             1,
             '[00:36] The Long Way to a Small, Angry Planet - Becky Chambers.epub (text/part0000.html) - 00:36',
-            '
+            "Ashby (<<00:36|2>>): i know
 Sissix (<<00:36|2>>): but?
-',
+Ashby (<<00:36|2>>): it\x{2019}s toremi space",
           ],
           [
             1,
             '[00:36] The Long Way to a Small, Angry Planet - Becky Chambers.epub (text/part0000.html) - 00:36',
-            "
+            "Sissix (<<00:36|2>>): but?
 Ashby (<<00:36|2>>): it\x{2019}s toremi space
 (<<00:36|2>>): those people have been at war forever",
           ],
@@ -400,12 +400,12 @@ Ashby (<<00:36|2>>): it\x{2019}s toremi space
             '[00:36] The Long Way to a Small, Angry Planet - Becky Chambers.epub (text/part0000.html) - 00:36',
             "(<<00:36|2>>): those people have been at war forever
 (<<00:37|2>>): and i don\x{2019}t know anything about them
-",
+Sissix (<<00:37|2>>): ashby, the GC wouldn\x{2019}t send us in if it wasn\x{2019}t safe",
           ],
           [
             1,
             '[00:37] The Long Way to a Small, Angry Planet - Becky Chambers.epub (text/part0000.html) - 00:37',
-            "
+            "(<<00:37|2>>): and i don\x{2019}t know anything about them
 Sissix (<<00:37|2>>): ashby, the GC wouldn\x{2019}t send us in if it wasn\x{2019}t safe
 (<<00:38|2>>): we\x{2019}re an unarmed tunneling ship, no one will be concerned with us",
           ],
@@ -453,19 +453,19 @@ Sissix (<<00:37|2>>): ashby, the GC wouldn\x{2019}t send us in if it wasn\x{2019
             '[00:41] The Long Way to a Small, Angry Planet - Becky Chambers.epub (text/part0000.html) - 00:41',
             '(<<00:41|2>>): oh
 (<<00:41|2>>): wait
-',
+Sissix (<<00:41|2>>): what',
           ],
           [
             1,
             '[00:41] The Long Way to a Small, Angry Planet - Becky Chambers.epub (text/part0000.html) - 00:41',
-            '
+            '(<<00:41|2>>): wait
 Sissix (<<00:41|2>>): what
-',
+Ashby (<<00:42|2>>): rosemary',
           ],
           [
             1,
-            '[00:42] The Long Way to a Small, Angry Planet - Becky Chambers.epub (text/part0000.html) - 00:42',
-            "
+            '[00:41] The Long Way to a Small, Angry Planet - Becky Chambers.epub (text/part0000.html) - 00:41',
+            "Sissix (<<00:41|2>>): what
 Ashby (<<00:42|2>>): rosemary
 (<<00:42|2>>): i hadn\x{2019}t even thought of her",
           ],
@@ -481,19 +481,19 @@ Ashby (<<00:42|2>>): rosemary
             '[00:42] The Long Way to a Small, Angry Planet - Becky Chambers.epub (text/part0000.html) - 00:42',
             "(<<00:42|2>>): i hadn\x{2019}t even thought of her
 (<<00:43|2>>): do you think she\x{2019}s up for this?
-",
+Sissix (<<00:43|2>>): in terms of job or psyche?",
           ],
           [
             1,
             '[00:43] The Long Way to a Small, Angry Planet - Becky Chambers.epub (text/part0000.html) - 00:43',
-            '
+            "(<<00:43|2>>): do you think she\x{2019}s up for this?
 Sissix (<<00:43|2>>): in terms of job or psyche?
-',
+Ashby (<<00:43|2>>): both",
           ],
           [
             1,
             '[00:43] The Long Way to a Small, Angry Planet - Becky Chambers.epub (text/part0000.html) - 00:43',
-            "
+            "Sissix (<<00:43|2>>): in terms of job or psyche?
 Ashby (<<00:43|2>>): both
 (<<00:44|2>>): a standard\x{2019}s a lot to ask even for spacers like us",
           ],
@@ -509,7 +509,7 @@ Ashby (<<00:43|2>>): both
             '[00:44] The Long Way to a Small, Angry Planet - Becky Chambers.epub (text/part0000.html) - 00:44',
             "(<<00:44|2>>): a standard\x{2019}s a lot to ask even for spacers like us
 (<<00:44|2>>): this is all new to her
-",
+Sissix (<<00:45|2>>): well, as far as the job goes, she\x{2019}s got plenty of time to get her claws sharp",
           ],
           [
             1,
@@ -554,15 +554,15 @@ Ashby (<<00:43|2>>): both
           ],
           [
             1,
-            '[00:48] The Long Way to a Small, Angry Planet - Becky Chambers.epub (text/part0000.html) - 00:48',
-            '
+            '[00:47] The Long Way to a Small, Angry Planet - Becky Chambers.epub (text/part0000.html) - 00:47',
+            "(<<00:47|2>>): so even if she\x{2019}s useless the rest of the way, at least she did that much
 Ashby (<<00:48|2>>): ouch
-',
+Sissix (<<00:48|2>>): i\x{2019}m kidding",
           ],
           [
             1,
             '[00:48] The Long Way to a Small, Angry Planet - Becky Chambers.epub (text/part0000.html) - 00:48',
-            "
+            "Ashby (<<00:48|2>>): ouch
 Sissix (<<00:48|2>>): i\x{2019}m kidding
 (<<00:48|2>>): kind of",
           ],
@@ -571,12 +571,12 @@ Sissix (<<00:48|2>>): i\x{2019}m kidding
             '[00:48] The Long Way to a Small, Angry Planet - Becky Chambers.epub (text/part0000.html) - 00:48',
             "Sissix (<<00:48|2>>): i\x{2019}m kidding
 (<<00:48|2>>): kind of
-",
+Ashby (<<00:49|2>>): it\x{2019}s so much money",
           ],
           [
             1,
-            '[00:49] The Long Way to a Small, Angry Planet - Becky Chambers.epub (text/part0000.html) - 00:49',
-            "
+            '[00:48] The Long Way to a Small, Angry Planet - Becky Chambers.epub (text/part0000.html) - 00:48',
+            "(<<00:48|2>>): kind of
 Ashby (<<00:49|2>>): it\x{2019}s so much money
 (<<00:49|2>>): we could do so much with this",
           ],
@@ -592,12 +592,12 @@ Ashby (<<00:49|2>>): it\x{2019}s so much money
             '[00:49] The Long Way to a Small, Angry Planet - Becky Chambers.epub (text/part0000.html) - 00:49',
             '(<<00:49|2>>): we could do so much with this
 (<<00:50|2>>): and what a project
-',
+Sissix (<<00:50|2>>): like i said',
           ],
           [
             1,
             '[00:50] The Long Way to a Small, Angry Planet - Becky Chambers.epub (text/part0000.html) - 00:50',
-            '
+            '(<<00:50|2>>): and what a project
 Sissix (<<00:50|2>>): like i said
 (<<00:50|2>>): jackpot',
           ],
@@ -634,14 +634,14 @@ Sissix (<<00:50|2>>): like i said
             '[00:51] The Long Way to a Small, Angry Planet - Becky Chambers.epub (text/part0000.html) - 00:51',
             "(<<00:51|2>>): trust me
 (<<00:51|2>>): you\x{2019}ve earned this
-",
+Ashby (<<00:52|2>>): thank you, sis",
           ],
           [
             1,
-            '[00:52] The Long Way to a Small, Angry Planet - Becky Chambers.epub (text/part0000.html) - 00:52',
-            '
+            '[00:51] The Long Way to a Small, Angry Planet - Becky Chambers.epub (text/part0000.html) - 00:51',
+            "(<<00:51|2>>): you\x{2019}ve earned this
 Ashby (<<00:52|2>>): thank you, sis
-(<<00:52|2>>): sorry for waking you, i just needed to pick your brain',
+(<<00:52|2>>): sorry for waking you, i just needed to pick your brain",
           ],
           [
             1,
@@ -657,29 +657,29 @@ Ashby (<<00:52|2>>): thank you, sis
           ],
           [
             1,
-            '[00:53] The Long Way to a Small, Angry Planet - Becky Chambers.epub (text/part0000.html) - 00:53',
-            "
+            '[00:52] The Long Way to a Small, Angry Planet - Becky Chambers.epub (text/part0000.html) - 00:52',
+            "(<<00:52|2>>): i\x{2019}ll need to discuss it with the crew before i decide anything
 Sissix (<<00:53|2>>): so let\x{2019}s discuss it with them
-",
+Ashby (<<00:53|2>>): no sis wait",
           ],
           [
             1,
             '[00:53] The Long Way to a Small, Angry Planet - Becky Chambers.epub (text/part0000.html) - 00:53',
-            '
+            "Sissix (<<00:53|2>>): so let\x{2019}s discuss it with them
 Ashby (<<00:53|2>>): no sis wait
-',
+Throughout the ship, the voxes snapped to life. \x{201c}EVERYBODY, WAKE UP! BIG NEWS! CREW MEETING! REC ROOM IN FIVE!\x{201d}",
           ],
           [
             1,
             '[00:54] The Long Way to a Small, Angry Planet - Becky Chambers.epub (text/part0000.html) - 00:54',
-            "
+            "Throughout the ship, the voxes snapped to life. \x{201c}EVERYBODY, WAKE UP! BIG NEWS! CREW MEETING! REC ROOM IN FIVE!\x{201d}
 Ashby (<<00:54|2>>): i\x{2019}m going to space you, sissix
-",
+Sissix (<<00:55|2>>): you love me",
           ],
           [
             1,
-            '[00:55] The Long Way to a Small, Angry Planet - Becky Chambers.epub (text/part0000.html) - 00:55',
-            "
+            '[00:54] The Long Way to a Small, Angry Planet - Becky Chambers.epub (text/part0000.html) - 00:54',
+            "Ashby (<<00:54|2>>): i\x{2019}m going to space you, sissix
 Sissix (<<00:55|2>>): you love me
 \x{25cf}",
           ],

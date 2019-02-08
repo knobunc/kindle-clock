@@ -77,10 +77,8 @@ $VAR1 = [
           [
             1,
             '[ap ~ 06:00] Harry Potter and the Prisoner of Azkaban - J. K. Rowling.epub (index_split_016.html) - round six',
-            "Dear
-Harry and Ron,
-How about having tea with me this afternoon
-\x{2019}<<round six|9:0>>?
+            "Dear Harry and Ron,
+How about having tea with me this afternoon \x{2019}<<round six|9:0>>?
 I\x{2019}ll come and collect you from the castle.",
           ],
           [
@@ -91,26 +89,20 @@ I\x{2019}ll come and collect you from the castle.",
           [
             1,
             "[ap 09:00] Harry Potter and the Prisoner of Azkaban - J. K. Rowling.epub (index_split_016.html) - nine o\x{2019}clock",
-            "They spent\x{a0} the\x{a0} rest\x{a0} of their\x{a0} visit\x{a0} discussing\x{a0} Gryffindor\x{2019}s improved chances for the Quidditch Cup. At <<nine o\x{2019}clock|6>>, Hagrid walked them back up to the castle.",
+            "They spent the rest of their visit discussing Gryffindor\x{2019}s improved chances for the Quidditch Cup. At <<nine o\x{2019}clock|6>>, Hagrid walked them back up to the castle.",
           ],
           [
             1,
-            "[ap 09:00] Harry Potter and the Prisoner of Azkaban - J. K. Rowling.epub (index_split_018.html) - 9
-o\x{2019}clock",
+            "[ap 09:00] Harry Potter and the Prisoner of Azkaban - J. K. Rowling.epub (index_split_018.html) - 9 o\x{2019}clock",
             "Monday
-<<9
-o\x{2019}clock|6>>, Arithmancy
-<<9
-o\x{2019}clock|6>>, Transfiguration",
+<<9 o\x{2019}clock|6>>, Arithmancy
+<<9 o\x{2019}clock|6>>, Transfiguration",
           ],
           [
             1,
-            "[ap 09:00] Harry Potter and the Prisoner of Azkaban - J. K. Rowling.epub (index_split_018.html) - 9
-o\x{2019}clock",
-            "<<9
-o\x{2019}clock|6>>, Arithmancy
-<<9
-o\x{2019}clock|6>>, Transfiguration
+            "[ap 09:00] Harry Potter and the Prisoner of Azkaban - J. K. Rowling.epub (index_split_018.html) - 9 o\x{2019}clock",
+            "<<9 o\x{2019}clock|6>>, Arithmancy
+<<9 o\x{2019}clock|6>>, Transfiguration
 Lunch",
           ],
           [
@@ -118,17 +110,13 @@ Lunch",
             "[ap 01:00] Harry Potter and the Prisoner of Azkaban - J. K. Rowling.epub (index_split_018.html) - 1 o\x{2019}clock",
             "Lunch
 <<1 o\x{2019}clock|6>>, Charms
-<<1
-o\x{2019}clock|6>>,\x{a0} Ancient
-Runes",
+<<1 o\x{2019}clock|6>>, Ancient Runes",
           ],
           [
             1,
             "[ap 01:00] Harry Potter and the Prisoner of Azkaban - J. K. Rowling.epub (index_split_018.html) - 1 o\x{2019}clock",
             "<<1 o\x{2019}clock|6>>, Charms
-<<1
-o\x{2019}clock|6>>,\x{a0} Ancient
-Runes
+<<1 o\x{2019}clock|6>>, Ancient Runes
 \x{201c}Hermione?\x{201d} Ron said cautiously, because she was liable to explode when interrupted these days. \x{201c}Er \x{2014} are you sure you\x{2019}ve copied down these times right?\x{201d}",
           ],
           [

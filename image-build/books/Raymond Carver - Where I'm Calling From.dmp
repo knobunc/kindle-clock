@@ -22,14 +22,14 @@ $VAR1 = [
           [
             1,
             '[ap ~ 07:00] Where I\'m Calling From_ New and Selected S - Raymond Carver.epub (OEBPS/ch0-p1.xhtml) - Around seven',
-            '
-"<<Around seven|9:0>>."
-',
+            '"What time?"
+"<<Around seven|9:1>>."
+"It\'s all right," he said.',
           ],
           [
             1,
             '[ap 08:30] Where I\'m Calling From_ New and Selected S - Raymond Carver.epub (OEBPS/ch0-p1.xhtml) - half past eight',
-            'Bill took a deep breath as he entered the Stones\' apartment. The air was already heavy and it was vaguely sweet. The sunburst clock over the television said <<half past eight|10>>. He remembered when Harriet  had come home with the clock, how she had crossed the hall to show it to Arlene, cradling the brass case in her arms and talking to it through the tissue paper as if it were an infant.',
+            'Bill took a deep breath as he entered the Stones\' apartment. The air was already heavy and it was vaguely sweet. The sunburst clock over the television said <<half past eight|10>>. He remembered when Harriet had come home with the clock, how she had crossed the hall to show it to Arlene, cradling the brass case in her arms and talking to it through the tissue paper as if it were an infant.',
           ],
           [
             1,
@@ -39,7 +39,7 @@ $VAR1 = [
           [
             1,
             '[ap < 04:00] Where I\'m Calling From_ New and Selected S - Raymond Carver.epub (OEBPS/ch0-p1.xhtml) - nearly four o\'clock',
-            'Mrs Morgan began. "One afternoon in Munich, Edgar and I went to the Dortmunder Museum. There was a Bauhaus exhibit that fall, and Edgar said the heck with it, let\'s take a day off--he was doing his research, you see--the heck with it, let\'s take a day off. We caught a tram and rode across Munich to the museum. We spent several hours viewing the exhibit and revisiting some of the galleries to pay homage to a few of our favorites amongst the old masters. Just as we were to leave, I stepped into the ladies\' room. I left my purse. In the purse was Edgar\'s monthly check from home that had come the day before and a hundred and twenty dollars cash that I was going to deposit along with the check. I also had my identification cards in the purse. I did not miss my purse until we arrived home. Edgar immediately telephoned the museum authorities. But while he was talking I saw a taxi out front. A well-dressed woman with white hair got out. She was a stout woman and she was carrying two purses. I called for Edgar and went to the door. The woman introduced herself as Mrs Attenborough, gave me my purse, and explained that she too had visited the museum that afternoon and while in the ladies\' room had noticed a purse in the trash can. She of course had opened the purse in an effort to trace the owner. There were the identification cards and such giving our local address. She immediately left the museum and took a taxi in order to deliver the purse herself. Edgar\'s check was there, but the money, the one hundred twenty dollars, was gone. Nevertheless, I was grateful the other things were intact. It was <<nearly four o\'clock|6>> and we asked the woman to stay for tea. She sat down, and after a little while she began to tell us about herself. She had been born and reared in Australia, had married young, had had three children, all sons, been widowed, and still lived in Australia with two of her sons. They raised sheep and had more than twenty thousand acres of land for the sheep to run in, and many drovers and shearers and such who worked for them at certain times of the year. When she came to our home in Munich, she was then on her way to Australia from England, where she had been to visit her youngest son, who was a barrister.  She was returning to Australia when we met her," Mrs Morgan said. "She was seeing some of the world in the process. She had many places yet to visit on her itinerary."',
+            'Mrs Morgan began. "One afternoon in Munich, Edgar and I went to the Dortmunder Museum. There was a Bauhaus exhibit that fall, and Edgar said the heck with it, let\'s take a day off--he was doing his research, you see--the heck with it, let\'s take a day off. We caught a tram and rode across Munich to the museum. We spent several hours viewing the exhibit and revisiting some of the galleries to pay homage to a few of our favorites amongst the old masters. Just as we were to leave, I stepped into the ladies\' room. I left my purse. In the purse was Edgar\'s monthly check from home that had come the day before and a hundred and twenty dollars cash that I was going to deposit along with the check. I also had my identification cards in the purse. I did not miss my purse until we arrived home. Edgar immediately telephoned the museum authorities. But while he was talking I saw a taxi out front. A well-dressed woman with white hair got out. She was a stout woman and she was carrying two purses. I called for Edgar and went to the door. The woman introduced herself as Mrs Attenborough, gave me my purse, and explained that she too had visited the museum that afternoon and while in the ladies\' room had noticed a purse in the trash can. She of course had opened the purse in an effort to trace the owner. There were the identification cards and such giving our local address. She immediately left the museum and took a taxi in order to deliver the purse herself. Edgar\'s check was there, but the money, the one hundred twenty dollars, was gone. Nevertheless, I was grateful the other things were intact. It was <<nearly four o\'clock|6>> and we asked the woman to stay for tea. She sat down, and after a little while she began to tell us about herself. She had been born and reared in Australia, had married young, had had three children, all sons, been widowed, and still lived in Australia with two of her sons. They raised sheep and had more than twenty thousand acres of land for the sheep to run in, and many drovers and shearers and such who worked for them at certain times of the year. When she came to our home in Munich, she was then on her way to Australia from England, where she had been to visit her youngest son, who was a barrister. She was returning to Australia when we met her," Mrs Morgan said. "She was seeing some of the world in the process. She had many places yet to visit on her itinerary."',
           ],
           [
             1,
@@ -59,9 +59,9 @@ $VAR1 = [
           [
             1,
             '[ap > 09:00] Where I\'m Calling From_ New and Selected S - Raymond Carver.epub (OEBPS/ch0-p1.xhtml) - after nine',
-            '
+            'Inside he makes a large drink and he turns the TV on and he fixes something to eat. He sits at the table with chili and crackers and watches something about a blind detective. He clears the table. He washes the pan and the bowl, dries these things and puts them away, then allows himself a look at the clock.
 It\'s <<after nine|9f>>. She\'s been gone nearly five hours.
-',
+He pours Scotch, adds water, carries the drink to the living room. He sits on the couch but finds his shoulders so stiff they won\'t let him lean back. He stares at the screen and sips, and soon he goes for another drink. He sits again. A news program begins--it\'s <<ten o\'clock|6>>--and he says, "God, what in God\'s name has gone wrong?" and goes to the kitchen to return with more Scotch. He sits, he closes his eyes, and opens them when he hears the telephone ringing.',
           ],
           [
             1,
@@ -131,7 +131,7 @@ It\'s <<after nine|9f>>. She\'s been gone nearly five hours.
           [
             1,
             '[13:00] Where I\'m Calling From_ New and Selected S - Raymond Carver.epub (OEBPS/ch0-p1.xhtml) - one o\'clock in the afternoon',
-            'That night, after they had cooked their fish and potatoes and had more coffee and whiskey, they took their dishes down to the river and rinsed them off a few yards from where the body lay in the water. They drank again and then they took out their cards and played and drank until they couldn\'t see the cards any longer. Vern Williams went to sleep, but the others told coarse stories and spoke of vulgar or dishonest escapades out of their past, and no one mentioned the girl until Gordon Johnson, who\'d  forgotten for a minute, commented on the firmness of the trout they\'d caught, and the terrible coldness of the river water. They stopped talking then but continued to drink until one of them tripped and fell cursing against the lantern, and then they climbed into their sleeping bags. The next morning they got up late, drank more whiskey, fished a little as they kept drinking whiskey. Then, at <<one o\'clock in the afternoon|6>>, Sunday, a day earlier than they\'d planned, they decided to leave. They took down their tents, rolled their sleeping bags, gathered their pans, pots, fish, and fishing gear, and hiked out. They didn\'t look at the girl again before they left. When they reached the car they drove the highway in silence until they came to a telephone. Stuart made the call to the sheriff\'s',
+            'That night, after they had cooked their fish and potatoes and had more coffee and whiskey, they took their dishes down to the river and rinsed them off a few yards from where the body lay in the water. They drank again and then they took out their cards and played and drank until they couldn\'t see the cards any longer. Vern Williams went to sleep, but the others told coarse stories and spoke of vulgar or dishonest escapades out of their past, and no one mentioned the girl until Gordon Johnson, who\'d forgotten for a minute, commented on the firmness of the trout they\'d caught, and the terrible coldness of the river water. They stopped talking then but continued to drink until one of them tripped and fell cursing against the lantern, and then they climbed into their sleeping bags. The next morning they got up late, drank more whiskey, fished a little as they kept drinking whiskey. Then, at <<one o\'clock in the afternoon|6>>, Sunday, a day earlier than they\'d planned, they decided to leave. They took down their tents, rolled their sleeping bags, gathered their pans, pots, fish, and fishing gear, and hiked out. They didn\'t look at the girl again before they left. When they reached the car they drove the highway in silence until they came to a telephone. Stuart made the call to the sheriff\'s',
           ],
           [
             1,
@@ -146,7 +146,7 @@ It\'s <<after nine|9f>>. She\'s been gone nearly five hours.
           [
             1,
             '[ap 04:00] Where I\'m Calling From_ New and Selected S - Raymond Carver.epub (OEBPS/ch0-p1.xhtml) - four o\'clock',
-            'when she thinks about the future. Once, during a particularly bad argument, over what she can\'t now remember, five years or so after they were married, he tells her that someday this affair (his words: "this affair") will end in violence. She remembers this. She files this away somewhere and begins repeating it aloud from time to time. Sometimes she spends the whole morning on her knees in the sandbox behind the garage playing with Dean and one or two of his friends. But every afternoon at <<four o\'clock|6>> her head begins to hurt. She holds her forehead and feels dizzy with the pain. Stuart asks her to see a doctor and she does, secretly pleased at the doctor\'s solicitous attention. She goes away for a while to a place the doctor recommends. Stuart\'s mother comes out from Ohio in a hurry to care for the child. But she,  Claire, spoils everything and returns home in a few weeks. His mother moves out of the house and takes an apartment across town and perches there, as if waiting. One night in bed when they are both near sleep, Claire tells him that she heard some women patients at the clinic discussing fellatio. She thinks this is something he might like to hear. Stuart is pleased at hearing this. He strokes her arm. Things are going to be okay, he says. From now on everything is going to be different and better for them. He has received a promotion and a substantial raise. They\'ve even bought another car, a station wagon, her car. They\'re going to live in the here and now. He says he feels able to relax for the first time in years. In the dark, he goes on stroking her arm.... He continues to bowl and play cards regularly. He goes fishing with three friends of his.',
+            'when she thinks about the future. Once, during a particularly bad argument, over what she can\'t now remember, five years or so after they were married, he tells her that someday this affair (his words: "this affair") will end in violence. She remembers this. She files this away somewhere and begins repeating it aloud from time to time. Sometimes she spends the whole morning on her knees in the sandbox behind the garage playing with Dean and one or two of his friends. But every afternoon at <<four o\'clock|6>> her head begins to hurt. She holds her forehead and feels dizzy with the pain. Stuart asks her to see a doctor and she does, secretly pleased at the doctor\'s solicitous attention. She goes away for a while to a place the doctor recommends. Stuart\'s mother comes out from Ohio in a hurry to care for the child. But she, Claire, spoils everything and returns home in a few weeks. His mother moves out of the house and takes an apartment across town and perches there, as if waiting. One night in bed when they are both near sleep, Claire tells him that she heard some women patients at the clinic discussing fellatio. She thinks this is something he might like to hear. Stuart is pleased at hearing this. He strokes her arm. Things are going to be okay, he says. From now on everything is going to be different and better for them. He has received a promotion and a substantial raise. They\'ve even bought another car, a station wagon, her car. They\'re going to live in the here and now. He says he feels able to relax for the first time in years. In the dark, he goes on stroking her arm.... He continues to bowl and play cards regularly. He goes fishing with three friends of his.',
           ],
           [
             1,
@@ -226,9 +226,9 @@ It\'s <<after nine|9f>>. She\'s been gone nearly five hours.
           [
             1,
             '[07:00] Where I\'m Calling From_ New and Selected S - Raymond Carver.epub (OEBPS/ch0-p1.xhtml) - Seven o\'clock in the morning',
-            '
+            'Carlyle nodded.
 "<<Seven o\'clock in the morning|6>>?" she asked.
-',
+"That will be fine," he said. "And thank you again."',
           ],
           [
             1,
@@ -252,17 +252,17 @@ It\'s <<after nine|9f>>. She\'s been gone nearly five hours.
           ],
           [
             1,
-            '[ap > 09:30] Where I\'m Calling From_ New and Selected S - Raymond Carver.epub (OEBPS/ch0-p1.xhtml) - a little after nine-thirty',
-            '
+            '[ap 08:30] Where I\'m Calling From_ New and Selected S - Raymond Carver.epub (OEBPS/ch0-p1.xhtml) - eight-thirty',
+            'He opened his eyes. "I\'m awake," he said. "I\'m sorry." He sat up a little. "I\'m too warm, that\'s all. What time is it? Is it <<eight-thirty|5k:1>> yet?"
 "It\'s <<a little after nine-thirty|9j>>," she said.
-',
+"<<Nine-thirty|9j>>," he said.',
           ],
           [
             1,
-            '[ap 09:30] Where I\'m Calling From_ New and Selected S - Raymond Carver.epub (OEBPS/ch0-p1.xhtml) - Nine-thirty',
-            '
+            '[ap > 09:30] Where I\'m Calling From_ New and Selected S - Raymond Carver.epub (OEBPS/ch0-p1.xhtml) - a little after nine-thirty',
+            '"It\'s <<a little after nine-thirty|9j>>," she said.
 "<<Nine-thirty|9j>>," he said.
-',
+"Now I\'m going to feed this cereal to you. And you\'re going to open up and eat it. Six bites, that\'s all. Here, here\'s the first bite. Open," she said. "You\'re going to feel better after you eat this. Then I\'ll let you go back to sleep. You eat this, and then you can sleep all you want."',
           ],
           [
             1,
@@ -377,7 +377,7 @@ It\'s <<after nine|9f>>. She\'s been gone nearly five hours.
           [
             1,
             '[ap 03:00] Where I\'m Calling From_ New and Selected S - Raymond Carver.epub (OEBPS/ch0-p1.xhtml) - three',
-            'Still, isn\'t it possible that Oliver himself is awake at this moment and writing a letter to Amanda, urging reconciliation? Even now he might be scribbling away, trying to persuade her that what she\'s doing to him and their daughter Beth is foolish, disastrous, and finally a tragic thing for the three of them.  No, that\'s insane. I know Oliver. He\'s relentless, unforgiving. He could slam a croquet ball into the next block--and has. He isn\'t going to write any such letter. He gave her an ultimatum, right?--and that\'s that. A week. Four days now. Or is it <<three|9f>>? Oliver may be awake, but if he is, he\'s sitting in a chair in his hotel room with a glass of iced vodka in his hand, his feet on the bed, TV turned on low. He\'s dressed, except for his shoes. He\'s not wearing shoes--that\'s the only concession he makes. That and the fact he\'s loosened his tie.',
+            'Still, isn\'t it possible that Oliver himself is awake at this moment and writing a letter to Amanda, urging reconciliation? Even now he might be scribbling away, trying to persuade her that what she\'s doing to him and their daughter Beth is foolish, disastrous, and finally a tragic thing for the three of them. No, that\'s insane. I know Oliver. He\'s relentless, unforgiving. He could slam a croquet ball into the next block--and has. He isn\'t going to write any such letter. He gave her an ultimatum, right?--and that\'s that. A week. Four days now. Or is it <<three|9f>>? Oliver may be awake, but if he is, he\'s sitting in a chair in his hotel room with a glass of iced vodka in his hand, his feet on the bed, TV turned on low. He\'s dressed, except for his shoes. He\'s not wearing shoes--that\'s the only concession he makes. That and the fact he\'s loosened his tie.',
           ],
           [
             1,

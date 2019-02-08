@@ -6,8 +6,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[02:00] The Executioner\'s Song - Norman Mailer.epub (index_split_006.html) - 2 A.M.',
-            "
+            '[> 00:00] The Executioner\'s Song - Norman Mailer.epub (index_split_006.html) - After midnight',
+            "Even the children were excited, and Brenda certainly couldn\x{2019}t sleep. <<After midnight|13>>, she and Johnny just waited. Brenda had threatened to kill anybody who called her late \x{2014} she wanted that line to be open.
 \x{201c}I\x{2019}m here,\x{201d} said his voice. It was <<2 A.M.|5>>
 \x{201c}Okay, we\x{2019}re coming to get you.\x{201d}",
           ],
@@ -289,21 +289,21 @@ $VAR1 = [
           [
             1,
             '[ap ~ 07:00] The Executioner\'s Song - Norman Mailer.epub (index_split_022.html) - about seven',
-            'NIELSEN 	At the Holiday? Did you sign in on your own name?
-GILMORE 	Yeah, we stayed there until <<about seven|9c:1>>. I took
-NIELSEN 	<<Seven this morning|5>>?',
+            'NIELSEN At the Holiday? Did you sign in on your own name?
+GILMORE Yeah, we stayed there until <<about seven|9c:1>>. I took
+NIELSEN <<Seven this morning|5>>?',
           ],
           [
             1,
             '[ap ~ 07:00] The Executioner\'s Song - Norman Mailer.epub (index_split_022.html) - about seven',
-            'GILMORE 	Yeah, we stayed there until <<about seven|9c:1>>. I took
-NIELSEN 	<<Seven this morning|5>>?
-GILMORE 	Yeah, then I went to work.',
+            'GILMORE Yeah, we stayed there until <<about seven|9c:1>>. I took
+NIELSEN <<Seven this morning|5>>?
+GILMORE Yeah, then I went to work.',
           ],
           [
             1,
             '[~ 03:30] The Executioner\'s Song - Norman Mailer.epub (index_split_022.html) - Around three-thirty that morning',
-            "
+            "By the time Wootton got home on Wednesday morning, he had about decided to charge Gilmore with First-Degree Murder on the motel case. While the only print on the gun was too smudged to check out, they had the paraffin test and a witness, Peter Arroyo. He had seen Gilmore in the motel with the gun and the cash box. It looked promising to Wootton.
 <<Around three-thirty that morning|5>>, Vai Conlin received a phone call. A
 voice said, \x{201c}This is the police. We have impounded a car of yours.\x{201d} Val was so drowsy, he said, \x{201c}Well, okay, fine.\x{201d}",
           ],
@@ -352,8 +352,8 @@ voice said, \x{201c}This is the police. We have impounded a car of yours.\x{201d
           [
             1,
             '[ap 04:30] The Executioner\'s Song - Norman Mailer.epub (index_split_022.html) - 4:30',
-            "
-APRIL 	<<4:30|2>> or <<5|20a>>:oo.
+            "NIELSEN What time did you get home?
+APRIL <<4:30|2>> or <<5|20a>>:oo.
 NIELSEN Don\x{2019}t you worry about your room worrying about you? APRIL I don\x{2019}t think she worries about me. I\x{2019}m not afraid of no and I am not afraid of no dudes with knives. They don\x{2019}t scare have learned self-defense.",
           ],
           [
@@ -670,9 +670,9 @@ GARY GILMORE UTAH STATE PRISON",
           [
             1,
             '[16:31] The Executioner\'s Song - Norman Mailer.epub (index_split_059.html) - 4:31 P.M.',
-            '
+            "\x{201c}It makes it much more difficult. He believes. \x{201c}But he feels that he is going there (to the here after) without the proper credentials\x{2014}and he is scared.\x{201d}
 JAN 5 <<4:31 P.M.|2a>>
-GARY GILMORE UTAH STATE PRISON',
+GARY GILMORE UTAH STATE PRISON",
           ],
           [
             1,
@@ -734,7 +734,7 @@ GARY GILMORE UTAH STATE PRISON',
             '[02:00] The Executioner\'s Song - Norman Mailer.epub (index_split_066.html) - 2:00 A.M',
             "Father Meersman thought it was a beautiful night and very good. Gary had blessed himself at the beginning of the Mass, and then had listened in a subdued way. Now that it was all over, he kidded Father Meersman. \x{201c}Padre,\x{201d} he said, \x{201c}I don\x{2019}t think the wine was as strong as it could have been.\x{201d}
 Sunday, <<2:00 A.M|2a>>
-",
+Hi Elf",
           ],
           [
             1,
@@ -789,7 +789,7 @@ Sunday, <<2:00 A.M|2a>>
           [
             1,
             '[ap 05:50] The Executioner\'s Song - Norman Mailer.epub (index_split_068.html) - ten of six',
-            "
+            "This Sunday, however, was different. It was, of all coincidences, her own birthday, and Howard\x{2019}s family was coming for supper. So all the while that Toni had been planning her visit to the prison on this: last evening, she also had been cooking the meal for the evenin party, and worrying how she could visit Gary early enough so she could get back by seven for Howard\x{2019}s folks.
 It was <<ten of six|10>> before they even let her into the visiting
 and then she had to wait twenty minutes with the other guests. When they opened the door for Gary, he saw her first and put arms around her and gave a hug as if he were cracking all the ice winter with one squeeze, held her so hard and long, she didn\x{2019}t he would ever let go. Her mother was right with her, and said, \x{201c}Now; it\x{2019}s my turn.\x{201d} So Gary released Toni with one arm, and hugged but he never let go completely. In fact as soon as Ida stepped he lifted Toni till her feet came offdae floor, and gave her kiss on the lips. He was still holding her fifteen minutes later she absolutely had to leave.",
           ],
@@ -861,7 +861,7 @@ and then she had to wait twenty minutes with the other guests. When they opened 
           [
             1,
             '[ap 07:49] The Executioner\'s Song - Norman Mailer.epub (index_split_070.html) - seven forty-nine',
-            "nothing \x{2014} it\x{2019}s just I like to do things like that,\x{201d} and he stammered a little and said, \x{201c}I sent \x{2018}em each a Gary Gilmore T-shirt, and I asked \x{2018}em to wear it, or whatever, I told \x{2018}em they could wear it with nothing on underneath. A lot of girls write to me and they say different things, and love, they don\x{2019}t know me, if they knew me, they wouldn\x{2019}t love me. They\x{2019}re in love with the motherfucker that\x{2019}s got his name in the paper every day. You know, I flirt with them a little bit, but I always tell them, Ah, look, I got a girl, I didn\x{2019}t mean to fucking mislead your ass, but I got the most terrific girl in the world, she\x{2019}s part of me, nobody but you, Nicole, never, ever, ever \x{2026}. I love you with all that I am, I give you my heart and my soul.\x{201d} He sighed \x{201c}I read things in the paper.., they say this evil son of a bitch with his hypnotic, charismatic, fucking personality talked this girl into suicide \x{2026} whew, whew\x{2026} I\x{2019}m not going to tell you what to think. Like you said, you\x{2019}re on that fucking forensic ward, you\x{2019}re watched by the posse, I think most posses, man, are shooting on you. You got some money. Baby, I took sixty fucking phenobarbital. I laid there for twelve hours. I have this pretty strong body, you know, I haven\x{2019}t ruined it with too much drink and smoking \x{2018}cause I\x{2019}ve been in this ole prison so long. If they do stay my execution, I\x{2019}m going to hang myself, fuck \x{2018}em in their goddamn rosy red asses.\x{201d} He took a breath and began to sing. He had one of the worst singing voices Stanger had ever heard, never on pitch, and Gary had no idea when he was off. When he thought to croon, he groaned. The groans strangled. When he came near a note, he was sour. Still, he began to sing \x{201c}Rock of Ages.\x{201d} \x{201c}While I draw this fleeting breath, when my eyelids close in bed \x{2026} when I soar to worlds unknown, see Thee on my judgment time, rock of ages, let me hide myself in Thee.\x{201d} He stopped singing. \x{201c}Oh, man, I told you I talked to Johnny Cash, goddamn.\x{201d} Gilmore laughed. \x{201c}Johnny Cash knows I\x{2019}m alive, he knows you\x{2019}re alive, he likes us \x{2026}. Oh, Nicole\x{2026} I\x{2019}m not a Charlie Man-son type, I\x{2019}m not swaying you to do this.., if you want to go on living and raise your children, you\x{2019}re a famous girl, you\x{2019}ve got a lot of money and I want to see you get a lot more, too, go ahead, baby, but don\x{2019}t let nobody fuck you.\x{201d} Now, he whispered, \x{201c}Don\x{2019}t let nobody have you. Baby, don\x{2019}t, you\x{2019}re mine. Discipline, restraint-maybe a girl, I don\x{2019}t know, shit \x{2026}. I was supposed to be executed at <<seven forty-nine|5b>> \x{2026}. I got this hymnal in front of me, you\x{2019}re pretty, and you got something about you, baby, that just sticks right out. Well, I know them guys got designs, they\x{2019}re designing mother-GILMORE\x{2019}S LAST TAPE  943p>",
+            "nothing \x{2014} it\x{2019}s just I like to do things like that,\x{201d} and he stammered a little and said, \x{201c}I sent \x{2018}em each a Gary Gilmore T-shirt, and I asked \x{2018}em to wear it, or whatever, I told \x{2018}em they could wear it with nothing on underneath. A lot of girls write to me and they say different things, and love, they don\x{2019}t know me, if they knew me, they wouldn\x{2019}t love me. They\x{2019}re in love with the motherfucker that\x{2019}s got his name in the paper every day. You know, I flirt with them a little bit, but I always tell them, Ah, look, I got a girl, I didn\x{2019}t mean to fucking mislead your ass, but I got the most terrific girl in the world, she\x{2019}s part of me, nobody but you, Nicole, never, ever, ever \x{2026}. I love you with all that I am, I give you my heart and my soul.\x{201d} He sighed \x{201c}I read things in the paper.., they say this evil son of a bitch with his hypnotic, charismatic, fucking personality talked this girl into suicide \x{2026} whew, whew\x{2026} I\x{2019}m not going to tell you what to think. Like you said, you\x{2019}re on that fucking forensic ward, you\x{2019}re watched by the posse, I think most posses, man, are shooting on you. You got some money. Baby, I took sixty fucking phenobarbital. I laid there for twelve hours. I have this pretty strong body, you know, I haven\x{2019}t ruined it with too much drink and smoking \x{2018}cause I\x{2019}ve been in this ole prison so long. If they do stay my execution, I\x{2019}m going to hang myself, fuck \x{2018}em in their goddamn rosy red asses.\x{201d} He took a breath and began to sing. He had one of the worst singing voices Stanger had ever heard, never on pitch, and Gary had no idea when he was off. When he thought to croon, he groaned. The groans strangled. When he came near a note, he was sour. Still, he began to sing \x{201c}Rock of Ages.\x{201d} \x{201c}While I draw this fleeting breath, when my eyelids close in bed \x{2026} when I soar to worlds unknown, see Thee on my judgment time, rock of ages, let me hide myself in Thee.\x{201d} He stopped singing. \x{201c}Oh, man, I told you I talked to Johnny Cash, goddamn.\x{201d} Gilmore laughed. \x{201c}Johnny Cash knows I\x{2019}m alive, he knows you\x{2019}re alive, he likes us \x{2026}. Oh, Nicole\x{2026} I\x{2019}m not a Charlie Man-son type, I\x{2019}m not swaying you to do this.., if you want to go on living and raise your children, you\x{2019}re a famous girl, you\x{2019}ve got a lot of money and I want to see you get a lot more, too, go ahead, baby, but don\x{2019}t let nobody fuck you.\x{201d} Now, he whispered, \x{201c}Don\x{2019}t let nobody have you. Baby, don\x{2019}t, you\x{2019}re mine. Discipline, restraint-maybe a girl, I don\x{2019}t know, shit \x{2026}. I was supposed to be executed at <<seven forty-nine|5b>> \x{2026}. I got this hymnal in front of me, you\x{2019}re pretty, and you got something about you, baby, that just sticks right out. Well, I know them guys got designs, they\x{2019}re designing mother-GILMORE\x{2019}S LAST TAPE 943p>",
           ],
           [
             1,
@@ -926,7 +926,7 @@ and then she had to wait twenty minutes with the other guests. When they opened 
           [
             1,
             '[09:00] The Executioner\'s Song - Norman Mailer.epub (index_split_071.html) - 9 A.M.',
-            '
+            'Finally, the doors were opened and the Judge told them to take the elevators to the fourth floor. They literally had a footrace with the media to the courtroom.
 About this time, close to <<9 A.M.|5>> in Washington, AI Bmnstein
 at the office of the Clerk of the Supreme Court, Michael Rodak,',
           ],
@@ -1002,8 +1002,8 @@ at the office of the Clerk of the Supreme Court, Michael Rodak,',
           ],
           [
             1,
-            '[07:35] The Executioner\'s Song - Norman Mailer.epub (index_split_074.html) - 7:35 A.M.',
-            "
+            '[ap ~ 07:55] The Executioner\'s Song - Norman Mailer.epub (index_split_074.html) - Around 7:55',
+            "<<Around 7:55|2>>, Gordon Pdchards called again. Gilmore had now been moved to the execution area, and Sam Smith was ready to proceed. What did Deamer advise? Again, Mike was surprised at how fast everything was moving. He confirmed to Richards that he had heard nothing about any other Stays, and told Richards to go ahead. Call him as soon as it was over.
 Gordon Richards called Mike Deamer at <<7:35 A.M.|2a>> and said Denver
 had lifted Ritter\x{2019}s Stay. Could they now go ahead with the execution? Deamer had a complete sense of surprise. He shouted into the phone,",
           ],

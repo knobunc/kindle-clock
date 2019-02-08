@@ -2,68 +2,16 @@ $VAR1 = [
           [
             1,
             '[12:00] Demolished Man - Alfred Bester.epub (OEBPS/Text/Bester, Alfred - The Demolished Man_split_001.htm) - Noon',
-            'VENUS
-
-          EARTH
-
-          MARS
-        
-
-        
-          Mean Solar Day 22
-
-          February 15
-
-          Duodecember 35
-        
-
-        
-          <<Noon|13>> + 09
-
-          <<0205|18:1>> Greenwich
-
-          2220 Central Syrtis
-        
-      
-      
-        
-          MOON
-
-          IO
-
-          GANYMEDE
-
-          CALLISTO
-
-          TITAN
-
-          TRITON
-        
-
-        
-          2D3H
-
-          1D1H
-
-          6D8H
-
-          13D12H
-
-          15D3H
-
-          4D9H
-        
-
-        
-          
-
-          
-
-          (eclipsed)
-
-          
-
-          (transit)',
+            'Duodecember 35
+<<Noon|13>> + 09
+<<0205|18:1>> Greenwich',
+          ],
+          [
+            1,
+            '[12:00] Demolished Man - Alfred Bester.epub (OEBPS/Text/Bester, Alfred - The Demolished Man_split_001.htm) - Noon',
+            '<<Noon|13>> + 09
+<<0205|18:1>> Greenwich
+2220 Central Syrtis',
           ],
           [
             1,

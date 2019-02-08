@@ -47,8 +47,7 @@ $VAR1 = [
           [
             1,
             '[ap 01:00] Beyond Infinity_ An Expedition to the Oute - Eugenia Cheng.epub (OEBPS/Text/chapter008.xhtml) - 100',
-            "A geometrical way to see this is that if we ignore the whole-number part, we are only counting the real numbers between 0 and 1. If we look at this portion of the line of real numbers, how many times do we have to stick this together to make the whole line? We have to stick one on for every natural number, so there are \x{2135}0
-copies of this portion. Moreover, we can restrict our attention to any portion of the real numbers, no matter how tiny, and still get the same total count of numbers in there. One way to see this is to make a bijection, that is, a precise pairing between the numbers in the tiny portion and the numbers from 0 to 1. For example, suppose we want to look at just the real numbers from 0 to 1/100. We want to pair all these numbers up with the real numbers from 0 to 1. All we have to do is multiply them all by <<100|3:0>> and pair them up with the answer. This is like scaling the small piece of number line up to the bigger piece.",
+            "A geometrical way to see this is that if we ignore the whole-number part, we are only counting the real numbers between 0 and 1. If we look at this portion of the line of real numbers, how many times do we have to stick this together to make the whole line? We have to stick one on for every natural number, so there are \x{2135}0 copies of this portion. Moreover, we can restrict our attention to any portion of the real numbers, no matter how tiny, and still get the same total count of numbers in there. One way to see this is to make a bijection, that is, a precise pairing between the numbers in the tiny portion and the numbers from 0 to 1. For example, suppose we want to look at just the real numbers from 0 to 1/100. We want to pair all these numbers up with the real numbers from 0 to 1. All we have to do is multiply them all by <<100|3:0>> and pair them up with the answer. This is like scaling the small piece of number line up to the bigger piece.",
           ],
           [
             1,
@@ -98,19 +97,19 @@ copies of this portion. Moreover, we can restrict our attention to any portion o
           [
             1,
             '[ap 01:00] Beyond Infinity_ An Expedition to the Oute - Eugenia Cheng.epub (OEBPS/Text/chapter015.xhtml) - 1',
-            "We can now give the target-test treatment to recurring decimals as well. Let\x{2019}s think about that most confounding one, 0.99999999\x{a0}\x{b7}\x{a0}\x{b7}\x{a0}\x{b7}, which is also written as , and you might have been told at some point in your life that this \x{201c}equals 1.\x{201d} What does this actually mean? We tend to think of this recurring decimal as \x{201c}0.999\x{a0}\x{b7}\x{a0}\x{b7}\x{a0}\x{b7} with the 9\x{2019}s going on forever,\x{201d} but now we know how to deal with it in a rigorous mathematical way. It\x{2019}s just like eating the cake. We gradually proceed down the decimal places. After the first decimal place we have 0.9. After the second decimal place we have 0.99. After the third we have 0.999. And so on. The definition of  is that it is the limit of this process. So when we are saying  = 1 all we are claiming is that the limit of this process is 1. It doesn\x{2019}t mean we actually ever reach 1. It means that if an evil opponent comes along and sets up a target for us with a bull\x{2019}s-eye at <<1|9c:0>>, we can pass the target test no matter how small they make the target.",
+            "We can now give the target-test treatment to recurring decimals as well. Let\x{2019}s think about that most confounding one, 0.99999999\x{a0}\x{b7}\x{a0}\x{b7}\x{a0}\x{b7}, which is also written as , and you might have been told at some point in your life that this \x{201c}equals 1.\x{201d} What does this actually mean? We tend to think of this recurring decimal as \x{201c}0.999\x{a0}\x{b7}\x{a0}\x{b7}\x{a0}\x{b7} with the 9\x{2019}s going on forever,\x{201d} but now we know how to deal with it in a rigorous mathematical way. It\x{2019}s just like eating the cake. We gradually proceed down the decimal places. After the first decimal place we have 0.9. After the second decimal place we have 0.99. After the third we have 0.999. And so on. The definition of is that it is the limit of this process. So when we are saying = 1 all we are claiming is that the limit of this process is 1. It doesn\x{2019}t mean we actually ever reach 1. It means that if an evil opponent comes along and sets up a target for us with a bull\x{2019}s-eye at <<1|9c:0>>, we can pass the target test no matter how small they make the target.",
           ],
           [
             1,
             '[ap 01:00] Beyond Infinity_ An Expedition to the Oute - Eugenia Cheng.epub (OEBPS/Text/chapter015.xhtml) - 1',
-            '
+            "The y value (and gradient) at 0 is 1.
 The number e is then the y value (and gradient) at <<1|9c:0>>.
-',
+Here\x{2019}s another example. This time we add up these rational numbers:",
           ],
           [
             1,
             '[ap 01:00] Beyond Infinity_ An Expedition to the Oute - Eugenia Cheng.epub (OEBPS/Text/chapter016.xhtml) - 1',
-            "
+            "is like finding the sum
 and comparing it with the area of the big square, which is <<1|9c:0>>.
 We can start by putting a 1/2 \x{d7} 1/2 square in the corner of the 1 \x{d7} 1 square, say like this:",
           ],

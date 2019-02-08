@@ -105,28 +105,28 @@ I stand in front of a red door. Red doors are supposed to be good in Feng Shui, 
             '[16:10] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 4:10 PM',
             'I sit down on the edge of the futon, knees together, ankles crossed. I check my watch, lick across my teeth, take a breath, and start to read.
 Charles [<<4:10 PM|2a>>] I was supposed to go to a play with the wife.
-',
+Jessica [<<4:10 PM|2a>>] What happened?',
           ],
           [
             1,
             '[16:10] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 4:10 PM',
-            '
+            'Charles [<<4:10 PM|2a>>] I was supposed to go to a play with the wife.
 Jessica [<<4:10 PM|2a>>] What happened?
-',
+Charles [<<4:10 PM|2a>>] She got called in to work an hour ago.',
           ],
           [
             1,
             '[16:10] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 4:10 PM',
-            '
+            'Jessica [<<4:10 PM|2a>>] What happened?
 Charles [<<4:10 PM|2a>>] She got called in to work an hour ago.
-',
+Jessica [<<4:11 PM|2a>>] Seems like that happens a lot. Bummer.',
           ],
           [
             1,
-            '[16:11] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 4:11 PM',
-            '
+            '[16:10] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 4:10 PM',
+            'Charles [<<4:10 PM|2a>>] She got called in to work an hour ago.
 Jessica [<<4:11 PM|2a>>] Seems like that happens a lot. Bummer.
-',
+Charles [<<4:12 PM|2a>>] Was going to surprise her, get some quality time, take her to dinner and a play ... even had made reservations at the W.',
           ],
           [
             1,
@@ -136,9 +136,9 @@ Jessica [<<4:11 PM|2a>>] Seems like that happens a lot. Bummer.
           [
             1,
             '[16:12] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 4:12 PM',
-            "
+            "Charles [<<4:12 PM|2a>>] Was going to surprise her, get some quality time, take her to dinner and a play ... even had made reservations at the W.
 Jessica [<<4:12 PM|2a>>] You didn\x{2019}t tell her?
-",
+Charles [<<4:13 PM|2a>>] It was a surprise. Was going to take her to her favorite restaurant, this place EuroChow up in Westwood. They have great martinis and she loves the glazed prawns with walnuts.",
           ],
           [
             1,
@@ -148,23 +148,23 @@ Jessica [<<4:12 PM|2a>>] You didn\x{2019}t tell her?
           [
             1,
             '[16:13] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 4:13 PM',
-            "
+            "Charles [<<4:13 PM|2a>>] It was a surprise. Was going to take her to her favorite restaurant, this place EuroChow up in Westwood. They have great martinis and she loves the glazed prawns with walnuts.
 Jessica [<<4:13 PM|2a>>] You should\x{2019}ve told her anyway.
-",
+Charles [<<4:14 PM|2a>>] It\x{2019}s typical, us not being able to go.",
           ],
           [
             1,
-            '[16:14] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 4:14 PM',
-            "
+            '[16:13] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 4:13 PM',
+            "Jessica [<<4:13 PM|2a>>] You should\x{2019}ve told her anyway.
 Charles [<<4:14 PM|2a>>] It\x{2019}s typical, us not being able to go.
-",
+Jessica [<<4:14 PM|2a>>] What play?",
           ],
           [
             1,
             '[16:14] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 4:14 PM',
-            '
+            "Charles [<<4:14 PM|2a>>] It\x{2019}s typical, us not being able to go.
 Jessica [<<4:14 PM|2a>>] What play?
-',
+Charles [4: <<15 PM|5>>] Female version of A Soldier\x{2019}s Play. That actress Tammy Barrett is starring in that.",
           ],
           [
             1,
@@ -184,9 +184,9 @@ Jessica [<<4:14 PM|2a>>] What play?
           [
             1,
             '[16:16] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 4:16 PM',
-            '
+            "Charles [<<4:16 PM|2a>>] We had a barbeque and she was over at the house awhile back.
 Jessica [<<4:16 PM|2a>>] You know her?
-',
+Charles [<<4:16 PM|2a>>] Her husband\x{2019}s a writer and one of his friends lives right across the street from us. They all came over together.",
           ],
           [
             1,
@@ -195,10 +195,10 @@ Jessica [<<4:16 PM|2a>>] You know her?
           ],
           [
             1,
-            '[16:17] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 4:17 PM',
-            "
+            '[16:16] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 4:16 PM',
+            "Charles [<<4:16 PM|2a>>] Her husband\x{2019}s a writer and one of his friends lives right across the street from us. They all came over together.
 Jessica [<<4:17 PM|2a>>] She\x{2019}s mega large. And you have tickets to her play.
-",
+Charles [<<4:18 PM|2a>>] My neighbors are out of town. He has a book thing in New Orleans, so they\x{2019}re doing a second honeymoon thing. I don\x{2019}t want to miss out, but I\x{2019}m running out of options.",
           ],
           [
             1,
@@ -208,16 +208,16 @@ Jessica [<<4:17 PM|2a>>] She\x{2019}s mega large. And you have tickets to her pl
           [
             1,
             '[16:18] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 4:18 PM',
-            '
+            "Charles [<<4:18 PM|2a>>] My neighbors are out of town. He has a book thing in New Orleans, so they\x{2019}re doing a second honeymoon thing. I don\x{2019}t want to miss out, but I\x{2019}m running out of options.
 Jessica [<<4:18 PM|2a>>] When?
-',
+Charles [<<4:18 PM|2a>>] Tonight at <<eight|9b>>. You want the tickets?",
           ],
           [
             1,
             '[16:18] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 4:18 PM',
-            '
+            "Jessica [<<4:18 PM|2a>>] When?
 Charles [<<4:18 PM|2a>>] Tonight at <<eight|9b>>. You want the tickets?
-',
+Jessica [<<4:19 PM|2a>>] Don\x{2019}t tease me like that. I haven\x{2019}t been to a play in years.",
           ],
           [
             1,
@@ -251,10 +251,10 @@ Charles [<<4:18 PM|2a>>] Tonight at <<eight|9b>>. You want the tickets?
           ],
           [
             1,
-            '[16:23] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 4:23 PM',
-            '
+            '[16:21] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 4:21 PM',
+            "Charles [<<4:21 PM|2a>>] Should last a couple of hours. Over by ten. Jessica [<<4:22 PM|2a>>] Where is it?
 Charles [<<4:23 PM|2a>>] Whitmore Lindley Theatre Center in North Hollywood.
-',
+Jessica [<<4:24 PM|2a>>] Here\x{2019}s an idea. Tell me what you think, if you\x{2019}re not feeling it, no problem.",
           ],
           [
             1,
@@ -264,9 +264,9 @@ Charles [<<4:23 PM|2a>>] Whitmore Lindley Theatre Center in North Hollywood.
           [
             1,
             '[16:24] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 4:24 PM',
-            "
+            "Jessica [<<4:24 PM|2a>>] Here\x{2019}s an idea. Tell me what you think, if you\x{2019}re not feeling it, no problem.
 Charles [<<4:24 PM|2a>>] What\x{2019}s the idea?
-",
+Jessica [<<4:25 PM|2a>>] Since you don\x{2019}t want to waste a ticket, and I would love to see the play, we could always meet up there. No joke on this end. I really do want to see that play. Charles [<<4:26 PM|2a>>] We could do that. One condition?",
           ],
           [
             1,
@@ -275,24 +275,24 @@ Charles [<<4:24 PM|2a>>] What\x{2019}s the idea?
           ],
           [
             1,
-            '[16:26] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 4:26 PM',
-            '
+            '[16:25] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 4:25 PM',
+            "Jessica [<<4:25 PM|2a>>] Since you don\x{2019}t want to waste a ticket, and I would love to see the play, we could always meet up there. No joke on this end. I really do want to see that play. Charles [<<4:26 PM|2a>>] We could do that. One condition?
 Jessica [<<4:26 PM|2a>>] What?
-',
+Charles [<<4:27 PM|2a>>] Meet me at EuroChow. I\x{2019}d already made reservations.",
           ],
           [
             1,
-            '[16:27] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 4:27 PM',
-            "
+            '[16:26] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 4:26 PM',
+            "Jessica [<<4:26 PM|2a>>] What?
 Charles [<<4:27 PM|2a>>] Meet me at EuroChow. I\x{2019}d already made reservations.
-",
+Jessica [<<4:27 PM|2a>>] You\x{2019}re driving a hard bargain.",
           ],
           [
             1,
             '[16:27] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 4:27 PM',
-            "
+            "Charles [<<4:27 PM|2a>>] Meet me at EuroChow. I\x{2019}d already made reservations.
 Jessica [<<4:27 PM|2a>>] You\x{2019}re driving a hard bargain.
-",
+A date is on the printout. That was eight months ago. That\x{2019}s how it began for my husband and Jessica. Eight months ago. Damn near three seasons of ignorance in my world.",
           ],
           [
             1,
@@ -307,9 +307,9 @@ Jessica [<<4:27 PM|2a>>] You\x{2019}re driving a hard bargain.
           [
             1,
             '[20:03] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 8:03 PM',
-            '
+            'Jessica [<<8:03 PM|2a>>] That was sweet, coming from a boring social studies teacher.
 Charles [<<8:03 PM|2a>>] ouch
-',
+Jessica [<<8:03 PM|2a>>] Joking. U are far from being boring. I like the way you call me Jessie.',
           ],
           [
             1,
@@ -333,17 +333,17 @@ Charles [<<8:03 PM|2a>>] ouch
           ],
           [
             1,
-            '[20:04] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 8:04PM',
-            "
+            '[20:04] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 8:04 PM',
+            "Charles [<<8:04 PM|2a>>] Yeah, I feel ya. I don\x{2019}t get to do much outside of work. I want to get out, see a few movies, but it never works out.
 Jessica [<<8:04PM|2a>>] I love movies. Haven\x{2019}t been to one in months.
-",
+Charles [<<8:04 PM|2a>>] Me either.",
           ],
           [
             1,
-            '[20:04] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 8:04 PM',
-            '
+            '[20:04] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 8:04PM',
+            "Jessica [<<8:04PM|2a>>] I love movies. Haven\x{2019}t been to one in months.
 Charles [<<8:04 PM|2a>>] Me either.
-',
+Jessica [<<8:05 PM|2a>>] But I do have to put this out there ... it was kinda strange",
           ],
           [
             1,
@@ -353,9 +353,9 @@ Charles [<<8:04 PM|2a>>] Me either.
           [
             1,
             '[20:05] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 8:05 PM',
-            '
+            "Jessica [<<8:05 PM|2a>>] But I do have to put this out there ... it was kinda strange
 Charles [<<8:05 PM|2a>>] what was?
-',
+Jessica [<<8:05PM|2a>>] the way we acted at work, how we didn\x{2019}t mention it and just walked by each other like we barely knew each other, at least that was the way it seemed. I couldn\x{2019}t look you in the eyes today. Then I couldn\x{2019}t wait to get home and see if you were online.",
           ],
           [
             1,
@@ -369,31 +369,31 @@ Charles [<<8:05 PM|2a>>] what was?
           ],
           [
             1,
-            '[20:06] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 8:06PM',
-            '
+            '[20:06] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 8:06 PM',
+            'Charles [<<8:06 PM|2a>>] you felt that too? I was thinking the same thingWas so glad when you popped up in my screen
 Jessica [<<8:06PM|2a>>] What we did, it was innocent, right?
-',
+Charles [<<8:08 PM|2a>>] yeah',
           ],
           [
             1,
-            '[20:08] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 8:08 PM',
-            '
+            '[20:06] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 8:06PM',
+            'Jessica [<<8:06PM|2a>>] What we did, it was innocent, right?
 Charles [<<8:08 PM|2a>>] yeah
-',
+Jessica [<<8:08 PM|2a>>] Then how did we end up kissing for over an hour?',
           ],
           [
             1,
             '[20:08] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 8:08 PM',
-            '
+            'Charles [<<8:08 PM|2a>>] yeah
 Jessica [<<8:08 PM|2a>>] Then how did we end up kissing for over an hour?
-',
+That image stops me. I have to regroup, try to keep it together.',
           ],
           [
             1,
             '[13:00] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 1 PM',
             "I look at the next time stamp and this time Jessica hesitates before she asks the next question. Hesitates as if it were hard to type that simple sentence. Since I don\x{2019}t know, I can only suppose, so I imagine them being excited and scared all at once.
 Jessica [8:1 <<1 PM|5>>] you tell your wife that you took me to the play?
-",
+Charles [<<8:13 PM|2a>>] we haven\x{2019}t really seen each other ... she didn\x{2019}t notice I had gone out",
           ],
           [
             1,
@@ -402,24 +402,24 @@ Jessica [8:1 <<1 PM|5>>] you tell your wife that you took me to the play?
           ],
           [
             1,
-            '[20:17] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 8:17 PM',
-            "
+            '[20:13] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 8:13 PM',
+            "Charles [<<8:13 PM|2a>>] we haven\x{2019}t really seen each other ... she didn\x{2019}t notice I had gone out
 Jessica [<<8:17 PM|2a>>] well, I didn\x{2019}t tell my hubby where I went
-",
+There\x{2019}s another time gap, another long pause. I imagine them sitting there, thinking, fingers on keyboards, wondering what to type next, maybe even typing things and erasing them before they can be sent. Waiting for the other to make the next move.",
           ],
           [
             1,
             '[20:23] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 8:23 PM',
             "There\x{2019}s another time gap, another long pause. I imagine them sitting there, thinking, fingers on keyboards, wondering what to type next, maybe even typing things and erasing them before they can be sent. Waiting for the other to make the next move.
 Jessica [<<8:23 PM|2a>>] Well, I have to reciprocate for the play.
-",
+Charles [<<8:23 PM|2a>>] You don\x{2019}t have to.",
           ],
           [
             1,
             '[20:23] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 8:23 PM',
-            "
+            "Jessica [<<8:23 PM|2a>>] Well, I have to reciprocate for the play.
 Charles [<<8:23 PM|2a>>] You don\x{2019}t have to.
-",
+Jessica [<<8:23 PM|2a>>] I do. I want to. So let me. How about hitting a matinee one day after work?",
           ],
           [
             1,
@@ -429,9 +429,9 @@ Charles [<<8:23 PM|2a>>] You don\x{2019}t have to.
           [
             1,
             '[20:23] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 8:23 PM',
-            '
+            "Y Tu Mama Tambien is playing over at the cheap theater (next to Galleria)
 Charles [<<8:23 PM|2a>>] That could work.
-',
+Jessica [<<8:23 PM|2a>>] Or you could come to one of my classes and we could go right after. You\x{2019}d be back home in time to grade a few papers.",
           ],
           [
             1,
@@ -441,9 +441,9 @@ Charles [<<8:23 PM|2a>>] That could work.
           [
             1,
             '[20:23] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 8:23 PM',
-            '
+            "Jessica [<<8:23 PM|2a>>] Or you could come to one of my classes and we could go right after. You\x{2019}d be back home in time to grade a few papers.
 Charles [<<8:23 PM|2a>>] Sure. That sounds cool.
-',
+Jessica [<<8:23 PM|2a>>] It\x{2019}ll be my treat. Popcorn, chocolate covered raisins, the whole nine are on me",
           ],
           [
             1,
@@ -465,91 +465,91 @@ Charles [<<8:23 PM|2a>>] Sure. That sounds cool.
             '[06:13] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 6:13 AM',
             'I stop and take a breath after I read that. It hits me hard.
 Jessica [<<6:13 AM|2a>>] want to feel u in my mouth
-',
+Jessica [<<6:13 AM|2a>>] feel your hands caressing me',
           ],
           [
             1,
             '[06:13] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 6:13 AM',
-            '
+            'Jessica [<<6:13 AM|2a>>] want to feel u in my mouth
 Jessica [<<6:13 AM|2a>>] feel your hands caressing me
-',
+Jessica [<<6:14 AM|2a>>] love the way you kiss my stomach, shoulders, back',
           ],
           [
             1,
-            '[06:14] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 6:14 AM',
-            '
+            '[06:13] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 6:13 AM',
+            'Jessica [<<6:13 AM|2a>>] feel your hands caressing me
 Jessica [<<6:14 AM|2a>>] love the way you kiss my stomach, shoulders, back
-',
+Charles [<<6:14 AM|2a>>] tell me more',
           ],
           [
             1,
             '[06:14] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 6:14 AM',
-            '
+            'Jessica [<<6:14 AM|2a>>] love the way you kiss my stomach, shoulders, back
 Charles [<<6:14 AM|2a>>] tell me more
-',
+Jessica [<<6:14 AM|2a>>] i neeeeeed to feel u again',
           ],
           [
             1,
             '[06:14] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 6:14 AM',
-            '
+            'Charles [<<6:14 AM|2a>>] tell me more
 Jessica [<<6:14 AM|2a>>] i neeeeeed to feel u again
-',
+Jessica [<<6:14 AM|2a>>] want u hard between my legs',
           ],
           [
             1,
             '[06:14] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 6:14 AM',
-            '
+            'Jessica [<<6:14 AM|2a>>] i neeeeeed to feel u again
 Jessica [<<6:14 AM|2a>>] want u hard between my legs
-',
+Jessica [<<6:15 AM|2a>>] want you to get lost in me',
           ],
           [
             1,
-            '[06:15] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 6:15 AM',
-            '
+            '[06:14] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 6:14 AM',
+            'Jessica [<<6:14 AM|2a>>] want u hard between my legs
 Jessica [<<6:15 AM|2a>>] want you to get lost in me
-',
+Jessica [<<6:15 AM|2a>>] stroke me hard and deep',
           ],
           [
             1,
             '[06:15] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 6:15 AM',
-            '
+            'Jessica [<<6:15 AM|2a>>] want you to get lost in me
 Jessica [<<6:15 AM|2a>>] stroke me hard and deep
-',
+Charles [<<6:15 AM|2a>>] how deep how hard',
           ],
           [
             1,
             '[06:15] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 6:15 AM',
-            '
+            'Jessica [<<6:15 AM|2a>>] stroke me hard and deep
 Charles [<<6:15 AM|2a>>] how deep how hard
-',
+Jessica [<<6:16 AM|2a>>] as deep as u can go',
           ],
           [
             1,
-            '[06:16] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 6:16 AM',
-            '
+            '[06:15] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 6:15 AM',
+            'Charles [<<6:15 AM|2a>>] how deep how hard
 Jessica [<<6:16 AM|2a>>] as deep as u can go
-',
+Jessica [<<6:16 AM|2a>>] want u to grab my ass',
           ],
           [
             1,
             '[06:16] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 6:16 AM',
-            '
+            'Jessica [<<6:16 AM|2a>>] as deep as u can go
 Jessica [<<6:16 AM|2a>>] want u to grab my ass
-',
+Jessica [<<6:17 AM|2a>>] tease my mouth with your tongue',
           ],
           [
             1,
-            '[06:17] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 6:17 AM',
-            '
+            '[06:16] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 6:16 AM',
+            'Jessica [<<6:16 AM|2a>>] want u to grab my ass
 Jessica [<<6:17 AM|2a>>] tease my mouth with your tongue
-',
+Charles [<<6:17 AM|2a>>] i can do that',
           ],
           [
             1,
             '[06:17] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 6:17 AM',
-            '
+            'Jessica [<<6:17 AM|2a>>] tease my mouth with your tongue
 Charles [<<6:17 AM|2a>>] i can do that
-',
+Again I look at David Lawrence.',
           ],
           [
             1,
@@ -573,10 +573,10 @@ Charles [<<6:17 AM|2a>>] i can do that
           ],
           [
             1,
-            '[09:00] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 21 PM',
-            "
+            '[23:19] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 11:19 PM',
+            "Charles [<<11:19 PM|2a>>] I try to give her attention. I listen, but I\x{2019}ve started having headaches the moment she walks in the door, anticipating the drama from dealing with her executive producer, ranting about the freeway like she\x{2019}s the only one who gets stuck in traffic, the this, the that ... LOL ... here I am, venting to you, doing the same thing she does. Sorry about that
 Jessica [11 :<<21 PM|5>>] No it\x{2019}s okay. We all need somebody to talk to
-",
+Charles [<<11:21 PM|2a>>] I need some positive vibes ... that\x{2019}s what I like about you you\x{2019}re always so cheery and positive",
           ],
           [
             1,
@@ -585,10 +585,10 @@ Jessica [11 :<<21 PM|5>>] No it\x{2019}s okay. We all need somebody to talk to
           ],
           [
             1,
-            '[10:00] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 22 PM',
-            '
+            '[23:21] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 11:21 PM',
+            "Charles [<<11:21 PM|2a>>] I need some positive vibes ... that\x{2019}s what I like about you you\x{2019}re always so cheery and positive
 Jessica [11 :<<22 PM|5>>] How much do you guys talk?
-',
+Charles [<<11:23 PM|2a>>] Our schedules are way off. We\x{2019}re passing each other in the hallway, when I\x{2019}m awake, she\x{2019}s asleep. When she\x{2019}s awake, I\x{2019}m asleep. She sleeps late. I\x{2019}m up early because I like to get things done and still have a lot of day left. Jessica [<<11:23 PM|2a>>] At least you guys get to sleep in on the weekend.",
           ],
           [
             1,
@@ -602,10 +602,10 @@ Jessica [11 :<<22 PM|5>>] How much do you guys talk?
           ],
           [
             1,
-            '[23:24] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 11:24PM',
-            '
+            '[23:24] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 11:24 PM',
+            "Charles [<<11:24 PM|2a>>] NOT. You know her off day is on Wednesday, and she works every weekend. She\x{2019}s there Christmas Eve, Christmas, Valentine\x{2019}s Day, my birthday, hers ...
 Jessica [<<11:24PM|2a>>] I never would have known
-',
+Charles [<<11:26 PM|2a>>] How do you call that a relationship, or a marriage? I\x{2019}m used to her not being here too, not being available Sometimes I look forward to her leaving because then the house is peaceful.",
           ],
           [
             1,
@@ -617,14 +617,14 @@ Jessica [<<11:24PM|2a>>] I never would have known
             '[23:57] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 11:57 PM',
             "Their emotional connection is growing. She is his shoulder, his therapist via AOL. He goes on for two pages, telling her things that he\x{2019}s never told me, the roots of his unhappiness.
 Jessica [<<11:57 PM|2a>>] How long has it been like that?
-",
+Charles [<<11:57 PM|2a>>] For a while.",
           ],
           [
             1,
             '[23:57] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 11:57 PM',
-            '
+            "Jessica [<<11:57 PM|2a>>] How long has it been like that?
 Charles [<<11:57 PM|2a>>] For a while.
-',
+Jessica [<<11:59 PM|2a>>] Forget work and traffic, she should come in the door telling you that you\x{2019}re fantastic. I would. <<After midnight|13>> I\x{2019}d walk in TAKING OFF my Vickie\x{2019}s Secret.",
           ],
           [
             1,
@@ -643,31 +643,31 @@ Charles [<<11:57 PM|2a>>] For a while.
           ],
           [
             1,
-            '[00:01] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 12:01 AM',
-            '
+            '[ap 00:00] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 12:00 AM',
+            "Jessica [<<12:00 AM|2a>>] if I was your woman, sexy man, all you\x{2019}d hear is that you\x{2019}re the sexiest sweetest man I\x{2019}ve ever met, how you make me want to cook for you
 Charles [<<12:01 AM|2a>>] thanks Jessie.sexy?
-',
+Jessica [<<12:01 AM|2a>>]Don\x{2019}t act like you don\x{2019}t know it.",
           ],
           [
             1,
             '[00:01] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 12:01 AM',
-            "
+            "Charles [<<12:01 AM|2a>>] thanks Jessie.sexy?
 Jessica [<<12:01 AM|2a>>]Don\x{2019}t act like you don\x{2019}t know it.
-",
+Charles [<<12:02 AM|2a>>] You\x{2019}re the one with the bad-ass bod",
           ],
           [
             1,
-            '[00:02] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 12:02 AM',
-            "
+            '[00:01] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 12:01 AM',
+            "Jessica [<<12:01 AM|2a>>]Don\x{2019}t act like you don\x{2019}t know it.
 Charles [<<12:02 AM|2a>>] You\x{2019}re the one with the bad-ass bod
-",
+Jessica [<<12:02 AM|2a>>] You\x{2019}re making me blush",
           ],
           [
             1,
             '[00:02] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 12:02 AM',
-            "
+            "Charles [<<12:02 AM|2a>>] You\x{2019}re the one with the bad-ass bod
 Jessica [<<12:02 AM|2a>>] You\x{2019}re making me blush
-",
+David Lawrence pulls me out of that world when he says my name. He\x{2019}s standing next to me and I didn\x{2019}t notice him. All of my senses have fallen away, drawn me into the world of Charles and Jessica. I shift, put the papers down at my side, and he hands me my drinks. I thank him. He nods, then goes back to his canvas. The water is in an Evian bottle, the white zinfandel in a wineglass. I gulp a lot of the water, sip just as much of the wine, take a few breaths, tug my locks, pull my lips in, and think. I want to run away. But I pick the papers up again, and I read. Move on to a month later, move through more explicit conversations until I get to this.",
           ],
           [
             1,
@@ -679,14 +679,14 @@ Jessica [<<12:02 AM|2a>>] You\x{2019}re making me blush
             '[20:36] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 8:36 PM',
             "I close my eyes and rock for a moment. Her words are too strong, too direct. Once again I check the date with my Palm Pilot. It\x{2019}s a Tuesday night. I\x{2019}m at work.
 Charles [<<8:36 PM|2a>>] was looking at you at work today
-",
+Jessica [<<8:36 PM|2a>>] really",
           ],
           [
             1,
             '[20:36] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 8:36 PM',
-            '
+            'Charles [<<8:36 PM|2a>>] was looking at you at work today
 Jessica [<<8:36 PM|2a>>] really
-',
+Charles [<<8:37 PM|2a>>] yupsaw you running laps with the kids on my free period, then saw you on the playground playing volleyball with your class when I was taking my 5th period to the library. Your breasts bounce when you jump.',
           ],
           [
             1,
@@ -696,9 +696,9 @@ Jessica [<<8:36 PM|2a>>] really
           [
             1,
             '[20:37] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 8:37 PM',
-            "
+            "Charles [<<8:37 PM|2a>>] yupsaw you running laps with the kids on my free period, then saw you on the playground playing volleyball with your class when I was taking my 5th period to the library. Your breasts bounce when you jump.
 Jessica [<<8:37 PM|2a>>] didn\x{2019}t think u ever noticed me
-",
+Charles [<<8:37 PM|2a>>] hell yeah ... been hard not gawking at you lately ... real hard",
           ],
           [
             1,
@@ -712,31 +712,31 @@ Jessica [<<8:37 PM|2a>>] didn\x{2019}t think u ever noticed me
           ],
           [
             1,
-            '[20:41] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 8:41 PM',
-            '
+            '[20:40] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 8:40 PM',
+            "Charles [<<8:40 PM|2a>>] i get dreamy looking at you, start imagining and thinking \x{201c}what if\x{201d} I had met you before I ... before.
 Jessica [<<8:41 PM|2a>>] r u just telling me words??
-',
+Charles [<<8:42 PM|2a>>] nope",
           ],
           [
             1,
-            '[20:42] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 8:42 PM',
-            '
+            '[20:41] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 8:41 PM',
+            'Jessica [<<8:41 PM|2a>>] r u just telling me words??
 Charles [<<8:42 PM|2a>>] nope
-',
+Charles [<<8:42 PM|2a>>] for real',
           ],
           [
             1,
             '[20:42] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 8:42 PM',
-            '
+            'Charles [<<8:42 PM|2a>>] nope
 Charles [<<8:42 PM|2a>>] for real
-',
+Charles [<<8:43 PM|2a>>] imagined u being close to me',
           ],
           [
             1,
-            '[20:43] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 8:43 PM',
-            '
+            '[20:42] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 8:42 PM',
+            "Charles [<<8:42 PM|2a>>] for real
 Charles [<<8:43 PM|2a>>] imagined u being close to me
-',
+Charles [<<8:43 PM|2a>>] that\x{2019}s why when you come in the cafeteria I start feeling all nervous",
           ],
           [
             1,
@@ -746,9 +746,9 @@ Charles [<<8:43 PM|2a>>] imagined u being close to me
           [
             1,
             '[20:43] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 8:43 PM',
-            '
+            "Charles [<<8:43 PM|2a>>] that\x{2019}s why when you come in the cafeteria I start feeling all nervous
 Jessica [<<8:43 PM|2a>>] why come??
-',
+Charles [<<8:44 PM|2a>>] dunno ... I keep saying we should keep away from each other, then I see you every day, and that doesn\x{2019}t make it any easier, then I have to talk to you, then we end up somewhere trying to talk, then we end up either having sex in a hotel or up against a wall And I drive away wishing I could stay with you, spend the night with you, wake up with you",
           ],
           [
             1,
@@ -772,45 +772,45 @@ Jessica [<<8:43 PM|2a>>] why come??
           ],
           [
             1,
-            '[20:46] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 8:46 PM',
-            '
+            '[20:45] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 8:45 PM',
+            "Jessica [<<8:45 PM|2a>>] Me too I wonder that all the time That night we went to the play, I kept asking myself why it wasn\x{2019}t like that with David. You think we can stop cold turkey? Charles [<<8:46 PM|2a>>] no. i think we have an attraction to each other, a strong one, one that is beyond understanding, control. i can\x{2019}t make it not be there, you know.
 Jessica [<<8:46 PM|2a>>] i feel yadamn do i feel ya
-',
+Jessica [<<8:49 PM|2a>>] isn\x{2019}t LUST grand?",
           ],
           [
             1,
-            '[20:49] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 8:49 PM',
-            "
+            '[20:46] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 8:46 PM',
+            "Jessica [<<8:46 PM|2a>>] i feel yadamn do i feel ya
 Jessica [<<8:49 PM|2a>>] isn\x{2019}t LUST grand?
-",
+Charles [<<8:49 PM|2a>>] hell yeah. i want to be with u too much",
           ],
           [
             1,
             '[20:49] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 8:49 PM',
-            '
+            "Jessica [<<8:49 PM|2a>>] isn\x{2019}t LUST grand?
 Charles [<<8:49 PM|2a>>] hell yeah. i want to be with u too much
-',
+Jessica [<<8:50 PM|2a>>] you\x{2019}re dangerous Charles",
           ],
           [
             1,
-            '[20:50] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 8:50 PM',
-            "
+            '[20:49] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 8:49 PM',
+            "Charles [<<8:49 PM|2a>>] hell yeah. i want to be with u too much
 Jessica [<<8:50 PM|2a>>] you\x{2019}re dangerous Charles
-",
+Charles [<<8:50 PM|2a>>] so are you",
           ],
           [
             1,
             '[20:50] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 8:50 PM',
-            '
+            "Jessica [<<8:50 PM|2a>>] you\x{2019}re dangerous Charles
 Charles [<<8:50 PM|2a>>] so are you
-',
+Jessica [<<8:50 PM|2a>>] and you are so intense",
           ],
           [
             1,
             '[20:50] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 8:50 PM',
-            '
+            "Charles [<<8:50 PM|2a>>] so are you
 Jessica [<<8:50 PM|2a>>] and you are so intense
-',
+Charles [<<8:51 PM|2a>>] you\x{2019}re the intense one. if i was half as dangerous as you ... damn ... just imagined i could taste you ... LOL",
           ],
           [
             1,
@@ -830,9 +830,9 @@ Jessica [<<8:50 PM|2a>>] and you are so intense
           [
             1,
             '[20:59] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 8:59 PM',
-            '
+            "Charles [<<8:59 PM|2a>>] being with you is soooo damn goodhard to describe the warmth
 Jessica [<<8:59 PM|2a>>] try
-',
+Charles [<<8:59 PM|2a>>] it\x{2019}s like i never wanna come just hold on to that feeling and watch you come over and over until you can\x{2019}t come any more",
           ],
           [
             1,
@@ -851,10 +851,10 @@ Jessica [<<8:59 PM|2a>>] try
           ],
           [
             1,
-            '[21:00] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 9:00 PM',
-            "
+            '[20:59] The Other Woman - Eric Jerome Dickey.epub (index_split_016.html) - 8:59 PM',
+            "Jessica [<<8:59 PM|2a>>] i want to feel u inside me water pouring down on us from the shower hands sliding along slippery flesh smelling sweet bodies wet and firm and soft at the same time licking water off each other
 Charles [<<9:00 PM|2a>>] i\x{2019}ll try to get the same room too
-",
+Jessica [<<9:00 PM|2a>>] you\x{2019}re the love of my life, Charles. I can\x{2019}t imagine myself living without you",
           ],
           [
             1,
@@ -873,7 +873,7 @@ I come back and put my wrinkled clothes on, stuff my panties and bra in my purse
             '[06:18] The Other Woman - Eric Jerome Dickey.epub (index_split_017.html) - 6:18 AM',
             "Those papers were pages of messages between him and his lover. I stole those. I\x{2019}m not stupid. No way was I going to leave David Lawrence\x{2019}s studio without evidence of the crime.
 Jessica [<<6:18 AM|2a>>] Busy today?
-",
+Charles [<<6:18 AM|2a>>] Going to church.then the wifey is running to work after that",
           ],
           [
             1,
@@ -887,38 +887,38 @@ Jessica [<<6:18 AM|2a>>] Busy today?
           ],
           [
             1,
-            '[06:19] The Other Woman - Eric Jerome Dickey.epub (index_split_017.html) - 6:19 AM',
-            '
+            '[06:18] The Other Woman - Eric Jerome Dickey.epub (index_split_017.html) - 6:18 AM',
+            "Jessica [<<6:18 AM|2a>>] David has an art show in San Diego, so he\x{2019}s gone for the weekend.
 Charles [<<6:19 AM|2a>>]
-',
+Jessica [6: <<19 AM|5>>]",
+          ],
+          [
+            1,
+            '[06:19] The Other Woman - Eric Jerome Dickey.epub (index_split_017.html) - 6:19 AM',
+            "Charles [<<6:19 AM|2a>>]
+Jessica [6: <<19 AM|5>>]
+Charles [<<6:19 AM|2a>>] I\x{2019}ll be free by two",
           ],
           [
             1,
             '[19:00] The Other Woman - Eric Jerome Dickey.epub (index_split_017.html) - 19 AM',
-            '
-Jessica [6: <<19 AM|5>>]
-',
-          ],
-          [
-            1,
-            '[06:19] The Other Woman - Eric Jerome Dickey.epub (index_split_017.html) - 6:19 AM',
-            "
+            "Jessica [6: <<19 AM|5>>]
 Charles [<<6:19 AM|2a>>] I\x{2019}ll be free by two
-",
+Jessica [<<6:19 AM|2a>>]want u to be grabbing my ass by three",
           ],
           [
             1,
             '[06:19] The Other Woman - Eric Jerome Dickey.epub (index_split_017.html) - 6:19 AM',
-            '
+            "Charles [<<6:19 AM|2a>>] I\x{2019}ll be free by two
 Jessica [<<6:19 AM|2a>>]want u to be grabbing my ass by three
-',
+Charles [<<6:20 AM|2a>>]by <<two-thirty|5k:1>>",
           ],
           [
             1,
-            '[06:20] The Other Woman - Eric Jerome Dickey.epub (index_split_017.html) - 6:20 AM',
-            '
+            '[06:19] The Other Woman - Eric Jerome Dickey.epub (index_split_017.html) - 6:19 AM',
+            'Jessica [<<6:19 AM|2a>>]want u to be grabbing my ass by three
 Charles [<<6:20 AM|2a>>]by <<two-thirty|5k:1>>
-',
+I imagine that Charles is outside that door, stunned, reading with his mouth wide open, then taking long, deep breaths and closing his eyes before he lets it all back out.',
           ],
           [
             1,
@@ -928,9 +928,9 @@ Charles [<<6:20 AM|2a>>]by <<two-thirty|5k:1>>
           [
             1,
             '[06:59] The Other Woman - Eric Jerome Dickey.epub (index_split_017.html) - 6:59 AM',
-            '
+            "Jessica [<<6:59 AM|2a>>] thinking about you had me wiggling in my sleep. I dreamed about you, woke up feenin for some more
 Charles [<<6:59 AM|2a>>] same here, we must be needing each other bad
-',
+Jessica [<<7:00 AM|2a>>] i wish i could please you again right now ... never had sex that good before, you\x{2019}re making a woman weak, keep saying I\x{2019}m gonna be right, then I get to work and see you, look in your eyes, and all I wanna do is be with you",
           ],
           [
             1,
@@ -945,16 +945,16 @@ Charles [<<6:59 AM|2a>>] same here, we must be needing each other bad
           [
             1,
             '[07:01] The Other Woman - Eric Jerome Dickey.epub (index_split_017.html) - 7:01 AM',
-            '
+            "Jessica [<<7:01 AM|2a>>] i want to make every fantasy a reality for you ... just give me time
 Jessica [<<7:01 AM|2a>>] i love you ... i want us to be together
-',
+Charles [<<7:01 AM|2a>>] you know that\x{2019}s too complicated right now",
           ],
           [
             1,
             '[07:01] The Other Woman - Eric Jerome Dickey.epub (index_split_017.html) - 7:01 AM',
-            "
+            "Jessica [<<7:01 AM|2a>>] i love you ... i want us to be together
 Charles [<<7:01 AM|2a>>] you know that\x{2019}s too complicated right now
-",
+Jessica [<<7:01 AM|2a>>] I just hate thinking that anybody is touching you besides me",
           ],
           [
             1,
@@ -969,58 +969,58 @@ Charles [<<7:01 AM|2a>>] you know that\x{2019}s too complicated right now
           [
             1,
             '[07:04] The Other Woman - Eric Jerome Dickey.epub (index_split_017.html) - 7:04 AM',
-            '
+            "Jessica [<<7:04 AM|2a>>] you make me happy ... you make me want to be better than i already am. i am so blessed to have you. I won\x{2019}t get to be with you until Thursday
 Charles [<<7:04 AM|2a>>]Thursday seems like a month away
-',
+He\x{2019}s out there, doing the same thing I did when I read the lust letters, hoping the words will change, that this reality will disappear.",
           ],
           [
             1,
             '[16:33] The Other Woman - Eric Jerome Dickey.epub (index_split_017.html) - 4:33 PM',
             "He\x{2019}s out there, doing the same thing I did when I read the lust letters, hoping the words will change, that this reality will disappear.
 Jessica [<<4:33 PM|2a>>] call me wanna see you
-",
+Charles [<<4:33 PM|2a>>] okay, will call u later. She got called in to work.",
           ],
           [
             1,
             '[16:33] The Other Woman - Eric Jerome Dickey.epub (index_split_017.html) - 4:33 PM',
-            '
+            'Jessica [<<4:33 PM|2a>>] call me wanna see you
 Charles [<<4:33 PM|2a>>] okay, will call u later. She got called in to work.
-',
+Jessica [<<4:34 PM|2a>>] call me at home asap',
           ],
           [
             1,
-            '[16:34] The Other Woman - Eric Jerome Dickey.epub (index_split_017.html) - 4:34 PM',
-            '
+            '[16:33] The Other Woman - Eric Jerome Dickey.epub (index_split_017.html) - 4:33 PM',
+            "Charles [<<4:33 PM|2a>>] okay, will call u later. She got called in to work.
 Jessica [<<4:34 PM|2a>>] call me at home asap
-',
+Charles [<<4:34 PM|2a>>] only on the cell. Don\x{2019}t get sloppy.",
           ],
           [
             1,
             '[16:34] The Other Woman - Eric Jerome Dickey.epub (index_split_017.html) - 4:34 PM',
-            "
+            "Jessica [<<4:34 PM|2a>>] call me at home asap
 Charles [<<4:34 PM|2a>>] only on the cell. Don\x{2019}t get sloppy.
-",
+Jessica [<<4:35 PM|2a>>] I don\x{2019}t care about that anymore.",
+          ],
+          [
+            1,
+            '[16:34] The Other Woman - Eric Jerome Dickey.epub (index_split_017.html) - 4:34 PM',
+            "Charles [<<4:34 PM|2a>>] only on the cell. Don\x{2019}t get sloppy.
+Jessica [<<4:35 PM|2a>>] I don\x{2019}t care about that anymore.
+Charles [<<4:38 PM|2a>>] don\x{2019}t get careless",
           ],
           [
             1,
             '[16:35] The Other Woman - Eric Jerome Dickey.epub (index_split_017.html) - 4:35 PM',
-            "
-Jessica [<<4:35 PM|2a>>] I don\x{2019}t care about that anymore.
-",
-          ],
-          [
-            1,
-            '[16:38] The Other Woman - Eric Jerome Dickey.epub (index_split_017.html) - 4:38 PM',
-            "
+            "Jessica [<<4:35 PM|2a>>] I don\x{2019}t care about that anymore.
 Charles [<<4:38 PM|2a>>] don\x{2019}t get careless
-",
+Jessica [<<4:38 PM|2a>>] he doesn\x{2019}t get back from Canada until Thursday",
           ],
           [
             1,
             '[16:38] The Other Woman - Eric Jerome Dickey.epub (index_split_017.html) - 4:38 PM',
-            "
+            "Charles [<<4:38 PM|2a>>] don\x{2019}t get careless
 Jessica [<<4:38 PM|2a>>] he doesn\x{2019}t get back from Canada until Thursday
-",
+Charles [<<4:38 PM|2a>>] That\x{2019}s no excuse. Don\x{2019}t get careless Jessie Jessica [<<4:38 PM|2a>>] Call me right now.",
           ],
           [
             1,
@@ -1030,9 +1030,9 @@ Jessica [<<4:38 PM|2a>>] he doesn\x{2019}t get back from Canada until Thursday
           [
             1,
             '[16:38] The Other Woman - Eric Jerome Dickey.epub (index_split_017.html) - 4:38 PM',
-            "
+            "Charles [<<4:38 PM|2a>>] That\x{2019}s no excuse. Don\x{2019}t get careless Jessie Jessica [<<4:38 PM|2a>>] Call me right now.
 Charles [<<4:38 PM|2a>>] told you I\x{2019}m not alone yet.
-",
+Jessica [<<4:39 PM|2a>>] We need to talk about how we\x{2019}re going to handle our situation. We need to figure out how we\x{2019}re going to do this.",
           ],
           [
             1,
@@ -1041,17 +1041,17 @@ Charles [<<4:38 PM|2a>>] told you I\x{2019}m not alone yet.
           ],
           [
             1,
-            '[16:41] The Other Woman - Eric Jerome Dickey.epub (index_split_017.html) - 4:41 PM',
-            '
+            '[16:39] The Other Woman - Eric Jerome Dickey.epub (index_split_017.html) - 4:39 PM',
+            "Jessica [<<4:39 PM|2a>>] We need to talk about how we\x{2019}re going to handle our situation. We need to figure out how we\x{2019}re going to do this.
 Jessica [<<4:41 PM|2a>>] hello
-',
+Charles [<<4:42 PM|2a>>] be patient",
           ],
           [
             1,
-            '[16:42] The Other Woman - Eric Jerome Dickey.epub (index_split_017.html) - 4:42 PM',
-            '
+            '[16:41] The Other Woman - Eric Jerome Dickey.epub (index_split_017.html) - 4:41 PM',
+            "Jessica [<<4:41 PM|2a>>] hello
 Charles [<<4:42 PM|2a>>] be patient
-',
+Jessica [<<4:42 PM|2a>>] can\x{2019}t wait anymore. Not being with you is torture. We need to talk.",
           ],
           [
             1,
@@ -1060,24 +1060,24 @@ Charles [<<4:42 PM|2a>>] be patient
           ],
           [
             1,
-            '[16:55] The Other Woman - Eric Jerome Dickey.epub (index_split_017.html) - 4:55 PM',
-            '
+            '[16:42] The Other Woman - Eric Jerome Dickey.epub (index_split_017.html) - 4:42 PM',
+            "Jessica [<<4:42 PM|2a>>] can\x{2019}t wait anymore. Not being with you is torture. We need to talk.
 Jessica [<<4:55 PM|2a>>] Hello? U there?
-',
+Jessica [<<4:56 PM|2a>>] Hello?",
+          ],
+          [
+            1,
+            '[16:55] The Other Woman - Eric Jerome Dickey.epub (index_split_017.html) - 4:55 PM',
+            "Jessica [<<4:55 PM|2a>>] Hello? U there?
+Jessica [<<4:56 PM|2a>>] Hello?
+Charles [<<4:59 PM|2a>>] I\x{2019}ll call u when she leaves",
           ],
           [
             1,
             '[16:56] The Other Woman - Eric Jerome Dickey.epub (index_split_017.html) - 4:56 PM',
-            '
-Jessica [<<4:56 PM|2a>>] Hello?
-',
-          ],
-          [
-            1,
-            '[16:59] The Other Woman - Eric Jerome Dickey.epub (index_split_017.html) - 4:59 PM',
-            "
+            "Jessica [<<4:56 PM|2a>>] Hello?
 Charles [<<4:59 PM|2a>>] I\x{2019}ll call u when she leaves
-",
+Jessica [<<4:59 PM|2a>>] you\x{2019}re the love of my life. can\x{2019}t imagine living another day without you",
           ],
           [
             1,
@@ -1087,9 +1087,9 @@ Charles [<<4:59 PM|2a>>] I\x{2019}ll call u when she leaves
           [
             1,
             '[ap 11:34] The Other Woman - Eric Jerome Dickey.epub (index_split_017.html) - 11:34',
-            '
+            'Subj: What I feel for you
 Time: <<11:34|2a>>:02 PM Pacific Daylight Time
-',
+From: Jessica',
           ],
           [
             1,

@@ -2,41 +2,43 @@ $VAR1 = [
           [
             1,
             '[02:30] The Name of the Rose - Umberto Eco.epub (index_split_005.html) - Matins',
-            "<<Matins|13>>\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0} (which Adso sometimes refers to by the older expression \x{201c}Vigiliae\x{201d}) Between <<2:30|2>> and <<3:00 in the morning|2a>>.",
+            "<<Matins|13>> (which Adso sometimes refers to by the older expression \x{201c}Vigiliae\x{201d}) Between <<2:30|2>> and <<3:00 in the morning|2a>>.",
           ],
           [
             1,
             '[05:00] The Name of the Rose - Umberto Eco.epub (index_split_005.html) - Lauds',
-            "<<Lauds|13>>\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0} (which in the most ancient tradition were called \x{201c}Matutini\x{201d} or \x{201c}<<Matins|13>>\x{201d}) Between <<5:00|2>> and <<6:00 in the morning|2a>>, in order to end at dawn.",
+            "<<Lauds|13>> (which in the most ancient tradition were called \x{201c}Matutini\x{201d} or \x{201c}<<Matins|13>>\x{201d}) Between <<5:00|2>> and <<6:00 in the morning|2a>>, in order to end at dawn.",
           ],
           [
             1,
-            '[ap ~ 07:30] The Name of the Rose - Umberto Eco.epub (index_split_005.html) - Around 7:30',
-            "Prime\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0} <<Around 7:30|2>>, shortly before daybreak. <<Terce|13>> <<Around 9:00|2>>.",
+            '[05:00] The Name of the Rose - Umberto Eco.epub (index_split_005.html) - Lauds',
+            "<<Lauds|13>> (which in the most ancient tradition were called \x{201c}Matutini\x{201d} or \x{201c}<<Matins|13>>\x{201d}) Between <<5:00|2>> and <<6:00 in the morning|2a>>, in order to end at dawn.
+Prime <<Around 7:30|2>>, shortly before daybreak. <<Terce|13>> <<Around 9:00|2>>.
+<<Sext|13>> <<Noon|13>> (in a monastery where the monks did not work in the fields, it was also the hour of the <<midday|13>> meal in winter).",
           ],
           [
             1,
             '[12:00] The Name of the Rose - Umberto Eco.epub (index_split_005.html) - Sext',
-            "<<Sext|13>>\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0} <<Noon|13>> (in a monastery where the monks did not work in the fields, it was also the hour of the <<midday|13>> meal in winter).",
+            '<<Sext|13>> <<Noon|13>> (in a monastery where the monks did not work in the fields, it was also the hour of the <<midday|13>> meal in winter).',
           ],
           [
             1,
             '[12:00] The Name of the Rose - Umberto Eco.epub (index_split_005.html) - Sext',
-            "<<Sext|13>>\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0} <<Noon|13>> (in a monastery where the monks did not work in the fields, it was also the hour of the <<midday|13>> meal in winter).
-Nones\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0} Between <<2:00|2>> and <<3:00 in the afternoon|2a>>.
-<<Vespers|13>>\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0} <<Around 4:30, at sunset|2a>> (the Rule prescribes eating supper before dark).",
+            '<<Sext|13>> <<Noon|13>> (in a monastery where the monks did not work in the fields, it was also the hour of the <<midday|13>> meal in winter).
+Nones Between <<2:00|2>> and <<3:00 in the afternoon|2a>>.
+<<Vespers|13>> <<Around 4:30, at sunset|2a>> (the Rule prescribes eating supper before dark).',
           ],
           [
             1,
             '[~ 16:30] The Name of the Rose - Umberto Eco.epub (index_split_005.html) - Vespers',
-            "<<Vespers|13>>\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0} <<Around 4:30, at sunset|2a>> (the Rule prescribes eating supper before dark).",
+            '<<Vespers|13>> <<Around 4:30, at sunset|2a>> (the Rule prescribes eating supper before dark).',
           ],
           [
             1,
             '[~ 16:30] The Name of the Rose - Umberto Eco.epub (index_split_005.html) - Vespers',
-            "<<Vespers|13>>\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0} <<Around 4:30, at sunset|2a>> (the Rule prescribes eating supper before dark).
-<<Compline|13>>\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0} <<Around 6:00|2>> (before <<7:00|2>>, the monks go to bed).
-The calculation is based on the fact that in northern Italy at the end of November, the sun rises <<around 7:30 A.M.|2a>> and sets <<around 4:40 P.M.|2a>>",
+            '<<Vespers|13>> <<Around 4:30, at sunset|2a>> (the Rule prescribes eating supper before dark).
+<<Compline|13>> <<Around 6:00|2>> (before <<7:00|2>>, the monks go to bed).
+The calculation is based on the fact that in northern Italy at the end of November, the sun rises <<around 7:30 A.M.|2a>> and sets <<around 4:40 P.M.|2a>>',
           ],
           [
             1,
@@ -229,8 +231,7 @@ In which the Aedificium is entered, a mysterious visitor is discovered, a secret
             1,
             '[~ 18:00] The Name of the Rose - Umberto Eco.epub (index_split_023.html) - compline',
             "\x{201c}He was not in choir at <<compline|13>>,\x{201d} the abbot repeated, and has not come back to his cell. <<Matins|13>> are about to ring, and we will now see if he reappears. Otherwise I fear some new calamity.\x{201d}
-At <<matins|13>> Berengar was absent.
-",
+At <<matins|13>> Berengar was absent.",
           ],
           [
             1,

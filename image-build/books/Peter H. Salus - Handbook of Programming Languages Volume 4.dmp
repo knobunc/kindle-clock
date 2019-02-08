@@ -7,7 +7,7 @@ $VAR1 = [
           [
             1,
             '[ap 02:15] Handbook of Programming Languages Volume 4 - Peter H. Salus.epub (018-022.html) - 2.15',
-            "\x{2022}\x{a0}\x{a0}The fourth drawer has in it a property list, a component we have not yet described. (See section <<2.15|5a:0>>.)",
+            "\x{2022} The fourth drawer has in it a property list, a component we have not yet described. (See section <<2.15|5a:0>>.)",
           ],
           [
             1,
@@ -24,7 +24,7 @@ A variable is a name used in a program to stand for a value. A variable has a st
           [
             1,
             '[ap 02:11] Handbook of Programming Languages Volume 4 - Peter H. Salus.epub (031-033.html) - 2.11',
-            '
+            'Next
 <<2.11|5a:0>>. Sequencing
 Most commonly, in Emacs Lisp, the Lisp interpreter evaluates expressions in the order in which they appear in the text, that is, left to right, top to bottom. However, inner expressions are evaluated first because the results they produce may be needed by the enclosing expression. Some forms, such as conditionals, evaluate enclosed expressions in uncommon ways.',
           ],
@@ -45,7 +45,7 @@ Emacs Lisp has two primary ways to cause an expression, or a series of expressio
           [
             1,
             '[ap 02:14] Handbook of Programming Languages Volume 4 - Peter H. Salus.epub (041-044.html) - 2.14',
-            '
+            'Next
 <<2.14|5a:0>>. Macros
 The defmacro built-in function allows you define new features in Emacs Lisp.',
           ],
@@ -59,7 +59,7 @@ A property list, or plist for short, is a list of paired elements stored in the 
           [
             1,
             '[ap 02:16] Handbook of Programming Languages Volume 4 - Peter H. Salus.epub (044-047.html) - 2.16',
-            '
+            'Next
 <<2.16|5a:0>>. Keymaps
 A keymap tells Emacs what definition to call when you press a key or mouse button. Thus, in Text mode, typing the a key runs self-insert- command, which inserts the letter a. Typing the keychord C-a runs beginning-of-line, which moves point to the beginning of the current line.',
           ],
@@ -73,7 +73,7 @@ GNU Emacs has two modes for editing Emacs Lisp: Lisp Interaction mode and Emacs-
           [
             1,
             '[ap 02:18] Handbook of Programming Languages Volume 4 - Peter H. Salus.epub (047-050.html) - 2.18',
-            '
+            'Next
 <<2.18|5a:0>>. Help
 GNU Emacs provides a wealth of online documentation and help. It is well worth learning to use these riches.',
           ],
@@ -96,7 +96,7 @@ GNU Emacs can keep either a single backup file or a series of numbered backup fi
             '[ap 02:21] Handbook of Programming Languages Volume 4 - Peter H. Salus.epub (050-054.html) - 2.21',
             "By default, Emacs saves your files every 300 keystrokes, or after around 30 seconds of idle time. You can examine your auto-saved files like any other file, or use the M-x recover-file command to restore them.
 <<2.21|9p>>. Evaluating or Loading a Whole File
-To evaluate, or load, a whole file, use the M-x load-file command. This interactive function reads a filename using Emacs\x{2019}s minibuffer and then evaluates the complete contents of that file as Lisp.  Incidentally, you can evaluate a whole buffer with the M-x eval-current-buffer command and evaluate a region within a buffer with the M-x eval-region command.",
+To evaluate, or load, a whole file, use the M-x load-file command. This interactive function reads a filename using Emacs\x{2019}s minibuffer and then evaluates the complete contents of that file as Lisp. Incidentally, you can evaluate a whole buffer with the M-x eval-current-buffer command and evaluate a region within a buffer with the M-x eval-region command.",
           ],
           [
             1,
@@ -125,11 +125,9 @@ GNU Emacs is customizable and extensible. This means you can change how Emacs wo
           [
             1,
             '[ap 11:12] Handbook of Programming Languages Volume 4 - Peter H. Salus.epub (book-index_split_001.html) - 11-12',
-            'defining
-classes (CLOS), 111
+            'defining classes (CLOS), 111
 Emacs Lisp functions, <<11-12|5a:0>>
-functions
-generic (CLOS), 152',
+functions generic (CLOS), 152',
           ],
           [
             1,
@@ -155,8 +153,7 @@ source, accessing, 47',
           [
             1,
             '[18:19] Handbook of Programming Languages Volume 4 - Peter H. Salus.epub (book-index_split_001.html) - 18-19',
-            'symbols
-components, 18
+            'symbols components, 18
 evaluating, <<18-19|5a:0>>, 21
 property lists, 44',
           ],
@@ -164,8 +161,7 @@ property lists, 44',
             1,
             '[17:18] Handbook of Programming Languages Volume 4 - Peter H. Salus.epub (book-index_split_001.html) - 17-18',
             'property lists, 44
-variables, <<17-18|5a:0>>, 25
-buffer-local variables, 29-31
+variables, <<17-18|5a:0>>, 25 buffer-local variables, 29-31
 global, 26-27',
           ],
           [
@@ -173,8 +169,7 @@ global, 26-27',
             '[17:18] Handbook of Programming Languages Volume 4 - Peter H. Salus.epub (book-index_split_001.html) - 17-18',
             'setting with let expression, 28-29
 values, <<17-18|5a:0>>
-empty lists
-Emacs Lisp, 8',
+empty lists Emacs Lisp, 8',
           ],
           [
             1,
@@ -228,8 +223,7 @@ non-interactive functions (Emacs Lisp), 14',
           [
             1,
             '[18:19] Handbook of Programming Languages Volume 4 - Peter H. Salus.epub (book-index_split_001.html) - 18-19',
-            'Emacs Lisp
-components, 18
+            'Emacs Lisp components, 18
 evaluating, <<18-19|5a:0>>, 21
 property lists, 44',
           ],
@@ -245,23 +239,20 @@ toggling window properties, 92',
             '[17:19] Handbook of Programming Languages Volume 4 - Peter H. Salus.epub (book-index_split_001.html) - 17-19',
             'V
 values, Emacs Lisp variables, <<17-19|5a:0>>
-variables (Emacs Lisp), <<17-18|5a:0>>, 25-29
-buffer-local variables, 29-31',
+variables (Emacs Lisp), <<17-18|5a:0>>, 25-29 buffer-local variables, 29-31',
           ],
           [
             1,
             '[17:19] Handbook of Programming Languages Volume 4 - Peter H. Salus.epub (book-index_split_001.html) - 17-19',
             'values, Emacs Lisp variables, <<17-19|5a:0>>
-variables (Emacs Lisp), <<17-18|5a:0>>, 25-29
-buffer-local variables, 29-31
+variables (Emacs Lisp), <<17-18|5a:0>>, 25-29 buffer-local variables, 29-31
 global, 26-27',
           ],
           [
             1,
             '[ap 02:10] Handbook of Programming Languages Volume 4 - Peter H. Salus.epub (ewtoc.html) - 2.10',
             '2.9. The read-eval-print Loop and Side Effects
-<<2.10|5a:0>>. Types of Variables
-2.10.1. defvar and defconst
+<<2.10|5a:0>>. Types of Variables 2.10.1. defvar and defconst
 2.10.2. setq',
           ],
           [
@@ -269,33 +260,27 @@ global, 26-27',
             '[ap 02:11] Handbook of Programming Languages Volume 4 - Peter H. Salus.epub (ewtoc.html) - 2.11',
             '2.10.5. Buffer-Local Variables
 <<2.11|5a:0>>. Sequencing
-<<2.12|5a:0>>. Conditionals
-2.12.1. and, or, and not',
+<<2.12|5a:0>>. Conditionals 2.12.1. and, or, and not',
           ],
           [
             1,
             '[ap 02:11] Handbook of Programming Languages Volume 4 - Peter H. Salus.epub (ewtoc.html) - 2.11',
             '<<2.11|9p>>. Sequencing
-<<2.12|5a:0>>. Conditionals
-2.12.1. and, or, and not
-<<2.13|5a:0>>. while Loops and Recursion
-2.13.1. while',
+<<2.12|5a:0>>. Conditionals 2.12.1. and, or, and not
+<<2.13|5a:0>>. while Loops and Recursion 2.13.1. while',
           ],
           [
             1,
             '[ap 02:12] Handbook of Programming Languages Volume 4 - Peter H. Salus.epub (ewtoc.html) - 2.12',
-            '<<2.12|9p>>. Conditionals
-2.12.1. and, or, and not
-<<2.13|5a:0>>. while Loops and Recursion
-2.13.1. while
+            '<<2.12|9p>>. Conditionals 2.12.1. and, or, and not
+<<2.13|5a:0>>. while Loops and Recursion 2.13.1. while
 2.13.2. car, cdr, cons: Fundamental Functions',
           ],
           [
             1,
             '[ap 02:14] Handbook of Programming Languages Volume 4 - Peter H. Salus.epub (ewtoc.html) - 2.14',
             '2.13.4. Recursion
-<<2.14|5a:0>>. Macros
-2.14.1. The list Built-in Function
+<<2.14|5a:0>>. Macros 2.14.1. The list Built-in Function
 2.14.2. Backquote',
           ],
           [
@@ -324,15 +309,13 @@ global, 26-27',
             '[ap 02:17] Handbook of Programming Languages Volume 4 - Peter H. Salus.epub (ewtoc.html) - 2.17',
             '<<2.17|9p>>. Editing Lisp
 <<2.18|5a:0>>. Help
-<<2.19|5a:0>>. Debugging
-2.19.1. The Built-in Debugger',
+<<2.19|5a:0>>. Debugging 2.19.1. The Built-in Debugger',
           ],
           [
             1,
             '[ap 02:18] Handbook of Programming Languages Volume 4 - Peter H. Salus.epub (ewtoc.html) - 2.18',
             '<<2.18|9p>>. Help
-<<2.19|5a:0>>. Debugging
-2.19.1. The Built-in Debugger
+<<2.19|5a:0>>. Debugging 2.19.1. The Built-in Debugger
 2.19.2. Edebug',
           ],
           [
@@ -359,8 +342,8 @@ global, 26-27',
           [
             1,
             '[ap 02:22] Handbook of Programming Languages Volume 4 - Peter H. Salus.epub (ewtoc.html) - 2.22',
-            '<<2.22|9p>>. Byte Compilation
+            "<<2.22|9p>>. Byte Compilation
 <<2.23|5a:0>>. Your .emacs Initialization File
-',
+Part II\x{2014}Scheme Chapter 3\x{2014}Scheme 3.1. Who Uses Scheme?",
           ],
         ];

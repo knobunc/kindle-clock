@@ -123,7 +123,7 @@ LOSS OF POWER DETECTED, TIME/DATE UNRELIABLE',
             '[ap 00:04] The Martian - Andy Weir.epub (text/part0010.html) - 12:04',
             "[<<12:04|2>>]JPL: We\x{2019}ll get botanists in to ask detailed questions and double-check your work. Your life is at stake, so we want to be sure. Sol 900 is great news. It\x{2019}ll give us a lot more time to get the supply mission together. Also, please watch your language. Everything you type is being broadcast live all over the world.
 [<<12:15|2>>]WATNEY: Look! A pair of boobs! -> (.Y.)
-",
+\x{201c}Thank you, Mr. President,\x{201d} Teddy said in to the phone. \x{201c}I appreciate the call, and I\x{2019}ll pass your congratulations on to the whole organization.\x{201d}",
           ],
           [
             1,
@@ -133,7 +133,7 @@ LOSS OF POWER DETECTED, TIME/DATE UNRELIABLE',
           [
             1,
             '[ap 08:12] The Martian - Andy Weir.epub (text/part0014.html) - 08:12',
-            "
+            "Project Iris
 [<<08:12|2>>]WATNEY: Test.
 [<<08:25|2>>]JPL: Received! You gave us quite a scare there. Thanks for the \x{201c}A-OK\x{201d} message. Our analysis of satellite imagery shows a complete detachment of Airlock 1. Is that correct? What\x{2019}s your status? Include your personal health and Hab equipment.",
           ],
@@ -172,7 +172,7 @@ LOSS OF POWER DETECTED, TIME/DATE UNRELIABLE',
             '[ap 09:31] The Martian - Andy Weir.epub (text/part0014.html) - 09:31',
             "[<<09:31|2>>]WATNEY: Yay, I get to stare at a wall for several hours! By the way, the farm is dead. I\x{2019}ve recovered as many potatoes as I could and stored them outside. I count 1841. That will last me 184 days. Including the remaining mission rations, I\x{2019}ll start starving on Sol 584.
 [<<09:44|2>>]JPL: Yeah, we figured. Working on it.
-",
+\x{201c}It\x{2019}s Sol 122,\x{201d} Bruce said. \x{201c}We have until Sol 584 to get a probe to Mars. That\x{2019}s 462 sols, which is 475 days.\x{201d}",
           ],
           [
             1,
@@ -194,7 +194,7 @@ LOSS OF POWER DETECTED, TIME/DATE UNRELIABLE',
             '[ap 08:31] The Martian - Andy Weir.epub (text/part0014.html) - 08:31',
             "[<<08:31|2>>]JPL: Good, keep us posted on any mechanical or electronic problems. By the way, the name of the probe we're sending is \x{201c}Iris\x{201d}. Named after the Greek goddess who traveled the heavens with the speed of wind. She's also the goddess of rainbows.
 [<<08:47|2>>]WATNEY: Gay probe coming to save me. Got it.
-",
+Rich Purnell sipped coffee in the silent building. Only his cubicle illuminated the otherwise dark room. Continuing with his computations, he ran a final test on the software he'd written. It passed.",
           ],
           [
             1,
@@ -204,7 +204,7 @@ LOSS OF POWER DETECTED, TIME/DATE UNRELIABLE',
           [
             1,
             '[ap 08:01] The Martian - Andy Weir.epub (text/part0014.html) - 08:01',
-            '
+            'Mike shrugged and walked away.
 [<<08:01|2>>]WATNEY: How\'s my care package coming along?
 [<<08:16|2>>]JPL: A little behind schedule, but we\'ll get it done. In the mean time, we want you to get back to work. We\'re satisfied the Hab\'s is in good condition. Maintenance only takes you 12 hours per week. We\'re going to pack the rest of your time with research and experiments.',
           ],
@@ -235,7 +235,7 @@ LOSS OF POWER DETECTED, TIME/DATE UNRELIABLE',
             '[ap 09:02] The Martian - Andy Weir.epub (text/part0014.html) - 09:02',
             '[<<09:02|2>>]WATNEY: Opportunity never went back to Earth.
 [<<09:17|2>>]JPL: Sorry. Bad analogy.
-',
+The Whiteroom was abuzz with activity as technicians sealed Iris in to the specially-designed shipping container.',
           ],
           [
             1,
@@ -255,9 +255,8 @@ LOSS OF POWER DETECTED, TIME/DATE UNRELIABLE',
           [
             1,
             '[16:03] The Martian - Andy Weir.epub (text/part0014.html) - 16:03',
-            '
-[<<16:03|2>>]WATNEY: How\'d the launch go?
-',
+            'A brief chime came from his computer. Glancing over, he saw an email from JPL. A relayed message from Pathfinder:
+[<<16:03|2>>]WATNEY: How\'d the launch go?',
           ],
           [
             1,
@@ -272,7 +271,7 @@ LOSS OF POWER DETECTED, TIME/DATE UNRELIABLE',
           [
             1,
             '[14:38] The Martian - Andy Weir.epub (text/part0016.html) - 14:38',
-            '
+            'How will I cut a big chunk out of a rover\'s hull? I\'ll let my lovely assistant Venkat Kapoor explain further:
 [<<14:38|2>>]JPL: I\'m sure you\'re wondering how to cut a hole in the rover.
 Our experiments show a rock sample drill can get through the hull. Wear and tear on the bit is minimal (rocks are harder than carbon composite). You can cut holes in a line, then chisel out the remaining chunks between them.',
           ],
@@ -281,7 +280,7 @@ Our experiments show a rock sample drill can get through the hull. Wear and tear
             '[12:00] The Martian - Andy Weir.epub (text/part0016.html) - midday',
             'Worked like a charm! The drill whirled away with happy abandon. Somehow, I had managed to do everything right the first try. Deep down, I thought I\'d fry the drill for sure.
 It wasn\'t even <<midday|13>> yet. I figured why not get a jump on drilling?
-',
+[<<10:07|2>>] Watney: Power line modifications complete. Hooked it up to a drill, and it works great. Plenty of daylight left. Send me a description of that hole you want me to cut.',
           ],
           [
             1,
@@ -315,7 +314,7 @@ It wasn\'t even <<midday|13>> yet. I figured why not get a jump on drilling?
             '[ap 00:07] The Martian - Andy Weir.epub (text/part0016.html) - 12:07',
             '[<<12:07|2>>] Watney: That\'s what she said.
 [<<12:25|2>>] JPL: Seriously, Mark? Seriously?
-',
+First, I depressurized the trailer. Call me crazy, but I didn\'t want the drill explosively launched at my face.',
           ],
           [
             1,
@@ -325,7 +324,7 @@ It wasn\'t even <<midday|13>> yet. I figured why not get a jump on drilling?
           [
             1,
             '[17:12] The Martian - Andy Weir.epub (text/part0016.html) - 17:12',
-            '
+            'But at least I have encouraging messages from Venkat to cheer me on!
 [<<17:12|2>>] Watney: 145 holes today. 357 total.
 [<<17:31|2>>] JPL: We thought you\'d have more done by now.',
           ],
@@ -334,7 +333,7 @@ It wasn\'t even <<midday|13>> yet. I figured why not get a jump on drilling?
             '[17:12] The Martian - Andy Weir.epub (text/part0016.html) - 17:12',
             '[<<17:12|2>>] Watney: 145 holes today. 357 total.
 [<<17:31|2>>] JPL: We thought you\'d have more done by now.
-',
+Dick.',
           ],
           [
             1,
@@ -369,7 +368,7 @@ It wasn\'t even <<midday|13>> yet. I figured why not get a jump on drilling?
           [
             1,
             '[18:09] The Martian - Andy Weir.epub (text/part0016.html) - 18:09',
-            '
+            'Back when JPL\'s Nerd Brigade hacked the rover and Pathfinder to be an poor-man\'s IM client, they sent me a cheat sheet for troubleshooting. I executed the first instruction:
 [<<18:09|2>>] Watney: system_command: STATUS
 [<<18:09|2>>] SYSTEM: Last message sent <<00h31m|1b>> ago. Last message received 26h17m ago. Last ping reply from probe received <<04h24m|1b>> ago. WARNING: 52 unanswered pings.',
           ],
@@ -486,9 +485,9 @@ It wasn\'t even <<midday|13>> yet. I figured why not get a jump on drilling?
           [
             1,
             '[ap 08:41] The Martian - Andy Weir.epub (text/part0024.html) - 08:41',
-            '
+            "\x{201c}Yeah. Great.\x{201d} Venkat said.
 [<<08:41|2>>]MAV: You fucking kidding me?
-[<<09:55|2>>]HOUSTON: Admittedly, they are very invasive modifications, but they have to be done. The procedure doc we sent has instructions for each of these steps with tools you have on hand. Also, you\'ll need to start electrolyzing water to get the hydrogen for the fuel plant. We\'ll send you procedures for that shortly.',
+[<<09:55|2>>]HOUSTON: Admittedly, they are very invasive modifications, but they have to be done. The procedure doc we sent has instructions for each of these steps with tools you have on hand. Also, you'll need to start electrolyzing water to get the hydrogen for the fuel plant. We'll send you procedures for that shortly.",
           ],
           [
             1,
@@ -512,12 +511,12 @@ It wasn\'t even <<midday|13>> yet. I figured why not get a jump on drilling?
             '[ap 09:24] The Martian - Andy Weir.epub (text/part0024.html) - 09:24',
             '[<<09:24|2>>]HOUSTON: There will be Hab canvas covering the holes. It will provide enough aerodynamics in Mars\'s atmosphere.
 [<<09:38|2>>]MAV: So it\'s a ragtop. Much better.
-',
+LOG ENTRY: SOL 506',
           ],
           [
             1,
             '[19:22] The Martian - Andy Weir.epub (text/part0024.html) - 19:22',
-            '
+            'If I survive this, I\'ll tell people I pissed my way in to orbit.
 [<<19:22|2>>]JOHANSSEN: Hello, Mark.
 [<<19:23|2>>]MAV: Johanssen!? Holy crap! They finally letting you talk to me directly?',
           ],
@@ -587,7 +586,7 @@ It wasn\'t even <<midday|13>> yet. I figured why not get a jump on drilling?
             '[19:29] The Martian - Andy Weir.epub (text/part0024.html) - 19:29',
             '[<<19:29|2>>]JOHANSSEN: I didn\'t type that! That was Martinez! I stepped away from the console for like 10 seconds!
 [<<19:29|2>>]MAV: I\'ve really missed you guys.
-',
+LOG ENTRY: SOL 543',
           ],
           [
             1,

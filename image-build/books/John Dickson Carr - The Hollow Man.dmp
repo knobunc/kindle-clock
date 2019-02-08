@@ -27,9 +27,9 @@ $VAR1 = [
           [
             1,
             '[ap 10:10] The Hollow Man - John Dickson Carr.epub (7_split_000.xhtml) - ten minutes past ten',
-            '
+            '\'And when did you hear the shot?\'
 \'At exactly <<ten minutes past ten|10>>.\'
-',
+\'You mean to say that you watched the door all that time?\'',
           ],
           [
             1,
@@ -58,10 +58,10 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 10:00] The Hollow Man - John Dickson Carr.epub (7_split_001.xhtml) - Ten o\'clock',
-            '
+            '[ap 10:00] The Hollow Man - John Dickson Carr.epub (7_split_001.xhtml) - ten o\'clock',
+            '\'Er - yes,\' said Mangan. He had taken out a handkerchief and was mopping his forehead. Seen sideways in the fire - light there were many small wrinkles across the forehead of the thin, hollowed, sharp - angled face. \'That was another reason why I didn\'t tumble to who it might be. He was too early. The professor said <<ten o\'clock|6>>, and this fellow arrived at a quarter to.\'
 \'<<Ten o\'clock|6>>. I see. You\'re sure he said that?\'
-',
+\'Well - yes! At least, I think so. <<About ten o\'clock|6>>. Wasn\'t it, Rosette?\'',
           ],
           [
             1,
@@ -81,9 +81,9 @@ $VAR1 = [
           [
             1,
             '[ap 10:00] The Hollow Man - John Dickson Carr.epub (7_split_001.xhtml) - ten o\'clock',
-            '
+            'The superintendent was still drawing designs, meditatively. He seemed about to ask a question, but checked himself. Rosette regarded him with a sharp, unwinking gaze. Hadley merely said:
 \'Go on. You were waiting for <<ten o\'clock|6>> -\'
-',
+\'And nothing happened,\' Mangan insisted. \'But, a funny thing, every minute <<past ten o\'clock|6>> I got more nervous instead of more relieved. I told you I didn\'t really expect the man would come, or that there would be any trouble. But I kept picturing that dark hall, and the queer suit of armour with the mask out there, and the more I thought of it the less I liked it ...\'',
           ],
           [
             1,
@@ -128,9 +128,9 @@ $VAR1 = [
           [
             1,
             '[19:05] The Hollow Man - John Dickson Carr.epub (7_split_001.xhtml) - 1905',
-            '
+            'The other\'s long face looked muddled; an illusion as though the features had got out of line. \'In Paris. He took his doctorate at the university in 1905, the same year I - the same year I knew him.\' Facts seemed to elude Drayman; he shaded his eyes with his hand, and his voice had a querulous note like a man asking where somebody has hidden his collar studs. \'Grimaud was very brilliant. He obtained an associate professorship at Dijon the year afterwards. But a relative died, or something of the sort, and left him well provided for. He - he gave up his work and came to England shortly afterwards. Or so I understand. I did not see him until years afterwards. Was that what you wished to know?\'
 \'Did you ever know him before <<1905|9c:0>>?\'
-',
+\'No.\'',
           ],
           [
             1,
@@ -180,9 +180,9 @@ $VAR1 = [
           [
             1,
             '[ap > 10:00] The Hollow Man - John Dickson Carr.epub (7_split_002.xhtml) - past ten',
-            '
+            '\'How do you know that, Miss Grimaud? Were you here?\'
 \'No. But I saw a light in this room at half - <<past ten|9k:0>>.\'
-',
+BURNABY, still rubbing his chin, looked down at her in dull blankness. Rampole could have sworn that the roan was genuinely startled; so startled that he could not quite understand her words, and peered at her as though he had never seen her before. Then he spoke in a quiet, common - sense tone which contrasted with his earlier one.',
           ],
           [
             1,
@@ -202,9 +202,9 @@ $VAR1 = [
           [
             1,
             '[ap > 10:00] The Hollow Man - John Dickson Carr.epub (7_split_002.xhtml) - past ten',
-            '
+            'The superintendent swung his batteries so quickly that Burnaby had hardly finished speaking before Hadley had turned to Rosette.
 \'You still insist that you saw a light here at half - <<past ten|9k:0>>."
-',
+\'Yes!... But, Jerome, truly I never meant -!\'',
           ],
           [
             1,
@@ -248,17 +248,17 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 07:30] The Hollow Man - John Dickson Carr.epub (7_split_003.xhtml) - 7.30',
-            '
-\'<<7.30|5a:0>> Rosette G. and Mangan go to drawing - room.
-',
+            '[ap 07:00] The Hollow Man - John Dickson Carr.epub (7_split_003.xhtml) - seven o\'clock',
+            '\'Don\'t mix me up now,\' Rampole urged. \'Let\'s go on with this time - table and see if we can discover anything else. Haa! Where were we? Yes. Dinner we\'ll put at <<seven o\'clock|6>>, because we know it was over at <<seven|9c:1>> - thirty. Hence -
+\'<<7.30|5a:1>> Rosette G. and Mangan go to drawing - room.
+\'<<7.30|5a:1>> Drayman goes upstairs to his room.',
           ],
           [
             1,
             '[ap 07:30] The Hollow Man - John Dickson Carr.epub (7_split_003.xhtml) - 7.30',
-            '
+            '\'<<7.30|5a:0>> Rosette G. and Mangan go to drawing - room.
 \'<<7.30|5a:0>> Drayman goes upstairs to his room.
-',
+\'<<7.30|5a:0>> E. Dumont - where she goes is not known, except that she remains in the house.',
           ],
           [
             1,
@@ -268,9 +268,9 @@ $VAR1 = [
           [
             1,
             '[ap 07:30] The Hollow Man - John Dickson Carr.epub (7_split_003.xhtml) - 7.30',
-            '
+            '\'<<7.30|5a:0>> E. Dumont - where she goes is not known, except that she remains in the house.
 \'<<7.30|5a:0>> Mills goes to downstairs library.
-',
+\'<<7.30|5a:0>> Grimaud joins Mills in downstairs library, tells him to come upstairs <<about 9.30|5a:0>>, since he expects a visitor then.',
           ],
           [
             1,
@@ -285,23 +285,23 @@ $VAR1 = [
           [
             1,
             '[ap 07:35] The Hollow Man - John Dickson Carr.epub (7_split_003.xhtml) - 7.35',
-            '
+            '\'Arc you sure it does?\' inquired Dorothy, searching after cigarettes. \'H\'m! Well, carry on.\'
 \'(About) <<7.35|5a:0>> Grimaud goes up to his study.
-',
+\'<<7.35|5a:0>> to <<9.30|5a:0>>, no developments. Nobody moves. Heavy snow.',
           ],
           [
             1,
             '[ap 07:35] The Hollow Man - John Dickson Carr.epub (7_split_003.xhtml) - 7.35',
-            '
+            '\'(About) <<7.35|5a:0>> Grimaud goes up to his study.
 \'<<7.35|5a:0>> to <<9.30|5a:0>>, no developments. Nobody moves. Heavy snow.
-',
+(About) <<9.30|5a:0>> snow stops.',
           ],
           [
             1,
-            '[ap 09:30] The Hollow Man - John Dickson Carr.epub (7_split_003.xhtml) - 9.30',
-            '
+            '[ap 07:35] The Hollow Man - John Dickson Carr.epub (7_split_003.xhtml) - 7.35',
+            '\'<<7.35|5a:0>> to <<9.30|5a:0>>, no developments. Nobody moves. Heavy snow.
 (About) <<9.30|5a:0>> snow stops.
-',
+(About) <<9.30|5a:0>> E. Dumont collects coffee - tray from Grimaud\'s study. Grimaud remarks that visitor will probably not come that night. E. Dumont leaves study just as -',
           ],
           [
             1,
@@ -311,16 +311,16 @@ $VAR1 = [
           [
             1,
             '[ap 09:30] The Hollow Man - John Dickson Carr.epub (7_split_003.xhtml) - 9.30',
-            '
+            '(About) <<9.30|5a:0>> E. Dumont collects coffee - tray from Grimaud\'s study. Grimaud remarks that visitor will probably not come that night. E. Dumont leaves study just as -
 (<<9.30|5a:0>>) Mills comes upstairs.
-',
+\'I don\'t think anything noticeable happened in the next interval. Mills was upstairs, Drayman in his room, and Rosette and Boyd in the front room with the radio on ... Wait! I\'m forgetting something. A little while before the door - bell rang, Rosette heard a thud from somewhere out in the street, as though somebody had fallen off a high place...\'',
           ],
           [
             1,
             '[ap 09:45] The Hollow Man - John Dickson Carr.epub (7_split_003.xhtml) - 9.45',
-            '
+            '\'Apparently it wasn\'t playing loudly enough to - Yes, it was, though. It made such a racket they could hardly hear the fake "Pettis\'s" voice. But put that in order:
 \'<<9.45|5a:0>> Door - bell rings.
-',
+\'<<9.45|5a:0>> to <<9.50|5a:0>> E. Dumont goes to answer door; speaks to visitor (failing to recognize voice). She receives card, shuts the door on him, examines card and finds it blank, hesitates, and starts upstairs...',
           ],
           [
             1,
@@ -349,10 +349,10 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 10:10] The Hollow Man - John Dickson Carr.epub (7_split_003.xhtml) - 10.10',
-            '
+            '[ap 09:50] The Hollow Man - John Dickson Carr.epub (7_split_003.xhtml) - 9.50',
+            '\'<<9.50|5a:0>> to <<10.10|5a:0>> Mills watches door from end of hall; Dumont watches same door from staircase landing.
 \'<<10.10|5a:0>> Shot is fired.
-',
+\'<<10.10|5a:0>> to <<10.12|5a:0>> Mangan in front room finds door to hall locked, on the inside.',
           ],
           [
             1,
@@ -371,24 +371,24 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 10:12] The Hollow Man - John Dickson Carr.epub (7_split_003.xhtml) - 10.12',
-            '
+            '[ap 10:10] The Hollow Man - John Dickson Carr.epub (7_split_003.xhtml) - 10.10',
+            '\'<<10.10|5a:0>> to <<10.12|5a:0>> Mangan in front room finds door to hall locked, attempts to break it and fails. He then jumps out window, just as -
 \'<<10.12|5a:0>> We arrive outside; front door unlocked; we go up to study.
-',
+\'<<10.12|5a:0>> to <<10.15|5a:0>> Door is opened with pliers, Grimaud found shot.',
           ],
           [
             1,
             '[ap 10:12] The Hollow Man - John Dickson Carr.epub (7_split_003.xhtml) - 10.12',
-            '
+            '\'<<10.12|5a:0>> We arrive outside; front door unlocked; we go up to study.
 \'<<10.12|5a:0>> to <<10.15|5a:0>> Door is opened with pliers, Grimaud found shot.
-',
+\'<<10.15|5a:0>> to <<10.20|5a:0>> Investigation, ambulance sent for.',
           ],
           [
             1,
-            '[ap 10:15] The Hollow Man - John Dickson Carr.epub (7_split_003.xhtml) - 10.15',
-            '
+            '[ap 10:12] The Hollow Man - John Dickson Carr.epub (7_split_003.xhtml) - 10.12',
+            '\'<<10.12|5a:0>> to <<10.15|5a:0>> Door is opened with pliers, Grimaud found shot.
 \'<<10.15|5a:0>> to <<10.20|5a:0>> Investigation, ambulance sent for.
-',
+\'<<10.20|5a:0>> Ambulance arrives. Grimaud removed. Rosette goes with him in ambulance. Boyd M., at orders from Hadley, goes downstairs to telephone police.',
           ],
           [
             1,
@@ -412,17 +412,17 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 10:20] The Hollow Man - John Dickson Carr.epub (7_split_003.xhtml) - 10.20',
-            '
-\'<<10.20|5a:0>> to <<10.25|5a:0>> Arrival and departure of ambulance with Grimaud.
-',
+            '[ap 10:15] The Hollow Man - John Dickson Carr.epub (7_split_003.xhtml) - ten-fifteen',
+            'Rampole shrugged. \' If it did, he pointed out, \' then it flew over from Guilford Street. It wasn\'t sent for before <<ten-fifteen|9c:1>>, and even so it\'s something like a miracle that they had it at Grimaud\'s in five minutes. No, Boyd and Rosette are out of it. Besides, now that I remember, she was at the nursing - home - in the presence of witnesses - when she saw the light in the window of Burnaby\'s flat at <<ten|9c:1>> - thirty. Let\'s put the rest into the record and exonerate anyone else we can.
+\'<<10.20|5a:1>> to <<10.25|5a:1>> Arrival and departure of ambulance with Grimaud.
+\'<<10.25|5a:1>> Fley shot in Cagliostro Street.',
           ],
           [
             1,
-            '[ap 10:25] The Hollow Man - John Dickson Carr.epub (7_split_003.xhtml) - 10.25',
-            '
+            '[ap 10:20] The Hollow Man - John Dickson Carr.epub (7_split_003.xhtml) - 10.20',
+            '\'<<10.20|5a:0>> to <<10.25|5a:0>> Arrival and departure of ambulance with Grimaud.
 \'<<10.25|5a:0>> Fley shot in Cagliostro Street.
-',
+\'<<10.20|5a:0>> to (at least) <<10.30|5a:0>> Stuart Mills remains with us in study, answering questions.',
           ],
           [
             1,
@@ -431,10 +431,10 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 10:25] The Hollow Man - John Dickson Carr.epub (7_split_003.xhtml) - 10.25',
-            '
+            '[ap 10:20] The Hollow Man - John Dickson Carr.epub (7_split_003.xhtml) - 10.20',
+            '\'<<10.20|5a:0>> to (at least) <<10.30|5a:0>> Stuart Mills remains with us in study, answering questions.
 \'<<10.25|5a:0>> Madame Dumont comes into study.
-',
+\'<<10.30|5a:0>> Rosette, at nursing - home. sees a light in the window of Burnaby\'s flat.',
           ],
           [
             1,
@@ -443,24 +443,24 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 10:25] The Hollow Man - John Dickson Carr.epub (7_split_003.xhtml) - 10.25',
-            '
+            '[ap 10:30] The Hollow Man - John Dickson Carr.epub (7_split_003.xhtml) - 10.30',
+            '\'<<10.30|5a:0>> Rosette, at nursing - home. sees a light in the window of Burnaby\'s flat.
 \'<<10.25|5a:0>> to <<10.40|5a:0>> Madame Dumont remains with us in the study.
-',
+\'<<10.40|5a:0>> Rosette returns from nursing - home.',
           ],
           [
             1,
-            '[ap 10:40] The Hollow Man - John Dickson Carr.epub (7_split_003.xhtml) - 10.40',
-            '
+            '[ap 10:25] The Hollow Man - John Dickson Carr.epub (7_split_003.xhtml) - 10.25',
+            '\'<<10.25|5a:0>> to <<10.40|5a:0>> Madame Dumont remains with us in the study.
 \'<<10.40|5a:0>> Rosette returns from nursing - home.
-',
+\'<<10.40|5a:0>> Arrival of police at Hadley\'s call.\'',
           ],
           [
             1,
             '[ap 10:40] The Hollow Man - John Dickson Carr.epub (7_split_003.xhtml) - 10.40',
-            '
+            '\'<<10.40|5a:0>> Rosette returns from nursing - home.
 \'<<10.40|5a:0>> Arrival of police at Hadley\'s call.\'
-',
+Rampole, sitting back to run his eye down the scrawl, drew a long flourish under the last item.',
           ],
           [
             1,

@@ -7,9 +7,9 @@ $VAR1 = [
           [
             1,
             '[~ 14:30] The Shell Seekers - Rosamunde Pilcher.epub (The_Shell_Seekers_split_003.html) - about half past two this afternoon',
-            '
+            '"Home? When did you get home?"
 "At <<about half past two this afternoon|10>>."
-',
+"But I thought they were going to keep you in for at least a week."',
           ],
           [
             1,
@@ -44,9 +44,9 @@ $VAR1 = [
           [
             1,
             '[ap 00:15] The Shell Seekers - Rosamunde Pilcher.epub (The_Shell_Seekers_split_005.html) - twelve-fifteen',
-            '
+            '"An outside call, Miss Keeling."
 She looked at her watch. It was <<twelve-fifteen|5b>>.
-',
+"Who is it? I\'m just going out for lunch."',
           ],
           [
             1,
@@ -61,9 +61,9 @@ She looked at her watch. It was <<twelve-fifteen|5b>>.
           [
             1,
             '[ap 00:45] The Shell Seekers - Rosamunde Pilcher.epub (The_Shell_Seekers_split_005.html) - quarter to one',
-            '
-"Yes. A <<quarter to one|10>>. I\'m afraid I\'m a bit late."
-',
+            "\"You have a table ordered?\"
+\"Yes. A <<quarter to one|10>>. I'm afraid I'm a bit late.\"
+\"No matter\x{2014}if you'd like to come through.\"",
           ],
           [
             1,
@@ -88,9 +88,9 @@ She looked at her watch. It was <<twelve-fifteen|5b>>.
           [
             1,
             '[ap 07:30] The Shell Seekers - Rosamunde Pilcher.epub (The_Shell_Seekers_split_006.html) - Half past seven',
-            '
+            '"Good morning. I\'ve brought you early-morning tea." She set down the tray beside him and went to fling wide the shutters. Slanted rays of early sun filled the room with light. Cosmo stretched out an arm for his watch.
 "<<Half past seven|10>>. You\'re an early bird."
-',
+"I came to tell you that I am better." She sat on his bed. "And to say I\'m sorry that I\'ve been so feeble, and to say thank you for being so understanding and kind."',
           ],
           [
             1,
@@ -247,9 +247,9 @@ With a delightful smile she went, closing the door behind her. Noel, left alone,
           [
             1,
             '[ap ~ 09:00] The Shell Seekers - Rosamunde Pilcher.epub (The_Shell_Seekers_split_009.html) - About nine o\'clock',
-            '
+            '"Of course we will come," Sophie told her.
 "<<About nine o\'clock|6>>? What a treat."
-',
+They went, and found the Friedmanns there before them, sitting around the glowing gas stove in the Cliffords\' old-fashioned parlour. They were very young, and very mannerly, springing to their feet in order to be introduced. But, Penelope thought, they were old, too. They had about them a sort of poverty-stricken dignity that was beyond age, and when they smiled and said hello, their smiles did not reach their eyes.',
           ],
           [
             1,
@@ -279,9 +279,9 @@ With a delightful smile she went, closing the door behind her. Noel, left alone,
           [
             1,
             '[ap 00:48] The Shell Seekers - Rosamunde Pilcher.epub (The_Shell_Seekers_split_010.html) - Twelve to one',
-            '
+            '"What about your lunch break?"
 "I take an hour. <<Twelve to one|10a:1>>."
-',
+"Well . . ." She was talking to the back of his head. "If you want anything, I shall be in the house."',
           ],
           [
             1,
@@ -296,16 +296,16 @@ With a delightful smile she went, closing the door behind her. Noel, left alone,
           [
             1,
             '[ap 00:48] The Shell Seekers - Rosamunde Pilcher.epub (The_Shell_Seekers_split_010.html) - Twelve to one',
-            '
+            '"Having your lunch?"
 "<<Twelve to one|10a:0>>. You said it would be all right."
-',
+"But not out here. Not sitting on a bucket in the garage. You must come into the house, and have it with me. I thought you understood that."',
           ],
           [
             1,
             '[12:00] The Shell Seekers - Rosamunde Pilcher.epub (The_Shell_Seekers_split_010.html) - midday',
-            '
+            '"Have it with you?\'
 "What else? Don\'t your other employers give you your <<midday|13>> meal?"
-',
+"No."',
           ],
           [
             1,
@@ -325,9 +325,9 @@ With a delightful smile she went, closing the door behind her. Noel, left alone,
           [
             1,
             '[ap 06:00] The Shell Seekers - Rosamunde Pilcher.epub (The_Shell_Seekers_split_010.html) - Six o\'clock',
-            '
+            '"When will you pick her up?"
 Friday evening ... he considered. . . . "<<Six o\'clock|6>>."
-',
+"I\'ll make a point of being back from the office. And, Noel. . . ." Suddenly she smiled. She had not smiled all evening, but she smiled now, and for an instant there was a fondness between them, a companionship. They might have been any affec-tionate brother and sister who had just spent a pleasant hour together. ". . . I\'m grateful."',
           ],
           [
             1,
@@ -337,16 +337,16 @@ Friday evening ... he considered. . . . "<<Six o\'clock|6>>."
           [
             1,
             '[ap 00:00] The Shell Seekers - Rosamunde Pilcher.epub (The_Shell_Seekers_split_010.html) - twelve',
-            '
+            'He nodded. "It\'s warm work."
 "Lunch will be ready at <<twelve|9c:1>>."
-',
+"Thank you. I\'ll be in."',
           ],
           [
             1,
             '[~ 09:00] The Shell Seekers - Rosamunde Pilcher.epub (The_Shell_Seekers_split_010.html) - About nine in the morning',
-            '
+            '"No," he said firmly. "I don\'t want to be paid. What time shall I be here?"
 "<<About nine in the morning|9h>>."
-',
+"Fine."',
           ],
           [
             1,
@@ -396,16 +396,16 @@ Friday evening ... he considered. . . . "<<Six o\'clock|6>>."
           [
             1,
             '[ap 02:00] The Shell Seekers - Rosamunde Pilcher.epub (The_Shell_Seekers_split_011.html) - two',
-            '
+            'She said, "Now I\'m me again."
 From the-kitchen, the old clock struck <<two|11>> gentle resounding notes.
-',
+She said, "<<Two o\'clock in the morning|6>>."',
           ],
           [
             1,
-            '[02:00] The Shell Seekers - Rosamunde Pilcher.epub (The_Shell_Seekers_split_011.html) - Two o\'clock in the morning',
-            '
+            '[ap 02:00] The Shell Seekers - Rosamunde Pilcher.epub (The_Shell_Seekers_split_011.html) - two',
+            'From the-kitchen, the old clock struck <<two|11>> gentle resounding notes.
 She said, "<<Two o\'clock in the morning|6>>."
-',
+"A good time. The right time."',
           ],
           [
             1,
@@ -450,9 +450,9 @@ She said, "<<Two o\'clock in the morning|6>>."
           [
             1,
             '[ap ~ 11:00] The Shell Seekers - Rosamunde Pilcher.epub (The_Shell_Seekers_split_013.html) - About eleven o\'clock',
-            '
+            '"Hello there." He closed the battered book with a bang and dropped it on the floor at his feet. "When did you surface?"
 "<<About eleven o\'clock|6>>."
-',
+"I didn\'t wake you?"',
           ],
           [
             1,
@@ -479,14 +479,14 @@ She said, "<<Two o\'clock in the morning|6>>."
             '[ap 10:00] The Shell Seekers - Rosamunde Pilcher.epub (The_Shell_Seekers_split_013.html) - ten o\'clock',
             'Monday morning again. By the time Penelope came downstairs, Danus had arrived and was already hard at work in the vegetable garden. The next caller was the postman in his little red van, and then Mrs. Plackett, stately on her bicycle, with her apron in her bag and the news that the Pudley ironmonger was having a sale and why didn\'t Mrs. Keeling buy herself a new coal shovel. They were discussing this important project when Antonia appeared, and was duly introduced to Mrs. Plackett. Pleasantries were exchanged, and their various weekend activities relayed. Then Mrs. Plackett collected Hoover and dusters and climbed the stairs. Monday was her day for the bedrooms. Antonia began to fry bacon for her breakfast, and Penelope took herself into her sitting room, shut the door, and sat down at her desk to telephone.
 It was <<ten o\'clock|6>>. She dialled the number.
-',
+"Boothby\'s, Fine Art Dealers. Can I help you?"',
           ],
           [
             1,
             '[ap ~ 02:00] The Shell Seekers - Rosamunde Pilcher.epub (The_Shell_Seekers_split_013.html) - About two o\'clock',
-            '
+            '"What time on Thursday?"
 "The afternoon? <<About two o\'clock|6>>?"
-',
+"Splendid. I have another call to make in Oxford; I can deal with that in the morning and then come on to you."',
           ],
           [
             1,
@@ -531,9 +531,9 @@ It was <<ten o\'clock|6>>. She dialled the number.
           [
             1,
             '[ap < 03:00] The Shell Seekers - Rosamunde Pilcher.epub (The_Shell_Seekers_split_014.html) - Nearly three',
-            '
+            'He squatted to her height. "Hello." Nancy stared. "How old is she?"
 "<<Nearly three|9:0>>."
-',
+There was sand on Nancy\'s face and the seat of her overalls was damp. "What are you doing?" Richard asked her. "Making sand-pies? Here, let me have a go." He took up the little bucket and removed the wooden spoon from Nancy\'s unresisting hand. He filled the bucket, pressed down the sand, and turned it out into a perfect sand-pie. Nancy instantly demolished it. He laughed and gave her back her toys. "She has all the right instincts," he remarked, and settled himself on the grass, removing his beret and unbuttoning the tight collar of his khaki battledress.',
           ],
           [
             1,
@@ -633,9 +633,9 @@ It was <<ten o\'clock|6>>. She dialled the number.
           [
             1,
             '[ap ~ 10:00] The Shell Seekers - Rosamunde Pilcher.epub (The_Shell_Seekers_split_017.html) - About ten o\'clock',
-            '
+            '"I\'m going down to the Art Gallery. At what time does it open, do you know?"
 "<<About ten o\'clock|6>>, I think, Mrs. Keeling. Driving down, are you?"
-',
+"No. I\'m going to walk. It\'s such a beautiful morning. But perhaps, if I called you when I\'m ready, you could arrange for a taxi to come and fetch me."',
           ],
           [
             1,
@@ -655,9 +655,9 @@ It was <<ten o\'clock|6>>. She dialled the number.
           [
             1,
             '[ap ~ 05:00] The Shell Seekers - Rosamunde Pilcher.epub (The_Shell_Seekers_split_018.html) - about five o\'clock',
-            '
+            '"Very much, thank you. And how was Cornwall?"
 "Magic. We got back <<about five o\'clock|6>>. I haven\'t even unpacked yet."
-',
+"And where are your travelling companions?" His voice had an edge to it. She looked at him sharply, but his eyes veered away and he would not meet her gaze.',
           ],
           [
             1,
@@ -697,9 +697,9 @@ It was <<ten o\'clock|6>>. She dialled the number.
           [
             1,
             '[ap 09:30] The Shell Seekers - Rosamunde Pilcher.epub (The_Shell_Seekers_split_018.html) - half past nine',
-            '
+            '"Oh, I\'ve caught you! I was so afraid you\'d have left for your office. ..."
 "No, I don\'t leave till <<half past nine|10>>. Who is this?"
-',
+"Mrs. Plackett. From Podmore\'s Thatch."',
           ],
           [
             1,
@@ -799,9 +799,9 @@ It was <<ten o\'clock|6>>. She dialled the number.
           [
             1,
             '[ap 03:00] The Shell Seekers - Rosamunde Pilcher.epub (The_Shell_Seekers_split_018.html) - three',
-            '
+            'Olivia smiled. "I know," she said.
 Overhead, far above, the tower clock struck <<three|11>>.
-',
+With the service almost over, and a short tribute spoken, Mr. Tillingham announced the hymn. Mrs. Tillingham played the first few bars, and the congregation, with hymn-books at the ready, rose to their feet.',
           ],
           [
             1,

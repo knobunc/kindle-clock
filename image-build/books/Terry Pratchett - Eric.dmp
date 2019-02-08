@@ -2,7 +2,7 @@ $VAR1 = [
           [
             1,
             '[00:00] Eric - Terry Pratchett.epub (OPS/9780061807039_chapter_01.html) - Midnight',
-            "
+            "\x{201c}It\x{2019}s them wizards up at the University,\x{201d} said the barman, hastily replacing the glasses. \x{201c}It oughtn\x{2019}t to be allowed.\x{201d}
 <<Midnight|13>> dropped off the clock.
 The Council of Wizardry rubbed their eyes and stared blearily at one another. They felt it oughtn\x{2019}t to be allowed too, especially since they weren\x{2019}t the ones that were allowing it.",
           ],
@@ -19,7 +19,7 @@ The Council of Wizardry rubbed their eyes and stared blearily at one another. Th
           [
             1,
             '[12:00] Eric - Terry Pratchett.epub (OPS/9780061807039_chapter_01.html) - noon',
-            '
+            'They reached the jungle. A few minutes later the Luggage trotted after them.
 It was <<noon|13>> in the kingdom of Tezuma.
 From inside the main pyramid came the sounds of a very large statue being dismantled.',
           ],

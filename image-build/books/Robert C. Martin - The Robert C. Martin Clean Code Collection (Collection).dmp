@@ -24,8 +24,8 @@ $VAR1 = [
             '[22:18] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_013.html) - 22:18',
             "MockRequest request;
 private final String HTTP_DATE_REGEXP =
-\x{a0}\x{a0}\x{201c}[SMTWF][a-z]{2}\\\\,\\\\s[0-9]{2}\\\\s[JFMASOND][a-z]{2}\\\\s\x{201d}+
-\x{a0}\x{a0}\x{201c}[0-9]{4}\\\\s[0-9]{2}\\\\:[0-9]{2}\\\\:[0-9]{2}\\\\sGMT\x{201d};
+\x{201c}[SMTWF][a-z]{2}\\\\,\\\\s[0-9]{2}\\\\s[JFMASOND][a-z]{2}\\\\s\x{201d}+
+\x{201c}[0-9]{4}\\\\s[0-9]{2}\\\\:[0-9]{2}\\\\:[0-9]{2}\\\\sGMT\x{201d};
 private Response response;
 private FitNesseContext context;
 private FileResponder responder;
@@ -35,149 +35,149 @@ private Locale saveLocale;
           [
             1,
             '[ap 02:00] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_013.html) - 2',
-            "/**
-\x{a0}* This class Generates prime numbers up to a user specified
-\x{a0}* maximum.\x{a0}\x{a0}The algorithm used is the Sieve of Eratosthenes.
-\x{a0}* <p>
-\x{a0}* Eratosthenes of Cyrene, b. c. 276 BC, Cyrene, Libya --
-\x{a0}* d. c. 194, Alexandria.\x{a0}\x{a0}The first man to calculate the
-\x{a0}* circumference of the Earth.\x{a0}\x{a0}Also known for working on
-\x{a0}* calendars with leap years and ran the library at Alexandria.
-\x{a0}* <p>
-\x{a0}* The algorithm is quite simple.\x{a0}\x{a0}Given an array of integers
-\x{a0}* starting at <<2|9g>>.\x{a0}\x{a0}Cross out all multiples of 2.\x{a0}\x{a0}Find the next
-\x{a0}* uncrossed integer, and cross out all of its multiples.
-\x{a0}* Repeat untilyou have passed the square root of the maximum
-\x{a0}* value.
-\x{a0}*
-\x{a0}* \@author Alphonse
-\x{a0}* \@version 13 Feb 2002 atp
-\x{a0}*/
+            '/**
+* This class Generates prime numbers up to a user specified
+* maximum. The algorithm used is the Sieve of Eratosthenes.
+* <p>
+* Eratosthenes of Cyrene, b. c. 276 BC, Cyrene, Libya --
+* d. c. 194, Alexandria. The first man to calculate the
+* circumference of the Earth. Also known for working on
+* calendars with leap years and ran the library at Alexandria.
+* <p>
+* The algorithm is quite simple. Given an array of integers
+* starting at <<2|9g>>. Cross out all multiples of 2. Find the next
+* uncrossed integer, and cross out all of its multiples.
+* Repeat untilyou have passed the square root of the maximum
+* value.
+*
+* @author Alphonse
+* @version 13 Feb 2002 atp
+*/
 import java.util.*;
 public class GeneratePrimes
 {
-\x{a0}\x{a0}/**
-\x{a0}\x{a0}\x{a0}* \@param maxValue is the generation limit.
-\x{a0}\x{a0}\x{a0}*/
-\x{a0}\x{a0}public static int[] generatePrimes(int maxValue)
-\x{a0}\x{a0}{
-\x{a0}\x{a0}\x{a0}\x{a0}if (maxValue >= 2) // the only valid case
-\x{a0}\x{a0}\x{a0}\x{a0}{
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}// declarations
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}int s = maxValue + 1; // size of array
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}boolean[] f = new boolean[s];
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}int i;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}// initialize array to true.
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}for (i = 0; i < s; i++)
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}f[i] = true;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}// get rid of known non-primes
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}f[0] = f[1] = false;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}// sieve
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}int j;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}for (i = 2; i < Math.sqrt(s) + 1; i++)
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}{
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}if (f[i]) // if i is uncrossed, cross its multiples.
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}{
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}for (j = 2 * i; j < s; j += i)
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}f[j] = false; // multiple is not prime
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}// how many primes are there?
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}int count = 0;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}for (i = 0; i < s; i++)
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}{
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}if (f[i])
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}count++; // bump count.
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}int[] primes = new int[count];
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}// move the primes into the result
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}for (i = 0, j = 0; i < s; i++)
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}{
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}if (f[i])\x{a0}\x{a0}// if prime
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}primes[j++] = i;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}}
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}return primes;\x{a0}\x{a0}// return the primes
-\x{a0}\x{a0}\x{a0}\x{a0}}
-\x{a0}\x{a0}\x{a0}\x{a0}else // maxValue < 2
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}return new int[0]; // return null array if bad input.
-\x{a0}\x{a0}}
-}",
+/**
+* @param maxValue is the generation limit.
+*/
+public static int[] generatePrimes(int maxValue)
+{
+if (maxValue >= 2) // the only valid case
+{
+// declarations
+int s = maxValue + 1; // size of array
+boolean[] f = new boolean[s];
+int i;
+// initialize array to true.
+for (i = 0; i < s; i++)
+f[i] = true;
+// get rid of known non-primes
+f[0] = f[1] = false;
+// sieve
+int j;
+for (i = 2; i < Math.sqrt(s) + 1; i++)
+{
+if (f[i]) // if i is uncrossed, cross its multiples.
+{
+for (j = 2 * i; j < s; j += i)
+f[j] = false; // multiple is not prime
+}
+}
+// how many primes are there?
+int count = 0;
+for (i = 0; i < s; i++)
+{
+if (f[i])
+count++; // bump count.
+}
+int[] primes = new int[count];
+// move the primes into the result
+for (i = 0, j = 0; i < s; i++)
+{
+if (f[i]) // if prime
+primes[j++] = i;
+}
+return primes; // return the primes
+}
+else // maxValue < 2
+return new int[0]; // return null array if bad input.
+}
+}',
           ],
           [
             1,
             '[ap 02:00] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_013.html) - 2',
             "/**
-\x{a0}* This class Generates prime numbers up to a user specified
-\x{a0}* maximum.\x{a0}\x{a0}The algorithm used is the Sieve of Eratosthenes.
-\x{a0}* Given an array of integers starting at <<2|9g>>:
-\x{a0}* Find the first uncrossed integer, and cross out all its
- * multiples.\x{a0}\x{a0}Repeat until there are no more multiples
-\x{a0}* in the array.
-\x{a0}*/
+* This class Generates prime numbers up to a user specified
+* maximum. The algorithm used is the Sieve of Eratosthenes.
+* Given an array of integers starting at <<2|9g>>:
+* Find the first uncrossed integer, and cross out all its
+* multiples. Repeat until there are no more multiples
+* in the array.
+*/
 public class PrimeGenerator
 {
-\x{a0}\x{a0}private static boolean[] crossedOut;
-\x{a0}\x{a0}private static int[] result;
-\x{a0}\x{a0}public static int[] generatePrimes(int maxValue)
-\x{a0}\x{a0}{
-\x{a0}\x{a0}\x{a0}\x{a0}if (maxValue < 2)
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}return new int[0];
-\x{a0}\x{a0}\x{a0}\x{a0}else
-\x{a0}\x{a0}\x{a0}\x{a0}{
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}uncrossIntegersUpTo(maxValue);
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}crossOutMultiples();
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}putUncrossedIntegersIntoResult();
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}return result;
-\x{a0}\x{a0}\x{a0}\x{a0}}
-\x{a0}\x{a0}}
-\x{a0}\x{a0}private static void uncrossIntegersUpTo(int maxValue)
-\x{a0}\x{a0}{
-\x{a0}\x{a0}\x{a0}\x{a0}crossedOut = new boolean[maxValue + 1];
-\x{a0}\x{a0}\x{a0}\x{a0}for (int i = 2; i < crossedOut.length; i++)
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}crossedOut[i] = false;
-\x{a0}\x{a0}}
-\x{a0}\x{a0}private static void crossOutMultiples()
-\x{a0}\x{a0}{
-\x{a0}\x{a0}\x{a0}\x{a0}int limit = determineIterationLimit();
-\x{a0}\x{a0}\x{a0}\x{a0}for (int i = 2; i <= limit; i++)
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}if (notCrossed(i))
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}crossOutMultiplesOf(i);
-\x{a0}\x{a0}}
-\x{a0}\x{a0}private static int determineIterationLimit()
-\x{a0}\x{a0}{
-\x{a0}\x{a0}\x{a0}\x{a0}// Every multiple in the array has a prime factor that
-\x{a0}\x{a0}\x{a0}\x{a0}// is less than or equal to the root of the array size,
-\x{a0}\x{a0}\x{a0}\x{a0}// so we don\x{2019}t have to cross out multiples of numbers
-\x{a0}\x{a0}\x{a0}\x{a0}// larger than that root.
-\x{a0}\x{a0}\x{a0}\x{a0}double iterationLimit = Math.sqrt(crossedOut.length);
-\x{a0}\x{a0}\x{a0}\x{a0}return (int) iterationLimit;
-\x{a0}\x{a0}}
-\x{a0}\x{a0}private static void crossOutMultiplesOf(int i)
-\x{a0}\x{a0}{
-\x{a0}\x{a0}\x{a0}\x{a0}for (int multiple = 2*i;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}multiple < crossedOut.length;
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}multiple += i)
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}crossedOut[multiple] = true;
-\x{a0}\x{a0}}
-\x{a0}\x{a0}private static boolean notCrossed(int i)
-\x{a0}\x{a0}{
-\x{a0}\x{a0}\x{a0}\x{a0}return crossedOut[i] == false;
-\x{a0}\x{a0}}
-\x{a0}\x{a0}private static void putUncrossedIntegersIntoResult()
-\x{a0}\x{a0}{
-\x{a0}\x{a0}\x{a0}\x{a0}result = new int[numberOfUncrossedIntegers()];
-\x{a0}\x{a0}\x{a0}\x{a0}for (int j = 0, i = 2; i < crossedOut.length; i++)
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}if (notCrossed(i))
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}result[j++] = i;
-\x{a0}\x{a0}}
-\x{a0}\x{a0}private static int numberOfUncrossedIntegers()
-\x{a0}\x{a0}{
-\x{a0}\x{a0}\x{a0}\x{a0}int count = 0;
-\x{a0}\x{a0}\x{a0}\x{a0}for (int i = 2; i < crossedOut.length; i++)
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}if (notCrossed(i))
-\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}\x{a0}count++;
-\x{a0}\x{a0}\x{a0}\x{a0}return count;
-\x{a0}\x{a0}}
+private static boolean[] crossedOut;
+private static int[] result;
+public static int[] generatePrimes(int maxValue)
+{
+if (maxValue < 2)
+return new int[0];
+else
+{
+uncrossIntegersUpTo(maxValue);
+crossOutMultiples();
+putUncrossedIntegersIntoResult();
+return result;
+}
+}
+private static void uncrossIntegersUpTo(int maxValue)
+{
+crossedOut = new boolean[maxValue + 1];
+for (int i = 2; i < crossedOut.length; i++)
+crossedOut[i] = false;
+}
+private static void crossOutMultiples()
+{
+int limit = determineIterationLimit();
+for (int i = 2; i <= limit; i++)
+if (notCrossed(i))
+crossOutMultiplesOf(i);
+}
+private static int determineIterationLimit()
+{
+// Every multiple in the array has a prime factor that
+// is less than or equal to the root of the array size,
+// so we don\x{2019}t have to cross out multiples of numbers
+// larger than that root.
+double iterationLimit = Math.sqrt(crossedOut.length);
+return (int) iterationLimit;
+}
+private static void crossOutMultiplesOf(int i)
+{
+for (int multiple = 2*i;
+multiple < crossedOut.length;
+multiple += i)
+crossedOut[multiple] = true;
+}
+private static boolean notCrossed(int i)
+{
+return crossedOut[i] == false;
+}
+private static void putUncrossedIntegersIntoResult()
+{
+result = new int[numberOfUncrossedIntegers()];
+for (int j = 0, i = 2; i < crossedOut.length; i++)
+if (notCrossed(i))
+result[j++] = i;
+}
+private static int numberOfUncrossedIntegers()
+{
+int count = 0;
+for (int i = 2; i < crossedOut.length; i++)
+if (notCrossed(i))
+count++;
+return count;
+}
 }",
           ],
           [
@@ -192,8 +192,252 @@ public class PrimeGenerator
           ],
           [
             1,
+            '[ap 10:10] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_019.html) - 10-10',
+            'What if we considered a solution like that in Listing <<10-10|5a:0>>? Each public interface method defined in the previous Sql from Listing 10-9 is refactored out to its own derivative of the Sql class. Note that the private methods, such as valuesList, move directly where they are needed. The common private behavior is isolated to a pair of utility classes, Where and ColumnList.
+Listing <<10-10|5a:0>> A set of closed classes
+abstract public class Sql {
+public Sql(String table, Column[] columns)
+abstract public String generate();
+}
+public class CreateSql extends Sql {
+public CreateSql(String table, Column[] columns)
+@Override public String generate()
+}
+public class SelectSql extends Sql {
+public SelectSql(String table, Column[] columns)
+@Override public String generate()
+}
+public class InsertSql extends Sql {
+public InsertSql(String table, Column[] columns, Object[] fields)
+@Override public String generate()
+private String valuesList(Object[] fields, final Column[] columns)
+}
+public class SelectWithCriteriaSql extends Sql {
+public SelectWithCriteriaSql(
+String table, Column[] columns, Criteria criteria)
+@Override public String generate()
+}
+public class SelectWithMatchSql extends Sql {
+public SelectWithMatchSql(
+String table, Column[] columns, Column column, String pattern)
+@Override public String generate()
+}
+public class FindByKeySql extends Sql
+public FindByKeySql(
+String table, Column[] columns, String keyColumn, String keyValue)
+@Override public String generate()
+}
+public class PreparedInsertSql extends Sql {
+public PreparedInsertSql(String table, Column[] columns)
+@Override public String generate() {
+private String placeholderList(Column[] columns)
+}
+public class Where {
+public Where(String criteria)
+public String generate()
+}
+public class ColumnList {
+public ColumnList(Column[] columns)
+public String generate()
+}',
+          ],
+          [
+            1,
+            '[14:10] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_023.html) - 14-10',
+            "I added the two argument types incrementally. First, I added the String argument, which yielded this:
+Listing <<14-10|5a:0>> Args.java (Boolean and String)
+package com.objectmentor.utilities.getopts;
+import java.text.ParseException;
+import java.util.*;
+public class Args {
+private String schema;
+private String[] args;
+private boolean valid = true;
+private Set<Character> unexpectedArguments = new TreeSet<Character>();
+private Map<Character, Boolean> booleanArgs =
+new HashMap<Character, Boolean>();
+private Map<Character, String> stringArgs =
+new HashMap<Character, String>();
+private Set<Character> argsFound = new HashSet<Character>();
+private int currentArgument;
+private char errorArgument = '\\0';
+enum ErrorCode {
+OK, MISSING_STRING}
+private ErrorCode errorCode = ErrorCode.OK;
+public Args(String schema, String[] args) throws ParseException {
+this.schema = schema;
+this.args = args;
+valid = parse();
+}
+private boolean parse() throws ParseException {
+if (schema.length() == 0 && args.length == 0)
+return true;
+parseSchema();
+parseArguments();
+return valid;
+}
+private boolean parseSchema() throws ParseException {
+for (String element : schema.split(\x{201c},\x{201d})) {
+if (element.length() > 0) {
+String trimmedElement = element.trim();
+parseSchemaElement(trimmedElement);
+}
+}
+return true;
+}
+private void parseSchemaElement(String element) throws ParseException {
+char elementId = element.charAt(0);
+String elementTail = element.substring(1);
+validateSchemaElementId(elementId);
+if (isBooleanSchemaElement(elementTail))
+parseBooleanSchemaElement(elementId);
+else if (isStringSchemaElement(elementTail))
+parseStringSchemaElement(elementId);
+}
+private void validateSchemaElementId(char elementId) throws ParseException {
+if (!Character.isLetter(elementId)) {
+throw new ParseException(
+\x{201c}Bad character:\x{201d} + elementId + \x{201c}in Args format: \x{201d} + schema, 0);
+}
+}
+private void parseStringSchemaElement(char elementId) {
+stringArgs.put(elementId, \x{201c} \x{201d});
+}
+private boolean isStringSchemaElement(String elementTail) {
+return elementTail.equals(\x{201c}*\x{201d});
+}
+private boolean isBooleanSchemaElement(String elementTail) {
+return elementTail.length() == 0;
+}
+private void parseBooleanSchemaElement(char elementId) {
+booleanArgs.put(elementId, false);
+}
+private boolean parseArguments() {
+for (currentArgument = 0; currentArgument < args.length; currentArgument++)
+{
+String arg = args[currentArgument];
+parseArgument(arg);
+}
+return true;
+}
+private void parseArgument(String arg) {
+if (arg.startsWith(\x{201c}-\x{201d}))
+parseElements(arg);
+}
+private void parseElements(String arg) {
+for (int i = 1; i < arg.length(); i++)
+parseElement(arg.charAt(i));
+}
+private void parseElement(char argChar) {
+if (setArgument(argChar))
+argsFound.add(argChar);
+else {
+unexpectedArguments.add(argChar);
+valid = false;
+}
+}
+private boolean setArgument(char argChar) {
+boolean set = true;
+if (isBoolean(argChar))
+setBooleanArg(argChar, true);
+else if (isString(argChar))
+setStringArg(argChar, \x{201c} \x{201d});
+else
+set = false;
+return set;
+}
+private void setStringArg(char argChar, String s) {
+currentArgument++;
+try {
+stringArgs.put(argChar, args[currentArgument]);
+} catch (ArrayIndexOutOfBoundsException e) {
+valid = false;
+errorArgument = argChar;
+errorCode = ErrorCode.MISSING_STRING;
+}
+}
+private boolean isString(char argChar) {
+return stringArgs.containsKey(argChar);
+}
+private void setBooleanArg(char argChar, boolean value) {
+booleanArgs.put(argChar, value);
+}
+private boolean isBoolean(char argChar) {
+return booleanArgs.containsKey(argChar);
+}
+public int cardinality() {
+return argsFound.size();
+}
+public String usage() {
+if (schema.length() > 0)
+return \x{201c}-[\x{201c} + schema + \x{201d}]\x{201d};
+else
+return \x{201c} \x{201d};
+}
+public String errorMessage() throws Exception {
+if (unexpectedArguments.size() > 0) {
+return unexpectedArgumentMessage();
+} else
+switch (errorCode) {
+case MISSING_STRING:
+return String.format(\x{201c}Could not find string parameter for -%c.\x{201d}, errorArgument);
+case OK:
+throw new Exception(\x{201c}TILT: Should not get here.\x{201d});
+}
+return \x{201c} \x{201d};
+}
+private String unexpectedArgumentMessage() {
+StringBuffer message = new StringBuffer(\x{201c}Argument(s) -\x{201d});
+for (char c : unexpectedArguments) {
+message.append(c);
+}
+message.append(\x{201c} unexpected.\x{201d});
+return message.toString();
+}
+public boolean getBoolean(char arg) {
+return falseIfNull(booleanArgs.get(arg));
+}
+private boolean falseIfNull(Boolean b) {
+return b == null ? false : b;
+}
+public String getString(char arg) {
+return blankIfNull(stringArgs.get(arg));
+}
+private String blankIfNull(String s) {
+return s == null ? \x{201c} \x{201d} : s;
+}
+public boolean has(char arg) {
+return argsFound.contains(arg);
+}
+public boolean isValid() {
+return valid;
+}
+}",
+          ],
+          [
+            1,
             '[14:11] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_023.html) - 14-11',
             'So I proceeded to make a large number of very tiny changes. Each change moved the structure of the system toward the ArgumentMarshaler concept. And yet each change kept the system working. The first change I made was to add the skeleton of the ArgumentMarshaller to the end of the festering pile (Listing <<14-11|5a:0>>).',
+          ],
+          [
+            1,
+            '[14:11] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_023.html) - 14-11',
+            'So I proceeded to make a large number of very tiny changes. Each change moved the structure of the system toward the ArgumentMarshaler concept. And yet each change kept the system working. The first change I made was to add the skeleton of the ArgumentMarshaller to the end of the festering pile (Listing <<14-11|5a:0>>).
+Listing <<14-11|5a:0>> ArgumentMarshaller appended to Args.java
+private class ArgumentMarshaler }
+private boolean booleanValue = false;
+public void setBoolean(boolean value) {
+booleanValue = value;
+}
+public boolean getBoolean() {return booleanValue;}
+}
+private class BooleanArgumentMarshaler extends ArgumentMarshaler {
+}
+private class StringArgumentMarshaler extends ArgumentMarshaler {
+}
+private class IntegerArgumentMarshaler extends ArgumentMarshaler {
+}
+}',
           ],
           [
             1,
@@ -202,8 +446,863 @@ public class PrimeGenerator
           ],
           [
             1,
+            '[14:12] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_023.html) - 14-12',
+            "Okay, so now let\x{2019}s look at the whole picture again. Listing <<14-12|5a:0>> shows the current form of the Args class.
+Listing <<14-12|5a:0>> Args.java (After first refactoring)
+package com.objectmentor.utilities.getopts;
+import java.text.ParseException;
+import java.util.*;
+public class Args {
+private String schema;
+private String[] args;
+private boolean valid = true;
+private Set<Character> unexpectedArguments = new TreeSet<Character>();
+private Map<Character, ArgumentMarshaler> marshalers =
+new HashMap<Character, ArgumentMarshaler>();
+private Set<Character> argsFound = new HashSet<Character>();
+private int currentArgument;
+private char errorArgumentId = '\\0';
+private String errorParameter = \x{201c}TILT\x{201d};
+private ErrorCode errorCode = ErrorCode.OK;
+private enum ErrorCode {
+OK, MISSING_STRING, MISSING_INTEGER, INVALID_INTEGER,
+UNEXPECTED_ARGUMENT}
+public Args(String schema, String[] args) throws ParseException {
+this.schema = schema;
+this.args = args;
+valid = parse();
+}
+private boolean parse() throws ParseException {
+if (schema.length() == 0 && args.length == 0)
+return true;
+parseSchema();
+try {
+parseArguments();
+} catch (ArgsException e) {
+}
+return valid;
+}
+private boolean parseSchema() throws ParseException {
+for (String element : schema.split(\x{201c},\x{201d})) {
+if (element.length() > 0) {
+String trimmedElement = element.trim();
+parseSchemaElement(trimmedElement);
+}
+}
+return true;
+}
+private void parseSchemaElement(String element) throws ParseException {
+char elementId = element.charAt(0);
+String elementTail = element.substring(1);
+validateSchemaElementId(elementId);
+if (isBooleanSchemaElement(elementTail))
+marshalers.put(elementId, new BooleanArgumentMarshaler());
+else if (isStringSchemaElement(elementTail))
+marshalers.put(elementId, new StringArgumentMarshaler());
+else if (isIntegerSchemaElement(elementTail)) {
+marshalers.put(elementId, new IntegerArgumentMarshaler());
+} else {
+throw new ParseException(String.format(
+\x{201c}Argument: %c has invalid format: %s.\x{201d}, elementId, elementTail), 0);
+}
+}
+private void validateSchemaElementId(char elementId) throws ParseException {
+if (!Character.isLetter(elementId)) {
+throw new ParseException(
+\x{201c}Bad character:\x{201d} + elementId + \x{201c}in Args format: \x{201d} + schema, 0);
+}
+}
+private boolean isStringSchemaElement(String elementTail) {
+return elementTail.equals(\x{201c}*\x{201d});
+}
+private boolean isBooleanSchemaElement(String elementTail) {
+return elementTail.length() == 0;
+}
+private boolean isIntegerSchemaElement(String elementTail) {
+return elementTail.equals(\x{201c}-\x{201d});
+}
+private boolean parseArguments() throws ArgsException {
+for (currentArgument=0; currentArgument<args.length; currentArgument++) {
+String arg = args[currentArgument];
+parseArgument(arg);
+}
+return true;
+}
+private void parseArgument(String arg) throws ArgsException {
+if (arg.startsWith(\x{201c}-\x{201d}))
+parseElements(arg);
+}
+private void parseElements(String arg) throws ArgsException {
+for (int i = 1; i < arg.length(); i++)
+parseElement(arg.charAt(i));
+}
+private void parseElement(char argChar) throws ArgsException {
+if (setArgument(argChar))
+argsFound.add(argChar);
+else {
+unexpectedArguments.add(argChar);
+errorCode = ErrorCode.UNEXPECTED_ARGUMENT;
+valid = false;
+}
+}
+private boolean setArgument(char argChar) throws ArgsException {
+ArgumentMarshaler m = marshalers.get(argChar);
+try {
+if (m instanceof BooleanArgumentMarshaler)
+setBooleanArg(m);
+else if (m instanceof StringArgumentMarshaler)
+setStringArg(m);
+else if (m instanceof IntegerArgumentMarshaler)
+setIntArg(m);
+else
+return false;
+} catch (ArgsException e) {
+valid = false;
+errorArgumentId = argChar;
+throw e;
+}
+return true;
+}
+private void setIntArg(ArgumentMarshaler m) throws ArgsException {
+currentArgument++;
+String parameter = null;
+try {
+parameter = args[currentArgument];
+m.set(parameter);
+} catch (ArrayIndexOutOfBoundsException e) {
+errorCode = ErrorCode.MISSING_INTEGER;
+throw new ArgsException();
+} catch (ArgsException e) {
+errorParameter = parameter;
+errorCode = ErrorCode.INVALID_INTEGER;
+throw e;
+}
+}
+private void setStringArg(ArgumentMarshaler m) throws ArgsException {
+currentArgument++;
+try {
+m.set(args[currentArgument]);
+} catch (ArrayIndexOutOfBoundsException e) {
+errorCode = ErrorCode.MISSING_STRING;
+throw new ArgsException();
+}
+}
+private void setBooleanArg(ArgumentMarshaler m) {
+try {
+m.set(\x{201c}true\x{201d});
+} catch (ArgsException e) {
+}
+}
+public int cardinality() {
+return argsFound.size();
+}
+public String usage() {
+if (schema.length() > 0)
+return \x{201c}-[\x{201c} + schema + \x{201d}]\x{201d};
+else
+return \x{201c} \x{201d};
+}
+public String errorMessage() throws Exception {
+switch (errorCode) {
+case OK:
+throw new Exception(\x{201c}TILT: Should not get here.\x{201d});
+case UNEXPECTED_ARGUMENT:
+return unexpectedArgumentMessage();
+case MISSING_STRING:
+return String.format(\x{201c}Could not find string parameter for -%c.\x{201d},
+errorArgumentId);
+case INVALID_INTEGER:
+return String.format(\x{201c}Argument -%c expects an integer but was '%s'.\x{201d},
+errorArgumentId, errorParameter);
+case MISSING_INTEGER:
+return String.format(\x{201c}Could not find integer parameter for -%c.\x{201d},
+errorArgumentId);
+}
+return \x{201c} \x{201d};
+}
+private String unexpectedArgumentMessage() {
+StringBuffer message = new StringBuffer(\x{201c}Argument(s) -\x{201d});
+for (char c : unexpectedArguments) {
+message.append(c);
+}
+message.append(\x{201c} unexpected.\x{201d});
+return message.toString();
+}
+public boolean getBoolean(char arg) {
+Args.ArgumentMarshaler am = marshalers.get(arg);
+boolean b = false;
+try {
+b = am != null && (Boolean) am.get();
+} catch (ClassCastException e) {
+b = false;
+}
+return b;
+}
+public String getString(char arg) {
+Args.ArgumentMarshaler am = marshalers.get(arg);
+try {
+return am == null ? \x{201c} \x{201d} : (String) am.get();
+} catch (ClassCastException e) {
+return \x{201c} \x{201d};
+}
+}
+public int getInt(char arg) {
+Args.ArgumentMarshaler am = marshalers.get(arg);
+try {
+return am == null ? 0 : (Integer) am.get();
+} catch (Exception e) {
+return 0;
+}
+}
+public boolean has(char arg) {
+return argsFound.contains(arg);
+}
+public boolean isValid() {
+return valid;
+}
+private class ArgsException extends Exception {
+}
+private abstract class ArgumentMarshaler {
+public abstract void set(String s) throws ArgsException;
+public abstract Object get();
+}
+private class BooleanArgumentMarshaler extends ArgumentMarshaler {
+private boolean booleanValue = false;
+public void set(String s) {
+booleanValue = true;
+}
+public Object get() {
+return booleanValue;
+}
+}
+private class StringArgumentMarshaler extends ArgumentMarshaler {
+private String stringValue = \x{201c} \x{201d};
+public void set(String s) {
+stringValue = s;
+}
+public Object get() {
+return stringValue;
+}
+}
+private class IntegerArgumentMarshaler extends ArgumentMarshaler {
+private int intValue = 0;
+public void set(String s) throws ArgsException {
+try {
+intValue = Integer.parseInt(s);
+} catch (NumberFormatException e) {
+throw new ArgsException();
+}
+}
+public Object get() {
+return intValue;
+}
+}
+}",
+          ],
+          [
+            1,
             '[14:13] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_023.html) - 14-13',
             'So now we have completely separated the exception and error code from the Args module. (See Listing <<14-13|5a:0>> through Listing <<14-16|5a:0>>.) This was achieved through a series of about 30 tiny steps, keeping the tests passing between each step.',
+          ],
+          [
+            1,
+            '[14:13] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_023.html) - 14-13',
+            "So now we have completely separated the exception and error code from the Args module. (See Listing <<14-13|5a:0>> through Listing <<14-16|5a:0>>.) This was achieved through a series of about 30 tiny steps, keeping the tests passing between each step.
+Listing <<14-13|5a:0>> ArgsTest.java
+package com.objectmentor.utilities.args;
+import junit.framework.TestCase;
+public class ArgsTest extends TestCase {
+public void testCreateWithNoSchemaOrArguments() throws Exception {
+Args args = new Args(\x{201c}\x{201d}, new String[0]);
+assertEquals(0, args.cardinality());
+}
+public void testWithNoSchemaButWithOneArgument() throws Exception {
+try {
+new Args(\x{201c}\x{201d}, new String[]{\x{201c}-x\x{201d}});
+fail();
+} catch (ArgsException e) {
+assertEquals(ArgsException.ErrorCode.UNEXPECTED_ARGUMENT,
+e.getErrorCode());
+assertEquals(\x{2018}x\x{2019}, e.getErrorArgumentId());
+}
+}
+public void testWithNoSchemaButWithMultipleArguments() throws Exception {
+try {
+new Args(\x{201c}\x{201d}, new String[]{\x{201c}-x\x{201d}, \x{201c}-y\x{201d}});
+fail();
+} catch (ArgsException e) {
+assertEquals(ArgsException.ErrorCode.UNEXPECTED_ARGUMENT,
+e.getErrorCode());
+assertEquals(\x{2018}x\x{2019}, e.getErrorArgumentId());
+}
+}
+public void testNonLetterSchema() throws Exception {
+try {
+new Args(\x{201c}*\x{201d}, new String[]{});
+fail(\x{201c}Args constructor should have thrown exception\x{201d});
+} catch (ArgsException e) {
+assertEquals(ArgsException.ErrorCode.INVALID_ARGUMENT_NAME,
+e.getErrorCode());
+assertEquals(\x{2018}*\x{2019}, e.getErrorArgumentId());
+}
+}
+public void testInvalidArgumentFormat() throws Exception {
+try {
+new Args(\x{201c}f~\x{201d}, new String[]{});
+fail(\x{201c}Args constructor should have throws exception\x{201d});
+} catch (ArgsException e) {
+assertEquals(ArgsException.ErrorCode.INVALID_FORMAT, e.getErrorCode());
+assertEquals(\x{2018}f\x{2019}, e.getErrorArgumentId());
+}
+}
+public void testSimpleBooleanPresent() throws Exception {
+Args args = new Args(\x{201c}x\x{201d}, new String[]{\x{201c}-x\x{201d}});
+assertEquals(1, args.cardinality());
+assertEquals(true, args.getBoolean(\x{2018}x\x{2019}));
+}
+public void testSimpleStringPresent() throws Exception {
+Args args = new Args(\x{201c}x*\x{201d}, new String[]{\x{201c}-x\x{201d}, \x{201c}param\x{201d}});
+assertEquals(1, args.cardinality());
+assertTrue(args.has(\x{2018}x\x{2019}));
+assertEquals(\x{201c}param\x{201d}, args.getString(\x{2018}x\x{2019}));
+}
+public void testMissingStringArgument() throws Exception {
+try {
+new Args(\x{201c}x*\x{201d}, new String[]{\x{201c}-x\x{201d}});
+fail();
+} catch (ArgsException e) {
+assertEquals(ArgsException.ErrorCode.MISSING_STRING, e.getErrorCode());
+assertEquals(\x{2018}x\x{2019}, e.getErrorArgumentId());
+}
+}
+public void testSpacesInFormat() throws Exception {
+Args args = new Args(\x{201c}x, y\x{201d}, new String[]{\x{201c}-xy\x{201d}});
+assertEquals(2, args.cardinality());
+assertTrue(args.has(\x{2018}x\x{2019}));
+assertTrue(args.has(\x{2018}y\x{2019}));
+}
+public void testSimpleIntPresent() throws Exception {
+Args args = new Args(\x{201c}x#\x{201d}, new String[]{\x{201c}-x\x{201d}, \x{201c}42\x{201d}});
+assertEquals(1, args.cardinality());
+assertTrue(args.has(\x{2018}x\x{2019}));
+assertEquals(42, args.getInt(\x{2018}x\x{2019}));
+}
+public void testInvalidInteger() throws Exception {
+try {
+new Args(\x{201c}x#\x{201d}, new String[]{\x{201c}-x\x{201d}, \x{201c}Forty two\x{201d}});
+fail();
+} catch (ArgsException e) {
+assertEquals(ArgsException.ErrorCode.INVALID_INTEGER, e.getErrorCode());
+assertEquals(\x{2018}x\x{2019}, e.getErrorArgumentId());
+assertEquals(\x{201d}Forty two\x{201d}, e.getErrorParameter());
+}
+}
+public void testMissingInteger() throws Exception {
+try {
+new Args(\x{201c}x#\x{201d}, new String[]{\x{201c}-x\x{201d}});
+fail();
+} catch (ArgsException e) {
+assertEquals(ArgsException.ErrorCode.MISSING_INTEGER, e.getErrorCode());
+assertEquals(\x{2018}x\x{2019}, e.getErrorArgumentId());
+}
+}
+public void testSimpleDoublePresent() throws Exception {
+Args args = new Args(\x{201c}x##\x{201d}, new String[]{\x{201c}-x\x{201d}, \x{201c}42.3\x{201d}});
+assertEquals(1, args.cardinality());
+assertTrue(args.has(\x{2018}x\x{2019}));
+assertEquals(42.3, args.getDouble(\x{2018}x\x{2019}), .001);
+}
+public void testInvalidDouble() throws Exception {
+try {
+new Args(\x{201c}x##\x{201d}, new String[]{\x{201c}-x\x{201d}, \x{201c}Forty two\x{201d}});
+fail();
+} catch (ArgsException e) {
+assertEquals(ArgsException.ErrorCode.INVALID_DOUBLE, e.getErrorCode());
+assertEquals(\x{2018}x\x{2019}, e.getErrorArgumentId());
+assertEquals(\x{201c}Forty two\x{201d}, e.getErrorParameter());
+}
+}
+public void testMissingDouble() throws Exception {
+try {
+new Args(\x{201c}x##\x{201d}, new String[]{\x{201c}-x\x{201d}});
+fail();
+} catch (ArgsException e) {
+assertEquals(ArgsException.ErrorCode.MISSING_DOUBLE, e.getErrorCode());
+assertEquals(\x{2018}x\x{2019}, e.getErrorArgumentId());
+}
+}
+}",
+          ],
+          [
+            1,
+            '[14:14] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_023.html) - 14-14',
+            "package com.objectmentor.utilities.args;
+import junit.framework.TestCase;
+public class ArgsTest extends TestCase {
+public void testCreateWithNoSchemaOrArguments() throws Exception {
+Args args = new Args(\x{201c}\x{201d}, new String[0]);
+assertEquals(0, args.cardinality());
+}
+public void testWithNoSchemaButWithOneArgument() throws Exception {
+try {
+new Args(\x{201c}\x{201d}, new String[]{\x{201c}-x\x{201d}});
+fail();
+} catch (ArgsException e) {
+assertEquals(ArgsException.ErrorCode.UNEXPECTED_ARGUMENT,
+e.getErrorCode());
+assertEquals(\x{2018}x\x{2019}, e.getErrorArgumentId());
+}
+}
+public void testWithNoSchemaButWithMultipleArguments() throws Exception {
+try {
+new Args(\x{201c}\x{201d}, new String[]{\x{201c}-x\x{201d}, \x{201c}-y\x{201d}});
+fail();
+} catch (ArgsException e) {
+assertEquals(ArgsException.ErrorCode.UNEXPECTED_ARGUMENT,
+e.getErrorCode());
+assertEquals(\x{2018}x\x{2019}, e.getErrorArgumentId());
+}
+}
+public void testNonLetterSchema() throws Exception {
+try {
+new Args(\x{201c}*\x{201d}, new String[]{});
+fail(\x{201c}Args constructor should have thrown exception\x{201d});
+} catch (ArgsException e) {
+assertEquals(ArgsException.ErrorCode.INVALID_ARGUMENT_NAME,
+e.getErrorCode());
+assertEquals(\x{2018}*\x{2019}, e.getErrorArgumentId());
+}
+}
+public void testInvalidArgumentFormat() throws Exception {
+try {
+new Args(\x{201c}f~\x{201d}, new String[]{});
+fail(\x{201c}Args constructor should have throws exception\x{201d});
+} catch (ArgsException e) {
+assertEquals(ArgsException.ErrorCode.INVALID_FORMAT, e.getErrorCode());
+assertEquals(\x{2018}f\x{2019}, e.getErrorArgumentId());
+}
+}
+public void testSimpleBooleanPresent() throws Exception {
+Args args = new Args(\x{201c}x\x{201d}, new String[]{\x{201c}-x\x{201d}});
+assertEquals(1, args.cardinality());
+assertEquals(true, args.getBoolean(\x{2018}x\x{2019}));
+}
+public void testSimpleStringPresent() throws Exception {
+Args args = new Args(\x{201c}x*\x{201d}, new String[]{\x{201c}-x\x{201d}, \x{201c}param\x{201d}});
+assertEquals(1, args.cardinality());
+assertTrue(args.has(\x{2018}x\x{2019}));
+assertEquals(\x{201c}param\x{201d}, args.getString(\x{2018}x\x{2019}));
+}
+public void testMissingStringArgument() throws Exception {
+try {
+new Args(\x{201c}x*\x{201d}, new String[]{\x{201c}-x\x{201d}});
+fail();
+} catch (ArgsException e) {
+assertEquals(ArgsException.ErrorCode.MISSING_STRING, e.getErrorCode());
+assertEquals(\x{2018}x\x{2019}, e.getErrorArgumentId());
+}
+}
+public void testSpacesInFormat() throws Exception {
+Args args = new Args(\x{201c}x, y\x{201d}, new String[]{\x{201c}-xy\x{201d}});
+assertEquals(2, args.cardinality());
+assertTrue(args.has(\x{2018}x\x{2019}));
+assertTrue(args.has(\x{2018}y\x{2019}));
+}
+public void testSimpleIntPresent() throws Exception {
+Args args = new Args(\x{201c}x#\x{201d}, new String[]{\x{201c}-x\x{201d}, \x{201c}42\x{201d}});
+assertEquals(1, args.cardinality());
+assertTrue(args.has(\x{2018}x\x{2019}));
+assertEquals(42, args.getInt(\x{2018}x\x{2019}));
+}
+public void testInvalidInteger() throws Exception {
+try {
+new Args(\x{201c}x#\x{201d}, new String[]{\x{201c}-x\x{201d}, \x{201c}Forty two\x{201d}});
+fail();
+} catch (ArgsException e) {
+assertEquals(ArgsException.ErrorCode.INVALID_INTEGER, e.getErrorCode());
+assertEquals(\x{2018}x\x{2019}, e.getErrorArgumentId());
+assertEquals(\x{201d}Forty two\x{201d}, e.getErrorParameter());
+}
+}
+public void testMissingInteger() throws Exception {
+try {
+new Args(\x{201c}x#\x{201d}, new String[]{\x{201c}-x\x{201d}});
+fail();
+} catch (ArgsException e) {
+assertEquals(ArgsException.ErrorCode.MISSING_INTEGER, e.getErrorCode());
+assertEquals(\x{2018}x\x{2019}, e.getErrorArgumentId());
+}
+}
+public void testSimpleDoublePresent() throws Exception {
+Args args = new Args(\x{201c}x##\x{201d}, new String[]{\x{201c}-x\x{201d}, \x{201c}42.3\x{201d}});
+assertEquals(1, args.cardinality());
+assertTrue(args.has(\x{2018}x\x{2019}));
+assertEquals(42.3, args.getDouble(\x{2018}x\x{2019}), .001);
+}
+public void testInvalidDouble() throws Exception {
+try {
+new Args(\x{201c}x##\x{201d}, new String[]{\x{201c}-x\x{201d}, \x{201c}Forty two\x{201d}});
+fail();
+} catch (ArgsException e) {
+assertEquals(ArgsException.ErrorCode.INVALID_DOUBLE, e.getErrorCode());
+assertEquals(\x{2018}x\x{2019}, e.getErrorArgumentId());
+assertEquals(\x{201c}Forty two\x{201d}, e.getErrorParameter());
+}
+}
+public void testMissingDouble() throws Exception {
+try {
+new Args(\x{201c}x##\x{201d}, new String[]{\x{201c}-x\x{201d}});
+fail();
+} catch (ArgsException e) {
+assertEquals(ArgsException.ErrorCode.MISSING_DOUBLE, e.getErrorCode());
+assertEquals(\x{2018}x\x{2019}, e.getErrorArgumentId());
+}
+}
+}
+Listing <<14-14|5a:0>> ArgsExceptionTest.java
+public class ArgsExceptionTest extends TestCase {
+public void testUnexpectedMessage() throws Exception {
+ArgsException e =
+new ArgsException(ArgsException.ErrorCode.UNEXPECTED_ARGUMENT,
+\x{2018}x\x{2019}, null);
+assertEquals(\x{201c}Argument -x unexpected.\x{201d}, e.errorMessage());
+}
+public void testMissingStringMessage() throws Exception {
+ArgsException e = new ArgsException(ArgsException.ErrorCode.MISSING_STRING,
+\x{2018}x\x{2019}, null);
+assertEquals(\x{201c}Could not find string parameter for -x.\x{201d}, e.errorMessage());
+}
+public void testInvalidIntegerMessage() throws Exception {
+ArgsException e =
+new ArgsException(ArgsException.ErrorCode.INVALID_INTEGER,
+\x{2018}x\x{2019}, \x{201c}Forty two\x{201d});
+assertEquals(\x{201c}Argument -x expects an integer but was \x{2018}Forty two\x{2019}.\x{201c},
+e.errorMessage());
+}
+public void testMissingIntegerMessage() throws Exception {
+ArgsException e =
+new ArgsException(ArgsException.ErrorCode.MISSING_INTEGER, \x{2018}x\x{2019}, null);
+assertEquals(\x{201c}Could not find integer parameter for -x.\x{201d}, e.errorMessage());
+}
+public void testInvalidDoubleMessage() throws Exception {
+ArgsException e = new ArgsException(ArgsException.ErrorCode.INVALID_DOUBLE,
+\x{2018}x\x{2019}, \x{201c}Forty two\x{201d});
+assertEquals(\x{201c}Argument -x expects a double but was \x{2018}Forty two\x{2019}.\x{201d},
+e.errorMessage());
+}
+public void testMissingDoubleMessage() throws Exception {
+ArgsException e = new ArgsException(ArgsException.ErrorCode.MISSING_DOUBLE,
+\x{2018}x\x{2019}, null);
+assertEquals(\x{201c}Could not find double parameter for -x.\x{201d}, e.errorMessage());
+}
+}",
+          ],
+          [
+            1,
+            '[14:15] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_023.html) - 14-15',
+            "public class ArgsExceptionTest extends TestCase {
+public void testUnexpectedMessage() throws Exception {
+ArgsException e =
+new ArgsException(ArgsException.ErrorCode.UNEXPECTED_ARGUMENT,
+\x{2018}x\x{2019}, null);
+assertEquals(\x{201c}Argument -x unexpected.\x{201d}, e.errorMessage());
+}
+public void testMissingStringMessage() throws Exception {
+ArgsException e = new ArgsException(ArgsException.ErrorCode.MISSING_STRING,
+\x{2018}x\x{2019}, null);
+assertEquals(\x{201c}Could not find string parameter for -x.\x{201d}, e.errorMessage());
+}
+public void testInvalidIntegerMessage() throws Exception {
+ArgsException e =
+new ArgsException(ArgsException.ErrorCode.INVALID_INTEGER,
+\x{2018}x\x{2019}, \x{201c}Forty two\x{201d});
+assertEquals(\x{201c}Argument -x expects an integer but was \x{2018}Forty two\x{2019}.\x{201c},
+e.errorMessage());
+}
+public void testMissingIntegerMessage() throws Exception {
+ArgsException e =
+new ArgsException(ArgsException.ErrorCode.MISSING_INTEGER, \x{2018}x\x{2019}, null);
+assertEquals(\x{201c}Could not find integer parameter for -x.\x{201d}, e.errorMessage());
+}
+public void testInvalidDoubleMessage() throws Exception {
+ArgsException e = new ArgsException(ArgsException.ErrorCode.INVALID_DOUBLE,
+\x{2018}x\x{2019}, \x{201c}Forty two\x{201d});
+assertEquals(\x{201c}Argument -x expects a double but was \x{2018}Forty two\x{2019}.\x{201d},
+e.errorMessage());
+}
+public void testMissingDoubleMessage() throws Exception {
+ArgsException e = new ArgsException(ArgsException.ErrorCode.MISSING_DOUBLE,
+\x{2018}x\x{2019}, null);
+assertEquals(\x{201c}Could not find double parameter for -x.\x{201d}, e.errorMessage());
+}
+}
+Listing <<14-15|5a:0>> ArgsException.java
+public class ArgsException extends Exception {
+private char errorArgumentId = \x{2018}\\0\x{2019};
+private String errorParameter = \x{201c}TILT\x{201d};
+private ErrorCode errorCode = ErrorCode.OK;
+public ArgsException() {}
+public ArgsException(String message) {super(message);}
+public ArgsException(ErrorCode errorCode) {
+this.errorCode = errorCode;
+}
+public ArgsException(ErrorCode errorCode, String errorParameter) {
+this.errorCode = errorCode;
+this.errorParameter = errorParameter;
+}
+public ArgsException(ErrorCode errorCode, char errorArgumentId,
+String errorParameter) {
+this.errorCode = errorCode;
+this.errorParameter = errorParameter;
+this.errorArgumentId = errorArgumentId;
+}
+public char getErrorArgumentId() {
+return errorArgumentId;
+}
+public void setErrorArgumentId(char errorArgumentId) {
+this.errorArgumentId = errorArgumentId;
+}
+public String getErrorParameter() {
+return errorParameter;
+}
+public void setErrorParameter(String errorParameter) {
+this.errorParameter = errorParameter;
+}
+public ErrorCode getErrorCode() {
+return errorCode;
+}
+public void setErrorCode(ErrorCode errorCode) {
+this.errorCode = errorCode;
+}
+public String errorMessage() throws Exception {
+switch (errorCode) {
+case OK:
+throw new Exception(\x{201c}TILT: Should not get here.\x{201d});
+case UNEXPECTED_ARGUMENT:
+return String.format(\x{201c}Argument -%c unexpected.\x{201d}, errorArgumentId);
+case MISSING_STRING:
+return String.format(\x{201c}Could not find string parameter for -%c.\x{201d},
+errorArgumentId);
+case INVALID_INTEGER:
+return String.format(\x{201c}Argument -%c expects an integer but was \x{2018}%s\x{2019}.\x{201d},
+errorArgumentId, errorParameter);
+case MISSING_INTEGER:
+return String.format(\x{201c}Could not find integer parameter for -%c.\x{201d},
+errorArgumentId);
+case INVALID_DOUBLE:
+return String.format(\x{201c}Argument -%c expects a double but was \x{2018}%s\x{2019}.\x{201d},
+errorArgumentId, errorParameter);
+case MISSING_DOUBLE:
+return String.format(\x{201c}Could not find double parameter for -%c.\x{201d},
+errorArgumentId);
+}
+return \x{201c}\x{201d};
+}
+public enum ErrorCode {
+OK, INVALID_FORMAT, UNEXPECTED_ARGUMENT, INVALID_ARGUMENT_NAME,
+MISSING_STRING,
+MISSING_INTEGER, INVALID_INTEGER,
+MISSING_DOUBLE, INVALID_DOUBLE}
+}",
+          ],
+          [
+            1,
+            '[14:16] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_023.html) - 14-16',
+            "public class ArgsException extends Exception {
+private char errorArgumentId = \x{2018}\\0\x{2019};
+private String errorParameter = \x{201c}TILT\x{201d};
+private ErrorCode errorCode = ErrorCode.OK;
+public ArgsException() {}
+public ArgsException(String message) {super(message);}
+public ArgsException(ErrorCode errorCode) {
+this.errorCode = errorCode;
+}
+public ArgsException(ErrorCode errorCode, String errorParameter) {
+this.errorCode = errorCode;
+this.errorParameter = errorParameter;
+}
+public ArgsException(ErrorCode errorCode, char errorArgumentId,
+String errorParameter) {
+this.errorCode = errorCode;
+this.errorParameter = errorParameter;
+this.errorArgumentId = errorArgumentId;
+}
+public char getErrorArgumentId() {
+return errorArgumentId;
+}
+public void setErrorArgumentId(char errorArgumentId) {
+this.errorArgumentId = errorArgumentId;
+}
+public String getErrorParameter() {
+return errorParameter;
+}
+public void setErrorParameter(String errorParameter) {
+this.errorParameter = errorParameter;
+}
+public ErrorCode getErrorCode() {
+return errorCode;
+}
+public void setErrorCode(ErrorCode errorCode) {
+this.errorCode = errorCode;
+}
+public String errorMessage() throws Exception {
+switch (errorCode) {
+case OK:
+throw new Exception(\x{201c}TILT: Should not get here.\x{201d});
+case UNEXPECTED_ARGUMENT:
+return String.format(\x{201c}Argument -%c unexpected.\x{201d}, errorArgumentId);
+case MISSING_STRING:
+return String.format(\x{201c}Could not find string parameter for -%c.\x{201d},
+errorArgumentId);
+case INVALID_INTEGER:
+return String.format(\x{201c}Argument -%c expects an integer but was \x{2018}%s\x{2019}.\x{201d},
+errorArgumentId, errorParameter);
+case MISSING_INTEGER:
+return String.format(\x{201c}Could not find integer parameter for -%c.\x{201d},
+errorArgumentId);
+case INVALID_DOUBLE:
+return String.format(\x{201c}Argument -%c expects a double but was \x{2018}%s\x{2019}.\x{201d},
+errorArgumentId, errorParameter);
+case MISSING_DOUBLE:
+return String.format(\x{201c}Could not find double parameter for -%c.\x{201d},
+errorArgumentId);
+}
+return \x{201c}\x{201d};
+}
+public enum ErrorCode {
+OK, INVALID_FORMAT, UNEXPECTED_ARGUMENT, INVALID_ARGUMENT_NAME,
+MISSING_STRING,
+MISSING_INTEGER, INVALID_INTEGER,
+MISSING_DOUBLE, INVALID_DOUBLE}
+}
+Listing <<14-16|5a:0>> Args.java
+public class Args {
+private String schema;
+private Map<Character, ArgumentMarshaler> marshalers =
+new HashMap<Character, ArgumentMarshaler>();
+private Set<Character> argsFound = new HashSet<Character>();
+private Iterator<String> currentArgument;
+private List<String> argsList;
+public Args(String schema, String[] args) throws ArgsException {
+this.schema = schema;
+argsList = Arrays.asList(args);
+parse();
+}
+private void parse() throws ArgsException {
+parseSchema();
+parseArguments();
+}
+private boolean parseSchema() throws ArgsException {
+for (String element : schema.split(\x{201c},\x{201d})) {
+if (element.length() > 0) {
+parseSchemaElement(element.trim());
+}
+}
+return true;
+}
+private void parseSchemaElement(String element) throws ArgsException {
+char elementId = element.charAt(0);
+String elementTail = element.substring(1);
+validateSchemaElementId(elementId);
+if (elementTail.length() == 0)
+marshalers.put(elementId, new BooleanArgumentMarshaler());
+else if (elementTail.equals(\x{201c}*\x{201d}))
+marshalers.put(elementId, new StringArgumentMarshaler());
+else if (elementTail.equals(\x{201c}#\x{201d}))
+marshalers.put(elementId, new IntegerArgumentMarshaler());
+else if (elementTail.equals(\x{201c}##\x{201d}))
+marshalers.put(elementId, new DoubleArgumentMarshaler());
+else
+throw new ArgsException(ArgsException.ErrorCode.INVALID_FORMAT,
+elementId, elementTail);
+}
+private void validateSchemaElementId(char elementId) throws ArgsException {
+if (!Character.isLetter(elementId)) {
+throw new ArgsException(ArgsException.ErrorCode.INVALID_ARGUMENT_NAME,
+elementId, null);
+}
+}
+private void parseArguments() throws ArgsException {
+for (currentArgument = argsList.iterator(); currentArgument.hasNext();) {
+String arg = currentArgument.next();
+parseArgument(arg);
+}
+}
+private void parseArgument(String arg) throws ArgsException {
+if (arg.startsWith(\x{201c}-\x{201d}))
+parseElements(arg);
+}
+private void parseElements(String arg) throws ArgsException {
+for (int i = 1; i < arg.length(); i++)
+parseElement(arg.charAt(i));
+}
+private void parseElement(char argChar) throws ArgsException {
+if (setArgument(argChar))
+argsFound.add(argChar);
+else {
+throw new ArgsException(ArgsException.ErrorCode.UNEXPECTED_ARGUMENT,
+argChar, null);
+}
+}
+private boolean setArgument(char argChar) throws ArgsException {
+ArgumentMarshaler m = marshalers.get(argChar);
+if (m == null)
+return false;
+try {
+m.set(currentArgument);
+return true;
+} catch (ArgsException e) {
+e.setErrorArgumentId(argChar);
+throw e;
+}
+}
+public int cardinality() {
+return argsFound.size();
+}
+public String usage() {
+if (schema.length() > 0)
+return \x{201c}-[\x{201d} + schema + \x{201c}]\x{201d};
+else
+return \x{201c}\x{201d};
+}
+public boolean getBoolean(char arg) {
+ArgumentMarshaler am = marshalers.get(arg);
+boolean b = false;
+try {
+b = am != null && (Boolean) am.get();
+} catch (ClassCastException e) {
+b = false;
+}
+return b;
+}
+public String getString(char arg) {
+ArgumentMarshaler am = marshalers.get(arg);
+try {
+return am == null ? \x{201c}\x{201d} : (String) am.get();
+} catch (ClassCastException e) {
+return \x{201c}\x{201d};
+}
+}
+public int getInt(char arg) {
+ArgumentMarshaler am = marshalers.get(arg);
+try {
+return am == null ? 0 : (Integer) am.get();
+} catch (Exception e) {
+return 0;
+}
+}
+public double getDouble(char arg) {
+ArgumentMarshaler am = marshalers.get(arg);
+try {
+return am == null ? 0 : (Double) am.get();
+} catch (Exception e) {
+return 0.0;
+}
+}
+public boolean has(char arg) {
+return argsFound.contains(arg);
+}
+}",
           ],
           [
             1,
@@ -317,8 +1416,7 @@ jiggling strategies, 190",
             1,
             "[ap 04:12] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_031.html) - 4\x{2013}12",
             "mental mapping, avoiding, 25
-messy code. See also
-bad code; dirty code total cost of owning, <<4\x{2013}12|5a:0>>
+messy code. See also bad code; dirty code total cost of owning, <<4\x{2013}12|5a:0>>
 method invocations, 324",
           ],
           [
@@ -498,7 +1596,7 @@ ensure that the Z score for 2 seconds is at least <<2.57|5a:0>>',
           [
             1,
             '[06:00] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_051.html) - 6 AM',
-            "\x{2022} I awoke at 5 every morning and rode my bicycle to the office in Bracknell by <<6 AM|5>>. That gave me  hours of quiet time before the chaos of the day began.",
+            "\x{2022} I awoke at 5 every morning and rode my bicycle to the office in Bracknell by <<6 AM|5>>. That gave me hours of quiet time before the chaos of the day began.",
           ],
           [
             1,

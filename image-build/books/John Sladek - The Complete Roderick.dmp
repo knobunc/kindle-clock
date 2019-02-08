@@ -29,16 +29,16 @@ $VAR1 = [
           [
             1,
             '[ap 08:00] The Complete Roderick - John Sladek.epub (OEBPS/Text/Part1_Book2_notes.html) - 8:00',
-            '
+            "Cou\x{e9}
 <<8:00|2>>-<<8:15|2>>
-',
+billiard cue",
           ],
           [
             1,
             '[ap 08:15] The Complete Roderick - John Sladek.epub (OEBPS/Text/Part1_Book2_notes.html) - 8:15',
-            '
+            'Drumm
 <<8:15|2>>-<<8:30|2>>
-',
+statuette',
           ],
           [
             1,
@@ -221,12 +221,12 @@ Ease my troub \x{2013} yeah, yeah, YOW! \x{2013}",
             '[04:35] The Complete Roderick - John Sladek.epub (OEBPS/Text/Part2c.html) - 0435 hrs',
             'Dept 45
 <<0435 hrs|1>>
-',
+<<0435 hrs|1>>',
           ],
           [
             1,
             '[04:35] The Complete Roderick - John Sladek.epub (OEBPS/Text/Part2c.html) - 0435 hrs',
-            '
+            '<<0435 hrs|1>>
 <<0435 hrs|1>>
 31.000494958 sec',
           ],

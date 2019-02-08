@@ -193,10 +193,11 @@ New Luce',
           ],
           [
             1,
-            '[ap 04:33] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/10-_Toc325282157.xhtml) - 4.33',
+            '[16:33] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/10-_Toc325282157.xhtml) - 4.33
+p.m.',
             "\x{2026}
-<<4.33|5a:0>>
-",
+<<4.33
+p.m.|2a>>",
           ],
           [
             1,
@@ -545,7 +546,7 @@ The Inspector thought for a moment. If this was true, it left Gowan out altogeth
           [
             1,
             '[18:00] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/16-_Toc325282163.xhtml) - 6 p.m.',
-            "
+            "Monday.
 <<6 p.m.|5>>
 Farren returns home and finds Campbell there. Turns him out of the house. (Jeanie\x{2019}s sister\x{2019}s evidence.)",
           ],
@@ -1686,7 +1687,7 @@ At <<11.25|9m>> Wimsey rose regretfully.
           [
             1,
             '[09:08] Five Red Herrings - Dorothy L. Sayers.epub (OEBPS/34-_Toc325282181.xhtml) - 9.8 a.m.',
-            "\x{2018}The other day I travelled \x{2013} at great inconvenience to myself \x{2013} from Gatehouse to Glasgow by the <<9.8 a.m.|2a>> train. I found that the brutal ticket-collectors actually inflicted three ferocious punches on my poor little half-ticket. The first was at Maxwelltown, where they produced a horrible set of indented letters and numerals, thus: \x{a0}At Hurlford, they were content to take a large bite out of the ticket \x{2013} not a simple triangular snip, but a disgusting thing like a squat figure 1. Ferguson would probably have seen these marks, and having the artist\x{2019}s eye and a remarkable visual memory, would no doubt be able to reproduce these things from memory. Personally, I took the precaution of drawing the mark left by the clipper. Here it is: \x{a0}Then, at Mauchline, they went all cautious again, and disfigured the ticket with another cipher-code: \x{a0}Now, gentlemen, with your permission and these instruments, we will proceed to forge the punch-marks on this ticket.\x{2019}",
+            "\x{2018}The other day I travelled \x{2013} at great inconvenience to myself \x{2013} from Gatehouse to Glasgow by the <<9.8 a.m.|2a>> train. I found that the brutal ticket-collectors actually inflicted three ferocious punches on my poor little half-ticket. The first was at Maxwelltown, where they produced a horrible set of indented letters and numerals, thus: At Hurlford, they were content to take a large bite out of the ticket \x{2013} not a simple triangular snip, but a disgusting thing like a squat figure 1. Ferguson would probably have seen these marks, and having the artist\x{2019}s eye and a remarkable visual memory, would no doubt be able to reproduce these things from memory. Personally, I took the precaution of drawing the mark left by the clipper. Here it is: Then, at Mauchline, they went all cautious again, and disfigured the ticket with another cipher-code: Now, gentlemen, with your permission and these instruments, we will proceed to forge the punch-marks on this ticket.\x{2019}",
           ],
           [
             1,

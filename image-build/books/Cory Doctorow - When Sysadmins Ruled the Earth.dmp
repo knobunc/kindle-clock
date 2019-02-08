@@ -2,88 +2,41 @@ $VAR1 = [
           [
             1,
             '[02:00] When Sysadmins Ruled the Earth - Cory Doctorow.epub (OPS/main2.xml) - two in the morning',
-            "When Felix\x{2019}s special phone rang at <<two in the morning|5>>, Kelly
-rolled over and punched him in the shoulder and hissed, \x{201c}Why didn\x{2019}t
-you turn that fucking thing off before bed?\x{201d}",
+            "When Felix\x{2019}s special phone rang at <<two in the morning|5>>, Kelly rolled over and punched him in the shoulder and hissed, \x{201c}Why didn\x{2019}t you turn that fucking thing off before bed?\x{201d}",
           ],
           [
             1,
             '[> 01:00] When Sysadmins Ruled the Earth - Cory Doctorow.epub (OPS/main2.xml) - after 1AM',
-            "Kelly was sitting up in bed now, an indistinct shape against the
-headboard. \x{201c}In five years of marriage, you have never once been
-able to fix anything from here.\x{201d} This time she was wrong\x{2014}he fixed
-stuff from home all the time, but he did it discreetly and didn\x{2019}t
-make a fuss, so she didn\x{2019}t remember it. And she was right, too\x{2014}he
-had logs that showed that <<after 1AM|5>>, nothing could ever be fixed
-without driving out to the cage. Law of Infinite Universal
-Perversity\x{2014}AKA Felix\x{2019}s Law.",
+            "Kelly was sitting up in bed now, an indistinct shape against the headboard. \x{201c}In five years of marriage, you have never once been able to fix anything from here.\x{201d} This time she was wrong\x{2014}he fixed stuff from home all the time, but he did it discreetly and didn\x{2019}t make a fuss, so she didn\x{2019}t remember it. And she was right, too\x{2014}he had logs that showed that <<after 1AM|5>>, nothing could ever be fixed without driving out to the cage. Law of Infinite Universal Perversity\x{2014}AKA Felix\x{2019}s Law.",
           ],
           [
             1,
             '[02:00] When Sysadmins Ruled the Earth - Cory Doctorow.epub (OPS/main2.xml) - 2AM',
-            "\x{201c}I\x{2019}m sorry I woke you,\x{201d} he said. He was almost at the data
-center. No traffic at <<2AM|5>>. He slowed down and pulled over before
-the entrance to the garage. He didn\x{2019}t want to lose Kelly\x{2019}s call
-underground.",
+            "\x{201c}I\x{2019}m sorry I woke you,\x{201d} he said. He was almost at the data center. No traffic at <<2AM|5>>. He slowed down and pulled over before the entrance to the garage. He didn\x{2019}t want to lose Kelly\x{2019}s call underground.",
           ],
           [
             1,
-            '[ap ~ 01:30] When Sysadmins Ruled the Earth - Cory Doctorow.epub (OPS/main2.xml) - around
-1:30',
-            "\x{201c}What? Oh. My personal box is over there. It went down <<around
-1:30|2>> and I got woken up by my process-monitor. I should have called
-you and told you I was coming down\x{2014}spared you the trip.\x{201d}",
+            '[ap ~ 01:30] When Sysadmins Ruled the Earth - Cory Doctorow.epub (OPS/main2.xml) - around 1:30',
+            "\x{201c}What? Oh. My personal box is over there. It went down <<around 1:30|2>> and I got woken up by my process-monitor. I should have called you and told you I was coming down\x{2014}spared you the trip.\x{201d}",
           ],
           [
             1,
             '[02:00] When Sysadmins Ruled the Earth - Cory Doctorow.epub (OPS/main2.xml) - 2AM',
-            "\x{201c}No, it\x{2019}s Microsoft\x{2019}s fault,\x{201d} Felix said. \x{201c}Any time I\x{2019}m at work
-at <<2AM|5>>, it\x{2019}s either PEBKAC or Microsloth.\x{201d}",
+            "\x{201c}No, it\x{2019}s Microsoft\x{2019}s fault,\x{201d} Felix said. \x{201c}Any time I\x{2019}m at work at <<2AM|5>>, it\x{2019}s either PEBKAC or Microsloth.\x{201d}",
           ],
           [
             1,
             '[10:00] When Sysadmins Ruled the Earth - Cory Doctorow.epub (OPS/main2.xml) - 10AM',
-            "Felix and Van got the Ardent boxes back online one at a time.
-They were being pounded by worm-probes\x{2014}putting the routers back
-online just exposed the downstream cages to the attack. Every box
-on the Internet was drowning in worms, or creating worm-attacks, or
-both. Felix managed to get through to NIST and Bugtraq after about
-a hundred timeouts, and download some kernel patches that should
-reduce the load the worms put on the machines in his care. It was
-<<10AM|5>>, and he was hungry enough to eat the ass out of a dead bear,
-but he recompiled his kernels and brought the machines back online.
-Van\x{2019}s long fingers flew over the administrative keyboard, his
-tongue protruding as he ran load-stats on each one.",
+            "Felix and Van got the Ardent boxes back online one at a time. They were being pounded by worm-probes\x{2014}putting the routers back online just exposed the downstream cages to the attack. Every box on the Internet was drowning in worms, or creating worm-attacks, or both. Felix managed to get through to NIST and Bugtraq after about a hundred timeouts, and download some kernel patches that should reduce the load the worms put on the machines in his care. It was <<10AM|5>>, and he was hungry enough to eat the ass out of a dead bear, but he recompiled his kernels and brought the machines back online. Van\x{2019}s long fingers flew over the administrative keyboard, his tongue protruding as he ran load-stats on each one.",
           ],
           [
             1,
             '[05:00] When Sysadmins Ruled the Earth - Cory Doctorow.epub (OPS/main2.xml) - five this morning',
-            "\x{201c}I\x{2019}m Uri Popovich, this is Diego Rosenbaum. Thank you all for
-coming up here. Here\x{2019}s what we know for sure: the building\x{2019}s been
-on generators for three hours now. Visual observation indicates
-that we\x{2019}re the only building in central Toronto with working
-power\x{2014}which should hold out for three more days. There is a
-bioagent of unknown origin loose beyond our doors. It kills
-quickly, within hours, and it is aerosolized. You get it from
-breathing bad air. No one has opened any of the exterior doors to
-this building since <<five this morning|5>>. No one will open the doors
-until I give the go-ahead.",
+            "\x{201c}I\x{2019}m Uri Popovich, this is Diego Rosenbaum. Thank you all for coming up here. Here\x{2019}s what we know for sure: the building\x{2019}s been on generators for three hours now. Visual observation indicates that we\x{2019}re the only building in central Toronto with working power\x{2014}which should hold out for three more days. There is a bioagent of unknown origin loose beyond our doors. It kills quickly, within hours, and it is aerosolized. You get it from breathing bad air. No one has opened any of the exterior doors to this building since <<five this morning|5>>. No one will open the doors until I give the go-ahead.",
           ],
           [
             1,
             '[~ 02:00] When Sysadmins Ruled the Earth - Cory Doctorow.epub (OPS/main2.xml) - about 2AM',
-            "\x{201c}Attacks on major cities all over the world have left emergency
-responders in chaos. The attacks are electronic, biological,
-nuclear and conventional explosives, and they are very widespread.
-I\x{2019}m a security engineer, and where I come from, attacks in this
-kind of cluster are usually viewed as opportunistic: group B blows
-up a bridge because everyone is off taking care of group A\x{2019}s dirty
-nuke event. It\x{2019}s smart. An Aum Shin Rikyo cell in Seoul gassed the
-subways there <<about 2AM|5>> Eastern\x{2014}that\x{2019}s the earliest event we can
-locate, so it may have been the Archduke that broke the camel\x{2019}s
-back. We\x{2019}re pretty sure that Aum Shin Rikyo couldn\x{2019}t be behind this
-kind of mayhem: they have no history of infowar and have never
-shown the kind of organizational acumen necessary to take out so
-many targets at once. Basically, they\x{2019}re not smart enough.",
+            "\x{201c}Attacks on major cities all over the world have left emergency responders in chaos. The attacks are electronic, biological, nuclear and conventional explosives, and they are very widespread. I\x{2019}m a security engineer, and where I come from, attacks in this kind of cluster are usually viewed as opportunistic: group B blows up a bridge because everyone is off taking care of group A\x{2019}s dirty nuke event. It\x{2019}s smart. An Aum Shin Rikyo cell in Seoul gassed the subways there <<about 2AM|5>> Eastern\x{2014}that\x{2019}s the earliest event we can locate, so it may have been the Archduke that broke the camel\x{2019}s back. We\x{2019}re pretty sure that Aum Shin Rikyo couldn\x{2019}t be behind this kind of mayhem: they have no history of infowar and have never shown the kind of organizational acumen necessary to take out so many targets at once. Basically, they\x{2019}re not smart enough.",
           ],
         ];
