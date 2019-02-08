@@ -1360,13 +1360,6 @@ sub get_matches {
                   })
               }xin;
 
-    # Hour\? ... Three
-    push @r,qr{ (?<pr> \b hour \? \s+ )
-                (?<t1> $hour_word_re )
-                $ba_re
-                (?{ $branch = "9i:TIMEY"; })
-              }xin;
-
     # The only time in a sentence
     # See also 9l, 9p, and 9k
     push @r,qr{ (?<pr>
@@ -1947,7 +1940,11 @@ sub get_matches {
 
     # The only time, but as a single hour (these are less reliable)
     push @r,qr{ (?<pr>
-                  ( \A | $aq | $phrase_punc_nc \s+ | \s+ $hy+ \s+ ) # No comma
+                  ( \A | $aq
+                  | $phrase_punc_nc \s+  # No comma
+                  | \s+ $hy+ \s+
+                  | at \s+ (this | that) \s+ (\w+ \s+)? hour [?] \s+
+                  )
                   ( ( $twas_re | only | just | the | probably ) \s+ )?
                 )
                 (?<t1>
@@ -1962,7 +1959,7 @@ sub get_matches {
                     (?{ $branch = "9k:0";
                         my ($pr, $po, $t1) = @+{qw( pr po t1 )};
                         if ( ( $po // '' ) =~ /now/i or
-                             ( $pr // '' ) =~ /now/i )
+                             ( $pr // '' ) =~ /now|hour/i )
                         {
                             $branch = "9q";
                         }
