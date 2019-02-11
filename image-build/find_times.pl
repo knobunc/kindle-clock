@@ -20,9 +20,11 @@ use TimeMatch;
 
 $Data::Dumper::Trailingcomma = 1;
 
-# These are the allowed line lengths for books
+# These books really have long lines, rather than bad formatting
 my %safe_book =
-    ('Edgar Allan Poe' =>
+    ('Charles G. Finney' =>
+         {'The Circus of Dr. Lao'                  => 1},
+     'Edgar Allan Poe' =>
          {'The Works of Edgar Allan Poe, Volume 5' => 1},
      'Gene Wolfe' =>
          {'The Fifth Head of Cerberus'             => 1},
