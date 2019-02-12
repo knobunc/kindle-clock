@@ -1,13 +1,6 @@
 $VAR1 = [
           [
             1,
-            '[12:00] Boy\'s Life - Robert R. McCammon.epub (OEBPS/Text/Contents.html) - High Noon',
-            '6. Dead Man Driving
-7. <<High Noon|13>> In Zephyr
-8. From the Lost World',
-          ],
-          [
-            1,
             '[00:00] Boy\'s Life - Robert R. McCammon.epub (OEBPS/Text/Part_01.html) - midnight',
             "\x{201c}Breakfast\x{2019}s on!\x{201d} Mom called. I zipped up my sweater, which was the same hue as Sgt. Rock\x{2019}s ripped shirt. My blue jeans had patches on the knees, like badges of courage marking encounters with barbed wire and gravel. My flannel shirt was red enough to stagger a bull. My socks were white as dove wings and my Keds <<midnight|13>> black. My mom was color-blind, and my dad thought checks went with plaid. I was all right.",
           ],
@@ -532,12 +525,12 @@ MY NOSE WASN\x{2019}T BROKEN, though it swelled up like a melon and turned a gha
           [
             1,
             '[ap 03:03] Boy\'s Life - Robert R. McCammon.epub (OEBPS/Text/Part_04.html) - Three three',
-            "Words cannot describe the look she gave him. \x{201c}Two threes,\x{201d} she said. \x{201c}That\x{2019}s the answer. <<Three three|9j>>. Maybe thirty-three. If we can figure out what that means, we\x{2019}ll have the killer\x{2019}s name.\x{201d}",
+            "Words cannot describe the look she gave him. \x{201c}Two threes,\x{201d} she said. \x{201c}That\x{2019}s the answer. <<Three three|9j:0>>. Maybe thirty-three. If we can figure out what that means, we\x{2019}ll have the killer\x{2019}s name.\x{201d}",
           ],
           [
             1,
             '[ap 03:03] Boy\'s Life - Robert R. McCammon.epub (OEBPS/Text/Part_04.html) - three three',
-            "\x{201c}I don\x{2019}t know. All I know is what I\x{2019}m lookin\x{2019} at: <<three three|9j>>.\x{201d} She slid the paper toward him; it was his to keep for his pain and trouble. \x{201c}That\x{2019}s all I can do for you. Sorry there\x{2019}s nothin\x{2019} more.\x{201d}",
+            "\x{201c}I don\x{2019}t know. All I know is what I\x{2019}m lookin\x{2019} at: <<three three|9j:0>>.\x{201d} She slid the paper toward him; it was his to keep for his pain and trouble. \x{201c}That\x{2019}s all I can do for you. Sorry there\x{2019}s nothin\x{2019} more.\x{201d}",
           ],
           [
             1,

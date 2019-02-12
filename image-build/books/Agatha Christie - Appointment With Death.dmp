@@ -8,6 +8,11 @@ $VAR1 = [
           ],
           [
             1,
+            '[ap 03:19] Appointment With Death - Agatha Christie.epub (OEBPS/Text/part0009.html) - 319',
+            "\x{2018}Yes, you can.\x{2019} She spoke authoritatively. \x{2018}Come to my room after you go to bed. It\x{2019}s <<319|9l>>. Don\x{2019}t forget, 319.\x{2019}",
+          ],
+          [
+            1,
             "[ap > 01:00] Appointment With Death - Agatha Christie.epub (OEBPS/Text/part0010.html) - after one o\x{2019}clock",
             "She was just on the point of giving Carol up (it was <<after one o\x{2019}clock|6>>) and going to bed, when there was a tap on her door. She opened it and drew quickly back to let Carol come in.",
           ],
@@ -343,17 +348,5 @@ Sarah King returns to camp',
             1,
             '[ap 04:35] Appointment With Death - Agatha Christie.epub (OEBPS/Text/part0033.html) - four thirty-five',
             "\x{2018}Next we must consider Dr Gerard. Now here we must take into account the actual time that the murder was committed. According to Mr Lennox Boynton\x{2019}s last statement, his mother was dead at <<four thirty-five|5b>>. According to Lady Westholme and Miss Pierce, she was alive at <<four-sixteen|3b>> when they started on their walk. That leaves exactly twenty minutes unaccounted for. Now, as these two ladies walked away from the camp, Dr Gerard passed them going to it. There is no one to say what Dr Gerard\x{2019}s movements were when he reached the camp because the two ladies\x{2019} backs were towards it. They were walking away from it. Therefore it is perfectly possible for Dr Gerard to have committed the crime. Being a doctor, he could easily counterfeit the appearance of malaria. There is, I should say, a possible motive. Dr Gerard might have wished to save a certain person whose reason (perhaps more vital a loss than loss of life) was in danger, and he may have considered the sacrifice of an old and worn-out life worth it!\x{2019}",
-          ],
-          [
-            1,
-            '[> 00:00] Appointment With Death - Agatha Christie.epub (OEBPS/Text/part0036.html) - Just after midnight',
-            "<<Just after midnight|10>>, a snowstorm stops the Orient Express dead in its tracks in the middle of Yugoslavia. The luxurious train is surprisingly full for this time of year. But by morning there is one passenger less. A \x{2018}respectable American gentleman\x{2019} lies dead in his compartment, stabbed a dozen times, his door locked from the inside\x{2026}Hercule Poirot is also aboard, having arrived in the nick of time to claim a second-class compartment\x{2014}and the most astounding case of his illustrious career.",
-          ],
-          [
-            1,
-            '[ap 04:50] Appointment With Death - Agatha Christie.epub (OEBPS/Text/part0039.html) - 4.50',
-            "A Pocket Full of Rye
-<<4.50|5a:0>> from Paddington
-The Mirror Crack\x{2019}d from Side to Side",
           ],
         ];

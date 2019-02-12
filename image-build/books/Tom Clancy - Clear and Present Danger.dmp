@@ -34,7 +34,7 @@ $VAR1 = [
           [
             1,
             "[ap 02:05] Clear and Present Danger - Tom Clancy.epub (OEBPS/part12.xhtml) - Two-\x{200b}Five",
-            "\x{201c}<<Two-\x{200b}Five|9j>>, tower, permission granted. Winds are one-\x{200b}zero-\x{200b}niner at six knots.\x{201d}",
+            "\x{201c}<<Two-\x{200b}Five|9j:0>>, tower, permission granted. Winds are one-\x{200b}zero-\x{200b}niner at six knots.\x{201d}",
           ],
           [
             1,
@@ -489,13 +489,6 @@ I NIT : S UBJECT F OXTROT',
           ],
           [
             1,
-            '[20:00] Clear and Present Danger - Tom Clancy.epub (OEBPS/part5.xhtml) - twenty',
-            "\x{201c}Sure is, skipper,\x{201d} the bosun answered in some surprise. He didn't know about the \x{201c}Calverts.\x{201d}
-\x{201c}We start at <<twenty|9g>>-\x{200b}one hundred,\x{201d} the captain said.
-\x{201c}About the time the weather gets here,\x{201d} Oreza observed. \x{201c}Fair enough, Red. You know you wanna be real careful how you\x{2014}\x{201d}",
-          ],
-          [
-            1,
             '[ap 09:00] Clear and Present Danger - Tom Clancy.epub (OEBPS/part6.xhtml) - nine o\'clock',
             "Clark 's hotel room was a nice one, befitting his cover. There was an ache at the back of his head to remind him that he was still not fully adjusted to the altitude, but a couple of Tylenol caplets went to work on that, and he knew that his job didn't involve much in the way of physical activity. He ordered breakfast sent up and went through some setting-\x{200b}up exercises to work the kinks out of his muscles. The morning jog was definitely out, however. Finished, he showered and shaved. Service was good here. Just as he got his clothes on, breakfast arrived, and by <<nine o'clock|6>> he was ready for work. Clark took the elevator down to the lobby, then went outside. The car was waiting. He got in the front.",
           ],
@@ -512,7 +505,7 @@ I NIT : S UBJECT F OXTROT',
           [
             1,
             '[ap 08:00] Clear and Present Danger - Tom Clancy.epub (OEBPS/part7.xhtml) - 0800',
-            "\x{201c}We're taking it easy on you. You have an hour to unwind and get some breakfast. Go easy on the chow: we'll have another little run this afternoon. At <<0800|9m:1>> we assemble here for training. Dismissed.\x{201d}",
+            "\x{201c}We're taking it easy on you. You have an hour to unwind and get some breakfast. Go easy on the chow: we'll have another little run this afternoon. At <<0800|9m>> we assemble here for training. Dismissed.\x{201d}",
           ],
           [
             1,

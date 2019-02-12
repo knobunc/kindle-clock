@@ -1,14 +1,6 @@
 $VAR1 = [
           [
             1,
-            '[ap 03:22] Nemesis - Agatha Christie.epub (OEBPS/004_TOC.html) - Three
-22',
-            '20. Miss Marple Has Ideas
-21. The Clock Strikes <<Three
-22|11>>. Miss Marple Tells Her Story',
-          ],
-          [
-            1,
             '[ap ~ 11:30] Nemesis - Agatha Christie.epub (OEBPS/007_chapter03.html) - about half past eleven',
             "\x{201c}It just reminded me of something,\x{201d} said Miss Marple, \x{201c}or rather of someone I once knew. Order Inch for me, will you? To come here <<about half past eleven|10>>.\x{201d}",
           ],
@@ -98,13 +90,6 @@ I',
             '[ap 04:50] Nemesis - Agatha Christie.epub (OEBPS/029_backmatterpage02.html) - 4:50',
             "A Pocket Full of Rye
 <<4:50|2>> From Paddington
-The Mirror Crack\x{2019}d from Side to Side",
-          ],
-          [
-            1,
-            '[ap 04:50] Nemesis - Agatha Christie.epub (OEBPS/033_adcardpage.html) - 4:50',
-            "A Pocket Full of Rye
-<<4:50|2>> from Paddington
 The Mirror Crack\x{2019}d from Side to Side",
           ],
         ];

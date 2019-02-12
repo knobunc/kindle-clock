@@ -32,7 +32,7 @@ $VAR1 = [
           [
             1,
             '[ap 01:44] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (091-094.html) - 0144',
-            "Integer constants are indicated in the obvious way by simple digit sequences: 0, 1, 23, 456. Integer constants are in decimal (base 10) by default, but may be entered in octal (base 8) by prepending a leading 0 (digit zero), or in hexadecimal (base 16) by prepending a leading 0x or 0X. (The hexadecimal digits are 0\x{2013}9 and the letters a\x{2013}f or A\x{2013}F). Thus, 010 and 0377 are octal constants, and 0x10, 0x1abc, and 0XFEED are hexadecimal constants. The constants 100, <<0144|9l>>, and 0x64 all have the same value, one hundred decimal.",
+            "Integer constants are indicated in the obvious way by simple digit sequences: 0, 1, 23, 456. Integer constants are in decimal (base 10) by default, but may be entered in octal (base 8) by prepending a leading 0 (digit zero), or in hexadecimal (base 16) by prepending a leading 0x or 0X. (The hexadecimal digits are 0\x{2013}9 and the letters a\x{2013}f or A\x{2013}F). Thus, 010 and 0377 are octal constants, and 0x10, 0x1abc, and 0XFEED are hexadecimal constants. The constants 100, <<0144|9l:0>>, and 0x64 all have the same value, one hundred decimal.",
           ],
           [
             1,
@@ -78,15 +78,8 @@ and',
           ],
           [
             1,
-            '[ap 03:10] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (181-184.html) - 3.10',
-            'A C program can return an exit status to the invoking environment. The exit status is simply an integer value, with 0 indicating successful termination and nonzero values representing other conditions. The exit status is either the return value from main or the value passed to the exit function. See section 3.10.4.5 for more information on exit and the two predefined exit status values EXIT_SUCCESS and EXIT_FAILURE.
-<<3.10|9p>>. The Standard C Library
-The Standard C runtime library is an occasionally eclectic mixture of extremely useful functions, along with a few unlikely historical warts. Most of these functions are valuable, and their use is recommended for productive and efficient programming. A few (such as strncpy) have foibles that must be understood for proper use, and one or two (such as gets) cannot be used safely, and are best avoided.',
-          ],
-          [
-            1,
             '[ap 03:14] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (188-190.html) - 3.14',
-            "printf(\x{201c}%d, %5d, %-5d, %05d, %5.5d\\n\x{201d}, 1, 2, 3, 4, 5); printf(\x{201c}%o %x %X %#o %#x\\n\x{201d}, 171, 171, 171, 171, 171); printf(\x{201c}%f %e %g\\n\x{201d}, <<3.14|9p>>, <<3.14|9p>>, <<3.14|5a:0>>); printf(\x{201c}%s, %.5s!\\n\x{201d}, \x{201c}Hello\x{201d}, \x{201c}worldly\x{201d}); printf(\x{201c}%0*d, %.*f, %*.*s\\n\x{201d}, 2, 3, 4, 5.6, 7, 3, \x{201c}abcdef\x{201d});",
+            "printf(\x{201c}%d, %5d, %-5d, %05d, %5.5d\\n\x{201d}, 1, 2, 3, 4, 5); printf(\x{201c}%o %x %X %#o %#x\\n\x{201d}, 171, 171, 171, 171, 171); printf(\x{201c}%f %e %g\\n\x{201d}, 3.14, 3.14, <<3.14|5a:0>>); printf(\x{201c}%s, %.5s!\\n\x{201d}, \x{201c}Hello\x{201d}, \x{201c}worldly\x{201d}); printf(\x{201c}%0*d, %.*f, %*.*s\\n\x{201d}, 2, 3, 4, 5.6, 7, 3, \x{201c}abcdef\x{201d});",
           ],
           [
             1,
@@ -104,20 +97,6 @@ Tue Oct 28 <<07:50|2>>:28 1997\\n\\0
             1,
             '[ap 02:10] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (216-218.html) - 2:10',
             'mktime attempts to compute the time_t value corresponding to the local date and time represented by the tm structure pointed to by tp. The date is determined by tm_mon and tm_mday; tm_wday and tm_yday are ignored on input. If tm_isdst is negative, mktime attempts to determine whether DST will or would have applied on the given date, and act accordingly; if tm_isdst is positive or zero, the caller is asserting that the given time does or does not have a DST offset applied, respectively. If any of tm_sec, tm_min, tm_hour, tm_mday, or tm_mon has a value outside the expected range, mktime normalizes them in the process of computing a date (and also adjusts their values in *tp). For example, 25:70 on January 32 is converted to <<2:10|2>> on February 2. Finally, appropriate values of tm_wday and tm_yday are set in *tp. The return value is the converted time_t value, or -1 if the conversion is impossible (e.g., the date represented by the tm structure is outside the range representable by a time_t).',
-          ],
-          [
-            1,
-            '[ap 03:11] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (232-234.html) - 3.11',
-            "These functions permit new character conversions to be introduced without adding additional functions. wctrans accepts a string convname indicating a character conversion and returns a token that can be used for performing that conversion. (The token type, wctrans_t, is also defined in <wctype.h>.) towctrans accepts a wide character c and a token convtok previously returned by wctrans, and returns the appropriately converted wide character. wctrans accepts the strings \x{201c}toupper\x{201d} and \x{201c}tolower\x{201d} (corresponding to the two predefined classifications), plus any other conversion strings an implementation chooses to provide.
-<<3.11|9p>>. Acknowledgments
-Thanks to Clive Feather for his invaluable summary of NA1. Thanks to Mark Brader, Jutta Degener, Dennis Ritchie, Melanie Summit, and Rob Young for reading and commenting on drafts of this manuscript.",
-          ],
-          [
-            1,
-            '[ap 03:12] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (232-234.html) - 3.12',
-            "Thanks to Clive Feather for his invaluable summary of NA1. Thanks to Mark Brader, Jutta Degener, Dennis Ritchie, Melanie Summit, and Rob Young for reading and commenting on drafts of this manuscript.
-<<3.12|9p>>. Bibliography
-American National Standards Institute. 1989. American national standard for information systems\x{2014}Programming language\x{2014}C, ANSI X3.159-1989.",
           ],
           [
             1,
@@ -890,126 +869,12 @@ Solution: The solution to this problem has two components: a generator for the h
           ],
           [
             1,
+            '[ap 07:04] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (about_split_001.html) - 704',
+            'The <<704|9l>>, originally the 701A, was released in 1954. It was the logical successor to the IBM 701 (1952, 1953). The evolution of the 701 into the 704 was headed up by Gene Amdahl. The direct result of the 701/704 was the beginning of work on Fortran (which stands for formula translator) by John Backus at IBM in 1953. Work on the Fortran translator (we would call it a compiler) began in 1955 and was completed in 1957. Fortran was, without a doubt, the first programming language.',
+          ],
+          [
+            1,
             '[20:00] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (about_split_001.html) - 1960',
             'Just over 40 years ago there were no programming languages. In 1954 programming was still a function of hardware. Fortran was invented in 1957. It was soon being taught. By <<1960|9:0>>, not only had COBOL and Lisp joined the roster, but so had others, many now thankfully forgotten. Over the past 40 years, nearly 4,000 computer languages have been produced. Only a tithe of these are in use today, but the growth and development of them has been progressive and organic.',
-          ],
-          [
-            1,
-            '[13:14] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (book-index_split_001.html) - 13-14',
-            'parameters, 37
-special, <<13-14|5a:0>>
-string length, 37',
-          ],
-          [
-            1,
-            '[21:24] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (book-index_split_001.html) - 21-24',
-            'flow control C, 129-135
-Fortran 95, <<21-24|5a:0>>
-Icon, 333-334',
-          ],
-          [
-            1,
-            '[13:14] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (book-index_split_001.html) - 13-14',
-            'parameters, 37
-special, <<13-14|5a:0>>
-string length, 37',
-          ],
-          [
-            1,
-            '[21:24] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (book-index_split_001.html) - 21-24',
-            'extensibility, 7
-flow control, <<21-24|5a:0>>
-functions, 28 arguments, 28-29',
-          ],
-          [
-            1,
-            '[ap 10:11] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (book-index_split_001.html) - 10-11',
-            'shape, 32
-HFP extensions, <<10-11|5a:0>>
-legacy code, 7',
-          ],
-          [
-            1,
-            '[ap 00:14] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (book-index_split_001.html) - 12-14',
-            'programs example, 12
-form, <<12-14|5a:0>>
-record files, 52 accessing, 53',
-          ],
-          [
-            1,
-            '[ap 09:10] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (book-index_split_001.html) - 9-10',
-            'unformatted, 51
-standards, 7-8 permissiveness of, <<9-10|5a:0>>
-portability, 9',
-          ],
-          [
-            1,
-            '[22:23] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (book-index_split_001.html) - 22-23',
-            'I/O statements, 51
-if, <<22-23|5a:0>>
-inquire, 55',
-          ],
-          [
-            1,
-            '[ap 10:11] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (book-index_split_001.html) - 10-11',
-            'Hello World program (C), 87
-HFP extensions (Fortran 95), <<10-11|5a:0>>
-Highvideo procedure (Turbo Pascal), 308',
-          ],
-          [
-            1,
-            '[22:23] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (book-index_split_001.html) - 22-23',
-            'If statement C, 125-128
-Fortran 95, <<22-23|5a:0>>
-Turbo Pascal, 262',
-          ],
-          [
-            1,
-            '[ap 00:14] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (book-index_split_001.html) - 12-14',
-            'Fortran 95 example, 12
-form, <<12-14|5a:0>>
-Icon command-line arguments, 374-375',
-          ],
-          [
-            1,
-            '[13:14] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (book-index_split_001.html) - 13-14',
-            'Icon programs, 373
-special characters (Fortran 95), <<13-14|5a:0>>
-Sprintf function (C), 197',
-          ],
-          [
-            1,
-            '[ap 09:10] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (book-index_split_001.html) - 9-10',
-            'Fortran, 4-6
-Fortran 95, 7-8 permissiveness of, <<9-10|5a:0>>
-portability, 9',
-          ],
-          [
-            1,
-            '[22:23] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (book-index_split_001.html) - 22-23',
-            'I/O statements, 51
-if, <<22-23|5a:0>>
-keywords, 12',
-          ],
-          [
-            1,
-            '[ap 03:10] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (ewtoc.html) - 3.10',
-            '3.9.2. Exit Status
-<<3.10|5a:0>>. The Standard C Library 3.10.1. <stdio.h>
-3.10.2. <string.h>',
-          ],
-          [
-            1,
-            '[ap 03:11] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (ewtoc.html) - 3.11',
-            '3.10.18. <wctype.h>
-<<3.11|5a:0>>. Acknowledgments
-<<3.12|5a:0>>. Bibliography',
-          ],
-          [
-            1,
-            '[ap 03:11] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (ewtoc.html) - 3.11',
-            "<<3.11|9p>>. Acknowledgments
-<<3.12|5a:0>>. Bibliography
-Part III\x{2014}Intermediate Languages Chapter 4\x{2014}Intermediate Languages 4.1. Overview",
           ],
         ];

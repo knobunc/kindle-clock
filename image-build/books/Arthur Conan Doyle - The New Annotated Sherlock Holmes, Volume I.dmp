@@ -7,7 +7,7 @@ $VAR1 = [
           [
             1,
             '[18:51] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0005.html) - 1851',
-            "As in the case of Holmes, little is known of the young adulthood of John H. Watson. He took his doctor\x{2019}s degree at the University of London in 1878, and scholars place his birthdate at <<1851|18:0>> or 1852, seven or eight years before Arthur Conan Doyle\x{2019}s. There is some evidence that he spent a portion of his boyhood in Australia, and he attended public school in England. Watson\x{2019}s mother apparently died shortly after the birth of young John, although his father (H. Watson) and his elder brother survived until the mid-1880s. In his youth, Watson played rugby for Blackheath, and his love of sport and physical activity may have led him, after his residency at St. Bartholomew\x{2019}s Hospital, to take up a military career. Whatever his motivations, Dr. Watson enrolled in the required course for army surgeons at Netley. Upon completion of his training, he was posted to the Northumberland Fusiliers as assistant surgeon.",
+            "As in the case of Holmes, little is known of the young adulthood of John H. Watson. He took his doctor\x{2019}s degree at the University of London in 1878, and scholars place his birthdate at <<1851|18:1>> or 1852, seven or eight years before Arthur Conan Doyle\x{2019}s. There is some evidence that he spent a portion of his boyhood in Australia, and he attended public school in England. Watson\x{2019}s mother apparently died shortly after the birth of young John, although his father (H. Watson) and his elder brother survived until the mid-1880s. In his youth, Watson played rugby for Blackheath, and his love of sport and physical activity may have led him, after his residency at St. Bartholomew\x{2019}s Hospital, to take up a military career. Whatever his motivations, Dr. Watson enrolled in the required course for army surgeons at Netley. Upon completion of his training, he was posted to the Northumberland Fusiliers as assistant surgeon.",
           ],
           [
             1,
@@ -224,6 +224,11 @@ $VAR1 = [
             1,
             '[ap ~ 11:00] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0012.html) - about eleven',
             "\x{201c}Of course you are. You\x{2019}ll know all about it presently. Jump up here! All right, John; we shall not need you. Here\x{2019}s half a crown. Look out for me to-morrow, <<about eleven|9:0>>. Give her head. So long, then!\x{201d}",
+          ],
+          [
+            1,
+            '[ap 05:14] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0012.html) - 5.14',
+            "\x{201c}Some years ago\x{2014}to be definite, in May, 1884\x{2014}there came to Lee a gentleman, Neville St. Clair by name, who appeared to have plenty of money. He took a large villa, laid out the grounds very nicely, and lived generally in good style. By degrees he made friends in the neighbourhood, and in 1887 he married the daughter of a local brewer, by whom he has now had two children. He had no occupation, but was interested in several companies, and went into town as a rule in the morning, returning by the <<5.14|5a:0>> from Cannon Street every night. Mr. St. Clair is now 37 years of age, is a man of temperate habits, a good husband, a very affectionate father, and a man who is popular with all who know him. I may add that his whole debts at the present moment, as far as we have been able to ascertain, amount to \x{a3}88 10s., while he has \x{a3}220 standing to his credit in the Capital and Counties Bank. There is no reason, therefore, to think that money troubles have been weighing upon his mind.",
           ],
           [
             1,
@@ -729,11 +734,6 @@ $VAR1 = [
             1,
             "[ap 10:00] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0028.html) - ten o\x{2019}clock",
             "I was weary of our little sitting-room, and gladly acquiesced, muffling myself nose-high against the keen night air. For three hours we strolled about together, watching the ever-changing kaleidoscope of life as it ebbs and flows through Fleet Street and the Strand. Holmes had shaken off his temporary ill-humour, and his characteristic talk, with its keen observance of detail and subtle power of inference, held me amused and enthralled. It was <<ten o\x{2019}clock|6>> before we reached Baker Street again. A brougham was waiting at our door.",
-          ],
-          [
-            1,
-            '[ap 04:03] The New Annotated Sherlock Holmes, Volume - Arthur Conan Doyle.epub (text/part0028.html) - 403',
-            "\x{201c}My name is Dr. Percy Trevelyan,\x{201d} said our visitor, \x{201c}and I live at <<403|9c:0>>, Brook Street.\x{201d}",
           ],
           [
             1,

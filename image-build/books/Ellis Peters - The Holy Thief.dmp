@@ -21,9 +21,9 @@ $VAR1 = [
           ],
           [
             1,
-            '[02:30] The Holy Thief - Ellis Peters.epub (OEBPS/Text/009.html) - Matins',
+            '[02:30] The Holy Thief - Ellis Peters.epub (OEBPS/Text/009.html) - Matins bell',
             'Leaving the church, Cadfael halted for a moment to snuff the air and survey the sky, which by this hour hung heavy with dropsical clouds, through which the moon occasionally glared for an instant, and was as quickly obscured again. When he went to close up his workshop for the night he observed that the waters of the brook had laid claim to another yard or so of the lower rim of his peasefields.
-All night long from the <<Matins|13>> bell it rained heavily.
+All night long from the <<Matins bell|15>> it rained heavily.
 *',
           ],
           [
@@ -153,13 +153,13 @@ All night long from the <<Matins|13>> bell it rained heavily.
           ],
           [
             1,
-            '[~ 18:00] The Holy Thief - Ellis Peters.epub (OEBPS/Text/015.html) - Compline',
-            "\x{201c}We made it up between us,\x{201d} she said, \x{201c}and it was the first time ever we two met outside these walls. He went out and took the path that leads up over the ridge to the ferry. I slipped out through the double gates of the burial ground to the Horse Fair, and we crept into the loft over the stable there. The wicket in the main doors was still unlocked then, after they brought the horses back after the flood. It was more than a week before the stableyard here had dried out. And that is where we stayed together, until we heard the <<Compline|13>> bell. By that time, we thought, he must have been and gone again. So late, and the night dark.\x{201d}",
+            '[~ 18:00] The Holy Thief - Ellis Peters.epub (OEBPS/Text/015.html) - Compline bell',
+            "\x{201c}We made it up between us,\x{201d} she said, \x{201c}and it was the first time ever we two met outside these walls. He went out and took the path that leads up over the ridge to the ferry. I slipped out through the double gates of the burial ground to the Horse Fair, and we crept into the loft over the stable there. The wicket in the main doors was still unlocked then, after they brought the horses back after the flood. It was more than a week before the stableyard here had dried out. And that is where we stayed together, until we heard the <<Compline bell|15>>. By that time, we thought, he must have been and gone again. So late, and the night dark.\x{201d}",
           ],
           [
             1,
-            '[~ 18:00] The Holy Thief - Ellis Peters.epub (OEBPS/Text/015.html) - Compline',
-            "\x{201c}As you offered him his freedom tonight. Well, and then? You heard the <<Compline|13>> bell, and thought it safe to return. Then how came he alone on the path from the ferry?\x{201d}",
+            '[~ 18:00] The Holy Thief - Ellis Peters.epub (OEBPS/Text/015.html) - Compline bell',
+            "\x{201c}As you offered him his freedom tonight. Well, and then? You heard the <<Compline bell|15>>, and thought it safe to return. Then how came he alone on the path from the ferry?\x{201d}",
           ],
           [
             1,
@@ -218,8 +218,8 @@ All night long from the <<Matins|13>> bell it rained heavily.
           ],
           [
             1,
-            '[~ 18:00] The Holy Thief - Ellis Peters.epub (OEBPS/Text/018.html) - Compline',
-            "\x{201c}So they were, in a manner of speaking, but not like every such pair. Not quite. For she says they talked. Nothing more. And those two had much to talk about, and little chance until then. The first time they ever were together outside these walls. Even then I doubt if they got to the real meat of what they should have been saying. For believe me, Hugh, she has already set her mark on him, and he, though he may not know it yet, is in thrall to her fathoms deep. They said the evening prayers together, she says, when they heard the <<Compline|13>> bell.\x{201d}",
+            '[~ 18:00] The Holy Thief - Ellis Peters.epub (OEBPS/Text/018.html) - Compline bell',
+            "\x{201c}So they were, in a manner of speaking, but not like every such pair. Not quite. For she says they talked. Nothing more. And those two had much to talk about, and little chance until then. The first time they ever were together outside these walls. Even then I doubt if they got to the real meat of what they should have been saying. For believe me, Hugh, she has already set her mark on him, and he, though he may not know it yet, is in thrall to her fathoms deep. They said the evening prayers together, she says, when they heard the <<Compline bell|15>>.\x{201d}",
           ],
           [
             1,
@@ -273,8 +273,8 @@ All night long from the <<Matins|13>> bell it rained heavily.
           ],
           [
             1,
-            '[~ 18:00] The Holy Thief - Ellis Peters.epub (OEBPS/Text/019.html) - Compline',
-            "\x{201c}He made the excuse of being called to Longner,\x{201d} said Hugh readily, \x{201c}in order to be able to slip away and hide until the danger should be past and the witness departed, at least for that night. I doubt he looked beyond, it was the immediate threat he studied to avoid. Where he hid I know. It was in the loft of the abbey stable on the Horse Fair, and there is reasonable evidence he did not leave it until he heard the <<Compline|13>> bell. By which time Aldhelm was dead.\x{201d}",
+            '[~ 18:00] The Holy Thief - Ellis Peters.epub (OEBPS/Text/019.html) - Compline bell',
+            "\x{201c}He made the excuse of being called to Longner,\x{201d} said Hugh readily, \x{201c}in order to be able to slip away and hide until the danger should be past and the witness departed, at least for that night. I doubt he looked beyond, it was the immediate threat he studied to avoid. Where he hid I know. It was in the loft of the abbey stable on the Horse Fair, and there is reasonable evidence he did not leave it until he heard the <<Compline bell|15>>. By which time Aldhelm was dead.\x{201d}",
           ],
           [
             1,
@@ -310,6 +310,11 @@ All night long from the <<Matins|13>> bell it rained heavily.
             1,
             '[> 12:00] The Holy Thief - Ellis Peters.epub (OEBPS/Text/024.html) - past noon',
             "The Earl of Leicester\x{2019}s courier came riding over the bridge that spanned the Severn, and into the town of Shrewsbury, somewhat <<past noon|3b>> on a day at the beginning of November, with three months\x{2019} news in his saddle-roll.",
+          ],
+          [
+            1,
+            '[ap 11:45] The Holy Thief - Ellis Peters.epub (OEBPS/Text/024.html) - 1145',
+            "Much of it would already be known, at least in general outline, but Robert Beaumont\x{2019}s despatch service from London was better provided than anything the sheriff of Shropshire could command, and in a single meeting with that young officer the earl had marked him as one of the relatively sane in this mad world of civil war that had crippled England for so many years, and run both factions, king and empress alike, into exhaustion, without, unfortunately, bringing either sharply up against reality. Such able young men as Hugh Beringar, Earl Robert considered, were well worth supplying with information, against the day when reason would finally break through and put an end to such wasteful warfare. And in this year of the Lord, <<1145|9l>>, now drawing towards its close, chaotic events had seemed to be offering promise, however faint as yet, that even the two cousins battling wearily for the throne must despair of force and look round for another way of settling disputes.",
           ],
           [
             1,

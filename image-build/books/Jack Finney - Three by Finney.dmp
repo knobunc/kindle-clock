@@ -92,7 +92,7 @@ $VAR1 = [
           [
             1,
             '[ap ~ 06:00] Three by Finney - Jack Finney.epub (ops/xhtml/part01ch10.html) - around six',
-            "The circular in one of the junk letters said, \x{201c}Accept this amazing offer! Try Time for a month, and see if your evenings aren\x{2019}t more rewarding!\x{201d} and I replaced Time with Ben. The other ad was a soap coupon, \x{201c}Good for one bar of Dove\x{201d}; I replaced bar with night, and Dove with Love, and added my name at the bottom. I pasted one of my own stamps over each real stamp on all the envelopes, walked around to the apartment building, and dropped the mail into Hetty\x{2019}s box. That night, <<around six|9:0>>, I phoned. I said, \x{201c}This is Ben, sweetie,\x{201d} and she replied with a short string of words I didn\x{2019}t think she knew and hung up before I could reply. Still, I told myself, she\x{2019}d at least answered me, and that was progress.",
+            "The circular in one of the junk letters said, \x{201c}Accept this amazing offer! Try Time for a month, and see if your evenings aren\x{2019}t more rewarding!\x{201d} and I replaced Time with Ben. The other ad was a soap coupon, \x{201c}Good for one bar of Dove\x{201d}; I replaced bar with night, and Dove with Love, and added my name at the bottom. I pasted one of my own stamps over each real stamp on all the envelopes, walked around to the apartment building, and dropped the mail into Hetty\x{2019}s box. That night, <<around six|9s>>, I phoned. I said, \x{201c}This is Ben, sweetie,\x{201d} and she replied with a short string of words I didn\x{2019}t think she knew and hung up before I could reply. Still, I told myself, she\x{2019}d at least answered me, and that was progress.",
           ],
           [
             1,
@@ -464,5 +464,10 @@ $VAR1 = [
             1,
             '[20:05] Three by Finney - Jack Finney.epub (ops/xhtml/part03ch10.html) - twenty-five',
             "Again he and Shirley watched Harry. Leaning forward, Harry stared up at the north tower, rapidly growing in his windshield. Harry lifted a hand, brought it slowly down in signal, and they carefully slowed together: to thirty\x{a0}.\x{a0}.\x{a0}. <<twenty-five|9k:0>>\x{a0}.\x{a0}.\x{a0}. <<twenty|9k:0>>\x{a0}.\x{a0}.\x{a0}. and on down to seven or eight miles an hour, speedometers now wobbling erratically.",
+          ],
+          [
+            1,
+            '[19:58] Three by Finney - Jack Finney.epub (ops/xhtml/part03ch10.html) - 1958',
+            "\x{201c}Here\x{2019}s another!\x{201d} said the voice from the Alfa\x{2019}s radio. \x{201c}A boy of about twelve. On the front porch of a house. Holding a diploma. Underneath in a woman\x{2019}s handwriting it says, \x{2018}He made it! Lew\x{2019}s graduation, Proviso High School, <<1958|9l>>.\x{2019} I can\x{2019}t believe it!\x{201d}\x{2014}the radio voice broke into astounded laughter. Harry pulled in beside Lew\x{2019}s VW, turned off lights and engine, and they sat staring back at the foreshortened length of the bridge, its distant half brilliant with motionless headlights, the back of the huge white screen in the north tower going dark. \x{201c}I\x{2019}ve reported accidents, breakdowns, tieups of every kind,\x{201d} the radio voice shouted delightedly, \x{201c}but never anything like this! Down on the bridge below me people are standing between their cars, they\x{2019}re up on both walks, they\x{2019}re sitting on car hoods. A group of young people are sitting cross-legged on the roof of their van, and they\x{2019}re applauding! There\x{2019}s a highway patrol car down there, its dome light revolving, but it can\x{2019}t move, it\x{2019}s locked in, can\x{2019}t move! Here at the toll plaza and beyond everything is bl\x{2014}. There\x{2019}s a report card up on the screen! I mean it! A tremendous yellow report card forty feet high!\x{201d}",
           ],
         ];

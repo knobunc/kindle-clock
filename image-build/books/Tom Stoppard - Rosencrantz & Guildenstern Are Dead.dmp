@@ -3,14 +3,14 @@ $VAR1 = [
             1,
             "[ap 02:01] Rosencrantz & Guildenstern Are Dead - Tom Stoppard.epub (ops/xhtml/ch01.html) - Two\x{2014}one",
             "GUIL : What in God\x{2019}s name is going on?
-ROS : Foul! No rhetoric. <<Two\x{2014}one|9j>>.
+ROS : Foul! No rhetoric. <<Two\x{2014}one|9j:0>>.
 GUIL : What does it all add up to?",
           ],
           [
             1,
             "[ap 03:02] Rosencrantz & Guildenstern Are Dead - Tom Stoppard.epub (ops/xhtml/ch01.html) - three\x{2014}two",
             "GUIL: IS there a God?
-ROS : Foul! No non sequiturs, <<three\x{2014}two|9j>>, one game all.
+ROS : Foul! No non sequiturs, <<three\x{2014}two|9j:0>>, one game all.
 GUIL (seriously): What\x{2019}s your name?",
           ],
           [

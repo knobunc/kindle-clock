@@ -1,26 +1,6 @@
 $VAR1 = [
           [
             1,
-            '[22:35] Design Patterns_ Elements of Reusable Obje - Erich Gamma.epub (OEBPS/html/bib.html) - 22-35',
-            'Ralph E. Johnson and Brian Foote. Designing reusable classes. Journal of Object-Oriented Programming, 1(2):<<22-35|5a:0>>, June/July 1988.',
-          ],
-          [
-            1,
-            '[22:35] Design Patterns_ Elements of Reusable Obje - Erich Gamma.epub (OEBPS/html/bib.html) - 22-35',
-            'Ralph E. Johnson and Jonathan Zweig. Delegation in C++. Journal of Object-Oriented Programming, 4(11):<<22-35|5a:0>>, November 1991.',
-          ],
-          [
-            1,
-            '[ap 08:22] Design Patterns_ Elements of Reusable Obje - Erich Gamma.epub (OEBPS/html/bib.html) - 8-22',
-            'Mark A. Linton, John M. Vlissides, and Paul R. Calder. Composing user interfaces with Interviews. Computer, 22(2):<<8-22|5a:0>>, February 1989.',
-          ],
-          [
-            1,
-            '[00:32] Design Patterns_ Elements of Reusable Obje - Erich Gamma.epub (OEBPS/html/bib.html) - 24-32',
-            'James Rumbaugh. The life of an object model: How the object model changes during development. Journal of Object-Oriented Programming, 7(1):<<24-32|5a:0>>, March/April 1994.',
-          ],
-          [
-            1,
             '[ap 01:00] Design Patterns_ Elements of Reusable Obje - Erich Gamma.epub (OEBPS/html/ch05.html) - one',
             '1. How intelligent should a command be? A command can have a wide range of abilities. At <<one|9t:0>> extreme it merely defines a binding between a receiver and the actions that carry out the request. At the other extreme it implements everything itself without delegating to a receiver at all. The latter extreme is useful when you want to define commands that are independent of existing classes, when no suitable receiver exists, or when a command knows its receiver implicitly. For example, a command that creates another application window may be just as capable of creating the window as any other object. Somewhere in between these extremes are commands that have enough knowledge to find their receiver dynamically.',
           ],
@@ -28,26 +8,5 @@ $VAR1 = [
             1,
             '[ap 01:00] Design Patterns_ Elements of Reusable Obje - Erich Gamma.epub (OEBPS/html/ch05.html) - one',
             'At <<one|9t:0>> extreme, which we call the push model, the subject sends observers detailed information about the change, whether they want it or not. At the other extreme is the pull model; the subject sends nothing but the most minimal notification, and observers ask for details explicitly thereafter.',
-          ],
-          [
-            1,
-            "[20:21] Design Patterns_ Elements of Reusable Obje - Erich Gamma.epub (OEBPS/html/index.html) - 20\x{2013}21",
-            "delegation 20, 278, 360
-compared with inheritance <<20\x{2013}21|5a:0>>
-implementing pluggable adapters with 144",
-          ],
-          [
-            1,
-            "[18:20] Design Patterns_ Elements of Reusable Obje - Erich Gamma.epub (OEBPS/html/index.html) - 18\x{2013}20",
-            "object composition 18, 361
-compared with inheritance <<18\x{2013}20|5a:0>>
-compared with parameterized types 22",
-          ],
-          [
-            1,
-            "[00:25] Design Patterns_ Elements of Reusable Obje - Erich Gamma.epub (OEBPS/html/index.html) - 24\x{2013}25",
-            "code 26
-designing for <<24\x{2013}25|5a:0>>
-frameworks 26",
           ],
         ];

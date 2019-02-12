@@ -143,7 +143,7 @@ At a <<quarter to ten|10>>, neat, spruce, and dandified as ever, he made his way
           [
             1,
             "[ap 03:06] Murder on the Orient Express - Agatha Christie.epub (OEBPS/012_chapter07.html) - three\x{2014}six",
-            "\x{201c}One, two, <<three\x{2014}six|9j>>, Monsieur. The old American lady, a Swedish lady, the young English lady, the Countess Andrenyi and Madame la Princess Dragomiroff and her maid.\x{201d}",
+            "\x{201c}One, two, <<three\x{2014}six|9j:0>>, Monsieur. The old American lady, a Swedish lady, the young English lady, the Countess Andrenyi and Madame la Princess Dragomiroff and her maid.\x{201d}",
           ],
           [
             1,
@@ -537,13 +537,6 @@ Was the murder committed at that time?',
             '[ap 04:50] Murder on the Orient Express - Agatha Christie.epub (OEBPS/041_backmatterpage02.html) - 4:50',
             "A Pocket Full of Rye
 <<4:50|2>> From Paddington
-The Mirror Crack\x{2019}d",
-          ],
-          [
-            1,
-            '[ap 04:50] Murder on the Orient Express - Agatha Christie.epub (OEBPS/045_adcardpage.html) - 4:50',
-            "A Pocket Full of Rye
-<<4:50|2>> from Paddington
 The Mirror Crack\x{2019}d",
           ],
         ];

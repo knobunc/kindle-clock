@@ -56,6 +56,11 @@ $VAR1 = [
           ],
           [
             1,
+            '[ap 05:00] Son - Lois Lowry.epub (text/part0031.html) - five',
+            "Claire thought of Alys as the calmest person she knew, the person who had seen the worst of things over her long life and was not surprised or distressed by any of it anymore. Claire had watched her stitch the flesh and wrap an astringent poultice around the leg of a small child gashed by a fall on the slippery rocks, soothing both the terrified mother and the screaming toddler at the same time with her reassuring voice. She had seen her, quiet and commanding, attend the most difficult births, with the babies upside down or sideways and the mum begging for death and the dad puking in the dooryard. Claire had been there at deaths\x{2014}Andras\x{2019}s mother from fever and cough; a fisherman with his skull crushed by a broken mast; a young boy racked by fits from the day of his birth, finally at <<five|9w>> dead with foam on his lips and his eyes rolled back to white. Alys had tended them, tended their families, weighted the eyelids and folded the arms, then returned to the hut to wash her tools, cook supper, and wait for the next frantic villager who would come to the door begging for help.",
+          ],
+          [
+            1,
             '[12:00] Son - Lois Lowry.epub (text/part0034.html) - midday',
             "\x{201c}The water gourd\x{2019}s in your pack. Don\x{2019}t try to reach it when you\x{2019}re on the rock, even if you thirst fierce. There are places where you can stop and rest. Ledges, they\x{2019}re called. If you climb steady you\x{2019}ll reach the first one at <<midday|13>>. You can stop to drink there.\x{201d}",
           ],
@@ -78,8 +83,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[12:00] Son - Lois Lowry.epub (text/part0044.html) - midday',
-            'The <<midday|13>> bell rang. Villagers began to gather for lunch. Jonas and Claire ignored it.',
+            '[12:00] Son - Lois Lowry.epub (text/part0044.html) - midday bell',
+            'The <<midday bell|15>> rang. Villagers began to gather for lunch. Jonas and Claire ignored it.',
           ],
           [
             1,

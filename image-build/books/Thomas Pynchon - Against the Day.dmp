@@ -253,11 +253,6 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 01:00] Against the Day - Thomas Pynchon.epub (OPS/xhtml/chapter041.html) - one',
-            "\x{201c}\x{2018}Safe\x{2019}\x{a0}.\x{a0}.\x{a0}. safe.\x{201d} Whoever he was talking to now, it wasn\x{2019}t her. \x{201c}Political space has its neutral ground. But does Time? is there such a thing as the neutral hour? <<one|9i:1>> that goes neither forward nor back? is that too much to hope?\x{201d}",
-          ],
-          [
-            1,
             '[00:00] Against the Day - Thomas Pynchon.epub (OPS/xhtml/chapter041.html) - midnight',
             "All she had to do was start asking about the clothes, or what sort of room she\x{2019}d be able to afford\x{2014}she\x{2019}d overheard these exchanges\x{2014}and without quite knowing the moment the stakes of the game would\x{2019}ve shifted to life and death, the hopeful young creature would be enfolded in the irreversible darkness of <<midnight|13>> beneath the foschetta.",
           ],
@@ -362,6 +357,11 @@ $VAR1 = [
             1,
             '[ap 11:00] Against the Day - Thomas Pynchon.epub (OPS/xhtml/chapter056.html) - eleven',
             "\x{201c}Perhaps time has slowed down, as they say in Z\x{fc}rich. This watch reads <<eleven|11>>.\x{201d}",
+          ],
+          [
+            1,
+            '[19:01] Against the Day - Thomas Pynchon.epub (OPS/xhtml/chapter057.html) - 1901',
+            "\x{201c}Well. I mean it\x{2019}s good enough for the F.O., isn\x{2019}t it. This happens to be the very map they use. Decisions of the utmost gravity, fates of empires including our own, all on the basis of this edition before you, Major B. F. Vumb, Royal Engineers, <<1901|9l>>.\x{201d}",
           ],
           [
             1,
@@ -472,10 +472,5 @@ $VAR1 = [
             1,
             '[02:30] Against the Day - Thomas Pynchon.epub (OPS/xhtml/chapter069.html) - vigils',
             "She wakes briefly. Rain or wind, a sudden light, Deuce in from what he never speaks about, some business, she thinks, up in the hills.\x{a0}.\x{a0}.\x{a0}. The depth of the hour resumes, the darkness and the wind once again moving the branches of the pepper tree in the yard as she slips back again to the northern journey, the gray town now fearful over a child found trapped beneath the ice\x{a0}.\x{a0}.\x{a0}. somehow there are no tools or machinery to break through, the ice must be laboriously melted away with rock salt, brought out onto the frozen surface by convoys of dogsleds\x{a0}.\x{a0}.\x{a0}. day and night the work goes on, the child clearly visible through the melting ice, face up, blurred and waiting, serenely accusatory\x{a0}.\x{a0}.\x{a0}. at last lifted free, though perhaps it is too late now, for she seems very still\x{a0}.\x{a0}.\x{a0}. medical specialists go to work, <<vigils|13>> are set up outside her home\x{a0}.\x{a0}.\x{a0}. churches are filled with townspeople in prayer.",
-          ],
-          [
-            1,
-            '[ap 06:32] Against the Day - Thomas Pynchon.epub (OPS/xhtml/copyright.html) - 0632',
-            'Penguin Group (NZ), 67 Apollo Drive, Rosedale, Auckland <<0632|18:0>>, New Zealand (a division of Pearson New Zealand Ltd)',
           ],
         ];

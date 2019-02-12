@@ -185,7 +185,7 @@ Kate stands in the French doors of the sitting room, rugs piled upon rugs, high 
           [
             1,
             '[ap 06:01] The Expats - Chris Pavone.epub (OEBPS/Pavo_9780307956378_epub_c19_r1.htm) - Six-one',
-            "Hayden turned from the window, and approached a small, tidy, dark still-life. A little Flemish masterpiece of light and shadow. \x{201c}The tallest people in the world,\x{201d} he said, \x{201c}are the Dutch. <<Six-one|9j>>, on average.\x{201d}",
+            "Hayden turned from the window, and approached a small, tidy, dark still-life. A little Flemish masterpiece of light and shadow. \x{201c}The tallest people in the world,\x{201d} he said, \x{201c}are the Dutch. <<Six-one|9j:0>>, on average.\x{201d}",
           ],
           [
             1,
@@ -201,6 +201,11 @@ Kate stands in the French doors of the sitting room, rugs piled upon rugs, high 
             1,
             '[ap 07:00] The Expats - Chris Pavone.epub (OEBPS/Pavo_9780307956378_epub_c22_r1.htm) - seven',
             "\x{201c}The sitter should be here in a few minutes. We\x{2019}re meeting them at the restaurant at <<seven|9c:1>>. But it\x{2019}s just Julia and her father. Bill can\x{2019}t make it. Or won\x{2019}t.\x{201d}",
+          ],
+          [
+            1,
+            '[ap 07:18] The Expats - Chris Pavone.epub (OEBPS/Pavo_9780307956378_epub_c23_r1.htm) - 718',
+            "She didn\x{2019}t need to look at the slip of paper in her left hand. She typed the M, then the E, and then in a rush the MCWP, the <<718|9l>>.",
           ],
           [
             1,
@@ -466,12 +471,5 @@ TODAY, <<5:50 P.M.|2a>>
             "PRELUDE
 TODAY, <<10:52 A.M.|2a>>, PARIS
 \x{201c}Kate?\x{201d}",
-          ],
-          [
-            1,
-            '[10:52] The Expats - Chris Pavone.epub (OEBPS/Pavo_9780307956378_epub_toc_r1.htm) - 10:52 A.M.',
-            'Epigraph
-Prelude: Today, <<10:52 A.M.|2a>>, Paris
-Part I',
           ],
         ];

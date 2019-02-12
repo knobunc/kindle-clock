@@ -1,66 +1,10 @@
 $VAR1 = [
           [
             1,
-            '[16:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/004-toc.html) - SIXTEEN',
-            "<<SIXTEEN|9k:0>>: Wednesday Night 2115\x{2013}2345
-SEVENTEEN: Wednesday Night <<Midnight|13>>
-Force 10 from Navarone",
-          ],
-          [
-            1,
-            '[00:40] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/004-toc.html) - 0040',
-            "EIGHT: Friday 1500\x{2013}2115
-NINE: Friday 2115\x{2013}Saturday <<0040|18:0>>
-TEN: Saturday 0040\x{2013}0120",
-          ],
-          [
-            1,
-            '[ap 09:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/004-toc.html) - 0900',
-            "ONE: Sunday 1000\x{2013}1900
-TWO: Sunday 1900\x{2013}Monday <<0900|18:0>>
-THREE: Monday 0900\x{2013}1900",
-          ],
-          [
-            1,
-            '[ap 05:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/004-toc.html) - 0500',
-            "THREE: Monday 0900\x{2013}1900
-FOUR: Monday 1900\x{2013}Tuesday <<0500|18:0>>
-FIVE: Tuesday 0500\x{2013}2300",
-          ],
-          [
-            1,
-            '[ap 04:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/004-toc.html) - 0400',
-            "FIVE: Tuesday 0500\x{2013}2300
-SIX: Tuesday 2300\x{2013}Wednesday <<0400|18:0>>
-SEVEN: Wednesday 0400\x{2013}0500",
-          ],
-          [
-            1,
-            '[ap 02:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/004-toc.html) - 0200',
-            "ONE: Monday 1800\x{2013}Tuesday 1000
-TWO: Tuesday 1000\x{2013}Wednesday <<0200|18:0>>
-THREE: Wednesday 0200\x{2013}0600",
-          ],
-          [
-            1,
-            '[ap 03:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/004-toc.html) - 0300',
-            "FOUR: Wednesday 0600\x{2013}1800
-FIVE: Wednesday 1800\x{2013}Thursday <<0300|18:0>>
-SIX: Thursday 0300\x{2013}1200",
-          ],
-          [
-            1,
-            '[ap 03:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/004-toc.html) - 0300',
-            "EIGHT: Thursday 2000\x{2013}2300
-NINE: Thursday 2300\x{2013}Friday <<0300|18:0>>
-TEN: Friday 0300\x{2013}Saturday <<0030|18:0>>",
-          ],
-          [
-            1,
-            '[ap 03:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/004-toc.html) - 0300',
-            "NINE: Thursday 2300\x{2013}Friday <<0300|18:0>>
-TEN: Friday 0300\x{2013}Saturday <<0030|18:0>>
-EPILOGUE",
+            '[b 0:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/002-otherbooksby.html) - Eight Bells',
+            'Ice Station Zebra
+When <<Eight Bells|15>> Toll
+Where Eagles Dare',
           ],
           [
             1,
@@ -261,6 +205,11 @@ Commander Vincent Ryan, RN, Captain (Destroyers) and Commanding Officer of His M
             1,
             '[17:00] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/025-chapter17.html) - Five p.m.',
             "\x{2018}A fair question,\x{2019} Ryan admitted. \x{2018}<<Five p.m.|5>> on the London Underground will be nothing compared to this little lot. But we\x{2019}ll pack them in somehow.\x{2019}",
+          ],
+          [
+            1,
+            '[19:18] The Complete Navarone 4-Book Collection_ T - Alistair MacLean.epub (OPS/xhtml/030-chapter19.html) - 1918',
+            "\x{2018}You don\x{2019}t see at all. General Allenby, Palestine, <<1918|9l>>. He had an east-west line from the Jordan to the Mediterranean. He planned to attack from the west \x{2013} so he convinced the Turks the attack was coming from the east. He did this by building up in the east a huge city of army tents occupied by only a few hundred men who came out and dashed around like beavers whenever enemy planes came over on reconnaissance. He did this by letting the same planes see large army truck convoys pouring to the east all day long \x{2013} what the Turks didn\x{2019}t know was that the same convoys poured back to the west all night long. He even had fifteen thousand canvas dummies of horses built. Well, we\x{2019}re doing the same.\x{2019}",
           ],
           [
             1,

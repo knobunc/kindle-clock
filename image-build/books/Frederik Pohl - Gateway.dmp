@@ -2,7 +2,7 @@ $VAR1 = [
           [
             1,
             '[ap 01:03] Gateway - Frederik Pohl.epub (OEBPS/Text/Bonus.html) - one three five',
-            "The radio buzzed and then blared: \x{201c}Unidentified vessel at <<one three five|5b>>, zero seven, four eight and seven two, <<five one|9j>>, <<five four|9j>>. Please identify yourself and state your purpose.\x{201d}",
+            "The radio buzzed and then blared: \x{201c}Unidentified vessel at <<one three five|5b>>, zero seven, four eight and seven two, <<five one|9j:0>>, <<five four|9j:0>>. Please identify yourself and state your purpose.\x{201d}",
           ],
           [
             1,

@@ -1,14 +1,6 @@
 $VAR1 = [
           [
             1,
-            '[00:00] The Long Utopia - Terry Pratchett.epub (OEBPS/text/9780062297358_Books_by.xhtml) - Midnight',
-            'Wintersmith
-I Shall Wear <<Midnight|13>>
-The Illustrated Wee Free Men
-(illustrated by Stephen Player)',
-          ],
-          [
-            1,
             '[> 12:00] The Long Utopia - Terry Pratchett.epub (OEBPS/text/9780062297358_Chapter_12.xhtml) - just after noon',
             "It was <<just after noon|10>> now, under a bright, washed-out Florida spring sky. If you didn\x{2019}t look too closely, Rocky thought, all you saw was people on a dirt plain roughly drained and cleared, surrounded pretty much by emptiness. But, rising from this desolate plain and up into the Florida sky, the spine of the beanstalk was already in place, a double thread electric blue and marked with flags, anchored to the uncompromising concrete block that was its temporary ground station: perfectly straight but at a distinct slant, rising until it was lost in the glare, heading for its orbital anchor.",
           ],
@@ -49,6 +41,11 @@ The Illustrated Wee Free Men
           ],
           [
             1,
+            '[19:14] The Long Utopia - Terry Pratchett.epub (OEBPS/text/9780062297358_Chapter_35.xhtml) - 1914',
+            "\x{2018}Maybe not. The Great War, <<1914|9l>>. British soldiers in the trenches spread stories of mysterious figures who would appear and vanish again, helping the wounded. Some said they were the ghosts of English archers from the Battle of Agincourt, centuries earlier.\x{2019}",
+          ],
+          [
+            1,
             '[> 00:00] The Long Utopia - Terry Pratchett.epub (OEBPS/text/9780062297358_Chapter_5.xhtml) - a little after midnight',
             "JOSHUA VALIENT\x{c9}\x{2019}S son Rod called for him at the old family home in Reboot, in a stepwise footprint of New York State a hundred thousand steps West of the Datum. Joshua met him on the porch. It was <<a little after midnight|13>> on May 1, 2052.",
           ],
@@ -86,12 +83,5 @@ The Illustrated Wee Free Men
             1,
             '[20:46] The Long Utopia - Terry Pratchett.epub (OEBPS/text/9780062297358_Chapter_8.xhtml) - 2046',
             "The climate as ever had been the problem. By <<2046|9:0>>, six years after the Yellowstone eruption itself and the onset of the volcano winter, things had seemed to be stabilizing, if not actually improving. People did continue to die; Joshua remembered a report that in the end Yellowstone had killed more people from lung diseases caused by the ash than had perished in the immediate aftermath of the eruption itself. But then some climatic tipping point had been reached \x{2013} some had said it was the collapse of the Gulf Stream, but by then the science data-gathering itself had become too patchy to be sure \x{2013} and the winter that year had been worse than ever. The rivers froze, the ports iced up, and Midwest farmland submitted to permafrost. When the big hydroelectric plants in Quebec began to fail in the freeze, the American national electricity grid collapsed, and such great cities as Boston and New York had finally to be abandoned.",
-          ],
-          [
-            1,
-            '[ap 06:32] The Long Utopia - Terry Pratchett.epub (OEBPS/text/About_the_Publisher.xhtml) - 0632',
-            'Unit D1, 63 Apollo Drive
-Rosedale <<0632|18:0>>
-Auckland, New Zealand',
           ],
         ];

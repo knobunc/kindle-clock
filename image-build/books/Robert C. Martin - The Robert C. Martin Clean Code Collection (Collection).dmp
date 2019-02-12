@@ -16,11 +16,6 @@ $VAR1 = [
           ],
           [
             1,
-            '[16:50] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_011.html) - Ten of 17',
-            "Likewise, say you invented a MailingAddress class in GSD\x{2019}s accounting module, and you named it GSDAccountAddress. Later, you need a mailing address for your customer contact application. Do you use GSDAccountAddress? Does it sound like the right name? <<Ten of 17|10b:0>> characters are redundant or irrelevant.",
-          ],
-          [
-            1,
             '[22:18] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_013.html) - 22:18',
             "MockRequest request;
 private final String HTTP_DATE_REGEXP =
@@ -1323,6 +1318,13 @@ authorship statements, 55",
           ],
           [
             1,
+            '[ap 01:32] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_031.html) - 132',
+            'boolean arguments, 194, 288
+boolean map, deleting, 224
+boolean output, of tests, <<132|9l:0>>',
+          ],
+          [
+            1,
             "[14:15] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_031.html) - 14\x{2013}15",
             "boundary tests, easing a migration, 118 \x{201c}Bowling Game\x{201d}, 312
 Boy Scout Rule, <<14\x{2013}15|5a:0>>, 257
@@ -1417,7 +1419,7 @@ jiggling strategies, 190",
             "[ap 04:12] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_031.html) - 4\x{2013}12",
             "mental mapping, avoiding, 25
 messy code. See also bad code; dirty code total cost of owning, <<4\x{2013}12|5a:0>>
-method invocations, 324",
+method invocations, <<324|9l:0>>",
           ],
           [
             1,
@@ -1498,11 +1500,6 @@ of shared variables, 333",
             1,
             '[11:39] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_038.html) - 11:39 AM',
             "At <<11:39 AM|2a>> EST on January 28, 1986, just 73.124 seconds after launch and at an altitude of 48,000 feet, the Space Shuttle Challenger was torn to smithereens by the failure of the right-hand solid rocket booster (SRB). Seven brave astronauts, including high school teacher Christa McAuliffe, were lost. The expression on the face of McAuliffe\x{2019}s mother as she watched the demise of her daughter nine miles overhead haunts me to this day.",
-          ],
-          [
-            1,
-            '[ap 10:00] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_039.html) - 10',
-            "After school, Tim and I would dial up the computer (by tapping of course), load the tapes into the IITran batch system, and then hang up. At <<10|9m:1>> characters per second, this was not a quick procedure. An hour or so later, we\x{2019}d call back and get the printouts, again at 10 characters per second. The Teletype did not separate the students\x{2019} listings by ejecting pages. It just printed one after the next after the next, so we cut them apart using scissors, paper-clipped their input paper tape to their listing, and put them in the output basket.",
           ],
           [
             1,
@@ -1626,11 +1623,6 @@ This tells Mike that Peter\x{2019}s tasks will likely take 14 days, but could ve
             1,
             '[02:00] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_053.html) - 2 AM',
             "I was the development manager telling the programmers who worked for me that they had to work more and faster. I was one of the 80-hour guys, writing 3,000-line C functions at <<2 AM|5>> while my children slept at home without their father in the house. I was the one who threw the pens and shouted. I got people fired if they didn\x{2019}t shape up. It was awful. I was awful.",
-          ],
-          [
-            1,
-            '[20:08] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_057.html) - 2008',
-            'Until <<2008|9n:0>> I avoided all but the simplest forms of branching. If a developer created a branch, that branch had to be brought back into the main line before the end of the iteration. Indeed, I was so austere about branching that it was very rarely done in the projects I was involved with.',
           ],
           [
             1,

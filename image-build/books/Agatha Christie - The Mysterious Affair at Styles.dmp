@@ -60,11 +60,6 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 03:00] The Mysterious Affair at Styles - Agatha Christie.epub (OEBPS/chapter04.xhtml) - three',
-            "\x{2018}Only <<three|9q>> now, sir. Five, we had, before the war, when it was kept as a gentleman\x{2019}s place should be. I wish you could have seen it then, sir. A fair sight it was. But now there\x{2019}s only old Manning, and young William, and a new-fashioned woman gardener in breeches and such-like. Ah, these are dreadful times!\x{2019}",
-          ],
-          [
-            1,
             '[ap ~ 07:15] The Mysterious Affair at Styles - Agatha Christie.epub (OEBPS/chapter04.xhtml) - About quarter-past seven',
             "\x{2018}What time did you bring it up last night?\x{2019}
 \x{2018}<<About quarter-past seven|10>>, I should say, sir.\x{2019}
@@ -158,12 +153,5 @@ $VAR1 = [
             1,
             "[ap 06:00] The Mysterious Affair at Styles - Agatha Christie.epub (OEBPS/chapter13.xhtml) - six o\x{2019}clock",
             "\x{2018}On Monday Mrs Inglethorp will take the last dose of her medicine. On Monday, therefore, at <<six o\x{2019}clock|6>>, Alfred Inglethorp arranges to be seen by a number of people at a spot far removed from the village. Miss Howard has previously made up a cock-and-bull story about him and Mrs Raikes to account for his holding his tongue afterwards. At <<six o\x{2019}clock|6>>, Miss Howard, disguised as Alfred Inglethorp, enters the chemist\x{2019}s shop, with her story about a dog, obtains the strychnine, and writes the name of Alfred Inglethorp in John\x{2019}s handwriting, which she had previously studied carefully.",
-          ],
-          [
-            1,
-            '[ap 04:50] The Mysterious Affair at Styles - Agatha Christie.epub (OEBPS/theagathachristiecollection.xhtml) - 4.50',
-            "A Pocket Full of Rye
-<<4.50|5a:0>> from Paddington
-The Mirror Crack\x{2019}d from Side to Side",
           ],
         ];

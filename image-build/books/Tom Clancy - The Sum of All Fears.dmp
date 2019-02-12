@@ -22,12 +22,12 @@ $VAR1 = [
           [
             1,
             '[ap ~ 05:06] The Sum of All Fears - Tom Clancy.epub (index_split_004.html) - about five-six',
-            "\x{201c}Rules of Engagement are in force, on my authority,\x{201d} Supervisory Special Agent Black said. \x{201c}The reporter is a female, twenty-eight, blond and blue, <<about five-six|9j>>. Cameraman is a black guy, dark complexion, <<six-three|9j>>. I told him where to walk. He\x{2019}s got brains, and he\x{2019}s playing ball.\x{201d}",
+            "\x{201c}Rules of Engagement are in force, on my authority,\x{201d} Supervisory Special Agent Black said. \x{201c}The reporter is a female, twenty-eight, blond and blue, <<about five-six|9j:0>>. Cameraman is a black guy, dark complexion, <<six-three|9j:0>>. I told him where to walk. He\x{2019}s got brains, and he\x{2019}s playing ball.\x{201d}",
           ],
           [
             1,
             '[ap 06:05] The Sum of All Fears - Tom Clancy.epub (index_split_004.html) - Six-five',
-            'John Russell was an enormous man. <<Six-five|9j>>, over two hundred-fifty pounds of what had once been athletic but was now a frame running to fat and dissolution. He wore jeans, but was bare-chested with a headband securing his long black hair in place. His chest bore tattoos, some professionally done, but more of the prison spit-and-pencil variety. He was the sort of man police preferred to meet with gun in hand. He moved with the lazy arrogance that announced his willingness to depart from the rules.',
+            'John Russell was an enormous man. <<Six-five|9j:0>>, over two hundred-fifty pounds of what had once been athletic but was now a frame running to fat and dissolution. He wore jeans, but was bare-chested with a headband securing his long black hair in place. His chest bore tattoos, some professionally done, but more of the prison spit-and-pencil variety. He was the sort of man police preferred to meet with gun in hand. He moved with the lazy arrogance that announced his willingness to depart from the rules.',
           ],
           [
             1,
@@ -458,7 +458,7 @@ Time Zero.',
           [
             1,
             '[ap 01:03] The Sum of All Fears - Tom Clancy.epub (index_split_044.html) - One-Three',
-            "\x{201c}<<One-Three|9j>>, we have a torpedo in the water one-eight-zero. You missed the guy. Start another search pattern south of us. I think this bird is engaging our MOSS.\x{201d}",
+            "\x{201c}<<One-Three|9j:0>>, we have a torpedo in the water one-eight-zero. You missed the guy. Start another search pattern south of us. I think this bird is engaging our MOSS.\x{201d}",
           ],
           [
             1,

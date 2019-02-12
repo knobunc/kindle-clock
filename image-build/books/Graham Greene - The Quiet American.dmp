@@ -123,7 +123,7 @@ I told her, \x{2018}Pyle\x{2019}s coming at <<six|9c:1>>.\x{2019}
           [
             1,
             '[ap 09:40] The Quiet American - Graham Greene.epub (OEBPS/Text/chapter007.xhtml) - Nine forty',
-            'I tried not to look at my watch except at long intervals, and the intervals were never as long as they had seemed. <<Nine forty|9j>>, <<ten five|9j>>, <<ten twelve|9j>>, <<ten thirty-two|9j>>, <<ten forty-one|9j>>.',
+            'I tried not to look at my watch except at long intervals, and the intervals were never as long as they had seemed. <<Nine forty|9j>>, <<ten five|9j:1>>, <<ten twelve|9j>>, <<ten thirty-two|9j>>, <<ten forty-one|9j>>.',
           ],
           [
             1,
@@ -208,13 +208,13 @@ I told her, \x{2018}Pyle\x{2019}s coming at <<six|9c:1>>.\x{2019}
             1,
             '[ap 10:08] The Quiet American - Graham Greene.epub (OEBPS/Text/chapter011.xhtml) - Ten eight',
             "\x{2018}My watch is always a little fast,\x{2019} I said. \x{2018}What time do you make it now?\x{2019}
-\x{2018}<<Ten eight|9j>>.\x{2019}
+\x{2018}<<Ten eight|9j:1>>.\x{2019}
 \x{2018}<<Ten eighteen|5k:1>> by mine. You see.\x{2019}",
           ],
           [
             1,
             '[ap 10:08] The Quiet American - Graham Greene.epub (OEBPS/Text/chapter011.xhtml) - Ten eight',
-            "\x{2018}<<Ten eight|9j>>.\x{2019}
+            "\x{2018}<<Ten eight|9j:1>>.\x{2019}
 \x{2018}<<Ten eighteen|5k:1>> by mine. You see.\x{2019}
 He didn\x{2019}t bother to look. He said, \x{2018}Then the time you said you talked to Wilkins was twenty-five minutes out\x{2014}by your watch. That\x{2019}s quite a mistake, isn\x{2019}t it?\x{2019}",
           ],

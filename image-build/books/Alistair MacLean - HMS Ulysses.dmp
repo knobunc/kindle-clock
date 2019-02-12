@@ -17,7 +17,7 @@ $VAR1 = [
           [
             1,
             "[ap 03:00] HMS Ulysses - Alistair MacLean.epub (OEBPS/Alis_9781402790386_epub_c20_r1.html) - three o\x{2019}clock",
-            "\x{2018}They\x{2019}re just off the blower, sir,\x{2019} he said woodenly. \x{2018}Five minutes ago. Ordinary Seaman Ralston died at <<three o\x{2019}clock|6>>.\x{2019}",
+            "\x{2018}They\x{2019}re just off the blower, sir,\x{2019} he said woodenly. \x{2018}Five minutes ago. Ordinary Seaman Ralston died at <<three o\x{2019}clock|9g>>.\x{2019}",
           ],
           [
             1,
@@ -111,7 +111,7 @@ $VAR1 = [
           [
             1,
             '[ap 08:00] HMS Ulysses - Alistair MacLean.epub (OEBPS/Alis_9781402790386_epub_c23_r1.html) - 0800',
-            "Stand-down came at <<0800|18:1>>. At <<0810|9m:1>> the port watch was below, making tea, washing, queueing up at the galley for breakfast trays, when a muffled explosion shook the Ulysses. Towels, soap, cups, plates and trays went flying or were left where they were: blasphemous and bitter, the men were on their way before Vallery\x{2019}s hand closed on the Emergency switch.",
+            "Stand-down came at <<0800|18:1>>. At <<0810|9m>> the port watch was below, making tea, washing, queueing up at the galley for breakfast trays, when a muffled explosion shook the Ulysses. Towels, soap, cups, plates and trays went flying or were left where they were: blasphemous and bitter, the men were on their way before Vallery\x{2019}s hand closed on the Emergency switch.",
           ],
           [
             1,
@@ -122,6 +122,11 @@ $VAR1 = [
             1,
             '[12:00] HMS Ulysses - Alistair MacLean.epub (OEBPS/Alis_9781402790386_epub_c24_r1.html) - noon',
             "But the Admiral\x{2019}s reference had been to the sea. It had been building up, steadily, inexorably, all during the morning. Now, at <<noon|13>>, it looked uncommonly like an eighteenth-century print of a barque in a storm\x{2014}serried waves of greenish-grey, straight, regular and marching uniformly along, each decoratively topped with frothing caps of white. Only here, there were 500 feet between crest and crest, and the squadron, heading almost directly into it, was taking hearty punishment.",
+          ],
+          [
+            1,
+            '[ap 00:40] HMS Ulysses - Alistair MacLean.epub (OEBPS/Alis_9781402790386_epub_c24_r1.html) - 12.40',
+            "\x{2018}<<12.40|5a:0>> west. 66.15 north,\x{2019} said the Kapok Kid precisely. He didn\x{2019}t even trouble to consult the chart. Tyndall lifted his eyebrows but made no comment.",
           ],
           [
             1,
@@ -141,12 +146,12 @@ $VAR1 = [
           [
             1,
             '[20:20] HMS Ulysses - Alistair MacLean.epub (OEBPS/Alis_9781402790386_epub_c24_r1.html) - 2020',
-            'At <<2020|9m:0>> all ships had completed oiling. Hove to, they had had the utmost difficulty in keeping position in that great wind; but they were infinitely safer than in the open sea. They were given orders to proceed when the weather moderated, the Defender and escorts to Scapa, the squadron to a position 100 miles ENE of rendezvous. Radio silence was to be strictly observed.',
+            'At <<2020|9m>> all ships had completed oiling. Hove to, they had had the utmost difficulty in keeping position in that great wind; but they were infinitely safer than in the open sea. They were given orders to proceed when the weather moderated, the Defender and escorts to Scapa, the squadron to a position 100 miles ENE of rendezvous. Radio silence was to be strictly observed.',
           ],
           [
             1,
             '[20:30] HMS Ulysses - Alistair MacLean.epub (OEBPS/Alis_9781402790386_epub_c24_r1.html) - 2030',
-            "At <<2030|9m:0>> the Ulysses and Sirrus got under way to the East. Lights winked after them, messages of good luck. Fluently, Tyndall cursed the squadron for the breach of darken-ship regulations, realized that, barring themselves, there was no one on God\x{2019}s earth to see the signals anyway, and ordered a courteous acknowledgement.",
+            "At <<2030|9m>> the Ulysses and Sirrus got under way to the East. Lights winked after them, messages of good luck. Fluently, Tyndall cursed the squadron for the breach of darken-ship regulations, realized that, barring themselves, there was no one on God\x{2019}s earth to see the signals anyway, and ordered a courteous acknowledgement.",
           ],
           [
             1,
@@ -306,6 +311,13 @@ At <<2100|9v>>, the Ulysses moved out into the Denmark Strait.",
           [
             1,
             '[13:40] HMS Ulysses - Alistair MacLean.epub (OEBPS/Alis_9781402790386_epub_c32_r1.html) - 13.40',
+            "\x{2018}Don\x{2019}t know what I\x{2019}ll do without you,\x{2019} Vallery murmured. \x{2018}Present position?\x{2019}
+\x{2018}72.20 north, <<13.40|5a:0>> east.\x{2019}
+\x{2018}Thank you.\x{2019} He looked at Turner. \x{2018}No point in radio silence now, Commander?\x{2019}",
+          ],
+          [
+            1,
+            '[13:40] HMS Ulysses - Alistair MacLean.epub (OEBPS/Alis_9781402790386_epub_c32_r1.html) - 13.40',
             "Vallery nodded. \x{2018}\x{201c}FR77. 1600. 72.20, <<13.40|9p>>. Steady on 090. Force 9, north, heavy swell: Situation desperate. Deeply regret Admiral Tyndall died 1200 today. Tanker Vytura torpedoed last night, sunk by self. Washington State sunk <<0145|18:0>> to-day. Vectra sunk 1515, collision U-boat. Electra sunk 1530. Am being heavily attacked by twelve, minimum twelve, Focke-Wulf 200s.\x{201d} A reasonable assumption, I think, Commander,\x{2019} he said wryly, \x{2018}and it\x{2019}ll shake their Lordships. They\x{2019}re of the opinion there aren\x{2019}t so many Condors in the whole of Norway. \x{201c}Imperative send help. Air cover essential. Advise immediately.\x{201d} Get that off at once, will you?\x{2019}",
           ],
           [
@@ -341,6 +353,39 @@ At <<2100|9v>>, the Ulysses moved out into the Denmark Strait.",
           [
             1,
             '[ap 08:00] HMS Ulysses - Alistair MacLean.epub (OEBPS/Alis_9781402790386_epub_c36_r1.html) - 0800',
-            "At <<0800|9m:0>> Turner signalled the Sirrus: \x{2018}WT gone. Signal C-in-C course, speed, position. Confirm <<0930|18:0>> as rendezvous. Code.\x{2019}",
+            "At <<0800|9m>> Turner signalled the Sirrus: \x{2018}WT gone. Signal C-in-C course, speed, position. Confirm <<0930|18:0>> as rendezvous. Code.\x{2019}",
+          ],
+          [
+            1,
+            '[b 0:00] HMS Ulysses - Alistair MacLean.epub (OEBPS/Alis_9781402790386_epub_c3_r1.html) - Eight Bells',
+            'HMS Ulysses
+The Guns of Navarone
+South by Java Head
+The Last Frontier
+Night Without End
+Fear Is the Key
+The Dark Crusader
+The Golden Rendezvous
+The Satan Bug
+Ice Station Zebra
+When <<Eight Bells|15>> Toll
+Where Eagles Dare
+Force 10 from Navarone
+Puppet on a Chain
+Caravan to Vaccares
+Bear Island
+The Way to Dusty Death
+Breakheart Pass
+Circus
+The Golden Gate
+Seawitch
+Goodbye California
+Athabasca
+River of Death
+Partisans
+Floodgate
+San Andreas
+The Lonely Sea (stories)
+Santorini',
           ],
         ];

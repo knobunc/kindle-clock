@@ -26,6 +26,11 @@ $VAR1 = [
           ],
           [
             1,
+            '[20:01] Black Elk Speaks - John G. Neihardt.epub (OEBPS/Text/author.html) - 2001',
+            'Handbook of North American Indians, Volume 13, Plains. 2 pts. General Editor William C. Sturtevant, Volume Editor Raymond J. DeMallie. Washington, D.C.: Smithsonian Institution, <<2001|9l>>.',
+          ],
+          [
+            1,
             "[23:46] Black Elk Speaks - John G. Neihardt.epub (OEBPS/Text/author.html) - 23\x{2013}46",
             "Meeker, Lows L. \x{201c}Oglala Games.\x{201d} Bulletin of the free Museum of Science and Art (Philadelphia) 3 (1901): <<23\x{2013}46|5a:0>>.",
           ],
@@ -86,89 +91,8 @@ $VAR1 = [
           ],
           [
             1,
-            "[15:16] Black Elk Speaks - John G. Neihardt.epub (OEBPS/Text/index.html) - 15\x{2013}16",
-            "at age nine, 17, 292
-first vision by, <<15\x{2013}16|5a:0>>
-Great Vision experienced, xxiv, xxv, <<18\x{2013}36|5a:0>>, 163, illus. 4\x{2013}5, 292, 309, 311",
-          ],
-          [
-            1,
-            "[18:36] Black Elk Speaks - John G. Neihardt.epub (OEBPS/Text/index.html) - 18\x{2013}36",
-            "Great Vision experienced, xxiv, xxv, <<18\x{2013}36|5a:0>>, 163, illus. 4\x{2013}5, 292, 309, 311",
-          ],
-          [
-            1,
-            "[15:19] Black Elk Speaks - John G. Neihardt.epub (OEBPS/Text/index.html) - 15\x{2013}19",
-            "at age seventeen, 127
-performs Horse Dance, 129\x{2013}139, 163, illus. <<15\x{2013}19|5a:0>>
-atage eighteen, 142",
-          ],
-          [
-            1,
-            "[20:21] Black Elk Speaks - John G. Neihardt.epub (OEBPS/Text/index.html) - 20\x{2013}21",
-            "atage eighteen, 142
-vision questand Dog Vision, 144\x{2013}148, 163, illus. <<20\x{2013}21|5a:0>>
-performs heyoka ceremony, 148\x{2013}153, 163",
-          ],
-          [
-            1,
-            "[00:26] Black Elk Speaks - John G. Neihardt.epub (OEBPS/Text/index.html) - 24\x{2013}26",
-            "father dies, 188
-in a Ghost Dance, 193\x{2013}199, 290, 295, illus. <<24\x{2013}26|5a:0>>
-at Wounded Knee Massacre, 207\x{2013}212, illus. 27-30, 290",
-          ],
-          [
-            1,
-            "[20:21] Black Elk Speaks - John G. Neihardt.epub (OEBPS/Text/index.html) - 20\x{2013}21",
-            "Dog\x{2019}s Backbone, 93n16
-Dog Vision, 144\x{2013}148, 149, 163, illus. <<20\x{2013}21|5a:0>>, 307
-dragonflies (ak\x{ed}chita), 12, 12n20, illus. 20",
-          ],
-          [
-            1,
-            '[17:18] Black Elk Speaks - John G. Neihardt.epub (OEBPS/Text/index.html) - 17-18',
-            'eagle, spotted, 22, 23, 29, 30, 36, 49, 145, 146, 157, 159, 195, 202, 207, illus. 1, illus. 6, illus. 14, illus. <<17-18|5a:0>>, illus. <<24-25|5a:0>>, illus. 30',
-          ],
-          [
-            1,
-            "[ap 10:11] Black Elk Speaks - John G. Neihardt.epub (OEBPS/Text/index.html) - 10\x{2013}11",
-            "Fat, 65
-Fetterman Fight, 7, 7n5, 8, <<10\x{2013}11|5a:0>>, 12, 49, 62, 63, 65, illus. 3, 304
-Few Tails, 144, 145, 148",
-          ],
-          [
-            1,
-            '[00:26] Black Elk Speaks - John G. Neihardt.epub (OEBPS/Text/index.html) - 24-26',
-            "Ghost Dance, xxi, xxii, 186, 186n3, 187, 189-190, 190n10, 191, 193\x{2013}195, 194n3, 194n5, 196\x{2013}197, 198, 201, 202, 202n6, 203. 203n10, 223, 223n1, illus. <<24-26|5a:0>>, 290, 295, 304, 314, 315",
-          ],
-          [
-            1,
-            '[00:26] Black Elk Speaks - John G. Neihardt.epub (OEBPS/Text/index.html) - 24-26',
-            "Ghost Dance Shirts, 193, 193n1, 195\x{2013}196, 196n7, 202, 207, illus. <<24-26|5a:0>>, illus. 30",
-          ],
-          [
-            1,
-            "[14:16] Black Elk Speaks - John G. Neihardt.epub (OEBPS/Text/index.html) - 14\x{2013}16",
-            "directions (four quarters), 2, 2n3, 4, 21, 33, 42, 129, 130, 131, 132, 133, 136, 137, 144, 145, 150\x{2013}151, 155, 160, 161, 166, 168, 220, 220n3, 220n7,illus.7\x{2013}9, illus <<14\x{2013}16|5a:0>>.",
-          ],
-          [
-            1,
-            "[00:25] Black Elk Speaks - John G. Neihardt.epub (OEBPS/Text/index.html) - 24\x{2013}25",
-            "pipe, sacred, 2n3, 4, 5, 5n12, 22, <<24\x{2013}25|5a:0>>, 27, 28, 32, 35, 129, 131, 135, 138, 139, 144147, 148, 150n5, 158, 159, 160, 164, 166, 167, 168, 169, 190, 220, 220n3, illus. 1, illus. 8\x{2013}9, illus. 15, illus.20, illus. <<24\x{2013}26|5a:0>>, 313, 314",
-          ],
-          [
-            1,
-            "[ap 11:30] Black Elk Speaks - John G. Neihardt.epub (OEBPS/Text/index.html) - 11\x{2013}30",
-            "Standing Bear, 5n10, 14, 37, 37n1, 78n12, 81, 89, 90n11, 158, 164, 166, illus. 13, 305;
-drawings by, 18n3, 83n2, 223n1,illus. <<11\x{2013}30|5a:0>>
-way to write name of,illus.2b",
-          ],
-          [
-            1,
-            "[13:14] Black Elk Speaks - John G. Neihardt.epub (OEBPS/Text/index.html) - 13\x{2013}14",
-            "waga chun (cottonwood), 27, 76, 167
-Wagon Box Fight, <<13\x{2013}14|5a:0>>, 13n23, 63
-Wakon Tonka (Great Spirit, One Power), xxiv, 2n1, 4, 49, 70n27, 112, 145, 150, 150n5, 155, 155n1, 156, 158, 166, 169, 186, 187, 188, 193, 194, 196, 197, 197n11, 220, 220n3, 221, 307, 314",
+            '[ap 03:46] Black Elk Speaks - John G. Neihardt.epub (OEBPS/Text/ch9fn2.html) - 346',
+            "2. Standing Bear sketched a map of the camp (preserved in the Neihardt Collection) that shows six camp circles, the Sans Arcs and Blackfoot Sioux, together with the Two Kettles forming a single camp circle. All are shown near the Little Big Horn River except for the Oglala camp, which is located farther west of the others, away from the river. Indian accounts report varying numbers of camps. Wooden Leg, the Cheyenne, also reports six camp circles but notes that there were also stragglers from various bands whose lodges were not arranged in formal camp circles (Marquis, A Warrior Who FoughtCuster, 208). Bad Heart BuII\x{2019}s drawing depicts only five camps, omitting the Santees and Yanktonais (Blish, A Pictographic History of the Oglala Sioux, 215). Gray, Centennial Campaign, <<346|9l:1>>\x{2013}47, estimates the village at \x{201c}no more than a thousand lodges.\x{201d}",
           ],
           [
             1,

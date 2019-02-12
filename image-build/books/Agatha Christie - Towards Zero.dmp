@@ -3,7 +3,7 @@ $VAR1 = [
             1,
             '[ap 05:03] Towards Zero - Agatha Christie.epub (OEBPS/008_chapter01.html) - Five three',
             "He took the next game on his service. Young Merrick was hitting out wildly.
-\x{201c}<<Five three|9j>>.\x{201d}
+\x{201c}<<Five three|9j:0>>.\x{201d}
 \x{201c}Good for Nevile,\x{201d} said Latimer.",
           ],
           [
@@ -192,13 +192,6 @@ Pressed as to time, she said she thought it was <<about eleven o\x{2019}clock|6>
             '[ap 04:50] Towards Zero - Agatha Christie.epub (OEBPS/013_backmatterpage02.html) - 4:50',
             "A Pocket Full of Rye
 <<4:50|2>> From Paddington
-The Mirror Crack\x{2019}d",
-          ],
-          [
-            1,
-            '[ap 04:50] Towards Zero - Agatha Christie.epub (OEBPS/017_adcardpage.html) - 4:50',
-            "A Pocket Full of Rye
-<<4:50|2>> from Paddington
 The Mirror Crack\x{2019}d",
           ],
         ];

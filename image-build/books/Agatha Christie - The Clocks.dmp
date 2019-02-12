@@ -41,16 +41,6 @@ $VAR1 = [
           ],
           [
             1,
-            '[19:00] The Clocks - Agatha Christie.epub (text/part0005.html) - 19',
-            'At <<19|9v>>, Wilbraham Crescent the machinery of the Law was in possession. There was a police surgeon, a police photographer, fingerprint men. They moved efficiently, each occupied with his own routine.',
-          ],
-          [
-            1,
-            '[19:00] The Clocks - Agatha Christie.epub (text/part0005.html) - 19',
-            "\x{201c}I see. Now just tell me in your own words how you came to be at <<19|9c:0>>, Wilbraham Crescent today.\x{201d}",
-          ],
-          [
-            1,
             "[ap 03:00] The Clocks - Agatha Christie.epub (text/part0005.html) - three o\x{2019}clock",
             "\x{201c}Well, it was this way.\x{201d} Sheila Webb was speaking now with more confidence. \x{201c}This Miss Pebmarsh rang up the Bureau and asked for a stenographer to be here at <<three o\x{2019}clock|6>>. So when I came back from lunch Miss Martindale told me to go.\x{201d}",
           ],
@@ -112,7 +102,7 @@ $VAR1 = [
           [
             1,
             '[ap ~ 10:00] The Clocks - Agatha Christie.epub (text/part0006.html) - about ten',
-            "\x{201c}As to that you would have to ask my cleaning woman, Mrs. Curtin. She comes here <<about ten|9b>> and usually leaves <<about twelve o\x{2019}clock|6>>. She lives at <<17|9c:1>>, Dipper Street.\x{201d}",
+            "\x{201c}As to that you would have to ask my cleaning woman, Mrs. Curtin. She comes here <<about ten|9b>> and usually leaves <<about twelve o\x{2019}clock|6>>. She lives at 17, Dipper Street.\x{201d}",
           ],
           [
             1,
@@ -161,11 +151,6 @@ $VAR1 = [
           ],
           [
             1,
-            '[19:00] The Clocks - Agatha Christie.epub (text/part0007.html) - 19',
-            "\x{201c}I am just coming to that. When Miss Webb arrived at <<19|9c:0>>, Wilbraham Crescent she walked into the house and into the sitting room. She has told me that those were the directions given her. You agree?\x{201d}",
-          ],
-          [
-            1,
             "[ap 03:00] The Clocks - Agatha Christie.epub (text/part0007.html) - three o\x{2019}clock",
             "\x{201c}You see my dilemma,\x{201d} said the inspector. \x{201c}You say Miss Pebmarsh telephoned you and asked for Sheila Webb to go to her house at <<three o\x{2019}clock|6>>. Miss Pebmarsh denies doing any such thing. Sheila Webb gets there. She finds a dead man there.\x{201d} He waited hopefully.",
           ],
@@ -173,11 +158,6 @@ $VAR1 = [
             1,
             '[ap ~ 09:30] The Clocks - Agatha Christie.epub (text/part0008.html) - about half past nine',
             "\x{201c}That\x{2019}s right. I come <<about half past nine|10>> to ten, and leave at <<twelve o\x{2019}clock|6>> or when I\x{2019}m finished.\x{201d} Then sharply, \x{201c}You\x{2019}re not saying as anything \x{2019}as been stolen, are you?\x{201d}",
-          ],
-          [
-            1,
-            '[19:00] The Clocks - Agatha Christie.epub (text/part0008.html) - 19',
-            "\x{201c}A man was found dead in the sitting room at <<19|9c:0>>, Wilbraham Crescent this afternoon.\x{201d}",
           ],
           [
             1,
@@ -322,8 +302,8 @@ Bland shook his head. \x{201c}I wouldn\x{2019}t have seen much then. I was here.
           ],
           [
             1,
-            '[19:00] The Clocks - Agatha Christie.epub (text/part0015.html) - 19',
-            "\x{201c}Not unless it should become necessary, and that would only happen if some circumstances out of the past proved to have been connected with this murder at <<19|9c:0>>, Wilbraham Crescent. And that, I think, is unlikely.\x{201d} He took the photograph from his pocket which he had been showing to so many people, and showed it to Mrs. Lawton. \x{201c}You\x{2019}ve no idea who this man could be?\x{201d}",
+            '[b 22:00] The Clocks - Agatha Christie.epub (text/part0015.html) - four bells',
+            'He had arrived now at No. 14. The door stood ajar and there were <<four bells|15>> with names underneath. Mrs. Lawton, he saw, had a flat on the ground floor. He went in and pressed the bell on the door on the left of the hall. It was a few moments before it was answered. Finally he heard steps inside and the door was opened by a tall, thin woman with straggling dark hair who had on an overall and seemed a little short of breath. The smell of onions wafted along from the direction of what was obviously the kitchen.',
           ],
           [
             1,
@@ -332,18 +312,8 @@ Bland shook his head. \x{201c}I wouldn\x{2019}t have seen much then. I was here.
           ],
           [
             1,
-            '[19:00] The Clocks - Agatha Christie.epub (text/part0017.html) - 19',
-            'I described to him in detail the events that had taken place at <<19|9c:0>>, Wilbraham Crescent. Hercule Poirot leant back in his chair. He closed his eyes and gently tapped with a forefinger the arm of his chair while he listened to my recital. When I finally stopped, he did not speak for a moment. Then he asked, without opening his eyes:',
-          ],
-          [
-            1,
             '[ap 01:49] The Clocks - Agatha Christie.epub (text/part0018.html) - 1:49',
             'There had been a telephone message to the Cavendish Bureau directing her to go to 19, Wilbraham Crescent. She had gone, acting as told to do, by entering the sitting room. She had found the dead man there and had screamed and rushed out of the house to summon assistance. There were no questions or elaborations. Miss Martindale, who also gave evidence, was questioned for an even shorter time. She had received a message purporting to be from Miss Pebmarsh asking her to send a shorthand typist, preferably Miss Sheila Webb, to 19, Wilbraham Crescent, and giving certain directions. She had noted down the exact time of the telephone call as <<1:49|2>>. That disposed of Miss Martindale.',
-          ],
-          [
-            1,
-            '[19:00] The Clocks - Agatha Christie.epub (text/part0018.html) - 19',
-            'Then came the medical evidence. Doctor Rigg, the police surgeon, having described himself and his qualifications, told of his arrival at <<19|9c:0>>, Wilbraham Crescent, and of his examination of the dead man.',
           ],
           [
             1,
@@ -359,11 +329,6 @@ Bland shook his head. \x{201c}I wouldn\x{2019}t have seen much then. I was here.
             1,
             '[ap 02:00] The Clocks - Agatha Christie.epub (text/part0018.html) - two',
             "\x{201c}Just like Sandy Cat,\x{201d} said Maureen. \x{201c}Mean as hell, isn\x{2019}t she? We open up again at <<two|9c:1>> and we\x{2019}ve all got to be there. Are you looking for anyone?\x{201d}",
-          ],
-          [
-            1,
-            '[19:00] The Clocks - Agatha Christie.epub (text/part0018.html) - 19',
-            "Since the day that the Press had announced that a murder had been committed at <<19|9c:1>>, Wilbraham Crescent, large numbers of people had gathered in front of the house every day to have a good look at it. The fascination mere bricks and mortar can have for the general public under certain circumstances is a truly mysterious thing. For the first twenty-four hours a policeman had been stationed there to pass people along in an authoritative manner. Since then interest had lessened; but had still not ceased entirely. Tradesmen\x{2019}s delivery vans would slacken speed a little as they passed, women wheeling prams would come to a four or five minute stop on the opposite pavement and stare their eyes out as they contemplated Miss Pebmarsh\x{2019}s neat residence. Shopping women with baskets would pause with avid eyes and exchange pleasurable gossip with friends.",
           ],
           [
             1,
@@ -466,13 +431,6 @@ Bland shook his head. \x{201c}I wouldn\x{2019}t have seen much then. I was here.
           ],
           [
             1,
-            '[19:00] The Clocks - Agatha Christie.epub (text/part0026.html) - 19',
-            "The story tumbled out then in a helter-skelter of words. She\x{2019}d had the clock nearly all her life. Until she was about six years old she\x{2019}d always gone by the name of Rosemary\x{2014}but she hated it and had insisted on being called Sheila. Lately the clock had been giving trouble. She\x{2019}d taken it with her to leave at a clock-repairing shop not far from the Bureau. But she\x{2019}d left it somewhere\x{2014}in the bus, perhaps, or in the milk bar where she went for a sandwich at lunchtime.
-\x{201c}How long was this before the murder at <<19|9c:1>>, Wilbraham Crescent?\x{201d}
-About a week, she thought. She hadn\x{2019}t bothered much, because the clock was old and always going wrong and it would really be better to get a new one.",
-          ],
-          [
-            1,
             '[< 12:00] The Clocks - Agatha Christie.epub (text/part0027.html) - before noon',
             'When Sheila had gone, I went across to the Clarendon, packed my bag and left it ready with the porter. It was the kind of hotel where they are particular about your checking out <<before noon|13>>.',
           ],
@@ -557,8 +515,8 @@ She motioned towards a small notebook and opening it pointed with a rather dirty
           ],
           [
             1,
-            '[19:00] The Clocks - Agatha Christie.epub (text/part0030.html) - 19',
-            "\x{201c}Look here, Hardcastle,\x{201d} I said, \x{201c}I\x{2019}ve got something for you. Vouched for by an eyewitness. A laundry van drew up at <<19|9c:0>>, Wilbraham Crescent at <<1:35|2>> on September the 9th. The man who drove it delivered a big laundry basket at the back door of the house. It was a particularly large laundry basket.\x{201d}",
+            '[ap 01:35] The Clocks - Agatha Christie.epub (text/part0030.html) - 1:35',
+            "\x{201c}Look here, Hardcastle,\x{201d} I said, \x{201c}I\x{2019}ve got something for you. Vouched for by an eyewitness. A laundry van drew up at 19, Wilbraham Crescent at <<1:35|2>> on September the 9th. The man who drove it delivered a big laundry basket at the back door of the house. It was a particularly large laundry basket.\x{201d}",
           ],
           [
             1,
@@ -571,11 +529,6 @@ She motioned towards a small notebook and opening it pointed with a rather dirty
             'Inside was a sheet of paper. Printed on it in large letters were the words:
 CURLEW HOTEL <<11:30|2>>
 ROOM 413',
-          ],
-          [
-            1,
-            '[19:00] The Clocks - Agatha Christie.epub (text/part0031.html) - 19',
-            "\x{201c}Are you saying you know who killed the man at <<19|9c:0>>, Wilbraham Crescent?\x{201d}",
           ],
           [
             1,
@@ -627,13 +580,6 @@ ROOM 413',
             '[ap 04:50] The Clocks - Agatha Christie.epub (text/part0034.html) - 4:50',
             "A Pocket Full of Rye
 <<4:50|2>> From Paddington
-The Mirror Crack\x{2019}d from Side to Side",
-          ],
-          [
-            1,
-            '[ap 04:50] The Clocks - Agatha Christie.epub (text/part0038.html) - 4:50',
-            "A Pocket Full of Rye
-<<4:50|2>> from Paddington
 The Mirror Crack\x{2019}d from Side to Side",
           ],
         ];

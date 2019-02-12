@@ -1,13 +1,6 @@
 $VAR1 = [
           [
             1,
-            '[ap 05:15] 334 - Thomas M. Disch.epub (OEBPS/Text/Contents.xhtml) - Five-Fifteen',
-            "38. Father Charmain
-39. The <<Five-Fifteen|5k:1>> Puppets
-40. Hunt\x{2019}s Tomato Catsup",
-          ],
-          [
-            1,
             '[ap > 07:00] 334 - Thomas M. Disch.epub (OEBPS/Text/Section0004.xhtml) - past seven',
             "Right now, at half <<past seven|3b>> of a Thursday night, Birdie was temporary on the sixteenth-floor landing, two floors down from the Holt apartment. Milly\x{2019}s father wasn\x{2019}t home, but he hadn\x{2019}t been asked in anyway, so here he was freezing his ass and listening to someone yelling at someone else about money or sex. (\x{201c}Money or sex\x{201d} was a running gag on some comedy show Milly was always playing back to him. \x{201c}Money or sex\x{2014}that\x{2019}s what it all boils down to.\x{201d} Yuck, yuck.) Meanwhile someone else again was telling them to shut up, far off and nonstop, like an airplane circling the park, a baby was being murdered. HERE\x{2019}S MY LOVE, a radio sang. HERE\x{2019}S MY LOVE. IF YOU TAKE IT APART, I MAY DIE. I MAY DIE OF A BROKEN HEART. Number Three in the nation. It had been going through Birdie\x{2019}s head all day, all week.",
           ],
@@ -248,7 +241,7 @@ $VAR1 = [
           [
             1,
             '[ap 01:05] 334 - Thomas M. Disch.epub (OEBPS/Text/Section0022.xhtml) - One-five',
-            "The phone would ring. Williken would pick it up and say. \x{201c}<<One-five|9j>>, <<five-six|9j>>.\x{201d} Shrimp would wrap herself in her thin arms and watch him until by the lowering of his eyes she knew the call wasn\x{2019}t from Seattle.",
+            "The phone would ring. Williken would pick it up and say. \x{201c}<<One-five|9j:1>>, <<five-six|9j:1>>.\x{201d} Shrimp would wrap herself in her thin arms and watch him until by the lowering of his eyes she knew the call wasn\x{2019}t from Seattle.",
           ],
           [
             1,
@@ -433,14 +426,14 @@ Alone in the apartment, doors locked, mind bolted, Mrs. Hanson watched the teeve
             1,
             '[ap 06:02] 334 - Thomas M. Disch.epub (OEBPS/Text/Section0065.xhtml) - Six two',
             "\x{201c}No, you got it backwards\x{2014}it\x{2019}s your wagon that\x{2019}s too short.\x{201d}
-\x{201c}How tall are you anyhow? <<Six two|9j>>?\x{201d}
-\x{201c}<<Six four|9j>>.\x{201d}",
+\x{201c}How tall are you anyhow? <<Six two|9j:0>>?\x{201d}
+\x{201c}<<Six four|9j:0>>.\x{201d}",
           ],
           [
             1,
             '[ap 06:02] 334 - Thomas M. Disch.epub (OEBPS/Text/Section0065.xhtml) - Six two',
-            "\x{201c}How tall are you anyhow? <<Six two|9j>>?\x{201d}
-\x{201c}<<Six four|9j>>.\x{201d}
+            "\x{201c}How tall are you anyhow? <<Six two|9j:0>>?\x{201d}
+\x{201c}<<Six four|9j:0>>.\x{201d}
 Reaching his punch line, Chapel made a laugh. \x{201c}Ha, ha, I could use those four inches for myself!\x{201d} (Chapel stood 5\x{2032} 7\x{2033} in his shoes.)",
           ],
           [

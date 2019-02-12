@@ -143,11 +143,6 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 01:00] Shogun - James Clavell.epub (OEBPS/Clav_9780307490896_epub_c35_r1.htm) - One',
-            "\x{201c}He says he\x{2019}s read it with great interest, but it contains only brief details. Over the next days he wishes to learn everything about all your battles. <<One|9q>> now, if it pleases you.\x{201d}",
-          ],
-          [
-            1,
             '[12:00] Shogun - James Clavell.epub (OEBPS/Clav_9780307490896_epub_c40_r1.htm) - high noon',
             "\x{201c}The only way to keep a secret is to be alone and whisper it down an empty well at <<high noon|13>>, neh?\x{201d} Mariko said lightly, needing time to decide.",
           ],
@@ -223,8 +218,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[12:00] Shogun - James Clavell.epub (OEBPS/Clav_9780307490896_epub_c50_r1.htm) - high noon',
-            "Gongs sounded the hour change. For the first time his mind told him this was the middle of the Hour of the Horse, and not eight bells of this watch\x{2014}<<high noon|13>>.",
+            '[b 0:00] Shogun - James Clavell.epub (OEBPS/Clav_9780307490896_epub_c50_r1.htm) - eight bells',
+            "Gongs sounded the hour change. For the first time his mind told him this was the middle of the Hour of the Horse, and not <<eight bells|15>> of this watch\x{2014}<<high noon|13>>.",
           ],
           [
             1,
@@ -295,8 +290,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[12:00] Shogun - James Clavell.epub (OEBPS/Clav_9780307490896_epub_c54_r1.htm) - high noon',
-            'The duty helmsman turned the hourglass and rang eight bells. It was <<high noon|13>>.',
+            '[b 0:00] Shogun - James Clavell.epub (OEBPS/Clav_9780307490896_epub_c54_r1.htm) - eight bells',
+            'The duty helmsman turned the hourglass and rang <<eight bells|15>>. It was <<high noon|13>>.',
           ],
           [
             1,
@@ -305,8 +300,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 03:00] Shogun - James Clavell.epub (OEBPS/Clav_9780307490896_epub_c56_r1.htm) - three of the clock',
-            "\x{201c}Yes. Understand.\x{201d} Bells tolled the hour change. The time rang in all their heads, the beginning of the Hour of the Monkey, six bells of the afternoon watch, <<three of the clock|6>>. Many turned to the sun and, without thinking, measured it.",
+            '[b 23:00] Shogun - James Clavell.epub (OEBPS/Clav_9780307490896_epub_c56_r1.htm) - six bells',
+            "\x{201c}Yes. Understand.\x{201d} Bells tolled the hour change. The time rang in all their heads, the beginning of the Hour of the Monkey, <<six bells|15>> of the afternoon watch, <<three of the clock|6>>. Many turned to the sun and, without thinking, measured it.",
           ],
           [
             1,

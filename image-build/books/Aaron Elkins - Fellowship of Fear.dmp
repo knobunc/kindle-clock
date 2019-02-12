@@ -7,7 +7,7 @@ $VAR1 = [
           [
             1,
             '[ap 06:01] Fellowship of Fear - Aaron Elkins.epub (index_split_003.html) - Six-one',
-            "They sat in the dark for a while. The tall one said, \"He\x{2019}s a pretty big guy, you know. <<Six-one|9j>>, <<six-two|9j>>. Strong\x{2014}used to box in college.\"",
+            "They sat in the dark for a while. The tall one said, \"He\x{2019}s a pretty big guy, you know. <<Six-one|9j:0>>, <<six-two|9j:0>>. Strong\x{2014}used to box in college.\"",
           ],
           [
             1,
@@ -77,7 +77,7 @@ $VAR1 = [
           [
             1,
             '[ap ~ 05:04] Fellowship of Fear - Aaron Elkins.epub (index_split_011.html) - About five-four',
-            'He jotted a few numbers on a piece of paper. "Total height, 1615 millimeters," he said. More jotting. "<<About five-four|9j>>."',
+            'He jotted a few numbers on a piece of paper. "Total height, 1615 millimeters," he said. More jotting. "<<About five-four|9j:0>>."',
           ],
           [
             1,

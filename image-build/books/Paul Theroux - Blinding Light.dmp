@@ -18,14 +18,14 @@ $VAR1 = [
             1,
             '[ap 05:08] Blinding Light - Paul Theroux.epub (OPS/c04.xml) - Five eight',
             "\x{201c}Listen, want to hear something totally awesome?\x{201d} Hack said to the others. Then he spoke to Wood in the tone of a quizmaster: \x{201c}Edgar Allan Poe?\x{201d}
-\x{201c}<<Five eight|9j>>,\x{201d} Wood said.
+\x{201c}<<Five eight|9j:0>>,\x{201d} Wood said.
 \x{201c}Marquis de Sade?\x{201d}",
           ],
           [
             1,
             '[ap 05:03] Blinding Light - Paul Theroux.epub (OPS/c04.xml) - Five three',
             "\x{201c}Marquis de Sade?\x{201d}
-\x{201c}<<Five three|9j>>.\x{201d}
+\x{201c}<<Five three|9j:0>>.\x{201d}
 Ava said, \x{201c}William Burroughs.\x{201d}",
           ],
           [

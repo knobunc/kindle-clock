@@ -46,8 +46,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 05:00] Schindler\'s List - Thomas Keneally.epub (ops/xhtml/ch20.html) - five',
-            'This morning before <<five|9c:1>>, Dr. H had been awakened in his room in Wit Stwosz Street by the noise of trucks pulling up beyond the wall. Looking down from his window, he saw the Sonderkommandos assembling by the river and knew that they had come to take some decisive action in the ghetto. He rushed to the hospital and found Dr. B and the nursing staff already working there on the same premise, arranging for every patient who could move to be taken downstairs and brought home by relatives or friends. When all except the four had gone, Dr. B told the nurses to leave, and all of them obeyed except for one senior nurse. Now she and Doctors B and H remained with the last four patients in the nearly deserted hospital.',
+            '[ap < 05:00] Schindler\'s List - Thomas Keneally.epub (ops/xhtml/ch20.html) - before five',
+            'This morning <<before five|9s>>, Dr. H had been awakened in his room in Wit Stwosz Street by the noise of trucks pulling up beyond the wall. Looking down from his window, he saw the Sonderkommandos assembling by the river and knew that they had come to take some decisive action in the ghetto. He rushed to the hospital and found Dr. B and the nursing staff already working there on the same premise, arranging for every patient who could move to be taken downstairs and brought home by relatives or friends. When all except the four had gone, Dr. B told the nurses to leave, and all of them obeyed except for one senior nurse. Now she and Doctors B and H remained with the last four patients in the nearly deserted hospital.',
           ],
           [
             1,

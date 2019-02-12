@@ -52,7 +52,7 @@ $VAR1 = [
           [
             1,
             '[ap 06:08] Espedair Street - Iain Banks.epub (Espedair Street - Iain M. Banks_split_006.htm) - six-eight',
-            "\x{2018}Well ... yeah, a bit.\x{2019} I pretended to think. \x{2018}Like, he only hires people taller than him. He\x{2019}s six-five; sensitive about his height. Only takes people on who make him look small. You should see his chauffeur; he\x{2019}s bigger than me; <<six-eight|9j>>. Even his girlfriend\x{2019}s over six foot. You, ah... never seen any photies of him?\x{2019}",
+            "\x{2018}Well ... yeah, a bit.\x{2019} I pretended to think. \x{2018}Like, he only hires people taller than him. He\x{2019}s six-five; sensitive about his height. Only takes people on who make him look small. You should see his chauffeur; he\x{2019}s bigger than me; <<six-eight|9j:0>>. Even his girlfriend\x{2019}s over six foot. You, ah... never seen any photies of him?\x{2019}",
           ],
           [
             1,
@@ -75,7 +75,7 @@ He handed me the pipe, shaking his head. \x{2018}Drive a hard bargain,\x{2019} h
             1,
             '[ap 10:08] Espedair Street - Iain Banks.epub (Espedair Street - Iain M. Banks_split_011.htm) - Ten-eight',
             "\x{2018}Bastard!\x{2019}
-\x{2018}<<Ten-eight|9j>>. My race, I believe.\x{2019}
+\x{2018}<<Ten-eight|9j:0>>. My race, I believe.\x{2019}
 \x{2018}Bastard! You weren\x{2019}t even trying the first time!\x{2019}",
           ],
           [

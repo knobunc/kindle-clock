@@ -437,8 +437,8 @@ A x <<1000h|1>> +
           ],
           [
             1,
-            '[00:00] Code - Charles Petzold.epub (OEBPS/ch16.html) - 0000h',
-            'Why 64 KB? Why not 32 KB or 128 KB? Because 65,536 is a nice round number. It\'s 216. This RAM array has a 16-bit address. In other words, the address is 2 bytes exactly. In hexadecimal, the address ranges from <<0000h|1>> through FFFFh.',
+            '[ap 02:16] Code - Charles Petzold.epub (OEBPS/ch16.html) - 216',
+            'Why 64 KB? Why not 32 KB or 128 KB? Because 65,536 is a nice round number. It\'s <<216|9l>>. This RAM array has a 16-bit address. In other words, the address is 2 bytes exactly. In hexadecimal, the address ranges from <<0000h|1>> through FFFFh.',
           ],
           [
             1,
@@ -793,6 +793,11 @@ So the entire multiplication program can be written as a series of statements li
             1,
             '[ap ~ 10:24] Code - Charles Petzold.epub (OEBPS/ch18.html) - about 1024',
             'At the time of the EDVAC, it wasn\'t cost effective to build a lot of memory out of vacuum tubes. Some very odd solutions were proposed instead. One successful one was mercury delay line memory, which used 5-foot tubes of mercury. At one end of the tube, little pulses were sent into the mercury about 1 microsecond apart. These pulses took about a millisecond to reach the other end (where they were detected like sound waves and routed back to the beginning), and hence each tube of mercury could store <<about 1024|18:0>> bits of information.',
+          ],
+          [
+            1,
+            '[ap 07:01] Code - Charles Petzold.epub (OEBPS/ch18.html) - 701',
+            "In 1948, the Eckert-Mauchly Computer Corporation (later part of Remington Rand) began work on what would become the first commercially available computer\x{2014}the Universal Automatic Computer, or UNIVAC. It was completed in 1951, and the first one was delivered to the Bureau of the Census. The UNIVAC made its prime-time network debut on CBS, when it was used to predict results of the 1952 presidential election. Walter Cronkite referred to it as an \"electronic brain.\" Also in 1952, IBM announced the company's first commercial computer system, the <<701|9l>>.",
           ],
           [
             1,

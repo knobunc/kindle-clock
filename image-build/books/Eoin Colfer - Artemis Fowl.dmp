@@ -8,7 +8,7 @@ $VAR1 = [
             1,
             '[ap 10:04] Artemis Fowl - Eoin Colfer.epub (OEBPS/chapter-5-missing-in-action.xhtml) - Ten four',
             "\x{201c}Go to full alert, and get Retrieval out of their bunks and back down here. Prep them for a surface shot. I want full tactical and a couple of techies. You too, Foaly. We may have to stop time on this one.\x{201d}
-\x{201c}<<Ten four|9j>>, Commander. You want Recon in on this?\x{201d}
+\x{201c}<<Ten four|9j:0>>, Commander. You want Recon in on this?\x{201d}
 Root nodded. \x{201c}You bet.\x{201d}",
           ],
           [
@@ -25,7 +25,7 @@ Root nodded. \x{201c}You bet.\x{201d}",
             1,
             '[ap 10:04] Artemis Fowl - Eoin Colfer.epub (OEBPS/chapter-6-siege.xhtml) - Ten four',
             "Butler\x{2019}s voice came back tinny through the speaker.
-\x{201c}<<Ten four|9j>>, Artemis. On my way.\x{201d}
+\x{201c}<<Ten four|9j:0>>, Artemis. On my way.\x{201d}
 Artemis buttoned his designer jacket, pausing at the mirror to straighten his tie. The trick to negotiation was to hold all the cards going in, and even if you didn\x{2019}t, to try to look as though you did.",
           ],
           [

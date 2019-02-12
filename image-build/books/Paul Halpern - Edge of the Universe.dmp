@@ -7,7 +7,7 @@ $VAR1 = [
           [
             1,
             '[ap 07:13] Edge of the Universe_ A Voyage to the Cosm - Paul Halpern.epub (OEBPS/9781118234600_epub_bm_02.htm) - 071301',
-            "*Land, Kate, and Jo\x{c3}o Magueijo. \x{201c}The Axis of Evil.\x{201d} Physical Review Letters 95 (2005): <<071301|9l>>.",
+            "*Land, Kate, and Jo\x{c3}o Magueijo. \x{201c}The Axis of Evil.\x{201d} Physical Review Letters 95 (2005): <<071301|9l:0>>.",
           ],
           [
             1,
@@ -18,6 +18,11 @@ $VAR1 = [
             1,
             '[ap 05:00] Edge of the Universe_ A Voyage to the Cosm - Paul Halpern.epub (OEBPS/9781118234600_epub_ch_05.htm) - 500',
             "Another option is a kind of \x{201c}survival of the fittest\x{201d} among possible vacuum states. String theory is blessed\x{2014}or cursed, depending on one\x{2019}s viewpoint\x{2014}with myriad possibilities for its vacuum configuration. Estimates are that there are at least10500 (1 followed by <<500|3:0>> zeros) types of vacuum states, each with its own twisted kind of higher-dimensional geometry, known as a Calabi-Yau manifold. Clearly, if string theory is true, the real physical universe is based on only one of these forms. But what kind of mechanism picks the winner? Is it just a random lottery, or are there selection rules?",
+          ],
+          [
+            1,
+            '[ap 00:35] Edge of the Universe_ A Voyage to the Cosm - Paul Halpern.epub (OEBPS/9781118234600_epub_ch_06.htm) - 123523',
+            "3. Max Tegmark, Angelica de Oliveira-Costa, and Andrew Hamilton, \x{201c}A High Resolution Foreground Cleaned CMB Map from WMAP,\x{201d} Physical Review D 68 (2003): <<123523|9l>>.",
           ],
           [
             1,
@@ -36,7 +41,12 @@ $VAR1 = [
           ],
           [
             1,
+            '[ap 00:35] Edge of the Universe_ A Voyage to the Cosm - Paul Halpern.epub (OEBPS/9781118234600_epub_ch_10.htm) - 123523',
+            "6. Max Tegmark, Angelica de Oliveira-Costa, and Andrew Hamilton, \x{201c}A High Resolution Foreground Cleaned CMB Map from WMAP,\x{201d} Physical Review D 68 (2003): <<123523|9l>>.",
+          ],
+          [
+            1,
             '[ap 03:50] Edge of the Universe_ A Voyage to the Cosm - Paul Halpern.epub (OEBPS/9781118234600_epub_ch_10.htm) - 035001',
-            "11. L. J. Hall and Y. Nomura, \x{201c}Evidence for the Multiverse in the Standard Model and Beyond,\x{201d} Physical Review D 78 (2008): <<035001|9l>>.",
+            "11. L. J. Hall and Y. Nomura, \x{201c}Evidence for the Multiverse in the Standard Model and Beyond,\x{201d} Physical Review D 78 (2008): <<035001|9l:0>>.",
           ],
         ];

@@ -1,8 +1,8 @@
 $VAR1 = [
           [
             1,
-            "[ap 05:00] Great Northern_ - Arthur Ransome.epub (index_split_010.html) - Five o\x{2019}clock",
-            "\x{201c}Two bells! <<Five o\x{2019}clock|6>>. Tea!\x{201d} called Nancy, almost as if she wanted to hurry the others off the deck.",
+            '[b 21:00] Great Northern_ - Arthur Ransome.epub (index_split_010.html) - Two bells',
+            "\x{201c}<<Two bells|15>>! <<Five o\x{2019}clock|6>>. Tea!\x{201d} called Nancy, almost as if she wanted to hurry the others off the deck.",
           ],
           [
             1,
@@ -30,9 +30,14 @@ There was a sudden shrieking of gulls. Captain Flint, who had been glancing at t
           ],
           [
             1,
-            '[12:00] Great Northern_ - Arthur Ransome.epub (index_split_024.html) - noon',
+            '[b 22:00] Great Northern_ - Arthur Ransome.epub (index_split_024.html) - Four bells',
+            "\x{201c}<<Four bells|15>>,\x{201d} said John, rubbing his eyes. \x{201c}I thought we were starting earlier.\x{201d}",
+          ],
+          [
+            1,
+            '[b 0:00] Great Northern_ - Arthur Ransome.epub (index_split_024.html) - eight bells',
             "Most of them did not mind at all. If they were going to be another day late in getting across to the mainland, it meant that the cruise would last another day longer. They were at sea and that was enough for them. If there was not enough wind, even Columbus suffered from calms. They might for a moment envy half-a-dozen fishing boats shooting northwards with the tide, but they were perfectly content to sit in the cockpit and on the foredeck, in bright sunshine on blue water. And as for being sorry they had spent those two nights in the wild anchorage of Scrubbers\x{2019} Bay, they were all agreed that yesterday had been the best day of the whole cruise. Even Roger thought that, though it was a pity that today of all days the tank should be running dry, just when the lack of wind would have given the engine and the engineer a noble chance of being useful.
-The morning passed. Roger sounded eight bells for <<noon|13>>.
+The morning passed. Roger sounded <<eight bells|15>> for <<noon|13>>.
 \x{201c}Corned beef,\x{201d} said Susan. \x{201c}Pemmican, I mean. Cold. It\x{2019}s too hot for any cooking.\x{201d}",
           ],
           [

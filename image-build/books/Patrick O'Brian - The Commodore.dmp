@@ -1,8 +1,13 @@
 $VAR1 = [
           [
             1,
-            '[ap < 08:00] The Commodore - Patrick O\'Brian.epub (The_Commodore_split_001.html) - just before eight',
-            'Most of the exchanges that Reade reported were more or less imaginary, and in any case they had been slowly, laboriously transmitted through dense rain by hoists of lights variously arranged; but the breakfast invitation, which was true enough,. was repeated at first light by flags and again by a sodden midshipman in a boat; and the two captains, together with Dr Maturin, came alongside <<just before eight|10>> bells in the morning watch, ravenous, cold, wet, indignant.',
+            '[b 22:00] The Commodore - Patrick O\'Brian.epub (The_Commodore_split_001.html) - four bells',
+            '\'God bless you, Jack,\' said Dundas, hefting the comfortable bag in his hand. \'Even this weighs well over a stone, ha, ha, ha!\' and as he spoke <<four bells|15>> struck, <<four bells|15>> in the graveyard watch, This was almost immediately followed by an exchange of orders and distant cries on deck: they were not the routine noises that preceded going about, however, and both captains listened intently, Heneage still holding the bag poised in his hand, like a Christmas pudding. Some moments later a wet, one-armed midshipman burst in and cried \'Beg pardon, air, but Mr Wilkins desires his compliments and duty and there is a ship about two miles to windward, he thinks a seventy-four, in any case a two-decker, and he don\'t quite like her answer to the private signal.\'',
+          ],
+          [
+            1,
+            '[b 0:00] The Commodore - Patrick O\'Brian.epub (The_Commodore_split_001.html) - just before eight bells',
+            'Most of the exchanges that Reade reported were more or less imaginary, and in any case they had been slowly, laboriously transmitted through dense rain by hoists of lights variously arranged; but the breakfast invitation, which was true enough,. was repeated at first light by flags and again by a sodden midshipman in a boat; and the two captains, together with Dr Maturin, came alongside <<just before eight bells|15>> in the morning watch, ravenous, cold, wet, indignant.',
           ],
           [
             1,
@@ -76,6 +81,11 @@ $VAR1 = [
           ],
           [
             1,
+            '[b 21:00] The Commodore - Patrick O\'Brian.epub (The_Commodore_split_007.html) - Two bells',
+            '<<Two bells|15>>, and Killick, his mate and three mess attendants walked carefully up the poop ladder, the first two carrying trays with decanters of all things proper to be drunk at such an hour, the others with glasses to drink them from.',
+          ],
+          [
+            1,
             '[04:30] The Commodore - Patrick O\'Brian.epub (The_Commodore_split_008.html) - half-past four in the morning',
             'At <<half-past four in the morning|10>> Stephen was woken by an agitated Mr Smith: Abel Black, foretopman, starboard watch, a perfectly ordinary cracked fibula (had stumbled over a misplaced bucket in the dark) was on the point of bursting. There had been retention of urine from a wholly unrelated cause - a common calculus - ever since he was brought below; but he was a shamefaced man, and being far from his messmates, lying there between a couple of unknown larbowlines belonging to the afterguard, he had not liked to mention it early on, while in the night watches he had not liked to disturb the doctors: and now modesty had brought him to a very elegant pass indeed. Stephen knew the condition well, a frequent concomitant of some other seaman\'s maladies; he was also used to dealing with sailors\' wonderfully uneven and complex forms of delicacy; and having dealt with the situation for the time being, he returned to bed. But not to sleep, for just as he was well into his cot and swinging easy, some dreadful voice from the depths said \'Maturin, Maturin, you had already bored poor Jack Aubrey cruelly with your tedious account of Michel Adanson years ago, prating away in the same earnest even enthusiastic moral improving fashion for half an hour on end and he sitting there smiling and nodding politely saying "Oh, indeed?" and "Heavens above" oh for shame. You may well blush, but blushing does no good. It is mere remorse of conscience.\'',
           ],
@@ -87,7 +97,7 @@ $VAR1 = [
           [
             1,
             '[ap 10:00] The Commodore - Patrick O\'Brian.epub (The_Commodore_split_009.html) - ten',
-            'Yet this was the one sad day out of the ten - <<ten|9k:0>>, no more; and but for the heavy-sailing Thames it would have been eight- that it took to run up to Freetown, and the rest of the time was delightful sailing, a world to which they had grown so accustomed in the vast stretches of the Pacific and to which they returned as to the natural way of life, with all the ship. board ceremonies and routines in their due order, as exactly marked by bells as those of a monastery. Eight bells in the middle watch, when those whose duty it was to show the sun a spotless deck had to leave their hammocks two hours before he rose; eight bells in the forenoon watch, when the officers fixed the height of the <<noonday|13>> sun and hands were piped to dinner: bells and pipes all day long, with some music too - the drum beating \'Heart of Oak\' for the wardroom dinner (though Aumra, whose Marine officer had organized a band among his men, did it in a higher style), the drum again for quarters and the retreat, and on most evenings fiddles, bagpipes or a little shrill fife playing for the hands as they danced on the forecastle: bells all night long, too, though somewhat muted. These formal measures and divisions had of course been there during the wearisome creep along the shores of the Gulf the Bellona often lying to, doing nothing; but it was only now that they regained their full significance, and in a suprisingly short time this part of the voyage seemed to have been going on for ever.',
+            'Yet this was the one sad day out of the ten - <<ten|9k:0>>, no more; and but for the heavy-sailing Thames it would have been eight- that it took to run up to Freetown, and the rest of the time was delightful sailing, a world to which they had grown so accustomed in the vast stretches of the Pacific and to which they returned as to the natural way of life, with all the ship. board ceremonies and routines in their due order, as exactly marked by bells as those of a monastery. <<Eight bells|15>> in the middle watch, when those whose duty it was to show the sun a spotless deck had to leave their hammocks two hours before he rose; <<eight bells|15>> in the forenoon watch, when the officers fixed the height of the <<noonday|13>> sun and hands were piped to dinner: bells and pipes all day long, with some music too - the drum beating \'Heart of Oak\' for the wardroom dinner (though Aumra, whose Marine officer had organized a band among his men, did it in a higher style), the drum again for quarters and the retreat, and on most evenings fiddles, bagpipes or a little shrill fife playing for the hands as they danced on the forecastle: bells all night long, too, though somewhat muted. These formal measures and divisions had of course been there during the wearisome creep along the shores of the Gulf the Bellona often lying to, doing nothing; but it was only now that they regained their full significance, and in a suprisingly short time this part of the voyage seemed to have been going on for ever.',
           ],
           [
             1,
@@ -101,12 +111,22 @@ $VAR1 = [
           ],
           [
             1,
+            '[b 20:30] The Commodore - Patrick O\'Brian.epub (The_Commodore_split_010.html) - One bell',
+            'course ENE 1/2E under easy sail.\' <<One bell|15>> in the forenoon watch, and Jack said \'Captain Pullings, if your people are anything like me, they must be damned hungry by now. Let us all have breakfast.\'',
+          ],
+          [
+            1,
             '[ap 11:30] The Commodore - Patrick O\'Brian.epub (The_Commodore_split_010.html) - half-past eleven',
             'In the main, Jack\'s forecast was sound enough, but so were his reservations. The wind backed south-south-west earlier than he had expected, so that the French squadron had to beat up, tack upon tack, for their rendezvous; then the Commodore Esprit-Tranquil Maistral, a survivor of the enormous expedition destined for Bantry Bay in \'96 with no less than seventeen of the line and thirteen frigates, decided to wait for the seventy-four from America until the fourteenth, a particularly lucky day; and even then not to set sail until the most auspicious hour, which was <<half-past eleven|10>>, so that with a thick, dirty night, with a brave topgallant wind on the larboard quarter that bowled them along at a fine rate, he and his ships very nearly ran clear.',
           ],
           [
             1,
-            '[ap 08:00] The Commodore - Patrick O\'Brian.epub (The_Commodore_split_010.html) - eight',
-            'The Bellona had her three great stern-lanterns all ablaze, and from time to time Jack Aubrey left either his fiddle or the game of cards he was playing with Stephen to stand by them on the poop, watching the rain sweep past in their rays or searching the darkness astern for his squadron: at <<eight|9t:1>> bells a suffused glow as the watch changed aboard the Stately, and once or twice a small light in what he took to be the Ringle right abeam; but almost all the time it was a roaring darkness, another manner of being. After a little while of this the binnacle lamps were so bright when he returned to the quarterdeck that in their mere reflection he recognized the midshipman of the watch, almost extinguished by his waterproof clothes and hat. \'A dirty night, Mr Wetherby,\' he said. \'I trust it don\'t damp your spirits?\'',
+            '[b 23:30] The Commodore - Patrick O\'Brian.epub (The_Commodore_split_010.html) - seven bells',
+            'The position at which the squadron would lie to, somewhat to the south and east of the point the French were expected to reach in three days at the most, had been given to the Laurel and the Ringle; but in almost twice that space of time, ocean drift, dirty weather and human fallibility deprived the figure of much of its meaning, and it was only when Maistral had been at sea since the fourteenth, that the Ringle came tearing close-hauled through a very heavy sea and a black squall at <<seven bells|15>> in the morning watch to bellow and roar that the French had been seen hull-down in the north-east steering north-east, half an hour after sunset yesterday.',
+          ],
+          [
+            1,
+            '[b 0:00] The Commodore - Patrick O\'Brian.epub (The_Commodore_split_010.html) - eight bells',
+            'The Bellona had her three great stern-lanterns all ablaze, and from time to time Jack Aubrey left either his fiddle or the game of cards he was playing with Stephen to stand by them on the poop, watching the rain sweep past in their rays or searching the darkness astern for his squadron: at <<eight bells|15>> a suffused glow as the watch changed aboard the Stately, and once or twice a small light in what he took to be the Ringle right abeam; but almost all the time it was a roaring darkness, another manner of being. After a little while of this the binnacle lamps were so bright when he returned to the quarterdeck that in their mere reflection he recognized the midshipman of the watch, almost extinguished by his waterproof clothes and hat. \'A dirty night, Mr Wetherby,\' he said. \'I trust it don\'t damp your spirits?\'',
           ],
         ];

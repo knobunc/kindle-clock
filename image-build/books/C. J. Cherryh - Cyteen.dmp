@@ -28,7 +28,7 @@ $VAR1 = [
             1,
             '[ap 08:00] Cyteen - C. J. Cherryh.epub (OEBPS/Text/Section_02.xhtml) - 0800',
             "\x{201c}Yes?\x{201d} His voice cracked. It was the hour. He was shivering.
-\x{201c}At <<0800|9m:1>>. When you get in. In the Wing One lab.\x{201d}
+\x{201c}At <<0800|9m>>. When you get in. In the Wing One lab.\x{201d}
 \x{201c}Yes, sera.\x{201d}",
           ],
           [
@@ -90,8 +90,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 09:00] Cyteen - C. J. Cherryh.epub (OEBPS/Text/Section_09.xhtml) - 9',
-            "B/1: This is how this program works, Ari, and excuse me if I use small words: I wrote this without knowing how old you\x{2019}d be when you logged-on or what year it would be. It\x{2019}s 2415. The program just pulled that number out of the House computer clock. Your guardian is Denys Nye. The program just accessed your records in the House data bank and found that out, and it can tell you that Denys ordered pasta for lunch today, because it just accessed Denys\x{2019} records and found out the answer to that specific question. It knows you\x{2019}re 9 years old and therefore it\x{2019}s set a limit on your keycard accesses, so you can\x{2019}t order Security to arrest anybody or sell 9000 Alpha genesets to Cyteen Station. Remembering what I was like at <<9|9c:1>>, that seems like a reasonable precaution.",
+            '[00:15] Cyteen - C. J. Cherryh.epub (OEBPS/Text/Section_09.xhtml) - 2415',
+            "B/1: This is how this program works, Ari, and excuse me if I use small words: I wrote this without knowing how old you\x{2019}d be when you logged-on or what year it would be. It\x{2019}s <<2415|9l>>. The program just pulled that number out of the House computer clock. Your guardian is Denys Nye. The program just accessed your records in the House data bank and found that out, and it can tell you that Denys ordered pasta for lunch today, because it just accessed Denys\x{2019} records and found out the answer to that specific question. It knows you\x{2019}re 9 years old and therefore it\x{2019}s set a limit on your keycard accesses, so you can\x{2019}t order Security to arrest anybody or sell 9000 Alpha genesets to Cyteen Station. Remembering what I was like at <<9|9c:1>>, that seems like a reasonable precaution.",
           ],
           [
             1,
@@ -180,7 +180,7 @@ AE2: Minder, this is Ari Emory. Florian and Catlin are with me. Print out all en
           [
             1,
             '[ap 07:00] Cyteen - C. J. Cherryh.epub (OEBPS/Text/Section_12.xhtml) - 0700',
-            "I was a working scientist as well as chief Administrator, which I found to be generally a fifteen-hour-a-day combination. A pocket com and an excellent staff kept me apprised of situations which absolutely required my intervention, and this extended to my research as well as my administrative duties. Typically I was in the office as early as <<0700|18:1>>, arranged the day\x{2019}s schedule, reviewed the emergencies and ongoing situations via Base One, and put the office in motion as the staff arrived, left on my own work by <<0900|18:1>>, and generally made the office again briefly after lunch, whereupon I left again after solving whatever had to be done.",
+            "I was a working scientist as well as chief Administrator, which I found to be generally a fifteen-hour-a-day combination. A pocket com and an excellent staff kept me apprised of situations which absolutely required my intervention, and this extended to my research as well as my administrative duties. Typically I was in the office as early as <<0700|18:0>>, arranged the day\x{2019}s schedule, reviewed the emergencies and ongoing situations via Base One, and put the office in motion as the staff arrived, left on my own work by <<0900|18:0>>, and generally made the office again briefly after lunch, whereupon I left again after solving whatever had to be done.",
           ],
           [
             1,
@@ -201,7 +201,7 @@ AE2: Minder, this is Ari Emory. Florian and Catlin are with me. Print out all en
             1,
             '[ap 04:36] Cyteen - C. J. Cherryh.epub (OEBPS/Text/Section_13.xhtml) - 0436',
             "\x{201c}Time?\x{201d} Florian asked the Minder.
-\x{201c}<<0436|9l>>,\x{201d} it said.
+\x{201c}<<0436|9l:0>>,\x{201d} it said.
 \x{201c}We should start breakfast,\x{201d} Florian said. \x{201c}It\x{2019}s near enough to the time sera usually gets up. There\x{2019}s a guest kit in the bath, ser. A robe if you like, but sera will probably dress. Will you be all right while I check on my partner?\x{201d}",
           ],
           [

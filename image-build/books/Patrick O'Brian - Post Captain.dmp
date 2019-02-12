@@ -1,8 +1,8 @@
 $VAR1 = [
           [
             1,
-            '[ap 04:00] Post Captain - Patrick O\'Brian.epub (Post_Captain_split_001.html) - four',
-            'Two minutes after that first hail the Charwell set her fore and main topgallants - no great spread of canvas, but then the frigate had had a long, wearing voyage from the West Indies: nine weeks out of sight of land, the equinoctial gales to strain her tired rigging to the breaking-point, three days of lying-to in the Bay of Biscay at its worst, and it was understandable that Captain Griffiths should wish to husband her a little. No cloud of sail, but even so she fetched the stranger\'s wake within a couple of hours, and at <<four|9:1>> bells in the morning watch the Charwell cleared for action. The drum beat to quarters, the hammocks came racing up, piling into the nettings to form bulwarks, the guns were run out; and the warm, pink, sleepy watch below had been standing to them in the cold rain ever since - an hour and more to chill them to the bone.',
+            '[b 22:00] Post Captain - Patrick O\'Brian.epub (Post_Captain_split_001.html) - four bells',
+            'Two minutes after that first hail the Charwell set her fore and main topgallants - no great spread of canvas, but then the frigate had had a long, wearing voyage from the West Indies: nine weeks out of sight of land, the equinoctial gales to strain her tired rigging to the breaking-point, three days of lying-to in the Bay of Biscay at its worst, and it was understandable that Captain Griffiths should wish to husband her a little. No cloud of sail, but even so she fetched the stranger\'s wake within a couple of hours, and at <<four bells|15>> in the morning watch the Charwell cleared for action. The drum beat to quarters, the hammocks came racing up, piling into the nettings to form bulwarks, the guns were run out; and the warm, pink, sleepy watch below had been standing to them in the cold rain ever since - an hour and more to chill them to the bone.',
           ],
           [
             1,
@@ -101,8 +101,13 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 02:00] Post Captain - Patrick O\'Brian.epub (Post_Captain_split_007.html) - two',
-            'At <<two|9t:1>> bells that morning watch the Polychrest was slipping quietly through the cold grey sea, the cold grey air, for at <<midnight|13>> the wind had come a little east of south, and in order not to lose a minute (a ship could be windbound for weeks on end in the Channel at this season) Jack had given orders to unmoor, although the tide was making. A gentle breeze it was, not enough to dispel the fog or raise more than a ripple on the long oily swell, and the Polychrest could have carried a great spread of canvas; however, she was under little more than her topsails, and she ghosted along, with little more than a whisper of water the length of her side.',
+            '[b 21:00] Post Captain - Patrick O\'Brian.epub (Post_Captain_split_007.html) - two bells',
+            'At <<two bells|15>> that morning watch the Polychrest was slipping quietly through the cold grey sea, the cold grey air, for at <<midnight|13>> the wind had come a little east of south, and in order not to lose a minute (a ship could be windbound for weeks on end in the Channel at this season) Jack had given orders to unmoor, although the tide was making. A gentle breeze it was, not enough to dispel the fog or raise more than a ripple on the long oily swell, and the Polychrest could have carried a great spread of canvas; however, she was under little more than her topsails, and she ghosted along, with little more than a whisper of water the length of her side.',
+          ],
+          [
+            1,
+            '[b 0:00] Post Captain - Patrick O\'Brian.epub (Post_Captain_split_007.html) - Eight bells',
+            'He shook his head, staring after the frigates as they vanished into the gloom. <<Eight bells|15>> struck. \'Mr Parker,\' he said, \'we will get the topgallantmasts down on deck, and then we will wear.\' By the time the masts were struck there would be no satirical friends to watch from a distance.',
           ],
           [
             1,
@@ -111,13 +116,18 @@ $VAR1 = [
           ],
           [
             1,
+            '[b 23:30] Post Captain - Patrick O\'Brian.epub (Post_Captain_split_007.html) - seven bells',
+            '\'You were not cheated, my dear. I like its tone extremely warm, mellow. You are a great judge of a fiddle, to be sure. Come, come, there is not a moment to lose; I make my rounds at <<seven bells|15>>. One, two, three,\' he cried, tapping his foot, and the cabin was filled with the opening movement of Boccherini\'s Corelli sonata, a glorious texture of sound, the violin sending up brilliant jets through the \'cello\'s involutions, and they soared up and away from the grind of pumps, the tireless barking, the problems of command, up, the one answering the other, joining, separating, twining, rising into their native air.',
+          ],
+          [
+            1,
             '[03:00] Post Captain - Patrick O\'Brian.epub (Post_Captain_split_008.html) - three in the morning',
             '\'Just as well: I know the West Indian waters and the Mediterranean better than these. Now I want you to lay the sloop half a mile off Gris Nez at <<three in the morning|5>>, the steeple bearing north fifty-seven east and the tower on the cliff south sixty-three east.\'',
           ],
           [
             1,
-            '[ap < 04:00] Post Captain - Patrick O\'Brian.epub (Post_Captain_split_008.html) - Towards four',
-            '<<Towards four|9:1>> bells in the middle watch Jack came on deck: the Polychrest was lying to under foretopsail and mizen, bowing the swell with her odd nervous lift and jerk. The night was still sharp and clear, bright moonlight, and eastwards a pale host of stars - Altair rising over the dark mass of Cap Gris Nez under the starboard quarter.',
+            '[b 22:00] Post Captain - Patrick O\'Brian.epub (Post_Captain_split_008.html) - Towards four bells',
+            '<<Towards four bells|15>> in the middle watch Jack came on deck: the Polychrest was lying to under foretopsail and mizen, bowing the swell with her odd nervous lift and jerk. The night was still sharp and clear, bright moonlight, and eastwards a pale host of stars - Altair rising over the dark mass of Cap Gris Nez under the starboard quarter.',
           ],
           [
             1,
@@ -131,13 +141,38 @@ $VAR1 = [
           ],
           [
             1,
+            '[b 22:30] Post Captain - Patrick O\'Brian.epub (Post_Captain_split_008.html) - Five bells',
+            '<<Five bells|15>>: he checked their position, bringing the bearing-compass on to the steeple and the tower. The dirty weather in the north-west was skirting the Great Bear now. <<Six bells|15>>, and the blue light soared up, burst, and drifted away to leeward, lighting all their upturned faces with an unnatural emphasis - open mouths, mindless wonder.',
+          ],
+          [
+            1,
+            '[b 23:30] Post Captain - Patrick O\'Brian.epub (Post_Captain_split_008.html) - Seven bells',
+            '<<Seven bells|15>>. Three well-lit ships passed out at sea, running down the Channel - neutrals, of course. <<Eight bells|15>>, and the changing watch found the Polychrest still there. \'Take her out into the offing, Mr Parker,\' said Jack. \'Sink the land entirely, making as little southing as ever you can. We must be here again tomorrow night.\'',
+          ],
+          [
+            1,
             '[ap < 11:00] Post Captain - Patrick O\'Brian.epub (Post_Captain_split_008.html) - Towards eleven o\'clock',
             'By morning the wind had shifted into the west-north-west, and the blue peter broke out at a hundred foretopmastheads: boats by the score hurried merchant captains, mates, passengers and their relatives from Sandwich, Walmer, Deal and even Dover, and many a cruel extortionate bargain was struck when the flagship\'s signals, reinforced by insistent guns, made it clear that time was short, that this time was the true departure. <<Towards eleven o\'clock|6>> the whole body, apart from those that had fallen foul of one another, was under way in three straggling divisions, or rather heaps. Orderly or disorderly, however, they made a splendid sight, white sails stretching over four or five miles of grey sea, and the high, torn sky sometimes as grey as the one or as white as the other. An impressive illustration of the enormous importance of trade to the island, too; one that might have served the Polychrest\'s midshipmen as a lesson in political economy and on the powers of the average seaman at evading the press - there were some thousands of them there, sailing unscathed from the very heart of the Impress Service.',
           ],
           [
             1,
             '[ap 01:09] Post Captain - Patrick O\'Brian.epub (Post_Captain_split_008.html) - one nine',
-            'But they, in common with the rest of the ship\'s company, were witnessing punishment. The grating was rigged, the bosun\'s mates stood by, the master-at-arms brought up his delinquents, a long tally charged with drunkenness - gin had been coming aboard from the bum-boats, as it always did - contempt, neglect of duty, smoking tobacco outside the galley, playing dice, theft. On these occasions Jack always felt gloomy, displeased with everybody aboard, innocent and guilty alike: he looked tall, cold, withdrawn, and, to those under his power, his nearly absolute power, horribly savage, a right hard horse. This was early in the commission and he had to establish an unquestioning discipline; he had to support his officers\' authority. At the same time he had to steer fine between self-defeating harshness and (although indeed some of these charges were trivial enough, in spite of his words with Parker) fatal softness; and he had to do so without really knowing three quarters of his men. It was a difficult task, and his face grew more and more lowering. He imposed extra duties, cut grog for three days, a week, a fortnight, awarded four men six lashes apiece, <<one nine|9j>>, and the thief a dozen. It was not much, as flogging went; but in the old Sophie they had sometimes gone two months and more without bringing the cat out of its red baize bag: it was not much, but even so it made quite a ceremony, with the relevant Articles of War read out, the drum-roll, and the gravity of a hundred men assembled.',
+            'But they, in common with the rest of the ship\'s company, were witnessing punishment. The grating was rigged, the bosun\'s mates stood by, the master-at-arms brought up his delinquents, a long tally charged with drunkenness - gin had been coming aboard from the bum-boats, as it always did - contempt, neglect of duty, smoking tobacco outside the galley, playing dice, theft. On these occasions Jack always felt gloomy, displeased with everybody aboard, innocent and guilty alike: he looked tall, cold, withdrawn, and, to those under his power, his nearly absolute power, horribly savage, a right hard horse. This was early in the commission and he had to establish an unquestioning discipline; he had to support his officers\' authority. At the same time he had to steer fine between self-defeating harshness and (although indeed some of these charges were trivial enough, in spite of his words with Parker) fatal softness; and he had to do so without really knowing three quarters of his men. It was a difficult task, and his face grew more and more lowering. He imposed extra duties, cut grog for three days, a week, a fortnight, awarded four men six lashes apiece, <<one nine|9j:0>>, and the thief a dozen. It was not much, as flogging went; but in the old Sophie they had sometimes gone two months and more without bringing the cat out of its red baize bag: it was not much, but even so it made quite a ceremony, with the relevant Articles of War read out, the drum-roll, and the gravity of a hundred men assembled.',
+          ],
+          [
+            1,
+            '[b 22:30] Post Captain - Patrick O\'Brian.epub (Post_Captain_split_009.html) - five bells',
+            'But the Polychrest had little time for attending to the convoy as it disappeared, for this was Thursday, and the people were to be mustered. Scarcely had she steadied on her new course before <<five bells|15>> in the forenoon watch struck and the drum began to beat: the crew came hurrying aft and stood in a cluster abaft the mainmast on the larboard side. They had all been aboard some time now, and they had been mustered again and again; but some were still so stupid that they had to be shoved into place by their mates. However, by this time they were all decently dressed in the purser\'s blue shirts and white trousers; none showed the ghastly pallor of gaol or sea-sickness any more, and indeed the enforced cleanliness, the sea-air and the recent sun had given most the appearance of health. The food might have done something, too, for it was at least as good as that which many of them had been eating, and more plentiful.',
+          ],
+          [
+            1,
+            '[b 0:00] Post Captain - Patrick O\'Brian.epub (Post_Captain_split_009.html) - Eight bells',
+            '<<Eight bells|15>> in the afternoon watch, and the sun pouring down on the busy deck. \'Shall I pipe the hands to supper, sir?\' asked Pullings.',
+          ],
+          [
+            1,
+            '[b 0:00] Post Captain - Patrick O\'Brian.epub (Post_Captain_split_009.html) - eight bells',
+            '\'They must be getting the cap over,\' said Stephen\'s patient in the sick-bay, a young topman. \'Oh, sir, I wish I was there He\'ll splice the mainbrace for sure - it was night on <<eight bells|15>> when you come below.\'',
           ],
           [
             1,
@@ -146,8 +181,18 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap < 08:00] Post Captain - Patrick O\'Brian.epub (Post_Captain_split_009.html) - Just before eight',
-            '<<Just before eight|10>> bells in the first watch Pullings came on deck, pushing a yawning, bleary-eyed Parslow before him.',
+            '[b 0:00] Post Captain - Patrick O\'Brian.epub (Post_Captain_split_009.html) - Just before eight bells',
+            '<<Just before eight bells|15>> in the first watch Pullings came on deck, pushing a yawning, bleary-eyed Parslow before him.',
+          ],
+          [
+            1,
+            '[b 21:00] Post Captain - Patrick O\'Brian.epub (Post_Captain_split_009.html) - two bells',
+            '\'You are a good relief, Mr Pullings,\' said the master. \'I shall be right glad to turn in.\' He caught the yawn from the midshipman, gaped enormously and went on, \'Well, here you have her. Courses, main and fore tops\'ls, forestays\'l and jib. Course nor-nor-east, to be altered due east at <<two bells|15>>. Captain to be called if you sight any sail. Oh, my dear cot, how she calls. A good night to you, then. That child could do with a bucket of water over him,\' he added, moving towards the hatchway.',
+          ],
+          [
+            1,
+            '[b 0:00] Post Captain - Patrick O\'Brian.epub (Post_Captain_split_009.html) - Eight bells',
+            '<<Eight bells|15>>. It would be light before very long. \'Mr Pullings, keep the watch on deck. In main and mizen topsails. Mr Parker, good morning to you. Let the galley fires be lit at once, if you please: the hands will go to breakfast as soon as possible - a substantial breakfast, Mr. Parker. Rouse up the idlers. And then you may begin to clear the ship for action: we will beat to quarters at <<two bells|15>>. Where are the relief midshipmen? Quartermaster, go cut down their hammocks this instant. Pass the word for the gunner. Now, sir,\' - to the appalled Rossall and Babbington - \'what do you mean by this vile conduct? Not appearing on deck in time for your watch? Nightcaps, dirty faces, by God! You are unwashed idle lubbers, both of you. Ah, Mr Rolfe, there you are: how much powder have you filled?\'',
           ],
           [
             1,
@@ -166,8 +211,23 @@ $VAR1 = [
           ],
           [
             1,
+            '[b 0:00] Post Captain - Patrick O\'Brian.epub (Post_Captain_split_010.html) - eight bells',
+            '\'I follow them best when I do not attend at all,\' observed Stephen. \'When I do not strain, or try to isolate any word. It is the child in long clothes that understands, myself in Cahirciveen. They are of the opinion that we shall anchor in the Downs before <<eight bells|15>>. I hope they are right; I hope I find Dundas.\'',
+          ],
+          [
+            1,
             '[ap 06:30] Post Captain - Patrick O\'Brian.epub (Post_Captain_split_010.html) - half past six',
             'Discretion was of first importance in these matters, and Heneage Dundas, knowing how public a spoken word might be in a crowded sloop, had written his message on a piece of paper. \'Will <<half past six|10>> on Saturday suit? In the dunes. I will come for you.\' He handed the paper, with a grave, meaning look. Stephen glanced at it, nodded, and said, \'Perfect. I am obliged to you. Will you give me a lift ashore? I should spend tomorrow in Deal, should I not? Perhaps you would be so very kind as to mention it to Captain Aubrey.\'',
+          ],
+          [
+            1,
+            '[b 23:00] Post Captain - Patrick O\'Brian.epub (Post_Captain_split_011.html) - six bells',
+            '\'Mr Parker, we have a mutiny on our hands. I intend to take the Polychrest into action at the earliest possible moment, by way of dealing with the situation. We shall crowd sail to reach Chaulieu tonight. But before making sail I shall speak to the men. Let the gunner load the two aftermost guns with grape. The officers are to assemble on the quarterdeck at <<six bells|15>> - in ten minutes - with their side-arms. The Marines will fall in with their muskets on the fo\'c\'sle. No hurry or concern will be shown before that time. When all hands are called the guns will be traversed for\'ard, with an oldster standing by each one. When I have spoken to the hands and we make sail, no man is to be struck or started until further orders.\'',
+          ],
+          [
+            1,
+            '[b 23:00] Post Captain - Patrick O\'Brian.epub (Post_Captain_split_011.html) - Six bells',
+            'He looked at his watch, put on his best coat, and walked on to the quarterdeck. <<Six bells|15>> in the forenoon watch. His officers were gathering round him, silent, very grave.',
           ],
           [
             1,
@@ -211,8 +271,18 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 06:00] Post Captain - Patrick O\'Brian.epub (Post_Captain_split_012.html) - six',
-            '\'Gentlemen,\' said Jack, as the last stroke of <<six|12>> bells in the afternoon watch was struck and his guests arrived, \'you are very welcome. I am afraid we may have to sit a little close, but for the moment my friend is engaged in a philosophical experiment aft. Killick, tell the Doctor we hope to see him when he is at leisure. Go on,\' he muttered, clenching his fist secretly and vibrating his head at the steward. \'Go on, I say: you can call through the door.\'',
+            '[b 23:00] Post Captain - Patrick O\'Brian.epub (Post_Captain_split_012.html) - six bells',
+            '\'Thank you, Mr Simmons. Gentlemen, good morning to you. Mr Simmons, pray be so good as to name the officers.\' Bows, civil mutterings. They were youngish men, except for the purser and the chaplain; a pleasant-looking set, but reserved and politely distant. \'Very well,\' said Jack to the first lieutenant, \'we will muster the ship\'s company at <<six bells|15>>, if you please, and I shall read myself in then.\' Leaning over the side he called, \'Dr Maturin, will you not come aboard?\' Stephen was no more of a mariner now than he had been at the outset of his naval career, and it took him a long moment to clamber snorting up the frigate\'s side, propped by the agonized Killick, a moment that increased the attentive quarterdeck\'s sense of expectation. \'Mr Simmons,\' said Jack, fixing him with a hard, savage eye, \'this is my friend Dr Maturin, who will be accompanying me. Dr Maturin, Mr Simmons, the first lieutenant of the Lively.\'',
+          ],
+          [
+            1,
+            '[b 23:00] Post Captain - Patrick O\'Brian.epub (Post_Captain_split_012.html) - six bells',
+            '\'Indeed there was,\' said Stephen. \'Several buckets full.\' Mr Randall skipped again, and asked whether it would be long to <<six bells|15>>. \'George Rogers was in a horrid passion, sir,\' he added. \'He called Joe Brown a Dutch galliot-built bugger, and damned his eyes twice: I heard him. Should you like to hear me recite the points of the compass without a pause, sir? There is my Papa beckoning. Goodbye, sir.\'',
+          ],
+          [
+            1,
+            '[b 23:00] Post Captain - Patrick O\'Brian.epub (Post_Captain_split_012.html) - six bells',
+            '\'Gentlemen,\' said Jack, as the last stroke of <<six bells|15>> in the afternoon watch was struck and his guests arrived, \'you are very welcome. I am afraid we may have to sit a little close, but for the moment my friend is engaged in a philosophical experiment aft. Killick, tell the Doctor we hope to see him when he is at leisure. Go on,\' he muttered, clenching his fist secretly and vibrating his head at the steward. \'Go on, I say: you can call through the door.\'',
           ],
           [
             1,
@@ -223,6 +293,11 @@ $VAR1 = [
             1,
             '[00:00] Post Captain - Patrick O\'Brian.epub (Post_Captain_split_013.html) - midnight',
             '\'An elegant hand,\' said Stephen, as he stood to consider it. \'The moon has set, and the Pleiades; <<midnight|13>> is gone; the how\' wear by, and here I lie alone: alone. Perhaps and here I, Sappho, lie alone, to give the sex. No. The sex is immaterial. It is the same for both.\'',
+          ],
+          [
+            1,
+            '[b 23:30] Post Captain - Patrick O\'Brian.epub (Post_Captain_split_013.html) - seven bells',
+            '\'You speak ironically, no doubt. But this is a striking instance of sagacity in bees. I feed them with a syrup of cocoa and sugar. They connect the scent of cocoa with their nourishment. They discover a new source of cocoa-scent; they busily communicate this discovery to their fellows, together with its location, and there you have the whole situation - as satisfactory a proof as you could wish to see. Tomorrow I hope the gun-room will note down the time of their first appearance. I bet you a considerable sum of money that it will be within ten minutes either side of <<seven bells|15>>, the moment at which they were first fed.\'',
           ],
           [
             1,
@@ -246,8 +321,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 02:00] Post Captain - Patrick O\'Brian.epub (Post_Captain_split_014.html) - two',
-            'At <<two|9t:1>> bells in the middle watch the wind, which had been blowing fitfully from the south-west, backed suddenly into the north, hurling itself against the mountainous swell with tripled force - thunder just overhead, lightning, and such a deluge of rain that a storm-lantern on the forecastle could not be seen from the quarterdeck. The maintopimast staysail blew out of its boltrope, vanishing ghostly to leeward in pale strips of cloth Jack sent more hands to the wheel, rigged relieving-tackles, and came into the cabin, where Stephen lay swinging in his cot, to tell him that it was coming on to blow.',
+            '[b 21:00] Post Captain - Patrick O\'Brian.epub (Post_Captain_split_014.html) - two bells',
+            'At <<two bells|15>> in the middle watch the wind, which had been blowing fitfully from the south-west, backed suddenly into the north, hurling itself against the mountainous swell with tripled force - thunder just overhead, lightning, and such a deluge of rain that a storm-lantern on the forecastle could not be seen from the quarterdeck. The maintopimast staysail blew out of its boltrope, vanishing ghostly to leeward in pale strips of cloth Jack sent more hands to the wheel, rigged relieving-tackles, and came into the cabin, where Stephen lay swinging in his cot, to tell him that it was coming on to blow.',
           ],
           [
             1,

@@ -1,11 +1,6 @@
 $VAR1 = [
           [
             1,
-            '[05:00] The Immortal Life of Henrietta Lacks - Rebecca Skloot.epub (OEBPS/Sklo_9780307589385_epub_ack_r1.htm) - 5:00 A.M.',
-            "Special thanks to Ethan Skerry and Lowenstein Sandler PC for the pro bono work they did to help me establish the Henrietta Lacks Foundation. Thanks to the University of Memphis for a grant that helped with final research and fact-checking for this book. I\x{2019}m grateful to both my students and colleagues, particularly Kristen Iversen and Richard Bausch, wonderful teachers, writers, and friends. Special thanks to John Cal de-razzo and Lee Gutkind for more than a decade of encouragement, support, and close friendship. John realized I was a writer long before I did, and has always been an inspiration. Lee taught me to care deeply about story structure and gave me entr\x{e9}e into the worlds of professional writing, and working at <<5:00 A.M.|2a>> Many thanks also to Donald Defler, for introducing me to Henrietta, and teaching biology with passion.",
-          ],
-          [
-            1,
             '[20:09] The Immortal Life of Henrietta Lacks - Rebecca Skloot.epub (OEBPS/Sklo_9780307589385_epub_bm1_r1.htm) - 2009',
             "Cliff Garret, Henrietta\x{2019}s cousin, lived in his farmhouse in Clover until <<2009|9c:0>>, when his failing health required him to move in with his son in Richmond, Virginia, where he currently lives.",
           ],
@@ -36,6 +31,11 @@ $VAR1 = [
           ],
           [
             1,
+            '[15:00] The Immortal Life of Henrietta Lacks - Rebecca Skloot.epub (OEBPS/Sklo_9780307589385_epub_c06_r1.htm) - fifteen',
+            "\x{201c}She died at <<fifteen|9g>>, soon after Henrietta\x{2019}s death. Deborah is the only daughter left,\x{201d} he said. \x{201c}She came near a stroke recently because of the agony she\x{2019}s gone through regarding inquiries into her mother\x{2019}s death and those cells. I won\x{2019}t be a part of anyone doing that to her again.\x{201d}",
+          ],
+          [
+            1,
             '[19:51] The Immortal Life of Henrietta Lacks - Rebecca Skloot.epub (OEBPS/Sklo_9780307589385_epub_c07_r1.htm) - 1951',
             "Either way, by <<1951|9:0>>, when Henrietta Lacks\x{2019}s cells began growing in the Gey lab\x{2014}just five years after the widely publicized \x{201c}death\x{201d} of Carrel\x{2019}s chicken heart\x{2014}the public image of immortal cells was tarnished. Tissue culture was the stuff of racism, creepy science fiction, Nazis, and snake oil. It wasn\x{2019}t something to be celebrated. In fact, no one paid much attention to it at all.",
           ],
@@ -53,7 +53,7 @@ $VAR1 = [
             1,
             '[00:15] The Immortal Life of Henrietta Lacks - Rebecca Skloot.epub (OEBPS/Sklo_9780307589385_epub_c11_r1.htm) - 12:15 a.m.',
             "\x{201c}Henrietta gonna die tonight,\x{201d} she told him. \x{201c}She wants you to take care of them kids\x{2014}I told her I\x{2019}d let you know. Don\x{2019}t let nuthin happen to them.\x{201d}
-Henrietta died at <<12:15 a.m.|2a>> on October 4, 1951.",
+Henrietta died at <<12:15 a.m.|9g>> on October 4, 1951.",
           ],
           [
             1,
@@ -124,15 +124,5 @@ Henrietta died at <<12:15 a.m.|2a>> on October 4, 1951.",
             1,
             '[~ 08:00] The Immortal Life of Henrietta Lacks - Rebecca Skloot.epub (OEBPS/Sklo_9780307589385_epub_c37_r1.htm) - around eight in the morning',
             "I called Deborah <<around eight in the morning|9h>>, saying I was leaving my home in Pittsburgh, and headed to the conference in Washington, D.C. Less than an hour later, the first plane hit the World Trade Center. A reporter friend called my cell phone and told me the news, saying, \x{201c}Don\x{2019}t go to D.C., it\x{2019}s not safe.\x{201d} I turned my car around as the second plane hit, and by the time I got home, the TV was filled with footage of the Pentagon\x{2019}s wreckage and buildings throughout D.C. being evacuated, including the Ronald Reagan Building, where the conference reception to honor Henrietta was supposed to be held.",
-          ],
-          [
-            1,
-            '[ap 04:09] The Immortal Life of Henrietta Lacks - Rebecca Skloot.epub (OEBPS/Sklo_9780307589385_epub_nts_r1.htm) - 0409',
-            "Information here and in later chapters regarding segregation at Johns Hopkins came from interviews as well as from Louise Cavagnaro, \x{201c}The Way We Were,\x{201d} Dome 55, no. 7 (September 2004), available at hopkinsmedicine.org/dome/<<0409|18:0>>/feature1.cfm; Louise Cavagnaro, \x{201c}A History of Segregation and Desegregation at The Johns Hopkins Medical Institutions,\x{201d} unpublished manuscript (1989) at the AMCMA; and \x{201c}The Racial Record of Johns Hopkins University,\x{201d} Journal of Blacks in Higher Education 25 (Autumn 1999).",
-          ],
-          [
-            1,
-            '[ap 01:08] The Immortal Life of Henrietta Lacks - Rebecca Skloot.epub (OEBPS/Sklo_9780307589385_epub_nts_r1.htm) - 1:08',
-            "For a sampling of Cofield\x{2019}s long legal history, see Sir Keenan Kester Cofield v. ALA Public Service Commission et al. (No. 89\x{2013}7787); United States of America v. Keenan Kester Cofield (No. 91\x{2013}5957); Cofield v. the Henrietta Lacks Health History Foundation, Inc., et al. (CV-97\x{2013}33934); United States of America v. Keenan Kester Cofield (99\x{2013}5417); and Keenan Kester Cofield v. United States (<<1:08|2>>-mc-001 10-UNA).",
           ],
         ];

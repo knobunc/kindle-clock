@@ -6,10 +6,15 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap > 05:00] The Reverse of the Medal - Patrick O\'Brian.epub (The_Reverse_Of_The_Medal_split_001.html) - just after five',
+            '[b 22:30] The Reverse of the Medal - Patrick O\'Brian.epub (The_Reverse_Of_The_Medal_split_001.html) - just after five bells',
             'Stephen mounted the Irresistible\'s various ladders, losing his way once or twice but emerging at last into the brilliant light of the quarterdeck. He stood blinking for a while, and then, putting on his blue spectacles, he saw that the larboard side of the ship was crowded with bumboats and returning liberty-men. The flag-lieutenant was leaning over the rail, chewing a piece of sugar-cane and bargaining for a basket of limes, a basket of guavas, an enormous pine-apple; when these had been hoisted aboard Stephen said to him, \'William Richardson, joy, will you tell me where the Captain is, now?\'
-\'Why, Doctor, be went back to the ship <<just after five|10>> bells.\'
-\'Five bells,\' repeated Stephen. \'Sure, he said something about five bells. I shall be reproved for unpunctuality again. Oh, oh. What shall I do?\'',
+\'Why, Doctor, be went back to the ship <<just after five bells|15>>.\'
+\'<<Five bells|15>>,\' repeated Stephen. \'Sure, he said something <<about five bells|15>>. I shall be reproved for unpunctuality again. Oh, oh. What shall I do?\'',
+          ],
+          [
+            1,
+            '[b 22:30] The Reverse of the Medal - Patrick O\'Brian.epub (The_Reverse_Of_The_Medal_split_001.html) - Five bells',
+            '\'<<Five bells|15>>,\' repeated Stephen. \'Sure, he said something <<about five bells|15>>. I shall be reproved for unpunctuality again. Oh, oh. What shall I do?\'',
           ],
           [
             1,
@@ -38,13 +43,18 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 04:00] The Reverse of the Medal - Patrick O\'Brian.epub (The_Reverse_Of_The_Medal_split_003.html) - four',
-            'At <<four|9t:1>> bells in the middle watch the breeze hauled a little forward, so that Jack filled the mainsail, but apart from that both ships raced over the sea with never a change, as though they were running in a timeless dream.',
+            '[b 22:00] The Reverse of the Medal - Patrick O\'Brian.epub (The_Reverse_Of_The_Medal_split_003.html) - four bells',
+            'At <<four bells|15>> in the middle watch the breeze hauled a little forward, so that Jack filled the mainsail, but apart from that both ships raced over the sea with never a change, as though they were running in a timeless dream.',
           ],
           [
             1,
             '[02:00] The Reverse of the Medal - Patrick O\'Brian.epub (The_Reverse_Of_The_Medal_split_003.html) - two in the morning',
             '\'Oh no, sir.\' Stephen was a bad sleeper, but he disapproved of the habitual use of soporifics on medical and moral grounds and he usually delayed the taking of his pill or draught until <<two in the morning|5>>, so that he was rarely to be seen before eight or <<nine o\'clock|6>>.',
+          ],
+          [
+            1,
+            '[b 21:00] The Reverse of the Medal - Patrick O\'Brian.epub (The_Reverse_Of_The_Medal_split_003.html) - two bells',
+            'A solid packet of water sweeping from aft soaked him as he hurried, bent low, along the gangway, but he hardly noticed it: the air was full of flying spindrift, and it looked as though they were in for a thoroughly dirty night. He had already shifted sail for the shift of wind, and she had a fine press of canvas: as the reefs came out of the maintopsail she heeled still farther, so that the deck sloped another five degrees, and his hand automatically reached out for the backstay: there was a pure keen delight in this flying speed, the rushing air, and the taste of sea in his mouth. He was not the only one to appreciate it, either: the four men at the wheel and the quartermaster at the con had the same expression of grave pleasure; and when <<two bells|15>> in the first dog-watch struck a few moments later the midshipman who heaved the log reported \'Eleven and a half knots exactly, sir, if you please,\' with a look of perfect bliss. And certainly. although the difference between two knots and three was neither here nor there, at this pace even half a knot more made an immense change in the feeling of speed: it was also very hard to attain. But <<two bells|15>> already: that meant there was precious little daylight left; it would be a damned near-run thing, if indeed it could be done at all. And now in his glass he saw the Spartan starting her water over the side, two thick jets of it flying to leeward, relieving her of many tons.',
           ],
           [
             1,
@@ -132,6 +142,11 @@ $VAR1 = [
             1,
             '[ap 00:00] The Reverse of the Medal - Patrick O\'Brian.epub (The_Reverse_Of_The_Medal_split_009.html) - twelve',
             '\'Pillory,\' said Stephen in a hard, cold voice. \'Fine and the pillory. Shall pay the King a fine of two thousand five hundred pounds and be set in and upon the pillory opposite the Royal Exchange in the City of London for one hour between the hours of <<twelve|20>> at <<noon|13>> and <<two in the afternoon|5>>.\'',
+          ],
+          [
+            1,
+            '[b 0:00] The Reverse of the Medal - Patrick O\'Brian.epub (The_Reverse_Of_The_Medal_split_009.html) - Eight bells',
+            'Saint Paul\'s and the City churches had tolled twelve some five or ten minutes ago and the crowd in Cornhill was becoming impatient. \'<<Eight bells|15>>,\' cried some. \'<<Eight bells|15>>, there. Turn the glass and strike the bell.\'',
           ],
           [
             1,

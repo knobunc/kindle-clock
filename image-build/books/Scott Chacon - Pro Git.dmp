@@ -96,18 +96,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 09:52] Pro Git - Scott Chacon.epub (OEBPS/ch05-distributed-git.xhtml) - 8 to 10',
-            "The git describe command favors annotated tags (tags created with the -a or -s flag), so release tags should be created this way if you\x{2019}re using git describe, to ensure the commit is named properly when described. You can also use this string as the target of a checkout or show command, although it relies on the abbreviated SHA-1 value at the end, so it may not be valid forever. For instance, the Linux kernel recently jumped from <<8 to 10|10a:0>> characters to ensure SHA-1 object uniqueness, so older git describe output names were invalidated.",
-          ],
-          [
-            1,
             '[18:32] Pro Git - Scott Chacon.epub (OEBPS/ch07-git-tools.xhtml) - 18:32',
             '$ git log commit 734713bc047d87bf7eac9674765ae793478c50d3 Author: Scott Chacon <schacon@gmail.com> Date: Fri Jan 2 <<18:32|2>>:33 2009 -0800 fixed refs handling, added gc auto, updated tests commit d921970aadf03b3cf0e71becdaab3147ba71cdef Merge: 1c002dd... 35cfb2b... Author: Scott Chacon <schacon@gmail.com> Date: Thu Dec 11 <<15:08|2>>:43 2008 -0800 Merge commit \'phedders/rdocs\' commit 1c002dd4b536e7479fe34593e72e6c6c1819e53b Author: Scott Chacon <schacon@gmail.com> Date: Thu Dec 11 <<14:58|2>>:32 2008 -0800 added some blame and merge stuff',
-          ],
-          [
-            1,
-            '[ap 09:52] Pro Git - Scott Chacon.epub (OEBPS/ch07-git-tools.xhtml) - eight to ten',
-            'Generally, <<eight to ten|10a:0>> characters are more than enough to be unique within a project. For example, as of June 2018, the Linux kernel (which is a fairly sizable project) has over 700,000 commits and almost six and a half million objects in its object database, with no two objects whose SHA-1s are identical in the first 11 characters.',
           ],
           [
             1,

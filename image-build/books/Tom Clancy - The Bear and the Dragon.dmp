@@ -57,7 +57,7 @@ $VAR1 = [
           [
             1,
             '[ap ~ 05:04] The Bear and the Dragon - Tom Clancy.epub (OEBPS/part21_split_001.xhtml) - about five-four',
-            "\x{201c}That's the one. Short, <<about five-four|9j>>, <<one fifty-five|9j>>, pudgy, short hair, about forty-five or so.\x{201d}",
+            "\x{201c}That's the one. Short, <<about five-four|9j:0>>, <<one fifty-five|9j>>, pudgy, short hair, about forty-five or so.\x{201d}",
           ],
           [
             1,
@@ -516,7 +516,7 @@ The Politburo meeting had gone <<past midnight|13>>.
           [
             1,
             '[ap 07:00] The Bear and the Dragon - Tom Clancy.epub (OEBPS/part62_split_001.xhtml) - 0700',
-            "There was only one place for them to go, Tiananmen Square, the \x{201c}Square of Heavenly Peace,\x{201d} the psychological center of their country, and they were drawn there like iron filings to a magnet. The time of day worked for them. The police in Beijing, like police everywhere, worked twenty-four-hour days divided into three unequal shifts, and the shift most lightly manned was that from 2300 to <<0700|18:1>>. Most people were asleep then, and as a direct result there was little crime to suppress, and so this shift was the smallest in terms of manning, and also composed of those officers loved the least by their commanders, because no man in his right mind prefers the vampire life of wakefulness in darkness to that in the light of day. And so the few police on duty were those who had failed to distinguish themselves in their professional skills, or were disliked by their captains, and returned the compliment by not taking their duties with sufficient gravity.",
+            "There was only one place for them to go, Tiananmen Square, the \x{201c}Square of Heavenly Peace,\x{201d} the psychological center of their country, and they were drawn there like iron filings to a magnet. The time of day worked for them. The police in Beijing, like police everywhere, worked twenty-four-hour days divided into three unequal shifts, and the shift most lightly manned was that from 2300 to <<0700|18:0>>. Most people were asleep then, and as a direct result there was little crime to suppress, and so this shift was the smallest in terms of manning, and also composed of those officers loved the least by their commanders, because no man in his right mind prefers the vampire life of wakefulness in darkness to that in the light of day. And so the few police on duty were those who had failed to distinguish themselves in their professional skills, or were disliked by their captains, and returned the compliment by not taking their duties with sufficient gravity.",
           ],
           [
             1,
