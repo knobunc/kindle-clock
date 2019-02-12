@@ -72,9 +72,6 @@ prove t/*pl -j 8
 y9n- Never.     until 1543                           These deliberately never match
 9o - Strong.    tomorrow at one
 9p - Strong.    13.40.                               Some minor rough edges
-
-
-Need to match:
---------------
-
-"Who at this hour? Three, good Heavens! <<Three already>>!"
+9q - Weak.      make it five,
+y9r- Strong.    young boy, about eleven or twelve,   These deliberately never match
+9s - Strong.    Daily, about eleven,
