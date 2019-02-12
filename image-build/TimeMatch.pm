@@ -506,6 +506,8 @@ sub do_match {
                | ( $twas_re | at | what ) \s+ time
                | ( there | here ) \s+ from
                | ( died ) \s+ $rel_at_words
+               | when \s+ do
+               | when $sq s \s+ our
 #               | ( return | returned | back ) \s+ $rel_at_words
                | reported | reports
                | station ($hy master)?
@@ -846,7 +848,7 @@ sub get_masks {
     push @r,qr{ (?<t1>
                   \b
                   ( (?<no> \d+ [:.] )?              # Don't match times
-                    ( \d+ \s* )+                    # Street numbers
+                    ( \d+ \s* )+ ,?                 # Street numbers
                     ( \w | \# \d+ )? \s+            # Apartment number / letter
                   | ( $min_word_re ($hy|\s)+ )+     # Street words
                     ( ( \w | \# \d+ ) \s+ )?        # Apartment number / letter
@@ -1118,7 +1120,7 @@ sub get_matches {
                      at \s+
                    )
                    (?<t1> ( $rel_words \s+ )?
-                     (?<hm> $hour24_re ( ($hy|[.:\s])* $min0_re )? )
+                     (?<hm> $hour24_re ( ($hy|[.:\s])* $min0_re )? (*SKIP) )
                      (?! $never_follow_times_re )
                      ( ($hy|\s)+ $oclock_re )?
                      (?<ap> $ampm_ph_re )?
@@ -1383,6 +1385,7 @@ sub get_matches {
                   (?{ $branch = "9j";
                     # This needs more indication that it is timey
                     my ($hh, $mm, $ap) = @+{qw( hh mm ap )};
+# XXX Disabled first case
                     if (0 and not $ap and $hh =~ m{\A one \z}xin and $mm =~ m{\A (one | two) \z}xin) {
                         $branch = "9j:0";
                     }
@@ -1430,6 +1433,21 @@ sub get_matches {
                 )
                 $ba_re
                 (?{ $branch = "21"; })
+              }xin;
+
+    # Nautical bell times
+    push @r,qr{ \b
+                (?<t1>
+                  ( $rel_words \s+ )?
+                  (?<bell> $hour_re ) \s+ bell s?
+                )
+                $ba_re
+                (?{ $branch = "15";
+                    my $bell = eval { min2num($+{bl}); } || 0;
+                    if ($bell < 1 or $bell > 8) {
+                        $branch = "xx";
+                    }
+                  })
               }xin;
 
     # Struck / strikes
@@ -1651,7 +1669,7 @@ sub get_matches {
                   ( ( at | upon | till | until ) \s+ )?
                 )
                 (?<t1> ( $rel_words \s+ )?
-                  $hour12_word_re ( ( $hy | [:.] | \s+ )? $min_word_re )?
+                  $hour12_word_re ( ( $hy | [:.] | \s+ )? (?<mn> $min_word_re ) )?
                 )
                 (?! $never_follow_times_re )
                 (?<po>
@@ -1660,8 +1678,8 @@ sub get_matches {
                 | \s+ ( and | $hy+ ) \s+
                 )
                 (?{ $branch = "9f";
-                    my ($ba) = @+{qw( ba )};
-                    if ($ba) {
+                    my ($ba, $mn) = @+{qw( ba mn )};
+                    if ($ba and (not $mn or $mn =~ m{\A $z_low_num_re \z}xin)) {
                         $branch = "9q:TIMEY";
                     }
                   })
@@ -1700,15 +1718,15 @@ sub get_matches {
                 )
                 (?<t1>
                   (?<rl> $rel_words \s+ )?
-                  (?<hr> $hour_dig_re ) $minsec0_dig_re ( $minsec0_dig_re )?
+                  (?<hr> $hour_dig_re ) (?<mm> $minsec0_dig_re) ( $minsec0_dig_re )?
                 )
                 (?<po>
                   ( $hy $minsec_dig_re )?
                   ( \s+ ( now | precisely | exactly ) )?
                   ( \z | $phrase_punc? $aq | $phrase_punc ( \s+ | \z ) | \s+ $hy+ \s+) )
                 (?{ $branch = "x9l";
-                    my ($pre, $post, $pr, $go, $rl, $hr, $po) =
-                        (${^PREMATCH}, ${^POSTMATCH}, @+{qw( pr go rl hr po )});
+                    my ($pre, $post, $pr, $go, $rl, $hr, $mm, $po) =
+                        (${^PREMATCH}, ${^POSTMATCH}, @+{qw( pr go rl hr mm po )});
                     if ($author eq 'Jeff VanderMeer') {
                         # Ignore these
                         # Need to better skip tables of contents
@@ -1720,12 +1738,23 @@ sub get_matches {
                     elsif ("$pre <<>> $post" =~
                                m{ ( look | seem) ( | s | ed ) \s+
                                   like \s+ a \s+ (year | date)
+                                | as \s+ if \s+ i \s+ had \s+ the \s+ date
                                 | said \s+ the
                                 | red \s+ numbers
                                 | postmark
-                                | knot | map | general | time
+                                | knot | map | general
                                 }xin
-                           or $pre =~ m{ \b around \b [^.]+ \z}xin
+                           # Not in a list of numbers
+                           and "$pre$pr"  !~ m{ $bb_re \d+ \,? ( \s+ and )? \s* \z}xin
+                           and "$po$post" !~ m{\A ,? \s* (and \s+)? \d+ $ba_re }xin
+                           )
+                    {
+                        $branch = "9l";
+                        if ("$hr$mm" =~ /^\d{1,3}$/) {
+                            $branch = "9l:TIMEY";
+                        }
+                    }
+                    elsif ($pre =~ m{ \b around \b [^.]+ \z}xin
                            or ($pr =~ /^\s*$/ and $po =~ /^\s*:/)
                            or $go
                           )
@@ -1741,7 +1770,6 @@ sub get_matches {
                     }
                   })
               }xinp;
-
 
     # Times at the start of a sentence
     # At ten, ...
@@ -1855,7 +1883,7 @@ sub get_matches {
     push @r,qr{ (?<pr>
                   ( \A | $aq | $phrase_punc \s+ )
                   (?<was> ( $twas_re | only | because | and | maybe | finally ,?) \s+)?
-                  (?<mod> ( already | nightly | daily ) ,? \s+ )?
+                  (?<mod> ( already | nightly | daily | $in_the_re ) ,? \s+ )?
                 )
                 (?<t1>
                   (?<rl> $rel_at_words | close \s+ upon | till | by ) \s+
@@ -1864,6 +1892,7 @@ sub get_matches {
                   )
                 )
                 (?! $never_follow_times_re
+                | -and-
                 | : \d
                 )
                 (?<po> (?<tr>
@@ -1874,14 +1903,15 @@ sub get_matches {
                                  ) \b
                        | \s* $hy+ \s+
                        | , \s+ (?! [^.]+ ( years | months ) )
+                       | \s* (?<good> lights-out)
                        )?
                 )?
                 $ba_re
                 (?{ $branch = "9:TIMEY";
-                    my ($was, $mod, $xx, $sep, $rl, $hh, $bw, $of, $tr) =
-                        @+{qw( was mod xx sep rl hh bw of tr )};
+                    my ($was, $mod, $xx, $sep, $rl, $hh, $bw, $of, $tr, $good) =
+                        @+{qw( was mod xx sep rl hh bw of tr good )};
 
-                    if (is_yearish($xx) and (not $rl or $rl =~ m{\A (until) \z}xin)) {
+                    if (is_yearish($xx) and (not $rl or (not $good and $rl =~ m{\A (until) \z}xin))) {
                         $branch = "y9n";
                     }
                     elsif ($sep and $xx !~ /[a-z]/i) {
@@ -1889,7 +1919,8 @@ sub get_matches {
                         $branch = "9:1";
                     }
                     elsif ($mod) {
-                        $branch = "9s";
+                        $branch = is_yearish($xx) ? "y9s" : "9s";
+
                     }
                     elsif ($bw) {
                         $branch = "9u";
@@ -1915,7 +1946,7 @@ sub get_matches {
                            $rl =~ m{\A $around_re \z}xin and
                            $hh =~ m{\A $hour_re \z}xin)
                     {
-                        $branch = "9r:0";
+                        $branch = "y9r";
                     }
                   })
               }xin;
@@ -1985,22 +2016,28 @@ sub get_matches {
                   ( ( $twas_re | only | just | the | probably ) \s+ )?
                 )
                 (?<t1>
-                  ( $rel_words \s+ )?
+                  (?<rel> $rel_words \s+ )?
                   $hour24_word_re ( ( \s+ | $hy ) $min_word_re ( $ampm_ph_re )? )?
                 )
                 (?<po>
                   ( $hy $minsec_dig_re )?
-                  ( \s+ ( now | precisely | exactly ) )?
+                  ( \s+ (?<go> now | precisely | exactly | already) )?
                   ( \z | $phrase_punc? $aq | $phrase_punc ( \s+ | \z ) | \s+ $hy+ \s+)
                 )
                     (?{ $branch = "9k:0";
-                        my ($pr, $po, $t1) = @+{qw( pr po t1 )};
+                        my ($pr, $po, $rel, $t1, $go) = @+{qw( pr po rel t1 go )};
                         if ( ( $po // '' ) =~ /now/i or
-                             ( $pr // '' ) =~ /now|hour/i )
+                             ( ( $pr // '' ) =~ /now|hour/i and
+                               ( $pr // '' ) !~ /at \s+ this \s+ /xi
+                             )
+                           )
                         {
-                            $branch = "9q";
+                            $branch = "x9y";
+                            if ($author eq 'James Joyce') {
+                                $branch = "9y";
+                            }
                         }
-                        elsif ($t1 =~ /$rel_words/i) {
+                        elsif ($rel or $go) {
                             $branch = "9k:TIMEY";
                         }
                         elsif ($is_timey) {
@@ -2533,11 +2570,16 @@ sub extract_times {
                 ( [:,]? \s+ (?<am> $ampm_re ) )?
                 (?{ $branch = "14"; })
 
+              | # Nautical bell times
+                ( (?<rl> $rel_at_words ) \s+ )?
+                  (?<bl> $hour_re ) \s+ bells?
+                (?{ $branch = "15"; })
+
               )
               \z}xin)
         {
             # Save the captured values
-            my @k = qw{ rl hr h2 mn m2 rl2 m3 n1 sec dir am branch };
+            my @k = qw{ rl hr h2 mn m2 rl2 m3 n1 sec dir am branch bl };
             my %c; @c{@k} = @+{@k};
             $c{branch} = $branch;
 
@@ -2549,12 +2591,24 @@ sub extract_times {
             my $sec  = defined $c{sec} ? 1 : 0;  # Seconds present?
             my $hour = $c{hr}  // 0;             # The base hour
             my $hr2  = $c{h2}  // 0;             # A relative hour
+            my $bl   = $c{bl};                   # Nautical bell times
             my $rel  = $c{rl}  // '';            # The relative phrase
             my $rel2 = $c{rl2} // '';            # A second relative phrase (or two)
             my $ampm = $c{am};                   # AM or PM?
             my $dir  = $c{dir} // '';            # Whether the time is before or after the base hour
 
             my $abs_hour = 0;
+
+            # Nautical times are special, handle them first
+            if (defined $bl) {
+                if ($bl =~ m{\A $midnight_noon_re \z}xin) {
+                    $hour = $bl;
+                }
+                else {
+                    push @times, get_bell_times($bl, $rel, $permute, \%c, \@k);
+                    next MATCH_LOOP;
+                }
+            }
 
             # Turn the hours into numbers
             if ($hour !~ /^\d+$/) {
@@ -2991,6 +3045,34 @@ sub get_spread {
     }
 
     confess "Can't parse rel '$rel'";
+}
+
+sub get_bell_times {
+    my ($bell, $rel, $permute, $c, $k) = @_;
+
+    $bell = min2num($bell);
+    confess "Bad bell $bell"
+        if $bell < 1 or $bell > 8;
+
+    # https://en.wikipedia.org/wiki/Ship%27s_bell
+    my %bell_times = #                           Dog
+        #         Middle  Morn  Fore After First Last  First
+        (1 => [qw(  0:30  4:30  8:30 12:30 16:30 18:30 20:30 )],
+         2 => [qw(  1:00  5:00  9:00 13:00 17:00 19:00 21:00 )],
+         3 => [qw(  1:30  5:30  9:30 13:30 17:30 19:30 21:30 )],
+         4 => [qw(  2:00  6:00 10:00 14:00 18:00       22:00 )],
+         5 => [qw(  2:30  6:30 10:30 14:30       18:30 22:30 )],
+         6 => [qw(  3:00  7:00 11:00 15:00       19:00 23:00 )],
+         7 => [qw(  3:30  7:30 11:30 15:30       19:30 23:30 )],
+         8 => [qw(  4:00  8:00 12:00 16:00       20:00  0:00 )],
+        );
+
+    my $c_str = make_c_str($c, $k);
+
+    my @times = map {"b $_: $c_str"} @{ $bell_times{$bell} };
+
+    # TODO Permute more...
+    return $permute ? @times : $times[-1];
 }
 
 sub shorten_book {

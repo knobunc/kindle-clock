@@ -110,6 +110,14 @@ sub check_matches {
                 my $rem = $columns - $fixed_size - length($timestr);
                 my $pre_len  = min(length($pre), int($rem / 2 + 0.5));
                 my $post_len = $rem - $pre_len;
+                if ($post_len > length($post)) {
+                    # There's space after, give it to the prefix
+                    my $adj = $post_len - length($post);
+                    $adj = min( $adj, length($pre) - $pre_len );
+
+                    $pre_len  += $adj;
+                    $post_len -= $adj;
+                }
                 $post .= ' 'x$columns;
 
                 printf("%s%5s⇨%5s%s: %s%s%s%s%s %s%8s%s %s%-8s%s\n",

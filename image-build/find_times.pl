@@ -94,7 +94,9 @@ sub search_zip {
     foreach my $member (sort {$a->fileName() cmp $b->fileName()} $zip->members()) {
         my $name = $member->fileName();
         push @members, $name;
-        next if $name !~ /\.([x]?html?|xml)$/;
+        next if $name !~ m{ \.([x]?html?|xml) \z}x;
+
+        next if $name =~ m{\A (.* / )? copyright \.([x]?html?|xml) \z}x;
 
         my $contents = $member->contents();
         utf8::decode($contents);
@@ -110,6 +112,62 @@ sub search_zip {
                                   | <!DOCTYPE \s+ html \s+ PUBLIC
                                   | \Q<html \E
                                   }x;
+
+        # See if this is the body of the work and skip if the heading indicates otherwise
+        if ($contents =~ m{ <h(?<hn>[123]) ( \s+ [^>]+)? > (?<title> .+?) </h \k<hn> >}xsin) {
+            my $title = $+{title};
+            $title =~ s{< /? [^>]+ >}{}sgix;
+            $title = XML::Entities::decode('all', $title);
+            $title =~ s{\R}{ }xg;
+            $title =~ s{\A \s+}{}xg;
+            $title =~ s{\s+ \z}{}xg;
+            $title =~ s{\s{2,}}{ }xg;
+
+            if ($title =~ m{\A
+                            ( About \s+ the \s+ ( Author | Publisher ) :?
+                            | About \s+ ${author}
+                            | Acknowledge?ments
+                            | Also \s+ by \s+ .+
+                            | Author['‘’´]s \s+ Note
+                            | Back \s+ ( Ad | Advertisment )
+                            | Bibliography
+                            | Books \s+ by \s+ .+
+                            | By \s+ the \s+ Same \s+ Author
+                            | Chronology
+                            | Contents
+                            | Copyright
+                            | Copyright \s+ ( Info | Information )
+                            | Credits
+                            | Dedication
+                            | Explanatory Notes
+                            | E-Book \s+ Extras
+                            | Index
+                            | Index \s+ of \s+ .+
+                            | List \s+ of \s+ .+
+                            | Meet \s+ the \s+ Author
+                            | Notes
+                            | Notes? \s+ on \s+ .+
+                            | Notes \s+ and \s+ Errata
+                            | Permissions
+                            | Permissions \s+ Acknowledge?ments
+                            | Praise \s+ for ( \s+ .+ )?
+                            | Select \s+ Bibliography
+                            | Selected \s+ Bibliography
+                            | Table \s+ of \s+ Contents
+                            | Teaser
+                            | Thank \s+ You \s+ For \s+ Buying .+
+
+                            # Specific exceptions
+                            | The \s+ Agatha \s+ Christie \s+ Collection
+                            | \Qwww.agathachristie.com\E
+                            )
+                            \z
+                           }xin)
+            {
+                next;
+            }
+        }
+
         $members_seen = 1;
 
         # We only want the body

@@ -61,6 +61,11 @@ $VAR1 = [
           ],
           [
             1,
+            '[ap 11:00] The Cuckoo\'s Egg_ Tracking a Spy Through t - Clifford Stoll.epub (Stoll, Clifford - The Cuckoo\'s Egg_split_14.htm) - 1060',
+            'The woman\'s voice came on. "It\'s <<1060|9l>>, all right. That\'s all, boys. I\'ll shuffle some tissues and ship it on upstairs."',
+          ],
+          [
+            1,
             '[ap ~ 06:00] The Cuckoo\'s Egg_ Tracking a Spy Through t - Clifford Stoll.epub (Stoll, Clifford - The Cuckoo\'s Egg_split_16.htm) - Around six',
             'High school had just let out in June of 1968 when I biked over to Windmill Quarry for a Saturday swim. Two other friends and I wore ourselves out trying to swim to the raft in the middle of the water. <<Around six|9u>>, we ran out of steam, hopped on our bikes, and headed back to Buffalo.',
           ],
@@ -329,35 +334,7 @@ Last login: Mon Dec 29 <<13:31|2>>:43 on ttyi7
 4.2 BSD UNIX #20: Fri Aug 22 <<20:08|2>>:16 PDT 1986
 Z
 % telnet                 He\'s going out over the Milnet
-telnet> open Optimis     And into the Optimis Army Database
-******OPTIMIS******
-For user assistance, call 698-5772, (AV)228
-Username: ANONYMOUS      He logs in there as anonymous
-Password: GUEST          And uses an obvious password
-Welcome to the Army OPTIMIS database
-If you use these databases and they achieve a savings in
-time spent on a project of money saved to the government or both,
-please send a mail message outlining the details to
-MaJ Gene LeClalr, Chief, OPTIMIS
-WELCOME TO
-OPTIMIS
-THE DATA BASE WAS LAST UPDATED
-ON 861024 AT 102724
-AND CONTAINS 3316 DOCUMENTS
-This data base Is an extract of AR 25-400-2, Modern Army Record-
-keeping System (MARKS) to help you Identify information for filing.
-Please enter a word or \'EXIT\'.
-/ sdi                      Looking for SDI dope
-The word "sdi" was not     But there\'s none here
-found.
-Please enter a word or \'EXIT\'.
-/ stealth                  Any word on the Stealth bomber?
-The word "stealth" was not No such luck
-found.
-Please enter a word or \'EXIT\'.
-/ sac                      Strategic Air Command?
-The word "sac" was not     Nope
-found.',
+telnet> open Optimis     And into the Optimis Army Database',
           ],
           [
             1,
@@ -372,33 +349,27 @@ found.',
           [
             1,
             '[19:11] The Cuckoo\'s Egg_ Tracking a Spy Through t - Clifford Stoll.epub (Stoll, Clifford - The Cuckoo\'s Egg_split_38.htm) - 19:11',
-            '
-Username: FIELD
-Password: SERVICE
-WELCOME TO THE AIR FORCE SYSTEM COMMAND-SPACE DIVISION
-VAX/VMS 4.4
-IMPORTANT NOTICE
-Computer System problems should be directed to the Information
-Systems Customer Service Section located in building 130, room
-2369.
-Phone 643-2177/AV 833-8177.
-Last interactive login on Thursday, 11-DEC-1986 <<19:11|2>>
-Last non-interactive login on Tuesday, 2-DEC-1986 <<17:30|2>>
+            '    Last interactive login on Thursday, 11-DEC-1986 <<19:11|2>>
+    Last non-interactive login on Tuesday, 2-DEC-1986 <<17:30|2>>
 WARNING - Your password has expired; update immediately with SET
-PASSWORD!
-$ show process/privilege
-4-JAN-1987 <<13:16|2>>:37.66       NTY1:       User: FIELD
+PASSWORD!',
+          ],
+          [
+            1,
+            '[13:16] The Cuckoo\'s Egg_ Tracking a Spy Through t - Clifford Stoll.epub (Stoll, Clifford - The Cuckoo\'s Egg_split_38.htm) - 13:16',
+            '4-JAN-1987 <<13:16|2>>:37.66       NTY1:       User: FIELD
 Process privileges:
-BYPASS       may bypass all system protections
-CMKRNL       may change mode to kernel
-ACNT         may suppress accounting messages
-WORLD        may affect other processes
-OPER         operator privilege
-VOLPRO       may override volume protection
-GRPPRV       group access via system protection
-READALL      may road anything as the owner
-WRITEALL     may write anything as the owner
-SECURITY     may perform security functions',
+  BYPASS       may bypass all system protections
+  CMKRNL       may change mode to kernel
+  ACNT         may suppress accounting messages
+  WORLD        may affect other processes
+  OPER         operator privilege
+  VOLPRO       may override volume protection
+  GRPPRV       group access via system protection
+  READALL      may road anything as the owner
+  WRITEALL     may write anything as the owner
+  SECURITY     may perform security functions
+',
           ],
           [
             1,
@@ -536,6 +507,11 @@ By chance, <<around 3 P.M.|5>> Teejay called from the CIA. "What\'s new?"
             1,
             '[ap 00:19] The Cuckoo\'s Egg_ Tracking a Spy Through t - Clifford Stoll.epub (Stoll, Clifford - The Cuckoo\'s Egg_split_47.htm) - 12:19',
             "Thursday, March 12, was an overcast Berkeley day. Dry in the morning, so I biked in without a raincoat. At <<12:19|2>>, the hacker visited his old haunt for a couple minutes. Listed a few of my SDINET files\x{2014}he found out that Barbara Sherwin had recently bought a car and that SDINET was expanding overseas. He saw the names of thirty new documents, but he didn't read them. Why not?",
+          ],
+          [
+            1,
+            '[ap 00:11] The Cuckoo\'s Egg_ Tracking a Spy Through t - Clifford Stoll.epub (Stoll, Clifford - The Cuckoo\'s Egg_split_49.htm) - 1211',
+            'Well, we fooled around with puzzles and palindromes for a while, until he wrote out this series of numbers: 1, 11, 21, <<1211|9l>>, 111221.',
           ],
           [
             1,

@@ -37,7 +37,8 @@ sub compare_strings {
 
         $string =~ s{<<(.*?)>>}{$1}g;
 
-        my $result = do_match($string);
+        my ($book, $author) = $name =~ m{\A \[ [^]]+ \] \s (.+) \s - \s (.+) \.epub \s }xi;
+        my $result = do_match($string, undef, $author, $book);
 
         if ( ($match & T_STR) != 0 ) {
             local $TODO = "should match";
@@ -674,7 +675,7 @@ sub get_csv_tests {
           [
             1,
             'Timestr [01:24]: 1.24am',
-            'Larkin had died at <<1.24am|2a>>, turning to the nurse who was with him, squeezing her hand, and saying faintly, \'I am going to the inevitable.\''
+            'Larkin had died at <<1.24am|9g>>, turning to the nurse who was with him, squeezing her hand, and saying faintly, \'I am going to the inevitable.\''
           ],
           [
             1,
@@ -2159,12 +2160,12 @@ sub get_csv_tests {
           [
             1,
             'Timestr [07:09]: seven-nine',
-            'In the living room the voice-clock sang, Tick-tock, <<seven o\'clock|6>>, time to get up, time to get up, seven o \'clock! as if it were afraid that nobody would. The morning house lay empty. The clock ticked on, repeating and repeating its sounds into the emptiness. <<Seven-nine|9j>>, breakfast time, <<seven-nine|9j>>!'
+            'In the living room the voice-clock sang, Tick-tock, <<seven o\'clock|6>>, time to get up, time to get up, seven o \'clock! as if it were afraid that nobody would. The morning house lay empty. The clock ticked on, repeating and repeating its sounds into the emptiness. <<Seven-nine|9j:1>>, breakfast time, <<seven-nine|9j:1>>!'
           ],
           [
             1,
             'Timestr [07:09]: seven-nine',
-            '<<Seven-nine|9j>>, breakfast time, <<seven-nine|9j>>!'
+            '<<Seven-nine|9j:0>>, breakfast time, <<seven-nine|9j:0>>!'
           ],
           [
             1,
@@ -2449,7 +2450,7 @@ sub get_csv_tests {
           [
             1,
             'Timestr [08:01]: eight-one',
-            '<<Eight-one|9j>>, tick-tock, <<eight-one o\'clock|6>>, off to school, off to work, run, run, <<eight-one|9j>>!'
+            '<<Eight-one|9j:1>>, tick-tock, <<eight-one o\'clock|6>>, off to school, off to work, run, run, <<eight-one|9j:1>>!'
           ],
           [
             1,
@@ -4697,7 +4698,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [14:43]: 2.43pm',
-            'Jacobson died at <<2.43pm|2a>> the next day after slashing his wrists with a razor blade in the second cubicle from the left in the men\'s washroom on the third floor.'
+            'Jacobson died at <<2.43pm|9g>> the next day after slashing his wrists with a razor blade in the second cubicle from the left in the men\'s washroom on the third floor.'
           ],
           [
             1,
@@ -4757,7 +4758,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [15:00]: three',
-            'And the sound of the bell flooded the room with its melancholy wave; which receded, and gathered itself together to fall once more, when she heard, distractedly, something fumbling, something scratching at the door. Who at this hour? <<Three|9i:1>>, good Heavens! Three already!'
+            'And the sound of the bell flooded the room with its melancholy wave; which receded, and gathered itself together to fall once more, when she heard, distractedly, something fumbling, something scratching at the door. Who at this hour? <<Three|9k:0>>, good Heavens! <<Three|9k:1>> already!'
           ],
           [
             1,
@@ -6622,7 +6623,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [21:05]: nine-five',
-            '<<Nine-five|9j>>. A voice spoke from the study ceiling: "Mrs. McClellan, which poem would you like this evening?". The house was silent. The voice said at last, "Since you express no preference, I shall select a poem at random."'
+            '<<Nine-five|9j:0>>. A voice spoke from the study ceiling: "Mrs. McClellan, which poem would you like this evening?". The house was silent. The voice said at last, "Since you express no preference, I shall select a poem at random."'
           ],
           [
             1,
@@ -6837,7 +6838,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [22:08]: ten eight',
-            '"My watch is always a little fast," I said. "What time do you make it now?" "<<Ten eight|9j>>." "<<Ten eighteen|5k:1>> by mine. You see."'
+            '"My watch is always a little fast," I said. "What time do you make it now?" "<<Ten eight|9j:1>>." "<<Ten eighteen|5k:1>> by mine. You see."'
           ],
           [
             1,
@@ -6877,7 +6878,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [22:18]: ten eighteen',
-            '"My watch is always a little fast," I said. "What time do you make it now?" "<<Ten eight|9j>>." "<<Ten eighteen|5k:1>> by mine. You see."'
+            '"My watch is always a little fast," I said. "What time do you make it now?" "<<Ten eight|9j:1>>." "<<Ten eighteen|5k:1>> by mine. You see."'
           ],
           [
             1,
