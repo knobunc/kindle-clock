@@ -432,8 +432,8 @@ A x <<1000h|1>> +
           ],
           [
             1,
-            '[ap ~ 10:15] Code - Charles Petzold.epub (OEBPS/ch16.html) - approximately 1015',
-            'Ascending into regions that few have traveled, a petabyte equals 250 bytes or 1,125,899,906,842,624 bytes, which is <<approximately 1015|9w>> or a quadrillion. An exabyte equals 260 bytes or 1,152,921,504,606,846,976 bytes, <<approximately 1018|9:0>> or a quintillion.',
+            '[ap ~ 10:18] Code - Charles Petzold.epub (OEBPS/ch16.html) - approximately 1018',
+            'Ascending into regions that few have traveled, a petabyte equals 250 bytes or 1,125,899,906,842,624 bytes, which is approximately 1015 or a quadrillion. An exabyte equals 260 bytes or 1,152,921,504,606,846,976 bytes, <<approximately 1018|9:0>> or a quintillion.',
           ],
           [
             1,
@@ -928,11 +928,6 @@ Margaret Mitchell\'s Gone with the Wind is about 2.5 megabytes.',
             1,
             '[ap 02:00] Code - Charles Petzold.epub (OEBPS/ch21.html) - 200',
             'We can thus say that the resolution of a primitive video display adapter attached to a conventional television set is 320 pixels across by <<200|3:0>> pixels down, or 320 pixels horizontally by <<200|3:0>> pixels vertically, commonly referred to as 320 by 200 or 320 x 200:',
-          ],
-          [
-            1,
-            '[ap ~ 10:24] Code - Charles Petzold.epub (OEBPS/ch21.html) - approximately 1024',
-            'Let\'s start with the low estimate. One way to reduce the memory requirements of a video display adapter is to restrict the adapter to text only. We\'ve already established that we can display 25 rows of 40 characters each, or a total of 1000 characters. The RAM on the video board need only store the 7-bit ASCII codes of those 1000 characters. That\'s 1000 7-bit values, which is <<approximately 1024|9w>> bytes, or 1 kilobyte.',
           ],
           [
             1,

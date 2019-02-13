@@ -1626,6 +1626,11 @@ This tells Mike that Peter\x{2019}s tasks will likely take 14 days, but could ve
           ],
           [
             1,
+            '[20:08] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_057.html) - 2008',
+            'Until <<2008|18:0>> I avoided all but the simplest forms of branching. If a developer created a branch, that branch had to be brought back into the main line before the end of the iteration. Indeed, I was so austere about branching that it was very rarely done in the projects I was involved with.',
+          ],
+          [
+            1,
             '[ap 23:55] The Robert C. Martin Clean Code Collection - Robert C. Martin.epub (The_Robert_C._Martin_Clean_Code_split_057.html) - 5 to 12',
             'Teams of developers certainly need a list of issues to work on. Those issues include new tasks and features as well as bugs. For any reasonably sized team (<<5 to 12|10a:0>> developers) the size of that list should be in the dozens to hundreds. Not thousands.',
           ],

@@ -1,16 +1,6 @@
 $VAR1 = [
           [
             1,
-            '[ap < 09:00] Schneier on Security - Bruce Schneier.epub (Schneier_on_Security_split_009.html) - Before 9',
-            "The problem is that the dots can only be numbered after the fact. With the benefit of hindsight, it\x{2019}s easy to draw lines from people in flight school here, to secret meetings in foreign countries there, over to interesting tips from foreign governments, and then to INS records. <<Before 9|9:0>>/11, it\x{2019}s not so easy. Rather than thinking of intelligence as a simple connect-the-dots picture, think of it as a million unnumbered pictures superimposed on top of each other. Or a random-dot stereogram. Is it a lion, a tree, a cast iron stove, or just an unintelligible mess of dots? You try and figure it out.",
-          ],
-          [
-            1,
-            '[ap > 09:00] Schneier on Security - Bruce Schneier.epub (Schneier_on_Security_split_011.html) - After 9',
-            "Concrete building barriers are an exception: They\x{2019}re removable. They started appearing in Washington, DC, in 1983, after the truck bombing of the Marines barracks in Beirut. <<After 9|9:0>>/11, they were a sort of bizarre status symbol: They proved your building was important enough to deserve protection. In New York City alone, more than 50 buildings were protected in this fashion.",
-          ],
-          [
-            1,
             '[ap 00:55] Schneier on Security - Bruce Schneier.epub (Schneier_on_Security_split_020.html) - 5 to 1',
             "This isn\x{2019}t unique. Private security guards outnumber real police more than <<5 to 1|10a:0>>, and increasingly act like them.",
           ],
@@ -47,7 +37,7 @@ $VAR1 = [
           [
             1,
             '[> 20:00] Schneier on Security - Bruce Schneier.epub (Schneier_on_Security_split_063.html) - After 2000',
-            "The U.S has been here before. <<After 2000|9:0>>, voting machine problems made international headlines. The government appropriated money to fix the problems nationwide. Unfortunately, electronic voting machines\x{2014}although presented as the solution\x{2014}have largely made the problem worse. This doesn\x{2019}t mean that these machines should be abandoned, but they need to be designed to increase both their accuracy, and people\x{2019}s trust in their accuracy. This is difficult, but not impossible.",
+            "The U.S has been here before. <<After 2000|18:0>>, voting machine problems made international headlines. The government appropriated money to fix the problems nationwide. Unfortunately, electronic voting machines\x{2014}although presented as the solution\x{2014}have largely made the problem worse. This doesn\x{2019}t mean that these machines should be abandoned, but they need to be designed to increase both their accuracy, and people\x{2019}s trust in their accuracy. This is difficult, but not impossible.",
           ],
           [
             1,

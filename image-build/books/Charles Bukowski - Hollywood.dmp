@@ -11,11 +11,6 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap > 01:00] Hollywood - Charles Bukowski.epub (index_split_006.xhtml) - after one',
-            'Then, <<after one|9u>> last big circle, he ran to the bedroom, slammed the door and was gone.',
-          ],
-          [
-            1,
             '[~ 11:00] Hollywood - Charles Bukowski.epub (index_split_006.xhtml) - about 11 a.m.',
             "The next morning in my own place, in Sarah\x{2019}s and my bed, the phone rang <<about 11 a.m.|5>>",
           ],
@@ -47,7 +42,7 @@ $VAR1 = [
           [
             1,
             '[ap 00:56] Hollywood - Charles Bukowski.epub (index_split_017.xhtml) - 4-to-one',
-            "The system? Well, you take the horse\x{2019}s odds that go off below the number of the handicapper\x{2019}s selection. If more than one set of odds goes off below, then take the greatest drop. For example, horse 1, selection 7 going off at <<4-to-one|10>> is better than horse 6, selection 4 going off at <<3-to-one|10>>. There is one exception to this system. If horse 4 goes off at below 1, that is 4/5 or below, then pass the race if there is nothing working against it. That is because plays on nothing but odds-on-favorites always show a loss.",
+            "The system? Well, you take the horse\x{2019}s odds that go off below the number of the handicapper\x{2019}s selection. If more than one set of odds goes off below, then take the greatest drop. For example, horse 1, selection 7 going off at <<4-to-one|10a>> is better than horse 6, selection 4 going off at <<3-to-one|10a>>. There is one exception to this system. If horse 4 goes off at below 1, that is 4/5 or below, then pass the race if there is nothing working against it. That is because plays on nothing but odds-on-favorites always show a loss.",
           ],
           [
             1,

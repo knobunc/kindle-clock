@@ -56,18 +56,13 @@ $VAR1 = [
           ],
           [
             1,
-            '[b 22:00] By Any Other Name - Spider Robinson.epub (OEBPS/Text/Story_14.html) - about four bells',
-            'You will think that when a guy sees eighty summers on Broadway, he sees it all, and until recently so will I. It is a long time since I see something that surprises me very much, and in fact the last time I remember being surprised is when the Giants take the wind for L.A. But when I come home a couple of nights after my eightieth birthday, along <<about four bells|15>> in the morning, and find a ghost watching my TV, I am surprised no little, and in fact more than somewhat.',
-          ],
-          [
-            1,
             '[23:55] By Any Other Name - Spider Robinson.epub (OEBPS/Text/Story_14.html) - five minutes to midnight, am',
             "\x{201c}Give me your watch,\x{201d} he says, and I do so. \x{201c}See?\x{201d} he says. \x{201c}It is just now exactly <<five minutes to midnight, am|10>> I right?\x{201d} I look at the watch and he is perfectly right. He puts the watch on the floor of the phone booth. \x{201c}How long do you figure it is before your associate comes back with the dolly?\x{201d}",
           ],
           [
             1,
             '[ap 00:54] By Any Other Name - Spider Robinson.epub (OEBPS/Text/Story_14.html) - six-to-one',
-            "\x{201c}Okay,\x{201d} he says. \x{201c}So I set the machine for two minutes.\x{201d} He fiddles with some dials and things on the outside of the phone booth, and pushes a button. The light goes way down, like when a guy gets it at Sing Sing, and even before it comes back up I see that the phone booth isn\x{2019}t there anymore. The big wire ends in a plug; the socket for it is gone. It scares me so much I almost scrag the Doc by accident\x{2014}and now that I think of it, it is a better thing all the way around if I do, at that\x{2014}but the slug misses him clean. Since I have the silencer on, it is <<six-to-one|10>> that Little Isadore never even hears the shot.",
+            "\x{201c}Okay,\x{201d} he says. \x{201c}So I set the machine for two minutes.\x{201d} He fiddles with some dials and things on the outside of the phone booth, and pushes a button. The light goes way down, like when a guy gets it at Sing Sing, and even before it comes back up I see that the phone booth isn\x{2019}t there anymore. The big wire ends in a plug; the socket for it is gone. It scares me so much I almost scrag the Doc by accident\x{2014}and now that I think of it, it is a better thing all the way around if I do, at that\x{2014}but the slug misses him clean. Since I have the silencer on, it is <<six-to-one|10a>> that Little Isadore never even hears the shot.",
           ],
           [
             1,
@@ -86,18 +81,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[b 22:30] By Any Other Name - Spider Robinson.epub (OEBPS/Text/Story_14.html) - five bells',
-            "So I call up my friend Toomey the electrician, who everybody calls Socket. He is a little agitated at being woke up at <<five bells|15>> in the morning, but I tell him there is a couple of guys here that wish to sell a dozen lids of Hawaiian pot for thirty bobs a lid, and he says, \x{201c}On my way,\x{201d} and hangs up.",
-          ],
-          [
-            1,
             '[ap 00:50] By Any Other Name - Spider Robinson.epub (OEBPS/Text/Story_14.html) - ten-to-one',
             "\x{201c}Of course,\x{201d} Socket says real quick. \x{201c}The point is, you are afraid if you leave us behind with the machine, it may not be here when you get back, or us either for that matter, and I am honest enough to admit that this is at least a <<ten-to-one|10a:0>> shot. If you are as honest, you will admit that what you think you will do about this is scrag us both. Is this not so?\x{201d}",
-          ],
-          [
-            1,
-            '[b 23:00] By Any Other Name - Spider Robinson.epub (OEBPS/Text/Story_14.html) - a little past six bells',
-            "\x{201c}This sounds jake to me,\x{201d} Harry the Horse decides, so off they go together, hurrying a bit because it is <<a little past six bells|15>> in the morning and the sun will be up soon. They come back in about an hour with a drawer full of crow film and the machine for it, and while Harry the Horse checks to make sure the machine fits in the phone booth, Socket looks over the phone booth some more. \x{201c}I think I begin to figure this out,\x{201d} he says.",
           ],
           [
             1,
@@ -106,8 +91,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[b 23:30] By Any Other Name - Spider Robinson.epub (OEBPS/Text/Story_14.html) - past seven bells',
-            "Somehow I never seem to bump into myself\x{2014}my thirty-year-old self\x{2014}while I am walking around, and I guess this is just as well, at that. After a while I decide that I am awake a long time for a guy my age, so I walk over to Central Park and take a snooze near the pond. When I wake up it is just coming on daylight, and I am hungry and there is very little of Little Isadore\x{2019}s dough left, so I take the A train back up to Harlem and sneak in the back door of Doc Twitchell\x{2019}s building again. When I get back to the phone booth it is just about half <<past seven bells|15>>, so I set the dial ahead one day and no hours and no minutes, and then I set the delay thing and push the button.",
+            '[ap < 07:30] By Any Other Name - Spider Robinson.epub (OEBPS/Text/Story_14.html) - just about half past seven',
+            "Somehow I never seem to bump into myself\x{2014}my thirty-year-old self\x{2014}while I am walking around, and I guess this is just as well, at that. After a while I decide that I am awake a long time for a guy my age, so I walk over to Central Park and take a snooze near the pond. When I wake up it is just coming on daylight, and I am hungry and there is very little of Little Isadore\x{2019}s dough left, so I take the A train back up to Harlem and sneak in the back door of Doc Twitchell\x{2019}s building again. When I get back to the phone booth it is <<just about half past seven|10>> bells, so I set the dial ahead one day and no hours and no minutes, and then I set the delay thing and push the button.",
           ],
           [
             1,

@@ -1,11 +1,6 @@
 $VAR1 = [
           [
             1,
-            '[20:00] Carry On_ Sound Advice From Schneier on Se - Bruce Schneier.epub (text/part0001_split_019.html) - 2000',
-            "All of these agencies have long had to wrestle with the choice of whether to use newly discovered vulnerabilities to protect or to attack. Inside the NSA, this was traditionally known as the \x{201c}equities issue,\x{201d} and the debate was between the COMSEC (communications security) side of the NSA and the SIGINT (signals intelligence) side. If they found a flaw in a popular cryptographic algorithm, they could either use that knowledge to fix the algorithm and make everyone's communications more secure, or they could exploit the flaw to eavesdrop on others\x{2014}while at the same time allowing even the people they wanted to protect to remain vulnerable. This debate raged through the decades inside the NSA. From what I've heard, by <<2000|9:0>>, the COMSEC side had largely won, but things flipped completely around after 9/11.",
-          ],
-          [
-            1,
             '[ap > 02:00] Carry On_ Sound Advice From Schneier on Se - Bruce Schneier.epub (text/part0002_split_004.html) - After two',
             "Zfone, a secure VoIP system, protects against MITM attacks with a short authentication string. <<After two|9u>> Zfone terminals exchange keys, both computers display a four-character string. The users are supposed to manually verify that both strings are the same\x{2014}\x{201d}my screen says 5C19; what does yours say?\x{201d}\x{2014}to ensure that the phones are communicating directly with each other and not with an MITM. The AT&T TSD-3600 worked similarly.",
           ],
@@ -18,20 +13,5 @@ $VAR1 = [
             1,
             '[20:02] Carry On_ Sound Advice From Schneier on Se - Bruce Schneier.epub (text/part0004_split_014.html) - 2002',
             'There\'s much more we don\'t know, and often what we know is obsolete. We know quite a bit about the NSA\'s ECHELON program from a 2000 European investigation, and about the DHS\'s plans for Total Information Awareness from <<2002|9c:0>>, but much less about how these programs have evolved. We can make inferences about the NSA\'s Utah facility based on the theoretical amount of data from various sources, the cost of computation, and the power requirements from the facility, but those are rough guesses at best. For a lot of this, we\'re completely in the dark.',
-          ],
-          [
-            1,
-            '[ap ~ 02:00] Carry On_ Sound Advice From Schneier on Se - Bruce Schneier.epub (text/part0005_split_004.html) - About 2',
-            'The first of April passed without incident, but Conficker is no less dangerous today. <<About 2|9:0>>.2m computers worldwide are still infected with Conficker.A and B, and <<about 1|9w>>.3m more are infected with the nastier Conficker.C. It\'s true that on 1 April Conficker.C tried a new trick to update itself, but its authors could have updated the worm using another mechanism any day. In fact, they updated it on 8 April, and can do so again.',
-          ],
-          [
-            1,
-            '[ap > 09:00] Carry On_ Sound Advice From Schneier on Se - Bruce Schneier.epub (text/part0006_split_012.html) - After 9',
-            'These risks are not theoretical. <<After 9|9:0>>/11, the National Security Agency built a surveillance infrastructure to eavesdrop on telephone calls and e-mails within the United States.',
-          ],
-          [
-            1,
-            '[ap > 09:00] Carry On_ Sound Advice From Schneier on Se - Bruce Schneier.epub (text/part0008_split_016.html) - After 9',
-            'These risks are not theoretical. <<After 9|9:0>>/11, the National Security Agency built a surveillance infrastructure to eavesdrop on telephone calls and e-mails within the United States. Although procedural rules stated that only non-Americans and international phone calls were to be listened to, actual practice didn\'t always match those rules. NSA analysts collected more data than they were authorized to and used the system to spy on wives, girlfriends and famous people like former President Bill Clinton.',
           ],
         ];

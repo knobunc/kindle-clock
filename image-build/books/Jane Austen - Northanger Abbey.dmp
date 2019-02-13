@@ -1,8 +1,8 @@
 $VAR1 = [
           [
             1,
-            '[00:00] Northanger Abbey - Jane Austen.epub (OEBPS/bano_9781411432796_oeb_bm1_r1.html) - Midnight Bell',
-            "In chapter VI (p. 34), Isabella lists for Catherine her favorite gothic novels, a group of titles that has become known as the Northanger Canon: Radcliffe\x{2019}s The Mysteries of Udolpho and The Italian; Or, the Confessional of the Black Penitents ( 1797) ; The Castle of Wolfenbach (1793) and Mysterious Warnings (1796), by Eliza Parsons; Clermont: A Tale (1798), by Regina Maria Roche; The Necromancer; Or, the Tale of the Black Forest: Founded on Facts (1794), by Lawrence Flammenberg; The <<Midnight Bell|15>>: A German Story Founded on Incidents in Real Life (1798), by Francis Lathom; The Orphan of the Rhine: A Romance 1798) , by Eleanor Sleath; and Horrid Mysteries: A Story from the German of the Marquis of Grosse (1796) , by Carl Grosse.",
+            '[00:00] Northanger Abbey - Jane Austen.epub (OEBPS/bano_9781411432796_oeb_bm1_r1.html) - Midnight',
+            "In chapter VI (p. 34), Isabella lists for Catherine her favorite gothic novels, a group of titles that has become known as the Northanger Canon: Radcliffe\x{2019}s The Mysteries of Udolpho and The Italian; Or, the Confessional of the Black Penitents ( 1797) ; The Castle of Wolfenbach (1793) and Mysterious Warnings (1796), by Eliza Parsons; Clermont: A Tale (1798), by Regina Maria Roche; The Necromancer; Or, the Tale of the Black Forest: Founded on Facts (1794), by Lawrence Flammenberg; The <<Midnight|13>> Bell: A German Story Founded on Incidents in Real Life (1798), by Francis Lathom; The Orphan of the Rhine: A Romance 1798) , by Eleanor Sleath; and Horrid Mysteries: A Story from the German of the Marquis of Grosse (1796) , by Carl Grosse.",
           ],
           [
             1,
@@ -16,8 +16,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[00:00] Northanger Abbey - Jane Austen.epub (OEBPS/bano_9781411432796_oeb_c06_r1.html) - Midnight Bell',
-            "\x{201c}I will read you their names directly; here they are, in my pocket-book.av Castle of Wolfenbach, Clermont, Mysterious Warnings, Necromancer of the Black Forest, <<Midnight Bell|15>>, Orphan of the Rhine, and Horrid Mysteries.4 Those will last us some time.\x{201d}",
+            '[00:00] Northanger Abbey - Jane Austen.epub (OEBPS/bano_9781411432796_oeb_c06_r1.html) - Midnight',
+            "\x{201c}I will read you their names directly; here they are, in my pocket-book.av Castle of Wolfenbach, Clermont, Mysterious Warnings, Necromancer of the Black Forest, <<Midnight|13>> Bell, Orphan of the Rhine, and Horrid Mysteries.4 Those will last us some time.\x{201d}",
           ],
           [
             1,
@@ -177,7 +177,7 @@ $VAR1 = [
           [
             1,
             '[ap 00:50] Northanger Abbey - Jane Austen.epub (OEBPS/bano_9781411432796_oeb_c29_r1.html) - ten to one',
-            "\x{201c}If so, my dear, I dare say you will meet again some time or other; do not be uneasy. It is <<ten to one|10>> but you are thrown together again in the course of a few years; and then what a pleasure it will be!\x{201d}",
+            "\x{201c}If so, my dear, I dare say you will meet again some time or other; do not be uneasy. It is <<ten to one|10a>> but you are thrown together again in the course of a few years; and then what a pleasure it will be!\x{201d}",
           ],
           [
             1,
@@ -196,8 +196,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[00:00] Northanger Abbey - Jane Austen.epub (OEBPS/bano_9781411432796_oeb_nts_r1.html) - Midnight Bell',
-            "4 (p. 34) \x{201d}here they are, in my pocket-book. Castle of Wolfenbach, Clermont, Mysterious Warnings, Necromancer of the Black Forest, <<Midnight Bell|15>>, Orphan of the Rhine, and Horrid Mysteries\x{201c}: Catherine is reciting a list of popular romance novels of the period: Eliza Parson\x{2019}s Castle of Wolfenbach (1793); Clermont: A Tale (1798), by Regina Maria Roche; Mysterious Warnings (1796), also by Eliza Parsons; The Necromancer; Or, the Tale of the Black Forest: Founded on Facts (1794), by Lawrence Flammenberg; The <<Midnight Bell|15>>: A German Story Founded on Incidents in Real Life (1798), by Francis Lathom; Eleanor Sleath\x{2019}s The Orphan of the Rhine: A Romance (1798); and Horrid Mysteries: A Story from the German of the Marquis of Grosse (1796), by Carl Grosse.",
+            '[00:00] Northanger Abbey - Jane Austen.epub (OEBPS/bano_9781411432796_oeb_nts_r1.html) - Midnight',
+            "4 (p. 34) \x{201d}here they are, in my pocket-book. Castle of Wolfenbach, Clermont, Mysterious Warnings, Necromancer of the Black Forest, <<Midnight|13>> Bell, Orphan of the Rhine, and Horrid Mysteries\x{201c}: Catherine is reciting a list of popular romance novels of the period: Eliza Parson\x{2019}s Castle of Wolfenbach (1793); Clermont: A Tale (1798), by Regina Maria Roche; Mysterious Warnings (1796), also by Eliza Parsons; The Necromancer; Or, the Tale of the Black Forest: Founded on Facts (1794), by Lawrence Flammenberg; The <<Midnight|13>> Bell: A German Story Founded on Incidents in Real Life (1798), by Francis Lathom; Eleanor Sleath\x{2019}s The Orphan of the Rhine: A Romance (1798); and Horrid Mysteries: A Story from the German of the Marquis of Grosse (1796), by Carl Grosse.",
           ],
           [
             1,

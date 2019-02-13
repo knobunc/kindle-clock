@@ -37,13 +37,6 @@ Listen, and undo the door:',
           ],
           [
             1,
-            '[b 20:30] A Shropshire Lad and Other Poems - A. E. Housman.epub (AShropshireLadandOtherPoems/xhtml/chapter01.html) - one bell',
-            'And went to church alone.
-They tolled the <<one bell|15>> only,
-Groom there was none to see,',
-          ],
-          [
-            1,
             "[ap 08:00] A Shropshire Lad and Other Poems - A. E. Housman.epub (AShropshireLadandOtherPoems/xhtml/chapter02.html) - Eight O\x{2019}Clock",
             "And I have none.
 XV
@@ -81,6 +74,6 @@ Blown from night and the North.',
           [
             1,
             '[ap 02:50] A Shropshire Lad and Other Poems - A. E. Housman.epub (AShropshireLadandOtherPoems/xhtml/introduction.html) - ten to three',
-            "Housman\x{2019}s imagining of the monologue, as the murderer takes his leave, is meant to show something of pastoral decency, it seems, but blunders into awkward comedy, reminiscent of Rupert Brooke\x{2019}s crashing lines (\x{2018}And stands the clock at <<ten to three|10>>? / And is there honey still for tea?\x{2019}).",
+            "Housman\x{2019}s imagining of the monologue, as the murderer takes his leave, is meant to show something of pastoral decency, it seems, but blunders into awkward comedy, reminiscent of Rupert Brooke\x{2019}s crashing lines (\x{2018}And stands the clock at <<ten to three|10a>>? / And is there honey still for tea?\x{2019}).",
           ],
         ];
