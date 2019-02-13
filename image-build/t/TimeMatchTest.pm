@@ -4318,7 +4318,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [13:15]: One hour and a quarter',
-            "\x{2018}Monsieur has well slept this morning,\x{2019} he said, smiling. \x{2018}What o\x{2019}clock is it, Victor?\x{2019} asked Dorian Gray, sleepily. \x{2018}<<One hour and a quarter|14a:1>>, monsieur.\x{2019}"
+            "\x{2018}Monsieur has well slept this morning,\x{2019} he said, smiling. \x{2018}What o\x{2019}clock is it, Victor?\x{2019} asked Dorian Gray, sleepily. \x{2018}<<One hour and a quarter|14a>>, monsieur.\x{2019}"
           ],
           [
             1,

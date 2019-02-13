@@ -36,19 +36,34 @@ exit main(@ARGV);
 
 
 sub main {
-    my ($idir, $only_type, $limit) = @_;
+    my ($idir, $only_type, $limit, $string_match, $time_it) = @_;
     die "Usage: $0 idir"
         unless defined $idir and -d $idir;
 
     my $times = load_times($idir, $only_type);
 
-    check_matches($times, $limit);
+    my $timing = $time_it ? {} : undef;
+
+    check_matches($times, $limit, $string_match, $timing);
+
+    # Print the timing info
+    if ($timing) {
+        my $total_time;
+        foreach my $name (sort  {$timing->{$a}{time} <=> $timing->{$b}{time} } keys %$timing) {
+            my $ti = $timing->{$name};
+            printf "%10s:  %8.3fms  %3d/%d\n",
+                $name, $ti->{time} * 1000, $ti->{hits}//0, $ti->{count};
+            $total_time += $ti->{time};
+        }
+
+        printf "\nTotal time: %7.3fs\n", $total_time;
+    }
 
     return 0;
 }
 
 sub check_matches {
-    my ($times, $limit) = @_;
+    my ($times, $limit, $string_match, $timing) = @_;
 
     my $limited = defined $limit ? 1 : 0;
     $limit //= 1000;
@@ -66,8 +81,15 @@ sub check_matches {
                 last if $i >= @$sorted;
                 my ($a, $r, $timestr, $quote, $title, $author, $type) = @{ $sorted->[$i] };
 
+                # Strip any match out of the quote
+                my $stripped_quote =  strip_match($quote);
+
+                # Skip the strings that don't match
+                next
+                    if defined $string_match and $stripped_quote !~ m{$string_match}i;
+
                 # Run the string again with the current rules and see how it fares
-                my $new_match = do_match( strip_match($quote), undef, $author, $title );
+                my $new_match = do_match($stripped_quote, undef, $author, $title, $timing);
 
                 # Pull the preamble and postamble
                 my ($pre, $post);
