@@ -42,7 +42,7 @@ prove t/*pl -j 8
 2a  - Definite.  11:56 p.m.
 3   - Strong.    19.40.
 3a  - Weak.      0030 on Saturday
-3b  - Weak.      1900 tonight.
+3b  - Weak.      1900 tonight.                     Low numbers need attention 'one'
 3c  - Weak.      on the 10.26
 3d  - Strong.    seven the next evening.
 3e  - Never.     --

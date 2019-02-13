@@ -155,6 +155,7 @@ my $in_the_re = qr{ ( ( in \s+ the \s+ ( (?! same) \w+ \s+ ){0,4}?
                       $ampm_only_re                                  # in the am
                     | of \s+ the \s+ ( afternoon | morning )         # of the afternoon
                     | at \s+ ( dawn | dusk | night | sunset | sunrise )
+                    | after \s+ (noon | midnight)
                     )
                   }xin;
 my $ampm_re = qr{ $ampm_only_re | $in_the_re }xin;
@@ -1061,7 +1062,6 @@ sub get_matches {
     my $nf_re = qr{(?! $never_follow_times_re
                      | :\d
                      | $hy ( $min_re | and )
-                     | \s+ of
                      )
                   }xin;
     push @r,qr{ (?<li> $not_in_match )
@@ -1385,7 +1385,7 @@ sub get_matches {
                 )
                 (?<t2> $hour_re [?]? ( ($hy | [.\s]) $min_re | $minsec0_dig_re )? )
                 (?<po>
-                 \s+ ( ( ( on (\s a)? | in ) \s+ )? (\w+ \s+){0,2} $weekday_re
+                 \s+ ( ( ( (of | on) (\s+ a)? | in ) \s+ )? (?! of \s ) (\w+ \s+){0,2} $weekday_re
                      | when
                      | $today_re
                      | ( this | that | one | on \s+ (the | that | an | a) ) \s+
