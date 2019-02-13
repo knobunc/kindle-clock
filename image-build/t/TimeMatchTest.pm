@@ -480,7 +480,7 @@ sub get_csv_tests {
           [
             1,
             'Timestr [00:40]: twenty to one',
-            'We sat in the car park till <<twenty to one|10>>/ And now I\'m engaged to Miss Joan Hunter Dunn.'
+            'We sat in the car park till <<twenty to one|10d>>/ And now I\'m engaged to Miss Joan Hunter Dunn.'
           ],
           [
             1,
@@ -2040,7 +2040,7 @@ sub get_csv_tests {
           [
             1,
             'Timestr [06:40]: twenty to seven',
-            'At <<eleven o\'clock|6>> the phone rang, and still the figure did not respond, any more than it has responded when the phone had rung at <<twenty-five to seven in the morning|10>>, and again at <<twenty to seven|10>>'
+            'At <<eleven o\'clock|6>> the phone rang, and still the figure did not respond, any more than it has responded when the phone had rung at <<twenty-five to seven in the morning|10>>, and again at <<twenty to seven|10d>>'
           ],
           [
             1,
@@ -2698,7 +2698,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [08:50]: ten to nine',
-            'At <<ten to nine|10>> the clerks began to arrive. When they had hung up their coats and hates they came to the fireplace and stood warming themselves. If there was no fire, they stood there all the same'
+            'At <<ten to nine|10d>> the clerks began to arrive. When they had hung up their coats and hates they came to the fireplace and stood warming themselves. If there was no fire, they stood there all the same'
           ],
           [
             1,
@@ -3148,7 +3148,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [09:55]: five to ten',
-            'At <<five to ten|10>> I\'m ready in the hall. Nathaniel\'s mother\'s house is nearby but apparently tricky to find, so the plan is to meet here and he\'ll walk me over. I check my reflection in the hall mirror and wince. The streak of bleach in my hair is as obvious as ever. Am I really going out in public like this?'
+            'At <<five to ten|10d>> I\'m ready in the hall. Nathaniel\'s mother\'s house is nearby but apparently tricky to find, so the plan is to meet here and he\'ll walk me over. I check my reflection in the hall mirror and wince. The streak of bleach in my hair is as obvious as ever. Am I really going out in public like this?'
           ],
           [
             1,
@@ -3463,7 +3463,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [10:50]: ten to eleven',
-            'As he walked back to the flight office, airmen were forming a line to await the arrival of the NAAFI van with morning tea and cakes. Lambert looked at his watch; it was <<ten to eleven|10>>.'
+            'As he walked back to the flight office, airmen were forming a line to await the arrival of the NAAFI van with morning tea and cakes. Lambert looked at his watch; it was <<ten to eleven|10d>>.'
           ],
           [
             1,
@@ -3528,7 +3528,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [11:00]: eleven o\'clock',
-            'At <<eleven o\'clock|6>> the phone rang, and still the figure did not respond, any more than it had responded when the phone had rung at <<twenty-five to seven|10>>, and again for ten minutes continuously starting at <<five to seven|10>>...'
+            'At <<eleven o\'clock|6>> the phone rang, and still the figure did not respond, any more than it had responded when the phone had rung at <<twenty-five to seven|10d>>, and again for ten minutes continuously starting at <<five to seven|10d>>...'
           ],
           [
             1,
@@ -4718,7 +4718,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [14:50]: ten to three',
-            'Stands the Church clock at <<ten to three|10>>? And is there honey still for tea?'
+            'Stands the Church clock at <<ten to three|10d>>? And is there honey still for tea?'
           ],
           [
             1,
@@ -5098,7 +5098,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             "Timestr [16:00]: Four o\x{2019}clock",
-            "<<Four o\x{2019}clock|6>> has just struck. Good! Arrangement, revision, reading from <<four to five|10a:1>>. Short snooze of restoration for myself, from <<five to six|10a:1>>. Affair of agent and sealed letter from <<seven to eight|10a:1>>. At <<eight|9v>>, en route."
+            "<<Four o\x{2019}clock|6>> has just struck. Good! Arrangement, revision, reading from <<four|20b>> to <<five|20a>>. Short snooze of restoration for myself, from <<five|20b>> to <<six|20a>>. Affair of agent and sealed letter from <<seven|20b>> to <<eight|20a>>. At <<eight|9v>>, en route."
           ],
           [
             1,
@@ -5523,7 +5523,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [17:00]: five o\'clock',
-            'From <<five o\'clock|6>> to eight is on certain occasions a little eternity; but on such an occasion as this the interval could be only an eternity of pleasure.'
+            'From <<five o\'clock|6>> to <<eight|20a>> is on certain occasions a little eternity; but on such an occasion as this the interval could be only an eternity of pleasure.'
           ],
           [
             1,
@@ -5958,7 +5958,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [18:55]: five to seven',
-            '... You had no reason to think the times important. Indeed how suspicious it would be if you had been completely accurate. \'\'Haven\'t I been?\'\' Not quite. It was <<five to seven|10>> that you talked to Wilkins. \'\'Another ten minutes."'
+            '... You had no reason to think the times important. Indeed how suspicious it would be if you had been completely accurate. \'\'Haven\'t I been?\'\' Not quite. It was <<five to seven|10d>> that you talked to Wilkins. \'\'Another ten minutes."'
           ],
           [
             1,
@@ -6183,12 +6183,12 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [19:50]: ten to eight',
-            'At <<ten to eight|10>>, he strolled downstairs, to make sure that Signora Buffi was not pottering around in the hall and that her door was not open, and to make sure there really was no one in Freddie\'s car'
+            'At <<ten to eight|10d>>, he strolled downstairs, to make sure that Signora Buffi was not pottering around in the hall and that her door was not open, and to make sure there really was no one in Freddie\'s car'
           ],
           [
             1,
             'Timestr [19:52]: nearly eight',
-            'He waited until <<nearly eight|9f>>, because <<around seven|9w>> there were always more people coming in and out of the house than at other times. At <<ten to eight|10>>, he strolled downstairs, to make sure that Signora Buffi was not pottering around in the hall and that her door was not open, and to make sure there really was no one in Freddie\'s car, though he had gone down in the middle of the afternoon to look at the car and see if it was Freddie\'s.'
+            'He waited until <<nearly eight|9f>>, because <<around seven|9w>> there were always more people coming in and out of the house than at other times. At <<ten to eight|10d>>, he strolled downstairs, to make sure that Signora Buffi was not pottering around in the hall and that her door was not open, and to make sure there really was no one in Freddie\'s car, though he had gone down in the middle of the afternoon to look at the car and see if it was Freddie\'s.'
           ],
           [
             1,
@@ -6203,7 +6203,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [19:55]: five to eight',
-            'Flora drew her coat round her, and looked up into the darkening vault of the sky. Then she glanced at her watch. It was <<five to eight|10>>.'
+            'Flora drew her coat round her, and looked up into the darkening vault of the sky. Then she glanced at her watch. It was <<five to eight|10d>>.'
           ],
           [
             1,
@@ -7208,7 +7208,7 @@ This last observation applied to the dark gallery, and was indicated by the comp
           [
             1,
             'Timestr [23:32]: In about twenty-eight minutes it will be midnight',
-            "\"This is the evening. This is the night. It is New Year\x{b4}s Eve. <<In about twenty-eight minutes it will be midnight|5h>>. I still have twenty-eight minutes left. I have to recollect my thoughts. At <<twelve o\x{b4}clock|6>>, I should be done thinking.\" He looked at his father. \"Help those that are depressed and consider themselves lost in this world,\" he thought. \"Old fart.\""
+            "\"This is the evening. This is the night. It is New Year\x{b4}s Eve. <<In about twenty-eight minutes it will be midnight|21>>. I still have twenty-eight minutes left. I have to recollect my thoughts. At <<twelve o\x{b4}clock|6>>, I should be done thinking.\" He looked at his father. \"Help those that are depressed and consider themselves lost in this world,\" he thought. \"Old fart.\""
           ],
           [
             1,

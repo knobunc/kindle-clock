@@ -1116,9 +1116,11 @@ sub get_matches {
                         if ($is_racing or $pre =~ m{ \s of \s+ \z}xin) {
                             $branch = "y10";
                         }
-                        elsif ($pre =~ m{ (\A | \s ) ( $twas_re | at ) \s+ \z }xin)
-                        {
-                            $branch = "10a";
+                        elsif ($pre =~ m{ (\A | \s ) ( $twas_re | at ) \s+ \z }xin) {
+                            $branch = "10d";
+                        }
+                        elsif ($pre =~ m{ (\A | \s ) ( from ) \s+ \z }xin) {
+                            $branch = "xx";
                         }
                         elsif ($t1 =~ m{\A 0 \s+ to \s+ 1 \z}xin) {
                             $branch = "y10";
@@ -1375,7 +1377,7 @@ sub get_matches {
     # at 1237 when
     # by 8.45 on saturday
     push @r,qr{ (?<li> $not_in_match )
-                ( (?<pr> ( at | $twas_re | by | by \s+ the | since
+                ( (?<pr> (?<wo> at | $twas_re | by | by \s+ the | since
                          | between \s+ ( $min_re | $hour_re )  \s+ and
                          ) \s+
                   )
@@ -1395,14 +1397,15 @@ sub get_matches {
                 )
                 $ba_re
                 (?{ $branch = "3b";
-                    my ($t2, $po) = @+{qw( t2 po )};
+                    my ($wo, $t2, $po) = @+{qw( wo t2 po )};
                     if (not $is_trainy and $po =~ m{\A \s+ when }xin) {
-                        if (is_yearish($t2) and
-                            $t2 !~ m{\A 2[123]\d\d \z}xin     # Allow yearish things that are big
-                           )
-                        {
+                        if (is_yearish($t2) and $t2 !~ m{\A 2[123]\d\d \z}xin) {
+                            # Allow yearish things that are big
                             $branch = "3b:0";
                         }
+                    }
+                    elsif (is_yearish($t2) and $wo and $wo =~ m{\A since \z}xin) {
+                        $branch = "3b:0";
                     }
                   })
               }xin;
@@ -2217,14 +2220,15 @@ sub get_matches {
     # Bare hour (1-12) numbers or words but with a strong time indication
     # ... at nine ...
     my $def_re = qr{ he | she | they | we
-                   | exactly | precisely | punctually
-                   | $weekday_re
+                   | exactly | precisely | punctually | promptly
+                   | $weekday_re | $special_day_re | $month_re
                    }xin;
     push @r,qr{ (?<li> $not_in_match
                        ( (?<tm> morning | afternoon | evening | night
                          | awoke | woke | arose | rose | dressed | dined
-                         | $weekday_re
-                         | exactly | precisely | punctually
+                         | $weekday_re | $special_day_re | $month_re
+                         | exactly | precisely | punctually | promptly
+                         | but | then
                          ) \s+
                          ( \w+ly \s+ )?  # An adverb
                        )?
@@ -2236,7 +2240,8 @@ sub get_matches {
                 )
                 (?! $never_follow_times_re )
                 (?<po> \s+ (?<sub> $def_re | (?-i: \p{Uppercase}\p{Lowercase}\w*) ) \s+ )
-                (?{ $branch = "3e:TIMEY";
+                (?{ $branch = "3e:0";
+                    $branch = "xx";
                     my ($hh, $sub, $tm, $rel) = @+{qw( hh sub tm rel )};
                     if ($sub =~ m{\A $def_re \z}xin) {
                         # XXX these can be ages :-(
@@ -2274,9 +2279,22 @@ sub get_matches {
                 $ba_re
                 (?{$branch = "20"; })
               }xin;
+    # From two until five
+    push @r,qr{ (?<li> $not_in_match )
+                (?<pr> from \s+ )
+                (?<t1>
+                  ( $rel_words \s+ )?
+                  $hour_re
+                  ( ($hy|\s)+ $min_re )?
+                )
+                (?<lo> \s (to | until) \s+ ( $rel_words \s+ )? $hour_re )
+                (?! $never_follow_times_re )
+                $ba_re
+                (?{$branch = "20b"; })
+              }xin;
     # ^ and twelve five
     push @r,qr{ \A
-                (?<pr> ,? \s+ (or | and) \s+ )
+                (?<pr> ,? \s+ ( or | and | until | to ) \s+ )
                 (?<t1>
                   ( $rel_words \s+ )?
                   (?<xx> $hour_re

@@ -45,7 +45,7 @@ prove t/*pl -j 8
 3b  - Weak.      1900 tonight.
 3c  - Weak.      on the 10.26
 3d  - Strong.    seven the next evening.
-3e  - BAD                                           BAD
+3e  - Never.     --
 3f  - 80% right?
 3g  - Strong.    Monday at five Leo
 3h  - Strong.    At about one Emily announced
@@ -88,6 +88,7 @@ y9r - Strong.    young boy, about eleven or twelve,   These deliberately never m
 10a - Mixed.     ten to midnight,                     Needs work, completely mixed
 10b - Never.     two of 13
 10c - Strong.    struck eleven.
+10d - Strong.    at ten to midnight                   Recheck for 'three to one'
 11  - Strong.    clock struck thirteen.
 11a - Strong.    Ten minutes before the clock struck nine
 11b - Stong.     It showed two                        Never matches
@@ -102,6 +103,7 @@ y9r - Strong.    young boy, about eleven or twelve,   These deliberately never m
 19  - Definite.  new day was still a minute away.
 20  - Definite.  the hour of eleven
 20a - Strong.    or eleven                            Continuation
+20b - Strong.    From two until five                  Need to check 'three to one'
 21  - Definite.  In 5 minutes it would be 11
 
 90  - Strong.    between eleven and <<
