@@ -2,11 +2,26 @@
 
 BASEDIR="/mnt/us/timelit"
 
+## Shortcircuit if we aren't running
+
 # If the Kindle is not being used as clock, then just quit
 test -f "$BASEDIR/clockisticking" || exit
 
+
+## Set some defaults for the settings
+TZ='EST+5EDT,M3.2.0/2,M11.1.0/2'
+
+
+## Load the kindle-specific settings
+MAC=$(cat /sys/class/net/wlan0/address)
+if [ -f $BASEDIR/conf/${MAC}.conf" ]; then
+    . "$BASEDIR/conf/${MAC}.conf"
+fi
+
+## Run the main program
+
 # Find the current minute of the day
-MinuteOTheDay="$(env TZ='EST+5EDT,M3.2.0/2,M11.1.0/2' date -R +"%H%M")";
+MinuteOTheDay="$(env TZ="$TZ" date -R +"%H%M")";
 
 # Check if there is at least one image for this minute
 lines="$(find "$BASEDIR/images/quote_$MinuteOTheDay"* 2>/dev/null | wc -l)"
