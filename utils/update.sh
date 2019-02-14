@@ -18,7 +18,8 @@ RSYNC_OPTIONS="-vi -rltD --omit-dir-times"
 add_status()
 {
     echo "$1" > updatestatus
-    eips 0 39 "`cat updatestatus`"
+    eips 0 39 "$(cat updatestatus)"
+    echo "$(cat updatestatus)"
 }
 
 do_update() {
@@ -46,6 +47,10 @@ do_update() {
 
     # Restart launchpad so the command changes take effect
     /etc/init.d/launchpad restart
+
+    # Sync the time
+    add_status "Set the clock...         "
+    ntpdate pool.ntp.org
 
     add_status "Update complete.         "
     rm updatestatus

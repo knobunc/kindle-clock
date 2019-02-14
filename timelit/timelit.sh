@@ -43,8 +43,3 @@ eips $clearFlag -g $ThisMinuteImage
 if [ -f "$BASEDIR/../updatestatus" ]; then
     eips 0 39 "`cat $BASEDIR/../updatestatus`"
 fi
-
-# Sync the clock over ntp daily
-if [ "$MinuteOTheDay" -eq '0000' ]; then
-    ntpdate pool.ntp.org
-fi
