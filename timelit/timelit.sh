@@ -13,7 +13,7 @@ TZ='EST+5EDT,M3.2.0/2,M11.1.0/2'
 
 
 ## Load the kindle-specific settings
-MAC=$(cat /sys/class/net/wlan0/address)
+MAC=$(cat /sys/class/net/wlan0/address | sed s/:/-/g)
 if [ -f $BASEDIR/conf/${MAC}.conf" ]; then
     . "$BASEDIR/conf/${MAC}.conf"
 fi

@@ -68,4 +68,5 @@ do_update() {
 
 do_update > /mnt/us/updatelog.int 2>&1
 
-rsync /mnt/us/updatelog.int "${RSYNC_SOURCE}/updatelogs/$(cat /sys/class/net/wlan0/address)"
+MAC=$(cat /sys/class/net/wlan0/address | sed s/:/-/g)
+rsync /mnt/us/updatelog.int "${RSYNC_SOURCE}/updatelogs/$MAC"

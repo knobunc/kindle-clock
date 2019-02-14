@@ -1,7 +1,7 @@
 Put device-specific configuration files here named mac-address.conf.
 
 e.g.
-  28:ef:01:bb:19:d1.conf
+  28-ef-01-bb-19-d1.conf
 
 The file should contain environment variable assignments.  The only supported one is $TZ.
 
