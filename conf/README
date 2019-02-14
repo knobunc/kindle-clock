@@ -1,4 +1,4 @@
-Put device-specific configuration files here named mac-address.conf.
+Put device-specific configuration files here named mac-address.conf.  The mac address must be lowercase and separated by - not :.
 
 e.g.
   28-ef-01-bb-19-d1.conf
