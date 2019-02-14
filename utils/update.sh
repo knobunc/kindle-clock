@@ -19,6 +19,10 @@ add_status()
 {
     echo "$1" > updatestatus
     eips 0 39 "$(cat updatestatus)"
+
+    echo
+    echo
+    echo "------------------------------------------------------------------"
     echo "$(cat updatestatus)"
 }
 
