@@ -60,7 +60,7 @@ do_update() {
 
     # Sync the time
     add_status "Set the clock...         "
-    ntpdate pool.ntp.org
+    ntpdate -t 60 pool.ntp.org
 
     add_status "Update complete.         "
     rm updatestatus
