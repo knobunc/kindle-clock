@@ -1,8 +1,8 @@
 $VAR1 = [
           [
             1,
-            '[ap 06:55] Handbook of Programming Languages Volume 4 - Peter H. Salus.epub (016-018.html) - 5 to 7',
-            'We can change the value of foo from <<5 to 7|10a:0>> by evaluating this expression:',
+            '[ap 05:00] Handbook of Programming Languages Volume 4 - Peter H. Salus.epub (016-018.html) - 5',
+            'We can change the value of foo from <<5|20b>> to <<7|20a>> by evaluating this expression:',
           ],
           [
             1,

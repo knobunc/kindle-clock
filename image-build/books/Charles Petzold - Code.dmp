@@ -72,8 +72,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[23:59] Code - Charles Petzold.epub (OEBPS/ch08.html) - 1 to 0',
-            'Here\'s another way of looking at it: When you count in binary, the rightmost digit (also called the least significant digit), alternates between 0 and 1. Every time it changes from a 1 to a 0, the digit second to right (that is, the next most significant digit) also changes, either from 0 to 1 or from <<1 to 0|10a:0>>. So every time a binary digit changes from a 1 to a 0, the next most significant digit also changes, either from a 0 to a 1 or from a 1 to a 0.',
+            '[00:00] Code - Charles Petzold.epub (OEBPS/ch08.html) - 0',
+            'Here\'s another way of looking at it: When you count in binary, the rightmost digit (also called the least significant digit), alternates between 0 and 1. Every time it changes from a 1 to a 0, the digit second to right (that is, the next most significant digit) also changes, either from <<0|20b>> to <<1|20a>> or from <<1|20b>> to <<0|20a>>. So every time a binary digit changes from a 1 to a 0, the next most significant digit also changes, either from a 0 to a 1 or from a 1 to a 0.',
           ],
           [
             1,
@@ -178,13 +178,43 @@ $VAR1 = [
           ],
           [
             1,
-            '[23:59] Code - Charles Petzold.epub (OEBPS/ch14.html) - 1 to 0',
-            'The arrow indicates that the output Q becomes the same as the Data input when the Clock makes a transition from 0 to 1. This is known as a positive transition of the Clock signal. (A negative transition is the transition from <<1 to 0|10a:1>>.) The flip-flop has a diagram like this:',
+            '[00:00] Code - Charles Petzold.epub (OEBPS/ch14.html) - 0',
+            'I mentioned earlier that the D-type flip-flop we designed was level-triggered. This means that the Clock input must change its level from <<0|20b>> to <<1|20a>> in order for the value of the Data input to be stored in the latch. But during the time that the Clock input is 1, the Data input can change; any changes in the Data input while the Clock input is 1 will be reflected in the values of the Q and outputs.',
           ],
           [
             1,
-            '[23:59] Code - Charles Petzold.epub (OEBPS/ch14.html) - 1 to 0',
-            'What\'s happening here can be summed up very simply: Every time the Clock input changes from 0 to 1, the Q output changes, either from 0 to 1 or from <<1 to 0|10a:1>>. The situation is clearer if we look at the timing diagram:',
+            '[00:00] Code - Charles Petzold.epub (OEBPS/ch14.html) - 0',
+            'For some applications, a level-triggered Clock input is quite sufficient. But for other applications, an edge-triggered Clock input is preferred. An edge trigger causes the outputs to change only when the Clock makes a transition from <<0|20b>> to <<1|20a>>. As with the level-triggered flip-flop, when the Clock input is 0, any changes to the Data input don\'t affect the outputs. The difference in an edge-triggered flip-flop is that changes to the Data input also don\'t affect the outputs when the Clock input is 1. The Data input affects the outputs only at the instant that the Clock changes from <<0|20b>> to <<1|20a>>.',
+          ],
+          [
+            1,
+            '[00:00] Code - Charles Petzold.epub (OEBPS/ch14.html) - 0',
+            'The idea here is that the Clock input controls both the first stage and the second stage. But notice that the clock is inverted in the first stage. This means that the first stage works exactly like a D-type flip-flop except that the Data input is stored when the Clock is 0. The outputs of the second stage are inputs to the first stage, and these are saved when the Clock is 1. The overall result is that the Data input is saved when the Clock changes from <<0|20b>> to <<1|20a>>.',
+          ],
+          [
+            1,
+            '[00:00] Code - Charles Petzold.epub (OEBPS/ch14.html) - 0',
+            'The Q and outputs can change only at the instant that the Clock input changes from <<0|20b>> to <<1|20a>>.',
+          ],
+          [
+            1,
+            '[00:00] Code - Charles Petzold.epub (OEBPS/ch14.html) - 0',
+            'The arrow indicates that the output Q becomes the same as the Data input when the Clock makes a transition from <<0|20b>> to <<1|20a>>. This is known as a positive transition of the Clock signal. (A negative transition is the transition from <<1|20b>> to <<0|20a>>.) The flip-flop has a diagram like this:',
+          ],
+          [
+            1,
+            '[00:00] Code - Charles Petzold.epub (OEBPS/ch14.html) - 0',
+            'When the Clock input changes from <<0|20b>> to <<1|20a>>, the Q output will become the same as the D input:',
+          ],
+          [
+            1,
+            '[00:00] Code - Charles Petzold.epub (OEBPS/ch14.html) - 0',
+            'What\'s happening here can be summed up very simply: Every time the Clock input changes from <<0|20b>> to <<1|20a>>, the Q output changes, either from <<0|20b>> to <<1|20a>> or from <<1|20b>> to <<0|20a>>. The situation is clearer if we look at the timing diagram:',
+          ],
+          [
+            1,
+            '[00:00] Code - Charles Petzold.epub (OEBPS/ch14.html) - 0',
+            'When the Clock input goes from <<0|20b>> to <<1|20a>>, the value of D (which is the same as ) is transferred to Q, thus also changing and D for the next transition of the Clock input from <<0|20b>> to <<1|20a>>.',
           ],
           [
             1,
@@ -447,6 +477,11 @@ A x <<1000h|1>> +
           ],
           [
             1,
+            '[00:00] Code - Charles Petzold.epub (OEBPS/ch17.html) - 0',
+            "At the time I showed this circuit to you in Chapter\x{a0}14, the only latches that I had introduced so far were level triggered. In a level-triggered latch, the Clock input has to go to 1 and then back to 0 in order for the latch to store something. During the time the Clock input is 1, the data inputs of the latch can change and these changes will affect the stored output. Later in that chapter, I introduced edge-triggered latches. These latches save their values in the brief moment that the Clock input goes from <<0|20b>> to <<1|20a>>. Edge-triggered latches are often somewhat easier to use, so I want to assume that all the latches in this chapter are edge triggered.",
+          ],
+          [
+            1,
             '[00:00] Code - Charles Petzold.epub (OEBPS/ch17.html) - 0000h',
             'This is certainly not the easiest piece of calculating equipment ever invented. To use it, you first must close the switch labeled Clear. This clears the contents of the latch and sets the output of the 16-bit counter to <<0000h|1>>. Then you close the Takeover switch on the RAM control panel. You can then enter a set of 8-bit numbers that you want to add beginning at RAM address <<0000h|1>>. If you have 100 numbers, you\'ll store these numbers at addresses <<0000h|1>> through 0063h. (You should also set all the unused entries in the RAM array to 00h.) You can then open the Takeover switch of the RAM control panel (so that the control panel no longer has control over the RAM array) and open the Clear switch. Then just sit back and watch the flashing lightbulbs.',
           ],
@@ -457,8 +492,8 @@ A x <<1000h|1>> +
           ],
           [
             1,
-            '[00:01] Code - Charles Petzold.epub (OEBPS/ch17.html) - 0001h',
-            "The oscillator provides a clock signal\x{2014}a signal that alternates between 0 and 1 very quickly. After the Clear switch is opened, whenever the clock changes from a 0 to a 1, two things happen simultaneously: The latch stores the sum from the adder, and the 16-bit counter increments, thus addressing the next value in the RAM array. The first time the clock changes from 0 to 1 after the Clear switch is opened, the latch stores the first value and the counter increments to <<0001h|1>>. The second time, the latch stores the sum of the first and second values, and the counter increments to <<0002h|1>>. And so on.",
+            '[00:00] Code - Charles Petzold.epub (OEBPS/ch17.html) - 0',
+            "The oscillator provides a clock signal\x{2014}a signal that alternates between 0 and 1 very quickly. After the Clear switch is opened, whenever the clock changes from a 0 to a 1, two things happen simultaneously: The latch stores the sum from the adder, and the 16-bit counter increments, thus addressing the next value in the RAM array. The first time the clock changes from <<0|20b>> to <<1|20a>> after the Clear switch is opened, the latch stores the first value and the counter increments to <<0001h|1>>. The second time, the latch stores the sum of the first and second values, and the counter increments to <<0002h|1>>. And so on.",
           ],
           [
             1,
@@ -831,8 +866,8 @@ So the entire multiplication program can be written as a series of statements li
           ],
           [
             1,
-            '[17:56] Code - Charles Petzold.epub (OEBPS/ch19.html) - 4 to 18',
-            "When the 8080 is running at its maximum speed of 2 MHz, each clock cycle is 500 nanoseconds. (1 \x{f7} 2,000,000 cycles per second = 0.000000500 seconds.) The instructions in the Chapter\x{a0}17 computer all required 4 clock cycles. Each 8080 instruction requires anywhere from <<4 to 18|10a:1>> clock cycles. This means that each instruction is executed in <<2 to 9|10a:1>> microseconds (millionths of a second).",
+            '[ap 04:00] Code - Charles Petzold.epub (OEBPS/ch19.html) - 4',
+            "When the 8080 is running at its maximum speed of 2 MHz, each clock cycle is 500 nanoseconds. (1 \x{f7} 2,000,000 cycles per second = 0.000000500 seconds.) The instructions in the Chapter\x{a0}17 computer all required 4 clock cycles. Each 8080 instruction requires anywhere from <<4|20b>> to <<18|20a>> clock cycles. This means that each instruction is executed in 2 to 9 microseconds (millionths of a second).",
           ],
           [
             1,

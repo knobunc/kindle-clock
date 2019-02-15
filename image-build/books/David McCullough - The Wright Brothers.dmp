@@ -21,6 +21,11 @@ $VAR1 = [
           ],
           [
             1,
+            '[ap > 01:00] The Wright Brothers - David McCullough.epub (ops/xhtml/ch03.html) - just after one',
+            'They arrived at Elizabeth City <<just after one|10>> of the worst hurricanes in memory, with winds recorded at 93 miles an hour. Two days passed before they were able to sail for Kitty Hawk.',
+          ],
+          [
+            1,
             "[ap > 05:00] The Wright Brothers - David McCullough.epub (ops/xhtml/ch03.html) - a little after five o\x{2019}clock",
             "The sand and grass and trees and hills and everything was fairly covered with them. They chewed us clear through our underwear and socks. Lumps began swelling up all over my body like hen\x{2019}s eggs. We attempted to escape by going to bed, which we did at <<a little after five o\x{2019}clock|6>>.\x{a0}.\x{a0}.\x{a0}. We put our cots out under the awnings and wrapped up in our blankets with only our noses protruding from the folds, thus exposing the least possible surface to attack.",
           ],
@@ -83,11 +88,6 @@ $VAR1 = [
             1,
             "[ap ~ 11:00] The Wright Brothers - David McCullough.epub (ops/xhtml/ch05.html) - about eleven o\x{2019}clock",
             "At <<about eleven o\x{2019}clock|6>>, the wind having eased off somewhat, Wilbur took a turn and \x{201c}went off like a bird\x{201d} for 175 feet. Orville went again, flying 200 feet. Then, <<near noon|13>>, on the fourth test, Wilbur flew a little over half a mile through the air and a distance of 852 feet over the ground in 59 seconds.",
-          ],
-          [
-            1,
-            '[ap 07:00] The Wright Brothers - David McCullough.epub (ops/xhtml/ch06.html) - 7',
-            "In December, Amos Root returned to Dayton\x{2014}and by the interurban this time\x{2014}and met with the Wrights at <<7|3e:0>> Hawthorn to read aloud what he had written in advance of publication. It was one last step to ensure accuracy and apparently it all went well. What suggested changes, if any, or comments the Wrights may have offered are not known.",
           ],
           [
             1,
@@ -166,28 +166,13 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 01:31] The Wright Brothers - David McCullough.epub (ops/xhtml/ch09.html) - one hour, 31 minutes',
-            "On Monday, September 21, at Camp d\x{2019}Auvours, Wilbur was back in action taking \x{201c}the bull by the horns,\x{201d} as he liked to say, before ten thousand spectators. He flew <<one hour, 31 minutes|14>>, and 25 seconds, over a distance of 40 miles establishing another sensational world record.",
-          ],
-          [
-            1,
             '[ap > 11:00] The Wright Brothers - David McCullough.epub (ops/xhtml/ch09.html) - after eleven',
             "\x{201c}Tonight I am staying all night with him. After I came today he quieted down and was so much easier that I made up my mind to see him through the night. It is <<after eleven|9w>> now and he has been asleep nearly an hour. Last night codeine had no effect. Tonight it has.\x{201d}",
           ],
           [
             1,
-            '[ap 01:31] The Wright Brothers - David McCullough.epub (ops/xhtml/ch09.html) - One hour, thirty-one minutes',
-            'Will had his nerve with him sure enough [she wrote, knowing how her father must feel]. <<One hour, thirty-one minutes|14>>, twenty-five seconds! All the newspapermen began calling up the hospital to tell me. Orville did a great deal of smiling over it. That did him an immense amount of good.',
-          ],
-          [
-            1,
             '[00:00] The Wright Brothers - David McCullough.epub (ops/xhtml/ch09.html) - midnight',
             "\x{201c}It\x{2019}s <<midnight|13>> now and I am very tired,\x{201d} she wrote at last. \x{201c}Orville is still sleeping. The night nurse has gone down to get a sandwich and some tea for me.\x{201d}",
-          ],
-          [
-            1,
-            '[ap 02:20] The Wright Brothers - David McCullough.epub (ops/xhtml/ch10.html) - 2 hours, 20 minutes',
-            "On the day of the event, December 31, the last day of the year and Wilbur\x{2019}s last big event at Camp d\x{2019}Auvours, in spite of rain and cold he was barely able to endure, he put on his most astonishing performance yet, flying longer and farther than anyone ever had\x{2014}<<2 hours, 20 minutes|14>>, and 23 and one fifth seconds during which he covered a distance of 77 miles. He won the Cup.",
           ],
           [
             1,

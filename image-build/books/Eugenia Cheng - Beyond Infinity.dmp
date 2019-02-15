@@ -51,6 +51,11 @@ $VAR1 = [
           ],
           [
             1,
+            '[00:00] Beyond Infinity_ An Expedition to the Oute - Eugenia Cheng.epub (OEBPS/Text/chapter008.xhtml) - 0',
+            "This argument would work for any size of interval, from any real number to any other real number. To scale the portion from <<0|20b>> to <<1|20a>> up to the whole of the reals, we have to do something more sneaky as we can\x{2019}t just \x{201c}multiply everything by infinity.\x{201d} We could get all the positive real numbers like this: Start with your x taken from between 0 and 1. Then calculate 1/x, which will give us something between 1 and infinity. Then subtract 1. This will give us a pairing of the real numbers between 0 and 1 with all the real numbers between 0 and infinity.",
+          ],
+          [
+            1,
             '[06:00] Beyond Infinity_ An Expedition to the Oute - Eugenia Cheng.epub (OEBPS/Text/chapter009.xhtml) - 6 a.m.',
             "This reminds me of the times I have stood in the queue at the Royal Albert Hall to go to the Proms, a series of concerts. When you arrive, you\x{2019}re given a raffle ticket telling you your place in the queue. I once arrived at <<6 a.m.|5>> to queue to see the amazing Sim\x{f3}n Bolivar Orchestra conducted by Gustavo Dudamel, playing Mahler\x{2019}s Second Symphony, one of my favorites. I was very excited to be number 6 in the queue, and after spending all day as number 6 I had become quite good friends with number 5. (Numbers 7 and 8 were my parents.) In this case it really matters what order everyone arrives in. I arrived that early because I really wanted to be at the very front, and after queueing for thirteen hours, I didn\x{2019}t really want anyone to push in front of me. Numbers 1, 2, and 3 had camped out overnight to get their places.",
           ],
@@ -71,8 +76,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 02:58] Beyond Infinity_ An Expedition to the Oute - Eugenia Cheng.epub (OEBPS/Text/chapter012.xhtml) - two to three',
-            "One way to think about four dimensions is as a generalization of three dimensions. To understand how this generalization works, it\x{2019}s helpful to take a few more steps back so that we can get a bit of a running start. If we see how to go from one dimension to two, and then from <<two to three|10a:0>>, it helps us to see how to go from <<three to four|10a:0>>, and then from <<four to five|10a:0>>, and then from any n to any n + 1, just like the child climbing up stairs or us climbing the ladder of infinities. Then maybe if we never stop, we\x{2019}ll get an infinite number of dimensions. (Sometimes I think this idea of generalizing forever is a form of mathematical optimism.)",
+            '[ap 02:00] Beyond Infinity_ An Expedition to the Oute - Eugenia Cheng.epub (OEBPS/Text/chapter012.xhtml) - two',
+            "One way to think about four dimensions is as a generalization of three dimensions. To understand how this generalization works, it\x{2019}s helpful to take a few more steps back so that we can get a bit of a running start. If we see how to go from one dimension to two, and then from <<two|20b>> to <<three|20a>>, it helps us to see how to go from <<three|20b>> to <<four|20a>>, and then from <<four|20b>> to <<five|20a>>, and then from any n to any n + 1, just like the child climbing up stairs or us climbing the ladder of infinities. Then maybe if we never stop, we\x{2019}ll get an infinite number of dimensions. (Sometimes I think this idea of generalizing forever is a form of mathematical optimism.)",
           ],
           [
             1,
@@ -81,13 +86,13 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 05:57] Beyond Infinity_ An Expedition to the Oute - Eugenia Cheng.epub (OEBPS/Text/chapter014.xhtml) - 3 to 6',
-            "Remember when we thought about trying to define subtraction involving infinity, we had to go back to thinking about things like 6 \x{2212} 3 as \x{201c}how far do I have to count up to get from <<3 to 6|10a:0>>?\x{201d} That is, we thought about solving equations like this:",
+            '[ap 03:00] Beyond Infinity_ An Expedition to the Oute - Eugenia Cheng.epub (OEBPS/Text/chapter014.xhtml) - 3',
+            "Remember when we thought about trying to define subtraction involving infinity, we had to go back to thinking about things like 6 \x{2212} 3 as \x{201c}how far do I have to count up to get from <<3|20b>> to <<6|20a>>?\x{201d} That is, we thought about solving equations like this:",
           ],
           [
             1,
-            '[ap 02:58] Beyond Infinity_ An Expedition to the Oute - Eugenia Cheng.epub (OEBPS/Text/chapter015.xhtml) - 2 to 3',
-            "I said the gap is in the parabola, but maybe it\x{2019}s in the straight line? Actually it\x{2019}s in both, and it\x{2019}s not just at that point. The gaps are everywhere, so there are all sorts of places where a straight line would cross the parabola without meeting it. Moving the line from <<2 to 3|10a:0>> will give another place. This is one of the things that really lead us to want to fill those gaps in. We want to be able to know that if we draw two lines and they cross, they really actually intersect somewhere. This is the intermediate value theorem. It\x{2019}s called that because in its most basic form it says that if you grow continuously from height A to height B, then you have to achieve every intermediate height at some point. Anyone who is currently six feet tall must at some point in the past have been five feet tall. Carrots must at one point have been baby carrots.",
+            '[ap 02:00] Beyond Infinity_ An Expedition to the Oute - Eugenia Cheng.epub (OEBPS/Text/chapter015.xhtml) - 2',
+            "I said the gap is in the parabola, but maybe it\x{2019}s in the straight line? Actually it\x{2019}s in both, and it\x{2019}s not just at that point. The gaps are everywhere, so there are all sorts of places where a straight line would cross the parabola without meeting it. Moving the line from <<2|20b>> to <<3|20a>> will give another place. This is one of the things that really lead us to want to fill those gaps in. We want to be able to know that if we draw two lines and they cross, they really actually intersect somewhere. This is the intermediate value theorem. It\x{2019}s called that because in its most basic form it says that if you grow continuously from height A to height B, then you have to achieve every intermediate height at some point. Anyone who is currently six feet tall must at some point in the past have been five feet tall. Carrots must at one point have been baby carrots.",
           ],
           [
             1,

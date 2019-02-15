@@ -1,8 +1,8 @@
 $VAR1 = [
           [
             1,
-            '[ap 07:52] A Bell for Adano - John Hersey.epub (A_Bell_for_Adano_split_002.html) - eight to eight',
-            "Major Joppolo said: \x{201c}You were the usher here?\x{201d} \x{201c}Every day from <<eight to eight|10a:0>>.\x{201d}",
+            '[ap 08:00] A Bell for Adano - John Hersey.epub (A_Bell_for_Adano_split_002.html) - eight',
+            "Major Joppolo said: \x{201c}You were the usher here?\x{201d} \x{201c}Every day from <<eight|20b>> to <<eight|20a>>.\x{201d}",
           ],
           [
             1,
@@ -139,8 +139,8 @@ Tomasino said sadly: \x{201c}<<Eight|9k:0>>, <<nine|9k:0>>, <<ten|9k:0>> - what 
           ],
           [
             1,
-            '[ap 00:48] A Bell for Adano - John Hersey.epub (A_Bell_for_Adano_split_017.html) - twelve to one',
-            "\x{201c}Lots of them have told me that they\x{2019}re better off now than they were before. For one thing, they can congregate in the streets any time they want and talk about whatever they want to. They can listen to their radios. They know they can get a fair trial out of me. They can come to the City Hall and talk to me any time they want. Mayor Nasta had office hours from <<twelve to one|10a:1>> each day and you had to apply for an audience weeks in advance. I told you about the streets being clean. Oh, there are lots of ways, Lord, and if I have anything to do with it there\x{2019}ll be lots more.\x{201d}",
+            '[ap 00:00] A Bell for Adano - John Hersey.epub (A_Bell_for_Adano_split_017.html) - twelve',
+            "\x{201c}Lots of them have told me that they\x{2019}re better off now than they were before. For one thing, they can congregate in the streets any time they want and talk about whatever they want to. They can listen to their radios. They know they can get a fair trial out of me. They can come to the City Hall and talk to me any time they want. Mayor Nasta had office hours from <<twelve|20b>> to one each day and you had to apply for an audience weeks in advance. I told you about the streets being clean. Oh, there are lots of ways, Lord, and if I have anything to do with it there\x{2019}ll be lots more.\x{201d}",
           ],
           [
             1,
@@ -301,7 +301,7 @@ Gargano brought in the first culprit, one Monday afternoon, and as he led him in
           [
             1,
             '[ap ~ 03:45] A Bell for Adano - John Hersey.epub (A_Bell_for_Adano_split_037.html) - about a quarter to four',
-            "The Major got back to his office at <<about a quarter to four|10>>. He went through the courier mail and worked for a few minutes on a report to Colonel Sartorius. Promptly at <<four|3e:1>> Zito came in and said: \x{201c}Will you see the officials now?\x{201d}",
+            "The Major got back to his office at <<about a quarter to four|10>>. He went through the courier mail and worked for a few minutes on a report to Colonel Sartorius. Promptly at <<four|3g>> Zito came in and said: \x{201c}Will you see the officials now?\x{201d}",
           ],
           [
             1,

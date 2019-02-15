@@ -6,6 +6,13 @@ $VAR1 = [
           ],
           [
             1,
+            '[ap 00:30] The Robots of Dawn - Isaac Asimov.epub (index_split_010.html) - half of one',
+            "\x{201c}For how long?\x{201d}
+\x{201c}About eight months\x{2014}or a little over <<half of one|10>> of your years.\x{201d}
+\x{201c}Ah. It's an interesting point. Were you with him\x{2014}or near him\x{2014}at the time of his destruction? Could you have reached him? In short, can we demonstrate the fact that you were so far from him\x{2014}or so out of touch with him\x{2014} that it is not reasonable to suppose that you could have done the deed at the time it is supposed to have been done?\x{201d}",
+          ],
+          [
+            1,
             '[ap 07:05] The Robots of Dawn - Isaac Asimov.epub (index_split_013.html) - 0705',
             "Daneel said, \x{201c}It is <<0705|9l>>, by Auroran measure. Physiologically, breakfast will be ready in half an hour.\x{201d} He said it without a trace of humor, though a human being might have found a smile appropriate.",
           ],
@@ -30,12 +37,5 @@ $VAR1 = [
             1,
             '[ap 00:30] The Robots of Dawn - Isaac Asimov.epub (index_split_024.html) - half of one',
             "Baley heard the statement with <<half of one|10>> ear. What he had just said to Fastolfe was fiction and what Fastolfe was saying didn't matter. It was (as the Chairman would have said) irrelevant. In fact, everything that had happened\x{2014}everything that Baley had explained\x{2014}was irrelevant. \x{2014}But nothing had to be changed because of that.",
-          ],
-          [
-            1,
-            '[ap 03:10] The Robots of Dawn - Isaac Asimov.epub (index_split_024.html) - Three hours and ten minutes',
-            "Baley said, \x{201c}How much time before I must leave for the spaceport, Giskard?\x{201d}
-\x{201c}<<Three hours and ten minutes|14>>, sir.\x{201d}
-Baley thought a moment. \x{201c}I would like to walk over to that tree there and sit down with my back against the trunk and spend some time there alone. With you, of course, but away from other human beings.\x{201d}",
           ],
         ];

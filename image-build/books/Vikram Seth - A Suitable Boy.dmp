@@ -1499,7 +1499,7 @@ For the last week or so Mahesh Kapoor, like many other senior and junior state p
           [
             1,
             "[ap > 07:00] A Suitable Boy - Vikram Seth.epub (OEBPS/Text/part0266.html) - after seven o\x{2019}clock",
-            "\x{2018}Can\x{2019}t you leave for Patna <<after seven o\x{2019}clock|6>>? Evening visiting hours are from <<five to seven|10a:1>>.\x{2019}",
+            "\x{2018}Can\x{2019}t you leave for Patna <<after seven o\x{2019}clock|6>>? Evening visiting hours are from <<five|20b>> to <<seven|20a>>.\x{2019}",
           ],
           [
             1,
@@ -1562,6 +1562,11 @@ The next day Pran was lecturing when he suddenly felt weak and breathless. His m
             '[ap 00:12] A Suitable Boy - Vikram Seth.epub (OEBPS/Text/part0282.html) - 12.12',
             '<<12.12|4>>
 His stubborn streak was being exercised at this very moment. Pran was alone in the staff room with Professor Mishra, who had discovered, though not much to his alarm, that the scene he had happened upon when passing the door of the classroom was not an enactment of Shakespeare, but, rather, real life. He liked to be well informed about things, and he asked the students a few questions. He settled the visitor he had been escorting in the office of the Head of Department, and went off to the staff room.',
+          ],
+          [
+            1,
+            '[b 20:30] A Suitable Boy - Vikram Seth.epub (OEBPS/Text/part0282.html) - one bell',
+            "Professor Mishra placed his vast, pallid arm on Pran\x{2019}s. \x{2018}But your students are so protective of you, so protective,\x{2019} he said. \x{2018}That is one of the joys of teaching\x{2014}contact with one\x{2019}s students. To inspire them in a lecture, to make them think, after forty-five minutes, that the world has changed for them, that it is somehow different from <<one bell|15>> to the next. To open out for them the heart of a poem\x{2014}ah! Someone said to me the other day that they considered me to be one of those teachers whose lectures students would never forget\x{2014}a great teacher like Deb or Dustoor or Khaliluddin Ahmed. I was, he said, a presence at the lectern. I was just a moment ago telling Professor Jaikumar of Madras University, whom I was escorting around our department, that it was a compliment I would never forget. Ah, but my dear fellow, I should be talking of your students, not my own. Many of them were intrigued by that charming and extremely competent girl who took charge a little while ago. Who was she? Had you ever seen her before?\x{2019}",
           ],
           [
             1,

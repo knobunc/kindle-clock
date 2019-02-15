@@ -52,7 +52,7 @@ $VAR1 = [
           [
             1,
             '[14:14] Schneier on Security - Bruce Schneier.epub (Schneier_on_Security_split_070.html) - 14:14',
-            "This is where I think Blaster may have been involved. The report gives a specific timeline for the failures. At <<14:14|2>> EDT, the \x{201c}alarm and logging software\x{201d} at FirstEnergy\x{2019}s control room failed. This alarm software \x{201c}provided audible and visual indications when a significant piece of equipment changed from an acceptable to problematic condition.\x{201d} Of course, no one knew that it failed.",
+            "This is where I think Blaster may have been involved. The report gives a specific timeline for the failures. At <<14:14|1a>> EDT, the \x{201c}alarm and logging software\x{201d} at FirstEnergy\x{2019}s control room failed. This alarm software \x{201c}provided audible and visual indications when a significant piece of equipment changed from an acceptable to problematic condition.\x{201d} Of course, no one knew that it failed.",
           ],
           [
             1,
@@ -62,7 +62,7 @@ $VAR1 = [
           [
             1,
             '[> 14:14] Schneier on Security - Bruce Schneier.epub (Schneier_on_Security_split_070.html) - After 14:14',
-            "This massive computer failure was critical to the cascading power failure. The report continues: \x{201c}Power system operators rely heavily on audible and on-screen alarms, plus alarm logs, to reveal any significant changes in their system\x{2019}s conditions. <<After 14:14|2>> EDT on August 14, FE\x{2019}s operators were working under a significant handicap without these tools. However, they were in further jeopardy because they did not know that they were operating without alarms, so that they did not realize that system conditions were changing.\x{201d}",
+            "This massive computer failure was critical to the cascading power failure. The report continues: \x{201c}Power system operators rely heavily on audible and on-screen alarms, plus alarm logs, to reveal any significant changes in their system\x{2019}s conditions. <<After 14:14|1a>> EDT on August 14, FE\x{2019}s operators were working under a significant handicap without these tools. However, they were in further jeopardy because they did not know that they were operating without alarms, so that they did not realize that system conditions were changing.\x{201d}",
           ],
           [
             1,
@@ -71,13 +71,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 01:40] Schneier on Security - Bruce Schneier.epub (Schneier_on_Security_split_070.html) - 1 hour and 40 minutes',
-            'According to research by Stuart Staniford, Blaster was a random-start sequential-scanner, and scanned at about 11 IPs/second. A given scanner would cover a Class B network in about <<1 hour and 40 minutes|14>>. The FirstEnergy computer-failure times are fairly consistent with a series of computers with addresses dotted around a class B being compromised by a scan of the class B, probably by an infected instance on the same network. (Note that it was not necessary for the FirstEnergy network to be on the Internet; Blaster infected many internal networks.)',
-          ],
-          [
-            1,
             '[14:14] Schneier on Security - Bruce Schneier.epub (Schneier_on_Security_split_070.html) - 14:14',
-            "The coincidence of the timing is too obvious to ignore. At <<14:14|2>> EDT, the Blaster Worm was dropping systems all across North America. The report doesn\x{2019}t explain why so many computers\x{2014}both primary and backup systems\x{2014}at FirstEnergy were failing at around the same time, but Blaster is certainly a reasonable suspect.",
+            "The coincidence of the timing is too obvious to ignore. At <<14:14|1a>> EDT, the Blaster Worm was dropping systems all across North America. The report doesn\x{2019}t explain why so many computers\x{2014}both primary and backup systems\x{2014}at FirstEnergy were failing at around the same time, but Blaster is certainly a reasonable suspect.",
           ],
           [
             1,

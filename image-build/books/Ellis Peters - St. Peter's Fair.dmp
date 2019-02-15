@@ -1,4 +1,4 @@
-$VAR1 = [
+0$VAR1 = [
           [
             1,
             '[~ 16:30] St. Peter\'s Fair - Ellis Peters.epub (OEBPS/Text/009.html) - Vespers',
@@ -92,7 +92,7 @@ $VAR1 = [
           [
             1,
             '[~ 18:00] St. Peter\'s Fair - Ellis Peters.epub (OEBPS/Text/015.html) - Compline',
-            "\x{201c}According to his journeyman and his watchman, he left his booth on the horse-fair, intending to return to his barge, more than an hour past the <<Compline|13>> bell. That is the last word we have. His man Roger Dod is here to testify that the hour was rather more than a quarter past nine of the evening and the watchman bears that out.\x{201d}",
+            "\x{201c}According to his journeyman and his watchman, he left his booth on the horse-fair, intending to return to his barge, more than an hour past the <<Compline|13>> bell. That is the last word we have. His man Roger Dod is here to testify that the hour was rather more than a <<quarter past nine|10>> of the evening and the watchman bears that out.\x{201d}",
           ],
           [
             1,

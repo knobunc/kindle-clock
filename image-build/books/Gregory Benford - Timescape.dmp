@@ -17,7 +17,7 @@ $VAR1 = [
           [
             1,
             '[ap 02:50] Timescape - Gregory Benford.epub (OEBPS/Text/Timescape_split_016.html) - ten to three',
-            "As if reading her thoughts, Jan quoted softly: \x{201c}Stands the church clock at <<ten to three|10a>>? And is there honey still for tea?\x{201d}",
+            "As if reading her thoughts, Jan quoted softly: \x{201c}Stands the church clock at <<ten to three|10d>>? And is there honey still for tea?\x{201d}",
           ],
           [
             1,
@@ -74,7 +74,7 @@ $VAR1 = [
           [
             1,
             '[18:05] Timescape - Gregory Benford.epub (OEBPS/Text/Timescape_split_034.html) - 18 hours, 5 minutes',
-            "\x{201c}See\x{2014}Right Ascension is <<18 hours, 5 minutes|14>>, 36 seconds. Now, 99 Hercules is this dot at <<18 hours, 5 minutes|14>>, 8 seconds, a little off. Declination of your signal is 30 degrees, 29.2 minutes. That fits.\x{201d}",
+            "\x{201c}See\x{2014}Right Ascension is 18 hours, 5 minutes, 36 seconds. Now, 99 Hercules is this dot at <<18 hours, 5 minutes|14>>, 8 seconds, a little off. Declination of your signal is 30 degrees, 29.2 minutes. That fits.\x{201d}",
           ],
           [
             1,
@@ -179,11 +179,6 @@ $VAR1 = [
             1,
             '[> 00:00] Timescape - Gregory Benford.epub (OEBPS/Text/Timescape_split_080.html) - past midnight',
             "MARJORIE HOPED JOHN WOULD BE HOME SOON. HE had worked <<past midnight|13>> every night this week. She ran a hand through her hair, eyed her empty glass. Better not. She\x{2019}d had three already. Was this how one became an alcoholic? She got up suddenly, turned on the radio and the stereo at high volume. A cacophony of sound blared through the room, a jazz band clashing against a trio of Latin singers, bringing a kind of life. She went through the ground floor again, turning on all the lights. Conservation be damned. Her nerves were jumping and she was having a little difficulty focusing her eyes. After all, what was there to stay sober for? She picked up her glass and headed for the sideboard.",
-          ],
-          [
-            1,
-            '[18:05] Timescape - Gregory Benford.epub (OEBPS/Text/Timescape_split_082.html) - 18 hr, 5 min',
-            "Solar motion, discounting the rotation about galactic center, can be adequately described as a cosine 0 distribution. We are moving away from the solar antapex and toward the solar apex. Since the position of the solar apex represents an average over many local stellar motions, there are significant uncertainties. RA can be specified only to <<18 hr, 5 min|14>> \x{b1} 1 min; DEC to 30 degrees, \x{b1} 40 min.",
           ],
           [
             1,

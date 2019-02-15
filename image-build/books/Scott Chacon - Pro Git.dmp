@@ -132,17 +132,17 @@ $VAR1 = [
           [
             1,
             '[ap 02:08] Pro Git - Scott Chacon.epub (OEBPS/ch07-git-tools.xhtml) - 02:08',
-            '$ git tag -v v1.4.2.1 object 883653babd8ee7ea23e6a5c392bb739348b1eb61 type commit tag v1.4.2.1 tagger Junio C Hamano <junkio@cox.net> 1158138501 -0700 GIT 1.4.2.1 Minor fixes since 1.4.2, including git-mv and git-http with alternates. gpg: Signature made Wed Sep 13 <<02:08|2>>:25 2006 PDT using DSA key ID F3119B9A gpg: Good signature from "Junio C Hamano <junkio@cox.net>" gpg: aka "[jpeg image of size 1513]" Primary key fingerprint: 3565 2A26 2040 E066 C9A7 4A7D C0C6 D9A4 F311 9B9A',
+            '$ git tag -v v1.4.2.1 object 883653babd8ee7ea23e6a5c392bb739348b1eb61 type commit tag v1.4.2.1 tagger Junio C Hamano <junkio@cox.net> 1158138501 -0700 GIT 1.4.2.1 Minor fixes since 1.4.2, including git-mv and git-http with alternates. gpg: Signature made Wed Sep 13 <<02:08|2>>:25 <<2006|1a>> PDT using DSA key ID F3119B9A gpg: Good signature from "Junio C Hamano <junkio@cox.net>" gpg: aka "[jpeg image of size 1513]" Primary key fingerprint: 3565 2A26 2040 E066 C9A7 4A7D C0C6 D9A4 F311 9B9A',
           ],
           [
             1,
             '[ap 02:08] Pro Git - Scott Chacon.epub (OEBPS/ch07-git-tools.xhtml) - 02:08',
-            'gpg: Signature made Wed Sep 13 <<02:08|2>>:25 2006 PDT using DSA key ID F3119B9A gpg: Can\'t check signature: public key not found error: could not verify the tag \'v1.4.2.1\'',
+            'gpg: Signature made Wed Sep 13 <<02:08|2>>:25 <<2006|1a>> PDT using DSA key ID F3119B9A gpg: Can\'t check signature: public key not found error: could not verify the tag \'v1.4.2.1\'',
           ],
           [
             1,
             '[19:49] Pro Git - Scott Chacon.epub (OEBPS/ch07-git-tools.xhtml) - 19:49',
-            '$ git log --show-signature -1 commit 5c3386cf54bba0a33a32da706aa52bc0155503c2 gpg: Signature made Wed Jun 4 <<19:49|2>>:17 2014 PDT using RSA key ID 0A46826A gpg: Good signature from "Scott Chacon (Git signing key) <schacon@gmail.com>" Author: Scott Chacon <schacon@gmail.com> Date: Wed Jun 4 <<19:49|2>>:17 2014 -0700 signed commit',
+            '$ git log --show-signature -1 commit 5c3386cf54bba0a33a32da706aa52bc0155503c2 gpg: Signature made Wed Jun 4 <<19:49|2>>:17 <<2014|1a>> PDT using RSA key ID 0A46826A gpg: Good signature from "Scott Chacon (Git signing key) <schacon@gmail.com>" Author: Scott Chacon <schacon@gmail.com> Date: Wed Jun 4 <<19:49|2>>:17 2014 -0700 signed commit',
           ],
           [
             1,

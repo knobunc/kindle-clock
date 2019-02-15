@@ -1,8 +1,8 @@
 $VAR1 = [
           [
             1,
-            '[ap 02:50] A Confederacy of Dunces - John Kennedy Toole.epub (index_split_004.html) - ten to three',
-            "\x{201c}You work six days a week from <<ten to three|10a:0>>. If you come in regular, who knows? You might get a little raise.\x{201d}",
+            '[ap 10:00] A Confederacy of Dunces - John Kennedy Toole.epub (index_split_004.html) - ten',
+            "\x{201c}You work six days a week from <<ten|20b>> to <<three|20a>>. If you come in regular, who knows? You might get a little raise.\x{201d}",
           ],
           [
             1,
@@ -33,8 +33,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 00:30] A Confederacy of Dunces - John Kennedy Toole.epub (index_split_007.html) - twelve-thirty',
-            "\x{201c}This Jones goes out to lunch from twelve to <<twelve-thirty|5k:1>>. So you come around <<about twelve-forty-five|5k:1>>.\x{201d}",
+            '[ap 00:00] A Confederacy of Dunces - John Kennedy Toole.epub (index_split_007.html) - twelve',
+            "\x{201c}This Jones goes out to lunch from <<twelve|20b>> to <<twelve-thirty|20a>>. So you come around <<about twelve-forty-five|5k:1>>.\x{201d}",
           ],
           [
             1,

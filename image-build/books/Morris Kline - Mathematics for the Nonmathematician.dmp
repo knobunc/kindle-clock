@@ -18,8 +18,8 @@ Chapter 20",
           ],
           [
             1,
-            '[ap 08:59] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_09_ch2.html) - 1 to 9',
-            'We are indebted to the Arabs not only for their resuscitation of the Greek works but for picking up some simple but useful ideas from India, their neighbor on the East. The Indians, too, had built up some elementary mathematics comparable in extent and spirit with the Egyptian and Babylonian developments. However, after about 200 A.D., mathematical activity in India became more appreciable, probably as a result of contacts with the Alexandrian Greek civilization. The Hindus made a few contributions of their own, such as the use of special number symbols from <<1 to 9|10a:0>>, the introduction of 0, and the use of positional notation with base ten, that is, our modern method of writing numbers. They also created negative numbers. These ideas were taken over by the Arabs and incorporated in their mathematical works.',
+            '[ap 01:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_09_ch2.html) - 1',
+            'We are indebted to the Arabs not only for their resuscitation of the Greek works but for picking up some simple but useful ideas from India, their neighbor on the East. The Indians, too, had built up some elementary mathematics comparable in extent and spirit with the Egyptian and Babylonian developments. However, after about 200 A.D., mathematical activity in India became more appreciable, probably as a result of contacts with the Alexandrian Greek civilization. The Hindus made a few contributions of their own, such as the use of special number symbols from <<1|20b>> to <<9|20a>>, the introduction of 0, and the use of positional notation with base ten, that is, our modern method of writing numbers. They also created negative numbers. These ideas were taken over by the Arabs and incorporated in their mathematical works.',
           ],
           [
             1,
@@ -77,8 +77,8 @@ we see that <<1.41|5a:0>> is a good two-decimal approximation of . We could, of 
           ],
           [
             1,
-            '[20:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_11_ch4.html) - 0 to 20',
-            "There are people who campaign for the adoption of base twelve, because it offers special advantages. For one thing, more fractions can be written as finite decimals in base twelve. Thus must be written as the unending decimal 0.333 . . . in base ten, but can be written as 0.4 in base twelve, since in this base 0.4 means . Also, since the English system of denoting length calls for 12 inches in one foot, we could, for example, express 3 feet and 6 inches as 36 inches in base twelve, whereas to express this number of inches in base ten, we must first calculate 3 \x{b7} 12 + 6 and then write 42 in base ten. To a limited extent we could use base twelve in our method of recording time. In the United States the day has two sets of twelve hours, and in base twelve the hours of the day would run from <<0 to 20|10a:1>>. Whereas determining what <<7 hours after 6 o\x{2019}clock|10>> will be requires at present some computation, under the addition table for base twelve we would state at once that 7 + 6 = 11. However, base ten is now so widely used that a change to another base for ordinary daily use or commerce is hardly likely.",
+            '[00:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_11_ch4.html) - 0',
+            "There are people who campaign for the adoption of base twelve, because it offers special advantages. For one thing, more fractions can be written as finite decimals in base twelve. Thus must be written as the unending decimal 0.333 . . . in base ten, but can be written as 0.4 in base twelve, since in this base 0.4 means . Also, since the English system of denoting length calls for 12 inches in one foot, we could, for example, express 3 feet and 6 inches as 36 inches in base twelve, whereas to express this number of inches in base ten, we must first calculate 3 \x{b7} 12 + 6 and then write 42 in base ten. To a limited extent we could use base twelve in our method of recording time. In the United States the day has two sets of twelve hours, and in base twelve the hours of the day would run from <<0|20b>> to <<20|20a>>. Whereas determining what 7 hours <<after 6 o\x{2019}clock|6>> will be requires at present some computation, under the addition table for base twelve we would state at once that 7 + 6 = 11. However, base ten is now so widely used that a change to another base for ordinary daily use or commerce is hardly likely.",
           ],
           [
             1,
@@ -439,7 +439,7 @@ Fig. <<6-36|5a:0>>
           [
             1,
             '[ap ~ 10:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_14_ch7.html) - about 1000',
-            "The work in geography and astronomy, continued by such famous men as Strabo (ca.63 B.C.\x{2013}ca.15 B.C.), Poseidonius (first century B.C.), and many others, was crowned by the achievements of two of the greatest men of the Alexandrian world, Hipparchus and Ptolemy. Hipparchus (second century B.C.), about whom we know rather little, lived at Rhodes, but was in close touch with the developments in Alexandria. After criticizing Eratosthenes\x{2019} Geographica, he refined the method of locating places on the earth by systematically employing latitude and longitude. He improved astronomical instruments, measured irregularities in the moon\x{2019}s motion, catalogued <<about 1000|18:1>> stars, and estimated the length of the solar year as 365 days, <<5 hours, and 55 minutes|14>>, i.e., he overestimated by about 6 minutes. One of his notable astronomical discoveries was the precession of the equinoxes, a slow change in the time of occurrence of the spring and fall equinoxes. Hipparchus is the creator of the most famous and most useful astronomical theory of antiquity, about which we shall learn more later.",
+            "The work in geography and astronomy, continued by such famous men as Strabo (ca.63 B.C.\x{2013}ca.15 B.C.), Poseidonius (first century B.C.), and many others, was crowned by the achievements of two of the greatest men of the Alexandrian world, Hipparchus and Ptolemy. Hipparchus (second century B.C.), about whom we know rather little, lived at Rhodes, but was in close touch with the developments in Alexandria. After criticizing Eratosthenes\x{2019} Geographica, he refined the method of locating places on the earth by systematically employing latitude and longitude. He improved astronomical instruments, measured irregularities in the moon\x{2019}s motion, catalogued <<about 1000|18:1>> stars, and estimated the length of the solar year as 365 days, 5 hours, and 55 minutes, i.e., he overestimated by about 6 minutes. One of his notable astronomical discoveries was the precession of the equinoxes, a slow change in the time of occurrence of the spring and fall equinoxes. Hipparchus is the creator of the most famous and most useful astronomical theory of antiquity, about which we shall learn more later.",
           ],
           [
             1,
@@ -1210,12 +1210,12 @@ A sphere on a three-dimensional rectangular Cartesian coordinate system.",
           [
             1,
             '[16:36] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_20_ch13.html) - 16.36',
-            "Suppose that the dropped ball falls for just 5 seconds. It then hits the ground and remains at rest. However, the formula d = 16t2 does not \x{201c}stop\x{201d} at the end of 5 seconds. We could substitute 6 for t and find that d is <<16.36|5a:0>>, or 576. Likewise, we could substitute 7, or , or even \x{2013}2 for t and in each case calculate the correponding value of d. Thus, the mathematical formula has meaning for all positive and negative values of t. However, if the ball falls for only 5 seconds, the formula represents the physical situation only for values of t from <<0 to 5|10a:0>>. In other words, the mathematical formula is more extensive than the physical situation.",
+            "Suppose that the dropped ball falls for just 5 seconds. It then hits the ground and remains at rest. However, the formula d = 16t2 does not \x{201c}stop\x{201d} at the end of 5 seconds. We could substitute 6 for t and find that d is <<16.36|5a:0>>, or 576. Likewise, we could substitute 7, or , or even \x{2013}2 for t and in each case calculate the correponding value of d. Thus, the mathematical formula has meaning for all positive and negative values of t. However, if the ball falls for only 5 seconds, the formula represents the physical situation only for values of t from <<0|20b>> to <<5|20a>>. In other words, the mathematical formula is more extensive than the physical situation.",
           ],
           [
             1,
-            '[ap 06:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_20_ch13.html) - 0 to 6',
-            'We note that 96 is the speed the object attains when t = 3, because if we substitute 3 for t in (2) we get v = 96. Now it seems significant that the average speed occurs halfway through the time interval from <<0 to 6|10a:0>>. This probably is the case because the speed at each instant before t = 3 and the speed at some corresponding instant after t = 3 average to 96. Indeed, if we examine the speeds in (3) we see that 0 and 192, 16 and 176, 32 and 160, and so on, each averages to 96. In other words, if for each instant before t = 3, for example, , and for the instant as far beyond t = 3, in our example , the average speed is 96, then the average for all the instants will be 96. Just to check once more, at the speed is 48 and at the speed is 144. The average of 48 and 144 is 96.',
+            '[00:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_20_ch13.html) - 0',
+            'We note that 96 is the speed the object attains when t = 3, because if we substitute 3 for t in (2) we get v = 96. Now it seems significant that the average speed occurs halfway through the time interval from <<0|20b>> to <<6|20a>>. This probably is the case because the speed at each instant before t = 3 and the speed at some corresponding instant after t = 3 average to 96. Indeed, if we examine the speeds in (3) we see that 0 and 192, 16 and 176, 32 and 160, and so on, each averages to 96. In other words, if for each instant before t = 3, for example, , and for the instant as far beyond t = 3, in our example , the average speed is 96, then the average for all the instants will be 96. Just to check once more, at the speed is 48 and at the speed is 144. The average of 48 and 144 is 96.',
           ],
           [
             1,
@@ -1303,8 +1303,8 @@ In the following exercises you may use the fact that when M is the mass of the e
           ],
           [
             1,
-            '[20:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_23_ch16.html) - 0 to 20',
-            'There are two mathematical and physical facts involved in this event which require some elaboration. First of all there is the matter of time. As the person travels, time elapses. Mathematically this time is represented by a variable, t, say, and the values of t increase continually as the trip goes on. If time is measured from the instant at which the man starts out and if he has been traveling for 20 minutes, say, then t varies from <<0 to 20|10a:1>>. We also speak of the 20 minutes as an interval of time or an amount of time. We have, of course, referred to and used this mathematical representation of time right along. It is important now, however, to recognize that the collision of automobile and tree does not last an interval of time but occurs in what is called an instant. Many other events take place at an instant or are instantaneous. A lightning flash is instantaneous or at least happens so fast that we describe it as happening at an instant. The clock strikes at an instant. A bullet strikes a target at an instant.',
+            '[00:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_23_ch16.html) - 0',
+            'There are two mathematical and physical facts involved in this event which require some elaboration. First of all there is the matter of time. As the person travels, time elapses. Mathematically this time is represented by a variable, t, say, and the values of t increase continually as the trip goes on. If time is measured from the instant at which the man starts out and if he has been traveling for 20 minutes, say, then t varies from <<0|20b>> to <<20|20a>>. We also speak of the 20 minutes as an interval of time or an amount of time. We have, of course, referred to and used this mathematical representation of time right along. It is important now, however, to recognize that the collision of automobile and tree does not last an interval of time but occurs in what is called an instant. Many other events take place at an instant or are instantaneous. A lightning flash is instantaneous or at least happens so fast that we describe it as happening at an instant. The clock strikes at an instant. A bullet strikes a target at an instant.',
           ],
           [
             1,
@@ -1367,12 +1367,12 @@ Fig. <<18\x{2013}11|5a:0>>. The graph of y = sin 2\x{3c0}t.",
             "[18:10] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_25_ch18.html) - 18\x{2013}10",
             "Fig. <<18\x{2013}10|5a:0>>. Comparison of y = sin A and y = 2 sin A.
 Fig. <<18\x{2013}11|5a:0>>. The graph of y = sin 2\x{3c0}t.
-This function requires some study. Suppose the point P makes one revolution per second. Then f = l. The function (6) then is y = sin 2\x{3c0}t. As t increases from 0 to 1, the quantity 2\x{3c0}t will increase from 0 to 2\x{3c0}. We must now ask, How will sin 2\x{3c0}t vary as 2\x{3c0}t varies from 0 to 2\x{3c0}? Since the angle which 2\x{3c0}t describes now varies from 0 to 2\x{3c0}, the function will go through the entire cycle of sine values. However, if we now label our horizontal axis with time values, we obtain the graph shown in Fig. <<18\x{2013}11|5a:0>>.",
+This function requires some study. Suppose the point P makes one revolution per second. Then f = l. The function (6) then is y = sin 2\x{3c0}t. As t increases from <<0|20b>> to <<1|20a>>, the quantity 2\x{3c0}t will increase from 0 to 2\x{3c0}. We must now ask, How will sin 2\x{3c0}t vary as 2\x{3c0}t varies from 0 to 2\x{3c0}? Since the angle which 2\x{3c0}t describes now varies from 0 to 2\x{3c0}, the function will go through the entire cycle of sine values. However, if we now label our horizontal axis with time values, we obtain the graph shown in Fig. <<18\x{2013}11|5a:0>>.",
           ],
           [
             1,
-            "[18:11] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_25_ch18.html) - 18\x{2013}11",
-            "This function requires some study. Suppose the point P makes one revolution per second. Then f = l. The function (6) then is y = sin 2\x{3c0}t. As t increases from 0 to 1, the quantity 2\x{3c0}t will increase from 0 to 2\x{3c0}. We must now ask, How will sin 2\x{3c0}t vary as 2\x{3c0}t varies from 0 to 2\x{3c0}? Since the angle which 2\x{3c0}t describes now varies from 0 to 2\x{3c0}, the function will go through the entire cycle of sine values. However, if we now label our horizontal axis with time values, we obtain the graph shown in Fig. <<18\x{2013}11|5a:0>>.",
+            '[00:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_25_ch18.html) - 0',
+            "This function requires some study. Suppose the point P makes one revolution per second. Then f = l. The function (6) then is y = sin 2\x{3c0}t. As t increases from <<0|20b>> to <<1|20a>>, the quantity 2\x{3c0}t will increase from 0 to 2\x{3c0}. We must now ask, How will sin 2\x{3c0}t vary as 2\x{3c0}t varies from 0 to 2\x{3c0}? Since the angle which 2\x{3c0}t describes now varies from 0 to 2\x{3c0}, the function will go through the entire cycle of sine values. However, if we now label our horizontal axis with time values, we obtain the graph shown in Fig. <<18\x{2013}11|5a:0>>.",
           ],
           [
             1,
@@ -1388,8 +1388,22 @@ We can now anticipate what happens for any \x{192}. The function",
           ],
           [
             1,
-            '[ap 01:59] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_25_ch18.html) - 1 to 2',
-            "5. What is the shape of the graph of y = sin 2\x{3c0} \x{b7} 2t as t varies from <<1 to 2|10a:0>>?",
+            '[ap 01:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_25_ch18.html) - 1',
+            "5. What is the shape of the graph of y = sin 2\x{3c0} \x{b7} 2t as t varies from <<1|20b>> to <<2|20a>>?",
+          ],
+          [
+            1,
+            '[ap 01:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_25_ch18.html) - 1',
+            "5. What is the shape of the graph of y = sin 2\x{3c0} \x{b7} 2t as t varies from <<1|20b>> to <<2|20a>>?
+6. Graph the function y = sin 2\x{3c0} \x{b7} 3t as \x{a3} varies from <<0|20b>> to <<1.
+7|20a>>. Graph the function y = 2 sin 2\x{3c0} \x{b7} 2t as t varies from <<0|20b>> to <<1|20a>>.",
+          ],
+          [
+            1,
+            '[00:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_25_ch18.html) - 0',
+            "6. Graph the function y = sin 2\x{3c0} \x{b7} 3t as \x{a3} varies from <<0|20b>> to <<1.
+7|20a>>. Graph the function y = 2 sin 2\x{3c0} \x{b7} 2t as t varies from <<0|20b>> to <<1.
+8|20a>>. What is the frequency (in one second) of y = sin 2\x{3c0} \x{b7} 10t?",
           ],
           [
             1,
@@ -1429,6 +1443,11 @@ Fig. <<18\x{2013}15|5a:0>>
           ],
           [
             1,
+            '[00:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_26_ch19.html) - 0',
+            "How far need we carry this process of determining y-values corresponding to various t-values? We note that the function y1 = sin 2\x{3c0}t repeats itself when t becomes larger than 1. The function y2 = sin 4\x{3c0}t goes through two full cycles in the interval from t = 0 to t = 1 and begins its third cycle of sine values as soon as t increases beyond 1. Thus at t = 1 both functions begin to repeat the values which they had taken on at t = 0 and, in the interval from t = 1 to t = 2, both functions will repeat the behavior exhibited in the interval from t = 0 to t = 1. Since y1 and y2 repeat their former behavior, it follows that y, which is the sum of y1 and y2, will also repeat its former behavior. In other words, in the interval from t = 1 to t = 2, y will behave precisely as it did in the interval from t = 0 to t = 1. And in each succeeding unit interval of t-values, the function will repeat the behavior exhibited in the interval from t = 0 to t = 1. If we therefore determine the behavior of y in the interval from <<0|20b>> to <<1|20a>>, we know how it behaves for all larger values of t.",
+          ],
+          [
+            1,
             '[ap 05:12] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_26_ch19.html) - 512',
             'We should note that the frequencies are all multiples of the lowest one, which is <<512|9c:0>>. The formula representing this sound is then',
           ],
@@ -1461,13 +1480,13 @@ Similarly, <<6 hours before 3 o\x{2019}clock|10>> is <<9 o\x{2019}clock|6>>; tha
           ],
           [
             1,
-            '[ap 11:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_28_ch21.html) - 0 to 11',
-            "Similarly, any negative number is congruent to some positive number less than 12. For example, \x{2212}25 \x{2261} 11 because 11 \x{2212} (\x{2212}25) = 3\x{b7}12, or if one prefers, \x{2212}25 \x{2212} 11 = \x{2212}3\x{b7}12. Thus in the arithmetic modulo 12 we need deal only with positive integers from <<0 to 11|10a:0>>. We also regard any positive integer less than 12 to be congruent to itself because the difference of the two integers is zero times 12. Thus",
+            '[00:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_28_ch21.html) - 0',
+            "Similarly, any negative number is congruent to some positive number less than 12. For example, \x{2212}25 \x{2261} 11 because 11 \x{2212} (\x{2212}25) = 3\x{b7}12, or if one prefers, \x{2212}25 \x{2212} 11 = \x{2212}3\x{b7}12. Thus in the arithmetic modulo 12 we need deal only with positive integers from <<0|20b>> to <<11|20a>>. We also regard any positive integer less than 12 to be congruent to itself because the difference of the two integers is zero times 12. Thus",
           ],
           [
             1,
-            '[ap 11:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_28_ch21.html) - 0 to 11',
-            'We see that addition and multiplication are possible in this arithmetic modulo 12. It is mathematically significant to ask, Do the inverse operations exist? That is, can one subtract any number from another or divide one number by another in this arithmetic? In discussing the answers to these questions let us keep in mind that the only numbers we need to consider are from <<0 to 11|10a:0>>.',
+            '[00:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_28_ch21.html) - 0',
+            'We see that addition and multiplication are possible in this arithmetic modulo 12. It is mathematically significant to ask, Do the inverse operations exist? That is, can one subtract any number from another or divide one number by another in this arithmetic? In discussing the answers to these questions let us keep in mind that the only numbers we need to consider are from <<0|20b>> to <<11|20a>>.',
           ],
           [
             1,
@@ -1506,8 +1525,13 @@ Similarly, <<6 hours before 3 o\x{2019}clock|10>> is <<9 o\x{2019}clock|6>>; tha
           ],
           [
             1,
-            '[20:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_30_ch23.html) - 0 to 20',
-            "The possible outcomes, that is, the possible numbers of those remaining alive without treatment among 20 afflicted people, are precisely the same as the possible outcomes in a throw of 20 coins. Just as the number of heads which may show up can vary from <<0 to 20|10a:0>>, so among the 20 people, none may live beyond the specified period, one may, and so on up to 20. Since the probability that any one person will remain alive is the same as that of tossing a head on a single throw, the probabilities of the various outcomes will be the same in the two situations. Hence the mean number of those remaining alive is () \x{b7} 20, or 10. The standard deviation of this distribution is . In our case,",
+            '[00:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_30_ch23.html) - 0',
+            'From this general definition of probability it follows that if no possible outcomes were favorable, that is, if the event were impossible, the probability of the event would be 0/n, or 0. If all n possible outcomes were favorable, that is, if the event were certain, the probability would be n/n, or 1. Hence the numerical measure of probability can range from <<0|20b>> to <<1|20a>>, from impossibility to certainty.',
+          ],
+          [
+            1,
+            '[00:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_30_ch23.html) - 0',
+            "The possible outcomes, that is, the possible numbers of those remaining alive without treatment among 20 afflicted people, are precisely the same as the possible outcomes in a throw of 20 coins. Just as the number of heads which may show up can vary from <<0|20b>> to <<20|20a>>, so among the 20 people, none may live beyond the specified period, one may, and so on up to 20. Since the probability that any one person will remain alive is the same as that of tossing a head on a single throw, the probabilities of the various outcomes will be the same in the two situations. Hence the mean number of those remaining alive is () \x{b7} 20, or 10. The standard deviation of this distribution is . In our case,",
           ],
           [
             1,
@@ -1609,10 +1633,10 @@ Chapter 4, page 81',
           ],
           [
             1,
-            '[23:59] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_34_add.html) - 1 to 0',
+            '[ap 01:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_34_add.html) - 1',
             "(f) tan 80\x{b0} = 5.6713
-3. cos A varies from <<1 to 0|10a:0>>.
-4. tan A varies from 0 to unlimitedly large values.",
+3. cos A varies from <<1|20b>> to <<0.
+4|20a>>. tan A varies from 0 to unlimitedly large values.",
           ],
           [
             1,
@@ -1648,8 +1672,13 @@ Chapter 4, page 81',
           ],
           [
             1,
-            '[18:12] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_34_add.html) - 18-12',
-            '5. The shape is the same as when t varies from 0 to 1. See Fig. <<18-12|5a:0>>.',
+            '[00:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_34_add.html) - 0',
+            "9. The period is 360\x{b0}. The cycle refers to the set of y-values going from <<0|20b>> to <<1|20a>> to \x{2212}1 to 0.",
+          ],
+          [
+            1,
+            '[00:00] Mathematics for the Nonmathematician - Morris Kline.epub (OEBPS/html/9780486248233_34_add.html) - 0',
+            '5. The shape is the same as when t varies from <<0|20b>> to <<1|20a>>. See Fig. <<18-12|5a:0>>.',
           ],
           [
             1,

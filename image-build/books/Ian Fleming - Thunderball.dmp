@@ -191,8 +191,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 23:59] Thunderball - Ian Fleming.epub (OEBPS/part23.xhtml) - one to twelve',
-            "\x{201c}Sure, sure.'' He called to his men. \x{201d}Hey, Fonda and Johnson. Go along to the Quartermaster and draw rubber suits for the whole team. Bracken, get a pail of rubber solution paint from Stores. Paint numbers on the backs of the suits. A foot deep. From <<one to twelve|10a:0>>. Get going.''",
+            '[ap 01:00] Thunderball - Ian Fleming.epub (OEBPS/part23.xhtml) - one',
+            "\x{201c}Sure, sure.'' He called to his men. \x{201d}Hey, Fonda and Johnson. Go along to the Quartermaster and draw rubber suits for the whole team. Bracken, get a pail of rubber solution paint from Stores. Paint numbers on the backs of the suits. A foot deep. From <<one|20b>> to <<twelve|20a>>. Get going.''",
           ],
           [
             1,

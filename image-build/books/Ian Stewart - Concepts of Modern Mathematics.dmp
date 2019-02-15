@@ -21,8 +21,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 06:00] Concepts of Modern Mathematics - Ian Stewart.epub (OEBPS/e9780486134956_c03.html) - 0 to 6',
-            'Suppose we number the days of the week from <<0 to 6|10a:1>>, starting at Sunday, as in Figure 17.',
+            '[00:00] Concepts of Modern Mathematics - Ian Stewart.epub (OEBPS/e9780486134956_c03.html) - 0',
+            'Suppose we number the days of the week from <<0|20b>> to <<6|20a>>, starting at Sunday, as in Figure 17.',
           ],
           [
             1,
@@ -61,6 +61,11 @@ $VAR1 = [
           ],
           [
             1,
+            '[00:00] Concepts of Modern Mathematics - Ian Stewart.epub (OEBPS/e9780486134956_c16.html) - 0',
+            "which take alternately the values 0 and 1. As n gets larger and larger these do not settle down to some kind of \x{2018}limit\x{2019}; they just hop happily from <<0|20b>> to <<1|20a>> and back again.",
+          ],
+          [
+            1,
             '[ap 02:00] Concepts of Modern Mathematics - Ian Stewart.epub (OEBPS/e9780486134956_c16.html) - 2',
             'Functions can be continuous at some points and discontinuous at others. The postal-charge function is discontinuous at <<2|9c:0>>, 4, 6, 8, 10, 12, 14, 16, 24, and 32 oz., but continuous everywhere else in the range 0 to 32 oz.',
           ],
@@ -73,10 +78,5 @@ $VAR1 = [
             1,
             '[ap 02:00] Concepts of Modern Mathematics - Ian Stewart.epub (OEBPS/e9780486134956_c17.html) - 2',
             'If B is thrown in competition with C it will win when C shows <<2|11b:0>>, lose when C shows 7. So',
-          ],
-          [
-            1,
-            '[~ 07:30] Concepts of Modern Mathematics - Ian Stewart.epub (OEBPS/e9780486134956_c19.html) - about prime',
-            "Although I have talked in terms of divisions of mathematics into various branches - algebra, topology, analysis, logic, geometry, number theory, probability \x{2014} it must be realized that no exact boundaries can be drawn, and that the divisions themselves are somewhat arbitrary. When Descartes first discovered connections between geometry and algebra it was a surprise. When Galois applied the theory of groups to polynomial equations it was a surprise. When Hadamard and de la Vall\x{e9}e Poussin proved an important conjecture <<about prime|16>> numbers using analysis it was a surprise. Today mathematicians are no longer surprised by such occurrences. In fact they tend to go out looking for them. It is quite commonplace to start with a problem in analysis, turn it into topology, reduce it to algebra, and solve it by number theory.",
           ],
         ];

@@ -6,8 +6,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 09:59] The Uplift War - David Brin.epub (OEBPS/Text/Brin_9780307575357_epub_c12_r1.htm) - one to ten',
-            "The human still counted from <<one to ten|10a:0>>, over and over. She had to repeat herself until, at last, his eyes came into focus. \x{201c}I\x{a0}\x{2026}\x{a0}I think my arm\x{2019}s b- busted, Clennie.\x{2026}\x{201d} He gasped. \x{201c}Help get me out of the sun\x{a0}\x{2026}\x{a0}then, use drugs.\x{2026}\x{201d}",
+            '[ap 01:00] The Uplift War - David Brin.epub (OEBPS/Text/Brin_9780307575357_epub_c12_r1.htm) - one',
+            "The human still counted from <<one|20b>> to <<ten|20a>>, over and over. She had to repeat herself until, at last, his eyes came into focus. \x{201c}I\x{a0}\x{2026}\x{a0}I think my arm\x{2019}s b- busted, Clennie.\x{2026}\x{201d} He gasped. \x{201c}Help get me out of the sun\x{a0}\x{2026}\x{a0}then, use drugs.\x{2026}\x{201d}",
           ],
           [
             1,
@@ -46,6 +46,11 @@ $VAR1 = [
           ],
           [
             1,
+            '[ap < 01:00] The Uplift War - David Brin.epub (OEBPS/Text/Brin_9780307575357_epub_c48_r1.htm) - just short of one',
+            'Then something torc loose. He flew away, still holding wires in his right hand. When crunching impact came, it was almost anticlimactic. He cried out and rolled up <<just short of one|10>> of the smoldering fires.',
+          ],
+          [
+            1,
             '[12:00] The Uplift War - David Brin.epub (OEBPS/Text/Brin_9780307575357_epub_c51_r1.htm) - noonday',
             "It was fascinating to watch Kault play with a ne\x{2019} squirrel, one of the native animals of these southern plains. He coaxed the small creature closer by holding out ripe nuts in his great Thennanin hands. He had been at it for over an hour while they waited out the hot <<noonday|13>> sun under the cover of a thick cluster of thorny bramble.",
           ],
@@ -78,6 +83,11 @@ $VAR1 = [
             1,
             '[12:00] The Uplift War - David Brin.epub (OEBPS/Text/Brin_9780307575357_epub_c80_r1.htm) - noonday',
             'His bow lay strapped across his back. But for some reason Robert did not even think of using it. Under the <<noonday|13>> sun he ran on and on. Mad dogs and Englishmen, he thought.',
+          ],
+          [
+            1,
+            '[ap < 01:00] The Uplift War - David Brin.epub (OEBPS/Text/Brin_9780307575357_epub_c83_r1.htm) - just short of one',
+            'Fiben twisted the wheel, causing the boat to come about <<just short of one|10>> of the white buoys. He watched it go by as he turned.',
           ],
           [
             1,

@@ -11,8 +11,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 09:59] Death\'s End - Liu Cixin.epub (OEBPS/xhtml/chapter23.xhtml) - one to ten',
-            "He pressed the switch for the intercom and got ready to give a report, but shut off the channel before saying anything. He recalled the words of an old spacer who had been at the Doomsday Battle: \x{201c}Your intuition is unreliable in space. If you must act based on intuition, count from one to one hundred first. At least count from <<one to ten|10a:0>>.\x{201d}",
+            '[ap 01:00] Death\'s End - Liu Cixin.epub (OEBPS/xhtml/chapter23.xhtml) - one',
+            "He pressed the switch for the intercom and got ready to give a report, but shut off the channel before saying anything. He recalled the words of an old spacer who had been at the Doomsday Battle: \x{201c}Your intuition is unreliable in space. If you must act based on intuition, count from one to one hundred first. At least count from <<one|20b>> to <<ten|20a>>.\x{201d}",
           ],
           [
             1,
@@ -42,6 +42,11 @@ November 28, <<4:17|2a>>:34 P.M. to <<4:27|2a>>:58 P.M.: Deterrence Center',
             '[ap 04:17] Death\'s End - Liu Cixin.epub (OEBPS/xhtml/chapter35.xhtml) - 4:17',
             'The Final Ten Minutes of the Deterrence Era, Year 62
 November 28, <<4:17|2a>>:34 P.M. to <<4:27|2a>>:58 P.M.: Gravity and Blue Space, Deep Space',
+          ],
+          [
+            1,
+            '[00:00] Death\'s End - Liu Cixin.epub (OEBPS/xhtml/chapter35.xhtml) - 0',
+            'Chu Yan turned and pressed the giant red button hovering in air. The button flashed, and the number below it turned from <<0|20b>> to <<1|20a>>. Next, the two vice-captains of Blue Space pressed the buttons in quick succession. The tally went up to 3. Then the other senior officers of Blue Space, followed by the junior officers and enlisted men, filed past the red button in a long line, pressing the button again and again.',
           ],
           [
             1,

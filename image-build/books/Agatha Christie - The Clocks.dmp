@@ -157,7 +157,7 @@ $VAR1 = [
           [
             1,
             '[ap ~ 09:30] The Clocks - Agatha Christie.epub (text/part0008.html) - about half past nine',
-            "\x{201c}That\x{2019}s right. I come <<about half past nine|10>> to ten, and leave at <<twelve o\x{2019}clock|6>> or when I\x{2019}m finished.\x{201d} Then sharply, \x{201c}You\x{2019}re not saying as anything \x{2019}as been stolen, are you?\x{201d}",
+            "\x{201c}That\x{2019}s right. I come <<about half past nine|10>> to <<ten|20a>>, and leave at <<twelve o\x{2019}clock|6>> or when I\x{2019}m finished.\x{201d} Then sharply, \x{201c}You\x{2019}re not saying as anything \x{2019}as been stolen, are you?\x{201d}",
           ],
           [
             1,
@@ -299,6 +299,11 @@ Bland shook his head. \x{201c}I wouldn\x{2019}t have seen much then. I was here.
             1,
             "[ap 05:00] The Clocks - Agatha Christie.epub (text/part0015.html) - five o\x{2019}clock",
             "Sergeant Cray had reported that Sheila Webb had resumed work at the Cavendish Bureau, and that at <<five o\x{2019}clock|6>> she would be working with Professor Purdy at the Curlew Hotel and that she was unlikely to leave there until <<well after six|9c:1>>.",
+          ],
+          [
+            1,
+            '[b 22:00] The Clocks - Agatha Christie.epub (text/part0015.html) - four bells',
+            'He had arrived now at No. 14. The door stood ajar and there were <<four bells|15>> with names underneath. Mrs. Lawton, he saw, had a flat on the ground floor. He went in and pressed the bell on the door on the left of the hall. It was a few moments before it was answered. Finally he heard steps inside and the door was opened by a tall, thin woman with straggling dark hair who had on an overall and seemed a little short of breath. The smell of onions wafted along from the direction of what was obviously the kitchen.',
           ],
           [
             1,

@@ -1,8 +1,8 @@
 $VAR1 = [
           [
             1,
-            '[ap 04:59] Saville - David Storey.epub (OEBPS/Chapter005.html) - one to five',
-            'The streets were numbered from <<one to five|10a:1>>: they started with First Avenue, which stood in the shadow of the colliery, and ran round through ninety degrees to Fifth Avenue; here the streets had been named after trees, Beech, Holly, Laburnum, Willow. Once he had collected all the names and numbers in a book, along with the numbers of several cars which he had seen passing through the village on their way to the town, and the numbers of several railway engines he had seen passing through the station on the road to the south. Between the village and the station were strung out the various amenities of the village itself, the shops, a prefabricated Catholic Church, a Wesleyan Chapel, a greyhound track and, in a dip in the road, a small gas-works and a string of sewage beds. They stood amidst marshes and pools of stagnant water and the place was known locally as the Dell.',
+            '[ap 01:00] Saville - David Storey.epub (OEBPS/Chapter005.html) - one',
+            'The streets were numbered from <<one|20b>> to <<five|20a>>: they started with First Avenue, which stood in the shadow of the colliery, and ran round through ninety degrees to Fifth Avenue; here the streets had been named after trees, Beech, Holly, Laburnum, Willow. Once he had collected all the names and numbers in a book, along with the numbers of several cars which he had seen passing through the village on their way to the town, and the numbers of several railway engines he had seen passing through the station on the road to the south. Between the village and the station were strung out the various amenities of the village itself, the shops, a prefabricated Catholic Church, a Wesleyan Chapel, a greyhound track and, in a dip in the road, a small gas-works and a string of sewage beds. They stood amidst marshes and pools of stagnant water and the place was known locally as the Dell.',
           ],
           [
             1,
@@ -11,8 +11,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 05:59] Saville - David Storey.epub (OEBPS/Chapter007.html) - one to six',
-            'At first it was difficult to make out what the subjects of his drawings were. Whenever he had finished for the evening he put them away in a drawer at the end of the table, reminding his mother that no one was to look at them in his absence. After a while, however, when it seemed that the rubbing out had passed its peak and he had begun to write on the drawings, occasionally asking for words to be spelt and sketching large arrows from one side to the other, he told them that the drawings were to do with an invention he had thought up at work. He stood with his head held slightly to one side as he regarded the various sheets, his eyes half-closed, his tongue slowly licking his lower lip: then, having spread out the sheets on the table top, he leaned carefully over them and in the top left-hand corners numbered them from <<one to six|10a:0>>.',
+            '[ap 01:00] Saville - David Storey.epub (OEBPS/Chapter007.html) - one',
+            'At first it was difficult to make out what the subjects of his drawings were. Whenever he had finished for the evening he put them away in a drawer at the end of the table, reminding his mother that no one was to look at them in his absence. After a while, however, when it seemed that the rubbing out had passed its peak and he had begun to write on the drawings, occasionally asking for words to be spelt and sketching large arrows from one side to the other, he told them that the drawings were to do with an invention he had thought up at work. He stood with his head held slightly to one side as he regarded the various sheets, his eyes half-closed, his tongue slowly licking his lower lip: then, having spread out the sheets on the table top, he leaned carefully over them and in the top left-hand corners numbered them from <<one|20b>> to <<six|20a>>.',
           ],
           [
             1,
@@ -161,7 +161,7 @@ The foreman drew out his watch at <<one o\x{2019}clock|6>>.
             1,
             '[ap ~ 07:30] Saville - David Storey.epub (OEBPS/Chapter018.html) - About half-past seven',
             "\x{2018}What time does it finish?\x{2019} he said.
-\x{2018}<<About half-past seven|10>> to eight,\x{2019} she said.
+\x{2018}<<About half-past seven|10>> to <<eight|20a>>,\x{2019} she said.
 \x{2018}I might see you there,\x{2019} he said, and turned away.",
           ],
           [

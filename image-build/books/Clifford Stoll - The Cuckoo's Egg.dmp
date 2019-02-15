@@ -122,7 +122,7 @@ $VAR1 = [
           [
             1,
             '[ap 05:00] The Cuckoo\'s Egg_ Tracking a Spy Through t - Clifford Stoll.epub (Stoll, Clifford - The Cuckoo\'s Egg_split_21.htm) - five o\'clock',
-            "By <<five o'clock|6>>, I was ready for the Halloween party. On my way out, I checked the floppy disks on the monitors. The printer suddenly started up. There was the hacker. I glanced at the time\x{2014}<<17:43|2>>:11 PST.",
+            "By <<five o'clock|6>>, I was ready for the Halloween party. On my way out, I checked the floppy disks on the monitors. The printer suddenly started up. There was the hacker. I glanced at the time\x{2014}<<17:43|1a>>:11 PST.",
           ],
           [
             1,
@@ -331,7 +331,7 @@ I didn\'t return home until <<2 a.m.|5>> Martha waited up, piecing a quilt.
 login: Sventek           The hacker logs in as Sventek
 Password: Lblhack        and gives his current password
 Last login: Mon Dec 29 <<13:31|2>>:43 on ttyi7
-4.2 BSD UNIX #20: Fri Aug 22 <<20:08|2>>:16 PDT 1986
+4.2 BSD UNIX #20: Fri Aug 22 <<20:08|1a>>:16 PDT 1986
 Z
 % telnet                 He\'s going out over the Milnet
 telnet> open Optimis     And into the Optimis Army Database',
@@ -414,7 +414,7 @@ Process privileges:
           [
             1,
             '[ap 00:53] The Cuckoo\'s Egg_ Tracking a Spy Through t - Clifford Stoll.epub (Stoll, Clifford - The Cuckoo\'s Egg_split_42.htm) - 12:53',
-            "At <<12:53|2>> PST, in the middle of a cup of cappuccino, my beeper went off. The Morse code said the hacker was into our Unix-4 computer as Sventek. I didn't say a word\x{2014}just ran to the phone booth and called Steve White at Tymnet (\$2.25 in quarters), and he started the trace running. The hacker was on for only three minutes\x{2014}just long enough to see who was logged onto my computer. I was back at the table before the coffee cooled off.",
+            "At <<12:53|1a>> PST, in the middle of a cup of cappuccino, my beeper went off. The Morse code said the hacker was into our Unix-4 computer as Sventek. I didn't say a word\x{2014}just ran to the phone booth and called Steve White at Tymnet (\$2.25 in quarters), and he started the trace running. The hacker was on for only three minutes\x{2014}just long enough to see who was logged onto my computer. I was back at the table before the coffee cooled off.",
           ],
           [
             1,

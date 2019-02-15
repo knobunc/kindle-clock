@@ -116,8 +116,8 @@ Peach",
           ],
           [
             1,
-            '[ap 09:00] How to Invent Everything_ A Survival Guide - Ryan North.epub (OEBPS/xhtml/051_17_Computers_How_to_.xhtml) - 0 to 9',
-            "In the decimal number system you\x{2019}re used to, 7 + 1 equals 8, 8 + 1 equals 9, but 9 + 1 gives you a two-digit answer: 10. Since we only have digits that go from <<0 to 9|10a:0>>, when numbers get larger, we have to \x{201c}carry the one\x{201d} and start a new column: a double-digit 10 instead of a single-digit 9. The exact same thing happens in binary, but instead of carrying the one to start a new column at <<10|9c:0>>, we start a new column at <<2|9c:0>>. Given that, we can re-label our a and b outputs with more accurate names: let\x{2019}s call them s (for \x{201c}sum\x{201d}) and c (for \x{201c}carry\x{201d}). If c is 1, we need to carry that 1 over into a new binary digit.",
+            '[00:00] How to Invent Everything_ A Survival Guide - Ryan North.epub (OEBPS/xhtml/051_17_Computers_How_to_.xhtml) - 0',
+            "In the decimal number system you\x{2019}re used to, 7 + 1 equals 8, 8 + 1 equals 9, but 9 + 1 gives you a two-digit answer: 10. Since we only have digits that go from <<0|20b>> to <<9|20a>>, when numbers get larger, we have to \x{201c}carry the one\x{201d} and start a new column: a double-digit 10 instead of a single-digit 9. The exact same thing happens in binary, but instead of carrying the one to start a new column at <<10|9c:0>>, we start a new column at <<2|9c:0>>. Given that, we can re-label our a and b outputs with more accurate names: let\x{2019}s call them s (for \x{201c}sum\x{201d}) and c (for \x{201c}carry\x{201d}). If c is 1, we need to carry that 1 over into a new binary digit.",
           ],
           [
             1,

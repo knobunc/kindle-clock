@@ -94,8 +94,8 @@ I smiled. You could live your whole life saying nothing but lO-this and lO-that.
           ],
           [
             1,
-            '[ap ~ 02:00] The Enemy - Lee Child.epub (The_Enemy_A_Reacher_Novel_split_004.html) - approx. 0200',
-            'The second note said: Col. Garber called. Green Valley PD calculates Mrs K died <<approx. 0200|18:1>>. I folded both notes separately and tucked them side by side under the base of my telephone. Adjusted them so I could see exactly half of each one. Looked up in time to see Vassell glaring at me. His naked scalp was going red.',
+            '[ap 02:00] The Enemy - Lee Child.epub (The_Enemy_A_Reacher_Novel_split_004.html) - 0200',
+            '<<0200|9l:0>>. I folded both notes separately and tucked them side by side under the base of my telephone. Adjusted them so I could see exactly half of each one. Looked up in time to see Vassell glaring at me. His naked scalp was going red.',
           ],
           [
             1,
@@ -348,7 +348,7 @@ I checked my watch. It was close to <<ten o\'clock|6>>.
           [
             1,
             '[00:00] The Enemy - Lee Child.epub (The_Enemy_A_Reacher_Novel_split_014.html) - midnight',
-            '"It could have been the same guy," she said. "If Carbone was killed at nine or ten, the same guy could have been in Columbia at <<midnight|13>> or <<one|20a>>, ready for Brubaker." She put her little finger on the Fort Bird pin.',
+            '"It could have been the same guy," she said. "If Carbone was killed at nine or ten, the same guy could have been in Columbia at <<midnight|13>> or one, ready for Brubaker." She put her little finger on the Fort Bird pin.',
           ],
           [
             1,
@@ -399,11 +399,6 @@ I checked my watch. It was close to <<ten o\'clock|6>>.
             1,
             '[ap 05:00] The Enemy - Lee Child.epub (The_Enemy_A_Reacher_Novel_split_015.html) - 0500',
             '"He got back at <<0500|9c:1>>," I said. "Three and a half hours after Brubaker\'s watch stopped."',
-          ],
-          [
-            1,
-            '[ap 03:12] The Enemy - Lee Child.epub (The_Enemy_A_Reacher_Novel_split_015.html) - Three hours and twelve minutes',
-            'I got up from my desk and stepped over to the map on the wall. Put my own fingers on the push pins. Little finger on Fort Bird, index finger on Columbia. It was like I was validating a theory by touch alone. A hundred and fifty miles. <<Three hours and twelve minutes|14>> to get there, <<three hours and thirty-seven minutes|14>> to get back. I did the math in my head. An average speed of forty-seven miles an hour going, and forty-one coming back. At night, on empty roads, in a Chevrolet Corvette. He could have done it with the parking brake on.',
           ],
           [
             1,
@@ -561,6 +556,11 @@ I checked my watch. It was close to <<ten o\'clock|6>>.
             1,
             '[ap 06:10] The Enemy - Lee Child.epub (The_Enemy_A_Reacher_Novel_split_018.html) - ten minutes past six',
             'Electric, no second hand. No tick. It said <<ten minutes past six|10>>. "Anything happening here?"',
+          ],
+          [
+            1,
+            '[ap 00:30] The Enemy - Lee Child.epub (The_Enemy_A_Reacher_Novel_split_018.html) - half of one',
+            'We found the O Club without any trouble. It occupied <<half of one|10>> of the ground-floor wings of the main building. It was a grand space, with high ceilings and intricate plaster mouldings. There was a lounge, and a bar, and a dining room. We found Swan in the bar.',
           ],
           [
             1,
@@ -905,6 +905,6 @@ We put the car out of sight behind the lounge bar and walked across the lot to t
           [
             1,
             '[ap 09:55] The Enemy - Lee Child.epub (The_Enemy_A_Reacher_Novel_split_020.html) - five to ten',
-            'At <<five to ten|10a>> we went down to the street. The corbillard showed up right on time, from the dp6t mortuaire. Behind it was a black Citroen limousine. We got in the limousine and closed the doors and it moved off after the hearse, slow and quiet.',
+            'At <<five to ten|10d>> we went down to the street. The corbillard showed up right on time, from the dp6t mortuaire. Behind it was a black Citroen limousine. We got in the limousine and closed the doors and it moved off after the hearse, slow and quiet.',
           ],
         ];

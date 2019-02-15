@@ -38,6 +38,16 @@ $VAR1 = [
           ],
           [
             1,
+            '[b 22:30] The Nine Tailors - Dorothy L. Sayers.epub (OEBPS/12-chap7.xhtml) - five bells',
+            'No record of any other bells at this time, though there was probably at least one other. We know, however, that in the reign of Elizabeth there was a ring of <<five bells|15>> in D of which',
+          ],
+          [
+            1,
+            '[b 21:30] The Nine Tailors - Dorothy L. Sayers.epub (OEBPS/12-chap7.xhtml) - three bells',
+            "The No. 2 of that period was known as Carolus, having been given in honour of the King\x{2019}s Restoration. This bell, however, was cracked in the 18th century, as a result of the abominable practice of \x{201c}clappering\x{201d} the two smallest bells for occasional services, so that the ring was again reduced to six, of which No. 5 (F #) had always been unsatisfactory. In the first half of the 19th century (that period of ecclesiastical apathy) the worm was allowed to get into the timbers of the bell-cage, as a result of which No. 6 (the Elizabethan No. 4) fell and was broken. Nothing was done until the \x{2019}eighties, when an energetic High-Church rector called public attention to the bad state of the bells. Subscriptions were raised, the framework of the bell-cage was repaired and put in order, and <<three bells|15>> were re-cast:",
+          ],
+          [
+            1,
             '[02:30] The Nine Tailors - Dorothy L. Sayers.epub (OEBPS/12-chap7.xhtml) - matins',
             'It was Sunday morning. As he lifted his head from his calculations, he heard the bells begin to ring for <<matins|13>>. He hastened out in the hall, where he found his host winding the grandfather clock.',
           ],
@@ -93,13 +103,25 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 09:15] The Nine Tailors - Dorothy L. Sayers.epub (OEBPS/18-chap13.xhtml) - 9 hours and 15 Minutes',
-            "Meditating thus, Wimsey let himself into the church, and, unlocking the door in the tower, made his way up the spiral stair. As he passed through the ringing-chamber, he noticed with a smile that a new board had made its appearance on the wall, announcing that: \x{201c}On New Year\x{2019}s morning, 19\x{2014}, a Peal of 15,840 Kent Treble Bob Major was Rung in <<9 hours and 15 Minutes|14>>, the Ringers being: Treble, Ezra Wilderspin; 2, Peter D. B. Wimsey; 3, Walter Pratt; 4, Henry Gotobed; j, Joseph Hinkins; 6, Alfred Donnington; 7, John P. Godfrey; Tenor, Hezekiah Lavender; Theodore Venables, Rector, assisting. Our Mouths shall shew forth Thy Praise.\x{201d} He passed up through the great, bare clock-chamber, released the counter-poise and climbed again till he came out beneath the bells. There he stood for a moment, gazing up into their black mouths while his eyes grew accustomed to the semi-darkness. Presently their hooded silence oppressed him. A vague vertigo seized him. He felt as though they were slowly collapsing together and coming down upon him. Spell-bound, he spoke their names: Gaude, Sabaoth, John, Jericho, Jubilee, Dimity, Batty Thomas and Tailor Paul. A soft and whispering echo seemed to start from the walls and die stealthily among the beams. Suddenly he shouted in a great voice: \x{201c}Tailor Paul!\x{201d} and he must somehow have hit upon a harmonic of the scale, for a faint brazen note answered him, remote and menacing, from overhead.",
+            '[ap 11:00] The Nine Tailors - Dorothy L. Sayers.epub (OEBPS/18-chap13.xhtml) - eleven',
+            'Curiously enough, it was the Rector who solved the cipher. He came into the schoolroom that night as the hall-clock struck <<eleven|11>>, thoughtfully bearing a glass of hot toddy in one hand and an old-fashioned foot-muff in the other.',
           ],
           [
             1,
-            '[ap 11:00] The Nine Tailors - Dorothy L. Sayers.epub (OEBPS/18-chap13.xhtml) - eleven',
-            'Curiously enough, it was the Rector who solved the cipher. He came into the schoolroom that night as the hall-clock struck <<eleven|11>>, thoughtfully bearing a glass of hot toddy in one hand and an old-fashioned foot-muff in the other.',
+            '[b 20:30] The Nine Tailors - Dorothy L. Sayers.epub (OEBPS/18-chap13.xhtml) - one bell',
+            "\x{201c}Well, by taking the movements of <<one bell|15>> and writing the letters of your message in the appropriate places and then filling up the places of the other bells with arbitraries. For instance. Take a Plain Course of Grand-sire Doubles, and suppose you want to convey the simple and pious message \x{2018}Come and worship.\x{2019} You would select <<one bell|15>> to carry the significants\x{2014}let us say, No. 5. Then you would write out the beginning of your plain course, and wherever No. 5 came you would put in one letter of your message. Look.\x{201d} He rapidly scribbled down the two columns:",
+          ],
+          [
+            1,
+            '[b 22:30] The Nine Tailors - Dorothy L. Sayers.epub (OEBPS/18-chap13.xhtml) - 5 bells',
+            "\x{201c}Doubles\x{201d} is the name given to a set of changes rung on <<5 bells|15>>, the tenor (No. 6) being rung last or \x{201c}behind\x{201d} in each change.",
+          ],
+          [
+            1,
+            '[b 22:00] The Nine Tailors - Dorothy L. Sayers.epub (OEBPS/19-chap14.xhtml) - FOUR BELLS',
+            "Let the bell that the Treble turns from behind make thirds place, and return behind again.
+RULES FOR CHANGE-MAKING ON <<FOUR BELLS|15>>
+\x{201c}I SHOULD LIKE,\x{201d} PANTED Emily between her sobs, \x{201c}to give my week\x{2019}s warning.\x{201d}",
           ],
           [
             1,
@@ -169,7 +191,7 @@ $VAR1 = [
           [
             1,
             '[ap 11:30] The Nine Tailors - Dorothy L. Sayers.epub (OEBPS/8-chap4.xhtml) - half-past eleven',
-            "\x{201c}Mrs. Venables gave orders, my lord, that you were not to be disturbed until <<half-past eleven|10>>, and the reverend gentleman instructed me to say, my lord, that they would content themselves with ringing six bells as a preliminary to the service.\x{201d}",
+            "\x{201c}Mrs. Venables gave orders, my lord, that you were not to be disturbed until <<half-past eleven|10>>, and the reverend gentleman instructed me to say, my lord, that they would content themselves with ringing <<six bells|15>> as a preliminary to the service.\x{201d}",
           ],
           [
             1,
@@ -217,6 +239,11 @@ As he spoke, the pealing ceased, and Jubilee began to ring the five-minute bell.
             1,
             "[ap 10:00] The Nine Tailors - Dorothy L. Sayers.epub (OEBPS/8-chap4.xhtml) - Ten o\x{2019}clock",
             "\x{201c}I hope so, Hezekiah, I\x{2019}m sure,\x{201d} said Mrs. Venables. \x{201c}There! <<Ten o\x{2019}clock|6>> striking, and the Rector not back. Well, I suppose one couldn\x{2019}t expect\x{2014}why, there\x{2019}s the car coming up the drive! Wally, would you please ring that bell. We want some fresh eggs and bacon for the Rector, Emily, and you\x{2019}d better take the coffee out and hot it up for him.\x{201d}",
+          ],
+          [
+            1,
+            '[b 0:00] The Nine Tailors - Dorothy L. Sayers.epub (OEBPS/8-chap4.xhtml) - eight bells',
+            "Of the three, Fenchurch St. Peter is the largest and most important, possessing in addition to a railway-station, a river with two bridges. It has, however, but a bare and uninteresting church, built in the latest and worst period of Perpendicular, with a slate spire and no bells to speak of. Fenchurch St. Stephen has a railway-station\x{2014}though only as it were, by accident, through lying more or less upon the direct line between Leamholt and St. Peter. Still, there the station is; moreover, there is a church with a respectable fourteenth-century tower, a rather remarkable rood-screen, a Norman apse and a ring of <<eight bells|15>>. Fenchurch St. Paul is the smallest village, and has neither river nor railway; it is, however, the oldest; its church is by far the largest and the noblest, and its bells beyond question the finest. This is due to the fact that St. Paul is the original abbey foundation. The remains of the first Norman church and a few stones which mark the site of the old cloisters may still be seen to east and south of the existing chancel.",
           ],
           [
             1,

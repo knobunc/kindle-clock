@@ -11,11 +11,6 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 04:35] The Borrowers Avenged - Mary Norton.epub (OPS/c03.xml) - four hours and thirty-five minutes',
-            "\"Mabel\"\x{2014}Mr. Platter glanced at the clock on the wall\x{2014}\"we've been looking for <<four hours and thirty-five minutes|14>>. And not a sign of them. If they're still in this house, they'd be inside the walls, under the floor ... anywhere! Remember that bit of loose floorboard I hitched up?\"",
-          ],
-          [
-            1,
             '[02:30] The Borrowers Avenged - Mary Norton.epub (OPS/c06.xml) - vigils',
             "\"Somebody else...? Oh, no, Sidney. I mean, <<vigils|13>> and felonies\x{2014}those I can get used to. But what you're suggesting now ... well, that wouldn't be very nice, not murder, dear. Might involve the police\x{2014}\" As he did not reply at once, she added lamely, \"If you see what I mean...\"",
           ],
@@ -58,6 +53,11 @@ $VAR1 = [
             1,
             '[ap 08:30] The Borrowers Avenged - Mary Norton.epub (OPS/c15.xml) - eight-thirty',
             'Still the light glowed on. "What can he be doing at this time of night?" Mr. Platter muttered. "He\'s usually in bed by <<eight-thirty|5b>> at the latest. He must have visitors..."',
+          ],
+          [
+            1,
+            '[b 23:00] The Borrowers Avenged - Mary Norton.epub (OPS/c17.xml) - six bell',
+            "He came down more slowly, perhaps a little tired by the effort, and sat himself comfortably astride the rope. \"You can get right up to the bells,\" he told her, \"and there's a place where you can get right out onto the roof. There used to be <<six bell|15>> ringers, but now there's only one\x{2014}except at Easter and a day they call Christmas.\"",
           ],
           [
             1,

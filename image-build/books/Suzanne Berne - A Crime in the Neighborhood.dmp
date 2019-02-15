@@ -22,7 +22,7 @@ $VAR1 = [
           [
             1,
             '[12:00] A Crime in the Neighborhood - Suzanne Berne.epub (OEBPS/Text/ch05.html) - noon',
-            "From <<noon|13>> until five every weekday afternoon, she sat at the kitchen table with her ankles pressed together, talking to strangers across the country. As she dialed each number she frowned as if she had bitten down on a leaf of sandy lettuce. But you could tell when a customer picked up the other end of the line because her eyes widened and her eyebrows shot up. \x{201c}Hel-lo. This is Lois Eberhardt with Peterman-Wolff Communications Distribution. Are you aware of our special summertime offer of two, yes that\x{2019}s right, two popular magazines of your choice for the low, low price of\x{2026}. No? You haven\x{2019}t heard of our offer?\x{201d} Her voice was so surprised it made her forehead wrinkle.",
+            "From <<noon|13>> until <<five|20a>> every weekday afternoon, she sat at the kitchen table with her ankles pressed together, talking to strangers across the country. As she dialed each number she frowned as if she had bitten down on a leaf of sandy lettuce. But you could tell when a customer picked up the other end of the line because her eyes widened and her eyebrows shot up. \x{201c}Hel-lo. This is Lois Eberhardt with Peterman-Wolff Communications Distribution. Are you aware of our special summertime offer of two, yes that\x{2019}s right, two popular magazines of your choice for the low, low price of\x{2026}. No? You haven\x{2019}t heard of our offer?\x{201d} Her voice was so surprised it made her forehead wrinkle.",
           ],
           [
             1,

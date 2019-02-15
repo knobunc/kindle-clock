@@ -103,8 +103,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[23:52] The Snowman_ A Harry Hole Novel (7) - Jo Nesbo.epub (OEBPS/chapter12.xhtml) - eight to midnight',
-            "\x{2018}Monday and Thursday. From <<eight to midnight|10a:1>>. And he\x{2019}s always on time.\x{2019}",
+            '[00:00] The Snowman_ A Harry Hole Novel (7) - Jo Nesbo.epub (OEBPS/chapter12.xhtml) - midnight',
+            "\x{2018}Monday and Thursday. From eight to <<midnight|13>>. And he\x{2019}s always on time.\x{2019}",
           ],
           [
             1,
@@ -181,11 +181,6 @@ $VAR1 = [
             1,
             '[< 00:00] The Snowman_ A Harry Hole Novel (7) - Jo Nesbo.epub (OEBPS/chapter16.xhtml) - before midnight',
             'Harry drifted aimlessly, without any will of his own, through the streets of Oslo. It was only when he was standing outside Hotel Leon that he realised that was where he had been heading. The prostitutes and the dope dealers had already taken up their positions in the neighbouring streets. It was rush hour. Customers preferred to deal in sex and dope <<before midnight|13>>.',
-          ],
-          [
-            1,
-            '[ap 01:04] The Snowman_ A Harry Hole Novel (7) - Jo Nesbo.epub (OEBPS/chapter17.xhtml) - One hour and four minutes',
-            "<<One hour and four minutes|14>> later Gunnar Hagen trooped into a hushed K1 with the Chief Superintendent and the Chief Constable. The room was filled to the rafters with officers from Lepsvik\x{2019}s and Hole\x{2019}s investigation teams, and Harry Hole\x{2019}s voice was the only thing to be heard. They found standing room at the back. Pictures of Idar Vetlesen were projected onto the screen, showing how he was found in the curling hall.",
           ],
           [
             1,

@@ -133,8 +133,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 09:59] A Fine Balance - Rohinton Mistry.epub (OEBPS/Mist_9781551991382_epub_c04_r1.htm) - one to ten',
-            "\x{201c}Twenty-five paise for one. Or try a lottery for fifty paise \x{2013} win from <<one to ten|10a:0>> balls.\x{201d}",
+            '[ap 01:00] A Fine Balance - Rohinton Mistry.epub (OEBPS/Mist_9781551991382_epub_c04_r1.htm) - one',
+            "\x{201c}Twenty-five paise for one. Or try a lottery for fifty paise \x{2013} win from <<one|20b>> to <<ten|20a>> balls.\x{201d}",
           ],
           [
             1,

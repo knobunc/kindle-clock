@@ -7,7 +7,7 @@ $VAR1 = [
           [
             1,
             '[ap 03:30] Wifey - Judy Blume.epub (OEBPS/Wifey-12.html) - three-thirty',
-            "\x{201c}Sure thing,\x{201d} Norman called back. \x{201c}Let\x{2019}s say, from <<three-thirty|5k:1>> to <<three forty-five|5k:1>>.\x{201d}",
+            "\x{201c}Sure thing,\x{201d} Norman called back. \x{201c}Let\x{2019}s say, from <<three-thirty|20b>> to <<three forty-five|20a>>.\x{201d}",
           ],
           [
             1,
@@ -253,9 +253,9 @@ As they lined up to get on board Sandy noticed Mickey. Oh, shit! Was Funky here 
           ],
           [
             1,
-            '[ap 08:54] Wifey - Judy Blume.epub (OEBPS/Wifey-32.html) - six to nine',
+            '[ap 06:00] Wifey - Judy Blume.epub (OEBPS/Wifey-32.html) - six',
             'Newburyport, Mass.
-Serving dinner from <<six to nine|10a:0>>
+Serving dinner from <<six|20b>> to <<nine|20a>>
 Reservations, please',
           ],
           [

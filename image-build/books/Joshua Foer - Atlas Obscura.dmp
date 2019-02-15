@@ -106,8 +106,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 07:55] Atlas Obscura_ An Explorer\'s Guide to the - Joshua Foer.epub (ops/xhtml/chapter05.html) - five to eight',
-            "The walled city of \x{201c}skyscrapers\x{201d} was built on a hill in the 1530s after a mighty flood destroyed much of the existing settlement. Its huddled buildings, ranging from <<five to eight|10a:0>> stories high, provided protection against the elements and deterred potential attackers. They continue to shelter the residents of Shibam.",
+            '[ap 05:00] Atlas Obscura_ An Explorer\'s Guide to the - Joshua Foer.epub (ops/xhtml/chapter05.html) - five',
+            "The walled city of \x{201c}skyscrapers\x{201d} was built on a hill in the 1530s after a mighty flood destroyed much of the existing settlement. Its huddled buildings, ranging from <<five|20b>> to <<eight|20a>> stories high, provided protection against the elements and deterred potential attackers. They continue to shelter the residents of Shibam.",
           ],
           [
             1,
@@ -220,11 +220,6 @@ The park is open between <<8 a.m.|5>> and <<5:30 p.m.|2a>>
             1,
             '[ap 03:00] Atlas Obscura_ An Explorer\'s Guide to the - Joshua Foer.epub (ops/xhtml/chapter18.html) - 300',
             "The arctic region of Tuktoyaktuk is stippled with pingos, a dome-shaped hill with a core of ice and a layer of soil on top. Just west of the Tuktoyaktuk, at Pingo Canadian Landmark, there are eight of these arctic landforms\x{2014}including Ibyuk, the highest pingo in Canada at 160 feet tall and 984 feet wide (49 m by <<300|3:0>> m). The eight domes, which resemble baby volcanoes, are among the 1,350 pingos of the Tuktoyaktuk peninsula.",
-          ],
-          [
-            1,
-            '[> 07:30] Atlas Obscura_ An Explorer\'s Guide to the - Joshua Foer.epub (ops/xhtml/chapter19.html) - after Prime',
-            "The \x{201c}Diefenbunker,\x{201d} named <<after Prime|16>> Minister John Diefenbaker, is the largest of about 50 shelters built across Canada during the Cold War. Beneath the unassuming shed, a steel-lined blast tunnel leads to a 4-story bunker with enough supplies to house over 500 government and military personnel for one month.",
           ],
           [
             1,

@@ -36,13 +36,13 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 23:52] Oblomov - Ivan Goncharov.epub (OEBPS/html/part01.html) - eight to twelve',
-            "\x{2018}Since Easter,\x{2019} he said. \x{2018}But the amount of work \x{2013} it\x{2019}s dreadful! From <<eight to twelve|10a:0>> at home, from <<twelve to five|10a:0>> at the office, and more work in the evening. Never see anyone!\x{2019}",
+            '[ap 08:00] Oblomov - Ivan Goncharov.epub (OEBPS/html/part01.html) - eight',
+            "\x{2018}Since Easter,\x{2019} he said. \x{2018}But the amount of work \x{2013} it\x{2019}s dreadful! From <<eight|20b>> to <<twelve|20a>> at home, from <<twelve|20b>> to <<five|20a>> at the office, and more work in the evening. Never see anyone!\x{2019}",
           ],
           [
             1,
-            '[ap 23:52] Oblomov - Ivan Goncharov.epub (OEBPS/html/part01.html) - eight to twelve',
-            "\x{2018}Stout fellow!\x{2019} said Oblomov. \x{2018}But working from <<eight to twelve|10a:0>>, from <<twelve to five|10a:0>>, and at home, too \x{2013} well!\x{2019} He shook his head.",
+            '[ap 08:00] Oblomov - Ivan Goncharov.epub (OEBPS/html/part01.html) - eight',
+            "\x{2018}Stout fellow!\x{2019} said Oblomov. \x{2018}But working from <<eight|20b>> to <<twelve|20a>>, from <<twelve|20b>> to <<five|20a>>, and at home, too \x{2013} well!\x{2019} He shook his head.",
           ],
           [
             1,

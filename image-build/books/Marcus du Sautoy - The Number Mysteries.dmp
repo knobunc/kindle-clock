@@ -1,18 +1,8 @@
 $VAR1 = [
           [
             1,
-            '[~ 07:30] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0006.html) - about prime',
-            'In this chapter, we will explore what we do understand about these special numbers. In the course of this journey, we will discover how different cultures have tried to record and survey primes and how musicians have exploited their syncopated rhythm. We will find out why the primes have been used to try to communicate with extraterrestrials and how they have helped to keep things secret on the Internet. At the end of the chapter, I unveil a mathematical enigma <<about prime|16>> numbers that will earn you a million dollars if you can crack it. But before we tackle one of the biggest conundrums of mathematics, let us begin with one of the great numerical mysteries of our time.',
-          ],
-          [
-            1,
             '[ap 02:00] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0006.html) - 2',
             "If the key players for Real Madrid wear primes, then what shirt should the goalkeeper wear? Or, put mathematically, is 1 a prime? Well, yes and no. (This is just the sort of math question everyone loves\x{2014}both answers are right.) Two hundred years ago, tables of prime numbers included 1 as the first prime. After all, it isn\x{2019}t divisible, since the only whole number that divides it is itself. But today, we say that 1 is not a prime because the most important thing about primes is that they are the building blocks of numbers. If I multiply a number by a prime, I get a new number. Although 1 is not divisible, if I multiply a number by 1, I get the number I started with, and on that basis, we exclude 1 from the list of primes and start at <<2|9g>>.",
-          ],
-          [
-            1,
-            '[~ 07:30] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0006.html) - about prime',
-            "For a mathematician, the most curious feature is the choice of number: 17, a prime number. Is it just a coincidence that these cicadas have chosen to spend a prime number of years hiding underground? It doesn\x{2019}t seem so. There are other species of cicada that stay underground for 13 years, and a few that prefer to stay there for 7 years\x{2014}all prime numbers. Rather amazingly, if a 17-year cicada does appear too early, then it isn\x{2019}t out one year early, but generally four years early, apparently shifting to a 13-year cycle. There really does seem to be something <<about prime|16>> numbers that is helping these various species of cicada. But what is it?",
           ],
           [
             1,
@@ -42,7 +32,7 @@ $VAR1 = [
           [
             1,
             '[23:00] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0006.html) - 23',
-            "Figure 1.21 shows a typical scenario. The first player has lost the game because the counter is at <<23|9c:0>> and there are no primes in the five numbers ahead of 23. Could the first player have made a better opening move? If you look carefully, you\x{2019}ll see that once you\x{2019}ve passed 5, there really aren\x{2019}t many choices. Whoever moves the counter to 5 is going to win because that player will, at a later turn, be able to move the counter from <<19 to 23|10a:0>>, leaving his or her opponent with no prime to move to. So the opening move is vital.",
+            "Figure 1.21 shows a typical scenario. The first player has lost the game because the counter is at <<23|9c:0>> and there are no primes in the five numbers ahead of 23. Could the first player have made a better opening move? If you look carefully, you\x{2019}ll see that once you\x{2019}ve passed 5, there really aren\x{2019}t many choices. Whoever moves the counter to 5 is going to win because that player will, at a later turn, be able to move the counter from <<19|20b>> to <<23|20a>>, leaving his or her opponent with no prime to move to. So the opening move is vital.",
           ],
           [
             1,
@@ -101,13 +91,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[~ 07:30] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0008.html) - about prime',
-            "A mathematical question that goes back two hundred years to the work of Gauss is this: are there infinitely many numbers N with the property that a deck with 2N cards actually needs the full number of perfect shuffles? This question turns out to be related to the Riemann hypothesis, the million-dollar question <<about prime|16>> numbers that concluded chapter 1. If the primes are distributed as the Riemann hypothesis predicts they are, then there will be an infinite number of packs of cards needing the maximum number of shuffles. The Magic Circle and gamblers around the world probably aren\x{2019}t holding their breath waiting for the answer, but mathematicians are curious to know how primes can be related to questions of shuffling cards. It wouldn\x{2019}t be surprising if they were, because the primes are so fundamental to mathematics that they pop up in the strangest places.",
-          ],
-          [
-            1,
-            '[19:59] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0008.html) - 1 to 20',
-            "This is a game for two players. Take 20 envelopes and number them from <<1 to 20|10a:0>>. Player 1 writes down 20 different sums of money on pieces of paper and puts one in each envelope. Player 2 then chooses an envelope and is offered the sum of money inside. He can accept the money or choose a different envelope. If he chooses a different envelope, he can\x{2019}t go back and claim a previous prize.",
+            '[ap 01:00] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0008.html) - 1',
+            "This is a game for two players. Take 20 envelopes and number them from <<1|20b>> to <<20|20a>>. Player 1 writes down 20 different sums of money on pieces of paper and puts one in each envelope. Player 2 then chooses an envelope and is offered the sum of money inside. He can accept the money or choose a different envelope. If he chooses a different envelope, he can\x{2019}t go back and claim a previous prize.",
           ],
           [
             1,
@@ -136,8 +121,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 09:00] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0009.html) - 0 to 9',
-            "The code worked by using combinations of ten different flags in which each flag represented a different numeral from <<0 to 9|10a:0>>. The flags would be run up the mast of a ship three at a time, indicating a number from 000 to 999. The recipient of the message would then look in the codebook to see what word was encoded by that number. England was encoded by the number 253, and the word man by 471. Some words, such as duty, were not in the codebook and would need to be spelled out by flags reserved for individual letters. Originally, Nelson had wanted to send the message \x{201c}England confides that every man will do his duty,\x{201d} in the sense that England was confident, but the signal officer, Lieutenant John Pasco, couldn\x{2019}t find the word confides in the codebook. Rather than spelling it out, he politely suggested to Nelson that maybe expects, which was in the book, was a better word.",
+            '[00:00] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0009.html) - 0',
+            "The code worked by using combinations of ten different flags in which each flag represented a different numeral from <<0|20b>> to <<9|20a>>. The flags would be run up the mast of a ship three at a time, indicating a number from 000 to 999. The recipient of the message would then look in the codebook to see what word was encoded by that number. England was encoded by the number 253, and the word man by 471. Some words, such as duty, were not in the codebook and would need to be spelled out by flags reserved for individual letters. Originally, Nelson had wanted to send the message \x{201c}England confides that every man will do his duty,\x{201d} in the sense that England was confident, but the signal officer, Lieutenant John Pasco, couldn\x{2019}t find the word confides in the codebook. Rather than spelling it out, he politely suggested to Nelson that maybe expects, which was in the book, was a better word.",
           ],
           [
             1,
@@ -211,8 +196,8 @@ An Easy Challenge',
           ],
           [
             1,
-            '[23:56] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0010.html) - 23 hours, 56 minutes',
-            "The basic unit of time common to all these calendars is the 24-hour day. This isn\x{2019}t the time it takes the earth to spin once on its axis\x{2014}that\x{2019}s a little less: <<23 hours, 56 minutes|14>>, and 4 seconds. If we were to use this slightly shorter period as the length of a day, our clock and the rotating earth would get more and more out of sync as all those extra 3 minutes and 56 seconds accumulated, until eventually, <<noon|13>> on the clock would happen at <<midnight|13>>. So for timekeeping purposes, we define a day\x{2014}or, to use the correct term, a solar day\x{2014}as the time it takes the sun to return to the same position in the sky as seen from the same point on the earth\x{2019}s surface. After one complete rotation, the earth will have moved around its orbit by about of a revolution, so it takes about of a rotation, or another of a day\x{2014}about 3 minutes and 56 seconds\x{2014}for the sun to return to the same point in the sky.",
+            '[12:00] The Number Mysteries_ A Mathematical Odyss - Marcus du Sautoy.epub (text/part0010.html) - noon',
+            "The basic unit of time common to all these calendars is the 24-hour day. This isn\x{2019}t the time it takes the earth to spin once on its axis\x{2014}that\x{2019}s a little less: 23 hours, 56 minutes, and 4 seconds. If we were to use this slightly shorter period as the length of a day, our clock and the rotating earth would get more and more out of sync as all those extra 3 minutes and 56 seconds accumulated, until eventually, <<noon|13>> on the clock would happen at <<midnight|13>>. So for timekeeping purposes, we define a day\x{2014}or, to use the correct term, a solar day\x{2014}as the time it takes the sun to return to the same position in the sky as seen from the same point on the earth\x{2019}s surface. After one complete rotation, the earth will have moved around its orbit by about of a revolution, so it takes about of a rotation, or another of a day\x{2014}about 3 minutes and 56 seconds\x{2014}for the sun to return to the same point in the sky.",
           ],
           [
             1,

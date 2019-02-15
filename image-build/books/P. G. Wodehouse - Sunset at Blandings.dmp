@@ -12,7 +12,7 @@ $VAR1 = [
           [
             1,
             "[ap ~ 03:00] Sunset at Blandings - P. G. Wodehouse.epub (P.G. Wodehouse - Sunset at Blandings_split_021.htm) - about 3 o\x{2019}clock",
-            "No scholar, as far as I know, had collected all the railway references and laid them out for inspection. So, since this last chronicle of Blandings adds one last train to the time-table, I have brought them all together. It was not difficult, only laborious. But interpreting the references was beyond me. I could see no pattern, if any existed, in the times and speeds. I could see one obvious anomaly. In Leave it to Psmith, Psmith says it\x{2019}s roughly a four-hour journey either way. But, elsewhere in the same book, the narrative says that the 1250 from Paddington arrived at Market Blandings \x{2018}<<about 3 o\x{2019}clock|6>>\x{2019} (1500). My guess is now that that \x{2018}3\x{2019} was originally a misprint for \x{2018}5\x{2019} and has persisted uncorrected through half a century of editions. Otherwise we have a train, not even called an express, doing the four-hour journey in <<2 hours 10 minutes|14>>.",
+            "No scholar, as far as I know, had collected all the railway references and laid them out for inspection. So, since this last chronicle of Blandings adds one last train to the time-table, I have brought them all together. It was not difficult, only laborious. But interpreting the references was beyond me. I could see no pattern, if any existed, in the times and speeds. I could see one obvious anomaly. In Leave it to Psmith, Psmith says it\x{2019}s roughly a four-hour journey either way. But, elsewhere in the same book, the narrative says that the 1250 from Paddington arrived at Market Blandings \x{2018}<<about 3 o\x{2019}clock|6>>\x{2019} (1500). My guess is now that that \x{2018}3\x{2019} was originally a misprint for \x{2018}5\x{2019} and has persisted uncorrected through half a century of editions. Otherwise we have a train, not even called an express, doing the four-hour journey in 2 hours 10 minutes.",
           ],
           [
             1,
@@ -33,11 +33,6 @@ $VAR1 = [
             1,
             '[< 17:00] Sunset at Blandings - P. G. Wodehouse.epub (P.G. Wodehouse - Sunset at Blandings_split_021.htm) - shortly before 1700',
             "1242 \x{2018}first stop Swindon\x{2019} arrives \x{2018}<<shortly before 1700|9:0>> (Full Moon 1947).",
-          ],
-          [
-            1,
-            '[ap 02:10] Sunset at Blandings - P. G. Wodehouse.epub (P.G. Wodehouse - Sunset at Blandings_split_021.htm) - 2 hours 10 minutes',
-            "1250 arrives about 1500\x{2014}i.e. about <<2 hours 10 minutes|14>> ? this a misprint (Leave it to Psmith 1923).",
           ],
           [
             1,
@@ -78,16 +73,6 @@ $VAR1 = [
             1,
             '[ap 00:40] Sunset at Blandings - P. G. Wodehouse.epub (P.G. Wodehouse - Sunset at Blandings_split_021.htm) - 1240',
             "1. There are also branch-line trains mentioned. Bridge-ford (can this mean Bridgnorth?) to Market Blandings takes 30 minutes (Leave it to Psmith 1923). A train leaves Market Blandings towards Norfolk at <<1240|9c:1>>, and there\x{2019}s one that returns from the Norfolk direction at <<about 1945|18:1>> \x{2018}in time to dress for dinner\x{2019} (Heavy Weather 1933).",
-          ],
-          [
-            1,
-            '[ap 03:40] Sunset at Blandings - P. G. Wodehouse.epub (P.G. Wodehouse - Sunset at Blandings_split_021.htm) - 3 hours 40 minutes',
-            "I took one railway fact \x{2014} that it is generally a 4-hour journey from Paddington (1923), and a fast train takes about <<3 hours 40 minutes|14>> (1947). I applied this to the above three areas. Bradshaw shows that the through trains only stop at Wellington (under 3 hours from Paddington) and, excluding Shrewsbury itself, Gobowen (about <<3 hours 40 minutes|14>>) . This latter puts Blandings Castle eight miles from the Severn, which means that the river could hardly flow \x{2018}through its grounds\x{2019} (though it might flow through its land, but that is not the same thing) . It also puts the castle in the suburbs of Oswestry. This is so unlikely that I discarded Gobowen.",
-          ],
-          [
-            1,
-            '[ap 03:40] Sunset at Blandings - P. G. Wodehouse.epub (P.G. Wodehouse - Sunset at Blandings_split_021.htm) - 3 hours 40 minutes',
-            '3. The Severn Valley line. Here one could only just reach Bridgnorth in <<3 hours 40 minutes|14>> from Paddington by one train, and the connections up to Paddington in the morning were extremely poor. One mainly ended up in Worcester Foregate Street.',
           ],
           [
             1,

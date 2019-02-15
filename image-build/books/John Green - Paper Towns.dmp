@@ -118,8 +118,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[23:50] Paper Towns - John Green.epub (dummy_split_025.html) - ten to midnight',
-            "\x{201c}Yeah. Everything\x{2019}s thirty percent off from <<ten to midnight|10a:1>>. She wants me to help her pick out her prom shoes. I mean, she had some, but I was over at her house yesterday and we agreed that they weren\x{2019}t . . . you know, you want the perfect shoes for prom. So she\x{2019}s going to return them and then we\x{2019}re going to Burdines and we\x{2019}re going to like pi\x{2014}\x{201d}",
+            '[00:00] Paper Towns - John Green.epub (dummy_split_025.html) - midnight',
+            "\x{201c}Yeah. Everything\x{2019}s thirty percent off from ten to <<midnight|13>>. She wants me to help her pick out her prom shoes. I mean, she had some, but I was over at her house yesterday and we agreed that they weren\x{2019}t . . . you know, you want the perfect shoes for prom. So she\x{2019}s going to return them and then we\x{2019}re going to Burdines and we\x{2019}re going to like pi\x{2014}\x{201d}",
           ],
           [
             1,
@@ -152,11 +152,6 @@ $VAR1 = [
             1,
             '[ap > 08:00] Paper Towns - John Green.epub (dummy_split_029.html) - just after eight',
             "I woke up early the next morning, <<just after eight|10>>, and went to the computer. Ben was online, so I IM\x{2019}ed him.",
-          ],
-          [
-            1,
-            '[ap 11:14] Paper Towns - John Green.epub (dummy_split_029.html) - eleven hours and fourteen minutes',
-            "ITWASAKIDNEYINFECTION: Bro, prom starts in <<eleven hours and fourteen minutes|14>>. I have to pick Lacey up in less than nine hours. I haven\x{2019}t even washed and waxed RHAPAW yet, which by the way you did a nice job of dirtying up. Then after that I have to shower and shave and trim nasal hairs and wash and wax myself. God, don\x{2019}t even get me started. I have a lot to do. Listen, I\x{2019}ll call you later if I have a chance.",
           ],
           [
             1,
@@ -238,24 +233,12 @@ $VAR1 = [
           [
             1,
             '[ap 02:15] Paper Towns - John Green.epub (dummy_split_038.html) - two fifteen',
-            'Online, I searched for driving directions from Orlando to Agloe, but the map system had never heard of Agloe, so instead I searched for Roscoe. Averaging sixty-five miles per hour, the computer said it would be a nineteen-hour-and-four-minute trip. It was <<two fifteen|5b>>. I had <<twenty-one hours and forty-five minutes|14>> to get there. I printed the directions, grabbed the keys to the minivan, and locked the front door behind me.',
+            'Online, I searched for driving directions from Orlando to Agloe, but the map system had never heard of Agloe, so instead I searched for Roscoe. Averaging sixty-five miles per hour, the computer said it would be a nineteen-hour-and-four-minute trip. It was <<two fifteen|5b>>. I had twenty-one hours and forty-five minutes to get there. I printed the directions, grabbed the keys to the minivan, and locked the front door behind me.',
           ],
           [
             1,
-            '[19:04] Paper Towns - John Green.epub (dummy_split_038.html) - nineteen hours and four minutes',
-            "\x{201c}It\x{2019}s <<nineteen hours and four minutes|14>> away,\x{201d} I said into the cell phone. It was Radar\x{2019}s cell phone, but Ben had answered it.",
-          ],
-          [
-            1,
-            '[19:04] Paper Towns - John Green.epub (dummy_split_038.html) - Nineteen hours and four minutes',
-            "Suddenly Radar had the phone back. \x{201c}How long is the trip?\x{201d}
-\x{201c}<<Nineteen hours and four minutes|14>>.\x{201d}
-\x{201c}According to who?\x{201d}",
-          ],
-          [
-            1,
-            '[23:09] Paper Towns - John Green.epub (dummy_split_038.html) - twenty-three hours and nine minutes',
-            "\x{201c}I\x{2019}m not going. Can\x{2019}t risk the time,\x{201d} I said, but I was talking to dead air. Radar called back a minute later. \x{201c}If you average sixty-five miles per hour, don\x{2019}t stop, and account for average traffic patterns, it\x{2019}s going to take you <<twenty-three hours and nine minutes|14>>. Which puts you there <<just after one P.M.|10>>, so you\x{2019}re going to have to make up time when you can.\x{201d}",
+            '[> 13:00] Paper Towns - John Green.epub (dummy_split_038.html) - just after one P.M.',
+            "\x{201c}I\x{2019}m not going. Can\x{2019}t risk the time,\x{201d} I said, but I was talking to dead air. Radar called back a minute later. \x{201c}If you average sixty-five miles per hour, don\x{2019}t stop, and account for average traffic patterns, it\x{2019}s going to take you twenty-three hours and nine minutes. Which puts you there <<just after one P.M.|10>>, so you\x{2019}re going to have to make up time when you can.\x{201d}",
           ],
           [
             1,
@@ -274,20 +257,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 04:30] Paper Towns - John Green.epub (dummy_split_040.html) - four hours and thirty minutes',
-            "\x{201c}Well,\x{201d} says Radar, \x{201c}the good news is that we will be stopping. The bad news is that it won\x{2019}t be for another <<four hours and thirty minutes|14>>.\x{201d}",
-          ],
-          [
-            1,
             '[ap 03:10] Paper Towns - John Green.epub (dummy_split_040.html) - 3:10',
             "\x{201c}I think I can hold it,\x{201d} Ben says. At <<3:10|2>>, he announces, \x{201c}Actually, I really need to pee. Really.\x{201d}",
-          ],
-          [
-            1,
-            '[ap 01:03] Paper Towns - John Green.epub (dummy_split_040.html) - One hour and three minutes',
-            "Thirty-five minutes later, as our third hour comes to a close, he asks in a small voice, \x{201c}When are we stopping again?\x{201d}
-\x{201c}<<One hour and three minutes|14>>, if Q keeps pace,\x{201d} Radar answers.
-\x{201c}Okay,\x{201d} Ben says. \x{201c}Okay. Good. Because I have to pee.\x{201d}",
           ],
           [
             1,

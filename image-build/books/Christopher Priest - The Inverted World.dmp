@@ -6,8 +6,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 06:59] The Inverted World - Christopher Priest.epub (OEBPS/Text/Part_01.html) - one to seven',
-            'Suddenly, the doors began to close of their own accord, and I hurried inside. Before I could find any way of controlling the elevator, it began to move upwards. I saw a row of keyed buttons placed on the wall near the door, numbered from <<one to seven|10a:0>>. I jabbed my key into number four, hoping that this was the right one. The elevator-car seemed to be moving for a long time, but then it halted abruptly. The doors opened and I stepped forward. As I came out into the passageway, three more guildsmen stepped into the car.',
+            '[ap 01:00] The Inverted World - Christopher Priest.epub (OEBPS/Text/Part_01.html) - one',
+            'Suddenly, the doors began to close of their own accord, and I hurried inside. Before I could find any way of controlling the elevator, it began to move upwards. I saw a row of keyed buttons placed on the wall near the door, numbered from <<one|20b>> to <<seven|20a>>. I jabbed my key into number four, hoping that this was the right one. The elevator-car seemed to be moving for a long time, but then it halted abruptly. The doors opened and I stepped forward. As I came out into the passageway, three more guildsmen stepped into the car.',
           ],
           [
             1,
@@ -40,11 +40,6 @@ $VAR1 = [
             "\x{201c}Kellen\x{2026}how far is the city from here?\x{201d}
 \x{201c}A few miles back. <<About five|9:0>>.\x{201d}
 Five miles! Then by now it must have easily overtaken the optimum.",
-          ],
-          [
-            1,
-            '[23:47] The Inverted World - Christopher Priest.epub (OEBPS/Text/Part_03.html) - twenty-three hours and forty-seven minutes',
-            'I have measured the rate of regression at one tenth of a statute mile in a period of <<twenty-three hours and forty-seven minutes|14>>. Although this southwards drift is slow it is relentless; the establishment shall therefore be moved at least one mile in every ten day period.',
           ],
           [
             1,

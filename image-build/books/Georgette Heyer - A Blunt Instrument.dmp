@@ -240,13 +240,13 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 09:00] A Blunt Instrument - Georgette Heyer.epub (OEBPS/ch13-p265.xhtml) - 9',
-            '\'Well, sir, when I passed the post office in Glassmere Road the clock there said <<9|11>>.10, so by my reckoning it would be <<just about 9.15|3b>> when I got to Barnsley Street.\'',
+            '[ap 09:10] A Blunt Instrument - Georgette Heyer.epub (OEBPS/ch13-p265.xhtml) - 9.10',
+            '\'Well, sir, when I passed the post office in Glassmere Road the clock there said <<9.10|11>>, so by my reckoning it would be <<just about 9.15|3b>> when I got to Barnsley Street.\'',
           ],
           [
             1,
-            '[ap 09:00] A Blunt Instrument - Georgette Heyer.epub (OEBPS/ch13-p265.xhtml) - 9',
-            '\'Well, sir, when I passed the post office in Glassmere Road the clock there said <<9|11>>.10, so by my reckoning it would be <<just about 9.15|3b>> when I got to Barnsley Street.\'
+            '[ap 09:10] A Blunt Instrument - Georgette Heyer.epub (OEBPS/ch13-p265.xhtml) - 9.10',
+            '\'Well, sir, when I passed the post office in Glassmere Road the clock there said <<9.10|11>>, so by my reckoning it would be <<just about 9.15|3b>> when I got to Barnsley Street.\'
 \'What?\' Hannasyde said. \'Did you say <<9.15|5a:1>>?\'
 \'Yes, sir. But I wouldn\'t want to mislead you. It might have been a minute or so more or less.\'',
           ],
@@ -420,7 +420,7 @@ one constable, left behind to keep a watch over the house, had departed from Gre
           [
             1,
             '[ap ~ 09:58] A Blunt Instrument - Georgette Heyer.epub (OEBPS/ch6-p111.xhtml) - about 9.58',
-            '\'Yes. X entered the study, we suppose, a minute later. That isn\'t important. Now, according to her first story, Mrs North then left by way of the garden-gate. According to her second version, she remained where she was, until <<about 9.58|9c:1>>, when X, accompanied by Fletcher, came out of the study, and walked down the path to the gate. She then slipped back into the study to search for her IOUs, heard Fletcher returning, and escaped through the door into the hall. She was in the hall as the clock began to strike <<10|11>>.00. At <<10.02|9v>>, Glass, on his beat, saw a man corresponding to Mrs North\'s description of X coming out of the garden-gate, and making off towards the Arden Road. He entered the garden and reached the study at <<10.05 p.m.|2a>>, to find Fletcher dead, and no sign of his murderer to be seen. What do you make of it?\'',
+            '\'Yes. X entered the study, we suppose, a minute later. That isn\'t important. Now, according to her first story, Mrs North then left by way of the garden-gate. According to her second version, she remained where she was, until <<about 9.58|9c:1>>, when X, accompanied by Fletcher, came out of the study, and walked down the path to the gate. She then slipped back into the study to search for her IOUs, heard Fletcher returning, and escaped through the door into the hall. She was in the hall as the clock began to strike <<10.00|11>>. At <<10.02|9v>>, Glass, on his beat, saw a man corresponding to Mrs North\'s description of X coming out of the garden-gate, and making off towards the Arden Road. He entered the garden and reached the study at <<10.05 p.m.|2a>>, to find Fletcher dead, and no sign of his murderer to be seen. What do you make of it?\'',
           ],
           [
             1,
@@ -500,7 +500,7 @@ one constable, left behind to keep a watch over the house, had departed from Gre
           [
             1,
             '[ap 09:58] A Blunt Instrument - Georgette Heyer.epub (OEBPS/ch9-p171.xhtml) - 9.58',
-            "'No,' said Hannasyde, after a pause. 'I think she did go back into the study. If she didn't let herself out of it as she described, I don't see how her finger-prints came to be on the panel. But the fact of the hall clock's being slow points to a discrepancy some where in her story. She stated that the man X left the study with Ernest at <<9.58|9c:1>>, that she went back into it, and left it as the hall clock struck <<10|11>>.00. Now, the only times we know to be correct are <<10.02|5a:1>>, when Glass saw X making off; and <<10.05|5a:1>>, when he discovered Fletcher's body. That left us with a difference of four minutes, between the time Mrs North said X left and the time Glass actually saw him leave. We could just, and only just, account for that by assuming that X doubled back to the study, murdered Fletcher, and again made off. But if Fletcher returned to the study not at <<10.00|9c:1>>, but at <<10.01|9c:1>>, then there is no possibility of X's having returned, committed the murder, and reached the gate again. So either X left by the side gate at <<9.58|9c:1>>, to be followed in four minutes by a second man \x{2013} Y, if you like; or the first man, X, was a pure fabrication of Mrs North's.'",
+            "'No,' said Hannasyde, after a pause. 'I think she did go back into the study. If she didn't let herself out of it as she described, I don't see how her finger-prints came to be on the panel. But the fact of the hall clock's being slow points to a discrepancy some where in her story. She stated that the man X left the study with Ernest at <<9.58|9c:1>>, that she went back into it, and left it as the hall clock struck <<10.00|11>>. Now, the only times we know to be correct are <<10.02|5a:1>>, when Glass saw X making off; and <<10.05|5a:1>>, when he discovered Fletcher's body. That left us with a difference of four minutes, between the time Mrs North said X left and the time Glass actually saw him leave. We could just, and only just, account for that by assuming that X doubled back to the study, murdered Fletcher, and again made off. But if Fletcher returned to the study not at <<10.00|9c:1>>, but at <<10.01|9c:1>>, then there is no possibility of X's having returned, committed the murder, and reached the gate again. So either X left by the side gate at <<9.58|9c:1>>, to be followed in four minutes by a second man \x{2013} Y, if you like; or the first man, X, was a pure fabrication of Mrs North's.'",
           ],
           [
             1,

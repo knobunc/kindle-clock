@@ -27,7 +27,7 @@ $VAR1 = [
           [
             1,
             '[ap ~ 11:00] The Sweetness at the Bottom of the Pie - Alan Bradley.epub (sweetness_split_006.html) - about eleven',
-            '"It was <<about eleven|9f>>, or a quarter past. I come for four hours in the morning, from <<eight to twelve|10a:1>>, and <<three in the afternoon|5>>, from <<one to four|10a:1>>, though," she said, with a surprisingly black scowl at Father, who was too pointedly looking out the window to notice it, "I\'m usually kept behind my time, what with this and that."',
+            '"It was <<about eleven|9f>>, or a quarter past. I come for four hours in the morning, from <<eight|20b>> to <<twelve|20a>>, and <<three in the afternoon|5>>, from <<one|20b>> to <<four|20a>>, though," she said, with a surprisingly black scowl at Father, who was too pointedly looking out the window to notice it, "I\'m usually kept behind my time, what with this and that."',
           ],
           [
             1,
@@ -37,7 +37,7 @@ $VAR1 = [
           [
             1,
             '[ap 10:00] The Sweetness at the Bottom of the Pie - Alan Bradley.epub (sweetness_split_007.html) - ten o\'clock',
-            'Closed? Today was Saturday. The library hours were <<ten o\'clock|6>> to <<two-thirty|5k:1>>, Thursday through Saturday; they were clearly posted in the black-framed notice beside the door. Had something happened to Miss Pickery?',
+            'Closed? Today was Saturday. The library hours were <<ten o\'clock|6>> to <<two-thirty|20a>>, Thursday through Saturday; they were clearly posted in the black-framed notice beside the door. Had something happened to Miss Pickery?',
           ],
           [
             1,

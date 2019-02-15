@@ -96,6 +96,11 @@ $VAR1 = [
           ],
           [
             1,
+            '[ap 06:00] The Day of the Jackal - Frederick Forsyth.epub (OEBPS/chapter04.xhtml) - six',
+            "The Belgian thought for a minute. \x{2018}Then I shall wait from <<six|20b>> until <<seven|20a>> each evening in the bar where we met tonight on each of the first three days of August. If you do not come, I shall presume the deal is off.\x{2019}",
+          ],
+          [
+            1,
             '[00:00] The Day of the Jackal - Frederick Forsyth.epub (OEBPS/chapter04.xhtml) - midnight',
             'A few seconds later the Englishman was gone into the night. He walked for five blocks before taking a taxi back to the Amigo and it was <<midnight|3b>> when he arrived. He ordered cold chicken and a bottle of Moselle in his room, bathed thoroughly to get rid of the last traces of make-up, then slept.',
           ],
@@ -324,7 +329,7 @@ $VAR1 = [
           [
             1,
             '[ap 06:50] The Day of the Jackal - Frederick Forsyth.epub (OEBPS/chapter12.xhtml) - ten to seven',
-            "It was <<ten to seven|10a>> when the police car carrying the two detectives drew up outside the innocent green door in the tiny Rue Paul Val\x{e9}ry which housed the headquarters of Interpol at that time.",
+            "It was <<ten to seven|10d>> when the police car carrying the two detectives drew up outside the innocent green door in the tiny Rue Paul Val\x{e9}ry which housed the headquarters of Interpol at that time.",
           ],
           [
             1,
@@ -478,7 +483,7 @@ Thomas had spent the morning and most of the afternoon trying to track down a ma
           [
             1,
             '[ap 07:50] The Day of the Jackal - Frederick Forsyth.epub (OEBPS/chapter15.xhtml) - ten to eight',
-            "The daily road traffic was already thick when he arrived at <<ten to eight|10a>> at the sleepiest of France\x{2019}s frontier points, and the heat was rising.",
+            "The daily road traffic was already thick when he arrived at <<ten to eight|10d>> at the sleepiest of France\x{2019}s frontier points, and the heat was rising.",
           ],
           [
             1,
@@ -650,7 +655,7 @@ The taxi arrived at <<7.30|9c:1>>, an old rattletrap Renault.
           [
             1,
             '[> 16:00] The Day of the Jackal - Frederick Forsyth.epub (OEBPS/chapter17.xhtml) - after four that afternoon',
-            'It was not until <<after four that afternoon|9h>> that the little car was towed into the pound at Ussel, and close to five before one of the motor maintenance staff, giving the car a check over for identification, noticed that the paintwork was appallingly badly done.',
+            'It was not until <<after four that afternoon|9h>> that the little car was towed into the pound at Ussel, and close to <<five before one|10>> of the motor maintenance staff, giving the car a check over for identification, noticed that the paintwork was appallingly badly done.',
           ],
           [
             1,

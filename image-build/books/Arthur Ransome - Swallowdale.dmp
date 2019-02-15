@@ -28,8 +28,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap > 08:00] Swallowdale - Arthur Ransome.epub (index_split_023.html) - past eight',
-            'The result of this was that dinner started very late and took a very long time. People were making the pemmican last out in hopes that the potatoes would be ready before the last mouthful of pemmican had gone down. It was very late in beginning, and lasted indeed so long that, by the time it was done and Captain Nancy threw the core of her apple into the camp fire and asked Captain John to look at his chronometer, it was already <<past eight|9s>> bells, and it was clear that even if Captain Nancy and Mate Peggy ran the whole way home, they had not the smallest chance of being back for tea.',
+            '[b 0:00] Swallowdale - Arthur Ransome.epub (index_split_023.html) - past eight bells',
+            'The result of this was that dinner started very late and took a very long time. People were making the pemmican last out in hopes that the potatoes would be ready before the last mouthful of pemmican had gone down. It was very late in beginning, and lasted indeed so long that, by the time it was done and Captain Nancy threw the core of her apple into the camp fire and asked Captain John to look at his chronometer, it was already <<past eight bells|15>>, and it was clear that even if Captain Nancy and Mate Peggy ran the whole way home, they had not the smallest chance of being back for tea.',
           ],
           [
             1,
@@ -97,5 +97,10 @@ THE able-seaman was afloat on the Amazon River for the first time. The other thr
             1,
             '[ap 01:59] Swallowdale - Arthur Ransome.epub (index_split_033.html) - a minute of two',
             'At the start they had been scrambling up beside the tiny mountain beck that was now all that was left to remind them of the river far down below them in the valley. But as soon as they had come to a place from which they had had a clear view of the summit, Nancy, the leader, had turned directly towards it, and within <<a minute of two|10>> everybody had learnt how useful it is on a mountain to have four legs instead of two. Sometimes Nancy turned to left or to right to avoid loose screes, but when she came to a rock that could be climbed, she climbed it, and all the rest of the explorers climbed it after her.',
+          ],
+          [
+            1,
+            '[b 12:00] Swallowdale - Arthur Ransome.epub (index_split_039.html) - about eight bells of the forenoon watch',
+            "I\x{2019}m coming over to-morrow morning with Bridgie to hear all about Kanchenjunga. Don\x{2019}t do too much cooking. We\x{2019}ll bring our own rations. This is just in case you might all be exploring if you didn\x{2019}t know we were coming. Expect us <<about eight bells of the forenoon watch|15>> (John knows when).",
           ],
         ];

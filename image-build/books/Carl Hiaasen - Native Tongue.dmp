@@ -165,8 +165,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 03:55] Native Tongue - Carl Hiaasen.epub (OEBPS/Hiaa_9780307767424_epub_c23_r1.htm) - five to four',
-            "He was watching the news with a notebook on his lap. He called toward the kitchen: \x{201c}He got the number of victims down from <<five to four|10a:0>>. Plus he\x{2019}s planted the idea that the disease was picked up in the Caribbean, not at the Amazing Kingdom. Pretty damn slick on short notice!\x{201d}",
+            '[ap 05:00] Native Tongue - Carl Hiaasen.epub (OEBPS/Hiaa_9780307767424_epub_c23_r1.htm) - five',
+            "He was watching the news with a notebook on his lap. He called toward the kitchen: \x{201c}He got the number of victims down from <<five|20b>> to <<four|20a>>. Plus he\x{2019}s planted the idea that the disease was picked up in the Caribbean, not at the Amazing Kingdom. Pretty damn slick on short notice!\x{201d}",
           ],
           [
             1,
@@ -185,8 +185,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 04:58] Native Tongue - Carl Hiaasen.epub (OEBPS/Hiaa_9780307767424_epub_c30_r1.htm) - two to five',
-            "\x{201c}It\x{2019}s lunch hour, Carrie. You heard the whistle.\x{201d} He took out a pair of waterproof Zeiss binoculars and scanned the shoreline until he found the stand of pigeon plums that Molly McNamara had told him about. The dreaded bulldozers had multiplied from <<two to five|10a:1>>: they were parked in a semicircle, poised for the mission against the plum trees.",
+            '[ap 02:00] Native Tongue - Carl Hiaasen.epub (OEBPS/Hiaa_9780307767424_epub_c30_r1.htm) - two',
+            "\x{201c}It\x{2019}s lunch hour, Carrie. You heard the whistle.\x{201d} He took out a pair of waterproof Zeiss binoculars and scanned the shoreline until he found the stand of pigeon plums that Molly McNamara had told him about. The dreaded bulldozers had multiplied from <<two|20b>> to <<five|20a>>: they were parked in a semicircle, poised for the mission against the plum trees.",
           ],
           [
             1,

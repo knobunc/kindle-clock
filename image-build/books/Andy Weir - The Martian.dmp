@@ -43,11 +43,6 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 03:27] The Martian - Andy Weir.epub (text/part0006.html) - 3 hours and 27 minutes',
-            'I set out at first light and drove laps around the Hab, trying to stay on untouched ground. The first battery lasted just under two hours. After a quick EVA to switch the cables, I got back to driving. When all was said and done, I had driven 81km in <<3 hours and 27 minutes|14>>.',
-          ],
-          [
-            1,
             '[15:00] The Martian - Andy Weir.epub (text/part0006.html) - 1500 hours',
             "CO2 isn\x{2019}t a problem. I started this grand adventure with <<1500 hours|1>> of CO2 filters, plus another 720 for emergency use. All systems use standard filters (Apollo 13 taught us important lessons). Since then, I\x{2019}ve used <<131 hours|1>> of filter on various EVAs. I have 2089 left. 87 days worth. Plenty.",
           ],
@@ -369,8 +364,8 @@ Dick.',
           ],
           [
             1,
-            '[ap 04:24] The Martian - Andy Weir.epub (text/part0016.html) - 4 hours and 24 minutes',
-            'Pathfinder was no longer talking to the rover. It had stopped answering pings <<4 hours and 24 minutes|14>> ago. Some quick math told me that was <<around 13:30|2>> today.',
+            '[~ 13:30] The Martian - Andy Weir.epub (text/part0016.html) - around 13:30',
+            'Pathfinder was no longer talking to the rover. It had stopped answering pings 4 hours and 24 minutes ago. Some quick math told me that was <<around 13:30|2>> today.',
           ],
           [
             1,
@@ -577,13 +572,6 @@ LOG ENTRY: SOL 506',
             '[<<19:29|2>>]JOHANSSEN: I didn\'t type that! That was Martinez! I stepped away from the console for like 10 seconds!
 [<<19:29|2>>]MAV: I\'ve really missed you guys.
 LOG ENTRY: SOL 543',
-          ],
-          [
-            1,
-            '[16:09] The Martian - Andy Weir.epub (text/part0024.html) - 16 hours, 9 minutes',
-            "\x{201c}Time until MAV launch?\x{201d}
-\x{201c}<<16 hours, 9 minutes|14>>, 40 seconds... mark.\x{201d}
-\x{201c}Copy that. All stations: Flight Director shift change.\x{201d} He took his headset off and rubbed his eyes.",
           ],
           [
             1,

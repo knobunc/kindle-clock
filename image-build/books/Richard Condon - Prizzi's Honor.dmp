@@ -128,7 +128,7 @@ $VAR1 = [
           [
             1,
             "[ap 03:00] Prizzi's Honor - Richard Condon.epub (OEBPS/9780795335020_c12.htm) - three o\x{2019}clock",
-            "\x{201c}It\x{2019}s a contract on Sal Netturbino,\x{201d} he said. \x{201c}Waldorf, twenty-one hundred, at <<three o\x{2019}clock|6>>\x{2014}<<one hour and ten minutes|14>>\x{2014}he is expecting a woman he never saw. She won\x{2019}t get there. He\x{2019}ll think you are her.\x{201d}",
+            "\x{201c}It\x{2019}s a contract on Sal Netturbino,\x{201d} he said. \x{201c}Waldorf, twenty-one hundred, at <<three o\x{2019}clock|6>>\x{2014}one hour and ten minutes\x{2014}he is expecting a woman he never saw. She won\x{2019}t get there. He\x{2019}ll think you are her.\x{201d}",
           ],
           [
             1,
@@ -182,12 +182,12 @@ $VAR1 = [
             '[ap ~ 07:30] Prizzi\'s Honor - Richard Condon.epub (OEBPS/9780795335020_c16.htm) - about half-past-seven',
             "\x{201c}Mr. Williams wants to be sure that you are comped wherever you want to go, sir.\x{201d}
 \x{201c}That\x{2019}s different. Okay. Be out front <<about half-past-seven|10>> tonight.\x{201d}
-They agreed that it was the greatest honeymoon anyone had ever had. \x{201c}That sounds dopey,\x{201d} Irene said, \x{201c}but I would bet my next fee at <<thirteen to five|10a>> that the combined people of New York, Brooklyn, Detroit, Chicago, and LA, one on one, never got laid fifty-one times in five days and watched three people pulled out to sea by the undertow to drown right under their window.\x{201d}",
+They agreed that it was the greatest honeymoon anyone had ever had. \x{201c}That sounds dopey,\x{201d} Irene said, \x{201c}but I would bet my next fee at <<thirteen to five|10d>> that the combined people of New York, Brooklyn, Detroit, Chicago, and LA, one on one, never got laid fifty-one times in five days and watched three people pulled out to sea by the undertow to drown right under their window.\x{201d}",
           ],
           [
             1,
             '[ap 04:47] Prizzi\'s Honor - Richard Condon.epub (OEBPS/9780795335020_c16.htm) - thirteen to five',
-            "They agreed that it was the greatest honeymoon anyone had ever had. \x{201c}That sounds dopey,\x{201d} Irene said, \x{201c}but I would bet my next fee at <<thirteen to five|10a>> that the combined people of New York, Brooklyn, Detroit, Chicago, and LA, one on one, never got laid fifty-one times in five days and watched three people pulled out to sea by the undertow to drown right under their window.\x{201d}",
+            "They agreed that it was the greatest honeymoon anyone had ever had. \x{201c}That sounds dopey,\x{201d} Irene said, \x{201c}but I would bet my next fee at <<thirteen to five|10d>> that the combined people of New York, Brooklyn, Detroit, Chicago, and LA, one on one, never got laid fifty-one times in five days and watched three people pulled out to sea by the undertow to drown right under their window.\x{201d}",
           ],
           [
             1,

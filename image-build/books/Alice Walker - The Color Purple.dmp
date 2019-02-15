@@ -16,8 +16,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 07:55] The Color Purple - Alice Walker.epub (OEBPS/43-part37.xhtml) - five to eight',
-            'They put Sofia to work in the prison laundry. All day long from <<five to eight|10a:1>> she washing clothes. Dirty convict uniforms, nasty sheets and blankets piled way over her head. Us see her twice a month for half a hour. Her face yellow and sickly, her fingers look like fatty sausage.',
+            '[ap 05:00] The Color Purple - Alice Walker.epub (OEBPS/43-part37.xhtml) - five',
+            'They put Sofia to work in the prison laundry. All day long from <<five|20b>> to <<eight|20a>> she washing clothes. Dirty convict uniforms, nasty sheets and blankets piled way over her head. Us see her twice a month for half a hour. Her face yellow and sickly, her fingers look like fatty sausage.',
           ],
           [
             1,
@@ -47,7 +47,7 @@ $VAR1 = [
           [
             1,
             "[ap 05:00] The Color Purple - Alice Walker.epub (OEBPS/67-part61.xhtml) - five o\x{2019}clock",
-            "We are up at <<five o\x{2019}clock|6>> for a light breakfast of millet porridge and fruit, and the morning classes. We teach the children English, reading, writing, history, geography, arithmetic and the stories of the bible. At <<eleven o\x{2019}clock|6>> we break for lunch and household duties. From one until four it is too hot to move, though some of the mothers sit behind their huts and sew. At <<four o\x{2019}clock|6>> we teach the older children and at night we are available for adults. Some of the older children are used to coming to the mission school, but the smaller ones are not. Their mothers sometimes drag them here, screaming and kicking. They are all boys. Olivia is the only girl.",
+            "We are up at <<five o\x{2019}clock|6>> for a light breakfast of millet porridge and fruit, and the morning classes. We teach the children English, reading, writing, history, geography, arithmetic and the stories of the bible. At <<eleven o\x{2019}clock|6>> we break for lunch and household duties. From <<one|20b>> until <<four|20a>> it is too hot to move, though some of the mothers sit behind their huts and sew. At <<four o\x{2019}clock|6>> we teach the older children and at night we are available for adults. Some of the older children are used to coming to the mission school, but the smaller ones are not. Their mothers sometimes drag them here, screaming and kicking. They are all boys. Olivia is the only girl.",
           ],
           [
             1,

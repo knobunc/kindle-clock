@@ -40,7 +40,12 @@ The deck\x{2026}",
           ],
           [
             1,
-            '[ap 23:59] All Tomorrow\'s Parties - William Gibson.epub (AllTomorrowsParties/xhtml/chapter042.html) - one to twelve',
-            "There on the screen of the notebook, in the boy's lap, is a scan of a battered Rolex \x{201c}Victory,\x{201d} an inexpensive wartime model for the Canadian market, worth a fair bit now but not in this condition. The steel case looks rough and the dial has faded unevenly. Black Arabics from <<one to twelve|10a:0>> are crisp, but the inner chapter, red, European time, is almost gone.",
+            '[ap 01:00] All Tomorrow\'s Parties - William Gibson.epub (AllTomorrowsParties/xhtml/chapter042.html) - one',
+            "There on the screen of the notebook, in the boy's lap, is a scan of a battered Rolex \x{201c}Victory,\x{201d} an inexpensive wartime model for the Canadian market, worth a fair bit now but not in this condition. The steel case looks rough and the dial has faded unevenly. Black Arabics from <<one|20b>> to <<twelve|20a>> are crisp, but the inner chapter, red, European time, is almost gone.",
+          ],
+          [
+            1,
+            '[ap 00:30] All Tomorrow\'s Parties - William Gibson.epub (AllTomorrowsParties/xhtml/chapter054.html) - half of one',
+            'LANEY drinks <<half of one|10>> of the bottles of cough syrup, chews and swallows a <<third of one|10>> of the candy bars, and washes this down with a swallow of the lukewarm cola.',
           ],
         ];

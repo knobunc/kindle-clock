@@ -9,12 +9,12 @@ $VAR1 = [
             '[ap > 05:00] Curses! - Aaron Elkins.epub (index_split_006.html) - A little after five',
             "Howard nodded curtly and waited for them to go. \x{201c}Now, the rest of you go on back and get some dinner. Gideon, you and Leo take the next shift. Be back at\x{2014}what time is it now, anyway?\"
 \"<<A little after five|9:1>>,\x{201d} Worthy told him.
-\"Okay, be back at <<nine|9c:1>>. Worthy and Joe, you're on at <<one to four|10a>>. Then you and me, Preston, from <<four to eight|10a:1>>.\x{201d} He paused and looked accommodatingly at Gideon. \x{201c}How's that? Does that meet with your approval?\"",
+\"Okay, be back at <<nine|9c:1>>. Worthy and Joe, you're on at <<one to four|10d>>. Then you and me, Preston, from <<four|20b>> to <<eight|20a>>.\x{201d} He paused and looked accommodatingly at Gideon. \x{201c}How's that? Does that meet with your approval?\"",
           ],
           [
             1,
             '[ap 09:00] Curses! - Aaron Elkins.epub (index_split_006.html) - nine',
-            "\"Okay, be back at <<nine|9c:1>>. Worthy and Joe, you're on at <<one to four|10a>>. Then you and me, Preston, from <<four to eight|10a:0>>.\x{201d} He paused and looked accommodatingly at Gideon. \x{201c}How's that? Does that meet with your approval?\"",
+            "\"Okay, be back at <<nine|9c:1>>. Worthy and Joe, you're on at <<one to four|10d>>. Then you and me, Preston, from <<four|20b>> to <<eight|20a>>.\x{201d} He paused and looked accommodatingly at Gideon. \x{201c}How's that? Does that meet with your approval?\"",
           ],
           [
             1,
@@ -26,7 +26,7 @@ $VAR1 = [
           [
             1,
             '[ap 08:50] Curses! - Aaron Elkins.epub (index_split_006.html) - ten to nine',
-            'It was <<ten to nine|10a>>. They had returned to the site under a sultry, darkening sky to find the work shed empty, Howard and Worthy nowhere to be seen. On the work table was the empty, cracked holster of the old .32 caliber revolver that Howard kept at the site as protection against bandidos. The lights were on, the generator humming. An opened but untouched bottle of Coca-Cola rested on the floor near a chair.',
+            'It was <<ten to nine|10d>>. They had returned to the site under a sultry, darkening sky to find the work shed empty, Howard and Worthy nowhere to be seen. On the work table was the empty, cracked holster of the old .32 caliber revolver that Howard kept at the site as protection against bandidos. The lights were on, the generator humming. An opened but untouched bottle of Coca-Cola rested on the floor near a chair.',
           ],
           [
             1,

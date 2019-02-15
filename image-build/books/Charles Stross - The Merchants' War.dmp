@@ -48,13 +48,13 @@ $VAR1 = [
             1,
             '[ap 06:30] The Merchants\' War - Charles Stross.epub (OEBPS/Text/index_split_011.xhtml) - half-past six',
             '"Ow, you cruel, heartless man!" She struggled to sit up, covering her eyes. "What time is it?"
-"It\'s <<half-past six|10>>, and we need to be on the train at <<ten to eight|10a>>."
+"It\'s <<half-past six|10>>, and we need to be on the train at <<ten to eight|10d>>."
 "Ouch. Okay, I\'m awake already!" She squinted into the light. Burgeson was fully dressed, if a bit rumpled-looking. "The chaise was a bit cramped?"',
           ],
           [
             1,
             '[ap 06:50] The Merchants\' War - Charles Stross.epub (OEBPS/Text/index_split_011.xhtml) - ten to seven',
-            '"Possibly. And then again, it might just be routine. Let me help you." Erasmus passed her hat down from the coat rack, then gathered up her two shopping bags. "The sooner we\'re out of town the better. There\'s a train at <<ten to seven|10a>>, and we can just catch it if we make haste."',
+            '"Possibly. And then again, it might just be routine. Let me help you." Erasmus passed her hat down from the coat rack, then gathered up her two shopping bags. "The sooner we\'re out of town the better. There\'s a train at <<ten to seven|10d>>, and we can just catch it if we make haste."',
           ],
           [
             1,
@@ -75,6 +75,11 @@ $VAR1 = [
             1,
             '[ap 04:10] The Merchants\' War - Charles Stross.epub (OEBPS/Text/index_split_014.xhtml) - ten past four',
             '"Okay..." Brill picked up her bag and scouted the top floor briefly, then returned to the kitchen. The carton of half-and-half in the fridge was fresh, and there was a neat pile of unopened mail on the tabletop, the most recent postmarked the day before. And there was no dust. She checked her watch: <<ten past four|10>>. Might as well wait, she thought, and began to set up the coffee machine.',
+          ],
+          [
+            1,
+            '[b 20:30] The Merchants\' War - Charles Stross.epub (OEBPS/Text/index_split_014.xhtml) - one bell',
+            'Heidlor shrugged. "Before sundown, I would say, sir. Perhaps in as little as <<one bell|15>>."',
           ],
           [
             1,

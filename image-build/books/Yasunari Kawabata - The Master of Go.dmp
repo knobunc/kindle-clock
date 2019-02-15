@@ -6,11 +6,6 @@ $VAR1 = [
           ],
           [
             1,
-            '[19:57] The Master of Go - Yasunari Kawabata.epub (Ops/006.html) - nineteen hours and fifty-seven minutes',
-            '"White - <<nineteen hours and fifty-seven minutes|14>>. Three minutes more, sir, and it would have been exactly half the time you were allowed," said the youth who was keeping the records. "Black used thirty-four hours and nineteen minutes."',
-          ],
-          [
-            1,
             '[ap < 03:00] The Master of Go - Yasunari Kawabata.epub (Ops/006.html) - almost three',
             'It was <<almost three|3b>> when the game ended. The maid came with tea. The company sat in silence, all eyes on the Go board.',
           ],
@@ -46,23 +41,18 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 03:58] The Master of Go - Yasunari Kawabata.epub (Ops/015.html) - two to four',
-            "If the Master did not know of the move to Hakon\x{e9} today, well, that was that. There was a gathering in another room, there were nervous footsteps in the corridors, Otak\x{e9} disappeared for a long interval. Having nothing better to do, I waited beside the Go board. Soon after what would ordinarily have been lunch time, a compromise was reached: today's session would be from <<two to four|10a:0>>, and with two days' rest the party would go to Hakon\x{e9}.",
+            '[ap 02:00] The Master of Go - Yasunari Kawabata.epub (Ops/015.html) - two',
+            "If the Master did not know of the move to Hakon\x{e9} today, well, that was that. There was a gathering in another room, there were nervous footsteps in the corridors, Otak\x{e9} disappeared for a long interval. Having nothing better to do, I waited beside the Go board. Soon after what would ordinarily have been lunch time, a compromise was reached: today's session would be from <<two|20b>> to <<four|20a>>, and with two days' rest the party would go to Hakon\x{e9}.",
           ],
           [
             1,
-            '[ap 03:30] The Master of Go - Yasunari Kawabata.epub (Ops/015.html) - three hours and a half',
-            "It astonished the managers, and myself as well, that Otak\x{e9} deliberated his first move at It\x{14d}, when the game was resumed after a three-month recess, for two hundred and eleven minutes - a full <<three hours and a half|14a:1>>. He began his deliberations at <<ten thirty in the morning|5>>, and with a <<noon|13>> recess of an hour and a half, finally played when the autumn sun was sinking and an electric light hung over the board.",
+            '[10:30] The Master of Go - Yasunari Kawabata.epub (Ops/015.html) - ten thirty in the morning',
+            "It astonished the managers, and myself as well, that Otak\x{e9} deliberated his first move at It\x{14d}, when the game was resumed after a three-month recess, for two hundred and eleven minutes - a full three hours and a half. He began his deliberations at <<ten thirty in the morning|5>>, and with a <<noon|13>> recess of an hour and a half, finally played when the autumn sun was sinking and an electric light hung over the board.",
           ],
           [
             1,
             '[ap 02:40] The Master of Go - Yasunari Kawabata.epub (Ops/015.html) - twenty minutes before three',
             'It was at <<twenty minutes before three|10>> that he finally played Black 101.',
-          ],
-          [
-            1,
-            '[ap 03:30] The Master of Go - Yasunari Kawabata.epub (Ops/015.html) - three hours and a half',
-            "Probably it was the truth. Probably in those <<three hours and a half|14a:1>> Otak\x{e9} was not only deliberating his play; he was bringing himself back to the board after a three-month absence, and doing his best to map out the finished game, through all the stages and formations it was likely to take.",
           ],
           [
             1,
@@ -91,11 +81,6 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 03:35] The Master of Go - Yasunari Kawabata.epub (Ops/019.html) - three hours and thirty-five minutes',
-            "With time out for lunch, Otak\x{e9} took <<three hours and thirty-five minutes|14>> to play Black 59.",
-          ],
-          [
-            1,
             '[15:00] The Master of Go - Yasunari Kawabata.epub (Ops/019.html) - three in the afternoon',
             'It was <<three in the afternoon|5>>. The Master was having an ice. He deliberated for twenty minutes. Apparently Black 63 struck him as a trifle unorthodox.',
           ],
@@ -103,31 +88,6 @@ $VAR1 = [
             1,
             '[ap 04:30] The Master of Go - Yasunari Kawabata.epub (Ops/020.html) - half past four',
             "On July 16 Otak\x{e9} sealed the last play, Black 43, at <<half past four|10>>. Informed that there had been a total of sixteen plays in the course of the day, the Master found the statement hard to accept.",
-          ],
-          [
-            1,
-            '[ap 04:38] The Master of Go - Yasunari Kawabata.epub (Ops/020.html) - four hours and thirty-eight minutes',
-            'Through the fourth session, on July 16, White had used <<four hours and thirty-eight minutes|14>>, and Black <<six hours and fifty-two minutes|14>>. At the end of the fifth session, on July 21, the difference was even greater: <<five hours and fifty-seven minutes|14>> for White, <<ten hours and twenty-eight minutes|14>> for Black.',
-          ],
-          [
-            1,
-            '[ap 08:32] The Master of Go - Yasunari Kawabata.epub (Ops/020.html) - eight hours and thirty-two minutes',
-            'At the end of the sixth session, on July 31{17}, White had used <<eight hours and thirty-two minutes|14>>, Black <<twelve hours and forty-three minutes|14>>; and at the end of the seventh on August 5, White had used <<ten hours and thirty-one minutes|14>>, Black <<fifteen hours and forty-five minutes|14>>.',
-          ],
-          [
-            1,
-            '[14:58] The Master of Go - Yasunari Kawabata.epub (Ops/020.html) - fourteen hours and fifty-eight minutes',
-            'But by the tenth session, on August 14, the distance had narrowed: White had used <<fourteen hours and fifty-eight minutes|14>> as against Black\'s <<seventeen hours and forty-seven minutes|14>>. It was on that day, after sealing White 100, that the Master went into St. Luke\'s Hospital. Struggling bravely on despite his illness, he had used <<two hours and seven minutes|14>> for a single play, White 90, on August 5.',
-          ],
-          [
-            1,
-            '[19:57] The Master of Go - Yasunari Kawabata.epub (Ops/020.html) - nineteen hours and fifty-seven minutes',
-            "When finally the match ended on December 4, there was an uncomfortable difference of some fourteen or fifteen hours between the two. Sh\x{16b}sai the Master had used <<nineteen hours and fifty-seven minutes|14>>, and Otak\x{e9} of the Seventh Rank had used thirty-four hours and nineteen minutes.",
-          ],
-          [
-            1,
-            '[19:57] The Master of Go - Yasunari Kawabata.epub (Ops/021.html) - Nineteen hours and fifty-seven minutes',
-            "<<Nineteen hours and fifty-seven minutes|14>> would be very near the time allotted both players in an ordinary match, but the Master still had more than twenty hours left. Otak\x{e9} with his thirty-four hours and nineteen minutes still had almost six hours.",
           ],
           [
             1,
@@ -143,11 +103,6 @@ $VAR1 = [
             1,
             '[12:00] The Master of Go - Yasunari Kawabata.epub (Ops/024.html) - noon',
             'But the Master played White 70 as soon as he returned from lunch. It was all too clear that he had made use of the <<noon|13>> recess, not charged against his time allotment; but the trickery was not in the Master to conceal the misdemeanor by pretending to deliberate his first afternoon play. The penalty was that he had spent the recess gazing into space.',
-          ],
-          [
-            1,
-            '[ap 02:07] The Master of Go - Yasunari Kawabata.epub (Ops/025.html) - two hours and seven minutes',
-            "That aggressive Black 69 has been described as \"a diabolic stroke.\" The Master himself said afterwards that it had the sort of ferocity Otak\x{e9} was known for. Everything depended upon the White response. If it proved inadequate, White could quite easily have lost control of the board. The Master deliberated an hour and forty-six minutes over White 70. His longest period of meditation came ten days later, on August 5, when he spent <<two hours and seven minutes|14>> on White 90. White 70 was his second slowest play.",
           ],
           [
             1,
@@ -177,7 +132,7 @@ $VAR1 = [
           [
             1,
             '[12:00] The Master of Go - Yasunari Kawabata.epub (Ops/027.html) - Noon',
-            "White 88, the sealed play, was opened. Otak\x{e9} played Black 89 at forty-eight minutes past the hour. <<Noon|13>> came, an hour and a half passed, and still the Master had not decided on White 90. In great physical discomfort, he took an extraordinary <<two hours and seven minutes|14>> for the play. The whole time he sat bolt upright. The swelling seemed to leave his face. Finally it was decided to recess for lunch.",
+            "White 88, the sealed play, was opened. Otak\x{e9} played Black 89 at forty-eight minutes past the hour. <<Noon|13>> came, an hour and a half passed, and still the Master had not decided on White 90. In great physical discomfort, he took an extraordinary two hours and seven minutes for the play. The whole time he sat bolt upright. The swelling seemed to leave his face. Finally it was decided to recess for lunch.",
           ],
           [
             1,
@@ -208,11 +163,6 @@ Black 99 had \"peeped\" upon the White triangle, and White 100 joined the threat
           ],
           [
             1,
-            '[ap 04:14] The Master of Go - Yasunari Kawabata.epub (Ops/038.html) - four hours and fourteen minutes',
-            "The Master had used only ten minutes, and Otak\x{e9} <<four hours and fourteen minutes|14>>. In all Otak\x{e9} had used <<twenty-one hours and twenty minutes|14>>, more than half the unprecedented forty-hour allotment.",
-          ],
-          [
-            1,
             '[10:00] The Master of Go - Yasunari Kawabata.epub (Ops/039.html) - ten in the morning',
             "Four-day recesses had been agreed upon, and the agreement had been honoured at Hakon\x{e9}. The recesses were of course to recover from the strain of a session, but for the Master, sealed in at the Naraya as required by the \"canning\" system, they had the perverse effect of adding to the strain. As the Master's condition became serious, there had been talk of shortening the recesses. Otak\x{e9} had stubbornly rejected any such proposals. His one concession had been to move the last Hakon\x{e9} session up a day. It had been limited to the Master's White 100; and although the schedule itself was on the whole maintained, the plan of having the sessions last from <<ten in the morning|5>> until <<four in the afternoon|5>> was abandoned.",
           ],
@@ -220,11 +170,6 @@ Black 99 had \"peeped\" upon the White triangle, and White 100 joined the threat
             1,
             '[16:00] The Master of Go - Yasunari Kawabata.epub (Ops/039.html) - four in the afternoon',
             "Though threatening to forfeit the game, Otak\x{e9} had remained sealed up at the inn, and I was fairly sure that he would presently be coaxed into a compromise. On the twenty-third a compromise was in fact reached: there would be play every three days, and the sessions would end at <<four in the afternoon|5>>. The compromise came on the fifth day after the first It\x{14d} session.",
-          ],
-          [
-            1,
-            '[ap 02:43] The Master of Go - Yasunari Kawabata.epub (Ops/041.html) - two hours and forty-three minutes',
-            "Now the offensive had passed to White. A stern, intent expression on his face, the Master closed his eyes and breathed deeply. In the course of the session his face had taken on a coppery flush. His cheeks twitched. He seemed to hear neither the wind nor the drum{38} of a passing pilgrim. Yet he took forty-seven minutes for his next play. It was his one prolonged period of deliberation during the It\x{14d} sessions. Otak\x{e9} took <<two hours and forty-three minutes|14>> for Black 109, which became the sealed play. The match had advanced only four plays. Otak\x{e9} had used <<three hours and forty-six minutes|14>>, the Master but forty-nine minutes.",
           ],
           [
             1,
@@ -260,11 +205,6 @@ Black 99 had \"peeped\" upon the White triangle, and White 100 joined the threat
             1,
             '[15:43] The Master of Go - Yasunari Kawabata.epub (Ops/042.html) - three forty-three in the afternoon',
             'After meditating on the problem for an hour and forty-four minutes, he sealed his Black 121 at <<three forty-three in the afternoon|5>>.',
-          ],
-          [
-            1,
-            '[ap 11:48] The Master of Go - Yasunari Kawabata.epub (Ops/042.html) - eleven hours and forty-eight minutes',
-            "For the twenty-one plays during the three It\x{14d} sessions, Black 101 to Black 121, Otak\x{e9} had used <<eleven hours and forty-eight minutes|14>>. The Master had used only <<one hour and thirty-seven minutes|14>>. Had it been an ordinary match, Otak\x{e9} would have exhausted his time allotment on a mere eleven plays.",
           ],
           [
             1,

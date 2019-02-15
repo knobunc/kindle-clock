@@ -218,8 +218,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[12:00] Shogun - James Clavell.epub (OEBPS/Clav_9780307490896_epub_c50_r1.htm) - high noon',
-            "Gongs sounded the hour change. For the first time his mind told him this was the middle of the Hour of the Horse, and not eight bells of this watch\x{2014}<<high noon|13>>.",
+            '[b 0:00] Shogun - James Clavell.epub (OEBPS/Clav_9780307490896_epub_c50_r1.htm) - eight bells',
+            "Gongs sounded the hour change. For the first time his mind told him this was the middle of the Hour of the Horse, and not <<eight bells|15>> of this watch\x{2014}<<high noon|13>>.",
           ],
           [
             1,
@@ -290,8 +290,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[12:00] Shogun - James Clavell.epub (OEBPS/Clav_9780307490896_epub_c54_r1.htm) - high noon',
-            'The duty helmsman turned the hourglass and rang eight bells. It was <<high noon|13>>.',
+            '[b 0:00] Shogun - James Clavell.epub (OEBPS/Clav_9780307490896_epub_c54_r1.htm) - eight bells',
+            'The duty helmsman turned the hourglass and rang <<eight bells|15>>. It was <<high noon|13>>.',
           ],
           [
             1,
@@ -300,8 +300,8 @@ $VAR1 = [
           ],
           [
             1,
-            '[ap 03:00] Shogun - James Clavell.epub (OEBPS/Clav_9780307490896_epub_c56_r1.htm) - three of the clock',
-            "\x{201c}Yes. Understand.\x{201d} Bells tolled the hour change. The time rang in all their heads, the beginning of the Hour of the Monkey, six bells of the afternoon watch, <<three of the clock|6>>. Many turned to the sun and, without thinking, measured it.",
+            '[b 15:00] Shogun - James Clavell.epub (OEBPS/Clav_9780307490896_epub_c56_r1.htm) - six bells of the afternoon watch',
+            "\x{201c}Yes. Understand.\x{201d} Bells tolled the hour change. The time rang in all their heads, the beginning of the Hour of the Monkey, <<six bells of the afternoon watch|15>>, <<three of the clock|6>>. Many turned to the sun and, without thinking, measured it.",
           ],
           [
             1,

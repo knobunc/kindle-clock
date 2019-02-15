@@ -1,6 +1,11 @@
 $VAR1 = [
           [
             1,
+            '[00:00] Lost in Math_ How Beauty Leads Physics Ast - Sabine Hossenfelder.epub (OEBPS/appendix002.xhtml) - 0',
+            "To better see why this criterion is circular, think of a probability distribution on the interval from <<0|20b>> to <<1|20a>> that is peaked around some value with a width of, say, 10\x{2212}10. \x{201c}There,\x{201d} you exclaim, \x{201c}you have introduced a small number! That\x{2019}s fine-tuned!\x{201d} Not so fast. It\x{2019}s fine-tuned according to a uniform probability distribution. But I\x{2019}m not using a uniform distribution; I\x{2019}m using a sharply peaked one. And if you use this distribution, then it is very likely that two randomly selected numbers are at a distance of 10\x{2212}10. \x{201c}But,\x{201d} you say, \x{201c}that\x{2019}s a circular argument.\x{201d} Right, but that was my point, not yours. The sharply peaked probability distribution justifies itself as much or as little as the uniform distribution does. So which one is better?",
+          ],
+          [
+            1,
             '[20:00] Lost in Math_ How Beauty Leads Physics Ast - Sabine Hossenfelder.epub (OEBPS/chapter001.xhtml) - 2000',
             "It hasn\x{2019}t happened. No evidence for susy was found at the Large Electron Positron (LEP) collider, which ran until <<2000|9c:0>>. Neither was anything found at the Tevatron, a collider that reached higher energies than LEP and that ran until <<2011|9c:0>>. The even more powerful LHC, which reused LEP\x{2019}s tunnel, has been running since 2008, but susy hasn\x{2019}t shown up.",
           ],
@@ -38,11 +43,6 @@ $VAR1 = [
             1,
             '[20:12] Lost in Math_ How Beauty Leads Physics Ast - Sabine Hossenfelder.epub (OEBPS/chapter006.xhtml) - 2012',
             "Weinberg\x{2019}s Lectures on Quantum Mechanics was a latecomer among his textbooks, not appearing until <<2012|9c:0>>. Since then he has also published several papers about how to probe or better understand the foundations of quantum mechanics. It is clearly a topic that has been on his mind lately. I wonder why he began pursuing this line of research. What makes this a good problem to think about, given all the possible problems he could be thinking about?",
-          ],
-          [
-            1,
-            '[ap 08:35] Lost in Math_ How Beauty Leads Physics Ast - Sabine Hossenfelder.epub (OEBPS/chapter008.xhtml) - twenty-five to nine',
-            "Next, string theorists discovered that supersymmetry was necessary to keep the vacuum of their theory from decaying. This brought down the total number of dimensions from <<twenty-five to nine|10a:0>> (plus one time dimension), but the need for compactification remained. Since no supersymmetric particles had been observed, string theorists assumed that supersymmetry is broken at high energies, so superpartners, should they exist, wouldn\x{2019}t yet have been seen.",
           ],
           [
             1,

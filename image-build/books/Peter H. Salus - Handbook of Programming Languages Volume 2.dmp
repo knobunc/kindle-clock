@@ -42,7 +42,7 @@ $VAR1 = [
           [
             1,
             '[ap 09:59] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (096-098.html) - a of 10',
-            'declares an array <<a of 10|10>> ints. All arrays in C are 0-based, so the 10 elements of the array a are numbered from <<0 to 9|10a:0>>.',
+            'declares an array <<a of 10|10>> ints. All arrays in C are 0-based, so the 10 elements of the array a are numbered from <<0|20b>> to <<9|20a>>.',
           ],
           [
             1,
@@ -58,13 +58,13 @@ and',
           ],
           [
             1,
-            '[23:59] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (113-115.html) - 1 to 0',
-            "The exclusive-OR operator ^ has an \x{201c}information preserving\x{201d} property (roughly speaking, it changes as many 0\x{2019}s to 1\x{2019}s as it changes 1\x{2019}s to 0\x{2019}s), which makes it useful in several situations. Returning to the bit flags example, the expression flags = flags ^ 0x10 toggles the fifth bit from 0 to 1 or from <<1 to 0|10a:0>>. If val is a data value and key is an encryption key, the expression xval = val ^ key yields a scrambled value xval with the property that the original value can be recovered simply by computing xval ^ key. (This rudimentary example has almost no security, but it forms the basis of many useful encryption algorithms, especially those that are self inverse.) If val1, val2, and val3 are three values that are to be transmitted via an unreliable communications channel, the expression val4x = val1 ^ val2 ^ val3 computes a fourth value, which, if it is transmitted along with the first three, can be used to recover any of them. For example, if it is discovered that val2 was damaged in transit, the expression val1 ^ val3 ^ val4x recovers val2.",
+            '[00:00] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (113-115.html) - 0',
+            "The exclusive-OR operator ^ has an \x{201c}information preserving\x{201d} property (roughly speaking, it changes as many 0\x{2019}s to 1\x{2019}s as it changes 1\x{2019}s to 0\x{2019}s), which makes it useful in several situations. Returning to the bit flags example, the expression flags = flags ^ 0x10 toggles the fifth bit from <<0|20b>> to <<1|20a>> or from <<1|20b>> to <<0|20a>>. If val is a data value and key is an encryption key, the expression xval = val ^ key yields a scrambled value xval with the property that the original value can be recovered simply by computing xval ^ key. (This rudimentary example has almost no security, but it forms the basis of many useful encryption algorithms, especially those that are self inverse.) If val1, val2, and val3 are three values that are to be transmitted via an unreliable communications channel, the expression val4x = val1 ^ val2 ^ val3 computes a fourth value, which, if it is transmitted along with the first three, can be used to recover any of them. For example, if it is discovered that val2 was damaged in transit, the expression val1 ^ val3 ^ val4x recovers val2.",
           ],
           [
             1,
-            '[ap 09:00] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (130-132.html) - 0 to 9',
-            'initializes i to 0, loops as long as i is less than 10, and increments i by one after each trip through the loop. Ten values of i are therefore printed, from <<0 to 9|10a:0>>, inclusive.',
+            '[00:00] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (130-132.html) - 0',
+            'initializes i to 0, loops as long as i is less than 10, and increments i by one after each trip through the loop. Ten values of i are therefore printed, from <<0|20b>> to <<9|20a>>, inclusive.',
           ],
           [
             1,
@@ -452,8 +452,8 @@ program fig29; { demonstration of the PRNG, distribution of 100 pseudo-randomly 
           ],
           [
             1,
-            '[23:59] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (290-293.html) - 1 to 0',
-            'In using the boolean operators, the patterns of the answers can reveal the use of these operators. AND can be used quite well to test the existence of a bit or bits at specific positions. Note in the example for AND that the bytes which remain 1s or true are the ones that appear in both columns. With the OR example, any bits that are true and dissimilar are forced to true. In the XOR example, it could that in the positions the 1s are in the second object of the operator, the bits were toggled from <<1 to 0|10a:0>>, or 0 to 1. A coded example of the boolean bit operators and bit shifting are shown in Listing <<5.30|5a:0>>.',
+            '[ap 01:00] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (290-293.html) - 1',
+            'In using the boolean operators, the patterns of the answers can reveal the use of these operators. AND can be used quite well to test the existence of a bit or bits at specific positions. Note in the example for AND that the bytes which remain 1s or true are the ones that appear in both columns. With the OR example, any bits that are true and dissimilar are forced to true. In the XOR example, it could that in the positions the 1s are in the second object of the operator, the bits were toggled from <<1|20b>> to <<0|20a>>, or <<0|20a>> to <<1|20a>>. A coded example of the boolean bit operators and bit shifting are shown in Listing <<5.30|5a:0>>.',
           ],
           [
             1,
@@ -582,14 +582,14 @@ program fig40; uses crt; var origmode: integer; procedure screen(inptype: string
           ],
           [
             1,
-            '[15:00] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (306-308.html) - 0 to 15',
-            "textcolor(color)\x{2014}Sets a foreground color from <<0 to 15|10a:0>>, as listed below",
+            '[00:00] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (306-308.html) - 0',
+            "textcolor(color)\x{2014}Sets a foreground color from <<0|20b>> to <<15|20a>>, as listed below",
           ],
           [
             1,
-            '[15:00] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (306-308.html) - 0 to 15',
-            "textcolor(color)\x{2014}Sets a foreground color from <<0 to 15|10a:0>>, as listed below
-textbackground(color)\x{2014}Sets a background color from <<0 to 8|10a:0>>
+            '[00:00] Handbook of Programming Languages Volume 2 - Peter H. Salus.epub (306-308.html) - 0',
+            "textcolor(color)\x{2014}Sets a foreground color from <<0|20b>> to <<15|20a>>, as listed below
+textbackground(color)\x{2014}Sets a background color from <<0|20b>> to <<8|20a>>
 highvideo, normvideo\x{2014}All these, as implied, change intensity of video",
           ],
           [

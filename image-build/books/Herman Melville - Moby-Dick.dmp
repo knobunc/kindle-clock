@@ -1,13 +1,13 @@
 $VAR1 = [
           [
             1,
-            '[ap 05:56] Moby-Dick - Herman Melville.epub (OEBPS/bano_9781593080181_oeb_bm2_r1.html) - 4 to 6',
-            'Dog-watches. Half watches of two hours each, from <<4 to 6|10a:1>>, and from <<6 to 8 P.M.|10>> (See Watch.)',
+            '[ap 04:00] Moby-Dick - Herman Melville.epub (OEBPS/bano_9781593080181_oeb_bm2_r1.html) - 4',
+            'Dog-watches. Half watches of two hours each, from <<4|20b>> to <<6|20a>>, and from 6 to <<8 P.M.|5>> (See Watch.)',
           ],
           [
             1,
-            '[ap 05:56] Moby-Dick - Herman Melville.epub (OEBPS/bano_9781593080181_oeb_bm2_r1.html) - 4 to 6',
-            "Watch. A division of time on board ship. There are seven watches in a day, reckoning from 12 M. round through the 24 hours, five of them being of four hours each, and the two others, called dog watches, of two hours each, viz., from <<4 to 6|10a:1>>, and from <<6 to 8 P.M.|10>> (See Dog watch.) Also, a certain portion of a ship\x{2019}s company, appointed to stand a given length of time. In the merchant service all hands are divided into two watches, larboard and starboard, with a mate to command each.A buoy is said to watch when it floats on the surface.",
+            '[ap 04:00] Moby-Dick - Herman Melville.epub (OEBPS/bano_9781593080181_oeb_bm2_r1.html) - 4',
+            "Watch. A division of time on board ship. There are seven watches in a day, reckoning from 12 M. round through the 24 hours, five of them being of four hours each, and the two others, called dog watches, of two hours each, viz., from <<4|20b>> to <<6|20a>>, and from 6 to <<8 P.M.|5>> (See Dog watch.) Also, a certain portion of a ship\x{2019}s company, appointed to stand a given length of time. In the merchant service all hands are divided into two watches, larboard and starboard, with a mate to command each.A buoy is said to watch when it floats on the surface.",
           ],
           [
             1,
@@ -237,6 +237,18 @@ HARPOONEERS AND SAILORS.',
           ],
           [
             1,
+            '[b 0:00] Moby-Dick - Herman Melville.epub (OEBPS/bano_9781593080181_oeb_c40_r1.html) - Eight bells',
+            "MATE\x{2019}S VOICE FROM THE QUARTER-DECK.
+<<Eight bells|15>> there, forward!
+2D NANTUCKET SAILOR.",
+          ],
+          [
+            1,
+            '[b 0:00] Moby-Dick - Herman Melville.epub (OEBPS/bano_9781593080181_oeb_c40_r1.html) - Eight bells',
+            "Avast the chorus! <<Eight bells|15>> there! d\x{2019}ye hear, bell boy? Strike the bell eight, thou Pip! thou blackling! and let me call the watch. I\x{2019}ve the sort of mouth for that\x{2014}the hogshead mouth. So, so, (thrusts his head down the scuttle,) Star\x{2014}bo-l-e-e-n-s, a-h-o-y! <<Eight bells|15>> there below! Tumble up!",
+          ],
+          [
+            1,
             '[12:00] Moby-Dick - Herman Melville.epub (OEBPS/bano_9781593080181_oeb_c41_r1.html) - high noon',
             'The rest of his body was so streaked, and spotted, and marbled with the same shrouded hue, that, in the end, he had gained his distinctive appellation of the White Whale; a name, indeed, literally justified by his vivid aspect, when seen gliding at <<high noon|13>> through a dark blue sea, leaving a milky-way wake of creamy foam, all spangled with golden gleamings.',
           ],
@@ -284,11 +296,6 @@ HARPOONEERS AND SAILORS.',
             1,
             '[~ 00:00] Moby-Dick - Herman Melville.epub (OEBPS/bano_9781593080181_oeb_c64_r1.html) - About midnight',
             "<<About midnight|13>> that steak was cut and cooked; and lighted by two lanterns of Sperm oil, Stubb stoutly stood up to his spermaceti supper at the capstan-head,fm as if that capstan were a sideboard. Nor was Stubb the only banqueter on whale\x{2019}s flesh that night. Mingling their mumblings with his own mastications, thousands on thousands of sharks, swarming round the dead leviathan, smackingly feasted on its fatness. The few sleepers below in their bunks were often startled by the sharp slapping of their tails against the hull, within a few inches of the sleepers\x{2019} hearts. Peering over the side you could just see them (as before you heard them) wallowing in the sullen, black waters, and turning over on their backs as they scooped out huge globular pieces of the whale of the bigness of a human head. This particular feat of the shark seems all but miraculous. How, at such an apparently unassailable surface, they contrive to gouge out such symmetrical mouthfuls, remains a part of the universal problem of all things. The mark they thus leave on the whale may best be likened to the hollow made by a carpenter in countersinking for a screw.",
-          ],
-          [
-            1,
-            '[ap - 23:50] Moby-Dick - Herman Melville.epub (OEBPS/bano_9781593080181_oeb_c68_r1.html) - eight or ten to twelve',
-            'The question is, what and where is the skin of the whale? Already you know what his blubber is. That blubber is something of the consistence of firm, close-grained beef, but tougher, more elastic and compact, and ranges from <<eight or ten to twelve|10a:0>> and fifteen inches in thickness.',
           ],
           [
             1,
