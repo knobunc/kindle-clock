@@ -56,7 +56,7 @@ do_update() {
 
     # Sync the time
     add_status "Set the clock...         "
-    ping -c 1 pool.ntp.org && ntpdate pool.ntp.org
+    utils/set-clock.sh
 
     add_status "Update complete.         "
     rm updatestatus
