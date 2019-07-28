@@ -13,7 +13,7 @@
 RSYNC_SOURCE="fiji@limey.net:kindle/kindle-clock"
 
 # The target filesystem doesn't allow modification of mtime, setting of user, or setting of permissions
-RSYNC_OPTIONS="-vi -rltD --omit-dir-times -e 'ssh -o StrictHostKeyChecking=no'"
+RSYNC_OPTIONS="-vi -rltD --omit-dir-times"
 
 add_status()
 {
