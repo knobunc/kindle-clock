@@ -37,6 +37,9 @@ do_update() {
     add_status "Updating utils...        "
     /usr/bin/rsync $RSYNC_OPTIONS --delete-delay --delay-updates "${RSYNC_SOURCE}/utils/" utils
 
+    # Update the ssh options
+    /usr/bin/rsync $RSYNC_OPTIONS --delay-updates "${RSYNC_SOURCE}/etc/ssh_config" usbnet/etc/ssh_config
+
     # Update all of the files in timelit and completely replace them with the new stuff
     # BUT ignore the images, we do that later
     # AND do not update the showsource and clockisticking state files
